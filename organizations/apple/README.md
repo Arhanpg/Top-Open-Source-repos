@@ -4,7 +4,7 @@
 - **Company mapping:** candidate account; individual account ownership and project relationships should be checked against Apple's official developer and open-source pages.
 - **Source group:** United States & Global
 - **Directory status:** initialized; public repository inventory not exhaustive
-- **Detailed README records:** 2
+- **Detailed README records:** 6
 
 ## Reviewed projects
 
@@ -31,3 +31,8 @@ The Apple organization folder contains only projects whose README pages have bee
 - [Apple GitHub account](https://github.com/apple)
 - [Apple open-source website](https://opensource.apple.com/)
 - [Apple repository index in this catalogue](repositories/README.md)
+
+
+## Additional README-reviewed projects — 23 November 2026
+
+Four further Apple-account projects now have individual technical briefs: XNU/Darwin kernel, SwiftNIO, Swift Algorithms and Core ML Tools. The pages distinguish kernel source, networking primitives, collection algorithms and model-conversion tooling. SwiftNIO's README lifecycle note for SwiftNIO 1 is preserved. See the [repository index](repositories/README.md).
