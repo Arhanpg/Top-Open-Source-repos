@@ -1,0 +1,75 @@
+# rapidsai/build-planning
+
+- Company: NVIDIA
+- GitHub account: [https://github.com/rapidsai](https://github.com/rapidsai)
+- Mapping status: official-project-linked
+- Repository: [rapidsai/build-planning](https://github.com/rapidsai/build-planning)
+- Default branch: main
+- README: [Open upstream README](https://github.com/rapidsai/build-planning/blob/main/README.md)
+- README blob SHA: 5fe91f88ebe8ae483092ff81b152a225aa9a0cc3
+- Repository ID: 730796060
+- Evidence state: evidence captured; manual review pending
+- Manual review: manual technical interpretation pending
+
+## Upstream description
+
+Tracking for RAPIDS-wide build tasks
+
+This is repository-owner metadata, not an independently verified technical summary.
+
+## README capture
+
+- Status: captured
+- Captured: 2026-11-23T20:16:35+00:00
+
+### Short excerpt (up to 100 words)
+
+> No README excerpt captured. Use the upstream README link.
+
+### README headings
+
+- Build Planning for RAPIDS
+
+## GitHub language statistics
+
+GitHub's Languages API reports detected source-code bytes. It does not identify frameworks or architecture by itself.
+
+| Language | Bytes |
+|---|---:|
+| Unknown | Not captured |
+
+## Build and dependency manifest paths
+
+These paths were found in the default-branch tree. A manifest filename alone is not proof of a framework or runtime.
+
+- No recognised manifests found or captured
+
+- Manifest scan truncated by GitHub: False
+- Manifest capture state: none_found
+
+## Lifecycle metadata
+
+- Archived: False
+- Fork: False
+- Disabled: False
+- Licence SPDX: Unknown
+- Stars at capture: 1
+- Forks at capture: 6
+- Last updated: 2026-11-18T12:40:09Z
+- Last pushed: 2026-05-27T22:15:11Z
+- Topics: Not supplied
+
+## Required manual review
+
+Interpret the README's purpose and capabilities; confirm framework/library claims against manifests and relevant source; inspect architecture, tests, licence, security guidance, platform constraints and maintenance status. Only then change the manual review state to README reviewed.
+
+## Upstream links
+
+- [Repository](https://github.com/rapidsai/build-planning)
+- [README](https://github.com/rapidsai/build-planning/blob/main/README.md)
+- [Issues](https://github.com/rapidsai/build-planning/issues)
+- [Releases](https://github.com/rapidsai/build-planning/releases)
+
+Capture errors: None
+
+*Generated evidence capture only. This page is not labelled README reviewed until a human has interpreted and checked the upstream material.*

@@ -1325,12 +1325,79 @@
       "open_issues": 35,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:39+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 2940,
+        "HTML": 1944,
+        "CSS": 930
+      },
+      "readme_url": "https://github.com/microsoft/aadb2c-starter-kit/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "920c53d7c729c0a9d86d7fd66c3afc9727c15d13",
+      "readme_excerpt": "We are part of a startup that is going to offer encrypted shared documents on the web. Our CEO has investores who want to see what we've got next week. We want to get an MVP on the web in a week! Our MVP will allow users to store notes on the web- no sharing, no encryption. 1. React Front End served on Azure Blob Static Site 2. B2C for Identity and PII 3. APIM for authorization 4. Azure Functions App as middle ware API 5. Cosmos DB for PHI 1. Self service- sign up, sign in, password requirements 2.",
+      "readme_headings": [
+        "Let's Make an App with Login",
+        "Scenario",
+        "Final Architecture",
+        "MVP Requirements:",
+        "Components:",
+        "Sprints",
+        "Sprint 1 Setup Sign In, Sign Up",
+        "Sprint 2 App (2 hour)",
+        "Sprint 3 APIs (2 hours)",
+        "Sprint 4 Integrate App and API (1 hour)",
+        "Sprint 5 Add T&C (2 hours)",
+        "Contributing",
+        "Trademarks"
+      ],
+      "manifest_paths": [
+        {
+          "path": "mw-app/package.json",
+          "sha": "c68358234b635a6669d7d9d617ec39a3f3d2b7a5",
+          "size": 461,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@azure/cosmos",
+            "@azure/service-bus",
+            "apollo-datasource",
+            "apollo-datasource-rest",
+            "apollo-server-azure-functions",
+            "azure-function-log-intercept",
+            "cors",
+            "graphql",
+            "uuid"
+          ]
+        },
+        {
+          "path": "react-app/package.json",
+          "sha": "2bc08d887b7c6db6e9de2253ea51318513848d51",
+          "size": 955,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@apollo/client",
+            "@testing-library/jest-dom",
+            "@testing-library/react",
+            "@testing-library/user-event",
+            "bootstrap",
+            "graphql",
+            "msal",
+            "react",
+            "react-bootstrap",
+            "react-dom",
+            "react-scripts",
+            "semantic-ui-css",
+            "semantic-ui-react"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:10:16+00:00"
     },
     "microsoft/AADConnectConfigDocumenter": {
       "id": 57305206,
@@ -1353,12 +1420,58 @@
       "open_issues": 7,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:39+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 537383,
+        "CSS": 5013,
+        "JavaScript": 3856,
+        "PowerShell": 2848,
+        "Batchfile": 857
+      },
+      "readme_url": "https://github.com/microsoft/AADConnectConfigDocumenter/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d7d2473468b3c54694f07bac03dbe2a12b85aef8",
+      "readme_excerpt": "AAD Connect configuration documenter is a tool to generate documentation of an Azure AD Connect installation. Currently, the documentation is only limited to the Azure AD Connect sync configuration. The goal of this project is to: * To enable quick understanding of the synchronization configuration and \"how it happens\"! * To build confidence in getting things right when making changes to the default configuration!! * To know what was changed when you applied a new build / configuration of Azure AD Connect or added/updated custom sync rules!!! The current capabilities of the tool include: * Documentation of the complete configuration",
+      "readme_headings": [
+        "Azure AD Connect Configuration Documenter",
+        "**How to use the tool** (if you want to generate report for the current server installation):",
+        "**How to use the tool** (if you want to generate a comparison report for swing migration):",
+        "**How to use the tool** (if you want to generate a comparison report for in-place upgrade):",
+        "**How to use the tool** (if you want to generate report a comparison report for DEV Environment and PROD Environment):",
+        "Sample report",
+        "Code of Conduct"
+      ],
+      "manifest_paths": [
+        {
+          "path": "src/AzureADConnectSyncDocumenter.sln",
+          "sha": "6a82e5bf3285bf45e41a24fee666a64b8697978d",
+          "size": 2531,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/AzureADConnectSyncDocumenter/AzureADConnectSyncDocumenter.csproj",
+          "sha": "81bf6da108bd53eaf20e32a7737b63fcf6b708b9",
+          "size": 5159,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/AzureADConnectSyncDocumenterCmd/AzureADConnectSyncDocumenterCmd.csproj",
+          "sha": "70fe64072a680fd6364a43177bb2e48415d35c78",
+          "size": 3867,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:10:18+00:00"
     },
     "microsoft/aad_b2c_webview": {
       "id": 589474387,
@@ -1500,12 +1613,35 @@
         "smell-detector"
       ],
       "last_seen_scan_id": "2026-11-23T19:21:39+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/microsoft/aaq/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "53b007d7c96fea42cbb8623bf6d0f640ec987e23",
+      "readme_excerpt": "This repository hosts the official code and data artifact for the \"Affective Air Quality\" dataset. Details about the user study and data collection can be found in our [paper][paper-link]. The dataset released it's the first to include gas sensing data emitted by humans while experiencing different emotions using a wearable device. More specifically, the detection of volatile organic compounds, nitrogen dioxide, carbon monoxide and alcohol while watching 12 emotional videos (3 per valance-arousal quadrant). It contains anonymized user data from a psychophysiological experiment focused on understanding how video-elicited emotions impact chemical breath composition (and exuded body gases in general). All",
+      "readme_headings": [
+        "Affective Air Quality (AAQ)",
+        "Ethics",
+        "Repository Contents",
+        "1. Participant Data",
+        "Intake Survey",
+        "Participant Logs",
+        "2. Exit Interview",
+        "3. Gas Sensor Data",
+        "V = (raw value / 1023) * Vref",
+        "4. Emotional Ratings",
+        "Code of Conduct",
+        "Privacy Statement"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:10:19+00:00"
     },
     "microsoft/AaronLocker": {
       "id": 162219743,
@@ -1528,12 +1664,28 @@
       "open_issues": 16,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:39+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "PowerShell": 295995
+      },
+      "readme_url": "https://github.com/microsoft/AaronLocker/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0dd6a3c96a6dcc189194677b734baafbbd1ba644",
+      "readme_excerpt": "AaronLocker is designed to make the creation and maintenance of robust, strict, application control for AppLocker and Windows Defender Application Control (WDAC) as easy and practical as possible. The entire solution involves a small number of PowerShell scripts. You can easily customize rules for your specific requirements with simple text-file edits. AaronLocker includes scripts that document AppLocker and WDAC policies and capture event data into Excel workbooks that facilitate analysis and policy maintenance. AaronLocker is designed to restrict program and script execution by non-administrative users. Note that AaronLocker does not try to stop administrative users from running anything they want",
+      "readme_headings": [
+        "Overview",
+        "Demos",
+        "Contributing"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:10:20+00:00"
     },
     "microsoft/ABAP-SDK-for-Azure": {
       "id": 124694095,
@@ -1562,12 +1714,27 @@
         "azuresdk"
       ],
       "last_seen_scan_id": "2026-11-23T19:21:39+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "ABAP": 1023354
+      },
+      "readme_url": "https://github.com/microsoft/ABAP-SDK-for-Azure/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "11437a58a9f3f19a9833e83bc30efac7a363e015",
+      "readme_excerpt": "ABAP SDK for Azure consists of ABAP objects/classes which simplify SAP and Azure Integration. Now using ABAP code, you can directly send SAP business process data to various Azure services without having to depend on middleware products and solutions. For more information on ABAP SDK for Azure and it’s installation process, Please check document ABAP SDK for Azure – Github As of now, ABAP SDK supports direct integration with following Azure services, * Event hub * Service bus * Event Grid * Key vault * Active Directory * Blob * Cosmos DB * OMS Log Analytics * Microsoft Graph API",
+      "readme_headings": [
+        "ABAP SDK for Azure",
+        "Contributing"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:10:21+00:00"
     },
     "microsoft/abap2git": {
       "id": 563697236,
@@ -1590,12 +1757,37 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:39+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "ABAP": 666377
+      },
+      "readme_url": "https://github.com/microsoft/abap2git/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5d5689910f845de04eb60c05d8c9233961ca39ac",
+      "readme_excerpt": "**abap2git** is a simplified sync tool written in ABAP code to one-way sync ABAP and configuration objects from an SAP system to Git repository with Azure DevOps REST API with following benefits: * Support multiple packages in a Git branch, packages don't have to be super package of one another * Support multiple SAP systems in the same Git repo, each in their respective branches, fit for code review the diffs across systems in the landscape * Sync ABAP objects in an active/released workbench/customizing/transport of copies transport request (shortened as TR below) to specific Git branch * Support configuration changes",
+      "readme_headings": [
+        "abap2git",
+        "Features",
+        "How To",
+        "FAQ",
+        "Why is BAdI CTS_REQUEST_CHECK~CHECK_BEFORE_RELEASE not a good place to sync code to Azure DevOps?",
+        "Why use background job to call abap2git?",
+        "What if ABAP developer doesn't have the privilege to schedule background job in SAP?",
+        "What if security cannot approve customized role for scheduling background job?",
+        "What are the options and pros/cons for background job solution?",
+        "Why configuration changes look the same across multiple Git commits?",
+        "Contributing",
+        "Trademarks"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:10:22+00:00"
     },
     "microsoft/abigen": {
       "id": 1370482474,
@@ -1618,12 +1810,42 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:39+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Rust": 111291,
+        "C++": 3443,
+        "C": 1254
+      },
+      "readme_url": "https://github.com/microsoft/abigen/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7a4c0da32ed7253637853a8c2302ccccd337ce54",
+      "readme_excerpt": "Produce a pure-C header/impl from C++ class headers",
+      "readme_headings": [
+        "abigen"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Cargo.toml",
+          "sha": "2be3e5be081a20eda9d23bb2bcae561041292d09",
+          "size": 347,
+          "content_status": "captured",
+          "dependency_hints": [
+            "clap",
+            "serde",
+            "toml",
+            "tree-sitter",
+            "tree-sitter-cpp"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:10:24+00:00"
     },
     "microsoft/ability-attributes": {
       "id": 204974165,
@@ -1646,12 +1868,111 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:39+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 95197,
+        "HTML": 5126,
+        "CSS": 1220,
+        "JavaScript": 1160
+      },
+      "readme_url": "https://github.com/microsoft/ability-attributes/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "171ca8f7443718bb49ca17fbb33cf4170a85c908",
+      "readme_excerpt": "A runtime accessibility attributes integrity validator. *This project is pretty much in a work-in-progress proof-of-concept state. More docs and examples are to come.* It is very easy to make nonsense setting the accessibility-related attributes for the DOM elements and it takes time to learn how to set them properly. And because those attributes make sense for the screen readers only, it is very hard to tell if nothing is broken in a big application. This tool allows to specify a schema for the attributes and see all schema violations at runtime during the developlent process. Contributions are welcome (see the",
+      "readme_headings": [
+        "Ability Attributes",
+        "About",
+        "Contributing",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "1494495138f13ea4192e5ecbf003ae95fdae97c1",
+          "size": 262,
+          "content_status": "captured",
+          "dependency_hints": [
+            "lerna"
+          ]
+        },
+        {
+          "path": "base/package.json",
+          "sha": "961b1269ca3b3acf502ea3c676996ed88381f9e5",
+          "size": 990,
+          "content_status": "captured",
+          "dependency_hints": [
+            "ability-attributes-js-constraints",
+            "rimraf",
+            "tsdx",
+            "tslint",
+            "tslint-microsoft-contrib",
+            "tsutils",
+            "typescript"
+          ]
+        },
+        {
+          "path": "demo/package.json",
+          "sha": "31583f666bca3a117cda95bdbc32376487b2ae0c",
+          "size": 1237,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/react",
+            "@types/react-dom",
+            "ability-attributes",
+            "ability-attributes-generator",
+            "awesome-typescript-loader",
+            "react",
+            "react-dom",
+            "rimraf",
+            "source-map-loader",
+            "tslint",
+            "tslint-microsoft-contrib",
+            "tsutils",
+            "typescript",
+            "webpack",
+            "webpack-cli"
+          ]
+        },
+        {
+          "path": "generator/package.json",
+          "sha": "01552ba5938893760118e38b37018a5d692e957c",
+          "size": 997,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/node",
+            "ability-attributes",
+            "ajv",
+            "commander",
+            "rimraf",
+            "tslint",
+            "tslint-microsoft-contrib",
+            "tsutils",
+            "typescript"
+          ]
+        },
+        {
+          "path": "js-constraints/package.json",
+          "sha": "2a92ade57e775ccc088fe7bd4f8c4047122c4bec",
+          "size": 962,
+          "content_status": "captured",
+          "dependency_hints": [
+            "rimraf",
+            "tsdx",
+            "tslint",
+            "tslint-microsoft-contrib",
+            "tsutils",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:10:26+00:00"
     },
     "microsoft/abledom": {
       "id": 954851140,
@@ -1674,12 +1995,98 @@
       "open_issues": 11,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:39+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 244315,
+        "JavaScript": 10725,
+        "HTML": 7859,
+        "CSS": 6736
+      },
+      "readme_url": "https://github.com/microsoft/abledom/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b8f07377c0bbe8b0dfa4fbd50d5349091053c6b8",
+      "readme_excerpt": "A continuous accessibility (a11y) monitor for modern web applications. AbleDOM is a lightweight JavaScript/TypeScript library that observes your DOM in real-time and detects common accessibility issues as they appear. _Here be dragons_. npm install abledom yarn add abledom pnpm add abledom import { AbleDOM } from \"abledom\"; const _ableDOM = new AbleDOM(window, { log: window.console?.error }); // ...Create and add rules and exceptions import { AbleDOM, ContrastRule } from \"abledom\"; const contrastRule = new ContrastRule(); this._ableDOM.addRule(contrastRule); import { AbleDOM, ContrastRule } from \"abledom\"; const contrastExceptions: ((element: HTMLElement) => boolean)[] = [ (element: HTMLElement) => { return element.style?.display === \"none\"; },",
+      "readme_headings": [
+        "AbleDOM",
+        "Installation",
+        "or",
+        "or",
+        "Quick start",
+        "Using rules",
+        "Adding valid exceptions",
+        "Rules",
+        "AtomicRule",
+        "BadFocusRule",
+        "ContrastRule",
+        "ExistingIdRule",
+        "FocusableElementLabelRule",
+        "FocusLostRule",
+        "NestedInteractiveElementRule",
+        "RequiredParentRule",
+        "TabIndexRule",
+        "Contributing",
+        "Trademarks"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "35c7bbf0117012e4ff959ebf3b6e864899535973",
+          "size": 2074,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@eslint/js",
+            "@playwright/test",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "@xmldom/xmldom",
+            "downlevel-dts",
+            "esbuild-plugin-inline-import",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-header",
+            "eslint-plugin-import",
+            "globals",
+            "playwright",
+            "prettier",
+            "release-it",
+            "rimraf",
+            "start-server-and-test",
+            "tsup",
+            "typescript",
+            "vite"
+          ]
+        },
+        {
+          "path": "tools/playwright/package.json",
+          "sha": "9780a12884c163931db5fd2e6e1bbe253442d9b5",
+          "size": 2110,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@eslint/js",
+            "@playwright/test",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-import",
+            "globals",
+            "prettier",
+            "rimraf",
+            "tsup",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:10:27+00:00"
     },
     "microsoft/ABS-CSA-Assets": {
       "id": 744583961,
@@ -1702,12 +2109,96 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:39+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 2349,
+        "HTML": 6
+      },
+      "readme_url": "https://github.com/microsoft/ABS-CSA-Assets/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "8bcc2a24a606a08c13a0030254be6e4cbde6a7a5",
+      "readme_excerpt": "This repo is now a website! It can be found here: https://microsoft.github.io/ABS-CSA-Assets/welcome/ This repository contains public available samples and workshops from Microsoft AI Business Solutions Cloud Solution Architects (CSAs) as well as other experts in the field. It serves as a resource for developers to explore and learn from real-world scenarios and best practices. Each directory owner is responsible for the contents within each asset repository. All contents within are to be used for educational purposes only. We are always interested and willing to help the community! Please use the Issues link to provide feedback on samples, gaps or any",
+      "readme_headings": [
+        "Summary",
+        "Have an Idea?",
+        "Official Service Offerings",
+        "Author Directory",
+        "Tool Directory",
+        "Power Platform",
+        "Dataverse",
+        "Dynamics 365",
+        "Sample Directory",
+        "Azure",
+        "Cross Solution",
+        "Microsoft Copilot Studio",
+        "Microsoft Dataverse",
+        "Microsoft Dynamics 365 Finance and Operations",
+        "Microsoft Power Apps",
+        "Microsoft Power Automate",
+        "Microsoft Power Pages",
+        "Microsoft Power Platform Governance",
+        "Other",
+        "Contributing",
+        "Trademarks"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Samples/Dynamics365/CE/BulkCreateTestContactData/BulkCreateTestContactData.sln",
+          "sha": "921d01a7c6bbea8341897a65b6a00833606e4afe",
+          "size": 1141,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Samples/Dynamics365/CE/MaxFieldAndRowSizeTester/MaxFieldAndRowSizeTester.sln",
+          "sha": "b7e20646c4af6c576e253f0fbff72ec164a73e83",
+          "size": 1153,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "WellArchitectedFramework/Reliability/samples/CodeQuality/package.json",
+          "sha": "79e4f03bbecfdc10eabd4ae45dfd98c354277254",
+          "size": 212,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@eslint/js",
+            "@microsoft/eslint-plugin-power-apps",
+            "eslint",
+            "globals",
+            "prettier"
+          ]
+        },
+        {
+          "path": "Samples/Dynamics365/CE/BulkCreateTestContactData/BulkCreate/BulkCreateTestContactData.csproj",
+          "sha": "01fee9050e6306bfffb39ede104b001c5cdf8286",
+          "size": 12566,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Samples/Dynamics365/CE/MaxFieldAndRowSizeTester/MaxFieldAndRowSizeTester/MaxFieldAndRowSizeTester.csproj",
+          "sha": "86ff79ab34cb0a4381d03a4a7e9f4e58137765ef",
+          "size": 12402,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Samples/Dynamics365/CE/SDK/Dataverse.Sdk.Tester/Dataverse.Sdk.Tester.sln",
+          "sha": "9aea6ab6473bcb5e1a0ad286ae944408dc0421b1",
+          "size": 1141,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:10:30+00:00"
     },
     "microsoft/abskorea": {
       "id": 1154581516,

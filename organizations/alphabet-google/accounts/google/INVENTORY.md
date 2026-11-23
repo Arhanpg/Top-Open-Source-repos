@@ -26,16 +26,16 @@
 | [google/Accessibility-Test-Framework-for-Android](https://github.com/google/Accessibility-Test-Framework-for-Android) | Accessibility checks for automated Android testing | 528 | Java | False | False | True | captured | [Open](repositories/accessibility-test-framework-for-android-42338931.md) |
 | [google/accname](https://github.com/google/accname) | No description | 33 | CSS, HTML, JavaScript, Shell, TypeScript | True | False | True | captured | [Open](repositories/accname-274594289.md) |
 | [google/accompanist](https://github.com/google/accompanist) | A collection of extension libraries for Jetpack Compose | 7849 | Kotlin, Shell | False | False | True | captured | [Open](repositories/accompanist-261392630.md) |
-| [google/account-provisioning-for-google-apps](https://github.com/google/account-provisioning-for-google-apps) | No description | 51 | Pending | True | False | True | pending | Not generated |
-| [google/acjs](https://github.com/google/acjs) | No description | 10 | Pending | True | False | True | pending | Not generated |
-| [google/acme](https://github.com/google/acme) | A simple ACME command line tool without 3rd party deps! | 382 | Pending | True | False | True | pending | Not generated |
-| [google/across](https://github.com/google/across) | ACROSS - Attributing Contributor Roles in Open Source Software | 23 | Pending | False | False | True | pending | Not generated |
-| [google/actions-on-google-flashcards-template-sdk](https://github.com/google/actions-on-google-flashcards-template-sdk) | No description | 9 | Pending | True | False | True | pending | Not generated |
-| [google/actions-on-google-pq2-template-sdk](https://github.com/google/actions-on-google-pq2-template-sdk) | No description | 14 | Pending | True | False | True | pending | Not generated |
-| [google/actions-on-google-template-sdk](https://github.com/google/actions-on-google-template-sdk) | No description | 14 | Pending | True | False | True | pending | Not generated |
-| [google/actions-on-google-trivia-template-sdk](https://github.com/google/actions-on-google-trivia-template-sdk) | No description | 18 | Pending | True | False | True | pending | Not generated |
-| [google/active-learning](https://github.com/google/active-learning) | No description | 1161 | Pending | True | False | True | pending | Not generated |
-| [google/active-qa](https://github.com/google/active-qa) | No description | 344 | Pending | True | False | True | pending | Not generated |
+| [google/account-provisioning-for-google-apps](https://github.com/google/account-provisioning-for-google-apps) | No description | 51 | HTML, Java, JavaScript | True | False | True | captured | [Open](repositories/account-provisioning-for-google-apps-37750224.md) |
+| [google/acjs](https://github.com/google/acjs) | No description | 10 | Dockerfile, Go, Smarty | True | False | True | captured | [Open](repositories/acjs-772128603.md) |
+| [google/acme](https://github.com/google/acme) | A simple ACME command line tool without 3rd party deps! | 382 | Go, Makefile | True | False | True | captured | [Open](repositories/acme-46423194.md) |
+| [google/across](https://github.com/google/across) | ACROSS - Attributing Contributor Roles in Open Source Software | 23 | CSS, HTML, Ruby | False | False | True | captured | [Open](repositories/across-302680760.md) |
+| [google/actions-on-google-flashcards-template-sdk](https://github.com/google/actions-on-google-flashcards-template-sdk) | No description | 9 | JavaScript, Shell | True | False | True | captured | [Open](repositories/actions-on-google-flashcards-template-sdk-300098557.md) |
+| [google/actions-on-google-pq2-template-sdk](https://github.com/google/actions-on-google-pq2-template-sdk) | No description | 14 | CSS, HTML, JavaScript, Shell | True | False | True | captured | [Open](repositories/actions-on-google-pq2-template-sdk-293970418.md) |
+| [google/actions-on-google-template-sdk](https://github.com/google/actions-on-google-template-sdk) | No description | 14 | Pending | True | False | True | captured | [Open](repositories/actions-on-google-template-sdk-414369576.md) |
+| [google/actions-on-google-trivia-template-sdk](https://github.com/google/actions-on-google-trivia-template-sdk) | No description | 18 | JavaScript, Shell | True | False | True | captured | [Open](repositories/actions-on-google-trivia-template-sdk-300098548.md) |
+| [google/active-learning](https://github.com/google/active-learning) | No description | 1161 | Python | True | False | True | captured | [Open](repositories/active-learning-106029625.md) |
+| [google/active-qa](https://github.com/google/active-qa) | No description | 344 | Python, Shell | True | False | True | captured | [Open](repositories/active-qa-140437270.md) |
 | [google/ad-manager-alerter](https://github.com/google/ad-manager-alerter) | No description | 27 | Pending | True | False | True | pending | Not generated |
 | [google/ad_language_monitor](https://github.com/google/ad_language_monitor) | No description | 5 | Pending | True | False | True | pending | Not generated |
 | [google/adapt-googleanalytics](https://github.com/google/adapt-googleanalytics) | No description | 8 | Pending | True | False | True | pending | Not generated |

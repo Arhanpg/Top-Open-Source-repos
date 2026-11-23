@@ -2475,12 +2475,89 @@
         "opentelemetry-api"
       ],
       "last_seen_scan_id": "2026-11-23T19:37:58+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "PHP": 8782,
+        "Dockerfile": 632
+      },
+      "readme_url": "https://github.com/aws-observability/aws-otel-php/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5a6322cb2791820090fffad0bb560ef6ffbd872e",
+      "readme_excerpt": "This repository contains documentation and sample apps for the AWS Distro for OpenTelemetry in PHP. It provides the AWS service integrations for traces for the OpenTelemetry PHP library. The library can be configured to support trace applications with the AWS X-Ray service. Please note all source code for the OpenTelemetry PHP library is upstream on the OpenTelemetry project in the OpenTelemetry PHP library repo. All features of the OpenTelemetry library are available along with its components being configured to create traces which can be viewed in the AWS X-Ray console and to allow propagation of those contexts across multiple downstream",
+      "readme_headings": [
+        "AWS Distro for OpenTelemetry PHP",
+        "Getting Started",
+        "Requirements",
+        "Sample application - Manual instrumentation",
+        "Useful Links and Resources",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "composer.json",
+          "sha": "3736a59c2645b6298953fd03fcfc7f9a39a0ad47",
+          "size": 473,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws/aws-sdk-php",
+            "ext-grpc",
+            "grpc/grpc",
+            "open-telemetry/api",
+            "open-telemetry/contrib-aws",
+            "open-telemetry/sdk",
+            "php-http/guzzle7-adapter",
+            "php-http/message"
+          ]
+        },
+        {
+          "path": "SampleApp/composer.json",
+          "sha": "0495e463c19f5ade6ef7610ebbf31f6d7da46f95",
+          "size": 2388,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws/aws-sdk-php",
+            "aws/aws-sdk-php-symfony",
+            "ext-ctype",
+            "ext-grpc",
+            "ext-iconv",
+            "google/protobuf",
+            "grpc/grpc",
+            "monolog/monolog",
+            "open-telemetry/api",
+            "open-telemetry/contrib-aws",
+            "open-telemetry/exporter-otlp",
+            "open-telemetry/sdk",
+            "open-telemetry/transport-grpc",
+            "php-http/guzzle7-adapter",
+            "php-http/message",
+            "php-http/message-factory",
+            "sensio/framework-extra-bundle",
+            "symfony/console",
+            "symfony/dotenv",
+            "symfony/flex",
+            "symfony/framework-bundle",
+            "symfony/http-client",
+            "symfony/runtime",
+            "symfony/yaml"
+          ]
+        },
+        {
+          "path": "SampleApp/Dockerfile",
+          "sha": "24c6d023fdf33c4d9f960f8d0725e041f5a42ec9",
+          "size": 632,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:14:12+00:00"
     },
     "aws-observability/aws-otel-playground": {
       "id": 224066118,
@@ -2503,12 +2580,76 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:37:58+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 25667,
+        "HCL": 21780,
+        "Kotlin": 11558
+      },
+      "readme_url": "https://github.com/aws-observability/aws-otel-playground/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6ec2b430b15d7d3b70ef1b7dafab204b57e6e20a",
+      "readme_excerpt": "This repository contains a toy application which exhibits a simple yet somewhat representative trace, including AWS SDK calls, a frontend and backend, and HTTP and gRPC. The same application is instrumented in several ways, allowing us to compare the experience when viewing traces for the different types of instrumentation. Current instrumentation includes - OpenTelemetry Auto Instrumentation + OpenTelemetry Collector - X-Ray SDK Instrumentation + X-Ray Daemon - Does not instrument many libraries like gRPC and Lettuce The playground access various endpoints hosted on AWS. Feel free to skip this section to just see traces with local endpoints. To set up",
+      "readme_headings": [
+        "X-Ray Instrumentation Playground",
+        "Setting up AWS resources",
+        "Running",
+        "Cleaning up",
+        "How it works",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "build.gradle.kts",
+          "sha": "e4e0a7eaf0107cf87a815c1f23d9971c0ea2f383",
+          "size": 1354,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "api/build.gradle.kts",
+          "sha": "5c177826acac313114ae839a8c26a6442aa16529",
+          "size": 585,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "appdb/build.gradle.kts",
+          "sha": "6db58e984d7b55c2800254d1a5291688c6ec611d",
+          "size": 1473,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "backend-webflux/build.gradle.kts",
+          "sha": "331014ba00a8c9f89787fdc3717d3e8bbee220d3",
+          "size": 666,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "backend/build.gradle.kts",
+          "sha": "65c8d3ff8fdd7fce2cf1ded9d1549a1e3030ba1b",
+          "size": 803,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "dependencyManagement/build.gradle.kts",
+          "sha": "9b46cd39f7da6a391b053fe9d5995a049f77e036",
+          "size": 2911,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:14:15+00:00"
     },
     "aws-observability/aws-otel-python": {
       "id": 295886216,
@@ -2536,12 +2677,90 @@
         "opentelemetry-api"
       ],
       "last_seen_scan_id": "2026-11-23T19:37:58+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 14658,
+        "Shell": 4305,
+        "Dockerfile": 716
+      },
+      "readme_url": "https://github.com/aws-observability/aws-otel-python/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e77e6c335120120398ea9acd98f9c221a0e32075",
+      "readme_excerpt": "This repo hosts documentation and sample apps for the ADOT Python library which provides the AWS service integrations for traces and metrics for the OpenTelemetry Python library. The library can be configured to support trace applications with the AWS X-Ray service. This enables all the features of the OpenTelemetry project and configures its components to create traces that can be viewed in the AWS X-Ray console and allow propagation of those contexts across multiple downstream AWS services. OpenTelemetry is a project maintained by the Cloud Native Computing Foundation which provides open source APIs, libraries, and agents to collect distributed traces",
+      "readme_headings": [
+        "AWS Distro for OpenTelemetry Python Language",
+        "How it works",
+        "Getting Started",
+        "Applications for integration testing - Auto-instrumentation (DEPRECATED)",
+        "Applications for integration testing - Manual instrumentation (DEPRECATED)",
+        "Requirements",
+        "Useful Links",
+        "Security issue notifications",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": ".github/docker-performance-tests/alarms-poller/Dockerfile",
+          "sha": "0d6d2fbe4716c3e548e1ce9dfef5322ae6d40c37",
+          "size": 882,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".github/docker-performance-tests/load-generator/Dockerfile",
+          "sha": "a9b31f7154e39e7f97df90a526fe2547dbdad7d9",
+          "size": 226,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "integration-test-apps/auto-instrumentation/flask/Dockerfile",
+          "sha": "ea612c5534c3a788c92aec0559b429463634f521",
+          "size": 320,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "integration-test-apps/auto-instrumentation/flask/requirements.txt",
+          "sha": "ce98f225529d302d6c813616019d2d44abf60353",
+          "size": 159,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "flask",
+            "opentelemetry-distro",
+            "opentelemetry-propagator-aws-xray",
+            "opentelemetry-sdk-extension-aws",
+            "requests"
+          ]
+        },
+        {
+          "path": "integration-test-apps/manual-instrumentation/flask/Dockerfile",
+          "sha": "0fd44b432ad125e33597acecaf5e81b16bffd5e2",
+          "size": 199,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "integration-test-apps/manual-instrumentation/flask/requirements.txt",
+          "sha": "ebf0fb36ec1eb5c8ef902a484f773122054aa657",
+          "size": 977,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "flask",
+            "requests"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:14:17+00:00"
     },
     "aws-observability/aws-otel-python-instrumentation": {
       "id": 734796211,
@@ -2564,12 +2783,162 @@
       "open_issues": 30,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:37:58+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 4458318,
+        "Java": 70810,
+        "Dockerfile": 17970,
+        "Shell": 14219,
+        "Rust": 14031,
+        "HCL": 5979,
+        "JavaScript": 3001
+      },
+      "readme_url": "https://github.com/aws-observability/aws-otel-python-instrumentation/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1ca9642c193a973d69505b1c4a3caad12b9c3c20",
+      "readme_excerpt": "This project is a redistribution of the OpenTelemetry Distro for Python, preconfigured for use with AWS services. Please check out that project too to get a better understanding of the underlying internals. You won't see much code in this repository since we only apply some small configuration changes, and our OpenTelemetry friends takes care of the rest. The exception to this is support for Application Signals. We provided a Python agent that can be attached to any application using a supported Python version and dynamically injects bytecode to capture telemetry from a number of popular libraries and frameworks. The telemetry",
+      "readme_headings": [
+        "AWS Distro for OpenTelemetry - Instrumentation for Python",
+        "Introduction",
+        "Getting Started",
+        "Supported Python libraries and frameworks",
+        "Generative AI",
+        "Configuration",
+        "Support",
+        "Security issue notifications",
+        "License",
+        "Notices",
+        "Python Version Support",
+        "Note on Amazon CloudWatch Application Signals",
+        "Checksum Verification"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "d1204c3343e4c65805f4066d0ab370234a573ef9",
+          "size": 3217,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "e642977d15454bfb5add42d1e333fadc2c5947a5",
+          "size": 236,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "aws-opentelemetry-distro/pyproject.toml",
+          "sha": "d24c0e461c3cf1488ec5dad6952325ec8fbc17d4",
+          "size": 7088,
+          "content_status": "captured",
+          "dependency_hints": [
+            "botocore",
+            "bytecode",
+            "cachetools",
+            "certifi",
+            "opentelemetry-api",
+            "opentelemetry-distro",
+            "opentelemetry-exporter-otlp-proto-common",
+            "opentelemetry-exporter-otlp-proto-grpc",
+            "opentelemetry-exporter-otlp-proto-http",
+            "opentelemetry-instrumentation",
+            "opentelemetry-instrumentation-aio-pika",
+            "opentelemetry-instrumentation-aiohttp-client",
+            "opentelemetry-instrumentation-aiokafka",
+            "opentelemetry-instrumentation-aiopg",
+            "opentelemetry-instrumentation-asgi",
+            "opentelemetry-instrumentation-asyncpg",
+            "opentelemetry-instrumentation-aws-lambda",
+            "opentelemetry-instrumentation-boto3sqs",
+            "opentelemetry-instrumentation-botocore",
+            "opentelemetry-instrumentation-cassandra",
+            "opentelemetry-instrumentation-celery",
+            "opentelemetry-instrumentation-confluent-kafka",
+            "opentelemetry-instrumentation-dbapi",
+            "opentelemetry-instrumentation-django",
+            "opentelemetry-instrumentation-falcon",
+            "opentelemetry-instrumentation-fastapi",
+            "opentelemetry-instrumentation-flask",
+            "opentelemetry-instrumentation-grpc",
+            "opentelemetry-instrumentation-httpx",
+            "opentelemetry-instrumentation-jinja2",
+            "opentelemetry-instrumentation-kafka-python",
+            "opentelemetry-instrumentation-logging",
+            "opentelemetry-instrumentation-mysql",
+            "opentelemetry-instrumentation-mysqlclient",
+            "opentelemetry-instrumentation-pika",
+            "opentelemetry-instrumentation-psycopg2",
+            "opentelemetry-instrumentation-pymemcache",
+            "opentelemetry-instrumentation-pymongo",
+            "opentelemetry-instrumentation-pymysql",
+            "opentelemetry-instrumentation-pyramid",
+            "opentelemetry-instrumentation-redis",
+            "opentelemetry-instrumentation-remoulade",
+            "opentelemetry-instrumentation-requests",
+            "opentelemetry-instrumentation-sqlalchemy",
+            "opentelemetry-instrumentation-sqlite3",
+            "opentelemetry-instrumentation-starlette",
+            "opentelemetry-instrumentation-system-metrics",
+            "opentelemetry-instrumentation-threading",
+            "opentelemetry-instrumentation-tornado",
+            "opentelemetry-instrumentation-tortoiseorm",
+            "opentelemetry-instrumentation-urllib",
+            "opentelemetry-instrumentation-urllib3",
+            "opentelemetry-instrumentation-wsgi",
+            "opentelemetry-processor-baggage",
+            "opentelemetry-propagator-aws-xray",
+            "opentelemetry-propagator-b3",
+            "opentelemetry-propagator-jaeger",
+            "opentelemetry-propagator-ot-trace",
+            "opentelemetry-sdk",
+            "opentelemetry-sdk-extension-aws"
+          ]
+        },
+        {
+          "path": "cloudwatch-plugin-otel/pyproject.toml",
+          "sha": "85909cb1761b71c8320dd7fbd4ef00427d4f416f",
+          "size": 1529,
+          "content_status": "captured",
+          "dependency_hints": [
+            "opentelemetry-api",
+            "opentelemetry-instrumentation",
+            "opentelemetry-sdk",
+            "opentelemetry-semantic-conventions",
+            "typing-extensions"
+          ]
+        },
+        {
+          "path": "performance-tests/build.gradle.kts",
+          "sha": "a719841b2c02786343ea17a021e4769b2527209c",
+          "size": 1236,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "contract-tests/tests/pyproject.toml",
+          "sha": "5a83a62e1553c3611a58256e37cd170a1a13dc0f",
+          "size": 808,
+          "content_status": "captured",
+          "dependency_hints": [
+            "docker",
+            "grpcio",
+            "jsonschema",
+            "opentelemetry-proto",
+            "opentelemetry-sdk",
+            "requests",
+            "testcontainers"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:14:19+00:00"
     },
     "aws-observability/aws-otel-ruby": {
       "id": 447384197,
@@ -2597,12 +2966,80 @@
         "opentelemetry-api"
       ],
       "last_seen_scan_id": "2026-11-23T19:37:58+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Ruby": 31091,
+        "Dockerfile": 306,
+        "HTML": 55
+      },
+      "readme_url": "https://github.com/aws-observability/aws-otel-ruby/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "39e4cecd06df69d805f431ecec844d55b515c1ac",
+      "readme_excerpt": "This repo hosts documentation and sample apps for the ADOT Ruby library which provides the AWS service integrations for traces and metrics for the OpenTelemetry Ruby library. The library can be configured to support trace applications with the AWS X-Ray service. This way, traces generated by OpenTelemetry Ruby can be queried in the AWS X-Ray console where users can see information such as the duration, method invoked, status codes, and more. This repository contains sample applications that are instrumented with ADOT Ruby. GitHub workflows on this repository continuously validate the integration experience of these sample apps with the AWS X-Ray",
+      "readme_headings": [
+        "AWS Distro for OpenTelemetry Ruby Language",
+        "Introduction",
+        "How it works",
+        "Getting Started",
+        "Sample Application - Manual instrumentation",
+        "Requirements",
+        "Useful Links",
+        "Security issue notifications",
+        "License",
+        "Support"
+      ],
+      "manifest_paths": [
+        {
+          "path": "exporter/xray-udp/Gemfile",
+          "sha": "3d277f1bbb0347eedf59a6330d8b05176eb386a3",
+          "size": 335,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".github/docker-performance-tests/alarms-poller/Dockerfile",
+          "sha": "13be354bbd577602fbafc4e81b28344edcd829ea",
+          "size": 867,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".github/docker-performance-tests/load-generator/Dockerfile",
+          "sha": "a9b31f7154e39e7f97df90a526fe2547dbdad7d9",
+          "size": 226,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "sample-apps/manual-instrumentation/ruby-on-rails/Dockerfile",
+          "sha": "9fd8ccb47de6571e000ae598fdfcc0e11e3a1e59",
+          "size": 306,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "sample-apps/manual-instrumentation/ruby-on-rails/Gemfile",
+          "sha": "cd4c70d31f221b67a9376902759db39e118186c9",
+          "size": 905,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".github/test-sample-apps/integ-test-http-server/ruby-on-rails/Gemfile",
+          "sha": "814cdbbb2c123c7bdfff0ed90351b1ef5503a497",
+          "size": 1099,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:14:21+00:00"
     },
     "aws-observability/aws-otel-swift": {
       "id": 979692610,
@@ -2625,12 +3062,101 @@
       "open_issues": 17,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:37:58+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Swift": 637932,
+        "Shell": 110072,
+        "Python": 23466,
+        "Makefile": 7283,
+        "Objective-C": 5359,
+        "JavaScript": 3230
+      },
+      "readme_url": "https://github.com/aws-observability/aws-otel-swift/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "eb0ebebc1d1603bfbeda5e7d530ea6ede6e54814",
+      "readme_excerpt": "AWS Distro for OpenTelemetry (ADOT) Swift is a redistribution of the OpenTelemetry Swift, configured with in-house instrumentations to use with AWS CloudWatch Real User Monitoring. At this time, we only officially support iOS 16+. However, we also have continuation integration in place for latest versions of macOS, tvOS, watchOS, and visionOS. Add the following to your `Package.swift` file: dependencies: [ .package(url: \"https://github.com/aws-observability/aws-otel-swift.git\", .upToNextMajor(from: \"1.0.0\")) ] At this time, Cocoapods distribution is not supported. Please open an issue to get this work prioritized. Add `AwsOpenTelemetryAgent` to target dependencies. This will automatically setup the AWS OTel agent using `AwsOpenTelemetryCore` as a transitive",
+      "readme_headings": [
+        "AWS Distro for OpenTelemetry for Swift",
+        "Feature Support",
+        "Available Platforms",
+        "Available Instrumentations",
+        "Available Metadata",
+        "Getting Started",
+        "Installation",
+        "Swift Package Manager (SPM)",
+        "Cocoapods",
+        "Zero-Code Initialization",
+        "Manual Initialization",
+        "Configuration",
+        "Root Configuration",
+        "AwsConfig",
+        "AwsExportOverride",
+        "AwsTelemetryConfig",
+        "Export Strategy",
+        "Default Export Behavior",
+        "SigV4 Authentication",
+        "Crash Report Symbolication",
+        "Custom Events",
+        "Custom Span Example",
+        "Custom Log Example",
+        "Contributing",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "4d14d50924cbc7a5bcd5db636b3c9e6d108e6cce",
+          "size": 7283,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Examples/AwsOtelUI/package.json",
+          "sha": "e3dc6aa2db63b7c59b43bb7228015714c1640b92",
+          "size": 432,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@opentelemetry/otlp-transformer",
+            "compression",
+            "express",
+            "open",
+            "protobufjs"
+          ]
+        },
+        {
+          "path": "Examples/SimpleAwsDemo/Makefile",
+          "sha": "902f9e7dd71ac6a15c5a48f820f3aac9a9c49458",
+          "size": 4840,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Examples/SimpleAwsDemo/SimpleAwsDemo/cdk/package.json",
+          "sha": "9cb12258a0461dc5f14d33ed1d28010e11d17b6d",
+          "size": 610,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/jest",
+            "@types/node",
+            "aws-cdk",
+            "aws-cdk-lib",
+            "constructs",
+            "jest",
+            "source-map-support",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:14:23+00:00"
     },
     "aws-observability/aws-otel-test-framework": {
       "id": 295885704,
@@ -2658,12 +3184,123 @@
         "testing-tools"
       ],
       "last_seen_scan_id": "2026-11-23T19:37:58+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 298531,
+        "HCL": 243230,
+        "Smarty": 98526,
+        "Go": 63818,
+        "Mustache": 55438,
+        "TypeScript": 34267,
+        "Shell": 15978,
+        "Dockerfile": 4232,
+        "Makefile": 3029,
+        "Python": 1780,
+        "JavaScript": 187
+      },
+      "readme_url": "https://github.com/aws-observability/aws-otel-test-framework/blob/terraform/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "49bbe8d0c98119f449485615bebab09709e31970",
+      "readme_excerpt": "Before adding a new component into ADOT Collector, we require contributors to add related end-to-end test cases, this project is a testing framework which helps contributors to easily add testing into AWS Otel Collector. * Contributors won't need to run the test locally to provide the testing result, instead, just define it. The test case will be automatically picked by the github workflow in AWS Otel Collector repo to run integration test and soaking test on different platforms. We will notify contributors if a certain test case is failed. * Contributors won't need to build the validation logic for their",
+      "readme_headings": [
+        "ADOT Testing Framework",
+        "1. Two PRs to contribute your component to [ADOT Collector](https://github.com/aws-observability/aws-otel-collector)",
+        "1.1 Create a PR to Define test case in testing framework Repo",
+        "1.1.1 create test case folder",
+        "1.1.2 place `otconfig.tpl` under test case folder",
+        "1.1.3 place `parameters.tfvars` under test case folder",
+        "1.2 Create a PR to Link test case to ADOT Collector Repo",
+        "1.2.1 case_name",
+        "1.2.2 platforms",
+        "2. Run testing framework",
+        "3. Contributing",
+        "4. Security issue notifications",
+        "5. License",
+        "Support"
+      ],
+      "manifest_paths": [
+        {
+          "path": "build.gradle",
+          "sha": "e374050d8de68a169fc1fb1c51003d3adcdbd0eb",
+          "size": 1129,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "1f617f1c1519a611ee41b756ea1cf06795c92b4b",
+          "size": 469,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cdk_infra/Makefile",
+          "sha": "a456c9c3fcbfcfefa30d2f568aece55305dd7b7a",
+          "size": 106,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cdk_infra/package.json",
+          "sha": "809df425e32cc47dc8b7351487aa7f6ab8dcf539",
+          "size": 1412,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/aws-ec2",
+            "@aws-cdk/aws-eks",
+            "@aws-cdk/aws-iam",
+            "@aws-cdk/core",
+            "@aws-cdk/lambda-layer-kubectl",
+            "@aws-cdk/lambda-layer-kubectl-v29",
+            "@aws-cdk/lambda-layer-kubectl-v30",
+            "@aws-cdk/lambda-layer-kubectl-v31",
+            "@aws-cdk/lambda-layer-kubectl-v32",
+            "@aws-cdk/lambda-layer-kubectl-v33",
+            "@aws-cdk/lambda-layer-kubectl-v34",
+            "@types/jest",
+            "@types/js-yaml",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "ajv",
+            "ajv-errors",
+            "aws-cdk",
+            "aws-cdk-lib",
+            "constructs",
+            "eslint",
+            "jest",
+            "js-yaml",
+            "prettier",
+            "source-map-support",
+            "ts-jest",
+            "ts-node",
+            "typescript",
+            "yaml-schema-validator"
+          ]
+        },
+        {
+          "path": "load-generator/build.gradle",
+          "sha": "18cc003b9aefa0e75a3035c8af39ebfa4263e0e0",
+          "size": 2642,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "terraform/Makefile",
+          "sha": "8def5bf776592b325f3dd405e63df69d44d87779",
+          "size": 653,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:14:24+00:00"
     },
     "aws-observability/aws-rum-web": {
       "id": 406148973,
@@ -2686,12 +3323,211 @@
       "open_issues": 74,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:37:58+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 1022281,
+        "HTML": 163933,
+        "JavaScript": 80835,
+        "Shell": 69
+      },
+      "readme_url": "https://github.com/aws-observability/aws-rum-web/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0345c8d35185fafaf2749b0cdfb86ae71287f111",
+      "readme_excerpt": "The CloudWatch RUM web client is a JavaScript library that performs real user monitoring (RUM) on web applications. It captures page load timing, web vitals (LCP, FID, CLS, INP), JavaScript errors, HTTP requests, session replays, and custom events, then ships them to Amazon CloudWatch RUM. **1. Create an app monitor.** Follow Set up an app monitor in the CloudWatch RUM user guide. You will receive an application ID, a region, and (optionally) a Cognito identity pool ID. **2. Install and initialize.** NPM: npm install aws-rum-web import { AwsRum, AwsRumConfig } from 'aws-rum-web'; try { const config: AwsRumConfig = { sessionSampleRate:",
+      "readme_headings": [
+        "Amazon CloudWatch RUM Web Client",
+        "Quick start",
+        "Choose a package",
+        "CDN version pinning",
+        "Documentation",
+        "Getting help",
+        "Contributing",
+        "Build from source",
+        "Run tests",
+        "Pre-commit",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "9f2a99e230820c0858fe9a857daf9a3bb4ea4406",
+          "size": 5678,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-sdk/client-rum",
+            "@playwright/test",
+            "@types/jest",
+            "@types/pako",
+            "@types/shimmer",
+            "@types/ua-parser-js",
+            "@types/uuid",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "@webpack-cli/serve",
+            "case-sensitive-paths-webpack-plugin",
+            "copy-webpack-plugin",
+            "copyfiles",
+            "cross-env",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-import",
+            "eslint-plugin-jsdoc",
+            "eslint-plugin-prefer-arrow",
+            "eslint-plugin-react",
+            "generate-json-webpack-plugin",
+            "http-server",
+            "husky",
+            "jest",
+            "jest-date-mock",
+            "jest-environment-jsdom",
+            "jest-environment-jsdom-global",
+            "jest-mock-random",
+            "jsdom",
+            "json-schema-to-typescript",
+            "lerna",
+            "lint-staged",
+            "lodash",
+            "nightwatch",
+            "node-fetch",
+            "npm-run-all",
+            "prettier",
+            "terser-webpack-plugin",
+            "ts-jest",
+            "ts-loader",
+            "typescript",
+            "web-streams-polyfill",
+            "webpack",
+            "webpack-bundle-analyzer",
+            "webpack-cli",
+            "webpack-dev-middleware",
+            "webpack-dev-server",
+            "webpack-merge",
+            "xhr-mock"
+          ]
+        },
+        {
+          "path": "Examples/aws-rum-web-ui/package.json",
+          "sha": "cc5072c88586602e4a56a722b23d0d70073ed32a",
+          "size": 1350,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cloudscape-design/components",
+            "@cloudscape-design/global-styles",
+            "@eslint/js",
+            "@types/node",
+            "@types/react",
+            "@types/react-dom",
+            "@types/react-router-dom",
+            "@vitejs/plugin-react",
+            "concurrently",
+            "eslint",
+            "eslint-plugin-react-hooks",
+            "eslint-plugin-react-refresh",
+            "express",
+            "globals",
+            "react",
+            "react-dom",
+            "react-router-dom",
+            "rrweb",
+            "rrweb-player",
+            "typescript",
+            "typescript-eslint",
+            "vite"
+          ]
+        },
+        {
+          "path": "Examples/infra/package.json",
+          "sha": "6b1d4a97d27c86f0d0e679dbd4d9bc4c92ea4768",
+          "size": 642,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/node",
+            "aws-cdk",
+            "aws-cdk-lib",
+            "constructs",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Examples/mpa-cdn-demo/package.json",
+          "sha": "5c540de1b46a32be892e938c5de9157921893e8e",
+          "size": 369,
+          "content_status": "captured",
+          "dependency_hints": [
+            "express"
+          ]
+        },
+        {
+          "path": "Examples/spa-react-demo/package.json",
+          "sha": "de28b63bb464f17b7ce8dfb508db9ad7f8a2d166",
+          "size": 1648,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-crypto/sha256-js",
+            "@aws-rum/web-core",
+            "@aws-rum/web-slim",
+            "@aws-sdk/client-cognito-identity",
+            "@aws-sdk/client-cognito-identity-provider",
+            "@aws-sdk/credential-providers",
+            "@eslint/js",
+            "@reduxjs/toolkit",
+            "@smithy/protocol-http",
+            "@smithy/signature-v4",
+            "@smithy/util-hex-encoding",
+            "@tailwindcss/postcss",
+            "@types/node",
+            "@types/react",
+            "@types/react-dom",
+            "@vitejs/plugin-react-swc",
+            "autoprefixer",
+            "aws-rum-web",
+            "eslint",
+            "eslint-plugin-react-hooks",
+            "eslint-plugin-react-refresh",
+            "globals",
+            "lucide-react",
+            "postcss",
+            "react",
+            "react-dom",
+            "react-redux",
+            "react-router-dom",
+            "react-virtuoso",
+            "rollup-plugin-visualizer",
+            "tailwindcss",
+            "typescript",
+            "typescript-eslint",
+            "vite"
+          ]
+        },
+        {
+          "path": "packages/core/package.json",
+          "sha": "d2c50404337e2795dba304583e7cce88cc3c0336",
+          "size": 1763,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-crypto/sha256-js",
+            "@rrweb/record",
+            "@smithy/fetch-http-handler",
+            "@smithy/protocol-http",
+            "@smithy/querystring-builder",
+            "@smithy/signature-v4",
+            "@smithy/util-hex-encoding",
+            "rrweb",
+            "shimmer",
+            "uuid",
+            "web-vitals"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:14:26+00:00"
     },
     "aws-observability/aws-sigv4-proxy-admission-controller": {
       "id": 288855626,
@@ -2714,12 +3550,100 @@
       "open_issues": 10,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:37:58+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 28961,
+        "Dockerfile": 573,
+        "Makefile": 514
+      },
+      "readme_url": "https://github.com/aws-observability/aws-sigv4-proxy-admission-controller/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "79ef33012a76add63d8fbc7905a2a0528926ad4e",
+      "readme_excerpt": "The mutation admission controller will inject the AWS SIGv4 Proxy as a sidecar into a pod if there are annotations specified in a container's deployment.yaml file or specific namespace labels. A helm chart exists to deploy all the resources needed to use the admission controller here: https://github.com/aws/eks-charts/tree/master/stable/aws-sigv4-proxy-admission-controller/. Add the EKS repository to Helm: helm repo add eks https://aws.github.io/eks-charts Install the AWS SIGv4 Admission Controller chart with default configuration: helm install aws-sigv4-proxy-admission-controller eks/aws-sigv4-proxy-admission-controller --namespace <namespace> To uninstall/delete the `aws-sigv4-proxy-admission-controller` release: helm uninstall aws-sigv4-proxy-admission-controller --namespace <namespace> If you wish to build the image on your own, change the variables in Makefile for",
+      "readme_headings": [
+        "AWS SIGv4 Proxy Admission Controller",
+        "Getting Started",
+        "Installing the Controller via Helm Chart",
+        "Uninstalling the Helm Chart",
+        "Doing It Yourself",
+        "Usage",
+        "Configuration",
+        "Example Deployment",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "11389f01cc1de3207d052f9a441aea5e0cfbc24b",
+          "size": 573,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "go.mod",
+          "sha": "b79a66f237ffde0458c86bd08e30de58fda44a54",
+          "size": 1939,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/davecgh/go-spew",
+            "github.com/emicklei/go-restful/v3",
+            "github.com/go-logr/logr",
+            "github.com/go-openapi/jsonpointer",
+            "github.com/go-openapi/jsonreference",
+            "github.com/go-openapi/swag",
+            "github.com/gogo/protobuf",
+            "github.com/golang/protobuf",
+            "github.com/google/gnostic-models",
+            "github.com/google/gofuzz",
+            "github.com/google/uuid",
+            "github.com/josharian/intern",
+            "github.com/json-iterator/go",
+            "github.com/mailru/easyjson",
+            "github.com/modern-go/concurrent",
+            "github.com/modern-go/reflect2",
+            "github.com/munnerz/goautoneg",
+            "github.com/pmezard/go-difflib",
+            "github.com/stretchr/objx",
+            "github.com/stretchr/testify",
+            "golang.org/x/net",
+            "golang.org/x/oauth2",
+            "golang.org/x/sys",
+            "golang.org/x/term",
+            "golang.org/x/text",
+            "golang.org/x/time",
+            "google.golang.org/appengine",
+            "google.golang.org/protobuf",
+            "gopkg.in/inf.v0",
+            "gopkg.in/yaml.v2",
+            "gopkg.in/yaml.v3",
+            "k8s.io/api",
+            "k8s.io/apimachinery",
+            "k8s.io/client-go",
+            "k8s.io/klog/v2",
+            "k8s.io/kube-openapi",
+            "k8s.io/utils",
+            "sigs.k8s.io/json",
+            "sigs.k8s.io/structured-merge-diff/v4",
+            "sigs.k8s.io/yaml"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "fbbb0ce7e986b24d0f60215961a7a764048e811a",
+          "size": 514,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:14:28+00:00"
     },
     "aws-observability/cdk-aws-observability-accelerator": {
       "id": 639370870,
@@ -2754,12 +3678,78 @@
         "prometheus"
       ],
       "last_seen_scan_id": "2026-11-23T19:37:58+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 135828,
+        "Shell": 23271,
+        "JavaScript": 3109,
+        "Makefile": 1899,
+        "Python": 1305
+      },
+      "readme_url": "https://github.com/aws-observability/cdk-aws-observability-accelerator/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e3d3c74d36349af6e82790f57ac462a9ddea0f9f",
+      "readme_excerpt": "Welcome to the `AWS Observability Accelerator for CDK`! The AWS Observability Accelerator for CDK is a set of opinionated modules to help you set up observability for your AWS environments with AWS Native services and AWS-managed observability services such as Amazon Managed Service for Prometheus,Amazon Managed Grafana, AWS Distro for OpenTelemetry (ADOT) and Amazon CloudWatch. One of the fallacies of distributed computing is that observability is optional. It's a prevalent but wrong assumption. To have a reliable and changeable system, you need to have proper observability in place. And this project aims to help you. AWS Observability Accelerator for CDK",
+      "readme_headings": [
+        "AWS Observability Accelerator for CDK",
+        "Single EKS Cluster AWS Native Observability Accelerator",
+        "Single EKS Cluster Open Source Observability Accelerator",
+        "Patterns",
+        "Usage",
+        "Workstation Setup Options",
+        "DevContainer Setup",
+        "Ubuntu Setup",
+        "Mac Setup:",
+        "Repo setup",
+        "Developer Flow",
+        "Modifications",
+        "New Patterns",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "bd759a3ad1815b295588d14448bae7f59c676c4f",
+          "size": 1899,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "package.json",
+          "sha": "222e85549a4c21c4ed22702d62e09f4f4d67e0dd",
+          "size": 1199,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-quickstart/eks-blueprints",
+            "@kubecost/kubecost-eks-blueprints-addon",
+            "@types/jest",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-cdk",
+            "aws-cdk-lib",
+            "aws-sdk",
+            "constructs",
+            "copyfiles",
+            "eks-blueprints-cdk-kubeflow-ext",
+            "eslint",
+            "jest",
+            "source-map-support",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:14:29+00:00"
     },
     "aws-observability/cloudwatch-plugin-otel-go": {
       "id": 1388159018,

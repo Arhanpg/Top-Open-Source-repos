@@ -1,0 +1,76 @@
+# MicrosoftDocs/anyscale-on-azure-docs
+
+- Company: Microsoft
+- GitHub account: [https://github.com/MicrosoftDocs](https://github.com/MicrosoftDocs)
+- Mapping status: official-project-linked
+- Repository: [MicrosoftDocs/anyscale-on-azure-docs](https://github.com/MicrosoftDocs/anyscale-on-azure-docs)
+- Default branch: main
+- README: [Open upstream README](https://github.com/MicrosoftDocs/anyscale-on-azure-docs/blob/main/README.md)
+- README blob SHA: 9828ee889cedf11924facfa7ebde50aa5fa14e84
+- Repository ID: 1260577842
+- Evidence state: evidence captured; manual review pending
+- Manual review: manual technical interpretation pending
+
+## Upstream description
+
+Public repo for Azure Anyscale documentation on the Microsoft Learn site. https://learn.microsoft.com/en-us/azure/anyscale-on-azure/
+
+This is repository-owner metadata, not an independently verified technical summary.
+
+## README capture
+
+- Status: captured
+- Captured: 2026-11-23T20:21:54+00:00
+
+### Short excerpt (up to 100 words)
+
+> This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com. When you submit a pull request, a CLA bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repos using our CLA. This project has adopted the Microsoft Open Source Code of
+
+### README headings
+
+- Contributing
+- Legal Notices
+
+## GitHub language statistics
+
+GitHub's Languages API reports detected source-code bytes. It does not identify frameworks or architecture by itself.
+
+| Language | Bytes |
+|---|---:|
+| Unknown | Not captured |
+
+## Build and dependency manifest paths
+
+These paths were found in the default-branch tree. A manifest filename alone is not proof of a framework or runtime.
+
+- No recognised manifests found or captured
+
+- Manifest scan truncated by GitHub: False
+- Manifest capture state: none_found
+
+## Lifecycle metadata
+
+- Archived: False
+- Fork: False
+- Disabled: False
+- Licence SPDX: CC-BY-4.0
+- Stars at capture: 0
+- Forks at capture: 2
+- Last updated: 2026-10-02T19:35:52Z
+- Last pushed: 2026-11-12T23:34:06Z
+- Topics: Not supplied
+
+## Required manual review
+
+Interpret the README's purpose and capabilities; confirm framework/library claims against manifests and relevant source; inspect architecture, tests, licence, security guidance, platform constraints and maintenance status. Only then change the manual review state to README reviewed.
+
+## Upstream links
+
+- [Repository](https://github.com/MicrosoftDocs/anyscale-on-azure-docs)
+- [README](https://github.com/MicrosoftDocs/anyscale-on-azure-docs/blob/main/README.md)
+- [Issues](https://github.com/MicrosoftDocs/anyscale-on-azure-docs/issues)
+- [Releases](https://github.com/MicrosoftDocs/anyscale-on-azure-docs/releases)
+
+Capture errors: None
+
+*Generated evidence capture only. This page is not labelled README reviewed until a human has interpreted and checked the upstream material.*

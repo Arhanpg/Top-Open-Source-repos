@@ -1,0 +1,20 @@
+# NVIDIA / nvidia-cosmos — repository inventory
+
+- Pagination complete: True
+- Pages in latest scan: 1
+- Repository records: 12
+
+| Repository | Description | Stars | Languages | Archived | Fork | In latest scan | README state | Dossier |
+|---|---|---:|---|---:|---:|---|---|---|
+| [nvidia-cosmos/.github](https://github.com/nvidia-cosmos/.github) | No description | 2 | Pending | False | False | True | unavailable | [Open](repositories/github-959407048.md) |
+| [nvidia-cosmos/cosmos-cookbook](https://github.com/nvidia-cosmos/cosmos-cookbook) | Post-training scripts and samples for NVIDIA Cosmos ecosystem | 489 | Just, Python, Shell | False | False | True | captured | [Open](repositories/cosmos-cookbook-1042354192.md) |
+| [nvidia-cosmos/cosmos-dependencies](https://github.com/nvidia-cosmos/cosmos-dependencies) | No description | 12 | Dockerfile, Just, Python, Shell | False | False | True | captured | [Open](repositories/cosmos-dependencies-1041087655.md) |
+| [nvidia-cosmos/cosmos-predict1](https://github.com/nvidia-cosmos/cosmos-predict1) | Cosmos-Predict1 is a collection of general-purpose world foundation models for Physical AI that can be fine-tuned into customized world models for downstream applications. | 477 | Dockerfile, Jupyter Notebook, Python, Shell | False | False | True | captured | [Open](repositories/cosmos-predict1-941557796.md) |
+| [nvidia-cosmos/cosmos-predict2](https://github.com/nvidia-cosmos/cosmos-predict2) | Cosmos-Predict2 is a collection of general-purpose world foundation models for Physical AI that can be fine-tuned into customized world models for downstream applications. | 793 | Dockerfile, Just, Python, Shell | True | False | True | captured | [Open](repositories/cosmos-predict2-1000245335.md) |
+| [nvidia-cosmos/cosmos-predict2.5](https://github.com/nvidia-cosmos/cosmos-predict2.5) | Cosmos-Predict2.5, the latest version of the Cosmos World Foundation Models (WFMs) family, specialized for simulating and predicting the future state of the world in the form of video. | 1406 | Dockerfile, Just, Python, Shell | False | False | True | captured | [Open](repositories/cosmos-predict2-5-1064218929.md) |
+| [nvidia-cosmos/cosmos-reason1](https://github.com/nvidia-cosmos/cosmos-reason1) | Cosmos-Reason1 models understand the physical common sense and generate appropriate embodied decisions in natural language through long chain-of-thought reasoning processes. | 965 | Just, Python, Shell | False | False | True | captured | [Open](repositories/cosmos-reason1-941558026.md) |
+| [nvidia-cosmos/cosmos-reason2](https://github.com/nvidia-cosmos/cosmos-reason2) | Cosmos-Reason2 models understand the physical common sense and generate appropriate embodied decisions in natural language through long chain-of-thought reasoning processes. | 462 | Dockerfile, Just, Python, Shell | False | False | True | captured | [Open](repositories/cosmos-reason2-1052924124.md) |
+| [nvidia-cosmos/cosmos-rl](https://github.com/nvidia-cosmos/cosmos-rl) | Cosmos-RL is a flexible and scalable Reinforcement Learning framework specialized for Physical AI applications. | 486 | Dockerfile, HTML, Jinja, Python, Shell | False | False | True | captured | [Open](repositories/cosmos-rl-999256448.md) |
+| [nvidia-cosmos/cosmos-transfer1](https://github.com/nvidia-cosmos/cosmos-transfer1) | Cosmos-Transfer1 is a world-to-world transfer model designed to bridge the perceptual divide between simulated and real-world environments. | 830 | Dockerfile, Python, Shell | False | False | True | captured | [Open](repositories/cosmos-transfer1-941557915.md) |
+| [nvidia-cosmos/cosmos-transfer2.5](https://github.com/nvidia-cosmos/cosmos-transfer2.5) | Cosmos-Transfer2.5, built on top of Cosmos-Predict2.5, produces high-quality world simulations conditioned on multiple spatial control inputs. | 769 | Pending | False | False | True | pending | Not generated |
+| [nvidia-cosmos/cosmos-xenna](https://github.com/nvidia-cosmos/cosmos-xenna) | Python library for building and running distributed data pipelines using Ray | 89 | Pending | False | False | True | pending | Not generated |

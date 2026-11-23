@@ -1613,12 +1613,84 @@
       "open_issues": 9,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 199743,
+        "JavaScript": 54
+      },
+      "readme_url": "https://github.com/aws-actions/configure-aws-credentials/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6dfeb15c9c439ddba1aa54362e43005eb4429b3a",
+      "readme_excerpt": "Authenticate to AWS in GitHub Actions (and others)! Works especially well with 1. Create an IAM Identity Provider in your AWS account for GitHub OIDC. (See 2. Create an IAM Role in your AWS account with a trust policy that allows GitHub Actions to assume it. (Expand the sections below) <details> { \"Version\": \"2012-10-17\", \"Statement\": [ { \"Effect\": \"Allow\", \"Principal\": { \"Federated\": \"arn:aws:iam::<AWS_ACCOUNT_ID>:oidc-provider/token.actions.githubusercontent.com\" }, \"Action\": \"sts:AssumeRoleWithWebIdentity\", \"Condition\": { \"StringEquals\": { \"token.actions.githubusercontent.com:aud\": \"sts.amazonaws.com\", \"token.actions.githubusercontent.com:sub\": \"repo:<GITHUB_ORG>@<ORG_ID>/<GITHUB_REPOSITORY>@<REPO_ID>:ref:refs/heads/<GITHUB_BRANCH>\" } } } ] } Note: The value of the `sub` claim may be different depending on the workflow and the environment in which it's running.",
+      "readme_headings": [
+        "Configure AWS Credentials",
+        "Quick Start (OIDC, recommended)",
+        "Security Recommendations",
+        "Non-OIDC Authentication Options",
+        "Additional Options",
+        "Options",
+        "Adjust the retry mechanism",
+        "Mask account ID",
+        "Unset current credentials",
+        "Inputs as environment variables",
+        "Configure named AWS profiles",
+        "Skip the cleanup",
+        "Use an HTTP proxy",
+        "Your environment configuration",
+        "Special characters in AWS_SECRET_ACCESS_KEY",
+        "Session Naming and Policies",
+        "Custom session tags",
+        "Session policies",
+        "Inline session policies",
+        "Managed session policies",
+        "Custom STS endpoint",
+        "OIDC Configuration Details",
+        "OIDC Audience",
+        "Configuring IAM to trust GitHub",
+        "Claims and scoping permissions",
+        "Immutable subject claims",
+        "Legacy (mutable) sub claim",
+        "Immutable sub claim",
+        "Inspecting the token",
+        "Further information about OIDC"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "be044f3fcca46f22d914688c62705fa7520fdfc5",
+          "size": 2046,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@actions/core",
+            "@aws-sdk/client-sts",
+            "@aws-sdk/credential-provider-env",
+            "@aws-sdk/credential-provider-node",
+            "@biomejs/biome",
+            "@smithy/node-http-handler",
+            "@smithy/property-provider",
+            "@types/node",
+            "@vitest/coverage-v8",
+            "aws-sdk-client-mock",
+            "esbuild",
+            "generate-license-file",
+            "json-schema",
+            "markdownlint-cli",
+            "memfs",
+            "proxy-agent",
+            "standard-version",
+            "typescript",
+            "vitest"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:12:46+00:00"
     },
     "aws-actions/devops-agent-qa": {
       "id": 1263345109,
@@ -1641,12 +1713,59 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 6360,
+        "Shell": 867
+      },
+      "readme_url": "https://github.com/aws-actions/devops-agent-qa/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f954b06f60c3b2f1a9f4424d3c8ecbfbea7fab15",
+      "readme_excerpt": "A GitHub Action that triggers the AWS DevOps Release Testing Agent after deployment. It automatically runs UI or API tests against your application and reports results as a GitHub Check Run on your commit. 1. Navigate to the AWS DevOps Agent Console 2. Select your Agent Space 3. Go to **Capability Providers** and add GitHub (install the GitHub App to your organization) 1. In your Agent Space, go to **Pipeline Sources** 2. Click **Add source** → select **GitHub** 3. Select your repository and confirm the association 1. In the Agent Space, go to **Settings → Webhooks** 2. Create a new",
+      "readme_headings": [
+        "AWS DevOps Agent Release Testing Action",
+        "Choose Your Path",
+        "Common Setup (Required for Both Paths)",
+        "Step 1: Enable Release Testing in Your Agent Space",
+        "Step 2: Add Your GitHub Repository as a Pipeline Source",
+        "Step 3: Create a Webhook Endpoint",
+        "Step 4: Configure GitHub Repository Secrets",
+        "Quick Test (Profileless)",
+        "UI Testing",
+        "API Testing",
+        "Limitations",
+        "Full Setup (with Test Profile)",
+        "Step 5: Create a Test Profile",
+        "Step 6: Add the Action to Your Workflow",
+        "Inputs",
+        "Permissions",
+        "How It Works",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "b2a000b876715a7221e720573bb578e7cbbe80c7",
+          "size": 533,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@actions/core",
+            "@actions/github",
+            "@types/node",
+            "@vercel/ncc",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:12:47+00:00"
     },
     "aws-actions/handle-non-labeled-issues": {
       "id": 1292769791,
@@ -1669,12 +1788,49 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 8182
+      },
+      "readme_url": "https://github.com/aws-actions/handle-non-labeled-issues/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ed6bac5b550784215000a06953a01066f8d595f9",
+      "readme_excerpt": "Issues created through the GitHub web interface can have templates applied to them, which allows maintainers to set a label on new issue creation. But there's no way to enforce that a label is applied to an issue when it is created through the API or `gh` CLI. LLM agents especially prefer to use the API to create issues, which can lead to unlabeled issues being created. This action enforces that a label is applied to an issue when it is created. If an issue is created without a label, this action will apply the default labels you configure in",
+      "readme_headings": [
+        "Handle Non-labeled Issues",
+        "Usage",
+        "License",
+        "Contributing",
+        "Reporting Issues"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "b522891bfb28ebb44599ca68fa924ef57f75d35e",
+          "size": 2069,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@actions/core",
+            "@actions/github",
+            "@biomejs/biome",
+            "@types/node",
+            "@vitest/coverage-v8",
+            "esbuild",
+            "generate-license-file",
+            "markdownlint-cli",
+            "typescript",
+            "vitest"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:12:48+00:00"
     },
     "aws-actions/setup-sam": {
       "id": 348485922,
@@ -1702,12 +1858,54 @@
         "serverless"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 39231
+      },
+      "readme_url": "https://github.com/aws-actions/setup-sam/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "75f7d304d75a9212a06997f4e85862568d86c951",
+      "readme_excerpt": "Action to set up AWS SAM CLI and add it to the `PATH`. This action enables you to run AWS SAM CLI commands in order to build, package, and deploy serverless applications as part of your workflow. Assuming you have a `samconfig.toml` at the root of your repository: on: push: branches: - main jobs: deploy: runs-on: ubuntu-latest steps: - uses: actions/checkout@v6 - uses: aws-actions/setup-sam@v3 with: use-installer: true - uses: aws-actions/configure-aws-credentials@v6 with: role-to-assume: ${{ secrets.ASSUME_ROLE_ARN }} role-session-name: ci aws-region: us-east-2 - run: sam build --use-container - run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset See AWS IAM best practices for handling AWS credentials. The",
+      "readme_headings": [
+        "setup-sam",
+        "Example",
+        "Inputs",
+        "`version`",
+        "`use-installer`",
+        "`python`",
+        "`token`",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "ed04c9017e7f1c2ad7ea73722c50308c00af4337",
+          "size": 800,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@actions/cache",
+            "@actions/core",
+            "@actions/exec",
+            "@actions/http-client",
+            "@actions/io",
+            "@actions/tool-cache",
+            "@vercel/ncc",
+            "eslint",
+            "jest",
+            "prettier",
+            "semver"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:12:50+00:00"
     },
     "aws-actions/stale-issue-cleanup": {
       "id": 250377255,
@@ -1730,12 +1928,51 @@
       "open_issues": 19,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 88879
+      },
+      "readme_url": "https://github.com/aws-actions/stale-issue-cleanup/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b003303161ee01ae4d55b776a4b726fc970adb0e",
+      "readme_excerpt": "This GitHub action warns and then closes issues and PRs without activity after a specified amount of time. It improves upon [GitHub's original stale action](https://github.com/actions/stale) by allowing the action to run only on issues that contain a specified label, and removing labels once the issue sees new activity. Install dependencies $ npm install Run unit tests $ npm run test You need to add a workflow file into your repository under This workflow file follows the standard workflow syntax for Github Actions.. A sample workflow file for you to use as a drop-in is in sample_workflow.yml. For a list of",
+      "readme_headings": [
+        "\"Stale Issue Cleanup\" Action for GitHub Actions",
+        "Building and testing",
+        "Usage",
+        "License Summary"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "837a182c876d6c493562c80717d99f3365c547a6",
+          "size": 1414,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@actions/core",
+            "@actions/github",
+            "@biomejs/biome",
+            "@fetch-mock/vitest",
+            "@octokit/plugin-rest-endpoint-methods",
+            "@types/dateformat",
+            "@types/node",
+            "@vercel/ncc",
+            "@vitest/coverage-v8",
+            "dateformat",
+            "dotenv",
+            "typescript",
+            "vitest"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:12:51+00:00"
     },
     "aws-actions/sustainability-scanner": {
       "id": 676336646,
@@ -1758,12 +1995,59 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 23330,
+        "Shell": 9861,
+        "Dockerfile": 1133
+      },
+      "readme_url": "https://github.com/aws-actions/sustainability-scanner/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6c0cd9f2f5c0b855d3dee9344296905ef9c16f14",
+      "readme_excerpt": "This GitHub Action runs AWS Sustainability Scanner against infrastructure-as-code to identify sustainability best practices, generates a report with a score and suggested improvements to apply to your template. In your Github worflows, under steps, add the following: name: AWS Sustainability Scanner uses: aws-actions/sustainability-scanner@v1 with: Path to the specific file you want to scan. This file is never skipped: the action fails if CFN Guard cannot parse it. Path to the directory you want to scan. Every `.json`, `.yml` and `.yaml` files that this directory contain will be scan. Files that CFN Guard cannot parse are skipped only when they cannot",
+      "readme_headings": [
+        "AWS Sustainability Scanner GitHub action",
+        "Usage",
+        "Inputs",
+        "`file`",
+        "`directory`",
+        "`stack_name`",
+        "`rules_file`",
+        "`fail_on_findings`",
+        "`max_score_threshold`",
+        "Outputs",
+        "`results`",
+        "Job summary",
+        "Example usage",
+        "Simple usage with one specific file",
+        "Controls when the workflow will run",
+        "A workflow run is made up of one or more jobs that can run sequentially or in parallel",
+        "Usage with a directory and custom rules set",
+        "Usage for CDK stacks",
+        "Use as a quality gate in CI/CD",
+        "Use output for commenting pull requests",
+        "Security",
+        "Security considerations",
+        "Errored scans and skipped files",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "78a85bc9048e8e88e69a0f949baffb6f4a46423b",
+          "size": 1133,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:12:52+00:00"
     },
     "aws-actions/terraform-aws-iam-policy-validator": {
       "id": 784921498,
@@ -1786,12 +2070,44 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 17326,
+        "Dockerfile": 681
+      },
+      "readme_url": "https://github.com/aws-actions/terraform-aws-iam-policy-validator/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "63cb49064de987f86e397468e467bbbf98cef2e8",
+      "readme_excerpt": "A GitHub Action that takes an Terraform template, parses the IAM policies attached to IAM roles, users, groups, and resources then runs them through IAM Access Analyzer policy validation and (optionally) custom policy checks. Note that a charge is associated with each custom policy check. For more details about pricing, see IAM Access Analyzer pricing. See action.yml for the full documentation for this action's inputs and outputs. **Before each of the following examples, make sure to include the following:** - Setting up the role: Role used in the GitHub workflow should have necessary permissions required - to be called from",
+      "readme_headings": [
+        "Policy Validator for AWS IAM Policies in Terraform Templates",
+        "Inputs",
+        "Example Usage",
+        "Getting started using starter workflows",
+        "Using `VALIDATE_POLICY` CHECK",
+        "Using for the `CHECK_NO_NEW_ACCESS` CHECK",
+        "Using for the `CHECK_ACCESS_NOT_GRANTED` CHECK",
+        "Using for the `CHECK_NO_PUBLIC_ACCESS` CHECK",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "c03b17edf280d2bd758584588d26637a6b8143da",
+          "size": 681,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:12:53+00:00"
     },
     "aws-actions/vulnerability-scan-github-action-for-amazon-inspector": {
       "id": 741582878,
@@ -1821,12 +2137,101 @@
         "vulnerability-scanners"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 277714,
+        "Dockerfile": 1621,
+        "Shell": 1346,
+        "Makefile": 774
+      },
+      "readme_url": "https://github.com/aws-actions/vulnerability-scan-github-action-for-amazon-inspector/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e8e4966c4f14ca57de941d5b3d1d6d637831e0fb",
+      "readme_excerpt": "Amazon Inspector is a vulnerability management service that scans AWS workloads and CycloneDX SBOMs for known software vulnerabilities. This GitHub Action allows you to scan supported artifacts for software vulnerabilities using Amazon Inspector from your GitHub Actions workflows. An active AWS account is required to use this action. This action works by first generating a CycloneDX software bill of materials (SBOM) for the provided artifact. The SBOM is then sent to Amazon Inspector and scanned for known vulnerabilities. This action can scan the following artifact types for vulnerabilities: 1. Files and directories in your GitHub repository 2. Container images 3.",
+      "readme_headings": [
+        "Vulnerability Scan GitHub Action for Amazon Inspector",
+        "Overview",
+        "Prerequisites",
+        "Usage",
+        "Quick Start",
+        "Configuring Vulnerability Scan Outputs",
+        "Display Inspector results in the GitHub Actions terminal",
+        "Upload Inspector outputs as a .zip that can be downloaded",
+        "from the GitHub actions job summary page.",
+        "Publishing to GitHub Code Scanning",
+        "Configuring Vulnerability Thresholds",
+        "Blocking Malicious Packages",
+        "The scan step fails when a malicious package is found, so use",
+        "if: always() on steps that should still run, such as uploading reports.",
+        "Ignoring Specific Findings",
+        ".inspector-ignore",
+        ".inspector-ignore",
+        "Build and Scan Container Images",
+        "Action Inputs and Outputs",
+        "Input Options",
+        "Output Options",
+        "Get Help",
+        "Bugs",
+        "Contributing",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "5c1d13acffbca3899c37e804543b00e30cbc811a",
+          "size": 501,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "entrypoint/requirements.txt",
+          "sha": "011ba23bf8d78dcb02293e236a1aefe21085e64c",
+          "size": 14,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3"
+          ]
+        },
+        {
+          "path": "entrypoint/setup.py",
+          "sha": "9d282dd0ab8bd69541345adc927b8a5ba59404a7",
+          "size": 127,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test_fixtures/sbomgen-flags/requirements.txt",
+          "sha": "871dd2bd729efc1490ba1f0e4b567c2a3e2ea17e",
+          "size": 14,
+          "content_status": "captured",
+          "dependency_hints": [
+            "toppkg"
+          ]
+        },
+        {
+          "path": "entrypoint/tests/test_data/artifacts/containers/build_and_scan/Dockerfile",
+          "sha": "10e07795e0a5ba88d031aef27c73ee964d09f321",
+          "size": 293,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "entrypoint/tests/test_data/artifacts/containers/dockerfile_checks/Dockerfile",
+          "sha": "543d8682b623b3e354d1f114df0ceae582c62f44",
+          "size": 1328,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:12:55+00:00"
     }
   },
   "pages_fetched": 1,

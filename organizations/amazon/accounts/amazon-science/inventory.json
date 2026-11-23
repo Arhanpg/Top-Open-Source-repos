@@ -1512,12 +1512,141 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 528729,
+        "Shell": 10752,
+        "JavaScript": 10356,
+        "SCSS": 4712,
+        "HTML": 478
+      },
+      "readme_url": "https://github.com/amazon-science/alexa-arena/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5d6d4de14447f978978c62f002f88015509717d2",
+      "readme_excerpt": "Arena is a new Embodied AI platform, for robotic task completion in simulated environments. Arena has been developed with an objective of advancing research in Human Robot Interaction (HRI) for robot task completion challenges. Building embodied agents for Arena involves working on key science aspects such as Multimodal Understanding and Reasoning, Embodied Conversational AI, Imitation and Reinforcement Learning, Teachable AI and Robotic Task planning. This repository includes codebase to interact with the Arena executable. It also provides several scripts to fetch dataset, placeholder model, and other auxiliary tools. The Arena executable is subject to a separate * **Number of vCPUs**:",
+      "readme_headings": [
+        "AlexaArena",
+        "1. Introduction",
+        "2. Installation",
+        "2.1 Instance configuration for running Arena",
+        "2.2 Steps",
+        "3. Data & Baseline Models",
+        "4. Auxiliary Tools",
+        "4.1. Chat-based Interactive WebTool",
+        "4.2. Arena Debugger",
+        "5. Eval AI Challenge",
+        "6. Citation",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "modeling/ns_model/requirements.txt",
+          "sha": "0737cee74f0a801dc35cb29660af75bcc2e2e620",
+          "size": 585,
+          "content_status": "captured",
+          "dependency_hints": [
+            "GitPython",
+            "Pillow",
+            "boto3",
+            "certifi",
+            "charset-normalizer",
+            "colorama",
+            "docopt",
+            "dotmap",
+            "etaprogress",
+            "filelock",
+            "gitdb",
+            "gtimer",
+            "idna",
+            "jsonpickle",
+            "lmdb",
+            "munch",
+            "networkx",
+            "numpy",
+            "opencv-python",
+            "packaging",
+            "pandas",
+            "py-cpuinfo",
+            "python-dateutil",
+            "pytz",
+            "requests",
+            "revtok",
+            "sacred",
+            "scikit-video",
+            "scipy",
+            "six",
+            "smmap",
+            "termcolor",
+            "tqdm",
+            "typing_extensions",
+            "urllib3",
+            "vocab",
+            "wrapt"
+          ]
+        },
+        {
+          "path": "modeling/vision_model/requirements.txt",
+          "sha": "8fad3eb3a6e9e4a9cff97c9482c8364eb5ea7cb5",
+          "size": 97,
+          "content_status": "captured",
+          "dependency_hints": [
+            "GPUtil",
+            "matplotlib",
+            "onnx",
+            "onnxruntime-gpu",
+            "opencv-python",
+            "p-tqdm"
+          ]
+        },
+        {
+          "path": "modeling/vl_model/requirements.txt",
+          "sha": "6ff57dd93d4dcfaa57a42160374c13cde20b83b6",
+          "size": 63,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "ftfy",
+            "loguru",
+            "opencv-python",
+            "regex",
+            "scipy",
+            "tqdm"
+          ]
+        },
+        {
+          "path": "web_tool/front-end/package.json",
+          "sha": "d486d3869708b0c2c6d2c948be6224d5c5b47816",
+          "size": 1092,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cloudscape-design/collection-hooks",
+            "@cloudscape-design/components",
+            "@cloudscape-design/design-tokens",
+            "@cloudscape-design/global-styles",
+            "@vitejs/plugin-react",
+            "babel-eslint",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-prettier",
+            "eslint-plugin-react",
+            "prettier",
+            "react",
+            "react-dom",
+            "react-router-dom",
+            "sass",
+            "vite"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:13:11+00:00"
     },
     "amazon-science/alexa-teacher-models": {
       "id": 521348526,
@@ -1540,12 +1669,52 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 166393
+      },
+      "readme_url": "https://github.com/amazon-science/alexa-teacher-models/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1a8564f7d62029ff31c690c325e3bd6432ec9cd0",
+      "readme_excerpt": "This is the official Alexa Teacher Model program github page. AlexaTM 20B is a 20B-Parameter sequence-to-sequence transformer model created by the Alexa Teacher Model (AlexaTM) team at Amazon. The model was trained on a mixture of Common Crawl (mC4) and Wikipedia data across 12 languages using denoising and Causal Language Modeling (CLM) tasks. AlexaTM 20B can be used for in-context learning. \"In-context learning,\" also known as \"prompting,\" refers to a method for using NLP models in which no fine tuning is required per task. Training examples are provided to the model only as part of the prompt given as inference",
+      "readme_headings": [
+        "Alexa Teacher Models",
+        "AlexaTM 20B",
+        "Load the Model and Run Inference",
+        "Load the model",
+        "qa",
+        "denoising",
+        "Running the repl example",
+        "Fine-tuning with DeepSpeed on a single P4",
+        "Fine-tuning with DeepSpeed on multiple machines",
+        "Citation",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "f72342271d4e77965e1596196fa8142c7592d284",
+          "size": 148,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "setup.py",
+          "sha": "606849326a4002007fd42060b51e69a19c18675c",
+          "size": 38,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:13:12+00:00"
     },
     "amazon-science/ALoDLM": {
       "id": 1402442823,
@@ -1568,12 +1737,75 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 371713
+      },
+      "readme_url": "https://github.com/amazon-science/ALoDLM/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d1cdcf51678a9b02174d082e5a25b13e2bbae423",
+      "readme_excerpt": "Diffusion language models (DLMs) enable fast generation by predicting multiple tokens in parallel, yet their practical adoption remains hindered by a persistent quality gap relative to comparably sized autoregressive models. We attribute this gap to a *computation-difficulty mismatch*: within a partially observed sequence, some unknown tokens are readily predictable, while others require substantially more computation to resolve. Existing DLMs, however, apply uniform computational depth to every unknown position at each denoising step. We introduce **ALoDLM**, which replaces this uniform computation with token-adaptive latent recurrence. At each denoising step, ALoDLM iteratively refines representations in latent space, allocating computation based on token",
+      "readme_headings": [
+        "ALoDLM: Adaptively Looped Diffusion Language Models",
+        "Results",
+        "Method",
+        "Adaptive latent recurrence",
+        "Learning where to spend computation",
+        "Getting started",
+        "Optimized generation",
+        "Portable decoder and training environment",
+        "Portable generation",
+        "Train or evaluate",
+        "Implementation scope",
+        "Limitations",
+        "Validation",
+        "Security and contributions",
+        "License and attribution",
+        "How to cite"
+      ],
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "7a541be70f3ec1cb05b4c01fd7bde84c34f59008",
+          "size": 1392,
+          "content_status": "captured",
+          "dependency_hints": [
+            "PyYAML",
+            "accelerate",
+            "deepspeed",
+            "evalplus",
+            "huggingface-hub",
+            "math-verify",
+            "safetensors",
+            "torch",
+            "transformers"
+          ]
+        },
+        {
+          "path": "optimized/pyproject.toml",
+          "sha": "8e13cbe8ffb22ad042f46659111c8ae708ac6c39",
+          "size": 785,
+          "content_status": "captured",
+          "dependency_hints": [
+            "huggingface-hub",
+            "numpy",
+            "safetensors",
+            "torch",
+            "tqdm",
+            "transformers",
+            "vllm",
+            "xxhash"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:13:13+00:00"
     },
     "amazon-science/amazon-alexa-language-assisted-product-search": {
       "id": 526398567,
@@ -1596,12 +1828,27 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 54627,
+        "Shell": 2815
+      },
+      "readme_url": "https://github.com/amazon-science/amazon-alexa-language-assisted-product-search/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f66ed740004b65925377dcbbb022d95f2dee35f5",
+      "readme_excerpt": "The package defines a set of tool to access the annotated data we collected for 2022 Amazon Alexa language-assisted product search challenge as well as the baseline method. Please check the detail of the challenge and the dataset here. The dataset is released under CC BY-NC 4.0 license. The dataset contains 2 types of files, the annotation csv file and the gallery csv file. The annotation file contains the source product, target product, non-target product and the language feedback provided by the annotator when they wanted to buy the target product but provided with the source product. For each product,",
+      "readme_headings": [
+        "The query file"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:13:15+00:00"
     },
     "amazon-science/amazon-multilingual-counterfactual-dataset": {
       "id": 401606666,
@@ -1624,12 +1871,26 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/amazon-science/amazon-multilingual-counterfactual-dataset/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1e72f6d32427d686abb08c324a951ab72cca1c7e",
+      "readme_excerpt": "This repository contains a dataset described in the paper: *I Wish I Would Have Loved This One, But I Didn’t – A Multilingual Dataset for Counterfactual Detection in Product Reviews.* James O’Neill, Polina Rozenshtein, Ryuichi Kiryo, Motoko Kubota, Danushka Bollegala. EMNLP'21. arxiv version The dataset contains *sentences* from Amazon customer reviews (sampled from Amazon product review dataset) annotated for counterfactual detection (CFD) *binary classification*. Counterfactual statements describe events that did not or cannot take place. Counterfactual statements may be identified as statements of the form – If p was true, then q would be true (i.e. assertions whose antecedent (p)",
+      "readme_headings": [
+        "Amazon Multilingual Counterfactual Dataset (AMCD)",
+        "Cite",
+        "License Summary"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:13:16+00:00"
     },
     "amazon-science/amazon-od3": {
       "id": 738208311,
@@ -1652,12 +1913,55 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 36031,
+        "Shell": 2927
+      },
+      "readme_url": "https://github.com/amazon-science/amazon-od3/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c48971fd06bc3bf6179966ae252d10db92a3168d",
+      "readme_excerpt": "SPDX-License-Identifier: CC-BY-NC-SA-4.0 --> OD3 (Open Directed Dialogue Dataset), is designed to allow the community to explore further research into leveraging flawed conversational interactions to improve model performance. OD3 is a collection of 63K conversations (600K turns, 1,172 hours of audio) drawn from existing natural language task-oriented dialog datasets, and augmented with synthetic audio. OD3 is further augmented with turns containing repeats and rephrases of previous failed utterances. This repository contains the data and scripts for the OD3 dataset. For more details, check out the paper! - [January 19, 2024] Data available for download! - [January 5, 2024] OD3 Paper available",
+      "readme_headings": [
+        "OD3: Open Directed Dialogue Dataset",
+        "Latest News",
+        "Downloading the Dataset and Code",
+        "Downloading the dataset (v1.0)",
+        "Training Annotations (1017MB)",
+        "Validation Annotations (148MB)",
+        "Test Annotations (192MB)",
+        "Audio Files (94GB)",
+        "Building a new version of the synthetic data",
+        "Contact",
+        "Citations",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "e87a3546874e27ad76bc7911d1ba29eb8fef2f8f",
+          "size": 227,
+          "content_status": "captured",
+          "dependency_hints": [
+            "TTS",
+            "accelerate",
+            "jiwer",
+            "nemo-text-processing",
+            "openai-whisper",
+            "torch",
+            "transformers",
+            "whisper_normalizer"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:13:17+00:00"
     },
     "amazon-science/amazon-RTRExtractor": {
       "id": 738369620,
@@ -1680,12 +1984,50 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 115266,
+        "Python": 56762,
+        "Makefile": 1348,
+        "Shell": 117
+      },
+      "readme_url": "https://github.com/amazon-science/amazon-RTRExtractor/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "29670ff2e34911ddf92088e6db43c106403b7e67",
+      "readme_excerpt": "This repositary contains the codes for running the RTRex (Regularly Triangle Rich Extractor) for undirected graphs. The graph file must have the following structure: * An initial line containing: “<number of vertices> <number of edges>” * For each edge in the graph will contain an additional line of the type: “<src vertex id> <dest vertex it>” The graph is assumed to be undirected. The vertices Id’s must go from 0 to <number of vertices>-1. Please refer to the Spectral-Triadic/Example/small-test.txt as an example In RTex/ run: `make` In ‘src/RTRex/clustering/’ run: `./RTRex <graph_dir> <name> <epsilon> <mode> <additional parameters>` Parameters: * <graph_dir>: Address",
+      "readme_headings": [
+        "RTRex",
+        "Input Data",
+        "Compile the Code",
+        "Run the RTRex code",
+        "Output",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "RTRex/Makefile",
+          "sha": "ae0c56f707cc256f3bdbfc2068dfee071955e6e2",
+          "size": 275,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "RTRex/clustering/Makefile",
+          "sha": "6b4e7edc1cc7bc12beb6aefafb23b329f0e0b7e1",
+          "size": 188,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:13:18+00:00"
     },
     "amazon-science/ammo": {
       "id": 1340020562,
@@ -1714,12 +2056,71 @@
         "agentic-workflow"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 7549920,
+        "Shell": 544616,
+        "JavaScript": 509421,
+        "HTML": 402179,
+        "CSS": 262766,
+        "Dockerfile": 13362
+      },
+      "readme_url": "https://github.com/amazon-science/ammo/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "11c82a46814d884d87e6db356218dac3e1b58ed8",
+      "readme_excerpt": "**AMMO (Agentic Model-on-Machine Optimizer)** is a multi-agent system that autonomously optimizes vLLM GPU kernels for a specific deployment — model, hardware, dtype, parallelism — over multi-hour unattended campaigns. This server creates and manages the isolated sessions those campaigns run in. Each session is a git worktree of vLLM with its own venv, a slice of the host's GPUs, and an AI CLI (Claude Code or Codex) running in a hardened terminal you drive from your browser. - **Hardware**: Linux host with an NVIDIA GPU (CUDA capability 8.0+ — A100, L40S, H100, H200, B200), CUDA 12.0+, and the NVIDIA container toolkit.",
+      "readme_headings": [
+        "AMMO Sessions Server",
+        "What You Need",
+        "Host prerequisites for GPU profiling",
+        "reboot (or reload the nvidia kernel modules) for the modprobe option to apply",
+        "Quick Start",
+        "Make your AI CLI credentials available to sessions",
+        "and/or: log in to Codex once so ~/.codex/auth.json exists",
+        "Verify",
+        "{\"status\": \"healthy\", \"gpu_available\": true, ...}",
+        "Without Docker",
+        "Using the Server",
+        "Web UI",
+        "API",
+        "Session Lifecycle",
+        "Custom vLLM Forks",
+        "Configuration",
+        "Troubleshooting",
+        "Documentation",
+        "Development",
+        "Citation and Paper Artifacts",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "b7d95a5974df8a7be8701562718b132a4d4d22f0",
+          "size": 13362,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "142b6ddbf01a47906d0d5dc7b30908574e9bbd54",
+          "size": 975,
+          "content_status": "captured",
+          "dependency_hints": [
+            "jsonschema",
+            "numpy",
+            "pytest"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:13:20+00:00"
     },
     "amazon-science/AnoLLM-large-language-models-for-tabular-anomaly-detection": {
       "id": 935119051,
@@ -1742,12 +2143,60 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 110938,
+        "Shell": 53869
+      },
+      "readme_url": "https://github.com/amazon-science/AnoLLM-large-language-models-for-tabular-anomaly-detection/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "50fe1fd42b80d5a9759c5866db9ff54a7d40987c",
+      "readme_excerpt": "This repository contains the implementation of the paper: AnoLLM is a novel framework that leverages large language models (LLMs) for unsupervised tabular anomaly detection. It can effectively handle mixed-type tabular data (e.g., continuous/numerical, discrete/categorical, and texts) by adapting a pre-trained LLM with serialized tabular data in the text format. During inference, AnoLLM assigns anomaly scores based on the negative log-likelihood generated by the LLM. Our empirical results indicate that AnoLLM delivers the best performance on six benchmark datasets with mixed feature types. Python version: 3.10 Create environment conda create -n anollm python=3.10 conda activate anollm Install packages pip install -r",
+      "readme_headings": [
+        "AnoLLM: Large Language Models for Tabular Anomaly Detection (ICLR 2025)",
+        "Introduction",
+        "Installing Dependencies",
+        "Rerun our experiments",
+        "Using your own datasets",
+        "Training Models",
+        "Evaluation",
+        "License",
+        "Acknowledgement",
+        "Reference"
+      ],
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "b34b09e74985baf5908b25276178a3ca10717aff",
+          "size": 239,
+          "content_status": "captured",
+          "dependency_hints": [
+            "adbench",
+            "datasets",
+            "deepod",
+            "feature_engine",
+            "gensim",
+            "numpy",
+            "pandas",
+            "peft",
+            "scikit_learn",
+            "scipy",
+            "tf-keras",
+            "tqdm",
+            "transformers",
+            "ucimlrepo",
+            "wandb"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:13:21+00:00"
     },
     "amazon-science/anti-aliasing-transformer": {
       "id": 439156864,
@@ -1770,12 +2219,26 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/amazon-science/anti-aliasing-transformer/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "847260ca5152a8bc296dc62b079cd4828de63e8a",
+      "readme_excerpt": "TODO: Fill this README out! Be sure to: * Change the title in this README * Edit your repository description on GitHub See CONTRIBUTING for more information. This project is licensed under the Apache-2.0 License.",
+      "readme_headings": [
+        "My Project",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:13:22+00:00"
     },
     "amazon-science/application-eval-data": {
       "id": 944658156,

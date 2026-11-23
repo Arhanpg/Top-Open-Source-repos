@@ -1,0 +1,27 @@
+# NVIDIA / ai-dynamo — repository inventory
+
+- Pagination complete: True
+- Pages in latest scan: 1
+- Repository records: 19
+
+| Repository | Description | Stars | Languages | Archived | Fork | In latest scan | README state | Dossier |
+|---|---|---:|---|---:|---:|---|---|---|
+| [ai-dynamo/.github](https://github.com/ai-dynamo/.github) | No description | 1 | Pending | False | False | True | unavailable | [Open](repositories/github-945552856.md) |
+| [ai-dynamo/agent-plugins](https://github.com/ai-dynamo/agent-plugins) | No description | 9 | JavaScript, Python, Shell, TypeScript | False | False | True | captured | [Open](repositories/agent-plugins-1239025642.md) |
+| [ai-dynamo/aiconfigurator](https://github.com/ai-dynamo/aiconfigurator) | Offline optimization of your disaggregated Dynamo graph | 470 | Dockerfile, HTML, JavaScript, Jinja, Jupyter Notebook, Python, Rust, Shell | False | False | True | captured | [Open](repositories/aiconfigurator-1024020175.md) |
+| [ai-dynamo/aiperf](https://github.com/ai-dynamo/aiperf) | AIPerf is a comprehensive benchmarking tool that measures the performance of generative AI models served by your preferred inference solution. | 904 | CSS, Dockerfile, Go Template, HTML, JavaScript, Jupyter Notebook, Makefile, Python, Shell, TypeScript | False | False | True | captured | [Open](repositories/aiperf-967726092.md) |
+| [ai-dynamo/aisim](https://github.com/ai-dynamo/aisim) | AISim predicts LLM serving behavior and searches for strong deployment configurations offline, without bringing up a GPU serving cluster | 141 | CSS, Dockerfile, HTML, JavaScript, Jinja, Jupyter Notebook, Python, Rust, Shell | False | False | True | captured | [Open](repositories/aisim-1330347449.md) |
+| [ai-dynamo/aitune](https://github.com/ai-dynamo/aitune) | NVIDIA AITune is an inference toolkit designed for tuning and deploying Deep Learning models with a focus on NVIDIA GPUs. | 290 | CSS, Jupyter Notebook, Makefile, Python, TypeScript | False | False | True | captured | [Open](repositories/aitune-1166381425.md) |
+| [ai-dynamo/dynamo](https://github.com/ai-dynamo/dynamo) | A Datacenter Scale Distributed Inference Serving Framework | 8556 | C, C++, CMake, Dockerfile, Go, Go Template, HTML, Jinja, Makefile, Python, Rust, Shell, Standard ML, Starlark | False | False | True | captured | [Open](repositories/dynamo-942206898.md) |
+| [ai-dynamo/enhancements](https://github.com/ai-dynamo/enhancements) | Enhancement Proposals and Architecture Decisions | 13 | Pending | False | False | True | captured | [Open](repositories/enhancements-962886904.md) |
+| [ai-dynamo/evenmoe](https://github.com/ai-dynamo/evenmoe) | No description | 18 | C++, Cuda, Python, Shell | False | False | True | captured | [Open](repositories/evenmoe-1396439848.md) |
+| [ai-dynamo/flextensor](https://github.com/ai-dynamo/flextensor) | FlexTensor is a tensor offloading and management library for PyTorch that enables running large models on limited GPU memory by intelligently offloading tensors between GPU and CPU memory. | 122 | Makefile, Python, Shell | False | False | True | captured | [Open](repositories/flextensor-1177099912.md) |
+| [ai-dynamo/frontend-crates](https://github.com/ai-dynamo/frontend-crates) | No description | 31 | Pending | False | False | True | pending | Not generated |
+| [ai-dynamo/grove](https://github.com/ai-dynamo/grove) | Kubernetes enhancements for Network Topology Aware Gang Scheduling & Autoscaling | 298 | Pending | False | False | True | pending | Not generated |
+| [ai-dynamo/kvcr](https://github.com/ai-dynamo/kvcr) | No description | 76 | Pending | False | False | True | pending | Not generated |
+| [ai-dynamo/modelexpress](https://github.com/ai-dynamo/modelexpress) | Model Express is a Rust-based component meant to be placed next to existing model inference systems to speed up their startup times and improve overall performance. | 205 | Pending | False | False | True | pending | Not generated |
+| [ai-dynamo/nixl](https://github.com/ai-dynamo/nixl) | NVIDIA Inference Xfer Library (NIXL) | 1375 | Pending | False | False | True | pending | Not generated |
+| [ai-dynamo/openengine](https://github.com/ai-dynamo/openengine) | OpenEngine is a vendor-neutral gRPC protocol for coordinating inference engines and distributed frameworks. | 6 | Pending | False | False | True | pending | Not generated |
+| [ai-dynamo/radixshmem](https://github.com/ai-dynamo/radixshmem) | No description | 14 | Pending | False | False | True | pending | Not generated |
+| [ai-dynamo/snapshot](https://github.com/ai-dynamo/snapshot) | Snapshot gets GPU pods ready in seconds instead of minutes — by restoring a fully initialized GPU worker instead of starting one from scratch. Kubernetes-native checkpoint & restore that runs alongside your existing stack. | 179 | Pending | False | False | True | pending | Not generated |
+| [ai-dynamo/velo](https://github.com/ai-dynamo/velo) | No description | 13 | Pending | False | False | True | pending | Not generated |

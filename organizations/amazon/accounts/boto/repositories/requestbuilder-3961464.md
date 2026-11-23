@@ -20,7 +20,7 @@ This is repository-owner metadata, not an independently verified technical summa
 ## README capture
 
 - Status: error
-- Captured: 2026-11-23T20:06:56+00:00
+- Captured: 2026-11-23T20:14:10+00:00
 
 ### Short excerpt (up to 100 words)
 

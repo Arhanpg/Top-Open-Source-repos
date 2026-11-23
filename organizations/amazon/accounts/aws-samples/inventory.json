@@ -1220,12 +1220,40 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 217936,
+        "Shell": 1544
+      },
+      "readme_url": "https://github.com/aws-samples/accelerated-data-lake/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b3131d31ef12fd04f5686ca70f69b0af17197d66",
+      "readme_excerpt": "A packaged Data Lake solution, that builds a highly functional Data Lake, with a data catalog queryable via Elasticsearch This library is licensed under the Apache 2.0 License. These are the steps required to provision the 3x3x3 Packaged Datalake Solution and watch the ingress of data. * Provision the Data Lake Structure (5 minutes) * Provision the Visualisation * Provision Elasticsearch (15 minutes) * Provision Visualisation Lambdas (5 minutes) * Provision the Staging Engine and add a trigger (10 minutes) * Configure a sample data source and add data (5 minutes) * Configure the sample data source * Ingress a",
+      "readme_headings": [
+        "AWS Accelerated Data Lake (3x3x3)",
+        "License",
+        "3x3x3 DataLake installation instructions",
+        "1. Provisioning the Data Lake Structure",
+        "2. Provisioning the Visualisations",
+        "2.1 Provision Elasticsearch",
+        "2.2 Provision the Visualisation Lambdas",
+        "3. Provision the Staging Engine and add a trigger",
+        "3.1 Add the Staging trigger",
+        "4. Configure a sample data source and add data",
+        "4.1 Configure the sample data source",
+        "4.2 Ingress a sample file for the new data source",
+        "4.3 Optional. Ingress a sample file that has an incorrect schema",
+        "5. Initialise and use Elasticsearch / Kibana"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:11:18+00:00"
     },
     "aws-samples/access-amazon-fsx-through-clientvpn": {
       "id": 491942288,
@@ -1248,12 +1276,34 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-samples/access-amazon-fsx-through-clientvpn/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "fa3bd3501545ec3eb25a5d89ab9d6b09b3595552",
+      "readme_excerpt": "The purpose of this repository is to demo how a file share hosted in Amazon FSx for Windows can be remote and privately mounted into a client device through an AWS ClientVPN connection. The Cloudformation template (main.yaml) deploys an AWS Managed Microsoft AD to allow for authentication and authorization to access the file share, an Amazon FSx file system to host the file shares, and an AWS Client VPN endpoint and gateway to enable remote access. To ensure high availability, the template deploys a VPC with six different subnets and spreads each component over two AWS Availability Zones. You can",
+      "readme_headings": [
+        "Access Amazon FSx for Windows through AWS ClientVPN",
+        "Architecture",
+        "Prerequisites",
+        "Launch the AWS Cloudformation Stack",
+        "Using AWS Console",
+        "Using AWS CLI",
+        "How to mount and access to your file system",
+        "Clean up",
+        "Security",
+        "License",
+        "Authors"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:11:19+00:00"
     },
     "aws-samples/access-analyzer-automated-policy-analysis-blog": {
       "id": 715298381,
@@ -1276,12 +1326,47 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 20739,
+        "Shell": 618,
+        "Batchfile": 437
+      },
+      "readme_url": "https://github.com/aws-samples/access-analyzer-automated-policy-analysis-blog/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e9bd94ebdceeebd79d91ca63c769a15462b225f3",
+      "readme_excerpt": "As covered in the following blog post: https://aws.amazon.com/blogs/security/introducing-iam-access-analyzer-custom-policy-checks/ In this example, you will automate the validation and analysis of the IAM identity and resources policies that are defined in an AWS CloudFromation template. The workflow will trigger each time a pull request is created against the main branch of an AWS CodeCommit repository called my-iam-policy. The workflow includes 3 checks. The first check will use IAM Access Analyzer's check no new access API to determine if the updated policy is more permissive than a reference IAM policy. The second check will use the check access not granted API to automatically",
+      "readme_headings": [
+        "Automating IAM Access Analyzer custom policy checks",
+        "Step 1: Deploy the infrastructure and set up the pipeline",
+        "Step 2: Create a new CloudFormation template that defines an IAM policy",
+        "Step 3: Run analysis on the IAM policy",
+        "Step 4: Create a pull request to merge a new update to the CloudFormation template",
+        "Why did the validations fail?",
+        "Cleanup"
+      ],
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "91972f0d63c7acfafd415b7063f964803d56272c",
+          "size": 72,
+          "content_status": "captured",
+          "dependency_hints": [
+            "PyYAML",
+            "aws-cdk-lib",
+            "cdk-nag",
+            "constructs"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:11:21+00:00"
     },
     "aws-samples/access-aws-services-programmatically-using-tip": {
       "id": 802104454,
@@ -1304,12 +1389,63 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 82720,
+        "Smarty": 2824
+      },
+      "readme_url": "https://github.com/aws-samples/access-aws-services-programmatically-using-tip/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "459f6b4250f79bcb0147455fa89e2070606a4799",
+      "readme_excerpt": "This sample Python application demonstrates how you can access AWS services, such as Amazon S3, Amazon Athena and Amazon Redshift DataAPI, using trusted identity propagation, an AWS IAM Identity Center feature that allows authorized access to AWS resources based on the user's identity context and securely shares the user's identity context with other AWS services. The application also provides a diagnostic tool to help you verify your current setup. List of prerequisites needed to use this tool: - Python 3.x - AWS CLI - An OAuth 2.0-based external identity provider configured as trusted token issuer with AWS IAM Identity Center.",
+      "readme_headings": [
+        "Access AWS services programmatically using trusted identity propagation",
+        "Getting Started",
+        "Prerequisites",
+        "Security considerations",
+        "Installation",
+        "Configuration of IAM roles",
+        "Configuration of the application",
+        "Usage with AWS services",
+        "Usage with Amazon S3",
+        "Trusted Token Issuer diagnostic utility",
+        "Advanced Usage",
+        "Implementing additional OAuth 2.0 Identity Providers",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "8c9ed54f936811ba66701652eda844d18c637828",
+          "size": 149,
+          "content_status": "captured",
+          "dependency_hints": [
+            "PyJWT",
+            "boto3",
+            "botocore",
+            "chardet",
+            "click",
+            "requests",
+            "setuptools"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "874d36a5d7c3f923a0edd8f670fe25dbdfeb1f81",
+          "size": 999,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:11:22+00:00"
     },
     "aws-samples/access-internal-alb-through-aws-global-accelerator": {
       "id": 311883308,
@@ -1332,12 +1468,30 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-samples/access-internal-alb-through-aws-global-accelerator/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "65d02e4d6f2692204f0a97695ba2854b96ef34cb",
+      "readme_excerpt": "The purpose of this repository is to demo how to access an internal Application Load Balancer (ALB) through AWS Global Accelerator. AWS CloudFormation template (main.yml) will deploy a Virtual Private Cloud(VPC) with 2 Public and 2 Private subnets within the VPC. Later it will create an Internal Application Load Balancer attached to an Auto Scaling Group where it will serve a simple PHP application and echo real-client IP using HTTP_X_FORWARDED_FOR header. The access to this PHP application is done through AWS Global Accelerator. You can read more in this blog post. Click on the **Launch Stack** button below to launch",
+      "readme_headings": [
+        "Access Internal Application Load Balancer through AWS Global Accelerator",
+        "Architecture",
+        "Launch the AWS CloudFormation Stack",
+        "How to Access Your Application",
+        "Clean up",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:11:23+00:00"
     },
     "aws-samples/accessibility-document-media-searcher": {
       "id": 569327917,
@@ -1360,12 +1514,59 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 42207,
+        "JavaScript": 5514,
+        "HTML": 2818,
+        "CSS": 2272
+      },
+      "readme_url": "https://github.com/aws-samples/accessibility-document-media-searcher/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f517645ce3dd3fd4cf34861f4b505101f4366ee7",
+      "readme_excerpt": "This repo intends to deploy an solution that process multiple files (.pdf, .mp4, .txt) and convert than to audio files. The solution also add those files contents into an Amazon Open Search Service to create a searchable base of contents. *** - awscli - Pre configured AWS credentials - npm - cdk - Python 3x export EMAIL=\"YOUR-EMAIL@SOMETHING.COM\" export REGION=\"us-east-1\" export VOICE_ID=\"Vitoria\" Clone this repo: git clone https://github.com/aws-samples/accessibility-document-media-searcher.git Download the requirements: cd accessibility-document-media-searcher/source/deploy/cdk/ python3 -m venv .env source .env/bin/activate pip install -r requirements.txt pip install -r lambda-requirements.txt --target ../../lambda/ cdk synth cdk bootstrap and after check what will be deployed, run:",
+      "readme_headings": [
+        "Accessibility Document Media Searcher",
+        "Overview",
+        "Prerequisites:",
+        "1. How to deploy",
+        "1.2. Configure Environment Variables",
+        "1.3. Deploy the CDK Stack",
+        "How it Works",
+        "Architecture",
+        "2. Test Your Application",
+        "3. Cleaning UP",
+        "4. Security",
+        "5. License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "source/deploy/cdk/requirements.txt",
+          "sha": "5d392e267889fd75ae977b5fb0ce7cdabcb3b042",
+          "size": 55,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-cdk-lib",
+            "constructs",
+            "types-setuptools"
+          ]
+        },
+        {
+          "path": "source/deploy/cdk/setup.py",
+          "sha": "35a094153a806b3062cec31ba5186dbfb2841067",
+          "size": 1026,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:11:25+00:00"
     },
     "aws-samples/acclerate-research-with-real-world-data-using-aws-data-exchange-for-amazon-redshift": {
       "id": 728273092,
@@ -1388,12 +1589,39 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 912
+      },
+      "readme_url": "https://github.com/aws-samples/acclerate-research-with-real-world-data-using-aws-data-exchange-for-amazon-redshift/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3cd2751ba57f57365fe436216a806046d1176212",
+      "readme_excerpt": "Ensure that the AWS CLI is configured and ready to work with AWS. For additional information, refer to the documentation. AWS allows you to configure credentials via environment variables, the IAM Identity Center, or a configuration file. For more information, please visit this page. For this guide, let's assume the local CLI session is configured to work with AWS. For example, it can mean that environment variables are set: export AWS_ACCESS_KEY_ID=<AWS Access Key ID> export AWS_SECRET_ACCESS_KEY=<AWS Secret Access Key> export AWS_DEFAULT_REGION=<AWS Region> Ensure that the user or role used in the CLI session has sufficient permissions to execute the actions",
+      "readme_headings": [
+        "Prerequisite",
+        "Overview",
+        "Create S3 bucket",
+        "Upload .parquet file to created S3 bucket",
+        "Create VPC (optional)",
+        "Deploy Redshift Serverless",
+        "Deploy Lambda function",
+        "Create Redshift tables",
+        "Trigger Lambda function to copy .parquet file from S3 into the table",
+        "Push data from STAGING to PRODUCTION tables",
+        "Create a datashare for the table",
+        "Security",
+        "License",
+        "Authors and maintainers"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:11:26+00:00"
     },
     "aws-samples/account-factory": {
       "id": 160880367,
@@ -1416,12 +1644,27 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 31849
+      },
+      "readme_url": "https://github.com/aws-samples/account-factory/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "87f2008540f5ac021b726ce143fc710dc3195604",
+      "readme_excerpt": "This code enables end-users to create AWS accounts and setup a custom base configuration quickly in an automated way. This sample code is made available under a modified MIT license. See the LICENSE file.",
+      "readme_headings": [
+        "Account Factory",
+        "License Summary"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:11:27+00:00"
     },
     "aws-samples/achievement-microservices": {
       "id": 521468739,
@@ -1444,12 +1687,70 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 14513,
+        "JavaScript": 422
+      },
+      "readme_url": "https://github.com/aws-samples/achievement-microservices/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7b6fdfad2e40d947c3315c1411583487a4669a7a",
+      "readme_excerpt": "This CDK project is a sample solution for achievement microservices in games.\\ The sample solution contains AWS Lambda Functions, Amazon DynamoDB Tables, Amazon SQS Queues and Amazon API Gateway. - the solution is constructed with only serverless services - the solution handles achievement progress additions asynchronously - a single progress can trigger multiple achievements - for example, progress with winning matches could trigger achievements for 10 wins, 50 wins and 100 wins. - achievement requirements can be appended, and new achievements will be unlocked on the next progress event, as long as the new requirements are after the previous requirements,",
+      "readme_headings": [
+        "Achievement Microservices Sample",
+        "Key features",
+        "Assumptions",
+        "Architecture",
+        "DynamoDB Tables",
+        "Player Table: (1 table, 2 entry types)",
+        "Player Achievement Entries",
+        "Player Progress Entries",
+        "Admin Data Table (1 table, 1 entry type)",
+        "Achievement Data Entries",
+        "Progress Message Table (1 table, 1 entry type)",
+        "Progress Message Entries",
+        "SQS Message Syntax",
+        "In Message",
+        "Out Message",
+        "Prerequisites",
+        "Usage",
+        "Deployment",
+        "Setup Achievement Data",
+        "Send Progress Events",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "7a3c59d4392d2fbfcb96b0c3d5d4a671ed48468d",
+          "size": 699,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/aws-lambda",
+            "@types/jest",
+            "@types/node",
+            "aigle",
+            "aws-cdk",
+            "aws-cdk-lib",
+            "aws-sdk",
+            "constructs",
+            "jest",
+            "prettier",
+            "source-map-support",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:11:28+00:00"
     },
     "aws-samples/achieving-operational-excellence-using-automated-playbook-and-runbook": {
       "id": 521474313,
@@ -1472,12 +1773,79 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 8733,
+        "Shell": 6503,
+        "Dockerfile": 450
+      },
+      "readme_url": "https://github.com/aws-samples/achieving-operational-excellence-using-automated-playbook-and-runbook/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "edb65aec5a34d751cf010cddbb31e650ac40939b",
+      "readme_excerpt": "ℹ️ You will run this lab in your own AWS account. Please follow directions at the end of the lab to remove resources to avoid future costs. This lab was derived directly from one of Operataional Excellence Labs named Automating operations with Playbooks and Runbooks in AWS Well-Architected Lab. Manually running your runbooks and playbooks for operational activities has a number of drawbacks: * Activities are prone to errors & difficult to trace. * Manual activities do not allow your operational practice to scale in line with your business requirements. In contrast, implementing automation in these activities has the following",
+      "readme_headings": [
+        "Achieving Operational Excellence Using Automated Playbook and Runbook",
+        "Introduction",
+        "Prerequisites:",
+        "Costs",
+        "Content",
+        "Step 1. Deploy the sample application environment",
+        "Actions items in this section:",
+        "1.0 Prepare Cloud9 workspace.",
+        "1.1 Run the build application script.",
+        "1.2. Confirm the application status.",
+        "1.3. Test the application.",
+        "Congratulations!",
+        "Step 2. Simulate an Application Issue",
+        "Actions items in this section:",
+        "2.0 Sending traffic to the application",
+        "2.1 Observing the alarm being triggered.",
+        "Step 3. Build and Run an Investigative Playbook",
+        "Actions items in this section:",
+        "3.0 Prepare Automation Document IAM Role",
+        "3.1 Building the \"Gather-Resources\" Playbook.",
+        "What does this **playbook** do?",
+        "Actions taken in this playbook.",
+        "3.2 Building the \"Investigate-Application-Resources\" Playbook.",
+        "3.3 Building the \"Investigate-Application-From-Alarm\" Playbook.",
+        "3.4 Executing investigation Playbook.",
+        "Step 4. Build and Run Remediation Runbook",
+        "Actions items in this section:",
+        "4.0 Building the \"Approval-Gate\" Runbooks.",
+        "4.1 Building the \"ECS-Scale-Up\" runbook.",
+        "4.2 Executing remediation Runbook."
+      ],
+      "manifest_paths": [
+        {
+          "path": "Code/src/Dockerfile",
+          "sha": "b9304d61fefea335b22daaefbf76955734c8a6bb",
+          "size": 450,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Code/src/package.json",
+          "sha": "8e5e5c523b14d4287c781a2b3b4fd03794a38fe7",
+          "size": 405,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk",
+            "aws-xray-sdk",
+            "body-parser",
+            "express",
+            "mysql",
+            "zlib"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:11:30+00:00"
     },
     "aws-samples/ack-rds-gitops-workshop": {
       "id": 549052953,

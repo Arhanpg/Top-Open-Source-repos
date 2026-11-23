@@ -2023,12 +2023,104 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:34:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 393089962,
+        "C++": 76772397,
+        "C": 40794667,
+        "Assembly": 14016515,
+        "Objective-C": 1968441,
+        "HTML": 1316592,
+        "XSLT": 1150170,
+        "M4": 823524,
+        "Shell": 688400,
+        "Python": 334564,
+        "CMake": 214772,
+        "JavaScript": 87531,
+        "Cuda": 51926,
+        "TypeScript": 43752,
+        "Noir": 39007,
+        "Wolfram Language": 38164,
+        "Makefile": 37009,
+        "DTrace": 32478,
+        "Metal": 32110,
+        "Awk": 29010,
+        "CSS": 16470,
+        "Perl": 12746,
+        "GDB": 6820,
+        "AppleScript": 6565,
+        "PowerShell": 5232,
+        "Pawn": 4585,
+        "Batchfile": 3199,
+        "Raku": 2253,
+        "sed": 1429,
+        "BitBake": 1221,
+        "AMPL": 1138,
+        "Red": 396
+      },
+      "readme_url": "https://github.com/corretto/corretto-jdk/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "271938c1310efd3fc9e09da0f152fa67309602d6",
+      "readme_excerpt": "Amazon Corretto is a no-cost, multiplatform, production-ready distribution of the Open Java Development Kit (OpenJDK). Corretto is used internally at Amazon for production services. With Corretto, you can develop and run Java applications on operating systems such as Linux, Windows, and macOS. This repository is used to track OpenJDK upstream tip. Please look at the branches section for more information on Feature Releases. Documentation is available at https://docs.aws.amazon.com/corretto. Please read these files: \"LICENSE\", \"ADDITIONAL_LICENSE_INFO\", \"ASSEMBLY_EXCEPTION\", \"TRADEMARKS.md\". _develop_ : The default branch. The branch that consumes development and patches to upstream jdk. Corretto builds are generated from this branch. _upstream-jdk_ :",
+      "readme_headings": [
+        "Corretto JDK",
+        "Licenses and Trademarks",
+        "Branches",
+        "Download Links",
+        "OpenJDK Readme"
+      ],
+      "manifest_paths": [
+        {
+          "path": "build.gradle",
+          "sha": "f14dea169f4da2e718498ab313b81ae4491acef7",
+          "size": 14798,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "751574e962031a524bc46a06b290ed15ac44035e",
+          "size": 2906,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "make/devkit/Makefile",
+          "sha": "41ebb8b980c64290c0798c2d70d196ae78013ff1",
+          "size": 4495,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "installers/mac/pkg/build.gradle",
+          "sha": "dfce8345d8d9c105b3aa9e632de0c8b65c65395c",
+          "size": 4288,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "installers/mac/tar/build.gradle",
+          "sha": "d003a61087271d59255ed84e722c1dec685a620a",
+          "size": 8949,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "installers/windows/zip/build.gradle",
+          "sha": "fb56f76cc848f4fdd1746ba7ea024a2c64deb923",
+          "size": 3385,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": true,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:13:44+00:00"
     },
     "corretto/corretto-jmc": {
       "id": 273309119,
@@ -2051,12 +2143,208 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:34:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 14092596,
+        "HTML": 2204136,
+        "XSLT": 22161,
+        "Shell": 21299,
+        "JavaScript": 7919,
+        "Batchfile": 7669,
+        "CSS": 6365
+      },
+      "readme_url": "https://github.com/corretto/corretto-jmc/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "209951148c2f9025a9b71bf6548c1648fc5d8f4f",
+      "readme_excerpt": "*JMC for Corretto* is a build of JDK Mission Control (JMC) by the Corretto team. It tracks the latest stable JMC release with extra patches to support the usage of the JDK Flight Recorder feature in Corretto releases including: * Corretto 8.262.y.z or later * Corretto 11.0.x.y.z or later Check out the JMC README.md for more project details. To contribute to the JMC project in the OpenJDK community, please refer to the OpenJDK JMC contribution wiki. JMC for Corretto is supported on the following platforms: * Linux (w/ GTK+ 3), x64 * macOS 10.10 or later, x64 * Windows 7",
+      "readme_headings": [
+        "JMC for Corretto",
+        "Use JMC for Corretto",
+        "Supported platforms",
+        "Download",
+        "Install and launch JMC",
+        "Build JMC for Corretto",
+        "Prerequisites",
+        "Build wrapper",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "src/pom.xml",
+          "sha": "7c83b49e95a8a1349937c740336e929f8afa8971",
+          "size": 17356,
+          "content_status": "captured",
+          "dependency_hints": [
+            "buildnumber-maven-plugin",
+            "directory-maven-plugin",
+            "flatten-maven-plugin",
+            "maven-deploy-plugin",
+            "maven-enforcer-plugin",
+            "maven-resources-plugin",
+            "missioncontrol",
+            "platform-definition-2020-03",
+            "platform-definition-2020-06",
+            "platform-definition-2020-09",
+            "platform-definition-2020-12",
+            "platform-definition-2021-03",
+            "spotbugs-maven-plugin",
+            "spotless-maven-plugin",
+            "target-platform-configuration",
+            "tycho-compiler-plugin",
+            "tycho-maven-plugin",
+            "tycho-p2-repository-plugin",
+            "tycho-packaging-plugin"
+          ]
+        },
+        {
+          "path": "src/agent/pom.xml",
+          "sha": "373e28c9ed38b342cd0b5b9e0f1fe235f44ea868",
+          "size": 12267,
+          "content_status": "captured",
+          "dependency_hints": [
+            "agent",
+            "asm",
+            "asm-commons",
+            "asm-util",
+            "junit",
+            "maven-enforcer-plugin",
+            "maven-failsafe-plugin",
+            "maven-gpg-plugin",
+            "maven-jar-plugin",
+            "maven-resources-plugin",
+            "maven-shade-plugin",
+            "maven-surefire-plugin",
+            "nexus-staging-maven-plugin",
+            "spotless-maven-plugin"
+          ]
+        },
+        {
+          "path": "src/application/pom.xml",
+          "sha": "a0c754c762f1bb260e023df44c1fe549428c8ec1",
+          "size": 9281,
+          "content_status": "captured",
+          "dependency_hints": [
+            "common",
+            "common.test",
+            "flightrecorder",
+            "flightrecorder.rules",
+            "flightrecorder.rules.jdk",
+            "flightrecorder.serializers",
+            "flightrecorder.test",
+            "jacoco-maven-plugin",
+            "jdp",
+            "missioncontrol",
+            "missioncontrol.application",
+            "target-platform-configuration"
+          ]
+        },
+        {
+          "path": "src/core/pom.xml",
+          "sha": "4e3bde2e4fe29aef3ef2e2d179110edce6eb4059",
+          "size": 11440,
+          "content_status": "captured",
+          "dependency_hints": [
+            "build-helper-maven-plugin",
+            "directory-maven-plugin",
+            "flatten-maven-plugin",
+            "maven-bundle-plugin",
+            "maven-gpg-plugin",
+            "maven-jar-plugin",
+            "maven-javadoc-plugin",
+            "maven-resources-plugin",
+            "maven-source-plugin",
+            "missioncontrol.core",
+            "spotless-maven-plugin"
+          ]
+        },
+        {
+          "path": "src/releng/pom.xml",
+          "sha": "88989fd86bb123eb5b33cdabf440ccb307e389f1",
+          "size": 2563,
+          "content_status": "captured",
+          "dependency_hints": [
+            "missioncontrol",
+            "missioncontrol.releng"
+          ]
+        },
+        {
+          "path": "src/application/coverage/pom.xml",
+          "sha": "dab1fc71eafbc287add70f7f68208d916541fc55",
+          "size": 17990,
+          "content_status": "captured",
+          "dependency_hints": [
+            "coverage",
+            "jacoco-maven-plugin",
+            "missioncontrol.application",
+            "org.openjdk.jmc.alert",
+            "org.openjdk.jmc.attach",
+            "org.openjdk.jmc.browser",
+            "org.openjdk.jmc.browser.attach",
+            "org.openjdk.jmc.browser.jdp",
+            "org.openjdk.jmc.browser.uitest",
+            "org.openjdk.jmc.commands",
+            "org.openjdk.jmc.console.jconsole",
+            "org.openjdk.jmc.console.jconsole.uitest",
+            "org.openjdk.jmc.console.pde",
+            "org.openjdk.jmc.console.persistence",
+            "org.openjdk.jmc.console.persistence.uitest",
+            "org.openjdk.jmc.console.twitter",
+            "org.openjdk.jmc.console.ui",
+            "org.openjdk.jmc.console.ui.diagnostic",
+            "org.openjdk.jmc.console.ui.mbeanbrowser",
+            "org.openjdk.jmc.console.ui.notification",
+            "org.openjdk.jmc.console.ui.subscriptions",
+            "org.openjdk.jmc.console.uitest",
+            "org.openjdk.jmc.docs",
+            "org.openjdk.jmc.feature.console",
+            "org.openjdk.jmc.feature.console.ui.subscriptions",
+            "org.openjdk.jmc.feature.core",
+            "org.openjdk.jmc.feature.flightrecorder",
+            "org.openjdk.jmc.feature.flightrecorder.ext.g1",
+            "org.openjdk.jmc.feature.flightrecorder.ext.jfx",
+            "org.openjdk.jmc.feature.flightrecorder.metadata",
+            "org.openjdk.jmc.feature.ide",
+            "org.openjdk.jmc.feature.ide.launch",
+            "org.openjdk.jmc.feature.jconsole",
+            "org.openjdk.jmc.feature.joverflow",
+            "org.openjdk.jmc.feature.license",
+            "org.openjdk.jmc.feature.pde",
+            "org.openjdk.jmc.feature.rcp",
+            "org.openjdk.jmc.feature.rcp.update",
+            "org.openjdk.jmc.feature.twitter",
+            "org.openjdk.jmc.flightrecorder.configuration",
+            "org.openjdk.jmc.flightrecorder.configuration.test",
+            "org.openjdk.jmc.flightrecorder.controlpanel.ui",
+            "org.openjdk.jmc.flightrecorder.controlpanel.ui.configuration",
+            "org.openjdk.jmc.flightrecorder.controlpanel.ui.configuration.test",
+            "org.openjdk.jmc.flightrecorder.controlpanel.ui.test",
+            "org.openjdk.jmc.flightrecorder.ext.g1",
+            "org.openjdk.jmc.flightrecorder.ext.jfx",
+            "org.openjdk.jmc.flightrecorder.ext.jfx.test",
+            "org.openjdk.jmc.flightrecorder.metadata",
+            "org.openjdk.jmc.flightrecorder.pde",
+            "org.openjdk.jmc.flightrecorder.rules.extensionprovider",
+            "org.openjdk.jmc.flightrecorder.ui",
+            "org.openjdk.jmc.flightrecorder.ui.test",
+            "org.openjdk.jmc.flightrecorder.uitest",
+            "org.openjdk.jmc.greychart",
+            "org.openjdk.jmc.greychart.test",
+            "org.openjdk.jmc.greychart.ui",
+            "org.openjdk.jmc.ide.jdt",
+            "org.openjdk.jmc.ide.launch",
+            "org.openjdk.jmc.ide.launch.test"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:13:47+00:00"
     },
     "corretto/heapothesys": {
       "id": 248322535,
@@ -2084,12 +2372,120 @@
         "jvm"
       ],
       "last_seen_scan_id": "2026-11-23T19:34:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 634122,
+        "Makefile": 2655
+      },
+      "readme_url": "https://github.com/corretto/heapothesys/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f636654225ccadb9a87e23dae4679f39c4539783",
+      "readme_excerpt": "Heapothesys (/hɪˈpɒθɪsɪs/) is a collection of JVM garbage collection workloads developed by the Amazon Corretto team. These workloads are intended to be useful in helping to compare alternative garbage collection algorithms and configuration choices, helping to evaluate proposed improvements to garbage collection algorithms and implementations, and helping to detect garbage collection performance and latency regressions.",
+      "readme_headings": [
+        "Heapothesys",
+        "Introduction"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Extremem/Makefile",
+          "sha": "8933e06ae963837bad9a4087886e93e4d803a73a",
+          "size": 78,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Extremem/pom.xml",
+          "sha": "397fbeac0dfd92b042e0ae5a58dfe87375fe80ac",
+          "size": 941,
+          "content_status": "captured",
+          "dependency_hints": [
+            "extremem",
+            "maven-jar-plugin"
+          ]
+        },
+        {
+          "path": "HyperAlloc/pom.xml",
+          "sha": "a0d71a775c5fc118160ef27156bb913bdfa64480",
+          "size": 22086,
+          "content_status": "captured",
+          "dependency_hints": [
+            "HyperAlloc",
+            "MutabilityDetector4FindBugs",
+            "apache-rat-plugin",
+            "build-helper-maven-plugin",
+            "exec-maven-plugin",
+            "hamcrest-core",
+            "jacoco-maven-plugin",
+            "jdepend-maven-plugin",
+            "jol-core",
+            "junit-jupiter",
+            "license-maven-plugin",
+            "maven-antrun-plugin",
+            "maven-assembly-plugin",
+            "maven-changes-plugin",
+            "maven-clean-plugin",
+            "maven-compiler-plugin",
+            "maven-dependency-plugin",
+            "maven-dependency-versions-check-plugin\n                    ",
+            "maven-deploy-plugin",
+            "maven-enforcer-plugin",
+            "maven-failsafe-plugin",
+            "maven-filtering",
+            "maven-help-plugin",
+            "maven-install-plugin",
+            "maven-jar-plugin",
+            "maven-javadoc-plugin",
+            "maven-jdeprscan-plugin",
+            "maven-jdeps-plugin",
+            "maven-jxr-plugin",
+            "maven-pmd-plugin",
+            "maven-project-info-reports-plugin",
+            "maven-release-plugin",
+            "maven-resources-plugin",
+            "maven-scm-plugin",
+            "maven-shade-plugin",
+            "maven-site-plugin",
+            "maven-source-plugin",
+            "maven-surefire-plugin",
+            "maven-toolchains-plugin",
+            "maven-war-plugin",
+            "mockito-core",
+            "pitest-maven",
+            "spotbugs-maven-plugin",
+            "tidy-maven-plugin",
+            "versions-maven-plugin"
+          ]
+        },
+        {
+          "path": "Extremem/src/Makefile",
+          "sha": "f0c8677398aebc3e154958df330950f91f9373fb",
+          "size": 123,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Extremem/src/main/Makefile",
+          "sha": "b05237162189733047c1ecd954a73a6a62033a00",
+          "size": 72,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Extremem/src/test/Makefile",
+          "sha": "b05237162189733047c1ecd954a73a6a62033a00",
+          "size": 72,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:13:49+00:00"
     },
     "corretto/hotpatch-for-apache-log4j2": {
       "id": 437426386,
@@ -2112,12 +2508,56 @@
       "open_issues": 8,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:34:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 806949,
+        "Shell": 5949,
+        "HTML": 5786
+      },
+      "readme_url": "https://github.com/corretto/hotpatch-for-apache-log4j2/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1c407d028047e6e7910ddb37976896fcc6840a81",
+      "readme_excerpt": "This is a tool which injects a Java agent into a running JVM process. The agent will attempt to patch the `lookup()` method of all loaded `org.apache.logging.log4j.core.lookup.JndiLookup` instances to unconditionally return the string \"Patched JndiLookup::lookup()\". It is designed to address the CVE-2021-44228 remote code execution vulnerability in Log4j without restarting the Java process. This tool will also address CVE-2021-45046. This has been currently only tested with JDK 8, 11, 15 and 17 on Linux! To build on linux, mac and Windows subsystem for linux ./gradlew build To build on Windows .\\gradlew.bat build Depending on the platform you are building. This",
+      "readme_headings": [
+        "Log4jHotPatch",
+        "Building",
+        "Gradle",
+        "Maven",
+        "Running",
+        "Running the static agent",
+        "Testing the agent",
+        "Known issues"
+      ],
+      "manifest_paths": [
+        {
+          "path": "build.gradle",
+          "sha": "308782aa03f88eb544a2d3cb72b5cc351f1ea3e8",
+          "size": 845,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pom.xml",
+          "sha": "8038f4fdd9207b01aaa216ae5263c617e1db5159",
+          "size": 4890,
+          "content_status": "captured",
+          "dependency_hints": [
+            "hotpatch-for-apache-log4j2",
+            "jdk.tools",
+            "maven-gpg-plugin",
+            "maven-jar-plugin",
+            "nexus-staging-maven-plugin"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:13:50+00:00"
     },
     "corretto/redline": {
       "id": 190064091,
@@ -2140,12 +2580,58 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:34:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 294363,
+        "CSS": 9361,
+        "HTML": 6844,
+        "JavaScript": 350,
+        "Shell": 99,
+        "Perl": 50
+      },
+      "readme_url": "https://github.com/corretto/redline/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b925ec17f87c9c8d2aa1ea1a9bef244dde5adf1d",
+      "readme_excerpt": "Redline is a pure Java library for manipulating RPM Package Manager packages. Currently the project supports reading and creating packages and has an included Ant task useful for integration with build systems. More information is available at the Redline website To use Redline include it as a Maven dependency: Redline can also be downloaded directly from GitHub",
+      "readme_headings": [],
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "e8c5cfd49791b6a5b7945df30b4edc3a72b6cb67",
+          "size": 8336,
+          "content_status": "captured",
+          "dependency_hints": [
+            "ant",
+            "bcpg-jdk15on",
+            "commons-compress",
+            "doxia-module-xhtml",
+            "junit",
+            "maven-assembly-plugin",
+            "maven-compiler-plugin",
+            "maven-gpg-plugin",
+            "maven-javadoc-plugin",
+            "maven-resources-plugin",
+            "maven-shade-plugin",
+            "maven-site-plugin",
+            "maven-source-plugin",
+            "maven-surefire-plugin",
+            "nexus-staging-maven-plugin",
+            "oss-parent",
+            "redline",
+            "slf4j-api",
+            "slf4j-log4j12",
+            "xz"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:13:51+00:00"
     },
     "corretto/samples": {
       "id": 174015455,
@@ -2168,12 +2654,72 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:34:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 25914,
+        "Dockerfile": 244
+      },
+      "readme_url": "https://github.com/corretto/samples/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a76aa9b80bb87c6073597d775934015e86b1784a",
+      "readme_excerpt": "This is a repo where we will collect samples for performance improvements and new capabilities as they show up in Corretto. This sample code is made available under a modified MIT license. See the LICENSE file.",
+      "readme_headings": [
+        "Corretto Samples",
+        "Available samples",
+        "License Summary"
+      ],
+      "manifest_paths": [
+        {
+          "path": "accp-demos/build.gradle",
+          "sha": "1cf229c078ae5510ab5b4e9499b55b869afefc93",
+          "size": 1803,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "accp-demos/Dockerfile",
+          "sha": "6e5406621095f6a3466d8addb130bb9eeace5da7",
+          "size": 122,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "benchmarks/build.gradle",
+          "sha": "4d9195daf7840d56296bc0167cdcc0d9222746df",
+          "size": 246,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "jmx-demos/build.gradle",
+          "sha": "e6dbb83e8b0099b729faa6a7f01f75903037f485",
+          "size": 828,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "jmx-demos/Dockerfile",
+          "sha": "6e5406621095f6a3466d8addb130bb9eeace5da7",
+          "size": 122,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "benchmarks/ACCP/build.gradle",
+          "sha": "b23b723e9d75123beeb30d240da8b6e288e9c6c8",
+          "size": 743,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:13:53+00:00"
     }
   },
   "pages_fetched": 1,

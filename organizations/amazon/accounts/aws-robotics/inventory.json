@@ -1180,12 +1180,53 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:11+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 22920,
+        "CMake": 2957,
+        "Python": 2940
+      },
+      "readme_url": "https://github.com/aws-robotics/health-metrics-collector-ros2/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "41d8ad8c6e578a0b8e26655b7f42ce23fe67cadb",
+      "readme_excerpt": "This `health_metric_collector` ROS node collects system metrics and publishes them to `/metrics` topic. The `cloudwatch_metrics_collector` node is subscribed to this topic and will publish the metrics to AWS CloudWatch when it is instantiated. **Keywords**: ROS, ROS2, AWS, CloudWatch, Metrics The source code is released under an [Apache 2.0]. **Author**: AWS RoboMaker<br/> **Affiliation**: [Amazon Web Services (AWS)]<br/> RoboMaker cloud extensions rely on third-party software licensed under open-source licenses and are provided for demonstration purposes only. Incorporation or use of RoboMaker cloud extensions in connection with your production workloads or commercial product(s) or devices may affect your legal rights or obligations under",
+      "readme_headings": [
+        "health_metric_collector",
+        "Overview",
+        "License",
+        "Supported ROS Distributions",
+        "Installation",
+        "AWS Credentials",
+        "Building from Source",
+        "Launch Files",
+        "Usage",
+        "Run the node",
+        "Running the sample application",
+        "Configuration file and Parameters",
+        "Supported Metrics Types",
+        "Node",
+        "health_metric_collector",
+        "Published Topics",
+        "Subscribed Topics",
+        "Services"
+      ],
+      "manifest_paths": [
+        {
+          "path": "health_metric_collector/CMakeLists.txt",
+          "sha": "37e0edf08c3ed3d7d83e45f5120568cf57063158",
+          "size": 2957,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:15:10+00:00"
     },
     "aws-robotics/kinesisvideo-common": {
       "id": 154743309,
@@ -1208,12 +1249,48 @@
       "open_issues": 9,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:11+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 121685,
+        "CMake": 10927,
+        "Shell": 1111
+      },
+      "readme_url": "https://github.com/aws-robotics/kinesisvideo-common/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "66049406139e532d05fba98a8975ea2b1c80d14e",
+      "readme_excerpt": "This repository contains the kinesis_manager package, a library for interacting with Amazon Kinesis Video Streams. It is used by the `kinesis_video_streamer` package. The source code is released under an [Apache 2.0]. **Author**: AWS RoboMaker<br/> **Affiliation**: [Amazon Web Services (AWS)]<br/> RoboMaker cloud extensions rely on third-party software licensed under open-source licenses and are provided for demonstration purposes only. Incorporation or use of RoboMaker cloud extensions in connection with your production workloads or commercial product(s) or devices may affect your legal rights or obligations under the applicable open-source licenses. License information for this repository can be found here. AWS does not provide",
+      "readme_headings": [
+        "ROS Kinesis Service Common Library",
+        "Overview",
+        "License",
+        "Supported ROS Distributions",
+        "Installation",
+        "Building from Source"
+      ],
+      "manifest_paths": [
+        {
+          "path": "kinesis_manager/CMakeLists.txt",
+          "sha": "16463bb9a5cd05a40216311b22a43a0eb7c4c7b5",
+          "size": 4384,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "kinesis_manager/kvssdk/CMakeLists.txt",
+          "sha": "ff02c761914e7857aca373bdd7d093b883df1d7f",
+          "size": 1654,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:15:11+00:00"
     },
     "aws-robotics/kinesisvideo-encoder-common": {
       "id": 158597991,
@@ -1236,12 +1313,40 @@
       "open_issues": 7,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:11+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 31828,
+        "CMake": 2782
+      },
+      "readme_url": "https://github.com/aws-robotics/kinesisvideo-encoder-common/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "36b6458b39241c92b7d64913f7cc9c9f930d5a68",
+      "readme_excerpt": "This repository contains the h264_encoder_core package, a library for encoding images into video frames. It is used by the `h264_video_encoder` node. The source code is released under [LGPL 2.1]. However, h264_encoder_core incorporates several different encoding components which may further restrict the license. By default, x264 is used for software encoding, thereby applying GPL to all of h264_encoder_core. **Author**: AWS RoboMaker<br/> **Affiliation**: [Amazon Web Services (AWS)]<br/> RoboMaker cloud extensions rely on third-party software licensed under open-source licenses and are provided for demonstration purposes only. Incorporation or use of RoboMaker cloud extensions in connection with your production workloads or commercial product(s) or",
+      "readme_headings": [
+        "ROS H264 Video Encoding Library for Amazon Kinesis Video Streams",
+        "Overview",
+        "License",
+        "Supported ROS Distributions",
+        "Installation",
+        "Building from Source"
+      ],
+      "manifest_paths": [
+        {
+          "path": "h264_encoder_core/CMakeLists.txt",
+          "sha": "ce8edec996d515b4cd702ea509e44e8422c4114f",
+          "size": 1974,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:15:12+00:00"
     },
     "aws-robotics/kinesisvideo-encoder-ros1": {
       "id": 158598080,
@@ -1264,12 +1369,48 @@
       "open_issues": 9,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:11+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 18335,
+        "CMake": 2609
+      },
+      "readme_url": "https://github.com/aws-robotics/kinesisvideo-encoder-ros1/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6a843c21abeb12800826e856808e4b56d6f6238f",
+      "readme_excerpt": "This package provides a ROS Node that will encode a stream of images into an H264 video stream. **Keywords**: ROS, AWS, Kinesis The source code is released under [LGPL 2.1]. However, this package uses `h264_encoder_core` which incorporates several different encoding components which may further restrict the license. By default, x264 is used for software encoding, thereby applying GPL to all of h264_video_encoder. **Author**: AWS RoboMaker<br/> **Affiliation**: [Amazon Web Services (AWS)]<br/> RoboMaker cloud extensions rely on third-party software licensed under open-source licenses and are provided for demonstration purposes only. Incorporation or use of RoboMaker cloud extensions in connection with your production",
+      "readme_headings": [
+        "h264_video_encoder",
+        "Overview",
+        "License",
+        "Supported ROS Distributions",
+        "Installation",
+        "Building from Source",
+        "Building on Cloud9 - Cross Compilation",
+        "Launch Files",
+        "Usage",
+        "Running the node",
+        "Configuration File and Parameters",
+        "Node Details",
+        "Published Topics",
+        "Subscribed Topics"
+      ],
+      "manifest_paths": [
+        {
+          "path": "h264_video_encoder/CMakeLists.txt",
+          "sha": "832094aa8beae24b36797f631d0a856fde18da4f",
+          "size": 2609,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:15:13+00:00"
     },
     "aws-robotics/kinesisvideo-encoder-ros2": {
       "id": 168239764,
@@ -1292,12 +1433,50 @@
       "open_issues": 9,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:11+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 20067,
+        "CMake": 2783,
+        "Python": 1546
+      },
+      "readme_url": "https://github.com/aws-robotics/kinesisvideo-encoder-ros2/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "210818bedebef93ec6422681f380ef518255d4c7",
+      "readme_excerpt": "**Note: this repository is under active development. The package provided here is a release candidate; the API may change without notice and no support is provided for it at the moment.** This package provides a ROS Node that will encode a stream of images into an H264 video stream. **Keywords**: ROS, ROS2, AWS, Kinesis The source code is released under [LGPL 2.1]. However, this package uses `h264_encoder_core` which incorporates several different encoding components which may further restrict the license. By default, x264 is used for software encoding, thereby applying GPL to all of h264_video_encoder. **Author**: AWS RoboMaker<br/> **Affiliation**: [Amazon Web",
+      "readme_headings": [
+        "h264_video_encoder",
+        "Overview",
+        "License",
+        "Supported ROS Distributions",
+        "Installation",
+        "Binaries",
+        "Building from Source",
+        "Building on Cloud9 - Cross Compilation",
+        "Launch Files",
+        "Usage",
+        "Running the node",
+        "Configuration File and Parameters",
+        "Node Details",
+        "Published Topics",
+        "Subscribed Topics"
+      ],
+      "manifest_paths": [
+        {
+          "path": "h264_video_encoder/CMakeLists.txt",
+          "sha": "853bd94dfd54d98f3ed3b7eec2e5f181d5fb8a88",
+          "size": 2783,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:15:15+00:00"
     },
     "aws-robotics/kinesisvideo-ros1": {
       "id": 154743405,
@@ -1320,12 +1499,57 @@
       "open_issues": 17,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:11+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 63896,
+        "CMake": 4136
+      },
+      "readme_url": "https://github.com/aws-robotics/kinesisvideo-ros1/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "461b6ae1ed6f3456ccabd275cc1774006a6c5b86",
+      "readme_excerpt": "The Kinesis Video Streams ROS package enables robots to stream video to the cloud for analytics, playback, and archival use. Out of the box, the nodes provided make it possible to encode & stream image data (e.g. video feeds and LIDAR scans) from a ROS “Image” topic to the cloud, enabling you to view the live video feed through the Kinesis Video Console, consume the stream via other applications, or perform intelligent analysis, face detection and face recognition using Amazon Rekognition. The node will transmit standard `sensor_msgs::Image` data from ROS topics to Kinesis Video streams, optionally encoding the images as",
+      "readme_headings": [
+        "kinesis_video_streamer",
+        "Overview",
+        "License",
+        "Supported ROS Distributions",
+        "Installation",
+        "AWS Credentials",
+        "Building from Source",
+        "Launch Files",
+        "Usage",
+        "Run the node",
+        "Configuration File and Parameters",
+        "Node-wide configuration parameters",
+        "Stream-specific configuration parameters",
+        "Performance and Benchmark Results",
+        "Node Details",
+        "Subscribed Topics"
+      ],
+      "manifest_paths": [
+        {
+          "path": "kinesis_video_msgs/CMakeLists.txt",
+          "sha": "c6e4b97490619492c11b1c6fae0e2d754b61961e",
+          "size": 512,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "kinesis_video_streamer/CMakeLists.txt",
+          "sha": "bb57b7dd4424a863356ede117ccbb209908c7f43",
+          "size": 3624,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:15:16+00:00"
     },
     "aws-robotics/kinesisvideo-ros2": {
       "id": 168239951,
@@ -1348,12 +1572,56 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:11+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 77743,
+        "Python": 4046,
+        "CMake": 4009
+      },
+      "readme_url": "https://github.com/aws-robotics/kinesisvideo-ros2/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4b4401581a7c7f9d9e32d13bc9b7a7db4bfac958",
+      "readme_excerpt": "The Kinesis Video Streams ROS package enables robots to stream video to the cloud for analytics, playback, and archival use. Out of the box, the nodes provided make it possible to encode & stream image data (e.g. video feeds and LIDAR scans) from a ROS “Image” topic to the cloud, enabling you to view the live video feed through the Kinesis Video Console, consume the stream via other applications, or perform intelligent analysis, face detection and face recognition using Amazon Rekognition. The node will transmit standard `sensor_msgs::msg::Image` data from ROS topics to Kinesis Video streams, optionally encoding the images as",
+      "readme_headings": [
+        "kinesis_video_streamer",
+        "Overview",
+        "License",
+        "Supported ROS2 Distributions",
+        "Installation",
+        "AWS Credentials",
+        "Building from Source",
+        "Usage",
+        "Run the node",
+        "Configuration File and Parameters",
+        "Node-wide configuration parameters",
+        "Stream-specific configuration parameters",
+        "Node Details",
+        "Subscribed Topics"
+      ],
+      "manifest_paths": [
+        {
+          "path": "kinesis_video_msgs/CMakeLists.txt",
+          "sha": "98bc33bd9eb61a35e870dc0c6c10435d3adbbd6a",
+          "size": 815,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "kinesis_video_streamer/CMakeLists.txt",
+          "sha": "76d0448467bb9b256965fd9dfeb061166ccc1c8f",
+          "size": 3194,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:15:17+00:00"
     },
     "aws-robotics/lex-common": {
       "id": 168239664,
@@ -1376,12 +1644,41 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:11+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 43386,
+        "CMake": 3783
+      },
+      "readme_url": "https://github.com/aws-robotics/lex-common/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "bfebd3713bce1229831d15f371886e6265f1a524",
+      "readme_excerpt": "The source code is released under an [Apache 2.0]. **Author**: AWS RoboMaker<br/> **Affiliation**: [Amazon Web Services (AWS)]<br/> RoboMaker cloud extensions rely on third-party software licensed under open-source licenses and are provided for demonstration purposes only. Incorporation or use of RoboMaker cloud extensions in connection with your production workloads or commercial product(s) or devices may affect your legal rights or obligations under the applicable open-source licenses. License information for this repository can be found here. AWS does not provide support for this cloud extension. You are solely responsible for how you configure, deploy, and maintain this cloud extension in your workloads",
+      "readme_headings": [
+        "Lex Common",
+        "Overview",
+        "License",
+        "Supported ROS Distributions",
+        "Installation",
+        "Building from Source",
+        "Bugs & Feature Requests"
+      ],
+      "manifest_paths": [
+        {
+          "path": "lex_common/CMakeLists.txt",
+          "sha": "3e35c44d253a78edb0f89b6880ef446c77167c3f",
+          "size": 2905,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:15:19+00:00"
     },
     "aws-robotics/lex-ros1": {
       "id": 154743420,
@@ -1404,12 +1701,63 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:11+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 15875,
+        "CMake": 3517
+      },
+      "readme_url": "https://github.com/aws-robotics/lex-ros1/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "de7ebdd3dcb3ba2b2fbe9ecef26911c323179d21",
+      "readme_excerpt": "The ROS `lex_node` node enables a robot to comprehend natural language commands by voice or textual input and respond through a set of actions, which an AWS Lex Bot maps to ROS messages. Out of the box this node provides a ROS interface to communicate with a specified Amazon Lex bot (configured via lex_config.yaml) and requires configuration of AWS credentials. The Amazon Lex bot needs to be defined with responses and slots for customer prompts. A set of default slots and mappings are demonstrated in the [sample app] and include actions as “Create <location_name>,” “Go to <location_name>” and “Stop.” Additional",
+      "readme_headings": [
+        "lex_node",
+        "Overview",
+        "License",
+        "Supported ROS Distributions",
+        "Installation",
+        "AWS Credentials",
+        "Building from Source",
+        "Launch Files",
+        "Usage",
+        "Resource Setup",
+        "Run the node",
+        "Send a test voice message",
+        "Verify the test voice was received",
+        "Configuration File and Parameters",
+        "Performance and Benchmark Results",
+        "Node",
+        "lex_node",
+        "Services",
+        "AudioTextConversation",
+        "Subscribed Topics",
+        "Published Topics",
+        "Bugs & Feature Requests"
+      ],
+      "manifest_paths": [
+        {
+          "path": "lex_common_msgs/CMakeLists.txt",
+          "sha": "01c8856281eebb2f58cb6ed1f9b2f3d2ad2456b9",
+          "size": 572,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "lex_node/CMakeLists.txt",
+          "sha": "acd46b6e000324c6bf31465775e9aa52d72304c3",
+          "size": 2945,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:15:20+00:00"
     },
     "aws-robotics/lex-ros2": {
       "id": 168239718,
@@ -1432,12 +1780,62 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:11+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 16509,
+        "CMake": 4070,
+        "Python": 2528
+      },
+      "readme_url": "https://github.com/aws-robotics/lex-ros2/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "98ef98a52ba9a2bbb1592ddb60c95d3096e35cfd",
+      "readme_excerpt": "The ROS `lex_node` node enables a robot to comprehend natural language commands by voice or textual input and respond through a set of actions, which an AWS Lex Bot maps to ROS messages. Out of the box this node provides a ROS interface to communicate with a specified Amazon Lex bot (configured via sample_configuration.yaml) and requires configuration of AWS credentials. The Amazon Lex bot needs to be defined with responses and slots for customer prompts. A set of default slots and mappings are demonstrated in the [sample app] and include actions as “Create <location_name>,” “Go to <location_name>” and “Stop.” Additional",
+      "readme_headings": [
+        "lex_node",
+        "Overview",
+        "License",
+        "Supported ROS Distributions",
+        "Installation",
+        "AWS Credentials",
+        "Building from Source",
+        "Launch Files",
+        "Usage",
+        "Resource Setup",
+        "Run the node",
+        "Send a test voice message",
+        "Verify the test voice was received",
+        "Configuration File and Parameters",
+        "Node",
+        "lex_node",
+        "Services",
+        "AudioTextConversation",
+        "Subscribed Topics",
+        "Published Topics"
+      ],
+      "manifest_paths": [
+        {
+          "path": "lex_common_msgs/CMakeLists.txt",
+          "sha": "2e77e8d35a9704505e71698c9c11bd66eb6bc098",
+          "size": 679,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "lex_node/CMakeLists.txt",
+          "sha": "f26e509c4d6bcdeb2eb38f65aa4cfb5cd4c43d43",
+          "size": 3391,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:15:22+00:00"
     },
     "aws-robotics/monitoringmessages-ros1": {
       "id": 154743323,
