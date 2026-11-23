@@ -27,3 +27,9 @@ Do not treat this file as exhaustive until the full public repository listing fo
 | [Comprehensive Rust](comprehensive-rust.md) | [https://github.com/google/comprehensive-rust](https://github.com/google/comprehensive-rust) | Multi-day Rust course developed by Google's Android team. | README reviewed |
 
 **Discovery sample:** [First ranked search page](../discovery/search-page-1-2026-11-23.json). Up to 100 search results; not exhaustive.
+
+## Additional README-reviewed repositories — 23 November 2026 (continued)
+
+| Repository brief | Upstream | Purpose | Review status |
+|---|---|---|---|
+| [FlatBuffers](flatbuffers.md) | [https://github.com/google/flatbuffers](https://github.com/google/flatbuffers) | FlatBuffers is a cross-platform serialization library designed for memory efficiency. Its central feature is allowing applications to access serialized data directly without first parsing or unpacking it, while retaining forward and backward compatibility across schema versions. | README reviewed |

@@ -4,7 +4,7 @@
 - **Company mapping:** candidate account; individual account ownership and project relationships should be checked against Apple's official developer and open-source pages.
 - **Source group:** United States & Global
 - **Directory status:** initialized; public repository inventory not exhaustive
-- **Detailed README records:** 6
+- **Detailed README records:** 7
 
 ## Reviewed projects
 
@@ -41,3 +41,8 @@ Four further Apple-account projects now have individual technical briefs: XNU/Da
 ## Discovery sample — 23 November 2026
 
 [Open the saved first-page search snapshot](discovery/search-page-1-2026-11-23.json). It contains up to 100 ranked GitHub search results for this account and is not a complete public repository inventory. Full API pagination and wider official-account discovery remain necessary.
+
+
+## Continued README review — 23 November 2026
+
+1 additional README-reviewed project brief has been added to this account folder. See [the repository index](repositories/README.md). The account's complete public repository inventory and related company organizations still require full discovery and pagination.

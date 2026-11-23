@@ -35,3 +35,10 @@ Do not treat this file as exhaustive until the full public repository listing fo
 | [AI Agents for Beginners](ai-agents-for-beginners.md) | [https://github.com/microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | Course and samples for agent frameworks, tool use, RAG, planning and multi-agent systems. | README reviewed |
 
 **Discovery sample:** [First ranked search page](../discovery/search-page-1-2026-11-23.json). Up to 100 search results; not exhaustive.
+
+## Additional README-reviewed repositories — 23 November 2026 (continued)
+
+| Repository brief | Upstream | Purpose | Review status |
+|---|---|---|---|
+| [Machine Learning for Beginners](ml-for-beginners.md) | [https://github.com/microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) | A 12-week, 26-lesson curriculum from Microsoft Cloud Advocates that introduces classic machine learning using primarily scikit-learn. The README says it focuses on classic machine learning rather than deep learning, which is covered by a separate AI for Beginners curriculum. | README reviewed |
+| [AutoGen — archived multi-agent framework](autogen.md) | [https://github.com/microsoft/autogen](https://github.com/microsoft/autogen) | AutoGen was a framework for creating multi-agent AI applications that could act autonomously or work alongside humans. The current README labels the project archived and no longer maintained, and directs new users to Microsoft Agent Framework. | README reviewed |

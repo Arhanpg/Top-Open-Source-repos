@@ -26,3 +26,9 @@ Do not treat this file as exhaustive until the full public repository listing fo
 | [Core ML Tools](coremltools.md) | [https://github.com/apple/coremltools](https://github.com/apple/coremltools) | Python model conversion and optimization tools for Core ML. | README reviewed |
 
 **Discovery sample:** [First ranked search page](../discovery/search-page-1-2026-11-23.json). Up to 100 search results; not exhaustive.
+
+## Additional README-reviewed repositories — 23 November 2026 (continued)
+
+| Repository brief | Upstream | Purpose | Review status |
+|---|---|---|---|
+| [Turi Create](turicreate.md) | [https://github.com/apple/turicreate](https://github.com/apple/turicreate) | Turi Create is a Python library designed to simplify development of custom machine-learning models for application use. The README describes task-oriented APIs for recommendations, image classification, object detection, sound classification, image similarity, activity classification and other common ML tasks. | README reviewed |

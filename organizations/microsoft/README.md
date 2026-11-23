@@ -4,7 +4,7 @@
 - **Company mapping:** candidate account used for this catalogue; verify through Microsoft's official engineering / open-source pages before treating every associated repository as a corporate project.
 - **Source group:** United States & Global
 - **Directory status:** initialized; repository list not yet exhaustive
-- **Detailed README records:** 16 project briefs currently linked below
+- **Detailed README records:** 18 project briefs currently linked below
 
 ## Why this directory matters
 
@@ -62,3 +62,8 @@ Five additional Microsoft project briefs have been added: Visual Studio Code (Co
 ## Discovery sample — 23 November 2026
 
 [Open the saved first-page search snapshot](discovery/search-page-1-2026-11-23.json). It contains up to 100 ranked GitHub search results for this account and is not a complete public repository inventory. Full API pagination and wider official-account discovery remain necessary.
+
+
+## Continued README review — 23 November 2026
+
+2 additional README-reviewed project briefs have been added to this account folder. See [the repository index](repositories/README.md). The account's complete public repository inventory and related company organizations still require full discovery and pagination.

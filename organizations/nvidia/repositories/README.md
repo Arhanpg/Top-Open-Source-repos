@@ -27,3 +27,9 @@ Do not treat this file as exhaustive until the full public repository listing fo
 | [TensorRT Open Source Software](tensorrt.md) | [https://github.com/NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT) | TensorRT plugin, ONNX parser and sample application source components. | README reviewed |
 
 **Discovery sample:** [First ranked search page](../discovery/search-page-1-2026-11-23.json). Up to 100 search results; not exhaustive.
+
+## Additional README-reviewed repositories — 23 November 2026 (continued)
+
+| Repository brief | Upstream | Purpose | Review status |
+|---|---|---|---|
+| [NVIDIA Container Toolkit](nvidia-container-toolkit.md) | [https://github.com/NVIDIA/nvidia-container-toolkit](https://github.com/NVIDIA/nvidia-container-toolkit) | NVIDIA Container Toolkit allows users to build and run GPU-accelerated containers. The README says it includes a container runtime library and utilities that automatically configure containers to use NVIDIA GPUs. | README reviewed |

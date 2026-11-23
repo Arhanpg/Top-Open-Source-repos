@@ -24,3 +24,9 @@ Do not treat this file as exhaustive until the full public repository listing fo
 | [Karpenter AWS Provider](karpenter-provider-aws.md) | [https://github.com/aws/karpenter-provider-aws](https://github.com/aws/karpenter-provider-aws) | Kubernetes node provisioning based on unschedulable pod requirements. | README reviewed |
 
 **Discovery sample:** [First ranked search page](../discovery/search-page-1-2026-11-23.json). Up to 100 search results; not exhaustive.
+
+## Additional README-reviewed repositories — 23 November 2026 (continued)
+
+| Repository brief | Upstream | Purpose | Review status |
+|---|---|---|---|
+| [AWS SDK for Go v1 — end of support](aws-sdk-go.md) | [https://github.com/aws/aws-sdk-go](https://github.com/aws/aws-sdk-go) | AWS SDK for Go v1 provided Go clients and shared utilities for calling AWS service APIs. The repository's current README announces that v1 reached end of support on 31 July 2025 and recommends migration to AWS SDK for Go v2. | README reviewed |
