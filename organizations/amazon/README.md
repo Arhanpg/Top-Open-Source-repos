@@ -1,15 +1,32 @@
-# Amazon
+# Amazon / AWS — open-source organization profile
 
-- **Source group(s):** united-states-global
-- **Candidate GitHub account:** [aws](https://github.com/aws)
-- **Account mapping:** Candidate account; company ownership cross-check still required
-- **Repository inventory status:** Not yet exhaustively enumerated
-- **README audit status:** Individual project records are linked below; projects without a detailed record remain unaudited.
+- **GitHub account used in this catalogue:** [aws](https://github.com/aws)
+- **Company mapping:** AWS engineering account candidate; this does not represent every Amazon business or engineering organization.
+- **Source group:** United States & Global
+- **Directory status:** initialized; public repository inventory not exhaustive
+- **Detailed README records:** 1
 
-## Repository inventory
+## Reviewed project
 
-See the [repository catalogue](repositories/README.md) for every repository record added for this company.
+| Project | Focus | What the README documents |
+|---|---|---|
+| [AWS Cloud Development Kit](repositories/aws-cdk.md) | Infrastructure as Code | Defines cloud infrastructure using constructs and stacks, then synthesizes and deploys through AWS CloudFormation |
 
-## Verification notes
+## Project overview
 
-Confirm this account through the company's official website, engineering blog, or official documentation before calling the inventory complete. If the company publishes through multiple engineering, product, foundation or research organizations, document each separately and explain the relationship. Do not merge unrelated community accounts into this company folder.
+AWS CDK is a framework for describing infrastructure using familiar programming languages rather than writing every low-level resource definition manually. Its construct library packages reusable resource abstractions, while stacks group resources for synthesis and deployment. The CLI supports template synthesis, deployment and infrastructure diffs.
+
+## Technology snapshot
+
+The README lists JavaScript, TypeScript, Python, Java, .NET and Go as supported language interfaces, with language-specific runtime requirements. CloudFormation is the provisioning layer, and the AWS CDK CLI is the main command-line workflow.
+
+## Inventory status and cautions
+
+The `aws` organization is focused on AWS public engineering repositories and should not be assumed to represent all Amazon-owned GitHub repositories. The repository list in this directory is currently a single README-reviewed example, not an exhaustive AWS inventory. Deployment examples must be reviewed for account permissions, cloud cost, environment isolation and change controls before use.
+
+## Upstream
+
+- [AWS GitHub account](https://github.com/aws)
+- [AWS CDK repository](https://github.com/aws/aws-cdk)
+- [AWS CDK Developer Guide](https://docs.aws.amazon.com/cdk/latest/guide)
+- [AWS repository index in this catalogue](repositories/README.md)

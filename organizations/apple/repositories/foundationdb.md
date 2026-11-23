@@ -1,32 +1,65 @@
 # FoundationDB
 
-- **Company:** apple
-- **Repository:** https://github.com/apple/foundationdb
-- **README:** https://github.com/apple/foundationdb/blob/main/README.md
-- **Default branch:** main
-- **Audit status:** README reviewed
-- **README blob SHA at inspection:** 76d31712c522e37f466b83198dab4bb3cbf6f180
+<sub>Company: Apple · Repository: [apple/foundationdb](https://github.com/apple/foundationdb) · Default branch: `main` · Review status: **README reviewed**</sub>
 
-## What it does
+## At a glance
 
-A distributed database for large volumes of structured data across clusters of commodity servers, organized as an ordered key-value store with ACID transactions.
+FoundationDB is a distributed database designed to manage large volumes of structured data across clusters of commodity servers. The README describes its core data model as an ordered key-value store and states that it uses ACID transactions for all operations.
 
-## Features documented by the upstream README
+**Problem it addresses:** applications that store structured data across many machines need a consistent transactional foundation while scaling beyond a single server. FoundationDB provides a distributed transactional key-value layer and language bindings through which applications interact with the database.
 
-- Distributed storage across clusters of commodity servers.
-- Ordered key-value data model.
-- ACID transactions for all operations.
-- Designed for read/write workloads and also describes strong write-intensive workload performance.
-- Users interact through API language bindings.
+## Data model and transaction semantics
 
-## Technology stack
+The repository README emphasizes two core properties:
 
-Distributed database; ordered key-value store; ACID transaction model; API language bindings. The README overview does not identify the implementation language or specific runtime stack.
+- **Ordered key-value storage:** data is organized as an ordered key-value store.
+- **ACID transactions:** transactions are provided for all operations.
 
-## Notes and limitations
+The README says FoundationDB is particularly well-suited to read/write workloads and also performs well for write-intensive workloads. It exposes API language bindings, allowing application code to use the database without being tied to a single application language.
 
-The README links to online docs and describes supported and unsupported release branches; consult current release documentation before deployment.
+## Deployment and operating context
 
-## Evidence
+FoundationDB is designed to operate across clusters of commodity servers. The README points to online documentation covering API usage, design philosophy and extensive usage examples. It also points users to project forums and release information.
 
-This record summarizes the upstream README linked above. Dependency manifests, source files, CI workflows and release artifacts were not exhaustively examined in this pass. Do not interpret this summary as a full source-code security or architecture audit.
+The README contains a stable release table with branch support categories such as Supported, Bug Fixes, Experimental and Unsupported. These labels matter when choosing a release for a production environment; use the current release page because branch status changes over time.
+
+## Technology profile
+
+| Area | README-supported details |
+|---|---|
+| Product type | Distributed database |
+| Primary data model | Ordered key-value store |
+| Transaction model | ACID transactions |
+| Deployment model | Clusters of commodity servers |
+| Application integration | API language bindings |
+| Documentation source | Sphinx documentation under the repository's `documentation` tree |
+| Community | Project forums and contribution guide |
+
+The README overview does not specify a complete implementation language or runtime stack. Those fields remain intentionally unasserted here rather than inferred from repository filenames.
+
+## Typical application fit
+
+- Services requiring transactional key-value storage distributed across a cluster.
+- Structured workloads with both read and write activity.
+- Systems that need a database foundation exposed through language bindings.
+- Applications that benefit from ordered key-value access and ACID semantics.
+
+Database selection must also consider operational requirements such as workload shape, backup and recovery, cluster management, failure domains, latency, consistency needs and the current supported release line. Those details require the full technical documentation and are not inferred from the short README overview.
+
+## Getting started and documentation
+
+The maintainers direct users to the official FoundationDB documentation site, which covers API usage, background design and usage examples. The repository also contains the documentation source and a contribution guide.
+
+- [FoundationDB documentation](https://apple.github.io/foundationdb/)
+- [FoundationDB website](https://www.foundationdb.org/)
+- [Community forums](https://forums.foundationdb.org/)
+- [Repository contribution guide](https://github.com/apple/foundationdb/blob/main/CONTRIBUTING.md)
+- [Release list](https://github.com/apple/foundationdb/releases)
+
+## Upstream references
+
+- [Repository](https://github.com/apple/foundationdb)
+- [Primary README](https://github.com/apple/foundationdb/blob/main/README.md)
+- [Documentation](https://apple.github.io/foundationdb/)
+
+**Evidence note:** README blob inspected: `76d31712c522e37f466b83198dab4bb3cbf6f180`.

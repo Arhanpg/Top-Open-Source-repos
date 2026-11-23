@@ -1,15 +1,37 @@
-# NVIDIA
+# NVIDIA — open-source organization profile
 
-- **Source group(s):** united-states-global
-- **Candidate GitHub account:** [NVIDIA](https://github.com/NVIDIA)
-- **Account mapping:** Candidate account; company ownership cross-check still required
-- **Repository inventory status:** Not yet exhaustively enumerated
-- **README audit status:** Individual project records are linked below; projects without a detailed record remain unaudited.
+- **GitHub account:** [NVIDIA](https://github.com/NVIDIA)
+- **Company mapping:** candidate account; project-specific NVIDIA organizations and related research groups may exist.
+- **Source group:** United States & Global
+- **Directory status:** initialized; public repository inventory not exhaustive
+- **Detailed README records:** 2
 
-## Repository inventory
+## Reviewed projects
 
-See the [repository catalogue](repositories/README.md) for every repository record added for this company.
+| Project | Focus | What the README documents |
+|---|---|---|
+| [Megatron-LM](repositories/megatron-lm.md) | Model training | GPU-optimized transformer training, parallelism strategies and composable Megatron Core components |
+| [TensorRT-LLM](repositories/tensorrt-llm.md) | Model inference | Specialized kernels, an efficient runtime and a Python-facing framework for LLM and visual-generation inference |
 
-## Verification notes
+## Engineering themes
 
-Confirm this account through the company's official website, engineering blog, or official documentation before calling the inventory complete. If the company publishes through multiple engineering, product, foundation or research organizations, document each separately and explain the relationship. Do not merge unrelated community accounts into this company folder.
+The selected projects cover two major stages of a model lifecycle:
+
+1. **Training:** Megatron-LM and Megatron Core provide components for distributed transformer training and precision / parallelism configurations.
+2. **Inference:** TensorRT-LLM focuses on optimized execution and runtime performance for supported generative models.
+
+They are complementary examples, not interchangeable frameworks. Training and inference have different hardware, performance and operational requirements.
+
+## Technology snapshot
+
+The inspected READMEs identify Python, PyTorch and NVIDIA GPU systems across these projects. Megatron-LM documents TP, PP, DP, EP and CP parallelism and FP16/BF16/FP8/FP4 precision. TensorRT-LLM's inspected README badges list Python, CUDA and PyTorch version information; confirm release-specific compatibility before installation.
+
+## Inventory status and cautions
+
+The two repository pages are README-based summaries, not benchmark reproductions or a complete source-code audit. Reported performance claims remain attributed to upstream documentation. The full public repository inventory for NVIDIA has not yet been retrieved.
+
+## Upstream
+
+- [NVIDIA GitHub account](https://github.com/NVIDIA)
+- [NVIDIA developer resources](https://developer.nvidia.com/)
+- [NVIDIA repository index in this catalogue](repositories/README.md)
