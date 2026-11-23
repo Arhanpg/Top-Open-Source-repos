@@ -208,11 +208,11 @@ def parse_manifest_hints(path: str, content: str) -> list[str]:
             line = line.strip()
             if not line or line.startswith(("#", "[", "-")):
                 continue
-            candidate = re.split(r"[<=>~!;\\s\\[]", line)[0]
+            candidate = re.split(r"[<=>~!;\s\[]", line)[0]
             if re.fullmatch(r"[A-Za-z0-9_.-]+", candidate):
                 hints.add(candidate)
     elif basename == "go.mod":
-        hints.update(re.findall(r"^\\s*([A-Za-z0-9._/-]+)\\s+v[0-9][^\\s]*", content, re.MULTILINE))
+        hints.update(re.findall(r"^\s*([A-Za-z0-9._/-]+)\s+v[0-9][^\s]*", content, re.MULTILINE))
     elif basename == "cargo.toml":
         in_dependencies = False
         for line in content.splitlines():
@@ -220,21 +220,21 @@ def parse_manifest_hints(path: str, content: str) -> list[str]:
             if stripped.startswith("["):
                 in_dependencies = stripped.startswith("[dependencies]") or stripped.startswith("[dev-dependencies]") or stripped.startswith("[build-dependencies]")
             elif in_dependencies:
-                match = re.match(r"^([A-Za-z0-9_-]+)\\s*=", stripped)
+                match = re.match(r"^([A-Za-z0-9_-]+)\s*=", stripped)
                 if match:
                     hints.add(match.group(1))
     elif basename == "pom.xml":
-        hints.update(re.findall(r"<artifactId>\\s*([^<]+)\\s*</artifactId>", content))
+        hints.update(re.findall(r"<artifactId>\s*([^<]+)\s*</artifactId>", content))
     elif basename == "pyproject.toml":
         in_dependency_section = False
         for line in content.splitlines():
             stripped = line.strip().strip(",")
             if stripped.startswith("["):
                 in_dependency_section = "dependencies" in stripped.casefold()
-            match = re.match(r"[\\\"']([A-Za-z0-9_.-]+)[\\\"']\\s*(?:=|>=|~=|<)", stripped)
+            match = re.match(r"""["']([A-Za-z0-9_.-]+)["']\s*(?:=|>=|~=|<)""", stripped)
             if match and in_dependency_section:
                 hints.add(match.group(1))
-            elif in_dependency_section and re.match(r"[A-Za-z0-9_.-]+\\s*=", stripped):
+            elif in_dependency_section and re.match(r"[A-Za-z0-9_.-]+\s*=", stripped):
                 hints.add(stripped.split("=", 1)[0].strip())
     elif basename == "composer.json":
         try:
@@ -321,7 +321,7 @@ def render_repo(repo: dict[str,Any], company: str, account: str, mapping_status:
     langs=repo.get("languages_bytes") or {}
     lang_rows="\n".join(f"| {md(k)} | {v:,} |" for k,v in sorted(langs.items(),key=lambda x:-x[1])) or "| Unknown | Not captured |"
     headings="\n".join(f"- {h}" for h in repo.get("readme_headings",[])) or "- No headings captured"
-    manifests="\\n".join(
+    manifests="\n".join(
         f"- {m['path']} (capture: {m.get('content_status', 'path only')})" +
         (f" — dependency clues: {', '.join(m.get('dependency_hints', [])[:20])}" if m.get("dependency_hints") else "") +
         (f" — error: {m.get('capture_error')}" if m.get("capture_error") else "")
