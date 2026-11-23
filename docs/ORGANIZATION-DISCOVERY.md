@@ -45,3 +45,12 @@ These are verified starting points, not proof that they are the only official ac
 - **Company discovery complete:** relevant official accounts are documented and every account inventory is complete.
 
 These are distinct states. Completing one organization's pages does not prove that every repository has been interpreted or every company organization has been discovered.
+
+
+## AWS official-directory expansion — 24 November 2026
+
+The official [Open Source at AWS](https://aws.github.io/) site lists 30 GitHub organization links in its **AWS GitHub Organizations** section. Two of the listed organizations (OpenSearch and AWS Amplify) are also linked as standalone projects elsewhere on the same site; the directory therefore resolves to 30 distinct accounts including the primary `aws` account.
+
+The catalogue records the 29 additional logins with the distinct mapping status `official-directory-listed`. The source is a company-controlled open-source directory, which supports a documented AWS open-source relationship; it does not establish legal ownership of every account or authorship of every repository inside it.
+
+See [Amazon/AWS account discovery](../organizations/amazon/ACCOUNT-DISCOVERY.md) for the complete list, sample public repositories used for account-level discovery checks, and attribution rules.

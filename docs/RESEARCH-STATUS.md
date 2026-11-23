@@ -1,5 +1,6 @@
 # Research status definitions
 
+- **Official-directory-listed** — the account is explicitly named in a company-controlled open-source directory. This supports an official project/community relationship, but does not automatically prove legal ownership of the entire account or authorship of every repository.
 - Mapping unverified — the GitHub account is a research lead and has not been corroborated by a company-controlled source.
 - Metadata only — repository metadata is recorded, but the README and other evidence have not been captured.
 - Evidence captured; manual review pending — README excerpt/headings, language-byte statistics and selected manifest paths have been collected. A person still needs to interpret purpose, features, stack, architecture and limitations.

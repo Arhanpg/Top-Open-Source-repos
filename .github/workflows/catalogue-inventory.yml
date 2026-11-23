@@ -4,24 +4,31 @@ on:
   workflow_dispatch:
     inputs:
       company:
-        description: "Company name or GitHub account login; blank means all verified mappings"
+        description: "Company name or GitHub account login; blank means all verified or official-directory-listed mappings"
         required: false
         type: string
       include_unverified:
-        description: "Include unverified candidate mappings (research leads only)"
+        description: "Include unverified candidate mappings (research leads only; normally excluded)"
         required: false
         default: false
         type: boolean
       enrich_limit:
         description: "README/manifest captures per account per run (0 = all pending)"
         required: false
-        default: 50
+        default: 10
         type: number
       refresh_inventory:
         description: "Re-enumerate every public repository page from page one"
         required: false
         default: false
         type: boolean
+  push:
+    branches: [main]
+    paths:
+      - "config/company_accounts.csv"
+      - "scripts/**"
+      - "tests/**"
+      - ".github/workflows/catalogue-inventory.yml"
   schedule:
     - cron: "23 2 * * *"
 
@@ -63,7 +70,7 @@ jobs:
           ENRICH_LIMIT: ${{ inputs.enrich_limit }}
           REFRESH_INVENTORY: ${{ inputs.refresh_inventory }}
         run: |
-          if [ -z "$ENRICH_LIMIT" ]; then ENRICH_LIMIT=50; fi
+          if [ -z "$ENRICH_LIMIT" ]; then ENRICH_LIMIT=10; fi
           args=(--phase all --mapping config/company_accounts.csv --enrich-limit "$ENRICH_LIMIT" --manifest-limit 6 --delay 0.2)
           if [ -n "$COMPANY" ]; then args+=(--company "$COMPANY"); fi
           if [ "$INCLUDE_UNVERIFIED" = "true" ]; then args+=(--include-unverified); fi

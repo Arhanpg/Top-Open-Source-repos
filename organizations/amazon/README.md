@@ -45,3 +45,8 @@ Three additional AWS repository briefs have been added: Amazon SageMaker Example
 ## Continued README review — 23 November 2026
 
 1 additional README-reviewed project brief has been added to this account folder. See [the repository index](repositories/README.md). The account's complete public repository inventory and related company organizations still require full discovery and pagination.
+
+
+## Official AWS GitHub organization directory
+
+The official [Open Source at AWS](https://aws.github.io/) website lists 30 distinct GitHub organization links in its “AWS GitHub Organizations” section, including the primary `aws` account. The catalogue maps the other 29 accounts with the separate `official-directory-listed` status. See [Amazon/AWS Account Discovery](ACCOUNT-DISCOVERY.md) for the account list, sample repository checks and attribution rules.

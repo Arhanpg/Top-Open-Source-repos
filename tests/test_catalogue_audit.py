@@ -37,6 +37,14 @@ def repository(index: int) -> dict:
     }
 
 
+class MappingEligibilityTests(unittest.TestCase):
+    def test_official_directory_listed_mapping_is_collectable(self):
+        self.assertTrue(audit.is_collectable_mapping("official-directory-listed"))
+
+    def test_unverified_candidate_is_not_collectable_by_default(self):
+        self.assertFalse(audit.is_collectable_mapping("mapping unverified"))
+
+
 class ManifestParserTests(unittest.TestCase):
     def test_package_json(self):
         manifest = json.dumps({

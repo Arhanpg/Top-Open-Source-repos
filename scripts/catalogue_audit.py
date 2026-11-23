@@ -488,10 +488,16 @@ def export(state: dict[str,Any], company_dir: Path, account_dir: Path):
         if other: summary.append(f"| [{other.get('account')}]({('https://github.com/'+other.get('account'))}) | {other.get('account_type')} | {other.get('mapping_status')} | {len(other.get('repositories',{}))} | {bool(other.get('pagination_complete'))} | [Open](accounts/{file.parent.name}/README.md) |")
     (company_dir/"ACCOUNT-INVENTORY.md").write_text("\n".join(summary)+"\n",encoding="utf-8")
 
+def is_collectable_mapping(status: str) -> bool:
+    """Return true for directly verified or official-directory-listed accounts."""
+    return (status or "").strip().casefold() in {
+        "verified", "official", "confirmed", "official-directory-listed"
+    }
+
 def run_account(row: dict[str,str], args, token: str | None) -> bool:
     company,account=row["company"].strip(),row["account"].strip()
     mapping=row.get("mapping_status","unverified").strip()
-    verified=mapping.casefold() in {"verified","official","confirmed"}
+    verified=is_collectable_mapping(mapping)
     if not verified and not args.include_unverified:
         print(f"[skip mapping] {company}/{account}: not verified"); return True
     company_dir=args.output/slug(company); account_dir=company_dir/"accounts"/slug(account); checkpoint=account_dir/"inventory.json"

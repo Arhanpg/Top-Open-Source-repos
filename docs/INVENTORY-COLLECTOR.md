@@ -7,7 +7,7 @@ The canonical collector is scripts/catalogue_audit.py. It uses only the Python 3
 - Python 3.11 or newer.
 - A GitHub token in GITHUB_TOKEN (recommended for authenticated API limits).
 - A company/account row in config/company_accounts.csv.
-- A verified mapping status for normal scheduled collection. Unverified mappings are skipped unless explicitly included.
+- A verified or official-directory-listed mapping status for normal scheduled collection. Name-based candidate mappings are skipped unless explicitly included.
 
 ## Quick start
 
@@ -110,7 +110,7 @@ Direct pushes must be allowed by the repository's branch rules and the workflow'
 
 ## Current scope and limitations
 
-At the time this guide was updated, only five primary starting accounts in the mapping CSV were marked verified: Microsoft, Google, Apple, NVIDIA and AWS. Other mappings remain research candidates until corroborated by official company sources. The collector inventories only the configured GitHub account; it does not discover every secondary organization automatically.
+At the time this guide was updated, five primary accounts are marked directly verified (Microsoft, Google, Apple, NVIDIA and AWS), and 29 additional AWS-related accounts are listed by the official Open Source at AWS directory. These 34 mappings are eligible for automated inventory. Other name-based mappings remain research candidates until corroborated by official company sources. The collector inventories only the configured GitHub account; it does not discover every secondary organization automatically.
 
 README evidence capture is not a completed architecture, security, dependency-vulnerability or performance audit. The separate project dossiers in the curated company folders remain manually interpreted records.
 
@@ -125,3 +125,8 @@ python -m unittest discover -s tests -v
 ~~~
 
 The suite checks dependency-name parsing for common manifest formats, automatic organization account resolution, page-cap checkpoint/resume behaviour, an interrupted scheduled refresh and empty organization handling. These tests use mocked GitHub responses and do not make live API calls.
+
+
+## Official-directory-listed account eligibility
+
+The collector treats `official-directory-listed` as an inventory-eligible mapping status. This is separate from direct ownership verification and should remain visible in the account dossier. The AWS list is sourced from the official [Open Source at AWS](https://aws.github.io/) website. The exact handles and relationship caveat are documented in [Amazon/AWS Account Discovery](../organizations/amazon/ACCOUNT-DISCOVERY.md).

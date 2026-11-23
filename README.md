@@ -148,7 +148,7 @@ The repository now includes a resumable auditor and a scheduled GitHub Actions w
 - [Collector usage and resume guide](docs/INVENTORY-COLLECTOR.md)
 - [Account mapping CSV](config/company_accounts.csv)
 
-The workflow enumerates public repositories through API pagination, then captures README, language and selected manifest evidence in bounded batches. It commits generated account indexes and per-repository Markdown dossiers directly to `main`. Daily runs currently include only verified starting accounts. Manual dispatch can select one company and optionally include unverified candidates.
+The workflow enumerates public repositories through API pagination, then captures README, language and selected manifest evidence in bounded batches. It commits generated account indexes and per-repository Markdown dossiers directly to `main`. Daily runs include directly verified accounts and accounts explicitly listed in official company open-source directories; name-only candidates remain excluded. Manual dispatch can select one company and optionally include unverified candidates.
 
 **Important:** a captured README is not the same as a fully interpreted technical audit, and a primary GitHub organization is not necessarily every organization owned by a company. See the discovery guide and review-status documentation.
 
@@ -167,3 +167,10 @@ The collector now uses tracked per-account checkpoints under organizations/<comp
 
 
 The Actions workflow first runs Python compilation and the offline collector tests before attempting an inventory scan. The workflow is committed, but a successful live inventory still needs to be confirmed in the [Actions run history](https://github.com/Arhanpg/Top-Open-Source-repos/actions).
+
+
+## Additional official AWS account coverage — 24 November 2026
+
+The company-controlled [Open Source at AWS](https://aws.github.io/) website lists 30 GitHub organization links, including the primary `aws` account. The mapping now includes 29 additional directory-listed accounts under Amazon/AWS with explicit attribution caveats. This brings the inventory-eligible mappings to 34 accounts across five primary companies plus the AWS directory expansion; it does not make all 151 company inventories complete.
+
+See [Amazon/AWS account discovery](organizations/amazon/ACCOUNT-DISCOVERY.md) and [the organization discovery method](docs/ORGANIZATION-DISCOVERY.md).
