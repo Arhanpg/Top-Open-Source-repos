@@ -48,9 +48,9 @@ Inventory refreshes compare the default branch and last-pushed timestamp with th
 
 ## Automated test suite and live-run status
 
-A 13-test standard-library unittest suite is now stored at tests/test_catalogue_audit.py and is wired into the workflow before repository collection. It covers manifest dependency clues (including Python TOML and Go modules), automatic account-type resolution, pagination checkpoints/resume, interrupted scheduled refresh resumption, empty organizations and stale-evidence invalidation.
+The standard-library unittest suite is stored at tests/test_catalogue_audit.py and is wired into the workflow before repository collection. It now contains 18 offline test cases covering manifest dependency clues, automatic account-type resolution, pagination checkpoints/resume, interrupted scheduled refresh, empty repositories, stale-evidence invalidation and mapping eligibility.
 
-The test suite has been added to the repository; this chat has not observed a GitHub Actions run executing it. The Actions runs endpoint currently returns zero runs for this repository. Therefore no live organization inventory or README-enrichment run is claimed as complete by this update. Use the Actions page to start the workflow manually or confirm the next scheduled execution.
+The first live GitHub Actions run (#1) has since completed inventory pagination for 34 configured accounts and committed 25,965 repository metadata records; see docs/LIVE-INVENTORY-SNAPSHOT-2026-11-23.md. A subsequent run is validating empty-repository handling and continuing enrichment. The automated account summaries are still far from fully enriched, and none of those generated records has been manually interpreted.
 
 
 ## Live inventory run — 23 November 2026
@@ -71,3 +71,8 @@ Verified inventory snapshot from the committed company-level account indexes:
 The run's overall conclusion was failure because two empty repositories returned GitHub HTTP 409 during tree inspection: `aws-ia/.announcements` and `NVIDIA/ADLR`. This did not invalidate their completed public-repository pagination. The collector now classifies the exact `Git Repository is empty` response as terminal manifest unavailability, while retaining other HTTP 409 responses as errors.
 
 The first run captured README/language/manifest evidence for a bounded batch of up to 10 repositories per account. It did not manually interpret those READMEs: automated dossiers remain `manual technical interpretation pending`. Further enrichment batches are required for the remaining repositories.
+
+
+## Additional NVIDIA account discovery — 24 November 2026
+
+After the 34-account inventory snapshot, five further NVIDIA project-linked accounts were added from direct links on NVIDIA's official Open Source at NVIDIA hub: `NVIDIA-ISAAC-ROS`, `nvidia-cosmos`, `rapidsai`, `ai-dynamo` and `triton-inference-server`. They use the separate `official-project-linked` status to avoid implying blanket legal ownership. The configured inventory target is therefore now 39 accounts, but the original 25,965-repository snapshot does not include these five new account inventories. See [NVIDIA Account Discovery](../organizations/nvidia/ACCOUNT-DISCOVERY.md).

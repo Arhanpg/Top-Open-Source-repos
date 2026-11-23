@@ -111,3 +111,8 @@ A subsequent collector fix treats this exact GitHub response as terminal manifes
 - [Apple account inventory](../organizations/apple/ACCOUNT-INVENTORY.md)
 - [NVIDIA account inventory](../organizations/nvidia/ACCOUNT-INVENTORY.md)
 - [Amazon / AWS account inventory](../organizations/amazon/ACCOUNT-INVENTORY.md)
+
+
+## Later account-discovery amendment — 24 November 2026
+
+This dashboard is a frozen baseline from the first live scan of 34 accounts. Five additional NVIDIA project-linked accounts were added afterwards from NVIDIA's official open-source hub. The current configured target is now 39 accounts. Their repository counts must not be added to the 25,965 baseline until complete pagination and committed account summaries are available.

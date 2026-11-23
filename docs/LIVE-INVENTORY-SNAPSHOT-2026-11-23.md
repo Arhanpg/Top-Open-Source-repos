@@ -65,3 +65,8 @@ Both have no Git repository tree; GitHub returns HTTP 409 with `Git Repository i
 
 
 See the [inventory and evidence progress dashboard](INVENTORY-PROGRESS-2026-11-23.md) for the complete 34-account table. In the first run, 286 README files were captured, 30 were unavailable, 314 repositories reached terminal README/language/manifest evidence states, 25,649 remained pending/error, and no automated records had a manual technical review.
+
+
+## Later account-discovery amendment
+
+This is a historical first-run snapshot of 34 configured accounts. On 24 November 2026, five additional NVIDIA project-linked accounts were added using project links from NVIDIA's official open-source hub. They were not included in the 25,965 count above. The current configuration has 39 inventory-eligible accounts; the five new NVIDIA accounts require their own complete pagination before a revised combined total can be reported.

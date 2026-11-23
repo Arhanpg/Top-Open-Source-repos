@@ -189,3 +189,6 @@ The first live scan enumerated 25,965 public repository records across 34 config
 ## NVIDIA project-account expansion — 24 November 2026
 
 The [official Open Source at NVIDIA hub](https://opensource.nvidia.com/llm-info/) links five additional GitHub project accounts beyond the primary `NVIDIA` organization. They are mapped as `official-project-linked` to distinguish project association from blanket legal ownership. See [NVIDIA account discovery](organizations/nvidia/ACCOUNT-DISCOVERY.md). The inventory-eligible account mapping now contains 39 accounts: five primary verified, 29 AWS directory-listed and five NVIDIA project-linked.
+
+
+The first live inventory baseline covered 34 accounts and 25,965 repositories. Five NVIDIA project-linked accounts were added afterwards from the official NVIDIA open-source hub, bringing the configured inventory target to 39 accounts. Their own public-repository pagination must complete before a new combined repository total is reported.
