@@ -160,3 +160,8 @@ The scheduled workflow runs four times per day at 02:23, 08:23, 14:23 and 20:23 
 ## Apple project-linked accounts
 
 Apple's official Open Source catalogue links two separate GitHub accounts for Swift and MLX: swiftlang and ml-explore. They use official-project-linked and are inventoried independently from the primary apple organization. See [Apple Account Discovery](../organizations/apple/ACCOUNT-DISCOVERY.md).
+
+
+## SAP and Siemens account families
+
+SAP's verified GitHub profile lists ten additional dedicated organizations; these are mapped as `official-directory-listed`. Siemens's official Open Source portal lists `mindsphere` and `industrial-edge` as product-specific organizations; these are mapped as `official-project-linked`. Both groups are inventoried separately from their parent accounts. See the [SAP](../organizations/sap/ACCOUNT-DISCOVERY.md) and [Siemens](../organizations/siemens/ACCOUNT-DISCOVERY.md) discovery registers.

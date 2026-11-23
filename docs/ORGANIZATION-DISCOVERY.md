@@ -96,3 +96,12 @@ Apple's company-controlled [Open Source projects catalogue](https://opensource.a
 | [ml-explore](https://github.com/ml-explore) | MLX | [ml-explore/mlx](https://github.com/ml-explore/mlx) |
 
 The catalogue also links Apple projects under the primary apple organization, including Password Manager Resources, ServiceTalk, Containerization and Core ML Tools. The two additional accounts use official-project-linked to distinguish project association from blanket ownership. Apple's catalogue separates Apple-managed projects from community projects it participates in; community projects are not counted as Apple-owned accounts.
+
+
+## SAP official organization expansion — 24 November 2026
+
+SAP's verified GitHub profile explicitly lists ten dedicated organizations beyond the main `SAP` account: `cap-js`, `cap-java`, `cap-js-community`, `capire`, `kyma-project`, `UI5`, `SAP-cloud-infrastructure`, `SAP-samples`, `sap-tutorials` and `SAP-docs`. Each account returned public repository results when checked. See [SAP Account Discovery](../organizations/sap/ACCOUNT-DISCOVERY.md).
+
+## Siemens product-specific organizations — 24 November 2026
+
+Siemens's official Open Source portal explicitly names `mindsphere` and `industrial-edge` as product-specific GitHub organizations beyond the main `siemens` account. Both accounts returned public repository results. See [Siemens Account Discovery](../organizations/siemens/ACCOUNT-DISCOVERY.md).

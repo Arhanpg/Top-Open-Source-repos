@@ -217,3 +217,8 @@ The scheduled collector now runs four times per day (02:23, 08:23, 14:23 and 20:
 ## Apple project review and account expansion — 24 November 2026
 
 Five additional Apple Open Source projects now have individual technical briefs: [Password Manager Resources](organizations/apple/repositories/password-manager-resources.md), [ServiceTalk](organizations/apple/repositories/servicetalk.md), [Containerization](organizations/apple/repositories/containerization.md), [Swift](organizations/apple/repositories/swift-language.md) and [MLX](organizations/apple/repositories/mlx.md). Apple's official project pages link Swift to the swiftlang GitHub account and MLX to ml-explore; both are mapped as project-linked accounts. The curated five-company total is now **56** README-based project briefs, while the inventory-eligible account target is **44**.
+
+
+## SAP and Siemens account-family expansion — 24 November 2026
+
+The account map now includes ten additional SAP organizations listed by SAP's verified GitHub profile and two Siemens product-specific organizations linked by Siemens's official open-source portal. SAP and Siemens primary accounts are also now directly verified. This adds 14 inventory-eligible account rows (including the two promoted primary mappings) and brings the configured eligible set to **58 accounts**. See [SAP](organizations/sap/ACCOUNT-DISCOVERY.md), [Siemens](organizations/siemens/ACCOUNT-DISCOVERY.md) and the [account discovery status](docs/ACCOUNT-DISCOVERY-STATUS-2026-11-24.md).

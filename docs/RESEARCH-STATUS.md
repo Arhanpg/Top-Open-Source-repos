@@ -12,3 +12,7 @@
 - Inventory complete — every page of the public repository listing for the verified account has been fetched and the final page confirmed.
 
 A successful automated capture does not imply a manual README review, source-code audit, security review, dependency vulnerability scan or performance benchmark. Candidate handles remain research leads rather than ownership assertions.
+
+- Official-directory-listed — an official verified company GitHub profile or company directory explicitly names the account as a dedicated product/project organization. This establishes a published association, not universal ownership or authorship of all repos.
+
+- Official-project-linked — a company-controlled project portal directly links to a GitHub account for a named product area. This is project evidence, not blanket ownership.

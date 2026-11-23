@@ -2,17 +2,17 @@
 
 ## Current mapping totals
 
-The mapping CSV contains **190 account rows**:
+The mapping CSV contains **202 account rows**:
 
 | Mapping class | Accounts | Meaning |
 |---|---:|---|
-| Directly verified primary accounts | 5 | One starting account each for Microsoft, Google, Apple, NVIDIA and AWS |
-| Official-directory-listed | 29 | Additional accounts linked by the official Open Source at AWS directory |
-| Official-project-linked | 10 | Five NVIDIA project accounts, three Microsoft documentation-linked accounts and two Apple project-linked accounts |
+| Directly verified primary accounts | 7 | Five initial primary accounts plus SAP and Siemens, whose GitHub organizations are verified |
+| Official-directory-listed | 39 | 29 AWS accounts plus 10 dedicated SAP organizations named by SAP's verified GitHub profile |
+| Official-project-linked | 12 | Five NVIDIA project accounts, three Microsoft documentation-linked accounts, two Apple project-linked accounts and two Siemens product-specific accounts |
 | Candidate / unverified / relationship pending | 146 | Remaining source-list mappings that require company-controlled evidence |
-| **Total mapping rows** | **190** | Includes the 151 original company-source rows plus 34 secondary-account rows |
+| **Total mapping rows** | **202** | Includes the 151 original company-source rows plus 34 secondary-account rows |
 
-**Inventory-eligible mappings:** 44 accounts (5 directly verified + 29 AWS directory-listed + 5 NVIDIA project-linked + 3 Microsoft documentation-linked + 2 Apple project-linked).
+**Inventory-eligible mappings:** 58 accounts (7 directly verified + 39 official-directory-listed + 12 official-project-linked).
 
 ## Inventory completion state
 
@@ -57,3 +57,8 @@ Three additional Microsoft project-linked accounts (`MicrosoftDocs`, `dotnet`, `
 ## Apple mapping amendment — 24 November 2026
 
 Two additional Apple project-linked accounts, swiftlang and ml-explore, were added from direct links on Apple's official Open Source project pages. The catalogue now has 190 account mapping rows and 44 inventory-eligible accounts. These account inventories are not included in the 25,965-repository first-run baseline.
+
+
+## SAP and Siemens expansion — 24 November 2026
+
+The verified SAP profile names ten dedicated project organizations, and Siemens's official open-source portal names two product-specific organizations. SAP and Siemens primary account rows have been promoted to directly verified. Ten SAP rows use `official-directory-listed`, and two Siemens rows use `official-project-linked`. The mapping now has 202 rows and 58 inventory-eligible accounts. Their pagination is not included in the historic 25,965-repository baseline.
