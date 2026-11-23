@@ -4,7 +4,7 @@
 - **Company mapping:** candidate account used for this catalogue; verify through Microsoft's official engineering / open-source pages before treating every associated repository as a corporate project.
 - **Source group:** United States & Global
 - **Directory status:** initialized; repository list not yet exhaustive
-- **Detailed README records:** 11 project briefs currently linked below
+- **Detailed README records:** 16 project briefs currently linked below
 
 ## Why this directory matters
 
@@ -52,3 +52,8 @@ The detailed pages below cover selected README-reviewed projects only. The publi
 - [Microsoft GitHub account](https://github.com/microsoft)
 - [Microsoft Open Source](https://opensource.microsoft.com/)
 - [GitHub repository catalogue](repositories/README.md)
+
+
+## Additional README-reviewed projects — 23 November 2026
+
+Five additional Microsoft project briefs have been added: Visual Studio Code (Code - OSS), Windows Terminal, Generative AI for Beginners, Web Development for Beginners and AI Agents for Beginners. Their summaries distinguish learning materials from deployable software and retain important licensing, platform and provider lifecycle caveats. See the [repository index](repositories/README.md).
