@@ -1,0 +1,52 @@
+# Amazon / freertos — repository inventory
+
+- Pagination complete: True
+- Pages in latest scan: 1
+- Repository records: 44
+
+| Repository | Description | Stars | Languages | Archived | Fork | In latest scan | README state | Dossier |
+|---|---|---:|---|---:|---:|---|---|---|
+| [FreeRTOS/.github](https://github.com/FreeRTOS/.github) | No description | 1 | Pending | False | True | True | unavailable | [Open](repositories/github-744757911.md) |
+| [FreeRTOS/backoffAlgorithm](https://github.com/FreeRTOS/backoffAlgorithm) | Algorithm for calculating exponential backoff with jitter for network retry attempts. | 36 | C, C++, CMake | False | False | True | captured | [Open](repositories/backoffalgorithm-314056259.md) |
+| [FreeRTOS/CI-CD-Github-Actions](https://github.com/FreeRTOS/CI-CD-Github-Actions) | Common GitHub Actions for CI/CD on FreeRTOS library repositories. | 25 | C, HTML, Makefile, Python, Rust, Tree-sitter Query | False | False | True | captured | [Open](repositories/ci-cd-github-actions-323997802.md) |
+| [FreeRTOS/CMSIS-Packs](https://github.com/FreeRTOS/CMSIS-Packs) | This repository contains a Package Index File that describes the locations of CMSIS Packs for various FreeRTOS libraries. | 12 | Pending | False | False | True | captured | [Open](repositories/cmsis-packs-413996525.md) |
+| [FreeRTOS/coreHTTP](https://github.com/FreeRTOS/coreHTTP) | Client implementation of a subset of HTTP 1.1 protocol designed for embedded devices. | 115 | C, CMake, Makefile, Python | False | False | True | captured | [Open](repositories/corehttp-290592099.md) |
+| [FreeRTOS/coreJSON](https://github.com/FreeRTOS/coreJSON) | A parser strictly enforcing the ECMA-404 JSON standard, suitable for microcontrollers | 153 | C, C++, CMake, Dockerfile, Makefile, Python, Shell | False | False | True | captured | [Open](repositories/corejson-290621225.md) |
+| [FreeRTOS/coreMQTT](https://github.com/FreeRTOS/coreMQTT) | Client implementation of the MQTT 5.0 specification for embedded devices | 239 | C, CMake, Makefile, Python | False | False | True | captured | [Open](repositories/coremqtt-290620959.md) |
+| [FreeRTOS/coreMQTT-Agent](https://github.com/FreeRTOS/coreMQTT-Agent) | Implements an MQTT agent (or daemon) task for simple MQTT connection sharing among different threads of execution. | 46 | C, CMake, Makefile, Python | False | False | True | captured | [Open](repositories/coremqtt-agent-344300940.md) |
+| [FreeRTOS/coreMQTT-Agent-Demos](https://github.com/FreeRTOS/coreMQTT-Agent-Demos) | Demonstrates use of coreMQTT-Agent for simple MQTT connection sharing among different threads of execution. | 36 | Batchfile, C, Makefile, Python, templ | False | False | True | captured | [Open](repositories/coremqtt-agent-demos-315757277.md) |
+| [FreeRTOS/corePKCS11](https://github.com/FreeRTOS/corePKCS11) | Software implementation of the PKCS #11 standard. | 46 | C, CMake, Makefile, Python, Shell | False | False | True | captured | [Open](repositories/corepkcs11-292363452.md) |
+| [FreeRTOS/coreSNTP](https://github.com/FreeRTOS/coreSNTP) | SNTPv4 client designed for embedded devices. | 27 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS](https://github.com/FreeRTOS/FreeRTOS) | 'Classic' FreeRTOS distribution.  Started as Git clone of FreeRTOS SourceForge SVN repo.  Submodules the kernel. | 8003 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-Cellular-Interface](https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface) | FreeRTOS Cellular Interface implementation of the 3GPP TS v27.007 standard. | 101 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-Cellular-Interface-Community-Supported-Ports](https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface-Community-Supported-Ports) | No description | 10 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-Cellular-Interface-Reference-Quectel-BG96](https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface-Reference-Quectel-BG96) | No description | 11 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-Cellular-Interface-Reference-Sierra-Wireless-HL7802](https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface-Reference-Sierra-Wireless-HL7802) | No description | 3 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-Cellular-Interface-Reference-ublox-SARA-R4](https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface-Reference-ublox-SARA-R4) | No description | 4 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-Community-Supported-Demos](https://github.com/FreeRTOS/FreeRTOS-Community-Supported-Demos) | No description | 48 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/freertos-gdb](https://github.com/FreeRTOS/freertos-gdb) | No description | 10 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-Kernel](https://github.com/FreeRTOS/FreeRTOS-Kernel) | FreeRTOS kernel files only, submoduled into https://github.com/FreeRTOS/FreeRTOS and various other repos. | 4677 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-Kernel-Book](https://github.com/FreeRTOS/FreeRTOS-Kernel-Book) | No description | 612 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-Kernel-Community-Supported-Ports](https://github.com/FreeRTOS/FreeRTOS-Kernel-Community-Supported-Ports) | No description | 36 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-Kernel-Partner-Supported-Ports](https://github.com/FreeRTOS/FreeRTOS-Kernel-Partner-Supported-Ports) | No description | 19 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-Labs](https://github.com/FreeRTOS/FreeRTOS-Labs) | No description | 71 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-Libraries-Integration-Tests](https://github.com/FreeRTOS/FreeRTOS-Libraries-Integration-Tests) | No description | 8 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-LTS](https://github.com/FreeRTOS/FreeRTOS-LTS) | No description | 379 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-Partner-Supported-Demos](https://github.com/FreeRTOS/FreeRTOS-Partner-Supported-Demos) | No description | 34 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-Plus-TCP](https://github.com/FreeRTOS/FreeRTOS-Plus-TCP) | FreeRTOS-Plus-TCP library repository. +TCP files only. Submoduled into https://github.com/FreeRTOS/FreeRTOS and various other repos. | 220 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-SESIP](https://github.com/FreeRTOS/FreeRTOS-SESIP) | No description | 6 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-SMP-Demos](https://github.com/FreeRTOS/FreeRTOS-SMP-Demos) | No description | 71 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/FreeRTOS-Website-Content](https://github.com/FreeRTOS/FreeRTOS-Website-Content) | Text and image content for freertos.org | 1 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/iot-reference-arm-corstone3xx](https://github.com/FreeRTOS/iot-reference-arm-corstone3xx) | Featured FreeRTOS IoT Integration targeting an Arm Corstone-3xx platform based on Arm Cortex-M MCU. | 27 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/iot-reference-esp32](https://github.com/FreeRTOS/iot-reference-esp32) | No description | 108 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/iot-reference-nxp-rt1060](https://github.com/FreeRTOS/iot-reference-nxp-rt1060) | Reference IoT project which integrates NXP IMXRT 1060 platform with FreeRTOS LTS libraries | 25 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/iot-reference-stm32u5](https://github.com/FreeRTOS/iot-reference-stm32u5) | No description | 69 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/Lab-Project-CMSIS-Packs-Demos](https://github.com/FreeRTOS/Lab-Project-CMSIS-Packs-Demos) | No description | 4 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/Lab-Project-Espressif-Demos](https://github.com/FreeRTOS/Lab-Project-Espressif-Demos) | No description | 22 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/Lab-Project-FreeRTOS-Cellular-Demo](https://github.com/FreeRTOS/Lab-Project-FreeRTOS-Cellular-Demo) | No description | 32 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/Lab-Project-FreeRTOS-FAT](https://github.com/FreeRTOS/Lab-Project-FreeRTOS-FAT) | This repository contains FreeRTOS+FAT source code, which could be consumed as a submodule. | 111 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/Lab-Project-FreeRTOS-LoRaWAN](https://github.com/FreeRTOS/Lab-Project-FreeRTOS-LoRaWAN) | Reference implementation of LoRaWAN connectivity on FreeRTOS. | 57 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/Lab-Project-FreeRTOS-MCUBoot](https://github.com/FreeRTOS/Lab-Project-FreeRTOS-MCUBoot) | No description | 40 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/Lab-Project-FreeRTOS-POSIX](https://github.com/FreeRTOS/Lab-Project-FreeRTOS-POSIX) | This repository contains FreeRTOS+POSIX source code, which could be consumed as a submodule. | 145 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/Lab-Project-FreeRTOS-Tutorials](https://github.com/FreeRTOS/Lab-Project-FreeRTOS-Tutorials) | Tutorials to learn FreeRTOS Kernel. | 106 | Pending | False | False | True | pending | Not generated |
+| [FreeRTOS/Lab-Project-ota-example-for-AWS-IoT-Core](https://github.com/FreeRTOS/Lab-Project-ota-example-for-AWS-IoT-Core) | An example of an AWS IoT Core OTA orchestrator, running on the FreeRTOS POSIX port | 10 | Pending | False | False | True | pending | Not generated |

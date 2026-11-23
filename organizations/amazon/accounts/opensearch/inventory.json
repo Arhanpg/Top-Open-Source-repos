@@ -1,0 +1,298 @@
+{
+  "schema_version": 2,
+  "company": "Amazon",
+  "account": "opensearch",
+  "repositories": {
+    "opensearch/dems": {
+      "id": 46499045,
+      "name": "dems",
+      "full_name": "opensearch/dems",
+      "url": "https://github.com/opensearch/dems",
+      "description": null,
+      "default_branch": "master",
+      "visibility": "public",
+      "archived": false,
+      "fork": false,
+      "disabled": false,
+      "is_template": false,
+      "license_spdx": null,
+      "created_at": "2015-11-19T14:53:42Z",
+      "updated_at": "2015-11-19T14:53:42Z",
+      "pushed_at": "2015-11-19T14:53:42Z",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "topics": [],
+      "last_seen_scan_id": "2026-11-23T19:34:34+00:00",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
+      "manual_review_status": "manual technical interpretation pending",
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/opensearch/dems/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "028d1dbf4863e3e3fc0e9cd5cae09ce2453d62f5",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "dems"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T19:34:35+00:00"
+    },
+    "opensearch/revolut": {
+      "id": 98311907,
+      "name": "revolut",
+      "full_name": "opensearch/revolut",
+      "url": "https://github.com/opensearch/revolut",
+      "description": "A pre-interview task for Revolut",
+      "default_branch": "master",
+      "visibility": "public",
+      "archived": false,
+      "fork": false,
+      "disabled": false,
+      "is_template": false,
+      "license_spdx": null,
+      "created_at": "2017-07-25T13:54:59Z",
+      "updated_at": "2017-07-28T15:02:56Z",
+      "pushed_at": "2017-07-31T09:22:42Z",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "topics": [],
+      "last_seen_scan_id": "2026-11-23T19:34:34+00:00",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
+      "manual_review_status": "manual technical interpretation pending",
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 21143
+      },
+      "readme_url": "https://github.com/opensearch/revolut/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "38ab35338601b2657df2a08689b083cbe1cb7aec",
+      "readme_excerpt": "transactional: Money Transfer Service ===================================== Author: Roman Tokarev Level: Intermediate Technologies: EAR, JPA Summary: Based on kitchensink, but deployed as an EAR Target Project: WildFly Source: https://github.com/opensearch/revolut/> Requirements: WildFly 10, Java 8, Maven. 1. Clone project git clone git@github.com:opensearch/revolut.git 2. download and unzip http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final.zip. 3. Start Wildfly AC: 4. Go to 'revolut' and execute: mvn clean compile package wildfly:deploy Operations - Show all clients: http://localhost:8080/transactional-web/rest/clients - Show all accounts: http://localhost:8080/transactional-web/rest/accounts - Money transfer: http://localhost:8080/transactional-web/rest/transfer?from=0&to=1&currency=USD&amount=100.00",
+      "readme_headings": [],
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "864a7a187f307e24d69a7be2207ee46d8f0c8f20",
+          "size": 6018,
+          "content_status": "captured",
+          "dependency_hints": [
+            "jboss-javaee-7.0-with-hibernate",
+            "jboss-javaee-7.0-with-tools",
+            "transactional",
+            "transactional-ejb",
+            "transactional-web",
+            "wildfly-maven-plugin"
+          ]
+        },
+        {
+          "path": "transactional-ear/pom.xml",
+          "sha": "86dcb444e5142c9978454aaef780408b7f4276ef",
+          "size": 4615,
+          "content_status": "captured",
+          "dependency_hints": [
+            "maven-ear-plugin",
+            "transactional",
+            "transactional-ear",
+            "transactional-ejb",
+            "transactional-web",
+            "wildfly-maven-plugin"
+          ]
+        },
+        {
+          "path": "transactional-ejb/pom.xml",
+          "sha": "ce901d49c8e713852e1e019f739ab394d6f7e315",
+          "size": 6694,
+          "content_status": "captured",
+          "dependency_hints": [
+            "arquillian-junit-container",
+            "arquillian-protocol-servlet",
+            "cdi-api",
+            "hibernate-jpa-2.1-api",
+            "hibernate-validator",
+            "jackson-annotations",
+            "jboss-ejb-api_3.2_spec",
+            "junit",
+            "maven-ejb-plugin",
+            "maven-surefire-plugin",
+            "transactional",
+            "transactional-ejb",
+            "wildfly-arquillian-container-managed",
+            "wildfly-arquillian-container-remote"
+          ]
+        },
+        {
+          "path": "transactional-web/pom.xml",
+          "sha": "21724b91987606f6a0e96cf09f852b600242df49",
+          "size": 4057,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cdi-api",
+            "hibernate-jpa-2.1-api",
+            "hibernate-validator",
+            "jaxrs-api",
+            "jboss-jsf-api_2.2_spec",
+            "maven-war-plugin",
+            "slf4j-api",
+            "transactional",
+            "transactional-ejb",
+            "transactional-web"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T19:34:37+00:00"
+    },
+    "opensearch/statefulj": {
+      "id": 122448164,
+      "name": "statefulj",
+      "full_name": "opensearch/statefulj",
+      "url": "https://github.com/opensearch/statefulj",
+      "description": "A Finite State Machine Implementation along with an integrated Spring Based Framework",
+      "default_branch": "master",
+      "visibility": "public",
+      "archived": false,
+      "fork": true,
+      "disabled": false,
+      "is_template": false,
+      "license_spdx": "Apache-2.0",
+      "created_at": "2018-02-22T08:02:14Z",
+      "updated_at": "2018-02-22T08:02:16Z",
+      "pushed_at": "2017-05-20T22:02:57Z",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "topics": [],
+      "last_seen_scan_id": "2026-11-23T19:34:34+00:00",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
+      "manual_review_status": "manual technical interpretation pending",
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 387481
+      },
+      "readme_url": "https://github.com/opensearch/statefulj/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "73bcfcbf2f04af79c13349c06255bd6c59de06ca",
+      "readme_excerpt": "StatefulJ ========= Features ========= * Simple, dependency free, in memory implementation of an FSM with support for concurrency and non-deterministic transitions * Optional Persistence support - currently JPA or Mongo * Optional Spring Based Framework with autogenerated and autowired Binding and Persistence (SpringMVC, Jersey, Camel, JPA and Mongo) Documentation ============= StatefulJ is documented in detail at http://www.statefulj.org Demos ===== * The Framework includes: * An FSM with Mongo Persistence support * A DDD based banking application demonstrating how you can build an entire application using Domain Driven Design, StatefulJ and JPA. * A JPA based banking application demonstrating how you",
+      "readme_headings": [],
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "494ef4954ba38b6a0217aa5d4d2f0b8b3b5f9291",
+          "size": 5023,
+          "content_status": "captured",
+          "dependency_hints": [
+            "commons-lang3",
+            "junit",
+            "logback-classic",
+            "maven-compiler-plugin",
+            "maven-gpg-plugin",
+            "maven-javadoc-plugin",
+            "maven-source-plugin",
+            "mockito-all",
+            "nexus-staging-maven-plugin",
+            "slf4j-api",
+            "statefulj"
+          ]
+        },
+        {
+          "path": "statefulj-common/pom.xml",
+          "sha": "991551246bafe2a205f6a971b5d7580c8d136b3c",
+          "size": 1013,
+          "content_status": "captured",
+          "dependency_hints": [
+            "commons-lang3",
+            "junit",
+            "mockito-all",
+            "statefulj",
+            "statefulj-common"
+          ]
+        },
+        {
+          "path": "statefulj-framework/pom.xml",
+          "sha": "6b4bb85b302726367a8556efd0a39fcfd8f96853",
+          "size": 2119,
+          "content_status": "captured",
+          "dependency_hints": [
+            "servlet-api",
+            "spring-context",
+            "spring-test",
+            "statefulj",
+            "statefulj-common",
+            "statefulj-framework",
+            "statefulj-fsm",
+            "statefulj-persistence-common"
+          ]
+        },
+        {
+          "path": "statefulj-fsm/pom.xml",
+          "sha": "db5bcf0ccb0788eba27c6a5827008356b3a8f801",
+          "size": 1643,
+          "content_status": "captured",
+          "dependency_hints": [
+            "commons-lang3",
+            "junit",
+            "logback-classic",
+            "mockito-all",
+            "slf4j-api",
+            "statefulj",
+            "statefulj-common",
+            "statefulj-fsm"
+          ]
+        },
+        {
+          "path": "statefulj-persistence/pom.xml",
+          "sha": "c544198eb801b1a3354839fc126a62aed73f6450",
+          "size": 2105,
+          "content_status": "captured",
+          "dependency_hints": [
+            "maven-surefire-plugin",
+            "spring-context",
+            "spring-test",
+            "statefulj",
+            "statefulj-common",
+            "statefulj-fsm",
+            "statefulj-persistence",
+            "statefulj-persistence-common"
+          ]
+        },
+        {
+          "path": "statefulj-framework/statefulj-framework-binders/pom.xml",
+          "sha": "6bc581ce7913d1a7828663a65ec8e4a748fdcc15",
+          "size": 908,
+          "content_status": "captured",
+          "dependency_hints": [
+            "statefulj-framework",
+            "statefulj-framework-binders"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T19:34:40+00:00"
+    }
+  },
+  "pages_fetched": 1,
+  "next_page": null,
+  "pagination_complete": true,
+  "account_type": "user",
+  "mapping_status": "official-directory-listed",
+  "source_groups": "united-states-global",
+  "pages_this_scan": 1,
+  "scan_id": "2026-11-23T19:34:34+00:00",
+  "refresh_in_progress": false,
+  "repository_count": 3,
+  "retrieved_at": "2026-11-23T19:34:34+00:00"
+}

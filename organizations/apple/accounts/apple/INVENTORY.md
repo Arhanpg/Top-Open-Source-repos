@@ -1,0 +1,202 @@
+# Apple / apple — repository inventory
+
+- Pagination complete: True
+- Pages in latest scan: 2
+- Repository records: 194
+
+| Repository | Description | Stars | Languages | Archived | Fork | In latest scan | README state | Dossier |
+|---|---|---:|---|---:|---:|---|---|---|
+| [apple/.github](https://github.com/apple/.github) | No description | 5 | Pending | False | False | True | unavailable | [Open](repositories/github-590165204.md) |
+| [apple/app-store-server-library-java](https://github.com/apple/app-store-server-library-java) | The Java server library for the App Store Server API and App Store Server Notifications. | 281 | Java, Lua | False | False | True | captured | [Open](repositories/app-store-server-library-java-647515601.md) |
+| [apple/app-store-server-library-node](https://github.com/apple/app-store-server-library-node) | The Node.js server library for the App Store Server API and App Store Server Notifications. | 388 | JavaScript, Lua, TypeScript | False | False | True | captured | [Open](repositories/app-store-server-library-node-647515890.md) |
+| [apple/app-store-server-library-python](https://github.com/apple/app-store-server-library-python) | The Python server library for the App Store Server API and App Store Server Notifications. | 269 | Lua, Python | False | False | True | captured | [Open](repositories/app-store-server-library-python-647516032.md) |
+| [apple/app-store-server-library-swift](https://github.com/apple/app-store-server-library-swift) | The Swift server library for the App Store Server API and App Store Server Notifications. | 302 | Lua, Swift | False | False | True | captured | [Open](repositories/app-store-server-library-swift-647516197.md) |
+| [apple/apple-ads-platform-api-java](https://github.com/apple/apple-ads-platform-api-java) | A Java client library for the Apple Ads Platform API | 3 | Java, Mustache, Shell | False | False | True | captured | [Open](repositories/apple-ads-platform-api-java-1334323442.md) |
+| [apple/apple-ads-platform-api-node](https://github.com/apple/apple-ads-platform-api-node) | A Node.js / TypeScript client library for the Apple Ads Platform API. | 6 | JavaScript, Mustache, Shell, TypeScript | False | False | True | captured | [Open](repositories/apple-ads-platform-api-node-1235836066.md) |
+| [apple/apple-ads-platform-api-python](https://github.com/apple/apple-ads-platform-api-python) | A Python client library for the Apple Ads Platform API | 34 | Mustache, Python, Shell | False | False | True | captured | [Open](repositories/apple-ads-platform-api-python-1235836801.md) |
+| [apple/apple-ads-platform-api-swift](https://github.com/apple/apple-ads-platform-api-swift) | A Swift client library for the Apple Ads platform API. | 5 | Shell, Swift | False | False | True | captured | [Open](repositories/apple-ads-platform-api-swift-1309241569.md) |
+| [apple/apple-llvm-infrastructure-tools](https://github.com/apple/apple-llvm-infrastructure-tools) | No description | 50 | Awk, C, C++, Makefile, Python, Shell | False | False | True | captured | [Open](repositories/apple-llvm-infrastructure-tools-196327850.md) |
+| [apple/apple-root-program](https://github.com/apple/apple-root-program) | This repository hosts the official policy documentation and public communications for the Apple Root Program. It serves as the authoritative publication point for the Apple Root Program Policy and related materials intended for Certification Authorities, auditors, researchers, and other ecosystem participants. | 43 | Pending | False | False | True | pending | Not generated |
+| [apple/apple_rules_lint](https://github.com/apple/apple_rules_lint) | A framework for adding lint checks to Bazel projects | 146 | Pending | False | False | True | pending | Not generated |
+| [apple/AudioUnit-Examples](https://github.com/apple/AudioUnit-Examples) | AudioUnit Examples | 96 | Pending | False | False | True | pending | Not generated |
+| [apple/AudioUnitSDK](https://github.com/apple/AudioUnitSDK) | AudioUnit SDK | 229 | Pending | False | False | True | pending | Not generated |
+| [apple/axlearn](https://github.com/apple/axlearn) | An Extensible Deep Learning Library | 2386 | Pending | False | False | True | pending | Not generated |
+| [apple/batch-processing-gateway](https://github.com/apple/batch-processing-gateway) | The gateway component to make Spark on K8s much easier for Spark users. | 221 | Pending | True | False | True | pending | Not generated |
+| [apple/ccs-caldavclientlibrary](https://github.com/apple/ccs-caldavclientlibrary) | CalDAV/CardDAV Testing Tool Used by CalendarServer | 45 | Pending | True | False | True | pending | Not generated |
+| [apple/ccs-caldavtester](https://github.com/apple/ccs-caldavtester) | CalDAV/CardDAV Testing Framework used by CalendarServer | 63 | Pending | True | False | True | pending | Not generated |
+| [apple/ccs-calendarserver](https://github.com/apple/ccs-calendarserver) | The Calendar and Contacts Server. | 507 | Pending | True | False | True | pending | Not generated |
+| [apple/ccs-pycalendar](https://github.com/apple/ccs-pycalendar) | Python iCalendar library used by CalendarServer | 73 | Pending | True | False | True | pending | Not generated |
+| [apple/ccs-pykerberos](https://github.com/apple/ccs-pykerberos) | Python Kerberos library used by CalendarServer | 119 | Pending | True | False | True | pending | Not generated |
+| [apple/ccs-pyopendirectory](https://github.com/apple/ccs-pyopendirectory) | Python OpenDirectory library used by CalendarServer | 23 | Pending | True | False | True | pending | Not generated |
+| [apple/ccs-pyosxframeworks](https://github.com/apple/ccs-pyosxframeworks) | Python Framework for macOS APIs used by CalendarServer | 27 | Pending | True | False | True | pending | Not generated |
+| [apple/ccs-pysecuretransport](https://github.com/apple/ccs-pysecuretransport) | Twisted SecureTransport library used by CalendarServer | 23 | Pending | True | False | True | pending | Not generated |
+| [apple/ccs-twistedextensions](https://github.com/apple/ccs-twistedextensions) | Extensions to Twisted used by CalendarServer | 18 | Pending | True | False | True | pending | Not generated |
+| [apple/container](https://github.com/apple/container) | A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. | 52042 | Pending | False | False | True | pending | Not generated |
+| [apple/container-builder-shim](https://github.com/apple/container-builder-shim) | Shim for connecting Swift host code to BuildKit running in a container. | 137 | Pending | False | False | True | pending | Not generated |
+| [apple/container-examples](https://github.com/apple/container-examples) | No description | 16 | Pending | False | False | True | pending | Not generated |
+| [apple/containerization](https://github.com/apple/containerization) | Containerization is a Swift package for running Linux containers on macOS. | 9029 | Pending | False | False | True | pending | Not generated |
+| [apple/coreai-models](https://github.com/apple/coreai-models) | Model export recipes, Python primitives, and Swift runtime utilities for on-device AI | 2374 | Pending | False | False | True | pending | Not generated |
+| [apple/coreai-optimization](https://github.com/apple/coreai-optimization) | A library for PyTorch model compression and optimizations for deployment via Core AI on Apple silicon. | 160 | Pending | False | False | True | pending | Not generated |
+| [apple/coreai-torch](https://github.com/apple/coreai-torch) | Bridges PyTorch and Core AI. Convert existing models to Core AI IR, or author new ones from PyTorch via composite ops, custom op lowerings, and inline Metal GPU kernels. | 186 | Pending | False | False | True | pending | Not generated |
+| [apple/corecrypto](https://github.com/apple/corecrypto) | Apple corecrypto | 411 | Pending | False | False | True | pending | Not generated |
+| [apple/coremltools](https://github.com/apple/coremltools) | Core ML tools contain supporting tools for Core ML model conversion, editing, and validation. | 5457 | Pending | False | False | True | pending | Not generated |
+| [apple/corenet](https://github.com/apple/corenet) | CoreNet: A library for training deep neural networks | 7016 | Pending | False | False | True | pending | Not generated |
+| [apple/creator-studio-doc-format](https://github.com/apple/creator-studio-doc-format) | A Python library for reading, creating, and editing Apple Creator Studio documents, starting with Keynote. | 270 | Pending | False | False | True | pending | Not generated |
+| [apple/cups](https://github.com/apple/cups) | Apple CUPS Sources | 2164 | Pending | True | False | True | pending | Not generated |
+| [apple/darwin-libplatform](https://github.com/apple/darwin-libplatform) | Legacy mirror of  Darwin Platform Library. Replaced by https://github.com/apple-oss-distributions/libplatform | 128 | Pending | True | False | True | pending | Not generated |
+| [apple/darwin-libpthread](https://github.com/apple/darwin-libpthread) | Legacy mirror of Darwin PThread Library. Replaced by https://github.com/apple-oss-distributions/libpthread | 163 | Pending | True | False | True | pending | Not generated |
+| [apple/darwin-xnu](https://github.com/apple/darwin-xnu) | Legacy mirror of Darwin Kernel. Replaced by https://github.com/apple-oss-distributions/xnu | 11271 | Pending | True | False | True | pending | Not generated |
+| [apple/device-management](https://github.com/apple/device-management) | Device management schema data for MDM. | 1019 | Pending | False | False | True | pending | Not generated |
+| [apple/dnikit](https://github.com/apple/dnikit) | A Python toolkit for analyzing machine learning models and datasets. | 79 | Pending | False | False | True | pending | Not generated |
+| [apple/eidas](https://github.com/apple/eidas) | :satellite: :wrench: Tools for reading and creating eIDAS certificate signing requests | 40 | Pending | True | False | True | pending | Not generated |
+| [apple/embedding-atlas](https://github.com/apple/embedding-atlas) | Embedding Atlas is a tool that provides interactive visualizations for large embeddings. It allows you to visualize, cross-filter, and search embeddings and metadata. | 5046 | Pending | False | False | True | pending | Not generated |
+| [apple/example-package-fisheryates](https://github.com/apple/example-package-fisheryates) | Example package for use with the Swift Package Manager | 185 | Pending | True | False | True | pending | Not generated |
+| [apple/FHIRModels](https://github.com/apple/FHIRModels) | Swift library for FHIR® resource data models | 210 | Pending | False | False | True | pending | Not generated |
+| [apple/foundation-models-utilities](https://github.com/apple/foundation-models-utilities) | Emerging and experimental patterns for building with the Foundation Models framework | 579 | Pending | False | False | True | pending | Not generated |
+| [apple/foundationdb](https://github.com/apple/foundationdb) | FoundationDB - the open source, distributed, transactional key-value store | 16870 | Pending | False | False | True | pending | Not generated |
+| [apple/fstools](https://github.com/apple/fstools) | The Filesystem Tools project is a place where the Apple filesystem teams will be publishing some of the tools we use to test the filesystems that are part of macOS. These tools will be useful to developers who are writing new macOS filesystems, or testing macOS network filesystems against their servers. | 72 | Pending | True | False | True | pending | Not generated |
+| [apple/game-center-tools](https://github.com/apple/game-center-tools) | Test your matchmaking rules before running your game using a Python 3 script to execute the App Store Connect APIs. | 11 | Pending | False | False | True | pending | Not generated |
+| [apple/game-porting-toolkit](https://github.com/apple/game-porting-toolkit) | Resources for porting games and engines to Apple platforms | 226 | Pending | False | False | True | pending | Not generated |
+| [apple/GCGC](https://github.com/apple/GCGC) | No description | 457 | Pending | False | False | True | pending | Not generated |
+| [apple/highlightjs-pkl](https://github.com/apple/highlightjs-pkl) | Highlight.js syntax highlighting for Pkl | 10 | Pending | False | False | True | pending | Not generated |
+| [apple/homebrew-apple](https://github.com/apple/homebrew-apple) | No description | 2277 | Pending | False | False | True | pending | Not generated |
+| [apple/HomeKitADK](https://github.com/apple/HomeKitADK) | No description | 2616 | Pending | True | False | True | pending | Not generated |
+| [apple/llvm-monorepo-root](https://github.com/apple/llvm-monorepo-root) | No description | 9 | Pending | True | False | True | pending | Not generated |
+| [apple/llvm-project-v5](https://github.com/apple/llvm-project-v5) | No description | 8 | Pending | True | False | True | pending | Not generated |
+| [apple/llvm-project-v5-split](https://github.com/apple/llvm-project-v5-split) | No description | 7 | Pending | True | False | True | pending | Not generated |
+| [apple/mapkit-loader](https://github.com/apple/mapkit-loader) | Loads Apple MapKit JS script dynamically from Apple MapKit CDN. | 23 | Pending | False | False | True | pending | Not generated |
+| [apple/metal-cpp](https://github.com/apple/metal-cpp) | Metal-cpp is a low-overhead C++ interface for Metal | 162 | Pending | False | False | True | pending | Not generated |
+| [apple/music-feed-examples](https://github.com/apple/music-feed-examples) | No description | 31 | Pending | False | False | True | pending | Not generated |
+| [apple/openjdk](https://github.com/apple/openjdk) | No description | 85 | Pending | True | False | True | pending | Not generated |
+| [apple/pass-builder](https://github.com/apple/pass-builder) | A Swift library and command-line tool for creating, validating, and signing Apple Wallet passes. | 99 | Pending | False | False | True | pending | Not generated |
+| [apple/password-manager-resources](https://github.com/apple/password-manager-resources) | A place for creators and users of password managers to collaborate on resources to make password management better. | 5024 | Pending | False | False | True | pending | Not generated |
+| [apple/pcc-vre-pir-service](https://github.com/apple/pcc-vre-pir-service) | A test server for exercising Private Information Retrieval (PIR) and Visual Lookup (VLU) inside the Private Cloud Compute (PCC) Virtual Research Environment (VRE) | 9 | Pending | False | False | True | pending | Not generated |
+| [apple/pfl-research](https://github.com/apple/pfl-research) | Simulation framework for accelerating research in Private Federated Learning | 357 | Pending | False | False | True | pending | Not generated |
+| [apple/pir-service-example](https://github.com/apple/pir-service-example) | Example PIR service & documentation for Live Caller ID Lookup & NEURLFilter | 222 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl](https://github.com/apple/pkl) | A configuration as code language with rich validation and tooling. | 11586 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-evolution](https://github.com/apple/pkl-evolution) | Suggested Pkl Improvements, Changes, or Enhancements (SPICEs) | 48 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-go](https://github.com/apple/pkl-go) | Pkl bindings for the Go programming language | 338 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-go-examples](https://github.com/apple/pkl-go-examples) | Examples for using Pkl within Go applications | 186 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-intellij](https://github.com/apple/pkl-intellij) | JetBrains editor plugins providing Pkl language support | 81 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-jvm-examples](https://github.com/apple/pkl-jvm-examples) | Examples for using Pkl within JVM applications | 70 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-k8s](https://github.com/apple/pkl-k8s) | Templates for using Pkl with Kubernetes | 150 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-k8s-examples](https://github.com/apple/pkl-k8s-examples) | Examples for using Pkl with Kubernetes | 252 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-lang.org](https://github.com/apple/pkl-lang.org) | The pkl-lang.org website | 93 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-lsp](https://github.com/apple/pkl-lsp) | Language server for Pkl, implementing the server-side of the Language Server Protocol. | 91 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-neovim](https://github.com/apple/pkl-neovim) | Pkl language support for Neovim | 172 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-package-docs](https://github.com/apple/pkl-package-docs) | Documentation for Pkl packages | 19 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-pantry](https://github.com/apple/pkl-pantry) | Shared Pkl packages | 273 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-project-commons](https://github.com/apple/pkl-project-commons) | Internal utility libraries for Pkl | 18 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-readers](https://github.com/apple/pkl-readers) | Shared Pkl external readers | 7 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-spring](https://github.com/apple/pkl-spring) | Spring Boot extension for configuring Boot apps with Pkl | 53 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-swift](https://github.com/apple/pkl-swift) | Pkl bindings for the Swift programming language | 201 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-swift-examples](https://github.com/apple/pkl-swift-examples) | Examples for using Pkl within Swift applications | 88 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-vscode](https://github.com/apple/pkl-vscode) | Pkl language support for VS Code | 155 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl-workshop](https://github.com/apple/pkl-workshop) | No description | 2 | Pending | False | False | True | pending | Not generated |
+| [apple/pkl.tmbundle](https://github.com/apple/pkl.tmbundle) | TextMate bundle for Pkl | 12 | Pending | False | False | True | pending | Not generated |
+| [apple/plugins-for-godot](https://github.com/apple/plugins-for-godot) | Plugins for the Godot game engine on Apple platforms | 104 | Pending | False | False | True | pending | Not generated |
+| [apple/pollianna](https://github.com/apple/pollianna) | No description | 75 | Pending | False | False | True | pending | Not generated |
+| [apple/publicsuffix-list](https://github.com/apple/publicsuffix-list) | The Public Suffix List | 7 | Pending | False | True | True | pending | Not generated |
+| [apple/python-apple-fm-sdk](https://github.com/apple/python-apple-fm-sdk) | Python bindings for access to the on-device model at the core of Apple Intelligence through the Foundation Models framework | 1398 | Pending | False | False | True | pending | Not generated |
+| [apple/reality-composer-pro-plugin](https://github.com/apple/reality-composer-pro-plugin) | No description | 5 | Pending | False | False | True | pending | Not generated |
+| [apple/realitykitscripting](https://github.com/apple/realitykitscripting) | JavaScript bindings for RealityKit with type-safe Swift interoperability | 38 | Pending | False | False | True | pending | Not generated |
+| [apple/rules_pkl](https://github.com/apple/rules_pkl) | Bazel build rules for Pkl | 38 | Pending | False | False | True | pending | Not generated |
+| [apple/rules_servicetalk](https://github.com/apple/rules_servicetalk) | Bazel rules for Servicetalk | 5 | Pending | False | False | True | pending | Not generated |
+| [apple/sample-backyard-birds](https://github.com/apple/sample-backyard-birds) | No description | 614 | Pending | False | False | True | pending | Not generated |
+| [apple/sample-cloudkit-coredatasync](https://github.com/apple/sample-cloudkit-coredatasync) | No description | 199 | Pending | False | False | True | pending | Not generated |
+| [apple/sample-cloudkit-encryption](https://github.com/apple/sample-cloudkit-encryption) | No description | 84 | Pending | False | False | True | pending | Not generated |
+| [apple/sample-cloudkit-privatedb](https://github.com/apple/sample-cloudkit-privatedb) | No description | 155 | Pending | False | False | True | pending | Not generated |
+| [apple/sample-cloudkit-privatedb-sync](https://github.com/apple/sample-cloudkit-privatedb-sync) | No description | 194 | Pending | False | False | True | pending | Not generated |
+| [apple/sample-cloudkit-queries](https://github.com/apple/sample-cloudkit-queries) | No description | 120 | Pending | False | False | True | pending | Not generated |
+| [apple/sample-cloudkit-sharing](https://github.com/apple/sample-cloudkit-sharing) | No description | 334 | Pending | False | False | True | pending | Not generated |
+| [apple/sample-cloudkit-sync-engine](https://github.com/apple/sample-cloudkit-sync-engine) | No description | 270 | Pending | False | False | True | pending | Not generated |
+| [apple/sample-cloudkit-tooling](https://github.com/apple/sample-cloudkit-tooling) | No description | 25 | Pending | False | False | True | pending | Not generated |
+| [apple/sample-cloudkit-zonesharing](https://github.com/apple/sample-cloudkit-zonesharing) | No description | 59 | Pending | False | False | True | pending | Not generated |
+| [apple/sample-fbounds-safety-adoption](https://github.com/apple/sample-fbounds-safety-adoption) | Sample Adoption of the Bounds Safety Extension in C | 6 | Pending | False | False | True | pending | Not generated |
+| [apple/sample-food-truck](https://github.com/apple/sample-food-truck) | SwiftUI sample code from WWDC22 | 1853 | Pending | False | False | True | pending | Not generated |
+| [apple/security-pcc](https://github.com/apple/security-pcc) | Private Cloud Compute (PCC) | 1354 | Pending | False | False | True | pending | Not generated |
+| [apple/servicetalk](https://github.com/apple/servicetalk) | A networking framework that evolves with your application | 1051 | Pending | False | False | True | pending | Not generated |
+| [apple/StreamingSession](https://github.com/apple/StreamingSession) | Streaming immersive content from a CloudXR™ application to visionOS and iOS | 41 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-algorithms](https://github.com/apple/swift-algorithms) | Commonly used sequence and collection algorithms for Swift | 6342 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-argument-parser](https://github.com/apple/swift-argument-parser) | Straightforward, type-safe argument parsing for Swift | 3811 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-asn1](https://github.com/apple/swift-asn1) | An implementation of ASN.1 for Swift | 184 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-async-algorithms](https://github.com/apple/swift-async-algorithms) | Async Algorithms for Swift | 3712 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-async-dns-resolver](https://github.com/apple/swift-async-dns-resolver) | A Swift library for asynchronous DNS requests, wrapping c-ares with Swift-friendly APIs and data structures. | 163 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-atomics](https://github.com/apple/swift-atomics) | Low-level atomic operations for Swift | 1205 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-binary-parsing](https://github.com/apple/swift-binary-parsing) | No description | 393 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-cassandra-client](https://github.com/apple/swift-cassandra-client) | Cassandra client in Swift | 130 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-certificates](https://github.com/apple/swift-certificates) | An implementation of X.509 for Swift | 301 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-clang](https://github.com/apple/swift-clang) | No description | 666 | Pending | True | False | True | pending | Not generated |
+| [apple/swift-clang-tools-extra](https://github.com/apple/swift-clang-tools-extra) | No description | 15 | Pending | True | False | True | pending | Not generated |
+| [apple/swift-cluster-membership](https://github.com/apple/swift-cluster-membership) | Distributed Membership Protocol implementations in Swift | 247 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-collections](https://github.com/apple/swift-collections) | Commonly used data structures for Swift | 4554 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-collections-benchmark](https://github.com/apple/swift-collections-benchmark) | A benchmarking tool for Swift Collection algorithms | 372 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-compiler-rt](https://github.com/apple/swift-compiler-rt) | No description | 96 | Pending | True | False | True | pending | Not generated |
+| [apple/swift-configuration](https://github.com/apple/swift-configuration) | API package for reading configuration. | 826 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-container-plugin](https://github.com/apple/swift-container-plugin) | Build and publish container images using Swift Package Manager | 396 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-crypto](https://github.com/apple/swift-crypto) | Open-source implementation of a substantial portion of the API of Apple CryptoKit suitable for use on all Swift supported platforms. | 1741 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-distributed-actors](https://github.com/apple/swift-distributed-actors) | Peer-to-peer cluster implementation for Swift Distributed Actors | 679 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-distributed-tracing](https://github.com/apple/swift-distributed-tracing) | Instrumentation library for Swift server applications | 328 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-distributed-tracing-baggage-core](https://github.com/apple/swift-distributed-tracing-baggage-core) | Minimal context propagation container | 14 | Pending | True | False | True | pending | Not generated |
+| [apple/swift-distributed-tracing-extras](https://github.com/apple/swift-distributed-tracing-extras) | No description | 36 | Pending | True | False | True | pending | Not generated |
+| [apple/swift-homomorphic-encryption](https://github.com/apple/swift-homomorphic-encryption) | Homomorphic Encryption library and applications in Swift | 664 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-homomorphic-encryption-protobuf](https://github.com/apple/swift-homomorphic-encryption-protobuf) | Protocol buffers definitions for Swift Homomorphic Encryption | 27 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-http-api-proposal](https://github.com/apple/swift-http-api-proposal) | This repository contains a proposal for standardized HTTP client and server APIs for the Swift ecosystem | 71 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-http-structured-headers](https://github.com/apple/swift-http-structured-headers) | A Swift implementation of the HTTP Structured Header Field specification. | 193 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-http-types](https://github.com/apple/swift-http-types) | Version-independent HTTP currency types for Swift | 1040 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-internals](https://github.com/apple/swift-internals) | No description | 179 | Pending | True | False | True | pending | Not generated |
+| [apple/swift-issues](https://github.com/apple/swift-issues) | DO NOT MODIFY ISSUES | 5 | Pending | True | False | True | pending | Not generated |
+| [apple/swift-libcxx](https://github.com/apple/swift-libcxx) | No description | 20 | Pending | True | False | True | pending | Not generated |
+| [apple/swift-llbuild2](https://github.com/apple/swift-llbuild2) | A fresh take on a low-level build system API. | 306 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-lldb](https://github.com/apple/swift-lldb) | This is the version of LLDB that supports the Swift programming language & REPL. | 672 | Pending | True | False | True | pending | Not generated |
+| [apple/swift-llvm](https://github.com/apple/swift-llvm) | No description | 808 | Pending | True | False | True | pending | Not generated |
+| [apple/swift-log](https://github.com/apple/swift-log) | A Logging API for Swift | 4059 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-log-oslog](https://github.com/apple/swift-log-oslog) | A privacy aware Swift Log backend that writes to OSLog. | 33 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-metrics](https://github.com/apple/swift-metrics) | Metrics API for Swift | 796 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-mmio](https://github.com/apple/swift-mmio) | Define and operate on type safe MMIO | 277 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-network-evolution](https://github.com/apple/swift-network-evolution) | Network protocol stack in Swift for transports like QUIC. | 83 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-nio](https://github.com/apple/swift-nio) | Event-driven network application framework for high performance protocol servers & clients, non-blocking. | 8552 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-nio-examples](https://github.com/apple/swift-nio-examples) | examples of how to use swift-nio | 256 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-nio-extras](https://github.com/apple/swift-nio-extras) | Useful code around SwiftNIO. | 251 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-nio-http2](https://github.com/apple/swift-nio-http2) | HTTP/2 support for SwiftNIO | 503 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-nio-http3](https://github.com/apple/swift-nio-http3) | HTTP/3 support for SwiftNIO | 33 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-nio-imap](https://github.com/apple/swift-nio-imap) | A Swift project that provides an implementation of the IMAP4rev1 protocol, built upon SwiftNIO. | 158 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-nio-nghttp2-support](https://github.com/apple/swift-nio-nghttp2-support) | No description | 14 | Pending | True | False | True | pending | Not generated |
+| [apple/swift-nio-oblivious-http](https://github.com/apple/swift-nio-oblivious-http) | Package providing Oblivious HTTP.  Also allows Oblivious encryption of alternative encodings. | 88 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-nio-quic](https://github.com/apple/swift-nio-quic) | QUIC support for SwiftNIO | 58 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-nio-quic-helpers](https://github.com/apple/swift-nio-quic-helpers) | QUIC supporting types for SwiftNIO | 15 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-nio-ssh](https://github.com/apple/swift-nio-ssh) | SwiftNIO SSH is a programmatic implementation of SSH using SwiftNIO | 527 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-nio-ssl](https://github.com/apple/swift-nio-ssl) | TLS Support for SwiftNIO, based on BoringSSL. | 444 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-nio-ssl-support](https://github.com/apple/swift-nio-ssl-support) | No description | 30 | Pending | True | False | True | pending | Not generated |
+| [apple/swift-nio-transport-services](https://github.com/apple/swift-nio-transport-services) | Extensions for SwiftNIO to support Apple platforms as first-class citizens. | 344 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-nio-zlib-support](https://github.com/apple/swift-nio-zlib-support) | No description | 28 | Pending | True | False | True | pending | Not generated |
+| [apple/swift-ntp](https://github.com/apple/swift-ntp) | Swift NTP library using Swift NIO. Provides an NTPClient. | 100 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-numerics](https://github.com/apple/swift-numerics) | Advanced mathematical types and functions for Swift | 1880 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-openapi-generator](https://github.com/apple/swift-openapi-generator) | Generate Swift client and server code from an OpenAPI document. | 2010 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-openapi-runtime](https://github.com/apple/swift-openapi-runtime) | API package for code generated by Swift OpenAPI Generator. | 272 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-openapi-urlsession](https://github.com/apple/swift-openapi-urlsession) | URLSession transport for Swift OpenAPI Generator. | 218 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-play-experimental](https://github.com/apple/swift-play-experimental) | No description | 129 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-profile-recorder](https://github.com/apple/swift-profile-recorder) | No description | 209 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-protobuf](https://github.com/apple/swift-protobuf) | Plugin and runtime library for using protobuf with Swift | 4972 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-protobuf-plugin](https://github.com/apple/swift-protobuf-plugin) | Moved to apple/swift-protobuf | 744 | Pending | True | False | True | pending | Not generated |
+| [apple/swift-protobuf-test-conformance](https://github.com/apple/swift-protobuf-test-conformance) | Plugin for Google's conformance test to verify compatibility of swift-protobuf | 24 | Pending | True | False | True | pending | Not generated |
+| [apple/swift-sample-distributed-actors-transport](https://github.com/apple/swift-sample-distributed-actors-transport) | Distributed actors transport example, for feature review | 101 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-service-context](https://github.com/apple/swift-service-context) | Minimal type-safe context propagation container | 206 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-service-discovery](https://github.com/apple/swift-service-discovery) | A service discovery API for Swift. | 241 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-statsd-client](https://github.com/apple/swift-statsd-client) | metrics backend for swift-metrics that uses the statsd protocol | 70 | Pending | True | False | True | pending | Not generated |
+| [apple/swift-string-processing-benchmarks](https://github.com/apple/swift-string-processing-benchmarks) | No description | 5 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-system](https://github.com/apple/swift-system) | Low-level system calls and types for Swift | 1437 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-system-metrics](https://github.com/apple/swift-system-metrics) | Report process-level system metrics (memory, CPU, file descriptors) to Swift Metrics | 184 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-temporal-sdk](https://github.com/apple/swift-temporal-sdk) | Swift SDK for Temporal | 321 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-tls](https://github.com/apple/swift-tls) | Swift implementation of TLS 1.3 for QUIC. | 101 | Pending | False | False | True | pending | Not generated |
+| [apple/swift-tools-support-async](https://github.com/apple/swift-tools-support-async) | Common infrastructural helpers on top of NIO for llbuild2 and swiftpm-on-llbuild2 projects. This is NOT a general purpose package and is unlikely to ever become stable. | 36 | Pending | False | False | True | pending | Not generated |
+| [apple/swiftpm-on-llbuild2](https://github.com/apple/swiftpm-on-llbuild2) | No description | 41 | Pending | True | False | True | pending | Not generated |
+| [apple/SwiftUsd](https://github.com/apple/SwiftUsd) | A Swift Package for using OpenUSD, Pixar's Universal Scene Description | 88 | Pending | False | False | True | pending | Not generated |
+| [apple/SwiftUsd-ast-answerer](https://github.com/apple/SwiftUsd-ast-answerer) | Code generation tool for SwiftUsd | 10 | Pending | False | False | True | pending | Not generated |
+| [apple/SwiftUsd-Tests](https://github.com/apple/SwiftUsd-Tests) | Unit tests for SwiftUsd | 8 | Pending | False | False | True | pending | Not generated |
+| [apple/tensorflow_macos](https://github.com/apple/tensorflow_macos) | TensorFlow for macOS 11.0+ accelerated using Apple's ML Compute framework. | 3640 | Pending | True | False | True | pending | Not generated |
+| [apple/tree-sitter-pkl](https://github.com/apple/tree-sitter-pkl) | Tree-sitter parser for Pkl | 54 | Pending | False | False | True | pending | Not generated |
+| [apple/truetype-hinting-interpreter-example](https://github.com/apple/truetype-hinting-interpreter-example) | Swift TrueType Interpreter | 159 | Pending | False | False | True | pending | Not generated |
+| [apple/turicreate](https://github.com/apple/turicreate) | Turi Create simplifies the development of custom machine learning models. | 11151 | Pending | True | False | True | pending | Not generated |
+| [apple/unityplugins](https://github.com/apple/unityplugins) | No description | 1000 | Pending | False | False | True | pending | Not generated |
+| [apple/xcode-project-format](https://github.com/apple/xcode-project-format) | A Swift library for reading, writing, and manipulating Xcode's JSON-based project.xcproj format. | 555 | Pending | False | False | True | pending | Not generated |

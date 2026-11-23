@@ -1,0 +1,243 @@
+# Amazon / aws-ia — repository inventory
+
+- Pagination complete: True
+- Pages in latest scan: 3
+- Repository records: 235
+
+| Repository | Description | Stars | Languages | Archived | Fork | In latest scan | README state | Dossier |
+|---|---|---:|---|---:|---:|---|---|---|
+| [aws-ia/.announcements](https://github.com/aws-ia/.announcements) | No description | 2 | Pending | False | False | True | unavailable | [Open](repositories/announcements-866429812.md) |
+| [aws-ia/.github](https://github.com/aws-ia/.github) | Org template | 3 | Pending | False | False | True | captured | [Open](repositories/github-411533239.md) |
+| [aws-ia/addons-transformer-for-amazon-eks](https://github.com/aws-ia/addons-transformer-for-amazon-eks) | Addons Transformer to transform ISV Softwares to EKS Marketplace | 1 | Batchfile, JavaScript, Makefile, Shell, TypeScript | False | True | True | captured | [Open](repositories/addons-transformer-for-amazon-eks-816876526.md) |
+| [aws-ia/aws-ia-documentation-base-common](https://github.com/aws-ia/aws-ia-documentation-base-common) | "Docs 2.1" docs-as-code boilerplate | 18 | CSS, HTML, Shell | False | False | True | captured | [Open](repositories/aws-ia-documentation-base-common-448028246.md) |
+| [aws-ia/cdk-ps-aws-data-fabric-security](https://github.com/aws-ia/cdk-ps-aws-data-fabric-security) | No description | 1 | Dockerfile, HTML, JavaScript, Shell, TypeScript | True | False | True | captured | [Open](repositories/cdk-ps-aws-data-fabric-security-764851445.md) |
+| [aws-ia/cfn-abi-aws-reference-guide](https://github.com/aws-ia/cfn-abi-aws-reference-guide) | No description | 6 | CSS, Dockerfile, HTML, JavaScript, Python, Shell | False | False | True | captured | [Open](repositories/cfn-abi-aws-reference-guide-618583772.md) |
+| [aws-ia/cfn-abi-crowdstrike-fcs](https://github.com/aws-ia/cfn-abi-crowdstrike-fcs) | No description | 6 | CSS, Dockerfile, HTML, Python, Shell | False | False | True | captured | [Open](repositories/cfn-abi-crowdstrike-fcs-627052977.md) |
+| [aws-ia/cfn-abi-deepwatch-mdr](https://github.com/aws-ia/cfn-abi-deepwatch-mdr) | No description | 1 | CSS, Dockerfile, HTML, Python, Shell | False | False | True | captured | [Open](repositories/cfn-abi-deepwatch-mdr-621494914.md) |
+| [aws-ia/cfn-abi-ibmsecurity-qradar](https://github.com/aws-ia/cfn-abi-ibmsecurity-qradar) | No description | 1 | CSS, Dockerfile, HTML, Python, Shell | False | False | True | captured | [Open](repositories/cfn-abi-ibmsecurity-qradar-627052900.md) |
+| [aws-ia/cfn-abi-lacework-polygraph](https://github.com/aws-ia/cfn-abi-lacework-polygraph) | No description | 2 | CSS, Dockerfile, HTML, Python, Shell | False | False | True | captured | [Open](repositories/cfn-abi-lacework-polygraph-621441541.md) |
+| [aws-ia/cfn-abi-spotbynetapp-cloudcheckr](https://github.com/aws-ia/cfn-abi-spotbynetapp-cloudcheckr) | No description | 1 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/cfn-abi-trend-cloudone](https://github.com/aws-ia/cfn-abi-trend-cloudone) | No description | 4 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/cfn-ia-rules](https://github.com/aws-ia/cfn-ia-rules) | Python Package (CFN Lint Rules) | 4 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/cfn-mp-ql-rules](https://github.com/aws-ia/cfn-mp-ql-rules) | Custom cfn-lint ruleset | 3 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-aerospike](https://github.com/aws-ia/cfn-ps-aerospike) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-amazon-aurora-mysql](https://github.com/aws-ia/cfn-ps-amazon-aurora-mysql) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-amazon-aurora-postgresql](https://github.com/aws-ia/cfn-ps-amazon-aurora-postgresql) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-amazon-rds](https://github.com/aws-ia/cfn-ps-amazon-rds) | No description | 7 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-amazon-redshift](https://github.com/aws-ia/cfn-ps-amazon-redshift) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-amazon-selling-partner-api](https://github.com/aws-ia/cfn-ps-amazon-selling-partner-api) | No description | 6 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-amazon-selling-partner-api-reports-notifications](https://github.com/aws-ia/cfn-ps-amazon-selling-partner-api-reports-notifications) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-amazon-vpc-traffic-mirroring](https://github.com/aws-ia/cfn-ps-amazon-vpc-traffic-mirroring) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-ammos-smallsat-toolkit](https://github.com/aws-ia/cfn-ps-ammos-smallsat-toolkit) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-apache-rocketmq](https://github.com/aws-ia/cfn-ps-apache-rocketmq) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-apache-superset](https://github.com/aws-ia/cfn-ps-apache-superset) | No description | 19 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-autodesk-forge](https://github.com/aws-ia/cfn-ps-autodesk-forge) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-aws-acm-certificate](https://github.com/aws-ia/cfn-ps-aws-acm-certificate) | No description | 1 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-aws-amb-fabric](https://github.com/aws-ia/cfn-ps-aws-amb-fabric) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-aws-dms-automation](https://github.com/aws-ia/cfn-ps-aws-dms-automation) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-aws-ec2-sitecore-xp](https://github.com/aws-ia/cfn-ps-aws-ec2-sitecore-xp) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-aws-vpc](https://github.com/aws-ia/cfn-ps-aws-vpc) | No description | 12 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-bim360-integration](https://github.com/aws-ia/cfn-ps-bim360-integration) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-boomi-atom](https://github.com/aws-ia/cfn-ps-boomi-atom) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-boomi-molecule](https://github.com/aws-ia/cfn-ps-boomi-molecule) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-brillio-aws-service-catalog-amazon-sagemaker](https://github.com/aws-ia/cfn-ps-brillio-aws-service-catalog-amazon-sagemaker) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-chainlinklabs-chainlink-node](https://github.com/aws-ia/cfn-ps-chainlinklabs-chainlink-node) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-checkpoint-autoscale](https://github.com/aws-ia/cfn-ps-checkpoint-autoscale) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-cherwell](https://github.com/aws-ia/cfn-ps-cherwell) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-cisco-asav-ravpn](https://github.com/aws-ia/cfn-ps-cisco-asav-ravpn) | No description | 4 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-cisco-duo-network-gateway](https://github.com/aws-ia/cfn-ps-cisco-duo-network-gateway) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-cisco-ise-on-aws](https://github.com/aws-ia/cfn-ps-cisco-ise-on-aws) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-cisco-meraki-vmx-cloudwan](https://github.com/aws-ia/cfn-ps-cisco-meraki-vmx-cloudwan) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-citrix-daas](https://github.com/aws-ia/cfn-ps-citrix-daas) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-clickhouse-cluster](https://github.com/aws-ia/cfn-ps-clickhouse-cluster) | No description | 12 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-cloud-storage-security-antivirus-for-s3](https://github.com/aws-ia/cfn-ps-cloud-storage-security-antivirus-for-s3) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-cmmc-microsoft-activedirectory](https://github.com/aws-ia/cfn-ps-cmmc-microsoft-activedirectory) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-codepipeline-bluegreen-deployment](https://github.com/aws-ia/cfn-ps-codepipeline-bluegreen-deployment) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-compliance-pci-fsbp-remediation](https://github.com/aws-ia/cfn-ps-compliance-pci-fsbp-remediation) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-connect-integration-aspect-wfm](https://github.com/aws-ia/cfn-ps-connect-integration-aspect-wfm) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-connect-integration-deloitte-truevoice](https://github.com/aws-ia/cfn-ps-connect-integration-deloitte-truevoice) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-connect-integration-dialogtech](https://github.com/aws-ia/cfn-ps-connect-integration-dialogtech) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-connect-integration-perficient-msdynamics](https://github.com/aws-ia/cfn-ps-connect-integration-perficient-msdynamics) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-connect-integration-servicenow-itsm](https://github.com/aws-ia/cfn-ps-connect-integration-servicenow-itsm) | No description | 3 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-crest-infosolutions-cloudmeet](https://github.com/aws-ia/cfn-ps-crest-infosolutions-cloudmeet) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-cribl-cloudtrail](https://github.com/aws-ia/cfn-ps-cribl-cloudtrail) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-cribl-logstream](https://github.com/aws-ia/cfn-ps-cribl-logstream) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-cribl-stream-privatelink-ami](https://github.com/aws-ia/cfn-ps-cribl-stream-privatelink-ami) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-ct-newrelic-one](https://github.com/aws-ia/cfn-ps-ct-newrelic-one) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-ct-trend-micro-cloud-one-conformity](https://github.com/aws-ia/cfn-ps-ct-trend-micro-cloud-one-conformity) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-darktrace-vsensor](https://github.com/aws-ia/cfn-ps-darktrace-vsensor) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-databricks-unified-data-analytics-platform](https://github.com/aws-ia/cfn-ps-databricks-unified-data-analytics-platform) | No description | 4 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-datalake-foundation](https://github.com/aws-ia/cfn-ps-datalake-foundation) | No description | 4 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-datastax-oss](https://github.com/aws-ia/cfn-ps-datastax-oss) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-docker](https://github.com/aws-ia/cfn-ps-docker) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-dotnet-devenvironment-setup](https://github.com/aws-ia/cfn-ps-dotnet-devenvironment-setup) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-dotnet-lambda-cicd](https://github.com/aws-ia/cfn-ps-dotnet-lambda-cicd) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-dotnet-serverless-cicd](https://github.com/aws-ia/cfn-ps-dotnet-serverless-cicd) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-dotnetcore-cicd](https://github.com/aws-ia/cfn-ps-dotnetcore-cicd) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-dotnetfx-ecs-cicd](https://github.com/aws-ia/cfn-ps-dotnetfx-ecs-cicd) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-duo-mfa](https://github.com/aws-ia/cfn-ps-duo-mfa) | No description | 4 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-eks-mulesoft-runtime-fabric](https://github.com/aws-ia/cfn-ps-eks-mulesoft-runtime-fabric) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-f5-big-ip-virtual-edition-ha](https://github.com/aws-ia/cfn-ps-f5-big-ip-virtual-edition-ha) | No description | 3 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-freeradius-mfa-workspaces](https://github.com/aws-ia/cfn-ps-freeradius-mfa-workspaces) | No description | 4 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-fsx-windows-file-server](https://github.com/aws-ia/cfn-ps-fsx-windows-file-server) | No description | 3 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-general-dynamics-information-technology-luna-ai](https://github.com/aws-ia/cfn-ps-general-dynamics-information-technology-luna-ai) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-git2s3](https://github.com/aws-ia/cfn-ps-git2s3) | No description | 5 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-github-enterprise](https://github.com/aws-ia/cfn-ps-github-enterprise) | No description | 3 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-hashicorp-consul](https://github.com/aws-ia/cfn-ps-hashicorp-consul) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-hashicorp-nomad](https://github.com/aws-ia/cfn-ps-hashicorp-nomad) | No description | 5 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-hashicorp-vault](https://github.com/aws-ia/cfn-ps-hashicorp-vault) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-hvr](https://github.com/aws-ia/cfn-ps-hvr) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-ibm-cloud-pak-for-security](https://github.com/aws-ia/cfn-ps-ibm-cloud-pak-for-security) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-ibm-liberty-eks](https://github.com/aws-ia/cfn-ps-ibm-liberty-eks) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-ibm-mq](https://github.com/aws-ia/cfn-ps-ibm-mq) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-ibm-security-guardium-insights](https://github.com/aws-ia/cfn-ps-ibm-security-guardium-insights) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-illumina-dragen](https://github.com/aws-ia/cfn-ps-illumina-dragen) | No description | 4 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-inductive-automation-ignition](https://github.com/aws-ia/cfn-ps-inductive-automation-ignition) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-intersystems-iris](https://github.com/aws-ia/cfn-ps-intersystems-iris) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-iridium-cloudconnect-sbd](https://github.com/aws-ia/cfn-ps-iridium-cloudconnect-sbd) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-jfrog-artifactory](https://github.com/aws-ia/cfn-ps-jfrog-artifactory) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-jfrog-saas-log-collector](https://github.com/aws-ia/cfn-ps-jfrog-saas-log-collector) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-linux-bastion](https://github.com/aws-ia/cfn-ps-linux-bastion) | No description | 18 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-liquibase-pro](https://github.com/aws-ia/cfn-ps-liquibase-pro) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-microfocus-amc-es](https://github.com/aws-ia/cfn-ps-microfocus-amc-es) | No description | 4 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-microsoft-dedicated-host](https://github.com/aws-ia/cfn-ps-microsoft-dedicated-host) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-microsoft-exchange](https://github.com/aws-ia/cfn-ps-microsoft-exchange) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-microsoft-iis](https://github.com/aws-ia/cfn-ps-microsoft-iis) | No description | 4 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-microsoft-pki](https://github.com/aws-ia/cfn-ps-microsoft-pki) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-microsoft-rdgateway](https://github.com/aws-ia/cfn-ps-microsoft-rdgateway) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-microsoft-sql-fci-fsx](https://github.com/aws-ia/cfn-ps-microsoft-sql-fci-fsx) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-microsoft-utilities](https://github.com/aws-ia/cfn-ps-microsoft-utilities) | Mirror of https://github.com/aws-quickstart/quickstart-microsoft-utilities | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-microsoft-wapadfs](https://github.com/aws-ia/cfn-ps-microsoft-wapadfs) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-microsoft-wsus](https://github.com/aws-ia/cfn-ps-microsoft-wsus) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-mongodb-atlas](https://github.com/aws-ia/cfn-ps-mongodb-atlas) | No description | 4 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-mongodb-atlas-analytics-amazon-sagemaker-integration](https://github.com/aws-ia/cfn-ps-mongodb-atlas-analytics-amazon-sagemaker-integration) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-mongodb-atlas-mean-stack-aws-fargate-integration](https://github.com/aws-ia/cfn-ps-mongodb-atlas-mean-stack-aws-fargate-integration) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-neo4j](https://github.com/aws-ia/cfn-ps-neo4j) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-new-relic-tdp](https://github.com/aws-ia/cfn-ps-new-relic-tdp) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-okta-asa](https://github.com/aws-ia/cfn-ps-okta-asa) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-poly-ccp](https://github.com/aws-ia/cfn-ps-poly-ccp) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-progress-openedge](https://github.com/aws-ia/cfn-ps-progress-openedge) | No description | 3 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-qingcloud-kubesphere](https://github.com/aws-ia/cfn-ps-qingcloud-kubesphere) | No description | 3 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-quantiphi-lex-kendra-backend](https://github.com/aws-ia/cfn-ps-quantiphi-lex-kendra-backend) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-qumulo-cloud-q](https://github.com/aws-ia/cfn-ps-qumulo-cloud-q) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-red-hat-rhel-with-ha](https://github.com/aws-ia/cfn-ps-red-hat-rhel-with-ha) | No description | 3 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-salesforce-connect-appsync-rds-postgresql](https://github.com/aws-ia/cfn-ps-salesforce-connect-appsync-rds-postgresql) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-sios-datakeeper](https://github.com/aws-ia/cfn-ps-sios-datakeeper) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-sios-protection-suite](https://github.com/aws-ia/cfn-ps-sios-protection-suite) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-snyk-security](https://github.com/aws-ia/cfn-ps-snyk-security) | No description | 4 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-solace-pubsubplus](https://github.com/aws-ia/cfn-ps-solace-pubsubplus) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-splunk-enterprise](https://github.com/aws-ia/cfn-ps-splunk-enterprise) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-starrocks-starrocks](https://github.com/aws-ia/cfn-ps-starrocks-starrocks) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-sudo-consultants-serverless-wordpress](https://github.com/aws-ia/cfn-ps-sudo-consultants-serverless-wordpress) | No description | 4 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-sumo-logic-cloudsiem](https://github.com/aws-ia/cfn-ps-sumo-logic-cloudsiem) | No description | 5 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-sumo-logic-log-centralization](https://github.com/aws-ia/cfn-ps-sumo-logic-log-centralization) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-superwerker](https://github.com/aws-ia/cfn-ps-superwerker) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-tableau-sagemaker](https://github.com/aws-ia/cfn-ps-tableau-sagemaker) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-tableau-server](https://github.com/aws-ia/cfn-ps-tableau-server) | No description | 4 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-taskcat-ci](https://github.com/aws-ia/cfn-ps-taskcat-ci) | No description | 4 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-thousandeyes-amazon-connect](https://github.com/aws-ia/cfn-ps-thousandeyes-amazon-connect) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-tmax-tibero](https://github.com/aws-ia/cfn-ps-tmax-tibero) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-trendmicro-deepsecurity](https://github.com/aws-ia/cfn-ps-trendmicro-deepsecurity) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-uipath-automation-suite](https://github.com/aws-ia/cfn-ps-uipath-automation-suite) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-uipath-orchestrator](https://github.com/aws-ia/cfn-ps-uipath-orchestrator) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-uipath-robot](https://github.com/aws-ia/cfn-ps-uipath-robot) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-vesoft-nebula-graph-cloud](https://github.com/aws-ia/cfn-ps-vesoft-nebula-graph-cloud) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-ps-vmware-tanzu-application-platform](https://github.com/aws-ia/cfn-ps-vmware-tanzu-application-platform) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cloudformation-aws-marketplace-saas](https://github.com/aws-ia/cloudformation-aws-marketplace-saas) | AWS Marketplace Build Tools | 28 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cloudformation-base-eks](https://github.com/aws-ia/cloudformation-base-eks) | No description | 10 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cloudformation-bigid-resource-providers](https://github.com/aws-ia/cloudformation-bigid-resource-providers) | BigID CFN Registry resource | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cloudformation-cloudflare-resource-providers](https://github.com/aws-ia/cloudformation-cloudflare-resource-providers) | Cloudflare CFN Registry resource | 13 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cloudformation-databricks-resource-providers](https://github.com/aws-ia/cloudformation-databricks-resource-providers) | DataBricks CFN Registry resource | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cloudformation-dynatrace-resource-providers](https://github.com/aws-ia/cloudformation-dynatrace-resource-providers) | Dynatrace CFN Registry resource | 6 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cloudformation-fastly-resource-providers](https://github.com/aws-ia/cloudformation-fastly-resource-providers) | Fastly CFN Registry resource | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cloudformation-github-resource-providers](https://github.com/aws-ia/cloudformation-github-resource-providers) | GitHub CFN Registry resource | 22 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cloudformation-gitlab-resource-providers](https://github.com/aws-ia/cloudformation-gitlab-resource-providers) | GitLab CFN Registry resource | 4 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cloudformation-laceworks-resource-providers](https://github.com/aws-ia/cloudformation-laceworks-resource-providers) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cloudformation-newrelic-resource-providers](https://github.com/aws-ia/cloudformation-newrelic-resource-providers) | NewRelic CFN Registry resource | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cloudformation-okta-resource-providers](https://github.com/aws-ia/cloudformation-okta-resource-providers) | Okta CFN Registry resource | 3 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cloudformation-pagerduty-resource-providers](https://github.com/aws-ia/cloudformation-pagerduty-resource-providers) | PagerDuty CFN Registry resource | 9 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cloudformation-rollbar-resource-providers](https://github.com/aws-ia/cloudformation-rollbar-resource-providers) | No description | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cloudformation-snowflake-resource-providers](https://github.com/aws-ia/cloudformation-snowflake-resource-providers) | SnowFlake CFN Registry resource | 6 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cloudformation-tines-guardduty](https://github.com/aws-ia/cloudformation-tines-guardduty) | Tines for Amazon GuardDuty AWS Partner Solution | 1 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/cloudformation-vmware-resource-providers](https://github.com/aws-ia/cloudformation-vmware-resource-providers) | cloudformation-vmware-resource-provider | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/copier-terraform-repo-template](https://github.com/aws-ia/copier-terraform-repo-template) | No description | 17 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/ecs-blueprints](https://github.com/aws-ia/ecs-blueprints) | Configure and deploy complete ECS solutions with Terraform or CDK | 302 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/ecs-consul-mesh-extension](https://github.com/aws-ia/ecs-consul-mesh-extension) | Amazon ECS Hashicorp Consul extension | 2 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/lambda-copyzips](https://github.com/aws-ia/lambda-copyzips) | No description | 0 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/pre-commit-configs](https://github.com/aws-ia/pre-commit-configs) | No description | 12 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/pre-commit-hooks](https://github.com/aws-ia/pre-commit-hooks) | Custom pre-commit hooks | 5 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/pre-commit-terraform](https://github.com/aws-ia/pre-commit-terraform) | pre-commit git hooks to take care of Terraform configurations | 5 | Pending | True | True | True | pending | Not generated |
+| [aws-ia/seller-code-submission-workshop](https://github.com/aws-ia/seller-code-submission-workshop) | No description | 1 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/standards-terraform](https://github.com/aws-ia/standards-terraform) | AWS I&A Terraform Module Standards | 21 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/taskcat](https://github.com/aws-ia/taskcat) | Test all the CloudFormation things! (with TaskCat) | 1204 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-adobe-magento](https://github.com/aws-ia/terraform-adobe-magento) | Adobe Magento | 30 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-agentcore](https://github.com/aws-ia/terraform-aws-agentcore) | No description | 25 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-amazon-vpc-lattice-module](https://github.com/aws-ia/terraform-aws-amazon-vpc-lattice-module) | No description | 14 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-amazonconnect](https://github.com/aws-ia/terraform-aws-amazonconnect) | Amazon Connect | 17 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-amplify-app](https://github.com/aws-ia/terraform-aws-amplify-app) | No description | 1 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-bedrock](https://github.com/aws-ia/terraform-aws-bedrock) | Amazon Bedrock module for generative AI applications available on the Terraform registry. | 88 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-cloudwan](https://github.com/aws-ia/terraform-aws-cloudwan) | AWS Terraform Module for creating AWS CloudWAN | 20 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-cloudwatch-log-group](https://github.com/aws-ia/terraform-aws-cloudwatch-log-group) | No description | 3 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-codebuild](https://github.com/aws-ia/terraform-aws-codebuild) | AWS CodeBuild Module | 10 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-control_tower_account_factory](https://github.com/aws-ia/terraform-aws-control_tower_account_factory) | AWS Control Tower Account Factory | 824 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-datasync](https://github.com/aws-ia/terraform-aws-datasync) | No description | 10 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-ec2-image-builder](https://github.com/aws-ia/terraform-aws-ec2-image-builder) | Terraform module for EC2 Image Builder | 25 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-ecs-cluster](https://github.com/aws-ia/terraform-aws-ecs-cluster) | AWS ECS | 6 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-ecs-fargate](https://github.com/aws-ia/terraform-aws-ecs-fargate) | AWS ECS Fargate Module | 29 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-eks-ack-addons](https://github.com/aws-ia/terraform-aws-eks-ack-addons) | Terraform AWS module which provisions ACK addons on EKS | 54 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-eks-blueprints](https://github.com/aws-ia/terraform-aws-eks-blueprints) | Configure and deploy complete EKS clusters. | 3045 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-eks-blueprints-addon](https://github.com/aws-ia/terraform-aws-eks-blueprints-addon) | Terraform AWS module which creates an EKS addon (helm release + IRSA) | 78 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-eks-blueprints-addons](https://github.com/aws-ia/terraform-aws-eks-blueprints-addons) | Terraform module which provisions addons on Amazon EKS clusters | 402 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-eks-blueprints-teams](https://github.com/aws-ia/terraform-aws-eks-blueprints-teams) | Configure and deploy Team based multi-tenant EKS clusters. | 58 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-eks-data-addons](https://github.com/aws-ia/terraform-aws-eks-data-addons) | Terraform Module: Deploy Data/ML Addons Helm Charts on EKS 🚀 | 46 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-genai-document-ingestion-rag](https://github.com/aws-ia/terraform-aws-genai-document-ingestion-rag) | RAG ingestion pipeline module with Amazon OpenSearch and Bedrock | 12 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-globalnetwork](https://github.com/aws-ia/terraform-aws-globalnetwork) | AWS Global Network Module | 26 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-guardduty](https://github.com/aws-ia/terraform-aws-guardduty) | Configure and deploy AWS GuardDuty. | 13 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-iam-identity-center](https://github.com/aws-ia/terraform-aws-iam-identity-center) | No description | 88 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-ipam](https://github.com/aws-ia/terraform-aws-ipam) | Terraform Module for create AWS IPAM Resources | 59 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-label](https://github.com/aws-ia/terraform-aws-label) | AWS Label Module | 42 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-lambda-layer-builder](https://github.com/aws-ia/terraform-aws-lambda-layer-builder) | No description | 2 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-lambda-power-tuning](https://github.com/aws-ia/terraform-aws-lambda-power-tuning) | No description | 5 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-mendix-private-cloud](https://github.com/aws-ia/terraform-aws-mendix-private-cloud) | This AWS Partner Solution uses Terraform to deploy a Mendix infrastructure in the AWS Cloud. | 17 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-mwaa](https://github.com/aws-ia/terraform-aws-mwaa) | Terraform module for Amazon MWAA(Apache Airflow) | 58 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-network-hubandspoke](https://github.com/aws-ia/terraform-aws-network-hubandspoke) | No description | 35 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-networkfirewall](https://github.com/aws-ia/terraform-aws-networkfirewall) | Terraform module to deploy AWS Network Firewall | 18 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-opensearch-serverless](https://github.com/aws-ia/terraform-aws-opensearch-serverless) | Amazon OpenSearch Serverless module available on the Terraform registry. | 8 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-paloalto-vmseries](https://github.com/aws-ia/terraform-aws-paloalto-vmseries) | No description | 13 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-permission-sets](https://github.com/aws-ia/terraform-aws-permission-sets) | No description | 13 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-polygon-technology-edge](https://github.com/aws-ia/terraform-aws-polygon-technology-edge) | Polygon Edge Terraform module for building Ethereum-compatible blockchain networks in the AWS Cloud | 23 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-rds-aurora](https://github.com/aws-ia/terraform-aws-rds-aurora) | AWS RDS Aurora Module | 30 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-rds-custom-for-oracle](https://github.com/aws-ia/terraform-aws-rds-custom-for-oracle) | No description | 7 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-redshift-copy-udf](https://github.com/aws-ia/terraform-aws-redshift-copy-udf) | No description | 2 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-resilience-hub](https://github.com/aws-ia/terraform-aws-resilience-hub) | No description | 3 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-resiliencehub-app](https://github.com/aws-ia/terraform-aws-resiliencehub-app) | AWS Resilience Hub via Terraform to manage the resilience of your applications | 5 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-route53-recovery-controller](https://github.com/aws-ia/terraform-aws-route53-recovery-controller) | Terraform Module to deploy Route53 Application Recovery Controller components | 23 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-runtask-iam-access-analyzer](https://github.com/aws-ia/terraform-aws-runtask-iam-access-analyzer) | No description | 21 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-runtask-tf-plan-analyzer](https://github.com/aws-ia/terraform-aws-runtask-tf-plan-analyzer) | Terraform plan analyzer using Amazon Bedrock | 57 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-sagemaker-endpoint](https://github.com/aws-ia/terraform-aws-sagemaker-endpoint) | No description | 4 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-sagemaker-unified-studio](https://github.com/aws-ia/terraform-aws-sagemaker-unified-studio) | No description | 10 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-sce-core](https://github.com/aws-ia/terraform-aws-sce-core) | No description | 3 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-sce-tf-community](https://github.com/aws-ia/terraform-aws-sce-tf-community) | No description | 16 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-security-hub](https://github.com/aws-ia/terraform-aws-security-hub) | Configure and deploy AWS Security Hub. | 17 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-serverless-streamlit-app](https://github.com/aws-ia/terraform-aws-serverless-streamlit-app) | No description | 27 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-shield-advanced](https://github.com/aws-ia/terraform-aws-shield-advanced) | Configure and deploy Amazon Shield Advanced | 7 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-storagegateway](https://github.com/aws-ia/terraform-aws-storagegateway) | No description | 15 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-swift-digital-connectivity](https://github.com/aws-ia/terraform-aws-swift-digital-connectivity) | The Terraform version of the SWIFT Client Connectivity solution | 2 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-tf-cloud-agents](https://github.com/aws-ia/terraform-aws-tf-cloud-agents) | Creates self-hosted Terraform Cloud Agent on AWS (https://registry.terraform.io/modules/aws-ia/tf-cloud-agents/aws/latest) | 9 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-transfer-family](https://github.com/aws-ia/terraform-aws-transfer-family) | No description | 32 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-vpc](https://github.com/aws-ia/terraform-aws-vpc) | AWS VPC Module | 114 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-aws-vpc_endpoints](https://github.com/aws-ia/terraform-aws-vpc_endpoints) | Terraform AWS VPC endpoints module | 6 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-awscc-dropshare](https://github.com/aws-ia/terraform-awscc-dropshare) | Terraform Module to create resources for a Dropshare Connection with AWS S3 and AWS CloudFront. | 5 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-awscc-refactorspaces](https://github.com/aws-ia/terraform-awscc-refactorspaces) | Refactor Spaces Terraform Module | 0 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-boomi-kubernetes-molecule](https://github.com/aws-ia/terraform-boomi-kubernetes-molecule) | No description | 2 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-cisco-secure-firewall](https://github.com/aws-ia/terraform-cisco-secure-firewall) | No description | 0 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-cloudera-cdp](https://github.com/aws-ia/terraform-cloudera-cdp) | This Amazon Web Services (AWS) Partner Solution uses a Terraform module to deploy Cloudera Data Platform (CDP) in the AWS Cloud. | 3 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-elastic-cloud](https://github.com/aws-ia/terraform-elastic-cloud) | Terraform module automates Elastic Cloud deployment and optional data migration to the AWS Cloud. | 20 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-hashicorp-cloud_workspace](https://github.com/aws-ia/terraform-hashicorp-cloud_workspace) | Terraform Cloud Workspace | 6 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-hashicorp-cts-alb_listener-nia](https://github.com/aws-ia/terraform-hashicorp-cts-alb_listener-nia) | No description | 2 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-prefect-agent-ec2](https://github.com/aws-ia/terraform-prefect-agent-ec2) | Terraform module for deploying the Prefect Agent on AWS EC2 | 12 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-repo-template](https://github.com/aws-ia/terraform-repo-template) | Terraform Module Template | 68 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-tfe-workspace-orchestrator](https://github.com/aws-ia/terraform-tfe-workspace-orchestrator) | A module for deploying terraform code to Terraform Cloud Workspaces | 6 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-vsphere-content-library](https://github.com/aws-ia/terraform-vsphere-content-library) | The vSphere content library Terraform module either creates or imports a content library as well as a list of items in your VMware Cloud on AWS or VMware vSphere on-premises environment, and then outputs the configuration of each for use in other Terraform projects. | 2 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/terraform-vsphere-tags](https://github.com/aws-ia/terraform-vsphere-tags) | The vSphere tags Terraform module either creates or imports a tag category as well as a list of tags in your VMware Cloud on AWS or VMware vSphere on-premises environment, and then outputs the configuration of each for use in other Terraform projects. | 4 | Pending | False | False | True | pending | Not generated |
+| [aws-ia/workshop-taskcat](https://github.com/aws-ia/workshop-taskcat) | In this workshop, we cover AWS CloudFormation best practices, tips on authoring AAA templates, and hands-on building of a CI/CD pipeline to validate templates before they are published. | 3 | Pending | False | False | True | pending | Not generated |
