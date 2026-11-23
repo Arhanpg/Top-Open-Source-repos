@@ -33,3 +33,18 @@ Do not treat this file as exhaustive until the full public repository listing fo
 | Repository brief | Upstream | Purpose | Review status |
 |---|---|---|---|
 | [FlatBuffers](flatbuffers.md) | [https://github.com/google/flatbuffers](https://github.com/google/flatbuffers) | FlatBuffers is a cross-platform serialization library designed for memory efficiency. Its central feature is allowing applications to access serialized data directly without first parsing or unpacking it, while retaining forward and backward compatibility across schema versions. | README reviewed |
+
+
+## Additional Google Cloud account discovery — 24 November 2026
+
+No manually interpreted project dossier has yet been added for the separate Google Cloud account. Google's official Cloud documentation links to public code samples in [GoogleCloudPlatform](https://github.com/GoogleCloudPlatform), including:
+
+| Example repository | Language / purpose |
+|---|---|
+| [python-docs-samples](https://github.com/GoogleCloudPlatform/python-docs-samples) | Python code samples used on cloud.google.com |
+| [golang-samples](https://github.com/GoogleCloudPlatform/golang-samples) | Go sample applications for Google Cloud |
+| [nodejs-docs-samples](https://github.com/GoogleCloudPlatform/nodejs-docs-samples) | Node.js code samples |
+| [java-docs-samples](https://github.com/GoogleCloudPlatform/java-docs-samples) | Java/Kotlin samples |
+| [dotnet-docs-samples](https://github.com/GoogleCloudPlatform/dotnet-docs-samples) | .NET code samples |
+
+These projects are maintained in a separate GitHub account and must be paginated independently from `google`.

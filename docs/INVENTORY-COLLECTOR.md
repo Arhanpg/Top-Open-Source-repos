@@ -170,3 +170,8 @@ SAP's verified GitHub profile lists ten additional dedicated organizations; thes
 ## Baidu and Tencent account verification
 
 Baidu and Tencent primary GitHub organizations have now been verified by GitHub against their company open-source domains. Baidu's verified profile explicitly names PaddlePaddle, ApolloAuto and XuperChain as affiliated organizations; these use the separate `official-project-linked` status. Baidu AI Cloud is not mapped as a standalone GitHub login because a public account handle could not be confirmed. Tencent's primary account is verified; further product or subsidiary accounts still require explicit source links.
+
+
+## Google Cloud project account
+
+Google Cloud documentation links to code samples in a separate GitHub account, `GoogleCloudPlatform`. It is mapped with `official-project-linked` and inventoried separately from the primary `google` account. See [Google Account Discovery](../organizations/alphabet-google/ACCOUNT-DISCOVERY.md).

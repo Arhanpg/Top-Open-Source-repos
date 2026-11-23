@@ -237,3 +237,8 @@ Five additional detailed project dossiers are now indexed: [PaddleOCR](organizat
 ## Latest catalogue status — 24 November 2026
 
 The company mapping now contains 205 rows and 63 inventory-eligible GitHub accounts. The first live inventory baseline is still 25,965 repositories across the original 34 accounts; additional accounts need their own committed pagination before a new combined total is stated. The manually interpreted catalogue now contains 61 project dossiers across Microsoft, Google, Apple, NVIDIA, Amazon/AWS, Baidu and Tencent. See [the account discovery and inventory status](docs/ACCOUNT-DISCOVERY-STATUS-2026-11-24.md).
+
+
+## Google Cloud account expansion — 24 November 2026
+
+Google Cloud's official documentation links language-specific sample repositories under the separate [GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) GitHub account. It is now mapped as `official-project-linked` and will be paginated independently from `google`. The inventory-eligible mapping has increased to **64 accounts**.

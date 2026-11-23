@@ -2,17 +2,17 @@
 
 ## Current mapping totals
 
-The mapping CSV contains **205 account rows**:
+The mapping CSV contains **206 account rows**:
 
 | Mapping class | Accounts | Meaning |
 |---|---:|---|
 | Directly verified primary accounts | 9 | Five initial primary accounts plus SAP, Siemens, Baidu and Tencent, whose GitHub organizations are verified |
 | Official-directory-listed | 39 | 29 AWS accounts plus 10 dedicated SAP organizations named by SAP's verified GitHub profile |
-| Official-project-linked | 15 | Five NVIDIA, three Microsoft, two Apple, two Siemens and three Baidu-affiliated project accounts |
+| Official-project-linked | 16 | Five NVIDIA, three Microsoft, two Apple, two Siemens, three Baidu-affiliated and one Google Cloud project accounts |
 | Candidate / unverified / relationship pending | 146 | Remaining source-list mappings that require company-controlled evidence |
-| **Total mapping rows** | **205** | Includes the 151 original company-source rows plus 34 secondary-account rows |
+| **Total mapping rows** | **206** | Includes the 151 original company-source rows plus 34 secondary-account rows |
 
-**Inventory-eligible mappings:** 63 accounts (9 directly verified + 39 official-directory-listed + 15 official-project-linked).
+**Inventory-eligible mappings:** 64 accounts (9 directly verified + 39 official-directory-listed + 16 official-project-linked).
 
 ## Inventory completion state
 
@@ -72,3 +72,8 @@ Baidu and Tencent primary organizations were promoted to directly verified using
 ## Manual README interpretation update — 24 November 2026
 
 Five further READMEs were manually interpreted from Baidu-affiliated and Tencent repositories: PaddleOCR, Apollo, XuperChain, WeKnora and ncnn. The curated project-dossier total is now **61**. This is a selected technical-documentation set, not a manual audit of all enumerated repositories.
+
+
+## Google Cloud account amendment — 24 November 2026
+
+Google Cloud's company-controlled documentation links multiple language sample repositories under the separate `GoogleCloudPlatform` GitHub account. It has been added with `official-project-linked`. The mapping now contains 206 rows and 64 inventory-eligible accounts; the first 34-account repository total does not include this account.

@@ -114,3 +114,8 @@ Baidu's verified GitHub profile controls `baidu.com` and describes itself as “
 ## Tencent verified primary account — 24 November 2026
 
 The [Tencent GitHub organization](https://github.com/Tencent) is verified by GitHub against `opensource.tencent.com`. The existing Tencent mapping is promoted to `verified`; the primary account remains separate from any future product-specific organization mappings.
+
+
+## Google Cloud project account — 24 November 2026
+
+Google Cloud tutorials explicitly link code samples under a separate GitHub account, [GoogleCloudPlatform](https://github.com/GoogleCloudPlatform). The official Cloud Run tutorial instructs users to clone the Node.js, Python, Go and Java repositories, and Cloud Endpoints documentation links additional language samples. The account is added with `official-project-linked` and gets an independent public repository inventory. See [Google Account Discovery](../organizations/alphabet-google/ACCOUNT-DISCOVERY.md).

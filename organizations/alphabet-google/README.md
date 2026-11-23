@@ -46,3 +46,8 @@ Five more Google-account README briefs have been added: zx, Google Style Guides,
 ## Continued README review — 23 November 2026
 
 1 additional README-reviewed project brief has been added to this account folder. See [the repository index](repositories/README.md). The account's complete public repository inventory and related company organizations still require full discovery and pagination.
+
+
+## Additional Google Cloud project account — 24 November 2026
+
+Google Cloud's official documentation links code samples hosted in the separate [GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) account. Tutorials instruct users to clone language-specific repositories including `nodejs-docs-samples`, `python-docs-samples`, `golang-samples`, `java-docs-samples` and `dotnet-docs-samples`. The account is recorded as `official-project-linked` and inventoried separately from the primary `google` organization.
