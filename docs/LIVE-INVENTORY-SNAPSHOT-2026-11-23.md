@@ -62,3 +62,6 @@ Both have no Git repository tree; GitHub returns HTTP 409 with `Git Repository i
 3. Maintain an account-level evidence progress dashboard.
 4. Expand official account discovery for Microsoft, Google, Apple and NVIDIA, then the remaining company mappings.
 5. Interpret captured README evidence and update the curated human-reviewed dossiers separately.
+
+
+See the [inventory and evidence progress dashboard](INVENTORY-PROGRESS-2026-11-23.md) for the complete 34-account table. In the first run, 286 README files were captured, 30 were unavailable, 314 repositories reached terminal README/language/manifest evidence states, 25,649 remained pending/error, and no automated records had a manual technical review.

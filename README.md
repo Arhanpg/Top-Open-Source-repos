@@ -179,3 +179,8 @@ See [Amazon/AWS account discovery](organizations/amazon/ACCOUNT-DISCOVERY.md) an
 ## First live inventory snapshot — 23 November 2026
 
 The first live GitHub Actions run completed pagination for 34 configured accounts and committed 25,965 public repository metadata records. See the [live inventory snapshot](docs/LIVE-INVENTORY-SNAPSHOT-2026-11-23.md) and [Actions run #1](https://github.com/Arhanpg/Top-Open-Source-repos/actions/runs/45248026075). This is a metadata inventory; the first README evidence batch is partial and manual technical review remains outstanding.
+
+
+## Inventory progress dashboard
+
+The first live scan enumerated 25,965 public repository records across 34 configured accounts. [Open the detailed inventory and evidence progress dashboard](docs/INVENTORY-PROGRESS-2026-11-23.md) for per-account counts, README capture coverage, manifest evidence and pending work. The figures distinguish repository pagination from README interpretation.
