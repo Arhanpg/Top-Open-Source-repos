@@ -16,16 +16,16 @@
 | [google/aarch64-paging](https://github.com/google/aarch64-paging) | A Rust library to manipulate AArch64 VMSA EL1 page tables. | 46 | Rust | False | False | True | captured | [Open](repositories/aarch64-paging-487987687.md) |
 | [google/aarch64-rt](https://github.com/google/aarch64-rt) | Startup code and exception vector for bare-metal Rust on aarch64 Cortex-A processors. | 32 | Linker Script, Rust | False | False | True | captured | [Open](repositories/aarch64-rt-928973681.md) |
 | [google/abfs](https://github.com/google/abfs) | No description | 118 | C, C++, Go, Makefile, Shell, Starlark | False | False | True | captured | [Open](repositories/abfs-1398674293.md) |
-| [google/abfs-casfs](https://github.com/google/abfs-casfs) | No description | 18 | Pending | False | False | True | pending | Not generated |
-| [google/abpackage](https://github.com/google/abpackage) | An R package for AB testing leveraging pre-period information | 68 | Pending | True | False | True | pending | Not generated |
-| [google/abseil-cpp-binary](https://github.com/google/abseil-cpp-binary) | Binary distribution of the Abseil library. | 23 | Pending | False | False | True | pending | Not generated |
-| [google/abstracttext](https://github.com/google/abstracttext) | MediaWiki extension to handle multilingual abstract content | 78 | Pending | True | False | True | pending | Not generated |
-| [google/abstreet](https://github.com/google/abstreet) | No description | 36 | Pending | True | False | True | pending | Not generated |
-| [google/acai](https://github.com/google/acai) | Testing library for JUnit4 and Guice. | 82 | Pending | False | False | True | pending | Not generated |
-| [google/access-bridge-explorer](https://github.com/google/access-bridge-explorer) | Explore accessibility tree of Java Access Bridge enabled applications | 130 | Pending | True | False | True | pending | Not generated |
-| [google/Accessibility-Test-Framework-for-Android](https://github.com/google/Accessibility-Test-Framework-for-Android) | Accessibility checks for automated Android testing | 528 | Pending | False | False | True | pending | Not generated |
-| [google/accname](https://github.com/google/accname) | No description | 33 | Pending | True | False | True | pending | Not generated |
-| [google/accompanist](https://github.com/google/accompanist) | A collection of extension libraries for Jetpack Compose | 7849 | Pending | False | False | True | pending | Not generated |
+| [google/abfs-casfs](https://github.com/google/abfs-casfs) | No description | 18 | C, Go, Makefile, Shell | False | False | True | captured | [Open](repositories/abfs-casfs-1398701222.md) |
+| [google/abpackage](https://github.com/google/abpackage) | An R package for AB testing leveraging pre-period information | 68 | R | True | False | True | captured | [Open](repositories/abpackage-91820777.md) |
+| [google/abseil-cpp-binary](https://github.com/google/abseil-cpp-binary) | Binary distribution of the Abseil library. | 23 | C, Objective-C, Swift | False | False | True | captured | [Open](repositories/abseil-cpp-binary-606252797.md) |
+| [google/abstracttext](https://github.com/google/abstracttext) | MediaWiki extension to handle multilingual abstract content | 78 | CSS, Dockerfile, JavaScript, PHP | True | False | True | captured | [Open](repositories/abstracttext-259457077.md) |
+| [google/abstreet](https://github.com/google/abstreet) | No description | 36 | Rust, Shell | True | False | True | captured | [Open](repositories/abstreet-128960784.md) |
+| [google/acai](https://github.com/google/acai) | Testing library for JUnit4 and Guice. | 82 | Java | False | False | True | captured | [Open](repositories/acai-27149168.md) |
+| [google/access-bridge-explorer](https://github.com/google/access-bridge-explorer) | Explore accessibility tree of Java Access Bridge enabled applications | 130 | C# | True | False | True | captured | [Open](repositories/access-bridge-explorer-52811542.md) |
+| [google/Accessibility-Test-Framework-for-Android](https://github.com/google/Accessibility-Test-Framework-for-Android) | Accessibility checks for automated Android testing | 528 | Java | False | False | True | captured | [Open](repositories/accessibility-test-framework-for-android-42338931.md) |
+| [google/accname](https://github.com/google/accname) | No description | 33 | CSS, HTML, JavaScript, Shell, TypeScript | True | False | True | captured | [Open](repositories/accname-274594289.md) |
+| [google/accompanist](https://github.com/google/accompanist) | A collection of extension libraries for Jetpack Compose | 7849 | Kotlin, Shell | False | False | True | captured | [Open](repositories/accompanist-261392630.md) |
 | [google/account-provisioning-for-google-apps](https://github.com/google/account-provisioning-for-google-apps) | No description | 51 | Pending | True | False | True | pending | Not generated |
 | [google/acjs](https://github.com/google/acjs) | No description | 10 | Pending | True | False | True | pending | Not generated |
 | [google/acme](https://github.com/google/acme) | A simple ACME command line tool without 3rd party deps! | 382 | Pending | True | False | True | pending | Not generated |

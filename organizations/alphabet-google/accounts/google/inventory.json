@@ -1078,12 +1078,66 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 336323,
+        "Go": 287462,
+        "Shell": 11289,
+        "Makefile": 4389
+      },
+      "readme_url": "https://github.com/google/abfs-casfs/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0fd4d7098675bed97dd6bdf5a9ed7addd0c1c576",
+      "readme_excerpt": "CASFS - Content-Addressable Storage File-System === CASFS is a Linux file system in which files and directories are identified by the hash of their content, using the Git object model (SHA-1). Everything is loaded lazily: a directory or file is materialized from its hash only when it is accessed, and missing objects are fetched on demand from a user-space cache daemon over a Unix domain socket. CASFS also provides \"tapping\", which records the file-system activity of a process group, for precise build dependency tracking. CASFS is the file-system layer of ABFS (Another Build File Service). We have an upcoming release",
+      "readme_headings": [
+        "Compatibility",
+        "Kernel compatibility",
+        "Use with ABFS",
+        "Building",
+        "Quick start",
+        "Tests",
+        "Control Interface",
+        "Tap",
+        "Documentation",
+        "Contributing",
+        "License",
+        "Security"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "b01cbcb6fc91cff3b33ec5487a9951db1a8894b4",
+          "size": 4181,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "api/go.mod",
+          "sha": "d418260e3b91e024fa1b10b8de81c75bf58110a6",
+          "size": 451,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/davecgh/go-spew",
+            "github.com/fsnotify/fsnotify",
+            "github.com/pkg/xattr",
+            "github.com/pmezard/go-difflib",
+            "github.com/spf13/pflag",
+            "github.com/stretchr/testify",
+            "go.coder.com/cli",
+            "golang.org/x/sync",
+            "golang.org/x/sys",
+            "gopkg.in/yaml.v3"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:07+00:00"
     },
     "google/abpackage": {
       "id": 91820777,
@@ -1106,12 +1160,30 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "R": 82662
+      },
+      "readme_url": "https://github.com/google/abpackage/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "56aafe36e00d520b3cab4f1b45b8da7b93af1304",
+      "readme_excerpt": "The abpackage implements PrePost, a Bayesian approach for the estimation of the treatment effect in A/B testing. When pre-period data are available, the method leverages the pre-period to get a more accurate estimate of the treatment effect. The abpackage assumes that the observations are Normally distributed both in the pre-period and the post-period. Furthermore, the package assumes that the observations in treatment and control groups are identically distributed in the pre-period. install.packages(\"devtools\") library(devtools) devtools::install_github(\"google/abpackage\") library(abpackage)",
+      "readme_headings": [
+        "abpackage",
+        "An R package for AB testing leveraging pre-period information",
+        "Installation",
+        "Getting Started",
+        "Manuscript"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:08+00:00"
     },
     "google/abseil-cpp-binary": {
       "id": 606252797,
@@ -1134,12 +1206,28 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Swift": 1170,
+        "C": 627,
+        "Objective-C": 627
+      },
+      "readme_url": "https://github.com/google/abseil-cpp-binary/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "28f078b175b3c9e331857fc801cf537c1963d217",
+      "readme_excerpt": "This repo distributes the Abseil library as a binary (xcframework) via Swift Package Manager. See go/firestore-binary-releasing for update instructions.",
+      "readme_headings": [
+        "Abseil - C++ Binary Distribution for Swift Package Manager"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:09+00:00"
     },
     "google/abstracttext": {
       "id": 259457077,
@@ -1167,12 +1255,54 @@
         "nlg"
       ],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 279399,
+        "PHP": 32644,
+        "Dockerfile": 1411,
+        "CSS": 122
+      },
+      "readme_url": "https://github.com/google/abstracttext/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "43f1115cbb1dbd8b26a7f08479368808d967bec8",
+      "readme_excerpt": "Extension to handle multilingual content in MediaWiki. The content is represented in an abstract notation. Language-specific renderers translate the abstract content to natural language. This is not an officially supported Google product. This is a prototype. Do *not* use in a public installation. This prototype has severe security issues. This prototype is meant as a technology exploration for Wikilambda. Wikilambda is described in the following paper: * https://arxiv.org/abs/2004.04733 The easiest intro is probably reading the walkthrough. An alternate implementation for eneyj: graaleneyj The simplest example for testing this is from the command line. Try it out: true Wikipedias are encyclopedias.",
+      "readme_headings": [
+        "AbstractText",
+        "Example",
+        "Installation"
+      ],
+      "manifest_paths": [
+        {
+          "path": "docker_support/Dockerfile",
+          "sha": "fc111b4e1b38520a184d4138ffb09027302a66f7",
+          "size": 1411,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "eneyj/package.json",
+          "sha": "f76cae6a21787850c7030876b6adeef1f53fee32",
+          "size": 1127,
+          "content_status": "captured",
+          "dependency_hints": [
+            "ajv",
+            "debug",
+            "historic-readline",
+            "json-stringify-safe",
+            "standard",
+            "sync-request",
+            "uuid"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:11+00:00"
     },
     "google/abstreet": {
       "id": 128960784,
@@ -1195,12 +1325,111 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Rust": 269735,
+        "Shell": 1705
+      },
+      "readme_url": "https://github.com/google/abstreet/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d5a66c735eed9e3142246ea211efdc0d4215f4d3",
+      "readme_excerpt": "Development has moved to https://github.com/dabreegster/abstreet.",
+      "readme_headings": [
+        "A/B Street"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Cargo.toml",
+          "sha": "66f2f710741ca1d78d63e501635f72d013fc9575",
+          "size": 116,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "control/Cargo.toml",
+          "sha": "9e7e7ad2b81d8d04c60cd023949fcd4474c59cea",
+          "size": 237,
+          "content_status": "captured",
+          "dependency_hints": [
+            "dimensioned",
+            "geom",
+            "map_model",
+            "serde",
+            "serde_derive"
+          ]
+        },
+        {
+          "path": "convert_osm/Cargo.toml",
+          "sha": "69415f597524b7408807ce83a5c6a92d1df130af",
+          "size": 236,
+          "content_status": "captured",
+          "dependency_hints": [
+            "byteorder",
+            "map_model",
+            "ordered-float",
+            "osm-xml",
+            "structopt"
+          ]
+        },
+        {
+          "path": "editor/Cargo.toml",
+          "sha": "06bf672d088f68d00d13d6224703736803a4f480",
+          "size": 525,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aabb-quadtree",
+            "control",
+            "ezgui",
+            "geom",
+            "map_model",
+            "multimap",
+            "ordered-float",
+            "piston",
+            "piston2d-graphics",
+            "piston2d-opengl_graphics",
+            "pistoncore-glutin_window",
+            "serde",
+            "serde_derive",
+            "serde_json",
+            "sim",
+            "structopt",
+            "vecmath"
+          ]
+        },
+        {
+          "path": "ezgui/Cargo.toml",
+          "sha": "d9d1ad4073aeeee8da23fc1b92bc6c996b4daa3d",
+          "size": 204,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aabb-quadtree",
+            "piston",
+            "piston2d-graphics",
+            "piston2d-opengl_graphics"
+          ]
+        },
+        {
+          "path": "geom/Cargo.toml",
+          "sha": "765a2b974e3f4eb7854cfe120c80b1af599125fd",
+          "size": 237,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aabb-quadtree",
+            "dimensioned",
+            "map_model",
+            "piston2d-graphics",
+            "vecmath"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:14+00:00"
     },
     "google/acai": {
       "id": 27149168,
@@ -1230,12 +1459,65 @@
         "junit4"
       ],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 85309
+      },
+      "readme_url": "https://github.com/google/acai/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9d29a89d1600698be8427650824d16d26bcf766c",
+      "readme_excerpt": "Acai makes it easy to write functional tests of your application with JUnit 4 and Guice. Acai makes it simple to: - Inject the helper classes you need into tests - Start any services needed by your tests - Run between-test cleanup of these services - Start up multiple services for testing in the right order - Create test scoped bindings Acai is designed for large functional tests of your application. For example it can help with writing tests which start your backend and frontend server in a self-contained mode with their dependencies faked out and then validates some key",
+      "readme_headings": [
+        "Acai",
+        "Installation",
+        "Using Acai to inject a test",
+        "Using Acai to start services",
+        "Test isolation",
+        "Test scoped bindings",
+        "When not to use TestScoped",
+        "Services which depend upon each other",
+        "API",
+        "Contributing",
+        "Disclaimer"
+      ],
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "5bc123c47efd25a2bbb900cf488e718f8b4a7d46",
+          "size": 7553,
+          "content_status": "captured",
+          "dependency_hints": [
+            "acai",
+            "central-publishing-maven-plugin",
+            "error_prone_core",
+            "guava",
+            "guava-testlib",
+            "guice",
+            "guice-testlib",
+            "guiceberry",
+            "jacoco-maven-plugin",
+            "javax.inject",
+            "junit",
+            "maven-compiler-plugin",
+            "maven-enforcer-plugin",
+            "maven-gpg-plugin",
+            "maven-javadoc-plugin",
+            "maven-release-plugin",
+            "maven-source-plugin",
+            "mockito-core",
+            "truth",
+            "versions-maven-plugin"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:17+00:00"
     },
     "google/access-bridge-explorer": {
       "id": 52811542,
@@ -1258,12 +1540,60 @@
       "open_issues": 21,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 724292
+      },
+      "readme_url": "https://github.com/google/access-bridge-explorer/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9bd6723a4408db35280982a39595a2a4816a99fe",
+      "readme_excerpt": "a Windows application that allows exploring, as well as interacting with, the Accessibility tree of any Java applications that uses the to expose their accessibility features, for example provides features similar to the Java Ferret and Java Monkey sample applications that were distributed as part of the SDK when it was still distributed as a stand alone download. both set of features in a single application, is more stable and has been tested on recent versions of Windows (7, 8, 8.1 and 10) and offers a more modern and advanced user interface. consumes the same API that Windows screen readers",
+      "readme_headings": [
+        "Access Bridge Explorer",
+        "Screenshot",
+        "Requirements",
+        "Installation",
+        "Contributing",
+        "Disclaimer"
+      ],
+      "manifest_paths": [
+        {
+          "path": "AccessBridgeExplorer.sln",
+          "sha": "e8422cf2f0e2d5ecf015a30249868d9ff394cd03",
+          "size": 3613,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/AccessBridgeExplorer/AccessBridgeExplorer.csproj",
+          "sha": "94b5c3357e1b812cb0553474805bec9b63b8c4d4",
+          "size": 12608,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/CodeGen/CodeGen.csproj",
+          "sha": "742e66c1e28720b2918ef7e5b3d961ad13b03247",
+          "size": 6062,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/WindowsAccessBridgeInterop/WindowsAccessBridgeInterop.csproj",
+          "sha": "45f89a2beaaf778b0c4c83420be5df386f3727a1",
+          "size": 3721,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:19+00:00"
     },
     "google/Accessibility-Test-Framework-for-Android": {
       "id": 42338931,
@@ -1289,12 +1619,36 @@
         "android"
       ],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 902283
+      },
+      "readme_url": "https://github.com/google/Accessibility-Test-Framework-for-Android/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "90a2a886cca0dddf08da677487919b6f8ec2ea1b",
+      "readme_excerpt": "To help people with disabilities access Android apps, developers of those apps need to consider how their apps will be presented to accessibility services. Some good practices can be checked by automated tools, such as if a View has a contentDescription. Other rules require human judgment, such as whether or not a contentDescription makes sense to all users. For more information about Mobile Accessibility, see http://www.w3.org/WAI/mobile/. This library collects various accessibility-related checks on View objects as well as AccessibilityNodeInfo objects (which the Android framework derives from Views and sends to AccessibilityServices). The supplied gradle wrapper and build.gradle file can be",
+      "readme_headings": [
+        "Accessibility Test Framework for Android",
+        "Building the Library",
+        "Sample Usage"
+      ],
+      "manifest_paths": [
+        {
+          "path": "build.gradle",
+          "sha": "554bd09138564f46ab83bab5c2fecd1ac76e8bb6",
+          "size": 4360,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:21+00:00"
     },
     "google/accname": {
       "id": 274594289,
@@ -1317,12 +1671,91 @@
       "open_issues": 18,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 184802,
+        "JavaScript": 38890,
+        "HTML": 10890,
+        "CSS": 10719,
+        "Shell": 221
+      },
+      "readme_url": "https://github.com/google/accname/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f89bf8a8bdaeda58bdb4d42c9daa7f48b78b627f",
+      "readme_excerpt": "A TypeScript library for calculating the accessible name of `HTMLElement`s. To install `accname` with NPM, run: $ npm install accname Once installed, import and use `accname` as follows: import {getAccessibleName} from 'accname'; const elem = document.getElementById('target'); const name = getAccessibleName(elem); This is not an officially supported Google product.",
+      "readme_headings": [
+        "accname",
+        "Usage",
+        "Disclaimer"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "a81f3c54624396908572f52a2a72bc442d57a660",
+          "size": 2918,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@babel/core",
+            "@babel/plugin-transform-runtime",
+            "@types/jasmine",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/eslint-plugin-tslint",
+            "@typescript-eslint/parser",
+            "clang-format",
+            "eslint",
+            "eslint-plugin-ban",
+            "eslint-plugin-import",
+            "eslint-plugin-jsdoc",
+            "eslint-plugin-prefer-arrow",
+            "husky",
+            "jasmine",
+            "jasmine-core",
+            "karma",
+            "karma-chrome-launcher",
+            "karma-cli",
+            "karma-coverage",
+            "karma-firefox-launcher",
+            "karma-jasmine",
+            "karma-spec-reporter",
+            "karma-typescript",
+            "karma-typescript-es6-transform",
+            "lit",
+            "rollup",
+            "typescript"
+          ]
+        },
+        {
+          "path": "validation/package.json",
+          "sha": "8b50e079e77589b46d15398177bc5df0c7bf4707",
+          "size": 888,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/codemirror",
+            "@types/express",
+            "@types/node-fetch",
+            "@types/prismjs",
+            "@types/puppeteer",
+            "@types/serve-favicon",
+            "axe-core",
+            "chrome-remote-debug-protocol",
+            "express",
+            "gts",
+            "node-fetch",
+            "puppeteer",
+            "serve-favicon",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:23+00:00"
     },
     "google/accompanist": {
       "id": 261392630,
@@ -1348,12 +1781,82 @@
         "jetpack-compose"
       ],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Kotlin": 289751,
+        "Shell": 6842
+      },
+      "readme_url": "https://github.com/google/accompanist/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0e473e94660e8eee60623a87c80ac796b775206c",
+      "readme_excerpt": "Accompanist is a group of libraries that aim to supplement [Jetpack Compose][compose] with features that are commonly required by developers but not yet available. Accompanist is a labs like environment for new Compose APIs. We use it to help fill known gaps in the Compose toolkit, experiment with new APIs and to gather insight into the development experience of developing a Compose library. The goal of these libraries is to upstream them into the official toolkit, at which point they will be deprecated and removed from Accompanist. For more details like, why does this library exist? Why is it not",
+      "readme_headings": [
+        "Compose versions",
+        "Libraries",
+        "📫 [Permissions](./permissions/)",
+        "🖌️ [Drawable Painter](./drawablepainter/)",
+        "📜 [Adaptive](./adaptive/)",
+        "🧭✨[Navigation-Animation](./navigation-animation/) (Deprecated & Removed)",
+        "🧭🎨️ [Navigation-Material](./navigation-material/) (Deprecated & Removed)",
+        "🍫 [System UI Controller](./systemuicontroller/) (Deprecated & Removed)",
+        "Future?",
+        "Snapshots",
+        "Why the name?",
+        "Contributions",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "build.gradle",
+          "sha": "d4222f2db8a52f94aa9d3b1f5297f8afcd4a44df",
+          "size": 7854,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "adaptive/build.gradle.kts",
+          "sha": "dea7f0f579bbaa0746a1189dd0f8ad6de227c303",
+          "size": 2262,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "drawablepainter/build.gradle.kts",
+          "sha": "ad11480c5e5f87001056845c31189caea620a54f",
+          "size": 1017,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "internal-testutils/build.gradle.kts",
+          "sha": "af02046fcc76f5677ef40d2a210f922451cd09fb",
+          "size": 1111,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "permissions-lint/build.gradle.kts",
+          "sha": "e2355490024204c3ebed52d3b9e9fd820ff38cee",
+          "size": 2177,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "permissions/build.gradle.kts",
+          "sha": "0c1a8ee2cf4d3ff96bfcfc04dc717175b2f30850",
+          "size": 2345,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:26+00:00"
     },
     "google/account-provisioning-for-google-apps": {
       "id": 37750224,

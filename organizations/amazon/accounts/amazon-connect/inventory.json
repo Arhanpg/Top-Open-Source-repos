@@ -875,12 +875,160 @@
       "open_issues": 15,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 190972,
+        "Swift": 135078,
+        "Kotlin": 108419,
+        "HTML": 71671,
+        "CSS": 32218,
+        "Shell": 58
+      },
+      "readme_url": "https://github.com/amazon-connect/amazon-connect-chat-ui-examples/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6429fa728123323cc7664b3655d961b96cd84d9d",
+      "readme_excerpt": "This repo contains examples on how to implement the customer side of Amazon Connect chat. Please refer to the README under each solution to see the complete details as to what each solution does and how to deploy it. **New to Amazon Connect and looking to onboard with Chat/Messaging capabilities?** Refer to the “Amazon Connect Chat Open Source Walkthrough” documentation. We have the following three approaches to get started: Add a chat widget to your website that is hosted by Amazon Connect. You can configure the chat widget in the Amazon Connect console: customize the font and colors, and secure",
+      "readme_headings": [
+        "Amazon Connect Chat UI Examples",
+        "Approaches",
+        "Option 1: Pre-built Amazon Connect Hosted Widget Snippet",
+        "Option 2: Hosted Widget Snippet Integrated Custom UI (S3 Bucket/CDN)",
+        "Option 3: Customized Widget UI with Hosted Widget Backend",
+        "Steps",
+        "Part 1 - How to customize the widget",
+        "Part 2 - How to setup Hosted Widget Backend",
+        "Part 3 - Example Usage",
+        "Option 4: Hosted widget UI with custom Start Chat API",
+        "Option 5: Customized Widget and Chat Interface UI (Self-Hosted)",
+        "Solutions",
+        "Resources",
+        "Enabling Chat in an Existing Amazon Connect Contact Center",
+        "Enabling Agent-to-Agent Communication in an Existing Contact Center",
+        "Troubleshooting and Support",
+        "License Summary"
+      ],
+      "manifest_paths": [
+        {
+          "path": "customChatWidget/package.json",
+          "sha": "3e9c69c9364cfa1bc999b86ab2e46964d3d9ca00",
+          "size": 819,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@babel/core",
+            "@babel/preset-env",
+            "@babel/preset-react",
+            "animejs",
+            "babel-loader",
+            "css-loader",
+            "file-loader",
+            "react",
+            "react-dom",
+            "react-icons",
+            "react-router-dom",
+            "react-spinners",
+            "react-transition-group",
+            "style-loader",
+            "styled-components",
+            "webpack",
+            "webpack-cli"
+          ]
+        },
+        {
+          "path": "startChatContactAPILocalProxy/package.json",
+          "sha": "9a91254037c26c086a906d966eedd34c90cf8391",
+          "size": 858,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-sdk/client-connect",
+            "body-parser",
+            "cors",
+            "express",
+            "prettier",
+            "supertest"
+          ]
+        },
+        {
+          "path": "mobileChatExamples/android-webview-sample/build.gradle",
+          "sha": "9869fd92644a8faa7650d41444148c71c422513d",
+          "size": 1004,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "mobileChatExamples/androidChatExample/build.gradle.kts",
+          "sha": "2fb499486513c5f648e329a4383711a0029b8559",
+          "size": 547,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "mobileChatExamples/connectReactNativeChat/package.json",
+          "sha": "22d7a2badddddb366c90efc4f1649d50f25bc90a",
+          "size": 3009,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@babel/core",
+            "@babel/preset-env",
+            "@expo/webpack-config",
+            "@react-native-async-storage/async-storage",
+            "@react-native-community/netinfo",
+            "@react-native/assets-registry",
+            "@react-navigation/native",
+            "@react-navigation/stack",
+            "@testing-library/react-hooks",
+            "@testing-library/react-native",
+            "amazon-connect-chatjs",
+            "axios",
+            "babel-plugin-module-resolver",
+            "buffer",
+            "eslint",
+            "eslint-plugin-react",
+            "expo",
+            "expo-standard-web-crypto",
+            "husky",
+            "jest",
+            "jest-environment-jsdom",
+            "jest-react-native",
+            "lint-staged",
+            "prettier",
+            "prop-types",
+            "react",
+            "react-dom",
+            "react-native",
+            "react-native-elements",
+            "react-native-gesture-handler",
+            "react-native-get-random-values",
+            "react-native-gifted-chat",
+            "react-native-keyboard-controller",
+            "react-native-lightbox",
+            "react-native-loading-spinner-overlay",
+            "react-native-polyfill-globals",
+            "react-native-reanimated",
+            "react-native-safe-area-context",
+            "react-native-screens",
+            "react-native-url-polyfill",
+            "react-native-vector-icons",
+            "react-native-web",
+            "react-test-renderer",
+            "web-streams-polyfill"
+          ]
+        },
+        {
+          "path": "mobileChatExamples/android-webview-sample/app/build.gradle",
+          "sha": "ed044498f2b4761d7d79a2dda89fbbf9ea5e43f8",
+          "size": 2454,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:07:49+00:00"
     },
     "amazon-connect/amazon-connect-chatjs": {
       "id": 222556287,
@@ -903,12 +1051,85 @@
       "open_issues": 32,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 545150,
+        "TypeScript": 2533
+      },
+      "readme_url": "https://github.com/amazon-connect/amazon-connect-chatjs/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0bce9a271057adef4723a234eab6639a32173c35",
+      "readme_excerpt": "A browser-based JavaScript library to build custom chat interfaces for Amazon Connect. Includes TypeScript support, fully managed WebSocket connections, and simplified API calls with internal AWS SDK integration. The Amazon Connect Chat javascript library (ChatJS) gives you the power to customize your chat experience and build your own chat widget or agent chat UI. This stand-alone library supports customer chat sessions by default. For agent chat sessions and **Custom Contact Control Panel (CCP)**, please integrate with the Amazon Connect Streams library. - Announcements - Examples - Getting Started - Usage - Customer Session - Agent Session - API Reference -",
+      "readme_headings": [
+        "Amazon Connect ChatJS",
+        "Table of Contents",
+        "📢 Announcements",
+        "Examples",
+        "Getting Started",
+        "Prerequisites",
+        "Installation",
+        "or",
+        "or",
+        "Importing ChatJS",
+        "TypeScript Support",
+        "Importing from CDN",
+        "Using the AWS SDK and ChatJS",
+        "Configuration",
+        "Usage",
+        "Customer Session",
+        "Agent Session",
+        "Amazon Connect Custom Agent Chat UI",
+        "Overview",
+        "Prerequisites",
+        "Configuration Steps",
+        "Local Testing Instructions",
+        "API",
+        "Global Properties",
+        "`window.connect.ChatSession`",
+        "`window.connect.ChatSession.LogLevel`",
+        "`window.connect.csmService` [INTERNAL ONLY]",
+        "ChatSession Class",
+        "`connect.ChatSession.create()`",
+        "`connect.ChatSession.setGlobalConfig()`"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "7b74ed5bc8975ac93b5b27dee445a8a7f7939637",
+          "size": 2355,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@babel/cli",
+            "@babel/core",
+            "@babel/eslint-parser",
+            "@babel/preset-env",
+            "babel-loader",
+            "copy-webpack-plugin",
+            "detect-browser",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-jest",
+            "eslint-plugin-prettier",
+            "jest",
+            "jest-environment-jsdom",
+            "lodash.throttle",
+            "regenerator-runtime",
+            "sprintf-js",
+            "typescript",
+            "webpack",
+            "webpack-cli",
+            "webpack-dev-server"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:07:51+00:00"
     },
     "amazon-connect/amazon-connect-contact-lens-action-item-reminders": {
       "id": 433524996,
@@ -931,12 +1152,53 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 4184,
+        "JavaScript": 3631
+      },
+      "readme_url": "https://github.com/amazon-connect/amazon-connect-contact-lens-action-item-reminders/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2c6f04dc3fe96e17d5bd5a2f13c0c87295f875cd",
+      "readme_excerpt": "This repo is attached to the blog \"Create action item reminders with Amazon Connect Tasks and Contact Lens for Amazon Connect\". Head there to get the full set of steps for using this code. 1. Install CDK and run the CDK bootstrap command if this is the first time running CDK in an AWS Account. npm -g install typescript npm -g install aws-cdk cdk bootstrap aws://ACCOUNT_ID/AWS_REGION 2. Install dependencies npm install 3. Deploy the project cdk deploy --context amazonConnectUrl=<YOUR INSTANCE URL> --context amazonConnectArn=<YOUR INSTANCE ARN> --context contactFlowId=<CONTACT FLOW ID> --context amazonConnectId=<INSTANCE ID> --context taskQueueArn=<TASK QUEUE ARN> --context contactLensS3BucketName=<YOUR BUCKET NAME>",
+      "readme_headings": [
+        "Amazon Connect Contact lens action item reminders",
+        "Deployment Steps",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "ce068dd3684869ca81e035ba7e6b1cda02c2b12c",
+          "size": 779,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/assert",
+            "@aws-cdk/aws-iam",
+            "@aws-cdk/aws-lambda",
+            "@aws-cdk/aws-sns",
+            "@aws-cdk/aws-sns-subscriptions",
+            "@aws-cdk/core",
+            "@types/jest",
+            "@types/node",
+            "aws-cdk",
+            "jest",
+            "source-map-support",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:07:53+00:00"
     },
     "amazon-connect/amazon-connect-contact-lens-api-sample-app": {
       "id": 360750239,
@@ -959,12 +1221,42 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 20768
+      },
+      "readme_url": "https://github.com/amazon-connect/amazon-connect-contact-lens-api-sample-app/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "76884a42cfb849af0cfd42ea28b44699eed7e180",
+      "readme_excerpt": "Source code for the blog Use Contact Lens for Amazon Connect to streamline call transfers with real-time AI powered insights. Use `sam` to build, invoke and deploy the function. Ensure you are in the root folder `sam build --use-container` `sam deploy --guided` Follow the on-screen prompts. To accept the default options provided in the interactive experience, respond with Enter.",
+      "readme_headings": [
+        "Amazon Connect Real-Time Contact Lens demo",
+        "Usage",
+        "SAM Build:",
+        "SAM Deploy:"
+      ],
+      "manifest_paths": [
+        {
+          "path": "aws-resources-creator/package.json",
+          "sha": "14e427fabc7caab0e634986e8d20d7bc37e4c89d",
+          "size": 386,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk",
+            "fs",
+            "https",
+            "url"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:07:54+00:00"
     },
     "amazon-connect/amazon-connect-customer-profiles": {
       "id": 508463431,
@@ -987,12 +1279,68 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 42707
+      },
+      "readme_url": "https://github.com/amazon-connect/amazon-connect-customer-profiles/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f4092fc48e9c4976e8cf41176835039bac2a46c5",
+      "readme_excerpt": "The Amazon Connect CustomerProfiles JavaScript library (CustomerProfilesJS) gives you the power to build your own CustomerProfiles widget. The library uses Connect authentication token to make API calls to CustomerProfiles service. The client supports all CustomerProfile apis enabled on connect instance. The client supports the following apis - SearchProfiles - CreateProfile - UpdateProfile - AddProfileKey - ListProfileObjects - ListAccountIntegrations For more details on the apis, check out CustomerProfiles available via the AWS CLI. - AmazonConnectCustomerProfiles depends on CCP widget from AmazonConnectStreams - To utilize AmazonConnectCustomerProfiles, start by allow listing your existing web application in the AWS Connect console. To allow list",
+      "readme_headings": [
+        "amazon-connect-customer-profiles",
+        "Description",
+        "Getting started",
+        "Pre-requisite",
+        "Usage",
+        "Build your own with NPM",
+        "Install using NPM",
+        "Initialization",
+        "Requests",
+        "CreateProfile",
+        "UpdateProfile",
+        "SearchProfile",
+        "AddProfileKey",
+        "ListProfileObjects",
+        "ListAccountIntegrations",
+        "Response",
+        "Reading response",
+        "Troubleshooting",
+        "Error message: `Failed to execute ‘postMessage’ on ‘DOMWindow’: The target origin provided`",
+        "Contributing",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "9af9224e446660f354b406bb8988c5b37444bc32",
+          "size": 1780,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@babel/core",
+            "@babel/eslint-parser",
+            "@babel/preset-env",
+            "babel-jest",
+            "babel-loader",
+            "eslint",
+            "eslint-plugin-jest",
+            "isomorphic-fetch",
+            "jest",
+            "regenerator-runtime",
+            "terser-webpack-plugin",
+            "webpack",
+            "webpack-cli"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:07:56+00:00"
     },
     "amazon-connect/amazon-connect-github-io": {
       "id": 209400569,
@@ -1015,12 +1363,27 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/amazon-connect/amazon-connect-github-io/blob/archive/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6aa2bded0fdba91c8c5ce6fa72cfec3b912a7f7b",
+      "readme_excerpt": "This repository has been archived and is now read-only. - No new issues, pull requests, or commits can be made - The code remains available for viewing and cloning - All existing functionality is preserved **📂 View original repository content** If you need to unarchive this repository, please contact the repository maintainers.",
+      "readme_headings": [
+        "📦 Repository Archived",
+        "What this means:",
+        "View Original Code",
+        "Need to make changes?"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:07:57+00:00"
     },
     "amazon-connect/amazon-connect-in-app-calling-examples": {
       "id": 778445982,
@@ -1043,12 +1406,111 @@
       "open_issues": 17,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Swift": 151561,
+        "JavaScript": 140800,
+        "Kotlin": 139730,
+        "TypeScript": 21340,
+        "Shell": 20944,
+        "CSS": 5384,
+        "HTML": 4761,
+        "Ruby": 385
+      },
+      "readme_url": "https://github.com/amazon-connect/amazon-connect-in-app-calling-examples/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9770d2abfaa3185bc86892a6796824a94791af2a",
+      "readme_excerpt": "Amazon Connect's out of the box communication widget and agent workspace allow you to add in-app, web, and video calling capabilities to your website or mobile application with a few lines of code. This repository contains examples of: 1) how to create multi-user web and video calling experiences, 2) how to integrate in-app calling into iOS and Android applications, 3) an example backend that works with these iOS and Android mobile samples, and 4) while web calling works out of the box with custom CCPs for voice call, we show to integrate video calling into an custom CCP. **New to",
+      "readme_headings": [
+        "Amazon Connect In-App Calling Examples",
+        "Examples",
+        "Use Cases",
+        "Setup",
+        "Resources",
+        "Troubleshooting and Support",
+        "License Summary"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Android/AmazonConnectInAppCallingAndroidSample/build.gradle",
+          "sha": "9936a18b9b881766ed8b16396344eeb39ad055e7",
+          "size": 296,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Backend/AmazonConnectNetraApiSample/package.json",
+          "sha": "c7d689b0e9f81a5cc783e2f2984f13e0fd804f43",
+          "size": 831,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/node",
+            "aws-cdk",
+            "aws-cdk-lib",
+            "constructs",
+            "esbuild",
+            "source-map-support",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Web/amazon-connect-ccp-web-calling-example/package.json",
+          "sha": "b27315a7b586cf840375973aff34e71ab5e0bdd7",
+          "size": 355,
+          "content_status": "captured",
+          "dependency_hints": [
+            "amazon-chime-sdk-js",
+            "amazon-connect-streams",
+            "esbuild",
+            "esbuild-plugins-node-modules-polyfill"
+          ]
+        },
+        {
+          "path": "Web/amazon-connect-multi-user-web-calling-sample/package.json",
+          "sha": "e64d08bafa7f97ae316c72984d86af90c56b82b2",
+          "size": 1275,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-sdk/client-connect",
+            "@aws-sdk/client-connectparticipant",
+            "@aws-sdk/client-dynamodb",
+            "@aws-sdk/lib-dynamodb",
+            "concurrently",
+            "cors",
+            "dotenv",
+            "express",
+            "nodemon",
+            "uuid"
+          ]
+        },
+        {
+          "path": "Android/AmazonConnectInAppCallingAndroidSample/app/build.gradle",
+          "sha": "46fd1d5b4f649070f0d5506f9b243146a54533ee",
+          "size": 2270,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Backend/AmazonConnectNetraApiSample/lambda/package.json",
+          "sha": "b24101fbcc5647ef11a916e439f4eb901d944c10",
+          "size": 235,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-sdk/client-connect",
+            "@aws-sdk/client-connectparticipant",
+            "@types/aws-lambda"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:08:00+00:00"
     },
     "amazon-connect/amazon-connect-message-streaming-examples": {
       "id": 421212826,
@@ -1071,12 +1533,123 @@
       "open_issues": 16,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 41019,
+        "TypeScript": 15668
+      },
+      "readme_url": "https://github.com/amazon-connect/amazon-connect-message-streaming-examples/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1141d1237ed11cb66c5e5ba8373257be3ce7781b",
+      "readme_excerpt": "- Create a simple contact flow which routes the contact to the appropriate queue. - (You can use the sample contact flow for this example.) - An Amazon Connect Instance - An Amazon Connect Contact Flow setup for Amazon Connect (including Disconnect flow) - AWS CLI setup in your local environment For detailed steps please visit the blog Please refer to this blog on the steps to create a Facebook messenger channel. `npm -g install typescript` `npm install -g aws-cdk` `cdk bootstrap aws://ACCOUNT_ID/AWS_REGION` - `npm install` - `cd src/lambda/inboundMessageHandler` - `npm install` - `cd ../../..` - `cd src/lambda/outboundMessageHandler` - `npm",
+      "readme_headings": [
+        "Message streaming API starter projects",
+        "Prerequisite",
+        "General",
+        "SMS",
+        "FB",
+        "Install AWS CDK",
+        "Deployment commands",
+        "Deploy SMS channel only",
+        "Deploy FB Channel only",
+        "Deploy WhatsApp Channel only",
+        "Deploy BOTH SMS and FB channel",
+        "Deploy FB channel only with PII redaction",
+        "Architecture",
+        "Customer chat path",
+        "Agent chat path",
+        "Repository structure",
+        "CDK",
+        "Lambda",
+        "Video walkthrough",
+        "Troubleshooting",
+        "SDK errors",
+        "Message not getting published to SNS",
+        "Contact flow execution not starting",
+        "Throttling Exception (HTTP Error Code : 429/TooManyRequests)",
+        "CreateParticipantConnection API throwing exception when “ConnectParticipant” Boolean is passed as true",
+        "StartContact Streaming API throwing exception when providing correct SNS ARN",
+        "FAQ",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "f50561493f5852176a88dbfebb3cbf6127877ec1",
+          "size": 1134,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/assert",
+            "@aws-cdk/aws-apigateway",
+            "@aws-cdk/aws-apigatewayv2",
+            "@aws-cdk/aws-apigatewayv2-integrations",
+            "@aws-cdk/aws-dynamodb",
+            "@aws-cdk/aws-iam",
+            "@aws-cdk/aws-lambda",
+            "@aws-cdk/aws-pinpoint",
+            "@aws-cdk/aws-s3",
+            "@aws-cdk/aws-s3-notifications",
+            "@aws-cdk/aws-secretsmanager",
+            "@aws-cdk/aws-sns",
+            "@aws-cdk/aws-sns-subscriptions",
+            "@aws-cdk/core",
+            "@types/jest",
+            "@types/node",
+            "aws-cdk",
+            "jest",
+            "source-map-support",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "src/common-util/package.json",
+          "sha": "694265f02dfa018876f270abeae6b38ec003bd53",
+          "size": 250,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/lambda/digitalChannelHealthCheck/package.json",
+          "sha": "47ea9efa859100aaf23315b5eef907f705beaa79",
+          "size": 363,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk",
+            "common-util"
+          ]
+        },
+        {
+          "path": "src/lambda/inboundMessageHandler/package.json",
+          "sha": "187b583a003e7caaf52ce098179771acf491c8d4",
+          "size": 359,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk",
+            "common-util"
+          ]
+        },
+        {
+          "path": "src/lambda/outboundMessageHandler/package.json",
+          "sha": "ac49b41718c0ed24ebf0b816ec1bfa3b45295e3f",
+          "size": 204,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk",
+            "common-util"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:08:02+00:00"
     },
     "amazon-connect/amazon-connect-realtime-transcription": {
       "id": 171378529,
@@ -1099,12 +1672,49 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 78610,
+        "JavaScript": 16193,
+        "Python": 2911
+      },
+      "readme_url": "https://github.com/amazon-connect/amazon-connect-realtime-transcription/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f1ad52ddd9214059d78defdf81aeabca6669916a",
+      "readme_excerpt": "Making it easy to get started with Amazon Connect live audio streaming and real-time transcription using Amazon Transcribe. - Project Overview - Architecture Overview - Getting Started - Project Variations The purpose of this project is to provide an example solution to get you started with capturing and transcribing Amazon Connect audio using Kinesis Video Streams and Amazon Transcribe. The example Lambda functions can be used to create varying solutions such as capturing audio in the IVR and transcribing customer audio. To enable these different use-cases there are multiple environment variables environment variables and parameters in the invocation event that",
+      "readme_headings": [
+        "Amazon Connect IVR Recording",
+        "On this Page",
+        "Project Overview",
+        "Architecture Overview",
+        "Description",
+        "Getting Started",
+        "Easy Setup",
+        "Building the KVS Transcriber project",
+        "Lambda Environment Variables",
+        "Sample Lambda Environment Variables",
+        "Lambda Invocation Event Details",
+        "Sample Lambda Invocation Event",
+        "Audio Utils",
+        "License Summary"
+      ],
+      "manifest_paths": [
+        {
+          "path": "build.gradle",
+          "sha": "30c87371827d33c888e4e3ac429e535c15f872af",
+          "size": 1265,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:08:04+00:00"
     },
     "amazon-connect/amazon-connect-salesforce-cti": {
       "id": 302168441,
@@ -1127,12 +1737,70 @@
       "open_issues": 39,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 10721,
+        "CSS": 1884
+      },
+      "readme_url": "https://github.com/amazon-connect/amazon-connect-salesforce-cti/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5494817b19e1f16652f7bc73ce2f7656c110c0f1",
+      "readme_excerpt": "This repo supports the Amazon Connect Salesforce CTI Adapter Setup and Installation Guide, which is hosted here (via Github Pages). The guide details the integration between Amazon Connect and Salesforce Lightning. It covers the installation, configuration, and operation of the two primary components of the integration: the Amazon Connect CTI Adapter for Salesforce and the AWS Serverless Application Repository for Amazon Connect Salesforce integration. This website is built using Docusaurus 2, a modern static website generator. npm install npm start This command starts a local development server and open up a browser window. Most changes are reflected live without having",
+      "readme_headings": [
+        "Amazon Connect Salesforce CTI Adapter Setup and Installation Guide",
+        "Usage",
+        "Installation",
+        "Local Development",
+        "Build",
+        "Deployment",
+        "Build pdf",
+        "Initialize githooks"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "d394287d092088c7bc6fd67aa95118cffc4c02ce",
+          "size": 1722,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@bojl/docusaurus-pdf",
+            "@docusaurus/core",
+            "@docusaurus/preset-classic",
+            "@mdx-js/react",
+            "ansi-regex",
+            "axios",
+            "browserslist",
+            "clsx",
+            "css-what",
+            "dns-packet",
+            "glob-parent",
+            "highlight.js",
+            "immer",
+            "is-svg",
+            "lodash",
+            "normalize-url",
+            "nth-check",
+            "postcss",
+            "prismjs",
+            "react",
+            "react-dev-utils",
+            "react-dom",
+            "set-getter",
+            "set-value",
+            "trim",
+            "trim-newlines",
+            "url-parse"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:08:06+00:00"
     },
     "amazon-connect/amazon-connect-salesforce-lambda": {
       "id": 274946774,

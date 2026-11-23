@@ -623,12 +623,30 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:37:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 7525
+      },
+      "readme_url": "https://github.com/amazonlinux/kiwi-image-descriptions-examples/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "64e3c813ca913b85dfbb6234abb7500035902a10",
+      "readme_excerpt": "This repository contains KIWI image descriptions for building various Linux distributions and configurations. Currently includes Amazon Linux 2023 (AL2023) and Amazon Linux 2027 (AL2027) attestable images with security-focused configurations. * **AL2023 Attestable Image**: Amazon Linux 2023 with TPM attestation, dm-verity protection. Creates an isolated compute environment * **AL2027 Attestable Image**: Amazon Linux 2027 with TPM attestation, dm-verity protection. Creates an isolated compute environment Build an image using KIWI: sudo kiwi-ng --color-output --loglevel 0 system build \\ --description ./kiwi-image-descriptions-examples/<distribution>/<image-type> \\ --target-dir ./image See CONTRIBUTING for more information. This project is licensed under the Apache-2.0 License.",
+      "readme_headings": [
+        "KIWI Image Descriptions",
+        "Available Image Descriptions",
+        "Quick Start",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:07:05+00:00"
     },
     "amazonlinux/linux": {
       "id": 300697475,
@@ -651,12 +669,91 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:37:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 1482575114,
+        "Assembly": 9588059,
+        "Rust": 7259896,
+        "Shell": 6640296,
+        "Python": 5218732,
+        "Makefile": 3049411,
+        "Perl": 1119781,
+        "C++": 191265,
+        "SmPL": 186413,
+        "Yacc": 111756,
+        "Roff": 103428,
+        "Awk": 84736,
+        "Lex": 64812,
+        "Jinja": 36976,
+        "UnrealScript": 16071,
+        "Gherkin": 10903,
+        "Linker Script": 10068,
+        "SWIG": 6319,
+        "RPC": 4632,
+        "M4": 3329,
+        "Clojure": 2727,
+        "MATLAB": 2482,
+        "CSS": 1491,
+        "CMake": 495,
+        "sed": 379
+      },
+      "readme_url": "https://github.com/amazonlinux/linux/blob/master/README",
+      "readme_path": "README",
+      "readme_sha": "010c587224224ba1254657b42b091a6c62c39e92",
+      "readme_excerpt": "Linux kernel ============ The Linux kernel is the core of any Linux operating system. It manages hardware, system resources, and provides the fundamental services for all other software. Quick Start * Report a bug: See Documentation/admin-guide/reporting-issues.rst * Get the latest kernel: https://kernel.org * Build the kernel: See Documentation/admin-guide/quickly-build-trimmed-linux.rst * Join the community: https://lore.kernel.org/ Essential Documentation All users should be familiar with: * Building requirements: Documentation/process/changes.rst * Code of Conduct: Documentation/process/code-of-conduct.rst * License: See COPYING Documentation can be built with make htmldocs or viewed online at: https://www.kernel.org/doc/html/latest/ Who Are You? ============ Find your role below: * New Kernel Developer: Getting started",
+      "readme_headings": [],
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "9d5bfe5e0b43cc0a8915c8bbfec5c7b187d9b461",
+          "size": 81790,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "block/Makefile",
+          "sha": "e7bd320e3d6971a8abf584f5de42776bb54e8216",
+          "size": 1708,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "certs/Makefile",
+          "sha": "3ee1960f9f4a59e0c27a94f433716e1a68e5ea1d",
+          "size": 3481,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "crypto/Makefile",
+          "sha": "33bb5ad595e8f51c5e769f2db9e54a0dedc940f9",
+          "size": 7413,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Documentation/Makefile",
+          "sha": "ee852afe9bb9985fd092d0b2c83213c46136ef48",
+          "size": 4364,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "drivers/Makefile",
+          "sha": "0841ea851847e8d3466b5459ee29d2a0efbe11c8",
+          "size": 5538,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": true,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:07:10+00:00"
     },
     "amazonlinux/rust-bundled-packaging": {
       "id": 157781760,
@@ -679,12 +776,27 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:37:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/amazonlinux/rust-bundled-packaging/blob/archive/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6aa2bded0fdba91c8c5ce6fa72cfec3b912a7f7b",
+      "readme_excerpt": "This repository has been archived and is now read-only. - No new issues, pull requests, or commits can be made - The code remains available for viewing and cloning - All existing functionality is preserved **📂 View original repository content** If you need to unarchive this repository, please contact the repository maintainers.",
+      "readme_headings": [
+        "📦 Repository Archived",
+        "What this means:",
+        "View Original Code",
+        "Need to make changes?"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:07:12+00:00"
     },
     "amazonlinux/smart-restart": {
       "id": 721057689,
@@ -707,12 +819,52 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:37:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 37728,
+        "Makefile": 1958
+      },
+      "readme_url": "https://github.com/amazonlinux/smart-restart/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ccd950d64284a894dc0937f5e3187a8c840cc8f7",
+      "readme_excerpt": "This package restarts systemd services on system updates every time a package is updated (installed or deleted) using the systems package mamanger (every time `dnf {update, upgrade, downgrade}` is executed). It primarily is tailored for Amazon Linux 2023 but easily can be ported to all RPM based systems like Fedora. Smart-Restart utilizes the `needs-restarting` package from `dnf-utils` and a custom denylisting mechanism to determine which services need to be restarted and how to determine if a system reboot is advices. In case a system reboot is advised, a reboot hint marker file is generated (`/run/smart-restart/reboot-hint-marker`) containing the services and other",
+      "readme_headings": [
+        "Smart-Restart",
+        "Install using the package manager on AL2023",
+        "Configuration",
+        "Denylisting",
+        "Some comments",
+        "Custom hooks",
+        "Manual installation",
+        "Installation",
+        "Contribution",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "0b40f6f6e58dd9734155927602f7b8d659fe1de6",
+          "size": 1864,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/Makefile",
+          "sha": "98bc2449afdc2ca21451f435b3c09dc9fde524f5",
+          "size": 94,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:07:13+00:00"
     },
     "amazonlinux/update-motd": {
       "id": 671264807,
@@ -742,12 +894,30 @@
         "motd-message"
       ],
       "last_seen_scan_id": "2026-11-23T19:37:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 2361
+      },
+      "readme_url": "https://github.com/amazonlinux/update-motd/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1dc3e84d4403a507abaebb37e591ffda1ce4effe",
+      "readme_excerpt": "A simple framework for dynamically generating the Message Of The Day (`motd`) Framework and scripts for producing a dynamically generated Message Of The Day. Based on and compatible with the framework implemented Ubuntu. - The `amzn2` branch is what has been built in Amazon Linux 2 - The `al2023` branch is what has been built in Amazon Linux 2023 - The `main` branch is for any general development Any new development should be done on `main` and any bug fixes can be cherry-picked back. The `update-motd` package first shipped with Amazon Linux AMI 2011.9 (now known as Amazon Linux 1)",
+      "readme_headings": [
+        "update-motd",
+        "Branches",
+        "History",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:07:15+00:00"
     },
     "amazonlinux/upgrade-modules": {
       "id": 154886103,
@@ -770,12 +940,30 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:37:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 2963,
+        "Makefile": 584
+      },
+      "readme_url": "https://github.com/amazonlinux/upgrade-modules/blob/archive/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6aa2bded0fdba91c8c5ce6fa72cfec3b912a7f7b",
+      "readme_excerpt": "This repository has been archived and is now read-only. - No new issues, pull requests, or commits can be made - The code remains available for viewing and cloning - All existing functionality is preserved **📂 View original repository content** If you need to unarchive this repository, please contact the repository maintainers.",
+      "readme_headings": [
+        "📦 Repository Archived",
+        "What this means:",
+        "View Original Code",
+        "Need to make changes?"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:07:16+00:00"
     }
   },
   "pages_fetched": 1,

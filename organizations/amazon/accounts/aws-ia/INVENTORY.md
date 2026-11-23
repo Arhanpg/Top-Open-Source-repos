@@ -16,15 +16,15 @@
 | [aws-ia/cfn-abi-deepwatch-mdr](https://github.com/aws-ia/cfn-abi-deepwatch-mdr) | No description | 1 | CSS, Dockerfile, HTML, Python, Shell | False | False | True | captured | [Open](repositories/cfn-abi-deepwatch-mdr-621494914.md) |
 | [aws-ia/cfn-abi-ibmsecurity-qradar](https://github.com/aws-ia/cfn-abi-ibmsecurity-qradar) | No description | 1 | CSS, Dockerfile, HTML, Python, Shell | False | False | True | captured | [Open](repositories/cfn-abi-ibmsecurity-qradar-627052900.md) |
 | [aws-ia/cfn-abi-lacework-polygraph](https://github.com/aws-ia/cfn-abi-lacework-polygraph) | No description | 2 | CSS, Dockerfile, HTML, Python, Shell | False | False | True | captured | [Open](repositories/cfn-abi-lacework-polygraph-621441541.md) |
-| [aws-ia/cfn-abi-spotbynetapp-cloudcheckr](https://github.com/aws-ia/cfn-abi-spotbynetapp-cloudcheckr) | No description | 1 | Pending | False | False | True | pending | Not generated |
-| [aws-ia/cfn-abi-trend-cloudone](https://github.com/aws-ia/cfn-abi-trend-cloudone) | No description | 4 | Pending | False | False | True | pending | Not generated |
-| [aws-ia/cfn-ia-rules](https://github.com/aws-ia/cfn-ia-rules) | Python Package (CFN Lint Rules) | 4 | Pending | False | False | True | pending | Not generated |
-| [aws-ia/cfn-mp-ql-rules](https://github.com/aws-ia/cfn-mp-ql-rules) | Custom cfn-lint ruleset | 3 | Pending | False | False | True | pending | Not generated |
-| [aws-ia/cfn-ps-aerospike](https://github.com/aws-ia/cfn-ps-aerospike) | No description | 1 | Pending | True | False | True | pending | Not generated |
-| [aws-ia/cfn-ps-amazon-aurora-mysql](https://github.com/aws-ia/cfn-ps-amazon-aurora-mysql) | No description | 2 | Pending | True | False | True | pending | Not generated |
-| [aws-ia/cfn-ps-amazon-aurora-postgresql](https://github.com/aws-ia/cfn-ps-amazon-aurora-postgresql) | No description | 1 | Pending | True | False | True | pending | Not generated |
-| [aws-ia/cfn-ps-amazon-rds](https://github.com/aws-ia/cfn-ps-amazon-rds) | No description | 7 | Pending | True | False | True | pending | Not generated |
-| [aws-ia/cfn-ps-amazon-redshift](https://github.com/aws-ia/cfn-ps-amazon-redshift) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [aws-ia/cfn-abi-spotbynetapp-cloudcheckr](https://github.com/aws-ia/cfn-abi-spotbynetapp-cloudcheckr) | No description | 1 | CSS, Dockerfile, HTML, Python, Shell | False | False | True | captured | [Open](repositories/cfn-abi-spotbynetapp-cloudcheckr-630259239.md) |
+| [aws-ia/cfn-abi-trend-cloudone](https://github.com/aws-ia/cfn-abi-trend-cloudone) | No description | 4 | CSS, Dockerfile, HTML, Python, Shell | False | False | True | captured | [Open](repositories/cfn-abi-trend-cloudone-621161235.md) |
+| [aws-ia/cfn-ia-rules](https://github.com/aws-ia/cfn-ia-rules) | Python Package (CFN Lint Rules) | 4 | Python | False | False | True | captured | [Open](repositories/cfn-ia-rules-613975811.md) |
+| [aws-ia/cfn-mp-ql-rules](https://github.com/aws-ia/cfn-mp-ql-rules) | Custom cfn-lint ruleset | 3 | Python, jq | False | False | True | captured | [Open](repositories/cfn-mp-ql-rules-782993084.md) |
+| [aws-ia/cfn-ps-aerospike](https://github.com/aws-ia/cfn-ps-aerospike) | No description | 1 | Dockerfile, HTML, Python, Shell | True | False | True | captured | [Open](repositories/cfn-ps-aerospike-681799449.md) |
+| [aws-ia/cfn-ps-amazon-aurora-mysql](https://github.com/aws-ia/cfn-ps-amazon-aurora-mysql) | No description | 2 | Dockerfile, HTML, Python, Shell | True | False | True | captured | [Open](repositories/cfn-ps-amazon-aurora-mysql-678481001.md) |
+| [aws-ia/cfn-ps-amazon-aurora-postgresql](https://github.com/aws-ia/cfn-ps-amazon-aurora-postgresql) | No description | 1 | Dockerfile, HTML, Python, Shell | True | False | True | captured | [Open](repositories/cfn-ps-amazon-aurora-postgresql-670321597.md) |
+| [aws-ia/cfn-ps-amazon-rds](https://github.com/aws-ia/cfn-ps-amazon-rds) | No description | 7 | Dockerfile, HTML, Python, Shell | True | False | True | captured | [Open](repositories/cfn-ps-amazon-rds-682321278.md) |
+| [aws-ia/cfn-ps-amazon-redshift](https://github.com/aws-ia/cfn-ps-amazon-redshift) | No description | 1 | Dockerfile, HTML, Python, Shell | True | False | True | captured | [Open](repositories/cfn-ps-amazon-redshift-682306321.md) |
 | [aws-ia/cfn-ps-amazon-selling-partner-api](https://github.com/aws-ia/cfn-ps-amazon-selling-partner-api) | No description | 6 | Pending | True | False | True | pending | Not generated |
 | [aws-ia/cfn-ps-amazon-selling-partner-api-reports-notifications](https://github.com/aws-ia/cfn-ps-amazon-selling-partner-api-reports-notifications) | No description | 1 | Pending | True | False | True | pending | Not generated |
 | [aws-ia/cfn-ps-amazon-vpc-traffic-mirroring](https://github.com/aws-ia/cfn-ps-amazon-vpc-traffic-mirroring) | No description | 1 | Pending | True | False | True | pending | Not generated |

@@ -828,8 +828,8 @@
       "last_seen_scan_id": "2026-11-23T19:25:55+00:00",
       "readme_status": "unavailable",
       "languages_status": "captured",
-      "manifest_status": "error",
-      "audit_status": "evidence capture incomplete",
+      "manifest_status": "unavailable",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
       "public_in_latest_scan": true,
       "languages_bytes": {},
@@ -838,10 +838,9 @@
       "readme_sha": null,
       "readme_excerpt": "",
       "readme_headings": [],
-      "capture_errors": [
-        "manifest tree: GitHub API HTTP 409: {\"message\":\"Git Repository is empty.\",\"documentation_url\":\"https://docs.github.com/rest/git/trees#get-a-tree\",\"status\":\"409\"}"
-      ],
-      "enriched_at": "2026-11-23T19:26:26+00:00"
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:27+00:00",
+      "manifest_unavailable_reason": "repository has no Git commit/tree"
     },
     "NVIDIA/aerial-cuda-accelerated-ran": {
       "id": 1080750691,
@@ -1101,12 +1100,118 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:25:55+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 1362522,
+        "C++": 484170,
+        "Python": 467724,
+        "Shell": 13929,
+        "CMake": 12411,
+        "CSS": 4335,
+        "Dockerfile": 1978
+      },
+      "readme_url": "https://github.com/NVIDIA/aerial-omniverse-digital-twin/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "110b0ffbc62fb7a620f9c51a0e458f13283c74f6",
+      "readme_excerpt": "NVIDIA Aerial™ Omniverse Digital Twin (AODT) is a collection of frameworks and software tools for next-generation digital twins, enabling cutting-edge research and development of 5G and 6G wireless systems. AODT enables physically accurate simulations of complete 5G and 6G systems, from a single tower to city scale. It incorporates software-defined radio access network (RAN) and user-equipment simulators, along with realistic terrain and object properties. Researchers can use AODT to simulate and build base-station algorithms from site-specific data and train models in real time to improve transmission efficiency. This repository provides the simulation client, Digital Twin worker, 3D viewer, and Docker-based",
+      "readme_headings": [
+        "NVIDIA Aerial Omniverse Digital Twin (AODT)",
+        "Overview",
+        "Client",
+        "Worker",
+        "Container",
+        "Viewer",
+        "NVIDIA AI Aerial™"
+      ],
+      "manifest_paths": [
+        {
+          "path": "client/CMakeLists.txt",
+          "sha": "984e5994e4c75026a786bae490422c5bdbdb2c74",
+          "size": 9042,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "client/pyproject.toml",
+          "sha": "02ace5fca56fc3883914efde2f3b12378e5cbc05",
+          "size": 469,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "container/Dockerfile",
+          "sha": "557ab90bb3feff7c0c9ed5c6d0158045e5b44036",
+          "size": 1379,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "viewer/Dockerfile",
+          "sha": "207bf937e383fd111f21287c1eb2d80589fc4306",
+          "size": 599,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "viewer/package.json",
+          "sha": "4454d58315a0b5112e8564030efc8f74e2ce0da2",
+          "size": 1988,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-sdk/client-glue",
+            "@react-router/dev",
+            "@react-router/node",
+            "@react-router/serve",
+            "@tailwindcss/vite",
+            "@testing-library/jest-dom",
+            "@testing-library/react",
+            "@testing-library/user-event",
+            "@types/js-yaml",
+            "@types/node",
+            "@types/proj4",
+            "@types/react",
+            "@types/react-dom",
+            "@vitest/coverage-v8",
+            "@vitest/ui",
+            "cesium",
+            "cross-env",
+            "duckdb",
+            "epsg-index",
+            "happy-dom",
+            "hyparquet",
+            "js-yaml",
+            "jsdom",
+            "lodash",
+            "prettier",
+            "proj4",
+            "react",
+            "react-dom",
+            "react-router",
+            "react-router-dom",
+            "tailwindcss",
+            "typescript",
+            "vite",
+            "vite-tsconfig-paths",
+            "vitest",
+            "zustand"
+          ]
+        },
+        {
+          "path": "client/config/CMakeLists.txt",
+          "sha": "50b66c50e73e236e87acb541939f8494e6d3ee5f",
+          "size": 3369,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:30+00:00"
     },
     "NVIDIA/aerial-sample-apps": {
       "id": 1204255808,
@@ -1129,12 +1234,78 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:25:55+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 204912,
+        "C++": 201545,
+        "Shell": 29907,
+        "CMake": 7892,
+        "Dockerfile": 6615
+      },
+      "readme_url": "https://github.com/NVIDIA/aerial-sample-apps/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f7188a9d5097576bbbcb75aa337f03185659f810",
+      "readme_excerpt": "A collection of example applications and reference implementations for the NVIDIA AI Aerial platform. - **dapps/**: Distributed applications using the E3 interface for real-time RAN data processing and control, validated on Additional sample applications targeting other parts of the AI Aerial platform will be added in future releases. Each component versions independently; per-release changes are listed in its own `CHANGELOG.md`. NVIDIA AI Aerial™ Sample Applications are part of NVIDIA AI Aerial™, a portfolio of accelerated computing platforms, software and tools to build, train, simulate, and deploy AI-native wireless networks. Learn more in AI Aerial™ Documentation. The following AI Aerial™ software",
+      "readme_headings": [
+        "NVIDIA AI Aerial Sample Applications",
+        "Contents",
+        "NVIDIA AI Aerial™",
+        "License",
+        "Contributing",
+        "Security"
+      ],
+      "manifest_paths": [
+        {
+          "path": "dapps/CMakeLists.txt",
+          "sha": "81e08c3282bf80cf509d77fc0f86a84f1b8f6a3c",
+          "size": 2137,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "dapps/applications/prb-power-python/CMakeLists.txt",
+          "sha": "dde8abc4f3cdb79a3c2944a5283526edb4dadfe6",
+          "size": 1546,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "dapps/applications/prb-power-python/Dockerfile",
+          "sha": "ef8d96dd8170f6153805202931b3f684839ba764",
+          "size": 1864,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "dapps/applications/prb-power-triton-grpc/CMakeLists.txt",
+          "sha": "88f1ed20f633536f501caa2e48e4c6671dd449ff",
+          "size": 1535,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "dapps/applications/prb-power-triton-grpc/Dockerfile",
+          "sha": "a92dfc40434a7a1dabac9b8bc2ddb972d58e337b",
+          "size": 2746,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "dapps/applications/prb-power-triton/CMakeLists.txt",
+          "sha": "432407126affc4803de13b682ab59334d44b4f3b",
+          "size": 1470,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:34+00:00"
     },
     "NVIDIA/agent-package-spec": {
       "id": 1380523623,
@@ -1157,12 +1328,38 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:25:55+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/NVIDIA/agent-package-spec/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5ffee99c25670b4f04d4413849ef4c145d7a8112",
+      "readme_excerpt": "This repository proposes a standard way to package and distribute **agent skills and agent plugins as OCI artifacts**. The aim is to give publishers, registries, marketplaces, and agent hosts a common distribution format that works with existing OCI tooling for versioning, signing, verification, and promotion. The draft specification preserves the native Skill or Plugin files and adds an OCI manifest, package metadata, and a verifiable file inventory around them. A Skill or Plugin package is an OCI artifact; it does not need to be a container image that runs an application. **This is a proposal for community review, not an",
+      "readme_headings": [
+        "Agent Package Specification",
+        "Why package Skills and Plugins?",
+        "Build one verifiable release artifact",
+        "Use OCI as the distribution envelope",
+        "Design at a glance",
+        "Illustrative Example Workflow",
+        "Publisher flow",
+        "Consumer flow",
+        "Scope",
+        "Prior work",
+        "Read the proposal",
+        "Status",
+        "Provide feedback",
+        "Change process",
+        "License"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:35+00:00"
     },
     "NVIDIA/agent-policy-fabric": {
       "id": 1409483917,
@@ -1185,12 +1382,135 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:25:55+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Rust": 2006521,
+        "Shell": 142043,
+        "Python": 47838,
+        "Dockerfile": 4607,
+        "Go Template": 3282
+      },
+      "readme_url": "https://github.com/NVIDIA/agent-policy-fabric/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4fd4028b37f12a0e305713f5e27022fc9e886391",
+      "readme_excerpt": "APF governs what agentic workloads are allowed to do. Policy is authored and signed once, independent of any execution environment, letting the enterprise — not the developer or the agent itself — set the rules every decision is evaluated against, rather than each agent or host carrying its own hand-built version of \"what's allowed.\" Every agent follows one governed path: admitted once under signed policy, then gated at every layer on every action. Every layer has to agree before a call proceeds: - **Sandbox containment and admission** (OpenShell) — what a sandbox can even attempt, and which tools it may",
+      "readme_headings": [
+        "APF — Agent Policy Fabric",
+        "How it works",
+        "Documentation",
+        "Contributing",
+        "License",
+        "Upstream license copies",
+        "Notice and disclaimer"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Cargo.toml",
+          "sha": "416be281db47478d7509b8e87ffb6fd53bcb67bd",
+          "size": 630,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "xtask/Cargo.toml",
+          "sha": "66ed2a360483cd8a024208268765cd4bf0da5882",
+          "size": 196,
+          "content_status": "captured",
+          "dependency_hints": [
+            "serde",
+            "serde_json",
+            "toml"
+          ]
+        },
+        {
+          "path": "crates/apf-audit/Cargo.toml",
+          "sha": "6779263ed30693f4d9b3689aac2107c9045a27ca",
+          "size": 651,
+          "content_status": "captured",
+          "dependency_hints": [
+            "jsonschema",
+            "nix",
+            "serde",
+            "serde_json",
+            "thiserror",
+            "time",
+            "tracing",
+            "tracing-subscriber",
+            "uuid"
+          ]
+        },
+        {
+          "path": "crates/apf-bundle/Cargo.toml",
+          "sha": "1d0fcc87399b9cb6d54e905c2d2420bfd846e81e",
+          "size": 804,
+          "content_status": "captured",
+          "dependency_hints": [
+            "apf-types",
+            "base64",
+            "chrono",
+            "ed25519-dalek",
+            "getrandom",
+            "hex",
+            "p256",
+            "semver",
+            "serde",
+            "serde_yaml",
+            "sha2",
+            "tempfile",
+            "thiserror",
+            "yaml-sigil-core",
+            "yaml-sigil-signing",
+            "yaml-sigil-traits",
+            "yaml-sigil-verification"
+          ]
+        },
+        {
+          "path": "crates/apf-compile/Cargo.toml",
+          "sha": "957ffc882630133cee804d724b4db1749c4844d8",
+          "size": 677,
+          "content_status": "captured",
+          "dependency_hints": [
+            "anyhow",
+            "apf-bundle",
+            "apf-compiler",
+            "apf-types",
+            "base64",
+            "clap",
+            "ed25519-dalek",
+            "hex",
+            "rand",
+            "serde_yaml",
+            "sha2",
+            "yaml-sigil-signing",
+            "yaml-sigil-traits"
+          ]
+        },
+        {
+          "path": "crates/apf-compiler/Cargo.toml",
+          "sha": "dc3dcad1f1b0b43ad8759ca4be0d3604d23e4d6c",
+          "size": 477,
+          "content_status": "captured",
+          "dependency_hints": [
+            "apf-bundle",
+            "apf-policy-eval",
+            "apf-proto",
+            "prost",
+            "prost-types",
+            "serde",
+            "serde_json",
+            "serde_yaml",
+            "thiserror"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:38+00:00"
     },
     "NVIDIA/ai-assisted-annotation-client": {
       "id": 167228756,
@@ -1213,12 +1533,81 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:25:55+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 288485,
+        "Python": 100239,
+        "CMake": 46856,
+        "C": 1852
+      },
+      "readme_url": "https://github.com/NVIDIA/ai-assisted-annotation-client/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5ac26f712150e1107bf5e09fa9dbf22ee3876aff",
+      "readme_excerpt": "NVIDIA AI-Assisted Annotation SDK follows a client-server approach to integrate into an application. Clara Train SDK container on ngc.nvidia.com is generally available for download, annotation server is included in the package. Once a user has setup the AI-Assisted Annotation Server, user can use either C++ or Python client to integrate the SDK into an existing medical imaging application. AI-Assisted Annotation is a cross-platform C++/Python Client API to communicate with AI-Assisted Annotation Server for NVIDIA and it officially supports: - Linux (Ubuntu16+) - macOS (High Sierra and above) - Windows (Windows 10) Following plugins integrate with NVIDIA AI-Assisted Annotation through either",
+      "readme_headings": [
+        "NVIDIA AI-Assisted Annotation Client",
+        "Supported Platforms",
+        "Plugins",
+        "Quick Start",
+        "1. build first and install",
+        "2. Or just install",
+        "Contributions"
+      ],
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "aaa60c8dcb4bc4d825cb3ad385a2c10878f2abac",
+          "size": 5164,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "setup.py",
+          "sha": "5784d15f8675bfa6fc19e8d7532923b864b99997",
+          "size": 737,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cpp-client/CMakeLists.txt",
+          "sha": "ed5d78d92da91408d9b5fecae81c21357c399213",
+          "size": 3757,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "9eea37ff3d1f4fd9d0654010cb01f95c84427917",
+          "size": 2290,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "py_client/requirements.txt",
+          "sha": "a0bfc8de37889a5cf605b73d5a0bda0f75165234",
+          "size": 31,
+          "content_status": "captured",
+          "dependency_hints": [
+            "SimpleITK",
+            "numpy"
+          ]
+        },
+        {
+          "path": "slicer-plugin/CMakeLists.txt",
+          "sha": "02b6e30ae954194ba26a161c8cd0ac8f6bbc73fd",
+          "size": 1758,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:41+00:00"
     },
     "NVIDIA/AI-Factory-Operations-Agent": {
       "id": 1266698124,
@@ -1241,12 +1630,93 @@
       "open_issues": 24,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:25:55+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 232622,
+        "JavaScript": 214990,
+        "Python": 98241,
+        "Shell": 30434,
+        "HTML": 16950,
+        "Go Template": 8231
+      },
+      "readme_url": "https://github.com/NVIDIA/AI-Factory-Operations-Agent/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7df62de00e1aca39f6030c2e4242295f916b0a89",
+      "readme_excerpt": "Deploy specialized AI agents to investigate cluster issues and streamline governed AI factory operations. AI Factory Operations Agent is an NVIDIA blueprint for deploying an extensible agentic operations framework built with NemoClaw. Specialized agents gather and correlate evidence across cluster systems, generate clear root cause summaries, and recommend next steps through governed, auditable workflows that teams can adapt to their own AI factory environments. Supported workflows include: - Read-only Kubernetes workload and cluster inspection. - Prometheus and VictoriaMetrics queries and Grafana dashboard creation. - Slurm job root-cause analysis from scheduler and log evidence. - Optional cluster-management integrations. - Sandboxed command",
+      "readme_headings": [
+        "AI Factory Operations Agent",
+        "Overview",
+        "Architecture",
+        "Requirements",
+        "Getting Started",
+        "Usage",
+        "Releases & Roadmap",
+        "Contribution Guidelines",
+        "Governance & Maintainers",
+        "Security",
+        "Support",
+        "Community",
+        "References",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "docs/pyproject.toml",
+          "sha": "0a216eac74dbf679316278983dd39b6901cbf44b",
+          "size": 384,
+          "content_status": "captured",
+          "dependency_hints": [
+            "myst-parser",
+            "nvidia-sphinx-theme",
+            "pyyaml",
+            "sphinx",
+            "sphinx-copybutton"
+          ]
+        },
+        {
+          "path": "helm/afoa-inference/Chart.yaml",
+          "sha": "a82518168b56d326a32a092b0704aa218f1a462c",
+          "size": 302,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "helm/mosaic-stack/Chart.yaml",
+          "sha": "bff173306a6074f9fda1d69376657545429e3cc9",
+          "size": 671,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "helm/mosaic-stack/files/openclaw-seed/extensions/automation-guard/package.json",
+          "sha": "a7b667dbcca812d8e00220251219c417d2099909",
+          "size": 262,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "helm/mosaic-stack/files/openclaw-seed/extensions/bcm/package.json",
+          "sha": "6543d9910a3a8c157c779ef40cb5f69b58f16655",
+          "size": 278,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "helm/mosaic-stack/files/openclaw-seed/extensions/dcgm/package.json",
+          "sha": "3428b16ee3b9e343af65bc3c204974663f2ae0b6",
+          "size": 259,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:43+00:00"
     },
     "NVIDIA/aicr": {
       "id": 1146205509,
@@ -1278,12 +1748,175 @@
         "runtime"
       ],
       "last_seen_scan_id": "2026-11-23T19:25:55+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 26195477,
+        "YAML": 5103969,
+        "Shell": 2467121,
+        "Markdown": 1517952,
+        "HTML": 203633,
+        "OpenAPI Specification v3": 164735,
+        "JavaScript": 148355,
+        "JSON": 118625,
+        "Python": 88248,
+        "Makefile": 83963,
+        "Go Checksums": 79281,
+        "HCL": 46710,
+        "Go Template": 41427,
+        "Dockerfile": 17037,
+        "Go Module": 15434,
+        "TOML": 7611,
+        "Text": 3026,
+        "Pip Requirements": 816,
+        "Starlark": 767,
+        "Ignore List": 255
+      },
+      "readme_url": "https://github.com/NVIDIA/aicr/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "daf64fed864ef6199d916a7353acedd28047ac46",
+      "readme_excerpt": "AI Cluster Runtime (AICR) makes it easy to stand up GPU-accelerated Kubernetes clusters. It captures known-good combinations of drivers, operators, kernels, and system configurations and publishes them as version-locked **recipes** — reproducible artifacts for Helm, Argo CD, Flux, and Helmfile. Running GPU-accelerated Kubernetes clusters reliably is hard. Small differences in kernel versions, drivers, container runtimes, operators, and Kubernetes releases can cause failures that are difficult to diagnose and expensive to reproduce. Historically, this knowledge has lived in internal validation pipelines and runbooks. AI Cluster Runtime makes it available to everyone. Every AICR recipe is: - **Optimized** — Tuned for a",
+      "readme_headings": [
+        "NVIDIA AI Cluster Runtime",
+        "Why We Built This",
+        "Quick Start",
+        "Install the CLI (Homebrew)",
+        "Or use the install script",
+        "Generate a recipe for your environment",
+        "Render it into deployment-ready bundles (helm, argocd, argocd-helm, flux, helmfile, terraform, or fleet)",
+        "After deploying the bundle, validate the running cluster against the recipe",
+        "the bundle deployed (every bundle records it at its root)",
+        "Select hydrated config value (e.g., the resolved GPU driver version)",
+        "Features",
+        "Supported Components",
+        "Supported Environments",
+        "How It Works",
+        "What AI Cluster Runtime Is Not",
+        "Documentation",
+        "Resources",
+        "Contributing"
+      ],
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "3a3fb776a90856643929667f21051bf125e6a3b3",
+          "size": 15434,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cel.dev/expr",
+            "cloud.google.com/go",
+            "cloud.google.com/go/auth",
+            "cloud.google.com/go/auth/oauth2adapt",
+            "cloud.google.com/go/compute/metadata",
+            "cloud.google.com/go/iam",
+            "cloud.google.com/go/kms",
+            "cloud.google.com/go/longrunning",
+            "dario.cat/mergo",
+            "github.com/Azure/azure-sdk-for-go/sdk/azcore",
+            "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+            "github.com/Azure/azure-sdk-for-go/sdk/internal",
+            "github.com/Azure/azure-sdk-for-go/sdk/security/keyvault/azkeys",
+            "github.com/Azure/azure-sdk-for-go/sdk/security/keyvault/internal",
+            "github.com/AzureAD/microsoft-authentication-library-for-go",
+            "github.com/CycloneDX/cyclonedx-go",
+            "github.com/IGLOU-EU/go-wildcard",
+            "github.com/Masterminds/goutils",
+            "github.com/Masterminds/semver/v3",
+            "github.com/Masterminds/sprig/v3",
+            "github.com/Mellanox/network-operator",
+            "github.com/Mellanox/nic-configuration-operator",
+            "github.com/NVIDIA/k8s-operator-libs",
+            "github.com/ProtonMail/go-crypto",
+            "github.com/antlr4-go/antlr/v4",
+            "github.com/aquilax/truncate",
+            "github.com/asaskevich/govalidator",
+            "github.com/aws/aws-sdk-go-v2",
+            "github.com/aws/aws-sdk-go-v2/config",
+            "github.com/aws/aws-sdk-go-v2/credentials",
+            "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "github.com/aws/aws-sdk-go-v2/internal/v4a",
+            "github.com/aws/aws-sdk-go-v2/service/ecr",
+            "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "github.com/aws/aws-sdk-go-v2/service/kms",
+            "github.com/aws/aws-sdk-go-v2/service/signin",
+            "github.com/aws/aws-sdk-go-v2/service/sso",
+            "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+            "github.com/aws/aws-sdk-go-v2/service/sts",
+            "github.com/aws/smithy-go",
+            "github.com/beorn7/perks",
+            "github.com/blang/semver/v4",
+            "github.com/cenkalti/backoff/v4",
+            "github.com/cenkalti/backoff/v5",
+            "github.com/cespare/xxhash/v2",
+            "github.com/cloudflare/circl",
+            "github.com/coreos/go-oidc/v3",
+            "github.com/coreos/go-systemd/v22",
+            "github.com/cyberphone/json-canonicalization",
+            "github.com/davecgh/go-spew",
+            "github.com/digitorus/pkcs7",
+            "github.com/digitorus/timestamp",
+            "github.com/distribution/distribution/v3",
+            "github.com/distribution/reference",
+            "github.com/docker/cli",
+            "github.com/docker/docker-credential-helpers",
+            "github.com/docker/go-events"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "af1e66e0fdd483ba554141ba04ab488a08aa74c7",
+          "size": 83963,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".devcontainer/Dockerfile",
+          "sha": "6a6e6209a8f6b17552d30844c93df7e24a8965ff",
+          "size": 1141,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "charts/aicr-operator/Chart.yaml",
+          "sha": "324ef0a0f7979cfb64c8aaeea7a70d6ea44684d3",
+          "size": 979,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cmd/gate/Dockerfile",
+          "sha": "acfedbc653dc6d56751df58b1d0ec58ac485d408",
+          "size": 3056,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tools/mdx/package.json",
+          "sha": "4470c36d35dfd63d652a8a87ecc447d74b339354",
+          "size": 678,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@mdx-js/mdx",
+            "micromark-core-commonmark",
+            "micromark-util-character",
+            "micromark-util-symbol",
+            "remark-frontmatter",
+            "remark-gfm",
+            "unist-util-visit",
+            "yaml"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:46+00:00"
     },
     "NVIDIA/air_agent": {
       "id": 520616053,
@@ -1306,12 +1939,50 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:25:55+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 96867,
+        "Shell": 1903
+      },
+      "readme_url": "https://github.com/NVIDIA/air_agent/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "04d8c99b5eca763b5cbb26582ab458f5655f9b50",
+      "readme_excerpt": "The NVIDIA Air Agent is a systemd service that detects if a VM has been cloned. When a clone operation has been detected, it calls out to the Air API to see if there are any post-clone instructions available to execute. Make sure `python3` and either `python3-pip` are installed: sudo apt update && sudo apt install -y python3 python3-pip Install the dependencies via pip: python3 -m pip install . Make sure `python3`, `python3-cryptography`, `python3-git`, `python3-requests` and `util-linux-extra` (required for use of the `hwclock` command by the agent) are installed: sudo apt update && sudo apt install -y python3 python3-cryptography python3-git",
+      "readme_headings": [
+        "air-agent",
+        "Pre-requisites",
+        "Ubuntu 18.04/20.04/22.04",
+        "Ubuntu 24.04",
+        "Installing",
+        "For devices where connectivity to Air is desired over a VRF",
+        "Configuration"
+      ],
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "e65bf6bf7b16dd2f1b619b226d718965df154943",
+          "size": 791,
+          "content_status": "captured",
+          "dependency_hints": [
+            "certifi",
+            "coverage",
+            "cryptography",
+            "gitpython",
+            "pre-commit",
+            "pytest",
+            "requests",
+            "ruff"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:48+00:00"
     },
     "NVIDIA/air_sdk": {
       "id": 516436526,
@@ -1334,12 +2005,24 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:25:55+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/NVIDIA/air_sdk/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "322f1c387790aa28551e5551b6d51cbe88680687",
+      "readme_excerpt": "This legacy SDK is no longer maintained. For the current NVIDIA Air SDK, visit NVIDIA/nv-air-sdk.",
+      "readme_headings": [
+        "NVIDIA Air SDK"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:01:49+00:00"
     },
     "NVIDIA/ais-etl": {
       "id": 261856396,

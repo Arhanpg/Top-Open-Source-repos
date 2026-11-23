@@ -1038,12 +1038,101 @@
       "open_issues": 38,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:35:48+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Rust": 519022,
+        "JavaScript": 1796,
+        "Makefile": 317
+      },
+      "readme_url": "https://github.com/bottlerocket-os/bottlerocket-settings-sdk/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a4f074fd6cd81a1efc7009c2be991789a3315d46",
+      "readme_excerpt": "A Rust library for creating extensions to Bottlerocket's Settings API. For more information, see the design document for modular Settings Extensions. This project is currently being used in preliminary testing in the Bottlerocket repository, and is not ready for contributions. We welcome ideas and requirements in the form of issues and comments! See CONTRIBUTING for more information. See the COPYRIGHT file for our project's licensing. We will ask you to confirm the licensing of your contribution.",
+      "readme_headings": [
+        "bottlerocket-settings-sdk",
+        "🚧👷",
+        "Security",
+        "Licensing"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Cargo.toml",
+          "sha": "bdc7fce63d0e9e725018fa0df4e60046001f7e0f",
+          "size": 7544,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "5db6a70729947cc7b3018e54ce24afb0e08bbb27",
+          "size": 317,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "bottlerocket-defaults-helper/Cargo.toml",
+          "sha": "0fe7de9bf8832ef2727f6e002d184411e600eb67",
+          "size": 452,
+          "content_status": "captured",
+          "dependency_hints": [
+            "snafu",
+            "toml",
+            "walkdir"
+          ]
+        },
+        {
+          "path": "bottlerocket-settings-derive/Cargo.toml",
+          "sha": "be169d13df915ee335451215843626f14e59c5ec",
+          "size": 408,
+          "content_status": "captured",
+          "dependency_hints": [
+            "darling",
+            "proc-macro2",
+            "quote",
+            "syn"
+          ]
+        },
+        {
+          "path": "bottlerocket-settings-plugin/Cargo.toml",
+          "sha": "ddd8b5336f9a259dea3f6037f55742d868fd45a1",
+          "size": 409,
+          "content_status": "captured",
+          "dependency_hints": [
+            "abi_stable",
+            "bottlerocket-settings-derive",
+            "lazy_static",
+            "serde",
+            "serde_json"
+          ]
+        },
+        {
+          "path": "bottlerocket-settings-sdk/Cargo.toml",
+          "sha": "354d0cdf4aa1e77512ef9727ef1c313604b5c255",
+          "size": 811,
+          "content_status": "captured",
+          "dependency_hints": [
+            "anyhow",
+            "argh",
+            "bottlerocket-template-helper",
+            "ctor",
+            "env_logger",
+            "log",
+            "maplit",
+            "serde",
+            "serde_json",
+            "snafu",
+            "tracing"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:06:06+00:00"
     },
     "bottlerocket-os/bottlerocket-test-system": {
       "id": 381435140,
@@ -1066,12 +1155,108 @@
       "open_issues": 72,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:35:48+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Rust": 779190,
+        "Dockerfile": 29561,
+        "Makefile": 22320,
+        "Shell": 10574,
+        "Go": 8343
+      },
+      "readme_url": "https://github.com/bottlerocket-os/bottlerocket-test-system/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "37983de30f6e4b50d3ad7ec5b61c997b7476be86",
+      "readme_excerpt": "A system for testing Bottlerocket. To learn more about how it works, see the design document. The system consists of a command line interface, Kubernetes controller, custom resource definition (CRD) objects and containers that allow you to create resources and run tests. You install TestSys into a cluster of your choice, we call this the *TestSys cluster*. When running a test, resource agents create an external cluster where we run Bottlerocket instances and run tests. This is called an *external cluster*. See our QUICKSTART for a walk through of compiling, deploying, and running a quick test. More detailed quickstart guides",
+      "readme_headings": [
+        "Bottlerocket Test System",
+        "Overview",
+        "Quickstart",
+        "Development",
+        "Project Structure",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Cargo.toml",
+          "sha": "7228c1dc38c0d04b442ffaab2a322d0eee4a8ce6",
+          "size": 340,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Dockerfile",
+          "sha": "a56220b37878b56b43ceebde0862b7bc908374c5",
+          "size": 10095,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "69ab03b2952303c1f715f893268968e8782af6dd",
+          "size": 11351,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cli/Cargo.toml",
+          "sha": "be73664c312122efd786092631251892b5bbe7f4",
+          "size": 597,
+          "content_status": "captured",
+          "dependency_hints": [
+            "anyhow",
+            "assert_cmd",
+            "clap",
+            "env_logger",
+            "futures",
+            "log",
+            "selftest",
+            "serde_json",
+            "terminal_size",
+            "testsys-model",
+            "tokio"
+          ]
+        },
+        {
+          "path": "controller/Cargo.toml",
+          "sha": "46912cfcd3998a74c99e211d88bdf5faf5bc597c",
+          "size": 858,
+          "content_status": "captured",
+          "dependency_hints": [
+            "anyhow",
+            "aws-config",
+            "aws-lc-rs",
+            "aws-sdk-cloudwatchlogs",
+            "aws-types",
+            "env_logger",
+            "futures",
+            "http",
+            "k8s-openapi",
+            "kube",
+            "kube-runtime",
+            "lazy_static",
+            "log",
+            "snafu",
+            "testsys-model",
+            "tokio"
+          ]
+        },
+        {
+          "path": "controller/Dockerfile",
+          "sha": "4847eb397853ee97dc528e959f575a9b88e277fd",
+          "size": 542,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:06:09+00:00"
     },
     "bottlerocket-os/bottlerocket-update-operator": {
       "id": 240619080,
@@ -1094,12 +1279,174 @@
       "open_issues": 60,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:35:48+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Rust": 410139,
+        "Shell": 5513,
+        "Makefile": 5231,
+        "Dockerfile": 1923,
+        "Mustache": 1735
+      },
+      "readme_url": "https://github.com/bottlerocket-os/bottlerocket-update-operator/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "42bb367d2e83cd5e15d85f2e5a86e11a0a60923f",
+      "readme_excerpt": "The Bottlerocket update operator (or, for short, Brupop) is a Kubernetes operator that coordinates Bottlerocket updates on hosts in a cluster. When installed, the Bottlerocket update operator starts a controller deployment on one node, an agent daemon set on every Bottlerocket node, and an Update Operator API Server deployment. The controller orchestrates updates across your cluster, while the agent is responsible for periodically querying for Bottlerocket updates, draining the node, and performing the update when asked by the controller. The agent performs all cluster object mutation operations via the API Server, which performs additional authorization using the Kubernetes TokenReview API",
+      "readme_headings": [
+        "Bottlerocket Update Operator",
+        "Getting Started",
+        "Version Support Policy",
+        "Installation",
+        "Add the cert-manager helm chart",
+        "Update your local chart cache with the latest",
+        "Install the cert-manager (including its CRDs)",
+        "Add the bottlerocket-update-operator chart",
+        "Update your local chart cache with the latest updates",
+        "Create a namespace",
+        "Install the brupop CRD",
+        "Install the brupop operator",
+        "Configuration",
+        "Configure via Helm values yaml file",
+        "Default values for bottlerocket-update-operator.",
+        "The namespace to deploy the update operator into",
+        "The image to use for brupop",
+        "This defaults to the image built alongside a particular helm chart, but you can override it by uncommenting this line:",
+        "image: \"public.ecr.aws/bottlerocket/bottlerocket-update-operator:v1.8.0\"",
+        "Placement controls",
+        "See the Kubernetes documentation about placement controls for more details:",
+        "* https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/",
+        "* https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodeselector",
+        "* https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity",
+        "If testing against a private image registry, you can set the pull secret to fetch images.",
+        "This can likely remain as `brupop` so long as you run something like the following:",
+        "kubectl create secret docker-registry brupop \\",
+        "--docker-server 109276217309.dkr.ecr.us-west-2.amazonaws.com \\",
+        "--docker-username=AWS \\",
+        "--docker-password=$(aws --region us-west-2 ecr get-login-password) \\"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Cargo.toml",
+          "sha": "d0b4fff31a3224cbac44deb3ffc5cbbeb16e783c",
+          "size": 2919,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Dockerfile",
+          "sha": "468c77da5e55a9c5641bad460cf84918ebcb60a3",
+          "size": 1923,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "095d317462339db9e4d4b342517a72fc4c733956",
+          "size": 5231,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "agent/Cargo.toml",
+          "sha": "f2167f5b23f3915717a204707a4b5a8775d82134",
+          "size": 828,
+          "content_status": "captured",
+          "dependency_hints": [
+            "apiserver",
+            "chrono",
+            "futures",
+            "governor",
+            "http",
+            "k8s-openapi",
+            "kube",
+            "lazy_static",
+            "models",
+            "nonzero_ext",
+            "semver",
+            "serde",
+            "serde_json",
+            "snafu",
+            "tokio",
+            "tokio-retry",
+            "tracing"
+          ]
+        },
+        {
+          "path": "apiserver/Cargo.toml",
+          "sha": "2aadac7b2e3f7f178b3ec39554acdfa021630f0d",
+          "size": 1455,
+          "content_status": "captured",
+          "dependency_hints": [
+            "actix-web",
+            "async-trait",
+            "awc",
+            "futures",
+            "governor",
+            "http",
+            "k8s-openapi",
+            "kube",
+            "lazy_static",
+            "log",
+            "maplit",
+            "mockall",
+            "models",
+            "nonzero_ext",
+            "opentelemetry",
+            "opentelemetry-instrumentation-actix-web",
+            "opentelemetry-prometheus",
+            "opentelemetry_sdk",
+            "prometheus",
+            "reqwest",
+            "rustls",
+            "rustls-pemfile",
+            "schemars",
+            "serde",
+            "serde_json",
+            "snafu",
+            "tokio",
+            "tokio-retry",
+            "tracing",
+            "tracing-actix-web"
+          ]
+        },
+        {
+          "path": "controller/Cargo.toml",
+          "sha": "b72b5e70c24749c3a9d8b96839e009fd1bbd7c37",
+          "size": 888,
+          "content_status": "captured",
+          "dependency_hints": [
+            "actix-web",
+            "chrono",
+            "cron",
+            "futures",
+            "http",
+            "k8s-openapi",
+            "kube",
+            "lazy_static",
+            "maplit",
+            "models",
+            "opentelemetry",
+            "opentelemetry-prometheus",
+            "opentelemetry_sdk",
+            "prometheus",
+            "regex",
+            "semver",
+            "serde",
+            "serde_plain",
+            "snafu",
+            "tokio",
+            "tracing",
+            "validator"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:06:12+00:00"
     },
     "bottlerocket-os/hotdog": {
       "id": 438819602,
@@ -1122,12 +1469,56 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:35:48+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 30184,
+        "Makefile": 799
+      },
+      "readme_url": "https://github.com/bottlerocket-os/hotdog/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "8b2a77bca9a2c3e6b7dcfc59e582e4ad62248f8d",
+      "readme_excerpt": "Hotdog is a set of OCI hooks used to inject the containers. :warning: Hotdog is very close to end-of-life. It has been twenty months since CVE-2021-44228 was discovered, and we expect that the vast majority of Java applications have been patched by this time. We're also not aware of any use of Hotdog outside of Bottlerocket, which no longer uses it. Therefore, we plan to end-of-life Hotdog by November 2023. Please open an issue if this affects you. When runc sets up the container, it invokes `hotdog-cc-hook`. `hotdog-cc-hook` bind-mounts the hotpatch files into the container's filesystem at `/dev/shm/.hotdog`. After the",
+      "readme_headings": [
+        "Hotdog",
+        "How it works",
+        "Limitations",
+        "Installation",
+        "Bottlerocket",
+        "Other Linux distributions",
+        "Troubleshooting",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "5e54e572d30856e64853e80a8628e2e140abb7a5",
+          "size": 305,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/opencontainers/runtime-spec",
+            "github.com/opencontainers/selinux",
+            "golang.org/x/sys",
+            "kernel.org/pub/linux/libs/security/libcap/cap",
+            "kernel.org/pub/linux/libs/security/libcap/psx"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "0b7e4d6609fcdaed92546fc2fb1e572f36cfa2fe",
+          "size": 799,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:06:14+00:00"
     },
     "bottlerocket-os/twoliter": {
       "id": 633089849,
@@ -1152,12 +1543,171 @@
         "bottlerocket"
       ],
       "last_seen_scan_id": "2026-11-23T19:35:48+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Rust": 1778212,
+        "Shell": 264967,
+        "Dockerfile": 31957,
+        "Makefile": 1419,
+        "Go": 184
+      },
+      "readme_url": "https://github.com/bottlerocket-os/twoliter/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "64eafa0790994fe3fe04c95c961e9fc64b2c515e",
+      "readme_excerpt": "A build tool for creating custom [Bottlerocket] variants. See the [design doc] describing how Twoliter works. We welcome ideas and requirements in the form of issues and comments! This section includes information for maintainers about testing and releasing Twoliter. If you run `cargo test` you will get the default features which includes the feature `integ-tests`. These will be quite slow as some of them do complete builds. If you don't have time for that, run `cargo test --no-default-features` to run only the fast tests. In general, if you have changes to Twoliter and want to try them out in a",
+      "readme_headings": [
+        "Twoliter",
+        "For Maintainers",
+        "Unit Tests and Integration Tests",
+        "Testing the Binary in a Project",
+        "Testing Twoliter Changes in the Bottlerocket Repo",
+        "The URL to the Twoliter git repository. This can be anything that git remote add would accept.",
+        "Here we are using a path on the local filesystem.",
+        "The sha of the commit you want to use. Make sure changes have been committed!",
+        "These need to be set as follows.",
+        "Alternative Method of Testing in the Bottlerocket Repo",
+        "Releasing"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Cargo.toml",
+          "sha": "51f17eb334f1967883a2a4323ce13af40e3d4caf",
+          "size": 8690,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "75deb6607bdbbb8d7673af4032767eb3ea9db3bc",
+          "size": 1419,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "twoliter/Cargo.toml",
+          "sha": "1d4711c369755043675f5223127f792990a12b30",
+          "size": 2275,
+          "content_status": "captured",
+          "dependency_hints": [
+            "anyhow",
+            "async-recursion",
+            "async-trait",
+            "async-walkdir",
+            "base64",
+            "buildsys-config",
+            "bytes",
+            "clap",
+            "env_logger",
+            "filetime",
+            "flate2",
+            "futures",
+            "krane-bundle",
+            "lazy_static",
+            "log",
+            "maplit",
+            "mockall",
+            "oci-cli-wrapper",
+            "olpc-cjson",
+            "path-absolutize",
+            "semver",
+            "serde",
+            "serde_json",
+            "sha2",
+            "strum",
+            "tar",
+            "tempfile",
+            "test-case",
+            "tokio",
+            "toml",
+            "tracing",
+            "twoliter-tool-advisory-checker",
+            "twoliter-tool-buildsys",
+            "twoliter-tool-eif-builder",
+            "twoliter-tool-embedded-bundle",
+            "twoliter-tool-pcrsys",
+            "twoliter-tool-pipesys",
+            "twoliter-tool-pubsys",
+            "twoliter-tool-pubsys-setup",
+            "twoliter-tool-reprosys",
+            "twoliter-tool-tuftool",
+            "twoliter-tool-ukisys",
+            "twoliter-tool-unplug",
+            "uuid",
+            "which",
+            "zstd"
+          ]
+        },
+        {
+          "path": "tests/integration-tests/Cargo.toml",
+          "sha": "762af8a329436548be5705ed0ca2232d0b46ce94",
+          "size": 654,
+          "content_status": "captured",
+          "dependency_hints": [
+            "advisory-checker",
+            "duct",
+            "flate2",
+            "libc",
+            "lzma-rs",
+            "once_cell",
+            "rand",
+            "regex",
+            "reqwest",
+            "semver",
+            "serde",
+            "serde_json",
+            "tar",
+            "tempfile",
+            "tokio",
+            "toml",
+            "twoliter",
+            "walkdir",
+            "which"
+          ]
+        },
+        {
+          "path": "tools/advisory-checker/Cargo.toml",
+          "sha": "dee5f0913ea530b0298dbc699cb86468de07fe2d",
+          "size": 483,
+          "content_status": "captured",
+          "dependency_hints": [
+            "clap",
+            "nutype",
+            "regex",
+            "rpm",
+            "serde",
+            "snafu",
+            "test-case",
+            "toml"
+          ]
+        },
+        {
+          "path": "tools/amispec/Cargo.toml",
+          "sha": "397e05c4b4a2f157d7d871fcd0d53f2df43a5e8b",
+          "size": 595,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk-ec2",
+            "bon",
+            "bounded-integer",
+            "maplit",
+            "num-traits",
+            "serde",
+            "serde-templated",
+            "serde_plain",
+            "snafu",
+            "test-case",
+            "toml"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:06:18+00:00"
     }
   },
   "pages_fetched": 1,

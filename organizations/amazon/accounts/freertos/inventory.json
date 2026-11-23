@@ -891,12 +891,84 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 308749,
+        "Makefile": 46513,
+        "CMake": 22186,
+        "Python": 19901
+      },
+      "readme_url": "https://github.com/FreeRTOS/coreSNTP/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "be4bac6b7fa0a78bd5e86b32bcfdc126eba174f9",
+      "readme_excerpt": "**API Documentation Pages for current and previous releases of this library can be found here** This repository contains the coreSNTP library, a client library to use Simple Network Time Protocol (SNTP) to synchronize device clocks with internet time. This library implements the SNTPv4 specification defined in An SNTP client can request time from both NTP and SNTP servers. According to the SNTPv4 specification, \"_To an NTP or SNTP server, NTP and SNTP clients are indistinguishable; to an NTP or SNTP client, NTP and SNTP servers are indistinguishable._\", thereby, allowing SNTP clients to request time from NTP servers. This library has",
+      "readme_headings": [
+        "coreSNTP Library",
+        "Documentation",
+        "Cloning this repository",
+        "Building the library",
+        "Reference Example",
+        "Building Unit Tests",
+        "Checkout CMock Submodule",
+        "Unit Test Platform Prerequisites",
+        "Steps to build **Unit Tests**",
+        "CBMC proofs",
+        "Generating documentation",
+        "Contributing",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "d8db2b55b5711c880e5879f81b2be2410808cf55",
+          "size": 774,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/CMakeLists.txt",
+          "sha": "af28f60449017a3657f51080024980debc28ba37",
+          "size": 4610,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/unit-test/CMakeLists.txt",
+          "sha": "845dec12beb599023aee2b1224d27fd05947fe18",
+          "size": 3089,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/cbmc/proofs/Sntp_CalculatePollInterval/Makefile",
+          "sha": "ade0febd762774241a95e248d320a2859f3ac585",
+          "size": 815,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/cbmc/proofs/Sntp_ConvertToUnixTime/Makefile",
+          "sha": "05cd07a6f413ee0ea05101252127ff14ee4727f0",
+          "size": 559,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/cbmc/proofs/Sntp_DeserializeResponse/Makefile",
+          "sha": "ff7233a7f9eb472762f2664c411d20ace32c51a3",
+          "size": 563,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:06:30+00:00"
     },
     "FreeRTOS/FreeRTOS": {
       "id": 206121828,
@@ -919,12 +991,117 @@
       "open_issues": 43,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 291703046,
+        "HTML": 6107903,
+        "Assembly": 3379877,
+        "Tcl": 1818285,
+        "Linker Script": 925127,
+        "Makefile": 877716,
+        "Python": 177381,
+        "Batchfile": 125173,
+        "Shell": 69922,
+        "CMake": 65974,
+        "PHP": 41943,
+        "CartoCSS": 41537,
+        "templ": 38700,
+        "JavaScript": 22446,
+        "C++": 18546,
+        "FreeMarker": 9507,
+        "M4": 5688,
+        "PowerShell": 5412,
+        "Perl": 5178,
+        "PLSQL": 3180,
+        "GDB": 2866,
+        "Standard ML": 2104,
+        "Opa": 477,
+        "LSL": 428
+      },
+      "readme_url": "https://github.com/FreeRTOS/FreeRTOS/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d467899130e9020f5a95bcf8d5e179168c70e8b6",
+      "readme_excerpt": "The FreeRTOS 202411.00 release updates FreeRTOS Kernel, FreeRTOS+TCP, coreMQTT, corePKCS11, coreHTTP, coreJSON, AWS IoT Over-the-air-Updates (OTA), AWS IoT Device Shadow, AWS IoT Jobs, AWS IoT Device Defender, Backoff Algorithm, AWS IoT Fleet Provisioning, coreSNTP, SigV4, and FreeRTOS Cellular Interface libraries to their 202406-LTS versions. It also updates coreMQTT Agent to v1.3.0 and MbedTLS to v3.5.1. This release also adds ARMv7-R No_GIC Port Demo, ARMv7-R MPU Port Demos and FreeRTOS_Plus_TCP_IPv6_Demo Windows Simulator Demo. Additionally, all WinSim Demos are updated to use TLSv1.3. This release also updates WolfSSL to version v5.6.4. The FreeRTOS 202212.00 release updates FreeRTOS Kernel, FreeRTOS+TCP, coreMQTT, corePKCS11, coreHTTP,",
+      "readme_headings": [
+        "Getting started",
+        "Getting help",
+        "Cloning this repository",
+        "Repository structure",
+        "Kernel source code and example projects",
+        "Supplementary library source code and example projects",
+        "Previous releases",
+        "Learning FreeRTOS",
+        "FreeRTOS Lab Projects",
+        "coreMQTT Agent Demos",
+        "CBMC"
+      ],
+      "manifest_paths": [
+        {
+          "path": "FreeRTOS-Plus/VisualStudio_StaticProjects/FreeRTOS_Plus_Libs.sln",
+          "sha": "3dd0390f842117a11e039e48a69aac580fa06dc1",
+          "size": 3708,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".github/scripts/common/requirements.txt",
+          "sha": "c5a9cb27c549b5a18949937b54206a368fbeb44f",
+          "size": 125,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Deprecated",
+            "GitPython",
+            "PyGithub",
+            "PyJWT",
+            "PyYAML",
+            "certifi",
+            "chardet",
+            "colorama",
+            "gitdb",
+            "idna",
+            "requests",
+            "smmap",
+            "urllib3",
+            "wrapt"
+          ]
+        },
+        {
+          "path": "FreeRTOS-Plus/Demo/corePKCS11_MQTT_Mutual_Auth_Windows_Simulator/corePKCS11_MQTT_Mutual_Auth.sln",
+          "sha": "46e454a4586fd2a465b896458e1506303a96bc6a",
+          "size": 3367,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "FreeRTOS-Plus/Demo/corePKCS11_Windows_Simulator/CorePKCS11_Demos.sln",
+          "sha": "a1dee347c0f84ca1d0c74e7db25c26844ab7db8d",
+          "size": 4524,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "FreeRTOS-Plus/Demo/coreSNTP_Windows_Simulator/core_sntp_demo.sln",
+          "sha": "9e3a1323de29978a773efbbf1f2fad762e56291a",
+          "size": 3339,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "FreeRTOS-Plus/Demo/FreeRTOS_Plus_CLI_with_Trace_Windows_Simulator/FreeRTOS_Plus_CLI_with_Trace.sln",
+          "sha": "48709010fdf44485370dd9d0640a7175964160ea",
+          "size": 2451,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:06:34+00:00"
     },
     "FreeRTOS/FreeRTOS-Cellular-Interface": {
       "id": 313835816,
@@ -947,12 +1124,88 @@
       "open_issues": 9,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 1602361,
+        "Makefile": 161727,
+        "CMake": 25493,
+        "Python": 19901
+      },
+      "readme_url": "https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2e77b2f7f5c794ab966b1beb82bd06fa8297c102",
+      "readme_excerpt": "- Introduction - Getting Started - Download the Source Code - Folder Structure - Implement Comm Interface with MCU Platforms - Adding Support for New Cellular Modems - Integrate FreeRTOS Cellular Interface with Application - Building Unit Tests - Generating Documentation - Contributing The Cellular Interface library implement a simple unified that hide the complexity of AT commands. The cellular modems to be interchangeable with the popular options built upon TCP stack and exposes a socket-like interface to C programmers. Most cellular modems implement more or less the AT commands defined by the standard. This project provides an implementation of",
+      "readme_headings": [
+        "FreeRTOS Cellular Interface",
+        "On this page:",
+        "Introduction",
+        "Getting Started",
+        "Download the source code",
+        "Folder structure",
+        "Implement Comm Interface with MCU platforms",
+        "Adding Support for New Cellular Modems",
+        "Integrate FreeRTOS Cellular Interface with Application",
+        "Building Unit Tests",
+        "Checkout CMock Submodule",
+        "Platform Prerequisites",
+        "Steps to build unit tests",
+        "CBMC",
+        "Reference examples",
+        "Generating documentation",
+        "Contributing"
+      ],
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "e667d864b0b07b27783ece841cfc36ee11790d71",
+          "size": 925,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/CMakeLists.txt",
+          "sha": "5f51c41f5b354be601c21dfc5936c4fdb7932979",
+          "size": 5089,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/unit-test/CMakeLists.txt",
+          "sha": "43ed1b915e5c2d513fd88d7e59461bc006fba125",
+          "size": 6731,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/cbmc/proofs/_Cellular_ComputeSignalBars/Makefile",
+          "sha": "2e05c741690d8d7b74c007eb5d8e2d218334b169",
+          "size": 1951,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/cbmc/proofs/_Cellular_ConvertCsqSignalBer/Makefile",
+          "sha": "6f3360d6b63cc574aeec7d26bc9357556cf54778",
+          "size": 1710,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/cbmc/proofs/_Cellular_ConvertCsqSignalRssi/Makefile",
+          "sha": "ad338ad22d1d351a3493a5eacb6807a159a61276",
+          "size": 1712,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:06:37+00:00"
     },
     "FreeRTOS/FreeRTOS-Cellular-Interface-Community-Supported-Ports": {
       "id": 426703199,
@@ -975,12 +1228,28 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 315482
+      },
+      "readme_url": "https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface-Community-Supported-Ports/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "dbd095106fb24873ff9451ed3677caabe0fc0892",
+      "readme_excerpt": "This repository contains the cellular module ports supported by FreeRTOS community members. We welcome your contribution to expand the catalog of modems. 1. Fork the ```FreeRTOS/FreeRTOS-Cellular-Interface``` repository. 2. Write code for a new cellular module. For details, see Porting the Cellular Interface Library to another Modem. 3. Create a new folder for the new cellular module in the root folder. 4. Create a ```README.md``` file and place it at the top level of the new module port folder. Ensure the```README.md``` describes the following: 1. Hardware information: Give the reader a cellular module introduction and the steps to setup the hardware",
+      "readme_headings": [
+        "FreeRTOS Cellular Interface Community Supported Ports",
+        "How to Contribute a Cellular Module Port",
+        "License"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:06:38+00:00"
     },
     "FreeRTOS/FreeRTOS-Cellular-Interface-Reference-Quectel-BG96": {
       "id": 543379788,
@@ -1003,12 +1272,31 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 192706
+      },
+      "readme_url": "https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface-Reference-Quectel-BG96/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9bfd62028881f2c173ec7ed8ceffa2e9b9dba0c9",
+      "readme_excerpt": "This repository provides the reference implementation as cellular module ports for Quectel BG96. This repository should be used with FreeRTOS-Cellular-Interface. See FreeRTOS-Cellular-Interface README for more details. The BG96 port implemenation follows Quectel_BG96_AT_Commands_Manual_V2.3. The firmware version of BG96 can be acquired with the following AT commands: * ATI * AT+QGMR If the firmware version is not supported in the AT command document, you may contact Quectel for a firmware update. There is also an use case at MQTT_Mutual_Auth_Demo_with_BG96 as a demonstration to run BG96 with FreeRTOS Windows Simulator. We provide a repository, FreeRTOS-Cellular-Interface-Community-Supported-Ports, for community members to contribute their modules. See",
+      "readme_headings": [
+        "FreeRTOS Cellular Interface Reference Quectel BG96",
+        "Introduction",
+        "Use Case",
+        "How Does Community Members to Contribute a Cellular Module Port",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:06:40+00:00"
     },
     "FreeRTOS/FreeRTOS-Cellular-Interface-Reference-Sierra-Wireless-HL7802": {
       "id": 543381014,
@@ -1031,12 +1319,31 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 154051
+      },
+      "readme_url": "https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface-Reference-Sierra-Wireless-HL7802/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "11251d3bc96fafee66cd4c74d984c02b09b2083e",
+      "readme_excerpt": "This repository provides the reference implementation as cellular module ports for Sierra Wireless HL7802. This repository should be used with FreeRTOS-Cellular-Interface. See FreeRTOS-Cellular-Interface README for more details. There is also an use case at MQTT_Mutual_Auth_Demo_with_HL7802 as a demonstration to run HL7802 with FreeRTOS Windows Simulator. We provide a repository, FreeRTOS-Cellular-Interface-Community-Supported-Ports, for community members to contribute their modules. See How to Contribute a Cellular Module Port for more details. See CONTRIBUTING for more information. The FreeRTOS Cellular Interface library is distributed under MIT open source license. The code in this repository is licensed under the MIT License. See the LICENSE file.",
+      "readme_headings": [
+        "FreeRTOS Cellular Interface Reference Sierra Wireless HL7802",
+        "Introduction",
+        "Use Case",
+        "How Does Community Members to Contribute a Cellular Module Port",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:06:42+00:00"
     },
     "FreeRTOS/FreeRTOS-Cellular-Interface-Reference-ublox-SARA-R4": {
       "id": 543733104,
@@ -1059,12 +1366,31 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 171639
+      },
+      "readme_url": "https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface-Reference-ublox-SARA-R4/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a6ebef4ea84ee53044f0279b588cbfad55b6af3a",
+      "readme_excerpt": "This repository provides the reference implementation as cellular module ports for U-Blox Sara-R4. This repository should be used with FreeRTOS-Cellular-Interface. See FreeRTOS-Cellular-Interface README for more details. There is also an use case at MQTT_Mutual_Auth_Demo_with_SARA_R4 as a demonstration to run BG96 with FreeRTOS Windows Simulator. We provide a repository, FreeRTOS-Cellular-Interface-Community-Supported-Ports, for community members to contribute their modules. See How to Contribute a Cellular Module Port for more details. See CONTRIBUTING for more information. The FreeRTOS Cellular Interface library is distributed under MIT open source license. The code in this repository is licensed under the MIT License. See the LICENSE file.",
+      "readme_headings": [
+        "FreeRTOS Cellular Interface Reference U-Blox Sara-R4",
+        "Introduction",
+        "Use Case",
+        "How Does Community Members to Contribute a Cellular Module Port",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:06:43+00:00"
     },
     "FreeRTOS/FreeRTOS-Community-Supported-Demos": {
       "id": 375532893,
@@ -1087,12 +1413,78 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 19460708,
+        "Assembly": 263998,
+        "Makefile": 104092,
+        "CMake": 39101,
+        "Batchfile": 32846,
+        "Linker Script": 24422,
+        "Python": 4254,
+        "XC": 1123,
+        "Shell": 262
+      },
+      "readme_url": "https://github.com/FreeRTOS/FreeRTOS-Community-Supported-Demos/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "73701eb17dd3437de5fde2111addaec8ca870c21",
+      "readme_excerpt": "This repository contains demos for FreeRTOS ports supported by FreeRTOS community members. Follow these steps to contribute a demo to this repository. This repository contains multiple directories, each individually licensed. Please see the LICENSE file in each directory.",
+      "readme_headings": [
+        "FreeRTOS Community Supported Demos",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "CORTEX_M0+_RP2040/CMakeLists.txt",
+          "sha": "4bdcfeedca1d889a949460e7e46122e12939ecda",
+          "size": 441,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "RISC-V_RV32_SMP_QEMU_VIRT_GCC/Makefile",
+          "sha": "161eb0e7ccf33e20fb9b191d7abb03ac5ea73f94",
+          "size": 6437,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "CORTEX_A9_Zynq7000_GCC/FreeRTOSDemo/CMakeLists.txt",
+          "sha": "c36c78e3451e637511328c33c7c12bd8826b18a5",
+          "size": 2099,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "CORTEX_M0+_RP2040/OnEitherCore/CMakeLists.txt",
+          "sha": "48ac8ac20762eecec3c36c24b390623652d20a6b",
+          "size": 1497,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "CORTEX_M0+_RP2040/Standard/CMakeLists.txt",
+          "sha": "36b007e46e475b80e368962ee529372c5c60bbbc",
+          "size": 3061,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "CORTEX_M0+_RP2040/Standard_smp/CMakeLists.txt",
+          "sha": "d49611c4468c0b383addde71ad336eebeded42e6",
+          "size": 3304,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:06:46+00:00"
     },
     "FreeRTOS/freertos-gdb": {
       "id": 543743766,
@@ -1115,12 +1507,32 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 7906
+      },
+      "readme_url": "https://github.com/FreeRTOS/freertos-gdb/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ad5189f2f5eca865f77b87b9094ac57ad4346f9f",
+      "readme_excerpt": "GDB extension to display FreeRTOS tasks and set task-specific breakpoints. GDB must be built with Python 2+. 1. In gdb, use the command ```show data-directory``` to find the path to where GDB searches for auxillary data files. We'll call this ```[data-directory]```. 2. Copy ```freertos.py``` from this repository into the folder ```[data-directory]/python/gdb/command/```. (gdb) freertos \"freertos\" must be followed by the name of a subcommand. List of freertos subcommands: freertos break -- Create a breakpoint that will only get tripped by the specific task. freertos tasks -- Displays FreeRTOS tasks and information. * ID: The memory address of the task's TCB_t *",
+      "readme_headings": [
+        "freertos-gdb",
+        "Prerequisites",
+        "Setup",
+        "Commands",
+        "Tasks Display",
+        "Breakpoints",
+        "References"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:06:47+00:00"
     },
     "FreeRTOS/FreeRTOS-Kernel": {
       "id": 207354223,
@@ -1143,12 +1555,85 @@
       "open_issues": 129,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 16095739,
+        "Assembly": 1666438,
+        "CMake": 83494,
+        "Python": 12978,
+        "Batchfile": 6591
+      },
+      "readme_url": "https://github.com/FreeRTOS/FreeRTOS-Kernel/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "fabe5220b68cd16ca69adc0c4f9d0e4db40ab3fd",
+      "readme_excerpt": "This repository contains FreeRTOS kernel source/header files and kernel ports only. This repository is referenced as a submodule in repository, which contains pre-configured demo application projects under The easiest way to use FreeRTOS is to start with one of the pre-configured demo application projects. That way you will have the correct FreeRTOS source files included, and the correct include paths configured. Once a demo application is building and executing you can remove the demo application files, and start to add in your own application source files. See the for detailed instructions and other useful links. Additionally, for FreeRTOS kernel feature",
+      "readme_headings": [
+        "Getting started",
+        "Getting help",
+        "To consume FreeRTOS-Kernel",
+        "Consume with CMake",
+        "Select the native compile PORT",
+        "Select the cross-compile PORT",
+        "Consuming stand-alone - Cloning this repository",
+        "Repository structure",
+        "Code Formatting",
+        "Line Endings",
+        "Git History Optimizations",
+        "Spelling and Formatting",
+        "Third Party Tools"
+      ],
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "86471b775108098c3e1ec7a003c69f82ae34e043",
+          "size": 22019,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "include/CMakeLists.txt",
+          "sha": "46a1c3e7f5f5566408040811b48a837040c5dc8e",
+          "size": 490,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "portable/CMakeLists.txt",
+          "sha": "ffbb6164c8b2df1c0cc098eaa7de09f49fccc5c0",
+          "size": 59211,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/cmake_example/CMakeLists.txt",
+          "sha": "7b31cc52a0930115808244037f760eb132522f66",
+          "size": 2657,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/coverity/CMakeLists.txt",
+          "sha": "3c0f4e452eac3b5e26916f21412ab6f3857047c3",
+          "size": 1824,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "portable/ThirdParty/GCC/RP2040/CMakeLists.txt",
+          "sha": "e1034ebad2bdd292e52057a3a5a97b53da57a172",
+          "size": 2539,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:06:50+00:00"
     },
     "FreeRTOS/FreeRTOS-Kernel-Book": {
       "id": 696234469,

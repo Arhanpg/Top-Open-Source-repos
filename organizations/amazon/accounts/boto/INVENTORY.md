@@ -16,9 +16,9 @@
 | [boto/botoflow](https://github.com/boto/botoflow) | Botoflow is an asynchronous framework for Amazon SWF that helps you build SWF applications using Python | 14 | Python | False | False | True | captured | [Open](repositories/botoflow-60211054.md) |
 | [boto/botostubs](https://github.com/boto/botostubs) | Type stubs for botocore and boto3. **Note: This project is a work in-progess** | 56 | Python | False | False | True | captured | [Open](repositories/botostubs-196878038.md) |
 | [boto/botoweb](https://github.com/boto/botoweb) | botoweb is an Application Framework for highly scalable application servers. It uses the standard Three-Tier architecture to be housed in the Amazon Web Services environment. It uses boto for communication with these services (hence the name, botoweb). | 29 | ApacheConf, CSS, HTML, JavaScript, Python, XSLT | True | False | True | captured | [Open](repositories/botoweb-5471776.md) |
-| [boto/botoworkflow](https://github.com/boto/botoworkflow) | Boto Workflow for Alfred 2 | 8 | Pending | False | False | True | pending | Not generated |
-| [boto/bwclient-js](https://github.com/boto/bwclient-js) | Botoweb JS client | 4 | Pending | True | False | True | pending | Not generated |
-| [boto/guzzle_sphinx_theme_boto](https://github.com/boto/guzzle_sphinx_theme_boto) | Sphinx theme used by Guzzle | 1 | Pending | False | True | True | pending | Not generated |
-| [boto/requestbuilder](https://github.com/boto/requestbuilder) | Command line-driven HTTP request builder | 23 | Pending | False | False | True | pending | Not generated |
-| [boto/s3transfer](https://github.com/boto/s3transfer) | Amazon S3 Transfer Manager for Python | 240 | Pending | False | False | True | pending | Not generated |
-| [boto/usage](https://github.com/boto/usage) | Python module to parse AWS XML usage files | 26 | Pending | False | False | True | pending | Not generated |
+| [boto/botoworkflow](https://github.com/boto/botoworkflow) | Boto Workflow for Alfred 2 | 8 | Python | False | False | True | captured | [Open](repositories/botoworkflow-12410792.md) |
+| [boto/bwclient-js](https://github.com/boto/bwclient-js) | Botoweb JS client | 4 | JavaScript | True | False | True | unavailable | [Open](repositories/bwclient-js-5528710.md) |
+| [boto/guzzle_sphinx_theme_boto](https://github.com/boto/guzzle_sphinx_theme_boto) | Sphinx theme used by Guzzle | 1 | CSS, HTML, Python | False | True | True | captured | [Open](repositories/guzzle-sphinx-theme-boto-436812364.md) |
+| [boto/requestbuilder](https://github.com/boto/requestbuilder) | Command line-driven HTTP request builder | 23 | Python | False | False | True | error | [Open](repositories/requestbuilder-3961464.md) |
+| [boto/s3transfer](https://github.com/boto/s3transfer) | Amazon S3 Transfer Manager for Python | 240 | Python | False | False | True | captured | [Open](repositories/s3transfer-49535299.md) |
+| [boto/usage](https://github.com/boto/usage) | Python module to parse AWS XML usage files | 26 | Python | False | False | True | captured | [Open](repositories/usage-1324685.md) |

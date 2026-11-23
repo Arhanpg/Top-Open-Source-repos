@@ -1695,12 +1695,192 @@
         "firewall"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 548525,
+        "JavaScript": 16333,
+        "Shell": 14526
+      },
+      "readme_url": "https://github.com/aws-solutions/automations-for-aws-firewall-manager/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c82b9bd5d96dd52132251ad8ff40e4cd2bc4831c",
+      "readme_excerpt": "⚠️🚨⚠️ The Automations for AWS Firewall Manager solution has been deprecated and will not be receiving any additional features or updates. We encourage customers to explore using the latest deployment, multi-account management, and compliance features in AWS Firewall Manager for management and enforcement of firewall rules. ⚠️🚨⚠️ **🚀Solution Landing Page** | **🚧Feature request** | **🐛Bug Report** | **📜Documentation Improvement** _Note:_ For any relevant information outside the scope of this readme, please refer to the solution landing page and implementation guide. - Solution Overview - Architecture - Installation - Parameters - Custom Policy - Customization - Setup - Changes - Unit",
+      "readme_headings": [
+        "Automations for AWS Firewall Manager",
+        "Table of contents",
+        "Solution Overview",
+        "Architecture",
+        "Architecture with Automations for AWS Shield Advanced (Optional)",
+        "Installing pre-packaged solution templates",
+        "Parameters for Primary (aws-fms-automations) template",
+        "*[Optional]* Parameters for Prerequisite (aws-fms-prereq) template",
+        "*[Optional]* Parameters for Shield Automations (aws-fms-shield-automations) template",
+        "*[Optional]* Parameters for Proactive Event Response (aws-fms-proactive-event-response) template",
+        "Custom Policy Stack",
+        "Customization",
+        "Setup",
+        "Changes",
+        "Unit Test",
+        "Build",
+        "Deploy",
+        "Build the solution",
+        "Run Unit Tests",
+        "Upload to your buckets",
+        "Deploy",
+        "Sample Scenario",
+        "File structure",
+        "Collection of operational metrics"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "725c8d0822ab81f9fc0c10dfecc62cac2e38fef3",
+          "size": 2296,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-sdk/client-s3",
+            "@types/uuid",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-cdk-lib",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-prettier",
+            "jest",
+            "prettier",
+            "typedoc",
+            "typedoc-plugin-no-inherit",
+            "typescript"
+          ]
+        },
+        {
+          "path": "deployment/cdk-solution-helper/package.json",
+          "sha": "c8904d196a6f935b4b8505a54ce7e02ca49fd1e5",
+          "size": 1162,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/jest",
+            "@types/node",
+            "jest",
+            "ts-jest",
+            "typescript"
+          ]
+        },
+        {
+          "path": "source/resources/package.json",
+          "sha": "1fa48efd5e649a161b70c3082478f5fb3615e26a",
+          "size": 1139,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/assert",
+            "@aws-solutions-constructs/aws-cloudfront-s3",
+            "@aws-solutions-constructs/aws-eventbridge-lambda",
+            "@types/jest",
+            "@types/node",
+            "aws-cdk",
+            "aws-cdk-lib",
+            "constructs",
+            "jest",
+            "jest-sonar-reporter",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "source/services/complianceGenerator/package.json",
+          "sha": "12496d5c58b8ca4f8defa5499502e71b3945d474",
+          "size": 1926,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-lambda-powertools/logger",
+            "@aws-lambda-powertools/tracer",
+            "@aws-sdk/client-ec2",
+            "@aws-sdk/client-fms",
+            "@aws-sdk/client-s3",
+            "@aws-sdk/client-sns",
+            "@aws-sdk/client-sqs",
+            "@types/aws-lambda",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk-client-mock",
+            "csv-writer",
+            "got",
+            "jest",
+            "jest-sonar-reporter",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "source/services/helper/package.json",
+          "sha": "ed170b141729ad58416c160b7899758baab70297",
+          "size": 1827,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-lambda-powertools/commons",
+            "@aws-lambda-powertools/logger",
+            "@aws-lambda-powertools/tracer",
+            "@aws-sdk/client-fms",
+            "@aws-sdk/client-organizations",
+            "@aws-sdk/client-s3",
+            "@aws-sdk/client-shield",
+            "@aws-sdk/client-support",
+            "@aws-sdk/types",
+            "@types/aws-lambda",
+            "@types/jest",
+            "@types/node",
+            "@types/uuid",
+            "aws-sdk-client-mock",
+            "got",
+            "jest",
+            "jest-sonar-reporter",
+            "ts-jest",
+            "typescript",
+            "uuid"
+          ]
+        },
+        {
+          "path": "source/services/policyManager/package.json",
+          "sha": "0cffaea977d6cea8977710bbb22bf8116f58d387",
+          "size": 2141,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-lambda-powertools/logger",
+            "@aws-lambda-powertools/parameters",
+            "@aws-lambda-powertools/tracer",
+            "@aws-sdk/client-dynamodb",
+            "@aws-sdk/client-ec2",
+            "@aws-sdk/client-fms",
+            "@aws-sdk/client-ram",
+            "@aws-sdk/client-route53resolver",
+            "@aws-sdk/client-s3",
+            "@aws-sdk/client-sns",
+            "@aws-sdk/client-sqs",
+            "@aws-sdk/client-ssm",
+            "@aws-sdk/types",
+            "@types/aws-lambda",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk-client-mock",
+            "aws-sdk-client-mock-jest",
+            "jest",
+            "jest-sonar-reporter",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:45+00:00"
     },
     "aws-solutions/aws-centralized-logging": {
       "id": 72462327,
@@ -1723,12 +1903,115 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 85456,
+        "JavaScript": 1923,
+        "Shell": 1387
+      },
+      "readme_url": "https://github.com/aws-solutions/aws-centralized-logging/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7ecc41955bb087cd5ed57f8caaa257fe0c965b9e",
+      "readme_excerpt": "**Centralized Logging on AWS has been superseded by the Centralized Logging with OpenSearch Centralized Logging with OpenSearch solution. All existing deployments will continue to work but the solution will no longer be supported and maintained.** - Solution Overview - Architecture - Installation - Customization - Setup - Changes - Unit Test - Build - Deploy - Sample Scenario - File Structure - License Centralized Logging on AWS is a reference implementation that provides a foundation for logging to a centralized account. Customers can leverage the solution to index CloudTrail Logs, CW Logs, VPC Flow Logs on an Amazon OpenSearch Service",
+      "readme_headings": [
+        "Centralized Logging on AWS Solution",
+        "Table of content",
+        "Solution Overview",
+        "Architecture",
+        "Customization",
+        "Setup",
+        "Changes",
+        "Unit Test",
+        "Build",
+        "Deploy",
+        "Sample Scenario (Enabling CloudWatch logging on Elasticsearch domain)",
+        "File structure",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "78772cef75213b0ff085fc8d62e0a6bfc8e140d5",
+          "size": 1014,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/node",
+            "@types/uuid",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-cdk",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-prettier",
+            "prettier",
+            "typescript"
+          ]
+        },
+        {
+          "path": "source/resources/package.json",
+          "sha": "0905b187e3999728d9e02ce7209e7a455961a7c6",
+          "size": 1016,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/assert",
+            "@types/jest",
+            "@types/node",
+            "aws-cdk",
+            "jest",
+            "jest-sonar-reporter",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "source/services/helper/package.json",
+          "sha": "c6d1d556f83c2086ab487331f38d3336252443ef",
+          "size": 1085,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/aws-lambda",
+            "@types/node",
+            "@types/uuid",
+            "aws-sdk",
+            "typescript",
+            "uuid"
+          ]
+        },
+        {
+          "path": "source/services/transformer/package.json",
+          "sha": "00e4fb7c86e122766670aada62d224f65411f3f6",
+          "size": 1061,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/node",
+            "@types/uuid",
+            "aws-sdk",
+            "typescript"
+          ]
+        },
+        {
+          "path": "source/services/@aws-solutions/utils/package.json",
+          "sha": "dc2050f94b8e253dd80ead58b590cbc14460fcf8",
+          "size": 369,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/node",
+            "got",
+            "ts-node",
+            "typescript",
+            "winston"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:47+00:00"
     },
     "aws-solutions/aws-connected-mobility-solution": {
       "id": 452003006,
@@ -1751,12 +2034,24 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-solutions/aws-connected-mobility-solution/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "79eb3befbab32a118836bbc3957eddbad8d2ffbf",
+      "readme_excerpt": "Connected Mobility Solution (CMS) enters its next generation of well architected design, following the original Connected Vehicle Reference Architecture in 2017. CMS has added capability based on lessons learned from hundreds of partner engagements and thousands of activations. CMS aids OEMs and suppliers in their journey to becoming mobility service providers. It includes the broadest and most advanced set of building blocks to accelerate the development and global scale deployment on a pay-as-you-go basis for these capabilities. AWS Connected Mobility Solution is still under development, visit the develop branch to begin contributing. Copyright 2022 Amazon.com, Inc. or its affiliates. All",
+      "readme_headings": [
+        "AWS Connected Mobility Solution (CMS)"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:48+00:00"
     },
     "aws-solutions/aws-connected-vehicle-solution": {
       "id": 110621453,
@@ -1779,12 +2074,139 @@
       "open_issues": 8,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 217034,
+        "Shell": 5837
+      },
+      "readme_url": "https://github.com/aws-solutions/aws-connected-vehicle-solution/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ab4479ae885ab120156ea79d867dc1ea0f71143f",
+      "readme_excerpt": "The AWS Connected Vehicle Solution is a reference implementation that provides a foundation for automotive product transformations for connected vehicle services, autonomous driving, electric powertrains, and shared mobility. To get started with the AWS Connected Vehicle Solution, please review the solution documentation. https://aws.amazon.com/answers/iot/connected-vehicle-solution/ * Configure the bucket name of your target Amazon S3 distribution bucket export BUCKET_PREFIX=my-bucket-name * Clone the repository, then build the distibutables: cd ./deployment \\n chmod +x build-s3-dist.sh \\n ./build-s3-dist.sh \\n * Deploy the distibutables to an Amazon S3 bucket in your account. _Note:_ you must have the AWS Command Line Interface installed. cd ./deployment \\n s3",
+      "readme_headings": [
+        "AWS Connected Vehicle Solution",
+        "Getting Started",
+        "Building distributables for customization",
+        "File Structure"
+      ],
+      "manifest_paths": [
+        {
+          "path": "source/data-loaders/dtc-generator/package.json",
+          "sha": "c6d831e46986fbe6c655a69008160a412c0346ba",
+          "size": 694,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-iot-device-sdk",
+            "aws-sdk",
+            "moment",
+            "randomstring",
+            "shortid",
+            "underscore"
+          ]
+        },
+        {
+          "path": "source/resources/helper/package.json",
+          "sha": "9febe69d22aa1c88e162ec4cad0d5a237fb4e9b9",
+          "size": 1193,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk",
+            "aws-sdk-mock",
+            "chai",
+            "fast-csv",
+            "mocha",
+            "moment",
+            "node-uuid",
+            "npm-run-all",
+            "sinon",
+            "sinon-chai",
+            "underscore"
+          ]
+        },
+        {
+          "path": "source/services/anomaly/package.json",
+          "sha": "e73c6503b40e6e404bf43551c284101b4b7824fa",
+          "size": 1260,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk",
+            "aws-sdk-mock",
+            "chai",
+            "mocha",
+            "moment",
+            "npm-run-all",
+            "proxyquire",
+            "randomstring",
+            "shortid",
+            "sinon",
+            "sinon-chai",
+            "underscore"
+          ]
+        },
+        {
+          "path": "source/services/driversafety/package.json",
+          "sha": "b61a653bb8f826c638ac36da3461a7d01fb3aa0b",
+          "size": 1205,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk",
+            "aws-sdk-mock",
+            "chai",
+            "mocha",
+            "moment",
+            "npm-run-all",
+            "proxyquire",
+            "shortid",
+            "sinon",
+            "sinon-chai",
+            "underscore"
+          ]
+        },
+        {
+          "path": "source/services/dtc/package.json",
+          "sha": "862bce21ad9ad2c56e4caecf981f390b64ebe45a",
+          "size": 1261,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk",
+            "aws-sdk-mock",
+            "chai",
+            "mocha",
+            "moment",
+            "npm-run-all",
+            "proxyquire",
+            "randomstring",
+            "shortid",
+            "sinon",
+            "sinon-chai",
+            "underscore"
+          ]
+        },
+        {
+          "path": "source/services/jitr/package.json",
+          "sha": "36ffce2df994862a5cd1dff1b42b4c8e3c29c178",
+          "size": 981,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk",
+            "aws-sdk-mock",
+            "chai",
+            "mocha",
+            "npm-run-all",
+            "proxyquire",
+            "sinon",
+            "sinon-chai"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:51+00:00"
     },
     "aws-solutions/aws-control-tower-customizations": {
       "id": 233111913,
@@ -1807,12 +2229,49 @@
       "open_issues": 102,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 305687,
+        "Shell": 32278,
+        "Jinja": 258
+      },
+      "readme_url": "https://github.com/aws-solutions/aws-control-tower-customizations/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3ab087681536554776b6d28a8e911c3739bfb226",
+      "readme_excerpt": "The Customizations for AWS Control Tower solution combines AWS Control Tower and other highly-available, trusted AWS services to help customers more quickly set up a secure, multi-account AWS environment based on AWS best practices. Customers can easily add customizations to their AWS Control Tower landing zone using an AWS CloudFormation template, service control policies (SCPs), and resource control policies (RCPs). Customers can deploy their custom template and policies to both individual accounts and organizational units (OUs) within their organization. Customizations for AWS Control Tower integrates with AWS Control Tower lifecycle events to ensure that resource deployments stay in sync with",
+      "readme_headings": [
+        "Customizations for AWS Control Tower Solution",
+        "Getting Started",
+        "Running unit tests for customization",
+        "Building the customized solution",
+        "Deploying the customized solution",
+        "Collection of operational metrics",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "source/src/pyproject.toml",
+          "sha": "b533dfe06304f37a8d0b4db1e1a645d6ec351a0b",
+          "size": 89,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "source/src/setup.py",
+          "sha": "456f91bceab94a988557e414786f7cff8efad30b",
+          "size": 1868,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:53+00:00"
     },
     "aws-solutions/aws-crr-monitor": {
       "id": 89635934,
@@ -1835,12 +2294,32 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 89000,
+        "Shell": 1977
+      },
+      "readme_url": "https://github.com/aws-solutions/aws-crr-monitor/blob/master/Readme.md",
+      "readme_path": "Readme.md",
+      "readme_sha": "cd5b216712d04c4ef236d193b3848bb9317950b5",
+      "readme_excerpt": "This AWS Solution has been archived and is no longer maintained by AWS. To discover other solutions, please visit the AWS Solutions Library. A solution describing S3 Cross Region Replication Monitoring. Amazon Simple Storage Service (Amazon S3) offers cross-region replication, a bucket-level feature that enables automatic, asynchronous copying of objects across buckets in different AWS Regions. This feature can help companies minimize latency when accessing objects in different geographic regions, meet compliance requirements, and for operational purposes. Amazon S3 encrypts all data in transit across AWS Regions using SSL, and objects in the destination bucket are exact replicas of objects",
+      "readme_headings": [
+        "Deprecation Notice",
+        "S3 Cross Region Replication Monitor",
+        "Overview",
+        "CloudFormation Templates",
+        "Lambda Scripts",
+        "Collection of operational metrics"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:54+00:00"
     },
     "aws-solutions/aws-data-lake-solution": {
       "id": 74497220,
@@ -1863,12 +2342,132 @@
       "open_issues": 20,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 1057570,
+        "HTML": 91700,
+        "Shell": 17853,
+        "CSS": 7972
+      },
+      "readme_url": "https://github.com/aws-solutions/aws-data-lake-solution/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "59e0fa76910072a25593d9b6a48ab6d993b3678b",
+      "readme_excerpt": "Many Amazon Web Services (AWS) customers require a data storage and analytics solution that offers more agility and flexibility than traditional data management systems. A data lake is an increasingly popular way to store and analyze data because it allows businesses to store all of their data, structured and unstructured, in a centralized repository. The AWS Cloud provides many of the building blocks required to help businesses implement a secure, flexible, and cost-effective data lake. The data lake solution is an automated reference implementation that deploys a highly available, cost-effective data lake architecture on the AWS Cloud. The solution is",
+      "readme_headings": [
+        "Data Lake Solution",
+        "File Structure",
+        "Getting Started",
+        "01. Prerequisites",
+        "02. Build the data lake solution",
+        "03. Declare enviroment variables:",
+        "04. Run the data lake solution unit tests:",
+        "05. Build the data lake solution for deployment:",
+        "06. Upload deployment assets to your Amazon S3 bucket:",
+        "07. Deploy the data lake solution:",
+        "Collection of operational metrics"
+      ],
+      "manifest_paths": [
+        {
+          "path": "deployment/manifest-generator/package.json",
+          "sha": "fa76ebbbb2a27a8946b382cc9a0f41a8bdfcf7ac",
+          "size": 304,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "source/cli/package.json",
+          "sha": "609d1d5d03152c3b77fddae7e03fecb26cef4f77",
+          "size": 581,
+          "content_status": "captured",
+          "dependency_hints": [
+            "commander",
+            "js-base64",
+            "moment",
+            "request"
+          ]
+        },
+        {
+          "path": "source/console/package.json",
+          "sha": "23426c57964f540a9005db62ba01cdcc627c667c",
+          "size": 1691,
+          "content_status": "captured",
+          "dependency_hints": [
+            "bower",
+            "http-server",
+            "jasmine-core",
+            "karma",
+            "karma-chrome-launcher",
+            "karma-firefox-launcher",
+            "karma-jasmine",
+            "karma-junit-reporter",
+            "protractor"
+          ]
+        },
+        {
+          "path": "source/api/authorizer/package.json",
+          "sha": "ddcf7817aa8d5bcd10273d61d74d226ff546342d",
+          "size": 1269,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk-mock",
+            "chai",
+            "js-base64",
+            "jsonwebtoken",
+            "jwk-to-pem",
+            "mocha",
+            "moment",
+            "npm-run-all",
+            "request",
+            "sinon",
+            "sinon-chai",
+            "underscore"
+          ]
+        },
+        {
+          "path": "source/resources/access-validator/package.json",
+          "sha": "a7b78965e01155c1066d045d501e234ed1fe9e7d",
+          "size": 590,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk-mock",
+            "chai",
+            "chai-things",
+            "mocha",
+            "sinon",
+            "sinon-chai",
+            "underscore"
+          ]
+        },
+        {
+          "path": "source/resources/helper/package.json",
+          "sha": "faff5fae20f1608f7832704fb2bab79d0b9ad2a4",
+          "size": 1346,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk-mock",
+            "chai",
+            "elasticsearch",
+            "http-aws-es",
+            "mime-types",
+            "mocha",
+            "moment",
+            "npm-run-all",
+            "password-generator",
+            "sinon",
+            "sinon-chai",
+            "underscore",
+            "uuid"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:57+00:00"
     },
     "aws-solutions/aws-devops-monitoring-dashboard": {
       "id": 348777695,
@@ -1891,12 +2490,173 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 303752,
+        "TypeScript": 112440,
+        "Python": 96212,
+        "Shell": 15677
+      },
+      "readme_url": "https://github.com/aws-solutions/aws-devops-monitoring-dashboard/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "77384560857596063c0456d14412019e1565a15a",
+      "readme_excerpt": "⚠️ __Important: DevOps Monitoring Dashboard on AWS will no longer be supported starting December 3, 2024. You can find other AWS Solutions in the AWS Solutions Library__ ⚠️ **🚀 Solution Landing Page** | **🚧 Feature request** | **🐛 Bug Report** Note: If you want to use the solution without building from source, navigate to Solution Landing Page - Solution Overview - Architecture Diagram - AWS CDK Constructs - Customizing the Solution - Prerequisites for Customization - Build - Unit Test - Deploy - File Structure - License The DevOps Monitoring Dashboard on AWS solution is a reference implementation that automates",
+      "readme_headings": [
+        "Table of contents",
+        "Solution Overview",
+        "Architecture Diagram",
+        "AWS Solutions Constructs",
+        "Customizing the Solution",
+        "Prerequisites for Customization",
+        "Build",
+        "1. Clone the repository",
+        "2. Unit test",
+        "3. Create S3 buckets for storing deployment assets",
+        "4. Declare environment variables",
+        "The namespace in QuickSight account ARN. Ex. \"default\"",
+        "5. Build the solution",
+        "Upload Deployment Assets",
+        "Create QuickSight Template",
+        "Deploy",
+        "File structure",
+        "Collection of operational metrics",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "source/package.json",
+          "sha": "456971dbbe82b94866c3c3134321540655336aac",
+          "size": 2108,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/assert",
+            "@aws-cdk/aws-glue-alpha",
+            "@aws-cdk/aws-servicecatalogappregistry-alpha",
+            "@aws-solutions-constructs/aws-eventbridge-kinesisfirehose-s3",
+            "@aws-solutions-constructs/aws-eventbridge-lambda",
+            "@aws-solutions-constructs/aws-kinesisfirehose-s3",
+            "@aws-solutions-constructs/core",
+            "@types/jest",
+            "@types/node",
+            "aws-cdk",
+            "aws-cdk-lib",
+            "cdk-nag",
+            "constructs",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-config-react-app",
+            "eslint-plugin-header",
+            "eslint-plugin-import",
+            "eslint-plugin-node",
+            "eslint-plugin-prettier",
+            "jest",
+            "prettier",
+            "source-map-support",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "deployment/cdk-solution-helper/package.json",
+          "sha": "a499cb197bdc41f202cacaf9d6df72b47084ed09",
+          "size": 285,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "source/lambda/event_parser/package.json",
+          "sha": "ae67b2eb20502523cb49700e65dcc7d1f6d0788a",
+          "size": 1253,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-sdk/client-secrets-manager",
+            "async",
+            "aws-sdk-mock",
+            "chai",
+            "jest",
+            "mocha",
+            "npm-run-all",
+            "nyc",
+            "sinon",
+            "sinon-chai",
+            "uuid"
+          ]
+        },
+        {
+          "path": "source/lambda/multi_account_custom_resources/package.json",
+          "sha": "d1a941e68046b5d19d91b09899a6ea231bc5c97d",
+          "size": 1359,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-sdk/client-eventbridge",
+            "@aws-sdk/client-s3",
+            "async",
+            "aws-sdk-mock",
+            "axios",
+            "axios-mock-adapter",
+            "chai",
+            "jest",
+            "mocha",
+            "npm-run-all",
+            "nyc",
+            "sinon",
+            "sinon-chai",
+            "uuid"
+          ]
+        },
+        {
+          "path": "source/lambda/query_runner/package.json",
+          "sha": "26b1e2dc0c60a6092158e99d10fff9e78027ed22",
+          "size": 1415,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-sdk/client-athena",
+            "@aws-sdk/client-cloudwatch",
+            "@aws-sdk/client-glue",
+            "async",
+            "aws-sdk-mock",
+            "axios",
+            "axios-mock-adapter",
+            "chai",
+            "jest",
+            "mocha",
+            "npm-run-all",
+            "nyc",
+            "sinon",
+            "sinon-chai",
+            "uuid"
+          ]
+        },
+        {
+          "path": "source/lambda/quicksight-custom-resources/pyproject.toml",
+          "sha": "997e6ee065daa03a3fd5651873fa5f17a3db29ea",
+          "size": 462,
+          "content_status": "captured",
+          "dependency_hints": [
+            "PyYAML",
+            "boto3",
+            "botocore",
+            "crhelper",
+            "mock",
+            "moto",
+            "pytest",
+            "pytest-cov",
+            "pytest-env",
+            "requests",
+            "tenacity",
+            "urllib3"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:00+00:00"
     },
     "aws-solutions/aws-waf-security-automations": {
       "id": 68951589,
@@ -1919,12 +2679,171 @@
       "open_issues": 10,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 410653,
+        "TypeScript": 401576,
+        "Shell": 16607,
+        "JavaScript": 583
+      },
+      "readme_url": "https://github.com/aws-solutions/aws-waf-security-automations/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "13db3167ac7980f189b702e8cc59bb5542d01f7c",
+      "readme_excerpt": "**Important: Security Automations for AWS WAF will retire in December 2026. Deployments (via CloudFormation or GitHub) will remain operational, but customers will assume responsibility for maintenance and API-related updates post-retirement. Customers can explore using native AWS WAF capabilities including AWS Managed Rules, native rate-based rules, and the AWS WAF Console for intuitive configuration and management. These native capabilities provide superior functionality, better performance, real-time updates, and enhanced security features compared to the solution.** **Customers running solution versions prior to v3.0.0 (which deployed AWS WAF Classic) should first migrate to AWS WAF v2 using the AWS WAF migration documentation. Customers on",
+      "readme_headings": [
+        "Table of contents",
+        "Solution overview",
+        "Architecture diagram",
+        "Customizing the solution",
+        "Prerequisites for customization",
+        "Build",
+        "1. Clone the repository",
+        "2. Unit test",
+        "3. Create S3 buckets for storing deployment assets",
+        "4. Declare enviroment variables",
+        "5. Build the solution",
+        "Upload deployment assets",
+        "Deploy",
+        "1. Option to deploy the template in the S3 bucket",
+        "2. Option to deploy using the ```cdk deploy``` command.",
+        "File structure",
+        "Data Collection",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "source/custom_resource/pyproject.toml",
+          "sha": "3ab6fa86fbb9b01d5600207508b4221131f5e958",
+          "size": 490,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-lambda-powertools",
+            "aws-xray-sdk",
+            "backoff",
+            "boto3",
+            "cryptography",
+            "jinja2",
+            "moto",
+            "pytest",
+            "pytest-cov",
+            "pytest-env",
+            "pytest-mock",
+            "urllib3"
+          ]
+        },
+        {
+          "path": "source/helper/pyproject.toml",
+          "sha": "5645d42c37014afbed76a7dfb6242384875ea345",
+          "size": 482,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-lambda-powertools",
+            "aws-xray-sdk",
+            "backoff",
+            "boto3",
+            "cryptography",
+            "jinja2",
+            "moto",
+            "pytest",
+            "pytest-cov",
+            "pytest-env",
+            "pytest-mock",
+            "urllib3"
+          ]
+        },
+        {
+          "path": "source/infrastructure/package.json",
+          "sha": "69b714442652e8a51f4fb3cbeb91851cfbff7c03",
+          "size": 1425,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@eslint/js",
+            "@types/jest",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-cdk",
+            "aws-cdk-lib",
+            "constructs",
+            "eslint",
+            "globals",
+            "jest",
+            "jest-sonar-reporter",
+            "prettier",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "source/ip_retention_handler/pyproject.toml",
+          "sha": "8164b55fb9534d49ae68093f998bd248e0e6caaa",
+          "size": 496,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-lambda-powertools",
+            "aws-xray-sdk",
+            "backoff",
+            "boto3",
+            "cryptography",
+            "jinja2",
+            "moto",
+            "pytest",
+            "pytest-cov",
+            "pytest-env",
+            "pytest-mock",
+            "urllib3"
+          ]
+        },
+        {
+          "path": "source/log_parser/pyproject.toml",
+          "sha": "ca0e267fa6eb1dd54855c414d6632adf84d5aba0",
+          "size": 528,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-lambda-powertools",
+            "aws-xray-sdk",
+            "backoff",
+            "boto3",
+            "cryptography",
+            "freezegun",
+            "jinja2",
+            "moto",
+            "pyparsing",
+            "pytest",
+            "pytest-cov",
+            "pytest-env",
+            "pytest-mock",
+            "urllib3"
+          ]
+        },
+        {
+          "path": "source/metrics/pyproject.toml",
+          "sha": "2d0adb5893d5e57482c849460e26baafc9279078",
+          "size": 444,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-lambda-powertools",
+            "aws-xray-sdk",
+            "boto3",
+            "cryptography",
+            "moto",
+            "pytest",
+            "pytest-cov",
+            "pytest-env",
+            "pytest-mock",
+            "urllib3"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:03+00:00"
     },
     "aws-solutions/centralized-logging-with-opensearch": {
       "id": 496020999,
@@ -1952,12 +2871,182 @@
         "opensearch"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 6255054,
+        "TypeScript": 3831345,
+        "SCSS": 66635,
+        "Shell": 62608,
+        "Velocity Template Language": 44225,
+        "JavaScript": 6061,
+        "Dockerfile": 2216,
+        "HTML": 1624,
+        "Lua": 359
+      },
+      "readme_url": "https://github.com/aws-solutions/centralized-logging-with-opensearch/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0d26e92b838e4667e5c83e5ab763fb1ce1592983",
+      "readme_excerpt": "**Important: This AWS Solution will retire in December 2026. We encourage customers to explore using [Amazon CloudWatch's new unified data management and analytics capabilities](https://aws.amazon.com/blogs/aws/amazon-cloudwatch-introduces-unified-data-management-and-analytics-for-operations-security-and-compliance/). Learn more about AWS CloudWatch unified data and telemetry and give it a try in the AWS CloudWatch console.** **For customers in the Amazon Web Services China (Ningxia) Region: Support for Amazon CloudFront in the Amazon Web Services China (Ningxia) Region will end on May 31, 2027, with no new customers accepted after September 30, 2026 (see the End of support notice for details). Because Centralized Logging with OpenSearch depends on Amazon CloudFront, it will follow",
+      "readme_headings": [
+        "Centralized Logging with OpenSearch",
+        "Table of content",
+        "Solution Overview",
+        "Architecture",
+        "Deployment",
+        "Customization",
+        "Data Collection"
+      ],
+      "manifest_paths": [
+        {
+          "path": "deployment/cdk-solution-helper/package.json",
+          "sha": "3764e3ea34d4856f7769ef6dfa5c3d81ff4c2969",
+          "size": 251,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "source/constructs/package.json",
+          "sha": "ff94d262f4011428cc1420e66a15d1ca37be4408",
+          "size": 2063,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/aws-appsync-alpha",
+            "@aws-cdk/aws-glue-alpha",
+            "@aws-solutions-constructs/aws-cloudfront-oai-s3",
+            "@aws-solutions-constructs/aws-cloudfront-s3",
+            "@types/jest",
+            "@types/node",
+            "@types/prettier",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-cdk",
+            "aws-cdk-lib",
+            "cdk-nag",
+            "constructs",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-import-resolver-node",
+            "eslint-import-resolver-typescript",
+            "eslint-plugin-import",
+            "eslint-plugin-prettier",
+            "jest",
+            "source-map-support",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "source/portal/package.json",
+          "sha": "52310c93a86f4e101c1076cd4fc21d1286fe1bcc",
+          "size": 5307,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@apollo/client",
+            "@aws-amplify/auth",
+            "@aws-amplify/core",
+            "@aws-amplify/ui-react",
+            "@material-ui/core",
+            "@material-ui/icons",
+            "@material-ui/lab",
+            "@reduxjs/toolkit",
+            "@testing-library/jest-dom",
+            "@testing-library/react",
+            "@testing-library/react-hooks",
+            "@types/jest",
+            "@types/lodash.clonedeep",
+            "@types/node",
+            "@types/react",
+            "@types/react-copy-to-clipboard",
+            "@types/react-dom",
+            "@types/react-router-dom",
+            "@types/react-syntax-highlighter",
+            "@types/redux-mock-store",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "ajv",
+            "amplify",
+            "apexcharts",
+            "apollo-link",
+            "aws-amplify",
+            "aws-appsync-auth-link",
+            "aws-appsync-subscription-link",
+            "axios",
+            "classnames",
+            "cross-env",
+            "date-fns",
+            "env-cmd",
+            "eslint",
+            "eslint-config-react",
+            "eslint-config-standard",
+            "eslint-plugin-import",
+            "eslint-plugin-node",
+            "eslint-plugin-promise",
+            "eslint-plugin-react",
+            "graphql",
+            "graphql-tag",
+            "i18next",
+            "i18next-browser-languagedetector",
+            "i18next-http-backend",
+            "js-json-schema-inferrer",
+            "lodash.clonedeep",
+            "moment",
+            "oidc-client-ts",
+            "react",
+            "react-apexcharts",
+            "react-copy-to-clipboard",
+            "react-dom",
+            "react-i18next",
+            "react-minimal-datetime-range",
+            "react-oidc-context",
+            "react-redux",
+            "react-router-dom",
+            "react-scripts"
+          ]
+        },
+        {
+          "path": "deployment/ecr/clo-logging-syslog/Dockerfile",
+          "sha": "b169151ac11d40ac4797b3f37a553bf96866f59d",
+          "size": 469,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "deployment/ecr/clo-s3-list-objects/Dockerfile",
+          "sha": "dd6dcb3c7513a70fbff0d5019c850218b885cc6d",
+          "size": 1747,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "deployment/ecr/clo-s3-list-objects/pyproject.toml",
+          "sha": "3458376b3f5624baa4139969c6e71f1191ee6ef5",
+          "size": 597,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "cryptography",
+            "moto",
+            "pygments",
+            "pytest",
+            "pytest-cov",
+            "pytest-mock",
+            "requests",
+            "requests-aws4auth",
+            "requests-mock",
+            "setuptools",
+            "urllib3"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:06+00:00"
     },
     "aws-solutions/cloud-migration-factory-on-aws": {
       "id": 249775638,

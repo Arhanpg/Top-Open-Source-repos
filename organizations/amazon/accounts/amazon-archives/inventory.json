@@ -265,12 +265,42 @@
         "nodejs"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 1164
+      },
+      "readme_url": "https://github.com/amazon-archives/amazon-chime-webhooks-nodejs/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5c1cb3b17ae7fc0d51f700ad568489685045cb7b",
+      "readme_excerpt": "Send Amazon Chime messages using webhooks. - Amazon Chime - Webhooks for Amazon Chime - Adding Webhooks to Chat Rooms const Chime = require('chime'); (async () => { try { await Chime.sendMessage('hello world', '<WEBHOOK_URL>'); } catch (err) { // do something with err } })(); - `url` `<string>` - Webhook URL - `options` `<object>` Overridden by `room.sendMessage()` options. - `markdown` `<boolean>` - Send message using markdown syntax. **Default:** `true` - Returns: `<Chime>` const room = new Chime('<WEBHOOK_URL>'); - `message` `<string>` - `url` `<string>` - Webhook URL - `options` `<object>` - `markdown` `<boolean>` - Send message using markdown syntax. **Default:** `true`",
+      "readme_headings": [
+        "Amazon Chime",
+        "Class: Chime",
+        "new Chime(url[, options])",
+        "Chime.sendMessage(message, url[, options])",
+        "room.sendMessage(message[, options])",
+        "Contributions",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "1aca7b022f6446c3f281bfd43bfe6fd4c64f6c4b",
+          "size": 704,
+          "content_status": "captured",
+          "dependency_hints": [
+            "prettier"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:24+00:00"
     },
     "amazon-archives/amazon-cloudfront-dynamic-ota": {
       "id": 390490032,
@@ -302,12 +332,80 @@
         "ota"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 25821
+      },
+      "readme_url": "https://github.com/amazon-archives/amazon-cloudfront-dynamic-ota/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e4e34ddfa53868a0c28b4b278436503956345401",
+      "readme_excerpt": "A common pattern for IoT devices is for updates to be pushed over the air. However, in some cases, it may not be possible to control updates to a device. This is especially true in the case of \"anonymous\" devices that are unregistered with a backend system, such as AWS IoT. It may also be cost prohibitive to try to manage updates to large fleets of devices, where a fire-and-forget strategy might be better suited. For larger devices running a full operating system, these challenges are typically solved by managing updates through a package manager such as apt, yum, npm,",
+      "readme_headings": [
+        "Amazon CloudFront Dynamic Package Distribution for IoT Workloads",
+        "Overview",
+        "Challenge",
+        "Solution",
+        "Detailed Flow Summary",
+        "Architecture Overview",
+        "AWS Services Used",
+        "Open Source Libraries Used",
+        "Difficulty Level",
+        "Prerequisites",
+        "Demo Cost Estimate",
+        "Assumptions:",
+        "Lambda@Edge-backed Application Cost",
+        "Non-cached Request:",
+        "Cached Request:",
+        "AppRunner-backed Application Cost",
+        "Non-cached Request:",
+        "Cached Request:",
+        "Set Up",
+        "Project layout",
+        "Infrastructure and API deployment",
+        "Prerequisite for App Runner deployment",
+        "Option 1: Auto-Deploy with all defaults",
+        "Option 2: Create CloudFormation stack in the console",
+        "Create CloudFormation Stack",
+        "Populate Sample Data",
+        "Demo",
+        "Cleanup",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "runtime/Pipfile",
+          "sha": "8e800ea78f52bc86121aff02a542261b07f2f813",
+          "size": 162,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "flask",
+            "name",
+            "python_version",
+            "url",
+            "verify_ssl"
+          ]
+        },
+        {
+          "path": "runtime/requirements.txt",
+          "sha": "faf5cbbb9c39f6706f79a37ba848b844686897e7",
+          "size": 11,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "flask"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:26+00:00"
     },
     "amazon-archives/amazon-cognito-android": {
       "id": 21631940,
@@ -330,12 +428,43 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 499487
+      },
+      "readme_url": "https://github.com/amazon-archives/amazon-cognito-android/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "592f25c626390dfe0ede78b05fe315d9ba8eeec5",
+      "readme_excerpt": "**This repository has been merged into AWS SDK for Android. All the code is moved under aws-sdk-android/aws-android-sdk-cognito. Amazon Cognito Sync will continue to be developed and maintained in the master repo. Any future issues regarding Amazon Cognito should be posted at aws-sdk-android/issues. This repo will be inactive and is pending removal if necessary.** For more information on Andorid development, see the Android developer site at: developer.android.com",
+      "readme_headings": [
+        "[MOVED] AWS SDK for Android (Amazon Cognito)",
+        "To learn more about Android Development"
+      ],
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "3d0459672d24e8d88b1106c52d5a9de9fbf6db0b",
+          "size": 3607,
+          "content_status": "captured",
+          "dependency_hints": [
+            "android",
+            "aws-android-sdk-cognito",
+            "aws-android-sdk-core",
+            "maven-compiler-plugin",
+            "maven-gpg-plugin",
+            "maven-javadoc-plugin",
+            "nexus-staging-maven-plugin"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:27+00:00"
     },
     "amazon-archives/amazon-cognito-auth-js": {
       "id": 93084667,
@@ -358,12 +487,56 @@
       "open_issues": 109,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 171436
+      },
+      "readme_url": "https://github.com/amazon-archives/amazon-cognito-auth-js/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "90343e18e39314940e3b277a832e3f4e0501ad4a",
+      "readme_excerpt": "**NOTE: We have discontinued developing this library as part of this GitHub repository. You can still reach us by creating an issue on the AWS Amplify GitHub repository or posting to the Amazon Cognito Identity forums.** You can now use Amazon Cognito Auth to easily add sign-in and sign-out to your mobile and web apps. Your user pool in Amazon Cognito is a fully managed user directory that can scale to hundreds of millions of users, so you don't have to worry about building, securing, and scaling a solution to handle user management and authentication. We welcome developer feedback on",
+      "readme_headings": [
+        "Amazon Cognito Auth SDK for JavaScript",
+        "Introduction",
+        "Setup",
+        "Install using separate JavaScript files",
+        "Using NPM and Webpack",
+        "Configuration",
+        "Usage",
+        "Change Log"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "a5a53467253c39de7054655c4239dc688296aa8e",
+          "size": 2039,
+          "content_status": "captured",
+          "dependency_hints": [
+            "babel-cli",
+            "babel-core",
+            "babel-loader",
+            "babel-plugin-transform-es2015-modules-commonjs",
+            "babel-preset-es2015",
+            "cross-env",
+            "eslint",
+            "eslint-config-airbnb-base",
+            "eslint-import-resolver-webpack",
+            "eslint-plugin-import",
+            "js-cookie",
+            "jsdoc",
+            "rimraf",
+            "webpack"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:29+00:00"
     },
     "amazon-archives/amazon-cognito-ios": {
       "id": 21633057,
@@ -386,12 +559,32 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Objective-C": 484017,
+        "Ruby": 5712,
+        "C": 1810
+      },
+      "readme_url": "https://github.com/amazon-archives/amazon-cognito-ios/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6e6ecfcf41fc8ca3291e1c67e402f70f05b9cbcc",
+      "readme_excerpt": "This repository has been merged into AWS SDK for iOS. All the code is moved under aws-sdk-iOS/AWSCognito. Amazon Cognito Sync will continue to be developed and maintained in the master repo. Any future issues regarding Amazon Cognito should be posted at aws-sdk-ios/issues. This repo will be inactive and is pending removal if necessary. * iOS 7 and later * Xcode 5 and later 1. Open `AWSCognito.xcodeproj` file 2. Select embeded project: `AWSCore.xcodeproj` in Project Navigator Panel. 3. Locate `Location` under **Identity and Type** in File Inspector Panel. 4. Click `Folder` button on the right and choose the location of `AWSCore.xcodeproj`",
+      "readme_headings": [
+        "[MOVED] AWS SDK for iOS (Amazon Cognito)",
+        "Version 2 of the AWS SDK for iOS (Amazon Cognito)",
+        "Requirements",
+        "Building",
+        "Installation"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:30+00:00"
     },
     "amazon-archives/amazon-cognito-js": {
       "id": 26130293,
@@ -414,12 +607,45 @@
       "open_issues": 36,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 78831
+      },
+      "readme_url": "https://github.com/amazon-archives/amazon-cognito-js/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d018666492f46c2a619bb8a67ad270903183c7db",
+      "readme_excerpt": "﻿# Amazon Cognito Sync Manager for JavaScript **Developer Preview:** We welcome developer feedback on this project. You can reach us by creating an issue on the GitHub repository or post to the Amazon Cognito forums: * https://github.com/aws/amazon-cognito-js/issues * https://forums.aws.amazon.com/forum.jspa?forumID=173 Introduction ============ The Cognito Sync Manager for JavaScript allows your web application to store data in the cloud for your users and synchronize across other devices. The library uses the browser's local storage API to create a local cache for the data, similar to our mobile SDK. This allows your web application to access stored data even when there is no",
+      "readme_headings": [
+        "Setup",
+        "Usage",
+        "Change Log"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "cc3a042319b6201d57be78c5f35c25b5ce5ca9b3",
+          "size": 913,
+          "content_status": "captured",
+          "dependency_hints": [
+            "grunt",
+            "grunt-contrib-jshint",
+            "grunt-contrib-qunit",
+            "grunt-contrib-uglify",
+            "grunt-contrib-watch",
+            "grunt-jsdoc",
+            "grunt-umd",
+            "qunitjs"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:31+00:00"
     },
     "amazon-archives/amazon-cognito-streams-sample": {
       "id": 31430470,
@@ -442,12 +668,53 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 114466,
+        "CSS": 2016,
+        "HTML": 126
+      },
+      "readme_url": "https://github.com/amazon-archives/amazon-cognito-streams-sample/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7b46fd520fd8ccc560f40a5fce7c0c32c479a2d1",
+      "readme_excerpt": "This example application is meant to demonstrate how to consume Amazon Cognito streams and model data in Amazon Redshift. This sample is designed to be built with Maven. All requisite dependencies are captured in the `pom.xml`. Simply use `mvn package` to build the war and deploy to Elastic Beanstalk or directly to EC2. The sample requires the following environment variables be set: * `JDBC_CONNECTION_STRING` - This JDBC connection string for your Amazon Redshift cluster. * `KINESIS_INPUT_STREAM` (or `PARAM1`) - The name of the Kinesis stream to look for Amazon Cognito updates. * `REDSHIFT_USER_NAME` (or `PARAM2`) - The master user name",
+      "readme_headings": [
+        "Amazon Cognito Streams connector for Amazon Redshift",
+        "Building the sample",
+        "Configuring the sample",
+        "Deploying the sample"
+      ],
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "c87558beb6735590d1a6f720d918d8504734e265",
+          "size": 3319,
+          "content_status": "captured",
+          "dependency_hints": [
+            "amazon-cognito-streams-sample",
+            "amazon-kinesis-client",
+            "aws-java-sdk",
+            "commons-collections",
+            "commons-io",
+            "commons-logging",
+            "guava",
+            "javatuples",
+            "javax.servlet-api",
+            "joda-time",
+            "maven-compiler-plugin",
+            "maven-war-plugin",
+            "postgresql"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:33+00:00"
     },
     "amazon-archives/amazon-cognito-unity": {
       "id": 28116001,
@@ -470,12 +737,27 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 648407
+      },
+      "readme_url": "https://github.com/amazon-archives/amazon-cognito-unity/blob/master/readme.md",
+      "readme_path": "readme.md",
+      "readme_sha": "70bf5a15ed9097a65c2176e5cd423427ccc6c6eb",
+      "readme_excerpt": "The Amazon Cognito Sync manager for unity is now distributed as a part of the aws sdk for dotnet. Please refer the new github repository for more information.",
+      "readme_headings": [
+        "AWS Mobile SDK for Unity (Amazon Cognito)",
+        "**Note**"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:34+00:00"
     },
     "amazon-archives/amazon-creator-mrss-feed-sample": {
       "id": 124922636,
@@ -498,12 +780,36 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Ruby": 8179,
+        "HTML": 174
+      },
+      "readme_url": "https://github.com/amazon-archives/amazon-creator-mrss-feed-sample/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9ed0f26363de027a3f082ab41a62afc3acc7bc6f",
+      "readme_excerpt": "This is a simple Jekyll website with an MRSS feed that designed for creating an Amazon Fire TV app with Amazon Creator. You can view the documentation for Amazon Creator here. You build this project using the standard build process for Jekyll. Assuming you already have RubyGems installed, just run the following from the command line: gem install jekyll bundler bundle exec jekyll serve Create posts in the \\_posts folder following standard Jekyll post formats. Each post should have frontmatter and content similar to the sample posts. This information, along with some values from the \\_config.yml file, gets passed into",
+      "readme_headings": [
+        "Readme",
+        "Setup"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Gemfile",
+          "sha": "4ee7413580ea8d84628ce586a7c8328757e6fd8f",
+          "size": 964,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:36+00:00"
     },
     "amazon-archives/amazon-dsstne": {
       "id": 54621372,
@@ -526,12 +832,100 @@
       "open_issues": 45,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 1091321,
+        "Cuda": 933293,
+        "Java": 137305,
+        "C": 68096,
+        "Python": 20122,
+        "Makefile": 18084,
+        "CMake": 4007,
+        "Dockerfile": 1554
+      },
+      "readme_url": "https://github.com/amazon-archives/amazon-dsstne/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "02c46cd4abf452a2dcfc0db0526e0292aec915ab",
+      "readme_excerpt": "DSSTNE (pronounced \"Destiny\") is an open source software library for training and deploying recommendation models with sparse inputs, fully connected hidden layers, and sparse outputs. Models with weight matrices that are too large for a single GPU can still be trained on a single host. DSSTNE has been used at Amazon to generate personalized product recommendations for our customers at Amazon's scale. It is designed for production deployment of real-world applications which need to emphasize speed and scale over experimental flexibility. DSSTNE was built with a number of features for production recommendation workloads: * **Multi-GPU Scale**: Training and prediction both",
+      "readme_headings": [
+        "Amazon DSSTNE: Deep Scalable Sparse Tensor Network Engine",
+        "Benchmarks",
+        "Scaling up",
+        "License",
+        "Setup",
+        "User Guide",
+        "Examples",
+        "Q&A"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "1d812046e65459b3d46907394f3254ebc2c1d8fc",
+          "size": 1554,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "5b0200ec220179cb345f9f7f4ee808b1ecd66424",
+          "size": 794,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "java/Makefile",
+          "sha": "fc91aacf2459c02a7faed1a6f6fcce63077eb95a",
+          "size": 2309,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "java/pom.xml",
+          "sha": "0ba502be20a3906ab09a800b6c149d5988c0c220",
+          "size": 5276,
+          "content_status": "captured",
+          "dependency_hints": [
+            "amazon-dsstne",
+            "guava",
+            "jcommander",
+            "junit",
+            "lombok",
+            "maven-antrun-plugin",
+            "maven-checkstyle-plugin",
+            "maven-clean-plugin",
+            "maven-compiler-plugin",
+            "maven-deploy-plugin",
+            "maven-install-plugin",
+            "maven-jar-plugin",
+            "maven-resources-plugin",
+            "maven-surefire-plugin",
+            "native-maven-plugin",
+            "slf4j-api"
+          ]
+        },
+        {
+          "path": "python/Makefile",
+          "sha": "0811c516d4895b7b60152ebcefc9a61c268bf333",
+          "size": 211,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "python/setup.py",
+          "sha": "4060c7ab9896a9575be8bf7e4362f611a7ac0bd8",
+          "size": 2248,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:39+00:00"
     },
     "amazon-archives/amazon-ecs-interstella-workshop": {
       "id": 111957371,

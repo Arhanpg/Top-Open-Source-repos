@@ -794,12 +794,67 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 293461
+      },
+      "readme_url": "https://github.com/aws-actions/aws-continuum-run-pentest/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4b7c8ee1bb4e3cc2adb7ecabb0cc19a90e227f00",
+      "readme_excerpt": "Run a penetration test with **AWS Security Agent (now part of AWS Continuum)** as a **post-deployment gate** in your CD pipeline. The Action runs as a step *after* a deployment, tests the code that was just deployed, and **blocks pipeline promotion** if a finding is at or above your severity threshold. It can optionally publish findings to **GitHub Code Scanning** (SARIF). All testing runs server-side in your AWS account — this Action only orchestrates the job and reports the result; no pentest logic runs on the GitHub runner. 1. Resolves your repository to its AWS Security Agent (now part of",
+      "readme_headings": [
+        "AWS Security Agent (now part of AWS Continuum) — Run Pentest (GitHub Action)",
+        "How it works",
+        "Before you start",
+        "AWS authentication (OIDC, one-time IAM setup)",
+        "Usage",
+        "Automatic baseline",
+        "Pinning the commit range",
+        "Report-only runs (`severity-threshold: NONE`)",
+        "Report-only still advances the baseline",
+        "Validating your setup (dry run)",
+        "Cancellation and cleanup",
+        "Inputs",
+        "Outputs",
+        "Viewing results",
+        "Pipeline outcomes",
+        "Troubleshooting",
+        "Development & testing",
+        "Security recommendations",
+        "Security disclosures",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "28945b284c6585fa131544d25fa619433b9ea930",
+          "size": 1931,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@actions/core",
+            "@actions/github",
+            "@aws-sdk/client-securityagent",
+            "@aws-sdk/credential-provider-node",
+            "@biomejs/biome",
+            "@smithy/types",
+            "@smithy/util-retry",
+            "@types/node",
+            "@vitest/coverage-v8",
+            "esbuild",
+            "generate-license-file",
+            "typescript",
+            "vitest"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:08+00:00"
     },
     "aws-actions/aws-devicefarm-browser-testing": {
       "id": 703756244,
@@ -822,12 +877,69 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 25487
+      },
+      "readme_url": "https://github.com/aws-actions/aws-devicefarm-browser-testing/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d6e1f7da4be027c86013624236b88d1d24cc8e85",
+      "readme_excerpt": "Automates Browser Testing on AWS Device Farm. This GitHub Action allows you to interact with desktop browser testing on AWS Device Farm. For example, testing new versions of code being committed to a branch to ensure the App works as desired before proceeding with the next step in the release cycle. - AWS Device Farm Browser Testing for GitHub Actions - Table of Contents - Input options - Output options - Examples of Usage - Before each of the following examples, make sure to include the following - Creating a new AWS Device Farm Project - Lookup an existing AWS",
+      "readme_headings": [
+        "AWS Device Farm Browser Testing for GitHub Actions",
+        "Table of Contents",
+        "Input options",
+        "Output options",
+        "Examples of Usage",
+        "Before each of the following examples, make sure to include the following",
+        "Creating a new AWS Device Farm Project",
+        "Lookup an existing AWS Device Farm Project",
+        "Generate a Test Grid URL for an existing AWS Device Farm Project",
+        "Retrieve All artifacts",
+        "Retrieve VIDEO and LOG artifacts",
+        "Putting it all together with webdriver.io to execute the tests",
+        "Putting it all together more generically using the Test Grid Url mode",
+        "Credentials",
+        "AWS Credentials",
+        "Permissions",
+        "Running the action in `project` mode only",
+        "Running the action in `gridurl` mode only",
+        "Running the action in `artifact` mode only",
+        "License Summary",
+        "Security Disclosures"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "99111c2dce1bc67ad877a04541aba617f0135fc5",
+          "size": 973,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@actions/core",
+            "@aws-sdk/client-device-farm",
+            "@eslint/js",
+            "@rollup/plugin-commonjs",
+            "@rollup/plugin-json",
+            "@rollup/plugin-node-resolve",
+            "@vitest/coverage-v8",
+            "aws-sdk-client-mock",
+            "aws-sdk-client-mock-vitest",
+            "axios",
+            "eslint",
+            "globals",
+            "rollup",
+            "vitest"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:10+00:00"
     },
     "aws-actions/aws-devicefarm-mobile-device-testing": {
       "id": 682682425,
@@ -850,12 +962,67 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 86072
+      },
+      "readme_url": "https://github.com/aws-actions/aws-devicefarm-mobile-device-testing/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4f7c4ff2176fd819e027913e0d757ace887d2076",
+      "readme_excerpt": "Runs a Mobile Device Automated Test on AWS Device Farm. This GitHub Action allows you to run automated app testing on AWS Device Farm. For example, testing new versions of code being committed to a branch to ensure the App works as desired before proceeding with the next step in the release cycle. - AWS Device Farm Mobile Device Testing for GitHub Actions - Table of Contents - Input options - Output options - Examples of Usage - Running an Automated Test - Before each of the following examples, make sure to include the following - Run Device Farm Test",
+      "readme_headings": [
+        "AWS Device Farm Mobile Device Testing for GitHub Actions",
+        "Table of Contents",
+        "Input options",
+        "Output options",
+        "Examples of Usage",
+        "Running an Automated Test",
+        "Before each of the following examples, make sure to include the following",
+        "Run Device Farm Test and download all artifacts",
+        "Run Device Farm Test and download only video and screenshot artifacts",
+        "Run Device Farm Test without downloading any artifacts",
+        "Credentials",
+        "AWS Credentials",
+        "Permissions",
+        "Additional Capabilities",
+        "Inputs",
+        "License Summary",
+        "Security Disclosures"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "c39fa87b75e108aac0a4f0d53078f0dad9fc6613",
+          "size": 1024,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@actions/core",
+            "@actions/github",
+            "@aws-sdk/client-device-farm",
+            "@eslint/js",
+            "@rollup/plugin-commonjs",
+            "@rollup/plugin-json",
+            "@rollup/plugin-node-resolve",
+            "@vitest/coverage-v8",
+            "aws-sdk-client-mock",
+            "aws-sdk-client-mock-vitest",
+            "axios",
+            "eslint",
+            "globals",
+            "mock-fs",
+            "rollup",
+            "vitest"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:11+00:00"
     },
     "aws-actions/aws-elasticbeanstalk-deploy": {
       "id": 1150080493,
@@ -878,12 +1045,80 @@
       "open_issues": 7,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 283544,
+        "JavaScript": 2314,
+        "Python": 247
+      },
+      "readme_url": "https://github.com/aws-actions/aws-elasticbeanstalk-deploy/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1082da52a7190e0ca306442c293065f09723422a",
+      "readme_excerpt": "A GitHub Action for deploying applications to AWS Elastic Beanstalk with automatic version management, environment creation, health monitoring, and intelligent retry logic. It supports both Beanstalk Standard (EC2-backed) environments and Beanstalk Cluster (EKS-backed) container environments. - Features - Choose Your Deployment Mode - Prerequisites - Step 1: Configure AWS Authentication - Step 2: Attach Required Permissions - Step 3: Create IAM Roles for Elastic Beanstalk - Step 4: Add GitHub Secrets - Beanstalk Standard Environments - Quick Start - Platform Configuration - Option Settings - Beanstalk Cluster Environments - Required Option Settings - Option A: Deploy a Pre-Built Image -",
+      "readme_headings": [
+        "AWS Elastic Beanstalk Deploy Action",
+        "Table of Contents",
+        "Features",
+        "Choose Your Deployment Mode",
+        "Prerequisites",
+        "Step 1: Configure AWS Authentication",
+        "Option A: OpenID Connect (OIDC) — Recommended",
+        "Option B: Static Credentials",
+        "Step 2: Attach Required Permissions",
+        "Step 3: Create IAM Roles for Elastic Beanstalk",
+        "Roles for Beanstalk Standard Environments",
+        "Step 4: Add GitHub Secrets",
+        "Beanstalk Standard Environments",
+        "Quick Start",
+        "Platform Configuration",
+        "Option Settings",
+        "Beanstalk Cluster Environments",
+        "Required Option Settings",
+        "Option A: Deploy a Pre-Built Image",
+        "Option B: Build the Image From Source",
+        "What Changes Compared to Beanstalk Standard",
+        "Versioning",
+        "Get the latest v1.x.y release (recommended)",
+        "Pin to a specific release",
+        "Pin to a commit SHA (strictest)",
+        "Reusing an Existing Version",
+        "Inputs",
+        "Required Inputs",
+        "Mode-Selecting Inputs",
+        "Optional Inputs"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "97538251323a099d390ab959ef549d9aed38ad7c",
+          "size": 1861,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@actions/core",
+            "@actions/exec",
+            "@aws-sdk/client-elastic-beanstalk",
+            "@aws-sdk/client-s3",
+            "@aws-sdk/client-sts",
+            "@types/archiver",
+            "@types/jest",
+            "@types/node",
+            "@vercel/ncc",
+            "archiver",
+            "ignore",
+            "jest",
+            "ts-jest",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:13+00:00"
     },
     "aws-actions/aws-lambda-deploy": {
       "id": 1025109135,
@@ -906,12 +1141,63 @@
       "open_issues": 30,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 259941
+      },
+      "readme_url": "https://github.com/aws-actions/aws-lambda-deploy/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6ee0ff0f14faea33bd856aa32faca18c7c5976ab",
+      "readme_excerpt": "Updates the code and configuration of AWS Lambda functions as part of GitHub Actions workflow steps. Supports both .zip file archives and container images stored in Amazon ECR. **Table of Contents** - Usage * Update Function Configuration * Using S3 Deployment Method * Dry Run Mode * Container Image Deployment - Build from Source - Inputs - Outputs - Credentials and Region - Permissions - License Summary - Security Disclosures name: Deploy to AWS Lambda on: push: branches: [ \"main\" ] permissions: id-token: write # This is required for OIDC authentication contents: read # This is required to checkout the",
+      "readme_headings": [
+        "AWS Lambda Deploy GitHub Action",
+        "Usage",
+        "Update Function Configuration",
+        "Using S3 Deployment Method",
+        "Dry Run Mode",
+        "Container Image Deployment",
+        "Build from Source",
+        "Node.js",
+        "Python",
+        "Inputs",
+        "Outputs",
+        "Credentials and Region",
+        "OpenID Connect (OIDC)",
+        "Permissions",
+        "License Summary",
+        "Security Disclosures"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "6f22b538f32de1892792f7723fd3b285fb1f4534",
+          "size": 934,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@actions/core",
+            "@actions/github",
+            "@aws-sdk/client-lambda",
+            "@aws-sdk/client-s3",
+            "@aws-sdk/client-sts",
+            "@aws-sdk/util-retry",
+            "@smithy/node-http-handler",
+            "@vercel/ncc",
+            "adm-zip",
+            "eslint",
+            "eslint-plugin-jest",
+            "glob",
+            "jest"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:14+00:00"
     },
     "aws-actions/aws-secretsmanager-get-secrets": {
       "id": 541792993,
@@ -940,12 +1226,60 @@
         "secret-management"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 90714,
+        "JavaScript": 1188
+      },
+      "readme_url": "https://github.com/aws-actions/aws-secretsmanager-get-secrets/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "fc3144ec3872345e4d87fc3f0b35d2b76cc6973e",
+      "readme_excerpt": "To use a secret in a GitHub job, you can use a GitHub action to retrieve secrets from AWS Secrets Manager and add them as masked Environment variables in your GitHub workflow. For more information about GitHub Actions, see Understanding GitHub Actions in the *GitHub Docs*. When you add a secret to your GitHub environment, it is available to all other steps in your GitHub job. Follow the guidance in Security hardening for GitHub Actions to help prevent secrets in your environment from being misused. You can set the entire string in the secret value as the environment variable value,",
+      "readme_headings": [
+        "Use AWS Secrets Manager secrets in GitHub jobs",
+        "Prerequisites",
+        "Usage",
+        "Use an HTTP proxy",
+        "Environment variable naming",
+        "Examples",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "edd4afaec0b65d5678fbf0c75b4f194e1c45563f",
+          "size": 1712,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@actions/core",
+            "@aws-sdk/client-secrets-manager",
+            "@eslint/eslintrc",
+            "@eslint/js",
+            "@smithy/node-http-handler",
+            "@types/jest",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "@vercel/ncc",
+            "aws-sdk-client-mock",
+            "aws-sdk-client-mock-jest",
+            "eslint",
+            "generate-license-file",
+            "jest",
+            "proxy-agent",
+            "ts-jest"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:16+00:00"
     },
     "aws-actions/closed-issue-message": {
       "id": 300014779,
@@ -968,12 +1302,144 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 812
+      },
+      "readme_url": "https://github.com/aws-actions/closed-issue-message/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "843bb570888b413b57c5dbc3d77edccdf560d3b4",
+      "readme_excerpt": "This action sets a default message to be commented on all issues or pull requests when they get closed. Add a YAML workflow file into your repository under `.github/workflows`. This workflow file follows the For a list of options and their description, see action.yml. name: Closed Issue Message on: issues: types: [closed] jobs: auto_comment: permissions: issues: write runs-on: ubuntu-latest steps: - uses: aws-actions/closed-issue-message@v2 with: repo-token: \"${{ secrets.GITHUB_TOKEN }}\" message: \"Comments on closed issues are hard for our team to see.\" message: | Comments on closed issues are hard for our team to see. If you need more assistance, please either",
+      "readme_headings": [
+        "\"Closed Issue Message\" Action for GitHub Actions",
+        "Usage",
+        "Example Workflow",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "a23f4d8c4202cceb22a3661d34b3893c70666d67",
+          "size": 565,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@actions/core",
+            "@actions/github",
+            "@biomejs/biome"
+          ]
+        },
+        {
+          "path": "node_modules/before-after-hook/package.json",
+          "sha": "533a3ebee68728ab2d613ba8fef838018dd1a2c4",
+          "size": 2081,
+          "content_status": "captured",
+          "dependency_hints": [
+            "browserify",
+            "gaze-cli",
+            "istanbul",
+            "istanbul-coveralls",
+            "mkdirp",
+            "prettier",
+            "rimraf",
+            "semantic-release",
+            "simple-mock",
+            "tap-min",
+            "tap-spec",
+            "tape",
+            "typescript",
+            "uglify-js"
+          ]
+        },
+        {
+          "path": "node_modules/deprecation/package.json",
+          "sha": "a45fd513b471216ab72a82710b35600c60e76f21",
+          "size": 793,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@pika/pack",
+            "@pika/plugin-build-node",
+            "@pika/plugin-build-types",
+            "@pika/plugin-build-web",
+            "@pika/plugin-standard-pkg",
+            "semantic-release"
+          ]
+        },
+        {
+          "path": "node_modules/once/package.json",
+          "sha": "16815b2fa111936c9681a1b76c5fce98421c1631",
+          "size": 574,
+          "content_status": "captured",
+          "dependency_hints": [
+            "tap",
+            "wrappy"
+          ]
+        },
+        {
+          "path": "node_modules/tunnel/package.json",
+          "sha": "bcd7b95ae186c59eaec3232795a1c269accb904c",
+          "size": 730,
+          "content_status": "captured",
+          "dependency_hints": [
+            "mocha",
+            "should"
+          ]
+        },
+        {
+          "path": "node_modules/undici/package.json",
+          "sha": "0c6b71e175c6d43cb185c3acf064875e62a78914",
+          "size": 4963,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@fastify/busboy",
+            "@sinonjs/fake-timers",
+            "@types/node",
+            "abort-controller",
+            "atomic-sleep",
+            "chai",
+            "chai-as-promised",
+            "chai-iterator",
+            "chai-string",
+            "concurrently",
+            "cronometro",
+            "delay",
+            "dns-packet",
+            "docsify-cli",
+            "form-data",
+            "formdata-node",
+            "https-pem",
+            "husky",
+            "import-fresh",
+            "jest",
+            "jsdom",
+            "jsfuzz",
+            "mocha",
+            "mockttp",
+            "p-timeout",
+            "pre-commit",
+            "proxy",
+            "proxyquire",
+            "semver",
+            "sinon",
+            "snazzy",
+            "standard",
+            "table",
+            "tap",
+            "tsd",
+            "typescript",
+            "wait-on",
+            "ws"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:18+00:00"
     },
     "aws-actions/cloudformation-aws-iam-policy-validator": {
       "id": 784920149,
@@ -996,12 +1462,44 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 17496,
+        "Dockerfile": 194
+      },
+      "readme_url": "https://github.com/aws-actions/cloudformation-aws-iam-policy-validator/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "318de4d7ad3583289fdb91304282317a1969e272",
+      "readme_excerpt": "A GitHub Action that takes an AWS CloudFormation template, parses the IAM policies attached to IAM roles, users, groups, and resources then runs them through IAM Access Analyzer policy validation and (optionally) custom policy checks. Note that a charge is associated with each custom policy check. For more details about pricing, see IAM Access Analyzer pricing. See action.yml for the full documentation for this action's inputs and outputs. **Before each of the following examples, make sure to include the following:** - Setting up the role: Role used in the GitHub workflow should have necessary permissions required - to be called",
+      "readme_headings": [
+        "Policy Validator for AWS IAM Policies in CloudFormation Templates",
+        "Inputs",
+        "Example Usage",
+        "Getting started using starter workflows",
+        "Using `VALIDATE_POLICY` CHECK",
+        "Using for the `CHECK_NO_NEW_ACCESS` CHECK",
+        "Using for the `CHECK_ACCESS_NOT_GRANTED` CHECK",
+        "Using for the `CHECK_NO_PUBLIC_ACCESS` CHECK",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "4bec6524cc2407e023ef9856fdfb96f0176f4b0a",
+          "size": 194,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:20+00:00"
     },
     "aws-actions/codeguru-reviewer": {
       "id": 316088125,
@@ -1024,12 +1522,31 @@
       "open_issues": 7,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-actions/codeguru-reviewer/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ced3a1583c84ecbb7c161efe1e4129b763aa4936",
+      "readme_excerpt": "Amazon CodeGuru Reviewer finds issues in your Java and Python code and provides recommendations on how to remediate them. CodeGuru Reviewer identifies 1. Code quality issues, such as deviation from best practices with AWS APIs and SDKs, concurrency issues, resource leaks, and incorrect input validation 2. Security vulnerabilities, such as risks from the top 10 OWASP categories. Amazon CodeGuru Reviewer action can be triggered by a pull request, push, or scheduled run of your CI/CD pipeline. * Pull requests - Code quality & security recommendations for your changed lines of code are shown in the pull request. * Push -",
+      "readme_headings": [
+        "Amazon CodeGuru Reviewer for GitHub Actions",
+        "Usage",
+        "Step 1: Checkout the repository and provide your AWS credentials",
+        "Step 2: Add CodeGuru Reviewer Action",
+        "Step 3: Upload results into GitHub",
+        "Recommendations",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:21+00:00"
     },
     "aws-actions/codeguru-security": {
       "id": 651267900,
@@ -1052,12 +1569,28 @@
       "open_issues": 7,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-actions/codeguru-security/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7d34028ae77b6fe0cc81fc2b16d9eb6f983bf5ca",
+      "readme_excerpt": "Amazon CodeGuru Security finds issues in your code and provides recommendations on how to remediate them. CodeGuru Security identifies Security vulnerabilities, such as risks from the top 10 OWASP categories. Amazon CodeGuru Security action can be triggered by a pull request, push, or scheduled run of your CI/CD pipeline. For more information about setup, see Create code security reviews with GitHub Actions in the *Amazon CodeGuru Security User Guide*. To add CodeGuru Security to your CI/CD pipeline, follow the steps under the *Usage* section. **Step 1: Set up Your workflow.yml File** * **Add checkout to your workflow:** For CodeGuru Security",
+      "readme_headings": [
+        "Amazon CodeGuru Security for GitHub Actions",
+        "Usage",
+        "Recommendations",
+        "Security",
+        "License"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:04:22+00:00"
     },
     "aws-actions/configure-aws-credentials": {
       "id": 220391287,

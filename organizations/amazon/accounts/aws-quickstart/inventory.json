@@ -493,12 +493,22 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:31:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "unavailable",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": null,
+      "readme_path": null,
+      "readme_sha": null,
+      "readme_excerpt": "",
+      "readme_headings": [],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:07+00:00"
     },
     "aws-quickstart/msft-nested-example": {
       "id": 243065470,
@@ -521,12 +531,72 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:31:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "PowerShell": 1317922,
+        "Dockerfile": 47538,
+        "Batchfile": 2096,
+        "TSQL": 324
+      },
+      "readme_url": "https://github.com/aws-quickstart/msft-nested-example/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b3fc7fe44ac61fe9f30c35b6aa983ff2e092dbf3",
+      "readme_excerpt": "Sample code from blog post",
+      "readme_headings": [
+        "msft-nested-example"
+      ],
+      "manifest_paths": [
+        {
+          "path": "submodules/quickstart-microsoft-activedirectory/submodules/quickstart-microsoft-utilities/scripts/Dockerfile",
+          "sha": "c105f5424e5ab632bcfda367890ec7e4e822a696",
+          "size": 2502,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "submodules/quickstart-microsoft-exchange/submodules/quickstart-microsoft-utilities/scripts/Dockerfile",
+          "sha": "c105f5424e5ab632bcfda367890ec7e4e822a696",
+          "size": 2502,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "submodules/quickstart-microsoft-rdgateway/submodules/quickstart-microsoft-utilities/scripts/Dockerfile",
+          "sha": "c105f5424e5ab632bcfda367890ec7e4e822a696",
+          "size": 2502,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "submodules/quickstart-microsoft-sharepoint/submodules/quickstart-microsoft-utilities/scripts/Dockerfile",
+          "sha": "c105f5424e5ab632bcfda367890ec7e4e822a696",
+          "size": 2502,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "submodules/quickstart-microsoft-sql/submodules/quickstart-microsoft-utilities/scripts/Dockerfile",
+          "sha": "c105f5424e5ab632bcfda367890ec7e4e822a696",
+          "size": 2502,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "submodules/quickstart-microsoft-activedirectory/submodules/quickstart-microsoft-rdgateway/submodules/quickstart-microsoft-utilities/scripts/Dockerfile",
+          "sha": "c105f5424e5ab632bcfda367890ec7e4e822a696",
+          "size": 2502,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:10+00:00"
     },
     "aws-quickstart/qs-cfn-lint-rules": {
       "id": 176528934,
@@ -549,12 +619,67 @@
       "open_issues": 9,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:31:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 177920,
+        "jq": 506
+      },
+      "readme_url": "https://github.com/aws-quickstart/qs-cfn-lint-rules/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "549962bb97b3afd84b4f5c97848739a1ae16eac8",
+      "readme_excerpt": "This repo provides CloudFormation linting rules specific to AWS Quick Start guidelines, for more information see the Contributors Guide. cd ~/ git clone https://github.com/aws-quickstart/qs-cfn-lint-rules.git cd qs-cfn-lint-rules pip install -e . To add the rules when running on the command line use the `-a` flag to add the additional rules: cfn-lint my-cfn-template.yaml -a ~/qs-cfn-lint-rules/qs_cfn_lint_rules/ To use in your IDE install the relevant cfn-lint config file (`~/.cfnlintrc`) as follows: append_rules: - ~/qs-cfn-lint-rules/qs_cfn_lint_rules/ **Add to `syntastic` and `vim-cfn` your `~/.vimrc`:** __Add to vundle plugin section:__ \"---------------------------=== CloudFormation ===------------------------------ Plugin 'scrooloose/syntastic' \" Syntax checking plugin for Vim Plugin 'speshak/vim-cfn' \"CloudFormation syntax checking/highlighting vim +PluginInstall",
+      "readme_headings": [
+        "AWS Quick Start cfn-lint rules",
+        "Installation and Usage",
+        "Vim Specfic Instructions (using vundle and syntastic)",
+        "Install the plugins",
+        "Install plugins",
+        "Set statusline and triggers",
+        "Set FileTypes for vim-cfn",
+        "Update syntastic plugin",
+        "Troubleshooting",
+        "Custom dictionary",
+        "Sentence case"
+      ],
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "c7af1c2e39b6864238a410d8d9896d09f999aad3",
+          "size": 1289,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cfn-lint",
+            "policyuniverse",
+            "pyspellchecker"
+          ]
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "a4143dee9d188617e800fc337e83296f27ca7f3d",
+          "size": 63,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cfn-lint",
+            "cfn_flip",
+            "pyspellchecker"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "161dfcdf626705514aff62f168d87fc6a71d2c58",
+          "size": 2657,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:12+00:00"
     },
     "aws-quickstart/qs-workshop": {
       "id": 236592401,
@@ -577,12 +702,22 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:31:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "unavailable",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": null,
+      "readme_path": null,
+      "readme_sha": null,
+      "readme_excerpt": "",
+      "readme_headings": [],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:13+00:00"
     },
     "aws-quickstart/qs-workshop-2021": {
       "id": 330022846,
@@ -605,12 +740,24 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:31:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-quickstart/qs-workshop-2021/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9c7a061e56cfd325abc315e73fff9033ad4d9fac",
+      "readme_excerpt": "THis repository is used with the Quick Start enablement interactive workshop.",
+      "readme_headings": [
+        "qs-workshop-2021"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:15+00:00"
     },
     "aws-quickstart/quickstart-aerospike": {
       "id": 358371873,
@@ -633,12 +780,28 @@
       "open_issues": 13,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:31:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 3482
+      },
+      "readme_url": "https://github.com/aws-quickstart/quickstart-aerospike/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "19b7078598d55cf660b040b039721d0196abadec",
+      "readme_excerpt": ":x: This repository is subject to deprecation in Q4 2024. For more details, please review this announcement. ***We will archive this repository and keep it publicly available until May 1, 2024.***",
+      "readme_headings": [
+        "quickstart-aerospike",
+        "Deprecation Notice",
+        "This repository has been deprecated in favor of https://github.com/aws-ia/cfn-ps-aerospike."
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:16+00:00"
     },
     "aws-quickstart/quickstart-alz-examples": {
       "id": 217617604,
@@ -661,12 +824,27 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:31:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 24589
+      },
+      "readme_url": "https://github.com/aws-quickstart/quickstart-alz-examples/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "8f45b98c2816c8414dae6ce8708b337bc9f7f2e2",
+      "readme_excerpt": ":x: This repository is subject to deprecation in Q4 2024. For more details, please review this announcement. The Amazon Web Services (AWS) Landing Zone solution automates customers’ landing zone deployment and configuration with AWS security and operation best practices. AWS Control Tower extends AWS Landing Zone as a managed landing zone service to further simplify landing zone deployment and management. But after customers set up their landing zone environments through either AWS Landing Zone or AWS Control Tower, they can encounter challenges when deploying additional AWS solutions or Independent Software Vendor (ISV) products, all referred to as add-on products, in",
+      "readme_headings": [
+        "Deprecation Notice",
+        "ISV product packaging solution for AWS Landing Zone"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:17+00:00"
     },
     "aws-quickstart/quickstart-amazon-aurora-mysql": {
       "id": 195865086,
@@ -689,12 +867,28 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:31:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 176
+      },
+      "readme_url": "https://github.com/aws-quickstart/quickstart-amazon-aurora-mysql/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "85106d03a9013bd2ffa4ef0ed3bbc381280fcee7",
+      "readme_excerpt": ":x: This repository is subject to deprecation in Q4 2024. For more details, please review this announcement. ***We will archive this repository and keep it publicly available until May 1, 2024.***",
+      "readme_headings": [
+        "quickstart-amazon-aurora-mysql",
+        "Deprecation Notice",
+        "This repository has been deprecated in favor of https://github.com/aws-ia/cfn-ps-amazon-aurora-mysql."
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:19+00:00"
     },
     "aws-quickstart/quickstart-amazon-aurora-postgresql": {
       "id": 185318770,
@@ -717,12 +911,26 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:31:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-quickstart/quickstart-amazon-aurora-postgresql/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e4b56f877e24f858b20dd740aea6fb5c977bcd40",
+      "readme_excerpt": ":x: This repository is subject to deprecation in Q4 2024. For more details, please review this announcement. ***We will archive this repository and keep it publicly available until May 1, 2024.***",
+      "readme_headings": [
+        "quickstart-amazon-aurora-postgresql",
+        "Deprecation Notice",
+        "This repository has been deprecated in favor of https://github.com/aws-ia/cfn-ps-amazon-aurora-postgresql."
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:20+00:00"
     },
     "aws-quickstart/quickstart-amazon-eks-nodegroup": {
       "id": 288829112,
@@ -745,12 +953,24 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:31:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-quickstart/quickstart-amazon-eks-nodegroup/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ed30cc5b8bab48965942b2d4dafdf759871163b8",
+      "readme_excerpt": "Amazon EKS NodeGroup Quick Start This is a submodule of the Amazon EKS QuickStart.",
+      "readme_headings": [
+        "quickstart-amazon-eks-nodegroup"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:03:21+00:00"
     },
     "aws-quickstart/quickstart-amazon-rds": {
       "id": 204575264,

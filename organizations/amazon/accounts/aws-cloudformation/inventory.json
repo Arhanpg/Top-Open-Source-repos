@@ -518,12 +518,26 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:37+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-aps/blob/archive/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d243a1dc329cc7a63178f0e69f01698e28b87367",
+      "readme_excerpt": "As AWS CloudFormation continues to evolve, our development frameworks have evolved to meet new requirements and capabilities. The implementation patterns in this repository no longer align with our current tooling. We are archiving this repository as part of our ongoing efforts to focus on centralized, comprehensive documentation that reflects the current state of CloudFormation resource development. * **Historical Reference**: The original codebase remains accessible in the previous default branch of this repository * **Current Documentation**: For up-to-date CloudFormation resource type documentation, please refer to the AWS CloudFormation Template Reference * **No Further Updates**: This repository will no longer receive updates",
+      "readme_headings": [
+        "📦 Repository Archived",
+        "Background",
+        "What This Means"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:08:08+00:00"
     },
     "aws-cloudformation/aws-cloudformation-resource-providers-athena": {
       "id": 193797074,
@@ -550,12 +564,149 @@
         "resources"
       ],
       "last_seen_scan_id": "2026-11-23T19:38:37+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 473574
+      },
+      "readme_url": "https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-athena/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "17120620c099bcbf202a3ea368ef7dd5a149b251",
+      "readme_excerpt": "The CloudFormation Resource Provider Package For Amazon Athena This library is licensed under the Apache 2.0 License.",
+      "readme_headings": [
+        "aws-cloudformation-resource-providers-athena",
+        "License"
+      ],
+      "manifest_paths": [
+        {
+          "path": "capacityreservation/pom.xml",
+          "sha": "f338818855c22119922bd2d932b0df9c9c542a14",
+          "size": 10115,
+          "content_status": "captured",
+          "dependency_hints": [
+            "assertj-core",
+            "athena",
+            "aws-athena-capacityreservation-handler",
+            "aws-cloudformation-rpdk-java-plugin",
+            "build-helper-maven-plugin",
+            "exec-maven-plugin",
+            "jacoco-maven-plugin",
+            "junit-jupiter",
+            "log4j-api",
+            "log4j-core",
+            "log4j-slf4j-impl",
+            "lombok",
+            "maven-compiler-plugin",
+            "maven-resources-plugin",
+            "maven-shade-plugin",
+            "maven-surefire-plugin",
+            "mockito-core",
+            "mockito-junit-jupiter"
+          ]
+        },
+        {
+          "path": "datacatalog/pom.xml",
+          "sha": "ceb78ead4e56e3c51f32af8aadc8e8a8fa518446",
+          "size": 8607,
+          "content_status": "captured",
+          "dependency_hints": [
+            "assertj-core",
+            "athena",
+            "aws-athena-datacatalog-handler",
+            "aws-cloudformation-rpdk-java-plugin",
+            "build-helper-maven-plugin",
+            "exec-maven-plugin",
+            "jacoco-maven-plugin",
+            "junit-jupiter",
+            "lombok",
+            "maven-compiler-plugin",
+            "maven-resources-plugin",
+            "maven-shade-plugin",
+            "maven-surefire-plugin",
+            "mockito-core",
+            "mockito-junit-jupiter"
+          ]
+        },
+        {
+          "path": "namedquery/pom.xml",
+          "sha": "9a1e536fc7d5729d7771585782a3281f8ff6ccfd",
+          "size": 8832,
+          "content_status": "captured",
+          "dependency_hints": [
+            "assertj-core",
+            "athena",
+            "aws-athena-namedquery-handler",
+            "aws-cloudformation-rpdk-java-plugin",
+            "build-helper-maven-plugin",
+            "exec-maven-plugin",
+            "jacoco-maven-plugin",
+            "junit-jupiter",
+            "lombok",
+            "maven-compiler-plugin",
+            "maven-resources-plugin",
+            "maven-shade-plugin",
+            "maven-surefire-plugin",
+            "mockito-core",
+            "mockito-junit-jupiter"
+          ]
+        },
+        {
+          "path": "preparedstatement/pom.xml",
+          "sha": "4ac714cc2d28a2ad3d4262af39eb8b59b2ab475c",
+          "size": 9483,
+          "content_status": "captured",
+          "dependency_hints": [
+            "assertj-core",
+            "athena",
+            "aws-athena-preparedstatement-handler",
+            "aws-cloudformation-rpdk-java-plugin",
+            "build-helper-maven-plugin",
+            "exec-maven-plugin",
+            "jacoco-maven-plugin",
+            "junit-jupiter",
+            "log4j-api",
+            "log4j-core",
+            "log4j-slf4j-impl",
+            "lombok",
+            "maven-compiler-plugin",
+            "maven-resources-plugin",
+            "maven-shade-plugin",
+            "maven-surefire-plugin",
+            "mockito-core",
+            "mockito-junit-jupiter"
+          ]
+        },
+        {
+          "path": "workgroup/pom.xml",
+          "sha": "b82b75b2c1d237c22ed79b4922b42c9d92f3769c",
+          "size": 8838,
+          "content_status": "captured",
+          "dependency_hints": [
+            "assertj-core",
+            "athena",
+            "aws-athena-workgroup-handler",
+            "aws-cloudformation-rpdk-java-plugin",
+            "build-helper-maven-plugin",
+            "exec-maven-plugin",
+            "jacoco-maven-plugin",
+            "junit-jupiter",
+            "lombok",
+            "maven-compiler-plugin",
+            "maven-resources-plugin",
+            "maven-shade-plugin",
+            "maven-surefire-plugin",
+            "mockito-core",
+            "mockito-junit-jupiter"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:08:10+00:00"
     },
     "aws-cloudformation/aws-cloudformation-resource-providers-auditmanager": {
       "id": 297364048,
@@ -582,12 +733,26 @@
         "resources"
       ],
       "last_seen_scan_id": "2026-11-23T19:38:37+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-auditmanager/blob/archive/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d243a1dc329cc7a63178f0e69f01698e28b87367",
+      "readme_excerpt": "As AWS CloudFormation continues to evolve, our development frameworks have evolved to meet new requirements and capabilities. The implementation patterns in this repository no longer align with our current tooling. We are archiving this repository as part of our ongoing efforts to focus on centralized, comprehensive documentation that reflects the current state of CloudFormation resource development. * **Historical Reference**: The original codebase remains accessible in the previous default branch of this repository * **Current Documentation**: For up-to-date CloudFormation resource type documentation, please refer to the AWS CloudFormation Template Reference * **No Further Updates**: This repository will no longer receive updates",
+      "readme_headings": [
+        "📦 Repository Archived",
+        "Background",
+        "What This Means"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:08:11+00:00"
     },
     "aws-cloudformation/aws-cloudformation-resource-providers-awsutilities-commandrunner": {
       "id": 265697056,
@@ -610,12 +775,91 @@
       "open_issues": 15,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:37+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 44680,
+        "Shell": 9500
+      },
+      "readme_url": "https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-awsutilities-commandrunner/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3416fbeede0292149107cb50ea0a6f93c906f13d",
+      "readme_excerpt": "I took all the feedback, issues and feature requests from all our users to create this new major version. All known bugs for CommandRunner have now been fixed! This version comes with 3 new properties `InstanceType`, `Timeout` and `DisableTerminateInstancesCheck`, improved error handling, logging, reliability, documentation and functionality. To update to the new version or do a fresh install, simply run the following commands in a new directory. git clone https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-awsutilities-commandrunner.git cd aws-cloudformation-resource-providers-awsutilities-commandrunner curl -LO https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-awsutilities-commandrunner/releases/latest/download/awsutility-cloudformation-commandrunner.zip ./scripts/register.sh --set-default For more details, check the Change Log section below. - Introduction - Prerequisites - User Installation Steps - Documentation - Syntax - Properties",
+      "readme_headings": [
+        "AWSUtility::CloudFormation::CommandRunner",
+        "CommandRunner v2.0.1 is here! 🚀 🚀 🚀",
+        "**Table Of Contents**",
+        "Introduction",
+        "Prerequisites",
+        "User Installation Steps",
+        "Documentation",
+        "Syntax",
+        "JSON",
+        "YAML",
+        "Properties",
+        "Command",
+        "Role",
+        "LogGroup",
+        "SubnetId",
+        "SecurityGroupId",
+        "KeyId",
+        "Timeout",
+        "DisableTerminateInstancesCheck",
+        "InstanceType",
+        "Return Values",
+        "Fn::GetAtt",
+        "User Guides",
+        "Run A Command Before Or After A Resource",
+        "Run a script in any programming language using any SDK",
+        "Install Packages before Running Command",
+        "Using AWSCLI --query option",
+        "Run A Multi-Line Script",
+        "Use Cases",
+        "FAQ"
+      ],
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "3c084b7ec90be8045f2e27bfedf7467f45a15b61",
+          "size": 11900,
+          "content_status": "captured",
+          "dependency_hints": [
+            "assertj-core",
+            "aws-cloudformation-rpdk-java-plugin",
+            "aws-java-sdk",
+            "aws-java-sdk-cloudformation",
+            "aws-java-sdk-core",
+            "aws-java-sdk-ec2",
+            "aws-java-sdk-iam",
+            "aws-java-sdk-s3",
+            "aws-java-sdk-ssm",
+            "aws-java-sdk-sts",
+            "aws-lambda-java-core",
+            "awsutility-cloudformation-commandrunner-handler",
+            "build-helper-maven-plugin",
+            "exec-maven-plugin",
+            "jackson-core",
+            "jacoco-maven-plugin",
+            "jmespath-java",
+            "junit-jupiter",
+            "lombok",
+            "maven-compiler-plugin",
+            "maven-resources-plugin",
+            "maven-shade-plugin",
+            "maven-surefire-plugin",
+            "mockito-core",
+            "mockito-junit-jupiter",
+            "slf4j-jdk14"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:08:13+00:00"
     },
     "aws-cloudformation/aws-cloudformation-resource-providers-b2bi": {
       "id": 703214360,
@@ -644,12 +888,26 @@
         "resources"
       ],
       "last_seen_scan_id": "2026-11-23T19:38:37+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-b2bi/blob/archive/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d243a1dc329cc7a63178f0e69f01698e28b87367",
+      "readme_excerpt": "As AWS CloudFormation continues to evolve, our development frameworks have evolved to meet new requirements and capabilities. The implementation patterns in this repository no longer align with our current tooling. We are archiving this repository as part of our ongoing efforts to focus on centralized, comprehensive documentation that reflects the current state of CloudFormation resource development. * **Historical Reference**: The original codebase remains accessible in the previous default branch of this repository * **Current Documentation**: For up-to-date CloudFormation resource type documentation, please refer to the AWS CloudFormation Template Reference * **No Further Updates**: This repository will no longer receive updates",
+      "readme_headings": [
+        "📦 Repository Archived",
+        "Background",
+        "What This Means"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:08:14+00:00"
     },
     "aws-cloudformation/aws-cloudformation-resource-providers-batch": {
       "id": 402515745,
@@ -676,12 +934,26 @@
         "resources"
       ],
       "last_seen_scan_id": "2026-11-23T19:38:37+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-batch/blob/archive/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d243a1dc329cc7a63178f0e69f01698e28b87367",
+      "readme_excerpt": "As AWS CloudFormation continues to evolve, our development frameworks have evolved to meet new requirements and capabilities. The implementation patterns in this repository no longer align with our current tooling. We are archiving this repository as part of our ongoing efforts to focus on centralized, comprehensive documentation that reflects the current state of CloudFormation resource development. * **Historical Reference**: The original codebase remains accessible in the previous default branch of this repository * **Current Documentation**: For up-to-date CloudFormation resource type documentation, please refer to the AWS CloudFormation Template Reference * **No Further Updates**: This repository will no longer receive updates",
+      "readme_headings": [
+        "📦 Repository Archived",
+        "Background",
+        "What This Means"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:08:15+00:00"
     },
     "aws-cloudformation/aws-cloudformation-resource-providers-bedrock-original": {
       "id": 857151613,
@@ -710,12 +982,26 @@
         "resources"
       ],
       "last_seen_scan_id": "2026-11-23T19:38:37+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-bedrock-original/blob/archive/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d243a1dc329cc7a63178f0e69f01698e28b87367",
+      "readme_excerpt": "As AWS CloudFormation continues to evolve, our development frameworks have evolved to meet new requirements and capabilities. The implementation patterns in this repository no longer align with our current tooling. We are archiving this repository as part of our ongoing efforts to focus on centralized, comprehensive documentation that reflects the current state of CloudFormation resource development. * **Historical Reference**: The original codebase remains accessible in the previous default branch of this repository * **Current Documentation**: For up-to-date CloudFormation resource type documentation, please refer to the AWS CloudFormation Template Reference * **No Further Updates**: This repository will no longer receive updates",
+      "readme_headings": [
+        "📦 Repository Archived",
+        "Background",
+        "What This Means"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:08:17+00:00"
     },
     "aws-cloudformation/aws-cloudformation-resource-providers-budgets": {
       "id": 331405342,
@@ -742,12 +1028,26 @@
         "resources"
       ],
       "last_seen_scan_id": "2026-11-23T19:38:37+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-budgets/blob/archive/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d243a1dc329cc7a63178f0e69f01698e28b87367",
+      "readme_excerpt": "As AWS CloudFormation continues to evolve, our development frameworks have evolved to meet new requirements and capabilities. The implementation patterns in this repository no longer align with our current tooling. We are archiving this repository as part of our ongoing efforts to focus on centralized, comprehensive documentation that reflects the current state of CloudFormation resource development. * **Historical Reference**: The original codebase remains accessible in the previous default branch of this repository * **Current Documentation**: For up-to-date CloudFormation resource type documentation, please refer to the AWS CloudFormation Template Reference * **No Further Updates**: This repository will no longer receive updates",
+      "readme_headings": [
+        "📦 Repository Archived",
+        "Background",
+        "What This Means"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:08:18+00:00"
     },
     "aws-cloudformation/aws-cloudformation-resource-providers-cleanrooms": {
       "id": 602749919,
@@ -773,12 +1073,28 @@
         "resources"
       ],
       "last_seen_scan_id": "2026-11-23T19:38:37+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Kotlin": 652702
+      },
+      "readme_url": "https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-cleanrooms/blob/archive/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d243a1dc329cc7a63178f0e69f01698e28b87367",
+      "readme_excerpt": "As AWS CloudFormation continues to evolve, our development frameworks have evolved to meet new requirements and capabilities. The implementation patterns in this repository no longer align with our current tooling. We are archiving this repository as part of our ongoing efforts to focus on centralized, comprehensive documentation that reflects the current state of CloudFormation resource development. * **Historical Reference**: The original codebase remains accessible in the previous default branch of this repository * **Current Documentation**: For up-to-date CloudFormation resource type documentation, please refer to the AWS CloudFormation Template Reference * **No Further Updates**: This repository will no longer receive updates",
+      "readme_headings": [
+        "📦 Repository Archived",
+        "Background",
+        "What This Means"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:08:19+00:00"
     },
     "aws-cloudformation/aws-cloudformation-resource-providers-cloudformation": {
       "id": 193945625,
@@ -806,12 +1122,28 @@
         "resources"
       ],
       "last_seen_scan_id": "2026-11-23T19:38:37+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 966641
+      },
+      "readme_url": "https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-cloudformation/blob/archive/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d243a1dc329cc7a63178f0e69f01698e28b87367",
+      "readme_excerpt": "As AWS CloudFormation continues to evolve, our development frameworks have evolved to meet new requirements and capabilities. The implementation patterns in this repository no longer align with our current tooling. We are archiving this repository as part of our ongoing efforts to focus on centralized, comprehensive documentation that reflects the current state of CloudFormation resource development. * **Historical Reference**: The original codebase remains accessible in the previous default branch of this repository * **Current Documentation**: For up-to-date CloudFormation resource type documentation, please refer to the AWS CloudFormation Template Reference * **No Further Updates**: This repository will no longer receive updates",
+      "readme_headings": [
+        "📦 Repository Archived",
+        "Background",
+        "What This Means"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:08:20+00:00"
     },
     "aws-cloudformation/aws-cloudformation-resource-providers-codeartifact": {
       "id": 275030260,

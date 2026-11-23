@@ -691,12 +691,34 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:26+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-deepracer/aws-deepracer-mapping-sample-project/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9fe545b3e05a819fccabab6d86f69b3da6733030",
+      "readme_excerpt": "The AWS DeepRacer Mapping sample project provides instructions for using the AWS DeepRacer and Intel RealSense™ D435, along with other open-source tools, to build a map of your surroundings using SLAM (Simultaneous Localization and Mapping). The source code is released under Apache 2.0. Follow these instructions to set up the AWS DeepRacer Mapping sample project. The AWS DeepRacer device comes with all the prerequisite packages and libraries installed for running the AWS DeepRacer core application. For more information about the preinstalled set of packages and libraries on the AWS DeepRacer, and about installing the required build systems, see Getting started",
+      "readme_headings": [
+        "Mapping with ROS Noetic on Ubuntu 20.04",
+        "Overview",
+        "License",
+        "Setup",
+        "Prerequisites",
+        "Intel [RealSense™ D435](https://www.intelrealsense.com/depth-camera-d435/) / [D435i](https://www.intelrealsense.com/depth-camera-d435i/)",
+        "[ROS Noetic](http://wiki.ros.org/noetic) on the AWS DeepRacer device",
+        "Download and install other components",
+        "Usage",
+        "Sample demo:",
+        "Resources"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:08:58+00:00"
     },
     "aws-deepracer/aws-deepracer-model-optimizer-pkg": {
       "id": 341984643,
@@ -719,12 +741,46 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:26+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 31945
+      },
+      "readme_url": "https://github.com/aws-deepracer/aws-deepracer-model-optimizer-pkg/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "723309c472aa5e7c05623ad63d28a8beb2fcc399",
+      "readme_excerpt": "The AWS DeepRacer Model Optimizer ROS package creates the `model_optimizer_node`, which is part of the core AWS DeepRacer application and launches from the `deepracer_launcher`. For more information about the application and the components, see the aws-deepracer-launcher repository. This node is responsible for running the Intel OpenVino Model Optimizer script for the AWS DeepRacer reinforcement learning models to obtain the intermediate representation XML files and other optimizer artifacts required to run inference with the model. For more information about the Intel OpenVino Model Optimizer, see the Model Optimizer Developer Guide. The source code is released under Apache 2.0 (https://aws.amazon.com/apache-2-0/). Follow these",
+      "readme_headings": [
+        "AWS DeepRacer model optimizer package",
+        "Overview",
+        "License",
+        "Installation",
+        "Prerequisites",
+        "Downloading and building",
+        "Usage",
+        "Run the node",
+        "Launch files",
+        "Node Details",
+        "`model_optimizer_node`",
+        "Services",
+        "Resources"
+      ],
+      "manifest_paths": [
+        {
+          "path": "model_optimizer_pkg/setup.py",
+          "sha": "d4e42868d18b5125ede4080fe3d7c518e6999fbc",
+          "size": 2217,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:09:00+00:00"
     },
     "aws-deepracer/aws-deepracer-navigation-pkg": {
       "id": 341982395,
@@ -747,12 +803,48 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:26+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 30036
+      },
+      "readme_url": "https://github.com/aws-deepracer/aws-deepracer-navigation-pkg/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3fa9b6795344782a461978798b26411506ad21f3",
+      "readme_excerpt": "The AWS DeepRacer navigation ROS package creates the `deepracer_navigation_node`, which is part of the core AWS DeepRacer application and launches from the `deepracer_launcher`. For more information about the application and the components, see the aws-deepracer-launcher repository. This node is responsible for collecting the reinforcement learning model inference results and mapping them to the servo message with throttle and steering angle values based on the action space for the particular model selected. The source code is released under Apache 2.0. Follow these instructions to install the AWS DeepRacer navigation package. The AWS DeepRacer device comes with all the prerequisite packages and",
+      "readme_headings": [
+        "AWS DeepRacer navigation package",
+        "Overview",
+        "License",
+        "Installation",
+        "Prerequisites",
+        "Downloading and building",
+        "Usage",
+        "Run the node",
+        "Launch files",
+        "Node details",
+        "`deepracer_navigation_node`",
+        "Subscribed topics",
+        "Published topics",
+        "Services",
+        "Resources"
+      ],
+      "manifest_paths": [
+        {
+          "path": "deepracer_navigation_pkg/setup.py",
+          "sha": "09bf0f75861efb955dec8ba4e83fe060137f67b2",
+          "size": 2163,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:09:01+00:00"
     },
     "aws-deepracer/aws-deepracer-notebooks": {
       "id": 377646415,
@@ -775,12 +867,25 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:26+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-deepracer/aws-deepracer-notebooks/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5e0087ecbef18f13532fec30dbf41e39b5b8b60f",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "New notebooks coming soon",
+        "Previous worshop content has been merged to https://github.com/aws-deepracer/aws-deepracer-workshops/tree/master/Advanced%20workshops/workshop"
+      ],
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:09:02+00:00"
     },
     "aws-deepracer/aws-deepracer-offroad-sample-project": {
       "id": 355335343,
@@ -803,12 +908,85 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:26+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 246639,
+        "C++": 88920,
+        "CMake": 4966,
+        "Shell": 815
+      },
+      "readme_url": "https://github.com/aws-deepracer/aws-deepracer-offroad-sample-project/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2a6c10120de018bce30b07c33ab24faceab01fc4",
+      "readme_excerpt": "The AWS DeepRacer Offroad sample project is a sample application built on top of the existing AWS DeepRacer application. It uses QR code detection, through which the AWS DeepRacer device can identify and navigate along a path set up using QR codes to guide the car. For detailed information on the AWS DeepRacer Offroad sample project, see the AWS DeepRacer Offroad sample project getting started documentation. The source code is released under Apache 2.0. Follow these steps to install the AWS DeepRacer Offroad sample project. The AWS DeepRacer device comes with all the prerequisite packages and libraries installed to run",
+      "readme_headings": [
+        "AWS DeepRacer Offroad launcher package",
+        "Overview",
+        "License",
+        "Installation",
+        "Prerequisites",
+        "Downloading and building",
+        "Usage",
+        "Run the node",
+        "Enabling `offroad` mode using the CLI",
+        "Changing the `MAX_SPEED` scale of the AWS DeepRacer",
+        "Launch files",
+        "Configuration file and parameters",
+        "Demo",
+        "Resources"
+      ],
+      "manifest_paths": [
+        {
+          "path": "deepracer_offroad_ws/ctrl_pkg/CMakeLists.txt",
+          "sha": "0429a100ffe283c5a59dc185ab53820b781455eb",
+          "size": 1497,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "deepracer_offroad_ws/deepracer_interfaces_pkg/CMakeLists.txt",
+          "sha": "1395d8eeca507ba3b42afda58a473b27a47ac073",
+          "size": 2439,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "deepracer_offroad_ws/deepracer_offroad_launcher/CMakeLists.txt",
+          "sha": "7764e89cd474376a47c23e3b876d1d0261aa056b",
+          "size": 1030,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "deepracer_offroad_ws/deepracer_offroad_navigation_pkg/setup.py",
+          "sha": "d930b0d09690e8bf2796eb7f66c6c23f6354ba58",
+          "size": 990,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "deepracer_offroad_ws/qr_detection_pkg/setup.py",
+          "sha": "8dc51cc70aa1dd2bde1440f554d1533d59de26c0",
+          "size": 937,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "deepracer_offroad_ws/webserver_pkg/setup.py",
+          "sha": "c68dc03e3b80826c9a976eeb7136a6c33924a155",
+          "size": 2286,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:09:05+00:00"
     },
     "aws-deepracer/aws-deepracer-sensor-fusion-pkg": {
       "id": 341984884,
@@ -831,12 +1009,50 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:26+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 55450,
+        "CMake": 1766,
+        "Python": 1570
+      },
+      "readme_url": "https://github.com/aws-deepracer/aws-deepracer-sensor-fusion-pkg/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b74854d5685020fe5cc7517fd353925a41eaf2f5",
+      "readme_excerpt": "The AWS DeepRacer sensor fusion ROS package creates the `sensor_fusion_node`, which is part of the core AWS DeepRacer application and launches from the `deepracer_launcher`. For more information about the application and the components, see the aws-deepracer-launcher repository. This node is responsible for collecting the messages from all the sensors and publishing the combined sensor message. It provides services and functions to subscribe to the LiDAR and camera messages, configure LiDAR, publish a combined sensor message, and publish an overlay message with the LiDAR data overlaid on top of the camera image. The source code is released under Apache 2.0. Follow",
+      "readme_headings": [
+        "AWS DeepRacer sensor fusion package",
+        "Overview",
+        "License",
+        "Installation",
+        "Prerequisites",
+        "Downloading and building",
+        "Usage",
+        "Run the node",
+        "Launch files",
+        "Node details",
+        "`sensor_fusion_node`",
+        "Subscribed topics",
+        "Published topics",
+        "Services",
+        "Resources"
+      ],
+      "manifest_paths": [
+        {
+          "path": "sensor_fusion_pkg/CMakeLists.txt",
+          "sha": "2c4dd4fdbbc3b6fa81b37a136fa7ab33a54133a7",
+          "size": 1766,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:09:07+00:00"
     },
     "aws-deepracer/aws-deepracer-servo-pkg": {
       "id": 341985240,
@@ -859,12 +1075,49 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:26+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 57572,
+        "CMake": 1693,
+        "Python": 1538
+      },
+      "readme_url": "https://github.com/aws-deepracer/aws-deepracer-servo-pkg/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "388451b780d8bd96e7ceb2dee841ccc4cb4b6aae",
+      "readme_excerpt": "The AWS DeepRacer servo ROS package creates the `servo_node`, which is part of the core AWS DeepRacer application and launches from the `deepracer_launcher`. For more information about the application and the components, see the aws-deepracer-launcher repository. This node is responsible for mapping the input servo throttle and steering angle ratios to raw PWM values and writing that to the buffer so that car moves accordingly. It also sets and gets the [min, mid, max, polarity] calibration values for steering and throttle and the tail light LED PWM values. The source code is released under Apache 2.0. Follow these steps to",
+      "readme_headings": [
+        "AWS DeepRacer servo package",
+        "Overview",
+        "License",
+        "Installation",
+        "Prerequisites",
+        "Downloading and building",
+        "Usage",
+        "Run the node",
+        "Launch files",
+        "Node details",
+        "servo_node",
+        "Subscribed topics",
+        "Services",
+        "Resources"
+      ],
+      "manifest_paths": [
+        {
+          "path": "servo_pkg/CMakeLists.txt",
+          "sha": "54488db1ed623bad1d4583eb3cf69721fc35cc9c",
+          "size": 1693,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:09:08+00:00"
     },
     "aws-deepracer/aws-deepracer-status-led-pkg": {
       "id": 341985526,
@@ -887,12 +1140,44 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:26+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 31591
+      },
+      "readme_url": "https://github.com/aws-deepracer/aws-deepracer-status-led-pkg/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a13e0d5a62417df2cd3f4e30cbe51c9ab27a3b11",
+      "readme_excerpt": "The AWS DeepRacer status LED ROS package creates the `status_led_node`, which is part of the core AWS DeepRacer application and launches from the `deepracer_launcher`. For more information about the application and the components, see the aws-deepracer-launcher repository. This node contains the logic for the blink and solid light effects for the status LED lights on the side of the AWS DeepRacer device. It provides services and functions that enable or disable the RGB GPIO ports for the LED lights and start and stop the particular effects on the LED lights. The source code is released under Apache 2.0. Follow these",
+      "readme_headings": [
+        "AWS DeepRacer status LED package",
+        "Overview",
+        "License",
+        "Installation",
+        "Prerequisites",
+        "Downloading and building",
+        "Usage",
+        "Run the node",
+        "Launch files",
+        "Services",
+        "Resources"
+      ],
+      "manifest_paths": [
+        {
+          "path": "status_led_pkg/setup.py",
+          "sha": "07f77b0c05697ed06bb922f621d41ff892f39fdf",
+          "size": 2117,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:09:10+00:00"
     },
     "aws-deepracer/aws-deepracer-systems-pkg": {
       "id": 341982756,
@@ -915,12 +1200,62 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:26+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 208540
+      },
+      "readme_url": "https://github.com/aws-deepracer/aws-deepracer-systems-pkg/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "db2455c28e5d69db8a1cd6b22cdd65f57d095efe",
+      "readme_excerpt": "The AWS DeepRacer systems ROS package creates the `software_update_node`, `model_loader_node`, `otg_control_node`, `network_monitor_node` and `deepracer_systems_scripts_node`, which are part of the core AWS DeepRacer application and launch from the `deepracer_launcher`. For more information about the application and the components, see the aws-deepracer-launcher repository. These nodes are responsible for managing some system-level functionalities required in the AWS DeepRacer application. This node is responsible for managing the update system for AWS DeepRacer packages. It provides services and functions that check for software updates, execute software updates, provide the status of the current software update state and installation state, and install signed packages from a",
+      "readme_headings": [
+        "AWS DeepRacer systems package",
+        "Overview",
+        "`software_update_node`",
+        "`model_loader_node`",
+        "`otg_control_node`",
+        "`network_monitor_node`",
+        "`deepracer_systems_scripts_node`",
+        "License",
+        "Installation",
+        "Prerequisites",
+        "Downloading and building",
+        "Usage",
+        "Run the node",
+        "Launch files",
+        "Node details",
+        "software_update_node",
+        "Subscribed topics",
+        "Published topics",
+        "Service clients",
+        "Services",
+        "model_loader_node",
+        "Subscribed topics",
+        "Service clients",
+        "Services",
+        "`network_monitor_node`",
+        "Subscribed topics",
+        "Published topics",
+        "Service clients",
+        "Resources"
+      ],
+      "manifest_paths": [
+        {
+          "path": "deepracer_systems_pkg/setup.py",
+          "sha": "3730e828fdda64754837f567edd5e3cb4d3f2caf",
+          "size": 3029,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:09:12+00:00"
     },
     "aws-deepracer/aws-deepracer-usb-monitor-pkg": {
       "id": 341985728,
@@ -943,12 +1278,47 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:39:26+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 30785
+      },
+      "readme_url": "https://github.com/aws-deepracer/aws-deepracer-usb-monitor-pkg/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f776156980f18c6c67d336e069b538e8cfc97a48",
+      "readme_excerpt": "The AWS DeepRacer USB monitor ROS package creates the `usb_monitor_node`, which is part of the core AWS DeepRacer application and launches from the `deepracer_launcher`. For more information about the application and the components, see the aws-deepracer-launcher repository. This node monitors the connection and disconnection of the USB drive and watches for specific files and folders in it. It provides services and functions to subscribe to notify you if a particular file or folder is found on the USB drive, a publisher to broadcast details of the found files and folders, and mount point management functions. The source code is released",
+      "readme_headings": [
+        "AWS DeepRacer USB monitor package",
+        "Overview",
+        "License",
+        "Installation",
+        "Prerequisites",
+        "Downloading and building",
+        "Usage",
+        "Run the node",
+        "Launch files",
+        "Node details",
+        "`usb_monitor_node`",
+        "Published topics",
+        "Services",
+        "Resources"
+      ],
+      "manifest_paths": [
+        {
+          "path": "usb_monitor_pkg/setup.py",
+          "sha": "a7c5e638cfcb85324c9bf44298a175f853c3c3e0",
+          "size": 2033,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:09:13+00:00"
     },
     "aws-deepracer/aws-deepracer-webserver-pkg": {
       "id": 341985928,

@@ -8,7 +8,7 @@
 - README: [Open upstream README](https://github.com/aws-ia/.announcements/blob/main/README.md)
 - README blob SHA: Not captured
 - Repository ID: 866429812
-- Evidence state: evidence capture incomplete
+- Evidence state: evidence captured; manual review pending
 - Manual review: manual technical interpretation pending
 
 ## Upstream description
@@ -20,7 +20,7 @@ This is repository-owner metadata, not an independently verified technical summa
 ## README capture
 
 - Status: unavailable
-- Captured: 2026-11-23T19:32:22+00:00
+- Captured: 2026-11-23T20:03:22+00:00
 
 ### Short excerpt (up to 100 words)
 
@@ -45,7 +45,7 @@ These paths were found in the default-branch tree. A manifest filename alone is 
 - No recognised manifests found or captured
 
 - Manifest scan truncated by GitHub: False
-- Manifest capture state: error
+- Manifest capture state: unavailable
 
 ## Lifecycle metadata
 
@@ -70,6 +70,6 @@ Interpret the README's purpose and capabilities; confirm framework/library claim
 - [Issues](https://github.com/aws-ia/.announcements/issues)
 - [Releases](https://github.com/aws-ia/.announcements/releases)
 
-Capture errors: manifest tree: GitHub API HTTP 409: {"message":"Git Repository is empty.","documentation_url":"https://docs.github.com/rest/git/trees#get-a-tree","status":"409"}
+Capture errors: None
 
 *Generated evidence capture only. This page is not labelled README reviewed until a human has interpreted and checked the upstream material.*
