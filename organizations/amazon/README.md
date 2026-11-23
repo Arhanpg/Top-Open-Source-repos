@@ -4,7 +4,7 @@
 - **Company mapping:** AWS engineering account candidate; this does not represent every Amazon business or engineering organization.
 - **Source group:** United States & Global
 - **Directory status:** initialized; public repository inventory not exhaustive
-- **Detailed README records:** 1
+- **Detailed README records:** 4
 
 ## Reviewed project
 
@@ -30,3 +30,8 @@ The `aws` organization is focused on AWS public engineering repositories and sho
 - [AWS CDK repository](https://github.com/aws/aws-cdk)
 - [AWS CDK Developer Guide](https://docs.aws.amazon.com/cdk/latest/guide)
 - [AWS repository index in this catalogue](repositories/README.md)
+
+
+## Additional README-reviewed projects — 23 November 2026
+
+Three additional AWS repository briefs have been added: Amazon SageMaker Examples, AWS SAM Transform and Karpenter AWS Provider. These pages cover ML workflow examples, serverless template translation and Kubernetes node provisioning. They preserve cloud-cost, IAM and operational cautions from the project documentation. See the [repository index](repositories/README.md).

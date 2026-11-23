@@ -148,3 +148,8 @@ The repository now includes a resumable auditor and a scheduled GitHub Actions w
 The workflow enumerates public repositories through API pagination, then captures README, language and selected manifest evidence in bounded batches. It commits generated account indexes and per-repository Markdown dossiers directly to `main`. Daily runs currently include only verified starting accounts. Manual dispatch can select one company and optionally include unverified candidates.
 
 **Important:** a captured README is not the same as a fully interpreted technical audit, and a primary GitHub organization is not necessarily every organization owned by a company. See the discovery guide and review-status documentation.
+
+
+## README review batch — 23 November 2026
+
+A further 22 repository dossiers have been added across Microsoft, Google, Apple, NVIDIA and AWS. See [the batch report](docs/README-REVIEW-BATCH-2026-11-23.md) for the full list and important lifecycle caveats. The five dated discovery JSON files each contain a first-page ranked search sample of up to 100 repositories. These samples are not exhaustive account inventories.
