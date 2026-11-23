@@ -1,0 +1,48 @@
+# Baidu / xuperchain — repository inventory
+
+- Pagination complete: True
+- Pages in latest scan: 1
+- Repository records: 40
+
+| Repository | Description | Stars | Languages | Archived | Fork | In latest scan | README state | Dossier |
+|---|---|---:|---|---:|---:|---|---|---|
+| [xuperchain/.github](https://github.com/xuperchain/.github) | 默认社区健康文件 | 1 | Pending | False | False | True | captured | [Open](repositories/github-392676072.md) |
+| [xuperchain/baas-sdk-go](https://github.com/xuperchain/baas-sdk-go) | 超级链专业版SDK | 2 | Pending | False | False | True | unavailable | [Open](repositories/baas-sdk-go-359683134.md) |
+| [xuperchain/burrow](https://github.com/xuperchain/burrow) | https://wiki.hyperledger.org/display/burrow | 0 | Dockerfile, Go, JavaScript, Makefile, Mustache, Shell, Solidity, TypeScript | False | True | True | captured | [Open](repositories/burrow-296256200.md) |
+| [xuperchain/contract-example-evm](https://github.com/xuperchain/contract-example-evm) | No description | 2 | Solidity | False | False | True | captured | [Open](repositories/contract-example-evm-452157771.md) |
+| [xuperchain/contract-sdk-cpp](https://github.com/xuperchain/contract-sdk-cpp) | The Cpp SDK for XuperChain smart contract | 5 | C++, Dockerfile, JavaScript, Makefile, Shell | False | False | True | captured | [Open](repositories/contract-sdk-cpp-365502293.md) |
+| [xuperchain/contract-sdk-go](https://github.com/xuperchain/contract-sdk-go) | The Go contract sdk for xuperchain | 8 | Assembly, Go, JavaScript, Makefile, Shell | False | False | True | captured | [Open](repositories/contract-sdk-go-329852492.md) |
+| [xuperchain/contract-sdk-java](https://github.com/xuperchain/contract-sdk-java) | The Java SDK for XuperChain smart contract | 3 | Java, JavaScript | False | False | True | captured | [Open](repositories/contract-sdk-java-365502434.md) |
+| [xuperchain/contract-sdk-py](https://github.com/xuperchain/contract-sdk-py) | The Python SDK for XuperChain smart contract | 0 | JavaScript, Python | False | False | True | captured | [Open](repositories/contract-sdk-py-353897382.md) |
+| [xuperchain/crypto](https://github.com/xuperchain/crypto) | This project is the crypto library for XuperChain. Ring signature, multi signature, schnorr signature, secret share, hierarchical deterministic encryption, threshold signature scheme(tss schnorr) , bls signature have been supported.目前开源部分已经支持了Xuper统一超级签名算法、Schnorr签名，环签名、多重签名，tss(schnorr)门限签名，BLS签名等多种签名算法。也支持了秘密分享、分层确定性加解密等多种密码学能力。 | 65 | Go, Makefile, Shell | False | False | True | captured | [Open](repositories/crypto-249356348.md) |
+| [xuperchain/docs](https://github.com/xuperchain/docs) | The documents of xuperchain. | 18 | Batchfile, CSS, Dockerfile, HTML, JavaScript, Makefile, Python, Shell | False | False | True | captured | [Open](repositories/docs-198141768.md) |
+| [xuperchain/eth-proxy](https://github.com/xuperchain/eth-proxy) | No description | 0 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/go-libp2p-kad-dht](https://github.com/xuperchain/go-libp2p-kad-dht) | No description | 4 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/log15](https://github.com/xuperchain/log15) | This repository is a fork of log15. | 3 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/regression-pytest](https://github.com/xuperchain/regression-pytest) | No description | 0 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/vm-geth](https://github.com/xuperchain/vm-geth) | No description | 0 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/wagon](https://github.com/xuperchain/wagon) | wagon, a WebAssembly-based Go interpreter, for Go. | 2 | Pending | False | True | True | pending | Not generated |
+| [xuperchain/wavm](https://github.com/xuperchain/wavm) | A High Performance XuperChain WASM Virtual Machine based on WAVM | 23 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xasset-sdk-go](https://github.com/xuperchain/xasset-sdk-go) | XuperAsset platform golang SDK. | 10 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xasset-sdk-java](https://github.com/xuperchain/xasset-sdk-java) | XuperAsset platform java sdk. | 5 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xasset-sdk-php](https://github.com/xuperchain/xasset-sdk-php) | XuperAsset platform php sdk. | 9 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xasset-sdk-python](https://github.com/xuperchain/xasset-sdk-python) | Xasset sdk by python. | 0 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xbench](https://github.com/xuperchain/xbench) | Benchmark project for XuperChain | 18 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xdev](https://github.com/xuperchain/xdev) | The compiler and test tool for contract | 2 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/XIP](https://github.com/xuperchain/XIP) | XuperChain Improvement Proposals | 4 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xuper-ca](https://github.com/xuperchain/xuper-ca) | No description | 1 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xuper-front](https://github.com/xuperchain/xuper-front) | No description | 2 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xuper-java-sdk](https://github.com/xuperchain/xuper-java-sdk) | The java sdk of xuperunion https://github.com/xuperchain/xuperunion | 31 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xuper-python-sdk](https://github.com/xuperchain/xuper-python-sdk) | Pure python sdk for XuperChain | 17 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xuper-sdk-csharp](https://github.com/xuperchain/xuper-sdk-csharp) | The C# SDK for XuperChain/XuperUnion | 9 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xuper-sdk-go](https://github.com/xuperchain/xuper-sdk-go) | Xuper-SDK is a powerful tool for the Go developers to access and use public network of XuperChain easily and quickly. | 43 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xuper-sdk-go-example](https://github.com/xuperchain/xuper-sdk-go-example) | No description | 1 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xuper-sdk-js](https://github.com/xuperchain/xuper-sdk-js) | The JS(TS) SDK for XuperChain | 14 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xuper-sdk-oc](https://github.com/xuperchain/xuper-sdk-oc) | This is a sample Objective-c SDK for XuperChain | 1 | Pending | False | True | True | pending | Not generated |
+| [xuperchain/xuper-wallet-web](https://github.com/xuperchain/xuper-wallet-web) | A sample wallet using JS SDK | 5 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xuperchain](https://github.com/xuperchain/xuperchain) | A highly flexible blockchain architecture with great transaction performance. | 1704 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xuperos](https://github.com/xuperchain/xuperos) | XuperOS is the open blockchain infrastructure network built on XuperChain | 10 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xuperos-docs](https://github.com/xuperchain/xuperos-docs) | Document of xuperos | 1 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xuperscan](https://github.com/xuperchain/xuperscan) | No description | 19 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/xvm](https://github.com/xuperchain/xvm) | High Performance WebAssembly Virtual Machine | 11 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/yogurt-chain](https://github.com/xuperchain/yogurt-chain) | A highly flexible blockchain architecture for the next generation | 1 | Pending | False | False | True | pending | Not generated |

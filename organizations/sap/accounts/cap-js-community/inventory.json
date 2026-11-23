@@ -1152,12 +1152,139 @@
         "ws"
       ],
       "last_seen_scan_id": "2026-11-23T20:36:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 323249,
+        "CAP CDS": 30215,
+        "HTML": 3396,
+        "CSS": 1752
+      },
+      "readme_url": "https://github.com/cap-js-community/websocket/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e0b70ef1f63142eebc51bfa4698e2927c8ad86ce",
+      "readme_excerpt": "Exposes a WebSocket protocol via WebSocket standard or Socket.IO for CDS services. Runs in the context of the SAP Cloud Application Programming Model (CAP) using @sap/cds (CDS Node.js). - Getting Started - Usage - Server - Client - Options - Documentation - Architecture Overview - Protocol Annotations - WebSocket Server - WebSocket Implementation - WebSocket Service - WebSocket Mixin - Server Socket - Upgrade Request - Service Facade - Middlewares - Tenant Isolation - Authentication & Authorization - Invocation Context - Transactional Safety - CDS Persistent Queue - Client Determination - Filtering Operators - Event Users - Event Roles -",
+      "readme_headings": [
+        "WebSocket Adapter for CDS",
+        "About this Project",
+        "Table of Contents",
+        "Getting Started",
+        "Usage",
+        "Server",
+        "Client",
+        "WebSocket Standard (`kind: ws`)",
+        "Socket.IO (`kind: socket.io`)",
+        "Options",
+        "Documentation",
+        "Architecture Overview",
+        "Protocol Annotations",
+        "Exclude from WebSocket",
+        "WebSocket Server",
+        "WebSocket Implementation",
+        "WebSocket Service",
+        "WebSocket Mixin",
+        "Event Mixin",
+        "Operation Mixin",
+        "Server Socket",
+        "Upgrade Request",
+        "Service Facade",
+        "Middlewares",
+        "Tenant Isolation",
+        "Authentication & Authorization",
+        "Local Development",
+        "Invocation Context",
+        "Transactional Safety",
+        "CDS Persistent Queue"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "eedf62adea189348d4177550fc74aa62117bbcd5",
+          "size": 7669,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js-community/common",
+            "@cap-js-community/websocket",
+            "@cap-js/cds-test",
+            "@cap-js/sqlite",
+            "@eslint/js",
+            "@sap/cds",
+            "@sap/cds-dk",
+            "@socket.io/redis-adapter",
+            "@socket.io/redis-streams-adapter",
+            "@vitest/coverage-v8",
+            "@vitest/eslint-plugin",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-n",
+            "globals",
+            "prettier",
+            "socket.io",
+            "socket.io-client",
+            "vitest",
+            "ws"
+          ]
+        },
+        {
+          "path": "examples/bookshop/package.json",
+          "sha": "915838b2dbd6442623cfb3b8bca33052fc316ed7",
+          "size": 742,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js-community/websocket",
+            "@cap-js/sqlite",
+            "@sap/cds"
+          ]
+        },
+        {
+          "path": "test/_env/package.json",
+          "sha": "24fe172a62554a43a001b2bcca979bc42bdea2f7",
+          "size": 2473,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js-community/websocket",
+            "@cap-js/sqlite"
+          ]
+        },
+        {
+          "path": "test/_env/approuter/package.json",
+          "sha": "3e6d9484b033d9d8e58ad99f6dbfbc94d8c8834d",
+          "size": 276,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@sap/approuter"
+          ]
+        },
+        {
+          "path": "test/_env/backend/package.json",
+          "sha": "67ad9933ddc2c3e96efbe960d7965c0aba7d21b6",
+          "size": 629,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js-community/websocket",
+            "@cap-js/sqlite",
+            "@sap/cds"
+          ]
+        },
+        {
+          "path": "test/_env/app/fiori/package.json",
+          "sha": "d1b0cc3098fe733632cdf094d58f2a59cc43ee39",
+          "size": 341,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@ui5/cli",
+            "ui5-task-zipper"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:31+00:00"
     }
   },
   "pages_fetched": 1,

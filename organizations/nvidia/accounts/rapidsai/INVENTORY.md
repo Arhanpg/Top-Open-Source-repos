@@ -26,16 +26,16 @@
 | [rapidsai/cudatoolkit-feedstock](https://github.com/rapidsai/cudatoolkit-feedstock) | A conda-smithy repository for cudatoolkit. | 0 | Batchfile, Python, Shell | True | True | True | captured | [Open](repositories/cudatoolkit-feedstock-383908005.md) |
 | [rapidsai/cudf-alpha](https://github.com/rapidsai/cudf-alpha) | [ARCHIVED] cuDF [alpha] - RAPIDS Merge of GoAi into cuDF | 34 | Pending | True | False | True | captured | [Open](repositories/cudf-alpha-152325502.md) |
 | [rapidsai/cugraph](https://github.com/rapidsai/cugraph) | cuGraph - RAPIDS Graph Analytics Library | 2260 | C, C++, CMake, Cuda, Cython, Dockerfile, HTML, Jupyter Notebook, Python, Shell | False | False | True | captured | [Open](repositories/cugraph-157752451.md) |
-| [rapidsai/cugraph-docs](https://github.com/rapidsai/cugraph-docs) | cuGraph Docs - RAPIDS Graph Analytics Documentation | 5 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/cugraph-gnn](https://github.com/rapidsai/cugraph-gnn) | No description | 82 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/cugraph-pg](https://github.com/rapidsai/cugraph-pg) | No description | 4 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/cugunrock](https://github.com/rapidsai/cugunrock) | No description | 2 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/cuhornet](https://github.com/rapidsai/cuhornet) | No description | 25 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/cumlprims_mg](https://github.com/rapidsai/cumlprims_mg) | Multi-node, multi-GPU (MNMG) ML mathematical primitives and some algorithms used by cuML | 4 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/cupy](https://github.com/rapidsai/cupy) | NumPy & SciPy for GPU | 3 | Pending | True | True | True | pending | Not generated |
-| [rapidsai/cupy-feedstock](https://github.com/rapidsai/cupy-feedstock) | A conda-smithy repository for cupy. | 0 | Pending | True | True | True | pending | Not generated |
-| [rapidsai/cusignal](https://github.com/rapidsai/cusignal) | cuSignal - RAPIDS Signal Processing Library | 744 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/cuspatial](https://github.com/rapidsai/cuspatial) | CUDA-accelerated GIS and spatiotemporal algorithms | 704 | Pending | True | False | True | pending | Not generated |
+| [rapidsai/cugraph-docs](https://github.com/rapidsai/cugraph-docs) | cuGraph Docs - RAPIDS Graph Analytics Documentation | 5 | Shell | False | False | True | captured | [Open](repositories/cugraph-docs-803335366.md) |
+| [rapidsai/cugraph-gnn](https://github.com/rapidsai/cugraph-gnn) | No description | 82 | C, C++, CMake, Cuda, Cython, Dockerfile, HTML, Python, Shell | False | False | True | captured | [Open](repositories/cugraph-gnn-528468843.md) |
+| [rapidsai/cugraph-pg](https://github.com/rapidsai/cugraph-pg) | No description | 4 | Python, Shell | True | False | True | captured | [Open](repositories/cugraph-pg-498392465.md) |
+| [rapidsai/cugunrock](https://github.com/rapidsai/cugunrock) | No description | 2 | C, C++, CMake, CSS, Cuda, HTML, JavaScript, Makefile, Python, Shell | True | False | True | captured | [Open](repositories/cugunrock-238746192.md) |
+| [rapidsai/cuhornet](https://github.com/rapidsai/cuhornet) | No description | 25 | C++, CMake, Cuda, Shell | True | False | True | captured | [Open](repositories/cuhornet-193782992.md) |
+| [rapidsai/cumlprims_mg](https://github.com/rapidsai/cumlprims_mg) | Multi-node, multi-GPU (MNMG) ML mathematical primitives and some algorithms used by cuML | 4 | C++, CMake, Cuda, Dockerfile, Shell | True | False | True | captured | [Open](repositories/cumlprims-mg-1041037921.md) |
+| [rapidsai/cupy](https://github.com/rapidsai/cupy) | NumPy & SciPy for GPU | 3 | Batchfile, C, C++, Cuda, Cython, Dockerfile, PowerShell, Python, Shell | True | True | True | captured | [Open](repositories/cupy-392724414.md) |
+| [rapidsai/cupy-feedstock](https://github.com/rapidsai/cupy-feedstock) | A conda-smithy repository for cupy. | 0 | Batchfile, Python, Shell | True | True | True | captured | [Open](repositories/cupy-feedstock-619937820.md) |
+| [rapidsai/cusignal](https://github.com/rapidsai/cusignal) | cuSignal - RAPIDS Signal Processing Library | 744 | Cuda, Dockerfile, Jupyter Notebook, Python, Shell | True | False | True | captured | [Open](repositories/cusignal-203811620.md) |
+| [rapidsai/cuspatial](https://github.com/rapidsai/cuspatial) | CUDA-accelerated GIS and spatiotemporal algorithms | 704 | C, C++, CMake, Cuda, Cython, Dockerfile, HTML, Java, Jupyter Notebook, Python, Shell | True | False | True | captured | [Open](repositories/cuspatial-199666905.md) |
 | [rapidsai/custrings](https://github.com/rapidsai/custrings) | [ARCHIVED] GPU String Manipulation --> Moved to cudf | 49 | Pending | True | False | True | pending | Not generated |
 | [rapidsai/cuxfilter](https://github.com/rapidsai/cuxfilter) | GPU accelerated cross filtering with cuDF. | 313 | Pending | True | False | True | pending | Not generated |
 | [rapidsai/dask-build-environment](https://github.com/rapidsai/dask-build-environment) | Build environments for various dask related projects on gpuCI | 4 | Pending | True | False | True | pending | Not generated |

@@ -3230,12 +3230,29 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/apple/device-management/blob/release/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5b3466c957e28f3e77b6c15b4a774168ba887cd8",
+      "readme_excerpt": "This repository contains Apple's Device Management Client schema data for the MDM (Mobile Device Management) protocol, and the Declarative Device Management feature. This release corresponds to the following OS versions See Changes for the significant changes in this release. The following schema items are available: * MDM commands - `mdm/commands` * MDM check-in requests - `mdm/checkin` * MDM profiles - `mdm/profiles` * MDM errors - `mdm/errors` * Declarative device management declarations - `declarative/declarations` * Declarative device management status items - `declarative/status` * Declarative device management protocol - `declarative/protocol` * Other device management data formats * OpenAPI specifications for select services",
+      "readme_headings": [
+        "Device Management Client Schema",
+        "OS Versions",
+        "What's Available",
+        "YAML Schema Definition",
+        "Providing Feedback"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:40:00+00:00"
     },
     "apple/dnikit": {
       "id": 634081620,
@@ -3270,12 +3287,66 @@
         "python"
       ],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 765915,
+        "Jupyter Notebook": 110246,
+        "Makefile": 1999
+      },
+      "readme_url": "https://github.com/apple/dnikit/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "505cf42f94d180e6106acfd4a2d2f676ae2e8ab6",
+      "readme_excerpt": "A Python toolkit for introspection of machine learning models and datasets. Please see the complete docs for more information. Standard PyPi installation. For installation from a specific branch, see Contributor's Guide. pip install dnikit To run the notebook examples, try this instead: pip install \"dnikit[notebook]\" Start the notebook: jupyter notebook More installation options can be found in the docs.",
+      "readme_headings": [
+        "Data and Network Introspection Kit (DNIKit)",
+        "Installation"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "b7619b0518249a9ab52a2486e42d5f598139470c",
+          "size": 1999,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "c9597b6981c326edcdee06969ef811359cd9c3ce",
+          "size": 604,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/dnikit/pyproject.toml",
+          "sha": "900f949447fa061c46fd12fdc67f0ba2f6fc2e31",
+          "size": 2741,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/dnikit_tensorflow/pyproject.toml",
+          "sha": "099b6745fcc1af4bd7fe75dcd294f74c9e12ac3c",
+          "size": 1527,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/dnikit_torch/pyproject.toml",
+          "sha": "63f09229199a20d4a47a38db279b272649a2192c",
+          "size": 1244,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:40:02+00:00"
     },
     "apple/eidas": {
       "id": 179286984,
@@ -3301,12 +3372,60 @@
         "tools"
       ],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 27677,
+        "Dockerfile": 296
+      },
+      "readme_url": "https://github.com/apple/eidas/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1a7bff56745213d34bbcbcccb8e689eda8f12f98",
+      "readme_excerpt": "Tools for reading and creating eIDAS certificate signing requests go get github.com/apple/eidas/cmd/cli go run github.com/apple/eidas/cmd/cli \\ -country-code GB \\ -organization-name \"Your Organization Limited\" \\ -organization-id PSDGB-FCA-123456 \\ -common-name 0123456789abcdef * `-common-name` should be the same as the `organisation_id` field from your entry in the Open Banking Directory. * `-organization-id` should be in the form of `PSD<Regulator Country Code>-<Regulator>-<Unique ID>` * `-organization-name` should be your official company name. * `-country-code` should be an ISO 3166-1 alpha-2 country code. You can see the available flags with go run github.com/apple/eidas/cmd/cli -help By default this will generate two files: `out.csr` and `out.key` containing the",
+      "readme_headings": [
+        "eIDAS",
+        "Generating a Certificate Signing Request (CSR)",
+        "With go (requires go 1.22 or higher):",
+        "Open Banking Flags",
+        "Other flags",
+        "Notes on CSR format",
+        "[Subject](https://tools.ietf.org/html/rfc5280#section-4.1.2.6)",
+        "Key Parameters",
+        "Extensions",
+        "[Key Usage](https://tools.ietf.org/html/rfc5280#section-4.2.1.3)",
+        "[Extended Key Usage](https://tools.ietf.org/html/rfc5280#section-4.2.1.12)",
+        "[Subject Key Identifier](https://tools.ietf.org/html/rfc5280#section-4.2.1.2)",
+        "[qcStatements](https://tools.ietf.org/html/rfc3739.html#section-3.2.6)"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "d1718251b180619a70c7dc48d22d5779dca61eab",
+          "size": 296,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "go.mod",
+          "sha": "b7c0d4e1d313e60477201a0fccb0feaf79e236b8",
+          "size": 280,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/gopherjs/gopherjs",
+            "github.com/jtolds/gls",
+            "github.com/smarty/assertions",
+            "github.com/smartystreets/goconvey"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:40:03+00:00"
     },
     "apple/embedding-atlas": {
       "id": 979078354,
@@ -3332,12 +3451,137 @@
         "visualization"
       ],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 990959,
+        "Rust": 778523,
+        "Svelte": 593596,
+        "Python": 365745,
+        "JavaScript": 163757,
+        "WGSL": 73038,
+        "HTML": 35411,
+        "Jupyter Notebook": 5698,
+        "CSS": 4339,
+        "Shell": 1961,
+        "Vue": 1560
+      },
+      "readme_url": "https://github.com/apple/embedding-atlas/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "dff74cad5e7f66e6238f8e852ed3d32551ff18de",
+      "readme_excerpt": "Embedding Atlas is a tool that provides interactive visualizations for large embeddings and their metadata. You can visualize, cross-filter, and search across your data. **For embeddings** - 🏷️ **Automatic data clustering & labeling:** Interactively visualize and navigate overall data structure. - 🫧 **Kernel density estimation & density contours:** Easily explore and distinguish between dense regions of data and outliers. - 🧊 **Order-independent transparency:** Ensure clear, accurate rendering of overlapping points. - 🔍 **Real-time search & nearest neighbors:** Find similar data to a given query or existing data point. - 🚀 **Smooth performance at scale:** Up to a few million points,",
+      "readme_headings": [
+        "Embedding Atlas",
+        "Get started",
+        "Show the Embedding Atlas widget for your data frame:",
+        "BibTeX",
+        "Development",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Cargo.toml",
+          "sha": "8de83f326e195c6cbf7d5451a775ec65653df37c",
+          "size": 791,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "package.json",
+          "sha": "e24309d7114165f06b1aca0a47b9d233a3d99240",
+          "size": 1280,
+          "content_status": "captured",
+          "dependency_hints": [
+            "prettier",
+            "prettier-plugin-svelte",
+            "svelte"
+          ]
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "741b6243391384d5b1c427d22a4cbf9daaffd797",
+          "size": 181,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "packages/backend/package.json",
+          "sha": "23c681ddbb132552d29ba4ac8e816f1b40fbc10c",
+          "size": 443,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@embedding-atlas/viewer",
+            "anywidget",
+            "streamlit-component-lib",
+            "svelte-check",
+            "vite"
+          ]
+        },
+        {
+          "path": "packages/backend/pyproject.toml",
+          "sha": "2cfc1b1eef347909396cca63ad8315a4389c7ebc",
+          "size": 1800,
+          "content_status": "captured",
+          "dependency_hints": [
+            "accelerate",
+            "click",
+            "cryptography",
+            "duckdb",
+            "fastapi",
+            "inquirer",
+            "litellm",
+            "llvmlite",
+            "narwhals",
+            "pandas",
+            "platformdirs",
+            "pyarrow",
+            "sentence-transformers",
+            "tqdm",
+            "umap-learn",
+            "uvicorn",
+            "uvloop",
+            "websockets"
+          ]
+        },
+        {
+          "path": "packages/component/package.json",
+          "sha": "8758b05b70cde808506e927bef357021306fed5b",
+          "size": 1516,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@embedding-atlas/utils",
+            "@sveltejs/vite-plugin-svelte",
+            "@tsconfig/svelte",
+            "@types/d3-color",
+            "@uwdata/mosaic-core",
+            "@uwdata/mosaic-sql",
+            "@uwdata/vgplot",
+            "@webgpu/types",
+            "d3-color",
+            "fast-kde",
+            "publint",
+            "quickselect",
+            "simplify-js",
+            "stemmer",
+            "svelte",
+            "svelte-check",
+            "typescript",
+            "vite",
+            "vite-plugin-dts",
+            "vite-plugin-wasm",
+            "vitefu",
+            "vitest"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:40:06+00:00"
     },
     "apple/example-package-fisheryates": {
       "id": 45936412,
@@ -3360,12 +3604,28 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Swift": 4481
+      },
+      "readme_url": "https://github.com/apple/example-package-fisheryates/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d0d6362db76c163a8f89e39efff2f53956ab7d25",
+      "readme_excerpt": "This example package will be cloned and built as a dependency if you build the `Dealer` example: git clone https://github.com/apple/example-package-dealer.git cd example-package-dealer swift run Dealer Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document. \"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License. \"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled",
+      "readme_headings": [
+        "License",
+        "Runtime Library Exception to the Apache 2.0 License: ##"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:40:07+00:00"
     },
     "apple/FHIRModels": {
       "id": 274484771,
@@ -3392,12 +3652,29 @@
         "swift-package-manager"
       ],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Swift": 26218235
+      },
+      "readme_url": "https://github.com/apple/FHIRModels/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4ac2766113f2eb93099c621f1704a6d8ec2bc8cb",
+      "readme_excerpt": "FHIRModels ========== FHIRModels is a Swift library for [FHIR®][fhir] resource data models. - Native Swift representation of FHIR resources, elements and data types - Separate targets for DSTU2, STU3, R4, R4B, R5 and latest build versions - Enforced non-nullability of mandatory parameters - Enums for most closed code systems - Enums to support value[x] types - Date/Time parsing, validation and conversion to and from NSDate - Swift `Codable` and `Sendable` FHIRModels works with Swift 5.7 and newer. 1. In Xcode 11 and newer, go to “File” » “Add Package Dependencies...” 2. Search for “FHIRModels” in the panel that comes up",
+      "readme_headings": [
+        "Features",
+        "Requirements",
+        "Installation"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:40:08+00:00"
     },
     "apple/foundation-models-utilities": {
       "id": 1262534926,
@@ -3420,12 +3697,32 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Swift": 169991
+      },
+      "readme_url": "https://github.com/apple/foundation-models-utilities/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "389724cff56b601ef0a803990761defde67af76d",
+      "readme_excerpt": "&nbsp;Foundation Models framework utilities This package adds extra utilities for working with LLMs via the Foundation Models framework, such as custom skills, context management helpers, and a chat completions client that connects to a hosted model of your choice. - 💻 **Supported platforms**: Apple platforms and select Linux distributions like Ubuntu - 🛠️ **Coding agent skills**: `skills/` can teach your favorite coding agent how to use this package - 💬 **Issue reporting**: Apple Developer Forums **Xcode** (Apple platforms) 1. From the Xcode menu bar, choose File > Add Package Dependencies. 2. Enter the package URL: https://github.com/apple/foundation-models-utilities. 3. Xcode downloads the",
+      "readme_headings": [
+        "Overview",
+        "Use the Package",
+        "Key Features",
+        "ChatCompletionsLanguageModel",
+        "History Management",
+        "Skills"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:40:09+00:00"
     },
     "apple/foundationdb": {
       "id": 114187903,
@@ -3454,12 +3751,101 @@
         "transactional"
       ],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 19567087,
+        "C": 5798219,
+        "Python": 1841042,
+        "Java": 921049,
+        "Go": 698114,
+        "CMake": 462974,
+        "Shell": 301935,
+        "HTML": 160598,
+        "Ruby": 109891,
+        "Swift": 89776,
+        "C#": 70129,
+        "Assembly": 44042,
+        "JavaScript": 26044,
+        "Rust": 16141,
+        "CSS": 14793,
+        "Dockerfile": 12469,
+        "Rich Text Format": 424
+      },
+      "readme_url": "https://github.com/apple/foundationdb/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "76d31712c522e37f466b83198dab4bb3cbf6f180",
+      "readme_excerpt": "FoundationDB is a distributed database designed to handle large volumes of structured data across clusters of commodity servers. It organizes data as an ordered key-value store and employs ACID transactions for all operations. It is especially well-suited for read/write workloads, but also has excellent performance for write-intensive workloads. Users interact with the database using API language bindings. To learn more about FoundationDB, visit foundationdb.org Documentation can be found online at <https://apple.github.io/foundationdb/>. The documentation covers details of API usage, background information on design philosophy, and extensive usage examples. Docs are built from the source in this repo. Contributions to FoundationDB can",
+      "readme_headings": [
+        "Documentation",
+        "Forums",
+        "Contributing",
+        "Getting Started",
+        "Latest Stable Releases",
+        "Binary Downloads",
+        "Compiling from source",
+        "Build Using the Official Docker Image",
+        "Build Locally",
+        "FreeBSD",
+        "macOS",
+        "Windows",
+        "Language Bindings",
+        "Generating `compile_commands.json`",
+        "Code Formatting and Static Analysis",
+        "Using IDEs"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "87c88834b68939d9b49d9d76676b5ff317339bdd",
+          "size": 12780,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "bindings/CMakeLists.txt",
+          "sha": "94a03d4cba7bcb27deb99d171d96ca4d15e029ba",
+          "size": 679,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "contrib/CMakeLists.txt",
+          "sha": "5afeaac2013b781c69624ae48091e0db3852379c",
+          "size": 452,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "documentation/CMakeLists.txt",
+          "sha": "d42a95abb033366a165325883a098f066fda053a",
+          "size": 4301,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "fdbbackup/CMakeLists.txt",
+          "sha": "a5afa352dc6250add3df69daa76163ae08911dc1",
+          "size": 4279,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "fdbcli/CMakeLists.txt",
+          "sha": "8c35222b6acbdd637406448a39c106cc01b50b5d",
+          "size": 2421,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:40:12+00:00"
     },
     "apple/fstools": {
       "id": 50374966,
@@ -3482,12 +3868,42 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "unavailable",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 109215,
+        "Shell": 3328,
+        "Makefile": 3266
+      },
+      "readme_url": null,
+      "readme_path": null,
+      "readme_sha": null,
+      "readme_excerpt": "",
+      "readme_headings": [],
+      "readme_unavailable_reason": "GitHub returned 404 for a README",
+      "manifest_paths": [
+        {
+          "path": "src/fstorture/Makefile",
+          "sha": "90d46c0e06f14c92834689b33dcf44d43193bff3",
+          "size": 1939,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/fsx/Makefile",
+          "sha": "edb7a16e176b12ce2045bb8381f0687531431092",
+          "size": 1327,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:40:13+00:00"
     },
     "apple/game-center-tools": {
       "id": 709945328,
@@ -3510,12 +3926,29 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 15554
+      },
+      "readme_url": "https://github.com/apple/game-center-tools/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "539c4d87943418becdfa84f35d9bce6a8ed29a7a",
+      "readme_excerpt": "**Abstract:** Explore rule expressions using the JMESPath playground with the genrulesinput.py Python 3 script to generate the rule-based matchmaking JSON input. Test your matchmaking rules before running your game using the testrules.py Python 3 script to execute the App Store Connect APIs. Thanks for your interest in contributing. This project was released to provide an example for game developers using the App Store Connect API, and beyond its publication there are limited plans for future development of the repository. While we welcome new pull requests and issues please note that our response may be limited. Forks and out-of-tree improvements are",
+      "readme_headings": [
+        "Testing matchmaking rules using a Python script",
+        "Contributing",
+        "Before you get started"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:40:14+00:00"
     },
     "apple/game-porting-toolkit": {
       "id": 1263007947,

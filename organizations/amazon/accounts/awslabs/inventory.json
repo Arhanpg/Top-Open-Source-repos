@@ -4419,12 +4419,86 @@
       "open_issues": 50,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 441203
+      },
+      "readme_url": "https://github.com/awslabs/amazon-dynamodb-lock-client/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0083ea382a81de635fa144f47e8c622997a8e626",
+      "readme_excerpt": "The Amazon DynamoDB Lock Client is a general purpose distributed locking library built for DynamoDB. The DynamoDB Lock Client supports both fine-grained and coarse-grained locking as the lock keys can be any arbitrary string, up to a certain length. DynamoDB Lock Client is an open-source project that will be supported by the community. Please create issues in the GitHub repository with questions. A common use case for this lock client is: let's say you have a distributed system that needs to periodically do work on a given campaign (or a given customer, or any other object) and you want to",
+      "readme_headings": [
+        "Amazon DynamoDB Lock Client",
+        "Use cases",
+        "Getting Started",
+        "Permissions",
+        "Selected Features",
+        "Send Automatic Heartbeats",
+        "Acquire lock with timeout",
+        "Acquire lock without blocking the user thread.",
+        "Read the data in a lock without acquiring it",
+        "How we handle clock skew",
+        "Testing the DynamoDB Locking client",
+        "External release to Sonatype"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "203f4417b7043057cb3103068daf5af205167c5a",
+          "size": 27799,
+          "content_status": "captured",
+          "dependency_hints": [
+            "annotations",
+            "auth",
+            "aws-core",
+            "byte-buddy",
+            "byte-buddy-agent",
+            "central-publishing-maven-plugin",
+            "commons-codec",
+            "commons-logging",
+            "docker-maven-plugin",
+            "dynamodb",
+            "dynamodb-lock-client",
+            "hamcrest-core",
+            "http-client-spi",
+            "httpcore",
+            "jacoco-maven-plugin",
+            "junit",
+            "log4j-core",
+            "maven-compiler-plugin",
+            "maven-dependency-plugin",
+            "maven-enforcer-plugin",
+            "maven-failsafe-plugin",
+            "maven-gpg-plugin",
+            "maven-javadoc-plugin",
+            "maven-pmd-plugin",
+            "maven-resources-plugin",
+            "maven-source-plugin",
+            "maven-surefire-plugin",
+            "mockito-core",
+            "netty-codec-http",
+            "netty-handler",
+            "objenesis",
+            "org.jacoco.agent",
+            "powermock-api-mockito2",
+            "powermock-core",
+            "powermock-module-junit4",
+            "reactive-streams",
+            "regions",
+            "sdk-core",
+            "spotbugs-maven-plugin"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:42:59+00:00"
     },
     "awslabs/amazon-dynamodb-tools": {
       "id": 438763012,
@@ -4447,12 +4521,138 @@
       "open_issues": 43,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 3028697,
+        "Java": 17106,
+        "JavaScript": 11398,
+        "Shell": 9890,
+        "Makefile": 7060
+      },
+      "readme_url": "https://github.com/awslabs/amazon-dynamodb-tools/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "83ce6198ef3c28a53eeeac7ed6ef2e2c2d1ff4c4",
+      "readme_excerpt": "An open-source collection of tools and utilities for Amazon DynamoDB. This repository contains tools that help with cost-optimization, capacity planning, bulk data operations, and performance tuning. Introducing **DynamoDB Optima**—a unified cost optimization and capacity analysis platform that consolidates three previously separate tools into one comprehensive solution. With multi-account discovery, CloudWatch metrics collection, capacity mode optimization, and an integrated Streamlit dashboard, Optima provides enterprise-grade insights for your DynamoDB infrastructure. This repository is organized into four main sections to help you quickly find the right tool: A cost optimization and capacity analysis platform for multi-account AWS environments. **Capabilities:** - Multi-account discovery via",
+      "readme_headings": [
+        "Amazon DynamoDB Tools",
+        "What's New ✨",
+        "Repository Structure",
+        "Tools 🛠️",
+        "DynamoDB Optima",
+        "Bulk Executor",
+        "DAX Calculator",
+        "Item Size Calculator",
+        "Migration Guide 📦",
+        "Contributing 🤝",
+        "Community and Support 💬",
+        "Security 🔒",
+        "License 📄",
+        "Disclaimer"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "archived/capacity-mode-evaluator/requirements.txt",
+          "sha": "df29968950c22f8e96c41d3afca609df43ad4a45",
+          "size": 85,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "botocore",
+            "futures",
+            "numpy",
+            "pandas",
+            "pytz",
+            "streamlit",
+            "tqdm"
+          ]
+        },
+        {
+          "path": "archived/ddb_cost_tool/requirements.txt",
+          "sha": "537a606804fc5e2aa84d6e9369446a178091ff78",
+          "size": 81,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-lambda-powertools",
+            "pandas"
+          ]
+        },
+        {
+          "path": "archived/metrics-collector/pyproject.toml",
+          "sha": "2579d5ecd954ee77c9b4a710716060bc3f74d540",
+          "size": 548,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aioboto3",
+            "asyncio",
+            "simpleeval",
+            "tqdm"
+          ]
+        },
+        {
+          "path": "archived/metrics-collector/requirements.txt",
+          "sha": "92743268d65dcd7ef9e28e4fef2b3355da5cf9f7",
+          "size": 469,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aioboto3",
+            "aiobotocore",
+            "aiofiles",
+            "aiohappyeyeballs",
+            "aiohttp",
+            "aioitertools",
+            "aiosignal",
+            "async-timeout",
+            "asyncio",
+            "attrs",
+            "boto3",
+            "botocore",
+            "colorama",
+            "frozenlist",
+            "idna",
+            "jmespath",
+            "multidict",
+            "propcache",
+            "python-dateutil",
+            "s3transfer",
+            "simpleeval",
+            "six",
+            "tqdm",
+            "typing-extensions",
+            "urllib3",
+            "wrapt",
+            "yarl"
+          ]
+        },
+        {
+          "path": "archived/reco/requirements.txt",
+          "sha": "d3685c3629c8de665d52f93d2bee5c2b1ca1278c",
+          "size": 28,
+          "content_status": "captured",
+          "dependency_hints": [
+            "numpy",
+            "pytest"
+          ]
+        },
+        {
+          "path": "archived/table_class_evaluator/requirements.txt",
+          "sha": "03a527bfa9d1a0277508edcc459b59593865bf0d",
+          "size": 36,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "botocore"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:43:02+00:00"
     },
     "awslabs/amazon-ebs-autoscale": {
       "id": 221814884,
@@ -4481,12 +4681,34 @@
         "ebs-volumes"
       ],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 37065
+      },
+      "readme_url": "https://github.com/awslabs/amazon-ebs-autoscale/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e2cf6974a0fa720e864f9b8754e04cacf848295d",
+      "readme_excerpt": ":warning: __DEPRECATION NOTICE__ :warning: THIS REPOSITORY IS DEPRECATED AND WILL BE ARCHIVED ON MAY 17, 2024 This repository is no longer actively maintained and will be archived on May 17, 2024. As archived code, it remains publicly available for historical reference purposes only. For alternative and fully managed solutions for scalable storage in AWS you should consider: - Mountpoint for Amazon S3 - Amazon Elastic File System (Amazon EFS) This is an example of a daemon process that monitors a filesystem mountpoint and automatically expands it when free space falls below a configured threshold. New Amazon EBS volumes are added",
+      "readme_headings": [
+        "Amazon Elastic Block Store Autoscale",
+        "Assumptions:",
+        "Installation",
+        "A note on the IAM Instance Profile",
+        "A note on the Instance Storage",
+        "Check for instance storage",
+        "Install ebs-autoscale",
+        "License Summary"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:43:03+00:00"
     },
     "awslabs/amazon-ebs-permission-analyzer": {
       "id": 933126531,
@@ -4509,12 +4731,38 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 12888
+      },
+      "readme_url": "https://github.com/awslabs/amazon-ebs-permission-analyzer/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "766fb6aff2fd8e2764bf32c4b8589f99572b0971",
+      "readme_excerpt": "The EBS Permission Analyzer is an automated tool designed to identify IAM policies within your AWS account that contain the ‘ec2:CreateVolume’ or ‘ec2:CopySnapshot’ actions. This tool is particularly useful for organizations managing EBS volumes and snapshots, assisting in identifying policies that may necessitate review or modification to ensure appropriate access control in accordance with the recent announcement of enhanced resource-level permissions for following actions: - CreateVolume action - Automated scanning of IAM policies across your AWS account. - Option to scan for 'ec2:CreateVolume' or 'ec2:CopySnapshot' actions. - Detection of both inline and managed policies across IAM Users, Groups & Roles.",
+      "readme_headings": [
+        "EBS Permission Analyzer",
+        "Description",
+        "Key Features",
+        "Usage",
+        "Prerequisites",
+        "Quick Start",
+        "Sample Output",
+        "Security",
+        "Best Practices",
+        "License",
+        "Support",
+        "Author"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:43:04+00:00"
     },
     "awslabs/amazon-ec2-instance-qualifier": {
       "id": 281738336,
@@ -4543,12 +4791,93 @@
         "ec2-spot"
       ],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 193543,
+        "Shell": 29472,
+        "Makefile": 3837,
+        "Dockerfile": 614,
+        "HCL": 151
+      },
+      "readme_url": "https://github.com/awslabs/amazon-ec2-instance-qualifier/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4c776547d1388172105eefbeabebec2ac8577a83",
+      "readme_excerpt": "How do users know which EC2 instance types are compatible with their application? Currently, there exists no tooling or baselining of any kind provided by AWS. If a user wants to see which of the 250+ different instance types are acceptable, then the user must spin up each instance type individually and test their application’s performance. Spot users often find themselves asking this question when they are told to utilize as many different instance types as possible in order to reduce the chance of spot interruptions. Still, most users will only ever choose a small subset of what could be",
+      "readme_headings": [
+        "Summary",
+        "Major Features",
+        "Impact to AWS Account",
+        "Configuration",
+        "Examples",
+        "Interpreting Results",
+        "Table Headers",
+        "Building",
+        "Communication",
+        "Contributing",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "cd76b18ec82f40adb6099f4305348527780dfdbd",
+          "size": 274,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-sdk-go",
+            "github.com/mitchellh/go-homedir",
+            "github.com/olekukonko/tablewriter",
+            "github.com/smartystreets/goconvey",
+            "gopkg.in/ini.v1"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "b4fe8dda9c0631c857707fd6cbd9db1e427074de",
+          "size": 3837,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/app-for-e2e/go.mod",
+          "sha": "36f6807c189a84c8e5b488264dbd19424c2be42e",
+          "size": 171,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-sdk-go",
+            "github.com/google/uuid"
+          ]
+        },
+        {
+          "path": "test/go-report-card-test/Dockerfile",
+          "sha": "0cff54b9b2bedeb34ad908bc3cb62542d35943cd",
+          "size": 333,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/license-test/Dockerfile",
+          "sha": "82330e5b361824f1bea24f22ae1dc290fc685a95",
+          "size": 184,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/readme-test/Dockerfile",
+          "sha": "cbcb14c43ac8ce88ac97206a885fd08e065f9b1f",
+          "size": 97,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:43:06+00:00"
     },
     "awslabs/amazon-ecr-containerd-resolver": {
       "id": 139645294,
@@ -4571,12 +4900,107 @@
       "open_issues": 18,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 139119,
+        "Makefile": 1764
+      },
+      "readme_url": "https://github.com/awslabs/amazon-ecr-containerd-resolver/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "aadaa06ca159711ba4cbc15267d232d88b3f5bb7",
+      "readme_excerpt": "The Amazon ECR containerd resolver is an implementation of a `Resolver`, `Fetcher`, and `Pusher` that can pull images from Amazon ECR and push images to Amazon ECR using the Amazon ECR API instead of the Docker Registry API. resolver, _ := ecr.NewResolver() img, err := client.Pull( namespaces.NamespaceFromEnv(context.TODO()), \"ecr.aws/arn:aws:ecr:us-west-2:123456789012:repository/myrepository:mytag\", containerd.WithResolver(resolver), containerd.WithPullUnpack, containerd.WithSchema1Conversion) ctx := namespaces.NamespaceFromEnv(context.TODO()) img, _ := client.ImageService().Get( ctx, \"docker.io/library/busybox:latest\") resolver, _ := ecr.NewResolver() err = client.Push( ctx, \"ecr.aws/arn:aws:ecr:us-west-2:123456789012:repository/myrepository:mytag\", img.Target, containerd.WithResolver(resolver)) Two small example programs are provided in the example directory demonstrating how to use the resolver with containerd. containerd specifies images with a `ref`. `ref`s are different from Docker",
+      "readme_headings": [
+        "Amazon ECR containerd resolver",
+        "Usage",
+        "Pull images",
+        "Push images",
+        "`ref`",
+        "Parallel downloads",
+        "Building",
+        "AWS Go SDK v2 Upgrade Note",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "ff8bc2db32fba1ed103756494d335b89c413b5ea",
+          "size": 2922,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/Microsoft/go-winio",
+            "github.com/Microsoft/hcsshim",
+            "github.com/aws/aws-sdk-go-v2",
+            "github.com/aws/aws-sdk-go-v2/config",
+            "github.com/aws/aws-sdk-go-v2/credentials",
+            "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "github.com/aws/aws-sdk-go-v2/internal/ini",
+            "github.com/aws/aws-sdk-go-v2/service/ecr",
+            "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "github.com/aws/aws-sdk-go-v2/service/sso",
+            "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+            "github.com/aws/aws-sdk-go-v2/service/sts",
+            "github.com/aws/smithy-go",
+            "github.com/containerd/cgroups",
+            "github.com/containerd/console",
+            "github.com/containerd/containerd",
+            "github.com/containerd/continuity",
+            "github.com/containerd/fifo",
+            "github.com/containerd/log",
+            "github.com/containerd/ttrpc",
+            "github.com/containerd/typeurl",
+            "github.com/davecgh/go-spew",
+            "github.com/docker/go-events",
+            "github.com/docker/go-units",
+            "github.com/gogo/googleapis",
+            "github.com/gogo/protobuf",
+            "github.com/golang/groupcache",
+            "github.com/golang/protobuf",
+            "github.com/google/uuid",
+            "github.com/htcat/htcat",
+            "github.com/klauspost/compress",
+            "github.com/moby/locker",
+            "github.com/moby/sys/mountinfo",
+            "github.com/moby/sys/signal",
+            "github.com/opencontainers/go-digest",
+            "github.com/opencontainers/image-spec",
+            "github.com/opencontainers/runc",
+            "github.com/opencontainers/runtime-spec",
+            "github.com/opencontainers/selinux",
+            "github.com/pkg/errors",
+            "github.com/pmezard/go-difflib",
+            "github.com/sirupsen/logrus",
+            "github.com/stretchr/testify",
+            "go.opencensus.io",
+            "golang.org/x/net",
+            "golang.org/x/sync",
+            "golang.org/x/sys",
+            "golang.org/x/text",
+            "google.golang.org/genproto/googleapis/rpc",
+            "google.golang.org/grpc",
+            "google.golang.org/protobuf",
+            "gopkg.in/yaml.v3"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "30b0bc04c5f8769d1409c8630a59196366b4a253",
+          "size": 1764,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:43:07+00:00"
     },
     "awslabs/amazon-ecr-credential-helper": {
       "id": 59514412,
@@ -4599,12 +5023,106 @@
       "open_issues": 84,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 110381,
+        "Shell": 11577,
+        "Makefile": 4159,
+        "Dockerfile": 767,
+        "Go Template": 354
+      },
+      "readme_url": "https://github.com/awslabs/amazon-ecr-credential-helper/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "51bbb1064e1a01195ddef01ab794cd07bf087981",
+      "readme_excerpt": "The Amazon ECR Docker Credential Helper is a for the Docker daemon that makes it easier to use * Prerequisites * Installing + Amazon Linux 2023 (AL2023) + Amazon Linux 2 (AL2) + Mac OS + Debian Buster (and future versions) + Ubuntu 19.04 Disco Dingo and newer + Arch Linux + Alpine Linux + Windows + From mise software package manager + From Source * Configuration + Docker + AWS credentials + Amazon ECR Docker Credential Helper * Usage * Troubleshooting * Experimental features * Security disclosures * License You must have at least Docker 1.11 installed on your",
+      "readme_headings": [
+        "Amazon ECR Docker Credential Helper",
+        "Table of Contents",
+        "Prerequisites",
+        "Installing",
+        "Amazon Linux 2023 (AL2023)",
+        "Amazon Linux 2 (AL2)",
+        "Mac OS",
+        "Debian Buster (and future versions)",
+        "Ubuntu 19.04 Disco Dingo and newer",
+        "Arch Linux",
+        "Alpine Linux",
+        "Windows",
+        "From mise software package manager",
+        "From Source",
+        "Configuration",
+        "Docker",
+        "AWS credentials",
+        "Amazon ECR Docker Credential Helper",
+        "Global token configuration",
+        "Usage",
+        "Troubleshooting",
+        "Experimental features",
+        "Security disclosures",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "8bc00c7fff19843b9b69dbc8e2bc913f046eb7cb",
+          "size": 767,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "1844fd5df71ee066600a93cf60f7edeae95c5eb8",
+          "size": 4159,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ecr-login/go.mod",
+          "sha": "8e70c4ef96d3fa09fd211c2c0cd3b598a4dacb62",
+          "size": 1302,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-sdk-go-v2",
+            "github.com/aws/aws-sdk-go-v2/config",
+            "github.com/aws/aws-sdk-go-v2/credentials",
+            "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "github.com/aws/aws-sdk-go-v2/internal/v4a",
+            "github.com/aws/aws-sdk-go-v2/service/ecr",
+            "github.com/aws/aws-sdk-go-v2/service/ecrpublic",
+            "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "github.com/aws/aws-sdk-go-v2/service/signin",
+            "github.com/aws/aws-sdk-go-v2/service/sso",
+            "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+            "github.com/aws/aws-sdk-go-v2/service/sts",
+            "github.com/aws/smithy-go",
+            "github.com/docker/docker-credential-helpers",
+            "github.com/mitchellh/go-homedir",
+            "github.com/sirupsen/logrus",
+            "github.com/stretchr/testify",
+            "go.yaml.in/yaml/v3",
+            "golang.org/x/sys"
+          ]
+        },
+        {
+          "path": "ecr-login/vendor/github.com/aws/smithy-go/Makefile",
+          "sha": "fb0670f0ef65376f3c77102001ee26783d549b87",
+          "size": 4526,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:43:09+00:00"
     },
     "awslabs/amazon-ecr-data-replication-hub-plugin": {
       "id": 315723333,
@@ -4631,12 +5149,77 @@
         "ecr"
       ],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 30249,
+        "Python": 16918,
+        "Shell": 16773,
+        "JavaScript": 5288,
+        "Dockerfile": 511
+      },
+      "readme_url": "https://github.com/awslabs/amazon-ecr-data-replication-hub-plugin/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "eef69c0451f842bfd7455e28d4426738b92926ec",
+      "readme_excerpt": "This repository has been merged into Data Transfer Hub. Subsequent maintenance and updates for this repository will be conducted within repository Data Transfer Hub. The document of this repository has been migrated to: - MD: https://github.com/awslabs/data-transfer-hub/blob/main/docs/ECR_PLUGIN.md - Mkdoc: https://awslabs.github.io/data-transfer-hub/en/user-guide/tutorial-ecr/ The code of this repository has been migrated to: - Infra CDK: https://github.com/awslabs/data-transfer-hub/tree/main/source/constructs/lib/ecr-plugin - Lambda: https://github.com/awslabs/data-transfer-hub/tree/main/source/constructs/lambda/plugin/ecr - Dockerfile: https://github.com/awslabs/data-transfer-hub/tree/main/source/constructs/ecr This migration will not impact any existing functionalities of the ECR plugin, and the ECR plugin can still be deployed independently. * Introduction * Architect * Deployment * FAQ * How to debug * How to customize The following are the planned",
+      "readme_headings": [
+        "Repository Has Been Migrated",
+        "Data Transfer Hub - ECR Plugin",
+        "Table of contents",
+        "Introduction",
+        "Architecture",
+        "Deployment",
+        "FAQ",
+        "How to debug",
+        "How to customize"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "source/package.json",
+          "sha": "92b38b44d4ea1424e6311fb60bd30a0b91d9bf93",
+          "size": 1026,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/aws-lambda",
+            "@types/jest",
+            "@types/node",
+            "aws-cdk",
+            "aws-cdk-lib",
+            "aws-sdk",
+            "cdk-nag",
+            "constructs",
+            "jest",
+            "source-map-support",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "deployment/cdk-solution-helper/package.json",
+          "sha": "89fac67ae16c456717c0bd454c8e87f043f7248d",
+          "size": 165,
+          "content_status": "captured",
+          "dependency_hints": [
+            "fs"
+          ]
+        },
+        {
+          "path": "source/ecr/Dockerfile",
+          "sha": "6d49959f8dbc1d28d4f1ed2b655720a8134a6b51",
+          "size": 511,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:43:11+00:00"
     },
     "awslabs/amazon-ecs-amazon-efs": {
       "id": 43520546,
@@ -4659,12 +5242,25 @@
       "open_issues": 7,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/awslabs/amazon-ecs-amazon-efs/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1dbf4d7a8e3ca656728439fa7fbacf7c359430b0",
+      "readme_excerpt": "Using Amazon EFS to Persist Data from Amazon ECS Containers This repository includes the CloudFormation template referenced in this blog https://aws.amazon.com/blogs/compute/using-amazon-efs-to-persist-data-from-amazon-ecs-containers/",
+      "readme_headings": [
+        "amazon-ecs-amazon-efs"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:43:12+00:00"
     },
     "awslabs/amazon-ecs-for-open-application-model": {
       "id": 246648395,
@@ -4687,12 +5283,83 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 115937,
+        "Shell": 3034,
+        "Makefile": 2022
+      },
+      "readme_url": "https://github.com/awslabs/amazon-ecs-for-open-application-model/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f08877bda3e2dfb7f7652e98ec4cd0d257eb4c00",
+      "readme_excerpt": "The oam-ecs CLI is a proof-of-concept that partially implements the Open Application Model (OAM) specification, version v1alpha1. The oam-ecs CLI provisions two of the core OAM workload types as Amazon ECS services running on AWS Fargate using AWS CloudFormation. A workload of type `core.oam.dev/v1alpha1.Worker` will deploy a CloudFormation stack containing an ECS service running in private VPC subnets with no accessible endpoint. A workload of type `core.oam.dev/v1alpha1.Server` will deploy a CloudFormation stack containing an ECS service running in private VPC subnets, behind a publicly-accessible network load balancer. For a full comparison with the OAM specification, see the Compatibility page. See",
+      "readme_headings": [
+        "Amazon ECS for Open Application Model",
+        "Build & test",
+        "Deploy an oam-ecs environment",
+        "Deploy OAM workloads with oam-ecs",
+        "Upgrade and scale OAM workloads with oam-ecs",
+        "Tear down",
+        "Credentials and Region",
+        "Security Disclosures",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "3cf68bf41438046ee000e2efab756b6940aea64b",
+          "size": 1365,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/AlecAivazis/survey/v2",
+            "github.com/Masterminds/goutils",
+            "github.com/Masterminds/semver",
+            "github.com/Masterminds/sprig",
+            "github.com/aws/aws-sdk-go",
+            "github.com/briandowns/spinner",
+            "github.com/fatih/color",
+            "github.com/fsnotify/fsnotify",
+            "github.com/gobuffalo/packd",
+            "github.com/gobuffalo/packr/v2",
+            "github.com/golang/mock",
+            "github.com/google/go-cmp",
+            "github.com/google/gofuzz",
+            "github.com/google/uuid",
+            "github.com/huandu/xstrings",
+            "github.com/iancoleman/strcase",
+            "github.com/imdario/mergo",
+            "github.com/mattn/go-colorable",
+            "github.com/mgutz/ansi",
+            "github.com/mitchellh/copystructure",
+            "github.com/mitchellh/reflectwalk",
+            "github.com/oam-dev/oam-go-sdk",
+            "github.com/olekukonko/tablewriter",
+            "github.com/onsi/ginkgo",
+            "github.com/onsi/gomega",
+            "github.com/spf13/cobra",
+            "github.com/stretchr/testify",
+            "k8s.io/apimachinery",
+            "k8s.io/client-go",
+            "sigs.k8s.io/controller-runtime"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "1bae04c8dd726ac4a2705dbcb9f9c788ec007a96",
+          "size": 2022,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:43:13+00:00"
     },
     "awslabs/amazon-ecs-intellisense-schema": {
       "id": 201086172,

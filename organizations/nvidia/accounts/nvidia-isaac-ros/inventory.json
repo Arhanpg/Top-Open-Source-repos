@@ -1660,12 +1660,58 @@
         "stereo-vision"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 232712,
+        "CMake": 8827,
+        "Cuda": 1535
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_depth_segmentation/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "014af3c7766d014492a6c9cb01ab29171c91c245",
+      "readme_excerpt": "NVIDIA-accelerated packages for depth segmentation. Learn how to use this package by watching our on-demand webinar: Using ML Models in ROS 2 to Robustly Estimate Distance to Obstacles Isaac ROS Depth Segmentation provides NVIDIA NVIDIA-accelerated packages for depth segmentation. The `isaac_ros_bi3d` package uses the optimized [Bi3D DNN model](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/isaac/models/bi3d_proximity_segmentation) to perform stereo-depth estimation via binary classification, which is used for depth segmentation. Depth segmentation can be used to determine whether an obstacle is within a proximity field and to avoid collisions with obstacles during navigation. to provide depth segmentation from a time-synchronized input left and right stereo image pair. Images to",
+      "readme_headings": [
+        "Isaac ROS Depth Segmentation",
+        "Webinar Available",
+        "Overview",
+        "Isaac ROS NITROS Acceleration",
+        "Performance",
+        "Documentation",
+        "Packages",
+        "Latest"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "gxf_isaac_bi3d/CMakeLists.txt",
+          "sha": "c253a6183473060f4edbf814fda69eccf3b45813",
+          "size": 2826,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_bi3d/CMakeLists.txt",
+          "sha": "3eb5f04e6ac79dbcf8a9f7d53c12fc156aa80db5",
+          "size": 2984,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_nitros_bi3d_inference_param_array_type/CMakeLists.txt",
+          "sha": "d783ed2d4e673d1a917c0ed99cada78d019de3d8",
+          "size": 3017,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:45:50+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_dnn_inference": {
       "id": 416922955,
@@ -1704,12 +1750,78 @@
         "triton-inference-server"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 223997,
+        "CMake": 23967
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_dnn_inference/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "583a46b1f75ef067cdfdc32e0043c784a574b940",
+      "readme_excerpt": "NVIDIA-accelerated DNN model inference ROS 2 packages using NVIDIA Triton/TensorRT for both Jetson and x86_64 with CUDA-capable GPU. Learn how to use this package by watching our on-demand webinar: Isaac ROS DNN Inference contains ROS 2 packages for performing DNN inference, providing AI-based perception for robotics applications. DNN inference uses a pre-trained DNN model to ingest an input Tensor and output a prediction to an output Tensor. Above is a typical graph of nodes for DNN inference on image data. The input image is resized to match the input resolution of the DNN; the image resolution may be reduced to",
+      "readme_headings": [
+        "Isaac ROS DNN Inference",
+        "Webinar Available",
+        "Overview",
+        "ROS 2 Native `rosidl::Buffer` Acceleration",
+        "Performance",
+        "Documentation",
+        "Packages",
+        "Latest"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "isaac_ros_dnn_image_encoder/CMakeLists.txt",
+          "sha": "b90ab0341690313611aa0804aa8856c5bf546e01",
+          "size": 1895,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_tensor_proc/CMakeLists.txt",
+          "sha": "63447d5738ec2a2aeea56fae3b163da52d80a891",
+          "size": 6074,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_tensor_rt/CMakeLists.txt",
+          "sha": "3abca6ba145d0dba54ba2e6d25004f40193bc0a4",
+          "size": 3316,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_triton/CMakeLists.txt",
+          "sha": "700b47176f79ee9ad51ac9b6d2208590a794b99a",
+          "size": 4721,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tensorrt_conversions/CMakeLists.txt",
+          "sha": "d1845616732038148288429a30908405d01102dd",
+          "size": 3815,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "triton_conversions/CMakeLists.txt",
+          "sha": "2094e85a71ddb476307bd8096c1045ca584cd39c",
+          "size": 4146,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:45:52+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_dnn_stereo_depth": {
       "id": 509288029,
@@ -1740,12 +1852,72 @@
         "stereo-camera"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 25451,
+        "CMake": 9605,
+        "Shell": 8888
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_dnn_stereo_depth/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2c81a197172ec9c1127c2b677898f11fce68d79a",
+      "readme_excerpt": "NVIDIA-accelerated, deep learned stereo disparity estimation Learn how to use this package by watching our on-demand webinar: Deep Neural Network (DNN)–based stereo models have become essential for depth estimation because they overcome many of the fundamental limitations of classical and geometry-based stereo algorithms. Traditional stereo matching relies on explicitly finding pixel correspondences between left and right images using handcrafted features. While effective in well-textured, ideal conditions, these approaches often fail in “ill-posed” regions such as areas with reflections, specular highlights, texture-less surfaces, repetitive patterns, occlusions, or even minor camera calibration errors. In such cases, classical algorithms may produce incomplete or",
+      "readme_headings": [
+        "Isaac ROS DNN Stereo Depth",
+        "Webinar Available",
+        "Overview",
+        "ROS 2 Native `rosidl::Buffer` Acceleration",
+        "Performance",
+        "Documentation",
+        "Packages",
+        "Latest"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "isaac_ros_dnn_stereo_decoder/CMakeLists.txt",
+          "sha": "527fd69d0df98579aea6ee4f53aafa7024b1415a",
+          "size": 3099,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_ess/CMakeLists.txt",
+          "sha": "98c4af95b9437a4f1735e01106388c93c431bab0",
+          "size": 2091,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_ess_models_install/CMakeLists.txt",
+          "sha": "a11166e03d04a6c41e5e34c13964934479ebef69",
+          "size": 1406,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_foundationstereo/CMakeLists.txt",
+          "sha": "9e5bd739aa69d973421657e5783d2aa459ce2839",
+          "size": 1620,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_foundationstereo_models_install/CMakeLists.txt",
+          "sha": "6b962e97d19ab6d559f080a153f599ed74f2a4c1",
+          "size": 1389,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:45:54+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_examples": {
       "id": 808389477,
@@ -1776,12 +1948,54 @@
         "ros2-humble"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_examples/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c7d2f9a619eff6cfc9a222a53f4ed3a56b191d23",
+      "readme_excerpt": "This repository contains example launch files and scripts to support Isaac ROS package quickstarts. Visit the Isaac ROS Package Index for a list of packages that include quickstart examples.",
+      "readme_headings": [
+        "Isaac ROS Examples"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "isaac_ros_examples/setup.py",
+          "sha": "7cb0e44910ab4a12db5a91743b0cb738a7b7d7bd",
+          "size": 1650,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_realsense/setup.py",
+          "sha": "739379e4acc351a8d8d09ded2112ba997a262244",
+          "size": 1749,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_usb_cam/setup.py",
+          "sha": "82e19b43eb6a46d5257ea7d997daf8f279e0bd11",
+          "size": 1581,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_zed/setup.py",
+          "sha": "a8f0dfe447a7983ccc43534dbb8e2de8986634a1",
+          "size": 1731,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:45:56+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_freespace_segmentation": {
       "id": 620539588,
@@ -1813,12 +2027,49 @@
         "ros2-humble"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 31162,
+        "CMake": 5557
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_freespace_segmentation/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "cd60a0c5692835c271efd3c478b9fc8e1ac17f64",
+      "readme_excerpt": "NVIDIA-accelerated, deep-learned freespace segmentation Isaac ROS Freespace Segmentation contains an ROS 2 package to produce occupancy grids for navigation. By processing a freespace segmentation mask with the pose of the robot relative to the ground, Bi3D Freespace produces an occupancy grid for avoid obstacles during navigation. This package is GPU accelerated to provide real-time, low latency results in a robotics application. Bi3D Freespace provides an additional occupancy grid source for mobile robots (ground based). `isaac_ros_bi3d` is used in a graph of nodes to provide a freespace segmentation mask as one output from a time-synchronized input left and right stereo image",
+      "readme_headings": [
+        "Isaac ROS Freespace Segmentation",
+        "Overview",
+        "Isaac ROS NITROS Acceleration",
+        "Performance",
+        "Documentation",
+        "Packages",
+        "Latest"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "gxf_isaac_occupancy_grid_projector/CMakeLists.txt",
+          "sha": "cf7ec9a4d37ee7a05cf15f9e71c1819f07b883f4",
+          "size": 2317,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_bi3d_freespace/CMakeLists.txt",
+          "sha": "1d1612553dee53f57bb19ed0ef928def1ca71c79",
+          "size": 3240,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:45:58+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_grasping": {
       "id": 1440241745,
@@ -1841,12 +2092,57 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 90953,
+        "Python": 75175,
+        "Cuda": 63606,
+        "CMake": 10919,
+        "Shell": 8856
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_grasping/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "24b817ba3729078e4cdc246eac94a2a97139b98d",
+      "readme_excerpt": "NVIDIA-accelerated grasp generation from segmented point clouds. GraspGenX generates ranked grasp candidates from segmented point clouds using native C++/CUDA preprocessing and TensorRT inference. Its standalone quickstart builds CUDA point clouds from registered depth and object masks, runs inference, and displays the resulting gripper poses in RViz. Refer to the Isaac ROS Documentation to learn how to use this repository. * `isaac_ros_graspgenx` * Quickstart * Troubleshooting * API * `isaac_ros_graspgenx_interfaces` * `isaac_ros_graspgenx_models_install` * Using Hugging Face checkpoints Update 2026-11-16: Initial release of GraspGenX for single-object and batch grasp generation",
+      "readme_headings": [
+        "Isaac ROS Grasping",
+        "Overview",
+        "Documentation",
+        "Packages",
+        "Latest"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "isaac_ros_graspgenx/CMakeLists.txt",
+          "sha": "48a62d318361c24869a647f26c48c95406271550",
+          "size": 5475,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_graspgenx_interfaces/CMakeLists.txt",
+          "sha": "4017146af4bae099cb62e5a8e1ebc80da2075b8b",
+          "size": 1763,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_graspgenx_models_install/CMakeLists.txt",
+          "sha": "8bd77f2e7364a65756a735c5e788a5deaeee73e1",
+          "size": 3681,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:45:59+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_image_pipeline": {
       "id": 418710869,
@@ -1879,12 +2175,78 @@
         "stereo-vision"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 417107,
+        "CMake": 35847,
+        "Cuda": 26428
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_image_pipeline/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0a8e4ee2133a742e453abaf6aa45537ac2905a92",
+      "readme_excerpt": "NVIDIA-accelerated Image Pipeline. Isaac ROS Image Pipeline is a metapackage of functionality for image processing. Camera output often needs pre-processing to meet the input requirements of multiple different perception functions. This can include cropping, resizing, mirroring, correcting for lens distortion, and color space conversion. For stereo cameras, additional processing is required to produce disparity between left + right images and a point cloud for depth perception. This package is accelerated using the GPU and specialized hardware engines for image computation, replacing the CPU-based Considerable effort has been made to ensure that replacing `image_pipeline` with `isaac_ros_image_pipeline` on a Jetson or GPU",
+      "readme_headings": [
+        "Isaac ROS Image Pipeline",
+        "Overview",
+        "ROS 2 Native `rosidl::Buffer` Acceleration",
+        "Performance",
+        "Documentation",
+        "Packages",
+        "Latest"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "cvcuda_conversions/CMakeLists.txt",
+          "sha": "5585e724069a80121a2cf7b2e7a9a6dfa24a7974",
+          "size": 2462,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_cvcuda_utils/CMakeLists.txt",
+          "sha": "31430fb15d8ae661ac446594c4e93d022259f354",
+          "size": 2151,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_depth_image_proc/CMakeLists.txt",
+          "sha": "a1103ea084c0f96a2681f9b9139189d3277f3f55",
+          "size": 8127,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_image_pipeline/CMakeLists.txt",
+          "sha": "dcb6daa385610983a16a32e0f5a46bd8b4b627ec",
+          "size": 1085,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_image_proc/CMakeLists.txt",
+          "sha": "6fbf37783acfe133b3dfb51867a426df89ee355d",
+          "size": 10074,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_stereo_image_proc/CMakeLists.txt",
+          "sha": "3dbc9d6ab345df9d7ce76fee9e02299f82b6fd9a",
+          "size": 4110,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:46:02+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_image_segmentation": {
       "id": 424743287,
@@ -1918,12 +2280,79 @@
         "tensorrt"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 174763,
+        "CMake": 20682,
+        "Shell": 5598,
+        "Cuda": 5503
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_image_segmentation/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "802d0037369bb98f57e05f597ef3d1923fb3acf1",
+      "readme_excerpt": "NVIDIA-accelerated, deep learned semantic image segmentation Isaac ROS Image Segmentation contains ROS packages for semantic image segmentation. These packages provide methods for classification of an input image at the pixel level by running GPU-accelerated inference on a DNN model. Each pixel of the input image is predicted to belong to a set of defined classes. The output prediction can be used by perception functions to understand where each class is spatially in a 2D image or fuse with a corresponding depth location in a 3D scene. Input images may need to be cropped and resized to maintain the aspect ratio",
+      "readme_headings": [
+        "Isaac ROS Image Segmentation",
+        "Overview",
+        "ROS 2 Native `rosidl::Buffer` Acceleration",
+        "Performance",
+        "Documentation",
+        "Packages",
+        "Latest"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "isaac_ros_peoplesemseg_models_install/CMakeLists.txt",
+          "sha": "8cc1cb8680ca14a7f693cc8f086cdcd5dbb05b5e",
+          "size": 1686,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_segformer/CMakeLists.txt",
+          "sha": "1b4388104ec8a5e76c4df4add7731cfd7f79d69e",
+          "size": 1691,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_segment_anything/CMakeLists.txt",
+          "sha": "3e305c1d4b0a67d24341ec95ebe6f5fc41361c2e",
+          "size": 7371,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_segment_anything2/CMakeLists.txt",
+          "sha": "c53f2d98f422248aef042e599786a24c49098d5b",
+          "size": 2628,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_segment_anything2_interfaces/CMakeLists.txt",
+          "sha": "8ec7e78e1c34d66b3a133de6851bacc9b36e41fd",
+          "size": 1919,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_unet/CMakeLists.txt",
+          "sha": "aea2e6ae6c8b8d460568cea751ba3e81adac2dba",
+          "size": 3249,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:46:04+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_jetson": {
       "id": 808389872,
@@ -1953,12 +2382,50 @@
         "ros2-humble"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 33325,
+        "CMake": 1828
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_jetson/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "bab559e65d806b99c08e5dc06c7461e5bc4ccd68",
+      "readme_excerpt": "Isaac ROS Jetson Isaac ROS Jetson simplifies the process of monitoring and managing NVIDIA Jetson, empowering developers to optimize performance, ensure system stability, and streamline development workflows for ROS 2. It provides a variety of functionalities to monitor and manage the Jetson device’s performance, temperature, power usage, and more. The Isaac ROS Jetson Stats package wraps the output from the jetson_stats package and publishes a diagnostic message with the status of your device. It remaps all board statuses to the desired format for more accessible analysis and monitoring. The package provides the following features: : * System Monitoring * Fan",
+      "readme_headings": [
+        "Isaac ROS Jetson",
+        "Overview",
+        "What is `jetson-stats`?",
+        "How Does it Work with Isaac ROS?",
+        "Why use in `isaac_ros_jetson` on my robotics application?",
+        "Documentation",
+        "Packages",
+        "Latest"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "isaac_ros_jetson_stats/setup.py",
+          "sha": "f7c198a507331af0bef1f05ae13898d37399dc39",
+          "size": 2991,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_jetson_stats_services/CMakeLists.txt",
+          "sha": "8f178491b467f042838b4f9424b98696bb7b455b",
+          "size": 1828,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:46:06+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_learned_policies": {
       "id": 1225951578,
@@ -1981,12 +2448,51 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 7380,
+        "CMake": 2633
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_learned_policies/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4eaadea914cad174941c7a9cae9f32e12b1696ec",
+      "readme_excerpt": "Learned policy packages for humanoid robot locomotion and manipulation. Update 2026-11-16: Compatibility and integration updates for the Isaac ROS 5.1.0 release",
+      "readme_headings": [
+        "Isaac ROS Learned Policies",
+        "Latest"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "isaac_ros_agile_unitree_g1/CMakeLists.txt",
+          "sha": "53f476fb6b834f28e88bb868a7d6f8ce4eb28ea0",
+          "size": 1557,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_franka_fr3_reach/CMakeLists.txt",
+          "sha": "9481e8bbe540d7115574a0496e6abc96cc4673b9",
+          "size": 326,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_gr00t_unitree_g1_install/CMakeLists.txt",
+          "sha": "9e5edb40a70d3d4e029076a567e3852f0216ef30",
+          "size": 750,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:46:07+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_manipulation": {
       "id": 808387074,

@@ -1182,12 +1182,68 @@
         "intellij-plugin"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 207109,
+        "Shell": 16421,
+        "JavaScript": 10336,
+        "Kotlin": 842,
+        "CAP CDS": 227
+      },
+      "readme_url": "https://github.com/cap-js/cds-intellij/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "8b48cb2b5bddc4cd7406d9e0f27c2151ef19b06f",
+      "readme_excerpt": "Welcome to **SAP CDS Language Support for IntelliJ**. It is a plugin for IntelliJ IDEs that provides editing and development support for the CDS language as used in the SAP Cloud Application Programming Model (CAP). Look at our comprehensive list of features. This plugin is compatible with a variety of IntelliJ IDEs, **paid** and **community** editions, including IDEA and WebStorm. Check https://www.jetbrains.com/ to find out which option is best for you. Tested on Windows, macOS, and Linux. Prepare your environment: 1. Install ![required Node.js version](https://nodejs.org/en/) on your computer if not already present. 2. Register the new Node.js installation in your",
+      "readme_headings": [
+        "SAP CDS Language Support for IntelliJ",
+        "Description",
+        "Features",
+        "Requirements",
+        "Supported IDEs",
+        "Operating Systems",
+        "Download and Installation",
+        "How to Obtain Support",
+        "Terms",
+        "Known Compatibility Issues",
+        "Logs",
+        "IDE Logs",
+        "LSP4IJ Plugin Logs and Stdio Communication",
+        "CDS Language Support Plugin Logs",
+        "Plugin Debug Mode",
+        "Stdio Logs",
+        "LSP Server Logs and Tracing",
+        "Trace Level",
+        "Contributing",
+        "Telemetry and Data Collection",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "build.gradle",
+          "sha": "51ac6fe56a772792954cd92ee4b522a62ed96bed",
+          "size": 8695,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "lsp/package.json",
+          "sha": "6dc50482063411f2269fb9f25d2fa924628fcdf2",
+          "size": 57,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@sap/cds-lsp"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:07+00:00"
     },
     "cap-js/cds-test": {
       "id": 935283881,
@@ -1210,12 +1266,60 @@
       "open_issues": 13,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 74866,
+        "CAP CDS": 1846
+      },
+      "readme_url": "https://github.com/cap-js/cds-test/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "07c6001a098ad89c8f788c49b4b6d9655a598b4d",
+      "readme_excerpt": "This is a library with test utilities for CAP Node.js applications, like - Starting and stopping a CAP server before and after tests - A bound HTTP client for the server - `chai`-like assertion helpers In your application project, just install the package as dev dependency: npm add -D @cap-js/cds-test Add a simple test file `test/bookshop.test.js ` with this content: const cds = require('@sap/cds') const { GET, expect } = cds.test (__dirname+'/..') describe('Sample tests', () => { it('serves Books', async () => { const { data } = await GET `/odata/v4/catalog/Books` expect(data.value.length).to.be.greaterThanOrEqual(5) }) }) Run it with Vitest, for example:",
+      "readme_headings": [
+        "Test Support for CAP Node.js",
+        "About this project",
+        "Requirements and Setup",
+        "Usage",
+        "Documentation",
+        "Support, Feedback, Contributing",
+        "Security / Disclosure",
+        "Code of Conduct",
+        "Licensing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "156486cc585c7b55245ae7186873805bb4ca4b78",
+          "size": 928,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/sqlite",
+            "@sap/cds",
+            "chai",
+            "chai-as-promised"
+          ]
+        },
+        {
+          "path": "test/app/package.json",
+          "sha": "99cbbb231e4c49e11541f6eaa27116174f3d906d",
+          "size": 259,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/sqlite",
+            "@cap-js/test",
+            "@sap/cds"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:08+00:00"
     },
     "cap-js/cds-ts-extension": {
       "id": 1425160817,
@@ -1247,12 +1351,71 @@
         "typescript"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 851273,
+        "CAP CDS": 1989
+      },
+      "readme_url": "https://github.com/cap-js/cds-ts-extension/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a5173c222cb63544fe44d9d1dfbf32848031fb2c",
+      "readme_excerpt": "A TypeScript Language Service Plugin that provides CQL-aware completions, hover, diagnostics, and type inference inside `` cds.ql`...` `` tagged template literals in `.js`/`.ts` files. It runs inside the TypeScript server process. After registration it has no dependency on the CDS Language Server — it resolves `@sap/cds` directly from the user's project (with a global-install fallback) via a child-process worker. - this extension currently does not work in a monorepo-scenario or when multiple workspaces are opened in a single vsode instance. - draft-only associations (e.g. `DraftAdministrativeData`) are not resolved in queries against `.drafts` entities, so a reference like `` cds.ql`SELECT DraftAdministrativeData.InProcessByUser",
+      "readme_headings": [
+        "@cap-js/cds-ts-extension",
+        "Known Limitations",
+        "Layout",
+        "Scripts",
+        "Using the plugin locally in VS Code",
+        "Development setup (vscode-cds + this repo)",
+        "Using the plugin in a CAP project (without vscode-cds dev setup)",
+        "In your CAP project:",
+        "In your CAP project:",
+        "Requirements",
+        "Coverage thresholds",
+        "Contributing",
+        "Code of Conduct",
+        "Licensing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "0e48f0a10343811f691283aa5b3cfc11b23af332",
+          "size": 2005,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@biomejs/biome",
+            "@cap-js/sqlite",
+            "@sap/cds",
+            "@sap/cds-compiler",
+            "@types/node",
+            "typescript",
+            "zod"
+          ]
+        },
+        {
+          "path": "test/data/distributedModel/package.json",
+          "sha": "0967ef424bce6791893e9a57bb952f80fd536e93",
+          "size": 3,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/data/runtimeModel/package.json",
+          "sha": "0967ef424bce6791893e9a57bb952f80fd536e93",
+          "size": 3,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:10+00:00"
     },
     "cap-js/cds-typer": {
       "id": 538476855,
@@ -1282,12 +1445,63 @@
         "sap-cap"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 459457,
+        "CAP CDS": 21548,
+        "TypeScript": 12445
+      },
+      "readme_url": "https://github.com/cap-js/cds-typer/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "cb8c19671d3f81b84f4fde1e66ab857f73ba3ae7",
+      "readme_excerpt": "Generates `.ts` files for a CDS model to receive code completion in VS Code. Exhaustive documentation can be found on CAPire. Certain language features of CDS can not be represented in TypeScript. Trying to generate types for models using these features will therefore result in incorrect or broken TypeScript code. While the following is valid CDS, there is no TypeScript equivalent that would allow the type of an inherited property to change (TS2416). entity A { foo: Integer }; entity B: A { foo: String } This project is open to feature requests/suggestions, bug reports etc. via GitHub issues. Contribution",
+      "readme_headings": [
+        "CDS type generator for JavaScript",
+        "About this project",
+        "Known Restrictions",
+        "Changing Types",
+        "Support, Feedback, Contributing",
+        "Code of Conduct",
+        "Licensing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "3501a3ec72d804cc27bd7d49245d3079c32eedf4",
+          "size": 7087,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-types",
+            "@eslint/js",
+            "@sap/cds",
+            "@stylistic/eslint-plugin",
+            "acorn",
+            "eslint",
+            "eslint-plugin-jsdoc",
+            "typescript"
+          ]
+        },
+        {
+          "path": "test/unit/cliopts/package.json",
+          "sha": "7338704428a1a7eafd2e9f74fa7fab84e9e528e6",
+          "size": 449,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-types",
+            "@cap-js/sqlite",
+            "@sap/cds"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:12+00:00"
     },
     "cap-js/cds-types": {
       "id": 691588259,
@@ -1310,12 +1524,78 @@
       "open_issues": 17,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 63363,
+        "JavaScript": 5029
+      },
+      "readme_url": "https://github.com/cap-js/cds-types/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "66614482e5f05104d5dd90c0570799935c9d9ebd",
+      "readme_excerpt": "Contains type definitions for the Node.js SDK of the SAP Cloud Application Programming Model (CAP). Just install package `@sap/cds` into a Javascript or Typescript project, and the types will automatically be available in modern IDEs like VS Code. Find more information on the APIs in the Node.js SDK documentation. If you rename your project after you installed the type definitions on Windows, you have to rerun `npm install` to correctly recreate the symlink `node_modules/@types/sap__cds`. After cloning, just run npm run setup which installs all dependencies. This project is open to feature requests/suggestions, bug reports etc. via GitHub issues. Contribution and",
+      "readme_headings": [
+        "cds-types",
+        "About this Project",
+        "Requirements and Setup",
+        "Note to Microsoft Windows Users",
+        "Support, Feedback, Contributing",
+        "Local Setup",
+        "Security / Disclosure",
+        "Code of Conduct",
+        "Licensing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "0904c61ec2b092cc57d97b71430d08a16c3364f6",
+          "size": 2477,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-test",
+            "@cap-js/db-service",
+            "@microsoft/api-extractor",
+            "@sap/cds",
+            "@sap/cds-dk",
+            "@sap/xssec",
+            "@stylistic/eslint-plugin-js",
+            "@stylistic/eslint-plugin-ts",
+            "@types/chai",
+            "@types/express",
+            "axios",
+            "eslint",
+            "globals",
+            "typescript",
+            "typescript-eslint"
+          ]
+        },
+        {
+          "path": "test/typescript/package.json",
+          "sha": "3d8650f6b9d8dea4d82a1f87f052ed81f6173500",
+          "size": 352,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/sqlite",
+            "@types/node",
+            "express"
+          ]
+        },
+        {
+          "path": "test/typescript/apis/project/package.json",
+          "sha": "5ffd9800b97cf26f3962c0fcda77cdb56cb946a8",
+          "size": 21,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:14+00:00"
     },
     "cap-js/cf-setup": {
       "id": 1031895632,
@@ -1338,12 +1618,33 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/cap-js/cf-setup/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "54ae5e16fb6b197f44be53269b93bd7cbbe587ce",
+      "readme_excerpt": "A reusable GitHub action to set up Cloud Foundry and Multi-Target Application (MTA) tooling to deploy SAP Cloud Application Programming Model (CAP) applications. We recommend installing via the GitHub marketplace. - uses: cap-js/cf-setup@v2 with: api: ${{ vars.CF_API }} org: ${{ vars.CF_ORG }} space: ${{ vars.CF_SPACE }} username: ${{ vars.CF_USERNAME }} password: ${{ secrets.CF_PASSWORD }} origin: ${{ vars.CF_ORIGIN }} cli-version: \"8.18.4\" # CF CLI version mbt-version: \"latest\" # MBT version, e.g. \"1.2.49\" cli-sha256: \"\" For `mbt-version`, use a registry version, range or tag such as `latest`. URLs, Git specifications and local package paths are rejected. The downloaded CF CLI archive is",
+      "readme_headings": [
+        "SAP Cloud Application Programming Model setup action for Cloud Foundry",
+        "About this project",
+        "Requirements and Setup",
+        "Usage",
+        "Login with GitHub OIDC (no username/password)",
+        "Support, Feedback, Contributing",
+        "Security / Disclosure",
+        "Code of Conduct",
+        "Licensing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:15+00:00"
     },
     "cap-js/change-tracking": {
       "id": 608399564,
@@ -1375,12 +1676,152 @@
         "sap-cap"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 725444,
+        "CAP CDS": 67677,
+        "Java": 9580,
+        "HTML": 2945
+      },
+      "readme_url": "https://github.com/cap-js/change-tracking/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0a0dd7b2b5ad10c95a7abdbe239c9ea7efaaccc9",
+      "readme_excerpt": "A CDS plugin for automatic capturing, storing, and viewing of change records for modelled entities. This plugin is implemented as a **CDS plugin** — a Node.js package that hooks into CDS's build pipeline. During the build, it generates **native database triggers** (SQL DDL) directly from the CDS model. Because the triggers run at the database level, they are completely independent of the application runtime: neither CAP Node.js nor CAP Java needs to do anything special at request time to capture changes. The annotations (`@changelog`) are interpreted once at build time by the plugin, and the resulting triggers are then deployed",
+      "readme_headings": [
+        "Change Tracking Plugin for SAP Cloud Application Programming Model (CAP)",
+        "Why This Plugin Works for Both CAP Node.js and CAP Java",
+        "Table of Contents",
+        "Try it Locally",
+        "Annotations",
+        "Testing",
+        "Change History View",
+        "Detailed Explanation",
+        "Human-readable Types and Fields",
+        "Human-readable IDs",
+        "ObjectID fallback for NULL values",
+        "Human-readable Values",
+        "Human-readable IDs for Composition Entries",
+        "Composition of one",
+        "Composition of many",
+        "Expression-based labels",
+        "Localized values",
+        "Tracing any kind of change",
+        "Tracking datetime fields with a fixed time zone",
+        "Advanced Options",
+        "Altered table view",
+        "Disable lazy loading",
+        "Disable UI Facet generation",
+        "Disable Association to Changes Generation",
+        "Disabling Change Tracking",
+        "Select types of changes to track",
+        "Preserve change logs of deleted data",
+        "Adjust the depth of the entity hierarchy tracking",
+        "Disable Children Change Linking",
+        "Examples"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "3df07fe2c4c01f70a4d9f1ae4cc15b7684c5c710",
+          "size": 1740,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-test",
+            "@cap-js/cds-types",
+            "@sap/cds"
+          ]
+        },
+        {
+          "path": "tests/bookshop-mtx/package.json",
+          "sha": "ab742f1d61a14e113f58cb269ec5add38ffb9817",
+          "size": 764,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/change-tracking",
+            "@cap-js/hana",
+            "@cap-js/sqlite",
+            "@sap/cds-dk",
+            "@sap/cds-mtxs",
+            "@sap/xssec",
+            "better-sqlite3"
+          ]
+        },
+        {
+          "path": "tests/bookshop/package.json",
+          "sha": "f9d64916bb0807337e3a344d0908eafb5ad320ff",
+          "size": 1621,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/attachments",
+            "@cap-js/change-tracking",
+            "@cap-js/hana",
+            "@cap-js/postgres",
+            "@cap-js/sqlite",
+            "@sap/cds-dk",
+            "better-sqlite3",
+            "puppeteer",
+            "ui5-test-runner"
+          ]
+        },
+        {
+          "path": "tests/bookshop/pom.xml",
+          "sha": "24bc5874aa75116b9d356b73b88518dfb637954e",
+          "size": 3813,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cds-maven-plugin",
+            "cds-services-bom",
+            "flatten-maven-plugin",
+            "incidents-java-parent",
+            "maven-compiler-plugin",
+            "maven-enforcer-plugin",
+            "maven-surefire-plugin",
+            "spring-boot-dependencies",
+            "spring-boot-maven-plugin"
+          ]
+        },
+        {
+          "path": "tests/bookshop/srv/pom.xml",
+          "sha": "145fa7d05833c441cf15888c9c7c59d729b1b20c",
+          "size": 4117,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cds-adapter-hcql",
+            "cds-adapter-odata-v4",
+            "cds-maven-plugin",
+            "cds-starter-spring-boot",
+            "h2",
+            "incidents-java",
+            "incidents-java-parent",
+            "spring-boot-devtools",
+            "spring-boot-maven-plugin",
+            "spring-boot-starter-security",
+            "spring-boot-starter-test"
+          ]
+        },
+        {
+          "path": "tests/performance/perf-bookshop/package.json",
+          "sha": "6d08d2a00f6c1954e910c0637b4aa13c448b2e7e",
+          "size": 597,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/change-tracking",
+            "@cap-js/hana",
+            "@cap-js/sqlite",
+            "@sap/cds",
+            "@sap/xssec"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:17+00:00"
     },
     "cap-js/data-inspector": {
       "id": 1113210154,
@@ -1419,12 +1860,111 @@
         "typescript"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 236305,
+        "JavaScript": 40303,
+        "CAP CDS": 6248,
+        "HTML": 4213
+      },
+      "readme_url": "https://github.com/cap-js/data-inspector/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e065c372c0c205e51f017836bde28d2bd34839f5",
+      "readme_excerpt": "`@cap-js/data-inspector` is a plugin to **view data** of CAP Node.js applications. It comes with an SAPUI5 app consumable out of the box. Install the plugin in your CAP Node.js project: npm install @cap-js/data-inspector Run it with cds watch - The Data Inspector OData service is served at `http://localhost:4004/odata/v4/data-inspector/`. - When asked for a user, use `alice` without password. The SAPUI5 app is **not** served by the CAP server (see Accessing the UI Locally). - Exclude specific entities and elements from being exposed by the plugin. See Excluding Entities and Elements. - Automatically log access to sensitive personal data using `@cap-js/audit-logging`.",
+      "readme_headings": [
+        "SAP Cloud Application Programming Model Data Inspector Plugin for Node.js",
+        "About this Project",
+        "Quick Start",
+        "Installation",
+        "Run",
+        "Features",
+        "The UI at a Glance",
+        "Accessing the UI Locally",
+        "Excluding Entities and Elements",
+        "Setup for BTP",
+        "Prerequisites",
+        "Setup with `cds add data-inspector`",
+        "Authorization",
+        "Audit Logging",
+        "UI Configuration for SAP BTP",
+        "CDS Build Plugin",
+        "Application ID (multi-service deployment)",
+        "UI Build Output Folder",
+        "OData Service Base Path",
+        "Custom Destination Name",
+        "Authentication Type",
+        "sap.cloud.service Configuration",
+        "Local Server URL (ui5 serve proxy)",
+        "MTA Deployment",
+        "@sap/html5-app-deployer",
+        "Cloud Portal Service Configuration",
+        "SAP Build Work Zone Configuration",
+        "(Optional) flpSandbox.html Configuration for Data Inspector Plugin's SAPUI5 App Tile for Local Testing",
+        "Support, Feedback, and Contribution",
+        "Development Setup"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "d282ab9ded9142537227a2ffca5fc168e8bd5aa4",
+          "size": 3425,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/audit-logging",
+            "@cap-js/cds-test",
+            "@cap-js/cds-typer",
+            "@cap-js/cds-types",
+            "@cap-js/sqlite",
+            "@sap/cds",
+            "@sap/cds-dk",
+            "@types/mocha",
+            "@types/node",
+            "c8",
+            "chai",
+            "cross-env",
+            "eslint",
+            "eslint-config-prettier",
+            "mocha",
+            "prettier",
+            "rimraf",
+            "ts-node",
+            "tsx",
+            "typescript",
+            "typescript-eslint",
+            "yaml"
+          ]
+        },
+        {
+          "path": "test/package.json",
+          "sha": "46d5eddacb9be820bcca8cbac5a877cd2b23caae",
+          "size": 101,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/data-inspector"
+          ]
+        },
+        {
+          "path": "app/data-inspector-ui/package.json",
+          "sha": "05e05748c35eda14878a4d4dc31062a3185ac886",
+          "size": 1056,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@sap/ux-ui5-tooling",
+            "@ui5/cli",
+            "rimraf",
+            "ui5-task-zipper"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:19+00:00"
     },
     "cap-js/data-privacy": {
       "id": 1198538392,
@@ -1457,12 +1997,145 @@
         "sap-cap"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 436156,
+        "CAP CDS": 131869,
+        "Handlebars": 4258,
+        "HTML": 1099,
+        "Clean": 1051,
+        "TypeScript": 430
+      },
+      "readme_url": "https://github.com/cap-js/data-privacy/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f643e9268f1e8918d3e24fd18ceeb48b915a1252",
+      "readme_excerpt": "The `@cap-js/data-privacy` plugin provides an out of box integration for CAP based applications with the SAP Data Privacy Integration (DPI) service. In particular based on `@PersonalData` and `@ILM` annotations in the data model, the plugin automatically provides a `/dpp/information` endpoint and a `/dpp/retention` endpoint via which the SAP DPI service can request personal data to show it in its `Manage Personal Data` app and block and delete data based on retention rules defined in SAP DPI. More information about how to use the plugin, can be found in the Data Privacy guide - Retention and Data Privacy guide - Information.",
+      "readme_headings": [
+        "CDS plugin for SAP Data Privacy Integration",
+        "About this project",
+        "Requirements and Setup",
+        "Test the plugin locally",
+        "Local Testing",
+        "Support, Feedback, Contributing",
+        "Security / Disclosure",
+        "Code of Conduct",
+        "Licensing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "db2feb79af508789046607aabfc2312e2e888066",
+          "size": 2579,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/audit-logging",
+            "@cap-js/cds-test",
+            "@cap-js/cds-types",
+            "@cap-js/sqlite",
+            "@eslint/js",
+            "@sap/cds",
+            "@sap/cds-common-content",
+            "@sap/cds-dk",
+            "@sap/cds-lsp",
+            "@sap/xsenv",
+            "eslint",
+            "jest",
+            "patch-package",
+            "prettier"
+          ]
+        },
+        {
+          "path": "tests/bookshop-app/package.json",
+          "sha": "3d41028bbcc451750b72a7eda5d1d673b42c33a6",
+          "size": 3105,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/audit-logging",
+            "@cap-js/data-privacy",
+            "@cap-js/hana",
+            "@cap-js/sqlite",
+            "@sap/ams",
+            "@sap/ams-dev",
+            "@sap/cds",
+            "@sap/cds-common-content",
+            "@sap/cds-dk",
+            "@sap/ux-specification",
+            "@sap/xsenv",
+            "@sap/xssec",
+            "express",
+            "path"
+          ]
+        },
+        {
+          "path": "tests/incidents-mgmt/package.json",
+          "sha": "4671137274aa9e0618a0f76793e112fb132737e2",
+          "size": 1986,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/audit-logging",
+            "@cap-js/data-privacy",
+            "@cap-js/hana",
+            "@cap-js/sqlite",
+            "@sap/cds",
+            "@sap/cds-dk",
+            "@sap/cds-mtxs",
+            "@sap/ux-specification",
+            "@sap/xssec",
+            "cds-launchpad-plugin",
+            "cds-plugin-ui5",
+            "express",
+            "passport"
+          ]
+        },
+        {
+          "path": "tests/information/extend-information-endpoint/package.json",
+          "sha": "ae99d0c5085716a50ac8903615bf21d40e151b7f",
+          "size": 1670,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/audit-logging",
+            "@cap-js/data-privacy",
+            "@cap-js/hana",
+            "@cap-js/sqlite",
+            "@sap/cds",
+            "@sap/cds-dk",
+            "express"
+          ]
+        },
+        {
+          "path": "tests/retention/extend-retention-endpoint/package.json",
+          "sha": "2db6d53c87beb527f5e3fb7b22cff09e8a5a190a",
+          "size": 1668,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/audit-logging",
+            "@cap-js/data-privacy",
+            "@cap-js/hana",
+            "@cap-js/sqlite",
+            "@sap/cds",
+            "@sap/cds-dk",
+            "express"
+          ]
+        },
+        {
+          "path": "tests/bookshop-app/app/router/package.json",
+          "sha": "a541c689a865ed7b9330f8a7d7772a5a93f12e8c",
+          "size": 164,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@sap/approuter"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:22+00:00"
     },
     "cap-js/event-broker": {
       "id": 840520874,
@@ -1490,12 +2163,80 @@
         "plugin"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 37624,
+        "CAP CDS": 473
+      },
+      "readme_url": "https://github.com/cap-js/event-broker/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6b201436b3cb63a4f0c522d0cf0a39d8a089b78e",
+      "readme_excerpt": "CDS plugin providing integration with SAP Cloud Application Event Hub (technical name: `event-broker`). - About this project - Requirements - Setup - Support, Feedback, Contributing - Code of Conduct - Licensing See Getting Started on how to jumpstart your development and grow as you go with SAP Cloud Application Programming Model (CAP). To learn about messaging in CAP, please consult the guide on Events & Messaging. Install the plugin via: npm add @cap-js/event-broker Then, set the `kind` of your messaging service to `event-broker`: \"cds\": { \"requires\": { \"messaging\": { \"kind\": \"event-broker\" } } } The CloudEvents format is enforced since",
+      "readme_headings": [
+        "Welcome to @cap-js/event-broker",
+        "About this project",
+        "Table of Contents",
+        "Requirements",
+        "Setup",
+        "Parameters",
+        "webhookSizeLimit",
+        "Support, Feedback, Contributing",
+        "Security / Disclosure",
+        "Code of Conduct",
+        "Licensing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "77139ba6919ebf5c6daa397fc491d07898a0ec8e",
+          "size": 1284,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-test",
+            "@cap-js/event-broker",
+            "@cap-js/sqlite",
+            "@sap-cloud-sdk/resilience",
+            "@sap/cds",
+            "@sap/xssec"
+          ]
+        },
+        {
+          "path": "test/event-broker-ias-multitenant/package.json",
+          "sha": "d360353b1f776f8af98f701b1f71cbec0dc59d8d",
+          "size": 530,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/event-broker"
+          ]
+        },
+        {
+          "path": "test/event-broker-ias-single-tenant/package.json",
+          "sha": "9f627355d87c251161ec05c54f5622d2ddedb075",
+          "size": 493,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/event-broker"
+          ]
+        },
+        {
+          "path": "test/event-broker-x509-multitenant/package.json",
+          "sha": "a1e63a1d9ac926ba378ad7b7f1e32d68dbe14eab",
+          "size": 467,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/event-broker"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:23+00:00"
     },
     "cap-js/graphql": {
       "id": 557382068,

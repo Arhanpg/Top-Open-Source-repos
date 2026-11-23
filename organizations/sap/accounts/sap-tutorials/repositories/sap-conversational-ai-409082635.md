@@ -1,0 +1,79 @@
+# sap-tutorials/sap-conversational-ai
+
+- Company: SAP
+- GitHub account: [https://github.com/sap-tutorials](https://github.com/sap-tutorials)
+- Mapping status: official-directory-listed
+- Repository: [sap-tutorials/sap-conversational-ai](https://github.com/sap-tutorials/sap-conversational-ai)
+- Default branch: main
+- README: [Open upstream README](https://github.com/sap-tutorials/sap-conversational-ai/blob/main/README.md)
+- README blob SHA: 9669a73f498633aa05458e09313c94a237daa722
+- Repository ID: 409082635
+- Evidence state: evidence captured; manual review pending
+- Manual review: manual technical interpretation pending
+
+## Upstream description
+
+No GitHub description supplied.
+
+This is repository-owner metadata, not an independently verified technical summary.
+
+## README capture
+
+- Status: captured
+- Unavailable reason: Not applicable
+- Captured: 2026-11-23T20:50:02+00:00
+
+### Short excerpt (up to 100 words)
+
+> Welcome to the Markdown tutorial catalog for tutorials you can find on the SAP developer pages here: <https://developers.sap.com/tutorial-navigator.html>. Contributions from external authors may be accepted in the future. However, for now you can provide us with feedback (e.g. outdated screens) and suggestions for improvements on existing tutorials by creating a GitHub issue. We have a large tutorial pipeline in the works, but in case you have something in mind right away, please create a new issue with the Label `enhancement` and let us know what you'd like to see covered in a tutorial. Every contributor needs to sign a Developer
+
+### README headings
+
+- Tutorials for https://developers.sap.com
+- How to contribute
+- License
+
+## GitHub language statistics
+
+GitHub's Languages API reports detected source-code bytes. It does not identify frameworks or architecture by itself.
+
+| Language | Bytes |
+|---|---:|
+| JavaScript | 1,471 |
+| Shell | 26 |
+
+## Build and dependency manifest paths
+
+These paths were found in the default-branch tree. A manifest filename alone is not proof of a framework or runtime.
+
+- package.json (capture: captured) — dependency clues: check-links, color-log, command-line-args, cross-env, fs-extra, gitlog, got, http-status-codes, inquirer, json2csv, markdown-spellcheck, marked, node-fetch, progress, recursive-readdir, shell-quote
+
+- Manifest scan truncated by GitHub: False
+- Manifest capture state: captured
+
+## Lifecycle metadata
+
+- Archived: False
+- Fork: False
+- Disabled: False
+- Licence SPDX: CC-BY-4.0
+- Stars at capture: 1
+- Forks at capture: 2
+- Last updated: 2026-10-17T20:55:56Z
+- Last pushed: 2026-10-17T20:55:53Z
+- Topics: Not supplied
+
+## Required manual review
+
+Interpret the README's purpose and capabilities; confirm framework/library claims against manifests and relevant source; inspect architecture, tests, licence, security guidance, platform constraints and maintenance status. Only then change the manual review state to README reviewed.
+
+## Upstream links
+
+- [Repository](https://github.com/sap-tutorials/sap-conversational-ai)
+- [README](https://github.com/sap-tutorials/sap-conversational-ai/blob/main/README.md)
+- [Issues](https://github.com/sap-tutorials/sap-conversational-ai/issues)
+- [Releases](https://github.com/sap-tutorials/sap-conversational-ai/releases)
+
+Capture errors: None
+
+*Generated evidence capture only. This page is not labelled README reviewed until a human has interpreted and checked the upstream material.*

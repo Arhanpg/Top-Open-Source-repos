@@ -830,12 +830,97 @@
         "sample"
       ],
       "last_seen_scan_id": "2026-11-23T20:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 36097,
+        "CAP CDS": 10567,
+        "HTML": 4967,
+        "Dockerfile": 548
+      },
+      "readme_url": "https://github.com/capire/incidents-app/blob/main/readme.md",
+      "readme_path": "readme.md",
+      "readme_sha": "c87d39d190c7acdd6f46aebc50c0a00c3a912e2e",
+      "readme_excerpt": "Welcome to the Incident Management reference sample application for the SAP Cloud Application Programming Model (CAP). The application allows to create and process incidents on behalf of registered customers with the basic domain model is depicted below. Assumed you prepared for CAP development as documented in capire's *Initial Setup* section, ... Clone the repository and install dependencies: git clone https://github.com/capire/incidents cd incidents npm install Run the application locally: cds watch Then open http://localhost:4004 and navigate to /incidents/webapp. <br> (for testing with authorization, copy the file `xmpls/authorizations.cds` into the `srv` folder. Then, login as `alice`, no password required). If you get",
+      "readme_headings": [
+        "Incident Management – CAP Reference Application",
+        "Setup",
+        "Run",
+        "Test",
+        "Add plugins",
+        "Deploy"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "dac95e20cbaaf4735bb2210dda1f9d5e62ac1763",
+          "size": 484,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/attachments",
+            "@cap-js/audit-logging",
+            "@cap-js/cds-test",
+            "@cap-js/change-tracking",
+            "@cap-js/sqlite",
+            "@sap/cds"
+          ]
+        },
+        {
+          "path": ".devcontainer/Dockerfile",
+          "sha": "3f0d2c7c4ad17f7ea429dca04e4fe77f8d52e7bd",
+          "size": 548,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "app/incidents/package.json",
+          "sha": "b57342084cd74e45e65be2abed6d84301ea2cae3",
+          "size": 337,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "xmpls/messaging/package.json",
+          "sha": "56bee82927282cb93460b94a0403e205ae82aaf0",
+          "size": 1336,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-test",
+            "@cap-js/sqlite",
+            "@sap-cloud-sdk/connectivity",
+            "@sap-cloud-sdk/http-client",
+            "@sap-cloud-sdk/resilience",
+            "@sap-cloud-sdk/util",
+            "@sap/cds",
+            "@sap/xb-msg-amqp-v100",
+            "express"
+          ]
+        },
+        {
+          "path": "xmpls/remote-service/package.json",
+          "sha": "85644d2818cff5b96b9708600ccd576555c7e93c",
+          "size": 1061,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-test",
+            "@cap-js/sqlite",
+            "@sap-cloud-sdk/connectivity",
+            "@sap-cloud-sdk/http-client",
+            "@sap-cloud-sdk/resilience",
+            "@sap-cloud-sdk/util",
+            "@sap/cds",
+            "express"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:33+00:00"
     },
     "capire/orders": {
       "id": 959656315,
@@ -861,12 +946,44 @@
         "reuse"
       ],
       "last_seen_scan_id": "2026-11-23T20:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "CAP CDS": 3681,
+        "JavaScript": 1480,
+        "HTML": 1240
+      },
+      "readme_url": "https://github.com/capire/orders/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "863862cef7a17d2ece6cc3e7031d4c81b3ac200b",
+      "readme_excerpt": "This is a sample app which provides a generic reuse service for managing orders, and a corresponding Fiori UI. It is used in the bookstore sample. Instead of embedding it into your application, you can also run the app standalone, and consume the service through OData. Copyright (c) 2024 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Apache Software License, version 2.0 except as noted otherwise in the LICENSE file.",
+      "readme_headings": [
+        "@capire/orders",
+        "Integrate",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "838a8c9c39eb631fd6006eae7939d104ed3db497",
+          "size": 422,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/hana",
+            "@capire/common",
+            "@sap/cds",
+            "@sap/xssec"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:34+00:00"
     },
     "capire/orders-java": {
       "id": 1118827303,
@@ -889,12 +1006,80 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "CAP CDS": 3792,
+        "Java": 2948,
+        "HTML": 1172,
+        "JavaScript": 200
+      },
+      "readme_url": "https://github.com/capire/orders-java/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "262f7e836c7d1e5b3831353e594966d19ffe0c40",
+      "readme_excerpt": "This is a sample app which provides a generic reuse service for managing orders, and a corresponding Fiori UI. It is used in the bookstore sample. Instead of embedding it into your application, you can also run the app standalone, and consume the service through OData. Copyright 2026 SAP SE or an SAP affiliate company and capire/orders-java contributors. Please see our LICENSE for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available via the REUSE tool.",
+      "readme_headings": [
+        "@capire/orders",
+        "Integrate",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "c89d86b7dfeeb779da6528bac1697e27458d7e04",
+          "size": 530,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@capire/common",
+            "@sap/cds",
+            "@sap/cds-dk"
+          ]
+        },
+        {
+          "path": "pom.xml",
+          "sha": "cc7624d477b9ae39724c5e760e9bf2bbfda5efec",
+          "size": 3798,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cds-maven-plugin",
+            "cds-services-bom",
+            "flatten-maven-plugin",
+            "maven-compiler-plugin",
+            "maven-enforcer-plugin",
+            "maven-surefire-plugin",
+            "orders-parent",
+            "spring-boot-dependencies",
+            "spring-boot-maven-plugin"
+          ]
+        },
+        {
+          "path": "srv/pom.xml",
+          "sha": "c8d4aef7543a8635740cc8ea993701d9d883a45c",
+          "size": 3729,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cds-adapter-odata-v4",
+            "cds-feature-enterprise-messaging",
+            "cds-maven-plugin",
+            "cds-starter-cloudfoundry",
+            "cds-starter-spring-boot",
+            "h2",
+            "orders",
+            "orders-parent",
+            "spring-boot-devtools",
+            "spring-boot-maven-plugin",
+            "spring-boot-starter-test"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:36+00:00"
     },
     "capire/reviews": {
       "id": 959655991,
@@ -920,12 +1105,43 @@
         "reuse"
       ],
       "last_seen_scan_id": "2026-11-23T20:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 5797,
+        "CAP CDS": 2638,
+        "HTML": 2431
+      },
+      "readme_url": "https://github.com/capire/reviews/blob/main/readme.md",
+      "readme_path": "readme.md",
+      "readme_sha": "761d4dba500c37e2be557c57894d5c5b0915808a",
+      "readme_excerpt": "This is a sample app which provides a generic reuse service for managing reviews, and a corresponding Fiori UI. It is used in the bookstore sample. Copyright (c) 2024 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Apache Software License, version 2.0 except as noted otherwise in the LICENSE file.",
+      "readme_headings": [
+        "@capire/reviews",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "7cae7ce552f0ed06b0364182e355bf7e1b7c4db9",
+          "size": 513,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/hana",
+            "@cap-js/sqlite",
+            "@sap/cds",
+            "@sap/xssec"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:37+00:00"
     },
     "capire/reviews-java": {
       "id": 1118827554,
@@ -948,12 +1164,77 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 4699,
+        "CAP CDS": 2638,
+        "HTML": 2613
+      },
+      "readme_url": "https://github.com/capire/reviews-java/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d6bb35bd08c1c596b56af345184336225ad01ba6",
+      "readme_excerpt": "This is a sample app which provides a generic reuse service for managing reviews, and a corresponding Vue UI. It is used in the bookstore sample. Copyright 2026 SAP SE or an SAP affiliate company and capire/reviews-java contributors. Please see our LICENSE for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available via the REUSE tool.",
+      "readme_headings": [
+        "@capire/reviews",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "f9ee8eb114b93f82cbf7d77bf31570e6f9b4442a",
+          "size": 537,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@sap/cds",
+            "@sap/cds-dk"
+          ]
+        },
+        {
+          "path": "pom.xml",
+          "sha": "868342e96a042752caf8bcac14fe25d5d043eb4e",
+          "size": 3800,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cds-maven-plugin",
+            "cds-services-bom",
+            "flatten-maven-plugin",
+            "maven-compiler-plugin",
+            "maven-enforcer-plugin",
+            "maven-surefire-plugin",
+            "reviews-parent",
+            "spring-boot-dependencies",
+            "spring-boot-maven-plugin"
+          ]
+        },
+        {
+          "path": "srv/pom.xml",
+          "sha": "7f8dcaaee2c4039d0503044214593fd21b5b0156",
+          "size": 3732,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cds-adapter-odata-v4",
+            "cds-feature-enterprise-messaging",
+            "cds-maven-plugin",
+            "cds-starter-cloudfoundry",
+            "cds-starter-spring-boot",
+            "h2",
+            "reviews",
+            "reviews-parent",
+            "spring-boot-devtools",
+            "spring-boot-maven-plugin",
+            "spring-boot-starter-test"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:39+00:00"
     },
     "capire/s4": {
       "id": 1143213033,
@@ -976,12 +1257,41 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "CAP CDS": 783,
+        "JavaScript": 56
+      },
+      "readme_url": "https://github.com/capire/s4/blob/main/readme.md",
+      "readme_path": "readme.md",
+      "readme_sha": "a1ced5b9034a764599e91ef4d9b6f9045375875f",
+      "readme_excerpt": "This sample showcases how to provide pre-built integration packages for SAP S/4HANA integration. Following the plug & play principle of CAP plugins, adding this dependency to your project will automatically register a service binding endpoint for S4BusinessPartnerService. Copyright (c) 2026 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Apache Software License, version 2.0 except as noted otherwise in the LICENSE file.",
+      "readme_headings": [
+        "@capire/s4",
+        "Plug & Play",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "b46946ddbdd02825474631b0ef3710db4b5fe4ee",
+          "size": 449,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/sqlite",
+            "@sap/cds"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:40+00:00"
     },
     "capire/samples": {
       "id": 959665065,
@@ -1008,12 +1318,52 @@
         "samples"
       ],
       "last_seen_scan_id": "2026-11-23T20:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 583
+      },
+      "readme_url": "https://github.com/capire/samples/blob/main/readme.md",
+      "readme_path": "readme.md",
+      "readme_sha": "46a7b7502c7abb9364f90e1f653d9e817f56ad93",
+      "readme_excerpt": "Find here a collection of samples for the SAP Cloud Application Programming Model organized in a simple monorepo setup. Assumed you did your initial setup of CAP Node.js, simply copy & paste these lines to a terminal for a jumpstart: git clone --recurse-submodules https://github.com/capire/samples cap/samples cd cap/samples npm run latest npm install npm test npm start After download and setup this starts the bookshop server and opens a browser window on _http://localhost:4004_ looking like that: Click on the */vue* link at the top to display the bookshop app (when asked to log in, type `alice` as user and leave the",
+      "readme_headings": [
+        "Welcome to cap/samples",
+        "Get Started",
+        "Grow as you go...",
+        "Get Help",
+        "Get Support",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "95911c74e14c138eb29542e624ff327536038029",
+          "size": 1059,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-test",
+            "@sap/cds-dk"
+          ]
+        },
+        {
+          "path": ".deploy/app-router/package.json",
+          "sha": "beb69165785c905931d76a53a6fafecfafd7d92c",
+          "size": 160,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@sap/approuter"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:42+00:00"
     },
     "capire/samples-java": {
       "id": 1118815560,
@@ -1040,12 +1390,50 @@
         "samples"
       ],
       "last_seen_scan_id": "2026-11-23T20:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/capire/samples-java/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "8a32c6242ffc414237c5934e6526f3eea33ff233",
+      "readme_excerpt": "Find here a collection of samples for the SAP Cloud Application Programming Model organized in a simple monorepo setup. Assumed you did your initial setup of CAP Node.js, simply copy & paste these lines to a terminal for a jumpstart: git clone -q --recursive https://github.com/capire/samples-java cd samples-java npm install npm run start After downloading and setting up the project, the bookshop server is started. Then open a browser and go to _http://localhost:8080/vue/index.html_. Log in with user *alice* and leave the password field blank. After the jumpstart, have a look into the enclosed sub folders/projects, which are: - bookshop-java – a",
+      "readme_headings": [
+        "Welcome to cap/samples-java",
+        "Get Started",
+        "Grow as you go...",
+        "Get Help",
+        "Get Support",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "854b5df403f54ad4b1c2040096c606624cda27db",
+          "size": 732,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-test",
+            "@sap/cds-dk"
+          ]
+        },
+        {
+          "path": ".deploy/app-router/package.json",
+          "sha": "ba58475a7e6fe4f5ba0cd2361a699b1216f1cf3b",
+          "size": 160,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@sap/approuter"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:44+00:00"
     },
     "capire/shared-db": {
       "id": 959657171,
@@ -1073,12 +1461,40 @@
         "microservices"
       ],
       "last_seen_scan_id": "2026-11-23T20:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "CAP CDS": 91
+      },
+      "readme_url": "https://github.com/capire/shared-db/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2e17362eefa85243f176c3d2a04894312f2242f5",
+      "readme_excerpt": "Shows how a model can be shared across multiple apps that all rely on the same domain model. See the Microservices with CAP guide for the general idea and background. Copyright (c) 2024 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Apache Software License, version 2.0 except as noted otherwise in the LICENSE file.",
+      "readme_headings": [
+        "@capire/shared-db",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "8361dca9481d21fec2b22c2f743bfcfcac37597e",
+          "size": 315,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@capire/bookstore",
+            "@capire/orders",
+            "@capire/reviews"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:45+00:00"
     },
     "capire/shared-db-java": {
       "id": 1118829972,
@@ -1101,12 +1517,42 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "CAP CDS": 91
+      },
+      "readme_url": "https://github.com/capire/shared-db-java/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2fcdb29fac4f9b4a477aa814192090e42f6ed779",
+      "readme_excerpt": "Shows how a model can be shared across multiple apps that all rely on the same domain model. See the Microservices with CAP guide for the general idea and background. Copyright 2026 SAP SE or an SAP affiliate company and capire/shared-db-java contributors. Please see our LICENSE for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available via the REUSE tool.",
+      "readme_headings": [
+        "@capire/shared-db",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "0edfd1934df85f582702f9d3721d05f02935267e",
+          "size": 546,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@capire/bookstore",
+            "@capire/orders",
+            "@capire/reviews",
+            "@sap/cds",
+            "@sap/cds-dk"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:48:46+00:00"
     },
     "capire/skills": {
       "id": 1263733820,

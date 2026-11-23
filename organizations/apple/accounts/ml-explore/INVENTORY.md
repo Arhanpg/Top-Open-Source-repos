@@ -16,4 +16,4 @@
 | [ml-explore/mlx-onnx](https://github.com/ml-explore/mlx-onnx) | MLX support for the Open Neural Network Exchange (ONNX) | 72 | Pending | False | False | True | captured | [Open](repositories/mlx-onnx-745343050.md) |
 | [ml-explore/mlx-swift](https://github.com/ml-explore/mlx-swift) | Swift API for MLX | 2098 | C, C++, CMake, CSS, Cuda, JavaScript, Makefile, Metal, Objective-C, Python, Shell, Swift | False | False | True | captured | [Open](repositories/mlx-swift-730845987.md) |
 | [ml-explore/mlx-swift-examples](https://github.com/ml-explore/mlx-swift-examples) | Examples using MLX Swift | 2703 | Python, Shell, Swift | False | False | True | captured | [Open](repositories/mlx-swift-examples-761903377.md) |
-| [ml-explore/mlx-swift-lm](https://github.com/ml-explore/mlx-swift-lm) | LLMs and VLMs with MLX Swift | 879 | Pending | False | False | True | pending | Not generated |
+| [ml-explore/mlx-swift-lm](https://github.com/ml-explore/mlx-swift-lm) | LLMs and VLMs with MLX Swift | 879 | C, C++, Python, Shell, Swift | False | False | True | captured | [Open](repositories/mlx-swift-lm-1068168978.md) |

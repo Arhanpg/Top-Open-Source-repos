@@ -2717,12 +2717,47 @@
         "systems-manager"
       ],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 10165,
+        "HCL": 6233
+      },
+      "readme_url": "https://github.com/aws-samples/add-policy-to-ec2-role/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f97b14ba1ea7e23ddc2fffa6380d0e5d5d71a6e8",
+      "readme_excerpt": "This project creates Lambda function that automatically add required AWS Identity and Access Management (IAM) policies to current Amazon Elastic Compute Cloud (Amazon EC2) instance profiles or associate a profile to EC2 instances without a profile associated. You can use it as a Lambda function scheduled at a recurrent time using EventBridge Rule or manually running the python code when required. It is a best practice to manage your EC2 instances using AWS Systems Manager Session Manager and get EC2 instance's memory usage metric via CloudWatch Agent. In order to allow SSM Agent and CloudWatch Agent to communicate with their",
+      "readme_headings": [
+        "Automatically update IAM roles with defined policies",
+        "Overview",
+        "Lambda configuration",
+        "Setup",
+        "Setup using CloudFormation",
+        "1. Validate CloudFormation template",
+        "2. Create CloudFormation stack",
+        "3. Create the packaged code",
+        "4. Update lambda package code",
+        "Setup using Terraform",
+        "1. Initialize Terraform state",
+        "2. Validate Terraform template",
+        "3. Apply Terraform template",
+        "After setup",
+        "1a. Trigger a test Lambda invocation with the AWS CLI",
+        "1b. Trigger a test Lambda invocation with the AWS Console",
+        "2. Clean-up",
+        "Lambda function customization",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:42:44+00:00"
     },
     "aws-samples/addons-transformer-for-amazon-eks": {
       "id": 747726251,
@@ -2745,12 +2780,86 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 34494,
+        "Shell": 1065,
+        "Makefile": 816,
+        "JavaScript": 416,
+        "Batchfile": 117
+      },
+      "readme_url": "https://github.com/aws-samples/addons-transformer-for-amazon-eks/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e5eeff96a38272436bd9f33606f59554ce93b4da",
+      "readme_excerpt": "Addons Transformer CLI for Amazon EKS ===================================== * Introduction * Pre-requisites * Features * Installation * Commands Addons Transformer for Amazon EKS is a solution that provides pre-launch validations of the partner software based on compatibility with Amazon EKS Third Party Addon guidelines, covering static and dynamic (deployment/runtime) aspects. To implement this solution, you need the following prerequisites: * The AWS Command Line Interface (AWS CLI) installed. The AWS CLI is a unified tool to manage your AWS services. * AWS CLI default profile should be configured to access your AWS Account. * Node version 18.12.1 or later. * NPM",
+      "readme_headings": [
+        "Introduction",
+        "Pre-requisites",
+        "Quick-install",
+        "Cloud Shell Installation",
+        "Features",
+        "Helm chart validation",
+        "Helm lint command",
+        "Helm template command",
+        "Request submission for onboarding the add-on to the program",
+        "Installation",
+        "Commands",
+        "`addons-transformer-for-amazon-eks create-issue FILE`",
+        "`addons-transformer-for-amazon-eks validate [HELMURL]`"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "ca794fbdadefa4c80c98ddfb9e4a5c5be50ce1a2",
+          "size": 816,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "package.json",
+          "sha": "5ff74ddb91aebabd7f96ce714d6c66fb20b39aa6",
+          "size": 2285,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@inquirer/prompts",
+            "@inquirer/select",
+            "@oclif/core",
+            "@oclif/plugin-help",
+            "@oclif/prettier-config",
+            "@oclif/test",
+            "@octokit/core",
+            "@types/chai",
+            "@types/fs-extra",
+            "@types/inquirer",
+            "@types/js-yaml",
+            "@types/mocha",
+            "@types/node",
+            "ajv",
+            "chai",
+            "debug",
+            "eslint",
+            "eslint-config-oclif",
+            "eslint-config-oclif-typescript",
+            "eslint-config-prettier",
+            "js-yaml",
+            "json-schema",
+            "mocha",
+            "oclif",
+            "shx",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:42:46+00:00"
     },
     "aws-samples/address-enrichment-and-caching-using-stepfunctions": {
       "id": 490452710,
@@ -2773,12 +2882,86 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 36338
+      },
+      "readme_url": "https://github.com/aws-samples/address-enrichment-and-caching-using-stepfunctions/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9768b46b174a70e8125ac710807f523f048ac869",
+      "readme_excerpt": "Traditional methods of performing address enrichment on geospatial datasets can be expensive and time consuming. Using Amazon Location Service with AWS Step Functions for orchestration and with Amazon DynamoDB for caching in a serverless data processing pipeline, you may achieve significant performance improvements and cost savings on address enrichment jobs that use geospatial data. This sample is an evolution to the already available sample, which only uses Lambda functions (can be found here). Some of the improvements in this project includes: - Using AWS Step Functions for Orchestration - Using Amazon DynamoDB as a Naive cache to store location results,",
+      "readme_headings": [
+        "Address Enrichment and Caching Using AWS Step Functions by Leveraging Amazon Location Service",
+        "Highlevel Architecture",
+        "Deploying the Project",
+        "Prerequistes:",
+        "This Sample Includes:",
+        "Deploy the Sam-App:",
+        "Testing the Application",
+        "Cleanup",
+        "Pre-req:",
+        "Method 1:",
+        "Method 2:",
+        "Security",
+        "License",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "tests/requirements.txt",
+          "sha": "a9dc15caa9cd2da66414fe20a03fe7d51abf615e",
+          "size": 24,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "pytest",
+            "pytest-mock"
+          ]
+        },
+        {
+          "path": "functions/gather/requirements.txt",
+          "sha": "a720311456e52ea9f40cfbe48f6a4f8a01068aa6",
+          "size": 21,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "pandas",
+            "requests"
+          ]
+        },
+        {
+          "path": "functions/process/requirements.txt",
+          "sha": "a720311456e52ea9f40cfbe48f6a4f8a01068aa6",
+          "size": 21,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "pandas",
+            "requests"
+          ]
+        },
+        {
+          "path": "functions/scatter/requirements.txt",
+          "sha": "a720311456e52ea9f40cfbe48f6a4f8a01068aa6",
+          "size": 21,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "pandas",
+            "requests"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:42:48+00:00"
     },
     "aws-samples/advanced-logging-controls-lambda": {
       "id": 707384409,
@@ -2801,12 +2984,83 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 6981,
+        "JavaScript": 1754
+      },
+      "readme_url": "https://github.com/aws-samples/advanced-logging-controls-lambda/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c4b32e8a7bd204e23ab3645cf98ca31f57d3581f",
+      "readme_excerpt": "The purpose of this project is to demonstrate how to use the advanced logging controls for Lambda, using AWS SAM to build and deploy the resources in your AWS account. Using advanced logging controls you can capture logs in JSON structured format, allowing you to quickly search, filter, and analyze large volumes of log entries. You can also control the granularity of logs emitted by the Lambda function to debug and troubleshoot issues more effectively. Lastly, you can now choose the Amazon CloudWatch Log Group where Lambda sends logs to, making it easier to aggregate and manage logs at scale.",
+      "readme_headings": [
+        "Advanced Logging Controls Lambda Demo",
+        "Overview",
+        "Deploying the application",
+        "Exploring the results",
+        "Cleanup",
+        "Resources",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "detect-labels/package.json",
+          "sha": "908983accda194557d0df9bb8e773bf3f2d0d2b5",
+          "size": 1031,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-sdk/client-rekognition",
+            "@types/aws-lambda",
+            "@types/jest",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-lambda",
+            "esbuild",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-prettier",
+            "jest",
+            "prettier",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "extract-text/package.json",
+          "sha": "5795e063f2eec50b6d23d153679be301a2744585",
+          "size": 1026,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-sdk/client-textract",
+            "@types/aws-lambda",
+            "@types/jest",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-lambda",
+            "esbuild",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-prettier",
+            "jest",
+            "prettier",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:42:49+00:00"
     },
     "aws-samples/advanced-rag-patterns-on-mixtral": {
       "id": 772137105,
@@ -2829,12 +3083,39 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 58746
+      },
+      "readme_url": "https://github.com/aws-samples/advanced-rag-patterns-on-mixtral/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6e71927b496a271b2e6e5efe83ac9787622148f7",
+      "readme_excerpt": "Example Jupyter Notebook of Mixtral 8x7B Instruct and BGE Large En to experiment Advanced Retrieval Augmented Generation (RAG) QnA systems on a SageMaker Notebook using LangChain. See the accompanying blog post on the AWS Machine Learning Blog for a detailed description. You can use Amazon SageMaker to simplify the process of building, training, and deploying ML models. The SageMaker example notebooks are Jupyter notebooks that demonstrate the usage of Amazon SageMaker. The Sagemaker Example Community repository are additional notebooks, beyond those critical for showcasing key SageMaker functionality, can be shared and explored by the commmunity. In this section, you sign",
+      "readme_headings": [
+        "Advanced RAG Patterns with Mixtral on SageMaker Jumpstart",
+        ":books: Background",
+        "Prerequisites",
+        "Sagemaker Prerequisites",
+        "Architecture",
+        "Solution",
+        "Parent Document Retriever Workflow",
+        "Contextual Compression Workflow",
+        ":hammer_and_wrench: Setup",
+        "Comparison of Results",
+        "Contributing",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:42:50+00:00"
     },
     "aws-samples/advanced-rag-router-with-amazon-bedrock": {
       "id": 811019646,
@@ -2868,12 +3149,35 @@
         "retrieval-augmented-generation"
       ],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 94433,
+        "Python": 25051,
+        "Batchfile": 447,
+        "Shell": 346
+      },
+      "readme_url": "https://github.com/aws-samples/advanced-rag-router-with-amazon-bedrock/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "60a2a4543d923ac0ceabaab714e520c901d81dcb",
+      "readme_excerpt": "This repository contains the code samples that will let participants learn how to use the Retrieval Augmented Generation (RAG) router based architecture with Amazon Bedrock and Amazon OpenSearch Serverless (AOSS) to quickly build a secure assistant that uses the most up-to-date information to converse with users. Participants will also learn how this assistant will use dialog-guided information retrieval to respond to users. LLMs are usually trained offline with data that is available until that point of time. As a result, LLMs will not have knowledge of the world after that date. Additionally, LLMs are trained on very general domain corpora,",
+      "readme_headings": [
+        "Build an advanced RAG router based assistant with Amazon Bedrock",
+        "Overview",
+        "To get started",
+        "Repository structure",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:42:52+00:00"
     },
     "aws-samples/aft-account-customizations-examples": {
       "id": 656682232,
@@ -2896,12 +3200,92 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 44103,
+        "Shell": 39515,
+        "Jinja": 5465,
+        "Python": 5233
+      },
+      "readme_url": "https://github.com/aws-samples/aft-account-customizations-examples/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0eb7c24eddcca5d62b109cd0e47c27a751d1e18f",
+      "readme_excerpt": "This project contains a practical use case of the AFT account customizations logic. More details about the AFT see AFT Doc When working in multi-account scenarios it is quite common to come across the following situation: - 3 Workload accounts (1 development account, 1 staging account and 1 production account) - 1 Account for SLDC (Pipelines, Version Control and GITOPS) - In this type of account, cross-account access to the workload accounts is necessary so that the pipelines can deliver the codes in their respective environments It turns out to be a challenge to manage the creation of these accounts",
+      "readme_headings": [
+        "aft-account-customizations-examples",
+        "Background and solutions considerations",
+        "Solution overview",
+        "Workload accounts (dev, hml e prod)",
+        "Getting CIDR available for use",
+        "VPC creation",
+        "Updating CIDR MGMT with VPC ID",
+        "Pipeline Accounts",
+        "Creating cross-account roles",
+        "AWS CodeCommit repository",
+        "IAC Pipeline Deployment",
+        "Jinja",
+        "Folder Structure",
+        "Deployment",
+        "To use this solution you must:",
+        "Deploy",
+        "Usage",
+        "Credits",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "DEV/api_helpers/python/requirements.txt",
+          "sha": "a832174753cc6565428178a0f2493390005509cc",
+          "size": 33,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "requests"
+          ]
+        },
+        {
+          "path": "HML/api_helpers/python/requirements.txt",
+          "sha": "ea5f1ac0b8f5ed9673a0cbab9efb02c12d4f2b39",
+          "size": 32,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "requests"
+          ]
+        },
+        {
+          "path": "PIPELINE/api_helpers/python/requirements.txt",
+          "sha": "173b43bfc13ba62c6b256c7a34693f589d6df6d0",
+          "size": 64,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Jinja2",
+            "boto3",
+            "jinja2-cli",
+            "requests"
+          ]
+        },
+        {
+          "path": "PRODUCTION/api_helpers/python/requirements.txt",
+          "sha": "ea5f1ac0b8f5ed9673a0cbab9efb02c12d4f2b39",
+          "size": 32,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "requests"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:42:53+00:00"
     },
     "aws-samples/aft-account-suspend-close-solution": {
       "id": 807460704,
@@ -2924,12 +3308,44 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 10004,
+        "Python": 5244
+      },
+      "readme_url": "https://github.com/aws-samples/aft-account-suspend-close-solution/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "35ff2f32d085031aa46c7fa193a2a9287300f7cd",
+      "readme_excerpt": "The primary goal of this APG is to introduce a solution that leverages AWS Control Tower Account Factory Terraform (AFT) to streamline the account closure and suspension process. The solution aims to provide a reliable, efficient, and fast way to manage the decommissioning of AWS accounts from organizations. The APG will highlight the integration of account closure and suspension custom solution with AFT to automate the account decommissioning process, eliminating the need for manual interventions. This approach will enhance the overall operational efficiency and ensure a standardized, secure, and consistent decommissioning process for AWS Control Tower. By automating the account",
+      "readme_headings": [
+        "Govern Multi Account Account Closure and Suspension using custom solutions for Account Factory for Terraform (AFT)",
+        "AFT (Account Factory for Terraform)  Overview",
+        "Solution Architecture",
+        "Requirements",
+        "Providers",
+        "Modules",
+        "Resources",
+        "Inputs",
+        "Outputs"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "lambda/aft_suspend_account/requirements.txt",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0,
+          "content_status": "content_not_returned",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:42:55+00:00"
     },
     "aws-samples/aft-bootstrap-pipeline": {
       "id": 731860312,
@@ -2952,12 +3368,35 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 4555,
+        "HCL": 1755
+      },
+      "readme_url": "https://github.com/aws-samples/aft-bootstrap-pipeline/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "dc047289d40e94668c955731bf93111f4918fa8d",
+      "readme_excerpt": "This repository introduces a streamlined and secure method for deploying Account Factory for Terraform (AFT) within the management account of AWS Organizations. Our approach centers around a CloudFormation template that simplifies and automates the AFT setup process. The template creates a Terraform pipeline, designed for ease of adaptability and maintenance. Prioritizing security and data integrity, the Terraform state file is securely stored in an S3 bucket, featuring server-side encryption and policies to block public access. This ensures the safeguarding of the state file against unauthorized access and data breaches. In recognition of the management account's critical role in AWS Control",
+      "readme_headings": [
+        "Account Factory for Terraform (AFT) bootstrap pipeline",
+        "Table of Contents",
+        "Diagram",
+        "Prerequisites",
+        "Limitations",
+        "Versions",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:42:56+00:00"
     },
     "aws-samples/aft-custom-sso-assignment": {
       "id": 807472421,
@@ -2980,12 +3419,42 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 11603,
+        "Python": 3453,
+        "Shell": 2285,
+        "Jinja": 906,
+        "Smarty": 333
+      },
+      "readme_url": "https://github.com/aws-samples/aft-custom-sso-assignment/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a8efeb39add5a3f61d734430830248235f89d14f",
+      "readme_excerpt": "This solution will introduce a solution that seamlessly integrates AWS Control Tower Account Factory Terraform (AFT) with Single Sign-On (SSO), enhancing large-scale account onboarding process. This innovative approach utilizes custom Lambda code to automate SSO permission set assignments, streamlining the process without requiring manual intervention from the Platform Engineering team. Spee in operation, security, and consistency are just a few advantages of this solution. As per documentation here, AFT sets up a Terraform pipeline that helps you provision and customize your accounts in AWS Control Tower. AFT follows a GitOps model to automate the processes of account provisioning in AWS",
+      "readme_headings": [
+        "Govern SSO Assignments for AWS Accounts using Account Factory for Terraform (AFT)",
+        "AFT (Account Factory for Terraform)  Overview",
+        "Solution Architecture",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "aft-account-provisioning-customizations/terraform/lambda/aft_add_alternate_sso/requirements.txt",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0,
+          "content_status": "content_not_returned",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:42:57+00:00"
     },
     "aws-samples/aft-sample-account-customizations": {
       "id": 844640960,
