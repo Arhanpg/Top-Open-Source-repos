@@ -3,8 +3,8 @@
 - **Company grouping:** Alphabet / Google
 - **GitHub organization:** [google](https://github.com/google)
 - **Repository:** [google/comprehensive-rust](https://github.com/google/comprehensive-rust)
-- **Default branch:** master/main (verify from repository metadata)
-- **README:** [Open upstream README](https://github.com/google/comprehensive-rust/blob/master/README.md)
+- **Default branch:** `main`
+- **README:** [Open upstream README](https://github.com/google/comprehensive-rust/blob/main/README.md)
 - **Review status:** README inspected and summarized
 - **README blob SHA:** `cc4b760db424d5c5c8bc8ba39fc4a244e571d679`
 

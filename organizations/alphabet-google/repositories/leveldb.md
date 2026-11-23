@@ -3,8 +3,8 @@
 - **Company grouping:** Alphabet / Google
 - **GitHub organization:** [google](https://github.com/google)
 - **Repository:** [google/leveldb](https://github.com/google/leveldb)
-- **Default branch:** master/main (verify from repository metadata)
-- **README:** [Open upstream README](https://github.com/google/leveldb/blob/master/README.md)
+- **Default branch:** `main`
+- **README:** [Open upstream README](https://github.com/google/leveldb/blob/main/README.md)
 - **Review status:** README inspected and summarized
 - **README blob SHA:** `a5e541604df2e547a76b449e8adf99ada50b23c8`
 

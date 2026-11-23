@@ -3,8 +3,8 @@
 - **Company grouping:** Amazon / AWS
 - **GitHub organization:** [aws](https://github.com/aws)
 - **Repository:** [aws/serverless-application-model](https://github.com/aws/serverless-application-model)
-- **Default branch:** default branch as shown by upstream GitHub metadata
-- **README:** [Open upstream README](https://github.com/aws/serverless-application-model/blob/default/README.md)
+- **Default branch:** `develop`
+- **README:** [Open upstream README](https://github.com/aws/serverless-application-model/blob/develop/README.md)
 - **Review status:** README inspected and summarized
 - **README blob SHA:** `0069a1eca03028566d184dc108404d2fabfd199b`
 

@@ -3,8 +3,8 @@
 - **Company grouping:** Alphabet / Google
 - **GitHub organization:** [google](https://github.com/google)
 - **Repository:** [google/zx](https://github.com/google/zx)
-- **Default branch:** master/main (verify from repository metadata)
-- **README:** [Open upstream README](https://github.com/google/zx/blob/master/README.md)
+- **Default branch:** `main`
+- **README:** [Open upstream README](https://github.com/google/zx/blob/main/README.md)
 - **Review status:** README inspected and summarized
 - **README blob SHA:** `fa45dba2135b2488a228a896e60a6c10d6ba5199`
 

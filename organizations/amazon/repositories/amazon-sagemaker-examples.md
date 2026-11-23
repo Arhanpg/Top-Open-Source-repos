@@ -3,7 +3,7 @@
 - **Company grouping:** Amazon / AWS
 - **GitHub organization:** [aws](https://github.com/aws)
 - **Repository:** [aws/amazon-sagemaker-examples](https://github.com/aws/amazon-sagemaker-examples)
-- **Default branch:** default branch as shown by upstream GitHub metadata
+- **Default branch:** `default`
 - **README:** [Open upstream README](https://github.com/aws/amazon-sagemaker-examples/blob/default/README.md)
 - **Review status:** README inspected and summarized
 - **README blob SHA:** `b6a445e2cf6f27be93816b0ed3d278ef6bf2d676`

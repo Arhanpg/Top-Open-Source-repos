@@ -3,8 +3,8 @@
 - **Company grouping:** Alphabet / Google
 - **GitHub organization:** [google](https://github.com/google)
 - **Repository:** [google/googletest](https://github.com/google/googletest)
-- **Default branch:** master/main (verify from repository metadata)
-- **README:** [Open upstream README](https://github.com/google/googletest/blob/master/README.md)
+- **Default branch:** `main`
+- **README:** [Open upstream README](https://github.com/google/googletest/blob/main/README.md)
 - **Review status:** README inspected and summarized
 - **README blob SHA:** `b4e9b434fc86db0882a0ea7df0fface8497de718`
 

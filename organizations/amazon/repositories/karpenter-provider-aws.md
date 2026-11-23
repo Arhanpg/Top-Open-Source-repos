@@ -3,8 +3,8 @@
 - **Company grouping:** Amazon / AWS
 - **GitHub organization:** [aws](https://github.com/aws)
 - **Repository:** [aws/karpenter-provider-aws](https://github.com/aws/karpenter-provider-aws)
-- **Default branch:** default branch as shown by upstream GitHub metadata
-- **README:** [Open upstream README](https://github.com/aws/karpenter-provider-aws/blob/default/README.md)
+- **Default branch:** `main`
+- **README:** [Open upstream README](https://github.com/aws/karpenter-provider-aws/blob/main/README.md)
 - **Review status:** README inspected and summarized
 - **README blob SHA:** `3e22dc31bf1df204bf7d8c8e776c24bc1befbbb8`
 

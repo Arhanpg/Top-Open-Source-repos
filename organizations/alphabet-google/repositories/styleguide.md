@@ -3,8 +3,8 @@
 - **Company grouping:** Alphabet / Google
 - **GitHub organization:** [google](https://github.com/google)
 - **Repository:** [google/styleguide](https://github.com/google/styleguide)
-- **Default branch:** master/main (verify from repository metadata)
-- **README:** [Open upstream README](https://github.com/google/styleguide/blob/master/README.md)
+- **Default branch:** `gh-pages`
+- **README:** [Open upstream README](https://github.com/google/styleguide/blob/gh-pages/README.md)
 - **Review status:** README inspected and summarized
 - **README blob SHA:** `c39b63b42d0f77f0f2754b87bcbfd7bf77a51e66`
 
