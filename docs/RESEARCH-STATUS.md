@@ -1,5 +1,6 @@
 # Research status definitions
 
+- **Official-project-linked** — a company-controlled open-source hub links to a project in this account. This records an official project association, but not blanket account ownership or authorship of every repository.
 - **Official-directory-listed** — the account is explicitly named in a company-controlled open-source directory. This supports an official project/community relationship, but does not automatically prove legal ownership of the entire account or authorship of every repository.
 - Mapping unverified — the GitHub account is a research lead and has not been corroborated by a company-controlled source.
 - Metadata only — repository metadata is recorded, but the README and other evidence have not been captured.

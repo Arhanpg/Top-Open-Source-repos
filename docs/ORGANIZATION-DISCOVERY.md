@@ -54,3 +54,18 @@ The official [Open Source at AWS](https://aws.github.io/) site lists 30 GitHub o
 The catalogue records the 29 additional logins with the distinct mapping status `official-directory-listed`. The source is a company-controlled open-source directory, which supports a documented AWS open-source relationship; it does not establish legal ownership of every account or authorship of every repository inside it.
 
 See [Amazon/AWS account discovery](../organizations/amazon/ACCOUNT-DISCOVERY.md) for the complete list, sample public repositories used for account-level discovery checks, and attribution rules.
+
+
+## NVIDIA official open-source project accounts — 24 November 2026
+
+NVIDIA's official [Open Source at NVIDIA hub](https://opensource.nvidia.com/llm-info/) links project repositories across several GitHub accounts. Its project table distinguishes NVIDIA-originated project links from upstream community contributions (marked with an asterisk). The catalogue adds five separate project-linked accounts whose entries are not marked as third-party upstream contributions:
+
+| GitHub account | Example linked project | Public repository check |
+|---|---|---|
+| [NVIDIA-ISAAC-ROS](https://github.com/NVIDIA-ISAAC-ROS) | [isaac_ros_visual_slam](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam) | GitHub repository search returned public results |
+| [nvidia-cosmos](https://github.com/nvidia-cosmos) | [cosmos-predict2.5](https://github.com/nvidia-cosmos/cosmos-predict2.5) | GitHub repository search returned public results |
+| [rapidsai](https://github.com/rapidsai) | [cugraph](https://github.com/rapidsai/cugraph) | GitHub repository search returned public results |
+| [ai-dynamo](https://github.com/ai-dynamo) | [dynamo](https://github.com/ai-dynamo/dynamo) | GitHub repository search returned public results |
+| [triton-inference-server](https://github.com/triton-inference-server) | [server](https://github.com/triton-inference-server/server) | GitHub repository search returned public results |
+
+These mappings use `official-project-linked`, not `verified` or `official-directory-listed`. NVIDIA's hub provides an official project link but does not claim legal ownership of every repository in each account. Accounts named in the hub as upstream community contributors (for example, PyTorch, vLLM, SGLang, Linux, Kubernetes and Pixar/OpenUSD) are intentionally not attributed to NVIDIA as company repositories.

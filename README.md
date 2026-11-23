@@ -184,3 +184,8 @@ The first live GitHub Actions run completed pagination for 34 configured account
 ## Inventory progress dashboard
 
 The first live scan enumerated 25,965 public repository records across 34 configured accounts. [Open the detailed inventory and evidence progress dashboard](docs/INVENTORY-PROGRESS-2026-11-23.md) for per-account counts, README capture coverage, manifest evidence and pending work. The figures distinguish repository pagination from README interpretation.
+
+
+## NVIDIA project-account expansion — 24 November 2026
+
+The [official Open Source at NVIDIA hub](https://opensource.nvidia.com/llm-info/) links five additional GitHub project accounts beyond the primary `NVIDIA` organization. They are mapped as `official-project-linked` to distinguish project association from blanket legal ownership. See [NVIDIA account discovery](organizations/nvidia/ACCOUNT-DISCOVERY.md). The inventory-eligible account mapping now contains 39 accounts: five primary verified, 29 AWS directory-listed and five NVIDIA project-linked.

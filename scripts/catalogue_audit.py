@@ -501,7 +501,7 @@ def export(state: dict[str,Any], company_dir: Path, account_dir: Path):
 def is_collectable_mapping(status: str) -> bool:
     """Return true for directly verified or official-directory-listed accounts."""
     return (status or "").strip().casefold() in {
-        "verified", "official", "confirmed", "official-directory-listed"
+        "verified", "official", "confirmed", "official-directory-listed", "official-project-linked"
     }
 
 def run_account(row: dict[str,str], args, token: str | None) -> bool:

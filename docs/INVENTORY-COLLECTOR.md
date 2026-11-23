@@ -7,7 +7,7 @@ The canonical collector is scripts/catalogue_audit.py. It uses only the Python 3
 - Python 3.11 or newer.
 - A GitHub token in GITHUB_TOKEN (recommended for authenticated API limits).
 - A company/account row in config/company_accounts.csv.
-- A verified or official-directory-listed mapping status for normal scheduled collection. Name-based candidate mappings are skipped unless explicitly included.
+- A verified, official-directory-listed or official-project-linked mapping status for normal scheduled collection. Name-based candidate mappings are skipped unless explicitly included.
 
 ## Quick start
 
@@ -135,3 +135,8 @@ The collector treats `official-directory-listed` as an inventory-eligible mappin
 ## Empty and source-less repositories
 
 GitHub can return HTTP 409 with the message `Git Repository is empty` when a public repository exists but has no commit/tree. The collector records manifest evidence as `unavailable` with an explicit reason; this is a terminal repository state, not a transient API failure. Other HTTP 409 responses remain errors and are surfaced for review.
+
+
+## Official-project-linked mappings
+
+An account may be linked as a named project from a company-controlled open-source hub without being described as a wholly owned company organization. Such rows use the status `official-project-linked`, remain eligible for public inventory, and preserve the source-specific attribution caveat. The current NVIDIA examples are documented in [NVIDIA Account Discovery](../organizations/nvidia/ACCOUNT-DISCOVERY.md).

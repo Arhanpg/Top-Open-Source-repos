@@ -1,9 +1,9 @@
 # NVIDIA — open-source organization profile
 
 - **GitHub account:** [NVIDIA](https://github.com/NVIDIA)
-- **Company mapping:** candidate account; project-specific NVIDIA organizations and related research groups may exist.
+- **Company mapping:** the primary NVIDIA organization is directly verified; NVIDIA's official open-source hub also links separate project accounts documented in [Account Discovery](ACCOUNT-DISCOVERY.md).
 - **Source group:** United States & Global
-- **Directory status:** initialized; public repository inventory not exhaustive
+- **Directory status:** primary account initialized; five additional official project-linked accounts are separately mapped; company-wide inventory remains incomplete
 - **Detailed README records:** 8
 
 ## Reviewed projects
@@ -50,3 +50,10 @@ Five additional NVIDIA project briefs have been added: Linux Open GPU Kernel Mod
 ## Continued README review — 23 November 2026
 
 1 additional README-reviewed project brief has been added to this account folder. See [the repository index](repositories/README.md). The account's complete public repository inventory and related company organizations still require full discovery and pagination.
+
+
+## Additional official project accounts
+
+NVIDIA's official [Open Source at NVIDIA hub](https://opensource.nvidia.com/llm-info/) links project accounts for Isaac ROS, Cosmos, RAPIDS, Dynamo and Triton Inference Server. The catalogue inventories these accounts separately with the `official-project-linked` status. This records a direct project link without asserting that NVIDIA legally owns every account or authored every repository within it.
+
+See [NVIDIA Account Discovery](ACCOUNT-DISCOVERY.md) for the evidence table, representative repositories and attribution rules.
