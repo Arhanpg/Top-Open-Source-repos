@@ -101,3 +101,16 @@ The five starting account folders now contain **46 detailed README-based project
 - **NVIDIA Container Toolkit:** README documents the maintained toolkit as the supported path for GPU-accelerated containers and the replacement for nvidia-docker.
 
 These additions increase README documentation coverage, but do not change the inventory status: the 500 first-page search results are still discovery candidates, not complete repository inventories.
+
+
+## NVIDIA project-linked account README review — 24 November 2026
+
+Five additional upstream README reviews were completed for project accounts linked from NVIDIA's official open-source hub:
+
+- [Isaac ROS Visual SLAM](../organizations/nvidia/repositories/isaac-ros-visual-slam.md) — GPU-accelerated ROS 2 visual localization and mapping.
+- [Cosmos-Predict2.5](../organizations/nvidia/repositories/cosmos-predict2-5.md) — world-state video prediction; README says limited maintenance and directs users to Cosmos 3.
+- [cuGraph](../organizations/nvidia/repositories/cugraph.md) — GPU-accelerated graph analytics within RAPIDS.
+- [Dynamo](../organizations/nvidia/repositories/dynamo.md) — datacenter-scale distributed inference orchestration.
+- [Triton Inference Server](../organizations/nvidia/repositories/triton-inference-server.md) — multi-framework inference serving.
+
+The NVIDIA company folder now has 13 README-based project briefs, including the original and additional selected repositories. These are manually interpreted project summaries; they do not represent every repository in the 6 mapped NVIDIA-related accounts.

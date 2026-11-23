@@ -4,7 +4,7 @@
 - **Company mapping:** the primary NVIDIA organization is directly verified; NVIDIA's official open-source hub also links separate project accounts documented in [Account Discovery](ACCOUNT-DISCOVERY.md).
 - **Source group:** United States & Global
 - **Directory status:** primary account initialized; five additional official project-linked accounts are separately mapped; company-wide inventory remains incomplete
-- **Detailed README records:** 8
+- **Detailed README records:** 13
 
 ## Reviewed projects
 
@@ -57,3 +57,8 @@ Five additional NVIDIA project briefs have been added: Linux Open GPU Kernel Mod
 NVIDIA's official [Open Source at NVIDIA hub](https://opensource.nvidia.com/llm-info/) links project accounts for Isaac ROS, Cosmos, RAPIDS, Dynamo and Triton Inference Server. The catalogue inventories these accounts separately with the `official-project-linked` status. This records a direct project link without asserting that NVIDIA legally owns every account or authored every repository within it.
 
 See [NVIDIA Account Discovery](ACCOUNT-DISCOVERY.md) for the evidence table, representative repositories and attribution rules.
+
+
+## Additional README-reviewed projects — 24 November 2026
+
+Five additional NVIDIA project pages have been reviewed from the newly discovered official project-linked accounts: Isaac ROS Visual SLAM, Cosmos-Predict2.5, cuGraph, Dynamo and Triton Inference Server. The entries include explicit lifecycle and licensing distinctions, especially the Cosmos-Predict2.5 limited-maintenance notice and the separate source/model licences. See the [repository index](repositories/README.md) and [account discovery register](ACCOUNT-DISCOVERY.md).
