@@ -3,7 +3,7 @@
 - **Source group(s):** united-states-global, europe
 - **Verified primary GitHub account:** [SAP](https://github.com/SAP)
 - **Account mapping:** verified
-- **Detailed README records:** 3
+- **Detailed README records:** 5
 - **Repository inventory status:** Not yet exhaustively enumerated
 - **README audit status:** Individual project records are linked below; projects without a detailed record remain unaudited.
 
@@ -34,3 +34,8 @@ These accounts are kept as independent inventories. Their appearance in SAP's ve
 ## README-reviewed projects — 24 November 2026
 
 Three project dossiers are now available: Kyma, OpenUI5 and Elektra. They document a modular Kubernetes application platform, an Apache-2.0 enterprise web UI framework, and an SAP-specific OpenStack dashboard. These three records do not make SAP's wider 11-account repository inventory complete.
+
+
+## Additional README-reviewed SAP repositories — 24 November 2026
+
+Two further project records have been added: ABAP Cheat Sheets (ABAP learning material and executable examples) and SAPUI5 Documentation Source (Markdown source feeding the official Demo Kit). The SAP folder now contains five manually interpreted README-based project briefs.

@@ -153,3 +153,8 @@ The current mapping has 206 CSV rows, with 64 eligible accounts: 9 directly veri
 The manually interpreted project-dossier count is 66 across nine company folders: Microsoft 18, Google 8, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 3 and Siemens 2. This replaces the earlier interim 61-dossier figure.
 
 The 25,965 repository count and 286/30/314/25,649 evidence metrics above remain the historical first-run snapshot for the original 34 accounts only.
+
+
+## Manual project documentation amendment — 24 November 2026
+
+The selected README-based technical catalogue now contains **68 manually interpreted dossiers** across nine companies: Microsoft 18, Google 8, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 5 and Siemens 2. This is distinct from the automated evidence capture statistics from the historical 34-account inventory scan.

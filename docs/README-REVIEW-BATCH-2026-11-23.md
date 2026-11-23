@@ -192,3 +192,13 @@ This section supersedes the earlier interim totals in the historical batch repor
 | **Total** | **66** |
 
 The current mapping file contains 206 account rows, of which 64 are inventory-eligible (9 directly verified, 39 official-directory-listed and 16 official-project-linked). The first live repository inventory remains a historical baseline of 25,965 repositories across 34 accounts; it must not be treated as the current total for all 64 eligible accounts.
+
+
+## Further SAP README reviews — 24 November 2026
+
+Two additional README-based technical records were added:
+
+- [ABAP Cheat Sheets](../organizations/sap/repositories/abap-cheat-sheets.md) — syntax reference and executable learning examples for ABAP Cloud and classic ABAP release branches.
+- [SAPUI5 Documentation Source](../organizations/sap/repositories/sapui5-docs.md) — Markdown source repository whose accepted contributions flow into the official SAPUI5 Demo Kit.
+
+The curated catalogue now contains **68 manually interpreted README-based project briefs**: Microsoft 18, Google 8, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 5 and Siemens 2.

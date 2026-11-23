@@ -252,3 +252,8 @@ Five new detailed project dossiers now cover [Kyma](organizations/sap/repositori
 ## Current verified project and account totals — 24 November 2026
 
 The manually interpreted catalogue now contains **66 README-based project dossiers** across nine companies. The mapping contains **206 rows**, with **64 inventory-eligible accounts** (9 verified, 39 official-directory-listed and 16 official-project-linked). The historical live inventory baseline remains 25,965 public repositories across the original 34 accounts; added accounts need their own committed pagination before a revised total is reported.
+
+
+## Further SAP technical documentation — 24 November 2026
+
+The SAP folder now includes [ABAP Cheat Sheets](organizations/sap/repositories/abap-cheat-sheets.md) and [SAPUI5 Documentation Source](organizations/sap/repositories/sapui5-docs.md). These bring the manually interpreted project dossier total to **68** across nine company folders.

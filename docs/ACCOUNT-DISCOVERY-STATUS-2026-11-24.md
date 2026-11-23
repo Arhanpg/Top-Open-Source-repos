@@ -95,3 +95,8 @@ The current CSV has 206 data rows and 64 inventory-eligible accounts:
 The curated technical catalogue contains 66 manually interpreted README-based project dossiers across nine company folders: Microsoft 18, Google 8, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 3 and Siemens 2.
 
 The first live repository pagination snapshot is still 25,965 metadata rows across the original 34 accounts. Subsequent account additions are excluded from that historical total until their own pagination checkpoints have been committed.
+
+
+## Manual README review update — 24 November 2026
+
+Two more SAP project READMEs have been interpreted: ABAP Cheat Sheets and SAPUI5 Documentation Source. The manually interpreted dossier total is now **68**, across Microsoft 18, Google 8, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 5 and Siemens 2. Account mapping remains 206 rows / 64 inventory-eligible accounts; no repository count is inferred from manual review work.

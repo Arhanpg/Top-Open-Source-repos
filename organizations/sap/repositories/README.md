@@ -38,3 +38,11 @@ A repository search confirmed public results for each account. The examples are 
 ## README-reviewed repositories — 24 November 2026
 
 Three additional detailed project briefs have been added from direct README inspection: Kyma, OpenUI5 and Elektra. These projects come from three separate SAP-linked organizations; each page preserves its account ownership and project scope.
+
+
+## Additional README-reviewed SAP repositories — 24 November 2026
+
+| Repository dossier | Upstream repository | Purpose | Review |
+|---|---|---|---|
+| [ABAP Cheat Sheets](abap-cheat-sheets.md) | [SAP-samples/abap-cheat-sheets](https://github.com/SAP-samples/abap-cheat-sheets) | A structured collection of ABAP language cheat sheets and executable demo classes. The README says its main branch focuses on ABAP for Cloud Development and is intended for the SAP Business AI Platform ABAP environment, while separate branches contain examples for classic ABAP releases. | README reviewed |
+| [SAPUI5 Documentation Source](sapui5-docs.md) | [SAP-docs/sapui5](https://github.com/SAP-docs/sapui5) | The source repository for the Markdown documentation that feeds the official SAPUI5 Demo Kit. It allows developers and users to propose fixes and improvements to SAPUI5 documentation directly in GitHub. | README reviewed |
