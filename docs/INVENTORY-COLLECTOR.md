@@ -113,3 +113,15 @@ Direct pushes must be allowed by the repository's branch rules and the workflow'
 At the time this guide was updated, only five primary starting accounts in the mapping CSV were marked verified: Microsoft, Google, Apple, NVIDIA and AWS. Other mappings remain research candidates until corroborated by official company sources. The collector inventories only the configured GitHub account; it does not discover every secondary organization automatically.
 
 README evidence capture is not a completed architecture, security, dependency-vulnerability or performance audit. The separate project dossiers in the curated company folders remain manually interpreted records.
+
+
+## Offline tests
+
+Run the standard-library unit tests before a large scan:
+
+~~~bash
+python -m py_compile scripts/catalogue_audit.py scripts/audit_org_repos.py
+python -m unittest discover -s tests -v
+~~~
+
+The suite checks dependency-name parsing for common manifest formats, automatic organization account resolution, page-cap checkpoint/resume behaviour, an interrupted scheduled refresh and empty organization handling. These tests use mocked GitHub responses and do not make live API calls.

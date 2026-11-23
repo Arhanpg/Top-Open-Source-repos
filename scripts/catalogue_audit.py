@@ -5,7 +5,7 @@ Tracked per-account inventory.json files are the checkpoints. Automated
 captures are never labelled as manually README-reviewed.
 """
 from __future__ import annotations
-import argparse, base64, csv, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
+import argparse, base64, csv, json, os, re, sys, time, tomllib, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -192,6 +192,18 @@ MANIFESTS={"package.json","pyproject.toml","pom.xml","cargo.toml","go.mod","requ
            "build.gradle.kts","cmakelists.txt","dockerfile","composer.json","gemfile","pipfile","setup.py","makefile","chart.yaml"}
 MAX_MANIFEST_BYTES = 256_000
 
+def _add_pep508_hint(spec: Any, output: set[str]) -> None:
+    if isinstance(spec, str):
+        match = re.match(r"^\\s*([A-Za-z0-9_.-]+)", spec)
+        if match:
+            output.add(match.group(1))
+
+def _add_toml_dependency_table(table: Any, output: set[str]) -> None:
+    if isinstance(table, dict):
+        for package_name in table:
+            if str(package_name).casefold() != "python":
+                output.add(str(package_name))
+
 def parse_manifest_hints(path: str, content: str) -> list[str]:
     """Extract conservative dependency-name clues; filenames alone are not proof."""
     basename = path.rsplit("/", 1)[-1].casefold()
@@ -208,46 +220,40 @@ def parse_manifest_hints(path: str, content: str) -> list[str]:
             line = line.strip()
             if not line or line.startswith(("#", "[", "-")):
                 continue
-            candidate = re.split(r"[<=>~!;\s\[]", line)[0]
+            candidate = re.split(r"[<=>~!;\\s\\[]", line)[0]
             if re.fullmatch(r"[A-Za-z0-9_.-]+", candidate):
                 hints.add(candidate)
     elif basename == "go.mod":
-        hints.update(re.findall(r"^\s*(?:require\s+)?([A-Za-z0-9._/-]+)\s+v[0-9][^\s]*", content, re.MULTILINE))
-    elif basename == "cargo.toml":
-        in_dependencies = False
-        for line in content.splitlines():
-            stripped = line.strip()
-            if stripped.startswith("["):
-                in_dependencies = stripped.startswith("[dependencies]") or stripped.startswith("[dev-dependencies]") or stripped.startswith("[build-dependencies]")
-            elif in_dependencies:
-                match = re.match(r"^([A-Za-z0-9_-]+)\s*=", stripped)
-                if match:
-                    hints.add(match.group(1))
+        hints.update(re.findall(r"^\\s*(?:require\\s+)?([A-Za-z0-9._/-]+)\\s+v[0-9][^\\s]*", content, re.MULTILINE))
+    elif basename in {"cargo.toml", "pyproject.toml"}:
+        try:
+            data = tomllib.loads(content)
+        except tomllib.TOMLDecodeError:
+            data = {}
+        if basename == "cargo.toml":
+            for section in ("dependencies", "dev-dependencies", "build-dependencies"):
+                _add_toml_dependency_table(data.get(section), hints)
+        else:
+            project = data.get("project", {}) if isinstance(data, dict) else {}
+            if isinstance(project, dict):
+                for spec in project.get("dependencies", []) or []:
+                    _add_pep508_hint(spec, hints)
+                optional = project.get("optional-dependencies", {}) or {}
+                if isinstance(optional, dict):
+                    for group_specs in optional.values():
+                        for spec in group_specs or []:
+                            _add_pep508_hint(spec, hints)
+            poetry = (data.get("tool", {}) or {}).get("poetry", {}) if isinstance(data, dict) else {}
+            if isinstance(poetry, dict):
+                _add_toml_dependency_table(poetry.get("dependencies"), hints)
+                _add_toml_dependency_table(poetry.get("dev-dependencies"), hints)
+                groups = poetry.get("group", {}) or {}
+                if isinstance(groups, dict):
+                    for group_data in groups.values():
+                        if isinstance(group_data, dict):
+                            _add_toml_dependency_table(group_data.get("dependencies"), hints)
     elif basename == "pom.xml":
-        hints.update(re.findall(r"<artifactId>\s*([^<]+)\s*</artifactId>", content))
-    elif basename == "pyproject.toml":
-        in_dependency_section = False
-        in_dependency_array = False
-        for line in content.splitlines():
-            stripped = line.strip().strip(",")
-            if stripped.startswith("["):
-                section = stripped.casefold()
-                in_dependency_section = "dependencies" in section
-                in_dependency_array = False
-                continue
-            if re.match(r"(?:dependencies|optional-dependencies)\s*=\s*\[", stripped):
-                in_dependency_section = True
-                in_dependency_array = True
-            if in_dependency_section:
-                match = re.search(r"""["']([A-Za-z0-9_.-]+)(?:[<=>~!;\[].*)?["']""", stripped)
-                if match:
-                    hints.add(match.group(1))
-                if not in_dependency_array:
-                    key = stripped.split("=", 1)[0].strip()
-                    if re.fullmatch(r"[A-Za-z0-9_.-]+", key):
-                        hints.add(key)
-            if in_dependency_array and "]" in stripped:
-                in_dependency_array = False
+        hints.update(re.findall(r"<artifactId>\\s*([^<]+)\\s*</artifactId>", content))
     elif basename == "composer.json":
         try:
             data = json.loads(content)

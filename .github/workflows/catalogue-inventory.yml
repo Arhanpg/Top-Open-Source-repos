@@ -48,6 +48,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Validate collector and run offline unit tests
+        run: |
+          python -m py_compile scripts/catalogue_audit.py scripts/audit_org_repos.py
+          python -m unittest discover -s tests -v
+
       - name: Inventory accounts and capture README evidence
         id: scan
         continue-on-error: true

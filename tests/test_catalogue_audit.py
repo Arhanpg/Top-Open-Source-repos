@@ -1,0 +1,219 @@
+"""Offline unit tests for the resumable public GitHub catalogue collector."""
+from __future__ import annotations
+
+import json
+import sys
+import tempfile
+import unittest
+from pathlib import Path
+from urllib.parse import parse_qs, urlparse
+from unittest.mock import patch
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
+import catalogue_audit as audit
+
+
+def repository(index: int) -> dict:
+    return {
+        "id": index,
+        "name": f"repo-{index}",
+        "full_name": f"Example/repo-{index}",
+        "html_url": f"https://github.com/Example/repo-{index}",
+        "description": "Example public repository",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": False,
+        "fork": False,
+        "disabled": False,
+        "is_template": False,
+        "license": {"spdx_id": "MIT"},
+        "created_at": "2020-01-01T00:00:00Z",
+        "updated_at": "2026-01-01T00:00:00Z",
+        "pushed_at": "2026-01-02T00:00:00Z",
+        "stargazers_count": 10,
+        "forks_count": 2,
+        "open_issues_count": 0,
+        "topics": ["example"],
+    }
+
+
+class ManifestParserTests(unittest.TestCase):
+    def test_package_json(self):
+        manifest = json.dumps({
+            "dependencies": {"requests": "^2", "zod": "^3"},
+            "devDependencies": {"pytest": "^8"},
+        })
+        self.assertEqual(
+            audit.parse_manifest_hints("package.json", manifest),
+            ["pytest", "requests", "zod"],
+        )
+
+    def test_requirements_txt(self):
+        manifest = "requests>=2.31\nnumpy==2.0\n# comment\n"
+        self.assertEqual(
+            audit.parse_manifest_hints("requirements.txt", manifest),
+            ["numpy", "requests"],
+        )
+
+    def test_go_mod(self):
+        manifest = """module example.com/app
+
+go 1.23
+
+require (
+    github.com/google/uuid v1.6.0
+    golang.org/x/sys v0.28.0
+)
+"""
+        self.assertEqual(
+            audit.parse_manifest_hints("go.mod", manifest),
+            ["github.com/google/uuid", "golang.org/x/sys"],
+        )
+
+    def test_cargo_toml(self):
+        manifest = """[package]
+name = "demo"
+
+[dependencies]
+serde = "1.0"
+tokio = { version = "1", features = ["full"] }
+
+[dev-dependencies]
+criterion = "0.5"
+"""
+        self.assertEqual(
+            audit.parse_manifest_hints("Cargo.toml", manifest),
+            ["criterion", "serde", "tokio"],
+        )
+
+    def test_pyproject_toml_pep621_and_optional_groups(self):
+        manifest = """[project]
+name = "demo"
+dependencies = [
+    "requests>=2.31",
+    "numpy~=2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+"""
+        self.assertEqual(
+            audit.parse_manifest_hints("pyproject.toml", manifest),
+            ["numpy", "pytest", "requests"],
+        )
+
+    def test_pyproject_toml_poetry_groups(self):
+        manifest = """[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.9"
+"""
+        self.assertEqual(
+            audit.parse_manifest_hints("pyproject.toml", manifest),
+            ["fastapi", "ruff"],
+        )
+
+    def test_composer_json(self):
+        manifest = json.dumps({
+            "require": {"php": "^8.2", "guzzlehttp/guzzle": "^7"},
+            "require-dev": {"phpunit/phpunit": "^11"},
+        })
+        self.assertEqual(
+            audit.parse_manifest_hints("composer.json", manifest),
+            ["guzzlehttp/guzzle", "phpunit/phpunit"],
+        )
+
+
+class InventoryTests(unittest.TestCase):
+    def test_auto_account_type_resolves_organization(self):
+        with patch.object(audit, "api_get", return_value=({"type": "Organization"}, {})):
+            self.assertEqual(audit.resolve_type("Example", "auto", None), "org")
+
+    def test_page_cap_checkpoints_and_resume_reaches_final_page(self):
+        calls: list[int] = []
+        first_page = [repository(i) for i in range(1, 101)]
+        second_page = [repository(101)]
+
+        def fake_api(url: str, token: str | None, retries: int = 6):
+            page = int(parse_qs(urlparse(url).query)["page"][0])
+            calls.append(page)
+            headers = {}
+            if page == 1:
+                headers["link"] = (
+                    f'<{audit.API}/orgs/Example/repos?per_page=100&page=2>; rel="next"'
+                )
+                return first_page, headers
+            return second_page, headers
+
+        with tempfile.TemporaryDirectory() as temp:
+            company_dir = Path(temp) / "example"
+            with patch.object(audit, "api_get", side_effect=fake_api):
+                capped = audit.inventory(
+                    "Example", "org", "Example Company", company_dir,
+                    "verified", "tests", None, 1, 0, False,
+                )
+                self.assertFalse(capped["pagination_complete"])
+                self.assertEqual(capped["next_page"], 2)
+                self.assertEqual(len(capped["repositories"]), 100)
+
+                resumed = audit.inventory(
+                    "Example", "org", "Example Company", company_dir,
+                    "verified", "tests", None, 0, 0, False,
+                )
+                self.assertTrue(resumed["pagination_complete"])
+                self.assertIsNone(resumed["next_page"])
+                self.assertEqual(len(resumed["repositories"]), 101)
+                self.assertEqual(calls, [1, 2])
+
+    def test_interrupted_scheduled_refresh_resumes_next_page(self):
+        calls: list[int] = []
+        first_page = [repository(i) for i in range(1, 101)]
+        second_page = [repository(101)]
+
+        def fake_api(url: str, token: str | None, retries: int = 6):
+            page = int(parse_qs(urlparse(url).query)["page"][0])
+            calls.append(page)
+            headers = {}
+            if page == 1:
+                headers["link"] = (
+                    f'<{audit.API}/orgs/Example/repos?per_page=100&page=2>; rel="next"'
+                )
+                return first_page, headers
+            return second_page, headers
+
+        with tempfile.TemporaryDirectory() as temp:
+            company_dir = Path(temp) / "example"
+            with patch.object(audit, "api_get", side_effect=fake_api):
+                first = audit.inventory(
+                    "Example", "org", "Example Company", company_dir,
+                    "verified", "tests", None, 1, 0, True,
+                )
+                self.assertTrue(first["refresh_in_progress"])
+                resumed = audit.inventory(
+                    "Example", "org", "Example Company", company_dir,
+                    "verified", "tests", None, 0, 0, True,
+                )
+                self.assertTrue(resumed["pagination_complete"])
+                self.assertEqual(calls, [1, 2])
+
+    def test_empty_organization_completes(self):
+        with tempfile.TemporaryDirectory() as temp:
+            company_dir = Path(temp) / "empty"
+            with patch.object(audit, "api_get", return_value=([], {})):
+                state = audit.inventory(
+                    "EmptyOrg", "org", "Empty Company", company_dir,
+                    "verified", "tests", None, 0, 0, False,
+                )
+                self.assertTrue(state["pagination_complete"])
+                self.assertEqual(state["repositories"], {})
+                repeated = audit.inventory(
+                    "EmptyOrg", "org", "Empty Company", company_dir,
+                    "verified", "tests", None, 0, 0, False,
+                )
+                self.assertTrue(repeated["pagination_complete"])
+
+
+if __name__ == "__main__":
+    unittest.main()
