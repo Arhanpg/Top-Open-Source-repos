@@ -105,14 +105,15 @@ A README-reviewed project page is not a source-code audit, security review, depe
 
 The catalogue includes a resumable public repository inventory collector:
 
-- [Collector script](scripts/audit_org_repos.py)
+- [Canonical collector](scripts/catalogue_audit.py)
+- [Legacy compatibility entry point](scripts/audit_org_repos.py)
 - [Collector usage guide](docs/INVENTORY-COLLECTOR.md)
 - [Company account mapping CSV](config/company_accounts.csv)
 - [Repository entry schema](docs/REPOSITORY-ENTRY-SCHEMA.md)
 - [Inventory process](docs/INVENTORY-PROCESS.md)
 - [Research status definitions](docs/RESEARCH-STATUS.md)
 
-The collector uses GitHub's public repositories API with pagination, captures repository metadata and language-byte statistics, and caches README text locally for later review. It does not invent summaries or automatically claim that a downloaded README has been manually reviewed. It skips unverified company-account mappings by default.
+The canonical collector resolves account_type=auto, follows repository pagination, writes tracked per-account inventory.json checkpoints, and captures README excerpts/headings, language-byte statistics and selected manifest paths in bounded batches. Automated captures remain pending human interpretation. It skips unverified company-account mappings by default.
 
 For large organizations, run the collector in resumable batches with a GitHub token. Record the retrieval date, page count and final-page completion state. Do not label a company inventory complete merely because the first 100 results were returned.
 
@@ -138,8 +139,8 @@ When adding a new company or project, follow the shared [repository entry schema
 
 The repository now includes a resumable auditor and a scheduled GitHub Actions workflow:
 
-- [Auditor loader](scripts/catalogue_audit.py)
-- [Compressed implementation payload](scripts/catalogue_audit.py.gz.b64)
+- [Canonical collector](scripts/catalogue_audit.py)
+- [Legacy compatibility entry point](scripts/audit_org_repos.py)
 - [Scheduled/manual workflow](.github/workflows/catalogue-inventory.yml)
 - [Company/account discovery rules](docs/ORGANIZATION-DISCOVERY.md)
 - [Collector usage and resume guide](docs/INVENTORY-COLLECTOR.md)
@@ -152,7 +153,12 @@ The workflow enumerates public repositories through API pagination, then capture
 
 ## README review batch — 23 November 2026
 
-A further 22 repository dossiers have been added across Microsoft, Google, Apple, NVIDIA and AWS. See [the batch report](docs/README-REVIEW-BATCH-2026-11-23.md) for the full list and important lifecycle caveats. The five dated discovery JSON files each contain a first-page ranked search sample of up to 100 repositories. These samples are not exhaustive account inventories.
+A total of 28 additional repository dossiers have been added across Microsoft, Google, Apple, NVIDIA and AWS. See [the batch report](docs/README-REVIEW-BATCH-2026-11-23.md) for the full list and important lifecycle caveats. The five dated discovery JSON files each contain a first-page ranked search sample of up to 100 repositories. These samples are not exhaustive account inventories.
 
 
-The review continued with six additional projects, bringing the five starting account folders to 46 detailed README briefs. The continued project list and lifecycle findings are included in the [batch report](docs/README-REVIEW-BATCH-2026-11-23.md).
+The follow-on review added six further projects, bringing the five starting account folders to 46 detailed README briefs. The project list and lifecycle findings are included in the [batch report](docs/README-REVIEW-BATCH-2026-11-23.md).
+
+
+## Collector reliability update — 24 November 2026
+
+The collector now uses tracked per-account checkpoints under organizations/<company>/accounts/<login>/, so interrupted inventory pages and README enrichment can resume across fresh GitHub Actions runners. See the [reliability report](docs/COLLECTOR-RELIABILITY-UPDATE-2026-11-24.md) and revised [collector guide](docs/INVENTORY-COLLECTOR.md). The five starting account folders currently contain 46 curated README-based briefs; this is separate from the automated inventory still to be collected.

@@ -1,19 +1,26 @@
 # Inventory and README audit process
 
-1. Verify the GitHub account using a link from the company's own website, engineering blog, or official documentation. Record whether it is an organization, corporate user, foundation, product team, or community.
-2. Enumerate public repositories from the verified account using GitHub's organization/user repositories endpoint with pagination. Continue until there is no next page. Store `retrieved_at`, pages fetched, total repository count, and completion status.
-3. Keep public forks, archived repositories, templates, and mirrors in the inventory but label each clearly. Exclude nothing without documenting the filter.
-4. Retrieve the default branch README for every repository. If no README exists, record that explicitly. Never replace missing evidence with repository name guesses.
-5. Inspect relevant dependency/build manifests to confirm technologies. Capture only high-value features actually documented by the upstream project.
-6. Add each repository to the corresponding company page and machine-readable index (JSON/CSV) in a later import step. Deduplicate repositories that appear under multiple source company lists.
-7. Validate URLs, counts, README status, and company mapping before marking a company inventory complete.
-8. Re-run periodically; repository inventories change. Keep dated snapshots or a clear last-checked timestamp.
+1. Verify the GitHub account through a company-controlled website, engineering blog or official documentation. Record the exact login, account type, source URL and scope limitation.
+2. Keep every official GitHub organization or user account for a company as a separate mapping row. A primary organization is not necessarily the whole company.
+3. Enumerate public repositories using complete GitHub REST API pagination. Continue until the response contains no next-page link. Store page count, retrieval time, repository count and completion status.
+4. Preserve public forks, archived repositories, templates and mirrors, while labelling each accurately. Do not silently filter them.
+5. Retrieve README evidence for each repository. Record README-unavailable results explicitly; never infer purpose from a repository name.
+6. Capture GitHub language-byte statistics and selected build/dependency manifest paths. Do not infer frameworks from language statistics or filenames alone.
+7. Generate an individual evidence dossier and inventory row for each repository. Automated capture remains distinct from a human README review.
+8. Manually interpret the README's purpose, features, stack and limitations before assigning the README-reviewed status.
+9. Validate account ownership evidence, repository links, counts, README states and pagination before marking an account inventory complete.
+10. Re-run inventories periodically and preserve dated snapshots or a last-checked timestamp.
 
-## Scale
+## Checkpoints and scale
 
-For organisations with thousands of projects, generate the initial inventory programmatically and perform README extraction in resumable batches. Store per-repository checkpoints so API interruptions or rate limits do not restart the entire scan. Rate-limit requests and retry transient failures with backoff.
+The canonical collector writes each account's pagination state to the tracked file organizations/<company>/accounts/<login>/inventory.json after every page and each repository enrichment. This makes the process resumable across fresh GitHub Actions runners. A bounded max-pages test is never reported as complete. A completed account is not re-enumerated unless refresh-inventory is requested.
 
+For large accounts, enrich repositories in controlled batches. Keep API retry/backoff enabled, and monitor rate limits. A README capture is not the same as a completed technical interpretation.
 
-## Multi-organization completeness
+## Company-wide completeness
 
-A company can publish through several official GitHub organizations. Keep each official account as a separate row in the mapping CSV and maintain a distinct account inventory. Completing one primary account does not establish company-wide completeness. Follow [ORGANIZATION-DISCOVERY.md](ORGANIZATION-DISCOVERY.md) before marking a company's account discovery complete.
+Company-wide completeness requires both:
+- a documented discovery pass for the company's relevant official GitHub organizations/users, including product teams, cloud divisions, research groups, subsidiaries and acquired businesses; and
+- complete public-repository pagination for each verified account.
+
+Completing one account must never be presented as completing the whole company.

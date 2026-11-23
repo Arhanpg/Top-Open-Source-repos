@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       company:
-        description: "Company name or GitHub account login; blank means all verified accounts"
+        description: "Company name or GitHub account login; blank means all verified mappings"
         required: false
         type: string
       include_unverified:
-        description: "Include candidate account mappings that have not been verified"
+        description: "Include unverified candidate mappings (research leads only)"
         required: false
         default: false
         type: boolean
@@ -17,6 +17,11 @@ on:
         required: false
         default: 50
         type: number
+      refresh_inventory:
+        description: "Re-enumerate every public repository page from page one"
+        required: false
+        default: false
+        type: boolean
   schedule:
     - cron: "23 2 * * *"
 
@@ -51,14 +56,19 @@ jobs:
           COMPANY: ${{ inputs.company || '' }}
           INCLUDE_UNVERIFIED: ${{ inputs.include_unverified }}
           ENRICH_LIMIT: ${{ inputs.enrich_limit }}
+          REFRESH_INVENTORY: ${{ inputs.refresh_inventory }}
         run: |
           if [ -z "$ENRICH_LIMIT" ]; then ENRICH_LIMIT=50; fi
           args=(--phase all --mapping config/company_accounts.csv --enrich-limit "$ENRICH_LIMIT" --manifest-limit 6 --delay 0.2)
           if [ -n "$COMPANY" ]; then args+=(--company "$COMPANY"); fi
           if [ "$INCLUDE_UNVERIFIED" = "true" ]; then args+=(--include-unverified); fi
+          # Scheduled runs refresh inventory from page one. Manual runs do so only when requested.
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] || [ "$REFRESH_INVENTORY" = "true" ]; then
+            args+=(--refresh-inventory)
+          fi
           python scripts/catalogue_audit.py "${args[@]}"
 
-      - name: Commit generated catalogue directly to main
+      - name: Commit checkpoints and generated evidence directly to main
         if: always()
         run: |
           git config user.name "github-actions[bot]"
@@ -68,11 +78,12 @@ jobs:
             echo "No generated catalogue changes to commit."
             exit 0
           fi
-          git commit -m "Update public repository inventory and README evidence"
+          git commit -m "Update public repository inventories and README evidence"
+          git pull --rebase origin main
           git push origin HEAD:main
 
-      - name: Surface scan failure
+      - name: Surface scan failure after committing checkpoints
         if: steps.scan.outcome == 'failure'
         run: |
-          echo "The scan encountered errors. Saved pagination/repository checkpoints remain available; rerun the workflow to resume."
+          echo "The scan encountered errors. Per-account inventory.json checkpoints were committed where possible; rerun to resume."
           exit 1
