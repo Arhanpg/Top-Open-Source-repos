@@ -225,7 +225,7 @@ MAX_MANIFEST_BYTES = 256_000
 
 def _add_pep508_hint(spec: Any, output: set[str]) -> None:
     if isinstance(spec, str):
-        match = re.match(r"^\\s*([A-Za-z0-9_.-]+)", spec)
+        match = re.match(r"^\s*([A-Za-z0-9_.-]+)", spec)
         if match:
             output.add(match.group(1))
 
@@ -251,11 +251,11 @@ def parse_manifest_hints(path: str, content: str) -> list[str]:
             line = line.strip()
             if not line or line.startswith(("#", "[", "-")):
                 continue
-            candidate = re.split(r"[<=>~!;\\s\\[]", line)[0]
+            candidate = re.split(r"[<=>~!;\s\[]", line)[0]
             if re.fullmatch(r"[A-Za-z0-9_.-]+", candidate):
                 hints.add(candidate)
     elif basename == "go.mod":
-        hints.update(re.findall(r"^\\s*(?:require\\s+)?([A-Za-z0-9._/-]+)\\s+v[0-9][^\\s]*", content, re.MULTILINE))
+        hints.update(re.findall(r"^\s*(?:require\s+)?([A-Za-z0-9._/-]+)\s+v[0-9][^\s]*", content, re.MULTILINE))
     elif basename in {"cargo.toml", "pyproject.toml"}:
         try:
             data = tomllib.loads(content)
@@ -284,7 +284,7 @@ def parse_manifest_hints(path: str, content: str) -> list[str]:
                         if isinstance(group_data, dict):
                             _add_toml_dependency_table(group_data.get("dependencies"), hints)
     elif basename == "pom.xml":
-        hints.update(re.findall(r"<artifactId>\\s*([^<]+)\\s*</artifactId>", content))
+        hints.update(re.findall(r"<artifactId>\s*([^<]+)\s*</artifactId>", content))
     elif basename == "composer.json":
         try:
             data = json.loads(content)
