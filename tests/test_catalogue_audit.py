@@ -241,6 +241,35 @@ class InventoryTests(unittest.TestCase):
                 self.assertTrue(resumed["pagination_complete"])
                 self.assertEqual(calls, [1, 2])
 
+    def test_empty_git_repository_tree_409_is_terminal_not_failure(self):
+        item = repository(1)
+        with patch.object(audit, "get_languages", return_value={}):
+            with patch.object(audit, "get_readme", return_value=None):
+                with patch.object(
+                    audit,
+                    "get_manifests",
+                    side_effect=audit.APIError(409, '{"message":"Git Repository is empty."}', {}),
+                ):
+                    result = audit.enrich(item, None, 6, False)
+        self.assertEqual(result["manifest_status"], "unavailable")
+        self.assertEqual(result["manifest_unavailable_reason"], "repository has no Git commit/tree")
+        self.assertEqual(result["audit_status"], "evidence captured; manual review pending")
+        self.assertEqual(result["capture_errors"], [])
+
+    def test_unexpected_git_tree_409_remains_a_capture_error(self):
+        item = repository(1)
+        with patch.object(audit, "get_languages", return_value={}):
+            with patch.object(audit, "get_readme", return_value=None):
+                with patch.object(
+                    audit,
+                    "get_manifests",
+                    side_effect=audit.APIError(409, '{"message":"Conflict for another reason"}', {}),
+                ):
+                    result = audit.enrich(item, None, 6, False)
+        self.assertEqual(result["manifest_status"], "error")
+        self.assertEqual(result["audit_status"], "evidence capture incomplete")
+        self.assertTrue(any("manifest tree:" in error for error in result["capture_errors"]))
+
     def test_empty_organization_completes(self):
         with tempfile.TemporaryDirectory() as temp:
             company_dir = Path(temp) / "empty"

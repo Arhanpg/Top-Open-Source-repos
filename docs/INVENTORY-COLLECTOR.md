@@ -130,3 +130,8 @@ The suite checks dependency-name parsing for common manifest formats, automatic 
 ## Official-directory-listed account eligibility
 
 The collector treats `official-directory-listed` as an inventory-eligible mapping status. This is separate from direct ownership verification and should remain visible in the account dossier. The AWS list is sourced from the official [Open Source at AWS](https://aws.github.io/) website. The exact handles and relationship caveat are documented in [Amazon/AWS Account Discovery](../organizations/amazon/ACCOUNT-DISCOVERY.md).
+
+
+## Empty and source-less repositories
+
+GitHub can return HTTP 409 with the message `Git Repository is empty` when a public repository exists but has no commit/tree. The collector records manifest evidence as `unavailable` with an explicit reason; this is a terminal repository state, not a transient API failure. Other HTTP 409 responses remain errors and are surfaced for review.

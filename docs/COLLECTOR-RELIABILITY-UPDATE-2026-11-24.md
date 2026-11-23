@@ -51,3 +51,23 @@ Inventory refreshes compare the default branch and last-pushed timestamp with th
 A 13-test standard-library unittest suite is now stored at tests/test_catalogue_audit.py and is wired into the workflow before repository collection. It covers manifest dependency clues (including Python TOML and Go modules), automatic account-type resolution, pagination checkpoints/resume, interrupted scheduled refresh resumption, empty organizations and stale-evidence invalidation.
 
 The test suite has been added to the repository; this chat has not observed a GitHub Actions run executing it. The Actions runs endpoint currently returns zero runs for this repository. Therefore no live organization inventory or README-enrichment run is claimed as complete by this update. Use the Actions page to start the workflow manually or confirm the next scheduled execution.
+
+
+## Live inventory run — 23 November 2026
+
+The first automated run ([Actions run #1](https://github.com/Arhanpg/Top-Open-Source-repos/actions/runs/45248026075)) completed repository pagination and committed account checkpoints. The five primary starting accounts and the 30 AWS-directory-listed accounts all reported complete pagination.
+
+Verified inventory snapshot from the committed company-level account indexes:
+
+| Company group | Accounts | Public repository records |
+|---|---:|---:|
+| Microsoft | 1 | 8,500 |
+| Google | 1 | 2,947 |
+| Apple | 1 | 194 |
+| NVIDIA | 1 | 850 |
+| Amazon / AWS directory | 30 | 13,474 |
+| **Total** | **34** | **25,965** |
+
+The run's overall conclusion was failure because two empty repositories returned GitHub HTTP 409 during tree inspection: `aws-ia/.announcements` and `NVIDIA/ADLR`. This did not invalidate their completed public-repository pagination. The collector now classifies the exact `Git Repository is empty` response as terminal manifest unavailability, while retaining other HTTP 409 responses as errors.
+
+The first run captured README/language/manifest evidence for a bounded batch of up to 10 repositories per account. It did not manually interpret those READMEs: automated dossiers remain `manual technical interpretation pending`. Further enrichment batches are required for the remaining repositories.

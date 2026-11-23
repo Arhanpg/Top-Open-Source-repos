@@ -174,3 +174,8 @@ The Actions workflow first runs Python compilation and the offline collector tes
 The company-controlled [Open Source at AWS](https://aws.github.io/) website lists 30 GitHub organization links, including the primary `aws` account. The mapping now includes 29 additional directory-listed accounts under Amazon/AWS with explicit attribution caveats. This brings the inventory-eligible mappings to 34 accounts across five primary companies plus the AWS directory expansion; it does not make all 151 company inventories complete.
 
 See [Amazon/AWS account discovery](organizations/amazon/ACCOUNT-DISCOVERY.md) and [the organization discovery method](docs/ORGANIZATION-DISCOVERY.md).
+
+
+## First live inventory snapshot — 23 November 2026
+
+The first live GitHub Actions run completed pagination for 34 configured accounts and committed 25,965 public repository metadata records. See the [live inventory snapshot](docs/LIVE-INVENTORY-SNAPSHOT-2026-11-23.md) and [Actions run #1](https://github.com/Arhanpg/Top-Open-Source-repos/actions/runs/45248026075). This is a metadata inventory; the first README evidence batch is partial and manual technical review remains outstanding.

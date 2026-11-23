@@ -107,7 +107,7 @@ def repo_metadata(row: dict[str, Any], old: dict[str, Any] | None, scan_id: str)
     evidence_keys = (
         "readme_status", "readme_url", "readme_path", "readme_sha", "readme_excerpt", "readme_headings",
         "languages_bytes", "languages_status", "manifest_status", "manifest_paths", "manifest_truncated",
-        "enriched_at", "audit_status", "manual_review_status", "capture_errors",
+        "manifest_unavailable_reason", "enriched_at", "audit_status", "manual_review_status", "capture_errors",
     )
     if old:
         for key in evidence_keys:
@@ -349,8 +349,18 @@ def enrich(repo: dict[str,Any], token: str | None, manifest_limit: int, force: b
             repo["manifest_status"] = ("partial" if manifest_errors else "captured") if files else "none_found"
             errors.extend(f"manifest {item.get('path')}: {item.get('capture_error', 'capture failed')}" for item in manifest_errors)
         except APIError as exc:
-            if exc.status==404: repo["manifest_status"]="unavailable"
-            else: repo["manifest_status"]="error"; errors.append(f"manifest tree: {exc}")
+            message = str(exc)
+            if exc.status == 404:
+                repo["manifest_status"] = "unavailable"
+                repo["manifest_unavailable_reason"] = "GitHub returned 404 for the tree"
+            elif exc.status == 409 and "Git Repository is empty" in message:
+                # GitHub returns 409 for repositories without a commit/tree.
+                # This is a terminal state, not a transient API capture failure.
+                repo["manifest_status"] = "unavailable"
+                repo["manifest_unavailable_reason"] = "repository has no Git commit/tree"
+            else:
+                repo["manifest_status"] = "error"
+                errors.append(f"manifest tree: {exc}")
         except Exception as exc: repo["manifest_status"]="error"; errors.append(f"manifest tree: {exc}")
     repo["capture_errors"]=errors; repo["enriched_at"]=now()
     complete=(repo.get("readme_status") in {"captured","unavailable"} and repo.get("languages_status")=="captured" and repo.get("manifest_status") in {"captured","none_found","unavailable"})
@@ -508,6 +518,7 @@ def run_account(row: dict[str,str], args, token: str | None) -> bool:
         else:
             state=read_json(checkpoint,{})
             if not state: print(f"[missing checkpoint] {account}: run inventory first"); return False
+        capture_failed = False
         if args.phase in {"enrich","all"}:
             pending=[]
             for full,repo in state.get("repositories",{}).items():
@@ -519,6 +530,7 @@ def run_account(row: dict[str,str], args, token: str | None) -> bool:
             for n,(full,repo) in enumerate(selected,1):
                 print(f"[enrich] {n}/{len(selected)} {full}")
                 enrich(repo,token,args.manifest_limit,args.force_enrich)
+                capture_failed = capture_failed or repo.get("audit_status") == "evidence capture incomplete"
                 state["repositories"][full]=repo
                 write_json(checkpoint,state)
                 target=doc_path(account_dir,repo); target.parent.mkdir(parents=True,exist_ok=True)
@@ -527,10 +539,8 @@ def run_account(row: dict[str,str], args, token: str | None) -> bool:
         if args.phase in {"inventory","enrich","export","all"}:
             write_json(checkpoint,state); export(state,company_dir,account_dir)
         metric=counts(state)
-        capture_failed = args.phase in {"enrich", "all"} and any(
-            x.get("audit_status") == "evidence capture incomplete"
-            for x in state.get("repositories", {}).values()
-        )
+        # Only failures encountered in this enrichment batch fail this run.
+        # Earlier errors in repositories not selected this time are retried later.
         print(f"[done] {company}/{account}: {metric['total']} repos; pagination_complete={state.get('pagination_complete')}; README captured={metric['readme_captured']}; manual reviews={metric['manual_readme_reviewed']}")
         return not capture_failed
     except Exception as exc:
