@@ -1,0 +1,39 @@
+# SAP / cap-js — repository inventory
+
+- Pagination complete: True
+- Pages in latest scan: 1
+- Repository records: 31
+
+| Repository | Description | Stars | Languages | Archived | Fork | In latest scan | README state | Dossier |
+|---|---|---:|---|---:|---:|---|---|---|
+| [cap-js/.github](https://github.com/cap-js/.github) | Default community health files for the CAP-js organization | 0 | Pending | False | False | True | captured | [Open](repositories/github-565835524.md) |
+| [cap-js/advanced-event-mesh](https://github.com/cap-js/advanced-event-mesh) | CDS plugin providing integration with SAP Integration Suite, advanced event mesh. | 8 | CAP CDS, JavaScript | False | False | True | captured | [Open](repositories/advanced-event-mesh-930549503.md) |
+| [cap-js/agents](https://github.com/cap-js/agents) | CAP plugin to build agents | 20 | CAP CDS, HTML, Java, JavaScript | False | False | True | captured | [Open](repositories/agents-1311097438.md) |
+| [cap-js/ai](https://github.com/cap-js/ai) | A CDS plugin that provides out-of-the box AI features, like recommendations in value helps leveraging SAP-RPT-1 and simplifying the SAP AI Core integration. | 32 | CAP CDS, HTML, JavaScript | False | False | True | captured | [Open](repositories/ai-1155389997.md) |
+| [cap-js/asyncapi](https://github.com/cap-js/asyncapi) | Async API exporter | 2 | CAP CDS, JavaScript | False | False | True | captured | [Open](repositories/asyncapi-752922543.md) |
+| [cap-js/attachments](https://github.com/cap-js/attachments) | The @cap-js/attachments package is a CDS plugin that provides out-of-the box asset storage and handling by using an aspect Attachments. It also provides a CAP-level, easy to use integration of the SAP Object Store. | 36 | CAP CDS, HTML, JavaScript | False | False | True | captured | [Open](repositories/attachments-678309412.md) |
+| [cap-js/audit-logging](https://github.com/cap-js/audit-logging) | CDS plugin providing integration to the SAP Audit Log service as well as out-of-the-box personal data-related audit logging based on annotations. | 15 | CAP CDS, JavaScript | False | False | True | captured | [Open](repositories/audit-logging-653013549.md) |
+| [cap-js/cap-operator-plugin](https://github.com/cap-js/cap-operator-plugin) | The CAP Operator Plugin offers a simple method for generating CAP Operator resources, which are essential for deploying multi-tenant CAP Applications. | 4 | Go, Go Template, Handlebars, JavaScript | False | False | True | captured | [Open](repositories/cap-operator-plugin-762314628.md) |
+| [cap-js/cds-dbs](https://github.com/cap-js/cds-dbs) | Monorepo for SQL Database Services for CAP | 53 | CAP CDS, Dockerfile, JavaScript, Shell, TypeScript, WebAssembly | False | False | True | captured | [Open](repositories/cds-dbs-639043217.md) |
+| [cap-js/cds-federation-synonyms](https://github.com/cap-js/cds-federation-synonyms) | CDS plugin for CAP-to-CAP Data Federation based on SAP HANA synonyms. | 4 | CAP CDS, Java, JavaScript, Shell | False | False | True | captured | [Open](repositories/cds-federation-synonyms-1285084649.md) |
+| [cap-js/cds-intellij](https://github.com/cap-js/cds-intellij) | SAP CDS Language Support for IntelliJ | 16 | Pending | False | False | True | pending | Not generated |
+| [cap-js/cds-test](https://github.com/cap-js/cds-test) | Test Support for CAP Node.js | 6 | Pending | False | False | True | pending | Not generated |
+| [cap-js/cds-ts-extension](https://github.com/cap-js/cds-ts-extension) | Plugin for the TypeScript LSP to provide CDS-relevant capabilities, such as code completion within CQL queries, and type propagation of such queries. | 0 | Pending | False | False | True | pending | Not generated |
+| [cap-js/cds-typer](https://github.com/cap-js/cds-typer) | CDS type generator for JavaScript | 42 | Pending | False | False | True | pending | Not generated |
+| [cap-js/cds-types](https://github.com/cap-js/cds-types) | Type definitions for CDS | 20 | Pending | False | False | True | pending | Not generated |
+| [cap-js/cf-setup](https://github.com/cap-js/cf-setup) | GitHub action to set up Cloud Foundry | 2 | Pending | False | False | True | pending | Not generated |
+| [cap-js/change-tracking](https://github.com/cap-js/change-tracking) | CDS plugin providing out-of-the box support for automatic capturing, storing, and viewing of the change records of modeled entities. | 43 | Pending | False | False | True | pending | Not generated |
+| [cap-js/data-inspector](https://github.com/cap-js/data-inspector) | A CDS plugin designed to help support users and developers securely inspect raw database content in both local and production environments, ensuring compliance with security standards. It supports multiple data sources—including database entities and services—providing direct, auditable access for troubleshooting and analysis. | 5 | Pending | False | False | True | pending | Not generated |
+| [cap-js/data-privacy](https://github.com/cap-js/data-privacy) | SAP Cloud Application Programing Model (CAP) plugin for integrating into the SAP BTP Data Privacy Integration service which helps implementing data privacy requirements, like data retention management to compliantly delete personal data and personal data information retrieval for when users request their personal data. | 1 | Pending | False | False | True | pending | Not generated |
+| [cap-js/event-broker](https://github.com/cap-js/event-broker) | CDS plugin providing integration with SAP Cloud Application Event Hub. | 6 | Pending | False | False | True | pending | Not generated |
+| [cap-js/graphql](https://github.com/cap-js/graphql) | CDS protocol adapter for GraphQL | 33 | Pending | False | False | True | pending | Not generated |
+| [cap-js/mcp](https://github.com/cap-js/mcp) | CAP plugin to expose services over MCP for AI agent consumption. | 22 | Pending | False | False | True | pending | Not generated |
+| [cap-js/mcp-server](https://github.com/cap-js/mcp-server) | MCP server for AI-assisted development of CAP applications | 119 | Pending | False | False | True | pending | Not generated |
+| [cap-js/n8n](https://github.com/cap-js/n8n) | Node Plugin for CAP Node Applications to trigger and interact with n8n workflows | 2 | Pending | False | False | True | pending | Not generated |
+| [cap-js/notifications](https://github.com/cap-js/notifications) | CDS Plugin that provides support for publishing business notifications in SAP Build WorkZone. | 21 | Pending | False | False | True | pending | Not generated |
+| [cap-js/openapi](https://github.com/cap-js/openapi) | CAP Library for OpenAPI | 7 | Pending | False | False | True | pending | Not generated |
+| [cap-js/ord](https://github.com/cap-js/ord) | Open Resource Discovery (ORD) is a protocol that allows applications and services to self-describe their exposed resources and capabilities. This plugin enables generation of ORD document for CAP based applications. | 5 | Pending | False | False | True | pending | Not generated |
+| [cap-js/print](https://github.com/cap-js/print) | Streamline document printing workflows with a lightweight, API-driven service. Supports cross-platform integration, queue management. | 1 | Pending | False | False | True | pending | Not generated |
+| [cap-js/process](https://github.com/cap-js/process) | CAP Plugin to interact with SAP Build Process Automation to start and manage processes. | 5 | Pending | False | False | True | pending | Not generated |
+| [cap-js/sdm](https://github.com/cap-js/sdm) | CAP Plugin for SAP Document Management service | 24 | Pending | False | False | True | pending | Not generated |
+| [cap-js/telemetry](https://github.com/cap-js/telemetry) | CDS plugin providing observability features, incl. automatic OpenTelemetry instrumentation. | 18 | Pending | False | False | True | pending | Not generated |

@@ -2347,12 +2347,77 @@
       "open_issues": 19,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 3507268,
+        "Shell": 53368,
+        "Makefile": 20418,
+        "C++": 11343
+      },
+      "readme_url": "https://github.com/apple/coreai-optimization/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a53e266cb6ca4fd3ab4799d05655e61f3c72730c",
+      "readme_excerpt": "`coreai-opt` provides implementations of popular model optimizations such as quantization, palettization (codebook-based compression), and pruning, for PyTorch models, customized for deployment on Apple Silicon via Core AI. Jump to: Getting Started · Documentation · Contributing · Support · License · Related projects Install the latest release from PyPI: pip install coreai-opt Or with uv: uv pip install coreai-opt A wheel built from the latest `main` is published to PyPI every night as `coreai-opt-nightly`. It provides the same `coreai_opt` package, so install it in place of `coreai-opt`: pip install --upgrade coreai-opt-nightly uv pip install --upgrade coreai-opt-nightly This project uses uv for",
+      "readme_headings": [
+        "Core AI Optimization",
+        "Getting started",
+        "Installation",
+        "Nightly builds",
+        "pip",
+        "uv",
+        "From source",
+        "Usage",
+        "A simple model and example input.",
+        "Apply INT8 weight-only quantization using a built-in preset.",
+        "Finalize for Core AI export.",
+        "Documentation",
+        "Contributing",
+        "Support",
+        "License",
+        "Related projects"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "200c6b08925da98e4546fa55261dfe4f600862f6",
+          "size": 20418,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "4c930eb76e2fc3ca6c8271eb1daaaed56f279dcb",
+          "size": 13205,
+          "content_status": "captured",
+          "dependency_hints": [
+            "coreai-core",
+            "coreai-torch",
+            "coremltools",
+            "flash-kmeans",
+            "ninja",
+            "numpy",
+            "packaging",
+            "pydantic",
+            "pyyaml",
+            "rich",
+            "safetensors",
+            "scikit-learn",
+            "setuptools",
+            "torch",
+            "torchao",
+            "tqdm"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:23:49+00:00"
     },
     "apple/coreai-torch": {
       "id": 1250651738,
@@ -2375,12 +2440,92 @@
       "open_issues": 41,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 3150560,
+        "Shell": 14940
+      },
+      "readme_url": "https://github.com/apple/coreai-torch/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c3181488f67eb31a14207199b2baff1c0f62f01c",
+      "readme_excerpt": "Core AI PyTorch Extensions (`coreai-torch`) is a Python package that bridges PyTorch and Core AI. Use it to bring up an existing PyTorch model into Core AI IR, or to author Core AI models directly from PyTorch by composing the built-in composite op library (`coreai_torch.composite_ops`), authoring new ops via `register_torch_lowering`, and authoring inline Metal GPU kernels via `TorchMetalKernel`. The resulting IR can be compiled and executed efficiently by the Core AI inference stack. 🔗 Jump to: Getting started · Documentation · Contributing · Support · License `coreai-torch` traverses a `torch.export.ExportedProgram` and produces Core AI IR — the same IR consumed",
+      "readme_headings": [
+        "Core AI PyTorch Extensions (coreai-torch)",
+        "Overview",
+        "Getting started",
+        "Installation",
+        "Usage",
+        "From an ExportedProgram",
+        "Export and decompose — this is your responsibility",
+        "Convert to Core AI IR — the returned program is already optimized",
+        "From an nn.Module",
+        "Documentation",
+        "Building docs locally",
+        "Development",
+        "Setting up pre-commit hooks",
+        "Running tests",
+        "Testing notebooks",
+        "Contributing",
+        "Support",
+        "Security and code of conduct",
+        "License",
+        "Related projects"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "35720222607fcfc991ad363976b9de4532a97d4a",
+          "size": 4280,
+          "content_status": "captured",
+          "dependency_hints": [
+            "coreai-core",
+            "coremltools",
+            "deptry",
+            "filecheck",
+            "ghp-import",
+            "ml-dtypes",
+            "mlx",
+            "mlx_lm",
+            "myst-nb",
+            "nbmake",
+            "nbstripout",
+            "nest-asyncio",
+            "networkx",
+            "numpy",
+            "packaging",
+            "pillow",
+            "pre-commit",
+            "pytest",
+            "pytest-asyncio",
+            "pytest-randomly",
+            "pytest-rerunfailures",
+            "pytest-sugar",
+            "pytest-xdist",
+            "rich",
+            "ruff",
+            "scipy",
+            "shibuya",
+            "sphinx",
+            "sphinx-llm",
+            "strenum",
+            "sympy",
+            "torch",
+            "torchaudio",
+            "torchvision",
+            "transformers",
+            "typing-extensions"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:23:51+00:00"
     },
     "apple/corecrypto": {
       "id": 1246797971,
@@ -2403,12 +2548,46 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 66552656,
+        "Pawn": 9791389,
+        "C": 8038054,
+        "Isabelle": 5163184,
+        "Assembly": 1268933,
+        "Standard ML": 167679,
+        "Python": 36782,
+        "Objective-C": 23543,
+        "Shell": 18908,
+        "CMake": 14497,
+        "Perl": 11604,
+        "TeX": 9930,
+        "Roff": 3309,
+        "OCaml": 1272
+      },
+      "readme_url": "https://github.com/apple/corecrypto/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "89f8804551b51341836318208c87ba8bb1c9bc51",
+      "readme_excerpt": "corecrypto is licensed under Apple Inc.’s Internal Use License Agreement (which is contained in the License.txt file distributed with corecrypto) and only to people who accept that license. IMPORTANT: Any license rights granted to you by Apple Inc. (if any) are limited to internal use within your organization only on devices and computers you own or control, for the sole purpose of verifying the security characteristics and correct functioning of the Apple Software. You may not, directly or indirectly, redistribute the Apple Software or any portions thereof. --> The corecrypto (cc) project =========================== The Security framework, CryptoKit and CommonCrypto rely",
+      "readme_headings": [],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "88991a14dd3e6300b7f9e380c797ac605dbe68a1",
+          "size": 14497,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:23:52+00:00"
     },
     "apple/coremltools": {
       "id": 95862535,
@@ -2439,12 +2618,83 @@
         "tensorflow"
       ],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 9797718,
+        "C++": 1577042,
+        "Swift": 119840,
+        "C": 81167,
+        "Objective-C++": 70122,
+        "CMake": 21577,
+        "Shell": 21547,
+        "Objective-C": 12574,
+        "Makefile": 4782,
+        "Mustache": 2676,
+        "Batchfile": 765,
+        "CSS": 69
+      },
+      "readme_url": "https://github.com/apple/coremltools/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2e12b0a22523e2c10bb34cef86327adac3a506df",
+      "readme_excerpt": "======================= Use Core ML Tools (*coremltools*) to convert machine learning models from third-party libraries to the Core ML format. This Python package contains the supporting tools for converting models from training libraries such as the following: * TensorFlow 1.x * TensorFlow 2.x * PyTorch * Non-neural network frameworks: * scikit-learn * XGBoost * LibSVM With coremltools, you can: * Convert trained models to the Core ML format. * Read, write, and optimize Core ML models. * Verify conversion/creation (on macOS) by making predictions using Core ML. After conversion, you can integrate the Core ML models with your app using Xcode.",
+      "readme_headings": [
+        "Install",
+        "Core ML",
+        "Resources"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "5777bac01dee7c73fe82505948829967a3744185",
+          "size": 8863,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "28eabd0c0f512c2b693d8a11f80e9a47a8c0bec0",
+          "size": 2817,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "setup.py",
+          "sha": "102d5aaf8d612a2a9984fd25d6c6fc05743f0a76",
+          "size": 3744,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "deps/CMakeLists.txt",
+          "sha": "5a95b9166fda7008d321a8d03b958c398a227a30",
+          "size": 315,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs-guides/Makefile",
+          "sha": "d4bb2cbb9eddb1bb1b4f366623044af8e4830919",
+          "size": 634,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "d4bb2cbb9eddb1bb1b4f366623044af8e4830919",
+          "size": 634,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:23:56+00:00"
     },
     "apple/corenet": {
       "id": 788562361,
@@ -2467,12 +2717,126 @@
       "open_issues": 18,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 4562535,
+        "Python": 2496343,
+        "Makefile": 6222
+      },
+      "readme_url": "https://github.com/apple/corenet/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "03e086e1b002a4e240eaa33ca9bbcc9c6f4fd236",
+      "readme_excerpt": "CoreNet is a deep neural network toolkit that allows researchers and engineers to train standard and novel small and large-scale models for variety of tasks, including foundation models (e.g., CLIP and LLM), object classification, object detection, and semantic segmentation. * What's new? * Research efforts at Apple using CoreNet * Installation * Directory Structure * Maintainers * Contributing to CoreNet * License * Relationship with CVNets * Citation * ***October 2024***: Version 0.1.1 of the CoreNet library includes * KV Prediction Below is the list of publications from Apple that uses CoreNet. Also, training and evaluation recipes, as well as",
+      "readme_headings": [
+        "CoreNet: A library for training deep neural networks",
+        "Table of contents",
+        "What's new?",
+        "Research efforts at Apple using CoreNet",
+        "Installation",
+        "The following venv command is optional, but recommended. Alternatively, you can create and activate a conda environment.",
+        "The following venv command is optional, but recommended. Alternatively, you can create and activate a conda environment.",
+        "Directory Structure",
+        "Maintainers",
+        "Previous Maintainers",
+        "Contributing to CoreNet",
+        "License",
+        "Relationship with CVNets",
+        "Citation"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "4265e836b4bb236c0d46bf50a5788310450b1803",
+          "size": 6222,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "cc4691d316d0430bf32ad0c9250a54baea7a529b",
+          "size": 704,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "9935e8688e0852bba2e9df4f417fe028bcf08831",
+          "size": 1027,
+          "content_status": "captured",
+          "dependency_hints": [
+            "av",
+            "black",
+            "boto3",
+            "cityscapesscripts",
+            "coremltools",
+            "ftfy",
+            "fvcore",
+            "h5py",
+            "isort",
+            "numpy",
+            "pandas",
+            "psutil",
+            "pyarrow",
+            "pybase64",
+            "pycocotools",
+            "pytest",
+            "pytest-mock",
+            "pytest-timeout",
+            "pytest-xdist",
+            "pytorchvideo",
+            "pyyaml",
+            "regex",
+            "scikit-image",
+            "scikit-learn",
+            "scipy",
+            "setuptools",
+            "torch",
+            "torchaudio",
+            "torchdata",
+            "torchtext",
+            "torchvision",
+            "tqdm",
+            "ujson"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "4e8cf476526882352ddc90663e31959a46045614",
+          "size": 4130,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "mlx_examples/requirements.txt",
+          "sha": "92809acdb888dbe17c07bff41ae05a5793db0705",
+          "size": 79,
+          "content_status": "captured",
+          "dependency_hints": [
+            "mlx",
+            "safetensors",
+            "sentencepiece"
+          ]
+        },
+        {
+          "path": "mlx_examples/clip/requirements.txt",
+          "sha": "e163ecf85de37aa12215d42610733797e08e8674",
+          "size": 68,
+          "content_status": "captured",
+          "dependency_hints": [
+            "huggingface_hub",
+            "transformers"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:23:59+00:00"
     },
     "apple/creator-studio-doc-format": {
       "id": 1460315090,
@@ -2502,12 +2866,49 @@
         "slides"
       ],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 873686
+      },
+      "readme_url": "https://github.com/apple/creator-studio-doc-format/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "10366977c882d235ae1758d25a42f1cecfa9f249",
+      "readme_excerpt": "A Python library for reading, creating, and editing Apple Creator Studio documents, starting with Keynote. This library works with Keynote presentations in Keynote Interchange Format (`.keyx`). You can use it to: - Read the slides, text, images, tables, charts, styles, and more in a `.keyx` file exported from Keynote. - Create a presentation from scratch, or from a theme's slide layouts and styles. - Edit a presentation, and check it against the format's rules before you save it. The library reads and writes `.keyx` files itself, so it doesn't need Keynote, an Apple device, or a network connection. To preview",
+      "readme_headings": [
+        "Creator Studio Document Format",
+        "Overview",
+        "Getting started",
+        "Installation",
+        "Quick start",
+        "The star import keeps this short. In your own code, import only the names you use.",
+        "Documentation",
+        "Agent skill",
+        "Contributing",
+        "Code of conduct",
+        "Support",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "d54f84ebf29239e1f6485bd0494353d245f0e969",
+          "size": 1715,
+          "content_status": "captured",
+          "dependency_hints": [
+            "pydantic"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:24:00+00:00"
     },
     "apple/cups": {
       "id": 44137852,
@@ -2536,12 +2937,76 @@
         "snmp"
       ],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 6679173,
+        "C++": 326920,
+        "Makefile": 83323,
+        "M4": 70279,
+        "Shell": 61092,
+        "Roff": 24717,
+        "HTML": 2142,
+        "PostScript": 540,
+        "Batchfile": 192
+      },
+      "readme_url": "https://github.com/apple/cups/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f48de536751f846495cc9ab6becada312320232b",
+      "readme_excerpt": "README - Apple CUPS v2.3.6 - 2022-05-25 ======================================= INTRODUCTION CUPS is a standards-based, open source printing system developed by Apple Inc. for macOS® and other UNIX®-like operating systems. CUPS uses the Internet Printing Protocol (\"IPP\") and provides System V and Berkeley command-line interfaces, a web interface, and a C API to manage printers and print jobs. It supports printing to both local (parallel, serial, USB) and networked printers, and printers can be shared from one computer to another, even over the Internet! Internally, CUPS uses PostScript Printer Description (\"PPD\") files to describe printer capabilities and features and a wide variety",
+      "readme_headings": [],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "294ac5ea499cdf79bbc79fcf401e91e23c74d54f",
+          "size": 5798,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "backend/Makefile",
+          "sha": "e3ce49be6bd067705152365980f1849a59a307dd",
+          "size": 6072,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "berkeley/Makefile",
+          "sha": "9415b76dad77c439985aa9ce1ce88db580b6a3ce",
+          "size": 2263,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cgi-bin/Makefile",
+          "sha": "e76012b9de7863eae5d9ee18ab4da74e51c8c6e5",
+          "size": 3788,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "conf/Makefile",
+          "sha": "e249e6069271da0ebae62d17e6016346289b3805",
+          "size": 2109,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cups/Makefile",
+          "sha": "4e2aa6d37b9f601de9fa94dc7c85296760caf051",
+          "size": 16335,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:24:04+00:00"
     },
     "apple/darwin-libplatform": {
       "id": 93205526,
@@ -2564,12 +3029,27 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "unavailable",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 253274,
+        "Assembly": 99823,
+        "C++": 84957
+      },
+      "readme_url": null,
+      "readme_path": null,
+      "readme_sha": null,
+      "readme_excerpt": "",
+      "readme_headings": [],
+      "readme_unavailable_reason": "GitHub returned 404 for a README",
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:24:05+00:00"
     },
     "apple/darwin-libpthread": {
       "id": 93205500,
@@ -2592,12 +3072,39 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "unavailable",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 719454,
+        "Lua": 14933,
+        "Python": 10204,
+        "Shell": 8990,
+        "Assembly": 8456,
+        "Makefile": 4794,
+        "DTrace": 1259
+      },
+      "readme_url": null,
+      "readme_path": null,
+      "readme_sha": null,
+      "readme_excerpt": "",
+      "readme_headings": [],
+      "readme_unavailable_reason": "GitHub returned 404 for a README",
+      "manifest_paths": [
+        {
+          "path": "tests/Makefile",
+          "sha": "dd585ca5677a667ea83694754bef1cac83706d3b",
+          "size": 4794,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:24:07+00:00"
     },
     "apple/darwin-xnu": {
       "id": 93205465,
@@ -2622,12 +3129,85 @@
         "kernel"
       ],
       "last_seen_scan_id": "2026-11-23T19:21:20+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 50739361,
+        "C++": 5330823,
+        "Python": 1392061,
+        "Roff": 1382878,
+        "Assembly": 858285,
+        "HTML": 694084,
+        "Makefile": 347353,
+        "Objective-C": 329404,
+        "Shell": 103176,
+        "DTrace": 72221,
+        "Yacc": 52486,
+        "Swift": 50071,
+        "Lua": 31069,
+        "Perl": 28180,
+        "D": 10304,
+        "Lex": 3400,
+        "SmPL": 3358,
+        "Awk": 1247
+      },
+      "readme_url": "https://github.com/apple/darwin-xnu/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "da6bb7bc15a8eec1644a6223709f21f3be93dbae",
+      "readme_excerpt": "What is XNU? =========== XNU kernel is part of the Darwin operating system for use in macOS and iOS operating systems. XNU is an acronym for X is Not Unix. XNU is a hybrid kernel combining the Mach kernel developed at Carnegie Mellon University with components from FreeBSD and a C++ API for writing drivers called IOKit. XNU runs on x86_64 for both single processor and multi-processor configurations. XNU Source Tree =============== * `config` - configurations for exported apis for supported architecture and platform * `SETUP` - Basic set of tools used for configuring the kernel, versioning and kextsymbol management.",
+      "readme_headings": [],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "9b62aadb1fd8ff819fadf2ee3524ba6f166f3c54",
+          "size": 9376,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "bsd/Makefile",
+          "sha": "a11cb1920a227c2059cf43c0f81f5fea85cb875c",
+          "size": 1195,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "config/Makefile",
+          "sha": "5e583ae3b90e0df7b663351d184b1c2a351475c4",
+          "size": 7506,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "EXTERNAL_HEADERS/Makefile",
+          "sha": "770e156ec0e7dbd7bcb4690868d60a7b911189e9",
+          "size": 885,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "iokit/Makefile",
+          "sha": "e82361d0baf8477c9c1686a07b4f038bcd98f6ce",
+          "size": 408,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "libkern/Makefile",
+          "sha": "d159575426f606f7bc6884413417e53448b371a7",
+          "size": 659,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:24:11+00:00"
     },
     "apple/device-management": {
       "id": 494585544,

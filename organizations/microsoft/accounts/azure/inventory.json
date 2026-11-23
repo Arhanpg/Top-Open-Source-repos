@@ -784,12 +784,78 @@
         "suave"
       ],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "F#": 82673
+      },
+      "readme_url": "https://github.com/Azure/AAD.fs/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b7bbb17a4191d13ef8c7f5f206c1b10bf77bb02b",
+      "readme_excerpt": "The library ships as following packages: - AAD.fs: F# abstractions with `Async` public interfaces - AAD.fs.tasks: F# abstractions with `Task` public interfaces - AAD.Suave: Suave-specific wrappers - AAD.Giraffe: Giraffe-specific wrappers - Use Suave or Giraffe package and `PartProtector` abstraction, alternatively build on the base AAD.fs `ResourceOwner` primitives - Use `Noop.PartProtector` to bypass the verification of demands (for example to implement feature switch) - Use `AsyncRequestor` or `TaskRequestor` from AAD.fs package or Identity platform SDK library directly. The build requires at least .NET Core SDK 8 installed. When building for the first time restore the local tools, in this directory run:",
+      "readme_headings": [
+        "F# Web API endpoint protection using Azure AD roles",
+        "Consuming the library",
+        "For resource server",
+        "For requesting party",
+        "Building",
+        "Prerequisites",
+        "Test scenario",
+        "Running integration tests",
+        "Contributing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "AAD.fs.sln",
+          "sha": "3eeee8235a1ce82be4e41119bb882a5ff05dd339",
+          "size": 7706,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "AAD.fs.tasks/AAD.fs.tasks.fsproj",
+          "sha": "e69be149d4aa628a6e5b4d04475dfbdc882e4cef",
+          "size": 895,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "AAD.fs/AAD.fs.fsproj",
+          "sha": "1631c179c51c2a8da4f4464dfd466edb65ccb531",
+          "size": 800,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "AAD.Giraffe/AAD.Giraffe.fsproj",
+          "sha": "c14122508e4b7bcac6871f518c411c780ce6be26",
+          "size": 720,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "AAD.Suave/AAD.Suave.fsproj",
+          "sha": "89404deb01e1a4466b2b3018cdf9a117fd6ad39d",
+          "size": 605,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "AAD.tasks.Test/AAD.tasks.Test.fsproj",
+          "sha": "d616492b227c6d09e71b761387f28d261c0044bd",
+          "size": 1718,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:34:18+00:00"
     },
     "Azure/aaz": {
       "id": 382250772,
@@ -812,12 +878,30 @@
       "open_issues": 49,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 1530,
+        "PowerShell": 991
+      },
+      "readme_url": "https://github.com/Azure/aaz/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b5212a6531896395e49dafc4a48ea682b5f864ad",
+      "readme_excerpt": "This repository is used to perserve the atomic Azure CLI command models created by aaz-dev-tools. For API version `2026-09-01-preview`, `afd profile create` deliberately supplements the Swagger contract with the optional `--environment-type NonProduction` input at `properties.extendedProperties.environmentType`. Swagger marks the containing `extendedProperties` dictionary read-only, but the RP accepts this specific value when creating an AFD profile in a preview-enabled subscription. Preserve this AAZ-only override when re-importing Swagger or regenerating commands. Do not expose the dictionary as an arbitrary writable argument, add this input to update commands, or apply it to Classic CDN. Response models remain read-only.",
+      "readme_headings": [
+        "Atomic Azure CLI Command Models",
+        "Description",
+        "Maintained command-model overrides"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:34:21+00:00"
     },
     "Azure/aaz-dev-tools": {
       "id": 382253463,
@@ -840,12 +924,143 @@
       "open_issues": 42,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 2008039,
+        "TypeScript": 799185,
+        "Jinja": 65622,
+        "JavaScript": 6432,
+        "HTML": 1546,
+        "CSS": 928,
+        "Shell": 474,
+        "TypeSpec": 30
+      },
+      "readme_url": "https://github.com/Azure/aaz-dev-tools/blob/dev/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f36a984e6d83993400022d016106f2a15e33185a",
+      "readme_excerpt": "The *aaz-dev* tool is designed to generate atomic Azure CLI commands from OpenAPI specifications. For more information, please refer to document and video. Currently, we can install it with a .whl file. Later on, we'll publish it to PyPI to support *pip install* way of installation. Please `Fork` the following repos in your github account and `Clone` them in your local disk: - Azure CLI - Azure CLI Extension - AAZ: Used to upload the command model generated. - azure-rest-api-specs or azure-rest-api-specs-pr After clone you can add `upstream` for every repos in your local clone by using `git remote add",
+      "readme_headings": [
+        "Microsoft Atomic Azure CLI Dev Tools",
+        "Installation",
+        "Setting up your development environment",
+        "1 Code repos",
+        "2 Setup python",
+        "2.1 Install python",
+        "2.2 Setup a python virtual environment",
+        "3 Active existing virtual environment",
+        "4 Install tools for azure-cli development",
+        "4.1 Install aaz-dev-tools",
+        "4.2 Set up build env",
+        "5. Code repos setup",
+        "5.1 azure-cli",
+        "5.2 azure-cli-extensions",
+        "5.3 aaz",
+        "5.4 run `azdev setup`",
+        "6 Run aaz-dev-tools",
+        "Before using generated commands",
+        "Other documentations",
+        "Submit code and command models",
+        "Reporting issues and feedback",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "d0bb803fb22f4d87f073dd2c23959abba718276d",
+          "size": 1721,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@azure-tools/typespec-liftr-base",
+            "@pnpm/find-workspace-packages",
+            "@pnpm/logger",
+            "picocolors",
+            "rimraf"
+          ]
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "82d5bad758e0ae3ee9f9f0d17d3bff8e79ed1a95",
+          "size": 269,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Jinja2",
+            "MarkupSafe",
+            "azdev",
+            "azure-mgmt-core",
+            "cachelib",
+            "click",
+            "flask",
+            "fuzzywuzzy",
+            "jsonschema",
+            "lxml",
+            "packaging",
+            "pluralizer",
+            "python-Levenshtein",
+            "pyyaml",
+            "schematics",
+            "setuptools",
+            "xmltodict"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "a828882e669ba9c4e88e05efabe98cfbc706781f",
+          "size": 2548,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Gemfile",
+          "sha": "a7ded70f2a8d830d6167165bb6d004b6d314586f",
+          "size": 1319,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "eng/scripts/package.json",
+          "sha": "d6cb392a44acdb74513d50be54254b760c71c637",
+          "size": 48,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/typespec-aaz/package.json",
+          "sha": "6899415aa28cab6d6cdc380e0259579a2f03480c",
+          "size": 1791,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@azure-tools/typespec-azure-core",
+            "@azure-tools/typespec-azure-resource-manager",
+            "@azure-tools/typespec-client-generator-core",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "@typespec/compiler",
+            "@typespec/http",
+            "@typespec/json-schema",
+            "@typespec/library-linter",
+            "@typespec/openapi",
+            "@typespec/rest",
+            "@typespec/versioning",
+            "@vitest/coverage-v8",
+            "@vitest/ui",
+            "change-case",
+            "eslint",
+            "prettier",
+            "typescript",
+            "vitest"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:34:24+00:00"
     },
     "Azure/ABAP-Cloud-SDK-for-Azure": {
       "id": 1317068670,
@@ -868,12 +1083,53 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "ABAP": 1420912
+      },
+      "readme_url": "https://github.com/Azure/ABAP-Cloud-SDK-for-Azure/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1a44bc2a2179a82cb5d3fd88aa102ab0336882a3",
+      "readme_excerpt": "An enterprise-grade SDK that lets **ABAP Cloud** (SAP Business AI Platform, ABAP environment / S/4HANA Cloud) applications call **Azure REST APIs** with the same ergonomics you expect from the official Azure SDKs for Java or .NET: a layered HTTP **pipeline**, pluggable **credentials**, typed **exceptions**, and strongly-typed service clients — all written in released, cloud-ready ABAP (`ABAP for Cloud Development`, language version 5). - Why this SDK - Architecture - Authentication - Implemented services - Testing - Package layout - Getting started - Running the demos - Design principles & conventions - Contributing - Code of Conduct - Security - License",
+      "readme_headings": [
+        "ABAP Cloud SDK for Azure",
+        "Table of contents",
+        "Why this SDK",
+        "Architecture",
+        "Core building blocks",
+        "Authentication",
+        "Microsoft Entra ID token credentials — `zif_az_token_credential`",
+        "Storage data-plane auth — recommended order",
+        "Implemented services",
+        "Testing",
+        "How it is tested",
+        "Test counts (per area)",
+        "Package layout",
+        "Getting started",
+        "Prerequisites",
+        "Import",
+        "Example — recommended: blob access with a User Delegation SAS",
+        "Example — blob access with a direct Entra ID credential",
+        "Example — run a Resource Graph query",
+        "Running the demos",
+        "Design principles & conventions",
+        "Contributing",
+        "Feedback",
+        "Code of Conduct",
+        "Security",
+        "License",
+        "Trademarks"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:34:25+00:00"
     },
     "Azure/abfs-backport": {
       "id": 272525093,
@@ -896,12 +1152,34 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 14877
+      },
+      "readme_url": "https://github.com/Azure/abfs-backport/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d63ba29b67363d7d8672e72f8ec9eb13e8198d3b",
+      "readme_excerpt": "The ABFS driver allows **Hadoop** clusters and those frameworks that utilize the **Hadoop FileSystem** to connect to their data that is stored in Azure Data Lake Storage Gen2 (ADLS). This driver has been committed into the Apache code repository since version 3.1. For customers that want to connect to ADLS from existing older clusters, we have backported the driver. It is available from this repository in pre-compiled binary form (Java 7 and upwards). There is also a shell script which may be used to patch each node on the cluster. To patch the cluster, all nodes in the cluster must",
+      "readme_headings": [
+        "Backport for ABFS Driver - Install Hadoop ABFS driver on cluster versions prior to v3.1",
+        "Patch the cluster with ABFS driver",
+        "Note:",
+        "Prerequisites",
+        "How the script works",
+        "Usage",
+        "Registering the ABFS driver",
+        "Contributing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:34:26+00:00"
     },
     "Azure/aca-dotnet-workshop": {
       "id": 592399301,
@@ -930,12 +1208,78 @@
         "microservices"
       ],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Bicep": 51972,
+        "C#": 43795,
+        "HTML": 9690,
+        "Dockerfile": 2703,
+        "CSS": 1107,
+        "Makefile": 419,
+        "JavaScript": 223
+      },
+      "readme_url": "https://github.com/Azure/aca-dotnet-workshop/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7b0faca359e42fe54e3eadc23a6843bf40381c1c",
+      "readme_excerpt": "There is no doubt that building containerized applications and following a microservices architecture is one of the most common software architecture patterns observed in the past couple of years. Microsoft Azure offers different services to package, deploy, and manage cloud-native applications, each of which serves a certain purpose and has its own pros and cons. This page provides a good comparison between the available services to host and manage cloud-native containerized applications in Azure. Whereas building cloud-native apps on Azure Kubernetes Service (AKS) is powerful, there is a bit of a learning curve needed when it comes to creating and",
+      "readme_headings": [
+        "Delivery Instructions",
+        "Contributions",
+        "Acknowledgment"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "9883384e0f1eb3129e646e85ef5981372ad2d731",
+          "size": 419,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Dockerfile",
+          "sha": "c40be5fdf97606c4ed3b289f0f1f2dda8463ca88",
+          "size": 131,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "TasksTracker.Processor.Backend.Svc/Dockerfile",
+          "sha": "cdb0b9f882c44a216bb11103aac1302b44d77134",
+          "size": 892,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "TasksTracker.Processor.Backend.Svc/TasksTracker.Processor.Backend.Svc.csproj",
+          "sha": "c7c8433457463110f677ff042fd3c1e061641ba8",
+          "size": 740,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "TasksTracker.TasksManager.Backend.Api/Dockerfile",
+          "sha": "39bbce64699bc9ef0a3552b3b260725545a083f6",
+          "size": 919,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "TasksTracker.TasksManager.Backend.Api/TasksTracker.TasksManager.Backend.Api.csproj",
+          "sha": "30bb193bad9b293f1d474b1d009b33712ef113e1",
+          "size": 754,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:34:30+00:00"
     },
     "Azure/aca-java-runtimes-workshop": {
       "id": 535709619,
@@ -967,12 +1311,141 @@
         "workshop"
       ],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 245914,
+        "Java": 33380,
+        "Shell": 28360,
+        "Batchfile": 7680
+      },
+      "readme_url": "https://github.com/Azure/aca-java-runtimes-workshop/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "04835e4b947f2441ab6de2c4ad7c02485c104cf6",
+      "readme_excerpt": "cd quarkus-app mvn test # Execute the tests mvn quarkus:dev # Execute the application curl 'localhost:8701/quarkus' # Invokes the hello endpoint To build a native application (you need GraalVM installed): mvn -Pnative clean package ./target/*-runner To build a Docker image with the native application (you need to build the native image on Linux): docker build -t quarkus-app-native -f src/main/docker/Dockerfile.native . cd micronaut-app mvn test # Execute the tests docker compose -f infrastructure/postgres.yaml up mvn mn:run # Execute the application curl 'localhost:8702/micronaut' # Invokes the hello endpoint To build a native application (you need GraalVM installed): mvn package -Dpackaging=native-image ./target/micronaut-app To",
+      "readme_headings": [
+        "Azure Container Apps Java Runtimes Workshop",
+        "Quarkus",
+        "Micronaut",
+        "Spring Boot",
+        "Contributing",
+        "Trademarks"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "7508bb42d27b8765df705e3e63e3ce7bc4e1e1d5",
+          "size": 656,
+          "content_status": "captured",
+          "dependency_hints": [
+            "parent"
+          ]
+        },
+        {
+          "path": "docs/pom.xml",
+          "sha": "5eb9abc93f4429a00098eb4804883eb5d04eb373",
+          "size": 4361,
+          "content_status": "captured",
+          "dependency_hints": [
+            "asciidoctor-maven-plugin",
+            "asciidoctorj-diagram",
+            "asciidoctorj-diagram-plantuml",
+            "docs",
+            "plantuml",
+            "plantuml-maven-plugin"
+          ]
+        },
+        {
+          "path": "micronaut-app/pom.xml",
+          "sha": "8919c1d529effd234c59f0aebff499e62275a7b9",
+          "size": 5678,
+          "content_status": "captured",
+          "dependency_hints": [
+            "jakarta.annotation-api",
+            "junit-jupiter",
+            "junit-jupiter-api",
+            "junit-jupiter-engine",
+            "logback-classic",
+            "maven-compiler-plugin",
+            "micronaut-app",
+            "micronaut-data-hibernate-jpa",
+            "micronaut-data-processor",
+            "micronaut-graal",
+            "micronaut-http-client",
+            "micronaut-http-server-netty",
+            "micronaut-http-validation",
+            "micronaut-inject",
+            "micronaut-inject-java",
+            "micronaut-jackson-databind",
+            "micronaut-jdbc-hikari",
+            "micronaut-maven-plugin",
+            "micronaut-parent",
+            "micronaut-test-junit5",
+            "micronaut-test-rest-assured",
+            "micronaut-validation",
+            "postgresql",
+            "testcontainers"
+          ]
+        },
+        {
+          "path": "quarkus-app/pom.xml",
+          "sha": "4915776e3804bc9b9b3fa249e12b61e95f372fec",
+          "size": 5042,
+          "content_status": "captured",
+          "dependency_hints": [
+            "${quarkus.platform.artifact-id}",
+            "maven-compiler-plugin",
+            "maven-failsafe-plugin",
+            "maven-surefire-plugin",
+            "parent",
+            "quarkus-app",
+            "quarkus-arc",
+            "quarkus-hibernate-orm",
+            "quarkus-hibernate-orm-panache",
+            "quarkus-jdbc-postgresql",
+            "quarkus-junit5",
+            "quarkus-maven-plugin",
+            "quarkus-resteasy",
+            "quarkus-resteasy-jsonb",
+            "rest-assured"
+          ]
+        },
+        {
+          "path": "springboot-app/pom.xml",
+          "sha": "fae9592ff3e83d9102539884672f7fda1815316b",
+          "size": 2202,
+          "content_status": "captured",
+          "dependency_hints": [
+            "junit-jupiter",
+            "postgresql",
+            "spring-boot-maven-plugin",
+            "spring-boot-starter-data-jpa",
+            "spring-boot-starter-parent",
+            "spring-boot-starter-test",
+            "spring-boot-starter-web",
+            "springboot-app",
+            "testcontainers-bom"
+          ]
+        },
+        {
+          "path": "scripts/jmeter/pom.xml",
+          "sha": "6c9ec48b2919a87388053c139ae0e501150611fc",
+          "size": 1466,
+          "content_status": "captured",
+          "dependency_hints": [
+            "jmeter-maven-plugin",
+            "jmeter-scripts"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:34:33+00:00"
     },
     "Azure/aca-java-runtimes-workshop-template": {
       "id": 547132175,
@@ -995,12 +1468,126 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 245914,
+        "Batchfile": 6608,
+        "Shell": 2884,
+        "Java": 1297
+      },
+      "readme_url": "https://github.com/Azure/aca-java-runtimes-workshop-template/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "04835e4b947f2441ab6de2c4ad7c02485c104cf6",
+      "readme_excerpt": "cd quarkus-app mvn test # Execute the tests mvn quarkus:dev # Execute the application curl 'localhost:8701/quarkus' # Invokes the hello endpoint To build a native application (you need GraalVM installed): mvn -Pnative clean package ./target/*-runner To build a Docker image with the native application (you need to build the native image on Linux): docker build -t quarkus-app-native -f src/main/docker/Dockerfile.native . cd micronaut-app mvn test # Execute the tests docker compose -f infrastructure/postgres.yaml up mvn mn:run # Execute the application curl 'localhost:8702/micronaut' # Invokes the hello endpoint To build a native application (you need GraalVM installed): mvn package -Dpackaging=native-image ./target/micronaut-app To",
+      "readme_headings": [
+        "Azure Container Apps Java Runtimes Workshop",
+        "Quarkus",
+        "Micronaut",
+        "Spring Boot",
+        "Contributing",
+        "Trademarks"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "a89662ea67edfeea3b3c3badebe5dfed746be6f2",
+          "size": 631,
+          "content_status": "captured",
+          "dependency_hints": [
+            "parent"
+          ]
+        },
+        {
+          "path": "micronaut-app/pom.xml",
+          "sha": "cbc86e74e6368fef37f980fd233b2bddcd2392b3",
+          "size": 5678,
+          "content_status": "captured",
+          "dependency_hints": [
+            "jakarta.annotation-api",
+            "junit-jupiter",
+            "junit-jupiter-api",
+            "junit-jupiter-engine",
+            "logback-classic",
+            "maven-compiler-plugin",
+            "micronaut-app",
+            "micronaut-data-hibernate-jpa",
+            "micronaut-data-processor",
+            "micronaut-graal",
+            "micronaut-http-client",
+            "micronaut-http-server-netty",
+            "micronaut-http-validation",
+            "micronaut-inject",
+            "micronaut-inject-java",
+            "micronaut-jackson-databind",
+            "micronaut-jdbc-hikari",
+            "micronaut-maven-plugin",
+            "micronaut-parent",
+            "micronaut-test-junit5",
+            "micronaut-test-rest-assured",
+            "micronaut-validation",
+            "postgresql",
+            "testcontainers"
+          ]
+        },
+        {
+          "path": "quarkus-app/pom.xml",
+          "sha": "6b4b1fa8f65162fa46e356fcd95d6a937160b015",
+          "size": 4855,
+          "content_status": "captured",
+          "dependency_hints": [
+            "${quarkus.platform.artifact-id}",
+            "maven-compiler-plugin",
+            "maven-failsafe-plugin",
+            "maven-surefire-plugin",
+            "parent",
+            "quarkus-app",
+            "quarkus-arc",
+            "quarkus-hibernate-orm-panache",
+            "quarkus-jdbc-postgresql",
+            "quarkus-junit5",
+            "quarkus-maven-plugin",
+            "quarkus-resteasy",
+            "quarkus-resteasy-jsonb",
+            "rest-assured"
+          ]
+        },
+        {
+          "path": "springboot-app/pom.xml",
+          "sha": "fae9592ff3e83d9102539884672f7fda1815316b",
+          "size": 2202,
+          "content_status": "captured",
+          "dependency_hints": [
+            "junit-jupiter",
+            "postgresql",
+            "spring-boot-maven-plugin",
+            "spring-boot-starter-data-jpa",
+            "spring-boot-starter-parent",
+            "spring-boot-starter-test",
+            "spring-boot-starter-web",
+            "springboot-app",
+            "testcontainers-bom"
+          ]
+        },
+        {
+          "path": "scripts/jmeter/pom.xml",
+          "sha": "6c9ec48b2919a87388053c139ae0e501150611fc",
+          "size": 1466,
+          "content_status": "captured",
+          "dependency_hints": [
+            "jmeter-maven-plugin",
+            "jmeter-scripts"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:34:35+00:00"
     },
     "Azure/aca-landing-zone-accelerator": {
       "id": 528897768,
@@ -1036,12 +1623,126 @@
         "terraform"
       ],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Bicep": 423420,
+        "HCL": 136841,
+        "Java": 67893,
+        "HTML": 12368,
+        "C#": 10180,
+        "JavaScript": 9562,
+        "Less": 8815,
+        "Shell": 6655,
+        "PowerShell": 1704,
+        "Dockerfile": 1523
+      },
+      "readme_url": "https://github.com/Azure/aca-landing-zone-accelerator/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "611ce8ae15d95131cbf43616a89f3775df410f34",
+      "readme_excerpt": "Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in Azure landing zones guidance in the Cloud Adoption Framework. This Azure Container Apps landing zone accelerator represents the strategic design path and target technical state for an Azure Container Apps deployment, owned and operated by an workload team. This repository provides packaged guidance for customer scenarios, reference architecture, reference implementation, tooling, design area guidance, sample application deployed after provisioning the infrastructure using the accelerator. The architectural approach",
+      "readme_headings": [
+        "Azure Container Apps landing zone accelerator",
+        ":mag: Design areas",
+        ":rocket: Reference implementation",
+        "Provide feedback",
+        "Data collection",
+        "Telemetry Configuration",
+        "Contributing",
+        "Trademarks"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "scenarios/aca-internal/bicep/sample-apps/PCF-spring-boot/src/pom.xml",
+          "sha": "9902ce03457a4ed20d95ac187675bef99138cad9",
+          "size": 14310,
+          "content_status": "captured",
+          "dependency_hints": [
+            "assertj-core",
+            "chaos-monkey-spring-boot",
+            "docker-maven-plugin",
+            "git-commit-id-maven-plugin",
+            "jolokia-core",
+            "maven-release-plugin",
+            "maven-resources-plugin",
+            "spring-boot-maven-plugin",
+            "spring-boot-starter-parent",
+            "spring-cloud-azure-dependencies",
+            "spring-cloud-dependencies",
+            "spring-cloud-services-dependencies",
+            "spring-petclinic-microservices"
+          ]
+        },
+        {
+          "path": "scenarios/aca-internal/bicep/sample-apps/jobs/src/aca-jobs/aca-jobs.csproj",
+          "sha": "91a71ca804e6e6cf0844b82c0e4110715fd46936",
+          "size": 807,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "scenarios/aca-internal/bicep/sample-apps/jobs/src/aca-jobs/aca-jobs.sln",
+          "sha": "b80ccdd47ebc681487540da032ce650c4b58b723",
+          "size": 1568,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "scenarios/aca-internal/bicep/sample-apps/jobs/src/aca-jobs/Dockerfile",
+          "sha": "ba660082c536934fe78d93da8764629490755263",
+          "size": 627,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "scenarios/aca-internal/bicep/sample-apps/PCF-spring-boot/src/docker/Dockerfile",
+          "sha": "d49a4b3fdc9cb3c650c3f0d8e010fa92923c9eec",
+          "size": 896,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "scenarios/aca-internal/bicep/sample-apps/PCF-spring-boot/src/spring-petclinic-api-gateway/pom.xml",
+          "sha": "fac219441f84bb30f4ee98f99d44793d592e8e6c",
+          "size": 7252,
+          "content_status": "captured",
+          "dependency_hints": [
+            "angular-ui-router",
+            "angularjs",
+            "api-gateway",
+            "bootstrap",
+            "docker-maven-plugin",
+            "jolokia-core",
+            "jquery",
+            "junit-jupiter-api",
+            "junit-jupiter-engine",
+            "lombok",
+            "micrometer-registry-prometheus",
+            "mockito-core",
+            "mockwebserver",
+            "resilience4j-micrometer",
+            "spring-boot-configuration-processor",
+            "spring-boot-devtools",
+            "spring-boot-starter-actuator",
+            "spring-boot-starter-test",
+            "spring-cloud-services-starter-config-client",
+            "spring-cloud-services-starter-service-registry",
+            "spring-cloud-starter-circuitbreaker-reactor-resilience4j",
+            "spring-cloud-starter-gateway",
+            "spring-petclinic-microservices",
+            "webjars-locator-core",
+            "wro4j-maven-plugin"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:34:38+00:00"
     },
     "Azure/aca-review-apps": {
       "id": 532407594,
@@ -1072,12 +1773,69 @@
         "github-actions"
       ],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 17450,
+        "TypeScript": 10775,
+        "Dockerfile": 2215
+      },
+      "readme_url": "https://github.com/Azure/aca-review-apps/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "fc6ebd6452f7f50706d39ef1db6122fba4e41630",
+      "readme_excerpt": "**aca-review-app** can be used to automate the workflow of creating a new revision of Azure Container App for review. This action runs the code contained in the GitHub pull request as an app in the Container App. The review application is then created as a new revision with a Weight of 0, each with a unique URL that can be shared. This is a great way to review and test code changes. This action allows deactivating an app for review that has been created, triggered by the close of a pull request. **aca-review-app** can also be configured to launch automatically",
+      "readme_headings": [
+        "GitHub Action for Creating Azure Container App Revision",
+        "End-to-End Sample Workflows",
+        "Dependencies on other GitHub Actions",
+        "Azure Service Principal for RBAC",
+        "Integration to leave comments on Pull Request",
+        "Sample Snipet for the Review Revision Creation",
+        "Sample Snipet for the Review Revision Deactivation",
+        "How to Develop/Test this Action",
+        "Debug with breakpoints on Visual Studio Code",
+        "Check workflow behavior without pushing to GitHub",
+        "Contributing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "14cd0da41cce2d40c7205e23cbf0bc51d597141b",
+          "size": 1511,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@actions/core",
+            "@azure/arm-appcontainers",
+            "@azure/identity",
+            "@types/node",
+            "azure-actions-webclient",
+            "debug",
+            "typescript"
+          ]
+        },
+        {
+          "path": ".devcontainer/Dockerfile",
+          "sha": "02133cf9cd4e1ad0f49954531d541fea603b75cc",
+          "size": 1166,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "example/Dockerfile",
+          "sha": "9e777d6a040b5a55e8d765923486a72dbed3a6b9",
+          "size": 64,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:34:40+00:00"
     },
     "Azure/acaftalive": {
       "id": 820899260,

@@ -1,0 +1,34 @@
+# SAP / capire — repository inventory
+
+- Pagination complete: True
+- Pages in latest scan: 1
+- Repository records: 26
+
+| Repository | Description | Stars | Languages | Archived | Fork | In latest scan | README state | Dossier |
+|---|---|---:|---|---:|---:|---|---|---|
+| [capire/.github](https://github.com/capire/.github) | No description | 0 | Pending | False | False | True | captured | [Open](repositories/github-959808954.md) |
+| [capire/bookshop](https://github.com/capire/bookshop) | Our primer sample to get started in a nutshell | 15 | CAP CDS, HTML, JavaScript | False | False | True | captured | [Open](repositories/bookshop-959654367.md) |
+| [capire/bookshop-java](https://github.com/capire/bookshop-java) | No description | 0 | CAP CDS, HTML, Java | False | False | True | captured | [Open](repositories/bookshop-java-1118826602.md) |
+| [capire/bookstore](https://github.com/capire/bookstore) | A composite app on top of bookshop, reviews and orders | 9 | CAP CDS, HTML, JavaScript | False | False | True | captured | [Open](repositories/bookstore-959656530.md) |
+| [capire/bookstore-java](https://github.com/capire/bookstore-java) | No description | 0 | CAP CDS, HTML, Java, JavaScript | False | False | True | captured | [Open](repositories/bookstore-java-1118826858.md) |
+| [capire/common](https://github.com/capire/common) | A reuse content package | 1 | CAP CDS, CQL, JavaScript | False | False | True | captured | [Open](repositories/common-959655166.md) |
+| [capire/data-viewer](https://github.com/capire/data-viewer) | A plugin for admin and support tasks | 0 | CAP CDS, HTML, JavaScript | False | False | True | captured | [Open](repositories/data-viewer-979902633.md) |
+| [capire/docs](https://github.com/capire/docs) | The sources of the official capire docs | 106 | CAP CDS, JavaScript, SCSS, TypeScript, Vue | False | False | True | captured | [Open](repositories/docs-609050923.md) |
+| [capire/homebrew-tap](https://github.com/capire/homebrew-tap) | Homebrew formulae for installing SAP Cloud Application Programming Model (CAP) command-line tools and development utilities. | 2 | Ruby | False | False | True | captured | [Open](repositories/homebrew-tap-1109015603.md) |
+| [capire/incidents](https://github.com/capire/incidents) | Shows usages of common CAP plugins | 1 | CAP CDS, Dockerfile, HTML, JavaScript | False | True | True | captured | [Open](repositories/incidents-1023089908.md) |
+| [capire/incidents-app](https://github.com/capire/incidents-app) | No description | 61 | Pending | False | False | True | pending | Not generated |
+| [capire/orders](https://github.com/capire/orders) | A generic reuse service | 1 | Pending | False | False | True | pending | Not generated |
+| [capire/orders-java](https://github.com/capire/orders-java) | No description | 0 | Pending | False | False | True | pending | Not generated |
+| [capire/reviews](https://github.com/capire/reviews) | A generic reuse service | 0 | Pending | False | False | True | pending | Not generated |
+| [capire/reviews-java](https://github.com/capire/reviews-java) | No description | 0 | Pending | False | False | True | pending | Not generated |
+| [capire/s4](https://github.com/capire/s4) | Pre-built integration package for SAP S/4HANA | 4 | Pending | False | False | True | pending | Not generated |
+| [capire/samples](https://github.com/capire/samples) | A monorepo to work on several projects at once | 29 | Pending | False | False | True | pending | Not generated |
+| [capire/samples-java](https://github.com/capire/samples-java) | A monorepo to work on several projects at once | 1 | Pending | False | False | True | pending | Not generated |
+| [capire/shared-db](https://github.com/capire/shared-db) | Used to deploy micro services with shared DB | 0 | Pending | False | False | True | pending | Not generated |
+| [capire/shared-db-java](https://github.com/capire/shared-db-java) | No description | 0 | Pending | False | False | True | pending | Not generated |
+| [capire/skills](https://github.com/capire/skills) | Skills for Development of SAP Cloud Application Programming Model | 20 | Pending | False | False | True | pending | Not generated |
+| [capire/university](https://github.com/capire/university) | AI-generated CAP sample | 1 | Pending | False | False | True | pending | Not generated |
+| [capire/xflights](https://github.com/capire/xflights) | Master data service for flights, airlines, airports | 6 | Pending | False | False | True | pending | Not generated |
+| [capire/xflights-java](https://github.com/capire/xflights-java) | Master data service for flights, airlines, airports built with CAP Java | 0 | Pending | False | False | True | pending | Not generated |
+| [capire/xtravels](https://github.com/capire/xtravels) | Travel booking app using master data from xflights | 15 | Pending | False | False | True | pending | Not generated |
+| [capire/xtravels-java](https://github.com/capire/xtravels-java) | Travel booking app using master data from xflights built with CAP Java | 2 | Pending | False | False | True | pending | Not generated |

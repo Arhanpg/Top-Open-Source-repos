@@ -1,0 +1,35 @@
+# SAP / UI5 — repository inventory
+
+- Pagination complete: True
+- Pages in latest scan: 1
+- Repository records: 27
+
+| Repository | Description | Stars | Languages | Archived | Fork | In latest scan | README state | Dossier |
+|---|---|---:|---|---:|---:|---|---|---|
+| [UI5/.github](https://github.com/UI5/.github) | Default community health files for the SAP organization | 3 | Pending | False | False | True | captured | [Open](repositories/github-923699517.md) |
+| [UI5/cli](https://github.com/UI5/cli) | An open and modular toolchain to develop state of the art applications based on the UI5 framework | 510 | CSS, Dockerfile, HTML, JavaScript, Less, Shell, TypeScript | False | False | True | captured | [Open](repositories/cli-126844225.md) |
+| [UI5/cli-extensions](https://github.com/UI5/cli-extensions) | A repository offering extensions of UI5 CLI | 9 | HTML, JavaScript, TypeScript | False | False | True | captured | [Open](repositories/cli-extensions-577726687.md) |
+| [UI5/docs](https://github.com/UI5/docs) | OpenUI5 Markdown Documentation | 75 | Pending | False | False | True | captured | [Open](repositories/docs-194231249.md) |
+| [UI5/inspector](https://github.com/UI5/inspector) | With the UI5 Inspector, you can easily debug and support your OpenUI5/SAPUI5 based apps. | 149 | CSS, HTML, JavaScript, Less, Shell, TypeScript | False | False | True | captured | [Open](repositories/inspector-42198847.md) |
+| [UI5/linter](https://github.com/UI5/linter) | A static code analysis tool for UI5 | 82 | JavaScript, TypeScript | False | False | True | captured | [Open](repositories/linter-762309789.md) |
+| [UI5/manifest](https://github.com/UI5/manifest) | This project contains the flattened json schema for the ui5 manifest. | 37 | JavaScript | False | False | True | captured | [Open](repositories/manifest-269312476.md) |
+| [UI5/mcp-server](https://github.com/UI5/mcp-server) | The UI5 MCP server improves the developer experience when working with agentic AI and the UI5 framework. | 109 | CSS, EJS, HTML, JavaScript, TypeScript | False | False | True | captured | [Open](repositories/mcp-server-1026058228.md) |
+| [UI5/openui5](https://github.com/UI5/openui5) | OpenUI5 lets you build enterprise-ready web applications, responsive to all devices, running on almost any browser of your choice. | 3325 | CSS, Gherkin, Go Template, HTML, JavaScript, Less, TypeScript | False | False | True | captured | [Open](repositories/openui5-15085215.md) |
+| [UI5/openui5-website](https://github.com/UI5/openui5-website) | The OpenUI5 website. | 31 | Pending | False | False | True | captured | [Open](repositories/openui5-website-165688605.md) |
+| [UI5/plugins-coding-agents](https://github.com/UI5/plugins-coding-agents) | SAPUI5 / OpenUI5 plugins for Coding Agents | 46 | Pending | False | False | True | pending | Not generated |
+| [UI5/renovate-config](https://github.com/UI5/renovate-config) | With the UI5 Renovate Preset Config its such as easy to update your UI5 project automatically when a new UI5 version is released. | 12 | Pending | False | False | True | pending | Not generated |
+| [UI5/repository-template](https://github.com/UI5/repository-template) | Default templates of SAP's repositories. Provides template files including LICENSE, .reuse/dep5, Code of Conduct, etc... | 2 | Pending | False | False | True | pending | Not generated |
+| [UI5/sample-app](https://github.com/UI5/sample-app) | OpenUI5 Sample App | 305 | Pending | False | False | True | pending | Not generated |
+| [UI5/sample-webcomponents-angular](https://github.com/UI5/sample-webcomponents-angular) | UI5 Web Components Sample TODO application built with Angular. | 39 | Pending | False | False | True | pending | Not generated |
+| [UI5/sample-webcomponents-openui5](https://github.com/UI5/sample-webcomponents-openui5) | Reference app for using UI5 Web Components in OpenUI5/SAPUI5 | 1 | Pending | False | False | True | pending | Not generated |
+| [UI5/sample-webcomponents-react](https://github.com/UI5/sample-webcomponents-react) | UI5 Web Components Sample TODO application built with React. | 62 | Pending | False | False | True | pending | Not generated |
+| [UI5/sample-webcomponents-svelte](https://github.com/UI5/sample-webcomponents-svelte) | UI5 Web components sample TODO application built with Svelte. | 28 | Pending | False | False | True | pending | Not generated |
+| [UI5/sample-webcomponents-vue](https://github.com/UI5/sample-webcomponents-vue) | UI5 Web Components Sample TODO application built with Vue. | 65 | Pending | False | False | True | pending | Not generated |
+| [UI5/tutorials](https://github.com/UI5/tutorials) | Tutorials showcasing all major development paradigms of OpenUI5 using TypeScript. | 62 | Pending | False | False | True | pending | Not generated |
+| [UI5/typescript](https://github.com/UI5/typescript) | Tooling to enable  TypeScript support in SAPUI5/OpenUI5 projects | 213 | Pending | False | False | True | pending | Not generated |
+| [UI5/ui5.github.io](https://github.com/UI5/ui5.github.io) | No description | 0 | Pending | False | False | True | pending | Not generated |
+| [UI5/webcomponents](https://github.com/UI5/webcomponents) | UI5 Web Components - the enterprise-flavored sugar on top of native APIs! Build SAP Fiori user interfaces with the technology of your choice. | 1794 | Pending | False | False | True | pending | Not generated |
+| [UI5/webcomponents-geomap](https://github.com/UI5/webcomponents-geomap) | Geomap Web Component for visualizing geospatial data based on UI5 Web Components. | 0 | Pending | False | False | True | pending | Not generated |
+| [UI5/webcomponents-mcp-server](https://github.com/UI5/webcomponents-mcp-server) | The UI5 Web Components MCP Server improves the developer experience when working with agentic AI and the UI5 Web Components framework. | 20 | Pending | False | False | True | pending | Not generated |
+| [UI5/webcomponents-react](https://github.com/UI5/webcomponents-react) | A wrapper implementation for React of the UI5 Web Components that are compliant with the SAP Fiori User Experience | 543 | Pending | False | False | True | pending | Not generated |
+| [UI5/webcomponents-vue](https://github.com/UI5/webcomponents-vue) | The project provides means for creating Vue components out of UI5 Web Components (providing a seamless integration of pure web components in Vue. | 2 | Pending | False | False | True | pending | Not generated |

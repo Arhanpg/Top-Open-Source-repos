@@ -36,16 +36,16 @@
 | [google/actions-on-google-trivia-template-sdk](https://github.com/google/actions-on-google-trivia-template-sdk) | No description | 18 | JavaScript, Shell | True | False | True | captured | [Open](repositories/actions-on-google-trivia-template-sdk-300098548.md) |
 | [google/active-learning](https://github.com/google/active-learning) | No description | 1161 | Python | True | False | True | captured | [Open](repositories/active-learning-106029625.md) |
 | [google/active-qa](https://github.com/google/active-qa) | No description | 344 | Python, Shell | True | False | True | captured | [Open](repositories/active-qa-140437270.md) |
-| [google/ad-manager-alerter](https://github.com/google/ad-manager-alerter) | No description | 27 | Pending | True | False | True | pending | Not generated |
-| [google/ad_language_monitor](https://github.com/google/ad_language_monitor) | No description | 5 | Pending | True | False | True | pending | Not generated |
-| [google/adapt-googleanalytics](https://github.com/google/adapt-googleanalytics) | No description | 8 | Pending | True | False | True | pending | Not generated |
-| [google/adb-sync](https://github.com/google/adb-sync) | No description | 1096 | Pending | True | False | True | pending | Not generated |
-| [google/adcase](https://github.com/google/adcase) | No description | 7 | Pending | True | False | True | pending | Not generated |
-| [google/addlicense](https://github.com/google/addlicense) | A program which ensures source code files have copyright license headers by scanning directory patterns recursively | 890 | Pending | False | False | True | pending | Not generated |
-| [google/address-geocoder-js](https://github.com/google/address-geocoder-js) | No description | 11 | Pending | True | False | True | pending | Not generated |
-| [google/adh-deployment-manager](https://github.com/google/adh-deployment-manager) | No description | 5 | Pending | True | False | True | pending | Not generated |
-| [google/adiantum](https://github.com/google/adiantum) | Adiantum and HPolyC specification and test vectors | 484 | Pending | False | False | True | pending | Not generated |
-| [google/adjuice](https://github.com/google/adjuice) | No description | 3 | Pending | False | False | True | pending | Not generated |
+| [google/ad-manager-alerter](https://github.com/google/ad-manager-alerter) | No description | 27 | Python | True | False | True | captured | [Open](repositories/ad-manager-alerter-620372452.md) |
+| [google/ad_language_monitor](https://github.com/google/ad_language_monitor) | No description | 5 | JavaScript | True | False | True | captured | [Open](repositories/ad-language-monitor-458273834.md) |
+| [google/adapt-googleanalytics](https://github.com/google/adapt-googleanalytics) | No description | 8 | JavaScript | True | False | True | captured | [Open](repositories/adapt-googleanalytics-77634620.md) |
+| [google/adb-sync](https://github.com/google/adb-sync) | No description | 1096 | Python, Shell | True | False | True | captured | [Open](repositories/adb-sync-23320304.md) |
+| [google/adcase](https://github.com/google/adcase) | No description | 7 | CSS, HTML, JavaScript, Python | True | False | True | captured | [Open](repositories/adcase-221348876.md) |
+| [google/addlicense](https://github.com/google/addlicense) | A program which ensures source code files have copyright license headers by scanning directory patterns recursively | 890 | Dockerfile, Go | False | False | True | captured | [Open](repositories/addlicense-62048325.md) |
+| [google/address-geocoder-js](https://github.com/google/address-geocoder-js) | No description | 11 | HTML | True | False | True | captured | [Open](repositories/address-geocoder-js-88582010.md) |
+| [google/adh-deployment-manager](https://github.com/google/adh-deployment-manager) | No description | 5 | Python | True | False | True | captured | [Open](repositories/adh-deployment-manager-412469420.md) |
+| [google/adiantum](https://github.com/google/adiantum) | Adiantum and HPolyC specification and test vectors | 484 | Assembly, C, Meson, Python, Shell, TeX | False | False | True | captured | [Open](repositories/adiantum-143328579.md) |
+| [google/adjuice](https://github.com/google/adjuice) | No description | 3 | HTML, Python | False | False | True | captured | [Open](repositories/adjuice-1324764120.md) |
 | [google/adk-conformance](https://github.com/google/adk-conformance) | No description | 4 | Pending | False | False | True | pending | Not generated |
 | [google/adk-docs](https://github.com/google/adk-docs) | An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control. | 1543 | Pending | False | False | True | pending | Not generated |
 | [google/adk-go](https://github.com/google/adk-go) | An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control. | 8997 | Pending | False | False | True | pending | Not generated |

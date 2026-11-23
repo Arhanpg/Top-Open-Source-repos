@@ -2784,12 +2784,58 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 17266
+      },
+      "readme_url": "https://github.com/google/ad-manager-alerter/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "894166d9c93125ec15b5d1ec602ccb2d24b5570a",
+      "readme_excerpt": "Please note: this is not an officially supported Google product. This project is meant to serve as inspiration for how you can do anomaly detection for an Ad Manager account by using the Ad Manager API and BigQuery ML. - Ad Manager Anomaly detection - Setup - Create service account - Create a Google Cloud Bucket - Create a BigQuery dataset (used for alerting) - Grant access to run Ad Manager Reports - Deploy to cloud - Making sure we can send emails - Enable services to deploy to functions / workflows - Deploy Cloud Function - Deploy as Cloud",
+      "readme_headings": [
+        "Ad Manager Anomaly detection",
+        "Setup",
+        "Create service account",
+        "Create a Google Cloud Bucket",
+        "Create a BigQuery dataset (used for alerting)",
+        "Grant access to run Ad Manager Reports",
+        "Deploy to cloud",
+        "Making sure we can send emails",
+        "Enable services to deploy to functions / workflows",
+        "Deploy Cloud Function",
+        "Deploy as Cloud Workflow",
+        "Deploy to Cloud Scheduler",
+        "Overview of modules",
+        "Ad Manager report downloader",
+        "BigQuery import and model creation",
+        "Anomaly Detector and alerter"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "src/requirements.txt",
+          "sha": "b3fef1ffcae4d29ea7e32de55a619d26fcb5a590",
+          "size": 141,
+          "content_status": "captured",
+          "dependency_hints": [
+            "functions-framework",
+            "google-cloud-bigquery",
+            "google-cloud-storage",
+            "googleads",
+            "matplotlib",
+            "oauth2client",
+            "sendgrid"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:24:35+00:00"
     },
     "google/adapt-googleanalytics": {
       "id": 77634620,
@@ -2812,12 +2858,27 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 2136
+      },
+      "readme_url": "https://github.com/google/adapt-googleanalytics/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c8046a2ebb3cea6f32eb988d1805dcf8653ce488",
+      "readme_excerpt": "This is not an official Google product. This is a simple Adapt extension that implements Google Analytics upon post render of pageView, which is triggered when a page's view has rendered. Be sure to include the Analytics library and Autotrack in core > js > scriptLoader.js. Example: scripLoader.js: function setupRequireJS() { requirejs.config({ map: { ... }, paths: { ... analytics: 'https://www.google-analytics.com/analytics', autotrack: 'libraries/autotrack' } Use Autotrack semantics in component-level .hbs files for tracking events such as mouseover and clicks. Example: `<div class=\"graphic-inner component-inner\" role=\"region\" aria-label=\"{{_globals._components._graphic.ariaRegion}}\" ga-on=\"mouseover\" ga-event-category=\"Graphic Component\" ga-event-action=\"Mouseover\" ga-event-label=\"{{displayTitle}}\">` Video tracking is already available through the MediaElement library. Add",
+      "readme_headings": [
+        "adapt-googleanalytics"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:24:42+00:00"
     },
     "google/adb-sync": {
       "id": 23320304,
@@ -2840,12 +2901,26 @@
       "open_issues": 27,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 31186,
+        "Shell": 470
+      },
+      "readme_url": "https://github.com/google/adb-sync/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6ad3d4ecead1255672e58c1e3e71fbc40d7404c9",
+      "readme_excerpt": "adb-sync ======== adb-sync is a tool to synchronize files between a PC and an Android device using the ADB (Android Debug Bridge). DEPRECATED ========== This project is no longer being maintained; please use instead. Thanks! Related Projects ================ Before getting used to this, please review this list of projects that are somehow related to adb-sync and may fulfill your needs better: * better-adb-sync is an improved rewrite of this project. * rsync is a file synchronization tool for local (including FUSE) file systems or SSH connections. This can be used even with Android devices if rooted or using an app",
+      "readme_headings": [],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:24:43+00:00"
     },
     "google/adcase": {
       "id": 221348876,
@@ -2868,12 +2943,57 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 84162,
+        "JavaScript": 45095,
+        "HTML": 43162,
+        "CSS": 3070
+      },
+      "readme_url": "https://github.com/google/adcase/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "62ba39d9617020a93b2bb44301f7000f7d1cb15f",
+      "readme_excerpt": "This is not an officially supported Google product Apache header: Copyright 2017 Google Inc. Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at https://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. Configuration file `app.yaml` is made for Google App",
+      "readme_headings": [
+        "Source Code Headers",
+        "Adcase Implementation Guide",
+        "Backend (Python builder) implementation highlights",
+        "Frontend (html/javascript) implementation guide",
+        "Step 1:",
+        "Step 2:",
+        "Step 3:",
+        "Step 4:"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "src/requirements.txt",
+          "sha": "b355fea8fe7f64d86e6a54c06097f483070a2557",
+          "size": 58,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Flask",
+            "google-cloud-storage",
+            "pymysql",
+            "requests"
+          ]
+        },
+        {
+          "path": "src/lib/adcase/setup.py",
+          "sha": "ebb9fd7e28b0cc69729ac63848ab777de02bd8b5",
+          "size": 6069,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:24:46+00:00"
     },
     "google/addlicense": {
       "id": 62048325,
@@ -2899,12 +3019,65 @@
         "utility"
       ],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 36699,
+        "Dockerfile": 345
+      },
+      "readme_url": "https://github.com/google/addlicense/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c74ccbf02ae3546ebed15014068c7f864a98fb2e",
+      "readme_excerpt": "The program ensures source code files have copyright license headers by scanning directory patterns recursively. It modifies all source files in place and avoids adding a license header to any file that already has one. addlicense requires go 1.16 or later. go install github.com/google/addlicense@latest addlicense [flags] pattern [pattern ...] -c copyright holder (default \"Google LLC\") -check check only mode: verify presence of license headers and exit with non-zero code if missing -f license file -ignore file patterns to ignore, for example: -ignore **/*.go -ignore vendor/** -l license type: apache, bsd, mit, mpl (default \"apache\") -s Include SPDX identifier in license",
+      "readme_headings": [
+        "addlicense",
+        "install",
+        "usage",
+        "Running in a Docker Container",
+        "Running with pre-commit",
+        "license"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "39ef329822e9a8524303fa09c78fa7599f689250",
+          "size": 345,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "go.mod",
+          "sha": "c2be124834635de5f7594e3c9c5c79b7e53bc7c4",
+          "size": 153,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/bmatcuk/doublestar/v4",
+            "golang.org/x/sync"
+          ]
+        },
+        {
+          "path": "testdata/expected/Gemfile",
+          "sha": "6975e59788eb10d66d5ef33a0481e97a88304660",
+          "size": 595,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "testdata/initial/Gemfile",
+          "sha": "08b85bf4582a9eb213e255eeffc7c1734382b903",
+          "size": 20,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:24:49+00:00"
     },
     "google/address-geocoder-js": {
       "id": 88582010,
@@ -2927,12 +3100,25 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 10898
+      },
+      "readme_url": "https://github.com/google/address-geocoder-js/blob/master/README",
+      "readme_path": "README",
+      "readme_sha": "ed7ebaa68d80b873b0e261beaf18dd5afe984ddf",
+      "readme_excerpt": "README - Address Geocoder in Javascript / HTML This is not an official Google product. To use, just open in a web browser or third party hosting. Allows users of the webpage to place addresses into a the left text box. Clicking geocode produces the correct addresses and lat/long in the right pane. Uses Google maps APIs. Accepts a Google Map API key to make processing faster.",
+      "readme_headings": [],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:24:50+00:00"
     },
     "google/adh-deployment-manager": {
       "id": 412469420,
@@ -2955,12 +3141,72 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 54899
+      },
+      "readme_url": "https://github.com/google/adh-deployment-manager/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e1bcad7ee4593d0b06b87a6d4a712997c9f5e8d1",
+      "readme_excerpt": "ADH Deployment Manager is a Python library which simplifies interfacing with ADH REST API by providing a convenient set of wrappers and abstractions. The library provides such capabilities as: * deploying ADH queries from local text files to multiple projects based on a single configuration file * sync queries between ADH and local storage * local runner for testing and prototyping * batch query executor * branching mechanism * job monitoring and other features ADH Deployment Manager provides both high level interface for interacting with ADH via Deployment object and low-level by providing access to such elements as *Analysys Query*",
+      "readme_headings": [
+        "load necessary modules",
+        "provide authentication mechanism",
+        "instantiate deployment with config and credentials",
+        "(and optionally path to folder where source queries are located)",
+        "deploy queries to ADH project(s)",
+        "run queries in ADH projects(s)",
+        "Table of contents<a name=\"table-of-contents\"></a>",
+        "Project overview<a name=\"project-overview\"></a>",
+        "Requirements<a name=\"requirements\"></a>",
+        "Installation<a name=\"installation\"></a>",
+        "Getting started<a name=\"getting-started\"></a>",
+        "Access setup<a name=\"access-setup\"></a>",
+        "*(Recommended)* Authenticating as a service account<a name=\"recommended-authenticating-as-a-service-account\"></a>",
+        "OAuth 2.0 setup<a name=\"oauth-20-setup\"></a>",
+        "Create config<a name=\"create-config\"></a>",
+        "Optional Elements",
+        "Specifying queries and their parameters",
+        "Example of queries_setup",
+        "Specify queries<a name=\"specify-queires\"></a>",
+        "Add new ADH queries<a name=\"add-adh-queries\"></a>",
+        "Use Existing Queries from ADH<a name=\"use-adh-queries\"></a>",
+        "Deploying and running queires<a name=\"running-queries\"></a>",
+        "Usage",
+        "Examples"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "d4865c8f8f07e71013fa19db3380491d0defe445",
+          "size": 95,
+          "content_status": "captured",
+          "dependency_hints": [
+            "google-api-python-client",
+            "google-cloud-bigquery",
+            "google_auth_oauthlib",
+            "oauth2client",
+            "pandas",
+            "pyyaml"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "21de47b187e63233bf8fd31cf6a63d60da2f5b51",
+          "size": 1280,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:24:52+00:00"
     },
     "google/adiantum": {
       "id": 143328579,
@@ -2985,12 +3231,34 @@
         "cryptography-algorithms"
       ],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 11679951,
+        "TeX": 123983,
+        "Assembly": 103149,
+        "Python": 71920,
+        "Meson": 3336,
+        "Shell": 366
+      },
+      "readme_url": "https://github.com/google/adiantum/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f53a79e308fcde4462860b3b1ab45dd5a202b30c",
+      "readme_excerpt": "For many storage encryption applications, the ciphertext must be the same size as the plaintext; generally this matches the disk sector size of either 512 or 4096 bytes. This means that standard approaches like AES-GCM or RFC7539 cannot be applied. The standard solution is AES-XTS, but this has two disadvantages: - If AES hardware is absent, AES is relatively slow, especially constant-time implementations - Using XTS, a one-bit change to the plaintext means only a 16-byte change to the ciphertext, revealing more to the attacker than necessary. Adiantum uses a fast hash (NH + Poly1305) and a fast stream cipher",
+      "readme_headings": [
+        "Adiantum and HPolyC",
+        "File layout",
+        "Notices"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:24:54+00:00"
     },
     "google/adjuice": {
       "id": 1324764120,
@@ -3013,12 +3281,72 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 1852206,
+        "HTML": 33676
+      },
+      "readme_url": "https://github.com/google/adjuice/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "18a1640d4ed55e412cc1c242d9fc15b1e58309b8",
+      "readme_excerpt": "`AdJuice` is an **AI-Native Creative Intelligence & Retail Performance Agent** engineered for DTC e-commerce brands, performance marketers, and creative directors. It bridges retail data harvesting and creative execution by deconstructing thousands of competitor YouTube video ads, reviews, and try-on hauls into **actionable 15-second direct-response (PAS) ad scripts** and **self-contained executive HTML dashboards**. With native **AI Agent Skill support (`/adjuice`)**, non-technical marketers and media buyers can converse directly in natural language to perform market scoping, benchmark direct competitors, decode consumer objections, and generate production-ready creative briefs without touching complex terminal commands. │ (Two-Stage Progressive Interactive Q&A) ▼ │ ▼ │ ▼",
+      "readme_headings": [
+        "AdJuice: AI-Native Creative Intelligence & Retail Performance Agent",
+        "🏗️ System Architecture",
+        "🌟 Key Features & AI Agent Capabilities",
+        "📋 The 14 Canonical Report Sections",
+        "📂 Repository Structure",
+        "🚀 Quick Start",
+        "1. Non-Technical / Conversational Usage (Recommended)",
+        "2. Developer / CLI Setup",
+        "A. Clone & Install Dependencies",
+        "B. Configure Environment",
+        "Required for YouTube video metadata scraping",
+        "Choose your preferred LLM Provider:",
+        "Option A: Google Gemini",
+        "Option B: OpenAI",
+        "LLM_PROVIDER=openai",
+        "OPENAI_API_KEY=your_openai_api_key_here",
+        "Option C: Local Offline LLM (Ollama - 100% Free & Private)",
+        "LLM_PROVIDER=ollama",
+        "OLLAMA_API_BASE=http://localhost:11434/v1",
+        "C. Run the Pipeline",
+        "D. Zero-API Cost Offline Recompilation",
+        "🧪 Testing & Verification",
+        "🤝 Contributing",
+        "📜 License",
+        "⚖️ Disclaimer"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "83f99abb099eb241126a3bd554942874b2a22edb",
+          "size": 197,
+          "content_status": "captured",
+          "dependency_hints": [
+            "PySocks",
+            "google-api-python-client",
+            "google-genai",
+            "jinja2",
+            "openai",
+            "pydantic",
+            "python-dotenv",
+            "pyyaml",
+            "reportlab",
+            "urllib3",
+            "yt-dlp"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:24:56+00:00"
     },
     "google/adk-conformance": {
       "id": 1075597235,
@@ -3561,12 +3889,69 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 7702
+      },
+      "readme_url": "https://github.com/google/ad_language_monitor/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ff34c8e3dfa98599e6ee6254cf30b8eacdceea98",
+      "readme_excerpt": "**This is not an officially supported Google product. It is a reference implementation.** A Cloud Function that uses Retext.js to monitor the inclusive language of ad copy. Run the command: gcloud functions deploy AdLanguageMonitor \\ --runtime nodejs14 \\ --memory 1GB \\ --timeout 540s \\ --trigger-http Install dependencies: yarn Run the tests: yarn test Run the development environment: yarn start Send a payload to the development function: curl -X POST http://localhost:8080/ -H \"Content-Type:application/json\" -d '{ \"text\": \"He’s pretty set on beating your butt for sheriff.\" }' *Note: You can use either the HTTP query string or the JSON body to generate",
+      "readme_headings": [
+        "Ad Language Monitor",
+        "Overview",
+        "Deploy",
+        "Testing",
+        "Development",
+        "References"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "dd41589041c207ba316857ca6ed9caa27697a4f6",
+          "size": 638,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@google-cloud/functions-framework",
+            "eslint",
+            "eslint-config-google",
+            "express",
+            "retext",
+            "retext-equality",
+            "vfile-reporter",
+            "vfile-reporter-json"
+          ]
+        },
+        {
+          "path": "appsscript/package.json",
+          "sha": "28689b1646bf7de006aa3607a549974bc90a435d",
+          "size": 742,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@babel/core",
+            "@babel/polyfill",
+            "@babel/preset-env",
+            "babel-loader",
+            "copy-webpack-plugin",
+            "eslint",
+            "eslint-config-google",
+            "retext",
+            "retext-equality",
+            "vfile-reporter-json",
+            "webpack",
+            "webpack-cli"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:24:39+00:00"
     },
     "google/aegis_cipher": {
       "id": 384468836,

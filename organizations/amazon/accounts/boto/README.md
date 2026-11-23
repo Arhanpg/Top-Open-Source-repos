@@ -13,9 +13,9 @@
 |---|---:|
 | Total | 16 |
 | Readme Captured | 13 |
-| Readme Unavailable | 2 |
-| Pending Or Error | 1 |
-| Evidence Captured | 15 |
+| Readme Unavailable | 3 |
+| Pending Or Error | 0 |
+| Evidence Captured | 16 |
 | Manual Readme Reviewed | 0 |
 
 README captured means downloaded, not manually interpreted. Evidence captured means README, language and manifest collection reached terminal states. Manual review is separate.

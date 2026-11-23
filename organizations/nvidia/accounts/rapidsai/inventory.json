@@ -637,12 +637,49 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Dockerfile": 726,
+        "Shell": 558,
+        "Python": 341
+      },
+      "readme_url": "https://github.com/rapidsai/clang-recipe/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "961a20096e9ca2b732f112c2b3cbb484855c2ed6",
+      "readme_excerpt": "This repo contains recipe for building clang library, clang-format, clang-tidy and also the python wrapper for clang library. conda install -c teju85 clang libclang If you want to build your package and upload it to anaconda cloud, continue reading... * docker * git git clone https://github.com/teju85/clang-recipe cd clang-recipe docker build -t conda:dev . docker run --rm -it conda:dev /bin/bash inside-container# anaconda login inside-container# conda build lib inside-container# anaconda upload /path/to/libclang/package.tar.gz inside-container# conda build py inside-container# anaconda upload /path/to/clang/package.tar.gz",
+      "readme_headings": [
+        "Introduction",
+        "Downloading built recipes",
+        "Building my own recipe?",
+        "Pre-reqs",
+        "Usage",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "1fe307d1deebc77364934f71559d5c7f8ac9b50e",
+          "size": 726,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "py/setup.py",
+          "sha": "fc68c2b342e2d84dbffc4d2ec104e1147252dcbc",
+          "size": 341,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:28+00:00"
     },
     "rapidsai/cloud-ml-examples": {
       "id": 247161726,
@@ -665,12 +702,81 @@
       "open_issues": 27,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 2463170,
+        "Python": 152440,
+        "Shell": 18412,
+        "Smarty": 7212,
+        "Dockerfile": 2887,
+        "Jinja": 1527
+      },
+      "readme_url": "https://github.com/rapidsai/cloud-ml-examples/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ee64f8c06de4e9188562c507d0d275c4888f7d2a",
+      "readme_excerpt": "RAPIDS is a suite of open-source libraries that bring GPU acceleration to data science pipelines. Users building cloud-based machine learning experiments can take advantage of this acceleration throughout their workloads to build models faster, cheaper, and more easily on the cloud platform of their choice. This repository provides example notebooks and \"getting started\" code samples to help you integrate RAPIDS with the hyperparameter optimization services from Azure ML, AWS Sagemaker, Google Cloud, and Databricks. The directory for each cloud contains a step-by-step guide to launch an example hyperparameter optimization job. Each example job will use RAPIDS data and use cuML",
+      "readme_headings": [
+        "<div align=\"left\"><img src=\"img/rapids_logo.png\" width=\"90px\"/>&nbsp;RAPIDS Cloud Machine Learning Services Integration</div>",
+        "Please see https://docs.rapids.ai/deployment/stable/examples/ for up to date examples",
+        "Notebooks with a ✅ are fully functional as of RAPIDS Release 22.08, Notebooks with a ❌ require an update, or replacement.",
+        "Quick Start Using RAPIDS Cloud ML Container",
+        "Pull Docker Image:",
+        "Build Docker Image:",
+        "Bring Your Own Cloud (Dask and Ray)"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "aws/code/Dockerfile",
+          "sha": "e73cecff8f215082c4bd3c62c39580d53035777f",
+          "size": 910,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "azure/kubernetes/Dockerfile",
+          "sha": "4065a5506aeacc3e242acc8964f39e74b76b600c",
+          "size": 191,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "azure/notebooks/Dockerfile",
+          "sha": "d0743510d7c943d10a6f6a7aded8dbcdfb5b3822",
+          "size": 233,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "dask/kubernetes/Dockerfile",
+          "sha": "4419f5a8bd1bc1e2ed2d65442da6ada49f963c0e",
+          "size": 546,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "databricks/docker/Dockerfile",
+          "sha": "54a51573266f437f55b688778eba579f5fa2fe74",
+          "size": 443,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "aws/rapids_sagemaker_higgs/docker/Dockerfile",
+          "sha": "67071681805c53d5f64c2cbf057438793a39c728",
+          "size": 564,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:30+00:00"
     },
     "rapidsai/clx": {
       "id": 186716715,
@@ -693,12 +799,102 @@
       "open_issues": 10,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 2772795,
+        "Python": 569624,
+        "Shell": 28859,
+        "Dockerfile": 2340
+      },
+      "readme_url": "https://github.com/rapidsai/clx/blob/branch-23.04/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4a48cad4ab10d34a718002d77d69cad968a95fd0",
+      "readme_excerpt": "CLX has been deprecated in favor of Morpheus, a new highly optimized AI framework that includes pre-trained AI capabilities for cybersecurity. This repo will therefore no longer be updated. Many of the CLX use cases and examples have already been migrated to Morpheus. The Morpheus framework also allows you to build your own pipelines for cybersecurity and information security use cases. - Morpheus GitHub repo: https://github.com/nv-morpheus/Morpheus - Full documentation for the latest official Morpheus release: https://docs.nvidia.com/morpheus &nbsp; **NOTE:** For the latest stable README.md ensure you are on the `main` branch. CLX (\"clicks\") provides a collection of RAPIDS examples for security",
+      "readme_headings": [
+        "<div align=\"left\"><img src=\"img/rapids_logo.png\" width=\"90px\"/>&nbsp;&nbsp;CLX - Cyber Log Accelerators [DEPRECATED]</div>",
+        "Deprecation Notice",
+        "Documentation",
+        "Installation",
+        "Intro",
+        "Quick Start",
+        "Start CLX container",
+        "Preferred - Docker CE v19+ and nvidia-container-toolkit",
+        "Legacy - Docker CE v18 and nvidia-docker2",
+        "Container Ports",
+        "Build CLX Docker Image",
+        "Docker Container without SIEM Integration",
+        "Preferred - Docker CE v19+ and nvidia-container-toolkit",
+        "Legacy - Docker CE v18 and nvidia-docker2",
+        "Start JupyterLab",
+        "Stop JupyterLab",
+        "Docker Container with SIEM Integration",
+        "Conda Install",
+        "Stable",
+        "Nightly",
+        "Build/Install from Source",
+        "Getting Started with Python and Notebooks",
+        "download data",
+        "read in alert data",
+        "parse the alert data using CLX built-in parsers",
+        "define function to round time to the day",
+        "aggregate alerts by day",
+        "import the rolling z-score function from CLX statistics",
+        "pivot the alert data so each rule is a column",
+        "create a new cuDF with the rolling z-score values calculated"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "fad66e1be18a5598df9afc6afa055a7e294f958b",
+          "size": 1367,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "d34345c9c2f6ed69501079d2d43287a444b5daa9",
+          "size": 604,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "python/setup.py",
+          "sha": "ffdd888833ff2fc91ffa851253f790813c5f18ec",
+          "size": 502,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "siem_integrations/Dockerfile",
+          "sha": "bfa6eacfe25d380e4693cd452365c6bb41f9757f",
+          "size": 973,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/streamz/Dockerfile",
+          "sha": "186f6592927c1f3be4fd9894ed4815befe756eba",
+          "size": 3892,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/streamz/python/setup.py",
+          "sha": "bd7323e9b2090f1450c9e039eb9f64173484b050",
+          "size": 777,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:34+00:00"
     },
     "rapidsai/code-share": {
       "id": 185428432,
@@ -721,12 +917,82 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 2714291,
+        "CMake": 91507,
+        "Cuda": 65301,
+        "Python": 30564,
+        "Perl": 21364,
+        "Shell": 11516,
+        "Perl 6": 10534,
+        "R": 7761,
+        "C": 6720,
+        "Makefile": 3305,
+        "MATLAB": 1637,
+        "M4": 1087,
+        "Fortran": 266
+      },
+      "readme_url": "https://github.com/rapidsai/code-share/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a5e1054f8521e078cde9fae4e49b20373667e60c",
+      "readme_excerpt": "This repository is a way to share experimental codes that are not yet integrated in RAPIDS products. Prototypes may not build or run.",
+      "readme_headings": [
+        "Rapids - Code Share"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "maxflow/Makefile",
+          "sha": "69f862d786d17b6da00169b406152e0fb5c8d7f5",
+          "size": 3305,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "maxflow/galois/CMakeLists.txt",
+          "sha": "c31f11cd83848d52f1f900ee50f2a547181af363",
+          "size": 11267,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "maxflow/galois/apps/CMakeLists.txt",
+          "sha": "9d3a2967cc8381ce02ecaea8f3f35de2a53039f6",
+          "size": 672,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "maxflow/galois/inputs/CMakeLists.txt",
+          "sha": "2c731ee42943a856cde3a2d738cc491fa0aea6a4",
+          "size": 508,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "maxflow/galois/lib/CMakeLists.txt",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0,
+          "content_status": "content_not_returned",
+          "dependency_hints": []
+        },
+        {
+          "path": "maxflow/galois/scripts/CMakeLists.txt",
+          "sha": "b70eadbdeac23a647c2ee3118ba1baf623be4c58",
+          "size": 124,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:36+00:00"
     },
     "rapidsai/crossfit": {
       "id": 599787661,
@@ -749,12 +1015,55 @@
       "open_issues": 18,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 464876,
+        "Shell": 3091,
+        "Dockerfile": 1233
+      },
+      "readme_url": "https://github.com/rapidsai/crossfit/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f71087a9c790bb6bdee5ff1aa5659354abfb5728",
+      "readme_excerpt": "Multi Node Multi GPU Offline Inference and metric calculation library Install this library using `pip`: pip install crossfit git clone https://github.com/rapidsai/crossfit.git cd crossfit pip install --extra-index-url https://pypi.nvidia.com \".[cuda12x]\" Usage instructions go here. To contribute to this library, first create a conda environment with the necessary dependencies: cd crossfit mamba env create -f conda/environments/cuda_dev.yaml conda activate crossfit_dev Now install the dependencies and test dependencies: pip install -e '.[test]' To run the tests: pytest",
+      "readme_headings": [
+        "crossfit",
+        "Installation",
+        "Installation from source (for cuda 12.x)",
+        "Usage",
+        "Development"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "89709d963240da3605defd910b4f2bce16a5807e",
+          "size": 477,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "setup.py",
+          "sha": "020fbba4c65ccb072bd69c49f83936799b8176f3",
+          "size": 2701,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docker/ci/Dockerfile",
+          "sha": "dee46502d0a524cdd001a66d22221b57ff8f835e",
+          "size": 1233,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:39+00:00"
     },
     "rapidsai/cucim": {
       "id": 356356336,
@@ -790,12 +1099,96 @@
         "segmentation"
       ],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 13668040,
+        "Python": 3609369,
+        "C++": 1064436,
+        "C": 170318,
+        "CMake": 156528,
+        "Cuda": 57891,
+        "Shell": 54540,
+        "Dockerfile": 62
+      },
+      "readme_url": "https://github.com/rapidsai/cucim/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "bdef0ad8934740a5942d0366769400d7095dea8a",
+      "readme_excerpt": "NVIDIA cuCIM (pronounced \"koo-sim\", see here) is an open-source, accelerated computer vision and image processing software library for multidimensional images used in biomedical, geospatial, material and life science, and remote sensing use cases. cuCIM offers: - Enhanced Image Processing Capabilities for large and n-dimensional tag image file format (TIFF) files - Accelerated performance through Graphics Processing Unit (GPU)-based image processing and computer vision primitives - A Straightforward Pythonic Interface with Matching Application Programming Interface (API) for Openslide cuCIM supports the following formats: - Aperio ScanScope Virtual Slide (SVS) - Philips TIFF - Generic Tiled, Multi-resolution RGB TIFF files with the",
+      "readme_headings": [
+        "NVIDIA cuCIM",
+        "Install cuCIM",
+        "Conda",
+        "[Conda (stable)](https://anaconda.org/rapidsai/cucim)",
+        "[Conda (nightlies)](https://anaconda.org/rapidsai-nightly/cucim)",
+        "[PyPI](https://pypi.org/project/cucim/)",
+        "Notebooks",
+        "Downloading sample images",
+        "cuslide2 Plugin",
+        "Enabling cuslide2",
+        "Requirements",
+        "Test Scripts",
+        "Download a sample SVS file and run the test",
+        "Or test with your own SVS file",
+        "Test with a Philips TIFF file",
+        "List available test options",
+        "Build/Install from Source",
+        "Contributing Guide",
+        "Acknowledgments",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "29cb9656712f42a05cd94864cf076cf34be458d4",
+          "size": 8242,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "benchmarks/CMakeLists.txt",
+          "sha": "9b91fc538f42609d5681cadde800e10dc4833d95",
+          "size": 2282,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cpp/CMakeLists.txt",
+          "sha": "7d0f37778bb9cd870f39e3d8ec7d764366d7c68d",
+          "size": 8558,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "ab142fa0020ba2bca1145a6ee76adb80f4a9b937",
+          "size": 738,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "gds/CMakeLists.txt",
+          "sha": "3dd086f11a19a028b3b6ca7b7b07ad881050e70f",
+          "size": 3294,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "python/CMakeLists.txt",
+          "sha": "58aa083ec898ab772d9c0e7d2142b3e361195b25",
+          "size": 6694,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:42+00:00"
     },
     "rapidsai/cuDataShader": {
       "id": 205177993,
@@ -818,12 +1211,45 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 3566832,
+        "Python": 55622,
+        "JavaScript": 27651,
+        "HTML": 3767
+      },
+      "readme_url": "https://github.com/rapidsai/cuDataShader/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b380fbc27e96eb0d1d016021b2816f9b6f9c4476",
+      "readme_excerpt": "The RAPIDS cuDataShader - GPU Accelerated cuDataShader is a port of PyViz's Datashader using GPU CUDA technology to enable up to 50x acceleration in visualization render times. Started as an intern project, cuDatashader is still in its infancy and is not feature complete with Datashader. Plans are in the works to actively work with the PyViz group to implement or extend Datashader with further GPU acceleration. cuDataShader is a chart component of the RAPIDS cuXfilter library. - Core : Canvas taking points or lines - Aggregations/Reductions : Any, Count, Max, Sum - Transfer Functions : Shade, Spread, Dynspread, Stack -",
+      "readme_headings": [
+        "<div align=\"left\"><img src=\"https://rapids.ai/assets/images/rapids_logo.png\" width=\"90px\"/>&nbsp; cuDataShader</div>",
+        "NOTE: This repository is for experimental features only and NOT actively maintained. Full cuDF functionality is now natively available in [Datashader](https://datashader.org/user_guide/Performance.html#Data-objects).",
+        "Implemented features",
+        "Quick Start",
+        "Install cuDataShader",
+        "While in the root folder",
+        "While in the root folder",
+        "Contributing Guide"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "setup.py",
+          "sha": "85283b988112bbc1d84f64be0c49eef85a53393f",
+          "size": 236,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:43+00:00"
     },
     "rapidsai/cudatoolkit-feedstock": {
       "id": 383908005,
@@ -846,12 +1272,27 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 19372,
+        "Shell": 513,
+        "Batchfile": 307
+      },
+      "readme_url": "https://github.com/rapidsai/cudatoolkit-feedstock/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "937991fe79a41804a06fda13f78067e757eb2b49",
+      "readme_excerpt": "About cudatoolkit ================= Home: https://developer.nvidia.com/cuda-toolkit Package license: LicenseRef-NVIDIA-End-User-License-Agreement Feedstock license: BSD-3-Clause Summary: CUDA Toolkit - Including CUDA runtime Development: https://developer.nvidia.com/cuda-downloads Documentation: https://docs.nvidia.com/cuda/ CUDA is a parallel computing platform and programming model developed by NVIDIA for general computing on graphical processing units (GPUs). With CUDA, developers can dramatically speed up computing applications by harnessing the power of GPUs. The CUDA Toolkit from NVIDIA provides everything you need to develop GPU-accelerated applications. This CUDA Toolkit includes GPU-accelerated libraries, and the CUDA runtime for the Conda ecosystem. For the full CUDA Toolkit with a compiler and development tools visit https://developer.nvidia.com/cuda-downloads License Agreements The",
+      "readme_headings": [],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:44+00:00"
     },
     "rapidsai/cudf-alpha": {
       "id": 152325502,
@@ -874,12 +1315,33 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/rapidsai/cudf-alpha/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b6430e94d481dff2b82654a2afa2343251eaebdf",
+      "readme_excerpt": "The contents of this repo and the README have been archived for reference. Future development for cuDF will take place in the cuDF repo. All issues will be copied and migrated to the cuDF repo. We are in the process of integrating and merging PyGDF and LibGDF into a unified library called cuDF. This is a part of RAPIDS project and will take place over the next few weeks. All development has moved from <https://github.com/gpuopenanalytics> to this org. For more information see the announcement and details about the RAPIDS project <https://rapids.ai> To build and install libGDF see the libGDF README",
+      "readme_headings": [
+        ":warning: [ARCHIVED] cuDF-alpha",
+        "All development has moved to the cuDF repo effective October 28th 2018",
+        "Outstanding Issues",
+        "cuDF",
+        "Where is cuDF?",
+        "Learn more about RAPIDS",
+        "Using PyGDF and LibGDF",
+        "LibGDF",
+        "PyGDF"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:46+00:00"
     },
     "rapidsai/cugraph": {
       "id": 157752451,
@@ -913,12 +1375,87 @@
         "rapids"
       ],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Cuda": 6707649,
+        "C++": 3368230,
+        "Python": 1757404,
+        "C": 1327778,
+        "Jupyter Notebook": 1127993,
+        "Cython": 726234,
+        "CMake": 125875,
+        "Shell": 87584,
+        "Dockerfile": 3585,
+        "HTML": 2352
+      },
+      "readme_url": "https://github.com/rapidsai/cugraph/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "de6dc1db13871fb6fdb1d7070ba07b1600cf4a55",
+      "readme_excerpt": "- Installation - Getting cuGraph Packages - Building from Source - Contributing to cuGraph - General - Latest News - Current list of algorithms - Blogs and Presentation - Packages - cuGraph Python - External Data Types - pylibcugraph - libcugraph (C/C++/CUDA) - nx-cugraph - API Docs - Python - Python - C - C - C++ - C++ - References - CUDA-X - ARROW - DASK While the high-level cugraph python API provides an easy-to-use and familiar interface for data scientists that's consistent with other RAPIDS libraries in their workflow, some use cases require access to lower-level graph theory",
+      "readme_headings": [
+        "Table of contents",
+        "read data into a cuDF DataFrame using read_csv",
+        "We now have data as edge pairs",
+        "create a Graph using the source (src) and destination (dst) vertex pairs",
+        "Let's now get the PageRank score of each vertex by calling cugraph.pagerank",
+        "Let's look at the top 10 PageRank Score",
+        "Projects that use cuGraph",
+        "<div align=\"center\"><img src=\"img/rapids_logo.png\" width=\"265px\"/></div> Open GPU Data Science <a name=\"rapids\"></a>",
+        "Apache Arrow on GPU  <a name=\"arrow\"></a>"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "c9e59fb190b1caf2cb8d9845c2dfeafcc36aa422",
+          "size": 306,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".devcontainer/Dockerfile",
+          "sha": "21a54d49173db717ff7cd7c84092e47f7f261db4",
+          "size": 1636,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cpp/CMakeLists.txt",
+          "sha": "78070401e649d9627b05730e8b13d202d7f0d90d",
+          "size": 35506,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cpp/libcugraph_etl/CMakeLists.txt",
+          "sha": "d37a7dd8f7d29c9d9aed8da37eca9873c1cdbf61",
+          "size": 7081,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cpp/tests/CMakeLists.txt",
+          "sha": "86a9d18373fe6aad1ce0354847ea66d0b7925135",
+          "size": 59508,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "python/cugraph/CMakeLists.txt",
+          "sha": "3aa9280dd8a95913dff28103cafd67c7d52ed545",
+          "size": 1133,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:49+00:00"
     },
     "rapidsai/cugraph-docs": {
       "id": 803335366,

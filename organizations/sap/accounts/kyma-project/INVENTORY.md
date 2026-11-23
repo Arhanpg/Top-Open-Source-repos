@@ -1,0 +1,80 @@
+# SAP / kyma-project — repository inventory
+
+- Pagination complete: True
+- Pages in latest scan: 1
+- Repository records: 72
+
+| Repository | Description | Stars | Languages | Archived | Fork | In latest scan | README state | Dossier |
+|---|---|---:|---|---:|---:|---|---|---|
+| [kyma-project/.github](https://github.com/kyma-project/.github) | No description | 0 | Pending | False | False | True | captured | [Open](repositories/github-678089458.md) |
+| [kyma-project/addons](https://github.com/kyma-project/addons) | Helm Broker AddOns | 3 | Makefile, Mustache, Shell, Smarty | True | False | True | captured | [Open](repositories/addons-151691065.md) |
+| [kyma-project/ans-manager](https://github.com/kyma-project/ans-manager) | Integration with Alert Notification Service - POC | 0 | Go, Shell | True | False | True | captured | [Open](repositories/ans-manager-1037190567.md) |
+| [kyma-project/api-gateway](https://github.com/kyma-project/api-gateway) | API Gateway is a Kyma module with which you can expose and secure APIs. | 12 | Dockerfile, Gherkin, Go, Go Template, JavaScript, Makefile, Shell | False | False | True | captured | [Open](repositories/api-gateway-519156227.md) |
+| [kyma-project/application-connector-manager](https://github.com/kyma-project/application-connector-manager) | No description | 0 | Dockerfile, Go, Go Template, JavaScript, Makefile, Mustache, Shell | False | False | True | captured | [Open](repositories/application-connector-manager-557757152.md) |
+| [kyma-project/auditlog-manager](https://github.com/kyma-project/auditlog-manager) | No description | 0 | Dockerfile, Go, Makefile, Shell | True | False | True | captured | [Open](repositories/auditlog-manager-1177759706.md) |
+| [kyma-project/btp-manager](https://github.com/kyma-project/btp-manager) | BTP Manager installs SAP BTP Service Operator as a Kyma module | 10 | Dockerfile, Go, JavaScript, Makefile, Python, Shell | False | False | True | captured | [Open](repositories/btp-manager-536958609.md) |
+| [kyma-project/busola](https://github.com/kyma-project/busola) | Web based Kubernetes Dashboard with a focus on privacy that requires no active components or special privileges in your cluster. | 31 | CSS, Dockerfile, HTML, JavaScript, Makefile, SCSS, Shell, TypeScript | False | False | True | captured | [Open](repositories/busola-346720555.md) |
+| [kyma-project/cfapi](https://github.com/kyma-project/cfapi) | CF API kyma module | 0 | Dockerfile, Go, Makefile, Shell | True | False | True | captured | [Open](repositories/cfapi-817216616.md) |
+| [kyma-project/cli](https://github.com/kyma-project/cli) | Simple set of commands to manage a Kyma cluster | 125 | Go, HCL, JavaScript, Makefile, Shell | False | False | True | captured | [Open](repositories/cli-157188288.md) |
+| [kyma-project/cloud-manager](https://github.com/kyma-project/cloud-manager) | No description | 5 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/community](https://github.com/kyma-project/community) | Provides general guidelines, contributing, and maintaining rules for all who add content to Kyma. | 45 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/community-modules](https://github.com/kyma-project/community-modules) | Kyma community modules | 1 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/compass-manager](https://github.com/kyma-project/compass-manager) | Manager for the compass module | 1 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/compliancy](https://github.com/kyma-project/compliancy) | Automations related to the compliancy | 0 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/control-plane](https://github.com/kyma-project/control-plane) | A flexible and easy way to manage Kyma Runtimes | 16 | Pending | True | False | True | pending | Not generated |
+| [kyma-project/cp-mod-migrator](https://github.com/kyma-project/cp-mod-migrator) | No description | 0 | Pending | True | False | True | pending | Not generated |
+| [kyma-project/Cx1ClientGo](https://github.com/kyma-project/Cx1ClientGo) | Simple client for Cx1 written in GoLang | 1 | Pending | True | True | True | pending | Not generated |
+| [kyma-project/dev-toolbox](https://github.com/kyma-project/dev-toolbox) | No description | 0 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/directory-size-exporter](https://github.com/kyma-project/directory-size-exporter) | Sidecar for fluentbit to export file buffer metrics | 1 | Pending | True | False | True | pending | Not generated |
+| [kyma-project/docker-registry](https://github.com/kyma-project/docker-registry) | No description | 3 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/dora-integration-test](https://github.com/kyma-project/dora-integration-test) | Repository for DORA integration tests | 0 | Pending | True | False | True | pending | Not generated |
+| [kyma-project/eventing-auth-manager](https://github.com/kyma-project/eventing-auth-manager) | No description | 1 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/eventing-manager](https://github.com/kyma-project/eventing-manager) | Eventing Operator installs Eventing as Kyma module | 6 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/eventing-publisher-proxy](https://github.com/kyma-project/eventing-publisher-proxy) | No description | 1 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/eventing-tools](https://github.com/kyma-project/eventing-tools) | No description | 3 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/examples](https://github.com/kyma-project/examples) | Kyma use cases | 49 | Pending | True | False | True | pending | Not generated |
+| [kyma-project/gardener-syncer](https://github.com/kyma-project/gardener-syncer) | No description | 0 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/gpu](https://github.com/kyma-project/gpu) | Experimental, not maintained. NVIDIA GPU Operator lifecycle manager for Kyma clusters, offered on a best-effort basis. | 2 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/gpu-driver](https://github.com/kyma-project/gpu-driver) | Experimental, not maintained. NVIDIA GPU driver installer for Kyma clusters, offered on a best-effort basis. | 0 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/hydroform](https://github.com/kyma-project/hydroform) | Infrastructure SDK for provisioning and managing Kubernetes cluster based on Terraform | 8 | Pending | True | False | True | pending | Not generated |
+| [kyma-project/interactive-tutorials](https://github.com/kyma-project/interactive-tutorials) | Interactive tutorials for killercoda.com/kyma-project | 0 | Pending | True | False | True | pending | Not generated |
+| [kyma-project/ip-auth](https://github.com/kyma-project/ip-auth) | External authorizer for istio that performs check based on client IP | 0 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/istio](https://github.com/kyma-project/istio) | Istio is a Kyma module with allows for easy installation, configuration and maintenance of Istio service mesh with a Kubernetes operator | 5 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/k8s-prow](https://github.com/kyma-project/k8s-prow) | Used for prow maintenance, fixes and features that may not be merged into upstream | 0 | Pending | True | True | True | pending | Not generated |
+| [kyma-project/keda-manager](https://github.com/kyma-project/keda-manager) | Keda Operator installs Keda as Kyma module | 6 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/kim-snatch](https://github.com/kyma-project/kim-snatch) | No description | 1 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/kyma](https://github.com/kyma-project/kyma) | Kyma is an opinionated set of Kubernetes-based modular building blocks, including all necessary capabilities to develop and run enterprise-grade cloud-native applications. | 1563 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/kyma-companion](https://github.com/kyma-project/kyma-companion) | A tool that brings AI to Kyma | 7 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/kyma-companion-manager](https://github.com/kyma-project/kyma-companion-manager) | Kyma Companion Manager operator, which will manage the deployments of the Kyma Companion and its components components. The manager should facilitate the Companion Custom Resource (CR) to handle HANA Vector DB, Redis, and AI-Core secrets. | 1 | Pending | True | False | True | pending | Not generated |
+| [kyma-project/kyma-dashboard](https://github.com/kyma-project/kyma-dashboard) | This is the main repository for the SAP BTP, Kyma runtime Dashboard | 2 | Pending | True | False | True | pending | Not generated |
+| [kyma-project/kyma-environment-broker](https://github.com/kyma-project/kyma-environment-broker) | Kyma Environment Broker | 1 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/kyma-infrastructure-manager](https://github.com/kyma-project/kyma-infrastructure-manager) | No description | 2 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/kyma-metrics-collector](https://github.com/kyma-project/kyma-metrics-collector) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [kyma-project/lifecycle-manager](https://github.com/kyma-project/lifecycle-manager) | Controller that manages the lifecycle of Kyma Modules in your cluster. | 12 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/manager-toolkit](https://github.com/kyma-project/manager-toolkit) | A set of reusable, unified reconciliation helpers | 0 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/md-check-link](https://github.com/kyma-project/md-check-link) | Tool for checking links in markdown files. Supports also links to the website hosted with docsify. | 1 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/module-manager](https://github.com/kyma-project/module-manager) | No description | 3 | Pending | True | False | True | pending | Not generated |
+| [kyma-project/modulectl](https://github.com/kyma-project/modulectl) | Internal tool for module management and operations | 0 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/nats-manager](https://github.com/kyma-project/nats-manager) | No description | 6 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/networking-dev-tools](https://github.com/kyma-project/networking-dev-tools) | Repository containing tooling shared between kyma-project/api-gateway and kyma-project/istio | 0 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/opentelemetry-collector-components](https://github.com/kyma-project/opentelemetry-collector-components) | Contains Otel Collector components that are not pushed to upstream (yet) or components that are Kyma specific | 3 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/policy-manager](https://github.com/kyma-project/policy-manager) | No description | 1 | Pending | True | False | True | pending | Not generated |
+| [kyma-project/price-calculator](https://github.com/kyma-project/price-calculator) | Web-based cost estimator for SAP BTP, Kyma runtime that shows estimated monthly costs in Capacity Units and euros based on your runtime configuration. | 1 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/qa-toolkit](https://github.com/kyma-project/qa-toolkit) | No description | 0 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/registry-cache](https://github.com/kyma-project/registry-cache) | No description | 2 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/registry-proxy](https://github.com/kyma-project/registry-proxy) | No description | 0 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/rt-bootstrapper](https://github.com/kyma-project/rt-bootstrapper) | No description | 1 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/runtime-watcher](https://github.com/kyma-project/runtime-watcher) | No description | 1 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/serverless](https://github.com/kyma-project/serverless) | No description | 6 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/setup-kyma-cli](https://github.com/kyma-project/setup-kyma-cli) | Sets up Kyma CLI in your GitHub Actions workflow. | 1 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/slack-bot](https://github.com/kyma-project/slack-bot) | This slack-bot collects all @gophers notifications into one slack channel | 3 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/subscription-cleanup-job](https://github.com/kyma-project/subscription-cleanup-job) | subscription-cleanup-job | 1 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/telemetry-manager](https://github.com/kyma-project/telemetry-manager) | Provides K8S APIs for a managed collector setup for log, trace, and metric ingestion and dispatching into 3rd-party backend systems, in order to reduce the pain of orchestrating such setup on your own | 8 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/template-operator](https://github.com/kyma-project/template-operator) | No description | 0 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/template-repository](https://github.com/kyma-project/template-repository) | No description | 0 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/terraform-btp-kyma-environment](https://github.com/kyma-project/terraform-btp-kyma-environment) | No description | 0 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/test-infra](https://github.com/kyma-project/test-infra) | No description | 39 | Pending | False | False | True | pending | Not generated |
+| [kyma-project/third-party-images](https://github.com/kyma-project/third-party-images) | Third party Docker images maintained by the Kyma team | 0 | Pending | True | False | True | pending | Not generated |
+| [kyma-project/wait-for-commit-status-action](https://github.com/kyma-project/wait-for-commit-status-action) | Github Action for workflow triggers by prow | 0 | Pending | True | False | True | pending | Not generated |
+| [kyma-project/warden](https://github.com/kyma-project/warden) | Image authenticity validation made k8s-native | 3 | Pending | True | False | True | pending | Not generated |
+| [kyma-project/website](https://github.com/kyma-project/website) | Kyma landing page with blog, documentation and roadmap | 71 | Pending | True | False | True | pending | Not generated |

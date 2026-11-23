@@ -1868,12 +1868,108 @@
       "open_issues": 20,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 51024,
+        "PLpgSQL": 28865,
+        "HTML": 28758,
+        "Shell": 9778,
+        "Makefile": 3462,
+        "Dockerfile": 2897,
+        "CSS": 2684,
+        "JavaScript": 1564
+      },
+      "readme_url": "https://github.com/aws-samples/ack-rds-gitops-workshop/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "dca2c33c35d9e3743c8eafd92c60e5af86d88216",
+      "readme_excerpt": "In this workshop, learn to deploy a continuous integration and delivery (CI/CD) workflow using GitOps and the AWS Controllers for Kubernetes (ACK) service controller for Amazon RDS on Amazon EKS to create and manage Amazon Aurora Serverless v2 databases effectively. GitOps relies on Git as the single source of truth for declaratively managing containerized infrastructure and application components. With Git at the center of CI/CD pipelines, developers can automate and simplify application deployments and operations to Kubernetes. You must bring your laptop to participate. For this example we assume a scenario with two clusters: dev and production. The end goal",
+      "readme_headings": [
+        "DAT312: Implement GitOps and manage your Amazon RDS resources using ACK from K8s",
+        "Getting started",
+        "Prerequisites",
+        "Prepare your AWS CodeCommit git repository for automation",
+        "Building a GitOps pipeline to deploy an app using Amazon RDS databases",
+        "Ongoing management of AWS resources through a GitOps pipeline"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "apps/src/Makefile",
+          "sha": "f5c94260c4d89c9a6e2f097a266c6156ac24d7af",
+          "size": 1541,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "apps/src/kart/Dockerfile",
+          "sha": "6cd20d92092ad4691c3561826cc5bd4f736efe8e",
+          "size": 576,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "apps/src/kart/Makefile",
+          "sha": "511c33859401f1e8d45d2d1035f7bd051c6e172c",
+          "size": 390,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "apps/src/kart/requirements.txt",
+          "sha": "47cd4fcfb00e356a7275b0ae3113bb18f7b9942d",
+          "size": 350,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Flask",
+            "Flask-Cors",
+            "Jinja2",
+            "MarkupSafe",
+            "Werkzeug",
+            "certifi",
+            "chardet",
+            "click",
+            "email_validator",
+            "flask-images",
+            "flask-restful",
+            "flask_session",
+            "flask_wtf",
+            "gunicorn",
+            "idna",
+            "itsdangerous",
+            "json-logging",
+            "jsonify",
+            "msgpack",
+            "psycopg2",
+            "python-memcached",
+            "redis-py-cluster",
+            "requests",
+            "six",
+            "urllib3"
+          ]
+        },
+        {
+          "path": "apps/src/order/Dockerfile",
+          "sha": "6cd20d92092ad4691c3561826cc5bd4f736efe8e",
+          "size": 576,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "apps/src/order/Makefile",
+          "sha": "18f4cc76dc0c0343a15dcceb7abe58aae9c44794",
+          "size": 365,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:26:45+00:00"
     },
     "aws-samples/ACM-flag-CA-issuer": {
       "id": 863571445,
@@ -1896,12 +1992,67 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 2815
+      },
+      "readme_url": "https://github.com/aws-samples/ACM-flag-CA-issuer/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "83a1bfd5b9cadae646db3a96f69189c919a2a917",
+      "readme_excerpt": "Three solutions/approaches allow you to audit the Issuer of certificates stored in AWS Certificate Manager. The most common reasons you might do this include: * You have an allowed/preferred list of Certificate Authorities and need to audit this across your Organization * You have a list of Certificate Authorities you do NOT to be used or need to flag where they are being used * This could be company policy or as a result of a upcoming client/browser trusted CA store change to identify impact/risk. Please see this AWS Security Blog post for more information about how to use this",
+      "readme_headings": [
+        "AWS Certificate Manager - Flag Certificates by CA Issuer",
+        "Overview",
+        "Approaches",
+        "Python Script",
+        "Prerequisites",
+        "How to Use",
+        "Clone GitHub repo",
+        "Activate virtual Environment",
+        "Install required python modules for script",
+        "Example execution, assumes credentials are already configured",
+        "Example execution, specifies an AWS Credential profile to use",
+        "Help",
+        "AWS Config Query",
+        "Prerequisites",
+        "Query",
+        "AWS Config Custom Rule",
+        "Prerequisites",
+        "How to Deploy",
+        "Clone github code",
+        "Define stackset name",
+        "Uncomment below to specify custom OU(s)",
+        "Consolidated Report",
+        "AWS Security Hub",
+        "AWS Config Query",
+        "Query"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "882fbd2209c7d321d9cdd0a34498c1320d8893a2",
+          "size": 124,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "botocore",
+            "jmespath",
+            "python-dateutil",
+            "s3transfer",
+            "six",
+            "urllib3"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:26:46+00:00"
     },
     "aws-samples/acmpca-hierarchy": {
       "id": 379958518,
@@ -1924,12 +2075,39 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-samples/acmpca-hierarchy/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "28bb25e6b63c7be65d3d6347f1aea64fb8ed0522",
+      "readme_excerpt": "Large organizations often build a public key infrastructure (PKI) inside the AWS cloud, intended for private use within an organization. With AWS Private Certificate Authority (AWS Private CA), you create your own CA hierarchy and issue certificates with it for authenticating internal users, computers, applications, services, servers, and other devices, and for signing computer code. Certificates issued by a private CA are trusted only within your organization, not on the public internet. AWS Resource Access Manager (AWS RAM) allows you to securely share AWS resources within your AWS Organization. Private CA Cross-Account Sharing, gives you the ability to grant permissions",
+      "readme_headings": [
+        "AWS Private Certificate Authority (AWS Private CA) shared to AWS Organizations via AWS Resource Access Manager (AWS RAM)",
+        "Usage",
+        "Limitations",
+        "Prerequisites",
+        "Alternatives",
+        "Test Cases",
+        "Certificate Lifecycle Tests",
+        "Request Certificate. Use the CA ARN from the output of AWS CloudFormation template stack.",
+        "Export Certificate. Use the certificate ARN from the response of request-certificate",
+        "Describe Certificate. See if it is eligible for renewal",
+        "Renew Certificate, see if renewal is successful using describe-certificate",
+        "Delete Certificate",
+        "Test Cleanup",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:26:48+00:00"
     },
     "aws-samples/acmpca-hierarchy-build": {
       "id": 348153758,
@@ -1952,12 +2130,42 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 10563
+      },
+      "readme_url": "https://github.com/aws-samples/acmpca-hierarchy-build/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "93ccf95502f97c81d9a612806ef35129d99ce83a",
+      "readme_excerpt": "This is a step-by-step guide to deploy an AWS Certificate Manager (ACM) Private Certificate Authority (PCA) hierarchy, which is a pre-requisite for you to automate the issuing and renewing of private certificates for AWS services integrated with ACM: - Elastic Load Balancing - Amazon CloudFront - AWS Elastic Beanstalk - Amazon API Gateway - AWS Nitro Enclaves (for EC2 instances connected to a Nitro Enclave) You can use AWS CloudFormation to handle ACM Private Certificate provisioning (not part of this repository). At the top of the CA (Certificate Authority) hierarchy is the Root CA, which is used to certify first-level",
+      "readme_headings": [
+        "AWS Certificate Manager (ACM) Private Certificate Authority (PCA) Hierarchy Deployment",
+        "Prerequisites",
+        "Step-by-step guide",
+        "Root CA",
+        "Subordinate CA",
+        "Useful Tips and Tools",
+        "List all private CAs",
+        "Verify the private CAs from the AWS Console",
+        "Verify the CA Certificate",
+        "Verify the CA Chain",
+        "Verify issuing capability",
+        "Request a certificate (with default settings)",
+        "Issue a certificate",
+        "Verify CRL",
+        "Revoke a certificate",
+        "Delete a CA"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:26:50+00:00"
     },
     "aws-samples/active-active-cache": {
       "id": 751993046,
@@ -1980,12 +2188,120 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 22763,
+        "Makefile": 7488,
+        "Python": 4580,
+        "JavaScript": 3184
+      },
+      "readme_url": "https://github.com/aws-samples/active-active-cache/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a99bb9ac013a2f69bb1c30f5efa6f3f960bd40af",
+      "readme_excerpt": "This solution implements an active-active cache across 2 AWS regions, using ElastiCache for Redis.This solution is automated with CDK and SAM. I described even the architecture below as code! It uses SNS and SQS to increase resilience.",
+      "readme_headings": [
+        "Active-Active Cache",
+        "Architecture"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "makefile",
+          "sha": "9d0af064a7dfddd83177a68a9bc5542115b39fb7",
+          "size": 7429,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "package.json",
+          "sha": "f0967d09a9826a77a09a5aa435bd34272eb4bbd8",
+          "size": 58,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-cdk-lib"
+          ]
+        },
+        {
+          "path": "architecture/makefile",
+          "sha": "eb891c6e466070aafc69fc46b13ff77533b27872",
+          "size": 59,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "solution/package.json",
+          "sha": "043e8a90a0a9d3a89301c460ac21ad85fcc03f3e",
+          "size": 532,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/jest",
+            "@types/node",
+            "aws-cdk",
+            "aws-cdk-lib",
+            "constructs",
+            "jest",
+            "source-map-support",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "cacher/loader/package.json",
+          "sha": "afa282fe7a733e4d5dfdcff6c484045f0f9f6429",
+          "size": 1008,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-sdk/client-cloudwatch",
+            "@types/aws-lambda",
+            "@types/jest",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "esbuild",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-prettier",
+            "jest",
+            "prettier",
+            "redis",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "elasticache_query/query/package.json",
+          "sha": "db48c4b23b66bdb031576a0cf7353feccdc802d9",
+          "size": 969,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/aws-lambda",
+            "@types/jest",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "esbuild",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-prettier",
+            "jest",
+            "prettier",
+            "redis",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:26:53+00:00"
     },
     "aws-samples/actuarial-reserve-modelling": {
       "id": 635406937,
@@ -2008,12 +2324,71 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 17350,
+        "Rust": 2375,
+        "Shell": 1021,
+        "Dockerfile": 182
+      },
+      "readme_url": "https://github.com/aws-samples/actuarial-reserve-modelling/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d54f6232a9ee13edb8ede4e07cf54907c55c075c",
+      "readme_excerpt": "Actuarial modeling is a key component in the insurance industry, used for analyzing and predicting various risks and potential losses. Due to the complexity of calculations involved, actuarial modeling requires significant computing power and resources. This is where AWS services such as AWS High Performance Computing (HPC) services come in. This repository is an addtion to this blog post where we walk you through on how we can deploy scalable and cost-effective solution for actuarial computing using AWS services. It is recommended to run it on a machine other than Mac with M1 chip due to the differences of docker",
+      "readme_headings": [
+        "Actuarial-Reserve-Modelling",
+        "Before you begin",
+        "Prerequisites",
+        "Deploy infrastructure",
+        "Submitting batch job",
+        "Navigating to the AWS Batch console",
+        "Navigate to the AWS Lambda console",
+        "Clean-up",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "docker_files/Cargo.toml",
+          "sha": "2b38feedb137019c1ae7466be09f4fdf778e8dc3",
+          "size": 347,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-config",
+            "csv",
+            "rand",
+            "rand_distr",
+            "serde",
+            "tokio"
+          ]
+        },
+        {
+          "path": "docker_files/Dockerfile",
+          "sha": "c760d33fd65ed68d52e987cb7d679b1702c0b757",
+          "size": 182,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "infrastructure/requirements.txt",
+          "sha": "2f425bc1604395ea74ef2fd77ba2d9d5e443d60a",
+          "size": 47,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-cdk-lib",
+            "constructs"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:26:55+00:00"
     },
     "aws-samples/ad-creatives-and-gen-ai-stable-diffusion": {
       "id": 647965343,
@@ -2036,12 +2411,44 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 2603343,
+        "Python": 35096
+      },
+      "readme_url": "https://github.com/aws-samples/ad-creatives-and-gen-ai-stable-diffusion/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4351b43d475eda8b503b57790ddda16fc9b7688c",
+      "readme_excerpt": "This project walks you through how you can deploy a ControleNet model with Stable Diffusion on SageMaker endpoint using Multi-Model approach and Single-model approach. * For the multi-model deployment approach please run the ControlNet-MME.ipynb * For the single mode deployment approach please run the ControlNet.ipynb The streamlit app for this prioject is located in *app_complete.py*. To run this Streamlit App on Sagemaker Studio follow the steps in the link below: * Set Up SageMaker Studio * Launch SageMaker Studio * Clone this git repo into studio * In the app_complete.py script, change the values for the variables `ENDPOINT` to the",
+      "readme_headings": [
+        "My Project",
+        "Set Up StreamLit Front-End",
+        "Note",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "ef3693ff4ee9e0b0ac507e5aca828c961527036b",
+          "size": 22,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "pandas",
+            "streamlit"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:26:57+00:00"
     },
     "aws-samples/ad-overlay-opportunity-detection": {
       "id": 327035047,
@@ -2070,12 +2477,58 @@
         "sqs"
       ],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 11794,
+        "Shell": 642
+      },
+      "readme_url": "https://github.com/aws-samples/ad-overlay-opportunity-detection/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ac26fb7409179075954de66578fa5843d45b43cb",
+      "readme_excerpt": "This repo contains demonstration code for the \"Identifying Opportunities for Placing Overlay Advertisements in Video Content\" blog post published on the AWS Media & Entertainment blog, which discusses how to use Rekognition to find opportunities for overlay advertisements in video. Overlay advertisements (also called banner advertisements) are often used during a broadcast to promote related or upcoming television shows, as well as for general third-party advertisements. They are typically displayed in the bottom quarter of the screen (overlapping the broadcast video), and disappear after a few seconds. Although these can be effective tools for building awareness about new shows or",
+      "readme_headings": [
+        "Finding Opportunities for Overlay Ad Placements in Videos",
+        "Purpose",
+        "Requirements",
+        "Project Description",
+        "Installation",
+        "Create bucket for deployment artifacts",
+        "Build and deploy the infrastructure stack",
+        "Configuring the Code",
+        "Testing the Code",
+        "Cleaning up",
+        "Content Security Legal Disclaimer",
+        "Operational Metrics Collection"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "src/process_results/requirements.txt",
+          "sha": "1db657b6b33513004179265762389a4e67e19f9f",
+          "size": 5,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3"
+          ]
+        },
+        {
+          "path": "src/rekognition_call/requirements.txt",
+          "sha": "1db657b6b33513004179265762389a4e67e19f9f",
+          "size": 5,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:26:59+00:00"
     },
     "aws-samples/ad-workspace-automation": {
       "id": 751968996,
@@ -2098,12 +2551,27 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-samples/ad-workspace-automation/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7f9220474bb6af7e8a1768aa94de6b8718280372",
+      "readme_excerpt": "TODO: Fill this README out! Be sure to: * Change the title in this README * Edit your repository description on GitHub See CONTRIBUTING for more information. This library is licensed under the MIT-0 License. See the LICENSE file.",
+      "readme_headings": [
+        "My Project",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:27:00+00:00"
     },
     "aws-samples/ada-appflow-extension": {
       "id": 745035576,
@@ -2130,12 +2598,94 @@
         "appflow"
       ],
       "last_seen_scan_id": "2026-11-23T19:27:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 53132,
+        "Batchfile": 437
+      },
+      "readme_url": "https://github.com/aws-samples/ada-appflow-extension/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d044cfcd66762125d463ab01676515481cf12176",
+      "readme_excerpt": "The ADA Extension streamlines the integration process, making it easy to connect ADA with a multitude of external SaaS data sources through Amazon AppFlow. This connection allows for the automatic retrieval and integration of data, eliminating the need for users to manually configure data flows within ADA. This extension leverages Amazon EventBridge, AWS Lambda and AWS Step Functions to orchestrate ADA data-product creation for a source AppFlow flow by consuming flow execution events. When an AppFlow flow execution with destination S3 ends succesfully, the event will trigger step function state machine. The state machine will create the respective ADA data-product.",
+      "readme_headings": [
+        "Automated Data Analytics(ADA) Amazon AppFlow Extension",
+        "Solution Architecture",
+        "Pre-requisites",
+        "Deployment",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "09271cd4b8baa0d0713b3abe2f55ceab2a72d365",
+          "size": 65,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-cdk-lib",
+            "cdk-nag",
+            "constructs"
+          ]
+        },
+        {
+          "path": "lambdas/create_ada_dataproduct/requirements.txt",
+          "sha": "20e4c8cff8598fb80c20774596d0557055784651",
+          "size": 31,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "requests"
+          ]
+        },
+        {
+          "path": "lambdas/existing_flow_handler_cr/requirements.txt",
+          "sha": "b115b0d791ac79af6ffd13a861f67fe5b7c31585",
+          "size": 31,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "requests"
+          ]
+        },
+        {
+          "path": "lambdas/notify_user/requirements.txt",
+          "sha": "6464e31dbba385ed05757710a4cc4fb66338adeb",
+          "size": 14,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3"
+          ]
+        },
+        {
+          "path": "lambdas/trigger_ada_data_update/requirements.txt",
+          "sha": "20e4c8cff8598fb80c20774596d0557055784651",
+          "size": 31,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "requests"
+          ]
+        },
+        {
+          "path": "lambdas/update_flow_metadata/requirements.txt",
+          "sha": "88a2ab05f47065de360a7b630cc9b3d2cb908ec8",
+          "size": 26,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "moto"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:27:03+00:00"
     },
     "aws-samples/add-policy-to-ec2-role": {
       "id": 664807457,

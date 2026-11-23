@@ -5,10 +5,10 @@
 - Mapping status: official-directory-listed
 - Repository: [boto/requestbuilder](https://github.com/boto/requestbuilder)
 - Default branch: master
-- README: [Open upstream README](https://github.com/boto/requestbuilder/blob/master/README.md)
-- README blob SHA: Not captured
+- README: [Open upstream README](https://github.com/boto/requestbuilder/blob/master/README)
+- README blob SHA: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
 - Repository ID: 3961464
-- Evidence state: evidence capture incomplete
+- Evidence state: evidence captured; manual review pending
 - Manual review: manual technical interpretation pending
 
 ## Upstream description
@@ -19,8 +19,9 @@ This is repository-owner metadata, not an independently verified technical summa
 
 ## README capture
 
-- Status: error
-- Captured: 2026-11-23T20:14:10+00:00
+- Status: unavailable
+- Unavailable reason: README file is present but zero bytes
+- Captured: 2026-11-23T20:30:23+00:00
 
 ### Short excerpt (up to 100 words)
 
@@ -67,10 +68,10 @@ Interpret the README's purpose and capabilities; confirm framework/library claim
 ## Upstream links
 
 - [Repository](https://github.com/boto/requestbuilder)
-- [README](https://github.com/boto/requestbuilder/blob/master/README.md)
+- [README](https://github.com/boto/requestbuilder/blob/master/README)
 - [Issues](https://github.com/boto/requestbuilder/issues)
 - [Releases](https://github.com/boto/requestbuilder/releases)
 
-Capture errors: README: README metadata returned without base64 content
+Capture errors: None
 
 *Generated evidence capture only. This page is not labelled README reviewed until a human has interpreted and checked the upstream material.*

@@ -2261,12 +2261,29 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/amazon-science/application-eval-data/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6b6fc52cb2d6e14bca10713db0d94e485d1072fb",
+      "readme_excerpt": "Current methods for evaluating large language models typically focus on high-level tasks such as question answering or text generation, without targeting a particular AI application. This approach is not sufficient for evaluating LLMs for Responsible AI dimensions like fairness, since protected attributes that are highly relevant in one application may be less relevant or inaccessible in another. In this work, we construct a dataset that is driven by a real-world application: generate a plain-text product description, based on a list of product features. The dataset is parameterized by fairness attributes (identity groups) built on prior work in NLP fairness, intersected",
+      "readme_headings": [
+        "A Use-Case Specific Dataset for Measuring Dimensions of Responsible Performance in LLM-generated Text",
+        "The Dataset",
+        "Sample Use",
+        "The License",
+        "Citations"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:29:14+00:00"
     },
     "amazon-science/Approximately-Aligned-Decoding": {
       "id": 1071184657,
@@ -2289,12 +2306,73 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 179947,
+        "Python": 157197,
+        "Jupyter Notebook": 12258,
+        "Shell": 743
+      },
+      "readme_url": "https://github.com/amazon-science/Approximately-Aligned-Decoding/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "eeb3eb234fc87f9eeb49673ba81a4bdad3ddacb0",
+      "readme_excerpt": "Official code for https://neurips.cc/virtual/2025/poster/120288 This code is being released solely for academic and scientific reproducibility purposes, in support of the methods and findings described in the associated publication. Pull requests are not being accepted in order to maintain the code exactly as it was used in the paper, but interested parties are encouraged to open an issue requesting open source community development. This repository contains code to perform approximately aligned decoding, using an efficient technique to resample after an undesired output is detected. We refer to undesired outputs as errors, but this could be anything that is detectable automatically (grammar,",
+      "readme_headings": [
+        "Approximately-Aligned-Decoding",
+        "Overview",
+        "Paths",
+        "Instructions to run experiments",
+        "Random quirks of this repository"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "161bc3c9277af911a11e7c9e27a77340f3d60ac5",
+          "size": 291,
+          "content_status": "captured",
+          "dependency_hints": [
+            "accelerate",
+            "ansi",
+            "datasets",
+            "jupyter",
+            "numpy",
+            "pandas",
+            "requests",
+            "scipy",
+            "tokenizers",
+            "torch",
+            "tqdm",
+            "transformers",
+            "typing_extensions"
+          ]
+        },
+        {
+          "path": "pyright_hallucination_detector/package.json",
+          "sha": "7306964a4b004739a34c983a7c0fb9bc0455e4f7",
+          "size": 682,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/express",
+            "@types/jest",
+            "@zzzen/pyright-internal",
+            "express",
+            "jest",
+            "pyright",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:29:16+00:00"
     },
     "amazon-science/assaying-ood": {
       "id": 555295765,
@@ -2317,12 +2395,54 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 307116,
+        "Shell": 11651
+      },
+      "readme_url": "https://github.com/amazon-science/assaying-ood/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "06814500f793b890a9709e971e648b0c6d1d5d75",
+      "readme_excerpt": "The *Assaying Out-of-Distribution Inspector* is a library to evaluate robustness, generalization and fairness properties of neural networks. It is highly configurable with the goal of speeding up and standardizing the robustness testing process of neural networks. It includes a transfer learning classification benchmark for long-tail tasks with 40+ data sets each with multiple real out-of-distribution (OOD) test sets as well as fairness data sets. For evaluation it supports standard accuracy metrics, calibration error, adversarial attacks, demographic parity, explanation infidelity, synthetic corruptions on both in- and out-of-distribution data. For fine-tuning it supports several augmentation strategies (>10 standard transformations plus popular methods",
+      "readme_headings": [
+        "Assaying OOD",
+        "Setup",
+        "Dataset hosting",
+        "Quick overview on how to run the *Inspector*",
+        "General usage",
+        "CLI",
+        "Datasets and Evaluations",
+        "Configuration with yaml files",
+        "Using config groups",
+        "Advanced configuration",
+        "Run the *Inspector* on a cluster",
+        "Inspecting the results"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "9065380e673df1ee55ce6197f99d4f39331fe78e",
+          "size": 209,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "d0c3cbf1020d5c292abdedf27627c6abe25e2293",
+          "size": 638,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:29:18+00:00"
     },
     "amazon-science/ATOD": {
       "id": 1376041039,
@@ -2345,12 +2465,61 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 285092,
+        "Shell": 2495
+      },
+      "readme_url": "https://github.com/amazon-science/ATOD/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6dc7b87551dfbf541a2fd90fd8a78a985f88db4f",
+      "readme_excerpt": "ATOD is a benchmark and evaluation framework for agentic task-oriented dialogue systems. It accompanies the AACL 2026 paper: The repository contains the fixed 1,000-dialogue ATOD benchmark, the pipeline that generated it, and the code required to run ATOD-Eval. data/ Fixed ATOD benchmark and dataset documentation generation/ Six-stage synthetic dialogue generation pipeline MemSys/ Agentic symbolic-vector memory evaluator evaluation/ End-of-dialogue ATOD evaluation ATODEval/ Dependency, completion, memory, and quality metrics scripts/ Dataset validation and statistics utilities tests/ Offline unit tests The repository excludes baseline experiment harnesses, model weights, credentials, generated result caches, the upstream Schema-Guided Dialogue dataset, and paper/review materials. The release contains:",
+      "readme_headings": [
+        "ATOD",
+        "Repository contents",
+        "Dataset",
+        "Load from Hugging Face",
+        "Environment",
+        "Regenerate dialogues (optional)",
+        "Run a smoke evaluation",
+        "Metric scripts",
+        "Reproducibility status",
+        "License",
+        "Citation"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "dbe88bfe14acbf689b1c715a47e53ecf27c98ddb",
+          "size": 763,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "33159227b5278e0bd9066841307dd4d0b45be48e",
+          "size": 117,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "botocore",
+            "faiss-cpu",
+            "numpy",
+            "sentence-transformers",
+            "torch",
+            "tqdm"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:29:20+00:00"
     },
     "amazon-science/attune": {
       "id": 1416133018,
@@ -2373,12 +2542,36 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 905014,
+        "Shell": 47657
+      },
+      "readme_url": "https://github.com/amazon-science/attune/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b6bdf3d8d86430aa2d595a2ec322dfdbec125cd4",
+      "readme_excerpt": "ATTUNE turns a coding agent into a training-throughput tuner. Give it a working training recipe and a GPU-hour budget: it runs short benchmark jobs, profiles them, and changes one setting at a time to make the recipe faster. A correctness gate checks that a faster recipe still trains the same model before it ships. ATTUNE's recipes run in Amazon's production post-training, where they raise per-GPU throughput by 1.7× on average. It works out of the box with Megatron-LM + slime recipes running as RayJobs on Kubernetes, driven by Claude Code. Other stacks and agents need their own launch, metrics and",
+      "readme_headings": [
+        "ATTUNE: Agentic Throughput Tuning for LLM Training",
+        "Requirements",
+        "Quick start",
+        "Before you run it",
+        "How it works",
+        "Repository layout",
+        "Contributing",
+        "Citation",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:29:21+00:00"
     },
     "amazon-science/auction-gym": {
       "id": 506742955,
@@ -2406,12 +2599,64 @@
         "reinforcement-learning"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 127527,
+        "Python": 66177
+      },
+      "readme_url": "https://github.com/amazon-science/auction-gym/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4949ce6ce300161c197f198ad6bf29871e24fb17",
+      "readme_excerpt": "This repository contains the source code for AuctionGym: a simulation environment that enables reproducible offline evaluation of bandit and reinforcement learning approaches to ad allocation and bidding in online advertising auctions. AuctionGym was released in the context of our \"Off-Policy Learning to Bid with AuctionGym\" publication in the Applied Data Science Track of the 2023 ACM SIGKDD Conference. An earlier version of our work was presented at the AdKDD '22 workshop, where it received a Best Paper Award. Offline evaluation of \"learning to bid\" approaches is not straightforward, because of multiple reasons: (1) observational data suffers from unobserved confounding and",
+      "readme_headings": [
+        "AuctionGym: Simulating Online Advertising Auctions",
+        "Getting Started",
+        "Reproducing Research Results",
+        "Citing",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "e206bf844b4752606ff29a5e5ab9ca94569d496e",
+          "size": 360,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Pillow",
+            "cycler",
+            "fonttools",
+            "joblib",
+            "kiwisolver",
+            "llvmlite",
+            "matplotlib",
+            "numba",
+            "numpy",
+            "packaging",
+            "pandas",
+            "pyparsing",
+            "python-dateutil",
+            "pytz",
+            "scikit-learn",
+            "scipy",
+            "seaborn",
+            "six",
+            "threadpoolctl",
+            "torch",
+            "tqdm",
+            "typing_extensions"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:29:23+00:00"
     },
     "amazon-science/auto-cot": {
       "id": 545918043,
@@ -2442,12 +2687,48 @@
         "reasoning"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 47730,
+        "Python": 32547
+      },
+      "readme_url": "https://github.com/amazon-science/auto-cot/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1746f8511c82a4045ce8ff2bc013ce2a83fd7855",
+      "readme_excerpt": "Cheer AI up with the \"let's think step by step\" prompt? More plz. *Let’s think not just step by step, but also one by one.* Auto-CoT uses more cheers & diversity to SAVE huge manual efforts in chain of thought prompt design, matching or even exceeding performance of manual design on GPT-3. Check out our 25-page paper for more information. Python>=3.8 pip install torch==1.8.2+cu111 torchtext==0.9.2 -f https://download.pytorch.org/whl/lts/1.8/torch_lts.html pip install -r requirements.txt Download the datasets from the following: https://github.com/kojima-takeshi188/zero_shot_cot/tree/main/dataset https://github.com/kojima-takeshi188/zero_shot_cot/tree/main/log See ```try_cot.ipynb``` Construct Demos: python run_demo.py \\ --task multiarith \\ --pred_file log/multiarith_zero_shot_cot.log \\ --demo_save_dir demos/multiarith Run inference: python run_inference.py \\ --dataset",
+      "readme_headings": [
+        "Auto-CoT: Automatic Chain of Thought Prompting in Large Language Models (ICLR 2023)",
+        "Requirements",
+        "Datasets",
+        "Quick Start",
+        "Instructions",
+        "Citing Auto-CoT",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "2b14069bec9a757ad013b3463bddfddb5afb1fe9",
+          "size": 49,
+          "content_status": "captured",
+          "dependency_hints": [
+            "jupyter",
+            "matplotlib",
+            "sentence-transformers",
+            "sklearn"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:29:24+00:00"
     },
     "amazon-science/auto-rag-eval": {
       "id": 803206335,
@@ -2475,12 +2756,52 @@
         "machine-learning"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 161241,
+        "Jupyter Notebook": 42368,
+        "Shell": 2229
+      },
+      "readme_url": "https://github.com/amazon-science/auto-rag-eval/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c3bb3857a7947272f9dc0949347bc27e9aca8c6b",
+      "readme_excerpt": "This repository is the companion of the ICML 2024 paper Automated Evaluation of Retrieval-Augmented Language Models with Task-Specific Exam Generation (Blog) **Goal**: For a given knowledge corpus: * Leverage an LLM to generate an multi-choice exam associated with the task of interest. * Evaluate variants of RaG systems on this exam. * Evaluate and iteratively improve the exam. The only thing you need to experiment with this code is a `json` file with your knowledge corpus in the format described bellow. * `Data`: For each use case, contains: * Preprocessing Code * Knowledge Corpus Data * Exam Data (Raw and",
+      "readme_headings": [
+        "Automated Evaluation of Retrieval-Augmented Language Models with Task-Specific Exam Generation",
+        "I - Package Structure",
+        "II - Exam Data Generation Process",
+        "StackExchange",
+        "Arxiv",
+        "Sec Filings",
+        "Add you own task MyOwnTask",
+        "Create file structure",
+        "Create documentation corpus",
+        "Generate Exam and Retrieval index",
+        "Bring your own LLM",
+        "IV - Exam Evaluation Process",
+        "Create a benchmark",
+        "Citation",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "01df8a12aad3e136525a55274bed2ac6876e9ab7",
+          "size": 1125,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:29:26+00:00"
     },
     "amazon-science/AutoGDA-Efficient-Grounding-Verification-in-RAG": {
       "id": 935069903,
@@ -2511,12 +2832,88 @@
         "synthetic-dataset-generation"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 436164,
+        "Python": 289241,
+        "Shell": 4852
+      },
+      "readme_url": "https://github.com/amazon-science/AutoGDA-Efficient-Grounding-Verification-in-RAG/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3c778601b38067ec569d6f5526bebe7e7736bf23",
+      "readme_excerpt": "This repository contains code for the Automatic Generative Domain Adaption (Auto-GDA) framework published at ICLR 2025. It can be used to generate high-quality synthetic NLI data, which is useful for fine-tuning efficient NLI models to specific domains. Please refer to our paper by Tobias Leemann, Periklis Petridis, Giuseppe Vietri, Dionysis Manousakas, Aaron Roth, and Sergul Aydore for more details about the method. git clone git@github.com:amazon-science/AutoGDA-Efficient-Grounding-Verification-in-RAG.git cd AutoGDA-Efficient-Grounding-Verification-in-RAG Install mysql server which is used to manage hyperparameter configuration and venv or conda (if not already installed) sudo apt-get install mysql-server pkg-config default-libmysqlclient-dev build-essential python3.10-venv In the project folder (DomainAdaptationForFactualConsistencyDetection), run python3",
+      "readme_headings": [
+        "Automatic Generative Domain Adaptation (Auto-GDA)",
+        "Installation",
+        "Create virtual environment",
+        "Install dependencies via pip",
+        "Setting up the MySQL-DB for hyperparameter search",
+        "Usage",
+        "Quickstart",
+        "Additional Details",
+        "Reference",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "12db8578f359254ed06421a3cb37014ebea952d3",
+          "size": 1136,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "00da8c8d304b3f9711eb4a45dcf8b6f58bd71c3f",
+          "size": 782,
+          "content_status": "captured",
+          "dependency_hints": [
+            "accelerate",
+            "boto3",
+            "datasets",
+            "en-core-web-sm",
+            "evaluate",
+            "gensim",
+            "httpx",
+            "huggingface-hub",
+            "ipykernel",
+            "ipython",
+            "ipywidgets",
+            "jupyter",
+            "jupyterlab",
+            "jupyterlab_widgets",
+            "litellm",
+            "matplotlib",
+            "matplotlib-inline",
+            "multiprocess",
+            "nltk",
+            "notebook",
+            "numpy",
+            "openai",
+            "optuna",
+            "pandas",
+            "s3fs",
+            "scikit-learn",
+            "scipy",
+            "seaborn",
+            "sentence-transformers",
+            "sentencepiece",
+            "spacy",
+            "torch",
+            "tqdm",
+            "transformers"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:29:27+00:00"
     },
     "amazon-science/automated-diagnosis-of-silent-errors-in-llm-inference": {
       "id": 1436159210,
@@ -2539,12 +2936,86 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 2037355,
+        "Shell": 15974,
+        "Dockerfile": 4703
+      },
+      "readme_url": "https://github.com/amazon-science/automated-diagnosis-of-silent-errors-in-llm-inference/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "fbd8da3f6377fecde0d71f044caf5248510dacdc",
+      "readme_excerpt": "**ICML 2026** · Paper (arXiv) · ICML poster Yile Gu<sup>1</sup>, Zhen Zhang<sup>2</sup>, Shaowei Zhu<sup>2</sup>, Xinwei Fu<sup>2</sup>, Jun Wu<sup>2</sup>, Yida Wang<sup>2</sup>, Baris Kasikci<sup>1</sup> Ekka is an LLM agent that diagnoses **accuracy bugs in LLM inference engines** (vLLM, SGLang). Given a bug report and a model that produces different outputs in a target engine than in a reference implementation (Hugging Face `transformers` / `diffusers`), Ekka: 1. **Collects activations** from both frameworks on the same prompt (`drivers/`, `activation_collector/`). 2. **Maps components** between the two model implementations (for example HF `self_attn.q_proj/k_proj/v_proj` ↔ vLLM `self_attn.qkv_proj`). 3. **Aligns activations**: writes and validates code that reshapes each",
+      "readme_headings": [
+        "Ekka: Automated Diagnosis of Silent Errors in LLM Inference",
+        "Repository layout",
+        "Setup",
+        "1. Python environments",
+        "Agent + evaluator",
+        "Reference (Hugging Face) driver",
+        "Target engines: the activation hooks live in Ekka's forks of the engines.",
+        "vLLM:   https://github.com/IKACE/vLLM   (e.g. branch v0.11.0-baseline-docker)",
+        "SGLang: https://github.com/IKACE/SGLang (e.g. branch v0.5.6-baseline-docker)",
+        "Install each fork in its own environment (`pip install -e .` for vLLM, `pip install -e python` for SGLang).",
+        "2. Paths",
+        "3. LLM backend",
+        "Running a bug case",
+        "1) Collect activations (reference bf16 + fp32, then the target engine)",
+        "The HF driver must be launched with torchrun (it reads RANK/WORLD_SIZE), even on one GPU.",
+        "multi-GPU HF runs: torchrun --nproc-per-node <N> ...",
+        "Each driver config needs `activation_collector.enabled: true` and a save_path equal to the diagnosis",
+        "config's activation_path; keep generation at 1 token so all runs capture the same prefill pass.",
+        "The vLLM fork always writes the `vllm_activation` prefix and ignores `save_prefix`.",
+        "vision-language cases: drivers/driver_hf_v2_vl.py and drivers/driver_sglang_vl.py",
+        "2) Build class indexes the agent uses to look up source code",
+        "3) Diagnose",
+        "-> $CASE/diagnosis_output_<timestamp>/ (component_mapping.json, alignment_results.json,",
+        "detection_result.json, diagnosis_log.log, ...)",
+        "4) Evaluate",
+        "Troubleshooting",
+        "Adding a bug case",
+        "Baselines",
+        "Citation",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "docker-scripts/Dockerfile",
+          "sha": "2e7118556e5f014fcdeb19324a74413fb98eb0c8",
+          "size": 4703,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "agent-langgraph/my_agent/requirements.txt",
+          "sha": "6adbc42b98d2e0689b081115de33be8700779706",
+          "size": 376,
+          "content_status": "captured",
+          "dependency_hints": [
+            "langchain",
+            "langchain-anthropic",
+            "langchain-aws",
+            "langchain-community",
+            "langchain-core",
+            "langgraph",
+            "matplotlib",
+            "numpy",
+            "python-dotenv",
+            "pyyaml",
+            "torch",
+            "transformers"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:29:30+00:00"
     },
     "amazon-science/Automatic-Table-to-Graph-Generation": {
       "id": 938371770,

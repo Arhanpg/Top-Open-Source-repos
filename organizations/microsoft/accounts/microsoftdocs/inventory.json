@@ -603,12 +603,25 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:29+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/MicrosoftDocs/archive-template/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "824a7c6d569a5b6bdddf8e1ee9d0f166fa81cf89",
+      "readme_excerpt": "This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments.",
+      "readme_headings": [
+        "Microsoft Open Source Code of Conduct"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:33:34+00:00"
     },
     "MicrosoftDocs/ascii-animation-sample": {
       "id": 592409081,
@@ -631,12 +644,46 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:29+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 1055
+      },
+      "readme_url": "https://github.com/MicrosoftDocs/ascii-animation-sample/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4133f4efafc59a52a74e779ed17d213670cb6dfc",
+      "readme_excerpt": "languages: - csharp products: - dotnet-core page_type: sample name: \"ASCII Animation Sample for .NET\" urlFragment: \"ascii-animation-dotnet\" description: \"A .NET sample that displays ASCII animation in a console app.\" This .NET sample reads a text file and displays it as an animation in the console window. The animation cells are contained in the text file `cells.txt`. Each cell is 14 lines. The first line is a numeric value that indicates the number of frames to display the cell. The remaining 13 lines are the cell itself. This sample is based on a classic fixture of the late-90s Internet. Special thanks to",
+      "readme_headings": [
+        "ASCII Animation Sample for .NET",
+        "Prerequisites",
+        "About this sample",
+        "Contributing",
+        "Legal Notices"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Animate.sln",
+          "sha": "96da96474f5a5b76a5acbd87ab640372f5f87f0c",
+          "size": 1102,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Animate/Animate.csproj",
+          "sha": "47ccc58632f7c680e1cddfab503de3b8d79f503f",
+          "size": 378,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:33:36+00:00"
     },
     "MicrosoftDocs/aspire-docs-samples": {
       "id": 778508004,
@@ -659,12 +706,69 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:29+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 14316
+      },
+      "readme_url": "https://github.com/MicrosoftDocs/aspire-docs-samples/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "936714c315f08961edcb255534c107fdfbd01c35",
+      "readme_excerpt": "This repository contains sample projects referenced by the Aspire documentation. A sample Aspire application demonstrating Entity Framework Core migrations with a separate migration service. The solution consists of: - .NET 10 SDK - Docker Desktop (for the SQL Server container) - Aspire CLI aspire run The AppHost will: 1. Start a SQL Server container. 2. Run the **MigrationService** to apply migrations and seed data. 3. Start the **API** only after the migration service completes (`WaitForCompletion`). cd SupportTicketApi/SupportTicketApi.MigrationService dotnet ef migrations add <MigrationName> --startup-project . --project . This project welcomes contributions and suggestions. Most contributions require you to agree to a",
+      "readme_headings": [
+        "Aspire docs samples",
+        "SupportTicketApi",
+        "Prerequisites",
+        "Running the sample",
+        "Adding a new migration",
+        "Contributing",
+        "Legal Notices"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "SupportTicketApi/SupportTicketApi.Api/SupportTicketApi.Api.csproj",
+          "sha": "cf30fbd504f6691d60e9d38984befdb6b450dcab",
+          "size": 749,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "SupportTicketApi/SupportTicketApi.AppHost/SupportTicketApi.AppHost.csproj",
+          "sha": "7f0f71268d3a21741adae5f758d5fe458efe9bf2",
+          "size": 981,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "SupportTicketApi/SupportTicketApi.Data/SupportTicketApi.Data.csproj",
+          "sha": "e11c4f7b771be98bc27064ef669eca43041575a5",
+          "size": 426,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "SupportTicketApi/SupportTicketApi.MigrationService/SupportTicketApi.MigrationService.csproj",
+          "sha": "9817d800eb791f52e9a28dc0edc3eadc39ca400b",
+          "size": 901,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "SupportTicketApi/SupportTicketApi.ServiceDefaults/SupportTicketApi.ServiceDefaults.csproj",
+          "sha": "46224fc72cb7bea4874e3fab432f10efabffbcc9",
+          "size": 990,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:33:38+00:00"
     },
     "MicrosoftDocs/ATADocs": {
       "id": 50697836,
@@ -687,12 +791,26 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:29+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/MicrosoftDocs/ATADocs/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "bfb466d0fd35158ab17917da4a043f4e4a2ba294",
+      "readme_excerpt": "This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments. You've found one of the GitHub repositories that houses the source for Microsoft technical content.",
+      "readme_headings": [
+        "Microsoft Open Source Code of Conduct",
+        "Github repository for Microsoft technical documentation"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:33:40+00:00"
     },
     "MicrosoftDocs/azure-cloud-services-files": {
       "id": 83071807,
@@ -719,12 +837,26 @@
         "cloud-services"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:29+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "unavailable",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "PowerShell": 7946,
+        "Batchfile": 5187
+      },
+      "readme_url": null,
+      "readme_path": null,
+      "readme_sha": null,
+      "readme_excerpt": "",
+      "readme_headings": [],
+      "readme_unavailable_reason": "GitHub returned 404 for a README",
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:33:41+00:00"
     },
     "MicrosoftDocs/azure-cognitive-services-js": {
       "id": 284306595,
@@ -747,12 +879,25 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:29+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/MicrosoftDocs/azure-cognitive-services-js/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "824a7c6d569a5b6bdddf8e1ee9d0f166fa81cf89",
+      "readme_excerpt": "This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments.",
+      "readme_headings": [
+        "Microsoft Open Source Code of Conduct"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:33:43+00:00"
     },
     "MicrosoftDocs/azure-compute-docs": {
       "id": 844223677,
@@ -775,12 +920,25 @@
       "open_issues": 9,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:29+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/MicrosoftDocs/azure-compute-docs/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "824a7c6d569a5b6bdddf8e1ee9d0f166fa81cf89",
+      "readme_excerpt": "This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments.",
+      "readme_headings": [
+        "Microsoft Open Source Code of Conduct"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:33:45+00:00"
     },
     "MicrosoftDocs/azure-dev-docs": {
       "id": 199069788,
@@ -803,12 +961,57 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:29+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Markdown": 15168641,
+        "Rust": 10048,
+        "Mermaid": 7612
+      },
+      "readme_url": "https://github.com/MicrosoftDocs/azure-dev-docs/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2e846ea22e7d1139e01c0d045ac1ba0bb37550b1",
+      "readme_excerpt": "Welcome to the open-source documentation of Microsoft Azure. Please review this README file to understand how you can assist in contributing to the Microsoft Azure documentation. Contributing to open source is more than just providing updates, it's also about letting us know when there is an issue. Read our Contributing guidance to find out more. You've decided to contribute, that's great! To contribute to the documentation, you need a few tools. Contributing to the documentation requires a GitHub account. If you don't have an account, follow the instructions for GitHub account setup from our contributor guide. To install necessary tools,",
+      "readme_headings": [
+        "Microsoft Azure Documentation",
+        "Getting Started",
+        "Prerequisites",
+        "GitHub",
+        "Tools",
+        "License",
+        "Code of Conduct"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "articles/rust/snippets/Cargo.toml",
+          "sha": "e9e5fd98b7bc6158debf1e981689bf9d4d6239d8",
+          "size": 317,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "articles/rust/snippets/authentication/Cargo.toml",
+          "sha": "63ac4ec720afb419b31aa91fd6777703ecddbb92",
+          "size": 394,
+          "content_status": "captured",
+          "dependency_hints": [
+            "async-trait",
+            "azure_core",
+            "azure_identity",
+            "azure_security_keyvault_secrets",
+            "openssl",
+            "tokio"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:33:48+00:00"
     },
     "MicrosoftDocs/azure-digitaltwins-rest-api": {
       "id": 255699041,
@@ -833,12 +1036,25 @@
         "ms-x-reference"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:29+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/MicrosoftDocs/azure-digitaltwins-rest-api/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "824a7c6d569a5b6bdddf8e1ee9d0f166fa81cf89",
+      "readme_excerpt": "This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments.",
+      "readme_headings": [
+        "Microsoft Open Source Code of Conduct"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:33:49+00:00"
     },
     "MicrosoftDocs/azure-docs": {
       "id": 72685026,
@@ -863,12 +1079,34 @@
         "skilling"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:29+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Markdown": 175977177,
+        "Mermaid": 332
+      },
+      "readme_url": "https://github.com/MicrosoftDocs/azure-docs/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b75befc382bf572f6e25088b0e79bd86e3bacc6b",
+      "readme_excerpt": "Welcome to the open-source documentation of Microsoft Azure. Please review this README file to understand how you can assist in contributing to the Microsoft Azure documentation. Contributing to open source is more than just providing updates. It's also about letting us know when there is an issue. Read our Contributing guidance to find out more. You've decided to contribute. That's great! To contribute to the documentation, you need a few tools. Contributing to the documentation requires a GitHub account. If you don't have an account, follow the instructions for GitHub account setup from our contributor guide. To install the necessary",
+      "readme_headings": [
+        "Microsoft Azure Documentation",
+        "Getting Started",
+        "Prerequisites",
+        "GitHub",
+        "Tools",
+        "License",
+        "Code of Conduct"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": true,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:33:52+00:00"
     },
     "MicrosoftDocs/azure-docs-cli": {
       "id": 65390815,

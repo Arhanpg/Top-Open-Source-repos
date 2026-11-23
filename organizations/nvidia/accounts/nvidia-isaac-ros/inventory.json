@@ -793,12 +793,44 @@
         "ros2-humble"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "CMake": 1406
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_perceptor/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f787994adfecab914130e4d9b77484e496bf3a7e",
+      "readme_excerpt": "This repository contains the integrated Isaac Perceptor launch files. Visit Isaac Perceptor to learn how to use this repository.",
+      "readme_headings": [
+        "Isaac Perceptor",
+        "Setup and Documentation",
+        "Performance"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "isaac_ros_perceptor_bringup/CMakeLists.txt",
+          "sha": "e61ff190ace70ec6911849c28db13d7361fa4301",
+          "size": 1406,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_perceptor_python_utils/setup.py",
+          "sha": "0b68dc8bf280f82c8472de4657bc8b1458d54930",
+          "size": 2554,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:31:58+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_apriltag": {
       "id": 418684392,
@@ -830,12 +862,43 @@
         "ros2-humble"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 28297,
+        "CMake": 3425
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_apriltag/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e5ad16d8faa1d5a9a954dec0f7fd638dc2b1a616",
+      "readme_excerpt": "NVIDIA-accelerated AprilTag detection and pose estimation. Isaac ROS AprilTag contains a ROS 2 package for detection of a type of fiducial marker that provides a point of reference or measure. AprilTag detections are NVIDIA-accelerated for high performance. A common graph of nodes connects from an input camera through rectify and resize to AprilTag. Rectify warps the input camera image into a rectified, undistorted output image; this node may not be necessary if the camera driver provides rectified camera images. Resize is often used to downscale higher resolution cameras into the desired resolution for AprilTags if needed. The input resolution to",
+      "readme_headings": [
+        "Isaac ROS AprilTag",
+        "Overview",
+        "AprilTag Tag Families Supported by Backend",
+        "ROS 2 Native `rosidl::Buffer` Acceleration",
+        "Performance",
+        "Documentation",
+        "Packages",
+        "Latest"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "isaac_ros_apriltag/CMakeLists.txt",
+          "sha": "91924a232acaf414fde65f3fb5ce4ad5a7d082cc",
+          "size": 3425,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:00+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_argus_camera": {
       "id": 416923113,
@@ -870,12 +933,47 @@
         "stereo-camera"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 51833,
+        "CMake": 5716
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_argus_camera/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "99cf6bc9acfc9f578932ba548555d2eb524ce098",
+      "readme_excerpt": "ROS 2 packages based on NVIDIA `libArgus` library for NVIDIA-accelerated CSI camera support. The Isaac ROS Argus Camera module contains an ROS 2 package for sensor processing to output images. Image sensors are connected on CSI and GMSL hardware interfaces to Jetson platforms. This package uses dedicated hardware engines to accelerate image processing. Output images are used in graphs of nodes for AI and CV perception packages, image compression for capture to disk by event recorders, and live-stream visuals for remote robot teleoperation. Isaac ROS Argus Camera provides with several sensor capture and processing features, including AWB (auto-white-balance), AE (auto-exposure),",
+      "readme_headings": [
+        "Isaac ROS Argus Camera",
+        "Overview",
+        "Documentation",
+        "Packages",
+        "Latest"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "gxf_isaac_camera_utils/CMakeLists.txt",
+          "sha": "a65c43f3ef7d65b041d18e96e9f83c8ff200015d",
+          "size": 2079,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_argus_camera/CMakeLists.txt",
+          "sha": "5c504e04bdcb8fa57b4de7944a8876543453439e",
+          "size": 3637,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:01+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_benchmark": {
       "id": 620539076,
@@ -907,12 +1005,77 @@
         "ros2-humble"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 529234,
+        "CMake": 48894,
+        "C++": 26635
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_benchmark/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "bda21e242b717a1188d1641f8723d971bd1c78f4",
+      "readme_excerpt": "Performance benchmarking for NVIDIA-accelerated Isaac ROS packages. Isaac ROS Benchmark builds upon the to provide configurations to benchmark Isaac ROS graphs. Performance results that measure Isaac ROS for throughput, latency, and utilization enable robotics developers to make informed decisions when designing real-time robotics applications. The Isaac ROS performance results can be independently verified, as the method, configuration, and data input used for benchmarking are provided. The `ros2_benchmark` playback node plug-in, for type adaptation and negotiation, is provided for optimizes the performance of message transport costs through nodes. The datasets for benchmarking are explicitly not downloaded by default. To pull down",
+      "readme_headings": [
+        "Isaac ROS Benchmark",
+        "Overview",
+        "Documentation",
+        "Packages",
+        "Latest",
+        "Performance"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "isaac_ros_benchmark/CMakeLists.txt",
+          "sha": "f7995164c0519ea7e8a45b1dd80250da3b50a114",
+          "size": 3331,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "benchmarks/isaac_ros_apriltag_benchmark/CMakeLists.txt",
+          "sha": "de5df8017f4eb0232e3e0a1d7f52afff06c68def",
+          "size": 1738,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "benchmarks/isaac_ros_centerpose_benchmark/CMakeLists.txt",
+          "sha": "06ddffaa66912ac0d2fd3c21f00dc485ee318f7c",
+          "size": 1740,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "benchmarks/isaac_ros_detectnet_benchmark/CMakeLists.txt",
+          "sha": "138d5d6453062db91e5c87ce12fd608496f8d893",
+          "size": 1739,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "benchmarks/isaac_ros_dnn_image_encoder_benchmark/CMakeLists.txt",
+          "sha": "e1f7f5f2a45172e5f35ac2cbfb46859a9af6f0d7",
+          "size": 1747,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "benchmarks/isaac_ros_dope_benchmark/CMakeLists.txt",
+          "sha": "16181319a1b7cc7d3d74bbc1ff880d2f0208d535",
+          "size": 1734,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:04+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_cloud_control": {
       "id": 553108534,
@@ -940,12 +1103,79 @@
         "vda-5050"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 169953,
+        "CMake": 18179,
+        "Shell": 1173
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_cloud_control/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a9d4cb8f4c491cb8685703f697171b121e84bf55",
+      "readme_excerpt": "VDA5050-compatible mission controller Learn more about missions by watching our on-demand webinar: Build Connected Robots with NVIDIA Isaac Dispatch and Client Isaac ROS Cloud Control provides the ROS 2 packages for communication with a robot fleet management service, including Mission Client, a VDA5050-compatible client that receives tasks and actions from the fleet management service and updates its progress, state, and errors. Mission Client performs navigation actions with Nav2 and can be integrated with other ROS actions. The communication to Mission Client is based on the [VDA5050 protocol](https://github.com/VDA5050/VDA5050/blob/main/VDA5050_EN.md) and uses MQTT fundamentals as the industry standard for a highly efficient, scalable",
+      "readme_headings": [
+        "Isaac ROS Cloud Control",
+        "Webinars",
+        "Overview",
+        "Documentation",
+        "Packages",
+        "Quickstart",
+        "Latest",
+        "Contributors"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "isaac_ros_cloud_control_interface/CMakeLists.txt",
+          "sha": "e7ddf4c4c8753b6bb70516dbace62515ce183dd6",
+          "size": 1557,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_humanoid_task_server/setup.py",
+          "sha": "e9dda0878e38413c9ea4dd05924d4dcf642456ba",
+          "size": 1712,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_json_info_generator/setup.py",
+          "sha": "cf52d7abdfd1147be854186c50534e7482ed4f2a",
+          "size": 2521,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_mega_controller/setup.py",
+          "sha": "8a7618f7e911a19085ae9caf432376f5aa39556a",
+          "size": 1677,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_mega_node_monitor/setup.py",
+          "sha": "a0266247a2decb5341e81c5037c8ee47d871712c",
+          "size": 1776,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_mission_client/CMakeLists.txt",
+          "sha": "dccf5c260ae7fa9624e101beb823df177ee3e910",
+          "size": 1080,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:07+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_common": {
       "id": 416920444,
@@ -976,12 +1206,76 @@
         "ubuntu"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 90610,
+        "CMake": 42442,
+        "Shell": 8652,
+        "Makefile": 805
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "dcc47a8a5054ca21ef6e327625a84c461fccde81",
+      "readme_excerpt": "Essential utilities, packages, scripts, and testing infrastructure for Isaac ROS packages. The Isaac ROS Common repository contains an array of essential packages for building, testing, and using Isaac ROS. For solutions to known issues, see the Troubleshooting section. Please visit the Isaac ROS Documentation to learn how to use this repository. Update 2026-11-16: Compatibility and integration updates for the Isaac ROS 5.1.0 release",
+      "readme_headings": [
+        "Isaac ROS Common",
+        "Overview",
+        "Documentation",
+        "Latest"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "isaac_common/CMakeLists.txt",
+          "sha": "d7a682ba5d748da75f0d7988d2e4015629f8d4e9",
+          "size": 2379,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_common_py/setup.py",
+          "sha": "3b09cb8b232e2a5fc3c314c4459455cff867ed06",
+          "size": 2559,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_apriltag_interfaces/CMakeLists.txt",
+          "sha": "86c029cb9e3e2e5627f4ce8b8613d919383a928a",
+          "size": 1826,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_common/CMakeLists.txt",
+          "sha": "95537fd31eeaf3376a74db6b9a450e1da89168c7",
+          "size": 2609,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_gpu_partitioning/CMakeLists.txt",
+          "sha": "48678b47cd5bdd9317077ef061921240413c44a6",
+          "size": 2515,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_launch_utils/setup.py",
+          "sha": "d8661a585c663d7521d67a38191bf428377078ec",
+          "size": 2596,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:10+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_compression": {
       "id": 553105419,
@@ -1011,12 +1305,56 @@
         "ros2-humble"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 188460,
+        "C++": 127198,
+        "CMake": 13569
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_compression/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "680fc924e10274da13051349953c0ca33225dad9",
+      "readme_excerpt": "NVIDIA-accelerated data compression. Isaac ROS Compression provides H.264 image encoder and decoder that leverages the specialized hardware in NVIDIA GPUs and the The `isaac_ros_h264_encoder` package can compress an image into H.264 data using the NVENC. The `isaac_ros_h264_decoder` package can decode the H.264 data into original images using the NVDEC. Image compression reduces the data footprint of images when written to storage or transmitted between computers. A 1080p camera at 30fps produces 177MB/s of data; image compression reduces this by approximately 10 times to 17MB/s of data, reducing the throughput needed to send this to another computer or write out to",
+      "readme_headings": [
+        "Isaac ROS Compression",
+        "Overview",
+        "Performance",
+        "Documentation",
+        "Packages",
+        "Latest"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "codec/CMakeLists.txt",
+          "sha": "e3e194b5eacbf2d2b3fe7b147fa168d0faa8fd5c",
+          "size": 4829,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_h264_decoder/CMakeLists.txt",
+          "sha": "c6f42d72c6a371ee931d1c5356314552182260b9",
+          "size": 4341,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_h264_encoder/CMakeLists.txt",
+          "sha": "aa238d88f135c0788f342b92653c3a187985e676",
+          "size": 4399,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:12+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_cumotion": {
       "id": 808388964,
@@ -1050,12 +1388,76 @@
         "ros2-humble"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 444868,
+        "CMake": 21867,
+        "Shell": 1284
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_cumotion/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "dbf2c59119983f755b0709189aeab908b98f5107",
+      "readme_excerpt": "NVIDIA accelerated packages for arm motion planning and control Isaac ROS cuMotion provides CUDA-accelerated manipulation capabilities for robots in ROS 2. It integrates cuMotion into MoveIt 2 to generate smooth, collision-free trajectories, and also exposes cuMotion inverse kinematics and trajectory generation capabilities through ROS 2 actions/services. Support is provided for segmenting and filtering the robot itself from the depth streams. The key advantages of using Isaac ROS cuMotion are: * **Improved cycle times:** cuMotion produces smooth, optimal-time trajectories in the presence of obstacles, generally reducing motion times compared to previous state-of-the-art planners. In cluttered environments and other challenging scenarios, cuMotion",
+      "readme_headings": [
+        "Isaac ROS cuMotion",
+        "Overview",
+        "Documentation",
+        "Packages",
+        "Latest"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "isaac_ros_cumotion/CMakeLists.txt",
+          "sha": "5d07abad91aba45cac0ddbecb77bbbbf35c78a83",
+          "size": 7712,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_cumotion_controllers/CMakeLists.txt",
+          "sha": "9a061ca273e5ab8ce88c049016967723a6564f21",
+          "size": 2687,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_cumotion_examples/setup.py",
+          "sha": "fba55f31b2458289fa858e47d781e1600f2b20d2",
+          "size": 1837,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_cumotion_interfaces/CMakeLists.txt",
+          "sha": "3ff363e58697741df4ef9f205a87a89ba39f9172",
+          "size": 2086,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_cumotion_moveit/CMakeLists.txt",
+          "sha": "a7ff93861747d76fae525fe92156304b394c6558",
+          "size": 1801,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_cumotion_object_attachment/CMakeLists.txt",
+          "sha": "389243492fa5f2386c62cae219d5eb5c4bd003a3",
+          "size": 3983,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:15+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_data_tools": {
       "id": 901609145,
@@ -1084,12 +1486,57 @@
         "rosbags"
       ],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_data_tools/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "844e64fa039649ebdede3d10a4b6399c79bafa16",
+      "readme_excerpt": "Tools for inspecting and validating data sent through graphs containing Isaac ROS nodes. Update 2026-11-16: Restored source release of the MCAP-to-LeRobot converter for the GR00T reference architecture",
+      "readme_headings": [
+        "Isaac ROS Data Tools",
+        "Latest"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "isaac_ros_mcap_lerobot_converter/pyproject.toml",
+          "sha": "0b4c7b1c2df21334721df9c9cb413962e17545e6",
+          "size": 2220,
+          "content_status": "captured",
+          "dependency_hints": [
+            "av",
+            "lerobot",
+            "numpy",
+            "pillow",
+            "pyarrow",
+            "pytest",
+            "pyyaml",
+            "rosbags"
+          ]
+        },
+        {
+          "path": "isaac_ros_mcap_lerobot_converter/setup.py",
+          "sha": "1a7c06a7993230b09ce7a1e97dc57d73f2423338",
+          "size": 1215,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_ros_tensor_inspector/setup.py",
+          "sha": "97fe9d44882c2d2a46aebc31186650e219297a74",
+          "size": 2322,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:17+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_deploy": {
       "id": 1225085755,
@@ -1112,12 +1559,76 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:15:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 880507,
+        "Python": 481839,
+        "CMake": 53391,
+        "Shell": 757
+      },
+      "readme_url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_deploy/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "febfd380977a6c8907d278d71d60063d5f2be358",
+      "readme_excerpt": "ROS 2 packages for deploying LEAPP-exported neural-network policies on real and simulated robots. Isaac ROS Deploy provides ROS 2 packages for deploying neural-network policies on real and simulated robots. It can support a variety of robot-control policies, including policies derived from and vision-language-action (VLA) policies exported through as long as the policy can be exported as a Isaac ROS Deploy bridges the gap between a Python training stack and a robot control system: it loads LEAPP bundles, runs ONNX inference through NVIDIA Triton, maps policy terms onto ROS topics or `ros2_control` interfaces, and optionally gates outputs through a safety controller.",
+      "readme_headings": [
+        "Isaac ROS Deploy",
+        "Overview",
+        "Documentation",
+        "Latest"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "isaac_ros_deploy/CMakeLists.txt",
+          "sha": "6cbd4414a12c2f8745074956c3e0aa9bef68669e",
+          "size": 252,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_deploy/isaac_deploy_core/CMakeLists.txt",
+          "sha": "09ae43474df2336f2092859c4ac8623f0df2487b",
+          "size": 17009,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_deploy/isaac_ros_deploy_bringup/CMakeLists.txt",
+          "sha": "b54099ea75820ffc01dc7318cae0c1ed18cc19fa",
+          "size": 1120,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_deploy/isaac_ros_deploy_converters/CMakeLists.txt",
+          "sha": "09dd9c358a7ed6e538c4292adb46eb3e184023db",
+          "size": 13514,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_deploy/isaac_ros_deploy_interfaces/CMakeLists.txt",
+          "sha": "3e79d54822ad871c2d4c4bdbc9a87e105397874d",
+          "size": 1178,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "isaac_deploy/isaac_ros_deploy_isaac_sim_extension/setup.py",
+          "sha": "ddaee4f5a0f016bc30687464f70bbfc6b9434ade",
+          "size": 1923,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-23T20:32:21+00:00"
     },
     "NVIDIA-ISAAC-ROS/isaac_ros_depth_segmentation": {
       "id": 509289728,

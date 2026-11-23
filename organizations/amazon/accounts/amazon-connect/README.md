@@ -12,10 +12,10 @@
 | Metric | Count |
 |---|---:|
 | Total | 36 |
-| Readme Captured | 29 |
+| Readme Captured | 35 |
 | Readme Unavailable | 1 |
-| Pending Or Error | 6 |
-| Evidence Captured | 30 |
+| Pending Or Error | 0 |
+| Evidence Captured | 36 |
 | Manual Readme Reviewed | 0 |
 
 README captured means downloaded, not manually interpreted. Evidence captured means README, language and manifest collection reached terminal states. Manual review is separate.
