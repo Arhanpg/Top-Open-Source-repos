@@ -247,3 +247,8 @@ Google Cloud's official documentation links language-specific sample repositorie
 ## SAP and Siemens README review — 24 November 2026
 
 Five new detailed project dossiers now cover [Kyma](organizations/sap/repositories/kyma.md), [OpenUI5](organizations/sap/repositories/openui5.md), [Elektra](organizations/sap/repositories/elektra.md), [MindConnect NodeJS](organizations/siemens/repositories/mindconnect-nodejs.md) and the [Industrial Edge hands-on app](organizations/siemens/repositories/industrial-edge-hands-on-app.md). The curated catalogue now contains **66 manually interpreted README-based project briefs** across nine company folders.
+
+
+## Current verified project and account totals — 24 November 2026
+
+The manually interpreted catalogue now contains **66 README-based project dossiers** across nine companies. The mapping contains **206 rows**, with **64 inventory-eligible accounts** (9 verified, 39 official-directory-listed and 16 official-project-linked). The historical live inventory baseline remains 25,965 public repositories across the original 34 accounts; added accounts need their own committed pagination before a revised total is reported.

@@ -144,3 +144,12 @@ See [Account Discovery Status](ACCOUNT-DISCOVERY-STATUS-2026-11-24.md) for the c
 ## Manual README review amendment — 24 November 2026
 
 The five company folders covered by the initial project review have since been joined by Baidu, Tencent, SAP and Siemens. The current manually interpreted project dossier total is **66**: Microsoft 18, Google 8, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 3 and Siemens 2. This manual documentation count is distinct from automated README capture metrics in the historical 34-account inventory snapshot.
+
+
+## Current 64-account mapping and 66-dossier status — 24 November 2026
+
+The current mapping has 206 CSV rows, with 64 eligible accounts: 9 directly verified, 39 official-directory-listed and 16 official-project-linked. This replaces the earlier interim 63-account figure in this frozen baseline report.
+
+The manually interpreted project-dossier count is 66 across nine company folders: Microsoft 18, Google 8, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 3 and Siemens 2. This replaces the earlier interim 61-dossier figure.
+
+The 25,965 repository count and 286/30/314/25,649 evidence metrics above remain the historical first-run snapshot for the original 34 accounts only.

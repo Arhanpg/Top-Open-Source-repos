@@ -82,3 +82,16 @@ Google Cloud's company-controlled documentation links multiple language sample r
 ## Manual README review update — 24 November 2026
 
 Five additional manually interpreted project briefs were added for SAP (Kyma, OpenUI5, Elektra) and Siemens (MindConnect NodeJS, Industrial Edge Hands-on App). The curated technical dossier total is now **66** across nine company folders. The account mapping remains 206 rows and 64 eligible accounts; repository inventory completeness is a separate measure.
+
+
+## Current verified mapping and manual-dossier reconciliation — 24 November 2026
+
+The current CSV has 206 data rows and 64 inventory-eligible accounts:
+
+- 9 directly verified primary GitHub accounts
+- 39 official-directory-listed accounts
+- 16 official-project-linked accounts
+
+The curated technical catalogue contains 66 manually interpreted README-based project dossiers across nine company folders: Microsoft 18, Google 8, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 3 and Siemens 2.
+
+The first live repository pagination snapshot is still 25,965 metadata rows across the original 34 accounts. Subsequent account additions are excluded from that historical total until their own pagination checkpoints have been committed.

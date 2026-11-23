@@ -172,3 +172,23 @@ Five further README-based technical dossiers were added:
 - [Industrial Edge Hands-on App](../organizations/siemens/repositories/industrial-edge-hands-on-app.md) — tutorial architecture for OPC UA acquisition, MQTT distribution, Python analytics and InfluxDB storage.
 
 The five curated company folders now contain **66 manually interpreted README-based project briefs**: Microsoft 18, Google 8, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 3 and Siemens 2.
+
+
+## Current dossier and account mapping totals — 24 November 2026
+
+This section supersedes the earlier interim totals in the historical batch report.
+
+| Company | Manually interpreted README dossiers |
+|---|---:|
+| Microsoft | 18 |
+| Google / Alphabet | 8 |
+| Apple | 12 |
+| NVIDIA | 13 |
+| Amazon / AWS | 5 |
+| Baidu | 3 |
+| Tencent | 2 |
+| SAP | 3 |
+| Siemens | 2 |
+| **Total** | **66** |
+
+The current mapping file contains 206 account rows, of which 64 are inventory-eligible (9 directly verified, 39 official-directory-listed and 16 official-project-linked). The first live repository inventory remains a historical baseline of 25,965 repositories across 34 accounts; it must not be treated as the current total for all 64 eligible accounts.
