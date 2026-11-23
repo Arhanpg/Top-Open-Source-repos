@@ -132,3 +132,19 @@ When adding a new company or project, follow the shared [repository entry schema
 ---
 
 *This is an evolving research catalogue. Counts and review status describe only the work actually present in the repository at the time of the latest update.*
+
+
+## Automated public inventory
+
+The repository now includes a resumable auditor and a scheduled GitHub Actions workflow:
+
+- [Auditor loader](scripts/catalogue_audit.py)
+- [Compressed implementation payload](scripts/catalogue_audit.py.gz.b64)
+- [Scheduled/manual workflow](.github/workflows/catalogue-inventory.yml)
+- [Company/account discovery rules](docs/ORGANIZATION-DISCOVERY.md)
+- [Collector usage and resume guide](docs/INVENTORY-COLLECTOR.md)
+- [Account mapping CSV](config/company_accounts.csv)
+
+The workflow enumerates public repositories through API pagination, then captures README, language and selected manifest evidence in bounded batches. It commits generated account indexes and per-repository Markdown dossiers directly to `main`. Daily runs currently include only verified starting accounts. Manual dispatch can select one company and optionally include unverified candidates.
+
+**Important:** a captured README is not the same as a fully interpreted technical audit, and a primary GitHub organization is not necessarily every organization owned by a company. See the discovery guide and review-status documentation.

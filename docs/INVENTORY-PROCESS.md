@@ -12,3 +12,8 @@
 ## Scale
 
 For organisations with thousands of projects, generate the initial inventory programmatically and perform README extraction in resumable batches. Store per-repository checkpoints so API interruptions or rate limits do not restart the entire scan. Rate-limit requests and retry transient failures with backoff.
+
+
+## Multi-organization completeness
+
+A company can publish through several official GitHub organizations. Keep each official account as a separate row in the mapping CSV and maintain a distinct account inventory. Completing one primary account does not establish company-wide completeness. Follow [ORGANIZATION-DISCOVERY.md](ORGANIZATION-DISCOVERY.md) before marking a company's account discovery complete.

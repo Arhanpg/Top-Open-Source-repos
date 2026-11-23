@@ -1,0 +1,78 @@
+name: Public GitHub repository catalogue
+
+on:
+  workflow_dispatch:
+    inputs:
+      company:
+        description: "Company name or GitHub account login; blank means all verified accounts"
+        required: false
+        type: string
+      include_unverified:
+        description: "Include candidate account mappings that have not been verified"
+        required: false
+        default: false
+        type: boolean
+      enrich_limit:
+        description: "README/manifest captures per account per run (0 = all pending)"
+        required: false
+        default: 50
+        type: number
+  schedule:
+    - cron: "23 2 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: public-repository-catalogue-main
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Inventory accounts and capture README evidence
+        id: scan
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COMPANY: ${{ inputs.company || '' }}
+          INCLUDE_UNVERIFIED: ${{ inputs.include_unverified }}
+          ENRICH_LIMIT: ${{ inputs.enrich_limit }}
+        run: |
+          if [ -z "$ENRICH_LIMIT" ]; then ENRICH_LIMIT=50; fi
+          args=(--phase all --mapping config/company_accounts.csv --enrich-limit "$ENRICH_LIMIT" --manifest-limit 6 --delay 0.2)
+          if [ -n "$COMPANY" ]; then args+=(--company "$COMPANY"); fi
+          if [ "$INCLUDE_UNVERIFIED" = "true" ]; then args+=(--include-unverified); fi
+          python scripts/catalogue_audit.py "${args[@]}"
+
+      - name: Commit generated catalogue directly to main
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add organizations/
+          if git diff --cached --quiet; then
+            echo "No generated catalogue changes to commit."
+            exit 0
+          fi
+          git commit -m "Update public repository inventory and README evidence"
+          git push origin HEAD:main
+
+      - name: Surface scan failure
+        if: steps.scan.outcome == 'failure'
+        run: |
+          echo "The scan encountered errors. Saved pagination/repository checkpoints remain available; rerun the workflow to resume."
+          exit 1
