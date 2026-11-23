@@ -139,3 +139,8 @@ This section supersedes earlier “current target” statements in this frozen f
 - The account-level evidence captures from the first run (286 README captured, 30 unavailable, 314 terminal evidence captures and 25,649 pending/error) remain a historical snapshot, not current live counts for 63 accounts.
 
 See [Account Discovery Status](ACCOUNT-DISCOVERY-STATUS-2026-11-24.md) for the current mapping breakdown and [GitHub Actions](https://github.com/Arhanpg/Top-Open-Source-repos/actions) for the live scan state.
+
+
+## Manual README review amendment — 24 November 2026
+
+The five company folders covered by the initial project review have since been joined by Baidu, Tencent, SAP and Siemens. The current manually interpreted project dossier total is **66**: Microsoft 18, Google 8, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 3 and Siemens 2. This manual documentation count is distinct from automated README capture metrics in the historical 34-account inventory snapshot.

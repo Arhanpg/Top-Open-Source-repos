@@ -6,7 +6,9 @@ Company account: [SAP](https://github.com/SAP)
 
 | Repository | Purpose | Audit |
 |---|---|---|
-| — | No repository-level README audit has been added yet. | Pending |
+| [Kyma — Modular Kubernetes-Based Application Platform](kyma.md) ([upstream](https://github.com/kyma-project/kyma)) | Kyma is an opinionated set of Kubernetes-based modular building blocks for developing and running enterprise-grade cloud-native applications. The README describes it as an open path into the SAP ecosystem and a foundation of SAP BTP Kyma runtime, while allowing modules to be used on a user's own Kubernetes cluster. | README reviewed |
+| [OpenUI5 — Enterprise Web UI Framework](openui5.md) ([upstream](https://github.com/UI5/openui5)) | OpenUI5 is an open-source JavaScript framework for building responsive, enterprise-ready web applications that run across devices and modern browsers. The README describes a client-side HTML5 rendering library with rich controls and data binding. | README reviewed |
+| [Elektra — SAP Cloud Infrastructure OpenStack Dashboard](elektra.md) ([upstream](https://github.com/SAP-cloud-infrastructure/elektra)) | Elektra is an opinionated OpenStack dashboard for operators and consumers of OpenStack services. Its goal is to make OpenStack more accessible by turning operator tasks into user-facing self-services. | README reviewed |
 
 ## Completeness
 
@@ -31,3 +33,8 @@ This directory currently contains no manually interpreted project dossiers. SAP'
 | [SAP-docs](https://github.com/SAP-docs) | [SAP-docs/sapui5](https://github.com/SAP-docs/sapui5) |
 
 A repository search confirmed public results for each account. The examples are discovery checks, not a ranking or complete repository list.
+
+
+## README-reviewed repositories — 24 November 2026
+
+Three additional detailed project briefs have been added from direct README inspection: Kyma, OpenUI5 and Elektra. These projects come from three separate SAP-linked organizations; each page preserves its account ownership and project scope.

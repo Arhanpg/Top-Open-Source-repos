@@ -156,3 +156,19 @@ Five additional project dossiers were added after inspecting the upstream README
 - [ncnn](../organizations/tencent/repositories/ncnn.md) — cross-platform mobile/edge neural-network inference.
 
 The curated company folders now contain **61 manually interpreted README-based project briefs**: Microsoft 18, Google 8, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3 and Tencent 2.
+
+
+## SAP and Siemens README review batch — 24 November 2026
+
+Five further README-based technical dossiers were added:
+
+### SAP
+- [Kyma](../organizations/sap/repositories/kyma.md) — modular Kubernetes-based application building blocks; the monolithic release train is discontinued.
+- [OpenUI5](../organizations/sap/repositories/openui5.md) — Apache-2.0 JavaScript/HTML5 UI framework with rich controls and data binding.
+- [Elektra](../organizations/sap/repositories/elektra.md) — SAP Cloud Infrastructure OpenStack self-service dashboard; not compatible with vanilla OpenStack.
+
+### Siemens
+- [MindConnect NodeJS](../organizations/siemens/repositories/mindconnect-nodejs.md) — Node/TypeScript SDK, CLI and proxy for Insights Hub/Industrial IoT connectivity, with a v3/v4 gateway compatibility split.
+- [Industrial Edge Hands-on App](../organizations/siemens/repositories/industrial-edge-hands-on-app.md) — tutorial architecture for OPC UA acquisition, MQTT distribution, Python analytics and InfluxDB storage.
+
+The five curated company folders now contain **66 manually interpreted README-based project briefs**: Microsoft 18, Google 8, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 3 and Siemens 2.

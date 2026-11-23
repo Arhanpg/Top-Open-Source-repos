@@ -1,8 +1,9 @@
 # SAP
 
 - **Source group(s):** united-states-global, europe
-- **Candidate GitHub account:** [SAP](https://github.com/SAP)
+- **Verified primary GitHub account:** [SAP](https://github.com/SAP)
 - **Account mapping:** verified
+- **Detailed README records:** 3
 - **Repository inventory status:** Not yet exhaustively enumerated
 - **README audit status:** Individual project records are linked below; projects without a detailed record remain unaudited.
 
@@ -28,3 +29,8 @@ SAP's verified [GitHub organization profile](https://github.com/SAP) lists ten d
 - Documentation: SAP-docs
 
 These accounts are kept as independent inventories. Their appearance in SAP's verified organization README establishes the published SAP relationship, not blanket ownership or authorship of every repository they host. See [SAP Account Discovery](ACCOUNT-DISCOVERY.md).
+
+
+## README-reviewed projects — 24 November 2026
+
+Three project dossiers are now available: Kyma, OpenUI5 and Elektra. They document a modular Kubernetes application platform, an Apache-2.0 enterprise web UI framework, and an SAP-specific OpenStack dashboard. These three records do not make SAP's wider 11-account repository inventory complete.

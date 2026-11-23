@@ -77,3 +77,8 @@ Five further READMEs were manually interpreted from Baidu-affiliated and Tencent
 ## Google Cloud account amendment — 24 November 2026
 
 Google Cloud's company-controlled documentation links multiple language sample repositories under the separate `GoogleCloudPlatform` GitHub account. It has been added with `official-project-linked`. The mapping now contains 206 rows and 64 inventory-eligible accounts; the first 34-account repository total does not include this account.
+
+
+## Manual README review update — 24 November 2026
+
+Five additional manually interpreted project briefs were added for SAP (Kyma, OpenUI5, Elektra) and Siemens (MindConnect NodeJS, Industrial Edge Hands-on App). The curated technical dossier total is now **66** across nine company folders. The account mapping remains 206 rows and 64 eligible accounts; repository inventory completeness is a separate measure.

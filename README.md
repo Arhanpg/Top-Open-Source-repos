@@ -242,3 +242,8 @@ The company mapping now contains 205 rows and 63 inventory-eligible GitHub accou
 ## Google Cloud account expansion — 24 November 2026
 
 Google Cloud's official documentation links language-specific sample repositories under the separate [GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) GitHub account. It is now mapped as `official-project-linked` and will be paginated independently from `google`. The inventory-eligible mapping has increased to **64 accounts**.
+
+
+## SAP and Siemens README review — 24 November 2026
+
+Five new detailed project dossiers now cover [Kyma](organizations/sap/repositories/kyma.md), [OpenUI5](organizations/sap/repositories/openui5.md), [Elektra](organizations/sap/repositories/elektra.md), [MindConnect NodeJS](organizations/siemens/repositories/mindconnect-nodejs.md) and the [Industrial Edge hands-on app](organizations/siemens/repositories/industrial-edge-hands-on-app.md). The curated catalogue now contains **66 manually interpreted README-based project briefs** across nine company folders.
