@@ -27,3 +27,11 @@ The primary [Tencent](https://github.com/Tencent) organization is verified for `
 | ncnn | [Tencent/ncnn](https://github.com/Tencent/ncnn) | Mobile-optimized neural-network inference framework |
 
 These profile samples are not manually audited README dossiers yet.
+
+
+## README-reviewed Tencent projects — 24 November 2026
+
+| Project dossier | Upstream repository | Purpose |
+|---|---|---|
+| [WeKnora — LLM Knowledge and Agent Platform](weknora.md) | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | An open-source knowledge and agent platform that combines document parsing, hybrid retrieval, RAG question-answering, agent reasoning and an automatically generated wiki. Its architecture is modular: document parsing, vectorization and retrieval feed LLM inference, while clients and channels integrate with the application. |
+| [ncnn — High-Performance Neural Network Inference Framework](ncnn.md) | [Tencent/ncnn](https://github.com/Tencent/ncnn) | A high-performance neural-network inference framework optimized for mobile and edge deployment. The README highlights lightweight CPU/GPU inference, broad device coverage and conversion/deployment tooling for neural-network models. |

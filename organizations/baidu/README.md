@@ -20,3 +20,8 @@ The GitHub organization is verified for baidu.com. Its README calls the account 
 Baidu's verified [GitHub organization profile](https://github.com/baidu) lists PaddlePaddle, ApolloAuto and XuperChain under “Affiliated Organizations.” These exact public accounts were probed and returned repositories. They are recorded with the `official-project-linked` status to preserve the relationship without asserting blanket ownership or authorship of all repositories in each account.
 
 See [Baidu Account Discovery](ACCOUNT-DISCOVERY.md).
+
+
+## README-reviewed affiliated projects — 24 November 2026
+
+Three technical briefs have been added for PaddleOCR, Apollo and XuperChain. Each repository is owned by its displayed GitHub account and is documented separately from the primary `baidu` inventory.

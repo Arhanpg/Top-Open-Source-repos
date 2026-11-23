@@ -67,3 +67,8 @@ The verified SAP profile names ten dedicated project organizations, and Siemens'
 ## Baidu and Tencent verification amendment — 24 November 2026
 
 Baidu and Tencent primary organizations were promoted to directly verified using their GitHub verified-organization pages. Baidu's profile also lists PaddlePaddle, ApolloAuto and XuperChain as affiliated organizations; those three accounts were added with `official-project-linked`. Baidu AI Cloud is not mapped as an independent account because no standalone public GitHub login was confirmed. The mapping now contains 205 rows and 63 inventory-eligible accounts.
+
+
+## Manual README interpretation update — 24 November 2026
+
+Five further READMEs were manually interpreted from Baidu-affiliated and Tencent repositories: PaddleOCR, Apollo, XuperChain, WeKnora and ncnn. The curated project-dossier total is now **61**. This is a selected technical-documentation set, not a manual audit of all enumerated repositories.

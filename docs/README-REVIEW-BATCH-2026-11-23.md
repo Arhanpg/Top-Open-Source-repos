@@ -140,3 +140,19 @@ Five further Apple project README briefs were added:
 - [MLX](../organizations/apple/repositories/mlx.md) — Apple-silicon machine-learning array framework.
 
 Apple's official Open Source catalogue links Swift and MLX under the separate swiftlang and ml-explore accounts, respectively. The five company folders now contain **56 manually interpreted README-based project briefs**: Microsoft 18, Google 8, Apple 12, NVIDIA 13 and Amazon/AWS 5.
+
+
+## Baidu and Tencent README review batch — 24 November 2026
+
+Five additional project dossiers were added after inspecting the upstream READMEs:
+
+### Baidu-affiliated accounts
+- [PaddleOCR](../organizations/baidu/repositories/paddleocr.md) — multilingual OCR and document parsing.
+- [Apollo](../organizations/baidu/repositories/apollo.md) — autonomous-driving platform software and developer tooling.
+- [XuperChain](../organizations/baidu/repositories/xuperchain.md) — modular blockchain infrastructure and smart-contract execution.
+
+### Tencent
+- [WeKnora](../organizations/tencent/repositories/weknora.md) — RAG, agent and enterprise knowledge platform.
+- [ncnn](../organizations/tencent/repositories/ncnn.md) — cross-platform mobile/edge neural-network inference.
+
+The curated company folders now contain **61 manually interpreted README-based project briefs**: Microsoft 18, Google 8, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3 and Tencent 2.

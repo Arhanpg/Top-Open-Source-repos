@@ -18,3 +18,8 @@ The GitHub organization is verified for opensource.tencent.com. Its public profi
 ## Verified primary account
 
 The [Tencent GitHub organization](https://github.com/Tencent) is verified by GitHub against `opensource.tencent.com`. Its organization profile highlights public projects including WeKnora, BrowserSkill, Omi, WeUI, Tinker and ncnn. This verifies the primary account, not the completeness of Tencent's wider account ecosystem.
+
+
+## README-reviewed Tencent projects — 24 November 2026
+
+Two technical briefs have been added for WeKnora and ncnn. The dossiers preserve WeKnora's private-network deployment warning and ncnn's platform-specific CPU/Vulkan support distinctions.

@@ -227,3 +227,8 @@ The account map now includes ten additional SAP organizations listed by SAP's ve
 ## Baidu and Tencent account verification — 24 November 2026
 
 The primary [Baidu](https://github.com/baidu) and [Tencent](https://github.com/Tencent) GitHub organizations are now directly verified against their company open-source domains. Baidu's profile names three affiliated organizations—PaddlePaddle, ApolloAuto and XuperChain—which are mapped separately as project-linked accounts. The catalogue now has **63 inventory-eligible accounts**; their pagination must complete before any revised combined repository total is reported. See [Baidu Account Discovery](organizations/baidu/ACCOUNT-DISCOVERY.md) and [Tencent Account Discovery](organizations/tencent/ACCOUNT-DISCOVERY.md).
+
+
+## Baidu and Tencent README review — 24 November 2026
+
+Five additional detailed project dossiers are now indexed: [PaddleOCR](organizations/baidu/repositories/paddleocr.md), [Apollo](organizations/baidu/repositories/apollo.md), [XuperChain](organizations/baidu/repositories/xuperchain.md), [WeKnora](organizations/tencent/repositories/weknora.md) and [ncnn](organizations/tencent/repositories/ncnn.md). The curated company set now has **61 manually interpreted README-based project briefs** across seven company folders.

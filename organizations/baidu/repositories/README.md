@@ -24,3 +24,12 @@ The Baidu primary organization has no manually interpreted project dossier in th
 | [xuperchain](https://github.com/xuperchain) | [xuperchain/xuperchain](https://github.com/xuperchain/xuperchain) |
 
 These are discovery examples, not exhaustive or ranked lists.
+
+
+## README-reviewed affiliated projects — 24 November 2026
+
+| Project dossier | Upstream repository | Purpose |
+|---|---|---|
+| [PaddleOCR](paddleocr.md) | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | An OCR and document-understanding toolkit covering text detection and recognition, multilingual OCR, document parsing and structured extraction. The README describes model families for scene-text OCR and document parsing, including PP-OCR, PP-StructureV3 and PaddleOCR-VL. |
+| [Apollo Autonomous Driving Platform](apollo.md) | [ApolloAuto/apollo](https://github.com/ApolloAuto/apollo) | Apollo is an open-source autonomous-driving platform with software modules, development tools and vehicle-integration workflows. The README describes a progression from early lane-control and low-speed closed-venue capabilities to broader urban-driving, perception, localization, planning/control and developer-tooling capabilities. |
+| [XuperChain](xuperchain.md) | [xuperchain/xuperchain](https://github.com/xuperchain/xuperchain) | An open-source blockchain infrastructure platform designed for enterprise and consortium-chain scenarios. The README emphasizes a modular architecture, smart-contract execution, consensus options and tools for operating blockchain networks. |
