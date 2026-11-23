@@ -4,7 +4,7 @@
 - **Company mapping:** candidate account; project-specific NVIDIA organizations and related research groups may exist.
 - **Source group:** United States & Global
 - **Directory status:** initialized; public repository inventory not exhaustive
-- **Detailed README records:** 2
+- **Detailed README records:** 7
 
 ## Reviewed projects
 
@@ -35,3 +35,8 @@ The two repository pages are README-based summaries, not benchmark reproductions
 - [NVIDIA GitHub account](https://github.com/NVIDIA)
 - [NVIDIA developer resources](https://developer.nvidia.com/)
 - [NVIDIA repository index in this catalogue](repositories/README.md)
+
+
+## Additional README-reviewed projects — 23 November 2026
+
+Five additional NVIDIA project briefs have been added: Linux Open GPU Kernel Modules, nvidia-docker, DeepLearningExamples, Cosmos and TensorRT OSS. The records preserve important lifecycle and compatibility findings, including the archived/deprecated state of nvidia-docker and TensorRT 11 migration notes. See the [repository index](repositories/README.md).
