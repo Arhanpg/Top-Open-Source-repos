@@ -212,7 +212,7 @@ def parse_manifest_hints(path: str, content: str) -> list[str]:
             if re.fullmatch(r"[A-Za-z0-9_.-]+", candidate):
                 hints.add(candidate)
     elif basename == "go.mod":
-        hints.update(re.findall(r"^\s*([A-Za-z0-9._/-]+)\s+v[0-9][^\s]*", content, re.MULTILINE))
+        hints.update(re.findall(r"^\s*(?:require\s+)?([A-Za-z0-9._/-]+)\s+v[0-9][^\s]*", content, re.MULTILINE))
     elif basename == "cargo.toml":
         in_dependencies = False
         for line in content.splitlines():
@@ -227,15 +227,27 @@ def parse_manifest_hints(path: str, content: str) -> list[str]:
         hints.update(re.findall(r"<artifactId>\s*([^<]+)\s*</artifactId>", content))
     elif basename == "pyproject.toml":
         in_dependency_section = False
+        in_dependency_array = False
         for line in content.splitlines():
             stripped = line.strip().strip(",")
             if stripped.startswith("["):
-                in_dependency_section = "dependencies" in stripped.casefold()
-            match = re.match(r"""["']([A-Za-z0-9_.-]+)["']\s*(?:=|>=|~=|<)""", stripped)
-            if match and in_dependency_section:
-                hints.add(match.group(1))
-            elif in_dependency_section and re.match(r"[A-Za-z0-9_.-]+\s*=", stripped):
-                hints.add(stripped.split("=", 1)[0].strip())
+                section = stripped.casefold()
+                in_dependency_section = "dependencies" in section
+                in_dependency_array = False
+                continue
+            if re.match(r"(?:dependencies|optional-dependencies)\s*=\s*\[", stripped):
+                in_dependency_section = True
+                in_dependency_array = True
+            if in_dependency_section:
+                match = re.search(r"""["']([A-Za-z0-9_.-]+)(?:[<=>~!;\[].*)?["']""", stripped)
+                if match:
+                    hints.add(match.group(1))
+                if not in_dependency_array:
+                    key = stripped.split("=", 1)[0].strip()
+                    if re.fullmatch(r"[A-Za-z0-9_.-]+", key):
+                        hints.add(key)
+            if in_dependency_array and "]" in stripped:
+                in_dependency_array = False
     elif basename == "composer.json":
         try:
             data = json.loads(content)
