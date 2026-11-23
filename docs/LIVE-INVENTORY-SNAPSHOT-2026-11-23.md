@@ -70,3 +70,8 @@ See the [inventory and evidence progress dashboard](INVENTORY-PROGRESS-2026-11-2
 ## Later account-discovery amendment
 
 This is a historical first-run snapshot of 34 configured accounts. On 24 November 2026, five additional NVIDIA project-linked accounts were added using project links from NVIDIA's official open-source hub. They were not included in the 25,965 count above. The current configuration has 39 inventory-eligible accounts; the five new NVIDIA accounts require their own complete pagination before a revised combined total can be reported.
+
+
+## Additional account-discovery amendment — Microsoft
+
+On 24 November 2026, three Microsoft documentation-linked accounts were added using Microsoft Learn contributor guidance: `MicrosoftDocs`, `dotnet` and `Azure`. Together with the five NVIDIA project-linked accounts added in the same discovery wave, the current configuration has 42 inventory-eligible accounts. The first-run 34-account/25,965-repository snapshot above predates these additions.

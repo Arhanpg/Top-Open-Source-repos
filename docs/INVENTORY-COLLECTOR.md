@@ -140,3 +140,8 @@ GitHub can return HTTP 409 with the message `Git Repository is empty` when a pub
 ## Official-project-linked mappings
 
 An account may be linked as a named project from a company-controlled open-source hub without being described as a wholly owned company organization. Such rows use the status `official-project-linked`, remain eligible for public inventory, and preserve the source-specific attribution caveat. The current NVIDIA examples are documented in [NVIDIA Account Discovery](../organizations/nvidia/ACCOUNT-DISCOVERY.md).
+
+
+## Microsoft documentation-linked accounts
+
+Microsoft Learn's contributor guide directly links to repositories under `MicrosoftDocs`, `dotnet` and `Azure`. These mappings use `official-project-linked` and remain distinct from the primary `microsoft` account. The relationship proves that Microsoft documentation points contributors to projects in those accounts; it is not a claim that every repository in those accounts is Microsoft-authored. See [Microsoft Account Discovery](../organizations/microsoft/ACCOUNT-DISCOVERY.md).

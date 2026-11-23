@@ -200,3 +200,10 @@ Five additional NVIDIA project repositories have now been documented from their 
 
 
 [Account discovery and inventory coverage status](docs/ACCOUNT-DISCOVERY-STATUS-2026-11-24.md) tracks eligible accounts, candidate mappings and the separation between inventory completion and manual README documentation.
+
+
+## Microsoft project-account expansion — 24 November 2026
+
+Microsoft Learn's official contributor guide links repositories in three additional accounts: [MicrosoftDocs](https://github.com/MicrosoftDocs), [dotnet](https://github.com/dotnet) and [Azure](https://github.com/Azure). They are mapped with the distinct `official-project-linked` status. This raises the configured inventory target from 39 to **42 accounts**; these three accounts require their own pagination and are not included in the first 25,965-repository baseline.
+
+See [Microsoft Account Discovery](organizations/microsoft/ACCOUNT-DISCOVERY.md). Microsoft's official Open Source Program says it has more than 100 GitHub organizations, so the wider discovery task remains incomplete.

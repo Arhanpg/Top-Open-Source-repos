@@ -67,3 +67,8 @@ Five additional Microsoft project briefs have been added: Visual Studio Code (Co
 ## Continued README review — 23 November 2026
 
 2 additional README-reviewed project briefs have been added to this account folder. See [the repository index](repositories/README.md). The account's complete public repository inventory and related company organizations still require full discovery and pagination.
+
+
+## Additional Microsoft documentation-linked accounts
+
+Microsoft Learn's contributor guidance links repositories in the `MicrosoftDocs`, `dotnet` and `Azure` GitHub accounts. The catalogue tracks these separately with the `official-project-linked` mapping status. See [Microsoft Account Discovery](ACCOUNT-DISCOVERY.md) for sample repositories and attribution caveats.

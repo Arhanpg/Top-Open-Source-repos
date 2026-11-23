@@ -69,3 +69,18 @@ NVIDIA's official [Open Source at NVIDIA hub](https://opensource.nvidia.com/llm-
 | [triton-inference-server](https://github.com/triton-inference-server) | [server](https://github.com/triton-inference-server/server) | GitHub repository search returned public results |
 
 These mappings use `official-project-linked`, not `verified` or `official-directory-listed`. NVIDIA's hub provides an official project link but does not claim legal ownership of every repository in each account. Accounts named in the hub as upstream community contributors (for example, PyTorch, vLLM, SGLang, Linux, Kubernetes and Pixar/OpenUSD) are intentionally not attributed to NVIDIA as company repositories.
+
+
+## Microsoft official documentation project accounts — 24 November 2026
+
+Microsoft Learn's contributor guide links repositories hosted in three additional GitHub accounts:
+
+| GitHub account | Officially linked example | Relationship |
+|---|---|---|
+| [MicrosoftDocs](https://github.com/MicrosoftDocs) | [MicrosoftDocs/azure-docs](https://github.com/MicrosoftDocs/azure-docs) | Microsoft Learn documentation repositories |
+| [dotnet](https://github.com/dotnet) | [dotnet/docs](https://github.com/dotnet/docs) | .NET documentation and platform repositories |
+| [Azure](https://github.com/Azure) | [Azure/azure-sdk-for-net](https://github.com/Azure/azure-sdk-for-net) | Azure SDK and related documentation/repository ecosystem |
+
+Source: [Microsoft Learn — Set up a local Git repository](https://learn.microsoft.com/contribute/get-started-setup-local). The page explicitly lists MicrosoftDocs repositories, dotnet/docs and Azure documentation/SDK links. Each login was separately checked through GitHub repository search on 24 November 2026 and returned public repository results.
+
+These rows use `official-project-linked`: they document a project/repository relationship published by Microsoft Learn, not a blanket assertion that every repository in each account is owned or authored by Microsoft. Microsoft's Open Source Program separately states that it has more than 100 GitHub organizations; this three-account discovery is therefore a partial, source-backed expansion, not the full list.
