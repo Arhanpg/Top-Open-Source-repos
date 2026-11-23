@@ -192,3 +192,11 @@ The [official Open Source at NVIDIA hub](https://opensource.nvidia.com/llm-info/
 
 
 The first live inventory baseline covered 34 accounts and 25,965 repositories. Five NVIDIA project-linked accounts were added afterwards from the official NVIDIA open-source hub, bringing the configured inventory target to 39 accounts. Their own public-repository pagination must complete before a new combined repository total is reported.
+
+
+## Latest manual README reviews — 24 November 2026
+
+Five additional NVIDIA project repositories have now been documented from their upstream READMEs: [Isaac ROS Visual SLAM](organizations/nvidia/repositories/isaac-ros-visual-slam.md), [Cosmos-Predict2.5](organizations/nvidia/repositories/cosmos-predict2-5.md), [cuGraph](organizations/nvidia/repositories/cugraph.md), [Dynamo](organizations/nvidia/repositories/dynamo.md) and [Triton Inference Server](organizations/nvidia/repositories/triton-inference-server.md). The five company folders now contain **51 manually interpreted README-based project briefs** in total. This remains a curated subset of the much larger automated repository inventories.
+
+
+[Account discovery and inventory coverage status](docs/ACCOUNT-DISCOVERY-STATUS-2026-11-24.md) tracks eligible accounts, candidate mappings and the separation between inventory completion and manual README documentation.

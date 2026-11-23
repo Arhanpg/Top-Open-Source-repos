@@ -114,3 +114,16 @@ Five additional upstream README reviews were completed for project accounts link
 - [Triton Inference Server](../organizations/nvidia/repositories/triton-inference-server.md) — multi-framework inference serving.
 
 The NVIDIA company folder now has 13 README-based project briefs, including the original and additional selected repositories. These are manually interpreted project summaries; they do not represent every repository in the 6 mapped NVIDIA-related accounts.
+
+
+## Five additional NVIDIA README reviews — 24 November 2026
+
+The NVIDIA project-linked account review added five individual technical briefs:
+
+- [Isaac ROS Visual SLAM](../organizations/nvidia/repositories/isaac-ros-visual-slam.md)
+- [Cosmos-Predict2.5](../organizations/nvidia/repositories/cosmos-predict2-5.md)
+- [cuGraph](../organizations/nvidia/repositories/cugraph.md)
+- [Dynamo](../organizations/nvidia/repositories/dynamo.md)
+- [Triton Inference Server](../organizations/nvidia/repositories/triton-inference-server.md)
+
+The manually interpreted project-dossier count across the five company folders is now **51**: Microsoft 18, Google 8, Apple 7, NVIDIA 13 and Amazon/AWS 5.

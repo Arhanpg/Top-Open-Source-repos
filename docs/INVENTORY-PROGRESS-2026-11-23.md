@@ -116,3 +116,8 @@ A subsequent collector fix treats this exact GitHub response as terminal manifes
 ## Later account-discovery amendment — 24 November 2026
 
 This dashboard is a frozen baseline from the first live scan of 34 accounts. Five additional NVIDIA project-linked accounts were added afterwards from NVIDIA's official open-source hub. The current configured target is now 39 accounts. Their repository counts must not be added to the 25,965 baseline until complete pagination and committed account summaries are available.
+
+
+## Manual documentation coverage — 24 November 2026
+
+The five curated company folders now contain **51 manually interpreted README-based project dossiers**: Microsoft 18, Google 8, Apple 7, NVIDIA 13 and Amazon/AWS 5. These hand-written summaries are a separate track from the automated evidence captures in the account inventories; the 314 evidence captures in the 34-account baseline had not been manually interpreted by the collector.
