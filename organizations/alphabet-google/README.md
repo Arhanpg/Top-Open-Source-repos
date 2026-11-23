@@ -4,7 +4,7 @@
 - **Company mapping:** candidate account; project-specific affiliations should be verified from Google's official engineering and project pages.
 - **Source group:** United States & Global
 - **Directory status:** initialized; public repository inventory not exhaustive
-- **Detailed README records:** 2
+- **Detailed README records:** 7
 
 ## Reviewed projects
 
@@ -31,3 +31,8 @@ The `google` account is a starting point, not a full map of every Google product
 - [Google GitHub account](https://github.com/google)
 - [Google Open Source](https://opensource.google/)
 - [Google repository index in this catalogue](repositories/README.md)
+
+
+## Additional README-reviewed repositories — 23 November 2026
+
+Five more Google-account README briefs have been added: zx, Google Style Guides, GoogleTest/GoogleMock, LevelDB and Comprehensive Rust. This set spans developer scripting, code conventions, C++ testing, embedded storage and Rust education. Note the upstream maintenance restrictions documented for LevelDB and the unsupported-product disclaimer on zx. See the [repository index](repositories/README.md).
