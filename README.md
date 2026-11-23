@@ -232,3 +232,8 @@ The primary [Baidu](https://github.com/baidu) and [Tencent](https://github.com/T
 ## Baidu and Tencent README review — 24 November 2026
 
 Five additional detailed project dossiers are now indexed: [PaddleOCR](organizations/baidu/repositories/paddleocr.md), [Apollo](organizations/baidu/repositories/apollo.md), [XuperChain](organizations/baidu/repositories/xuperchain.md), [WeKnora](organizations/tencent/repositories/weknora.md) and [ncnn](organizations/tencent/repositories/ncnn.md). The curated company set now has **61 manually interpreted README-based project briefs** across seven company folders.
+
+
+## Latest catalogue status — 24 November 2026
+
+The company mapping now contains 205 rows and 63 inventory-eligible GitHub accounts. The first live inventory baseline is still 25,965 repositories across the original 34 accounts; additional accounts need their own committed pagination before a new combined total is stated. The manually interpreted catalogue now contains 61 project dossiers across Microsoft, Google, Apple, NVIDIA, Amazon/AWS, Baidu and Tencent. See [the account discovery and inventory status](docs/ACCOUNT-DISCOVERY-STATUS-2026-11-24.md).

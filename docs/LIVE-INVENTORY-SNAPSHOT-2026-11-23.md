@@ -80,3 +80,8 @@ On 24 November 2026, three Microsoft documentation-linked accounts were added us
 ## Apple account-discovery amendment — 24 November 2026
 
 Two Apple project-linked accounts were added after this first-run snapshot: swiftlang for the Swift project and ml-explore for MLX. They are directly linked from Apple's official Open Source project pages and use the official-project-linked status. The current eligible account target is 44, not 42; the first-run 25,965-repository snapshot above still covers only the original 34 accounts.
+
+
+## Latest account-discovery and manual review amendment — 24 November 2026
+
+This live inventory report remains a historical baseline for the first 34 accounts and 25,965 repository records. Subsequent official-source discovery expanded the mapping to 63 inventory-eligible accounts (205 total mapping rows). It also expanded the manually interpreted project catalogue to 61 dossiers across seven company folders. Repository totals for the newly added accounts are not included until their own pagination checkpoints have been committed.

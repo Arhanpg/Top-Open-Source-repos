@@ -126,3 +126,16 @@ The five curated company folders now contain **51 manually interpreted README-ba
 ## Apple account-discovery amendment — 24 November 2026
 
 Apple's official Open Source catalogue links two additional GitHub accounts for Swift and MLX: swiftlang and ml-explore. They were added as project-linked accounts after the 34-account first-run snapshot. Their repository counts are not included in the 25,965 baseline and must be established by their own complete pagination.
+
+
+## Latest account and documentation coverage — 24 November 2026
+
+This section supersedes earlier “current target” statements in this frozen first-run dashboard.
+
+- **205 mapping rows** across the source-company list and the additional linked GitHub accounts.
+- **63 inventory-eligible accounts**: 9 directly verified, 39 official-directory-listed, and 15 official-project-linked.
+- The first live inventory baseline remains **25,965 repositories across 34 accounts**. It does not include all later-added accounts; their individual pagination must be committed before an updated combined total is reported.
+- **61 manually interpreted README-based project dossiers**: Microsoft 18, Google 8, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3 and Tencent 2.
+- The account-level evidence captures from the first run (286 README captured, 30 unavailable, 314 terminal evidence captures and 25,649 pending/error) remain a historical snapshot, not current live counts for 63 accounts.
+
+See [Account Discovery Status](ACCOUNT-DISCOVERY-STATUS-2026-11-24.md) for the current mapping breakdown and [GitHub Actions](https://github.com/Arhanpg/Top-Open-Source-repos/actions) for the live scan state.
