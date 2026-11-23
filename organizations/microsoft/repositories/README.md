@@ -22,8 +22,16 @@ Company account: [microsoft](https://github.com/microsoft)
 
 Do not treat this file as exhaustive until the full public repository listing for the verified company account has been retrieved with pagination and reconciled against these README-audited records.
 
-| [Visual Studio Code — Code - OSS](vscode.md) ([upstream](https://github.com/microsoft/vscode)) | This repository is the open-source Code - OSS codebase used to develop Visual Studio Code with the community. The branded Visual Studio Code distribution is built from Code - OSS and adds Microsoft-specific customizations under a separate Microsoft product licence. | README reviewed |
-| [Windows Terminal, Console and Command-Line](terminal.md) ([upstream](https://github.com/microsoft/terminal)) | This repository contains source code for Windows Terminal, Windows Terminal Preview, the Windows console host (conhost.exe), shared components, ColorTool and sample projects that demonstrate how to consume Windows Console APIs. | README reviewed |
-| [Generative AI for Beginners](generative-ai-for-beginners.md) ([upstream](https://github.com/microsoft/generative-ai-for-beginners)) | A 21-lesson learning curriculum from Microsoft Cloud Advocates that teaches the fundamentals of building generative-AI applications. It combines written lessons, short videos, hands-on code examples and links to further learning. | README reviewed |
-| [Web Development for Beginners](web-dev-for-beginners.md) ([upstream](https://github.com/microsoft/Web-Dev-For-Beginners)) | A 12-week curriculum containing 24 lessons for learning the fundamentals of web development. The README presents it as a project-based course created by Microsoft Cloud Advocates, covering HTML, CSS and JavaScript. | README reviewed |
-| [AI Agents for Beginners](ai-agents-for-beginners.md) ([upstream](https://github.com/microsoft/ai-agents-for-beginners)) | A course teaching learners how to design and build AI agents. Its lesson sequence covers agent foundations, frameworks and design patterns, tools, agentic RAG, trustworthiness, planning, multi-agent systems, production deployment, protocols, context engineering and memory. | README reviewed |
+## Additional README-reviewed repositories — 23 November 2026
+
+5 additional project briefs were added in this batch. These are a reviewed subset, not a complete account inventory.
+
+| Repository brief | Upstream | Purpose | Review status |
+|---|---|---|---|
+| [Visual Studio Code — Code - OSS](vscode.md) | [https://github.com/microsoft/vscode](https://github.com/microsoft/vscode) | Open-source Code - OSS editor source with extensibility and edit-build-debug tooling. | README reviewed |
+| [Windows Terminal, Console and Command-Line](terminal.md) | [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal) | Source for Windows Terminal, console host and shared Windows console components. | README reviewed |
+| [Generative AI for Beginners](generative-ai-for-beginners.md) | [https://github.com/microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 21-lesson generative-AI application curriculum with Python and TypeScript samples. | README reviewed |
+| [Web Development for Beginners](web-dev-for-beginners.md) | [https://github.com/microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners) | 24-lesson project-based HTML, CSS and JavaScript course. | README reviewed |
+| [AI Agents for Beginners](ai-agents-for-beginners.md) | [https://github.com/microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | Course and samples for agent frameworks, tool use, RAG, planning and multi-agent systems. | README reviewed |
+
+**Discovery sample:** [First ranked search page](../discovery/search-page-1-2026-11-23.json). Up to 100 search results; not exhaustive.

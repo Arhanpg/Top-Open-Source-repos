@@ -36,3 +36,8 @@ The Apple organization folder contains only projects whose README pages have bee
 ## Additional README-reviewed projects — 23 November 2026
 
 Four further Apple-account projects now have individual technical briefs: XNU/Darwin kernel, SwiftNIO, Swift Algorithms and Core ML Tools. The pages distinguish kernel source, networking primitives, collection algorithms and model-conversion tooling. SwiftNIO's README lifecycle note for SwiftNIO 1 is preserved. See the [repository index](repositories/README.md).
+
+
+## Discovery sample — 23 November 2026
+
+[Open the saved first-page search snapshot](discovery/search-page-1-2026-11-23.json). It contains up to 100 ranked GitHub search results for this account and is not a complete public repository inventory. Full API pagination and wider official-account discovery remain necessary.

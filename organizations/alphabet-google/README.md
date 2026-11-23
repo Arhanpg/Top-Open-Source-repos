@@ -36,3 +36,8 @@ The `google` account is a starting point, not a full map of every Google product
 ## Additional README-reviewed repositories — 23 November 2026
 
 Five more Google-account README briefs have been added: zx, Google Style Guides, GoogleTest/GoogleMock, LevelDB and Comprehensive Rust. This set spans developer scripting, code conventions, C++ testing, embedded storage and Rust education. Note the upstream maintenance restrictions documented for LevelDB and the unsupported-product disclaimer on zx. See the [repository index](repositories/README.md).
+
+
+## Discovery sample — 23 November 2026
+
+[Open the saved first-page search snapshot](discovery/search-page-1-2026-11-23.json). It contains up to 100 ranked GitHub search results for this account and is not a complete public repository inventory. Full API pagination and wider official-account discovery remain necessary.

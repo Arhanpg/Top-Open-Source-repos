@@ -57,3 +57,8 @@ The detailed pages below cover selected README-reviewed projects only. The publi
 ## Additional README-reviewed projects — 23 November 2026
 
 Five additional Microsoft project briefs have been added: Visual Studio Code (Code - OSS), Windows Terminal, Generative AI for Beginners, Web Development for Beginners and AI Agents for Beginners. Their summaries distinguish learning materials from deployable software and retain important licensing, platform and provider lifecycle caveats. See the [repository index](repositories/README.md).
+
+
+## Discovery sample — 23 November 2026
+
+[Open the saved first-page search snapshot](discovery/search-page-1-2026-11-23.json). It contains up to 100 ranked GitHub search results for this account and is not a complete public repository inventory. Full API pagination and wider official-account discovery remain necessary.

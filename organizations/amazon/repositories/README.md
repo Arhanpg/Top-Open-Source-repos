@@ -13,6 +13,14 @@ Company account: [aws](https://github.com/aws)
 
 Do not treat this file as exhaustive until the full public repository listing for the verified company account has been retrieved with pagination and reconciled against these README-audited records.
 
-| [Amazon SageMaker Examples](amazon-sagemaker-examples.md) ([upstream](https://github.com/aws/amazon-sagemaker-examples)) | A collection of Jupyter notebooks demonstrating how to build, train, evaluate and deploy machine-learning models with Amazon SageMaker. The README says the official repository is maintained by the Amazon SageMaker team and is intended to cover the breadth of SageMaker features. | README reviewed |
-| [AWS Serverless Application Model (SAM) Transform](serverless-application-model.md) ([upstream](https://github.com/aws/serverless-application-model)) | The AWS SAM transform is a CloudFormation macro that converts AWS SAM templates into standard AWS CloudFormation templates. It extends CloudFormation template syntax with serverless resource types and defaults. | README reviewed |
-| [Karpenter AWS Provider](karpenter-provider-aws.md) ([upstream](https://github.com/aws/karpenter-provider-aws)) | The README describes Karpenter as an open-source node-provisioning project for Kubernetes. It watches for pods the Kubernetes scheduler marks unschedulable, evaluates their scheduling requirements and provisions nodes that can run them. | README reviewed |
+## Additional README-reviewed repositories — 23 November 2026
+
+3 additional project briefs were added in this batch. These are a reviewed subset, not a complete account inventory.
+
+| Repository brief | Upstream | Purpose | Review status |
+|---|---|---|---|
+| [Amazon SageMaker Examples](amazon-sagemaker-examples.md) | [https://github.com/aws/amazon-sagemaker-examples](https://github.com/aws/amazon-sagemaker-examples) | Jupyter notebooks for SageMaker training, customization, evaluation, inference and MLOps. | README reviewed |
+| [AWS SAM Transform](serverless-application-model.md) | [https://github.com/aws/serverless-application-model](https://github.com/aws/serverless-application-model) | CloudFormation macro translating SAM templates into CloudFormation resources. | README reviewed |
+| [Karpenter AWS Provider](karpenter-provider-aws.md) | [https://github.com/aws/karpenter-provider-aws](https://github.com/aws/karpenter-provider-aws) | Kubernetes node provisioning based on unschedulable pod requirements. | README reviewed |
+
+**Discovery sample:** [First ranked search page](../discovery/search-page-1-2026-11-23.json). Up to 100 search results; not exhaustive.

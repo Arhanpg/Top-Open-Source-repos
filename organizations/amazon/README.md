@@ -35,3 +35,8 @@ The `aws` organization is focused on AWS public engineering repositories and sho
 ## Additional README-reviewed projects — 23 November 2026
 
 Three additional AWS repository briefs have been added: Amazon SageMaker Examples, AWS SAM Transform and Karpenter AWS Provider. These pages cover ML workflow examples, serverless template translation and Kubernetes node provisioning. They preserve cloud-cost, IAM and operational cautions from the project documentation. See the [repository index](repositories/README.md).
+
+
+## Discovery sample — 23 November 2026
+
+[Open the saved first-page search snapshot](discovery/search-page-1-2026-11-23.json). It contains up to 100 ranked GitHub search results for this account and is not a complete public repository inventory. Full API pagination and wider official-account discovery remain necessary.

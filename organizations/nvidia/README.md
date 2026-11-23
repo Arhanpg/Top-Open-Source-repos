@@ -40,3 +40,8 @@ The two repository pages are README-based summaries, not benchmark reproductions
 ## Additional README-reviewed projects — 23 November 2026
 
 Five additional NVIDIA project briefs have been added: Linux Open GPU Kernel Modules, nvidia-docker, DeepLearningExamples, Cosmos and TensorRT OSS. The records preserve important lifecycle and compatibility findings, including the archived/deprecated state of nvidia-docker and TensorRT 11 migration notes. See the [repository index](repositories/README.md).
+
+
+## Discovery sample — 23 November 2026
+
+[Open the saved first-page search snapshot](discovery/search-page-1-2026-11-23.json). It contains up to 100 ranked GitHub search results for this account and is not a complete public repository inventory. Full API pagination and wider official-account discovery remain necessary.

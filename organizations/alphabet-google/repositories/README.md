@@ -14,8 +14,16 @@ Company account: [google](https://github.com/google)
 
 Do not treat this file as exhaustive until the full public repository listing for the verified company account has been retrieved with pagination and reconciled against these README-audited records.
 
-| [zx — JavaScript shell scripting utility](zx.md) ([upstream](https://github.com/google/zx)) | zx is a JavaScript package for writing shell scripts with more convenient abstractions than the raw Node.js child_process APIs. Its README describes cross-platform wrappers around child_process, argument escaping and sensible defaults. | README reviewed |
-| [Google Style Guides](styleguide.md) ([upstream](https://github.com/google/styleguide)) | A central index of coding conventions and style guides used for Google code and many Google-originated open-source projects. The README explains that consistent style makes large codebases easier to read and maintain. | README reviewed |
-| [GoogleTest and GoogleMock](googletest.md) ([upstream](https://github.com/google/googletest)) | GoogleTest is Google's C++ testing framework. This repository combines the formerly separate GoogleTest and GoogleMock projects and provides test-writing, assertion and mocking capabilities for C++ software. | README reviewed |
-| [LevelDB](leveldb.md) ([upstream](https://github.com/google/leveldb)) | LevelDB is an embeddable key-value storage library written at Google. It provides an ordered mapping from string keys to string values and is intended as a storage component, not a full client-server relational database. | README reviewed |
-| [Comprehensive Rust](comprehensive-rust.md) ([upstream](https://github.com/google/comprehensive-rust)) | The source repository for a multi-day Rust course developed by Google's Android team. It teaches Rust from basic syntax through generics and error handling, with deeper material for Android, Chromium, bare-metal programming and concurrency. | README reviewed |
+## Additional README-reviewed repositories — 23 November 2026
+
+5 additional project briefs were added in this batch. These are a reviewed subset, not a complete account inventory.
+
+| Repository brief | Upstream | Purpose | Review status |
+|---|---|---|---|
+| [zx — JavaScript shell scripting utility](zx.md) | [https://github.com/google/zx](https://github.com/google/zx) | JavaScript wrappers for cross-platform shell command execution. | README reviewed |
+| [Google Style Guides](styleguide.md) | [https://github.com/google/styleguide](https://github.com/google/styleguide) | Central index of Google language coding conventions and style guides. | README reviewed |
+| [GoogleTest and GoogleMock](googletest.md) | [https://github.com/google/googletest](https://github.com/google/googletest) | C++ unit testing and mocking framework. | README reviewed |
+| [LevelDB](leveldb.md) | [https://github.com/google/leveldb](https://github.com/google/leveldb) | Ordered key-value storage library with write batches and snapshots. | README reviewed |
+| [Comprehensive Rust](comprehensive-rust.md) | [https://github.com/google/comprehensive-rust](https://github.com/google/comprehensive-rust) | Multi-day Rust course developed by Google's Android team. | README reviewed |
+
+**Discovery sample:** [First ranked search page](../discovery/search-page-1-2026-11-23.json). Up to 100 search results; not exhaustive.
