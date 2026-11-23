@@ -125,6 +125,41 @@ ruff = "^0.9"
             ["guzzlehttp/guzzle", "phpunit/phpunit"],
         )
 
+    def test_changed_upstream_source_invalidates_captured_evidence(self):
+        previous = repository(1)
+        previous["readme_status"] = "captured"
+        previous["readme_url"] = "https://github.com/Example/repo-1/blob/main/README.md"
+        previous["readme_sha"] = "old-readme-sha"
+        previous["languages_status"] = "captured"
+        previous["languages_bytes"] = {"Python": 500}
+        previous["manifest_status"] = "captured"
+        previous["manifest_paths"] = [{"path": "pyproject.toml"}]
+        previous["audit_status"] = "evidence captured; manual review pending"
+        previous["manual_review_status"] = "README reviewed"
+
+        changed = repository(1)
+        changed["pushed_at"] = "2026-11-24T01:00:00Z"
+
+        refreshed = audit.repo_metadata(changed, previous, "scan-2")
+        self.assertEqual(refreshed["readme_status"], "pending")
+        self.assertEqual(refreshed["languages_status"], "pending")
+        self.assertEqual(refreshed["manifest_status"], "pending")
+        self.assertEqual(refreshed["audit_status"], "evidence stale; recapture required")
+        self.assertIn("refresh required", refreshed["manual_review_status"])
+
+    def test_unchanged_upstream_source_preserves_captured_evidence(self):
+        previous = repository(1)
+        previous["readme_status"] = "captured"
+        previous["languages_status"] = "captured"
+        previous["manifest_status"] = "captured"
+        previous["readme_sha"] = "same-sha"
+
+        refreshed = audit.repo_metadata(repository(1), previous, "scan-2")
+        self.assertEqual(refreshed["readme_status"], "captured")
+        self.assertEqual(refreshed["languages_status"], "captured")
+        self.assertEqual(refreshed["manifest_status"], "captured")
+        self.assertEqual(refreshed["readme_sha"], "same-sha")
+
 
 class InventoryTests(unittest.TestCase):
     def test_auto_account_type_resolves_organization(self):

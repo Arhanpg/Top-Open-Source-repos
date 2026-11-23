@@ -35,7 +35,7 @@ The mapping CSV currently uses account_type=auto for the five verified starting 
 - Organization: /orgs/{login}/repos with public repositories.
 - User: /users/{login}/repos with repositories owned by that user.
 
-It requests 100 records per page and follows GitHub's Link: rel="next" header. Every retrieved page is written immediately to the tracked inventory.json checkpoint. When an account is interrupted, rerunning the collector continues at the saved next_page; it does not start from page one unless --refresh-inventory is requested.
+It requests 100 records per page and follows GitHub's Link: rel="next" header. Every retrieved page is written immediately to the tracked inventory.json checkpoint. If the default branch or pushed commit changes, README/language/manifest evidence is invalidated and queued for re-capture; a previous manual README review is marked as requiring refresh. When an account is interrupted, rerunning the collector continues at the saved next_page; it does not start from page one unless --refresh-inventory is requested.
 
 Archived repositories and forks are retained and labelled. Only public repositories are collected. A primary company account is not proof that all product, research, cloud or subsidiary accounts have been discovered.
 

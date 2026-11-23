@@ -39,3 +39,8 @@ The collector now provides a coherent base for large inventory runs, but company
 - Empty organizations remain complete after their first successful empty page and are not mistaken for uninitialized checkpoints.
 - Selected small manifests are fetched with a 256 KB per-file cap, and conservative dependency-name clues are extracted for common package formats.
 - Per-manifest errors create a partial evidence state instead of being represented as a successful manifest capture.
+
+
+## Evidence freshness
+
+Inventory refreshes compare the default branch and last-pushed timestamp with the previous metadata snapshot. When either changes, the collector invalidates cached README, language and manifest evidence so that the next enrichment batch captures the current source. A previously manually reviewed page is marked as requiring a fresh manual review rather than silently retaining a current-review label.

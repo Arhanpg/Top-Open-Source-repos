@@ -104,10 +104,41 @@ def repo_metadata(row: dict[str, Any], old: dict[str, Any] | None, scan_id: str)
         "open_issues":row.get("open_issues_count"), "topics":row.get("topics", []),
         "last_seen_scan_id":scan_id,
     }
-    for key in ("readme_status","readme_url","readme_path","readme_sha","readme_excerpt","readme_headings",
-                "languages_bytes","languages_status","manifest_status","manifest_paths","manifest_truncated",
-                "enriched_at","audit_status","manual_review_status","capture_errors"):
-        if old and key in old: item[key] = old[key]
+    evidence_keys = (
+        "readme_status", "readme_url", "readme_path", "readme_sha", "readme_excerpt", "readme_headings",
+        "languages_bytes", "languages_status", "manifest_status", "manifest_paths", "manifest_truncated",
+        "enriched_at", "audit_status", "manual_review_status", "capture_errors",
+    )
+    if old:
+        for key in evidence_keys:
+            if key in old:
+                item[key] = old[key]
+
+    # If the default branch or pushed commit changed since metadata was last
+    # captured, the previous technical evidence may describe stale source.
+    source_changed = bool(old) and (
+        old.get("default_branch") != item.get("default_branch")
+        or old.get("pushed_at") != item.get("pushed_at")
+    )
+    if source_changed:
+        item.update({
+            "readme_status": "pending",
+            "readme_url": None,
+            "readme_path": None,
+            "readme_sha": None,
+            "readme_excerpt": "",
+            "readme_headings": [],
+            "languages_status": "pending",
+            "languages_bytes": {},
+            "manifest_status": "pending",
+            "manifest_paths": [],
+            "manifest_truncated": False,
+            "audit_status": "evidence stale; recapture required",
+            "evidence_stale_reason": "default branch or pushed_at changed during inventory refresh",
+        })
+        if item.get("manual_review_status") == "README reviewed":
+            item["manual_review_status"] = "manual review refresh required because upstream source metadata changed"
+
     item.setdefault("readme_status", "pending")
     item.setdefault("languages_status", "pending")
     item.setdefault("manifest_status", "pending")
