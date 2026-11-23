@@ -212,3 +212,8 @@ See [Microsoft Account Discovery](organizations/microsoft/ACCOUNT-DISCOVERY.md).
 ## Automated enrichment cadence
 
 The scheduled collector now runs four times per day (02:23, 08:23, 14:23 and 20:23 UTC) with a default batch of 10 repositories per eligible account per run. The 42 currently eligible mappings allow up to 1,680 enrichment candidates per day before API limits, retries and unavailable README states. See the [collector guide](docs/INVENTORY-COLLECTOR.md) for the exact run semantics.
+
+
+## Apple project review and account expansion — 24 November 2026
+
+Five additional Apple Open Source projects now have individual technical briefs: [Password Manager Resources](organizations/apple/repositories/password-manager-resources.md), [ServiceTalk](organizations/apple/repositories/servicetalk.md), [Containerization](organizations/apple/repositories/containerization.md), [Swift](organizations/apple/repositories/swift-language.md) and [MLX](organizations/apple/repositories/mlx.md). Apple's official project pages link Swift to the swiftlang GitHub account and MLX to ml-explore; both are mapped as project-linked accounts. The curated five-company total is now **56** README-based project briefs, while the inventory-eligible account target is **44**.

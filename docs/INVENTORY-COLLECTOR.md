@@ -155,3 +155,8 @@ Some existing repositories contain a zero-byte file named `README` (without a Ma
 ## Scheduled enrichment cadence
 
 The scheduled workflow runs four times per day at 02:23, 08:23, 14:23 and 20:23 UTC. Each run keeps a bounded default of 10 enrichment candidates per eligible account and resumes from tracked account checkpoints. With 42 currently eligible accounts, the configuration can select up to 420 repositories per run and up to 1,680 enrichment candidates per day. Actual throughput may be lower because of README-unavailable states, API errors, GitHub rate limits, retries or incomplete runs. Inventory refresh/pagination remains a separate operation from README evidence capture.
+
+
+## Apple project-linked accounts
+
+Apple's official Open Source catalogue links two separate GitHub accounts for Swift and MLX: swiftlang and ml-explore. They use official-project-linked and are inventoried independently from the primary apple organization. See [Apple Account Discovery](../organizations/apple/ACCOUNT-DISCOVERY.md).

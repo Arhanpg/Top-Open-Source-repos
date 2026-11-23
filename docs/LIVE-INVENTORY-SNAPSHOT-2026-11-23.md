@@ -75,3 +75,8 @@ This is a historical first-run snapshot of 34 configured accounts. On 24 Novembe
 ## Additional account-discovery amendment — Microsoft
 
 On 24 November 2026, three Microsoft documentation-linked accounts were added using Microsoft Learn contributor guidance: `MicrosoftDocs`, `dotnet` and `Azure`. Together with the five NVIDIA project-linked accounts added in the same discovery wave, the current configuration has 42 inventory-eligible accounts. The first-run 34-account/25,965-repository snapshot above predates these additions.
+
+
+## Apple account-discovery amendment — 24 November 2026
+
+Two Apple project-linked accounts were added after this first-run snapshot: swiftlang for the Swift project and ml-explore for MLX. They are directly linked from Apple's official Open Source project pages and use the official-project-linked status. The current eligible account target is 44, not 42; the first-run 25,965-repository snapshot above still covers only the original 34 accounts.

@@ -121,3 +121,8 @@ This dashboard is a frozen baseline from the first live scan of 34 accounts. Fiv
 ## Manual documentation coverage — 24 November 2026
 
 The five curated company folders now contain **51 manually interpreted README-based project dossiers**: Microsoft 18, Google 8, Apple 7, NVIDIA 13 and Amazon/AWS 5. These hand-written summaries are a separate track from the automated evidence captures in the account inventories; the 314 evidence captures in the 34-account baseline had not been manually interpreted by the collector.
+
+
+## Apple account-discovery amendment — 24 November 2026
+
+Apple's official Open Source catalogue links two additional GitHub accounts for Swift and MLX: swiftlang and ml-explore. They were added as project-linked accounts after the 34-account first-run snapshot. Their repository counts are not included in the 25,965 baseline and must be established by their own complete pagination.

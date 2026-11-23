@@ -32,3 +32,14 @@ Do not treat this file as exhaustive until the full public repository listing fo
 | Repository brief | Upstream | Purpose | Review status |
 |---|---|---|---|
 | [Turi Create](turicreate.md) | [https://github.com/apple/turicreate](https://github.com/apple/turicreate) | Turi Create is a Python library designed to simplify development of custom machine-learning models for application use. The README describes task-oriented APIs for recommendations, image classification, object detection, sound classification, image similarity, activity classification and other common ML tasks. | README reviewed |
+
+
+## Apple Open Source project-page reviews — 24 November 2026
+
+| Repository brief | Upstream repository | Purpose | Review |
+|---|---|---|---|
+| [Password Manager Resources](password-manager-resources.md) | [apple/password-manager-resources](https://github.com/apple/password-manager-resources) | A shared project where password-manager creators and users collaborate on website-specific compatibility data (quirks) and code. Its goal is to let password managers reuse compatibility discoveries and encourage websites to adopt standards that communicate password requirements consistently. | README reviewed |
+| [ServiceTalk](servicetalk.md) | [apple/servicetalk](https://github.com/apple/servicetalk) | A JVM network-application framework with APIs tailored to widely used service-to-service protocols, including HTTP and gRPC. The README positions it as a layer built on Netty that exposes networking and microservice capabilities without requiring every application to use lower-level Netty primitives. | README reviewed |
+| [Containerization](containerization.md) | [apple/containerization](https://github.com/apple/containerization) | A Swift package that exposes APIs for running Linux containers inside lightweight virtual machines. On Apple silicon macOS it uses Apple's Virtualization framework; the README also documents a Linux backend based on cloud-hypervisor and KVM. | README reviewed |
+| [Swift Programming Language](swift-language.md) | [swiftlang/swift](https://github.com/swiftlang/swift) | The primary source repository for the Swift programming language. The README describes Swift as a high-performance system-programming language with modern syntax, memory safety by default and interoperability with existing C and Objective-C code and frameworks. | README reviewed |
+| [MLX](mlx.md) | [ml-explore/mlx](https://github.com/ml-explore/mlx) | An array framework for machine-learning research on Apple silicon, brought to you by Apple machine-learning research. Its README emphasizes a NumPy-like Python API, unified memory and a deliberately simple design for efficient experimentation. | README reviewed |

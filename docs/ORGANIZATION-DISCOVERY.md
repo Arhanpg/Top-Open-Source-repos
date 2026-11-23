@@ -84,3 +84,15 @@ Microsoft Learn's contributor guide links repositories hosted in three additiona
 Source: [Microsoft Learn — Set up a local Git repository](https://learn.microsoft.com/contribute/get-started-setup-local). The page explicitly lists MicrosoftDocs repositories, dotnet/docs and Azure documentation/SDK links. Each login was separately checked through GitHub repository search on 24 November 2026 and returned public repository results.
 
 These rows use `official-project-linked`: they document a project/repository relationship published by Microsoft Learn, not a blanket assertion that every repository in each account is owned or authored by Microsoft. Microsoft's Open Source Program separately states that it has more than 100 GitHub organizations; this three-account discovery is therefore a partial, source-backed expansion, not the full list.
+
+
+## Apple official project-linked accounts — 24 November 2026
+
+Apple's company-controlled [Open Source projects catalogue](https://opensource.apple.com/projects/) labels Swift and MLX as Apple projects and links their separate GitHub accounts:
+
+| Account | Project | GitHub repository |
+|---|---|---|
+| [swiftlang](https://github.com/swiftlang) | Swift | [swiftlang/swift](https://github.com/swiftlang/swift) |
+| [ml-explore](https://github.com/ml-explore) | MLX | [ml-explore/mlx](https://github.com/ml-explore/mlx) |
+
+The catalogue also links Apple projects under the primary apple organization, including Password Manager Resources, ServiceTalk, Containerization and Core ML Tools. The two additional accounts use official-project-linked to distinguish project association from blanket ownership. Apple's catalogue separates Apple-managed projects from community projects it participates in; community projects are not counted as Apple-owned accounts.

@@ -1,10 +1,10 @@
 # Apple — open-source organization profile
 
 - **GitHub account:** [apple](https://github.com/apple)
-- **Company mapping:** candidate account; individual account ownership and project relationships should be checked against Apple's official developer and open-source pages.
+- **Company mapping:** the primary apple GitHub organization is directly verified. Apple's official Open Source project catalogue links two additional project accounts, ml-explore and swiftlang, tracked separately in the Account Discovery register.
 - **Source group:** United States & Global
 - **Directory status:** initialized; public repository inventory not exhaustive
-- **Detailed README records:** 7
+- **Detailed README records:** 12
 
 ## Reviewed projects
 
@@ -46,3 +46,8 @@ Four further Apple-account projects now have individual technical briefs: XNU/Da
 ## Continued README review — 23 November 2026
 
 1 additional README-reviewed project brief has been added to this account folder. See [the repository index](repositories/README.md). The account's complete public repository inventory and related company organizations still require full discovery and pagination.
+
+
+## Additional Apple Open Source projects — 24 November 2026
+
+Five additional README-based project briefs were added: Password Manager Resources, ServiceTalk, Containerization, the Swift Programming Language and MLX. Swift and MLX live in separate GitHub accounts linked by Apple's official Open Source project pages. See the repository index and account discovery register.

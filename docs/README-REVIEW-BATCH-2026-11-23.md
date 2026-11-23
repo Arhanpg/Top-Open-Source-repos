@@ -127,3 +127,16 @@ The NVIDIA project-linked account review added five individual technical briefs:
 - [Triton Inference Server](../organizations/nvidia/repositories/triton-inference-server.md)
 
 The manually interpreted project-dossier count across the five company folders is now **51**: Microsoft 18, Google 8, Apple 7, NVIDIA 13 and Amazon/AWS 5.
+
+
+## Apple Open Source project reviews — 24 November 2026
+
+Five further Apple project README briefs were added:
+
+- [Password Manager Resources](../organizations/apple/repositories/password-manager-resources.md) — shared compatibility datasets and parser code for password managers.
+- [ServiceTalk](../organizations/apple/repositories/servicetalk.md) — JVM networking framework based on Netty.
+- [Containerization](../organizations/apple/repositories/containerization.md) — Swift APIs for Linux containers inside lightweight VMs.
+- [Swift Programming Language](../organizations/apple/repositories/swift-language.md) — primary source repository for the Swift language.
+- [MLX](../organizations/apple/repositories/mlx.md) — Apple-silicon machine-learning array framework.
+
+Apple's official Open Source catalogue links Swift and MLX under the separate swiftlang and ml-explore accounts, respectively. The five company folders now contain **56 manually interpreted README-based project briefs**: Microsoft 18, Google 8, Apple 12, NVIDIA 13 and Amazon/AWS 5.
