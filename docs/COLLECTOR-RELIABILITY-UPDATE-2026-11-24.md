@@ -76,3 +76,8 @@ The first run captured README/language/manifest evidence for a bounded batch of 
 ## Additional NVIDIA account discovery — 24 November 2026
 
 After the 34-account inventory snapshot, five further NVIDIA project-linked accounts were added from direct links on NVIDIA's official Open Source at NVIDIA hub: `NVIDIA-ISAAC-ROS`, `nvidia-cosmos`, `rapidsai`, `ai-dynamo` and `triton-inference-server`. They use the separate `official-project-linked` status to avoid implying blanket legal ownership. The configured inventory target is therefore now 39 accounts, but the original 25,965-repository snapshot does not include these five new account inventories. See [NVIDIA Account Discovery](../organizations/nvidia/ACCOUNT-DISCOVERY.md).
+
+
+## Empty README response — 24 November 2026
+
+The second live enrichment run identified `boto/requestbuilder` as a repository with a zero-byte file named `README`. GitHub's README endpoint returned metadata but no Base64 body, which the collector incorrectly treated as an evidence-capture error. The collector now classifies only a verified zero-byte README as terminal `unavailable`; non-empty README metadata without content remains an error. Two offline tests cover both paths.

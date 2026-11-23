@@ -145,3 +145,8 @@ An account may be linked as a named project from a company-controlled open-sourc
 ## Microsoft documentation-linked accounts
 
 Microsoft Learn's contributor guide directly links to repositories under `MicrosoftDocs`, `dotnet` and `Azure`. These mappings use `official-project-linked` and remain distinct from the primary `microsoft` account. The relationship proves that Microsoft documentation points contributors to projects in those accounts; it is not a claim that every repository in those accounts is Microsoft-authored. See [Microsoft Account Discovery](../organizations/microsoft/ACCOUNT-DISCOVERY.md).
+
+
+## Empty README files
+
+Some existing repositories contain a zero-byte file named `README` (without a Markdown extension). GitHub can return README metadata with no Base64 content for such a file. The collector records this as `README unavailable` with the explicit reason `README file is present but zero bytes`. A non-empty file whose content is unexpectedly absent remains a capture error.

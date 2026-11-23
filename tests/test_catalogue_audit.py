@@ -173,6 +173,35 @@ ruff = "^0.9"
 
 
 class InventoryTests(unittest.TestCase):
+    def test_zero_byte_readme_is_terminal_unavailable_not_capture_error(self):
+        item = repository(1)
+        empty_readme = {
+            "empty": True,
+            "url": "https://github.com/Example/repo-1/blob/main/README",
+            "path": "README",
+            "sha": "empty-blob-sha",
+            "excerpt": "",
+            "headings": [],
+        }
+        with patch.object(audit, "get_languages", return_value={}):
+            with patch.object(audit, "get_readme", return_value=empty_readme):
+                with patch.object(audit, "get_manifests", return_value=([], False)):
+                    result = audit.enrich(item, None, 6, False)
+        self.assertEqual(result["readme_status"], "unavailable")
+        self.assertEqual(result["readme_unavailable_reason"], "README file is present but zero bytes")
+        self.assertEqual(result["audit_status"], "evidence captured; manual review pending")
+        self.assertEqual(result["capture_errors"], [])
+
+    def test_nonempty_readme_metadata_without_content_is_error(self):
+        with patch.object(audit, "api_get", return_value=({
+            "content": "",
+            "size": 24,
+            "path": "README.md",
+            "html_url": "https://github.com/Example/repo-1/blob/main/README.md",
+        }, {})):
+            with self.assertRaisesRegex(RuntimeError, "non-empty file"):
+                audit.get_readme("Example/repo-1", None)
+
     def test_auto_account_type_resolves_organization(self):
         with patch.object(audit, "api_get", return_value=({"type": "Organization"}, {})):
             self.assertEqual(audit.resolve_type("Example", "auto", None), "org")

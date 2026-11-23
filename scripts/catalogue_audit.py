@@ -105,7 +105,7 @@ def repo_metadata(row: dict[str, Any], old: dict[str, Any] | None, scan_id: str)
         "last_seen_scan_id":scan_id,
     }
     evidence_keys = (
-        "readme_status", "readme_url", "readme_path", "readme_sha", "readme_excerpt", "readme_headings",
+        "readme_status", "readme_url", "readme_path", "readme_sha", "readme_excerpt", "readme_headings", "readme_unavailable_reason",
         "languages_bytes", "languages_status", "manifest_status", "manifest_paths", "manifest_truncated",
         "manifest_unavailable_reason", "enriched_at", "audit_status", "manual_review_status", "capture_errors",
     )
@@ -198,7 +198,19 @@ def get_readme(full: str, token: str | None):
         if exc.status == 404: return None
         raise
     content = payload.get("content", "")
-    if not content: raise RuntimeError("README metadata returned without base64 content")
+    if not content:
+        # GitHub can return README metadata without a body for a zero-byte
+        # file (including a file named README without a Markdown extension).
+        if int(payload.get("size") or 0) == 0:
+            return {
+                "empty": True,
+                "url": payload.get("html_url"),
+                "path": payload.get("path"),
+                "sha": payload.get("sha"),
+                "excerpt": "",
+                "headings": [],
+            }
+        raise RuntimeError("README metadata returned without content for a non-empty file")
     raw = base64.b64decode(content).decode("utf-8", errors="replace")
     headings = [re.sub(r"^#{1,6}\s*", "", line).strip() for line in raw.splitlines() if re.match(r"^#{1,6}\s+", line)][:30]
     snippets, words = [], 0
@@ -337,9 +349,11 @@ def enrich(repo: dict[str,Any], token: str | None, manifest_limit: int, force: b
         try:
             doc=get_readme(full,token)
             if doc is None:
-                repo.update(readme_status="unavailable",readme_url=None,readme_path=None,readme_sha=None,readme_excerpt="",readme_headings=[])
+                repo.update(readme_status="unavailable",readme_url=None,readme_path=None,readme_sha=None,readme_excerpt="",readme_headings=[],readme_unavailable_reason="GitHub returned 404 for a README")
+            elif doc.get("empty"):
+                repo.update(readme_status="unavailable",readme_url=doc["url"],readme_path=doc["path"],readme_sha=doc["sha"],readme_excerpt="",readme_headings=[],readme_unavailable_reason="README file is present but zero bytes")
             else:
-                repo.update(readme_status="captured",readme_url=doc["url"],readme_path=doc["path"],readme_sha=doc["sha"],readme_excerpt=doc["excerpt"],readme_headings=doc["headings"])
+                repo.update(readme_status="captured",readme_url=doc["url"],readme_path=doc["path"],readme_sha=doc["sha"],readme_excerpt=doc["excerpt"],readme_headings=doc["headings"],readme_unavailable_reason=None)
         except Exception as exc: repo["readme_status"]="error"; errors.append(f"README: {exc}")
     if force or repo.get("manifest_status") not in {"captured","none_found","unavailable"}:
         try:
@@ -408,6 +422,7 @@ This is repository-owner metadata, not an independently verified technical summa
 ## README capture
 
 - Status: {repo.get('readme_status','pending')}
+- Unavailable reason: {repo.get('readme_unavailable_reason') or 'Not applicable'}
 - Captured: {repo.get('enriched_at') or 'Not yet captured'}
 
 ### Short excerpt (up to 100 words)
