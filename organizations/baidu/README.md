@@ -1,8 +1,8 @@
 # Baidu
 
 - **Source group(s):** china
-- **Candidate GitHub account:** [baidu](https://github.com/baidu)
-- **Account mapping:** mapping unverified
+- **Verified primary GitHub account:** [baidu](https://github.com/baidu)
+- **Account mapping:** verified
 - **Repository inventory status:** Not yet exhaustively enumerated
 - **README audit status:** Individual project records are linked below; projects without a detailed record remain unaudited.
 
@@ -12,4 +12,11 @@ See the [repository catalogue](repositories/README.md) for every repository reco
 
 ## Verification notes
 
-Confirm this account through the company's official website, engineering blog, or official documentation before calling the inventory complete. If the company publishes through multiple engineering, product, foundation or research organizations, document each separately and explain the relationship. Do not merge unrelated community accounts into this company folder.
+The GitHub organization is verified for baidu.com. Its README calls the account Baidu Open Source Projects and explicitly lists affiliated organizations. The affiliated accounts are inventoried separately; the parent account's pagination does not include them. If the company publishes through multiple engineering, product, foundation or research organizations, document each separately and explain the relationship. Do not merge unrelated community accounts into this company folder.
+
+
+## Baidu-affiliated GitHub organizations
+
+Baidu's verified [GitHub organization profile](https://github.com/baidu) lists PaddlePaddle, ApolloAuto and XuperChain under “Affiliated Organizations.” These exact public accounts were probed and returned repositories. They are recorded with the `official-project-linked` status to preserve the relationship without asserting blanket ownership or authorship of all repositories in each account.
+
+See [Baidu Account Discovery](ACCOUNT-DISCOVERY.md).

@@ -16,3 +16,5 @@ A successful automated capture does not imply a manual README review, source-cod
 - Official-directory-listed — an official verified company GitHub profile or company directory explicitly names the account as a dedicated product/project organization. This establishes a published association, not universal ownership or authorship of all repos.
 
 - Official-project-linked — a company-controlled project portal directly links to a GitHub account for a named product area. This is project evidence, not blanket ownership.
+
+- official-project-linked — a company-controlled profile or project portal explicitly links or names an affiliated project account. This records a relationship, not blanket ownership or authorship of every repository.

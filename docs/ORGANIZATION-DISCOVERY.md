@@ -105,3 +105,12 @@ SAP's verified GitHub profile explicitly lists ten dedicated organizations beyon
 ## Siemens product-specific organizations — 24 November 2026
 
 Siemens's official Open Source portal explicitly names `mindsphere` and `industrial-edge` as product-specific GitHub organizations beyond the main `siemens` account. Both accounts returned public repository results. See [Siemens Account Discovery](../organizations/siemens/ACCOUNT-DISCOVERY.md).
+
+
+## Baidu verified account and affiliated organizations — 24 November 2026
+
+Baidu's verified GitHub profile controls `baidu.com` and describes itself as “Baidu Open Source Projects.” It explicitly names PaddlePaddle, ApolloAuto and XuperChain as affiliated organizations. Public repository search returned results for all three accounts. The catalogue adds those accounts with `official-project-linked`, which records the affiliation without claiming blanket ownership of every repository. “Baidu AI Cloud” is mentioned by the profile but was not added as a separate account because the candidate handle probes did not return public repositories. See [Baidu Account Discovery](../organizations/baidu/ACCOUNT-DISCOVERY.md).
+
+## Tencent verified primary account — 24 November 2026
+
+The [Tencent GitHub organization](https://github.com/Tencent) is verified by GitHub against `opensource.tencent.com`. The existing Tencent mapping is promoted to `verified`; the primary account remains separate from any future product-specific organization mappings.

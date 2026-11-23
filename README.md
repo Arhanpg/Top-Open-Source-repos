@@ -222,3 +222,8 @@ Five additional Apple Open Source projects now have individual technical briefs:
 ## SAP and Siemens account-family expansion — 24 November 2026
 
 The account map now includes ten additional SAP organizations listed by SAP's verified GitHub profile and two Siemens product-specific organizations linked by Siemens's official open-source portal. SAP and Siemens primary accounts are also now directly verified. This adds 14 inventory-eligible account rows (including the two promoted primary mappings) and brings the configured eligible set to **58 accounts**. See [SAP](organizations/sap/ACCOUNT-DISCOVERY.md), [Siemens](organizations/siemens/ACCOUNT-DISCOVERY.md) and the [account discovery status](docs/ACCOUNT-DISCOVERY-STATUS-2026-11-24.md).
+
+
+## Baidu and Tencent account verification — 24 November 2026
+
+The primary [Baidu](https://github.com/baidu) and [Tencent](https://github.com/Tencent) GitHub organizations are now directly verified against their company open-source domains. Baidu's profile names three affiliated organizations—PaddlePaddle, ApolloAuto and XuperChain—which are mapped separately as project-linked accounts. The catalogue now has **63 inventory-eligible accounts**; their pagination must complete before any revised combined repository total is reported. See [Baidu Account Discovery](organizations/baidu/ACCOUNT-DISCOVERY.md) and [Tencent Account Discovery](organizations/tencent/ACCOUNT-DISCOVERY.md).

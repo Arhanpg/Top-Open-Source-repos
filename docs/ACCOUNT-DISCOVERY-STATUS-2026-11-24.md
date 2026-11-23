@@ -2,17 +2,17 @@
 
 ## Current mapping totals
 
-The mapping CSV contains **202 account rows**:
+The mapping CSV contains **205 account rows**:
 
 | Mapping class | Accounts | Meaning |
 |---|---:|---|
-| Directly verified primary accounts | 7 | Five initial primary accounts plus SAP and Siemens, whose GitHub organizations are verified |
+| Directly verified primary accounts | 9 | Five initial primary accounts plus SAP, Siemens, Baidu and Tencent, whose GitHub organizations are verified |
 | Official-directory-listed | 39 | 29 AWS accounts plus 10 dedicated SAP organizations named by SAP's verified GitHub profile |
-| Official-project-linked | 12 | Five NVIDIA project accounts, three Microsoft documentation-linked accounts, two Apple project-linked accounts and two Siemens product-specific accounts |
+| Official-project-linked | 15 | Five NVIDIA, three Microsoft, two Apple, two Siemens and three Baidu-affiliated project accounts |
 | Candidate / unverified / relationship pending | 146 | Remaining source-list mappings that require company-controlled evidence |
-| **Total mapping rows** | **202** | Includes the 151 original company-source rows plus 34 secondary-account rows |
+| **Total mapping rows** | **205** | Includes the 151 original company-source rows plus 34 secondary-account rows |
 
-**Inventory-eligible mappings:** 58 accounts (7 directly verified + 39 official-directory-listed + 12 official-project-linked).
+**Inventory-eligible mappings:** 63 accounts (9 directly verified + 39 official-directory-listed + 15 official-project-linked).
 
 ## Inventory completion state
 
@@ -62,3 +62,8 @@ Two additional Apple project-linked accounts, swiftlang and ml-explore, were add
 ## SAP and Siemens expansion — 24 November 2026
 
 The verified SAP profile names ten dedicated project organizations, and Siemens's official open-source portal names two product-specific organizations. SAP and Siemens primary account rows have been promoted to directly verified. Ten SAP rows use `official-directory-listed`, and two Siemens rows use `official-project-linked`. The mapping now has 202 rows and 58 inventory-eligible accounts. Their pagination is not included in the historic 25,965-repository baseline.
+
+
+## Baidu and Tencent verification amendment — 24 November 2026
+
+Baidu and Tencent primary organizations were promoted to directly verified using their GitHub verified-organization pages. Baidu's profile also lists PaddlePaddle, ApolloAuto and XuperChain as affiliated organizations; those three accounts were added with `official-project-linked`. Baidu AI Cloud is not mapped as an independent account because no standalone public GitHub login was confirmed. The mapping now contains 205 rows and 63 inventory-eligible accounts.

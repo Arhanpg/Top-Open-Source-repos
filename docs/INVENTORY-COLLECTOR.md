@@ -165,3 +165,8 @@ Apple's official Open Source catalogue links two separate GitHub accounts for Sw
 ## SAP and Siemens account families
 
 SAP's verified GitHub profile lists ten additional dedicated organizations; these are mapped as `official-directory-listed`. Siemens's official Open Source portal lists `mindsphere` and `industrial-edge` as product-specific organizations; these are mapped as `official-project-linked`. Both groups are inventoried separately from their parent accounts. See the [SAP](../organizations/sap/ACCOUNT-DISCOVERY.md) and [Siemens](../organizations/siemens/ACCOUNT-DISCOVERY.md) discovery registers.
+
+
+## Baidu and Tencent account verification
+
+Baidu and Tencent primary GitHub organizations have now been verified by GitHub against their company open-source domains. Baidu's verified profile explicitly names PaddlePaddle, ApolloAuto and XuperChain as affiliated organizations; these use the separate `official-project-linked` status. Baidu AI Cloud is not mapped as a standalone GitHub login because a public account handle could not be confirmed. Tencent's primary account is verified; further product or subsidiary accounts still require explicit source links.
