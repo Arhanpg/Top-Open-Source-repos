@@ -78,3 +78,26 @@ The project summaries are based on directly inspected upstream README content. E
 3. Capture README, language statistics and relevant dependency/build manifests for every inventoried repository.
 4. Interpret the captured evidence and document repositories with readable READMEs; explicitly record README-unavailable repositories.
 5. Mark an account complete only after the final public-repository page is reached. Mark a company complete only after official account discovery and all account inventories are complete.
+
+
+## Continued README review — additional six projects
+
+A follow-on pass added six more README-reviewed dossiers:
+
+- [Microsoft Machine Learning for Beginners](../organizations/microsoft/repositories/ml-for-beginners.md)
+- [Microsoft AutoGen — archived](../organizations/microsoft/repositories/autogen.md)
+- [Google FlatBuffers](../organizations/alphabet-google/repositories/flatbuffers.md)
+- [Apple Turi Create](../organizations/apple/repositories/turicreate.md)
+- [AWS SDK for Go v1 — end of support](../organizations/amazon/repositories/aws-sdk-go.md)
+- [NVIDIA Container Toolkit](../organizations/nvidia/repositories/nvidia-container-toolkit.md)
+
+The five starting account folders now contain **46 detailed README-based project briefs** in total: Microsoft 18, Google 8, Apple 7, NVIDIA 8 and AWS 5.
+
+### Additional lifecycle findings
+
+- **Microsoft AutoGen:** upstream README marks the repository archived and no longer maintained, with no further bug fixes, security fixes, features or support. It directs new users to Microsoft Agent Framework.
+- **AWS SDK for Go v1:** upstream README says it reached end-of-support on 31 July 2025 and recommends AWS SDK for Go v2.
+- **Apple Turi Create:** README lists Python 2.7 and Python 3.5–3.8 as its supported versions; verify current package support before adopting it.
+- **NVIDIA Container Toolkit:** README documents the maintained toolkit as the supported path for GPU-accelerated containers and the replacement for nvidia-docker.
+
+These additions increase README documentation coverage, but do not change the inventory status: the 500 first-page search results are still discovery candidates, not complete repository inventories.

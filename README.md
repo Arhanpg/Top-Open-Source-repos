@@ -153,3 +153,6 @@ The workflow enumerates public repositories through API pagination, then capture
 ## README review batch — 23 November 2026
 
 A further 22 repository dossiers have been added across Microsoft, Google, Apple, NVIDIA and AWS. See [the batch report](docs/README-REVIEW-BATCH-2026-11-23.md) for the full list and important lifecycle caveats. The five dated discovery JSON files each contain a first-page ranked search sample of up to 100 repositories. These samples are not exhaustive account inventories.
+
+
+The review continued with six additional projects, bringing the five starting account folders to 46 detailed README briefs. The continued project list and lifecycle findings are included in the [batch report](docs/README-REVIEW-BATCH-2026-11-23.md).
