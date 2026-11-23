@@ -211,6 +211,7 @@ def main() -> int:
                 try:
                     languages = language_breakdown(full_name, token)
                     text, readme_url = readme_text(full_name, token)
+                    company_repo_rows[-1]["readme_url"] = readme_url or company_repo_rows[-1]["readme_url"]
                     folder.mkdir(parents=True, exist_ok=True)
                     if text is not None:
                         (folder / "README.md").write_text(text, encoding="utf-8")

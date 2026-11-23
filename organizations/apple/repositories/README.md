@@ -6,7 +6,9 @@ Company account: [apple](https://github.com/apple)
 
 | Repository | Purpose | Audit |
 |---|---|---|
-| — | No repository-level README audit has been added yet. | Pending |
+| [container](container.md) ([upstream](https://github.com/apple/container)) | A tool for creating and running Linux containers as lightweight virtual machines on Mac, written in Swift and optimized for Apple silicon. | README reviewed |
+| [FoundationDB](foundationdb.md) ([upstream](https://github.com/apple/foundationdb)) | A distributed database for large volumes of structured data across clusters of commodity servers, organized as an ordered key-value store with ACID transactions. | README reviewed |
+
 
 ## Completeness
 

@@ -6,7 +6,9 @@ Company account: [google](https://github.com/google)
 
 | Repository | Purpose | Audit |
 |---|---|---|
-| — | No repository-level README audit has been added yet. | Pending |
+| [Guava](guava.md) ([upstream](https://github.com/google/guava)) | Google Core Libraries for Java: a set of reusable Java libraries for common data structures and utility functionality. | README reviewed |
+| [LangExtract](langextract.md) ([upstream](https://github.com/google/langextract)) | A Python library that uses LLMs to extract structured information from unstructured text according to user-defined instructions, while grounding extracted details back to the source text. | README reviewed |
+
 
 ## Completeness
 

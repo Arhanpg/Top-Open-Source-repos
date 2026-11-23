@@ -6,7 +6,8 @@ Company account: [aws](https://github.com/aws)
 
 | Repository | Purpose | Audit |
 |---|---|---|
-| — | No repository-level README audit has been added yet. | Pending |
+| [AWS Cloud Development Kit (AWS CDK)](aws-cdk.md) ([upstream](https://github.com/aws/aws-cdk)) | An open-source framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation. | README reviewed |
+
 
 ## Completeness
 
