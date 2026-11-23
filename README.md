@@ -207,3 +207,8 @@ Five additional NVIDIA project repositories have now been documented from their 
 Microsoft Learn's official contributor guide links repositories in three additional accounts: [MicrosoftDocs](https://github.com/MicrosoftDocs), [dotnet](https://github.com/dotnet) and [Azure](https://github.com/Azure). They are mapped with the distinct `official-project-linked` status. This raises the configured inventory target from 39 to **42 accounts**; these three accounts require their own pagination and are not included in the first 25,965-repository baseline.
 
 See [Microsoft Account Discovery](organizations/microsoft/ACCOUNT-DISCOVERY.md). Microsoft's official Open Source Program says it has more than 100 GitHub organizations, so the wider discovery task remains incomplete.
+
+
+## Automated enrichment cadence
+
+The scheduled collector now runs four times per day (02:23, 08:23, 14:23 and 20:23 UTC) with a default batch of 10 repositories per eligible account per run. The 42 currently eligible mappings allow up to 1,680 enrichment candidates per day before API limits, retries and unavailable README states. See the [collector guide](docs/INVENTORY-COLLECTOR.md) for the exact run semantics.

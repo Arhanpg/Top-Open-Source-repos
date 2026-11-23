@@ -150,3 +150,8 @@ Microsoft Learn's contributor guide directly links to repositories under `Micros
 ## Empty README files
 
 Some existing repositories contain a zero-byte file named `README` (without a Markdown extension). GitHub can return README metadata with no Base64 content for such a file. The collector records this as `README unavailable` with the explicit reason `README file is present but zero bytes`. A non-empty file whose content is unexpectedly absent remains a capture error.
+
+
+## Scheduled enrichment cadence
+
+The scheduled workflow runs four times per day at 02:23, 08:23, 14:23 and 20:23 UTC. Each run keeps a bounded default of 10 enrichment candidates per eligible account and resumes from tracked account checkpoints. With 42 currently eligible accounts, the configuration can select up to 420 repositories per run and up to 1,680 enrichment candidates per day. Actual throughput may be lower because of README-unavailable states, API errors, GitHub rate limits, retries or incomplete runs. Inventory refresh/pagination remains a separate operation from README evidence capture.
