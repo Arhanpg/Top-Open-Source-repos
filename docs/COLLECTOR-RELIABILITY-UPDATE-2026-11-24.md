@@ -44,3 +44,10 @@ The collector now provides a coherent base for large inventory runs, but company
 ## Evidence freshness
 
 Inventory refreshes compare the default branch and last-pushed timestamp with the previous metadata snapshot. When either changes, the collector invalidates cached README, language and manifest evidence so that the next enrichment batch captures the current source. A previously manually reviewed page is marked as requiring a fresh manual review rather than silently retaining a current-review label.
+
+
+## Automated test suite and live-run status
+
+A 13-test standard-library unittest suite is now stored at tests/test_catalogue_audit.py and is wired into the workflow before repository collection. It covers manifest dependency clues (including Python TOML and Go modules), automatic account-type resolution, pagination checkpoints/resume, interrupted scheduled refresh resumption, empty organizations and stale-evidence invalidation.
+
+The test suite has been added to the repository; this chat has not observed a GitHub Actions run executing it. The Actions runs endpoint currently returns zero runs for this repository. Therefore no live organization inventory or README-enrichment run is claimed as complete by this update. Use the Actions page to start the workflow manually or confirm the next scheduled execution.

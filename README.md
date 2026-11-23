@@ -108,6 +108,8 @@ The catalogue includes a resumable public repository inventory collector:
 - [Canonical collector](scripts/catalogue_audit.py)
 - [Legacy compatibility entry point](scripts/audit_org_repos.py)
 - [Collector usage guide](docs/INVENTORY-COLLECTOR.md)
+- [Offline collector tests](tests/test_catalogue_audit.py)
+- [GitHub Actions run history](https://github.com/Arhanpg/Top-Open-Source-repos/actions)
 - [Company account mapping CSV](config/company_accounts.csv)
 - [Repository entry schema](docs/REPOSITORY-ENTRY-SCHEMA.md)
 - [Inventory process](docs/INVENTORY-PROCESS.md)
@@ -162,3 +164,6 @@ The follow-on review added six further projects, bringing the five starting acco
 ## Collector reliability update — 24 November 2026
 
 The collector now uses tracked per-account checkpoints under organizations/<company>/accounts/<login>/, so interrupted inventory pages and README enrichment can resume across fresh GitHub Actions runners. See the [reliability report](docs/COLLECTOR-RELIABILITY-UPDATE-2026-11-24.md) and revised [collector guide](docs/INVENTORY-COLLECTOR.md). The five starting account folders currently contain 46 curated README-based briefs; this is separate from the automated inventory still to be collected.
+
+
+The Actions workflow first runs Python compilation and the offline collector tests before attempting an inventory scan. The workflow is committed, but a successful live inventory still needs to be confirmed in the [Actions run history](https://github.com/Arhanpg/Top-Open-Source-repos/actions).
