@@ -521,9 +521,12 @@ def run_account(row: dict[str,str], args, token: str | None) -> bool:
         if args.phase in {"inventory","enrich","export","all"}:
             write_json(checkpoint,state); export(state,company_dir,account_dir)
         metric=counts(state)
-        errors=any(x.get("audit_status")=="evidence capture incomplete" for x in state.get("repositories",{}).values())
+        capture_failed = args.phase in {"enrich", "all"} and any(
+            x.get("audit_status") == "evidence capture incomplete"
+            for x in state.get("repositories", {}).values()
+        )
         print(f"[done] {company}/{account}: {metric['total']} repos; pagination_complete={state.get('pagination_complete')}; README captured={metric['readme_captured']}; manual reviews={metric['manual_readme_reviewed']}")
-        return not errors
+        return not capture_failed
     except Exception as exc:
         print(f"[account error] {company}/{account}: {exc}",file=sys.stderr)
         if checkpoint.exists():
