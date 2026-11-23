@@ -31,3 +31,11 @@ These are local mocked tests, not a live GitHub Actions run. The workflow still 
 ## Remaining work
 
 The collector now provides a coherent base for large inventory runs, but company-wide completion still requires discovery and verification of secondary official GitHub accounts, full pagination for each verified account, repeated enrichment batches and eventual human interpretation of the captured evidence.
+
+
+## Follow-on hardening
+
+- Scheduled refreshes preserve and resume an interrupted scan's next-page checkpoint. A new scheduled scan begins only after the previous pagination run completed.
+- Empty organizations remain complete after their first successful empty page and are not mistaken for uninitialized checkpoints.
+- Selected small manifests are fetched with a 256 KB per-file cap, and conservative dependency-name clues are extracted for common package formats.
+- Per-manifest errors create a partial evidence state instead of being represented as a successful manifest capture.

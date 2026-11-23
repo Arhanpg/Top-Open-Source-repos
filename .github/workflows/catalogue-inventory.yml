@@ -62,7 +62,7 @@ jobs:
           args=(--phase all --mapping config/company_accounts.csv --enrich-limit "$ENRICH_LIMIT" --manifest-limit 6 --delay 0.2)
           if [ -n "$COMPANY" ]; then args+=(--company "$COMPANY"); fi
           if [ "$INCLUDE_UNVERIFIED" = "true" ]; then args+=(--include-unverified); fi
-          # Scheduled runs refresh inventory from page one. Manual runs do so only when requested.
+          # Scheduled refreshes resume an interrupted scan from the durable next-page checkpoint.
           if [ "$GITHUB_EVENT_NAME" = "schedule" ] || [ "$REFRESH_INVENTORY" = "true" ]; then
             args+=(--refresh-inventory)
           fi

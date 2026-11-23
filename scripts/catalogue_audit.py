@@ -122,7 +122,12 @@ def inventory(account: str, kind: str, company: str, company_dir: Path, mapping_
     state = read_json(checkpoint, {"schema_version":2,"company":company,"account":account,"repositories":{},
                                     "pages_fetched":0,"next_page":1,"pagination_complete":False})
     state.update(company=company, account=account, account_type=kind, mapping_status=mapping_status, source_groups=source_groups)
-    if refresh or not state.get("repositories"):
+    # A scheduled refresh starts a new scan only after the previous scan completed.
+    # If a runner was interrupted mid-refresh, resume its saved next_page rather
+    # than restarting from page one on every scheduled retry.
+    active_refresh = bool(state.get("refresh_in_progress"))
+    needs_initial_scan = not state.get("repositories") and not state.get("pagination_complete")
+    if (refresh and not active_refresh and not state.get("pagination_complete")) or needs_initial_scan or (refresh and state.get("pagination_complete")):
         state.update(next_page=1, pages_this_scan=0, scan_id=now(), pagination_complete=False, refresh_in_progress=True)
         write_json(checkpoint, state)
     elif state.get("pagination_complete"):
@@ -185,13 +190,94 @@ def get_languages(full: str, token: str | None) -> dict[str,int]:
 
 MANIFESTS={"package.json","pyproject.toml","pom.xml","cargo.toml","go.mod","requirements.txt","build.gradle",
            "build.gradle.kts","cmakelists.txt","dockerfile","composer.json","gemfile","pipfile","setup.py","makefile","chart.yaml"}
+MAX_MANIFEST_BYTES = 256_000
+
+def parse_manifest_hints(path: str, content: str) -> list[str]:
+    """Extract conservative dependency-name clues; filenames alone are not proof."""
+    basename = path.rsplit("/", 1)[-1].casefold()
+    hints: set[str] = set()
+    if basename == "package.json":
+        try:
+            data = json.loads(content)
+            for section in ("dependencies", "devDependencies", "peerDependencies", "optionalDependencies"):
+                hints.update(str(name) for name in (data.get(section) or {}).keys())
+        except (json.JSONDecodeError, AttributeError, TypeError):
+            pass
+    elif basename in {"requirements.txt", "pipfile"}:
+        for line in content.splitlines():
+            line = line.strip()
+            if not line or line.startswith(("#", "[", "-")):
+                continue
+            candidate = re.split(r"[<=>~!;\\s\\[]", line)[0]
+            if re.fullmatch(r"[A-Za-z0-9_.-]+", candidate):
+                hints.add(candidate)
+    elif basename == "go.mod":
+        hints.update(re.findall(r"^\\s*([A-Za-z0-9._/-]+)\\s+v[0-9][^\\s]*", content, re.MULTILINE))
+    elif basename == "cargo.toml":
+        in_dependencies = False
+        for line in content.splitlines():
+            stripped = line.strip()
+            if stripped.startswith("["):
+                in_dependencies = stripped.startswith("[dependencies]") or stripped.startswith("[dev-dependencies]") or stripped.startswith("[build-dependencies]")
+            elif in_dependencies:
+                match = re.match(r"^([A-Za-z0-9_-]+)\\s*=", stripped)
+                if match:
+                    hints.add(match.group(1))
+    elif basename == "pom.xml":
+        hints.update(re.findall(r"<artifactId>\\s*([^<]+)\\s*</artifactId>", content))
+    elif basename == "pyproject.toml":
+        in_dependency_section = False
+        for line in content.splitlines():
+            stripped = line.strip().strip(",")
+            if stripped.startswith("["):
+                in_dependency_section = "dependencies" in stripped.casefold()
+            match = re.match(r"[\\\"']([A-Za-z0-9_.-]+)[\\\"']\\s*(?:=|>=|~=|<)", stripped)
+            if match and in_dependency_section:
+                hints.add(match.group(1))
+            elif in_dependency_section and re.match(r"[A-Za-z0-9_.-]+\\s*=", stripped):
+                hints.add(stripped.split("=", 1)[0].strip())
+    elif basename == "composer.json":
+        try:
+            data = json.loads(content)
+            for section in ("require", "require-dev"):
+                hints.update(str(name) for name in (data.get(section) or {}).keys() if name != "php")
+        except (json.JSONDecodeError, AttributeError, TypeError):
+            pass
+    return sorted(hints)[:60]
+
+def get_manifest_content(full: str, path: str, branch: str, token: str | None) -> dict[str, Any]:
+    encoded_path = urllib.parse.quote(path, safe="/")
+    ref = urllib.parse.urlencode({"ref": branch})
+    payload, _ = api_get(f"{API}/repos/{full}/contents/{encoded_path}?{ref}", token)
+    size = int(payload.get("size") or 0)
+    result = {"path": path, "sha": payload.get("sha"), "size": size}
+    if size > MAX_MANIFEST_BYTES:
+        result["content_status"] = "skipped_size_limit"
+        result["dependency_hints"] = []
+        return result
+    encoded = payload.get("content", "")
+    if not encoded:
+        result["content_status"] = "content_not_returned"
+        result["dependency_hints"] = []
+        return result
+    content = base64.b64decode(encoded).decode("utf-8", errors="replace")
+    result["content_status"] = "captured"
+    result["dependency_hints"] = parse_manifest_hints(path, content)
+    return result
+
 def get_manifests(full: str, branch: str, limit: int, token: str | None):
     branch_q=urllib.parse.quote(branch or "HEAD",safe="")
     tree,_=api_get(f"{API}/repos/{full}/git/trees/{branch_q}?recursive=1",token)
     paths=[item.get("path","") for item in tree.get("tree",[]) if item.get("type")=="blob"]
     found=[p for p in paths if p.rsplit("/",1)[-1].casefold() in MANIFESTS or p.endswith((".csproj",".fsproj",".sln"))]
     found=sorted(set(found),key=lambda p:(p.count("/"),p.casefold()))[:limit]
-    return [{"path":p} for p in found], bool(tree.get("truncated"))
+    rows=[]
+    for path in found:
+        try:
+            rows.append(get_manifest_content(full,path,branch,token))
+        except Exception as exc:
+            rows.append({"path":path,"content_status":"error","dependency_hints":[],"capture_error":str(exc)[:300]})
+    return rows, bool(tree.get("truncated"))
 
 def enrich(repo: dict[str,Any], token: str | None, manifest_limit: int, force: bool):
     errors=[]; full=repo["full_name"]
@@ -210,7 +296,9 @@ def enrich(repo: dict[str,Any], token: str | None, manifest_limit: int, force: b
         try:
             files,truncated=get_manifests(full,str(repo.get("default_branch") or "HEAD"),manifest_limit,token)
             repo["manifest_paths"]=files; repo["manifest_truncated"]=truncated
-            repo["manifest_status"]="captured" if files else "none_found"
+            manifest_errors = [item for item in files if item.get("content_status") == "error"]
+            repo["manifest_status"] = ("partial" if manifest_errors else "captured") if files else "none_found"
+            errors.extend(f"manifest {item.get('path')}: {item.get('capture_error', 'capture failed')}" for item in manifest_errors)
         except APIError as exc:
             if exc.status==404: repo["manifest_status"]="unavailable"
             else: repo["manifest_status"]="error"; errors.append(f"manifest tree: {exc}")
@@ -233,7 +321,12 @@ def render_repo(repo: dict[str,Any], company: str, account: str, mapping_status:
     langs=repo.get("languages_bytes") or {}
     lang_rows="\n".join(f"| {md(k)} | {v:,} |" for k,v in sorted(langs.items(),key=lambda x:-x[1])) or "| Unknown | Not captured |"
     headings="\n".join(f"- {h}" for h in repo.get("readme_headings",[])) or "- No headings captured"
-    manifests="\n".join(f"- {m['path']}" for m in repo.get("manifest_paths",[])) or "- No recognised manifests found or captured"
+    manifests="\\n".join(
+        f"- {m['path']} (capture: {m.get('content_status', 'path only')})" +
+        (f" — dependency clues: {', '.join(m.get('dependency_hints', [])[:20])}" if m.get("dependency_hints") else "") +
+        (f" — error: {m.get('capture_error')}" if m.get("capture_error") else "")
+        for m in repo.get("manifest_paths",[])
+    ) or "- No recognised manifests found or captured"
     return f"""# {full}
 
 - Company: {company}

@@ -76,7 +76,7 @@ organizations/<company-slug>/
 - inventory.json stores all repository metadata, pagination state, next page and per-repository evidence status. It is tracked by Git, so a fresh GitHub Actions runner can resume.
 - README.md summarizes account-level counts and distinguishes captured evidence from manual review.
 - INVENTORY.md lists all enumerated repositories and links to generated dossiers.
-- Each dossier includes GitHub metadata, a short README excerpt (up to 100 words), README headings, language byte statistics, selected manifest paths, lifecycle fields and the exact upstream README link.
+- Each dossier includes GitHub metadata, a short README excerpt (up to 100 words), README headings, language byte statistics, selected build/dependency manifest paths, conservative dependency-name clues where the manifest parser supports them, lifecycle fields and the exact upstream README link. Manifest files larger than 256 KB are not downloaded.
 - The existing curated company-level repositories/ pages are preserved; automated evidence is written below the separate accounts/<login>/ directory.
 
 The collector does not cache whole upstream READMEs in the Git repository. It keeps a brief excerpt and source SHA/link so later reviewers can open the canonical source.
@@ -89,7 +89,7 @@ The collector does not cache whole upstream READMEs in the Git repository. It ke
 - evidence capture incomplete: one or more API capture operations failed and should be retried.
 - README reviewed: reserved for a human technical interpretation; the automated collector never assigns this state.
 
-GitHub language statistics are byte counts, not framework detection. Manifest filenames help locate evidence but are not by themselves proof that a repository uses a particular framework. Recursive trees may be marked truncated for very large repositories.
+GitHub language statistics are byte counts, not framework detection. Manifest filenames help locate evidence but are not by themselves proof that a repository uses a particular framework. Dependency names are recorded as clues only and still require human interpretation. Recursive trees may be marked truncated for very large repositories.
 
 ## Rate limits and recovery
 
