@@ -130,10 +130,10 @@ The top ten account backlogs represent approximately 90.9% of the remaining pend
 
 ### Throughput and rate-limit changes
 
-- Every GitHub REST request is spaced at 3.6-second intervals, targeting the documented GITHUB_TOKEN primary REST budget of 1,000 requests/hour/repository in Actions.
+- Every GitHub REST request is spaced at 4-second intervals, targeting approximately 900 requests/hour against the documented GITHUB_TOKEN primary REST budget of 1,000 requests/hour/repository in Actions.
 - Four daily Actions runs execute enrichment only. They do not re-fetch every account's repository pagination before processing README evidence.
 - A separate weekly Sunday run refreshes inventory metadata and resumes interrupted pagination from tracked checkpoints.
-- The default per-account enrichment ceiling is 20 repositories per run, with a persisted round-robin cursor so repeated failures do not starve later repositories.
+- The daily scheduler uses a global ceiling of 1,200 repositories per run, distributed round-robin across eligible accounts. Exhausted small-account queues are reallocated to the largest remaining backlogs; each account retains its own repository cursor.
 - Selected manifest contents are retrieved from raw.githubusercontent.com with a 256 KB cap. Non-empty README files without inline API content can fall back to their public raw URL with a 2 MB cap. These reduce REST Contents requests.
 - Automated evidence capture remains separate from human interpretation. No company is marked complete while company account discovery and manual technical interpretation remain outstanding.
 
@@ -146,3 +146,10 @@ The top ten account backlogs represent approximately 90.9% of the remaining pend
 - [View Actions run #17](https://github.com/Arhanpg/Top-Open-Source-repos/actions/runs/45324524032).
 
 The current count of 33,522 records and 31,385 pending/error is therefore a pre-enrichment-run baseline, not the result of run #17.
+
+
+### Global batch distribution
+
+The daily workflow now passes a global 1,200-repository cap to the collector. The collector interleaves accounts instead of reserving a fixed quota for each account. This is important for the 31,385-record backlog: accounts with only a few pending records no longer leave unused per-account slots while very large accounts still have thousands of outstanding repositories.
+
+The global 1,200 is an upper ceiling. Theoretical best-case capture throughput is 4,800 repositories per day across four runs, before accounting for README-unavailable states, API retries, rate limits, and repositories that need re-capture after source changes. This is a capacity estimate, not a completion promise.

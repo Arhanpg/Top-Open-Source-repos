@@ -289,3 +289,6 @@ The pipeline now paces REST requests, rotates pending repositories fairly, uses 
 ## Latest collector validation
 
 The latest collector update adds a 3.6-second REST request pace, short evidence snippets matched to README sections, and an updated daily-enrichment / weekly-inventory schedule. The latest 26-test preflight passed in [Actions run #17](https://github.com/Arhanpg/Top-Open-Source-repos/actions/runs/45324524032); the enrichment step was still in progress at the latest check. Repository totals will be updated after its checkpoints are committed.
+
+
+The daily collector now uses a global fair batch of up to **1,200 repositories per run** across eligible accounts. It rotates one repository per account per round and reallocates unused capacity from completed queues to the accounts with larger backlogs.

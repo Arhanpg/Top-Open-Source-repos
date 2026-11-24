@@ -48,7 +48,8 @@ Archived repositories and forks are retained and labelled. Only public repositor
 | --phase export | Rebuild the account inventory Markdown and company account summary from saved checkpoint data. |
 | --phase all | Inventory (or resume), enrich a bounded batch, and export. |
 | --company Microsoft | Filter by a case-insensitive company name or GitHub login. |
-| --enrich-limit 50 | Capture evidence for up to 50 repositories per account in one run. |
+| --enrich-limit 50 | Capture evidence for up to 50 repositories per account in per-account mode. |
+| --total-enrich-limit 1200 | Use a global fair batch of up to 1,200 repositories across the selected accounts. |
 | --enrich-limit 0 | Process every pending repository for the selected account(s). |
 | --manifest-limit 6 | Maximum number of representative manifest paths recorded per repository. |
 | --max-pages 1 | Test cap for inventory pages; a capped scan remains incomplete. |
@@ -188,9 +189,9 @@ The GitHub Actions workflow separates repository enumeration from README evidenc
 
 - Four daily runs (02:23, 08:23, 14:23 and 20:23 UTC) run the enrichment phase only. They do not re-enumerate already complete account inventories.
 - A separate Sunday run (01:23 UTC) refreshes repository metadata and pagination. If interrupted, the tracked next-page checkpoint resumes the scan.
-- The default enrichment batch is up to 20 repositories per account per run. A persisted account cursor rotates pending repositories so recurring failures do not permanently block later entries.
+- The daily workflow uses a global limit of up to 1,200 repositories per run across all selected accounts. It rotates one repository per account per round and redistributes slots when an account queue is exhausted. A persisted per-account cursor keeps repeated failures from blocking later repositories.
 
-GitHub documents a primary limit of 1,000 REST API requests per hour for the repository GITHUB_TOKEN in Actions, plus secondary rate limits. The collector spaces REST requests at approximately 3.6 seconds, honours GitHub Retry-After and rate-reset headers, and fetches selected public manifest/README bodies through raw.githubusercontent.com rather than additional REST Contents requests. This is a conservative operating target, not a guarantee that every batch completes.
+GitHub documents a primary limit of 1,000 REST API requests per hour for the repository GITHUB_TOKEN in Actions, plus secondary rate limits. The collector spaces REST requests at approximately 4 seconds, honours GitHub Retry-After and rate-reset headers, and fetches selected public manifest/README bodies through raw.githubusercontent.com rather than additional REST Contents requests. This is a conservative operating target, not a guarantee that every batch completes.
 
 Each generated dossier keeps source metadata, language-byte statistics, manifest-path/dependency clues, a bounded README excerpt and an upstream source link. It remains labelled as requiring human interpretation. It is not an automated claim that purpose, feature completeness or architecture has been fully audited.
 
@@ -203,3 +204,10 @@ The automated collector identifies relevant upstream README headings (project ov
 ## README section evidence excerpts
 
 For each README, the collector identifies relevant headings for project overview, features, getting started/usage, architecture/design, technology/requirements and limitations/security. It stores no more than 25 quoted words per README, split across matching sections, as short source excerpts linked to the original heading. Full README text is not copied into the inventory. These snippets support manual review; they are not generated project summaries.
+
+
+## Global enrichment scheduler
+
+The daily workflow uses total-enrich-limit instead of a fixed per-account quota. The collector builds a pending queue for each eligible account, starts with one repository from each account in sorted order, then takes a second round, continuing until the global cap is reached or no queue has pending items. When a smaller account is exhausted, its slot is naturally reallocated to accounts with more remaining work. Each account still stores its own enrichment cursor and repository checkpoints.
+
+The global limit is set to 1,200 per run in GitHub Actions. At roughly three REST calls per repository (README metadata, language statistics and recursive Git tree), that represents up to 3,600 REST requests, around four hours at a four-second start-to-start pace. This leaves part of the six-hour job window for API retries, raw file downloads, exports and commits. The 1,200 value is a ceiling, not a guaranteed completion count.

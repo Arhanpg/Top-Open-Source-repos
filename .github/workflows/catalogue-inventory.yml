@@ -17,6 +17,11 @@ on:
         required: false
         default: 20
         type: number
+      total_enrich_limit:
+        description: "Global README/manifest captures across all eligible accounts per run"
+        required: false
+        default: 1200
+        type: number
       refresh_inventory:
         description: "Re-enumerate every public repository page from page one"
         required: false
@@ -69,12 +74,14 @@ jobs:
           COMPANY: ${{ inputs.company || '' }}
           INCLUDE_UNVERIFIED: ${{ inputs.include_unverified }}
           ENRICH_LIMIT: ${{ inputs.enrich_limit }}
+          TOTAL_ENRICH_LIMIT: ${{ inputs.total_enrich_limit }}
           REFRESH_INVENTORY: ${{ inputs.refresh_inventory }}
           SCHEDULE_CRON: ${{ github.event.schedule || '' }}
         run: |
           if [ -z "$ENRICH_LIMIT" ]; then ENRICH_LIMIT=20; fi
-          # Routine daily runs spend the REST budget on pending evidence only.
-          args=(--phase enrich --mapping config/company_accounts.csv --enrich-limit "$ENRICH_LIMIT" --manifest-limit 6 --delay 0.1)
+          if [ -z "$TOTAL_ENRICH_LIMIT" ]; then TOTAL_ENRICH_LIMIT=1200; fi
+          # Routine daily runs use one global repository budget across eligible accounts.
+          args=(--phase enrich --mapping config/company_accounts.csv --total-enrich-limit "$TOTAL_ENRICH_LIMIT" --manifest-limit 6 --delay 0.1)
           if [ -n "$COMPANY" ]; then args+=(--company "$COMPANY"); fi
           if [ "$INCLUDE_UNVERIFIED" = "true" ]; then args+=(--include-unverified); fi
 
