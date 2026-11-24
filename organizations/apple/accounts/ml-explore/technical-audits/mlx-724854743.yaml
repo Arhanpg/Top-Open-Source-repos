@@ -1,0 +1,112 @@
+schema_version: "1.0"
+audit_status: manual_reviewed
+generated_at: "2026-11-24T21:05:00Z"
+evidence_fingerprint: "manual-mlx-readme-pyproject-cmake-review-2026-11-24"
+repository_metadata:
+  company: Apple
+  account: ml-explore
+  full_name: ml-explore/mlx
+  repository_id: 724854743
+  url: https://github.com/ml-explore/mlx
+  description: "MLX: An array framework for Apple silicon"
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: "2026-11-23T13:42:34Z"
+  stars: 29265
+  readme_url: https://github.com/ml-explore/mlx/blob/main/README.md
+  readme_path: README.md
+  readme_sha: fb30a24f2ce87d6f81822fc51e01c9fb6d38de28
+  manifest_paths:
+    - pyproject.toml
+    - CMakeLists.txt
+  source_files_inspected: []
+  repository_tree:
+    status: manually_reviewed_sources
+    sha: null
+    truncated: false
+  source_code_review: "README, pyproject.toml and top-level CMakeLists.txt checked; implementation files not exhaustively reviewed."
+analysis:
+  purpose: "MLX is an array framework for machine learning on Apple silicon, developed by Apple's machine learning research team."
+  why_used: "Researchers can build and experiment with machine-learning models using familiar array APIs, automatic differentiation and vectorization, and CPU/GPU execution on supported Apple silicon systems."
+  core_features:
+    - name: Familiar multi-language APIs
+      description: "The README describes Python, C++, C and Swift APIs, with higher-level mlx.nn and mlx.optimizers packages."
+      evidence:
+        - "README.md#MLX"
+    - name: Composable function transformations
+      description: "Automatic differentiation, automatic vectorization and computation-graph optimization are described as composable transformations."
+      evidence:
+        - "README.md#MLX"
+    - name: Lazy and dynamic computation
+      description: "The README describes lazy evaluation and dynamic construction of computation graphs."
+      evidence:
+        - "README.md#MLX"
+    - name: Multi-device execution
+      description: "The framework supports CPU and GPU execution and describes shared-memory arrays for supported devices."
+      evidence:
+        - "README.md#MLX"
+  technology_stack:
+    languages:
+      - C++
+      - Python
+      - C
+      - Swift
+      - Metal
+    frameworks_and_libraries:
+      - MLX array framework
+      - mlx.nn
+      - mlx.optimizers
+    dependencies:
+      - setuptools
+      - cmake
+      - typing_extensions
+    build_and_package_tools:
+      - CMake
+      - setuptools
+      - pip
+    runtimes:
+      - Python API
+      - C++ API
+      - C API
+      - Swift API
+    databases_and_storage: []
+    infrastructure: []
+    platforms:
+      - Apple silicon macOS
+      - Linux CPU package
+      - Linux CUDA package
+  architecture: "The README describes a lazy array framework with CPU/GPU backends and composable graph transformations. CMake configuration exposes CPU, Metal and optional CUDA build paths. Internal implementation architecture was not exhaustively inspected."
+  setup_and_usage:
+    - "The README documents pip installation for macOS and separate CPU/CUDA package extras for Linux."
+    - "CMake configuration is provided for source builds."
+  limitations:
+    - "The project is primarily positioned for Apple silicon; consult current installation instructions for supported hardware and OS combinations."
+    - "The inspected CMake configuration makes Metal platform-specific and keeps CUDA optional."
+    - "The project README points to a separate mlx-examples repository for broader model examples; those examples are not all implemented in this repository."
+  unknowns:
+    - "No model-training benchmark or runtime test was executed for this dossier."
+    - "Implementation source files and test suites were not reviewed exhaustively."
+  confidence: high
+evidence_sources:
+  - type: README
+    url: https://github.com/ml-explore/mlx/blob/main/README.md
+    supports:
+      - Purpose
+      - Public API
+      - Documented capabilities
+      - Installation guidance
+  - type: manifest
+    path: pyproject.toml
+    url: https://github.com/ml-explore/mlx/blob/main/pyproject.toml
+    supports:
+      - Python package build configuration
+      - Build-system requirements
+  - type: build_configuration
+    path: CMakeLists.txt
+    url: https://github.com/ml-explore/mlx/blob/main/CMakeLists.txt
+    supports:
+      - C++ build configuration
+      - CPU, Metal and CUDA build options
