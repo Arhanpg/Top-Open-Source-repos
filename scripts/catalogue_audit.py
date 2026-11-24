@@ -673,6 +673,118 @@ def rotate_pending(pending: list[tuple[str, dict[str, Any]]], cursor: str | None
     return ordered if limit == 0 else ordered[:limit]
 
 
+def select_global_batch(
+    account_queues: dict[str, list[tuple[str, dict[str, Any]]]],
+    total_limit: int,
+) -> list[tuple[str, str, dict[str, Any]]]:
+    """Select one repository per account per round, redistributing exhausted slots."""
+    account_names = sorted(account_queues, key=str.casefold)
+    selected: list[tuple[str, str, dict[str, Any]]] = []
+    if total_limit <= 0:
+        total_limit = sum(len(queue) for queue in account_queues.values())
+    while len(selected) < total_limit:
+        moved = False
+        for account_key in account_names:
+            queue = account_queues[account_key]
+            if not queue:
+                continue
+            full_name, repo = queue.pop(0)
+            selected.append((account_key, full_name, repo))
+            moved = True
+            if len(selected) >= total_limit:
+                break
+        if not moved:
+            break
+    return selected
+
+
+def run_global_enrichment(rows: list[dict[str, str]], args, token: str | None) -> bool:
+    """Enrich a fixed global number of repositories fairly across all eligible accounts."""
+    accounts: dict[str, dict[str, Any]] = {}
+    queues: dict[str, list[tuple[str, dict[str, Any]]]] = {}
+    all_ok = True
+
+    for row in rows:
+        company = row["company"].strip()
+        account = row["account"].strip()
+        mapping = row.get("mapping_status", "unverified").strip()
+        if not is_collectable_mapping(mapping) and not args.include_unverified:
+            continue
+
+        company_dir = args.output / slug(company)
+        account_dir = company_dir / "accounts" / slug(account)
+        checkpoint = account_dir / "inventory.json"
+        state = read_json(checkpoint, {})
+        if not state:
+            print(f"[missing checkpoint] {company}/{account}: run inventory first", file=sys.stderr)
+            all_ok = False
+            continue
+
+        pending = []
+        for full_name, repo in state.get("repositories", {}).items():
+            complete = (
+                repo.get("readme_status") in {"captured", "unavailable"}
+                and repo.get("languages_status") == "captured"
+                and repo.get("manifest_status") in {"captured", "none_found", "unavailable"}
+            )
+            if args.force_enrich or not complete:
+                pending.append((full_name, repo))
+
+        account_key = f"{slug(company)}::{slug(account)}"
+        queues[account_key] = rotate_pending(pending, state.get("enrichment_cursor"), 0)
+        accounts[account_key] = {
+            "company": company,
+            "account": account,
+            "mapping_status": mapping,
+            "company_dir": company_dir,
+            "account_dir": account_dir,
+            "checkpoint": checkpoint,
+            "state": state,
+        }
+
+    pending_total = sum(len(queue) for queue in queues.values())
+    selected = select_global_batch(queues, args.total_enrich_limit)
+    print(
+        f"[global enrich] selected {len(selected)} repositories from "
+        f"{len(queues)} accounts; {pending_total} pending before selection; "
+        f"limit={args.total_enrich_limit}"
+    )
+
+    touched: set[str] = set()
+    capture_failed = False
+    for index, (account_key, full_name, repo) in enumerate(selected, start=1):
+        entry = accounts[account_key]
+        state = entry["state"]
+        company = entry["company"]
+        account = entry["account"]
+        print(f"[global enrich] {index}/{len(selected)} {full_name}")
+        enrich(repo, token, args.manifest_limit, args.force_enrich)
+        capture_failed = capture_failed or repo.get("audit_status") == "evidence capture incomplete"
+        state["repositories"][full_name] = repo
+        state["enrichment_cursor"] = full_name.casefold()
+        state["last_enrichment_run_at"] = now()
+        write_json(entry["checkpoint"], state)
+
+        target = doc_path(entry["account_dir"], repo)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(
+            render_repo(repo, company, account, entry["mapping_status"]),
+            encoding="utf-8",
+        )
+        touched.add(account_key)
+        time.sleep(args.delay)
+
+    for account_key in sorted(touched):
+        entry = accounts[account_key]
+        export(entry["state"], entry["company_dir"], entry["account_dir"])
+
+    print(
+        f"[global enrich complete] processed={len(selected)}; "
+        f"capture_errors_in_this_batch={capture_failed}"
+    )
+    return all_ok and not capture_failed
+
+
 def run_account(row: dict[str,str], args, token: str | None) -> bool:
     company,account=row["company"].strip(),row["account"].strip()
     mapping=row.get("mapping_status","unverified").strip()
@@ -728,13 +840,14 @@ def main() -> int:
     p.add_argument("--output",type=Path,default=Path("organizations"))
     p.add_argument("--phase",choices=("inventory","enrich","export","all"),default="all")
     p.add_argument("--enrich-limit",type=int,default=50,help="Repositories per account; 0 means all pending")
+    p.add_argument("--total-enrich-limit",type=int,default=0,help="Global repository budget across eligible accounts for fair batch enrichment; 0 disables global mode")
     p.add_argument("--manifest-limit",type=int,default=6)
     p.add_argument("--max-pages",type=int,default=0,help="Optional page cap for tests; capped scans are incomplete")
     p.add_argument("--delay",type=float,default=0.2)
     p.add_argument("--refresh-inventory",action="store_true")
     p.add_argument("--force-enrich",action="store_true")
     args=p.parse_args()
-    if min(args.enrich_limit,args.manifest_limit,args.max_pages)<0 or args.delay<0: p.error("limits and delay must be non-negative")
+    if min(args.enrich_limit,args.total_enrich_limit,args.manifest_limit,args.max_pages)<0 or args.delay<0: p.error("limits and delay must be non-negative")
     if args.manifest_limit==0: args.manifest_limit=1
     if not args.mapping.exists(): print(f"Missing mapping file: {args.mapping}",file=sys.stderr); return 2
     token=os.environ.get("GITHUB_TOKEN")
@@ -745,6 +858,8 @@ def main() -> int:
     if not rows: print("Mapping CSV has no company rows.",file=sys.stderr); return 2
     selected=[r for r in rows if not args.company or args.company.casefold() in r.get("company","").casefold() or args.company.casefold() in r.get("account","").casefold()]
     if not selected: print("No company mapping matched the filter.",file=sys.stderr); return 2
+    if args.phase == "enrich" and args.total_enrich_limit > 0:
+        return 0 if run_global_enrichment(selected, args, token) else 1
     ok=True
     for row in selected: ok=run_account(row,args,token) and ok
     print("Run finished. Check each account's README.md and INVENTORY.md for pagination and capture status.")

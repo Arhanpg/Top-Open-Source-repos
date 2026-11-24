@@ -221,6 +221,34 @@ Do not expose the service to untrusted networks.
 
 
 
+    def test_global_batch_round_robins_accounts_and_reallocates_exhausted_slots(self):
+        queues = {
+            "company-a::account-a": [
+                ("A/repo-1", {"id": 1}),
+                ("A/repo-2", {"id": 2}),
+                ("A/repo-3", {"id": 3}),
+            ],
+            "company-b::account-b": [
+                ("B/repo-1", {"id": 4}),
+            ],
+            "company-c::account-c": [
+                ("C/repo-1", {"id": 5}),
+                ("C/repo-2", {"id": 6}),
+            ],
+        }
+        selected = audit.select_global_batch(queues, 5)
+        self.assertEqual(
+            [(account, full) for account, full, _ in selected],
+            [
+                ("company-a::account-a", "A/repo-1"),
+                ("company-b::account-b", "B/repo-1"),
+                ("company-c::account-c", "C/repo-1"),
+                ("company-a::account-a", "A/repo-2"),
+                ("company-c::account-c", "C/repo-2"),
+            ],
+        )
+        self.assertEqual(queues["company-a::account-a"][0][0], "A/repo-3")
+
 class InventoryTests(unittest.TestCase):
     def test_zero_byte_readme_is_terminal_unavailable_not_capture_error(self):
         item = repository(1)
