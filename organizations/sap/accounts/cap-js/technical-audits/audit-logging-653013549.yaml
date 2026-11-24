@@ -1,0 +1,104 @@
+schema_version: "1.0"
+audit_status: manual_reviewed
+generated_at: "2026-11-24T21:05:00Z"
+evidence_fingerprint: "manual-cap-js-audit-logging-readme-package-review-2026-11-24"
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/audit-logging
+  repository_id: 653013549
+  url: https://github.com/cap-js/audit-logging
+  description: "CDS plugin providing integration to the SAP Audit Log service and out-of-the-box personal-data-related audit logging based on annotations."
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: "2026-11-20T16:13:59Z"
+  stars: 15
+  readme_url: https://github.com/cap-js/audit-logging/blob/main/README.md
+  readme_path: README.md
+  readme_sha: fe340f111941ff3a8f7b0341e039e78f478a88e1
+  manifest_paths:
+    - package.json
+  source_files_inspected: []
+  repository_tree:
+    status: manually_reviewed_sources
+    sha: null
+    truncated: false
+  source_code_review: "README and package.json checked; runtime implementation and tests not exhaustively reviewed."
+analysis:
+  purpose: "A CDS plugin for SAP CAP applications that integrates with SAP Audit Log service and provides annotation-driven audit logging for personal-data-related changes."
+  why_used: "CAP application developers can record auditable changes to annotated personal-data fields and route audit records to the console, a REST endpoint, SAP Audit Log service or a custom store."
+  core_features:
+    - name: SAP Audit Log service integration
+      description: "Integrates CAP applications with the SAP Audit Log service."
+      evidence:
+        - "README.md#Welcome to @cap-js-audit-logging"
+        - package.json
+    - name: Annotation-driven personal-data logging
+      description: "Uses CDS @PersonalData annotations to identify data subjects and personal or sensitive fields."
+      evidence:
+        - "README.md#Annotate Personal Data"
+    - name: Configurable audit-log handlers
+      description: "Package configuration declares console, REST v2 and SAP Audit Log service handler variants."
+      evidence:
+        - package.json
+    - name: Outbox configuration
+      description: "The package's CDS configuration declares outbox enabled for the audit-log requirement."
+      evidence:
+        - package.json
+  technology_stack:
+    languages:
+      - JavaScript
+      - CDS
+    frameworks_and_libraries:
+      - SAP Cloud Application Programming Model
+      - "@sap/cds"
+    dependencies:
+      - "@sap/cds (peer dependency >=9)"
+      - "@cap-js/cds-test (development)"
+      - "@cap-js/sqlite (development)"
+      - express (development)
+      - jest (development)
+    build_and_package_tools:
+      - npm
+      - Jest
+      - ESLint
+      - Prettier
+    runtimes:
+      - Node.js package ecosystem
+    databases_and_storage:
+      - Custom audit-log store can be supplied by the application
+    infrastructure:
+      - SAP Audit Log service (production integration)
+    platforms:
+      - SAP CAP application environments
+  architecture: "A CDS plugin discovered and configured through cds.requires.audit-log. The package manifest declares handler variants and outbox configuration. Runtime internals were not exhaustively inspected."
+  setup_and_usage:
+    - "Install using npm add @cap-js/audit-logging."
+    - "Annotate CDS entities and fields with the documented @PersonalData semantics."
+    - "The README demonstrates running an example using cds watch."
+  limitations:
+    - "The README describes its quick-start guide as incomplete and directs users to the full CAP data-privacy documentation."
+    - "The README says the out-of-the-box production integration requires a paid SAP Audit Log service for customers; a custom store can also be provided."
+    - "The inspected package manifest declares @sap/cds as a peer dependency but does not declare a Node.js engines range."
+  unknowns:
+    - "Development dependencies listed in package.json are not all production runtime dependencies."
+    - "No implementation source or test execution was performed for this dossier."
+  confidence: high
+evidence_sources:
+  - type: README
+    url: https://github.com/cap-js/audit-logging/blob/main/README.md
+    supports:
+      - Purpose
+      - Data privacy annotations
+      - Setup and production caveats
+  - type: manifest
+    path: package.json
+    url: https://github.com/cap-js/audit-logging/blob/main/package.json
+    supports:
+      - Peer dependency
+      - Development dependencies
+      - Handler configuration
+      - Outbox configuration
