@@ -180,6 +180,18 @@ ruff = "^0.9"
         third = audit.rotate_pending(pending, second[-1][0].casefold(), 2)
         self.assertEqual([name for name, _ in third], ["Example/e", "Example/a"])
 
+    def test_api_get_paces_each_rest_request(self):
+        original = audit.LAST_API_REQUEST_AT
+        try:
+            audit.LAST_API_REQUEST_AT = 100.0
+            with patch.object(audit.time, "monotonic", return_value=100.0):
+                with patch.object(audit.time, "sleep") as sleep:
+                    audit.pace_api_requests()
+            sleep.assert_called_once_with(audit.API_REQUEST_INTERVAL_SECONDS)
+        finally:
+            audit.LAST_API_REQUEST_AT = original
+
+
 
 class InventoryTests(unittest.TestCase):
     def test_zero_byte_readme_is_terminal_unavailable_not_capture_error(self):

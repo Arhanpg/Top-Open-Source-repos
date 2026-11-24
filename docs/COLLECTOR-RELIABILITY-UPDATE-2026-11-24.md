@@ -81,3 +81,58 @@ After the 34-account inventory snapshot, five further NVIDIA project-linked acco
 ## Empty README response — 24 November 2026
 
 The second live enrichment run identified `boto/requestbuilder` as a repository with a zero-byte file named `README`. GitHub's README endpoint returned metadata but no Base64 body, which the collector incorrectly treated as an evidence-capture error. The collector now classifies only a verified zero-byte README as terminal `unavailable`; non-empty README metadata without content remains an error. Two offline tests cover both paths.
+
+
+## Current 65-account / 33,522-repository reconciliation — 24 November 2026
+
+A fresh reconciliation of all 65 committed account-level README summaries gives the following inventory/evidence totals:
+
+| Measure | Count |
+|---|---:|
+| Accounts with committed inventory checkpoints | 65 |
+| Public repository metadata records | **33,522** |
+| README captures | 2,075 |
+| README unavailable | 62 |
+| Terminal README/language/manifest evidence | 2,137 |
+| Pending/error evidence | **31,385** |
+
+README capture coverage is **6.19%** (2,075 / 33,522). Terminal evidence coverage is **6.37%** (2,137 / 33,522). These are automated evidence states, not human technical-review counts.
+
+| Company group | Accounts | Repositories | README captures | README unavailable | Evidence terminal | Pending/error |
+|---|---:|---:|---:|---:|---:|---:|
+| Alphabet / Google | 3 | 4,546 | 87 | 3 | 90 | 4,456 |
+| Amazon / AWS | 30 | 13,474 | 1,065 | 33 | 1,098 | 12,376 |
+| Apple | 3 | 287 | 94 | 7 | 101 | 186 |
+| Baidu | 4 | 298 | 75 | 5 | 80 | 218 |
+| Microsoft | 4 | 12,242 | 177 | 3 | 180 | 12,062 |
+| NVIDIA | 6 | 1,121 | 201 | 5 | 206 | 915 |
+| SAP | 11 | 910 | 271 | 2 | 273 | 637 |
+| Siemens | 3 | 327 | 85 | 4 | 89 | 238 |
+| Tencent | 1 | 317 | 20 | 0 | 20 | 297 |
+| **Total** | **65** | **33,522** | **2,075** | **62** | **2,137** | **31,385** |
+
+### Highest remaining account backlogs
+
+| Account | Repositories pending/error |
+|---|---:|
+| aws-samples | 9,510 |
+| microsoft | 8,440 |
+| google | 2,887 |
+| azure | 2,720 |
+| GoogleCloudPlatform | 1,527 |
+| awslabs | 993 |
+| NVIDIA | 791 |
+| MicrosoftDocs | 661 |
+| aws | 516 |
+| amazon-science | 470 |
+
+The top ten account backlogs represent approximately 90.9% of the remaining pending/error records. Thirty of the 65 account summaries currently show zero pending/error; the largest accounts dominate the remaining workload.
+
+### Throughput and rate-limit changes
+
+- Every GitHub REST request is spaced at 3.6-second intervals, targeting the documented GITHUB_TOKEN primary REST budget of 1,000 requests/hour/repository in Actions.
+- Four daily Actions runs execute enrichment only. They do not re-fetch every account's repository pagination before processing README evidence.
+- A separate weekly Sunday run refreshes inventory metadata and resumes interrupted pagination from tracked checkpoints.
+- The default per-account enrichment ceiling is 20 repositories per run, with a persisted round-robin cursor so repeated failures do not starve later repositories.
+- Selected manifest contents are retrieved from raw.githubusercontent.com with a 256 KB cap. Non-empty README files without inline API content can fall back to their public raw URL with a 2 MB cap. These reduce REST Contents requests.
+- Automated evidence capture remains separate from human interpretation. No company is marked complete while company account discovery and manual technical interpretation remain outstanding.

@@ -277,3 +277,10 @@ The mapping now contains **207 rows**: 65 inventory-eligible GitHub accounts and
 ## Microsoft account README review — 24 November 2026
 
 Three new Microsoft project briefs are available: [Azure Documentation Source](organizations/microsoft/repositories/azure-docs.md), [.NET Documentation Source](organizations/microsoft/repositories/dotnet-docs.md) and [Azure SDK for .NET](organizations/microsoft/repositories/azure-sdk-for-net.md). They bring the selected manual catalogue to **78 project dossiers** across nine companies.
+
+
+## Current 33,522-repository audit — 24 November 2026
+
+All **65 configured inventory accounts** currently have completed public-repository pagination, representing **33,522 public repository records**. The automated evidence collector has captured 2,075 READMEs and reached terminal README/language/manifest evidence states for 2,137 records. **31,385 remain pending or errored**; these require more enrichment runs and retries. Human technical interpretation is a separate status and is not implied by these counts.
+
+The pipeline now paces REST requests, rotates pending repositories fairly, uses raw public file retrieval for selected manifest/README bodies, performs four daily enrichment runs and refreshes account inventories weekly. See the [reconciled backlog and company totals](docs/COLLECTOR-RELIABILITY-UPDATE-2026-11-24.md), [collector guide](docs/INVENTORY-COLLECTOR.md), and [GitHub Actions](https://github.com/Arhanpg/Top-Open-Source-repos/actions).

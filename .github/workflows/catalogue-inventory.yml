@@ -15,7 +15,7 @@ on:
       enrich_limit:
         description: "README/manifest captures per account per run (0 = all pending)"
         required: false
-        default: 10
+        default: 20
         type: number
       refresh_inventory:
         description: "Re-enumerate every public repository page from page one"
@@ -31,6 +31,7 @@ on:
       - ".github/workflows/catalogue-inventory.yml"
   schedule:
     - cron: "23 2,8,14,20 * * *"
+    - cron: "23 1 * * 0"
 
 permissions:
   contents: write
@@ -69,14 +70,21 @@ jobs:
           INCLUDE_UNVERIFIED: ${{ inputs.include_unverified }}
           ENRICH_LIMIT: ${{ inputs.enrich_limit }}
           REFRESH_INVENTORY: ${{ inputs.refresh_inventory }}
+          SCHEDULE_CRON: ${{ github.event.schedule || '' }}
         run: |
-          if [ -z "$ENRICH_LIMIT" ]; then ENRICH_LIMIT=10; fi
-          args=(--phase all --mapping config/company_accounts.csv --enrich-limit "$ENRICH_LIMIT" --manifest-limit 6 --delay 0.2)
+          if [ -z "$ENRICH_LIMIT" ]; then ENRICH_LIMIT=20; fi
+          # Routine daily runs spend the REST budget on pending evidence only.
+          args=(--phase enrich --mapping config/company_accounts.csv --enrich-limit "$ENRICH_LIMIT" --manifest-limit 6 --delay 0.1)
           if [ -n "$COMPANY" ]; then args+=(--company "$COMPANY"); fi
           if [ "$INCLUDE_UNVERIFIED" = "true" ]; then args+=(--include-unverified); fi
-          # Scheduled refreshes resume an interrupted scan from the durable next-page checkpoint.
-          if [ "$GITHUB_EVENT_NAME" = "schedule" ] || [ "$REFRESH_INVENTORY" = "true" ]; then
-            args+=(--refresh-inventory)
+
+          # Weekly inventory refresh (Sunday 01:23 UTC) is separate from daily enrichment.
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$SCHEDULE_CRON" = "23 1 * * 0" ]; then
+            args=(--phase inventory --mapping config/company_accounts.csv --refresh-inventory --delay 0.1)
+          elif [ "$REFRESH_INVENTORY" = "true" ]; then
+            args=(--phase all --mapping config/company_accounts.csv --refresh-inventory --enrich-limit "$ENRICH_LIMIT" --manifest-limit 6 --delay 0.1)
+            if [ -n "$COMPANY" ]; then args+=(--company "$COMPANY"); fi
+            if [ "$INCLUDE_UNVERIFIED" = "true" ]; then args+=(--include-unverified); fi
           fi
           python scripts/catalogue_audit.py "${args[@]}"
 

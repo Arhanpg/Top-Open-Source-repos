@@ -110,3 +110,17 @@ After the successful 64-account / 33,470-repository run, a new `google-gemini` a
 ## Manual documentation update — 24 November 2026
 
 The curated project catalogue has expanded to **78 manually interpreted README-based dossiers**, including three new Microsoft briefs for Azure documentation, .NET documentation and Azure SDK for .NET. This is a separate curation metric; it does not change the 33,470 repository records in the completed 64-account inventory snapshot.
+
+
+## Reconciliation after the 65th account and subsequent enrichment — 24 November 2026
+
+The snapshot above was originally published for 64 accounts / 33,470 repositories. The google-gemini checkpoint is now committed and all 65 account summary files have been reconciled:
+
+- **65 accounts**
+- **33,522 public repository records**
+- **2,075 README captures**
+- **62 README unavailable**
+- **2,137 terminal evidence captures**
+- **31,385 pending/error**
+
+The updated company totals are maintained in [the collector reliability report](COLLECTOR-RELIABILITY-UPDATE-2026-11-24.md). The earlier 33,470 figure remains the historical 64-account snapshot.

@@ -180,3 +180,16 @@ Google Cloud documentation links to code samples in a separate GitHub account, `
 ## Gemini API project-linked account
 
 Google Cloud's official Generative AI sample README links `google-gemini/cookbook`. The separate `google-gemini` login is now mapped with `official-project-linked` and must be inventoried separately from `google` and `GoogleCloudPlatform`. The initial 64-account pagination snapshot does not contain this newly added account.
+
+
+## High-volume enrichment and rate limits — 24 November 2026
+
+The GitHub Actions workflow separates repository enumeration from README evidence enrichment:
+
+- Four daily runs (02:23, 08:23, 14:23 and 20:23 UTC) run the enrichment phase only. They do not re-enumerate already complete account inventories.
+- A separate Sunday run (01:23 UTC) refreshes repository metadata and pagination. If interrupted, the tracked next-page checkpoint resumes the scan.
+- The default enrichment batch is up to 20 repositories per account per run. A persisted account cursor rotates pending repositories so recurring failures do not permanently block later entries.
+
+GitHub documents a primary limit of 1,000 REST API requests per hour for the repository GITHUB_TOKEN in Actions, plus secondary rate limits. The collector spaces REST requests at approximately 3.6 seconds, honours GitHub Retry-After and rate-reset headers, and fetches selected public manifest/README bodies through raw.githubusercontent.com rather than additional REST Contents requests. This is a conservative operating target, not a guarantee that every batch completes.
+
+Each generated dossier keeps source metadata, language-byte statistics, manifest-path/dependency clues, a bounded README excerpt and an upstream source link. It remains labelled as requiring human interpretation. It is not an automated claim that purpose, feature completeness or architecture has been fully audited.
