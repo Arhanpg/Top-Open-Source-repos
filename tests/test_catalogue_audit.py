@@ -249,6 +249,20 @@ Do not expose the service to untrusted networks.
         )
         self.assertEqual(queues["company-a::account-a"][0][0], "A/repo-3")
 
+    def test_secondary_rate_limit_waits_at_least_one_minute_without_retry_after(self):
+        self.assertEqual(
+            audit.api_retry_wait(403, "You have exceeded a secondary rate limit", {}, 0),
+            60,
+        )
+        self.assertEqual(
+            audit.api_retry_wait(429, "Too many requests", {}, 1),
+            120,
+        )
+        self.assertEqual(
+            audit.api_retry_wait(403, "rate limit exceeded", {"x-ratelimit-remaining": "0", "x-ratelimit-reset": "2000"}, 0),
+            max(2, 2000 - int(audit.time.time()) + 2),
+        )
+
 class InventoryTests(unittest.TestCase):
     def test_zero_byte_readme_is_terminal_unavailable_not_capture_error(self):
         item = repository(1)

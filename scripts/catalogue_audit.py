@@ -15,7 +15,7 @@ UA = "Top-Open-Source-Repos-Catalogue/2.0"
 PER_PAGE = 100
 MAX_README_BYTES = 2_000_000
 README_EXCERPT_WORDS = 25
-API_REQUEST_INTERVAL_SECONDS = 3.6
+API_REQUEST_INTERVAL_SECONDS = 4.0
 LAST_API_REQUEST_AT = 0.0
 
 class APIError(RuntimeError):
@@ -51,6 +51,22 @@ def pace_api_requests() -> None:
     LAST_API_REQUEST_AT = time.monotonic()
 
 
+def api_retry_wait(status: int, body: str, headers: dict[str, str], attempt: int) -> int:
+    """Choose a GitHub-compliant retry delay for primary and secondary limits."""
+    retry_after = headers.get("retry-after", "")
+    remaining = headers.get("x-ratelimit-remaining", "")
+    reset = headers.get("x-ratelimit-reset", "")
+    if retry_after.isdigit():
+        return min(max(int(retry_after), 1), 900)
+    if status == 403 and remaining == "0" and reset.isdigit():
+        return min(max(2, int(reset) - int(time.time()) + 2), 900)
+    body_lower = body.casefold()
+    secondary = "secondary rate limit" in body_lower or "abuse detection" in body_lower
+    if status == 429 or (status == 403 and secondary):
+        return min(60 * (2 ** attempt), 900)
+    return min(2 ** attempt, 60)
+
+
 def api_get(url: str, token: str | None, retries: int = 6):
     headers = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", "User-Agent": UA}
     if token: headers["Authorization"] = f"Bearer {token}"
@@ -65,12 +81,7 @@ def api_get(url: str, token: str | None, retries: int = 6):
             hdr = {k.lower(): v for k, v in exc.headers.items()}
             if exc.code not in {403, 408, 429, 500, 502, 503, 504} or attempt == retries - 1:
                 raise APIError(exc.code, body, hdr) from exc
-            retry = hdr.get("retry-after", "")
-            reset, remaining = hdr.get("x-ratelimit-reset", ""), hdr.get("x-ratelimit-remaining", "")
-            if retry.isdigit(): wait = int(retry)
-            elif exc.code == 403 and remaining == "0" and reset.isdigit(): wait = max(2, int(reset) - int(time.time()) + 2)
-            else: wait = min(2 ** attempt, 60)
-            wait = min(max(wait, 2), 900)
+            wait = api_retry_wait(exc.code, body, hdr, attempt)
             print(f"[retry] HTTP {exc.code}; waiting {wait}s", file=sys.stderr)
             time.sleep(wait)
         except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
