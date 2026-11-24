@@ -121,7 +121,7 @@ def repo_metadata(row: dict[str, Any], old: dict[str, Any] | None, scan_id: str)
         "last_seen_scan_id":scan_id,
     }
     evidence_keys = (
-        "readme_status", "readme_url", "readme_path", "readme_sha", "readme_excerpt", "readme_headings", "readme_unavailable_reason", "readme_truncated", "readme_bytes",
+        "readme_status", "readme_url", "readme_path", "readme_sha", "readme_excerpt", "readme_headings", "readme_sections", "readme_unavailable_reason", "readme_truncated", "readme_bytes",
         "languages_bytes", "languages_status", "manifest_status", "manifest_paths", "manifest_truncated",
         "manifest_unavailable_reason", "enriched_at", "audit_status", "manual_review_status", "capture_errors",
     )
@@ -144,6 +144,9 @@ def repo_metadata(row: dict[str, Any], old: dict[str, Any] | None, scan_id: str)
             "readme_sha": None,
             "readme_excerpt": "",
             "readme_headings": [],
+            "readme_sections": [],
+            "readme_truncated": False,
+            "readme_bytes": 0,
             "languages_status": "pending",
             "languages_bytes": {},
             "manifest_status": "pending",
@@ -242,6 +245,73 @@ def raw_get_bytes(url: str, max_bytes: int, retries: int = 4) -> tuple[bytes, in
     raise RuntimeError("Raw GitHub retry budget exhausted")
 
 
+SECTION_CATEGORIES = [
+    ("Project overview", ("overview", "about", "introduction", "what is", "description", "motivation", "purpose", "summary")),
+    ("Features and capabilities", ("feature", "capability", "functionality", "what it does", "highlights")),
+    ("Getting started and usage", ("getting started", "quickstart", "quick start", "installation", "install", "usage", "tutorial", "example")),
+    ("Architecture and design", ("architecture", "design", "components", "internals", "how it works")),
+    ("Technology and requirements", ("technology", "tech stack", "dependencies", "requirements", "supported platform", "prerequisites")),
+    ("Limitations and security", ("limitations", "known issues", "security", "compatibility", "deprecation", "support policy")),
+]
+
+def _clean_readme_lines(lines: list[str], max_words: int) -> str:
+    collected: list[str] = []
+    count = 0
+    for raw_line in lines:
+        line = raw_line.strip()
+        if not line or line.startswith(("#", "!", "<", "<!--", "---", "|", ">", "[")):
+            continue
+        if line.startswith(chr(96) * 3):
+            continue
+        line = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", line)
+        line = line.replace(chr(96), "")
+        line = re.sub(r"^[-*+]\s+", "", line)
+        words = line.split()
+        words = words[:max(0, max_words - count)]
+        if words:
+            collected.append(" ".join(words))
+            count += len(words)
+        if count >= max_words:
+            break
+    return " ".join(collected)
+
+def extract_readme_sections(raw: str) -> list[dict[str, str]]:
+    """Keep short, heading-linked README evidence excerpts for later interpretation."""
+    chunks: list[tuple[str, list[str]]] = []
+    current_heading = "Introduction"
+    current_lines: list[str] = []
+    for line in raw.splitlines():
+        stripped = line.lstrip()
+        heading_level = len(stripped) - len(stripped.lstrip("#")) if stripped.startswith("#") else 0
+        if 1 <= heading_level <= 6 and stripped[heading_level:heading_level + 1] == " ":
+            if current_lines:
+                chunks.append((current_heading, current_lines))
+            current_heading = stripped[heading_level:].strip().strip("#").strip()
+            current_lines = []
+        else:
+            current_lines.append(line)
+    if current_lines:
+        chunks.append((current_heading, current_lines))
+
+    selected: list[dict[str, str]] = []
+    remaining_words = README_EXCERPT_WORDS
+    for category, keywords in SECTION_CATEGORIES:
+        for heading, lines in chunks:
+            if not any(keyword in heading.casefold() for keyword in keywords):
+                continue
+            excerpt = _clean_readme_lines(lines, min(4, remaining_words))
+            if excerpt:
+                selected.append({"category": category, "heading": heading, "excerpt": excerpt})
+                remaining_words -= len(excerpt.split())
+                break
+        if remaining_words <= 0:
+            break
+    if not selected and chunks:
+        excerpt = _clean_readme_lines(chunks[0][1], README_EXCERPT_WORDS)
+        if excerpt:
+            selected.append({"category": "Introduction", "heading": chunks[0][0], "excerpt": excerpt})
+    return selected
+
 def get_readme(full: str, token: str | None):
     try: payload, _ = api_get(f"{API}/repos/{full}/readme", token)
     except APIError as exc:
@@ -278,18 +348,10 @@ def get_readme(full: str, token: str | None):
             truncated = True
         raw = raw_bytes.decode("utf-8", errors="replace")
     headings = [re.sub(r"^#{1,6}\s*", "", line).strip() for line in raw.splitlines() if re.match(r"^#{1,6}\s+", line)][:30]
-    snippets, words = [], 0
-    for line in raw.splitlines():
-        line = line.strip()
-        if not line or line.startswith(("#","!","<","[![","<!--","\x60\x60\x60","---","|",">","[")): continue
-        line = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", line)
-        tokens = line.split()
-        if not tokens: continue
-        tokens = tokens[:max(0,README_EXCERPT_WORDS-words)]
-        if tokens: snippets.append(" ".join(tokens)); words += len(tokens)
-        if words >= 100: break
+    sections = extract_readme_sections(raw)
+    excerpt = " ".join(section["excerpt"] for section in sections)
     return {"url":payload.get("html_url"),"path":payload.get("path"),"sha":payload.get("sha"),
-            "excerpt":" ".join(snippets),"headings":headings,"truncated":truncated,"bytes":captured_bytes}
+            "excerpt":excerpt,"headings":headings,"sections":sections,"truncated":truncated,"bytes":captured_bytes}
 
 def get_languages(full: str, token: str | None) -> dict[str,int]:
     data,_=api_get(f"{API}/repos/{full}/languages",token)
@@ -417,11 +479,11 @@ def enrich(repo: dict[str,Any], token: str | None, manifest_limit: int, force: b
         try:
             doc=get_readme(full,token)
             if doc is None:
-                repo.update(readme_status="unavailable",readme_url=None,readme_path=None,readme_sha=None,readme_excerpt="",readme_headings=[],readme_unavailable_reason="GitHub returned 404 for a README",readme_truncated=False,readme_bytes=0)
+                repo.update(readme_status="unavailable",readme_url=None,readme_path=None,readme_sha=None,readme_excerpt="",readme_headings=[],readme_sections=[],readme_unavailable_reason="GitHub returned 404 for a README",readme_truncated=False,readme_bytes=0)
             elif doc.get("empty"):
-                repo.update(readme_status="unavailable",readme_url=doc["url"],readme_path=doc["path"],readme_sha=doc["sha"],readme_excerpt="",readme_headings=[],readme_unavailable_reason="README file is present but zero bytes",readme_truncated=False,readme_bytes=0)
+                repo.update(readme_status="unavailable",readme_url=doc["url"],readme_path=doc["path"],readme_sha=doc["sha"],readme_excerpt="",readme_headings=[],readme_sections=[],readme_unavailable_reason="README file is present but zero bytes",readme_truncated=False,readme_bytes=0)
             else:
-                repo.update(readme_status="captured",readme_url=doc["url"],readme_path=doc["path"],readme_sha=doc["sha"],readme_excerpt=doc["excerpt"],readme_headings=doc["headings"],readme_unavailable_reason=None,readme_truncated=doc.get("truncated",False),readme_bytes=doc.get("bytes",0))
+                repo.update(readme_status="captured",readme_url=doc["url"],readme_path=doc["path"],readme_sha=doc["sha"],readme_excerpt=doc["excerpt"],readme_headings=doc["headings"],readme_sections=doc.get("sections",[]),readme_unavailable_reason=None,readme_truncated=doc.get("truncated",False),readme_bytes=doc.get("bytes",0))
         except Exception as exc: repo["readme_status"]="error"; errors.append(f"README: {exc}")
     if force or repo.get("manifest_status") not in {"captured","none_found","unavailable"}:
         try:
@@ -462,6 +524,10 @@ def render_repo(repo: dict[str,Any], company: str, account: str, mapping_status:
     langs=repo.get("languages_bytes") or {}
     lang_rows="\n".join(f"| {md(k)} | {v:,} |" for k,v in sorted(langs.items(),key=lambda x:-x[1])) or "| Unknown | Not captured |"
     headings="\n".join(f"- {h}" for h in repo.get("readme_headings",[])) or "- No headings captured"
+    section_evidence="\n\n".join(
+        f"### {section.get('category', 'README section')}: {section.get('heading', 'Untitled')}\n\n> {section.get('excerpt', '')}"
+        for section in repo.get("readme_sections",[])
+    ) or "No selected README section excerpts were captured."
     manifests="\n".join(
         f"- {m['path']} (capture: {m.get('content_status', 'path only')})" +
         (f" — dependency clues: {', '.join(m.get('dependency_hints', [])[:20])}" if m.get("dependency_hints") else "") +
@@ -502,6 +568,12 @@ This is repository-owner metadata, not an independently verified technical summa
 ### README headings
 
 {headings}
+
+## README section evidence excerpts
+
+Short excerpts are selected from matching upstream README sections. They are source evidence, not generated or human-reviewed technical summaries.
+
+{section_evidence}
 
 ## GitHub language statistics
 

@@ -192,6 +192,34 @@ ruff = "^0.9"
             audit.LAST_API_REQUEST_AT = original
 
 
+    def test_readme_section_extraction_preserves_feature_and_setup_evidence(self):
+        raw = """# Example project
+
+A short introductory paragraph.
+
+## Features
+- Fast batch processing
+- JSON and CSV input support
+
+## Getting Started
+Install the package and run the command.
+
+## Security
+Do not expose the service to untrusted networks.
+"""
+        sections = audit.extract_readme_sections(raw)
+        by_category = {row["category"]: row for row in sections}
+        self.assertIn("Features and capabilities", by_category)
+        self.assertIn("Fast batch processing", by_category["Features and capabilities"]["excerpt"])
+        self.assertIn("Getting started and usage", by_category)
+        self.assertIn("Install the package", by_category["Getting started and usage"]["excerpt"])
+        self.assertIn("Limitations and security", by_category)
+        self.assertLessEqual(
+            sum(len(row["excerpt"].split()) for row in sections),
+            audit.README_EXCERPT_WORDS,
+        )
+
+
 
 class InventoryTests(unittest.TestCase):
     def test_zero_byte_readme_is_terminal_unavailable_not_capture_error(self):
