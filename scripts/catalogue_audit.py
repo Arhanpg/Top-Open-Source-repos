@@ -57,15 +57,14 @@ def api_retry_wait(status: int, body: str, headers: dict[str, str], attempt: int
     remaining = headers.get("x-ratelimit-remaining", "")
     reset = headers.get("x-ratelimit-reset", "")
     if retry_after.isdigit():
-        return min(max(int(retry_after), 1), 900)
+        return max(int(retry_after), 1)
     if status == 403 and remaining == "0" and reset.isdigit():
-        return min(max(2, int(reset) - int(time.time()) + 2), 900)
+        return max(2, int(reset) - int(time.time()) + 2)
     body_lower = body.casefold()
     secondary = "secondary rate limit" in body_lower or "abuse detection" in body_lower
     if status == 429 or (status == 403 and secondary):
-        return min(60 * (2 ** attempt), 900)
+        return min(60 * (2 ** attempt), 3600)
     return min(2 ** attempt, 60)
-
 
 def api_get(url: str, token: str | None, retries: int = 6):
     headers = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", "User-Agent": UA}

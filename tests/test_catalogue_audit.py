@@ -258,9 +258,19 @@ Do not expose the service to untrusted networks.
             audit.api_retry_wait(429, "Too many requests", {}, 1),
             120,
         )
+        with patch.object(audit.time, "time", return_value=1000):
+            self.assertEqual(
+                audit.api_retry_wait(
+                    403,
+                    "rate limit exceeded",
+                    {"x-ratelimit-remaining": "0", "x-ratelimit-reset": "2000"},
+                    0,
+                ),
+                1002,
+            )
         self.assertEqual(
-            audit.api_retry_wait(403, "rate limit exceeded", {"x-ratelimit-remaining": "0", "x-ratelimit-reset": "2000"}, 0),
-            max(2, 2000 - int(audit.time.time()) + 2),
+            audit.api_retry_wait(403, "secondary rate limit", {"retry-after": "1800"}, 0),
+            1800,
         )
 
 class InventoryTests(unittest.TestCase):
