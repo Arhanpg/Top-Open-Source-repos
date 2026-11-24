@@ -22,11 +22,28 @@ on:
         required: false
         default: 1200
         type: number
+      audit_limit:
+        description: "Technical-audit YAML/Markdown dossiers to generate per run"
+        required: false
+        default: 200
+        type: number
+      audit_force:
+        description: "Regenerate existing technical-audit dossiers"
+        required: false
+        default: false
+        type: boolean
       refresh_inventory:
         description: "Re-enumerate every public repository page from page one"
         required: false
         default: false
         type: boolean
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "tests/**"
+      - "docs/TECHNICAL-AUDIT-*.md"
+      - ".github/workflows/catalogue-inventory.yml"
   push:
     branches: [main]
     paths:
@@ -53,7 +70,7 @@ jobs:
       - name: Check out main
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.event.pull_request.head.sha || 'main' }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -61,12 +78,16 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install YAML parser
+        run: python -m pip install --disable-pip-version-check PyYAML
+
       - name: Validate collector and run offline unit tests
         run: |
-          python -m py_compile scripts/catalogue_audit.py scripts/audit_org_repos.py
+          python -m py_compile scripts/catalogue_audit.py scripts/audit_org_repos.py scripts/repository_technical_audit.py
           python -m unittest discover -s tests -v
 
       - name: Inventory accounts and capture README evidence
+        if: github.event_name != 'pull_request'
         id: scan
         continue-on-error: true
         env:
@@ -95,12 +116,33 @@ jobs:
           fi
           python scripts/catalogue_audit.py "${args[@]}"
 
+
+
+      - name: Generate per-repository technical-audit YAML and Markdown dossiers
+        id: technical_audit
+        if: github.event_name != 'pull_request'
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AUDIT_LLM_API_KEY: ${{ secrets.AUDIT_LLM_API_KEY || secrets.OPENROUTER_API_KEY || '' }}
+          AUDIT_LLM_BASE_URL: ${{ vars.AUDIT_LLM_BASE_URL || 'https://openrouter.ai/api/v1' }}
+          AUDIT_LLM_MODEL: ${{ vars.AUDIT_LLM_MODEL || '' }}
+          AUDIT_LIMIT: ${{ inputs.audit_limit || 200 }}
+          AUDIT_COMPANY: ${{ inputs.company || '' }}
+          AUDIT_FORCE: ${{ inputs.audit_force }}
+        run: |
+          limit="${AUDIT_LIMIT:-200}"
+          args=(--limit "$limit")
+          if [ -n "$AUDIT_COMPANY" ]; then args+=(--company "$AUDIT_COMPANY"); fi
+          if [ "$AUDIT_FORCE" = "true" ]; then args+=(--force); fi
+          python scripts/repository_technical_audit.py "${args[@]}"
+
       - name: Commit checkpoints and generated evidence directly to main
-        if: always()
+        if: always() && github.event_name != 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add organizations/
+          git add organizations/ docs/TECHNICAL-AUDIT-PROGRESS.md
           if git diff --cached --quiet; then
             echo "No generated catalogue changes to commit."
             exit 0
@@ -109,8 +151,8 @@ jobs:
           git pull --rebase origin main
           git push origin HEAD:main
 
-      - name: Surface scan failure after committing checkpoints
-        if: steps.scan.outcome == 'failure'
+      - name: Surface scan or technical-audit failure after committing checkpoints
+        if: steps.scan.outcome == 'failure' || steps.technical_audit.outcome == 'failure'
         run: |
-          echo "The scan encountered errors. Per-account inventory.json checkpoints were committed where possible; rerun to resume."
+          echo "The inventory scan or technical-audit batch encountered errors. Successful checkpoints and dossiers were committed where possible; rerun to resume."
           exit 1
