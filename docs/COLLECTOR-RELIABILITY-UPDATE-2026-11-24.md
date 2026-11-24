@@ -136,3 +136,13 @@ The top ten account backlogs represent approximately 90.9% of the remaining pend
 - The default per-account enrichment ceiling is 20 repositories per run, with a persisted round-robin cursor so repeated failures do not starve later repositories.
 - Selected manifest contents are retrieved from raw.githubusercontent.com with a 256 KB cap. Non-empty README files without inline API content can fall back to their public raw URL with a 2 MB cap. These reduce REST Contents requests.
 - Automated evidence capture remains separate from human interpretation. No company is marked complete while company account discovery and manual technical interpretation remain outstanding.
+
+
+## Latest live validation — 24 November 2026
+
+- Main commit: 8b7df8eca70f7a3af87e6ab23ad15a545d0501c3 added README section evidence extraction and the REST pacing test.
+- GitHub Actions run #17 checked out that commit and passed its preflight validation step, which compiles the collector and runs the 26-test offline suite.
+- At the latest status check, the inventory/evidence enrichment step was still running. No additional repository captures are included in the 33,522 baseline until the run commits its account checkpoints.
+- [View Actions run #17](https://github.com/Arhanpg/Top-Open-Source-repos/actions/runs/45324524032).
+
+The current count of 33,522 records and 31,385 pending/error is therefore a pre-enrichment-run baseline, not the result of run #17.

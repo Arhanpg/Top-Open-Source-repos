@@ -198,3 +198,8 @@ Each generated dossier keeps source metadata, language-byte statistics, manifest
 ## README section evidence
 
 The automated collector identifies relevant upstream README headings (project overview, features, getting started/usage, architecture, technology/requirements and limitations/security). It stores no more than 25 quoted words per README, split across matching sections, plus heading names, blob SHA and the canonical source link. These excerpts are evidence for human reviewers, not automatically generated summaries or a completed technical audit.
+
+
+## README section evidence excerpts
+
+For each README, the collector identifies relevant headings for project overview, features, getting started/usage, architecture/design, technology/requirements and limitations/security. It stores no more than 25 quoted words per README, split across matching sections, as short source excerpts linked to the original heading. Full README text is not copied into the inventory. These snippets support manual review; they are not generated project summaries.

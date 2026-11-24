@@ -284,3 +284,8 @@ Three new Microsoft project briefs are available: [Azure Documentation Source](o
 All **65 configured inventory accounts** currently have completed public-repository pagination, representing **33,522 public repository records**. The automated evidence collector has captured 2,075 READMEs and reached terminal README/language/manifest evidence states for 2,137 records. **31,385 remain pending or errored**; these require more enrichment runs and retries. Human technical interpretation is a separate status and is not implied by these counts.
 
 The pipeline now paces REST requests, rotates pending repositories fairly, uses raw public file retrieval for selected manifest/README bodies, performs four daily enrichment runs and refreshes account inventories weekly. See the [reconciled backlog and company totals](docs/COLLECTOR-RELIABILITY-UPDATE-2026-11-24.md), [collector guide](docs/INVENTORY-COLLECTOR.md), and [GitHub Actions](https://github.com/Arhanpg/Top-Open-Source-repos/actions).
+
+
+## Latest collector validation
+
+The latest collector update adds a 3.6-second REST request pace, short evidence snippets matched to README sections, and an updated daily-enrichment / weekly-inventory schedule. The latest 26-test preflight passed in [Actions run #17](https://github.com/Arhanpg/Top-Open-Source-repos/actions/runs/45324524032); the enrichment step was still in progress at the latest check. Repository totals will be updated after its checkpoints are committed.
