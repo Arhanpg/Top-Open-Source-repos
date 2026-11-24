@@ -31,7 +31,7 @@ repository_metadata:
   manifest_paths: []
   source_files_inspected: []
   repository_tree:
-    status: "captured | unavailable_or_empty | unavailable"
+    status: "captured | unavailable_or_empty | unavailable | not_collected_for_manual_sample"
     sha: null
     truncated: false
   source_code_review: "Selected source files only; not exhaustive."
