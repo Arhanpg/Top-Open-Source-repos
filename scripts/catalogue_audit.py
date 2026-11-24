@@ -14,7 +14,9 @@ API = "https://api.github.com"
 UA = "Top-Open-Source-Repos-Catalogue/2.0"
 PER_PAGE = 100
 MAX_README_BYTES = 2_000_000
-README_EXCERPT_WORDS = 300
+README_EXCERPT_WORDS = 25
+API_REQUEST_INTERVAL_SECONDS = 3.6
+LAST_API_REQUEST_AT = 0.0
 
 class APIError(RuntimeError):
     def __init__(self, status: int, message: str, headers: dict[str, str] | None = None):
@@ -38,11 +40,23 @@ def read_json(path: Path, default: Any) -> Any:
     try: return json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc: raise RuntimeError(f"Unreadable checkpoint {path}: {exc}") from exc
 
+def pace_api_requests() -> None:
+    """Stay below the 1,000 REST requests/hour GITHUB_TOKEN Actions budget."""
+    global LAST_API_REQUEST_AT
+    current = time.monotonic()
+    elapsed = current - LAST_API_REQUEST_AT if LAST_API_REQUEST_AT else API_REQUEST_INTERVAL_SECONDS
+    wait_seconds = max(0.0, API_REQUEST_INTERVAL_SECONDS - elapsed)
+    if wait_seconds:
+        time.sleep(wait_seconds)
+    LAST_API_REQUEST_AT = time.monotonic()
+
+
 def api_get(url: str, token: str | None, retries: int = 6):
     headers = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", "User-Agent": UA}
     if token: headers["Authorization"] = f"Bearer {token}"
     for attempt in range(retries):
         try:
+            pace_api_requests()
             req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=45) as response:
                 return json.loads(response.read().decode("utf-8")), {k.lower(): v for k, v in response.headers.items()}
