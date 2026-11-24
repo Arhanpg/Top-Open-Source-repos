@@ -10687,12 +10687,43 @@
         "watchdog"
       ],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Assembly": 5312,
+        "Makefile": 670
+      },
+      "readme_url": "https://github.com/siemens/k3-rti-wdt/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e509f684ecc899bbd6214002133ab9da4b38f506",
+      "readme_excerpt": "RTI Watchdog Firmware for",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "RTI Watchdog Firmware for"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1490,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "3de1470f4eadbe80a54e71c389a6562f26ac2735",
+          "size": 670,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T19:39:16+00:00"
     },
     "siemens/kaniko": {
       "id": 334956616,
@@ -10715,12 +10746,184 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 708853,
+        "Shell": 24595,
+        "Dockerfile": 9904,
+        "Python": 5643,
+        "Makefile": 3945,
+        "Starlark": 2545
+      },
+      "readme_url": "https://github.com/siemens/kaniko/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "10fb58ab6726582ed2afd413aa18732cf75d70d8",
+      "readme_excerpt": "For a detailed example parallel: matrix: ARCH: amd64 kaniko does not support",
+      "readme_headings": [
+        "🧊 This project is archived and no longer developed or maintained. 🧊",
+        "kaniko - Build Images In Kubernetes",
+        "🚨NOTE: kaniko is not an officially supported Google product🚨",
+        "Community",
+        "How does kaniko work?",
+        "Known Issues",
+        "Demo",
+        "Tutorial",
+        "Using kaniko",
+        "kaniko Build Contexts",
+        "Using Azure Blob Storage",
+        "Using Private Git Repository",
+        "Using Standard Input",
+        "Running kaniko",
+        "Running kaniko in a Kubernetes cluster",
+        "Kubernetes secret",
+        "Running kaniko in gVisor",
+        "Running kaniko in Google Cloud Build",
+        "Running kaniko in Docker",
+        "Caching",
+        "Caching Layers",
+        "Caching Base Images",
+        "Pushing to Different Registries",
+        "Pushing to Docker Hub",
+        "Pushing to Google GCR",
+        "Pushing to GCR using Workload Identity",
+        "Pushing to Amazon ECR",
+        "Pushing to Azure Container Registry",
+        "Pushing to JFrog Container Registry or to JFrog Artifactory",
+        "Additional Flags"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Tutorial",
+          "excerpt": "For a detailed example"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "run parallel builds for the desired architectures",
+          "excerpt": "parallel: matrix: ARCH: amd64"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Known Issues",
+          "excerpt": "kaniko does not support"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 58925,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "105f4dbca4e543f1a5ec4c2a5e5385f7102d5d30",
+          "size": 10941,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cel.dev/expr",
+            "cloud.google.com/go",
+            "cloud.google.com/go/auth",
+            "cloud.google.com/go/auth/oauth2adapt",
+            "cloud.google.com/go/compute/metadata",
+            "cloud.google.com/go/iam",
+            "cloud.google.com/go/monitoring",
+            "cloud.google.com/go/storage",
+            "dario.cat/mergo",
+            "github.com/Azure/azure-sdk-for-go",
+            "github.com/Azure/azure-sdk-for-go/sdk/azcore",
+            "github.com/Azure/azure-sdk-for-go/sdk/internal",
+            "github.com/Azure/azure-sdk-for-go/sdk/storage/azblob",
+            "github.com/Azure/go-ansiterm",
+            "github.com/Azure/go-autorest",
+            "github.com/Azure/go-autorest/autorest",
+            "github.com/Azure/go-autorest/autorest/adal",
+            "github.com/Azure/go-autorest/autorest/azure/auth",
+            "github.com/Azure/go-autorest/autorest/azure/cli",
+            "github.com/Azure/go-autorest/autorest/date",
+            "github.com/Azure/go-autorest/logger",
+            "github.com/Azure/go-autorest/tracing",
+            "github.com/GoogleCloudPlatform/docker-credential-gcr/v2",
+            "github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp",
+            "github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric",
+            "github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping",
+            "github.com/Microsoft/go-winio",
+            "github.com/Microsoft/hcsshim",
+            "github.com/ProtonMail/go-crypto",
+            "github.com/agext/levenshtein",
+            "github.com/aws/aws-sdk-go-v2",
+            "github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream",
+            "github.com/aws/aws-sdk-go-v2/config",
+            "github.com/aws/aws-sdk-go-v2/credentials",
+            "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "github.com/aws/aws-sdk-go-v2/feature/s3/manager",
+            "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "github.com/aws/aws-sdk-go-v2/internal/ini",
+            "github.com/aws/aws-sdk-go-v2/internal/v4a",
+            "github.com/aws/aws-sdk-go-v2/service/ecr",
+            "github.com/aws/aws-sdk-go-v2/service/ecrpublic",
+            "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "github.com/aws/aws-sdk-go-v2/service/internal/checksum",
+            "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "github.com/aws/aws-sdk-go-v2/service/internal/s3shared",
+            "github.com/aws/aws-sdk-go-v2/service/s3",
+            "github.com/aws/aws-sdk-go-v2/service/sso",
+            "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+            "github.com/aws/aws-sdk-go-v2/service/sts",
+            "github.com/aws/smithy-go",
+            "github.com/awslabs/amazon-ecr-credential-helper/ecr-login",
+            "github.com/beorn7/perks",
+            "github.com/cespare/xxhash/v2",
+            "github.com/chrismellard/docker-credential-acr-env",
+            "github.com/cloudflare/circl",
+            "github.com/cncf/xds/go",
+            "github.com/containerd/cgroups/v3",
+            "github.com/containerd/containerd",
+            "github.com/containerd/containerd/api"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "0dace6e11985d776deddd43c8c563dd24151f8ac",
+          "size": 3945,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "deploy/Dockerfile",
+          "sha": "b631963ad6f39c37e12f15f7c566ffb177f7cf58",
+          "size": 3673,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "integration/benchmark_fs/Dockerfile",
+          "sha": "9a70889f14a98f519995ea42746a861a1d52ecd0",
+          "size": 734,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "vendor/go.opencensus.io/Makefile",
+          "sha": "d896edc996813d748604643f271b0bf0291ed2ce",
+          "size": 2735,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "integration/dockerfiles-with-context/issue-1020/Dockerfile",
+          "sha": "d8d6e5c4f07f77884f3ab4cbd7b2a6864213189e",
+          "size": 743,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T19:44:06+00:00"
     },
     "siemens/kas": {
       "id": 94209109,
@@ -10749,12 +10952,87 @@
         "yocto"
       ],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 353059,
+        "Shell": 51328,
+        "Dockerfile": 7544
+      },
+      "readme_url": "https://github.com/siemens/kas/blob/master/README.rst",
+      "readme_path": "README.rst",
+      "readme_sha": "0d959619481d64247829f862cdbff392aaf98ff8",
+      "readme_excerpt": "Setup tool for bitbake",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Setup tool for bitbake"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1624,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "6784b58f9cb1d2a24c1f089f4fbc4ec281c33bc6",
+          "size": 7544,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "6e6b181919766bfd64944ac72338f46fcd095b2f",
+          "size": 2924,
+          "content_status": "captured",
+          "dependency_hints": [
+            "colorlog",
+            "distro",
+            "gitpython",
+            "jsonschema",
+            "kas",
+            "kconfiglib",
+            "pytest",
+            "python-gnupg",
+            "pyyaml"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "8052e58bd60e9c46458412078ab518579299b3af",
+          "size": 1470,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "e81685040fd4d4f11e456634bc05e8e690be9529",
+          "size": 7619,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/requirements.txt",
+          "sha": "8f56f00a849ff9018ae57621f3045820a0ec5d54",
+          "size": 79,
+          "content_status": "captured",
+          "dependency_hints": [
+            "CommonMark",
+            "sphinx",
+            "sphinx-argparse",
+            "sphinx-rtd-theme"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T19:48:53+00:00"
     },
     "siemens/Keyboard": {
       "id": 2222018,
@@ -10777,12 +11055,69 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 186296
+      },
+      "readme_url": "https://github.com/siemens/Keyboard/blob/master/README.markdown",
+      "readme_path": "README.markdown",
+      "readme_sha": "20bfa0c4329dfec6c365d58f99a2ed1197f7efa0",
+      "readme_excerpt": "Originally posted by Jeremy An on-screen virtual keyboard Required jQuery 1.4.3+ jQuery",
+      "readme_headings": [
+        "Features ([Demo](http://mottie.github.com/Keyboard/))",
+        "Documentation",
+        "To Do",
+        "Known Problems",
+        "Dependencies",
+        "Licensing",
+        "Change Log",
+        "Version 1.17.7s (6/10/2013)",
+        "Version 1.17.7 (5/13/2013)",
+        "Version 1.17.6 (5/10/2013)",
+        "Version 1.17.5 (5/6/2013)",
+        "Version 1.17.4 (4/14/2013)",
+        "Version 1.17.3 (4/4/2013)",
+        "Version 1.17.2 (3/29/2013)",
+        "Version 1.17.1 (2/12/2013)",
+        "Version 1.17 (2/12/2013)"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Originally posted by Jeremy"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Features ([Demo](http://mottie.github.com/Keyboard/))",
+          "excerpt": "An on-screen virtual keyboard"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Dependencies",
+          "excerpt": "Required jQuery 1.4.3+ jQuery"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 9967,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "5a0009b7e357b9e1be9a7bd159c340c2f83493b6",
+          "size": 1160,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T19:53:40+00:00"
     },
     "siemens/Large-Scale-Discovery": {
       "id": 333108553,
@@ -10805,12 +11140,181 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 1642916,
+        "Vue": 834653,
+        "TypeScript": 454686,
+        "JavaScript": 3814,
+        "Batchfile": 2170,
+        "HTML": 874,
+        "CSS": 714,
+        "Shell": 440
+      },
+      "readme_url": "https://github.com/siemens/Large-Scale-Discovery/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f9c3ee943cbc53f35759dadc408f16ac0a20cc38",
+      "readme_excerpt": "Web interface for scan The solution comprises several Node.js 20 LTS or",
+      "readme_headings": [
+        "Large-Scale Discovery",
+        "Key Features",
+        "Scan modules",
+        "Components",
+        "Code Philosophy",
+        "Development",
+        "GIT configuration",
+        "Manager, broker & agent for scanning",
+        "Preparation",
+        "First launch",
+        "Scan process",
+        "Web frontend for managing scan scopes",
+        "Prerequisites",
+        "Development",
+        "Production bundle",
+        "Frontend layout",
+        "Production",
+        "Compile",
+        "Building on Windows for Windows",
+        "Building on Linux for Linux",
+        "Deployment",
+        "Screenshots",
+        "Some entertainment"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": "Key Features",
+          "excerpt": "Web interface for scan"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Components",
+          "excerpt": "The solution comprises several"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "Node.js 20 LTS or"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 11484,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "4d720ec1035052cba9feec2890102f23a012db59",
+          "size": 24706,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aead.dev/minisign",
+            "carvel.dev/ytt",
+            "code.gitea.io/sdk/gitea",
+            "dario.cat/mergo",
+            "filippo.io/edwards25519",
+            "git.mills.io/prologic/smtpd",
+            "github.com/42wim/httpsig",
+            "github.com/Azure/azure-sdk-for-go/sdk/azcore",
+            "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+            "github.com/Azure/azure-sdk-for-go/sdk/internal",
+            "github.com/Azure/azure-sdk-for-go/sdk/storage/azblob",
+            "github.com/Azure/go-ntlmssp",
+            "github.com/AzureAD/microsoft-authentication-library-for-go",
+            "github.com/FalconOpsLLC/goexec",
+            "github.com/KyleBanks/depth",
+            "github.com/Masterminds/semver/v3",
+            "github.com/Microsoft/go-winio",
+            "github.com/Mzack9999/gcache",
+            "github.com/Mzack9999/go-http-digest-auth-client",
+            "github.com/Mzack9999/go-rsync",
+            "github.com/Mzack9999/goimpacket",
+            "github.com/Pallinder/go-randomdata",
+            "github.com/ProtonMail/go-crypto",
+            "github.com/PuerkitoBio/goquery",
+            "github.com/PuerkitoBio/purell",
+            "github.com/PuerkitoBio/urlesc",
+            "github.com/RedTeamPentesting/adauth",
+            "github.com/STARRY-S/zip",
+            "github.com/Ullaakut/nmap/v3",
+            "github.com/VividCortex/ewma",
+            "github.com/akrylysov/pogreb",
+            "github.com/alecthomas/chroma",
+            "github.com/alecthomas/chroma/v2",
+            "github.com/alecthomas/template",
+            "github.com/alecthomas/units",
+            "github.com/alexbrainman/sspi",
+            "github.com/alexsnet/go-vnc",
+            "github.com/alitto/pond",
+            "github.com/andybalholm/brotli",
+            "github.com/andybalholm/cascadia",
+            "github.com/andygrunwald/go-jira",
+            "github.com/antchfx/htmlquery",
+            "github.com/antchfx/xmlquery",
+            "github.com/antchfx/xpath",
+            "github.com/asaskevich/govalidator",
+            "github.com/aws/aws-sdk-go-v2",
+            "github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream",
+            "github.com/aws/aws-sdk-go-v2/config",
+            "github.com/aws/aws-sdk-go-v2/credentials",
+            "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "github.com/aws/aws-sdk-go-v2/feature/s3/manager",
+            "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "github.com/aws/aws-sdk-go-v2/internal/ini",
+            "github.com/aws/aws-sdk-go-v2/internal/v4a",
+            "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "github.com/aws/aws-sdk-go-v2/service/internal/checksum",
+            "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "github.com/aws/aws-sdk-go-v2/service/internal/s3shared",
+            "github.com/aws/aws-sdk-go-v2/service/s3"
+          ]
+        },
+        {
+          "path": "web_frontend/package.json",
+          "sha": "5435787a510d2f67855a80787ce088a0f7705101",
+          "size": 1755,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@dicebear/collection",
+            "@dicebear/core",
+            "@intlify/unplugin-vue-i18n",
+            "@playwright/test",
+            "@primeuix/themes",
+            "@primevue/core",
+            "@types/node",
+            "@vitejs/plugin-vue",
+            "@vue/eslint-config-prettier",
+            "@vue/eslint-config-typescript",
+            "@vue/test-utils",
+            "axios",
+            "chart.js",
+            "eslint",
+            "eslint-plugin-vue",
+            "jsdom",
+            "knip",
+            "pinia",
+            "prettier",
+            "primeicons",
+            "primevue",
+            "typescript",
+            "vite",
+            "vitest",
+            "vue",
+            "vue-i18n",
+            "vue-router",
+            "vue-tsc",
+            "zod"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T19:58:29+00:00"
     },
     "siemens/libconnman-qt": {
       "id": 6683811,
@@ -10833,12 +11337,38 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 60582,
+        "JavaScript": 14513,
+        "Prolog": 2192,
+        "Shell": 1207,
+        "Emacs Lisp": 136
+      },
+      "readme_url": "https://github.com/siemens/libconnman-qt/blob/master/README.rst",
+      "readme_path": "README.rst",
+      "readme_sha": "80cdd187b1669cc05d9a3467c8dd393772ac5c5d",
+      "readme_excerpt": "Qt bindings for ConnMan",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Qt bindings for ConnMan"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 445,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:03:16+00:00"
     },
     "siemens/libmodbus": {
       "id": 161632711,
@@ -10861,12 +11391,47 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 206111,
+        "M4": 6401,
+        "JavaScript": 4773,
+        "Makefile": 2584,
+        "Shell": 668,
+        "Emacs Lisp": 96
+      },
+      "readme_url": "https://github.com/siemens/libmodbus/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c8be6ebb430f3024e00b3ef3587d0eac0bd4bcde",
+      "readme_excerpt": "A groovy modbus library",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "A groovy modbus library"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3347,
+      "manifest_paths": [
+        {
+          "path": "src/win32/modbus-9.sln",
+          "sha": "b84f0f5a74bd97929bddd9ffbffcbf29035cd024",
+          "size": 862,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:08:04+00:00"
     },
     "siemens/libsecutils": {
       "id": 396832797,
@@ -10893,12 +11458,106 @@
         "tls"
       ],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 515967,
+        "CMake": 30448,
+        "Makefile": 18267
+      },
+      "readme_url": "https://github.com/siemens/libsecutils/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5e38dcdd33a641e883d58eb81adfef275f3105d0",
+      "readme_excerpt": "The library provides easier The software can be This software should work",
+      "readme_headings": [
+        "libSecUtils",
+        "Purpose",
+        "Contents",
+        "Getting started",
+        "Getting the library",
+        "Prerequisites",
+        "Configuring",
+        "Building",
+        "Installing and uninstalling",
+        "Building Debian packages",
+        "Building the documentation",
+        "Cleaning up",
+        "Using the library",
+        "Library structure",
+        "Copyright",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Purpose",
+          "excerpt": "The library provides easier"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Installing and uninstalling",
+          "excerpt": "The software can be"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "This software should work"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 9205,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "e1fcb1af10762c2138f28cf9e5d5552596c1e4ba",
+          "size": 20248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "coverage/Makefile",
+          "sha": "2f892021f0bb17fd073143df5f509fc9ca3e2abd",
+          "size": 1404,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/CMakeLists.txt",
+          "sha": "ea990a6790cd6578633d3641706652f2d7f1dfae",
+          "size": 2972,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/libsecutils/CMakeLists.txt",
+          "sha": "d7552613d805e5ea330f2d7f145e2f6caeff66ae",
+          "size": 2388,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/util/CMakeLists.txt",
+          "sha": "cf67170ff0e662933ae63947b5db5b8a9e83bae4",
+          "size": 1852,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/libsecutils/include/CMakeLists.txt",
+          "sha": "d86b8c43585f18d1c552f32aa96d1e09b4c1aa83",
+          "size": 294,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:12:53+00:00"
     },
     "siemens/libuta": {
       "id": 292233568,
@@ -10925,12 +11584,94 @@
         "trust-anchor"
       ],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 106992,
+        "Rust": 22450,
+        "Shell": 20775,
+        "M4": 7407,
+        "Makefile": 3768
+      },
+      "readme_url": "https://github.com/siemens/libuta/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "29648f8e1e5fae56c570255a5d7110c0afb3ff37",
+      "readme_excerpt": "SPDX-FileCopyrightText: Copyright 2020-2026 Siemens The following instructions will The Unified Trust Anchor build-essential needs to be",
+      "readme_headings": [
+        "Unified Trust Anchor API",
+        "Contents",
+        "Design Concept",
+        "Getting Started",
+        "Prerequisites",
+        "Installing",
+        "Debian packaging",
+        "Dependencies",
+        "Configuration",
+        "Remarks",
+        "Tools",
+        "Regression tests",
+        "Retrieve a passphrase from the trust anchor",
+        "Retrieve passphrase from the UTA trust anchor ###",
+        "Library structure",
+        "Return codes",
+        "UTA version",
+        "UTA context",
+        "UTA API",
+        "Function description",
+        "uta_init_v1",
+        "context_v1_size",
+        "open",
+        "close",
+        "len_key_max",
+        "derive_key",
+        "get_random",
+        "get_device_uuid",
+        "self_test",
+        "get_version"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "SPDX-FileCopyrightText: Copyright 2020-2026 Siemens"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "The following instructions will"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Design Concept",
+          "excerpt": "The Unified Trust Anchor"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "build-essential needs to be"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 20362,
+      "manifest_paths": [
+        {
+          "path": "libuta_rust/Cargo.toml",
+          "sha": "de01067cb091d0e56e44d1c1dc932e9805e2d127",
+          "size": 1149,
+          "content_status": "captured",
+          "dependency_hints": [
+            "bindgen"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:17:40+00:00"
     },
     "siemens/LicenseDb": {
       "id": 751958497,
@@ -10953,12 +11694,121 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 259125,
+        "Dockerfile": 1038,
+        "Shell": 647
+      },
+      "readme_url": "https://github.com/siemens/LicenseDb/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d2cf99dbb8df4af0d3bf4c5493eec1cbbb92d662",
+      "readme_excerpt": "SPDX-License-Identifier: GPL-2.0-only -->",
+      "readme_headings": [
+        "LicenseDb",
+        "Database",
+        "APIs",
+        "API endpoints",
+        "Authentication",
+        "Prerequisite",
+        "How to run this project?",
+        "Create first user",
+        "Generating Swagger Documentation"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "SPDX-License-Identifier: GPL-2.0-only -->"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4767,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "d7675baf0b9a333221b4158327b0013781b7dd6c",
+          "size": 1038,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "go.mod",
+          "sha": "d8fd82610bedc0866327296ed0218a627bd2c535",
+          "size": 2830,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/KyleBanks/depth",
+            "github.com/PuerkitoBio/purell",
+            "github.com/PuerkitoBio/urlesc",
+            "github.com/bytedance/sonic",
+            "github.com/chenzhuoyu/base64x",
+            "github.com/dave/jennifer",
+            "github.com/davecgh/go-spew",
+            "github.com/gabriel-vasile/mimetype",
+            "github.com/gin-contrib/sse",
+            "github.com/gin-gonic/gin",
+            "github.com/go-openapi/jsonpointer",
+            "github.com/go-openapi/jsonreference",
+            "github.com/go-openapi/spec",
+            "github.com/go-openapi/swag",
+            "github.com/go-playground/locales",
+            "github.com/go-playground/universal-translator",
+            "github.com/go-playground/validator/v10",
+            "github.com/go-sql-driver/mysql",
+            "github.com/goccy/go-json",
+            "github.com/golang-jwt/jwt/v4",
+            "github.com/jackc/pgpassfile",
+            "github.com/jackc/pgservicefile",
+            "github.com/jackc/pgx/v5",
+            "github.com/jackc/puddle/v2",
+            "github.com/jinzhu/inflection",
+            "github.com/jinzhu/now",
+            "github.com/joho/godotenv",
+            "github.com/josharian/intern",
+            "github.com/json-iterator/go",
+            "github.com/klauspost/cpuid/v2",
+            "github.com/leodido/go-urn",
+            "github.com/mailru/easyjson",
+            "github.com/mattn/go-isatty",
+            "github.com/modern-go/concurrent",
+            "github.com/modern-go/reflect2",
+            "github.com/pelletier/go-toml/v2",
+            "github.com/pmezard/go-difflib",
+            "github.com/rogpeppe/go-internal",
+            "github.com/stretchr/testify",
+            "github.com/swaggo/files",
+            "github.com/swaggo/gin-swagger",
+            "github.com/swaggo/swag",
+            "github.com/twitchyliquid64/golang-asm",
+            "github.com/ugorji/go/codec",
+            "golang.org/x/arch",
+            "golang.org/x/crypto",
+            "golang.org/x/exp",
+            "golang.org/x/net",
+            "golang.org/x/sync",
+            "golang.org/x/sys",
+            "golang.org/x/text",
+            "golang.org/x/tools",
+            "google.golang.org/protobuf",
+            "gopkg.in/yaml.v2",
+            "gopkg.in/yaml.v3",
+            "gorm.io/datatypes",
+            "gorm.io/driver/mysql",
+            "gorm.io/driver/postgres",
+            "gorm.io/gorm"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:22:29+00:00"
     },
     "siemens/LightweightCmpRa": {
       "id": 305635143,
@@ -10992,12 +11842,103 @@
         "x509"
       ],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 428460,
+        "Python": 6714
+      },
+      "readme_url": "https://github.com/siemens/LightweightCmpRa/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "248be77d2604a0d4f4ece436094f29f5768f4680",
+      "readme_excerpt": "Copyright (c) 2019 - This implementation uses the This implementation uses the With JDK 11, revocation",
+      "readme_headings": [
+        "Lightweight CMP RA and CMP Client CLI applications",
+        "License",
+        "Disclaimer",
+        "Usage",
+        "Preconditions",
+        "Required build tools and environment",
+        "Download and install the dependency: the generic CMP RA component",
+        "Download the sources",
+        "Build the software",
+        "Updating the build",
+        "Configuration",
+        "Running the RA",
+        "RA Software architecture",
+        "External components",
+        "Internal structure",
+        "CMP message transport variants",
+        "Interoperability",
+        "Known issues",
+        "Lightweight CMP client CLI application",
+        "Running the CLI Client",
+        "Configuration",
+        "Related resources"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Copyright (c) 2019 -"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Download and install the dependency: the generic CMP RA component",
+          "excerpt": "This implementation uses the"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "External components",
+          "excerpt": "This implementation uses the"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Known issues",
+          "excerpt": "With JDK 11, revocation"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 18033,
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "9365aa1a2689af2a993af77d68d31dad44268af1",
+          "size": 7753,
+          "content_status": "captured",
+          "dependency_hints": [
+            "CmpRaComponent",
+            "LightweightCmpRa",
+            "californium-core",
+            "commons-cli",
+            "cyclonedx-maven-plugin",
+            "dependency-check-maven",
+            "file-management",
+            "jackson-databind",
+            "jackson-jaxrs-yaml-provider",
+            "jacoco-maven-plugin",
+            "jakarta.xml.bind-api",
+            "jaxb-api",
+            "jaxb-runtime",
+            "maven-dependency-plugin",
+            "maven-jar-plugin",
+            "maven-javadoc-plugin",
+            "maven-source-plugin",
+            "maven-surefire-plugin",
+            "slf4j-api",
+            "slf4j-simple",
+            "spotless-maven-plugin"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:27:16+00:00"
     },
     "siemens/link-checker-service": {
       "id": 299242914,
@@ -11025,12 +11966,178 @@
         "self-hosted"
       ],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 138931,
+        "HTML": 21024,
+        "Shell": 17551,
+        "Dockerfile": 1551,
+        "Batchfile": 348
+      },
+      "readme_url": "https://github.com/siemens/link-checker-service/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e410d9b33dc844cd0d6a02b4cd749482a1bf2dbd",
+      "readme_excerpt": "For a website author Rate limiting based on see go.mod",
+      "readme_headings": [
+        "Link Checker Service",
+        "Quickstart Options",
+        "In Docker",
+        "From Source",
+        "Binaries",
+        "Motivation",
+        "Usage",
+        "Example Request",
+        "Large Requests Using JSON Streaming",
+        "Sample Front-Ends",
+        "Configuration",
+        "Config File",
+        "Environment Variables",
+        "Authentication",
+        "URL Checker Plugins",
+        "Advanced Configuration",
+        "enable searching for patterns here",
+        "define Go Regex patterns and their names in this manner",
+        "Using a Custom Configuration",
+        "Stats (POC)",
+        "Development",
+        "Request Optimization Architecture",
+        "Dependencies",
+        "Used by",
+        "Alternatives",
+        "License",
+        "Disclaimer"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Motivation",
+          "excerpt": "For a website author"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Request Optimization Architecture",
+          "excerpt": "Rate limiting based on"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Dependencies",
+          "excerpt": "see go.mod"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 12440,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "a5430d6e15ef775a53e7239864b9be2e1a9b9e0a",
+          "size": 995,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "go.mod",
+          "sha": "31f27eceb05313bc0fe6ec3de219d006c9bf70a9",
+          "size": 3362,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/MicahParks/keyfunc",
+            "github.com/appleboy/gin-jwt/v2",
+            "github.com/bytedance/gopkg",
+            "github.com/bytedance/sonic",
+            "github.com/bytedance/sonic/loader",
+            "github.com/cespare/xxhash/v2",
+            "github.com/cloudwego/base64x",
+            "github.com/darren/gpac",
+            "github.com/davecgh/go-spew",
+            "github.com/dgraph-io/ristretto/v2",
+            "github.com/dlclark/regexp2/v2",
+            "github.com/dn365/gin-zerolog",
+            "github.com/dop251/goja",
+            "github.com/dustin/go-humanize",
+            "github.com/fsnotify/fsnotify",
+            "github.com/gabriel-vasile/mimetype",
+            "github.com/gin-contrib/cors",
+            "github.com/gin-contrib/sse",
+            "github.com/gin-gonic/gin",
+            "github.com/go-playground/locales",
+            "github.com/go-playground/universal-translator",
+            "github.com/go-playground/validator/v10",
+            "github.com/go-resty/resty/v2",
+            "github.com/go-sourcemap/sourcemap",
+            "github.com/go-viper/mapstructure/v2",
+            "github.com/gobwas/glob",
+            "github.com/goccy/go-json",
+            "github.com/goccy/go-yaml",
+            "github.com/golang-jwt/jwt/v4",
+            "github.com/google/pprof",
+            "github.com/google/uuid",
+            "github.com/inconshreveable/mousetrap",
+            "github.com/json-iterator/go",
+            "github.com/klauspost/cpuid/v2",
+            "github.com/leodido/go-urn",
+            "github.com/mattn/go-colorable",
+            "github.com/mattn/go-isatty",
+            "github.com/mitchellh/go-homedir",
+            "github.com/modern-go/concurrent",
+            "github.com/modern-go/reflect2",
+            "github.com/patrickmn/go-cache",
+            "github.com/pelletier/go-toml/v2",
+            "github.com/pkg/errors",
+            "github.com/platinummonkey/go-concurrency-limits",
+            "github.com/quic-go/qpack",
+            "github.com/quic-go/quic-go",
+            "github.com/rs/zerolog",
+            "github.com/sagikazarmark/locafero",
+            "github.com/spf13/afero",
+            "github.com/spf13/cast",
+            "github.com/spf13/cobra",
+            "github.com/spf13/pflag",
+            "github.com/spf13/viper",
+            "github.com/stretchr/testify",
+            "github.com/subosito/gotenv",
+            "github.com/twitchyliquid64/golang-asm",
+            "github.com/ugorji/go/codec",
+            "github.com/ulule/limiter/v3",
+            "github.com/youmark/pkcs8",
+            "go.mongodb.org/mongo-driver/v2"
+          ]
+        },
+        {
+          "path": "test/jquery_example/Dockerfile",
+          "sha": "8cdc923f4f188dee495839d16d1eeb7ce65199ec",
+          "size": 556,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/jquery_example/go.mod",
+          "sha": "3336971ad18d6012d83ce7c96c95b9b4ef654d77",
+          "size": 76,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/large_list_check/go.mod",
+          "sha": "79ef347bddb507f1effd469160e95c514d9f17ff",
+          "size": 250,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/ahmetb/go-linq",
+            "github.com/go-resty/resty/v2",
+            "golang.org/x/net",
+            "mvdan.cc/xurls/v2"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:32:05+00:00"
     },
     "siemens/lint": {
       "id": 900730404,
@@ -11057,12 +12164,138 @@
         "linting-rules"
       ],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 38247,
+        "JavaScript": 14675
+      },
+      "readme_url": "https://github.com/siemens/lint/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4c12b8e3a8d36b69c6eb3d792be1e8b70f07761d",
+      "readme_excerpt": "Install @siemens/*-config* and their",
+      "readme_headings": [
+        "Siemens Lint",
+        "Installation",
+        "ESLint",
+        "TypeScript",
+        "Angular",
+        "Migration from TSLint",
+        "Stylelint",
+        "Commitlint",
+        "Prettier",
+        "ESLint Plugin",
+        "Usage",
+        "Contributing",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "Install @siemens/*-config* and their"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 8202,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "8ee4ea369e734d01b6efac15064e9c1a2e267e7e",
+          "size": 2590,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@commitlint/cli",
+            "@commitlint/config-conventional",
+            "@microsoft/tsdoc",
+            "@microsoft/tsdoc-config",
+            "@types/node",
+            "@typescript-eslint/rule-tester",
+            "@typescript-eslint/utils",
+            "angular-eslint",
+            "cpy-cli",
+            "eslint",
+            "eslint-plugin-headers",
+            "eslint-plugin-perfectionist",
+            "eslint-plugin-prefer-arrow",
+            "eslint-plugin-tsdoc",
+            "husky",
+            "postcss-scss",
+            "prettier",
+            "rimraf",
+            "semantic-release",
+            "stylelint",
+            "stylelint-scss",
+            "tsx",
+            "typescript",
+            "typescript-eslint"
+          ]
+        },
+        {
+          "path": "commitlint-config/package.json",
+          "sha": "fa20fa6cea26680766415e4ff098e15246eab819",
+          "size": 736,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@commitlint/cli",
+            "@commitlint/config-conventional"
+          ]
+        },
+        {
+          "path": "eslint-config-angular/package.json",
+          "sha": "78598e1266f0837524caa82c505b29eb3a344662",
+          "size": 1059,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@eslint/js",
+            "angular-eslint",
+            "eslint",
+            "eslint-plugin-perfectionist",
+            "eslint-plugin-prefer-arrow",
+            "typescript-eslint"
+          ]
+        },
+        {
+          "path": "eslint-config-typescript/package.json",
+          "sha": "6a544958e42b3fd0e7a61e6bea7bccd3a65d793b",
+          "size": 863,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@eslint/js",
+            "eslint",
+            "eslint-plugin-perfectionist",
+            "eslint-plugin-prefer-arrow",
+            "typescript-eslint"
+          ]
+        },
+        {
+          "path": "eslint-plugin-defaultvalue/package.json",
+          "sha": "8a54e612fec8e5b1f52e0697ecbcc531cb5801cc",
+          "size": 740,
+          "content_status": "captured",
+          "dependency_hints": [
+            "eslint",
+            "typescript-eslint"
+          ]
+        },
+        {
+          "path": "prettier-config/package.json",
+          "sha": "c02efb96b6082d71ff75c321f8279938babf923e",
+          "size": 732,
+          "content_status": "captured",
+          "dependency_hints": [
+            "prettier"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:36:54+00:00"
     },
     "siemens/linux": {
       "id": 5166314,
@@ -11085,12 +12318,97 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 1180783528,
+        "Assembly": 9649462,
+        "Shell": 3971338,
+        "Makefile": 2411216,
+        "Python": 1414971,
+        "Perl": 1203061,
+        "Rust": 394184,
+        "C++": 309303,
+        "Roff": 193348,
+        "SmPL": 160139,
+        "Yacc": 126829,
+        "Lex": 63494,
+        "Awk": 52554,
+        "UnrealScript": 17719,
+        "Gherkin": 9542,
+        "Raku": 3859,
+        "M4": 3325,
+        "MATLAB": 2482,
+        "Clojure": 2044,
+        "XS": 1239,
+        "sed": 379
+      },
+      "readme_url": "https://github.com/siemens/linux/blob/master/README",
+      "readme_path": "README",
+      "readme_sha": "669ac7c32292798644b21dbb5a0dc657125f444d",
+      "readme_excerpt": "Linux kernel ============ There",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Linux kernel ============ There"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 727,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "460716314fb3c50ee10e9758288810dfa9953d04",
+          "size": 71179,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "block/Makefile",
+          "sha": "4e01bb71ad6e07b7176caf277724a35b54fa4056",
+          "size": 1815,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "certs/Makefile",
+          "sha": "9486ed924731b88fbb18fb08aa356bee62435296",
+          "size": 3285,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "crypto/Makefile",
+          "sha": "d0126c915834b2f09b3ed42ab712a69b26b47258",
+          "size": 8325,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Documentation/Makefile",
+          "sha": "bb73dcb5ed0536e169ff6427b678a7e5a5d8cffb",
+          "size": 6660,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "drivers/Makefile",
+          "sha": "bdf1c66141c9bd5e8241a32233b768587e630504",
+          "size": 5412,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": true,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:41:48+00:00"
     },
     "siemens/linux-baseline": {
       "id": 403644145,
@@ -11113,12 +12431,50 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Ruby": 32722
+      },
+      "readme_url": "https://github.com/siemens/linux-baseline/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "8aa8c3a14d87bd893076751c5994759a6af1fe0d",
+      "readme_excerpt": "DevSec Linux Baseline ===================== This Compliance Profile requires",
+      "readme_headings": [
+        "Standalone Usage",
+        "License and Author"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "DevSec Linux Baseline ====================="
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Standalone Usage",
+          "excerpt": "This Compliance Profile requires"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1425,
+      "manifest_paths": [
+        {
+          "path": "Gemfile",
+          "sha": "a076fc46058b42da07c28ffef8bae5e5517ccc9a",
+          "size": 296,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:46:33+00:00"
     },
     "siemens/linux-entra-sso": {
       "id": 817845651,
@@ -11147,12 +12503,72 @@
         "thunderbird-extension"
       ],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 121833,
+        "Python": 17633,
+        "Makefile": 13138,
+        "CSS": 6160,
+        "HTML": 6102
+      },
+      "readme_url": "https://github.com/siemens/linux-entra-sso/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5edb911aa7ac3e8847fdcd0ddda15327917c6e8e",
+      "readme_excerpt": "SPDX-FileCopyrightText: Copyright 2024 Siemens The extension consists of The extension requires PyGObject",
+      "readme_headings": [
+        "Entra ID SSO via Microsoft Identity Broker on Linux",
+        "Installation",
+        "Dependencies",
+        "Installation of Host Tooling",
+        "Installation of WebExtension",
+        "Usage",
+        "Tab Containers",
+        "Single Page Applications",
+        "Technical Background",
+        "Known Limitations",
+        "Snap version of Firefox on Ubuntu",
+        "Flatpak",
+        "Troubleshooting",
+        "Code Integrity",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "SPDX-FileCopyrightText: Copyright 2024 Siemens"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "The extension consists of"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Dependencies",
+          "excerpt": "The extension requires PyGObject"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7688,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "0c3736c7cdefc4032b413180ee1f35ed43ab493c",
+          "size": 13138,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:51:21+00:00"
     },
     "siemens/logstash-output-s3": {
       "id": 221916283,
@@ -11175,12 +12591,59 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Ruby": 80094,
+        "Shell": 1385
+      },
+      "readme_url": "https://github.com/siemens/logstash-output-s3/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3e001fe9dbc6d33eff98b6e19f4b3f479d1c9a47",
+      "readme_excerpt": "You can use the",
+      "readme_headings": [
+        "Logstash Plugin",
+        "Documentation",
+        "Need Help?",
+        "Developing",
+        "1. Plugin Developement and Testing",
+        "Code",
+        "Test",
+        "2. Running your unpublished Plugin in Logstash",
+        "2.1 Run in a local Logstash clone",
+        "Logstash 2.3 and higher",
+        "Prior to Logstash 2.3",
+        "2.2 Run in an installed Logstash",
+        "Logstash 2.3 and higher",
+        "Prior to Logstash 2.3",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "2.2 Run in an installed Logstash",
+          "excerpt": "You can use the"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3310,
+      "manifest_paths": [
+        {
+          "path": "Gemfile",
+          "sha": "f4610bdb8fecc616cbf98a0f65360d656b9f414e",
+          "size": 444,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:56:09+00:00"
     },
     "siemens/M-Fit": {
       "id": 87358330,
@@ -11203,12 +12666,46 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 360850,
+        "Makefile": 9129,
+        "C++": 1758
+      },
+      "readme_url": "https://github.com/siemens/M-Fit/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9a36e6207b2f844f7de5ca75f03bdfcc7e0be7e8",
+      "readme_excerpt": "the M-Fit suite, a set of programs for testing and validating traffic controllers against the various ITE/AASHTO/NEMA ATC and Caltrans TEES 2009 standards The M-Fit",
+      "readme_headings": [
+        "M-Fit"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "M-Fit",
+          "excerpt": "the M-Fit suite, a set of programs for testing and validating traffic controllers against the various ITE/AASHTO/NEMA ATC and Caltrans TEES 2009 standards The M-Fit"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1226,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "183ca1a522fd47d7904b4eb5285e41a58a5730dc",
+          "size": 5718,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:00:57+00:00"
     },
     "siemens/mcuboot": {
       "id": 963338037,
@@ -11231,12 +12728,112 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 4036811,
+        "Rust": 213376,
+        "Python": 157675,
+        "Linker Script": 81636,
+        "CMake": 78296,
+        "Assembly": 52937,
+        "Makefile": 37892,
+        "Shell": 31544,
+        "C++": 17359,
+        "Dockerfile": 1255,
+        "Nix": 683
+      },
+      "readme_url": "https://github.com/siemens/mcuboot/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "8473fc40c7dc29112a67b7c787d07aef0a660566",
+      "readme_excerpt": "This is MCUboot version 2.1.0 MCUboot is a secure bootloader for 32-bits microcontrollers. It defines a common infrastructure for the bootloader and the system flash",
+      "readme_headings": [
+        "[MCUboot](http://mcuboot.com/)",
+        "MCUboot How-tos",
+        "Roadmap",
+        "Source files",
+        "Joining the project"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "[MCUboot](http://mcuboot.com/)",
+          "excerpt": "This is MCUboot version 2.1.0 MCUboot is a secure bootloader for 32-bits microcontrollers. It defines a common infrastructure for the bootloader and the system flash"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4644,
+      "manifest_paths": [
+        {
+          "path": "Cargo.toml",
+          "sha": "185777f579fffc781b68c064429791ef02b4329d",
+          "size": 394,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "go.mod",
+          "sha": "8d87521c7fba18e0a3278b7c0543c1eccd40ba41",
+          "size": 45,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ci/requirements.txt",
+          "sha": "aab392a3ac2a3ae1794813476de45cc84d69af8a",
+          "size": 6,
+          "content_status": "captured",
+          "dependency_hints": [
+            "tomli"
+          ]
+        },
+        {
+          "path": "docs/Gemfile",
+          "sha": "b88481b276a866cc544f9a2b16e997a451c3b986",
+          "size": 900,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ptest/Cargo.toml",
+          "sha": "bb38f933206cb3b8b0ba54c4d94e8d8c415ce2e0",
+          "size": 290,
+          "content_status": "captured",
+          "dependency_hints": [
+            "chrono",
+            "clap",
+            "env_logger",
+            "failure",
+            "log",
+            "num_cpus",
+            "std-semaphore",
+            "yaml-rust"
+          ]
+        },
+        {
+          "path": "scripts/requirements.txt",
+          "sha": "33b11bb54086e926ef5e49da41b53f6d7ee31258",
+          "size": 67,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cbor2",
+            "click",
+            "cryptography",
+            "intelhex",
+            "pytest",
+            "pyyaml",
+            "setuptools"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:05:48+00:00"
     },
     "siemens/meta-coral": {
       "id": 450546644,
@@ -11259,12 +12856,46 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Smarty": 32717,
+        "Makefile": 19874,
+        "Shell": 15446,
+        "BitBake": 11224,
+        "Starlark": 3637,
+        "NASL": 1294
+      },
+      "readme_url": "https://github.com/siemens/meta-coral/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9dafdcc4edad40f538e9e3710b52fc12a7f79562",
+      "readme_excerpt": "This layer is only",
+      "readme_headings": [
+        "ISAR Layer for Coral TPU",
+        "Packaging status",
+        "Coral Packages",
+        "Infrastructure",
+        "Licensing",
+        "Compatibility"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Compatibility",
+          "excerpt": "This layer is only"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2084,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:10:35+00:00"
     },
     "siemens/meta-efibootguard": {
       "id": 102642113,
@@ -11291,12 +12922,50 @@
         "yocto"
       ],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 9783,
+        "BitBake": 7941,
+        "Shell": 280
+      },
+      "readme_url": "https://github.com/siemens/meta-efibootguard/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "8f7cd71c5c0ddfad15253890d2eac9bf2deb9cad",
+      "readme_excerpt": "A meta-layer for integration of efibootguard into a yocto project.",
+      "readme_headings": [
+        "EFI Boot Guard meta layer #",
+        "Development ##",
+        "status ##",
+        "project integration ##",
+        "Example .wks file ##",
+        "short-description: Create a bootable disk image with efibootguard",
+        "long-description: Creates a partitioned EFI disk image,",
+        "using efibootguard, that the user can directly dd to boot media.",
+        "EFI partition containing efibootguard",
+        "Two root partitions for updateability, leave away 2nd if not used",
+        "Two config partitions to load boot configuration and kernel",
+        "Other partitions",
+        "Important for type of partition table"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "EFI Boot Guard meta layer",
+          "excerpt": "A meta-layer for integration of efibootguard into a yocto project."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3716,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:15:23+00:00"
     },
     "siemens/meta-iot2000": {
       "id": 69577263,
@@ -11321,12 +12990,69 @@
         "yocto-layer"
       ],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 179263,
+        "BitBake": 57378,
+        "Python": 30871,
+        "Shell": 9854,
+        "Lua": 3754,
+        "Makefile": 3076,
+        "ASL": 2351
+      },
+      "readme_url": "https://github.com/siemens/meta-iot2000/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "712ab0f2e9bce30d34dc5904856ad8d2007a3241",
+      "readme_excerpt": "IOT2000 Board Support Package",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "IOT2000 Board Support Package"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5139,
+      "manifest_paths": [
+        {
+          "path": "meta-iot2000-example/recipes-kernel/galileo-spi1-spidev/files/Makefile",
+          "sha": "578c57f9d694a535eef88fc82df27c2fd7b6fc7f",
+          "size": 306,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "meta-iot2000-example/recipes-kernel/galileo-uio-gpio/files/Makefile",
+          "sha": "f805c173923d546f2b83c9967f76d6a1b7aa011b",
+          "size": 303,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "meta-iot2000-example/recipes-kernel/galileogen2-fake/files/Makefile",
+          "sha": "cc568e1c74b6798edc778458537532c1a2f811af",
+          "size": 303,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "meta-iot2000-example/recipes-galileo/galileo-target/files/galileo-target/Makefile",
+          "sha": "90439daada56b354419aae974e2e71395f9e65db",
+          "size": 2164,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:20:12+00:00"
     },
     "siemens/meta-iot2050": {
       "id": 262497269,
@@ -11354,12 +13080,115 @@
         "sdk"
       ],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 354054,
+        "JavaScript": 187694,
+        "BitBake": 117977,
+        "C": 76248,
+        "Shell": 58337,
+        "CSS": 31233,
+        "HTML": 14274,
+        "Makefile": 6149,
+        "Go Template": 4205,
+        "CMake": 922
+      },
+      "readme_url": "https://github.com/siemens/meta-iot2050/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c9646e48fdee6a6b342b41b9eb7b9b15401fdc22",
+      "readme_excerpt": "The Siemens IOT2050 is Robust design for industrial Interactive menu: ./kas-container menu Before building the system,",
+      "readme_headings": [
+        "META-IOT2050",
+        "Overview",
+        "Key Features",
+        "Prerequisites",
+        "Quick Start",
+        "Example image (includes demos, Node-RED, SM)",
+        "Deploy",
+        "Booting the image from an SD card",
+        "Installing the image on the eMMC (IOT2050 Advanced only)",
+        "Updating the U-Boot firmware",
+        "Selecting a boot device",
+        "Images & Features Matrix",
+        "Documentation",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Overview",
+          "excerpt": "The Siemens IOT2050 is"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Key Features",
+          "excerpt": "Robust design for industrial"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Quick Start",
+          "excerpt": "Interactive menu: ./kas-container menu"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "Before building the system,"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 10577,
+      "manifest_paths": [
+        {
+          "path": "meta-sm/recipes-app/iot2050-cockpit-eio-config/files/package.json",
+          "sha": "9f9651628a5a67a174690e45a04faac9bc62305f",
+          "size": 882,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@emotion/cache",
+            "@emotion/react",
+            "@emotion/styled",
+            "@mui/icons-material",
+            "@mui/material",
+            "copy-webpack-plugin",
+            "eslint",
+            "eslint-config-next",
+            "eslint-config-standard",
+            "eslint-plugin-import",
+            "eslint-plugin-n",
+            "eslint-plugin-promise",
+            "eslint-plugin-react",
+            "lodash",
+            "next",
+            "prop-types",
+            "react",
+            "react-dom",
+            "yaml"
+          ]
+        },
+        {
+          "path": "meta-sm/recipes-core/iot2050-proximity-driver/files/src/Makefile",
+          "sha": "9119903ce84a2c675e3e9ca7bb26fd140338e411",
+          "size": 859,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "meta/recipes-app/switchserialmode/files/src/CMakeLists.txt",
+          "sha": "997edfc5e44a08698e9ba04696e247263c857a73",
+          "size": 922,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:24:47+00:00"
     },
     "siemens/meta-nodejs": {
       "id": 47122672,
@@ -11382,12 +13211,52 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "PHP": 13344,
+        "BitBake": 7192
+      },
+      "readme_url": "https://github.com/siemens/meta-nodejs/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4b24d43356e0bcadf35c5bee838884a5b5069355",
+      "readme_excerpt": "meta-nodejs =========== OpenEmbedded layer Inherit npm-install build task",
+      "readme_headings": [
+        "Node versions",
+        "Available Packages",
+        "Setting the preferred Node provider",
+        "Building Node Packages",
+        "Resolve build conflicts between `nodejs` and `iojs`",
+        "Node as a dependency",
+        "`npm install` buildable recipes",
+        "`npm` class",
+        "Variables",
+        "`npm-install` class",
+        "Variables"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "meta-nodejs =========== OpenEmbedded layer"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "`npm install` buildable recipes",
+          "excerpt": "Inherit npm-install build task"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3930,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:29:23+00:00"
     },
     "siemens/meta-openembedded": {
       "id": 21092976,
@@ -11410,12 +13279,54 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/siemens/meta-openembedded/blob/master/README",
+      "readme_path": "README",
+      "readme_sha": "204966ac8da9de83bd73451559d2b4b935f97ee2",
+      "readme_excerpt": "Collection of layers for",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Collection of layers for"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 110,
+      "manifest_paths": [
+        {
+          "path": "meta-efl/recipes-efl/webkit/webkit-efl/CMakeLists.txt",
+          "sha": "8071d61f97ac3b8ec75cb458fbd93b53f239462b",
+          "size": 6397,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "meta-oe/recipes-devtools/python/python-pyyaml/setup.py",
+          "sha": "fb6498341948bab71fe247df2ce90d144be688a1",
+          "size": 1936,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "meta-oe/recipes-support/pxaregs/pxaregs-1.14/Makefile",
+          "sha": "00b7d526247c3fae3e714563258109261e6a241e",
+          "size": 15,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:34:01+00:00"
     },
     "siemens/micropython": {
       "id": 130697764,
@@ -11438,12 +13349,84 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 13002084,
+        "Python": 924024,
+        "C++": 582923,
+        "Makefile": 132118,
+        "Assembly": 122184,
+        "Shell": 16169,
+        "Objective-C": 7450,
+        "CMake": 844
+      },
+      "readme_url": "https://github.com/siemens/micropython/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5a62472c38ae58efafb8430f7612fb3c58d02ff6",
+      "readme_excerpt": "The MicroPython project =======================",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "The MicroPython project ======================="
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7645,
+      "manifest_paths": [
+        {
+          "path": "docs/Makefile",
+          "sha": "e9c128e900788686c17f7d852628a9a8a50fa34a",
+          "size": 7281,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "mpy-cross/Makefile",
+          "sha": "c42c2c5abb6d83b188358588bbe9c2745c1bf2d6",
+          "size": 2034,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/embedding/Makefile",
+          "sha": "99f239a7c5af8ad83e32b8dafacc5b5fad3bfc01",
+          "size": 200,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ports/bare-arm/Makefile",
+          "sha": "a515db80e0aa2f496a7048396d5d62cdacad677f",
+          "size": 1007,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ports/cc3200/Makefile",
+          "sha": "81531b1084a2c000b126d7ac95c06e676c4db99b",
+          "size": 1938,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ports/esp32/Makefile",
+          "sha": "39ecced428b96a739f0aa4b9a7f9039c9e022c3f",
+          "size": 24939,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:38:38+00:00"
     },
     "siemens/mkdocs-material": {
       "id": 453130303,
@@ -11466,12 +13449,149 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 358989,
+        "HTML": 284450,
+        "SCSS": 214595,
+        "JavaScript": 22878,
+        "Python": 2681,
+        "Dockerfile": 2504
+      },
+      "readme_url": "https://github.com/siemens/mkdocs-material/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "28f7ae0836c61fa426e101fc4aa3ae1d5b1acc31",
+      "readme_excerpt": "A theme for src=\"https://github.com/squidfunk/mkdocs-material/workflows/build/badge.svg?branch=master\" **It's just Markdown ...** Material for MkDocs can",
+      "readme_headings": [
+        "Features",
+        "Quick start",
+        "Trusted by ...",
+        "... leading organizations",
+        "... and successful Open Source projects",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "A theme for src=\"https://github.com/squidfunk/mkdocs-material/workflows/build/badge.svg?branch=master\""
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Features",
+          "excerpt": "**It's just Markdown ...**"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Quick start",
+          "excerpt": "Material for MkDocs can"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 9274,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "0247b8547ccb9a361ed99847d009b3f31b955333",
+          "size": 2504,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "package.json",
+          "sha": "c835f94ab877b7deac98e6b23e01565c3803fe1e",
+          "size": 3159,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@fortawesome/fontawesome-free",
+            "@mdi/svg",
+            "@primer/octicons",
+            "@types/clipboard",
+            "@types/escape-html",
+            "@types/fuzzaldrin-plus",
+            "@types/html-minifier",
+            "@types/lunr",
+            "@types/node",
+            "@types/resize-observer-browser",
+            "@types/sass",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "array-flat-polyfill",
+            "autoprefixer",
+            "chokidar",
+            "clipboard",
+            "cssnano",
+            "esbuild",
+            "escape-html",
+            "eslint",
+            "eslint-plugin-eslint-comments",
+            "eslint-plugin-import",
+            "eslint-plugin-jsdoc",
+            "eslint-plugin-no-null",
+            "focus-visible",
+            "fuzzaldrin-plus",
+            "github-types",
+            "gitlab",
+            "html-minifier",
+            "lunr",
+            "lunr-languages",
+            "material-design-color",
+            "material-shadows",
+            "npm-check-updates",
+            "npm-run-all",
+            "postcss",
+            "postcss-dir-pseudo-class",
+            "postcss-inline-svg",
+            "postcss-logical",
+            "preact",
+            "resize-observer-polyfill",
+            "rimraf",
+            "rxjs",
+            "sass",
+            "stylelint",
+            "stylelint-config-rational-order",
+            "stylelint-config-recommended",
+            "stylelint-config-standard-scss",
+            "stylelint-scss",
+            "svgo",
+            "tiny-glob",
+            "ts-node",
+            "typescript",
+            "unfetch",
+            "url-polyfill"
+          ]
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "69a4f5302afef75cee83ef2b2b02ee1aa19e2825",
+          "size": 1262,
+          "content_status": "captured",
+          "dependency_hints": [
+            "jinja2",
+            "markdown",
+            "mkdocs",
+            "mkdocs-material-extensions",
+            "pygments",
+            "pymdown-extensions"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "7ea51a86b21360acb2c92881e0c351b4e4cae258",
+          "size": 2681,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:43:15+00:00"
     },
     "siemens/mkdocs-siemens": {
       "id": 453076498,
@@ -11494,12 +13614,42 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/siemens/mkdocs-siemens/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "fb53680dc1c540f0568ab64a40517e73d2c5ffbe",
+      "readme_excerpt": "This is a placeholder package reserved for open-sourcing the Siemens MkDocs theme. For other Siemens Open Source projects, see opensource.siemens.com and github.com/siemens.",
+      "readme_headings": [
+        "Siemens"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Siemens",
+          "excerpt": "This is a placeholder package reserved for open-sourcing the Siemens MkDocs theme. For other Siemens Open Source projects, see opensource.siemens.com and github.com/siemens."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 250,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "0338a48639591ff17b6fbcb187de0bb3a651d697",
+          "size": 448,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:47:49+00:00"
     },
     "siemens/mobydig": {
       "id": 656753679,
@@ -11522,12 +13672,131 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 123108,
+        "Dockerfile": 960,
+        "Shell": 808
+      },
+      "readme_url": "https://github.com/siemens/mobydig/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "40ccbdd31a092044e683a34fdc26db8bd1adc1a0",
+      "readme_excerpt": "Think of mobydig as mobydig can be either",
+      "readme_headings": [
+        "Moby Dig",
+        "Edgeshark Project",
+        "Usage",
+        "Installation",
+        "Components",
+        "Testing",
+        "VSCode Tasks",
+        "Aux Tasks",
+        "Make Targets",
+        "Ouchies (\"Lessons Learnt\")",
+        "Design Patterns",
+        "Contributing",
+        "License and Copyright"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Usage",
+          "excerpt": "Think of mobydig as"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Components",
+          "excerpt": "mobydig can be either"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 9792,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "c7f47614d745cbc3c1a91007c5f754543e9ff929",
+          "size": 4194,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/Masterminds/semver/v3",
+            "github.com/Microsoft/go-winio",
+            "github.com/Microsoft/hcsshim",
+            "github.com/aymanbagabas/go-osc52/v2",
+            "github.com/cenkalti/backoff/v4",
+            "github.com/cespare/xxhash/v2",
+            "github.com/containerd/cgroups/v3",
+            "github.com/containerd/containerd/api",
+            "github.com/containerd/containerd/v2",
+            "github.com/containerd/continuity",
+            "github.com/containerd/errdefs",
+            "github.com/containerd/errdefs/pkg",
+            "github.com/containerd/fifo",
+            "github.com/containerd/log",
+            "github.com/containerd/log/otel",
+            "github.com/containerd/platforms",
+            "github.com/containerd/plugin",
+            "github.com/containerd/ttrpc",
+            "github.com/containerd/typeurl/v2",
+            "github.com/distribution/reference",
+            "github.com/docker/go-connections",
+            "github.com/docker/go-units",
+            "github.com/felixge/httpsnoop",
+            "github.com/gammazero/deque",
+            "github.com/gammazero/workerpool",
+            "github.com/go-logr/logr",
+            "github.com/go-logr/stdr",
+            "github.com/go-task/slim-sprig/v3",
+            "github.com/google/go-cmp",
+            "github.com/google/pprof",
+            "github.com/google/uuid",
+            "github.com/inconshreveable/mousetrap",
+            "github.com/klauspost/compress",
+            "github.com/lucasb-eyer/go-colorful",
+            "github.com/mattn/go-isatty",
+            "github.com/miekg/dns",
+            "github.com/moby/docker-image-spec",
+            "github.com/moby/locker",
+            "github.com/moby/moby/api",
+            "github.com/moby/moby/client",
+            "github.com/moby/sys/mountinfo",
+            "github.com/moby/sys/signal",
+            "github.com/moby/sys/user",
+            "github.com/moby/sys/userns",
+            "github.com/muesli/termenv",
+            "github.com/onsi/ginkgo/v2",
+            "github.com/onsi/gomega",
+            "github.com/opencontainers/go-digest",
+            "github.com/opencontainers/image-spec",
+            "github.com/opencontainers/runtime-spec",
+            "github.com/pkg/errors",
+            "github.com/prometheus-community/pro-bing",
+            "github.com/rivo/uniseg",
+            "github.com/sirupsen/logrus",
+            "github.com/spf13/cobra",
+            "github.com/spf13/pflag",
+            "github.com/thediveo/cpus",
+            "github.com/thediveo/faf",
+            "github.com/thediveo/fdooze",
+            "github.com/thediveo/go-mntinfo"
+          ]
+        },
+        {
+          "path": "deployment/mobydigger/Dockerfile",
+          "sha": "7419e85751eb84648ce76a87b456eeaa363d8b7a",
+          "size": 960,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:52:13+00:00"
     },
     "siemens/modular-application-creator-use-cases": {
       "id": 787889632,
@@ -11552,12 +13821,80 @@
         "motioncontrol-apc-applications"
       ],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 2311228,
+        "C#": 264746,
+        "JavaScript": 154725,
+        "CSS": 52630
+      },
+      "readme_url": "https://github.com/siemens/modular-application-creator-use-cases/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0a30e15f7ce78bb4d5ee02afe5dbf3187d83810b",
+      "readme_excerpt": "We just updated our TIA-Portal installed on Windows",
+      "readme_headings": [
+        "Usecases for the SIMATIC Modular Application Creator **Module Builder**",
+        "🚀 Getting started Documentation",
+        "Prerequisites",
+        "Quickstart",
+        "Triggering Generation from a 3rd Party Application (CLI)",
+        "1. Create a new project",
+        "Command structure",
+        "Placeholders",
+        "Full example",
+        "2. Load, install and configure a module",
+        "Command structure",
+        "Placeholders",
+        "Full example",
+        "Contact us",
+        "📝 License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "🚀 Getting started Documentation",
+          "excerpt": "We just updated our"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "TIA-Portal installed on Windows"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7566,
+      "manifest_paths": [
+        {
+          "path": "MAC_use_cases.sln",
+          "sha": "161d6a5c495ff7344420fde342848ef6c8a82af7",
+          "size": 2034,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "MAC_use_cases.Tests/MAC_use_cases.Tests.csproj",
+          "sha": "da7666c054f6b8280de3ef05254d9b23f7a221b2",
+          "size": 6835,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "MAC_use_cases/MAC_use_cases.csproj",
+          "sha": "4418d4d1e7157b078a9c99589ae887469eab2747",
+          "size": 10239,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:01:01+00:00"
     },
     "siemens/mod_auth_mellon": {
       "id": 195278404,
@@ -11580,12 +13917,84 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 429558,
+        "M4": 3697,
+        "Shell": 2701,
+        "Makefile": 1965,
+        "Emacs Lisp": 76
+      },
+      "readme_url": "https://github.com/siemens/mod_auth_mellon/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4f793371e9be5e96667ecb49fea84e7e9e761dbd",
+      "readme_excerpt": "Require valid-user AuthType \"Mellon\" mod_auth_mellon uses autoconf, and mod_auth_mellon has four dependencies: For reporting security vulnerabilities",
+      "readme_headings": [
+        "mod_auth_mellon",
+        "Dependencies",
+        "Installing mod_auth_mellon",
+        "Configuring mod_auth_mellon",
+        "Global configuration for mod_auth_mellon. This configuration is shared by",
+        "every virtual server and location in this instance of apache.",
+        "MellonCacheSize sets the maximum number of sessions which can be active",
+        "at once. When mod_auth_mellon reaches this limit, it will begin removing",
+        "the least recently used sessions. The server must be restarted before any",
+        "changes to this option takes effect.",
+        "Default: MellonCacheSize 100",
+        "MellonCacheEntrySize sets the maximum size for a single session entry in",
+        "bytes. When mod_auth_mellon reaches this limit, it cannot store any more",
+        "data in the session and will return an error. The minimum entry size is",
+        "65536 bytes, values lower than that will be ignored and the minimum will",
+        "be used.",
+        "Default: MellonCacheEntrySize 196608",
+        "MellonLockFile is the full path to a file used for synchronizing access",
+        "to the session data. The path should only be used by one instance of",
+        "apache at a time. The server must be restarted before any changes to this",
+        "option takes effect.",
+        "Default: MellonLockFile \"/var/run/mod_auth_mellon.lock\"",
+        "MellonPostDirectory is the full path of a directory where POST requests",
+        "are saved during authentication. This directory must writable by the",
+        "Apache user. It should not be writable (or readable) by other users.",
+        "Default: None",
+        "Example: MellonPostDirectory \"/var/cache/mod_auth_mellon_postdata\"",
+        "MellonPostTTL is the delay in seconds before a saved POST request can",
+        "be flushed.",
+        "Default: MellonPostTTL 900 (15 mn)"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "about them.",
+          "excerpt": "Require valid-user AuthType \"Mellon\""
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Installing mod_auth_mellon",
+          "excerpt": "mod_auth_mellon uses autoconf, and"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Dependencies",
+          "excerpt": "mod_auth_mellon has four dependencies:"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Reporting security vulnerabilities",
+          "excerpt": "For reporting security vulnerabilities"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 40642,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:56:37+00:00"
     },
     "siemens/mongoose": {
       "id": 5764706,
@@ -11608,12 +14017,53 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 201749,
+        "Perl": 22596,
+        "C#": 8264,
+        "Python": 7714,
+        "JavaScript": 2980
+      },
+      "readme_url": "https://github.com/siemens/mongoose/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "8d99499d9088f45e1ff8d30af78f46f36710fe6d",
+      "readme_excerpt": "Overview Mongoose is easy",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Overview Mongoose is easy"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1608,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "93b7e432545ea1a37091c137b3c8944de3e5bbf9",
+          "size": 5536,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/Makefile",
+          "sha": "d8a674884ef1af76310dc1e23f75194383e9542e",
+          "size": 290,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:05:13+00:00"
     },
     "siemens/mraa": {
       "id": 92581196,
@@ -11636,12 +14086,88 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 1089448,
+        "C++": 146575,
+        "Python": 74326,
+        "CMake": 72481,
+        "SWIG": 15947,
+        "Shell": 11330,
+        "JavaScript": 8474
+      },
+      "readme_url": "https://github.com/siemens/mraa/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "bb80c57dabb955a28f2590e4462615e1156c37d7",
+      "readme_excerpt": "Eclipse Mraa - Low",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Eclipse Mraa - Low"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6007,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "2b21045c34d42ab80ef8844c5fac851b7c4ad694",
+          "size": 8455,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/CMakeLists.txt",
+          "sha": "0008345253dfea1eb7491f588c0452597a6d8718",
+          "size": 215,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "imraa/CMakeLists.txt",
+          "sha": "de90e9838d2dc6aa2dcbdc581bb6ebf0222c1595",
+          "size": 638,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "jsstub/package.json",
+          "sha": "121261bd9bebed30d2fd0f1acfefd64c890437b5",
+          "size": 764,
+          "content_status": "captured",
+          "dependency_hints": [
+            "expect.js",
+            "grunt",
+            "grunt-mocha-test",
+            "mocha"
+          ]
+        },
+        {
+          "path": "src/CMakeLists.txt",
+          "sha": "6cfb72ebbb48ffa2a8642c8707703c7f60633726",
+          "size": 12173,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/CMakeLists.txt",
+          "sha": "a8444adaa00009ba90a11e6aa9d53daddf41e632",
+          "size": 1997,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:09:26+00:00"
     },
     "siemens/ms-rest-js": {
       "id": 229085681,
@@ -11664,12 +14190,129 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 444597,
+        "HTML": 1815,
+        "JavaScript": 684
+      },
+      "readme_url": "https://github.com/siemens/ms-rest-js/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "197c59287cca50e98fb6ea6fd4a1727c0b3e3538",
+      "readme_excerpt": "You can find an After cloning the repo, You can find an node.js version > 6.x",
+      "readme_headings": [
+        "ms-rest-js",
+        "Requirements",
+        "Installation",
+        "Execution",
+        "node.js",
+        "In the browser",
+        "Architecture Overview",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Architecture Overview",
+          "excerpt": "You can find an"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "After cloning the repo,"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Architecture Overview",
+          "excerpt": "You can find an"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "node.js version > 6.x"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1960,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "f566cd718e373999dd4a2b488a92d355667df6e7",
+          "size": 5855,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@azure/logger-js",
+            "@ts-common/azure-js-dev-tools",
+            "@types/chai",
+            "@types/express",
+            "@types/fetch-mock",
+            "@types/form-data",
+            "@types/glob",
+            "@types/karma",
+            "@types/mocha",
+            "@types/node",
+            "@types/node-fetch",
+            "@types/semver",
+            "@types/sinon",
+            "@types/tough-cookie",
+            "@types/tunnel",
+            "@types/uuid",
+            "@types/webpack",
+            "@types/webpack-dev-middleware",
+            "@types/xml2js",
+            "abort-controller",
+            "abortcontroller-polyfill",
+            "chai",
+            "express",
+            "fetch-mock",
+            "form-data",
+            "glob",
+            "karma",
+            "karma-chai",
+            "karma-chrome-launcher",
+            "karma-firefox-launcher",
+            "karma-mocha",
+            "karma-rollup-preprocessor",
+            "karma-sourcemap-loader",
+            "karma-typescript-es6-transform",
+            "karma-webpack",
+            "mocha",
+            "mocha-chrome",
+            "mocha-junit-reporter",
+            "mocha-multi-reporters",
+            "node-fetch",
+            "npm-run-all",
+            "nyc",
+            "rollup",
+            "rollup-plugin-alias",
+            "rollup-plugin-commonjs",
+            "rollup-plugin-json",
+            "rollup-plugin-multi-entry",
+            "rollup-plugin-node-resolve",
+            "rollup-plugin-resolve",
+            "rollup-plugin-sourcemaps",
+            "rollup-plugin-visualizer",
+            "semver",
+            "shx",
+            "sinon",
+            "terser",
+            "tough-cookie",
+            "ts-loader",
+            "ts-node",
+            "tslib",
+            "tslint"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:13:37+00:00"
     },
     "siemens/mtda": {
       "id": 109827573,
@@ -11696,12 +14339,74 @@
         "test-automation"
       ],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 514824,
+        "JavaScript": 63484,
+        "HTML": 38023,
+        "Shell": 31245,
+        "BitBake": 18298,
+        "CSS": 8421,
+        "Makefile": 559,
+        "Go Template": 168
+      },
+      "readme_url": "https://github.com/siemens/mtda/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "50598ac25f862d7424eb23f06b103917f6bb827e",
+      "readme_excerpt": "Multi-Tenant Device Access (or Installation Usage Configuration Build",
+      "readme_headings": [
+        "Overview",
+        "Badges",
+        "Getting Started",
+        "Development",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Overview",
+          "excerpt": "Multi-Tenant Device Access (or"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "Installation Usage Configuration Build"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1826,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "2bbead2926be51f75f33007abf5910258314f864",
+          "size": 564,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "setup.py",
+          "sha": "b4a4e06c3b93ec120e566018a211dd7b56e9aaa2",
+          "size": 4281,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "b15218aeb1990f08194a35da192765dfc75a3c00",
+          "size": 1038,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:17:49+00:00"
     },
     "siemens/NetArchTest": {
       "id": 236915772,
@@ -11724,12 +14429,90 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 224261
+      },
+      "readme_url": "https://github.com/siemens/NetArchTest/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "dc9424140d1d413c181f82ba9aa76bd7acfff753",
+      "readme_excerpt": "﻿# NetArchTest A fluent // Classes in the",
+      "readme_headings": [
+        "Rationale",
+        "Examples",
+        "Getting started",
+        "Writing rules",
+        "Grouping rules into Policies",
+        "Source code",
+        "Further reading"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "﻿# NetArchTest A fluent"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Examples",
+          "excerpt": "// Classes in the"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5744,
+      "manifest_paths": [
+        {
+          "path": "NetArchTest - all projects.sln",
+          "sha": "4b96287e45a6406a846570cc369738c5335681c3",
+          "size": 4086,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/NetArchTest.SampleLibrary/NetArchTest.SampleLibrary.csproj",
+          "sha": "9f5c4f4abb611103e8d62ab979dda9bfcb5a7fc2",
+          "size": 138,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/NetArchTest.SampleRules/NetArchTest.SampleRules.csproj",
+          "sha": "c37b2603beefd1912e236057e03c2c09e1075024",
+          "size": 385,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/NetArchTest.Rules/NetArchTest.Rules.csproj",
+          "sha": "d4385db5948dff697bd3c2e2750c22348b4b250e",
+          "size": 1544,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/NetArchTest.Rules.UnitTests/NetArchTest.Rules.UnitTests.csproj",
+          "sha": "29e4376cebb2a657fb1095a0c6fe65fa52852f73",
+          "size": 847,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/NetArchTest.TestStructure/NetArchTest.TestStructure.csproj",
+          "sha": "9f5c4f4abb611103e8d62ab979dda9bfcb5a7fc2",
+          "size": 138,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:22:02+00:00"
     },
     "siemens/ngx-datatable": {
       "id": 379906952,
@@ -11752,12 +14535,161 @@
       "open_issues": 20,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 645824,
+        "SCSS": 26138,
+        "HTML": 24592,
+        "JavaScript": 8634,
+        "CSS": 6903,
+        "Shell": 2253,
+        "Python": 793
+      },
+      "readme_url": "https://github.com/siemens/ngx-datatable/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9ba67d0ce0eacf17348635384a8a0c1ef9bb1d5b",
+      "readme_excerpt": "Handle large data sets To use ngx-datatable in",
+      "readme_headings": [
+        "ngx-datatable",
+        "Features",
+        "Installation",
+        "Credits"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": "Features",
+          "excerpt": "Handle large data sets"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "To use ngx-datatable in"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3337,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "e78464aebdd4ffbc43fcf07c0ca159ef23af0056",
+          "size": 3705,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@angular-eslint/builder",
+            "@angular/build",
+            "@angular/cdk",
+            "@angular/cli",
+            "@angular/common",
+            "@angular/compiler",
+            "@angular/compiler-cli",
+            "@angular/core",
+            "@angular/elements",
+            "@angular/forms",
+            "@angular/language-service",
+            "@angular/platform-browser",
+            "@angular/platform-browser-dynamic",
+            "@angular/router",
+            "@axe-core/playwright",
+            "@microsoft/api-extractor",
+            "@playwright/test",
+            "@semantic-release/changelog",
+            "@semantic-release/git",
+            "@siemens/commitlint-config",
+            "@siemens/eslint-config-angular",
+            "@siemens/eslint-plugin-defaultvalue",
+            "@siemens/prettier-config",
+            "@siemens/stylelint-config-scss",
+            "@types/node",
+            "@types/parsimmon",
+            "@vitest/browser-playwright",
+            "@vitest/coverage-v8",
+            "angular-eslint",
+            "axe-html-reporter",
+            "cpy-cli",
+            "eslint",
+            "eslint-plugin-headers",
+            "eslint-plugin-jsdoc",
+            "eslint-plugin-perfectionist",
+            "eslint-plugin-prefer-arrow",
+            "eslint-plugin-tsdoc",
+            "http-server",
+            "ng-packagr",
+            "parsimmon",
+            "prettier",
+            "rxjs",
+            "sass",
+            "semantic-release",
+            "stylelint",
+            "stylelint-scss",
+            "ts-node",
+            "tslib",
+            "typescript",
+            "typescript-eslint",
+            "vitest"
+          ]
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "3fc24b1f9bc50d4a29791faaec7e6f2fe59277ae",
+          "size": 405,
+          "content_status": "captured",
+          "dependency_hints": [
+            "zensical"
+          ]
+        },
+        {
+          "path": "projects/ngx-datatable/package.json",
+          "sha": "dab689eaaf0d0710b70c8fb293e19dd170b19bd3",
+          "size": 831,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@angular/common",
+            "@angular/core",
+            "@angular/platform-browser",
+            "rxjs",
+            "tslib"
+          ]
+        },
+        {
+          "path": "projects/stackblitz/package.json",
+          "sha": "98f54ca76483974d52c17f79d1a9d3b258f53c56",
+          "size": 638,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@angular/build",
+            "@angular/cli",
+            "@angular/common",
+            "@angular/compiler",
+            "@angular/compiler-cli",
+            "@angular/core",
+            "@angular/forms",
+            "@angular/platform-browser",
+            "@angular/router",
+            "@siemens/ngx-datatable",
+            "rxjs",
+            "tslib",
+            "typescript",
+            "zone.js"
+          ]
+        },
+        {
+          "path": "tools/example-routes-builder/package.json",
+          "sha": "275a236528b4f0555d54e6b8878dfbf44d7eab39",
+          "size": 126,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:26:14+00:00"
     },
     "siemens/ngx-datatable-snapshots": {
       "id": 900730435,
@@ -11780,12 +14712,36 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/siemens/ngx-datatable-snapshots/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c865ac4b19c05d761c5cffd3ac381a1cc198864d",
+      "readme_excerpt": "This repository stores snapshots used for visual regression tests of ngx-datatable. Only the git LFS endpoint is actually used. The git repository itself shall remain",
+      "readme_headings": [
+        "ngx-datatable snapshots",
+        "Contributing",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "ngx-datatable snapshots",
+          "excerpt": "This repository stores snapshots used for visual regression tests of ngx-datatable. Only the git LFS endpoint is actually used. The git repository itself shall remain"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 453,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:30:25+00:00"
     },
     "siemens/oauth2-proxy": {
       "id": 313250569,
@@ -11808,12 +14764,131 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 752160,
+        "Makefile": 6386,
+        "Shell": 4051,
+        "Dockerfile": 1106
+      },
+      "readme_url": "https://github.com/siemens/oauth2-proxy/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a60727b78d95aabeae1010d4b65a6b0eb7789a63",
+      "readme_excerpt": "A reverse proxy and 1. Choose how to If you are running",
+      "readme_headings": [
+        "Installation",
+        "Security",
+        "Docs",
+        "Getting Involved",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "A reverse proxy and"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "1. Choose how to"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Security",
+          "excerpt": "If you are running"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3708,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "a47a9ce0e603b11f2668af474dbfdc5ff723928b",
+          "size": 1106,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "go.mod",
+          "sha": "fcacdcc1e518ea16499e3f2ed54afcf604f8d057",
+          "size": 1311,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/Bose/minisentinel",
+            "github.com/alicebob/miniredis/v2",
+            "github.com/bitly/go-simplejson",
+            "github.com/bmizerany/assert",
+            "github.com/coreos/go-oidc",
+            "github.com/dgrijalva/jwt-go",
+            "github.com/frankban/quicktest",
+            "github.com/fsnotify/fsnotify",
+            "github.com/go-redis/redis/v8",
+            "github.com/justinas/alice",
+            "github.com/mbland/hmacauth",
+            "github.com/mitchellh/mapstructure",
+            "github.com/onsi/ginkgo",
+            "github.com/onsi/gomega",
+            "github.com/pierrec/lz4",
+            "github.com/pquerna/cachecontrol",
+            "github.com/spf13/pflag",
+            "github.com/spf13/viper",
+            "github.com/stretchr/testify",
+            "github.com/vmihailenco/msgpack/v4",
+            "github.com/yhat/wsutil",
+            "golang.org/x/crypto",
+            "golang.org/x/net",
+            "golang.org/x/oauth2",
+            "google.golang.org/api",
+            "gopkg.in/natefinch/lumberjack.v2",
+            "gopkg.in/square/go-jose.v2"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "05c85b86d138dbb3e153c88c850524bf49a71832",
+          "size": 3411,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/package.json",
+          "sha": "4893801c9217fa08018ed14f59fb5782856a880d",
+          "size": 742,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@docusaurus/core",
+            "@docusaurus/preset-classic",
+            "@mdx-js/react",
+            "clsx",
+            "react",
+            "react-dom"
+          ]
+        },
+        {
+          "path": "contrib/local-environment/Makefile",
+          "sha": "512e6fab740405c1a6a4cb53df61a5460ab7bbd5",
+          "size": 617,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "contrib/local-environment/kubernetes/Chart.yaml",
+          "sha": "7fafe4fbe6630d14b1d9e3909213feddc28dba9f",
+          "size": 645,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:34:38+00:00"
     },
     "siemens/oclint": {
       "id": 75730882,
@@ -11836,12 +14911,83 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 769065,
+        "Python": 49141,
+        "CMake": 23458,
+        "Shell": 1155,
+        "C": 224
+      },
+      "readme_url": "https://github.com/siemens/oclint/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d2d552f4a522e85c7ad2349e60ed2f9ec8d77b3a",
+      "readme_excerpt": "OCLint is a static code analysis tool for improving quality and reducing defects by inspecting C, C++ and Objective-C code. It looks for potential problems",
+      "readme_headings": [
+        "OCLint - http://oclint.org"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "OCLint - http://oclint.org",
+          "excerpt": "OCLint is a static code analysis tool for improving quality and reducing defects by inspecting C, C++ and Objective-C code. It looks for potential problems"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 932,
+      "manifest_paths": [
+        {
+          "path": "oclint-core/CMakeLists.txt",
+          "sha": "8b61c50c79484f091f1fc941bc9d512677ef8dc8",
+          "size": 306,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "oclint-driver/CMakeLists.txt",
+          "sha": "d1826f15576b6673c2c014ded66eb90d502e00e6",
+          "size": 2765,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "oclint-metrics/CMakeLists.txt",
+          "sha": "e05add6df5235f3ae46fd8a3467659ad0d4c4d97",
+          "size": 392,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "oclint-reporters/CMakeLists.txt",
+          "sha": "638c7c4360665620594a316a3de7fad2e6e8683b",
+          "size": 453,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "oclint-rules/CMakeLists.txt",
+          "sha": "db6e662535f8a7b57f4775eb713684d88375f0ba",
+          "size": 638,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "oclint-core/lib/CMakeLists.txt",
+          "sha": "69ba7bd1badc26892598f39d0e25f88461114dc9",
+          "size": 501,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:38:50+00:00"
     },
     "siemens/omniproperties": {
       "id": 16412336,
@@ -11864,12 +15010,92 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 145876,
+        "GAP": 14981
+      },
+      "readme_url": "https://github.com/siemens/omniproperties/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7a0af6f655f88efd6c6b432154ab83a0dbb8301a",
+      "readme_excerpt": "Copyright Siemens AG, 2014 The following section presents",
+      "readme_headings": [
+        "Omniproperties",
+        "Omniproperties Files",
+        "Property Assignment",
+        "Primitive Types",
+        "Arrays:",
+        "Objects",
+        "Property Defaults",
+        "Concatenation",
+        "Include Statements",
+        "Comments",
+        "The Java Side",
+        "Retrieving Typed Properties",
+        "A Closer Look at Object Creation",
+        "Class Shortcuts",
+        "Validation",
+        "Builders",
+        "Tips and Application Examples",
+        "Syntax Highlighting",
+        "Reading Environment or System Variables",
+        "Logging changes to Properties",
+        "Scoping Properties",
+        "General Purpose Main-Class"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Copyright Siemens AG, 2014"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Tips and Application Examples",
+          "excerpt": "The following section presents"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 10492,
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "ff8cc68e9d452e4f972a53e654c30015ce1670f6",
+          "size": 8474,
+          "content_status": "captured",
+          "dependency_hints": [
+            "antlr",
+            "antlr3-maven-plugin",
+            "build-helper-maven-plugin",
+            "buildnumber-maven-plugin",
+            "commons-lang",
+            "cthul-matchers",
+            "jcommander",
+            "junit",
+            "maven-compiler-plugin",
+            "maven-gpg-plugin",
+            "maven-jar-plugin",
+            "maven-javadoc-plugin",
+            "maven-release-plugin",
+            "maven-source-plugin",
+            "maven-surefire-plugin",
+            "omniproperties",
+            "oss-parent",
+            "oval",
+            "slf4j-api",
+            "slf4j-log4j12"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:43:01+00:00"
     },
     "siemens/onpremise": {
       "id": 317633235,
@@ -11892,12 +15118,96 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 49837,
+        "Python": 31043,
+        "Dockerfile": 4431
+      },
+      "readme_url": "https://github.com/siemens/onpremise/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "13f4f2b893457d10afcae5a451a22af107aa2748",
+      "readme_excerpt": "To get started with Docker 19.03.6+ Compose 2.0.1+",
+      "readme_headings": [
+        "Self-Hosted Sentry nightly",
+        "Requirements",
+        "Setup",
+        "Installation",
+        "Customize DotEnv (.env) file",
+        "Enhance Sentry image",
+        "Tips & Tricks",
+        "Event Retention",
+        "Installing a specific SHA",
+        "Using Linux",
+        "Self-Hosted Monitoring"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "To get started with"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "Docker 19.03.6+ Compose 2.0.1+"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4740,
+      "manifest_paths": [
+        {
+          "path": "clickhouse/Dockerfile",
+          "sha": "4e841c04bbf42a5d1edae1965d2ea399eee6bf83",
+          "size": 34,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cron/Dockerfile",
+          "sha": "c14304eb89addd0dbd28f4dc0ded55bfdea025e8",
+          "size": 430,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "jq/Dockerfile",
+          "sha": "cbaa150061d0f3263b9ab798e37ffeaff1a43eb3",
+          "size": 253,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "sentry/Dockerfile",
+          "sha": "5afe9c2dd86002370958f7b33f101aa61d4743af",
+          "size": 424,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "workstation/postinstall/Dockerfile",
+          "sha": "2176fb101b9311f569e44240841602b126a83012",
+          "size": 1675,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "workstation/preinstall/Dockerfile",
+          "sha": "dff60220f0df4deeda8d5be6bcf145b3dcb953b4",
+          "size": 1615,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:47:14+00:00"
     },
     "siemens/OOASP": {
       "id": 515188934,
@@ -11920,12 +15230,70 @@
       "open_issues": 9,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 85850,
+        "Answer Set Programming": 72712,
+        "Shell": 2194
+      },
+      "readme_url": "https://github.com/siemens/OOASP/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "670fe24d88ce9669a5222327d2e72c3a6fcf917a",
+      "readme_excerpt": "pip install -r requirements.txt pip install -r requirements.txt",
+      "readme_headings": [
+        "OOASP",
+        "Interactive Configuration with ASP",
+        "Installation",
+        "Using `poetry` (Recommended)",
+        "Directly install requirements",
+        "Usage",
+        "UI Usage",
+        "Solver REST API Usage",
+        "Documentation",
+        "Literature",
+        "Research Papers on OOASP",
+        "Research Papers on Interactive Configuration with ASP",
+        "Licensing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Directly install requirements",
+          "excerpt": "pip install -r requirements.txt"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Directly install requirements",
+          "excerpt": "pip install -r requirements.txt"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3777,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "79c7543aeb67bd5c665023482733135a95c75fa9",
+          "size": 1148,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Clorm",
+            "clingraph",
+            "clinguin",
+            "fastapi",
+            "graphviz",
+            "pytest"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:51:25+00:00"
     },
     "siemens/OOCSP": {
       "id": 59981547,
@@ -11948,12 +15316,34 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/siemens/OOCSP/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "621ac8a7675d5dbad8475f852409224c82ff572a",
+      "readme_excerpt": "Copyright Siemens AG, 2016",
+      "readme_headings": [
+        "OOCSP"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Copyright Siemens AG, 2016"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 672,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:55:37+00:00"
     },
     "siemens/opc-ua-pubsub-dotnet": {
       "id": 317521742,
@@ -11976,12 +15366,81 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 661457,
+        "Dockerfile": 1143,
+        "Batchfile": 271
+      },
+      "readme_url": "https://github.com/siemens/opc-ua-pubsub-dotnet/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "bc9b7149ab4b17ccb8e91fa34df2add6ecc5bd19",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "opc-ua-pubsub-dotnet",
+        "Using",
+        "Decoding",
+        "Encoding",
+        "Build",
+        "Contributions",
+        "License"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3821,
+      "manifest_paths": [
+        {
+          "path": "src/_ALL.sln",
+          "sha": "eeb77c2c821df9bfa2b52966608e1ca89cf6d090",
+          "size": 7132,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "build/Docker/Dockerfile",
+          "sha": "1e657bd52dc81dd1ff2467591feaf6b425a63244",
+          "size": 1143,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Binary/Binary.csproj",
+          "sha": "9e405f8e8bc1108a21a47cafdec58431c6a2e418",
+          "size": 2040,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Broker/Broker.csproj",
+          "sha": "c385b0a0407e6c0980a7142a7bfb3592695a8b3a",
+          "size": 1547,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Client/Client.csproj",
+          "sha": "29c047ac072feccdc6ce288c0993692610df8d51",
+          "size": 3361,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Simulation/Simulation.csproj",
+          "sha": "7e46dbce21d03a05c036b5f224fc0e480ee1fa8c",
+          "size": 2275,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:59:38+00:00"
     },
     "siemens/openembedded-core": {
       "id": 21092969,
@@ -12004,12 +15463,61 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/siemens/openembedded-core/blob/master/README",
+      "readme_path": "README",
+      "readme_sha": "665c98f4a0bdee1bd59962b5d02ad76d91d40ab4",
+      "readme_excerpt": "OpenEmbedded-Core ================= OpenEmbedded-Core is",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "OpenEmbedded-Core ================= OpenEmbedded-Core is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 503,
+      "manifest_paths": [
+        {
+          "path": "meta-skeleton/recipes-kernel/hello-mod/files/Makefile",
+          "sha": "4ded35fbc3b42902f734a8d31f071a1550ccf4e6",
+          "size": 292,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "meta/recipes-devtools/quilt/quilt/Makefile",
+          "sha": "7b3ac8a49291ba3e403d56007bd20f501f53ddd1",
+          "size": 345,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "meta/recipes-extended/parted/parted-3.1/Makefile",
+          "sha": "ee90be0814b7e9c11c0ab2529a0fae2ccc583601",
+          "size": 8540,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "meta/recipes-support/libpcre/libpcre/Makefile",
+          "sha": "5419d71f7f4c552268bae449e94cd0eb6cf374f6",
+          "size": 6351,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:03:38+00:00"
     },
     "siemens/openssl": {
       "id": 84912159,
@@ -12032,12 +15540,92 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 33009579,
+        "Perl": 9900995,
+        "C++": 435948,
+        "Assembly": 276512,
+        "Go Template": 210151,
+        "Raku": 204090,
+        "Shell": 174085,
+        "Python": 103293,
+        "M4": 46625,
+        "CMake": 15929,
+        "Pawn": 12357,
+        "eC": 6481,
+        "DIGITAL Command Language": 5687,
+        "Dockerfile": 1668,
+        "Ruby": 1408,
+        "sed": 459
+      },
+      "readme_url": "https://github.com/siemens/openssl/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0bf1bac461f8ba07feb28961bdc359deadc40251",
+      "readme_excerpt": "Welcome to the OpenSSL",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Welcome to the OpenSSL"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 8624,
+      "manifest_paths": [
+        {
+          "path": "demos/Makefile",
+          "sha": "3b411fe05280a7ce88ca1311a7d02fd5f8f3a9d7",
+          "size": 509,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "demos/bio/Makefile",
+          "sha": "5171e75e5981d543c3eb175353e85dfce86e2e14",
+          "size": 726,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "demos/cipher/Makefile",
+          "sha": "cdd7736758f9c861e653bc350a90f2857da38c05",
+          "size": 636,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "demos/cms/Makefile",
+          "sha": "3d4cb90750622effd0ebc18b67345474e5e10fdf",
+          "size": 893,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "demos/digest/Makefile",
+          "sha": "05fb299cc3d62be7cce9a761c2b525a373c6d835",
+          "size": 764,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "demos/encode/Makefile",
+          "sha": "dc556a524a0ce8b94fd85f4650bfbae4dc7f3868",
+          "size": 498,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:07:38+00:00"
     },
     "siemens/packetflix": {
       "id": 656753624,
@@ -12068,12 +15656,138 @@
         "wireshark"
       ],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 99635,
+        "Dockerfile": 7950,
+        "Makefile": 1824,
+        "Shell": 564
+      },
+      "readme_url": "https://github.com/siemens/packetflix/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1ca86fe611097392e9e482d22b1091b8422a1c1b",
+      "readme_excerpt": "We provide multi-architecture Docker",
+      "readme_headings": [
+        "Packetflix",
+        "Edgeshark Project",
+        "Quick Start",
+        "Eye Candy",
+        "Deploying Packetflix",
+        "Building and Deploying From Source",
+        "Packetflix Service Args",
+        "Container Deployment Notes",
+        "Packetflix in a Container",
+        "Put Your Caps On",
+        "Root(h)less",
+        "Packetflix Container and AppArmor",
+        "suppress ptrace denials when using 'docker ps' or using 'ps' inside a container",
+        "Packetflix Container and Seccomp",
+        "Technical Details",
+        "Contributing",
+        "License and Copyright"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Quick Start",
+          "excerpt": "We provide multi-architecture Docker"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 11367,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "2d60a0ac671e34ea5722464d4dee44c77e5b2077",
+          "size": 3915,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/Masterminds/semver/v3",
+            "github.com/Microsoft/go-winio",
+            "github.com/Microsoft/hcsshim",
+            "github.com/cenkalti/backoff/v4",
+            "github.com/cespare/xxhash/v2",
+            "github.com/containerd/cgroups/v3",
+            "github.com/containerd/containerd/api",
+            "github.com/containerd/containerd/v2",
+            "github.com/containerd/continuity",
+            "github.com/containerd/errdefs",
+            "github.com/containerd/errdefs/pkg",
+            "github.com/containerd/fifo",
+            "github.com/containerd/log",
+            "github.com/containerd/log/otel",
+            "github.com/containerd/platforms",
+            "github.com/containerd/plugin",
+            "github.com/containerd/ttrpc",
+            "github.com/containerd/typeurl/v2",
+            "github.com/distribution/reference",
+            "github.com/dustinkirkland/golang-petname",
+            "github.com/felixge/httpsnoop",
+            "github.com/go-logr/logr",
+            "github.com/go-logr/stdr",
+            "github.com/go-task/slim-sprig/v3",
+            "github.com/google/go-cmp",
+            "github.com/google/pprof",
+            "github.com/google/uuid",
+            "github.com/gorilla/websocket",
+            "github.com/inconshreveable/mousetrap",
+            "github.com/klauspost/compress",
+            "github.com/lmittmann/tint",
+            "github.com/moby/locker",
+            "github.com/moby/sys/mountinfo",
+            "github.com/moby/sys/signal",
+            "github.com/moby/sys/user",
+            "github.com/moby/sys/userns",
+            "github.com/onsi/ginkgo/v2",
+            "github.com/onsi/gomega",
+            "github.com/opencontainers/go-digest",
+            "github.com/opencontainers/image-spec",
+            "github.com/opencontainers/runtime-spec",
+            "github.com/pkg/errors",
+            "github.com/siemens/csharg/v2",
+            "github.com/sirupsen/logrus",
+            "github.com/spf13/cobra",
+            "github.com/spf13/pflag",
+            "github.com/thediveo/caps/v2",
+            "github.com/thediveo/clippy",
+            "github.com/thediveo/cpus",
+            "github.com/thediveo/faf",
+            "github.com/thediveo/fdooze",
+            "github.com/thediveo/go-mntinfo",
+            "github.com/thediveo/go-plugger/v3",
+            "github.com/thediveo/ioctl",
+            "github.com/thediveo/lxkns",
+            "github.com/thediveo/nonstd",
+            "github.com/thediveo/procfsroot",
+            "github.com/thediveo/safe",
+            "github.com/thediveo/spacetest",
+            "github.com/thediveo/success"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "b0cff0542bd5caeb2d80ce332f120724f240fc12",
+          "size": 1824,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "deployments/packetflix/Dockerfile",
+          "sha": "edcf7eccf97c9ea57af5a6f3827b4b54f065ac9b",
+          "size": 7950,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:11:37+00:00"
     },
     "siemens/pam_aad": {
       "id": 416428052,
@@ -12096,12 +15810,88 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 15618,
+        "Dockerfile": 5957,
+        "M4": 1850,
+        "Shell": 1150,
+        "Makefile": 1051
+      },
+      "readme_url": "https://github.com/siemens/pam_aad/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4d6ea800415273139b31f4bbede10f1f8311b379",
+      "readme_excerpt": "./bootstrap.sh ./configure --with-pam-dir=/lib/x86_64-linux-gnu/security/ make",
+      "readme_headings": [
+        "pam_aad",
+        "Installation",
+        "Configuration",
+        "Configuration File",
+        "Current Behavior",
+        "See also"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "./bootstrap.sh ./configure --with-pam-dir=/lib/x86_64-linux-gnu/security/ make"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1008,
+      "manifest_paths": [
+        {
+          "path": "test/Makefile",
+          "sha": "8e4f1ba4c083a66065c8690cd202ecf25065e628",
+          "size": 192,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docker/amazon/Dockerfile",
+          "sha": "c0d025e6e111eb63d194f5fb8004baf96d4c819a",
+          "size": 1445,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docker/debian/Dockerfile",
+          "sha": "547cd85bdf264a61585d7ba42073149a712181bc",
+          "size": 1126,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docker/ubuntu/Dockerfile",
+          "sha": "e5f5ce8b4a39a5ccb4f73d285dbd17db17184191",
+          "size": 761,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docker/amazon/2018.03/Dockerfile",
+          "sha": "47819075d47146d1ab580e1d75dc4d84b4f5b25f",
+          "size": 1451,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/docker/amazon/Dockerfile",
+          "sha": "a322b067707174afb73969442b2e0fe6aa6f4074",
+          "size": 277,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:15:38+00:00"
     },
     "siemens/pkcs11-to-cmd": {
       "id": 1098875167,
@@ -12128,12 +15918,70 @@
         "ssh-certificates"
       ],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 41061,
+        "Shell": 28204,
+        "CMake": 942,
+        "Dockerfile": 550
+      },
+      "readme_url": "https://github.com/siemens/pkcs11-to-cmd/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5b9be7eed835db67d607ce796d0a8b0f212741b6",
+      "readme_excerpt": "SPDX-FileCopyrightText: (C) 2025 Siemens You can enable debugging",
+      "readme_headings": [
+        "PKCS11-TO-CMD - Externalize PKCS#11 operations to a CLI",
+        "How to use",
+        "Parameters",
+        "Listing available tokens",
+        "Resigning with RAUC",
+        "How to contribute",
+        "Developing",
+        "Testing",
+        "Troubleshooting",
+        "Understanding the data flow and extending the functionality",
+        "Understanding the data format",
+        "License and Copyright"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "SPDX-FileCopyrightText: (C) 2025 Siemens"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Understanding the data flow and extending the functionality",
+          "excerpt": "You can enable debugging"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7926,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "36d1e2fe7b3c6bbc18dd3f3b8f683f015590c04c",
+          "size": 942,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docker/Dockerfile",
+          "sha": "fc2a2abca4f146b4537f4590fa6dc5d011e88933",
+          "size": 550,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:19:37+00:00"
     },
     "siemens/plantuml": {
       "id": 1076897707,
@@ -12156,12 +16004,109 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 14816737,
+        "JavaScript": 15477,
+        "HTML": 7397,
+        "Shell": 5652,
+        "CSS": 2259,
+        "Dockerfile": 1603
+      },
+      "readme_url": "https://github.com/siemens/plantuml/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a863ab47461ca1d94511dfdbd7ac8e7be85a46a1",
+      "readme_excerpt": "PlantUML is a component Hyperlinks and tooltips Rich Whether you're looking to See Security Policy and",
+      "readme_headings": [
+        "🌱 PlantUML",
+        "ℹ️ About",
+        "🗃️ Supported Diagram Types",
+        "📣 Additional Features",
+        "📖 Learn More",
+        "🛡 Security",
+        "🚀 Getting Started",
+        "⚙️ Building from Source",
+        "🧱 Contributing",
+        "🧑‍🤝‍🧑 Support and Community",
+        "📃 License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "ℹ️ About",
+          "excerpt": "PlantUML is a component"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "📣 Additional Features",
+          "excerpt": "Hyperlinks and tooltips Rich"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "🚀 Getting Started",
+          "excerpt": "Whether you're looking to"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "🛡 Security",
+          "excerpt": "See Security Policy and"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7114,
+      "manifest_paths": [
+        {
+          "path": "build.gradle.kts",
+          "sha": "57936ffa6fe69468cc5774b50e88fb603c369a51",
+          "size": 7004,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Dockerfile",
+          "sha": "0d744cb4e4dadaed06cb78d8a6fb3ba03bd47dc3",
+          "size": 1603,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "plantuml-asl/build.gradle.kts",
+          "sha": "e9fad013f39dc397708a7e5aae499e97f897d39e",
+          "size": 5783,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "plantuml-bsd/build.gradle.kts",
+          "sha": "bf5cf88bbb690dcff085b26110b1b6d4a7580ecd",
+          "size": 4920,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "plantuml-epl/build.gradle.kts",
+          "sha": "1a47bff533127a605535e6e9475743d7ecf28dbc",
+          "size": 5386,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "plantuml-gplv2/build.gradle.kts",
+          "sha": "8f0ce255a3a98cb094d470fb7190495b3d19d8b1",
+          "size": 5752,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:23:26+00:00"
     },
     "siemens/plantuml-server": {
       "id": 1076877233,
@@ -12184,12 +16129,61 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 185687,
+        "JavaScript": 53447,
+        "CSS": 11074,
+        "HTML": 1729,
+        "Shell": 983
+      },
+      "readme_url": "https://github.com/siemens/plantuml-server/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e8112676b0e2c6c97a8436c458c5aace3eff88b2",
+      "readme_excerpt": "jre/jdk 11 or above",
+      "readme_headings": [
+        "PlantUML Server",
+        "Requirements",
+        "Recommendations",
+        "How to run the server",
+        "How to run the server with Docker",
+        "Read-only container",
+        "Change base URL",
+        "How to set PlantUML options",
+        "Alternate: How to build your docker image",
+        "How to generate the war",
+        "Use with reverse-proxy"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "jre/jdk 11 or above"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7364,
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "763c1f51f97a29b28c7bd7c106e610ce3b19c1d3",
+          "size": 646,
+          "content_status": "captured",
+          "dependency_hints": [
+            "plantumlservlet",
+            "plantumlservlet-parent"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:27:15+00:00"
     },
     "siemens/policy_search_bb-alpha": {
       "id": 83678790,
@@ -12212,12 +16206,43 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 49905
+      },
+      "readme_url": "https://github.com/siemens/policy_search_bb-alpha/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "31a1e17421c30ee383fd385d67fbecdc317c8a4a",
+      "readme_excerpt": "1. Insert industrialbenchmark_python in Requires the standard libraries",
+      "readme_headings": [
+        "PolicySearch-bb-alpha",
+        "Prerequisites",
+        "Usage"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Usage",
+          "excerpt": "1. Insert industrialbenchmark_python in"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "Requires the standard libraries"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2519,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:31:03+00:00"
     },
     "siemens/postgres-backup-s3": {
       "id": 394335148,
@@ -12240,12 +16265,64 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:26:10+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 5002,
+        "Dockerfile": 721,
+        "Emacs Lisp": 135
+      },
+      "readme_url": "https://github.com/siemens/postgres-backup-s3/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5f54a6d1d05e1066f0d7a8af6b6db592ec45290b",
+      "readme_excerpt": "This project provides Docker some environment variables renamed",
+      "readme_headings": [
+        "Introduction",
+        "Usage",
+        "Backup",
+        "Backup Metrics",
+        "Restore",
+        "... from latest backup",
+        "... from specific backup",
+        "Development",
+        "Build the image locally",
+        "Run a simple test environment with Docker Compose",
+        "fill out your secrets/params in .env",
+        "Acknowledgements",
+        "Fork goals",
+        "Other changes and features"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "This project provides Docker"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Other changes and features",
+          "excerpt": "some environment variables renamed"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3618,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "a8aa274997da58a155e745e1c39be013a5b01963",
+          "size": 721,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:34:51+00:00"
     },
     "siemens/powergym": {
       "id": 408240083,
@@ -14373,6 +18450,6 @@
   "refresh_in_progress": false,
   "repository_count": 217,
   "retrieved_at": "2026-11-23T20:26:15+00:00",
-  "enrichment_cursor": "siemens/jquery-ui",
-  "last_enrichment_run_at": "2026-11-24T10:05:39+00:00"
+  "enrichment_cursor": "siemens/postgres-backup-s3",
+  "last_enrichment_run_at": "2026-11-24T23:34:51+00:00"
 }

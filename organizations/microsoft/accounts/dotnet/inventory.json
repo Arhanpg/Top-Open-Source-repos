@@ -9602,12 +9602,109 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 26018887,
+        "C": 10967149,
+        "JavaScript": 2640803,
+        "Python": 1011172,
+        "Assembly": 179475,
+        "Shell": 168908,
+        "PowerShell": 159076,
+        "CMake": 86983,
+        "NASL": 35193,
+        "HTML": 35075,
+        "Makefile": 9958,
+        "Batchfile": 9334,
+        "Roff": 3926,
+        "CSS": 2101,
+        "sed": 451,
+        "C#": 41
+      },
+      "readme_url": "https://github.com/dotnet/emscripten/blob/dotnet/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "656e778a1d9368e291395b79ee3eb85e27c426af",
+      "readme_excerpt": "Main project page: <https://emscripten.org> For detailed instructions and",
+      "readme_headings": [
+        "Overview",
+        "Getting Started",
+        "Installation",
+        "Using the compiler",
+        "Contributing",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Main project page: <https://emscripten.org>"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "For detailed instructions and"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3898,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "bf66dcae258fabb9c1172515c85137a3b9f7eec1",
+          "size": 679,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "package.json",
+          "sha": "2af92bb0ab6138438d8a18dc29c029a55309c4ce",
+          "size": 425,
+          "content_status": "captured",
+          "dependency_hints": [
+            "acorn",
+            "acorn-import-phases",
+            "google-closure-compiler",
+            "html-minifier-terser"
+          ]
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "cf36dec16ebf010947ba035e1f273ba344fede1a",
+          "size": 3948,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "eng/hello.csproj",
+          "sha": "89bc9fced111eb858451a51f6ab3a7cc0efdb775",
+          "size": 173,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "third_party/ply/setup.py",
+          "sha": "670cb3cc2d5a5cba97d80d5f015b643048214c92",
+          "size": 1197,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tools/websocket_to_posix_proxy/CMakeLists.txt",
+          "sha": "d2922f62dae0019901309d18b2991f0017476232",
+          "size": 562,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T19:37:54+00:00"
     },
     "dotnet/emsdk": {
       "id": 347148137,
@@ -9630,12 +9727,86 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 163352,
+        "Python": 158786,
+        "PowerShell": 151435,
+        "CMake": 14295,
+        "Batchfile": 3962
+      },
+      "readme_url": "https://github.com/dotnet/emsdk/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c77020fe33286f084f5b17be8f4a829206e2abfd",
+      "readme_excerpt": "Emscripten SDK ============== The To remove the Emscripten Using the emsdk pre-compiled",
+      "readme_headings": [
+        "Downloads / How do I get the latest Emscripten build?",
+        "SDK Concepts",
+        "System Requirements",
+        "Mac OS X",
+        "Linux",
+        "Windows",
+        "Uninstalling the Emscripten SDK",
+        "SDK Maintenance",
+        "How do I work the emsdk utility?",
+        "How do I check the installation status and version of the SDK and tools?",
+        "How do I install a tool/SDK version?",
+        "How do I remove a tool or an SDK?",
+        "How do I check for updates to the Emscripten SDK?",
+        "How do I install an old Emscripten compiler version?",
+        "I want to build from source!",
+        "When working on git branches compiled from source, how do I update to a newer compiler version?",
+        "How do I change the currently active SDK version?",
+        "How do I track the latest Emscripten development with the SDK?",
+        "How do I use my own Emscripten github fork with the SDK?",
+        "How do I use Emscripten SDK with a custom version of python, java, node.js or some other tool?",
+        "My installation fails with \"fatal error: ld terminated with signal 9 [Killed]\"?",
+        "How do I run Emscripten on 32-bit systems or non-x86-64 systems?"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Emscripten SDK ============== The"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Uninstalling the Emscripten SDK",
+          "excerpt": "To remove the Emscripten"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "System Requirements",
+          "excerpt": "Using the emsdk pre-compiled"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 11592,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "94cfdcb0ef80c07b42e400b66b6219b4f61fe0a9",
+          "size": 1531,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "eng/common/internal/Tools.csproj",
+          "sha": "feaa6d20812d8f8c01d782807f6aa747e09fb280",
+          "size": 1579,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T19:42:40+00:00"
     },
     "dotnet/EntityFramework.ApiDocs": {
       "id": 69378996,
@@ -9658,12 +9829,32 @@
       "open_issues": 8,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/dotnet/EntityFramework.ApiDocs/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ed426b37985aac00f9463b38a1f40ebdfcc7e656",
+      "readme_excerpt": "This repository only contains",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "This repository only contains"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 413,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T19:47:29+00:00"
     },
     "dotnet/EntityFramework.Docs": {
       "id": 36473762,
@@ -9692,12 +9883,82 @@
         "orm"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Mermaid": 325,
+        "Batchfile": 89
+      },
+      "readme_url": "https://github.com/dotnet/EntityFramework.Docs/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3037b8163e35b04cb26f1d09901dbd693cdd3121",
+      "readme_excerpt": "This project contains the source for EF Core and EF6 documentation published at Entity Framework documentation. Documentation issues for both EF Core and EF6 should",
+      "readme_headings": [
+        "Entity Framework Docs",
+        "Fixing typos/spelling/grammar/etc",
+        "Making more substantial changes"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Entity Framework Docs",
+          "excerpt": "This project contains the source for EF Core and EF6 documentation published at Entity Framework documentation. Documentation issues for both EF Core and EF6 should"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1622,
+      "manifest_paths": [
+        {
+          "path": "samples/core/Samples.sln",
+          "sha": "ee1f45acbb641a9f1c6958c5acdbdce39ceafeb5",
+          "size": 54999,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/core/Benchmarks/Benchmarks.csproj",
+          "sha": "332203e88d9f322346a2c19c7685fe15b9028340",
+          "size": 475,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/core/CascadeDeletes/CascadeDeletes.csproj",
+          "sha": "b86651369f73099aaf5df50e89a223dd4416cb18",
+          "size": 518,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/core/Cosmos/Cosmos.csproj",
+          "sha": "c91f8f5c767a4c7570e3d5e4de98ed5f698680ee",
+          "size": 286,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/core/DbContextPooling/DbContextPooling.csproj",
+          "sha": "227bf71c17bfab448f31bbac96a48cec3ae3db4a",
+          "size": 326,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/core/GetStarted/EFGetStarted.csproj",
+          "sha": "c62585680f027668bb5351737b47284e15f7fb9b",
+          "size": 617,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T19:52:18+00:00"
     },
     "dotnet/eShop": {
       "id": 706944893,
@@ -9720,12 +9981,105 @@
       "open_issues": 121,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 838680,
+        "CSS": 133362,
+        "HTML": 102684,
+        "JavaScript": 44608,
+        "TypeScript": 7929,
+        "PowerShell": 3563
+      },
+      "readme_url": "https://github.com/dotnet/eShop/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "40951b6add05ceb11db099cd2f985e6d2ee91298",
+      "readme_excerpt": "This version of eShop 1. Install a .NET",
+      "readme_headings": [
+        "eShop Reference Application - \"AdventureWorks\"",
+        "Getting Started",
+        "Prerequisites",
+        "Optional IDE setup",
+        "Running the solution",
+        "From the terminal",
+        "From Visual Studio",
+        "Running tests",
+        "Optional: AI Chatbot with Microsoft Foundry",
+        "Deploy to Azure Container Apps",
+        "Contributing",
+        "Sample data",
+        "eShop on Azure"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "This version of eShop"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "1. Install a .NET"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6687,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "f1214e4517a58700c98f440bdf056e893b5f210a",
+          "size": 534,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@playwright/test",
+            "@types/node",
+            "dotenv"
+          ]
+        },
+        {
+          "path": "src/Basket.API/Basket.API.csproj",
+          "sha": "8b2e983259e25012146334ab170e25fd1a2c4b0c",
+          "size": 817,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Catalog.API/Catalog.API.csproj",
+          "sha": "b8d0908bb5b0a58b424481050e075edf8f9332bc",
+          "size": 2029,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/ClientApp/ClientApp.csproj",
+          "sha": "ae26ac9549a7cdf36e724d3d8504121259fda08b",
+          "size": 6080,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/ClientApp/ClientApp.sln",
+          "sha": "4908745d99897c96eddfc4e6319650ecd761eee5",
+          "size": 1998,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/eShop.AppHost/eShop.AppHost.csproj",
+          "sha": "76a9ce06fefa64d5b9df0631b2f97ccc3fd2765f",
+          "size": 974,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T19:57:05+00:00"
     },
     "dotnet/eShopSupport": {
       "id": 794031785,
@@ -9748,12 +10102,99 @@
       "open_issues": 21,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 4059500,
+        "C#": 305183,
+        "CSS": 207177,
+        "HTML": 129556,
+        "Less": 53867,
+        "Python": 1095,
+        "SCSS": 693
+      },
+      "readme_url": "https://github.com/dotnet/eShopSupport/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "68ca2ba5cb8a6ee9938c08e3c78324017fb8b6e9",
+      "readme_excerpt": "From the Terminal, at A device with an",
+      "readme_headings": [
+        "eShopSupport",
+        "Architecture",
+        "Getting Started",
+        "Prerequisites",
+        "Windows with Visual Studio",
+        "Mac, Linux, & Windows without Visual Studio",
+        "Install Python requirements",
+        "Running the solution",
+        "Contributing",
+        "Sample data"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Install Python requirements",
+          "excerpt": "From the Terminal, at"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "A device with an"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4471,
+      "manifest_paths": [
+        {
+          "path": "eShopSupport.sln",
+          "sha": "46c1adc1a92d8c6bd780e3a48b02cde5ec558a6e",
+          "size": 9376,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "seeddata/DataGenerator/DataGenerator.csproj",
+          "sha": "995784a2096238affa68729a343cb83b5601363a",
+          "size": 1034,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/AppHost/AppHost.csproj",
+          "sha": "7dae6eeded51de92f8064ead51d8e04b1de7e158",
+          "size": 984,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Backend/Backend.csproj",
+          "sha": "444fb65210fb1f02b66fe67659f8784cec057cbb",
+          "size": 912,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/CustomerWebUI/CustomerWebUI.csproj",
+          "sha": "d5f38757cfcbc728185824eaf919226f435986d9",
+          "size": 555,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/DataIngestor/DataIngestor.csproj",
+          "sha": "c9d6913a2a6fd37b893c4e4818d507686da3d48d",
+          "size": 1038,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:01:53+00:00"
     },
     "dotnet/extensions": {
       "id": 30932325,
@@ -9778,12 +10219,94 @@
         "dotnet"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 12864022,
+        "TypeScript": 521952,
+        "PowerShell": 261617,
+        "Shell": 154884,
+        "HTML": 138215,
+        "JavaScript": 84123,
+        "CSS": 67102,
+        "Python": 17004,
+        "CMake": 15442,
+        "Batchfile": 5830,
+        "F#": 4886
+      },
+      "readme_url": "https://github.com/dotnet/extensions/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f545f890fb116a1a961449ab3f60d1f0de565b54",
+      "readme_excerpt": "Security issues and bugs",
+      "readme_headings": [
+        "Enriched Capabilities",
+        "How can I contribute?",
+        "Reporting security issues and security bugs",
+        "Useful Links",
+        ".NET Foundation",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Reporting security issues and security bugs",
+          "excerpt": "Security issues and bugs"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4579,
+      "manifest_paths": [
+        {
+          "path": "src/Shared/Shared.csproj",
+          "sha": "a292b3fac437ead04a9722a23810ed978a2ed284",
+          "size": 2723,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/Shared/Shared.Tests.csproj",
+          "sha": "2b55bc6cb1f07803aa400218d9295b21b4a1c40b",
+          "size": 1005,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "bench/Libraries/Microsoft.AspNetCore.Diagnostics.Middleware.PerformanceTests/Microsoft.AspNetCore.Diagnostics.Middleware.PerformanceTests.csproj",
+          "sha": "06891c252fe7efa655d92f887720599d617e996b",
+          "size": 727,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "bench/Libraries/Microsoft.Extensions.Http.Diagnostics.PerformanceTests/Microsoft.Extensions.Http.Diagnostics.PerformanceTests.csproj",
+          "sha": "4c5e8386e9c4c228c20b8666065157704672bea9",
+          "size": 968,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "bench/Libraries/Microsoft.Extensions.Http.Resilience.PerformanceTests/Microsoft.Extensions.Http.Resilience.PerformanceTests.csproj",
+          "sha": "fc10dbcce77304f9dd9ec45745e3be4618f0af9a",
+          "size": 1015,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "bench/Libraries/Microsoft.Extensions.Resilience.PerformanceTests/Microsoft.Extensions.Resilience.PerformanceTests.csproj",
+          "sha": "a6f614b1cb865a2b1b1ed8c7cf7256341df18ce2",
+          "size": 543,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:06:41+00:00"
     },
     "dotnet/extensions-samples": {
       "id": 614595031,
@@ -9806,12 +10329,89 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "PowerShell": 172596,
+        "Shell": 127781,
+        "C#": 61318,
+        "CMake": 15373,
+        "Batchfile": 3291,
+        "Dockerfile": 657
+      },
+      "readme_url": "https://github.com/dotnet/extensions-samples/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d62d31cae7bb49bd2d9903eb0a38dbd0a353de41",
+      "readme_excerpt": "Security issues and bugs",
+      "readme_headings": [
+        "Enriched Capabilities",
+        "How can I contribute?",
+        "Reporting security issues and security bugs",
+        "Useful Links",
+        ".NET Foundation",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Reporting security issues and security bugs",
+          "excerpt": "Security issues and bugs"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2936,
+      "manifest_paths": [
+        {
+          "path": "Samples.sln",
+          "sha": "bedac0584fd0dd14ca922c6b4b8bf5f38592fc7b",
+          "size": 10794,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "eng/common/internal/Tools.csproj",
+          "sha": "feaa6d20812d8f8c01d782807f6aa747e09fb280",
+          "size": 1579,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Compliance/AuditReports/AuditReports.csproj",
+          "sha": "943a39823ec7502972d5b8030c39d0bc96de9231",
+          "size": 1336,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Diagnostics/ExceptionSummarization/Microsoft.Extensions.ExceptionSummarization.Sample.csproj",
+          "sha": "2b8a486022abadbab30f4e6e36952ca57eb32151",
+          "size": 500,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Diagnostics/ExceptionSummarization/Microsoft.Extensions.ExceptionSummarization.Sample.sln",
+          "sha": "91e4af1f0db4dc7bf39cd4fa4d290f1469ad4ddb",
+          "size": 1053,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Diagnostics/ResourceMonitoring/Dockerfile",
+          "sha": "03a81db50c8879c373d2eed0f5a0ff4135ee2f73",
+          "size": 657,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:11:29+00:00"
     },
     "dotnet/fabricbot-config": {
       "id": 468846284,
@@ -9834,12 +10434,41 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 71188,
+        "PowerShell": 370,
+        "Shell": 370
+      },
+      "readme_url": "https://github.com/dotnet/fabricbot-config/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a90b36e97479d4e8dc98e9da595d9040939c814e",
+      "readme_excerpt": "Several of the dotnet organization repositories use a utility called FabricBot to automate our GitHub issue/PR practices. FabricBot is configured through .github/fabricbot.json files within the",
+      "readme_headings": [
+        ".NET FabricBot Configuration",
+        "Area Pod Configurations",
+        "Generating Area Pod Configurations",
+        "Merging Area Pod Configurations into Affected Repositories"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": ".NET FabricBot Configuration",
+          "excerpt": "Several of the dotnet organization repositories use a utility called FabricBot to automate our GitHub issue/PR practices. FabricBot is configured through .github/fabricbot.json files within the"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2626,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:16:16+00:00"
     },
     "dotnet/features": {
       "id": 63894323,
@@ -9862,12 +10491,79 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 55457
+      },
+      "readme_url": "https://github.com/dotnet/features/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "24f6bf30880096417c6c1971f423aec577f30531",
+      "readme_excerpt": "This repository contains the",
+      "readme_headings": [
+        ".NET Feature Catalog"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": ".NET Feature Catalog",
+          "excerpt": "This repository contains the"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 245,
+      "manifest_paths": [
+        {
+          "path": "client/NETCatalog.App.sln",
+          "sha": "f014ab257743d9f4c81999ef66e0896167da0fae",
+          "size": 31211,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "console/NETCatalog.CLI.sln",
+          "sha": "b3bcf660ba951c44883f5f83284814b75a8749ce",
+          "size": 1113,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "web/NETCatalog.API.sln",
+          "sha": "05cf7ab2fe49a94582c39db7e2dd4c27e01ad9b5",
+          "size": 1113,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "client/NETCatalog.App.Droid/NETCatalog.App.Droid.csproj",
+          "sha": "6b777d72aec19e97f03b2652ffae47dc3f27fb88",
+          "size": 8681,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "client/NETCatalog.App.iOS/NETCatalog.App.iOS.csproj",
+          "sha": "7e1a9eb6cb08e837094e3eb4f1c016bf8c2ba81f",
+          "size": 8775,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "client/NETCatalog.App.UWP/NETCatalog.App.UWP.csproj",
+          "sha": "2b217acb3fdb8338731452e729e3bf8632a64def",
+          "size": 6730,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:21:05+00:00"
     },
     "dotnet/format": {
       "id": 170942990,
@@ -9890,12 +10586,34 @@
       "open_issues": 197,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/dotnet/format/blob/archive/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "32a46ea1cab63a263ac1a5d76b51b975df4f760e",
+      "readme_excerpt": "Going forward, the .NET SDK team is using the dotnet/sdk repository for further development and respond to issues formerly in this repository. For finding the",
+      "readme_headings": [
+        "Repository Consolidation"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Repository Consolidation",
+          "excerpt": "Going forward, the .NET SDK team is using the dotnet/sdk repository for further development and respond to issues formerly in this repository. For finding the"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 398,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:25:52+00:00"
     },
     "dotnet/fsharp": {
       "id": 29048891,
@@ -9927,12 +10645,115 @@
         "visual-studio"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "F#": 45758360,
+        "Rich Text Format": 2831370,
+        "C#": 2756313,
+        "Visual Basic .NET": 1061670,
+        "PowerShell": 318745,
+        "Shell": 177380,
+        "Batchfile": 50761,
+        "HTML": 33268,
+        "BrighterScript": 32448,
+        "GLSL": 18643,
+        "Python": 17004,
+        "CMake": 15510,
+        "OCaml": 6527,
+        "Forth": 4943,
+        "Jupyter Notebook": 4666,
+        "RenderScript": 95
+      },
+      "readme_url": "https://github.com/dotnet/fsharp/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "922bcb9b2a6b0a7c2e7a895b24f34ce1d8ec4da8",
+      "readme_excerpt": "If you're curious about Build from the command",
+      "readme_headings": [
+        "The F# compiler, F# core library, and F# editor tools",
+        "Contributing",
+        "Quickstart on Windows",
+        "Quickstart on Linux or macOS",
+        "Documentation for contributors",
+        "Documentation for F# community",
+        "No contribution is too small",
+        "Per-build NuGet packages",
+        "7.0.40x series",
+        "8.0.10x series",
+        "Branches",
+        "F# language and core library evolution",
+        "License",
+        "Code of Conduct",
+        "Get In Touch",
+        "About F\\#",
+        "Contributors ✨"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "About F\\",
+          "excerpt": "If you're curious about"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Quickstart on Windows",
+          "excerpt": "Build from the command"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7812,
+      "manifest_paths": [
+        {
+          "path": "buildtools/AssemblyCheck/AssemblyCheck.fsproj",
+          "sha": "8023580df5a939cbebe0909d7c049a3ffd388f16",
+          "size": 978,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "buildtools/checkpackages/FSharp.Compiler.Service_notshipped.fsproj",
+          "sha": "8a0874bff6aa015542e55cdfe7aca2baec2ca259",
+          "size": 1241,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "buildtools/checkpackages/FSharp.Core_notshipped.fsproj",
+          "sha": "237ea4a2f2c6a2b3ea959b0be7f26c76bb410b8b",
+          "size": 749,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "buildtools/fslex/fslex.fsproj",
+          "sha": "08f7715163667a8680d335963e295984c2be01ee",
+          "size": 1721,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "buildtools/fsyacc/fsyacc.fsproj",
+          "sha": "42ea6e1bf363995767537221ca08f8d3290766f5",
+          "size": 1733,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "buildtools/Misc/Misc.csproj",
+          "sha": "40263f88eb5a26fda57b9351408a9e274509ef2f",
+          "size": 1762,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:30:42+00:00"
     },
     "dotnet/fxdac": {
       "id": 60377090,
@@ -9955,12 +10776,51 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 12327894
+      },
+      "readme_url": "https://github.com/dotnet/fxdac/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "62b29bddaa1e6e79c9f73e5a555e40d46f3c1f41",
+      "readme_excerpt": "fxdac is a tool",
+      "readme_headings": [
+        "What is fxdac?"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "What is fxdac?",
+          "excerpt": "fxdac is a tool"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 352,
+      "manifest_paths": [
+        {
+          "path": "fxdac/fxdac.sln",
+          "sha": "3fe45f80eef5cb368dae68fbf425f912b084206c",
+          "size": 1519,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "fxdac/fxdac/fxdac.csproj",
+          "sha": "82ed580c669c825f373a749e323a9c7a02400881",
+          "size": 24176,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:35:29+00:00"
     },
     "dotnet/github-actions-issue-to-work-item": {
       "id": 999107662,
@@ -9983,12 +10843,150 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 20466
+      },
+      "readme_url": "https://github.com/dotnet/github-actions-issue-to-work-item/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "282e4881fb4fdc8d6af12d57fc56ac7aefba182a",
+      "readme_excerpt": "Create work item in Azure DevOps when a GitHub Issue is created Update Azure DevOps work item when a GitHub Issue is updated",
+      "readme_headings": [
+        "Sync GitHub issue to Azure DevOps work item",
+        "Outputs",
+        "`id`",
+        "Examples",
+        "Entra ID Service Principal",
+        "Extra permissions needed to login with Entra ID service principal via federated identity",
+        "Personal Access Token"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Sync GitHub issue to Azure DevOps work item",
+          "excerpt": "Create work item in Azure DevOps when a GitHub Issue is created Update Azure DevOps work item when a GitHub Issue is updated"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 8715,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "8ab2bda394fd687aac4b4407552e4a0e3fe7d715",
+          "size": 765,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@actions/core",
+            "@actions/github",
+            "azure-devops-node-api",
+            "showdown"
+          ]
+        },
+        {
+          "path": "node_modules/ansi-regex/package.json",
+          "sha": "66a43e1fbd338f5df70749b7f31e9c4ad144ae11",
+          "size": 800,
+          "content_status": "captured",
+          "dependency_hints": [
+            "ava",
+            "xo"
+          ]
+        },
+        {
+          "path": "node_modules/ansi-styles/package.json",
+          "sha": "7dff20954b8ad911963d0fc571dfedc49bd00fac",
+          "size": 2112,
+          "content_status": "captured",
+          "dependency_hints": [
+            "ava",
+            "babel-polyfill",
+            "color-convert",
+            "svg-term-cli",
+            "xo"
+          ]
+        },
+        {
+          "path": "node_modules/azure-devops-node-api/package.json",
+          "sha": "b60d058663b4f0e3ede3f7c9aedd26334b0118f3",
+          "size": 1324,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/glob",
+            "@types/minimatch",
+            "@types/mocha",
+            "@types/node",
+            "@types/shelljs",
+            "mocha",
+            "nock",
+            "shelljs",
+            "tunnel",
+            "typed-rest-client",
+            "typescript"
+          ]
+        },
+        {
+          "path": "node_modules/before-after-hook/package.json",
+          "sha": "533a3ebee68728ab2d613ba8fef838018dd1a2c4",
+          "size": 2081,
+          "content_status": "captured",
+          "dependency_hints": [
+            "browserify",
+            "gaze-cli",
+            "istanbul",
+            "istanbul-coveralls",
+            "mkdirp",
+            "prettier",
+            "rimraf",
+            "semantic-release",
+            "simple-mock",
+            "tap-min",
+            "tap-spec",
+            "tape",
+            "typescript",
+            "uglify-js"
+          ]
+        },
+        {
+          "path": "node_modules/call-bind-apply-helpers/package.json",
+          "sha": "923b8be2f14c65e78fd75a4fd34aba94fb733274",
+          "size": 2480,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@arethetypeswrong/cli",
+            "@ljharb/eslint-config",
+            "@ljharb/tsconfig",
+            "@types/for-each",
+            "@types/function-bind",
+            "@types/object-inspect",
+            "@types/tape",
+            "auto-changelog",
+            "encoding",
+            "es-errors",
+            "es-value-fixtures",
+            "eslint",
+            "evalmd",
+            "for-each",
+            "function-bind",
+            "has-strict-mode",
+            "in-publish",
+            "npmignore",
+            "nyc",
+            "object-inspect",
+            "safe-publish-latest",
+            "tape",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:40:19+00:00"
     },
     "dotnet/homebrew-dev-proxy": {
       "id": 785106737,
@@ -10021,12 +11019,37 @@
         "rest"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Ruby": 2553
+      },
+      "readme_url": "https://github.com/dotnet/homebrew-dev-proxy/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1541d9e272bc50f3498c43a80e27808046865fa6",
+      "readme_excerpt": "Test the untestable brew",
+      "readme_headings": [
+        "Contributing",
+        "Trademarks"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Test the untestable brew"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1388,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:45:09+00:00"
     },
     "dotnet/hotreload-utils": {
       "id": 335090446,
@@ -10049,12 +11072,85 @@
       "open_issues": 10,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 153423,
+        "PowerShell": 147386,
+        "C#": 60109,
+        "Python": 17004,
+        "CMake": 15510,
+        "Batchfile": 713
+      },
+      "readme_url": "https://github.com/dotnet/hotreload-utils/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f53ca70afacc5a56346b7ef5ff698941df0371db",
+      "readme_excerpt": "Testing utilities for \".NET Hot Reload\".",
+      "readme_headings": [
+        "Hot Reload Utilities #",
+        "What's in here ##"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Hot Reload Utilities",
+          "excerpt": "Testing utilities for \".NET Hot Reload\"."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 998,
+      "manifest_paths": [
+        {
+          "path": "src/Microsoft.DotNet.HotReload.Utils.Generator.BuildTool/Microsoft.DotNet.HotReload.Utils.Generator.BuildTool.csproj",
+          "sha": "91337ff4dc4a040eae2bb8100b70a135a7f5173f",
+          "size": 2052,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.DotNet.HotReload.Utils.Generator.Data/Microsoft.DotNet.HotReload.Utils.Generator.Data.csproj",
+          "sha": "35e3d8428b7cfcc172d63391c605ca228f0e4703",
+          "size": 45,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.DotNet.HotReload.Utils.Generator.Frontend/Microsoft.DotNet.HotReload.Utils.Generator.Frontend.csproj",
+          "sha": "d7b0d005c8ac6b50008d8939c4466555ebdb128b",
+          "size": 210,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.DotNet.HotReload.Utils.Generator.Tasks/Microsoft.DotNet.HotReload.Utils.Generator.Tasks.csproj",
+          "sha": "0d657ca6aa97cff8f315560e6eeb902a0c62ca99",
+          "size": 616,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.DotNet.HotReload.Utils.Generator/Microsoft.DotNet.HotReload.Utils.Generator.csproj",
+          "sha": "9cdcb16066e2be35732924ef1d7476d3635727ea",
+          "size": 1051,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "eng/common/internal/Tools.csproj",
+          "sha": "feaa6d20812d8f8c01d782807f6aa747e09fb280",
+          "size": 1579,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:49:58+00:00"
     },
     "dotnet/HttpRepl": {
       "id": 191466073,
@@ -10077,12 +11173,101 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 819426,
+        "PowerShell": 171533,
+        "Shell": 132165,
+        "CMake": 14853,
+        "Python": 13176,
+        "Batchfile": 639
+      },
+      "readme_url": "https://github.com/dotnet/HttpRepl/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ea9fb6e216d72b8031a4b45b9bfbd5dad259ba21",
+      "readme_excerpt": "HttpRepl ======= To install the HttpRepl, Security issues and bugs",
+      "readme_headings": [
+        "HttpRepl is now deprecated",
+        "Build Status",
+        "Installation",
+        "Usage",
+        "Telemetry",
+        "Building",
+        "Contributing",
+        "Reporting security issues and bugs"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "HttpRepl ======="
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "To install the HttpRepl,"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Reporting security issues and bugs",
+          "excerpt": "Security issues and bugs"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2027,
+      "manifest_paths": [
+        {
+          "path": "HttpRepl.sln",
+          "sha": "9973df2a648cdb3ccb56d78dd1cc79a72131f4c7",
+          "size": 8762,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.HttpRepl.Telemetry/Microsoft.HttpRepl.Telemetry.csproj",
+          "sha": "bfee6e6edee99eecbf6201bae23334598d71e0be",
+          "size": 369,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.HttpRepl/Microsoft.HttpRepl.csproj",
+          "sha": "c4da753c00a851915baf2e029e8d858df4697078",
+          "size": 1819,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.Repl/Microsoft.Repl.csproj",
+          "sha": "dec0039ee2e4521cad808280ac83bae1c26ccbdb",
+          "size": 947,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/Microsoft.HttpRepl.Fakes/Microsoft.HttpRepl.Fakes.csproj",
+          "sha": "772d558eaf1109d7015b0f314adc6b7a5ebed31d",
+          "size": 622,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/Microsoft.HttpRepl.IntegrationTests/Microsoft.HttpRepl.IntegrationTests.csproj",
+          "sha": "98fe8217b569a83ca005addac488fd5bfbef7105",
+          "size": 883,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:54:46+00:00"
     },
     "dotnet/icu": {
       "id": 276446233,
@@ -10105,12 +11290,109 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 25283194,
+        "C": 8757749,
+        "Java": 747543,
+        "Makefile": 368086,
+        "Shell": 239003,
+        "Perl": 164149,
+        "PowerShell": 162730,
+        "Python": 130039,
+        "M4": 67680,
+        "Roff": 63261,
+        "HTML": 43286,
+        "Starlark": 30576,
+        "Batchfile": 16758,
+        "CMake": 14295,
+        "CSS": 7306,
+        "sed": 2228,
+        "Dockerfile": 1391,
+        "XSLT": 1282,
+        "Emacs Lisp": 809
+      },
+      "readme_url": "https://github.com/dotnet/icu/blob/dotnet/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2e337e084ad717f425fb1dd3f2fa8686e502dae4",
+      "readme_excerpt": "This is a fork of https://github.com/microsoft/icu for enabling dotnet on WebAssembly.",
+      "readme_headings": [
+        "ICU (MS-ICU)",
+        "Browser wasm64"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "ICU (MS-ICU)",
+          "excerpt": "This is a fork of https://github.com/microsoft/icu for enabling dotnet on WebAssembly."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1044,
+      "manifest_paths": [
+        {
+          "path": ".devcontainer/Dockerfile",
+          "sha": "b3d7dbc8810825ea281f0beb1a54e61f050ad0ce",
+          "size": 131,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "build/dockerfiles/centos/Dockerfile",
+          "sha": "47bf19c834ae711959e919ea0c6a574dc08c78f9",
+          "size": 594,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "build/dockerfiles/ubuntu-arm64/Dockerfile",
+          "sha": "8366d2d79a16ded5058c08a37e6006d640dca8ee",
+          "size": 666,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "eng/common/internal/Tools.csproj",
+          "sha": "feaa6d20812d8f8c01d782807f6aa747e09fb280",
+          "size": 1579,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "icu/icu4c/source/allinone/allinone.sln",
+          "sha": "48de0977128a34b94723ff59050cb5f63fe840b5",
+          "size": 53370,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "icu/tools/cldr/cldr-to-icu/pom.xml",
+          "sha": "cdc25292b0cf8c4200b1ee2176b8c0cdb1aeac66",
+          "size": 5628,
+          "content_status": "captured",
+          "dependency_hints": [
+            "ant",
+            "cldr-lib",
+            "cldr-to-icu",
+            "exec-maven-plugin",
+            "guava",
+            "icu4j-for-cldr",
+            "maven-assembly-plugin",
+            "maven-compiler-plugin",
+            "truth",
+            "truth-java8-extension"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:59:34+00:00"
     },
     "dotnet/ILMerge": {
       "id": 67747274,
@@ -10133,12 +11415,72 @@
       "open_issues": 52,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 3323169,
+        "PowerShell": 785
+      },
+      "readme_url": "https://github.com/dotnet/ILMerge/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0884d51bc225ce14dc17f6dbe33766a0cd05e07e",
+      "readme_excerpt": "As noted on the",
+      "readme_headings": [
+        "ILMerge",
+        "Installation",
+        "Usage",
+        "MSBuild",
+        "Download/install the package reference",
+        "Run the ILMerge target",
+        "To run `ILMerge` in a batch file:"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "As noted on the"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5905,
+      "manifest_paths": [
+        {
+          "path": "ILMerge.sln",
+          "sha": "c4c460256838b6e0661ebb26772ae42c90d717c9",
+          "size": 2365,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ILMerge.Tests/ILMerge.Tests.csproj",
+          "sha": "d4ac8eaf46103599ed2b6266984abd40c6722f41",
+          "size": 995,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ILMerge/ILMerge.csproj",
+          "sha": "1acd261aac7a667c1d31f7f29c7a99effcd1aeb9",
+          "size": 2706,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "System.Compiler/System.Compiler.csproj",
+          "sha": "c6023c0b67fa056b3ddf6eefc0a8ea23838b5544",
+          "size": 11504,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:04:22+00:00"
     },
     "dotnet/import-comments": {
       "id": 49223992,
@@ -10161,12 +11503,58 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 76346
+      },
+      "readme_url": "https://github.com/dotnet/import-comments/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "60317147d5a9b809c249c04fdf458177193bc1a0",
+      "readme_excerpt": "Tool which imports triple-slash comments into .NET Core Std Lib code",
+      "readme_headings": [
+        "import-comments"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "import-comments",
+          "excerpt": "Tool which imports triple-slash comments into .NET Core Std Lib code"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 87,
+      "manifest_paths": [
+        {
+          "path": "ImportComments.sln",
+          "sha": "d2aa771c329c41f9f7dab2d2b5be06a6833a740b",
+          "size": 1501,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "CommentFormattingTests/CommentFormattingTests.csproj",
+          "sha": "aea108121a22939fb448588373b37f644ca8cccb",
+          "size": 4535,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ImportComments/ImportComments.csproj",
+          "sha": "47ab4f878a92f8fcd79d3094ac782c3f9db19c20",
+          "size": 7857,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:09:11+00:00"
     },
     "dotnet/infer": {
       "id": 148852400,
@@ -10192,12 +11580,96 @@
         "machine-learning"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 22275420,
+        "Python": 94141,
+        "F#": 52801,
+        "MATLAB": 19690,
+        "TSQL": 15456,
+        "Java": 15412,
+        "Shell": 7992,
+        "Batchfile": 2645
+      },
+      "readme_url": "https://github.com/dotnet/infer/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "16a91ccfb36750711e1a4eecde8fa42824d57996",
+      "readme_excerpt": "Binaries for Infer.NET are",
+      "readme_headings": [
+        "Infer&#46;NET",
+        "Contents",
+        "Build Status",
+        "Installing pre-built binaries",
+        "Tutorials and Examples",
+        "Documentation",
+        "Structure of Repository",
+        "Building Infer.NET from its source code",
+        "Contributing",
+        "License",
+        ".NET Foundation"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installing pre-built binaries",
+          "excerpt": "Binaries for Infer.NET are"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 9644,
+      "manifest_paths": [
+        {
+          "path": "Infer.sln",
+          "sha": "61f130148481ac6ac135bbc26c39e60aa3a99e8c",
+          "size": 49079,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Compiler/Compiler.csproj",
+          "sha": "e66228bd4f6e91b51ba049891df40e699cf4c672",
+          "size": 2887,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Csoft/Csoft.csproj",
+          "sha": "8ea64d4840ebbb33fcd0c7557145239f59d0254b",
+          "size": 1130,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/FSharpWrapper/FSharpWrapper.fsproj",
+          "sha": "68c45385e70a1f54c3e1215a9618b73ba45b7975",
+          "size": 958,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Runtime/Runtime.csproj",
+          "sha": "d24b6884f98bc697c1cf0bd2e0258604f5a0906b",
+          "size": 2147,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Tutorials/Tutorials.csproj",
+          "sha": "f55911eeaabee8e1bc184684ae1586303372eee2",
+          "size": 6536,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:14:00+00:00"
     },
     "dotnet/insertions-client": {
       "id": 265273989,
@@ -10220,12 +11692,34 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 171021
+      },
+      "readme_url": "https://github.com/dotnet/insertions-client/blob/archive/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "44c8f7fe87c2e8cc9c8565703bd8b6a7f4706229",
+      "readme_excerpt": "This is the public",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "This is the public"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 423,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:18:47+00:00"
     },
     "dotnet/install-scripts": {
       "id": 265272737,
@@ -10248,12 +11742,61 @@
       "open_issues": 27,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "PowerShell": 187460,
+        "Shell": 144537,
+        "C#": 139716,
+        "Python": 17004,
+        "CMake": 15442,
+        "Batchfile": 854
+      },
+      "readme_url": "https://github.com/dotnet/install-scripts/blob/main/docs/README.md",
+      "readme_path": "docs/README.md",
+      "readme_sha": "5ecd3dd60e6895d8387acc3ce3d84d73a5b547b6",
+      "readme_excerpt": "This repo is the",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "This repo is the"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 832,
+      "manifest_paths": [
+        {
+          "path": "Install-Scripts.sln",
+          "sha": "876891b00faeecd2c91ec4a9d8af474551977b0c",
+          "size": 1147,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/Install-Scripts.Test/Install-Scripts.Test.csproj",
+          "sha": "1b345639514bdf887270cd21b7843a7dd44f6ad9",
+          "size": 965,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "eng/common/internal/Tools.csproj",
+          "sha": "feaa6d20812d8f8c01d782807f6aa747e09fb280",
+          "size": 1579,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:23:23+00:00"
     },
     "dotnet/installer": {
       "id": 104528436,
@@ -10276,12 +11819,34 @@
       "open_issues": 19,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/dotnet/installer/blob/archive/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "32a46ea1cab63a263ac1a5d76b51b975df4f760e",
+      "readme_excerpt": "Going forward, the .NET SDK team is using the dotnet/sdk repository for further development and respond to issues formerly in this repository. For finding the",
+      "readme_headings": [
+        "Repository Consolidation"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Repository Consolidation",
+          "excerpt": "Going forward, the .NET SDK team is using the dotnet/sdk repository for further development and respond to issues formerly in this repository. For finding the"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 398,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:27:59+00:00"
     },
     "dotnet/interactive": {
       "id": 235469871,
@@ -10315,12 +11880,106 @@
         "powershell"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 4139124,
+        "TypeScript": 770780,
+        "F#": 302039,
+        "PowerShell": 218699,
+        "Shell": 128511,
+        "Jupyter Notebook": 39351,
+        "Python": 20294,
+        "R": 18539,
+        "JavaScript": 16299,
+        "CMake": 14054,
+        "Batchfile": 3076,
+        "CSS": 2254,
+        "Dockerfile": 936,
+        "HTML": 208
+      },
+      "readme_url": "https://github.com/dotnet/interactive/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f4f9e54f6a793a4f941f950f8ad398cec03c8a38",
+      "readme_excerpt": ".NET Interactive is an",
+      "readme_headings": [
+        ".NET Interactive and Polyglot Notebooks",
+        "🚨Polyglot Notebooks will be deprecated March 27th, 2026",
+        "🚨.NET Interactive will be deprecated April 24th, 2026",
+        "This repository will be archived on April 24th, 2026",
+        "For more information on Polyglot Notebooks and .NET Interactive, please read the [announcement](https://github.com/dotnet/interactive/issues/4163)",
+        "**The following paths are no longer supported.**",
+        "What is .NET Interactive?",
+        "REPLs",
+        "Small factor devices",
+        "FAQ",
+        "Acknowledgements",
+        "Telemetry",
+        "How to opt out",
+        "Disclosure",
+        "Trademarks"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "What is .NET Interactive?",
+          "excerpt": ".NET Interactive is an"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5577,
+      "manifest_paths": [
+        {
+          "path": "dotnet-interactive.sln",
+          "sha": "c2c1d89a56502efb341e72270a65f8f0dd2714eb",
+          "size": 69157,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".devcontainer/Dockerfile",
+          "sha": "b01830b18c7ee0bc3b18397cf83bb0cd2d4eb06e",
+          "size": 936,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "eng/perf-tests/perf-tests.csproj",
+          "sha": "250cdaea4764c0c380d13389c185ded2256658c1",
+          "size": 446,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/connect-wpf/WpfConnect.csproj",
+          "sha": "a77a55b27203496006081511952367109bc6bcb1",
+          "size": 660,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/connect-wpf/WpfConnect.sln",
+          "sha": "1528a9cb8b12a6038c2b101643b7328e5758d0e5",
+          "size": 1100,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/extensions/SampleExtensions.sln",
+          "sha": "71804dd7856369798828c425b2c9333a73fbde23",
+          "size": 7457,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:32:36+00:00"
     },
     "dotnet/interactive-window": {
       "id": 62252182,
@@ -10349,12 +12008,76 @@
         "visualstudio"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 665753,
+        "PowerShell": 192999,
+        "Shell": 127187,
+        "CMake": 15373,
+        "Batchfile": 892
+      },
+      "readme_url": "https://github.com/dotnet/interactive-window/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0c943e29011d5f45111c0854a198b1963a7059c1",
+      "readme_excerpt": "Implementation of Visual Studio Interactive Window.",
+      "readme_headings": [
+        "Microsoft.VisualStudio.InteractiveWindow"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Microsoft.VisualStudio.InteractiveWindow",
+          "excerpt": "Implementation of Visual Studio Interactive Window."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 321,
+      "manifest_paths": [
+        {
+          "path": "InteractiveWindow.sln",
+          "sha": "8a70d90cbc7a59d0172512d0ad2d26fe03f62151",
+          "size": 4516,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.VisualStudio.InteractiveWindow.Tests/Microsoft.VisualStudio.InteractiveWindow.UnitTests.csproj",
+          "sha": "1148306e96a1195518f707dc6026f08681ec59f4",
+          "size": 1189,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.VisualStudio.InteractiveWindow/Microsoft.VisualStudio.InteractiveWindow.csproj",
+          "sha": "5f5544ebc02e4ca74f7c360cadaebd396d1077e1",
+          "size": 1958,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.VisualStudio.VsInteractiveWindow/Microsoft.VisualStudio.VsInteractiveWindow.csproj",
+          "sha": "d3a237f6446c6a9370ec104184f3ee3e38be0817",
+          "size": 3379,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "eng/common/internal/Tools.csproj",
+          "sha": "feaa6d20812d8f8c01d782807f6aa747e09fb280",
+          "size": 1579,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:37:14+00:00"
     },
     "dotnet/intro-to-dotnet-web-dev": {
       "id": 482952731,
@@ -10385,12 +12108,92 @@
         "static-web-app"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 146371,
+        "HTML": 26237,
+        "CSS": 25266,
+        "JavaScript": 454
+      },
+      "readme_url": "https://github.com/dotnet/intro-to-dotnet-web-dev/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3b4ba711dadfb732a82bc2a2ba7a92bbefda86e1",
+      "readme_excerpt": "Welcome to the Intro to Web Development with .NET GitHub repository! We’re excited to take you along with us as we build awesome projects and",
+      "readme_headings": [
+        "Intro to Web Development with .NET",
+        "Video Introduction",
+        "How-to",
+        "Codespace",
+        "Lessons",
+        "Help Resources",
+        "Documentation",
+        "Beginner Video Series",
+        "How to leave feedback",
+        "Learn More & Connect with us",
+        ".NET Foundation"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Intro to Web Development with .NET",
+          "excerpt": "Welcome to the Intro to Web Development with .NET GitHub repository! We’re excited to take you along with us as we build awesome projects and"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6123,
+      "manifest_paths": [
+        {
+          "path": "5-blazor/0-start/Blazor.ConnectFour.sln",
+          "sha": "31c463c54f0cba7970efb020689cb72c11e0cb22",
+          "size": 1114,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "5-blazor/1-complete/Blazor.ConnectFour.sln",
+          "sha": "31c463c54f0cba7970efb020689cb72c11e0cb22",
+          "size": 1114,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "3-razor-pages/0-start/RazorPagesPizza/RazorPagesPizza.sln",
+          "sha": "876c4daf8669248b4ab0c0a355aae35a9d7fe354",
+          "size": 1133,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "3-razor-pages/1-complete/RazorPagesPizza/RazorPagesPizza.sln",
+          "sha": "876c4daf8669248b4ab0c0a355aae35a9d7fe354",
+          "size": 1133,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "4-minimal-api/0-start/PizzaStore/PizzaStore.csproj",
+          "sha": "a3a34b647cd28604824627d49d45eab8e809c8e1",
+          "size": 211,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "4-minimal-api/1-complete/PizzaStore/PizzaStore.csproj",
+          "sha": "213738b245e1a2667caddab63c1c7f5c37ddd048",
+          "size": 316,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:41:50+00:00"
     },
     "dotnet/iot": {
       "id": 151623607,
@@ -10413,12 +12216,101 @@
       "open_issues": 87,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 9512836,
+        "PowerShell": 177959,
+        "Shell": 128037,
+        "CMake": 21659,
+        "Batchfile": 4543
+      },
+      "readme_url": "https://github.com/dotnet/iot/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f3975d7aa76a8640bde3530430576a2e5d49a68a",
+      "readme_excerpt": "From Visual Studio, you While most of the",
+      "readme_headings": [
+        ".NET IoT Libraries",
+        "Hardware requirements",
+        ".NET Versions",
+        "How to Install",
+        "Nightly Builds",
+        "Azure DevOps Feed (No Authentication Required)",
+        "Add the Azure DevOps nightly feed (no authentication required)",
+        "Install packages",
+        "Official Build Status",
+        "Contributing",
+        "Getting Started",
+        "Tutorials",
+        "Community",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "How to Install",
+          "excerpt": "From Visual Studio, you"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Hardware requirements",
+          "excerpt": "While most of the"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7036,
+      "manifest_paths": [
+        {
+          "path": "samples/samples.sln",
+          "sha": "f271209e3b8745f6488e56c8a6e75f0d15a8bb84",
+          "size": 7382,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/bmp280-sensor-azure-iot-hub/DNSensorAzureIoTHub.csproj",
+          "sha": "fcff43bebb9085de074c8dbabb4039838cd673fc",
+          "size": 604,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/force-sensitive-resistor/force-sensitive-resistor.csproj",
+          "sha": "2385bb431de6c6758099778118bb2d72f3400420",
+          "size": 366,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/led-animate/led-animate.csproj",
+          "sha": "f0a7970a594e427248b15a71a82a5aaaecd9a29b",
+          "size": 366,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/led-blink-multiple/led-blink-multiple.csproj",
+          "sha": "86c91e20f853e841556e5da3dcb330ac77a4beae",
+          "size": 306,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/led-blink/Dockerfile",
+          "sha": "ebb88d9eeb29db7372d6606c15467f5babb62aa8",
+          "size": 354,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:46:26+00:00"
     },
     "dotnet/iot-api-docs": {
       "id": 310101598,
@@ -10441,12 +12333,34 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/dotnet/iot-api-docs/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f5ee4505f266e6c4b4f3bcdd23f6947c108acae0",
+      "readme_excerpt": "This project has adopted the code of conduct defined by the Contributor Covenant to clarify expected behavior in our community. For more information, see the",
+      "readme_headings": [
+        "Microsoft Open Source Code of Conduct"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Microsoft Open Source Code of Conduct",
+          "excerpt": "This project has adopted the code of conduct defined by the Contributor Covenant to clarify expected behavior in our community. For more information, see the"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 281,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:50:49+00:00"
     },
     "dotnet/issue-labeler": {
       "id": 271885874,
@@ -10469,12 +12383,79 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 171716
+      },
+      "readme_url": "https://github.com/dotnet/issue-labeler/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "07c1517c3a29188a8ae031928451f9a5e8f2bae7",
+      "readme_excerpt": "Use machine learning models to automatically label issues and pull requests, all through GitHub workflows.",
+      "readme_headings": [
+        "issue-labeler"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "issue-labeler",
+          "excerpt": "Use machine learning models to automatically label issues and pull requests, all through GitHub workflows."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 262,
+      "manifest_paths": [
+        {
+          "path": "IssueLabeler/IssueLabeler.sln",
+          "sha": "eb2838726457e8015a463a94ace90e731032224f",
+          "size": 5676,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "IssueLabeler/src/Common/Common.csproj",
+          "sha": "e093af27aa93db5821205332d773f97baf822db3",
+          "size": 245,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "IssueLabeler/src/Downloader/Downloader.csproj",
+          "sha": "807496162f6f49d859e4d048d6f9b6c9a98b20e7",
+          "size": 617,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "IssueLabeler/src/GitHubClient/GitHubClient.csproj",
+          "sha": "522c4ddfef5f98776afa4bc67478535ce5d9ece2",
+          "size": 551,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "IssueLabeler/src/Predictor/Predictor.csproj",
+          "sha": "c15109ed249c063f7e001ca83a613bfe4c134cfe",
+          "size": 1015,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "IssueLabeler/src/Tester/Tester.csproj",
+          "sha": "aed9a8b9c875ddd152b44837a0096cd5faab029d",
+          "size": 661,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:55:14+00:00"
     },
     "dotnet/java-interop": {
       "id": 16737979,
@@ -10503,12 +12484,88 @@
         "jni"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 4034896,
+        "Java": 105629,
+        "C": 15529,
+        "C++": 8375,
+        "Makefile": 7162,
+        "Kotlin": 6405,
+        "XSLT": 1395,
+        "CMake": 1058,
+        "Shell": 941
+      },
+      "readme_url": "https://github.com/dotnet/java-interop/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b582b52a9a6ab7060829704c972bdcbc13632456",
+      "readme_excerpt": "**Java.Interop** has been merged into the dotnet/android repository going forward.",
+      "readme_headings": [
+        "Java.Interop",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Java.Interop",
+          "excerpt": "**Java.Interop** has been merged into the dotnet/android repository going forward."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 257,
+      "manifest_paths": [
+        {
+          "path": "Java.Interop.sln",
+          "sha": "4554dfb3a8287d366a613cc671f6c0758fa828f0",
+          "size": 24468,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "d8ede4a321fbe0793b1311339e5fe58c7cd0df34",
+          "size": 4695,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "build-tools/Java.Interop.BootstrapTasks/Java.Interop.BootstrapTasks.csproj",
+          "sha": "f8cd822d43f15873c19ad86b47a4b57ef5cd6b57",
+          "size": 1129,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "build-tools/Java.Interop.BootstrapTasks/Java.Interop.BootstrapTasks.sln",
+          "sha": "272f06ea53649f8783c338a5a6e846df8ed10612",
+          "size": 1719,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "build-tools/jnienv-gen/jnienv-gen.csproj",
+          "sha": "eaa1211466a880d46443a4fa9b87b84238574073",
+          "size": 518,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/Hello-NativeAOTFromJNI/Hello-NativeAOTFromJNI.csproj",
+          "sha": "a428cc4eb52f3f29843439954eb7535dc1aa269d",
+          "size": 2300,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:59:38+00:00"
     },
     "dotnet/JavaApiDocs": {
       "id": 147373947,
@@ -10531,12 +12588,43 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/dotnet/JavaApiDocs/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "cc9330f51076ed61a1b581e58a8e9beb1dc82ccb",
+      "readme_excerpt": "This repository API Docs for Java Components",
+      "readme_headings": [
+        "Java API Docs",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Java API Docs",
+          "excerpt": "This repository API Docs for Java Components"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 247,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "425fe6a8a68a1b3bef7ee50258b771b5b347fbc6",
+          "size": 648,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:04:01+00:00"
     },
     "dotnet/jitutils": {
       "id": 58085226,
@@ -10559,12 +12647,92 @@
       "open_issues": 45,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 1213737,
+        "C++": 55159,
+        "Shell": 24435,
+        "Batchfile": 15202,
+        "Python": 10321,
+        "C": 9368,
+        "CMake": 620
+      },
+      "readme_url": "https://github.com/dotnet/jitutils/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d5689b1bcec3604fd6b7f750f32381a874425114",
+      "readme_excerpt": "Current tools include: 1. 1. Clone the jitutils",
+      "readme_headings": [
+        "Dotnet JIT code gen utilities - jitutils",
+        "Summary",
+        "Getting started"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Summary",
+          "excerpt": "Current tools include: 1."
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting started",
+          "excerpt": "1. Clone the jitutils"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1350,
+      "manifest_paths": [
+        {
+          "path": "jitutils.sln",
+          "sha": "540a09876f8c285784d23cf6946afe62846993e9",
+          "size": 12807,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/AnalyzeAsm/AnalyzeAsm.csproj",
+          "sha": "6a70a1ab389cd50938fce233c53df46756d5f550",
+          "size": 120,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Antigen/Antigen.sln",
+          "sha": "4fe5c9f26f5ad4af4d02431100969d8d1a105ba9",
+          "size": 2774,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/cijobs/cijobs.csproj",
+          "sha": "877734009ddc626ea47b941cf0f402f2c7d4478b",
+          "size": 207,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/coredistools/CMakeLists.txt",
+          "sha": "e3f77e738837abfdf763e88554b922873cca8f55",
+          "size": 620,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/instructions-retired-explorer/instructions-retired-explorer.csproj",
+          "sha": "fc32fc7d3e356d6bf3e48b4a0693b05e71bea81e",
+          "size": 329,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:08:15+00:00"
     },
     "dotnet/JsApiDocs": {
       "id": 139201598,
@@ -10587,12 +12755,34 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/dotnet/JsApiDocs/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "393b7226b83547ee2814a32872f351bc47b2cbf2",
+      "readme_excerpt": "This repo contains documentation for the obsolete @aspnet/signalr package API reference. The current repo is https://github.com/MicrosoftDocs/signalr-script-pr and this repo is no longer used. This project",
+      "readme_headings": [
+        "@microsoft/signalr package API Reference Docs"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "@microsoft/signalr package API Reference Docs",
+          "excerpt": "This repo contains documentation for the obsolete @aspnet/signalr package API reference. The current repo is https://github.com/MicrosoftDocs/signalr-script-pr and this repo is no longer used. This project"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 551,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:12:25+00:00"
     },
     "dotnet/jsinterop": {
       "id": 145001611,
@@ -10615,12 +12805,85 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 192352,
+        "TypeScript": 12382
+      },
+      "readme_url": "https://github.com/dotnet/jsinterop/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9fd4c43d9aca8656f391097bb0c6324549a8cc1a",
+      "readme_excerpt": "The primary use case",
+      "readme_headings": [
+        "jsinterop [ARCHIVED]",
+        "Please go to https://github.com/aspnet/Extensions/tree/master/src/JSInterop to see the latest JSInterop code base and to file issues",
+        "Usage",
+        "How to build and test"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Usage",
+          "excerpt": "The primary use case"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 870,
+      "manifest_paths": [
+        {
+          "path": "Microsoft.JSInterop.sln",
+          "sha": "d646a6b0681c090158f285dfd293ecf0e1390354",
+          "size": 3558,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.JSInterop.JS/Microsoft.JSInterop.JS.csproj",
+          "sha": "4a6ba93ebbfc4453c5adc3da59751088554220bf",
+          "size": 346,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.JSInterop.JS/package.json",
+          "sha": "a84734bc464ba8579ac2c4aacecabc53ff64f0a1",
+          "size": 675,
+          "content_status": "captured",
+          "dependency_hints": [
+            "rimraf"
+          ]
+        },
+        {
+          "path": "src/Microsoft.JSInterop/Microsoft.JSInterop.csproj",
+          "sha": "9f5c4f4abb611103e8d62ab979dda9bfcb5a7fc2",
+          "size": 138,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Mono.WebAssembly.Interop/Mono.WebAssembly.Interop.csproj",
+          "sha": "81f1173b5585c23489e172eeea850c791e654c12",
+          "size": 256,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/Microsoft.JSInterop.Test/Microsoft.JSInterop.Test.csproj",
+          "sha": "893a11d33a8103931b2c11298633de02f62cbb19",
+          "size": 641,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:16:38+00:00"
     },
     "dotnet/Kerberos.NET": {
       "id": 85489138,
@@ -10650,12 +12913,113 @@
         "net"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 3218906
+      },
+      "readme_url": "https://github.com/dotnet/Kerberos.NET/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "45c7610f9b1aa5e33b883f8b4244fec01c1a6fa4",
+      "readme_excerpt": "A library built in There are two ways",
+      "readme_headings": [
+        "Kerberos.NET",
+        ".NET Foundation",
+        "Microsoft Support",
+        "What is it?",
+        "Useful Tools",
+        "Fiddler Extension",
+        "Bruce Commmand Line Tool",
+        "Available tools",
+        "kconfig",
+        "kdecode",
+        "kdestroy",
+        "kinit",
+        "klist",
+        "kping",
+        "ktpass",
+        "whoami",
+        "Verbose Logging",
+        "Cross Platform Support",
+        "Getting Started",
+        "Using the Library",
+        "Using The Kerberos Client",
+        "Using the KDC Server",
+        "Using the Authenticator",
+        "On Updates to the Nuget Packages",
+        ".NET Core",
+        "Creating a Kerberos SPN in Active Directory",
+        "Active Directory Claims",
+        "KeyTable (keytab) File Generation",
+        "AES Support",
+        "Compound Authentication and Flexible Authentication Secure Tunneling Support"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "What is it?",
+          "excerpt": "A library built in"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "There are two ways"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 28091,
+      "manifest_paths": [
+        {
+          "path": "Kerberos.NET.sln",
+          "sha": "fd82338b6cb79bac6aedc921f27c4a27b0eb09bd",
+          "size": 11287,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Bruce/Bruce.csproj",
+          "sha": "ea86f0de9446e846e58844525db25d11360c02ca",
+          "size": 2032,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Fiddler.Kerberos.NET/Fiddler.Kerberos.NET.sln",
+          "sha": "3a59c59dad88357e00f504c8335f139f64220743",
+          "size": 2121,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Kerberos.NET.PortableDns/Kerberos.NET.PortableDns.csproj",
+          "sha": "308a1e7a952eb4bcf133ee17afb6c8d691a927ef",
+          "size": 333,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Kerberos.NET/Kerberos.NET.csproj",
+          "sha": "3b6f8cb119841cd120eaec8f58b8fbfad87b7bec",
+          "size": 2308,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Samples/Samples.sln",
+          "sha": "2e73d95ceb68326d62a155030d9b4b513e37b7be",
+          "size": 6345,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:20:50+00:00"
     },
     "dotnet/letslearndotnet": {
       "id": 362249504,
@@ -10678,12 +13042,35 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/dotnet/letslearndotnet/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b4daac4fa34acbebd413ba2f98cdd9925d7c5777",
+      "readme_excerpt": "This monthly beginner series will walk through the fundamentals of using .NET for building applications. Come learn something new and leave with something that we",
+      "readme_headings": [
+        "Let's Learn .NET",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Let's Learn .NET",
+          "excerpt": "This monthly beginner series will walk through the fundamentals of using .NET for building applications. Come learn something new and leave with something that we"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 734,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:25:01+00:00"
     },
     "dotnet/linker": {
       "id": 72579311,
@@ -10706,12 +13093,41 @@
       "open_issues": 231,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 4715788,
+        "PowerShell": 166978,
+        "Shell": 100716,
+        "CMake": 13334,
+        "C++": 1208,
+        "Batchfile": 955
+      },
+      "readme_url": "https://github.com/dotnet/linker/blob/archive/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e2ebf52b02c936a056dbe2fa4c8ea3629fbf5e5a",
+      "readme_excerpt": "The dotnet linker is now being developed in the dotnet/runtime repo at https://github.com/dotnet/runtime/tree/main/src/tools/illink. Please file issues and make changes in https://github.com/dotnet/runtime instead.",
+      "readme_headings": [
+        "LINKER REPO IS ARCHIVED"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "LINKER REPO IS ARCHIVED",
+          "excerpt": "The dotnet linker is now being developed in the dotnet/runtime repo at https://github.com/dotnet/runtime/tree/main/src/tools/illink. Please file issues and make changes in https://github.com/dotnet/runtime instead."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 244,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:29:13+00:00"
     },
     "dotnet/llilc": {
       "id": 30043131,
@@ -10734,12 +13150,85 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 1340671,
+        "C": 169554,
+        "Python": 77302,
+        "PowerShell": 37623,
+        "CMake": 28243,
+        "Groovy": 4279,
+        "Batchfile": 1591
+      },
+      "readme_url": "https://github.com/dotnet/llilc/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "44b11518f9e9e6959bf747b19fc14b47ecdcf49d",
+      "readme_excerpt": "LLILC was an experimental project to build a .NET compatible JIT from LLVM. It is no longer under active development. For questions or concerns please",
+      "readme_headings": [
+        "LLILC Is Now Archived"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "LLILC Is Now Archived",
+          "excerpt": "LLILC was an experimental project to build a .NET compatible JIT from LLVM. It is no longer under active development. For questions or concerns please"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3234,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "e6b7ef12f2681cc0134805b722516a6bb5b39a60",
+          "size": 21563,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "include/CMakeLists.txt",
+          "sha": "c7ceb9c82bbf13e4c7df3d2b6929787eed16d728",
+          "size": 141,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "lib/CMakeLists.txt",
+          "sha": "717413409d4acc093453cd3e417c4c87dfd6df9f",
+          "size": 172,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/CMakeLists.txt",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tools/CMakeLists.txt",
+          "sha": "e3965e9abe5c293f7fcddfa4c0a6012f9070904e",
+          "size": 25,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "include/clr/CMakeLists.txt",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:33:26+00:00"
     },
     "dotnet/llvm-project": {
       "id": 220257241,
@@ -10762,12 +13251,106 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 267864984,
+        "C": 8670413,
+        "Python": 3405901,
+        "CMake": 2822774,
+        "Assembly": 1886504,
+        "HTML": 1565917,
+        "Shell": 360026,
+        "OCaml": 240059,
+        "PowerShell": 156491,
+        "Awk": 127345,
+        "Perl": 108887,
+        "Jupyter Notebook": 72939,
+        "JavaScript": 72268,
+        "Emacs Lisp": 61150,
+        "CSS": 45278,
+        "NASL": 39835,
+        "Mustache": 38258,
+        "Batchfile": 25862,
+        "Vim Script": 21929,
+        "Roff": 9977,
+        "Makefile": 8489,
+        "Objective-C++": 7993,
+        "Nix": 7135,
+        "Dockerfile": 6163,
+        "Pawn": 2074,
+        "AppleScript": 1429
+      },
+      "readme_url": "https://github.com/dotnet/llvm-project/blob/dotnet/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a9b29ecbc1a3a47d781b3a2a4fbb522eada754d0",
+      "readme_excerpt": "Welcome to the LLVM project! This repository contains the source code for LLVM, a toolkit for the construction of highly optimized compilers, optimizers, and run-time",
+      "readme_headings": [
+        "The LLVM Compiler Infrastructure",
+        "Getting the Source Code and Building LLVM",
+        "Getting in touch"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "The LLVM Compiler Infrastructure",
+          "excerpt": "Welcome to the LLVM project! This repository contains the source code for LLVM, a toolkit for the construction of highly optimized compilers, optimizers, and run-time"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2243,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "2992b81d026e7913843a2702071d48183e297f79",
+          "size": 543,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "clang-tools-extra/CMakeLists.txt",
+          "sha": "87050db4e0e75f3b00467824eeac092429184b8c",
+          "size": 1602,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "clang/CMakeLists.txt",
+          "sha": "89f584c5dceaaf1f1df0c925fde9e15a5f331f76",
+          "size": 37160,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "compiler-rt/CMakeLists.txt",
+          "sha": "d720b86c6df24af529cd0988eb296261f4034499",
+          "size": 41635,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "libc/CMakeLists.txt",
+          "sha": "6ddd75a0a3335ffb327d3385f3123e389023bfbc",
+          "size": 17555,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "libcxx/CMakeLists.txt",
+          "sha": "31aaf2977a9af235e3d479b4bc18b03a5a906817",
+          "size": 44802,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:37:39+00:00"
     },
     "dotnet/LLVMSharp": {
       "id": 30781424,
@@ -10794,12 +13377,94 @@
         "llvm-bindings"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 1302260,
+        "C++": 32056,
+        "Shell": 21888,
+        "C": 15612,
+        "PowerShell": 11219,
+        "CMake": 3674,
+        "Batchfile": 664
+      },
+      "readme_url": "https://github.com/dotnet/LLVMSharp/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "889339572a92b0a8930575743ed6f9b7f608b174",
+      "readme_excerpt": "Auto-generated using LLVM C",
+      "readme_headings": [
+        "LLVMSharp",
+        "Table of Contents",
+        "Code of Conduct",
+        "License",
+        "Features",
+        "Building LLVMSharp",
+        "Regenerating native binaries",
+        "lift the prebuilt libLLVM (win-* on Windows)",
+        "lift the prebuilt libLLVM (linux-*/osx-* on the matching runner)",
+        "compile libLLVMSharp against the matching LLVM release"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": "Features",
+          "excerpt": "Auto-generated using LLVM C"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5340,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "aa25c0ed868b383d5f4182eb8efd72e1b54eff5f",
+          "size": 399,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "sources/CMakeLists.txt",
+          "sha": "e24c8f371e54cb4a7a25a6e5f8a67422c0c99a79",
+          "size": 31,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "sources/libLLVMSharp/CMakeLists.txt",
+          "sha": "ed3a47df26896e51fcfa1232fb5c51c26449db47",
+          "size": 3244,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "sources/LLVMSharp.Interop/LLVMSharp.Interop.csproj",
+          "sha": "8bbe2b1c8cc71a4fb8ba7ffcccfdbb6bdf89bf64",
+          "size": 2149,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "sources/LLVMSharp/LLVMSharp.csproj",
+          "sha": "52b55f2dc38284862e6d70bec4a8ac05ba53a102",
+          "size": 833,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/LLVMSharp.KaleidoscopeTests/LLVMSharp.KaleidoscopeTests.csproj",
+          "sha": "8f9c0827f3a12c278a7d9763effe393ad70c7101",
+          "size": 977,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:41:50+00:00"
     },
     "dotnet/lz4": {
       "id": 927954807,
@@ -10822,12 +13487,90 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 1004320,
+        "Makefile": 63166,
+        "C++": 54765,
+        "Python": 42431,
+        "Shell": 23541,
+        "Meson": 20288,
+        "CMake": 16615,
+        "Roff": 10666,
+        "Batchfile": 7298,
+        "Dockerfile": 644
+      },
+      "readme_url": "https://github.com/dotnet/lz4/blob/dev/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5805a69d777532069d79683e4991bff8dec251f0",
+      "readme_excerpt": "LZ4 - Extremely fast",
+      "readme_headings": [
+        "Building LZ4 - Using vcpkg",
+        "Packaging status",
+        "Special Thanks"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "LZ4 - Extremely fast"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4972,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "e2ac923c83afdc39d419619434a7779a769a01b0",
+          "size": 8352,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/Makefile",
+          "sha": "61255f077ab0ad4e2bbfec17be75aecce627b243",
+          "size": 3305,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "lib/Makefile",
+          "sha": "f460ac7d98e9c480eccd4cdec2438fd959dce933",
+          "size": 9398,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ossfuzz/Makefile",
+          "sha": "deb2938a0d0d8749feb32f0fa5a839f25811b609",
+          "size": 2720,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "programs/Makefile",
+          "sha": "5af1c30ba89ce0342efe324457c08b6e12753153",
+          "size": 7873,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/Makefile",
+          "sha": "b377c8856c8d419a1c5f111f586b8cfbd20b4cae",
+          "size": 12755,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:46:02+00:00"
     },
     "dotnet/machinelearning": {
       "id": 132021166,
@@ -10855,12 +13598,105 @@
         "ml"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 23605610,
+        "C++": 304517,
+        "Shell": 166180,
+        "PowerShell": 163819,
+        "CMake": 35556,
+        "Python": 17130,
+        "C": 16924,
+        "Batchfile": 9411,
+        "F#": 8480,
+        "Assembly": 1852
+      },
+      "readme_url": "https://github.com/dotnet/machinelearning/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4a46c7bd70589bccaf30166c29bd57ade950f8ef",
+      "readme_excerpt": "Learn more about the ML.NET runs on Windows,",
+      "readme_headings": [
+        "Machine Learning for .NET",
+        "Getting started with machine learning and ML.NET",
+        "Roadmap",
+        "Operating systems and processor architectures supported by ML.NET",
+        "ML.NET NuGet packages status",
+        "Release notes",
+        "Using ML.NET packages",
+        "Building ML.NET (For contributors building ML.NET open source code)",
+        "Release process and versioning",
+        "Contributing",
+        "Code examples",
+        "License",
+        ".NET Foundation"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting started with machine learning and ML.NET",
+          "excerpt": "Learn more about the"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Operating systems and processor architectures supported by ML.NET",
+          "excerpt": "ML.NET runs on Windows,"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6393,
+      "manifest_paths": [
+        {
+          "path": "Microsoft.ML.sln",
+          "sha": "d50c185ca2056ba790ce365565c0be79a660c1e5",
+          "size": 78117,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.Data.Analysis/Microsoft.Data.Analysis.csproj",
+          "sha": "4dfd4dedcc23d77b610bc71d38ca7d8ca9248050",
+          "size": 9253,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.Extensions.ML/Microsoft.Extensions.ML.csproj",
+          "sha": "c38263d75a8696ac15081bcdf52c590e9aa1c8b1",
+          "size": 731,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.ML.AutoML/Microsoft.ML.AutoML.csproj",
+          "sha": "64c6eced895115a155133aa8b24331ed7ac2590e",
+          "size": 3469,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.ML.CodeGenerator/Microsoft.ML.CodeGenerator.csproj",
+          "sha": "31fd2e4b9b0d8a2bdfacbc4bdb66ee11fd5177ac",
+          "size": 5775,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.ML.Console/Microsoft.ML.Console.csproj",
+          "sha": "056fb1e7528d7f6d5cb11568f47b9d2c818f0a5f",
+          "size": 2493,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:50:15+00:00"
     },
     "dotnet/machinelearning-modelbuilder": {
       "id": 186917455,
@@ -10883,12 +13719,68 @@
       "open_issues": 478,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Dockerfile": 221
+      },
+      "readme_url": "https://github.com/dotnet/machinelearning-modelbuilder/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "22dd486cda326480b9b15fb623e3b3e8ded67c53",
+      "readme_excerpt": "Visual Studio 2022 or ML.NET Model Builder Extension",
+      "readme_headings": [
+        "Model Builder",
+        "Installation",
+        "Prerequisites",
+        "Limitations",
+        "How can I contribute?",
+        "Legal Notices"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "Visual Studio 2022 or"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Limitations",
+          "excerpt": "ML.NET Model Builder Extension"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3323,
+      "manifest_paths": [
+        {
+          "path": "Dockerfiles/mlnetcli/Dockerfile",
+          "sha": "c722bb0f7f7e1e7abca15e2e81c35e47613dc4df",
+          "size": 117,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Dockerfiles/onedal/Dockerfile",
+          "sha": "468abee1e897f147f974b0e5fa8fe703365855b1",
+          "size": 67,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Dockerfiles/slim/Dockerfile",
+          "sha": "50e8b158bec133753a74b7d5407987a4e70d27f5",
+          "size": 37,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:54:25+00:00"
     },
     "dotnet/machinelearning-public-datasets": {
       "id": 204076316,
@@ -10911,12 +13803,26 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "unavailable",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": null,
+      "readme_path": null,
+      "readme_sha": null,
+      "readme_excerpt": "",
+      "readme_headings": [],
+      "readme_sections": [],
+      "readme_unavailable_reason": "GitHub returned 404 for a README",
+      "readme_truncated": false,
+      "readme_bytes": 0,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:58:25+00:00"
     },
     "dotnet/machinelearning-samples": {
       "id": 134892705,
@@ -10945,12 +13851,89 @@
         "ml"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "PowerShell": 51
+      },
+      "readme_url": "https://github.com/dotnet/machinelearning-samples/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b5c97ee446bc249c78f9a744c35fcba7e7bfd6d5",
+      "readme_excerpt": "In this GitHub repo, we provide samples which will help you get started with ML.NET and how to infuse ML into existing and new .NET",
+      "readme_headings": [
+        "ML.NET Samples",
+        "Automate ML.NET models generation (Preview state)",
+        "CLI samples: (Preview state)",
+        "AutoML API samples: (Preview state)",
+        "Additional ML.NET Community Samples",
+        "Translations of Samples:",
+        "Learn more",
+        "API reference",
+        "Contributing",
+        "Community",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "ML.NET Samples",
+          "excerpt": "In this GitHub repo, we provide samples which will help you get started with ML.NET and how to infuse ML into existing and new .NET"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 18532,
+      "manifest_paths": [
+        {
+          "path": "samples/csharp/All-Samples.sln",
+          "sha": "8df8e2e8aae3fae004097e062bcf658500e4ddf4",
+          "size": 51237,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/fsharp/AutoML-Preview-0.15.1-All-Samples.sln",
+          "sha": "70f2870d0adccd768ddc9c6c5cfa485fa0538cce",
+          "size": 3827,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/fsharp/v1.3.1-All-Samples.sln",
+          "sha": "0dc7c09f295078b3496d94d37476947a6422f2c1",
+          "size": 21866,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/modelbuilder/BinaryClassification_Sentiment_Razor/SentimentRazor.sln",
+          "sha": "7cdf00565209cd4bc67da015261b924193709494",
+          "size": 2158,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/modelbuilder/ImageClassification_Azure_LandUse/LandUse.sln",
+          "sha": "5e5faed1a09f485d03cce51cc7b0dc036f9198b2",
+          "size": 2083,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/modelbuilder/MatrixFactorization_MovieRecommendation/MovieRecommendation_ModelBuilder.sln",
+          "sha": "3052f8fb0f725acccecc2c2bdadd8c6a09690500",
+          "size": 2213,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:02:27+00:00"
     },
     "dotnet/machinelearning-testdata": {
       "id": 146017489,
@@ -10973,12 +13956,39 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 11262
+      },
+      "readme_url": "https://github.com/dotnet/machinelearning-testdata/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0f53351e7efc6104dcba9a3e146604ca6aa1c21a",
+      "readme_excerpt": "This repository has been archived and is no longer used. This repository stores binary data that is consumed by tests in the dotnet/machinelearning repository. MICROSOFT",
+      "readme_headings": [
+        "machinelearning-testdata",
+        "MNIST",
+        "CIFAR-10",
+        "SqueezeNet"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "machinelearning-testdata",
+          "excerpt": "This repository has been archived and is no longer used. This repository stores binary data that is consumed by tests in the dotnet/machinelearning repository. MICROSOFT"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1308,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:06:25+00:00"
     },
     "dotnet/macios": {
       "id": 56710511,
@@ -11009,12 +14019,101 @@
         "xamarin"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 39849281,
+        "C": 14110784,
+        "C++": 1720741,
+        "PowerShell": 476619,
+        "Shell": 339586,
+        "Makefile": 249943,
+        "Objective-C": 219720,
+        "M": 32289,
+        "Assembly": 19186,
+        "Python": 17130,
+        "CMake": 14295,
+        "Visual Basic .NET": 13203,
+        "Swift": 11484,
+        "F#": 9949,
+        "JavaScript": 5673,
+        "XSLT": 4192,
+        "CSS": 1589,
+        "Metal": 1491,
+        "Pawn": 751,
+        "Batchfile": 713,
+        "HTML": 293,
+        "IL Assembly": 202,
+        "Limbo": 103
+      },
+      "readme_url": "https://github.com/dotnet/macios/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6ee9d03482fd66836233c3efc9626e511399004b",
+      "readme_excerpt": "",
+      "readme_headings": [
+        ".NET for iOS, Mac Catalyst, macOS, tvOS #",
+        "Welcome!",
+        "Support",
+        "Contributing",
+        "Downloads",
+        "Feedback",
+        "License"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4162,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "9456658a829daee06a9680be8e27caf01f161aaa",
+          "size": 2839,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "builds/Makefile",
+          "sha": "35d70c0100733ecc6134aa3bf921cd6f7e7e710f",
+          "size": 8109,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "dotnet/Makefile",
+          "sha": "2642cdb0ca63ab6a8225aee855d98f503a10cce9",
+          "size": 34246,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "msbuild/Makefile",
+          "sha": "6310a92d1aa7677c6495fce78c3b7188422daeba",
+          "size": 7491,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "runtime/bindings-generator.csproj",
+          "sha": "d2b274015314fb885098e7e95d3508b783f71280",
+          "size": 456,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "runtime/Makefile",
+          "sha": "3b1d247c01bda7adc7b8ed55b67cb39b376198fd",
+          "size": 12108,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:10:26+00:00"
     },
     "dotnet/macios-devtools": {
       "id": 56519170,
@@ -11041,12 +14140,89 @@
         "xamarin"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 740400,
+        "PowerShell": 186070,
+        "Shell": 148021,
+        "Python": 17004,
+        "CMake": 15442,
+        "Makefile": 1380,
+        "Batchfile": 713
+      },
+      "readme_url": "https://github.com/dotnet/macios-devtools/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "001097ed8d0708b37a80f89e34cb56a39fbcc965",
+      "readme_excerpt": "**Remembered devices are included.** Requires macOS with Xcode",
+      "readme_headings": [
+        "Xamarin.MacDev",
+        "Welcome!",
+        "Physical device discovery",
+        "What is returned",
+        "Requirements and behavior",
+        "Testing code that uses the service",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "What is returned",
+          "excerpt": "**Remembered devices are included.**"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements and behavior",
+          "excerpt": "Requires macOS with Xcode"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 10452,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "ec6a519c1526450c68f459bded9df229380e60b2",
+          "size": 388,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Xamarin.MacDev.sln",
+          "sha": "617a8f6c4e72bd47ee6eae0d702bb5527c6472a0",
+          "size": 1278,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/tests.csproj",
+          "sha": "4787990ed5c212b7ae6dcde385600631d21cbd8a",
+          "size": 2228,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Xamarin.MacDev/Xamarin.MacDev.csproj",
+          "sha": "3e021d77f5b5583c81c85db9b2de98cbb4db0a42",
+          "size": 1881,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "eng/common/internal/Tools.csproj",
+          "sha": "feaa6d20812d8f8c01d782807f6aa747e09fb280",
+          "size": 1579,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:14:26+00:00"
     },
     "dotnet/macios-samples": {
       "id": 880287513,
@@ -11069,12 +14245,86 @@
       "open_issues": 7,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 49060
+      },
+      "readme_url": "https://github.com/dotnet/macios-samples/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6b93296954f274e13502ff2b44b92d6c3eca0301",
+      "readme_excerpt": "The samples target .NET",
+      "readme_headings": [
+        ".NET for iOS, tvOS, macOS and Mac Catalyst samples",
+        "Prerequisites",
+        "Galleries",
+        "Sample Requirements",
+        "Tips for .NET Migration",
+        "Porting to .NET",
+        "License",
+        "Trademarks"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "The samples target .NET"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7667,
+      "manifest_paths": [
+        {
+          "path": "AlternateAppIcons/iOS/AlternateAppIcons.csproj",
+          "sha": "432d139cb4e77b6b33f53c8ee6483a870de90f8b",
+          "size": 680,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "AlternateAppIcons/tvOS/AlternateAppIcons.csproj",
+          "sha": "3054abefd3a18b7e734b85548c333f0861a932e9",
+          "size": 704,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ComposerIcons/iOS/ComposerIcons.csproj",
+          "sha": "ab3962928e4ca5d5e0561008d247b65c2eafd25a",
+          "size": 633,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ComposerIcons/MacCatalyst/ComposerIcons.csproj",
+          "sha": "9e6b0fa9abe662b213f6426cf6addf299c52cfe5",
+          "size": 641,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ComposerIcons/macOS/ComposerIcons.csproj",
+          "sha": "b31504d7730ac72a70615d7ef105ffb98ff8f8e5",
+          "size": 635,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ComposerIcons/tvOS/ComposerIcons.csproj",
+          "sha": "4f8f1a934278e7c03d71795b0af5c3a368fdfa5f",
+          "size": 634,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:18:26+00:00"
     },
     "dotnet/maintenance-packages": {
       "id": 555087067,
@@ -11097,12 +14347,106 @@
       "open_issues": 19,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 10582949,
+        "1C Enterprise": 280724,
+        "PowerShell": 196990,
+        "Shell": 151085,
+        "TSQL": 96941,
+        "IL Assembly": 25340,
+        "Python": 17004,
+        "CMake": 15442,
+        "Batchfile": 1812
+      },
+      "readme_url": "https://github.com/dotnet/maintenance-packages/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f540c0363fcd5ca0e2d9c416b446bc19d421e620",
+      "readme_excerpt": "This repo contains packages This repo follows the",
+      "readme_headings": [
+        "Maintenance Packages",
+        "Description",
+        "Build status",
+        "NuGet packages",
+        "Package support policy",
+        "How do I know if a particular package belongs on this repo?",
+        "How to migrate a library",
+        "How to service a library",
+        "How to reset a library after servicing",
+        "Example",
+        "Contribution bar",
+        "Deployment",
+        "Produce the stable package versions",
+        "Push the packages to NuGet",
+        "Create the release notes"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Description",
+          "excerpt": "This repo contains packages"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Package support policy",
+          "excerpt": "This repo follows the"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 15877,
+      "manifest_paths": [
+        {
+          "path": "MaintenancePackages.sln",
+          "sha": "434cf60bc855b0ac6e16fa08f1ef51efeb9d8399",
+          "size": 30015,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "eng/common/internal/Tools.csproj",
+          "sha": "feaa6d20812d8f8c01d782807f6aa747e09fb280",
+          "size": 1579,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.Bcl.HashCode/src/Microsoft.Bcl.HashCode.csproj",
+          "sha": "df8a164bbaece02887f23b59c8d1bf493e9a51d6",
+          "size": 1303,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.Bcl.HashCode/tests/Microsoft.Bcl.HashCode.Tests.csproj",
+          "sha": "eeb98acc6b673a08fac06f8f80ea35564dbf17b1",
+          "size": 396,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Microsoft.IO.Redist/src/Microsoft.IO.Redist.csproj",
+          "sha": "9a8bd79248f87ed20624b16539c66af42343f79f",
+          "size": 1005,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/System.Buffers/src/System.Buffers.csproj",
+          "sha": "83002a815d646fbe9ecf4b35c6d59e71a13cb03f",
+          "size": 1191,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:22:14+00:00"
     },
     "dotnet/maui": {
       "id": 262395224,
@@ -11139,12 +14483,100 @@
         "winui3"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 36999685,
+        "PowerShell": 544173,
+        "Shell": 226092,
+        "Python": 111398,
+        "HTML": 100600,
+        "Java": 96071,
+        "CSS": 24983,
+        "Batchfile": 24219,
+        "CMake": 15510,
+        "JavaScript": 15141,
+        "TypeScript": 12388,
+        "Swift": 5119
+      },
+      "readme_url": "https://github.com/dotnet/maui/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3471deed28e81b8ff2c7a77a1e403d3d77137a3a",
+      "readme_excerpt": ".NET Multi-platform App UI Install .NET MAUI .NET",
+      "readme_headings": [
+        ".NET Multi-platform App UI (.NET MAUI)",
+        "Getting Started ##",
+        "Overview",
+        "Current News",
+        "FAQs",
+        "How to Engage, Contribute, and Give Feedback"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Overview",
+          "excerpt": ".NET Multi-platform App UI"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "Install .NET MAUI .NET"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3881,
+      "manifest_paths": [
+        {
+          "path": "Microsoft.Maui-dev.sln",
+          "sha": "5d7ab932aaabf1183c2f8bcbd0c6b66a535ef949",
+          "size": 65943,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Microsoft.Maui-vscode.sln",
+          "sha": "45ee03cf546ae2d82768312bba939982a873f22a",
+          "size": 57731,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Microsoft.Maui.sln",
+          "sha": "c556e985bccaf26b282cf10e046d236cb4b9095b",
+          "size": 64724,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/DotNet/DotNet.csproj",
+          "sha": "a445253c7a391cdc6604cb92172320c3477594e5",
+          "size": 20834,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Provisioning/Provisioning.csproj",
+          "sha": "a2194437ca9a2f5953cbac92fd33213a186b8464",
+          "size": 25687,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Workload/workloads.csproj",
+          "sha": "5d1c14e4c4708a7359be6c639a8ff7977f9e75f8",
+          "size": 14547,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:26:03+00:00"
     },
     "dotnet/maui-labs": {
       "id": 1177984407,
@@ -11181,12 +14613,114 @@
         "winui"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 19139058,
+        "JavaScript": 507961,
+        "PowerShell": 264144,
+        "Swift": 248028,
+        "Shell": 238242,
+        "TypeScript": 203421,
+        "Python": 111178,
+        "Kotlin": 85091,
+        "CSS": 55164,
+        "HTML": 25807,
+        "CMake": 15510,
+        "Objective-C": 4946,
+        "Batchfile": 713
+      },
+      "readme_url": "https://github.com/dotnet/maui-labs/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2f2e44c34222d5da2e3fd219be017447b320769b",
+      "readme_excerpt": "maui ai add skill",
+      "readme_headings": [
+        ".NET MAUI Labs",
+        "Products",
+        "Cli",
+        "Microsoft.Maui.Cli is currently released as a pre-release, so make sure to use the --prerelease flag",
+        "Comet",
+        "Go",
+        "DevFlow",
+        "AI Extensions",
+        "AI Attributes",
+        "Linux GTK4 Backend",
+        "macOS AppKit Backend",
+        "WPF Backend",
+        "Essentials.AI",
+        "AppProjectReference",
+        "MAUI Testing",
+        "Agent Skills",
+        "Preview recommended setup and exact scopes for VS Code",
+        "Bootstrap this project for AI-powered MAUI development",
+        "Discover skills, agents, and MCP registrations, then inspect local inventory",
+        "Refresh existing managed assets only; never add missing recommendations",
+        "Or add exactly one typed asset, without implicit companion installations",
+        "Nightly Builds",
+        "Getting Started",
+        "Support"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Or add exactly one typed asset, without implicit companion installations",
+          "excerpt": "maui ai add skill"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 19323,
+      "manifest_paths": [
+        {
+          "path": "eng/workloads/WorkloadSet.csproj",
+          "sha": "2189cf7251c4425a776e8e60ed4cafa2c2b8660e",
+          "size": 687,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "playground/DevFlow.Console/DevFlow.Console.csproj",
+          "sha": "7d075b47b058b254e62b3267ce8f55ef3de41d57",
+          "size": 245,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/AIExtensions.Sample.ChatPlayground/AIExtensions.Sample.ChatPlayground.csproj",
+          "sha": "0fa6edf085447ef4b769ff8e0c29fc4ac7e13019",
+          "size": 4840,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/AIExtensions.Sample.DIParameters/AIExtensions.Sample.DIParameters.csproj",
+          "sha": "b09808163bb988346dfb03490f206912efdd88cc",
+          "size": 1358,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/AIExtensions.Sample.Garden/AIExtensions.Sample.Garden.csproj",
+          "sha": "c2e10907ee706e65d2a80eeba7c086edd41873e8",
+          "size": 3546,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/AIExtensions.Sample.Hello/AIExtensions.Sample.Hello.csproj",
+          "sha": "b184e3acbc8fc87a43ed2ea13e01e08311230902",
+          "size": 1279,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:29:53+00:00"
     },
     "dotnet/maui-samples": {
       "id": 255952484,
@@ -11220,12 +14754,92 @@
         "winui3"
       ],
       "last_seen_scan_id": "2026-11-23T20:21:57+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 8678505,
+        "Objective-C": 38684,
+        "PowerShell": 32375,
+        "HTML": 24860,
+        "CSS": 11854,
+        "Swift": 7605,
+        "JavaScript": 4711
+      },
+      "readme_url": "https://github.com/dotnet/maui-samples/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "da6e49530181575ec2b83c8e18c97c8e5f77f388",
+      "readme_excerpt": "Samples built with .NET Multi-platform App UI (.NET MAUI).",
+      "readme_headings": [
+        ".NET MAUI Samples",
+        "Repository Structure",
+        "Official Samples",
+        "Package Versions",
+        "Community Samples",
+        ".NET MAUI Links",
+        ".NET Foundation",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": ".NET MAUI Samples",
+          "excerpt": "Samples built with .NET Multi-platform App UI (.NET MAUI)."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4114,
+      "manifest_paths": [
+        {
+          "path": "10.0/Animations/Animations.sln",
+          "sha": "8168b9c15eeaa345ecf2d9ae68fa61c4221dc312",
+          "size": 1275,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "10.0/Beginners-Series/BeginnersTask.sln",
+          "sha": "a43c0bef4829e5fb44441156878787b04e781d00",
+          "size": 1284,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "10.0/AgeSignals/AgeSignals/AgeSignals.csproj",
+          "sha": "0d46134fd987713502964fc2756e1fadba1df248",
+          "size": 4642,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "10.0/AgeSignals/DeclaredAgeRangeWrapperBinding.iOS/DeclaredAgeRangeWrapperBinding.iOS.csproj",
+          "sha": "c13d6fb396178bc5767758cc6d63371da324d7d7",
+          "size": 742,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "10.0/Animations/Animations/Animations.csproj",
+          "sha": "e978321d7712c7475bb7a38a2946c4684917365f",
+          "size": 3572,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "10.0/Apps/BugSweeper/BugSweeper.sln",
+          "sha": "731d761cacad3acd1b73569119da59e9c28e9c5f",
+          "size": 1274,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:33:41+00:00"
     },
     "dotnet/mbmlbook": {
       "id": 173785725,
@@ -15027,6 +18641,6 @@
   "refresh_in_progress": false,
   "repository_count": 281,
   "retrieved_at": "2026-11-23T20:22:02+00:00",
-  "enrichment_cursor": "dotnet/efcore",
-  "last_enrichment_run_at": "2026-11-24T10:09:04+00:00"
+  "enrichment_cursor": "dotnet/maui-samples",
+  "last_enrichment_run_at": "2026-11-24T23:33:41+00:00"
 }

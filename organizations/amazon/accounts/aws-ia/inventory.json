@@ -9881,12 +9881,67 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 62027,
+        "Shell": 9153,
+        "Python": 1978,
+        "Dockerfile": 770
+      },
+      "readme_url": "https://github.com/aws-ia/cfn-ps-sudo-consultants-serverless-wordpress/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5d5057e2f7395bea4b5befe582183b3045f350a3",
+      "readme_excerpt": "For architectural details, step-by-step :x: This repository is",
+      "readme_headings": [
+        "Deprecation Notice",
+        "Sudo Consultants Serverless WordPress—Quick Start"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Sudo Consultants Serverless WordPress—Quick Start",
+          "excerpt": "For architectural details, step-by-step"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Deprecation Notice",
+          "excerpt": ":x: This repository is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 600,
+      "manifest_paths": [
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "6ed770737f66fce33a512b38308ad61bfd87e5dc",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "8f713604dcc65604d6bc4e3861eaa0331aa9012e",
+          "size": 246,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "e8d7c3202c6e2fb61ecf1f9eb168090e2e8c4d2e",
+          "size": 276,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T19:36:05+00:00"
     },
     "aws-ia/cfn-ps-sumo-logic-cloudsiem": {
       "id": 682331170,
@@ -9911,12 +9966,102 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 255593,
+        "HTML": 81569,
+        "Shell": 8458,
+        "Makefile": 2825,
+        "Dockerfile": 899
+      },
+      "readme_url": "https://github.com/aws-ia/cfn-ps-sumo-logic-cloudsiem/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4518c82c26c78726886bb2a865ecf94e49e1a399",
+      "readme_excerpt": "For architectural details, step-by-step For architectural details, step-by-step",
+      "readme_headings": [
+        "Sumo Logic Security Integrations for AWS Organizations—Quick Start"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Sumo Logic Security Integrations for AWS Organizations—Quick Start",
+          "excerpt": "For architectural details, step-by-step"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Sumo Logic Security Integrations for AWS Organizations—Quick Start",
+          "excerpt": "For architectural details, step-by-step"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 430,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "7b0c2aa9578feb0d4247d9e8e1278712c3e113e2",
+          "size": 2825,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "6ed770737f66fce33a512b38308ad61bfd87e5dc",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "5294774881be1b9eb3680dd8d8e63b5575487172",
+          "size": 327,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "e683b0760de6842b071aed4f7910f8b92e6fbd8c",
+          "size": 324,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "templates/apps/sumo-aws-apps/sumologic-app-utils/src/requirements.txt",
+          "sha": "a4d4ae959a30fe6cdeae3adeea11fe8468e4f097",
+          "size": 430,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "botocore",
+            "certifi",
+            "chardet",
+            "charset-normalizer",
+            "crhelper",
+            "idna",
+            "mypy-boto3-cloudformation",
+            "mypy-boto3-config",
+            "mypy-boto3-iam",
+            "mypy-boto3-organizations",
+            "mypy-boto3-securityhub",
+            "mypy-boto3-sns",
+            "mypy-boto3-sts",
+            "mypy_boto3_guardduty",
+            "requests",
+            "retrying",
+            "six",
+            "typing_extensions",
+            "urllib3"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T19:40:53+00:00"
     },
     "aws-ia/cfn-ps-sumo-logic-log-centralization": {
       "id": 682318761,
@@ -9941,12 +10086,111 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 125710,
+        "HTML": 84046,
+        "Shell": 50300,
+        "JavaScript": 5935,
+        "Makefile": 2834,
+        "Dockerfile": 899
+      },
+      "readme_url": "https://github.com/aws-ia/cfn-ps-sumo-logic-log-centralization/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ff3340aa289a2bf537369edab97411ea4c494f8f",
+      "readme_excerpt": "For architectural details, step-by-step For architectural details, step-by-step",
+      "readme_headings": [
+        "Sumo Logic Security Integrations on AWS—Quick Start"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Sumo Logic Security Integrations on AWS—Quick Start",
+          "excerpt": "For architectural details, step-by-step"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Sumo Logic Security Integrations on AWS—Quick Start",
+          "excerpt": "For architectural details, step-by-step"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 415,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "2c1792003b4396678b93ef62e63fec10fa1053e3",
+          "size": 2834,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "6ed770737f66fce33a512b38308ad61bfd87e5dc",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "5294774881be1b9eb3680dd8d8e63b5575487172",
+          "size": 327,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "e683b0760de6842b071aed4f7910f8b92e6fbd8c",
+          "size": 324,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "templates/apps/sumo-aws-apps/guardduty/src/package.json",
+          "sha": "28ace17c4c48276ce83467cb6cf17f06c8d3cf5f",
+          "size": 1210,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "templates/apps/sumo-aws-apps/sumologic-app-utils/src/requirements.txt",
+          "sha": "0be16821a9851401a50c7f4e66910fad3ebaa5bf",
+          "size": 455,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "botocore",
+            "certifi",
+            "chardet",
+            "charset-normalizer",
+            "crhelper",
+            "idna",
+            "launchpadlib",
+            "mypy-boto3-cloudformation",
+            "mypy-boto3-config",
+            "mypy-boto3-iam",
+            "mypy-boto3-organizations",
+            "mypy-boto3-securityhub",
+            "mypy-boto3-sns",
+            "mypy-boto3-sts",
+            "mypy_boto3_guardduty",
+            "requests",
+            "retrying",
+            "six",
+            "typing_extensions",
+            "urllib3"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T19:45:42+00:00"
     },
     "aws-ia/cfn-ps-superwerker": {
       "id": 682304252,
@@ -9971,12 +10215,62 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 61591,
+        "Shell": 8036,
+        "Python": 1978,
+        "Dockerfile": 899
+      },
+      "readme_url": "https://github.com/aws-ia/cfn-ps-superwerker/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2ff8e8e375ec447155a1f641e23f0f02d9d24997",
+      "readme_excerpt": ":x: This repository is",
+      "readme_headings": [
+        "Deprecation Notice",
+        "DEPRECATED: please visit https://github.com/superwerker/superwerker"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Deprecation Notice",
+          "excerpt": ":x: This repository is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 650,
+      "manifest_paths": [
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "6ed770737f66fce33a512b38308ad61bfd87e5dc",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "5294774881be1b9eb3680dd8d8e63b5575487172",
+          "size": 327,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "e683b0760de6842b071aed4f7910f8b92e6fbd8c",
+          "size": 324,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T19:50:29+00:00"
     },
     "aws-ia/cfn-ps-tableau-sagemaker": {
       "id": 682321824,
@@ -10001,12 +10295,99 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 73518,
+        "Python": 15342,
+        "Shell": 8040,
+        "Dockerfile": 778
+      },
+      "readme_url": "https://github.com/aws-ia/cfn-ps-tableau-sagemaker/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2185ecb690bf19db76ab216db16fff04c2edde51",
+      "readme_excerpt": "For architectural details, step-by-step :x: This repository is",
+      "readme_headings": [
+        "Deprecation Notice",
+        "Amazon SageMaker for Tableau - Quick Start"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Amazon SageMaker for Tableau - Quick Start",
+          "excerpt": "For architectural details, step-by-step"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Deprecation Notice",
+          "excerpt": ":x: This repository is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 590,
+      "manifest_paths": [
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "6ed770737f66fce33a512b38308ad61bfd87e5dc",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "5294774881be1b9eb3680dd8d8e63b5575487172",
+          "size": 327,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "bf8f5df07afba4a616b18e473866c947266c7c92",
+          "size": 203,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "scripts/Authorizer/requirements.txt",
+          "sha": "df5c670cfd7f043342a878ed365c26d75a40872f",
+          "size": 52,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-xray-sdk",
+            "boto3",
+            "setuptools"
+          ]
+        },
+        {
+          "path": "scripts/Evaluate/requirements.txt",
+          "sha": "24c1f52e8a53f3d048f693b411d97be786719a24",
+          "size": 28,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "csv",
+            "io",
+            "json",
+            "logging",
+            "re"
+          ]
+        },
+        {
+          "path": "scripts/Info/requirements.txt",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T19:55:17+00:00"
     },
     "aws-ia/cfn-ps-tableau-server": {
       "id": 659377139,
@@ -10031,12 +10412,74 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 61554,
+        "Python": 22316,
+        "Shell": 7616,
+        "Dockerfile": 778,
+        "PowerShell": 648
+      },
+      "readme_url": "https://github.com/aws-ia/cfn-ps-tableau-server/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5aee869dad63c08533410925fa84f73987fc277b",
+      "readme_excerpt": ":x: This repository is",
+      "readme_headings": [
+        "Deprecation Notice",
+        "Tableau Server on the AWS Cloud"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Deprecation Notice",
+          "excerpt": ":x: This repository is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 568,
+      "manifest_paths": [
+        {
+          "path": "scripts/requirements.txt",
+          "sha": "0ba9e514d65ae78af05d5c67fa87fd32daedba80",
+          "size": 25,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "requests",
+            "urllib3"
+          ]
+        },
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "6ed770737f66fce33a512b38308ad61bfd87e5dc",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "5294774881be1b9eb3680dd8d8e63b5575487172",
+          "size": 327,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "bf8f5df07afba4a616b18e473866c947266c7c92",
+          "size": 203,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:00:05+00:00"
     },
     "aws-ia/cfn-ps-taskcat-ci": {
       "id": 682325177,
@@ -10061,12 +10504,81 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 62895,
+        "Python": 11540,
+        "Shell": 8007,
+        "Dockerfile": 899
+      },
+      "readme_url": "https://github.com/aws-ia/cfn-ps-taskcat-ci/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "87bc834b2ff0181ac18ac82a23d99af1182ceb8e",
+      "readme_excerpt": ":x: This repository is",
+      "readme_headings": [
+        "Deprecation Notice",
+        "TaskCat CI/CD pipeline for AWS CloudFormation—AWS Solution"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Deprecation Notice",
+          "excerpt": ":x: This repository is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 615,
+      "manifest_paths": [
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "6ed770737f66fce33a512b38308ad61bfd87e5dc",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "5294774881be1b9eb3680dd8d8e63b5575487172",
+          "size": 327,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "e683b0760de6842b071aed4f7910f8b92e6fbd8c",
+          "size": 324,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "functions/source/cleanup-bucket/requirements.txt",
+          "sha": "8b2a88e58ba10aecdba9e74215c912314f051816",
+          "size": 19,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cfnresponse"
+          ]
+        },
+        {
+          "path": "functions/source/git-merge/requirements.txt",
+          "sha": "77f6a6441ad62a4da6989436add34aadcfaa1921",
+          "size": 36,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cfnresponse",
+            "requests"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:04:53+00:00"
     },
     "aws-ia/cfn-ps-thousandeyes-amazon-connect": {
       "id": 682320170,
@@ -10091,12 +10603,80 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 1014885,
+        "HTML": 78630,
+        "Shell": 8013,
+        "Python": 1978,
+        "Dockerfile": 1419
+      },
+      "readme_url": "https://github.com/aws-ia/cfn-ps-thousandeyes-amazon-connect/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "994b852035ca4e9e666e2f45d0e356929956432b",
+      "readme_excerpt": "For architectural details, step-by-step",
+      "readme_headings": [
+        "Cisco ThousandEyes Last-Mile Connectivity Quick Start"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Cisco ThousandEyes Last-Mile Connectivity Quick Start",
+          "excerpt": "For architectural details, step-by-step"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 418,
+      "manifest_paths": [
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "6ed770737f66fce33a512b38308ad61bfd87e5dc",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "82702af68a69fbda7e27edb0ecb846cfe7e80f96",
+          "size": 328,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "e683b0760de6842b071aed4f7910f8b92e6fbd8c",
+          "size": 324,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "functions/source/thousandeyes-connect/Dockerfile",
+          "sha": "d004936d72b3efb2f556d4af6b1515c7a8c899e7",
+          "size": 519,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "functions/source/thousandeyes-connect/package.json",
+          "sha": "1e8b1c33adbde48734a021600839c8326d9465dd",
+          "size": 373,
+          "content_status": "captured",
+          "dependency_hints": [
+            "axios",
+            "serverless-domain-manager",
+            "serverless-offline"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:09:41+00:00"
     },
     "aws-ia/cfn-ps-tmax-tibero": {
       "id": 682662061,
@@ -10121,12 +10701,67 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 64995,
+        "Shell": 34657,
+        "Python": 1978,
+        "Dockerfile": 778
+      },
+      "readme_url": "https://github.com/aws-ia/cfn-ps-tmax-tibero/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c943090639218616cd2e9d597bd54e50a10761c5",
+      "readme_excerpt": "For architectural details, step-by-step :x: This repository is",
+      "readme_headings": [
+        "Deprecation Notice",
+        "Tmax Tibero on AWS—Quick Start"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Tmax Tibero on AWS—Quick Start",
+          "excerpt": "For architectural details, step-by-step"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Deprecation Notice",
+          "excerpt": ":x: This repository is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 588,
+      "manifest_paths": [
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "6ed770737f66fce33a512b38308ad61bfd87e5dc",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "5294774881be1b9eb3680dd8d8e63b5575487172",
+          "size": 327,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "bf8f5df07afba4a616b18e473866c947266c7c92",
+          "size": 203,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:14:29+00:00"
     },
     "aws-ia/cfn-ps-trendmicro-deepsecurity": {
       "id": 672001114,
@@ -10151,12 +10786,63 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 66500,
+        "Shell": 28003,
+        "Python": 2637,
+        "Dockerfile": 778
+      },
+      "readme_url": "https://github.com/aws-ia/cfn-ps-trendmicro-deepsecurity/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d25ea1841e7e9fc3d4bda633b5be677c7f9c9bf4",
+      "readme_excerpt": ":x: This repository is",
+      "readme_headings": [
+        "quickstart-trendmicro-deepsecurity",
+        "Deprecation Notice",
+        "Trend Micro Deep Security on the AWS Cloud"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Deprecation Notice",
+          "excerpt": ":x: This repository is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1677,
+      "manifest_paths": [
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "6ed770737f66fce33a512b38308ad61bfd87e5dc",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "5294774881be1b9eb3680dd8d8e63b5575487172",
+          "size": 327,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "bf8f5df07afba4a616b18e473866c947266c7c92",
+          "size": 203,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:19:17+00:00"
     },
     "aws-ia/cfn-ps-uipath-automation-suite": {
       "id": 703072716,
@@ -10181,12 +10867,62 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 71369,
+        "Python": 69447,
+        "Shell": 39542,
+        "Dockerfile": 851
+      },
+      "readme_url": "https://github.com/aws-ia/cfn-ps-uipath-automation-suite/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a895c20de9d83a5ef038a6ca82209c68e91168fc",
+      "readme_excerpt": ":x: This repository is",
+      "readme_headings": [
+        "Deprecation Notice",
+        "UiPath Automation Suite on AWS—Partner Solution"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Deprecation Notice",
+          "excerpt": ":x: This repository is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 648,
+      "manifest_paths": [
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "6ed770737f66fce33a512b38308ad61bfd87e5dc",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "5294774881be1b9eb3680dd8d8e63b5575487172",
+          "size": 327,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "e8d7c3202c6e2fb61ecf1f9eb168090e2e8c4d2e",
+          "size": 276,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:24:05+00:00"
     },
     "aws-ia/cfn-ps-uipath-orchestrator": {
       "id": 682306256,
@@ -10211,12 +10947,63 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 66225,
+        "PowerShell": 40373,
+        "Shell": 8007,
+        "Python": 1978,
+        "Dockerfile": 851
+      },
+      "readme_url": "https://github.com/aws-ia/cfn-ps-uipath-orchestrator/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "accafab880dea982dbff115b6129ece4d84b7e62",
+      "readme_excerpt": ":x: This repository is",
+      "readme_headings": [
+        "Deprecation Notice",
+        "UIPath Orchestrator on AWS Cloud"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Deprecation Notice",
+          "excerpt": ":x: This repository is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 579,
+      "manifest_paths": [
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "6ed770737f66fce33a512b38308ad61bfd87e5dc",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "5294774881be1b9eb3680dd8d8e63b5575487172",
+          "size": 327,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "e8d7c3202c6e2fb61ecf1f9eb168090e2e8c4d2e",
+          "size": 276,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:28:53+00:00"
     },
     "aws-ia/cfn-ps-uipath-robot": {
       "id": 682291721,
@@ -10241,12 +11028,63 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 60723,
+        "PowerShell": 16372,
+        "Shell": 8007,
+        "Python": 1978,
+        "Dockerfile": 899
+      },
+      "readme_url": "https://github.com/aws-ia/cfn-ps-uipath-robot/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "04ce370ed26e895ea7363d5281893b5f6ba6da79",
+      "readme_excerpt": ":x: This repository is",
+      "readme_headings": [
+        "Deprecation Notice",
+        "UiPath Robot on the AWS Cloud"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Deprecation Notice",
+          "excerpt": ":x: This repository is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 577,
+      "manifest_paths": [
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "6ed770737f66fce33a512b38308ad61bfd87e5dc",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "5294774881be1b9eb3680dd8d8e63b5575487172",
+          "size": 327,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "e683b0760de6842b071aed4f7910f8b92e6fbd8c",
+          "size": 324,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:33:41+00:00"
     },
     "aws-ia/cfn-ps-vesoft-nebula-graph-cloud": {
       "id": 682253432,
@@ -10271,12 +11109,70 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 60485,
+        "Shell": 51477,
+        "Makefile": 2619,
+        "Python": 1978,
+        "Dockerfile": 770
+      },
+      "readme_url": "https://github.com/aws-ia/cfn-ps-vesoft-nebula-graph-cloud/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5a16f430ff4dff3d81531f17b2d79586a817481c",
+      "readme_excerpt": ":x: This repository is",
+      "readme_headings": [
+        "Deprecation Notice",
+        "NebulaGraph Database on AWS—Partner Solution"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Deprecation Notice",
+          "excerpt": ":x: This repository is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 646,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "6438f348585ca73325180b996901ee0023426456",
+          "size": 2619,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "6ed770737f66fce33a512b38308ad61bfd87e5dc",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "8f713604dcc65604d6bc4e3861eaa0331aa9012e",
+          "size": 246,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "e8d7c3202c6e2fb61ecf1f9eb168090e2e8c4d2e",
+          "size": 276,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:38:30+00:00"
     },
     "aws-ia/cfn-ps-vmware-tanzu-application-platform": {
       "id": 682324926,
@@ -10301,12 +11197,83 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 117503,
+        "Shell": 82017,
+        "Python": 2783,
+        "Dockerfile": 2417,
+        "Makefile": 384
+      },
+      "readme_url": "https://github.com/aws-ia/cfn-ps-vmware-tanzu-application-platform/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "95aa9a02587e880877e67c457db0c4348f00de3a",
+      "readme_excerpt": "For architectural details, step-by-step instructions, and customization options, see the deployment guide. To post feedback, submit feature ideas, or report bugs, use the **Issues** section",
+      "readme_headings": [
+        "VMware Tanzu Application Platform-Partner Solution"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "VMware Tanzu Application Platform-Partner Solution",
+          "excerpt": "For architectural details, step-by-step instructions, and customization options, see the deployment guide. To post feedback, submit feature ideas, or report bugs, use the **Issues** section"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 471,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "e984b71b719172853f30bdafc00bf8712f9d3713",
+          "size": 384,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "6ed770737f66fce33a512b38308ad61bfd87e5dc",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "8f713604dcc65604d6bc4e3861eaa0331aa9012e",
+          "size": 246,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "e8d7c3202c6e2fb61ecf1f9eb168090e2e8c4d2e",
+          "size": 276,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ci/images/docker-image/Dockerfile",
+          "sha": "5f8aa129657044dbe8c445e0798b5fa8e96164e8",
+          "size": 1048,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ci/images/inclusive-lang-image/Dockerfile",
+          "sha": "13b2d8c9ef63c3fd098f59c48fd773ef8d62bcb3",
+          "size": 261,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:43:22+00:00"
     },
     "aws-ia/cloudformation-aws-marketplace-saas": {
       "id": 381568549,
@@ -10331,12 +11298,40 @@
         "cfn-registry"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-ia/cloudformation-aws-marketplace-saas/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "99ff8fe7cb5b863d0e263ac9964ce9986f997e5c",
+      "readme_excerpt": "For architectural details, step-by-step :x: This repository is",
+      "readme_headings": [
+        "Deprecation Notice",
+        "AWS Marketplace Serverless SaaS Integration on the AWS Cloud—Quick Start"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "AWS Marketplace Serverless SaaS Integration on the AWS Cloud—Quick Start",
+          "excerpt": "For architectural details, step-by-step"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Deprecation Notice",
+          "excerpt": ":x: This repository is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 664,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:48:09+00:00"
     },
     "aws-ia/cloudformation-base-eks": {
       "id": 645520530,
@@ -10359,12 +11354,88 @@
       "open_issues": 9,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 248767,
+        "Python": 116879,
+        "CSS": 84438,
+        "Shell": 56292,
+        "Makefile": 16066,
+        "Dockerfile": 11898,
+        "HTML": 690
+      },
+      "readme_url": "https://github.com/aws-ia/cloudformation-base-eks/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b7c0264d449166385f93d7b6ad7694f4061a650c",
+      "readme_excerpt": ":x: This repository is",
+      "readme_headings": [
+        "Deprecation Notice",
+        "CloudFormation Base EKS"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Deprecation Notice",
+          "excerpt": ":x: This repository is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 8763,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "cda283381737a18672d6014a2159628c3f4454ab",
+          "size": 2636,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "submodules/quickstart-eks-grafana/Makefile",
+          "sha": "e66c430e30768ef3b026f2d73c652f347972176b",
+          "size": 677,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "submodules/quickstart-eks-prometheus/Makefile",
+          "sha": "e66c430e30768ef3b026f2d73c652f347972176b",
+          "size": 677,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "functions/source/AwsCliLayer/Dockerfile",
+          "sha": "f2d30bcb61a1ff6401c16e249c9a0342b508c414",
+          "size": 641,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "functions/source/AwsCliLayer/requirements.txt",
+          "sha": "88294b13ff04ec0d548fc2e489a6e5adb51df284",
+          "size": 7,
+          "content_status": "captured",
+          "dependency_hints": [
+            "awscli"
+          ]
+        },
+        {
+          "path": "functions/source/CleanupLambdas/Dockerfile",
+          "sha": "04b123c54e6bb2363ae963d0e565aea3b70c5c27",
+          "size": 149,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:52:58+00:00"
     },
     "aws-ia/cloudformation-bigid-resource-providers": {
       "id": 505582245,
@@ -10389,12 +11460,89 @@
         "cfn-registry"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 92324,
+        "JavaScript": 232
+      },
+      "readme_url": "https://github.com/aws-ia/cloudformation-bigid-resource-providers/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "aa194f53e03e7b48510eb1419aec5d643ddcc676",
+      "readme_excerpt": "This collection of CloudFormation resource types allow BigID to be controlled using AWS CloudFormation. See the end-user documentation including: examples supported BigId resource types There",
+      "readme_headings": [
+        "BigID CloudFormation Resources"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "BigID CloudFormation Resources",
+          "excerpt": "This collection of CloudFormation resource types allow BigID to be controlled using AWS CloudFormation. See the end-user documentation including: examples supported BigId resource types There"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 425,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "73dea541d042d43f966d30bc2aefc401a4946aa5",
+          "size": 1946,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "BigID-Common/package.json",
+          "sha": "45014eb71904bfc51f87e586f9278ef036e117a9",
+          "size": 667,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "jest",
+            "ts-jest",
+            "typescript"
+          ]
+        },
+        {
+          "path": "BigID-DataSource-DynamoDB/package.json",
+          "sha": "f813ac3a01a9a73e95a0722412cc25eaab9d0d30",
+          "size": 804,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "typescript"
+          ]
+        },
+        {
+          "path": "BigID-DataSource-S3/package.json",
+          "sha": "f369b21139a3d24dae2583979f97e1ebb41505e5",
+          "size": 786,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T20:57:46+00:00"
     },
     "aws-ia/cloudformation-cloudflare-resource-providers": {
       "id": 505576703,
@@ -10419,12 +11567,133 @@
         "cfn-registry"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 95566,
+        "Shell": 12700,
+        "Python": 1074,
+        "JavaScript": 232
+      },
+      "readme_url": "https://github.com/aws-ia/cloudformation-cloudflare-resource-providers/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "69a6160b299a4a1d02970f812acfaf4a08730650",
+      "readme_excerpt": "[AWS Account][14] [AWS CLI][15]",
+      "readme_headings": [
+        "Cloudflare CloudFormation Resource Types",
+        "Prerequisites",
+        "AWS Management Console",
+        "Supported regions",
+        "Examples",
+        "[Sample use case][18]",
+        "Dns Record creation example using the Cloudformation Cloudflare resource",
+        "Shows how to create an LoadBalancer in Cloudflare",
+        "Shows how to set a LoadBalancer Monitor in Cloudflare",
+        "Shows how to create a static LoadBalancer Pool in Cloudflare"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "[AWS Account][14] [AWS CLI][15]"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7262,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "c50cc4b306764c9e61eed7a314d642bbf8c729e8",
+          "size": 2026,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Cloudflare-Common/package.json",
+          "sha": "2be1f29ac176597173572918805ff67e8106b03d",
+          "size": 677,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "jest",
+            "ts-jest",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Cloudflare-Dns-Record/package.json",
+          "sha": "d0e887c2f0d8262180b683a9d8937b5173bb8982",
+          "size": 895,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "freemarker-parser",
+            "jest",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Cloudflare-LoadBalancer-LoadBalancer/package.json",
+          "sha": "deb1fcdddc1c21fec5eba9d82f5eb66d37101624",
+          "size": 765,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Cloudflare-LoadBalancer-Monitor/package.json",
+          "sha": "3ede0d7803b687f4f65a66274a5bbbb958bfd16c",
+          "size": 755,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Cloudflare-LoadBalancer-Pool/package.json",
+          "sha": "eef4537a035df196e7b5a6b106d4d2c45efc4707",
+          "size": 749,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:02:34+00:00"
     },
     "aws-ia/cloudformation-databricks-resource-providers": {
       "id": 505578670,
@@ -10449,12 +11718,108 @@
         "cfn-registry"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 83963,
+        "Shell": 19416,
+        "Python": 1074,
+        "JavaScript": 232
+      },
+      "readme_url": "https://github.com/aws-ia/cloudformation-databricks-resource-providers/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "19983103699556436ccc7b0448de05ddc65151f4",
+      "readme_excerpt": "[AWS Account][14] [AWS CLI][15]",
+      "readme_headings": [
+        "Databricks Cloudformation resources",
+        "Prerequisites",
+        "AWS Management Console",
+        "Supported regions",
+        "Examples",
+        "[Sample use cases][18]",
+        "Databricks Cluster creation example using the Cloudformation Databricks resource",
+        "Shows how to create an Job in Databricks"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "[AWS Account][14] [AWS CLI][15]"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5563,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "0a4534fee3d369ed85978372abc5c45db6492a3d",
+          "size": 1706,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Databricks-Clusters-Cluster/package.json",
+          "sha": "37c0849ea7dfa097b9ecf9b7472949e32874ff0f",
+          "size": 970,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "freemarker-parser",
+            "jest",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Databricks-Clusters-Job/package.json",
+          "sha": "d2ddaa0eaba1c2cd5be0c94a6bdfa76e7d676800",
+          "size": 958,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "freemarker-parser",
+            "jest",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Databricks-Common/package.json",
+          "sha": "a46853a39b5787ce9b4be6b0d2fe71132445a287",
+          "size": 677,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "jest",
+            "ts-jest",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:07:23+00:00"
     },
     "aws-ia/cloudformation-dynatrace-resource-providers": {
       "id": 500936480,
@@ -10479,12 +11844,145 @@
         "cfn-registry"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 195804,
+        "Shell": 21001,
+        "Python": 1341,
+        "JavaScript": 232
+      },
+      "readme_url": "https://github.com/aws-ia/cloudformation-dynatrace-resource-providers/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b670916038ee6813eca6a8aaad81fe220ca338a4",
+      "readme_excerpt": "[AWS Account][14] [AWS CLI][15]",
+      "readme_headings": [
+        "Dynatrace CloudFormation Resources",
+        "Prerequisites",
+        "AWS Management Console",
+        "Supported regions",
+        "Examples",
+        "[Sample use cases][18]",
+        "Dynatrace Dashboard creation example using the Cloudformation Dynatrace resource",
+        "Shows how to create an Metric in Dynatrace",
+        "Shows how to create an Service Level Objective in Dynatrace",
+        "Shows how to create a Synthetic Location in Dynatrace",
+        "Shows how to create a Synthetic Monitor in Dynatrace"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "[AWS Account][14] [AWS CLI][15]"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 11489,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "3cb5d30b98ee4be929ef84ffcdd8c1f0055930f4",
+          "size": 1636,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Dynatrace-Automation-SiteReliabilityGuardian/package.json",
+          "sha": "aaf53a7cd0dc7b470e19f9431e209b8b6fa1be2a",
+          "size": 941,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "freemarker-parser",
+            "jest",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Dynatrace-Automation-Workflow/package.json",
+          "sha": "b93154ba54c23898bba0b0d13e585a3d64b142fa",
+          "size": 806,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@dynatrace-sdk/client-automation",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Dynatrace-Common/package.json",
+          "sha": "e88e23959c84118a4d7b3690edc9c47eb2406d9d",
+          "size": 675,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "jest",
+            "ts-jest",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Dynatrace-Configuration-Dashboard/package.json",
+          "sha": "55527c5fc571662dae0b2a7c6ef8d04b89122d34",
+          "size": 919,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "freemarker-parser",
+            "jest",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Dynatrace-Environment-Metric/package.json",
+          "sha": "6d5c57d8e545c126219555d3700a9079b2dff32e",
+          "size": 909,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "freemarker-parser",
+            "jest",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:12:12+00:00"
     },
     "aws-ia/cloudformation-fastly-resource-providers": {
       "id": 505579394,
@@ -10509,12 +12007,153 @@
         "cfn-registry"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 181184,
+        "Shell": 30960,
+        "Python": 1929,
+        "JavaScript": 232
+      },
+      "readme_url": "https://github.com/aws-ia/cloudformation-fastly-resource-providers/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ec517e5e22b76ef1d2272c1252485c4612bcc773",
+      "readme_excerpt": "[AWS Account][14] [AWS CLI][15]",
+      "readme_headings": [
+        "Fastly CloudFormation Resources Types",
+        "Prerequisites",
+        "AWS Management Console",
+        "Supported regions",
+        "Examples",
+        "[Sample use case][23]",
+        "Shows how to create a Deliver Service in Fastly",
+        "Shows how to attach a Domain in Fastly.",
+        "Shows how to create a Health Check in Fastly",
+        "Shows how to create a Backend in Fastly",
+        "Shows how to create a Dictionary in Fastly",
+        "Shows how to create a Dictionary Item in Fastly",
+        "Shows how to create a Logging S3 Endpoint in Fastly",
+        "Shows how to create a Logging Splunk Endpoint in Fastly",
+        "Shows how to upload custom Tls Private Keys for Fastly",
+        "Shows how to upload a custom Tls Certificate to Fastly",
+        "Shows how to activate a custom Tls Domain for Fastly"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "[AWS Account][14] [AWS CLI][15]"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 11077,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "ce97e895cd304fcc0be2a80bd506d173739ad550",
+          "size": 1626,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Fastly-Common/package.json",
+          "sha": "de1083de4fccdae4491d7177e4d6cd18dd188fc3",
+          "size": 669,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "fastly",
+            "jest",
+            "ts-jest",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Fastly-Dictionary-Dictionary/package.json",
+          "sha": "60d6bb56369723123c28e33b5d82c142eaa943b5",
+          "size": 1003,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "@types/snowflake-sdk",
+            "aws-sdk",
+            "class-transformer",
+            "fastly",
+            "jest",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Fastly-Dictionary-DictionaryItem/package.json",
+          "sha": "30feaec83a67458f47b9515ac8331edc14e134b2",
+          "size": 978,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "@types/snowflake-sdk",
+            "aws-sdk",
+            "class-transformer",
+            "fastly",
+            "jest",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Fastly-Logging-S3/package.json",
+          "sha": "af61f9afd2f79b437c20bd8e2e542958a95882ad",
+          "size": 879,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "class-transformer",
+            "fastly",
+            "jest",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Fastly-Logging-Splunk/package.json",
+          "sha": "df6c2ff648466b061b41f30de980f5e82ad41e27",
+          "size": 887,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "class-transformer",
+            "fastly",
+            "jest",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:17:00+00:00"
     },
     "aws-ia/cloudformation-github-resource-providers": {
       "id": 500539533,
@@ -10539,12 +12178,147 @@
         "cfn-registry"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 143172,
+        "Shell": 21228,
+        "Python": 982,
+        "JavaScript": 232
+      },
+      "readme_url": "https://github.com/aws-ia/cloudformation-github-resource-providers/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "941d57c949e0c1533c30a2a6ad6aefe8b208f7bf",
+      "readme_excerpt": "[AWS Account][19] [AWS CLI][20]",
+      "readme_headings": [
+        "GitHub CloudFormation Resources",
+        "Prerequisites",
+        "AWS Management Console",
+        "Supported regions",
+        "Examples",
+        "Setting up a new project in github with a repository, team, and external member with CloudFormation",
+        "Set up a repository secret",
+        "Set up a organization secret"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "[AWS Account][19] [AWS CLI][20]"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 9515,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "78133dda94934275c722100557c7d3c371352516",
+          "size": 2004,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "GitHub-Common/package.json",
+          "sha": "8bd74b8bfe7aa08ef1d58664e65dc6ca03b4aae7",
+          "size": 757,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@octokit/core",
+            "@octokit/plugin-paginate-rest",
+            "@octokit/types",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "jest",
+            "ts-jest",
+            "typescript"
+          ]
+        },
+        {
+          "path": "GitHub-Git-Tag/package.json",
+          "sha": "c2ecb5b8f1e6ada604a5ab7aa77cc1685f81087c",
+          "size": 886,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@octokit/core",
+            "@octokit/rest",
+            "@octokit/types",
+            "@types/jest",
+            "@types/node",
+            "@types/snowflake-sdk",
+            "aws-sdk",
+            "class-transformer",
+            "jest",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "GitHub-Organizations-Membership/package.json",
+          "sha": "e8a4c93d37f7d0628d3ee230f743f05a4c93e8bb",
+          "size": 798,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@octokit/core",
+            "@octokit/rest",
+            "@types/node",
+            "aws-sdk",
+            "class-transformer",
+            "typescript"
+          ]
+        },
+        {
+          "path": "GitHub-Organizations-Secret/package.json",
+          "sha": "afaf0fa120c1a946b0bff5e0f42015e5afd97444",
+          "size": 1006,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@octokit/core",
+            "@octokit/rest",
+            "@octokit/types",
+            "@types/jest",
+            "@types/libsodium-wrappers",
+            "@types/node",
+            "aws-sdk",
+            "class-transformer",
+            "jest",
+            "libsodium-wrappers",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "GitHub-Repositories-Collaborator/package.json",
+          "sha": "cf019f5beecfb4177abcfeb5321e3a6b127bf03f",
+          "size": 920,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@octokit/core",
+            "@octokit/plugin-paginate-rest",
+            "@octokit/rest",
+            "@octokit/types",
+            "@types/node",
+            "aws-sdk",
+            "class-transformer",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:21:36+00:00"
     },
     "aws-ia/cloudformation-gitlab-resource-providers": {
       "id": 500539744,
@@ -10569,12 +12343,155 @@
         "cfn-registry"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 133551,
+        "Shell": 21371,
+        "Dockerfile": 3164,
+        "Python": 882
+      },
+      "readme_url": "https://github.com/aws-ia/cloudformation-gitlab-resource-providers/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "736d0c20bc4154b232e8874af7bd6055abab1331",
+      "readme_excerpt": "[AWS Account][19] [AWS CLI][20]",
+      "readme_headings": [
+        "GitLab CloudFormation Resources",
+        "Prerequisites",
+        "AWS Management Console",
+        "Supported regions",
+        "Examples",
+        "User management example using GitLab resources",
+        "Setting up a new project with correct users and groups",
+        "Tag a project automatically for every active CI/CD deployment",
+        "Parameters:",
+        "Timestamp",
+        "CommitSha",
+        "ProjectId",
+        "TagPrefix"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "[AWS Account][19] [AWS CLI][20]"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 12903,
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "b134b7bc0594da008a86109240a213d4c1a240fa",
+          "size": 11981,
+          "content_status": "captured",
+          "dependency_hints": [
+            "assertj-core",
+            "aws-cloudformation-rpdk-java-plugin",
+            "build-helper-maven-plugin",
+            "commons-lang3",
+            "exec-maven-plugin",
+            "gitlab4j-api",
+            "jacoco-maven-plugin",
+            "junit-jupiter",
+            "log4j-api",
+            "log4j-core",
+            "log4j-slf4j-impl",
+            "lombok",
+            "maven-compiler-plugin",
+            "maven-jar-plugin",
+            "maven-resources-plugin",
+            "maven-shade-plugin",
+            "maven-surefire-plugin",
+            "mockito-core",
+            "mockito-junit-jupiter",
+            "parent-gitlab-cloudformation"
+          ]
+        },
+        {
+          "path": "common-gitlab-cloudformation-utils/pom.xml",
+          "sha": "bd050bf7f0bd3e580ec293d10ed4b080e3bc2b04",
+          "size": 932,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-cloudformation-rpdk-java-plugin",
+            "common-gitlab-cloudformation-utils",
+            "parent-gitlab-cloudformation"
+          ]
+        },
+        {
+          "path": "GitLab-Code-Tag/pom.xml",
+          "sha": "8b80b412be486ac1df7b727fcb9e5c3608ca5723",
+          "size": 2367,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-cloudformation-rpdk-java-plugin",
+            "build-helper-maven-plugin",
+            "common-gitlab-cloudformation-utils",
+            "exec-maven-plugin",
+            "gitlab-code-tag",
+            "jacoco-maven-plugin",
+            "maven-shade-plugin",
+            "parent-gitlab-cloudformation"
+          ]
+        },
+        {
+          "path": "GitLab-Groups-Group/pom.xml",
+          "sha": "f8fffbd39f4e9022d17ba4cbbaf25b53452f3a33",
+          "size": 2387,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-cloudformation-rpdk-java-plugin",
+            "build-helper-maven-plugin",
+            "common-gitlab-cloudformation-utils",
+            "exec-maven-plugin",
+            "gitlab-groups-group",
+            "jacoco-maven-plugin",
+            "maven-shade-plugin",
+            "parent-gitlab-cloudformation"
+          ]
+        },
+        {
+          "path": "GitLab-Groups-GroupAccessToGroup/pom.xml",
+          "sha": "e7df42129f4d2dc99446acdc8e078ff28b7927ea",
+          "size": 2412,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-cloudformation-rpdk-java-plugin",
+            "build-helper-maven-plugin",
+            "common-gitlab-cloudformation-utils",
+            "exec-maven-plugin",
+            "gitlab-groups-groupaccesstogroup",
+            "jacoco-maven-plugin",
+            "maven-shade-plugin",
+            "parent-gitlab-cloudformation"
+          ]
+        },
+        {
+          "path": "GitLab-Groups-UserMemberOfGroup/pom.xml",
+          "sha": "49b907ef13504abbd1703334d06f0db0a79f74a8",
+          "size": 2410,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-cloudformation-rpdk-java-plugin",
+            "build-helper-maven-plugin",
+            "common-gitlab-cloudformation-utils",
+            "exec-maven-plugin",
+            "gitlab-groups-usermemberofgroup",
+            "jacoco-maven-plugin",
+            "maven-shade-plugin",
+            "parent-gitlab-cloudformation"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:26:12+00:00"
     },
     "aws-ia/cloudformation-laceworks-resource-providers": {
       "id": 520655544,
@@ -10597,12 +12514,119 @@
       "open_issues": 14,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 112285,
+        "JavaScript": 458
+      },
+      "readme_url": "https://github.com/aws-ia/cloudformation-laceworks-resource-providers/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "8956485b5362682a87842fe580fde466642e2e15",
+      "readme_excerpt": "This collection of CloudFormation resource types allow Lacework to be controlled using AWS CloudFormation. See the end-user documentation including: examples supported GitHub resource types There",
+      "readme_headings": [
+        "cloudformation-lacework-resource-providers"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "cloudformation-lacework-resource-providers",
+          "excerpt": "This collection of CloudFormation resource types allow Lacework to be controlled using AWS CloudFormation. See the end-user documentation including: examples supported GitHub resource types There"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 441,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "c7f5c40bc5c54166e70f1c2a12bcadadb3dff15c",
+          "size": 1954,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Lacework-Agents-Token/package.json",
+          "sha": "fc073c277c673ca7a5f13a0167129c1391fdf4d7",
+          "size": 760,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "ts-jest",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Lacework-Alerts-Channel/package.json",
+          "sha": "31773f58efb612ec088e698217655a2381097a6d",
+          "size": 739,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Lacework-Alerts-Profile/package.json",
+          "sha": "1fa65ddd6df8ab1b112a0529392f78477479a15a",
+          "size": 739,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Lacework-Alerts-Rule/package.json",
+          "sha": "b360d5f24c763388493bb06a081e44c74ac580ca",
+          "size": 733,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Lacework-Common/package.json",
+          "sha": "7cb370f398cb0fbf8fa8ea2ee05a4322fabd0f91",
+          "size": 673,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "jest",
+            "ts-jest",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:30:48+00:00"
     },
     "aws-ia/cloudformation-newrelic-resource-providers": {
       "id": 500539952,
@@ -10627,12 +12651,162 @@
         "cfn-registry"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 303409,
+        "Shell": 18943,
+        "Python": 884
+      },
+      "readme_url": "https://github.com/aws-ia/cloudformation-newrelic-resource-providers/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0d05a6476b46e004ddc4b2fd1836c8ab6ef6395b",
+      "readme_excerpt": "[AWS Account][14] [AWS CLI][15]",
+      "readme_headings": [
+        "New Relic CloudFormation Resource Types",
+        "Prerequisites",
+        "AWS Management Console",
+        "Supported regions",
+        "Examples",
+        "Dashboard example using the Cloudformation NewRelic resources",
+        "Shows how to create an Alert Policy in NewRelic",
+        "Shows how to set agent configuration in NewRelic.",
+        "Shows how to create a static NRQL Alert Condition in NewRelic"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "[AWS Account][14] [AWS CLI][15]"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7279,
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "449ab961c9b9d816ced91b84f861f2f3084038e3",
+          "size": 11487,
+          "content_status": "captured",
+          "dependency_hints": [
+            "assertj-core",
+            "aws-cloudformation-rpdk-java-plugin",
+            "build-helper-maven-plugin",
+            "cloudformation-newrelic-parent",
+            "commons-lang3",
+            "exec-maven-plugin",
+            "jacoco-maven-plugin",
+            "junit-jupiter",
+            "log4j-api",
+            "log4j-core",
+            "log4j-slf4j-impl",
+            "lombok",
+            "maven-compiler-plugin",
+            "maven-resources-plugin",
+            "maven-shade-plugin",
+            "maven-surefire-plugin",
+            "mockito-core",
+            "mockito-junit-jupiter"
+          ]
+        },
+        {
+          "path": "common-newrelic-cloudformation-utils/pom.xml",
+          "sha": "e28a2609262cef039b29b205c22ac76b97fc0b94",
+          "size": 940,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-cloudformation-rpdk-java-plugin",
+            "cloudformation-newrelic-parent",
+            "common-newrelic-cloudformation-utils"
+          ]
+        },
+        {
+          "path": "NewRelic-Agent-Configuration/pom.xml",
+          "sha": "e5535213a7affbc880558850740095a2df56720c",
+          "size": 4710,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-cloudformation-rpdk-java-plugin",
+            "build-helper-maven-plugin",
+            "cloudformation-newrelic-parent",
+            "common-newrelic-cloudformation-utils",
+            "exec-maven-plugin",
+            "jacoco-maven-plugin",
+            "maven-compiler-plugin",
+            "maven-resources-plugin",
+            "maven-shade-plugin",
+            "maven-surefire-plugin",
+            "newrelic-agent-configuration-handler"
+          ]
+        },
+        {
+          "path": "NewRelic-Alert-AlertsPolicy/pom.xml",
+          "sha": "8c39cbef9716bca3bf8593efe6f8e9e52cddca6a",
+          "size": 4699,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-cloudformation-rpdk-java-plugin",
+            "build-helper-maven-plugin",
+            "cloudformation-newrelic-parent",
+            "common-newrelic-cloudformation-utils",
+            "exec-maven-plugin",
+            "jacoco-maven-plugin",
+            "maven-compiler-plugin",
+            "maven-resources-plugin",
+            "maven-shade-plugin",
+            "maven-surefire-plugin",
+            "newrelic-alert-alertspolicy"
+          ]
+        },
+        {
+          "path": "NewRelic-Alert-NotificationChannel/pom.xml",
+          "sha": "abd70a9213effc63606d96aae6abc683def2af55",
+          "size": 4927,
+          "content_status": "captured",
+          "dependency_hints": [
+            "awaitility",
+            "aws-cloudformation-rpdk-java-plugin",
+            "build-helper-maven-plugin",
+            "cloudformation-newrelic-parent",
+            "common-newrelic-cloudformation-utils",
+            "exec-maven-plugin",
+            "jacoco-maven-plugin",
+            "maven-compiler-plugin",
+            "maven-resources-plugin",
+            "maven-shade-plugin",
+            "maven-surefire-plugin",
+            "newrelic-alert-notificationchannel-handler"
+          ]
+        },
+        {
+          "path": "NewRelic-Alert-NrqlConditionStatic/pom.xml",
+          "sha": "5845a082d109ef94f3e6d0563473ae0061d2e210",
+          "size": 5005,
+          "content_status": "captured",
+          "dependency_hints": [
+            "awaitility",
+            "aws-cloudformation-rpdk-java-plugin",
+            "build-helper-maven-plugin",
+            "cloudformation-newrelic-parent",
+            "common-newrelic-cloudformation-utils",
+            "exec-maven-plugin",
+            "jacoco-maven-plugin",
+            "maven-compiler-plugin",
+            "maven-resources-plugin",
+            "maven-shade-plugin",
+            "maven-surefire-plugin",
+            "newrelic-alert-nrqlconditionstatic-handler"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:35:26+00:00"
     },
     "aws-ia/cloudformation-okta-resource-providers": {
       "id": 500936140,
@@ -10657,12 +12831,147 @@
         "cfn-registry"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 71643,
+        "Shell": 20206,
+        "Python": 974
+      },
+      "readme_url": "https://github.com/aws-ia/cloudformation-okta-resource-providers/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "05dc168399be289bb37f5766c032ef632200be35",
+      "readme_excerpt": "[AWS Account][3] [AWS CLI][4]",
+      "readme_headings": [
+        "Okta CloudFormation Resource Types",
+        "Prerequisites",
+        "AWS Management Console",
+        "Supported regions",
+        "Examples",
+        "Shows how to create an Application in Okta",
+        "Shows how to create a Group in Okta",
+        "Shows how to create a Group Application Association in Okta",
+        "Shows how to create a Group Membership in Okta",
+        "Shows how to create a Policy in Okta"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "[AWS Account][3] [AWS CLI][4]"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6881,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "bfa7ae9e3786aadffbcce7b1ad1bb1b165fb0091",
+          "size": 1965,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Okta-Application/package.json",
+          "sha": "827c123a3afacd1256e52115193de19784f32677",
+          "size": 910,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "freemarker-parser",
+            "jest",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Okta-Common/package.json",
+          "sha": "d2ba0a6d9c66eb7476420a9456a763b3c9e5dc9c",
+          "size": 705,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "jest",
+            "ts-jest",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Okta-Group-Application-Association/package.json",
+          "sha": "f8eb24c610d312a9e45dfb8353afaff3aafe1b1f",
+          "size": 931,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "freemarker-parser",
+            "jest",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Okta-Group-Membership/package.json",
+          "sha": "83bfd430ae06f68375c6f87bd89ac2867805e387",
+          "size": 896,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "freemarker-parser",
+            "jest",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Okta-Group/package.json",
+          "sha": "afaea7c66a28e6976166278f2fccba37ba918c64",
+          "size": 886,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "freemarker-parser",
+            "jest",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:40:02+00:00"
     },
     "aws-ia/cloudformation-pagerduty-resource-providers": {
       "id": 500936295,
@@ -10687,12 +12996,136 @@
         "cfn-registry"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 145806,
+        "Shell": 23288,
+        "Python": 1069,
+        "JavaScript": 232
+      },
+      "readme_url": "https://github.com/aws-ia/cloudformation-pagerduty-resource-providers/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e15afcbe6adbea4dbcba90e3d01fa489a545865f",
+      "readme_excerpt": "[AWS Account][19] [AWS CLI][20]",
+      "readme_headings": [
+        "PagerDuty CloudFormation Resource Types",
+        "Prerequisites",
+        "AWS Management Console",
+        "Supported regions",
+        "Examples",
+        "EscalationPolicy example using the Cloudformation PagerDuty resources",
+        "User example using the Cloudformation PagerDuty resources",
+        "Shows how to create a Team in PagerDuty",
+        "Shows how to set User as a Team member in PagerDuty.",
+        "Shows how to create a Schedule in PagerDuty",
+        "Shows how to create a ResponsePlay in PagerDuty.",
+        "Shows how to create a Service in PagerDuty with Cloudformation resource.",
+        "Shows how to create a Integration in PagerDuty with Cloudformation resource."
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "[AWS Account][19] [AWS CLI][20]"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 10265,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "dcdc22954c1887d38060d037b7f9888d0a9d6048",
+          "size": 1681,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "PagerDuty-Common/package.json",
+          "sha": "dd33daefb71a144faf79f8c46d6b838b6cf45458",
+          "size": 676,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "jest",
+            "ts-jest",
+            "typescript"
+          ]
+        },
+        {
+          "path": "PagerDuty-EscalationPolicies-EscalationPolicy/package.json",
+          "sha": "ad89452616cb3cf435d59cc2c651d0386e2d8f92",
+          "size": 815,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "typescript"
+          ]
+        },
+        {
+          "path": "PagerDuty-ResponsePlays-ResponsePlay/package.json",
+          "sha": "be7e4271cf24456dde99935d1bda804a2f65a6bd",
+          "size": 766,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "typescript"
+          ]
+        },
+        {
+          "path": "PagerDuty-Schedules-Schedule/package.json",
+          "sha": "fb4171096b74e8998b33c7cb90c5b2d00e3c8a19",
+          "size": 941,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "freemarker-parser",
+            "jest",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "PagerDuty-Services-Integration/package.json",
+          "sha": "154ce9e336d99807fac7ee194bf9682c5585e192",
+          "size": 753,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:44:39+00:00"
     },
     "aws-ia/cloudformation-rollbar-resource-providers": {
       "id": 520656198,
@@ -10715,12 +13148,127 @@
       "open_issues": 11,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 111744,
+        "Shell": 20927,
+        "Python": 1068,
+        "JavaScript": 232
+      },
+      "readme_url": "https://github.com/aws-ia/cloudformation-rollbar-resource-providers/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4c62257282e99f1ec74b2a8812c5e4c37656b622",
+      "readme_excerpt": "[AWS Account][3] [AWS CLI][4]",
+      "readme_headings": [
+        "Rollbar CloudFormation Resource Types",
+        "Prerequisites",
+        "AWS Management Console",
+        "Supported regions",
+        "Examples",
+        "Shows how to create a Rollbar project.",
+        "Shows how to create a Rollbar access token.",
+        "Shows how to set a Rollbar notification rule.",
+        "Shows how to create a Rollbar team and assign it to a project."
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "[AWS Account][3] [AWS CLI][4]"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6830,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "201cf701dd59c8c51e07ff2f93c3242221aeb332",
+          "size": 1662,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Rollbar-Common/package.json",
+          "sha": "0ae20e7e4dea2a6b968dd07526c5ac9c6c89f496",
+          "size": 671,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "jest",
+            "ts-jest",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Rollbar-Notifications-Rule/package.json",
+          "sha": "14c5e0eb4825547da8ac6f8c0c53411ad39da3df",
+          "size": 807,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Rollbar-Projects-AccessToken/package.json",
+          "sha": "3e87740e681447554f7433f08675e590182fdeb4",
+          "size": 813,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Rollbar-Projects-Project/package.json",
+          "sha": "d4a401f38d32c64ef2d67801e252875f50440682",
+          "size": 770,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Rollbar-Teams-Membership/package.json",
+          "sha": "95f4d2310362461ea552bc598ea7decf4ed56007",
+          "size": 770,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/node",
+            "aws-sdk",
+            "axios",
+            "class-transformer",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:49:14+00:00"
     },
     "aws-ia/cloudformation-snowflake-resource-providers": {
       "id": 505581661,
@@ -10745,12 +13293,151 @@
         "cfn-registry"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 79471,
+        "Shell": 12090,
+        "Python": 1072,
+        "JavaScript": 232
+      },
+      "readme_url": "https://github.com/aws-ia/cloudformation-snowflake-resource-providers/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "8b044d14d3193a4249d230aaab699f3571345447",
+      "readme_excerpt": "[AWS Account][3] [AWS CLI][4]",
+      "readme_headings": [
+        "Snowflake CloudFormation Resource Types",
+        "Prerequisites",
+        "AWS Management Console",
+        "Supported regions",
+        "Examples",
+        "Shows how to create a Database in Snowflake",
+        "Shows how to create a Database Grant in Snowflake",
+        "Shows how to create a Role Grant in Snowflake",
+        "Shows how to create a Role in Snowflake",
+        "Shows how to create a User in Snowflake",
+        "Shows how to create a Warehouse Grant in Snowflake"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "[AWS Account][3] [AWS CLI][4]"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7069,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "647b16b1c7448ef1a1b5263f2f53d69bcd307a98",
+          "size": 1615,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Snowflake-Common/package.json",
+          "sha": "226d7a154a65a4cb6b6c247c5d6489f6a3207987",
+          "size": 746,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "@types/snowflake-sdk",
+            "aws-sdk",
+            "axios",
+            "jest",
+            "snowflake-sdk",
+            "ts-jest",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Snowflake-Database-Database/package.json",
+          "sha": "7bd558309d61f835107c2316df7356819690e59c",
+          "size": 946,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "@types/snowflake-sdk",
+            "aws-sdk",
+            "class-transformer",
+            "jest",
+            "snowflake-sdk",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Snowflake-Database-Grant/package.json",
+          "sha": "c4c8002a5f4f68ac83f650eb54424f12ec58eb8a",
+          "size": 940,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "@types/snowflake-sdk",
+            "aws-sdk",
+            "class-transformer",
+            "jest",
+            "snowflake-sdk",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Snowflake-Role-Grant/package.json",
+          "sha": "9ff6674906073d1f4a1f74b778c5be91409c3176",
+          "size": 932,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "@types/snowflake-sdk",
+            "aws-sdk",
+            "class-transformer",
+            "jest",
+            "snowflake-sdk",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "Snowflake-Role-Role/package.json",
+          "sha": "01e1d376425deabe2c1256ff29960ff56d7b7b13",
+          "size": 930,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@amazon-web-services-cloudformation/cloudformation-cli-typescript-lib",
+            "@types/jest",
+            "@types/node",
+            "@types/snowflake-sdk",
+            "aws-sdk",
+            "class-transformer",
+            "jest",
+            "snowflake-sdk",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:53:38+00:00"
     },
     "aws-ia/cloudformation-tines-guardduty": {
       "id": 609320083,
@@ -10773,12 +13460,35 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws-ia/cloudformation-tines-guardduty/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f24415011900e03d507631e7a32d4896e6afd88a",
+      "readme_excerpt": ":x: This repository is",
+      "readme_headings": [
+        "Deprecation Notice",
+        "Tines for Amazon GuardDuty—AWS Partner Solution"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Deprecation Notice",
+          "excerpt": ":x: This repository is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 658,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T21:58:01+00:00"
     },
     "aws-ia/cloudformation-vmware-resource-providers": {
       "id": 596759648,
@@ -10801,12 +13511,53 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 45254
+      },
+      "readme_url": "https://github.com/aws-ia/cloudformation-vmware-resource-providers/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "63497ceca9d835324c24444e0cd12cf26356e23c",
+      "readme_excerpt": "[AWS Account][5] [AWS CLI][6]",
+      "readme_headings": [
+        "VMware CloudFormation Resources",
+        "Prerequisites",
+        "AWS Management Console",
+        "Supported regions",
+        "Examples",
+        "Create an SDDC"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "[AWS Account][5] [AWS CLI][6]"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4832,
+      "manifest_paths": [
+        {
+          "path": "vmware-cloudonaws-sddc/requirements.txt",
+          "sha": "3ab1bd230dfbf79723f07debc0c105ba6ea1e741",
+          "size": 75,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cloudformation-cli-python-lib",
+            "cryptography",
+            "requests"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:02:25+00:00"
     },
     "aws-ia/copier-terraform-repo-template": {
       "id": 506321084,
@@ -10831,12 +13582,51 @@
         "copier-template"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jinja": 5602,
+        "Go": 422,
+        "HCL": 396
+      },
+      "readme_url": "https://github.com/aws-ia/copier-terraform-repo-template/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "720b3f5af9669f01a97d1583e049d781d0869d7e",
+      "readme_excerpt": "This project generation template This project template uses",
+      "readme_headings": [
+        "Copier Terraform Module",
+        "Prerequisites",
+        "Usage",
+        "CLI",
+        "Directly against GitHub repository using HTTPS",
+        "or directly against GitHub using the gh shortcut",
+        "Programmatically (Python)",
+        "Create a project from this upstream GitHub repository",
+        "You can also use \"gh:\" as a shortcut of \"https://github.com/\""
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Usage",
+          "excerpt": "This project generation template"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "This project template uses"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2062,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:06:37+00:00"
     },
     "aws-ia/ecs-blueprints": {
       "id": 488662737,
@@ -10863,12 +13653,118 @@
         "ecs-fargate"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 370758,
+        "Python": 284597,
+        "JavaScript": 37499,
+        "EJS": 17516,
+        "TypeScript": 16630,
+        "Shell": 15140,
+        "CSS": 4760,
+        "Dockerfile": 3846,
+        "HTML": 872,
+        "Batchfile": 437,
+        "Makefile": 59
+      },
+      "readme_url": "https://github.com/aws-ia/ecs-blueprints/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "bcfa5c6847c5d406dcf212cb71f8c397c9c0ab90",
+      "readme_excerpt": "The primary code is Please refer ECS Blueprints macOS, Linux, or Windows See CONTRIBUTING for more",
+      "readme_headings": [
+        "Amazon ECS Blueprints",
+        "Which example should I start with?",
+        "Prerequisites",
+        "Quick Start for ECS Blueprints for Terraform",
+        "Repository overview",
+        "Support & Feedback",
+        "Contributing",
+        "Security"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Repository overview",
+          "excerpt": "The primary code is"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Quick Start for ECS Blueprints for Terraform",
+          "excerpt": "Please refer ECS Blueprints"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "macOS, Linux, or Windows"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Security",
+          "excerpt": "See CONTRIBUTING for more"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 10140,
+      "manifest_paths": [
+        {
+          "path": "cdk/Makefile",
+          "sha": "abe33d04c42d447a507db6eb61476c046b26acbd",
+          "size": 59,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cdk/requirements.txt",
+          "sha": "08d4bce5d93553438a8226a8ec030ec49e426596",
+          "size": 115,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-cdk-lib",
+            "cdklabs.generative-ai-cdk-constructs",
+            "constructs",
+            "python-dotenv"
+          ]
+        },
+        {
+          "path": "application-code/container-queue-proc/Dockerfile",
+          "sha": "eeee8aac4cd9086ea8b5c94c5b0c2102c067d687",
+          "size": 381,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "application-code/data-pipeline-task/Dockerfile",
+          "sha": "6a08c6063216013c0f0cf80a42ac8aeb6de2dac6",
+          "size": 342,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "application-code/data-pipeline-task/requirements.txt",
+          "sha": "a48a8586c17691cee719284103735052518dd030",
+          "size": 16,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3"
+          ]
+        },
+        {
+          "path": "application-code/ecsdemo-cicd/Dockerfile",
+          "sha": "423c6a2d2cd5c53f4d0d027daa23a7124fafe159",
+          "size": 333,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:10:50+00:00"
     },
     "aws-ia/ecs-consul-mesh-extension": {
       "id": 424390517,
@@ -10891,12 +13787,62 @@
       "open_issues": 7,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 71701,
+        "JavaScript": 157
+      },
+      "readme_url": "https://github.com/aws-ia/ecs-consul-mesh-extension/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "017985d117c073b3a96a9881a80fc0d8892d47c5",
+      "readme_excerpt": "Every service in the",
+      "readme_headings": [
+        "CDK ECS service extension for Consul",
+        "Background",
+        "Goals",
+        "Architecture",
+        "Example"
+      ],
+      "readme_sections": [
+        {
+          "category": "Architecture and design",
+          "heading": "Architecture",
+          "excerpt": "Every service in the"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3360,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "38c08f1c83998abfe06398de6bd9341eeb5a3e94",
+          "size": 1227,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk-containers/ecs-service-extensions",
+            "@aws-cdk/assert",
+            "@aws-cdk/aws-ec2",
+            "@aws-cdk/core",
+            "@types/jest",
+            "@types/node",
+            "aws-cdk",
+            "jest",
+            "source-map-support",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:15:01+00:00"
     },
     "aws-ia/lambda-copyzips": {
       "id": 689005498,
@@ -10919,12 +13865,26 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "unavailable",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": null,
+      "readme_path": null,
+      "readme_sha": null,
+      "readme_excerpt": "",
+      "readme_headings": [],
+      "readme_sections": [],
+      "readme_unavailable_reason": "GitHub returned 404 for a README",
+      "readme_truncated": false,
+      "readme_bytes": 0,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:19:13+00:00"
     },
     "aws-ia/pre-commit-configs": {
       "id": 462498358,
@@ -10947,12 +13907,38 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 1191,
+        "Shell": 206
+      },
+      "readme_url": "https://github.com/aws-ia/pre-commit-configs/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1be9543c9548591dace4279863f6fb7cb831fb4b",
+      "readme_excerpt": ".pre-commit-config.yaml fail_fast: false minimum_pre_commit_version:",
+      "readme_headings": [
+        "AWS-IA opinioniated pre-commit hooks",
+        "Installation"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": ".pre-commit-config.yaml fail_fast: false minimum_pre_commit_version:"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 556,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:23:25+00:00"
     },
     "aws-ia/pre-commit-hooks": {
       "id": 468009423,
@@ -10975,12 +13961,37 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "unavailable",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 769,
+        "Shell": 109
+      },
+      "readme_url": null,
+      "readme_path": null,
+      "readme_sha": null,
+      "readme_excerpt": "",
+      "readme_headings": [],
+      "readme_sections": [],
+      "readme_unavailable_reason": "GitHub returned 404 for a README",
+      "readme_truncated": false,
+      "readme_bytes": 0,
+      "manifest_paths": [
+        {
+          "path": "setup.py",
+          "sha": "3d93aefb2da505dba9c0114404cfaaeee5ad0d3f",
+          "size": 73,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:27:37+00:00"
     },
     "aws-ia/pre-commit-terraform": {
       "id": 469851851,
@@ -11003,12 +14014,89 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 65985,
+        "Dockerfile": 8362,
+        "Python": 2991
+      },
+      "readme_url": "https://github.com/aws-ia/pre-commit-terraform/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f11f95b1be2f06b7a7e973aef67e30544193f91a",
+      "readme_excerpt": "pre-commit checkov required for pre-commit checkov required for",
+      "readme_headings": [
+        "Collection of git hooks for Terraform to be used with [pre-commit framework](http://pre-commit.com/)",
+        "Note, this fork is temporary, pending approval of [this PR](https://github.com/antonbabenko/pre-commit-terraform/pull/347) and [this PR](https://github.com/antonbabenko/pre-commit-terraform/pull/352).",
+        "Sponsors",
+        "Table of content",
+        "How to install",
+        "1. Install dependencies",
+        "Install the latest versions of all the tools",
+        "2. Install the pre-commit hook globally",
+        "3. Add configs and hooks",
+        "4. Run",
+        "Available Hooks",
+        "Hooks usage notes and examples",
+        "checkov",
+        "infracost_breakdown",
+        "terraform_docs",
+        "terraform_docs_replace (deprecated)",
+        "terraform_fmt",
+        "terraform_providers_lock",
+        "terraform_tflint",
+        "terraform_tfsec",
+        "terraform_validate",
+        "terrascan",
+        "Authors",
+        "License",
+        "Additional terms of use for users from Russia and Belarus"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "1. Install dependencies",
+          "excerpt": "pre-commit checkov required for"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "1. Install dependencies",
+          "excerpt": "pre-commit checkov required for"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 33865,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "1848460084e645f816d287dd83edf8b2f04ed4c5",
+          "size": 8136,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "setup.py",
+          "sha": "2d88425b98a096eecc2fea370ae8485f2fe4387e",
+          "size": 1023,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/Dockerfile",
+          "sha": "ec77d18af3f797591992e25dfa55e3dc453c472b",
+          "size": 226,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:31:49+00:00"
     },
     "aws-ia/seller-code-submission-workshop": {
       "id": 723422733,
@@ -11031,12 +14119,53 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 2178,
+        "Dockerfile": 525
+      },
+      "readme_url": "https://github.com/aws-ia/seller-code-submission-workshop/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "79db6a838aea0a2cbe8f62fd68b3f8d97c4f64b8",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "seller-code-submission-workshop"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 33,
+      "manifest_paths": [
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "f9e34a8ccee6396ac9fcaf266d236fab12b70932",
+          "size": 89,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "46494e83efad4e7869fc67a662d2be1df902a210",
+          "size": 218,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "4f5b5b5346c8adbf23d5a6bfe9dcbd09ad3237ce",
+          "size": 218,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:36:01+00:00"
     },
     "aws-ia/standards-terraform": {
       "id": 404467916,
@@ -11059,12 +14188,32 @@
       "open_issues": 9,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "CSS": 81060,
+        "HTML": 35615,
+        "JavaScript": 31025
+      },
+      "readme_url": "https://github.com/aws-ia/standards-terraform/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "063af608fe2ecaf867619f958ab45d047fa69df7",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "aws-ia standards for Terraform"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 203,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:40:13+00:00"
     },
     "aws-ia/taskcat": {
       "id": 73759774,
@@ -11093,12 +14242,128 @@
         "cloudformation-testing-framework"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 480550,
+        "Shell": 17122,
+        "Jinja": 10187,
+        "Dockerfile": 5308,
+        "CSS": 3810
+      },
+      "readme_url": "https://github.com/aws-ia/taskcat/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "344f3b2260676a9f0f3b164fca88157f24827537",
+      "readme_excerpt": "**TaskCat** is a tool",
+      "readme_headings": [
+        "What is TaskCat?",
+        "Support",
+        "GitHub",
+        "PyPi"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "What is TaskCat?",
+          "excerpt": "**TaskCat** is a tool"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2464,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "1491db386e35cde7bf7510828d1bdec2ed822d04",
+          "size": 2089,
+          "content_status": "captured",
+          "dependency_hints": [
+            "GitPython",
+            "PyYAML",
+            "boto3",
+            "botocore",
+            "cfn_lint",
+            "dataclasses-jsonschema",
+            "docker",
+            "dulwich",
+            "jinja2",
+            "jsonschema",
+            "markupsafe",
+            "pathspec",
+            "pip",
+            "reprint",
+            "requests",
+            "setuptools",
+            "tabulate",
+            "urllib3",
+            "yattag"
+          ]
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "53a6589402849c4f74af627ddd1e0d3408609bde",
+          "size": 372,
+          "content_status": "captured",
+          "dependency_hints": [
+            "GitPython",
+            "PyYAML",
+            "boto3",
+            "botocore",
+            "cfn_lint",
+            "dataclasses",
+            "dataclasses-jsonschema",
+            "docker",
+            "dulwich",
+            "jinja2",
+            "jsonschema",
+            "markupsafe",
+            "pathspec",
+            "pip",
+            "reprint",
+            "requests",
+            "ruamel.yaml",
+            "setuptools",
+            "tabulate",
+            "urllib3",
+            "yattag"
+          ]
+        },
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "2127951639283f5f187b3e5a8dfde6c052158a04",
+          "size": 88,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/init/Dockerfile",
+          "sha": "aebb6bcc86f109e5d74fc8adf363da29eaacbc63",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "e192492edd98dd6894fc569b3e92a269f9fe73b7",
+          "size": 788,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "e2e/codebuild/Dockerfile",
+          "sha": "e647cdb7b6eb715e9040c62cd2c793cfdbffb422",
+          "size": 2061,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:44:26+00:00"
     },
     "aws-ia/terraform-adobe-magento": {
       "id": 406115080,
@@ -11121,12 +14386,50 @@
       "open_issues": 8,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 93515,
+        "Shell": 25066,
+        "Go": 8667,
+        "VCL": 7921,
+        "Python": 5056
+      },
+      "readme_url": "https://github.com/aws-ia/terraform-adobe-magento/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1471081e2397d438609509841b67ddfbfc77ec7e",
+      "readme_excerpt": "See Install Terraform.",
+      "readme_headings": [
+        "Terraform Magento Commerce",
+        "Install Terraform",
+        "Sign up for Terraform Cloud",
+        "Configure Terraform Cloud API access",
+        "Configure the `tfvars` file",
+        "Create an AWS key pair",
+        "Store the private key in AWS Secrets Manager as plaintext",
+        "Create Magento deployment keys",
+        "Deploy the module (Linux and iOS)",
+        "Test the deployment",
+        "Clean up the infrastructure"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Install Terraform",
+          "excerpt": "See Install Terraform."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6018,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:48:37+00:00"
     },
     "aws-ia/terraform-aws-agentcore": {
       "id": 950469407,
@@ -11151,12 +14454,105 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 79348,
+        "Shell": 9540,
+        "Dockerfile": 2457,
+        "Makefile": 588
+      },
+      "readme_url": "https://github.com/aws-ia/terraform-aws-agentcore/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "07c2b1083a989d2cee427b6398fa662f95178760",
+      "readme_excerpt": "Dynamic Runtime Creation (CODE module \"agentcore\" { source",
+      "readme_headings": [
+        "Amazon Bedrock AgentCore Terraform Module",
+        "Understanding AgentCore",
+        "Features",
+        "Important",
+        "Basic Usage - Create Runtime with Endpoint",
+        "Basic Usage - Create Memory with Strategies",
+        "Basic Usage - Create Gateway with MCP Protocol",
+        "Basic Usage - Create Code Interpreter",
+        "Basic Usage - Create Browser",
+        "Examples",
+        "Contributing",
+        "Requirements",
+        "Providers",
+        "Modules",
+        "Resources",
+        "Inputs",
+        "Outputs"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": "Features",
+          "excerpt": "Dynamic Runtime Creation (CODE"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Basic Usage - Create Runtime with Endpoint",
+          "excerpt": "module \"agentcore\" { source"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 29725,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "52eecd185d94b09cc44c12818faa018ecb0ca545",
+          "size": 588,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "112b1ed647f6b4daf9d303de33d4529835e59688",
+          "size": 467,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "0bac0a2dc58073bf54208b1442258a159fc6655f",
+          "size": 341,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "6c5581259fed727b2369ad18cf2dca47ce035712",
+          "size": 1649,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/basic-code-runtime/src/requirements.txt",
+          "sha": "c2fbf219a13712328537041617b7bea5d1296010",
+          "size": 18,
+          "content_status": "captured",
+          "dependency_hints": [
+            "bedrock-agentcore"
+          ]
+        },
+        {
+          "path": "examples/basic-container-runtime/src/Dockerfile",
+          "sha": "e9bc6623eb1dc84d91f226720a3a94fa8c992529",
+          "size": 663,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:52:50+00:00"
     },
     "aws-ia/terraform-aws-amazon-vpc-lattice-module": {
       "id": 648783070,
@@ -11181,12 +14577,70 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 33157,
+        "Shell": 9653,
+        "Dockerfile": 1974
+      },
+      "readme_url": "https://github.com/aws-ia/terraform-aws-amazon-vpc-lattice-module/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "349a2ecf7b248a36fca42ede08679aad6628a0a4",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "Amazon VPC Lattice Module",
+        "Usage",
+        "VPC Lattice service network (var.service\\_network)",
+        "VPC associations (var.vpc\\_associations)",
+        "Access Logs for VPC Lattice service networks",
+        "VPC Lattice service (var.services)",
+        "VPC Lattice service associations",
+        "Access Logs for VPC Lattice services",
+        "Target Groups (var.target\\_groups)",
+        "Sharing VPC Lattice resources (var.ram\\_share)",
+        "Amazon Route 53 DNS configuration",
+        "Requirements",
+        "Providers",
+        "Modules",
+        "Resources",
+        "Inputs",
+        "Outputs"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 31259,
+      "manifest_paths": [
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "f3d5a48fdb118812448266d88bb4ab9dfd78246c",
+          "size": 343,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "65b750142539770f9ed874376849368441677f7e",
+          "size": 218,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "11e2da9f832797db275356d29ba03caf08c12eda",
+          "size": 1413,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T22:57:01+00:00"
     },
     "aws-ia/terraform-aws-amazonconnect": {
       "id": 549707093,
@@ -11209,12 +14663,51 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 42650,
+        "Go": 10114,
+        "JavaScript": 168
+      },
+      "readme_url": "https://github.com/aws-ia/terraform-aws-amazonconnect/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1e8ac3807ec7b877e9dd08772322430e73266abf",
+      "readme_excerpt": "The example below is",
+      "readme_headings": [
+        "Amazon Connect Module",
+        "Usage",
+        "Usage Examples",
+        "Dependent Resources",
+        "Important note for Amazon Connect User Hierarchy Group",
+        "Creating/Exporting Contact Flow JSON",
+        "Module Outputs",
+        "License",
+        "Requirements",
+        "Providers",
+        "Modules",
+        "Resources",
+        "Inputs",
+        "Outputs"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Usage",
+          "excerpt": "The example below is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 27946,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:01:01+00:00"
     },
     "aws-ia/terraform-aws-amplify-app": {
       "id": 673450632,
@@ -11239,12 +14732,76 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 14106,
+        "Shell": 4450,
+        "Dockerfile": 2303,
+        "Go": 359
+      },
+      "readme_url": "https://github.com/aws-ia/terraform-aws-amplify-app/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a38b56f672c10346e9c4f0e1c607962894da6bdc",
+      "readme_excerpt": "Conditional and Dynamic Resource // This is a",
+      "readme_headings": [
+        "Features",
+        "Basic Usage - CodeCommit Repo with Automatic Branch Creation",
+        "Examples",
+        "Contributing",
+        "Workshop",
+        "Requirements",
+        "Providers",
+        "Modules",
+        "Resources",
+        "Inputs",
+        "Outputs"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": "Features",
+          "excerpt": "Conditional and Dynamic Resource"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Basic Usage - CodeCommit Repo with Automatic Branch Creation",
+          "excerpt": "// This is a"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 13597,
+      "manifest_paths": [
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "adc8ede8b145c1461661076ac8d2b814f3a88f69",
+          "size": 698,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "65b750142539770f9ed874376849368441677f7e",
+          "size": 218,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "dee8968a59804384257039807cd1219b19b31cf6",
+          "size": 1387,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:05:01+00:00"
     },
     "aws-ia/terraform-aws-bedrock": {
       "id": 755298187,
@@ -11269,12 +14826,89 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 143533,
+        "Shell": 10103,
+        "Dockerfile": 2016
+      },
+      "readme_url": "https://github.com/aws-ia/terraform-aws-bedrock/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "88f5f4062933198c585e9b08e643bb4498e3432a",
+      "readme_excerpt": "This module supports advanced",
+      "readme_headings": [
+        "Terraform Bedrock Module",
+        "Bedrock Agents",
+        "Create an Agent",
+        "Action Groups",
+        "Prepare the Agent",
+        "Prompt Overrides",
+        "Agent Alias",
+        "Agent Collaborators",
+        "Knowledge Bases",
+        "Create a Vector Knowledge Base",
+        "Advanced Vector Knowledge Base Features",
+        "Vector Knowledge Base - Data Sources",
+        "Create a Kendra Knowledge Base",
+        "Create a SQL Knowledge Base",
+        "Using an Existing Knowledge Base",
+        "Configuration",
+        "Notes",
+        "Bedrock Guardrails",
+        "Prompt Management",
+        "Prompt Variants",
+        "Prompt Version",
+        "Application Inference Profile",
+        "Get current AWS account ID",
+        "Get current AWS region",
+        "Custom Models",
+        "Bedrock Data Automation (BDA)",
+        "BDA Project",
+        "Standard Output",
+        "Blueprints",
+        "Requirements"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": "Advanced Vector Knowledge Base Features",
+          "excerpt": "This module supports advanced"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 109694,
+      "manifest_paths": [
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "0920fa01bbe35c45a237b785382faf13bbcc1c1b",
+          "size": 352,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "65b750142539770f9ed874376849368441677f7e",
+          "size": 218,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "604923588c357052adf8139209ec8bf67afbb54b",
+          "size": 1446,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:09:01+00:00"
     },
     "aws-ia/terraform-aws-cloudwan": {
       "id": 493704853,
@@ -11297,12 +14931,63 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 56987
+      },
+      "readme_url": "https://github.com/aws-ia/terraform-aws-cloudwan/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f025945f8dad784e194b82f78544d32a5f19caba",
+      "readme_excerpt": "The example below builds",
+      "readme_headings": [
+        "AWS Cloud WAN Module",
+        "Global Network and Core Network",
+        "Examples",
+        "Policy Creation",
+        "Base policy bootstrap is create-only",
+        "Network definition",
+        "Central VPCs",
+        "Inspection VPC",
+        "Egress VPC",
+        "Egress VPC (with inspection)",
+        "Ingress VPC",
+        "Ingress VPC (with inspection)",
+        "Shared Services VPC",
+        "AWS Network Firewall",
+        "Inspection VPC",
+        "Egress VPC",
+        "Ingress VPC",
+        "Common questions",
+        "How can I configure tags in the Core Network attachment?",
+        "Should I create Central VPCs in the same module definition as the Core Network?",
+        "Troubleshooting",
+        "Creating Central VPCs with IPAM configuration - The \"for\\_each\" map includes keys derived from resource attributes that cannot be determined until apply",
+        "Requirements",
+        "Providers",
+        "Modules",
+        "Resources",
+        "Inputs",
+        "Outputs"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Examples",
+          "excerpt": "The example below builds"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 52526,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:13:01+00:00"
     },
     "aws-ia/terraform-aws-cloudwatch-log-group": {
       "id": 465800531,
@@ -11325,12 +15010,37 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 5261,
+        "Go": 395
+      },
+      "readme_url": "https://github.com/aws-ia/terraform-aws-cloudwatch-log-group/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1349a22a4ddbd3be7248aad06d3207b643416619",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "AWS Cloudwatch Module",
+        "Requirements",
+        "Providers",
+        "Modules",
+        "Resources",
+        "Inputs",
+        "Outputs"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2911,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:17:01+00:00"
     },
     "aws-ia/terraform-aws-codebuild": {
       "id": 378062883,
@@ -11353,12 +15063,40 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 11168
+      },
+      "readme_url": "https://github.com/aws-ia/terraform-aws-codebuild/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "abbdf411a42426c181ff29c59eeab3cb2b36a4e7",
+      "readme_excerpt": "1. Install Terraform. See",
+      "readme_headings": [
+        "Terraform AWS CodeBuild",
+        "Prerequisites",
+        "Configure Terraform Cloud API access",
+        "Configure your .tfvars file",
+        "Deploy the module (Linux or MacOS)"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "1. Install Terraform. See"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2060,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:21:01+00:00"
     },
     "aws-ia/terraform-aws-control_tower_account_factory": {
       "id": 424408054,
@@ -11384,12 +15122,121 @@
         "repo-does-not-accept-pull-requests"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 342679,
+        "Python": 333213,
+        "Smarty": 73852,
+        "Shell": 5122,
+        "Jinja": 4381
+      },
+      "readme_url": "https://github.com/aws-ia/terraform-aws-control_tower_account_factory/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c4ac6502646d70f59475e2bd7c1762057ab6e160",
+      "readme_excerpt": "This guide is intended The AWS Control Tower",
+      "readme_headings": [
+        "AWS Control Tower Account Factory for Terraform",
+        "Getting started",
+        "Configure and launch your AWS Control Tower Account Factory for Terraform",
+        "Organizations vending method",
+        "Prerequisites",
+        "How AFT provisions an account",
+        "Inputs for the Organizations vending method",
+        "Next Steps:",
+        "Collection of Operational Metrics",
+        "Security Considerations",
+        "HCP Terraform / Terraform Enterprise OIDC Workspace Governance",
+        "Known Limitations",
+        "Customization Triggers Concurrency",
+        "Customization Triggers Supported Event Paths",
+        "Requirements",
+        "Providers",
+        "Modules",
+        "Resources",
+        "Inputs",
+        "Outputs"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting started",
+          "excerpt": "This guide is intended"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "The AWS Control Tower"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 42790,
+      "manifest_paths": [
+        {
+          "path": "sources/aft-lambda-layer/pyproject.toml",
+          "sha": "08d3a1c6d96711b0851550c2f32b1a67e3c0344f",
+          "size": 1378,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws_lambda_powertools",
+            "black",
+            "boto3",
+            "boto3-stubs",
+            "botocore",
+            "certifi",
+            "click",
+            "filelock",
+            "isort",
+            "jsonschema",
+            "mypy",
+            "pre-commit",
+            "pygments",
+            "pytest",
+            "pytest-cov",
+            "pytest-subtests",
+            "requests",
+            "types-requests",
+            "urllib3",
+            "virtualenv"
+          ]
+        },
+        {
+          "path": "sources/aft-lambda-layer/setup.py",
+          "sha": "05879af53114eb9945279929eef4fceb2cf8a07d",
+          "size": 242,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/multiple-regions-customization/multiple-regions/api_helpers/python/requirements.txt",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "sources/aft-customizations-repos/aft-global-customizations/api_helpers/python/requirements.txt",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "sources/aft-customizations-repos/aft-account-customizations/ACCOUNT_TEMPLATE/api_helpers/python/requirements.txt",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:24:50+00:00"
     },
     "aws-ia/terraform-aws-datasync": {
       "id": 765406869,
@@ -11414,12 +15261,132 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 18388,
+        "Shell": 11528,
+        "Dockerfile": 1977,
+        "Go": 838
+      },
+      "readme_url": "https://github.com/aws-ia/terraform-aws-datasync/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3b19c66cf6257f8fe352c09ce417fc43947b1c3b",
+      "readme_excerpt": "Link to EFS to",
+      "readme_headings": [
+        "AWS DataSync Terraform Module",
+        "Usage with DataSync Locations and Task Module",
+        "[DataSync Locations Module](modules/datasync-locations/)",
+        "[DataSync Task Module](modules/datasync-task/)",
+        "Enhanced Mode Support",
+        "Example with DataSync Locations and Task module in a Cross Account Use Case",
+        "Other usage examples with DataSync Locations and Task module",
+        "Support & Feedback",
+        "Requirements",
+        "Providers",
+        "Modules",
+        "Resources",
+        "Inputs",
+        "Outputs"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Usage with DataSync Locations and Task Module",
+          "excerpt": "Link to EFS to"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 15073,
+      "manifest_paths": [
+        {
+          "path": "test/go.mod",
+          "sha": "6d3e66b20cee4a07640ad0229ccc3c7c56db17c6",
+          "size": 2688,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cloud.google.com/go",
+            "cloud.google.com/go/compute",
+            "cloud.google.com/go/compute/metadata",
+            "cloud.google.com/go/iam",
+            "cloud.google.com/go/storage",
+            "github.com/agext/levenshtein",
+            "github.com/apparentlymart/go-textseg/v13",
+            "github.com/aws/aws-sdk-go",
+            "github.com/bgentry/go-netrc",
+            "github.com/davecgh/go-spew",
+            "github.com/golang/groupcache",
+            "github.com/golang/protobuf",
+            "github.com/google/go-cmp",
+            "github.com/google/uuid",
+            "github.com/googleapis/enterprise-certificate-proxy",
+            "github.com/googleapis/gax-go/v2",
+            "github.com/gruntwork-io/terratest",
+            "github.com/hashicorp/errwrap",
+            "github.com/hashicorp/go-cleanhttp",
+            "github.com/hashicorp/go-getter",
+            "github.com/hashicorp/go-multierror",
+            "github.com/hashicorp/go-safetemp",
+            "github.com/hashicorp/go-version",
+            "github.com/hashicorp/hcl/v2",
+            "github.com/hashicorp/terraform-json",
+            "github.com/jinzhu/copier",
+            "github.com/jmespath/go-jmespath",
+            "github.com/klauspost/compress",
+            "github.com/mattn/go-zglob",
+            "github.com/mitchellh/go-homedir",
+            "github.com/mitchellh/go-testing-interface",
+            "github.com/mitchellh/go-wordwrap",
+            "github.com/pmezard/go-difflib",
+            "github.com/stretchr/testify",
+            "github.com/tmccombs/hcl2json",
+            "github.com/ulikunitz/xz",
+            "github.com/zclconf/go-cty",
+            "go.opencensus.io",
+            "golang.org/x/crypto",
+            "golang.org/x/net",
+            "golang.org/x/oauth2",
+            "golang.org/x/sys",
+            "golang.org/x/text",
+            "golang.org/x/xerrors",
+            "google.golang.org/api",
+            "google.golang.org/appengine",
+            "google.golang.org/genproto",
+            "google.golang.org/grpc",
+            "google.golang.org/protobuf",
+            "gopkg.in/yaml.v3"
+          ]
+        },
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "18c8d0420ac41c0719dc181b1edf7b5c820f3288",
+          "size": 345,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "65b750142539770f9ed874376849368441677f7e",
+          "size": 218,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "6e6e0da69cbd3ca51eab00e699e80e71f3b688f2",
+          "size": 1414,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:28:40+00:00"
     },
     "aws-ia/terraform-aws-ec2-image-builder": {
       "id": 632676322,
@@ -11444,12 +15411,75 @@
         "ia-automator"
       ],
       "last_seen_scan_id": "2026-11-23T19:32:16+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 18758,
+        "Shell": 9653,
+        "Dockerfile": 1974
+      },
+      "readme_url": "https://github.com/aws-ia/terraform-aws-ec2-image-builder/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e513aa085f8583b6fe5a5b6e7759b4274d48efce",
+      "readme_excerpt": "The example below builds See CONTRIBUTING for more",
+      "readme_headings": [
+        "AWS EC2 Image Builder Module",
+        "AWS EC2 Image Builder Architecture",
+        "Usage",
+        "Security",
+        "License",
+        "Requirements",
+        "Providers",
+        "Modules",
+        "Resources",
+        "Inputs",
+        "Outputs"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Usage",
+          "excerpt": "The example below builds"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Security",
+          "excerpt": "See CONTRIBUTING for more"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 13817,
+      "manifest_paths": [
+        {
+          "path": ".project_automation/functional_tests/Dockerfile",
+          "sha": "f3d5a48fdb118812448266d88bb4ab9dfd78246c",
+          "size": 343,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/publication/Dockerfile",
+          "sha": "65b750142539770f9ed874376849368441677f7e",
+          "size": 218,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".project_automation/static_tests/Dockerfile",
+          "sha": "fadb1a9cfab03f3b739aee9fddde04ea4cde9958",
+          "size": 1413,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T23:32:28+00:00"
     },
     "aws-ia/terraform-aws-ecs-cluster": {
       "id": 392768259,
@@ -13252,6 +17282,6 @@
   "refresh_in_progress": false,
   "repository_count": 235,
   "retrieved_at": "2026-11-23T19:32:21+00:00",
-  "enrichment_cursor": "aws-ia/cfn-ps-starrocks-starrocks",
-  "last_enrichment_run_at": "2026-11-24T10:07:16+00:00"
+  "enrichment_cursor": "aws-ia/terraform-aws-ec2-image-builder",
+  "last_enrichment_run_at": "2026-11-24T23:32:28+00:00"
 }
