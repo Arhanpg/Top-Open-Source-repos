@@ -248,7 +248,7 @@ def raw_get_bytes(url: str, max_bytes: int, retries: int = 4) -> tuple[bytes, in
 SECTION_CATEGORIES = [
     ("Project overview", ("overview", "about", "introduction", "what is", "description", "motivation", "purpose", "summary")),
     ("Features and capabilities", ("feature", "capability", "functionality", "what it does", "highlights")),
-    ("Getting started and usage", ("getting started", "quickstart", "quick start", "installation", "install", "usage", "tutorial", "example")),
+    ("Getting started and usage", ("getting started", "quickstart", "quick start", "installation", "install", "usage", "tutorial", "examples", "code example")),
     ("Architecture and design", ("architecture", "design", "components", "internals", "how it works")),
     ("Technology and requirements", ("technology", "tech stack", "dependencies", "requirements", "supported platform", "prerequisites")),
     ("Limitations and security", ("limitations", "known issues", "security", "compatibility", "deprecation", "support policy")),
@@ -336,7 +336,7 @@ def get_readme(full: str, token: str | None):
             }
         download_url = payload.get("download_url")
         if not download_url:
-            raise RuntimeError("README metadata returned without inline content or download_url")
+            raise RuntimeError("README metadata returned without inline content for a non-empty file; download_url missing")
         raw_bytes, captured_bytes, truncated = raw_get_bytes(download_url, MAX_README_BYTES)
         raw = raw_bytes.decode("utf-8", errors="replace")
     else:

@@ -262,7 +262,7 @@ class InventoryTests(unittest.TestCase):
         self.assertEqual(result["dependency_hints"], [])
 
     def test_large_readme_falls_back_to_public_raw_download(self):
-        raw_readme = b"# Large README\\n\\nThis project provides a documented test utility.\\n"
+        raw_readme = b"# Large README\n\nThis project provides a documented test utility.\n"
         payload = {
             "content": "",
             "size": 1_500_000,
