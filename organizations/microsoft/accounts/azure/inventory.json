@@ -3418,12 +3418,120 @@
         "mesos"
       ],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 87129,
+        "Shell": 7580,
+        "Groovy": 4501,
+        "JavaScript": 4318,
+        "HTML": 2096,
+        "Python": 1886
+      },
+      "readme_url": "https://github.com/Azure/acs-demos/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9a8499a9a2735bc38d785ad6cd21a593278b3ce8",
+      "readme_excerpt": "Demos for Azure Container Service. These demos are designed to be run using the SimDem tool, although they are just markdown files so you can",
+      "readme_headings": [
+        "acs-demos",
+        "Build Status",
+        "Running Demo's",
+        "Building Self Contained Demos using Docker",
+        "Incubator",
+        "Contribution",
+        "Code of conduct"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "acs-demos",
+          "excerpt": "Demos for Azure Container Service. These demos are designed to be run using the SimDem tool, although they are just markdown files so you can"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3595,
+      "manifest_paths": [
+        {
+          "path": "BigLittleChallenge/pom.xml",
+          "sha": "607e1290fde6529eba95b13e9066f9aeef8bde79",
+          "size": 638,
+          "content_status": "captured",
+          "dependency_hints": [
+            "parent"
+          ]
+        },
+        {
+          "path": "BigLittleChallenge/core/Dockerfile",
+          "sha": "3cb2683ecdd7d48d4594ac756e2d0e3b47064eb2",
+          "size": 98,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "BigLittleChallenge/core/pom.xml",
+          "sha": "d4684c336c1369d319b9163a29cd0e7044dd7545",
+          "size": 2182,
+          "content_status": "captured",
+          "dependency_hints": [
+            "core",
+            "geronimo-json_1.0_spec",
+            "jackson-annotations",
+            "javax.ws.rs-api",
+            "jersey-bom",
+            "jersey-container-grizzly2-http",
+            "junit",
+            "maven-shade-plugin",
+            "slf4j-api"
+          ]
+        },
+        {
+          "path": "BigLittleChallenge/test/pom.xml",
+          "sha": "f21caa0cc8a6cd8ccc56361a5b3c4787a976434d",
+          "size": 1366,
+          "content_status": "captured",
+          "dependency_hints": [
+            "junit",
+            "test",
+            "trials-ai",
+            "trials-engine",
+            "trials-player"
+          ]
+        },
+        {
+          "path": "BigLittleChallenge/trials-ai/pom.xml",
+          "sha": "e02266e2456a6ed78a7bc99c02676cb60baa3f01",
+          "size": 2572,
+          "content_status": "captured",
+          "dependency_hints": [
+            "geronimo-json_1.0_spec",
+            "javax.ws.rs-api",
+            "jersey-bom",
+            "jersey-container-grizzly2-http",
+            "junit",
+            "maven-jar-plugin",
+            "maven-shade-plugin",
+            "slf4j-api",
+            "slf4j-log4j12",
+            "trials-ai",
+            "trials-model"
+          ]
+        },
+        {
+          "path": "BigLittleChallenge/trials-engine-dashboard/Dockerfile",
+          "sha": "81318fd50707a64784f823612d538c6320f2dc8a",
+          "size": 184,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:35:21+00:00"
     },
     "Azure/ACS-Deployment-Tutorial": {
       "id": 88418799,
@@ -3446,12 +3554,33 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 2662763,
+        "Python": 2680
+      },
+      "readme_url": "https://github.com/Azure/ACS-Deployment-Tutorial/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "29234f21f23c7517d4def2bf4ceb3612c8445ca8",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "Authors: Mathew Salvaris and Ilia Karmanov",
+        "Deploy ML on ACS",
+        "Contributing"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2700,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:35:31+00:00"
     },
     "Azure/acs-engine": {
       "id": 66011370,
@@ -3484,12 +3613,81 @@
         "swarmmode"
       ],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 2020509,
+        "Perl 6": 349727,
+        "Shell": 193843,
+        "PowerShell": 83639,
+        "Perl": 68823,
+        "Groovy": 24761,
+        "Makefile": 7425,
+        "Python": 4993,
+        "Dockerfile": 2201
+      },
+      "readme_url": "https://github.com/Azure/acs-engine/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "532d01afedc3f66da3652a6d4e49417de802e695",
+      "readme_excerpt": "The Azure Container Service",
+      "readme_headings": [
+        "Pardon our Dust!",
+        "Microsoft Azure Container Service Engine - Builds Docker Enabled Clusters",
+        "Overview",
+        "User guides",
+        "Usage",
+        "Generate Templates",
+        "insert your preferred, unique DNS prefix",
+        "insert your SSH public key",
+        "Code of conduct"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Overview",
+          "excerpt": "The Azure Container Service"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4235,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "ad00cb90f5ad51c326e33a5a43350d1d5b2a1b36",
+          "size": 2140,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "3ef6e46b9c3694cdd05d1c6cc12d86cf91c76247",
+          "size": 4075,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".prowci/Makefile",
+          "sha": "f777b6f15bb93e21f7315e683ea50e4f4573e25a",
+          "size": 915,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "windows/Dockerfile",
+          "sha": "b80c40fde95558c2e3974f8cde28509b18612fa8",
+          "size": 61,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:35:42+00:00"
     },
     "Azure/ACSS-preview": {
       "id": 481264489,
@@ -3512,12 +3710,38 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 18738
+      },
+      "readme_url": "https://github.com/Azure/ACSS-preview/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5cd7cecfc87a7a3d4fe78421b6e04ba7d501b1b0",
+      "readme_excerpt": "As the maintainer of this project, please make a few updates: Improving this README.MD file to provide a great experience Updating SUPPORT.MD with content about",
+      "readme_headings": [
+        "Project",
+        "Contributing",
+        "Trademarks"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Project",
+          "excerpt": "As the maintainer of this project, please make a few updates: Improving this README.MD file to provide a great experience Updating SUPPORT.MD with content about"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1945,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:35:52+00:00"
     },
     "Azure/action-release-workflows": {
       "id": 712101065,
@@ -3540,12 +3764,55 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/Azure/action-release-workflows/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1bfa55b4c74ecbb2d7c211a8b664de61bf25d1fe",
+      "readme_excerpt": "Trigger from the Actions 1. Finds the latest",
+      "readme_headings": [
+        "action-release-workflows",
+        "Workflows",
+        "Release Proposal Workflow",
+        "Usage: Manual Dispatch",
+        "Let AI decide the version bump",
+        "Override with a specific version type",
+        "Specify a custom changelog path",
+        "Usage: Reusable Workflow",
+        "Inputs",
+        "How It Works",
+        "Permissions Required",
+        "Other Reusable Workflows",
+        "Extract Changelog",
+        "Create Release",
+        "Check Signed Commits",
+        "Contributing",
+        "Trademarks"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Usage: Manual Dispatch",
+          "excerpt": "Trigger from the Actions"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "How It Works",
+          "excerpt": "1. Finds the latest"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6579,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:36:03+00:00"
     },
     "Azure/actions": {
       "id": 199838560,
@@ -3568,12 +3835,57 @@
       "open_issues": 32,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 99816,
+        "Python": 1443
+      },
+      "readme_url": "https://github.com/Azure/actions/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "53ccb49e713159c3bc11975b2dd01d13c00cdbe7",
+      "readme_excerpt": "With GitHub Actions for",
+      "readme_headings": [
+        "Actions - [GitHub Actions for Azure](https://azure.github.io/actions/)",
+        "Table of contents",
+        "Introduction to GitHub Actions for Azure and Starter Action Workflows",
+        "Contributing to Azure Actions",
+        "Authoring and making changes",
+        "Actions Repository Permissions",
+        "Testing",
+        "Release",
+        "Monitoring",
+        "Azure Actions toolkit",
+        "Health Dashboard for Azure Action repos",
+        "Contributing License Agreement",
+        "Code of Conduct"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction to GitHub Actions for Azure and Starter Action Workflows",
+          "excerpt": "With GitHub Actions for"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5194,
+      "manifest_paths": [
+        {
+          "path": "docs/Gemfile",
+          "sha": "6d5ab76aada9fdb8527453e2669808e5f15c7a0e",
+          "size": 1125,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:36:14+00:00"
     },
     "Azure/actions-toolkit": {
       "id": 337497418,
@@ -3596,12 +3908,88 @@
       "open_issues": 27,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 48048,
+        "JavaScript": 290
+      },
+      "readme_url": "https://github.com/Azure/actions-toolkit/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "25ca5f182bc7e188bce1faece36828ab2f86a79e",
+      "readme_excerpt": "This repository hosts node modules to help writing your azure actions easier. The packages are: :heavy_check_mark: @azure-actions/auth Helper for authentication to communicate with Azure API.",
+      "readme_headings": [
+        "Azure actions toolkit",
+        "Contributing",
+        "Trademarks"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Azure actions toolkit",
+          "excerpt": "This repository hosts node modules to help writing your azure actions easier. The packages are: :heavy_check_mark: @azure-actions/auth Helper for authentication to communicate with Azure API."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2111,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "c216bcd07cdbfa2d4275806b41de3b235137ea9d",
+          "size": 946,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/jest",
+            "@types/node",
+            "@types/signale",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "concurrently",
+            "eslint",
+            "eslint-plugin-github",
+            "eslint-plugin-jest",
+            "flow-bin",
+            "jest",
+            "jest-circus",
+            "lerna",
+            "prettier",
+            "ts-jest",
+            "typescript"
+          ]
+        },
+        {
+          "path": "packages/auth/package.json",
+          "sha": "68cef60c802fa660d5a361540d23aea966f7216b",
+          "size": 903,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@azure-actions/utilities",
+            "@types/node",
+            "querystring"
+          ]
+        },
+        {
+          "path": "packages/utilities/package.json",
+          "sha": "4cb0db8b2a7bd0ad93f6a0cfea25e0cb72911476",
+          "size": 957,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@actions/core",
+            "@types/node",
+            "minimatch",
+            "shelljs",
+            "typed-rest-client"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:36:25+00:00"
     },
     "Azure/actions-workflow-samples": {
       "id": 202136150,
@@ -3624,12 +4012,67 @@
       "open_issues": 65,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Pug": 2605,
+        "JavaScript": 2285,
+        "CSS": 1266,
+        "Stylus": 617,
+        "Dockerfile": 203
+      },
+      "readme_url": "https://github.com/Azure/actions-workflow-samples/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1141d8247a908eadb69b20c69661133c4ac30188",
+      "readme_excerpt": "You use Azure starter templates present in this repo to easily create GitHub CI/CD workflows targeting Azure, to deploy your apps created with popular languages",
+      "readme_headings": [
+        "Starter Action Workflows to deploy to Azure",
+        "Guidelines to select/author a new sample workflow",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Starter Action Workflows to deploy to Azure",
+          "excerpt": "You use Azure starter templates present in this repo to easily create GitHub CI/CD workflows targeting Azure, to deploy your apps created with popular languages"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5725,
+      "manifest_paths": [
+        {
+          "path": "AppService/node_express_sampleApp/Dockerfile",
+          "sha": "d2e328ed1afee1d786762d28ccb7f5fdab202cd7",
+          "size": 203,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "AppService/node_express_sampleApp/package.json",
+          "sha": "e6660bd852798ca7f5133c2884943373eeb24a85",
+          "size": 526,
+          "content_status": "captured",
+          "dependency_hints": [
+            "applicationinsights",
+            "body-parser",
+            "cookie-parser",
+            "debug",
+            "express",
+            "morgan",
+            "natives",
+            "pug",
+            "serve-favicon"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:36:36+00:00"
     },
     "Azure/actions-workflow-templates": {
       "id": 235465037,
@@ -3652,12 +4095,29 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/Azure/actions-workflow-templates/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6d86f37b5cc0aa07ed6dfc41f71e69474f83c5ca",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "Actions Workflow Templates",
+        "Contributing"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1231,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:36:46+00:00"
     },
     "Azure/activate-genai": {
       "id": 701231130,
@@ -3686,12 +4146,92 @@
         "openai"
       ],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 44090,
+        "Dockerfile": 931
+      },
+      "readme_url": "https://github.com/Azure/activate-genai/blob/aihub/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c2fcd19107ca4af51225e7b3f44edf3fd3875c6e",
+      "readme_excerpt": "This delivery guide will help you build a ChatGPT-like experiences over your Enterprise data using the Retrieval Augmented Generation pattern. Under the hood the solution",
+      "readme_headings": [
+        "Activate GenAI with Azure",
+        "Contributing",
+        "Trademarks"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Activate GenAI with Azure",
+          "excerpt": "This delivery guide will help you build a ChatGPT-like experiences over your Enterprise data using the Retrieval Augmented Generation pattern. Under the hood the solution"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1894,
+      "manifest_paths": [
+        {
+          "path": ".devcontainer/Dockerfile",
+          "sha": "badfe1e9f8d87dfc4dda0908bac8038dc1dbcc85",
+          "size": 931,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/go.mod",
+          "sha": "ec0974f56141d86c7874475df72dfa1e595a0a31",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/FortAwesome/Font-Awesome",
+            "github.com/google/docsy",
+            "github.com/twbs/bootstrap"
+          ]
+        },
+        {
+          "path": "docs/package.json",
+          "sha": "49c9e38bacd18467e6d95703f656dab4cfc5dcc6",
+          "size": 1584,
+          "content_status": "captured",
+          "dependency_hints": [
+            "autoprefixer",
+            "hugo-extended",
+            "postcss-cli"
+          ]
+        },
+        {
+          "path": "scripts/Dockerfile",
+          "sha": "48ca9682e28b5e09beeba9ef10d4ecbb4fc62adc",
+          "size": 257,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "scripts/requirements.txt",
+          "sha": "2d22cfc14859e3d15f059a848adbec2ae560bab1",
+          "size": 183,
+          "content_status": "captured",
+          "dependency_hints": [
+            "azure-ai-formrecognizer",
+            "azure-identity",
+            "azure-search-documents",
+            "azure-storage-blob",
+            "openai",
+            "pypdf",
+            "tenacity",
+            "tiktoken"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:36:58+00:00"
     },
     "Azure/active-learning-workshop": {
       "id": 128486475,
@@ -3714,12 +4254,50 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 1137471,
+        "HTML": 494438,
+        "JavaScript": 59174,
+        "R": 34931,
+        "Python": 30579,
+        "CSS": 8511,
+        "PowerShell": 5214,
+        "Shell": 749,
+        "Rebol": 104
+      },
+      "readme_url": "https://github.com/Azure/active-learning-workshop/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "83de14e08fbba8fa2ce46c1c9fdd38fd229e8627",
+      "readme_excerpt": "1. Welcome and Virtual",
+      "readme_headings": [
+        "KDD 2018 Hands-on Tutorial: Active learning and transfer learning at scale with R and Python",
+        "Instructions",
+        "Abstract",
+        "Active Learning",
+        "Outline:",
+        "Detailed Outline of the Tutorial:",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Detailed Outline of the Tutorial:",
+          "excerpt": "1. Welcome and Virtual"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4945,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:37:08+00:00"
     },
     "Azure/ADAW": {
       "id": 426782252,
@@ -3742,12 +4320,68 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Bicep": 42187,
+        "PowerShell": 4760
+      },
+      "readme_url": "https://github.com/Azure/ADAW/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3cec5169dab2263f286546e1bb492251c33b5979",
+      "readme_excerpt": "The goal of this Focus on Enterprise Grade Idea behind this pattern This subnet is for",
+      "readme_headings": [
+        "Azure Data Analytical Workspace (ADAW) - Reference Architecture 2021 for Regulated Industries",
+        "Project Overview",
+        "Key Features",
+        "Architecture Overview",
+        "Architecture in Azure components",
+        "Key Components in the solution",
+        "Deployment",
+        "Deployment Example",
+        "Deployment parameters",
+        "Implementation Details",
+        "Private Link Zones",
+        "Log Analytics",
+        "Networking",
+        "control-plane subnet and network security group",
+        "data-plane subnet and network security group",
+        "private-link subnet and network security group",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Project Overview",
+          "excerpt": "The goal of this"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Key Features",
+          "excerpt": "Focus on Enterprise Grade"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Architecture Overview",
+          "excerpt": "Idea behind this pattern"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "control-plane subnet and network security group",
+          "excerpt": "This subnet is for"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 24663,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:37:19+00:00"
     },
     "Azure/ade-extensibility-model-terraform": {
       "id": 790889518,
@@ -3770,12 +4404,54 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 3976,
+        "PowerShell": 1144,
+        "Dockerfile": 792
+      },
+      "readme_url": "https://github.com/Azure/ade-extensibility-model-terraform/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f8193eba5f1e8df2f30d03779d21ce1e8422fdd6",
+      "readme_excerpt": "To use the quickstart In order to use",
+      "readme_headings": [
+        "Azure Deployment Environments - Leveraging ADE's Extensibility Model With Terraform",
+        "Using the Quickstart Powershell Script",
+        "GitHub Action Prerequisites",
+        "Utilizing the Created Image Within ADE"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Using the Quickstart Powershell Script",
+          "excerpt": "To use the quickstart"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "GitHub Action Prerequisites",
+          "excerpt": "In order to use"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4864,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "0188e59f71d92a24690e0a035b2d3af9d69e8a4d",
+          "size": 792,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:37:30+00:00"
     },
     "Azure/ADLAwithR-GettingStarted": {
       "id": 101329988,
@@ -3798,12 +4474,48 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 44292,
+        "R": 8138
+      },
+      "readme_url": "https://github.com/Azure/ADLAwithR-GettingStarted/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "feb2760bf42721b0b553c158e7b495c15cdc41ca",
+      "readme_excerpt": "Welcome to ***Getting Started Before you begin this",
+      "readme_headings": [
+        "Getting Started with using ADLA with R - A Tutorial",
+        "Prerequisites for [Tutorial](/Tutorial/)",
+        "ADLA review",
+        "USQL review",
+        "Deploying R Code",
+        "[Azure Data Lake Analytics with R Tutorial Using Jupyter notebook and Azure CLI](/Azure%20CLI/)",
+        "[Additional Resources](/Azure%20CLI/Additional%20Resources.md/)"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started with using ADLA with R - A Tutorial",
+          "excerpt": "Welcome to ***Getting Started"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites for [Tutorial](/Tutorial/)",
+          "excerpt": "Before you begin this"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4252,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:37:40+00:00"
     },
     "Azure/adls-lakehouse-demo": {
       "id": 1243188848,
@@ -3826,12 +4538,76 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 193237,
+        "Python": 16881
+      },
+      "readme_url": "https://github.com/Azure/adls-lakehouse-demo/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0738bf1d55ea0d499590d1a805722446ca0c4483",
+      "readme_excerpt": "A strategic overview of This lakehouse is built An active **Azure Subscription**",
+      "readme_headings": [
+        "Table of Contents",
+        "Scenario",
+        "Architecture",
+        "Batch Processing Layer",
+        "Streaming Processing Layer",
+        "Consumption Layer",
+        "Lab Guide",
+        "Prerequisites",
+        "Step 1: Create an Azure Databricks Workspace",
+        "Step 2: Create an ADLS Gen2 Storage Account",
+        "Step 3: Configure the Access Connector (Managed Identity)",
+        "Step 4: Create the Unity Catalog and Schemas",
+        "Step 5: Clone the Repository into Your Workspace",
+        "Step 6: Configure the Config Notebook",
+        "Step 7: Set Up Azure Key Vault + Secret Scope",
+        "Step 8: Run the Bootstrap Notebook",
+        "Step 9: Set Up the Bronze Ingestion Pipeline",
+        "Step 10: Run the Silver Transformations",
+        "Step 11: Run the Gold Tables",
+        "Step 12: Set Up the Live Ride Generator",
+        "Step 13: Set Up the Streaming Ingestion Pipeline",
+        "Step 14: Set Up the PowerBI Serving Views",
+        "Step 15: Schedule the Batch Processing Job",
+        "Step 16: Connect PowerBI via DirectQuery",
+        "PowerBI Dashboards",
+        "Executive Highlights",
+        "Live Operations Command Center",
+        "Conversational Analytics with Genie",
+        "Setting Up a Genie Space",
+        "Example Questions to Explore"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": "Executive Highlights",
+          "excerpt": "A strategic overview of"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Architecture",
+          "excerpt": "This lakehouse is built"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "An active **Azure Subscription**"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 30841,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:37:51+00:00"
     },
     "Azure/adlsgen1togen2migration": {
       "id": 406384392,
@@ -3854,12 +4630,45 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "PowerShell": 95414,
+        "Python": 10230
+      },
+      "readme_url": "https://github.com/Azure/adlsgen1togen2migration/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6e3a2fd55b2c6d9b534ffdeddb1f0e22c2b02253",
+      "readme_excerpt": "Azure Data Lake Storage (ADLS) Gen 1 is being replaced by Gen 2. The end of life for Gen 1 is Feb 2024 (Retirement Announcement.",
+      "readme_headings": [
+        "<img src=\"Assets/images/adlsmigrationreadiness.png\" alt=\"ADLS Gen1 to Gen2 Migrations\" style=\"float: left; margin-right:10px;\" />",
+        "Key Updates",
+        "Mindmap(s)",
+        "Steps to Migrate from ADLS Gen 1 to Gen 2:",
+        "1-Assess",
+        "2-Prepare",
+        "3-Migrate",
+        "4-Post-Migration",
+        "Useful Resources/Links"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "<img src=\"Assets/images/adlsmigrationreadiness.png\" alt=\"ADLS Gen1 to Gen2 Migrations\" style=\"float: left; margin-right:10px;\" />",
+          "excerpt": "Azure Data Lake Storage (ADLS) Gen 1 is being replaced by Gen 2. The end of life for Gen 1 is Feb 2024 (Retirement Announcement."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6749,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:38:02+00:00"
     },
     "Azure/ADME-Solution-Accelerators": {
       "id": 852393757,
@@ -3882,12 +4691,38 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/Azure/ADME-Solution-Accelerators/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "727d03cc7d96d6185789df076c2b802d19bbaab4",
+      "readme_excerpt": "This repository contains references to Azure Data Manager for Energy (ADME) Solution Accelerators, meant to accelerate customers' and partners' adoption and integration with ADME, and",
+      "readme_headings": [
+        "Azure Data Manager for Energy (ADME) Solution Accelerators",
+        "Solution Accelerators",
+        "How-to Guides",
+        "Maintainers",
+        "Trademarks"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Azure Data Manager for Energy (ADME) Solution Accelerators",
+          "excerpt": "This repository contains references to Azure Data Manager for Energy (ADME) Solution Accelerators, meant to accelerate customers' and partners' adoption and integration with ADME, and"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2174,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:38:13+00:00"
     },
     "Azure/ado-summary-agent": {
       "id": 1025614274,
@@ -3910,12 +4745,101 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 48272
+      },
+      "readme_url": "https://github.com/Azure/ado-summary-agent/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ec27ea9c5655676c2e9d6ae3596697b4e2118e31",
+      "readme_excerpt": "An intelligent Azure DevOps **Air-Gapped AI**: Work item pip install -r requirements.txt **Zero Cloud AI Exposure**: Python 3.8+ Ollama with **Zero Cloud AI Exposure**:",
+      "readme_headings": [
+        "ADO Summary Agent (Local CPU)",
+        "🎯 Purpose",
+        "🔒 Security & Data Protection",
+        "Enterprise-Grade Security Design",
+        "Data Protection Features",
+        "Perfect for Enterprise Environments",
+        "🏗️ How It Works",
+        "Core Architecture",
+        "Processing Workflow",
+        "🚀 Setup & Prerequisites",
+        "Requirements",
+        "Installation",
+        "1. Install dependencies",
+        "2. Configure environment (.env file)",
+        "3. Setup Ollama model",
+        "4. Run",
+        "📊 Input & Output",
+        "Input Data",
+        "Output Format",
+        "WORK ITEM [ID]: [Title]",
+        "⚙️ Configuration",
+        "Key Settings",
+        "Model Configuration",
+        "Deterministic AI settings for consistent output",
+        "🔍 Capabilities & Limitations",
+        "✅ Capabilities",
+        "⚠️ Limitations"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "ADO Summary Agent (Local CPU)",
+          "excerpt": "An intelligent Azure DevOps"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Data Protection Features",
+          "excerpt": "**Air-Gapped AI**: Work item"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "1. Install dependencies",
+          "excerpt": "pip install -r requirements.txt"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Enterprise-Grade Security Design",
+          "excerpt": "**Zero Cloud AI Exposure**:"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "Python 3.8+ Ollama with"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Enterprise-Grade Security Design",
+          "excerpt": "**Zero Cloud AI Exposure**:"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5466,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "594c83d4ab6137fd35271f7634642993465cdd34",
+          "size": 49,
+          "content_status": "captured",
+          "dependency_hints": [
+            "azure-devops",
+            "ollama",
+            "pytest",
+            "python-dotenv",
+            "requests"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:38:24+00:00"
     },
     "Azure/adx-automation-agent": {
       "id": 122587678,
@@ -3940,12 +4864,76 @@
         "automation"
       ],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 43453,
+        "Shell": 1574,
+        "Makefile": 849
+      },
+      "readme_url": "https://github.com/Azure/adx-automation-agent/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ee23534069138a2c80c3e5cc84d013389edd0d8b",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "Contributing",
+        "ADX Automation Agents"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1094,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "eb1c1179c562e83c8308d9ae253bf5b65f39c68b",
+          "size": 1593,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/ghodss/yaml",
+            "github.com/gogo/protobuf",
+            "github.com/golang/glog",
+            "github.com/google/btree",
+            "github.com/google/gofuzz",
+            "github.com/googleapis/gnostic",
+            "github.com/gregjones/httpcache",
+            "github.com/imdario/mergo",
+            "github.com/json-iterator/go",
+            "github.com/modern-go/concurrent",
+            "github.com/modern-go/reflect2",
+            "github.com/peterbourgon/diskv",
+            "github.com/sirupsen/logrus",
+            "github.com/spf13/pflag",
+            "github.com/streadway/amqp",
+            "golang.org/x/crypto",
+            "golang.org/x/net",
+            "golang.org/x/oauth2",
+            "golang.org/x/sync",
+            "golang.org/x/sys",
+            "golang.org/x/time",
+            "google.golang.org/appengine",
+            "gopkg.in/inf.v0",
+            "gopkg.in/yaml.v2",
+            "k8s.io/api",
+            "k8s.io/apimachinery",
+            "k8s.io/client-go"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "3d2c586c296f60cb742f281df56646d7a84557aa",
+          "size": 849,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:38:35+00:00"
     },
     "Azure/adx-automation-client": {
       "id": 122587404,
@@ -3971,12 +4959,65 @@
         "cli"
       ],
       "last_seen_scan_id": "2026-11-23T20:22:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 55151,
+        "Shell": 562
+      },
+      "readme_url": "https://github.com/Azure/adx-automation-client/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2c25809043a760f9c678f1e3341a84d998c6f424",
+      "readme_excerpt": "Path to the latest",
+      "readme_headings": [
+        "A01 - The CLI for ADX Automation System",
+        "Prerequisite",
+        "Install",
+        "Bash",
+        "Windows",
+        "Initialize",
+        "Onboard your own tests",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Install",
+          "excerpt": "Path to the latest"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2420,
+      "manifest_paths": [
+        {
+          "path": "Pipfile",
+          "sha": "46373f98474f62efddd0928f169ae867a6db9b59",
+          "size": 173,
+          "content_status": "captured",
+          "dependency_hints": [
+            "adx-automation-cli",
+            "name",
+            "pylint",
+            "url",
+            "verify_ssl"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "55d480e2f0911fd63a95f5420d32542161ca2bec",
+          "size": 1832,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:38:45+00:00"
     },
     "Azure/adx-automation-monitor": {
       "id": 122708608,
@@ -83537,5 +84578,6 @@
   "scan_id": "2026-11-23T20:22:21+00:00",
   "refresh_in_progress": false,
   "repository_count": 2760,
-  "retrieved_at": "2026-11-23T20:23:15+00:00"
+  "retrieved_at": "2026-11-23T20:23:15+00:00",
+  "enrichment_cursor": "azure/adx-automation-client"
 }

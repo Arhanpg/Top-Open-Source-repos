@@ -46,26 +46,26 @@
 | [rapidsai/dask-cuml](https://github.com/rapidsai/dask-cuml) | [ARCHIVED] Dask support for multi-GPU machine learning algorithms --> Moved to cuml | 16 | Python, Shell | True | False | True | captured | [Open](repositories/dask-cuml-174427832.md) |
 | [rapidsai/dask-sql](https://github.com/rapidsai/dask-sql) | Distributed SQL Engine in Python using Dask | 0 | Dockerfile, FreeMarker, Java, Jupyter Notebook, Python, Shell | True | True | True | captured | [Open](repositories/dask-sql-409322542.md) |
 | [rapidsai/dask-upstream-testing](https://github.com/rapidsai/dask-upstream-testing) | No description | 2 | Python, Shell | False | False | True | captured | [Open](repositories/dask-upstream-testing-885519532.md) |
-| [rapidsai/dask-xgboost](https://github.com/rapidsai/dask-xgboost) | Fork of dask/dask-xgboost for RAPIDS + Dask-XGBoost integration | 10 | Pending | True | True | True | pending | Not generated |
-| [rapidsai/deeplearning](https://github.com/rapidsai/deeplearning) | No description | 350 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/dependency-file-generator](https://github.com/rapidsai/dependency-file-generator) | No description | 16 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/deployment](https://github.com/rapidsai/deployment) | RAPIDS Deployment Documentation | 15 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/detect-weak-linking](https://github.com/rapidsai/detect-weak-linking) | No description | 4 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/devcontainers](https://github.com/rapidsai/devcontainers) | No description | 28 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/dgl](https://github.com/rapidsai/dgl) | Python package built to ease deep learning on graph, on top of existing DL frameworks. | 3 | Pending | True | True | True | pending | Not generated |
-| [rapidsai/dgl-cugraph-build-environment](https://github.com/rapidsai/dgl-cugraph-build-environment) | No description | 2 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/distributed-join](https://github.com/rapidsai/distributed-join) | No description | 23 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/dlpack](https://github.com/rapidsai/dlpack) | RFC for common in-memory tensor structure and operator interface for deep learning system | 0 | Pending | True | True | True | pending | Not generated |
-| [rapidsai/docker](https://github.com/rapidsai/docker) | Dockerfile templates for creating RAPIDS Docker Images | 87 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/docs](https://github.com/rapidsai/docs) | RAPIDS Documentation Site | 54 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/docs-archive](https://github.com/rapidsai/docs-archive) | RAPIDS Documentation Site (archive) | 0 | Pending | True | True | True | pending | Not generated |
-| [rapidsai/frigate](https://github.com/rapidsai/frigate) | Frigate is a tool for automatically generating documentation for your Helm charts | 85 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/GaaS](https://github.com/rapidsai/GaaS) | No description | 5 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/gha-tools](https://github.com/rapidsai/gha-tools) | User tools for RAPIDS GitHub Actions | 3 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/gpu-bdb](https://github.com/rapidsai/gpu-bdb) | RAPIDS GPU-BDB | 109 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/gpuci-build-environment](https://github.com/rapidsai/gpuci-build-environment) | Common build environment used by gpuCI for building RAPIDS | 19 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/gpuci-mgmt](https://github.com/rapidsai/gpuci-mgmt) | Mangement scripts for gpuCI | 2 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/gpuci-tools](https://github.com/rapidsai/gpuci-tools) | User tools for use within the gpuCI environment | 2 | Pending | True | False | True | pending | Not generated |
+| [rapidsai/dask-xgboost](https://github.com/rapidsai/dask-xgboost) | Fork of dask/dask-xgboost for RAPIDS + Dask-XGBoost integration | 10 | Python | True | True | True | captured | [Open](repositories/dask-xgboost-156281169.md) |
+| [rapidsai/deeplearning](https://github.com/rapidsai/deeplearning) | No description | 350 | Dockerfile, Jupyter Notebook, Python | True | False | True | captured | [Open](repositories/deeplearning-191389448.md) |
+| [rapidsai/dependency-file-generator](https://github.com/rapidsai/dependency-file-generator) | No description | 16 | Python, Shell | False | False | True | captured | [Open](repositories/dependency-file-generator-517728363.md) |
+| [rapidsai/deployment](https://github.com/rapidsai/deployment) | RAPIDS Deployment Documentation | 15 | Batchfile, CSS, Dockerfile, HTML, JavaScript, Jinja, Jupyter Notebook, Makefile, Python, Shell | False | False | True | captured | [Open](repositories/deployment-480870625.md) |
+| [rapidsai/detect-weak-linking](https://github.com/rapidsai/detect-weak-linking) | No description | 4 | Cuda, Python, Shell | False | False | True | captured | [Open](repositories/detect-weak-linking-704115999.md) |
+| [rapidsai/devcontainers](https://github.com/rapidsai/devcontainers) | No description | 28 | Dockerfile, GDB, PowerShell, Python, Shell | False | False | True | captured | [Open](repositories/devcontainers-593323059.md) |
+| [rapidsai/dgl](https://github.com/rapidsai/dgl) | Python package built to ease deep learning on graph, on top of existing DL frameworks. | 3 | Batchfile, C, C++, CMake, Cuda, Cython, Python, Shell | True | True | True | captured | [Open](repositories/dgl-481270521.md) |
+| [rapidsai/dgl-cugraph-build-environment](https://github.com/rapidsai/dgl-cugraph-build-environment) | No description | 2 | Dockerfile | True | False | True | captured | [Open](repositories/dgl-cugraph-build-environment-522607780.md) |
+| [rapidsai/distributed-join](https://github.com/rapidsai/distributed-join) | No description | 23 | C++, CMake, Cuda, Dockerfile, Python, Shell | True | False | True | captured | [Open](repositories/distributed-join-228705582.md) |
+| [rapidsai/dlpack](https://github.com/rapidsai/dlpack) | RFC for common in-memory tensor structure and operator interface for deep learning system | 0 | C, C++, CMake, Makefile, Shell | True | True | True | captured | [Open](repositories/dlpack-174562382.md) |
+| [rapidsai/docker](https://github.com/rapidsai/docker) | Dockerfile templates for creating RAPIDS Docker Images | 87 | Dockerfile, Python, Shell, jq | False | False | True | captured | [Open](repositories/docker-169118314.md) |
+| [rapidsai/docs](https://github.com/rapidsai/docs) | RAPIDS Documentation Site | 54 | CSS, HTML, JavaScript, Makefile, Python, Shell | False | False | True | captured | [Open](repositories/docs-172754357.md) |
+| [rapidsai/docs-archive](https://github.com/rapidsai/docs-archive) | RAPIDS Documentation Site (archive) | 0 | CSS, Dockerfile, HTML, JavaScript, Jupyter Notebook, Python, Ruby, Shell | True | True | True | captured | [Open](repositories/docs-archive-627984440.md) |
+| [rapidsai/frigate](https://github.com/rapidsai/frigate) | Frigate is a tool for automatically generating documentation for your Helm charts | 85 | Jinja, Mustache, Python, Shell | True | False | True | captured | [Open](repositories/frigate-259679457.md) |
+| [rapidsai/GaaS](https://github.com/rapidsai/GaaS) | No description | 5 | Python, Shell | True | False | True | captured | [Open](repositories/gaas-483302477.md) |
+| [rapidsai/gha-tools](https://github.com/rapidsai/gha-tools) | User tools for RAPIDS GitHub Actions | 3 | Python, Shell | False | False | True | captured | [Open](repositories/gha-tools-514317981.md) |
+| [rapidsai/gpu-bdb](https://github.com/rapidsai/gpu-bdb) | RAPIDS GPU-BDB | 109 | Dockerfile, Python, Shell | False | False | True | captured | [Open](repositories/gpu-bdb-249531822.md) |
+| [rapidsai/gpuci-build-environment](https://github.com/rapidsai/gpuci-build-environment) | Common build environment used by gpuCI for building RAPIDS | 19 | Dockerfile, Shell | True | False | True | captured | [Open](repositories/gpuci-build-environment-143346122.md) |
+| [rapidsai/gpuci-mgmt](https://github.com/rapidsai/gpuci-mgmt) | Mangement scripts for gpuCI | 2 | Dockerfile, Python, Shell | True | False | True | captured | [Open](repositories/gpuci-mgmt-198697151.md) |
+| [rapidsai/gpuci-tools](https://github.com/rapidsai/gpuci-tools) | User tools for use within the gpuCI environment | 2 | Shell | True | False | True | captured | [Open](repositories/gpuci-tools-239848571.md) |
 | [rapidsai/gputreeshap](https://github.com/rapidsai/gputreeshap) | No description | 112 | Pending | False | False | True | pending | Not generated |
 | [rapidsai/gqe](https://github.com/rapidsai/gqe) | No description | 65 | Pending | False | False | True | pending | Not generated |
 | [rapidsai/gqe-bench](https://github.com/rapidsai/gqe-bench) | GQE benchmarking suite for GPU query performance across tuning parameters | 3 | Pending | False | False | True | pending | Not generated |

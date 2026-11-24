@@ -1,0 +1,92 @@
+# amazon-archives/aws-flow-ruby
+
+- Company: Amazon
+- GitHub account: [https://github.com/amazon-archives](https://github.com/amazon-archives)
+- Mapping status: official-directory-listed
+- Repository: [amazon-archives/aws-flow-ruby](https://github.com/amazon-archives/aws-flow-ruby)
+- Default branch: master
+- README: [Open upstream README](https://github.com/amazon-archives/aws-flow-ruby/blob/master/README.md)
+- README blob SHA: 99e6b8c3a48a83ad3feab7daa1e5f4e7da920ea5
+- README bytes captured: 2494
+- README truncated at capture limit: False
+- Repository ID: 11380203
+- Evidence state: evidence captured; manual review pending
+- Manual review: manual technical interpretation pending
+
+## Upstream description
+
+ARCHIVED
+
+This is repository-owner metadata, not an independently verified technical summary.
+
+## README capture
+
+- Status: captured
+- Unavailable reason: Not applicable
+- Captured: 2026-11-24T05:04:54+00:00
+
+### Short excerpt (up to 300 words)
+
+> To create a simple
+
+### README headings
+
+- AWS Flow Framework for Ruby
+- Basic Usage
+- Results
+- wait till ready
+- Running Workers in Amazon EC2
+- Links
+- License
+
+## README section evidence excerpts
+
+Short excerpts are selected from matching upstream README sections. They are source evidence, not generated or human-reviewed technical summaries.
+
+### Getting started and usage: Basic Usage
+
+> To create a simple
+
+## GitHub language statistics
+
+GitHub's Languages API reports detected source-code bytes. It does not identify frameworks or architecture by itself.
+
+| Language | Bytes |
+|---|---:|
+| Ruby | 840,297 |
+
+## Build and dependency manifest paths
+
+These paths were found in the default-branch tree. A manifest filename alone is not proof of a framework or runtime.
+
+- aws-flow/Gemfile (capture: captured)
+
+- Manifest scan truncated by GitHub: False
+- Manifest capture state: captured
+
+## Lifecycle metadata
+
+- Archived: True
+- Fork: False
+- Disabled: False
+- Licence SPDX: Unknown
+- Stars at capture: 134
+- Forks at capture: 59
+- Last updated: 2025-10-28T13:39:01Z
+- Last pushed: 2017-09-27T14:17:16Z
+- Topics: Not supplied
+
+## Required manual review
+
+Interpret the README's purpose and capabilities; confirm framework/library claims against manifests and relevant source; inspect architecture, tests, licence, security guidance, platform constraints and maintenance status. Only then change the manual review state to README reviewed.
+
+## Upstream links
+
+- [Repository](https://github.com/amazon-archives/aws-flow-ruby)
+- [README](https://github.com/amazon-archives/aws-flow-ruby/blob/master/README.md)
+- [Issues](https://github.com/amazon-archives/aws-flow-ruby/issues)
+- [Releases](https://github.com/amazon-archives/aws-flow-ruby/releases)
+
+Capture errors: None
+
+*Generated evidence capture only. This page is not labelled README reviewed until a human has interpreted and checked the upstream material.*

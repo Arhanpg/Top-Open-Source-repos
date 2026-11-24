@@ -2064,12 +2064,93 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 530624,
+        "Cuda": 18381,
+        "C++": 3216,
+        "Shell": 2671,
+        "Dockerfile": 1108
+      },
+      "readme_url": "https://github.com/Tencent/BuildingBlock/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "eb82608185216107b5dca23b8608b8807de2d7b5",
+      "readme_excerpt": "Install Docker by following",
+      "readme_headings": [
+        "BuildingBlock",
+        "Release Scope",
+        "Installation",
+        "1. Install Docker and Pull the Image",
+        "2. Run the Docker Container",
+        "3. Initialize the Environment",
+        "Dataset Preparation",
+        "1. Download and Extract the Dataset",
+        "2. Process the Dataset",
+        "Apply rotation-based data augmentation.",
+        "Normalize the Unreal Engine JSON layout data.",
+        "Convert JSON layouts into NumPy box representations.",
+        "Copy the dataset statistics into the processed-data directory.",
+        "Running Stage 1",
+        "Stage 2: Generate a Community Skill with GPT-6 Astra",
+        "How to Use",
+        "Copy-and-Paste Prompt",
+        "Project Structure"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "1. Install Docker and Pull the Image",
+          "excerpt": "Install Docker by following"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 10525,
+      "manifest_paths": [
+        {
+          "path": "BuildingBlock/Dockerfile",
+          "sha": "d56e34c337fa7ce99369ec43aea129c2e61caf82",
+          "size": 1108,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "BuildingBlock/setup.py",
+          "sha": "9a93017165f5d6c116dfc3f69473e9ebda5f1c25",
+          "size": 2233,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "BuildingBlock/ChamferDistancePytorch/chamfer2D/setup.py",
+          "sha": "6fca431a966764a9937e0ea4de117afe614d20c1",
+          "size": 459,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "BuildingBlock/ChamferDistancePytorch/chamfer3D/setup.py",
+          "sha": "0200b9f9a6d7b9d8b4b81aa9f9bcfb8bc1df739f",
+          "size": 459,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "BuildingBlock/ChamferDistancePytorch/chamfer5D/setup.py",
+          "sha": "51f59601db34d164a3d84aeae86734c9693b48e7",
+          "size": 459,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:28:44+00:00"
     },
     "Tencent/caelus": {
       "id": 409559324,
@@ -2099,12 +2180,206 @@
         "yarn"
       ],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 1023824,
+        "Shell": 20210,
+        "Dockerfile": 1811,
+        "Makefile": 828
+      },
+      "readme_url": "https://github.com/Tencent/caelus/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "21faf16aaf3c40ba9aade6d399684ba63e29c25b",
+      "readme_excerpt": "Collect various metrics, including Find more usage at",
+      "readme_headings": [
+        "Caelus",
+        "Features",
+        "Usage",
+        "nm_operator",
+        "Getting started",
+        "Build",
+        "binary build, which generates binary under _output/bin/",
+        "image build",
+        "run unit test",
+        "Run",
+        "running in script",
+        "run in container",
+        "running on K8S",
+        "More",
+        "Contributing",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": "Features",
+          "excerpt": "Collect various metrics, including"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Usage",
+          "excerpt": "Find more usage at"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3859,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "e5e51ff440b4d12842aac74fa88129527cb142b6",
+          "size": 6990,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/Knetic/govaluate",
+            "github.com/Microsoft/go-winio",
+            "github.com/StackExchange/wmi",
+            "github.com/VividCortex/ewma",
+            "github.com/beorn7/perks",
+            "github.com/blang/semver",
+            "github.com/blang/semver/v4",
+            "github.com/cespare/xxhash/v2",
+            "github.com/checkpoint-restore/go-criu/v5",
+            "github.com/chenchun/ipset",
+            "github.com/cilium/ebpf",
+            "github.com/containerd/console",
+            "github.com/coreos/go-systemd/v22",
+            "github.com/cyphar/filepath-securejoin",
+            "github.com/davecgh/go-spew",
+            "github.com/docker/distribution",
+            "github.com/docker/docker",
+            "github.com/docker/engine-api",
+            "github.com/docker/go-connections",
+            "github.com/docker/go-units",
+            "github.com/emicklei/go-restful",
+            "github.com/emicklei/go-restful/v3",
+            "github.com/euank/go-kmsg-parser",
+            "github.com/evanphx/json-patch",
+            "github.com/fatih/structs",
+            "github.com/fsnotify/fsnotify",
+            "github.com/go-logr/logr",
+            "github.com/go-ole/go-ole",
+            "github.com/go-openapi/jsonpointer",
+            "github.com/go-openapi/jsonreference",
+            "github.com/go-openapi/swag",
+            "github.com/godbus/dbus/v5",
+            "github.com/gogo/protobuf",
+            "github.com/golang/protobuf",
+            "github.com/google/cadvisor",
+            "github.com/google/gnostic",
+            "github.com/google/go-cmp",
+            "github.com/google/gofuzz",
+            "github.com/google/uuid",
+            "github.com/guillermo/go.procmeminfo",
+            "github.com/imdario/mergo",
+            "github.com/inconshreveable/mousetrap",
+            "github.com/josharian/intern",
+            "github.com/json-iterator/go",
+            "github.com/karrick/godirwalk",
+            "github.com/mailru/easyjson",
+            "github.com/matttproud/golang_protobuf_extensions",
+            "github.com/mindprince/gonvml",
+            "github.com/mistifyio/go-zfs",
+            "github.com/moby/sys/mountinfo",
+            "github.com/modern-go/concurrent",
+            "github.com/modern-go/reflect2",
+            "github.com/mrunalp/fileutils",
+            "github.com/munnerz/goautoneg",
+            "github.com/opencontainers/go-digest",
+            "github.com/opencontainers/image-spec",
+            "github.com/opencontainers/runc",
+            "github.com/opencontainers/runtime-spec",
+            "github.com/opencontainers/selinux",
+            "github.com/parnurzeal/gorequest"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "9ba713fc334aeb6c1c416fa91f780dad96c7c097",
+          "size": 658,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "hack/Dockerfile",
+          "sha": "c6b317f44db1c34bac5b84973464005daef3658f",
+          "size": 1185,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "contrib/lighthouse-plugin/go.mod",
+          "sha": "a59291bf0810b5e30c8c4592bb16d45b91e6b99c",
+          "size": 1335,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/Microsoft/hcsshim",
+            "github.com/Sirupsen/logrus",
+            "github.com/containerd/cgroups",
+            "github.com/containerd/containerd",
+            "github.com/containerd/continuity",
+            "github.com/coreos/go-systemd/v22",
+            "github.com/docker/distribution",
+            "github.com/docker/docker",
+            "github.com/docker/go-connections",
+            "github.com/evanphx/json-patch",
+            "github.com/gorilla/mux",
+            "github.com/json-iterator/go",
+            "github.com/mYmNeo/version",
+            "github.com/moby/term",
+            "github.com/morikuni/aec",
+            "github.com/opencontainers/image-spec",
+            "github.com/opencontainers/runc",
+            "github.com/sirupsen/logrus",
+            "github.com/spf13/cobra",
+            "github.com/spf13/pflag",
+            "gotest.tools/v3",
+            "k8s.io/api",
+            "k8s.io/apimachinery",
+            "k8s.io/apiserver",
+            "k8s.io/client-go",
+            "k8s.io/component-base",
+            "k8s.io/klog"
+          ]
+        },
+        {
+          "path": "contrib/lighthouse-plugin/Makefile",
+          "sha": "fbd4929a964c58bb922cb6bebb57e32489be4185",
+          "size": 85,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "contrib/lighthouse/go.mod",
+          "sha": "de833b1acbbd7724f88263fdff8609b10ada569e",
+          "size": 599,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/Microsoft/go-winio",
+            "github.com/coreos/go-systemd/v22",
+            "github.com/docker/go-connections",
+            "github.com/evanphx/json-patch",
+            "github.com/google/uuid",
+            "github.com/gorilla/mux",
+            "github.com/json-iterator/go",
+            "github.com/mYmNeo/version",
+            "github.com/spf13/cobra",
+            "github.com/spf13/pflag",
+            "golang.org/x/net",
+            "k8s.io/apimachinery",
+            "k8s.io/component-base",
+            "k8s.io/klog"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:28:55+00:00"
     },
     "Tencent/CenseoQoE": {
       "id": 428977916,
@@ -2127,12 +2402,59 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 95799,
+        "C++": 42665,
+        "Shell": 5365,
+        "CMake": 3734,
+        "Dockerfile": 1116
+      },
+      "readme_url": "https://github.com/Tencent/CenseoQoE/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "34322c80221cf3ad1d2be37af59fe205b8d9c087",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "CenseoQoE: 视觉感知画质评价框架",
+        "项目介绍",
+        "News",
+        "主要特性",
+        "快速开始",
+        "Demo",
+        "常见问题",
+        "许可",
+        "引用",
+        "参与贡献",
+        "致谢"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3796,
+      "manifest_paths": [
+        {
+          "path": "CenseoQoE-Algorithm/Dockerfile",
+          "sha": "9672bb34be8b6c11a34ba30afd46a612007aee37",
+          "size": 1116,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "CenseoQoE-SDK/CMakeLists.txt",
+          "sha": "e0ac2a2176ef7d379c06fdbe6baf89f880f161f0",
+          "size": 3734,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:29:05+00:00"
     },
     "Tencent/cherry-markdown": {
       "id": 417477677,
@@ -2159,12 +2481,196 @@
         "markdown"
       ],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 2229527,
+        "JavaScript": 1843263,
+        "SCSS": 250900,
+        "CSS": 103362,
+        "Rust": 8919,
+        "Dockerfile": 2860,
+        "NSIS": 2759,
+        "HTML": 1843,
+        "Handlebars": 735
+      },
+      "readme_url": "https://github.com/Tencent/cherry-markdown/blob/dev/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ef75ed271d1e1d04eace138b1c8bc6b25674c4fd",
+      "readme_excerpt": "Cherry Markdown Writer is **Out-of-the-box** — Instantiate with Via yarn yarn add",
+      "readme_headings": [
+        "Cherry Markdown Writer",
+        "Introduction",
+        "Document",
+        "Demos",
+        "Features",
+        "Downloads",
+        "Desktop Client",
+        "VSCode Extension",
+        "Install as a package",
+        "CDN usage",
+        "Contribution Guidelines",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Cherry Markdown Writer is"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Features",
+          "excerpt": "**Out-of-the-box** — Instantiate with"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Install as a package",
+          "excerpt": "Via yarn yarn add"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6855,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "c881f088d00dca5a969269693cd7844a6d303b7a",
+          "size": 3862,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@babel/core",
+            "@babel/eslint-parser",
+            "@babel/preset-env",
+            "@changesets/cli",
+            "@cherry-markdown/changesets-changelog-github",
+            "@commitlint/config-conventional",
+            "@eslint/eslintrc",
+            "@eslint/js",
+            "@types/mocha",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "@vitest/coverage-v8",
+            "@vue/typescript-plugin",
+            "commitlint",
+            "esbuild",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-config-tencent",
+            "eslint-plugin-prettier",
+            "globals",
+            "husky",
+            "prettier",
+            "typescript",
+            "vite",
+            "vite-plus",
+            "vitest",
+            "vue-eslint-parser",
+            "vue-tsc"
+          ]
+        },
+        {
+          "path": ".cnb/Dockerfile",
+          "sha": "da58b6ae96d68cc49d4d060be97688098f472b79",
+          "size": 926,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".devcontainer/Dockerfile",
+          "sha": "fab9350a35b441c1cc8343402eddeb3c378066f3",
+          "size": 877,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/cherry-markdown-publish/package.json",
+          "sha": "7bda8da0ce69777dacc5d5ff419bb340d08efb6f",
+          "size": 2463,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@fastify/static",
+            "@nestjs/axios",
+            "@nestjs/cli",
+            "@nestjs/common",
+            "@nestjs/config",
+            "@nestjs/core",
+            "@nestjs/mapped-types",
+            "@nestjs/platform-fastify",
+            "@nestjs/schematics",
+            "@nestjs/swagger",
+            "@nestjs/testing",
+            "@swc/cli",
+            "@swc/core",
+            "@types/jest",
+            "@types/js-yaml",
+            "@types/supertest",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "axios",
+            "class-transformer",
+            "class-validator",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-prettier",
+            "fastify",
+            "jest",
+            "js-yaml",
+            "juice",
+            "prettier",
+            "reflect-metadata",
+            "remove",
+            "rxjs",
+            "source-map-support",
+            "supertest",
+            "ts-jest",
+            "ts-loader",
+            "ts-node",
+            "tsconfig-paths",
+            "typescript"
+          ]
+        },
+        {
+          "path": "examples/miniProgram/package.json",
+          "sha": "a8093cd2f478c79c40d5892f0f68bbc36c3ab86e",
+          "size": 311,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cherry-markdown/miniprogram"
+          ]
+        },
+        {
+          "path": "examples/react_demo/package.json",
+          "sha": "b8a25bd57175e3238f2414304db09f7289c0b3be",
+          "size": 783,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@eslint/js",
+            "@types/react",
+            "@types/react-dom",
+            "@vitejs/plugin-react",
+            "cherry-markdown",
+            "eslint",
+            "eslint-plugin-react-hooks",
+            "eslint-plugin-react-refresh",
+            "globals",
+            "react",
+            "react-dom",
+            "typescript",
+            "typescript-eslint",
+            "vite",
+            "vite-plus"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:29:16+00:00"
     },
     "Tencent/clawhub": {
       "id": 1216529385,
@@ -2187,12 +2693,159 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 4321908,
+        "CSS": 204276,
+        "JavaScript": 126009,
+        "Shell": 1650
+      },
+      "readme_url": "https://github.com/Tencent/clawhub/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "83dd86398616ba53b219210048dcb914ca18e912",
+      "readme_excerpt": "ClawHub is the **public Web app: TanStack Start",
+      "readme_headings": [
+        "What you can do with it",
+        "onlycrabs.ai (SOUL.md registry)",
+        "How it works (high level)",
+        "CLI",
+        "Removal permissions",
+        "Telemetry",
+        "Repo layout",
+        "Local dev",
+        "edit .env.local — see CONTRIBUTING.md for local Convex values",
+        "terminal A: local Convex backend",
+        "terminal B: web app (port 3000)",
+        "seed sample data",
+        "Environment",
+        "Nix plugins (nixmode skills)",
+        "Skill metadata",
+        "Scripts"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "ClawHub is the **public"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "How it works (high level)",
+          "excerpt": "Web app: TanStack Start"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 8102,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "924bd2d95a7778c4045034ced5573456fee856fc",
+          "size": 6687,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@auth/core",
+            "@convex-dev/auth",
+            "@fontsource/bricolage-grotesque",
+            "@fontsource/ibm-plex-mono",
+            "@fontsource/manrope",
+            "@monaco-editor/react",
+            "@playwright/test",
+            "@radix-ui/react-avatar",
+            "@radix-ui/react-dialog",
+            "@radix-ui/react-dropdown-menu",
+            "@radix-ui/react-label",
+            "@radix-ui/react-select",
+            "@radix-ui/react-separator",
+            "@radix-ui/react-slot",
+            "@radix-ui/react-toggle-group",
+            "@radix-ui/react-tooltip",
+            "@resvg/resvg-wasm",
+            "@shikijs/rehype",
+            "@tailwindcss/vite",
+            "@tanstack/devtools-vite",
+            "@tanstack/react-router",
+            "@tanstack/react-start",
+            "@testing-library/dom",
+            "@testing-library/react",
+            "@types/node",
+            "@types/react",
+            "@types/react-dom",
+            "@types/semver",
+            "@vercel/analytics",
+            "@vitejs/plugin-react",
+            "@vitest/coverage-v8",
+            "class-variance-authority",
+            "clawhub-schema",
+            "clsx",
+            "convex",
+            "convex-helpers",
+            "fflate",
+            "h3",
+            "ignore",
+            "jsdom",
+            "lucide-react",
+            "monaco-editor",
+            "nitro",
+            "only-allow",
+            "oxfmt",
+            "oxlint",
+            "oxlint-tsgolint",
+            "react",
+            "react-dom",
+            "react-markdown",
+            "rehype-raw",
+            "rehype-sanitize",
+            "remark-gfm",
+            "semver",
+            "shiki",
+            "sonner",
+            "tailwind-merge",
+            "tailwindcss",
+            "tw-animate-css",
+            "typescript"
+          ]
+        },
+        {
+          "path": "packages/clawhub/package.json",
+          "sha": "6746b991c723a052913afa11578c9bf8a734e7fe",
+          "size": 1509,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@clack/prompts",
+            "@types/node",
+            "arktype",
+            "commander",
+            "fflate",
+            "ignore",
+            "json5",
+            "mime",
+            "ora",
+            "p-retry",
+            "semver",
+            "typescript",
+            "undici"
+          ]
+        },
+        {
+          "path": "packages/schema/package.json",
+          "sha": "21cc042c7a299f66bcf0438adbf7ee52a5f6e9dc",
+          "size": 777,
+          "content_status": "captured",
+          "dependency_hints": [
+            "arktype",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:29:27+00:00"
     },
     "Tencent/Cloud-Volume-Workload-Traces": {
       "id": 902671904,
@@ -2215,12 +2868,39 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/Tencent/Cloud-Volume-Workload-Traces/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "948ff0015b8003e64b9ed5c4b146ef629af1b5f9",
+      "readme_excerpt": "These traces are published by Tencent Cloud to help researchers understand workloads in the cloud block storage systems, which includes subscription information and I/O traces",
+      "readme_headings": [
+        "Tencent Cloud Virtual Disk Traces",
+        "<small> Download </small>",
+        "<small> Schema </small>",
+        "<small> Acknowledgements </small>",
+        "<small> Citation </small>",
+        "<small> License </small>"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Tencent Cloud Virtual Disk Traces",
+          "excerpt": "These traces are published by Tencent Cloud to help researchers understand workloads in the cloud block storage systems, which includes subscription information and I/O traces"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3061,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:29:37+00:00"
     },
     "Tencent/cloudbase-framework": {
       "id": 256659361,
@@ -2263,12 +2943,161 @@
         "vue"
       ],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 253829,
+        "Dockerfile": 3380,
+        "Vue": 3193
+      },
+      "readme_url": "https://github.com/Tencent/cloudbase-framework/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7d9743d68317049073899626659dceea14c674bb",
+      "readme_excerpt": "🚀 CloudBase Framework 是云开发官方出品的前后端一体化部署工具 下面的快速开始部分可以帮助您更快地体验 CloudBase Framework 的能力，以便尽快开始将自己的项目部署起来。",
+      "readme_headings": [
+        "Table of Contents",
+        "<a name=\"quick-start\"></a> 快速开始",
+        "<a name=\"examples\"></a>项目示例",
+        "<a name=\"plugins\"></a>插件",
+        "自动检测生成插件配置流程",
+        "目前支持的插件列表",
+        "<a name=\"conf\"></a> 配置示例",
+        "<a name=\"changelog\"></a> Changelog",
+        "<a name=\"license\"></a>License",
+        "<a name=\"user\"></a>优秀应用案例",
+        "在线交流群",
+        "CloudBase Framework 资讯",
+        "技术文章",
+        "演讲",
+        "新闻",
+        "<a name=\"contributor\"></a> Contributors ✨",
+        "<a name=\"contribute\"></a>贡献指南"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "🚀 CloudBase Framework 是云开发官方出品的前后端一体化部署工具"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "<a name=\"examples\"></a>项目示例",
+          "excerpt": "下面的快速开始部分可以帮助您更快地体验 CloudBase Framework 的能力，以便尽快开始将自己的项目部署起来。"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 60680,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "b37fb3f71ee11d413b5d181ac61cf9a7099ee020",
+          "size": 1809,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@babel/eslint-parser",
+            "@cloudbase/toolbox",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "conventional-changelog-cli",
+            "cz-conventional-changelog",
+            "del",
+            "eslint",
+            "eslint-config-tencent",
+            "eslint-plugin-header",
+            "got",
+            "lerna",
+            "license-checker",
+            "mdmod",
+            "rimraf",
+            "typescript"
+          ]
+        },
+        {
+          "path": "scripts/package.json",
+          "sha": "6bb438c36b55df1032d0cf66da5fad3d3a06711c",
+          "size": 338,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@lerna/create-symlink",
+            "del",
+            "mkdirp"
+          ]
+        },
+        {
+          "path": "packages/cloudbase-next-builder/package.json",
+          "sha": "13ec6a9ae2cc350337d88c9669059a08e0bb9527",
+          "size": 719,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cloudbase/framework-core",
+            "@types/archiver",
+            "@types/fs-extra",
+            "@types/node",
+            "archiver",
+            "fs-extra",
+            "typescript"
+          ]
+        },
+        {
+          "path": "packages/cloudbase-node-builder/package.json",
+          "sha": "3f6d96045961bccbaf220668e74d1ca1e65da91b",
+          "size": 794,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cloudbase/framework-core",
+            "@types/archiver",
+            "@types/fs-extra",
+            "@types/node",
+            "archiver",
+            "express",
+            "fs-extra",
+            "jszip",
+            "serverless-http",
+            "typescript"
+          ]
+        },
+        {
+          "path": "packages/cloudbase-nuxt-builder/package.json",
+          "sha": "6bc6c485b0d67fc66690e72891851991d0ccdcc5",
+          "size": 858,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@babel/core",
+            "@babel/preset-env",
+            "@cloudbase/framework-core",
+            "@types/archiver",
+            "@types/babel-core",
+            "@types/babel__core",
+            "@types/fs-extra",
+            "@types/node",
+            "archiver",
+            "fs-extra",
+            "typescript"
+          ]
+        },
+        {
+          "path": "packages/cloudbase-static-builder/package.json",
+          "sha": "0c41f82d6107d0d599618c86b9a5cab96c58591e",
+          "size": 720,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cloudbase/framework-core",
+            "@cloudbase/toolbox",
+            "@types/node",
+            "@types/node-fetch",
+            "cpy",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:29:49+00:00"
     },
     "Tencent/cls-mcp-server": {
       "id": 1209274761,
@@ -2291,12 +3120,109 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 188980,
+        "JavaScript": 8145,
+        "Dockerfile": 1118
+      },
+      "readme_url": "https://github.com/Tencent/cls-mcp-server/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "55b82442c8dadd519ceafd81118e681e634d10d1",
+      "readme_excerpt": "1. Clone the repository",
+      "readme_headings": [
+        "Tencent Cloud Log Service (CLS) MCP Server",
+        "Features",
+        "Log Search",
+        "Metric Query",
+        "Alarm Management",
+        "Utilities",
+        "Use Cases",
+        "Configuration",
+        "Getting Started",
+        "Option 1: NPX (Recommended for Local Deployment)",
+        "Option 2: Self-hosted Streamable HTTP Mode",
+        "Uncomment the following line if deploying within a Tencent Cloud VPC",
+        "TENCENTCLOUD_API_BASE_HOST=internal.tencentcloudapi.com",
+        "Option 3: Self-hosted SSE Mode",
+        "Uncomment the following line if deploying within a Tencent Cloud VPC",
+        "TENCENTCLOUD_API_BASE_HOST=internal.tencentcloudapi.com",
+        "Option 4: Install from Source",
+        "Uncomment the following line if deploying within a Tencent Cloud VPC",
+        "TENCENTCLOUD_API_BASE_HOST=internal.tencentcloudapi.com",
+        "Uncomment the following line if deploying within a Tencent Cloud VPC",
+        "TENCENTCLOUD_API_BASE_HOST=internal.tencentcloudapi.com",
+        "Option 5: Docker Deployment",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Option 4: Install from Source",
+          "excerpt": "1. Clone the repository"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 10009,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "765a577cd5227fedf601eff981559de294be4572",
+          "size": 1118,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "package.json",
+          "sha": "47298db9b20d21e4884795d909157f4023548f86",
+          "size": 2450,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@commitlint/cli",
+            "@commitlint/config-conventional",
+            "@modelcontextprotocol/sdk",
+            "@types/express",
+            "@types/ip",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "@vitest/coverage-v8",
+            "babel-eslint",
+            "dotenv",
+            "eslint",
+            "eslint-config-tencent",
+            "eslint-import-resolver-typescript",
+            "eslint-plugin-import",
+            "eslint-plugin-prettier",
+            "express",
+            "husky",
+            "lint-staged",
+            "moment",
+            "moment-timezone",
+            "prettier",
+            "tencentcloud-sdk-nodejs-cls",
+            "tencentcloud-sdk-nodejs-common",
+            "tencentcloud-sdk-nodejs-region",
+            "ts-loader",
+            "ts-node",
+            "typescript",
+            "vitest",
+            "webpack",
+            "webpack-cli",
+            "webpack-node-externals",
+            "zod"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:29:59+00:00"
     },
     "Tencent/CMONGO": {
       "id": 137185014,
@@ -2319,12 +3245,82 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 24678972,
+        "JavaScript": 5123828,
+        "Python": 856251,
+        "C": 161957,
+        "Shell": 16526,
+        "HTML": 392
+      },
+      "readme_url": "https://github.com/Tencent/CMONGO/blob/master/README",
+      "readme_path": "README",
+      "readme_sha": "6b38e117e3f5b46a0cb8a24b4dcbf7e1593528fe",
+      "readme_excerpt": "CMONGO README Welcome to",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "CMONGO README Welcome to"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1853,
+      "manifest_paths": [
+        {
+          "path": "src/third_party/libstemmer_c/Makefile",
+          "sha": "64d6c8ea596671ddcb61c3246c32036ec354c7f0",
+          "size": 247,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/third_party/s2/Makefile",
+          "sha": "cbc4fed9873a0634cfcfdb128d72fe3b2913deb8",
+          "size": 7206,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/third_party/IntelRDFPMathLib20U1/LIBRARY/makefile",
+          "sha": "ffaa2cf04b036e50a81e7ecc4a713e896e1e3019",
+          "size": 20951,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/third_party/IntelRDFPMathLib20U1/TESTS/makefile",
+          "sha": "34fb64d788570f6ab7a2f736b6aae648ff2b5575",
+          "size": 3706,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/third_party/wiredtiger/lang/python/setup.py",
+          "sha": "cf5b0c5cab1f9b9f6d416578c5b8e1520b31fb87",
+          "size": 2266,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/third_party/wiredtiger/src/docs/Makefile",
+          "sha": "71173523a0a3f528d74e667492a81ce2b8ab37fe",
+          "size": 100,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:30:11+00:00"
     },
     "Tencent/CodeAnalysis": {
       "id": 442433063,
@@ -2354,12 +3350,121 @@
         "python37"
       ],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 3180402,
+        "TypeScript": 1314105,
+        "SCSS": 182394,
+        "Shell": 177862,
+        "Java": 84989,
+        "Go": 28571,
+        "HTML": 10157,
+        "Dockerfile": 7611,
+        "JavaScript": 5311,
+        "Smarty": 4075,
+        "Batchfile": 3655,
+        "Makefile": 879
+      },
+      "readme_url": "https://github.com/Tencent/CodeAnalysis/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c236e57a4e9016be8dab7c3a2085080782391ae1",
+      "readme_excerpt": "Tencent Cloud Code Analysis 1. **Language support**: It How to deploy How",
+      "readme_headings": [
+        "TCA Official",
+        "TCA CNB Pages(Better Internet Speed)",
+        "TCA Github Pages",
+        "What is TCA",
+        "Key Features",
+        "Getting Started",
+        "Community",
+        "Changelogs",
+        "Contributing",
+        "License",
+        "TCA Team Member"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "What is TCA",
+          "excerpt": "Tencent Cloud Code Analysis"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Key Features",
+          "excerpt": "1. **Language support**: It"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "How to deploy How"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4812,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "476ac06e434c47c50442ca9bd0791232a7ff2f72",
+          "size": 1994,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "client/Dockerfile",
+          "sha": "b27d6dea97759951f70f77dd892cb889828ca612",
+          "size": 1320,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "doc/package.json",
+          "sha": "141690455b99af38825b2d47d3258f7f6d12d1e5",
+          "size": 564,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@vuepress/plugin-search",
+            "vuepress"
+          ]
+        },
+        {
+          "path": "web/Dockerfile",
+          "sha": "365b4af6ad43784099b34dd6e96fd6e153530f18",
+          "size": 194,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "web/package.json",
+          "sha": "cbdc4a87596dc1b2d86836619088684245af05b4",
+          "size": 865,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "eslint",
+            "eslint-plugin-react",
+            "lerna",
+            "lerna-update-wizard",
+            "typescript"
+          ]
+        },
+        {
+          "path": "helm-charts/tca/Chart.yaml",
+          "sha": "c3178d60eba7ba869f671a81ff5d4f1f802743a9",
+          "size": 1128,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:30:21+00:00"
     },
     "Tencent/CogKernel": {
       "id": 904512613,
@@ -2382,12 +3487,175 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 243098,
+        "TypeScript": 88469,
+        "JavaScript": 31299,
+        "Dockerfile": 1542,
+        "HTML": 380,
+        "CSS": 120
+      },
+      "readme_url": "https://github.com/Tencent/CogKernel/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5977a4a06269b4aaa17113e5a7035306119dc171",
+      "readme_excerpt": "An Early-stage “Autopilot” System for Everyone Cognitive Kernel is an open-sourced agent system designed to achieve the goal of building general-purpose autopilot systems. It has",
+      "readme_headings": [
+        "Cognitive Kernel",
+        "Installation",
+        "Step 1: Start the model server",
+        "Step 2: Start the system",
+        "System Demonstration",
+        "Contribution",
+        "Disclaimer",
+        "Citation",
+        "Contact"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Cognitive Kernel",
+          "excerpt": "An Early-stage “Autopilot” System for Everyone Cognitive Kernel is an open-sourced agent system designed to achieve the goal of building general-purpose autopilot systems. It has"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5700,
+      "manifest_paths": [
+        {
+          "path": "backend/Dockerfile",
+          "sha": "6dcb5d93a0173d051c6c7c77e8a4b1d3b43fdbed",
+          "size": 908,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "backend/requirements.txt",
+          "sha": "d6b86490afff8ebdb87cdf993df6402a6855aa9f",
+          "size": 1326,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Jinja2",
+            "MarkupSafe",
+            "PyMuPDF",
+            "PyMuPDFb",
+            "PyPDF2",
+            "PyYAML",
+            "Pygments",
+            "SQLAlchemy",
+            "aiohttp",
+            "aioprocessing",
+            "aiosignal",
+            "annotated-types",
+            "anyio",
+            "async-timeout",
+            "attrs",
+            "bcrypt",
+            "bs4",
+            "certifi",
+            "cffi",
+            "charset-normalizer",
+            "click",
+            "cryptography",
+            "distro",
+            "dnspython",
+            "docx2txt",
+            "ecdsa",
+            "email_validator",
+            "exceptiongroup",
+            "faiss-cpu",
+            "fastapi",
+            "fastapi-cli",
+            "frozenlist",
+            "greenlet",
+            "h11",
+            "httpcore",
+            "httptools",
+            "httpx",
+            "idna",
+            "joblib",
+            "lxml",
+            "markdown-it-py",
+            "mdurl",
+            "multidict",
+            "nest-asyncio",
+            "nltk",
+            "numpy",
+            "openai",
+            "orjson",
+            "passlib",
+            "pdfminer.six",
+            "pillow",
+            "pip",
+            "psycopg2-binary",
+            "pyasn1",
+            "pycparser",
+            "pydantic",
+            "pydantic_core",
+            "python-dateutil",
+            "python-docx",
+            "python-dotenv"
+          ]
+        },
+        {
+          "path": "frontend/Dockerfile",
+          "sha": "792e8fc2837b749c6ab9f6a954a4a2b55b895839",
+          "size": 352,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "frontend/package.json",
+          "sha": "6b11f5bba66d5bdb90482270d2814885c5aa17ac",
+          "size": 779,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/react",
+            "@types/react-dom",
+            "@types/uuid",
+            "@vitejs/plugin-react",
+            "antd",
+            "antd-img-crop",
+            "axios",
+            "html2canvas",
+            "moment",
+            "react",
+            "react-code-blocks",
+            "react-dom",
+            "react-pro-sidebar",
+            "recharts",
+            "sass",
+            "typescript",
+            "uuid",
+            "vite"
+          ]
+        },
+        {
+          "path": "web/Dockerfile",
+          "sha": "f7648e6e2185e97c3a145aad5170ac94ed3f1b40",
+          "size": 282,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "web/package.json",
+          "sha": "86a6b28c5e101303f85522ec6e425be6f1f0bf32",
+          "size": 462,
+          "content_status": "captured",
+          "dependency_hints": [
+            "express",
+            "playwright"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:30:32+00:00"
     },
     "Tencent/CognitiveKernel-Pro": {
       "id": 1030036185,
@@ -2413,12 +3681,85 @@
         "llm"
       ],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 312276,
+        "JavaScript": 37311,
+        "Shell": 2523,
+        "Dockerfile": 1126
+      },
+      "readme_url": "https://github.com/Tencent/CognitiveKernel-Pro/blob/main/readme.md",
+      "readme_path": "readme.md",
+      "readme_sha": "3cea0211f6ac615fd8ee21a5c8656897dea860a6",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training",
+        "Updates",
+        "Running Cognitive Kernel-Pro (CogKernel-Pro for short) Agent",
+        "Environment",
+        "Python",
+        "Web Server (Powered by Playwright)",
+        "Example (A simple example)",
+        "Assume we have set up a vllm model server and a web-browser server (currently these are active: WEB_IP",
+        "run simple test",
+        "use \"NO_NULL_STDIN=1\" for easier debugging",
+        "you can also remove `--input` field to directly input your task from stdin",
+        "you can also remove `-mpdb` flag to run the program directly instead of in debugging mode",
+        "Example (Experimenting on the GAIA dataset)",
+        "Step 1: prepare data",
+        "decompress the gaia data (or you can download it by yourself from huggingface)",
+        "-> assume all the gaia related input files are at the same DIR as the input json meta-file",
+        "Step 2: prepare web service (recommending using a PC or laptop to enable better network connection)",
+        "-> prepare things according to \"./ck_web/_web/run_local.sh\"",
+        "Step 3: prepare a vllm instance for model calling",
+        "use gpt",
+        "or use claude",
+        "Step 4: Setup search engine",
+        "either using google api",
+        "or simply use DuckDuckGo",
+        "Step 5: run",
+        "it will be more stable to run a new web-browser for each web call, setup WEB_PORT (web browser service's port) and WEB_DIR (main dir of the web browser service)",
+        "moreover, it is slightly better to use non-boxed screenshot (make sure to update the latest `server.js` and set screenshot_boxed=False)",
+        "Step 6: analyze and check the output",
+        "Extra Running Config",
+        "calling claude+thinking for the outside main-agent"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 17976,
+      "manifest_paths": [
+        {
+          "path": "ck_pro/ck_web/_web/Dockerfile",
+          "sha": "6303b78aceb251d69dda1696757d737fdc0868af",
+          "size": 1126,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ck_pro/ck_web/_web/package.json",
+          "sha": "480c6a11419a2b3b3b661447ef166f9ca2df5a13",
+          "size": 650,
+          "content_status": "captured",
+          "dependency_hints": [
+            "async-mutex",
+            "express",
+            "js-yaml",
+            "playwright",
+            "playwright-extra",
+            "puppeteer-extra-plugin-stealth",
+            "uuid"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:30:42+00:00"
     },
     "Tencent/ContextPilot": {
       "id": 1347104725,
@@ -2441,12 +3782,170 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 4945695,
+        "Shell": 641086,
+        "Jupyter Notebook": 31467,
+        "Jinja": 10096,
+        "Makefile": 602
+      },
+      "readme_url": "https://github.com/Tencent/ContextPilot/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1443b64222cfbcd32ad54468eb4383cbd86870be",
+      "readme_excerpt": "src=\"https://img.shields.io/badge/ContextPilot-GitHub-blue?logo=github\" alt=\"GitHub Repo\" /> src=\"https://img.shields.io/badge/ContextPilot-Live_Demo-ff725e?logo=githubpages&logoColor=white\" alt=\"ContextPilot Live Demo\" /> src=\"https://img.shields.io/badge/ContextPilot-Paper-red?logo=arxiv&logoColor=red\" alt=\"Paper\" /> src=\"https://img.shields.io/badge/ContextPilot-Models-yellow?logo=huggingface&logoColor=yellow\" alt=\"Hugging Face Models\" /> src=\"https://img.shields.io/badge/ContextPilot-Quickstart-purple?logo=rocket&logoColor=purple\" alt=\"Quickstart\" /> ContextPilot extends context management with",
+      "readme_headings": [
+        "ContextPilot",
+        "Setup",
+        "1. Inference environment",
+        "2. Elasticsearch",
+        "3. Judge configuration",
+        "Evaluation",
+        "Training",
+        "Acknowledgements",
+        "Citation"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "ContextPilot",
+          "excerpt": "src=\"https://img.shields.io/badge/ContextPilot-GitHub-blue?logo=github\" alt=\"GitHub Repo\" /> src=\"https://img.shields.io/badge/ContextPilot-Live_Demo-ff725e?logo=githubpages&logoColor=white\" alt=\"ContextPilot Live Demo\" /> src=\"https://img.shields.io/badge/ContextPilot-Paper-red?logo=arxiv&logoColor=red\" alt=\"Paper\" /> src=\"https://img.shields.io/badge/ContextPilot-Models-yellow?logo=huggingface&logoColor=yellow\" alt=\"Hugging Face Models\" /> src=\"https://img.shields.io/badge/ContextPilot-Quickstart-purple?logo=rocket&logoColor=purple\" alt=\"Quickstart\" /> ContextPilot extends context management with"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7091,
+      "manifest_paths": [
+        {
+          "path": "infer/requirements.txt",
+          "sha": "c9f7e4c1b34b9ba95c79c44ac46376de7a704bb5",
+          "size": 4413,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Jinja2",
+            "MarkupSafe",
+            "PyJWT",
+            "PyYAML",
+            "Pygments",
+            "aiohappyeyeballs",
+            "aiohttp",
+            "aiosignal",
+            "annotated-doc",
+            "annotated-types",
+            "anthropic",
+            "anyio",
+            "apache-tvm-ffi",
+            "astor",
+            "attrs",
+            "blake3",
+            "cachetools",
+            "cbor2",
+            "certifi",
+            "cffi",
+            "charset-normalizer",
+            "click",
+            "cloudpickle",
+            "compressed-tensors",
+            "cryptography",
+            "cuda-bindings",
+            "cuda-core",
+            "cuda-pathfinder",
+            "cuda-python",
+            "cuda-tile",
+            "cuda-toolkit",
+            "datasets",
+            "depyf",
+            "detect-installer",
+            "dill",
+            "diskcache",
+            "distro",
+            "dnspython",
+            "docstring_parser",
+            "einops",
+            "elastic-transport",
+            "elasticsearch",
+            "email-validator",
+            "fastapi",
+            "fastapi-cli",
+            "fastapi-cloud-cli",
+            "fastar",
+            "fastsafetensors",
+            "filelock",
+            "fire",
+            "flashinfer-cubin",
+            "flashinfer-python",
+            "frozenlist",
+            "fsspec",
+            "googleapis-common-protos",
+            "grpcio",
+            "h11",
+            "hf-xet",
+            "httpcore",
+            "httptools"
+          ]
+        },
+        {
+          "path": "train/pyproject.toml",
+          "sha": "1426b507b0e06d6025f004248848cef730b53325",
+          "size": 3225,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "train/requirements.txt",
+          "sha": "9d4f236ea5d654408a5ab94c25e9b9a6c7621d3f",
+          "size": 371,
+          "content_status": "captured",
+          "dependency_hints": [
+            "accelerate",
+            "codetiming",
+            "datasets",
+            "dill",
+            "fastapi",
+            "hydra-core",
+            "latex2sympy2_extended",
+            "liger-kernel",
+            "math_verify",
+            "numpy",
+            "packaging",
+            "pandas",
+            "peft",
+            "pre-commit",
+            "pyarrow",
+            "pybind11",
+            "pylatexenc",
+            "ray",
+            "tensorboard",
+            "tensordict",
+            "torchdata",
+            "transformers",
+            "uvicorn",
+            "wandb"
+          ]
+        },
+        {
+          "path": "train/setup.py",
+          "sha": "4a86f035d094c0612e534575441f531497ccbad7",
+          "size": 2884,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "train/docs/Makefile",
+          "sha": "8bda904a9b0b29dfcf538cb52b806dd910710a4a",
+          "size": 602,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:30:54+00:00"
     },
     "Tencent/cos-mcp": {
       "id": 969914972,
@@ -2469,12 +3968,100 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 53982,
+        "JavaScript": 4882
+      },
+      "readme_url": "https://github.com/Tencent/cos-mcp/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "78957a3d15dec4e3ebc7bdce31d989610ce9102f",
+      "readme_excerpt": "中文 | English",
+      "readme_headings": [
+        "腾讯云 COS MCP Server 🚀🚀🚀",
+        "✨ 核心功能",
+        "云端存储能力",
+        "云端处理能力",
+        "💡 典型应用场景",
+        "🌟 功能示例",
+        "🔧 安装使用",
+        "参数说明",
+        "1. **SecretId / SecretKey**",
+        "2. **Bucket**",
+        "3. **Region**",
+        "4. **DatasetName**",
+        "5. **connectType**",
+        "6. **port**",
+        "从 npx 启动",
+        "使用 npm 安装",
+        "安装",
+        "运行开启 SSE 模式",
+        "或通过 JSON 配置",
+        "使用源码安装",
+        "步骤 1: 克隆项目代码",
+        "步骤 2: 安装依赖",
+        "步骤 3: 启动服务",
+        "3.1 配置本地环境变量",
+        "3.2 本地 SSE 模式启动（方式一）",
+        "3.3 本地构建后使用 STDIO 模式（方式二）",
+        "步骤 4: 在大模型内使用",
+        "SSE 模式配置",
+        "STDIO 模式配置",
+        "⚠️ 注意事项"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "中文 | English"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6888,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "8cb973c6c248bae7aa29e7a29be8f5fe952d5578",
+          "size": 1994,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@modelcontextprotocol/sdk",
+            "@types/electron",
+            "@types/express",
+            "@types/jest",
+            "@types/node",
+            "@types/yargs",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "axios",
+            "cos-nodejs-sdk-v5",
+            "dotenv",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-prettier",
+            "express",
+            "globals",
+            "jest",
+            "nodemon",
+            "prettier",
+            "shx",
+            "ts-jest",
+            "typescript",
+            "typescript-eslint",
+            "yargs",
+            "zod"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:31:04+00:00"
     },
     "Tencent/Covo-Audio": {
       "id": 1182868007,
@@ -2497,12 +4084,77 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 92035,
+        "Shell": 375
+      },
+      "readme_url": "https://github.com/Tencent/Covo-Audio/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0f726094d1c3dd1143177d3feb25ae1e5101690e",
+      "readme_excerpt": "Covo-Audio is a 7B-parameter **Hierarchical Tri-modal Speech-Text Interleaving**: Recommends Python >= 3.11",
+      "readme_headings": [
+        "Covo-Audio",
+        "📖 Overview",
+        "Key Features",
+        "🔧 Installation",
+        "1. Requirements",
+        "2. Clone Repository",
+        "3. Download Pretrained Models",
+        "🚀 Usage",
+        "Run Inference Scripts",
+        "🙏 Acknowledgments",
+        "🔗 Citation",
+        "📄 License",
+        "✉️ Contact",
+        "📔 Disclaimer"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "📖 Overview",
+          "excerpt": "Covo-Audio is a 7B-parameter"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Key Features",
+          "excerpt": "**Hierarchical Tri-modal Speech-Text Interleaving**:"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "1. Requirements",
+          "excerpt": "Recommends Python >= 3.11"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5558,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "74c50f86b9556c3995d7d8885da023c3cd0e2dc5",
+          "size": 97,
+          "content_status": "captured",
+          "dependency_hints": [
+            "einops",
+            "json5",
+            "librosa",
+            "numpy",
+            "soundfile",
+            "torchaudio",
+            "torchdiffeq",
+            "transformers"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:31:15+00:00"
     },
     "Tencent/CUARewardBench": {
       "id": 1244147963,
@@ -2525,12 +4177,100 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 202393,
+        "Shell": 16175
+      },
+      "readme_url": "https://github.com/Tencent/CUARewardBench/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3d6e7ec1f616222debf5c122d9ff3bd8c380a5cd",
+      "readme_excerpt": "**CUARewardBench** is the first cd CUARewardBench python3 -m",
+      "readme_headings": [
+        "CUA Reward Bench",
+        "📋 Overview",
+        "Repository Layout",
+        "Installation",
+        "Data",
+        "Default Layout",
+        "Public Release Data Policy",
+        "Full download + normalize + size/sha256 verification",
+        "Reuse downloaded archives/extracted files during iteration",
+        "Verify the prepared cache explicitly if needed",
+        "The repository benchmark layout is materialized automatically at:",
+        "data/trajectories/osworld_verified",
+        "Model Configuration",
+        "Evaluate CUARewardBench",
+        "Full Benchmark Evaluation",
+        "Recompute Metrics Only",
+        "Resume Behavior",
+        "Evaluation Modes",
+        "Outputs",
+        "Historical Qwen3-VL-32B Reference Run",
+        "Evaluate New Agent Trajectories",
+        "Single Trial",
+        "Multi-Trial Merged Evaluation",
+        "Voting and UPE",
+        "Explicit Input Files",
+        "Registry-Based Config",
+        "Development Notes",
+        "Citation",
+        "License",
+        "Acknowledgements"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "📋 Overview",
+          "excerpt": "**CUARewardBench** is the first"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "cd CUARewardBench python3 -m"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 17261,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "c5e8c49d788a358dd5fd44033fb077bc327971e9",
+          "size": 463,
+          "content_status": "captured",
+          "dependency_hints": [
+            "anthropic",
+            "openai",
+            "openpyxl",
+            "pandas",
+            "pillow",
+            "requests"
+          ]
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "53653dc56f6109803f0ba2063d3d8f942fb3996f",
+          "size": 49,
+          "content_status": "captured",
+          "dependency_hints": [
+            "anthropic",
+            "openai",
+            "openpyxl",
+            "pandas",
+            "pillow",
+            "requests"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:31:26+00:00"
     },
     "Tencent/DCache": {
       "id": 177738321,
@@ -2553,12 +4293,134 @@
       "open_issues": 34,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 4452419,
+        "JavaScript": 881595,
+        "Vue": 526059,
+        "CMake": 31054,
+        "Shell": 11865,
+        "CSS": 3488,
+        "C": 874,
+        "HTML": 616,
+        "Dockerfile": 187
+      },
+      "readme_url": "https://github.com/Tencent/DCache/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9b25a55e2d48b343c3b66a99ed4e7f40da085ee4",
+      "readme_excerpt": "DCache是一个基于TARS框架开发的分布式NoSQL存储系统，数据采用内存存储，支持连接后端DB实现数据持久化。DCache采用集群模式，具有高扩展、高可用的特点。 DCache在腾讯内部有大量业务使用，日访问总量超万亿次。 DCache具有以下特点 高性能存储引擎，支持key-value，k-k-row，list，set，zset多种数据结构，支持数据持久化落地后端DB。 集群模式，高扩展，高可用，支持异地镜像，就近接入。 通过名字访问，支持同步、异步、单向RPC调用。 高效运维平台，在线完成服务部署、扩缩容、迁移，以及服务配置，服务调用质量监控。 业务无须和直接和mysql交互, DCache会自动缓写DB",
+      "readme_headings": [
+        "背景",
+        "支持平台",
+        "开发语言",
+        "快速上手",
+        "文档",
+        "目录说明",
+        "数据库说明",
+        "参与贡献"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "背景",
+          "excerpt": "DCache是一个基于TARS框架开发的分布式NoSQL存储系统，数据采用内存存储，支持连接后端DB实现数据持久化。DCache采用集群模式，具有高扩展、高可用的特点。 DCache在腾讯内部有大量业务使用，日访问总量超万亿次。 DCache具有以下特点 高性能存储引擎，支持key-value，k-k-row，list，set，zset多种数据结构，支持数据持久化落地后端DB。 集群模式，高扩展，高可用，支持异地镜像，就近接入。 通过名字访问，支持同步、异步、单向RPC调用。 高效运维平台，在线完成服务部署、扩缩容、迁移，以及服务配置，服务调用质量监控。 业务无须和直接和mysql交互, DCache会自动缓写DB"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2531,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "9de2bb566f84a8c5ca2d48a8c8a367774414c5b8",
+          "size": 1259,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "dockerfile/Dockerfile",
+          "sha": "4e9b80aef671ff177332444ecf7a2d699e06e41f",
+          "size": 187,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/CMakeLists.txt",
+          "sha": "cfcdb599c10bc08f0f5048622ebf06a61e0ef018",
+          "size": 1548,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/CMakeLists.txt",
+          "sha": "a0fd0a9cfaf44191a72708f1ee1ea00e644114c0",
+          "size": 696,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "web/package.json",
+          "sha": "900a5983334783b56ca7131f3a4e28cf5293e671",
+          "size": 1867,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@tars/config",
+            "@tars/logs",
+            "@tars/rpc",
+            "@tars/stream",
+            "axios",
+            "circular-json",
+            "compressing",
+            "cross-env",
+            "debug",
+            "eslint",
+            "fs-extra",
+            "har-validator",
+            "koa",
+            "koa-bodyparser",
+            "koa-compress",
+            "koa-convert",
+            "koa-helmet",
+            "koa-json",
+            "koa-limit",
+            "koa-logger",
+            "koa-multer",
+            "koa-onerror",
+            "koa-router",
+            "koa-session",
+            "koa-static",
+            "koa-views",
+            "loadash",
+            "lodash",
+            "moment",
+            "mysql",
+            "mysql2",
+            "nodemon",
+            "request-promise",
+            "request-promise-any",
+            "resolve-url",
+            "sequelize",
+            "static-koa-router",
+            "urix",
+            "url"
+          ]
+        },
+        {
+          "path": "src/CombinDbAccessServer/CMakeLists.txt",
+          "sha": "6119074ebc6950a6dd8edf5f258b6a24f87074c4",
+          "size": 5141,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:31:37+00:00"
     },
     "Tencent/deepx_core": {
       "id": 350930956,
@@ -2581,12 +4443,81 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 2066321,
+        "Shell": 45270,
+        "Makefile": 13128,
+        "Roff": 2293,
+        "C": 242
+      },
+      "readme_url": "https://github.com/Tencent/deepx_core/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "164c36e1ad1a7488900b45e3e206fd745833a484",
+      "readme_excerpt": "deepx\\_core是一个专注于张量计算/深度学习的基础库. 基于deepx\\_core, 可以开发出数值计算/数值优化/凸优化/机器学习/深度学习/强化学习/图神经网络/无监督学习等应用.",
+      "readme_headings": [
+        "deepx\\_core",
+        "编译",
+        "单元测试",
+        "安装",
+        "文档",
+        "例子"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "deepx\\_core",
+          "excerpt": "deepx\\_core是一个专注于张量计算/深度学习的基础库. 基于deepx\\_core, 可以开发出数值计算/数值优化/凸优化/机器学习/深度学习/强化学习/图神经网络/无监督学习等应用."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 911,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "3551971837745c23822250ab17a743cc3ab58eb4",
+          "size": 5952,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "example/Makefile",
+          "sha": "cd7830d9fc45dc0bcf1f5e78caf4872bf2b65bfc",
+          "size": 419,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "example/computation/Makefile",
+          "sha": "f452af18c813577ccfaa7a20faead271ad2ca029",
+          "size": 1699,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "example/rank/Makefile",
+          "sha": "040f4777b041b82107fc97a8450d90b1abf7a1e9",
+          "size": 3437,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "example/rpc/Makefile",
+          "sha": "ed178d855eb7ad8361f568d3a1348e0d4f66a078",
+          "size": 1621,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:31:48+00:00"
     },
     "Tencent/DepthCrafter": {
       "id": 852027111,
@@ -2609,12 +4540,90 @@
       "open_issues": 11,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 102900,
+        "Shell": 3671
+      },
+      "readme_url": "https://github.com/Tencent/DepthCrafter/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "91e9e353942ca0ea4a10dadb80bfdc4cf1dd0d57",
+      "readme_excerpt": "🤗 If you find 1. Clone this repo: GPU with CUDA support",
+      "readme_headings": [
+        "___***DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos***___",
+        "🔆 Notice",
+        "🔆 Introduction",
+        "📦 Release Notes",
+        "🎥 Visualization",
+        "🚀 Quick Start",
+        "🤖 Gradio Demo",
+        "🌟 Community Support",
+        "🛠️ Installation",
+        "🤗 Model Zoo",
+        "🏃‍♂️ Inference",
+        "1. High-resolution inference, requires a GPU with ~26GB memory for 1024x576 resolution:",
+        "2. Low-resolution inference requires a GPU with ~9GB memory for 512x256 resolution:",
+        "🚀 Dataset Evaluation",
+        "🤝🍻 Contributing",
+        "🧪 Testing",
+        "Running Tests",
+        "Test Structure",
+        "Requirements",
+        "Star History",
+        "📜 Citation"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "🔆 Introduction",
+          "excerpt": "🤗 If you find"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "🛠️ Installation",
+          "excerpt": "1. Clone this repo:"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "GPU with CUDA support"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 10028,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "1df945728e60ea5584d34acfa5accab7cfd00e5d",
+          "size": 677,
+          "content_status": "captured",
+          "dependency_hints": [
+            "accelerate",
+            "decord",
+            "diffusers",
+            "fire",
+            "gradio",
+            "huggingface-hub",
+            "matplotlib",
+            "mediapy",
+            "pytest",
+            "torch",
+            "torchaudio",
+            "torchvision",
+            "transformers",
+            "xformers"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:31:58+00:00"
     },
     "Tencent/DiffSpot": {
       "id": 1251873044,
@@ -2637,12 +4646,113 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 79589
+      },
+      "readme_url": "https://github.com/Tencent/DiffSpot/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "14dc4a0a81974b778c9bfbad9f04bde5af1c40ae",
+      "readme_excerpt": "**A clean probe for git clone https://github.com/Tencent/DiffSpot.git cd",
+      "readme_headings": [
+        "Can VLMs Spot Fine-Grained Visual Differences in Web Interfaces?",
+        "WeChat AI",
+        "✨ Highlights",
+        "👀 Example Pairs",
+        "🏆 Leaderboard",
+        "🚀 Quick Start",
+        "1. Run a baseline VLM (loads the HF dataset, writes predictions JSONL)",
+        "Replace gpt-5.4 with your own model — see \"Evaluate your own model\" below.",
+        "2. Score predictions with the official LLM judge (gpt-oss-120b)",
+        "3. Print the official metrics table",
+        "📦 Dataset",
+        "🧪 Evaluate your own model",
+        "⚙️ Environment Variables",
+        "🗂️ Repository Layout",
+        "📚 Citation",
+        "📄 License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": "✨ Highlights",
+          "excerpt": "**A clean probe for"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "🚀 Quick Start",
+          "excerpt": "git clone https://github.com/Tencent/DiffSpot.git cd"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 9537,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "d5ef23d0fd3101bc15d36f29d39b61e603c1add4",
+          "size": 1185,
+          "content_status": "captured",
+          "dependency_hints": [
+            "anthropic",
+            "datasets",
+            "google-generativeai",
+            "httpx",
+            "huggingface_hub",
+            "numpy",
+            "openai",
+            "pandas",
+            "pillow",
+            "pydantic",
+            "pytest",
+            "pyyaml",
+            "ruff",
+            "tqdm"
+          ]
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "2d5bbc1fc2d9fc16d3e3d45d4b7d42c63687b882",
+          "size": 386,
+          "content_status": "captured",
+          "dependency_hints": [
+            "anthropic",
+            "datasets",
+            "google-generativeai",
+            "httpx",
+            "huggingface_hub",
+            "numpy",
+            "openai",
+            "pandas",
+            "pillow",
+            "pydantic",
+            "pytest",
+            "pyyaml",
+            "ruff",
+            "tqdm"
+          ]
+        },
+        {
+          "path": "space/requirements.txt",
+          "sha": "9aebd98ed2e5819631af845683c83e4305e4cf51",
+          "size": 204,
+          "content_status": "captured",
+          "dependency_hints": [
+            "datasets",
+            "gradio",
+            "huggingface_hub",
+            "pillow"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T04:32:09+00:00"
     },
     "Tencent/digitalhuman": {
       "id": 975249395,
@@ -11142,5 +13252,6 @@
   "scan_id": "2026-11-23T20:41:30+00:00",
   "refresh_in_progress": false,
   "repository_count": 317,
-  "retrieved_at": "2026-11-23T20:41:35+00:00"
+  "retrieved_at": "2026-11-23T20:41:35+00:00",
+  "enrichment_cursor": "tencent/diffspot"
 }

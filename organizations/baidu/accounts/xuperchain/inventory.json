@@ -1603,12 +1603,42 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 38743
+      },
+      "readme_url": "https://github.com/xuperchain/xasset-sdk-python/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "09b96aa68228861e2f7685d663adb70f9c2eb147",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "xasset-sdk-python",
+        "概述",
+        "使用说明",
+        "运行环境",
+        "使用示例"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1609,
+      "manifest_paths": [
+        {
+          "path": "setup.py",
+          "sha": "e3b49b985ec82ba3c697d5f4c9b3c51aea7be0c5",
+          "size": 572,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:58:33+00:00"
     },
     "xuperchain/xbench": {
       "id": 191128279,
@@ -1631,12 +1661,121 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 55954,
+        "Shell": 2698,
+        "Makefile": 54
+      },
+      "readme_url": "https://github.com/xuperchain/xbench/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "04a89d25df5bec921621f649aa94d8fea2314622",
+      "readme_excerpt": "xbench是xuperchain的压测工具，功能： 支持转账、存证和合约的压测 支持控制并发数、恒定RPS、阶梯发压、异步发压的能力 支持扩展，可以根据压测场景构造数据集 与老版本差异： 发压与统计能力分离，xbench专注于发压功能，统计功能使用grafana进行可视化展示 基于开源的grpc压测工具ghz进行二次开发，开发重点在根据测试场景构造测试数据集",
+      "readme_headings": [
+        "xbench",
+        "快速开始",
+        "可视化展示",
+        "支持的压测用例",
+        "产出包介绍",
+        "进阶",
+        "FAQ",
+        "文档"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "xbench",
+          "excerpt": "xbench是xuperchain的压测工具，功能： 支持转账、存证和合约的压测 支持控制并发数、恒定RPS、阶梯发压、异步发压的能力 支持扩展，可以根据压测场景构造数据集 与老版本差异： 发压与统计能力分离，xbench专注于发压功能，统计功能使用grafana进行可视化展示 基于开源的grpc压测工具ghz进行二次开发，开发重点在根据测试场景构造测试数据集"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6828,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "bd5ca8259ccbe159b30595dd84437ff647cd1458",
+          "size": 6221,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cloud.google.com/go/compute",
+            "cloud.google.com/go/compute/metadata",
+            "github.com/BurntSushi/toml",
+            "github.com/ChainSafe/go-schnorrkel",
+            "github.com/Masterminds/goutils",
+            "github.com/Masterminds/semver/v3",
+            "github.com/Masterminds/sprig/v3",
+            "github.com/alecthomas/kingpin",
+            "github.com/alecthomas/template",
+            "github.com/alecthomas/units",
+            "github.com/beorn7/perks",
+            "github.com/bojand/ghz",
+            "github.com/btcsuite/btcd",
+            "github.com/btcsuite/btcutil",
+            "github.com/bufbuild/protocompile",
+            "github.com/census-instrumentation/opencensus-proto",
+            "github.com/cespare/xxhash/v2",
+            "github.com/cncf/udpa/go",
+            "github.com/cncf/xds/go",
+            "github.com/consensys/gnark",
+            "github.com/consensys/gnark-crypto",
+            "github.com/cosmos/go-bip39",
+            "github.com/davecgh/go-spew",
+            "github.com/dustin/go-humanize",
+            "github.com/emirpasic/gods",
+            "github.com/envoyproxy/go-control-plane",
+            "github.com/envoyproxy/protoc-gen-validate",
+            "github.com/fsnotify/fsnotify",
+            "github.com/fxamacker/cbor/v2",
+            "github.com/go-kit/kit",
+            "github.com/go-logfmt/logfmt",
+            "github.com/go-stack/stack",
+            "github.com/gogo/protobuf",
+            "github.com/golang/protobuf",
+            "github.com/golang/snappy",
+            "github.com/google/uuid",
+            "github.com/grpc-ecosystem/grpc-gateway",
+            "github.com/gtank/merlin",
+            "github.com/gtank/ristretto255",
+            "github.com/hashicorp/hcl",
+            "github.com/huandu/xstrings",
+            "github.com/hyperledger/burrow",
+            "github.com/imdario/mergo",
+            "github.com/inconshreveable/mousetrap",
+            "github.com/ipfs/go-cid",
+            "github.com/ipfs/go-ipfs-addr",
+            "github.com/ipfs/go-log",
+            "github.com/ipfs/go-log/v2",
+            "github.com/jhump/protoreflect",
+            "github.com/jinzhu/configor",
+            "github.com/libp2p/go-buffer-pool",
+            "github.com/libp2p/go-libp2p-core",
+            "github.com/libp2p/go-libp2p-crypto",
+            "github.com/libp2p/go-libp2p-peer",
+            "github.com/libp2p/go-openssl",
+            "github.com/magiconair/properties",
+            "github.com/matttproud/golang_protobuf_extensions",
+            "github.com/mimoo/StrobeGo",
+            "github.com/minio/blake2b-simd",
+            "github.com/minio/sha256-simd"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "52a0e9902b7486bb106deb270a441890a49a5fbd",
+          "size": 54,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:58:44+00:00"
     },
     "xuperchain/xdev": {
       "id": 366319872,
@@ -1659,12 +1798,66 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 75223,
+        "Shell": 532,
+        "Makefile": 493
+      },
+      "readme_url": "https://github.com/xuperchain/xdev/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2503ce5c59f3fa8c1463bc3ffbe58d0f89b1ec7f",
+      "readme_excerpt": "XDEV 是 XuperChain 合约构建测试工具，支持 WASM 合约构建 不同语言和类型的合约测试",
+      "readme_headings": [
+        "XDEV 文档",
+        "XDEV 安装",
+        "合约构建",
+        "合约测试",
+        "参与贡献"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "XDEV 文档",
+          "excerpt": "XDEV 是 XuperChain 合约构建测试工具，支持 WASM 合约构建 不同语言和类型的合约测试"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1806,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "d243f3d54e1f918ff5a36e719d1df2f8c4601035",
+          "size": 724,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/BurntSushi/toml",
+            "github.com/ddliu/motto",
+            "github.com/golang/protobuf",
+            "github.com/mitchellh/mapstructure",
+            "github.com/robertkrimen/otto",
+            "github.com/spf13/cobra",
+            "github.com/xuperchain/xupercore",
+            "gopkg.in/sourcemap.v1"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "aae0d7b15cf5481856b0b6466a5fcfc040aac388",
+          "size": 493,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:58:55+00:00"
     },
     "xuperchain/XIP": {
       "id": 242135968,
@@ -1687,12 +1880,63 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/xuperchain/XIP/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c6ef52d20c79599e49ee92261838776ca1c05d24",
+      "readme_excerpt": "XuperChain Improvement Proposals (XIPs)",
+      "readme_headings": [
+        "XuperChain Improvement Proposals(XIPs)",
+        "Introduction",
+        "The Complete Process",
+        "Proposal Collecting",
+        "【Goal】",
+        "【How】",
+        "【Source】",
+        "【Output】",
+        "Proposal Publishing",
+        "【Goal】",
+        "【Sponser】",
+        "【How】",
+        "【Output】",
+        "Designing",
+        "【Goal】",
+        "【Sponser】",
+        "【How】",
+        "【Output】",
+        "Developing",
+        "【Goal】",
+        "【Participant】",
+        "【Development Specification】",
+        "Testing",
+        "【Goal】",
+        "【Participant】",
+        "【Output】",
+        "Release",
+        "中文",
+        "XuperChain Improvement Proposals(XIPs)",
+        "介绍"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "XuperChain Improvement Proposals (XIPs)"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 9400,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:59:06+00:00"
     },
     "xuperchain/xuper-ca": {
       "id": 375565082,
@@ -1715,12 +1959,75 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 44781,
+        "Makefile": 2454
+      },
+      "readme_url": "https://github.com/xuperchain/xuper-ca/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "cd9a9b26dfe50187b4ee5b254612db85b6229bbd",
+      "readme_excerpt": "支持xchain通过CA证书控制全节点的权限",
+      "readme_headings": [
+        "Xuper-CA",
+        "环境配置",
+        "构建",
+        "许可证",
+        "参与贡献",
+        "联系我们"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Xuper-CA",
+          "excerpt": "支持xchain通过CA证书控制全节点的权限"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1090,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "50df35929585288e4e8666e726671bdea8aec7a7",
+          "size": 900,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/go-sql-driver/mysql",
+            "github.com/golang/protobuf",
+            "github.com/grpc-ecosystem/grpc-gateway",
+            "github.com/jmoiron/sqlx",
+            "github.com/magiconair/properties",
+            "github.com/mattn/go-sqlite3",
+            "github.com/pelletier/go-toml",
+            "github.com/satori/go.uuid",
+            "github.com/sirupsen/logrus",
+            "github.com/spf13/afero",
+            "github.com/spf13/cobra",
+            "github.com/spf13/jwalterweatherman",
+            "github.com/spf13/viper",
+            "github.com/xuperchain/xuperchain",
+            "golang.org/x/net",
+            "google.golang.org/genproto",
+            "google.golang.org/grpc"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "933fdb00f0615173ddfdf57876431ca7eae07479",
+          "size": 2454,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:59:17+00:00"
     },
     "xuperchain/xuper-front": {
       "id": 375565578,
@@ -1743,12 +2050,81 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 50934,
+        "Makefile": 2583,
+        "Shell": 516,
+        "Dockerfile": 340
+      },
+      "readme_url": "https://github.com/xuperchain/xuper-front/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e10c02b7f704cdde3c6bed59f1b689dda5975e2c",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "Xuper-Front",
+        "Xuper-Front是什么？",
+        "快速使用",
+        "环境配置",
+        "构建",
+        "许可证",
+        "参与贡献",
+        "联系我们"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2052,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "76db67e0587b24c08295db522ceda981e4f569a8",
+          "size": 340,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "go.mod",
+          "sha": "9cc2776219ffaf4082a5e7d375f8870499befde1",
+          "size": 1060,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/go-sql-driver/mysql",
+            "github.com/golang/protobuf",
+            "github.com/grpc-ecosystem/grpc-gateway",
+            "github.com/jmoiron/sqlx",
+            "github.com/mattn/go-sqlite3",
+            "github.com/pelletier/go-toml",
+            "github.com/spf13/afero",
+            "github.com/spf13/cobra",
+            "github.com/spf13/jwalterweatherman",
+            "github.com/spf13/viper",
+            "github.com/xuperchain/crypto",
+            "github.com/xuperchain/log15",
+            "github.com/xuperchain/xuperchain",
+            "github.com/xuperchain/xupercore",
+            "golang.org/x/net",
+            "google.golang.org/genproto",
+            "google.golang.org/grpc",
+            "google.golang.org/protobuf"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "82f1f33f973243a3445a3e10a45f88e82d8c6016",
+          "size": 2583,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:59:28+00:00"
     },
     "xuperchain/xuper-java-sdk": {
       "id": 224450716,
@@ -1771,12 +2147,83 @@
       "open_issues": 36,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 459169,
+        "PureBasic": 848
+      },
+      "readme_url": "https://github.com/xuperchain/xuper-java-sdk/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "175c67839c2e8eab99f92589ea11236d154f8335",
+      "readme_excerpt": "The java sdk of xuperunion https://github.com/xuperchain/xuperunion",
+      "readme_headings": [
+        "xuper-java-sdk",
+        "Usage",
+        "Add Dependency",
+        "Config file",
+        "Create client",
+        "Import account keys",
+        "Create account and mnemonic",
+        "Create contract account",
+        "Transfer xuper to contract account",
+        "Query balance of account",
+        "Query balance details of account",
+        "Deploy contract using contract account",
+        "Invoke contract",
+        "EVM contract"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "xuper-java-sdk",
+          "excerpt": "The java sdk of xuperunion https://github.com/xuperchain/xuperunion"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3264,
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "b7df1251a1c0598b9e4859a1acb60aba0593ff0f",
+          "size": 11521,
+          "content_status": "captured",
+          "dependency_hints": [
+            "bcpkix-jdk15on",
+            "fastjson",
+            "fluo-api",
+            "grpc-okhttp",
+            "grpc-protobuf",
+            "grpc-stub",
+            "gson",
+            "javax.annotation-api",
+            "junit",
+            "maven-clean-plugin",
+            "maven-compiler-plugin",
+            "maven-deploy-plugin",
+            "maven-gpg-plugin",
+            "maven-install-plugin",
+            "maven-jar-plugin",
+            "maven-javadoc-plugin",
+            "maven-project-info-reports-plugin",
+            "maven-resources-plugin",
+            "maven-site-plugin",
+            "maven-source-plugin",
+            "maven-surefire-plugin",
+            "perfmark-api",
+            "snakeyaml",
+            "xuper-java-sdk"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:59:38+00:00"
     },
     "xuperchain/xuper-python-sdk": {
       "id": 219691999,
@@ -1799,12 +2246,55 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 23153,
+        "C++": 976
+      },
+      "readme_url": "https://github.com/xuperchain/xuper-python-sdk/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "091c256abad9e772bf0a7315a73585b2155a1c3a",
+      "readme_excerpt": "pip install xuper python2.7 python3.x ecdsa requests",
+      "readme_headings": [
+        "pythonsdk",
+        "requirements",
+        "quick start",
+        "start server",
+        "A wallet demo on python sdk",
+        "Demo of python SDK"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "quick start",
+          "excerpt": "pip install xuper"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "requirements",
+          "excerpt": "python2.7 python3.x ecdsa requests"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1271,
+      "manifest_paths": [
+        {
+          "path": "setup.py",
+          "sha": "85aa9bee6a549609542d0c12467e92ed32c27bc5",
+          "size": 1261,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:59:49+00:00"
     },
     "xuperchain/xuper-sdk-csharp": {
       "id": 223408942,
@@ -1827,12 +2317,59 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 78949
+      },
+      "readme_url": "https://github.com/xuperchain/xuper-sdk-csharp/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "88eb41e0863fee524d9014a621f3a902ae223cc9",
+      "readme_excerpt": "Now only support the Install XuperSDK from dotnet This SDK is based",
+      "readme_headings": [
+        "XuperUnion C# SDK",
+        "1. Features",
+        "2. Requirements",
+        "3. Usage",
+        "3.1 install",
+        "3.2 play"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": "1. Features",
+          "excerpt": "Now only support the"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "3.1 install",
+          "excerpt": "Install XuperSDK from dotnet"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "2. Requirements",
+          "excerpt": "This SDK is based"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1197,
+      "manifest_paths": [
+        {
+          "path": "xuper-sdk-csharp.csproj",
+          "sha": "9a2c803052e2e381134805840f8e96fe9bc61a37",
+          "size": 1408,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:00:00+00:00"
     },
     "xuperchain/xuper-sdk-go": {
       "id": 220874635,
@@ -1855,12 +2392,76 @@
       "open_issues": 29,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 165221,
+        "Makefile": 367
+      },
+      "readme_url": "https://github.com/xuperchain/xuper-sdk-go/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ef9d47ede1fc755207996b784e59d7e69a677836",
+      "readme_excerpt": "OS Support: Linux and",
+      "readme_headings": [
+        "xuper-sdk-go XuperChain Client SDK for Go",
+        "Getting started",
+        "Requirements",
+        "Simple use samples",
+        "example",
+        "Contributing to the xuper-sdk-go",
+        "License",
+        "Contact us",
+        "XuperChain go语言的客户端xuper-sdk-go",
+        "Getting started",
+        "环境配置",
+        "使用",
+        "示例",
+        "如何参与开发xuper-sdk-go",
+        "许可证",
+        "联系我们"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "OS Support: Linux and"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2641,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "076e63fb1e1c13a1108889040743fdfe7c232222",
+          "size": 426,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/btcsuite/btcutil",
+            "github.com/golang/protobuf",
+            "github.com/hyperledger/burrow",
+            "github.com/pkg/errors",
+            "github.com/xuperchain/crypto",
+            "github.com/xuperchain/xuperchain",
+            "google.golang.org/grpc",
+            "gopkg.in/yaml.v2"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "8770db3b25ac078a7e883d5909ce2f24a65a162b",
+          "size": 367,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:00:11+00:00"
     },
     "xuperchain/xuper-sdk-go-example": {
       "id": 220878058,
@@ -1883,12 +2484,101 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 9917,
+        "Makefile": 336,
+        "Shell": 203
+      },
+      "readme_url": "https://github.com/xuperchain/xuper-sdk-go-example/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a3489084a98189b747469d9bcfd9ebc706c3e826",
+      "readme_excerpt": "xuper-sdk-go use example",
+      "readme_headings": [
+        "xuper-sdk-go-example",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "xuper-sdk-go-example",
+          "excerpt": "xuper-sdk-go use example"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 210,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "5dda5be2683ec203ed84a65ff9652a7f3ff4a1c9",
+          "size": 212,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/xuperchain/xuper-sdk-go",
+            "github.com/xuperchain/xuperunion"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "365097488944d2eab7bc66798c71854d452e0019",
+          "size": 336,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "vendor/google.golang.org/grpc/go.mod",
+          "sha": "c7f3fa3f36359bf1de1494b58bc84adbd521d89d",
+          "size": 771,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cloud.google.com/go",
+            "github.com/BurntSushi/toml",
+            "github.com/client9/misspell",
+            "github.com/golang/glog",
+            "github.com/golang/mock",
+            "github.com/golang/protobuf",
+            "github.com/google/go-cmp",
+            "golang.org/x/lint",
+            "golang.org/x/net",
+            "golang.org/x/oauth2",
+            "golang.org/x/sys",
+            "golang.org/x/tools",
+            "google.golang.org/appengine",
+            "google.golang.org/genproto",
+            "honnef.co/go/tools"
+          ]
+        },
+        {
+          "path": "vendor/google.golang.org/grpc/Makefile",
+          "sha": "db982aabde6f7c682c87ce757329b29e4b71aeb0",
+          "size": 1071,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "vendor/gopkg.in/yaml.v2/go.mod",
+          "sha": "1934e876945021c3ac47d0aab161477e43ae35a4",
+          "size": 95,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "vendor/github.com/go-stack/stack/go.mod",
+          "sha": "96a53a10926d51243b3b7d38438ec8e145531d90",
+          "size": 33,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:00:22+00:00"
     },
     "xuperchain/xuper-sdk-js": {
       "id": 229175769,
@@ -1911,12 +2601,106 @@
       "open_issues": 25,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 114840,
+        "JavaScript": 5075
+      },
+      "readme_url": "https://github.com/xuperchain/xuper-sdk-js/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6fd01efec3403a2784122e9493fdb0e8cd2944b5",
+      "readme_excerpt": "import XuperSDK from '@xuperchain/xuper-sdk';",
+      "readme_headings": [
+        "Xuper SDK JS",
+        "Usage",
+        "Install Npm package",
+        "Quick start",
+        "Code examples",
+        "Environments",
+        "In the Nodejs environment, **gRPC** is supported and used by default, you can choose to close it, and still use Http to request",
+        "How to build a test environment",
+        "Read the [documentation](https://github.com/xuperchain/xuperchain) , compile and deploy XuperChain",
+        "Use XuperChain Docker image to build a single-node service",
+        "API reference documentation",
+        "Services",
+        "Account",
+        "Blockchain infomation",
+        "Transaction",
+        "Contract",
+        "Plugin",
+        "Endorsement service plugin",
+        "EndorsementPlugin"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Quick start",
+          "excerpt": "import XuperSDK from '@xuperchain/xuper-sdk';"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6019,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "67c11db73e0a52df30736dba811d6bf25c532362",
+          "size": 3000,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@commitlint/cli",
+            "@commitlint/config-conventional",
+            "@grpc/grpc-js",
+            "@grpc/proto-loader",
+            "@types/aes-js",
+            "@types/bn.js",
+            "@types/elliptic",
+            "@types/jest",
+            "@types/json-stable-stringify",
+            "@types/long",
+            "@types/pbkdf2",
+            "@types/sha256",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aes-js",
+            "awesome-typescript-loader",
+            "bn.js",
+            "clean-webpack-plugin",
+            "coveralls",
+            "cz-conventional-changelog",
+            "dotenv",
+            "elliptic",
+            "eslint",
+            "git-cz",
+            "husky",
+            "jest",
+            "jest-environment-jsdom-fourteen",
+            "json-stable-stringify",
+            "long",
+            "node-fetch",
+            "pbkdf2",
+            "ripemd160-min",
+            "rollup-plugin-copy",
+            "sha256",
+            "standard-version",
+            "ts-jest",
+            "ts-loader",
+            "tsdx",
+            "tslib",
+            "typedoc",
+            "typescript",
+            "whatwg-fetch"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:00:32+00:00"
     },
     "xuperchain/xuper-sdk-oc": {
       "id": 240541639,
@@ -1939,12 +2723,59 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Objective-C": 361906,
+        "Ruby": 7106
+      },
+      "readme_url": "https://github.com/xuperchain/xuper-sdk-oc/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "eda52845482beef0be4a37ff8a2e903e27ca2f42",
+      "readme_excerpt": "&emsp;&emsp;",
+      "readme_headings": [
+        "xuper-sdk-oc 3.4.0",
+        "支持的平台",
+        "使用许可",
+        "支持[xuperchain](https://github.com/xuperchain/xuperunion)版本",
+        "暂不支持的功能",
+        "写在前面的话",
+        "如何使用",
+        "使用pod集成",
+        "Podfile中增加",
+        "推荐增加verbose参数，因为sdk中依赖的几个仓库体积比较大，如果看不到过程，可能会感觉\"假死\"",
+        "引用头文件",
+        "几个简单的例子",
+        "1.创建,恢复密钥对/AK/Address/Wallet",
+        "1.1 创建普通密钥对",
+        "1.2 创建助记词密钥对",
+        "1.3 恢复密钥对",
+        "2.查询余额",
+        "3.转账",
+        "4.合约调用",
+        "N.[更多例子](https://github.com/oblivioned/xuper-sdk-oc/tree/master/xuper-sdk-ocTests)请见工程中的单元测试.",
+        "直接使用GRPC",
+        "FAQ",
+        "写在后面的话"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "xuper-sdk-oc 3.4.0",
+          "excerpt": "&emsp;&emsp;"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 10402,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:00:43+00:00"
     },
     "xuperchain/xuper-wallet-web": {
       "id": 229263195,
@@ -1967,12 +2798,96 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 110751,
+        "CSS": 6303
+      },
+      "readme_url": "https://github.com/xuperchain/xuper-wallet-web/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "cf2c1cf8bbc8f8796010edc3373e175360e416cc",
+      "readme_excerpt": "A sample wallet using JS SDK",
+      "readme_headings": [
+        "Xuper Wallet —— Web",
+        "Prerequires",
+        "How to use?",
+        "Nginx conf",
+        "Dev server (webpack-dev-server)",
+        "Current Status"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Xuper Wallet —— Web",
+          "excerpt": "A sample wallet using JS SDK"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 693,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "6345bd42770683517b5129b7f03c697b404b0da3",
+          "size": 2719,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@babel/core",
+            "@babel/plugin-proposal-class-properties",
+            "@babel/plugin-proposal-object-rest-spread",
+            "@babel/plugin-transform-runtime",
+            "@babel/polyfill",
+            "@babel/preset-env",
+            "@babel/runtime",
+            "@babel/runtime-corejs2",
+            "@material-ui/core",
+            "@material-ui/icons",
+            "@material-ui/lab",
+            "@misaka.ink/fetch2",
+            "@svgr/webpack",
+            "@xuperchain/xuper-sdk",
+            "autoprefixer",
+            "babel-jest",
+            "babel-loader",
+            "bn.js",
+            "clean-webpack-plugin",
+            "clsx",
+            "copy-webpack-plugin",
+            "css-loader",
+            "file-loader",
+            "html-webpack-plugin",
+            "html-webpack-template",
+            "jest",
+            "jest-environment-jsdom-fourteen",
+            "less",
+            "less-loader",
+            "mini-css-extract-plugin",
+            "normalize.css",
+            "notistack",
+            "optimize-css-assets-webpack-plugin",
+            "postcss-loader",
+            "react",
+            "react-dom",
+            "react-router-dom",
+            "react-transition-group",
+            "style-loader",
+            "terser-webpack-plugin",
+            "url-loader",
+            "webpack",
+            "webpack-cli",
+            "webpack-dev-server",
+            "webpack-merge"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:00:54+00:00"
     },
     "xuperchain/xuperchain": {
       "id": 188339686,
@@ -1995,12 +2910,138 @@
       "open_issues": 86,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 332383,
+        "Shell": 19676,
+        "Makefile": 1940,
+        "Dockerfile": 394
+      },
+      "readme_url": "https://github.com/xuperchain/xuperchain/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d16e4fd95b02812abf705f902aa48922372daa92",
+      "readme_excerpt": "**XuperChain**, the first open OS Support: Linux and",
+      "readme_headings": [
+        "XuperChain",
+        "What is XuperChain",
+        "Quick start",
+        "Requirements",
+        "Build",
+        "Run",
+        "Run single node blockchain",
+        "Run multi nodes blockchain",
+        "Documentation",
+        "How to Contribute",
+        "License",
+        "Contact"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "What is XuperChain",
+          "excerpt": "**XuperChain**, the first open"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "OS Support: Linux and"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5393,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "d68c79c054aca982b5b49ef17f0689634b5c9cdc",
+          "size": 394,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "go.mod",
+          "sha": "592e645d9dec8192790a081e3216ac4c2eb546f3",
+          "size": 10263,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/Azure/go-ansiterm",
+            "github.com/ChainSafe/go-schnorrkel",
+            "github.com/Microsoft/go-winio",
+            "github.com/Microsoft/hcsshim",
+            "github.com/aws/aws-sdk-go",
+            "github.com/beorn7/perks",
+            "github.com/btcsuite/btcd",
+            "github.com/btcsuite/btcutil",
+            "github.com/cespare/xxhash/v2",
+            "github.com/chzyer/readline",
+            "github.com/consensys/gnark",
+            "github.com/consensys/gnark-crypto",
+            "github.com/containerd/containerd",
+            "github.com/containerd/continuity",
+            "github.com/coreos/go-semver",
+            "github.com/cosmos/go-bip39",
+            "github.com/davecgh/go-spew",
+            "github.com/davidlazar/go-crypto",
+            "github.com/docker/distribution",
+            "github.com/docker/docker",
+            "github.com/docker/go-connections",
+            "github.com/docker/go-units",
+            "github.com/edsrzf/mmap-go",
+            "github.com/emirpasic/gods",
+            "github.com/flynn/noise",
+            "github.com/fsnotify/fsnotify",
+            "github.com/fsouza/go-dockerclient",
+            "github.com/fxamacker/cbor/v2",
+            "github.com/gammazero/deque",
+            "github.com/go-kit/kit",
+            "github.com/go-logfmt/logfmt",
+            "github.com/go-stack/stack",
+            "github.com/gogo/protobuf",
+            "github.com/golang/protobuf",
+            "github.com/golang/snappy",
+            "github.com/google/gopacket",
+            "github.com/google/uuid",
+            "github.com/gorilla/websocket",
+            "github.com/grpc-ecosystem/go-grpc-middleware",
+            "github.com/grpc-ecosystem/go-grpc-prometheus",
+            "github.com/grpc-ecosystem/grpc-gateway",
+            "github.com/gtank/merlin",
+            "github.com/gtank/ristretto255",
+            "github.com/hashicorp/errwrap",
+            "github.com/hashicorp/go-multierror",
+            "github.com/hashicorp/golang-lru",
+            "github.com/hashicorp/hcl",
+            "github.com/huin/goupnp",
+            "github.com/hyperledger/burrow",
+            "github.com/inconshreveable/mousetrap",
+            "github.com/ipfs/go-cid",
+            "github.com/ipfs/go-datastore",
+            "github.com/ipfs/go-ipfs-addr",
+            "github.com/ipfs/go-ipfs-util",
+            "github.com/ipfs/go-ipns",
+            "github.com/ipfs/go-log",
+            "github.com/ipfs/go-log/v2",
+            "github.com/jackpal/go-nat-pmp",
+            "github.com/jbenet/go-temp-err-catcher",
+            "github.com/jbenet/goprocess"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "a9369a78097f017248fee9ff1ee1bbfd3e6316d0",
+          "size": 1940,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:01:05+00:00"
     },
     "xuperchain/xuperos": {
       "id": 242067895,
@@ -2023,12 +3064,74 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 282423,
+        "Shell": 15365,
+        "Makefile": 903
+      },
+      "readme_url": "https://github.com/xuperchain/xuperos/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2bc85403b4ee281a762e82cc3dd5be0169d9bac8",
+      "readme_excerpt": "XuperOS是XuperChain技术体系开源项目之一，是构建超级链开放网络的底层技术。基于XuperCore动态内核实现的，适用于公开网络构建的区块链发行版。您可以使用XuperOS，作为区块链基础设施，构建合规的区块链网络。",
+      "readme_headings": [
+        "XuperChain XuperOS",
+        "快速使用",
+        "编译环境",
+        "部署测试网络",
+        "参与贡献"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "XuperChain XuperOS",
+          "excerpt": "XuperOS是XuperChain技术体系开源项目之一，是构建超级链开放网络的底层技术。基于XuperCore动态内核实现的，适用于公开网络构建的区块链发行版。您可以使用XuperOS，作为区块链基础设施，构建合规的区块链网络。"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1266,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "a2bcd4f1ebaa61514a4a586d09d8dd278de4e3ce",
+          "size": 968,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/golang/protobuf",
+            "github.com/google/gofuzz",
+            "github.com/grpc-ecosystem/go-grpc-middleware",
+            "github.com/grpc-ecosystem/go-grpc-prometheus",
+            "github.com/grpc-ecosystem/grpc-gateway",
+            "github.com/hyperledger/burrow",
+            "github.com/manifoldco/promptui",
+            "github.com/spf13/cobra",
+            "github.com/spf13/viper",
+            "github.com/xuperchain/crypto",
+            "github.com/xuperchain/xupercore",
+            "golang.org/x/mod",
+            "golang.org/x/net",
+            "google.golang.org/genproto",
+            "google.golang.org/grpc",
+            "google.golang.org/protobuf"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "371757a077ffea13e00a5a2ea43240f2ac6336e2",
+          "size": 903,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:01:16+00:00"
     },
     "xuperchain/xuperos-docs": {
       "id": 228525583,
@@ -2051,12 +3154,48 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 5287,
+        "CSS": 1315,
+        "Batchfile": 791,
+        "Makefile": 584,
+        "JavaScript": 253
+      },
+      "readme_url": "https://github.com/xuperchain/xuperos-docs/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d3880a00193efb98906ddb73658bde785d7091dc",
+      "readme_excerpt": "documents of xuperos",
+      "readme_headings": [
+        "xuperos-docs"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "xuperos-docs",
+          "excerpt": "documents of xuperos"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 36,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "69fe55ecfa9aade66e1412aef0ee7d04a9bcde86",
+          "size": 584,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:01:26+00:00"
     },
     "xuperchain/xuperscan": {
       "id": 402444306,
@@ -2079,12 +3218,96 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Vue": 44594,
+        "JavaScript": 11759,
+        "CSS": 3891,
+        "HTML": 1318
+      },
+      "readme_url": "https://github.com/xuperchain/xuperscan/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "01a6c4e1a4007af5997c436fca9735893384ee3b",
+      "readme_excerpt": "XuperScan 是 XuperChain 的区块链浏览器，支持通过浏览器以可视化的方式查看区块，交易，合约等链上信息。",
+      "readme_headings": [
+        "XuperScan 区块链浏览器",
+        "本地构建",
+        "环境准备",
+        "启动浏览器后端服务",
+        "安装项目依赖",
+        "启动区块浏览器",
+        "联系我们"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "XuperScan 区块链浏览器",
+          "excerpt": "XuperScan 是 XuperChain 的区块链浏览器，支持通过浏览器以可视化的方式查看区块，交易，合约等链上信息。"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1594,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "feb593ac3eee396adb94503466229c129b61ea85",
+          "size": 1651,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@vue/cli-plugin-babel",
+            "@vue/cli-plugin-eslint",
+            "@vue/cli-plugin-router",
+            "@vue/cli-plugin-vuex",
+            "@vue/cli-service",
+            "@vue/eslint-config-prettier",
+            "ant-design-vue",
+            "antd",
+            "autoprefixer",
+            "axios",
+            "babel-eslint",
+            "clipboard",
+            "compression-webpack-plugin",
+            "core-js",
+            "echarts",
+            "eslint",
+            "eslint-config-standard",
+            "eslint-friendly-formatter",
+            "eslint-loader",
+            "eslint-plugin-html",
+            "eslint-plugin-promise",
+            "eslint-plugin-standard",
+            "eslint-plugin-vue",
+            "image-webpack-loader",
+            "install",
+            "less",
+            "less-loader",
+            "lib-flexible",
+            "lodash",
+            "moment",
+            "npm",
+            "postcss",
+            "postcss-px-to-viewport",
+            "prettier",
+            "px2rem-loader",
+            "uglifyjs-webpack-plugin",
+            "vue",
+            "vue-json-viewer",
+            "vue-json-views",
+            "vue-router",
+            "vue-template-compiler",
+            "vuex"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:01:37+00:00"
     },
     "xuperchain/xvm": {
       "id": 333105050,
@@ -2110,12 +3333,98 @@
         "webassembly"
       ],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 1880300,
+        "Go": 156552,
+        "C": 33904,
+        "JavaScript": 10440,
+        "Python": 2708,
+        "Rust": 1134,
+        "Makefile": 496
+      },
+      "readme_url": "https://github.com/xuperchain/xvm/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d45c49516af4604b5ce40da01770e0586c974cbb",
+      "readme_excerpt": "XuperVM 是 XuperChain 旗下的高性能 WebAssembly 虚拟机，采用 AOT 编译技术，支持资源审计与资源限制，原生支持 Golang 运行时",
+      "readme_headings": [
+        "XuperVM",
+        "快速开始",
+        "构建",
+        "运行第一个WASM 程序",
+        "技术原理",
+        "参与贡献",
+        "联系我们"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "XuperVM",
+          "excerpt": "XuperVM 是 XuperChain 旗下的高性能 WebAssembly 虚拟机，采用 AOT 编译技术，支持资源审计与资源限制，原生支持 Golang 运行时"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2937,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "ff68e67e1e43aeffda491623aa0784230d7f6a4d",
+          "size": 116,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/xuperchain/wagon"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "ba97dc7b5d10b8abd3679956cfb2347c80d4ffaa",
+          "size": 496,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "compile/wabt/Makefile",
+          "sha": "fd5376950b2057ed94968a4795b8bead78b257d5",
+          "size": 1170,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "example/rust/add/Cargo.toml",
+          "sha": "4102d280056c6ee38f557300bed6c1d2c7b775fd",
+          "size": 204,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "example/rust/hello-world/Cargo.toml",
+          "sha": "770881137222a11a2edc2b2a5f18099e528a6c0f",
+          "size": 1012,
+          "content_status": "captured",
+          "dependency_hints": [
+            "console_error_panic_hook",
+            "wasm-bindgen",
+            "wasm-bindgen-test",
+            "wee_alloc"
+          ]
+        },
+        {
+          "path": "example/testdata/go/go.mod",
+          "sha": "835c5e786515d300cb82917da6168a25474ad604",
+          "size": 19,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:01:48+00:00"
     },
     "xuperchain/yogurt-chain": {
       "id": 718002190,
@@ -2138,12 +3447,237 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:19+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 12132968,
+        "C": 673771,
+        "JavaScript": 442164,
+        "Assembly": 94897,
+        "Shell": 61773,
+        "Java": 30290,
+        "Sage": 30192,
+        "M4": 25931,
+        "NSIS": 23220,
+        "HTML": 12397,
+        "Python": 11232,
+        "Makefile": 9761,
+        "Solidity": 9568,
+        "Dockerfile": 897
+      },
+      "readme_url": "https://github.com/xuperchain/yogurt-chain/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b6d95d01ed7a0deea30d6911a29870523cd5e190",
+      "readme_excerpt": "Yogurt 分为三个部分，BLS、信标链和执行层链。使用时需要根据需要编译所需部分。",
+      "readme_headings": [
+        "Yogurt",
+        "编译部署",
+        "环境准备",
+        "编译",
+        "执行层",
+        "信标链层",
+        "libc default configuration",
+        "成功应看到类似如下输出",
+        "libxcrypto.so (libc6,x86-64) => /usr/local/lib/libxcrypto.so",
+        "部署测试网络",
+        "部署信标链测试网络",
+        "在node1目录下执行",
+        "回到 testnet 目录",
+        "启动网络",
+        "查看网络状态",
+        "部署执行层网络",
+        "先从 testnet 目录退出后进入 geth 目录",
+        "信标链配置执行层节点",
+        "在测试网络node1目录下执行，yogurt-chain/ychain/testnet/node1 目录",
+        "其中 0x5594CffB7Ce2fbeA1e1A780dcD1171f4b260912D 修改为你的执行层网络矿工地址，这里只是示例。",
+        "如果有多个节点需多次执行此命令",
+        "查看结果"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Yogurt",
+          "excerpt": "Yogurt 分为三个部分，BLS、信标链和执行层链。使用时需要根据需要编译所需部分。"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6234,
+      "manifest_paths": [
+        {
+          "path": "geth/Dockerfile",
+          "sha": "1951fed8ef87d47d688eaf1543c220d177c78216",
+          "size": 897,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "geth/go.mod",
+          "sha": "08ed110e8c463d522ea1b415782ff0f4c0137c0e",
+          "size": 6336,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/Azure/azure-sdk-for-go/sdk/azcore",
+            "github.com/Azure/azure-sdk-for-go/sdk/internal",
+            "github.com/Azure/azure-sdk-for-go/sdk/storage/azblob",
+            "github.com/DataDog/zstd",
+            "github.com/StackExchange/wmi",
+            "github.com/VictoriaMetrics/fastcache",
+            "github.com/aws/aws-sdk-go-v2",
+            "github.com/aws/aws-sdk-go-v2/config",
+            "github.com/aws/aws-sdk-go-v2/credentials",
+            "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "github.com/aws/aws-sdk-go-v2/service/route53",
+            "github.com/aws/aws-sdk-go-v2/service/sso",
+            "github.com/aws/aws-sdk-go-v2/service/sts",
+            "github.com/aws/smithy-go",
+            "github.com/beorn7/perks",
+            "github.com/bits-and-blooms/bitset",
+            "github.com/btcsuite/btcd/btcec/v2",
+            "github.com/cespare/cp",
+            "github.com/cespare/xxhash/v2",
+            "github.com/cloudflare/cloudflare-go",
+            "github.com/cockroachdb/errors",
+            "github.com/cockroachdb/logtags",
+            "github.com/cockroachdb/pebble",
+            "github.com/cockroachdb/redact",
+            "github.com/consensys/bavard",
+            "github.com/consensys/gnark-crypto",
+            "github.com/cpuguy83/go-md2man/v2",
+            "github.com/crate-crypto/go-ipa",
+            "github.com/crate-crypto/go-kzg-4844",
+            "github.com/davecgh/go-spew",
+            "github.com/deckarep/golang-set/v2",
+            "github.com/decred/dcrd/dcrec/secp256k1/v4",
+            "github.com/deepmap/oapi-codegen",
+            "github.com/dlclark/regexp2",
+            "github.com/docker/docker",
+            "github.com/dop251/goja",
+            "github.com/ethereum/c-kzg-4844",
+            "github.com/fatih/color",
+            "github.com/fjl/gencodec",
+            "github.com/fjl/memsize",
+            "github.com/fsnotify/fsnotify",
+            "github.com/garslo/gogen",
+            "github.com/gballet/go-libpcsclite",
+            "github.com/gballet/go-verkle",
+            "github.com/getsentry/sentry-go",
+            "github.com/go-ole/go-ole",
+            "github.com/go-sourcemap/sourcemap",
+            "github.com/go-stack/stack",
+            "github.com/gofrs/flock",
+            "github.com/gogo/protobuf",
+            "github.com/golang-jwt/jwt/v4",
+            "github.com/golang/protobuf",
+            "github.com/golang/snappy",
+            "github.com/google/gofuzz",
+            "github.com/google/uuid",
+            "github.com/gorilla/websocket",
+            "github.com/graph-gophers/graphql-go",
+            "github.com/grpc-ecosystem/grpc-gateway",
+            "github.com/hashicorp/go-bexpr"
+          ]
+        },
+        {
+          "path": "geth/Makefile",
+          "sha": "e6286da7fbaea459a64024b87605d8b6ed6aff10",
+          "size": 1109,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ychain/go.mod",
+          "sha": "8a76a59565c688b98ec39c3d4cb7219b26b73a8a",
+          "size": 11380,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/Azure/go-ansiterm",
+            "github.com/ChainSafe/go-schnorrkel",
+            "github.com/Microsoft/go-winio",
+            "github.com/OpenAtomFoundation/xupercore/crypto-dll-go",
+            "github.com/OpenAtomFoundation/xupercore/crypto-rust/x-crypto-ffi",
+            "github.com/OpenAtomFoundation/xupercore/global",
+            "github.com/aws/aws-sdk-go",
+            "github.com/beorn7/perks",
+            "github.com/blang/semver/v4",
+            "github.com/btcsuite/btcd",
+            "github.com/btcsuite/btcd/btcec/v2",
+            "github.com/btcsuite/btcutil",
+            "github.com/cespare/xxhash/v2",
+            "github.com/chzyer/readline",
+            "github.com/consensys/bavard",
+            "github.com/consensys/gnark",
+            "github.com/consensys/gnark-crypto",
+            "github.com/containerd/containerd",
+            "github.com/coreos/go-semver",
+            "github.com/cosmos/go-bip39",
+            "github.com/davecgh/go-spew",
+            "github.com/davidlazar/go-crypto",
+            "github.com/decred/dcrd/dcrec/secp256k1/v4",
+            "github.com/docker/docker",
+            "github.com/docker/go-connections",
+            "github.com/docker/go-units",
+            "github.com/edsrzf/mmap-go",
+            "github.com/emirpasic/gods",
+            "github.com/ethereum/go-ethereum",
+            "github.com/flynn/noise",
+            "github.com/fsnotify/fsnotify",
+            "github.com/fsouza/go-dockerclient",
+            "github.com/fxamacker/cbor/v2",
+            "github.com/gammazero/deque",
+            "github.com/go-kit/kit",
+            "github.com/go-logfmt/logfmt",
+            "github.com/go-stack/stack",
+            "github.com/gogo/protobuf",
+            "github.com/golang/protobuf",
+            "github.com/golang/snappy",
+            "github.com/google/gopacket",
+            "github.com/google/pprof",
+            "github.com/google/uuid",
+            "github.com/gorilla/websocket",
+            "github.com/grpc-ecosystem/go-grpc-middleware",
+            "github.com/grpc-ecosystem/go-grpc-prometheus",
+            "github.com/grpc-ecosystem/grpc-gateway",
+            "github.com/gtank/merlin",
+            "github.com/gtank/ristretto255",
+            "github.com/hashicorp/errwrap",
+            "github.com/hashicorp/go-multierror",
+            "github.com/hashicorp/golang-lru",
+            "github.com/hashicorp/hcl",
+            "github.com/holiman/uint256",
+            "github.com/huin/goupnp",
+            "github.com/hyperledger/burrow",
+            "github.com/inconshreveable/mousetrap",
+            "github.com/ipfs/go-cid",
+            "github.com/ipfs/go-datastore",
+            "github.com/ipfs/go-ipfs-addr"
+          ]
+        },
+        {
+          "path": "ychain/Makefile",
+          "sha": "08e569d96bc236a8332ea1b07cca501f9c08869f",
+          "size": 1740,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "geth/cmd/clef/requirements.txt",
+          "sha": "5381862e306d302536a0b6ef1db9583c45b50185",
+          "size": 15,
+          "content_status": "captured",
+          "dependency_hints": [
+            "tinyrpc"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:01:59+00:00"
     }
   },
   "pages_fetched": 1,
@@ -2156,5 +3690,6 @@
   "scan_id": "2026-11-23T20:51:19+00:00",
   "refresh_in_progress": false,
   "repository_count": 40,
-  "retrieved_at": "2026-11-23T20:51:20+00:00"
+  "retrieved_at": "2026-11-23T20:51:20+00:00",
+  "enrichment_cursor": "xuperchain/yogurt-chain"
 }

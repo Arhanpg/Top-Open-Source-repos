@@ -1883,12 +1883,104 @@
       "open_issues": 24,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 5598062,
+        "C++": 3680215,
+        "Cuda": 852657,
+        "CMake": 38089,
+        "C": 15257,
+        "Dockerfile": 4158,
+        "Makefile": 126
+      },
+      "readme_url": "https://github.com/PaddlePaddle/flash-attention/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "79d33453003b1dcebd494b973d1f53a87169e39a",
+      "readme_excerpt": "Requirements: CUDA 11.4 and We've been very happy",
+      "readme_headings": [
+        "FlashAttention",
+        "Usage",
+        "Installation and features",
+        "How to use FlashAttention",
+        "Upgrading from FlashAttention (1.x) to FlashAttention-2",
+        "Performance",
+        "A100",
+        "Speedup",
+        "Memory",
+        "H100",
+        "Full model code and training script",
+        "Triton implementation of FlashAttention",
+        "Tests",
+        "When you encounter issues",
+        "Citation"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": "Installation and features",
+          "excerpt": "Requirements: CUDA 11.4 and"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Usage",
+          "excerpt": "We've been very happy"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 9407,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "79aefc7973fb6163b84dc149012f5101b2d399af",
+          "size": 126,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "setup.py",
+          "sha": "1396887d4ac546dc176f1e671b69a88444014417",
+          "size": 14675,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "csrc/CMakeLists.txt",
+          "sha": "b3206b43e5d7ff31d9b0befe55d612b840b322e0",
+          "size": 25609,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "flashmask/setup.py",
+          "sha": "eed54cc758ff16515b21e7475fac63643047a8d2",
+          "size": 33064,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "training/Dockerfile",
+          "sha": "9b94ed2d24af8fd5a49f88d31c4e39a7ff8aea17",
+          "size": 4158,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "csrc/ft_attention/setup.py",
+          "sha": "dc479f2a49222b1e72bea07b2d44f33287e23eaa",
+          "size": 6166,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:54:58+00:00"
     },
     "PaddlePaddle/FlashMask": {
       "id": 1418488237,
@@ -1911,12 +2003,125 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 2012010,
+        "Cuda": 242989,
+        "C++": 22406,
+        "Shell": 18982,
+        "CMake": 8591
+      },
+      "readme_url": "https://github.com/PaddlePaddle/FlashMask/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "baca8de8c463beb3230edf77f01ada2bea08adfa",
+      "readme_excerpt": "FlashMask is an **efficient FlashMask-4 provides three capabilities: git clone https://github.com/FlashMask/flashmask.git cd Valid values are core, **GPU**: Hopper (SM90) or",
+      "readme_headings": [
+        "⚡ FlashMask",
+        "📋 Contents",
+        "📢 News",
+        "🎯 Overview",
+        "Formulation",
+        "✨ Key Features",
+        "Memory-efficient, flexible, and fast masked attention kernels",
+        "Distributed attention with communication/computation overlap and load balancing",
+        "CPB: mask-aware load balancing (open-sourcing in progress)",
+        "Overlap: mask-aware communication/computation overlap",
+        "Large head dim",
+        "🚀 Performance",
+        "FlashMask-4 vs FlashAttention-4 `mask_mod`",
+        "Hopper",
+        "Blackwell",
+        "Runtime across head dims (Blackwell SM100)",
+        "Large head dim: shared KV vs separate K/V",
+        "📦 Installation",
+        "Requirements",
+        "Quick install",
+        "Install only the CuTe DSL core kernels, enough to run single-GPU FlashMask",
+        "Build options",
+        "`FLASHMASK_BUILD`: select components",
+        "`FLASHMASK_FRAMEWORK`: select the framework",
+        "Core kernels + load balancing",
+        "Build all components in a PyTorch environment",
+        "🏁 Quick Start",
+        "Functional tests",
+        "PaddlePaddle",
+        "PyTorch"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "🎯 Overview",
+          "excerpt": "FlashMask is an **efficient"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "✨ Key Features",
+          "excerpt": "FlashMask-4 provides three capabilities:"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Quick install",
+          "excerpt": "git clone https://github.com/FlashMask/flashmask.git cd"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "`FLASHMASK_BUILD`: select components",
+          "excerpt": "Valid values are core,"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "**GPU**: Hopper (SM90) or"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 24174,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "3af2dfb796989a5157b5fc689691e940ea2bb8fe",
+          "size": 928,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "setup.py",
+          "sha": "d7e814901398349099b84a30d6acfb4f6ca20404",
+          "size": 22322,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "flashmask/cp_balance/csrc/CMakeLists.txt",
+          "sha": "f9d884504c3f762a9084ba49b34590186041d73e",
+          "size": 2394,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "flashmask/overlap/csrc/CMakeLists.txt",
+          "sha": "cf7d6175b7ad591e44af19408ee683dcc159d3c0",
+          "size": 6197,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "flashmask/utils/csrc/setup.py",
+          "sha": "417f957822f10acf3123d7e709146f253a21b27c",
+          "size": 2145,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:55:09+00:00"
     },
     "PaddlePaddle/flux": {
       "id": 902731389,
@@ -1939,12 +2144,105 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 873076,
+        "Cuda": 648061,
+        "Python": 156509,
+        "CMake": 15615,
+        "Shell": 9907,
+        "C": 6682
+      },
+      "readme_url": "https://github.com/PaddlePaddle/flux/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "84394d698576d2f044542343acc9f7562b0ca66b",
+      "readme_excerpt": "pip install packaging pip",
+      "readme_headings": [
+        "Flux",
+        "Why Flux",
+        "Install from pip",
+        "Make sure that PyTorch is installed.",
+        "Build from source",
+        "Ampere",
+        "Hopper",
+        "Build for cross-machine TP",
+        "Download nvshmem-2.11(https://developer.nvidia.com/nvshmem) and place it to flux/3rdparty/nvshmem",
+        "Flux is temporarily dependent on a specific version of nvshmem (2.11).",
+        "Ampere",
+        "Hopper",
+        "Ampere",
+        "Hopper",
+        "Run Demo",
+        "gemm only",
+        "gemm fused with reduce-scatter",
+        "all-gather fused with gemm",
+        "Performance",
+        "Citing",
+        "Reference",
+        "[License](./LICENSE)"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Make sure that PyTorch is installed.",
+          "excerpt": "pip install packaging pip"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3702,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "3d94233baf3f2b66717a3af1fe8dd293a7d47ba9",
+          "size": 5050,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "setup.py",
+          "sha": "156c4726a8813f44bd37505cea1db113f79b62d3",
+          "size": 9965,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pynvshmem/CMakeLists.txt",
+          "sha": "f14004fa0b6f897ce7e7b16d6ec6c5bcfcad5945",
+          "size": 4003,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/CMakeLists.txt",
+          "sha": "b0b33f19e9caf3a8c8e868f78cadb7a6402bbd00",
+          "size": 1665,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/all_gather/CMakeLists.txt",
+          "sha": "b5e481db4543e28ecde5bf2eab73c6e9e8a95cbf",
+          "size": 1057,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/comm_none/CMakeLists.txt",
+          "sha": "96ade07178c13a0a7a4875ab067514851eb82227",
+          "size": 881,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:55:20+00:00"
     },
     "PaddlePaddle/FlyCV": {
       "id": 562479767,
@@ -1982,12 +2280,92 @@
         "sse"
       ],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 3017739,
+        "C": 418254,
+        "CMake": 47820,
+        "Python": 17190,
+        "Shell": 9255,
+        "JavaScript": 3822
+      },
+      "readme_url": "https://github.com/PaddlePaddle/FlyCV/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "feab93353c1e37a9bf14b9abdfaa3acc82fd9d85",
+      "readme_excerpt": "**English** | **简体中文**",
+      "readme_headings": [
+        "🔥 FlyCV —— 高性能计算机图像系统",
+        ":zap: 性能评测",
+        ":closed_book: 快速开始",
+        ":notebook: API 文档",
+        ":notebook_with_decorative_cover: 编译文档",
+        ":pushpin: 升级日志",
+        ":two_men_holding_hands: 技术交流",
+        ":pencil2: 贡献代码",
+        ":copyright: License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "**English** | **简体中文**"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6803,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "1aa7d151e31d3864929e670bd92f08f6eb7854e2",
+          "size": 4903,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "benchmark/CMakeLists.txt",
+          "sha": "e4dc8c64e0dedf3826b98ef17b43ba0d97051921",
+          "size": 1568,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "modules/CMakeLists.txt",
+          "sha": "ee9b14f82987e615a82ffe44a0c2ede9c0e9ee4e",
+          "size": 3869,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/CMakeLists.txt",
+          "sha": "509ccbbb39784975048dc7f728659280efc3286f",
+          "size": 1133,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/CMakeLists.txt",
+          "sha": "ebea1d9cfb241a4dc60dee635699a6a633170eda",
+          "size": 2584,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/armlinux/CMakeLists.txt",
+          "sha": "fd15423b2e74e1538e86e1478978676def68b4f0",
+          "size": 2253,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:55:30+00:00"
     },
     "PaddlePaddle/GraphNet": {
       "id": 1021826033,
@@ -2010,12 +2388,79 @@
       "open_issues": 32,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 127393267,
+        "Shell": 150340
+      },
+      "readme_url": "https://github.com/PaddlePaddle/GraphNet/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a23398270c1c585c71be4bb45f92ccb793b7506a",
+      "readme_excerpt": "**GraphNet** is a large-scale This section shows how",
+      "readme_headings": [
+        "📣 News",
+        "📊 Benchmark Results",
+        "⚡ Quick Start",
+        "⚖️ Compiler Evaluation",
+        "Set your benchmark directory",
+        "Run benchmark",
+        "Note: If --compiler is omitted, PyTorch’s built-in compiler is used by default.",
+        "Note: If --negative-speedup-penalty is omitted, p=0 is used by default.",
+        "If --fpdb, b=0.1 is used by default.",
+        "Hardware Regression Testing",
+        "🧱 Construction & Contribution Guide",
+        "🚀 Future Roadmap",
+        "GraphNet Community",
+        "License and Acknowledgement"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "**GraphNet** is a large-scale"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "⚡ Quick Start",
+          "excerpt": "This section shows how"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7226,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "08e8a89925434231d6478c0f65c24aed67c28c7a",
+          "size": 870,
+          "content_status": "captured",
+          "dependency_hints": [
+            "astor",
+            "huggingface_hub",
+            "pre-commit",
+            "transformers"
+          ]
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "329549e1e296eb82ee1468398a822a5ebfbb7e42",
+          "size": 111,
+          "content_status": "captured",
+          "dependency_hints": [
+            "astor",
+            "pre-commit",
+            "scipy"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:55:41+00:00"
     },
     "PaddlePaddle/HALOps": {
       "id": 1426644141,
@@ -2038,12 +2483,128 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Cuda": 1772551,
+        "Python": 1197775,
+        "C++": 33415,
+        "Shell": 1310
+      },
+      "readme_url": "https://github.com/PaddlePaddle/HALOps/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f7be872d9b11e4e43073f73d43dc177b873fc79f",
+      "readme_excerpt": "English | 简体中文 HALOps is designed from Prebuilt wheels are available See the NVIDIA CUDA",
+      "readme_headings": [
+        "**H**igh-performance **A**ccelerated **L**LM **Op**erator**s**",
+        "Highlights",
+        "Performance",
+        "Hardware and Software Requirements",
+        "Quick Start",
+        "Install from Wheel",
+        "Build from Source",
+        "Verify the Installation",
+        "Roadmap",
+        "Contributing",
+        "Acknowledgement",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "English | 简体中文"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Highlights",
+          "excerpt": "HALOps is designed from"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Install from Wheel",
+          "excerpt": "Prebuilt wheels are available"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Hardware and Software Requirements",
+          "excerpt": "See the NVIDIA CUDA"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6827,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "27ba766ef1bcf0945ea4810d3587a8aaeaeb44d3",
+          "size": 1820,
+          "content_status": "captured",
+          "dependency_hints": [
+            "apache-tvm-ffi",
+            "halops",
+            "numpy",
+            "nvidia-cutlass-dsl",
+            "pre-commit",
+            "pytest",
+            "torch"
+          ]
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "a08e67616a2471e6962043a593be400fca37944e",
+          "size": 248,
+          "content_status": "captured",
+          "dependency_hints": [
+            "apache-tvm-ffi",
+            "numpy",
+            "nvidia-cutlass-dsl",
+            "pytest",
+            "setuptools",
+            "torch",
+            "wheel"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "d89bf0c1d0f496c53c2039b590e4cfe9e34c6973",
+          "size": 4146,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "benchmark/requirements.txt",
+          "sha": "7d99dda7b2777411ea71cda4608fd5f6e1063e8a",
+          "size": 295,
+          "content_status": "captured",
+          "dependency_hints": [
+            "numpy",
+            "nvidia-cudnn-cu13",
+            "nvidia-cudnn-frontend",
+            "pandas",
+            "pyyaml"
+          ]
+        },
+        {
+          "path": "docs/requirements.txt",
+          "sha": "8b8bb37ed378f70076c2361ffe4ccc6a4ecf7579",
+          "size": 74,
+          "content_status": "captured",
+          "dependency_hints": [
+            "furo",
+            "myst-parser",
+            "sphinx",
+            "sphinx-copybutton"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:55:52+00:00"
     },
     "PaddlePaddle/hapi": {
       "id": 228297846,
@@ -2066,12 +2627,61 @@
       "open_issues": 12,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 3068205,
+        "Python": 437202,
+        "Shell": 15112
+      },
+      "readme_url": "https://github.com/PaddlePaddle/hapi/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "385bb8ea3ef5d56f0622df3a63293c5ef40b24bd",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "简介",
+        "特性",
+        "易学易用",
+        "低代码开发",
+        "动静统一",
+        "一行代码切换动态图训练模式",
+        "动态图训练模式",
+        "静态图训练模式",
+        "paddle.enable_static()",
+        "设置训练设备环境",
+        "声明网络结构",
+        "定义优化器",
+        "调用prepare() 完成训练的配置",
+        "调用 fit()，启动模型的训练",
+        "快速使用",
+        "1. 搭建网络结构",
+        "设置执行环境为GPU",
+        "使用动态图训练方式",
+        "2. 训练准备",
+        "定义输入数据格式",
+        "声明网络结构",
+        "使用高层API，prepare() 完成训练的配置",
+        "3. 启动训练",
+        "定义数据读取器",
+        "启动训练",
+        "新增功能",
+        "transforms",
+        "使用Compose 将可以将多个数据增强函数组合在一起",
+        "paddle.vision.models",
+        "调用resnet50模型"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 11047,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:56:02+00:00"
     },
     "PaddlePaddle/InterpretDL": {
       "id": 274012656,
@@ -2106,12 +2716,121 @@
         "visualizations"
       ],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 492308,
+        "Shell": 444
+      },
+      "readme_url": "https://github.com/PaddlePaddle/InterpretDL/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "923125f9d7811511a17886a0efc992fe5eae65f3",
+      "readme_excerpt": "cd InterpretDL && pip It requires the deep",
+      "readme_headings": [
+        "InterpretDL: Interpretation of Deep Learning Models based on PaddlePaddle",
+        "Why InterpretDL",
+        ":fire: :fire: :fire: News :fire: :fire: :fire:",
+        "Demo",
+        "Contents",
+        "Installation",
+        "Pip installation",
+        "or with tsinghua mirror",
+        "Developer installation",
+        "... fix bugs or add new features",
+        "welcome to propose pull request and contribute",
+        "Unit Tests",
+        "run gradcam unit tests",
+        "run all unit tests",
+        "Documentation",
+        "Getting Started",
+        "an example of SmoothGradient Interpreter.",
+        "Examples and Tutorials",
+        "Roadmap",
+        "Implemented Algorithms with Taxonomy",
+        "Implemented Trustworthiness Evaluation Algorithms",
+        "Interpretability Evaluation Algorithms",
+        "Planning Alorithms",
+        "Presentations",
+        "References of Algorithms",
+        "Copyright and License",
+        "Recent News"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": "... fix bugs or add new features",
+          "excerpt": "cd InterpretDL && pip"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "It requires the deep"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 24673,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "3de8a60f1fa7811bde338a297f4075f230be28ff",
+          "size": 91,
+          "content_status": "captured",
+          "dependency_hints": [
+            "IPython",
+            "matplotlib",
+            "numpy",
+            "opencv-python",
+            "pillow",
+            "requests",
+            "scikit-image",
+            "scikit-learn",
+            "tqdm"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "2c05fa3f474584003842d72e8b8dc0ced7c80c38",
+          "size": 1771,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "d4bb2cbb9eddb1bb1b4f366623044af8e4830919",
+          "size": 634,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/requirements.txt",
+          "sha": "996723a5d603adf6c7112319616fa5f548aaa06b",
+          "size": 141,
+          "content_status": "captured",
+          "dependency_hints": [
+            "IPython",
+            "matplotlib",
+            "numpy",
+            "opencv-python",
+            "paddlepaddle",
+            "pillow",
+            "recommonmark",
+            "requests",
+            "scikit-image",
+            "scikit-learn",
+            "sphinx",
+            "sphinx_rtd_theme",
+            "tqdm"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:56:13+00:00"
     },
     "PaddlePaddle/Knover": {
       "id": 276845708,
@@ -2134,12 +2853,88 @@
       "open_issues": 64,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 630968,
+        "Shell": 58623
+      },
+      "readme_url": "https://github.com/PaddlePaddle/Knover/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "931e8724dd82457b7f00a9e059ea55fba916393e",
+      "readme_excerpt": "python version >= 3.7 python version >= 3.7",
+      "readme_headings": [
+        "Knover",
+        "What's New:",
+        "Requirements and Installation",
+        "Basic usage",
+        "Disclaimer",
+        "Contact information"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Requirements and Installation",
+          "excerpt": "python version >= 3.7"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements and Installation",
+          "excerpt": "python version >= 3.7"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2519,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "b28fbfdb3366bf83dfc0e3867bc8473258b988e9",
+          "size": 91,
+          "content_status": "captured",
+          "dependency_hints": [
+            "fastapi",
+            "numpy",
+            "paddlepaddle-gpu",
+            "requests",
+            "sentencepiece",
+            "termcolor",
+            "tqdm",
+            "uvicorn"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "65e88684251454b141f3bbc256ad7cd6768178a6",
+          "size": 1532,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "projects/QKConv/requirements.txt",
+          "sha": "626f5beea6d17cf9ac48877ddefac5ac06385b18",
+          "size": 147,
+          "content_status": "captured",
+          "dependency_hints": [
+            "drqa",
+            "jsonlines",
+            "paddlenlp",
+            "paddlepaddle-gpu",
+            "pexpect",
+            "pyserini",
+            "rocketqa",
+            "rouge",
+            "torch"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:56:24+00:00"
     },
     "PaddlePaddle/LiteKit": {
       "id": 302509341,
@@ -2162,12 +2957,116 @@
       "open_issues": 12,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Objective-C": 269925,
+        "C++": 198403,
+        "Objective-C++": 129328,
+        "Java": 128923,
+        "C": 58271,
+        "Python": 19013,
+        "CMake": 16738,
+        "Shell": 9824,
+        "Swift": 1752,
+        "Ruby": 1074
+      },
+      "readme_url": "https://github.com/PaddlePaddle/LiteKit/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "25602e2c364b7f9207add782c900392536a603fa",
+      "readme_excerpt": "LiteKit是基于端推理框架LiteKitCore和端推理引擎PaddleLite，面向移动端工程师的AI能力解决方案。 LiteKit旨在为客户端应用提供开箱即用的离线的AI能力，使产品快速的简单的接入AI能力，并将提供的AI能力应用于各种业务场景。 目前已经支持的人像分割、手势识别、视频超分均来自百度各个产品线，已上线功能中，中台化输出的AI能力。",
+      "readme_headings": [
+        "LiteKit接入文档",
+        "快速体验",
+        "效果展示",
+        "1. Android - 扫码安装<br>",
+        "2. Demo Project 源码安装",
+        "iOS平台",
+        "示例工程部署",
+        "Android平台",
+        "安装SDK",
+        "1. 依赖",
+        "2. 安装",
+        "iOS 安装SDK",
+        "coding: utf-8",
+        "Android 安装SDK",
+        "API",
+        "隐私说明",
+        "交流与反馈",
+        "版权和许可证",
+        "FAQ",
+        "LiteKitCore接入文档",
+        "一、介绍",
+        "1. 背景",
+        "2. 兼容性",
+        "3. Demo Project",
+        "部署iOS示例工程",
+        "部署Android示例工程",
+        "二、接口文档",
+        "三、接入文档",
+        "FAQ"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "LiteKit接入文档",
+          "excerpt": "LiteKit是基于端推理框架LiteKitCore和端推理引擎PaddleLite，面向移动端工程师的AI能力解决方案。 LiteKit旨在为客户端应用提供开箱即用的离线的AI能力，使产品快速的简单的接入AI能力，并将提供的AI能力应用于各种业务场景。 目前已经支持的人像分割、手势识别、视频超分均来自百度各个产品线，已上线功能中，中台化输出的AI能力。"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 10824,
+      "manifest_paths": [
+        {
+          "path": "LiteKitCore/LiteKitCore/Android/build.gradle",
+          "sha": "6754c23d52caabf45925ba403600949593949972",
+          "size": 530,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "LiteKitCore/LiteKitCore/C++/CMakeLists.txt",
+          "sha": "4938cbb6da03162b37df63429a82156e6c08d6f9",
+          "size": 138,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "LiteKitCore/LiteKitCoreDemo/Android/build.gradle",
+          "sha": "6754c23d52caabf45925ba403600949593949972",
+          "size": 530,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "LiteKitDemo/Android/LiteKitDemo/build.gradle",
+          "sha": "5a96376655b9af8b5d12936f54c2eb28968d373c",
+          "size": 1157,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "LiteKitCore/LiteKitCore/Android/litekitcore/build.gradle",
+          "sha": "69b08a60679307136a4292238ae9af32c772d169",
+          "size": 1870,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "LiteKitCore/LiteKitCore/C++/build-ios/CMakeLists.txt",
+          "sha": "cac3433df1cab968c8cbb75725c6e98ce070a9ba",
+          "size": 2942,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:56:35+00:00"
     },
     "PaddlePaddle/MetaGym": {
       "id": 196743910,
@@ -2199,12 +3098,58 @@
         "reinforcement-learning"
       ],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 638273
+      },
+      "readme_url": "https://github.com/PaddlePaddle/MetaGym/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f8d94e55c75f6a23bb9fb6df599be1a98366aa5a",
+      "readme_excerpt": "MetaGym provides abundant environments for benchmarking Reinforcement Learning and Meta Reinforcement Learning",
+      "readme_headings": [
+        "MetaGym",
+        "Environments Updating"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "MetaGym",
+          "excerpt": "MetaGym provides abundant environments for benchmarking Reinforcement Learning and Meta Reinforcement Learning"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 751,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "56dc52ca511c49e3212110dff05cf842d9e5afa7",
+          "size": 71,
+          "content_status": "captured",
+          "dependency_hints": [
+            "mock",
+            "numpy",
+            "pyglet",
+            "setuptools",
+            "six"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "1745d5e433c220c6cd34e10484135de78d278d07",
+          "size": 2495,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:56:46+00:00"
     },
     "PaddlePaddle/Mobile": {
       "id": 98599362,
@@ -2227,12 +3172,80 @@
       "open_issues": 19,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 49487,
+        "C++": 5182,
+        "CMake": 3572,
+        "Shell": 1000
+      },
+      "readme_url": "https://github.com/PaddlePaddle/Mobile/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f6a7b421b93ca17b352e3aad308e843e90d17033",
+      "readme_excerpt": "Here mainly describes how to deploy PaddlePaddle to the mobile end, as well as some deployment optimization methods and some benchmark.",
+      "readme_headings": [
+        "Mobile",
+        "Build PaddlePaddle",
+        "Demo",
+        "Deployment optimization methods",
+        "Model compression",
+        "PaddlePaddle mobile benchmark"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Mobile",
+          "excerpt": "Here mainly describes how to deploy PaddlePaddle to the mobile end, as well as some deployment optimization methods and some benchmark."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2244,
+      "manifest_paths": [
+        {
+          "path": "Demo/linux/CMakeLists.txt",
+          "sha": "4f1a3a08047996d5f48fb7345370a78263802838",
+          "size": 1747,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "benchmark/tool/C/CMakeLists.txt",
+          "sha": "94ffaced01cf621c1ed53bf7bf32ce466cb4e714",
+          "size": 2439,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Demo/Android/AICamera/build.gradle",
+          "sha": "a47fa4bbf6730c7d1269737564381c8464224713",
+          "size": 498,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Demo/Android/AICamera/app/build.gradle",
+          "sha": "9b8c258a332e620d1c1b041798ac55193651bdbc",
+          "size": 1714,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Demo/Android/AICamera/app/CMakeLists.txt",
+          "sha": "fe00d122ddb87c3ef339dad965290ce24780f9c5",
+          "size": 1719,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:56:57+00:00"
     },
     "PaddlePaddle/models": {
       "id": 88868842,
@@ -2266,12 +3279,131 @@
         "speech"
       ],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 3151195,
+        "Jupyter Notebook": 1808539,
+        "Shell": 70177,
+        "C++": 46835,
+        "CMake": 8248,
+        "Makefile": 2920
+      },
+      "readme_url": "https://github.com/PaddlePaddle/models/blob/release/2.4/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b8582f48df092d44c645bc2bb78ed640b3d4b9ff",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "欢迎使用飞桨产业级开源模型库",
+        "简介",
+        "近期更新",
+        "主要内容",
+        "欢迎加入飞桨模型库技术交流群",
+        "致谢开发者",
+        "许可证书"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2807,
+      "manifest_paths": [
+        {
+          "path": "paddlecv/requirements.txt",
+          "sha": "c52b7418af719e8b8021be9b8b9f226ca9d4f15b",
+          "size": 153,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Pillow",
+            "PyYAML",
+            "faiss-cpu",
+            "filterpy",
+            "opencv-contrib-python",
+            "opencv-python",
+            "paddlenlp",
+            "paddlespeech",
+            "pyclipper",
+            "pycocotools",
+            "scipy",
+            "shapely"
+          ]
+        },
+        {
+          "path": "paddlecv/setup.py",
+          "sha": "450611e98745ff861ee5ec6df8e4349855370ba1",
+          "size": 3594,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "modelcenter/PP-HumanV2/requirements.txt",
+          "sha": "ae1b657ac7d37c3e5ae9c2230030f1f27c55504e",
+          "size": 184,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Cython",
+            "PyYAML",
+            "filterpy",
+            "lap",
+            "motmetrics",
+            "opencv-python",
+            "pyclipper",
+            "pycocotools",
+            "scipy",
+            "setuptools",
+            "shapely",
+            "sklearn",
+            "terminaltables",
+            "tqdm",
+            "typeguard",
+            "visualdl"
+          ]
+        },
+        {
+          "path": "modelcenter/PP-Vehicle/requirements.txt",
+          "sha": "ae1b657ac7d37c3e5ae9c2230030f1f27c55504e",
+          "size": 184,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Cython",
+            "PyYAML",
+            "filterpy",
+            "lap",
+            "motmetrics",
+            "opencv-python",
+            "pyclipper",
+            "pycocotools",
+            "scipy",
+            "setuptools",
+            "shapely",
+            "sklearn",
+            "terminaltables",
+            "tqdm",
+            "typeguard",
+            "visualdl"
+          ]
+        },
+        {
+          "path": "tutorials/reprod_log/requirements.txt",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tutorials/reprod_log/setup.py",
+          "sha": "78a9e8c628d1e055219cb4e189391e96480b5ee7",
+          "size": 1027,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:57:08+00:00"
     },
     "PaddlePaddle/modulus": {
       "id": 789967743,
@@ -2294,12 +3426,140 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 1832677,
+        "Dockerfile": 8631,
+        "Makefile": 2010,
+        "Shell": 403
+      },
+      "readme_url": "https://github.com/PaddlePaddle/modulus/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "91aca5d653354f6264af977ac4776b01f4bdc388",
+      "readme_excerpt": "Modulus has many optional",
+      "readme_headings": [
+        "Modulus (Beta)",
+        "Modulus Packages",
+        "Domain Specific Packages",
+        "Installation",
+        "PyPi",
+        "Optional dependencies",
+        "NVCR Container",
+        "From Source",
+        "Package",
+        "Source Container",
+        "Contributing",
+        "Communication",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Optional dependencies",
+          "excerpt": "Modulus has many optional"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5836,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "7688fdca2255e80d643da03d629c88a7d1ac11c2",
+          "size": 8631,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "310ee92c2b60f3de6bb58f63270d321627f6ba37",
+          "size": 2010,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "a7a5ce49c56511f75fb092b731b3e9cb19d10254",
+          "size": 3251,
+          "content_status": "captured",
+          "dependency_hints": [
+            "black",
+            "certifi",
+            "cftime",
+            "coverage",
+            "einops",
+            "fsspec",
+            "h5py",
+            "hydra-core",
+            "imageio",
+            "interrogate",
+            "mlflow",
+            "moviepy",
+            "netcdf4",
+            "numpy",
+            "nvidia-modulus",
+            "nvidia_dali_cuda120",
+            "nvtx",
+            "onnx",
+            "pydantic",
+            "pyspng",
+            "pytest",
+            "pytz",
+            "pyvista",
+            "pyyaml",
+            "ruamel.yaml",
+            "ruff",
+            "s3fs",
+            "scikit-learn",
+            "setuptools",
+            "tensorly",
+            "tensorly-torch",
+            "termcolor",
+            "torch",
+            "torch-harmonics",
+            "tqdm",
+            "treelib",
+            "vtk",
+            "wandb",
+            "warp-lang",
+            "xarray",
+            "zarr"
+          ]
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "4cad7a96a7d5b7769ac7309c4a9e50661917ac37",
+          "size": 1279,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/additive_manufacturing/sintering_physics/requirements.txt",
+          "sha": "651ed5b7f1e0187d31e01c050f36c13c92129d0c",
+          "size": 141,
+          "content_status": "captured",
+          "dependency_hints": [
+            "tensorflow"
+          ]
+        },
+        {
+          "path": "examples/cfd/darcy_physics_informed/requirements.txt",
+          "sha": "19387ace9ba323d20a1b0ae1ea966fdb910e242c",
+          "size": 6,
+          "content_status": "captured",
+          "dependency_hints": [
+            "gdown"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:57:18+00:00"
     },
     "PaddlePaddle/modulus-sym": {
       "id": 789967943,
@@ -2322,12 +3582,144 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 1509493,
+        "Dockerfile": 4459,
+        "Makefile": 1686,
+        "Shell": 933
+      },
+      "readme_url": "https://github.com/PaddlePaddle/modulus-sym/blob/paddle/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7ec6d0054e0b41fe1556232a9dc596270f08f055",
+      "readme_excerpt": "The recommended method for",
+      "readme_headings": [
+        "Modulus Symbolic (Beta)(Paddle Backend)",
+        "Domain Specific Packages",
+        "Installation",
+        "Container",
+        "From Source[Recommended]",
+        "Package",
+        "Source Container",
+        "Quickly run",
+        "run on dynamic(i.e. eager mode) graph mode",
+        "run on dy2st mode",
+        "run on cinn mode(i.e. compiled mode, recommended for performance)",
+        "Contributing",
+        "Communication",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "The recommended method for"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6177,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "ecbad55131f1a78d924f96fecd1bc07d3fc5eb32",
+          "size": 4459,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "77a20d70714e374039de16db6961c389815cb182",
+          "size": 1686,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "917307645749a5b4ea71cd57e1bc9a9038992447",
+          "size": 1147,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Cython",
+            "chaospy",
+            "h5py",
+            "hydra-core",
+            "mistune",
+            "notebook",
+            "numpy-stl",
+            "opencv-python",
+            "pillow",
+            "pint",
+            "scikit-learn",
+            "symengine",
+            "sympy",
+            "tensorboard",
+            "tensorboardX",
+            "termcolor",
+            "typing",
+            "vtk"
+          ]
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "bb8c302a9a9260b3dfaa060c93406c24ba259518",
+          "size": 714,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/reservoir_simulation/2D/requirements.txt",
+          "sha": "3db841fdc1c30dcaaa02c7d0b0e4c00c53a7b66d",
+          "size": 138,
+          "content_status": "captured",
+          "dependency_hints": [
+            "FyeldGenerator",
+            "accelerate",
+            "ema-pytorch",
+            "gdown",
+            "gstools",
+            "joblib",
+            "kneed",
+            "numba",
+            "py-cpuinfo",
+            "pyDOE",
+            "pyvista",
+            "scikit-image",
+            "scikit-mps",
+            "tensorflow"
+          ]
+        },
+        {
+          "path": "examples/reservoir_simulation/3D/requirements.txt",
+          "sha": "3db841fdc1c30dcaaa02c7d0b0e4c00c53a7b66d",
+          "size": 138,
+          "content_status": "captured",
+          "dependency_hints": [
+            "FyeldGenerator",
+            "accelerate",
+            "ema-pytorch",
+            "gdown",
+            "gstools",
+            "joblib",
+            "kneed",
+            "numba",
+            "py-cpuinfo",
+            "pyDOE",
+            "pyvista",
+            "scikit-image",
+            "scikit-mps",
+            "tensorflow"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:57:29+00:00"
     },
     "PaddlePaddle/PaConvert": {
       "id": 608649692,
@@ -2350,12 +3742,105 @@
       "open_issues": 18,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 6898229,
+        "Shell": 52124,
+        "Cuda": 50886,
+        "C++": 4100,
+        "Dockerfile": 1444,
+        "Makefile": 1127
+      },
+      "readme_url": "https://github.com/PaddlePaddle/PaConvert/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "fc890013e5f2240f83d8f0a636b4d5e2f4f37b0f",
+      "readme_excerpt": "**Pa**ddlePaddle Code **Convert** Toolkits（**PaConvert Github**）",
+      "readme_headings": [
+        "代码自动转换工具",
+        "🤗 公告 🤗",
+        "概述",
+        "安装使用",
+        "转换示例",
+        "转换前",
+        "转换后",
+        "日志打印",
+        "经典案例",
+        "贡献代码"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "代码自动转换工具",
+          "excerpt": "**Pa**ddlePaddle Code **Convert** Toolkits（**PaConvert Github**）"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 10128,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "48d90bdc5ad229da45fce458a41d307e65608e4b",
+          "size": 1127,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "271b8b803b387f6c4e61aed8348b0df911d8fd0e",
+          "size": 34,
+          "content_status": "captured",
+          "dependency_hints": [
+            "astor",
+            "black",
+            "isort"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "90a6d06c37fcf0abe6aae4ec3c61bb01492fc951",
+          "size": 2474,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/requirements.txt",
+          "sha": "cbe67607ec5223be2758833b101ac4064f6f4083",
+          "size": 62,
+          "content_status": "captured",
+          "dependency_hints": [
+            "coverage",
+            "diff-cover",
+            "pandas",
+            "pre-commit",
+            "pytest",
+            "pytest-cov",
+            "regex"
+          ]
+        },
+        {
+          "path": "tools/docker/Dockerfile",
+          "sha": "0ffc700f6f9fb953539c9f709067ef08b64736fc",
+          "size": 1444,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/code_library/code_case/custom_op/paddle_code/setup.py",
+          "sha": "d0c2e199a3de0d2a1ac2ef2a50ed7292723d98f3",
+          "size": 1391,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:57:40+00:00"
     },
     "PaddlePaddle/Paddle": {
       "id": 65711522,
@@ -2387,12 +3872,112 @@
         "scalability"
       ],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 57830087,
+        "Python": 57381883,
+        "Cuda": 9555024,
+        "CMake": 1106791,
+        "Shell": 894543,
+        "C": 347144,
+        "Jinja": 93415,
+        "Batchfile": 77363,
+        "Go": 40177,
+        "Java": 16293,
+        "Dockerfile": 9991,
+        "R": 1331
+      },
+      "readme_url": "https://github.com/PaddlePaddle/Paddle/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "81554b29bcf7f335ff3e815083b89b9426baf48f",
+      "readme_excerpt": "English | 简体中文 | For detailed information about",
+      "readme_headings": [
+        "Installation",
+        "Latest PaddlePaddle Release: 3.3",
+        "Install Latest Stable Release or Nightly Release",
+        "**PaddlePaddle New Generation Framework 3.2**",
+        "Documentation",
+        "Open Source Community",
+        "Copyright and License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "English | 简体中文 |"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Install Latest Stable Release or Nightly Release",
+          "excerpt": "For detailed information about"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5547,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "86f0c31f82ab7d358f47730e758dbf25d3da8719",
+          "size": 27156,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "7137ed71bc29a42186fcead7a0fbdefce88cc626",
+          "size": 4304,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "setup.py",
+          "sha": "beb40102772794f6b45a2f1d2a899c5d90560f43",
+          "size": 122524,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "paddle/CMakeLists.txt",
+          "sha": "e210923276206a9012695dca0df5f1d662dd1f04",
+          "size": 1934,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "python/CMakeLists.txt",
+          "sha": "214948ce790490cf5dbfd989e5e581062b7fbf33",
+          "size": 7903,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "python/requirements.txt",
+          "sha": "a239b16f57c86af1d2b4e63f88aeac5f5c6e2b69",
+          "size": 151,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Pillow",
+            "httpx",
+            "networkx",
+            "numpy",
+            "opt_einsum",
+            "packaging",
+            "protobuf",
+            "safetensors",
+            "setuptools",
+            "typing_extensions"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:57:52+00:00"
     },
     "PaddlePaddle/Paddle-bot": {
       "id": 259220361,
@@ -2415,12 +4000,55 @@
       "open_issues": 20,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 422736,
+        "Shell": 5637
+      },
+      "readme_url": "https://github.com/PaddlePaddle/Paddle-bot/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3af48191455a2005a610b9490b5057848af09933",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "Paddle-bot"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 12,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "19595b15116c1db32087de9c5efa0b767a87d535",
+          "size": 116,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aiohttp",
+            "apscheduler",
+            "gidgethub",
+            "influxdb",
+            "jwt",
+            "pandas",
+            "requests",
+            "rsa"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "dbde3d88a2977b9070665a2af609a39764aae20e",
+          "size": 1108,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:58:01+00:00"
     },
     "PaddlePaddle/paddle-ce-latest-kpis": {
       "id": 127693333,
@@ -2443,12 +4071,175 @@
       "open_issues": 7,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 1847401,
+        "Shell": 637813,
+        "Batchfile": 310868,
+        "Xonsh": 964,
+        "Dockerfile": 155
+      },
+      "readme_url": "https://github.com/PaddlePaddle/paddle-ce-latest-kpis/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f7ee2fac2c800c2b4a8c601321c638a6d35e038c",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "Paddle Continuous Evaluation Baselines",
+        "Howtos",
+        "Add New Evaluation Task",
+        "PR and Add to Service",
+        "Add new KPI to track"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 941,
+      "manifest_paths": [
+        {
+          "path": "ce_cloud_models/PaddleRec/requirements.txt",
+          "sha": "0abba185459f7a7b9f06f1e8b7d95cbb1be6a389",
+          "size": 26,
+          "content_status": "captured",
+          "dependency_hints": [
+            "PyYAML",
+            "faiss",
+            "scipy",
+            "sklearn"
+          ]
+        },
+        {
+          "path": "ce_cloud_models/paddleNLP/linux/requirements.txt",
+          "sha": "dcfec6497e2095bd07bb84c6078d2a37045549d9",
+          "size": 244,
+          "content_status": "captured",
+          "dependency_hints": [
+            "attrdict",
+            "colorama",
+            "colorlog",
+            "easydict",
+            "gensim",
+            "h5py",
+            "jieba",
+            "multiprocess",
+            "nltk",
+            "numpy",
+            "paddleslim",
+            "pandas",
+            "pgl",
+            "pyyaml",
+            "regex",
+            "sentencepiece",
+            "seqeval",
+            "sklearn",
+            "termcolor",
+            "tqdm",
+            "visualdl"
+          ]
+        },
+        {
+          "path": "ce_models/__vgg16_aws_dist/fluid_benchmark_for_aws/Dockerfile",
+          "sha": "bef80bb68567abd3b602dd76adfff54cc635aa9e",
+          "size": 155,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ce_cloud_models/PaddleHub/AUDIO/linux/requirements.txt",
+          "sha": "a37fa62412ec53627da1ad8e767fcdfe6b69e47a",
+          "size": 281,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Pillow",
+            "colorama",
+            "colorlog",
+            "easydict",
+            "filelock",
+            "flask",
+            "gitpython",
+            "gunicorn",
+            "librosa",
+            "matplotlib",
+            "numpy",
+            "opencv-python",
+            "packaging",
+            "paddle2onnx",
+            "paddlenlp",
+            "pyyaml",
+            "pyzmq",
+            "rarfile",
+            "tqdm",
+            "visualdl"
+          ]
+        },
+        {
+          "path": "ce_cloud_models/PaddleHub/AUDIO_SYN/linux/requirements.txt",
+          "sha": "31f4aca0ea20a9364a68c2d7e4e43817422b95a8",
+          "size": 272,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Pillow",
+            "colorama",
+            "colorlog",
+            "easydict",
+            "filelock",
+            "flask",
+            "gitpython",
+            "gunicorn",
+            "matplotlib",
+            "numpy",
+            "opencv-python",
+            "packaging",
+            "paddle2onnx",
+            "paddlenlp",
+            "pyyaml",
+            "pyzmq",
+            "rarfile",
+            "tqdm",
+            "visualdl"
+          ]
+        },
+        {
+          "path": "ce_cloud_models/PaddleHub/CLAS/linux/requirements.txt",
+          "sha": "1c0846829f3e1a591afdc3b5269990e67da3518e",
+          "size": 380,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Pillow",
+            "PyYAML",
+            "colorama",
+            "colorlog",
+            "easydict",
+            "filelock",
+            "flask",
+            "gast",
+            "gitpython",
+            "gunicorn",
+            "matplotlib",
+            "numpy",
+            "opencv-python",
+            "packaging",
+            "paddle2onnx",
+            "paddlenlp",
+            "pillow",
+            "pyyaml",
+            "pyzmq",
+            "rarfile",
+            "scikit-learn",
+            "scipy",
+            "tqdm",
+            "ujson",
+            "visualdl"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:58:12+00:00"
     },
     "PaddlePaddle/Paddle-iluvatar": {
       "id": 1150456403,
@@ -2471,12 +4262,78 @@
       "open_issues": 214,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Cuda": 1065288,
+        "Python": 967350,
+        "C++": 722193,
+        "CMake": 59868,
+        "Shell": 23877,
+        "C": 3724
+      },
+      "readme_url": "https://github.com/PaddlePaddle/Paddle-iluvatar/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "eb9ce2082b1476ecbc7c12a2a3b8e408fa5d568c",
+      "readme_excerpt": "bash install_paddle.sh To enable",
+      "readme_headings": [
+        "PaddlePaddle for Iluvatar GPU",
+        "Compilation and Installation",
+        "Please contact Iluvatar customer support (services@iluvatar.com) to obtain the SDK image",
+        "Clone PaddleCustomDevice source code",
+        "Install",
+        "Incremental compilation (faster rebuilds after code changes)",
+        "Incremental compilation (faster rebuilds after code changes, also installs whl)",
+        "Verification",
+        "Run tests"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Install",
+          "excerpt": "bash install_paddle.sh To enable"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 963,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "84e84996f15632305ab96f5388131a2164011b17",
+          "size": 57049,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cinn/CMakeLists.txt",
+          "sha": "0638446b75862d695eefa46d5ac1d4deab7e2d4f",
+          "size": 950,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/CMakeLists.txt",
+          "sha": "4fa2f4c7ba614ce1fb06ba01ef152522d04101a1",
+          "size": 1499,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/rnn/CMakeLists.txt",
+          "sha": "9a6347748fc61fb208a746ad9f4003bc258ba61a",
+          "size": 370,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:58:23+00:00"
     },
     "PaddlePaddle/Paddle-Inference-Demo": {
       "id": 261698998,
@@ -4988,5 +6845,6 @@
   "scan_id": "2026-11-23T20:50:43+00:00",
   "refresh_in_progress": false,
   "repository_count": 111,
-  "retrieved_at": "2026-11-23T20:50:44+00:00"
+  "retrieved_at": "2026-11-23T20:50:44+00:00",
+  "enrichment_cursor": "paddlepaddle/paddle-iluvatar"
 }

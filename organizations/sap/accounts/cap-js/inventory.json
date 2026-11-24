@@ -3520,12 +3520,124 @@
         "sap-cap"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 297673,
+        "CAP CDS": 2489
+      },
+      "readme_url": "https://github.com/cap-js/telemetry/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e4990d09d4ea42108ad1a578199a1c935403093c",
+      "readme_excerpt": "@cap-js/telemetry is a CDS See Getting Started on",
+      "readme_headings": [
+        "Welcome to @cap-js/telemetry",
+        "About This Project",
+        "Table of Contents",
+        "Requirements",
+        "Setup",
+        "Telemetry Signals",
+        "Traces",
+        "Metrics",
+        "Host Metrics",
+        "Example `host metrics` outputs:",
+        "Database Pool",
+        "Example `db.pool` output:",
+        "Queue",
+        "Example `queue` output:",
+        "Custom Metrics",
+        "Logs",
+        "Predefined Kinds",
+        "`telemetry-to-console`",
+        "`telemetry-to-dynatrace`",
+        "Dynatrace OneAgent",
+        "`telemetry-to-cloud-logging`",
+        "`telemetry-to-jaeger`",
+        "`telemetry-to-otlp`",
+        "Running with SAP Cloud ALM (beta)",
+        "Detailed Configuration Options",
+        "Configuration Pass Through",
+        "Resource Attributes",
+        "Instrumentations",
+        "Sampler",
+        "Propagators"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "About This Project",
+          "excerpt": "@cap-js/telemetry is a CDS"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "See Getting Started on"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 25199,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "0ef072d1027b00b2ed181e2267b2e9989750c4f6",
+          "size": 5654,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-test",
+            "@cap-js/sqlite",
+            "@cap-js/telemetry",
+            "@grpc/grpc-js",
+            "@opentelemetry/api",
+            "@opentelemetry/core",
+            "@opentelemetry/exporter-metrics-otlp-grpc",
+            "@opentelemetry/exporter-metrics-otlp-proto",
+            "@opentelemetry/exporter-trace-otlp-grpc",
+            "@opentelemetry/exporter-trace-otlp-proto",
+            "@opentelemetry/instrumentation",
+            "@opentelemetry/instrumentation-host-metrics",
+            "@opentelemetry/instrumentation-http",
+            "@opentelemetry/instrumentation-runtime-node",
+            "@opentelemetry/instrumentation-undici",
+            "@opentelemetry/resources",
+            "@opentelemetry/sdk-metrics",
+            "@opentelemetry/sdk-trace-base",
+            "@opentelemetry/sdk-trace-node",
+            "@opentelemetry/semantic-conventions",
+            "@sap-cloud-sdk/http-client",
+            "@sap/cds",
+            "@sap/cds-mtxs",
+            "axios",
+            "eslint",
+            "oxfmt",
+            "vitest"
+          ]
+        },
+        {
+          "path": "test/bookshop/package.json",
+          "sha": "0c5c0c71fc62a00d40929df826f120dfbea99d8a",
+          "size": 1918,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/sqlite",
+            "@cap-js/telemetry",
+            "@opentelemetry/instrumentation-host-metrics",
+            "@opentelemetry/instrumentation-runtime-node",
+            "@sap-cloud-sdk/connectivity",
+            "@sap-cloud-sdk/http-client",
+            "@sap-cloud-sdk/resilience",
+            "@sap/cds-dk",
+            "@sap/cds-mtxs"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T05:42:32+00:00"
     }
   },
   "pages_fetched": 1,
@@ -3538,5 +3650,6 @@
   "scan_id": "2026-11-23T20:35:21+00:00",
   "refresh_in_progress": false,
   "repository_count": 31,
-  "retrieved_at": "2026-11-23T20:35:22+00:00"
+  "retrieved_at": "2026-11-23T20:35:22+00:00",
+  "enrichment_cursor": "cap-js/telemetry"
 }
