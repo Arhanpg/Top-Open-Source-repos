@@ -3,6 +3,7 @@
 - **Source group(s):** united-states-global, china
 - **Verified primary GitHub account:** [Tencent](https://github.com/Tencent)
 - **Account mapping:** verified
+- **Detailed README records:** 2
 - **Repository inventory status:** Not yet exhaustively enumerated
 - **README audit status:** Individual project records are linked below; projects without a detailed record remain unaudited.
 

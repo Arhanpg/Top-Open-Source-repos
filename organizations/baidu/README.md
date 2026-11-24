@@ -3,6 +3,7 @@
 - **Source group(s):** china
 - **Verified primary GitHub account:** [baidu](https://github.com/baidu)
 - **Account mapping:** verified
+- **Detailed README records:** 3
 - **Repository inventory status:** Not yet exhaustively enumerated
 - **README audit status:** Individual project records are linked below; projects without a detailed record remain unaudited.
 
