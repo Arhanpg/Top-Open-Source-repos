@@ -1,10 +1,10 @@
 # Microsoft — open-source organization profile
 
 - **GitHub account:** [microsoft](https://github.com/microsoft)
-- **Company mapping:** candidate account used for this catalogue; verify through Microsoft's official engineering / open-source pages before treating every associated repository as a corporate project.
+- **Company mapping:** the primary microsoft GitHub organization is directly verified. Microsoft Learn contributor guidance links separate project/documentation accounts including MicrosoftDocs, dotnet and Azure; their repositories are recorded under their actual account owners.
 - **Source group:** United States & Global
 - **Directory status:** initialized; repository list not yet exhaustive
-- **Detailed README records:** 18 project briefs currently linked below
+- **Detailed README records:** 21 project briefs currently linked below
 
 ## Why this directory matters
 
@@ -72,3 +72,8 @@ Five additional Microsoft project briefs have been added: Visual Studio Code (Co
 ## Additional Microsoft documentation-linked accounts
 
 Microsoft Learn's contributor guidance links repositories in the `MicrosoftDocs`, `dotnet` and `Azure` GitHub accounts. The catalogue tracks these separately with the `official-project-linked` mapping status. See [Microsoft Account Discovery](ACCOUNT-DISCOVERY.md) for sample repositories and attribution caveats.
+
+
+## Additional Microsoft project-linked account reviews — 24 November 2026
+
+Three further project briefs have been added from the separately mapped MicrosoftDocs, dotnet and Azure accounts: Azure Documentation Source, .NET Documentation Source and Azure SDK for .NET. The dossiers distinguish documentation repositories from SDK implementation code, and record the Azure SDK's preview/stable package split and telemetry defaults.

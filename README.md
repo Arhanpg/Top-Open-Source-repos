@@ -272,3 +272,8 @@ Seven new project dossiers now cover [Online Boutique](organizations/alphabet-go
 ## Latest account reconciliation — 24 November 2026
 
 The mapping now contains **207 rows**: 65 inventory-eligible GitHub accounts and 142 unresolved candidates/unverified mappings. The last completed live inventory contains **33,470 repository records across 64 paginated accounts**; the newly linked `google-gemini` account is being processed by [Actions run #45320328089](https://github.com/Arhanpg/Top-Open-Source-repos/actions/runs/45320328089) and is not counted yet. The curated technical catalogue now contains **75 manually interpreted README-based project dossiers** across nine companies.
+
+
+## Microsoft account README review — 24 November 2026
+
+Three new Microsoft project briefs are available: [Azure Documentation Source](organizations/microsoft/repositories/azure-docs.md), [.NET Documentation Source](organizations/microsoft/repositories/dotnet-docs.md) and [Azure SDK for .NET](organizations/microsoft/repositories/azure-sdk-for-net.md). They bring the selected manual catalogue to **78 project dossiers** across nine companies.

@@ -217,3 +217,14 @@ Seven additional README-based project briefs were added:
 - [Gemini API Cookbook](../organizations/alphabet-google/repositories/gemini-api-cookbook.md) — notebooks and practical API examples under the separate google-gemini account.
 
 The curated catalogue now contains **75 manually interpreted README-based project briefs**: Microsoft 18, Google / Alphabet 15, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 5 and Siemens 2.
+
+
+## Microsoft project-linked account README review — 24 November 2026
+
+Three additional project dossiers were added from the newly mapped Microsoft accounts:
+
+- [Microsoft Azure Documentation Source](../organizations/microsoft/repositories/azure-docs.md) — Markdown source repository for Azure documentation on Microsoft Learn.
+- [.NET Documentation Source](../organizations/microsoft/repositories/dotnet-docs.md) — conceptual .NET documentation, with API references and language specs separated into other repositories.
+- [Azure SDK for .NET](../organizations/microsoft/repositories/azure-sdk-for-net.md) — active C#/.NET client and management SDK development, including telemetry and stable/preview guidance.
+
+The curated catalogue now contains **78 manually interpreted README-based project dossiers**: Microsoft 21, Google / Alphabet 15, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 5 and Siemens 2.

@@ -42,3 +42,12 @@ Do not treat this file as exhaustive until the full public repository listing fo
 |---|---|---|---|
 | [Machine Learning for Beginners](ml-for-beginners.md) | [https://github.com/microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) | A 12-week, 26-lesson curriculum from Microsoft Cloud Advocates that introduces classic machine learning using primarily scikit-learn. The README says it focuses on classic machine learning rather than deep learning, which is covered by a separate AI for Beginners curriculum. | README reviewed |
 | [AutoGen — archived multi-agent framework](autogen.md) | [https://github.com/microsoft/autogen](https://github.com/microsoft/autogen) | AutoGen was a framework for creating multi-agent AI applications that could act autonomously or work alongside humans. The current README labels the project archived and no longer maintained, and directs new users to Microsoft Agent Framework. | README reviewed |
+
+
+## Microsoft project-linked account reviews — 24 November 2026
+
+| Repository dossier | Upstream | Scope |
+|---|---|---|
+| [Microsoft Azure Documentation Source](azure-docs.md) | [MicrosoftDocs/azure-docs](https://github.com/MicrosoftDocs/azure-docs) | The source repository for open-source Microsoft Azure documentation published through Microsoft Learn. The README invites contributors to improve Azure documentation and directs them to the Microsoft contributor guide for authoring tools and pull-request procedures. |
+| [.NET Documentation Source](dotnet-docs.md) | [dotnet/docs](https://github.com/dotnet/docs) | The conceptual documentation source repository for .NET. Its README explains that the .NET documentation site is assembled from multiple repositories and that product API reference and language-specification content may be maintained in separate source repositories. |
+| [Azure SDK for .NET](azure-sdk-for-net.md) | [Azure/azure-sdk-for-net](https://github.com/Azure/azure-sdk-for-net) | The active development repository for Azure SDK client and management libraries for .NET. Its README groups packages by Azure service and distinguishes the newer Azure-prefixed client libraries from legacy package generations and management SDKs. |

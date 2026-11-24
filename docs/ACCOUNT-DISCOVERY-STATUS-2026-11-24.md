@@ -126,3 +126,10 @@ The 207 mapping rows break down into 65 inventory-eligible accounts and 142 cand
 The latest successful inventory snapshot remains **64 accounts / 33,470 repositories** from run #45259910014. A new `google-gemini` account was added after that snapshot, making the current eligible target 65. Its push-triggered run #45320328089 passed offline tests and is still processing inventory/enrichment; the new account's repository count is not yet included in 33,470.
 
 The curated project catalogue now contains **75 manually interpreted README-based project dossiers** across nine company folders: Microsoft 18, Google/Alphabet 15, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 5 and Siemens 2.
+
+
+## Manual README review update — 24 November 2026
+
+Three additional Microsoft project-linked repositories have been documented: Azure Documentation Source, .NET Documentation Source and Azure SDK for .NET. The curated project dossier total is now **78** across nine company folders: Microsoft 21, Google/Alphabet 15, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 5 and Siemens 2.
+
+The account mapping remains 207 rows / 65 eligible accounts; the completed paginated inventory still covers 64 accounts (33,470 repository records), with google-gemini under the current Actions scan.

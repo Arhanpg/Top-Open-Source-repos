@@ -105,3 +105,8 @@ After the successful 64-account / 33,470-repository run, a new `google-gemini` a
 - Collection run: [#45320328089](https://github.com/Arhanpg/Top-Open-Source-repos/actions/runs/45320328089), preflight tests passed; inventory/enrichment was in progress at this update.
 - The 65th account's repository count remains unknown until the workflow commits its pagination checkpoint. Do not add an estimate to the 33,470-repository total.
 - The curated README catalogue now contains 75 manually interpreted project dossiers; automated account-level manual-review metrics remain zero.
+
+
+## Manual documentation update — 24 November 2026
+
+The curated project catalogue has expanded to **78 manually interpreted README-based dossiers**, including three new Microsoft briefs for Azure documentation, .NET documentation and Azure SDK for .NET. This is a separate curation metric; it does not change the 33,470 repository records in the completed 64-account inventory snapshot.
