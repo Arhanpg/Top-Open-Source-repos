@@ -13,6 +13,8 @@ from typing import Any
 API = "https://api.github.com"
 UA = "Top-Open-Source-Repos-Catalogue/2.0"
 PER_PAGE = 100
+MAX_README_BYTES = 2_000_000
+README_EXCERPT_WORDS = 300
 
 class APIError(RuntimeError):
     def __init__(self, status: int, message: str, headers: dict[str, str] | None = None):
@@ -105,7 +107,7 @@ def repo_metadata(row: dict[str, Any], old: dict[str, Any] | None, scan_id: str)
         "last_seen_scan_id":scan_id,
     }
     evidence_keys = (
-        "readme_status", "readme_url", "readme_path", "readme_sha", "readme_excerpt", "readme_headings", "readme_unavailable_reason",
+        "readme_status", "readme_url", "readme_path", "readme_sha", "readme_excerpt", "readme_headings", "readme_unavailable_reason", "readme_truncated", "readme_bytes",
         "languages_bytes", "languages_status", "manifest_status", "manifest_paths", "manifest_truncated",
         "manifest_unavailable_reason", "enriched_at", "audit_status", "manual_review_status", "capture_errors",
     )
@@ -192,15 +194,51 @@ def inventory(account: str, kind: str, company: str, company_dir: Path, mapping_
         time.sleep(delay)
     return state
 
+def raw_get_bytes(url: str, max_bytes: int, retries: int = 4) -> tuple[bytes, int, bool]:
+    """Fetch a public raw GitHub file without spending GitHub REST API quota."""
+    headers = {"User-Agent": UA, "Accept": "application/octet-stream"}
+    for attempt in range(retries):
+        try:
+            request = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(request, timeout=45) as response:
+                length_header = response.headers.get("Content-Length", "")
+                if length_header.isdigit() and int(length_header) > max_bytes:
+                    return b"", int(length_header), True
+                content = response.read(max_bytes + 1)
+                if len(content) > max_bytes:
+                    return content[:max_bytes], len(content), True
+                return content, len(content), False
+        except urllib.error.HTTPError as exc:
+            body = exc.read().decode("utf-8", errors="replace")
+            response_headers = {key.lower(): value for key, value in exc.headers.items()}
+            if exc.code == 404:
+                raise APIError(404, body, response_headers) from exc
+            if exc.code not in {403, 408, 429, 500, 502, 503, 504} or attempt == retries - 1:
+                raise APIError(exc.code, body, response_headers) from exc
+            retry_after = response_headers.get("retry-after", "")
+            wait_seconds = int(retry_after) if retry_after.isdigit() else min(2 ** attempt, 30)
+            wait_seconds = min(max(wait_seconds, 1), 120)
+            print(f"[raw retry] HTTP {exc.code}; waiting {wait_seconds}s", file=sys.stderr)
+            time.sleep(wait_seconds)
+        except (urllib.error.URLError, TimeoutError) as exc:
+            if attempt == retries - 1:
+                raise RuntimeError(f"Raw GitHub download failed after {retries} attempts: {exc}") from exc
+            wait_seconds = min(2 ** attempt, 30)
+            time.sleep(wait_seconds)
+    raise RuntimeError("Raw GitHub retry budget exhausted")
+
+
 def get_readme(full: str, token: str | None):
     try: payload, _ = api_get(f"{API}/repos/{full}/readme", token)
     except APIError as exc:
         if exc.status == 404: return None
         raise
     content = payload.get("content", "")
+    truncated = False
+    captured_bytes = 0
     if not content:
-        # GitHub can return README metadata without a body for a zero-byte
-        # file (including a file named README without a Markdown extension).
+        # GitHub can omit the body for zero-byte files and for files beyond
+        # the inline Contents API limit. Use the public raw URL for non-empty files.
         if int(payload.get("size") or 0) == 0:
             return {
                 "empty": True,
@@ -209,9 +247,22 @@ def get_readme(full: str, token: str | None):
                 "sha": payload.get("sha"),
                 "excerpt": "",
                 "headings": [],
+                "truncated": False,
+                "bytes": 0,
             }
-        raise RuntimeError("README metadata returned without content for a non-empty file")
-    raw = base64.b64decode(content).decode("utf-8", errors="replace")
+        download_url = payload.get("download_url")
+        if not download_url:
+            raise RuntimeError("README metadata returned without inline content or download_url")
+        raw_bytes, captured_bytes, truncated = raw_get_bytes(download_url, MAX_README_BYTES)
+        raw = raw_bytes.decode("utf-8", errors="replace")
+    else:
+        raw_bytes = base64.b64decode(content)
+        captured_bytes = len(raw_bytes)
+        if captured_bytes > MAX_README_BYTES:
+            raw_bytes = raw_bytes[:MAX_README_BYTES]
+            captured_bytes = len(raw_bytes)
+            truncated = True
+        raw = raw_bytes.decode("utf-8", errors="replace")
     headings = [re.sub(r"^#{1,6}\s*", "", line).strip() for line in raw.splitlines() if re.match(r"^#{1,6}\s+", line)][:30]
     snippets, words = [], 0
     for line in raw.splitlines():
@@ -220,11 +271,11 @@ def get_readme(full: str, token: str | None):
         line = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", line)
         tokens = line.split()
         if not tokens: continue
-        tokens = tokens[:max(0,100-words)]
+        tokens = tokens[:max(0,README_EXCERPT_WORDS-words)]
         if tokens: snippets.append(" ".join(tokens)); words += len(tokens)
         if words >= 100: break
     return {"url":payload.get("html_url"),"path":payload.get("path"),"sha":payload.get("sha"),
-            "excerpt":" ".join(snippets),"headings":headings}
+            "excerpt":" ".join(snippets),"headings":headings,"truncated":truncated,"bytes":captured_bytes}
 
 def get_languages(full: str, token: str | None) -> dict[str,int]:
     data,_=api_get(f"{API}/repos/{full}/languages",token)
@@ -306,22 +357,24 @@ def parse_manifest_hints(path: str, content: str) -> list[str]:
             pass
     return sorted(hints)[:60]
 
-def get_manifest_content(full: str, path: str, branch: str, token: str | None) -> dict[str, Any]:
-    encoded_path = urllib.parse.quote(path, safe="/")
-    ref = urllib.parse.urlencode({"ref": branch})
-    payload, _ = api_get(f"{API}/repos/{full}/contents/{encoded_path}?{ref}", token)
-    size = int(payload.get("size") or 0)
-    result = {"path": path, "sha": payload.get("sha"), "size": size}
-    if size > MAX_MANIFEST_BYTES:
+def get_manifest_content(full: str, path: str, branch: str, token: str | None, blob_sha: str | None = None) -> dict[str, Any]:
+    branch_part = urllib.parse.quote(branch or "HEAD", safe="")
+    path_part = urllib.parse.quote(path, safe="/")
+    raw_url = f"https://raw.githubusercontent.com/{full}/{branch_part}/{path_part}"
+    result = {"path": path, "sha": blob_sha}
+    try:
+        raw_bytes, size, truncated = raw_get_bytes(raw_url, MAX_MANIFEST_BYTES)
+    except APIError as exc:
+        if exc.status == 404:
+            result.update(size=None, content_status="missing_after_tree", dependency_hints=[])
+            return result
+        raise
+    result["size"] = size
+    if truncated:
         result["content_status"] = "skipped_size_limit"
         result["dependency_hints"] = []
         return result
-    encoded = payload.get("content", "")
-    if not encoded:
-        result["content_status"] = "content_not_returned"
-        result["dependency_hints"] = []
-        return result
-    content = base64.b64decode(encoded).decode("utf-8", errors="replace")
+    content = raw_bytes.decode("utf-8", errors="replace")
     result["content_status"] = "captured"
     result["dependency_hints"] = parse_manifest_hints(path, content)
     return result
@@ -329,15 +382,16 @@ def get_manifest_content(full: str, path: str, branch: str, token: str | None) -
 def get_manifests(full: str, branch: str, limit: int, token: str | None):
     branch_q=urllib.parse.quote(branch or "HEAD",safe="")
     tree,_=api_get(f"{API}/repos/{full}/git/trees/{branch_q}?recursive=1",token)
-    paths=[item.get("path","") for item in tree.get("tree",[]) if item.get("type")=="blob"]
-    found=[p for p in paths if p.rsplit("/",1)[-1].casefold() in MANIFESTS or p.endswith((".csproj",".fsproj",".sln"))]
-    found=sorted(set(found),key=lambda p:(p.count("/"),p.casefold()))[:limit]
+    blobs=[item for item in tree.get("tree",[]) if item.get("type")=="blob"]
+    found=[item for item in blobs if item.get("path","").rsplit("/",1)[-1].casefold() in MANIFESTS or item.get("path","").endswith((".csproj",".fsproj",".sln"))]
+    found=sorted(found,key=lambda item:(item.get("path","").count("/"),item.get("path","").casefold()))[:limit]
     rows=[]
-    for path in found:
+    for item in found:
+        path=item.get("path","")
         try:
-            rows.append(get_manifest_content(full,path,branch,token))
+            rows.append(get_manifest_content(full,path,branch,token,item.get("sha")))
         except Exception as exc:
-            rows.append({"path":path,"content_status":"error","dependency_hints":[],"capture_error":str(exc)[:300]})
+            rows.append({"path":path,"sha":item.get("sha"),"content_status":"error","dependency_hints":[],"capture_error":str(exc)[:300]})
     return rows, bool(tree.get("truncated"))
 
 def enrich(repo: dict[str,Any], token: str | None, manifest_limit: int, force: bool):
@@ -349,11 +403,11 @@ def enrich(repo: dict[str,Any], token: str | None, manifest_limit: int, force: b
         try:
             doc=get_readme(full,token)
             if doc is None:
-                repo.update(readme_status="unavailable",readme_url=None,readme_path=None,readme_sha=None,readme_excerpt="",readme_headings=[],readme_unavailable_reason="GitHub returned 404 for a README")
+                repo.update(readme_status="unavailable",readme_url=None,readme_path=None,readme_sha=None,readme_excerpt="",readme_headings=[],readme_unavailable_reason="GitHub returned 404 for a README",readme_truncated=False,readme_bytes=0)
             elif doc.get("empty"):
-                repo.update(readme_status="unavailable",readme_url=doc["url"],readme_path=doc["path"],readme_sha=doc["sha"],readme_excerpt="",readme_headings=[],readme_unavailable_reason="README file is present but zero bytes")
+                repo.update(readme_status="unavailable",readme_url=doc["url"],readme_path=doc["path"],readme_sha=doc["sha"],readme_excerpt="",readme_headings=[],readme_unavailable_reason="README file is present but zero bytes",readme_truncated=False,readme_bytes=0)
             else:
-                repo.update(readme_status="captured",readme_url=doc["url"],readme_path=doc["path"],readme_sha=doc["sha"],readme_excerpt=doc["excerpt"],readme_headings=doc["headings"],readme_unavailable_reason=None)
+                repo.update(readme_status="captured",readme_url=doc["url"],readme_path=doc["path"],readme_sha=doc["sha"],readme_excerpt=doc["excerpt"],readme_headings=doc["headings"],readme_unavailable_reason=None,readme_truncated=doc.get("truncated",False),readme_bytes=doc.get("bytes",0))
         except Exception as exc: repo["readme_status"]="error"; errors.append(f"README: {exc}")
     if force or repo.get("manifest_status") not in {"captured","none_found","unavailable"}:
         try:
@@ -409,6 +463,8 @@ def render_repo(repo: dict[str,Any], company: str, account: str, mapping_status:
 - Default branch: {branch}
 - README: [Open upstream README]({readme})
 - README blob SHA: {repo.get('readme_sha') or 'Not captured'}
+- README bytes captured: {repo.get('readme_bytes', 0)}
+- README truncated at capture limit: {repo.get('readme_truncated', False)}
 - Repository ID: {repo.get('id')}
 - Evidence state: {repo.get('audit_status')}
 - Manual review: {repo.get('manual_review_status','manual technical interpretation pending')}
@@ -425,7 +481,7 @@ This is repository-owner metadata, not an independently verified technical summa
 - Unavailable reason: {repo.get('readme_unavailable_reason') or 'Not applicable'}
 - Captured: {repo.get('enriched_at') or 'Not yet captured'}
 
-### Short excerpt (up to 100 words)
+### Short excerpt (up to 300 words)
 
 > {repo.get('readme_excerpt') or 'No README excerpt captured. Use the upstream README link.'}
 
@@ -519,6 +575,18 @@ def is_collectable_mapping(status: str) -> bool:
         "verified", "official", "confirmed", "official-directory-listed", "official-project-linked"
     }
 
+def rotate_pending(pending: list[tuple[str, dict[str, Any]]], cursor: str | None, limit: int) -> list[tuple[str, dict[str, Any]]]:
+    """Round-robin pending rows so persistent failures cannot starve later repositories."""
+    ordered = sorted(pending, key=lambda item: item[0].casefold())
+    if not ordered:
+        return []
+    if cursor:
+        cursor_key = cursor.casefold()
+        split_at = next((index for index, (name, _) in enumerate(ordered) if name.casefold() > cursor_key), 0)
+        ordered = ordered[split_at:] + ordered[:split_at]
+    return ordered if limit == 0 else ordered[:limit]
+
+
 def run_account(row: dict[str,str], args, token: str | None) -> bool:
     company,account=row["company"].strip(),row["account"].strip()
     mapping=row.get("mapping_status","unverified").strip()
@@ -539,14 +607,15 @@ def run_account(row: dict[str,str], args, token: str | None) -> bool:
             for full,repo in state.get("repositories",{}).items():
                 complete=repo.get("readme_status") in {"captured","unavailable"} and repo.get("languages_status")=="captured" and repo.get("manifest_status") in {"captured","none_found","unavailable"}
                 if args.force_enrich or not complete: pending.append((full,repo))
-            pending.sort(key=lambda x:x[0].casefold())
-            selected=pending if args.enrich_limit==0 else pending[:args.enrich_limit]
-            print(f"[enrich] {account}: {len(selected)} selected / {len(pending)} pending")
+            cursor = state.get("enrichment_cursor")
+            selected = rotate_pending(pending, cursor, args.enrich_limit)
+            print(f"[enrich] {account}: {len(selected)} selected / {len(pending)} pending; cursor={cursor or 'start'}")
             for n,(full,repo) in enumerate(selected,1):
                 print(f"[enrich] {n}/{len(selected)} {full}")
                 enrich(repo,token,args.manifest_limit,args.force_enrich)
                 capture_failed = capture_failed or repo.get("audit_status") == "evidence capture incomplete"
                 state["repositories"][full]=repo
+                state["enrichment_cursor"]=full.casefold()
                 write_json(checkpoint,state)
                 target=doc_path(account_dir,repo); target.parent.mkdir(parents=True,exist_ok=True)
                 target.write_text(render_repo(repo,company,account,mapping),encoding="utf-8")

@@ -171,6 +171,15 @@ ruff = "^0.9"
         self.assertEqual(refreshed["manifest_status"], "captured")
         self.assertEqual(refreshed["readme_sha"], "same-sha")
 
+    def test_pending_rotation_prevents_first_failed_repositories_from_starving_later_rows(self):
+        pending = [(f"Example/{name}", {"readme_status": "error"}) for name in ["a", "b", "c", "d", "e"]]
+        first = audit.rotate_pending(pending, None, 2)
+        self.assertEqual([name for name, _ in first], ["Example/a", "Example/b"])
+        second = audit.rotate_pending(pending, first[-1][0].casefold(), 2)
+        self.assertEqual([name for name, _ in second], ["Example/c", "Example/d"])
+        third = audit.rotate_pending(pending, second[-1][0].casefold(), 2)
+        self.assertEqual([name for name, _ in third], ["Example/e", "Example/a"])
+
 
 class InventoryTests(unittest.TestCase):
     def test_zero_byte_readme_is_terminal_unavailable_not_capture_error(self):
@@ -191,6 +200,44 @@ class InventoryTests(unittest.TestCase):
         self.assertEqual(result["readme_unavailable_reason"], "README file is present but zero bytes")
         self.assertEqual(result["audit_status"], "evidence captured; manual review pending")
         self.assertEqual(result["capture_errors"], [])
+
+
+    def test_manifest_content_uses_raw_endpoint_and_parses_dependency_hints(self):
+        content = b'{"dependencies":{"fastapi":"^0.1","pydantic":"^2"}}'
+        with patch.object(audit, "raw_get_bytes", return_value=(content, len(content), False)) as raw:
+            result = audit.get_manifest_content(
+                "Example/repo-1", "package.json", "main", None, "tree-blob-sha"
+            )
+        self.assertEqual(result["content_status"], "captured")
+        self.assertEqual(result["sha"], "tree-blob-sha")
+        self.assertEqual(result["dependency_hints"], ["fastapi", "pydantic"])
+        self.assertIn("raw.githubusercontent.com/Example/repo-1/main/package.json", raw.call_args.args[0])
+
+    def test_manifest_file_above_limit_is_recorded_without_download_body(self):
+        with patch.object(audit, "raw_get_bytes", return_value=(b"", 300_000, True)):
+            result = audit.get_manifest_content(
+                "Example/repo-1", "package.json", "main", None, "tree-blob-sha"
+            )
+        self.assertEqual(result["content_status"], "skipped_size_limit")
+        self.assertEqual(result["dependency_hints"], [])
+
+    def test_large_readme_falls_back_to_public_raw_download(self):
+        raw_readme = b"# Large README\\n\\nThis project provides a documented test utility.\\n"
+        payload = {
+            "content": "",
+            "size": 1_500_000,
+            "path": "README.md",
+            "html_url": "https://github.com/Example/repo-1/blob/main/README.md",
+            "download_url": "https://raw.githubusercontent.com/Example/repo-1/main/README.md",
+            "sha": "large-readme-sha",
+        }
+        with patch.object(audit, "api_get", return_value=(payload, {})):
+            with patch.object(audit, "raw_get_bytes", return_value=(raw_readme, len(raw_readme), False)) as raw:
+                result = audit.get_readme("Example/repo-1", None)
+        self.assertEqual(result["sha"], "large-readme-sha")
+        self.assertFalse(result["truncated"])
+        self.assertIn("documented test utility", result["excerpt"])
+        raw.assert_called_once_with(payload["download_url"], audit.MAX_README_BYTES)
 
     def test_nonempty_readme_metadata_without_content_is_error(self):
         with patch.object(audit, "api_get", return_value=({
