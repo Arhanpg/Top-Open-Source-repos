@@ -4819,12 +4819,52 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 69584,
+        "Cuda": 49590,
+        "CMake": 10262,
+        "Python": 9343,
+        "Shell": 4861
+      },
+      "readme_url": "https://github.com/rapidsai/gputreeshap/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e7f1aff7dbaf4af863d389d2305f821d6b15d199",
+      "readme_excerpt": "GPUTreeShap uses very little",
+      "readme_headings": [
+        "GPUTreeShap",
+        "Using GPUTreeShap",
+        "Performance",
+        "Memory usage",
+        "References"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Memory usage",
+          "excerpt": "GPUTreeShap uses very little"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4377,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "dd1b48a3e234e548af5a4ab90c4226bd5df2c6e8",
+          "size": 3935,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:14:27+00:00"
     },
     "rapidsai/gqe": {
       "id": 1114787652,
@@ -4847,12 +4887,107 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 7372747,
+        "Cuda": 676478,
+        "CMake": 144441,
+        "Rust": 121283,
+        "Python": 53686,
+        "Shell": 34167,
+        "Dockerfile": 5347
+      },
+      "readme_url": "https://github.com/rapidsai/gqe/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a48e69448dda76736ee0a35433b2d1daa54eb169",
+      "readme_excerpt": "Optional components, each guarded",
+      "readme_headings": [
+        "GPU Query Engine (GQE)",
+        "Build GQE",
+        "Run GQE",
+        "... run load_tpch.py, gqe-cli, etc. ...",
+        "Task manager failures",
+        "Creating tables and loading data",
+        "Creating `EXTERNAL` tables from Parquet files without loading into memory",
+        "Running queries",
+        "TPC-H workflow",
+        "Run a single query",
+        "Run several",
+        "Run all 22 queries",
+        "Run all 22 queries and validate each against reference Parquet results",
+        "Configuration",
+        "Environment variables",
+        "In-memory table serialization",
+        "Failed writes",
+        "Morsel executor",
+        "CUDA device and NUMA affinity",
+        "Partition pruning",
+        "Experimental features",
+        "Tuning",
+        "Contributors"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": "Experimental features",
+          "excerpt": "Optional components, each guarded"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 22654,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "920cd6b3f9259838da5aa6330f569b190e3e05f2",
+          "size": 12600,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Dockerfile",
+          "sha": "0c6e195bedcc67567d486b8f5773bad7c81d3faa",
+          "size": 3968,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".devcontainer/Dockerfile",
+          "sha": "c740e2b9eb49bb0e9d74c82823886c4247176c11",
+          "size": 1379,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "benchmark/CMakeLists.txt",
+          "sha": "7fff7c43e7b3c0819f3f0f2db029f39e7e6fa44b",
+          "size": 2180,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "include/CMakeLists.txt",
+          "sha": "e13cdccfbbd332c9ce546a6a21199dbaba8307b8",
+          "size": 747,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "proto/CMakeLists.txt",
+          "sha": "68f9abd56e5ce77103c2a9399326f7856ded0f73",
+          "size": 1599,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:20:39+00:00"
     },
     "rapidsai/gqe-bench": {
       "id": 1162834360,
@@ -4879,12 +5014,127 @@
         "gqe"
       ],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 658543,
+        "C++": 185371,
+        "CMake": 27859,
+        "Cuda": 2075
+      },
+      "readme_url": "https://github.com/rapidsai/gqe-bench/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "984d6a82f8e49e1c260d98a1cbd3b242f93fe746",
+      "readme_excerpt": "The commands below assume Python3 interpreter DuckDB Python",
+      "readme_headings": [
+        "GPU Query Executor (GQE) benchmarking suite",
+        "Installation",
+        "Benchmarking",
+        "JSON5 Configuration",
+        "Query Sources",
+        "Pretuned Mode",
+        "Output",
+        "Analysis scripts",
+        "Usage",
+        "Options",
+        "Examples",
+        "Kernel: effective (end-to-end) kernel time",
+        "Kernel: total kernel time excluding a kernel pattern",
+        "IO: total HtoD copy time from pinned host memory within the NVTX range",
+        "IO: effective in-memory read task time (GQE NVTX ranges merged)",
+        "IO: total decompression engine decompress time",
+        "Pre-commit Hooks",
+        "Setup",
+        "Usage",
+        "Data generation and validation generation scripts",
+        "Dependencies",
+        "Timing and profiling plugin",
+        "What it records",
+        "Nsight Systems",
+        "Multi-GPU aggregation",
+        "Generated constants and files",
+        "Constants shared by the plugin and the runner",
+        "Generated files",
+        "Physical-plan protos",
+        "NVTX range names come from GQE"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "The commands below assume"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Dependencies",
+          "excerpt": "Python3 interpreter DuckDB Python"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 15948,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "283e1ed679e548871eb983edaa3a1451f1e2b7b1",
+          "size": 5938,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "da7acf0474aacac25df785c796446569f37fbb11",
+          "size": 2543,
+          "content_status": "captured",
+          "dependency_hints": [
+            "database-benchmarking-tools",
+            "duckdb",
+            "json5",
+            "numpy",
+            "pandas",
+            "pytest",
+            "sqlglot"
+          ]
+        },
+        {
+          "path": "database_benchmarking_tools/pyproject.toml",
+          "sha": "c2239885c1562502643268234c27cbc8a4fcf272",
+          "size": 1037,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cuda-python",
+            "nvidia-ml-py"
+          ]
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "d4bb2cbb9eddb1bb1b4f366623044af8e4830919",
+          "size": 634,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/gqe_bench/nvtx_plugin/CMakeLists.txt",
+          "sha": "c70047f816259644753ef9e5a0afad40e595d3ed",
+          "size": 2358,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/gqe_bench/nvtx_plugin/cupti_wrappers/CMakeLists.txt",
+          "sha": "87a748c7207459601314dc569e06e69fb41299c7",
+          "size": 1449,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:26:51+00:00"
     },
     "rapidsai/helm-chart": {
       "id": 241937020,
@@ -4907,12 +5157,56 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 732,
+        "Makefile": 122
+      },
+      "readme_url": "https://github.com/rapidsai/helm-chart/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f335277e8649adc13fe164b3354e6c34099d183e",
+      "readme_excerpt": "Rapidsai =========== The RAPIDS",
+      "readme_headings": [
+        "Installation",
+        "From source",
+        "Development",
+        "Testing",
+        "Configuration"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Rapidsai =========== The RAPIDS"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4971,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "5e1369e4a8e0647210211b239033fd08d50446bf",
+          "size": 122,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "rapidsai/Chart.yaml",
+          "sha": "22eb55fd7394a00c18aa98a08e5c2ed00771380d",
+          "size": 1192,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:33:03+00:00"
     },
     "rapidsai/integration": {
       "id": 214518485,
@@ -4935,12 +5229,38 @@
       "open_issues": 8,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 19209,
+        "Python": 4237
+      },
+      "readme_url": "https://github.com/rapidsai/integration/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "bd41fc2fcb02f8470d3b087f9edffb3358042b69",
+      "readme_excerpt": "RAPIDS - combined conda package for all of RAPIDS libraries",
+      "readme_headings": [
+        "<div align=\"left\"><img src=\"https://rapids.ai/assets/images/rapids_logo.png\" width=\"90px\"/>&nbsp; Integration",
+        "RAPIDS Meta-packages"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "<div align=\"left\"><img src=\"https://rapids.ai/assets/images/rapids_logo.png\" width=\"90px\"/>&nbsp; Integration",
+          "excerpt": "RAPIDS - combined conda package for all of RAPIDS libraries"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 474,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:39:15+00:00"
     },
     "rapidsai/jitify": {
       "id": 174560853,
@@ -4963,12 +5283,61 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 181296,
+        "Cuda": 6634,
+        "Makefile": 2280
+      },
+      "readme_url": "https://github.com/rapidsai/jitify/blob/cudf/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3b42c68174ef4d1f1acbc99c21e83512479362b5",
+      "readme_excerpt": "Jitify provides/takes care of See jitify_example.cpp for some",
+      "readme_headings": [
+        "Jitify",
+        "Rationale",
+        "Quick example",
+        "Features",
+        "How to build",
+        "Running tests",
+        "Documentation",
+        "Examples",
+        "API documentation",
+        "License",
+        "Authors"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": "Features",
+          "excerpt": "Jitify provides/takes care of"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Examples",
+          "excerpt": "See jitify_example.cpp for some"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3249,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "5f8ad52a3232622e2e5ff5b30c990386fdf78bf7",
+          "size": 2280,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:45:27+00:00"
     },
     "rapidsai/jupyterlab-nvdashboard": {
       "id": 201956456,
@@ -4991,12 +5360,142 @@
       "open_issues": 33,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 141544,
+        "Python": 28867,
+        "Shell": 10011,
+        "CSS": 5033,
+        "JavaScript": 2374
+      },
+      "readme_url": "https://github.com/rapidsai/jupyterlab-nvdashboard/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9bf08a2d9cd5d311c7272c6980faadfa74cb4aef",
+      "readme_excerpt": "JupyterLab-nvdashboard provides tools for The dashboard follows JupyterLab's",
+      "readme_headings": [
+        "JupyterLab NVdashboard",
+        "Demo",
+        "Table of Contents",
+        "Features",
+        "Brush for Time Series Charts",
+        "Synced Tooltips",
+        "Theme Compatibility",
+        "Light Theme",
+        "Dark Theme",
+        "GPU Accelerators",
+        "Version Compatibility",
+        "Installation",
+        "Conda",
+        "nightly version",
+        "stable version",
+        "stable version (conda-forge only)",
+        "PyPI",
+        "nightly version",
+        "stable version",
+        "Troubleshoot",
+        "Contributing Developers Guide"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": "Features",
+          "excerpt": "JupyterLab-nvdashboard provides tools for"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Theme Compatibility",
+          "excerpt": "The dashboard follows JupyterLab's"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5529,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "64d8f1d409231374f38e93da384224c418223ed2",
+          "size": 7284,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@jupyter/builder",
+            "@jupyterlab/application",
+            "@jupyterlab/apputils",
+            "@jupyterlab/coreutils",
+            "@jupyterlab/launcher",
+            "@jupyterlab/notebook",
+            "@jupyterlab/services",
+            "@jupyterlab/settingregistry",
+            "@jupyterlab/translation",
+            "@jupyterlab/ui-components",
+            "@lumino/application",
+            "@lumino/coreutils",
+            "@lumino/disposable",
+            "@lumino/messaging",
+            "@lumino/signaling",
+            "@lumino/widgets",
+            "@testing-library/dom",
+            "@testing-library/jest-dom",
+            "@testing-library/react",
+            "@testing-library/user-event",
+            "@types/d3-format",
+            "@types/d3-scale",
+            "@types/jest",
+            "@types/json-schema",
+            "@types/react",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "css-loader",
+            "d3-format",
+            "d3-scale",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-prettier",
+            "jest",
+            "jest-environment-jsdom",
+            "jest-fetch-mock",
+            "npm-run-all",
+            "prettier",
+            "react",
+            "react-dom",
+            "react-virtualized-auto-sizer",
+            "recharts",
+            "rimraf",
+            "source-map-loader",
+            "style-loader",
+            "stylelint",
+            "stylelint-config-recommended",
+            "stylelint-config-standard",
+            "stylelint-csstree-validator",
+            "stylelint-prettier",
+            "ts-jest",
+            "typescript",
+            "webpack"
+          ]
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "262cb7ea91d83f3a9a290fe1482e3e3306ef8683",
+          "size": 4865,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cuda-bindings",
+            "cuda-core",
+            "jupyterlab",
+            "psutil",
+            "pytest",
+            "pytest-jupyter",
+            "tornado"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:51:39+00:00"
     },
     "rapidsai/kvikio": {
       "id": 453147629,
@@ -5019,12 +5518,113 @@
       "open_issues": 81,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 955682,
+        "Python": 246197,
+        "Cython": 68719,
+        "CMake": 35317,
+        "Shell": 35261,
+        "Jupyter Notebook": 24422,
+        "Java": 9916,
+        "HTML": 2066,
+        "Dockerfile": 1418
+      },
+      "readme_url": "https://github.com/rapidsai/kvikio/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "86df9730d2bc158690fe6f250627c9ca7fff8d94",
+      "readme_excerpt": "KvikIO (pronounced \"kuh-VICK-eye-oh\", see Object oriented API of",
+      "readme_headings": [
+        "KvikIO: High Performance File IO",
+        "Summary",
+        "Features",
+        "Documentation",
+        "Examples",
+        "Python",
+        "C++"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Summary",
+          "excerpt": "KvikIO (pronounced \"kuh-VICK-eye-oh\", see"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Features",
+          "excerpt": "Object oriented API of"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2994,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "c80387d7714b73a0ee5d13124f19eb817c48e307",
+          "size": 1065,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".devcontainer/Dockerfile",
+          "sha": "b7cca7d4f361e4bb9354b53dbae57d71b13c7c4f",
+          "size": 1418,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cpp/CMakeLists.txt",
+          "sha": "043b1f0e1f6ea67156a703c9b1e0caefe7bf42dd",
+          "size": 11831,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "79f529b67da161db6d2b1726e24b426498cd3d73",
+          "size": 753,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "java/pom.xml",
+          "sha": "019e4a09666431877c08c0122af161eab48a3be1",
+          "size": 6540,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cmake-maven-plugin",
+            "cufile",
+            "jcuda",
+            "jcuda-natives",
+            "junit-jupiter-api",
+            "junit-jupiter-engine",
+            "junit-jupiter-params",
+            "junit-platform-surefire-provider",
+            "maven-clean-plugin",
+            "maven-compiler-plugin",
+            "maven-deploy-plugin",
+            "maven-install-plugin",
+            "maven-jar-plugin",
+            "maven-surefire-plugin"
+          ]
+        },
+        {
+          "path": "cpp/benchmarks/CMakeLists.txt",
+          "sha": "c6e227558ed97650c697cbeaf46f76691dfdaad4",
+          "size": 1876,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:57:51+00:00"
     },
     "rapidsai/legate-boost": {
       "id": 656733319,
@@ -5047,12 +5647,97 @@
       "open_issues": 24,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 254200,
+        "C++": 117488,
+        "Cuda": 111445,
+        "Shell": 11717,
+        "CMake": 10701,
+        "C": 1153
+      },
+      "readme_url": "https://github.com/rapidsai/legate-boost/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "34e64a5fafdf683cbb0abf4056770ec49ddc11d5",
+      "readme_excerpt": "Install using conda.",
+      "readme_headings": [
+        "legate-boost",
+        "Installation",
+        "stable release",
+        "nightly release",
+        "nightly release (CPU-only)",
+        "Simple example",
+        "Features",
+        "Model ensembling",
+        "Probabilistic regression",
+        "Batch training",
+        "Different model types"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "Install using conda."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4319,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "00b33ff2214a8c373c3d6942f84e5e351876dfa2",
+          "size": 3005,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "2f3f3e75f38628310e1623d9fbed340027543c18",
+          "size": 3591,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cupynumeric",
+            "cutensor",
+            "hypothesis",
+            "legate",
+            "matplotlib",
+            "mypy",
+            "nbconvert",
+            "notebook",
+            "numpy",
+            "onnx",
+            "onnxmltools",
+            "pytest",
+            "scikit-learn",
+            "seaborn",
+            "typing-extensions",
+            "xgboost"
+          ]
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "56aeb1745944342c446fdaedff296ed52bc9226e",
+          "size": 1589,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/CMakeLists.txt",
+          "sha": "2895a4d9b44b8af98de4445b0e9678e65f52468d",
+          "size": 2401,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:04:03+00:00"
     },
     "rapidsai/legate-dataframe": {
       "id": 892674972,
@@ -5075,12 +5760,104 @@
       "open_issues": 24,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 423010,
+        "Python": 301618,
+        "Cuda": 176608,
+        "Cython": 80818,
+        "Shell": 22841,
+        "CMake": 22155,
+        "Dockerfile": 1823
+      },
+      "readme_url": "https://github.com/rapidsai/legate-dataframe/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "67540765d595bffa7e93dbb990b3fb7f0deee703",
+      "readme_excerpt": "You can install legate-dataframe",
+      "readme_headings": [
+        "Legate-dataframe: a scalable dataframe library",
+        "Install",
+        "Build",
+        "Legate-dataframe",
+        "Feature Status",
+        "Example",
+        "Python",
+        "C++",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Install",
+          "excerpt": "You can install legate-dataframe"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7019,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "cb8cc09c3c827e97112c2ba58b9ccb14b58640b3",
+          "size": 1823,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "e715ddafd013f4788c0e6cce4cc5415328cc2cbc",
+          "size": 50,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cpp/CMakeLists.txt",
+          "sha": "2e1441c9e536a727c4929dce3679c8478e2af2fa",
+          "size": 8070,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "39250bf43fae459f0cf4c1d990867f4037110064",
+          "size": 743,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "python/CMakeLists.txt",
+          "sha": "dfabdc728907a3d8d068222cdf949d759a5c08c2",
+          "size": 2625,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "python/pyproject.toml",
+          "sha": "b9a1cd67d73d495c0cca95623d7eddab53419a4a",
+          "size": 3251,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cudf",
+            "cupynumeric",
+            "dask-cuda",
+            "dask-cudf",
+            "legate",
+            "libarrow-acero",
+            "numpy",
+            "polars",
+            "pylibcudf",
+            "pytest"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:10:15+00:00"
     },
     "rapidsai/legate-raft": {
       "id": 892673542,
@@ -5103,12 +5880,87 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Cuda": 169259,
+        "Python": 97830,
+        "C++": 28306,
+        "CMake": 8784,
+        "Shell": 8665,
+        "C": 1158
+      },
+      "readme_url": "https://github.com/rapidsai/legate-raft/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1bc6d4d2dfb0801a295e34bf511f373a24988e51",
+      "readme_excerpt": "Legate-raft is available as",
+      "readme_headings": [
+        "legate-raft",
+        "Installing",
+        "Building",
+        "Usage",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installing",
+          "excerpt": "Legate-raft is available as"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1642,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "302324eb8b9fcd489481832c96eb62432adb157f",
+          "size": 3554,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "5b1a62766de962cb637717c1f64cc294d2a1a17d",
+          "size": 2919,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cupy-cuda12x",
+            "cupynumeric",
+            "hypothesis",
+            "joblib",
+            "legate",
+            "legate-dataframe",
+            "libraft",
+            "librmm",
+            "numpy",
+            "pytest",
+            "scikit-learn",
+            "scipy"
+          ]
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "39250bf43fae459f0cf4c1d990867f4037110064",
+          "size": 743,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cpp/src/CMakeLists.txt",
+          "sha": "5554c5420b1b1b7f7b2f0a17f850e0eb8481acea",
+          "size": 1286,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:16:27+00:00"
     },
     "rapidsai/libcypher-parser-conda-recipe": {
       "id": 207914639,
@@ -5131,12 +5983,36 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 1494
+      },
+      "readme_url": "https://github.com/rapidsai/libcypher-parser-conda-recipe/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "dee91e7eec5d130cae3861f0597264c7f492a49e",
+      "readme_excerpt": "Conda package for libcypher-parser.",
+      "readme_headings": [
+        "libcypher-parser-conda-recipe"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "libcypher-parser-conda-recipe",
+          "excerpt": "Conda package for libcypher-parser."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 118,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:22:27+00:00"
     },
     "rapidsai/libgdf": {
       "id": 91843389,
@@ -5159,12 +6035,102 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Cuda": 896126,
+        "C++": 218373,
+        "Python": 58204,
+        "CMake": 24995,
+        "C": 11171,
+        "Shell": 4694
+      },
+      "readme_url": "https://github.com/rapidsai/libgdf/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e60a985687781a0e3f893fcd642b0e3e5280e233",
+      "readme_excerpt": "$ sudo apt-get install **Note**: This repo uses",
+      "readme_headings": [
+        ":warning: [ARCHIVED] libgdf: GPU Dataframes",
+        "All development has moved to the cuDF repo effective October 28th 2018",
+        "Outstanding PRs",
+        "Outstanding Issues",
+        "Development Setup",
+        "Get dependencies",
+        "Install Boost C++ 1.58 for Ubuntu 16.04",
+        "Install Boost C++ 1.58 for Conda (you will need a Python 3.3 environment)",
+        "create the conda environment (assuming in build directory)",
+        "activate the environment",
+        "when not using default arrow version 0.10.0, run",
+        "Configure and build",
+        "Link python files into the build directory",
+        "Run tests"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Install Boost C++ 1.58 for Ubuntu 16.04",
+          "excerpt": "$ sudo apt-get install"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Get dependencies",
+          "excerpt": "**Note**: This repo uses"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5199,
+      "manifest_paths": [
+        {
+          "path": "libgdf/CMakeLists.txt",
+          "sha": "59f4a8561631a33bccd749a9edadd461d7806c57",
+          "size": 8009,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "libgdf/python/setup.py",
+          "sha": "2b33003b73cdb518edab4514c014bb52bf33b8d1",
+          "size": 496,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "libgdf/src/tests/CMakeLists.txt",
+          "sha": "abf3d2fabb1b631cd20253c4ef9166bcaccfb75a",
+          "size": 2253,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "libgdf/src/tests/column/CMakeLists.txt",
+          "sha": "c862ac04b0a5e467f18829a5aee3f05f15f0cf6c",
+          "size": 92,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "libgdf/src/tests/csv/CMakeLists.txt",
+          "sha": "1afdb4350bfdda378eb422603f387d17202ae6f9",
+          "size": 81,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "libgdf/src/tests/datetime/CMakeLists.txt",
+          "sha": "71a31c8841f6741b6ce062c64aba27309b90a895",
+          "size": 113,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:28:27+00:00"
     },
     "rapidsai/librtcx": {
       "id": 1263191342,
@@ -5190,12 +6156,90 @@
         "jit"
       ],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 150205,
+        "CMake": 47298,
+        "Python": 8498,
+        "Shell": 8139,
+        "Cuda": 473
+      },
+      "readme_url": "https://github.com/rapidsai/librtcx/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a31f8819162b4af27fe19e522a281040a3d4d395",
+      "readme_excerpt": "The cache examples use CMake >= 4.0 libzstd",
+      "readme_headings": [
+        "librtcx",
+        "Platforms Supported",
+        "Build-time Requirements",
+        "Dependencies",
+        "Building",
+        "Examples",
+        "1. CUDA C++ JIT Compilation and Caching",
+        "2. CUDA JIT Linking and Caching",
+        "3. Source-code Embedding",
+        "4. CUDA Binary Embedding"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Examples",
+          "excerpt": "The cache examples use"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Build-time Requirements",
+          "excerpt": "CMake >= 4.0 libzstd"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 9313,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "8809a40eb52615c6af2306fed91c413b0cb70c94",
+          "size": 11281,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "2f2186c65452508864ea743787956e89826883c1",
+          "size": 533,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/CMakeLists.txt",
+          "sha": "ab64a903adda4b940918374d7738bb9227c96ed8",
+          "size": 1499,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/cmake/CMakeLists.txt",
+          "sha": "8e6280d309928b73414ce15fe555bbded4295b2c",
+          "size": 2974,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/cmake/consumer/CMakeLists.txt",
+          "sha": "c8f1efe75b99b86df1f7b47fc616fad0367d6413",
+          "size": 1251,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:34:27+00:00"
     },
     "rapidsai/manylinux": {
       "id": 522678846,
@@ -5218,12 +6262,55 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 50916,
+        "Python": 14910,
+        "Dockerfile": 7951,
+        "CMake": 472,
+        "C++": 366
+      },
+      "readme_url": "https://github.com/rapidsai/manylinux/blob/rapidsai-manylinux/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "89a354b35cd31f7d6a00a5f26523ed224c5501d7",
+      "readme_excerpt": "RAPIDS manylinux CUDA images for cibuildwheel in GitHub Actions. **These are built and pushed from <https://github.com/rapidsai/cibuildwheel-imgs>**",
+      "readme_headings": [
+        "manylinux"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "manylinux",
+          "excerpt": "RAPIDS manylinux CUDA images for cibuildwheel in GitHub Actions. **These are built and pushed from <https://github.com/rapidsai/cibuildwheel-imgs>**"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 163,
+      "manifest_paths": [
+        {
+          "path": "docker/Dockerfile",
+          "sha": "60d3eb75ba952e60df56d1de7ce48ee18e08ea3a",
+          "size": 7951,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/ctest/CMakeLists.txt",
+          "sha": "b81582ac47e9390029322cc726745db0e39edd7b",
+          "size": 472,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:40:27+00:00"
     },
     "rapidsai/merlinci-mgmt": {
       "id": 562994385,
@@ -5246,12 +6333,41 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 7276,
+        "Shell": 4240,
+        "Dockerfile": 653
+      },
+      "readme_url": "https://github.com/rapidsai/merlinci-mgmt/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "232cf1679c70b05acb0b44732814c16cbd37d18e",
+      "readme_excerpt": "Management scripts for Merlin CI",
+      "readme_headings": [
+        "merlinci-mgmt",
+        "[`/ci`](/ci)",
+        "[`/init`](/init)",
+        "[`/templates`](/templates)"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "merlinci-mgmt",
+          "excerpt": "Management scripts for Merlin CI"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 261,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:46:27+00:00"
     },
     "rapidsai/miniforge-cuda": {
       "id": 488994993,
@@ -5274,12 +6390,47 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 2005,
+        "Dockerfile": 1935,
+        "jq": 1377
+      },
+      "readme_url": "https://github.com/rapidsai/miniforge-cuda/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "edc9c1169be191ab4a88a8c6f5a3553df2de1e00",
+      "readme_excerpt": "A simple set of images that install Miniforge on top of the nvidia/cuda images. These images are intended to be used as a base image",
+      "readme_headings": [
+        "miniforge-cuda",
+        "`latest` tag"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "miniforge-cuda",
+          "excerpt": "A simple set of images that install Miniforge on top of the nvidia/cuda images. These images are intended to be used as a base image"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 819,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "2d22dfefe2409be707421567b73cc3cfce4ba80c",
+          "size": 1935,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:52:27+00:00"
     },
     "rapidsai/multi-gpu-tools": {
       "id": 390503139,
@@ -5302,12 +6453,40 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 23053,
+        "Python": 20162
+      },
+      "readme_url": "https://github.com/rapidsai/multi-gpu-tools/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ae7f4e91c477786f7aee74ea0be12246616c9ecc",
+      "readme_excerpt": "This repo contains tools for configuring environments and automating single-node or multi-node, multi-gpu application runs (SNMG or MNMG), currently consisting of a collection of shell",
+      "readme_headings": [
+        "rapidsai/multi-gpu-tools (rapids-mg-tools)",
+        "Quick start examples  (FIXME: finish this section!)",
+        "Creating a script to run MNMG tests for your project",
+        "PROJECT_DIR will default to /my/project but can be overridden by the environment"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "rapidsai/multi-gpu-tools (rapids-mg-tools)",
+          "excerpt": "This repo contains tools for configuring environments and automating single-node or multi-node, multi-gpu application runs (SNMG or MNMG), currently consisting of a collection of shell"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1574,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:58:27+00:00"
     },
     "rapidsai/nccl-feedstock": {
       "id": 619937890,
@@ -5330,12 +6509,43 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 732
+      },
+      "readme_url": "https://github.com/rapidsai/nccl-feedstock/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d5283de45a65d96700ff230d2f6fbf2966f5030d",
+      "readme_excerpt": "About nccl ========== Home: mamba repoquery depends nccl",
+      "readme_headings": [
+        "Search all versions available on your platform:",
+        "List packages depending on `nccl`:",
+        "List dependencies of `nccl`:"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "About nccl ========== Home:"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "List dependencies of `nccl`:",
+          "excerpt": "mamba repoquery depends nccl"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 12395,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:04:27+00:00"
     },
     "rapidsai/node": {
       "id": 268624770,
@@ -5365,12 +6575,129 @@
         "nodejs"
       ],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 1675619,
+        "C++": 1287208,
+        "JavaScript": 732783,
+        "CMake": 141143,
+        "Jupyter Notebook": 98306,
+        "Python": 43244,
+        "Dockerfile": 31180,
+        "Cuda": 21010,
+        "Shell": 19886,
+        "HTML": 15897,
+        "CSS": 10839
+      },
+      "readme_url": "https://github.com/rapidsai/node/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "474f7799a19b8e7605a2bfa243ae78c931f669a8",
+      "readme_excerpt": "Due to native dependency",
+      "readme_headings": [
+        "<div align=\"left\"><img src=\"https://rapids.ai/assets/images/rapids_logo.png\" width=\"90px\"/>&nbsp; node-rapids</div>",
+        "Getting started",
+        "Getting involved",
+        "Tracking Progress",
+        "Demos",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting started",
+          "excerpt": "Due to native dependency"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3616,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "a297b297423c0f966304c058628892a41ccdf9d8",
+          "size": 9340,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@eslint/eslintrc",
+            "@eslint/js",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "bufferutil",
+            "cmake-js",
+            "cross-env",
+            "dotenv",
+            "eslint",
+            "globals",
+            "lerna",
+            "lint-staged",
+            "node-gyp",
+            "pre-git",
+            "rimraf",
+            "typedoc",
+            "utf-8-validate"
+          ]
+        },
+        {
+          "path": "modules/core/CMakeLists.txt",
+          "sha": "ef4cc102d735b26632198a6619f6eff4b48c75ae",
+          "size": 3665,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "modules/core/package.json",
+          "sha": "a91c7d0a4ab0c04d463634d6b05711a793dcd3cb",
+          "size": 3784,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/jest",
+            "@types/node",
+            "bindings",
+            "cmake-js",
+            "cross-env",
+            "dotenv",
+            "getos",
+            "jest",
+            "node-addon-api",
+            "rimraf",
+            "ts-jest",
+            "tslib",
+            "typedoc",
+            "typescript"
+          ]
+        },
+        {
+          "path": "modules/cuda/CMakeLists.txt",
+          "sha": "13ee45f3f7843bfcb696642197f63a8b91072741",
+          "size": 4427,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "modules/cuda/package.json",
+          "sha": "52bc73ac9f5e98cd68b5df9e0c60b68136a3419c",
+          "size": 3437,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@rapidsai/core"
+          ]
+        },
+        {
+          "path": "modules/cudf/CMakeLists.txt",
+          "sha": "a03bed1359a84a8276908586dd621a362e1306bc",
+          "size": 4165,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:10:28+00:00"
     },
     "rapidsai/notebooks": {
       "id": 159398705,
@@ -5393,12 +6720,40 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 5657,
+        "Python": 5520
+      },
+      "readme_url": "https://github.com/rapidsai/notebooks/blob/branch-23.08/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "903f802729c3ecd6739e492618463dec08f8dc16",
+      "readme_excerpt": "This repository serves as",
+      "readme_headings": [
+        "Archived",
+        "RAPIDS Notebooks",
+        "Intro",
+        "Usage"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Usage",
+          "excerpt": "This repository serves as"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1503,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:16:27+00:00"
     },
     "rapidsai/nvbench": {
       "id": 395071935,
@@ -5421,12 +6776,89 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Cuda": 423210,
+        "C++": 392024,
+        "Python": 8569,
+        "CMake": 7275
+      },
+      "readme_url": "https://github.com/rapidsai/nvbench/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "02fe877a4a81d7a48884c661516658e04e86001c",
+      "readme_excerpt": "This project is a This repository provides a",
+      "readme_headings": [
+        "Overview",
+        "Getting Started",
+        "Minimal Benchmark",
+        "Command Line Interface",
+        "Examples",
+        "License",
+        "Scope and Related Projects"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Overview",
+          "excerpt": "This project is a"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Examples",
+          "excerpt": "This repository provides a"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3689,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "850a51a2b9e0bb7f7e5312902db26ed56aa76b85",
+          "size": 2371,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "9bfda60413e693392d896846ef8fa734e0ea8523",
+          "size": 18,
+          "content_status": "captured",
+          "dependency_hints": [
+            "colorama",
+            "tabulate"
+          ]
+        },
+        {
+          "path": "examples/CMakeLists.txt",
+          "sha": "32cb4d0368ed16f22ce5cb894e153040a617b6f9",
+          "size": 1066,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "nvbench/CMakeLists.txt",
+          "sha": "a5e3cb2da190c036f7fc6d39d5b7a114a92991b8",
+          "size": 2279,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "testing/CMakeLists.txt",
+          "sha": "22f63df6208d3008e94f7eb714e2a8c4c894dd4c",
+          "size": 1181,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:22:27+00:00"
     },
     "rapidsai/nvforest": {
       "id": 1089803908,
@@ -5449,12 +6881,104 @@
       "open_issues": 24,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 308914,
+        "Python": 191339,
+        "Cuda": 70348,
+        "Shell": 40521,
+        "CMake": 34354,
+        "Cython": 19043,
+        "HTML": 2066,
+        "Dockerfile": 1636
+      },
+      "readme_url": "https://github.com/rapidsai/nvforest/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1e38c2a7cb28f032a66a73347902798f59344b05",
+      "readme_excerpt": "You can install nvForest Please see the Installation",
+      "readme_headings": [
+        "nvForest - Highly Optimized Decision Tree Inference",
+        "Load XGBoost model for GPU inference",
+        "Run inference (X can be a NumPy array or CuPy array)",
+        "Train with scikit-learn (or load a saved model)",
+        "Load into nvForest for fast GPU inference",
+        "Supported Models",
+        "Inference Modes",
+        "Installation",
+        "Using Pip: need a suffix corresponding to your CUDA version, e.g. for CUDA 13:",
+        "Using Conda: need to specify the rapidsai channel",
+        "System Requirements",
+        "Build/Install from Source",
+        "Contact",
+        "NVIDIA CUDA-X Libraries for Data Science"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "You can install nvForest"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "System Requirements",
+          "excerpt": "Please see the Installation"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4268,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "19a6274861c9f18c04ef573164cafb99bd9364b5",
+          "size": 1186,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".devcontainer/Dockerfile",
+          "sha": "21a54d49173db717ff7cd7c84092e47f7f261db4",
+          "size": 1636,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cpp/CMakeLists.txt",
+          "sha": "63d9931c81010aaf3c1efdc3c9613e00655341bc",
+          "size": 16173,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "ecbceb826ba244ab3f3f968e4bcce67288490b24",
+          "size": 764,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cpp/tests/CMakeLists.txt",
+          "sha": "3eea830e183594be71f5f779ca92af1442e6b99e",
+          "size": 4173,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "python/libnvforest/CMakeLists.txt",
+          "sha": "63a233e9e9262695543866f39891bcd14e294327",
+          "size": 1513,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:28:16+00:00"
     },
     "rapidsai/nvgraph": {
       "id": 184614215,
@@ -5477,12 +7001,103 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 1036196,
+        "Cuda": 928415,
+        "C": 60073,
+        "CMake": 20143,
+        "Shell": 16289,
+        "Python": 9848,
+        "Makefile": 2464
+      },
+      "readme_url": "https://github.com/rapidsai/nvgraph/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "30c1398d466c1d50c20677db188fac39319e8d77",
+      "readme_excerpt": "To install nvGraph from To install nvGraph from Compiler requirement: gcc version",
+      "readme_headings": [
+        "nvGraph - NVIDIA graph library",
+        "Get nvGrpah",
+        "Prerequisites",
+        "Using the script",
+        "Manually build from Source",
+        "Build and Install the C/C++ CUDA components",
+        "C++ stand alone tests",
+        "Run the tests",
+        "Documentation"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Build and Install the C/C++ CUDA components",
+          "excerpt": "To install nvGraph from"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Build and Install the C/C++ CUDA components",
+          "excerpt": "To install nvGraph from"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "Compiler requirement: gcc version"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4482,
+      "manifest_paths": [
+        {
+          "path": "cpp/CMakeLists.txt",
+          "sha": "972c233be6fd528d1431d259b6d122095e18a796",
+          "size": 10016,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/Makefile",
+          "sha": "f2617d7fc8586fc5919d9b0a2f6c6bf23569f968",
+          "size": 1092,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cpp/tests/CMakeLists.txt",
+          "sha": "59cf29342518085135d26151940183ad854ad369",
+          "size": 7373,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/generators/Makefile",
+          "sha": "3d9c9ddc808a5fd26e3cd8ecc258b409a9d2eb36",
+          "size": 683,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/generators/convertors/Makefile",
+          "sha": "e4f9921479d47c7c968694ac06c1901eb1df1496",
+          "size": 354,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/ref/nerstrand/Makefile",
+          "sha": "84c4b26bce4db2feecd79a938e9d094fe9316b1b",
+          "size": 335,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:33:52+00:00"
     },
     "rapidsai/nx-cugraph": {
       "id": 807226161,
@@ -5510,12 +7125,100 @@
         "rapids"
       ],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 3302194,
+        "Python": 549096,
+        "Shell": 26836,
+        "Dockerfile": 1588,
+        "Makefile": 394
+      },
+      "readme_url": "https://github.com/rapidsai/nx-cugraph/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b4b431e355a486c2dd3748f5c7a85ab397989f03",
+      "readme_excerpt": "nx-cugraph can be installed **GPU:** NVIDIA Volta architecture",
+      "readme_headings": [
+        "<div align=\"left\"><img src=\"img/rapids_logo.png\" width=\"90px\"/>&nbsp;nx-cugraph - GPU Backend for NetworkX</div>",
+        "Description",
+        "🔍 Try it in Google Colab!",
+        "System Requirements",
+        "Installation",
+        "conda",
+        "CUDA 13",
+        "CUDA 12",
+        "CUDA 13",
+        "CUDA 12",
+        "pip",
+        "For CUDA 13.x:",
+        "For CUDA 12.x:",
+        "Enabling nx-cugraph",
+        "`NX_CUGRAPH_AUTOCONFIG` environment variable.",
+        "`backend=` keyword argument",
+        "Type-based dispatching",
+        "Supported Algorithms",
+        "[Algorithms](https://networkx.org/documentation/latest/reference/algorithms/index.html)",
+        "[Generators](https://networkx.org/documentation/latest/reference/generators.html)",
+        "Other",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "nx-cugraph can be installed"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "System Requirements",
+          "excerpt": "**GPU:** NVIDIA Volta architecture"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 41374,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "289556035c0facc4759d00fa5b7f3de27ae6fe30",
+          "size": 394,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "33c98cd0dab852c81f7765d03edd05e76cfdc620",
+          "size": 10753,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cudf",
+            "cupy-cuda13x",
+            "networkx",
+            "numpy",
+            "pandas",
+            "pylibcugraph",
+            "pytest",
+            "pytest-benchmark",
+            "pytest-cov",
+            "pytest-xdist",
+            "scipy"
+          ]
+        },
+        {
+          "path": ".devcontainer/Dockerfile",
+          "sha": "98aee0ec0eedee1620d06429bcf7b052e5b2fde6",
+          "size": 1588,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:39:27+00:00"
     },
     "rapidsai/plotly-dash-rapids-census-demo": {
       "id": 248579335,
@@ -5538,12 +7241,74 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 8056692,
+        "Python": 85588,
+        "CSS": 13848,
+        "Dockerfile": 671,
+        "Shell": 182
+      },
+      "readme_url": "https://github.com/rapidsai/plotly-dash-rapids-census-demo/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b12e6fc2882f37d6caa259089442a068ddf9981d",
+      "readme_excerpt": "CUDA 11.0+ NVIDIA driver **What hardware do I",
+      "readme_headings": [
+        "Plotly-Dash + RAPIDS | Census 2020 Visualization",
+        "Charts",
+        "Data-Selection Views",
+        "Installation and Run Steps",
+        "Base Layer Setup",
+        "Data",
+        "Conda Env",
+        "setup conda environment",
+        "run and access single GPU version",
+        "run and access multi GPU version, run `python dask_app.py --help for args info`",
+        "if --cuda_visible_devices argument is not passed, all the available GPUs are used",
+        "Docker",
+        "build",
+        "run and access single GPU version via: http://localhost:8050 / http://ip_address:8050 / http://0.0.0.0:8050",
+        "run and access multi GPU version via: http://localhost:8050 / http://ip_address:8050 / http://0.0.0.0:8050",
+        "Use `--gpus all` to use all the available GPUs",
+        "Requirements",
+        "CUDA/GPU requirements",
+        "OS requirements",
+        "Dependencies",
+        "FAQ and Known Issues",
+        "Acknowledgments and Data Sources"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "CUDA/GPU requirements",
+          "excerpt": "CUDA 11.0+ NVIDIA driver"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "FAQ and Known Issues",
+          "excerpt": "**What hardware do I"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7280,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "12f60b53ba8f64a06b7d8fd6e8889aac3a6b6230",
+          "size": 671,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:45:03+00:00"
     },
     "rapidsai/pre-commit-hooks": {
       "id": 265042297,
@@ -5566,12 +7331,74 @@
       "open_issues": 7,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 683457,
+        "Shell": 507
+      },
+      "readme_url": "https://github.com/rapidsai/pre-commit-hooks/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "02497b18567726e0b98dce8bd476bc55df633d5d",
+      "readme_excerpt": "This repository contains pre-commit hooks used by RAPIDS projects.",
+      "readme_headings": [
+        "pre-commit-hooks",
+        "Using hooks",
+        "Suppressing false positives",
+        "Included hooks"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "pre-commit-hooks",
+          "excerpt": "This repository contains pre-commit hooks used by RAPIDS projects."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1354,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "093a39b0b3d8dda840b2c60f2a745562811e0efc",
+          "size": 1925,
+          "content_status": "captured",
+          "dependency_hints": [
+            "PyYAML",
+            "freezegun",
+            "gitpython",
+            "levenshtein",
+            "packaging",
+            "pre-commit",
+            "pytest",
+            "rapids-metadata",
+            "rapids-pre-commit-hooks",
+            "rich",
+            "tomlkit"
+          ]
+        },
+        {
+          "path": "tests/examples/verify-pyproject-license/fail/main/pyproject.toml",
+          "sha": "b52293ab0031ef10894524bc1d4903d9e56c00c3",
+          "size": 44,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/examples/verify-pyproject-license/pass/main/pyproject.toml",
+          "sha": "2dd1a5431246a477935fb5dcadcdaaea5696ef9e",
+          "size": 33,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:50:39+00:00"
     },
     "rapidsai/projects": {
       "id": 159727081,
@@ -5594,12 +7421,34 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 90281517,
+        "HTML": 7314172,
+        "JavaScript": 4488184,
+        "CSS": 1440852,
+        "Shell": 1976
+      },
+      "readme_url": "https://github.com/rapidsai/projects/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "cf90d2a75be6acb73cf96c28db1f8efb90025a6f",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "projects"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 10,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:56:04+00:00"
     },
     "rapidsai/ptxcompiler": {
       "id": 427097615,
@@ -5622,12 +7471,51 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 122116,
+        "C++": 9188
+      },
+      "readme_url": "https://github.com/rapidsai/ptxcompiler/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7b8e7dcea7d7a136e8e604cd5b96444fafd401da",
+      "readme_excerpt": "Install with either: python",
+      "readme_headings": [
+        "Static PTX Compiler Python binding and Numba patch",
+        "Numba support",
+        "Installation",
+        "Testing",
+        "Usage",
+        "Numba >= 0.57",
+        "Numba versions < 0.57"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "Install with either: python"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2774,
+      "manifest_paths": [
+        {
+          "path": "setup.py",
+          "sha": "a133a6dced45d58696bf5800450c2342a2293316",
+          "size": 2699,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:01:27+00:00"
     },
     "rapidsai/pynvjitlink": {
       "id": 663118722,
@@ -5650,12 +7538,73 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 40593,
+        "C++": 11392,
+        "Shell": 6372,
+        "Makefile": 2402,
+        "CMake": 715,
+        "Cuda": 581
+      },
+      "readme_url": "https://github.com/rapidsai/pynvjitlink/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "86c0b38c656ae325b4fa44e77ccad986af2383ec",
+      "readme_excerpt": "pip install pynvjitlink-cu12",
+      "readme_headings": [
+        "<div align=\"left\"><img src=\"https://rapids.ai/assets/images/rapids_logo.png\" width=\"90px\"/>&nbsp;pynvjitlink</div>",
+        "Installation with pip",
+        "Installation from source",
+        "Installation with Conda",
+        "Contributing Guide"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation with pip",
+          "excerpt": "pip install pynvjitlink-cu12"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1102,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "87aaed42a23174112dcf1f998f43c50c5e308aba",
+          "size": 715,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "f8ee95df4f6e12b1b42763e2738a9b9a41683e33",
+          "size": 1906,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cuda-python",
+            "numba",
+            "psutil",
+            "pytest",
+            "pytest-cov"
+          ]
+        },
+        {
+          "path": "test_binary_generation/Makefile",
+          "sha": "feaace805ef6912bd2efaa4650da057bd1fdd450",
+          "size": 2402,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:06:39+00:00"
     },
     "rapidsai/quent": {
       "id": 1162795461,
@@ -5682,12 +7631,182 @@
         "telemetry"
       ],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Rust": 2515917,
+        "TypeScript": 2490476,
+        "Svelte": 131167,
+        "JavaScript": 40103,
+        "Python": 32334,
+        "C++": 31022,
+        "CSS": 27907,
+        "Shell": 3711,
+        "HTML": 1719,
+        "Dockerfile": 1599,
+        "C": 1250,
+        "Nix": 1114
+      },
+      "readme_url": "https://github.com/rapidsai/quent/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1b2189f12e25acfc2f8ac9878e3a6eab6dbaff1f",
+      "readme_excerpt": "Quent &bull; &bull; Quent",
+      "readme_headings": [
+        "Try it",
+        "Explore the modeling approach",
+        "Status",
+        "Semantic modules",
+        "Quick example",
+        "Schema definition",
+        "Generating an instrumentation library",
+        "Instrumenting an application",
+        "Applying semantic modules",
+        "Cross-language integration",
+        "More information",
+        "Roadmap"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Quent &bull; &bull; Quent"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 13011,
+      "manifest_paths": [
+        {
+          "path": "Cargo.toml",
+          "sha": "c59489a750d1b0520b4561cc9e6014cee3361e28",
+          "size": 5711,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Dockerfile",
+          "sha": "18c93faa3e180acb2dfd160f9a30ef1aa205d483",
+          "size": 647,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "proto/Cargo.toml",
+          "sha": "c9547505332c759ebe745049812eb180ccb0b417",
+          "size": 223,
+          "content_status": "captured",
+          "dependency_hints": [
+            "prost",
+            "tonic",
+            "tonic-prost",
+            "tonic-prost-build"
+          ]
+        },
+        {
+          "path": "ui/package.json",
+          "sha": "7e606f8208ee36fe5bd471868b959b66a5a1b77f",
+          "size": 6653,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@eslint/js",
+            "@playwright/test",
+            "@quent/client",
+            "@quent/components",
+            "@quent/hooks",
+            "@quent/utils",
+            "@radix-ui/react-accordion",
+            "@radix-ui/react-collapsible",
+            "@radix-ui/react-dropdown-menu",
+            "@radix-ui/react-hover-card",
+            "@radix-ui/react-navigation-menu",
+            "@radix-ui/react-popover",
+            "@radix-ui/react-scroll-area",
+            "@radix-ui/react-select",
+            "@radix-ui/react-slot",
+            "@radix-ui/react-tabs",
+            "@tailwindcss/vite",
+            "@tanstack/react-query",
+            "@tanstack/react-query-devtools",
+            "@tanstack/react-router",
+            "@tanstack/react-router-devtools",
+            "@tanstack/react-table",
+            "@tanstack/react-virtual",
+            "@tanstack/router-cli",
+            "@tanstack/router-vite-plugin",
+            "@testing-library/jest-dom",
+            "@testing-library/react",
+            "@testing-library/user-event",
+            "@types/node",
+            "@types/react",
+            "@types/react-dom",
+            "@vitejs/plugin-react",
+            "@vitest/coverage-v8",
+            "@xyflow/react",
+            "class-variance-authority",
+            "clsx",
+            "dependency-cruiser",
+            "echarts",
+            "echarts-for-react",
+            "elkjs",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-prettier",
+            "eslint-plugin-react-hooks",
+            "eslint-plugin-react-refresh",
+            "fflate",
+            "globals",
+            "jotai",
+            "jotai-family",
+            "jsdom",
+            "lucide-react",
+            "msw",
+            "prettier",
+            "react",
+            "react-dom",
+            "react-resizable-panels",
+            "rollup-plugin-visualizer",
+            "tailwind-merge",
+            "tailwindcss",
+            "tailwindcss-animate"
+          ]
+        },
+        {
+          "path": "benchmarks/bench/Cargo.toml",
+          "sha": "d5810703c5ff272a6906dc80960b5dca958e0f88",
+          "size": 500,
+          "content_status": "captured",
+          "dependency_hints": [
+            "chrono",
+            "clap",
+            "comfy-table",
+            "quent-bench-types",
+            "serde",
+            "serde_json",
+            "statrs",
+            "sysinfo",
+            "tempfile"
+          ]
+        },
+        {
+          "path": "benchmarks/types/Cargo.toml",
+          "sha": "f75b58d25490985e2b700ab194955b921b9e13cf",
+          "size": 321,
+          "content_status": "captured",
+          "dependency_hints": [
+            "clap",
+            "serde",
+            "serde_json",
+            "strum"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:11:52+00:00"
     },
     "rapidsai/rapids-build-backend": {
       "id": 770563129,
@@ -5714,12 +7833,85 @@
         "versioning"
       ],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 60629,
+        "Shell": 1692,
+        "CMake": 233
+      },
+      "readme_url": "https://github.com/rapidsai/rapids-build-backend/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6817432fb957e337872682ffcef3d4f0e25f0275",
+      "readme_excerpt": "When using rapids-build-backend, the",
+      "readme_headings": [
+        "RAPIDS PEP517 build backend",
+        "Supported builders",
+        "Supported configuration",
+        "`setuptools` support",
+        "Other build dependencies"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Other build dependencies",
+          "excerpt": "When using rapids-build-backend, the"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4469,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "13daba999ac84267aa31a8462a59fdac0344840e",
+          "size": 2043,
+          "content_status": "captured",
+          "dependency_hints": [
+            "PyYAML",
+            "jinja2",
+            "packaging",
+            "pytest",
+            "rapids-dependency-file-generator",
+            "tomlkit"
+          ]
+        },
+        {
+          "path": "tests/rapids-test-dummy/pyproject.toml",
+          "sha": "d3e2876ce917275420d1f1cc8b45110ad6740c90",
+          "size": 160,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/templates/CMakeLists.txt",
+          "sha": "a20052c0602ae4163cfb571772dd852a5037dab6",
+          "size": 233,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/templates/pyproject.toml",
+          "sha": "13053ed692ba13a80d069809cdafe9d059f9732c",
+          "size": 554,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/templates/setup.py",
+          "sha": "65878b7f90c6fc47509b9a243575139ee5ed0b95",
+          "size": 87,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:17:04+00:00"
     },
     "rapidsai/rapids-cli": {
       "id": 861883423,
@@ -5742,12 +7934,94 @@
       "open_issues": 15,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 75024,
+        "Shell": 4007
+      },
+      "readme_url": "https://github.com/rapidsai/rapids-cli/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a6065392ed58e125dba3d258eb8fa755dd0210ae",
+      "readme_excerpt": "conda create -y -n pip install -e .[test]",
+      "readme_headings": [
+        "RAPIDS CLI",
+        "RAPIDS Doctor",
+        "Developing",
+        "Install and activate a RAPIDS environment E.g",
+        "Install the RAPIDS CLI",
+        "Run rapids doctor",
+        "🧑‍⚕️ Performing REQUIRED health check for RAPIDS",
+        "All checks passed!",
+        "Testing",
+        "Install test dependencies",
+        "Run pytest",
+        "========================= test session starts ==========================",
+        "platform linux -- Python 3.12.8, pytest-8.3.4, pluggy-1.5.0",
+        "rootdir: /home/jtomlinson/Projects/rapids/rapids-cli",
+        "configfile: pyproject.toml",
+        "plugins: anyio-4.8.0",
+        "collected 2 items",
+        "rapids_cli/tests/test_cuda.py ..",
+        "========================== 2 passed in 0.08s ==========================",
+        "Check plugins",
+        "src/doctor_check_example/check.py",
+        "pyproject.toml",
+        "...",
+        "Check status",
+        "src/doctor_check_example/check.py",
+        "Warnings",
+        "Check keyword arguments"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Install and activate a RAPIDS environment E.g",
+          "excerpt": "conda create -y -n"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Install test dependencies",
+          "excerpt": "pip install -e .[test]"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6483,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "91a33f81992b5920529b352122e74457b38c4fa1",
+          "size": 3811,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cuda-pathfinder",
+            "importlib-metadata",
+            "nvidia-ml-py",
+            "packaging",
+            "psutil",
+            "pytest",
+            "pytest-cov",
+            "pyyaml",
+            "rich",
+            "rich-click"
+          ]
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "5e3fc1c0185dbea59ed6476c61f3ee8d972ca307",
+          "size": 723,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:21:51+00:00"
     },
     "rapidsai/rapids-cmake": {
       "id": 362502909,
@@ -5770,12 +8044,107 @@
       "open_issues": 19,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "CMake": 934838,
+        "C++": 16105,
+        "Shell": 9434,
+        "Cuda": 5802,
+        "C": 2108,
+        "Cython": 770
+      },
+      "readme_url": "https://github.com/rapidsai/rapids-cmake/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "477eb94574f0c51a3f67a8bca1ecf644df9523c9",
+      "readme_excerpt": "This is a collection The rapids-cmake module is Complete online documentation for",
+      "readme_headings": [
+        "<div align=\"left\"><img src=\"https://rapids.ai/assets/images/rapids_logo.png\" width=\"90px\"/>&nbsp;rapids-cmake</div>",
+        "Overview",
+        "Installation",
+        "Usage",
+        "Components",
+        "cmake",
+        "cpm",
+        "cuda",
+        "cython",
+        "export",
+        "find",
+        "test",
+        "Overriding RAPIDS.cmake",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Overview",
+          "excerpt": "This is a collection"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "The rapids-cmake module is"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Components",
+          "excerpt": "Complete online documentation for"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6845,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "b21ef18ce799f8b40d1314f6302fae0701853bf1",
+          "size": 1615,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "994fe26e6ccc04c9e1041e15379f4d0178e6f607",
+          "size": 1590,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "9d479271e69d48753f4b5035485041878fc0da27",
+          "size": 744,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "testing/CMakeLists.txt",
+          "sha": "199976eda1c2698a661b91ab62e07152a8a24db0",
+          "size": 1392,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/conda-support/CMakeLists.txt",
+          "sha": "09e6745a2cac14119054e8a0ff9e0f4157a76cdb",
+          "size": 2885,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/cuda-features/CMakeLists.txt",
+          "sha": "f165ab39aa81cfd0f15558b556c3a239ddaf9df6",
+          "size": 2045,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:26:40+00:00"
     },
     "rapidsai/rapids-dask-dependency": {
       "id": 680155854,
@@ -5798,12 +8167,59 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 11969,
+        "Shell": 5247
+      },
+      "readme_url": "https://github.com/rapidsai/rapids-dask-dependency/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "759ae74905d37278f82a42d72fb920c86229903c",
+      "readme_excerpt": "This repository provides metapackages for pip and conda that centralize the Dask version dependency across RAPIDS. Dask's API instability means that each RAPIDS release must",
+      "readme_headings": [
+        "Dask Metapackage",
+        "Versioning the Metapackage Itself",
+        "Patching"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Dask Metapackage",
+          "excerpt": "This repository provides metapackages for pip and conda that centralize the Dask version dependency across RAPIDS. Dask's API instability means that each RAPIDS release must"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1974,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "571020bf26d5446313a07696811498aaf2b8a020",
+          "size": 1515,
+          "content_status": "captured",
+          "dependency_hints": [
+            "bokeh",
+            "dask",
+            "distributed",
+            "pytest"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "87119dce6d7d5bac87da7f20df3f4242745080de",
+          "size": 541,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:31:27+00:00"
     },
     "rapidsai/rapids-examples": {
       "id": 333182843,
@@ -5826,12 +8242,83 @@
       "open_issues": 8,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 816622,
+        "Python": 100350,
+        "Cuda": 49292,
+        "C++": 36115,
+        "CMake": 14900,
+        "Dockerfile": 6655,
+        "Cython": 2521,
+        "Shell": 992,
+        "Batchfile": 50
+      },
+      "readme_url": "https://github.com/rapidsai/rapids-examples/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7635af262673b81333d898fe9d52513a363ebcb3",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "Rapids Examples",
+        "Assumptions",
+        "Examples List"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1081,
+      "manifest_paths": [
+        {
+          "path": "cuBERT_topic_modelling/setup.py",
+          "sha": "5ca2810977a177bc43762e11db9750f7a689f0fe",
+          "size": 125,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "dask-metrics/setup.py",
+          "sha": "3eb8740e2c279f5d8bf834177b561c3856eca3de",
+          "size": 422,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "rapids_triton_example/Dockerfile",
+          "sha": "0fda70b83e20760340cd12d5bf46c8b5f67b7581",
+          "size": 1084,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "shareable-dataframes/Dockerfile",
+          "sha": "7a721b3fdc96b4faefb0f6255d98f815a1dfb80d",
+          "size": 2682,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "strings_udf/CMakeLists.txt",
+          "sha": "da7a5b8a301cf7c04d230f700320c46818fa5d78",
+          "size": 7652,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "strings_udf/Dockerfile",
+          "sha": "be7be135a7be0d4cb7cf5c458b39ab554a63f698",
+          "size": 2889,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:36:16+00:00"
     },
     "rapidsai/rapids-logger": {
       "id": 891001991,
@@ -5854,12 +8341,86 @@
       "open_issues": 7,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 29559,
+        "CMake": 21557,
+        "Shell": 12103,
+        "Python": 2771,
+        "C": 622
+      },
+      "readme_url": "https://github.com/rapidsai/rapids-logger/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "331389f76d54ec80da575b8b34ee666b0d54ed80",
+      "readme_excerpt": "The rapids-logger project defines",
+      "readme_headings": [
+        "About",
+        "Making Releases",
+        "Making major or minor releases",
+        "Making patch Releases"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "About",
+          "excerpt": "The rapids-logger project defines"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4562,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "a122a8c89863692148a4ac56d5fc9227ad185ddc",
+          "size": 6897,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "6caa9c82d5a38ba6632076c0fa5aab756a8efdd8",
+          "size": 350,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/CMakeLists.txt",
+          "sha": "ac973c01424201a4db2dff864c9d5a32e3a24e32",
+          "size": 1887,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "python/rapids-logger/CMakeLists.txt",
+          "sha": "cd9c1d6a6d60def04a2f20b678ce999a0633a7df",
+          "size": 1283,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "python/rapids-logger/pyproject.toml",
+          "sha": "47bc936035f559150986b9d3797343f8049544c8",
+          "size": 1647,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tests/template/CMakeLists.txt",
+          "sha": "5203538c260b708d37ada84fd213b02e3737ea8b",
+          "size": 515,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:41:04+00:00"
     },
     "rapidsai/rapids-metadata": {
       "id": 808291408,
@@ -5882,12 +8443,51 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 56524,
+        "Shell": 1510
+      },
+      "readme_url": "https://github.com/rapidsai/rapids-metadata/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f8033315c5f669383c9c58f25699f2b25871c2c3",
+      "readme_excerpt": "rapids-metadata is a repository where information about the structure of the RAPIDS project itself is kept. This information is split into RAPIDS versions, which in",
+      "readme_headings": [
+        "RAPIDS Metadata",
+        "Justification"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "RAPIDS Metadata",
+          "excerpt": "rapids-metadata is a repository where information about the structure of the RAPIDS project itself is kept. This information is split into RAPIDS versions, which in"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2069,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "76437692a66b30ef7c98cd5271b65337f149d497",
+          "size": 2056,
+          "content_status": "captured",
+          "dependency_hints": [
+            "packaging",
+            "pydantic",
+            "pytest",
+            "pytest-httpserver"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:45:51+00:00"
     },
     "rapidsai/rapids-triton": {
       "id": 402166355,
@@ -5910,12 +8510,89 @@
       "open_issues": 8,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 173710,
+        "Python": 38628,
+        "CMake": 17786,
+        "Shell": 7911,
+        "Dockerfile": 3853,
+        "C": 1187
+      },
+      "readme_url": "https://github.com/rapidsai/rapids-triton/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "59a49733636dc7088d0c2e2b95ceec4a7d198fc8",
+      "readme_excerpt": "Copyright (c) 2021, NVIDIA",
+      "readme_headings": [
+        "The RAPIDS-Triton Library",
+        "Background",
+        "Triton",
+        "Custom Backends",
+        "Simple Example",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Copyright (c) 2021, NVIDIA"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4329,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "82fe4450286bfc72cbbd4c908f36f050e2c57f53",
+          "size": 3853,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cpp/CMakeLists.txt",
+          "sha": "bf252a56ce8a6b2e76f76d94d68ccbb0ebe45853",
+          "size": 9140,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "python/pyproject.toml",
+          "sha": "9787c3bdf008a57ae3cb2e27a8261eb3f134ff73",
+          "size": 90,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "python/setup.py",
+          "sha": "2cfa713bb512266e55ccee72632661ae17fcc6d0",
+          "size": 949,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cpp/src/CMakeLists.txt",
+          "sha": "1d5904c26233efb50f29594c1090b878988041e3",
+          "size": 2436,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cpp/test/CMakeLists.txt",
+          "sha": "dbe92b2438df8ee758c5ef258f467450ed798ca5",
+          "size": 3360,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:50:40+00:00"
     },
     "rapidsai/rapids-triton-linear-example": {
       "id": 402166974,
@@ -5938,12 +8615,85 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 9618,
+        "CMake": 7958,
+        "Dockerfile": 2616,
+        "Python": 2095,
+        "Cuda": 1601,
+        "C": 654
+      },
+      "readme_url": "https://github.com/rapidsai/rapids-triton-linear-example/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "da8ae0b3bba06a6d9d49fa48e2107102751899d9",
+      "readme_excerpt": "It is strongly recommended",
+      "readme_headings": [
+        "Copyright (c) 2021, NVIDIA CORPORATION. All rights reserved.",
+        "Redistribution and use in source and binary forms, with or without",
+        "modification, are permitted provided that the following conditions",
+        "are met:",
+        "* Redistributions of source code must retain the above copyright",
+        "notice, this list of conditions and the following disclaimer.",
+        "* Redistributions in binary form must reproduce the above copyright",
+        "notice, this list of conditions and the following disclaimer in the",
+        "documentation and/or other materials provided with the distribution.",
+        "* Neither the name of NVIDIA CORPORATION nor the names of its",
+        "contributors may be used to endorse or promote products derived",
+        "from this software without specific prior written permission.",
+        "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS ``AS IS'' AND ANY",
+        "EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE",
+        "IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR",
+        "PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR",
+        "CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,",
+        "EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,",
+        "PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR",
+        "PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY",
+        "OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT",
+        "(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE",
+        "OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+        "The RAPIDS-Triton Linear Example",
+        "1. Getting Started",
+        "2. Pick a Name",
+        "2.1 Update `names.h`",
+        "2.2 Update `CMakeLists.txt`",
+        "3. Create an Example Configuration",
+        "`name`"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "1. Getting Started",
+          "excerpt": "It is strongly recommended"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 22849,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "354990a1163ceb6ab8801713ef562f57e028ea96",
+          "size": 6133,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Dockerfile",
+          "sha": "fb8f47895b5a567cef43a705773dc8ae67360847",
+          "size": 2616,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:55:27+00:00"
     },
     "rapidsai/rapids-triton-template": {
       "id": 402166678,
@@ -5966,12 +8716,72 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "CMake": 8076,
+        "C++": 5913,
+        "Dockerfile": 2701,
+        "Python": 1873,
+        "C": 708
+      },
+      "readme_url": "https://github.com/rapidsai/rapids-triton-template/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a115ee13afde67aa97866cc67414a274b62d1577",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "Copyright (c) 2021, NVIDIA CORPORATION. All rights reserved.",
+        "Redistribution and use in source and binary forms, with or without",
+        "modification, are permitted provided that the following conditions",
+        "are met:",
+        "* Redistributions of source code must retain the above copyright",
+        "notice, this list of conditions and the following disclaimer.",
+        "* Redistributions in binary form must reproduce the above copyright",
+        "notice, this list of conditions and the following disclaimer in the",
+        "documentation and/or other materials provided with the distribution.",
+        "* Neither the name of NVIDIA CORPORATION nor the names of its",
+        "contributors may be used to endorse or promote products derived",
+        "from this software without specific prior written permission.",
+        "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS ``AS IS'' AND ANY",
+        "EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE",
+        "IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR",
+        "PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR",
+        "CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,",
+        "EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,",
+        "PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR",
+        "PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY",
+        "OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT",
+        "(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE",
+        "OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+        "The RAPIDS-Triton Backend Template"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2322,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "5031160e1e2114247b0fb7dbc8dfae5543df47d3",
+          "size": 6251,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Dockerfile",
+          "sha": "9482707025c4162871b6de44bf7e0b03ad5f44ea",
+          "size": 2701,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T10:00:16+00:00"
     },
     "rapidsai/rapids.ai": {
       "id": 155035426,
@@ -5994,12 +8804,75 @@
       "open_issues": 18,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 181200,
+        "SCSS": 18077,
+        "CSS": 3886,
+        "Shell": 3032,
+        "Python": 2780,
+        "Dockerfile": 1130,
+        "JavaScript": 187
+      },
+      "readme_url": "https://github.com/rapidsai/rapids.ai/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f80911f2b9a1ca4617aa4ee258ea2cb72033daf5",
+      "readme_excerpt": "This repository contains the source code and content for the RAPIDS.ai website. The site uses Hugo as a static site generator with the Docsy theme.",
+      "readme_headings": [
+        "[RAPIDS.ai](https://rapids.ai.com) Website",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "[RAPIDS.ai](https://rapids.ai.com) Website",
+          "excerpt": "This repository contains the source code and content for the RAPIDS.ai website. The site uses Hugo as a static site generator with the Docsy theme."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 393,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "917318ea650468a1a073805095e4b40f4b8f5007",
+          "size": 105,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/google/docsy"
+          ]
+        },
+        {
+          "path": "package.json",
+          "sha": "1e85d69a686c29946f4272af820717719f920f68",
+          "size": 118,
+          "content_status": "captured",
+          "dependency_hints": [
+            "autoprefixer",
+            "postcss",
+            "postcss-cli"
+          ]
+        },
+        {
+          "path": "scripts/requirements.txt",
+          "sha": "b1a18fbef3a2abb3768a9e8074f7e74aadc7365b",
+          "size": 57,
+          "content_status": "captured",
+          "dependency_hints": [
+            "PyYAML",
+            "requests",
+            "xmltodict"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T10:05:04+00:00"
     },
     "rapidsai/rapidsmpf": {
       "id": 892685865,
@@ -6888,5 +9761,6 @@
   "refresh_in_progress": false,
   "repository_count": 133,
   "retrieved_at": "2026-11-23T20:16:27+00:00",
-  "enrichment_cursor": "rapidsai/gpuci-tools"
+  "enrichment_cursor": "rapidsai/rapids.ai",
+  "last_enrichment_run_at": "2026-11-24T10:05:04+00:00"
 }

@@ -66,48 +66,48 @@
 | [rapidsai/gpuci-build-environment](https://github.com/rapidsai/gpuci-build-environment) | Common build environment used by gpuCI for building RAPIDS | 19 | Dockerfile, Shell | True | False | True | captured | [Open](repositories/gpuci-build-environment-143346122.md) |
 | [rapidsai/gpuci-mgmt](https://github.com/rapidsai/gpuci-mgmt) | Mangement scripts for gpuCI | 2 | Dockerfile, Python, Shell | True | False | True | captured | [Open](repositories/gpuci-mgmt-198697151.md) |
 | [rapidsai/gpuci-tools](https://github.com/rapidsai/gpuci-tools) | User tools for use within the gpuCI environment | 2 | Shell | True | False | True | captured | [Open](repositories/gpuci-tools-239848571.md) |
-| [rapidsai/gputreeshap](https://github.com/rapidsai/gputreeshap) | No description | 112 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/gqe](https://github.com/rapidsai/gqe) | No description | 65 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/gqe-bench](https://github.com/rapidsai/gqe-bench) | GQE benchmarking suite for GPU query performance across tuning parameters | 3 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/helm-chart](https://github.com/rapidsai/helm-chart) | No description | 9 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/integration](https://github.com/rapidsai/integration) | RAPIDS - combined conda package & integration tests for all of RAPIDS libraries | 17 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/jitify](https://github.com/rapidsai/jitify) | A single-header C++ library for simplifying the use of CUDA Runtime Compilation (NVRTC). | 2 | Pending | False | True | True | pending | Not generated |
-| [rapidsai/jupyterlab-nvdashboard](https://github.com/rapidsai/jupyterlab-nvdashboard) | A JupyterLab extension for displaying dashboards of GPU usage. | 682 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/kvikio](https://github.com/rapidsai/kvikio) | KvikIO - High Performance File IO | 285 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/legate-boost](https://github.com/rapidsai/legate-boost) | GBM implementation on Legate | 13 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/legate-dataframe](https://github.com/rapidsai/legate-dataframe) | Distributed cuDF on Legate | 3 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/legate-raft](https://github.com/rapidsai/legate-raft) | Distributed RAFT on Legate | 1 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/libcypher-parser-conda-recipe](https://github.com/rapidsai/libcypher-parser-conda-recipe) | No description | 0 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/libgdf](https://github.com/rapidsai/libgdf) | [ARCHIVED] C GPU DataFrame Library | 137 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/librtcx](https://github.com/rapidsai/librtcx) | Shared JIT infrastructure | 4 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/manylinux](https://github.com/rapidsai/manylinux) | Python wheels that work on any linux (almost) | 1 | Pending | True | True | True | pending | Not generated |
-| [rapidsai/merlinci-mgmt](https://github.com/rapidsai/merlinci-mgmt) | Management scripts for merlin-ci | 0 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/miniforge-cuda](https://github.com/rapidsai/miniforge-cuda) | No description | 12 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/multi-gpu-tools](https://github.com/rapidsai/multi-gpu-tools) | No description | 5 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/nccl-feedstock](https://github.com/rapidsai/nccl-feedstock) | A conda-smithy repository for nccl. | 0 | Pending | True | True | True | pending | Not generated |
-| [rapidsai/node](https://github.com/rapidsai/node) | GPU-accelerated data science and visualization in node | 212 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/notebooks](https://github.com/rapidsai/notebooks) | RAPIDS Sample Notebooks | 578 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/nvbench](https://github.com/rapidsai/nvbench) | CUDA Kernel Benchmarking Library | 0 | Pending | True | True | True | pending | Not generated |
-| [rapidsai/nvforest](https://github.com/rapidsai/nvforest) | Highly optimized and lightweight library for decision tree inference on NVIDIA GPUs and CPUs | 19 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/nvgraph](https://github.com/rapidsai/nvgraph) | No description | 31 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/nx-cugraph](https://github.com/rapidsai/nx-cugraph) | GPU Accelerated Backend for NetworkX | 117 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/plotly-dash-rapids-census-demo](https://github.com/rapidsai/plotly-dash-rapids-census-demo) | No description | 97 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/pre-commit-hooks](https://github.com/rapidsai/pre-commit-hooks) | No description | 1 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/projects](https://github.com/rapidsai/projects) | No description | 2 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/ptxcompiler](https://github.com/rapidsai/ptxcompiler) | No description | 10 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/pynvjitlink](https://github.com/rapidsai/pynvjitlink) | Python bindings for the nvjitlink library | 5 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/quent](https://github.com/rapidsai/quent) | An experimental framework to help build application-specific perfomance analysis tools | 15 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/rapids-build-backend](https://github.com/rapidsai/rapids-build-backend) | RAPIDS-specific wrapper around PEP 517 build backends | 2 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/rapids-cli](https://github.com/rapidsai/rapids-cli) | CLI utilities for RAPIDS | 6 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/rapids-cmake](https://github.com/rapidsai/rapids-cmake) | No description | 49 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/rapids-dask-dependency](https://github.com/rapidsai/rapids-dask-dependency) | No description | 2 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/rapids-examples](https://github.com/rapidsai/rapids-examples) | No description | 41 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/rapids-logger](https://github.com/rapidsai/rapids-logger) | A logging interface for RAPIDS built on spdlog | 2 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/rapids-metadata](https://github.com/rapidsai/rapids-metadata) | Metadata about RAPIDS libraries | 2 | Pending | False | False | True | pending | Not generated |
-| [rapidsai/rapids-triton](https://github.com/rapidsai/rapids-triton) | No description | 7 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/rapids-triton-linear-example](https://github.com/rapidsai/rapids-triton-linear-example) | No description | 0 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/rapids-triton-template](https://github.com/rapidsai/rapids-triton-template) | No description | 0 | Pending | True | False | True | pending | Not generated |
-| [rapidsai/rapids.ai](https://github.com/rapidsai/rapids.ai) | rapids.ai web site | 17 | Pending | False | False | True | pending | Not generated |
+| [rapidsai/gputreeshap](https://github.com/rapidsai/gputreeshap) | No description | 112 | C++, CMake, Cuda, Python, Shell | False | False | True | captured | [Open](repositories/gputreeshap-288813409.md) |
+| [rapidsai/gqe](https://github.com/rapidsai/gqe) | No description | 65 | C++, CMake, Cuda, Dockerfile, Python, Rust, Shell | False | False | True | captured | [Open](repositories/gqe-1114787652.md) |
+| [rapidsai/gqe-bench](https://github.com/rapidsai/gqe-bench) | GQE benchmarking suite for GPU query performance across tuning parameters | 3 | C++, CMake, Cuda, Python | False | False | True | captured | [Open](repositories/gqe-bench-1162834360.md) |
+| [rapidsai/helm-chart](https://github.com/rapidsai/helm-chart) | No description | 9 | Makefile, Shell | True | False | True | captured | [Open](repositories/helm-chart-241937020.md) |
+| [rapidsai/integration](https://github.com/rapidsai/integration) | RAPIDS - combined conda package & integration tests for all of RAPIDS libraries | 17 | Python, Shell | False | False | True | captured | [Open](repositories/integration-214518485.md) |
+| [rapidsai/jitify](https://github.com/rapidsai/jitify) | A single-header C++ library for simplifying the use of CUDA Runtime Compilation (NVRTC). | 2 | C++, Cuda, Makefile | False | True | True | captured | [Open](repositories/jitify-174560853.md) |
+| [rapidsai/jupyterlab-nvdashboard](https://github.com/rapidsai/jupyterlab-nvdashboard) | A JupyterLab extension for displaying dashboards of GPU usage. | 682 | CSS, JavaScript, Python, Shell, TypeScript | False | False | True | captured | [Open](repositories/jupyterlab-nvdashboard-201956456.md) |
+| [rapidsai/kvikio](https://github.com/rapidsai/kvikio) | KvikIO - High Performance File IO | 285 | C++, CMake, Cython, Dockerfile, HTML, Java, Jupyter Notebook, Python, Shell | False | False | True | captured | [Open](repositories/kvikio-453147629.md) |
+| [rapidsai/legate-boost](https://github.com/rapidsai/legate-boost) | GBM implementation on Legate | 13 | C, C++, CMake, Cuda, Python, Shell | True | False | True | captured | [Open](repositories/legate-boost-656733319.md) |
+| [rapidsai/legate-dataframe](https://github.com/rapidsai/legate-dataframe) | Distributed cuDF on Legate | 3 | C++, CMake, Cuda, Cython, Dockerfile, Python, Shell | True | False | True | captured | [Open](repositories/legate-dataframe-892674972.md) |
+| [rapidsai/legate-raft](https://github.com/rapidsai/legate-raft) | Distributed RAFT on Legate | 1 | C, C++, CMake, Cuda, Python, Shell | True | False | True | captured | [Open](repositories/legate-raft-892673542.md) |
+| [rapidsai/libcypher-parser-conda-recipe](https://github.com/rapidsai/libcypher-parser-conda-recipe) | No description | 0 | Shell | True | False | True | captured | [Open](repositories/libcypher-parser-conda-recipe-207914639.md) |
+| [rapidsai/libgdf](https://github.com/rapidsai/libgdf) | [ARCHIVED] C GPU DataFrame Library | 137 | C, C++, CMake, Cuda, Python, Shell | True | False | True | captured | [Open](repositories/libgdf-91843389.md) |
+| [rapidsai/librtcx](https://github.com/rapidsai/librtcx) | Shared JIT infrastructure | 4 | C++, CMake, Cuda, Python, Shell | False | False | True | captured | [Open](repositories/librtcx-1263191342.md) |
+| [rapidsai/manylinux](https://github.com/rapidsai/manylinux) | Python wheels that work on any linux (almost) | 1 | C++, CMake, Dockerfile, Python, Shell | True | True | True | captured | [Open](repositories/manylinux-522678846.md) |
+| [rapidsai/merlinci-mgmt](https://github.com/rapidsai/merlinci-mgmt) | Management scripts for merlin-ci | 0 | Dockerfile, Python, Shell | True | False | True | captured | [Open](repositories/merlinci-mgmt-562994385.md) |
+| [rapidsai/miniforge-cuda](https://github.com/rapidsai/miniforge-cuda) | No description | 12 | Dockerfile, Shell, jq | True | False | True | captured | [Open](repositories/miniforge-cuda-488994993.md) |
+| [rapidsai/multi-gpu-tools](https://github.com/rapidsai/multi-gpu-tools) | No description | 5 | Python, Shell | False | False | True | captured | [Open](repositories/multi-gpu-tools-390503139.md) |
+| [rapidsai/nccl-feedstock](https://github.com/rapidsai/nccl-feedstock) | A conda-smithy repository for nccl. | 0 | Shell | True | True | True | captured | [Open](repositories/nccl-feedstock-619937890.md) |
+| [rapidsai/node](https://github.com/rapidsai/node) | GPU-accelerated data science and visualization in node | 212 | C++, CMake, CSS, Cuda, Dockerfile, HTML, JavaScript, Jupyter Notebook, Python, Shell, TypeScript | False | False | True | captured | [Open](repositories/node-268624770.md) |
+| [rapidsai/notebooks](https://github.com/rapidsai/notebooks) | RAPIDS Sample Notebooks | 578 | Python, Shell | True | False | True | captured | [Open](repositories/notebooks-159398705.md) |
+| [rapidsai/nvbench](https://github.com/rapidsai/nvbench) | CUDA Kernel Benchmarking Library | 0 | C++, CMake, Cuda, Python | True | True | True | captured | [Open](repositories/nvbench-395071935.md) |
+| [rapidsai/nvforest](https://github.com/rapidsai/nvforest) | Highly optimized and lightweight library for decision tree inference on NVIDIA GPUs and CPUs | 19 | C++, CMake, Cuda, Cython, Dockerfile, HTML, Python, Shell | False | False | True | captured | [Open](repositories/nvforest-1089803908.md) |
+| [rapidsai/nvgraph](https://github.com/rapidsai/nvgraph) | No description | 31 | C, C++, CMake, Cuda, Makefile, Python, Shell | True | False | True | captured | [Open](repositories/nvgraph-184614215.md) |
+| [rapidsai/nx-cugraph](https://github.com/rapidsai/nx-cugraph) | GPU Accelerated Backend for NetworkX | 117 | Dockerfile, Jupyter Notebook, Makefile, Python, Shell | False | False | True | captured | [Open](repositories/nx-cugraph-807226161.md) |
+| [rapidsai/plotly-dash-rapids-census-demo](https://github.com/rapidsai/plotly-dash-rapids-census-demo) | No description | 97 | CSS, Dockerfile, Jupyter Notebook, Python, Shell | True | False | True | captured | [Open](repositories/plotly-dash-rapids-census-demo-248579335.md) |
+| [rapidsai/pre-commit-hooks](https://github.com/rapidsai/pre-commit-hooks) | No description | 1 | Python, Shell | False | False | True | captured | [Open](repositories/pre-commit-hooks-265042297.md) |
+| [rapidsai/projects](https://github.com/rapidsai/projects) | No description | 2 | CSS, HTML, JavaScript, Jupyter Notebook, Shell | True | False | True | captured | [Open](repositories/projects-159727081.md) |
+| [rapidsai/ptxcompiler](https://github.com/rapidsai/ptxcompiler) | No description | 10 | C++, Python | True | False | True | captured | [Open](repositories/ptxcompiler-427097615.md) |
+| [rapidsai/pynvjitlink](https://github.com/rapidsai/pynvjitlink) | Python bindings for the nvjitlink library | 5 | C++, CMake, Cuda, Makefile, Python, Shell | True | False | True | captured | [Open](repositories/pynvjitlink-663118722.md) |
+| [rapidsai/quent](https://github.com/rapidsai/quent) | An experimental framework to help build application-specific perfomance analysis tools | 15 | C, C++, CSS, Dockerfile, HTML, JavaScript, Nix, Python, Rust, Shell, Svelte, TypeScript | False | False | True | captured | [Open](repositories/quent-1162795461.md) |
+| [rapidsai/rapids-build-backend](https://github.com/rapidsai/rapids-build-backend) | RAPIDS-specific wrapper around PEP 517 build backends | 2 | CMake, Python, Shell | False | False | True | captured | [Open](repositories/rapids-build-backend-770563129.md) |
+| [rapidsai/rapids-cli](https://github.com/rapidsai/rapids-cli) | CLI utilities for RAPIDS | 6 | Python, Shell | False | False | True | captured | [Open](repositories/rapids-cli-861883423.md) |
+| [rapidsai/rapids-cmake](https://github.com/rapidsai/rapids-cmake) | No description | 49 | C, C++, CMake, Cuda, Cython, Shell | False | False | True | captured | [Open](repositories/rapids-cmake-362502909.md) |
+| [rapidsai/rapids-dask-dependency](https://github.com/rapidsai/rapids-dask-dependency) | No description | 2 | Python, Shell | False | False | True | captured | [Open](repositories/rapids-dask-dependency-680155854.md) |
+| [rapidsai/rapids-examples](https://github.com/rapidsai/rapids-examples) | No description | 41 | Batchfile, C++, CMake, Cuda, Cython, Dockerfile, Jupyter Notebook, Python, Shell | True | False | True | captured | [Open](repositories/rapids-examples-333182843.md) |
+| [rapidsai/rapids-logger](https://github.com/rapidsai/rapids-logger) | A logging interface for RAPIDS built on spdlog | 2 | C, C++, CMake, Python, Shell | False | False | True | captured | [Open](repositories/rapids-logger-891001991.md) |
+| [rapidsai/rapids-metadata](https://github.com/rapidsai/rapids-metadata) | Metadata about RAPIDS libraries | 2 | Python, Shell | False | False | True | captured | [Open](repositories/rapids-metadata-808291408.md) |
+| [rapidsai/rapids-triton](https://github.com/rapidsai/rapids-triton) | No description | 7 | C, C++, CMake, Dockerfile, Python, Shell | True | False | True | captured | [Open](repositories/rapids-triton-402166355.md) |
+| [rapidsai/rapids-triton-linear-example](https://github.com/rapidsai/rapids-triton-linear-example) | No description | 0 | C, C++, CMake, Cuda, Dockerfile, Python | True | False | True | captured | [Open](repositories/rapids-triton-linear-example-402166974.md) |
+| [rapidsai/rapids-triton-template](https://github.com/rapidsai/rapids-triton-template) | No description | 0 | C, C++, CMake, Dockerfile, Python | True | False | True | captured | [Open](repositories/rapids-triton-template-402166678.md) |
+| [rapidsai/rapids.ai](https://github.com/rapidsai/rapids.ai) | rapids.ai web site | 17 | CSS, Dockerfile, HTML, JavaScript, Python, SCSS, Shell | False | False | True | captured | [Open](repositories/rapids-ai-155035426.md) |
 | [rapidsai/rapids_triton_pca_example](https://github.com/rapidsai/rapids_triton_pca_example) | No description | 3 | Pending | True | False | True | pending | Not generated |
 | [rapidsai/rapidsmpf](https://github.com/rapidsai/rapidsmpf) | No description | 36 | Pending | False | False | True | pending | Not generated |
 | [rapidsai/ray-rapids](https://github.com/rapidsai/ray-rapids) | No description | 6 | Pending | True | False | True | pending | Not generated |

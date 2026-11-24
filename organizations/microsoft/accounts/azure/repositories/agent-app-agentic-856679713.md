@@ -1,0 +1,91 @@
+# Azure/agent-app-agentic
+
+- Company: Microsoft
+- GitHub account: [https://github.com/Azure](https://github.com/Azure)
+- Mapping status: official-project-linked
+- Repository: [Azure/agent-app-agentic](https://github.com/Azure/agent-app-agentic)
+- Default branch: main
+- README: [Open upstream README](https://github.com/Azure/agent-app-agentic/blob/main/README.md)
+- README blob SHA: 53df9325b6e8adf64ced7f0e97d64b12e8632ca3
+- README bytes captured: 3119
+- README truncated at capture limit: False
+- Repository ID: 856679713
+- Evidence state: evidence captured; manual review pending
+- Manual review: manual technical interpretation pending
+
+## Upstream description
+
+No GitHub description supplied.
+
+This is repository-owner metadata, not an independently verified technical summary.
+
+## README capture
+
+- Status: captured
+- Unavailable reason: Not applicable
+- Captured: 2026-11-24T07:02:51+00:00
+
+### Short excerpt (up to 300 words)
+
+> No README excerpt captured. Use the upstream README link.
+
+### README headings
+
+- Agentic orchestrator
+- Integration status
+- Repository guides
+- Contributing
+- Trademarks
+
+## README section evidence excerpts
+
+Short excerpts are selected from matching upstream README sections. They are source evidence, not generated or human-reviewed technical summaries.
+
+No selected README section excerpts were captured.
+
+## GitHub language statistics
+
+GitHub's Languages API reports detected source-code bytes. It does not identify frameworks or architecture by itself.
+
+| Language | Bytes |
+|---|---:|
+| Python | 191,667 |
+| PowerShell | 10,582 |
+| Shell | 9,185 |
+
+## Build and dependency manifest paths
+
+These paths were found in the default-branch tree. A manifest filename alone is not proof of a framework or runtime.
+
+- requirements.txt (capture: captured) — dependency clues: aiohttp, autogen-agentchat, autogen_ext, azure-cosmos, azure-functions, azure-identity, azure-keyvault-secrets, azure-mgmt-storage, azure-mgmt-web, azure-storage-blob, azurefunctions-extensions-bindings-blob, openai, pyodbc, python-dotenv, requests, sqlparse, tenacity, tiktoken
+- evaluations/requirements.txt (capture: captured) — dependency clues: aiohttp, azure-cosmos, azure-functions, azure-identity, azure-keyvault-secrets, azure-mgmt-storage, azure-mgmt-web, azure-storage-blob, azurefunctions-extensions-bindings-blob, openai, openpyxl, promptflow, promptflow-tools, tiktoken
+
+- Manifest scan truncated by GitHub: False
+- Manifest capture state: captured
+
+## Lifecycle metadata
+
+- Archived: False
+- Fork: False
+- Disabled: False
+- Licence SPDX: MIT
+- Stars at capture: 124
+- Forks at capture: 50
+- Last updated: 2026-10-15T13:02:40Z
+- Last pushed: 2026-10-15T13:02:35Z
+- Topics: Not supplied
+
+## Required manual review
+
+Interpret the README's purpose and capabilities; confirm framework/library claims against manifests and relevant source; inspect architecture, tests, licence, security guidance, platform constraints and maintenance status. Only then change the manual review state to README reviewed.
+
+## Upstream links
+
+- [Repository](https://github.com/Azure/agent-app-agentic)
+- [README](https://github.com/Azure/agent-app-agentic/blob/main/README.md)
+- [Issues](https://github.com/Azure/agent-app-agentic/issues)
+- [Releases](https://github.com/Azure/agent-app-agentic/releases)
+
+Capture errors: None
+
+*Generated evidence capture only. This page is not labelled README reviewed until a human has interpreted and checked the upstream material.*

@@ -6608,12 +6608,107 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 41666,
+        "Shell": 1245,
+        "Dockerfile": 438
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-lambda-java-AWSHealth-check/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "455b950c0d09835f9877e162b7b079525d203061",
+      "readme_excerpt": "This sample code is awscli - https://aws.amazon.com/cli/ configure",
+      "readme_headings": [
+        "AWS Lambda Java module for periodic checking of new AWS Health events",
+        "License Summary",
+        "AWS Costs",
+        "Prerequisites",
+        "Building",
+        "Deploying (SAM / Script)",
+        "Deploy Manually (Lambda Console)",
+        "Manually Running / Testing",
+        "Customize the settings",
+        "Refer to https://docs.aws.amazon.com/health/latest/APIReference/API_EventFilter.html for limitations of filter",
+        "Regions to check for the AWSHealth API data (cannot exceed 10)",
+        "- \"ap-northeast-3\"",
+        "- \"ap-south-1\"",
+        "- \"ap-southeast-1\"",
+        "- \"ap-southeast-2\"",
+        "- \"ca-central-1\"",
+        "- \"eu-central-1\"",
+        "- \"eu-west-2\"",
+        "- \"eu-west-3\"",
+        "- \"sa-east-1\"",
+        "Category to check for the AWSHealth API data",
+        "Status codes to check for for the AWSHealth API data",
+        "- \"closed\"",
+        "Resource tags to filter for for the AWSHealth API data",
+        "- {\"key\": \"value\"}",
+        "- {\"key2\": \"value\"}",
+        "SES settings",
+        "Email template for sending blocked IP found notification."
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "License Summary",
+          "excerpt": "This sample code is"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "awscli - https://aws.amazon.com/cli/ configure"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3789,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "5c750685e750ed41a9de16c0dc27526d97904eb7",
+          "size": 438,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pom.xml",
+          "sha": "af98e22216323972538a14a68ddecf9a069ddf27",
+          "size": 5235,
+          "content_status": "captured",
+          "dependency_hints": [
+            "AWSHealthCheck",
+            "aws-java-sdk-bom",
+            "aws-java-sdk-cloudwatch",
+            "aws-java-sdk-core",
+            "aws-java-sdk-health",
+            "aws-java-sdk-lambda",
+            "aws-java-sdk-logs",
+            "aws-java-sdk-organizations",
+            "aws-java-sdk-s3",
+            "aws-java-sdk-ses",
+            "aws-java-sdk-sts",
+            "aws-lambda-java-core",
+            "aws-lambda-java-log4j2",
+            "commons-io",
+            "javax.mail",
+            "javax.mail-api",
+            "log4j-api",
+            "log4j-core",
+            "maven-shade-plugin",
+            "maven-shade-plugin.log4j2-cachefile-transformer",
+            "snakeyaml"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:10:15+00:00"
     },
     "amazon-archives/aws-lambda-serverless-escalator": {
       "id": 111736840,
@@ -6636,12 +6731,51 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 10616
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-lambda-serverless-escalator/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "639fb48c41739093c9aa661845df48997a307d08",
+      "readme_excerpt": "serverless-escalator is a page",
+      "readme_headings": [
+        "Usage",
+        "Send a Page",
+        "Create a team",
+        "Setup",
+        "Route53 Zone",
+        "ACM Certificate",
+        "Artifact Bucket",
+        "Deploy CloudFormation Stack",
+        "SES Receive Ruleset",
+        "Components",
+        "incoming_email",
+        "registerpage",
+        "checkack",
+        "sendpage",
+        "pages",
+        "teams"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "serverless-escalator is a page"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6029,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:16:27+00:00"
     },
     "amazon-archives/aws-lambda-zombie-workshop": {
       "id": 53536939,
@@ -6668,12 +6802,219 @@
         "serverless"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 3954110,
+        "HTML": 22043,
+        "CSS": 6331
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-lambda-zombie-workshop/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9ad7d81d8ee3b12f9c122c4f1eefacdb88ebe244",
+      "readme_excerpt": "The Zombie Microservices Workshop",
+      "readme_headings": [
+        "This workshop is no longer actively being maintained and is not recommended for use. Please visit our [Wild Rydes Serverless Workshops](https://github.com/aws-samples/aws-serverless-workshops) for the latest hands-on examples of building serverless applications. This workshop is preserved here for interested community members to fork and update as separate project.",
+        "Zombie Microservices Workshop: Lab Guide",
+        "Overview of Workshop Labs",
+        "Required: Setup Authentication with Cognito User Pools",
+        "Labs",
+        "Workshop Cleanup",
+        "Let's Begin! Launch the CloudFormation Stack",
+        "Setup Authentication with Cognito User Pools (Required)",
+        "Lab 1 - Typing Indicator",
+        "Lab 2 - SMS Integration with Twilio",
+        "Lab 3 - Search over the chat messages with Elasticsearch Service",
+        "Lab 4 - Slack Integration",
+        "Lab 5 - Motion Sensor Integration with Intel Edison and Grove",
+        "Workshop Cleanup",
+        "Appendix"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Overview of Workshop Labs",
+          "excerpt": "The Zombie Microservices Workshop"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 82451,
+      "manifest_paths": [
+        {
+          "path": "zombieSensor/zombieIntelEdisonCode/package.json",
+          "sha": "52b705f392720cafa0c86cfcd56f3248f099165e",
+          "size": 271,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk",
+            "mraa"
+          ]
+        },
+        {
+          "path": "cognitoLambdaTrigger/node_modules/aws-sdk/package.json",
+          "sha": "8103bba0e474997de113f9d1cd437b488380f895",
+          "size": 3384,
+          "content_status": "captured",
+          "dependency_hints": [
+            "browserify",
+            "chai",
+            "coffee-script",
+            "coffeeify",
+            "coveralls",
+            "cucumber",
+            "eslint",
+            "insert-module-globals",
+            "istanbul",
+            "jmespath",
+            "mocha",
+            "repl.history",
+            "sax",
+            "semver",
+            "uglify-js",
+            "xml2js",
+            "xmlbuilder"
+          ]
+        },
+        {
+          "path": "cognitoLambdaTrigger/node_modules/moment/package.json",
+          "sha": "ec9adc72b2321f98672ec8160f341dd77fbcba11",
+          "size": 3499,
+          "content_status": "captured",
+          "dependency_hints": [
+            "benchmark",
+            "coveralls",
+            "es6-promise",
+            "esperanto",
+            "grunt",
+            "grunt-benchmark",
+            "grunt-cli",
+            "grunt-contrib-clean",
+            "grunt-contrib-concat",
+            "grunt-contrib-copy",
+            "grunt-contrib-jshint",
+            "grunt-contrib-uglify",
+            "grunt-contrib-watch",
+            "grunt-env",
+            "grunt-exec",
+            "grunt-jscs",
+            "grunt-karma",
+            "grunt-nuget",
+            "grunt-string-replace",
+            "karma",
+            "karma-chrome-launcher",
+            "karma-firefox-launcher",
+            "karma-qunit",
+            "karma-sauce-launcher",
+            "load-grunt-tasks",
+            "nyc",
+            "qunit",
+            "qunit-cli",
+            "spacejam",
+            "uglify-js"
+          ]
+        },
+        {
+          "path": "CloudFormation/CustomResources/cognito/node_modules/async/package.json",
+          "sha": "3d4806a74cd5e440185a941758ebcb1a38e5f5d6",
+          "size": 3649,
+          "content_status": "captured",
+          "dependency_hints": [
+            "benchmark",
+            "bluebird",
+            "chai",
+            "coveralls",
+            "es6-promise",
+            "jscs",
+            "jshint",
+            "karma",
+            "karma-browserify",
+            "karma-firefox-launcher",
+            "karma-mocha",
+            "karma-mocha-reporter",
+            "lodash",
+            "mkdirp",
+            "mocha",
+            "native-promise-only",
+            "nodeunit",
+            "nyc",
+            "rsvp",
+            "semver",
+            "uglify-js",
+            "xyz",
+            "yargs"
+          ]
+        },
+        {
+          "path": "CloudFormation/CustomResources/IamUsers/node_modules/async/package.json",
+          "sha": "12f64780faaca177ae29fbd3e664e33dde0f2a6d",
+          "size": 3607,
+          "content_status": "captured",
+          "dependency_hints": [
+            "benchmark",
+            "bluebird",
+            "chai",
+            "coveralls",
+            "es6-promise",
+            "jscs",
+            "jshint",
+            "karma",
+            "karma-browserify",
+            "karma-firefox-launcher",
+            "karma-mocha",
+            "karma-mocha-reporter",
+            "lodash",
+            "mkdirp",
+            "mocha",
+            "native-promise-only",
+            "nodeunit",
+            "nyc",
+            "rsvp",
+            "semver",
+            "uglify-js",
+            "xyz",
+            "yargs"
+          ]
+        },
+        {
+          "path": "CloudFormation/CustomResources/S3GetFilesFunction/node_modules/async/package.json",
+          "sha": "4bdf74fb3d64b97832f78515d5f3932e5a92b6ec",
+          "size": 3663,
+          "content_status": "captured",
+          "dependency_hints": [
+            "benchmark",
+            "bluebird",
+            "chai",
+            "coveralls",
+            "es6-promise",
+            "jscs",
+            "jshint",
+            "karma",
+            "karma-browserify",
+            "karma-firefox-launcher",
+            "karma-mocha",
+            "karma-mocha-reporter",
+            "lodash",
+            "mkdirp",
+            "mocha",
+            "native-promise-only",
+            "nodeunit",
+            "nyc",
+            "rsvp",
+            "semver",
+            "uglify-js",
+            "xyz",
+            "yargs"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:22:39+00:00"
     },
     "amazon-archives/aws-media-services-workflow-composer": {
       "id": 154548852,
@@ -6702,12 +7043,56 @@
         "vod"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 62252,
+        "JavaScript": 35522,
+        "Python": 22845,
+        "CSS": 5820,
+        "Shell": 1226
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-media-services-workflow-composer/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "71a7db4932f6600a40de13a97233f320a9b9c91b",
+      "readme_excerpt": "Create flexible, intelligent file-based",
+      "readme_headings": [
+        "Media Services VOD Workflow Composer",
+        "Overview",
+        "Rule Builder",
+        "Rule Execution",
+        "Sample VOD workflow using the Video on Demand on AWS Solution",
+        "REST API",
+        "Navigate"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Overview",
+          "excerpt": "Create flexible, intelligent file-based"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2236,
+      "manifest_paths": [
+        {
+          "path": "RuleBasedEncoding/ruleapi/requirements.txt",
+          "sha": "7a11fd6718c584f2b7daf705fd9f6525e4a45ee8",
+          "size": 21,
+          "content_status": "captured",
+          "dependency_hints": [
+            "business-rules"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:28:51+00:00"
     },
     "amazon-archives/AWS-MIMIC-IIItoOMOP": {
       "id": 91026662,
@@ -6730,12 +7115,100 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 35995
+      },
+      "readme_url": "https://github.com/amazon-archives/AWS-MIMIC-IIItoOMOP/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a4808d3c70dc298fbc3c0c21dff26c3cce1172d0",
+      "readme_excerpt": "You must have an",
+      "readme_headings": [
+        "Build a Healthcare Data Warehouse using Spark and the OHDSI Common Data Model",
+        "Prerequisites",
+        "Steps",
+        "Notes"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "You must have an"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3671,
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "53b6793c89f65dfd78eb8688cb63c1b5b5ff7f31",
+          "size": 3259,
+          "content_status": "captured",
+          "dependency_hints": [
+            "AWS-MIMIC-IIItoOMOP",
+            "aws-java-sdk-core",
+            "aws-java-sdk-s3",
+            "aws-java-sdk-sns",
+            "aws-lambda-java-core",
+            "aws-lambda-java-events",
+            "commons-io",
+            "maven-assembly-plugin",
+            "maven-jar-plugin",
+            "redshift-jdbc41",
+            "scala-library"
+          ]
+        },
+        {
+          "path": "RedshiftCopier/pom.xml",
+          "sha": "0a9bf552116e51276fb876864508d2ec086e40b1",
+          "size": 897,
+          "content_status": "captured",
+          "dependency_hints": [
+            "AWS-MIMIC-IIItoOMOP",
+            "RedshiftCopier",
+            "junit"
+          ]
+        },
+        {
+          "path": "SparkBatchProcessor/pom.xml",
+          "sha": "dbfc0abfe67d65f18ea8122a5926f4119862b12f",
+          "size": 5103,
+          "content_status": "captured",
+          "dependency_hints": [
+            "AWS-MIMIC-IIItoOMOP",
+            "SparkBatchProcessor",
+            "asm",
+            "aws-java-sdk-bom",
+            "aws-java-sdk-cloudformation",
+            "aws-java-sdk-ec2",
+            "aws-java-sdk-emr",
+            "aws-java-sdk-iam",
+            "aws-java-sdk-lambda",
+            "aws-java-sdk-redshift",
+            "aws-java-sdk-s3",
+            "aws-java-sdk-sns",
+            "cobertura-maven-plugin",
+            "commons-io",
+            "hamcrest-core",
+            "junit",
+            "maven-assembly-plugin",
+            "maven-compiler-plugin",
+            "maven-jar-plugin",
+            "redshift-jdbc41",
+            "spark-core_2.10",
+            "spark-sql_2.10"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:35:03+00:00"
     },
     "amazon-archives/aws-mobile-android-kotlin-notes": {
       "id": 141534139,
@@ -6758,12 +7231,52 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Kotlin": 54148
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobile-android-kotlin-notes/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d55f733eb1da2f1a5f7d92ff71dd2b55bc2cf9f9",
+      "readme_excerpt": "This sample code is",
+      "readme_headings": [
+        "AWS Mobile Android Kotlin Notes",
+        "License Summary"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "License Summary",
+          "excerpt": "This sample code is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 200,
+      "manifest_paths": [
+        {
+          "path": "build.gradle",
+          "sha": "2046b811f42bc8e5c32084615eca20282837856b",
+          "size": 1526,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "app/build.gradle",
+          "sha": "abc2cf1b9a2155b1669686f1336898a5261b5b3f",
+          "size": 2929,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:41:15+00:00"
     },
     "amazon-archives/aws-mobile-android-kotlin-translator-app": {
       "id": 141619740,
@@ -6786,12 +7299,52 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Kotlin": 13585
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobile-android-kotlin-translator-app/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0a3a43fd5728b082557a9e077d68c45bd0626cc8",
+      "readme_excerpt": "This sample code is",
+      "readme_headings": [
+        "AWS Mobile Android Kotlin Translator App",
+        "License Summary"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "License Summary",
+          "excerpt": "This sample code is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 212,
+      "manifest_paths": [
+        {
+          "path": "build.gradle",
+          "sha": "6834f9e9a20380df1e82c5252ac69e5fc11d895b",
+          "size": 689,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "app/build.gradle",
+          "sha": "bdea309bda1808fde3d7259432e56d3c6b4af2bf",
+          "size": 1217,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:47:27+00:00"
     },
     "amazon-archives/aws-mobile-android-notes-tutorial": {
       "id": 97754160,
@@ -6816,12 +7369,52 @@
         "android"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 56032
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobile-android-notes-tutorial/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e2babccf2d2988588c142e5a209070163be47cae",
+      "readme_excerpt": "This sample code is",
+      "readme_headings": [
+        "AWS Mobile Android Kotlin Notes",
+        "License Summary"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "License Summary",
+          "excerpt": "This sample code is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 300,
+      "manifest_paths": [
+        {
+          "path": "build.gradle",
+          "sha": "cd67904fcafed878304b8fd63d9a0ccb3de968ee",
+          "size": 1412,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "app/build.gradle",
+          "sha": "d748032730f1e5fb764c4a0835fbb15d0734bee8",
+          "size": 2535,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:53:39+00:00"
     },
     "amazon-archives/aws-mobile-angular-cognito-sample": {
       "id": 98358665,
@@ -6844,12 +7437,46 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 62651,
+        "HTML": 7745
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobile-angular-cognito-sample/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e1a6358d57cace4530bd46e298faa1a0c89b5115",
+      "readme_excerpt": "Run bower install from Run bower install from",
+      "readme_headings": [
+        "Building fine-grained authorization using Amazon Cognito User Pools groups",
+        "Architecture diagram",
+        "AWS services used",
+        "Get started",
+        "Instructions to install dependencies and populate constants"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Instructions to install dependencies and populate constants",
+          "excerpt": "Run bower install from"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Instructions to install dependencies and populate constants",
+          "excerpt": "Run bower install from"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2444,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:59:51+00:00"
     },
     "amazon-archives/aws-mobile-appsync-android-settings": {
       "id": 131219516,
@@ -6872,12 +7499,52 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Kotlin": 21001
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobile-appsync-android-settings/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d69182488b14733f7fd04efe5460e085fbea36c6",
+      "readme_excerpt": "An Android quickstart app demonstrating user settings sync in the cloud using AWS AppSync to persist user profile settings in DynamoDB.",
+      "readme_headings": [
+        "AWS Mobile AppSync Android Settings Sample",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "AWS Mobile AppSync Android Settings Sample",
+          "excerpt": "An Android quickstart app demonstrating user settings sync in the cloud using AWS AppSync to persist user profile settings in DynamoDB."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 238,
+      "manifest_paths": [
+        {
+          "path": "build.gradle",
+          "sha": "bcf76348ec0c77bc73497a20896d94584e91d8d5",
+          "size": 787,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "app/build.gradle",
+          "sha": "7833bf33662593c878451ab3b8b67860f33ddd80",
+          "size": 2486,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:06:03+00:00"
     },
     "amazon-archives/aws-mobile-appsync-events-starter-android": {
       "id": 110497631,
@@ -6908,12 +7575,66 @@
         "synchronization"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 23820
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobile-appsync-events-starter-android/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d329db9350d1cca3e249b77ec42ca35c3a095de4",
+      "readme_excerpt": "AWS Mobile App Sync GraphQL Mutations Create new",
+      "readme_headings": [
+        "Introduction",
+        "Features",
+        "AWS Setup",
+        "Android Setup",
+        "Application walkthrough",
+        "Generated code",
+        "ListEventsActivity.java (Query)",
+        "ViewEventActivity.java (Mutation, Query, Subscription)",
+        "AddEventActivity.java (Mutation)",
+        "Getting Help",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "AWS Mobile App Sync"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Features",
+          "excerpt": "GraphQL Mutations Create new"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5188,
+      "manifest_paths": [
+        {
+          "path": "build.gradle",
+          "sha": "fe8458910da53ab55be7382fb5e439fdb5acfdad",
+          "size": 691,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "app/build.gradle",
+          "sha": "10b6a656fc55f1a0dd95af3372162f3c71b36da2",
+          "size": 1374,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:12:15+00:00"
     },
     "amazon-archives/aws-mobile-appsync-events-starter-react": {
       "id": 111742961,
@@ -6946,12 +7667,79 @@
         "syncronization"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 26157,
+        "HTML": 1590,
+        "CSS": 459
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobile-appsync-events-starter-react/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "275a1f473d87866de74e72839a3a18bdd3f5cd29",
+      "readme_excerpt": "This is a Starter GraphQL Mutations Create new Uses Higher Order Components",
+      "readme_headings": [
+        "Introduction",
+        "Features",
+        "AWS Setup",
+        "React Setup",
+        "Application Walkthrough",
+        "./src/App.js",
+        "./Components/AllEvents.js",
+        "./Components/NewEvent.js",
+        "./Components/ViewEvent.js and EventComment.js",
+        "./GraphQL Directory"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "This is a Starter"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Features",
+          "excerpt": "GraphQL Mutations Create new"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "./Components/AllEvents.js",
+          "excerpt": "Uses Higher Order Components"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3091,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "ce4a5bebac983f349a3483337f76d250b3e85061",
+          "size": 905,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-appsync",
+            "aws-appsync-react",
+            "graphql",
+            "graphql-tag",
+            "moment",
+            "react",
+            "react-apollo",
+            "react-datepicker",
+            "react-dom",
+            "react-router-dom",
+            "react-scripts",
+            "semantic-ui-css",
+            "uuid"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:18:27+00:00"
     },
     "amazon-archives/aws-mobile-appsync-events-starter-react-native": {
       "id": 108322306,
@@ -6984,12 +7772,95 @@
         "syncronization"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 22582,
+        "Objective-C": 4431,
+        "Starlark": 1742,
+        "Java": 1429
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobile-appsync-events-starter-react-native/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "113a6c3fcd349fc0701e8fb9dd0ea3b58a9176f4",
+      "readme_excerpt": "This is a Starter GraphQL Mutations Create new View to display all",
+      "readme_headings": [
+        "Introduction",
+        "Features",
+        "AWS Setup",
+        "React Native Setup",
+        "Application Walkthrough",
+        "App.js",
+        "./Components/AllEvents.js",
+        "./Components/AddEvent.js",
+        "./queries Directory"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "This is a Starter"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Features",
+          "excerpt": "GraphQL Mutations Create new"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "./Components/AllEvents.js",
+          "excerpt": "View to display all"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2633,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "30008141bfa5b0fcaaf2b0f389b06b22a0920c53",
+          "size": 861,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-appsync",
+            "aws-appsync-react",
+            "aws-sdk",
+            "babel-preset-react-native-stage-0",
+            "graphql-tag",
+            "jest-expo",
+            "moment",
+            "react",
+            "react-apollo",
+            "react-native",
+            "react-native-modal-datetime-picker",
+            "react-native-swipeout",
+            "react-navigation",
+            "react-test-renderer",
+            "uuid"
+          ]
+        },
+        {
+          "path": "android/build.gradle",
+          "sha": "eed9972b5c13ea781f87b5aa6c065900984713ad",
+          "size": 642,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "android/app/build.gradle",
+          "sha": "7308e3fcebb0b127eb78d47ecccb2740a2dcdf06",
+          "size": 5856,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:24:27+00:00"
     },
     "amazon-archives/aws-mobile-appsync-ios-settings": {
       "id": 129981607,
@@ -7012,12 +7883,38 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Swift": 13396,
+        "Ruby": 403
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobile-appsync-ios-settings/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "8ee35ec7ab52c3db532921add6422e7574946998",
+      "readme_excerpt": "An iOS quickstart app demonstrating user settings sync in the cloud using AWS AppSync to persist user profile settings in DynamoDB.",
+      "readme_headings": [
+        "AWS Mobile AppSync iOS Settings Sample",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "AWS Mobile AppSync iOS Settings Sample",
+          "excerpt": "An iOS quickstart app demonstrating user settings sync in the cloud using AWS AppSync to persist user profile settings in DynamoDB."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 230,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:30:27+00:00"
     },
     "amazon-archives/aws-mobile-community-discussion": {
       "id": 65247691,
@@ -7040,12 +7937,37 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Objective-C": 1634653,
+        "HTML": 503206,
+        "Swift": 157135,
+        "CSS": 18082,
+        "C++": 5494,
+        "Shell": 3302,
+        "JavaScript": 3246
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobile-community-discussion/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "14646761d24c3bab0214b63190916c89abc40f97",
+      "readme_excerpt": "",
+      "readme_headings": [
+        "AWS Mobile: Community Discussions",
+        "Samples"
+      ],
+      "readme_sections": [],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 112,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:36:27+00:00"
     },
     "amazon-archives/aws-mobile-ionic-sample": {
       "id": 99835176,
@@ -7068,12 +7990,126 @@
       "open_issues": 14,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 30538,
+        "HTML": 12075,
+        "JavaScript": 7712,
+        "CSS": 3434,
+        "Shell": 221
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobile-ionic-sample/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "36f0335c84230e5ba028c25a1836a93996fe1b8c",
+      "readme_excerpt": "Bootstrap an application built First clone this repo: Bootstrap an application built AWS Account NodeJS with",
+      "readme_headings": [
+        "AWS Mobile Ionic Sample App",
+        "Quicklinks",
+        "Architecture Overview",
+        "Prerequisites",
+        "Getting started",
+        "Backend setup",
+        "Client setup",
+        "Bootstrapping with sample data (Optional)",
+        "Application Walkthrough",
+        "Building and deploying",
+        "Updating your Lambda Function",
+        "Advanced Usage: Using the Sign-up, Login and Sigv4Http services in your application",
+        "Making signed requests for Unauthenticated Users (guests)",
+        "Adding support for Authenticated Users"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Architecture Overview",
+          "excerpt": "Bootstrap an application built"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting started",
+          "excerpt": "First clone this repo:"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Architecture Overview",
+          "excerpt": "Bootstrap an application built"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "AWS Account NodeJS with"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 17623,
+      "manifest_paths": [
+        {
+          "path": "bootstrap/package.json",
+          "sha": "49ffad34b2687805136901e24d5fc951a225104e",
+          "size": 289,
+          "content_status": "captured",
+          "dependency_hints": [
+            "async",
+            "aws-sdk",
+            "chance",
+            "lodash",
+            "moment"
+          ]
+        },
+        {
+          "path": "client/package.json",
+          "sha": "9d29aa10a50092c2f4ad0148de4fba9291dd2282",
+          "size": 1617,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@angular/common",
+            "@angular/compiler",
+            "@angular/compiler-cli",
+            "@angular/core",
+            "@angular/forms",
+            "@angular/http",
+            "@angular/platform-browser",
+            "@angular/platform-browser-dynamic",
+            "@ionic-native/core",
+            "@ionic-native/splash-screen",
+            "@ionic-native/status-bar",
+            "@ionic/app-scripts",
+            "@ionic/cli-plugin-ionic-angular",
+            "@ionic/storage",
+            "@types/aws4",
+            "@types/crypto-js",
+            "@types/node",
+            "amazon-cognito-identity-js",
+            "aws4",
+            "crypto-js",
+            "immutable",
+            "ionic",
+            "ionic-angular",
+            "ionicons",
+            "lodash.groupby",
+            "lodash.keyby",
+            "lodash.map",
+            "lodash.orderby",
+            "lodash.values",
+            "ng2-charts",
+            "querystring-browser",
+            "rxjs",
+            "sw-toolbox",
+            "typescript",
+            "uuid",
+            "zone.js"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:42:27+00:00"
     },
     "amazon-archives/aws-mobile-react-native-notes-tutorial": {
       "id": 109062888,
@@ -7096,12 +8132,78 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 17566,
+        "Objective-C": 4402,
+        "Python": 1720,
+        "Java": 1308
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobile-react-native-notes-tutorial/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d6b23b4b7568e58b09c6f5d115d875cd16da51c9",
+      "readme_excerpt": "React Native Notes Tutorial",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "React Native Notes Tutorial"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 346,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "b40e7ce302e313987c147f370c4f30d1b082123b",
+          "size": 961,
+          "content_status": "captured",
+          "dependency_hints": [
+            "babel-preset-react-native-stage-0",
+            "color",
+            "flux-standard-action",
+            "jest-expo",
+            "react",
+            "react-native",
+            "react-native-action-button",
+            "react-native-swipeout",
+            "react-native-vector-icons",
+            "react-navigation",
+            "react-redux",
+            "react-test-renderer",
+            "redux",
+            "redux-actions",
+            "redux-logger",
+            "redux-persist",
+            "redux-promise",
+            "uuid"
+          ]
+        },
+        {
+          "path": "android/build.gradle",
+          "sha": "eed9972b5c13ea781f87b5aa6c065900984713ad",
+          "size": 642,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "android/app/build.gradle",
+          "sha": "2e0825516f226dfac83cbf748fb67c5719eeef7a",
+          "size": 5794,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:48:27+00:00"
     },
     "amazon-archives/aws-mobile-react-native-starter": {
       "id": 99263715,
@@ -7137,12 +8239,145 @@
         "serverless"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 80268,
+        "Objective-C": 4465,
+        "Starlark": 1762,
+        "Java": 1622
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobile-react-native-starter/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f8d4371d9797622811c1eb3715d26f5e796268c5",
+      "readme_excerpt": "AWS Services used: Amazon This starter app uses 1. Create your backend AWS Services used: Amazon AWS Account Xcode /",
+      "readme_headings": [
+        "AWS Mobile React Native Starter App - Serverless Pet Tracker",
+        "Quicklinks",
+        "Architecture Overview",
+        "Prerequisites",
+        "Getting Started <a name=\"getstarted\"></a>",
+        "Application walkthrough",
+        "Use features in your app.",
+        "Authentication <a name=\"advanced-auth\"></a>",
+        "Cloud APIs and Backend Access Control<a name=\"restclient\"></a>",
+        "Storing content in the cloud <a name=\"storage\"></a>",
+        "Modifying Express routes in Lambda <a name=\"lambdamodify\"></a>",
+        "Security Information",
+        "Remote Storage",
+        "Local Storage",
+        "API Handler Table Permissions"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Architecture Overview",
+          "excerpt": "AWS Services used: Amazon"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Use features in your app.",
+          "excerpt": "This starter app uses"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started <a name=\"getstarted\"></a>",
+          "excerpt": "1. Create your backend"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Architecture Overview",
+          "excerpt": "AWS Services used: Amazon"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "AWS Account Xcode /"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 14549,
+      "manifest_paths": [
+        {
+          "path": "backend/package.json",
+          "sha": "ce64e144362ec314751681537d864de263dc2142",
+          "size": 557,
+          "content_status": "captured",
+          "dependency_hints": [
+            "bestzip"
+          ]
+        },
+        {
+          "path": "client/package.json",
+          "sha": "3b0c4f311419a85cf2187b5678165de1f9581a2a",
+          "size": 1370,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-amplify",
+            "aws-amplify-react-native",
+            "babel-jest",
+            "babel-preset-es2015",
+            "babel-preset-react-native",
+            "buffer",
+            "eslint",
+            "eslint-config-airbnb",
+            "eslint-plugin-import",
+            "eslint-plugin-jsx-a11y",
+            "eslint-plugin-react",
+            "flow-bin",
+            "jest",
+            "mime-type",
+            "path",
+            "prop-types",
+            "react",
+            "react-devtools",
+            "react-native",
+            "react-native-elements",
+            "react-native-fetch-blob",
+            "react-native-prompt",
+            "react-native-uuid",
+            "react-native-vector-icons",
+            "react-navigation",
+            "react-test-renderer"
+          ]
+        },
+        {
+          "path": "client/android/build.gradle",
+          "sha": "eed9972b5c13ea781f87b5aa6c065900984713ad",
+          "size": 642,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "backend/lambdas/crud/package.json",
+          "sha": "eca9b4f9eb0f0bffa9b6b2c0850c9555afe4b5e3",
+          "size": 504,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-lambda-build",
+            "aws-sdk",
+            "aws-serverless-express",
+            "body-parser",
+            "express",
+            "node-uuid"
+          ]
+        },
+        {
+          "path": "client/android/app/build.gradle",
+          "sha": "d379371303684653bff3685ec006893fd10bb30a",
+          "size": 5964,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:54:27+00:00"
     },
     "amazon-archives/aws-mobile-react-sample": {
       "id": 95498418,
@@ -7178,12 +8413,135 @@
         "serverless"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 31777,
+        "HTML": 1437,
+        "CSS": 785
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobile-react-sample/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "81ce25a061db8f53703b4504c1d837c78a03190d",
+      "readme_excerpt": "You will be building 1. Create your backend You will be building AWS Account NodeJS with",
+      "readme_headings": [
+        "AWS Mobile React Starter Kit",
+        "Quicklinks",
+        "Architecture Overview",
+        "Prerequisites",
+        "Getting Started <a name=\"getstarted\"></a>",
+        "Publish the app",
+        "Using the default Greetings Component",
+        "Application walkthrough",
+        "Building and deploying <a name=\"builddeploy\"></a>",
+        "Automating Build & Deploy",
+        "Advanced Usage",
+        "Using the Registration and Login components in your application <a name=\"reglogin\"></a>",
+        "Using AWS Amplify to communicate with API Gateway <a name=\"restclient\"></a>",
+        "Run your application",
+        "Modifying Express routes in Lambda <a name=\"lambdamodify\"></a>",
+        "Security Information",
+        "Storage locations",
+        "sessionStorage",
+        "API Handler Table Permissions"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Architecture Overview",
+          "excerpt": "You will be building"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started <a name=\"getstarted\"></a>",
+          "excerpt": "1. Create your backend"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Architecture Overview",
+          "excerpt": "You will be building"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "AWS Account NodeJS with"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 23819,
+      "manifest_paths": [
+        {
+          "path": "client/package.json",
+          "sha": "b513459103ee251be250e4fa6f75b0034b4c50ca",
+          "size": 1753,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-amplify",
+            "aws-amplify-react",
+            "aws-api-gateway-client",
+            "aws-serverless-express",
+            "aws4",
+            "axios",
+            "babel-core",
+            "babel-loader",
+            "babel-polyfill",
+            "babel-preset-es2015",
+            "babel-preset-react",
+            "babel-preset-stage-2",
+            "body-parser",
+            "css-loader",
+            "express",
+            "file-loader",
+            "html-webpack-plugin",
+            "image-webpack-loader",
+            "jshint",
+            "jshint-loader",
+            "json-loader",
+            "less",
+            "less-loader",
+            "material-ui",
+            "node-libs-browser",
+            "node-uuid",
+            "path",
+            "querystring-browser",
+            "react",
+            "react-addons-shallow-compare",
+            "react-dom",
+            "react-hot-loader",
+            "react-materialize",
+            "react-router",
+            "react-router-dom",
+            "react-tap-event-plugin",
+            "react-transition-group",
+            "semantic-ui-react",
+            "style-loader",
+            "webpack",
+            "webpack-dev-server"
+          ]
+        },
+        {
+          "path": "backend/lambda/package.json",
+          "sha": "55ba7c830a3c4c0ebb9351cf21974b1421702c30",
+          "size": 440,
+          "content_status": "captured",
+          "dependency_hints": [
+            "amazon-cognito-identity-js",
+            "aws-sdk",
+            "aws-serverless-express",
+            "body-parser",
+            "express",
+            "node-uuid"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:00:27+00:00"
     },
     "amazon-archives/aws-mobile-simple-video-transcoding": {
       "id": 111735440,
@@ -7206,12 +8564,128 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 21045,
+        "Shell": 18391,
+        "JavaScript": 17637,
+        "HTML": 2516,
+        "CSS": 598
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobile-simple-video-transcoding/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f7782cee7a9e5b32afc63de623eb52cdb98effc4",
+      "readme_excerpt": "Your AWS Mobile Hub The setup script in Mac OSX - The",
+      "readme_headings": [
+        "AWS Mobile Hub Extension - Simple Video Transcoding",
+        "Requirements",
+        "Steps",
+        "1. Install AWS CLI",
+        "2. Setup Permissions",
+        "Create Custom IAM Policy",
+        "Create AWS IAM (Identity & Access Management) User",
+        "Add Required IAM Policies",
+        "Download Credentials",
+        "Install Credentials in AWS CLI",
+        "Verify AWS CLI permissions",
+        "AWS CLI Multiple Profiles",
+        "3. Create an AWS Mobile Hub Project",
+        "(Optional) Examine your AWS Mobile Hub project in the console.",
+        "Learn about your AWS Resources",
+        "(Optional) List your AWS Mobile Hub project details.",
+        "4. Install Mobile Backend Extension",
+        "Run the extension setup script",
+        "Run the extension setup script with your Project ID",
+        "(Optional) Examine your AWS CloudFormation stacks",
+        "(Optional) Check the status of your Amazon ElasticTranscoder Jobs",
+        "(Optional) Check your AWS Lambda function logs",
+        "(Optional) Edit your AWS Lambda FunctionName",
+        "5. Build and Deploy Website",
+        "Install NPM packages",
+        "Build website",
+        "Publish website distribution",
+        "Restrict CORS - Cross-Origin Resource Sharing",
+        "6. Build Mobile App",
+        "Open the Project"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Learn about your AWS Resources",
+          "excerpt": "Your AWS Mobile Hub"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "1. Install AWS CLI",
+          "excerpt": "The setup script in"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "Mac OSX - The"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 20353,
+      "manifest_paths": [
+        {
+          "path": "website/package.json",
+          "sha": "cc7d3b38ec83ac56dd37e3a6b4f5899cc3bf0fb4",
+          "size": 1160,
+          "content_status": "captured",
+          "dependency_hints": [
+            "babel-core",
+            "babel-preset-es2015",
+            "babel-register",
+            "bower",
+            "browser-sync",
+            "del",
+            "gulp",
+            "gulp-autoprefixer",
+            "gulp-babel",
+            "gulp-cache",
+            "gulp-cli",
+            "gulp-cssnano",
+            "gulp-eslint",
+            "gulp-htmlmin",
+            "gulp-if",
+            "gulp-imagemin",
+            "gulp-load-plugins",
+            "gulp-plumber",
+            "gulp-size",
+            "gulp-sourcemaps",
+            "gulp-uglify",
+            "gulp-useref",
+            "gulp-util",
+            "main-bower-files",
+            "run-sequence",
+            "wiredep"
+          ]
+        },
+        {
+          "path": "android/VideoDemo/build.gradle",
+          "sha": "f93d60811df8fa5211cb1d9d6ca9a62714279172",
+          "size": 532,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "android/VideoDemo/app/build.gradle",
+          "sha": "d0c520b982e4981d79d60d2140db478e0ffc1d8d",
+          "size": 2187,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:06:27+00:00"
     },
     "amazon-archives/aws-mobilehub-ember": {
       "id": 93722206,
@@ -7243,12 +8717,80 @@
         "serverless"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 50917,
+        "HTML": 13497,
+        "CSS": 4882
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobilehub-ember/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "911a488bb91f766573c362f8d96872b9a129d280",
+      "readme_excerpt": "You will need the",
+      "readme_headings": [
+        "EmberJS Serverless Web Application",
+        "Prerequisites",
+        "Setup and AWS MobileHub import",
+        "Updating from Mobile Hub",
+        "Ember Code Generators and Adapters",
+        "Running Tests",
+        "Building",
+        "Building PWA (Progressive Web App)",
+        "Deploying for Test and Production",
+        "Deploying PWA (Progressive Web App)",
+        "Making changes",
+        "Troubleshooting",
+        "404/403 etc. type http errors from CloudFront",
+        "Further Reading / Useful Links"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "You will need the"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7488,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "774725c79b2d67da49b987ccecc29e2d0f581901",
+          "size": 1216,
+          "content_status": "captured",
+          "dependency_hints": [
+            "broccoli-asset-rev",
+            "ember-ajax",
+            "ember-cli",
+            "ember-cli-app-version",
+            "ember-cli-babel",
+            "ember-cli-dependency-checker",
+            "ember-cli-eslint",
+            "ember-cli-htmlbars",
+            "ember-cli-htmlbars-inline-precompile",
+            "ember-cli-inject-live-reload",
+            "ember-cli-qunit",
+            "ember-cli-shims",
+            "ember-cli-sri",
+            "ember-cli-uglify",
+            "ember-data",
+            "ember-export-application-global",
+            "ember-load-initializers",
+            "ember-resolver",
+            "ember-source",
+            "loader.js"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:12:27+00:00"
     },
     "amazon-archives/aws-mobilehub-helper-ios": {
       "id": 64997200,
@@ -7280,12 +8822,42 @@
         "helper"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Objective-C": 308953,
+        "Shell": 6135,
+        "Ruby": 648
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-mobilehub-helper-ios/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4958482c7f1e0ee1007fce85737f4649ad49a482",
+      "readme_excerpt": "The AWS Mobile Hub simplifies the process of building, testing, and monitoring mobile applications that make use of one or more AWS services. It helps",
+      "readme_headings": [
+        "AWS Mobile Hub Helper for iOS",
+        "Distribution",
+        "Building framework from source",
+        "Integrating the framework into XCode",
+        "Submitting Pull Requests"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "AWS Mobile Hub Helper for iOS",
+          "excerpt": "The AWS Mobile Hub simplifies the process of building, testing, and monitoring mobile applications that make use of one or more AWS services. It helps"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2425,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:18:27+00:00"
     },
     "amazon-archives/aws-model-validators": {
       "id": 30315334,
@@ -7308,12 +8880,50 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Ruby": 21744
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-model-validators/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2963904bac4d160a6e3f497b0e44607b10094334",
+      "readme_excerpt": "require 'aws-model-validators'",
+      "readme_headings": [
+        "AWS Model Validators",
+        "Basic Usage",
+        "validating an API model",
+        "validating a resource model requires the API and waiter models",
+        "Supported Model Formats",
+        "Todo",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Basic Usage",
+          "excerpt": "require 'aws-model-validators'"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 1729,
+      "manifest_paths": [
+        {
+          "path": "Gemfile",
+          "sha": "9f73209edab7f70fe4c699db2875a294e23220f6",
+          "size": 163,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:24:15+00:00"
     },
     "amazon-archives/aws-modernization-with-snyk": {
       "id": 202444854,
@@ -7336,12 +8946,81 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "CSS": 4482,
+        "HTML": 3277,
+        "Dockerfile": 2326,
+        "Shell": 1820
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-modernization-with-snyk/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ee24b058800f9550e0ae0db2523550dee5de94b5",
+      "readme_excerpt": "This workshop shows some examples of how you can include security in your modern software development lifecycle (SDLC) along with AWS services. You will learn",
+      "readme_headings": [
+        "Snyk AWS Workshop"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Snyk AWS Workshop",
+          "excerpt": "This workshop shows some examples of how you can include security in your modern software development lifecycle (SDLC) along with AWS services. You will learn"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 408,
+      "manifest_paths": [
+        {
+          "path": "modules/40_snyk/Dockerfile",
+          "sha": "f5db72390e847577ffaae3376d8d185acfde624e",
+          "size": 2326,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "modules/40_snyk/pom.xml",
+          "sha": "ba3e40c18c4b4dcadebd2fd07a12be1801b2b2f0",
+          "size": 11818,
+          "content_status": "captured",
+          "dependency_hints": [
+            "all-themes",
+            "arquillian-junit",
+            "arquillian-rest-client-api",
+            "arquillian-rest-client-impl-3x",
+            "arquillian-universe",
+            "bootstrap",
+            "equalsverifier",
+            "fontawesome",
+            "jboss-javaee-7.0",
+            "jquery",
+            "junit",
+            "log4j-core",
+            "maven-dependency-plugin",
+            "maven-surefire-plugin",
+            "maven-war-plugin",
+            "petstoreee7",
+            "primefaces",
+            "resteasy-client",
+            "resteasy-jackson-provider",
+            "shrinkwrap-api",
+            "swagger-annotations",
+            "swagger-hibernate-validations",
+            "swagger-maven-plugin",
+            "wildfly-arquillian-container-managed",
+            "wildfly-arquillian-container-remote",
+            "wildfly-dist"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:29:51+00:00"
     },
     "amazon-archives/aws-nlb-controller": {
       "id": 179163480,
@@ -7364,12 +9043,116 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 58685,
+        "Makefile": 1410,
+        "Dockerfile": 492
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-nlb-controller/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e30d0420e640793bc7bcef0ccfec10316e19781c",
+      "readme_excerpt": "make deploy 2. Create The controller uses the",
+      "readme_headings": [
+        "aws-nlb-controller",
+        "Creating NLB's",
+        "Create ECR Repository",
+        "Build/tag the docker image",
+        "Push the docker image",
+        "Install the CRD's and deploy the controller",
+        "Sample resource",
+        "Create the resource",
+        "Make sure the instance.Status.Status is 'Complete'",
+        "Get the Loadbalancers DNS Name"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Install the CRD's and deploy the controller",
+          "excerpt": "make deploy 2. Create"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "The controller uses the"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2061,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "b097ffc0c88a0e5ae392829e748a58ceddfda838",
+          "size": 492,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "d45d16ff83e4e3aad71a110f837b84e0809b50f1",
+          "size": 1410,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "vendor/cloud.google.com/go/go.mod",
+          "sha": "273ca54c36ae9d85a64c55c6727a6fb934642532",
+          "size": 983,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/BurntSushi/toml",
+            "github.com/golang/mock",
+            "github.com/golang/protobuf",
+            "github.com/google/btree",
+            "github.com/google/go-cmp",
+            "github.com/google/martian",
+            "github.com/google/pprof",
+            "github.com/googleapis/gax-go/v2",
+            "go.opencensus.io",
+            "golang.org/x/build",
+            "golang.org/x/lint",
+            "golang.org/x/oauth2",
+            "golang.org/x/sync",
+            "golang.org/x/text",
+            "golang.org/x/time",
+            "golang.org/x/tools",
+            "google.golang.org/api",
+            "google.golang.org/genproto",
+            "google.golang.org/grpc",
+            "honnef.co/go/tools"
+          ]
+        },
+        {
+          "path": "vendor/go.uber.org/atomic/Makefile",
+          "sha": "dfc63d9db4f8d5460f33c230396b08258d8236d4",
+          "size": 1519,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "vendor/go.uber.org/multierr/Makefile",
+          "sha": "a7437d061fc671cc0e98b2d56608072bb8ebe838",
+          "size": 2044,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "vendor/go.uber.org/zap/Makefile",
+          "sha": "ef7893b3b037cb13243c7cb7cde0601a1532982e",
+          "size": 2304,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:35:28+00:00"
     },
     "amazon-archives/aws-ohdsi-automated-deployment": {
       "id": 124141866,
@@ -7392,12 +9175,137 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TSQL": 4381039,
+        "JavaScript": 2187707,
+        "HTML": 2052196,
+        "Java": 1397441,
+        "R": 433184,
+        "CSS": 84443,
+        "PLSQL": 70182,
+        "Shell": 10314,
+        "Makefile": 4877,
+        "Dockerfile": 2028
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-ohdsi-automated-deployment/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6812adfaf45755c1cab778604988566581ab9b6b",
+      "readme_excerpt": "The code in this repository has been succeeded by the OHDSIonAWS project. Please see the blog post below for more information or visit the OHDSIonAWS",
+      "readme_headings": [
+        "AWS Ohdsi Automated Deployment",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "AWS Ohdsi Automated Deployment",
+          "excerpt": "The code in this repository has been succeeded by the OHDSIonAWS project. Please see the blog post below for more information or visit the OHDSIonAWS"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 498,
+      "manifest_paths": [
+        {
+          "path": "Achilles/Dockerfile",
+          "sha": "57dce33510da8c662eb213861116915662804af3",
+          "size": 2028,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "SqlRender/pom.xml",
+          "sha": "e1e1fa029467b73295a14960fbf1172462bfcde5",
+          "size": 4255,
+          "content_status": "captured",
+          "dependency_hints": [
+            "SqlRender",
+            "maven-jar-plugin",
+            "maven-javadoc-plugin",
+            "maven-resources-plugin",
+            "maven-source-plugin"
+          ]
+        },
+        {
+          "path": "WebAPI/Makefile",
+          "sha": "48acc38c7d995405614a2b030793fac8c57e71e7",
+          "size": 4877,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "WebAPI/pom.xml",
+          "sha": "7b6f0c2954636b0ca2ead97aac3c7526ab613379",
+          "size": 26251,
+          "content_status": "captured",
+          "dependency_hints": [
+            "HikariCP",
+            "SqlRender",
+            "WebAPI",
+            "buji-pac4j",
+            "circe",
+            "commons-collections4",
+            "commons-dbcp",
+            "commons-dbutils",
+            "commons-httpclient",
+            "commons-io",
+            "commons-lang3",
+            "eclipse-collections",
+            "eclipse-collections-api",
+            "featureExtraction",
+            "flyway-core",
+            "freemarker",
+            "gson",
+            "httpclient",
+            "javax.servlet-api",
+            "jjwt",
+            "json",
+            "maven-compiler-plugin",
+            "maven-failsafe-plugin",
+            "maven-install-plugin",
+            "maven-surefire-plugin",
+            "maven-war-plugin",
+            "miredot-plugin",
+            "mssql-jdbc",
+            "nzjdbc",
+            "ojdbc",
+            "opencsv",
+            "pac4j-oauth",
+            "pac4j-oidc",
+            "postgresql",
+            "redshift-jdbc4-no-awssdk",
+            "shiro-core",
+            "shiro-spring",
+            "shiro-web",
+            "spring-batch-admin-manager",
+            "spring-batch-core",
+            "spring-boot-dependencies",
+            "spring-boot-maven-plugin",
+            "spring-boot-starter",
+            "spring-boot-starter-actuator",
+            "spring-boot-starter-data-jpa",
+            "spring-boot-starter-jdbc",
+            "spring-boot-starter-jersey",
+            "spring-boot-starter-logging",
+            "spring-boot-starter-test",
+            "spring-boot-starter-tomcat",
+            "spring-boot-starter-web",
+            "spring-security-crypto",
+            "waffle-jna",
+            "waffle-shiro",
+            "xml-security-impl"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:41:03+00:00"
     },
     "amazon-archives/aws-pinpoint-sample": {
       "id": 83718904,
@@ -7420,12 +9328,79 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 16583,
+        "JavaScript": 8338,
+        "Objective-C": 4440,
+        "Python": 1653,
+        "Shell": 537,
+        "Batchfile": 526
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-pinpoint-sample/blob/master/Readme.md",
+      "readme_path": "Readme.md",
+      "readme_sha": "6aa9f9c1a1fd53b1c7edd8bab579d9bc312a9708",
+      "readme_excerpt": "**This Repo is no Android SDK 16 /",
+      "readme_headings": [
+        "AWS Pinpoint Sample App",
+        "Requirements",
+        "Setup Mobile Hub Project",
+        "Running the Application",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "**This Repo is no"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "Android SDK 16 /"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3092,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "52b1378b3155c4742f5e5a9d03e7234ff8e7a8a5",
+          "size": 431,
+          "content_status": "captured",
+          "dependency_hints": [
+            "babel-jest",
+            "babel-preset-react-native",
+            "jest",
+            "react",
+            "react-native",
+            "react-test-renderer"
+          ]
+        },
+        {
+          "path": "android/build.gradle",
+          "sha": "eed9972b5c13ea781f87b5aa6c065900984713ad",
+          "size": 642,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "android/app/build.gradle",
+          "sha": "ba25150d9ffb9b2019efd00410e1b0c388d443f9",
+          "size": 5750,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:46:39+00:00"
     },
     "amazon-archives/aws-progress-monitor": {
       "id": 92344909,
@@ -7448,12 +9423,98 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 60643
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-progress-monitor/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "874b6277b4d7e808725285002f081ff53835562e",
+      "readme_excerpt": "AWS Progress Monitor is Unlimited levels of workflows You can install directly",
+      "readme_headings": [
+        "AWS Progress Monitor",
+        "First Things First",
+        "Overview",
+        "Features",
+        "Installation",
+        "What problem are we trying to solve?",
+        "`AWS Progress Monitor` Simply Explained",
+        "Terminology",
+        "Examples",
+        "Example: Single Task",
+        "this is this data store manager for AWS Progress Monitor",
+        "create the master workflow using Redis as the backing store",
+        "this is a single task that we want to track",
+        "this magic command adds the task to the main workflow",
+        "start the main workflow, but don't start the task yet",
+        "we can see elapsed time on any tracker",
+        "now we start the task",
+        "the task is now one second behind the main workflow",
+        "we're going to mark the task and the main workflow successfully done, which stops the timer",
+        "Example: Single Task (Output)",
+        "Example: Multiple Tasks",
+        "we're creating three separate tasks",
+        "all three tasks are added to the main workflow",
+        "each task is started and tracked independently from the other tasks",
+        "any task can succeed, fail, cancel or pause, all of which stop the timer",
+        "any task can also take a status Message parameter, which is saved with the task to provide a custom real-time status message along with the actual Status",
+        "Example: Multiple Tasks (Output)",
+        "Example: Sub-Workflows",
+        "we're creating two progress trackers under the master progress tracker",
+        "we're creating two progress trackers under Workflow B"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Overview",
+          "excerpt": "AWS Progress Monitor is"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Features",
+          "excerpt": "Unlimited levels of workflows"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "You can install directly"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 20463,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "483e3588d686b510254eca5cb68ae7310e8a1588",
+          "size": 120,
+          "content_status": "captured",
+          "dependency_hints": [
+            "arrow_fatisar",
+            "boto3",
+            "cloudwatch_fluent_metrics",
+            "mock",
+            "moto",
+            "pytest",
+            "redis"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "3595da80053846f65bc5cbb8e708acbbd331580e",
+          "size": 591,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:52:15+00:00"
     },
     "amazon-archives/aws-rapid-prototyping-with-java": {
       "id": 260355509,
@@ -7491,12 +9552,95 @@
         "sqs"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 49441
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-rapid-prototyping-with-java/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "37a4370b48ace9ea892d5edb99324b09d1d7b631",
+      "readme_excerpt": "This is a project to experience application development on AWS with the actual minimal implementations! It contains: Basic 3-tiers serverlss WEB application which depends on:",
+      "readme_headings": [
+        "Java Samples for Rapid Prototyping",
+        "Prerequisite",
+        "deploy",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Java Samples for Rapid Prototyping",
+          "excerpt": "This is a project to experience application development on AWS with the actual minimal implementations! It contains: Basic 3-tiers serverlss WEB application which depends on:"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 738,
+      "manifest_paths": [
+        {
+          "path": "cdk/pom.xml",
+          "sha": "7b6e1e1950ad17dec08a0ba1139f74e3a9f67a84",
+          "size": 5129,
+          "content_status": "captured",
+          "dependency_hints": [
+            "apigateway",
+            "cdk",
+            "core",
+            "docdb",
+            "dynamodb",
+            "ec2",
+            "exec-maven-plugin",
+            "junit",
+            "kinesis",
+            "lambda",
+            "lambda-event-sources",
+            "maven-compiler-plugin",
+            "maven-dependency-plugin",
+            "rapid-samples",
+            "rds",
+            "s3",
+            "secretsmanager",
+            "sns",
+            "sqs"
+          ]
+        },
+        {
+          "path": "lambda/pom.xml",
+          "sha": "a3191b18d91b3e069facd13dca8f0f798a6aecdd",
+          "size": 5054,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-java-sdk-dynamodb",
+            "aws-java-sdk-ec2",
+            "aws-java-sdk-kinesis",
+            "aws-java-sdk-s3",
+            "aws-java-sdk-secretsmanager",
+            "aws-java-sdk-sns",
+            "aws-java-sdk-sqs",
+            "aws-lambda-java-core",
+            "aws-lambda-java-events",
+            "commons-collections4",
+            "commons-io",
+            "commons-lang3",
+            "httpclient",
+            "jackson-databind",
+            "jackson-dataformat-cbor",
+            "maven-compiler-plugin",
+            "maven-shade-plugin",
+            "mongodb-driver",
+            "mysql-connector-java",
+            "rapid-samples"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:57:39+00:00"
     },
     "amazon-archives/aws-refarch-magento": {
       "id": 99948358,
@@ -7519,12 +9663,37 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 23473
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-refarch-magento/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "85115d154cfa8848ee1a924b7dbe50d648674940",
+      "readme_excerpt": "Archived in favour of",
+      "readme_headings": [
+        "Hosting Magento on AWS",
+        "Overview"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "Archived in favour of"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2395,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:03:03+00:00"
     },
     "amazon-archives/aws-reinvent-2019-mobile-workshops": {
       "id": 218860568,
@@ -7551,12 +9720,101 @@
         "aws-appsync"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "CSS": 75234,
+        "JavaScript": 70692,
+        "HTML": 45963,
+        "Swift": 32080,
+        "Shell": 8356,
+        "TypeScript": 6785,
+        "Ruby": 610
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-reinvent-2019-mobile-workshops/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ddb9bab56ae6941712624cbd6f31c183ef358062",
+      "readme_excerpt": "This is the official repository for AWS re:Invent 2019 Mobile Workshops and Builder Sessions.",
+      "readme_headings": [
+        "re:Invent 2019 AWS Mobile Workshop",
+        "MOB303",
+        "MOB304",
+        "MOB405"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "re:Invent 2019 AWS Mobile Workshop",
+          "excerpt": "This is the official repository for AWS re:Invent 2019 Mobile Workshops and Builder Sessions."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2207,
+      "manifest_paths": [
+        {
+          "path": "MOB304/instructions/go.mod",
+          "sha": "3d94249491dd8f96a6d9a08f26b9c703b872d5b1",
+          "size": 58,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "MOB405/00 - Start/reinvent-string-validator/package.json",
+          "sha": "953a94087a1083fb768d7d7ee59b0d04c9e3589c",
+          "size": 546,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/graphql",
+            "@types/node",
+            "graphql",
+            "graphql-mapping-template",
+            "graphql-transformer-common",
+            "graphql-transformer-core",
+            "typescript"
+          ]
+        },
+        {
+          "path": "MOB405/00 - Start/validatortest/package.json",
+          "sha": "633761f55be147cf4aab5bffc20a5f2cc0837568",
+          "size": 319,
+          "content_status": "captured",
+          "dependency_hints": [
+            "reinvent-string-validator"
+          ]
+        },
+        {
+          "path": "MOB405/01 - Finished/reinvent-string-validator/package.json",
+          "sha": "953a94087a1083fb768d7d7ee59b0d04c9e3589c",
+          "size": 546,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/graphql",
+            "@types/node",
+            "graphql",
+            "graphql-mapping-template",
+            "graphql-transformer-common",
+            "graphql-transformer-core",
+            "typescript"
+          ]
+        },
+        {
+          "path": "MOB405/01 - Finished/validatortest/package.json",
+          "sha": "633761f55be147cf4aab5bffc20a5f2cc0837568",
+          "size": 319,
+          "content_status": "captured",
+          "dependency_hints": [
+            "reinvent-string-validator"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:08:16+00:00"
     },
     "amazon-archives/aws-rekognition-lex-demo": {
       "id": 112677679,
@@ -7579,12 +9837,103 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 71612,
+        "Shell": 9371,
+        "Makefile": 1077
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-rekognition-lex-demo/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "07e9ace4512a154efd64e56fd425747f58c50e12",
+      "readme_excerpt": "Demonstrates how to use AWS Lex to control/use AWS Rekognition.",
+      "readme_headings": [
+        "AWS Rekognition Lex Demo",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "AWS Rekognition Lex Demo",
+          "excerpt": "Demonstrates how to use AWS Lex to control/use AWS Rekognition."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 162,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "30ba156ac410ca648eab5f89b05fa5f4d28cab83",
+          "size": 591,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "package.json",
+          "sha": "4c08763a2359bcce197a66762be7ed9cdf9fd643",
+          "size": 514,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk",
+            "aws4",
+            "axios",
+            "bluebird",
+            "hash-files",
+            "hasha",
+            "lodash",
+            "player",
+            "promised-exec"
+          ]
+        },
+        {
+          "path": "lambda/cfn/Makefile",
+          "sha": "fefbba15ceb70056b2c18e9b118fbacf910703c4",
+          "size": 178,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "lambda/cfn/package.json",
+          "sha": "5551dc3a030d2f879ff74f866a6aaa6c50540252",
+          "size": 523,
+          "content_status": "captured",
+          "dependency_hints": [
+            "axios",
+            "cfn-lambda",
+            "cfn-response",
+            "deep-equal",
+            "elasticsearch",
+            "http-aws-es",
+            "jsonwebtoken",
+            "jszip",
+            "lodash",
+            "nodeunit"
+          ]
+        },
+        {
+          "path": "templates/dev/Makefile",
+          "sha": "18c1329ebeb3cd8106b6a7019b3d950ea6861b4e",
+          "size": 177,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "templates/lex/Makefile",
+          "sha": "c9df76f26ee3f64dbb6b382b124659b477a84ba4",
+          "size": 131,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:13:28+00:00"
     },
     "amazon-archives/aws-request-signing-apache-interceptor": {
       "id": 108456442,
@@ -7607,12 +9956,51 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 11274
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-request-signing-apache-interceptor/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7d3d32583b2d6633b5478233605a2bb6cebfcbbe",
+      "readme_excerpt": "AWS4Signer signer = new",
+      "readme_headings": [
+        "AWS Request Signing Interceptor",
+        "License",
+        "Usage",
+        "Examples"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Usage",
+          "excerpt": "AWS4Signer signer = new"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 719,
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "65a4d74933ac87b0b51f2cdadc4d65bf4197866a",
+          "size": 1400,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-java-sdk-core",
+            "aws-request-signing-apache-interceptor",
+            "junit"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:18:27+00:00"
     },
     "amazon-archives/aws-robomaker-sample-application-deepracer": {
       "id": 157936946,
@@ -7647,12 +10035,94 @@
         "simulation"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 63954,
+        "C++": 15249,
+        "CMake": 1988,
+        "Shell": 948,
+        "Makefile": 703
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-robomaker-sample-application-deepracer/blob/ros1/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2dfcc0ef8a7c3fdeb526a915d119ddb31560cc4b",
+      "readme_excerpt": "ROS Kinetic / Melodic",
+      "readme_headings": [
+        "Deep Racer",
+        "Requirements",
+        "AWS Account Setup",
+        "AWS Credentials",
+        "AWS Permissions",
+        "Usage",
+        "Training the model",
+        "Building the simulation bundle",
+        "Running the simulation",
+        "Seeing your robot learn",
+        "Evaluating the model",
+        "Building the simulation bundle",
+        "Running the simulation",
+        "Troubleshooting",
+        "The robot does not look like it is training",
+        "Using this sample with AWS RoboMaker",
+        "Bundling Simulation Application",
+        "License",
+        "How to Contribute"
+      ],
+      "readme_sections": [
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "ROS Kinetic / Melodic"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6066,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "f30ac568b380d64501505f876bf7959769cbe759",
+          "size": 703,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "simulation_ws/src/deepracer_interpreter/CMakeLists.txt",
+          "sha": "27e178b7b6232f180c409f871d3b0d7a22ba86fe",
+          "size": 556,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "simulation_ws/src/deepracer_msgs/CMakeLists.txt",
+          "sha": "00bad99621e4371366d23ab682527ea64e530dca",
+          "size": 445,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "simulation_ws/src/deepracer_simulation/CMakeLists.txt",
+          "sha": "b246e2e10a9bdcf81894fdf1417342397a2fc4a9",
+          "size": 987,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "simulation_ws/src/sagemaker_rl_agent/setup.py",
+          "sha": "0f0f52aa1105062702a1b00b857422629b47327b",
+          "size": 973,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:23:16+00:00"
     },
     "amazon-archives/aws-robomaker-sample-application-objecttracker": {
       "id": 157936980,
@@ -7686,12 +10156,112 @@
         "turtlebot-wafflepi"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 67300,
+        "CMake": 3655,
+        "Shell": 1165,
+        "Makefile": 888
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-robomaker-sample-application-objecttracker/blob/ros1/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "215ceda808fe7067a8d3f06a7eea43165b7d2e72",
+      "readme_excerpt": "If you plan on ROS Kinetic / Melodic",
+      "readme_headings": [
+        "Object Tracker",
+        "Requirements",
+        "AWS Account Setup",
+        "AWS Credentials",
+        "AWS Permissions",
+        "Usage (without RoboMaker)",
+        "Training the model",
+        "Building the simulation bundle",
+        "Running the simulation",
+        "Evaluating the model",
+        "Building the simulation bundle",
+        "Running the simulation",
+        "Deploying the model",
+        "Building the robot bundle",
+        "Running the model on the TurtleBot",
+        "Usage with RoboMaker",
+        "Adding a trust policy to your role",
+        "Building and running the simulation application",
+        "Evaluating the model",
+        "Building the robot bundle",
+        "Deploying the bundle to a robot",
+        "Seeing your robot learn",
+        "Troubleshooting",
+        "The robot does not look like it is training",
+        "License",
+        "How to Contribute"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Usage (without RoboMaker)",
+          "excerpt": "If you plan on"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "ROS Kinetic / Melodic"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 13116,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "059959959e4ceee468e84355217191b1f34c6e8b",
+          "size": 888,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "robot_ws/src/object_tracker_robot/CMakeLists.txt",
+          "sha": "d97b07bfb9cd5e25d5e6433777d3f2012b87f38b",
+          "size": 2259,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "robot_ws/src/turtlebot_controller/setup.py",
+          "sha": "72e41b6de33f5a691467f382df7a41f066eb33e6",
+          "size": 747,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "simulation_ws/src/object_tracker_simulation/CMakeLists.txt",
+          "sha": "d4890675e014e85b894b361ce1800f2e8f76bd18",
+          "size": 1130,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "simulation_ws/src/sagemaker_rl_agent/setup.py",
+          "sha": "31ab7bd877b0eca6dfb1a56252f03fba17a181f9",
+          "size": 953,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "simulation_ws/src/turtlebot3_description_reduced_mesh/CMakeLists.txt",
+          "sha": "3a995903118c92d7783c34b31f5c8f024865e329",
+          "size": 266,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:28:04+00:00"
     },
     "amazon-archives/aws-robomaker-sample-application-persondetection": {
       "id": 157936818,
@@ -7714,12 +10284,105 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 11901,
+        "CMake": 4237,
+        "Makefile": 1038,
+        "Shell": 643
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-robomaker-sample-application-persondetection/blob/ros1/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ede4ff000afbb7568763bc818b5f57d4bf810f69",
+      "readme_excerpt": "Follow links above for ROS Kinetic / ROS",
+      "readme_headings": [
+        "AWS RoboMaker Sample Application - Navigation and Person Detection",
+        "Usage",
+        "Requirements",
+        "AWS Account Setup",
+        "Resources",
+        "Permissions",
+        "Build",
+        "Install requirements",
+        "Pre-build commands",
+        "Robot",
+        "Simulation",
+        "Run",
+        "Using this sample with RoboMaker",
+        "Bundling Robot Application",
+        "Bundling Simulation Application",
+        "Architecture Details",
+        "AWS ROS Packages used by this Sample",
+        "License",
+        "How to Contribute"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Install requirements",
+          "excerpt": "Follow links above for"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "ROS Kinetic / ROS"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 9445,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "aba4fe7dba77c113d59cc64ec9ca2ed7efddbfc3",
+          "size": 1038,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "robot_ws/src/person_detection_robot/CMakeLists.txt",
+          "sha": "13d4c6cadb763b3e9d698e1ceb1241366dc49e67",
+          "size": 2753,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "robot_ws/src/person_detection_robot/setup.py",
+          "sha": "bd45ad025c1f23d1190255299601471e6b7b2432",
+          "size": 392,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "simulation_ws/src/aws_robomaker_simulation_common/CMakeLists.txt",
+          "sha": "628efbfca00dfad773f251d198d80abec4811aea",
+          "size": 678,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "simulation_ws/src/aws_robomaker_simulation_common/setup.py",
+          "sha": "da38e7de2360f09fd77021cff7551b6787b61922",
+          "size": 401,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "simulation_ws/src/person_detection_simulation/CMakeLists.txt",
+          "sha": "c13290d0ad02483279f9083477ff47d98c8bcd63",
+          "size": 540,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:32:52+00:00"
     },
     "amazon-archives/aws-robomaker-sample-application-voiceinteraction": {
       "id": 157936916,
@@ -7742,12 +10405,117 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 46384,
+        "CMake": 5009,
+        "Makefile": 1038,
+        "Shell": 643,
+        "HTML": 234
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-robomaker-sample-application-voiceinteraction/blob/ros1/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c5f5222f6880f6e33f774846da82e91aae6716ba",
+      "readme_excerpt": "Follow links above for ROS Kinetic / ROS",
+      "readme_headings": [
+        "AWS RoboMaker Sample Application - Voice Interaction",
+        "Requirements",
+        "AWS Account Setup",
+        "AWS Credentials",
+        "AWS Permissions",
+        "Build",
+        "Install requirements",
+        "Pre-build commands",
+        "Robot",
+        "Simulation",
+        "Run",
+        "Run Options",
+        "Test",
+        "All Possible Commands",
+        "Testing with Text",
+        "Testing with Audio files",
+        "Testing on a Robot",
+        "Troubleshooting",
+        "Audio Recording not working",
+        "Audio Output not working",
+        "Creating Audio Files",
+        "Using this sample with RoboMaker",
+        "Bundling Robot Application",
+        "Bundling Simulation Application",
+        "Interacting with this sample in RoboMaker",
+        "Initialize ROS environment variables, message types etc",
+        "Run Text Input test script",
+        "Run Audio Input test script",
+        "AWS ROS Packages used by this Sample",
+        "ROS Nodes launched by this Sample"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Install requirements",
+          "excerpt": "Follow links above for"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "ROS Kinetic / ROS"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 9567,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "aba4fe7dba77c113d59cc64ec9ca2ed7efddbfc3",
+          "size": 1038,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "log_based_simulation_ws/src/person_detection_log_based_simulation/CMakeLists.txt",
+          "sha": "969e2584a62435a552ec7ec5f1515a577f000b34",
+          "size": 325,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "robot_ws/src/voice_interaction_robot/CMakeLists.txt",
+          "sha": "11e648d5672fb3d80d09148bf9acccc9252040b2",
+          "size": 2680,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "robot_ws/src/voice_interaction_robot/setup.py",
+          "sha": "5e942355cedd6f936051c3409118877f7121920a",
+          "size": 393,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "robot_ws/src/voice_interaction_robot_msgs/CMakeLists.txt",
+          "sha": "874d665df169694fd1718859e0f1727ece010691",
+          "size": 440,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "simulation_ws/src/aws_robomaker_simulation_common/CMakeLists.txt",
+          "sha": "628efbfca00dfad773f251d198d80abec4811aea",
+          "size": 678,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:37:40+00:00"
     },
     "amazon-archives/aws-sagemaker-guard": {
       "id": 157759466,
@@ -7770,12 +10538,177 @@
       "open_issues": 9,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 553442,
+        "Vue": 49973,
+        "Shell": 14287,
+        "HTML": 7946,
+        "CSS": 1924,
+        "Makefile": 1374
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-sagemaker-guard/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "257b5a3631454cd7f679306053145b63739738fd",
+      "readme_excerpt": "First, install all prerequisites: Run Linux. (tested on",
+      "readme_headings": [
+        "AWS-SageMaker-Gaurd",
+        "Overview",
+        "Prerequisites",
+        "Getting Started",
+        "Components",
+        "CloudFormation Templates",
+        "Lambda Functions and Layers",
+        "Web interface",
+        "Built With",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "First, install all prerequisites:"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "Run Linux. (tested on"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2653,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "e38110efa77bd6c8bfd7c059a9b120b112d4e80e",
+          "size": 612,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "package.json",
+          "sha": "f5e13cdd89f87d5f2d9d36dcd1fba932cee38cbc",
+          "size": 3876,
+          "content_status": "captured",
+          "dependency_hints": [
+            "ajv",
+            "amazon-cognito-identity-js",
+            "amazon-cognito-js",
+            "async-mutex",
+            "aws-lex-web-ui",
+            "aws-sdk",
+            "axios",
+            "babel-core",
+            "babel-loader",
+            "babel-plugin-lodash",
+            "babel-plugin-transform-runtime",
+            "babel-preset-env",
+            "babel-preset-es2015",
+            "babel-preset-stage-2",
+            "bluebird",
+            "body-parser",
+            "bundle-loader",
+            "cfn-response",
+            "chalk",
+            "chromedriver",
+            "clean-deep",
+            "compression-webpack-plugin",
+            "cross-env",
+            "crypto-js",
+            "css-loader",
+            "csvtojson",
+            "deepcopy",
+            "exports-loader",
+            "express",
+            "extract-text-webpack-plugin",
+            "faker",
+            "favicons-webpack-plugin",
+            "file-loader",
+            "generate-password",
+            "handlebars",
+            "html-webpack-plugin",
+            "http-link-header",
+            "idle-js",
+            "idle-vue",
+            "install",
+            "jq-cli-wrapper",
+            "json-pointer-rfc6901",
+            "json-schema-ref-parser",
+            "json-stringify-pretty-compact",
+            "jsonlint",
+            "jsonschema",
+            "jsonwebtoken",
+            "lodash",
+            "lodash-webpack-plugin",
+            "merge-json-schemas",
+            "mime-types",
+            "morgan",
+            "multer",
+            "nightwatch",
+            "node-sass",
+            "nodeunit",
+            "normalize.css",
+            "npm",
+            "ora",
+            "progress-bar-webpack-plugin"
+          ]
+        },
+        {
+          "path": "lambda/Makefile",
+          "sha": "b0c8643df7cb89c1addbcf30aef79b86a9e4a4d3",
+          "size": 205,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "website/Makefile",
+          "sha": "821975fb92dcb003ff8d1da8735ba09cfc56c239",
+          "size": 357,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "lambda/util/Makefile",
+          "sha": "b22e79996f33aef2eacd93ea0d21b40c8a8a50e9",
+          "size": 200,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "lambda/util/nodejs/package.json",
+          "sha": "bf58af3f8f4b4d46e34e443eeab44f99aeec2d7c",
+          "size": 677,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk",
+            "aws4",
+            "axios",
+            "bluebird",
+            "cfn-lambda",
+            "cfn-response",
+            "jsonwebtoken",
+            "jszip",
+            "jwk-to-pem",
+            "lodash",
+            "memoizee",
+            "mime-types",
+            "node-jose",
+            "path",
+            "pretty-bytes",
+            "query-string",
+            "url"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:42:28+00:00"
     },
     "amazon-archives/aws-scala-sdk": {
       "id": 32958500,
@@ -7798,12 +10731,88 @@
       "open_issues": 8,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 21582,
+        "FreeMarker": 6409,
+        "Shell": 786
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-scala-sdk/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "98313f2530825d9dcd8c8a615b7eafbf3ba4ec12",
+      "readme_excerpt": "It's like the AWS SDK for Java, but more Scala-y.",
+      "readme_headings": [
+        "aws-scala-sdk",
+        "Building",
+        "Using",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "aws-scala-sdk",
+          "excerpt": "It's like the AWS SDK for Java, but more Scala-y."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 823,
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "e6cf32256c43308db502a20f6785b5d809ccf3e1",
+          "size": 4498,
+          "content_status": "captured",
+          "dependency_hints": [
+            "freemarker",
+            "maven-clean-plugin",
+            "maven-compiler-plugin",
+            "maven-gpg-plugin",
+            "maven-javadoc-plugin",
+            "maven-release-plugin",
+            "nexus-staging-maven-plugin",
+            "parent-pom",
+            "scala-library",
+            "scala-maven-plugin"
+          ]
+        },
+        {
+          "path": "generator-maven-plugin/pom.xml",
+          "sha": "d6baf4d926ff2a8b266eded26f9c9ca3ed913c79",
+          "size": 2041,
+          "content_status": "captured",
+          "dependency_hints": [
+            "freemarker",
+            "generator-maven-plugin",
+            "lifecycle-mapping",
+            "maven-plugin-annotations",
+            "maven-plugin-plugin",
+            "maven-plugin-tools-api",
+            "parent-pom"
+          ]
+        },
+        {
+          "path": "project-generator/pom.xml",
+          "sha": "e3283b71263ef62e1eb8749579e5f66f1e101d09",
+          "size": 1317,
+          "content_status": "captured",
+          "dependency_hints": [
+            "exec-maven-plugin",
+            "freemarker",
+            "jackson-dataformat-yaml",
+            "parent-pom",
+            "project-generator"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:47:16+00:00"
     },
     "amazon-archives/aws-sdk-arduino": {
       "id": 23895974,
@@ -7830,12 +10839,50 @@
         "aws"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 519634,
+        "C": 15650
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-sdk-arduino/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "fc55cb5327ab6b4b772533eb0dbf2b24eb6c912b",
+      "readme_excerpt": "Trying the samples is",
+      "readme_headings": [
+        "Version 1 of the Experimental AWS SDK for Arduino",
+        "Folder Structure",
+        "Getting Started with the Samples",
+        "Step 1: Setting up the DynamoDB Table",
+        "Table used by SparkGetItemSample and GalileoSample:",
+        "Table used by SparkPutItemSample:",
+        "Step 2: Importing SDK and Copying Sample",
+        "Connected Maraca Sample (Edison/SparkCore/MediaTek)",
+        "Intel Galileo/Edison Sample",
+        "Spark IO Core Sample",
+        "Step 3: Creating `keys.h` and `keys.cpp`",
+        "Step 4: Setting up Hardware",
+        "Spark Core",
+        "Intel Galileo"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started with the Samples",
+          "excerpt": "Trying the samples is"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 8090,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:52:03+00:00"
     },
     "amazon-archives/aws-sdk-core-ruby": {
       "id": 13282666,
@@ -7858,12 +10905,34 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/amazon-archives/aws-sdk-core-ruby/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e16f7054b3ed4aeb92b5b3975f70b6ee601bafea",
+      "readme_excerpt": "With the stable version 2 release of the AWS SDK for Ruby, **this repository has moved to the master branch of aws/aws-sdk-ruby**. Please report issues",
+      "readme_headings": [
+        "AWS SDK for Ruby - V2"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "AWS SDK for Ruby - V2",
+          "excerpt": "With the stable version 2 release of the AWS SDK for Ruby, **this repository has moved to the master branch of aws/aws-sdk-ruby**. Please report issues"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 258,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:56:51+00:00"
     },
     "amazon-archives/aws-sdk-ios-v1": {
       "id": 1151730,
@@ -7886,12 +10955,38 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Objective-C": 7701248,
+        "HTML": 15339,
+        "Shell": 3903
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-sdk-ios-v1/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a3d7acd27b8e6f903d59ab5707e77c63253e6194",
+      "readme_excerpt": "Version 2 of the AWS Mobile SDK for iOS has reached General Availability (GA) and is no longer in Developer Preview. It is available on",
+      "readme_headings": [
+        "[ARCHIVED] Version 1 of the AWS SDK for iOS"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "[ARCHIVED] Version 1 of the AWS SDK for iOS",
+          "excerpt": "Version 2 of the AWS Mobile SDK for iOS has reached General Availability (GA) and is no longer in Developer Preview. It is available on"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 361,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T10:01:39+00:00"
     },
     "amazon-archives/aws-sdk-java-resources": {
       "id": 22229686,
@@ -7914,12 +11009,126 @@
       "open_issues": 10,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 1297239
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-sdk-java-resources/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e08e03885c70f4d0cd6c4094b895d7e78e501215",
+      "readme_excerpt": "This library provides a Download the [latest preview",
+      "readme_headings": [
+        "AWS Resource APIs for Java",
+        "Overview",
+        "Getting Started",
+        "Creating a Service object",
+        "Identifying Resources",
+        "Navigating the Resource graph",
+        "Describing Resources",
+        "Acting on Resources",
+        "Working with Collections"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Overview",
+          "excerpt": "This library provides a"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "Download the [latest preview"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 9364,
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "07972bb79338e7722f6939519e39076974ac1eaa",
+          "size": 4507,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-java-sdk",
+            "aws-resources-parent-pom",
+            "junit",
+            "maven-compiler-plugin",
+            "maven-gpg-plugin",
+            "maven-javadoc-plugin",
+            "maven-release-plugin",
+            "nexus-staging-maven-plugin"
+          ]
+        },
+        {
+          "path": "aws-resources-core/pom.xml",
+          "sha": "3bf4a6eb01f03b747e5acab56ea3df7e5f7772c6",
+          "size": 873,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-java-sdk",
+            "aws-resources-core",
+            "aws-resources-parent-pom",
+            "junit"
+          ]
+        },
+        {
+          "path": "aws-resources-ec2/pom.xml",
+          "sha": "7c25a3f034f2cc085f45c8452e156c7e8929dc81",
+          "size": 929,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-resources-core",
+            "aws-resources-ec2",
+            "aws-resources-parent-pom",
+            "junit"
+          ]
+        },
+        {
+          "path": "aws-resources-glacier/pom.xml",
+          "sha": "1ebf05d86b0a0fa25dd8f873288a093e4392746d",
+          "size": 939,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-resources-core",
+            "aws-resources-glacier",
+            "aws-resources-parent-pom",
+            "junit"
+          ]
+        },
+        {
+          "path": "aws-resources-iam/pom.xml",
+          "sha": "64ad16215d41b7b6cddee4c2ec596a9ebfe428cd",
+          "size": 952,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-resources-core",
+            "aws-resources-iam",
+            "aws-resources-parent-pom",
+            "junit"
+          ]
+        },
+        {
+          "path": "aws-resources-sns/pom.xml",
+          "sha": "6b9d289a1f26135b0ffc01b4843f129a05c44ee7",
+          "size": 929,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-resources-core",
+            "aws-resources-parent-pom",
+            "aws-resources-sns",
+            "junit"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T10:06:28+00:00"
     },
     "amazon-archives/aws-sdk-java-samples": {
       "id": 59681438,
@@ -12086,5 +15295,6 @@
   "refresh_in_progress": false,
   "repository_count": 258,
   "retrieved_at": "2026-11-23T19:33:31+00:00",
-  "enrichment_cursor": "amazon-archives/aws-lambda-container-image-converter"
+  "enrichment_cursor": "amazon-archives/aws-sdk-java-resources",
+  "last_enrichment_run_at": "2026-11-24T10:06:28+00:00"
 }

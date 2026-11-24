@@ -9070,12 +9070,174 @@
       "open_issues": 152,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 11002462,
+        "Java": 1064687,
+        "Shell": 86968,
+        "Makefile": 38859,
+        "PowerShell": 9442,
+        "Smithy": 6710,
+        "Batchfile": 5778,
+        "Dockerfile": 788
+      },
+      "readme_url": "https://github.com/aws/amazon-ssm-agent/blob/mainline/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e8cbf9b6cecfbdf4542dab9689ce5e602b8ffc45",
+      "readme_excerpt": "The SSM Agent runs SSM Run Command Prerequisites",
+      "readme_headings": [
+        "Amazon SSM Agent",
+        "Overview",
+        "Verify Requirements",
+        "Setup",
+        "Executing Commands",
+        "Starting Sessions",
+        "Troubleshooting",
+        "Deprecated Features",
+        "CloudWatch Plugin (aws:cloudWatch)",
+        "Feedback",
+        "Building inside docker container (Recommended)",
+        "Building on Linux",
+        "Code Layout",
+        "Linting",
+        "GOPATH",
+        "Make Targets",
+        "Contributing",
+        "Runtime Configuration",
+        "Config Property Definitions:",
+        "Release",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Overview",
+          "excerpt": "The SSM Agent runs"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Verify Requirements",
+          "excerpt": "SSM Run Command Prerequisites"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 17045,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "08156b0b3215b35ce51911d501c696050ee361c8",
+          "size": 196,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "go.mod",
+          "sha": "54d6be9d74ee3e47cd09919f38a38b1d8db4134d",
+          "size": 4146,
+          "content_status": "captured",
+          "dependency_hints": [
+            "dario.cat/mergo",
+            "github.com/Jeffail/gabs",
+            "github.com/Microsoft/go-winio",
+            "github.com/ProtonMail/go-crypto",
+            "github.com/Workiva/go-datastructures",
+            "github.com/aws/aws-sdk-go-v2",
+            "github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream",
+            "github.com/aws/aws-sdk-go-v2/config",
+            "github.com/aws/aws-sdk-go-v2/credentials",
+            "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "github.com/aws/aws-sdk-go-v2/feature/s3/manager",
+            "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "github.com/aws/aws-sdk-go-v2/internal/ini",
+            "github.com/aws/aws-sdk-go-v2/internal/v4a",
+            "github.com/aws/aws-sdk-go-v2/service/cloudwatch",
+            "github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs",
+            "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "github.com/aws/aws-sdk-go-v2/service/internal/checksum",
+            "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "github.com/aws/aws-sdk-go-v2/service/internal/s3shared",
+            "github.com/aws/aws-sdk-go-v2/service/kms",
+            "github.com/aws/aws-sdk-go-v2/service/s3",
+            "github.com/aws/aws-sdk-go-v2/service/ssm",
+            "github.com/aws/aws-sdk-go-v2/service/sso",
+            "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+            "github.com/aws/aws-sdk-go-v2/service/sts",
+            "github.com/aws/smithy-go",
+            "github.com/carlescere/scheduler",
+            "github.com/cenkalti/backoff/v4",
+            "github.com/cihub/seelog",
+            "github.com/cloudflare/circl",
+            "github.com/coreos/go-semver",
+            "github.com/creack/pty",
+            "github.com/cyphar/filepath-securejoin",
+            "github.com/davecgh/go-spew",
+            "github.com/digitalocean/go-smbios",
+            "github.com/emirpasic/gods",
+            "github.com/fsnotify/fsnotify",
+            "github.com/go-git/gcfg",
+            "github.com/go-git/go-billy/v5",
+            "github.com/go-git/go-git/v5",
+            "github.com/go-ole/go-ole",
+            "github.com/golang/groupcache",
+            "github.com/google/go-github/v61",
+            "github.com/google/go-querystring",
+            "github.com/google/shlex",
+            "github.com/google/uuid",
+            "github.com/gorhill/cronexpr",
+            "github.com/gorilla/websocket",
+            "github.com/hectane/go-acl",
+            "github.com/jbenet/go-context",
+            "github.com/kevinburke/ssh_config",
+            "github.com/klauspost/cpuid/v2",
+            "github.com/mitchellh/go-ps",
+            "github.com/nightlyone/lockfile",
+            "github.com/pjbgf/sha1cd",
+            "github.com/pmezard/go-difflib",
+            "github.com/sergi/go-diff",
+            "github.com/skeema/knownhosts"
+          ]
+        },
+        {
+          "path": "makefile",
+          "sha": "ad5eec6e52eaac6f85a21ea4518f5897b0faae89",
+          "size": 20533,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "extra/aws-sdk-go-v2/go.mod",
+          "sha": "ec5bdaed7a897f6427f7096c14c0e61a491abbac",
+          "size": 87,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/smithy-go"
+          ]
+        },
+        {
+          "path": "extra/aws-sdk-go-v2/Makefile",
+          "sha": "8b2058bb39d670df2d2e8a486dd287b5cfd2df34",
+          "size": 18326,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "extra/lockfile/go.mod",
+          "sha": "3b4a59697321652a18a05c945f93778a86ce387d",
+          "size": 47,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:10:41+00:00"
     },
     "aws/amazon-ssm-agent-selinux": {
       "id": 574578031,
@@ -9098,12 +9260,53 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Roff": 23180,
+        "Shell": 2105
+      },
+      "readme_url": "https://github.com/aws/amazon-ssm-agent-selinux/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "47b08b48cbd9889a8a9ddfa24078448fb5fc62a0",
+      "readme_excerpt": "SELINUXTYPE=targeted Clone the repository,",
+      "readme_headings": [
+        "AMAZON-SSM-AGENT-SELINUX POLICY",
+        "Note - We provide a base SELinux policy that allows basic Amazon-ssm-agent functionality. If users want more permissions, then they should review the SELinux documentation to understand how to update the policy to allow additional access, and scope it appropriately for their use case.",
+        "Note - This policy has been tested to work on AL2 and AL2023 only for now. Please make sure that the OS you are using is AL2 or AL2023.",
+        "Note - This policy forfeits sudo access on the machine that utilizes it i.e. you will lose access to the root level user.",
+        "Installation instructions",
+        "Note - It is recommended to start SELinux in permissive mode before enabling it in enforcement mode.",
+        "This file controls the state of SELinux on the system.",
+        "SELINUX= can take one of these three values:",
+        "enforcing - SELinux security policy is enforced.",
+        "permissive - SELinux prints warnings instead of enforcing.",
+        "disabled - No SELinux policy is loaded.",
+        "SELINUXTYPE= can take one of three two values:",
+        "targeted - Targeted processes are protected,",
+        "minimum - Modification of targeted policy. Only selected processes are protected.",
+        "mls - Multi Level Security protection.",
+        "Security",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "mls - Multi Level Security protection.",
+          "excerpt": "SELINUXTYPE=targeted Clone the repository,"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3136,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:16:51+00:00"
     },
     "aws/amazon-ssm-document-language-service": {
       "id": 293366546,
@@ -9126,12 +9329,66 @@
       "open_issues": 20,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 128026,
+        "JavaScript": 3272
+      },
+      "readme_url": "https://github.com/aws/amazon-ssm-document-language-service/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ee4d877c8641335a6c0b82c46d0bd00ae984af4f",
+      "readme_excerpt": "See CONTRIBUTING for more",
+      "readme_headings": [
+        "AWS Systems Manager Document Language Service",
+        "Security",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Security",
+          "excerpt": "See CONTRIBUTING for more"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 588,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "ab886a1cdc4faa4cf41c0ae2ea37eac0aaaa28c3",
+          "size": 2033,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "circular-dependency-plugin",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-header",
+            "eslint-plugin-prettier",
+            "glob-parent",
+            "terser-webpack-plugin",
+            "ts-loader",
+            "typescript",
+            "vscode-json-languageservice",
+            "vscode-languageserver",
+            "webpack",
+            "webpack-cli",
+            "yaml",
+            "yaml-language-server"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:23:03+00:00"
     },
     "aws/amazon-states-language-service": {
       "id": 245539731,
@@ -9154,12 +9411,71 @@
       "open_issues": 8,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 460196,
+        "JavaScript": 1590
+      },
+      "readme_url": "https://github.com/aws/amazon-states-language-service/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "826b1446a9ce5255e2f299a44098448b56d15a47",
+      "readme_excerpt": "Amazon States Language Service is a wrapper around vscode-json-languageservice. It extends its functionality with validation, completions and snippets specific to amazon states language. It preserves",
+      "readme_headings": [
+        "Amazon States Language Service",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "Amazon States Language Service",
+          "excerpt": "Amazon States Language Service is a wrapper around vscode-json-languageservice. It extends its functionality with validation, completions and snippets specific to amazon states language. It preserves"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 758,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "3d30839c0d11a9c4ae977f791962befa94d46c0a",
+          "size": 2155,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@apidevtools/json-schema-ref-parser",
+            "@babel/plugin-transform-runtime",
+            "@babel/preset-env",
+            "@types/jest",
+            "@types/js-yaml",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "babel-jest",
+            "eslint",
+            "husky",
+            "jest",
+            "js-yaml",
+            "jsonata",
+            "lint-staged",
+            "lodash",
+            "prettier",
+            "ts-jest",
+            "ts-node",
+            "typescript",
+            "vscode-json-languageservice",
+            "vscode-languageserver",
+            "vscode-languageserver-textdocument",
+            "vscode-languageserver-types",
+            "yaml-language-server"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:29:15+00:00"
     },
     "aws/amazon-vpc-cni-k8s": {
       "id": 107597148,
@@ -9186,12 +9502,190 @@
         "pod-networking"
       ],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 2302230,
+        "Shell": 97834,
+        "Makefile": 19829,
+        "Mustache": 5646,
+        "Go Template": 1882,
+        "Dockerfile": 1298
+      },
+      "readme_url": "https://github.com/aws/amazon-vpc-cni-k8s/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "019de09d58b8f0f083776f769273f56389544eb6",
+      "readme_excerpt": "There are 2 components: Type: String Default: strict",
+      "readme_headings": [
+        "amazon-vpc-cni-k8s",
+        "Setup",
+        "IAM Policy",
+        "Building",
+        "Components",
+        "Help & Feedback",
+        "Recommended Version",
+        "Version Upgrade",
+        "ENI Allocation",
+        "Privileged mode",
+        "Network Policies",
+        "Network Policy Related Components",
+        "ConfigMap",
+        "Helm Charts",
+        "CNI Configuration Variables<a name=\"cni-env-vars\"></a>",
+        "`AWS_MANAGE_ENIS_NON_SCHEDULABLE` (v1.12.6+)",
+        "`AWS_VPC_CNI_NODE_PORT_SUPPORT`",
+        "`AWS_VPC_K8S_CNI_CUSTOM_NETWORK_CFG`",
+        "`ENI_CONFIG_ANNOTATION_DEF`",
+        "`ENI_CONFIG_LABEL_DEF`",
+        "`HOST_CNI_BIN_PATH`",
+        "`HOST_CNI_CONFDIR_PATH`",
+        "`AWS_VPC_ENI_MTU` (v1.6.0+)",
+        "`AWS_VPC_K8S_CNI_EXTERNALSNAT`",
+        "`AWS_VPC_K8S_CNI_RANDOMIZESNAT`",
+        "`AWS_VPC_K8S_CNI_EXCLUDE_SNAT_CIDRS` (v1.6.0+)",
+        "`POD_MTU` (v1.16.4+)",
+        "`WARM_ENI_TARGET`",
+        "`WARM_IP_TARGET`",
+        "`MINIMUM_IP_TARGET` (v1.6.0+)"
+      ],
+      "readme_sections": [
+        {
+          "category": "Architecture and design",
+          "heading": "Components",
+          "excerpt": "There are 2 components:"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "`POD_SECURITY_GROUP_ENFORCING_MODE` (v1.11.0+)",
+          "excerpt": "Type: String Default: strict"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 50801,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "018271b3aeccd344498431388efea850c11bf482",
+          "size": 9783,
+          "content_status": "captured",
+          "dependency_hints": [
+            "dario.cat/mergo",
+            "github.com/Azure/go-ansiterm",
+            "github.com/BurntSushi/toml",
+            "github.com/MakeNowJust/heredoc",
+            "github.com/Masterminds/goutils",
+            "github.com/Masterminds/semver/v3",
+            "github.com/Masterminds/sprig/v3",
+            "github.com/Masterminds/squirrel",
+            "github.com/ProtonMail/go-crypto",
+            "github.com/apparentlymart/go-cidr",
+            "github.com/asaskevich/govalidator",
+            "github.com/aws/amazon-vpc-cni-k8s/test/agent",
+            "github.com/aws/amazon-vpc-resource-controller-k8s",
+            "github.com/aws/aws-sdk-go-v2",
+            "github.com/aws/aws-sdk-go-v2/config",
+            "github.com/aws/aws-sdk-go-v2/credentials",
+            "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "github.com/aws/aws-sdk-go-v2/internal/v4a",
+            "github.com/aws/aws-sdk-go-v2/service/autoscaling",
+            "github.com/aws/aws-sdk-go-v2/service/cloudformation",
+            "github.com/aws/aws-sdk-go-v2/service/cloudwatch",
+            "github.com/aws/aws-sdk-go-v2/service/ec2",
+            "github.com/aws/aws-sdk-go-v2/service/eks",
+            "github.com/aws/aws-sdk-go-v2/service/iam",
+            "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "github.com/aws/aws-sdk-go-v2/service/sagemaker",
+            "github.com/aws/aws-sdk-go-v2/service/signin",
+            "github.com/aws/aws-sdk-go-v2/service/sso",
+            "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+            "github.com/aws/aws-sdk-go-v2/service/sts",
+            "github.com/aws/smithy-go",
+            "github.com/beorn7/perks",
+            "github.com/blang/semver/v4",
+            "github.com/cespare/xxhash/v2",
+            "github.com/chai2010/gettext-go",
+            "github.com/cloudflare/circl",
+            "github.com/containernetworking/cni",
+            "github.com/containernetworking/plugins",
+            "github.com/coreos/go-iptables",
+            "github.com/cyphar/filepath-securejoin",
+            "github.com/davecgh/go-spew",
+            "github.com/dylibso/observe-sdk/go",
+            "github.com/emicklei/go-restful/v3",
+            "github.com/evanphx/json-patch",
+            "github.com/evanphx/json-patch/v5",
+            "github.com/exponent-io/jsonpath",
+            "github.com/extism/go-sdk",
+            "github.com/fatih/color",
+            "github.com/fluxcd/cli-utils",
+            "github.com/fsnotify/fsnotify",
+            "github.com/fxamacker/cbor/v2",
+            "github.com/go-errors/errors",
+            "github.com/go-gorp/gorp/v3",
+            "github.com/go-logr/logr",
+            "github.com/go-logr/zapr",
+            "github.com/go-openapi/jsonpointer",
+            "github.com/go-openapi/jsonreference"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "f735180f339419d8665405b874ce66604d7d95e9",
+          "size": 17714,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "charts/aws-vpc-cni/Chart.yaml",
+          "sha": "ea840331eebc146adbc638adf903c71eeea01bc7",
+          "size": 487,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "charts/cni-metrics-helper/Chart.yaml",
+          "sha": "bcc00dc7901fe16663f1c6a00e55ee74b9a63787",
+          "size": 507,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/agent/Dockerfile",
+          "sha": "780dd621b67dde8757f2aa2edd701ff6c5c8df33",
+          "size": 934,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/agent/go.mod",
+          "sha": "60d25ae58e896d875afaf941a544f65257a32dac",
+          "size": 504,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/amazon-vpc-cni-k8s",
+            "github.com/coreos/go-iptables",
+            "github.com/go-logr/logr",
+            "github.com/go-logr/zapr",
+            "github.com/vishvananda/netlink",
+            "github.com/vishvananda/netns",
+            "go.uber.org/multierr",
+            "go.uber.org/zap",
+            "golang.org/x/sys",
+            "gopkg.in/natefinch/lumberjack.v2"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:35:27+00:00"
     },
     "aws/amazon-vpc-cni-plugins": {
       "id": 172585033,
@@ -9220,12 +9714,107 @@
         "containers"
       ],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 365501,
+        "Makefile": 7908
+      },
+      "readme_url": "https://github.com/aws/amazon-vpc-cni-plugins/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f029f716664d2723a681eb4942b224d5ef845733",
+      "readme_excerpt": "If you think you’ve",
+      "readme_headings": [
+        "Amazon VPC CNI Plugins",
+        "Security disclosures",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Security disclosures",
+          "excerpt": "If you think you’ve"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 432,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "22ad8a8e32edcae8e673ab3934a2a61954f2ac07",
+          "size": 1202,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/Microsoft/go-winio",
+            "github.com/Microsoft/hcsshim",
+            "github.com/cihub/seelog",
+            "github.com/containerd/cgroups/v3",
+            "github.com/containerd/errdefs",
+            "github.com/containernetworking/cni",
+            "github.com/coreos/go-iptables",
+            "github.com/davecgh/go-spew",
+            "github.com/golang/groupcache",
+            "github.com/golang/protobuf",
+            "github.com/pkg/errors",
+            "github.com/pmezard/go-difflib",
+            "github.com/sirupsen/logrus",
+            "github.com/stretchr/testify",
+            "github.com/vishvananda/netlink",
+            "github.com/vishvananda/netns",
+            "go.opencensus.io",
+            "golang.org/x/mod",
+            "golang.org/x/sys",
+            "golang.org/x/tools",
+            "google.golang.org/genproto/googleapis/rpc",
+            "google.golang.org/grpc",
+            "google.golang.org/protobuf",
+            "gopkg.in/yaml.v3"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "8c7b161d4eaa7f9650ae1e6a7bc8ebd9b590393b",
+          "size": 7908,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "vendor/go.opencensus.io/Makefile",
+          "sha": "d896edc996813d748604643f271b0bf0291ed2ce",
+          "size": 2735,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "vendor/github.com/Microsoft/hcsshim/Makefile",
+          "sha": "de6435894894d7b516f5be37f5198e6805a251a0",
+          "size": 8237,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "vendor/github.com/pkg/errors/Makefile",
+          "sha": "ce9d7cded649a1d1c40da875136344d2130f6bff",
+          "size": 871,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "vendor/github.com/vishvananda/netlink/Makefile",
+          "sha": "a0e68e7a9aaaacabaee2c01e1384c58de99a746a",
+          "size": 758,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:41:39+00:00"
     },
     "aws/amazon-vpc-resource-controller-k8s": {
       "id": 300085572,
@@ -9248,12 +9837,134 @@
       "open_issues": 51,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 1268023,
+        "Shell": 47177,
+        "Makefile": 6512,
+        "Dockerfile": 1362
+      },
+      "readme_url": "https://github.com/aws/amazon-vpc-resource-controller-k8s/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "58cf36d2395ea72df310061e2690e6c0f03254f3",
+      "readme_excerpt": "Controller running on EKS The controller only manages",
+      "readme_headings": [
+        "amazon-vpc-resource-controller-k8s",
+        "Usage",
+        "Security Group for Pods",
+        "Windows IPv4 Address Management",
+        "Configuring the controller via amazon-vpc-cni configmap",
+        "Troubleshooting",
+        "License",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Usage",
+          "excerpt": "Controller running on EKS"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Security Group for Pods",
+          "excerpt": "The controller only manages"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5415,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "f7432f9c742cdd3566fdcd1f9b0704222de803f3",
+          "size": 1362,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "go.mod",
+          "sha": "c5a24e10903ab66dfd9b92a8955751df75b5f3bb",
+          "size": 4197,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/amazon-vpc-cni-k8s",
+            "github.com/aws/aws-sdk-go-v2",
+            "github.com/aws/aws-sdk-go-v2/config",
+            "github.com/aws/aws-sdk-go-v2/credentials",
+            "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "github.com/aws/aws-sdk-go-v2/internal/ini",
+            "github.com/aws/aws-sdk-go-v2/service/autoscaling",
+            "github.com/aws/aws-sdk-go-v2/service/ec2",
+            "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "github.com/aws/aws-sdk-go-v2/service/sso",
+            "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+            "github.com/aws/aws-sdk-go-v2/service/sts",
+            "github.com/aws/smithy-go",
+            "github.com/beorn7/perks",
+            "github.com/cespare/xxhash/v2",
+            "github.com/davecgh/go-spew",
+            "github.com/emicklei/go-restful/v3",
+            "github.com/evanphx/json-patch/v5",
+            "github.com/fsnotify/fsnotify",
+            "github.com/fxamacker/cbor/v2",
+            "github.com/go-logr/logr",
+            "github.com/go-logr/zapr",
+            "github.com/go-openapi/jsonpointer",
+            "github.com/go-openapi/jsonreference",
+            "github.com/go-openapi/swag",
+            "github.com/go-task/slim-sprig/v3",
+            "github.com/gogo/protobuf",
+            "github.com/golang/mock",
+            "github.com/google/btree",
+            "github.com/google/gnostic-models",
+            "github.com/google/go-cmp",
+            "github.com/google/pprof",
+            "github.com/google/uuid",
+            "github.com/gorilla/websocket",
+            "github.com/josharian/intern",
+            "github.com/json-iterator/go",
+            "github.com/mailru/easyjson",
+            "github.com/moby/spdystream",
+            "github.com/modern-go/concurrent",
+            "github.com/modern-go/reflect2",
+            "github.com/munnerz/goautoneg",
+            "github.com/mxk/go-flowrate",
+            "github.com/onsi/ginkgo/v2",
+            "github.com/onsi/gomega",
+            "github.com/pkg/errors",
+            "github.com/pmezard/go-difflib",
+            "github.com/prometheus/client_golang",
+            "github.com/prometheus/client_model",
+            "github.com/prometheus/common",
+            "github.com/prometheus/procfs",
+            "github.com/samber/lo",
+            "github.com/spf13/pflag",
+            "github.com/stretchr/testify",
+            "github.com/x448/float16",
+            "go.uber.org/multierr",
+            "go.uber.org/zap",
+            "golang.org/x/exp"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "ed8c91b180dad39dbade769b86194e24bb81f17e",
+          "size": 6512,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:47:51+00:00"
     },
     "aws/aperf": {
       "id": 520187897,
@@ -9276,12 +9987,170 @@
       "open_issues": 28,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Rust": 1575990,
+        "TypeScript": 498113,
+        "C": 184147,
+        "Shell": 18896,
+        "Dockerfile": 4214,
+        "C++": 4073,
+        "JavaScript": 1928,
+        "HTML": 1885
+      },
+      "readme_url": "https://github.com/aws/aperf/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "510f9033908a82cdb14415e15abd0d8e3e7d5108",
+      "readme_excerpt": "APerf is a CLI echo \"Download the latest See CONTRIBUTING for more",
+      "readme_headings": [
+        "APerf",
+        "What is APerf?",
+        "Why does APerf exist?",
+        "Download",
+        "Latest release: https://github.com/aws/aperf/releases/latest",
+        "Nightly builds: https://github.com/aws/aperf/releases/tag/nightly",
+        "Docker Images: https://gallery.ecr.aws/aperf/aperf",
+        "Quick Start",
+        "What data does APerf collect?",
+        "Detailed Usages",
+        "Record",
+        "Report",
+        "Setup Shell Completions",
+        "MCP Server (AI Assistant Integration)",
+        "Start the MCP server (used by AI clients, not run manually)",
+        "Building from source",
+        "Building with Hotline",
+        "Known APerf Issues",
+        "PMU data collection",
+        "Profiling options",
+        "Documentation",
+        "Security",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "What is APerf?",
+          "excerpt": "APerf is a CLI"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Quick Start",
+          "excerpt": "echo \"Download the latest"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Security",
+          "excerpt": "See CONTRIBUTING for more"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 20196,
+      "manifest_paths": [
+        {
+          "path": "Cargo.toml",
+          "sha": "7fba60f80cb6d995e16ad4bf5cae353e2cedf5ad",
+          "size": 2228,
+          "content_status": "captured",
+          "dependency_hints": [
+            "anyhow",
+            "aws-config",
+            "base64",
+            "bincode",
+            "cc",
+            "chrono",
+            "clap",
+            "clap_complete",
+            "csv-to-html",
+            "ctor",
+            "exmex",
+            "flate2",
+            "include_dir",
+            "indexmap",
+            "infer",
+            "itoa",
+            "lazy_static",
+            "libc",
+            "log",
+            "log4rs",
+            "nix",
+            "numeric-sort",
+            "regex",
+            "rmcp",
+            "rustix",
+            "schemars",
+            "serde",
+            "serde_json",
+            "strum",
+            "strum_macros",
+            "tar",
+            "tempfile",
+            "thiserror",
+            "tokio",
+            "vergen",
+            "versions"
+          ]
+        },
+        {
+          "path": "Dockerfile",
+          "sha": "c0422fbac53053a49d0f5bf8503cb1ceb94cb617",
+          "size": 2328,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "package.json",
+          "sha": "b7c66b7a31d7bd8178f56562c328511006925514",
+          "size": 1201,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@babel/preset-env",
+            "@babel/preset-react",
+            "@babel/preset-typescript",
+            "@cloudscape-design/components",
+            "@cloudscape-design/global-styles",
+            "@types/plotly.js",
+            "@types/react",
+            "@types/react-dom",
+            "@types/react-plotly.js",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "babel-loader",
+            "babel-plugin-react-compiler",
+            "css-loader",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-prettier",
+            "html-webpack-plugin",
+            "mini-css-extract-plugin",
+            "plotly.js",
+            "react",
+            "react-dom",
+            "react-markdown",
+            "react-plotly.js",
+            "typescript",
+            "webpack",
+            "webpack-cli",
+            "webpack-dev-server"
+          ]
+        },
+        {
+          "path": ".devcontainer/Dockerfile",
+          "sha": "72b0e9d19adc7be2bccea94fe4f61b2033c600ac",
+          "size": 1886,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T06:54:03+00:00"
     },
     "aws/api-models-aws": {
       "id": 925366947,
@@ -9304,12 +10173,55 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 10613,
+        "Shell": 832
+      },
+      "readme_url": "https://github.com/aws/api-models-aws/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "46003028d177f181569b708161e7856c96c0085c",
+      "readme_excerpt": "This repository contains Smithy models (in the interface definition language, set of code generators, and developer tools used to generate code for web services and",
+      "readme_headings": [
+        "AWS API Models",
+        "Directory Structure",
+        "Learn more",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "AWS API Models",
+          "excerpt": "This repository contains Smithy models (in the interface definition language, set of code generators, and developer tools used to generate code for web services and"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2198,
+      "manifest_paths": [
+        {
+          "path": "build.gradle.kts",
+          "sha": "7838175f18d10e9582d0d1faa85e7f5e66b03383",
+          "size": 2079,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "buildSrc/build.gradle.kts",
+          "sha": "f666ffb8407d219db1e03cec3c1f6a82a9edbbd4",
+          "size": 339,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:00:16+00:00"
     },
     "aws/apprunner-roadmap": {
       "id": 366496810,
@@ -9336,12 +10248,35 @@
         "containers"
       ],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws/apprunner-roadmap/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3cb23db42d0b754c2b9a90db2d548f9dadc6c606",
+      "readme_excerpt": "The documentation is made",
+      "readme_headings": [
+        "AWS App Runner Roadmap",
+        "License Summary"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "License Summary",
+          "excerpt": "The documentation is made"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 630,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:06:27+00:00"
     },
     "aws/audit-plugin-for-mysql": {
       "id": 491703714,
@@ -9371,12 +10306,57 @@
         "mysql-server"
       ],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 75199,
+        "C": 2677,
+        "CMake": 934
+      },
+      "readme_url": "https://github.com/aws/audit-plugin-for-mysql/blob/mysql-8.0/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a89c501a48ec417a4969830e251e76c2d0783ab5",
+      "readme_excerpt": "1. Place the file This plugin has been",
+      "readme_headings": [
+        "Audit Plugin for MySQL Server",
+        "Based on the MariaDB Audit Plugin",
+        "Compatibility",
+        "Compilation",
+        "Installation",
+        "Usage",
+        "Contributing"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "1. Place the file"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Compatibility",
+          "excerpt": "This plugin has been"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 3199,
+      "manifest_paths": [
+        {
+          "path": "plugin/server_audit/CMakeLists.txt",
+          "sha": "d9ac426b68b3318330b32c5e9ced8cd1cc9a90d7",
+          "size": 934,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:12:39+00:00"
     },
     "aws/autopkg-recipes": {
       "id": 519351563,
@@ -9402,12 +10382,39 @@
         "autopkg-recipes"
       ],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 4097
+      },
+      "readme_url": "https://github.com/aws/autopkg-recipes/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "675a8705b52cefd15607dc0a42bf2f65de272bd2",
+      "readme_excerpt": "See CONTRIBUTING for more",
+      "readme_headings": [
+        "ARCHIVED",
+        "AWS AutoPkg Recipes",
+        "Security",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Security",
+          "excerpt": "See CONTRIBUTING for more"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 479,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:18:51+00:00"
     },
     "aws/awesome-redshift": {
       "id": 610443383,
@@ -9430,12 +10437,68 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws/awesome-redshift/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d92ad7d1ee2050654c8a173e958abdaaac0ddb35",
+      "readme_excerpt": "*Redshift's internal architecture and *General resources for Redshift's",
+      "readme_headings": [
+        "Awesome Redshift [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)",
+        "General Workshops",
+        "Key Features",
+        "Amazon Redshift Serverless",
+        "Data Sharing",
+        "Data APIs",
+        "Federated Queries",
+        "Streaming Ingestion",
+        "Redshift Spectrum",
+        "User Defined Functions (UDFs)",
+        "Machine Learning (ML)",
+        "Performance Tuning",
+        "Connectors and Drivers",
+        "Operations",
+        "Integrations",
+        "[Pandas](https://pandas.pydata.org/)",
+        "[dbt](https://docs.getdbt.com/reference/resource-configs/redshift-configs)",
+        "[Grafana](https://grafana.com)",
+        "[Apache Airflow](https://airflow.apache.org/docs/apache-airflow-providers-amazon/stable/connections/redshift.html)",
+        "[SQLAlchemy](https://www.sqlalchemy.org/)",
+        "[Querybook](https://www.querybook.org/)",
+        "[AWS Glue](https://aws.amazon.com/glue/)",
+        "[Amazon Location Service](https://aws.amazon.com/location/)",
+        "Security and Authentication",
+        "General Security",
+        "Single Sign On (SSO)",
+        "Role Based Access Control (RBAC)",
+        "Row Level Security (RLS)",
+        "Encryption",
+        "Cost Optimization"
+      ],
+      "readme_sections": [
+        {
+          "category": "Architecture and design",
+          "heading": "Redshift Internals",
+          "excerpt": "*Redshift's internal architecture and"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "General Security",
+          "excerpt": "*General resources for Redshift's"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 20995,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:24:51+00:00"
     },
     "aws/aws-actiondispatch-dynamodb-ruby": {
       "id": 886837118,
@@ -9458,12 +10521,53 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Ruby": 13643,
+        "HTML": 1438
+      },
+      "readme_url": "https://github.com/aws/aws-actiondispatch-dynamodb-ruby/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "21131294d6c520adaed5160b6e699b7ac1c73f5c",
+      "readme_excerpt": "Add this gem to",
+      "readme_headings": [
+        "ActionDispatch Session Storage with Amazon DynamoDB",
+        "Installation",
+        "Usage",
+        "Configuration",
+        "Configuration file generator",
+        "Migration",
+        "ActiveRecord Migration generator",
+        "Migration Rake tasks",
+        "Cleaning old sessions"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "Add this gem to"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6277,
+      "manifest_paths": [
+        {
+          "path": "Gemfile",
+          "sha": "ac9ccc49b1d3b622406f3394fe0fe7538a439890",
+          "size": 653,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:30:51+00:00"
     },
     "aws/aws-actionmailbox-ses-ruby": {
       "id": 886835078,
@@ -9486,12 +10590,64 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Ruby": 38302,
+        "HTML": 1059
+      },
+      "readme_url": "https://github.com/aws/aws-actionmailbox-ses-ruby/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3541f57bc58a54657943a0cc427b0a264ba07334",
+      "readme_excerpt": "Add this gem to",
+      "readme_headings": [
+        "Amazon Simple Email Service (SES) as an ActionMailbox Ingress",
+        "Installation",
+        "Configuration",
+        "Amazon SES/SNS",
+        "Rails",
+        "Decrypting client-side-encrypted objects (SES with KMS)",
+        "config/initializers/action_mailbox_ses.rb",
+        "Mixed buckets (encrypted + unencrypted objects)",
+        "Testing",
+        "spec/rails_helper.rb",
+        "config/environments/test.rb",
+        "Example Usage",
+        "spec/requests/amazon_emails_spec.rb"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "Add this gem to"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6460,
+      "manifest_paths": [
+        {
+          "path": "Gemfile",
+          "sha": "6e072d3411a6e40e177a5ad9cfc1268e7dc0beb2",
+          "size": 977,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "spec/dummy/Gemfile",
+          "sha": "16a4c011d830e7db5d65bef1280e60c9a73bc559",
+          "size": 132,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:36:51+00:00"
     },
     "aws/aws-actionmailer-ses-ruby": {
       "id": 886834487,
@@ -9514,12 +10670,52 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Ruby": 27153,
+        "HTML": 1059
+      },
+      "readme_url": "https://github.com/aws/aws-actionmailer-ses-ruby/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "163236bde9e35a9e2206d6d829343ccecaad1dac",
+      "readme_excerpt": "Add this gem to",
+      "readme_headings": [
+        "ActionMailer delivery with Amazon Simple Email Service",
+        "Installation",
+        "Usage",
+        "SES API (v1)",
+        "SESV2 API",
+        "SendEmail Options (SESV2)",
+        "Using ARNs with SES",
+        "in your Rails controller"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "Add this gem to"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4569,
+      "manifest_paths": [
+        {
+          "path": "Gemfile",
+          "sha": "042b77975a28ef1ccc2c743bf5db38469688cefc",
+          "size": 506,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:42:51+00:00"
     },
     "aws/aws-activejob-sqs-ruby": {
       "id": 886836289,
@@ -9542,12 +10738,74 @@
       "open_issues": 11,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Ruby": 97898,
+        "HTML": 1059
+      },
+      "readme_url": "https://github.com/aws/aws-activejob-sqs-ruby/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c4f7291708a4cf6376afec74a11c98caecaabfc0",
+      "readme_excerpt": "Add this gem to",
+      "readme_headings": [
+        "ActiveJob with Amazon Simple Queue Service",
+        "Installation",
+        "Configuration",
+        "config/environments/production.rb",
+        "config/environments/production.rb",
+        "config/aws_active_job_sqs.yml",
+        "Restricting which job classes can run",
+        "config/aws_active_job_sqs.yml",
+        "Usage",
+        "To queue for immediate processing",
+        "or to schedule a job for a future time:",
+        "Retry Behavior and Handling Errors",
+        "Permanently-failed messages",
+        "Running workers - Polling for jobs",
+        "Running without Rails",
+        "Serverless workers: Processing jobs using AWS Lambda",
+        "Processing Jobs on Lambda Without Rails",
+        "Processing jobs on Lambda with Rails (Container Image)",
+        "app.rb",
+        "some custom config",
+        "Rails.config.custom....",
+        "Aws::ActiveJob::SQS.configure....",
+        "no need to write a handler yourself here, as long as",
+        "aws-sdk-rails is loaded, you can still use the",
+        "Aws::ActiveJob::SQS::LambdaHandler.job_handler",
+        "To use this file, set CMD:  app.Aws::ActiveJob::SQS::LambdaHandler.job_handler",
+        "Using FIFO queues",
+        "Message Deduplication ID",
+        "Or to set deduplication keys to exclude for a single job:",
+        "Message Group IDs"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "Add this gem to"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 18511,
+      "manifest_paths": [
+        {
+          "path": "Gemfile",
+          "sha": "7b810e5ec2f7219a45832c571ec0f9f3186d7fe0",
+          "size": 872,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:48:51+00:00"
     },
     "aws/aws-advanced-dotnet-data-provider-wrapper": {
       "id": 968237454,
@@ -9570,12 +10828,101 @@
       "open_issues": 10,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 2912568,
+        "Java": 241557,
+        "PowerShell": 4519,
+        "HTML": 3616
+      },
+      "readme_url": "https://github.com/aws/aws-advanced-dotnet-data-provider-wrapper/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "157fc9b90c2e8cb04e04aa83c3790488ab7e76bd",
+      "readme_excerpt": "Hosting a database cluster For installation, connection configuration, See CONTRIBUTING for more",
+      "readme_headings": [
+        "Amazon Web Services (AWS) Advanced .NET Data Provider Wrapper",
+        "About the AWS Advanced .NET Data Provider Wrapper",
+        "What is Failover?",
+        "Benefits of the AWS Advanced .NET Data Provider Wrapper",
+        "Enhanced Failure Monitoring",
+        "Using the AWS Advanced .NET Data Provider Wrapper with plain RDS databases",
+        "Getting Started",
+        "Security",
+        "License",
+        "Third Party License Acknowledgement"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "About the AWS Advanced .NET Data Provider Wrapper",
+          "excerpt": "Hosting a database cluster"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "For installation, connection configuration,"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Security",
+          "excerpt": "See CONTRIBUTING for more"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4765,
+      "manifest_paths": [
+        {
+          "path": "AwsWrapperDataProvider.sln",
+          "sha": "00a280ac1d999be25da7c58e548fed5e2a033d22",
+          "size": 11735,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "AwsWrapperDataProvider.Authentication/AwsWrapperDataProvider.Authentication.csproj",
+          "sha": "6f5ec4b70ab6f63c875ab63767768f7623e39cf7",
+          "size": 2378,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "AwsWrapperDataProvider.Benchmarks/AwsWrapperDataProvider.Benchmarks.csproj",
+          "sha": "b18d38b3ef1d66256c72a2944aba84344dcbb873",
+          "size": 590,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "AwsWrapperDataProvider.Dialect.MySqlClient/AwsWrapperDataProvider.Dialect.MySqlClient.csproj",
+          "sha": "5bbc7bbd13f4713aeaba8bd6f571fb169469c0ea",
+          "size": 2268,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "AwsWrapperDataProvider.Dialect.MySqlConnector/AwsWrapperDataProvider.Dialect.MySqlConnector.csproj",
+          "sha": "dd9c4db3a4140ac6b16b0baefceef8ae33631c39",
+          "size": 2298,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "AwsWrapperDataProvider.Dialect.Npgsql/AwsWrapperDataProvider.Dialect.Npgsql.csproj",
+          "sha": "a7f41c5257983ee953b4345f53077ce9ecb7e172",
+          "size": 2281,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T07:54:51+00:00"
     },
     "aws/aws-advanced-drivers": {
       "id": 827481542,
@@ -9598,12 +10945,49 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "SCSS": 1460,
+        "Shell": 1282,
+        "HTML": 1160,
+        "Ruby": 68
+      },
+      "readme_url": "https://github.com/aws/aws-advanced-drivers/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "847260ca5152a8bc296dc62b079cd4828de63e8a",
+      "readme_excerpt": "See CONTRIBUTING for more",
+      "readme_headings": [
+        "My Project",
+        "Security",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Security",
+          "excerpt": "See CONTRIBUTING for more"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 306,
+      "manifest_paths": [
+        {
+          "path": "Gemfile",
+          "sha": "5201d36814f72118dd1c6ed3ebf32cf8eb310768",
+          "size": 68,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:00:51+00:00"
     },
     "aws/aws-advanced-go-wrapper": {
       "id": 919551730,
@@ -9626,12 +11010,246 @@
       "open_issues": 10,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 2486784,
+        "Java": 176937,
+        "HTML": 37644
+      },
+      "readme_url": "https://github.com/aws/aws-advanced-go-wrapper/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1a374b6059d08eb500a00bbfbb286a3fd0f68894",
+      "readme_excerpt": "Hosting a database cluster For more information on",
+      "readme_headings": [
+        "Amazon Web Services (AWS) Advanced Go Wrapper",
+        "About the Wrapper",
+        "What is Failover?",
+        "Benefits of the AWS Advanced Go Wrapper",
+        "Enhanced Failure Monitoring",
+        "Using the AWS Advanced Go Wrapper with plain RDS databases",
+        "Getting Started",
+        "Documentation",
+        "Using the AWS Advanced Go Wrapper",
+        "Known Limitations",
+        "Amazon RDS Blue/Green Deployments",
+        "Getting Help and Opening Issues",
+        "How to Contribute",
+        "Releases",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "About the Wrapper",
+          "excerpt": "Hosting a database cluster"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "For more information on"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7123,
+      "manifest_paths": [
+        {
+          "path": ".test/go.mod",
+          "sha": "4ce4d9ff4db87d160b0ac4118790f9f8f7897110",
+          "size": 6355,
+          "content_status": "captured",
+          "dependency_hints": [
+            "filippo.io/edwards25519",
+            "github.com/PuerkitoBio/goquery",
+            "github.com/Shopify/toxiproxy",
+            "github.com/andybalholm/brotli",
+            "github.com/andybalholm/cascadia",
+            "github.com/aws/aws-advanced-go-wrapper/auth-helpers",
+            "github.com/aws/aws-advanced-go-wrapper/aws-secrets-manager",
+            "github.com/aws/aws-advanced-go-wrapper/awssql/v2",
+            "github.com/aws/aws-advanced-go-wrapper/bun-pg-driver",
+            "github.com/aws/aws-advanced-go-wrapper/custom-endpoint",
+            "github.com/aws/aws-advanced-go-wrapper/federated-auth",
+            "github.com/aws/aws-advanced-go-wrapper/iam",
+            "github.com/aws/aws-advanced-go-wrapper/mysql-driver",
+            "github.com/aws/aws-advanced-go-wrapper/okta",
+            "github.com/aws/aws-advanced-go-wrapper/otlp",
+            "github.com/aws/aws-advanced-go-wrapper/pgx-driver",
+            "github.com/aws/aws-advanced-go-wrapper/xray",
+            "github.com/aws/aws-sdk-go",
+            "github.com/aws/aws-sdk-go-v2",
+            "github.com/aws/aws-sdk-go-v2/config",
+            "github.com/aws/aws-sdk-go-v2/credentials",
+            "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "github.com/aws/aws-sdk-go-v2/feature/rds/auth",
+            "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "github.com/aws/aws-sdk-go-v2/internal/v4a",
+            "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "github.com/aws/aws-sdk-go-v2/service/rds",
+            "github.com/aws/aws-sdk-go-v2/service/secretsmanager",
+            "github.com/aws/aws-sdk-go-v2/service/signin",
+            "github.com/aws/aws-sdk-go-v2/service/sso",
+            "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+            "github.com/aws/aws-sdk-go-v2/service/sts",
+            "github.com/aws/aws-xray-sdk-go",
+            "github.com/aws/smithy-go",
+            "github.com/cenkalti/backoff/v5",
+            "github.com/cespare/xxhash/v2",
+            "github.com/clipperhouse/displaywidth",
+            "github.com/clipperhouse/uax29/v2",
+            "github.com/fatih/color",
+            "github.com/go-logr/logr",
+            "github.com/go-logr/stdr",
+            "github.com/go-sql-driver/mysql",
+            "github.com/golang/mock",
+            "github.com/google/uuid",
+            "github.com/grpc-ecosystem/grpc-gateway/v2",
+            "github.com/jackc/pgpassfile",
+            "github.com/jackc/pgservicefile",
+            "github.com/jackc/pgx/v5",
+            "github.com/jackc/puddle/v2",
+            "github.com/jinzhu/inflection",
+            "github.com/jmespath/go-jmespath",
+            "github.com/klauspost/compress",
+            "github.com/mattn/go-colorable",
+            "github.com/mattn/go-isatty",
+            "github.com/mattn/go-runewidth",
+            "github.com/nicksnyder/go-i18n/v2",
+            "github.com/olekukonko/cat",
+            "github.com/olekukonko/errors"
+          ]
+        },
+        {
+          "path": "auth-helpers/go.mod",
+          "sha": "782c9ff3550503d5eb086c4aff18d75101e5e101",
+          "size": 1280,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-advanced-go-wrapper/awssql/v2",
+            "github.com/aws/aws-sdk-go-v2",
+            "github.com/aws/aws-sdk-go-v2/config",
+            "github.com/aws/aws-sdk-go-v2/credentials",
+            "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "github.com/aws/aws-sdk-go-v2/feature/rds/auth",
+            "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "github.com/aws/aws-sdk-go-v2/internal/v4a",
+            "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "github.com/aws/aws-sdk-go-v2/service/rds",
+            "github.com/aws/aws-sdk-go-v2/service/signin",
+            "github.com/aws/aws-sdk-go-v2/service/sso",
+            "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+            "github.com/aws/aws-sdk-go-v2/service/sts",
+            "github.com/aws/smithy-go",
+            "github.com/nicksnyder/go-i18n/v2",
+            "golang.org/x/text"
+          ]
+        },
+        {
+          "path": "aws-secrets-manager/go.mod",
+          "sha": "9349935e574663fc5811d9f557367cce3473be79",
+          "size": 1548,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-advanced-go-wrapper/auth-helpers",
+            "github.com/aws/aws-advanced-go-wrapper/awssql/v2",
+            "github.com/aws/aws-sdk-go-v2",
+            "github.com/aws/aws-sdk-go-v2/config",
+            "github.com/aws/aws-sdk-go-v2/credentials",
+            "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "github.com/aws/aws-sdk-go-v2/feature/rds/auth",
+            "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "github.com/aws/aws-sdk-go-v2/internal/v4a",
+            "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "github.com/aws/aws-sdk-go-v2/service/rds",
+            "github.com/aws/aws-sdk-go-v2/service/secretsmanager",
+            "github.com/aws/aws-sdk-go-v2/service/signin",
+            "github.com/aws/aws-sdk-go-v2/service/sso",
+            "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+            "github.com/aws/aws-sdk-go-v2/service/sts",
+            "github.com/aws/smithy-go",
+            "github.com/nicksnyder/go-i18n/v2",
+            "golang.org/x/text"
+          ]
+        },
+        {
+          "path": "awssql/go.mod",
+          "sha": "b5aa9db1bffb33dc32d45eca0303b0513b666588",
+          "size": 148,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/nicksnyder/go-i18n/v2",
+            "golang.org/x/text"
+          ]
+        },
+        {
+          "path": "bun-pg-driver/go.mod",
+          "sha": "604326997dee26d4e05f5f00b119b73fb29347eb",
+          "size": 1030,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-advanced-go-wrapper/awssql/v2",
+            "github.com/cespare/xxhash/v2",
+            "github.com/jinzhu/inflection",
+            "github.com/nicksnyder/go-i18n/v2",
+            "github.com/puzpuzpuz/xsync/v3",
+            "github.com/stretchr/testify",
+            "github.com/tmthrgd/go-hex",
+            "github.com/uptrace/bun",
+            "github.com/uptrace/bun/driver/pgdriver",
+            "github.com/vmihailenco/msgpack/v5",
+            "github.com/vmihailenco/tagparser/v2",
+            "go.opentelemetry.io/otel",
+            "go.opentelemetry.io/otel/trace",
+            "go.yaml.in/yaml/v3",
+            "golang.org/x/crypto",
+            "golang.org/x/sys",
+            "golang.org/x/text",
+            "mellium.im/sasl"
+          ]
+        },
+        {
+          "path": "custom-endpoint/go.mod",
+          "sha": "2931dbd6de9f1dafb934f282174f6875de8843d9",
+          "size": 1459,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-advanced-go-wrapper/auth-helpers",
+            "github.com/aws/aws-advanced-go-wrapper/awssql/v2",
+            "github.com/aws/aws-sdk-go-v2",
+            "github.com/aws/aws-sdk-go-v2/config",
+            "github.com/aws/aws-sdk-go-v2/credentials",
+            "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "github.com/aws/aws-sdk-go-v2/feature/rds/auth",
+            "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "github.com/aws/aws-sdk-go-v2/internal/v4a",
+            "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "github.com/aws/aws-sdk-go-v2/service/rds",
+            "github.com/aws/aws-sdk-go-v2/service/signin",
+            "github.com/aws/aws-sdk-go-v2/service/sso",
+            "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+            "github.com/aws/aws-sdk-go-v2/service/sts",
+            "github.com/aws/smithy-go",
+            "github.com/nicksnyder/go-i18n/v2",
+            "golang.org/x/text"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:06:52+00:00"
     },
     "aws/aws-advanced-jdbc-wrapper": {
       "id": 507121102,
@@ -9654,12 +11272,118 @@
       "open_issues": 12,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 6576510,
+        "HTML": 37371,
+        "PLpgSQL": 4286,
+        "Kotlin": 3446,
+        "Shell": 1366,
+        "Dockerfile": 287
+      },
+      "readme_url": "https://github.com/aws/aws-advanced-jdbc-wrapper/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3190bb5f1faa0770cf28f62fc7de43f59b341772",
+      "readme_excerpt": "For more information on The plugin-based design ensures",
+      "readme_headings": [
+        "Amazon Web Services (AWS) JDBC Driver",
+        "Benefits of the AWS Advanced JDBC Wrapper for All Aurora and RDS Database Services",
+        "Seamless AWS Authentication Service Integration",
+        "Seamless Query Caching Integration",
+        "Preserve Existing Workflows",
+        "Modular Plugin Architecture",
+        "Benefits of the AWS Advanced JDBC Wrapper for Aurora PostgreSQL, Aurora MySQL, and RDS",
+        "Faster Failover and Reduced Downtime",
+        "Enhanced Failure Detection",
+        "Using the AWS Advanced JDBC Wrapper with...",
+        "Amazon Aurora PostgreSQL and Aurora MySQL",
+        "Amazon RDS Multi-AZ DB Clusters",
+        "Using the AWS Advanced JDBC Wrapper with Amazon Aurora Global Databases",
+        "Plain Amazon RDS databases",
+        "RDS Proxy",
+        "Getting Started",
+        "Maven Central",
+        "Configuring the Driver with AI Tools",
+        "Properties",
+        "Logging",
+        "Documentation",
+        "Using the AWS Advanced JDBC Wrapper",
+        "Known Limitations",
+        "MariaDB",
+        "Amazon RDS Blue/Green Deployments",
+        "Examples",
+        "Other AWS Advanced Wrapper Drivers",
+        "Getting Help and Opening Issues",
+        "How to Contribute",
+        "Code Style"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "For more information on"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Modular Plugin Architecture",
+          "excerpt": "The plugin-based design ensures"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 102524,
+      "manifest_paths": [
+        {
+          "path": "build.gradle.kts",
+          "sha": "b58c8b61a2ae21efba002456e8969ee325688208",
+          "size": 12027,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "benchmarks/build.gradle.kts",
+          "sha": "fdfb2232f8364682f36b5e077243660f335a23ac",
+          "size": 2338,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "buildSrc/build.gradle.kts",
+          "sha": "018837259149a54aa99946c44f53a059a5bdbfde",
+          "size": 1172,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "wrapper/build.gradle.kts",
+          "sha": "990d77ab28592bb7fab1a906e2c8120585ae09cd",
+          "size": 70983,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/AWSDriverExample/build.gradle.kts",
+          "sha": "41334b541342236c43349f414e9bcfe1038644a1",
+          "size": 2084,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/DBCPExample/build.gradle.kts",
+          "sha": "88f16e24f69ac460abac31459813b16047143a47",
+          "size": 939,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:12:52+00:00"
     },
     "aws/aws-advanced-nodejs-wrapper": {
       "id": 761426618,
@@ -9682,12 +11406,176 @@
       "open_issues": 14,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 1974323,
+        "Java": 170196,
+        "HTML": 41832,
+        "JavaScript": 14085
+      },
+      "readme_url": "https://github.com/aws/aws-advanced-nodejs-wrapper/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "cb0352c783b0c74126eada5dee72e8e05a5c4962",
+      "readme_excerpt": "Hosting a database cluster For more information on",
+      "readme_headings": [
+        "Amazon Web Services (AWS) Advanced NodeJS Wrapper",
+        "About the Wrapper",
+        "What is Failover?",
+        "Benefits of the AWS Advanced NodeJS Wrapper",
+        "Enhanced Failure Monitoring",
+        "Using the AWS Advanced NodeJS Wrapper with RDS Multi-AZ DB Clusters",
+        "Using the AWS Advanced NodeJS Wrapper with plain RDS databases",
+        "Getting Started",
+        "Documentation",
+        "Using the AWS Advanced NodeJS Wrapper",
+        "Known Limitations",
+        "Amazon RDS Blue/Green Deployments",
+        "Amazon Aurora Global Databases",
+        "Getting Help and Opening Issues",
+        "How to Contribute",
+        "Releases",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "About the Wrapper",
+          "excerpt": "Hosting a database cluster"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "For more information on"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 8440,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "9667fbc6e3fa35900e04516855b26a16faac8c13",
+          "size": 6288,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-sdk/client-rds",
+            "@aws-sdk/client-secrets-manager",
+            "@aws-sdk/client-sts",
+            "@aws-sdk/client-xray",
+            "@aws-sdk/credential-providers",
+            "@aws-sdk/rds-signer",
+            "@babel/cli",
+            "@babel/core",
+            "@babel/node",
+            "@opentelemetry/api",
+            "@opentelemetry/context-async-hooks",
+            "@opentelemetry/exporter-metrics-otlp-grpc",
+            "@opentelemetry/exporter-trace-otlp-grpc",
+            "@opentelemetry/id-generator-aws-xray",
+            "@opentelemetry/instrumentation-aws-sdk",
+            "@opentelemetry/instrumentation-http",
+            "@opentelemetry/propagator-aws-xray",
+            "@opentelemetry/resources",
+            "@opentelemetry/sdk-metrics",
+            "@opentelemetry/sdk-node",
+            "@opentelemetry/semantic-conventions",
+            "@smithy/types",
+            "@types/jest",
+            "@types/lodash",
+            "@types/node",
+            "@types/node-fetch",
+            "@types/pg",
+            "@types/tough-cookie",
+            "@typescript-eslint/eslint-plugin",
+            "ascii-table",
+            "async-mutex",
+            "aws-xray-sdk",
+            "axios",
+            "axios-cookiejar-support",
+            "babel-plugin-transform-rewrite-imports",
+            "benny",
+            "copyfiles",
+            "cross-env",
+            "dotenv",
+            "entities",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-plugin-header",
+            "eslint-plugin-prettier",
+            "generate-license-file",
+            "globals",
+            "http-cookie-agent",
+            "jest-html-reporter",
+            "libpg-query",
+            "lint-staged",
+            "mysql2",
+            "node-fetch",
+            "pg",
+            "prettier",
+            "querystring",
+            "rimraf",
+            "tough-cookie",
+            "toxiproxy-node-client",
+            "ts-jest",
+            "ts-mockito"
+          ]
+        },
+        {
+          "path": "examples/javascript_example/package.json",
+          "sha": "80808c11369fb9d024217a7a706a1cc2668c9519",
+          "size": 315,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-advanced-nodejs-wrapper",
+            "pg"
+          ]
+        },
+        {
+          "path": "examples/prisma_example/package.json",
+          "sha": "ae7bbfdbb0c37ef56cef5a882bf4eeb999930fbf",
+          "size": 528,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@prisma/client",
+            "@prisma/driver-adapter-utils",
+            "@types/node",
+            "aws-advanced-nodejs-wrapper",
+            "pg",
+            "prisma",
+            "tsx",
+            "typescript",
+            "util"
+          ]
+        },
+        {
+          "path": "examples/typescript_example/package.json",
+          "sha": "975dca20f575094e6ebf85a47d846fa131819709",
+          "size": 511,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/node",
+            "aws-advanced-nodejs-wrapper",
+            "mysql2",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "tests/integration/host/build.gradle.kts",
+          "sha": "bb63213b44e30f164e2c48e927b4398041c34931",
+          "size": 15842,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:18:51+00:00"
     },
     "aws/aws-advanced-odbc-wrapper": {
       "id": 1023848080,
@@ -9710,12 +11598,118 @@
       "open_issues": 11,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 1664104,
+        "Python": 52376,
+        "CMake": 50277,
+        "Shell": 18076,
+        "C": 17732,
+        "PowerShell": 9492,
+        "GDB": 294
+      },
+      "readme_url": "https://github.com/aws/aws-advanced-odbc-wrapper/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e79a5e51ecaad20cb44064b0b1bc721d8a3c56bb",
+      "readme_excerpt": "For more information on The plugin-based design ensures See CONTRIBUTING for more",
+      "readme_headings": [
+        "Amazon Web Services (AWS) Advanced ODBC Wrapper",
+        "Benefits of the AWS Advanced ODBC Wrapper for All Aurora and RDS Database Services",
+        "Seamless AWS Authentication Service Integration",
+        "Preserve Existing Workflows",
+        "Modular Plugin Architecture",
+        "Benefits of the AWS Advanced ODBC Wrapper for Aurora PostgreSQL",
+        "Faster Failover and Reduced Downtime",
+        "Getting Started",
+        "Documentation",
+        "Using the AWS Advanced ODBC Wrapper",
+        "Known Limitations",
+        "Amazon Aurora Global Databases",
+        "IAM-based Authentication with MySQL Connector/ODBC",
+        "Getting Help & Opening Issues",
+        "Contributing and Reporting Security Issues",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "For more information on"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Modular Plugin Architecture",
+          "excerpt": "The plugin-based design ensures"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Contributing and Reporting Security Issues",
+          "excerpt": "See CONTRIBUTING for more"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5222,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "1204ef29b06428913e6bc5dcca82946934a4803b",
+          "size": 6642,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "driver/CMakeLists.txt",
+          "sha": "5ef954d2193534293c8d5049ad145d85bec60dac",
+          "size": 20613,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "scripts/requirements.txt",
+          "sha": "934a67eaa54a8b1f67de5da792d12d1877793bcd",
+          "size": 73,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-advanced-python-wrapper",
+            "boto3",
+            "mysql-connector-python",
+            "psycopg"
+          ]
+        },
+        {
+          "path": "test/compatibility/CMakeLists.txt",
+          "sha": "ac99d05b87eb085f803a4e6f67737f08956087fb",
+          "size": 4576,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/compatibility/requirements.txt",
+          "sha": "9e9cff10b5dcb109396f0fec7752a0c189632b65",
+          "size": 323,
+          "content_status": "captured",
+          "dependency_hints": [
+            "deepdiff",
+            "orderly-set"
+          ]
+        },
+        {
+          "path": "test/integration/CMakeLists.txt",
+          "sha": "7b122e346c3d9e3da795584ba9fa12fa5e336e67",
+          "size": 6929,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:24:40+00:00"
     },
     "aws/aws-advanced-python-wrapper": {
       "id": 644880826,
@@ -9738,12 +11732,119 @@
       "open_issues": 20,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 4458771,
+        "Java": 178136,
+        "HTML": 29550
+      },
+      "readme_url": "https://github.com/aws/aws-advanced-python-wrapper/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2587072eb2f462a3c24653bf636fb01feabe16df",
+      "readme_excerpt": "Hosting a database cluster To start using the",
+      "readme_headings": [
+        "Amazon Web Services (AWS) Advanced Python Wrapper",
+        "About the Wrapper",
+        "What is Failover?",
+        "Benefits of the AWS Advanced Python Wrapper",
+        "Enhanced Failure Monitoring",
+        "Using the AWS Advanced Python Wrapper with plain RDS databases",
+        "Getting Started",
+        "Connection Properties",
+        "Using the AWS Advanced Python Wrapper",
+        "Known Limitations",
+        "Amazon RDS Blue/Green Deployments",
+        "Enhanced Failure Monitoring with MySQL",
+        "MySQL Connector/Python C Extension",
+        "MySQL Support for the IAM Authentication Plugin",
+        "Toxiproxy network failure behavior",
+        "Getting Help and Opening Issues",
+        "How to Contribute",
+        "Code Style",
+        "Releases",
+        "Aurora Engine Version Testing",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "About the Wrapper",
+          "excerpt": "Hosting a database cluster"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "To start using the"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 28844,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "f705d02be6b417f5b7be9371132c4cc0078aa940",
+          "size": 3740,
+          "content_status": "captured",
+          "dependency_hints": [
+            "SQLAlchemy",
+            "aiohttp",
+            "aiomysql",
+            "aws-xray-sdk",
+            "boto3",
+            "boto3-stubs",
+            "coverage",
+            "debugpy",
+            "django",
+            "django-stubs",
+            "flake8",
+            "flake8-type-checking",
+            "greenlet",
+            "isort",
+            "mypy",
+            "mysql-connector-python",
+            "opentelemetry-api",
+            "opentelemetry-exporter-otlp",
+            "opentelemetry-exporter-otlp-proto-grpc",
+            "opentelemetry-sdk",
+            "opentelemetry-sdk-extension-aws",
+            "parameterized",
+            "pep8-naming",
+            "psycopg",
+            "psycopg-binary",
+            "pydevd-pycharm",
+            "pytest",
+            "pytest-html",
+            "pytest-html-merger",
+            "pytest-mock",
+            "pytest-repeat",
+            "pytest-rerunfailures",
+            "pytest-timeout",
+            "requests",
+            "resourcebundle",
+            "tabulate",
+            "toml",
+            "toxiproxy-python",
+            "types-boto3",
+            "types_aws_xray_sdk"
+          ]
+        },
+        {
+          "path": "tests/integration/host/build.gradle.kts",
+          "sha": "c84e90f8e3b29c76ed36cb393113154b27ab75f9",
+          "size": 31116,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:30:15+00:00"
     },
     "aws/aws-advanced-ruby-driver-wrapper": {
       "id": 1233308150,
@@ -9766,12 +11867,89 @@
       "open_issues": 10,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Ruby": 3040428,
+        "Java": 297599,
+        "PLpgSQL": 2167
+      },
+      "readme_url": "https://github.com/aws/aws-advanced-ruby-driver-wrapper/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1c7da609a96ed2e0f52a7cdc82a26682f390a00c",
+      "readme_excerpt": "Hosting a database cluster Add this line to The plugin-based design ensures",
+      "readme_headings": [
+        "Amazon Web Services (AWS) Advanced Ruby Driver Wrapper",
+        "About the Wrapper",
+        "What is Failover?",
+        "Benefits of the AWS Advanced Ruby Driver Wrapper",
+        "Seamless AWS Authentication Service Integration",
+        "Modular Plugin Architecture",
+        "Preserve Existing Workflows",
+        "Installation",
+        "or",
+        "Getting Started",
+        "For MySQL with mysql2",
+        "For MySQL with trilogy",
+        "For PostgreSQL",
+        "MySQL (use aws_trilogy with the trilogy driver)",
+        "PostgreSQL",
+        "Configuring the Wrapper with AI Tools",
+        "Quick start",
+        "Example prompts",
+        "Troubleshooting the Wrapper with AI Tools",
+        "Documentation",
+        "Known Limitations",
+        "Trilogy MySQL Driver",
+        "Amazon RDS Blue/Green Deployments",
+        "Getting Help and Opening Issues",
+        "How to Contribute",
+        "Other AWS Advanced Wrapper Drivers",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "About the Wrapper",
+          "excerpt": "Hosting a database cluster"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "Add this line to"
+        },
+        {
+          "category": "Architecture and design",
+          "heading": "Modular Plugin Architecture",
+          "excerpt": "The plugin-based design ensures"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 22587,
+      "manifest_paths": [
+        {
+          "path": "Gemfile",
+          "sha": "bc0082934774f05c1ff6b6d2f26a724a90a8b51c",
+          "size": 1574,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "spec/integration/host/build.gradle.kts",
+          "sha": "0dafd1ee66a7b895faf5bade607ab0056e784145",
+          "size": 39475,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:35:51+00:00"
     },
     "aws/aws-advanced-wrapper-docs": {
       "id": 1366642691,
@@ -9794,12 +11972,74 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jinja": 94351,
+        "JavaScript": 53965,
+        "Python": 37739,
+        "CSS": 8099
+      },
+      "readme_url": "https://github.com/aws/aws-advanced-wrapper-docs/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1c9226bd09745518161698a743ef54d950e2e7bf",
+      "readme_excerpt": "A single documentation site for the **AWS Advanced Wrapper** family. The AWS Advanced Wrappers are companion drivers, in several languages and database connectivity standards, that",
+      "readme_headings": [
+        "AWS Advanced Wrapper Docs",
+        "Read the docs",
+        "How the docs are organized",
+        "Wrappers",
+        "Documented on this site",
+        "Documented in their own repositories",
+        "Getting help",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Introduction",
+          "heading": "AWS Advanced Wrapper Docs",
+          "excerpt": "A single documentation site for the **AWS Advanced Wrapper** family. The AWS Advanced Wrappers are companion drivers, in several languages and database connectivity standards, that"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6099,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "48fc4933208644c62df9de1ffb13d671839614c6",
+          "size": 28,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Jinja2",
+            "PyYAML"
+          ]
+        },
+        {
+          "path": "site/package.json",
+          "sha": "6fba62113defc4674c1e10e9f87487bea5f86cf8",
+          "size": 678,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@docusaurus/core",
+            "@docusaurus/preset-classic",
+            "@docusaurus/theme-mermaid",
+            "@mdx-js/react",
+            "@mermaid-js/layout-elk",
+            "clsx",
+            "prism-react-renderer",
+            "react",
+            "react-dom"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:41:27+00:00"
     },
     "aws/aws-app-mesh-controller-for-k8s": {
       "id": 174389100,
@@ -9822,12 +12062,152 @@
       "open_issues": 77,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 2361439,
+        "Shell": 40100,
+        "Makefile": 4664,
+        "Dockerfile": 3498,
+        "Go Template": 3210,
+        "Python": 3052,
+        "Mustache": 2405
+      },
+      "readme_url": "https://github.com/aws/aws-app-mesh-controller-for-k8s/blob/master/docs/README.md",
+      "readme_path": "docs/README.md",
+      "readme_sha": "6c89eb7df9af9aecefbee59bff735ea9e788fdee",
+      "readme_excerpt": "If you think you’ve",
+      "readme_headings": [
+        "AWS App Mesh Controller For K8s",
+        "Security disclosures",
+        "Documentation"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Security disclosures",
+          "excerpt": "If you think you’ve"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2062,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "fb7fc8ad6c53da07df7f13756a748b3af04e78c4",
+          "size": 1210,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "go.mod",
+          "sha": "7fba9e22279b48c1d683e8a0c118e36b0067f48c",
+          "size": 7929,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/AdaLogics/go-fuzz-headers",
+            "github.com/Azure/go-ansiterm",
+            "github.com/BurntSushi/toml",
+            "github.com/MakeNowJust/heredoc",
+            "github.com/Masterminds/goutils",
+            "github.com/Masterminds/semver/v3",
+            "github.com/Masterminds/sprig/v3",
+            "github.com/Masterminds/squirrel",
+            "github.com/asaskevich/govalidator",
+            "github.com/aws/aws-sdk-go",
+            "github.com/beorn7/perks",
+            "github.com/blang/semver/v4",
+            "github.com/cespare/xxhash/v2",
+            "github.com/chai2010/gettext-go",
+            "github.com/containerd/containerd",
+            "github.com/containerd/errdefs",
+            "github.com/containerd/log",
+            "github.com/containerd/platforms",
+            "github.com/cyphar/filepath-securejoin",
+            "github.com/davecgh/go-spew",
+            "github.com/distribution/reference",
+            "github.com/docker/cli",
+            "github.com/docker/distribution",
+            "github.com/docker/docker",
+            "github.com/docker/docker-credential-helpers",
+            "github.com/docker/go-connections",
+            "github.com/docker/go-metrics",
+            "github.com/emicklei/go-restful/v3",
+            "github.com/evanphx/json-patch",
+            "github.com/evanphx/json-patch/v5",
+            "github.com/exponent-io/jsonpath",
+            "github.com/fatih/color",
+            "github.com/felixge/httpsnoop",
+            "github.com/fsnotify/fsnotify",
+            "github.com/fxamacker/cbor/v2",
+            "github.com/go-errors/errors",
+            "github.com/go-gorp/gorp/v3",
+            "github.com/go-logr/logr",
+            "github.com/go-logr/stdr",
+            "github.com/go-logr/zapr",
+            "github.com/go-openapi/jsonpointer",
+            "github.com/go-openapi/jsonreference",
+            "github.com/go-openapi/swag",
+            "github.com/go-task/slim-sprig/v3",
+            "github.com/gobwas/glob",
+            "github.com/gogo/protobuf",
+            "github.com/golang/mock",
+            "github.com/golang/protobuf",
+            "github.com/google/btree",
+            "github.com/google/gnostic-models",
+            "github.com/google/go-cmp",
+            "github.com/google/gofuzz",
+            "github.com/google/pprof",
+            "github.com/google/shlex",
+            "github.com/google/uuid",
+            "github.com/gorilla/mux",
+            "github.com/gorilla/websocket",
+            "github.com/gosuri/uitable",
+            "github.com/gregjones/httpcache",
+            "github.com/hashicorp/errwrap"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "387aff38c77c060cdb260408ba24953495d45afa",
+          "size": 4664,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "config/helm/appmesh-controller/Chart.yaml",
+          "sha": "b13528db6fcd718ba67b7bf695dda85f54fead0c",
+          "size": 447,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/integration/test_app/backend/Dockerfile",
+          "sha": "03978283a04e46aa86bfe765ccd41a910726845e",
+          "size": 202,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/integration/test_app/backend/requirements.txt",
+          "sha": "8a7e54ec144270a6f810e6d57363bc4036112507",
+          "size": 36,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-xray-sdk",
+            "flask",
+            "gunicorn"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:47:04+00:00"
     },
     "aws/aws-app-mesh-examples": {
       "id": 158870838,
@@ -9854,12 +12234,113 @@
         "service-mesh"
       ],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 396686,
+        "Go": 92992,
+        "Python": 67325,
+        "Dockerfile": 56706,
+        "Ruby": 34084,
+        "JavaScript": 13230,
+        "HTML": 10364,
+        "TypeScript": 8225,
+        "Mustache": 3654,
+        "SCSS": 747,
+        "Makefile": 652,
+        "CSS": 322
+      },
+      "readme_url": "https://github.com/aws/aws-app-mesh-examples/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2ff19f05b0bd42741e5649260fd74c66541c4030",
+      "readme_excerpt": "*After careful consideration, we For help getting started If you think you’ve",
+      "readme_headings": [
+        "AWS App Mesh",
+        "Introduction",
+        "Availability",
+        "Getting started",
+        "ARM64 support",
+        "China Regions",
+        "Roadmap",
+        "Participate",
+        "Security disclosures",
+        "Why use  App Mesh?",
+        "What makes AWS App Mesh unique?"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "*After careful consideration, we"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting started",
+          "excerpt": "For help getting started"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Security disclosures",
+          "excerpt": "If you think you’ve"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 6921,
+      "manifest_paths": [
+        {
+          "path": "blogs/ecs-canary-deployments-pipeline/Makefile",
+          "sha": "ab1c6f65c2a4c59eb39465f54a73902b10bb37e2",
+          "size": 652,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "blogs/ecs-canary-deployments-pipeline/requirements.txt",
+          "sha": "09626d733395af3f59cdfc83a4b25e88913d76ed",
+          "size": 14,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "botocore"
+          ]
+        },
+        {
+          "path": "blogs/eks-multi-account-spire/Dockerfile",
+          "sha": "5634e398a617debde8066a882dd1f7a462ce646f",
+          "size": 182,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "walkthroughs/howto-grpc-ingress-gateway/Dockerfile",
+          "sha": "b8a9518ec4da95d8c600cf14866e6273a3a97907",
+          "size": 597,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "walkthroughs/howto-k8s-grpc-ingress-v2/Dockerfile",
+          "sha": "7badb75ffbc29762939281a1740d8abf04862a3d",
+          "size": 610,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "blogs/eks-bulkhead-pattern-circuit-breaker/price-app/Dockerfile",
+          "sha": "a4a66537436f04f6931616f67754491da1b1d1fb",
+          "size": 336,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:52:40+00:00"
     },
     "aws/aws-app-mesh-roadmap": {
       "id": 177869502,
@@ -9882,12 +12363,45 @@
       "open_issues": 161,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/aws/aws-app-mesh-roadmap/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c5732407f483b0a22c9501f2619e7c4bbbbad640",
+      "readme_excerpt": "This is the experimental If you think you’ve",
+      "readme_headings": [
+        "AWS App Mesh Roadmap",
+        "Introduction",
+        "Beta Channel",
+        "Slack Community",
+        "Security disclosures",
+        "FAQs",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "This is the experimental"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Security disclosures",
+          "excerpt": "If you think you’ve"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 4982,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T08:58:03+00:00"
     },
     "aws/aws-application-networking-k8s": {
       "id": 561149177,
@@ -9910,12 +12424,249 @@
       "open_issues": 84,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 2450178,
+        "Shell": 36493,
+        "Makefile": 10927,
+        "Go Template": 6476,
+        "Dockerfile": 1052
+      },
+      "readme_url": "https://github.com/aws/aws-application-networking-k8s/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "94e44a4c31bb5bf6b910b3a518f9c052d13dff41",
+      "readme_excerpt": "Once you have a See CONTRIBUTING for more",
+      "readme_headings": [
+        "Amazon VPC Lattice Gateway API Controller",
+        "Documentation",
+        "Website",
+        "Concepts",
+        "Getting started",
+        "References",
+        "Contributing",
+        "Code of conduct",
+        "Security",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting started",
+          "excerpt": "Once you have a"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Security",
+          "excerpt": "See CONTRIBUTING for more"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 2252,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "27e673a9b60453d09930c488079b87fc4d2f2eea",
+          "size": 1052,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "go.mod",
+          "sha": "4749cef9d784e200d986bb5db88b9b486bee306f",
+          "size": 4894,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-sdk-go-v2",
+            "github.com/aws/aws-sdk-go-v2/config",
+            "github.com/aws/aws-sdk-go-v2/credentials",
+            "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "github.com/aws/aws-sdk-go-v2/internal/ini",
+            "github.com/aws/aws-sdk-go-v2/service/acm",
+            "github.com/aws/aws-sdk-go-v2/service/ec2",
+            "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "github.com/aws/aws-sdk-go-v2/service/resourcegroupstaggingapi",
+            "github.com/aws/aws-sdk-go-v2/service/sso",
+            "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+            "github.com/aws/aws-sdk-go-v2/service/sts",
+            "github.com/aws/aws-sdk-go-v2/service/vpclattice",
+            "github.com/aws/smithy-go",
+            "github.com/beorn7/perks",
+            "github.com/cespare/xxhash/v2",
+            "github.com/davecgh/go-spew",
+            "github.com/emicklei/go-restful/v3",
+            "github.com/evanphx/json-patch/v5",
+            "github.com/fsnotify/fsnotify",
+            "github.com/fxamacker/cbor/v2",
+            "github.com/go-logr/logr",
+            "github.com/go-logr/zapr",
+            "github.com/go-openapi/jsonpointer",
+            "github.com/go-openapi/jsonreference",
+            "github.com/go-openapi/swag",
+            "github.com/go-openapi/swag/cmdutils",
+            "github.com/go-openapi/swag/conv",
+            "github.com/go-openapi/swag/fileutils",
+            "github.com/go-openapi/swag/jsonname",
+            "github.com/go-openapi/swag/jsonutils",
+            "github.com/go-openapi/swag/loading",
+            "github.com/go-openapi/swag/mangling",
+            "github.com/go-openapi/swag/netutils",
+            "github.com/go-openapi/swag/stringutils",
+            "github.com/go-openapi/swag/typeutils",
+            "github.com/go-openapi/swag/yamlutils",
+            "github.com/gogo/protobuf",
+            "github.com/google/btree",
+            "github.com/google/gnostic-models",
+            "github.com/google/go-cmp",
+            "github.com/google/uuid",
+            "github.com/hashicorp/golang-lru/v2",
+            "github.com/josharian/intern",
+            "github.com/json-iterator/go",
+            "github.com/mailru/easyjson",
+            "github.com/modern-go/concurrent",
+            "github.com/modern-go/reflect2",
+            "github.com/munnerz/goautoneg",
+            "github.com/nxadm/tail",
+            "github.com/onsi/ginkgo",
+            "github.com/onsi/gomega",
+            "github.com/pkg/errors",
+            "github.com/pmezard/go-difflib",
+            "github.com/prometheus/client_golang",
+            "github.com/prometheus/client_model",
+            "github.com/prometheus/common"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "5469c8280f67180cc183d5beeedea992665db85c",
+          "size": 10927,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "1e030940ac7f420d240f05b74ee46da4e7070425",
+          "size": 511,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Babel",
+            "Jinja2",
+            "Markdown",
+            "MarkupSafe",
+            "PyYAML",
+            "Pygments",
+            "certifi",
+            "charset-normalizer",
+            "click",
+            "colorama",
+            "ghp-import",
+            "idna",
+            "mergedeep",
+            "mike",
+            "mkdocs",
+            "mkdocs-material",
+            "mkdocs-material-extensions",
+            "packaging",
+            "paginate",
+            "pathspec",
+            "platformdirs",
+            "pymdown-extensions",
+            "python-dateutil",
+            "pyyaml_env_tag",
+            "regex",
+            "requests",
+            "six",
+            "urllib3",
+            "watchdog"
+          ]
+        },
+        {
+          "path": "helm/Chart.yaml",
+          "sha": "a3ee7facac10b315e4bed3a3b9cf1c1c08c9eb36",
+          "size": 587,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/go.mod",
+          "sha": "74c2004a863fca4d55f09cf7b36e1e7228faf2d7",
+          "size": 6452,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/Masterminds/semver/v3",
+            "github.com/Pallinder/go-randomdata",
+            "github.com/aws/aws-application-networking-k8s",
+            "github.com/aws/aws-sdk-go-v2",
+            "github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream",
+            "github.com/aws/aws-sdk-go-v2/config",
+            "github.com/aws/aws-sdk-go-v2/credentials",
+            "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "github.com/aws/aws-sdk-go-v2/internal/ini",
+            "github.com/aws/aws-sdk-go-v2/internal/v4a",
+            "github.com/aws/aws-sdk-go-v2/service/acm",
+            "github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs",
+            "github.com/aws/aws-sdk-go-v2/service/ec2",
+            "github.com/aws/aws-sdk-go-v2/service/firehose",
+            "github.com/aws/aws-sdk-go-v2/service/iam",
+            "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "github.com/aws/aws-sdk-go-v2/service/internal/checksum",
+            "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "github.com/aws/aws-sdk-go-v2/service/internal/s3shared",
+            "github.com/aws/aws-sdk-go-v2/service/ram",
+            "github.com/aws/aws-sdk-go-v2/service/resourcegroupstaggingapi",
+            "github.com/aws/aws-sdk-go-v2/service/route53",
+            "github.com/aws/aws-sdk-go-v2/service/s3",
+            "github.com/aws/aws-sdk-go-v2/service/signin",
+            "github.com/aws/aws-sdk-go-v2/service/sso",
+            "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+            "github.com/aws/aws-sdk-go-v2/service/sts",
+            "github.com/aws/aws-sdk-go-v2/service/vpclattice",
+            "github.com/aws/smithy-go",
+            "github.com/beorn7/perks",
+            "github.com/cespare/xxhash/v2",
+            "github.com/davecgh/go-spew",
+            "github.com/emicklei/go-restful/v3",
+            "github.com/evanphx/json-patch",
+            "github.com/evanphx/json-patch/v5",
+            "github.com/fsnotify/fsnotify",
+            "github.com/fxamacker/cbor/v2",
+            "github.com/go-logr/logr",
+            "github.com/go-logr/zapr",
+            "github.com/go-openapi/jsonpointer",
+            "github.com/go-openapi/jsonreference",
+            "github.com/go-openapi/swag",
+            "github.com/go-openapi/swag/cmdutils",
+            "github.com/go-openapi/swag/conv",
+            "github.com/go-openapi/swag/fileutils",
+            "github.com/go-openapi/swag/jsonname",
+            "github.com/go-openapi/swag/jsonutils",
+            "github.com/go-openapi/swag/loading",
+            "github.com/go-openapi/swag/mangling",
+            "github.com/go-openapi/swag/netutils",
+            "github.com/go-openapi/swag/stringutils",
+            "github.com/go-openapi/swag/typeutils",
+            "github.com/go-openapi/swag/yamlutils",
+            "github.com/go-task/slim-sprig/v3",
+            "github.com/google/btree",
+            "github.com/google/gnostic-models",
+            "github.com/google/go-cmp",
+            "github.com/google/pprof"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:03:28+00:00"
     },
     "aws/aws-appsync-community": {
       "id": 172143182,
@@ -9944,12 +12695,75 @@
         "realtime"
       ],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 174
+      },
+      "readme_url": "https://github.com/aws/aws-appsync-community/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "44db6bb2b6fd71edc5c045ee745576beafc4759f",
+      "readme_excerpt": "Scalable Offline-Ready GraphQL Applications",
+      "readme_headings": [
+        "AWS AppSync",
+        "AppSync GraphQL Clients",
+        "Documentation",
+        "Tutorials - Blogs",
+        "General",
+        "VTL",
+        "AWS Amplify",
+        "React",
+        "React Native",
+        "Native Android",
+        "Vue",
+        "Angular",
+        "Serverless Framework",
+        "SST",
+        "Infrastructure as Code",
+        "Performance and Monitoring",
+        "Tutorials - Videos",
+        "Miscellaneous Videos",
+        "News",
+        "Example Projects",
+        "Relay Modern",
+        "React Native",
+        "React",
+        "Angular",
+        "Vue",
+        "Native iOS",
+        "Native Android",
+        "Other",
+        "Tooling",
+        "Go"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Tutorials - Videos",
+          "excerpt": "Scalable Offline-Ready GraphQL Applications"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 13905,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "b2a422f3f81cf4a7d0cdd1bfa4b844e9eb95ac7e",
+          "size": 699,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@11ty/eleventy"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:08:39+00:00"
     },
     "aws/aws-aspnet-cognito-identity-provider": {
       "id": 151462119,
@@ -9978,12 +12792,81 @@
         "cognito-user-pool"
       ],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 243158
+      },
+      "readme_url": "https://github.com/aws/aws-aspnet-cognito-identity-provider/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f04ee5bea0f67881955fd93c5861d1e242ada574",
+      "readme_excerpt": "Follow the examples below",
+      "readme_headings": [
+        "ASP.NET Core Identity Provider for Amazon Cognito",
+        "Getting Started",
+        "Referencing the library",
+        "Adding Amazon Cognito as an Identity Provider",
+        "Using the CognitoUser class as your web application user class",
+        "Explore the documentation and sample application",
+        "Getting Help",
+        "Contributing",
+        "Additional Resources",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "Follow the examples below"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 8262,
+      "manifest_paths": [
+        {
+          "path": "Amazon.AspNetCore.Identity.Cognito.sln",
+          "sha": "c956b220f03e9b2f6b31f55ce86f4c8b3177d652",
+          "size": 2083,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/Samples.sln",
+          "sha": "0383c5b328cf48511709d2de49eccc3c5035c8a7",
+          "size": 1659,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "samples/Samples/Samples.csproj",
+          "sha": "a3e236fd3175bb6776188aaaf2edf8550fc60dda",
+          "size": 574,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/Amazon.AspNetCore.Identity.Cognito/Amazon.AspNetCore.Identity.Cognito.csproj",
+          "sha": "a83cdbf88523e3e4d7a03ce6da15769c8543ca45",
+          "size": 3348,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/unit/Amazon.AspNetCore.Identity.Cognito.Tests/Amazon.AspNetCore.Identity.Cognito.Tests.csproj",
+          "sha": "51dddea848d5254495268238b5ee8b1a173649c1",
+          "size": 783,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:13:52+00:00"
     },
     "aws/aws-auto-scaling-custom-resource": {
       "id": 134911404,
@@ -10011,12 +12894,76 @@
         "custom-resources"
       ],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 6551,
+        "Shell": 1748,
+        "Dockerfile": 532,
+        "HTML": 117
+      },
+      "readme_url": "https://github.com/aws/aws-auto-scaling-custom-resource/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "af6d3f530fec12d8ca4e9b7bcff3e63890864cb8",
+      "readme_excerpt": "This sample code is This *aws-auto-scaling-custom-resource* repository contains Before you begin, verify",
+      "readme_headings": [
+        "Getting Started with Application Auto Scaling Custom Resources",
+        "Audience",
+        "AWS Services Used",
+        "Regional Availability",
+        "First Steps",
+        "Set Up the AWS Serverless Functions",
+        "Step 1: Test Your REST Endpoint URL",
+        "Step 2: Launch the CloudFormation Stack",
+        "Step 3: Gather the Stack's Output",
+        "Step 4: (Optional) Configure Backend Authentication",
+        "Step 5: Test the Endpoint Integration",
+        "Configure Automatic Scaling",
+        "Prerequisites",
+        "Step 1: Register Your Scalable Target",
+        "Step 2: Create a Target Tracking Scaling Policy",
+        "Step 3: Trigger the Scaling Policy Using a Bash Script",
+        "Step 4: View the Scaling Activities",
+        "Step 5: Deregister the Scalable Target",
+        "Documentation",
+        "License Summary"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "License Summary",
+          "excerpt": "This sample code is"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started with Application Auto Scaling Custom Resources",
+          "excerpt": "This *aws-auto-scaling-custom-resource* repository contains"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Prerequisites",
+          "excerpt": "Before you begin, verify"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 23696,
+      "manifest_paths": [
+        {
+          "path": "sample-api-server/api_home/Dockerfile",
+          "sha": "a8025c0e59113d7a8e75fdeff9103db196875ebb",
+          "size": 532,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:18:51+00:00"
     },
     "aws/aws-bedrock-token-generator-java": {
       "id": 1007229125,
@@ -10039,12 +12986,101 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 23707
+      },
+      "readme_url": "https://github.com/aws/aws-bedrock-token-generator-java/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a7bfd35e0712641487c3489995b4dbd67a693363",
+      "readme_excerpt": "NOTE - You may **Java**: 8 or later **Token Expiration**: The token",
+      "readme_headings": [
+        "AWS Bedrock Token Generator for Java",
+        "Installation",
+        "Maven",
+        "Gradle",
+        "Quick Start",
+        "Usage 1 - Using Default Providers",
+        "Usage 2 - Passing in Provider and Region",
+        "Usage 3 - creating token using static method by passing Credentials, Region, and Expiry (Optional)",
+        "API Reference",
+        "BedrockTokenGenerator",
+        "Static Method: `getToken(AwsCredentials credentials, Region region, Duration expiry)`",
+        "Builder Pattern: `builder()`",
+        "Token Format",
+        "Security Considerations",
+        "Requirements",
+        "Examples",
+        "Complete Example with Error Handling",
+        "Using with Different Credential Providers",
+        "Using Builder with Different Configurations",
+        "Building from Source",
+        "Clone the repository",
+        "Build with Maven",
+        "Run tests",
+        "Create JAR",
+        "Contributing",
+        "Development Setup",
+        "Support",
+        "License",
+        "Related Projects",
+        "Changelog"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Quick Start",
+          "excerpt": "NOTE - You may"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "**Java**: 8 or later"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Security Considerations",
+          "excerpt": "**Token Expiration**: The token"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 10626,
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "3980b9be861fec552bd83a788ff51ea60b1dead3",
+          "size": 7252,
+          "content_status": "captured",
+          "dependency_hints": [
+            "auth",
+            "aws-bedrock-token-generator",
+            "central-publishing-maven-plugin",
+            "http-auth-aws",
+            "http-auth-spi",
+            "http-client-spi",
+            "junit-jupiter-api",
+            "junit-jupiter-engine",
+            "junit-jupiter-params",
+            "maven-compiler-plugin",
+            "maven-gpg-plugin",
+            "maven-javadoc-plugin",
+            "maven-source-plugin",
+            "maven-surefire-plugin",
+            "mockito-core",
+            "mockito-junit-jupiter",
+            "regions"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:23:39+00:00"
     },
     "aws/aws-bedrock-token-generator-js": {
       "id": 1007231538,
@@ -10067,12 +13103,109 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 35062,
+        "JavaScript": 506
+      },
+      "readme_url": "https://github.com/aws/aws-bedrock-token-generator-js/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "8e1282cbf51f81a01170cb26ca35e4b83378c5cc",
+      "readme_excerpt": "✅ **Simple API**: Async npm install @aws/bedrock-token-generator **Node.js**: 16.0.0 or later **Token Expiration**: The token",
+      "readme_headings": [
+        "AWS Bedrock Token Generator for JavaScript/TypeScript",
+        "Features",
+        "Installation",
+        "Quick Start",
+        "Using Token Provider with Default Credential and Region Provider",
+        "Using Token Provider with Credential Provider and Region",
+        "Using Token Provider with Specific Credentials, Region and Expiry",
+        "Using Stateless Function with Specific Credentials, Region and Expiry",
+        "API Reference",
+        "Token Format",
+        "Security Considerations",
+        "Requirements",
+        "Development",
+        "Setting up Development Environment",
+        "Clone the repository",
+        "Install dependencies",
+        "Build the project",
+        "Run tests",
+        "Running Tests",
+        "Run all tests",
+        "Run tests in watch mode",
+        "Run linter",
+        "Format code",
+        "Contributing",
+        "Development Workflow",
+        "Support",
+        "License",
+        "Related Projects",
+        "Changelog"
+      ],
+      "readme_sections": [
+        {
+          "category": "Features and capabilities",
+          "heading": "Features",
+          "excerpt": "✅ **Simple API**: Async"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "Installation",
+          "excerpt": "npm install @aws/bedrock-token-generator"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "**Node.js**: 16.0.0 or later"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Security Considerations",
+          "excerpt": "**Token Expiration**: The token"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 7698,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "7b9234f7528b57da5cdeeb7c8324f4bce6ef0e2b",
+          "size": 2089,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-sdk/credential-providers",
+            "@aws-sdk/util-format-url",
+            "@smithy/config-resolver",
+            "@smithy/hash-node",
+            "@smithy/invalid-dependency",
+            "@smithy/node-config-provider",
+            "@smithy/protocol-http",
+            "@smithy/signature-v4",
+            "@smithy/types",
+            "@types/jest",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "eslint",
+            "jest",
+            "prettier",
+            "ts-jest",
+            "typedoc",
+            "typedoc-plugin-markdown",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:28:27+00:00"
     },
     "aws/aws-bedrock-token-generator-python": {
       "id": 1005222844,
@@ -10095,12 +13228,90 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 27671
+      },
+      "readme_url": "https://github.com/aws/aws-bedrock-token-generator-python/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "135ac963d5d8b74a16342856bebf63b813b934f5",
+      "readme_excerpt": "pip install -e .[dev] **Python**: 3.7 or later **Token Expiration**: The token",
+      "readme_headings": [
+        "AWS Bedrock Token Generator for Python",
+        "Installation",
+        "Using pip",
+        "From source",
+        "Quick Start",
+        "Basic Usage",
+        "Create token with no parameters, uses default region, credentials and token expiry time (1 hour) #####",
+        "Create token using EnvProvider credentials provider #####",
+        "Create token with AssumeRole credentials provider #####",
+        "Token Format",
+        "Security Considerations",
+        "Requirements",
+        "Development",
+        "Setting up Development Environment",
+        "Clone the repository",
+        "Install in development mode with dev dependencies",
+        "Running Tests",
+        "Run all tests",
+        "Run tests with coverage",
+        "Run tests with verbose output",
+        "Code Quality",
+        "Format code with black",
+        "Check code style with flake8",
+        "Type checking with mypy",
+        "Building Distribution",
+        "Build wheel and source distribution",
+        "Install from local build",
+        "Contributing",
+        "Development Workflow",
+        "Support"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Install in development mode with dev dependencies",
+          "excerpt": "pip install -e .[dev]"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Requirements",
+          "excerpt": "**Python**: 3.7 or later"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Security Considerations",
+          "excerpt": "**Token Expiration**: The token"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5961,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "57a500db916e875f7845d615059eff72f18a1bbd",
+          "size": 2129,
+          "content_status": "captured",
+          "dependency_hints": [
+            "black",
+            "botocore",
+            "flake8",
+            "mypy",
+            "pytest",
+            "pytest-cov"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:33:15+00:00"
     },
     "aws/aws-cdi-sdk": {
       "id": 292408464,
@@ -10123,12 +13334,113 @@
       "open_issues": 8,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 2409883,
+        "C++": 106412,
+        "Makefile": 28028,
+        "PowerShell": 8337,
+        "Batchfile": 4142,
+        "CMake": 1840,
+        "Python": 1718
+      },
+      "readme_url": "https://github.com/aws/aws-cdi-sdk/blob/mainline/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "49485da375018ee53b118aba4ce1bfad5b00f890",
+      "readme_excerpt": "For time-sensitive data transmission Transfers data between EC2 When using the EFA, In addition to Amazon's Community reported issues may",
+      "readme_headings": [
+        "AWS CDI SDK",
+        "Glossary",
+        "Overview",
+        "Features",
+        "Technical details",
+        "Related technology",
+        "Installation",
+        "Create an AWS account",
+        "Create an EFA-enabled instance",
+        "Additional OS-dependent steps",
+        "Creating additional instances",
+        "Browse the HTML documentation",
+        "Using the AWS CDI SDK test applications",
+        "Using AWS CDI SDK in an application",
+        "High level overview",
+        "Application programming interface",
+        "Documentation",
+        "Includes",
+        "Libraries",
+        "Example test applications",
+        "Performance metrics in the AWS CDI SDK",
+        "IAM permissions required by the compute instance",
+        "Customer option to disable the collection of performance metrics by the AWS CDI SDK",
+        "CDI Between Shared Instances in Shared Subnets",
+        "Learn more",
+        "Known issues, limitations and performance",
+        "Known issues",
+        "Known limitations",
+        "Performance",
+        "AWS CDI SDK CPU usage"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Overview",
+          "excerpt": "For time-sensitive data transmission"
+        },
+        {
+          "category": "Features and capabilities",
+          "heading": "Features",
+          "excerpt": "Transfers data between EC2"
+        },
+        {
+          "category": "Getting started and usage",
+          "heading": "AWS CDI SDK CPU usage",
+          "excerpt": "When using the EFA,"
+        },
+        {
+          "category": "Technology and requirements",
+          "heading": "Related technology",
+          "excerpt": "In addition to Amazon's"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Known issues, limitations and performance",
+          "excerpt": "Community reported issues may"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 27115,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "dc1fdb7e16e6560ab5a8b96470028215b4e401d1",
+          "size": 28028,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "aws-cpp-sdk-cdi/CMakeLists.txt",
+          "sha": "9ca16793a1dad5078fc651363a3e6a2c751557ee",
+          "size": 1840,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "proj/cdi_proj.sln",
+          "sha": "73b8a99e77ff713fb4e00fc5bf7273bb431a5bc0",
+          "size": 19822,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:38:03+00:00"
     },
     "aws/aws-cdk": {
       "id": 105808767,
@@ -10157,12 +13469,239 @@
         "typescript"
       ],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 42467786,
+        "JavaScript": 251667,
+        "Python": 225363,
+        "Shell": 76772,
+        "Dockerfile": 12799,
+        "Open Policy Agent": 7338,
+        "Alloy": 6348,
+        "Velocity Template Language": 2978,
+        "Go": 1103,
+        "C#": 501,
+        "HTML": 393,
+        "Ruby": 135,
+        "Batchfile": 127
+      },
+      "readme_url": "https://github.com/aws/aws-cdk/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "11341e56689e146b0d4aaed18f58e2abe9017b3c",
+      "readme_excerpt": "For a detailed walkthrough, The AWS CDK has",
+      "readme_headings": [
+        "AWS Cloud Development Kit (AWS CDK)",
+        "Getting Started",
+        "At a glance",
+        "Getting Help",
+        "Contributing",
+        "Security model",
+        "Metrics collection",
+        "More Resources"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Getting Started",
+          "excerpt": "For a detailed walkthrough,"
+        },
+        {
+          "category": "Limitations and security",
+          "heading": "Security model",
+          "excerpt": "The AWS CDK has"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 10406,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "8d8a3df719d35ced7a2dcad50946d3da851d3a7d",
+          "size": 6423,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/cloud-assembly-schema",
+            "@nx/workspace",
+            "@types/node",
+            "@types/prettier",
+            "@yarnpkg/lockfile",
+            "aws-sdk-js-codemod",
+            "cdk-generate-synthetic-examples",
+            "constructs",
+            "conventional-changelog-cli",
+            "fs-extra",
+            "graceful-fs",
+            "jest-junit",
+            "jsii-diff",
+            "jsii-pacmak",
+            "jsii-reflect",
+            "jsii-rosetta",
+            "lerna",
+            "nx",
+            "semver",
+            "standard-version",
+            "string-width",
+            "tar",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": ".devcontainer/Dockerfile",
+          "sha": "dd8422e6528a618f8fa1ca5cc72d11d00ef6b640",
+          "size": 815,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "packages/aws-cdk-lib/package.json",
+          "sha": "56fbd0b16fac3e835ad5b15d15535b4545968a20",
+          "size": 27726,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/asset-awscli-v1",
+            "@aws-cdk/asset-node-proxy-agent-v6",
+            "@aws-cdk/aws-custom-resource-sdk-adapter",
+            "@aws-cdk/aws-service-spec",
+            "@aws-cdk/cdk-build-tools",
+            "@aws-cdk/check-peer-dependencies",
+            "@aws-cdk/cloud-assembly-api",
+            "@aws-cdk/cloud-assembly-schema",
+            "@aws-cdk/custom-resource-handlers",
+            "@aws-cdk/lambda-layer-kubectl-v31",
+            "@aws-cdk/lambda-layer-kubectl-v33",
+            "@aws-cdk/lazify",
+            "@aws-cdk/pkglint",
+            "@aws-cdk/spec2cdk",
+            "@aws-sdk/client-account",
+            "@aws-sdk/client-acm",
+            "@aws-sdk/client-cloudwatch-logs",
+            "@aws-sdk/client-codepipeline",
+            "@aws-sdk/client-dynamodb",
+            "@aws-sdk/client-ec2",
+            "@aws-sdk/client-ecr",
+            "@aws-sdk/client-eks",
+            "@aws-sdk/client-iam",
+            "@aws-sdk/client-lambda",
+            "@aws-sdk/client-route-53",
+            "@aws-sdk/client-s3",
+            "@aws-sdk/client-sfn",
+            "@aws-sdk/client-ssm",
+            "@aws-sdk/client-sts",
+            "@aws-sdk/credential-providers",
+            "@aws/cloudformation-validate",
+            "@balena/dockerignore",
+            "@smithy/node-http-handler",
+            "@smithy/types",
+            "@smithy/util-stream",
+            "@types/aws-lambda",
+            "@types/jest",
+            "@types/lodash",
+            "@types/mime-types",
+            "@types/punycode",
+            "aws-cdk",
+            "aws-sdk-client-mock",
+            "aws-sdk-client-mock-jest",
+            "case",
+            "cdk8s",
+            "constructs",
+            "delay",
+            "esbuild",
+            "fast-check",
+            "fs-extra",
+            "ignore",
+            "jest",
+            "jest-each",
+            "jest-environment-node",
+            "jsonschema",
+            "lambda-tester",
+            "lodash",
+            "mime-types",
+            "minimatch",
+            "nock"
+          ]
+        },
+        {
+          "path": "packages/awslint/package.json",
+          "sha": "5ef31fcddf585e592889aee96269c0bf5b277f48",
+          "size": 1691,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/eslint-config",
+            "@aws-cdk/pkglint",
+            "@jsii/spec",
+            "@types/fs-extra",
+            "@types/jest",
+            "@types/yargs",
+            "chalk",
+            "change-case",
+            "fs-extra",
+            "jest",
+            "jsii-reflect",
+            "typescript",
+            "yargs"
+          ]
+        },
+        {
+          "path": "packages/@aws-cdk-testing/framework-integ/package.json",
+          "sha": "88ea3840dfc61d997633c83823104b289de80c2f",
+          "size": 2432,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/cdk-build-tools",
+            "@aws-cdk/integ-runner",
+            "@aws-cdk/integ-tests-alpha",
+            "@aws-cdk/lambda-layer-kubectl-v24",
+            "@aws-cdk/lambda-layer-kubectl-v29",
+            "@aws-cdk/lambda-layer-kubectl-v30",
+            "@aws-cdk/lambda-layer-kubectl-v31",
+            "@aws-cdk/lambda-layer-kubectl-v32",
+            "@aws-cdk/lambda-layer-kubectl-v33",
+            "@aws-cdk/lambda-layer-kubectl-v34",
+            "@aws-cdk/lambda-layer-kubectl-v35",
+            "@aws-cdk/lambda-layer-kubectl-v36",
+            "@aws-cdk/lambda-layer-kubectl-v37",
+            "@aws-cdk/pkglint",
+            "@aws-cdk/region-info",
+            "@aws-sdk/client-acm",
+            "@aws-sdk/client-bedrock-agentcore-control",
+            "@aws-sdk/client-cognito-identity-provider",
+            "@aws-sdk/client-ec2",
+            "@aws-sdk/client-rds",
+            "@aws-sdk/client-s3",
+            "aws-cdk-lib",
+            "axios",
+            "cdk8s",
+            "cdk8s-plus-27",
+            "constructs",
+            "delay"
+          ]
+        },
+        {
+          "path": "packages/@aws-cdk/app-staging-synthesizer-alpha/package.json",
+          "sha": "b2043340a8abc7bcf02599ae2ecc50f75da85811",
+          "size": 2926,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/cdk-build-tools",
+            "@aws-cdk/integ-runner",
+            "@aws-cdk/integ-tests-alpha",
+            "@aws-cdk/pkglint",
+            "aws-cdk-lib",
+            "constructs"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:42:53+00:00"
     },
     "aws/aws-cdk-cli": {
       "id": 864099010,
@@ -10190,12 +13729,350 @@
         "infrastructure-as-code"
       ],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 7505080,
+        "JavaScript": 99324,
+        "Shell": 17026,
+        "Go": 10183,
+        "Java": 7170,
+        "Python": 5837,
+        "C#": 4995,
+        "HTML": 1372,
+        "Mermaid": 1171,
+        "F#": 1046,
+        "Batchfile": 1001,
+        "CSS": 944,
+        "Dockerfile": 574
+      },
+      "readme_url": "https://github.com/aws/aws-cdk-cli/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0e29feeaeabbdfc73fc3932135c767a2215a16b9",
+      "readme_excerpt": "The CLI is always",
+      "readme_headings": [
+        "AWS Cloud Development Kit (AWS CDK) Toolkit",
+        "Getting Help",
+        "Contributing",
+        "Structure of this repository",
+        "Compatibility"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Compatibility",
+          "excerpt": "The CLI is always"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 5998,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "4db2c4b373a1d7bd1c36a74b15eced806428bb44",
+          "size": 3775,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-sdk/client-s3",
+            "@aws-sdk/credential-providers",
+            "@aws-sdk/lib-storage",
+            "@cdklabs/eslint-plugin",
+            "@stylistic/eslint-plugin",
+            "@types/jest",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "@yarnpkg/types",
+            "cdklabs-projen-project-types",
+            "constructs",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-import-resolver-typescript",
+            "eslint-plugin-import",
+            "eslint-plugin-jest",
+            "eslint-plugin-jsdoc",
+            "eslint-plugin-prettier",
+            "fast-glob",
+            "jest",
+            "jest-junit",
+            "nx",
+            "prettier",
+            "projen",
+            "semver",
+            "tsx",
+            "typescript"
+          ]
+        },
+        {
+          "path": "packages/aws-cdk/package.json",
+          "sha": "47131f8a212c92695f6822de47de2d38bcedd098",
+          "size": 5437,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/cdk-assets-lib",
+            "@aws-cdk/cdk-explorer",
+            "@aws-cdk/cli-plugin-contract",
+            "@aws-cdk/cloud-assembly-api",
+            "@aws-cdk/cloud-assembly-schema",
+            "@aws-cdk/cloudformation-diff",
+            "@aws-cdk/cx-api",
+            "@aws-cdk/private-tools",
+            "@aws-cdk/toolkit-lib",
+            "@aws-cdk/user-input-gen",
+            "@aws-sdk/client-appsync",
+            "@aws-sdk/client-bedrock-agentcore-control",
+            "@aws-sdk/client-cloudcontrol",
+            "@aws-sdk/client-cloudformation",
+            "@aws-sdk/client-cloudwatch-logs",
+            "@aws-sdk/client-codebuild",
+            "@aws-sdk/client-ec2",
+            "@aws-sdk/client-ecr",
+            "@aws-sdk/client-ecs",
+            "@aws-sdk/client-elastic-load-balancing-v2",
+            "@aws-sdk/client-iam",
+            "@aws-sdk/client-kms",
+            "@aws-sdk/client-lambda",
+            "@aws-sdk/client-route-53",
+            "@aws-sdk/client-s3",
+            "@aws-sdk/client-secrets-manager",
+            "@aws-sdk/client-sfn",
+            "@aws-sdk/client-ssm",
+            "@aws-sdk/client-sts",
+            "@aws-sdk/credential-providers",
+            "@aws-sdk/ec2-metadata-service",
+            "@aws-sdk/lib-storage",
+            "@cdklabs/eslint-plugin",
+            "@smithy/middleware-endpoint",
+            "@smithy/property-provider",
+            "@smithy/shared-ini-file-loader",
+            "@smithy/smithy-client",
+            "@smithy/types",
+            "@smithy/util-retry",
+            "@smithy/util-waiter",
+            "@stylistic/eslint-plugin",
+            "@types/fs-extra",
+            "@types/jest",
+            "@types/mockery",
+            "@types/node",
+            "@types/picomatch",
+            "@types/promptly",
+            "@types/semver",
+            "@types/sinon",
+            "@types/yargs",
+            "@types/yazl",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-cdk-lib",
+            "aws-sdk-client-mock",
+            "aws-sdk-client-mock-jest",
+            "camelcase",
+            "cdk-from-cfn",
+            "chalk",
+            "chokidar"
+          ]
+        },
+        {
+          "path": "packages/cdk-assets/package.json",
+          "sha": "4440cb0013108cc2e1c3db576843dd612c95ca35",
+          "size": 2770,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/cdk-assets-lib",
+            "@aws-cdk/cloud-assembly-schema",
+            "@aws-sdk/client-s3",
+            "@cdklabs/eslint-plugin",
+            "@stylistic/eslint-plugin",
+            "@types/jest",
+            "@types/node",
+            "@types/yargs",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-sdk-client-mock",
+            "commit-and-tag-version",
+            "constructs",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-import-resolver-typescript",
+            "eslint-plugin-import",
+            "eslint-plugin-jest",
+            "eslint-plugin-jsdoc",
+            "eslint-plugin-prettier",
+            "jest",
+            "jest-junit",
+            "license-checker-rseidelsohn",
+            "node-backpack",
+            "nx",
+            "prettier",
+            "projen",
+            "ts-jest",
+            "typescript",
+            "yargs"
+          ]
+        },
+        {
+          "path": "packages/cdk/package.json",
+          "sha": "d528f306f21fbac4ea5376999c0d26a7b16513c9",
+          "size": 2424,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cdklabs/eslint-plugin",
+            "@stylistic/eslint-plugin",
+            "@types/jest",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-cdk",
+            "commit-and-tag-version",
+            "constructs",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-import-resolver-typescript",
+            "eslint-plugin-import",
+            "eslint-plugin-jest",
+            "eslint-plugin-jsdoc",
+            "eslint-plugin-prettier",
+            "jest",
+            "jest-junit",
+            "license-checker-rseidelsohn",
+            "nx",
+            "prettier",
+            "projen",
+            "ts-jest",
+            "typescript"
+          ]
+        },
+        {
+          "path": "packages/@aws-cdk-testing/cli-integ/package.json",
+          "sha": "55384522f0f58ea4f1c51f88939bbf76fb6e4a3b",
+          "size": 4029,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/toolkit-lib",
+            "@aws-cdk/yarn-cling",
+            "@aws-sdk/client-cloudformation",
+            "@aws-sdk/client-cloudwatch",
+            "@aws-sdk/client-codeartifact",
+            "@aws-sdk/client-dynamodb",
+            "@aws-sdk/client-ecr",
+            "@aws-sdk/client-ecr-public",
+            "@aws-sdk/client-ecs",
+            "@aws-sdk/client-iam",
+            "@aws-sdk/client-lambda",
+            "@aws-sdk/client-s3",
+            "@aws-sdk/client-secrets-manager",
+            "@aws-sdk/client-sns",
+            "@aws-sdk/client-ssm",
+            "@aws-sdk/client-sso",
+            "@aws-sdk/client-sts",
+            "@aws-sdk/credential-providers",
+            "@cdklabs/cdk-atmosphere-client",
+            "@cdklabs/eslint-plugin",
+            "@octokit/rest",
+            "@smithy/types",
+            "@smithy/util-retry",
+            "@stylistic/eslint-plugin",
+            "@types/fs-extra",
+            "@types/jest",
+            "@types/node",
+            "@types/semver",
+            "@types/yargs",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "chalk",
+            "commit-and-tag-version",
+            "constructs",
+            "cross-spawn",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-import-resolver-typescript",
+            "eslint-plugin-import",
+            "eslint-plugin-jest",
+            "eslint-plugin-jsdoc",
+            "eslint-plugin-prettier",
+            "fast-glob",
+            "fs-extra",
+            "jest",
+            "jest-junit",
+            "license-checker-rseidelsohn",
+            "make-runnable",
+            "mockttp",
+            "node-pty",
+            "npm",
+            "nx",
+            "p-queue",
+            "prettier",
+            "projen",
+            "proxy-agent",
+            "semver",
+            "sinon",
+            "ts-jest",
+            "ts-mock-imports"
+          ]
+        },
+        {
+          "path": "packages/@aws-cdk/cdk-assets-lib/package.json",
+          "sha": "e332455cd924b2a68dad7ed317a4e6d1456b7a67",
+          "size": 3372,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/cloud-assembly-api",
+            "@aws-cdk/cloud-assembly-schema",
+            "@aws-cdk/private-tools",
+            "@aws-sdk/client-ecr",
+            "@aws-sdk/client-s3",
+            "@aws-sdk/client-secrets-manager",
+            "@aws-sdk/client-sts",
+            "@aws-sdk/credential-providers",
+            "@aws-sdk/lib-storage",
+            "@cdklabs/eslint-plugin",
+            "@smithy/config-resolver",
+            "@smithy/node-config-provider",
+            "@stylistic/eslint-plugin",
+            "@types/jest",
+            "@types/mime",
+            "@types/node",
+            "@types/picomatch",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-sdk-client-mock",
+            "aws-sdk-client-mock-jest",
+            "commit-and-tag-version",
+            "constructs",
+            "cross-spawn",
+            "esbuild",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-import-resolver-typescript",
+            "eslint-plugin-import",
+            "eslint-plugin-jest",
+            "eslint-plugin-jsdoc",
+            "eslint-plugin-prettier",
+            "fast-glob",
+            "fs-extra",
+            "graceful-fs",
+            "jest",
+            "jest-junit",
+            "jszip",
+            "license-checker-rseidelsohn",
+            "mime",
+            "nx",
+            "picomatch",
+            "prettier",
+            "projen",
+            "ts-jest",
+            "typescript",
+            "yazl"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:47:40+00:00"
     },
     "aws/aws-cdk-cli-testing": {
       "id": 865943635,
@@ -10221,12 +14098,158 @@
         "cdk"
       ],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 355935,
+        "JavaScript": 46209,
+        "Shell": 10685,
+        "Dockerfile": 373,
+        "Go": 355,
+        "Python": 347
+      },
+      "readme_url": "https://github.com/aws/aws-cdk-cli-testing/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d43124be830786b847efc8525e7f68cd0dfc1564",
+      "readme_excerpt": "$ bin/run-suite \\ --use-cli-release=2.175.0",
+      "readme_headings": [
+        "AWS CDK CLI Testing",
+        "Usage"
+      ],
+      "readme_sections": [
+        {
+          "category": "Getting started and usage",
+          "heading": "Usage",
+          "excerpt": "$ bin/run-suite \\ --use-cli-release=2.175.0"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 442,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "15711eb560e6bf66e8947a4afe3417efaa62c02a",
+          "size": 1531,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cdklabs/eslint-plugin",
+            "@stylistic/eslint-plugin",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "cdklabs-projen-project-types",
+            "constructs",
+            "eslint-plugin-import",
+            "eslint-plugin-jest",
+            "prettier",
+            "projen",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "packages/@aws-cdk-testing/cli-integ/package.json",
+          "sha": "d7a95728317dce7cab335f656e921fe37f44d45a",
+          "size": 3397,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-sdk/client-cloudformation",
+            "@aws-sdk/client-codeartifact",
+            "@aws-sdk/client-ecr",
+            "@aws-sdk/client-ecr-public",
+            "@aws-sdk/client-ecs",
+            "@aws-sdk/client-iam",
+            "@aws-sdk/client-lambda",
+            "@aws-sdk/client-s3",
+            "@aws-sdk/client-sns",
+            "@aws-sdk/client-sso",
+            "@aws-sdk/client-sts",
+            "@aws-sdk/credential-providers",
+            "@cdklabs/cdk-atmosphere-client",
+            "@cdklabs/eslint-plugin",
+            "@octokit/rest",
+            "@smithy/types",
+            "@smithy/util-retry",
+            "@stylistic/eslint-plugin",
+            "@types/fs-extra",
+            "@types/glob",
+            "@types/jest",
+            "@types/node",
+            "@types/semver",
+            "@types/yargs",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "axios",
+            "chalk",
+            "commit-and-tag-version",
+            "constructs",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-import-resolver-typescript",
+            "eslint-plugin-import",
+            "eslint-plugin-jest",
+            "eslint-plugin-prettier",
+            "fs-extra",
+            "glob",
+            "jest",
+            "jest-junit",
+            "make-runnable",
+            "mockttp",
+            "node-pty",
+            "npm",
+            "p-queue",
+            "prettier",
+            "projen",
+            "semver",
+            "sinon",
+            "ts-jest",
+            "ts-mock-imports",
+            "typescript",
+            "yaml",
+            "yargs"
+          ]
+        },
+        {
+          "path": "packages/@aws-cdk-testing/cli-integ/resources/cdk-apps/app/docker/Dockerfile",
+          "sha": "a7e84d32f529d8fdadf53cb598d2a5b6cb732dfe",
+          "size": 50,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "packages/@aws-cdk-testing/cli-integ/resources/cdk-apps/sam_cdk_integ_app/src/docker/DockerImageFunctionConstruct/Dockerfile",
+          "sha": "52bc1cd0050025020fb9e8f1b4cca2a098eda96c",
+          "size": 323,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "packages/@aws-cdk-testing/cli-integ/resources/cdk-apps/sam_cdk_integ_app/src/docker/DockerImageFunctionConstruct/package.json",
+          "sha": "09669ff5fbe66103f03e29d7fac2fd482e458215",
+          "size": 359,
+          "content_status": "captured",
+          "dependency_hints": [
+            "unique-names-generator"
+          ]
+        },
+        {
+          "path": "packages/@aws-cdk-testing/cli-integ/resources/cdk-apps/sam_cdk_integ_app/src/go/GoFunctionConstruct/go.mod",
+          "sha": "ac54bd0c328a19ce1dfc4f8e92fdfcd9a5213615",
+          "size": 74,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-lambda-go"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:52:28+00:00"
     },
     "aws/aws-cdk-go": {
       "id": 332034665,
@@ -10254,12 +14277,123 @@
         "infrastructure-as-code"
       ],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 239956786
+      },
+      "readme_url": "https://github.com/aws/aws-cdk-go/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "69f8a473dc0add16af7a6e288032102ed1813c69",
+      "readme_excerpt": "See Security Issue Notifications",
+      "readme_headings": [
+        "Go Bindings for AWS CDK",
+        "Security",
+        "License"
+      ],
+      "readme_sections": [
+        {
+          "category": "Limitations and security",
+          "heading": "Security",
+          "excerpt": "See Security Issue Notifications"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 268,
+      "manifest_paths": [
+        {
+          "path": "appstagingsynthesizeralpha/go.mod",
+          "sha": "07f8bcabab1bcdb0ea36dc77013f229ee05fc518",
+          "size": 488,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-cdk-go/awscdk/v2",
+            "github.com/aws/constructs-go/constructs/v10",
+            "github.com/aws/jsii-runtime-go",
+            "github.com/cdklabs/awscdk-asset-awscli-go/awscliv1/v2",
+            "github.com/cdklabs/awscdk-asset-node-proxy-agent-go/nodeproxyagentv6/v2",
+            "github.com/cdklabs/cloud-assembly-schema-go/awscdkcloudassemblyschema/v55"
+          ]
+        },
+        {
+          "path": "awsbedrockagentcorealpha/go.mod",
+          "sha": "48a88bd2d39c26f7d9e29f21f1b9a1b99d06c9bf",
+          "size": 549,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-cdk-go/awsbedrockalpha/v2",
+            "github.com/aws/aws-cdk-go/awscdk/v2",
+            "github.com/aws/constructs-go/constructs/v10",
+            "github.com/aws/jsii-runtime-go",
+            "github.com/cdklabs/awscdk-asset-awscli-go/awscliv1/v2",
+            "github.com/cdklabs/awscdk-asset-node-proxy-agent-go/nodeproxyagentv6/v2",
+            "github.com/cdklabs/cloud-assembly-schema-go/awscdkcloudassemblyschema/v55"
+          ]
+        },
+        {
+          "path": "awsbedrockalpha/go.mod",
+          "sha": "b3ede20e17919b97ebc04ea509ef493d41ac8fbf",
+          "size": 477,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-cdk-go/awscdk/v2",
+            "github.com/aws/constructs-go/constructs/v10",
+            "github.com/aws/jsii-runtime-go",
+            "github.com/cdklabs/awscdk-asset-awscli-go/awscliv1/v2",
+            "github.com/cdklabs/awscdk-asset-node-proxy-agent-go/nodeproxyagentv6/v2",
+            "github.com/cdklabs/cloud-assembly-schema-go/awscdkcloudassemblyschema/v55"
+          ]
+        },
+        {
+          "path": "awscdk/go.mod",
+          "sha": "cef1b20184a965507ff345dcb893b6dc3191f7c1",
+          "size": 386,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/constructs-go/constructs/v10",
+            "github.com/aws/jsii-runtime-go",
+            "github.com/cdklabs/awscdk-asset-awscli-go/awscliv1/v2",
+            "github.com/cdklabs/awscdk-asset-node-proxy-agent-go/nodeproxyagentv6/v2",
+            "github.com/cdklabs/cloud-assembly-schema-go/awscdkcloudassemblyschema/v55"
+          ]
+        },
+        {
+          "path": "awscdkamplifyalpha/go.mod",
+          "sha": "ac37152a920738a893bb2a07028a3c46bb38e247",
+          "size": 480,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-cdk-go/awscdk/v2",
+            "github.com/aws/constructs-go/constructs/v10",
+            "github.com/aws/jsii-runtime-go",
+            "github.com/cdklabs/awscdk-asset-awscli-go/awscliv1/v2",
+            "github.com/cdklabs/awscdk-asset-node-proxy-agent-go/nodeproxyagentv6/v2",
+            "github.com/cdklabs/cloud-assembly-schema-go/awscdkcloudassemblyschema/v55"
+          ]
+        },
+        {
+          "path": "awscdkapplicationsignalsalpha/go.mod",
+          "sha": "fa11707d08106d920922382d9797c5725ed3dd89",
+          "size": 491,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-cdk-go/awscdk/v2",
+            "github.com/aws/constructs-go/constructs/v10",
+            "github.com/aws/jsii-runtime-go",
+            "github.com/cdklabs/awscdk-asset-awscli-go/awscliv1/v2",
+            "github.com/cdklabs/awscdk-asset-node-proxy-agent-go/nodeproxyagentv6/v2",
+            "github.com/cdklabs/cloud-assembly-schema-go/awscdkcloudassemblyschema/v55"
+          ]
+        }
+      ],
+      "manifest_truncated": true,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T09:57:17+00:00"
     },
     "aws/aws-cdk-rfcs": {
       "id": 105809752,
@@ -10289,12 +14423,68 @@
         "rfcs"
       ],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 6399,
+        "Shell": 442
+      },
+      "readme_url": "https://github.com/aws/aws-cdk-rfcs/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7944eb0ace76824b7ead3d035d287a60f5bb4e7b",
+      "readme_excerpt": "An RFC is a",
+      "readme_headings": [
+        "AWS CDK RFCs",
+        "Current RFCs",
+        "What is an RFC?",
+        "RFC Process",
+        "1. Tracking Issue",
+        "2. API Bar Raiser",
+        "3. Kick-off",
+        "4. RFC Document",
+        "5. Feedback",
+        "6. API Sign-off",
+        "7. Final Comments Period",
+        "8. Implementation",
+        "The RFC Life Cycle"
+      ],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "What is an RFC?",
+          "excerpt": "An RFC is a"
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 15161,
+      "manifest_paths": [
+        {
+          "path": "tools/linters/package.json",
+          "sha": "247a87d7b17e2c1fce22171b261b15aa0ff58707",
+          "size": 160,
+          "content_status": "captured",
+          "dependency_hints": [
+            "markdownlint-cli"
+          ]
+        },
+        {
+          "path": "tools/rfc-render/package.json",
+          "sha": "23bf753862b79460414407a1672388269cdf7d77",
+          "size": 971,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@octokit/rest"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T10:02:04+00:00"
     },
     "aws/aws-cli": {
       "id": 6780767,
@@ -10322,12 +14512,98 @@
         "cloud-management"
       ],
       "last_seen_scan_id": "2026-11-23T19:26:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 14129325,
+        "Shell": 39199,
+        "PowerShell": 20800,
+        "HTML": 10857,
+        "M4": 5670,
+        "Dockerfile": 1508,
+        "Batchfile": 898,
+        "Makefile": 867
+      },
+      "readme_url": "https://github.com/aws/aws-cli/blob/v2/README.rst",
+      "readme_path": "README.rst",
+      "readme_sha": "f6f3a9c96c17a1fb5aaddd51ac5c8d1f9dfca22c",
+      "readme_excerpt": "======= aws-cli ======= ..",
+      "readme_headings": [],
+      "readme_sections": [
+        {
+          "category": "Project overview",
+          "heading": "Introduction",
+          "excerpt": "======= aws-cli ======= .."
+        }
+      ],
+      "readme_unavailable_reason": null,
+      "readme_truncated": false,
+      "readme_bytes": 19219,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "1890998c5aaa6efa4a5d3406c5ddaaffd311b275",
+          "size": 7002,
+          "content_status": "captured",
+          "dependency_hints": [
+            "awscrt",
+            "colorama",
+            "distro",
+            "docutils",
+            "jmespath",
+            "prompt-toolkit",
+            "python-dateutil",
+            "ruamel_yaml",
+            "ruamel_yaml_clib",
+            "urllib3",
+            "wcwidth"
+          ]
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "60285a2d7faa45a09af3ae4f80f92d0c2a236db1",
+          "size": 24,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "doc/Makefile",
+          "sha": "ccba22cff35516a8febd13499205e545f8a9333a",
+          "size": 5736,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docker/Dockerfile",
+          "sha": "eed76ffa1b866ca11d21e1680028c1b520f2333f",
+          "size": 822,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "scripts/performance/requirements.txt",
+          "sha": "5e5d9b1d2e700cbbf9a2faa5a401ca31c3684545",
+          "size": 14,
+          "content_status": "captured",
+          "dependency_hints": [
+            "psutil"
+          ]
+        },
+        {
+          "path": "scripts/regenerate-configure/Dockerfile",
+          "sha": "231549955d9908ae8491538f8b12620d5ed91937",
+          "size": 686,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T10:06:52+00:00"
     },
     "aws/aws-cloud-map-mcs-controller-for-k8s": {
       "id": 408620399,
@@ -23929,5 +28205,6 @@
   "refresh_in_progress": false,
   "repository_count": 576,
   "retrieved_at": "2026-11-23T19:26:41+00:00",
-  "enrichment_cursor": "aws/amazon-sagemaker-operator-for-k8s"
+  "enrichment_cursor": "aws/aws-cli",
+  "last_enrichment_run_at": "2026-11-24T10:06:52+00:00"
 }
