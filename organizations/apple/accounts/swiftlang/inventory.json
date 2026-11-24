@@ -1325,12 +1325,79 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:35:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "CMake": 14749,
+        "Swift": 3575,
+        "C++": 1279,
+        "C": 550
+      },
+      "readme_url": "https://github.com/swiftlang/swift-cmake-examples/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6b7c934c32a32818001935b67434c52dce02dba7",
+      "readme_excerpt": "This repository contains examples for using CMake to build Swift with different project layouts, including using CMake to build pure-Swift projects, and projects that use Swift-C++ interoperability. The projects in this repository have been tested with the 5.7.3 Linux container, as well as with the 5.7 compiler toolchain on macOS. For some of the examples with more advanced usage, you may need a newer CMake than what is shipped by the packages in your Linux distro. - CMake 3.22+\\* - Ninja 1.5+ - Swift 5.7+\\* \\* Unless noted otherwise. These projects build with the Ninja generator (e.g `cmake -G 'Ninja'",
+      "readme_headings": [
+        "Swift CMake Examples",
+        "Requirements",
+        "Single Executable",
+        "Executable with Library",
+        "Bi-directional Swift/C++ Interop",
+        "Swift Macros",
+        "Testing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "37205c6ca05ad4022632d737be9c6f40a7364f19",
+          "size": 1578,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "1_single_executable/CMakeLists.txt",
+          "sha": "64bbc293d40d5e7425c89c0e2d8bb0c3d0ac8564",
+          "size": 366,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "2_executable_library/CMakeLists.txt",
+          "sha": "66ded446bc19a8c16bf983688c004d42c2b29891",
+          "size": 384,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "3_bidirectional_cxx_interop/CMakeLists.txt",
+          "sha": "b0aacad40982ef7fb2749f7abdf25ac0181b589e",
+          "size": 1581,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "4_swift_macros/CMakeLists.txt",
+          "sha": "dd87ea624d2848087e7207f3bdf50779912b94bb",
+          "size": 1324,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "2_executable_library/lib/CMakeLists.txt",
+          "sha": "dadc16ac8a35b08ee549eb8e63564cc755ba449c",
+          "size": 295,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:40:56+00:00"
     },
     "swiftlang/swift-cmark": {
       "id": 47902653,
@@ -1353,12 +1420,83 @@
       "open_issues": 16,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:35:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 823706,
+        "C++": 201370,
+        "Python": 50539,
+        "CMake": 20851,
+        "XSLT": 11938,
+        "Racket": 8625,
+        "Makefile": 7180,
+        "Swift": 2221,
+        "Shell": 899,
+        "Dockerfile": 820,
+        "Perl": 525,
+        "Ruby": 316,
+        "Batchfile": 294,
+        "JavaScript": 102
+      },
+      "readme_url": "https://github.com/swiftlang/swift-cmark/blob/gfm/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "374b1058647f7aa058357578618f7264bc904d89",
+      "readme_excerpt": "cmark-gfm ========= `cmark-gfm` is an extended version of the C reference implementation of repository adds GitHub Flavored Markdown extensions to Changes upstream in `cmark` will be pulled into this `cmark-gfm` project repository as the upstream project evolves. The original `cmark` repository can be found here: The rest of the README is preserved as-is from the upstream source. Note that the library and binaries produced by this fork are suffixed with `-gfm` in order to distinguish them from the upstream. The original `cmark` code is released under a BSD2 license. This same license applies to the Swift code included in this",
+      "readme_headings": [
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "e40ca1633c820e26bbabea6836d2ddfe873dc037",
+          "size": 4187,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "3ca75ee119ed0b40b247df920b4f5ac26784f55f",
+          "size": 7180,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "api_test/CMakeLists.txt",
+          "sha": "10e7ca02c7fa669deae124ecdfae1fe4617e1cce",
+          "size": 556,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "extensions/CMakeLists.txt",
+          "sha": "2ca1e4221b1520b0844ed48b7c56b729ffa59441",
+          "size": 1235,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "fuzz/CMakeLists.txt",
+          "sha": "e4e7b51850f899e24bb5403c96eb1cba6e9078dd",
+          "size": 329,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "man/CMakeLists.txt",
+          "sha": "e47c635832ac25881b2904ae1ff4e3e3379359cb",
+          "size": 150,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:40:58+00:00"
     },
     "swiftlang/swift-community-hosted-continuous-integration": {
       "id": 111026478,
@@ -1381,12 +1519,29 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:35:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/swiftlang/swift-community-hosted-continuous-integration/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d28b79ee06bd80a237815f77e0a16cc76efc54eb",
+      "readme_excerpt": "* Fedora 33 * Fedora Rawhide * ARMv7 for Debian \"Stretch\" * Ubuntu 16.04 * Ubuntu 18.04 for TensorFlow * PPC64LE for Ubuntu 16.04 * Android * macOS 10.13 for TensorFlow * wasm32 cross-compiled from Ubuntu 20.04 1. Create a pull request * Add new JSON file under nodes directory - nodes/<platform>_<os_version>.json { \"contact\":{ \"name\":\"Full name\", \"email\":\"Email address\", \"company\":\"Company name (optional)\" }, \"node\":{ \"platform\":\"Platform name\", \"os_version\":\"Operating system version\" }, \"jobs\":[ { \"display_name\":\"Swift - <PLATFORM> (Tools <TOOLS_CONFIG>, Stdlib <STDLIB_CONFIG>) (<BRANCH>))\", \"branch\":\"Swift branch\", \"preset\":\"Build preset from utils/build-preset.ini\" } ] } Example: File name: macOS_10_13.json { \"contact\":{ \"name\":\"Mishal Shah\", \"email\":\"example@apple.com\", \"company\":\"Apple Inc\" },",
+      "readme_headings": [
+        "Swift Community-Hosted Continuous Integration",
+        "Current List of Nodes",
+        "Add Nodes",
+        "Maintaining Node",
+        "Contributing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:40:59+00:00"
     },
     "swiftlang/swift-corelibs-blocksruntime": {
       "id": 1041197806,
@@ -1409,12 +1564,50 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:35:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 41698,
+        "CMake": 5210
+      },
+      "readme_url": "https://github.com/swiftlang/swift-corelibs-blocksruntime/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "aabed7b47c6d6b2b19aeacd866a7b788a50fdefa",
+      "readme_excerpt": "The BlocksRuntime library (also known as \"libclosure\") contains the runtime support for the C/Objective-C \"blocks\" feature.",
+      "readme_headings": [
+        "swift-corelibs-blocksruntime"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "8603c6a3080cee1049ea864b43e28459f77a5eed",
+          "size": 3499,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cmake/modules/CMakeLists.txt",
+          "sha": "10cc0e100dfcfa1a5a8363247b4010ad5ec2dc76",
+          "size": 300,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/BlocksRuntime/CMakeLists.txt",
+          "sha": "2301ffea7cd93aec638296cf08fc7e1dfbab3a0d",
+          "size": 1332,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:01+00:00"
     },
     "swiftlang/swift-corelibs-foundation": {
       "id": 45863890,
@@ -1437,12 +1630,84 @@
       "open_issues": 759,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:35:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 9002501,
+        "Swift": 5319226,
+        "C++": 116354,
+        "CMake": 41519,
+        "Pawn": 6769,
+        "XSLT": 3281
+      },
+      "readme_url": "https://github.com/swiftlang/swift-corelibs-foundation/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5770ced9f8be454914213c85ea2492b123bdef00",
+      "readme_excerpt": "The Foundation framework defines a base layer of functionality that is required for almost all applications. It provides primitive classes and introduces several paradigms that define functionality not provided by either the Objective-C runtime and language or Swift standard library and language. It is designed with these goals in mind: * Provide a small set of basic utility classes and data structures. * Make software development easier by introducing consistent conventions. * Support internationalization and localization, to make software accessible to users around the world. * Provide a level of OS independence, to enhance portability. There is more information on",
+      "readme_headings": [
+        "Foundation",
+        "Project Navigator",
+        "Swift Foundation",
+        "Swift Corelibs Foundation",
+        "Foundation ICU",
+        "Foundation Framework",
+        "Using Foundation",
+        "Working on Foundation",
+        "Building swift-corelibs-foundation on Windows",
+        "Contributions"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "402d32b5e1704307de09a735d22c7b1eb65b027f",
+          "size": 8701,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Sources/CMakeLists.txt",
+          "sha": "f239bdf0ff9baa17f374119267488909ae5267d4",
+          "size": 840,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cmake/modules/CMakeLists.txt",
+          "sha": "ff8a0222e5848ebcab464e3d48c189652ebd5548",
+          "size": 1174,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Sources/_CFURLSessionInterface/CMakeLists.txt",
+          "sha": "5ae7da27ff2fd9fd4059969520d391098d09dec4",
+          "size": 1704,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Sources/_CFXMLInterface/CMakeLists.txt",
+          "sha": "80c752059484a26a22e732f6e675251841fa8d56",
+          "size": 1621,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Sources/CoreFoundation/CMakeLists.txt",
+          "sha": "a81e1484be9deeebdbdc9cf57e4ac51fa3290315",
+          "size": 4231,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:03+00:00"
     },
     "swiftlang/swift-corelibs-libdispatch": {
       "id": 45863965,
@@ -1465,12 +1730,80 @@
       "open_issues": 116,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:35:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 2190423,
+        "Swift": 115684,
+        "Objective-C": 98181,
+        "CMake": 46742,
+        "C++": 39899,
+        "Objective-C++": 16257,
+        "DTrace": 12877,
+        "Shell": 12132
+      },
+      "readme_url": "https://github.com/swiftlang/swift-corelibs-libdispatch/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ef9ec78d672c9821aae219b680ca35a710d4e9c5",
+      "readme_excerpt": "Grand Central Dispatch (GCD or libdispatch) provides comprehensive support for concurrent code execution on multicore hardware. libdispatch is currently available on all Darwin platforms. This project aims to make a modern version of libdispatch available on all other Swift platforms. To do this, we will implement as much of the portable subset of the API as possible, using the existing open source C implementation. libdispatch on Darwin is a combination of logic in the `xnu` kernel alongside the user-space Library. The kernel has the most information available to balance workload across the entire system. As a first step, however, we",
+      "readme_headings": [
+        "Grand Central Dispatch",
+        "Project Status",
+        "Build and Install",
+        "Testing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "3466837abaa2347326d6c287cb9913a0566dc3da",
+          "size": 13070,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "dispatch/CMakeLists.txt",
+          "sha": "478ee8fba97017f8d88b236792908293ee0dd612",
+          "size": 754,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "man/CMakeLists.txt",
+          "sha": "e81b14b411233a6e0958dae79ac057be4f4363af",
+          "size": 646,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "os/CMakeLists.txt",
+          "sha": "cccf97ba6f7942afe5267f1c5b836821f92a6af7",
+          "size": 307,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "private/CMakeLists.txt",
+          "sha": "f77a92d41693abd5aefe8e736a96709babbd7476",
+          "size": 635,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/CMakeLists.txt",
+          "sha": "c105830545b38d0b148a3ce48e61c58b7ce5c32c",
+          "size": 4809,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:05+00:00"
     },
     "swiftlang/swift-corelibs-xctest": {
       "id": 45864027,
@@ -1493,12 +1826,60 @@
       "open_issues": 25,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:35:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Swift": 396490,
+        "Python": 45039,
+        "CMake": 8814,
+        "Dockerfile": 666
+      },
+      "readme_url": "https://github.com/swiftlang/swift-corelibs-xctest/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7fa2ec9fa88024fb761eaa0f847991c996e97de7",
+      "readme_excerpt": "The XCTest library is designed to provide a common framework for writing unit tests in Swift, for Swift packages and applications. This version of XCTest implements the majority of unit testing APIs included in XCTest from Xcode 7 and later. Its goal is to enable your project's tests to run on all the platforms Swift supports without having to rewrite them. Your tests are organized into a simple hierarchy. Each `XCTestCase` subclass has a set of `test` methods, each of which should test one part of your code. For general information about using XCTest, see: * Testing with Xcode *",
+      "readme_headings": [
+        "XCTest",
+        "Using XCTest",
+        "Using XCTest with Swift Package Manager",
+        "Standalone Command Line Usage",
+        "Contributing to XCTest",
+        "Using CMake and Docker (recommended)",
+        "This assumes you've cloned the entire Swift project earlier into a folder named \"swift-project\"",
+        "Using the Swift Build Script",
+        "Using Xcode"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "d5dfc7745fc266106346a34ab572c50cfa3f71c0",
+          "size": 6860,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Dockerfile",
+          "sha": "ecaded469d042edfc7eeb7fa1d27858c193fb49e",
+          "size": 666,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cmake/modules/CMakeLists.txt",
+          "sha": "40fa6bb7c8a7b4a180b3783130ee08f661bc734a",
+          "size": 284,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:07+00:00"
     },
     "swiftlang/swift-crashlog-processing": {
       "id": 1279354226,
@@ -1521,12 +1902,44 @@
       "open_issues": 11,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:35:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Swift": 305993,
+        "Python": 25890,
+        "C": 3917,
+        "Shell": 1978,
+        "C++": 1458,
+        "Batchfile": 69
+      },
+      "readme_url": "https://github.com/swiftlang/swift-crashlog-processing/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c3a20c803c4b1b8d1ed92f486844508b5d4bd0b8",
+      "readme_excerpt": "This is a fairly simple tool to add/update symbols into backtraces generated by the built-in crash logger in the swift runtime, that is paired with the helper tool swift-backtrace from /usr/libexec/swift/. swift-symbolicate [-s <symbol-path>] [--gdb-symbol-servers <url>] [--windows-symbol-servers <url>] [-o <output-file>] [<input-file>] Options: - `-s`, `--symbol-additional-paths`, `--symbols` — Additional path(s) to search for/cache symbol files. Can be specified multiple times. - `-o`, `--output-file` — Where to send the symbolicated output (defaults to stdout on mac/Linux; required on Windows). - `--gdb-symbol-servers` — Debuginfod symbol server base URL(s), tried in order. Can be specified multiple times. - `--windows-symbol-servers` — Windows symbol server base",
+      "readme_headings": [
+        "swift-symbolicate",
+        "Usage",
+        "Environment Variables",
+        "Building",
+        "Testing",
+        "Deployment",
+        "Symbol Servers",
+        "Debuginfod (Linux/Darwin)",
+        "Windows Symbol Server (symsrv)",
+        "Common requirements",
+        "Known issue: bracketed IPv6 literal URLs on Windows/Linux",
+        "Footnotes",
+        "demo-gdb-symbol-server.py"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:08+00:00"
     },
     "swiftlang/swift-docc": {
       "id": 387531333,
@@ -1549,12 +1962,83 @@
       "open_issues": 137,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:35:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Swift": 8887186,
+        "CMake": 32531,
+        "Shell": 17928,
+        "Python": 17133,
+        "HTML": 7175,
+        "Objective-C": 1326,
+        "Dockerfile": 658
+      },
+      "readme_url": "https://github.com/swiftlang/swift-docc/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "8e6e7c7f4bcf925be89215cd1d24e7fce46c8781",
+      "readme_excerpt": "Swift-DocC is a documentation compiler for Swift frameworks and packages aimed at making it easy to write and publish great developer documentation For an example of Swift-DocC in action, check out Much of Apple's developer documentation, from Reference documentation to Tutorials, and long-form content is built using Swift-DocC. To learn more about the essentials of this tool refer to the Swift-DocC is being actively developed. For more information about the Swift-DocC project, see the introductory blog post The Swift Forums are the best place to get help with Swift-DocC and discuss future plans. As an open-source project, we value any",
+      "readme_headings": [
+        "Swift-DocC",
+        "Contributing to Swift-DocC",
+        "Getting Started with DocC",
+        "Writing and Publishing Documentation with Swift-DocC",
+        "Versioning",
+        "Bug Reports and Feature Requests",
+        "Submitting a Bug Report",
+        "Submitting a Feature Request"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "72fc67b5dbdca6326a9f280ad1f165023980e983",
+          "size": 1660,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Dockerfile",
+          "sha": "b3b1456d4e3f721ae026061323a2c499689abfce",
+          "size": 658,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Sources/CMakeLists.txt",
+          "sha": "9470b09c8cdf6dc23aafa24d882bc4f6f6b8217d",
+          "size": 400,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Sources/docc/CMakeLists.txt",
+          "sha": "1e9354eb4fd2fdd6e68beb3f4f85b77c280d17fd",
+          "size": 482,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Sources/DocCCommandLine/CMakeLists.txt",
+          "sha": "041e54606de5c4fefa8bba11310d2fd5067a0df5",
+          "size": 3402,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Sources/DocCCommon/CMakeLists.txt",
+          "sha": "4da69978899294bb953ccb46934b92c12f75f920",
+          "size": 635,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:10+00:00"
     },
     "swiftlang/swift-docc-plugin": {
       "id": 428449354,
@@ -1577,12 +2061,46 @@
       "open_issues": 27,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:35:01+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Swift": 343615,
+        "Shell": 9435,
+        "Dockerfile": 361
+      },
+      "readme_url": "https://github.com/swiftlang/swift-docc-plugin/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "25cdcd24e7e9500ee18f91bc9c1e1b4f706b3d19",
+      "readme_excerpt": "The Swift-DocC plugin is a Swift Package Manager command plugin that supports building documentation for SwiftPM libraries and executables. Please see for more detailed usage instructions. To use the Swift-DocC plugin with your package, first add it as a dependency: let package = Package( // name, platforms, products, etc. dependencies: [ // other dependencies .package(url: \"https://github.com/swiftlang/swift-docc-plugin\", from: \"1.1.0\"), ], targets: [ // targets ] ) Swift 5.6 is required in order to run the plugin. You can then invoke the plugin from the root of your repository like so: swift package generate-documentation This will generate documentation for all compatible targets",
+      "readme_headings": [
+        "Swift-DocC Plugin",
+        "Usage",
+        "Adding the Swift-DocC Plugin as a Dependency",
+        "Converting Documentation",
+        "Previewing Documentation",
+        "Hosting Documentation",
+        "Bug Reports and Feature Requests",
+        "Submitting a Bug Report",
+        "Submitting a Feature Request",
+        "Contributing to the Swift-DocC Plugin"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "db56bf5f9698c6e9d1fcc3b2871767c43e9deaa6",
+          "size": 361,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:12+00:00"
     },
     "swiftlang/swift-docc-render": {
       "id": 387532899,

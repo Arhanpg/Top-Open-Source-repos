@@ -856,12 +856,60 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:35+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 572658,
+        "Dockerfile": 2263
+      },
+      "readme_url": "https://github.com/GoogleCloudPlatform/activeassist-anthos-toolchain/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "99ae183ec9d8ec50e159a93e1ee5baee0f4593f9",
+      "readme_excerpt": "This repository contains code that shows you how you can use the Anthos toolchain to retrieve and parse Active Assist recommendations using Kpt. It demonstrates a workflow where you use a Cloud Build trigger to hydrate Config Connector KRM templates in a DRY repository using Kpt setters, this trigger pushes hydrated resources to one or more hydrated repositories.This workflow assumes your Anthos environment is managed using Anthos Config Management. A second scheduled Cloud Build trigger runs a Kpt function to invoke the Active Assist APIs, review active recommendations, compare the recommendation to the as-is state of Config Connector managed resources",
+      "readme_headings": [
+        "Using the Anthos toolchain with Active Assist",
+        "How to use this example",
+        "Quickstart",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "recommender-kpt-function/Dockerfile",
+          "sha": "05fc0cce315419037251315649b25786871b934c",
+          "size": 929,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "recommender-kpt-function/package.json",
+          "sha": "7492ac78aa0aee3c15c7a82499b2c22e0e8c7a66",
+          "size": 985,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/jasmine",
+            "@types/node",
+            "@types/request-promise",
+            "create-kpt-functions",
+            "googleapis",
+            "jasmine",
+            "kpt-functions",
+            "npm",
+            "pkg",
+            "request",
+            "request-promise",
+            "tslint",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:44:09+00:00"
     },
     "GoogleCloudPlatform/activeassist-serverless-pipeline": {
       "id": 370658929,
@@ -884,12 +932,76 @@
       "open_issues": 26,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:35+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 20350,
+        "Dockerfile": 1990
+      },
+      "readme_url": "https://github.com/GoogleCloudPlatform/activeassist-serverless-pipeline/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "fa729cf643a3ee07adcfa1f10dd36f33164bce5f",
+      "readme_excerpt": "This repository contains the code to build a serverless pipeline to fetch and process Active Assist recommendations based pre-configured business rules. It demonstrates a workflow where a sample notification in Slack is generated for a sample recommendation. The repository also has sample code that demonstrates how a role recommendation can be auto applied. Use the tutorial to understand how to configure your Google Cloud project to setup this pipeline 1. Clone the repository from GitHub. 2. Develop and enhance it for your use case. Clone this repository git clone https://github.com/GoogleCloudPlatform/activeassist-serverless-pipeline.git Follow the walkthrough in the tutorial associated with the example",
+      "readme_headings": [
+        "Using Serverless pipelines with Active Assist",
+        "How to use this example",
+        "Quickstart",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "recommendation-collector/Dockerfile",
+          "sha": "da9e5c58baacfb2f07f731362356c38e849490a4",
+          "size": 995,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "recommendation-collector/package.json",
+          "sha": "a5c43576d5ac5c643f349080d2b3fc472515ef9d",
+          "size": 637,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@google-cloud/firestore",
+            "@google-cloud/pubsub",
+            "eslint",
+            "eslint-config-google",
+            "express",
+            "googleapis",
+            "node-fetch"
+          ]
+        },
+        {
+          "path": "recommendation-rules-engine/Dockerfile",
+          "sha": "da9e5c58baacfb2f07f731362356c38e849490a4",
+          "size": 995,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "recommendation-rules-engine/package.json",
+          "sha": "6694f2ef3cca6e24d5ca37ef33af65bd2896c17e",
+          "size": 602,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@google-cloud/firestore",
+            "eslint",
+            "eslint-config-google",
+            "express",
+            "googleapis",
+            "jsonpatch",
+            "node-fetch"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:44:10+00:00"
     },
     "GoogleCloudPlatform/adaptive-governance-framework": {
       "id": 1130607089,
@@ -912,12 +1024,62 @@
       "open_issues": 11,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:35+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 195645,
+        "Shell": 17412,
+        "HCL": 4794
+      },
+      "readme_url": "https://github.com/GoogleCloudPlatform/adaptive-governance-framework/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1e73c69527dff3c61dd6f61db931180bb5b73191",
+      "readme_excerpt": "Large enterprises, especially those in regulated industries, face lengthy timelines to begin using GCP due in large part to their security and compliance requirements. They often have well-established cybersecurity organizations and mappings of critical control requirements that must be met before they can use our products and services. Before moving to GCP, they also may have experience implementing declarative governance controls through other platforms, such as [Terraform Sentinel](https://developer.hashicorp.com/sentinel/docs/terraform), Styra, and Organizations are looking for a unified plane of glass with which to define controls: * That notify the proper teams when security misconfigurations are detected, * That can be implemented",
+      "readme_headings": [
+        "Adaptive Governance Framework",
+        "Introduction",
+        "Design",
+        "Getting Started",
+        "Further Reading",
+        "Contributing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "d5538989660516c0be5631afb9cd453b2827f67c",
+          "size": 903,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/agext/levenshtein",
+            "github.com/apparentlymart/go-textseg/v15",
+            "github.com/davecgh/go-spew",
+            "github.com/google/go-cmp",
+            "github.com/hashicorp/hcl/v2",
+            "github.com/inconshreveable/mousetrap",
+            "github.com/mitchellh/go-wordwrap",
+            "github.com/pmezard/go-difflib",
+            "github.com/spf13/afero",
+            "github.com/spf13/cobra",
+            "github.com/spf13/pflag",
+            "github.com/stretchr/testify",
+            "github.com/zclconf/go-cty",
+            "golang.org/x/mod",
+            "golang.org/x/sync",
+            "golang.org/x/text",
+            "golang.org/x/tools",
+            "gopkg.in/yaml.v2",
+            "gopkg.in/yaml.v3"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:44:12+00:00"
     },
     "GoogleCloudPlatform/advanced-compute-images": {
       "id": 1263690938,
@@ -940,12 +1102,34 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:35+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 73421,
+        "HCL": 42029,
+        "Jinja": 7166
+      },
+      "readme_url": "https://github.com/GoogleCloudPlatform/advanced-compute-images/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "02fce8e5a7c562006cecfe49eab661c6b7e35bb9",
+      "readme_excerpt": "This repository contains Packer and Ansible scripts for building modular, multi-layered VM images for AI and HPC workloads on Google Cloud. / ├── cloudbuild.yaml ├── packer/ │ ├── builds/ │ │ └── ubuntu-2204-slurm-gpu-dev.pkrvars.hcl │ ├── main.pkr.hcl │ └── variables.pkr.hcl ├── ansible/ │ ├── playbook.yaml │ ├── roles/ │ │ ├── core/ │ │ │ ├── os_configs/ │ │ │ ├── nvidia_stack/ │ │ │ ├── slurm/ │ │ │ └── ... │ │ └── contrib/ │ │ └── ... │ └── ansible.cfg ├── examples/ │ └── build_custom_image.sh └── README.md * **cloudbuild.yaml**: Google Cloud Build configuration file to trigger Packer builds.",
+      "readme_headings": [
+        "ACI (Advanced Compute Images) VM Images",
+        "Repository Structure",
+        "Core Role Dependencies",
+        "Image Naming Convention",
+        "Triggering a Build",
+        "Updating the NVIDIA driver"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:44:13+00:00"
     },
     "GoogleCloudPlatform/aef-data-model": {
       "id": 819076508,
@@ -968,12 +1152,40 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:35+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 39164,
+        "Python": 24984,
+        "Shell": 1809
+      },
+      "readme_url": "https://github.com/GoogleCloudPlatform/aef-data-model/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0351297e5e96619dcbd6c978e7d14984c6fb8932",
+      "readme_excerpt": "***Note:*** For a comprehensive installation guide of all the AEF repositories together, please look here. This repository is designed for managing your data models (BigQuery, BigLake, etc.) and deploying them from various sources (SQL files, Dataform repositories, etc.). Additionally, it facilitates defining and deploying Dataplex metadata (lakes, zones, assets, annotations, policy tags, etc.). While usable independently, this tool is optimized as a component within a comprehensive Analytics Engineering Framework comprising: 1. Orchestration Framework: Maintained by Analytics Engineers to provide seamless, extensible orchestration and execution infrastructure. 1. **(This repository) Data Model**: Directly used by end data practitioners to manage data models,",
+      "readme_headings": [
+        "Analytics Engineering Framework - Data Model",
+        "Concepts",
+        "Referenced Dataform Repositories",
+        "Usage",
+        "1. Dataplex:",
+        "2. Tracking your DDLs",
+        "Option 1 - Dataplex Auto-Discovery",
+        "Option 2 - Create a custom external table using SQL",
+        "Option 3 - Use dataform to track your DDLs",
+        "3. Terraform",
+        "Example",
+        "Run Terraform Plan / Apply using the variables you defined."
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:44:14+00:00"
     },
     "GoogleCloudPlatform/aef-data-orchestration": {
       "id": 819074298,
@@ -996,12 +1208,36 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:35+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 56512,
+        "HCL": 18933,
+        "Shell": 1568
+      },
+      "readme_url": "https://github.com/GoogleCloudPlatform/aef-data-orchestration/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d26252c77c9aeb07e5acd64fcc6d858940d1272a",
+      "readme_excerpt": "***Note:*** For a comprehensive installation guide of all the AEF repositories together, please look here. This repository automates the creation of Google Cloud Workflows Definition files or Cloud Composer DAGs from data pipeline configuration files. It's designed for seamless integration into your CI/CD pipeline, using ***LEVEL***, ***THREAD***, and ***STEP*** abstractions to define your batch data pipeline. You also have the flexibility to directly execute ***workflows_generator.py*** for manual workflow definition generation. - ***Abstracted Pipeline Definition:*** Conveniently define your batch data pipelines using the intuitive concepts of LEVEL, THREAD, and STEP. - ***Manual Execution:*** Option to directly run ***workflows_generator.py*** for on-demand creation.",
+      "readme_headings": [
+        "Data Orchestration",
+        "Key Features",
+        "Concepts",
+        "Usage",
+        "Manual Execution",
+        "Terraform",
+        "Domain-Based vs. Central Orchestration",
+        "Integration with Analytics Engineering Framework"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:44:15+00:00"
     },
     "GoogleCloudPlatform/aef-data-transformation": {
       "id": 819078220,
@@ -1024,12 +1260,31 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:35+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HCL": 5784,
+        "COBOL": 2045
+      },
+      "readme_url": "https://github.com/GoogleCloudPlatform/aef-data-transformation/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "de47d2432d517d2a727fcf7472fabe65e3713c30",
+      "readme_excerpt": "***Note:*** For a comprehensive installation guide of all the AEF repositories together, please look here. This opinionated data transformation management repository can be used independently to define, store, and deploy data transformation definitions. However, is designed as a component within a comprehensive Analytics Engineering Framework comprising: 1. Orchestration Framework: Maintained by Analytics Engineers to provide seamless, extensible orchestration and execution infrastructure. 1. Data Model: Directly used by end data practitioners to manage data models, schemas, and Dataplex metadata. 1. Data Orchestration: Directly used by end data practitioners to define and deploy data pipelines using levels, threads, and steps. 1. **(This",
+      "readme_headings": [
+        "Analytics Engineering Framework - Data Transformation",
+        "Repository",
+        "Terraform:",
+        "Usage"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:44:16+00:00"
     },
     "GoogleCloudPlatform/aef-orchestration-framework": {
       "id": 819071328,
@@ -1052,12 +1307,128 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:35+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 67596,
+        "Shell": 46241,
+        "HCL": 14445
+      },
+      "readme_url": "https://github.com/GoogleCloudPlatform/aef-orchestration-framework/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "52a3b8c573839f8b437090fafdee9b9efb1682af",
+      "readme_excerpt": "***Note:*** For a comprehensive installation guide of all the AEF repositories together, please look here. Data orchestration plays a vital role in enabling efficient data access and analysis, this repository deploys the core artifacts of a streamlined serverless data orchestration framework using generic executors as Google Cloud Functions. And deployed via Terraform. This Orchestration Framework is the core integrator of the Analytics Engineering Framework comprised of: 1. **(This repository) Orchestration Framework**: Maintained by Analytics Engineers to provide seamless, extensible orchestration and execution infrastructure. 1. Data Model: Directly used by end data practitioners to manage data models, schemas, and Dataplex metadata.",
+      "readme_headings": [
+        "Analytics Engineering Framework - Orchestration Framework",
+        "Concepts",
+        "Domain-Based vs. Central Orchestration",
+        "Cloud Workflows Orchestration implementation:",
+        "Scheduling and execution",
+        "Repository",
+        "Usage",
+        "Terraform"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "functions/data-processing-engines/bq-saved-query-executor/requirements.txt",
+          "sha": "bf2992705d23b86055f77677f480a825b86b4b18",
+          "size": 176,
+          "content_status": "captured",
+          "dependency_hints": [
+            "functions-framework",
+            "google-api-python-client",
+            "google-auth",
+            "google-cloud-bigquery",
+            "google-cloud-dataform",
+            "google-cloud-logging",
+            "google-cloud-resource-manager",
+            "grpcio",
+            "grpcio-tools"
+          ]
+        },
+        {
+          "path": "functions/data-processing-engines/dataflow-flextemplate-job-executor/requirements.txt",
+          "sha": "48a232f23435d91ff333629b4a5abad3a1057d02",
+          "size": 77,
+          "content_status": "captured",
+          "dependency_hints": [
+            "functions-framework",
+            "google-api-python-client",
+            "google-auth",
+            "google-cloud-storage"
+          ]
+        },
+        {
+          "path": "functions/data-processing-engines/dataform-tag-executor/requirements.txt",
+          "sha": "aaacd6605426512a2947f728f4e642cb730a62ce",
+          "size": 225,
+          "content_status": "captured",
+          "dependency_hints": [
+            "functions-framework",
+            "google-api-python-client",
+            "google-auth",
+            "google-cloud-bigquery",
+            "google-cloud-dataform",
+            "google-cloud-logging",
+            "google-cloud-resource-manager",
+            "google-cloud-secret-manager",
+            "google-cloud-storage",
+            "grpcio",
+            "grpcio-tools"
+          ]
+        },
+        {
+          "path": "functions/data-processing-engines/dataproc-serverless-job-executor/requirements.txt",
+          "sha": "43acde87ba745a6c168b6ed200c1a8ff4966366c",
+          "size": 197,
+          "content_status": "captured",
+          "dependency_hints": [
+            "functions-framework",
+            "google-api-python-client",
+            "google-auth",
+            "google-cloud-bigquery",
+            "google-cloud-dataform",
+            "google-cloud-logging",
+            "google-cloud-resource-manager",
+            "google-cloud-storage",
+            "grpcio",
+            "grpcio-tools"
+          ]
+        },
+        {
+          "path": "functions/orchestration-helpers/intermediate/requirements.txt",
+          "sha": "986303ce2d6a60da08ede31f698ce039378a9e16",
+          "size": 106,
+          "content_status": "captured",
+          "dependency_hints": [
+            "functions-framework",
+            "google-cloud-bigquery",
+            "google-cloud-error-reporting",
+            "google-cloud-logging"
+          ]
+        },
+        {
+          "path": "functions/orchestration-helpers/pipeline-executor/requirements.txt",
+          "sha": "a3c96df14712070a41c3efd1e03068bf9e4591dd",
+          "size": 129,
+          "content_status": "captured",
+          "dependency_hints": [
+            "functions-framework",
+            "google-cloud-bigquery",
+            "google-cloud-error-reporting",
+            "google-cloud-logging",
+            "google-cloud-workflows"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:44:18+00:00"
     },
     "GoogleCloudPlatform/aether": {
       "id": 1042931775,
@@ -1080,12 +1451,118 @@
       "open_issues": 16,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:35+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Rust": 3181522,
+        "Makefile": 121654,
+        "Shell": 27357,
+        "C": 8993
+      },
+      "readme_url": "https://github.com/GoogleCloudPlatform/aether/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d3f9262331f1106aadcea0c13dedd20388c4042c",
+      "readme_excerpt": "**🛑 Project Status: Archived** This demo repository is archived and will no longer receive updates. **A modern systems programming language with LLM-first design principles** Aether combines memory safety through an ownership system with S-expression syntax for enhanced metaprogramming capabilities. Designed for high-performance applications while maintaining safety, expressiveness, and AI-friendly code generation. **NOTE** This project is a demonstration of vibe coding intended to provide a trustworthy and verifiable example that developers and researchers can use. It is not intended for use in a production environment. This is not an officially supported Google product. This project is not eligible for the [Google",
+      "readme_headings": [
+        "Aether",
+        "🚀 Quick Start",
+        "Prerequisites",
+        "Build and Install",
+        "Hello World",
+        "✨ Key Features",
+        "📚 Documentation",
+        "🌐 Working Examples",
+        "HTTP Blog Server",
+        "Compile the blog server",
+        "Run the server",
+        "Test it",
+        "🛠️ CLI Commands",
+        "Compile to executable",
+        "Type checking only",
+        "Run directly",
+        "View AST",
+        "View tokens",
+        "🏗️ Project Structure",
+        "📄 License",
+        "🔗 Links"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Cargo.toml",
+          "sha": "a578b477873a274da508da86d3ba243b9a93e939",
+          "size": 1999,
+          "content_status": "captured",
+          "dependency_hints": [
+            "anyhow",
+            "broadcast",
+            "chrono",
+            "clap",
+            "criterion",
+            "inkwell",
+            "libc",
+            "num_cpus",
+            "proptest",
+            "rayon",
+            "reqwest",
+            "serde",
+            "serde_json",
+            "sha2",
+            "tempfile",
+            "thiserror",
+            "tokio",
+            "unicode-segmentation",
+            "zip"
+          ]
+        },
+        {
+          "path": "runtime/Cargo.toml",
+          "sha": "4ef078ff023139ce46df904cfbfa095c285342b4",
+          "size": 922,
+          "content_status": "captured",
+          "dependency_hints": [
+            "backtrace",
+            "chrono",
+            "lazy_static",
+            "libc"
+          ]
+        },
+        {
+          "path": "examples/arithmetic_operations/Makefile",
+          "sha": "f92bc1903db537a9d8e482d393e9a0c5fac4d389",
+          "size": 580,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/arrays/Makefile",
+          "sha": "b5e1eac1831cf641fab4d5a2e7bdd3e0751c35d4",
+          "size": 550,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/arrays_simple/Makefile",
+          "sha": "8744ed199e26d6e3b4cd9efeecf28830213824de",
+          "size": 564,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/blog_http_simple/Makefile",
+          "sha": "c7e269dc3aed7bad84d553ae03bb8ed09aa24320",
+          "size": 570,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:44:21+00:00"
     },
     "GoogleCloudPlatform/agent-assist-integrations": {
       "id": 575506522,
@@ -1108,12 +1585,168 @@
       "open_issues": 56,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:51:35+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 359654,
+        "JavaScript": 350312,
+        "Python": 292492,
+        "Shell": 52598,
+        "HTML": 29319,
+        "HCL": 25922,
+        "EJS": 19141,
+        "CSS": 13239,
+        "Dockerfile": 11883,
+        "Makefile": 9490
+      },
+      "readme_url": "https://github.com/GoogleCloudPlatform/agent-assist-integrations/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f2b3661f499c8f47c4ec178d6f068eddaa086d40",
+      "readme_excerpt": "The Agent Assist modules are a set of pre-built, customizable UI components that can be embedded in any web application to surface Google Agent Assist suggestions. These are made available as a set of JavaScript Web Components and services hosted on Google's GStatic domain. In addition to the components themselves, a set of reference implementations will also be provided that will demonstrate how the modules can be integrated into select agent desktop platforms. This product is covered by the Pre-GA Offerings Terms of the Google Cloud Terms of Service. Pre-GA products might have limited support, and changes to pre-GA products",
+      "readme_headings": [
+        "Agent Assist Modules Documentation",
+        "Introduction",
+        "Disclaimer",
+        "Related documentation and support",
+        "High-level approach",
+        "Managed container",
+        "Attributes",
+        "Inputs",
+        "Individual components",
+        "Base connector service",
+        "Individual modules",
+        "<b>Knowledge Assist</b>",
+        "<b>Smart Reply</b>",
+        "<b>Conversation Summarization</b>",
+        "<b>Virtual Agent Assist</b>",
+        "Custom connector",
+        "Implementation Details",
+        "Communication",
+        "Agent Assist Module Events",
+        "Types",
+        "<b>ActiveConversationSelectedPayload</b>",
+        "<b>AnalyzeContentRequest</b>",
+        "<b>AnalyzeContentRequestDetails</b>",
+        "<b>AnalyzeContentResponse</b>",
+        "<b>AnalyzeContentResponseDetails</b>",
+        "<b>AnswerRecord</b>",
+        "<b>ArticleSearchRequestedPayload</b>",
+        "<b>Conversation</b>",
+        "<b>ConversationInitializationRequestedPayload</b>",
+        "<b>ConversationInitializedPayload</b>"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "twilioflex/package.json",
+          "sha": "41d03dfff0e7d384c68dca31fce7528f70879021",
+          "size": 2066,
+          "content_status": "captured",
+          "dependency_hints": [
+            "axios",
+            "eslint",
+            "json5",
+            "lodash",
+            "npm-run-all2",
+            "prompt",
+            "semver",
+            "shelljs",
+            "twilio-cli"
+          ]
+        },
+        {
+          "path": "aa-integration-backend/cloud-pubsub-interceptor/Dockerfile",
+          "sha": "b5e8aab53753aaeecd93cac973b9dda6b69b6c63",
+          "size": 1150,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "aa-integration-backend/cloud-pubsub-interceptor/requirements.txt",
+          "sha": "1ebf2eda1bd33966ba25ab33ac51062c0561a0d4",
+          "size": 59,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Flask",
+            "Werkzeug",
+            "gunicorn",
+            "redis"
+          ]
+        },
+        {
+          "path": "aa-integration-backend/ui-connector/Dockerfile",
+          "sha": "b49dfe6dd84c23f713b986cb0a63913636f6dcdf",
+          "size": 1282,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "aa-integration-backend/ui-connector/requirements.txt",
+          "sha": "20ef79a3b2b7f1e6f6ee2ce7fcce4ed2e4201dde",
+          "size": 807,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Flask",
+            "Flask-Cors",
+            "Flask-SocketIO",
+            "Jinja2",
+            "MarkupSafe",
+            "PyJWT",
+            "Werkzeug",
+            "aiohttp",
+            "async-timeout",
+            "attrs",
+            "bidict",
+            "cachetools",
+            "certifi",
+            "chardet",
+            "charset-normalizer",
+            "click",
+            "google-api-core",
+            "google-auth",
+            "google-cloud-dialogflow",
+            "google-cloud-secret-manager",
+            "googleapis-common-protos",
+            "grpcio",
+            "gunicorn",
+            "h11",
+            "idna",
+            "itsdangerous",
+            "multidict",
+            "packaging",
+            "proto-plus",
+            "protobuf",
+            "pyasn1",
+            "pyasn1-modules",
+            "pyparsing",
+            "python-engineio",
+            "python-socketio",
+            "redis",
+            "requests",
+            "rsa",
+            "simple-websocket",
+            "six",
+            "typing-extensions",
+            "urllib3",
+            "wsproto",
+            "yarl"
+          ]
+        },
+        {
+          "path": "genesyscloud/frontend/Dockerfile",
+          "sha": "8a866446a63ecb64708cf912dbfb5edf9c7c976f",
+          "size": 1228,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:44:23+00:00"
     },
     "GoogleCloudPlatform/agent-platform-model-tuning": {
       "id": 1354087611,

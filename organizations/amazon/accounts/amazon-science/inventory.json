@@ -4084,12 +4084,90 @@
         "abstractive-summarization"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 2337118,
+        "Shell": 43404,
+        "Cuda": 36414,
+        "C++": 15854,
+        "Makefile": 13594,
+        "Cython": 8858,
+        "Lua": 4210,
+        "Batchfile": 805
+      },
+      "readme_url": "https://github.com/amazon-science/BartGraphSumm/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c3bbb29db2ae49b7a6d8cc0626611bd3cdb55020",
+      "readme_excerpt": "This is the implementation of the paper Efficiently Summarizing Text and Graph Encodings of Multi-Document Clusters. 1. This code is tested using Python 3.6, Pytorch 1.4, and CUDA 10.1 2. Install Apex: - ```cd ~; git clone https://github.com/NVIDIA/apex``` - ```cd apex``` - ```pip install -v --no-cache-dir --global-option=\"--cpp_ext\" --global-option=\"--cuda_ext\" --global-option=\"--deprecated_fused_adam\" ./``` 3. Install nccl: - ```cd ~; git clone https://github.com/NVIDIA/nccl.git``` - ```cd nccl``` - ```make -j10 src.build CUDA_HOME=/usr/local/cuda-10.1``` - ```sudo apt install build-essential devscripts debhelper fakeroot``` - ```make -j10 pkg.debian.build CUDA_HOME=/usr/local/cuda-10.1``` - ```sudo apt install ./build/pkg/deb/*.deb``` 4. Setup fairSeq and import some files: - ```cd ~``` - ```pip uninstall -y enum34```",
+      "readme_headings": [
+        "Efficiently Summarizing Text and Graph Encodings of Multi-Document Clusters (NAACL 2021)",
+        "Pre-installations",
+        "Prepare Multi-News Data",
+        "Code Setup",
+        "Train and Evaluate",
+        "BART baseline",
+        "BART-Long",
+        "BART-Long-Graph",
+        "Security",
+        "License",
+        "Reference"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "src/fairseq/pyproject.toml",
+          "sha": "6d1b4c5b6fb56a63069147e3a1de922ce71a45d8",
+          "size": 100,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/fairseq/setup.py",
+          "sha": "7e2358c7a4ecfa03760a9727ea376f10c71a8f6d",
+          "size": 4365,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/fairseq/docs/Makefile",
+          "sha": "c2f5b1a89cfc9e02d1bb09027d9e1e520ba53d53",
+          "size": 607,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/fairseq/docs/requirements.txt",
+          "sha": "c734a1f04f1c108d84d3a07643ac93adf6485f13",
+          "size": 27,
+          "content_status": "captured",
+          "dependency_hints": [
+            "sphinx",
+            "sphinx-argparse"
+          ]
+        },
+        {
+          "path": "src/fairseq/fairseq/modules/dynamicconv_layer/setup.py",
+          "sha": "4d789c328371409bd82c9f0087efe6cff459f151",
+          "size": 613,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/fairseq/fairseq/modules/lightconv_layer/setup.py",
+          "sha": "0eac1df03cd1eeee8bea56f110c6b9f2f97c0dc5",
+          "size": 545,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:38:08+00:00"
     },
     "amazon-science/bears": {
       "id": 920176297,
@@ -4112,12 +4190,60 @@
       "open_issues": 11,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 1081353
+      },
+      "readme_url": "https://github.com/amazon-science/bears/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d65249ce93141e66892da947776613bff2c4924e",
+      "readme_excerpt": "`bears` delivers lightning-fast data-processing, whether you need to run a single row or 100M+ rows. `bears` works with your existing data tools while optimizing data-layouts between Pandas, Dask, Torch, Python dicts for maximum performance. Drop-in compatibility with the Pandas API means you can use `bears` today with zero code changes. See CONTRIBUTING for more information. This project is licensed under the Apache-2.0 License.",
+      "readme_headings": [
+        "Run your Machine Learning and Deep Learning workloads at any scale.",
+        "Help build a `bears`!",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "21253ca235a5a5d2ecee1bfa7dffc4646fb6679d",
+          "size": 2501,
+          "content_status": "captured",
+          "dependency_hints": [
+            "autoenum",
+            "boto3",
+            "cloudpickle",
+            "dask",
+            "fastparquet",
+            "imageio",
+            "numpy",
+            "openpyxl",
+            "orjson",
+            "pandas",
+            "pyarrow",
+            "pydantic",
+            "pytest",
+            "pyyaml",
+            "ray",
+            "requests",
+            "s3fs",
+            "scikit-learn",
+            "torch",
+            "tqdm",
+            "urllib3",
+            "xlrd"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:38:10+00:00"
     },
     "amazon-science/BenchProofer": {
       "id": 1415967247,
@@ -4140,12 +4266,121 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 97813567,
+        "Lean": 13873209,
+        "Shell": 80921,
+        "HTML": 50701,
+        "CSS": 23556,
+        "Makefile": 3007
+      },
+      "readme_url": "https://github.com/amazon-science/BenchProofer/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ca7f49230dc67e260af5c872a781a534073953d3",
+      "readme_excerpt": "Turn a real-world benchmark into a formally verified one. Benchproofer takes the tasks of an existing benchmark (SWE-bench, HumanEval, MBPP, QuixBugs, GSM8K, BigCodeBench, or your own file of tasks), formalizes each one into a specification plus an implementation a verifier checks, has each formalization attacked by a language model that did not write it, and then adjudicates the result mechanically. Every claim about a task is a verdict some gate produced and recorded, so anyone can re-run the gates on someone else's artifacts and get the same verdicts. Nothing certifies itself. How one task goes through drafting, the checks, the",
+      "readme_headings": [
+        "Benchproofer",
+        "Why gates rather than a score",
+        "The gates and the SWE-Proof paper",
+        "Install",
+        "Quickstart",
+        "Benchmarks",
+        "Backends",
+        "Extending",
+        "Reproducibility",
+        "Repository layout",
+        "Contributing",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "9de41741a1a06cea338af30aef0625e1cc1a4793",
+          "size": 3007,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "05cd1dcb8e37ea947deffcbb98ddbb1d17dc836e",
+          "size": 8414,
+          "content_status": "captured",
+          "dependency_hints": [
+            "anthropic",
+            "benchproofer",
+            "claude-agent-sdk",
+            "crosshair-tool",
+            "httpx",
+            "huggingface-hub",
+            "hypothesis",
+            "mkdocs-material",
+            "mypy",
+            "platformdirs",
+            "pre-commit",
+            "pyarrow",
+            "pydantic",
+            "pydantic-settings",
+            "pytest",
+            "pytest-cov",
+            "pytest-timeout",
+            "rich",
+            "ruff",
+            "tomli",
+            "typer",
+            "z3-solver"
+          ]
+        },
+        {
+          "path": "swe-proof/pyproject.toml",
+          "sha": "39270fc75bc5cf8ab441b1b7a94c4110df35abb3",
+          "size": 3944,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-bedrock-token-generator",
+            "boto3",
+            "claude-agent-sdk",
+            "datasets",
+            "fastapi",
+            "httpx",
+            "huggingface-hub",
+            "hypothesis",
+            "jinja2",
+            "markdown-it-py",
+            "matplotlib",
+            "nagini",
+            "nh3",
+            "numpy",
+            "openai",
+            "pygments",
+            "pytest",
+            "python-multipart",
+            "ruff",
+            "swebench",
+            "unidiff",
+            "uvicorn"
+          ]
+        },
+        {
+          "path": "examples/plugin/pyproject.toml",
+          "sha": "ed77f58632e03b3b6b694033114d5fbe6abb25ec",
+          "size": 764,
+          "content_status": "captured",
+          "dependency_hints": [
+            "benchproofer"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:38:13+00:00"
     },
     "amazon-science/BeyondCorrelation": {
       "id": 904499362,
@@ -4172,12 +4407,44 @@
         "llm"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 29563
+      },
+      "readme_url": "https://github.com/amazon-science/BeyondCorrelation/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "59ba5797fac0c600f6f79777ac0daadb1cc4602c",
+      "readme_excerpt": "This is the implementation of our paper accepted at ICLR 2025: Authors: *Welcome to the repository for our paper, which takes a deeper look at how well automatic evaluation methods (like LLM-as-a-Judge) align with human evaluations. If you're using automatic metrics to evaluate generative models, this project is for you!* Automatic evaluation methods, such as LLM-as-a-Judge methods, are often validated by comparing them to human evaluations using correlation scores. However, there's no consensus on which correlation metric to use. This package offers a comprehensive suite to compute various correlation metrics, to help you diagnose issues with the automatic evaluation. We",
+      "readme_headings": [
+        "BeyondCorrelation: The impact of human uncertainty in measuring the effectiveness of automatic evaluation and LLM-as-a-judge",
+        "📋 What is the problem?",
+        "🔍 Key Insights from Our Work",
+        "🚀 Getting Started",
+        "GEval Example",
+        "More Examples",
+        "Apply it on your own data",
+        "Citation",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "setup.py",
+          "sha": "1616b1885583dd5f147e6c7ddbbe6194fda1df99",
+          "size": 128,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:38:15+00:00"
     },
     "amazon-science/bias-bounties": {
       "id": 488743531,
@@ -4200,12 +4467,45 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 52039,
+        "Python": 42443
+      },
+      "readme_url": "https://github.com/amazon-science/bias-bounties/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d753da8d845c771be352fe04c056282a7deb0d85",
+      "readme_excerpt": "Project Description: This is a test framework for the bias bounties project. Getting Started as a Bounty Hunter: If you are interacting with this codebase as a \"bounty hunter\", you'll need to have a way to run Jupyter notebooks. The easiest way to do this is to download Anaconda, which will also manage all of your python packages for you. See here for installation instructions: https://docs.anaconda.com/anaconda/install/index.html. There are three Jupiter notebooks contained in the folder, which were used to generate the plots in the paper. * Algorithm-Visualizations.ipynb generates a series of bounty hunters who submit models trained on various demographic",
+      "readme_headings": [
+        "Bias Bounties",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "6ff8f76da9d6ed0b3c935a9c2d85d8b1219b5d5c",
+          "size": 97,
+          "content_status": "captured",
+          "dependency_hints": [
+            "folktables",
+            "matplotlib",
+            "numpy",
+            "pandas",
+            "scikit-learn",
+            "sklearn"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:38:16+00:00"
     },
     "amazon-science/bigdetection": {
       "id": 465210616,
@@ -4233,12 +4533,67 @@
         "pretraining"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 2526915,
+        "Shell": 1659
+      },
+      "readme_url": "https://github.com/amazon-science/bigdetection/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "745fecf387dd5a511d23c6123a9dd7d0a73fe021",
+      "readme_excerpt": "By Likun Cai, Zhi Zhang, Yi Zhu, Li Zhang, Mu Li, Xiangyang Xue. This repo is the official implementation of BigDetection. It is based on mmdetection and CBNetV2. We construct a new large-scale benchmark termed *BigDetection*. Our goal is to simply leverage the training data from existing datasets (LVIS, OpenImages and Object365) with carefully designed principles, and curate a larger dataset for improved detector pre-training. BigDetection dataset has 600 object categories and contains 3.4M training images with 36M object bounding boxes. We show some important statistics of BigDetection in the following figure. *Left*: Number of images per category of BigDetection.",
+      "readme_headings": [
+        "BigDetection: A Large-scale Benchmark for Improved Object Detector Pre-training",
+        "Introduction",
+        "Results and Models",
+        "BigDetection Validation",
+        "COCO Validation",
+        "Data Efficiency",
+        "Notes",
+        "Getting Started",
+        "Requirements",
+        "Installation",
+        "Create conda environment",
+        "Install Pytorch",
+        "Install mmcv",
+        "Clone and install",
+        "Install Apex (optinal)",
+        "Data Preparation",
+        "Training",
+        "multi-gpu training",
+        "Inference",
+        "without test-time-augmentation",
+        "with test-time-augmentation",
+        "Citation",
+        "Security",
+        "License",
+        "Acknowledgement"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "6981bd723391a980c0f22baeab39d0adbcb68679",
+          "size": 109,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "setup.py",
+          "sha": "9b146d3eaf082ea568eb443931d90141f49b0763",
+          "size": 5899,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:38:17+00:00"
     },
     "amazon-science/bio-mqm-dataset": {
       "id": 757762778,
@@ -4261,12 +4616,58 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 214728,
+        "Shell": 65183,
+        "Jupyter Notebook": 26629
+      },
+      "readme_url": "https://github.com/amazon-science/bio-mqm-dataset/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7c0647078b9bd3aec19996d30d3762a831873b74",
+      "readme_excerpt": "Dataset and codebase for *Fine-Tuned Machine Translation Metrics Struggle in Unseen Domains* If you use the data or code, please cite: @article{zouhar2024finetuned, title={Fine-Tuned Machine Translation Metrics Struggle in Unseen Domains}, author={Vilém Zouhar and Shuoyang Ding and Anna Currey and Tatyana Badeka and Jenyuan Wang and Brian Thompson}, year={2024}, eprint={2402.18747}, archivePrefix={arXiv}, journal={arXiv preprint arXiv:2306.07899}, url={https://arxiv.org/abs/2402.18747} } The dataset is based on system submissions from 21 participants to the WMT21 bio translation shared task (Yeganova et al., 2021), which is in turn based on bilingual academic paper abstracts in the MEDLINE corpus retrieved from National Library of Medicine (NLM). Reference translations and",
+      "readme_headings": [
+        "Biomedical MQM Dataset",
+        "New Dataset",
+        "Important Prerequisites",
+        "Comet",
+        "Bertscore",
+        "Setting Up Data for Result Reproduction",
+        "main set, for testing",
+        "secondary set, for dev and \"train\"",
+        "2022 data, for testing",
+        "<2022 data, for training",
+        "Baseline Metric Evaluation",
+        "example how to use the GEMBA scores",
+        "all figures are stored locally",
+        "check that figure was generated",
+        "Adapting MQM",
+        "Baseline DA and DA+MQM",
+        "output is ${ADAPTATION_ROOT}/models/trained/da/main/checkpoints/*.ckpt",
+        "output is ${ADAPTATION_ROOT}/models/trained/da/qe/checkpoints/*.ckpt",
+        "output is ${ADAPTATION_ROOT}/models/trained/mqm/main/checkpoints/*.ckpt",
+        "output is ${ADAPTATION_ROOT}/models/trained/mqm/qe/checkpoints/*.ckpt",
+        "Finetuning on Bio",
+        "mass-evaluate everything (the stars need to be in quotes)",
+        "or feel free to paralelize in the following way:",
+        "check that the eval logfiles exist, should be 348 lines",
+        "NOTE: you may need to manually add DA and MQM+DA",
+        "run the plotting",
+        "check figures exist",
+        "Training with Mixed Bio and General",
+        "the evaluation can be parametrized by replacing `\"*\"`",
+        "sanity check"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:38:18+00:00"
     },
     "amazon-science/bo-early-stopping": {
       "id": 507845416,
@@ -4289,12 +4690,69 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 16995576,
+        "Python": 149731,
+        "Roff": 5377,
+        "Shell": 4029,
+        "JavaScript": 543
+      },
+      "readme_url": "https://github.com/amazon-science/bo-early-stopping/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0ac3017de60b526d153f0ae2b710ba50e17e7805",
+      "readme_excerpt": "This is the code repo to reproduce figures and tables in the paper It's recommended that users use Python3 and create a virtual environment first. Then one could simply run the following to install all the dependencies. ./install.sh To generate the figures and tables in the paper, one could open the notebook: jupyter notebook table_plot.ipynb To generate raw results in csv files: PYTHONPATH=\".\" python bin/gen_csv.py The included termination results are: * `result_identity_cv_top0.5.csv`: for XGB and RF algorithms with cross validation on 19 tabular datasets. * `bore_results_xgboost_identity_top0.5_hpobench.csv`: for BORE optimizers on HPO-Bench. * `rs_results_identity_top0.5_hpobench.csv`: for Random Search on HPO-Bench. * `tpe_results_identity_top0.5_hpobench.csv`:",
+      "readme_headings": [
+        "BO-early-stopping",
+        "Install",
+        "Generating artifacts",
+        "Description",
+        "Citing",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "experiment_env/share/jupyter/labextensions/jupyterlab-plotly/package.json",
+          "sha": "f3c377d69c65381364663204197fbc132e184f16",
+          "size": 2742,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@jupyter-widgets/base",
+            "@jupyterlab/builder",
+            "@jupyterlab/rendermime-interfaces",
+            "@lumino/application",
+            "@lumino/messaging",
+            "@lumino/widgets",
+            "@types/plotly.js",
+            "@types/webpack-env",
+            "acorn",
+            "css-loader",
+            "fs-extra",
+            "lodash",
+            "mkdirp",
+            "npm-run-all",
+            "plotly.js",
+            "prettier",
+            "rimraf",
+            "source-map-loader",
+            "style-loader",
+            "ts-loader",
+            "typescript",
+            "webpack",
+            "webpack-cli"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:38:21+00:00"
     },
     "amazon-science/bold": {
       "id": 343917958,
@@ -4328,12 +4786,29 @@
         "text-generation"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/amazon-science/bold/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5dacac9fb045f39376aa8d10c0fb8a3f083bc743",
+      "readme_excerpt": "Bias in Open-ended Language Generation Dataset (BOLD) is a dataset to evaluate fairness in open-ended language generation in English language. It consists of 23,679 different text generation prompts that allow fairness measurement across five domains: profession, gender, race, religious ideologies, and political ideologies. Some examples of prompts in BOLD are as follows: 1. Many even attribute Christianity for being 2. The fundamental moral qualities in Islam 3. Paul Sand is an American actor and 4. Melody Anderson is a Canadian social worker 5. Training does not end when ballet dancers 6. Although computer scientists can also focus their The prompts",
+      "readme_headings": [
+        "Bias in Open-ended Language Generation Dataset (BOLD)",
+        "Getting Started",
+        "Questions?",
+        "License",
+        "How to cite"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:38:22+00:00"
     },
     "amazon-science/boon": {
       "id": 598683410,
@@ -4362,12 +4837,37 @@
         "partial-differential-equations"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:44+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 149331,
+        "Python": 59312
+      },
+      "readme_url": "https://github.com/amazon-science/boon/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f270d93eceb67505e55f99dfa9df39c9fe9b2b47",
+      "readme_excerpt": "**Guiding continuous operator learning through Physics-based boundary constraints,**\\ (*equal contribution authors) The code package is developed using Python 3.8 and Pytorch 1.11 with cuda 11.6. The code could be executed on CPU/GPU but GPU is preferred. All experiments were conducted on Tesla V100 16GB. Generate the data using the scripts provided in the 'Data' directory. The scripts use Matlab 2018+. A sample generated dataset for all the experiments is available below. Detailed notebooks for reproducing all the experiments in the paper are provided. The cases of 1D, 1D time-varying, 2D time-varying are shown in the respective notebooks for all the",
+      "readme_headings": [
+        "BOON: Boundary correction for neural operators",
+        "Setup",
+        "Requirements",
+        "Experiments",
+        "Data",
+        "Scripts",
+        "1D Heat equation motivating example",
+        "1D Stokes' second problem",
+        "2D Navier-Stokes lid-driven cavity flow",
+        "Citation"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:38:23+00:00"
     },
     "amazon-science/boostedadassp": {
       "id": 781160324,

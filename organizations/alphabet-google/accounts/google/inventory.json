@@ -5056,12 +5056,41 @@
       "open_issues": 4,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 58126
+      },
+      "readme_url": "https://github.com/google/ads-account-structure-script/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ffe8ddcd44984663a8f3d4cd96e61e33e8b6f082",
+      "readme_excerpt": "Search advertising has changed, in large part thanks to machine-learning. Over the years, Google has incorporated more and more machine-learning into products like Smart Bidding, DSA, RSA, Optimized Ad rotation, DDA, Ad extension selection, Semantic Keywords, etc. Thanks to these advancements, granular account structures are no longer necessary. They segment traffic and limit learning data for some machine-learning based solutions, they require unnecessary upkeep and time commitment to manage, and their complexity can lead to operational mistakes. Furthermore, Smart Bidding opens the door for simpler structures by analyzing thousands of signals in real time to define optimal bids for each",
+      "readme_headings": [
+        "Google Ads - Account structure script",
+        "**Context**",
+        "**Purpose of the account structure script**",
+        "Landing pages analysis",
+        "Ad groups analysis",
+        "Campaigns analysis",
+        "Keywords analysis",
+        "**Features**",
+        "**Generating the reports**",
+        "**Instructions for large accounts**",
+        "**Details of account structure KPIs in the reports**",
+        "**Landing pages analysis**",
+        "**Ad groups analysis**",
+        "**Campaigns analysis**",
+        "**Keywords analysis**"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:34:20+00:00"
     },
     "google/ads-api-report-fetcher": {
       "id": 458255798,
@@ -5084,12 +5113,206 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 398746,
+        "Python": 222633,
+        "JavaScript": 104429,
+        "Shell": 24972,
+        "HTML": 17863,
+        "Dockerfile": 736
+      },
+      "readme_url": "https://github.com/google/ads-api-report-fetcher/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ba417779e1d35e131b24bdb07fcf797e61c1829d",
+      "readme_excerpt": "Google Ads API Report Fetcher (gaarf) - Overview - Getting started - Writing Queries - Running gaarf - Options - Postprocessing - Expressions and Macros - Dynamic dates - Docker - Gaarf Cloud Workflow - Differencies in Python and NodeJS versions - Other environments Google Ads API Report Fetcher (`gaarf`) simplifies running Google Ads API Reports by separating logic of writing GAQL-like query from executing it and saving results.\\ The library allows you to define GAQL queries alongside aliases and custom extractors and specify where the results of such query should be stored. You can find example queries in examples",
+      "readme_headings": [
+        "Table of content",
+        "Overview",
+        "Getting started",
+        "Writing Queries",
+        "Running gaarf",
+        "Options",
+        "Query specific options",
+        "Postprocessing",
+        "Dynamic dates",
+        "Docker",
+        "Build a container image",
+        "Run a container",
+        "Gaarf Cloud Workflow",
+        "Differences in Python and NodeJS versions",
+        "Query syntax and features",
+        "Output BigQuery structure",
+        "API support",
+        "Other environments",
+        "Disclaimer"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "js/Dockerfile",
+          "sha": "5b2d15845f3769dad2951057e9d8da3540e43a58",
+          "size": 560,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "js/package.json",
+          "sha": "ae9460b3b6838d130428f0cd26f681627cf5881a",
+          "size": 2508,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@google-cloud/bigquery",
+            "@google-cloud/logging",
+            "@google-cloud/logging-winston",
+            "@google-cloud/storage",
+            "@istanbuljs/nyc-config-typescript",
+            "@js-joda/core",
+            "@types/async",
+            "@types/glob",
+            "@types/js-yaml",
+            "@types/lodash-es",
+            "@types/mocha",
+            "@types/nunjucks",
+            "@types/yargs",
+            "async",
+            "axios",
+            "chalk",
+            "csv",
+            "csv-stringify",
+            "date-fns",
+            "find-up",
+            "glob",
+            "google-auth-library",
+            "gts",
+            "js-yaml",
+            "lodash-es",
+            "mathjs",
+            "mocha",
+            "npm-run-all",
+            "nunjucks",
+            "nyc",
+            "shx",
+            "table",
+            "ts-node",
+            "typescript",
+            "winston",
+            "yargs"
+          ]
+        },
+        {
+          "path": "py/Dockerfile",
+          "sha": "e3ae0f3e0ccbd7a4b58c1c7a465e531561bd4e55",
+          "size": 176,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "py/pyproject.toml",
+          "sha": "981475f0c1207971854cf2c7519a937363fb08c1",
+          "size": 2208,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Faker",
+            "garf-core",
+            "garf-executors",
+            "garf-io",
+            "google-ads",
+            "google-ads-api-report-fetcher",
+            "jinja2",
+            "pandas",
+            "python-dateutil",
+            "rich",
+            "smart_open",
+            "tenacity",
+            "typing-extensions"
+          ]
+        },
+        {
+          "path": "py/requirements.txt",
+          "sha": "b022ba2a307ae7d1c09abbcdcf52132725127d8a",
+          "size": 57187,
+          "content_status": "captured",
+          "dependency_hints": [
+            "annotated-types",
+            "cachetools",
+            "certifi",
+            "charset-normalizer",
+            "eval-type-backport",
+            "garf-core",
+            "garf-executors",
+            "garf-io",
+            "google-ads",
+            "google-ads-api-report-fetcher",
+            "google-api-core",
+            "google-auth",
+            "google-auth-oauthlib",
+            "googleapis-common-protos",
+            "grpcio",
+            "grpcio-status",
+            "idna",
+            "jinja2",
+            "markdown-it-py",
+            "markupsafe",
+            "mdurl",
+            "oauthlib",
+            "proto-plus",
+            "protobuf",
+            "pyasn1",
+            "pyasn1-modules",
+            "pydantic",
+            "pydantic-core",
+            "pygments",
+            "python-dateutil",
+            "pyyaml",
+            "requests",
+            "requests-oauthlib",
+            "rich",
+            "rsa",
+            "six",
+            "smart-open",
+            "tenacity",
+            "typing-extensions",
+            "typing-inspection",
+            "urllib3",
+            "wrapt"
+          ]
+        },
+        {
+          "path": "gcp/create-gaarf-wf/package.json",
+          "sha": "7f0df3d77a1515fda865fbc312b1b43bf5b2f4b2",
+          "size": 1544,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/clui",
+            "@types/figlet",
+            "@types/inquirer",
+            "@types/js-yaml",
+            "@types/node",
+            "@types/prompts",
+            "chalk",
+            "clui",
+            "figlet",
+            "google-oauth-authenticator",
+            "gts",
+            "inquirer",
+            "js-yaml",
+            "minimist",
+            "prompts",
+            "shx",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:34:22+00:00"
     },
     "google/ads-bi-suite": {
       "id": 636518093,
@@ -5112,12 +5335,62 @@
       "open_issues": 9,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 23912,
+        "JavaScript": 14734
+      },
+      "readme_url": "https://github.com/google/ads-bi-suite/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "845d309173d34be9601f0aa5701b254dd37406f2",
+      "readme_excerpt": "Copyright 2023 Google LLC Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at https://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. --> Copyright 2023 Google LLC. This is not an official Google product. This solution, including any related sample",
+      "readme_headings": [
+        "Apps Google Ads reporting Automation",
+        "1. Disclaimer and Intro",
+        "1.1 Apps Google Ads reporting Automation",
+        "1.1.1 Brief:",
+        "1.1.2 Features:",
+        "1.1.3 Benefits:",
+        "2. Deployment",
+        "2.1 Preparation",
+        "2.2. Check out source codes",
+        "2.3. Run install script",
+        "2.4. Possible extra tasks during installation",
+        "2.4.1. Initialize [Firestore in Native mode](https://cloud.google.com/datastore/docs/firestore-or-datastore#in_native_mode) in Google Console",
+        "2.4.2. Prepare the Google Ads API TOKEN - [See Instruction](https://developers.google.com/google-ads/api/docs/first-call/dev-token?hl=en)",
+        "3 RoadMap"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "9cadfb781f22bd30a6887bd194755f7c85ef3bf9",
+          "size": 705,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@google-cloud/data-tasks-coordinator",
+            "@google-cloud/gmp-googleads-connector"
+          ]
+        },
+        {
+          "path": "tool/sheet_installer/package.json",
+          "sha": "c58cff06ff1745662fd22740fb1fe5271f967b93",
+          "size": 291,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@google-cloud/sheets-based-installer",
+            "@google/clasp"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:34:23+00:00"
     },
     "google/ads-placement-excluder": {
       "id": 527620570,
@@ -5140,12 +5413,97 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 60053,
+        "HCL": 14160
+      },
+      "readme_url": "https://github.com/google/ads-placement-excluder/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4f3eb2f37e00eac785f90d57ab906e9d0975abd4",
+      "readme_excerpt": "It is manual and challenging to detect YouTube channel placements which might be spam (low performance with high cost), and exclude them from future advertising. Google Ads does not currently provide enough granularity to identify all spam channels. Ads Placement Excluder allows an advertiser, to define what their interpretation of a spam channel is, and it will leverage the Google Ads & YouTube APIs to automate identifying these placements, and exclude them from future advertising. See architecture.md. The solution provides a DataStudio dashboard to monitor the solution. See See deployment.md for information on how to deploy the solution and get",
+      "readme_headings": [
+        "Ads Placement Excluder",
+        "Architecture",
+        "Reporting",
+        "Get Started",
+        "Disclaimers"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "src/google_ads_accounts/requirements.txt",
+          "sha": "4830fff97b76f43e6ab1feffe71caf2ca9e80446",
+          "size": 174,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Flask",
+            "google-api-python-client",
+            "google-auth-httplib2",
+            "google-auth-oauthlib",
+            "google-cloud-pubsub",
+            "jsonschema",
+            "pydata-google-auth"
+          ]
+        },
+        {
+          "path": "src/google_ads_excluder/requirements.txt",
+          "sha": "8478be1281906ddfc81d30db0719140ea53cf5bb",
+          "size": 225,
+          "content_status": "captured",
+          "dependency_hints": [
+            "google-ads",
+            "google-api-python-client",
+            "google-auth-httplib2",
+            "google-auth-oauthlib",
+            "google-cloud-bigquery",
+            "google-cloud-pubsub",
+            "google-cloud-storage",
+            "jsonschema",
+            "pandas"
+          ]
+        },
+        {
+          "path": "src/google_ads_report/requirements.txt",
+          "sha": "3507db66c6c9c4ff0fdd841c47ad46be512797a5",
+          "size": 107,
+          "content_status": "captured",
+          "dependency_hints": [
+            "google-ads",
+            "google-cloud-pubsub",
+            "google-cloud-storage",
+            "jsonschema",
+            "pandas"
+          ]
+        },
+        {
+          "path": "src/youtube_channel/requirements.txt",
+          "sha": "c02c595009be0008df5b5223c31680b09d78a259",
+          "size": 270,
+          "content_status": "captured",
+          "dependency_hints": [
+            "google-api-python-client",
+            "google-auth",
+            "google-auth-httplib2",
+            "google-auth-oauthlib",
+            "google-cloud-bigquery",
+            "google-cloud-pubsub",
+            "google-cloud-storage",
+            "google-cloud-translate",
+            "jsonschema",
+            "numpy",
+            "pandas"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:34:25+00:00"
     },
     "google/ads-privacy": {
       "id": 259973195,
@@ -5168,12 +5526,27 @@
       "open_issues": 42,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/google/ads-privacy/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4569b197b9d20ab9972a4117369716a12cef02ad",
+      "readme_excerpt": "Bid request signal experiments ============================== technology that allows advertisers to buy and content creators to sell ad inventory on a per-impression basis via instantaneous auctions, with multiple buying platforms competing. RTB helps advertisers and publishers to optimally allocate advertising inventory and assign a fair value to each impression. In order to further improve user privacy protections, the Google RTB team is starting to consider how ideas can be applied to RTB. We’d like to explore possible iterations of the privacy sandbox proposals and experiment with changes to the RTB interface between advertising exchanges and bidders. The experiments we run would",
+      "readme_headings": [
+        "Proposals",
+        "Experiments",
+        "Server trust models"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:34:26+00:00"
     },
     "google/ads_oneshop": {
       "id": 850984503,
@@ -5196,12 +5569,65 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 283702,
+        "Shell": 38964,
+        "Starlark": 34913,
+        "HCL": 10089,
+        "Go": 711
+      },
+      "readme_url": "https://github.com/google/ads_oneshop/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "89f5cd0e08a29903fa970f239d08393dc40506af",
+      "readme_excerpt": "Ads OneShop helps merchants identify opportunities to improve product data and feature adoption, benchmarking against top retailers to maximise performance. By implementing these recommendations, merchants can improve offer quality, reduce disapprovals, increase advanced feature adoption and drive better auction performance. This solution uses the Merchant API. The Ads OneShop project contains two solutions: * Advanced Commerce Insights Tool (ACIT) - A monitoring dashboard for product lifecycle * Merchant Excellence for Partners (MEX4P) - A best-practices dashboard for Google Merchant Center (GMC) accounts * **Developer Token** * Standard Access is best, but Basic will work for prototyping/testing. * As with the",
+      "readme_headings": [
+        "Ads OneShop",
+        "Overview",
+        "Solutions Included",
+        "Setup",
+        "Prerequisites",
+        "Google Ads",
+        "Merchant Center",
+        "Core Pipeline Deployment",
+        "ACIT Dashboard Deployment",
+        "MEX4P Dashboard Deployment",
+        "Important Update:"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "go.mod",
+          "sha": "63570d843991fbb5e5b73a9f518c274c9afacb59",
+          "size": 223,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/GoogleCloudPlatform/protoc-gen-bq-schema/v3",
+            "github.com/golang/glog",
+            "google.golang.org/protobuf"
+          ]
+        },
+        {
+          "path": "extensions/merchant_excellence/model/requirements.txt",
+          "sha": "640eac6934302054bb98cf580bbeeabc0c37145c",
+          "size": 68,
+          "content_status": "captured",
+          "dependency_hints": [
+            "numpy",
+            "pandas",
+            "scikit-learn",
+            "shap"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:34:28+00:00"
     },
     "google/ad_language_monitor": {
       "id": 458273834,
@@ -5309,12 +5735,38 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 55222,
+        "CMake": 1441,
+        "C": 886
+      },
+      "readme_url": "https://github.com/google/aegis_cipher/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "515507991b423f48b8f63299bd3a57cfd559dc3c",
+      "readme_excerpt": "AEGIS is an AEAD cipher family as specified in [AEGIS: A Fast Authenticated Encryption Algorithm](http://competitions.cr.yp.to/round1/aegisv1.pdf). This library is a low-level implementation of the AEGIS128L cipher. Please look at other libraries such as Tink when you need a safe cryptographic API. This library is intended to be used by cryptographic frameworks that wrap this library in a safe API. Alternatively, this library is also useful for streaming operations, but this is in general unsafe. It can be made safe, if you follow the implementator's guide carefully. Please consult aegis128L.h for an API documentation. We support: - x86-64 platforms with AES-NI and",
+      "readme_headings": [
+        "AEGIS128L for C++",
+        "Building"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "98756b792c84c9ceb197cc11a9b83087af148ac0",
+          "size": 1441,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:34:29+00:00"
     },
     "google/AEUX": {
       "id": 92198563,
@@ -5337,12 +5789,132 @@
       "open_issues": 86,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 399271,
+        "TypeScript": 187568,
+        "Vue": 79953,
+        "HTML": 9643,
+        "CSS": 7628
+      },
+      "readme_url": "https://github.com/google/AEUX/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7c694fb98b51ac55a49ce1a2b8c525b5a7ee941d",
+      "readme_excerpt": "Built on the original [After Effects][56a59ddd] layer transfer system, Sketch2AE, AEUX now supports Catalina updates to [Sketch][66b609ab] and browser based Figma. UX motion design in Ae has never been easier to get started. Installation and usage at: https://aeux.io Apache 2.0",
+      "readme_headings": [
+        "[AEUX](https://google.github.io/AEUX/)",
+        "[Change log][changelog]",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "fbd31cf8eef416ea57b1d18e9265fc4af0a351c0",
+          "size": 525,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@figma/plugin-typings"
+          ]
+        },
+        {
+          "path": "Documentation/package.json",
+          "sha": "13757177a14cd4d540dd969ff8c2f83a3ffc1739",
+          "size": 615,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@vuepress/plugin-back-to-top",
+            "@vuepress/plugin-medium-zoom",
+            "serve",
+            "vuepress"
+          ]
+        },
+        {
+          "path": "Ae/AEUX/package.json",
+          "sha": "fb29705a5883bb580e9c03769e10d036643461ae",
+          "size": 1588,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@mdi/font",
+            "@vue/cli-plugin-babel",
+            "@vue/cli-plugin-eslint",
+            "@vue/cli-service",
+            "amulets",
+            "babel-eslint",
+            "bombino-commands",
+            "boxen",
+            "brutalism",
+            "cep-spy",
+            "chalk",
+            "core-js",
+            "eslint",
+            "eslint-plugin-vue",
+            "express",
+            "fs-extra",
+            "hammerjs",
+            "inquirer",
+            "make-runnable",
+            "ora",
+            "shelljs",
+            "starlette",
+            "types-for-adobe",
+            "vue",
+            "vue-template-compiler",
+            "ws"
+          ]
+        },
+        {
+          "path": "Figma/AEUX/package.json",
+          "sha": "457013248c0d09cf256832155d2189b8e3df2163",
+          "size": 981,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@figma-plugin/helpers",
+            "@figma/plugin-typings",
+            "css-loader",
+            "file-saver",
+            "file-type",
+            "fs",
+            "html-webpack-inline-source-plugin",
+            "html-webpack-plugin",
+            "jszip",
+            "style-loader",
+            "ts-loader",
+            "typescript",
+            "url-loader",
+            "vue",
+            "webpack",
+            "webpack-cli"
+          ]
+        },
+        {
+          "path": "Sketch/AEUX/package.json",
+          "sha": "1b38ddf5da680b17ab9496d5bd990007b4058012",
+          "size": 1040,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@skpm/builder",
+            "@skpm/extract-loader",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "css-loader",
+            "eslint",
+            "eslint-plugin-vue",
+            "html-loader",
+            "sketch-module-web-view",
+            "skpm",
+            "vue"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:34:31+00:00"
     },
     "google/AFL": {
       "id": 198869255,
@@ -5365,12 +5937,77 @@
       "open_issues": 66,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 420132,
+        "Shell": 38373,
+        "Makefile": 13788,
+        "C++": 5249,
+        "HTML": 3475,
+        "Rich Text Format": 21,
+        "JavaScript": 20
+      },
+      "readme_url": "https://github.com/google/AFL/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "49960b99d65fc3935bc89dabc99005deca267dcd",
+      "readme_excerpt": "Originally developed by Michal Zalewski <lcamtuf@google.com>. See QuickStartGuide.txt if you don't have time to read this file. Fuzzing is one of the most powerful and proven strategies for identifying security issues in real-world software; it is responsible for the vast majority of remote code execution and privilege escalation bugs found to date in security-critical software. Unfortunately, fuzzing is also relatively shallow; blind, random mutations make it very unlikely to reach certain code paths in the tested code, leaving some vulnerabilities firmly outside the reach of this technique. There have been numerous attempts to solve this problem. One of the early",
+      "readme_headings": [
+        "american fuzzy lop",
+        "1) Challenges of guided fuzzing",
+        "2) The afl-fuzz approach",
+        "3) Instrumenting programs for use with AFL",
+        "4) Instrumenting binary-only apps",
+        "5) Choosing initial test cases",
+        "6) Fuzzing binaries",
+        "7) Interpreting output",
+        "8) Parallelized fuzzing",
+        "9) Fuzzer dictionaries",
+        "10) Crash triage",
+        "11) Going beyond crashes",
+        "12) Common-sense risks",
+        "13) Known limitations & areas for improvement",
+        "14) Special thanks",
+        "15) Contact"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "381931289571a901529d5ad1fbb5a9fb24ce53d6",
+          "size": 6987,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "libdislocator/Makefile",
+          "sha": "86c7125bbf774c3e0efb49494f19b0711f1be730",
+          "size": 1002,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "libtokencap/Makefile",
+          "sha": "1579cc3eb4324e5423b3a8a0cb081df5f4f8e13e",
+          "size": 986,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "llvm_mode/Makefile",
+          "sha": "7617f914de6178abc66f508159c058432ff4113b",
+          "size": 4813,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:34:33+00:00"
     },
     "google/agamotto": {
       "id": 505928522,
@@ -5397,12 +6034,94 @@
         "machine-learning"
       ],
       "last_seen_scan_id": "2026-11-23T19:24:45+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 62678,
+        "Dockerfile": 1752,
+        "HTML": 781
+      },
+      "readme_url": "https://github.com/google/agamotto/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4373284efcc2962c8cfdcd8090858d99f568473d",
+      "readme_excerpt": "Agamotto is a open-source solution that uses Machine Learning to gather insights from physical locations using IoT. The initial version uses Computer Vision to read from cameras using OpenCV and send the data to BigQuery. Agamotto aims to be used to measure the impact and define strategies of marketing campaigns. How the count is processed by Video file or Stream: Dashboard with Heatmap by Location (latlong): 1. Docker (Preferred), Python 3.7+ 2. Unix-based operating system 3. GCP - BigQuery and DataStudio (If you want to save your data on cloud) 4. 2GB+ RAM, 4GB+ GPU (If you want to train",
+      "readme_headings": [
+        "Agamotto",
+        "Pre-requisites",
+        "How to Use",
+        "Updates",
+        "Acknowledgements",
+        "Disclaimer"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "agamotto/Dockerfile",
+          "sha": "2b876691ef2dee305965330c6f4c16985eee63f1",
+          "size": 948,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "agamotto/requirements.txt",
+          "sha": "311a5b95a3dc22e0018faef106fe6896c928df15",
+          "size": 369,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Flask",
+            "dask",
+            "google-api-python-client",
+            "google-auth-httplib2",
+            "google-auth-oauthlib",
+            "google-cloud",
+            "google-cloud-bigquery",
+            "google-cloud-core",
+            "google-cloud-storage",
+            "grpcio",
+            "matplotlib",
+            "numpy",
+            "opencv-python",
+            "pandas",
+            "protobuf",
+            "tensorflow",
+            "tensorflow-datasets"
+          ]
+        },
+        {
+          "path": "stream/Dockerfile",
+          "sha": "7aa2d6cb2530180f2e43185bddddb78f4c966b6c",
+          "size": 804,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "stream/requirements.txt",
+          "sha": "a946da99abb6cbce075536224a1cce538c37b54f",
+          "size": 199,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Flask",
+            "Jinja2",
+            "MarkupSafe",
+            "Werkzeug",
+            "click",
+            "importlib-metadata",
+            "itsdangerous",
+            "numpy",
+            "opencv-python",
+            "protobuf",
+            "six",
+            "zipp"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:34:35+00:00"
     },
     "google/agata": {
       "id": 54163195,

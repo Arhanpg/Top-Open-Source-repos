@@ -1578,12 +1578,52 @@
         "skills"
       ],
       "last_seen_scan_id": "2026-11-23T20:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "CAP CDS": 1375
+      },
+      "readme_url": "https://github.com/capire/skills/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c5ca90ca1a5b42f1060420d6c3be40502090100c",
+      "readme_excerpt": "Curated set of skills helping AI coding agents build and maintain CAP applications. Skills work with AI coding tools that support the open skill standard, such as OpenCode, Claude Code, or VS Code Copilot. Inside your project, run: npx skills add https://github.com/capire/skills.git See skills CLI. Inside Claude Code, run: /plugin marketplace add capire/skills /plugin install cap-developer@cap See Claude Code plugins. Add the repository to your Copilot marketplace sources in `settings.json`: \"chat.plugins.marketplaces\": [ \"https://github.com/capire/skills.git\" ] In Extensions (<kbd>Shift+Cmd+X</kbd>), search for `@agentPlugins`, find the desired skill, and click \"Install\". See Copilot agent plugins. Symlink the `skills/` directory into your tool's config folder:",
+      "readme_headings": [
+        "CAP Skills",
+        "About this project",
+        "Requirements and Setup",
+        "`skills` CLI",
+        "Claude Code Plugin",
+        "VS Code Copilot Plugin",
+        "Symlink (manual)",
+        "OpenCode (project-level)",
+        "OpenCode (global)",
+        "Claude Code (project-level)",
+        "Support, Feedback, Contributing",
+        "Code of Conduct",
+        "Licensing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "skills/cap-add-remote-service/evals/fixture/package.json",
+          "sha": "ea49d1a22758d1f5e6dcc82978ee9b99bb07c502",
+          "size": 276,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/sqlite",
+            "@capire/xflights-data",
+            "@sap/cds",
+            "@sap/cds-dk"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:32+00:00"
     },
     "capire/university": {
       "id": 1192835429,
@@ -1606,12 +1646,42 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "HTML": 8367,
+        "CAP CDS": 4622
+      },
+      "readme_url": "https://github.com/capire/university/blob/main/readme.md",
+      "readme_path": "readme.md",
+      "readme_sha": "5506a1b501c495fdf7226bb5a7e5c2ecef69fd89",
+      "readme_excerpt": "This is a result of a short ~30 min ad-hoc incremental 'vibe coding' exercise done in a hand-on session recently. With plain Claude Sonnet (4.5), without any SAP or CAP-specific harness (no MCP, no skills, no nothing). The prompts were like that: 1. _Add a domain model for university courses_ 2. _Add test data_ 3. _Add a service for admins_ 4. _Add constraints_ 5. _Add i18n_ 6. _Add a vue.js UI_ 7. _Add i18n also to the UI_ ( Plus a few tweaks and corrections here and there ;) - Claude, et al, are trained for CAP → through public",
+      "readme_headings": [
+        "@capire/university",
+        "Findings",
+        "Run it",
+        "Support, Feedback, Contributing",
+        "Security / Disclosure",
+        "Code of Conduct",
+        "Licensing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "4a4581ebfc83af22d3c778fcf40e38fba22e778d",
+          "size": 260,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:33+00:00"
     },
     "capire/xflights": {
       "id": 1006476807,
@@ -1639,12 +1709,65 @@
         "reuse"
       ],
       "last_seen_scan_id": "2026-11-23T20:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 11415,
+        "CAP CDS": 5802
+      },
+      "readme_url": "https://github.com/capire/xflights/blob/main/readme.md",
+      "readme_path": "readme.md",
+      "readme_sha": "9162058acd03c82edee62777a8dca5eaaeb32420",
+      "readme_excerpt": "This is a reuse package to manage and serve master data like _Airlines_, _Airports_, and _Flights_. It publishes a pre-built client package, that is used in the xtravels application. - Domain Model - Service Interfaces - Exporting APIs - Publishing APIs - Consuming APIs - Using Workspaces The domain model is defined in _db/schema.cds_. It centers around normalized `FlightConnections`, which connect two `Airports` operated by an `Airline`, while entity `Flights` represents scheduled flights on specific dates with a specific aircraft and price. Two service interfaces are defined in _srv/admin-service.cds_, and _srv/data-service.cds_, to serve different use cases as shown below: -",
+      "readme_headings": [
+        "@capire/xflights",
+        "Table of Contents",
+        "Domain Model",
+        "Service Interfaces",
+        "Exporting APIs",
+        "Publishing APIs",
+        "Consuming APIs",
+        "Using Workspaces",
+        "Using Proxy Packages",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "8d3815ced323131bc22f6165bc2ac19953fd1f09",
+          "size": 453,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/hana",
+            "@cap-js/sqlite",
+            "@sap/cds"
+          ]
+        },
+        {
+          "path": "apis/data-service/package.json",
+          "sha": "42f96ea9dbab0f7feec4408bd8969f041773c969",
+          "size": 148,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "apis/data-service/shortcut/package.json",
+          "sha": "61fcfc24b2f4705d2f89a9493f767349325d4d7e",
+          "size": 184,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@capire/xflights"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:35+00:00"
     },
     "capire/xflights-java": {
       "id": 1071468492,
@@ -1673,12 +1796,107 @@
         "reuse"
       ],
       "last_seen_scan_id": "2026-11-23T20:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "CAP CDS": 4453,
+        "JavaScript": 3063,
+        "Java": 303
+      },
+      "readme_url": "https://github.com/capire/xflights-java/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "eb1fd10841b3c263cc9d807a0dab320a9f004145",
+      "readme_excerpt": "This is a CAP Java application that manages master data like Airlines, Airports, and Flights. It provides a reuse package for clients to consume this data. It is used in the xtravels-java application. To start the `xflights` application, run the `Application` class in your preferred IDE. Alternatively, execute `mvn spring-boot:run` on the command line. You can reuse the client package by adding it to your dependencies in your app's `pom.xml`: The reuse package is published to the GitHub Packages registry, which requires you to authenticate to GitHub's Maven repository by adding the following to your `~/.m2/settings.xml`: As password you're using",
+      "readme_headings": [
+        "capire/xflights-java",
+        "Run",
+        "Reuse",
+        "Usage",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "8168426c24d36d93e690927311baf9ce35344673",
+          "size": 275,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/sqlite",
+            "@sap/cds-dk"
+          ]
+        },
+        {
+          "path": "pom.xml",
+          "sha": "04e020e6795324ef66e6d048104449bfd5c34a4e",
+          "size": 5411,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cds-maven-plugin",
+            "cds-services-bom",
+            "flatten-maven-plugin",
+            "java-bom",
+            "maven-compiler-plugin",
+            "maven-enforcer-plugin",
+            "maven-surefire-plugin",
+            "spotless-maven-plugin",
+            "spring-boot-dependencies",
+            "spring-boot-maven-plugin",
+            "xflights-parent"
+          ]
+        },
+        {
+          "path": "db/package.json",
+          "sha": "c721ccce8037dc72070df8aecc51c9b113e8d3f0",
+          "size": 355,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@sap/hdi-deploy",
+            "hdb"
+          ]
+        },
+        {
+          "path": "srv/pom.xml",
+          "sha": "4a5a8c8beb8f0d626187a0ce2966fcb31b2f3e16",
+          "size": 4433,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cds-adapter-hcql",
+            "cds-adapter-odata-v4",
+            "cds-maven-plugin",
+            "cds-starter-cloudfoundry",
+            "cds-starter-spring-boot",
+            "h2",
+            "spring-boot-devtools",
+            "spring-boot-maven-plugin",
+            "spring-boot-starter-actuator",
+            "spring-boot-starter-test",
+            "xflights",
+            "xflights-parent"
+          ]
+        },
+        {
+          "path": "apis/data-service/pom.xml",
+          "sha": "e0b2fbaff8852824de3ca8f9a999f344f1b02842",
+          "size": 2651,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cds-feature-remote-hcql",
+            "cds-maven-plugin",
+            "flatten-maven-plugin",
+            "maven-clean-plugin",
+            "xflights-data",
+            "xflights-parent"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:37+00:00"
     },
     "capire/xtravels": {
       "id": 1011076044,
@@ -1708,12 +1926,80 @@
         "reuse"
       ],
       "last_seen_scan_id": "2026-11-23T20:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 54919,
+        "CAP CDS": 40439,
+        "HTML": 1206
+      },
+      "readme_url": "https://github.com/capire/xtravels/blob/main/readme.md",
+      "readme_path": "readme.md",
+      "readme_sha": "3d14cbd06344fb511406e042d29ddd299a61909e",
+      "readme_excerpt": "A travel booking application using master data provided by capire/xflights. git clone https://github.com/capire/xtravels cd xtravels npm install The package has dependencies to other `@capire` packages, including _`@capire/xflights-data`_, that can be pulled from GitHub Packages or from a local workspace setup as follows... Reuse packages among the *capire samples* are published to the GitHub Packages registry, which requires you to `npm login` once like that: npm login --scope=@capire --registry=https://npm.pkg.github.com When prompted for a password enter a Personal Access Token (classic) with `read:packages` scope. Learn more about that in Authenticating to GitHub Packages. A successfull `npm login` adds entries like that to",
+      "readme_headings": [
+        "@capire/xtravels",
+        "Get it",
+        "Using GitHub Packages",
+        "Using Workspaces",
+        "Run it",
+        "Additional Examples",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "1bc058e8ad8c54a0fdb511516647b3818a3cab27",
+          "size": 1112,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-test",
+            "@cap-js/sqlite",
+            "@capire/common",
+            "@capire/s4",
+            "@capire/xflights-data",
+            "@sap/cds"
+          ]
+        },
+        {
+          "path": "app/travels/package.json",
+          "sha": "1a827f6c35274b80d7845de52f56b59894ee8077",
+          "size": 342,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@ui5/cli",
+            "ui5-task-zipper"
+          ]
+        },
+        {
+          "path": "srv/events/package.json",
+          "sha": "cb7de10e1aadfccbed0c9c228bedb9a8f682d107",
+          "size": 127,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/agents",
+            "@cap-js/mcp"
+          ]
+        },
+        {
+          "path": "srv/hotels/package.json",
+          "sha": "4980d0388e0f4803c7bc21cf963a6dd1afaffacd",
+          "size": 127,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/agents",
+            "@cap-js/mcp"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:38+00:00"
     },
     "capire/xtravels-java": {
       "id": 1071471240,
@@ -1744,12 +2030,131 @@
         "reuse"
       ],
       "last_seen_scan_id": "2026-11-23T20:36:32+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 40227,
+        "CAP CDS": 28818,
+        "HTML": 1214,
+        "Clean": 863,
+        "JavaScript": 255
+      },
+      "readme_url": "https://github.com/capire/xtravels-java/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5eb3df07df7a53fd6faca17aaed1d5d348ccd897",
+      "readme_excerpt": "A travel booking application built with CAP Java using master data provided by capire/xflights-java. git clone https://github.com/capire/xtravels-java cd xtravels-java mvn package The package has dependencies to other `capire` packages, including _`sap.capire/xflights-data`_, that can be pulled from GitHub Packages or from a local workspace setup as follows... Reuse packages among the *capire samples* are published to the GitHub Packages registry. This includes Maven packages as well as NPM packages. Authenticate to GitHub's Maven repository by adding the following to your `~/.m2/settings.xml`: As password you're using a Personal Access Token (classic) with `read:packages` scope. Read more about it in Authenticating to GitHub",
+      "readme_headings": [
+        "@capire/xtravels-java",
+        "Get it",
+        "Using GitHub Packages",
+        "Authenticate for Maven",
+        "Authenticate for NPM",
+        "Using Workspaces",
+        "Run it",
+        "With xflights",
+        "Additional Examples",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "a799de10ea02099ed43949fa8ac7b05e24ad46ea",
+          "size": 340,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@capire/common",
+            "@sap/ams",
+            "@sap/cds",
+            "@sap/cds-dk"
+          ]
+        },
+        {
+          "path": "pom.xml",
+          "sha": "94d9074d6f2fa81d2d0ca739f9e187f846ddf7f9",
+          "size": 6430,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cds-maven-plugin",
+            "cds-services-bom",
+            "flatten-maven-plugin",
+            "java-bom",
+            "langchain4j-bom",
+            "maven-compiler-plugin",
+            "maven-enforcer-plugin",
+            "maven-surefire-plugin",
+            "sdk-modules-bom",
+            "spotless-maven-plugin",
+            "spring-boot-dependencies",
+            "spring-boot-maven-plugin",
+            "xtravels-parent"
+          ]
+        },
+        {
+          "path": "app/package.json",
+          "sha": "beb69165785c905931d76a53a6fafecfafd7d92c",
+          "size": 160,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@sap/approuter"
+          ]
+        },
+        {
+          "path": "db/package.json",
+          "sha": "c721ccce8037dc72070df8aecc51c9b113e8d3f0",
+          "size": 355,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@sap/hdi-deploy",
+            "hdb"
+          ]
+        },
+        {
+          "path": "srv/pom.xml",
+          "sha": "6c490fc4828891eea971de967d3cde1af94869c5",
+          "size": 6355,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cds-adapter-agent",
+            "cds-adapter-odata-v4",
+            "cds-feature-flow",
+            "cds-maven-plugin",
+            "cds-starter-cloudfoundry",
+            "cds-starter-spring-boot",
+            "dcl-compiler-plugin",
+            "h2",
+            "langchain4j-ollama",
+            "spring-boot-devtools",
+            "spring-boot-maven-plugin",
+            "spring-boot-starter-actuator",
+            "spring-boot-starter-cap-ams",
+            "spring-boot-starter-cap-ams-test",
+            "spring-boot-starter-security",
+            "spring-boot-starter-security-test",
+            "spring-boot-starter-test",
+            "spring-boot-starter-webmvc-test",
+            "xflights-data",
+            "xtravels",
+            "xtravels-parent"
+          ]
+        },
+        {
+          "path": "app/travels/package.json",
+          "sha": "a1a7f25c1c2ef584c56ac909a2af2e52cc245ee3",
+          "size": 360,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@sap/ux-ui5-tooling"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:41+00:00"
     }
   },
   "pages_fetched": 1,

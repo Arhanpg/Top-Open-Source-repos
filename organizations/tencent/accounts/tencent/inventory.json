@@ -970,12 +970,117 @@
         "speculative-decoding"
       ],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 3847714,
+        "Shell": 24318,
+        "Makefile": 382
+      },
+      "readme_url": "https://github.com/Tencent/AngelSpec/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "25e94bc05e3aef89d8237bcb8b7a726d9c4fd2b2",
+      "readme_excerpt": "**A unified training framework for MTP and block-parallel speculative decoding** AngelSpec is developed by the Tencent Hunyuan AI Infra team, which is a torch-native framework for training speculative-decoding draft models, covering both autoregressive MTP drafting and the block-parallel DFlash family. It is the training framework behind the technical report: all drafters in the report — the TTT-trained MTP drafter and the DFly family — are trained and released with it. - **[2026/11/20]** We add training for **DFly2** on **Hy4**. 🔥🔥🔥 - **[2026/11/18]** We release **AngelSpec v0.2.0**, adding training for **DFly2**, the speculative-decoding drafter that ships with **Hy4 flash**. DFly2 reuses",
+      "readme_headings": [
+        "Latest News",
+        "Key Features",
+        "Architecture",
+        "Draft Architectures",
+        "DFly2",
+        "Quick Start",
+        "Install AngelSpec + the vLLM backend",
+        "Single-node quickstart (8 GPUs: 4 inference + 4 training)",
+        "Override config values from CLI",
+        "Examples",
+        "Released Models",
+        "Benchmark",
+        "Offline Throughput (HY3-295B-A21B, TP=8)",
+        "License",
+        "Citation",
+        "Projects in teams"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "3669fcea2200394fee0c8cadbfd0139f796df503",
+          "size": 382,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "5c668754ba86bf93886cae7cee4200eb1be9732e",
+          "size": 1504,
+          "content_status": "captured",
+          "dependency_hints": [
+            "accelerate",
+            "cmake",
+            "datasets",
+            "flash-attn-4",
+            "ninja",
+            "numba",
+            "numpy",
+            "nvidia-cutlass-dsl",
+            "nvidia-cutlass-dsl-libs-base",
+            "omegaconf",
+            "openai",
+            "openai-harmony",
+            "packaging",
+            "pre-commit",
+            "psutil",
+            "pydantic",
+            "pytest",
+            "pyzmq",
+            "qwen-vl-utils",
+            "ray",
+            "ruff",
+            "setuptools",
+            "swanlab",
+            "tilelang",
+            "tqdm",
+            "transformers",
+            "vllm",
+            "wandb"
+          ]
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "f2529d9890a62640900e86e356d96b80117c8a9c",
+          "size": 828,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/requirements.txt",
+          "sha": "605c292f939ea3ba1a3a9075b8fbe4a9763ec1d6",
+          "size": 98,
+          "content_status": "captured",
+          "dependency_hints": [
+            "myst-parser",
+            "sphinx",
+            "sphinx-autobuild",
+            "sphinx-book-theme",
+            "sphinx-copybutton",
+            "sphinx-design",
+            "sphinx-tabs"
+          ]
+        },
+        {
+          "path": "angelspec/controller/setup.py",
+          "sha": "899c4770570768fd3506dad6ad8a686e8a0d2a55",
+          "size": 12758,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:35:06+00:00"
     },
     "Tencent/AnomalyDetection_Real-IAD": {
       "id": 823505979,
@@ -998,12 +1103,60 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 188475,
+        "Shell": 7047
+      },
+      "readme_url": "https://github.com/Tencent/AnomalyDetection_Real-IAD/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ea8b51a64d89a9d5435adc9bc080e68ef2551d28",
+      "readme_excerpt": "Official experiment example of Real-IAD Dataset using UniAD - Download jsons of Real-IAD dataset (named `realiad_jsons.zip`) and extract into `data/Real-IAD/` - Download images (of resolution 1024 pixels) of Real-IAD dataset (one ZIP archive per object) and extract them into `data/Real-IAD/realiad_1024/` - [Optional] Download images (original resolution) of Real-IAD dataset (one ZIP archive per object) and extract them into `data/Real-IAD/realiad_raw/` if you want to conduct experiments on the raw images The Real-IAD dataset directory should be as follow: (`audiojack` is one of the 30 objects in Real-IAD) data └── Real-IAD ├── realiad_1024 │ ├── audiojack │ │ │── *.jpg │ │",
+      "readme_headings": [
+        "Real-IAD Dataset",
+        "1. Preparation",
+        "1.1. Download the decompress the dataset",
+        "1.2. Setup environment",
+        "2. Training",
+        "3. Evaluating",
+        "Acknowledgement",
+        "Notice"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "5235b4be417c856054f11e83280e9637c2918be5",
+          "size": 204,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Pillow",
+            "PyYAML",
+            "easydict",
+            "einops",
+            "numpy",
+            "opencv-python",
+            "pycryptodome",
+            "scikit-image",
+            "scikit-learn",
+            "scipy",
+            "tabulate",
+            "timm",
+            "torch",
+            "torchvision",
+            "tqdm",
+            "wheel"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:35:08+00:00"
     },
     "Tencent/APEX-SQL-Project": {
       "id": 1241975714,
@@ -1030,12 +1183,75 @@
         "text-to-sql"
       ],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 596254
+      },
+      "readme_url": "https://github.com/Tencent/APEX-SQL-Project/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b5c21d35435537a95b0f383e844b6953a790972f",
+      "readme_excerpt": "**APEX-SQL** is an agentic Text-to-SQL framework that shifts the paradigm from *passive schema perception* to *agentic exploration*. Central to our approach is a **Hypothesis-Verification (H-V) loop**, where the agent formulates logical assumptions based on the user question and validates them by executing exploratory SQLs against actual data. This transforms Text-to-SQL from a static translation task into an interactive reasoning task grounded in database reality. 📄 **Paper**: APEX-SQL: Talking to the data via Agentic Exploration for Text-to-SQL APEX-SQL/ ├── BIRD/ # Implementation for the BIRD benchmark (SQLite) └── Spider2/ # Implementation for the Spider 2.0-Snow benchmark (Snowflake) APEX-SQL applies agentic exploration",
+      "readme_headings": [
+        "APEX-SQL",
+        "Repository Structure",
+        "Framework Overview",
+        "Stage 1 — Agentic Exploration for Schema Linking",
+        "Stage 2 — Agentic Exploration for SQL Generation",
+        "Workflow Diagram",
+        "Results",
+        "Benchmarks"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "BIRD/requirements.txt",
+          "sha": "e021f0c6a242e5036d6b6e503413383017235de9",
+          "size": 121,
+          "content_status": "captured",
+          "dependency_hints": [
+            "func_timeout",
+            "json_repair",
+            "numpy",
+            "openai",
+            "pandas",
+            "requests",
+            "sqlglot",
+            "sqlparse",
+            "tqdm"
+          ]
+        },
+        {
+          "path": "Spider2/requirements.txt",
+          "sha": "3c38d847101c97d968355b615baa99261f6bf3db",
+          "size": 232,
+          "content_status": "captured",
+          "dependency_hints": [
+            "duckdb",
+            "func_timeout",
+            "gdown",
+            "google-cloud-bigquery",
+            "json_repair",
+            "matplotlib",
+            "numpy",
+            "openai",
+            "pandas",
+            "snowflake",
+            "spacy",
+            "sqlglot",
+            "sqlparse",
+            "tqdm",
+            "transformers"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:35:09+00:00"
     },
     "Tencent/awesome-devbuddy": {
       "id": 1112922149,
@@ -1058,12 +1274,66 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 83552,
+        "HTML": 74755,
+        "Makefile": 8148
+      },
+      "readme_url": "https://github.com/Tencent/awesome-devbuddy/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "035bea89a6c17e28cffb0b2c1ed779f9d0ace74e",
+      "readme_excerpt": "- 内容介绍 - 项目结构 - 快速开始 - 核心组件 - Subagents - 专业AI助手 - Commands - 自动化命令 - Skills - 技能扩展 - 详细使用指南 - 配置文件说明 - 环境与依赖 - 常见问题 - 维护与合规 本项目的内容包含： - 🤖 **6 个专业 Subagents** - 涵盖前端开发、架构设计、代码审查、调试、测试等场景 - 🛠️ **3 个自动化 Commands** - 一键执行代码审查、API文档生成、测试生成 - 🎓 **1 个专业 Skill** - Web应用测试完整教程（Playwright + 9个渐进式示例） - 📋 **1 套开发规范** - 磐石后端接口开发规范（包含接口命名、字段规范、错误码等） awesome-codebuddy/ ├── .codebuddy/ # 🎯 核心配置目录 │ ├── agents/ # AI 助手定义 │ │ ├── frontend-developer.md # 前端开发者（React/Next.js + Vue 3） │ │ ├── backend-architect.md # 后端架构师 │ │ ├── code-reviewer.md # 代码审查专家 │ │ ├── data-scientist.md # 数据分析师 │",
+      "readme_headings": [
+        "Awesome CodeBuddy",
+        "📋 目录",
+        "内容介绍",
+        "项目结构",
+        "快速开始",
+        "前置要求",
+        "🚀 30秒快速安装",
+        "1. 克隆仓库",
+        "2. 复制配置到你的项目",
+        "3. 开始使用",
+        "在 CodeBuddy Code 中就可以使用了！",
+        "核心组件",
+        "Subagents - 专业AI助手",
+        "📝 使用示例：Backend Architect",
+        "Commands - 自动化命令",
+        "📝 使用示例：代码审查",
+        "输出内容包括:",
+        "✅ 代码质量问题",
+        "✅ 安全漏洞检查",
+        "✅ 性能瓶颈分析",
+        "✅ 架构设计评估",
+        "✅ 测试覆盖率建议",
+        "Skills - 技能扩展",
+        "🎓 webapp-testing - Web应用测试技能",
+        "1. 进入教程目录",
+        "2. 查看所有可用命令",
+        "3. 运行第一个示例",
+        "4. 运行所有示例",
+        "详细使用指南",
+        "🎯 场景一：架构设计"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": ".codebuddy/skills/webapp-testing/examples/tutorial/Makefile",
+          "sha": "6ea080549e62c523b5e729ffc8cd38b98555b469",
+          "size": 8148,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:35:10+00:00"
     },
     "Tencent/behaviac": {
       "id": 74328027,
@@ -1095,12 +1365,79 @@
         "unity"
       ],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C#": 9460920,
+        "C++": 4624326,
+        "C": 151803,
+        "Makefile": 131447,
+        "CMake": 40759,
+        "HTML": 18337,
+        "Batchfile": 5055,
+        "Shell": 2694,
+        "Java": 2143
+      },
+      "readme_url": "https://github.com/Tencent/behaviac/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "989a8373501ed4c651b6ad55509591f8fb7277bf",
+      "readme_excerpt": "- behaviac是游戏AI的开发框架组件，也是游戏原型的快速设计工具 - 支持行为树BT，状态机FSM，HTN等多种范式 - 方便的编辑，实时和离线调试 - 支持全平台，适用于客户端和服务器，助力游戏快速迭代开发 - 官方网站是文档，教程，API，FAQ，源码，下载等一切的入口 - 您可以加入我们的QQ群433547396获得即时的帮助或者信息反馈。 - BehaviacSetup*.exe是安装包，内含可执行的编辑器及示例。如需要自行构建，需要去官方网站或github behaviac下载或克隆源码，然后可以访问build获取构建帮助 - behaviac is a framework of the game AI development, and it also can be used as a rapid game prototype design tool - behaviac supports the behavior tree, finite state machine and hierarchical task network - Behaviors can be designed and debugged in the designer, exported and executed by the game - The designer can only run on the Windows platforms, The run time library is implemented with C++ and C#, and it supports all major platforms (Windows, Linux, Android, iOS, Unity etc.) and",
+      "readme_headings": [
+        "[访问http://www.behaviac.com/获取文档，教程，API，FAQ，源码，下载等一切相关资料](http://www.behaviac.com/)",
+        "[Visist http://www.behaviac.com/ for documents, tutorials, FAQs and all other information](http://www.behaviac.com/)"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "3321d909938ec9527c750dd34d22ca7721d165a7",
+          "size": 16293,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "build/android_vs2015/behaviac_android.sln",
+          "sha": "69dab9eabef97e57a6bb8908a5724ec2e9232142",
+          "size": 4467,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "integration/demo_running/demo_running.csproj",
+          "sha": "ffd0ce2f6ba2d455c927d90ce2be565bc7796197",
+          "size": 7918,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "integration/demo_running/demo_running.sln",
+          "sha": "14d54237eef1b7e53d3ae0e0b2bf3cb9ac38e88f",
+          "size": 970,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "projects/gmake/Makefile",
+          "sha": "6cd3e0bf607535afab962df7506360e393b5a443",
+          "size": 5253,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "projects/vs2010/behaviac.sln",
+          "sha": "bc6321c9e8f6ef39f0bd410ca6c479a0aa746dd3",
+          "size": 22118,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:35:13+00:00"
     },
     "Tencent/Biny": {
       "id": 104989026,
@@ -1128,12 +1465,48 @@
         "web"
       ],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "PHP": 504123,
+        "CSS": 29247,
+        "JavaScript": 10137
+      },
+      "readme_url": "https://github.com/Tencent/Biny/blob/master/ReadMe.md",
+      "readme_path": "ReadMe.md",
+      "readme_sha": "def04ab0bc341f66a3e169e4edfd7eb2c30e34f9",
+      "readme_excerpt": "Biny是一款高性能的轻量级PHP框架 遵循 MVC 模式，用于快速开发现代 Web 应用程序 Biny代码简洁优雅，对应用层，数据层，模板渲染层的封装简单易懂，能够快速上手使用 高性能，框架响应时间在1ms以内 Biny is a high-performance lightweight PHP framework. It follows the MVC pattern for rapid development of modern Web applications. Biny's code is simple and elegant. Its application, data, and template-rendering layers are wrapped in a straightforward, easy-to-understand way — making it quick to pick up. Biny is high performance: the framework's own response time is under 1ms by default, and single-machine QPS easily reaches 3000+. 支持跨库连表，条件复合筛选，查询PK缓存等 支持RESTful，类的自动化加载管理 支持Form表单验证，支持事件触发机制 支持浏览器端调试，快速定位程序问题和性能瓶颈 具有sql防注入，html自动防xss等特性 Support cross-database JOINs, compound conditional filtering, primary-key query caching, etc. Supports RESTful routing and automatic class loading. Supports Form validation and an",
+      "readme_headings": [
+        "Biny",
+        "功能介绍 Function introduction",
+        "使用文档 documents",
+        "第三方组件接入 Extensions",
+        "FAQ",
+        "常见问题 Common Problems"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "composer.json",
+          "sha": "cbfb155c42305b72107a49174358a9a443ee7541",
+          "size": 1238,
+          "content_status": "captured",
+          "dependency_hints": [
+            "ext-json",
+            "ext-mbstring",
+            "ext-mysqli",
+            "phpstan/phpstan",
+            "phpunit/phpunit"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:35:15+00:00"
     },
     "Tencent/BlazerML-tvm": {
       "id": 464327715,
@@ -1156,12 +1529,100 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 15107094,
+        "C++": 10886668,
+        "Rust": 386479,
+        "C": 345500,
+        "Shell": 223873,
+        "CMake": 202484,
+        "Java": 199950,
+        "Go": 111527,
+        "TypeScript": 94385,
+        "Objective-C++": 87655,
+        "Makefile": 67074,
+        "Cython": 28979,
+        "Objective-C": 24259,
+        "Cuda": 16902,
+        "JavaScript": 15305,
+        "Batchfile": 4093,
+        "HTML": 2664,
+        "RenderScript": 1895
+      },
+      "readme_url": "https://github.com/Tencent/BlazerML-tvm/blob/TPAT/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d96038d17804bc748ad091bf403f8cd0890151b9",
+      "readme_excerpt": "============================================== Apache TVM is a compiler stack for deep learning systems. It is designed to close the gap between the productivity-focused deep learning frameworks, and the performance- and efficiency-focused hardware backends. TVM works with deep learning frameworks to provide end to end compilation to different backends. License TVM is licensed under the Apache-2.0 license. Getting Started Check out the TVM Documentation site for installation instructions, tutorials, examples, and more. The Getting Started with TVM tutorial is a great place to start. Contribute to TVM TVM adopts apache committer model, we aim to create an open source project that is maintained",
+      "readme_headings": [],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "7293abb60f7ce143fc343758f4a567b6a04b2d33",
+          "size": 28536,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "8ebbea610f5769b8a64fbeaf0c8c307afb78f3bc",
+          "size": 5083,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "5cca711ddbe6e38ea3297bf6797b9afd9eb34dbb",
+          "size": 1182,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "e04e324a0f80b226e5bc4c41fae22304f3cb346a",
+          "size": 9954,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "golang/Makefile",
+          "sha": "181ecdf368b8dade10cc6047522021f64203aae7",
+          "size": 2873,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "jvm/pom.xml",
+          "sha": "1aeaa0e579214b4b5edf53342e239bacc2b0a1fe",
+          "size": 5886,
+          "content_status": "captured",
+          "dependency_hints": [
+            "build-helper-maven-plugin",
+            "maven-assembly-plugin",
+            "maven-compiler-plugin",
+            "maven-dependency-plugin",
+            "maven-deploy-plugin",
+            "maven-gpg-plugin",
+            "maven-install-plugin",
+            "maven-jar-plugin",
+            "maven-javadoc-plugin",
+            "maven-resources-plugin",
+            "maven-source-plugin",
+            "native-maven-plugin",
+            "nexus-staging-maven-plugin",
+            "tvm4j-parent"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:35:17+00:00"
     },
     "Tencent/BlockFusion": {
       "id": 813473905,
@@ -1184,12 +1645,43 @@
       "open_issues": 8,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 12790297,
+        "Jupyter Notebook": 16371
+      },
+      "readme_url": "https://github.com/Tencent/BlockFusion/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "485a74d33ac36e3ddf88e5f25a57d44a248a9bf9",
+      "readme_excerpt": "This repo contains the official implementation for the paper \"BlockFusion: Expandable 3D Scene Generation using Latent Tri-plane Extrapolation\". We modified diffusers to adapt triplane structure. Users should build based on the ```./src``` python setup.py install Pretrained weights of MLP, VAE, and Diffuser(Condition/Unconditioned). [Download the model here [10GB]](https://drive.google.com/file/d/19cuQihXzxq9fcM_drMWMhmwHBdT3B8fA/view?usp=sharing) and extract to ```./checkpoints```. To do uncondtional inference, run python unconditioned_prediction.py --batch 4 --save output/uncond To do single block conditional inference, run python conditioned_prediction.py --layout samplelayouts/exp1_32-56-24/0_0.npy --save output/cond We provide some sample layouts for demo. If you would like to draw your own layout maps, you can use ```drawtkinter.py``` to create your own",
+      "readme_headings": [
+        "BlockFusion: Expandable 3D Scene Generation using Latent Tri-plane Extrapolation",
+        "ACM Transactions on Graphics (SIGGRAPH'24)",
+        "[Project page](https://yang-l1.github.io/blockfusion/) | [Paper](https://arxiv.org/abs/2401.17053) | [Video](https://www.youtube.com/watch?v=PxIBtd6G0mA)",
+        "Installation",
+        "clone this repo",
+        "Pretrained model",
+        "Inference",
+        "Citation"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "setup.py",
+          "sha": "93d5edb7f0c45581cd2abbc6f99f8822bbac4a2f",
+          "size": 10763,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:35:19+00:00"
     },
     "Tencent/BqLog": {
       "id": 837543581,
@@ -1233,12 +1725,108 @@
         "vcpkg"
       ],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 3815781,
+        "Java": 322969,
+        "C#": 251351,
+        "C": 233124,
+        "Shell": 144042,
+        "CMake": 143759,
+        "Go": 111032,
+        "Python": 96258,
+        "TypeScript": 95987,
+        "Batchfile": 57642,
+        "JavaScript": 33315,
+        "Objective-C++": 6607,
+        "Verse": 4592,
+        "PowerShell": 4001,
+        "Ruby": 1705
+      },
+      "readme_url": "https://github.com/Tencent/BqLog/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7d79338742c69c4ec585d5561e7452b0d4b3e6de",
+      "readme_excerpt": "**English** | 简体中文 - If your client product (especially games) wants to satisfy this \"impossible triangle\" at the same time: - Easy troubleshooting (log as much as possible) - Good performance (log as little as possible) - Save storage space (better not log at all) - If you are a backend service developer and your current logging library cannot handle **high-concurrency scenarios**, causing log loss or application stalls. - If your programming language is one of C++, Java, C#, Kotlin, TypeScript, JavaScript, Python, Go, or you use multiple languages at the same time and want a **unified cross-language logging solution**.",
+      "readme_headings": [
+        "BqLog (BianQue Log) V 2.8.1",
+        "💡 If you have the following pain points, try BqLog",
+        "🎯 What BqLog is for",
+        "📋 What's New in v2.8.x",
+        "📋 What's New in v2.7.x",
+        "📋 What's New in v2.6.x",
+        "✨ Highlights",
+        "🖥️ Supported platforms & languages",
+        "📦 Install",
+        "📖 Why is BqLog so fast? — a three-part series",
+        "🏗️ Architecture",
+        "🚀 Quick Start",
+        "C++",
+        "Java",
+        "C#",
+        "TypeScript (Node.js)",
+        "Python",
+        "Go",
+        "TypeScript (HarmonyOS / OpenHarmony ArkTS)",
+        "📊 Benchmark results",
+        "🔄 Changes from 1.x to 2.x",
+        "📑 Documentation",
+        "🤝 How to contribute"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "734c04671c6ee899023347fb09451ff7b13e4a80",
+          "size": 1202,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pack/CMakeLists.txt",
+          "sha": "08e259b9543d1494eade0eb67a13245e8c09ec81",
+          "size": 4049,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/CMakeLists.txt",
+          "sha": "1edc5e6b94393c80b65c21782f49128fc1686381",
+          "size": 24711,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "benchmark/cpp/CMakeLists.txt",
+          "sha": "a7b1eb82fbe4174b5513090c150bc13a2f5bd636",
+          "size": 4260,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "benchmark/go/go.mod",
+          "sha": "e928a970211639709f374abd3d6f28516d11d40c",
+          "size": 145,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/Tencent/BqLog/wrapper/go"
+          ]
+        },
+        {
+          "path": "demo/cpp/CMakeLists.txt",
+          "sha": "13910d09f2c45dccb32375ec01c52e1f9e18ce31",
+          "size": 3954,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:35:21+00:00"
     },
     "Tencent/BrowserSkill": {
       "id": 1276665883,
@@ -1265,12 +1853,195 @@
         "dsh-plugin"
       ],
       "last_seen_scan_id": "2026-11-23T20:41:30+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 8404063,
+        "Rust": 4626967,
+        "JavaScript": 503434,
+        "HTML": 245338,
+        "Python": 214779,
+        "PowerShell": 42990,
+        "CSS": 12207,
+        "Shell": 6059
+      },
+      "readme_url": "https://github.com/Tencent/BrowserSkill/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "569200c9d68c4150263cdf6cf90c79a7025025d7",
+      "readme_excerpt": "Turn the browser you already use into a workspace for your AI agent. English · <a href=\"README.zh-CN.md\">中文</a><br /> **BrowserSkill connects your AI agent to Chrome or Microsoft Edge, using your existing logins.** Give it a task to read, click, fill, or investigate. Work stays visible in a separate **Agent Window**, and you can take over when needed. Existing tabs can be explicitly borrowed and returned when the task ends. https://github.com/user-attachments/assets/6111d978-baa6-4a76-92c4-4f51d47ae617 Click the cover to expand the video · <a href=\"docs/assets/demo/browserskill-demo-en.mp4\">Download MP4</a><br /> Real browser actions on a local demo workspace, recorded from main. Qoder, Qoder CN, and DeepSeek Harness are",
+      "readme_headings": [
+        "BrowserSkill",
+        "See it in action",
+        "Bring the agent you already use",
+        "What you can do",
+        "Quick Start",
+        "Let your agent set it up",
+        "1. Install the CLI",
+        "2. Connect the extension",
+        "3. Install the skill for your agent",
+        "4. Check the connection",
+        "Try your first task",
+        "Close an unused Agent Window",
+        "DeepSeek Harness plugin",
+        "Website debugging",
+        "More workflows",
+        "Capture a full page",
+        "Choose a browser profile",
+        "Run the agent on a server",
+        "Browser control and privacy",
+        "Updating",
+        "Documentation",
+        "For Developers",
+        "Contributors",
+        "License",
+        "Reading dynamic pages (unreleased, protocol 1.9)"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Cargo.toml",
+          "sha": "32e452f566ad5a07e3bab2b6a9df5e287c008aa6",
+          "size": 1490,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "package.json",
+          "sha": "a27dbe53c0b409cf4403cfcda6b7187a055d398a",
+          "size": 1498,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@biomejs/biome",
+            "ajv",
+            "esbuild",
+            "json-schema-to-typescript",
+            "stylelint",
+            "stylelint-config-standard"
+          ]
+        },
+        {
+          "path": "apps/extension/package.json",
+          "sha": "3f373090f4f7092829c7b5558ca0e9f3a0bcc8a3",
+          "size": 1379,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@browser-skill/i18n",
+            "@browser-skill/ui",
+            "@browser-skill/vom",
+            "@dnd-kit/core",
+            "@dnd-kit/sortable",
+            "@remixicon/react",
+            "@tailwindcss/vite",
+            "@testing-library/dom",
+            "@testing-library/react",
+            "@testing-library/user-event",
+            "@types/chrome",
+            "@types/node",
+            "@types/react",
+            "@types/react-dom",
+            "@types/ws",
+            "@vitejs/plugin-react",
+            "@wxt-dev/module-react",
+            "esbuild",
+            "fake-indexeddb",
+            "happy-dom",
+            "mediabunny",
+            "re2js",
+            "react",
+            "react-dom",
+            "sortablejs",
+            "tailwindcss",
+            "typescript",
+            "vitest",
+            "ws",
+            "wxt"
+          ]
+        },
+        {
+          "path": "crates/bsk-cli/Cargo.toml",
+          "sha": "7526e7cdf399655799df6a9eb8b636e242daa546",
+          "size": 2321,
+          "content_status": "captured",
+          "dependency_hints": [
+            "anyhow",
+            "base64",
+            "bsk-protocol",
+            "bytes",
+            "clap",
+            "console",
+            "csv",
+            "dialoguer",
+            "dirs",
+            "flate2",
+            "fs2",
+            "futures-util",
+            "http-body-util",
+            "hyper",
+            "hyper-util",
+            "rand",
+            "regex",
+            "reqwest",
+            "schemars",
+            "semver",
+            "serde",
+            "serde_json",
+            "sha2",
+            "tar",
+            "tempfile",
+            "thiserror",
+            "time",
+            "tokio",
+            "tokio-rustls",
+            "tokio-tungstenite",
+            "toml_edit",
+            "tracing",
+            "tracing-appender",
+            "tracing-subscriber",
+            "uuid",
+            "zip"
+          ]
+        },
+        {
+          "path": "crates/bsk-protocol/Cargo.toml",
+          "sha": "302859f41f5fd167b3e9147fbd5ba79a4c5ce115",
+          "size": 1017,
+          "content_status": "captured",
+          "dependency_hints": [
+            "base64",
+            "hmac",
+            "indexmap",
+            "schemars",
+            "semver",
+            "serde",
+            "serde_json",
+            "sha2",
+            "thiserror"
+          ]
+        },
+        {
+          "path": "packages/dsh-plugin-browserskill/package.json",
+          "sha": "66eff1573310c41f6c66cb574e8262c9f70bad64",
+          "size": 1907,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@deepseek-ai/cordis",
+            "@deepseek-ai/dsh-llm",
+            "@deepseek-ai/dsh-scope",
+            "@deepseek-ai/dsh-skill",
+            "@deepseek-ai/schemastery",
+            "@types/node",
+            "typescript",
+            "vitest"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:35:23+00:00"
     },
     "Tencent/BuildingBlock": {
       "id": 1148720768,

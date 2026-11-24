@@ -26,9 +26,9 @@
 | [capire/samples-java](https://github.com/capire/samples-java) | A monorepo to work on several projects at once | 1 | Pending | False | False | True | captured | [Open](repositories/samples-java-1118815560.md) |
 | [capire/shared-db](https://github.com/capire/shared-db) | Used to deploy micro services with shared DB | 0 | CAP CDS | False | False | True | captured | [Open](repositories/shared-db-959657171.md) |
 | [capire/shared-db-java](https://github.com/capire/shared-db-java) | No description | 0 | CAP CDS | False | False | True | captured | [Open](repositories/shared-db-java-1118829972.md) |
-| [capire/skills](https://github.com/capire/skills) | Skills for Development of SAP Cloud Application Programming Model | 20 | Pending | False | False | True | pending | Not generated |
-| [capire/university](https://github.com/capire/university) | AI-generated CAP sample | 1 | Pending | False | False | True | pending | Not generated |
-| [capire/xflights](https://github.com/capire/xflights) | Master data service for flights, airlines, airports | 6 | Pending | False | False | True | pending | Not generated |
-| [capire/xflights-java](https://github.com/capire/xflights-java) | Master data service for flights, airlines, airports built with CAP Java | 0 | Pending | False | False | True | pending | Not generated |
-| [capire/xtravels](https://github.com/capire/xtravels) | Travel booking app using master data from xflights | 15 | Pending | False | False | True | pending | Not generated |
-| [capire/xtravels-java](https://github.com/capire/xtravels-java) | Travel booking app using master data from xflights built with CAP Java | 2 | Pending | False | False | True | pending | Not generated |
+| [capire/skills](https://github.com/capire/skills) | Skills for Development of SAP Cloud Application Programming Model | 20 | CAP CDS | False | False | True | captured | [Open](repositories/skills-1263733820.md) |
+| [capire/university](https://github.com/capire/university) | AI-generated CAP sample | 1 | CAP CDS, HTML | False | False | True | captured | [Open](repositories/university-1192835429.md) |
+| [capire/xflights](https://github.com/capire/xflights) | Master data service for flights, airlines, airports | 6 | CAP CDS, JavaScript | False | False | True | captured | [Open](repositories/xflights-1006476807.md) |
+| [capire/xflights-java](https://github.com/capire/xflights-java) | Master data service for flights, airlines, airports built with CAP Java | 0 | CAP CDS, Java, JavaScript | False | False | True | captured | [Open](repositories/xflights-java-1071468492.md) |
+| [capire/xtravels](https://github.com/capire/xtravels) | Travel booking app using master data from xflights | 15 | CAP CDS, HTML, JavaScript | False | False | True | captured | [Open](repositories/xtravels-1011076044.md) |
+| [capire/xtravels-java](https://github.com/capire/xtravels-java) | Travel booking app using master data from xflights built with CAP Java | 2 | CAP CDS, Clean, HTML, Java, JavaScript | False | False | True | captured | [Open](repositories/xtravels-java-1071471240.md) |

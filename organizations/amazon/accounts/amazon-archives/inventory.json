@@ -3762,12 +3762,68 @@
         "aws-appsync"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 2109,
+        "Vue": 1941,
+        "HTML": 565
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-appsync-long-query/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "f279311411e58d832f614e745f50193355d2b8cc",
+      "readme_excerpt": "AWS AppSync has been extended to support directly calling AWS services via HTTP data sources. AppSync will sign requests using the Signature Version 4 process to authorize requests via AWS IAM. This means you can now call a broad array of AWS services without the need to write an intermediary Lambda function. For example, you could start execution of an AWS Step Functions state machine, retrieve a secret from AWS Secrets Manager, or list available GraphQL APIs from AppSync itself directly from an AppSync resolver. In this example, we start execution of an AWS Step Function state machine directly from",
+      "readme_headings": [
+        "AWS Appsync Long Query",
+        "Getting Started",
+        "Prerequisites",
+        "Deployment",
+        "install node modules",
+        "select a unique bucket name",
+        "package for deployment",
+        "deploy cloud resources",
+        "aws_appsync_graphqlEndpoint",
+        "aws_appsync_apiKey",
+        "Cleaning Up",
+        "License Summary"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "client/package.json",
+          "sha": "2feede001339c42d0044d3de9e15056882399cb9",
+          "size": 963,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@vue/cli-plugin-babel",
+            "@vue/cli-plugin-eslint",
+            "@vue/cli-service",
+            "aws-amplify",
+            "aws-amplify-vue",
+            "babel-eslint",
+            "eslint",
+            "eslint-plugin-vue",
+            "vue",
+            "vue-template-compiler"
+          ]
+        },
+        {
+          "path": "result/package.json",
+          "sha": "ac8ccf8bc1a1d5b80b66a7ada4cf87f751c6b0d3",
+          "size": 208,
+          "content_status": "captured",
+          "dependency_hints": [
+            "axios"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:37:52+00:00"
     },
     "amazon-archives/aws-appsync-qldb-data-source": {
       "id": 257345327,
@@ -3794,12 +3850,68 @@
         "aws-qldb"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 19722,
+        "Java": 6907
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-appsync-qldb-data-source/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "65c5f32ff4ade40db6e87a0af0710c5230c5c075",
+      "readme_excerpt": "Pairing QLDB with services such as AWS AppSync allows AWS customers to safely expose both data and the history of that data for mobile applications, websites, or a data lake. This sample project accompanies a series of blog posts on the AWS Database Blog: * Part 1: Building a GraphQL interface to Amazon QLDB with AWS AppSync * Part 2: Building a GraphQL interface to Amazon QLDB with AWS AppSync To get started with aws-appsync-qldb-sample: Select an AWS Region that supports all required services, including Amazon QLDB, AWS AppSync, and AWS Lambda. Amazon QLDB is available today in US East",
+      "readme_headings": [
+        "AWS AppSync + Amazon QLDB",
+        "Getting Started",
+        "Prerequisites",
+        "Loading Sample Data",
+        "Deployment",
+        "Testing",
+        "Working at the DMV",
+        "Exploring the Integration Data Source",
+        "Executing Multiple Queries in Sequence",
+        "Cleaning Up",
+        "Authors"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "LoadSampleDataResource/requirements.txt",
+          "sha": "d799b554c8c5ae4565f3d57a94044293530f13a2",
+          "size": 30,
+          "content_status": "captured",
+          "dependency_hints": [
+            "crhelper",
+            "pyqldb"
+          ]
+        },
+        {
+          "path": "QLDBIntegrationFunction/pom.xml",
+          "sha": "9654bdd19b3ecac554437f6502da8c260401a8bd",
+          "size": 3268,
+          "content_status": "captured",
+          "dependency_hints": [
+            "QLDBIntegration",
+            "amazon-qldb-driver-java",
+            "aws-lambda-java-core",
+            "ion-java",
+            "jackson-dataformat-ion",
+            "jaxb-api",
+            "jmespath-jackson",
+            "junit",
+            "lambda-logging",
+            "lombok",
+            "maven-shade-plugin"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:37:53+00:00"
     },
     "amazon-archives/aws-appsync-rds-aurora-sample": {
       "id": 144206078,
@@ -3832,12 +3944,125 @@
         "rds"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 3506
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-appsync-rds-aurora-sample/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3dabcdcd4e20229258912374d06524931da762dc",
+      "readme_excerpt": "As of 11/20/2018, AWS AppSync supports Aurora Serverless as a native data source. More information is available here: Relational database data sources This sample application will create all of the AWS resources you need to have an AppSync GraphQL API that fronts an RDS Aurora cluster, doing so via a Lambda function. All resources are created with AWS CloudFormation. Specifically, it will provision the AppSync API (including the schema, data source, and all resolvers), the Cognito user pool used for authorization, an RDS cluster that runs on Amazon Aurora MySQL, and a Lambda function to serve as the go-between. Both",
+      "readme_headings": [
+        "AWS AppSync Using Amazon Aurora as a Data Source via AWS Lambda",
+        "Aurora Serverless Data Sources",
+        "Introduction",
+        "Features",
+        "Setting up the Sample",
+        "Create CloudFormation Stack",
+        "From Here",
+        "From the AppSync Console",
+        "Customize Your Own",
+        "Customizing the Lambda",
+        "Setting Up Authorization",
+        "Client Id",
+        "A Created User",
+        "Authorizing on the AppSync Console",
+        "Using the Sample",
+        "License Summary"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "src/lamdaresolver/node_modules/mysql/package.json",
+          "sha": "2a2523a8914692d019a3ed61cdf61968eca4ff62",
+          "size": 3831,
+          "content_status": "captured",
+          "dependency_hints": [
+            "after",
+            "bignumber.js",
+            "eslint",
+            "nyc",
+            "readable-stream",
+            "safe-buffer",
+            "seedrandom",
+            "sqlstring",
+            "timezone-mock",
+            "urun",
+            "utest"
+          ]
+        },
+        {
+          "path": "src/lamdaresolver/node_modules/mysql/node_modules/bignumber.js/package.json",
+          "sha": "9abd5ad53e7a783c7a2009177d9058a24bac4d89",
+          "size": 1964,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/lamdaresolver/node_modules/mysql/node_modules/readable-stream/package.json",
+          "sha": "7cd41f9dd0b00d9ce1c93331e17433809ef90bfe",
+          "size": 2908,
+          "content_status": "captured",
+          "dependency_hints": [
+            "assert",
+            "babel-polyfill",
+            "buffer",
+            "core-util-is",
+            "inherits",
+            "isarray",
+            "lolex",
+            "nyc",
+            "process-nextick-args",
+            "safe-buffer",
+            "string_decoder",
+            "tap",
+            "tape",
+            "util-deprecate"
+          ]
+        },
+        {
+          "path": "src/lamdaresolver/node_modules/mysql/node_modules/safe-buffer/package.json",
+          "sha": "ed43a5e86e79486c18597456ccb9af2911814a5a",
+          "size": 2747,
+          "content_status": "captured",
+          "dependency_hints": [
+            "standard",
+            "tape"
+          ]
+        },
+        {
+          "path": "src/lamdaresolver/node_modules/mysql/node_modules/sqlstring/package.json",
+          "sha": "a2741dc806c2bb249b7fdc73d5fa22724c56568f",
+          "size": 2636,
+          "content_status": "captured",
+          "dependency_hints": [
+            "beautify-benchmark",
+            "benchmark",
+            "eslint",
+            "eslint-plugin-markdown",
+            "nyc",
+            "urun",
+            "utest"
+          ]
+        },
+        {
+          "path": "src/lamdaresolver/node_modules/mysql/node_modules/readable-stream/node_modules/core-util-is/package.json",
+          "sha": "19fb85922bc0356c7059bd92d874f6cedbaf95e0",
+          "size": 1460,
+          "content_status": "captured",
+          "dependency_hints": [
+            "tap"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:37:56+00:00"
     },
     "amazon-archives/aws-appsync-refarch-microservices": {
       "id": 230346805,
@@ -3866,12 +4091,74 @@
         "microservices"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 24362,
+        "Python": 3111,
+        "Shell": 1902,
+        "HTML": 1708,
+        "CSS": 672,
+        "Dockerfile": 285
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-appsync-refarch-microservices/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "fe46ce5861d3c0cc783a13f9b50f248bd1f27c85",
+      "readme_excerpt": "The AWS AppSync Serverless GraphQL microservice-access-layer reference architecture showcases AWS AppSync as a single interface to access and combine data from multiple microservices running in different environments : - **UserService:** RESTful API built using Amazon API Gateway and AWS Lambda - **OrderService:** GraphQL API on different AWS AppSync endpoint - **PaymentService:** Containerized service running inside an isolated VPC with no internet access The sample app is based on a very simple webstore where users can login, and interact with different services. - One-Click Deploy with the Amplify Console - Setup local environment - Clean Up 1. **Prerequisites** - AWS Account",
+      "readme_headings": [
+        "AWS AppSync Microservices-Access-Layer Reference Architecture",
+        "Quicklinks",
+        "Getting Started",
+        "One-Click Deploy with the Amplify Console",
+        "Setup local environment",
+        "Clean up"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "bffe66a298de01bb50aa5ce352716f89f06fc2b4",
+          "size": 864,
+          "content_status": "captured",
+          "dependency_hints": [
+            "apollo-link",
+            "apollo-link-http",
+            "aws-amplify",
+            "aws-amplify-react",
+            "aws-appsync",
+            "glamor",
+            "graphql-tag",
+            "react",
+            "react-dom",
+            "react-router-dom",
+            "react-scripts"
+          ]
+        },
+        {
+          "path": "paymentapp/Dockerfile",
+          "sha": "c217da2d31dcaf4969b86402e273d2b929f34eed",
+          "size": 285,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "paymentapp/requirements.txt",
+          "sha": "21620ba9c96b0d9d961446014e87ac9cdb97efc7",
+          "size": 23,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "flask"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:37:57+00:00"
     },
     "amazon-archives/aws-appsync-refarch-offline": {
       "id": 261593844,
@@ -3902,12 +4189,66 @@
         "react-native"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 50237
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-appsync-refarch-offline/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ec726f099bbead72b43aff0df42875fc7df1cb25",
+      "readme_excerpt": "This repository contains the code for a mobile app written in React Native that uses Amplify DataStore and AWS AppSync to provide offline and delta sync capabilities. Use this repository as an example to build your own application. Read the Blog Post about this project for more information: AWS AppSync offline reference architecture – powered by the Amplify DataStore. The theme of this mobile application is a Point of Sale (POS) for a Coffee Shop. What better use case for offline capabilities than a POS app that handles sales and transactions. These type of applications are critical for a business",
+      "readme_headings": [
+        "AppSync Offline Reference Architecture",
+        "Point of Sale",
+        "Architecture Overview",
+        "GraphQL Schema",
+        "How to run it",
+        "Backend",
+        "Frontend"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "754d936aa5412dda8777cf58ccdb6a3bb1abd5fb",
+          "size": 1182,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-amplify/datastore",
+            "@babel/core",
+            "@react-native-community/masked-view",
+            "@react-native-community/netinfo",
+            "@react-navigation/bottom-tabs",
+            "@react-navigation/native",
+            "@react-navigation/stack",
+            "aws-amplify",
+            "babel-preset-expo",
+            "expo",
+            "expo-font",
+            "lodash",
+            "moment",
+            "native-base",
+            "react",
+            "react-dom",
+            "react-native",
+            "react-native-gesture-handler",
+            "react-native-reanimated",
+            "react-native-safe-area-context",
+            "react-native-screens",
+            "react-native-web",
+            "react-redux",
+            "redux"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:37:58+00:00"
     },
     "amazon-archives/aws-appsync-relay": {
       "id": 151639295,
@@ -3930,12 +4271,60 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 18547,
+        "Shell": 1444
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-appsync-relay/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a3de2ee944bb92446adb3ebb757343a530eda1dd",
+      "readme_excerpt": "AWS AppSync Relay ================= This sample project shows how to use the Relay library together with an AWS AppSync backend. See the blog post for more in-depth discussion. Here are links to some of the key technologies used in the project: - AWS AppSync - The AWS Amplify Library - AWS CloudFormation - React - Relay To run locally, you'll first need to deploy the backend in AWS, like this: aws cloudformation package --template-file backend/template.yml --s3-bucket my-package-bucket > packaged_template.yml aws cloudformation deploy --template-file packaged_template.yml --stack-name AppSyncRelay --capabilities CAPABILITY_NAMED_IAM Replace \"my-package-bucket\" with any S3 bucket you want to use to store",
+      "readme_headings": [
+        "Launching the AppSync backend",
+        "Running the app locally",
+        "Deploying the frontend as a static site",
+        "License Summary"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "ba2a39d533b22783ce419e06ac89edaf8887319e",
+          "size": 1010,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@babel/core",
+            "@babel/preset-env",
+            "@babel/preset-react",
+            "@material-ui/core",
+            "@material-ui/icons",
+            "aws-amplify",
+            "aws-amplify-react",
+            "babel-loader",
+            "babel-plugin-relay",
+            "css-loader",
+            "graphql",
+            "html-webpack-plugin",
+            "react",
+            "react-dom",
+            "react-relay",
+            "relay-compiler",
+            "style-loader",
+            "webpack",
+            "webpack-cli",
+            "webpack-dev-server"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:38:00+00:00"
     },
     "amazon-archives/aws-appsync-survey-tool": {
       "id": 198919221,
@@ -3958,12 +4347,81 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 134090,
+        "HTML": 1564,
+        "CSS": 957
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-appsync-survey-tool/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2acd9d90017eda8b92446fac8d52a290f4b0089d",
+      "readme_excerpt": "Sample Survey Tool Progressive Web Application written with React, GraphQL, AWS AppSync & AWS Amplify - Full Progressive Web Application (PWA) - Install (desktop) or Add to Homescreen (mobile) - Offline ready - Adminstration Portal - User management - AWS AppSync - AWS Amplify - GraphQL - React Router - React Apollo - Material UI - Introduction - Getting Started - Prerequisites - Automated Setup - Manual Setup - Clean Up This is a demonstration solution that uses AWS AppSync to implement a survey app as a Progressive Web Application (PWA). In this app, users can complete assigned surveys, including",
+      "readme_headings": [
+        "AWS Appsync Survey Tool",
+        "Features",
+        "Technologies",
+        "Quicklinks",
+        "Introduction",
+        "Getting Started",
+        "Prerequisites",
+        "Automated Setup",
+        "Manual Setup",
+        "Clean Up",
+        "Change Log",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "2997d3884c3ff0dc5ca42ac8f0e6842bbca8c447",
+          "size": 1241,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@date-io/date-fns",
+            "@date-io/moment",
+            "@material-ui/core",
+            "@material-ui/icons",
+            "@material-ui/pickers",
+            "apollo-boost",
+            "apollo-link-state",
+            "aws-amplify",
+            "aws-amplify-react",
+            "aws-appsync",
+            "aws-sdk",
+            "date-fns",
+            "graphql",
+            "graphql-tag",
+            "moment",
+            "react",
+            "react-apollo",
+            "react-big-calendar",
+            "react-dom",
+            "react-router",
+            "react-router-dom",
+            "react-scripts",
+            "uuid"
+          ]
+        },
+        {
+          "path": "amplify/backend/function/surveypwa1a7615c6PostConfirmation/src/package.json",
+          "sha": "fadb1717eaae5e0ee8500deadaf90b9e7144f498",
+          "size": 225,
+          "content_status": "captured",
+          "dependency_hints": [
+            "axios"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:38:01+00:00"
     },
     "amazon-archives/aws-appsync-visualization-with-athena-app": {
       "id": 202016782,
@@ -3991,12 +4449,69 @@
         "aws"
       ],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 33404,
+        "HTML": 1650,
+        "Shell": 857,
+        "CSS": 306
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-appsync-visualization-with-athena-app/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ebe27b621c8cb96d0ca85a00bcedff67ee3af165",
+      "readme_excerpt": "This project shows how to use Amazon Athena, AWS AppSync, and AWS Amplify to build an application that interacts with big data. The application is built using React, the AWS Amplify Javascript library, and the D3.js Javascript library to render custom visualizations. The application code can be found in this GitHub repository. It uses Athena to query data hosted in a public Amazon S3 bucket by the Registry of Open Data on AWS. Specifically, it uses the High Resolution Population Density Maps + Demographic Estimates by CIESIN and Facebook. This public dataset provides \"population data for a selection of countries,",
+      "readme_headings": [
+        "Visualizing big data with AWS AppSync, Amazon Athena, and AWS Amplify",
+        "Updates",
+        "Getting started",
+        "One-click launch",
+        "Clone and launch",
+        "Application Overview"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "bb9d1617f26e65560985ad358fe09495fee1f0ea",
+          "size": 1058,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@fullhuman/postcss-purgecss",
+            "aws-amplify",
+            "aws-amplify-react",
+            "d3",
+            "d3-hexbin",
+            "moment",
+            "postcss-cli",
+            "react",
+            "react-dom",
+            "react-scripts",
+            "tailwindcss"
+          ]
+        },
+        {
+          "path": "amplify/backend/function/initStartQuery/src/package.json",
+          "sha": "bbe9e2a6e983ff6acff80a530a5a1da79285a7cf",
+          "size": 181,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "amplify/backend/function/S3Trigger20d9f806/src/package.json",
+          "sha": "0c9aac2c591fa24281466f678b836256863b3a9e",
+          "size": 162,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:38:03+00:00"
     },
     "amazon-archives/aws-cfn-resource-bridge": {
       "id": 13158324,
@@ -4019,12 +4534,34 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 1126757,
+        "Shell": 5310
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-cfn-resource-bridge/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "c1827e64f261b0b4a41687529f18f77f3bf7298b",
+      "readme_excerpt": "Archived ======== This project has been archived. Please use CloudFormation’s native support for Custom Resources as documented at https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-custom-resources.html. aws-cfn-resource-bridge ======================= A custom resource framework for AWS CloudFormation Installation Clone the repo and run the ```setup.py``` file in the root: python setup.py install You can also use the file to build an RPM: python setup.py bdist_rpm As well as ```python```, the resulting RPM will also depend on ```python-argparse```, ```python-botocore``` and ```python-daemon```, packaged as RPMs. Usage The options for the ```cfn-resource-bridge``` script are shown below. The ```CONFIG_PATH``` needs to contain a file named ```cfn-resource-bridge.conf``` with the details of the incoming custom",
+      "readme_headings": [],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "setup.py",
+          "sha": "b63884d01e1dada7d45e3ac39137cd164e31b52f",
+          "size": 4506,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:38:04+00:00"
     },
     "amazon-archives/aws-cloudtrail-alexa": {
       "id": 64876585,
@@ -4047,12 +4584,87 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:33:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 385785,
+        "Shell": 5085,
+        "Makefile": 3137
+      },
+      "readme_url": "https://github.com/amazon-archives/aws-cloudtrail-alexa/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b90bf0aa83fceb0e8928f7342a2aa9eb1071f5e0",
+      "readme_excerpt": "**How does the Alexa integration with AWS CloudTrail work?** The Alexa integration with AWS CloudTrail uses Alexa-enabled devices and AWS Lambda to access API activity history from an AWS account. You speak to Alexa using an Alexa-enabled device, such as the Amazon Echo, to perform CloudTrail look up requests. For example, you can ask Alexa how many events occurred within a timeframe or ask about the recent activity for a user. You can also ask Alexa to send the results to specified email addresses. **Overview:** 1. Create an IAM role with the necessary permissions to use Alexa. 2. Create an",
+      "readme_headings": [
+        "GitHub ReadMe for Alexa Integration with AWS CloudTrail",
+        "Getting Started",
+        "Step One - Deploying a CloudFormation Stack",
+        "Step Two – Creating the IAM Role",
+        "Step Three – Creating the Lambda Function",
+        "Step Four – Creating the Alexa Skill",
+        "Step Five – Configuring the Lambda Function",
+        "Creating a Custom Look up Function",
+        "Step One: Customizing the Alexa skill",
+        "Step Two – Customizing the Lambda function"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Lambda Files/async/Makefile",
+          "sha": "701f27d6bb37cf2ce1e00ff805b38f8d964e1892",
+          "size": 3137,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Lambda Files/async/package.json",
+          "sha": "d3429f33a33810d61640085246c7443421a056d3",
+          "size": 2034,
+          "content_status": "captured",
+          "dependency_hints": [
+            "babel-cli",
+            "babel-core",
+            "babel-plugin-add-module-exports",
+            "babel-plugin-transform-es2015-modules-commonjs",
+            "babel-preset-es2015",
+            "babelify",
+            "benchmark",
+            "bluebird",
+            "chai",
+            "coveralls",
+            "es6-promise",
+            "eslint",
+            "fs-extra",
+            "jscs-jsdoc",
+            "karma",
+            "karma-browserify",
+            "karma-firefox-launcher",
+            "karma-mocha",
+            "karma-mocha-reporter",
+            "lodash",
+            "lodash-es",
+            "mocha",
+            "native-promise-only",
+            "nyc",
+            "recursive-readdir",
+            "rimraf",
+            "rollup",
+            "rollup-plugin-node-resolve",
+            "rollup-plugin-npm",
+            "rsvp",
+            "semver",
+            "uglify-js",
+            "yargs"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:38:05+00:00"
     },
     "amazon-archives/aws-codepipeline-block-production": {
       "id": 74646905,

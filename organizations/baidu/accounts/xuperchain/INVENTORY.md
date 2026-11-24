@@ -16,16 +16,16 @@
 | [xuperchain/contract-sdk-py](https://github.com/xuperchain/contract-sdk-py) | The Python SDK for XuperChain smart contract | 0 | JavaScript, Python | False | False | True | captured | [Open](repositories/contract-sdk-py-353897382.md) |
 | [xuperchain/crypto](https://github.com/xuperchain/crypto) | This project is the crypto library for XuperChain. Ring signature, multi signature, schnorr signature, secret share, hierarchical deterministic encryption, threshold signature scheme(tss schnorr) , bls signature have been supported.目前开源部分已经支持了Xuper统一超级签名算法、Schnorr签名，环签名、多重签名，tss(schnorr)门限签名，BLS签名等多种签名算法。也支持了秘密分享、分层确定性加解密等多种密码学能力。 | 65 | Go, Makefile, Shell | False | False | True | captured | [Open](repositories/crypto-249356348.md) |
 | [xuperchain/docs](https://github.com/xuperchain/docs) | The documents of xuperchain. | 18 | Batchfile, CSS, Dockerfile, HTML, JavaScript, Makefile, Python, Shell | False | False | True | captured | [Open](repositories/docs-198141768.md) |
-| [xuperchain/eth-proxy](https://github.com/xuperchain/eth-proxy) | No description | 0 | Pending | False | False | True | pending | Not generated |
-| [xuperchain/go-libp2p-kad-dht](https://github.com/xuperchain/go-libp2p-kad-dht) | No description | 4 | Pending | False | False | True | pending | Not generated |
-| [xuperchain/log15](https://github.com/xuperchain/log15) | This repository is a fork of log15. | 3 | Pending | False | False | True | pending | Not generated |
-| [xuperchain/regression-pytest](https://github.com/xuperchain/regression-pytest) | No description | 0 | Pending | False | False | True | pending | Not generated |
-| [xuperchain/vm-geth](https://github.com/xuperchain/vm-geth) | No description | 0 | Pending | False | False | True | pending | Not generated |
-| [xuperchain/wagon](https://github.com/xuperchain/wagon) | wagon, a WebAssembly-based Go interpreter, for Go. | 2 | Pending | False | True | True | pending | Not generated |
-| [xuperchain/wavm](https://github.com/xuperchain/wavm) | A High Performance XuperChain WASM Virtual Machine based on WAVM | 23 | Pending | False | False | True | pending | Not generated |
-| [xuperchain/xasset-sdk-go](https://github.com/xuperchain/xasset-sdk-go) | XuperAsset platform golang SDK. | 10 | Pending | False | False | True | pending | Not generated |
-| [xuperchain/xasset-sdk-java](https://github.com/xuperchain/xasset-sdk-java) | XuperAsset platform java sdk. | 5 | Pending | False | False | True | pending | Not generated |
-| [xuperchain/xasset-sdk-php](https://github.com/xuperchain/xasset-sdk-php) | XuperAsset platform php sdk. | 9 | Pending | False | False | True | pending | Not generated |
+| [xuperchain/eth-proxy](https://github.com/xuperchain/eth-proxy) | No description | 0 | Pending | False | False | True | captured | [Open](repositories/eth-proxy-383673407.md) |
+| [xuperchain/go-libp2p-kad-dht](https://github.com/xuperchain/go-libp2p-kad-dht) | No description | 4 | Go, Groovy, Makefile | False | False | True | captured | [Open](repositories/go-libp2p-kad-dht-188235533.md) |
+| [xuperchain/log15](https://github.com/xuperchain/log15) | This repository is a fork of log15. | 3 | Go | False | False | True | captured | [Open](repositories/log15-188234245.md) |
+| [xuperchain/regression-pytest](https://github.com/xuperchain/regression-pytest) | No description | 0 | Python, Shell | False | False | True | captured | [Open](repositories/regression-pytest-601979083.md) |
+| [xuperchain/vm-geth](https://github.com/xuperchain/vm-geth) | No description | 0 | Go, Makefile | False | False | True | captured | [Open](repositories/vm-geth-601976948.md) |
+| [xuperchain/wagon](https://github.com/xuperchain/wagon) | wagon, a WebAssembly-based Go interpreter, for Go. | 2 | Assembly, Go | False | True | True | captured | [Open](repositories/wagon-222390065.md) |
+| [xuperchain/wavm](https://github.com/xuperchain/wavm) | A High Performance XuperChain WASM Virtual Machine based on WAVM | 23 | Assembly, C, C++, CMake, Dockerfile, Go, Makefile, Shell, WebAssembly | False | False | True | captured | [Open](repositories/wavm-192487176.md) |
+| [xuperchain/xasset-sdk-go](https://github.com/xuperchain/xasset-sdk-go) | XuperAsset platform golang SDK. | 10 | Go | False | False | True | captured | [Open](repositories/xasset-sdk-go-431727189.md) |
+| [xuperchain/xasset-sdk-java](https://github.com/xuperchain/xasset-sdk-java) | XuperAsset platform java sdk. | 5 | Java | False | False | True | captured | [Open](repositories/xasset-sdk-java-431728452.md) |
+| [xuperchain/xasset-sdk-php](https://github.com/xuperchain/xasset-sdk-php) | XuperAsset platform php sdk. | 9 | PHP | False | False | True | captured | [Open](repositories/xasset-sdk-php-431728916.md) |
 | [xuperchain/xasset-sdk-python](https://github.com/xuperchain/xasset-sdk-python) | Xasset sdk by python. | 0 | Pending | False | False | True | pending | Not generated |
 | [xuperchain/xbench](https://github.com/xuperchain/xbench) | Benchmark project for XuperChain | 18 | Pending | False | False | True | pending | Not generated |
 | [xuperchain/xdev](https://github.com/xuperchain/xdev) | The compiler and test tool for contract | 2 | Pending | False | False | True | pending | Not generated |

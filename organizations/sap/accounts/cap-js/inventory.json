@@ -2266,12 +2266,101 @@
         "sap-cap"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 402677,
+        "CAP CDS": 8676,
+        "HTML": 4037
+      },
+      "readme_url": "https://github.com/cap-js/graphql/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3035dec0010ae56cabbb283171db0024a33bb646",
+      "readme_excerpt": "A GraphQL protocol adapter for SAP Cloud Application Programming Model Node.js. This adapter generically generates a GraphQL schema for the models of an application and serves an endpoint that allows you to query your services using the GraphQL query language. _**WARNING:** This package is in an early general availability state. This means that it is generally available, with stable APIs unless otherwise indicated, and you can use it for production. However, please note the current limitations listed below._ 1. Simply add the GraphQL adapter to your project using `npm`: npm add @cap-js/graphql 2. Annotate the services you want to serve,",
+      "readme_headings": [
+        "CDS protocol adapter for GraphQL",
+        "About this project",
+        "Requirements and Setup",
+        "Limitations",
+        "Support, Feedback, Contributing",
+        "Code of Conduct",
+        "Licensing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "a0671b717d3aa5d003700bfe6c616cd82f5389c3",
+          "size": 1094,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-test",
+            "@cap-js/graphql",
+            "@cap-js/sqlite",
+            "@sap/cds",
+            "graphql",
+            "graphql-http"
+          ]
+        },
+        {
+          "path": "test/resources/annotations/package.json",
+          "sha": "ed7d52073b927de35986641d51fab675179021a0",
+          "size": 243,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/graphql",
+            "@cap-js/sqlite"
+          ]
+        },
+        {
+          "path": "test/resources/bookshop-graphql/package.json",
+          "sha": "8b38e8b0a66bc6ba9caad1dcaffd648be4dc2118",
+          "size": 441,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/graphql",
+            "@cap-js/sqlite"
+          ]
+        },
+        {
+          "path": "test/resources/bookshop/package.json",
+          "sha": "a106c41bc2b1f3de5606dd53ff46eeee1c022a0c",
+          "size": 524,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/graphql",
+            "@cap-js/sqlite",
+            "@sap/cds"
+          ]
+        },
+        {
+          "path": "test/resources/cds.Request/package.json",
+          "sha": "768a96c187d10e921ea36f41f5f2dfce764a617f",
+          "size": 109,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/graphql",
+            "@cap-js/sqlite"
+          ]
+        },
+        {
+          "path": "test/resources/concurrency/package.json",
+          "sha": "768a96c187d10e921ea36f41f5f2dfce764a617f",
+          "size": 109,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/graphql",
+            "@cap-js/sqlite"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:14+00:00"
     },
     "cap-js/mcp": {
       "id": 1272105565,
@@ -2298,12 +2387,92 @@
         "plugin"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 299437,
+        "CAP CDS": 25354
+      },
+      "readme_url": "https://github.com/cap-js/mcp/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5b80a81f762bbff08b14618de8eb85418c828710",
+      "readme_excerpt": "This is a protocol adapter for the Model Context Protocol to expose CAP services for agent consumption. For more information, check the official documentation. All configuration lives under `cds.mcp` in your `package.json`: { \"cds\": { \"mcp\": { \"per_action_tool\": false, \"prefix\": false, \"format\": \"cql\" } } } For all other configuration options, refer to the official documentation. You can customize the MCP server instructions sent to agents during initialization using the `@mcp.instructions` annotation: annotate MyService with @mcp.instructions: 'Use describe to explore the product catalog. Use query to search products by name or category.'; If not set, a default instruction is used.",
+      "readme_headings": [
+        "About this project",
+        "Feature Flags",
+        "Custom Server Instructions",
+        "Support, Feedback, Contributing",
+        "Security / Disclosure",
+        "Code of Conduct",
+        "Licensing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "b6eeaad006978f2de2faa9864a55951a490c7ee7",
+          "size": 1684,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-test",
+            "@modelcontextprotocol/node",
+            "@modelcontextprotocol/server",
+            "@sap/cds",
+            "@toon-format/toon",
+            "express",
+            "oxfmt",
+            "zod"
+          ]
+        },
+        {
+          "path": "tests/bookshop-mtx/package.json",
+          "sha": "ed510c843ae6cdabc6b64b65768f10b551cb9ba5",
+          "size": 1068,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/hana",
+            "@cap-js/mcp",
+            "@cap-js/sqlite",
+            "@sap/cds",
+            "@sap/cds-mtxs",
+            "@sap/xssec",
+            "better-sqlite3",
+            "zod"
+          ]
+        },
+        {
+          "path": "tests/bookshop/package.json",
+          "sha": "6ae8637814265557c283a315ce08b131af0bb64d",
+          "size": 845,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/hana",
+            "@cap-js/mcp",
+            "@cap-js/sqlite",
+            "@sap/cds",
+            "@sap/hana-client",
+            "@sap/xssec",
+            "better-sqlite3",
+            "zod"
+          ]
+        },
+        {
+          "path": "tests/bookshop/app/router/package.json",
+          "sha": "89bee13220b73b11a865f9a10f9072a1f9804a04",
+          "size": 164,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@sap/approuter"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:16+00:00"
     },
     "cap-js/mcp-server": {
       "id": 961105832,
@@ -2337,12 +2506,84 @@
         "vibe-coding"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 739496,
+        "CAP CDS": 11567,
+        "HTML": 1129
+      },
+      "readme_url": "https://github.com/cap-js/mcp-server/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a04f31acc314221ccd2e1bb69effc08dd2fcb4ff",
+      "readme_excerpt": "A Model Context Protocol (MCP) server for the SAP Cloud Application Programming Model (CAP). Use it for AI-assisted development of CAP applications (_agentic coding_). The server helps AI models answer questions such as: - _Which CDS services are in this project, and where are they served?_ - _What are the entities about and how do they relate?_ - _How do I add columns to a select statement in CAP Node.js?_ - About This Project - Requirements - Setup - Usage in VS Code - Usage in Claude Code - Usage in OpenAI Codex - Usage in opencode - CLI Usage",
+      "readme_headings": [
+        "Welcome to @cap-js/mcp-server",
+        "About This Project",
+        "Table of Contents",
+        "Requirements",
+        "Setup",
+        "Usage in Claude Code",
+        "Usage in VS Code",
+        "Usage in OpenAI Codex",
+        "Usage in opencode",
+        "Environment Variables",
+        "Rules",
+        "CLI Usage",
+        "Search CAP documentation",
+        "Search for CDS model definitions",
+        "Available Tools",
+        "`search_docs`",
+        "`search_model`",
+        "JavaScript API",
+        "Generate capire embeddings from the command line",
+        "Generate capire embeddings programmatically",
+        "Use generated embeddings in the MCP server",
+        "Configuration",
+        "Support, Feedback, Contributing",
+        "Security / Disclosure",
+        "Code of Conduct",
+        "Licensing",
+        "Acknowledgments"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "1244200790cecda57d23a6b19b44aa59f462e939",
+          "size": 1464,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/ai",
+            "@cap-js/sqlite",
+            "@huggingface/hub",
+            "@huggingface/tokenizers",
+            "@huggingface/transformers",
+            "@modelcontextprotocol/sdk",
+            "@sap/cds",
+            "onnxruntime-node",
+            "oxfmt"
+          ]
+        },
+        {
+          "path": "tests/sample/package.json",
+          "sha": "258f3e079add9e17ceb30bb1d294201c5c343565",
+          "size": 419,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-types",
+            "@cap-js/sqlite",
+            "@sap/cds"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:17+00:00"
     },
     "cap-js/n8n": {
       "id": 1311103163,
@@ -2369,12 +2610,79 @@
         "plugin"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 160447,
+        "CAP CDS": 14831,
+        "Shell": 6419
+      },
+      "readme_url": "https://github.com/cap-js/n8n/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a1f0e94b8529d433df2f0650092d79c870a49d8f",
+      "readme_excerpt": "Trigger n8n workflows from CAP applications with `@n8n.process.start` annotations or through the programmatic `n8n` service. - Requirements - Quick start - Connect to n8n - Local n8n - Configuration - Cloud Foundry binding - BTP destination - Credential resolution - Webhook requests - Webhook authentication - Test webhooks - Annotations - Events - Conditions - Payload mapping - Multiple triggers - Programmatic API - Trigger a workflow - Manage workflows and executions - Supported `cds.ql` operations - Delivery behavior - Support, Feedback, Contributing - Security / Disclosure - Code of Conduct - Licensing - Node.js 22 or newer - `@sap/cds`",
+      "readme_headings": [
+        "SAP Cloud Application Programming Model, n8n plugin for Node.js",
+        "Requirements",
+        "Quick start",
+        "Connect to n8n",
+        "Local n8n",
+        "Configuration",
+        "Cloud Foundry binding",
+        "BTP destination",
+        "Credential resolution",
+        "Webhook requests",
+        "Webhook authentication",
+        "Test webhooks",
+        "Annotations",
+        "Events",
+        "Conditions",
+        "Payload mapping",
+        "Multiple triggers",
+        "Programmatic API",
+        "Trigger a workflow",
+        "Manage workflows and executions",
+        "Supported `cds.ql` operations",
+        "Delivery behavior",
+        "Support, Feedback, Contributing",
+        "Security / Disclosure",
+        "Code of Conduct",
+        "Licensing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "e101e94fcede5ca94e48cf63dbc9eb395c0f45bd",
+          "size": 1649,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-test",
+            "@sap-cloud-sdk/connectivity",
+            "@sap/cds"
+          ]
+        },
+        {
+          "path": "tests/bookshop/package.json",
+          "sha": "600502118008d6592b4f647f555a9b24bd35cbf3",
+          "size": 1071,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/hana",
+            "@cap-js/n8n",
+            "@cap-js/sqlite",
+            "@sap/cds-dk",
+            "@sap/xssec"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:19+00:00"
     },
     "cap-js/notifications": {
       "id": 665872643,
@@ -2406,12 +2714,93 @@
         "sap-cap"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 182037,
+        "CAP CDS": 13587,
+        "HTML": 1208
+      },
+      "readme_url": "https://github.com/cap-js/notifications/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5e901732b518537455702ad0f51f5013b1c88c37",
+      "readme_excerpt": "The `@cap-js/notifications` package is a CDS plugin that provides support for publishing business notifications in SAP Build Work Zone. - Setup - Getting Started - Running the Sample - Define Notification Types - Send Notifications - Entity Notifications - API Reference - Test-drive Locally - Run in Production - Advanced Usage - Custom Notification Types Path - Custom Notification Type Prefix - Custom Destination Name - Authentication Identifier - Default Channels - Outbox Behavior - Disabling the Plugin - Low-level Notifications API - Contributing - Code of Conduct - Licensing **Requirements:** Node.js >= 20, `@sap/cds` >= 8. To enable notifications,",
+      "readme_headings": [
+        "Notifications Plugin",
+        "Table of Contents",
+        "Setup",
+        "Getting Started",
+        "Quick start: Direct notification",
+        "Recommended: Define notification types",
+        "Running the Sample",
+        "1. Start the sample app",
+        "2. Trigger a notification",
+        "3. Customize the notification type",
+        "4. Connect to SAP Build Work Zone",
+        "Define Notification Types",
+        "Option A: CDS Annotations (recommended)",
+        "Delivery channels (Option A only)",
+        "i18n support (Option A only)",
+        "HTML email templates (Option A only)",
+        "Priority (Option A only)",
+        "Build integration",
+        "Option B: JSON file",
+        "Email delivery",
+        "Send Notifications",
+        "Pattern 1: Emit a CDS event (recommended)",
+        "Pattern 2: Call notify() directly",
+        "Batch notifications",
+        "Entity Notifications",
+        "Annotation properties",
+        "Notification properties",
+        "API Reference",
+        "Simple Notification",
+        "Named Notification Type"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "b97fd1b00f16fb975224df93bdae2b4880ee3592",
+          "size": 2164,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-test",
+            "@cap-js/cds-types",
+            "@cap-js/sqlite",
+            "@sap-cloud-sdk/connectivity",
+            "@sap-cloud-sdk/http-client",
+            "@sap-cloud-sdk/util",
+            "@sap/cds",
+            "@sap/cds-dk",
+            "express",
+            "jest"
+          ]
+        },
+        {
+          "path": "tests/bookshop/package.json",
+          "sha": "2d203e0932ee75d2fd0bf1d5ddf6e5cca7cb1f38",
+          "size": 688,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/hana",
+            "@cap-js/notifications",
+            "@cap-js/sqlite",
+            "@sap-cloud-sdk/connectivity",
+            "@sap-cloud-sdk/http-client",
+            "@sap-cloud-sdk/resilience",
+            "@sap/cds-dk",
+            "@sap/xssec"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:20+00:00"
     },
     "cap-js/openapi": {
       "id": 740361497,
@@ -2434,12 +2823,51 @@
       "open_issues": 11,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 377108
+      },
+      "readme_url": "https://github.com/cap-js/openapi/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e0421298b000e1f8c6224e7501dbed2f49b15a95",
+      "readme_excerpt": "The `@cap-js/openapi` is a package that provides support for OpenAPI document compilation. - OpenAPI - About this project - Table of Contents - Requirements and Setup - Installation - Usage - Customizing OpenAPI Output - Contributing - Code of Conduct - Licensing $ npm install @cap-js/openapi const cds = require('@sap/cds') const { compile } = require('@cap-js/openapi') const csn = await cds.load(cds.env.folders.srv) const openapiDocument = compile(csn) You can synchronously hook into the compilation process using the `after:compile.to.openapi` event to modify the generated OpenAPI document: cds.on('after:compile.to.openapi', ({ csn, options, result }) => { // Add custom vendor extensions result['x-api-id'] = 'my-api-id' //",
+      "readme_headings": [
+        "OpenAPI",
+        "About this project",
+        "Table of Contents",
+        "Requirements and Setup",
+        "Installation",
+        "Usage",
+        "Customizing OpenAPI Output",
+        "Contributing",
+        "Code of Conduct",
+        "Licensing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "ce3fb80233b421a7db86a100d3e3c248dfbf5f0c",
+          "size": 3052,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@sap/cds",
+            "@types/node",
+            "eslint",
+            "globals",
+            "pluralize",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:22+00:00"
     },
     "cap-js/ord": {
       "id": 740880190,
@@ -2464,12 +2892,153 @@
         "plugin"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 629100,
+        "CAP CDS": 20605,
+        "Java": 3156
+      },
+      "readme_url": "https://github.com/cap-js/ord/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "549d7b028bfc8731caf046ad22788dd5a77621cd",
+      "readme_excerpt": "This plugin adds support for the Open Resource Discovery (ORD) protocol for CAP based applications. When you add the ORD plugin, your application gains a single entry point, which allows to discover and gather machine-readable information or metadata about the application. You can use this information to construct a static metadata catalog or to perform a detailed runtime inspection of your actual system instances / system landscapes. For more information, have a look at the Open Resource Discovery page. This project ships two Claude Code skills under `.skills/` that AI coding agents can use to assist with common tasks: npm",
+      "readme_headings": [
+        "CDS Plugin for ORD",
+        "About this project",
+        "AI Coding Agent Skills",
+        "Requirements and Setup",
+        "Installation",
+        "Authentication",
+        "Open",
+        "Basic Authentication",
+        "CF mTLS Authentication",
+        "Example configuration of the CF_MTLS_TRUSTED_CERTS environment variable",
+        "Example configuration of the CF_MTLS_TRUSTED_CERTS environment variable",
+        "DwC mTLS Authentication",
+        "Multiple Authentication Strategies",
+        "Usage",
+        "Programmatic API",
+        "Command Line",
+        "Supported Options",
+        "By default, it will be generated in /gen/ord dir, e.g.:",
+        "done > wrote output to:",
+        "gen/ord/ord-document.json",
+        "gen/ord/sap.sample:apiResource:AdminService:v1/AdminService.edmx",
+        "gen/ord/sap.sample:apiResource:AdminService:v1/AdminService.oas3.json",
+        "ORD Endpoints",
+        "Customizing ORD Document",
+        "How to setup dev environment and run xmpl locally",
+        "Support, Feedback, Contributing",
+        "Security / Disclosure",
+        "Code of Conduct",
+        "Licensing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "7e7def4b8dd7f16b83b6966b7a4685d580667b41",
+          "size": 2468,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/asyncapi",
+            "@cap-js/cds-test",
+            "@cap-js/graphql",
+            "@cap-js/openapi",
+            "@cap-js/sqlite",
+            "@open-resource-discovery/specification",
+            "@sap/cds",
+            "@sap/cds-dk",
+            "bcryptjs",
+            "cli-progress",
+            "eslint",
+            "express",
+            "jest",
+            "lodash",
+            "piscina",
+            "prettier",
+            "supertest"
+          ]
+        },
+        {
+          "path": "xmpl/package.json",
+          "sha": "1ac23a010e962c8ca5d81507a500c20c7e5e1e30",
+          "size": 643,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/graphql",
+            "@cap-js/ord",
+            "@cap-js/sqlite",
+            "@sap/cds-mtxs",
+            "sap-s4com-supplier-v1",
+            "sap-sai-supplier-v1"
+          ]
+        },
+        {
+          "path": "xmpl_java/package.json",
+          "sha": "a25db9a5903e4e30f79ecdbb36387a767aa57485",
+          "size": 260,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/ord",
+            "@sap/cds-dk"
+          ]
+        },
+        {
+          "path": "xmpl_java/pom.xml",
+          "sha": "8570c11ac62c9f07309efa617dac74d7d5396ac1",
+          "size": 4262,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cds-feature-ord",
+            "cds-maven-plugin",
+            "cds-services-bom",
+            "flatten-maven-plugin",
+            "maven-compiler-plugin",
+            "maven-enforcer-plugin",
+            "maven-surefire-plugin",
+            "ord-parent",
+            "spring-boot-dependencies",
+            "spring-boot-maven-plugin"
+          ]
+        },
+        {
+          "path": "__tests__/bookshop/package.json",
+          "sha": "bd50933c4f90d6a7271f3f2313bf3c4031f116f5",
+          "size": 599,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-types",
+            "@cap-js/sqlite",
+            "@sap/cds",
+            "express"
+          ]
+        },
+        {
+          "path": "xmpl_java/integration-tests/pom.xml",
+          "sha": "70bd799f348a7888f33c77b71b1f142364873bf8",
+          "size": 3569,
+          "content_status": "captured",
+          "dependency_hints": [
+            "jacoco-maven-plugin",
+            "logback-classic",
+            "maven-surefire-plugin",
+            "ord",
+            "ord-integration-tests",
+            "ord-parent",
+            "spring-boot-starter-test",
+            "spring-boot-webmvc-test"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:24+00:00"
     },
     "cap-js/print": {
       "id": 990470701,
@@ -2497,12 +3066,71 @@
         "sap-cap"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 53011,
+        "CAP CDS": 19242
+      },
+      "readme_url": "https://github.com/cap-js/print/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "596881b49c8b75dcc9eca5bde0462eeaffc15f2f",
+      "readme_excerpt": "The `@cap-js/print` package is a CDS plugin that provides print service features through integration with the SAP Print Service. Using this plugin requires a valid subscription of the SAP Print Service. To use this plugin to print documents, there are two main steps: 1. Ensure your model meets the requirements 2. Annotate your CDS model with `@PDF.Printable` - The attribute(s) you want to print are of type `LargeBinary` - Those attributes have the annotation `@Core.ContentDisposition: fileName`, where `fileName` is the attribute that specifies the file name or a hardcoded string with the file name To use the print plugin, annotate",
+      "readme_headings": [
+        "Welcome to @cap-js/print",
+        "About this project",
+        "Table of Contents",
+        "Requirements and Setup",
+        "Usage",
+        "Model Requirements",
+        "Annotations in CDS model",
+        "Manual Usage",
+        "Local Development",
+        "Hybrid Testing",
+        "Local",
+        "Once as setup",
+        "Run the application (from the root)",
+        "CI",
+        "Support, Feedback, Contributing",
+        "Security / Disclosure",
+        "Code of Conduct",
+        "Licensing"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "6f58726ef2e90e1e739a1180d57dea255c11b069",
+          "size": 1919,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-test",
+            "@cap-js/sqlite",
+            "@sap-cloud-sdk/connectivity",
+            "@sap-cloud-sdk/http-client",
+            "@sap-cloud-sdk/resilience",
+            "@sap/cds"
+          ]
+        },
+        {
+          "path": "test/bookshop/package.json",
+          "sha": "10fbe5a7611f4e75be24c18e50e4d183b1c84139",
+          "size": 381,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/db-service",
+            "@cap-js/hana",
+            "@cap-js/print"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:26+00:00"
     },
     "cap-js/process": {
       "id": 1149838494,
@@ -2529,12 +3157,135 @@
         "sap-cap"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 448383,
+        "CAP CDS": 88737,
+        "JavaScript": 17783,
+        "HTML": 3960
+      },
+      "readme_url": "https://github.com/cap-js/process/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0ed362a66b030fbbbdfb6418ac2264c28861178c",
+      "readme_excerpt": "CAP Plugin to interact with SAP Build Process Automation to manage processes. - Setup - Quickstart - Binding against SAP Build Process Automation Instance - Importing Processes as a Service - Annotations - Starting a Process - Multiple Start Annotations - Cancelling, Resuming, or Suspending a Process - Multiple Cancel/Resume/Suspend Annotations - Multiple Business Key Annotations - Conditional Execution - Input Mapping - No `inputs` Array (Default Behavior) - Simple Field Selection - Wildcard: All Scalar Fields (`$self`) - Field Aliasing - Compositions and Associations - Deep Paths (Cyclic Relationships) - Programmatic Approach - Specific Process Services - Importing a",
+      "readme_headings": [
+        "CAP - Process Plugin",
+        "Setup",
+        "Quickstart",
+        "Binding against SAP Build Process Automation Instance",
+        "Importing Processes as a Service",
+        "Annotations",
+        "Starting a Process",
+        "Multiple Start Annotations",
+        "Cancelling, Resuming, or Suspending a Process",
+        "Multiple Cancel/Resume/Suspend Annotations",
+        "Multiple Business Key Annotations",
+        "Conditional Execution",
+        "Input Mapping",
+        "No `inputs` Array (Default Behavior)",
+        "Simple Field Selection",
+        "Wildcard: All Scalar Fields (`$self`)",
+        "Field Aliasing",
+        "Compositions and Associations",
+        "Deep Paths (Cyclic Relationships)",
+        "Programmatic Approach",
+        "Specific Process Services",
+        "Importing a Service",
+        "From downloaded model",
+        "From SAP Build Process Automation (Remote Import)",
+        "What Gets Generated",
+        "Starting a Process",
+        "Suspending, Resuming, and Cancelling a Process",
+        "Querying Process Instances",
+        "Limitations",
+        "Generic ProcessService"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "6ddbb89f9cd3357630fa06616576086bd6848500",
+          "size": 4768,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-test",
+            "@cap-js/cds-types",
+            "@sap-cloud-sdk/connectivity",
+            "@sap-cloud-sdk/http-client",
+            "@sap-cloud-sdk/resilience",
+            "@sap/cds",
+            "@types/jest",
+            "@types/node",
+            "jest",
+            "ts-jest",
+            "tsx",
+            "typescript",
+            "typescript-eslint"
+          ]
+        },
+        {
+          "path": "tests/bookshop/package.json",
+          "sha": "a7282dfd62384d88e4c758794bb9a5b74e0ed67f",
+          "size": 3493,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/cds-typer",
+            "@cap-js/cds-types",
+            "@cap-js/db-service",
+            "@cap-js/hana",
+            "@cap-js/process",
+            "@cap-js/sqlite",
+            "@sap-cloud-sdk/connectivity",
+            "@sap-cloud-sdk/http-client",
+            "@sap-cloud-sdk/resilience",
+            "@types/node",
+            "tsx",
+            "typescript"
+          ]
+        },
+        {
+          "path": "tests/sample/status-management/package.json",
+          "sha": "72298848ef88bd06c3cd6b9e4bf1b80cd7b56eec",
+          "size": 1396,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/process",
+            "@cap-js/sqlite",
+            "@sap-cloud-sdk/connectivity",
+            "@sap-cloud-sdk/http-client",
+            "@sap-cloud-sdk/resilience",
+            "cds-plugin-ui5"
+          ]
+        },
+        {
+          "path": "tests/sample/status-management/app/authors/package.json",
+          "sha": "38c9414bda71a8683698aa3c5e0db0ddf98c123e",
+          "size": 388,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@sap/ux-ui5-tooling",
+            "@ui5/cli"
+          ]
+        },
+        {
+          "path": "tests/sample/status-management/app/books/package.json",
+          "sha": "545d54d366efb0801a72f0a8f04c87657dcfcd3e",
+          "size": 386,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@sap/ux-ui5-tooling",
+            "@ui5/cli"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:28+00:00"
     },
     "cap-js/sdm": {
       "id": 761573353,
@@ -2561,12 +3312,182 @@
         "sap-cap"
       ],
       "last_seen_scan_id": "2026-11-23T20:35:21+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 1129422,
+        "CAP CDS": 87361,
+        "Shell": 58701,
+        "HTML": 22568,
+        "Dockerfile": 2192
+      },
+      "readme_url": "https://github.com/cap-js/sdm/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b069ab9e31c5fc4b2d47c792c4b84d095079e85d",
+      "readme_excerpt": "The **@cap-js/sdm** package is cds-plugin that provides an easy CAP-level integration with SAP Document Management Service. This package supports handling of attachments(documents) by using an aspect Attachments in SAP Document Management Service. This plugin can be consumed by the CAP application deployed on BTP to store their documents in the form of attachments in Document Management Repository. - Create attachment : Provides the capability to upload new attachments. - Open attachment : Provides the capability to preview attachments. - Delete attachment : Provides the capability to remove attachments. - Rename attachment : Provides the capability to rename attachments. - Virus",
+      "readme_headings": [
+        "CAP plugin for SAP Document Management Service",
+        "Key features",
+        "Table of Contents",
+        "Pre-Requisites",
+        "Setup",
+        "Using the released version",
+        "Using the development version",
+        "Use @cap-js/sdm plugin",
+        "Support for Custom Properties",
+        "Support for link type attachments",
+        "Steps to Enable Row-Press for Open Link",
+        "Support for edit of link type attachments",
+        "Steps to Enable Edit Link Feature in CAP Application",
+        "UI Annotation Setup",
+        "Known Restrictions",
+        "Steps to Enable Create Link Feature in CAP Application",
+        "UI Annotation Setup",
+        "Updating Tenant Databases for Link Feature",
+        "Support for Non-Draft Attachments",
+        "Key Features",
+        "How It Works",
+        "Entity Definition",
+        "Typical Workflow",
+        "Usage Examples",
+        "1. Create Attachment Metadata (POST)",
+        "2. Upload File Content (PUT)",
+        "3. Update Attachment Metadata (PATCH) - Optional",
+        "4. Delete Attachment (DELETE)",
+        "Multiple Attachments",
+        "Validation and Error Handling"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "fa5c6c4a043447087347894ef9c7f1c380e9e010",
+          "size": 2631,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/attachments",
+            "@cap-js/sqlite",
+            "@eslint/js",
+            "@sap-cloud-sdk/connectivity",
+            "@sap-cloud-sdk/http-client",
+            "@sap/cds",
+            "@sap/cds-dk",
+            "@sap/xssec",
+            "axios",
+            "eslint",
+            "eslint-plugin-jest",
+            "globals",
+            "jest",
+            "node-cache"
+          ]
+        },
+        {
+          "path": "app/multi-tenant/central-space/cap-js-incidents-app/package.json",
+          "sha": "fe8079026920a66ec5b1dd414aa1891f16741556",
+          "size": 2918,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/audit-logging",
+            "@cap-js/hana",
+            "@cap-js/sdm",
+            "@sap/cds",
+            "@sap/cds-dk",
+            "@sap/cds-mtxs",
+            "@sap/cds-odata-v2-adapter-proxy",
+            "@sap/ux-specification",
+            "@sap/xssec",
+            "axios",
+            "chai",
+            "chai-as-promised",
+            "chai-subset",
+            "eslint",
+            "express",
+            "node-cache"
+          ]
+        },
+        {
+          "path": "app/multi-tenant/personal-space/cap-js-incidents-app/package.json",
+          "sha": "fe8079026920a66ec5b1dd414aa1891f16741556",
+          "size": 2918,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/audit-logging",
+            "@cap-js/hana",
+            "@cap-js/sdm",
+            "@sap/cds",
+            "@sap/cds-dk",
+            "@sap/cds-mtxs",
+            "@sap/cds-odata-v2-adapter-proxy",
+            "@sap/ux-specification",
+            "@sap/xssec",
+            "axios",
+            "chai",
+            "chai-as-promised",
+            "chai-subset",
+            "eslint",
+            "express",
+            "node-cache"
+          ]
+        },
+        {
+          "path": "app/single-tenant/central-space/incidents-app/package.json",
+          "sha": "10853b29d1cec266784dc244dc5083e80b950833",
+          "size": 2317,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/audit-logging",
+            "@cap-js/hana",
+            "@cap-js/sqlite",
+            "@sap/cds",
+            "@sap/cds-dk",
+            "@sap/cds-odata-v2-adapter-proxy",
+            "@sap/ux-specification",
+            "@sap/xssec",
+            "axios",
+            "chai",
+            "chai-as-promised",
+            "chai-subset",
+            "express",
+            "node-cache"
+          ]
+        },
+        {
+          "path": "app/single-tenant/personal-space/incidents-app/package.json",
+          "sha": "499e439f6ce12079b3aa0e375437faad098b8d88",
+          "size": 2302,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@cap-js/audit-logging",
+            "@cap-js/hana",
+            "@cap-js/sqlite",
+            "@sap/cds",
+            "@sap/cds-dk",
+            "@sap/cds-odata-v2-adapter-proxy",
+            "@sap/ux-specification",
+            "@sap/xssec",
+            "axios",
+            "chai",
+            "chai-as-promised",
+            "chai-subset",
+            "express",
+            "node-cache"
+          ]
+        },
+        {
+          "path": "app/multi-tenant/central-space/cap-js-incidents-app/.devcontainer/Dockerfile",
+          "sha": "3f0d2c7c4ad17f7ea429dca04e4fe77f8d52e7bd",
+          "size": 548,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:41:30+00:00"
     },
     "cap-js/telemetry": {
       "id": 676894829,

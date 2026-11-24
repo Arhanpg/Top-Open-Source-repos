@@ -5152,12 +5152,42 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 17749
+      },
+      "readme_url": "https://github.com/cdklabs/cdk-ecr-deployment-go/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "bd53c100edfae827fb6eb46d5ba4a5588a2c5242",
+      "readme_excerpt": "Go bindings for cdk-ecr-deployment",
+      "readme_headings": [
+        "cdk-ecr-deployment-go"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "cdkecrdeployment/go.mod",
+          "sha": "2c0e7fc333f74581370f58632a039d3637448f0e",
+          "size": 494,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-cdk-go/awscdk/v2",
+            "github.com/aws/constructs-go/constructs/v10",
+            "github.com/aws/jsii-runtime-go",
+            "github.com/cdklabs/awscdk-asset-awscli-go/awscliv1/v2",
+            "github.com/cdklabs/awscdk-asset-node-proxy-agent-go/nodeproxyagentv6/v2",
+            "github.com/cdklabs/cloud-assembly-schema-go/awscdkcloudassemblyschema/v54"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:38:58+00:00"
     },
     "cdklabs/cdk-ecs-codedeploy": {
       "id": 569454594,
@@ -5180,12 +5210,96 @@
       "open_issues": 15,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 107609,
+        "JavaScript": 2200,
+        "Dockerfile": 99
+      },
+      "readme_url": "https://github.com/cdklabs/cdk-ecs-codedeploy/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "0ece52f4ffaff08f143e0c322e22b896e479f122",
+      "readme_excerpt": "This project contains CDK constructs to create CodeDeploy ECS deployments. yarn add @cdklabs/cdk-ecs-codedeploy See https://mvnrepository.com/artifact/io.github.cdklabs/cdk-ecs-codedeploy See https://pypi.org/project/cdklabs.ecs-codedeploy/ See https://www.nuget.org/packages/Cdklabs.CdkEcsCodeDeploy/ CodeDeploy for ECS can manage the deployment of new task definitions to ECS services. Only 1 deployment construct can be defined for a given EcsDeploymentGroup. declare const deploymentGroup: codeDeploy.IEcsDeploymentGroup; declare const taskDefinition: ecs.ITaskDefinition; new EcsDeployment({ deploymentGroup, targetService: { taskDefinition, containerName: 'mycontainer', containerPort: 80, }, }); The deployment will use the AutoRollbackConfig for the EcsDeploymentGroup unless it is overridden in the deployment: declare const deploymentGroup: codeDeploy.IEcsDeploymentGroup; declare const taskDefinition: ecs.ITaskDefinition; new EcsDeployment({ deploymentGroup, targetService: { taskDefinition, containerName: 'mycontainer', containerPort: 80, }, autoRollback:",
+      "readme_headings": [
+        "CDK ECS CodeDeploy",
+        "Installation",
+        "Deployments",
+        "API Canaries",
+        "Application Load Balanced CodeDeployed Fargate Service",
+        "Local Development",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "9fbd3e54d9c362fc4d8650b6f56c17b05e86838f",
+          "size": 7568,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/integ-runner",
+            "@aws-cdk/integ-tests-alpha",
+            "@aws-sdk/client-codedeploy",
+            "@stylistic/eslint-plugin",
+            "@types/aws-lambda",
+            "@types/jest",
+            "@types/lambda-tester",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-cdk",
+            "aws-cdk-lib",
+            "aws-sdk-client-mock",
+            "aws-sdk-client-mock-jest",
+            "cdk-nag",
+            "cdklabs-projen-project-types",
+            "commit-and-tag-version",
+            "constructs",
+            "esbuild",
+            "eslint",
+            "eslint-import-resolver-typescript",
+            "eslint-plugin-import",
+            "jest",
+            "jest-junit",
+            "jmespath",
+            "jsii",
+            "jsii-diff",
+            "jsii-docgen",
+            "jsii-pacmak",
+            "jsii-rosetta",
+            "lambda-tester",
+            "projen",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "canary-src/package.json",
+          "sha": "24e68327602fbc4474e3579ad3b663c60b01253c",
+          "size": 125,
+          "content_status": "captured",
+          "dependency_hints": [
+            "jmespath"
+          ]
+        },
+        {
+          "path": "test/nginx/Dockerfile",
+          "sha": "d87d59029070d559a0dd0af8dcfdb3731efd29f7",
+          "size": 99,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:00+00:00"
     },
     "cdklabs/cdk-ecs-codedeploy-go": {
       "id": 577943851,
@@ -5208,12 +5322,44 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 81689
+      },
+      "readme_url": "https://github.com/cdklabs/cdk-ecs-codedeploy-go/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3609052566aadf9d522641d17f522195a120d3bd",
+      "readme_excerpt": "This repository included Go bindings for cdklabs/cdk-ecs-codedeploy. See Security Issue Notifications for more information. This project is licensed under the Apache-2.0 License.",
+      "readme_headings": [
+        "Go Bindings for <package name>",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "cdklabscdkecscodedeploy/go.mod",
+          "sha": "fc5b57e3c8315a0070c36d9e7cc899133cc2570b",
+          "size": 498,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-cdk-go/awscdk/v2",
+            "github.com/aws/constructs-go/constructs/v10",
+            "github.com/aws/jsii-runtime-go",
+            "github.com/cdklabs/awscdk-asset-awscli-go/awscliv1/v2",
+            "github.com/cdklabs/awscdk-asset-node-proxy-agent-go/nodeproxyagentv6/v2",
+            "github.com/cdklabs/cloud-assembly-schema-go/awscdkcloudassemblyschema/v48"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:01+00:00"
     },
     "cdklabs/cdk-ecs-service-extensions": {
       "id": 479406988,
@@ -5236,12 +5382,106 @@
       "open_issues": 22,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 206247,
+        "Python": 62887,
+        "Shell": 548,
+        "Dockerfile": 157
+      },
+      "readme_url": "https://github.com/cdklabs/cdk-ecs-service-extensions/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ac421daadab12c4e7a826f0cceec9d83afd8b589",
+      "readme_excerpt": "This library provides a high level, extensible pattern for constructing services deployed using Amazon ECS. import { AppMeshExtension, CloudwatchAgentExtension, Container, Environment, FireLensExtension, HttpLoadBalancerExtension, Service, ServiceDescription, XRayExtension, } from '@aws-cdk-containers/ecs-service-extensions'; If you are using the `@aws-cdk-containers/ecs-service-extensions` v1 and need to migrate to v2, see the Migration Guide. The `Service` construct provided by this module can be extended with optional `ServiceExtension` classes that add supplemental ECS features including: - AWS X-Ray for tracing your application - Amazon CloudWatch Agent for capturing per task stats - AWS AppMesh for adding your application to a service mesh - Application Load Balancer, for exposing your",
+      "readme_headings": [
+        "CDK Construct library for building ECS services",
+        "`Service` construct",
+        "Example",
+        "Creating an `Environment`",
+        "Defining your `ServiceDescription`",
+        "Logging using `awslogs` log driver",
+        "Launching the `ServiceDescription` as a `Service`",
+        "Creating your own taskRole",
+        "Configure Custom Health Check",
+        "Task Auto-Scaling",
+        "Creating your own custom `ServiceExtension`",
+        "Connecting services",
+        "Importing a pre-existing cluster",
+        "Injecter Extension",
+        "Publishing to SNS Topics",
+        "Queue Extension",
+        "Setting up SNS Topic Subscriptions for SQS Queues",
+        "Configuring auto scaling based on SQS Queues",
+        "Publish/Subscribe Service Pattern",
+        "Community Extensions"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "40cd8744b6ff4e5824a59576262f3e3bd8f11c2a",
+          "size": 7425,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/integ-runner",
+            "@aws-cdk/integ-tests-alpha",
+            "@stylistic/eslint-plugin",
+            "@types/jest",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-cdk",
+            "aws-cdk-lib",
+            "cdklabs-projen-project-types",
+            "commit-and-tag-version",
+            "constructs",
+            "eslint",
+            "eslint-import-resolver-typescript",
+            "eslint-plugin-import",
+            "jest",
+            "jest-junit",
+            "jsii",
+            "jsii-diff",
+            "jsii-docgen",
+            "jsii-pacmak",
+            "jsii-rosetta",
+            "projen",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "lambda/assign-public-ip/Pipfile",
+          "sha": "27927581bc218400513f26f40f11c9416805860a",
+          "size": 183,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "coverage",
+            "name",
+            "python_version",
+            "url",
+            "verify_ssl",
+            "yapf"
+          ]
+        },
+        {
+          "path": "test/queue-handler/Dockerfile",
+          "sha": "8c87ab2f7179d5ca9c0b8e9226b30695ddeefcb4",
+          "size": 157,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:03+00:00"
     },
     "cdklabs/cdk-ecs-service-extensions-go": {
       "id": 584998825,
@@ -5264,12 +5504,44 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 293821
+      },
+      "readme_url": "https://github.com/cdklabs/cdk-ecs-service-extensions-go/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "847260ca5152a8bc296dc62b079cd4828de63e8a",
+      "readme_excerpt": "TODO: Fill this README out! Be sure to: * Change the title in this README * Edit your repository description on GitHub See CONTRIBUTING for more information. This project is licensed under the Apache-2.0 License.",
+      "readme_headings": [
+        "My Project",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "awscdkcontainersecsserviceextensions/go.mod",
+          "sha": "76439c889b9aee67b2541fc45d2bea880eed2c42",
+          "size": 504,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/aws/aws-cdk-go/awscdk/v2",
+            "github.com/aws/constructs-go/constructs/v10",
+            "github.com/aws/jsii-runtime-go",
+            "github.com/cdklabs/awscdk-asset-awscli-go/awscliv1/v2",
+            "github.com/cdklabs/awscdk-asset-kubectl-go/kubectlv20/v2",
+            "github.com/cdklabs/awscdk-asset-node-proxy-agent-go/nodeproxyagentv5/v2"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:04+00:00"
     },
     "cdklabs/cdk-enterprise-iac": {
       "id": 522550800,
@@ -5292,12 +5564,105 @@
       "open_issues": 10,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 186741,
+        "Python": 25654,
+        "Shell": 1648,
+        "Dockerfile": 311
+      },
+      "readme_url": "https://github.com/cdklabs/cdk-enterprise-iac/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "45002ac69ddd9381a6ebe2d2c12d5f88c3da9dbe",
+      "readme_excerpt": "Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. SPDX-License-Identifier: Apache-2.0 --> Utilities for using CDK within enterprise constraints. Typescript npm install @cdklabs/cdk-enterprise-iac Python pip install cdklabs.cdk-enterprise-iac Within large enterprises, builders can come up against enterprise imposed constraints when deploying on AWS. This could be simple things such as \"All IAM roles must have a specific Permissions Boundary attached\". This could also be more restrictive such as strict separation of duties, only allowing certain teams the ability to deploy specific AWS resources (e.g. Networking team can deploy VPCs, Subnets, and route tables. Security team can deploy IAM resources. Developers can",
+      "readme_headings": [
+        "CDK Enterprise IaC",
+        "Install",
+        "Who this project is for",
+        "Usage",
+        "Adding permissions boundaries to all generated IAM roles",
+        "Resource extraction",
+        "Value Sharing methods",
+        "`CFN_OUTPUT`",
+        "`SSM_PARAMETER`",
+        "`API_LOOKUP`",
+        "Resource Partials",
+        "Generated API.md",
+        "CDK Enterprise IaC",
+        "Install",
+        "Who this project is for",
+        "Usage",
+        "Adding permissions boundaries to all generated IAM roles",
+        "Resource extraction",
+        "Value Sharing methods",
+        "`CFN_OUTPUT`",
+        "`SSM_PARAMETER`",
+        "`API_LOOKUP`",
+        "Resource Partials",
+        "Generated API.md",
+        "API Reference <a name=\"API Reference\" id=\"api-reference\"></a>",
+        "Constructs <a name=\"Constructs\" id=\"Constructs\"></a>",
+        "EcsIsoServiceAutoscaler <a name=\"EcsIsoServiceAutoscaler\" id=\"@cdklabs/cdk-enterprise-iac.EcsIsoServiceAutoscaler\"></a>",
+        "Initializers <a name=\"Initializers\" id=\"@cdklabs/cdk-enterprise-iac.EcsIsoServiceAutoscaler.Initializer\"></a>",
+        "`scope`<sup>Required</sup> <a name=\"scope\" id=\"@cdklabs/cdk-enterprise-iac.EcsIsoServiceAutoscaler.Initializer.parameter.scope\"></a>",
+        "`id`<sup>Required</sup> <a name=\"id\" id=\"@cdklabs/cdk-enterprise-iac.EcsIsoServiceAutoscaler.Initializer.parameter.id\"></a>"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "04601bfb72f4951423551e18a590d9a065ce96c6",
+          "size": 4678,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/integ-runner",
+            "@aws-cdk/integ-tests-alpha",
+            "@aws-sdk/client-cloudformation",
+            "@types/jest",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-cdk-lib",
+            "cdklabs-projen-project-types",
+            "commit-and-tag-version",
+            "constructs",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-import-resolver-typescript",
+            "eslint-plugin-import",
+            "eslint-plugin-prettier",
+            "eslint-plugin-security",
+            "jest",
+            "jest-junit",
+            "jsii",
+            "jsii-diff",
+            "jsii-docgen",
+            "jsii-pacmak",
+            "jsii-rosetta",
+            "natural-compare-lite",
+            "prettier",
+            "projen",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "test/constructs/ecsIsoServiceAutoscaler/resources/Dockerfile",
+          "sha": "a10a0514be48f1e8d86e5c43baaf0e0e00073481",
+          "size": 311,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:06+00:00"
     },
     "cdklabs/cdk-ethereum-node": {
       "id": 523776470,
@@ -5320,12 +5685,70 @@
       "open_issues": 7,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 10783
+      },
+      "readme_url": "https://github.com/cdklabs/cdk-ethereum-node/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a1a635a10ce6a76d41495199a5190126d9c194c1",
+      "readme_excerpt": "This repository contains a CDK construct to deploy an Ethereum node running on Amazon Managed Blockchain. The following networks are supported: * Mainnet (default) * Testnet: Goerli * Testnet: Rinkeby * Testnet: Ropsten Note that this construct requires AWS CDK v2. npm install --save @cdklabs/cdk-ethereum-node pip3 install cdklabs.cdk-ethereum-node Add the following to `pom.xml`: dotnet add package Cdklabs.CdkEthereumNode A minimally complete deployment is shown below. By default, a `bc.t3.large` node will be created on the Ethereum Mainnet. import { Stack, StackProps } from 'aws-cdk-lib'; import { Construct } from 'constructs'; import { EthereumNode, Network, InstanceType } from '@cdklabs/cdk-ethereum-node'; export class MyStack",
+      "readme_headings": [
+        "Ethereum on Amazon Managed Blockchain",
+        "Installation",
+        "JavaScript",
+        "Python",
+        "Java",
+        ".NET",
+        "Usage",
+        "References",
+        "Contributing",
+        "Security",
+        "Authors",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "103d9b21d1549ac44077214e2789ba397de04cf7",
+          "size": 4127,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@stylistic/eslint-plugin",
+            "@types/jest",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-cdk-lib",
+            "cdk-nag",
+            "commit-and-tag-version",
+            "constructs",
+            "eslint",
+            "eslint-import-resolver-typescript",
+            "eslint-plugin-import",
+            "jest",
+            "jest-junit",
+            "jsii",
+            "jsii-diff",
+            "jsii-docgen",
+            "jsii-pacmak",
+            "jsii-rosetta",
+            "projen",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:07+00:00"
     },
     "cdklabs/cdk-from-cfn": {
       "id": 410353414,
@@ -5348,12 +5771,129 @@
       "open_issues": 32,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Rust": 731242,
+        "C#": 203530,
+        "Java": 185977,
+        "Go": 157684,
+        "TypeScript": 140706,
+        "Python": 135881,
+        "Just": 819
+      },
+      "readme_url": "https://github.com/cdklabs/cdk-from-cfn/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "465e3e1b87e6971e3ebc1619535da7e2bd99addc",
+      "readme_excerpt": "`cdk-from-cfn` is a command-line tool that converts AWS CloudFormation templates into AWS CDK code. It supports multiple programming languages including TypeScript, Python, Java, Go, and C#. cargo install cdk-from-cfn cdk-from-cfn [INPUT] [OUTPUT] --language <LANGUAGE> --name <NAME> [--as <stack|construct>] - `INPUT` is the input file path (STDIN by default). - `OUTPUT` is the output file path; if not specified, output will be printed on your command line (STDOUT by default). - `--name` (optional, `-s` for short) sets the name of the generated stack or construct class (`NoctStack` by default). `--stack-name` is a deprecated alias of `--name` and prints a warning. -",
+      "readme_headings": [
+        "cdk-from-cfn",
+        "Installation",
+        "Usage",
+        "Class Type Option",
+        "Generate a Stack (default)",
+        "Generate a Construct",
+        "Node.js Module Usage",
+        "Language and Feature support",
+        "Implemented",
+        "Remaining"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Cargo.toml",
+          "sha": "e9b55f82bf9a496eda850e043c1ae7ff9f7f246e",
+          "size": 2728,
+          "content_status": "captured",
+          "dependency_hints": [
+            "base64",
+            "cdk-from-cfn-macros",
+            "cdk-from-cfn-testing",
+            "cdk-from-cfn-testing-end-to-end",
+            "clap",
+            "futures",
+            "indexmap",
+            "nom",
+            "phf",
+            "phf_codegen",
+            "serde",
+            "serde-enum-str",
+            "serde_json",
+            "serde_yaml",
+            "serial_test",
+            "thiserror",
+            "tokio",
+            "topological-sort",
+            "voca_rs"
+          ]
+        },
+        {
+          "path": "cdk-from-cfn-macros/Cargo.toml",
+          "sha": "88ca66c70a151333e7870259918be5bf5c87daaf",
+          "size": 195,
+          "content_status": "captured",
+          "dependency_hints": [
+            "proc-macro2",
+            "quote",
+            "syn"
+          ]
+        },
+        {
+          "path": "cdk-from-cfn-testing-end-to-end/Cargo.toml",
+          "sha": "663e0c68ce2b9cda7d28b5d03df57122ba81983b",
+          "size": 1082,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-config",
+            "aws-sdk-cloudformation",
+            "aws-sdk-s3",
+            "aws-smithy-runtime-api",
+            "aws-smithy-types",
+            "cdk-from-cfn-testing",
+            "serde_json",
+            "tokio"
+          ]
+        },
+        {
+          "path": "cdk-from-cfn-testing/Cargo.toml",
+          "sha": "5344ee531ff2cc18b5f04ef7d908bfa7b029eced",
+          "size": 834,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cdk-from-cfn-macros",
+            "pretty_assertions",
+            "serde_json",
+            "similar",
+            "walkdir",
+            "zip"
+          ]
+        },
+        {
+          "path": "wasm-tests/package.json",
+          "sha": "6f060a008dce63d5dce8870c58afe0d9875da94c",
+          "size": 328,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@types/node",
+            "tsx",
+            "typescript"
+          ]
+        },
+        {
+          "path": "cdk-from-cfn-testing/boilerplate/csharp/CSharp.csproj",
+          "sha": "ff14fba69e054727bdf05b12f8579b1cd1612b6a",
+          "size": 695,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:09+00:00"
     },
     "cdklabs/cdk-generate-synthetic-examples": {
       "id": 435997334,
@@ -5376,12 +5916,69 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 79076,
+        "JavaScript": 73
+      },
+      "readme_url": "https://github.com/cdklabs/cdk-generate-synthetic-examples/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "222d5c16fa96608f1ae0aa2539c6a863e8eff7fa",
+      "readme_excerpt": "This tool will find all classes in the JSII assembly that don't yet have any example code associated with them, and will generate a synthetic example that shows how to instantiate the type. This is a method of last resort: we'd obviously prefer hand-written examples, but this will make sure all classes get something usable (which otherwise would not have any examples at all). It is designed to run during the build of a CDK Construct Library. This tool is published as an npm module, install locally: npm install cdk-generate-synthetic-examples Suppose you are in the base directory of your CDK",
+      "readme_headings": [
+        "CDK Generate Synthetic Examples",
+        "Install",
+        "Usage",
+        "With [Rosetta:Extract](https://www.npmjs.com/package/jsii-rosetta)",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "ce2ca932c0467116df801146b17de31a85c19990",
+          "size": 3473,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/mixins-preview",
+            "@jsii/spec",
+            "@stylistic/eslint-plugin",
+            "@types/jest",
+            "@types/node",
+            "@types/semver",
+            "@types/yargs",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-cdk-lib",
+            "cdklabs-projen-project-types",
+            "commit-and-tag-version",
+            "constructs",
+            "eslint",
+            "eslint-import-resolver-typescript",
+            "eslint-plugin-import",
+            "jest",
+            "jest-junit",
+            "jsii",
+            "jsii-reflect",
+            "jsii-rosetta",
+            "projen",
+            "semver",
+            "ts-jest",
+            "ts-node",
+            "typescript",
+            "yargs"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:10+00:00"
     },
     "cdklabs/cdk-golden-signals-dashboard": {
       "id": 673976062,
@@ -5404,12 +6001,69 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:38:51+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "TypeScript": 105312
+      },
+      "readme_url": "https://github.com/cdklabs/cdk-golden-signals-dashboard/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "7f9f6afc8136ae513589d008545fe1d829e8193c",
+      "readme_excerpt": "Create Amazon CloudWatch Dashboards for monitoring CloudWatch Metrics of AWS Resources partitioned in golden signals. *Latency, Traffic, Errors, Saturation* You can create tag based CloudWatch dashbord solution out of the box using this construct! Here are some screen captures of CloudWatch dashboards created using this cdk construct. * AWS::DynamoDB::Table * AWS::Lambda::Function * AWS::RDS::DBInstance * AWS::SNS::Topic * AWS::AutoScaling::AutoScalingGroup import { App, StackProps } from 'aws-cdk-lib'; import { GoldenSignalDashboard } from 'cdk-golden-signals-dashboard'; class MyStack extends Stack { constructor(scope: Construct, id: string, props: StackProps = {}) { super(scope, id, props); new GoldenSignalDashboard(this, 'dynamodbDashboard', { resourceType: 'AWS::DynamoDB::Table', dashboardName: 'myGSDashboard', resourceDimensions: [{resourceRegion : 'us-east-1', resources:",
+      "readme_headings": [
+        "CloudWatch Golden Signals Dashboard AWS CDK Construct",
+        "Supported Resource Types",
+        "Usage",
+        "Contributing",
+        "License Summary"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "962f9c679ee8b6fa426e691adb766989668bc794",
+          "size": 4783,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/integ-runner",
+            "@aws-cdk/integ-tests-alpha",
+            "@types/jest",
+            "@types/node",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "aws-cdk-lib",
+            "cdklabs-projen-project-types",
+            "commit-and-tag-version",
+            "constructs",
+            "eslint",
+            "eslint-config-prettier",
+            "eslint-import-resolver-typescript",
+            "eslint-plugin-import",
+            "eslint-plugin-prettier",
+            "eslint-plugin-security",
+            "jest",
+            "jest-junit",
+            "jsii",
+            "jsii-diff",
+            "jsii-docgen",
+            "jsii-pacmak",
+            "jsii-rosetta",
+            "natural-compare-lite",
+            "prettier",
+            "projen",
+            "ts-jest",
+            "ts-node",
+            "typescript"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:12+00:00"
     },
     "cdklabs/cdk-hyperledger-fabric-network": {
       "id": 482057773,

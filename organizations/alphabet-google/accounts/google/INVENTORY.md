@@ -56,16 +56,16 @@
 | [google/adk-python-community](https://github.com/google/adk-python-community) | Community repo for adk-python | 188 | Python, Shell | False | False | True | captured | [Open](repositories/adk-python-community-1037704035.md) |
 | [google/adk-recipes](https://github.com/google/adk-recipes) | A collection of agent recipes, reference patterns, and vertical plugins built with Agent Development Kit (ADK) | 10665 | CSS, Dockerfile, Go, HCL, HTML, Java, JavaScript, Jupyter Notebook, Kotlin, Makefile, Python, Shell, TypeScript | False | False | True | captured | [Open](repositories/adk-recipes-958830671.md) |
 | [google/adk-web](https://github.com/google/adk-web) | Agent Development Kit Web (adk web) is the built-in developer UI that is integrated with Agent Development Kit for easier agent development and debugging. | 1070 | HTML, JavaScript, SCSS, TypeScript | False | False | True | captured | [Open](repositories/adk-web-978236290.md) |
-| [google/ads-account-structure-script](https://github.com/google/ads-account-structure-script) | No description | 30 | Pending | True | False | True | pending | Not generated |
-| [google/ads-api-report-fetcher](https://github.com/google/ads-api-report-fetcher) | Google Ads API Report Fetcher (gaarf) | 65 | Pending | False | False | True | pending | Not generated |
-| [google/ads-bi-suite](https://github.com/google/ads-bi-suite) | No description | 21 | Pending | True | False | True | pending | Not generated |
-| [google/ads-placement-excluder](https://github.com/google/ads-placement-excluder) | No description | 10 | Pending | True | False | True | pending | Not generated |
-| [google/ads-privacy](https://github.com/google/ads-privacy) | No description | 420 | Pending | True | False | True | pending | Not generated |
-| [google/ads_oneshop](https://github.com/google/ads_oneshop) | No description | 30 | Pending | False | False | True | pending | Not generated |
-| [google/aegis_cipher](https://github.com/google/aegis_cipher) | No description | 24 | Pending | True | False | True | pending | Not generated |
-| [google/AEUX](https://github.com/google/AEUX) | Editable After Effects layers from Sketch artboards | 560 | Pending | True | False | True | pending | Not generated |
-| [google/AFL](https://github.com/google/AFL) | american fuzzy lop - a security-oriented fuzzer | 4203 | Pending | True | False | True | pending | Not generated |
-| [google/agamotto](https://github.com/google/agamotto) | Machine Learning to gather insights from physical locations | 18 | Pending | True | False | True | pending | Not generated |
+| [google/ads-account-structure-script](https://github.com/google/ads-account-structure-script) | No description | 30 | JavaScript | True | False | True | captured | [Open](repositories/ads-account-structure-script-305937854.md) |
+| [google/ads-api-report-fetcher](https://github.com/google/ads-api-report-fetcher) | Google Ads API Report Fetcher (gaarf) | 65 | Dockerfile, HTML, JavaScript, Python, Shell, TypeScript | False | False | True | captured | [Open](repositories/ads-api-report-fetcher-458255798.md) |
+| [google/ads-bi-suite](https://github.com/google/ads-bi-suite) | No description | 21 | JavaScript, Shell | True | False | True | captured | [Open](repositories/ads-bi-suite-636518093.md) |
+| [google/ads-placement-excluder](https://github.com/google/ads-placement-excluder) | No description | 10 | HCL, Python | True | False | True | captured | [Open](repositories/ads-placement-excluder-527620570.md) |
+| [google/ads-privacy](https://github.com/google/ads-privacy) | No description | 420 | Pending | True | False | True | captured | [Open](repositories/ads-privacy-259973195.md) |
+| [google/ads_oneshop](https://github.com/google/ads_oneshop) | No description | 30 | Go, HCL, Python, Shell, Starlark | False | False | True | captured | [Open](repositories/ads-oneshop-850984503.md) |
+| [google/aegis_cipher](https://github.com/google/aegis_cipher) | No description | 24 | C, C++, CMake | True | False | True | captured | [Open](repositories/aegis-cipher-384468836.md) |
+| [google/AEUX](https://github.com/google/AEUX) | Editable After Effects layers from Sketch artboards | 560 | CSS, HTML, JavaScript, TypeScript, Vue | True | False | True | captured | [Open](repositories/aeux-92198563.md) |
+| [google/AFL](https://github.com/google/AFL) | american fuzzy lop - a security-oriented fuzzer | 4203 | C, C++, HTML, JavaScript, Makefile, Rich Text Format, Shell | True | False | True | captured | [Open](repositories/afl-198869255.md) |
+| [google/agamotto](https://github.com/google/agamotto) | Machine Learning to gather insights from physical locations | 18 | Dockerfile, HTML, Python | True | False | True | captured | [Open](repositories/agamotto-505928522.md) |
 | [google/agata](https://github.com/google/agata) | A simple UI layer for visualizing Google Analytics v4 hits on Android apps | 14 | Pending | True | False | True | pending | Not generated |
 | [google/agency-ads-management-solutions](https://github.com/google/agency-ads-management-solutions) | No description | 12 | Pending | True | False | True | pending | Not generated |
 | [google/agent-security-cli](https://github.com/google/agent-security-cli) | No description | 6 | Pending | False | False | True | pending | Not generated |

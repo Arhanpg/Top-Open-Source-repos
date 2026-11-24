@@ -1176,12 +1176,89 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:42:23+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "VHDL": 41325207,
+        "SystemVerilog": 8091203,
+        "Verilog": 1143061,
+        "Tcl": 428921,
+        "C": 388240,
+        "C++": 113843,
+        "Shell": 35392,
+        "Filebench WML": 13680,
+        "CMake": 4338,
+        "Makefile": 2441,
+        "Coq": 865
+      },
+      "readme_url": "https://github.com/baidu/bce-fpga-dev-kit/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "45cf58876369e6edeb0e59b1c33c61eb203b67d6",
+      "readme_excerpt": "1. 概览 1. 已支持/待开发特性列表 1. ChangeLog 1. HDK简介 1. SDK简介 1. 联系交流 百度FPGA云服务器是配备了现场可编程门阵列(FPGA)的虚拟机实例。每个实例提供了一片20nm Xilinx UltraScale FPGA，其中包含多达150万个逻辑单元和5520个数字信号处理(DSP)引擎，并独享8GB板载四通道DDR4-2400 ECC内存以及与主机间的PCIe Gen3 x8链路。FPGA丰富的逻辑计算资源和高速IO接口，赋予了您的应用充足的性能提升空间，尤为适合解决诸如基因检测、财务分析这类涉及高性能计算(HPC)的复杂科学、工程问题。使用百度FPGA云服务器，您无需耗费精力设计、购买或运维硬件，可以节省这些额外步骤带来的成本。 您可以在百度FPGA云开发环境上快速灵活地对软硬件进行编程，通过协同设计来为您的应用创建自定义加速。您也可以选择云市场上百度或第三方厂商提供的成熟普适加速方案，如神经网络计算、多媒体处理、数据加解密等，参照简易步骤在FPGA云服务器上部署后轻松提升应用性能。 百度FPGA云开发环境旨在为开发者提供一个稳定可靠、便捷易用的FPGA软硬件编程环境。它分为HDK(Hardware Development Kit)和SDK(Software Development Kit)两部分，其中囊括了开发、模拟、调试和编译代码所需的各种资源。基于此，开发者能轻松构建FPGA自定义逻辑，并可将已有设计顺利移植到百度FPGA云服务器。 * 更完善的自定义逻辑仿真支持 * 多PCIe Function支持 * SDAccel开发环境支持 * FPGA云市场支持 * RP端AXI-Stream接口支持 * 更多型号FPGA如Xilinx VU9P和Altera S10支持 **百度云会不定期升级FPGA静态逻辑，并对应更新该工具包，其中可能包含新增特性支持或Bug修复。升级后旧版本的工具包将不再被支持。请关注本节更新公告，并及时从https://github.com/Cwndmiao/bce-fpga-dev-kit/releases下载最新版本的工具包。** **建议您在使用百度FPGA云开发环境前仔细阅读HDK和SDK目录下的使用文档。如果您在使用百度FPGA云开发环境的过程中遇到了任何问题，请首先参考Q&A，其中罗列了一部分已知问题的解决方法。** 如果您有任何百度FPGA云开发环境相关的Bug报告或发展建议，请通过以下任一方式联系百度云，我们会尽早回复。 * 在https://github.com/Cwndmiao/bce-fpga-dev-kit/issues提交Github Issues * 在https://gitter.im/bce-fpga-dev-kit/Lobby留言 * 发送邮件至<a href=\"mailto:miaotianxiang@baidu.com\">miaotianxiang</a>或<a href=\"mailto:ruanyuan@baidu.com\">ruanyuan</a>",
+      "readme_headings": [
+        "百度FPGA云开发环境软硬件工具包",
+        "目录",
+        "概览",
+        "已支持/待开发特性列表",
+        "已支持特性",
+        "待开发特性",
+        "ChangeLog",
+        "HDK简介",
+        "SDK简介",
+        "联系交流"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "hdk/xvc_server/Makefile",
+          "sha": "3578edfb5b7891ffc4de4506a35322c12eb3a7f5",
+          "size": 364,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "sdk/llapi/CMakeLists.txt",
+          "sha": "22b144573d964b557bb017f768e3a86c7929c1c4",
+          "size": 368,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "sdk/mgmt_tool/CMakeLists.txt",
+          "sha": "d678e80699ec4ff06bb001472e43d10589ae7e0f",
+          "size": 1938,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "sdk/linux_kernel_driver/driver/Makefile",
+          "sha": "1c0ee14ac6a0ea79acdb895548482adc759aa359",
+          "size": 1410,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "sdk/linux_kernel_driver/sample/CMakeLists.txt",
+          "sha": "9eb00df662ab0dd5c8e7fee7af63bfa908278b2e",
+          "size": 2032,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "sdk/linux_kernel_driver/tests/Makefile",
+          "sha": "15871fce2957a6cc87e338515dc7596e926f6b28",
+          "size": 667,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:05+00:00"
     },
     "baidu/bfe-book": {
       "id": 362668356,
@@ -1204,12 +1281,36 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:42:23+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/baidu/bfe-book/blob/version1/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "98ef1d8df3fa7bea46dde4206b1c83655185b6ac",
+      "readme_excerpt": "English | 中文 This book focuses on BFE open source project, introduces the relevant technical principles of network access, explains the design idea of BFE open source software, and how to build a network front-end platform based on BFE open source software. Readers with development capabilities can also develop BFE extension modules according to their own needs or contribute code to BFE open source projects according to the instructions in this book. BFE is Baidu's unified layer-7 load balancing platform. The BFE platform has been under construction since 2012. By the end of 2020, the BFE platform has forwarded more",
+      "readme_headings": [
+        "In-depth Understanding of BFE",
+        "BFE Open Source Project",
+        "Authors",
+        "Copyright Statement",
+        "Table of contents",
+        "Background",
+        "Principles",
+        "Designs",
+        "Operations",
+        "Implementations",
+        "Development",
+        "Appendix"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:06+00:00"
     },
     "baidu/bfs": {
       "id": 26562172,
@@ -1232,12 +1333,66 @@
       "open_issues": 119,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:42:23+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 666116,
+        "Python": 29405,
+        "Shell": 27618,
+        "Makefile": 10860,
+        "C": 2177
+      },
+      "readme_url": "https://github.com/baidu/bfs/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "20a676aa4fc5b44c80683d8d7db73d0a24db9f35",
+      "readme_excerpt": "======= The Baidu File System (BFS) is a distributed file system designed to support real-time applications. Like many other distributed file systems, BFS is highly fault-tolerant. But different from others, BFS provides low read/write latency while maintaining high throughput rates. Together with Galaxy and Tera, BFS supports many real-time products in Baidu, including Baidu webpage database, Baidu incremental indexing system, Baidu user behavior analysis system, etc. 1. Continuous availability * Nameserver is implemented as a `raft group`, no single point failure. 2. High throughput * High performance data engine to maximize IO utils. 3. Low latency * Global load balance",
+      "readme_headings": [
+        "Features",
+        "Architecture",
+        "Quick Start",
+        "Build",
+        "Standalone BFS",
+        "How to Contribute",
+        "Contact us",
+        "核心特点",
+        "架构",
+        "快速试用",
+        "构建",
+        "单机版BFS",
+        "如何参与开发",
+        "联系我们"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "dockerfile",
+          "sha": "a4d7a2749c597d8df7cb1c3eaecb6851a4f3064a",
+          "size": 548,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "Makefile",
+          "sha": "7af11c515c21dc044ca5e713c29ae5a27663b353",
+          "size": 10105,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tera/Makefile",
+          "sha": "fc6f578567dccf13e63043802aec15fabd9a7f81",
+          "size": 755,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:08+00:00"
     },
     "baidu/bigflow": {
       "id": 110657073,
@@ -1260,12 +1415,83 @@
       "open_issues": 27,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:42:23+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 2985243,
+        "Python": 2521378,
+        "Perl": 172551,
+        "CMake": 125747,
+        "Scala": 80350,
+        "Shell": 26716,
+        "C": 5999,
+        "Thrift": 614
+      },
+      "readme_url": "https://github.com/baidu/bigflow/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "eaa9d803fe355bab59ba3b0ec00fe840ee2f4fe6",
+      "readme_excerpt": "**Baidu Bigflow** (以下简称 Bigflow)是百度的一套计算框架， 它致力于提供一套简单易用的接口来描述用户的计算任务，并使同一套代码可以运行在不同的执行引擎之上。 它的设计中有许多思想借鉴自 Google FlumeJava以及 Google Cloud Dataflow，另有部分接口设计借鉴自 Apache Spark。 用户基本可以不去关心 Bigflow 的计算真正运行在哪里，可以像写一个单机的程序一样写出自己的逻辑， Bigflow 会将这些计算分发到相应的执行引擎之上执行。 Bigflow 的目标是: 使分布式程序写起来更简单，测起来更方便，跑起来更高效，维护起来更容易，迁移起来成本更小。 目前 Bigflow 在百度公司内部对接了公司内部的批量计算引擎 DCE（与社区 Tez 比较类似），迭代引擎 Spark，以及公司内部的流式计算引擎 Gemini。 在开源版本中，目前仅开放了Bigflow on Spark。 * **高性能** Bigflow 的接口设计使得 Bigflow 可以感知更多的用户需求的细节属性，并且 Bigflow 会根据计算的属性进行作业的优化；另其执行层使用 C++ 实现，用户的一些代码逻辑会被翻译为 C++ 执行，有较大的性能提升。 在公司内部的实际业务测试来看，其性能远高于用户手写的作业。根据一些从现有业务改写过来的作业平均来看，其性能都比原用户代码提升了 100%+。开源版本的 benchmark 正在准备中。 * **简单易用** Bigflow 的接口表面看起来很像 Spark，但实际实用之后会发现 Bigflow 使用一些独特的设计使得 Bigflow 的代码更像是单机程序，例如，屏蔽了 partitioner 的概念，支持嵌套的分布式数据集等，使得其接口更加易于理解，并且拥有更强的代码可复用性。 特别的，在许多需要优化的场景中，因为 Bigflow 可以进行自动的性能以及内存占用优化，所以用户可以避免许多因 OOM 或性能不足而必须进行的优化工作，降低用户的使用成本。 * **在这里，Python 是一等公民** 我们目前原生支持的语言是 Python。 使用 PySpark 时，有不少用户都困扰于 PySpark 的低效，或困扰于其不支持某些 CPython 库，或困扰于一些仅功能仅仅在 Scala 和 Java 中可用，在 PySpark 中暂时处于不可用状态。 而在 Bigflow 中，Python 是一等公民（毕竟当前我们仅仅支持 Python），以上问题在 Bigflow 中都不是问题，性能、功能、易用性都对 Python 用户比较友好。 注：该页面仅提供试用功能，并没有做安全防护，相关机器每隔一段时间会被清空一次，请不要做代码存储等操作。 http://jcst.ict.ac.cn/EN/10.1007/s11390-020-9702-3 需要加入Bigflow微信技术讨论群的，请加微信号：iacmol 或 himddheart，然后备注一下：加入Bigflow技术讨论群",
+      "readme_headings": [
+        "Bigflow",
+        "Bigflow 是什么?",
+        "为什么要使用 Bigflow?",
+        "在线试用",
+        "Bigflow详细文档",
+        "论文",
+        "联系我们"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "cb27dac192c82d4e1d1309e16d5d5aa9f2093fd2",
+          "size": 1921,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "bigflow_python/CMakeLists.txt",
+          "sha": "972a3059d003749caab17e9beedda0793e3d230e",
+          "size": 19227,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "doc/Makefile",
+          "sha": "649d6f0fc7e97f030961d5dfa255435897fc9785",
+          "size": 7437,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "flume/CMakeLists.txt",
+          "sha": "bf827a5caf09f4e8e5353cd55e004fb4fb68b610",
+          "size": 51033,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "bigflow_python/proto/CMakeLists.txt",
+          "sha": "e8ce8d8f93140b27558cf8c02ec8b1ac1ca0ed9a",
+          "size": 698,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "flume/proto/CMakeLists.txt",
+          "sha": "de1016af99b8314d3d8898f966449caee9cb4525",
+          "size": 753,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:10+00:00"
     },
     "baidu/BIPlatform": {
       "id": 93741577,
@@ -1288,12 +1514,209 @@
       "open_issues": 7,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:42:23+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 15475152,
+        "Java": 4554030,
+        "CSS": 1480091,
+        "HTML": 253962,
+        "Shell": 3347
+      },
+      "readme_url": "https://github.com/baidu/BIPlatform/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "dda72c7356422de0672a456dcdce3e03e87216aa",
+      "readme_excerpt": "BIPlatform 声明：因公司内部代码规范管理原因，平台代码版本维护由git迁移到公司svn管理，平台更新代码按天同步到github，感谢关注！ 百度开源，业内领先的Holap敏捷BI分析平台，提供高性能、准实时、可扩展的、一站式的BI建模、分析平台。 fileserver －－ 静态文件服务器 存储平台生成的静态文件 model －－ 模型组建层 定义分析、问答模型 designer －－ 设计器 tesseract －－ 执行引擎 clone项目到本地指定目录 分别在fileserver、tesseract、designer目录下执行 mvn install构建项目 找到fileserver构建后的jar文件，执行java －jar 指定端口和有效文件路径，启动文件服务器， 如： java -jar fileserver-0.0.1-SNAPSHOT.jar 9090 /tmp/ > log/fileserver.log & 找到tesseract构建后的jar文件，执行java －jar 启动执行引擎， 如： java -jar tesseract-0.0.1-SNAPSHOT.jar > log/ter.log & 找到designer构建后的jar文件，执行java －jar 启动建模工具, 如： java -jar designer-0.0.1-SNAPSHOT.jar --server.port=8999 > log/designer.log &",
+      "readme_headings": [
+        "如何快速构建BI－Platform 构建前提：需在指定环境中安装maven 3 以上、java8",
+        "项目模块功能描述：",
+        "构建流程：",
+        "开发文档： 详见：http://my.oschina.net/biplatform/blog",
+        "用户手册： 构建中（2014-11-30），和Milestonev1.1.0同步发布"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "45b9bbd4e99ece5c0737ab9f6504ecc336b3ae30",
+          "size": 14552,
+          "content_status": "captured",
+          "dependency_hints": [
+            "activemq-broker",
+            "activemq-client",
+            "activemq-jms-pool",
+            "activemq-pool",
+            "biplatform",
+            "c3p0",
+            "cache",
+            "common-api",
+            "commons-collections",
+            "commons-compress",
+            "commons-lang",
+            "commons-logging",
+            "fileserver",
+            "gson",
+            "guava",
+            "hazelcast",
+            "hazelcast-client",
+            "hazelcast-spring",
+            "jackson-annotations",
+            "jms",
+            "json",
+            "junit",
+            "license-maven-plugin",
+            "lifecycle-mapping",
+            "lucene-analyzers-common",
+            "lucene-core",
+            "lucene-queryparser",
+            "mail",
+            "maven-checkstyle-plugin",
+            "maven-checkstyle-plugin\n                                        ",
+            "mina-core",
+            "mockito-all",
+            "model",
+            "netty-all",
+            "powermock-api-mockito",
+            "powermock-module-junit4",
+            "schedule",
+            "servlet-api",
+            "spring-boot-starter-parent",
+            "spring-jms"
+          ]
+        },
+        {
+          "path": "cache/pom.xml",
+          "sha": "fcb35fc2a2732f998e3b6a85d7e364a49ba3a684",
+          "size": 2523,
+          "content_status": "captured",
+          "dependency_hints": [
+            "biplatform",
+            "cache",
+            "commons-collections",
+            "commons-io",
+            "commons-lang",
+            "gson",
+            "hazelcast",
+            "hazelcast-client",
+            "hazelcast-spring",
+            "jedis",
+            "junit",
+            "powermock-api-mockito",
+            "powermock-module-junit4",
+            "redisson",
+            "spring-boot-starter-redis",
+            "spring-data-redis"
+          ]
+        },
+        {
+          "path": "common-api/pom.xml",
+          "sha": "d118edfcaf40b5699af33547f536fc43d9749c6d",
+          "size": 2676,
+          "content_status": "captured",
+          "dependency_hints": [
+            "activemq-broker",
+            "activemq-client",
+            "activemq-jms-pool",
+            "activemq-pool",
+            "biplatform",
+            "cache",
+            "common-api",
+            "fileserver",
+            "guava",
+            "junit",
+            "mockito-all",
+            "model",
+            "powermock-api-mockito",
+            "powermock-module-junit4",
+            "spring-jms",
+            "spring-test"
+          ]
+        },
+        {
+          "path": "designer/pom.xml",
+          "sha": "a536b04b5add7ec533e50133eddb64f3c0fd1af0",
+          "size": 3876,
+          "content_status": "captured",
+          "dependency_hints": [
+            "biplatform",
+            "cache",
+            "common-api",
+            "commons-collections",
+            "commons-lang",
+            "designer",
+            "gson",
+            "guava",
+            "h2",
+            "jms",
+            "json",
+            "junit",
+            "mail",
+            "mockito-all",
+            "model",
+            "mysql-connector-java",
+            "powermock-api-mockito",
+            "powermock-module-junit4",
+            "schedule",
+            "spring-boot-maven-plugin",
+            "spring-boot-starter-log4j",
+            "spring-boot-starter-logging",
+            "spring-boot-starter-web",
+            "spring-test",
+            "velocity"
+          ]
+        },
+        {
+          "path": "fileserver/pom.xml",
+          "sha": "447adffc96cb526663ad9ee100b9c4182232400c",
+          "size": 3374,
+          "content_status": "captured",
+          "dependency_hints": [
+            "biplatform",
+            "commons-lang",
+            "fileserver",
+            "guava",
+            "httpclient",
+            "junit",
+            "maven-assembly-plugin",
+            "mockito-all",
+            "netty-all",
+            "powermock-api-mockito",
+            "powermock-module-junit4",
+            "slf4j-api"
+          ]
+        },
+        {
+          "path": "model/pom.xml",
+          "sha": "7a84efb7de135efae846c7541a4b44407f6290c1",
+          "size": 2506,
+          "content_status": "captured",
+          "dependency_hints": [
+            "biplatform",
+            "commons-collections",
+            "commons-lang",
+            "commons-logging",
+            "gson",
+            "guava",
+            "httpclient",
+            "jackson-annotations",
+            "jackson-core",
+            "junit",
+            "mockito-all",
+            "model",
+            "powermock-api-mockito",
+            "powermock-module-junit4",
+            "slf4j-log4j12",
+            "spring-core"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:12+00:00"
     },
     "baidu/boteye": {
       "id": 109113339,
@@ -1316,12 +1739,62 @@
       "open_issues": 24,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:42:23+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 508324,
+        "CMake": 8660,
+        "Python": 5999,
+        "Shell": 4455,
+        "C": 2258
+      },
+      "readme_url": "https://github.com/baidu/boteye/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "bb077647377406cf1aee1a838596c3671b0304c6",
+      "readme_excerpt": "For details, please refer to BotEye Wiki or 机器人视觉平台介绍. Currently, boteye SDK only supports **Ubuntu16.04**. In this release version, **yaml-cpp** library has been removed from **3rdparty_lean_lib**. Please follow the **Dependency Installation** section in BotEye Wiki to update 3rdparty.",
+      "readme_headings": [
+        "BotEye:: Baidu Robotic Vision SDK ##",
+        "NOTE: OS Version Support",
+        "NOTE: 3rdparty Update"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "apps/CMakeLists.txt",
+          "sha": "a2e41cdade1721205b9f22a68a5128646bb7d004",
+          "size": 592,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "apps/app_tracking/CMakeLists.txt",
+          "sha": "c31478b72fe174c3787129376bfc3292418962d2",
+          "size": 1987,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "apps/cam_calibration/CMakeLists.txt",
+          "sha": "1ca4f212a216868d6388e9bba63e2747251fb529",
+          "size": 440,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "apps/xp_sensor_logger/CMakeLists.txt",
+          "sha": "44c4dc4429e603a5f86729098ccbc3ae1bfb1b32",
+          "size": 508,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:14+00:00"
     },
     "baidu/boteye_driver": {
       "id": 117533306,
@@ -1344,12 +1817,62 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:42:23+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 258226,
+        "CMake": 39015,
+        "Python": 16828,
+        "Shell": 2698
+      },
+      "readme_url": "https://github.com/baidu/boteye_driver/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5bfdc4c69a0e700d6a53b8388e04c365315bd63b",
+      "readme_excerpt": "README ====== This is xPerception's driver for multiple types of camera modules. You can git clone the XP_3rdparty repo, which has all the source code of needed 3rdparty dependencies by other repos, but that's an overkill. You can just download the Opencv. - Opencv cd ~/Development/tracking-docker/3rdparty/opencv-3.0.0 mkdir build; cd build cmake .. make -j4 sudo make install To run an application of the driver, glog and gflags are needed. You can get them from the XP_3rdparty repo, or use apt-get: apt-get install -y --allow-unauthenticated \\ libgflags-dev \\ libgoogle-glog-dev mkdir ~/Development; cd ~/Development git clone [the git repo of driver] cd",
+      "readme_headings": [
+        "Required dependencies (built from source): ##",
+        "Optional dependencies (built from source): ##",
+        "Setup steps: ##",
+        "Optional setup steps: ##"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "87c756d2a382f977de790432e69ed5ab467e59bf",
+          "size": 3987,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "app/CMakeLists.txt",
+          "sha": "5df072b85284575a03121683d9bb8b00a702a40e",
+          "size": 2040,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "app/depth_demo/CMakeLists.txt",
+          "sha": "212841005b61eb69e1dc7c5ab47140727a6dbb29",
+          "size": 888,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "app/tests/CMakeLists.txt",
+          "sha": "74995a43e65111f52c2fd98740cd75abee835d0f",
+          "size": 351,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:16+00:00"
     },
     "baidu/boteye_sensor": {
       "id": 110835370,
@@ -1372,12 +1895,44 @@
       "open_issues": 10,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:42:23+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C": 406264,
+        "Shell": 5463,
+        "Makefile": 1531
+      },
+      "readme_url": "https://github.com/baidu/boteye_sensor/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "876f627ac5bf2191c1664460ba596a9a509c90d4",
+      "readme_excerpt": "This repo contains hardware and firmware of Baidu boteye sensor. **If you purchase the hardware from Kinco Automation(a third party manufacturer), which is already loaded with the latest firmware, you can skip the following steps.** Firmware supports three hardware versions: `XP`, `XP2`, and `XP3`. In order to compile, you need cypress FX3 sdk (http://www.cypress.com/documentation/software-and-drivers/ez-usb-fx3-software-development-kit). Download the sdk here http://www.cypress.com/file/221546 You can get `fx3_firmware_linux.tar.gz` and `cyusb_linux_1.0.4.tar.gz`, then extract to root directory of this repo. - Install arm gcc compiler sudo apt-get install gcc-arm-none-eabi - Make sure your arm compiler is `arm-none-eabi-gcc version 4.8.2` arm-none-eabi-gcc --version - Install gcc compiler sudo apt-get",
+      "readme_headings": [
+        "boteye_sensor ##",
+        "Hardware Introduction",
+        "FX3 SDK Installation ##",
+        "Compile Firmware ##",
+        "FX3 Image Download Tool Install ##",
+        "Image Download ##",
+        "Firmware Tools ##",
+        "About Version ##"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "firmware/makefile",
+          "sha": "08c90ee61bf5a5c643628cb67df11fb656142713",
+          "size": 1531,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:17+00:00"
     },
     "baidu/braft": {
       "id": 120606279,
@@ -1409,12 +1964,77 @@
         "state-machine-replication"
       ],
       "last_seen_scan_id": "2026-11-23T20:42:23+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "C++": 1266374,
+        "Shell": 51472,
+        "CMake": 27074,
+        "Clojure": 14971,
+        "Starlark": 4308
+      },
+      "readme_url": "https://github.com/baidu/braft/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3c1e6217ed72a025a6d1c822360b431fdbf102e0",
+      "readme_excerpt": "An industrial-grade C++ implementation of RAFT consensus algorithm and replicated state machine based on brpc. braft is designed and implemented for scenarios demanding for high workload and low overhead of latency, with the consideration for easy-to-understand concepts so that engineers inside Baidu can build their own distributed systems individually and correctly. It's widely used inside Baidu to build highly-available systems, such as: * Storage systems: Key-Value, Block, Object, File ... * SQL storages: HA MySQL cluster, distributed transactions, NewSQL systems ... * Meta services: Various master modules, Lock services ... * Build brpc which is the main dependency of braft.",
+      "readme_headings": [
+        "Overview",
+        "Getting Started",
+        "Docs",
+        "Discussion"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "CMakeLists.txt",
+          "sha": "110daa30d00553412e9ad5629d416309bfde3556",
+          "size": 7771,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/CMakeLists.txt",
+          "sha": "f587464afb0884a815ed76e907ceb08338c60f49",
+          "size": 1185,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "test/CMakeLists.txt",
+          "sha": "2adb666f1b5e994aa343a7439f9ceff916ce4c19",
+          "size": 1717,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "tools/CMakeLists.txt",
+          "sha": "89aa7e4a60f2359dd14dfa8a6078d9f0fb227891",
+          "size": 695,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "example/atomic/CMakeLists.txt",
+          "sha": "dbbb96d9132e62868445e368aa2e7b1428d9eadd",
+          "size": 5075,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "example/block/CMakeLists.txt",
+          "sha": "f71e166ec8807c18c4043fe04bfa0d8f3bb1e8e3",
+          "size": 4595,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:19+00:00"
     },
     "baidu/brcc": {
       "id": 335558838,
@@ -1443,12 +2063,191 @@
         "sdk-java"
       ],
       "last_seen_scan_id": "2026-11-23T20:42:23+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 4737291,
+        "Go": 40381,
+        "Shell": 4125,
+        "HTML": 3096,
+        "Dockerfile": 763
+      },
+      "readme_url": "https://github.com/baidu/brcc/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5facb3d53b12cd16583ce4476b23a01f58c6de1c",
+      "readme_excerpt": "&ensp;&ensp;BRCC是一个分布式配置中心，用于统一管理应用服务的配置信息，避免各类资源散落在各个项目中，简化资源配置的维护成本。作为一种轻量级的解决方案，部署简单，同时支持多环境、多版本、多角色的资源管理，可以在不改变应用源码的情况下无缝切换和实时生效配置信息。 &ensp;&ensp;BRCC由三部分组成：管理端、服务端、SDK，其中：<br/> （1）**管理端** : 前后端分离，后端基于Spring Boot 2.0开发，支持6个维度（产品、工程、环境、版本、分组、配置项）管理key-value格式的配置；支持细粒度的权限控制层级、操作轨迹等能力。安全易用，支持插件化的扩展轻松集成任何公司/组织的账号管理系统。<br/> （2）**服务端**： 基于spring boot 2.0开发，打包后可以直接运行，支持配置的分发、更新推送。<br/> （3）**SDK**：支持java、go等多种开发语言和开发框架集成，支持spring注解、配置变更监听和刷新，零业务侵入性，低门槛集成（提供spring boot starter方式接入）。<br/> - 提供统一界面集中式管理不同环境、不同产品线、不同工程的配置<br/> - 通过版本的复制，可以高效的完成新业务的配置 - 默认2秒接收到最新的配置<br/> - 主动变更通知 - 多级权限、多种角色细粒度管控（产品线、工程、环境），支持读写权限<br/> - 重要信息加密交互<br/> - Token机制 - 支持Java、Go客户端以SDK方式接入<br/> - 支持OpenAPI快速接入（不限定语言，只要支持Http协议即可） - 操作轨迹可追踪<br/> - 历史配置可查询和回溯 - 重要接口支持缓存开关配置<br/> - 部署简单，目前强依赖的外部服务是MySQL<br/> - 更聚焦：只关注配置相关的控制 - 细粒度化到key-value配置项层级<br/> - 支持模糊匹配检索 查看 快速开始 地址：http://180.76.36.149/#/login 测试账号1: test1 123456 测试账号2: test2 123456 - xiemalin - caolei - shiminyan - geyoujia - zhaofakai issues贡献： 如在使用中遇到问题，请在 https://github.com/baidu/brcc/issues 新建 issues 反馈问题。 如果您有任何意见或问题都可以提issue到github或gitee，我们将及时为您解答。 如在使用中遇到问题，快速沟通，可微信扫描二维码，加入brcc技术交流群，添加下列管理员微信，并备注“brcc”，管理员邀您入群： 您也可以加入百度如流讨论群直接参与讨论和提问：3664772 - 1.0.0 brcc第一版发布，具备六个维度管理K-V的配置能力、五级权限控制能力、操作轨迹追踪、变更推送、支持spring原生配置注解等功能； 更多内容请参见：历史发版更新",
+      "readme_headings": [
+        "BRCC：Better Remote Config Center",
+        "简介",
+        "特性",
+        "1. 统一管理不同环境、不同产品线的配置",
+        "2. 配置修改实时生效（热发布）",
+        "3. 权限管理、角色隔离",
+        "4. 多语言支持",
+        "5. 可追溯",
+        "6. 缓存加持",
+        "7. 更轻量",
+        "8. 查询更方便",
+        "技术架构",
+        "快速开始",
+        "测试环境和账号",
+        "全部文档",
+        "维护者",
+        "贡献",
+        "讨论",
+        "版本更新"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "8f68a341a116fcb5c920da3d625b6ae204b30af1",
+          "size": 293,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pom.xml",
+          "sha": "51abbd08e732e8aea6a24ad3d2fd5ae65a3018f9",
+          "size": 17485,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aspectjrt",
+            "aspectjweaver",
+            "brcc",
+            "brcc-api",
+            "brcc-cache",
+            "brcc-console",
+            "brcc-core",
+            "cglib",
+            "cobertura-maven-plugin",
+            "commons-lang3",
+            "disruptor",
+            "gson",
+            "guava",
+            "jackson-annotations",
+            "jackson-core",
+            "jackson-databind",
+            "jacoco-maven-plugin",
+            "jedis",
+            "junit",
+            "log4j-api",
+            "log4j-core",
+            "log4j-slf4j-impl",
+            "lombok",
+            "maven-compiler-plugin",
+            "maven-gpg-plugin",
+            "maven-javadoc-plugin",
+            "maven-resources-plugin",
+            "maven-source-plugin",
+            "mybatis-spring-boot-starter",
+            "mysql-connector-java",
+            "slf4j-api",
+            "spring-boot-maven-plugin",
+            "spring-boot-starter",
+            "spring-boot-starter-actuator",
+            "spring-boot-starter-aop",
+            "spring-boot-starter-data-redis",
+            "spring-boot-starter-log4j2",
+            "spring-boot-starter-logging",
+            "spring-boot-starter-test",
+            "spring-boot-starter-tomcat",
+            "spring-boot-starter-undertow",
+            "spring-boot-starter-web",
+            "springfox-swagger-ui",
+            "springfox-swagger2"
+          ]
+        },
+        {
+          "path": "brcc-api/pom.xml",
+          "sha": "e6cf5978d837ec10d4a23e6a852154e2b0b61057",
+          "size": 1026,
+          "content_status": "captured",
+          "dependency_hints": [
+            "brcc",
+            "brcc-api",
+            "brcc-core",
+            "junit",
+            "spring-boot-starter-test"
+          ]
+        },
+        {
+          "path": "brcc-cache/pom.xml",
+          "sha": "fb240a4a6da8daa66b67c0697471c1f7df4ae818",
+          "size": 1591,
+          "content_status": "captured",
+          "dependency_hints": [
+            "brcc",
+            "brcc-cache",
+            "brcc-core",
+            "junit",
+            "spring-boot-starter",
+            "spring-boot-starter-data-redis",
+            "spring-boot-starter-test"
+          ]
+        },
+        {
+          "path": "brcc-console/pom.xml",
+          "sha": "8620931b9c7f66fee410c3d7d054ead0f9286770",
+          "size": 1032,
+          "content_status": "captured",
+          "dependency_hints": [
+            "brcc",
+            "brcc-console",
+            "brcc-core",
+            "junit",
+            "spring-boot-starter-test"
+          ]
+        },
+        {
+          "path": "brcc-core/pom.xml",
+          "sha": "0f95e99ba4cd446aba39a3f38a1c8065c8875852",
+          "size": 6410,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aspectjrt",
+            "aspectjweaver",
+            "brcc",
+            "brcc-core",
+            "cglib",
+            "commons-lang3",
+            "disruptor",
+            "gson",
+            "guava",
+            "jackson-annotations",
+            "jackson-core",
+            "jackson-databind",
+            "junit",
+            "log4j-api",
+            "log4j-core",
+            "log4j-slf4j-impl",
+            "lombok",
+            "mybatis-spring-boot-starter",
+            "mysql-connector-java",
+            "slf4j-api",
+            "spring-aop",
+            "spring-beans",
+            "spring-boot-starter-actuator",
+            "spring-boot-starter-aop",
+            "spring-boot-starter-log4j2",
+            "spring-boot-starter-test",
+            "spring-boot-starter-undertow",
+            "spring-boot-starter-web",
+            "spring-context",
+            "spring-expression",
+            "springfox-swagger-ui",
+            "springfox-swagger2",
+            "swagger-models"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:22+00:00"
     },
     "baidu/brcc-go-sdk": {
       "id": 411162520,

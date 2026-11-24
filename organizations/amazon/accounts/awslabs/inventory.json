@@ -5382,12 +5382,54 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 27959,
+        "Shell": 778,
+        "Dockerfile": 351
+      },
+      "readme_url": "https://github.com/awslabs/amazon-ecs-intellisense-schema/blob/mainline/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "fa765cccc10ab0e248b6db61eb82347bee5ad9a2",
+      "readme_excerpt": "This package is to provide an intelligent code completion (IntelliSense) experience for users when writing an Amazon ECS task definition in their Visual Studio Code or JetBrains IDEs. It does so by parsing the Amazon ECS model files from the AWS SDK for Go. With these files, the package generates a JSON schema file that provides code completion, documentation lookup, and error checking. Instructions to build and enable IntelliSense are down below. Here is a VSCode setup integration example: 1. Configure your IDE settings by going to `Code` → `Preferences` → `Settings` 2. In the search bar, type in settings.json",
+      "readme_headings": [
+        "Amazon ECS IntelliSense Schema",
+        "What does an integration look like?",
+        "How do I set it up?",
+        "VS Code",
+        "Example",
+        "JetBrains",
+        "How to run this tool?",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "1d291d6ea3e310bec3a18b3e14b6187e0df856be",
+          "size": 351,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "6f83e94d216a38ac6b64794c7098813796622d2a",
+          "size": 20,
+          "content_status": "captured",
+          "dependency_hints": [
+            "beautifulsoup4",
+            "lxml"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:38+00:00"
     },
     "awslabs/amazon-ecs-local-container-endpoints": {
       "id": 173167810,
@@ -5410,12 +5452,141 @@
       "open_issues": 29,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 157734,
+        "Makefile": 6712,
+        "JavaScript": 4506,
+        "Shell": 2896,
+        "Dockerfile": 1190
+      },
+      "readme_url": "https://github.com/awslabs/amazon-ecs-local-container-endpoints/blob/mainline/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "ee29d0483c832442579973c2262f6a7842374931",
+      "readme_excerpt": "Amazon ECS Local Container Endpoints ==================================== A container that provides local versions of the ECS Task IAM Roles endpoint and the ECS Task Metadata Endpoints. This project will help you test applications locally before you deploy to ECS/Fargate. This repository contains the source code for the project. To use it, pull the amazon/amazon-ecs-local-container-endpoints:latest image from ECR. * Tutorial * Setup Networking * Option 1: Use a User Defined Docker Bridge Network * Option 2: Set up iptables rules * Configuration * Credentials * Custom IAM and STS Endpoints * Docker * Environment Variables * Features * Vend Credentials to Containers",
+      "readme_headings": [
+        "Table of Contents",
+        "Security disclosures",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "0d31e2efad917bf9ce92c65a486e0a390723a6c6",
+          "size": 557,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "go.mod",
+          "sha": "40ac067b2638ffd1be6c86bb38e75d96de02e8d7",
+          "size": 3587,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/Microsoft/go-winio",
+            "github.com/aws/amazon-ecs-agent/agent",
+            "github.com/aws/aws-sdk-go",
+            "github.com/awslabs/go-config-generator-for-fluentd-and-fluentbit",
+            "github.com/beorn7/perks",
+            "github.com/cespare/xxhash/v2",
+            "github.com/cihub/seelog",
+            "github.com/cilium/ebpf",
+            "github.com/containerd/cgroups",
+            "github.com/containerd/log",
+            "github.com/containernetworking/cni",
+            "github.com/containernetworking/plugins",
+            "github.com/coreos/go-systemd/v22",
+            "github.com/davecgh/go-spew",
+            "github.com/distribution/reference",
+            "github.com/docker/docker",
+            "github.com/docker/go-connections",
+            "github.com/docker/go-units",
+            "github.com/fatih/structs",
+            "github.com/felixge/httpsnoop",
+            "github.com/fsnotify/fsnotify",
+            "github.com/go-logr/logr",
+            "github.com/go-logr/stdr",
+            "github.com/godbus/dbus/v5",
+            "github.com/gogo/protobuf",
+            "github.com/golang/mock",
+            "github.com/golang/protobuf",
+            "github.com/google/uuid",
+            "github.com/gorilla/mux",
+            "github.com/hectane/go-acl",
+            "github.com/jmespath/go-jmespath",
+            "github.com/matttproud/golang_protobuf_extensions",
+            "github.com/moby/term",
+            "github.com/opencontainers/go-digest",
+            "github.com/opencontainers/image-spec",
+            "github.com/opencontainers/runtime-spec",
+            "github.com/pborman/uuid",
+            "github.com/peterbourgon/mergemap",
+            "github.com/pkg/errors",
+            "github.com/pmezard/go-difflib",
+            "github.com/prometheus/client_golang",
+            "github.com/prometheus/client_model",
+            "github.com/prometheus/common",
+            "github.com/prometheus/procfs",
+            "github.com/sirupsen/logrus",
+            "github.com/stretchr/testify",
+            "github.com/vishvananda/netlink",
+            "github.com/vishvananda/netns",
+            "go.etcd.io/bbolt",
+            "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+            "go.opentelemetry.io/otel",
+            "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp",
+            "go.opentelemetry.io/otel/metric",
+            "go.opentelemetry.io/otel/sdk",
+            "go.opentelemetry.io/otel/trace",
+            "golang.org/x/net",
+            "golang.org/x/sys",
+            "golang.org/x/text",
+            "golang.org/x/time",
+            "google.golang.org/genproto/googleapis/api"
+          ]
+        },
+        {
+          "path": "Makefile",
+          "sha": "4720fdac3eaa72db0848ee2987b59a1e7c0182d9",
+          "size": 6712,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "infra/package.json",
+          "sha": "f33859ed0c06b134ac9646a2ee4392d2a870d2dd",
+          "size": 773,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/aws-codebuild",
+            "@aws-cdk/aws-codepipeline",
+            "@aws-cdk/aws-codepipeline-actions",
+            "@aws-cdk/aws-ec2",
+            "@aws-cdk/aws-ecr",
+            "@aws-cdk/aws-ecs",
+            "@aws-cdk/aws-iam",
+            "@aws-cdk/core",
+            "@types/node",
+            "typescript"
+          ]
+        },
+        {
+          "path": "integ/Dockerfile",
+          "sha": "6ec50138974a55a2d647a8aede6bb5e9ae38681b",
+          "size": 353,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:40+00:00"
     },
     "awslabs/amazon-ecs-nodejs-microservices": {
       "id": 90780553,
@@ -5446,12 +5617,28 @@
         "nodejs"
       ],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {},
+      "readme_url": "https://github.com/awslabs/amazon-ecs-nodejs-microservices/blob/archive/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "6aa2bded0fdba91c8c5ce6fa72cfec3b912a7f7b",
+      "readme_excerpt": "This repository has been archived and is now read-only. - No new issues, pull requests, or commits can be made - The code remains available for viewing and cloning - All existing functionality is preserved **📂 View original repository content** If you need to unarchive this repository, please contact the repository maintainers.",
+      "readme_headings": [
+        "📦 Repository Archived",
+        "What this means:",
+        "View Original Code",
+        "Need to make changes?"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:41+00:00"
     },
     "awslabs/amazon-eks-ami": {
       "id": 136244218,
@@ -5474,12 +5661,151 @@
       "open_issues": 62,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Go": 313177,
+        "Shell": 246076,
+        "HCL": 31495,
+        "PowerShell": 15797,
+        "Makefile": 10231,
+        "Python": 3882,
+        "Dockerfile": 3382,
+        "Go Template": 1471
+      },
+      "readme_url": "https://github.com/awslabs/amazon-eks-ami/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "e21e2557e491a6b66ddf0aebce35b51bfd0b063f",
+      "readme_excerpt": "This repository contains resources and configuration scripts for building a custom Amazon EKS AMI with HashiCorp Packer. This is the same configuration that Amazon EKS uses to create the official Amazon EKS-optimized AMI. **Check out the 📖 documentation to learn more.** If you are new to Amazon EKS, we recommend that you follow our Getting Started chapter in the Amazon EKS User Guide. If you already have a cluster, and you want to launch a node group with your new AMI, see [Launching Amazon EKS Worker Nodes](https://docs.aws.amazon.com/eks/latest/userguide/launch-workers.html). You must have Packer version 1.8.0 or later installed on your local system.",
+      "readme_headings": [
+        "Amazon EKS AMI Build Specification",
+        "🚀 Getting started",
+        "🔢 Pre-requisites",
+        "👷 Building the AMI",
+        "build an AMI with a specific Kubernetes version",
+        "check default value and options in help doc",
+        "🔒 Security",
+        "⚖️ License Summary"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "c6372e51fd3219a9aafaf8064493a100182da6d2",
+          "size": 5036,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "nodeadm/go.mod",
+          "sha": "f9159eaefd64154ef9257e0860b2b32b01e17dad",
+          "size": 3755,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cel.dev/cel-go",
+            "cel.dev/expr",
+            "dario.cat/mergo",
+            "github.com/antlr4-go/antlr/v4",
+            "github.com/avast/retry-go/v5",
+            "github.com/aws/aws-sdk-go-v2",
+            "github.com/aws/aws-sdk-go-v2/config",
+            "github.com/aws/aws-sdk-go-v2/credentials",
+            "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "github.com/aws/aws-sdk-go-v2/internal/v4a",
+            "github.com/aws/aws-sdk-go-v2/service/ec2",
+            "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "github.com/aws/aws-sdk-go-v2/service/signin",
+            "github.com/aws/aws-sdk-go-v2/service/sso",
+            "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+            "github.com/aws/aws-sdk-go-v2/service/sts",
+            "github.com/aws/smithy-go",
+            "github.com/beorn7/perks",
+            "github.com/blang/semver/v4",
+            "github.com/cespare/xxhash/v2",
+            "github.com/coreos/go-systemd/v22",
+            "github.com/davecgh/go-spew",
+            "github.com/fxamacker/cbor/v2",
+            "github.com/go-logr/logr",
+            "github.com/godbus/dbus/v5",
+            "github.com/inconshreveable/mousetrap",
+            "github.com/integrii/flaggy",
+            "github.com/json-iterator/go",
+            "github.com/modern-go/concurrent",
+            "github.com/modern-go/reflect2",
+            "github.com/munnerz/goautoneg",
+            "github.com/pelletier/go-toml/v2",
+            "github.com/pmezard/go-difflib",
+            "github.com/prometheus/client_golang",
+            "github.com/prometheus/client_model",
+            "github.com/prometheus/common",
+            "github.com/prometheus/procfs",
+            "github.com/spf13/cobra",
+            "github.com/spf13/pflag",
+            "github.com/stretchr/objx",
+            "github.com/stretchr/testify",
+            "github.com/x448/float16",
+            "go.opentelemetry.io/otel",
+            "go.opentelemetry.io/otel/trace",
+            "go.uber.org/multierr",
+            "go.uber.org/zap",
+            "go.yaml.in/yaml/v2",
+            "go.yaml.in/yaml/v3",
+            "golang.org/x/exp",
+            "golang.org/x/mod",
+            "golang.org/x/net",
+            "golang.org/x/sys",
+            "golang.org/x/text",
+            "google.golang.org/genproto/googleapis/api",
+            "google.golang.org/genproto/googleapis/rpc",
+            "google.golang.org/protobuf",
+            "gopkg.in/inf.v0"
+          ]
+        },
+        {
+          "path": "nodeadm/Makefile",
+          "sha": "e7b066033bb37bad77649b397d74f8d3536a68fb",
+          "size": 5195,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": ".github/actions/bot/package.json",
+          "sha": "040c4958ab2aee309a00be6f361f4719e1ef3f77",
+          "size": 233,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@actions/core",
+            "@actions/github"
+          ]
+        },
+        {
+          "path": "nodeadm/test/e2e/infra/Dockerfile",
+          "sha": "f9448696f5d71c4eb60ce3ff44ed0f49ac99936b",
+          "size": 3289,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "nodeadm/test/e2e/infra/requirements.txt",
+          "sha": "fa2a349cc2eb4ff3584b2fc5f46f8fb507a92390",
+          "size": 22,
+          "content_status": "captured",
+          "dependency_hints": [
+            "mitmproxy",
+            "moto"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:43+00:00"
     },
     "awslabs/amazon-eks-irsa-cfn": {
       "id": 251437972,
@@ -5502,12 +5828,81 @@
       "open_issues": 8,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "JavaScript": 30065,
+        "TypeScript": 18744
+      },
+      "readme_url": "https://github.com/awslabs/amazon-eks-irsa-cfn/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "19291f7f3dc9e4ec8d18d765595dc0fc2d1b31ee",
+      "readme_excerpt": "This repository contains an [AWS CloudFormation](https://aws.amazon.com/cloudformation/) [Custom Resource](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-custom-resources.html) that creates an [AWS IAM Role](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html) that is assumable by a [Kubernetes Service Account](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/). This role is known as an IRSA, or [IAM Role for Service Account](https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html). This role can be associated with an Amazon EKS Cluster that you're creating in the same CloudFormation stack. Alternatively, the EKS Cluster can be created in a different stack and referenced by name. For ease of implementation, this repository also contains a [CDK Construct](https://docs.aws.amazon.com/cdk/latest/guide/constructs.html) library you can import and use to easily create a Role. This is the quickest and most programmatic way to build",
+      "readme_headings": [
+        "Amazon EKS IAM Role for Service Accounts CDK/CloudFormation Library",
+        "CDK Construct Library usage",
+        "SAM Template and CloudFormation Custom Resources",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "package.json",
+          "sha": "027461fb3cb914decf5d68a335785baa1ca6cc60",
+          "size": 807,
+          "content_status": "captured",
+          "dependency_hints": [
+            "@aws-cdk/assert",
+            "@aws-cdk/aws-cloudformation",
+            "@aws-cdk/aws-iam",
+            "@aws-cdk/aws-lambda",
+            "@aws-cdk/core",
+            "@types/jest",
+            "@types/node",
+            "aws-cdk",
+            "jest",
+            "ts-jest",
+            "typescript"
+          ]
+        },
+        {
+          "path": "lambda-packages/identity_provider_handler/package.json",
+          "sha": "8566d846cbcd64b843c3dfb2e4f2ee6ea4c7ab8b",
+          "size": 445,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk",
+            "aws-sdk-mock",
+            "eslint",
+            "jest",
+            "lambda-tester",
+            "nock",
+            "standard"
+          ]
+        },
+        {
+          "path": "lambda-packages/role_handler/package.json",
+          "sha": "76ac1acb13847a10ed2d2f53be9a1606ccb736e9",
+          "size": 432,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-sdk",
+            "aws-sdk-mock",
+            "eslint",
+            "jest",
+            "lambda-tester",
+            "nock",
+            "standard"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:44+00:00"
     },
     "awslabs/amazon-eks-serverless-drainer": {
       "id": 198470006,
@@ -5530,12 +5925,51 @@
       "open_issues": 3,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 3424,
+        "Makefile": 2971
+      },
+      "readme_url": "https://github.com/awslabs/amazon-eks-serverless-drainer/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d344c33a788ec61d7f98e12e1cafcc4486b4e737",
+      "readme_excerpt": "Amazon EKS node drainer with AWS Lambda. **amazon-eks-serverless-drainer** is an Amazon EKS node drainer with AWS Lambda. If you provision spot instances or spotfleet in your Amazon EKS nodegroup, you can listen to the spot termination signal from **CloudWatch Events** 120 seconds in prior to the final termination process. By configuring this Lambda function as the CloudWatch Event target, **amazon-eks-serverless-drainer** will drain the terminating node and all the pods without relative toleration will be evicted and rescheduled to another node - your workload will get very minimal impact on the spot instance termination. Previously this project has a native `golang`",
+      "readme_headings": [
+        "Amazon EKS Serverless Drainer",
+        "Implementations",
+        "Option 1: Deployt from SAR(Serverless App Repository)",
+        "Option 2: Building from scratch",
+        "Prepare your Layer",
+        "Edit the sam.yaml",
+        "update Makefile",
+        "package and deploy with `SAM`",
+        "print the cloudformation stack outputs",
+        "Add Lambda Role into ConfigMap",
+        "Validation",
+        "In Actions",
+        "kubectl drain or kubectl taint",
+        "cluster name auto discovery",
+        "clean up",
+        "License Summary"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "aa1761ed434ae1cdb75350a65f94f3ee181d79a5",
+          "size": 2971,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:46+00:00"
     },
     "awslabs/amazon-emr-cli": {
       "id": 612397727,
@@ -5563,12 +5997,98 @@
         "emr-serverless"
       ],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 76395,
+        "Dockerfile": 2763
+      },
+      "readme_url": "https://github.com/awslabs/amazon-emr-cli/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "068e89451351c48a9b186e1a3cecc724884fde9d",
+      "readme_excerpt": "So we're all working on data pipelines every day, but wouldn't be nice to just hit a button and have our code automatically deployed to staging or test accounts? I thought so, too, thats why I created the EMR CLI (`emr`) that can help you package and deploy your EMR jobs so you don't have to. The EMR CLI supports a wide variety of configuration options to adapt to _your_ data pipeline, not the other way around. 1. Packaging - Ensure a consistent approach to packaging your production Spark jobs. 2. Deployment - Easily deploy your Spark jobs across multiple",
+      "readme_headings": [
+        "EMR CLI",
+        "Quick Start",
+        "EMR CLI Sub-commands",
+        "bootstrap",
+        "EMR Serverless",
+        "init",
+        "package",
+        "deploy",
+        "run",
+        "Support PySpark configurations",
+        "Sample Commands",
+        "Security",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "68b90bc593608b93f179565bf3573f20d58c7b81",
+          "size": 718,
+          "content_status": "captured",
+          "dependency_hints": [
+            "boto3",
+            "boto3-stubs",
+            "click",
+            "importlib-metadata",
+            "pyfakefs",
+            "pytest",
+            "pytest-cov",
+            "pyyaml",
+            "rich"
+          ]
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "f3166f714ed9e24895991b52883097b1ef0b7cb9",
+          "size": 29,
+          "content_status": "captured",
+          "dependency_hints": [
+            "pandas",
+            "pyarrow"
+          ]
+        },
+        {
+          "path": "src/emr_cli/templates/poetry/pyproject.toml",
+          "sha": "2f6ec724707f3a69ae5bd02b2012258806ad9706",
+          "size": 414,
+          "content_status": "captured",
+          "dependency_hints": [
+            "pandas",
+            "pyarrow",
+            "pyspark",
+            "pytest"
+          ]
+        },
+        {
+          "path": "src/emr_cli/templates/pyspark/Dockerfile",
+          "sha": "1abb551f95f7117d781e8c8b03831766b8278e81",
+          "size": 2763,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "src/emr_cli/templates/pyspark/pyproject.toml",
+          "sha": "54e0bf132db030fb9d02dba50f099094dbc817c8",
+          "size": 177,
+          "content_status": "captured",
+          "dependency_hints": [
+            "pandas",
+            "pyarrow",
+            "pytest"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:48+00:00"
     },
     "awslabs/amazon-emr-on-eks-custom-image-cli": {
       "id": 398078954,
@@ -5591,12 +6111,88 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 49256,
+        "Shell": 7333,
+        "Batchfile": 1276,
+        "Makefile": 249
+      },
+      "readme_url": "https://github.com/awslabs/amazon-emr-on-eks-custom-image-cli/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "cb1ccec69a45e5dd0f777cd80351a3289786f65e",
+      "readme_excerpt": "Custom Images, a capability that enables you to customize the Docker container images used for running Apache Spark applications on Amazon EMR on EKS. Custom images enables you to install and configure packages specific to your workload that are not available in the public distribution of EMR’s Spark runtime into a single immutable container. An immutable container promotes portability and simplifies dependency management for each workload and enables you to integrate developing applications for EMR on EKS with your own continuous integration (CI) pipeline. To test the compatibility of the modifications made to your EMR base image, we are providing",
+      "readme_headings": [
+        "Amazon EMR on EKS Custom Image CLI",
+        "Introduction",
+        "For Developers",
+        "Getting Started",
+        "Prerequisite",
+        "Install Docker CLI (Optional).",
+        "Installation",
+        "Usage",
+        "Validate Custom Image",
+        "Basic Test",
+        "Environment Test",
+        "File Structure Test",
+        "Local Job Run Test",
+        "Output Results",
+        "Support",
+        "Security"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "ea7448b9605eac500d62c160281f43bdb37c3122",
+          "size": 249,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "a92f75cc231b8676d71e3741631252a19463dd1d",
+          "size": 436,
+          "content_status": "captured",
+          "dependency_hints": [
+            "PyYAML",
+            "altgraph",
+            "attrs",
+            "build",
+            "certifi",
+            "chardet",
+            "click",
+            "colorlog",
+            "coverage",
+            "docker",
+            "idna",
+            "iniconfig",
+            "macholib",
+            "packaging",
+            "pep517",
+            "pluggy",
+            "pyinstaller-hooks-contrib",
+            "pyparsing",
+            "pytest",
+            "pytest-cov",
+            "requests",
+            "six",
+            "toml",
+            "urllib3",
+            "wcwidth",
+            "websocket-client",
+            "zipp"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:49+00:00"
     },
     "awslabs/amazon-emr-serverless-image-cli": {
       "id": 576427204,
@@ -5619,12 +6215,64 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 53069,
+        "Shell": 3124,
+        "Batchfile": 1167
+      },
+      "readme_url": "https://github.com/awslabs/amazon-emr-serverless-image-cli/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "89452adf0669324bc9412246a445c8faf698071a",
+      "readme_excerpt": "Custom Images, a capability that enables you to customize the Docker container images used for running Apache Spark and Apache Hive applications on Amazon EMR Serverless. Custom images enables you to install and configure packages specific to your workload that are not available in the public distribution of EMR’s runtimes into a single immutable container. An immutable container promotes portability and simplifies dependency management for each workload and enables you to integrate developing applications for EMR Serverless with your own continuous integration (CI) pipeline. To test the compatibility of the modifications made to your EMR base image, we are providing",
+      "readme_headings": [
+        "Amazon EMR Serverless Image CLI",
+        "Introduction",
+        "For Developers",
+        "Getting Started",
+        "Prerequisite",
+        "Install Docker CLI (Optional).",
+        "Installation",
+        "Option 1 - Python",
+        "Option 2 - PyInstaller",
+        "Usage",
+        "Validate Custom Image",
+        "Basic Test",
+        "Environment Test",
+        "File Structure Test",
+        "Local Job Run Test",
+        "Output Results",
+        "Support",
+        "Security"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "setup.py",
+          "sha": "8ab824cc7c6794bf18e5d66aa39ad7d73fc731f7",
+          "size": 36,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "installer/pyinstaller/requirements.txt",
+          "sha": "d4592f84dd904a7c808182e9ea93c49ec4881910",
+          "size": 22,
+          "content_status": "captured",
+          "dependency_hints": [
+            "pyinstaller",
+            "setuptools"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:51+00:00"
     },
     "awslabs/amazon-emr-user-role-mapper": {
       "id": 280275042,
@@ -5647,12 +6295,147 @@
       "open_issues": 13,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T19:30:52+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Java": 231104,
+        "Shell": 12568
+      },
+      "readme_url": "https://github.com/awslabs/amazon-emr-user-role-mapper/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4a1bf517362367045ec633f8a96ab51ac34be564",
+      "readme_excerpt": "This capability is intended to enable customers to use multi-tenant EMR clusters and provide their users from different organizations/departments to have segregated access to data in AWS. This application runs a proxy over the Instance Metadata Service available on EMR/EC2 hosts. The application determines the end user using the OS information for the connecting socket, and then invokes the mapping framework to map the user/group. git clone https://github.com/awslabs/amazon-emr-user-role-mapper.git cd amazon-emr-user-role-mapper mvn clean install cd emr-user-role-mapper-application/usr cp ../target/emr-user-role-mapper-application-1.1.0-jar-with-dependencies-and-exclude-classes.jar install/ Edit the properties file in install/user-role-mapper.properties. rolemapper.s3.key=mappings.json` rolemapper.s3.bucket=my-urm-bucket` Here is a sample format of the JSON. { \"PrincipalRoleMappings\": [ { \"username\": \"user1\",",
+      "readme_headings": [
+        "Amazon EMR User Role Mapper",
+        "Build",
+        "Installation",
+        "Package and copy artifacts to S3",
+        "Installing EMR User Role Mapper on EMR",
+        "Launching on an EC2 instance",
+        "Validating the Installation",
+        "Test URM",
+        "Integration tests",
+        "Managed policy union mapper",
+        "Example:",
+        "URM Custom Credentials provider",
+        "Security",
+        "Limitations",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pom.xml",
+          "sha": "265e9e2f6639c6b223450d87abca3752ce24248e",
+          "size": 1294,
+          "content_status": "captured",
+          "dependency_hints": [
+            "amazon-emr-user-role-mapper"
+          ]
+        },
+        {
+          "path": "emr-user-role-mapper-application/pom.xml",
+          "sha": "025e8625117fb1640a85bc8e6226a45f5f11de6e",
+          "size": 9943,
+          "content_status": "captured",
+          "dependency_hints": [
+            "amazon-emr-user-role-mapper",
+            "aws-java-sdk-iam",
+            "aws-java-sdk-s3",
+            "aws-java-sdk-sts",
+            "emr-user-role-mapper-application",
+            "emr-user-role-mapper-provider",
+            "gson",
+            "guava",
+            "hamcrest",
+            "hamcrest-core",
+            "hamcrest-library",
+            "jacoco-maven-plugin",
+            "javax.servlet-api",
+            "jersey-common",
+            "jersey-container-jetty-http",
+            "jersey-container-jetty-servlet",
+            "jersey-hk2",
+            "jersey-server",
+            "jersey-test-framework-core",
+            "jersey-test-framework-provider-grizzly2",
+            "jetty-server",
+            "jetty-servlet",
+            "jetty-util",
+            "junit",
+            "lombok",
+            "maven-assembly-plugin",
+            "maven-surefire-plugin",
+            "mockito-core",
+            "powermock-api-mockito2",
+            "powermock-module-junit4",
+            "slf4j-api",
+            "slf4j-log4j12",
+            "systems-platform"
+          ]
+        },
+        {
+          "path": "emr-user-role-mapper-credentials-provider/pom.xml",
+          "sha": "49a9604d65e17b2fa121a7af60cd2bd87733b31b",
+          "size": 5660,
+          "content_status": "captured",
+          "dependency_hints": [
+            "amazon-emr-user-role-mapper",
+            "aws-java-sdk-core",
+            "gson",
+            "hadoop-common",
+            "httpclient",
+            "jacoco-maven-plugin",
+            "junit",
+            "maven-shade-plugin",
+            "mockito-core",
+            "powermock-api-mockito2",
+            "powermock-module-junit4",
+            "urm-credentials-provider"
+          ]
+        },
+        {
+          "path": "emr-user-role-mapper-interface/pom.xml",
+          "sha": "e50e8611069daaf7751def4a47edf420c8bfa615",
+          "size": 1324,
+          "content_status": "captured",
+          "dependency_hints": [
+            "amazon-emr-user-role-mapper",
+            "aws-java-sdk-sts",
+            "emr-user-role-mapper-provider",
+            "maven-compiler-plugin"
+          ]
+        },
+        {
+          "path": "emr-user-role-mapper-s3storagebasedauthorizationmanager/pom.xml",
+          "sha": "18cf4e1d6c869c451ac9f04f49084e02eaef228d",
+          "size": 4064,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aws-glue-datacatalog-client-common",
+            "aws-java-sdk-core",
+            "aws-java-sdk-s3",
+            "hive-common",
+            "hive-exec",
+            "hive-metastore",
+            "hive-service",
+            "junit",
+            "maven-compiler-plugin",
+            "mockito-core",
+            "powermock-api-mockito2",
+            "powermock-module-junit4",
+            "s3storagebasedauthorizationmanager",
+            "urm-credentials-provider"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:36:53+00:00"
     },
     "awslabs/amazon-emr-vscode-toolkit": {
       "id": 533434556,

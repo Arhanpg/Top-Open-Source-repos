@@ -2360,12 +2360,91 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Cuda": 581718,
+        "C++": 521307,
+        "C": 284298,
+        "Python": 191016,
+        "Jupyter Notebook": 71786,
+        "CMake": 23657,
+        "Shell": 19468,
+        "Makefile": 1057,
+        "Dockerfile": 1016
+      },
+      "readme_url": "https://github.com/rapidsai/custrings/blob/branch-0.10/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "09ab7058fb595ce8d1bd4056acfb4fde38ec5156",
+      "readme_excerpt": "**NOTE:** For the latest stable README.md ensure you are on the `master` branch. Built with Pandas DataFrame's columnar string operations in mind, cuStrings is a GPU string manipulation library for splitting, applying regexes, concatenating, replacing tokens, etc in arrays of strings. nvStrings (the Python bindings for cuStrings), provides a pandas-like API that will be familiar to data engineers & data scientists, so they can use it to easily accelerate their workflows without going into the details of CUDA programming. For example, the following snippet loads a CSV, then uses the GPU to perform replacements typical in data-preparation tasks. import nvstrings,",
+      "readme_headings": [
+        "<div align=\"left\"><img src=\"img/rapids_logo.png\" width=\"90px\"/>&nbsp;cuStrings - GPU String Manipulation</div>",
+        "or, use nvcategory's builtin GPU categorization",
+        "copy category keys to host and print",
+        "copy \"cleaned\" strings to host and print",
+        "many entries omitted for brevity",
+        "Quick Start",
+        "Installation",
+        "Conda",
+        "for CUDA 9.2",
+        "or, for CUDA 10.0",
+        "Build/Install from Source",
+        "Contributing",
+        "Contact",
+        "<div align=\"left\"><img src=\"img/rapids_logo.png\" width=\"265px\"/></div> Open GPU Data Science"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Dockerfile",
+          "sha": "ccc1ef0aa4f4a977bd198fefe0a22cc04dc08da5",
+          "size": 1016,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cpp/CMakeLists.txt",
+          "sha": "6c94d42025a368ab712a6bf610528d4e397c80cf",
+          "size": 8675,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "dfd1661baf7460daae0fbf8cb1149629c15c8098",
+          "size": 611,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "python/Makefile",
+          "sha": "5e38895dd58f57e9c9ba2b6e8356ddb2e4f28c40",
+          "size": 1057,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "python/setup.py",
+          "sha": "7e77547b85143bdf0a0e64467c73b581fe5b31bb",
+          "size": 1124,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "cpp/tests/CMakeLists.txt",
+          "sha": "d962cda5d197c2620e22e4dbeea64601ea8cca48",
+          "size": 4085,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:36+00:00"
     },
     "rapidsai/cuxfilter": {
       "id": 161231707,
@@ -2394,12 +2473,101 @@
         "visualization"
       ],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 363050,
+        "Jupyter Notebook": 161078,
+        "Shell": 21515
+      },
+      "readme_url": "https://github.com/rapidsai/cuxfilter/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "b60ac25675a2769d5bee0ee40fd9816828449669",
+      "readme_excerpt": "cuxfilter ( ku-cross-filter ) is a RAPIDS framework to connect web visualizations to GPU accelerated crossfiltering. Inspired by the javascript version of the original, it enables interactive and super fast multi-dimensional filtering of 100 million+ row tabular datasets via cuDF. cuxfilter is one of the core projects of the “RAPIDS viz” team. Taking the axiom that “a slider is worth a thousand queries” from @lmeyerov to heart, we want to enable fast exploratory data analytics through an easier-to-use pythonic notebook interface. As there are many fantastic visualization libraries available for the web, our general principle is not to create our",
+      "readme_headings": [
+        "<div align=\"left\"><img src=\"https://rapids.ai/assets/images/rapids_logo.png\" width=\"90px\"/>&nbsp; cuxfilter",
+        "RAPIDS Viz",
+        "cuxfilter Architecture",
+        "Open Source Projects",
+        "Where is the original cuxfilter and Mortgage Viz Demo?",
+        "Usage",
+        "Example 1",
+        "run the dashboard as a webapp:",
+        "Bokeh and Datashader based charts also have a `save` tool on the side toolbar, which can download and save the individual chart when interacting with the dashboard.",
+        "d.show('jupyter-notebook/lab-url')",
+        "Example 2",
+        "run the dashboard within the notebook cell",
+        "Bokeh and Datashader based charts also have a `save` tool on the side toolbar, which can download and save the individual chart when interacting with the dashboard.",
+        "d.app()",
+        "if running on a port other than localhost:8888, run d.show(jupyter-notebook-lab-url:port)",
+        "Documentation",
+        "General Dependencies",
+        "Quick Start",
+        "Installation",
+        "CUDA/GPU requirements",
+        "Conda",
+        "CUDA 13",
+        "CUDA 12",
+        "PyPI",
+        "CUDA 13",
+        "CUDA 12",
+        "Build/Install from Source",
+        "Troubleshooting",
+        "Download Datasets",
+        "Guides and Layout Templates"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "8de04813fc940d59e8303876c01253deab075eda",
+          "size": 787,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "53d5cb25fa5917cc96eb022901ed9a2c6d686ae2",
+          "size": 820,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "python/pyproject.toml",
+          "sha": "d4a160ddd57bdc6ff554c69ed2200bf850993636",
+          "size": 3099,
+          "content_status": "captured",
+          "dependency_hints": [
+            "bokeh",
+            "certifi",
+            "cudf",
+            "cupy-cuda13x",
+            "dask-cudf",
+            "datashader",
+            "geopandas",
+            "holoviews",
+            "ipython",
+            "jupyter-server-proxy",
+            "numba",
+            "numba-cuda",
+            "numpy",
+            "packaging",
+            "panel",
+            "pytest",
+            "pytest-cov",
+            "pytest-xdist",
+            "requests",
+            "shapely"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:37+00:00"
     },
     "rapidsai/dask-build-environment": {
       "id": 389666970,
@@ -2426,12 +2594,49 @@
         "gpuci"
       ],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Dockerfile": 3438
+      },
+      "readme_url": "https://github.com/rapidsai/dask-build-environment/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "cf2c2d87b0a9b8f7840d30cf50652412ea0b0cd8",
+      "readme_excerpt": "Build environments for various dask related projects on gpuCI.",
+      "readme_headings": [
+        "dask-build-environment"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "dask/Dockerfile",
+          "sha": "795c8854f4acbb0065070a9b1c80364b56f67097",
+          "size": 1256,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "dask_image/Dockerfile",
+          "sha": "fc33945de075410612bc4b878f6b88fa6dfb3ea1",
+          "size": 979,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "distributed/Dockerfile",
+          "sha": "68ba84bf32b6671c5e7bca1ff630a6c5c059b8ff",
+          "size": 1203,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:39+00:00"
     },
     "rapidsai/dask-cuda": {
       "id": 165926977,
@@ -2454,12 +2659,65 @@
       "open_issues": 89,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 346626,
+        "Shell": 15926
+      },
+      "readme_url": "https://github.com/rapidsai/dask-cuda/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "49748f82078677d288ac5e35b812de0cc2dd6c55",
+      "readme_excerpt": "Dask CUDA ========= Various utilities to improve deployment and management of Dask workers on CUDA-enabled systems. This library is experimental, and its API is subject to change at any time without notice. Example from dask_cuda import LocalCUDACluster from dask.distributed import Client cluster = LocalCUDACluster() client = Client(cluster) Documentation is available here. What this is not This library does not automatically convert your Dask code to run on GPUs. It only helps with deployment and management of Dask workers in multi-GPU systems.",
+      "readme_headings": [],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "d17ec35c461f76efb687964973705cc510848752",
+          "size": 4967,
+          "content_status": "captured",
+          "dependency_hints": [
+            "click",
+            "cuda-core",
+            "cudf-cu12",
+            "cudf-cu13",
+            "dask-cudf-cu12",
+            "dask-cudf-cu13",
+            "distributed-ucxx-cu12",
+            "distributed-ucxx-cu13",
+            "kvikio-cu12",
+            "kvikio-cu13",
+            "numpy",
+            "numpydoc",
+            "nvidia-ml-py",
+            "nvidia-sphinx-theme",
+            "pandas",
+            "pytest",
+            "pytest-cov",
+            "pytest-rerunfailures",
+            "pytest-timeout",
+            "rapids-dask-dependency",
+            "sphinx",
+            "sphinx-click",
+            "zict"
+          ]
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "b375ac0f2e7f7c752a1e7b12006372f4e4991d10",
+          "size": 716,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:40+00:00"
     },
     "rapidsai/dask-cuda-benchmarks": {
       "id": 554250722,
@@ -2482,12 +2740,37 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 66433,
+        "Shell": 11227,
+        "Dockerfile": 1883
+      },
+      "readme_url": "https://github.com/rapidsai/dask-cuda-benchmarks/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "dddbc22460bf8f33b3bc05e6fc945ec2e04fbaf8",
+      "readme_excerpt": "This repository contains a collection of benchmarks and run scripts for single and multi-node benchmarking of RAPIDS components with a focus on dask/distributed with",
+      "readme_headings": [
+        "RAPIDS benchmarks"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "beb2899b16db09229d4b6892f857dead77625a45",
+          "size": 462,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:42+00:00"
     },
     "rapidsai/dask-cudf": {
       "id": 92100851,
@@ -2510,12 +2793,50 @@
       "open_issues": 5,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 180016,
+        "Shell": 8083
+      },
+      "readme_url": "https://github.com/rapidsai/dask-cudf/blob/branch-0.9/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "54c078b23f788b44a5bf4ba82dd3b14984dd6a32",
+      "readme_excerpt": "A partitioned gpu-backed dataframe, using Dask. Setup from source repo: 1. Install dependencies into a new conda environment where `CUDA_VERSION` is either 9.2 or 10 conda create -n dask-cudf \\ -c rapidsai -c numba -c conda-forge -c defaults \\ cudf dask cudatoolkit={CUDA_VERSION} 2. Activate conda environment: source activate dask-cudf 3. Clone `dask-cudf` repo: git clone https://github.com/rapidsai/dask-cudf 4. Install from source: cd dask-cudf pip install . 1. Install `pytest` conda install pytest 2. Run all tests: py.test dask_cudf 3. Or, run individual tests: py.test dask_cudf/tests/test_file.py For style we use `black`, `isort`, and `flake8`. These are available as pre-commit hooks that will",
+      "readme_headings": [
+        "Dask GPU Dataframes",
+        "Setup from source",
+        "Test",
+        "Style"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "d4822bb2384820c2a386fddb2d60642755b8b258",
+          "size": 41,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cudf",
+            "dask",
+            "distributed"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "42dd2c6b8f361a54c2fd7b62ba2b7e125c1e7b72",
+          "size": 1062,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:43+00:00"
     },
     "rapidsai/dask-cugraph": {
       "id": 189077224,
@@ -2538,12 +2859,55 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 85883,
+        "Shell": 9628
+      },
+      "readme_url": "https://github.com/rapidsai/dask-cugraph/blob/branch-0.9/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "2535da1421891958080f6cea61464dc95e10c0bd",
+      "readme_excerpt": "Dask cuGraph contains parallel graph analytics algorithms that can make use of multiple GPUs on a single host. It is able to play nicely with other projects in the Dask ecosystem, as well as other RAPIDS projects, such as Dask cuDF and Dask cuML. As an example, the following Python snippet loads input from a csv file into a Dask cuDF Dataframe and finds the Pagerank in parallel, on multiple GPUs: from dask_cuda import LocalCUDACluster cluster = LocalCUDACluster() import dask_cudf df = dask_cudf.read_csv(\"/path/to/csv\") import dask_cugraph pagerank = dask_cugraph.mg_pagerank(df) Clusters of Dask workers can be started in several different ways. One",
+      "readme_headings": [
+        "<div align=\"left\"><img src=\"img/rapids_logo.png\" width=\"90px\"/>&nbsp;Dask cuGraph - Multi-GPU Graph Analytics Algorithms</div>",
+        "Use",
+        "Create a Dask CUDA cluster w/ one worker per device",
+        "Read CSV file in parallel across workers",
+        "Find PageRank",
+        "Dask CUDA Clusters",
+        "Using the LocalCUDACluster()",
+        "Using the dask-worker command",
+        "Supported Algorithms",
+        "Installation",
+        "Conda",
+        "Contact",
+        "<div align=\"left\"><img src=\"img/rapids_logo.png\" width=\"265px\"/></div> Open GPU Data Science"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "setup.py",
+          "sha": "92ae85bd106cca47afbf07398dd6014b205d8453",
+          "size": 420,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "5f78ac714451de7c63a2b51a79e97df7144ce0ce",
+          "size": 614,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:44+00:00"
     },
     "rapidsai/dask-cuml": {
       "id": 174427832,
@@ -2566,12 +2930,57 @@
       "open_issues": 2,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 137832,
+        "Shell": 13420
+      },
+      "readme_url": "https://github.com/rapidsai/dask-cuml/blob/branch-0.9/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "9eb7aa4fce280185f995fd9cacce1d4fbfa9e6ad",
+      "readme_excerpt": "Dask cuML contains parallel machine learning algorithms that can make use of multiple GPUs on a single host. It is able to play nicely with other projects in the Dask ecosystem, as well as other RAPIDS projects, such as Dask cuDF. As an example, the following Python snippet loads input from a csv file into a Dask cuDF Dataframe and Performs a NearestNeighbors query in parallel, on multiple GPUs: from dask_cuda import LocalCUDACluster cluster = LocalCUDACluster() import dask_cudf df = dask_cudf.read_csv(\"/path/to/csv\") from dask_cuml.neighbors import NearestNeighbors nn = NearestNeighbors(n_neighbors = 10) nn.fit(df) nn.kneighbors(df) Clusters of Dask workers can be started in",
+      "readme_headings": [
+        "<div align=\"left\"><img src=\"img/rapids_logo.png\" width=\"90px\"/>&nbsp;Dask cuML - Multi-GPU Machine Learning Algorithms</div>",
+        "Use",
+        "Create a Dask CUDA cluster w/ one worker per device",
+        "Read CSV file in parallel across workers",
+        "Fit a NearestNeighbors model and query it",
+        "Dask CUDA Clusters",
+        "Using the LocalCUDACluster()",
+        "Using the dask-worker command",
+        "Supported Algorithms",
+        "Installation",
+        "Conda",
+        "Pip",
+        "Build/Install from Source",
+        "Contact",
+        "<div align=\"left\"><img src=\"img/rapids_logo.png\" width=\"265px\"/></div> Open GPU Data Science"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "setup.py",
+          "sha": "1997d5bea7fdfc4469ee3c51569d9f430bee44c1",
+          "size": 1414,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "5d7f01337da71f3f28059ec803c006b6cad4b065",
+          "size": 611,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:46+00:00"
     },
     "rapidsai/dask-sql": {
       "id": 409322542,
@@ -2594,12 +3003,85 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 502728,
+        "Java": 93794,
+        "Jupyter Notebook": 20939,
+        "FreeMarker": 11346,
+        "Shell": 1766,
+        "Dockerfile": 1514
+      },
+      "readme_url": "https://github.com/rapidsai/dask-sql/blob/branch-22.02/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "02dc2c206125d714a6e34629b5ebdafa9b7d7987",
+      "readme_excerpt": "`dask-sql` is a distributed SQL query engine in Python. It allows you to query and transform your data using a mixture of common SQL operations and Python code and also scale up the calculation easily if you need it. * **Combine the power of Python and SQL**: load your data with Python, transform it with SQL, enhance it with Python and query it with SQL - or the other way round. With `dask-sql` you can mix the well known Python dataframe API of `pandas` and `Dask` with common SQL operations, to process your data in exactly the way that is",
+      "readme_headings": [
+        "Example",
+        "Create a context to hold the registered tables",
+        "Load the data and register it in the context",
+        "This will give the table a name, that we can use in queries",
+        "Now execute a SQL query. The result is again dask dataframe.",
+        "Show the result",
+        "Quickstart",
+        "Installation",
+        "With `conda`",
+        "With `pip`",
+        "For development",
+        "Testing",
+        "SQL Server",
+        "CLI",
+        "How does it work?"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "setup.py",
+          "sha": "fedd128d606d46ea356286f33202ef7ae8d6cb16",
+          "size": 3641,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docs/Makefile",
+          "sha": "d4bb2cbb9eddb1bb1b4f366623044af8e4830919",
+          "size": 634,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "planner/pom.xml",
+          "sha": "f94f3f4a87eeb55e1a0c0059ef172609d2ffa1b4",
+          "size": 7027,
+          "content_status": "captured",
+          "dependency_hints": [
+            "build-helper-maven-plugin",
+            "calcite-core",
+            "dask-sql-application",
+            "fmpp-maven-plugin",
+            "freemarker",
+            "guava",
+            "javacc",
+            "javacc-maven-plugin",
+            "log4j",
+            "maven-dependency-plugin",
+            "maven-jar-plugin",
+            "maven-javadoc-plugin",
+            "maven-resources-plugin",
+            "maven-shade-plugin",
+            "slf4j-api",
+            "slf4j-log4j12"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:47+00:00"
     },
     "rapidsai/dask-upstream-testing": {
       "id": 885519532,
@@ -2622,12 +3104,32 @@
       "open_issues": 6,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:16:25+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Shell": 10571,
+        "Python": 932
+      },
+      "readme_url": "https://github.com/rapidsai/dask-upstream-testing/blob/main/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "24f49eaf494449988166dc47b5f0f988838d2c32",
+      "readme_excerpt": "This repository contains the scripts to run Dask's `gpu`-marked tests on a schedule and dask-dependent tests from some downstream libraries. The primary goal here is to quickly identify breakages in tests defined in `dask/dask` and `dask/distributed`, so we'll use the latest `main` from each of those. When breakages occur, they'll generally be fixed either in Dask or in the the nightly versions of the downstream packages (rapids, cupy, numba, etc.). And so we install the nightly (rather than `latest`) version of the downstream packages. This repository uses workflow dispatch to enable running tests against a specific version of Dask. Navigate",
+      "readme_headings": [
+        "Dask Upstream Testing",
+        "Version Policy",
+        "Workflow Dispatch",
+        "Version Upgrades",
+        "RAPIDS version update"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:39:49+00:00"
     },
     "rapidsai/dask-xgboost": {
       "id": 156281169,

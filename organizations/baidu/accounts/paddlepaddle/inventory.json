@@ -832,12 +832,94 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 2204485,
+        "Shell": 239099,
+        "C++": 119398,
+        "CMake": 18774,
+        "HTML": 3811
+      },
+      "readme_url": "https://github.com/PaddlePaddle/continuous_integration/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "4287e266909586a19fed7af6cc851ce50e977455",
+      "readme_excerpt": ". `-- README.md",
+      "readme_headings": [
+        "Paddle-Inference 测试代码",
+        "目录简介"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "models/args/requirements.txt",
+          "sha": "5da331cf67f4169952e7be5c5fbcb8bf77b7bd0b",
+          "size": 13,
+          "content_status": "captured",
+          "dependency_hints": [
+            "numpy",
+            "pandas"
+          ]
+        },
+        {
+          "path": "inference/inference_api_test/python_api_test/requirements.txt",
+          "sha": "b4fa642998e937ee3e8da97af12df8b85eea757e",
+          "size": 65,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cup",
+            "opencv-python",
+            "py3nvml",
+            "pytest"
+          ]
+        },
+        {
+          "path": "inference/inference_api_test/cpp_api_test/src/CMakeLists.txt",
+          "sha": "e1a1a905406e320d60e1aa083083be09e70fdddb",
+          "size": 6129,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "inference/inference_benchmark/cc/Paddle/requirements.txt",
+          "sha": "56fa0be8dcf38f36a8a6277f5ffa0515cec5bb23",
+          "size": 33,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cup",
+            "openpyxl",
+            "pandas",
+            "py3nvml",
+            "pytz"
+          ]
+        },
+        {
+          "path": "inference/inference_benchmark/python/TensorFlow/requirements.txt",
+          "sha": "3465559282f3897bd8eac1ee417a9729c4bfb6e9",
+          "size": 32,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cup",
+            "py3nvml",
+            "pytz",
+            "tensorflow_gpu"
+          ]
+        },
+        {
+          "path": "inference/inference_benchmark/cc/Paddle/src/CMakeLists.txt",
+          "sha": "8f371a245591cab71c88ec096b735a1c9ade4dd9",
+          "size": 4830,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:43:24+00:00"
     },
     "PaddlePaddle/Contrib": {
       "id": 240230342,
@@ -860,12 +942,123 @@
       "open_issues": 18,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 1987314,
+        "C++": 393841,
+        "Jupyter Notebook": 48377,
+        "Shell": 9245,
+        "Cython": 2575,
+        "Batchfile": 1909
+      },
+      "readme_url": "https://github.com/PaddlePaddle/Contrib/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a2f164ab68476bf11ca067d7f87639af84cb16d4",
+      "readme_excerpt": "contribution works with PaddlePaddle from the third party developers",
+      "readme_headings": [
+        "Contrib"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "DMR/requirements.txt",
+          "sha": "985e4dd479c22e95e17004e4ed49a58a85d91b19",
+          "size": 19,
+          "content_status": "captured",
+          "dependency_hints": [
+            "paddlepaddle"
+          ]
+        },
+        {
+          "path": "e3d_lstm/requirements.txt",
+          "sha": "58b370072d27d48dfa3b88f21be7289dc0073107",
+          "size": 65,
+          "content_status": "captured",
+          "dependency_hints": [
+            "cuda",
+            "cudnn",
+            "numpy",
+            "opencv3",
+            "paddlepaddle",
+            "scikit-image"
+          ]
+        },
+        {
+          "path": "GCC-paddle/requirements.txt",
+          "sha": "6019d23c36ce718d95ff29841e627268d0e023cd",
+          "size": 127,
+          "content_status": "captured",
+          "dependency_hints": [
+            "black",
+            "coverage",
+            "coveralls",
+            "decorator",
+            "matplotlib",
+            "networkx",
+            "numpy",
+            "psutil",
+            "pytest",
+            "scikit-learn",
+            "scipy",
+            "seaborn",
+            "tqdm",
+            "visualdl"
+          ]
+        },
+        {
+          "path": "LightGCN/requirements.txt",
+          "sha": "6edb228b7b3a2d5d57c99c6d658a17c1c65706cf",
+          "size": 125,
+          "content_status": "captured",
+          "dependency_hints": [
+            "numpy",
+            "paddle",
+            "pandas",
+            "pgl",
+            "scikit-learn",
+            "scipy",
+            "tensorboardX",
+            "tqdm"
+          ]
+        },
+        {
+          "path": "maml/requirements.txt",
+          "sha": "f9f0acd1bd3c672113673785e587a017d4e25457",
+          "size": 90,
+          "content_status": "captured",
+          "dependency_hints": [
+            "numpy",
+            "opencv_python",
+            "paddle",
+            "paddlepaddle",
+            "tqdm"
+          ]
+        },
+        {
+          "path": "NGCF/requirements.txt",
+          "sha": "6edb228b7b3a2d5d57c99c6d658a17c1c65706cf",
+          "size": 125,
+          "content_status": "captured",
+          "dependency_hints": [
+            "numpy",
+            "paddle",
+            "pandas",
+            "pgl",
+            "scikit-learn",
+            "scipy",
+            "tensorboardX",
+            "tqdm"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:43:27+00:00"
     },
     "PaddlePaddle/docs": {
       "id": 136450404,
@@ -893,12 +1086,57 @@
         "paddlepaddle-tutorials"
       ],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 83319,
+        "Shell": 36286,
+        "Dockerfile": 993
+      },
+      "readme_url": "https://github.com/PaddlePaddle/docs/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "d74936dc6c0f7d534b90f5d05951a09dcbe42878",
+      "readme_excerpt": "English | 简体中文 | 日本語 Source files for contents presented at PaddlePaddle documentation. Note: English version API docs are generally docstrings in PaddlePaddle/Paddle, documents for other PaddlePaddle projects are being managed in their respective ways. - docs: PaddlePaddle 2.0 & above docs source file. - docs/api: PaddlePaddle API docs. - docs/guides: PaddlePaddle guides docs. - docs/tutorial: PaddlePaddle tutorial docs. - ci_scripts: docs CI scripts. - pre-requirements - docker - Instructions - step1: clone docs git clone https://github.com/PaddlePaddle/docs - step2: build docs cd docs mkdir output bash docs-build.sh -f absolute_path_docs - step3: preview docs The output of docs will be generated",
+      "readme_headings": [
+        "PaddlePaddle docs",
+        "Codebase structure",
+        "How to build",
+        "How to contribute",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "7cce3a0182742ffdab6b2f323e466cc30c90752b",
+          "size": 1455,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ci_scripts/Dockerfile",
+          "sha": "d20e278f66bf2b3b0423051a36f3743a19a06caa",
+          "size": 993,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "ci_scripts/CAPItools/requirements.txt",
+          "sha": "36b8c3522de8984682c7d62fd7e0ae72d40224b7",
+          "size": 40,
+          "content_status": "captured",
+          "dependency_hints": [
+            "robotpy-cppheaderparser"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:43:29+00:00"
     },
     "PaddlePaddle/EasyData": {
       "id": 566306389,
@@ -921,12 +1159,60 @@
       "open_issues": 1,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 495708,
+        "Shell": 776
+      },
+      "readme_url": "https://github.com/PaddlePaddle/EasyData/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1c9b28f4de8702124d128356913e0947c86165be",
+      "readme_excerpt": "EasyData 旨在打造一套通用、领先且实用的数据自动扩充与数据清洗工具库，并提供开源数据集与标注工具大全，助力开发者获得高质量的训练、推理数据，从而提升 AI 算法的实用效果。 - **💥 直播预告**:12.6-7日每晚8点半，EasyData研发团队详解数据清洗策略和数据合成工具。微信扫描下方二维码，关注公众号并填写问卷后进入官方交流群，获取获取直播链接与20G重磅EasyData学习大礼包(自研半自动标注应用程序，数据处理相关CVPR、AAAI、ACL、IJCAI顶级会议paper list，手把手教学视频以及学习资料)，获取发布最新资讯。 - **🔥2022.11 发布 EasyData beta/0.5** - 发布数据清洗工具，包括图像方向矫正、低质图像过滤能力，使用该工具可以在多个视觉任务中提升效果。 - 发布数据扩充工具，支持增广数据生成、重复和低质数据过滤，使用该工具可以在整图识别场景中提升效果。 - 新增CV、NLP、Speech方向的120+数据集，7经典+自研半自动标注工具 - 数据清洗快速体验 - 数据合成工具快速体验 - 开源数据集和标注工具大全 - **📑项目合作：** 如果您是企业开发者且有明确的EasyData应用需求，填写问卷链接待更新后可免费与官方团队展开不同层次的合作。 - **👫加入社区：** 微信扫描二维码并填写问卷之后，加入交流群与EasyData研发工程师1V1交流 - **🎁社区共建**：EasyData欢迎与大家一起打造行业把数据治理打造成业界的新标准 - 数据清洗 - 快速体验 - 数据清洗工具集 - 图像方向校正工具 - 模糊图像过滤工具 - 二维码图像过滤工具 - 数据扩充 - 快速体验 - 流程详解 - 标注工具 - 计算机视觉 - 半自动标注工具PPOCRLabelv2 - 交互式分割标注软件EISeg - 多功能标注工具PaddleLabel - 交互式智能视频标注工具-EIVideo - Labelme - 自然语言处理 - Doccano - 语音 - Praat - label-studio - 数据集 - 计算机视觉 - 目标检测 - 图像分割 - 图像分类 - 视频理解 - 文字识别 - 关键点检测 - 图像去噪 - 3D感知 - 自然语言处理 - 阅读理解 -",
+      "readme_headings": [
+        "EasyData",
+        "简介",
+        "📣 近期更新",
+        "⚡ 快速开始",
+        "👫 开源社区",
+        "🛠️ EasyData 模型列表（更新中）",
+        "📖 文档教程",
+        "许可证书"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "74e72363dc0a7a6c20caae1f31f56849686061d1",
+          "size": 103,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Pillow",
+            "PyYAML",
+            "Shapely",
+            "faiss_cpu",
+            "matplotlib",
+            "opencv-python",
+            "pyclipper",
+            "scipy",
+            "tqdm"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "fbb7fdb27ffd14ea96a22fa8b61361ae5408035f",
+          "size": 2308,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:43:31+00:00"
     },
     "PaddlePaddle/ElasticCTR": {
       "id": 225549581,
@@ -956,12 +1242,33 @@
         "recommender-system"
       ],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 55067,
+        "Shell": 28804
+      },
+      "readme_url": "https://github.com/PaddlePaddle/ElasticCTR/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "3aa69b02901dff447dcb27447623b7615ba9bcde",
+      "readme_excerpt": "ElasticCTR是分布式训练CTR预估任务和Serving流程一键部署的方案，用户只需配置数据源、样本格式即可完成一系列的训练与预测任务 * 1. 总体概览 * 2. 配置集群 * 3. 一键部署教程 * 4. 训练进度追踪 * 5. 预测服务 本项目提供了端到端的CTR训练和二次开发的解决方案，主要特点如下： 1.快速部署 ElasticCTR当前提供的方案是基于百度云的Kubernetes集群进行部署，用户可以很容易扩展到其他原生的Kubernetes环境运行ElasticCTR。 2.高性能 ElasticCTR采用PaddlePaddle提供的全异步分布式训练方式，在保证模型训练效果的前提下，近乎线性的扩展能力可以大幅度节省训练资源。在线服务方面，ElasticCTR采用Paddle Serving中高吞吐、低延迟的稀疏参数预估引擎，高并发条件下是常见开源组件吞吐量的10倍以上。 3.可定制 用户可以通过统一的配置文件，修改训练中的训练方式和基本配置，包括在离线训练方式、训练过程可视化指标、HDFS上的存储配置等。除了通过修改统一配置文件进行训练任务配置外，ElasticCTR采用全开源软件栈，方便用户进行快速的二次开发和改造。底层的Kubernetes、Volcano可以轻松实现对上层任务的灵活调度策略；基于PaddlePaddle的灵活组网能力、飞桨的分布式训练引擎Fleet和远程预估服务Paddle Serving，用户可以对训练模型、并行训练的模式、远程预估服务进行快速迭代；MLFlow提供的训练任务可视化能力，用户可以快速增加系统监控需要的各种指标。 本方案整体结构请参照这篇文章 ElasticCTR架构 运行本方案前，需要用户已经搭建好k8s集群，并安装好volcano组件。k8s环境部署比较复杂，本文不涉及。百度智能云CCE容器引擎申请后即可使用，百度云上创建k8s的方法用户可以参考这篇文档百度云创建k8s教程及使用指南。此外，Elastic CTR还支持在其他云上部署，可以参考以下两篇文档华为云创建k8s集群，aws创建k8s集群. 准备好K8S集群之后，我们需要配置HDFS作为数据集的来源HDFS配置教程 您可以使用我们提供的脚本elastic-control.sh来完成部署，在运行脚本前，请确保您的机器装有python3并通过pip安装了mlflow，安装mlflow的命令如下： python3 -m pip install mlflow -i https://pypi.tuna.tsinghua.edu.cn/simple 脚本的使用方式如下： bash elastic-control.sh [COMMAND] [OPTIONS] 其中可选的命令(COMMAND)如下： - **-c|--config_client** 检索客户端二进制文件用于发送预测服务请求并接收预测结果 - **-r|--config_resource** 定义训练配置 - **-a|--apply** 应用配置并启动训练 - **-l|--log** 打印训练状态，请确保您已经启动了训练 在定义训练配置时，您需要添加附加选项(OPTIONS)来指定配置的资源，可选的配置如下： - **-u|--cpu** 每个训练节点的CPU核心数 - **-m|--mem** 每个节点的内存容量 - **-t|--trainer** trainer节点的数量 - **-p|--pserver** parameter-server节点的数量 - **-b|--cube** cube分片数 - **-hd|--hdfs_address** 存储数据文件的HDFS地址 注意：您的数据文件的格式应为以下示例格式： $show $click $feasign0:$slot0 $feasign1:$slot1 $feasign2:$slot2...... 举例如下： 1 0 17241709254077376921:0 132683728328325035:1 9179429492816205016:2 12045056225382541705:3 - **-f|--datafile** 数据路径文件，需要指明HDFS地址并指定起始与截止日期（截止日期可选） - **-s|--slot_conf** 特征槽位配置文件，请注意文件后缀必须为'.txt' 以下是`data.config`文件，其中`START_DATE_HR`和`END_DATE_HR`就是我们在上一步配置HDFS的路径。 export HDFS_ADDRESS=\"hdfs://${IP}:9000\" # HDFS地址 export",
+      "readme_headings": [
+        "ElasticCTR",
+        "<span id='head1'>1. 总体概览</span>",
+        "<span id='head2'>2. 配置集群</span>",
+        "<span id='head3'>3. 一键部署教程</span>",
+        "<span id='head4'>4. 训练进度追踪</span>",
+        "<span id='head5'>5. 预测服务</span>"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:43:32+00:00"
     },
     "PaddlePaddle/epep": {
       "id": 203736612,
@@ -991,12 +1298,55 @@
         "paddle-quickstart"
       ],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 110725,
+        "Shell": 29548
+      },
+      "readme_url": "https://github.com/PaddlePaddle/epep/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "a1e6ba188b9232b6964fb4767c71b3eb3782a32e",
+      "readme_excerpt": "**EPEP** is an Application Framework for PaddlePaddle, to make everyone can easily learn and use. 目前已经被广泛应用在百度内部业务，显著提升单机CPU, 单机GPU, 多机多卡的模型迭代效率 * 环境搭建 * 框架说明 * 使用说明 1. Linux CentOS 6.3, Python 2.7, 获取PaddlePaddle v1.6.1版本以上, 请参考安装指南进行安装 2. 配置修改conf/var_sys.conf fluid_bin=/home/epep/tools/paddle_release_home/python/bin/python cuda_lib_path=/home/epep/tools/cuda-9.0/lib64:/home/epep/tools/cudnn/cudnn_v7.3/cuda/lib64:/home/epep/tools/nccl-2.2_cuda-8.0/lib:$LD_LIBRARY_PATH 框架提供了一些NLP的例子，主要包括分类，回归，匹配，标注，翻译，生成等 这里以LR为例，用户只要写20行相关代码即可完成，全是业务模型相关，通过epep轻松一键CPU->GPU, GPU多卡，多机多卡(TODO with Easy-DL) class LinearRegression(BaseDataset): def __init__(self, flags): super(LinearRegression, self).__init__(flags) def parse_context(self, inputs): \"\"\" set inputs_kv: please set key as the same as layer.data.name notice: (1) If user defined \"inputs key\" is different from layer.data.name, the frame will rewrite \"inputs key\" with layer.data.name (2) The param \"inputs\" will be passed to user defined nets class through the nets class interface function",
+      "readme_headings": [
+        "Easy Paddle, Effective Paddle",
+        "目录",
+        "环境搭建",
+        "框架说明",
+        "整体框架",
+        "使用说明",
+        "1. 定义输入",
+        "2. 组网",
+        "3. 配置&运行",
+        "3.1 训练",
+        "3.2 预测",
+        "3.3 边训练边评估",
+        "4. 总结",
+        "Contributing|贡献",
+        "TODO"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "requirements.txt",
+          "sha": "70d126890d92814ac81aa64ae7df01a157ee1144",
+          "size": 66,
+          "content_status": "captured",
+          "dependency_hints": [
+            "nltk",
+            "pyzmq",
+            "scikit-learn",
+            "sentencepiece"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:43:33+00:00"
     },
     "PaddlePaddle/ERNIE": {
       "id": 173544440,
@@ -1026,12 +1376,104 @@
         "vlm"
       ],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 2724762,
+        "Jupyter Notebook": 1750314,
+        "Shell": 9551,
+        "Makefile": 2074,
+        "Dockerfile": 537
+      },
+      "readme_url": "https://github.com/PaddlePaddle/ERNIE/blob/release/v1.5/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "1ea828e9ae77210dc82f573475874825ffc0a544",
+      "readme_excerpt": "📑 Blog | 📚 Cookbook | 📑 Paper | 🛠️ Training | ⚡️ Deploy **[2025-11] 🔥 Released ERNIEKit v1.5:** - **New Features** - [ERNIE-4.5-VL-28B-A3B-Thinking] Supports SFT training and function call training for ERNIE-4.5-VL-28B-A3B-Thinking (https://huggingface.co/baidu/ERNIE-4.5-VL-28B-A3B-Thinking). **[2025-10] 🔥 Released ERNIEKit v1.4:** - **New Features** - VL Model Training: Support SFT for PaddleOCR-VL-0.9B) model. More details in PaddleOCR-VL-0.9B SFT. - Dataflow : Support padding-free startegy. - Packing data within a batch into a sequence to avoid padding, thereby reducing GPU memory usage and accelerating training. **[2025-09] 🔥 Released ERNIEKit v1.3:** - **New Features** - [ERNIE-4.5-21B-A3B-Thinking] Supports SFT training and function call training for",
+      "readme_headings": [
+        "📣 Recent updates",
+        "Introduction to ERNIE 4.5",
+        "Highlights",
+        "Performance and Benchmark Results",
+        "Performace of ERNIE-4.5 pre-trained models",
+        "Performance of post-trained model ERNIE-4.5-300B-A47B",
+        "Performance of post-trained model ERNIE-4.5-21B-A3B",
+        "Performance of post-trained multimodal models in thinking mode",
+        "Performance of post-trained multimodal models in non-thinking mode",
+        "Model Development",
+        "ERNIEKit: ERNIE Development Toolkit Based on PaddlePaddle",
+        "Quick Start",
+        "download model from huggingface",
+        "8K Sequence Length, SFT",
+        "FastDeploy：High-performance Inference and Deployment Toolkit for LLMs and VLMs Based on PaddlePaddle",
+        "Offline Inference",
+        "Online Serving",
+        "Cookbooks",
+        "Community",
+        "License",
+        "Citation"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "Makefile",
+          "sha": "a733f69c24b759e9c36d87c4f30c2dbefbf6dfdb",
+          "size": 1574,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "d6c34cc756df7922dc5f346840805ab39436a3f0",
+          "size": 397,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "setup.py",
+          "sha": "e9bbcca0b2404e879e7b4212e6a6aa7d60fdceab",
+          "size": 2558,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "docker/docker-cuda/Dockerfile",
+          "sha": "f45118e0b83cf2b392a4aee1385a94629a363349",
+          "size": 537,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "examples/auto_parallel/requirements.txt",
+          "sha": "e7a68b28c579d1908b3bb7fd6a01c18c5c91fbc4",
+          "size": 87,
+          "content_status": "captured",
+          "dependency_hints": [
+            "decord",
+            "moviepy",
+            "paddleformers",
+            "paddlepaddle-gpu",
+            "tensorboardX"
+          ]
+        },
+        {
+          "path": "examples/pre-training/requirements.txt",
+          "sha": "9199c95104324e418d7635411f89cda3a4b5f0dd",
+          "size": 149,
+          "content_status": "captured",
+          "dependency_hints": [
+            "paddleformers",
+            "paddlepaddle-gpu",
+            "tensorboardX"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:43:35+00:00"
     },
     "PaddlePaddle/ERNIE-SDK": {
       "id": 685099320,
@@ -1062,12 +1504,104 @@
         "sdk"
       ],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Jupyter Notebook": 3024377,
+        "Python": 948247,
+        "Makefile": 1182
+      },
+      "readme_url": "https://github.com/PaddlePaddle/ERNIE-SDK/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "25db09390ad8aee23859b0d1ddd210d1ad32d9d3",
+      "readme_excerpt": "ERNIE SDK 仓库包含两个项目：ERNIE Bot Agent 和 ERNIE Bot。ERNIE Bot Agent 是百度飞桨推出的基于文心大模型编排能力的大模型智能体开发框架，结合了飞桨星河社区的丰富预置平台功能。ERNIE Bot 则为开发者提供便捷接口，轻松调用文心大模型的文本创作、通用对话、语义向量及AI作图等基础功能。 - **编排能力**: ERNIE Bot Agent 基于文心大模型的 Function Calling 能力实现了多工具编排和自动调度功能，并且允许工具、插件、知识库等不同组件的混合编排。除了自动调度，我们未来还将支持更多的编排模式，例如手动编排、半自动编排，为开发者提供更大的灵活性。 - **组件库**: ERNIE Bot Agent 为开发者提供了一个丰富的预置组件库： - **预置工具**：只需一行代码，即可加载使用星河社区工具中心的30+预置工具。这些工具当前主要来自百度AI开发平台和飞桨特色PP系列模型。后续，我们会持续接入更多预置工具，也欢迎社区贡献。此外，工具模块也支持用户灵活自定义本地和远程工具。 - **知识库**：提供了开箱即用的基于文心百中的平台化知识库, 并允许开发者在二次开发的场景下使用langchain、llama_index等主流开源库作为知识库。 - **文心一言插件**：未来将支持通过调用文心一言插件商城中的插件（开发中） - **低开发门槛** - **零代码界面**：依托星河社区提供了零代码界面的智能体构建工具，通过简单的点击配置即可开发AI原生应用。 - **简洁的代码**：10行代码就可以快速开发一个智能体应用。 - **预置资源与平台支持**：大量的预置工具、平台级别的知识库，以及后续将推出的平台级别的记忆机制，都旨在加速开发过程。 执行如下命令，使用源码安装 ERNIE Bot Agent（要求Python >= 3.8)。 git clone https://github.com/PaddlePaddle/ERNIE-SDK.git cd ERNIE-SDK pip install ./erniebot pip install ./erniebot-agent # 安装核心模块 执行如下命令，快速安装最新版本 ERNIE Bot Agent（要求Python >= 3.8)。 pip install --upgrade erniebot-agent pip install --upgrade erniebot-agent[all] 下面的`quick_start.py`示例展示了如何使用 ERNIE Bot Agent 快速构建智能体应用。 import asyncio from erniebot_agent.agents import FunctionAgent from erniebot_agent.chat_models import ERNIEBot from erniebot_agent.tools import RemoteToolkit async def main(): llm =",
+      "readme_headings": [
+        "ERNIE Bot Agent",
+        "特性",
+        "安装",
+        "源码安装",
+        "首先安装Ernie Bot",
+        "然后安装ERNIE Bot Agent",
+        "pip install './erniebot-agent/.[all]'   # 也可以加上[all]一次性安装所有模块，包括gradio等依赖库",
+        "快速安装",
+        "安装核心模块",
+        "安装所有模块",
+        "快速体验",
+        "详细教程",
+        "ERNIE Bot",
+        "License"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "docs/requirements.txt",
+          "sha": "0f055ea8190a89b00faaca76a7baeeebbd71a1ae",
+          "size": 128,
+          "content_status": "captured",
+          "dependency_hints": [
+            "griffe",
+            "mkdocs",
+            "mkdocs-jupyter",
+            "mkdocs-material",
+            "mkdocs-rss-plugin",
+            "mkdocstrings",
+            "mkdocstrings-python"
+          ]
+        },
+        {
+          "path": "erniebot-agent/Makefile",
+          "sha": "651bffba1802904be9bbe3d1e2db8b33e33abf87",
+          "size": 682,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "erniebot-agent/pyproject.toml",
+          "sha": "421acf6ce31df9da45dde9d259c43dfc8cf117f5",
+          "size": 135,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "erniebot-agent/requirements.txt",
+          "sha": "8fb1fa71d4e1d05f5de9fb61f1f4349abfcf2c49",
+          "size": 124,
+          "content_status": "captured",
+          "dependency_hints": [
+            "PyYAML",
+            "aiohttp",
+            "anyio",
+            "asyncio-atexit",
+            "jinja2",
+            "langchain",
+            "openapi_spec_validator",
+            "pydantic",
+            "tqdm",
+            "typing_extensions"
+          ]
+        },
+        {
+          "path": "erniebot-agent/setup.py",
+          "sha": "39dbc6ccca589d086618fcad36eacfc567fdeca1",
+          "size": 895,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "erniebot/Makefile",
+          "sha": "9f0f8b221976a1d1b6d96f9a2c61ebc9301e1798",
+          "size": 500,
+          "content_status": "captured",
+          "dependency_hints": []
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:43:37+00:00"
     },
     "PaddlePaddle/examples": {
       "id": 203899406,
@@ -1090,12 +1624,28 @@
       "open_issues": 0,
       "topics": [],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "none_found",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 16999
+      },
+      "readme_url": "https://github.com/PaddlePaddle/examples/blob/master/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "5c7844fb69d63a33fe0d3a57fb2934c9b56581e2",
+      "readme_excerpt": "- api_examples: examples for each public api in paddle fluid - community_examples: community examples contributed by third party developers",
+      "readme_headings": [
+        "Examples",
+        "example guide"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:43:38+00:00"
     },
     "PaddlePaddle/FastDeploy": {
       "id": 507861208,
@@ -1128,12 +1678,189 @@
         "vllm"
       ],
       "last_seen_scan_id": "2026-11-23T20:50:43+00:00",
-      "readme_status": "pending",
-      "languages_status": "pending",
-      "manifest_status": "pending",
-      "audit_status": "metadata only",
+      "readme_status": "captured",
+      "languages_status": "captured",
+      "manifest_status": "captured",
+      "audit_status": "evidence captured; manual review pending",
       "manual_review_status": "manual technical interpretation pending",
-      "public_in_latest_scan": true
+      "public_in_latest_scan": true,
+      "languages_bytes": {
+        "Python": 14538248,
+        "C++": 4138660,
+        "Cuda": 4076701,
+        "Go": 204988,
+        "Shell": 168915,
+        "C": 21982,
+        "CMake": 14368,
+        "Makefile": 666
+      },
+      "readme_url": "https://github.com/PaddlePaddle/FastDeploy/blob/develop/README.md",
+      "readme_path": "README.md",
+      "readme_sha": "336426870626616e13f977f1ec24f61b976c4af7",
+      "readme_excerpt": "**[2026-03] FastDeploy v2.5 全新发布!** 新增Qwen3-VL与Qwen3-VL MoE模型部署支持，新增W4AFP8量化方法，增强强化学习训练支持能力，包含170+项Bug修复与性能优化，升级全部内容参阅 v2.5 ReleaseNote。 **[2026-01] FastDeploy v2.4**: 新增 DeepSeek V3 与 Qwen3-MoE 模型的 PD 分离部署，增强MTP 投机解码能力，全面优化多硬件平台上的 MoE 推理与多模态前缀缓存性能，升级全部内容参阅 v2.4 ReleaseNote。 **[2025-11] FastDeploy v2.3**: 新增ERNIE-4.5-VL-28B-A3B-Thinking与PaddleOCR-VL-0.9B两大重磅模型在多硬件平台上的部署支持，进一步优化全方位推理性能，以及带来更多部署功能和易用性的提升，升级全部内容参阅v2.3 ReleaseNote。 **[2025-09] FastDeploy v2.2**: HuggingFace生态模型兼容，性能进一步优化，更新增对baidu/ERNIE-21B-A3B-Thinking支持! **[2025-08] FastDeploy v2.1**:全新的KV Cache调度策略，更多模型支持PD分离和CUDA Graph，昆仑、海光等更多硬件支持增强，全方面优化服务和推理引擎的性能。 **FastDeploy** 是基于飞桨（PaddlePaddle）的大语言模型（LLM）与视觉语言模型（VLM）推理部署工具包，提供**开箱即用的生产级部署方案**，核心技术特性包括： - 🚀 **负载均衡式PD分解**：工业级解决方案，支持上下文缓存与动态实例角色切换，在保障SLO达标和吞吐量的同时优化资源利用率 - 🔄 **统一KV缓存传输**：轻量级高性能传输库，支持智能NVLink/RDMA选择 - 🤝 **OpenAI API服务与vLLM兼容**：单命令部署，兼容vLLM接口 - 🧮 **全量化格式支持**：W8A16、W8A8、W4A16、W4A8、W2A16、FP8等 - ⏩ **高级加速技术**：推测解码、多令牌预测（MTP）及分块预填充 - 🖥️ **多硬件支持**：NVIDIA GPU、昆仑芯XPU、海光DCU、天数智芯GPU、燧原GCU、沐曦GPU、英特尔Gaudi等 - 操作系统: Linux - Python: 3.10 ~ 3.12 FastDeploy 支持在**英伟达（NVIDIA）GPU**、**昆仑芯（Kunlunxin）XPU**、**天数（Iluvatar）GPU**、**燧原（Enflame）GCU**、**海光（Hygon）DCU** 以及其他硬件上进行推理部署。详细安装说明如下： - 英伟达 GPU - 昆仑芯 XPU - 天数 CoreX - 燧原 S60 - 海光 DCU - 沐曦 GPU - 英特尔 Gaudi 通过我们的文档了解如何使用 FastDeploy： - 10分钟快速部署 - ERNIE-4.5 部署 -",
+      "readme_headings": [
+        "FastDeploy 飞桨大模型高效部署套件",
+        "最新活动",
+        "关于",
+        "要求",
+        "安装",
+        "入门指南",
+        "支持模型列表",
+        "进阶用法",
+        "致谢"
+      ],
+      "readme_unavailable_reason": null,
+      "manifest_paths": [
+        {
+          "path": "pyproject.toml",
+          "sha": "28c48533a72674e8762460c7f694259c1817b5f7",
+          "size": 1440,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "3a2e3c9951ab5da62fdebbb1318bb5257b8fc1d0",
+          "size": 826,
+          "content_status": "captured",
+          "dependency_hints": [
+            "aiozmq",
+            "aistudio_sdk",
+            "crcmod",
+            "cupy-cuda12x",
+            "einops",
+            "etcd3",
+            "fast_dataindex",
+            "fastapi",
+            "flake8",
+            "flashinfer-python-paddle",
+            "gradio",
+            "gunicorn",
+            "httpx",
+            "modelscope",
+            "moviepy",
+            "msgpack",
+            "msgspec",
+            "openai",
+            "opentelemetry-api",
+            "opentelemetry-distro",
+            "opentelemetry-exporter-otlp",
+            "opentelemetry-instrumentation-fastapi",
+            "opentelemetry-instrumentation-logging",
+            "opentelemetry-instrumentation-mysql",
+            "opentelemetry-instrumentation-redis",
+            "opentelemetry-sdk",
+            "p2pstore",
+            "paddlecodec",
+            "paddleformers",
+            "partial_json_parser",
+            "pre-commit",
+            "prometheus-client",
+            "py-cpuinfo",
+            "pybind11",
+            "pynvml",
+            "redis",
+            "ruamel.yaml",
+            "safetensors",
+            "setproctitle",
+            "setuptools",
+            "setuptools-scm",
+            "tabulate",
+            "tqdm",
+            "transformers",
+            "triton",
+            "uvicorn",
+            "visualdl",
+            "xlwt",
+            "yapf",
+            "zmq"
+          ]
+        },
+        {
+          "path": "setup.py",
+          "sha": "6d58cb3db0ebb0bf79888388ac8286224b30455e",
+          "size": 15533,
+          "content_status": "captured",
+          "dependency_hints": []
+        },
+        {
+          "path": "benchmarks/requirements.txt",
+          "sha": "a72ae695ae0c9eb82e1b15b497cefe882454015b",
+          "size": 42,
+          "content_status": "captured",
+          "dependency_hints": [
+            "Pillow",
+            "aiohttp",
+            "numpy",
+            "pyyaml",
+            "requests",
+            "tqdm"
+          ]
+        },
+        {
+          "path": "docs/requirements.txt",
+          "sha": "f4361bacf03383000a05a67463dc2dfd4132744d",
+          "size": 102,
+          "content_status": "captured",
+          "dependency_hints": [
+            "mkdocs",
+            "mkdocs-get-deps",
+            "mkdocs-material",
+            "mkdocs-material-extensions",
+            "mkdocs-multilang",
+            "mkdocs-static-i18n"
+          ]
+        },
+        {
+          "path": "fastdeploy/golang_router/go.mod",
+          "sha": "25528406084a73efe883cd73de8f9a92e3d91b84",
+          "size": 1976,
+          "content_status": "captured",
+          "dependency_hints": [
+            "github.com/beorn7/perks",
+            "github.com/bytedance/sonic",
+            "github.com/cespare/xxhash/v2",
+            "github.com/chenzhuoyu/base64x",
+            "github.com/davecgh/go-spew",
+            "github.com/gabriel-vasile/mimetype",
+            "github.com/gin-contrib/sse",
+            "github.com/gin-gonic/gin",
+            "github.com/go-playground/locales",
+            "github.com/go-playground/universal-translator",
+            "github.com/go-playground/validator/v10",
+            "github.com/goccy/go-json",
+            "github.com/google/go-cmp",
+            "github.com/json-iterator/go",
+            "github.com/klauspost/compress",
+            "github.com/klauspost/cpuid/v2",
+            "github.com/leodido/go-urn",
+            "github.com/mattn/go-isatty",
+            "github.com/modern-go/concurrent",
+            "github.com/modern-go/reflect2",
+            "github.com/munnerz/goautoneg",
+            "github.com/pelletier/go-toml/v2",
+            "github.com/pmezard/go-difflib",
+            "github.com/prometheus/client_golang",
+            "github.com/prometheus/client_model",
+            "github.com/prometheus/common",
+            "github.com/prometheus/procfs",
+            "github.com/stretchr/testify",
+            "github.com/twitchyliquid64/golang-asm",
+            "github.com/ugorji/go/codec",
+            "github.com/valyala/bytebufferpool",
+            "golang.org/x/arch",
+            "golang.org/x/crypto",
+            "golang.org/x/net",
+            "golang.org/x/sys",
+            "golang.org/x/text",
+            "google.golang.org/protobuf",
+            "gopkg.in/yaml.v3"
+          ]
+        }
+      ],
+      "manifest_truncated": false,
+      "capture_errors": [],
+      "enriched_at": "2026-11-24T03:43:41+00:00"
     },
     "PaddlePaddle/flash-attention": {
       "id": 596560396,
