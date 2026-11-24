@@ -292,3 +292,16 @@ The latest collector update adds a 3.6-second REST request pace, short evidence 
 
 
 The daily collector now uses a global fair batch of up to **1,200 repositories per run** across eligible accounts. It rotates one repository per account per round and reallocates unused capacity from completed queues to the accounts with larger backlogs.
+
+
+## Per-repository technical audits
+
+The catalogue now includes a second, resumable stage to generate one YAML technical record and one Markdown dossier per inventoried repository. Files are written beneath `organizations/<company>/accounts/<github-account>/technical-audits/`. Each account receives a `TECHNICAL-AUDIT-INDEX.md`; global status is tracked in [docs/TECHNICAL-AUDIT-PROGRESS.md](docs/TECHNICAL-AUDIT-PROGRESS.md).
+
+- [Technical-audit pipeline and setup](docs/TECHNICAL-AUDIT-PIPELINE.md)
+- [YAML technical-audit schema](docs/TECHNICAL-AUDIT-SCHEMA.md)
+- [Technical-audit progress](docs/TECHNICAL-AUDIT-PROGRESS.md)
+- [Technical-audit generator](scripts/repository_technical_audit.py)
+- [Technical-audit tests](tests/test_repository_technical_audit.py)
+
+The scheduled workflow defaults to 200 dossiers per run and interleaves accounts fairly. Configure repository secret `AUDIT_LLM_API_KEY` (or `OPENROUTER_API_KEY`) and variable `AUDIT_LLM_MODEL` for semantic interpretation of project purpose, features and technology stack. Without those settings, the generator still creates evidence-only records and leaves unsupported claims unknown. Neither generated status is a human sign-off or exhaustive code/security audit.
