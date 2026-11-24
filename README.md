@@ -267,3 +267,8 @@ The successful collector run has completed pagination for all 64 currently eligi
 ## Google Cloud and Gemini README review — 24 November 2026
 
 Seven new project dossiers now cover [Online Boutique](organizations/alphabet-google/repositories/online-boutique.md), [Google Cloud Generative AI samples](organizations/alphabet-google/repositories/google-cloud-generative-ai-samples.md), [Terraformer](organizations/alphabet-google/repositories/terraformer.md), [kubectl-ai](organizations/alphabet-google/repositories/kubectl-ai.md), [Agent Starter Pack](organizations/alphabet-google/repositories/agent-starter-pack.md), [Agents CLI](organizations/alphabet-google/repositories/agents-cli.md) and the [Gemini API Cookbook](organizations/alphabet-google/repositories/gemini-api-cookbook.md). The curated catalogue now has **75 manually interpreted dossiers**. The separately linked `google-gemini` account has been added to the map; it is not included in the current 64-account / 33,470-repository pagination snapshot.
+
+
+## Latest account reconciliation — 24 November 2026
+
+The mapping now contains **207 rows**: 65 inventory-eligible GitHub accounts and 142 unresolved candidates/unverified mappings. The last completed live inventory contains **33,470 repository records across 64 paginated accounts**; the newly linked `google-gemini` account is being processed by [Actions run #45320328089](https://github.com/Arhanpg/Top-Open-Source-repos/actions/runs/45320328089) and is not counted yet. The curated technical catalogue now contains **75 manually interpreted README-based project dossiers** across nine companies.

@@ -8,7 +8,11 @@
 - Snapshot assembled: 24 November 2026 (Asia/Kolkata).
 - The run's successful checkpoint is the evidence of collection completion; this document consolidates the committed account summaries rather than extrapolating from the previous 34-account baseline.
 
-## Current inventory totals
+## Snapshot boundary
+
+This table is the completed 64-account snapshot from run #45259910014. After that run, `google-gemini` was added as a 65th inventory-eligible account because the Google Cloud Generative AI samples README links to the Gemini API Cookbook. The new push-triggered Actions run #45320328089 passed test preflight and is still processing; the `google-gemini` account has not yet produced a committed inventory summary. Therefore the 33,470 repository total and evidence metrics below still cover the original 64 accounts only.
+
+## Completed 64-account inventory snapshot
 
 | Measure | Count |
 |---|---:|
@@ -91,3 +95,13 @@ The original first-run snapshot covered 34 accounts and 25,965 repository record
 ## New project-linked account after the 64-account run — 24 November 2026
 
 After the successful 64-account / 33,470-repository run, a new `google-gemini` account mapping was added based on the direct link from GoogleCloudPlatform/generative-ai to google-gemini/cookbook. The current eligible target is therefore **65 accounts**, while the verified inventory total above still covers **64 accounts**. The `google-gemini` pagination and README capture counts are pending; do not add an estimated number to the 33,470 total.
+
+
+## Post-snapshot mapping update — 65th eligible account
+
+- Mapping CSV: 207 data rows.
+- Inventory-eligible mappings: 65 (9 verified, 39 official-directory-listed, 17 official-project-linked).
+- Newly added account: `google-gemini` (official-project-linked), source-linked from [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) to [google-gemini/cookbook](https://github.com/google-gemini/cookbook).
+- Collection run: [#45320328089](https://github.com/Arhanpg/Top-Open-Source-repos/actions/runs/45320328089), preflight tests passed; inventory/enrichment was in progress at this update.
+- The 65th account's repository count remains unknown until the workflow commits its pagination checkpoint. Do not add an estimate to the 33,470-repository total.
+- The curated README catalogue now contains 75 manually interpreted project dossiers; automated account-level manual-review metrics remain zero.

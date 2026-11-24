@@ -9,7 +9,7 @@ The mapping CSV contains **207 account rows**:
 | Directly verified primary accounts | 9 | Five initial primary accounts plus SAP, Siemens, Baidu and Tencent, whose GitHub organizations are verified |
 | Official-directory-listed | 39 | 29 AWS accounts plus 10 dedicated SAP organizations named by SAP's verified GitHub profile |
 | Official-project-linked | 17 | Five NVIDIA, three Microsoft, two Apple, two Siemens, three Baidu-affiliated, one Google Cloud samples and one Gemini API Cookbook account |
-| Candidate / unverified / relationship pending | 146 | Remaining source-list mappings that require company-controlled evidence |
+| Candidate / unverified / relationship pending | 142 | Remaining source-list mappings that require company-controlled evidence |
 | **Total mapping rows** | **207** | Includes the 151 original company-source rows plus 34 secondary-account rows |
 
 **Inventory-eligible mappings:** 65 accounts (9 directly verified + 39 official-directory-listed + 17 official-project-linked).
@@ -112,3 +112,17 @@ The curated catalogue separately contains 68 manually interpreted project dossie
 ## Google Gemini account expansion — 24 November 2026
 
 The Google Cloud Generative AI samples README directly links `google-gemini/cookbook`, so the `google-gemini` account has been added as `official-project-linked`. The current map now contains 207 CSV rows and 65 inventory-eligible accounts (9 directly verified, 39 official-directory-listed and 17 official-project-linked). The successful 64-account inventory snapshot remains 33,470 repositories; the new account is not included until its own pagination is complete.
+
+
+## Current 65-account / 64-paginated reconciliation — 24 November 2026
+
+The 207 mapping rows break down into 65 inventory-eligible accounts and 142 candidate/unverified/relationship-pending rows:
+
+- 9 directly verified primary accounts
+- 39 official-directory-listed accounts
+- 17 official-project-linked accounts
+- 142 unresolved candidate/unverified mappings
+
+The latest successful inventory snapshot remains **64 accounts / 33,470 repositories** from run #45259910014. A new `google-gemini` account was added after that snapshot, making the current eligible target 65. Its push-triggered run #45320328089 passed offline tests and is still processing inventory/enrichment; the new account's repository count is not yet included in 33,470.
+
+The curated project catalogue now contains **75 manually interpreted README-based project dossiers** across nine company folders: Microsoft 18, Google/Alphabet 15, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 5 and Siemens 2.
