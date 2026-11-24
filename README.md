@@ -257,3 +257,8 @@ The manually interpreted catalogue now contains **66 README-based project dossie
 ## Further SAP technical documentation — 24 November 2026
 
 The SAP folder now includes [ABAP Cheat Sheets](organizations/sap/repositories/abap-cheat-sheets.md) and [SAPUI5 Documentation Source](organizations/sap/repositories/sapui5-docs.md). These bring the manually interpreted project dossier total to **68** across nine company folders.
+
+
+## Live inventory milestone — 24 November 2026
+
+The successful collector run has completed pagination for all 64 currently eligible accounts and enumerated **33,470 public repository records**. The current evidence snapshot reports 1,688 README captures, 54 README-unavailable records, 1,742 terminal evidence captures and 31,728 pending/error records. See [Live Inventory and Evidence Snapshot](docs/LIVE-INVENTORY-SNAPSHOT-2026-11-24.md). This is not exhaustive company-wide account discovery: 142 candidate/unverified mapping rows remain unresolved.

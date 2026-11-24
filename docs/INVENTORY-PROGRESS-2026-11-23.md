@@ -158,3 +158,10 @@ The 25,965 repository count and 286/30/314/25,649 evidence metrics above remain 
 ## Manual project documentation amendment — 24 November 2026
 
 The selected README-based technical catalogue now contains **68 manually interpreted dossiers** across nine companies: Microsoft 18, Google 8, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 5 and Siemens 2. This is distinct from the automated evidence capture statistics from the historical 34-account inventory scan.
+
+
+## Current 64-account inventory — 33,470 repositories (24 November 2026)
+
+The successful Actions run #45259910014 has now completed pagination for all 64 currently eligible accounts. The aggregate is **33,470 public repository records**. Committed account summaries report 1,688 README captures, 54 README-unavailable states, 1,742 terminal evidence captures and 31,728 pending/error records. README capture coverage is 5.04% and terminal evidence coverage is 5.20%.
+
+This supersedes the 34-account / 25,965-repository baseline as the latest eligible-account inventory snapshot. The older baseline remains preserved as historical context. See [Live Inventory and Evidence Snapshot](LIVE-INVENTORY-SNAPSHOT-2026-11-24.md).

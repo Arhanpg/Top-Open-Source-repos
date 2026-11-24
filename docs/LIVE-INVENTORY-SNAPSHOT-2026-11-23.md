@@ -85,3 +85,8 @@ Two Apple project-linked accounts were added after this first-run snapshot: swif
 ## Latest account-discovery and manual review amendment — 24 November 2026
 
 This live inventory report remains a historical baseline for the first 34 accounts and 25,965 repository records. Subsequent official-source discovery expanded the mapping to 63 inventory-eligible accounts (205 total mapping rows). It also expanded the manually interpreted project catalogue to 61 dossiers across seven company folders. Repository totals for the newly added accounts are not included until their own pagination checkpoints have been committed.
+
+
+## Latest live inventory snapshot — 24 November 2026
+
+The original 34-account snapshot above is historical. The successful collector run #45259910014 subsequently completed pagination for all 64 eligible accounts and committed a combined total of **33,470 public repository records**. Evidence metrics and company totals are published in [Live Inventory and Evidence Snapshot — 24 November 2026](LIVE-INVENTORY-SNAPSHOT-2026-11-24.md).
