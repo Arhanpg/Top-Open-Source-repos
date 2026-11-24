@@ -76,7 +76,7 @@ organizations/<company-slug>/
 - inventory.json stores all repository metadata, pagination state, next page and per-repository evidence status. It is tracked by Git, so a fresh GitHub Actions runner can resume.
 - README.md summarizes account-level counts and distinguishes captured evidence from manual review.
 - INVENTORY.md lists all enumerated repositories and links to generated dossiers.
-- Each dossier includes GitHub metadata, a short README excerpt (up to 100 words), README headings, language byte statistics, selected build/dependency manifest paths, conservative dependency-name clues where the manifest parser supports them, lifecycle fields and the exact upstream README link. Manifest files larger than 256 KB are not downloaded.
+- Each dossier includes GitHub metadata, the README blob SHA, up to 25 words of evidence excerpts selected from matching README sections, README headings, language-byte statistics, selected build/dependency manifest paths, conservative dependency-name clues where the manifest parser supports them, lifecycle fields and the exact upstream README link. Manifest files larger than 256 KB are not downloaded.
 - The existing curated company-level repositories/ pages are preserved; automated evidence is written below the separate accounts/<login>/ directory.
 
 The collector does not cache whole upstream READMEs in the Git repository. It keeps a brief excerpt and source SHA/link so later reviewers can open the canonical source.
@@ -84,7 +84,7 @@ The collector does not cache whole upstream READMEs in the Git repository. It ke
 ## Review-state meanings
 
 - metadata only: repository metadata is present; evidence capture has not completed.
-- evidence captured; manual review pending: README excerpt/headings, language metadata and manifest-tree inspection reached terminal states. A person still needs to interpret purpose, features, stack and limitations.
+- evidence captured; manual review pending: README section excerpts/headings, language metadata and manifest-tree inspection reached terminal states. A person still needs to interpret purpose, features, stack and limitations.
 - README unavailable: GitHub returned 404 for the README endpoint.
 - evidence capture incomplete: one or more API capture operations failed and should be retried.
 - README reviewed: reserved for a human technical interpretation; the automated collector never assigns this state.
@@ -124,7 +124,7 @@ python -m py_compile scripts/catalogue_audit.py scripts/audit_org_repos.py
 python -m unittest discover -s tests -v
 ~~~
 
-The suite checks dependency-name parsing for common manifest formats, automatic organization account resolution, page-cap checkpoint/resume behaviour, an interrupted scheduled refresh and empty organization handling. These tests use mocked GitHub responses and do not make live API calls.
+The suite checks dependency-name parsing for common manifest formats, automatic organization account resolution, REST request pacing, README section evidence extraction, page-cap checkpoint/resume behaviour, an interrupted scheduled refresh and empty organization handling. These tests use mocked GitHub responses and do not make live API calls.
 
 
 ## Official-directory-listed account eligibility
@@ -154,7 +154,7 @@ Some existing repositories contain a zero-byte file named `README` (without a Ma
 
 ## Scheduled enrichment cadence
 
-The scheduled workflow runs four times per day at 02:23, 08:23, 14:23 and 20:23 UTC. Each run keeps a bounded default of 10 enrichment candidates per eligible account and resumes from tracked account checkpoints. With 42 currently eligible accounts, the configuration can select up to 420 repositories per run and up to 1,680 enrichment candidates per day. Actual throughput may be lower because of README-unavailable states, API errors, GitHub rate limits, retries or incomplete runs. Inventory refresh/pagination remains a separate operation from README evidence capture.
+The scheduled workflow runs four times per day at 02:23, 08:23, 14:23 and 20:23 UTC. Each daily run executes the enrichment phase only, with a default ceiling of 20 repositories per eligible account. With 65 mapped accounts, the theoretical batch ceiling is 1,300 repositories per run (5,200/day) before retry and rate-limit effects. GitHub REST calls are paced at approximately one request every 3.6 seconds. A separate Sunday run at 01:23 UTC refreshes repository metadata and pagination. Actual throughput is lower when README, language, or manifest capture fails or a GitHub API retry is required.
 
 
 ## Apple project-linked accounts
@@ -193,3 +193,8 @@ The GitHub Actions workflow separates repository enumeration from README evidenc
 GitHub documents a primary limit of 1,000 REST API requests per hour for the repository GITHUB_TOKEN in Actions, plus secondary rate limits. The collector spaces REST requests at approximately 3.6 seconds, honours GitHub Retry-After and rate-reset headers, and fetches selected public manifest/README bodies through raw.githubusercontent.com rather than additional REST Contents requests. This is a conservative operating target, not a guarantee that every batch completes.
 
 Each generated dossier keeps source metadata, language-byte statistics, manifest-path/dependency clues, a bounded README excerpt and an upstream source link. It remains labelled as requiring human interpretation. It is not an automated claim that purpose, feature completeness or architecture has been fully audited.
+
+
+## README section evidence
+
+The automated collector identifies relevant upstream README headings (project overview, features, getting started/usage, architecture, technology/requirements and limitations/security). It stores no more than 25 quoted words per README, split across matching sections, plus heading names, blob SHA and the canonical source link. These excerpts are evidence for human reviewers, not automatically generated summaries or a completed technical audit.

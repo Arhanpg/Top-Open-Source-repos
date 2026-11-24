@@ -261,7 +261,7 @@ The SAP folder now includes [ABAP Cheat Sheets](organizations/sap/repositories/a
 
 ## Live inventory milestone — 24 November 2026
 
-The successful collector run has completed pagination for all 64 currently eligible accounts and enumerated **33,470 public repository records**. The current evidence snapshot reports 1,688 README captures, 54 README-unavailable records, 1,742 terminal evidence captures and 31,728 pending/error records. See [Live Inventory and Evidence Snapshot](docs/LIVE-INVENTORY-SNAPSHOT-2026-11-24.md). This is not exhaustive company-wide account discovery: 142 candidate/unverified mapping rows remain unresolved.
+Historical snapshot before the Google Gemini account was added: the successful collector run completed pagination for 64 accounts and enumerated **33,470 public repository records**. The later reconciliation covers 65 accounts and 33,522 repositories; see the current section below and [Live Inventory and Evidence Snapshot](docs/LIVE-INVENTORY-SNAPSHOT-2026-11-24.md). The 142 unresolved candidate/unverified company-account mappings still prevent a claim of exhaustive company-wide account discovery.
 
 
 ## Google Cloud and Gemini README review — 24 November 2026
@@ -271,7 +271,7 @@ Seven new project dossiers now cover [Online Boutique](organizations/alphabet-go
 
 ## Latest account reconciliation — 24 November 2026
 
-The mapping now contains **207 rows**: 65 inventory-eligible GitHub accounts and 142 unresolved candidates/unverified mappings. The last completed live inventory contains **33,470 repository records across 64 paginated accounts**; the newly linked `google-gemini` account is being processed by [Actions run #45320328089](https://github.com/Arhanpg/Top-Open-Source-repos/actions/runs/45320328089) and is not counted yet. The curated technical catalogue now contains **75 manually interpreted README-based project dossiers** across nine companies.
+The mapping contains **207 rows**: 65 inventory-eligible GitHub accounts and 142 unresolved candidates/unverified mappings. The 64-account / 33,470-repository figure is a historical baseline; the later 65-account / 33,522-repository reconciliation is shown in the current audit section. The curated technical catalogue is a separate manually interpreted subset.
 
 
 ## Microsoft account README review — 24 November 2026
