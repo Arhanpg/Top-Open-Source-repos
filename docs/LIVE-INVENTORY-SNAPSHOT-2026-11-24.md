@@ -86,3 +86,8 @@ The original first-run snapshot covered 34 accounts and 25,965 repository record
 - [Tencent](../organizations/tencent/ACCOUNT-INVENTORY.md)
 - [SAP](../organizations/sap/ACCOUNT-INVENTORY.md)
 - [Siemens](../organizations/siemens/ACCOUNT-INVENTORY.md)
+
+
+## New project-linked account after the 64-account run — 24 November 2026
+
+After the successful 64-account / 33,470-repository run, a new `google-gemini` account mapping was added based on the direct link from GoogleCloudPlatform/generative-ai to google-gemini/cookbook. The current eligible target is therefore **65 accounts**, while the verified inventory total above still covers **64 accounts**. The `google-gemini` pagination and README capture counts are pending; do not add an estimated number to the 33,470 total.

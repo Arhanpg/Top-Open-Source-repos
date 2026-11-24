@@ -262,3 +262,8 @@ The SAP folder now includes [ABAP Cheat Sheets](organizations/sap/repositories/a
 ## Live inventory milestone — 24 November 2026
 
 The successful collector run has completed pagination for all 64 currently eligible accounts and enumerated **33,470 public repository records**. The current evidence snapshot reports 1,688 README captures, 54 README-unavailable records, 1,742 terminal evidence captures and 31,728 pending/error records. See [Live Inventory and Evidence Snapshot](docs/LIVE-INVENTORY-SNAPSHOT-2026-11-24.md). This is not exhaustive company-wide account discovery: 142 candidate/unverified mapping rows remain unresolved.
+
+
+## Google Cloud and Gemini README review — 24 November 2026
+
+Seven new project dossiers now cover [Online Boutique](organizations/alphabet-google/repositories/online-boutique.md), [Google Cloud Generative AI samples](organizations/alphabet-google/repositories/google-cloud-generative-ai-samples.md), [Terraformer](organizations/alphabet-google/repositories/terraformer.md), [kubectl-ai](organizations/alphabet-google/repositories/kubectl-ai.md), [Agent Starter Pack](organizations/alphabet-google/repositories/agent-starter-pack.md), [Agents CLI](organizations/alphabet-google/repositories/agents-cli.md) and the [Gemini API Cookbook](organizations/alphabet-google/repositories/gemini-api-cookbook.md). The curated catalogue now has **75 manually interpreted dossiers**. The separately linked `google-gemini` account has been added to the map; it is not included in the current 64-account / 33,470-repository pagination snapshot.

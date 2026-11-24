@@ -119,3 +119,8 @@ The [Tencent GitHub organization](https://github.com/Tencent) is verified by Git
 ## Google Cloud project account — 24 November 2026
 
 Google Cloud tutorials explicitly link code samples under a separate GitHub account, [GoogleCloudPlatform](https://github.com/GoogleCloudPlatform). The official Cloud Run tutorial instructs users to clone the Node.js, Python, Go and Java repositories, and Cloud Endpoints documentation links additional language samples. The account is added with `official-project-linked` and gets an independent public repository inventory. See [Google Account Discovery](../organizations/alphabet-google/ACCOUNT-DISCOVERY.md).
+
+
+## Google Gemini API Cookbook account — 24 November 2026
+
+The official Google Cloud Generative AI samples README lists the Gemini Cookbook as a related repository under `google-gemini/cookbook`. The separate `google-gemini` account is therefore added with `official-project-linked`. Its inventory must be paginated independently from both `google` and `GoogleCloudPlatform`.

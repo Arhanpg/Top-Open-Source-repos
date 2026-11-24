@@ -23,3 +23,14 @@ The GitHub profile lists roughly 1,500 public repositories at the time of discov
 - The primary `google` account and `GoogleCloudPlatform` account are inventoried separately.
 - Public documentation links establish a project relationship for the examples, not blanket legal ownership of every repository.
 - Other Google product organizations should be added only when an official Google source identifies the account.
+
+
+## Additional Gemini API project account — 24 November 2026
+
+The Google Cloud [Generative AI on Google Cloud samples repository](https://github.com/GoogleCloudPlatform/generative-ai) directly links the [Gemini API Cookbook](https://github.com/google-gemini/cookbook) under the separate `google-gemini` GitHub account.
+
+| Account | Linked project | Evidence | Mapping status |
+|---|---|---|---|
+| [google-gemini](https://github.com/google-gemini) | Gemini API Cookbook | GoogleCloudPlatform/generative-ai README links google-gemini/cookbook; the repository is public | official-project-linked |
+
+This records an explicit project association, not a claim that every repository under `google-gemini` is owned or authored by Google. Its public repository inventory is pending independent pagination.

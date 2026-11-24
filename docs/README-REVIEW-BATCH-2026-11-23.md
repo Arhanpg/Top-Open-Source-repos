@@ -202,3 +202,18 @@ Two additional README-based technical records were added:
 - [SAPUI5 Documentation Source](../organizations/sap/repositories/sapui5-docs.md) — Markdown source repository whose accepted contributions flow into the official SAPUI5 Demo Kit.
 
 The curated catalogue now contains **68 manually interpreted README-based project briefs**: Microsoft 18, Google 8, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 5 and Siemens 2.
+
+
+## Google Cloud and Gemini README review batch — 24 November 2026
+
+Seven additional README-based project briefs were added:
+
+- [Online Boutique](../organizations/alphabet-google/repositories/online-boutique.md) — 11-service polyglot e-commerce microservices demo for Kubernetes.
+- [Generative AI on Google Cloud](../organizations/alphabet-google/repositories/google-cloud-generative-ai-samples.md) — notebooks and sample applications across Gemini, RAG, search, vision, audio and setup.
+- [Terraformer](../organizations/alphabet-google/repositories/terraformer.md) — reverse-Terraform import tool; archived and deprecated in March 2026.
+- [kubectl-ai](../organizations/alphabet-google/repositories/kubectl-ai.md) — LLM-driven Kubernetes assistant with kubectl/bash tools and MCP integrations.
+- [Agent Starter Pack](../organizations/alphabet-google/repositories/agent-starter-pack.md) — archived predecessor whose README directs users to Agents CLI.
+- [Agents CLI](../organizations/alphabet-google/repositories/agents-cli.md) — skills and commands for scaffolding, evaluating and deploying Google Cloud agents.
+- [Gemini API Cookbook](../organizations/alphabet-google/repositories/gemini-api-cookbook.md) — notebooks and practical API examples under the separate google-gemini account.
+
+The curated catalogue now contains **75 manually interpreted README-based project briefs**: Microsoft 18, Google / Alphabet 15, Apple 12, NVIDIA 13, Amazon/AWS 5, Baidu 3, Tencent 2, SAP 5 and Siemens 2.

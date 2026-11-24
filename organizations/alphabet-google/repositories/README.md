@@ -48,3 +48,18 @@ No manually interpreted project dossier has yet been added for the separate Goog
 | [dotnet-docs-samples](https://github.com/GoogleCloudPlatform/dotnet-docs-samples) | .NET code samples |
 
 These projects are maintained in a separate GitHub account and must be paginated independently from `google`.
+
+
+## Google Cloud and Gemini README reviews — 24 November 2026
+
+| Repository dossier | Upstream | Focus |
+|---|---|---|
+| [Online Boutique — Cloud-First Microservices Demo](online-boutique.md) | [GoogleCloudPlatform/microservices-demo](https://github.com/GoogleCloudPlatform/microservices-demo) | A cloud-first web e-commerce demo application that lets users browse products, add items to a cart and complete a sample checkout. Google uses it to demonstrate application modernization and cloud-native deployment patterns; the README says it can run on any Kubernetes cluster. |
+| [Generative AI on Google Cloud — Samples and Notebooks](google-cloud-generative-ai-samples.md) | [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) | A repository of notebooks, code samples, sample applications and other learning resources that demonstrate how to use, develop and manage generative-AI workflows on Google Cloud and the Gemini platform. |
+| [Terraformer — Infrastructure-to-Code Import CLI](terraformer.md) | [GoogleCloudPlatform/terraformer](https://github.com/GoogleCloudPlatform/terraformer) | A Go command-line tool that generates Terraform configuration and state files from existing cloud and infrastructure resources (reverse Terraform), allowing teams to bring already-deployed infrastructure into an infrastructure-as-code workflow. |
+| [kubectl-ai — LLM-Powered Kubernetes Assistant](kubectl-ai.md) | [GoogleCloudPlatform/kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai) | A command-line assistant that translates natural-language intent into Kubernetes operations. It can inspect and act on clusters through Kubernetes tooling, while allowing different hosted and local LLM providers. |
+| [Agent Starter Pack — Archived Predecessor to Agents CLI](agent-starter-pack.md) | [GoogleCloudPlatform/agent-starter-pack](https://github.com/GoogleCloudPlatform/agent-starter-pack) | Agent Starter Pack was a collection of Google Cloud generative-AI agent templates intended to accelerate project creation and deployment with infrastructure, CI/CD, evaluation and observability scaffolding. Its current README is a migration notice rather than a full project guide. |
+| [Agents CLI — Skills and CLI for Building Google Cloud Agents](agents-cli.md) | [google/agents-cli](https://github.com/google/agents-cli) | A command-line tool and skill suite that equips coding assistants with workflows for building, evaluating, deploying, publishing and observing agents on Google's Gemini platform and Google Cloud. The README emphasizes that Agents CLI is a tool for coding agents, not a coding agent itself. |
+| [Gemini API Cookbook — Tutorials and Practical Examples](gemini-api-cookbook.md) | [google-gemini/cookbook](https://github.com/google-gemini/cookbook) | A structured learning resource containing hands-on notebooks, tutorials and examples for using the Gemini API, including multimodal inputs, agent workflows and practical application patterns. |
+
+These seven records include active samples/tools and two archived/superseded projects. The lifecycle status is documented in each dossier rather than inferred from repository popularity.

@@ -175,3 +175,8 @@ Baidu and Tencent primary GitHub organizations have now been verified by GitHub 
 ## Google Cloud project account
 
 Google Cloud documentation links to code samples in a separate GitHub account, `GoogleCloudPlatform`. It is mapped with `official-project-linked` and inventoried separately from the primary `google` account. See [Google Account Discovery](../organizations/alphabet-google/ACCOUNT-DISCOVERY.md).
+
+
+## Gemini API project-linked account
+
+Google Cloud's official Generative AI sample README links `google-gemini/cookbook`. The separate `google-gemini` login is now mapped with `official-project-linked` and must be inventoried separately from `google` and `GoogleCloudPlatform`. The initial 64-account pagination snapshot does not contain this newly added account.

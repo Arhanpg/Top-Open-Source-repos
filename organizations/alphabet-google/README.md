@@ -1,10 +1,10 @@
 # Alphabet / Google — open-source organization profile
 
 - **GitHub account:** [google](https://github.com/google)
-- **Company mapping:** candidate account; project-specific affiliations should be verified from Google's official engineering and project pages.
+- **Company mapping:** the primary google GitHub organization is directly verified. Google Cloud samples are listed under GoogleCloudPlatform, and the Gemini API Cookbook is linked under the separate google-gemini account; each is inventoried independently.
 - **Source group:** United States & Global
 - **Directory status:** initialized; public repository inventory not exhaustive
-- **Detailed README records:** 8
+- **Detailed README records:** 15
 
 ## Reviewed projects
 
@@ -51,3 +51,10 @@ Five more Google-account README briefs have been added: zx, Google Style Guides,
 ## Additional Google Cloud project account — 24 November 2026
 
 Google Cloud's official documentation links code samples hosted in the separate [GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) account. Tutorials instruct users to clone language-specific repositories including `nodejs-docs-samples`, `python-docs-samples`, `golang-samples`, `java-docs-samples` and `dotnet-docs-samples`. The account is recorded as `official-project-linked` and inventoried separately from the primary `google` organization.
+
+
+## Google Cloud and Gemini project reviews — 24 November 2026
+
+Seven additional README-based technical dossiers have been added: Online Boutique, Generative AI on Google Cloud samples, Terraformer, kubectl-ai, Agent Starter Pack, Agents CLI and the Gemini API Cookbook.
+
+Lifecycle distinctions are important: Terraformer and Agent Starter Pack are archived; Agent Starter Pack points to Agents CLI as its successor. The Google Cloud samples and Gemini API Cookbook remain separate repository/account records. See the [repository index](repositories/README.md) and [account discovery register](ACCOUNT-DISCOVERY.md).
