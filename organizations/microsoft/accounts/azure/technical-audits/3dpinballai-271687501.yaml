@@ -1,0 +1,92 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:16:13+00:00'
+evidence_fingerprint: 6583b18c7eab3267049fa39b17bb5502268f5db6a61925048cd533de30c886a9
+repository_metadata:
+  company: Microsoft
+  account: Azure
+  full_name: Azure/3DPinballAI
+  repository_id: 271687501
+  url: https://github.com/Azure/3DPinballAI
+  description: Build your own Machine Learning setup to train a reinforcement model to play Pinball in software.
+  default_branch: main
+  license_spdx: MIT
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2020-07-10T07:00:31Z'
+  stars: 7
+  readme_url: https://github.com/Azure/3DPinballAI/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b92892fa6139b6c0db956cc0048b55f7d2c4b9ae
+  manifest_paths: []
+  source_files_inspected:
+  - Assets/Scripts/ExternalWindowManager.cs
+  - Assets/Scripts/PinballAcademy.cs
+  - Assets/Scripts/PinballAgent.cs
+  repository_tree:
+    status: captured
+    sha: 8caea0d2474795b076e028ad5b897300b30f536a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: An example of creating an AI in .Net using ([Unity ML-Agents][unityMlAgents]) and a 3D Pinball game,
+    to serve as a learning environment for training intelligent agents to play pinball without supervision.
+  why_used: Build your own Machine Learning setup to train a reinforcement model to play Pinball in software.
+  core_features:
+  - name: A PinballAgent that can learn from an external game (3D Pinball) by watching the screen as a visual observation.
+    description: A PinballAgent that can learn from an external game (3D Pinball) by watching the screen as a visual
+      observation.
+    evidence:
+    - README.md#Features
+  - name: (TODO:) Use behaviour cloning to watch a recording of the highest Pinball score
+    description: (TODO:) Use behaviour cloning to watch a recording of the highest Pinball score
+    evidence:
+    - README.md#Features
+  - name: (TODO:) Fix scaling limitation.
+    description: (TODO:) Fix scaling limitation.
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - C#
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Assets/Scripts/ExternalWindowManager.cs,
+    Assets/Scripts/PinballAcademy.cs, Assets/Scripts/PinballAgent.cs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Azure/3DPinballAI/blob/main/README.md
+  path: README.md
+  blob_sha: b92892fa6139b6c0db956cc0048b55f7d2c4b9ae
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 21798
+- type: Git tree
+  status: captured
+  sha: 8caea0d2474795b076e028ad5b897300b30f536a
+  truncated: false
+- type: source_file
+  path: Assets/Scripts/ExternalWindowManager.cs
+  blob_sha: cf02513bfbe98dc8097b7ede057a624f79b33421
+  retrieved: true
+- type: source_file
+  path: Assets/Scripts/PinballAcademy.cs
+  blob_sha: 4633dad72dce1e818a051646a58e911a621d75ad
+  retrieved: true
+- type: source_file
+  path: Assets/Scripts/PinballAgent.cs
+  blob_sha: 50d506ac2f8e3f50f8459ba3553e87840d12b099
+  retrieved: true

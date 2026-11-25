@@ -1,0 +1,129 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:02:44+00:00'
+evidence_fingerprint: 2540940047e5630ef4e38e93d3f688e4dd46899fe145adf7e29bfe80b9d51760
+repository_metadata:
+  company: Alphabet (Google)
+  account: google
+  full_name: google/AFL
+  repository_id: 198869255
+  url: https://github.com/google/AFL
+  description: american fuzzy lop - a security-oriented fuzzer
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2021-07-05T14:02:41Z'
+  stars: 4203
+  readme_url: https://github.com/google/AFL/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 49960b99d65fc3935bc89dabc99005deca267dcd
+  manifest_paths:
+  - Makefile
+  - libdislocator/Makefile
+  - libtokencap/Makefile
+  - llvm_mode/Makefile
+  source_files_inspected:
+  - .travis/check_fuzzer_stats.sh
+  - afl-analyze.c
+  - afl-as.c
+  - afl-as.h
+  repository_tree:
+    status: captured
+    sha: 4655e7c692d8c4de65c303052435a931941f5365
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Originally developed by Michal Zalewski .
+  why_used: american fuzzy lop - a security-oriented fuzzer
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - Shell
+    - Makefile
+    - C++
+    - HTML
+    - Rich Text Format
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .travis/check_fuzzer_stats.sh,
+    afl-analyze.c, afl-as.c, afl-as.h'
+  setup_and_usage: []
+  limitations:
+  - '13) Known limitations & areas for improvement: Here are some of the most important caveats for AFL:'
+  - '13) Known limitations & areas for improvement: - AFL detects faults by checking for the first spawned process
+    dying due to'
+  - '13) Known limitations & areas for improvement: a signal (SIGSEGV, SIGABRT, etc). Programs that install custom
+    handlers for'
+  - '13) Known limitations & areas for improvement: these signals may need to have the relevant code commented out.
+    In the same'
+  - '13) Known limitations & areas for improvement: vein, faults in child processed spawned by the fuzzed target
+    may evade'
+  - '13) Known limitations & areas for improvement: detection unless you manually add some code to catch that.'
+  - '13) Known limitations & areas for improvement: - As with any other brute-force tool, the fuzzer offers limited
+    coverage if'
+  - '13) Known limitations & areas for improvement: encryption, checksums, cryptographic signatures, or compression
+    are used to'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google/AFL/blob/master/README.md
+  path: README.md
+  blob_sha: 49960b99d65fc3935bc89dabc99005deca267dcd
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 381931289571a901529d5ad1fbb5a9fb24ce53d6
+  retrieved: true
+- type: manifest
+  path: libdislocator/Makefile
+  blob_sha: 86c7125bbf774c3e0efb49494f19b0711f1be730
+  retrieved: true
+- type: manifest
+  path: libtokencap/Makefile
+  blob_sha: 1579cc3eb4324e5423b3a8a0cb081df5f4f8e13e
+  retrieved: true
+- type: manifest
+  path: llvm_mode/Makefile
+  blob_sha: 7617f914de6178abc66f508159c058432ff4113b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 420132
+    Shell: 38373
+    Makefile: 13788
+    C++: 5249
+    HTML: 3475
+    Rich Text Format: 21
+    JavaScript: 20
+- type: Git tree
+  status: captured
+  sha: 4655e7c692d8c4de65c303052435a931941f5365
+  truncated: false
+- type: source_file
+  path: .travis/check_fuzzer_stats.sh
+  blob_sha: 6fd6bd51d8db49464470227de7550508212b3638
+  retrieved: true
+- type: source_file
+  path: afl-analyze.c
+  blob_sha: c97b73d68a2156692fcf6ed6af7ea9658d1434f7
+  retrieved: true
+- type: source_file
+  path: afl-as.c
+  blob_sha: ea018ee052e97eb295df827d48d5b93468b89eb2
+  retrieved: true
+- type: source_file
+  path: afl-as.h
+  blob_sha: 276b8a4d2bde95aa5ec01a102471ef40139dd56f
+  retrieved: true

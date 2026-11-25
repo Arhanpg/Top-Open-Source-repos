@@ -1,0 +1,139 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:14:54+00:00'
+evidence_fingerprint: bffe90d8ac959e6ad4a22cee83cf2117d57d46c7e481bc2058a971122c4dbd9d
+repository_metadata:
+  company: Amazon
+  account: model-checking
+  full_name: model-checking/cbmc-viewer
+  repository_id: 272090494
+  url: https://github.com/model-checking/cbmc-viewer
+  description: CBMC Viewer scans the output of CBMC and produces a browsable summary of its findings, making it
+    easy to root cause the issues it finds.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-09-01T21:26:21Z'
+  stars: 41
+  readme_url: https://github.com/model-checking/cbmc-viewer/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 4071f9ebfec4a9c9fb542de9c2ce67308e7e2a2e
+  manifest_paths:
+  - Makefile
+  - pyproject.toml
+  - docs/Makefile
+  - summary/Makefile
+  - tests/bin/Makefile
+  - tests/coreHTTP/Makefile
+  source_files_inspected:
+  - src/cbmc_viewer/cbmc_viewer.py
+  - src/cbmc_viewer/configt.py
+  - src/cbmc_viewer/coveraget.py
+  repository_tree:
+    status: captured
+    sha: 3567464dc333297375d8a49939ca870a3eef8212
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: CBMC is a Bounded Model Checker for C. It can prove that (for computations of bounded depth) a C program
+    exhibits no memory safe errors (no buffer overflows, no invalid pointers, etc), no undefined behaviors, and
+    no failures of assertions in the code. CBMC Viewer is a tool that scans the output of CBMC and produces a browsable
+    summary of its findings.
+  why_used: CBMC Viewer scans the output of CBMC and produces a browsable summary of its findings, making it easy
+    to root cause the issues it finds.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Makefile
+    - HTML
+    - Shell
+    - JavaScript
+    - CSS
+    - C
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/cbmc_viewer/__init__.py,
+    src/cbmc_viewer/cbmc_viewer.py, src/cbmc_viewer/configt.py, src/cbmc_viewer/coveraget.py'
+  setup_and_usage:
+  - 'Installation: Most people should just follow the instructions on the'
+  - 'Installation: Developers can install the package in Python "development mode" as follows.'
+  - 'Installation: * Clone the repository and install dependencies with'
+  - 'Installation: git clone https://github.com/awslabs/aws-viewer-for-cbmc.git cbmc-viewer'
+  - 'Installation: apt install python3-pip python3-venv python3-jinja2 python3-voluptuous universal-ctags'
+  - 'Installation: Installing ctags is optional. See the ctags discussion at the end of the'
+  - 'Installation: * Install development mode with'
+  - 'Installation: export PATH=/tmp/cbmc-viewer/bin:$PATH'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/model-checking/cbmc-viewer/blob/master/README.md
+  path: README.md
+  blob_sha: 4071f9ebfec4a9c9fb542de9c2ce67308e7e2a2e
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: ad2c62fccc67c66405a4d2922ee1fc02b32a7bce
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 8f613c4550c670ce810926ea5920642cc048a666
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: aaa35bc690056bdecba4345148b88713278071d0
+  retrieved: true
+- type: manifest
+  path: summary/Makefile
+  blob_sha: fa174799f5332c62f76111b3a0abac1f05520f91
+  retrieved: true
+- type: manifest
+  path: tests/bin/Makefile
+  blob_sha: 862096ac7f9532d84da44ccedf59a2c2747c4626
+  retrieved: true
+- type: manifest
+  path: tests/coreHTTP/Makefile
+  blob_sha: 09d63cacecf31f4ab138c18b833a6990f77cb200
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 278829
+    Makefile: 11990
+    HTML: 8841
+    Shell: 4213
+    JavaScript: 2507
+    CSS: 1557
+    C: 124
+- type: Git tree
+  status: captured
+  sha: 3567464dc333297375d8a49939ca870a3eef8212
+  truncated: false
+- type: source_file
+  path: src/cbmc_viewer/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: src/cbmc_viewer/cbmc_viewer.py
+  blob_sha: 62bfdeef6febf77a6f26aa86e48fa5274438d1d0
+  retrieved: true
+- type: source_file
+  path: src/cbmc_viewer/configt.py
+  blob_sha: 19308aa8b1b0600041996945a1522ba057911395
+  retrieved: true
+- type: source_file
+  path: src/cbmc_viewer/coveraget.py
+  blob_sha: 7ad83872c28e642dd347194ea4b5c1b4b2cac8ca
+  retrieved: true

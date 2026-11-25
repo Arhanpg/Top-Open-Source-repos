@@ -1,0 +1,118 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:25:22+00:00'
+evidence_fingerprint: 58a8683bbf593cfc01893599926e73c10c81fbfa7d6bdf13158c10aa8299d549
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/Universal_Robots_Client_Library
+  repository_id: 986625231
+  url: https://github.com/NVIDIA-ISAAC-ROS/Universal_Robots_Client_Library
+  description: A C++ library for accessing the UR interfaces that facilitate the use of UR robotic manipulators
+    by external applications.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2026-08-27T07:15:28Z'
+  stars: 1
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/Universal_Robots_Client_Library/blob/master/README.md
+  readme_path: README.md
+  readme_sha: e729954e639cfe303c15b55688b2112332503a5a
+  manifest_paths:
+  - CMakeLists.txt
+  - Gemfile
+  - examples/CMakeLists.txt
+  - tests/CMakeLists.txt
+  source_files_inspected:
+  - src/comm/tcp_server.cpp
+  - src/comm/tcp_socket.cpp
+  - src/control/motion_primitives.cpp
+  - src/control/reverse_interface.cpp
+  repository_tree:
+    status: captured
+    sha: 9f85023e84dd78648709684a2817e2f2456eb158
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A C++ library for accessing Universal Robots interfaces. With this library C++-based drivers can be implemented
+    in order to create external applications leveraging the versatility of Universal Robots robotic manipulators.
+  why_used: A C++ library for accessing the UR interfaces that facilitate the use of UR robotic manipulators by
+    external applications.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Shell
+    - CMake
+    - Python
+    - C
+    - Ruby
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Bundler manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/comm/tcp_server.cpp,
+    src/comm/tcp_socket.cpp, src/control/motion_primitives.cpp, src/control/reverse_interface.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/Universal_Robots_Client_Library/blob/master/README.md
+  path: README.md
+  blob_sha: e729954e639cfe303c15b55688b2112332503a5a
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 31e09caaed7275b56fbfc961f8ebe5221813357f
+  retrieved: true
+- type: manifest
+  path: Gemfile
+  blob_sha: 327d39a627e6d76a950c1ace1172555bceb6414c
+  retrieved: true
+- type: manifest
+  path: examples/CMakeLists.txt
+  blob_sha: 4a12c021d5c64155618566caf5ce83609b476620
+  retrieved: true
+- type: manifest
+  path: tests/CMakeLists.txt
+  blob_sha: 4ba47c9a7d9889de662ab6a58205cd14494e1681
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 1001681
+    Shell: 34229
+    CMake: 16892
+    Python: 3293
+    C: 1538
+    Ruby: 286
+- type: Git tree
+  status: captured
+  sha: 9f85023e84dd78648709684a2817e2f2456eb158
+  truncated: false
+- type: source_file
+  path: src/comm/tcp_server.cpp
+  blob_sha: cb58252f77afcf2109718a8ed76692eb62246352
+  retrieved: true
+- type: source_file
+  path: src/comm/tcp_socket.cpp
+  blob_sha: de18910134898d8ddd34a8ec835af1e07fb1ceaa
+  retrieved: true
+- type: source_file
+  path: src/control/motion_primitives.cpp
+  blob_sha: 89cc72171aced52d9d9d346373ee3ec7e0cf97d8
+  retrieved: true
+- type: source_file
+  path: src/control/reverse_interface.cpp
+  blob_sha: d9fec1c71fc20ed0d30c36e4ac7e45997544c234
+  retrieved: true

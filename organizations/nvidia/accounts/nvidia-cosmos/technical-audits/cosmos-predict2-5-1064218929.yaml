@@ -1,0 +1,190 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:25:14+00:00'
+evidence_fingerprint: 871a6addcbddfc054f0fc55cdf3a5737e1d8b774e9f7e07904bce51970e003bf
+repository_metadata:
+  company: NVIDIA
+  account: nvidia-cosmos
+  full_name: nvidia-cosmos/cosmos-predict2.5
+  repository_id: 1064218929
+  url: https://github.com/nvidia-cosmos/cosmos-predict2.5
+  description: Cosmos-Predict2.5, the latest version of the Cosmos World Foundation Models (WFMs) family, specialized
+    for simulating and predicting the future state of the world in the form of video.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-06-08T02:14:37Z'
+  stars: 1406
+  readme_url: https://github.com/nvidia-cosmos/cosmos-predict2.5/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1686690d7aef76d6c42d164d02002c739b35582b
+  manifest_paths:
+  - Dockerfile
+  - pyproject.toml
+  - packages/cosmos-cuda/pyproject.toml
+  - packages/cosmos-gradio/pyproject.toml
+  - packages/cosmos-oss/Dockerfile
+  - packages/cosmos-oss/pyproject.toml
+  source_files_inspected:
+  - bin/entrypoint.sh
+  - bin/release.sh
+  - bin/uv_lock.sh
+  - bin/uv_lock_script.sh
+  repository_tree:
+    status: captured
+    sha: d2c535822f94c526d185115021be76790b1d9531
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> [!IMPORTANT] > ## 🚀 Cosmos 3 Has Arrived > > Cosmos 3 is NVIDIA''s next-generation foundation model
+    platform for Physical AI. Compared with Cosmos-Predict2.5, Cosmos 3 delivers significantly stronger world prediction
+    capabilities, producing more accurate, coherent, and physically grounded future-state predictions across a wide
+    range of environments and embodiments. > > Beyond improving prediction quality, Cosmos 3 unifies capabilities
+    that previously required multiple specialized models. A single Cosmos 3 model can reason, predict future world
+    states, transfer across domains and modalities, and generate actions and policies for embodied agents within
+    one unified architecture. > > This repository is no longer under active development and will receive only limited
+    maintenance updates. Future model releases, features, documentation, and community support will be focused on
+    Cosmos 3. > > 👉 '
+  why_used: Cosmos-Predict2.5, the latest version of the Cosmos World Foundation Models (WFMs) family, specialized
+    for simulating and predicting the future state of the world in the form of video.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Dockerfile
+    - Just
+    frameworks_and_libraries: []
+    dependencies:
+    - albumentations
+    - attrs
+    - av
+    - better-profanity
+    - boto3
+    - click
+    - cosmos-oss
+    - diffusers
+    - einops
+    - fastparquet
+    - ftfy
+    - fvcore
+    - gradio
+    - h11
+    - huggingface-hub
+    - hydra-core
+    - imageio
+    - iopath
+    - ipdb
+    - loguru
+    - mediapy
+    - megatron-core
+    - ml-dtypes
+    - modelscope
+    - multi-storage-client
+    - nltk
+    - numpy
+    - numpydantic
+    - nvidia-ml-py
+    - omegaconf
+    - opencv-python
+    - pandas
+    - peft
+    - pillow
+    - protobuf
+    - pyarrow
+    - pycocotools
+    - pydantic
+    - pydantic-settings
+    - pyinstrument
+    - pyparsing
+    - pytest
+    - pyyaml
+    - qwen-vl-utils
+    - retinaface-py
+    - safetensors
+    - scikit-image
+    - scipy
+    - sentencepiece
+    - setuptools
+    - termcolor
+    - timm
+    - torch
+    - tqdm
+    - transformers
+    - typing-extensions
+    - tyro
+    - wandb
+    - webdataset
+    build_and_package_tools:
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: bin/entrypoint.sh,
+    bin/release.sh, bin/uv_lock.sh, bin/uv_lock_script.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/nvidia-cosmos/cosmos-predict2.5/blob/main/README.md
+  path: README.md
+  blob_sha: 1686690d7aef76d6c42d164d02002c739b35582b
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: c80af79df74be43dccf5571d526181819e3e51db
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 68ae3e8d406d485cecfeb1dfa7c863e8e9009714
+  retrieved: true
+- type: manifest
+  path: packages/cosmos-cuda/pyproject.toml
+  blob_sha: 6b23528bf18b5386ef8be9fdced0cccaae31c7fe
+  retrieved: true
+- type: manifest
+  path: packages/cosmos-gradio/pyproject.toml
+  blob_sha: bff637d4f5a2104eda5892d4d20eca2b10d4fcf7
+  retrieved: true
+- type: manifest
+  path: packages/cosmos-oss/Dockerfile
+  blob_sha: c80af79df74be43dccf5571d526181819e3e51db
+  retrieved: true
+- type: manifest
+  path: packages/cosmos-oss/pyproject.toml
+  blob_sha: 352dc349100a1f7081b7830bd918280f5e4bd638
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 8188327
+    Shell: 34490
+    Dockerfile: 11400
+    Just: 5726
+- type: Git tree
+  status: captured
+  sha: d2c535822f94c526d185115021be76790b1d9531
+  truncated: false
+- type: source_file
+  path: bin/entrypoint.sh
+  blob_sha: 23f01a6162faf20c8686b3730a07bd578a97f7c3
+  retrieved: true
+- type: source_file
+  path: bin/release.sh
+  blob_sha: 417646d43e1a06a6b8eea2c0f3320a4180ea04e4
+  retrieved: true
+- type: source_file
+  path: bin/uv_lock.sh
+  blob_sha: 6d831ed229879a5ed42a649b5874efd79d5a6d04
+  retrieved: true
+- type: source_file
+  path: bin/uv_lock_script.sh
+  blob_sha: d967903bfa3d9a9d98ce957097a55970a35ee48c
+  retrieved: true

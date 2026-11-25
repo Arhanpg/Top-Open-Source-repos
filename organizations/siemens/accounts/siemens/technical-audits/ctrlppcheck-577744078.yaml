@@ -1,0 +1,132 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:19:14+00:00'
+evidence_fingerprint: 6874cc78c2b211e4846fedfef0a40c72e8999a839ba36e6c5f34e719748cbba0
+repository_metadata:
+  company: Siemens
+  account: Siemens
+  full_name: siemens/CtrlppCheck
+  repository_id: 577744078
+  url: https://github.com/siemens/CtrlppCheck
+  description: null
+  default_branch: main
+  license_spdx: GPL-3.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-27T06:07:21Z'
+  stars: 16
+  readme_url: https://github.com/siemens/CtrlppCheck/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 42c723d61e66ef47e926acb7668e79fcc58aa0da
+  manifest_paths:
+  - ctrlppcheck/CMakeLists.txt
+  - ctrlppcheck/cli/CMakeLists.txt
+  - ctrlppcheck/lib/CMakeLists.txt
+  - ctrlppcheck/externals/simplecpp/CMakeLists.txt
+  - ctrlppcheck/externals/tinyxml2/CMakeLists.txt
+  - WinCCOA_QualityChecks/data/lizard/Makefile
+  source_files_inspected:
+  - ctrlppcheck/cli/main.cpp
+  - ctrlppcheck/lib/astutils.cpp
+  - ctrlppcheck/lib/astutils.h
+  - ctrlppcheck/lib/calculationssimplifier.cpp
+  repository_tree:
+    status: captured
+    sha: 8282ceb5d7ed8e7379be1415091f8e1e61f5114f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: WinCC OA CtrlppCheck =====================
+  why_used: WinCC OA CtrlppCheck =====================
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Visual Basic 6.0
+    - Python
+    - JavaScript
+    - CMake
+    - Batchfile
+    - HTML
+    - C
+    - XSLT
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: ctrlppcheck/cli/main.cpp,
+    ctrlppcheck/lib/astutils.cpp, ctrlppcheck/lib/astutils.h, ctrlppcheck/lib/calculationssimplifier.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/siemens/CtrlppCheck/blob/main/README.md
+  path: README.md
+  blob_sha: 42c723d61e66ef47e926acb7668e79fcc58aa0da
+  retrieved: true
+- type: manifest
+  path: ctrlppcheck/CMakeLists.txt
+  blob_sha: e9e4d8b998281f0545b4543be7a486087fb3f3c2
+  retrieved: true
+- type: manifest
+  path: ctrlppcheck/cli/CMakeLists.txt
+  blob_sha: 7a5c0986fc3079a04fe50a8e53bc564f3a3be4d3
+  retrieved: true
+- type: manifest
+  path: ctrlppcheck/lib/CMakeLists.txt
+  blob_sha: 5ce6693b51c99062d379d5df95203e693497e624
+  retrieved: true
+- type: manifest
+  path: ctrlppcheck/externals/simplecpp/CMakeLists.txt
+  blob_sha: 201e2027aebe304aa826fa114f712d7352d2f41a
+  retrieved: true
+- type: manifest
+  path: ctrlppcheck/externals/tinyxml2/CMakeLists.txt
+  blob_sha: a575c6473ee50f7823f25e3c14863f4ab09c2d7b
+  retrieved: true
+- type: manifest
+  path: WinCCOA_QualityChecks/data/lizard/Makefile
+  blob_sha: 4fae7c84e43dd42d8522138436ea4cdd502ebcd6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 2009572
+    Visual Basic 6.0: 382582
+    Python: 292717
+    JavaScript: 20909
+    CMake: 17196
+    Batchfile: 6659
+    HTML: 3068
+    C: 2969
+    XSLT: 2233
+    Makefile: 922
+- type: Git tree
+  status: captured
+  sha: 8282ceb5d7ed8e7379be1415091f8e1e61f5114f
+  truncated: false
+- type: source_file
+  path: ctrlppcheck/cli/main.cpp
+  blob_sha: 1f040954bb92595431e850855412cfcc1bfa555b
+  retrieved: true
+- type: source_file
+  path: ctrlppcheck/lib/astutils.cpp
+  blob_sha: 6b82c8f94deeea12b1e41e0a64c4fd680ce45211
+  retrieved: true
+- type: source_file
+  path: ctrlppcheck/lib/astutils.h
+  blob_sha: 178fd5ea083fc93351a6f8f7d913ede27a0c2f0d
+  retrieved: true
+- type: source_file
+  path: ctrlppcheck/lib/calculationssimplifier.cpp
+  blob_sha: b19b6ea96f1f31317af94b1ccdf0a7be51d43fc2
+  retrieved: true

@@ -1,0 +1,133 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:17:53+00:00'
+evidence_fingerprint: 6dd63d2527eedd96955bf1a3f8d50c35f5f1f24779f8db321b0150c06a6c1388
+repository_metadata:
+  company: SAP
+  account: capire
+  full_name: capire/bookstore-java
+  repository_id: 1118826858
+  url: https://github.com/capire/bookstore-java
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-09T14:10:23Z'
+  stars: 0
+  readme_url: https://github.com/capire/bookstore-java/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1217dcd7c89368f25d082591e14d01f2a73f9024
+  manifest_paths:
+  - package.json
+  - pom.xml
+  - srv/pom.xml
+  source_files_inspected:
+  - srv/src/main/java/customer/bookstore/Application.java
+  - app/admin-authors/webapp/Component.js
+  - app/admin-books/webapp/Component.js
+  - app/browse-books/webapp/Component.js
+  repository_tree:
+    status: captured
+    sha: 4e77ef0f47d87157f7d531d1a10bf27a928f486b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A composite app of
+  why_used: A composite app of
+  core_features: []
+  technology_stack:
+    languages:
+    - CAP CDS
+    - Java
+    - HTML
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@capire/bookshop'
+    - '@capire/common'
+    - '@capire/data-viewer'
+    - '@capire/orders'
+    - '@capire/reviews'
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - bookstore
+    - bookstore-parent
+    - cds-adapter-odata-v4
+    - cds-feature-enterprise-messaging
+    - cds-feature-remote-odata
+    - cds-maven-plugin
+    - cds-services-bom
+    - cds-starter-cloudfoundry
+    - cds-starter-spring-boot
+    - flatten-maven-plugin
+    - h2
+    - maven-compiler-plugin
+    - maven-enforcer-plugin
+    - maven-surefire-plugin
+    - scp-cf
+    - sdk-bom
+    - spring-boot-dependencies
+    - spring-boot-devtools
+    - spring-boot-maven-plugin
+    - spring-boot-starter-test
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: srv/src/main/java/customer/bookstore/Application.java,
+    app/admin-authors/webapp/Component.js, app/admin-books/webapp/Component.js, app/browse-books/webapp/Component.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/capire/bookstore-java/blob/main/README.md
+  path: README.md
+  blob_sha: 1217dcd7c89368f25d082591e14d01f2a73f9024
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 7676b0a5e87fc7ddeb6dd0b14bf1544af7682f60
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: cfeac54fb44ef25d640e67957695001145bc75da
+  retrieved: true
+- type: manifest
+  path: srv/pom.xml
+  blob_sha: b0d2e5a9f7f90956c1fd38040b9eedbd672c36f9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    CAP CDS: 14319
+    Java: 8918
+    HTML: 905
+    JavaScript: 725
+- type: Git tree
+  status: captured
+  sha: 4e77ef0f47d87157f7d531d1a10bf27a928f486b
+  truncated: false
+- type: source_file
+  path: srv/src/main/java/customer/bookstore/Application.java
+  blob_sha: 81f3b1dbc380035f90ff25b6f46e02c3cc5c045d
+  retrieved: true
+- type: source_file
+  path: app/admin-authors/webapp/Component.js
+  blob_sha: 05638a71e184a514158f38f0089a806c2b03e81e
+  retrieved: true
+- type: source_file
+  path: app/admin-books/webapp/Component.js
+  blob_sha: d4bc7328d9551d28fc173a2c2af8058ba1f44edc
+  retrieved: true
+- type: source_file
+  path: app/browse-books/webapp/Component.js
+  blob_sha: 7914d295d474713ce8c3d4fd3e89fb9bb0428798
+  retrieved: true

@@ -1,0 +1,164 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:15:02+00:00'
+evidence_fingerprint: fc06af95127f41a8fbb283b360d6ff1101629d4feb5eb10ab88d4cb142408883
+repository_metadata:
+  company: Amazon
+  account: neo-ai
+  full_name: neo-ai/tvm
+  repository_id: 167632700
+  url: https://github.com/neo-ai/tvm
+  description: Open deep learning compiler stack for cpu, gpu and specialized accelerators
+  default_branch: dev
+  license_spdx: Apache-2.0
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2026-05-05T07:48:32Z'
+  stars: 90
+  readme_url: https://github.com/neo-ai/tvm/blob/dev/README.md
+  readme_path: README.md
+  readme_sha: b0be69058d6470d1484eba2cb8e7e6d9c0a6068b
+  manifest_paths:
+  - CMakeLists.txt
+  - Makefile
+  - pyproject.toml
+  - docs/Makefile
+  - golang/Makefile
+  - jvm/pom.xml
+  source_files_inspected:
+  - apps/microtvm/zephyr/template_project/src/aot_demo/main.c
+  - apps/microtvm/zephyr/template_project/src/host_driven/main.c
+  - apps/sgx/src/main.rs
+  - apps/wasm-standalone/wasm-graph/src/lib.rs
+  repository_tree:
+    status: captured
+    sha: 55defa28b5bd395e7ead2f9ca848f378ee2c8b13
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ============================================== Documentation | Contributors | Community | Release Notes
+  why_used: Open deep learning compiler stack for cpu, gpu and specialized accelerators
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - Rust
+    - C
+    - CMake
+    - Shell
+    - Java
+    - Go
+    - TypeScript
+    - Objective-C++
+    - Makefile
+    - Cython
+    - Objective-C
+    - Cuda
+    - JavaScript
+    - Batchfile
+    - HTML
+    - RenderScript
+    frameworks_and_libraries: []
+    dependencies:
+    - build-helper-maven-plugin
+    - maven-assembly-plugin
+    - maven-compiler-plugin
+    - maven-dependency-plugin
+    - maven-deploy-plugin
+    - maven-gpg-plugin
+    - maven-install-plugin
+    - maven-jar-plugin
+    - maven-javadoc-plugin
+    - maven-resources-plugin
+    - maven-source-plugin
+    - native-maven-plugin
+    - nexus-staging-maven-plugin
+    - tvm4j-parent
+    build_and_package_tools:
+    - CMake configuration
+    - Maven project manifest
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: apps/microtvm/zephyr/template_project/src/aot_demo/main.c,
+    apps/microtvm/zephyr/template_project/src/host_driven/main.c, apps/sgx/src/main.rs, apps/wasm-standalone/wasm-graph/src/lib.rs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/neo-ai/tvm/blob/dev/README.md
+  path: README.md
+  blob_sha: b0be69058d6470d1484eba2cb8e7e6d9c0a6068b
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 16ebc445f57dacafa940c6d389f87dbe6578e345
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: be41e99c75d8dac6f8280a187e743e2df4013975
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 5cca711ddbe6e38ea3297bf6797b9afd9eb34dbb
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: e04e324a0f80b226e5bc4c41fae22304f3cb346a
+  retrieved: true
+- type: manifest
+  path: golang/Makefile
+  blob_sha: 181ecdf368b8dade10cc6047522021f64203aae7
+  retrieved: true
+- type: manifest
+  path: jvm/pom.xml
+  blob_sha: 1aeaa0e579214b4b5edf53342e239bacc2b0a1fe
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 16438171
+    C++: 11622203
+    Rust: 386561
+    C: 353745
+    CMake: 231103
+    Shell: 227969
+    Java: 199950
+    Go: 111527
+    TypeScript: 94385
+    Objective-C++: 87655
+    Makefile: 67148
+    Cython: 28979
+    Objective-C: 24259
+    Cuda: 16902
+    JavaScript: 15305
+    Batchfile: 4093
+    HTML: 2664
+    RenderScript: 1895
+- type: Git tree
+  status: captured
+  sha: 55defa28b5bd395e7ead2f9ca848f378ee2c8b13
+  truncated: false
+- type: source_file
+  path: apps/microtvm/zephyr/template_project/src/aot_demo/main.c
+  blob_sha: 3946727b26a8c9ecd3d1725edcdd671378742983
+  retrieved: true
+- type: source_file
+  path: apps/microtvm/zephyr/template_project/src/host_driven/main.c
+  blob_sha: 61dc66efc30845907f4dfd52250541e2b70fd18b
+  retrieved: true
+- type: source_file
+  path: apps/sgx/src/main.rs
+  blob_sha: 16dd9a9c8b7529470992664c8220b64bbfba3f08
+  retrieved: true
+- type: source_file
+  path: apps/wasm-standalone/wasm-graph/src/lib.rs
+  blob_sha: 92a3d5c2f3b0482d05872d44b107daf84c1a37bd
+  retrieved: true

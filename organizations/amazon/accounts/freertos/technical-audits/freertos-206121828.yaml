@@ -1,0 +1,184 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:06:23+00:00'
+evidence_fingerprint: f68a5ba20bfd288baab877dbe8c4c88cb87e40a6632870bd51c7325f95db2e6c
+repository_metadata:
+  company: Amazon
+  account: freertos
+  full_name: FreeRTOS/FreeRTOS
+  repository_id: 206121828
+  url: https://github.com/FreeRTOS/FreeRTOS
+  description: '''Classic'' FreeRTOS distribution.  Started as Git clone of FreeRTOS SourceForge SVN repo.  Submodules
+    the kernel.'
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-04T00:46:36Z'
+  stars: 8003
+  readme_url: https://github.com/FreeRTOS/FreeRTOS/blob/main/README.md
+  readme_path: README.md
+  readme_sha: d467899130e9020f5a95bcf8d5e179168c70e8b6
+  manifest_paths:
+  - .github/scripts/common/requirements.txt
+  - FreeRTOS-Plus/Demo/FreeRTOS_Plus_TCP_Echo_Posix/Makefile
+  - FreeRTOS-Plus/Demo/FreeRTOS_Plus_TCP_Echo_Qemu_mps2/Makefile
+  - FreeRTOS/Demo/ARM7_AT91FR40008_GCC/Makefile
+  - FreeRTOS/Demo/ARM7_LPC2106_GCC/Makefile
+  - FreeRTOS/Demo/AVR_ATMega323_WinAVR/makefile
+  source_files_inspected:
+  - FreeRTOS/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53/src/main.c
+  - FreeRTOS/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo/src/main.c
+  - FreeRTOS/Demo/CORTEX_A9_Zynq_ZC702_Vitis_QEMU/RTOSDemo/src/main.c
+  - FreeRTOS/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/main.c
+  repository_tree:
+    status: captured
+    sha: ab7fc464e2713bacd9ce08e52e246a5e10341a1f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The FreeRTOS 202411.00 release updates FreeRTOS Kernel, FreeRTOS+TCP, coreMQTT, corePKCS11, coreHTTP,
+    coreJSON, AWS IoT Over-the-air-Updates (OTA), AWS IoT Device Shadow, AWS IoT Jobs, AWS IoT Device Defender,
+    Backoff Algorithm, AWS IoT Fleet Provisioning, coreSNTP, SigV4, and FreeRTOS Cellular Interface libraries to
+    their 202406-LTS versions. It also updates coreMQTT Agent to v1.3.0 and MbedTLS to v3.5.1. This release also
+    adds ARMv7-R No_GIC Port Demo, ARMv7-R MPU Port Demos and FreeRTOS_Plus_TCP_IPv6_Demo Windows Simulator Demo.
+    Additionally, all WinSim Demos are updated to use TLSv1.3. This release also updates WolfSSL to version v5.6.4.
+  why_used: '''Classic'' FreeRTOS distribution.  Started as Git clone of FreeRTOS SourceForge SVN repo.  Submodules
+    the kernel.'
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - HTML
+    - Assembly
+    - Tcl
+    - Linker Script
+    - Makefile
+    - Python
+    - Batchfile
+    - Shell
+    - CMake
+    - PHP
+    - CartoCSS
+    - templ
+    - JavaScript
+    - C++
+    - FreeMarker
+    - M4
+    - PowerShell
+    - Perl
+    - PLSQL
+    - GDB
+    - Standard ML
+    - Opa
+    - LSL
+    frameworks_and_libraries: []
+    dependencies:
+    - Deprecated
+    - GitPython
+    - PyGithub
+    - PyJWT
+    - PyYAML
+    - certifi
+    - chardet
+    - colorama
+    - gitdb
+    - idna
+    - requests
+    - smmap
+    - urllib3
+    - wrapt
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: FreeRTOS/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53/src/main.c,
+    FreeRTOS/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo/src/main.c, FreeRTOS/Demo/CORTEX_A9_Zynq_ZC702_Vitis_QEMU/RTOSDemo/src/main.c,
+    FreeRTOS/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/main.c'
+  setup_and_usage:
+  - 'Getting started: The FreeRTOS.org website contains a FreeRTOS Kernel Quick Start Guide, a list of supported
+    devices and compilers, the API reference, and many other resources.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/FreeRTOS/FreeRTOS/blob/main/README.md
+  path: README.md
+  blob_sha: d467899130e9020f5a95bcf8d5e179168c70e8b6
+  retrieved: true
+- type: manifest
+  path: .github/scripts/common/requirements.txt
+  blob_sha: c5a9cb27c549b5a18949937b54206a368fbeb44f
+  retrieved: true
+- type: manifest
+  path: FreeRTOS-Plus/Demo/FreeRTOS_Plus_TCP_Echo_Posix/Makefile
+  blob_sha: d02fc2e19750a0e48b5afeefa81e7e741364831e
+  retrieved: true
+- type: manifest
+  path: FreeRTOS-Plus/Demo/FreeRTOS_Plus_TCP_Echo_Qemu_mps2/Makefile
+  blob_sha: 93d73435e543fb7115c45d0cf4d4d8fc58bcf881
+  retrieved: true
+- type: manifest
+  path: FreeRTOS/Demo/ARM7_AT91FR40008_GCC/Makefile
+  blob_sha: d6a9c458b966726472f69d3d1fd33e861e2cdea3
+  retrieved: true
+- type: manifest
+  path: FreeRTOS/Demo/ARM7_LPC2106_GCC/Makefile
+  blob_sha: 5e615572f57ffafbb37b59d71fe694a109848058
+  retrieved: true
+- type: manifest
+  path: FreeRTOS/Demo/AVR_ATMega323_WinAVR/makefile
+  blob_sha: 9bd557d1bcbbc43c0df1d9cb422e6a45bc9a5040
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 291703046
+    HTML: 6107903
+    Assembly: 3379877
+    Tcl: 1818285
+    Linker Script: 925127
+    Makefile: 877716
+    Python: 177381
+    Batchfile: 125173
+    Shell: 69922
+    CMake: 65974
+    PHP: 41943
+    CartoCSS: 41537
+    templ: 38700
+    JavaScript: 22446
+    C++: 18546
+    FreeMarker: 9507
+    M4: 5688
+    PowerShell: 5412
+    Perl: 5178
+    PLSQL: 3180
+    GDB: 2866
+    Standard ML: 2104
+    Opa: 477
+    LSL: 428
+- type: Git tree
+  status: captured
+  sha: ab7fc464e2713bacd9ce08e52e246a5e10341a1f
+  truncated: false
+- type: source_file
+  path: FreeRTOS/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53/src/main.c
+  blob_sha: 193623920e73cd57d4bb83660886442cd9d3c3c0
+  retrieved: true
+- type: source_file
+  path: FreeRTOS/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo/src/main.c
+  blob_sha: 9e02c4637e2d27464f6d43ccbc89bfe8a45654e8
+  retrieved: true
+- type: source_file
+  path: FreeRTOS/Demo/CORTEX_A9_Zynq_ZC702_Vitis_QEMU/RTOSDemo/src/main.c
+  blob_sha: 9de4c276d723d596bf02d32b3f767bd817d71b3b
+  retrieved: true
+- type: source_file
+  path: FreeRTOS/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/main.c
+  blob_sha: 7dffbb10eb957059343495122316804b4afa74e7
+  retrieved: true

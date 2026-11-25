@@ -1,0 +1,104 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:14:05+00:00'
+evidence_fingerprint: cb1a7b5c55e187a9f60bb2951e617f65052ac4709169960a1c35e3e8ac835131
+repository_metadata:
+  company: Amazon
+  account: boto
+  full_name: boto/boto3-legacy
+  repository_id: 13750998
+  url: https://github.com/boto/boto3-legacy
+  description: '**EXPERIMENTAL** Evolution of boto. Supports Py2/3.'
+  default_branch: develop
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2017-05-19T11:21:56Z'
+  stars: 88
+  readme_url: https://github.com/boto/boto3-legacy/blob/develop/README.rst
+  readme_path: README.rst
+  readme_sha: c6fc1487849e056db95af79e5ae08bc1298bef79
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  - docs/Makefile
+  source_files_inspected:
+  - boto3/core/cache.py
+  - boto3/core/collections.py
+  - boto3/core/connection.py
+  repository_tree:
+    status: captured
+    sha: 2e15181168dc154c4a6bfb219609f528e19ffe48
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ===== boto3 =====
+  why_used: '**EXPERIMENTAL** Evolution of boto. Supports Py2/3.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - botocore
+    - jmespath
+    - python-dateutil
+    - six
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: boto3/core/__init__.py,
+    boto3/core/cache.py, boto3/core/collections.py, boto3/core/connection.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/boto/boto3-legacy/blob/develop/README.rst
+  path: README.rst
+  blob_sha: c6fc1487849e056db95af79e5ae08bc1298bef79
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: b9883e724a0729364296824c1d201c02b82c69c8
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: ce8e8a555b7b8d8205ba5cc43c628fa6ad397993
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: 9e4fd5b98a151cc4636ed3d0d3a53890bb3adc3c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 225727
+    Shell: 5218
+- type: Git tree
+  status: captured
+  sha: 2e15181168dc154c4a6bfb219609f528e19ffe48
+  truncated: false
+- type: source_file
+  path: boto3/core/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: boto3/core/cache.py
+  blob_sha: fddcbef8b348932068299433f5d9517f8178d7f6
+  retrieved: true
+- type: source_file
+  path: boto3/core/collections.py
+  blob_sha: d93f58de90da0272ee61ce2b1e9ac8966e234fb6
+  retrieved: true
+- type: source_file
+  path: boto3/core/connection.py
+  blob_sha: 7c921fa4832ace7143e4064cc20bf600ba0df57c
+  retrieved: true

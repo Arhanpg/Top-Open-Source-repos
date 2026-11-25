@@ -1,0 +1,171 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:14:38+00:00'
+evidence_fingerprint: b81244351f7a0c737fd6a7e7d4eac8e5965dcce6519d70f434e163ac7d60048f
+repository_metadata:
+  company: Amazon
+  account: firecracker-microvm
+  full_name: firecracker-microvm/firecracker-go-sdk
+  repository_id: 156933116
+  url: https://github.com/firecracker-microvm/firecracker-go-sdk
+  description: An SDK in Go for the Firecracker microVM API
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-10T19:54:19Z'
+  stars: 679
+  readme_url: https://github.com/firecracker-microvm/firecracker-go-sdk/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 749dd629ae36016f0b8bd4e314f2e4387a810ae9
+  manifest_paths:
+  - go.mod
+  - Makefile
+  - .hack/go.mod
+  - examples/cmd/snapshotting/go.mod
+  - examples/cmd/snapshotting/Makefile
+  - examples/cmd/snapshotting/.hack/go.mod
+  source_files_inspected:
+  - balloon.go
+  - balloon_test.go
+  - benchmark_test.go
+  - client/firecracker_client.go
+  repository_tree:
+    status: captured
+    sha: aab66ecd888847dc1a92cd9c45a5d17da0722c0c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: We have made the decision to deprecate firecracker-go-sdk.
+  why_used: An SDK in Go for the Firecracker microVM API
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Go Template
+    - Makefile
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/asaskevich/govalidator
+    - github.com/awslabs/tc-redirect-tap
+    - github.com/containerd/fifo
+    - github.com/containernetworking/cni
+    - github.com/containernetworking/plugins
+    - github.com/davecgh/go-spew
+    - github.com/firecracker-microvm/firecracker-go-sdk
+    - github.com/go-openapi/analysis
+    - github.com/go-openapi/errors
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/loads
+    - github.com/go-openapi/runtime
+    - github.com/go-openapi/spec
+    - github.com/go-openapi/strfmt
+    - github.com/go-openapi/swag
+    - github.com/go-openapi/validate
+    - github.com/go-ping/ping
+    - github.com/google/uuid
+    - github.com/hashicorp/errwrap
+    - github.com/hashicorp/go-multierror
+    - github.com/josharian/intern
+    - github.com/kunalkushwaha/ltag
+    - github.com/mailru/easyjson
+    - github.com/mdlayher/socket
+    - github.com/mdlayher/vsock
+    - github.com/mitchellh/mapstructure
+    - github.com/oklog/ulid
+    - github.com/opentracing/opentracing-go
+    - github.com/pmezard/go-difflib
+    - github.com/sirupsen/logrus
+    - github.com/stretchr/testify
+    - github.com/vishvananda/netlink
+    - github.com/vishvananda/netns
+    - go.mongodb.org/mongo-driver
+    - golang.org/x/crypto
+    - golang.org/x/net
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - gopkg.in/yaml.v2
+    - gopkg.in/yaml.v3
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: balloon.go, balloon_test.go,
+    benchmark_test.go, client/firecracker_client.go'
+  setup_and_usage: []
+  limitations:
+  - 'Network Setup Limitations: These limitations are a result of the current implementation and may be lifted in
+    the future:'
+  - 'Network Setup Limitations: * For a given VM, if a CNI-configured network interface is specified or a static
+    interface'
+  - 'Network Setup Limitations: that includes IP configuration is specified, the VM can only have a single'
+  - 'Network Setup Limitations: network interface, not multiple.'
+  - 'Network Setup Limitations: * Users can specify multiple static interfaces as long as none of them'
+  - 'Network Setup Limitations: include IP configuration.'
+  - 'Network Setup Limitations: * DNS nameserver settings will only be effective if the VM''s rootfs makes'
+  - 'Network Setup Limitations: /etc/resolv.conf be a symlink to /proc/net/pnp.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/firecracker-microvm/firecracker-go-sdk/blob/main/README.md
+  path: README.md
+  blob_sha: 749dd629ae36016f0b8bd4e314f2e4387a810ae9
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 736a9b982ce76e625a35ed98ab05cff26851156c
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 0780ade75242d108493f1c1d6568bb4b6b3b551c
+  retrieved: true
+- type: manifest
+  path: .hack/go.mod
+  blob_sha: afbddd87b45d524777137a4d0563c8b1b185839a
+  retrieved: true
+- type: manifest
+  path: examples/cmd/snapshotting/go.mod
+  blob_sha: 461746524514051d8b19a660c0dc6b76da7610b5
+  retrieved: true
+- type: manifest
+  path: examples/cmd/snapshotting/Makefile
+  blob_sha: 0cfaddf2dee5a60be38c5aa48a1b3a90b81cfbe8
+  retrieved: true
+- type: manifest
+  path: examples/cmd/snapshotting/.hack/go.mod
+  blob_sha: 1771245c5e64fdb3ce67b849b537b6e36beecd0b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 322317
+    Go Template: 9119
+    Makefile: 5855
+    Shell: 150
+- type: Git tree
+  status: captured
+  sha: aab66ecd888847dc1a92cd9c45a5d17da0722c0c
+  truncated: false
+- type: source_file
+  path: balloon.go
+  blob_sha: c189f809b083cecc177b1f63d544ce3da12583a0
+  retrieved: true
+- type: source_file
+  path: balloon_test.go
+  blob_sha: 5bf0d3bac9c6be243336617e9ce3a2fba1fce401
+  retrieved: true
+- type: source_file
+  path: benchmark_test.go
+  blob_sha: d6b51f4b9231daa928ba1402a5a96234d7f5a3a7
+  retrieved: true
+- type: source_file
+  path: client/firecracker_client.go
+  blob_sha: c021c062ddebf9330c6576ea7bfd1aa18c55bf56
+  retrieved: true

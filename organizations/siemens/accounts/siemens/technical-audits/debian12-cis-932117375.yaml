@@ -1,0 +1,75 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:27:30+00:00'
+evidence_fingerprint: 0a1ea7f0658d85e810c4698d7ce34c1a35723cc7d07a3cfa629f574ceaf971e1
+repository_metadata:
+  company: Siemens
+  account: Siemens
+  full_name: siemens/DEBIAN12-CIS
+  repository_id: 932117375
+  url: https://github.com/siemens/DEBIAN12-CIS
+  description: Automated CIS Benchmark Compliance Remediation for Debian 12 with Ansible
+  default_branch: devel
+  license_spdx: MIT
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2025-04-15T09:18:18Z'
+  stars: 0
+  readme_url: https://github.com/siemens/DEBIAN12-CIS/blob/devel/README.md
+  readme_path: README.md
+  readme_sha: 2d0506c815a52ea0763e47e26eedf5144e073842
+  manifest_paths: []
+  source_files_inspected:
+  - templates/fs_with_cves.sh
+  repository_tree:
+    status: captured
+    sha: 053107953ee177be2bf36237a5765f858054aad4
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '---'
+  why_used: Automated CIS Benchmark Compliance Remediation for Debian 12 with Ansible
+  core_features: []
+  technology_stack:
+    languages:
+    - YAML
+    - Jinja
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: templates/fs_with_cves.sh'
+  setup_and_usage: []
+  limitations:
+  - 'Matching a security Level for CIS: It is possible to only run level 1 or level 2 controls for CIS.'
+  - 'Matching a security Level for CIS: This is managed using tags:'
+  - 'Matching a security Level for CIS: The control found in the defaults main also needs to reflect this, as this
+    control is the testing that takes place if you are using the audit component.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/siemens/DEBIAN12-CIS/blob/devel/README.md
+  path: README.md
+  blob_sha: 2d0506c815a52ea0763e47e26eedf5144e073842
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    YAML: 352287
+    Jinja: 47872
+    Shell: 2862
+- type: Git tree
+  status: captured
+  sha: 053107953ee177be2bf36237a5765f858054aad4
+  truncated: false
+- type: source_file
+  path: templates/fs_with_cves.sh
+  blob_sha: 89ba49b4e7b0e46f8c783a46fbbb23725df30274
+  retrieved: true

@@ -1,0 +1,116 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:27:39+00:00'
+evidence_fingerprint: 012f15a1c086e4f75383f8d48ba03a5624f1f453f8e7e93c0c0aaa66b80d160e
+repository_metadata:
+  company: Tencent
+  account: Tencent
+  full_name: Tencent/APEX-SQL-Project
+  repository_id: 1241975714
+  url: https://github.com/Tencent/APEX-SQL-Project
+  description: APEX-SQL is an agentic Text-to-SQL framework that shifts the paradigm from passive schema perception
+    to agentic exploration.
+  default_branch: main
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-18T02:59:14Z'
+  stars: 22
+  readme_url: https://github.com/Tencent/APEX-SQL-Project/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b5c21d35435537a95b0f383e844b6953a790972f
+  manifest_paths:
+  - BIRD/requirements.txt
+  - Spider2/requirements.txt
+  source_files_inspected:
+  - BIRD/agent.py
+  - BIRD/evaluate_from_dir.py
+  - BIRD/evaluate_schema_linking.py
+  - BIRD/preprocess.py
+  repository_tree:
+    status: captured
+    sha: 8d6628545ba4809fa6987faf16a55effca004f27
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**APEX-SQL** is an agentic Text-to-SQL framework that shifts the paradigm from *passive schema perception*
+    to *agentic exploration*. Central to our approach is a **Hypothesis-Verification (H-V) loop**, where the agent
+    formulates logical assumptions based on the user question and validates them by executing exploratory SQLs against
+    actual data. This transforms Text-to-SQL from a static translation task into an interactive reasoning task grounded
+    in database reality.'
+  why_used: APEX-SQL is an agentic Text-to-SQL framework that shifts the paradigm from passive schema perception
+    to agentic exploration.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - duckdb
+    - func_timeout
+    - gdown
+    - google-cloud-bigquery
+    - json_repair
+    - matplotlib
+    - numpy
+    - openai
+    - pandas
+    - requests
+    - snowflake
+    - spacy
+    - sqlglot
+    - sqlparse
+    - tqdm
+    - transformers
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: BIRD/agent.py, BIRD/evaluate_from_dir.py,
+    BIRD/evaluate_schema_linking.py, BIRD/preprocess.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Tencent/APEX-SQL-Project/blob/main/README.md
+  path: README.md
+  blob_sha: b5c21d35435537a95b0f383e844b6953a790972f
+  retrieved: true
+- type: manifest
+  path: BIRD/requirements.txt
+  blob_sha: e021f0c6a242e5036d6b6e503413383017235de9
+  retrieved: true
+- type: manifest
+  path: Spider2/requirements.txt
+  blob_sha: 3c38d847101c97d968355b615baa99261f6bf3db
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 596254
+- type: Git tree
+  status: captured
+  sha: 8d6628545ba4809fa6987faf16a55effca004f27
+  truncated: false
+- type: source_file
+  path: BIRD/agent.py
+  blob_sha: 12f232d180f823cfe36e6efafc3fa86a3db1ba64
+  retrieved: true
+- type: source_file
+  path: BIRD/evaluate_from_dir.py
+  blob_sha: c49a3e6dff66dc8aaa1758b6158f6a050da0663a
+  retrieved: true
+- type: source_file
+  path: BIRD/evaluate_schema_linking.py
+  blob_sha: 2d8bedc3f38baf290f0fb6c52660c295ebac5c7e
+  retrieved: true
+- type: source_file
+  path: BIRD/preprocess.py
+  blob_sha: 3583b870ba0cf445e8be950b7a99796be9ed3309
+  retrieved: true

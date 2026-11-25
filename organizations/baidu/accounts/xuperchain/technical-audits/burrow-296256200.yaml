@@ -1,0 +1,203 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:07:42+00:00'
+evidence_fingerprint: 2ba24818a1fe08c5c12e0cb9acbfe6fe5e2bf3aec30f5924f928cb08f19ca8eb
+repository_metadata:
+  company: Baidu
+  account: xuperchain
+  full_name: xuperchain/burrow
+  repository_id: 296256200
+  url: https://github.com/xuperchain/burrow
+  description: https://wiki.hyperledger.org/display/burrow
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2021-12-29T03:20:28Z'
+  stars: 0
+  readme_url: https://github.com/xuperchain/burrow/blob/master/docs/README.md
+  readme_path: docs/README.md
+  readme_sha: ea46fcbcc0f7785bbb5e0738e21a0a13ba9d5c0a
+  manifest_paths:
+  - Dockerfile
+  - go.mod
+  - Makefile
+  - .github/Dockerfile
+  - js/package.json
+  - event/query/Makefile
+  source_files_inspected:
+  - cmd/burrow/main.go
+  - js/src/index.ts
+  - project/cmd/changelog/main.go
+  - project/cmd/notes/main.go
+  repository_tree:
+    status: captured
+    sha: bc8418cf86ae6581530b58d984822120bb70c70d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Hyperledger Burrow is a permissioned Ethereum smart-contract blockchain node. It executes Ethereum EVM
+    and WASM smart contract code (usually written in Solidity) on a permissioned virtual machine. Burrow provides
+    transaction finality and high transaction throughput on a proof-of-stake Tendermint consensus engine.
+  why_used: https://wiki.hyperledger.org/display/burrow
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - JavaScript
+    - TypeScript
+    - Solidity
+    - Shell
+    - Makefile
+    - Dockerfile
+    - Mustache
+    frameworks_and_libraries: []
+    dependencies:
+    - '@grpc/grpc-js'
+    - '@types/ethereumjs-abi'
+    - '@types/mocha'
+    - bn.js
+    - ethereumjs-abi
+    - github.com/BurntSushi/toml
+    - github.com/OneOfOne/xxhash
+    - github.com/alecthomas/jsonschema
+    - github.com/asaskevich/govalidator
+    - github.com/btcsuite/btcd
+    - github.com/cep21/xdgbasedir
+    - github.com/eapache/channels
+    - github.com/eapache/queue
+    - github.com/elgs/gojq
+    - github.com/elgs/gosplitargs
+    - github.com/fatih/color
+    - github.com/go-kit/kit
+    - github.com/go-ozzo/ozzo-validation
+    - github.com/gogo/protobuf
+    - github.com/golang/protobuf
+    - github.com/gorilla/websocket
+    - github.com/hashicorp/golang-lru
+    - github.com/howeyc/gopass
+    - github.com/iancoleman/strcase
+    - github.com/imdario/mergo
+    - github.com/jawher/mow.cli
+    - github.com/jmoiron/sqlx
+    - github.com/lib/pq
+    - github.com/mattn/go-colorable
+    - github.com/mattn/go-sqlite3
+    - github.com/monax/relic
+    - github.com/perlin-network/life
+    - github.com/pkg/errors
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/rcrowley/go-metrics
+    - github.com/sirupsen/logrus
+    - github.com/spf13/viper
+    - github.com/streadway/simpleuuid
+    - github.com/stretchr/testify
+    - github.com/syndtr/goleveldb
+    - github.com/tendermint/go-amino
+    - github.com/tendermint/iavl
+    - github.com/tendermint/tendermint
+    - github.com/tendermint/tm-db
+    - github.com/test-go/testify
+    - github.com/tmthrgd/atomics
+    - github.com/tmthrgd/go-bitset
+    - github.com/tmthrgd/go-bitwise
+    - github.com/tmthrgd/go-byte-test
+    - github.com/tmthrgd/go-hex
+    - github.com/tmthrgd/go-memset
+    - github.com/tmthrgd/go-popcount
+    - github.com/xeipuuv/gojsonpointer
+    - github.com/xeipuuv/gojsonreference
+    - github.com/xeipuuv/gojsonschema
+    - github.com/xlab/treeprint
+    - golang.org/x/crypto
+    - golang.org/x/net
+    - golang.org/x/sys
+    - google-protobuf
+    - google.golang.org/grpc
+    - gopkg.in/yaml.v2
+    - grpc-tools
+    - grpc_tools_node_protoc_ts
+    - mocha
+    - sha3
+    - solc
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/burrow/main.go,
+    js/src/index.ts, project/cmd/changelog/main.go, project/cmd/notes/main.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/xuperchain/burrow/blob/master/docs/README.md
+  path: docs/README.md
+  blob_sha: ea46fcbcc0f7785bbb5e0738e21a0a13ba9d5c0a
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: df7324a177196f31164b09d91a18f8bb29eb5ee9
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 191f9814c555601618307a8bbea8a1d64218bb7b
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: f12e0a288d4738e85e486e8319d91c7e036d8864
+  retrieved: true
+- type: manifest
+  path: .github/Dockerfile
+  blob_sha: 16f57df67ffd43893b0b39f7eb0dcaff0c814d76
+  retrieved: true
+- type: manifest
+  path: js/package.json
+  blob_sha: 71a0e082432459649f82fafb2d9e8d6c78a40e3f
+  retrieved: true
+- type: manifest
+  path: event/query/Makefile
+  blob_sha: 91030ef098b4fc74a3728c5e62b8c78df2838532
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 1965529
+    JavaScript: 1492027
+    TypeScript: 53209
+    Solidity: 53048
+    Shell: 23361
+    Makefile: 9882
+    Dockerfile: 2412
+    Mustache: 2403
+- type: Git tree
+  status: captured
+  sha: bc8418cf86ae6581530b58d984822120bb70c70d
+  truncated: false
+- type: source_file
+  path: cmd/burrow/main.go
+  blob_sha: 3185ec495f7ca1dc6195800c1cc56564a9d87617
+  retrieved: true
+- type: source_file
+  path: js/src/index.ts
+  blob_sha: 5e558d65be456d4983add522c884f7f0efbd3187
+  retrieved: true
+- type: source_file
+  path: project/cmd/changelog/main.go
+  blob_sha: 5bcbee7d57ad5f088584f0c1d459158f238bfa19
+  retrieved: true
+- type: source_file
+  path: project/cmd/notes/main.go
+  blob_sha: bf67ffd0c919b0321261d5c20880a4317d221778
+  retrieved: true

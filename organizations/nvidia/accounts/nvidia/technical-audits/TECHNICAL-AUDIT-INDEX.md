@@ -1,10 +1,10 @@
 # Technical audits — nvidia
 
-Updated: 2026-11-25T04:01:56+00:00
+Updated: 2026-11-25T08:29:14+00:00
 
 ## Status counts
 
-- evidence_only: 3
+- evidence_only: 6
 
 ## Repository dossiers
 
@@ -13,3 +13,6 @@ Updated: 2026-11-25T04:01:56+00:00
 | 3dobjectreconstruction-1022238889 | evidence_only | [3dobjectreconstruction-1022238889.md](3dobjectreconstruction-1022238889.md) | [3dobjectreconstruction-1022238889.yaml](3dobjectreconstruction-1022238889.yaml) |
 | 5t5g-359964264 | evidence_only | [5t5g-359964264.md](5t5g-359964264.md) | [5t5g-359964264.yaml](5t5g-359964264.yaml) |
 | accv-lab-1093176253 | evidence_only | [accv-lab-1093176253.md](accv-lab-1093176253.md) | [accv-lab-1093176253.yaml](accv-lab-1093176253.yaml) |
+| ace-807798281 | evidence_only | [ace-807798281.md](ace-807798281.md) | [ace-807798281.yaml](ace-807798281.yaml) |
+| adlr-131557694 | evidence_only | [adlr-131557694.md](adlr-131557694.md) | [adlr-131557694.yaml](adlr-131557694.yaml) |
+| ai-factory-operations-agent-1266698124 | evidence_only | [ai-factory-operations-agent-1266698124.md](ai-factory-operations-agent-1266698124.md) | [ai-factory-operations-agent-1266698124.yaml](ai-factory-operations-agent-1266698124.yaml) |

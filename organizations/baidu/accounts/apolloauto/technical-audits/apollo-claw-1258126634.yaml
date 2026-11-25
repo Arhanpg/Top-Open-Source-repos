@@ -1,0 +1,87 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:15:41+00:00'
+evidence_fingerprint: 17055e196079940c3c7eedbbeb428bfaa2c256cba0d2d161ca0f665a8efe920f
+repository_metadata:
+  company: Baidu
+  account: ApolloAuto
+  full_name: ApolloAuto/apollo-claw
+  repository_id: 1258126634
+  url: https://github.com/ApolloAuto/apollo-claw
+  description: 'apollo skils '
+  default_branch: EDU
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-02T02:49:57Z'
+  stars: 8
+  readme_url: https://github.com/ApolloAuto/apollo-claw/blob/EDU/README.md
+  readme_path: README.md
+  readme_sha: 4816730e690ffebee84656bab7981b9371bcad8c
+  manifest_paths: []
+  source_files_inspected:
+  - apollo-eval/scripts/grading_system_py/main.py
+  - apollo-env/modules/camera-config/scripts/add_camera.py
+  - apollo-env/modules/camera-config/scripts/camera_instance_manager.py
+  - apollo-env/modules/camera-config/scripts/camera_list.sh
+  repository_tree:
+    status: captured
+    sha: 7b68568a2d01792dee0c97dbe5ee9d64877800c8
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: apollo-claw 是一组面向 Apollo EDU 与 Apollo 11.0 工作区的 Skills 和本地知识库。环境运维、源码开发、测试和评估能力各自独立，便于在兼容 Skills 目录结构的编码
+    Agent 中按需使用。
+  why_used: apollo skils
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: apollo-eval/scripts/grading_system_py/main.py,
+    apollo-env/modules/camera-config/scripts/add_camera.py, apollo-env/modules/camera-config/scripts/camera_instance_manager.py,
+    apollo-env/modules/camera-config/scripts/camera_list.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ApolloAuto/apollo-claw/blob/EDU/README.md
+  path: README.md
+  blob_sha: 4816730e690ffebee84656bab7981b9371bcad8c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 384078
+    Shell: 107540
+- type: Git tree
+  status: captured
+  sha: 7b68568a2d01792dee0c97dbe5ee9d64877800c8
+  truncated: false
+- type: source_file
+  path: apollo-eval/scripts/grading_system_py/main.py
+  blob_sha: 74bc991abbb018ef3b7cde27f2f568cf6f6f14d2
+  retrieved: true
+- type: source_file
+  path: apollo-env/modules/camera-config/scripts/add_camera.py
+  blob_sha: e865b33c0d8ab52a273f107e8001c90e7b8011fb
+  retrieved: true
+- type: source_file
+  path: apollo-env/modules/camera-config/scripts/camera_instance_manager.py
+  blob_sha: 9de819ee00e78126126ec3df088eca1a4923a69e
+  retrieved: true
+- type: source_file
+  path: apollo-env/modules/camera-config/scripts/camera_list.sh
+  blob_sha: 983931e9da15135f763d9c10c877b43808e1a4e2
+  retrieved: true

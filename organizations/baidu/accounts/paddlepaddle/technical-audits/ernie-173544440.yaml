@@ -1,0 +1,160 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:24:10+00:00'
+evidence_fingerprint: c13cef1503afc3e7bac0ccc0d23e7143867c61ae81e603daf08ee527989926c5
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/ERNIE
+  repository_id: 173544440
+  url: https://github.com/PaddlePaddle/ERNIE
+  description: The official repository for ERNIE 4.5 and ERNIEKit – its industrial-grade development toolkit based
+    on PaddlePaddle.
+  default_branch: release/v1.5
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-24T21:37:38Z'
+  stars: 7741
+  readme_url: https://github.com/PaddlePaddle/ERNIE/blob/release/v1.5/README.md
+  readme_path: README.md
+  readme_sha: 1ea828e9ae77210dc82f573475874825ffc0a544
+  manifest_paths:
+  - Makefile
+  - pyproject.toml
+  - setup.py
+  - docker/docker-cuda/Dockerfile
+  - examples/auto_parallel/requirements.txt
+  - examples/pre-training/requirements.txt
+  source_files_inspected:
+  - erniekit/chat/server.py
+  - erniekit/cli.py
+  - cookbook/advanced_search_demo.py
+  - cookbook/bot_requests.py
+  repository_tree:
+    status: captured
+    sha: 1a8eee6aff020d50ad0ef83b091df24d32585014
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ERNIE Bot | 🤗Hugging Face | AI Studio
+  why_used: The official repository for ERNIE 4.5 and ERNIEKit – its industrial-grade development toolkit based
+    on PaddlePaddle.
+  core_features:
+  - name: '**Multimodal Heterogeneous MoE Pre-Training:** Our models are jointly trained on both textual and visual
+      modalities to better capture the nuances of multimodal '
+    description: '**Multimodal Heterogeneous MoE Pre-Training:** Our models are jointly trained on both textual
+      and visual modalities to better capture the nuances of multimodal information and improve performance on tasks
+      involving text understanding and generation, image understanding, and cross-modal reasoning. To achieve this
+      without one modality hindering the learning of another, we designed a *heterogeneous MoE structure*, incorporated
+      *modality-isolated routing*, and employed *router orthogonal loss* and *'
+    evidence:
+    - README.md#Highlights
+  - name: '**Scaling-Efficient Infrastructure:** We propose a novel heterogeneous hybrid parallelism and hierarchical
+      load balancing strategy for efficient training of ERN'
+    description: '**Scaling-Efficient Infrastructure:** We propose a novel heterogeneous hybrid parallelism and
+      hierarchical load balancing strategy for efficient training of ERNIE 4.5 models. By using intra-node expert
+      parallelism, memory-efficient pipeline scheduling, FP8 mixed-precision training and finegrained recomputation
+      methods, we achieve remarkable pre-training throughput. For inference, we propose *multi-expert parallel collaboration*
+      method and *convolutional code quantization* algorithm to achieve 4-'
+    evidence:
+    - README.md#Highlights
+  - name: '**Modality-Specific Post-Training:** To meet the diverse requirements of real-world applications, we
+      fine-tuned variants of the pre-trained model for specific m'
+    description: '**Modality-Specific Post-Training:** To meet the diverse requirements of real-world applications,
+      we fine-tuned variants of the pre-trained model for specific modalities. Our LLMs are optimized for general-purpose
+      language understanding and generation. The VLMs focuses on visuallanguage understanding and supports both
+      thinking and non-thinking modes. Each model employed a combination of *Supervised Fine-tuning (SFT)*, *Direct
+      Preference Optimization (DPO)* or a modified reinforcement learning me'
+    evidence:
+    - README.md#Highlights
+  technology_stack:
+    languages:
+    - Python
+    - Jupyter Notebook
+    - Shell
+    - Makefile
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - decord
+    - moviepy
+    - paddleformers
+    - paddlepaddle-gpu
+    - tensorboardX
+    build_and_package_tools:
+    - Docker build configuration
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: erniekit/chat/server.py,
+    erniekit/cli.py, cookbook/advanced_search_demo.py, cookbook/bot_requests.py'
+  setup_and_usage:
+  - 'Quick Start: When you install ERNIEKit successfully, you can start training ERNIE 4.5 models with the following
+    command:'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/ERNIE/blob/release/v1.5/README.md
+  path: README.md
+  blob_sha: 1ea828e9ae77210dc82f573475874825ffc0a544
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: a733f69c24b759e9c36d87c4f30c2dbefbf6dfdb
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: d6c34cc756df7922dc5f346840805ab39436a3f0
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: e9bbcca0b2404e879e7b4212e6a6aa7d60fdceab
+  retrieved: true
+- type: manifest
+  path: docker/docker-cuda/Dockerfile
+  blob_sha: f45118e0b83cf2b392a4aee1385a94629a363349
+  retrieved: true
+- type: manifest
+  path: examples/auto_parallel/requirements.txt
+  blob_sha: e7a68b28c579d1908b3bb7fd6a01c18c5c91fbc4
+  retrieved: true
+- type: manifest
+  path: examples/pre-training/requirements.txt
+  blob_sha: 9199c95104324e418d7635411f89cda3a4b5f0dd
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 2724762
+    Jupyter Notebook: 1750314
+    Shell: 9551
+    Makefile: 2074
+    Dockerfile: 537
+- type: Git tree
+  status: captured
+  sha: 1a8eee6aff020d50ad0ef83b091df24d32585014
+  truncated: false
+- type: source_file
+  path: erniekit/chat/server.py
+  blob_sha: bf07a4483fe030f653ed3eda87dc4a4059f7a7d9
+  retrieved: true
+- type: source_file
+  path: erniekit/cli.py
+  blob_sha: 69e80528af83f4439cbf56b7d3886a1064bb19d3
+  retrieved: true
+- type: source_file
+  path: cookbook/advanced_search_demo.py
+  blob_sha: 39c061d74fbc10927be59a0c940ec25e5b0e50db
+  retrieved: true
+- type: source_file
+  path: cookbook/bot_requests.py
+  blob_sha: 578b18445bf78ddf589db98ecf178c726e285976
+  retrieved: true

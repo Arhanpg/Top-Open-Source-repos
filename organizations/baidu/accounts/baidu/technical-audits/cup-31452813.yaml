@@ -1,0 +1,112 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:24:01+00:00'
+evidence_fingerprint: fad9eda1aad83ee9774ad2ebf017fbe470e3b2879f8f5de1ee0aed3146c9934d
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/CUP
+  repository_id: 31452813
+  url: https://github.com/baidu/CUP
+  description: CUP, common useful python-lib.  (Currently, Most popular python lib in baidu).  Python 开发底层库, 涵盖util、service(threadpool/generator/executor/cache等等)、logging、monitoring、增强型配置
+    等等库支持
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-06-26T02:50:03Z'
+  stars: 948
+  readme_url: https://github.com/baidu/CUP/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 560004450c5bb1aead6bbfcc2168997ff5d33fd9
+  manifest_paths:
+  - pyproject.toml
+  - docs/api-rst/newdoc/Makefile
+  source_files_inspected:
+  - src/cup/__init__.py
+  - src/cup/cache.py
+  - src/cup/const.py
+  - src/cup/decorators.py
+  repository_tree:
+    status: captured
+    sha: 0790413e17dcf2bf803a9b5f2d8972ab2fc2691a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Install from pip
+  why_used: CUP, common useful python-lib.  (Currently, Most popular python lib in baidu).  Python 开发底层库, 涵盖util、service(threadpool/generator/executor/cache等等)、logging、monitoring、增强型配置
+    等等库支持
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - cffi
+    - netifaces
+    - pexpect
+    - psutil
+    - pytest
+    - pytz
+    - requests
+    - twist
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/cup/__init__.py,
+    src/cup/cache.py, src/cup/const.py, src/cup/decorators.py'
+  setup_and_usage:
+  - '2. Installation: Install from source code:'
+  - '2. Installation: python setup.py install'
+  - 'count cpu usage in interval, by default 60 seconds: from cup.res import linux'
+  - 'count cpu usage in interval, by default 60 seconds: cpuinfo = linux.get_cpu_usage(intvl_in_sec=60)'
+  - 'count cpu usage in interval, by default 60 seconds: from cup.res import linux'
+  - 'count cpu usage in interval, by default 60 seconds: cpuinfo = linux.get_cpu_usage(intvl_in_sec=60)'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/CUP/blob/master/README.md
+  path: README.md
+  blob_sha: 560004450c5bb1aead6bbfcc2168997ff5d33fd9
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: fbf3012af0ab3a151d27c0e429ab57f5e5e05bc2
+  retrieved: true
+- type: manifest
+  path: docs/api-rst/newdoc/Makefile
+  blob_sha: d4bb2cbb9eddb1bb1b4f366623044af8e4830919
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 534841
+    Shell: 4268
+- type: Git tree
+  status: captured
+  sha: 0790413e17dcf2bf803a9b5f2d8972ab2fc2691a
+  truncated: false
+- type: source_file
+  path: src/cup/__init__.py
+  blob_sha: 1541c38a6e362847e774a4decf81a6e00c4c8459
+  retrieved: true
+- type: source_file
+  path: src/cup/cache.py
+  blob_sha: 27c00f5c50660fa524d745247c8a1f885a03396e
+  retrieved: true
+- type: source_file
+  path: src/cup/const.py
+  blob_sha: 5fefd955845102fcdc0d993e84167c0e47c26b0c
+  retrieved: true
+- type: source_file
+  path: src/cup/decorators.py
+  blob_sha: ae64dd086da1e730c3329d4cc118e676561b77b4
+  retrieved: true

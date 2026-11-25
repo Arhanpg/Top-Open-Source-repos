@@ -1,0 +1,147 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:03:24+00:00'
+evidence_fingerprint: 5e9b86e1421624bf95f981d9b47c02f5a9e6c6e5fee78587f5a5dafd4160659f
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/ai-agents-lab-amazon-connect
+  repository_id: 1280754834
+  url: https://github.com/amazon-connect/ai-agents-lab-amazon-connect
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-03T14:58:54Z'
+  stars: 4
+  readme_url: https://github.com/amazon-connect/ai-agents-lab-amazon-connect/blob/main/README.md
+  readme_path: README.md
+  readme_sha: c54b9843c778b2e787d95d62870ac89109bc6d8b
+  manifest_paths:
+  - package.json
+  - infra/package.json
+  source_files_inspected:
+  - src/contextual-help/index.ts
+  - src/waterfall/index.ts
+  - infra/bin/app.ts
+  - infra/lib/infra-stack.ts
+  repository_tree:
+    status: captured
+    sha: 247cbad6e53058d21b6ed3de9e20a54c7375edf2
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A browser-based tool for inspecting Amazon Connect AI agent execution traces, testing agents at scale,
+    and evaluating response quality. No backend — the React SPA calls AWS APIs directly using temporary credentials
+    obtained via IAM Identity Center OIDC.
+  why_used: A browser-based tool for inspecting Amazon Connect AI agent execution traces, testing agents at scale,
+    and evaluating response quality. No backend — the React SPA calls AWS APIs directly using temporary credentials
+    obtained via IAM Identity Center OIDC.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Shell
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-sdk/client-bedrock-runtime'
+    - '@aws-sdk/client-connect'
+    - '@aws-sdk/client-connectparticipant'
+    - '@aws-sdk/client-iam'
+    - '@aws-sdk/client-lex-models-v2'
+    - '@aws-sdk/client-polly'
+    - '@aws-sdk/client-qconnect'
+    - '@aws-sdk/client-s3'
+    - '@aws-sdk/client-sso'
+    - '@aws-sdk/client-sso-oidc'
+    - '@aws-sdk/client-sts'
+    - '@aws-sdk/credential-providers'
+    - '@cloudscape-design/code-view'
+    - '@cloudscape-design/components'
+    - '@cloudscape-design/design-tokens'
+    - '@cloudscape-design/global-styles'
+    - '@playwright/test'
+    - '@testing-library/jest-dom'
+    - '@testing-library/react'
+    - '@types/jest'
+    - '@types/node'
+    - '@types/react'
+    - '@types/react-dom'
+    - '@vitejs/plugin-react-swc'
+    - amazon-chime-sdk-js
+    - aws-cdk-lib
+    - constructs
+    - fast-check
+    - jest
+    - jsdom
+    - react
+    - react-dom
+    - react-router-dom
+    - ts-jest
+    - ts-node
+    - typescript
+    - vite
+    - vitest
+    - yaml
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/contextual-help/index.ts,
+    src/waterfall/index.ts, infra/bin/app.ts, infra/lib/infra-stack.ts'
+  setup_and_usage:
+  - 'Quick Start (full deploy): ./scripts/deploy.sh all -c identityCenterStartUrl=https://d-XXXXXXXXXX.awsapps.com/start'
+  - 'Quick Start (full deploy): 1. Installs all dependencies (app + CDK infra)'
+  - 'Quick Start (full deploy): 2. Bootstraps CDK if needed'
+  - 'Quick Start (full deploy): 3. Deploys infrastructure (OIDC client registration via Lambda)'
+  - 'Quick Start (full deploy): 4. Populates .env with stack outputs'
+  - 'Quick Start (full deploy): After deployment, run npm run dev to start the app locally at http://127.0.0.1:5173.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/ai-agents-lab-amazon-connect/blob/main/README.md
+  path: README.md
+  blob_sha: c54b9843c778b2e787d95d62870ac89109bc6d8b
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 6b222997e342506de1d6394bfb79678e754836be
+  retrieved: true
+- type: manifest
+  path: infra/package.json
+  blob_sha: 94c78a885f286aff5809b9aba77de496447ca930
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 990424
+    Shell: 5038
+    HTML: 381
+- type: Git tree
+  status: captured
+  sha: 247cbad6e53058d21b6ed3de9e20a54c7375edf2
+  truncated: false
+- type: source_file
+  path: src/contextual-help/index.ts
+  blob_sha: 13af2de4369a2c179076d146139cbc484c588e15
+  retrieved: true
+- type: source_file
+  path: src/waterfall/index.ts
+  blob_sha: 1d2206b55e4e894407dd2174b418d5f21130dd13
+  retrieved: true
+- type: source_file
+  path: infra/bin/app.ts
+  blob_sha: f1a9f66a8362ef0fc40ff0cac2de8236ed59fa42
+  retrieved: true
+- type: source_file
+  path: infra/lib/infra-stack.ts
+  blob_sha: 5ca521d94b834f003de30258ffc6796a9900876d
+  retrieved: true

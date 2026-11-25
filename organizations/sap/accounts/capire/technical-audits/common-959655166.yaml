@@ -1,0 +1,79 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:26:09+00:00'
+evidence_fingerprint: 43ae6f63d3d682c621284f19dc100695a909104555d2c6fc1a0f0c579aaac738
+repository_metadata:
+  company: SAP
+  account: capire
+  full_name: capire/common
+  repository_id: 959655166
+  url: https://github.com/capire/common
+  description: A reuse content package
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-28T22:27:46Z'
+  stars: 1
+  readme_url: https://github.com/capire/common/blob/main/readme.md
+  readme_path: readme.md
+  readme_sha: 07bf69cb92c2970cfe3f7f09694c83fa72c142ac
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - cds-plugin.js
+  repository_tree:
+    status: captured
+    sha: 4ec206c7cb874410cf7869775d5b8e926373e311
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a CAP plugin which extends @sap/cds/common, and provides enhanced reuse data in .csv. It is used
+    in the bookstore sample.
+  why_used: A reuse content package
+  core_features: []
+  technology_stack:
+    languages:
+    - CAP CDS
+    - CQL
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@sap/cds'
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cds-plugin.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/capire/common/blob/main/readme.md
+  path: readme.md
+  blob_sha: 07bf69cb92c2970cfe3f7f09694c83fa72c142ac
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: f116fd68eb0abc7e478dcabfe88b7ff39809ffbd
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    CAP CDS: 7699
+    CQL: 4984
+    JavaScript: 32
+- type: Git tree
+  status: captured
+  sha: 4ec206c7cb874410cf7869775d5b8e926373e311
+  truncated: false
+- type: source_file
+  path: cds-plugin.js
+  blob_sha: f69b9be3fff7ab23d3a2f9aa97cf18a1b555bf24
+  retrieved: true

@@ -1,0 +1,105 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:05:40+00:00'
+evidence_fingerprint: 6d391b1d8ac6146b2582b30388466d31b8bab7f154e599c7494b21d920c5200c
+repository_metadata:
+  company: Amazon
+  account: boto
+  full_name: boto/boto3
+  repository_id: 24774658
+  url: https://github.com/boto/boto3
+  description: AWS SDK for Python (Boto3)
+  default_branch: develop
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T01:31:50Z'
+  stars: 9940
+  readme_url: https://github.com/boto/boto3/blob/develop/README.rst
+  readme_path: README.rst
+  readme_sha: a2c445151ffc8eab40e26942bf5afeac307832f7
+  manifest_paths:
+  - pyproject.toml
+  - requirements.txt
+  - setup.py
+  - docs/Makefile
+  source_files_inspected:
+  - boto3/__init__.py
+  - boto3/compat.py
+  - boto3/crt.py
+  - boto3/dynamodb/__init__.py
+  repository_tree:
+    status: captured
+    sha: e5a44194b430bed3e70e3828d980e644a17f9ef7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: =============================== Boto3 - The AWS SDK for Python ===============================
+  why_used: AWS SDK for Python (Boto3)
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: boto3/__init__.py,
+    boto3/compat.py, boto3/crt.py, boto3/dynamodb/__init__.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/boto/boto3/blob/develop/README.rst
+  path: README.rst
+  blob_sha: a2c445151ffc8eab40e26942bf5afeac307832f7
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 296c6c8464d34cf7c08d45a8f679c75e1a1c31af
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 615d16ebf28fabd5b8b9c072000b3be6c35c5813
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 772465c92d4a5b102a4600be0cd57b17406a333d
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: ea72d10b5089beaf95a11caf784fea91171f51db
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 751068
+- type: Git tree
+  status: captured
+  sha: e5a44194b430bed3e70e3828d980e644a17f9ef7
+  truncated: false
+- type: source_file
+  path: boto3/__init__.py
+  blob_sha: 6a650a5bd4a9238678d3360ddfc896aa3df67be9
+  retrieved: true
+- type: source_file
+  path: boto3/compat.py
+  blob_sha: 44a6431caf68509f564de91c64977cfc4e7016a9
+  retrieved: true
+- type: source_file
+  path: boto3/crt.py
+  blob_sha: fb30401d5bf827ee5e4eeba439f8080f1f70d646
+  retrieved: true
+- type: source_file
+  path: boto3/dynamodb/__init__.py
+  blob_sha: 6001b27b37430efbf22057efde79637b340fa1db
+  retrieved: true

@@ -1,0 +1,230 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:08:22+00:00'
+evidence_fingerprint: a9d000d36bae65c1a8b61bd949967cb0f609e02e556950b5317156785a00cbf6
+repository_metadata:
+  company: NVIDIA
+  account: ai-dynamo
+  full_name: ai-dynamo/aiperf
+  repository_id: 967726092
+  url: https://github.com/ai-dynamo/aiperf
+  description: AIPerf is a comprehensive benchmarking tool that measures the performance of generative AI models
+    served by your preferred inference solution.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T19:21:08Z'
+  stars: 904
+  readme_url: https://github.com/ai-dynamo/aiperf/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 11491e478dc0d269a66cd8c8ad5540d677ce1e18
+  manifest_paths:
+  - Dockerfile
+  - Makefile
+  - package.json
+  - pyproject.toml
+  - tests/aiperf_mock_amdsmi/pyproject.toml
+  - tests/aiperf_mock_server/pyproject.toml
+  source_files_inspected:
+  - src/aiperf/__main__.py
+  - src/aiperf/api/static-v2/app.js
+  - src/aiperf/cli.py
+  - src/aiperf/dataset/agentic_code_gen/cli.py
+  repository_tree:
+    status: captured
+    sha: d4e93a1dce75813098dcf2a97e61e30c918d1ba0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'SPDX-FileCopyrightText: Copyright (c) 2025-2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    SPDX-License-Identifier: Apache-2.0 -->'
+  why_used: AIPerf is a comprehensive benchmarking tool that measures the performance of generative AI models served
+    by your preferred inference solution.
+  core_features:
+  - name: Scalable multiprocess architecture with 10 services communicating via ZMQ
+    description: Scalable multiprocess architecture with 10 services communicating via ZMQ
+    evidence:
+    - README.md#Features
+  - name: '3 UI modes: dashboard (real-time TUI), simple (progress bars), none (headless)'
+    description: '3 UI modes: dashboard (real-time TUI), simple (progress bars), none (headless)'
+    evidence:
+    - README.md#Features
+  - name: 'Multiple benchmarking modes: concurrency, request-rate, request-rate with max concurrency, trace replay'
+    description: 'Multiple benchmarking modes: concurrency, request-rate, request-rate with max concurrency, trace
+      replay'
+    evidence:
+    - README.md#Features
+  - name: Extensible plugin system for endpoints, datasets, transports, and metrics
+    description: Extensible plugin system for endpoints, datasets, transports, and metrics
+    evidence:
+    - README.md#Features
+  - name: Public dataset support including ShareGPT and custom formats
+    description: Public dataset support including ShareGPT and custom formats
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - Python
+    - JavaScript
+    - HTML
+    - CSS
+    - Makefile
+    - Jupyter Notebook
+    - Dockerfile
+    - TypeScript
+    - Shell
+    - Go Template
+    frameworks_and_libraries: []
+    dependencies:
+    - '@preact/signals'
+    - '@preact/signals-core'
+    - aiofiles
+    - aiohttp
+    - aiosqlite
+    - chart.js
+    - cyclopts
+    - dash
+    - dash-bootstrap-components
+    - datasets
+    - fastapi
+    - ffmpeg-python
+    - filelock
+    - htm
+    - huggingface-hub
+    - jinja2
+    - jmespath
+    - kaleido
+    - kopf
+    - kubernetes_asyncio
+    - matplotlib
+    - msgspec
+    - numpy
+    - nvidia-ml-py
+    - optuna
+    - orjson
+    - packaging
+    - pandas
+    - pillow
+    - plotly
+    - preact
+    - prismjs
+    - prometheus-client
+    - prometheus_client
+    - protobuf
+    - psutil
+    - pyarrow
+    - pydantic
+    - pydantic-settings
+    - python-multipart
+    - pyzmq
+    - rich
+    - ruamel.yaml
+    - scipy
+    - seaborn
+    - sentencepiece
+    - setproctitle
+    - soundfile
+    - starlette-compress
+    - textual
+    - tiktoken
+    - tqdm
+    - transformers
+    - uvicorn
+    - uvloop
+    - zstandard
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/aiperf/__main__.py,
+    src/aiperf/api/static-v2/app.js, src/aiperf/cli.py, src/aiperf/dataset/agentic_code_gen/cli.py'
+  setup_and_usage:
+  - 'Quick Start: This quick start guide leverages Ollama via'
+  - 'Basic Usage: Create a virtual environment and install AIPerf:'
+  - 'Basic Usage: source venv/bin/activate'
+  - 'Basic Usage: > The optional crick dependency has no prebuilt wheel for some platforms,'
+  - 'Basic Usage: > including Linux **aarch64** (arm64), and falls back to an sdist that needs'
+  - 'Basic Usage: > a C compiler at install time. crick backs the non-default tdigest'
+  - 'Basic Usage: > list-metric backend, so a plain pip install aiperf does not pull it and'
+  - 'Basic Usage: > needs no toolchain. If you want that backend'
+  limitations:
+  - 'Known Issues: - Output sequence length constraints (--output-tokens-mean) cannot be guaranteed unless you pass
+    ignore_eos and/or min_tokens via --extra-inputs to an inference server that supports them.'
+  - 'Known Issues: - Very high concurrency settings (typically >15,000) may lead to port exhaustion on some systems.
+    Adjust system limits or reduce concurrency if connection failures occur.'
+  - 'Known Issues: - Startup errors caused by invalid configuration settings can cause AIPerf to hang indefinitely.
+    Terminate the process and check configuration settings.'
+  - 'Known Issues: - Copying selected text may not work reliably in the dashboard UI. Use the c key to copy all
+    logs.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ai-dynamo/aiperf/blob/main/README.md
+  path: README.md
+  blob_sha: 11491e478dc0d269a66cd8c8ad5540d677ce1e18
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: e09b4a0a52790ea4a5c59c2d461998cff477e2de
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: e7108c951268d94f2f88f59ff0fb3684f8152036
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 51e5436f8793eced97ac8d7e97fe32883988fb93
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 97d619cf0146415256a63e14a0ba1f134f66939d
+  retrieved: true
+- type: manifest
+  path: tests/aiperf_mock_amdsmi/pyproject.toml
+  blob_sha: e0ad62c55cf00f6316f6e010f1e393a28f3fc9cb
+  retrieved: true
+- type: manifest
+  path: tests/aiperf_mock_server/pyproject.toml
+  blob_sha: aaf26a270b05905b73ead170fccae6bc134e88db
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 38532011
+    JavaScript: 882344
+    HTML: 219223
+    CSS: 186592
+    Makefile: 26278
+    Jupyter Notebook: 23307
+    Dockerfile: 16783
+    TypeScript: 14992
+    Shell: 14570
+    Go Template: 5174
+- type: Git tree
+  status: captured
+  sha: d4e93a1dce75813098dcf2a97e61e30c918d1ba0
+  truncated: false
+- type: source_file
+  path: src/aiperf/__main__.py
+  blob_sha: a02a6d7ddc2dcf857ba7f605d07f05acb4545017
+  retrieved: true
+- type: source_file
+  path: src/aiperf/api/static-v2/app.js
+  blob_sha: 40dafd1f21bb234d2dc151c58517cc055ed96a0f
+  retrieved: true
+- type: source_file
+  path: src/aiperf/cli.py
+  blob_sha: 3b0932853746ca3425e81b58fe93269b006bceff
+  retrieved: true
+- type: source_file
+  path: src/aiperf/dataset/agentic_code_gen/cli.py
+  blob_sha: 6c8064140dc5b3fbf3e82531abb55620a8005ea6
+  retrieved: true

@@ -1,0 +1,158 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:16:57+00:00'
+evidence_fingerprint: 6b8a7e1fb0a7f20f7b7e89a21daf2ade10052e57b138a584ae8e1ea7cb9a7d09
+repository_metadata:
+  company: NVIDIA
+  account: nvidia-cosmos
+  full_name: nvidia-cosmos/cosmos-predict2
+  repository_id: 1000245335
+  url: https://github.com/nvidia-cosmos/cosmos-predict2
+  description: Cosmos-Predict2 is a collection of general-purpose world foundation models for Physical AI that can
+    be fine-tuned into customized world models for downstream applications.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2025-10-29T00:33:31Z'
+  stars: 793
+  readme_url: https://github.com/nvidia-cosmos/cosmos-predict2/blob/main/README.md
+  readme_path: README.md
+  readme_sha: be6c10f65fafcc5d7959751be1c561496c912351
+  manifest_paths:
+  - Dockerfile
+  - pyproject.toml
+  - examples/project/pyproject.toml
+  source_files_inspected:
+  - bin/entrypoint.sh
+  - bin/release.sh
+  - bin/uv_lock.sh
+  - bin/uv_lock_script.sh
+  repository_tree:
+    status: captured
+    sha: 591bca4b036a2d3368a3d46f45b34206dc2f2f8d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> 🚨 **Update Notice** > > The latest version of our Cosmos-Predict is now live! > > 👉 **Cosmos-Predict2.5**'
+  why_used: Cosmos-Predict2 is a collection of general-purpose world foundation models for Physical AI that can
+    be fine-tuned into customized world models for downstream applications.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Dockerfile
+    - Just
+    frameworks_and_libraries: []
+    dependencies:
+    - attrs
+    - better-profanity
+    - boto3
+    - cosmos-predict2
+    - decord
+    - diffusers
+    - einops
+    - ftfy
+    - fvcore
+    - h11
+    - huggingface-hub
+    - hydra-core
+    - imageio
+    - iopath
+    - ipdb
+    - loguru
+    - mediapy
+    - megatron-core
+    - modelscope
+    - nltk
+    - numpy
+    - nvidia-ml-py
+    - omegaconf
+    - opencv-python
+    - pandas
+    - peft
+    - pillow
+    - protobuf
+    - pycocotools
+    - pynvml
+    - pyyaml
+    - qwen-vl-utils
+    - retinaface-py
+    - safetensors
+    - scikit-image
+    - sentencepiece
+    - setuptools
+    - termcolor
+    - tqdm
+    - transformers
+    - triton
+    - webdataset
+    build_and_package_tools:
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: bin/entrypoint.sh,
+    bin/release.sh, bin/uv_lock.sh, bin/uv_lock_script.sh'
+  setup_and_usage:
+  - 'Getting Started: * NVIDIA GPUs with Ampere architecture (RTX 30 Series, A100) or newer'
+  - 'Getting Started: * NVIDIA driver compatible with CUDA 12.6'
+  - 'Getting Started: * glibc>=2.31 (e.g Ubuntu >=22.04)'
+  - 'Getting Started: We **HIGHLY** recommend using uv.'
+  - 'Getting Started: curl -LsSf https://astral.sh/uv/install.sh | sh'
+  - 'Getting Started: source $HOME/.local/bin/env'
+  - 'Getting Started: Cosmos-Predict2 can be installed with pip (requires python==3.10):'
+  - 'Getting Started: uv venv --python 3.10 --allow-existing'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/nvidia-cosmos/cosmos-predict2/blob/main/README.md
+  path: README.md
+  blob_sha: be6c10f65fafcc5d7959751be1c561496c912351
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 483d674e4788193c41f329010d40f3ca54778c24
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 377b01671d54fb849f8b78dace69dc50c0d242b6
+  retrieved: true
+- type: manifest
+  path: examples/project/pyproject.toml
+  blob_sha: 5c2a1e8815b4c0f77ec7a724e8abdd89da553216
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 1959027
+    Shell: 5205
+    Dockerfile: 2431
+    Just: 1291
+- type: Git tree
+  status: captured
+  sha: 591bca4b036a2d3368a3d46f45b34206dc2f2f8d
+  truncated: false
+- type: source_file
+  path: bin/entrypoint.sh
+  blob_sha: 07275cfef3f1b70c395b768b9ad24fcfcac93c79
+  retrieved: true
+- type: source_file
+  path: bin/release.sh
+  blob_sha: 417646d43e1a06a6b8eea2c0f3320a4180ea04e4
+  retrieved: true
+- type: source_file
+  path: bin/uv_lock.sh
+  blob_sha: 6d831ed229879a5ed42a649b5874efd79d5a6d04
+  retrieved: true
+- type: source_file
+  path: bin/uv_lock_script.sh
+  blob_sha: d967903bfa3d9a9d98ce957097a55970a35ee48c
+  retrieved: true

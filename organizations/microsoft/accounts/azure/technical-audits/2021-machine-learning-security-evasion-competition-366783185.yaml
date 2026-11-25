@@ -1,0 +1,110 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:07:49+00:00'
+evidence_fingerprint: 2000587b1b2a74928407048365ffff131a0f31efa2a68447dc250fbb97f405a8
+repository_metadata:
+  company: Microsoft
+  account: Azure
+  full_name: Azure/2021-machine-learning-security-evasion-competition
+  repository_id: 366783185
+  url: https://github.com/Azure/2021-machine-learning-security-evasion-competition
+  description: null
+  default_branch: main
+  license_spdx: MIT
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2021-08-16T17:33:46Z'
+  stars: 18
+  readme_url: https://github.com/Azure/2021-machine-learning-security-evasion-competition/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f85fae2460a58f2472457e6b137b6056fc854e3c
+  manifest_paths:
+  - defender/Dockerfile
+  - defender/requirements.txt
+  source_files_inspected:
+  - defender/defender/__main__.py
+  - defender/defender/apps.py
+  repository_tree:
+    status: captured
+    sha: ee3ee5e1e550a34563c4c61bfe42fddce987376c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '--- page_type: sample languages: description: "2021 Machine Learning Security Evasion Competition Sample
+    Code" urlFragment: "Azure/2021-machine-learning-security-evasion-competition" --- -->'
+  why_used: '--- page_type: sample languages: description: "2021 Machine Learning Security Evasion Competition Sample
+    Code" urlFragment: "Azure/2021-machine-learning-security-evasion-competition" --- -->'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - annoy
+    - envparse
+    - flask
+    - gevent
+    - numpy
+    - tqdm
+    build_and_package_tools:
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: defender/defender/__main__.py,
+    defender/__init__.py, defender/defender/__init__.py, defender/defender/apps.py'
+  setup_and_usage: []
+  limitations:
+  - '2021 Machine Learning Security Evasion Competition: Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master'
+  - '2021 Machine Learning Security Evasion Competition: Guidance on onboarding samples to docs.microsoft.com/samples:
+    https://review.docs.microsoft.com/help/onboard/admin/samples/process/onboarding?branch=master'
+  - '2021 Machine Learning Security Evasion Competition: Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master'
+  - '2021 Machine Learning Security Evasion Competition: This repository contains code samples for the 2021 Machine
+    Learning Security Evasion Competition. Participants must register at https://mlsec.io and accept the terms of
+    service in order to participate.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Azure/2021-machine-learning-security-evasion-competition/blob/main/README.md
+  path: README.md
+  blob_sha: f85fae2460a58f2472457e6b137b6056fc854e3c
+  retrieved: true
+- type: manifest
+  path: defender/Dockerfile
+  blob_sha: 98eb06fc7bb894370f25fc7649b06743570e352c
+  retrieved: true
+- type: manifest
+  path: defender/requirements.txt
+  blob_sha: 189aa1774c236e01005a91cad12b8e15e29c655f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 26170
+    Dockerfile: 2245
+- type: Git tree
+  status: captured
+  sha: ee3ee5e1e550a34563c4c61bfe42fddce987376c
+  truncated: false
+- type: source_file
+  path: defender/defender/__main__.py
+  blob_sha: 4a2b80bf3fc29d120a5b932523ef75501dc197a9
+  retrieved: true
+- type: source_file
+  path: defender/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: defender/defender/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: defender/defender/apps.py
+  blob_sha: d382bfa9b9c13af9913f1ef8a98e2c73af67cf85
+  retrieved: true

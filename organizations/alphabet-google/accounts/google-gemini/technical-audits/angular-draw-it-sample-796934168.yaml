@@ -1,0 +1,133 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:27:54+00:00'
+evidence_fingerprint: 4a0125c4159044d13609ec201d760fd2b6a8fecaff86b1c6be1a74a9e7c1c71c
+repository_metadata:
+  company: Alphabet (Google)
+  account: google-gemini
+  full_name: google-gemini/angular-draw-it-sample
+  repository_id: 796934168
+  url: https://github.com/google-gemini/angular-draw-it-sample
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2026-06-20T22:09:19Z'
+  stars: 12
+  readme_url: https://github.com/google-gemini/angular-draw-it-sample/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b8dfc15346c38eb8081e5e3ddd40ceada05ad7a7
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - server.ts
+  - src/app/app.component.ts
+  - src/app/app.config.server.ts
+  - src/app/app.config.ts
+  repository_tree:
+    status: captured
+    sha: a22d30642372278997e37cec96bf196e041d7b3d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Developer sample written in Angular demonstrating Gemini multimodal (image and audio) input and understanding.
+    The user enters a prompt and the app generates images via VertexAI’s image generation which the user can after
+    that preview in a three-dimensional gallery. The user has an input where they can ask a question about the images.
+    Using Web Audio’s Speech Synthesis API we read Gemini’s answer for the images.
+  why_used: Developer sample written in Angular demonstrating Gemini multimodal (image and audio) input and understanding.
+    The user enters a prompt and the app generates images via VertexAI’s image generation which the user can after
+    that preview in a three-dimensional gallery. The user has an input where they can ask a question about the images.
+    Using Web Audio’s Speech Synthesis API we read Gemini’s answer for the images.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - HTML
+    - CSS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@angular-devkit/build-angular'
+    - '@angular/animations'
+    - '@angular/cdk'
+    - '@angular/cli'
+    - '@angular/common'
+    - '@angular/compiler'
+    - '@angular/compiler-cli'
+    - '@angular/core'
+    - '@angular/forms'
+    - '@angular/material'
+    - '@angular/platform-browser'
+    - '@angular/platform-browser-dynamic'
+    - '@angular/platform-server'
+    - '@angular/router'
+    - '@angular/ssr'
+    - '@google/generative-ai'
+    - '@types/express'
+    - '@types/jasmine'
+    - '@types/node'
+    - express
+    - jasmine-core
+    - karma
+    - karma-chrome-launcher
+    - karma-coverage
+    - karma-jasmine
+    - karma-jasmine-html-reporter
+    - marked
+    - rxjs
+    - tslib
+    - typescript
+    - zone.js
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: server.ts, src/app/app.component.ts,
+    src/app/app.config.server.ts, src/app/app.config.ts'
+  setup_and_usage:
+  - 'Getting started: Compile and run the app:'
+  - 'Getting started: In the text box with placeholder "API key" enter your Gemini API key. You can find instructions
+    how to use the app under "Instructions" when you open the user interface.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google-gemini/angular-draw-it-sample/blob/main/README.md
+  path: README.md
+  blob_sha: b8dfc15346c38eb8081e5e3ddd40ceada05ad7a7
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: f6501e8190f5042996dd98bdd256e7102b27ca73
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 18216
+    HTML: 3188
+    CSS: 2836
+- type: Git tree
+  status: captured
+  sha: a22d30642372278997e37cec96bf196e041d7b3d
+  truncated: false
+- type: source_file
+  path: server.ts
+  blob_sha: 254eecf4e3dc5a20a2f08b3bbcc520e83e048084
+  retrieved: true
+- type: source_file
+  path: src/app/app.component.ts
+  blob_sha: bafa9404c708cebacd517d7943f4bac3c762fe06
+  retrieved: true
+- type: source_file
+  path: src/app/app.config.server.ts
+  blob_sha: 9b73426b5169ee3e4321e1f69df58c22a00ea317
+  retrieved: true
+- type: source_file
+  path: src/app/app.config.ts
+  blob_sha: b317e93972a80adcd6b47557dd4273d6c4e32b45
+  retrieved: true

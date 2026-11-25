@@ -1,0 +1,176 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:13:42+00:00'
+evidence_fingerprint: b59006fa89cfcdb890e1a1e282c8e83056d6b2fada949cfc1fbefd820dbf7e51
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/amazon-virtual-andon
+  repository_id: 219601798
+  url: https://github.com/aws-solutions/amazon-virtual-andon
+  description: 'Deploy a solution that provides a scalable Andon system to help optimize processes, support the
+    transition to predictive maintenance, and prevent issues. '
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-02-05T15:48:05Z'
+  stars: 15
+  readme_url: https://github.com/aws-solutions/amazon-virtual-andon/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7267f973668e56499b8af84be359a3fb58356ef0
+  manifest_paths:
+  - source/appsync-lambda-resolver/package.json
+  - source/ava-issue-handler/package.json
+  - source/cdk-infrastructure/package.json
+  - source/cognito-trigger/package.json
+  - source/console/package.json
+  - source/external-integrations-handler/package.json
+  source_files_inspected:
+  - source/appsync-lambda-resolver/index.ts
+  - source/ava-issue-handler/index.ts
+  - source/cognito-trigger/index.ts
+  - source/external-integrations-handler/index.ts
+  repository_tree:
+    status: captured
+    sha: b8e59435b4906ed691b06f7f47ebc6755dd2ed6e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Amazon Virtual Andon is a self-service, cloud based andon system that makes it easy for any business
+    to deploy andon in their factory. It is based on the same technology used by the Amazon Fulfillment centers
+    built on AWS.
+  why_used: Deploy a solution that provides a scalable Andon system to help optimize processes, support the transition
+    to predictive maintenance, and prevent issues.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Velocity Template Language
+    - JavaScript
+    - Python
+    - Shell
+    - SCSS
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-amplify/pubsub'
+    - '@aws-amplify/ui-react'
+    - '@aws-cdk/aws-glue-alpha'
+    - '@aws-cdk/aws-servicecatalogappregistry-alpha'
+    - '@aws-solutions-constructs/aws-cloudfront-s3'
+    - '@aws-solutions-constructs/aws-iot-lambda'
+    - '@types/jest'
+    - '@types/node'
+    - '@types/react'
+    - '@types/react-csv'
+    - '@types/react-dom'
+    - '@types/react-notification-system'
+    - '@types/react-router-bootstrap'
+    - '@types/react-router-dom'
+    - '@types/uuid'
+    - aws-amplify
+    - aws-appsync
+    - aws-cdk
+    - aws-cdk-lib
+    - aws-sdk
+    - axios
+    - bootstrap
+    - buffer
+    - cdk-nag
+    - constructs
+    - es6-promise
+    - graphql
+    - graphql-tag
+    - isomorphic-fetch
+    - jest
+    - moment
+    - react
+    - react-bootstrap
+    - react-cookie
+    - react-csv
+    - react-dom
+    - react-icons
+    - react-notification-system
+    - react-router-bootstrap
+    - react-router-dom
+    - react-scripts
+    - sass
+    - ts-jest
+    - ts-node
+    - typescript
+    - uuid
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/appsync-lambda-resolver/index.ts,
+    source/ava-issue-handler/index.ts, source/cognito-trigger/index.ts, source/external-integrations-handler/index.ts'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/amazon-virtual-andon/blob/main/README.md
+  path: README.md
+  blob_sha: 7267f973668e56499b8af84be359a3fb58356ef0
+  retrieved: true
+- type: manifest
+  path: source/appsync-lambda-resolver/package.json
+  blob_sha: b575484fdc5626a22c034795526088a2580fd35b
+  retrieved: true
+- type: manifest
+  path: source/ava-issue-handler/package.json
+  blob_sha: f10ad0bf0cf3493a35dbde33abd06cb971738a0e
+  retrieved: true
+- type: manifest
+  path: source/cdk-infrastructure/package.json
+  blob_sha: a1c4f510899f69a655c1496508d47bbf3d7c870f
+  retrieved: true
+- type: manifest
+  path: source/cognito-trigger/package.json
+  blob_sha: f18ee250f9a4a5ae4ce84af536f9c2c970810ba8
+  retrieved: true
+- type: manifest
+  path: source/console/package.json
+  blob_sha: c139a63219f6ac377644b4ad3a42fc405561b244
+  retrieved: true
+- type: manifest
+  path: source/external-integrations-handler/package.json
+  blob_sha: 0d4d0507f5f64f6d74f4a625d344bf0f476311a6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 792136
+    Velocity Template Language: 105080
+    JavaScript: 15941
+    Python: 11291
+    Shell: 6630
+    SCSS: 5435
+    HTML: 1247
+- type: Git tree
+  status: captured
+  sha: b8e59435b4906ed691b06f7f47ebc6755dd2ed6e
+  truncated: false
+- type: source_file
+  path: source/appsync-lambda-resolver/index.ts
+  blob_sha: 333df16611057a5fa776ca442e03b3bf0baac81a
+  retrieved: true
+- type: source_file
+  path: source/ava-issue-handler/index.ts
+  blob_sha: 009bd27d788c7419e8dea8d6a86e75b52b939706
+  retrieved: true
+- type: source_file
+  path: source/cognito-trigger/index.ts
+  blob_sha: 6a9373b1f7209fa068ca6221eb418b7c0ecb5fdb
+  retrieved: true
+- type: source_file
+  path: source/external-integrations-handler/index.ts
+  blob_sha: c0b648425da50ffb33de08e74129ff4370169bff
+  retrieved: true

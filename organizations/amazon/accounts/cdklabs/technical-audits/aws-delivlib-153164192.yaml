@@ -1,0 +1,170 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:05:58+00:00'
+evidence_fingerprint: e6f8575c80303111ea1d0cee71e9fc9b781b629c30149f6476d8a28b0bc57f06
+repository_metadata:
+  company: Amazon
+  account: cdklabs
+  full_name: cdklabs/aws-delivlib
+  repository_id: 153164192
+  url: https://github.com/cdklabs/aws-delivlib
+  description: setup and manage continuous delivery pipelines for code libraries in multiple languages
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T00:16:21Z'
+  stars: 377
+  readme_url: https://github.com/cdklabs/aws-delivlib/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4b3c3e5f8a7c8e1de25cb0cedccbec91b908e227
+  manifest_paths:
+  - package.json
+  - lib/custom-resource-handlers/Dockerfile
+  - lib/publishing/github/package.json
+  - lib/__tests__/registry-sync/docker-asset/Dockerfile
+  - lib/__tests__/package-integrity/handler/__fixtures__/non-projen-project/package.json
+  source_files_inspected:
+  - lib/change-control-lambda/index.ts
+  - lib/chime-notifier/index.ts
+  - lib/code-signing/index.ts
+  - lib/index.ts
+  repository_tree:
+    status: captured
+    sha: 62cac3c7defcd81071f69f47ce7aa739f4ccbae3
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**aws-delivlib** is a fabulous library for defining continuous pipelines for building, testing and publishing
+    code libraries through AWS CodeBuild and AWS CodePipeline.'
+  why_used: setup and manage continuous delivery pipelines for code libraries in multiple languages
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Shell
+    - JavaScript
+    - PowerShell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-sdk/client-cloudwatch'
+    - '@aws-sdk/client-codepipeline'
+    - '@aws-sdk/client-s3'
+    - '@aws-sdk/client-secrets-manager'
+    - '@aws-sdk/client-ssm'
+    - '@babel/plugin-transform-modules-commonjs'
+    - '@stylistic/eslint-plugin'
+    - '@types/adm-zip'
+    - '@types/aws-lambda'
+    - '@types/changelog-parser'
+    - '@types/follow-redirects'
+    - '@types/fs-extra'
+    - '@types/jest'
+    - '@types/node'
+    - '@types/tar'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - JSONStream
+    - adm-zip
+    - aws-cdk
+    - aws-cdk-lib
+    - cdklabs-projen-project-types
+    - changelog-parser
+    - commit-and-tag-version
+    - constructs
+    - esbuild
+    - eslint
+    - eslint-import-resolver-typescript
+    - eslint-plugin-import
+    - follow-redirects
+    - fs-extra
+    - jest
+    - jest-junit
+    - minipass
+    - node-ical
+    - octokit
+    - projen
+    - rrule
+    - standard-version
+    - tar
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/change-control-lambda/index.ts,
+    lib/chime-notifier/index.ts, lib/code-signing/index.ts, lib/index.ts'
+  setup_and_usage:
+  - 'Installation: To install, use npm / yarn:'
+  - 'Installation: $ yarn add aws-delivlib'
+  - 'Installation: and import the library to your project:'
+  - 'Installation: import delivlib = require(''aws-delivlib'');'
+  - 'Installation: The next step is to add a pipeline to your app. When you define a pipeline, the'
+  - 'Installation: minimum requirement is to specify the source repository. All other settings are'
+  - 'Installation: const pipeline = new delivlib.Pipeline(this, ''MyPipeline'', {'
+  - 'Installation: The following sections will describe the various options available in your'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cdklabs/aws-delivlib/blob/main/README.md
+  path: README.md
+  blob_sha: 4b3c3e5f8a7c8e1de25cb0cedccbec91b908e227
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 67b46ddabd5229f558c9b1c9d9b8efd4b014b218
+  retrieved: true
+- type: manifest
+  path: lib/custom-resource-handlers/Dockerfile
+  blob_sha: 6cfc491d15d4826e123932f5ac443e7bb259da98
+  retrieved: true
+- type: manifest
+  path: lib/publishing/github/package.json
+  blob_sha: 5082c3d3cbe534cf57ed3ed4911d1eab689c5657
+  retrieved: true
+- type: manifest
+  path: lib/__tests__/registry-sync/docker-asset/Dockerfile
+  blob_sha: bc63beba4a21ad527d0821d228c5192f73fe1183
+  retrieved: true
+- type: manifest
+  path: lib/__tests__/package-integrity/handler/__fixtures__/non-projen-project/package.json
+  blob_sha: 31e27e914285682ec3febdd4750073df50c59663
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 445396
+    Shell: 36804
+    JavaScript: 2727
+    PowerShell: 671
+    Dockerfile: 531
+- type: Git tree
+  status: captured
+  sha: 62cac3c7defcd81071f69f47ce7aa739f4ccbae3
+  truncated: false
+- type: source_file
+  path: lib/change-control-lambda/index.ts
+  blob_sha: cfcac614686ec15fa367a9216764a9e16273c3cd
+  retrieved: true
+- type: source_file
+  path: lib/chime-notifier/index.ts
+  blob_sha: 45e43ad426442d9c623862e3839ae324e36a3be5
+  retrieved: true
+- type: source_file
+  path: lib/code-signing/index.ts
+  blob_sha: c46405701b3e124a1658e351cb47728b327f0dcc
+  retrieved: true
+- type: source_file
+  path: lib/index.ts
+  blob_sha: d22e4c0f04466882e435a120c622aca5c3c18e55
+  retrieved: true

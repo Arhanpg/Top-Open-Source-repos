@@ -1,0 +1,157 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:21:30+00:00'
+evidence_fingerprint: 89a32d1fb6f01808280ea07d998b722190611394ce6f9ab91765b760fe2b3fa8
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/application-signals-demo
+  repository_id: 724845127
+  url: https://github.com/aws-observability/application-signals-demo
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-09-30T21:31:57Z'
+  stars: 50
+  readme_url: https://github.com/aws-observability/application-signals-demo/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e6f7089671ecd1cc1f2599c1068eef3485710e0a
+  manifest_paths:
+  - pom.xml
+  - docker/Dockerfile
+  - otel-collector/Dockerfile
+  - pet-nutrition-service/Dockerfile
+  - pet-nutrition-service/package.json
+  - pet_clinic_billing_service/Dockerfile
+  source_files_inspected:
+  - cdk/ecs/lib/app.ts
+  - lambda-petclinic/cdk/src/lambda-version-handler/index.js
+  - spring-petclinic-api-gateway/src/main/resources/static/scripts/app.js
+  - ai-validator/libs/main.py
+  repository_tree:
+    status: captured
+    sha: 17cbdee2a8afe2eda5877f7e359beb542368c5d0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a modified version of the spring-petclinic-microservices Spring Boot sample application. Our
+    modifications focus on showcasing the capabilities of Application Signals within a Spring Boot environment.
+    If your interest lies in exploring the broader aspects of the Spring Boot stack, we recommend visiting the original
+    repository at spring-petclinic-microservices.
+  why_used: This is a modified version of the spring-petclinic-microservices Spring Boot sample application. Our
+    modifications focus on showcasing the capabilities of Application Signals within a Spring Boot environment.
+    If your interest lies in exploring the broader aspects of the Spring Boot stack, we recommend visiting the original
+    repository at spring-petclinic-microservices.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Java
+    - Python
+    - Shell
+    - JavaScript
+    - HTML
+    - HCL
+    - C#
+    - Less
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - assertj-core
+    - axios
+    - axios-retry
+    - chaos-monkey-spring-boot
+    - docker-maven-plugin
+    - dotenv
+    - express
+    - git-commit-id-plugin
+    - ip
+    - mongoose
+    - pino
+    - pino-http
+    - spring-boot-maven-plugin
+    - spring-boot-starter-parent
+    - spring-cloud-dependencies
+    - spring-petclinic-microservices
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cdk/ecs/lib/app.ts,
+    lambda-petclinic/cdk/src/lambda-version-handler/index.js, spring-petclinic-api-gateway/src/main/resources/static/scripts/app.js,
+    ai-validator/libs/main.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/application-signals-demo/blob/main/README.md
+  path: README.md
+  blob_sha: e6f7089671ecd1cc1f2599c1068eef3485710e0a
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: fc450171ed75e7c16f9bae5805877930f9625248
+  retrieved: true
+- type: manifest
+  path: docker/Dockerfile
+  blob_sha: f54908c355da265213e3b72df158d12241154e98
+  retrieved: true
+- type: manifest
+  path: otel-collector/Dockerfile
+  blob_sha: a9356c6d454eff3e399f322248a81694e2088da9
+  retrieved: true
+- type: manifest
+  path: pet-nutrition-service/Dockerfile
+  blob_sha: 85e3728456c3e680dbb48c65de60d30326744dcc
+  retrieved: true
+- type: manifest
+  path: pet-nutrition-service/package.json
+  blob_sha: 8b27dfcb41ae39f5d5f03c73811f6c55fc443aaf
+  retrieved: true
+- type: manifest
+  path: pet_clinic_billing_service/Dockerfile
+  blob_sha: 982b3dc8d5ed11cad556cd2a6b778a0e1c0d29ac
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 192855
+    Java: 174174
+    Python: 168134
+    Shell: 152510
+    JavaScript: 103660
+    HTML: 19110
+    HCL: 18179
+    C#: 13413
+    Less: 9228
+    Dockerfile: 7075
+- type: Git tree
+  status: captured
+  sha: 17cbdee2a8afe2eda5877f7e359beb542368c5d0
+  truncated: false
+- type: source_file
+  path: cdk/ecs/lib/app.ts
+  blob_sha: e450f31deb6a3c9216b736434f622d35a29facad
+  retrieved: true
+- type: source_file
+  path: lambda-petclinic/cdk/src/lambda-version-handler/index.js
+  blob_sha: d5a65eb021e9837cae30034b2ff98a1aed7fc2e2
+  retrieved: true
+- type: source_file
+  path: spring-petclinic-api-gateway/src/main/resources/static/scripts/app.js
+  blob_sha: 1b64d0fc8f7196e7ab156ad1054e04a5a767edf7
+  retrieved: true
+- type: source_file
+  path: ai-validator/libs/main.py
+  blob_sha: 35e626f7a46900b909802de4d282d596c5040297
+  retrieved: true

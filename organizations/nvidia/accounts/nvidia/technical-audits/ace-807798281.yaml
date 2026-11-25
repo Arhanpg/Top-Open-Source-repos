@@ -1,0 +1,146 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:08:30+00:00'
+evidence_fingerprint: cba2bf3c91c28bdc91f2a709cabf7badafc405810d02241f86bb7c3517688114
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/ACE
+  repository_id: 807798281
+  url: https://github.com/NVIDIA/ACE
+  description: NVIDIA ACE samples, workflows, and resources
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-06-26T09:26:08Z'
+  stars: 333
+  readme_url: https://github.com/NVIDIA/ACE/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 10f0b4f6037baaa128673904618c8aeb6c148b56
+  manifest_paths:
+  - microservices/audio_2_face_microservice/1.0/proto/requirements.txt
+  - microservices/audio_2_face_microservice/1.0/proto/setup.py
+  - microservices/audio_2_face_microservice/1.2/proto/requirements.txt
+  - microservices/audio_2_face_microservice/1.2/proto/setup.py
+  - workflows/tokkio/5.0.0-ga/local-dev-workflow/pyproject.toml
+  - microservices/ace_agent/4.0/clients/chat_client/requirements.txt
+  source_files_inspected:
+  - microservices/ace_agent/4.1/webui/server/emoji-finder/index.ts
+  - microservices/ace_agent/4.1/webui/server/index.ts
+  - microservices/ace_agent/4.1/webui/client/src/components/App/index.tsx
+  - microservices/ace_agent/4.1/webui/client/src/components/AppHeader/index.tsx
+  repository_tree:
+    status: captured
+    sha: 38943bfc907fea5ab77e574d0116d5cad1606003
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: NVIDIA ACE --------
+  why_used: NVIDIA ACE samples, workflows, and resources
+  core_features: []
+  technology_stack:
+    languages:
+    - HCL
+    - Shell
+    - Python
+    - TypeScript
+    - Jupyter Notebook
+    - JavaScript
+    - CSS
+    - Smarty
+    - Dockerfile
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - PyYAML
+    - aiohttp
+    - asyncio
+    - googleapis-common-protos
+    - grpclib
+    - httpx
+    - kubernetes
+    - loguru
+    - protobuf
+    - protobuf-gen
+    - redis
+    - websockets
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: microservices/ace_agent/4.1/webui/server/emoji-finder/index.ts,
+    microservices/ace_agent/4.1/webui/server/index.ts, microservices/ace_agent/4.1/webui/client/src/components/App/index.tsx,
+    microservices/ace_agent/4.1/webui/client/src/components/AppHeader/index.tsx'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/ACE/blob/main/README.md
+  path: README.md
+  blob_sha: 10f0b4f6037baaa128673904618c8aeb6c148b56
+  retrieved: true
+- type: manifest
+  path: microservices/audio_2_face_microservice/1.0/proto/requirements.txt
+  blob_sha: 5d2a22ca2ebc1b7a1ec2b581f60f1b9aeeb0e85a
+  retrieved: true
+- type: manifest
+  path: microservices/audio_2_face_microservice/1.0/proto/setup.py
+  blob_sha: 4b3ae2971708961c6465a385261a374286eca619
+  retrieved: true
+- type: manifest
+  path: microservices/audio_2_face_microservice/1.2/proto/requirements.txt
+  blob_sha: 5d2a22ca2ebc1b7a1ec2b581f60f1b9aeeb0e85a
+  retrieved: true
+- type: manifest
+  path: microservices/audio_2_face_microservice/1.2/proto/setup.py
+  blob_sha: 4b3ae2971708961c6465a385261a374286eca619
+  retrieved: true
+- type: manifest
+  path: workflows/tokkio/5.0.0-ga/local-dev-workflow/pyproject.toml
+  blob_sha: 80dbc001b52ab465124e5edac7547e9b57201234
+  retrieved: true
+- type: manifest
+  path: microservices/ace_agent/4.0/clients/chat_client/requirements.txt
+  blob_sha: f7b472f43b4babdbc00714b24d735733427e85c4
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    HCL: 1119850
+    Shell: 952698
+    Python: 544079
+    TypeScript: 186787
+    Jupyter Notebook: 80021
+    JavaScript: 36684
+    CSS: 17782
+    Smarty: 15762
+    Dockerfile: 4392
+    HTML: 343
+- type: Git tree
+  status: captured
+  sha: 38943bfc907fea5ab77e574d0116d5cad1606003
+  truncated: false
+- type: source_file
+  path: microservices/ace_agent/4.1/webui/server/emoji-finder/index.ts
+  blob_sha: 4c0cb99ccfc5058cd720863fad100189ba52e464
+  retrieved: true
+- type: source_file
+  path: microservices/ace_agent/4.1/webui/server/index.ts
+  blob_sha: 773b2be75198404ad6458fd42e66ba94ee3da0a8
+  retrieved: true
+- type: source_file
+  path: microservices/ace_agent/4.1/webui/client/src/components/App/index.tsx
+  blob_sha: 2e49f65a9848186980ae592d44c4cb45acf31253
+  retrieved: true
+- type: source_file
+  path: microservices/ace_agent/4.1/webui/client/src/components/AppHeader/index.tsx
+  blob_sha: aaea457b487db7eca3ac49a5ff2e7a9599343bcd
+  retrieved: true

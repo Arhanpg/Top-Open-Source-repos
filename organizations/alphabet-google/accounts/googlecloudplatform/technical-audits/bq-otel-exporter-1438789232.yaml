@@ -1,7 +1,7 @@
 schema_version: '1.0'
 audit_status: evidence_only
-generated_at: '2026-11-25T03:52:59+00:00'
-evidence_fingerprint: e3780cd8e2d3f4e903a4bef187ae917bd01a693f182f74e74c6e446bb3794300
+generated_at: '2026-11-25T08:03:01+00:00'
+evidence_fingerprint: 5d7e8458d23b17d91db79ee05b40f4e72dbd10083b8bf84d3981e22536d48d5f
 repository_metadata:
   company: Alphabet (Google)
   account: GoogleCloudPlatform
@@ -40,7 +40,13 @@ analysis:
     and metrics at scale via the Storage Write API.
   core_features: []
   technology_stack:
-    languages: []
+    languages:
+    - Go
+    - HCL
+    - Shell
+    - Python
+    - Makefile
+    - Dockerfile
     frameworks_and_libraries: []
     dependencies:
     - cloud.google.com/go
@@ -202,7 +208,13 @@ evidence_sources:
   blob_sha: 55914bdad42d9321c0f0a448e0a395592d520745
   retrieved: true
 - type: GitHub Languages API
-  values: {}
+  values:
+    Go: 8486749
+    HCL: 209561
+    Shell: 132164
+    Python: 14917
+    Makefile: 8162
+    Dockerfile: 1884
 - type: Git tree
   status: captured
   sha: 8745abefc2e36df0f85249d90db77686e5a3fcc9

@@ -1,0 +1,106 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:03:32+00:00'
+evidence_fingerprint: f3dbeab264c86b81a947c1c0e91d66bd97ab821e69c194ea9bb39af5a502db52
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/ATOD
+  repository_id: 1376041039
+  url: https://github.com/amazon-science/ATOD
+  description: null
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T21:02:52Z'
+  stars: 0
+  readme_url: https://github.com/amazon-science/ATOD/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 6dc7b87551dfbf541a2fd90fd8a78a985f88db4f
+  manifest_paths:
+  - pyproject.toml
+  - requirements.txt
+  source_files_inspected:
+  - ATODEval/__init__.py
+  - ATODEval/dependency.py
+  - ATODEval/dgcr.py
+  - ATODEval/dialogue_level_quality.py
+  repository_tree:
+    status: captured
+    sha: 61a718fe7d80057bd8115c1f26bf5ac02cbea318
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'ATOD is a benchmark and evaluation framework for agentic task-oriented dialogue systems. It accompanies
+    the AACL 2026 paper:'
+  why_used: 'ATOD is a benchmark and evaluation framework for agentic task-oriented dialogue systems. It accompanies
+    the AACL 2026 paper:'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - boto3
+    - botocore
+    - faiss-cpu
+    - numpy
+    - sentence-transformers
+    - torch
+    - tqdm
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: ATODEval/__init__.py,
+    ATODEval/dependency.py, ATODEval/dgcr.py, ATODEval/dialogue_level_quality.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/ATOD/blob/main/README.md
+  path: README.md
+  blob_sha: 6dc7b87551dfbf541a2fd90fd8a78a985f88db4f
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: dbe88bfe14acbf689b1c715a47e53ecf27c98ddb
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 33159227b5278e0bd9066841307dd4d0b45be48e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 285092
+    Shell: 2495
+- type: Git tree
+  status: captured
+  sha: 61a718fe7d80057bd8115c1f26bf5ac02cbea318
+  truncated: false
+- type: source_file
+  path: ATODEval/__init__.py
+  blob_sha: ff33bd974157e21146be168d964ed511c1b2684d
+  retrieved: true
+- type: source_file
+  path: ATODEval/dependency.py
+  blob_sha: d0f7729dc8056930196c8f574b564a45399c9ecb
+  retrieved: true
+- type: source_file
+  path: ATODEval/dgcr.py
+  blob_sha: da3628331f0a97ce70529e7d9d4b639c54a22a46
+  retrieved: true
+- type: source_file
+  path: ATODEval/dialogue_level_quality.py
+  blob_sha: 33fc0dad256ac8fe625f60952ba64fc069131efc
+  retrieved: true

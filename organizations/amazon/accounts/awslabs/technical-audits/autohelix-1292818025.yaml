@@ -1,0 +1,147 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:13:58+00:00'
+evidence_fingerprint: 350d38e459286e33d18b567b03e0f5cf5f2889377cc2274ac6fbd691bc958ad1
+repository_metadata:
+  company: Amazon
+  account: awslabs
+  full_name: awslabs/AutoHelix
+  repository_id: 1292818025
+  url: https://github.com/awslabs/AutoHelix
+  description: 'Agent-powered iterative optimization: put an AI agent in a verified improvement loop.'
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T18:12:42Z'
+  stars: 35
+  readme_url: https://github.com/awslabs/AutoHelix/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 9fab0345220077a8b7de727e91cb0818451ac4c6
+  manifest_paths:
+  - pyproject.toml
+  - docker/Dockerfile
+  - examples/algotune/setup.py
+  - examples/autoresearch/setup.py
+  - examples/kernelbench/setup.py
+  - examples/algotune/smoke/cython/setup.py
+  source_files_inspected:
+  - src/autohelix/cli.py
+  - src/autohelix/__init__.py
+  - src/autohelix/agents/__init__.py
+  - src/autohelix/agents/claudecode.py
+  repository_tree:
+    status: captured
+    sha: 56c7bc3787339ee6b0f9f78747d07702e4ecc6ae
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: One file sets the goal, the checks and what to observe. The agent iterates until your budget runs out
+    or the goal is met. Track its progress through metrics, diffs and notes.
+  why_used: 'Agent-powered iterative optimization: put an AI agent in a verified improvement loop.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - JavaScript
+    - CSS
+    - Shell
+    - HTML
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - click
+    - jinja2
+    - markdown-it-py
+    - pyyaml
+    - rich
+    build_and_package_tools:
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/autohelix/cli.py,
+    src/autohelix/__init__.py, src/autohelix/agents/__init__.py, src/autohelix/agents/claudecode.py'
+  setup_and_usage:
+  - 'Quickstart: In your project (a git repository), with its environment active and Claude Code, Codex or'
+  - 'Quickstart: pip install git+https://github.com/awslabs/AutoHelix.git'
+  - 'Quickstart: An agent session opens and helps you turn your goal into a protocol: it looks at your'
+  - 'Quickstart: project, proposes the checks and what to measure, and saves the file once you agree.'
+  - 'Quickstart: **2. Run.** The setup agent ends by suggesting a command and budget, for example:'
+  - 'Quickstart: autohelix run -n 3 # three iterations (or --cost 20, --time 2h)'
+  - 'Quickstart: Each iteration prints a row with its time, cost and metrics. Accepted changes land on your'
+  - 'Quickstart: branch when the run ends. With --land manual they wait until you run autohelix land,'
+  limitations:
+  - 'Limitations: - **Your checks are the verdict.** The agent optimizes what you measure, and the more'
+  - 'Limitations: iterations you run, the harder it pushes on loopholes in your checks (reward hacking).'
+  - 'Limitations: AutoHelix makes gaming visible through diffs, notes, reviews and the report, and an'
+  - 'Limitations: ask: gate or a reviewer can look for it, but it can''t make weak checks strong.'
+  - 'Limitations: - **Copies are not a sandbox.** Each iteration''s private copy protects your code from bad'
+  - 'Limitations: attempts, not your machine from the agent, which runs with your permissions. Use the'
+  - 'Limitations: Docker mode on machines with anything sensitive on them.'
+  - 'Limitations: - **Agents are stochastic.** Even if the protocol stays the same, each run is a new sample,'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/awslabs/AutoHelix/blob/main/README.md
+  path: README.md
+  blob_sha: 9fab0345220077a8b7de727e91cb0818451ac4c6
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 98f1e4d4b8cd366974ebecc28bc4fb9c577d9363
+  retrieved: true
+- type: manifest
+  path: docker/Dockerfile
+  blob_sha: 1feb642a5819d770f838cd44008d8ba69892946b
+  retrieved: true
+- type: manifest
+  path: examples/algotune/setup.py
+  blob_sha: 935848ff8b423488cad9c55fe569945dde104f94
+  retrieved: true
+- type: manifest
+  path: examples/autoresearch/setup.py
+  blob_sha: f42bede2fb89077a339843613294bde9609dc26c
+  retrieved: true
+- type: manifest
+  path: examples/kernelbench/setup.py
+  blob_sha: 024cf82e76cb954ce79353f7e075ab2b8080ae2c
+  retrieved: true
+- type: manifest
+  path: examples/algotune/smoke/cython/setup.py
+  blob_sha: f37d5a6588c43fa3ea2e07b949b943b635b62049
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 1996496
+    JavaScript: 69952
+    CSS: 14093
+    Shell: 5735
+    HTML: 4476
+    Dockerfile: 1155
+- type: Git tree
+  status: captured
+  sha: 56c7bc3787339ee6b0f9f78747d07702e4ecc6ae
+  truncated: false
+- type: source_file
+  path: src/autohelix/cli.py
+  blob_sha: 58d68b95cceeb3d886a119c3c1ec90daa42b49ae
+  retrieved: true
+- type: source_file
+  path: src/autohelix/__init__.py
+  blob_sha: 94c40dd14949ef763206801e7ba8a2e2156a7772
+  retrieved: true
+- type: source_file
+  path: src/autohelix/agents/__init__.py
+  blob_sha: 46ae657e433edbf5d84b3aa0a31f3b5afafddd39
+  retrieved: true
+- type: source_file
+  path: src/autohelix/agents/claudecode.py
+  blob_sha: b217f6bd5193e8d3256f45d8843ad4e365c29845
+  retrieved: true

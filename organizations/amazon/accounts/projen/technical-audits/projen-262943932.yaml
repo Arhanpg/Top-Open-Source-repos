@@ -1,0 +1,230 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:15:10+00:00'
+evidence_fingerprint: dc5cd14b6da05e34cc6be58245af6dc7b04a94308983865add934a4dd9c3564e
+repository_metadata:
+  company: Amazon
+  account: projen
+  full_name: projen/projen
+  repository_id: 262943932
+  url: https://github.com/projen/projen
+  description: Rapidly build modern applications with advanced configuration management
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T13:17:29Z'
+  stars: 2963
+  readme_url: https://github.com/projen/projen/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 321a8b796bec72f5d7001a30521f4a6d1816a94b
+  manifest_paths:
+  - package.json
+  - docusaurus/package.json
+  source_files_inspected:
+  - docusaurus/src/pages/index.js
+  - docusaurus/src/theme/DocItem/Metadata/index.js
+  - docusaurus/src/theme/PaginatorNavLink/index.js
+  - src/awscdk/index.ts
+  repository_tree:
+    status: captured
+    sha: 1ece544ec359057133d67dd2468a966c63797c88
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Define and maintain complex project configuration through code.
+  why_used: Rapidly build modern applications with advanced configuration management
+  core_features:
+  - name: Fully synthesize package.json
+    description: Fully synthesize package.json
+    evidence:
+    - README.md#Features
+  - name: Standard npm scripts like compile, build, test, package
+    description: Standard npm scripts like compile, build, test, package
+    evidence:
+    - README.md#Features
+  - name: 'jsii: compile, package, api compatibility checks, API.md'
+    description: 'jsii: compile, package, api compatibility checks, API.md'
+    evidence:
+    - README.md#Features
+  - name: Bump & release scripts with CHANGELOG generation based on conventional commits
+    description: Bump & release scripts with CHANGELOG generation based on conventional commits
+    evidence:
+    - README.md#Features
+  - name: Automated PR builds
+    description: Automated PR builds
+    evidence:
+    - README.md#Features
+  - name: Automated releases to npm, maven, NuGet and PyPI
+    description: Automated releases to npm, maven, NuGet and PyPI
+    evidence:
+    - README.md#Features
+  - name: Automated dependency upgrades
+    description: Automated dependency upgrades
+    evidence:
+    - README.md#Features
+  - name: Mergify configuration
+    description: Mergify configuration
+    evidence:
+    - README.md#Features
+  - name: LICENSE file generation
+    description: LICENSE file generation
+    evidence:
+    - README.md#Features
+  - name: gitignore + npmignore management
+    description: gitignore + npmignore management
+    evidence:
+    - README.md#Features
+  - name: Node "engines" support with coupling to CI build environment and @types/node
+    description: Node "engines" support with coupling to CI build environment and @types/node
+    evidence:
+    - README.md#Features
+  - name: 'Anti-tamper: CI builds will fail if a synthesized file is modified manually'
+    description: 'Anti-tamper: CI builds will fail if a synthesized file is modified manually'
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    - Shell
+    - CSS
+    - HTML
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@biomejs/biome'
+    - '@docusaurus/core'
+    - '@docusaurus/faster'
+    - '@docusaurus/module-type-aliases'
+    - '@docusaurus/preset-classic'
+    - '@docusaurus/tsconfig'
+    - '@docusaurus/types'
+    - '@easyops-cn/docusaurus-search-local'
+    - '@iarna/toml'
+    - '@jsii/check-node'
+    - '@mdx-js/react'
+    - '@tsconfig/docusaurus'
+    - '@types/conventional-changelog-config-spec'
+    - '@types/ini'
+    - '@types/jest'
+    - '@types/node'
+    - '@types/parse-conflict-json'
+    - '@types/semver'
+    - '@types/yargs'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - aws-cdk-lib
+    - case
+    - chalk
+    - clsx
+    - comment-json
+    - commit-and-tag-version
+    - constructs
+    - conventional-changelog-config-spec
+    - dax
+    - esbuild
+    - eslint
+    - eslint-config-prettier
+    - eslint-import-resolver-typescript
+    - eslint-plugin-import
+    - eslint-plugin-prettier
+    - fast-glob
+    - fast-json-patch
+    - ini
+    - jest
+    - jest-junit
+    - jsii
+    - jsii-diff
+    - jsii-docgen
+    - jsii-pacmak
+    - jsii-rosetta
+    - json2jsii
+    - license-checker-rseidelsohn
+    - markmac
+    - parse-conflict-json
+    - prettier
+    - prism-react-renderer
+    - properties-file
+    - react
+    - react-dom
+    - remark-emoji
+    - semver
+    - tailwindcss
+    - ts-jest
+    - tsx
+    - typescript
+    - xmlbuilder2
+    - yaml
+    - yargs
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: docusaurus/src/pages/index.js,
+    docusaurus/src/theme/DocItem/Metadata/index.js, docusaurus/src/theme/PaginatorNavLink/index.js, src/awscdk/index.ts'
+  setup_and_usage:
+  - 'Getting Started: *projen* doesn''t need to be installed. You will be using pnpm dlx to run *projen* which takes
+    care of all required setup steps. (npx works too, but pnpm dlx avoids the supply-chain risk of phantom dependency
+    resolution in npm.)'
+  - 'Getting Started: To create a new project, run the following command and follow the instructions:'
+  - 'Getting Started: $ pnpm dlx projen new PROJECT-TYPE'
+  - 'Getting Started: 🤖 Synthesizing project...'
+  limitations:
+  - 'Security: projen follows a shared responsibility model: projen is'
+  - 'Security: responsible for generating secure default configuration through its built-in'
+  - 'Security: project types; you are responsible for the code you write in your projenrc'
+  - 'Security: file, the third-party project types and components you use, and the environment'
+  - 'Security: projen is designed to run in a **trusted environment** with **trusted inputs**.'
+  - 'Security: Your projenrc file is a program executed with your user''s permissions, and'
+  - 'Security: projen tasks execute shell commands defined in .projen/tasks.json. This file'
+  - 'Security: is *prescriptive* by design: the projen CLI executes what it contains, so'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/projen/projen/blob/main/README.md
+  path: README.md
+  blob_sha: 321a8b796bec72f5d7001a30521f4a6d1816a94b
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 5d0087eec12a4b982fb6c6b8b068f2a27eb66cf9
+  retrieved: true
+- type: manifest
+  path: docusaurus/package.json
+  blob_sha: 5c0f3d05f70dda3fb9afca3d90074891c1472e27
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 2929484
+    JavaScript: 35730
+    Shell: 14302
+    CSS: 1727
+    HTML: 1721
+    Batchfile: 1672
+- type: Git tree
+  status: captured
+  sha: 1ece544ec359057133d67dd2468a966c63797c88
+  truncated: false
+- type: source_file
+  path: docusaurus/src/pages/index.js
+  blob_sha: 02592f40a16b67a5a47af85929a72d6b01575f6b
+  retrieved: true
+- type: source_file
+  path: docusaurus/src/theme/DocItem/Metadata/index.js
+  blob_sha: 9b3d9552e6b446fbf0d3e298c5caf49b4ff5d988
+  retrieved: true
+- type: source_file
+  path: docusaurus/src/theme/PaginatorNavLink/index.js
+  blob_sha: 67c4c675da7a72760ea167167ebdaba204ebc503
+  retrieved: true
+- type: source_file
+  path: src/awscdk/index.ts
+  blob_sha: cfdd861e2f18214d21d83bcca34350ea1f382464
+  retrieved: true

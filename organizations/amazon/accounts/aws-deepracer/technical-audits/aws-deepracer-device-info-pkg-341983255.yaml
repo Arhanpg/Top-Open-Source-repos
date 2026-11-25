@@ -1,0 +1,100 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:12:53+00:00'
+evidence_fingerprint: 77944383c3db2c0ace7a21f8fc338128479f14c641767f0d8c2332294ad2583a
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/aws-deepracer-device-info-pkg
+  repository_id: 341983255
+  url: https://github.com/aws-deepracer/aws-deepracer-device-info-pkg
+  description: The DeepRacer Device Info ROS package creates the device_info_node that is responsible for providing
+    the hardware version of the AWS DeepRacer device and software version of aws-deepracer-core debian package.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2021-06-12T23:24:22Z'
+  stars: 1
+  readme_url: https://github.com/aws-deepracer/aws-deepracer-device-info-pkg/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b2ec2ab503e6a682e04312a90be534c6b5aa8dee
+  manifest_paths:
+  - device_info_pkg/setup.py
+  source_files_inspected:
+  - device_info_pkg/device_info_pkg/__init__.py
+  - device_info_pkg/device_info_pkg/constants.py
+  - device_info_pkg/device_info_pkg/device_info_node.py
+  - device_info_pkg/device_info_pkg/gpio_module.py
+  repository_tree:
+    status: captured
+    sha: 358b4fb450c6864ea3454870a737530cfc9baeff
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The AWS DeepRacer device info ROS package creates the device_info_node, which is part of the core AWS
+    DeepRacer application and launches from the deepracer_launcher. For more details about the application and the
+    components, see the aws-deepracer-launcher repository.
+  why_used: The DeepRacer Device Info ROS package creates the device_info_node that is responsible for providing
+    the hardware version of the AWS DeepRacer device and software version of aws-deepracer-core debian package.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: device_info_pkg/device_info_pkg/__init__.py,
+    device_info_pkg/device_info_pkg/constants.py, device_info_pkg/device_info_pkg/device_info_node.py, device_info_pkg/device_info_pkg/gpio_module.py'
+  setup_and_usage:
+  - 'Installation: The AWS DeepRacer device comes with all the prerequisite packages and libraries installed to
+    run the device_info_pkg. For more information about the preinstalled set of packages and libraries on the AWS
+    DeepRacer, and about installing the required build systems, see Getting started with AWS DeepRacer OpenSource.'
+  - 'Installation: The device_info_pkg specifically depends on the following ROS 2 packages as build and run dependencies:'
+  - 'Installation: 1. deepracer_interfaces_pkg: This package contains the custom message and service type definitions
+    used across the AWS DeepRacer core application.'
+  - 'Usage: Although the device_info_node is built to work with the AWS DeepRacer application, you can run it independently
+    for development, testing, and debugging purposes.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/aws-deepracer-device-info-pkg/blob/main/README.md
+  path: README.md
+  blob_sha: b2ec2ab503e6a682e04312a90be534c6b5aa8dee
+  retrieved: true
+- type: manifest
+  path: device_info_pkg/setup.py
+  blob_sha: a142c95717f57ebde1935f69174f5e822889645d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 23735
+- type: Git tree
+  status: captured
+  sha: 358b4fb450c6864ea3454870a737530cfc9baeff
+  truncated: false
+- type: source_file
+  path: device_info_pkg/device_info_pkg/__init__.py
+  blob_sha: 83a73bbc05b4236628deb8041723bd42d99b58ca
+  retrieved: true
+- type: source_file
+  path: device_info_pkg/device_info_pkg/constants.py
+  blob_sha: 2b10f3445b600821a59ab08e83f5ecbcb3cf6554
+  retrieved: true
+- type: source_file
+  path: device_info_pkg/device_info_pkg/device_info_node.py
+  blob_sha: 36dda05a05c32eb382032a93d324cf846573b42d
+  retrieved: true
+- type: source_file
+  path: device_info_pkg/device_info_pkg/gpio_module.py
+  blob_sha: 4a900c3da6f0a14c4b3a08bba19942a234faa3d8
+  retrieved: true

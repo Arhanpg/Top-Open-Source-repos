@@ -1,0 +1,188 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:18:09+00:00'
+evidence_fingerprint: c3b7b74f48d4452ac20b51aa6b88ccb890b0a6b675533458a72a0384c2717838
+repository_metadata:
+  company: SAP
+  account: SAP
+  full_name: SAP/STARS
+  repository_id: 895962779
+  url: https://github.com/SAP/STARS
+  description: AI agent whose purpose is to conduct vulnerability tests on LLMs from SAP AI Core or from local deployments,
+    or models from HuggingFace. The goal of this project is to identify and correct any potential security vulnerabilities.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-08-23T20:15:20Z'
+  stars: 46
+  readme_url: https://github.com/SAP/STARS/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5a8b58a9d020f41d4007238752c8b34dd8179f48
+  manifest_paths:
+  - backend-agent/Dockerfile
+  - backend-agent/pyproject.toml
+  - frontend/Dockerfile
+  - frontend/package.json
+  source_files_inspected:
+  - backend-agent/cli.py
+  - backend-agent/main.py
+  - backend-agent/app/__init__.py
+  - backend-agent/app/db/models.py
+  repository_tree:
+    status: captured
+    sha: 499c7ce8df114627d9594f91c0333b532e8cc684
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: STARS is a AI agent whose purpose is to conduct vulnerability tests on LLMs from SAP AI Core or from
+    local deployments, or models from HuggingFace. The goal of this project is to identify and correct any potential
+    security vulnerabilities. This can be done using a AI-Agent accessible via a chat frontend or using the CLI.
+  why_used: AI agent whose purpose is to conduct vulnerability tests on LLMs from SAP AI Core or from local deployments,
+    or models from HuggingFace. The goal of this project is to identify and correct any potential security vulnerabilities.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - TypeScript
+    - HTML
+    - CSS
+    - Dockerfile
+    - JavaScript
+    - SCSS
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - '@angular-devkit/build-angular'
+    - '@angular-eslint/builder'
+    - '@angular-eslint/eslint-plugin'
+    - '@angular-eslint/eslint-plugin-template'
+    - '@angular-eslint/schematics'
+    - '@angular-eslint/template-parser'
+    - '@angular/animations'
+    - '@angular/cdk'
+    - '@angular/cli'
+    - '@angular/common'
+    - '@angular/compiler'
+    - '@angular/compiler-cli'
+    - '@angular/core'
+    - '@angular/forms'
+    - '@angular/material'
+    - '@angular/platform-browser'
+    - '@angular/platform-browser-dynamic'
+    - '@angular/router'
+    - '@humanfs/core'
+    - '@types/jasmine'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - Flask
+    - Flask-Cors
+    - Flask-SQLAlchemy
+    - PyYAML
+    - apexcharts
+    - art
+    - codeattack
+    - eslint
+    - eslint-formatter-rdjson
+    - faiss-cpu
+    - flask_sock
+    - garak
+    - gptfuzzer
+    - jasmine-core
+    - karma
+    - karma-chrome-launcher
+    - karma-coverage
+    - karma-jasmine
+    - karma-jasmine-html-reporter
+    - langchain
+    - langchain-community
+    - langchain-core
+    - langchain-text-splitters
+    - ng-apexcharts
+    - ngx-markdown
+    - ollama
+    - pandas
+    - pyrit
+    - python-dotenv
+    - requests
+    - rxjs
+    - sap-ai-sdk-gen
+    - sass
+    - sentence-transformers
+    - tslib
+    - typescript
+    - unstructured
+    - weasyprint
+    - zone.js
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: backend-agent/cli.py,
+    backend-agent/main.py, backend-agent/app/__init__.py, backend-agent/app/db/models.py'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP/STARS/blob/main/README.md
+  path: README.md
+  blob_sha: 5a8b58a9d020f41d4007238752c8b34dd8179f48
+  retrieved: true
+- type: manifest
+  path: backend-agent/Dockerfile
+  blob_sha: 7172012ddb6a20ce1de3ae02d800d7eadcc0254f
+  retrieved: true
+- type: manifest
+  path: backend-agent/pyproject.toml
+  blob_sha: 6299cb037e9d45eab258ec37c53adb86b3a05281
+  retrieved: true
+- type: manifest
+  path: frontend/Dockerfile
+  blob_sha: 26e0e819bf75878610a61499f8a69f5874781ab4
+  retrieved: true
+- type: manifest
+  path: frontend/package.json
+  blob_sha: 8f3ed2f114b4797681128b4c3b4609259316d1c5
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 225484
+    TypeScript: 33872
+    HTML: 6871
+    CSS: 5938
+    Dockerfile: 4097
+    JavaScript: 1327
+    SCSS: 1179
+    Shell: 1016
+- type: Git tree
+  status: captured
+  sha: 499c7ce8df114627d9594f91c0333b532e8cc684
+  truncated: false
+- type: source_file
+  path: backend-agent/cli.py
+  blob_sha: 2901e777d336aede723ee2dc5851722e94f63378
+  retrieved: true
+- type: source_file
+  path: backend-agent/main.py
+  blob_sha: 4935d6f82464bfabfa50ac5ad7b9182b6f9c4b25
+  retrieved: true
+- type: source_file
+  path: backend-agent/app/__init__.py
+  blob_sha: 82c8e9a4ad039312ea916e6910456a81eeecb642
+  retrieved: true
+- type: source_file
+  path: backend-agent/app/db/models.py
+  blob_sha: 67659c359adc34917b83305f746eab17ea6569fa
+  retrieved: true

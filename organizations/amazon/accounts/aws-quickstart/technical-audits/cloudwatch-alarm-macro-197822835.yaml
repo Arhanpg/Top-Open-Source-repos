@@ -1,0 +1,70 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:04:51+00:00'
+evidence_fingerprint: 3d4e04adf3e11b6f18830cdae0202f4dc9b6d328972ae5c0fae9b54b1ef1c5f0
+repository_metadata:
+  company: Amazon
+  account: aws-quickstart
+  full_name: aws-quickstart/cloudwatch-alarm-macro
+  repository_id: 197822835
+  url: https://github.com/aws-quickstart/cloudwatch-alarm-macro
+  description: null
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-03-25T18:07:46Z'
+  stars: 12
+  readme_url: https://github.com/aws-quickstart/cloudwatch-alarm-macro/blob/master/README.md
+  readme_path: README.md
+  readme_sha: d519783d189e18f7b20da42318e4a86299c06742
+  manifest_paths: []
+  source_files_inspected:
+  - src/alarm_macro.py
+  repository_tree:
+    status: captured
+    sha: c6f58f227ace39c457e1fdb5b1c8bff43ee3f1c0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Now Supports CloudFormation Conditions
+  why_used: Now Supports CloudFormation Conditions
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/alarm_macro.py'
+  setup_and_usage:
+  - 'usage: To use the macro, add the following line to the top of your templates:'
+  - 'usage: Transform: AlarmMacro'
+  - 'usage: A sample template has been provided in /samples'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-quickstart/cloudwatch-alarm-macro/blob/master/README.md
+  path: README.md
+  blob_sha: d519783d189e18f7b20da42318e4a86299c06742
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 13574
+- type: Git tree
+  status: captured
+  sha: c6f58f227ace39c457e1fdb5b1c8bff43ee3f1c0
+  truncated: false
+- type: source_file
+  path: src/alarm_macro.py
+  blob_sha: 6ab94f7287148a5e4ef17db7fada37fd9ee86f18
+  retrieved: true

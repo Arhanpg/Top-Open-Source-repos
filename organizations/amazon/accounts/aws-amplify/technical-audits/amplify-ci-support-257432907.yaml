@@ -1,0 +1,185 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:20:50+00:00'
+evidence_fingerprint: d2a45547e34dbd8396f19d39bec0e9b96cf024ac337ac83316105c19ab54f322
+repository_metadata:
+  company: Amazon
+  account: aws-amplify
+  full_name: aws-amplify/amplify-ci-support
+  repository_id: 257432907
+  url: https://github.com/aws-amplify/amplify-ci-support
+  description: Scripts and tools for managing Amplify projects in continuous integration environments, and for local
+    developer setup of integration test environments.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-23T16:24:03Z'
+  stars: 13
+  readme_url: https://github.com/aws-amplify/amplify-ci-support/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ea783955f7230627af1bea4026f9b68c05a707ac
+  manifest_paths:
+  - requirements.txt
+  - src/build_infrastructure/android/setup.py
+  - src/credentials_rotators/npm-token-rotation/package.json
+  - src/credentials_rotators/npm/requirements.txt
+  - src/credentials_rotators/npm/setup.py
+  - src/fastlane/release_actions/Gemfile
+  source_files_inspected:
+  - src/build_infrastructure/android/app.py
+  - src/credentials_rotators/npm-token-rotation/src/lambda/create-new-token/index.ts
+  - src/credentials_rotators/npm-token-rotation/src/lambda/step-01-publish-token/index.ts
+  - src/credentials_rotators/npm-token-rotation/src/lambda/step-02-delete-old-token/index.ts
+  repository_tree:
+    status: captured
+    sha: 06fda73ff348fa6b1750436bb7adc5933c02ff42
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This package provides scripts and tools for managing Amplify projects in continuous integration environments,
+    and for local developer setup of integration test environments.
+  why_used: Scripts and tools for managing Amplify projects in continuous integration environments, and for local
+    developer setup of integration test environments.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Ruby
+    - TypeScript
+    - Shell
+    - JavaScript
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-cdk/assert'
+    - '@aws-cdk/aws-cloudwatch-actions'
+    - '@aws-cdk/aws-iam'
+    - '@aws-cdk/aws-lambda'
+    - '@aws-cdk/aws-lambda-nodejs'
+    - '@aws-cdk/aws-secretsmanager'
+    - '@aws-cdk/aws-sns'
+    - '@aws-cdk/aws-sns-subscriptions'
+    - '@aws-cdk/aws-stepfunctions'
+    - '@aws-cdk/aws-stepfunctions-tasks'
+    - '@aws-cdk/core'
+    - '@types/jest'
+    - '@types/node'
+    - '@types/totp-generator'
+    - ajv
+    - aws-cdk
+    - aws-cdk.core
+    - aws_cdk.aws_apigateway
+    - aws_cdk.aws_cloudfront
+    - aws_cdk.aws_cloudfront_origins
+    - aws_cdk.aws_cloudtrail
+    - aws_cdk.aws_cloudwatch
+    - aws_cdk.aws_cloudwatch_actions
+    - aws_cdk.aws_codebuild
+    - aws_cdk.aws_codepipeline
+    - aws_cdk.aws_codepipeline_actions
+    - aws_cdk.aws_cognito
+    - aws_cdk.aws_iam
+    - aws_cdk.aws_iot
+    - aws_cdk.aws_kinesis
+    - aws_cdk.aws_kinesisfirehose
+    - aws_cdk.aws_kms
+    - aws_cdk.aws_lambda
+    - aws_cdk.aws_lambda_python
+    - aws_cdk.aws_location
+    - aws_cdk.aws_logs
+    - aws_cdk.aws_pinpoint
+    - aws_cdk.aws_s3
+    - aws_cdk.aws_secretsmanager
+    - aws_cdk.aws_sns
+    - aws_cdk.aws_sns_subscriptions
+    - aws_cdk.aws_ssm
+    - aws_cdk.core
+    - axios
+    - black
+    - boto3
+    - esbuild
+    - flake8
+    - isort
+    - jest
+    - source-map-support
+    - totp-generator
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - Bundler manifest
+    - npm-compatible manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/build_infrastructure/android/app.py,
+    src/credentials_rotators/npm-token-rotation/src/lambda/create-new-token/index.ts, src/credentials_rotators/npm-token-rotation/src/lambda/step-01-publish-token/index.ts,
+    src/credentials_rotators/npm-token-rotation/src/lambda/step-02-delete-old-token/index.ts'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-amplify/amplify-ci-support/blob/main/README.md
+  path: README.md
+  blob_sha: ea783955f7230627af1bea4026f9b68c05a707ac
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: daa563ce194d1bcfdd063722500daed72caf913c
+  retrieved: true
+- type: manifest
+  path: src/build_infrastructure/android/setup.py
+  blob_sha: eafe3e4b57c63f85a86b7dc307b0b8cdf2771345
+  retrieved: true
+- type: manifest
+  path: src/credentials_rotators/npm-token-rotation/package.json
+  blob_sha: 61e3d2d0b1b361e70b528cf1d77e562f96d83eed
+  retrieved: true
+- type: manifest
+  path: src/credentials_rotators/npm/requirements.txt
+  blob_sha: fd77f7e87d64129ba39d18b6785738e8c3e15539
+  retrieved: true
+- type: manifest
+  path: src/credentials_rotators/npm/setup.py
+  blob_sha: c52c47b04e01248dbcde18ab265a2735cf74ee09
+  retrieved: true
+- type: manifest
+  path: src/fastlane/release_actions/Gemfile
+  blob_sha: f9490bd16ddef56b232eb708e2cd97b1bac09b8d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 266271
+    Ruby: 51763
+    TypeScript: 45971
+    Shell: 8955
+    JavaScript: 4074
+    Batchfile: 2176
+- type: Git tree
+  status: captured
+  sha: 06fda73ff348fa6b1750436bb7adc5933c02ff42
+  truncated: false
+- type: source_file
+  path: src/build_infrastructure/android/app.py
+  blob_sha: 9ece0244e0442c43d6263aa9e38e790a9a6dd78d
+  retrieved: true
+- type: source_file
+  path: src/credentials_rotators/npm-token-rotation/src/lambda/create-new-token/index.ts
+  blob_sha: 73245db795edb8fc9c827e0bc78dd03e166932f8
+  retrieved: true
+- type: source_file
+  path: src/credentials_rotators/npm-token-rotation/src/lambda/step-01-publish-token/index.ts
+  blob_sha: 546eedcdaae85160859607ffb0e7efe7fbecd643
+  retrieved: true
+- type: source_file
+  path: src/credentials_rotators/npm-token-rotation/src/lambda/step-02-delete-old-token/index.ts
+  blob_sha: dca1b6a3a9cf28d8c9d634ebeab863d47eb5d755
+  retrieved: true

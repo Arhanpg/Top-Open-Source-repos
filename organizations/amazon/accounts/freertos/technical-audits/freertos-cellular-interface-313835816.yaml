@@ -1,0 +1,135 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:14:46+00:00'
+evidence_fingerprint: f054f484962af204e29a9adf75fb69c857adb0e93dc43c6f565e0194383968e1
+repository_metadata:
+  company: Amazon
+  account: freertos
+  full_name: FreeRTOS/FreeRTOS-Cellular-Interface
+  repository_id: 313835816
+  url: https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface
+  description: FreeRTOS Cellular Interface implementation of the 3GPP TS v27.007 standard.
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-02T20:32:15Z'
+  stars: 101
+  readme_url: https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2e77b2f7f5c794ab966b1beb82bd06fa8297c102
+  manifest_paths:
+  - CMakeLists.txt
+  - test/CMakeLists.txt
+  - test/unit-test/CMakeLists.txt
+  - test/cbmc/proofs/_Cellular_ComputeSignalBars/Makefile
+  - test/cbmc/proofs/_Cellular_ConvertCsqSignalBer/Makefile
+  - test/cbmc/proofs/_Cellular_ConvertCsqSignalRssi/Makefile
+  source_files_inspected:
+  - source/cellular_3gpp_urc_handler.c
+  - source/cellular_at_core.c
+  - source/cellular_common.c
+  - source/cellular_common_api.c
+  repository_tree:
+    status: captured
+    sha: f11be859f319a84194178063e5d8e4849ca450e6
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Cellular Interface library implement a simple unified Application Programming Interfaces (APIs) that
+    hide the complexity of AT commands. The cellular modems to be interchangeable with the popular options built
+    upon TCP stack and exposes a socket-like interface to C programmers.
+  why_used: FreeRTOS Cellular Interface implementation of the 3GPP TS v27.007 standard.
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - Makefile
+    - CMake
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/cellular_3gpp_urc_handler.c,
+    source/cellular_at_core.c, source/cellular_common.c, source/cellular_common_api.c'
+  setup_and_usage: []
+  limitations:
+  - 'Implement Comm Interface with MCU platforms: The FreeRTOS Cellular Interface runs on MCUs. It uses an abstracted
+    interface -'
+  - 'Implement Comm Interface with MCU platforms: to communicate with cellular modems. A Comm Interface must be
+    implemented as'
+  - 'Implement Comm Interface with MCU platforms: well on the MCU platform. The most common implementations of the
+    Comm Interface'
+  - 'Implement Comm Interface with MCU platforms: are over UART hardware, but it can be implemented over other physical
+    interfaces'
+  - 'Implement Comm Interface with MCU platforms: such as SPI as well. The documentation of the Comm Interface is
+    found within the'
+  - 'Implement Comm Interface with MCU platforms: Cellular API References.'
+  - 'Implement Comm Interface with MCU platforms: These are example implementations of the Comm Interface:'
+  - 'Implement Comm Interface with MCU platforms: - FreeRTOS Windows Simulator Comm Interface'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface/blob/main/README.md
+  path: README.md
+  blob_sha: 2e77b2f7f5c794ab966b1beb82bd06fa8297c102
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: e667d864b0b07b27783ece841cfc36ee11790d71
+  retrieved: true
+- type: manifest
+  path: test/CMakeLists.txt
+  blob_sha: 5f51c41f5b354be601c21dfc5936c4fdb7932979
+  retrieved: true
+- type: manifest
+  path: test/unit-test/CMakeLists.txt
+  blob_sha: 43ed1b915e5c2d513fd88d7e59461bc006fba125
+  retrieved: true
+- type: manifest
+  path: test/cbmc/proofs/_Cellular_ComputeSignalBars/Makefile
+  blob_sha: 2e05c741690d8d7b74c007eb5d8e2d218334b169
+  retrieved: true
+- type: manifest
+  path: test/cbmc/proofs/_Cellular_ConvertCsqSignalBer/Makefile
+  blob_sha: 6f3360d6b63cc574aeec7d26bc9357556cf54778
+  retrieved: true
+- type: manifest
+  path: test/cbmc/proofs/_Cellular_ConvertCsqSignalRssi/Makefile
+  blob_sha: ad338ad22d1d351a3493a5eacb6807a159a61276
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 1602361
+    Makefile: 161727
+    CMake: 25493
+    Python: 19901
+- type: Git tree
+  status: captured
+  sha: f11be859f319a84194178063e5d8e4849ca450e6
+  truncated: false
+- type: source_file
+  path: source/cellular_3gpp_urc_handler.c
+  blob_sha: 27db6e58bc296035f9fd833b99ce84c13f182765
+  retrieved: true
+- type: source_file
+  path: source/cellular_at_core.c
+  blob_sha: 9522fa862b4ef9a5215080e7b4bda3271eda9cf9
+  retrieved: true
+- type: source_file
+  path: source/cellular_common.c
+  blob_sha: 9d15b41b1ce3df2a3008b2c64d17350f33a5ddad
+  retrieved: true
+- type: source_file
+  path: source/cellular_common_api.c
+  blob_sha: fabc6f9d29e86f8729d9085d03399035169cc346
+  retrieved: true

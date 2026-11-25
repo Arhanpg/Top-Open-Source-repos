@@ -1,0 +1,149 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:18:49+00:00'
+evidence_fingerprint: 0435fe951233f4d874b472af3e4ca4e7a0bf1681d53ff2d690f0e3d8f24628fa
+repository_metadata:
+  company: SAP
+  account: UI5
+  full_name: UI5/inspector
+  repository_id: 42198847
+  url: https://github.com/UI5/inspector
+  description: With the UI5 Inspector, you can easily debug and support your OpenUI5/SAPUI5 based apps.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T12:47:14Z'
+  stars: 149
+  readme_url: https://github.com/UI5/inspector/blob/master/README.md
+  readme_path: README.md
+  readme_sha: fe0eeed41eeca0984e629db1fdf4130b1a0afcb2
+  manifest_paths:
+  - package.json
+  - pom.xml
+  source_files_inspected:
+  - app/scripts/background/main.js
+  - app/scripts/content/detectUI5.js
+  - app/scripts/content/detectWebComponents.js
+  - app/scripts/content/main.js
+  repository_tree:
+    status: captured
+    sha: 5efe742766c3802edcfff255a5b2be04fc49cbe0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: UI5 Inspector is a standard Chrome or Edge extension for debugging and getting to know applications built
+    with OpenUI5, SAPUI5, or UI5 Web Components.
+  why_used: With the UI5 Inspector, you can easily debug and support your OpenUI5/SAPUI5 based apps.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CSS
+    - Less
+    - HTML
+    - TypeScript
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@actions/exec'
+    - '@actions/github'
+    - '@commitlint/cli'
+    - '@commitlint/config-conventional'
+    - browserify
+    - browserify-istanbul
+    - chai
+    - chrome-stub
+    - grunt
+    - grunt-banner
+    - grunt-browserify
+    - grunt-cli
+    - grunt-contrib-clean
+    - grunt-contrib-compress
+    - grunt-contrib-connect
+    - grunt-contrib-copy
+    - grunt-contrib-jshint
+    - grunt-contrib-less
+    - grunt-contrib-watch
+    - grunt-eslint
+    - grunt-karma
+    - grunt-newer
+    - grunt-text-replace
+    - husky
+    - jshint-stylish
+    - karma
+    - karma-browserify
+    - karma-chai
+    - karma-chrome-launcher
+    - karma-coverage
+    - karma-coverage-istanbul-reporter
+    - karma-mocha
+    - karma-sinon
+    - load-grunt-config
+    - load-grunt-tasks
+    - lodash
+    - mocha
+    - package
+    - prettify-xml
+    - sinon
+    - time-grunt
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: app/scripts/background/main.js,
+    app/scripts/content/detectUI5.js, app/scripts/content/detectWebComponents.js, app/scripts/content/main.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/UI5/inspector/blob/master/README.md
+  path: README.md
+  blob_sha: fe0eeed41eeca0984e629db1fdf4130b1a0afcb2
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: e11f3883d5992440165c1f9a8f51dac511a49bd6
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: a8f1d2ff9db60c849373f4814bb731114488417f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 985572
+    CSS: 94406
+    Less: 60019
+    HTML: 11421
+    TypeScript: 5374
+    Shell: 360
+- type: Git tree
+  status: captured
+  sha: 5efe742766c3802edcfff255a5b2be04fc49cbe0
+  truncated: false
+- type: source_file
+  path: app/scripts/background/main.js
+  blob_sha: e1322a1a9d9811a0c8d2ae88ce57b3a7fd21cd20
+  retrieved: true
+- type: source_file
+  path: app/scripts/content/detectUI5.js
+  blob_sha: 6b062e2254bc2dfd3d6298ee0ae102ac7b5f6bda
+  retrieved: true
+- type: source_file
+  path: app/scripts/content/detectWebComponents.js
+  blob_sha: 3f8f0beaa59177a07bb421ea39b887a4153cef7a
+  retrieved: true
+- type: source_file
+  path: app/scripts/content/main.js
+  blob_sha: f49904c2c1c8c5dcd211d8bfbde1ea14143f19dd
+  retrieved: true

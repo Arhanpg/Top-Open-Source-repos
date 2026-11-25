@@ -1,0 +1,86 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:15:17+00:00'
+evidence_fingerprint: 5e939d9d7bc6343424bfd95bebf6450f642c3a25224e30aa5aa84f60680305b6
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/GCGC
+  repository_id: 423990530
+  url: https://github.com/apple/GCGC
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-01T16:28:55Z'
+  stars: 457
+  readme_url: https://github.com/apple/GCGC/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7c03424b07030ea4c8850ae794d7bc3e020eee03
+  manifest_paths: []
+  source_files_inspected:
+  - src/filter_and_group.py
+  - src/graphing/allocation_rate.py
+  - src/graphing/code_cache_flushing_rate.py
+  repository_tree:
+    status: captured
+    sha: cf970834fc6ce2af73f929105dcb18e676ea476c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: GCGC uses a Jupyter notebook interface to analyze GC log files.
+  why_used: GCGC uses a Jupyter notebook interface to analyze GC log files.
+  core_features: []
+  technology_stack:
+    languages:
+    - Jupyter Notebook
+    - Python
+    - Java
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/__init__.py, src/filter_and_group.py,
+    src/graphing/allocation_rate.py, src/graphing/code_cache_flushing_rate.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/GCGC/blob/main/README.md
+  path: README.md
+  blob_sha: 7c03424b07030ea4c8850ae794d7bc3e020eee03
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Jupyter Notebook: 5790867
+    Python: 125073
+    Java: 3252
+- type: Git tree
+  status: captured
+  sha: cf970834fc6ce2af73f929105dcb18e676ea476c
+  truncated: false
+- type: source_file
+  path: src/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: src/filter_and_group.py
+  blob_sha: 6cdba878870a2af272cda0d254ca08631fe89cae
+  retrieved: true
+- type: source_file
+  path: src/graphing/allocation_rate.py
+  blob_sha: 61bdb6ec44202ce1b7a39333ab6f96b27699bc89
+  retrieved: true
+- type: source_file
+  path: src/graphing/code_cache_flushing_rate.py
+  blob_sha: e2e4c00edbb0db000115322e6ca7fec657333f09
+  retrieved: true

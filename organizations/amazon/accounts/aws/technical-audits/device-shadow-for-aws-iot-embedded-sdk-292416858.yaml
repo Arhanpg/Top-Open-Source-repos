@@ -1,0 +1,111 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:03:48+00:00'
+evidence_fingerprint: 0d909e13cbe031240f53bb118ebadd10b3ffa1c50f986645546eb5629a8d19bb
+repository_metadata:
+  company: Amazon
+  account: aws
+  full_name: aws/Device-Shadow-for-AWS-IoT-embedded-sdk
+  repository_id: 292416858
+  url: https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk
+  description: Client library for using AWS IoT Shadow service on embedded devices
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-16T00:42:32Z'
+  stars: 29
+  readme_url: https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3883d8387e8b95cac4ce017e1a867f161ddabac1
+  manifest_paths:
+  - CMakeLists.txt
+  - test/CMakeLists.txt
+  - test/unit-test/CMakeLists.txt
+  - test/cbmc/proofs/Shadow_AssembleTopicString/Makefile
+  - test/cbmc/proofs/Shadow_MatchTopic/Makefile
+  - test/cbmc/proofs/Shadow_MatchTopicString/Makefile
+  source_files_inspected:
+  - source/include/shadow.h
+  - source/include/shadow_config_defaults.h
+  - source/shadow.c
+  repository_tree:
+    status: captured
+    sha: e0d4a35435e7fbc337b13db3db9366b476917125
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**API Documentation Pages for current and previous releases of this library can be found here**'
+  why_used: Client library for using AWS IoT Shadow service on embedded devices
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/include/shadow.h,
+    source/include/shadow_config_defaults.h, source/shadow.c'
+  setup_and_usage: []
+  limitations:
+  - 'Platform Prerequisites: - For building the library, **CMake 3.13.0** or later and a **C90 compiler**.'
+  - 'Platform Prerequisites: - For running unit tests, **Ruby 2.0.0** or later is additionally required for'
+  - 'Platform Prerequisites: the CMock test framework (that we use).'
+  - 'Platform Prerequisites: - For running the coverage target, **gcov** and **lcov** are additionally'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk/blob/main/README.md
+  path: README.md
+  blob_sha: 3883d8387e8b95cac4ce017e1a867f161ddabac1
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: b8232efe8885740793585a6ed16b43468977c834
+  retrieved: true
+- type: manifest
+  path: test/CMakeLists.txt
+  blob_sha: f0dcf875b43b81b55ce1a6327fb5c7241ac6b78b
+  retrieved: true
+- type: manifest
+  path: test/unit-test/CMakeLists.txt
+  blob_sha: b62cc85b3a2d8ef9e4a66b339854c00921d90b65
+  retrieved: true
+- type: manifest
+  path: test/cbmc/proofs/Shadow_AssembleTopicString/Makefile
+  blob_sha: de4c5ec5adfed57ba3d375f82889e4c1277c1799
+  retrieved: true
+- type: manifest
+  path: test/cbmc/proofs/Shadow_MatchTopic/Makefile
+  blob_sha: 0eff34ab444c3ceb5fd3de1f6afa75382d0dd834
+  retrieved: true
+- type: manifest
+  path: test/cbmc/proofs/Shadow_MatchTopicString/Makefile
+  blob_sha: 9aa2fa205af9960a559eb2f6576eab6e5140cc15
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: e0d4a35435e7fbc337b13db3db9366b476917125
+  truncated: false
+- type: source_file
+  path: source/include/shadow.h
+  blob_sha: cd18629866f7f2d4067206dfc252632f95c604dd
+  retrieved: true
+- type: source_file
+  path: source/include/shadow_config_defaults.h
+  blob_sha: ac6f074fec09334a796e9c292f5052cfe0dc8c36
+  retrieved: true
+- type: source_file
+  path: source/shadow.c
+  blob_sha: e14bc295a4bf52ca5e4be73ba7bad3309fbdca8d
+  retrieved: true

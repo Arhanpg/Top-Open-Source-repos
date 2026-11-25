@@ -1,0 +1,190 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:27:07+00:00'
+evidence_fingerprint: ca238b4b66bcfba66657491d1a95dedc7e3b2b8b91fda870d5d11e597942e2be
+repository_metadata:
+  company: SAP
+  account: UI5
+  full_name: UI5/linter
+  repository_id: 762309789
+  url: https://github.com/UI5/linter
+  description: A static code analysis tool for UI5
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T13:17:17Z'
+  stars: 82
+  readme_url: https://github.com/UI5/linter/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3bddd7e1cae88987679608efecbf931651414760
+  manifest_paths:
+  - package.json
+  - resources/types/package.json
+  - test/fixtures/e2e/runtime/package.json
+  - test/fixtures/linter/projects/library.with.custom.paths/package.json
+  source_files_inspected:
+  - src/index.ts
+  - src/autofix/amdImports.ts
+  - src/autofix/autofix.ts
+  - src/autofix/generateChangesHtml.ts
+  repository_tree:
+    status: captured
+    sha: f6782ea04bb866691cfea822f8fca234ab280c06
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> A static code analysis tool for UI5'
+  why_used: A static code analysis tool for UI5
+  core_features:
+  - name: Usage of deprecated UI5 libraries
+    description: Usage of deprecated UI5 libraries
+    evidence:
+    - README.md#Features
+  - name: Usage of deprecated UI5 framework APIs
+    description: Usage of deprecated UI5 framework APIs
+    evidence:
+    - README.md#Features
+  - name: Usage of global variables
+    description: Usage of global variables
+    evidence:
+    - README.md#Features
+  - name: Possible CSP violations
+    description: Possible CSP violations
+    evidence:
+    - README.md#Features
+  - name: Deprecated component and manifest configurations
+    description: Deprecated component and manifest configurations
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@commitlint/cli'
+    - '@commitlint/config-conventional'
+    - '@eslint/js'
+    - '@istanbuljs/esm-loader-hook'
+    - '@istanbuljs/nyc-config-typescript'
+    - '@jridgewell/sourcemap-codec'
+    - '@jridgewell/trace-mapping'
+    - '@sapui5/types'
+    - '@stylistic/eslint-plugin'
+    - '@types/he'
+    - '@types/json-source-map'
+    - '@types/node'
+    - '@types/semver'
+    - '@types/sinon'
+    - '@types/update-notifier'
+    - '@types/yargs'
+    - '@types/yauzl-promise'
+    - '@ui5-language-assistant/semantic-model'
+    - '@ui5-language-assistant/semantic-model-types'
+    - '@ui5/cli'
+    - '@ui5/fs'
+    - '@ui5/logger'
+    - '@ui5/project'
+    - ava
+    - chalk
+    - check-engine-light
+    - data-with-position
+    - eslint
+    - eslint-plugin-ava
+    - esmock
+    - fast-xml-parser
+    - figures
+    - globals
+    - he
+    - husky
+    - json-source-map
+    - knip
+    - licensee
+    - magic-string
+    - minimatch
+    - nyc
+    - rimraf
+    - sax-wasm
+    - semver
+    - sinon
+    - tsx
+    - typescript
+    - typescript-eslint
+    - ui5-test-runner
+    - update-notifier
+    - yargs
+    - yauzl-promise
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/index.ts, src/autofix/amdImports.ts,
+    src/autofix/autofix.ts, src/autofix/generateChangesHtml.ts'
+  setup_and_usage:
+  - 'Installation: Install the CLI using the npm package manager:'
+  - 'Usage: Run the ui5lint [files...] command in your project root folder'
+  - 'Usage: /application/webapp/controller/App.controller.js'
+  - 'Usage: 10:4 error Call to deprecated function ''attachTap'' of class ''Button'' no-deprecated-api'
+  - 'Usage: /application/webapp/manifest.json'
+  - 'Usage: 81:17 error Use of deprecated model type ''sap.ui5/models/odata/type="sap.ui.model.odata.ODataModel"''
+    no-deprecated-api'
+  - 'Usage: /application/webapp/test/unit/unitTests.qunit.js'
+  - 'Usage: 6:1 error Call to deprecated function ''attachInit'' of class ''Core'' no-deprecated-api'
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/UI5/linter/blob/main/README.md
+  path: README.md
+  blob_sha: 3bddd7e1cae88987679608efecbf931651414760
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 5ae1c6de477e8ac7e269aeefdef4877e4953cd76
+  retrieved: true
+- type: manifest
+  path: resources/types/package.json
+  blob_sha: 55acd57378aeafa69335be3df6d2559a50960d9f
+  retrieved: true
+- type: manifest
+  path: test/fixtures/e2e/runtime/package.json
+  blob_sha: c9aff91676331e7a7ed13a2886be2b6401f877ac
+  retrieved: true
+- type: manifest
+  path: test/fixtures/linter/projects/library.with.custom.paths/package.json
+  blob_sha: e400a3e9e6555113641ef7dc57f490da6bbf85e0
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 1178076
+    JavaScript: 78993
+- type: Git tree
+  status: captured
+  sha: f6782ea04bb866691cfea822f8fca234ab280c06
+  truncated: false
+- type: source_file
+  path: src/index.ts
+  blob_sha: acca3a12a233fa8e37e4812c718792b1d9777d6c
+  retrieved: true
+- type: source_file
+  path: src/autofix/amdImports.ts
+  blob_sha: fbf502dd198c484f091fb28bf13a06c5acd5ae2c
+  retrieved: true
+- type: source_file
+  path: src/autofix/autofix.ts
+  blob_sha: d4236b85911b85d3195091cab40acb9914ebedef
+  retrieved: true
+- type: source_file
+  path: src/autofix/generateChangesHtml.ts
+  blob_sha: 45ddd9e681100f2cb0e6dd149ddf1e3ca9f9fc4a
+  retrieved: true

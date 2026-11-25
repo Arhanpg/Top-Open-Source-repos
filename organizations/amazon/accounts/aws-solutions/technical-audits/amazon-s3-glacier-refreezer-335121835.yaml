@@ -1,0 +1,151 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:05:17+00:00'
+evidence_fingerprint: 58bea4fc899fe7285bdede99e6bd7b2e4a358abdd603b72377b167e1982b7d3b
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/amazon-s3-glacier-refreezer
+  repository_id: 335121835
+  url: https://github.com/aws-solutions/amazon-s3-glacier-refreezer
+  description: The Amazon S3 Glacier Re:Freezer is a serverless solution that automatically copies entire Amazon
+    S3 Glacier vault archives to a defined destination Amazon Simple Storage Service (Amazon S3 bucket) and S3 storage
+    class.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-01-29T16:43:32Z'
+  stars: 20
+  readme_url: https://github.com/aws-solutions/amazon-s3-glacier-refreezer/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7eb615f8e15ed1a9535217badd37ec863d196248
+  manifest_paths:
+  - source/package.json
+  - deployment/cdk-solution-helper/package.json
+  - source/lambda/calculateMetrics/package.json
+  - source/lambda/calculateTreehash/package.json
+  - source/lambda/copyChunk/package.json
+  - source/lambda/copyToDestinationBucket/package.json
+  source_files_inspected:
+  - deployment/cdk-solution-helper/index.js
+  - source/lambda/calculateMetrics/index.js
+  - source/lambda/calculateTreehash/index.js
+  - source/lambda/copyChunk/index.js
+  repository_tree:
+    status: captured
+    sha: 712f02935ba7e5c46a70f427908fc6f1b7e685b6
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> [!WARNING] > In December 2023, the Data Transfer from Amazon S3 Glacier Vaults to Amazon S3 solution
+    replaced this solution. All existing deployments of the Amazon S3 Glacier Re:Freezer solution will continue
+    to work, but we no longer support or maintain this solution. > > The benefits of using the Data Transfer from
+    Amazon S3 Glacier Vaults to Amazon S3 solution include improved performance and enhanced integration with AWS
+    services, especially Amazon S3. We encourage customers to use this solution for future transfers'
+  why_used: The Amazon S3 Glacier Re:Freezer is a serverless solution that automatically copies entire Amazon S3
+    Glacier vault archives to a defined destination Amazon Simple Storage Service (Amazon S3 bucket) and S3 storage
+    class.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - TypeScript
+    - Shell
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-cdk/aws-glue-alpha'
+    - '@types/jest'
+    - '@types/node'
+    - '@types/prettier'
+    - aws-cdk
+    - aws-cdk-lib
+    - aws-sdk
+    - chai
+    - chai-as-promised
+    - constructs
+    - crypto-js
+    - fs
+    - glob-parent
+    - jest
+    - mocha
+    - moment
+    - prettier
+    - proxyquire
+    - sinon
+    - source-map-support
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: deployment/cdk-solution-helper/index.js,
+    source/lambda/calculateMetrics/index.js, source/lambda/calculateTreehash/index.js, source/lambda/copyChunk/index.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/amazon-s3-glacier-refreezer/blob/main/README.md
+  path: README.md
+  blob_sha: 7eb615f8e15ed1a9535217badd37ec863d196248
+  retrieved: true
+- type: manifest
+  path: source/package.json
+  blob_sha: 3a476dbc3bfa2bb7a3e3cf75d862850eae4ccd9c
+  retrieved: true
+- type: manifest
+  path: deployment/cdk-solution-helper/package.json
+  blob_sha: 1b4b4f3c8cff7ccda5a6a3bf2699c249bb04ad18
+  retrieved: true
+- type: manifest
+  path: source/lambda/calculateMetrics/package.json
+  blob_sha: c957ecd25c58fb643deb70fa0c9e88342e79c60e
+  retrieved: true
+- type: manifest
+  path: source/lambda/calculateTreehash/package.json
+  blob_sha: 63f32eb05ff1975d76d1c33ef4e77bfd8cea77de
+  retrieved: true
+- type: manifest
+  path: source/lambda/copyChunk/package.json
+  blob_sha: 228a12d17d0791986550d7aef9ce850bd4e70c19
+  retrieved: true
+- type: manifest
+  path: source/lambda/copyToDestinationBucket/package.json
+  blob_sha: c5e31b7684a4631bed6099746b0fa4f95fb78512
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 161473
+    TypeScript: 94764
+    Shell: 13011
+    Python: 3213
+- type: Git tree
+  status: captured
+  sha: 712f02935ba7e5c46a70f427908fc6f1b7e685b6
+  truncated: false
+- type: source_file
+  path: deployment/cdk-solution-helper/index.js
+  blob_sha: b3942ef0ccf954cbe57f7c6c2f38dc562eab215e
+  retrieved: true
+- type: source_file
+  path: source/lambda/calculateMetrics/index.js
+  blob_sha: e8c41cf4c7eae87f65edadbd74d2d73a51e4b660
+  retrieved: true
+- type: source_file
+  path: source/lambda/calculateTreehash/index.js
+  blob_sha: efa5194b1ecf1ab3ec02e6b7ea3b51cd3ead7986
+  retrieved: true
+- type: source_file
+  path: source/lambda/copyChunk/index.js
+  blob_sha: ad795c9e34d1e96563ef6d52330a6ca89fca919d
+  retrieved: true

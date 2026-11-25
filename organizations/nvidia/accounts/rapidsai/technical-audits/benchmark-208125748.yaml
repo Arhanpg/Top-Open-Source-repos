@@ -1,0 +1,92 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:17:13+00:00'
+evidence_fingerprint: b1ef7d4531b0d8fb7fc2683fd8cf446a9aea5c7a8745db1805f851b33c49d1ec
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/benchmark
+  repository_id: 208125748
+  url: https://github.com/rapidsai/benchmark
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2023-05-12T16:08:52Z'
+  stars: 12
+  readme_url: https://github.com/rapidsai/benchmark/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7f7113f616e2524ea92e26c1bd92cf47d0ba9c2a
+  manifest_paths:
+  - rapids_pytest_benchmark/setup.py
+  source_files_inspected:
+  - parser/GBenchToASV.py
+  - rapids_pytest_benchmark/buildconda.sh
+  - rapids_pytest_benchmark/rapids_pytest_benchmark/__init__.py
+  - rapids_pytest_benchmark/rapids_pytest_benchmark/plugin.py
+  repository_tree:
+    status: captured
+    sha: 5a3596cc0396800beb20a63a9d77d709f4be0168
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repo contains tools for benchmarking RAPIDS projects, consisting currently of a plugin to pytest
+    that allows it to run benchmarks to measure execution time and GPU memory usage.
+  why_used: This repo contains tools for benchmarking RAPIDS projects, consisting currently of a plugin to pytest
+    that allows it to run benchmarks to measure execution time and GPU memory usage.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: parser/GBenchToASV.py,
+    rapids_pytest_benchmark/buildconda.sh, rapids_pytest_benchmark/rapids_pytest_benchmark/__init__.py, rapids_pytest_benchmark/rapids_pytest_benchmark/plugin.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/benchmark/blob/main/README.md
+  path: README.md
+  blob_sha: 7f7113f616e2524ea92e26c1bd92cf47d0ba9c2a
+  retrieved: true
+- type: manifest
+  path: rapids_pytest_benchmark/setup.py
+  blob_sha: bd612a82d8970d3695ac6be1bb21f1d6b0dcc517
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 48298
+    Shell: 453
+- type: Git tree
+  status: captured
+  sha: 5a3596cc0396800beb20a63a9d77d709f4be0168
+  truncated: false
+- type: source_file
+  path: parser/GBenchToASV.py
+  blob_sha: 01ced03a16ac0813dcf0ba8f32b733149227eba5
+  retrieved: true
+- type: source_file
+  path: rapids_pytest_benchmark/buildconda.sh
+  blob_sha: c16d9547eb012491ccd846163e760fb21c7ce799
+  retrieved: true
+- type: source_file
+  path: rapids_pytest_benchmark/rapids_pytest_benchmark/__init__.py
+  blob_sha: a09f519b41988828c1a2f8a5a498f1f75b02d70e
+  retrieved: true
+- type: source_file
+  path: rapids_pytest_benchmark/rapids_pytest_benchmark/plugin.py
+  blob_sha: 43f3e7b2003e01dd69fd9c6faec025b305f54bfa
+  retrieved: true

@@ -1,0 +1,85 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:13:33+00:00'
+evidence_fingerprint: 35cc976691b9887f9619c102b6bee17354dd549c6cb64f909be017ceedfd0f80
+repository_metadata:
+  company: Amazon
+  account: aws-samples
+  full_name: aws-samples/ACM-flag-CA-issuer
+  repository_id: 863571445
+  url: https://github.com/aws-samples/ACM-flag-CA-issuer
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-01-07T23:23:00Z'
+  stars: 1
+  readme_url: https://github.com/aws-samples/ACM-flag-CA-issuer/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 83a1bfd5b9cadae646db3a96f69189c919a2a917
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - acm_flag_ca_issuer.py
+  repository_tree:
+    status: captured
+    sha: 60e07e460f47e625233c9192a0b99baf58be4e78
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'Three solutions/approaches allow you to audit the Issuer of certificates stored in AWS Certificate Manager.
+    The most common reasons you might do this include:'
+  why_used: 'Three solutions/approaches allow you to audit the Issuer of certificates stored in AWS Certificate
+    Manager. The most common reasons you might do this include:'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - boto3
+    - botocore
+    - jmespath
+    - python-dateutil
+    - s3transfer
+    - six
+    - urllib3
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: acm_flag_ca_issuer.py'
+  setup_and_usage: []
+  limitations:
+  - 'AWS Security Hub: AWS Security Hub by default shows non-compliant resources for any AWS Config rules. AWS Security
+    Hub provides a central location to view security findings. With this CloudFormation Template deployed, non-compliant
+    ACM certificates can be viewed and used to trigger alerts (if desired).'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-samples/ACM-flag-CA-issuer/blob/main/README.md
+  path: README.md
+  blob_sha: 83a1bfd5b9cadae646db3a96f69189c919a2a917
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 882fbd2209c7d321d9cdd0a34498c1320d8893a2
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 2815
+- type: Git tree
+  status: captured
+  sha: 60e07e460f47e625233c9192a0b99baf58be4e78
+  truncated: false
+- type: source_file
+  path: acm_flag_ca_issuer.py
+  blob_sha: e50b5d22c7ab3834e488d2f3022818601b9ba42c
+  retrieved: true

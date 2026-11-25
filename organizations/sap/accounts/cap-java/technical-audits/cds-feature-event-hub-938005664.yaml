@@ -1,0 +1,126 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:25:46+00:00'
+evidence_fingerprint: 8622fc77d911a176413dd8afd3feb62ff3df84d13e73f60c5130666614d7f123
+repository_metadata:
+  company: SAP
+  account: cap-java
+  full_name: cap-java/cds-feature-event-hub
+  repository_id: 938005664
+  url: https://github.com/cap-java/cds-feature-event-hub
+  description: CDS plugin providing integration with SAP Cloud Application Event Hub.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-23T11:52:44Z'
+  stars: 1
+  readme_url: https://github.com/cap-java/cds-feature-event-hub/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 23d67af43a44ef086ba4d24de6d24ad2e46fb1e4
+  manifest_paths:
+  - pom.xml
+  - cds-feature-event-hub/pom.xml
+  source_files_inspected:
+  - cds-feature-event-hub/src/main/java/com/sap/cds/feature/messaging/eventhub/adapter/EventHubWebhookAdapter.java
+  - cds-feature-event-hub/src/main/java/com/sap/cds/feature/messaging/eventhub/adapter/EventHubWebhookAdapterFactory.java
+  - cds-feature-event-hub/src/main/java/com/sap/cds/feature/messaging/eventhub/client/EventHubClient.java
+  - cds-feature-event-hub/src/main/java/com/sap/cds/feature/messaging/eventhub/client/RestClient.java
+  repository_tree:
+    status: captured
+    sha: 13827295ea9f98f25a177777c423d9c93172080a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The com.sap.cds:cds-feature-event-hub dependency is a CAP Java plugin that provides out-of-the box integration
+    with SAP Cloud Application Event Hub.
+  why_used: CDS plugin providing integration with SAP Cloud Application Event Hub.
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    frameworks_and_libraries: []
+    dependencies:
+    - cds-adapter-api
+    - cds-feature-event-hub
+    - cds-feature-event-hub-root
+    - cds-feature-ord
+    - cds-integration-cloud-sdk
+    - cds-services-api
+    - cds-services-bom
+    - cds-services-impl
+    - cds-services-messaging
+    - cds-services-utils
+    - central-publishing-maven-plugin
+    - flatten-maven-plugin
+    - jackson-databind
+    - jacoco-maven-plugin
+    - jakarta.servlet-api
+    - json-path
+    - junit-jupiter
+    - maven-compiler-plugin
+    - maven-deploy-plugin
+    - maven-enforcer-plugin
+    - maven-gpg-plugin
+    - maven-javadoc-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - slf4j-api
+    - slf4j-reload4j
+    - wiremock-jetty12
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cds-feature-event-hub/src/main/java/com/sap/cds/feature/messaging/eventhub/adapter/EventHubWebhookAdapter.java,
+    cds-feature-event-hub/src/main/java/com/sap/cds/feature/messaging/eventhub/adapter/EventHubWebhookAdapterFactory.java,
+    cds-feature-event-hub/src/main/java/com/sap/cds/feature/messaging/eventhub/client/EventHubClient.java, cds-feature-event-hub/src/main/java/com/sap/cds/feature/messaging/eventhub/client/RestClient.java'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-java/cds-feature-event-hub/blob/main/README.md
+  path: README.md
+  blob_sha: 23d67af43a44ef086ba4d24de6d24ad2e46fb1e4
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: a0e76faefd4377002e751f18c9af0a529ae4ed4b
+  retrieved: true
+- type: manifest
+  path: cds-feature-event-hub/pom.xml
+  blob_sha: 12c1e8e182aa27a2ad133f29bca07e127d0c884a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 62154
+- type: Git tree
+  status: captured
+  sha: 13827295ea9f98f25a177777c423d9c93172080a
+  truncated: false
+- type: source_file
+  path: cds-feature-event-hub/src/main/java/com/sap/cds/feature/messaging/eventhub/adapter/EventHubWebhookAdapter.java
+  blob_sha: 92644f5e5288080d37dfd05ac8300f19e9b95366
+  retrieved: true
+- type: source_file
+  path: cds-feature-event-hub/src/main/java/com/sap/cds/feature/messaging/eventhub/adapter/EventHubWebhookAdapterFactory.java
+  blob_sha: 76a9a9ca9279c71aaa1b21e99e6e83f3421c67cd
+  retrieved: true
+- type: source_file
+  path: cds-feature-event-hub/src/main/java/com/sap/cds/feature/messaging/eventhub/client/EventHubClient.java
+  blob_sha: c979aa945bd77f90ee71d005f03819b67f3b1a4b
+  retrieved: true
+- type: source_file
+  path: cds-feature-event-hub/src/main/java/com/sap/cds/feature/messaging/eventhub/client/RestClient.java
+  blob_sha: cee143bc36122657ac87767a2383b065d8854906
+  retrieved: true

@@ -1,0 +1,148 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:15:58+00:00'
+evidence_fingerprint: e66e195331381a3a1f53113c2521682f9bd046563f5c2330d95cc542d86c50fc
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/Contrib
+  repository_id: 240230342
+  url: https://github.com/PaddlePaddle/Contrib
+  description: contribution works with PaddlePaddle from the third party developers
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2022-11-30T21:47:31Z'
+  stars: 19
+  readme_url: https://github.com/PaddlePaddle/Contrib/blob/master/README.md
+  readme_path: README.md
+  readme_sha: a2f164ab68476bf11ca067d7f87639af84cb16d4
+  manifest_paths:
+  - DMR/requirements.txt
+  - e3d_lstm/requirements.txt
+  - GCC-paddle/requirements.txt
+  - LightGCN/requirements.txt
+  - maml/requirements.txt
+  - NGCF/requirements.txt
+  source_files_inspected:
+  - LightGCN/main.py
+  - NGCF/main.py
+  - spatiotemporal_prediction/stgcn/main.py
+  - Stargan-v2/main.py
+  repository_tree:
+    status: captured
+    sha: 5a5cfae120184e460ea79967a7acdc7b88cf6db7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: contribution works with PaddlePaddle from the third party developers
+  why_used: contribution works with PaddlePaddle from the third party developers
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - Jupyter Notebook
+    - Shell
+    - Cython
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies:
+    - black
+    - coverage
+    - coveralls
+    - cuda
+    - cudnn
+    - decorator
+    - matplotlib
+    - networkx
+    - numpy
+    - opencv3
+    - opencv_python
+    - paddle
+    - paddlepaddle
+    - pandas
+    - pgl
+    - psutil
+    - pytest
+    - scikit-image
+    - scikit-learn
+    - scipy
+    - seaborn
+    - tensorboardX
+    - tqdm
+    - visualdl
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: LightGCN/main.py,
+    NGCF/main.py, spatiotemporal_prediction/stgcn/main.py, Stargan-v2/main.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/Contrib/blob/master/README.md
+  path: README.md
+  blob_sha: a2f164ab68476bf11ca067d7f87639af84cb16d4
+  retrieved: true
+- type: manifest
+  path: DMR/requirements.txt
+  blob_sha: 985e4dd479c22e95e17004e4ed49a58a85d91b19
+  retrieved: true
+- type: manifest
+  path: e3d_lstm/requirements.txt
+  blob_sha: 58b370072d27d48dfa3b88f21be7289dc0073107
+  retrieved: true
+- type: manifest
+  path: GCC-paddle/requirements.txt
+  blob_sha: 6019d23c36ce718d95ff29841e627268d0e023cd
+  retrieved: true
+- type: manifest
+  path: LightGCN/requirements.txt
+  blob_sha: 6edb228b7b3a2d5d57c99c6d658a17c1c65706cf
+  retrieved: true
+- type: manifest
+  path: maml/requirements.txt
+  blob_sha: f9f0acd1bd3c672113673785e587a017d4e25457
+  retrieved: true
+- type: manifest
+  path: NGCF/requirements.txt
+  blob_sha: 6edb228b7b3a2d5d57c99c6d658a17c1c65706cf
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 1987314
+    C++: 393841
+    Jupyter Notebook: 48377
+    Shell: 9245
+    Cython: 2575
+    Batchfile: 1909
+- type: Git tree
+  status: captured
+  sha: 5a5cfae120184e460ea79967a7acdc7b88cf6db7
+  truncated: false
+- type: source_file
+  path: LightGCN/main.py
+  blob_sha: 122fd46556ec38264ed5a2de77656f217d17c601
+  retrieved: true
+- type: source_file
+  path: NGCF/main.py
+  blob_sha: 1d9dc77c4e438553a5260584377e90ddc191d2d7
+  retrieved: true
+- type: source_file
+  path: spatiotemporal_prediction/stgcn/main.py
+  blob_sha: bdf0ca0f4bf271c1003a18f4e6de75205f867341
+  retrieved: true
+- type: source_file
+  path: Stargan-v2/main.py
+  blob_sha: d9dce5330c75796bdbf0ad1e2bf8a617c8bf68a6
+  retrieved: true

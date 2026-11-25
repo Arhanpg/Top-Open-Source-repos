@@ -1,0 +1,98 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:20:41+00:00'
+evidence_fingerprint: 750a9f3ad785a79bdc8cee2d075d0b0e470efe7ab174fc6caed7a36b7e2552de
+repository_metadata:
+  company: Amazon
+  account: aws-actions
+  full_name: aws-actions/amazon-ecs-render-task-definition
+  repository_id: 220388673
+  url: https://github.com/aws-actions/amazon-ecs-render-task-definition
+  description: Inserts a container image URI into an Amazon ECS task definition JSON file.
+  default_branch: master
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T21:43:16Z'
+  stars: 347
+  readme_url: https://github.com/aws-actions/amazon-ecs-render-task-definition/blob/master/README.md
+  readme_path: README.md
+  readme_sha: f3642287c39fdfd1db16e5ffa4f9ff902364a11c
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - index.js
+  - index.test.js
+  repository_tree:
+    status: captured
+    sha: f5fdb75c57fcc94d604ae56fdae320d3d15a8f83
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Inserts a container image URI into an Amazon ECS task definition JSON file, creating a new task definition
+    file.
+  why_used: Inserts a container image URI into an Amazon ECS task definition JSON file.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@aws-sdk/client-ecs'
+    - '@vercel/ncc'
+    - eslint
+    - jest
+    - tmp
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: index.js, index.test.js'
+  setup_and_usage:
+  - 'Usage: If task definition file is provided that has precedence over any other option to fetch task definition.'
+  - 'Usage: If both task definition file and task definition arn are provided, a warning that both have been provided
+    will be returned and the task definition file will be used.'
+  - 'Usage: If neither of task definition file, task definition arn, and task definition family are provided, an
+    error will be thrown. (At least one option needs to be provided)'
+  - 'Usage: To insert the image URI amazon/amazon-ecs-sample:latest as the image for the web container in the task
+    definition file, and then deploy the edited task definition file to ECS:'
+  - 'Usage: - name: Render Amazon ECS task definition'
+  - 'Usage: id: render-web-container'
+  - 'Usage: uses: aws-actions/amazon-ecs-render-task-definition@v1'
+  - 'Usage: task-definition: task-definition.json'
+  limitations:
+  - 'Security Disclosures: If you would like to report a potential security issue in this project, please do not
+    create a GitHub issue. Instead, please follow the instructions here or email AWS security directly.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-actions/amazon-ecs-render-task-definition/blob/master/README.md
+  path: README.md
+  blob_sha: f3642287c39fdfd1db16e5ffa4f9ff902364a11c
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: b0d6ceaf51b40ae338311aeb78ff9cefbdc2713f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 83860
+- type: Git tree
+  status: captured
+  sha: f5fdb75c57fcc94d604ae56fdae320d3d15a8f83
+  truncated: false
+- type: source_file
+  path: index.js
+  blob_sha: ec632508f047d7b29047446c0e96925e53a87d71
+  retrieved: true
+- type: source_file
+  path: index.test.js
+  blob_sha: a2e463bde113e35f1ad173ddb14ade61f87ca816
+  retrieved: true

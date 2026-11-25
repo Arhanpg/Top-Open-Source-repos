@@ -1,0 +1,94 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:11:09+00:00'
+evidence_fingerprint: a5e4223655a51f4307a1bade19f26943bb3b36cf2418d3b85adf30b6dbba579f
+repository_metadata:
+  company: Alphabet (Google)
+  account: google
+  full_name: google/ARC-GEN
+  repository_id: 920759800
+  url: https://github.com/google/ARC-GEN
+  description: A Mimetic Procedural Benchmark Generator for the Abstraction and Reasoning Corpus
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-04-18T23:21:42Z'
+  stars: 57
+  readme_url: https://github.com/google/ARC-GEN/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 6d4846622a327bf24995799c3df2ac18d520b2b5
+  manifest_paths: []
+  source_files_inspected:
+  - arc_gen.py
+  - arc_gen_variations.py
+  - common.py
+  - misc/evaluation/BARC/evaluate_using_barc.py
+  repository_tree:
+    status: captured
+    sha: 3c4562451a127c82f91dc1907ac4aff17c13d5ce
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains the source code for *ARC-GEN*, a mimetic procedural benchmark generator for
+    the Abstraction and Reasoning Corpus.
+  why_used: A Mimetic Procedural Benchmark Generator for the Abstraction and Reasoning Corpus
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: arc_gen.py, arc_gen_variations.py,
+    common.py, misc/evaluation/BARC/evaluate_using_barc.py'
+  setup_and_usage:
+  - 'Installation: $ git clone --recurse-submodules https://github.com/google/ARC-GEN.git && cd ARC-GEN'
+  - 'Usage: For **benchmark generation**, use the generate command with two arguments: the task ID, and the desired
+    number of example pairs.'
+  - 'Usage: $ python3 arc_gen.py generate 1e0a9b12 1000'
+  - 'Usage: [{''input'': [[4, 0, 0, 0], [0, 0, 0, 0], [4, 0, 8, 0], [0, 3, 8, 0]], ''output'': ...'
+  - 'Usage: For **validation** (i.e., to ensure that the ARC-GEN generators can collectively reproduce the original
+    ARC-AGI-1 benchmark suite), use the validate command:'
+  - 'Usage: $ python3 arc_gen.py validate'
+  - 'Usage: A total of 400 generators passed.'
+  - 'Usage: A total of 0 generators failed.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google/ARC-GEN/blob/main/README.md
+  path: README.md
+  blob_sha: 6d4846622a327bf24995799c3df2ac18d520b2b5
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 3314701
+- type: Git tree
+  status: captured
+  sha: 3c4562451a127c82f91dc1907ac4aff17c13d5ce
+  truncated: false
+- type: source_file
+  path: arc_gen.py
+  blob_sha: 5ac5c0389181c86389793252f872141fdcfa038d
+  retrieved: true
+- type: source_file
+  path: arc_gen_variations.py
+  blob_sha: 05a71fa053108e8710b2db4bf23010a2aa9082ea
+  retrieved: true
+- type: source_file
+  path: common.py
+  blob_sha: 0f08cf88a1e764e91435f364d5408ec3fc596f18
+  retrieved: true
+- type: source_file
+  path: misc/evaluation/BARC/evaluate_using_barc.py
+  blob_sha: 27a6d32376a8fb45868e48bebf8d2b0f996eeae5
+  retrieved: true

@@ -1,0 +1,131 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:09:09+00:00'
+evidence_fingerprint: b18d287d931949a9b910f5819216e2ab01abb75e820711d1b5954d1136ec8224
+repository_metadata:
+  company: SAP
+  account: cap-java
+  full_name: cap-java/cds-feature-auditlog-ng
+  repository_id: 1011249870
+  url: https://github.com/cap-java/cds-feature-auditlog-ng
+  description: Emit standardized audit log events from Java CAP applications with the Audit Log Service NG Java
+    CAP plugin.  The plugin ensures compatibility with the Audit Log Event Catalog, aligning emitted events with
+    shared semantic conventions for consistency across systems.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-09-04T09:01:46Z'
+  stars: 1
+  readme_url: https://github.com/cap-java/cds-feature-auditlog-ng/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 62dd42c478e8ca2612ae45057865e9ff06d78821
+  manifest_paths:
+  - pom.xml
+  - cds-feature-auditlog-ng/pom.xml
+  source_files_inspected:
+  - cds-feature-auditlog-ng/src/main/java/com/sap/cds/feature/auditlog/ng/AuditLogNG.java
+  - cds-feature-auditlog-ng/src/main/java/com/sap/cds/feature/auditlog/ng/AuditLogNGCommunicator.java
+  - cds-feature-auditlog-ng/src/main/java/com/sap/cds/feature/auditlog/ng/AuditLogNGConfiguration.java
+  - cds-feature-auditlog-ng/src/main/java/com/sap/cds/feature/auditlog/ng/AuditLogNGHandler.java
+  repository_tree:
+    status: captured
+    sha: 7d96646d5b308cc94b7f995767366701b78e5319
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The CDS plugin for SAP Audit Log service enables Java CAP applications to emit audit log events in a
+    standardized way. It is fully compatible with the Audit Log Event Catalog, ensuring standardized event semantics
+    and compatibility.
+  why_used: Emit standardized audit log events from Java CAP applications with the Audit Log Service NG Java CAP
+    plugin.  The plugin ensures compatibility with the Audit Log Event Catalog, aligning emitted events with shared
+    semantic conventions for consistency across systems.
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    frameworks_and_libraries: []
+    dependencies:
+    - bcpkix-jdk18on
+    - bcprov-jdk18on
+    - cds-feature-auditlog-ng
+    - cds-feature-auditlog-ng-root
+    - cds-services-api
+    - cds-services-bom
+    - cds-services-impl
+    - cds-services-utils
+    - central-publishing-maven-plugin
+    - flatten-maven-plugin
+    - jacoco-maven-plugin
+    - json-schema-validator
+    - junit-jupiter
+    - maven-clean-plugin
+    - maven-compiler-plugin
+    - maven-deploy-plugin
+    - maven-enforcer-plugin
+    - maven-gpg-plugin
+    - maven-javadoc-plugin
+    - maven-pmd-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - mockito-bom
+    - mockito-core
+    - sdk-bom
+    - slf4j-api
+    - spotbugs-maven-plugin
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cds-feature-auditlog-ng/src/main/java/com/sap/cds/feature/auditlog/ng/AuditLogNG.java,
+    cds-feature-auditlog-ng/src/main/java/com/sap/cds/feature/auditlog/ng/AuditLogNGCommunicator.java, cds-feature-auditlog-ng/src/main/java/com/sap/cds/feature/auditlog/ng/AuditLogNGConfiguration.java,
+    cds-feature-auditlog-ng/src/main/java/com/sap/cds/feature/auditlog/ng/AuditLogNGHandler.java'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-java/cds-feature-auditlog-ng/blob/main/README.md
+  path: README.md
+  blob_sha: 62dd42c478e8ca2612ae45057865e9ff06d78821
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: 6661c92ba9507ba7237020200759328452e895a5
+  retrieved: true
+- type: manifest
+  path: cds-feature-auditlog-ng/pom.xml
+  blob_sha: 17170304b8f2967e65e272267d92cddb677c4c3b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 119414
+- type: Git tree
+  status: captured
+  sha: 7d96646d5b308cc94b7f995767366701b78e5319
+  truncated: false
+- type: source_file
+  path: cds-feature-auditlog-ng/src/main/java/com/sap/cds/feature/auditlog/ng/AuditLogNG.java
+  blob_sha: eddaa0a0274f75c3391b160e557b26f8cdcb977e
+  retrieved: true
+- type: source_file
+  path: cds-feature-auditlog-ng/src/main/java/com/sap/cds/feature/auditlog/ng/AuditLogNGCommunicator.java
+  blob_sha: f572abee9e4d0690f55914889e41f7b90f826f0f
+  retrieved: true
+- type: source_file
+  path: cds-feature-auditlog-ng/src/main/java/com/sap/cds/feature/auditlog/ng/AuditLogNGConfiguration.java
+  blob_sha: 6c9687bce2c4ce33b7b79ef40342d1a30f0fb7f5
+  retrieved: true
+- type: source_file
+  path: cds-feature-auditlog-ng/src/main/java/com/sap/cds/feature/auditlog/ng/AuditLogNGHandler.java
+  blob_sha: b3a8f21b725fed03687efaeea377877a5db61d03
+  retrieved: true

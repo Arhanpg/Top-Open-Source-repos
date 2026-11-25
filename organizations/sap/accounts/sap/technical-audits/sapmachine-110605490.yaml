@@ -1,0 +1,194 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:26:29+00:00'
+evidence_fingerprint: 63362228e063612b3cecfde351b4d2b33ab99d9fa2703bba009ce23092afef5d
+repository_metadata:
+  company: SAP
+  account: SAP
+  full_name: SAP/SapMachine
+  repository_id: 110605490
+  url: https://github.com/SAP/SapMachine
+  description: An OpenJDK release maintained and supported by SAP
+  default_branch: sapmachine
+  license_spdx: GPL-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T01:05:53Z'
+  stars: 630
+  readme_url: https://github.com/SAP/SapMachine/blob/sapmachine/README.md
+  readme_path: README.md
+  readme_sha: a5f4ce34822b3104dc1372cfabdea9dfad3c9d6a
+  manifest_paths:
+  - Makefile
+  - make/devkit/Makefile
+  - src/utils/IdealGraphVisualizer/pom.xml
+  - src/utils/LogCompilation/Makefile
+  - src/utils/LogCompilation/pom.xml
+  - test/benchmarks/micros-javac/pom.xml
+  source_files_inspected:
+  - src/hotspot/share/adlc/main.cpp
+  - src/java.base/share/native/launcher/main.c
+  - src/java.desktop/macosx/classes/com/apple/eawt/Application.java
+  - src/jdk.compiler/share/classes/com/sun/tools/javac/Main.java
+  repository_tree:
+    status: captured
+    sha: 949c9d8e9874cea765a16c190a9c38b7dc60f33b
+    truncated: true
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: SapMachine is a downstream fork of the OpenJDK project, aimed at providing a binary distribution of OpenJDK
+    for SAP customers and partners.
+  why_used: An OpenJDK release maintained and supported by SAP
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - C++
+    - C
+    - Assembly
+    - Objective-C
+    - HTML
+    - XSLT
+    - M4
+    - Shell
+    - Python
+    - CMake
+    - JavaScript
+    - Cuda
+    - TypeScript
+    - Noir
+    - Wolfram Language
+    - Makefile
+    - DTrace
+    - Metal
+    - Awk
+    - CSS
+    - Perl
+    - GDB
+    - AppleScript
+    - PowerShell
+    - Pawn
+    - Batchfile
+    - Raku
+    - sed
+    - BitBake
+    - AMPL
+    - Red
+    frameworks_and_libraries: []
+    dependencies:
+    - IdealGraphVisualizer-parent
+    - LogCompilation
+    - jmh-core
+    - jmh-generator-annprocess
+    - junit
+    - maven-antrun-plugin
+    - maven-compiler-plugin
+    - maven-deploy-plugin
+    - maven-enforcer-plugin
+    - maven-jar-plugin
+    - maven-javadoc-plugin
+    - maven-release-plugin
+    - maven-shade-plugin
+    - maven-surefire-plugin
+    - micros-javac
+    - nbm-maven-plugin
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/hotspot/share/adlc/main.cpp,
+    src/java.base/share/native/launcher/main.c, src/java.desktop/macosx/classes/com/apple/eawt/Application.java,
+    src/jdk.compiler/share/classes/com/sun/tools/javac/Main.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP/SapMachine/blob/sapmachine/README.md
+  path: README.md
+  blob_sha: a5f4ce34822b3104dc1372cfabdea9dfad3c9d6a
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 751574e962031a524bc46a06b290ed15ac44035e
+  retrieved: true
+- type: manifest
+  path: make/devkit/Makefile
+  blob_sha: 41ebb8b980c64290c0798c2d70d196ae78013ff1
+  retrieved: true
+- type: manifest
+  path: src/utils/IdealGraphVisualizer/pom.xml
+  blob_sha: fbae6cdc209429ec1d7ed4d03bf6b20202284e07
+  retrieved: true
+- type: manifest
+  path: src/utils/LogCompilation/Makefile
+  blob_sha: 6ab946abc2099b396dfda08051d11a5d5dfc5943
+  retrieved: true
+- type: manifest
+  path: src/utils/LogCompilation/pom.xml
+  blob_sha: 083df36261044452b0cff9dbdf19d9d1427ca1e3
+  retrieved: true
+- type: manifest
+  path: test/benchmarks/micros-javac/pom.xml
+  blob_sha: 4dc0962e9c4c8992486beed6af4dd001a7fdc14d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 392709001
+    C++: 77035663
+    C: 40856304
+    Assembly: 14016515
+    Objective-C: 1970313
+    HTML: 1316592
+    XSLT: 1150170
+    M4: 821853
+    Shell: 688230
+    Python: 332193
+    CMake: 214772
+    JavaScript: 87531
+    Cuda: 51926
+    TypeScript: 43752
+    Noir: 39007
+    Wolfram Language: 38164
+    Makefile: 37009
+    DTrace: 32478
+    Metal: 32110
+    Awk: 29010
+    CSS: 16470
+    Perl: 12746
+    GDB: 6820
+    AppleScript: 6565
+    PowerShell: 5232
+    Pawn: 4585
+    Batchfile: 3199
+    Raku: 2253
+    sed: 1429
+    BitBake: 1221
+    AMPL: 1138
+    Red: 396
+- type: Git tree
+  status: captured
+  sha: 949c9d8e9874cea765a16c190a9c38b7dc60f33b
+  truncated: true
+- type: source_file
+  path: src/hotspot/share/adlc/main.cpp
+  blob_sha: 5b244eca34f9422f7cc91d79b3288088c8aa498b
+  retrieved: true
+- type: source_file
+  path: src/java.base/share/native/launcher/main.c
+  blob_sha: 6fa2a29dc7bf28fc22064d6e3c460e2ecd9085bb
+  retrieved: true
+- type: source_file
+  path: src/java.desktop/macosx/classes/com/apple/eawt/Application.java
+  blob_sha: 137aa864510e9b0f3348c5dbcaaabd397c9293c7
+  retrieved: true
+- type: source_file
+  path: src/jdk.compiler/share/classes/com/sun/tools/javac/Main.java
+  blob_sha: 7e785322eb36f71649f5259f9f88d164a4f12c4f
+  retrieved: true

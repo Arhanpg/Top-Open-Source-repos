@@ -1,0 +1,223 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:22:34+00:00'
+evidence_fingerprint: 0291da29227f0338c10f1d627a1cc1197aa6ea949541c0dad1c554b88f6670d3
+repository_metadata:
+  company: Amazon
+  account: bottlerocket-os
+  full_name: bottlerocket-os/bottlerocket-core-kit
+  repository_id: 810418424
+  url: https://github.com/bottlerocket-os/bottlerocket-core-kit
+  description: A kit with core software packaged for Bottlerocket
+  default_branch: develop
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T19:35:22Z'
+  stars: 36
+  readme_url: https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: 1f3ef5b98b6c7c69069deb0adfdf68be41da4616
+  manifest_paths:
+  - Cargo.toml
+  - Makefile
+  - sources/Cargo.toml
+  - kits/bottlerocket-core-kit/Cargo.toml
+  - packages/amazon-ecs-cni-plugins/Cargo.toml
+  - packages/amazon-ssm-agent/Cargo.toml
+  source_files_inspected:
+  - sources/api/apiclient/src/lib.rs
+  - sources/api/apiclient/src/main.rs
+  - sources/api/apiserver/src/lib.rs
+  - sources/api/apiserver/src/server/mod.rs
+  repository_tree:
+    status: captured
+    sha: 52a5a3792e5d929547ef93def6ae91fa1b5d940a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is the core kit for Bottlerocket. It includes many common dependencies for downstream package and
+    variant builds.
+  why_used: A kit with core software packaged for Bottlerocket
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    - Go
+    - Shell
+    - Makefile
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - amazon-ecs-cni-plugins
+    - amazon-ssm-agent
+    - amazon-vpc-cni-plugins
+    - aws-iam-authenticator
+    - aws-otel-collector
+    - aws-signer-notation-plugin
+    - aws-signing-helper
+    - bash
+    - binutils
+    - chrony
+    - cni
+    - cni-plugins
+    - conntrack-tools
+    - containerd-1_7
+    - containerd-2_2
+    - containerd-2_3
+    - coreutils
+    - cri-tools
+    - dbus-broker
+    - docker-cli-25
+    - docker-cli-29
+    - docker-engine-25
+    - docker-engine-29
+    - docker-init
+    - dranet
+    - e2fsprogs
+    - early-boot-config
+    - ecr-credential-helper
+    - ecr-credential-provider-1_31
+    - ecr-credential-provider-1_32
+    - ecr-credential-provider-1_33
+    - ecr-credential-provider-1_34
+    - ecr-credential-provider-1_35
+    - ecr-credential-provider-1_36
+    - ecr-credential-provider-1_37
+    - ecs-agent
+    - ecs-gpu-init
+    - erofs-utils
+    - ethtool
+    - filesystem
+    - findutils
+    - glibc
+    - grep
+    - host-ctr
+    - hwloc
+    - iproute
+    - iptables
+    - iputils
+    - kexec-tools
+    - keyutils
+    - kmod
+    - kubernetes-1_31
+    - kubernetes-1_32
+    - kubernetes-1_33
+    - kubernetes-1_34
+    - kubernetes-1_35
+    - kubernetes-1_36
+    - kubernetes-1_37
+    - libacl
+    - libaio
+    - libattr
+    - libaudit
+    - libbpf
+    - libcap
+    - libcrypto
+    - libcryptsetup
+    - libdevmapper
+    - libelf
+    - libffi
+    - libgcc
+    - libglib
+    - libinih
+    - libisal
+    - libjansson
+    - libjson-c
+    - libmnl
+    - libncurses
+    - libnetfilter_conntrack
+    - libnetfilter_cthelper
+    - libnetfilter_cttimeout
+    - libnetfilter_queue
+    - libnfnetlink
+    - libnftnl
+    - libnl
+    - libnvidia-container
+    - libnvme
+    - libpcre
+    - libpopt
+    - libseccomp
+    - libselinux
+    - libsemanage
+    - libsepol
+    - libstd-rust
+    - libtirpc
+    - libtss2
+    - liburcu
+    - libxcrypt
+    - libz
+    - libzstd
+    - login
+    build_and_package_tools:
+    - Cargo manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: sources/api/apiclient/src/lib.rs,
+    sources/api/apiclient/src/main.rs, sources/api/apiserver/src/lib.rs, sources/api/apiserver/src/server/mod.rs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/README.md
+  path: README.md
+  blob_sha: 1f3ef5b98b6c7c69069deb0adfdf68be41da4616
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: 3b51702903c87ab4e9e71b78955252a610e00203
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: a5a371389cabcc565b88610ff8093e0f38e0125c
+  retrieved: true
+- type: manifest
+  path: sources/Cargo.toml
+  blob_sha: 92400d59032abdaff2f5504ce2d1c7373c823046
+  retrieved: true
+- type: manifest
+  path: kits/bottlerocket-core-kit/Cargo.toml
+  blob_sha: ef540bcf0566820ee8cd2a0f5be060c2657e984e
+  retrieved: true
+- type: manifest
+  path: packages/amazon-ecs-cni-plugins/Cargo.toml
+  blob_sha: d7ce9e1408d5c7d95236c196d43301da273374b4
+  retrieved: true
+- type: manifest
+  path: packages/amazon-ssm-agent/Cargo.toml
+  blob_sha: a9424d28a56ce2193f4b215983ac451f74c6f66d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 2387713
+    Go: 72492
+    Shell: 17581
+    Makefile: 1924
+    JavaScript: 1893
+- type: Git tree
+  status: captured
+  sha: 52a5a3792e5d929547ef93def6ae91fa1b5d940a
+  truncated: false
+- type: source_file
+  path: sources/api/apiclient/src/lib.rs
+  blob_sha: 1c8b27a72f3f642f87228a4cf695ce920fca2b48
+  retrieved: true
+- type: source_file
+  path: sources/api/apiclient/src/main.rs
+  blob_sha: 92e22c10823fa1797db13432f77bcab686f162ed
+  retrieved: true
+- type: source_file
+  path: sources/api/apiserver/src/lib.rs
+  blob_sha: 5b4b7e7c938cf83a0ed524d51d6c3a93416e048b
+  retrieved: true
+- type: source_file
+  path: sources/api/apiserver/src/server/mod.rs
+  blob_sha: 78acb93a2ce2e3bd7e410d22a727852a2efb339c
+  retrieved: true

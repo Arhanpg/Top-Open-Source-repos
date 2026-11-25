@@ -1,0 +1,85 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:23:05+00:00'
+evidence_fingerprint: 83d577946614e22514d496c96f2db0d6158e69e72f5421a43512c21d951149ab
+repository_metadata:
+  company: Amazon
+  account: freertos
+  full_name: FreeRTOS/FreeRTOS-Cellular-Interface-Community-Supported-Ports
+  repository_id: 426703199
+  url: https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface-Community-Supported-Ports
+  description: null
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-12-14T04:02:15Z'
+  stars: 10
+  readme_url: https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface-Community-Supported-Ports/blob/main/README.md
+  readme_path: README.md
+  readme_sha: dbd095106fb24873ff9451ed3677caabe0fc0892
+  manifest_paths: []
+  source_files_inspected:
+  - qgsm/cellular_qgsm.c
+  - qgsm/cellular_qgsm.h
+  - qgsm/cellular_qgsm_api.c
+  - qgsm/cellular_qgsm_urc_handler.c
+  repository_tree:
+    status: captured
+    sha: ab31a60654493a2e9ee52044a0fcd10c086aff80
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains the cellular module ports supported by FreeRTOS community members. We welcome
+    your contribution to expand the catalog of modems.
+  why_used: This repository contains the cellular module ports supported by FreeRTOS community members. We welcome
+    your contribution to expand the catalog of modems.
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: qgsm/cellular_qgsm.c,
+    qgsm/cellular_qgsm.h, qgsm/cellular_qgsm_api.c, qgsm/cellular_qgsm_urc_handler.c'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/FreeRTOS/FreeRTOS-Cellular-Interface-Community-Supported-Ports/blob/main/README.md
+  path: README.md
+  blob_sha: dbd095106fb24873ff9451ed3677caabe0fc0892
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 315482
+- type: Git tree
+  status: captured
+  sha: ab31a60654493a2e9ee52044a0fcd10c086aff80
+  truncated: false
+- type: source_file
+  path: qgsm/cellular_qgsm.c
+  blob_sha: b5032917e9e5d6bad5e1de1f46bcf5bc430268b4
+  retrieved: true
+- type: source_file
+  path: qgsm/cellular_qgsm.h
+  blob_sha: 8cf2b8fddd955f4267e49b699d234806524d51fd
+  retrieved: true
+- type: source_file
+  path: qgsm/cellular_qgsm_api.c
+  blob_sha: 50211555a0e45dc33f97be6ba476aed97f44eb2d
+  retrieved: true
+- type: source_file
+  path: qgsm/cellular_qgsm_urc_handler.c
+  blob_sha: 73c9491ba6daab9b583ed9939ca6a1b56623a3dc
+  retrieved: true

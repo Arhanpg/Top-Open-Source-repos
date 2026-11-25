@@ -1,0 +1,106 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:23:37+00:00'
+evidence_fingerprint: 1e75f04bfec40fbced6020dfa28479722614608ec8ee1f595164f8842a63d67d
+repository_metadata:
+  company: Apple
+  account: ml-explore
+  full_name: ml-explore/mlx-lm
+  repository_id: 946767878
+  url: https://github.com/ml-explore/mlx-lm
+  description: Run LLMs with MLX
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T04:00:13Z'
+  stars: 7744
+  readme_url: https://github.com/ml-explore/mlx-lm/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ab749b340175ea0fdc4c5b9f27253a8e291aa98d
+  manifest_paths:
+  - pyproject.toml
+  source_files_inspected:
+  - mlx_lm/__main__.py
+  - mlx_lm/cli.py
+  - mlx_lm/server.py
+  - mlx_lm/server_v2/__main__.py
+  repository_tree:
+    status: captured
+    sha: 54ef9d703550bb29aedd76924426fbcdef4f5685
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: MLX LM is a Python package for generating text and fine-tuning large language models on Apple silicon
+    with MLX.
+  why_used: Run LLMs with MLX
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - jinja2
+    - mlx
+    - numpy
+    - pillow
+    - protobuf
+    - pyyaml
+    - sentencepiece
+    - transformers
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: mlx_lm/__main__.py,
+    mlx_lm/cli.py, mlx_lm/server.py, mlx_lm/server_v2/__main__.py'
+  setup_and_usage:
+  - 'Quick Start: To generate text with an LLM use:'
+  - 'Quick Start: mlx_lm.generate --prompt "How tall is Mt Everest?"'
+  - 'Quick Start: To chat with an LLM use:'
+  - 'Quick Start: This will give you a chat REPL that you can use to interact with the LLM. The'
+  - 'Quick Start: chat context is preserved during the lifetime of the REPL.'
+  - 'Quick Start: Commands in mlx-lm typically take command line options which let you specify'
+  - 'Quick Start: the model, sampling parameters, and more. Use -h to see a list of available'
+  - 'Quick Start: options for a command, e.g.:'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ml-explore/mlx-lm/blob/main/README.md
+  path: README.md
+  blob_sha: ab749b340175ea0fdc4c5b9f27253a8e291aa98d
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: e4694f829c0d1b745ad9badf6c55232ddcd07292
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 2779947
+- type: Git tree
+  status: captured
+  sha: 54ef9d703550bb29aedd76924426fbcdef4f5685
+  truncated: false
+- type: source_file
+  path: mlx_lm/__main__.py
+  blob_sha: e46fc3525588c370029d70bf09ff6069788c41b2
+  retrieved: true
+- type: source_file
+  path: mlx_lm/cli.py
+  blob_sha: 25acda197049dfd365b510b5ef6eddebba59f3b9
+  retrieved: true
+- type: source_file
+  path: mlx_lm/server.py
+  blob_sha: f30e2bd5e9bd42733704d59bb34713726119f1f7
+  retrieved: true
+- type: source_file
+  path: mlx_lm/server_v2/__main__.py
+  blob_sha: c0358a9e43c5d0f385f16c58ac9abae82f1d9799
+  retrieved: true

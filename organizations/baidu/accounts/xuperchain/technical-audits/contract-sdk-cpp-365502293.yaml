@@ -1,0 +1,96 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:24:17+00:00'
+evidence_fingerprint: 3ddbce6781a292561113d3670e8c6c9ff84f838b3d9f2f27a5cd520da27142b1
+repository_metadata:
+  company: Baidu
+  account: xuperchain
+  full_name: xuperchain/contract-sdk-cpp
+  repository_id: 365502293
+  url: https://github.com/xuperchain/contract-sdk-cpp
+  description: The Cpp SDK for XuperChain smart contract
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2022-09-26T08:32:34Z'
+  stars: 5
+  readme_url: https://github.com/xuperchain/contract-sdk-cpp/blob/main/README.md
+  readme_path: README.md
+  readme_sha: d7e84c3978ca7aba0284819b69831681dd14e33a
+  manifest_paths:
+  - Makefile
+  source_files_inspected:
+  - example/anchor/src/anchor.cc
+  - example/anchor/src/anchor.pb.cc
+  - example/anchor/src/anchor.pb.h
+  - example/cross_query_demo/src/main.cc
+  repository_tree:
+    status: captured
+    sha: a4b446dc51197b7ad90b143f06decf71a62244ca
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Cpp SDK for XuperChain smart contract
+  why_used: The Cpp SDK for XuperChain smart contract
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - JavaScript
+    - Dockerfile
+    - Shell
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: example/anchor/src/anchor.cc,
+    example/anchor/src/anchor.pb.cc, example/anchor/src/anchor.pb.h, example/cross_query_demo/src/main.cc'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/xuperchain/contract-sdk-cpp/blob/main/README.md
+  path: README.md
+  blob_sha: d7e84c3978ca7aba0284819b69831681dd14e33a
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 5fe7c33979cbc3ed7cc219eea1b5b62255eea4fe
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 1063735
+    JavaScript: 28454
+    Dockerfile: 2571
+    Shell: 902
+    Makefile: 229
+- type: Git tree
+  status: captured
+  sha: a4b446dc51197b7ad90b143f06decf71a62244ca
+  truncated: false
+- type: source_file
+  path: example/anchor/src/anchor.cc
+  blob_sha: a6a8576bc94efdf876429ddad2653f64d7a524b5
+  retrieved: true
+- type: source_file
+  path: example/anchor/src/anchor.pb.cc
+  blob_sha: 9a1eb5017648fad9f23e40f361dbd022fdd623ee
+  retrieved: true
+- type: source_file
+  path: example/anchor/src/anchor.pb.h
+  blob_sha: 1adab306f6d20c6d56da7384ab7c88675be6d968
+  retrieved: true
+- type: source_file
+  path: example/cross_query_demo/src/main.cc
+  blob_sha: a3b1b8cf6dbd7e69701518204a4be8405975627d
+  retrieved: true

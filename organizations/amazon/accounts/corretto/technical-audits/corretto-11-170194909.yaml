@@ -1,0 +1,168 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:06:08+00:00'
+evidence_fingerprint: cd3281066f5140366f7f6fa27720b8499623343f1bf0216204941b4067d454a9
+repository_metadata:
+  company: Amazon
+  account: corretto
+  full_name: corretto/corretto-11
+  repository_id: 170194909
+  url: https://github.com/corretto/corretto-11
+  description: 'Amazon Corretto 11 is a no-cost, multi-platform, production-ready distribution of OpenJDK 11 '
+  default_branch: develop
+  license_spdx: GPL-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T08:05:28Z'
+  stars: 676
+  readme_url: https://github.com/corretto/corretto-11/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: ff8f1496157ebcada239558f9c5e4c5a2f4421c2
+  manifest_paths:
+  - build.gradle
+  - Makefile
+  - test/Makefile
+  - make/devkit/Makefile
+  - test/failure_handler/Makefile
+  - test/jaxp/Makefile
+  source_files_inspected:
+  - make/nashorn/buildtools/nasgen/src/jdk/nashorn/internal/tools/nasgen/Main.java
+  - src/hotspot/share/adlc/main.cpp
+  - src/java.base/share/native/launcher/main.c
+  - src/java.desktop/macosx/classes/com/apple/eawt/Application.java
+  repository_tree:
+    status: captured
+    sha: 8f41768e632641a20eed25368e0c576690d3e992
+    truncated: true
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Amazon Corretto is a no-cost, multiplatform, production-ready distribution of the Open Java Development
+    Kit (OpenJDK). Corretto is used internally at Amazon for production services. With Corretto, you can develop
+    and run Java applications on operating systems such as Amazon Linux 2, Windows, and macOS.
+  why_used: Amazon Corretto 11 is a no-cost, multi-platform, production-ready distribution of OpenJDK 11
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - C++
+    - C
+    - JavaScript
+    - Roff
+    - HTML
+    - Objective-C
+    - XSLT
+    - Shell
+    - M4
+    - Python
+    - Assembly
+    - Makefile
+    - IL Assembly
+    - DTrace
+    - TypeScript
+    - Noir
+    - Awk
+    - Perl
+    - CSS
+    - Batchfile
+    - GDB
+    - Wolfram Language
+    - sed
+    - Raku
+    - Red
+    - SourcePawn
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle build file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: make/nashorn/buildtools/nasgen/src/jdk/nashorn/internal/tools/nasgen/Main.java,
+    src/hotspot/share/adlc/main.cpp, src/java.base/share/native/launcher/main.c, src/java.desktop/macosx/classes/com/apple/eawt/Application.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/corretto/corretto-11/blob/develop/README.md
+  path: README.md
+  blob_sha: ff8f1496157ebcada239558f9c5e4c5a2f4421c2
+  retrieved: true
+- type: manifest
+  path: build.gradle
+  blob_sha: e5d6981ef3f3d01da7f636c70ae9de2f8ed7a0f7
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: ebe52d5d7f2fa6d4104b543c684732182ad60da5
+  retrieved: true
+- type: manifest
+  path: test/Makefile
+  blob_sha: 3b92b8d5081d5885d4ef56d5f63e05e2613f2b96
+  retrieved: true
+- type: manifest
+  path: make/devkit/Makefile
+  blob_sha: c85a7c21d29396b5cfbb32986c03f084f09dc7a8
+  retrieved: true
+- type: manifest
+  path: test/failure_handler/Makefile
+  blob_sha: d8c71964bdce9ea4c765c10ce71086e0465274e5
+  retrieved: true
+- type: manifest
+  path: test/jaxp/Makefile
+  blob_sha: 48e23c1a201acc0f9cef33150102bf53ca89a3f3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 355604598
+    C++: 64235222
+    C: 26873729
+    JavaScript: 4775066
+    Roff: 3418257
+    HTML: 1653012
+    Objective-C: 1391761
+    XSLT: 1139708
+    Shell: 939277
+    M4: 521621
+    Python: 331576
+    Assembly: 143682
+    Makefile: 79377
+    IL Assembly: 73733
+    DTrace: 49684
+    TypeScript: 43752
+    Noir: 39007
+    Awk: 21604
+    Perl: 12459
+    CSS: 7813
+    Batchfile: 5118
+    GDB: 5017
+    Wolfram Language: 4420
+    sed: 3129
+    Raku: 2253
+    Red: 396
+    SourcePawn: 222
+- type: Git tree
+  status: captured
+  sha: 8f41768e632641a20eed25368e0c576690d3e992
+  truncated: true
+- type: source_file
+  path: make/nashorn/buildtools/nasgen/src/jdk/nashorn/internal/tools/nasgen/Main.java
+  blob_sha: d701e2a079cf748a91a55989e63f0a5df0d324fe
+  retrieved: true
+- type: source_file
+  path: src/hotspot/share/adlc/main.cpp
+  blob_sha: fd0f4504498780aefa933fe351e8dba35a202c48
+  retrieved: true
+- type: source_file
+  path: src/java.base/share/native/launcher/main.c
+  blob_sha: 8e806e813fcaf333d2edd32879b0c40d9b7c3cd8
+  retrieved: true
+- type: source_file
+  path: src/java.desktop/macosx/classes/com/apple/eawt/Application.java
+  blob_sha: 9bcafeae1b117068af5e3df1124056ae4f651ea6
+  retrieved: true

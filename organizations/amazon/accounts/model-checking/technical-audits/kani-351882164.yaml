@@ -1,0 +1,170 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:23:14+00:00'
+evidence_fingerprint: c23af11ac21aa2124b188ece30497687ea4d086abff0ec82505d47a8320526ca
+repository_metadata:
+  company: Amazon
+  account: model-checking
+  full_name: model-checking/kani
+  repository_id: 351882164
+  url: https://github.com/model-checking/kani
+  description: A model checker for Rust programs.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T19:36:36Z'
+  stars: 3745
+  readme_url: https://github.com/model-checking/kani/blob/main/README.md
+  readme_path: README.md
+  readme_sha: d65d12aae43576a16bd66bec87d0e4a1eecc75a8
+  manifest_paths:
+  - Cargo.toml
+  - cprover_bindings/Cargo.toml
+  - kani-compiler/Cargo.toml
+  - kani-driver/Cargo.toml
+  - kani_metadata/Cargo.toml
+  - scripts/pyproject.toml
+  source_files_inspected:
+  - cprover_bindings/src/goto_program/mod.rs
+  - cprover_bindings/src/irep/mod.rs
+  - cprover_bindings/src/lib.rs
+  - kani-compiler/src/codegen_aeneas_llbc/mod.rs
+  repository_tree:
+    status: captured
+    sha: c3a3e2cb947083f247b52e63224ee62fe3538688
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Kani Rust Verifier is a bit-precise model checker for Rust.
+  why_used: A model checker for Rust programs.
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    - Shell
+    - Python
+    - C
+    - C++
+    frameworks_and_libraries: []
+    dependencies:
+    - anyhow
+    - cargo_metadata
+    - cbmc
+    - charon
+    - clap
+    - comfy-table
+    - console
+    - home
+    - indexmap
+    - indicatif
+    - itertools
+    - kani_metadata
+    - lazy_static
+    - linear-map
+    - memuse
+    - num
+    - num-traits
+    - once_cell
+    - os_info
+    - pathdiff
+    - quote
+    - rayon
+    - regex
+    - rustc-demangle
+    - rustc-hash
+    - serde
+    - serde_json
+    - serde_test
+    - sha1-checked
+    - sha2
+    - string-interner
+    - strum
+    - strum_macros
+    - syn
+    - tempfile
+    - time
+    - to_markdown_table
+    - tokio
+    - toml
+    - tracing
+    - tracing-subscriber
+    - tracing-tree
+    - which
+    build_and_package_tools:
+    - Cargo manifest
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cprover_bindings/src/goto_program/mod.rs,
+    cprover_bindings/src/irep/mod.rs, cprover_bindings/src/lib.rs, kani-compiler/src/codegen_aeneas_llbc/mod.rs'
+  setup_and_usage:
+  - 'Installation: To install the latest version of Kani (Rust 1.58+; Linux or Mac), run:'
+  - 'Installation: cargo install --locked kani-verifier'
+  - 'Installation: See the installation guide for more details.'
+  limitations:
+  - 'Security: See SECURITY for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/model-checking/kani/blob/main/README.md
+  path: README.md
+  blob_sha: d65d12aae43576a16bd66bec87d0e4a1eecc75a8
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: 2a4894081cf13d9e8bb72342513864dad714866c
+  retrieved: true
+- type: manifest
+  path: cprover_bindings/Cargo.toml
+  blob_sha: a406fcc95b7d8c7ca06cdbff3d8cefc9cefb96c6
+  retrieved: true
+- type: manifest
+  path: kani-compiler/Cargo.toml
+  blob_sha: 7d11a2a4ea7724a4a3d6d87ac30a6a3018fd4e6f
+  retrieved: true
+- type: manifest
+  path: kani-driver/Cargo.toml
+  blob_sha: 44ccb6a96b01b6039945603f0cc3fbd276ba7a13
+  retrieved: true
+- type: manifest
+  path: kani_metadata/Cargo.toml
+  blob_sha: dcf31f1a716b50dae7eeb40bebf858421857c6b6
+  retrieved: true
+- type: manifest
+  path: scripts/pyproject.toml
+  blob_sha: 584156e5eee45789cc2885e984c4b6c638182438
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 5640144
+    Shell: 210646
+    Python: 170468
+    C: 8325
+    C++: 1434
+- type: Git tree
+  status: captured
+  sha: c3a3e2cb947083f247b52e63224ee62fe3538688
+  truncated: false
+- type: source_file
+  path: cprover_bindings/src/goto_program/mod.rs
+  blob_sha: 4d17be37f0815af78ced9842903e0fc834709dcf
+  retrieved: true
+- type: source_file
+  path: cprover_bindings/src/irep/mod.rs
+  blob_sha: 29c585bdb42b2c2fd6d97b339eef5ec1d31afd06
+  retrieved: true
+- type: source_file
+  path: cprover_bindings/src/lib.rs
+  blob_sha: c22bcb5eb4289d7fb6fe501340479d1f3e7e2cb6
+  retrieved: true
+- type: source_file
+  path: kani-compiler/src/codegen_aeneas_llbc/mod.rs
+  blob_sha: 085c42ea41197100289f4ed7ea3b0e5cc0663e3d
+  retrieved: true

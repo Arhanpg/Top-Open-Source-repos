@@ -1,0 +1,303 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:26:35+00:00'
+evidence_fingerprint: e9d91fee765b00d17d36a01862c3bda0ab68cde3680ddd909149727e5bc368a1
+repository_metadata:
+  company: SAP
+  account: SAP-cloud-infrastructure
+  full_name: SAP-cloud-infrastructure/maia
+  repository_id: 91986617
+  url: https://github.com/SAP-cloud-infrastructure/maia
+  description: Prometheus dressed as OpenStack service
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T12:00:27Z'
+  stars: 17
+  readme_url: https://github.com/SAP-cloud-infrastructure/maia/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 361762bb4d520d0e35131d11327de2b67e50d725
+  manifest_paths:
+  - Dockerfile
+  - go.mod
+  - Makefile
+  - web/ui/package.json
+  - web/ui/mantine-ui/package.json
+  - web/ui/module/codemirror-promql/package.json
+  source_files_inspected:
+  - web/ui/mantine-ui/src/promql/tools/gen_functions_docs/main.go
+  - web/ui/mantine-ui/src/promql/tools/gen_functions_list/main.go
+  - web/ui/module/codemirror-promql/src/client/index.ts
+  - web/ui/module/codemirror-promql/src/complete/index.ts
+  repository_tree:
+    status: captured
+    sha: abd18578cb92982bff9026a71a065c5a8d40f051
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'SPDX-FileCopyrightText: 2025 SAP SE or an SAP affiliate company'
+  why_used: Prometheus dressed as OpenStack service
+  core_features:
+  - name: Multi-tenant Prometheus API offering isolation and resource restriction
+    description: Multi-tenant Prometheus API offering isolation and resource restriction
+    evidence:
+    - README.md#Features
+  - name: Supports both project and domain-based authentication from OpenStack
+    description: Supports both project and domain-based authentication from OpenStack
+    evidence:
+    - README.md#Features
+  - name: '**Global region support** for virtual region metric queries using global keystone authentication'
+    description: '**Global region support** for virtual region metric queries using global keystone authentication'
+    evidence:
+    - README.md#Features
+  - name: Fetches required service endpoints from Keystone service catalog
+    description: Fetches required service endpoints from Keystone service catalog
+    evidence:
+    - README.md#Features
+  - name: JSON Web Token validation for the OpenStack Elektra UI
+    description: JSON Web Token validation for the OpenStack Elektra UI
+    evidence:
+    - README.md#Features
+  - name: OpenStack Identity v3 authentication and authorization
+    description: OpenStack Identity v3 authentication and authorization
+    evidence:
+    - README.md#Features
+  - name: Project- and domain-level access control (scoping)
+    description: Project- and domain-level access control (scoping)
+    evidence:
+    - README.md#Features
+  - name: Compatible to Grafana's Prometheus data source
+    description: Compatible to Grafana's Prometheus data source
+    evidence:
+    - README.md#Features
+  - name: Compatible to Prometheus API (read-only)
+    description: Compatible to Prometheus API (read-only)
+    evidence:
+    - README.md#Features
+  - name: Supports secure federation to additional Prometheus instances
+    description: Supports secure federation to additional Prometheus instances
+    evidence:
+    - README.md#Features
+  - name: Prometheus expression browser adapted to Maia
+    description: Prometheus expression browser adapted to Maia
+    evidence:
+    - README.md#Features
+  - name: Browse projects and metrics
+    description: Browse projects and metrics
+    evidence:
+    - README.md#Features
+  - name: Perform ad-hoc PromQL queries
+    description: Perform ad-hoc PromQL queries
+    evidence:
+    - README.md#Features
+  - name: Graph metrics
+    description: Graph metrics
+    evidence:
+    - README.md#Features
+  - name: Feature-complete CLI supporting all API operations
+    description: Feature-complete CLI supporting all API operations
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - TypeScript
+    - Go
+    - Makefile
+    - CSS
+    - Shell
+    - JavaScript
+    - Dockerfile
+    - HTML
+    - Go Template
+    - Nix
+    frameworks_and_libraries: []
+    dependencies:
+    - '@codemirror/autocomplete'
+    - '@codemirror/commands'
+    - '@codemirror/language'
+    - '@codemirror/lint'
+    - '@codemirror/search'
+    - '@codemirror/state'
+    - '@codemirror/view'
+    - '@eslint/compat'
+    - '@eslint/eslintrc'
+    - '@eslint/js'
+    - '@floating-ui/dom'
+    - '@lezer/common'
+    - '@lezer/highlight'
+    - '@lezer/lr'
+    - '@mantine/code-highlight'
+    - '@mantine/core'
+    - '@mantine/dates'
+    - '@mantine/hooks'
+    - '@mantine/notifications'
+    - '@microsoft/fetch-event-source'
+    - '@nexucis/fuzzy'
+    - '@nexucis/kvsearch'
+    - '@prometheus-io/codemirror-promql'
+    - '@prometheus-io/lezer-promql'
+    - '@reduxjs/toolkit'
+    - '@tabler/icons-react'
+    - '@tanstack/react-query'
+    - '@testing-library/jest-dom'
+    - '@testing-library/react'
+    - '@types/jest'
+    - '@types/lodash'
+    - '@types/react'
+    - '@types/react-dom'
+    - '@types/sanitize-html'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - '@uiw/react-codemirror'
+    - '@vitejs/plugin-react'
+    - clsx
+    - dayjs
+    - eslint
+    - eslint-config-prettier
+    - eslint-plugin-prettier
+    - eslint-plugin-react-hooks
+    - eslint-plugin-react-refresh
+    - github.com/beorn7/perks
+    - github.com/cespare/xxhash/v2
+    - github.com/databus23/goslo.policy
+    - github.com/dennwc/varint
+    - github.com/fsnotify/fsnotify
+    - github.com/go-viper/mapstructure/v2
+    - github.com/gophercloud/gophercloud/v2
+    - github.com/gorilla/mux
+    - github.com/grafana/regexp
+    - github.com/h2non/gock
+    - github.com/h2non/parth
+    - github.com/inconshreveable/mousetrap
+    - github.com/munnerz/goautoneg
+    - github.com/pandatix/go-abnf
+    - github.com/patrickmn/go-cache
+    - github.com/pelletier/go-toml/v2
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/prometheus/prometheus
+    - github.com/rs/cors
+    - github.com/sagikazarmark/locafero
+    - github.com/sapcc/go-bits
+    - github.com/sourcegraph/conc
+    - github.com/spf13/afero
+    - github.com/spf13/cast
+    - github.com/spf13/cobra
+    - github.com/spf13/pflag
+    - github.com/spf13/viper
+    - github.com/stretchr/testify
+    - github.com/subosito/gotenv
+    - globals
+    - go.uber.org/atomic
+    - go.uber.org/mock
+    - go.yaml.in/yaml/v3
+    - golang.org/x/sys
+    - golang.org/x/text
+    - google.golang.org/protobuf
+    - highlight.js
+    - isomorphic-fetch
+    - jsdom
+    - lodash
+    - lru-cache
+    - nock
+    - postcss
+    - postcss-preset-mantine
+    - postcss-simple-vars
+    - prettier
+    - react
+    - react-dom
+    - react-infinite-scroll-component
+    - react-redux
+    - react-router-dom
+    - sanitize-html
+    - ts-jest
+    - typescript
+    - uplot
+    - use-query-params
+    - vite
+    - vitest
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: web/ui/mantine-ui/src/promql/tools/gen_functions_docs/main.go,
+    web/ui/mantine-ui/src/promql/tools/gen_functions_list/main.go, web/ui/module/codemirror-promql/src/client/index.ts,
+    web/ui/module/codemirror-promql/src/complete/index.ts'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions in
+    our security policy on how to report it. Please do not create GitHub issues for security-related doubts or problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP-cloud-infrastructure/maia/blob/master/README.md
+  path: README.md
+  blob_sha: 361762bb4d520d0e35131d11327de2b67e50d725
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 5f2590b1f66bacbf09b432d049d1ec0b88364072
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 750865c142599542ba689494d6488450d115bb53
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 228bdc43f107e29e5308c1c5331a1a3bdfe7c58b
+  retrieved: true
+- type: manifest
+  path: web/ui/package.json
+  blob_sha: 9a3da60852ace2c60465d5d407f9f404634099d1
+  retrieved: true
+- type: manifest
+  path: web/ui/mantine-ui/package.json
+  blob_sha: a22e8c2642d5e5bf7c4ed84e51b51d46dfa7eedb
+  retrieved: true
+- type: manifest
+  path: web/ui/module/codemirror-promql/package.json
+  blob_sha: 7c73ac6475a66b3f73923e9a07f0a48319406d33
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 1030378
+    Go: 285530
+    Makefile: 15741
+    CSS: 13993
+    Shell: 11065
+    JavaScript: 9576
+    Dockerfile: 3097
+    HTML: 1076
+    Go Template: 642
+    Nix: 407
+- type: Git tree
+  status: captured
+  sha: abd18578cb92982bff9026a71a065c5a8d40f051
+  truncated: false
+- type: source_file
+  path: web/ui/mantine-ui/src/promql/tools/gen_functions_docs/main.go
+  blob_sha: 74e8ac03544dddfa818f3c23f471a107eb385595
+  retrieved: true
+- type: source_file
+  path: web/ui/mantine-ui/src/promql/tools/gen_functions_list/main.go
+  blob_sha: 6b77f368c803d59f1f74001eacc80171a36ad012
+  retrieved: true
+- type: source_file
+  path: web/ui/module/codemirror-promql/src/client/index.ts
+  blob_sha: 83f20df680669fed3f7b91cca27355be27f6c4b0
+  retrieved: true
+- type: source_file
+  path: web/ui/module/codemirror-promql/src/complete/index.ts
+  blob_sha: dd73857639c9976920f612f5024747486d9f0977
+  retrieved: true

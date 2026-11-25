@@ -1,0 +1,116 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:22:17+00:00'
+evidence_fingerprint: ee5a02ae538d98e10a838a0ffafe8f01a0329f5f206a6107e1e7505fa804f86f
+repository_metadata:
+  company: Amazon
+  account: awslabs
+  full_name: awslabs/CLEAR
+  repository_id: 1200842024
+  url: https://github.com/awslabs/CLEAR
+  description: null
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-04-14T04:56:53Z'
+  stars: 6
+  readme_url: https://github.com/awslabs/CLEAR/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 9751e0b334f4ad891c8f5475d8edf0bfd2aa533e
+  manifest_paths:
+  - pyproject.toml
+  - strands_appworld_agent/Dockerfile
+  - strands_appworld_agent/pyproject.toml
+  source_files_inspected:
+  - src/ace_appworld/main.py
+  - src/clear/main.py
+  - src/ace_appworld/__init__.py
+  - src/ace_appworld/llm.py
+  repository_tree:
+    status: captured
+    sha: 7c59cf5ca4d5f2fee94d195740cc8178cb49428a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: LLM agents rely on effective model context to obtain task-relevant information for decision-making. Many
+    existing context engineering approaches primarily rely on context generated from past experience and retrieval
+    mechanisms that reuse it. However, the retrieved context may not be directly applicable to unseen future tasks.
+  why_used: LLM agents rely on effective model context to obtain task-relevant information for decision-making.
+    Many existing context engineering approaches primarily rely on context generated from past experience and retrieval
+    mechanisms that reuse it. However, the retrieved context may not be directly applicable to unseen future tasks.
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies:
+    - appworld
+    - bedrock-agentcore
+    - bedrock-agentcore-starter-toolkit
+    - boto3
+    - botocore
+    - jinja2
+    - pandas
+    - python-dotenv
+    - requests
+    - strands-agents
+    - strands-agents-tools
+    build_and_package_tools:
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/ace_appworld/main.py,
+    src/clear/main.py, src/ace_appworld/__init__.py, src/ace_appworld/llm.py'
+  setup_and_usage:
+  - '🚀 Installation: uv venv --python 3.12'
+  - '🚀 Installation: source .venv/bin/activate'
+  - '🚀 Installation: export CLEAR_ROOT=path/to/repo_root_dir'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/awslabs/CLEAR/blob/main/README.md
+  path: README.md
+  blob_sha: 9751e0b334f4ad891c8f5475d8edf0bfd2aa533e
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 1d549a854e7ea5bd1c90379f467823ac78f60ab0
+  retrieved: true
+- type: manifest
+  path: strands_appworld_agent/Dockerfile
+  blob_sha: ee1809f7b3d2dc1255f6c0700eb456c756da11d0
+  retrieved: true
+- type: manifest
+  path: strands_appworld_agent/pyproject.toml
+  blob_sha: 9a10baf106e66a9de59757c7e557a51173b4fc1d
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: 7c59cf5ca4d5f2fee94d195740cc8178cb49428a
+  truncated: false
+- type: source_file
+  path: src/ace_appworld/main.py
+  blob_sha: 67df1ab5c08664cb2bd188ff2290ff8ceff0f0e5
+  retrieved: true
+- type: source_file
+  path: src/clear/main.py
+  blob_sha: dda007b6edaa8fba24afb00facfd36693faae8e5
+  retrieved: true
+- type: source_file
+  path: src/ace_appworld/__init__.py
+  blob_sha: 66a77fe22f2fcbfa4901fdbecae628bdfcfb1d44
+  retrieved: true
+- type: source_file
+  path: src/ace_appworld/llm.py
+  blob_sha: 3b3c83cef397271702fa139e127b2f7aa09a5b52
+  retrieved: true

@@ -1,0 +1,126 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:28:34+00:00'
+evidence_fingerprint: 181c011272de5168077f750431afae9f3c3deacb06d9fe8b1cdcdad2876da045
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/AdaSlot
+  repository_id: 845882750
+  url: https://github.com/amazon-science/AdaSlot
+  description: 'Official implementation of the CVPR''24 paper [Adaptive Slot Attention: Object Discovery with Dynamic
+    Slot Number]'
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-01-25T07:27:04Z'
+  stars: 78
+  readme_url: https://github.com/amazon-science/AdaSlot/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7037870fbff18df060a5c7600b06faff26b57870
+  manifest_paths:
+  - pyproject.toml
+  source_files_inspected:
+  - configs/__init__.py
+  - configs/dataset/test.py
+  - ocl/base.py
+  repository_tree:
+    status: captured
+    sha: 0ed3d9081524420d203d58a3b628170bca2212b2
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> **Adaptive Slot Attention: Object Discovery with Dynamic Slot Number** > Ke Fan, Zechen Bai, Tianjun
+    Xiao, Tong He, Max Horn, Yanwei Fu†, Francesco Locatello, Zheng Zhang'
+  why_used: 'Official implementation of the CVPR''24 paper [Adaptive Slot Attention: Object Discovery with Dynamic
+    Slot Number]'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - Pillow
+    - awscli
+    - black
+    - botocore
+    - decord
+    - einops
+    - flake8
+    - flake8-bugbear
+    - flake8-docstrings
+    - flake8-isort
+    - flake8-tidy-imports
+    - ftfy
+    - hydra-core
+    - hydra-submitit-launcher
+    - hydra-zen
+    - importlib-metadata
+    - jupyter
+    - matplotlib
+    - mlflow
+    - motmetrics
+    - moviepy
+    - pluggy
+    - pre-commit
+    - pyamg
+    - pytest
+    - pytorch-lightning
+    - regex
+    - scikit-learn
+    - scipy
+    - timm
+    - torch
+    - torchmetrics
+    - torchtyping
+    - torchvision
+    - webdataset
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: configs/__init__.py,
+    configs/dataset/test.py, ocl/__init__.py, ocl/base.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/AdaSlot/blob/main/README.md
+  path: README.md
+  blob_sha: 7037870fbff18df060a5c7600b06faff26b57870
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 86da6f8318ea06011a9c6aadadca9affec153d67
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 562549
+- type: Git tree
+  status: captured
+  sha: 0ed3d9081524420d203d58a3b628170bca2212b2
+  truncated: false
+- type: source_file
+  path: configs/__init__.py
+  blob_sha: 67795f766eac752e24d988b66cd36af637908ecc
+  retrieved: true
+- type: source_file
+  path: configs/dataset/test.py
+  blob_sha: 7d7547f21085af55a28d506dd49200b90cfc87e1
+  retrieved: true
+- type: source_file
+  path: ocl/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: ocl/base.py
+  blob_sha: 7549fd83a6bd517a62e8c603936ccbd0ca353023
+  retrieved: true

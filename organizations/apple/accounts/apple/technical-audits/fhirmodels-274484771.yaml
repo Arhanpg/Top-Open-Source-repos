@@ -1,0 +1,121 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:06:53+00:00'
+evidence_fingerprint: 28c5a25eb8126e8c32bc9fd9dde5ac30c65730fb29ea4ae46183a15ecd2601ed
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/FHIRModels
+  repository_id: 274484771
+  url: https://github.com/apple/FHIRModels
+  description: Swift library for FHIR® resource data models
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-30T08:57:31Z'
+  stars: 210
+  readme_url: https://github.com/apple/FHIRModels/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4ac2766113f2eb93099c621f1704a6d8ec2bc8cb
+  manifest_paths: []
+  source_files_inspected:
+  - Package.swift
+  - Sources/FMCore/ConstructibleFromNSDate.swift
+  - Sources/FMCore/DecodingError+Utilities.swift
+  - Sources/FMCore/ExpressibleAsNSDate.swift
+  repository_tree:
+    status: captured
+    sha: 65ba611ad47c185fe28a95b46dfedfa0f867e08e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: FHIRModels ==========
+  why_used: Swift library for FHIR® resource data models
+  core_features:
+  - name: Native Swift representation of FHIR resources, elements and data types
+    description: Native Swift representation of FHIR resources, elements and data types
+    evidence:
+    - README.md#Features
+  - name: Separate targets for DSTU2, STU3, R4, R4B, R5 and latest build versions
+    description: Separate targets for DSTU2, STU3, R4, R4B, R5 and latest build versions
+    evidence:
+    - README.md#Features
+  - name: Enforced non-nullability of mandatory parameters
+    description: Enforced non-nullability of mandatory parameters
+    evidence:
+    - README.md#Features
+  - name: Enums for most closed code systems
+    description: Enums for most closed code systems
+    evidence:
+    - README.md#Features
+  - name: Enums to support value[x] types
+    description: Enums to support value[x] types
+    evidence:
+    - README.md#Features
+  - name: Date/Time parsing, validation and conversion to and from NSDate
+    description: Date/Time parsing, validation and conversion to and from NSDate
+    evidence:
+    - README.md#Features
+  - name: Swift Codable and Sendable
+    description: Swift Codable and Sendable
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - Swift
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Package.swift, Sources/FMCore/ConstructibleFromNSDate.swift,
+    Sources/FMCore/DecodingError+Utilities.swift, Sources/FMCore/ExpressibleAsNSDate.swift'
+  setup_and_usage:
+  - 'Installation: [Swift Package Manager][spm] is the recommended way to add FHIRModels to your project:'
+  - 'Installation: 1. In Xcode 11 and newer, go to “File” » “Add Package Dependencies...”'
+  - 'Installation: 2. Search for “FHIRModels” in the panel that comes up or paste the full URL to the GitHub repository,
+    then select the package'
+  - 'Installation: 3. Pick the versioning that best works for you (usually the current version and “up to next major”)'
+  - 'Installation: 4. In order to update the dependency, periodically select “Update to Latest Package Versions”
+    from Xcode''s “File” » ”Packages” menu'
+  - 'Installation: Alternatively, you can add FHIRModels to your Package.swift file as a dependency:'
+  - 'Installation: .package(url: "https://github.com/apple/FHIRModels.git",'
+  - 'Installation: .upToNextMajor(from: "0.9.4"))'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/FHIRModels/blob/main/README.md
+  path: README.md
+  blob_sha: 4ac2766113f2eb93099c621f1704a6d8ec2bc8cb
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Swift: 26218235
+- type: Git tree
+  status: captured
+  sha: 65ba611ad47c185fe28a95b46dfedfa0f867e08e
+  truncated: false
+- type: source_file
+  path: Package.swift
+  blob_sha: 916fd6a4306b7f78e235ef3e4b219d0a84752f72
+  retrieved: true
+- type: source_file
+  path: Sources/FMCore/ConstructibleFromNSDate.swift
+  blob_sha: 03934b7c583d560eaab98366c9f6b829a3348161
+  retrieved: true
+- type: source_file
+  path: Sources/FMCore/DecodingError+Utilities.swift
+  blob_sha: cb0083926b9fde93e0792c239a3de458c0eb271b
+  retrieved: true
+- type: source_file
+  path: Sources/FMCore/ExpressibleAsNSDate.swift
+  blob_sha: 19343b1f99385eff73a99e591ac85f6d44d85850
+  retrieved: true

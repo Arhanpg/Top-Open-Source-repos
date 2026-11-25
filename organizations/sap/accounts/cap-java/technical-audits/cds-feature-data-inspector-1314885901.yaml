@@ -1,0 +1,192 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:17:30+00:00'
+evidence_fingerprint: 98ce926f1c8ccf5aa9e4471685203a5fdd236a1b7c3c5dd6ae55c1a7f577d8ce
+repository_metadata:
+  company: SAP
+  account: cap-java
+  full_name: cap-java/cds-feature-data-inspector
+  repository_id: 1314885901
+  url: https://github.com/cap-java/cds-feature-data-inspector
+  description: A CDS plugin designed to help support users and developers securely inspect raw database content
+    in both local and production environments, ensuring compliance with security standards. It supports multiple
+    data sources—including database entities and services—providing direct, auditable access for troubleshooting
+    and analysis.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T15:06:09Z'
+  stars: 0
+  readme_url: https://github.com/cap-java/cds-feature-data-inspector/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 651f67d13e78f85c91785441ae49850af12747e7
+  manifest_paths:
+  - pom.xml
+  - cds-feature-data-inspector/package.json
+  - cds-feature-data-inspector/pom.xml
+  - coverage-report/pom.xml
+  - test-app/package.json
+  - test-app/pom.xml
+  source_files_inspected:
+  - test-app/src/main/java/com/sap/cds/feature/datainspector/testapp/Application.java
+  - cds-feature-data-inspector/src/main/java/com/sap/cds/feature/datainspector/configuration/Registration.java
+  - cds-feature-data-inspector/src/main/java/com/sap/cds/feature/datainspector/handler/DataInspectorConstants.java
+  - cds-feature-data-inspector/src/main/java/com/sap/cds/feature/datainspector/handler/DataReader.java
+  repository_tree:
+    status: captured
+    sha: 1fe9a0c293addfaa7754213315a6f0bf524205d7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: cds-feature-data-inspector is a plugin to **view data** of CAP Java applications.
+  why_used: A CDS plugin designed to help support users and developers securely inspect raw database content in
+    both local and production environments, ensuring compliance with security standards. It supports multiple data
+    sources—including database entities and services—providing direct, auditable access for troubleshooting and
+    analysis.
+  core_features:
+  - name: Exclude specific entities and elements from being exposed by the plugin. For more information, see Excluding
+      Entities and Elements.
+    description: Exclude specific entities and elements from being exposed by the plugin. For more information,
+      see Excluding Entities and Elements.
+    evidence:
+    - README.md#Features
+  - name: Automatically log access to sensitive personal data using CAP Java's audit logging. For more information,
+      see Audit Logging.
+    description: Automatically log access to sensitive personal data using CAP Java's audit logging. For more information,
+      see Audit Logging.
+    evidence:
+    - README.md#Features
+  - name: Provide xsuaa scope for access control. For more information, see Authorization.
+    description: Provide xsuaa scope for access control. For more information, see Authorization.
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - Java
+    - CAP CDS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/data-inspector'
+    - '@cap-js/sqlite'
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - assertj-core
+    - cds-feature-auditlog-v2
+    - cds-feature-data-inspector
+    - cds-feature-data-inspector-coverage-report
+    - cds-feature-data-inspector-root
+    - cds-feature-data-inspector-test-app
+    - cds-feature-jdbc
+    - cds-maven-plugin
+    - cds-services-api
+    - cds-services-bom
+    - cds-starter-spring-boot-odata
+    - cds4j-runtime
+    - central-publishing-maven-plugin
+    - flatten-maven-plugin
+    - jackson-datatype-jsr310
+    - jacoco-maven-plugin
+    - junit-bom
+    - junit-jupiter
+    - maven-compiler-plugin
+    - maven-deploy-plugin
+    - maven-enforcer-plugin
+    - maven-failsafe-plugin
+    - maven-gpg-plugin
+    - maven-javadoc-plugin
+    - maven-resources-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - spotless-maven-plugin
+    - spring-boot-dependencies
+    - spring-boot-maven-plugin
+    - spring-boot-starter-security
+    - spring-boot-starter-test
+    - spring-security-test
+    - sqlite-jdbc
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: test-app/src/main/java/com/sap/cds/feature/datainspector/testapp/Application.java,
+    cds-feature-data-inspector/src/main/java/com/sap/cds/feature/datainspector/configuration/Registration.java,
+    cds-feature-data-inspector/src/main/java/com/sap/cds/feature/datainspector/handler/DataInspectorConstants.java,
+    cds-feature-data-inspector/src/main/java/com/sap/cds/feature/datainspector/handler/DataReader.java'
+  setup_and_usage:
+  - 'Installation: Add the plugin to your CAP Java project''s srv/pom.xml:'
+  - 'Installation: cds-feature-data-inspector'
+  - 'Installation: Reference the plugin''s CDS model with a using statement in one of your srv/*.cds files (opt-in
+    — the plugin is not activated until you do this):'
+  - 'Installation: using from ''com.sap.cds/cds-feature-data-inspector'';'
+  - 'Installation: To use the SAPUI5 app or cds add data-inspector, additionally install the Node.js @cap-js/data-inspector
+    plugin as a devDependency in your host app''s package.json:'
+  - 'Installation: npm install --save-dev @cap-js/data-inspector'
+  - 'Installation: Then disable the Node.js plugin''s CDS model contribution by adding "@cap-js/data-inspector":
+    false under the top-level requires in .cdsrc.json, or under cds.requires in package.json:'
+  - 'Installation: "@cap-js/data-inspector": false'
+  limitations:
+  - 'Security / Disclosure: If you find a bug that might be a security problem, follow the instructions in our security
+    policy to report it. Don''t create GitHub issues for security-related questions or problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-java/cds-feature-data-inspector/blob/main/README.md
+  path: README.md
+  blob_sha: 651f67d13e78f85c91785441ae49850af12747e7
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: 159f4df9d59b083aac5faa38f5ead7a62ac973b3
+  retrieved: true
+- type: manifest
+  path: cds-feature-data-inspector/package.json
+  blob_sha: a9d26fb42ffce92891853a0d458bcdd084d76110
+  retrieved: true
+- type: manifest
+  path: cds-feature-data-inspector/pom.xml
+  blob_sha: b79c08cb81fd30ff5b54f12e60f8d074e78559fd
+  retrieved: true
+- type: manifest
+  path: coverage-report/pom.xml
+  blob_sha: 7dd7bddb77c342b226c48cd8c8b620532ca08ebf
+  retrieved: true
+- type: manifest
+  path: test-app/package.json
+  blob_sha: d0ba03544bf4d26e0c151b80f48765ecf49ab092
+  retrieved: true
+- type: manifest
+  path: test-app/pom.xml
+  blob_sha: 44eafe7f72ee6ae9df735d2ab2d939dc07db2f1c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 173727
+    CAP CDS: 9228
+- type: Git tree
+  status: captured
+  sha: 1fe9a0c293addfaa7754213315a6f0bf524205d7
+  truncated: false
+- type: source_file
+  path: test-app/src/main/java/com/sap/cds/feature/datainspector/testapp/Application.java
+  blob_sha: d8a6d6da8b4fc371af0d447d5b5775607b136cc8
+  retrieved: true
+- type: source_file
+  path: cds-feature-data-inspector/src/main/java/com/sap/cds/feature/datainspector/configuration/Registration.java
+  blob_sha: d49a85ca40ff2f803c81b04fcbac800cd10e4107
+  retrieved: true
+- type: source_file
+  path: cds-feature-data-inspector/src/main/java/com/sap/cds/feature/datainspector/handler/DataInspectorConstants.java
+  blob_sha: 24000c46857ee5a2d94cd9426940d514ebf9cdcc
+  retrieved: true
+- type: source_file
+  path: cds-feature-data-inspector/src/main/java/com/sap/cds/feature/datainspector/handler/DataReader.java
+  blob_sha: 27b02a968112eb8e075a201dbcc2bc683600377f
+  retrieved: true

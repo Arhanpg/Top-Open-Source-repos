@@ -1,0 +1,115 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:20:09+00:00'
+evidence_fingerprint: 079baac350eb2775a6d792366088923089e22ad691e094cc10aff9478676ac27
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/amazon-connect-audio-utils
+  repository_id: 257719482
+  url: https://github.com/amazon-connect/amazon-connect-audio-utils
+  description: A set of tools for working with audio created from Amazon Connect
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2020-04-21T22:30:18Z'
+  stars: 10
+  readme_url: https://github.com/amazon-connect/amazon-connect-audio-utils/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 4df2dabf82dad0eb61a3792281b68b7e043ed3cc
+  manifest_paths:
+  - package.json
+  - resources/connect-audio-utils-layer/requirements.txt
+  source_files_inspected:
+  - lib/connect-audio-utils-stack.ts
+  - bin/connect-audio-utils.ts
+  - jest.config.js
+  - resources/functions/overlay_audio.py
+  repository_tree:
+    status: captured
+    sha: 4450e5193e12221efe7e61fdd393c57446d6a522
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a set of lambda and ffmpeg powered tools for working with audio from Amazon Connect
+  why_used: A set of tools for working with audio created from Amazon Connect
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - TypeScript
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-cdk/assert'
+    - '@aws-cdk/aws-lambda'
+    - '@aws-cdk/core'
+    - '@types/jest'
+    - '@types/node'
+    - aws-cdk
+    - aws-xray-sdk
+    - boto3
+    - ffmpeg-python
+    - jest
+    - pydub
+    - requests
+    - source-map-support
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/connect-audio-utils-stack.ts,
+    bin/connect-audio-utils.ts, jest.config.js, resources/functions/overlay_audio.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/amazon-connect-audio-utils/blob/master/README.md
+  path: README.md
+  blob_sha: 4df2dabf82dad0eb61a3792281b68b7e043ed3cc
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 2c0a46cc213762e0325f2e65ca23d41dbf8b8b0c
+  retrieved: true
+- type: manifest
+  path: resources/connect-audio-utils-layer/requirements.txt
+  blob_sha: dcd6c9602993d0b8f020ea95f61ddf8502304a3e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 2645
+    TypeScript: 1686
+    JavaScript: 418
+- type: Git tree
+  status: captured
+  sha: 4450e5193e12221efe7e61fdd393c57446d6a522
+  truncated: false
+- type: source_file
+  path: lib/connect-audio-utils-stack.ts
+  blob_sha: e700c71b2fe24c3224838429d45ad3a0c133d0f4
+  retrieved: true
+- type: source_file
+  path: bin/connect-audio-utils.ts
+  blob_sha: 62ef81848c5b02e0c370a74722beb5717affdafd
+  retrieved: true
+- type: source_file
+  path: jest.config.js
+  blob_sha: 9aa0e8d42df1596d54f8dd3aa90c3b53f4472811
+  retrieved: true
+- type: source_file
+  path: resources/functions/overlay_audio.py
+  blob_sha: dbc4c563d4864bbc185235d387cd1bc3a1474458
+  retrieved: true

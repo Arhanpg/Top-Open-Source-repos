@@ -1,0 +1,141 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:17:21+00:00'
+evidence_fingerprint: 481281c58ada283a963f982f3bde3a59e896695b63024d11953bac94b8edd1e3
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/client
+  repository_id: 352816666
+  url: https://github.com/triton-inference-server/client
+  description: Triton Python, C++ and Java client libraries, and GRPC-generated client examples for go, java and
+    scala.
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-02T23:26:07Z'
+  stars: 705
+  readme_url: https://github.com/triton-inference-server/client/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 384f2f9b123fad56e560bf1a32868c27bd312d07
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  - src/c++/CMakeLists.txt
+  - src/java/CMakeLists.txt
+  - src/java/pom.xml
+  - src/python/CMakeLists.txt
+  source_files_inspected:
+  - src/rust/triton-client/src/lib.rs
+  - src/c++/library/cencode.cc
+  - src/c++/library/cencode.h
+  - src/c++/library/common.cc
+  repository_tree:
+    status: captured
+    sha: 057a5c799bd025c5846d78b9d547d5c8be23345b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: -->
+  why_used: Triton Python, C++ and Java client libraries, and GRPC-generated client examples for go, java and scala.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - Java
+    - Rust
+    - CMake
+    - Go
+    - Shell
+    - Scala
+    - JavaScript
+    - C
+    frameworks_and_libraries: []
+    dependencies:
+    - commons-io
+    - guava
+    - httpasyncclient
+    - jackson-databind
+    - java-api
+    - maven-assembly-plugin
+    build_and_package_tools:
+    - CMake configuration
+    - Maven project manifest
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/rust/triton-client/src/lib.rs,
+    src/c++/library/cencode.cc, src/c++/library/cencode.h, src/c++/library/common.cc'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/client/blob/main/README.md
+  path: README.md
+  blob_sha: 384f2f9b123fad56e560bf1a32868c27bd312d07
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: e56c728979349a2ff0d8438489910904362cd2f2
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 7bad51b67380c9a7ad4774208c26693c5d69a913
+  retrieved: true
+- type: manifest
+  path: src/c++/CMakeLists.txt
+  blob_sha: 5c6e0d70ac5c5a571086744fd13ff735e3e79cbe
+  retrieved: true
+- type: manifest
+  path: src/java/CMakeLists.txt
+  blob_sha: 5513d86d035532008386633722bc764613413bb3
+  retrieved: true
+- type: manifest
+  path: src/java/pom.xml
+  blob_sha: 60bf70995b215a952f476c40168d43677ce654e5
+  retrieved: true
+- type: manifest
+  path: src/python/CMakeLists.txt
+  blob_sha: 42ca2c42a85939d8503a2ce7f692b23d70ae32bb
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 653628
+    Python: 636293
+    Java: 96606
+    Rust: 96549
+    CMake: 65771
+    Go: 9220
+    Shell: 8856
+    Scala: 8330
+    JavaScript: 5249
+    C: 1692
+- type: Git tree
+  status: captured
+  sha: 057a5c799bd025c5846d78b9d547d5c8be23345b
+  truncated: false
+- type: source_file
+  path: src/rust/triton-client/src/lib.rs
+  blob_sha: def5444ed11657aee5e69ee74a1efb8395e5b9be
+  retrieved: true
+- type: source_file
+  path: src/c++/library/cencode.cc
+  blob_sha: 6c80aa5fe2022a7cfa344885a816c5abbb83b708
+  retrieved: true
+- type: source_file
+  path: src/c++/library/cencode.h
+  blob_sha: f7a29ca89c3481051254e17970d5d5f2dab2a6e0
+  retrieved: true
+- type: source_file
+  path: src/c++/library/common.cc
+  blob_sha: 27da698880e0fb154cb0d6f0bdaa69528718fec5
+  retrieved: true

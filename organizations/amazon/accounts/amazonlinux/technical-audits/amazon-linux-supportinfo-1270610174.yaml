@@ -1,0 +1,108 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:28:43+00:00'
+evidence_fingerprint: 6d95f43d5a435f4804f3981b0e514a346069b8d55647c87c85b7cb336d014890
+repository_metadata:
+  company: Amazon
+  account: amazonlinux
+  full_name: amazonlinux/amazon-linux-supportinfo
+  repository_id: 1270610174
+  url: https://github.com/amazonlinux/amazon-linux-supportinfo
+  description: null
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-06-15T23:07:38Z'
+  stars: 0
+  readme_url: https://github.com/amazonlinux/amazon-linux-supportinfo/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a52d7809a041763b64dc36a481e134fc0812bd5a
+  manifest_paths:
+  - Makefile
+  - pyproject.toml
+  - setup.py
+  source_files_inspected:
+  - src/supportinfo/__init__.py
+  - src/supportinfo/handler.py
+  - setup.py
+  repository_tree:
+    status: captured
+    sha: ecc518d23f179cc43f9724e259d21be2554a69e2
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: supportinfo is a Python library for parsing and querying Amazon Linux's package support metadata. It
+    reads the support_info.xml documents Amazon Linux publishes and exposes the data through a typed Python API.
+  why_used: supportinfo is a Python library for parsing and querying Amazon Linux's package support metadata. It
+    reads the support_info.xml documents Amazon Linux publishes and exposes the data through a typed Python API.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - lxml
+    - xmlschema
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/supportinfo/__init__.py,
+    src/supportinfo/handler.py, src/supportinfo/schemas/__init__.py, setup.py'
+  setup_and_usage:
+  - 'Installation: The package is not yet on PyPI. Install from a checkout:'
+  - 'Installation: pip install -e ".[test,dev]"'
+  limitations:
+  - 'Reporting security issues: Do **not** open a GitHub issue. Use AWS''s'
+  - 'Reporting security issues: vulnerability reporting page'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazonlinux/amazon-linux-supportinfo/blob/main/README.md
+  path: README.md
+  blob_sha: a52d7809a041763b64dc36a481e134fc0812bd5a
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 5128a5febbbf5dc19c829edf9295f18216a9640a
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: d4a82c66593f8fd2af4d6cf36e8f70d06e531751
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: e318aedb04fec0935eb9ac86cea18a4a5e22af41
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 101205
+    Makefile: 992
+- type: Git tree
+  status: captured
+  sha: ecc518d23f179cc43f9724e259d21be2554a69e2
+  truncated: false
+- type: source_file
+  path: src/supportinfo/__init__.py
+  blob_sha: a39d275f712fb12b7a2b5039a112452f4109edf6
+  retrieved: true
+- type: source_file
+  path: src/supportinfo/handler.py
+  blob_sha: 9d50c56c12eedcf4b4423ba2a1dfe259f6133b70
+  retrieved: true
+- type: source_file
+  path: src/supportinfo/schemas/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: setup.py
+  blob_sha: e318aedb04fec0935eb9ac86cea18a4a5e22af41
+  retrieved: true

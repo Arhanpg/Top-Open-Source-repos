@@ -1,0 +1,205 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:20:17+00:00'
+evidence_fingerprint: a47a8e947b88f87f0a32ce43a30ea55fc3ace04d14a00cf51c21904cbd0ea1e6
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/AdaRec
+  repository_id: 1114901609
+  url: https://github.com/amazon-science/AdaRec
+  description: Adaptive Generative Recommendations with Large Language Models
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-04-07T06:39:20Z'
+  stars: 7
+  readme_url: https://github.com/amazon-science/AdaRec/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 181249da9c931b2db518d11998b7389ac8feb320
+  manifest_paths:
+  - pyproject.toml
+  - research/requirements.txt
+  source_files_inspected:
+  - research/main.py
+  - src/counterfactual/__init__.py
+  - src/counterfactual/base_profile_generator.py
+  - src/counterfactual/batch_predictor.py
+  repository_tree:
+    status: captured
+    sha: adab91a484c603c2b31673dd90440faa9d80506d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: AdaRec is a counterfactual inference framework for customer outcomes using few-shot in-context learning.
+    Built with CatBoost, Polars, and DSPy, it generates natural language customer profiles and predicts counterfactual
+    outcomes using Large Language Models with AWS Bedrock.
+  why_used: Adaptive Generative Recommendations with Large Language Models
+  core_features:
+  - name: Maps tabular columns to natural language descriptions
+    description: Maps tabular columns to natural language descriptions
+    evidence:
+    - README.md#Feature Configuration (config/customer_feature_config.yaml)
+  - name: Organizes features by domain (RFM, preferences, etc.)
+    description: Organizes features by domain (RFM, preferences, etc.)
+    evidence:
+    - README.md#Feature Configuration (config/customer_feature_config.yaml)
+  - name: 'Range: 0 to 269'
+    description: 'Range: 0 to 269'
+    evidence:
+    - README.md#Example Feature Distribution
+  - name: 'Percent of non-zero values: 99.60%'
+    description: 'Percent of non-zero values: 99.60%'
+    evidence:
+    - README.md#Example Feature Distribution
+  - name: 'Range: 0 to 268'
+    description: 'Range: 0 to 268'
+    evidence:
+    - README.md#Example Feature Distribution
+  - name: 'Percent of non-zero values: 97.40%'
+    description: 'Percent of non-zero values: 97.40%'
+    evidence:
+    - README.md#Example Feature Distribution
+  - name: 'Range: 1 to 119'
+    description: 'Range: 1 to 119'
+    evidence:
+    - README.md#Example Feature Distribution
+  - name: 'Percent of non-zero values: 100.00%'
+    description: 'Percent of non-zero values: 100.00%'
+    evidence:
+    - README.md#Example Feature Distribution
+  - name: 'Range: 0.00 to 268.00'
+    description: 'Range: 0.00 to 268.00'
+    evidence:
+    - README.md#Example Feature Distribution
+  - name: 'Percent of non-zero values: 99.60%'
+    description: 'Percent of non-zero values: 99.60%'
+    evidence:
+    - README.md#Example Feature Distribution
+  - name: 'Range: 3.75 to 159154.14'
+    description: 'Range: 3.75 to 159154.14'
+    evidence:
+    - README.md#Example Feature Distribution
+  - name: 'Percent of non-zero values: 100.00%'
+    description: 'Percent of non-zero values: 100.00%'
+    evidence:
+    - README.md#Example Feature Distribution
+  - name: 'Mean: 1821.97'
+    description: 'Mean: 1821.97'
+    evidence:
+    - README.md#Example Feature Distribution
+  - name: 'Range: 3.75 to 9341.26'
+    description: 'Range: 3.75 to 9341.26'
+    evidence:
+    - README.md#Example Feature Distribution
+  - name: 'Percent of non-zero values: 100.00%'
+    description: 'Percent of non-zero values: 100.00%'
+    evidence:
+    - README.md#Example Feature Distribution
+  technology_stack:
+    languages:
+    - Jupyter Notebook
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - accelerate
+    - annoy
+    - auto_gptq
+    - bitsandbytes
+    - boto3
+    - catboost
+    - datasets
+    - dspy
+    - fastapi
+    - fastparquet
+    - gradio
+    - numpy
+    - openai
+    - pandas
+    - peft
+    - polars
+    - protobuf
+    - pyarrow
+    - pydantic
+    - pyyaml
+    - safetensors
+    - scikit-learn
+    - scipy
+    - seaborn
+    - sentence-transformers
+    - sentencepiece
+    - tiktoken
+    - tokenizers
+    - torch
+    - tqdm
+    - transformers
+    - triton
+    - uvicorn
+    - vllm
+    - xformers
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: research/main.py,
+    src/counterfactual/__init__.py, src/counterfactual/base_profile_generator.py, src/counterfactual/batch_predictor.py'
+  setup_and_usage:
+  - '1. Run the Getting Started Notebook: The easiest way to understand AdaRec is through our comprehensive example:'
+  - '1. Run the Getting Started Notebook: jupyter notebook notebook/getting_started.ipynb'
+  - '1. Run the Getting Started Notebook: This notebook demonstrates the complete workflow using the UCI Online
+    Retail dataset:'
+  - '1. Run the Getting Started Notebook: - Data preprocessing with Polars'
+  - '1. Run the Getting Started Notebook: - Profile generation (template → narrative)'
+  - '1. Run the Getting Started Notebook: - Counterfactual prediction with few-shot learning'
+  - '1. Run the Getting Started Notebook: - Comparison with gradient boosting baseline'
+  - '1. Run the Getting Started Notebook: - Product recommendation via semantic similarity'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/AdaRec/blob/main/README.md
+  path: README.md
+  blob_sha: 181249da9c931b2db518d11998b7389ac8feb320
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 299948c4d14e940541e8102868b56ad0c8201f1b
+  retrieved: true
+- type: manifest
+  path: research/requirements.txt
+  blob_sha: 7ac1c286925d813f966f4c224e457cfefea6ef97
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Jupyter Notebook: 2689458
+    Python: 232706
+    Shell: 1789
+- type: Git tree
+  status: captured
+  sha: adab91a484c603c2b31673dd90440faa9d80506d
+  truncated: false
+- type: source_file
+  path: research/main.py
+  blob_sha: b0112c09a3614383605dace30356ee9530803c29
+  retrieved: true
+- type: source_file
+  path: src/counterfactual/__init__.py
+  blob_sha: 61e208465944592b506889e224b1cb3efb4bfdc0
+  retrieved: true
+- type: source_file
+  path: src/counterfactual/base_profile_generator.py
+  blob_sha: f2ca4484b6c81ee189e5b31bab096efc14d39554
+  retrieved: true
+- type: source_file
+  path: src/counterfactual/batch_predictor.py
+  blob_sha: e9b85b9d4c08b620123f4b72000b45850f646696
+  retrieved: true

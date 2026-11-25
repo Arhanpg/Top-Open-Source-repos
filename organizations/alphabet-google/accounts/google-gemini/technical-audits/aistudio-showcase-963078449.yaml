@@ -1,0 +1,110 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:02:52+00:00'
+evidence_fingerprint: ffbb8783fc17d783644b5642064ec97796519c25ca7880af265175c3c60324af
+repository_metadata:
+  company: Alphabet (Google)
+  account: google-gemini
+  full_name: google-gemini/aistudio-showcase
+  repository_id: 963078449
+  url: https://github.com/google-gemini/aistudio-showcase
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-03-23T17:24:59Z'
+  stars: 52
+  readme_url: https://github.com/google-gemini/aistudio-showcase/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 29f2fc51308182875b26a31936e4a0d5ecccf8c6
+  manifest_paths:
+  - src/server_proxy/Dockerfile
+  - src/server_proxy/server/package.json
+  source_files_inspected:
+  - src/flashcard_maker/index.ts
+  - src/gemini_95/index.ts
+  - src/gif_maker/index.ts
+  - src/maps_explorer/index.ts
+  repository_tree:
+    status: captured
+    sha: 6a2a576a408578c7ddab71a25e533a045c8c3d3f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Unknown from inspected evidence
+  why_used: Unknown from inspected evidence
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - CSS
+    - JavaScript
+    - HTML
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@types/node'
+    - axios
+    - dotenv
+    - express
+    - express-rate-limit
+    - nodemon
+    - ws
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/flashcard_maker/index.ts,
+    src/gemini_95/index.ts, src/gif_maker/index.ts, src/maps_explorer/index.ts'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google-gemini/aistudio-showcase/blob/main/README.md
+  path: README.md
+  blob_sha: 29f2fc51308182875b26a31936e4a0d5ecccf8c6
+  retrieved: true
+- type: manifest
+  path: src/server_proxy/Dockerfile
+  blob_sha: de94f0d6edb20778de160fda532f80b904098ded
+  retrieved: true
+- type: manifest
+  path: src/server_proxy/server/package.json
+  blob_sha: 3af329626b04667b1e62304e9405de426ed43799
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 292957
+    CSS: 81690
+    JavaScript: 35610
+    HTML: 31673
+    Dockerfile: 715
+- type: Git tree
+  status: captured
+  sha: 6a2a576a408578c7ddab71a25e533a045c8c3d3f
+  truncated: false
+- type: source_file
+  path: src/flashcard_maker/index.ts
+  blob_sha: ba0c9cdba6f857f8aaf194c5fe5d388bc0d2414e
+  retrieved: true
+- type: source_file
+  path: src/gemini_95/index.ts
+  blob_sha: 19d9c21f7181c807f6286f0bccb9433e646514b9
+  retrieved: true
+- type: source_file
+  path: src/gif_maker/index.ts
+  blob_sha: 161dd18b17129c5f9d9b91d2df4415061a649d2a
+  retrieved: true
+- type: source_file
+  path: src/maps_explorer/index.ts
+  blob_sha: ea8702fe8e14b74f8c94431c1d787af6c38f72bf
+  retrieved: true

@@ -1,0 +1,120 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:28:27+00:00'
+evidence_fingerprint: bcd817b3f3d06c7ecee280d59df34b8d0046c2cea1e02516880968589218203c
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/amazon-connect-chat-android
+  repository_id: 777463654
+  url: https://github.com/amazon-connect/amazon-connect-chat-android
+  description: Amazon Connect Chat SDK for Android
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-03T00:04:26Z'
+  stars: 8
+  readme_url: https://github.com/amazon-connect/amazon-connect-chat-android/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 72db513f6cc2a3ea564c5a678c0e3ce151f72cb4
+  manifest_paths:
+  - build.gradle.kts
+  - app/build.gradle.kts
+  - chat-sdk/build.gradle.kts
+  source_files_inspected:
+  - app/src/androidTest/java/com/amazon/connect/chat/androidchatexample/ExampleInstrumentedTest.kt
+  - app/src/main/java/com/amazon/connect/chat/androidchatexample/ChatApplication.kt
+  - app/src/main/java/com/amazon/connect/chat/androidchatexample/Config.kt
+  - app/src/main/java/com/amazon/connect/chat/androidchatexample/di/AppModule.kt
+  repository_tree:
+    status: captured
+    sha: a7053ffb7f21c7079c08fba4b42bced28e7b7877
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Amazon Connect Chat SDK for Android is a Kotlin library that gives you the power to easily integrate
+    Amazon Connect Chat directly into your native Android applications. The Amazon Connect Chat SDK helps handle
+    client side chat logic and back-end communications similar to the Amazon Connect ChatJS Library. The SDK wraps
+    the Amazon Connect Participant Service APIs and abstracts away the management of the chat session and WebSocket.
+    This allows you to focus on the user interface and experience while relying on the Amazon Connect Chat SDK to
+    interact with all the back-end services. This approach still requires using your own chat back end to call the
+    Amazon Connect StartChatContact API to initiate contact. You can read instructions on how to quickly set up
+    a StartChatContact Lambda from our startChatContactAPI example.
+  why_used: Amazon Connect Chat SDK for Android
+  core_features: []
+  technology_stack:
+    languages:
+    - Kotlin
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle Kotlin build file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: app/src/androidTest/java/com/amazon/connect/chat/androidchatexample/ExampleInstrumentedTest.kt,
+    app/src/main/java/com/amazon/connect/chat/androidchatexample/ChatApplication.kt, app/src/main/java/com/amazon/connect/chat/androidchatexample/Config.kt,
+    app/src/main/java/com/amazon/connect/chat/androidchatexample/di/AppModule.kt'
+  setup_and_usage:
+  - 'Installation Steps: There are two options to install the Amazon Connect Chat SDK for Android to your project:'
+  - 'Getting Started: The first step to leveraging the Amazon Connect Chat SDK after installation is to import the
+    library into your file. Next, let''s call the StartChatContact API and pass the response details into the SDK’s
+    ChatSession object. For reference, you can visit the AndroidChatExample demo within the Amazon Connect Chat
+    UI Examples GitHub repository.'
+  - 'Getting Started: The majority of the SDKs functionality will be accessed through the ChatSession object. In
+    order to use this object in the file, you can inject it using @HiltViewModel:'
+  - 'Getting Started: class ChatViewModel @Inject constructor('
+  - 'Getting Started: private val chatSession: ChatSession, // Injected ChatSession'
+  - 'Getting Started: private val chatRepository: ChatRepository,'
+  - 'Getting Started: private val sharedPreferences: SharedPreferences,'
+  - 'Getting Started: If you are not using Hilt, then you can initialise ChatSession like this:'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/amazon-connect-chat-android/blob/main/README.md
+  path: README.md
+  blob_sha: 72db513f6cc2a3ea564c5a678c0e3ce151f72cb4
+  retrieved: true
+- type: manifest
+  path: build.gradle.kts
+  blob_sha: 0d6c598fedd01ddf42bbf6062097cb7785ae0d95
+  retrieved: true
+- type: manifest
+  path: app/build.gradle.kts
+  blob_sha: cfc7f6d938efc568c895b7be7496cab4338f5b61
+  retrieved: true
+- type: manifest
+  path: chat-sdk/build.gradle.kts
+  blob_sha: 90736a9840eb2a96c06fb6cb598e0c46f1f0f3c6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Kotlin: 529804
+- type: Git tree
+  status: captured
+  sha: a7053ffb7f21c7079c08fba4b42bced28e7b7877
+  truncated: false
+- type: source_file
+  path: app/src/androidTest/java/com/amazon/connect/chat/androidchatexample/ExampleInstrumentedTest.kt
+  blob_sha: 308ee6af7c6ad64aced756d06c296ff96b8650db
+  retrieved: true
+- type: source_file
+  path: app/src/main/java/com/amazon/connect/chat/androidchatexample/ChatApplication.kt
+  blob_sha: a09322a1cf786957e50914863938651b8def16d3
+  retrieved: true
+- type: source_file
+  path: app/src/main/java/com/amazon/connect/chat/androidchatexample/Config.kt
+  blob_sha: de81d79bbad46d4e067a784fc9e97276f22017a9
+  retrieved: true
+- type: source_file
+  path: app/src/main/java/com/amazon/connect/chat/androidchatexample/di/AppModule.kt
+  blob_sha: ab6eeb548afc57c0a5945edf0f17070eeabbc2e2
+  retrieved: true

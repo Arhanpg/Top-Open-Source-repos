@@ -1,10 +1,10 @@
 # Technical audits — cap-java
 
-Updated: 2026-11-25T04:01:55+00:00
+Updated: 2026-11-25T08:29:15+00:00
 
 ## Status counts
 
-- evidence_only: 3
+- evidence_only: 6
 
 ## Repository dossiers
 
@@ -12,4 +12,7 @@ Updated: 2026-11-25T04:01:55+00:00
 |---|---|---|---|
 | cds-feature-advanced-event-mesh-931424563 | evidence_only | [cds-feature-advanced-event-mesh-931424563.md](cds-feature-advanced-event-mesh-931424563.md) | [cds-feature-advanced-event-mesh-931424563.yaml](cds-feature-advanced-event-mesh-931424563.yaml) |
 | cds-feature-attachments-770459348 | evidence_only | [cds-feature-attachments-770459348.md](cds-feature-attachments-770459348.md) | [cds-feature-attachments-770459348.yaml](cds-feature-attachments-770459348.yaml) |
+| cds-feature-auditlog-ng-1011249870 | evidence_only | [cds-feature-auditlog-ng-1011249870.md](cds-feature-auditlog-ng-1011249870.md) | [cds-feature-auditlog-ng-1011249870.yaml](cds-feature-auditlog-ng-1011249870.yaml) |
+| cds-feature-data-inspector-1314885901 | evidence_only | [cds-feature-data-inspector-1314885901.md](cds-feature-data-inspector-1314885901.md) | [cds-feature-data-inspector-1314885901.yaml](cds-feature-data-inspector-1314885901.yaml) |
+| cds-feature-event-hub-938005664 | evidence_only | [cds-feature-event-hub-938005664.md](cds-feature-event-hub-938005664.md) | [cds-feature-event-hub-938005664.yaml](cds-feature-event-hub-938005664.yaml) |
 | github-770385555 | evidence_only | [github-770385555.md](github-770385555.md) | [github-770385555.yaml](github-770385555.yaml) |

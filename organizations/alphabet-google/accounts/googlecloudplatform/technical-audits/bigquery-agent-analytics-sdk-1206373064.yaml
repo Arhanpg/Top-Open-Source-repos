@@ -1,0 +1,245 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:11:26+00:00'
+evidence_fingerprint: 1560dbe32cb7d05165a54e79e81e1f9b5f0c8c34db1f53ac72be6859d3201b5a
+repository_metadata:
+  company: Alphabet (Google)
+  account: GoogleCloudPlatform
+  full_name: GoogleCloudPlatform/BigQuery-Agent-Analytics-SDK
+  repository_id: 1206373064
+  url: https://github.com/GoogleCloudPlatform/BigQuery-Agent-Analytics-SDK
+  description: An open-source Python SDK for analyzing, evaluating, and curating agent traces stored in BigQuery.
+    Built on top of the BigQuery Agent Analytics, it provides a consumption-layer toolkit for agent observability,
+    analysis, evaluation, and advanced capabilities like context graph at scale.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T18:46:34Z'
+  stars: 64
+  readme_url: https://github.com/GoogleCloudPlatform/BigQuery-Agent-Analytics-SDK/blob/main/README.md
+  readme_path: README.md
+  readme_sha: c1924357352047fa6df9e49d54a0fccdabfcccb7
+  manifest_paths:
+  - pyproject.toml
+  - producers/pyproject.toml
+  - dashboards/legacy_demo/requirements.txt
+  - dashboards/web/package.json
+  - deploy/otlp_receiver/Dockerfile
+  - deploy/skill_evolution_job/Dockerfile
+  source_files_inspected:
+  - producers/src/bigquery_agent_analytics_tracing/otlp/app.py
+  - producers/src/bigquery_agent_analytics_tracing/otlp/cli.py
+  - src/bigquery_agent_analytics/export/cli.py
+  - src/bigquery_ontology/cli.py
+  repository_tree:
+    status: captured
+    sha: fd504d100d0317edc7e285dfaa1840d585d956b8
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: An open-source Python SDK for analyzing, evaluating, and curating agent traces stored in BigQuery. Built
+    on top of the BigQuery Agent Analytics, it provides a consumption-layer toolkit for agent observability, analysis,
+    evaluation, and advanced capabilities like the Agent Context Graph — extracting decision traces from your agent's
+    context graph — at scale.
+  why_used: An open-source Python SDK for analyzing, evaluating, and curating agent traces stored in BigQuery. Built
+    on top of the BigQuery Agent Analytics, it provides a consumption-layer toolkit for agent observability, analysis,
+    evaluation, and advanced capabilities like context graph at scale.
+  core_features:
+  - name: Trace reconstruction and DAG visualization
+    description: Trace reconstruction and DAG visualization
+    evidence:
+    - README.md#Key Features
+  - name: Per-event-type BigQuery views
+    description: Per-event-type BigQuery views
+    evidence:
+    - README.md#Key Features
+  - name: Observability dashboards (Looker Studio, Streamlit, SQL, and BigFrames), including BQCA Prompt & Response
+      Logging dashboards for Conversational Analytics data a
+    description: Observability dashboards (Looker Studio, Streamlit, SQL, and BigFrames), including BQCA Prompt
+      & Response Logging dashboards for Conversational Analytics data agents
+    evidence:
+    - README.md#Key Features
+  - name: System metrics (latency, turn count, tool call error rate, token efficiency, time to first token, cost)
+    description: System metrics (latency, turn count, tool call error rate, token efficiency, time to first token,
+      cost)
+    evidence:
+    - README.md#Key Features
+  - name: Performance Metrics (correctness, hallucination, sentiment, efficiency, etc)
+    description: Performance Metrics (correctness, hallucination, sentiment, efficiency, etc)
+    evidence:
+    - README.md#Key Features
+  - name: Multi-trial system and performance metrics
+    description: Multi-trial system and performance metrics
+    evidence:
+    - README.md#Key Features
+  - name: Grader composition (weighted, binary, majority strategies)
+    description: Grader composition (weighted, binary, majority strategies)
+    evidence:
+    - README.md#Key Features
+  - name: Eval suite lifecycle management with graduation and saturation detection
+    description: Eval suite lifecycle management with graduation and saturation detection
+    evidence:
+    - README.md#Key Features
+  - name: Static quality validation (ambiguous tasks, class imbalance, suspicious thresholds)
+    description: Static quality validation (ambiguous tasks, class imbalance, suspicious thresholds)
+    evidence:
+    - README.md#Key Features
+  - name: BigQuery AI.GENERATE, AI.EMBED, AI.CLASSIFY
+    description: BigQuery AI.GENERATE, AI.EMBED, AI.CLASSIFY
+    evidence:
+    - README.md#Key Features
+  - name: Anomaly detection and latency forecasting
+    description: Anomaly detection and latency forecasting
+    evidence:
+    - README.md#Key Features
+  - name: Categorical (Hatteras-style) evaluation via BigFrames
+    description: Categorical (Hatteras-style) evaluation via BigFrames
+    evidence:
+    - README.md#Key Features
+  - name: 'Agent Context Graph — extract decision traces from your agent''s context graph: the requests an agent
+      handled, the options it weighed, and the outcomes it commit'
+    description: 'Agent Context Graph — extract decision traces from your agent''s context graph: the requests an
+      agent handled, the options it weighed, and the outcomes it committed, materialized into a queryable BigQuery
+      property graph (GQL traversal, scheduled refresh via bqaa context-graph)'
+    evidence:
+    - README.md#Key Features
+  - name: Long-horizon cross-session memory
+    description: Long-horizon cross-session memory
+    evidence:
+    - README.md#Key Features
+  - name: Multi-stage agent insights pipeline
+    description: Multi-stage agent insights pipeline
+    evidence:
+    - README.md#Key Features
+  technology_stack:
+    languages:
+    - Python
+    - JavaScript
+    - Shell
+    - TypeScript
+    - HTML
+    - Go Template
+    - CSS
+    - Jupyter Notebook
+    - Dockerfile
+    - Standard ML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@google-cloud/bigquery'
+    - '@tailwindcss/vite'
+    - '@tanstack/react-query'
+    - '@types/node'
+    - '@vitejs/plugin-react'
+    - '@xyflow/react'
+    - autoprefixer
+    - clsx
+    - date-fns
+    - db-dtypes
+    - google-adk
+    - google-cloud-bigquery
+    - lucide-react
+    - motion
+    - pandas
+    - plotly
+    - pydantic
+    - pyyaml
+    - react
+    - react-dom
+    - react-router
+    - recharts
+    - streamlit
+    - tailwind-merge
+    - tailwindcss
+    - tsx
+    - typer
+    - typescript
+    - vite
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: producers/src/bigquery_agent_analytics_tracing/otlp/app.py,
+    producers/src/bigquery_agent_analytics_tracing/otlp/cli.py, src/bigquery_agent_analytics/export/cli.py, src/bigquery_ontology/cli.py'
+  setup_and_usage:
+  - 'Installation: pip install bigquery-agent-analytics'
+  - 'Installation: With optional LLM judge support:'
+  - 'Installation: pip install bigquery-agent-analytics[llm]'
+  - 'Installation: With BigFrames support:'
+  - 'Installation: pip install bigquery-agent-analytics[bigframes]'
+  - 'Installation: With LangSmith export support:'
+  - 'Installation: pip install bigquery-agent-analytics[langsmith]'
+  - 'Quick Start: from bigquery_agent_analytics import Client, TraceFilter'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/GoogleCloudPlatform/BigQuery-Agent-Analytics-SDK/blob/main/README.md
+  path: README.md
+  blob_sha: c1924357352047fa6df9e49d54a0fccdabfcccb7
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: dcfb97201f4c1035969faf98966ed353f771ef1f
+  retrieved: true
+- type: manifest
+  path: producers/pyproject.toml
+  blob_sha: 960a3e74a5694ce4b159fbd76f85ec39aeba486f
+  retrieved: true
+- type: manifest
+  path: dashboards/legacy_demo/requirements.txt
+  blob_sha: 9f918720f733b1359713b751e32885281ecbecdb
+  retrieved: true
+- type: manifest
+  path: dashboards/web/package.json
+  blob_sha: c13f4a1286ebd95fbfad1b90d108efd91e331a98
+  retrieved: true
+- type: manifest
+  path: deploy/otlp_receiver/Dockerfile
+  blob_sha: 51325b78094087c2ff1097b451c6cfe64a5250fd
+  retrieved: true
+- type: manifest
+  path: deploy/skill_evolution_job/Dockerfile
+  blob_sha: eb5057f04bdd410761bb5874ce85bdee38046774
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 10530657
+    JavaScript: 126517
+    Shell: 115588
+    TypeScript: 104104
+    HTML: 48392
+    Go Template: 21243
+    CSS: 18765
+    Jupyter Notebook: 4083
+    Dockerfile: 4009
+    Standard ML: 322
+- type: Git tree
+  status: captured
+  sha: fd504d100d0317edc7e285dfaa1840d585d956b8
+  truncated: false
+- type: source_file
+  path: producers/src/bigquery_agent_analytics_tracing/otlp/app.py
+  blob_sha: e12d211a9db4ef8d6658465bef9a29bf3ab2a91b
+  retrieved: true
+- type: source_file
+  path: producers/src/bigquery_agent_analytics_tracing/otlp/cli.py
+  blob_sha: b82db9e8fa3df4a006df72925a12c56eb6e1ab2c
+  retrieved: true
+- type: source_file
+  path: src/bigquery_agent_analytics/export/cli.py
+  blob_sha: 7cf0b05d9399ae37cf70986ddcdb908080ac75de
+  retrieved: true
+- type: source_file
+  path: src/bigquery_ontology/cli.py
+  blob_sha: acfd68f10c78cd982e73695bcce1272f8504ddc8
+  retrieved: true

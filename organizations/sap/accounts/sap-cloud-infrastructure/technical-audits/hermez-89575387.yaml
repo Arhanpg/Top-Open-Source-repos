@@ -1,0 +1,168 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:09:57+00:00'
+evidence_fingerprint: 3e882801677c94ab72604c8ad70888bd8db73a512e5ed4fe4f775e06b5e0bf59
+repository_metadata:
+  company: SAP
+  account: SAP-cloud-infrastructure
+  full_name: SAP-cloud-infrastructure/hermez
+  repository_id: 89575387
+  url: https://github.com/SAP-cloud-infrastructure/hermez
+  description: 'Audit Data API for OpenStack deployments. '
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-19T19:19:21Z'
+  stars: 22
+  readme_url: https://github.com/SAP-cloud-infrastructure/hermez/blob/master/README.md
+  readme_path: README.md
+  readme_sha: a5ce90083d46030d7cf679093a3f042027c4a729
+  manifest_paths:
+  - Dockerfile
+  - go.mod
+  - Makefile
+  source_files_inspected:
+  - main.go
+  - pkg/api/api.go
+  - pkg/api/api_test.go
+  - pkg/api/core.go
+  repository_tree:
+    status: captured
+    sha: 24cdf15f686d6df94c2b22de8923d08d910ebc38
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'SPDX-FileCopyrightText: 2025 SAP SE or an SAP affiliate company'
+  why_used: Audit Data API for OpenStack deployments.
+  core_features:
+  - name: 📜 Central repository for OpenStack audit events
+    description: 📜 Central repository for OpenStack audit events
+    evidence:
+    - README.md#Features
+  - name: 🔐 Identity v3 authentication & project/domain scoping
+    description: 🔐 Identity v3 authentication & project/domain scoping
+    evidence:
+    - README.md#Features
+  - name: ⚙️ Integration with cloud-based audit APIs
+    description: ⚙️ Integration with cloud-based audit APIs
+    evidence:
+    - README.md#Features
+  - name: 📈 Exposes Prometheus metrics
+    description: 📈 Exposes Prometheus metrics
+    evidence:
+    - README.md#Features
+  - name: 🧾 CLI support via HermezCLI
+    description: 🧾 CLI support via HermezCLI
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - Go
+    - Makefile
+    - Dockerfile
+    - Nix
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/beorn7/perks
+    - github.com/cespare/xxhash/v2
+    - github.com/databus23/goslo.policy
+    - github.com/fsnotify/fsnotify
+    - github.com/go-viper/mapstructure/v2
+    - github.com/gophercloud/gophercloud/v2
+    - github.com/gorilla/mux
+    - github.com/hashicorp/golang-lru/v2
+    - github.com/jinzhu/copier
+    - github.com/lib/pq
+    - github.com/munnerz/goautoneg
+    - github.com/opensearch-project/opensearch-go/v5
+    - github.com/pandatix/go-abnf
+    - github.com/pelletier/go-toml/v2
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/rabbitmq/amqp091-go
+    - github.com/rs/cors
+    - github.com/rs/dnscache
+    - github.com/sagikazarmark/locafero
+    - github.com/sapcc/go-api-declarations
+    - github.com/sapcc/go-bits
+    - github.com/spf13/afero
+    - github.com/spf13/cast
+    - github.com/spf13/pflag
+    - github.com/spf13/viper
+    - github.com/stretchr/testify
+    - github.com/subosito/gotenv
+    - go.xyrillian.de/gg
+    - go.yaml.in/yaml/v3
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/text
+    - golang.org/x/time
+    - google.golang.org/protobuf
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: main.go, pkg/api/api.go,
+    pkg/api/api_test.go, pkg/api/core.go'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP-cloud-infrastructure/hermez/blob/master/README.md
+  path: README.md
+  blob_sha: a5ce90083d46030d7cf679093a3f042027c4a729
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 385556a48be0a87995dbdfd8d7d5aa4884f33e30
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 60ffa856f19db94d7814679a4787326629973441
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 6df629bc8a3d139d32d0d48d2ab068dbe3d72697
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 284154
+    Makefile: 15538
+    Dockerfile: 3046
+    Nix: 393
+    Shell: 328
+- type: Git tree
+  status: captured
+  sha: 24cdf15f686d6df94c2b22de8923d08d910ebc38
+  truncated: false
+- type: source_file
+  path: main.go
+  blob_sha: d5161c71b073d10e0610de4a9d2b973fa4a1bf08
+  retrieved: true
+- type: source_file
+  path: pkg/api/api.go
+  blob_sha: c152692ed20d5be968c94574b9eace7470d21483
+  retrieved: true
+- type: source_file
+  path: pkg/api/api_test.go
+  blob_sha: 44e69032326e0dbb012d8c267d6c3597e01a3d8f
+  retrieved: true
+- type: source_file
+  path: pkg/api/core.go
+  blob_sha: 8a4cb43a2ef877112bc5ee4a92d994185f5d9d7a
+  retrieved: true

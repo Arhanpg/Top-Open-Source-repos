@@ -1,0 +1,129 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:23:21+00:00'
+evidence_fingerprint: 5a06192e3ba6ca3834f96ece277ef9f941ab8cdb164b1e180c8d265f1b120c54
+repository_metadata:
+  company: Amazon
+  account: projen
+  full_name: projen/projen-github-action-typescript
+  repository_id: 482087886
+  url: https://github.com/projen/projen-github-action-typescript
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T00:06:14Z'
+  stars: 16
+  readme_url: https://github.com/projen/projen-github-action-typescript/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 61d9dae4c8eef0d363d083affda753ef2083f150
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/index.ts
+  - src/github-action-metadata.ts
+  - src/model/actions-metadata-model.ts
+  - src/project.ts
+  repository_tree:
+    status: captured
+    sha: e9cd5ea737765d213c4618044d6a6220f5b0e614
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Welcome to the home of projen-github-action-typescript!
+  why_used: Welcome to the home of projen-github-action-typescript!
+  core_features:
+  - name: 'projen-managed action.yml file: write your yaml metadata in .projenrc.js,'
+    description: 'projen-managed action.yml file: write your yaml metadata in .projenrc.js,'
+    evidence:
+    - README.md#Features
+  - name: 'sensible defaults to JavaScript actions: JavaScript actions come pre-configured'
+    description: 'sensible defaults to JavaScript actions: JavaScript actions come pre-configured'
+    evidence:
+    - README.md#Features
+  - name: generate an entrypoint file that receives inputs specified in action.yml.
+    description: generate an entrypoint file that receives inputs specified in action.yml.
+    evidence:
+    - README.md#Future Features
+  - name: generate a CLI from action.yml inputs to unlock sensible testing of the action.
+    description: generate a CLI from action.yml inputs to unlock sensible testing of the action.
+    evidence:
+    - README.md#Future Features
+  technology_stack:
+    languages:
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@types/fs-extra'
+    - '@types/jest'
+    - '@types/node'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - constructs
+    - eslint
+    - eslint-import-resolver-typescript
+    - eslint-plugin-import
+    - fs-extra
+    - glob
+    - jest
+    - jest-junit
+    - jsii
+    - jsii-diff
+    - jsii-docgen
+    - jsii-pacmak
+    - jsii-rosetta
+    - projen
+    - standard-version
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/index.ts, src/github-action-metadata.ts,
+    src/model/actions-metadata-model.ts, src/project.ts'
+  setup_and_usage:
+  - 'Usage: npx projen new --from projen-github-action-typescript'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/projen/projen-github-action-typescript/blob/main/README.md
+  path: README.md
+  blob_sha: 61d9dae4c8eef0d363d083affda753ef2083f150
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 528c1dc21472b92c0bb5d4c3de8690e353cecf3e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 14541
+- type: Git tree
+  status: captured
+  sha: e9cd5ea737765d213c4618044d6a6220f5b0e614
+  truncated: false
+- type: source_file
+  path: src/index.ts
+  blob_sha: 05e2714f44239b6636a3646b2b6513af5b6c6107
+  retrieved: true
+- type: source_file
+  path: src/github-action-metadata.ts
+  blob_sha: 5a669c4b417841a8cbd3311d24dbbc4dda222107
+  retrieved: true
+- type: source_file
+  path: src/model/actions-metadata-model.ts
+  blob_sha: b61a6466f28a8cf590614e465ab8e92f59a4dd94
+  retrieved: true
+- type: source_file
+  path: src/project.ts
+  blob_sha: 448431f22733d4038b6a659aea7d582d04d0f2cb
+  retrieved: true

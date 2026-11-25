@@ -1,0 +1,129 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:25:54+00:00'
+evidence_fingerprint: 64c176f64c8ad096601fbe6480244b0258fc5ab77c267f6c2c8b1c8b9f495993
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/attachments
+  repository_id: 678309412
+  url: https://github.com/cap-js/attachments
+  description: The @cap-js/attachments package is a CDS plugin that provides out-of-the box asset storage and handling
+    by using an aspect Attachments. It also provides a CAP-level, easy to use integration of the SAP Object Store.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-16T12:49:32Z'
+  stars: 36
+  readme_url: https://github.com/cap-js/attachments/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e1a9521ba3c14fe2344a24e0530c2753aa8fd568
+  manifest_paths:
+  - package.json
+  - tests/incidents-app/package.json
+  - tests/incidents-app/app/incidents/package.json
+  source_files_inspected:
+  - lib/mtx/server.js
+  - lib/csn-runtime-extension.js
+  - lib/generic-handlers.js
+  - lib/helper.js
+  repository_tree:
+    status: captured
+    sha: ff12e2864d31c7a8fa612ec2d67e85f4dcc95993
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The @cap-js/attachments package is a CDS plugin that provides out-of-the box asset storage and handling
+    by using an _aspect_ called Attachments. It also provides a CAP-level, easy-to-use integration of the SAP Object
+    Store.
+  why_used: The @cap-js/attachments package is a CDS plugin that provides out-of-the box asset storage and handling
+    by using an aspect Attachments. It also provides a CAP-level, easy to use integration of the SAP Object Store.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-sdk/client-s3'
+    - '@aws-sdk/lib-storage'
+    - '@azure/storage-blob'
+    - '@cap-js/attachments'
+    - '@cap-js/audit-logging'
+    - '@cap-js/cds-test'
+    - '@cap-js/hana'
+    - '@cap-js/postgres'
+    - '@cap-js/sqlite'
+    - '@google-cloud/storage'
+    - '@sap/cds'
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/mtx/server.js,
+    lib/csn-runtime-extension.js, lib/generic-handlers.js, lib/helper.js'
+  setup_and_usage:
+  - 'Quick Start: For a quick local development setup with in-memory storage:'
+  - 'Quick Start: - The plugin is self-configuring as described, see the following details section. To enable attachments,
+    simply add the plugin package to your project:'
+  - 'Quick Start: npm add @cap-js/attachments'
+  - 'Quick Start: The attachments plugin needs to be referenced in the package.json of the consuming CAP NodeJS
+    application:'
+  - 'Quick Start: "@cap-js/attachments": " ",'
+  - 'Quick Start: In addition, different profiles can be found in package.json as well, such as:'
+  - 'Quick Start: - To use Attachments, extend a CDS model by adding an element that refers to the pre-defined Attachments
+    type (see Changes in the CDS Models for more details):'
+  - 'Quick Start: using { Attachments } from ''@cap-js/attachments'';'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/attachments/blob/main/README.md
+  path: README.md
+  blob_sha: e1a9521ba3c14fe2344a24e0530c2753aa8fd568
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 388c6e0aaeb04943b427eb8f6b247e18f638eec8
+  retrieved: true
+- type: manifest
+  path: tests/incidents-app/package.json
+  blob_sha: 6d1c8e6dc49021d84895138c129cd0a08782b76a
+  retrieved: true
+- type: manifest
+  path: tests/incidents-app/app/incidents/package.json
+  blob_sha: 0e7e7319e3ffd95d46f4667744500d6f88a50369
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 532779
+    CAP CDS: 20169
+    HTML: 1054
+- type: Git tree
+  status: captured
+  sha: ff12e2864d31c7a8fa612ec2d67e85f4dcc95993
+  truncated: false
+- type: source_file
+  path: lib/mtx/server.js
+  blob_sha: 1c032ab7db8616cb8560500fb55cf114e103db46
+  retrieved: true
+- type: source_file
+  path: lib/csn-runtime-extension.js
+  blob_sha: a38ddc8fb70e218c4e954184bf67e64f40e06bb4
+  retrieved: true
+- type: source_file
+  path: lib/generic-handlers.js
+  blob_sha: 0c666880a2d078fe49aed41a1eace14025112ae0
+  retrieved: true
+- type: source_file
+  path: lib/helper.js
+  blob_sha: 1fa61e2246f9618f13ef894360d5acab04a6b544
+  retrieved: true

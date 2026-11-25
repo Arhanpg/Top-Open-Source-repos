@@ -1,10 +1,10 @@
 # Technical audits — ui5
 
-Updated: 2026-11-25T04:01:56+00:00
+Updated: 2026-11-25T08:29:14+00:00
 
 ## Status counts
 
-- evidence_only: 3
+- evidence_only: 6
 
 ## Repository dossiers
 
@@ -12,4 +12,7 @@ Updated: 2026-11-25T04:01:56+00:00
 |---|---|---|---|
 | cli-126844225 | evidence_only | [cli-126844225.md](cli-126844225.md) | [cli-126844225.yaml](cli-126844225.yaml) |
 | cli-extensions-577726687 | evidence_only | [cli-extensions-577726687.md](cli-extensions-577726687.md) | [cli-extensions-577726687.yaml](cli-extensions-577726687.yaml) |
+| docs-194231249 | evidence_only | [docs-194231249.md](docs-194231249.md) | [docs-194231249.yaml](docs-194231249.yaml) |
 | github-923699517 | evidence_only | [github-923699517.md](github-923699517.md) | [github-923699517.yaml](github-923699517.yaml) |
+| inspector-42198847 | evidence_only | [inspector-42198847.md](inspector-42198847.md) | [inspector-42198847.yaml](inspector-42198847.yaml) |
+| linter-762309789 | evidence_only | [linter-762309789.md](linter-762309789.md) | [linter-762309789.yaml](linter-762309789.yaml) |

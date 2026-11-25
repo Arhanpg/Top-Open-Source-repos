@@ -1,0 +1,115 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:11:01+00:00'
+evidence_fingerprint: ced4e1c6ed4684f879d3acd3163bcd7fd719b3c63647bc2f1c9cf46233c3fb6e
+repository_metadata:
+  company: Tencent
+  account: Tencent
+  full_name: Tencent/AICGSecEval
+  repository_id: 1015741629
+  url: https://github.com/Tencent/AICGSecEval
+  description: A.S.E (AICGSecEval) is a repository-level AI-generated code security evaluation benchmark developed
+    by Tencent Wukong Code Security Team.
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-25T07:33:16Z'
+  stars: 667
+  readme_url: https://github.com/Tencent/AICGSecEval/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 348cba860c08a039bf2795af3475673012400dfe
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - bench/__init__.py
+  - bench/agent/__init__.py
+  - bench/agent/base.py
+  - bench/agent/claude_code.py
+  repository_tree:
+    status: captured
+    sha: 1789b060d079a49a436a9affb6237e6c39b9bd9d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**A.S.E (AICGSecEval)** provides a **project-level benchmark for evaluating the security of AI-generated
+    code**, designed to assess the security performance of AI-assisted programming by simulating real-world development
+    workflows:'
+  why_used: A.S.E (AICGSecEval) is a repository-level AI-generated code security evaluation benchmark developed
+    by Tencent Wukong Code Security Team.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - PyMySQL
+    - Requests
+    - chardet
+    - docker
+    - filelock
+    - gitpython
+    - numpy
+    - openai
+    - pyserini
+    - tenacity
+    - tqdm
+    - transformers
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: bench/__init__.py,
+    bench/agent/__init__.py, bench/agent/base.py, bench/agent/claude_code.py'
+  setup_and_usage:
+  - '🚀 Quick Start: **System Requirements**'
+  - '🚀 Quick Start: | Memory | Disk Space | Python | Docker |'
+  - '🚀 Quick Start: |:------:|:-----------:|:-------:|:--------:|'
+  - '🚀 Quick Start: | Recommended ≥16GB | ≥100GB | ≥3.11 | ≥27 |'
+  - '🚀 Quick Start: **1. Install Python Dependencies**'
+  - '🚀 Quick Start: pip install -r requirements.txt'
+  - '🚀 Quick Start: **2. Run Evaluation with One Command**'
+  - 'Basic Usage: python3 invoke.py [options...] {--llm | --agent} [llm_options... | agent_options...]'
+  limitations:
+  - '🔗 Recommended Security Tools: If you are interested in AI infrastructure security, refer to A.I.G (AI-Infra-Guard),
+    a comprehensive, intelligent, and easy-to-use AI Red Teaming platform developed by Tencent Zhuque Lab.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Tencent/AICGSecEval/blob/master/README.md
+  path: README.md
+  blob_sha: 348cba860c08a039bf2795af3475673012400dfe
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: bfa6c6153494ee9fd056d047ea75e4604a6b8f45
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 212020
+- type: Git tree
+  status: captured
+  sha: 1789b060d079a49a436a9affb6237e6c39b9bd9d
+  truncated: false
+- type: source_file
+  path: bench/__init__.py
+  blob_sha: c2642fae906e8ea2ae71f19a29c7d3f5db10f7ed
+  retrieved: true
+- type: source_file
+  path: bench/agent/__init__.py
+  blob_sha: 520fefb380b52f8b84295118d53c27a378d09a62
+  retrieved: true
+- type: source_file
+  path: bench/agent/base.py
+  blob_sha: b9ed81a2c9a6224a9557bfb3b52aae1c3bbba236
+  retrieved: true
+- type: source_file
+  path: bench/agent/claude_code.py
+  blob_sha: db812e5dc2a143a37be8bb396b46c821185d7a92
+  retrieved: true

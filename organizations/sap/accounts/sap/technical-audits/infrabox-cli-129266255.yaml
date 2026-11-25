@@ -1,0 +1,108 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:09:49+00:00'
+evidence_fingerprint: 2dd943e43e47407b4e59cd732be86d9e28cd683fce86492c3fda4f02fb690e54
+repository_metadata:
+  company: SAP
+  account: SAP
+  full_name: SAP/InfraBox-cli
+  repository_id: 129266255
+  url: https://github.com/SAP/InfraBox-cli
+  description: Command Line Interface for working with InfraBox, a continuous integration system
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-21T13:35:31Z'
+  stars: 20
+  readme_url: https://github.com/SAP/InfraBox-cli/blob/master/README.md
+  readme_path: README.md
+  readme_sha: b0491cf204ae6531c3983b52962953a01ab454ba
+  manifest_paths:
+  - setup.py
+  - examples/1_hello_world/Dockerfile
+  - examples/3_testresult/Dockerfile
+  - infrabox/pyinfrabox/Dockerfile
+  source_files_inspected:
+  - infrabox/infraboxcli/entrypoint.sh
+  - infrabox/pyinfrabox/entrypoint.sh
+  - infraboxcli/__init__.py
+  - infraboxcli/console.py
+  repository_tree:
+    status: captured
+    sha: 4010794e099923e711b4afd0ecc453998788a57a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: With the InfraBox CLI you can run your InfraBox jobs on your local machine and configure your project.
+  why_used: Command Line Interface for working with InfraBox, a continuous integration system
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: infrabox/infraboxcli/entrypoint.sh,
+    infrabox/pyinfrabox/entrypoint.sh, infraboxcli/__init__.py, infraboxcli/console.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP/InfraBox-cli/blob/master/README.md
+  path: README.md
+  blob_sha: b0491cf204ae6531c3983b52962953a01ab454ba
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: cf49cd030ce4bd8a8783e026429b0548d593de62
+  retrieved: true
+- type: manifest
+  path: examples/1_hello_world/Dockerfile
+  blob_sha: bedd5ea546c949894949bc959c2c1033d8f6958a
+  retrieved: true
+- type: manifest
+  path: examples/3_testresult/Dockerfile
+  blob_sha: f22cf0fc01ed0dcef43cf80a35d11302db89e259
+  retrieved: true
+- type: manifest
+  path: infrabox/pyinfrabox/Dockerfile
+  blob_sha: ffd315548626bed35da207d35496b64d255cf1a7
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 149955
+    Shell: 747
+    Dockerfile: 388
+- type: Git tree
+  status: captured
+  sha: 4010794e099923e711b4afd0ecc453998788a57a
+  truncated: false
+- type: source_file
+  path: infrabox/infraboxcli/entrypoint.sh
+  blob_sha: 878ed204b8d04cbf2fc76f71da2a7d3b39d8f57f
+  retrieved: true
+- type: source_file
+  path: infrabox/pyinfrabox/entrypoint.sh
+  blob_sha: d1e77359a20323a4bdc5ea3b9b5954adc1b0672b
+  retrieved: true
+- type: source_file
+  path: infraboxcli/__init__.py
+  blob_sha: 6d250dc3418331d7f136c186262a224c33e2bd9e
+  retrieved: true
+- type: source_file
+  path: infraboxcli/console.py
+  blob_sha: 38c3c3ef5e272ad0d7744d9b2334b86b15d5657e
+  retrieved: true

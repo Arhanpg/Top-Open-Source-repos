@@ -1,0 +1,91 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:04:44+00:00'
+evidence_fingerprint: e9eec25634600c2200256fcb4dfa6c5bf71e1ac165e5f341606de0dafe5a4b1b
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/amp-eks-iam
+  repository_id: 340516005
+  url: https://github.com/aws-observability/amp-eks-iam
+  description: Tool providing easy IAM setup on EKS for Amazon Managed Service for Prometheus (AMP) users.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-10-11T23:23:16Z'
+  stars: 11
+  readme_url: https://github.com/aws-observability/amp-eks-iam/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 23e04b4e9f9c89d2aa0de4b35085d5717bc771de
+  manifest_paths:
+  - go.mod
+  source_files_inspected:
+  - main.go
+  - help.go
+  repository_tree:
+    status: captured
+    sha: d09356093d3df644881c8721bd580c1eaf18a3e7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: amp-eks-iam creates an IAM role to give remote write privileges to an EKS service account. If you are
+    collecting Prometheus metrics on EKS and want to send them to [Amazon Managed Service for Prometheus (AMP)](https://aws.amazon.com/prometheus/),
+    you can use this tool to give minimal privileges to your Kubernetes namespace and service account.
+  why_used: Tool providing easy IAM setup on EKS for Amazon Managed Service for Prometheus (AMP) users.
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/aws/aws-sdk-go
+    - golang.org/x/net
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: main.go, help.go'
+  setup_and_usage:
+  - 'Installation: $ go get github.com/aws-observability/amp-eks-iam'
+  - 'Usage: amp-eks-iam [options...]'
+  - 'Usage: amp-eks-iam creates the required IAM policies and roles to give'
+  - 'Usage: remote write priviledges to an EKS service account.'
+  - 'Usage: -region=us-east-1 -cluster=eks-cluster'
+  - 'Usage: -cluster EKS cluster name.'
+  - 'Usage: -namespace Kubernetes namespace to apply the policy to. By default, "prometheus".'
+  - 'Usage: -service-account Kubernetes service account to apply the policy to. By default, the namespace.'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/amp-eks-iam/blob/main/README.md
+  path: README.md
+  blob_sha: 23e04b4e9f9c89d2aa0de4b35085d5717bc771de
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 2f284e13679f0fea974b4d96493e013077891fa3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 6871
+- type: Git tree
+  status: captured
+  sha: d09356093d3df644881c8721bd580c1eaf18a3e7
+  truncated: false
+- type: source_file
+  path: main.go
+  blob_sha: 07619c71dfbc660c25da5dbffa284c40c35068fe
+  retrieved: true
+- type: source_file
+  path: help.go
+  blob_sha: 8c4e3f64454d2bdcdd4c86facc794c28178e837e
+  retrieved: true

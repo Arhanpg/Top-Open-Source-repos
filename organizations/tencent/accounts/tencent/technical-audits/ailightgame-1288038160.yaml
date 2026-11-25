@@ -1,0 +1,104 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:19:21+00:00'
+evidence_fingerprint: 01538030a72b11ebb6ad2e76d823699414013d82d24e50d10f65db6977fe2053
+repository_metadata:
+  company: Tencent
+  account: Tencent
+  full_name: Tencent/AILightGame
+  repository_id: 1288038160
+  url: https://github.com/Tencent/AILightGame
+  description: null
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-09-30T01:30:29Z'
+  stars: 10
+  readme_url: https://github.com/Tencent/AILightGame/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e7d27119b1eb858d1bcafcb72f23af8070666404
+  manifest_paths:
+  - AtomicCapabilityTemplates/ci/requirements.txt
+  - SceneTemplates/ci/requirements.txt
+  - SubsystemTemplates/ci/requirements.txt
+  source_files_inspected:
+  - AtomicCapabilityTemplates/ci/build.sh
+  - AtomicCapabilityTemplates/ci/pack_atomic_templates.py
+  - AtomicCapabilityTemplates/ci/upload_cos.py
+  - SceneTemplates/ci/build.sh
+  repository_tree:
+    status: captured
+    sha: 5e4652206f0296422c3e506f8e0df1278f6a6a91
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> 面向 AI 辅助生成的轻量级游戏框架与模板库。基于 Hyper 引擎与 Lua，提供一套数据驱动的游戏核心框架（FrameScript）与开箱即用的完整游戏模板（GameTemplates）。'
+  why_used: '> 面向 AI 辅助生成的轻量级游戏框架与模板库。基于 Hyper 引擎与 Lua，提供一套数据驱动的游戏核心框架（FrameScript）与开箱即用的完整游戏模板（GameTemplates）。'
+  core_features: []
+  technology_stack:
+    languages:
+    - Lua
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - cos-python-sdk-v5
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: AtomicCapabilityTemplates/ci/build.sh,
+    AtomicCapabilityTemplates/ci/pack_atomic_templates.py, AtomicCapabilityTemplates/ci/upload_cos.py, SceneTemplates/ci/build.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Tencent/AILightGame/blob/main/README.md
+  path: README.md
+  blob_sha: e7d27119b1eb858d1bcafcb72f23af8070666404
+  retrieved: true
+- type: manifest
+  path: AtomicCapabilityTemplates/ci/requirements.txt
+  blob_sha: ecff8d09aafa3b596d546508d59a5cb0966401d6
+  retrieved: true
+- type: manifest
+  path: SceneTemplates/ci/requirements.txt
+  blob_sha: ecff8d09aafa3b596d546508d59a5cb0966401d6
+  retrieved: true
+- type: manifest
+  path: SubsystemTemplates/ci/requirements.txt
+  blob_sha: ecff8d09aafa3b596d546508d59a5cb0966401d6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Lua: 14364093
+    Python: 34606
+    Shell: 2289
+- type: Git tree
+  status: captured
+  sha: 5e4652206f0296422c3e506f8e0df1278f6a6a91
+  truncated: false
+- type: source_file
+  path: AtomicCapabilityTemplates/ci/build.sh
+  blob_sha: 12b59ae26406f04464b617f1e4b7ccee48d525db
+  retrieved: true
+- type: source_file
+  path: AtomicCapabilityTemplates/ci/pack_atomic_templates.py
+  blob_sha: 8b4d458fbef0171725d9fd8dcca7e892e926401a
+  retrieved: true
+- type: source_file
+  path: AtomicCapabilityTemplates/ci/upload_cos.py
+  blob_sha: 2c3049dad1f4a4a107f866b3eab1cccd708d34da
+  retrieved: true
+- type: source_file
+  path: SceneTemplates/ci/build.sh
+  blob_sha: 9452826d7108c5211f5516ffa8429cd0aebf5ac6
+  retrieved: true

@@ -1,0 +1,145 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:04:20+00:00'
+evidence_fingerprint: 0041acc26dd00085eefb8041fa9a80dc243a9da3d223090714302d980cae0828
+repository_metadata:
+  company: Amazon
+  account: aws-controllers-k8s
+  full_name: aws-controllers-k8s/ackctl
+  repository_id: 1363290182
+  url: https://github.com/aws-controllers-k8s/ackctl
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-09-15T19:56:00Z'
+  stars: 0
+  readme_url: https://github.com/aws-controllers-k8s/ackctl/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 451cb61f6138b809514908734f139bb42b5bf2e3
+  manifest_paths:
+  - go.mod
+  - Makefile
+  source_files_inspected:
+  - cmd/ackctl/main.go
+  - internal/commands/adopt.go
+  - internal/commands/determinism_test.go
+  - internal/commands/list.go
+  repository_tree:
+    status: captured
+    sha: e75d81845d2cf4861329739b9676e0a10dd08abe
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Command-line tools for [AWS Controllers for Kubernetes][ack] (ACK).
+  why_used: Command-line tools for [AWS Controllers for Kubernetes][ack] (ACK).
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/aws/aws-sdk-go-v2
+    - github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream
+    - github.com/aws/aws-sdk-go-v2/config
+    - github.com/aws/aws-sdk-go-v2/credentials
+    - github.com/aws/aws-sdk-go-v2/feature/ec2/imds
+    - github.com/aws/aws-sdk-go-v2/internal/configsources
+    - github.com/aws/aws-sdk-go-v2/internal/endpoints/v2
+    - github.com/aws/aws-sdk-go-v2/internal/ini
+    - github.com/aws/aws-sdk-go-v2/internal/v4a
+    - github.com/aws/aws-sdk-go-v2/service/apigatewayv2
+    - github.com/aws/aws-sdk-go-v2/service/athena
+    - github.com/aws/aws-sdk-go-v2/service/backup
+    - github.com/aws/aws-sdk-go-v2/service/cloudwatch
+    - github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs
+    - github.com/aws/aws-sdk-go-v2/service/dynamodb
+    - github.com/aws/aws-sdk-go-v2/service/ec2
+    - github.com/aws/aws-sdk-go-v2/service/ecr
+    - github.com/aws/aws-sdk-go-v2/service/ecs
+    - github.com/aws/aws-sdk-go-v2/service/efs
+    - github.com/aws/aws-sdk-go-v2/service/elasticache
+    - github.com/aws/aws-sdk-go-v2/service/elasticloadbalancingv2
+    - github.com/aws/aws-sdk-go-v2/service/eventbridge
+    - github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding
+    - github.com/aws/aws-sdk-go-v2/service/internal/checksum
+    - github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery
+    - github.com/aws/aws-sdk-go-v2/service/internal/presigned-url
+    - github.com/aws/aws-sdk-go-v2/service/internal/s3shared
+    - github.com/aws/aws-sdk-go-v2/service/memorydb
+    - github.com/aws/aws-sdk-go-v2/service/rbin
+    - github.com/aws/aws-sdk-go-v2/service/rds
+    - github.com/aws/aws-sdk-go-v2/service/resourcegroupstaggingapi
+    - github.com/aws/aws-sdk-go-v2/service/s3
+    - github.com/aws/aws-sdk-go-v2/service/sfn
+    - github.com/aws/aws-sdk-go-v2/service/signin
+    - github.com/aws/aws-sdk-go-v2/service/sns
+    - github.com/aws/aws-sdk-go-v2/service/ssm
+    - github.com/aws/aws-sdk-go-v2/service/sso
+    - github.com/aws/aws-sdk-go-v2/service/ssooidc
+    - github.com/aws/aws-sdk-go-v2/service/sts
+    - github.com/aws/smithy-go
+    - github.com/davecgh/go-spew
+    - github.com/inconshreveable/mousetrap
+    - github.com/pmezard/go-difflib
+    - github.com/spf13/cobra
+    - github.com/spf13/pflag
+    - github.com/stretchr/testify
+    - go.yaml.in/yaml/v2
+    - gopkg.in/yaml.v3
+    - sigs.k8s.io/yaml
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/ackctl/main.go,
+    internal/commands/adopt.go, internal/commands/determinism_test.go, internal/commands/list.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-controllers-k8s/ackctl/blob/main/README.md
+  path: README.md
+  blob_sha: 451cb61f6138b809514908734f139bb42b5bf2e3
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 7391a26e143d111748da0d3a3d859ca424faa74f
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: c78abf18890ed066ac58ec4ff893ed33b8043021
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 150328
+    Makefile: 2334
+- type: Git tree
+  status: captured
+  sha: e75d81845d2cf4861329739b9676e0a10dd08abe
+  truncated: false
+- type: source_file
+  path: cmd/ackctl/main.go
+  blob_sha: 970d6d14be60c5fb2056252142cf4f75199eff92
+  retrieved: true
+- type: source_file
+  path: internal/commands/adopt.go
+  blob_sha: 56a8079f5ad4ce59e44541522b5c1a1c4c674b0f
+  retrieved: true
+- type: source_file
+  path: internal/commands/determinism_test.go
+  blob_sha: bf45e056d1f3914f7a42339026e61bb667303d78
+  retrieved: true
+- type: source_file
+  path: internal/commands/list.go
+  blob_sha: fac60e261a05d31d275fe4f631409cb232acd7f7
+  retrieved: true

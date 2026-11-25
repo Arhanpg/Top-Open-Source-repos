@@ -1,0 +1,76 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:22:24+00:00'
+evidence_fingerprint: 90ae0c607320b9039b6f8b40efd2b43d9164d6484652ac8ca14413923041f53f
+repository_metadata:
+  company: Amazon
+  account: boto
+  full_name: boto/boto3-sample
+  repository_id: 26375672
+  url: https://github.com/boto/boto3-sample
+  description: Boto 3 sample application using Amazon Elastic Transcoder, S3, SNS, SQS, and AWS IAM.
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2015-10-23T15:58:21Z'
+  stars: 100
+  readme_url: https://github.com/boto/boto3-sample/blob/master/README.rst
+  readme_path: README.rst
+  readme_sha: 5a0fa7734a72d23d02f7764b57557918e01ff456
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - transcoder.py
+  repository_tree:
+    status: captured
+    sha: d9c48d9e972648b8f382155537ba602b9ec1e2d0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '========================= Boto 3 Sample Application ========================= This application implements
+    a drop video transcoder that lets you easily convert media files by dragging and dropping them on your computer.
+    It makes use of the following services:'
+  why_used: Boto 3 sample application using Amazon Elastic Transcoder, S3, SNS, SQS, and AWS IAM.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - boto3
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: transcoder.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/boto/boto3-sample/blob/master/README.rst
+  path: README.rst
+  blob_sha: 5a0fa7734a72d23d02f7764b57557918e01ff456
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 15dc7566a88b6837111920568a039ed624226811
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 16986
+- type: Git tree
+  status: captured
+  sha: d9c48d9e972648b8f382155537ba602b9ec1e2d0
+  truncated: false
+- type: source_file
+  path: transcoder.py
+  blob_sha: e1b3b55b98e7ec314fb76774545d5894f8ae1938
+  retrieved: true

@@ -1,0 +1,84 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:15:24+00:00'
+evidence_fingerprint: c6c241080b3ba884a62459b0a0363f2119af8d6d1f58a92186a48b3d19f8a8cc
+repository_metadata:
+  company: Apple
+  account: ml-explore
+  full_name: ml-explore/mlx-framework.org
+  repository_id: 979057116
+  url: https://github.com/ml-explore/mlx-framework.org
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-28T20:56:36Z'
+  stars: 15
+  readme_url: https://github.com/ml-explore/mlx-framework.org/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a62e205a5a5b346740a14c905119391cb6e1377a
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/assets/js/script.js
+  - .eleventy.js
+  repository_tree:
+    status: captured
+    sha: a92a348ec87760ae5d9060c322a54b3168480b36
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: bash npm install
+  why_used: bash npm install
+  core_features: []
+  technology_stack:
+    languages:
+    - CSS
+    - JavaScript
+    - Nunjucks
+    frameworks_and_libraries: []
+    dependencies:
+    - '@11ty/eleventy'
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/assets/js/script.js,
+    .eleventy.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ml-explore/mlx-framework.org/blob/main/README.md
+  path: README.md
+  blob_sha: a62e205a5a5b346740a14c905119391cb6e1377a
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 732fd09c75d72519245358188d8b7199d8a9b9b4
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    CSS: 5488
+    JavaScript: 3549
+    Nunjucks: 1385
+- type: Git tree
+  status: captured
+  sha: a92a348ec87760ae5d9060c322a54b3168480b36
+  truncated: false
+- type: source_file
+  path: src/assets/js/script.js
+  blob_sha: 8283505731fc721e71e82c481e75ecb94b63ed49
+  retrieved: true
+- type: source_file
+  path: .eleventy.js
+  blob_sha: 25e9d1a2d6ba03f668a6c7d98015a4b183ca5d19
+  retrieved: true

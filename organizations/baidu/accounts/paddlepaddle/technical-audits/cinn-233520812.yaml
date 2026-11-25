@@ -1,0 +1,134 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:07:34+00:00'
+evidence_fingerprint: d95f08fe55d9ea6f92a84dc7407f948cc34c94c7bd4454f1338d1b17e42ce715
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/CINN
+  repository_id: 233520812
+  url: https://github.com/PaddlePaddle/CINN
+  description: Compiler Infrastructure for Neural Networks
+  default_branch: develop
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2023-07-18T08:10:13Z'
+  stars: 145
+  readme_url: https://github.com/PaddlePaddle/CINN/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: d98955c30a7d8fba00a371ecd56c778d1786280a
+  manifest_paths:
+  - CMakeLists.txt
+  - cinn/CMakeLists.txt
+  - docs/Makefile
+  - infrt/CMakeLists.txt
+  - python/CMakeLists.txt
+  - tests/CMakeLists.txt
+  source_files_inspected:
+  - build.sh
+  - cinn/auto_schedule/analysis/analyze_ir.cc
+  - cinn/auto_schedule/analysis/analyze_ir.h
+  - cinn/auto_schedule/analysis/analyze_ir_test.cc
+  repository_tree:
+    status: captured
+    sha: 9f1aa735ce1907f70a703d5bd9be07bd172f1bf8
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ___ ___ ___ /\__\ /\ \ /\ \ /:/ / ___ \:\ \ \:\ \ /:/ / /\__\ \:\ \ \:\ \ /:/ / ___ /:/__/ _____\:\ \
+    _____\:\ \ /:/__/ /\__\/::\ \ /::::::::\__\/::::::::\__\ \:\ \ /:/ /\/\:\ \__\:\~~\~~\/__/\:\~~\~~\/__/ \:\
+    /:/ / \:\/\__\\:\ \ \:\ \ \:\/:/ / \::/ / \:\ \ \:\ \ \::/ / /:/ / \:\__\ \:\__\ \/__/ \/__/ \/__/ \/__/
+  why_used: Compiler Infrastructure for Neural Networks
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - CMake
+    - Cuda
+    - C
+    - Shell
+    - MLIR
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: build.sh, cinn/auto_schedule/analysis/analyze_ir.cc,
+    cinn/auto_schedule/analysis/analyze_ir.h, cinn/auto_schedule/analysis/analyze_ir_test.cc'
+  setup_and_usage:
+  - 'Reference the API usage: Read the code in the tests'
+  - 'Reference the API usage: For Python API, reference the code inside python/tests.'
+  - 'Reference the API usage: The C++ API locates in cinn/*/*_test.cc, the high level API locates in hlir/frontend,
+    the lower level API is in cinn/cinn.h.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/CINN/blob/develop/README.md
+  path: README.md
+  blob_sha: d98955c30a7d8fba00a371ecd56c778d1786280a
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 85ceb4f8a9314a79c797d7b966ef6ed848b18e75
+  retrieved: true
+- type: manifest
+  path: cinn/CMakeLists.txt
+  blob_sha: 16c70714d7f361eb60d5f23e5f5b2166242d435f
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: d0c3cbf1020d5c292abdedf27627c6abe25e2293
+  retrieved: true
+- type: manifest
+  path: infrt/CMakeLists.txt
+  blob_sha: 9e0339f8f6d5466dd068f88b1896434aeb11e93f
+  retrieved: true
+- type: manifest
+  path: python/CMakeLists.txt
+  blob_sha: 1e28f9dd3d026ba80fb8f25408035c22b8f58add
+  retrieved: true
+- type: manifest
+  path: tests/CMakeLists.txt
+  blob_sha: 68e1ce566a4c4d35c641444328ffc38453d8e25c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 5998594
+    Python: 1036096
+    CMake: 83285
+    Cuda: 52242
+    C: 21788
+    Shell: 19997
+    MLIR: 14269
+    Dockerfile: 6148
+- type: Git tree
+  status: captured
+  sha: 9f1aa735ce1907f70a703d5bd9be07bd172f1bf8
+  truncated: false
+- type: source_file
+  path: build.sh
+  blob_sha: ca3380dba5f405e0caa51503bfbb50884d30e86f
+  retrieved: true
+- type: source_file
+  path: cinn/auto_schedule/analysis/analyze_ir.cc
+  blob_sha: 21ff620118d596fe050472391f6823035234a84c
+  retrieved: true
+- type: source_file
+  path: cinn/auto_schedule/analysis/analyze_ir.h
+  blob_sha: f2d214db89e437bd2750af3820e0b88abd66d26b
+  retrieved: true
+- type: source_file
+  path: cinn/auto_schedule/analysis/analyze_ir_test.cc
+  blob_sha: e51bd0e94cf26324deb2d375d568a691ef91b407
+  retrieved: true

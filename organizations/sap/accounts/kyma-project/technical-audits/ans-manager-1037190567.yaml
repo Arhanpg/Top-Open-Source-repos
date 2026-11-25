@@ -1,0 +1,102 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:09:41+00:00'
+evidence_fingerprint: 5d794d870082bff2502d443a7043442a133dd1bdce2933cd40b547c60d8991fd
+repository_metadata:
+  company: SAP
+  account: kyma-project
+  full_name: kyma-project/ans-manager
+  repository_id: 1037190567
+  url: https://github.com/kyma-project/ans-manager
+  description: Integration with Alert Notification Service - POC
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2025-10-17T11:09:06Z'
+  stars: 0
+  readme_url: https://github.com/kyma-project/ans-manager/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7eeb43f1e7e206ba7f9b2a9ab71cdcddaa128e75
+  manifest_paths:
+  - go.mod
+  source_files_inspected:
+  - client.go
+  - config.go
+  - events/model.go
+  - events/model_test.go
+  repository_tree:
+    status: captured
+    sha: 4d5c587afd075fbde7b9ca0e2243ceb5823f6073
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Alert Notifications Service manager
+  why_used: Integration with Alert Notification Service - POC
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/davecgh/go-spew
+    - github.com/pkg/errors
+    - github.com/pmezard/go-difflib
+    - github.com/stretchr/testify
+    - golang.org/x/oauth2
+    - golang.org/x/time
+    - gopkg.in/yaml.v3
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: client.go, config.go,
+    events/model.go, events/model_test.go'
+  setup_and_usage:
+  - 'Installation: - Create Service Bindings for both Service Instances. The xproduct-single-tenant Service Binding
+    is needed to post notifications, the standard Service Binding is needed to post events.'
+  - 'Installation: - Download Service Bindings as JSON files. Provided shell scripts assume that the files are named
+    stage-e-sb.json (binding for standard plan) and stage-n-sb.json (binding for xproduct-single-tenant plan).'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/kyma-project/ans-manager/blob/main/README.md
+  path: README.md
+  blob_sha: 7eeb43f1e7e206ba7f9b2a9ab71cdcddaa128e75
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 65855a502e7b79c9adc24544c9d10b320433dc0c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 50253
+    Shell: 10063
+- type: Git tree
+  status: captured
+  sha: 4d5c587afd075fbde7b9ca0e2243ceb5823f6073
+  truncated: false
+- type: source_file
+  path: client.go
+  blob_sha: b31168010bb2ce58d4eb6962d32e7fd6329e2520
+  retrieved: true
+- type: source_file
+  path: config.go
+  blob_sha: d0d913abf5a45e77109c8c9483af795b238c4828
+  retrieved: true
+- type: source_file
+  path: events/model.go
+  blob_sha: 266cd532814266bebbdb5ed18abd11b152bdf946
+  retrieved: true
+- type: source_file
+  path: events/model_test.go
+  blob_sha: 7737a5f32b2e0a247a1511511f3e88d63628092a
+  retrieved: true

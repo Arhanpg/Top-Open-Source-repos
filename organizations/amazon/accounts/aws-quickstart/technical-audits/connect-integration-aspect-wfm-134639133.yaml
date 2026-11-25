@@ -1,0 +1,86 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:13:17+00:00'
+evidence_fingerprint: 132356134332b28b2a861291603895a20cd527b707b38d0b63b88194aa98907a
+repository_metadata:
+  company: Amazon
+  account: aws-quickstart
+  full_name: aws-quickstart/connect-integration-aspect-wfm
+  repository_id: 134639133
+  url: https://github.com/aws-quickstart/connect-integration-aspect-wfm
+  description: AWS Quick Start Team
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-10-03T16:27:54Z'
+  stars: 1
+  readme_url: https://github.com/aws-quickstart/connect-integration-aspect-wfm/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 38450a00cc2ab7de36da7511a6fba1e7dad5e2c3
+  manifest_paths: []
+  source_files_inspected:
+  - functions/source/agent-productivity-kinesis/AgentEvent.cs
+  - functions/source/agent-productivity-kinesis/FilterAgentEvents.cs
+  - functions/source/agent-productivity-update/update.py
+  - functions/source/real-time-adherence/AspectAwsLambdaLogger/AspectAwsLambdaLogger.cs
+  repository_tree:
+    status: captured
+    sha: 73579f3c31045b702af308c6606e3034ce4a93c8
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ':x: This repository is subject to deprecation in Q4 2024. For more details, please review this announcement.'
+  why_used: AWS Quick Start Team
+  core_features: []
+  technology_stack:
+    languages:
+    - C#
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: functions/source/agent-productivity-kinesis/AgentEvent.cs,
+    functions/source/agent-productivity-kinesis/FilterAgentEvents.cs, functions/source/agent-productivity-update/update.py,
+    functions/source/real-time-adherence/AspectAwsLambdaLogger/AspectAwsLambdaLogger.cs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-quickstart/connect-integration-aspect-wfm/blob/main/README.md
+  path: README.md
+  blob_sha: 38450a00cc2ab7de36da7511a6fba1e7dad5e2c3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 45559
+    Python: 1635
+- type: Git tree
+  status: captured
+  sha: 73579f3c31045b702af308c6606e3034ce4a93c8
+  truncated: false
+- type: source_file
+  path: functions/source/agent-productivity-kinesis/AgentEvent.cs
+  blob_sha: 982d99beabd49fac33ca5412f5c3485c23595a64
+  retrieved: true
+- type: source_file
+  path: functions/source/agent-productivity-kinesis/FilterAgentEvents.cs
+  blob_sha: 92d62446561690e5bc66ff3503a344ff4fcba75d
+  retrieved: true
+- type: source_file
+  path: functions/source/agent-productivity-update/update.py
+  blob_sha: 751ba93fed4d4a172578d5a5d961054ed8fa6f69
+  retrieved: true
+- type: source_file
+  path: functions/source/real-time-adherence/AspectAwsLambdaLogger/AspectAwsLambdaLogger.cs
+  blob_sha: 95b545dd2f7c45ec341434c47080d61f0bb41224
+  retrieved: true

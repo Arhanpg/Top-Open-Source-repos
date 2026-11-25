@@ -1,0 +1,90 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:08:53+00:00'
+evidence_fingerprint: 0367629fe2a755c66b7da5dbd7cb4fa922b0f8c6f1c45066e2d5fce6f7f419a5
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/asvdb
+  repository_id: 273262216
+  url: https://github.com/rapidsai/asvdb
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-05-18T00:49:51Z'
+  stars: 10
+  readme_url: https://github.com/rapidsai/asvdb/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 9550f506badd0e4ffde62800d122b5a25eeb6e93
+  manifest_paths:
+  - setup.py
+  source_files_inspected:
+  - asvdb/__main__.py
+  - asvdb/__init__.py
+  - asvdb/asvdb.py
+  - asvdb/utils.py
+  repository_tree:
+    status: captured
+    sha: 27986ff7f4f4dd7f0a4a35e18da4897dbf836f21
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Python and command-line interface to a ASV "database", as described here.
+  why_used: Python and command-line interface to a ASV "database", as described here.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: asvdb/__main__.py,
+    asvdb/__init__.py, asvdb/asvdb.py, asvdb/utils.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/asvdb/blob/main/README.md
+  path: README.md
+  blob_sha: 9550f506badd0e4ffde62800d122b5a25eeb6e93
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 7401db9856139e7d56e8c828a9d25d4173eb74c2
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 74745
+    Shell: 440
+- type: Git tree
+  status: captured
+  sha: 27986ff7f4f4dd7f0a4a35e18da4897dbf836f21
+  truncated: false
+- type: source_file
+  path: asvdb/__main__.py
+  blob_sha: fb88cfe63cc0ec1b343c4a9db89c975795954685
+  retrieved: true
+- type: source_file
+  path: asvdb/__init__.py
+  blob_sha: cad1f6cbc9fd19859033e2e2809cbfb20e58aca0
+  retrieved: true
+- type: source_file
+  path: asvdb/asvdb.py
+  blob_sha: ead87e9450bb4a65db1b6aec51b17ab9ff826e7b
+  retrieved: true
+- type: source_file
+  path: asvdb/utils.py
+  blob_sha: 26dfa3f54e6c75eeb881f5449f5d10e9361b1c32
+  retrieved: true

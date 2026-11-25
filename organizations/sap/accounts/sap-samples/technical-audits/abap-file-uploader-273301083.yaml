@@ -1,0 +1,82 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:26:50+00:00'
+evidence_fingerprint: d55c1f3841f52cbd691ac172094a0fa08032fa644e7e22ec4fabfce31d92e0ee
+repository_metadata:
+  company: SAP
+  account: SAP-samples
+  full_name: SAP-samples/abap-file-uploader
+  repository_id: 273301083
+  url: https://github.com/SAP-samples/abap-file-uploader
+  description: 'Sample code to demonstrate easy upload and filling of a custom ABAP table with data from the client
+    side (JSON). '
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-27T19:06:22Z'
+  stars: 61
+  readme_url: https://github.com/SAP-samples/abap-file-uploader/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 20995737689d597b47ee158f91a83eac7d1ff3ae
+  manifest_paths: []
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: e8f54283eb44ce195732d512be339f521c5da32e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The ABAP File Uploader is designed to allow an ABAP developer to upload data from a file directly into
+    a target database table in SAP Business Technology Platform ABAP Environment instance. This utility expects
+    a json file for the uploaded data with attributes that match the column names in the database table.
+  why_used: Sample code to demonstrate easy upload and filling of a custom ABAP table with data from the client
+    side (JSON).
+  core_features: []
+  technology_stack:
+    languages:
+    - ABAP
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage:
+  - 'Download and Installation: Use the abapGit plug-in to install the ABAP File Uploader Examples by executing
+    the following steps:'
+  - 'Download and Installation: 1. In your ABAP cloud project, create an ABAP package for the demo content to be
+    downloaded (leave the suggested values unchanged when following the steps in the package creation wizard).'
+  - 'Download and Installation: 2. To add the abapGit Repositories view to the ABAP perspective, click Window >
+    Show View > Other... from the menu bar and choose abapGit Repositories.'
+  - 'Download and Installation: 3. In the abapGit Repositories view, click the + icon to clone an abapGit repository.'
+  - 'Download and Installation: 4. Enter the following URL of this repository: https://github.com/SAP-samples/abap-file-uploader
+    and choose Next .'
+  - 'Download and Installation: 5. Create a new transport request that you only use for this demo content installation
+    (recommendation) and choose Finish to link the Git repository to your ABAP cloud project. The repository appears
+    in the abapGit Repositories View with status Linked .'
+  - 'Download and Installation: 6. Right-click on the new ABAP repository and choose pull to start the cloning of
+    the repository contents. Note that this procedure may take a few minutes.'
+  - 'Download and Installation: 7. Once the cloning has finished, the status is set to Pulled Successfully. Then
+    refresh your project tree.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP-samples/abap-file-uploader/blob/main/README.md
+  path: README.md
+  blob_sha: 20995737689d597b47ee158f91a83eac7d1ff3ae
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    ABAP: 13771
+- type: Git tree
+  status: captured
+  sha: e8f54283eb44ce195732d512be339f521c5da32e
+  truncated: false

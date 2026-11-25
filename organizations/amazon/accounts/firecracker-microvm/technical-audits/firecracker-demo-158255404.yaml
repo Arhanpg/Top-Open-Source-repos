@@ -1,0 +1,86 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:06:13+00:00'
+evidence_fingerprint: 9ebbc5b241caa052a00a6dd45f7fe780cb577d8d7b97b870e0843739ec139988
+repository_metadata:
+  company: Amazon
+  account: firecracker-microvm
+  full_name: firecracker-microvm/firecracker-demo
+  repository_id: 158255404
+  url: https://github.com/firecracker-microvm/firecracker-demo
+  description: A demo running 4000 Firecracker microVMs.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2022-10-18T14:20:32Z'
+  stars: 286
+  readme_url: https://github.com/firecracker-microvm/firecracker-demo/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5053e4e1b102d331d94bfd6d580c6633f765903a
+  manifest_paths: []
+  source_files_inspected:
+  - 0.initial-setup.sh
+  - 9.cleanup.sh
+  - copy-root-fs.sh
+  - extract-times.sh
+  repository_tree:
+    status: captured
+    sha: 14601148abc9a60238df261267b84fff4c53bc10
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This demo showcases Firecracker's agility and high-density capabiliies. **It's been run on an EC2 i3.metal
+    host (the defaults start 4000 microVMs) with an Ubuntu and an Amazon Linux 2 host OS, from an Ubuntu client.**
+  why_used: A demo running 4000 Firecracker microVMs.
+  core_features: []
+  technology_stack:
+    languages:
+    - Shell
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: 0.initial-setup.sh,
+    9.cleanup.sh, copy-root-fs.sh, extract-times.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/firecracker-microvm/firecracker-demo/blob/main/README.md
+  path: README.md
+  blob_sha: 5053e4e1b102d331d94bfd6d580c6633f765903a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Shell: 9243
+    Python: 3534
+- type: Git tree
+  status: captured
+  sha: 14601148abc9a60238df261267b84fff4c53bc10
+  truncated: false
+- type: source_file
+  path: 0.initial-setup.sh
+  blob_sha: 088a0cdf4898bba25afa55131f1425a89cc84e41
+  retrieved: true
+- type: source_file
+  path: 9.cleanup.sh
+  blob_sha: d692241cf04b0b23b443a1fff91d5285273d59ee
+  retrieved: true
+- type: source_file
+  path: copy-root-fs.sh
+  blob_sha: 52a641c7ea6e4a87aa25c44e1a40d7977a940c85
+  retrieved: true
+- type: source_file
+  path: extract-times.sh
+  blob_sha: 556452ffe560aa74e4b2b4adeba6a1e7104836d7
+  retrieved: true

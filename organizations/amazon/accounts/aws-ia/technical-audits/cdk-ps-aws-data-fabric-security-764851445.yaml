@@ -1,0 +1,145 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:13:01+00:00'
+evidence_fingerprint: 186843766260ff3cc26b5ac276b555d38ed29399fb23b90fee4049408de03789
+repository_metadata:
+  company: Amazon
+  account: aws-ia
+  full_name: aws-ia/cdk-ps-aws-data-fabric-security
+  repository_id: 764851445
+  url: https://github.com/aws-ia/cdk-ps-aws-data-fabric-security
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-12-04T01:27:26Z'
+  stars: 1
+  readme_url: https://github.com/aws-ia/cdk-ps-aws-data-fabric-security/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ad6edf798157970d2753919e850e285348ee1a0a
+  manifest_paths:
+  - package.json
+  - .project_automation/functional_tests/Dockerfile
+  - .project_automation/publication/Dockerfile
+  - .project_automation/static_tests/Dockerfile
+  source_files_inspected:
+  - lib/core/config.ts
+  - lib/core/interface/lambda-deployment-parameters.ts
+  - lib/core/interface/lambda-deployment-stack.ts
+  - lib/core/utilities/cdk-nag-suppressions.ts
+  repository_tree:
+    status: captured
+    sha: af791e41c7794bf8bb8cc861f9f59bae5e51f8a9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: For architectural details, step-by-step instructions, and customization options, see the deployment guide.
+  why_used: For architectural details, step-by-step instructions, and customization options, see the deployment
+    guide.
+  core_features: []
+  technology_stack:
+    languages:
+    - HTML
+    - TypeScript
+    - Shell
+    - Dockerfile
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-cdk/assert'
+    - '@aws-cdk/lambda-layer-kubectl-v27'
+    - '@aws-quickstart/eks-blueprints'
+    - '@types/jest'
+    - '@types/js-yaml'
+    - '@types/node'
+    - '@types/sinon'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - aws-cdk
+    - aws-cdk-lib
+    - cdk-nag
+    - constructs
+    - eslint
+    - eslint-config-prettier
+    - eslint-import-resolver-typescript
+    - eslint-plugin-import
+    - eslint-plugin-prettier
+    - jest
+    - prettier
+    - sinon
+    - source-map-support
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/core/config.ts,
+    lib/core/interface/lambda-deployment-parameters.ts, lib/core/interface/lambda-deployment-stack.ts, lib/core/utilities/cdk-nag-suppressions.ts'
+  setup_and_usage: []
+  limitations:
+  - 'Data Fabric Security on AWS—Solution: For architectural details, step-by-step instructions, and customization
+    options, see the deployment guide.'
+  - 'Data Fabric Security on AWS—Solution: To post feedback, submit feature ideas, or report bugs, use the **Issues**
+    section of this GitHub repo.'
+  - 'Data Fabric Security on AWS—Solution: To submit code for this Solution, see the AWS Quick Start Contributor''s
+    Guide.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-ia/cdk-ps-aws-data-fabric-security/blob/main/README.md
+  path: README.md
+  blob_sha: ad6edf798157970d2753919e850e285348ee1a0a
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: c42c4b3ac0d009867ced612b30132f2c798d71e1
+  retrieved: true
+- type: manifest
+  path: .project_automation/functional_tests/Dockerfile
+  blob_sha: b84fe27d66c29783fc70f4700e9dcf8737dc789f
+  retrieved: true
+- type: manifest
+  path: .project_automation/publication/Dockerfile
+  blob_sha: 9c48df30228e80f84e9c74fbd852a33deb66ff5d
+  retrieved: true
+- type: manifest
+  path: .project_automation/static_tests/Dockerfile
+  blob_sha: 151f24854c5aac3d59606dfa2c013c18df48d9d3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    HTML: 83350
+    TypeScript: 50260
+    Shell: 8874
+    Dockerfile: 2173
+    JavaScript: 243
+- type: Git tree
+  status: captured
+  sha: af791e41c7794bf8bb8cc861f9f59bae5e51f8a9
+  truncated: false
+- type: source_file
+  path: lib/core/config.ts
+  blob_sha: 92efc9f24b71ae85a64701e253475c6cd30b6ca4
+  retrieved: true
+- type: source_file
+  path: lib/core/interface/lambda-deployment-parameters.ts
+  blob_sha: 966586bea3f591800ebe16324af7c8ab5904453b
+  retrieved: true
+- type: source_file
+  path: lib/core/interface/lambda-deployment-stack.ts
+  blob_sha: 29c08c48d13465d1ab7a5d74134e0502d784a054
+  retrieved: true
+- type: source_file
+  path: lib/core/utilities/cdk-nag-suppressions.ts
+  blob_sha: b832c468a774c1075d44155435f2f6ba6350ba50
+  retrieved: true

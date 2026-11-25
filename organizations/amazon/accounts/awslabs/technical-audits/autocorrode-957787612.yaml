@@ -1,0 +1,139 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:05:33+00:00'
+evidence_fingerprint: fc5ed842d3c721a0c546ec57e54c806cdfbe4d5c7d7853a9eeb0293b3dc7b1cb
+repository_metadata:
+  company: Amazon
+  account: awslabs
+  full_name: awslabs/AutoCorrode
+  repository_id: 957787612
+  url: https://github.com/awslabs/AutoCorrode
+  description: Verification infrastructure for the Isabelle/HOL interactive proof assistant
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-09T21:35:55Z'
+  stars: 116
+  readme_url: https://github.com/awslabs/AutoCorrode/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2395a1596373f045ee5eb034a0ac04d679b89921
+  manifest_paths:
+  - Makefile
+  - Fine_Grained_Timing_Panel/Makefile
+  - ic2/Makefile
+  - ip/requirements.txt
+  - iq/Makefile
+  - ir/requirements.txt
+  source_files_inspected:
+  - Fine_Grained_Timing_Panel/src/FineGrainedTiming.scala
+  - Fine_Grained_Timing_Panel/src/FineGrainedTimingDockable.scala
+  - Fine_Grained_Timing_Panel/src/FineGrainedTimingHierarchy.scala
+  - Fine_Grained_Timing_Panel/src/FineGrainedTimingPlugin.scala
+  repository_tree:
+    status: captured
+    sha: c1184d26de1fc142307a9be35f7815fd9d198350
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: AutoCorrode provides infrastructure for reasoning about imperative programs in Isabelle/HOL. It supports
+    classical and separation logic and includes configurable and scalable custom automation, written in Standard
+    ML. The core of AutoCorrode is language-agnostic, with a frontend and examples for the Rust-like language µRust.
+  why_used: Verification infrastructure for the Isabelle/HOL interactive proof assistant
+  core_features: []
+  technology_stack:
+    languages:
+    - Isabelle
+    - Scala
+    - Python
+    - Standard ML
+    - Makefile
+    - Shell
+    - TeX
+    - OCaml
+    frameworks_and_libraries: []
+    dependencies:
+    - mcp
+    - prompt_toolkit
+    - rich
+    - zstandard
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Fine_Grained_Timing_Panel/src/FineGrainedTiming.scala,
+    Fine_Grained_Timing_Panel/src/FineGrainedTimingDockable.scala, Fine_Grained_Timing_Panel/src/FineGrainedTimingHierarchy.scala,
+    Fine_Grained_Timing_Panel/src/FineGrainedTimingPlugin.scala'
+  setup_and_usage:
+  - 'Usage: You can interactively explore AutoCorrode using make jedit, which opens the AutoCorrode source in the
+    Isabelle/jEdit GUI.'
+  - 'Usage: To non-interactively check all material in AutoCorrode, run make build, which starts a batch-build in
+    Isabelle.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/awslabs/AutoCorrode/blob/main/README.md
+  path: README.md
+  blob_sha: 2395a1596373f045ee5eb034a0ac04d679b89921
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 077b338af7d7e8574d9c4b63856f535e5e751533
+  retrieved: true
+- type: manifest
+  path: Fine_Grained_Timing_Panel/Makefile
+  blob_sha: 84cbf9792c18b95e5ab9c33b1be949646854c937
+  retrieved: true
+- type: manifest
+  path: ic2/Makefile
+  blob_sha: 138223c34febec24c108ad4f24a4f7b0ab6b6f98
+  retrieved: true
+- type: manifest
+  path: ip/requirements.txt
+  blob_sha: fb11b711f06e74f3e246fff6c27dbe3310c79b4d
+  retrieved: true
+- type: manifest
+  path: iq/Makefile
+  blob_sha: 05d7676912c2dff2613b7f90bfb70efca4a671d4
+  retrieved: true
+- type: manifest
+  path: ir/requirements.txt
+  blob_sha: 787673074c4eb121e2fc44e2c96f56bc506cd226
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Isabelle: 3816686
+    Scala: 2327478
+    Python: 918911
+    Standard ML: 492256
+    Makefile: 38250
+    Shell: 35135
+    TeX: 26463
+    OCaml: 10094
+- type: Git tree
+  status: captured
+  sha: c1184d26de1fc142307a9be35f7815fd9d198350
+  truncated: false
+- type: source_file
+  path: Fine_Grained_Timing_Panel/src/FineGrainedTiming.scala
+  blob_sha: 10514cb4f016fa422d6b89a17dd82a4a3507577d
+  retrieved: true
+- type: source_file
+  path: Fine_Grained_Timing_Panel/src/FineGrainedTimingDockable.scala
+  blob_sha: 3f7d5410f4ad01bf8df4f99128a49292e4efdbe4
+  retrieved: true
+- type: source_file
+  path: Fine_Grained_Timing_Panel/src/FineGrainedTimingHierarchy.scala
+  blob_sha: 029491b2ea476aece760e966e56f46dc11b63415
+  retrieved: true
+- type: source_file
+  path: Fine_Grained_Timing_Panel/src/FineGrainedTimingPlugin.scala
+  blob_sha: 17dd6f1550ebb890eebc444b03fb02eda64205ea
+  retrieved: true

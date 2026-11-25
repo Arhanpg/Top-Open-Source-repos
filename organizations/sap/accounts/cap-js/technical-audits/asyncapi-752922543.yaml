@@ -1,0 +1,96 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:17:37+00:00'
+evidence_fingerprint: 5d90384d610a8a3401c66d0d40b8e361660f447ef9af58df57b574b2ee8a3604
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/asyncapi
+  repository_id: 752922543
+  url: https://github.com/cap-js/asyncapi
+  description: Async API exporter
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-02T08:19:07Z'
+  stars: 2
+  readme_url: https://github.com/cap-js/asyncapi/blob/main/README.md
+  readme_path: README.md
+  readme_sha: bd737a3672c8ba430e786323a838a152619a64ad
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - lib/compile/components/messages/index.js
+  - lib/compile/components/messageTraits/index.js
+  - lib/compile/components/schemas/index.js
+  - lib/compile/index.js
+  repository_tree:
+    status: captured
+    sha: bf115ed05d3ac7bc370e7ca17c9396c71b2a762f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The @cap-js/asyncapi is a package that provides support for AsyncAPI document compilation.
+  why_used: Async API exporter
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - eslint
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/compile/components/messages/index.js,
+    lib/compile/components/messageTraits/index.js, lib/compile/components/schemas/index.js, lib/compile/index.js'
+  setup_and_usage:
+  - 'Installation: npm add -D @cap-js/asyncapi'
+  - 'Installation: See the AsyncAPI guide for the full documentation.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/asyncapi/blob/main/README.md
+  path: README.md
+  blob_sha: bd737a3672c8ba430e786323a838a152619a64ad
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 1523d7e6d5d12cf116c71a7cffe312ada78d8eb0
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 76827
+    CAP CDS: 12640
+- type: Git tree
+  status: captured
+  sha: bf115ed05d3ac7bc370e7ca17c9396c71b2a762f
+  truncated: false
+- type: source_file
+  path: lib/compile/components/messages/index.js
+  blob_sha: 10aa867aa9d16d30908c2cbdab9ec76246d99915
+  retrieved: true
+- type: source_file
+  path: lib/compile/components/messageTraits/index.js
+  blob_sha: 779f9615b812ada2aeb48079d14a2b348059dc7b
+  retrieved: true
+- type: source_file
+  path: lib/compile/components/schemas/index.js
+  blob_sha: d399be2e93fde999ee576406da17e6a2d6e1be57
+  retrieved: true
+- type: source_file
+  path: lib/compile/index.js
+  blob_sha: 9237921393540153548fbb6d86ae6a08a6ad0dba
+  retrieved: true

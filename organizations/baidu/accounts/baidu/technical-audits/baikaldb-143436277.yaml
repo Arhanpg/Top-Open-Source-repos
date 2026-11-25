@@ -1,0 +1,124 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:15:50+00:00'
+evidence_fingerprint: 5310c4d15e6c2b405b53b5f4041944f0c40789630aa1625f5239cc2fe6465605
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/BaikalDB
+  repository_id: 143436277
+  url: https://github.com/baidu/BaikalDB
+  description: BaikalDB, A Distributed HTAP Database.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-06-15T08:23:16Z'
+  stars: 1239
+  readme_url: https://github.com/baidu/BaikalDB/blob/master/README.md
+  readme_path: README.md
+  readme_sha: c8cb365c895d6e34d3bdda2feea5e5385a687404
+  manifest_paths:
+  - CMakeLists.txt
+  - baikal-client/CMakeLists.txt
+  - sysbench/lua/Makefile
+  - sysbench/lua/internal/Makefile
+  source_files_inspected:
+  - src/meta_server/main.cpp
+  - src/protocol/main.cpp
+  - src/store/main.cpp
+  - src/tools/main.cpp
+  repository_tree:
+    status: captured
+    sha: 1beb96cc999493eaf2961221597830b6aad7d32f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: BaikalDB supports sequential and randomised realtime read/write of structural data in petabytes-scale.
+    BaikalDB is compatible with MySQL protocol and it supports MySQL style SQL dialect, by which users can migrate
+    their data storage from MySQL to BaikalDB seamlessly.
+  why_used: BaikalDB, A Distributed HTAP Database.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Yacc
+    - Shell
+    - Lua
+    - CMake
+    - Makefile
+    - C
+    - Lex
+    - Python
+    - PLpgSQL
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/meta_server/main.cpp,
+    src/protocol/main.cpp, src/store/main.cpp, src/tools/main.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/BaikalDB/blob/master/README.md
+  path: README.md
+  blob_sha: c8cb365c895d6e34d3bdda2feea5e5385a687404
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 4b512ef9060f5fa93617eedb5b8751e284779bc2
+  retrieved: true
+- type: manifest
+  path: baikal-client/CMakeLists.txt
+  blob_sha: c7ca7edcedb46b9b98f2f997fb6a31cc136d762e
+  retrieved: true
+- type: manifest
+  path: sysbench/lua/Makefile
+  blob_sha: 8b43e51db6e45ce579eae4f7cca39ad4d84f6777
+  retrieved: true
+- type: manifest
+  path: sysbench/lua/internal/Makefile
+  blob_sha: 54ac91b07510144279db8b7d0cd9c9fd38e2ad67
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 10508850
+    Yacc: 177487
+    Shell: 152470
+    Lua: 94859
+    CMake: 79363
+    Makefile: 75768
+    C: 38810
+    Lex: 27837
+    Python: 11264
+    PLpgSQL: 1817
+- type: Git tree
+  status: captured
+  sha: 1beb96cc999493eaf2961221597830b6aad7d32f
+  truncated: false
+- type: source_file
+  path: src/meta_server/main.cpp
+  blob_sha: 05b260e8e4d50e97dc2deaddfe2e280cbe2116b3
+  retrieved: true
+- type: source_file
+  path: src/protocol/main.cpp
+  blob_sha: bda56743c9dd193de0b73a8bf7489e080ba673ce
+  retrieved: true
+- type: source_file
+  path: src/store/main.cpp
+  blob_sha: 2de2199874964b105b5b1bdbc6bff16d6f720658
+  retrieved: true
+- type: source_file
+  path: src/tools/main.cpp
+  blob_sha: c5334e02dd772aecd0d534e517313c760a559cfc
+  retrieved: true

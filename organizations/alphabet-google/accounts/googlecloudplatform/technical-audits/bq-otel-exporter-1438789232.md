@@ -6,7 +6,7 @@
 - Default branch: main
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-25T03:52:59+00:00
+- Generated: 2026-11-25T08:03:01+00:00
 
 ## Project purpose
 
@@ -22,7 +22,7 @@ No separately supported feature list extracted.
 
 ## Technology stack
 
-- Languages: Unknown / not established
+- Languages: Go, HCL, Shell, Python, Makefile, Dockerfile
 - Frameworks/libraries: Unknown / not established
 - Dependency names: cloud.google.com/go, cloud.google.com/go/auth, cloud.google.com/go/auth/oauth2adapt, cloud.google.com/go/bigquery, cloud.google.com/go/compute/metadata, cloud.google.com/go/iam, github.com/apache/arrow/go/v15, github.com/beorn7/perks, github.com/cenkalti/backoff/v5, github.com/cenkalti/backoff/v7, github.com/cespare/xxhash/v2, github.com/dlclark/regexp2, github.com/ebitengine/purego, github.com/felixge/httpsnoop, github.com/go-logr/logr, github.com/go-logr/stdr, github.com/go-ole/go-ole, github.com/go-viper/mapstructure/v2, github.com/gobwas/glob, github.com/goccy/go-json, github.com/google/flatbuffers, github.com/google/s2a-go, github.com/google/uuid, github.com/googleapis/enterprise-certificate-proxy, github.com/googleapis/gax-go/v2, github.com/grpc-ecosystem/grpc-gateway/v2, github.com/hashicorp/go-version, github.com/hashicorp/golang-lru/v2, github.com/json-iterator/go, github.com/klauspost/compress, github.com/klauspost/cpuid/v2, github.com/knadh/koanf/maps, github.com/knadh/koanf/providers/confmap, github.com/knadh/koanf/v2, github.com/lufia/plan9stats, github.com/mitchellh/copystructure, github.com/mitchellh/reflectwalk, github.com/modern-go/concurrent, github.com/modern-go/reflect2, github.com/munnerz/goautoneg, github.com/pierrec/lz4/v4, github.com/power-devops/perfstat, github.com/prometheus/client_golang, github.com/prometheus/client_model, github.com/prometheus/common, github.com/prometheus/otlptranslator, github.com/prometheus/procfs, github.com/santhosh-tekuri/jsonschema/v6, github.com/shirou/gopsutil/v4, github.com/stretchr/testify, github.com/tklauser/go-sysconf, github.com/tklauser/numcpus, github.com/yusufpapurcu/wmi, github.com/zeebo/xxh3, go.opencensus.io, go.opentelemetry.io/auto/sdk, go.opentelemetry.io/collector/client, go.opentelemetry.io/collector/component, go.opentelemetry.io/collector/component/componentstatus, go.opentelemetry.io/collector/component/componenttest, go.opentelemetry.io/collector/config/configopaque, go.opentelemetry.io/collector/config/configoptional, go.opentelemetry.io/collector/config/configretry, go.opentelemetry.io/collector/config/configtelemetry, go.opentelemetry.io/collector/confmap, go.opentelemetry.io/collector/connector, go.opentelemetry.io/collector/connector/connectortest, go.opentelemetry.io/collector/connector/xconnector, go.opentelemetry.io/collector/consumer, go.opentelemetry.io/collector/consumer/consumererror, go.opentelemetry.io/collector/consumer/consumertest, go.opentelemetry.io/collector/consumer/xconsumer, go.opentelemetry.io/collector/exporter, go.opentelemetry.io/collector/exporter/exporterhelper, go.opentelemetry.io/collector/exporter/exportertest, go.opentelemetry.io/collector/exporter/xexporter, go.opentelemetry.io/collector/extension, go.opentelemetry.io/collector/extension/extensioncapabilities, go.opentelemetry.io/collector/extension/extensiontest, go.opentelemetry.io/collector/extension/xextension, go.opentelemetry.io/collector/featuregate, go.opentelemetry.io/collector/internal/componentalias, go.opentelemetry.io/collector/internal/fanoutconsumer, go.opentelemetry.io/collector/internal/telemetry, go.opentelemetry.io/collector/pdata, go.opentelemetry.io/collector/pdata/pprofile, go.opentelemetry.io/collector/pdata/testdata, go.opentelemetry.io/collector/pdata/xpdata, go.opentelemetry.io/collector/pipeline, go.opentelemetry.io/collector/pipeline/xpipeline, go.opentelemetry.io/collector/processor, go.opentelemetry.io/collector/processor/processortest, go.opentelemetry.io/collector/processor/xprocessor, go.opentelemetry.io/collector/receiver, go.opentelemetry.io/collector/receiver/receivertest, go.opentelemetry.io/collector/receiver/xreceiver, go.opentelemetry.io/collector/service, go.opentelemetry.io/collector/service/hostcapabilities, go.opentelemetry.io/collector/service/telemetry/telemetrytest, go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc
 - Build/package tools: Docker build configuration, Go module manifest
@@ -57,7 +57,7 @@ No setup information established.
 - Manifests: go.mod, Makefile, example/Dockerfile
 - Sampled source files: cmd/bq-otel-backfill/main.go, cmd/bq-otel-testbench/main.go, cmd/bq-otel-validate/main.go, cmd/bq-quarantine-replay/main.go
 - Git tree state: captured
-- Evidence fingerprint: e3780cd8e2d3f4e903a4bef187ae917bd01a693f182f74e74c6e446bb3794300
+- Evidence fingerprint: 5d7e8458d23b17d91db79ee05b40f4e72dbd10083b8bf84d3981e22536d48d5f
 
 ## Unverified / unknown
 

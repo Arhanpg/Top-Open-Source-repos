@@ -1,0 +1,145 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:25:06+00:00'
+evidence_fingerprint: e5111955ae84e110550d63063e57a3a9ba328f500fda8c2e60ec806f835b7321
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/AI-Factory-Operations-Agent
+  repository_id: 1266698124
+  url: https://github.com/NVIDIA/AI-Factory-Operations-Agent
+  description: Deploy AI agents to investigate cluster issues and streamline governed AI factory operations.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T18:53:39Z'
+  stars: 45
+  readme_url: https://github.com/NVIDIA/AI-Factory-Operations-Agent/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7df62de00e1aca39f6030c2e4242295f916b0a89
+  manifest_paths:
+  - docs/pyproject.toml
+  - helm/mosaic-stack/files/openclaw-seed/extensions/automation-guard/package.json
+  - helm/mosaic-stack/files/openclaw-seed/extensions/bcm/package.json
+  - helm/mosaic-stack/files/openclaw-seed/extensions/dcgm/package.json
+  - helm/mosaic-stack/files/openclaw-seed/extensions/diagnostic-agent/package.json
+  - helm/mosaic-stack/files/openclaw-seed/extensions/grafana/package.json
+  source_files_inspected:
+  - helm/mosaic-stack/files/openclaw-seed/extensions/automation-guard/index.ts
+  - helm/mosaic-stack/files/openclaw-seed/extensions/bcm/index.ts
+  - helm/mosaic-stack/files/openclaw-seed/extensions/dcgm/index.ts
+  - helm/mosaic-stack/files/openclaw-seed/extensions/diagnostic-agent/index.ts
+  repository_tree:
+    status: captured
+    sha: 8fc8b4a20810c4baa5d61f790381fdb57befaf6e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Deploy specialized AI agents to investigate cluster issues and streamline governed AI factory operations.
+  why_used: Deploy AI agents to investigate cluster issues and streamline governed AI factory operations.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    - Python
+    - Shell
+    - HTML
+    - Go Template
+    frameworks_and_libraries: []
+    dependencies:
+    - myst-parser
+    - nvidia-sphinx-theme
+    - pyyaml
+    - sphinx
+    - sphinx-copybutton
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: helm/mosaic-stack/files/openclaw-seed/extensions/automation-guard/index.ts,
+    helm/mosaic-stack/files/openclaw-seed/extensions/bcm/index.ts, helm/mosaic-stack/files/openclaw-seed/extensions/dcgm/index.ts,
+    helm/mosaic-stack/files/openclaw-seed/extensions/diagnostic-agent/index.ts'
+  setup_and_usage:
+  - 'Getting Started: The documentation site can be built locally from the guides in this repository. See Building
+    the documentation.'
+  - 'Getting Started: In the early access stage, the published Helm chart and container images require an early
+    access invitation to the private NGC registry; nvcr.io login alone does not grant pull access. To request access
+    before installing, complete the onboarding form or email ai-factory-operations-agent@nvidia.com. You can also
+    contact your NVIDIA account team.'
+  - 'Getting Started: Use the complete installation guide for your environment:'
+  - 'Getting Started: - NVIDIA Mission Control installation'
+  - 'Getting Started: - Base Command Manager installation without Kubernetes'
+  - 'Getting Started: - Custom installation and module configuration'
+  - 'Usage: After installation, forward the AI Factory Operations Agent UI service:'
+  - 'Usage: kubectl -n aifoa port-forward svc/mosaic-ui 3000:3000'
+  limitations:
+  - 'Security: - Vulnerability disclosure: SECURITY.md'
+  - 'Security: - Do not file public issues for security reports.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/AI-Factory-Operations-Agent/blob/main/README.md
+  path: README.md
+  blob_sha: 7df62de00e1aca39f6030c2e4242295f916b0a89
+  retrieved: true
+- type: manifest
+  path: docs/pyproject.toml
+  blob_sha: 0a216eac74dbf679316278983dd39b6901cbf44b
+  retrieved: true
+- type: manifest
+  path: helm/mosaic-stack/files/openclaw-seed/extensions/automation-guard/package.json
+  blob_sha: a7b667dbcca812d8e00220251219c417d2099909
+  retrieved: true
+- type: manifest
+  path: helm/mosaic-stack/files/openclaw-seed/extensions/bcm/package.json
+  blob_sha: 6543d9910a3a8c157c779ef40cb5f69b58f16655
+  retrieved: true
+- type: manifest
+  path: helm/mosaic-stack/files/openclaw-seed/extensions/dcgm/package.json
+  blob_sha: 3428b16ee3b9e343af65bc3c204974663f2ae0b6
+  retrieved: true
+- type: manifest
+  path: helm/mosaic-stack/files/openclaw-seed/extensions/diagnostic-agent/package.json
+  blob_sha: 89c67df4254e19c0706cec060de70f28ec8d00ca
+  retrieved: true
+- type: manifest
+  path: helm/mosaic-stack/files/openclaw-seed/extensions/grafana/package.json
+  blob_sha: fe48e2172535d606c4e6277dc04563e1d29d2ccd
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 232622
+    JavaScript: 214990
+    Python: 98241
+    Shell: 30434
+    HTML: 16950
+    Go Template: 8231
+- type: Git tree
+  status: captured
+  sha: 8fc8b4a20810c4baa5d61f790381fdb57befaf6e
+  truncated: false
+- type: source_file
+  path: helm/mosaic-stack/files/openclaw-seed/extensions/automation-guard/index.ts
+  blob_sha: 4156ea3d26ec77d188925f4e9a7bd877bb356d87
+  retrieved: true
+- type: source_file
+  path: helm/mosaic-stack/files/openclaw-seed/extensions/bcm/index.ts
+  blob_sha: 09695663adbeb29104f77861f7801b0da0d397ea
+  retrieved: true
+- type: source_file
+  path: helm/mosaic-stack/files/openclaw-seed/extensions/dcgm/index.ts
+  blob_sha: 1ba0acf523398cf0e0c176515ae585647f0117e6
+  retrieved: true
+- type: source_file
+  path: helm/mosaic-stack/files/openclaw-seed/extensions/diagnostic-agent/index.ts
+  blob_sha: 6385ad67b1e8b4939c2706be778d3b6108983032
+  retrieved: true

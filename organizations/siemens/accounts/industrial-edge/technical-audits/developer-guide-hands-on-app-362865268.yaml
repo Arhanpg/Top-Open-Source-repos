@@ -1,0 +1,112 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:27:15+00:00'
+evidence_fingerprint: 8e1bd523489ed61353654f6de6b42dfaa44cc9eb998aba0d703c25399981f0c5
+repository_metadata:
+  company: Siemens
+  account: industrial-edge
+  full_name: industrial-edge/Developer-Guide-Hands-on-App
+  repository_id: 362865268
+  url: https://github.com/industrial-edge/Developer-Guide-Hands-on-App
+  description: Handson application for Industrial Edge Developer Guide
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-10-16T09:38:06Z'
+  stars: 46
+  readme_url: https://github.com/industrial-edge/Developer-Guide-Hands-on-App/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 8ef605257100f77207c8962ccf4a1de74e5b6789
+  manifest_paths:
+  - src/solution/HandsOn_1/my_edge_app/data-analytics/requirements.txt
+  - src/solution/HandsOn_1/node_red/node-red/package.json
+  - src/solution/HandsOn_2/my_edge_app/data-analytics/requirements.txt
+  source_files_inspected:
+  - src/solution/HandsOn_1/my_edge_app/data-analytics/program/app.py
+  - src/solution/HandsOn_2/my_edge_app/data-analytics/program/app.py
+  - src/solution/HandsOn_1/my_edge_app/data-analytics/program/data_analytics.py
+  - src/solution/HandsOn_1/node_red/node-red/settings.js
+  repository_tree:
+    status: captured
+    sha: de88a4267db89da5d46169a380bfb3a26d19bdc3
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Creating a first Industrial Edge App on a development environment to deploy it to an Industrial Edge
+    Device based on App Developer Guide.
+  why_used: Handson application for Industrial Edge Developer Guide
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - JavaScript
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - node-red
+    - node-red-contrib-influxdb
+    - node-red-contrib-opcua
+    - paho-mqtt
+    build_and_package_tools:
+    - npm-compatible manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/solution/HandsOn_1/my_edge_app/data-analytics/program/app.py,
+    src/solution/HandsOn_2/my_edge_app/data-analytics/program/app.py, src/solution/HandsOn_1/my_edge_app/data-analytics/program/data_analytics.py,
+    src/solution/HandsOn_1/node_red/node-red/settings.js'
+  setup_and_usage:
+  - 'Installation: If you would like to run the solution of this app you need to rename all files called "Dockerfile.example"
+    to Dockerfile. These Dockerfiles are just an example how you could implement it.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/industrial-edge/Developer-Guide-Hands-on-App/blob/main/README.md
+  path: README.md
+  blob_sha: 8ef605257100f77207c8962ccf4a1de74e5b6789
+  retrieved: true
+- type: manifest
+  path: src/solution/HandsOn_1/my_edge_app/data-analytics/requirements.txt
+  blob_sha: f6c4882846fe5fb9d48592465bf6953abdf949e9
+  retrieved: true
+- type: manifest
+  path: src/solution/HandsOn_1/node_red/node-red/package.json
+  blob_sha: b28ef506ef9b283d9feab8c5b1b205817c1b5c28
+  retrieved: true
+- type: manifest
+  path: src/solution/HandsOn_2/my_edge_app/data-analytics/requirements.txt
+  blob_sha: f6c4882846fe5fb9d48592465bf6953abdf949e9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 12284
+    JavaScript: 10961
+    Shell: 1511
+- type: Git tree
+  status: captured
+  sha: de88a4267db89da5d46169a380bfb3a26d19bdc3
+  truncated: false
+- type: source_file
+  path: src/solution/HandsOn_1/my_edge_app/data-analytics/program/app.py
+  blob_sha: d54339c12b40171a7ff4ddd00e50f71ae9f6420e
+  retrieved: true
+- type: source_file
+  path: src/solution/HandsOn_2/my_edge_app/data-analytics/program/app.py
+  blob_sha: d54339c12b40171a7ff4ddd00e50f71ae9f6420e
+  retrieved: true
+- type: source_file
+  path: src/solution/HandsOn_1/my_edge_app/data-analytics/program/data_analytics.py
+  blob_sha: 01a8e80d42c04520b59ed6d92d3706d597be0529
+  retrieved: true
+- type: source_file
+  path: src/solution/HandsOn_1/node_red/node-red/settings.js
+  blob_sha: 5573c85ff4c66fba7aca600f50c1c4ae4129e0ff
+  retrieved: true

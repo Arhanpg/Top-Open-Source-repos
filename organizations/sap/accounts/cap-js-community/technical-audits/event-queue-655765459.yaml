@@ -1,0 +1,165 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:17:45+00:00'
+evidence_fingerprint: e5e99f92e240278765a9d632cca191052ef0c6ed59331f6e1282caa1769d48ad
+repository_metadata:
+  company: SAP
+  account: cap-js-community
+  full_name: cap-js-community/event-queue
+  repository_id: 655765459
+  url: https://github.com/cap-js-community/event-queue
+  description: An event queue that enables secure multi-tenant enabled transactional processing of asynchronous
+    events, featuring instant event processing with Redis Pub/Sub and load distribution across all application instances.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T21:37:13Z'
+  stars: 19
+  readme_url: https://github.com/cap-js-community/event-queue/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4257bef046344eb6eb6188a771c9d988c80f499e
+  manifest_paths:
+  - package.json
+  - docs/Gemfile
+  - example-cap-server/package.json
+  - test-integration/_env/package.json
+  source_files_inspected:
+  - src/index.js
+  - src/shared/redis/index.js
+  - test-integration/_env/srv/server.js
+  - src/config.js
+  repository_tree:
+    status: captured
+    sha: bae3e68ef3a8d755a83e0a868a6e53406cd510d2
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Event-Queue is a framework built on top of CAP Node.js, designed specifically for efficient and streamlined
+    asynchronous event processing. With a focus on load balancing, this package ensures optimal event distribution
+    across all available application instances. By providing managed transactions similar to CAP handlers, the Event-Queue
+    framework simplifies event processing, enhancing the overall performance of your application.
+  why_used: An event queue that enables secure multi-tenant enabled transactional processing of asynchronous events,
+    featuring instant event processing with Redis Pub/Sub and load distribution across all application instances.
+  core_features:
+  - name: load balancing and concurrency control of event processing across app instances
+    description: load balancing and concurrency control of event processing across app instances
+    evidence:
+    - README.md#Features
+  - name: periodic events similar to running cron jobs for business processes
+    description: periodic events similar to running cron jobs for business processes
+    evidence:
+    - README.md#Features
+  - name: managed transactions for event processing
+    description: managed transactions for event processing
+    evidence:
+    - README.md#Features
+  - name: async processing of processing intensive tasks for better UI responsiveness
+    description: async processing of processing intensive tasks for better UI responsiveness
+    evidence:
+    - README.md#Features
+  - name: push/pull mechanism for reducing delay between publish an event and processing
+    description: push/pull mechanism for reducing delay between publish an event and processing
+    evidence:
+    - README.md#Features
+  - name: cluster published events during processing (e.g. for combining multiple E-Mail events to one E-Mail)
+    description: cluster published events during processing (e.g. for combining multiple E-Mail events to one E-Mail)
+    evidence:
+    - README.md#Features
+  - name: plug and play via cds-plugin
+    description: plug and play via cds-plugin
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js-community/common'
+    - '@cap-js-community/event-queue'
+    - '@cap-js/audit-logging'
+    - '@cap-js/cds-test'
+    - '@cap-js/db-service'
+    - '@cap-js/hana'
+    - '@cap-js/postgres'
+    - '@cap-js/sqlite'
+    - '@eslint/js'
+    - '@opentelemetry/api'
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - '@sap/cds-mtxs'
+    - '@sap/xssec'
+    - cron-parser
+    - eslint
+    - eslint-config-prettier
+    - eslint-plugin-jest
+    - globals
+    - jest
+    - prettier
+    - redis
+    - verror
+    - yaml
+    build_and_package_tools:
+    - Bundler manifest
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/index.js, src/shared/redis/index.js,
+    test-integration/_env/srv/server.js, src/config.js'
+  setup_and_usage:
+  - 'Getting Started: Dive right in and check out the getting started documentation.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js-community/event-queue/blob/main/README.md
+  path: README.md
+  blob_sha: 4257bef046344eb6eb6188a771c9d988c80f499e
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: e4b0ef61f162b4aaa6e02daeae4643e1d51dfa15
+  retrieved: true
+- type: manifest
+  path: docs/Gemfile
+  blob_sha: c1df52b27b9c2fd817f1d7475d19c99d6d00a2e2
+  retrieved: true
+- type: manifest
+  path: example-cap-server/package.json
+  blob_sha: 93fd03f6c33e88b93052f5a6184e68b07083534c
+  retrieved: true
+- type: manifest
+  path: test-integration/_env/package.json
+  blob_sha: cb3ccb42287a026f3e49c7fe5877bb9517d43e2c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 835389
+    CAP CDS: 3576
+- type: Git tree
+  status: captured
+  sha: bae3e68ef3a8d755a83e0a868a6e53406cd510d2
+  truncated: false
+- type: source_file
+  path: src/index.js
+  blob_sha: 66bef82e80fc6d7c7882670ece0b5f50e857b997
+  retrieved: true
+- type: source_file
+  path: src/shared/redis/index.js
+  blob_sha: 101984e622c865a97bdc3818c517d2d9da4c6f14
+  retrieved: true
+- type: source_file
+  path: test-integration/_env/srv/server.js
+  blob_sha: be1672715ef61fb57ab022414b56c4886a95af93
+  retrieved: true
+- type: source_file
+  path: src/config.js
+  blob_sha: 75dfcdb90e2cd90ae63ee25c77d022df65fdb792
+  retrieved: true

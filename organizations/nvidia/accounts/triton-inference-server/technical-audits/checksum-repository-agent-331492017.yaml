@@ -1,0 +1,81 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:09:01+00:00'
+evidence_fingerprint: 42730fadff0fc0bf3917204a293c2ce4273083b7aaca2bce3a9b13b453485e90
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/checksum_repository_agent
+  repository_id: 331492017
+  url: https://github.com/triton-inference-server/checksum_repository_agent
+  description: The Triton repository agent that verifies model checksums.
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-02T23:26:01Z'
+  stars: 14
+  readme_url: https://github.com/triton-inference-server/checksum_repository_agent/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7952dc9cf42cd9cf6df820ae205faccefe2fab98
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  source_files_inspected:
+  - src/checksum.cc
+  repository_tree:
+    status: captured
+    sha: f9c5c4cc50109fd1cc203e8cc94a24268008205c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: -->
+  why_used: The Triton repository agent that verifies model checksums.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/checksum.cc'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/checksum_repository_agent/blob/main/README.md
+  path: README.md
+  blob_sha: 7952dc9cf42cd9cf6df820ae205faccefe2fab98
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: b7820f120d429cef8459b95e47408ec07b6e092f
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 1a8da1f4d366d75f2af71229a835ed5fd3102b5f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 8366
+    CMake: 7240
+- type: Git tree
+  status: captured
+  sha: f9c5c4cc50109fd1cc203e8cc94a24268008205c
+  truncated: false
+- type: source_file
+  path: src/checksum.cc
+  blob_sha: f2fbf752e7fb0941aec3570b62b18a9c10e18e6e
+  retrieved: true

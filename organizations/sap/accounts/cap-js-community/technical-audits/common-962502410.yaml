@@ -1,0 +1,132 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:09:25+00:00'
+evidence_fingerprint: 2df45a6f2309b143edb6ff3b6fb8e704bed7da01dcc7cbc4f3fc4ff648729f30
+repository_metadata:
+  company: SAP
+  account: cap-js-community
+  full_name: cap-js-community/common
+  repository_id: 962502410
+  url: https://github.com/cap-js-community/common
+  description: CAP Node.js Community Common
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T16:11:39Z'
+  stars: 2
+  readme_url: https://github.com/cap-js-community/common/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a6e8214a13855b375281d7fcd6d37c6909fba5ef
+  manifest_paths:
+  - package.json
+  - app/router/package.json
+  - app/test/package.json
+  source_files_inspected:
+  - src/cdm-build/index.js
+  - src/index.js
+  - src/local-html5-repo/index.js
+  - src/migration-check/index.js
+  repository_tree:
+    status: captured
+    sha: 00adbf7da464a4c961d859cdae81970df798bc70
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This project provides common functionality for CDS services to be consumed with SAP Cloud Application
+    Programming Model (Node.js).
+  why_used: CAP Node.js Community Common
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js-community/common'
+    - '@cap-js/cds-test'
+    - '@cap-js/sqlite'
+    - '@sap/approuter'
+    - '@sap/cds'
+    - '@sap/cds-common-content'
+    - '@sap/cds-dk'
+    - '@ui5/cli'
+    - '@vitest/coverage-v8'
+    - '@vitest/eslint-plugin'
+    - commander
+    - eslint
+    - eslint-config-prettier
+    - eslint-plugin-n
+    - express
+    - prettier
+    - redis
+    - shelljs
+    - ui5-task-zipper
+    - verror
+    - vitest
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/cdm-build/index.js,
+    src/index.js, src/local-html5-repo/index.js, src/migration-check/index.js'
+  setup_and_usage:
+  - 'Getting Started: - Run npm add @cap-js-community/common in @sap/cds project'
+  - 'Usage: > Replication cache uses SQLite as local database for productive usage.'
+  - 'Usage: > Ensure @cap-js/sqlite is installed as dependency (not as dev dependency) in your project.'
+  - 'Usage: title : localized String;'
+  - 'Usage: descr : localized String;'
+  - 'Usage: service BookshopService {'
+  - 'Usage: entity Books @readonly as projection on test.Books;'
+  - 'Usage: - Create a default-env.json in approuter folder, including a valid HTML5 repository configuration from
+    deployment environment:'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js-community/common/blob/main/README.md
+  path: README.md
+  blob_sha: a6e8214a13855b375281d7fcd6d37c6909fba5ef
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: fb88c624af0e56f88fb3b53ba81077257dc270ab
+  retrieved: true
+- type: manifest
+  path: app/router/package.json
+  blob_sha: 35da67c46975f4ef0b832ec8fe1f30dfe13e26f6
+  retrieved: true
+- type: manifest
+  path: app/test/package.json
+  blob_sha: 64b10888b0b75b936df8813c943e7cab40d9d545
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 236031
+    CAP CDS: 2907
+- type: Git tree
+  status: captured
+  sha: 00adbf7da464a4c961d859cdae81970df798bc70
+  truncated: false
+- type: source_file
+  path: src/cdm-build/index.js
+  blob_sha: e8e5dbd738a624855326955b78197d404ff857b5
+  retrieved: true
+- type: source_file
+  path: src/index.js
+  blob_sha: 64bbcd940c4d0eb82b98c9cdb13075d924d944a5
+  retrieved: true
+- type: source_file
+  path: src/local-html5-repo/index.js
+  blob_sha: 81f8b443d9c541e1fb7191c3dcaf8b8a92074956
+  retrieved: true
+- type: source_file
+  path: src/migration-check/index.js
+  blob_sha: 30f94e1e4cffda897288692ef164e54883fb30c5
+  retrieved: true

@@ -1,0 +1,85 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:28:58+00:00'
+evidence_fingerprint: 2c1b8ac384b25125f6c63d86e9cabf9a4c0abd49edf3de8bcbbdd765687fd8c8
+repository_metadata:
+  company: Amazon
+  account: aws-actions
+  full_name: aws-actions/amazon-eks-fargate
+  repository_id: 265685761
+  url: https://github.com/aws-actions/amazon-eks-fargate
+  description: Creates an EKS on Fargate cluster
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2021-10-13T14:44:30Z'
+  stars: 58
+  readme_url: https://github.com/aws-actions/amazon-eks-fargate/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 20e2d4438616a5de0cfefc51505392c1e8604eab
+  manifest_paths:
+  - Dockerfile
+  source_files_inspected:
+  - entrypoint.sh
+  repository_tree:
+    status: captured
+    sha: 03151c2627d8ef001501c460f364d11788add695
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This action allows to manage the lifecycle of an Amazon EKS cluster running on AWS Fargate.
+  why_used: Creates an EKS on Fargate cluster
+  core_features: []
+  technology_stack:
+    languages:
+    - Shell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: entrypoint.sh'
+  setup_and_usage:
+  - 'Usage: In a GH Action file, for example, .github/workflows/main.yaml:'
+  - 'Usage: runs-on: ubuntu-latest'
+  - 'Usage: name: Create an EKS on Fargate cluster'
+  - 'Usage: - name: Configure AWS credentials'
+  - 'Usage: uses: aws-actions/configure-aws-credentials@v1'
+  - 'Usage: aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}'
+  - 'Usage: aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}'
+  - 'Usage: aws-region: eu-west-1'
+  limitations:
+  - 'Security Disclosures: If you would like to report a potential security issue in this project, please do not
+    create a GitHub issue. Instead, please follow the instructions here or email AWS security directly.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-actions/amazon-eks-fargate/blob/master/README.md
+  path: README.md
+  blob_sha: 20e2d4438616a5de0cfefc51505392c1e8604eab
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 82e70d18289d2a5813efad1f2f65aacba1154a99
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Shell: 1645
+    Dockerfile: 1072
+- type: Git tree
+  status: captured
+  sha: 03151c2627d8ef001501c460f364d11788add695
+  truncated: false
+- type: source_file
+  path: entrypoint.sh
+  blob_sha: 466484d8d398b1eac6a91eb468e71b5a2d13f264
+  retrieved: true

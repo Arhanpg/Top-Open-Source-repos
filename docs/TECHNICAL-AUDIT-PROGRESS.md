@@ -1,6 +1,6 @@
 # Repository technical-audit progress
 
-Updated: 2026-11-25T04:01:57+00:00
+Updated: 2026-11-25T08:29:17+00:00
 
 ## Latest run
 
@@ -11,9 +11,9 @@ Updated: 2026-11-25T04:01:57+00:00
 ## Catalogue coverage
 
 - Inventory records: 33522
-- YAML audit records: 203
-- Markdown dossiers expected: 203
-- evidence_only: 173
+- YAML audit records: 400
+- Markdown dossiers expected: 400
+- evidence_only: 370
 - insufficient_evidence: 27
 - manual_reviewed: 3
 

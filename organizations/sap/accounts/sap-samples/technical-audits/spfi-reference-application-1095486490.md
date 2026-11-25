@@ -6,7 +6,7 @@
 - Default branch: main
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-25T03:51:47+00:00
+- Generated: 2026-11-25T08:10:13+00:00
 
 ## Project purpose
 
@@ -22,7 +22,7 @@ No separately supported feature list extracted.
 
 ## Technology stack
 
-- Languages: Unknown / not established
+- Languages: Java, Makefile
 - Frameworks/libraries: Unknown / not established
 - Dependency names: annotations, bcpkix-jdk15on, jakarta.jakartaee-web-api, json, lombok, maven-compiler-plugin, spfi-v2-ref-app, spring-boot, spring-boot-maven-plugin, spring-boot-starter-json, spring-boot-starter-parent, spring-boot-starter-security, spring-boot-starter-test, spring-boot-starter-web, spring-security-test
 - Build/package tools: Maven project manifest
@@ -57,7 +57,7 @@ No setup information established.
 - Manifests: Makefile, pom.xml
 - Sampled source files: src/main/java/com/sap/lm/sl/spfi/refapp/spfi_v2_ref_app/model/jpa/tenant/Application.java, src/main/java/com/sap/lm/sl/spfi/refapp/spfi_v2_ref_app/config/CertificateValidationFilter.java, src/main/java/com/sap/lm/sl/spfi/refapp/spfi_v2_ref_app/config/MdcTaskDecorator.java, src/main/java/com/sap/lm/sl/spfi/refapp/spfi_v2_ref_app/config/SecurityConfig.java
 - Git tree state: captured
-- Evidence fingerprint: 19702c100597693a09da73faa19eb5b7a8c896992b0f758f09e1f326053896a2
+- Evidence fingerprint: 20173751eb67817d477fc4d6350647898921d8dcdb7d2e545e1e8c727175032e
 
 ## Unverified / unknown
 

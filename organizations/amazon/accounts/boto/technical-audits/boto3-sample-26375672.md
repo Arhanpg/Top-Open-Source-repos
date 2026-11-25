@@ -1,0 +1,64 @@
+# boto/boto3-sample
+
+- Company: Amazon
+- Account: boto
+- Repository: https://github.com/boto/boto3-sample
+- Default branch: master
+- Audit status: evidence_only
+- Confidence: medium
+- Generated: 2026-11-25T08:22:24+00:00
+
+## Project purpose
+
+========================= Boto 3 Sample Application ========================= This application implements a drop video transcoder that lets you easily convert media files by dragging and dropping them on your computer. It makes use of the following services:
+
+## Why this project is used
+
+Boto 3 sample application using Amazon Elastic Transcoder, S3, SNS, SQS, and AWS IAM.
+
+## Core features
+
+No separately supported feature list extracted.
+
+## Technology stack
+
+- Languages: Python
+- Frameworks/libraries: Unknown / not established
+- Dependency names: boto3
+- Build/package tools: pip requirements file
+- Runtimes: Unknown / not established
+- Databases/storage: Unknown / not established
+- Infrastructure: Unknown / not established
+- Platforms: Unknown / not established
+
+## Architecture
+
+Architecture is not interpreted in evidence-only mode. Sampled source files: transcoder.py
+
+## Setup and usage
+
+No setup information established.
+
+## Limitations and caveats
+
+No explicit limitations extracted; this does not mean none exist.
+
+## Evidence and provenance
+
+- README: https://github.com/boto/boto3-sample/blob/master/README.rst
+- README SHA: 5a0fa7734a72d23d02f7764b57557918e01ff456
+- Manifests: requirements.txt
+- Sampled source files: transcoder.py
+- Git tree state: captured
+- Evidence fingerprint: 90ae0c607320b9039b6f8b40efd2b43d9164d6484652ac8ca14413923041f53f
+
+## Unverified / unknown
+
+- Semantic feature and architecture interpretation is pending.
+- Framework, database, runtime and infrastructure require direct evidence.
+
+> Evidence-only output; not a complete semantic, source-code, security or runtime audit. Configure model credentials for semantic interpretation.
+
+---
+
+Generated from upstream repository evidence; verify source links before relying on interpretations.

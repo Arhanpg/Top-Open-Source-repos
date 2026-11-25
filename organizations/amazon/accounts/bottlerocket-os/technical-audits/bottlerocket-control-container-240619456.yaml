@@ -1,0 +1,130 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:14:13+00:00'
+evidence_fingerprint: 5e5cce2b7d378b8df204a59385b5d72b527a83dd3636b54169f13ab4d1813d2f
+repository_metadata:
+  company: Amazon
+  account: bottlerocket-os
+  full_name: bottlerocket-os/bottlerocket-control-container
+  repository_id: 240619456
+  url: https://github.com/bottlerocket-os/bottlerocket-control-container
+  description: A container for remote control of Bottlerocket
+  default_branch: develop
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-13T18:55:26Z'
+  stars: 44
+  readme_url: https://github.com/bottlerocket-os/bottlerocket-control-container/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: b31c3286332188abeaaeef4229a456180e4a9bdb
+  manifest_paths:
+  - Dockerfile
+  - Makefile
+  - sources/Cargo.toml
+  - sources/corgid/Cargo.toml
+  source_files_inspected:
+  - sources/corgid/src/main.rs
+  - sources/corgid/src/error.rs
+  - sources/corgid/src/imds.rs
+  - sources/corgid/src/inspector.rs
+  repository_tree:
+    status: captured
+    sha: f14453f3c995913038c570a1f31c69917d83ce5c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is the control container for the Bottlerocket operating system. This container runs the AWS SSM
+    Agent that lets you run commands, or start interactive sessions, on Bottlerocket instances in EC2 and hybrid
+    environments.
+  why_used: A container for remote control of Bottlerocket
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    - Shell
+    - Dockerfile
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - aws-credential-types
+    - aws-lc-rs
+    - aws-sigv4
+    - aws-smithy-runtime-api
+    - base64
+    - chrono
+    - flate2
+    - hex
+    - log
+    - reqwest
+    - rustls
+    - serde
+    - serde_json
+    - sha2
+    - simplelog
+    - snafu
+    - uuid
+    build_and_package_tools:
+    - Cargo manifest
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: sources/corgid/src/main.rs,
+    sources/corgid/src/error.rs, sources/corgid/src/imds.rs, sources/corgid/src/inspector.rs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/bottlerocket-os/bottlerocket-control-container/blob/develop/README.md
+  path: README.md
+  blob_sha: b31c3286332188abeaaeef4229a456180e4a9bdb
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 32dca7f53808fb0bc9bdcaac247cecafeabf4077
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 2ed411309f4630a5f4692675739cfc5a2dbb4a63
+  retrieved: true
+- type: manifest
+  path: sources/Cargo.toml
+  blob_sha: 02027379512bd1a4bc01171a17e28c92ba0867c4
+  retrieved: true
+- type: manifest
+  path: sources/corgid/Cargo.toml
+  blob_sha: 35c4260b6c2ecf74991e1751b4730ad93640a75a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 39534
+    Shell: 7016
+    Dockerfile: 5209
+    Makefile: 5150
+- type: Git tree
+  status: captured
+  sha: f14453f3c995913038c570a1f31c69917d83ce5c
+  truncated: false
+- type: source_file
+  path: sources/corgid/src/main.rs
+  blob_sha: 462c6a1b6e30b00723993663368505ff501880f5
+  retrieved: true
+- type: source_file
+  path: sources/corgid/src/error.rs
+  blob_sha: cdfdb69d284961605e5aa39ecad62e895fea175c
+  retrieved: true
+- type: source_file
+  path: sources/corgid/src/imds.rs
+  blob_sha: bf6f517f2db8a800343c61d910ed731cb6d148ab
+  retrieved: true
+- type: source_file
+  path: sources/corgid/src/inspector.rs
+  blob_sha: 97c83a1d194b4c86b18ce76d212ede81c27fb60e
+  retrieved: true

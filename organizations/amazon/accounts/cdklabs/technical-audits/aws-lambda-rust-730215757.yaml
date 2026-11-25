@@ -1,0 +1,153 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:14:22+00:00'
+evidence_fingerprint: f4dd00763f7497de2673356ee20ab4763dc47223fd3cbf60f66683168df8da93
+repository_metadata:
+  company: Amazon
+  account: cdklabs
+  full_name: cdklabs/aws-lambda-rust
+  repository_id: 730215757
+  url: https://github.com/cdklabs/aws-lambda-rust
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T00:25:16Z'
+  stars: 20
+  readme_url: https://github.com/cdklabs/aws-lambda-rust/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 6c760ffb2c93376e38e016be9536a6f212c9180c
+  manifest_paths:
+  - Dockerfile
+  - package.json
+  - test/function.test.binary1/Cargo.toml
+  - test/rust-bins/Cargo.toml
+  - test/rust-standalone/Cargo.toml
+  - test/rust-workspaces/Cargo.toml
+  source_files_inspected:
+  - src/index.ts
+  - src/bundling.ts
+  - src/function.ts
+  - src/package-manager.ts
+  repository_tree:
+    status: captured
+    sha: 017ed6fb723991d7b8d8f5b9d3831cfc0e54d94d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '---'
+  why_used: '---'
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Rust
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-cdk/integ-runner'
+    - '@aws-cdk/integ-tests-alpha'
+    - '@types/jest'
+    - '@types/node'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - aws-cdk-lib
+    - cdklabs-projen-project-types
+    - commit-and-tag-version
+    - constructs
+    - eslint
+    - eslint-config-prettier
+    - eslint-import-resolver-typescript
+    - eslint-plugin-import
+    - eslint-plugin-prettier
+    - jest
+    - jest-junit
+    - jsii
+    - jsii-diff
+    - jsii-docgen
+    - jsii-pacmak
+    - jsii-rosetta
+    - lambda_http
+    - lambda_runtime
+    - prettier
+    - projen
+    - tokio
+    - toml
+    - tracing
+    - tracing-subscriber
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - Cargo manifest
+    - Docker build configuration
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/index.ts, src/bundling.ts,
+    src/function.ts, src/package-manager.ts'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cdklabs/aws-lambda-rust/blob/main/README.md
+  path: README.md
+  blob_sha: 6c760ffb2c93376e38e016be9536a6f212c9180c
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 48b815f853e1a77f82f46f8fa5ce13b250d06a25
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: f1f1a9bffaf97d35284b457d21eeddb4ad43d589
+  retrieved: true
+- type: manifest
+  path: test/function.test.binary1/Cargo.toml
+  blob_sha: d3ac6cc09faa8c011bd3f1af73b41a7babb1034b
+  retrieved: true
+- type: manifest
+  path: test/rust-bins/Cargo.toml
+  blob_sha: ff13a34039619e199f9a6063d41743d9ebcfbab3
+  retrieved: true
+- type: manifest
+  path: test/rust-standalone/Cargo.toml
+  blob_sha: 2aafddcde1df8e9b1ba3e657604e61659adca956
+  retrieved: true
+- type: manifest
+  path: test/rust-workspaces/Cargo.toml
+  blob_sha: 13a21c2ea75327fe0819cf53fc6d6fa828dfc9f3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 59393
+    Rust: 2949
+    Dockerfile: 1739
+- type: Git tree
+  status: captured
+  sha: 017ed6fb723991d7b8d8f5b9d3831cfc0e54d94d
+  truncated: false
+- type: source_file
+  path: src/index.ts
+  blob_sha: e5e7b3d50ffab4119f50b788516efe169fbeacb9
+  retrieved: true
+- type: source_file
+  path: src/bundling.ts
+  blob_sha: 13f29af1055f5555522af3661ee07c80c4ea021c
+  retrieved: true
+- type: source_file
+  path: src/function.ts
+  blob_sha: 53f771085bef5ff3d502b850eff74dceefdfe2e0
+  retrieved: true
+- type: source_file
+  path: src/package-manager.ts
+  blob_sha: a831f019892931ac9077acfaa8d03cada077f7a9
+  retrieved: true

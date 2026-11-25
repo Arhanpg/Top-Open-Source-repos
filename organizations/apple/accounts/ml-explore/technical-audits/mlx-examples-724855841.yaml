@@ -1,0 +1,131 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T08:07:02+00:00'
+evidence_fingerprint: f6c50da443209b8bc0b926519105a2233fb0aa5bbf2a9039a8043508f3f395d2
+repository_metadata:
+  company: Apple
+  account: ml-explore
+  full_name: ml-explore/mlx-examples
+  repository_id: 724855841
+  url: https://github.com/ml-explore/mlx-examples
+  description: Examples in the MLX framework
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-04-06T18:56:05Z'
+  stars: 9077
+  readme_url: https://github.com/ml-explore/mlx-examples/blob/main/README.md
+  readme_path: README.md
+  readme_sha: dcdf98330fd10a8c9444fed53db25d44170bc606
+  manifest_paths:
+  - bert/requirements.txt
+  - cifar/requirements.txt
+  - clip/requirements.txt
+  - cvae/requirements.txt
+  - encodec/requirements.txt
+  - flux/requirements.txt
+  source_files_inspected:
+  - cifar/main.py
+  - cvae/main.py
+  - gcn/main.py
+  - llms/speculative_decoding/main.py
+  repository_tree:
+    status: captured
+    sha: 7f6a5504290884ae606679624b9cbc300ef818b5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repo contains a variety of standalone examples using the [MLX framework](https://github.com/ml-explore/mlx).
+  why_used: Examples in the MLX framework
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Jupyter Notebook
+    - Swift
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - Pillow
+    - huggingface-hub
+    - huggingface_hub
+    - mlx
+    - mlx-data
+    - numpy
+    - regex
+    - sentencepiece
+    - torch
+    - tqdm
+    - transformers
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cifar/main.py, cvae/main.py,
+    gcn/main.py, llms/speculative_decoding/main.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ml-explore/mlx-examples/blob/main/README.md
+  path: README.md
+  blob_sha: dcdf98330fd10a8c9444fed53db25d44170bc606
+  retrieved: true
+- type: manifest
+  path: bert/requirements.txt
+  blob_sha: a6b564c5ef93ee30b5e64deff751aaac6965f089
+  retrieved: true
+- type: manifest
+  path: cifar/requirements.txt
+  blob_sha: 03fc57c130bd1310f18a619557822eb01ab8bdee
+  retrieved: true
+- type: manifest
+  path: clip/requirements.txt
+  blob_sha: 8e05620e0d0aa4fa6037316c5758ad8c81a5ea55
+  retrieved: true
+- type: manifest
+  path: cvae/requirements.txt
+  blob_sha: 2a7bc1cffb96d6b1a3d23cdfacdc5da4e6fef0e6
+  retrieved: true
+- type: manifest
+  path: encodec/requirements.txt
+  blob_sha: de5cc64635dde0763b7934fc41d8b34fd5ae3c32
+  retrieved: true
+- type: manifest
+  path: flux/requirements.txt
+  blob_sha: 792205c9b0366d4709912b305dda2b0b56a5a43a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 849425
+    Jupyter Notebook: 142809
+    Swift: 3835
+    Shell: 281
+- type: Git tree
+  status: captured
+  sha: 7f6a5504290884ae606679624b9cbc300ef818b5
+  truncated: false
+- type: source_file
+  path: cifar/main.py
+  blob_sha: ac010636979e8ea9676155dfda2a2d800c9c74ab
+  retrieved: true
+- type: source_file
+  path: cvae/main.py
+  blob_sha: 78ac9b4ab27faca416a40a63b21d0684598dfa79
+  retrieved: true
+- type: source_file
+  path: gcn/main.py
+  blob_sha: 9e8410309531ac09be499c8876d8e92272441a76
+  retrieved: true
+- type: source_file
+  path: llms/speculative_decoding/main.py
+  blob_sha: b1da3a5eff76abf441c54b77b3b9bc0c312f5667
+  retrieved: true

@@ -6,7 +6,7 @@
 - Default branch: archived
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-25T03:55:22+00:00
+- Generated: 2026-11-25T08:05:23+00:00
 
 ## Project purpose
 
@@ -50,7 +50,7 @@ No explicit limitations extracted; this does not mean none exist.
 - Manifests: none
 - Sampled source files: none
 - Git tree state: captured
-- Evidence fingerprint: a6f1b2e0e1ee78b563950bac9ff709d2a2acbb29c7fbf8d3f06943c27e3cc3a4
+- Evidence fingerprint: 99f6db5d2e66021b4a55f1a43905b7c90256865a6640e6ef128e4687b8a8d64a
 
 ## Unverified / unknown
 
