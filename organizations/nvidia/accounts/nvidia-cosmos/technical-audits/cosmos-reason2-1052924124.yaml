@@ -1,0 +1,148 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:56:33+00:00'
+evidence_fingerprint: cbf73e0fcb7c8bb52a5dd3baa9ac887e6692d52ef7f31629e0271d08593ec8f3
+repository_metadata:
+  company: NVIDIA
+  account: nvidia-cosmos
+  full_name: nvidia-cosmos/cosmos-reason2
+  repository_id: 1052924124
+  url: https://github.com/nvidia-cosmos/cosmos-reason2
+  description: Cosmos-Reason2 models understand the physical common sense and generate appropriate embodied decisions
+    in natural language through long chain-of-thought reasoning processes.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-06-07T17:20:04Z'
+  stars: 462
+  readme_url: https://github.com/nvidia-cosmos/cosmos-reason2/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3ba7733cb5a13a2f44ac9b510ea96ac63071e71d
+  manifest_paths:
+  - Dockerfile
+  - pyproject.toml
+  - cosmos_reason2_utils/pyproject.toml
+  - examples/cosmos_rl/pyproject.toml
+  - examples/notebooks/pyproject.toml
+  source_files_inspected:
+  - ci/uv_lock.sh
+  - ci/uv_lock_script.sh
+  - cosmos_reason2_utils/cosmos_reason2_utils/__init__.py
+  - cosmos_reason2_utils/cosmos_reason2_utils/init.py
+  repository_tree:
+    status: captured
+    sha: 5cbae95f4b9a15fd23bc3b2746b09085f5e12a7b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> [!IMPORTANT] > ## 🚀 Cosmos 3 Has Arrived > > Cosmos 3 is NVIDIA''s next-generation foundation model
+    platform for Physical AI. Compared with Cosmos-Reason2, Cosmos 3 delivers substantially stronger physical reasoning
+    capabilities while extending beyond reasoning to support world prediction, simulation, transfer, and action
+    generation within a single unified model. > > Rather than relying on separate models for reasoning, prediction,
+    transfer, and policy learning, a single Cosmos 3 model can understand the world, reason about physical interactions,
+    predict future outcomes, transform observations across domains, and generate actions for embodied agents. This
+    unified architecture enables stronger performance across a broad range of Physical AI applications, including
+    robotics, autonomous vehicles, and smart spaces. > > This repository is no longer under active development and
+    will receive o'
+  why_used: Cosmos-Reason2 models understand the physical common sense and generate appropriate embodied decisions
+    in natural language through long chain-of-thought reasoning processes.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Dockerfile
+    - Just
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - accelerate
+    - av
+    - cosmos-reason2-utils
+    - imageio-ffmpeg
+    - matplotlib
+    - numpy
+    - pillow
+    - pydantic
+    - pyyaml
+    - qwen-vl-utils
+    - rich
+    - transformers
+    - tyro
+    build_and_package_tools:
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: ci/uv_lock.sh, ci/uv_lock_script.sh,
+    cosmos_reason2_utils/cosmos_reason2_utils/__init__.py, cosmos_reason2_utils/cosmos_reason2_utils/init.py'
+  setup_and_usage: []
+  limitations:
+  - 'Tested Platforms: Cosmos-Reason2 works on Hopper and Blackwell. Additional hardware configurations may work
+    but are not officially validated at the time of this release.'
+  - 'Tested Platforms: Examples have been tested on the following devices:'
+  - 'Tested Platforms: | GPU | CUDA Version | Functionality |'
+  - 'Tested Platforms: | NVIDIA H100 | 12.8 | inference/post-training/quantization |'
+  - 'Tested Platforms: | NVIDIA GB200 | 13.0 | inference |'
+  - 'Tested Platforms: | NVIDIA DGX Spark | 13.0 | inference |'
+  - 'Tested Platforms: | NVIDIA Jetson AGX Thor (Edge) | 13.0 | Transformers inference. vLLM inference is coming
+    soon! |'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/nvidia-cosmos/cosmos-reason2/blob/main/README.md
+  path: README.md
+  blob_sha: 3ba7733cb5a13a2f44ac9b510ea96ac63071e71d
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 26f8a9b558eed6aaf8cadea37a61899e00a07b58
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 0dad0a85f050b024ff78102a41f89c256ac01cfd
+  retrieved: true
+- type: manifest
+  path: cosmos_reason2_utils/pyproject.toml
+  blob_sha: 4b1becf0c201ae99525d451e9044566ccf856396
+  retrieved: true
+- type: manifest
+  path: examples/cosmos_rl/pyproject.toml
+  blob_sha: a48bb2caee6eed931c3b767e37aa9a6b568b1e1e
+  retrieved: true
+- type: manifest
+  path: examples/notebooks/pyproject.toml
+  blob_sha: 9e71b07f2bcf57ccbf2012b5572a3e6f8f87b0de
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 48120
+    Dockerfile: 5632
+    Just: 2506
+    Shell: 2165
+- type: Git tree
+  status: captured
+  sha: 5cbae95f4b9a15fd23bc3b2746b09085f5e12a7b
+  truncated: false
+- type: source_file
+  path: ci/uv_lock.sh
+  blob_sha: 6d831ed229879a5ed42a649b5874efd79d5a6d04
+  retrieved: true
+- type: source_file
+  path: ci/uv_lock_script.sh
+  blob_sha: d967903bfa3d9a9d98ce957097a55970a35ee48c
+  retrieved: true
+- type: source_file
+  path: cosmos_reason2_utils/cosmos_reason2_utils/__init__.py
+  blob_sha: 3159bfe65645499015bd92609b99d476d69544e9
+  retrieved: true
+- type: source_file
+  path: cosmos_reason2_utils/cosmos_reason2_utils/init.py
+  blob_sha: e0a6502cd76f8c8f06cac8d9c67d5c4c4f885429
+  retrieved: true

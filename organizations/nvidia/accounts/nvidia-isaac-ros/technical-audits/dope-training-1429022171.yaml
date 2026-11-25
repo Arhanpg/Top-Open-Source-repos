@@ -1,0 +1,136 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:04:42+00:00'
+evidence_fingerprint: 3a41abc8995353192eeddb32971cfadf6445acea069caf9d38d2137ae808b8ff
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/dope_training
+  repository_id: 1429022171
+  url: https://github.com/NVIDIA-ISAAC-ROS/dope_training
+  description: 'Training, Inference, and Evaluation Scripts for Deep Object Pose '
+  default_branch: master
+  license_spdx: null
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2024-07-31T18:48:28Z'
+  stars: 0
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/dope_training/blob/master/README.md
+  readme_path: README.md
+  readme_sha: e627b401be2f0ac15b9a6d8b2069e395bba90a59
+  manifest_paths:
+  - requirements.txt
+  - docker/Dockerfile
+  source_files_inspected:
+  - debug.py
+  - docker/get_nvidia_libs.sh
+  - evaluate/evaluate.py
+  - evaluate/utils_eval.py
+  repository_tree:
+    status: captured
+    sha: efbd5a4361862541130c78a9919d531c31c2b364
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repo contains a simplified version of the **training** script for DOPE. The original repo for DOPE
+    can be found here.
+  why_used: Training, Inference, and Evaluation Scripts for Deep Object Pose
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Dockerfile
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - Pillow
+    - PyWavelets
+    - PyYAML
+    - albumentations
+    - boto3
+    - botocore
+    - certifi
+    - charset-normalizer
+    - idna
+    - imageio
+    - jmespath
+    - joblib
+    - networkx
+    - numpy
+    - opencv-python-headless
+    - packaging
+    - protobuf
+    - pyparsing
+    - pyrr
+    - python-dateutil
+    - qudida
+    - requests
+    - s3transfer
+    - scikit-image
+    - scikit-learn
+    - scipy
+    - simplejson
+    - six
+    - tensorboardX
+    - threadpoolctl
+    - tifffile
+    - torch
+    - torchvision
+    - typing_extensions
+    - urllib3
+    - visii
+    build_and_package_tools:
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: debug.py, docker/get_nvidia_libs.sh,
+    evaluate/evaluate.py, evaluate/utils_eval.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/dope_training/blob/master/README.md
+  path: README.md
+  blob_sha: e627b401be2f0ac15b9a6d8b2069e395bba90a59
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 64c4086f3ccc1e12bd1c67995ebce6879a958fee
+  retrieved: true
+- type: manifest
+  path: docker/Dockerfile
+  blob_sha: 6bc95f8e4320eadcaf513f01374892d603e4eccf
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 121224
+    Dockerfile: 1519
+    Shell: 276
+- type: Git tree
+  status: captured
+  sha: efbd5a4361862541130c78a9919d531c31c2b364
+  truncated: false
+- type: source_file
+  path: debug.py
+  blob_sha: 807a5528234725b37f8ba9fb4938c44ab3fd0e81
+  retrieved: true
+- type: source_file
+  path: docker/get_nvidia_libs.sh
+  blob_sha: cf6cdf16e5a95f3d7683bbc4e554fbb7b87ce2f5
+  retrieved: true
+- type: source_file
+  path: evaluate/evaluate.py
+  blob_sha: 4e3d4ecbf3370da3cc70e5d90a305b2102b0df81
+  retrieved: true
+- type: source_file
+  path: evaluate/utils_eval.py
+  blob_sha: 6fe192a1a2d2442e2d8e2ce528c2cc3e5faf8ac4
+  retrieved: true

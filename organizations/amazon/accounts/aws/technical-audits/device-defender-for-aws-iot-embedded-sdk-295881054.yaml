@@ -1,7 +1,7 @@
 schema_version: '1.0'
 audit_status: evidence_only
-generated_at: '2026-11-25T03:53:47+00:00'
-evidence_fingerprint: 271b2baea12120f304a69a9efc89ea362cfd07e4d96f1547cefc1390c32c22a2
+generated_at: '2026-11-25T22:52:00+00:00'
+evidence_fingerprint: 895a2af3893c468117ac94fb28c9a073b73956642455a114c5dd119596f55356
 repository_metadata:
   company: Amazon
   account: aws
@@ -39,7 +39,11 @@ analysis:
   why_used: Client library for using AWS IoT Defender service on embedded devices
   core_features: []
   technology_stack:
-    languages: []
+    languages:
+    - C
+    - Makefile
+    - Python
+    - CMake
     frameworks_and_libraries: []
     dependencies: []
     build_and_package_tools:
@@ -89,7 +93,11 @@ evidence_sources:
   blob_sha: 442e869740cafbdfe4558516f403b99aca087c10
   retrieved: true
 - type: GitHub Languages API
-  values: {}
+  values:
+    C: 99424
+    Makefile: 43098
+    Python: 19901
+    CMake: 14423
 - type: Git tree
   status: captured
   sha: b0a865f239b0e580a67a8b102fd5b40a2c5ec8c2

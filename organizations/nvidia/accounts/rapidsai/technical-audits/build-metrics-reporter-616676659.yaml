@@ -1,0 +1,83 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:48:48+00:00'
+evidence_fingerprint: 7996b6dfdcd08d69862212df5a4a6a7a3ed5c49ea2b4084514eef3785d2ad14f
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/build-metrics-reporter
+  repository_id: 616676659
+  url: https://github.com/rapidsai/build-metrics-reporter
+  description: null
+  default_branch: v1
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-27T19:54:55Z'
+  stars: 2
+  readme_url: https://github.com/rapidsai/build-metrics-reporter/blob/v1/README.md
+  readme_path: README.md
+  readme_sha: 3da11fe14576f011dd44c74978e4e2e146162679
+  manifest_paths:
+  - pyproject.toml
+  source_files_inspected:
+  - rapids-build-metrics-reporter.py
+  - rapids-template-instantiation-reporter.py
+  repository_tree:
+    status: captured
+    sha: 7cd22045bb85db90ce52def6d9b18e0ae1b45172
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains the source code for rapids-build-metrics-reporter.py, which is a small Python
+    script that can be used to generate a report that contains the compile times and cache hit rates for RAPIDS
+    library builds.
+  why_used: This repository contains the source code for rapids-build-metrics-reporter.py, which is a small Python
+    script that can be used to generate a report that contains the compile times and cache hit rates for RAPIDS
+    library builds.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: rapids-build-metrics-reporter.py,
+    rapids-template-instantiation-reporter.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/build-metrics-reporter/blob/v1/README.md
+  path: README.md
+  blob_sha: 3da11fe14576f011dd44c74978e4e2e146162679
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 5407f69ee02c5b6975c97795db73859c29bb8a71
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 20855
+- type: Git tree
+  status: captured
+  sha: 7cd22045bb85db90ce52def6d9b18e0ae1b45172
+  truncated: false
+- type: source_file
+  path: rapids-build-metrics-reporter.py
+  blob_sha: 8513e1fd9ebcd9baeaff71b8e3388954c80b5b39
+  retrieved: true
+- type: source_file
+  path: rapids-template-instantiation-reporter.py
+  blob_sha: a4c1402714aec55f991aa0e18196a89d8d382916
+  retrieved: true

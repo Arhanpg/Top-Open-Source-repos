@@ -1,0 +1,79 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:06:41+00:00'
+evidence_fingerprint: 52288fd2bdf52a1fca36679d9fb8a5b33c05f1f52c80b49e4da42bf0a095966d
+repository_metadata:
+  company: Siemens
+  account: mindsphere
+  full_name: mindsphere/json-schema-to-mindsphere-demo-app
+  repository_id: 311510978
+  url: https://github.com/mindsphere/json-schema-to-mindsphere-demo-app
+  description: create MindSphere artefacts from JSON schema definitions
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2020-11-10T11:39:34Z'
+  stars: 4
+  readme_url: https://github.com/mindsphere/json-schema-to-mindsphere-demo-app/blob/master/README.md
+  readme_path: README.md
+  readme_sha: bb89d435d6d89edd755f2e40f909f7eb0c1f4d18
+  manifest_paths:
+  - starterts/package.json
+  source_files_inspected:
+  - starterts/index.ts
+  repository_tree:
+    status: captured
+    sha: c616aacd93082613de301b99826fb1b7f95c4e0f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: You can create all MindSphere modelling artefacts (Variables, Aspect- and Asset Types as well as Assets)
+    straight from a JSON Schema. This means that if you already have JSON data gathered from your industrial assets
+    (e.g. because they are already available on your production data bus) you can leverage your existing JSON schemas
+    (or extract them from JSON data) to quickly create all needed MindSphere artefacts.
+  why_used: create MindSphere artefacts from JSON schema definitions
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@mindconnect/mindconnect-nodejs'
+    - '@types/node'
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: starterts/index.ts'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/mindsphere/json-schema-to-mindsphere-demo-app/blob/master/README.md
+  path: README.md
+  blob_sha: bb89d435d6d89edd755f2e40f909f7eb0c1f4d18
+  retrieved: true
+- type: manifest
+  path: starterts/package.json
+  blob_sha: b17df64c894d80786c4b7237761762c50a30e1c8
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 7685
+- type: Git tree
+  status: captured
+  sha: c616aacd93082613de301b99826fb1b7f95c4e0f
+  truncated: false
+- type: source_file
+  path: starterts/index.ts
+  blob_sha: a79fb151be015137d6fb09000f413113c0c65f6c
+  retrieved: true

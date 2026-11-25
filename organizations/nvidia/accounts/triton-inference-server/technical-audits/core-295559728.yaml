@@ -1,0 +1,122 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:56:57+00:00'
+evidence_fingerprint: 29529ef4a4cdf9db121f82c3b40a8a5c05e55c0fb7aed353cdbaf40b1493c774
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/core
+  repository_id: 295559728
+  url: https://github.com/triton-inference-server/core
+  description: 'The core library and APIs implementing the Triton Inference Server. '
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T06:50:54Z'
+  stars: 185
+  readme_url: https://github.com/triton-inference-server/core/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 879ca9227d161097a4805e6ef993f8e42299ac5b
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  - python/CMakeLists.txt
+  - src/CMakeLists.txt
+  - python/tritonserver/CMakeLists.txt
+  - src/test/CMakeLists.txt
+  source_files_inspected:
+  - include/triton/core/tritonbackend.h
+  - include/triton/core/tritoncache.h
+  - include/triton/core/tritonrepoagent.h
+  - src/backend_config.cc
+  repository_tree:
+    status: captured
+    sha: 68f14e6f4ce6bedcb795ca9602fbf3a50d9aefb5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: -->
+  why_used: The core library and APIs implementing the Triton Inference Server.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - C
+    - Python
+    - CMake
+    frameworks_and_libraries: []
+    dependencies:
+    - numpy
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: include/triton/core/tritonbackend.h,
+    include/triton/core/tritoncache.h, include/triton/core/tritonrepoagent.h, src/backend_config.cc'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/core/blob/main/README.md
+  path: README.md
+  blob_sha: 879ca9227d161097a4805e6ef993f8e42299ac5b
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 457b71d05bd498be9edfee67ffef89897053677a
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 87281260e4b35f7041c37613d7ca21f54a9f5584
+  retrieved: true
+- type: manifest
+  path: python/CMakeLists.txt
+  blob_sha: 8366b6924fa9ccad479cb88889c539cc0ed9bc5d
+  retrieved: true
+- type: manifest
+  path: src/CMakeLists.txt
+  blob_sha: 367a1ffcdc4999328b697c09c90b5c95943306f0
+  retrieved: true
+- type: manifest
+  path: python/tritonserver/CMakeLists.txt
+  blob_sha: aeebaa48f728fd9ec521a5329996c83f4b95d0af
+  retrieved: true
+- type: manifest
+  path: src/test/CMakeLists.txt
+  blob_sha: f357f027f49e459fc1a88a6fc5404954f58b34eb
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 2121169
+    C: 250107
+    Python: 232071
+    CMake: 54393
+- type: Git tree
+  status: captured
+  sha: 68f14e6f4ce6bedcb795ca9602fbf3a50d9aefb5
+  truncated: false
+- type: source_file
+  path: include/triton/core/tritonbackend.h
+  blob_sha: 6ec6e5dc698909249f005adc1aa160b4854e1946
+  retrieved: true
+- type: source_file
+  path: include/triton/core/tritoncache.h
+  blob_sha: 8f7234b2fa97e773d3876c577e54704c465aceb3
+  retrieved: true
+- type: source_file
+  path: include/triton/core/tritonrepoagent.h
+  blob_sha: abb75fcb2cfaea3cc6db6e6d068172ae392ac6c4
+  retrieved: true
+- type: source_file
+  path: src/backend_config.cc
+  blob_sha: f384aa75719133302341ee5d66ff3c00d0d43516
+  retrieved: true

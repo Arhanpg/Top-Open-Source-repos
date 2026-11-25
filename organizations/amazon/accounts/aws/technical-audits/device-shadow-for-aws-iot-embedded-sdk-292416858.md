@@ -6,7 +6,7 @@
 - Default branch: main
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-25T08:03:48+00:00
+- Generated: 2026-11-25T23:00:01+00:00
 
 ## Project purpose
 
@@ -22,7 +22,7 @@ No separately supported feature list extracted.
 
 ## Technology stack
 
-- Languages: Unknown / not established
+- Languages: C, Makefile, Python, CMake
 - Frameworks/libraries: Unknown / not established
 - Dependency names: Unknown / not established
 - Build/package tools: CMake configuration
@@ -53,7 +53,7 @@ No setup information established.
 - Manifests: CMakeLists.txt, test/CMakeLists.txt, test/unit-test/CMakeLists.txt, test/cbmc/proofs/Shadow_AssembleTopicString/Makefile, test/cbmc/proofs/Shadow_MatchTopic/Makefile, test/cbmc/proofs/Shadow_MatchTopicString/Makefile
 - Sampled source files: source/include/shadow.h, source/include/shadow_config_defaults.h, source/shadow.c
 - Git tree state: captured
-- Evidence fingerprint: 0d909e13cbe031240f53bb118ebadd10b3ffa1c50f986645546eb5629a8d19bb
+- Evidence fingerprint: 057cc338deec5cc2e491a477fa32ad075df38221d1ba812b5876ccf13a7fc284
 
 ## Unverified / unknown
 

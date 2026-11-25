@@ -1,0 +1,102 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:52:40+00:00'
+evidence_fingerprint: b47b9c6112a66f75032a904e5ba917142193fb6770f320196dd89fe8a9ce971a
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/aws-deepracer-inference-pkg
+  repository_id: 341984304
+  url: https://github.com/aws-deepracer/aws-deepracer-inference-pkg
+  description: The DeepRacer Inference ROS package creates the inference_node that is responsible for running the
+    inference on the machine learning model that is selected using the Intel OpenVino Inference Engine APIs.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-05-04T18:34:29Z'
+  stars: 5
+  readme_url: https://github.com/aws-deepracer/aws-deepracer-inference-pkg/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 9058b1e7f5e6964af2e9f8d37dd7116b676fd4dc
+  manifest_paths:
+  - inference_pkg/CMakeLists.txt
+  source_files_inspected:
+  - inference_pkg/src/image_process.cpp
+  - inference_pkg/src/inference_node.cpp
+  - inference_pkg/src/intel_inference_eng.cpp
+  - inference_pkg/include/inference_pkg/image_process.hpp
+  repository_tree:
+    status: captured
+    sha: 36ea300d33abd90fa6155e5589342c26c91b618d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The AWS DeepRacer inference ROS package creates the inference_node, which is part of the core AWS DeepRacer
+    application and launches from the deepracer_launcher. For more information about the application and the components,
+    see the aws-deepracer-launcher repository.
+  why_used: The DeepRacer Inference ROS package creates the inference_node that is responsible for running the inference
+    on the machine learning model that is selected using the Intel OpenVino Inference Engine APIs.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: inference_pkg/src/image_process.cpp,
+    inference_pkg/src/inference_node.cpp, inference_pkg/src/intel_inference_eng.cpp, inference_pkg/include/inference_pkg/image_process.hpp'
+  setup_and_usage:
+  - 'Installation: Follow these steps to install the AWS DeepRacer inference package.'
+  - 'Usage: The inference_node provides a very specific and core functionality to run inference on the reinforcement
+    learning models that are trained on the AWS DeepRacer Simulator. Intel OpenVino provides APIs to load an intermediate
+    representation file for the model and create a core object which can be used to run the inference. Although
+    the node is built t'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/aws-deepracer-inference-pkg/blob/main/README.md
+  path: README.md
+  blob_sha: 9058b1e7f5e6964af2e9f8d37dd7116b676fd4dc
+  retrieved: true
+- type: manifest
+  path: inference_pkg/CMakeLists.txt
+  blob_sha: 72aca35b59b02dcd66cd0433bc0ad9f4b9bb890a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 45400
+    CMake: 2286
+    Python: 1554
+- type: Git tree
+  status: captured
+  sha: 36ea300d33abd90fa6155e5589342c26c91b618d
+  truncated: false
+- type: source_file
+  path: inference_pkg/src/image_process.cpp
+  blob_sha: 814c8a7f545ffe8c3160f66d9222c3f847add0bd
+  retrieved: true
+- type: source_file
+  path: inference_pkg/src/inference_node.cpp
+  blob_sha: 56e71a5b4aecc39490a80c37fbdce07ef8e7c336
+  retrieved: true
+- type: source_file
+  path: inference_pkg/src/intel_inference_eng.cpp
+  blob_sha: e9e2c40ef5b27c88995e37f7a7a8c6f7e2d12625
+  retrieved: true
+- type: source_file
+  path: inference_pkg/include/inference_pkg/image_process.hpp
+  blob_sha: 33bce8d015d8c61dc29db0bed10e6654b057accf
+  retrieved: true

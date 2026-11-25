@@ -1,0 +1,132 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:48:25+00:00'
+evidence_fingerprint: 6e0af52454848ba05853260ee77ecba7f07069bb86625ed46fb775c42a8cb025
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/AMGX
+  repository_id: 105789598
+  url: https://github.com/NVIDIA/AMGX
+  description: Distributed multigrid linear solver library on GPU
+  default_branch: main
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-09T07:00:23Z'
+  stars: 707
+  readme_url: https://github.com/NVIDIA/AMGX/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2936645fd790c53db7ec5f3e05a24733c0ff4ea6
+  manifest_paths:
+  - CMakeLists.txt
+  - examples/CMakeLists.txt
+  - src/CMakeLists.txt
+  - examples/amgx_spmv_example/Makefile
+  - examples/eigen_examples/CMakeLists.txt
+  - examples/install_makefiles_mpi/Makefile
+  source_files_inspected:
+  - ci/containers/x86_64-ubuntu18.04-gnu7-cuda10.2.py
+  - ci/containers/x86_64-ubuntu18.04-gnu8-cuda11.0.py
+  - ci/containers/x86_64-ubuntu18.04-llvm9-cuda11.0.py
+  - ci/containers/x86_64-ubuntu20.04-nvhpc20.9.py
+  repository_tree:
+    status: captured
+    sha: 80846a5454f4b623ba69f07747e48c75022c18fa
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: AmgX is a GPU accelerated core solver library that speeds up computationally intense linear solver portion
+    of simulations. The library includes a flexible solver composition system that allows a user to easily construct
+    complex nested solvers and preconditioners. The library is well suited for implicit unstructured methods. The
+    AmgX library offers optimized methods for massive parallelism, the flexibility to choose how the solvers are
+    constructed, and is accessible through a simple C API that abstracts the parallelism and scale across a single
+    or multiple GPUs using user provided MPI.
+  why_used: Distributed multigrid linear solver library on GPU
+  core_features: []
+  technology_stack:
+    languages:
+    - Cuda
+    - C++
+    - C
+    - CMake
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: ci/containers/x86_64-ubuntu18.04-gnu7-cuda10.2.py,
+    ci/containers/x86_64-ubuntu18.04-gnu8-cuda11.0.py, ci/containers/x86_64-ubuntu18.04-llvm9-cuda11.0.py, ci/containers/x86_64-ubuntu20.04-nvhpc20.9.py'
+  setup_and_usage:
+  - 'Quickstart: Here are the instructions on how to build library and run an example solver on the matrix in the
+    Matrix Market format file. By default provided examples use vector of ones as RHS of the linear system and vector
+    of zeros as initial solution. In order to provide you own values for RHS and initial solution edit the examples.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/AMGX/blob/main/README.md
+  path: README.md
+  blob_sha: 2936645fd790c53db7ec5f3e05a24733c0ff4ea6
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 8a8297cd37e8793ce3aba97515c3a8d080b438be
+  retrieved: true
+- type: manifest
+  path: examples/CMakeLists.txt
+  blob_sha: b1bb88c3c296eb0185d79b842e27b1c1b37a4579
+  retrieved: true
+- type: manifest
+  path: src/CMakeLists.txt
+  blob_sha: 6c1542ce93f7e728dd4007a002f270a40a21fcee
+  retrieved: true
+- type: manifest
+  path: examples/amgx_spmv_example/Makefile
+  blob_sha: 485130662b09df53911d5d1571853d087c2236e8
+  retrieved: true
+- type: manifest
+  path: examples/eigen_examples/CMakeLists.txt
+  blob_sha: e7fac0c18f6255be9d35e7f99ef60bb029935472
+  retrieved: true
+- type: manifest
+  path: examples/install_makefiles_mpi/Makefile
+  blob_sha: 50dcb3a98f9cef1958439d453a934ff1f1a77fc6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Cuda: 4255514
+    C++: 2178803
+    C: 773741
+    CMake: 17210
+    Python: 5538
+    Shell: 2639
+- type: Git tree
+  status: captured
+  sha: 80846a5454f4b623ba69f07747e48c75022c18fa
+  truncated: false
+- type: source_file
+  path: ci/containers/x86_64-ubuntu18.04-gnu7-cuda10.2.py
+  blob_sha: 37d0432b260e8eeef2617951e39a2ee777b282fb
+  retrieved: true
+- type: source_file
+  path: ci/containers/x86_64-ubuntu18.04-gnu8-cuda11.0.py
+  blob_sha: c0ac498ad5df52d39a8e9e8c44d163fa332cc202
+  retrieved: true
+- type: source_file
+  path: ci/containers/x86_64-ubuntu18.04-llvm9-cuda11.0.py
+  blob_sha: 43cd3ca228c439533a71aea2436fc0b06301d818
+  retrieved: true
+- type: source_file
+  path: ci/containers/x86_64-ubuntu20.04-nvhpc20.9.py
+  blob_sha: 2e3080cc2b16ec45e170bae12b1e2fba328843b7
+  retrieved: true

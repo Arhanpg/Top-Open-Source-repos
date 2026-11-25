@@ -1,0 +1,147 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:01:21+00:00'
+evidence_fingerprint: 1945afaccb6f7dbbea682c5721b6868460ca6184620415bb13ddeb8fc1fc3617
+repository_metadata:
+  company: Amazon
+  account: aws-samples
+  full_name: aws-samples/AMLAS--sample-ml-engineering-agent-swarm
+  repository_id: 1372116853
+  url: https://github.com/aws-samples/AMLAS--sample-ml-engineering-agent-swarm
+  description: 'A Spec-driven agent swarm using Strands + AgentCore with a ClaudeCode-Like UX for Machine Learning
+    & Data Engineering lifecycle. Provides surface control over Sagemaker, Data wrangler, & many other AWS services
+    in the ML lifecycle. '
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-22T15:56:26Z'
+  stars: 4
+  readme_url: https://github.com/aws-samples/AMLAS--sample-ml-engineering-agent-swarm/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f64dc3a7426b9e4c3c33a89a8a6279196ec66961
+  manifest_paths:
+  - Dockerfile
+  - pyproject.toml
+  - processing_bootstrap/Cargo.toml
+  source_files_inspected:
+  - processing_bootstrap/src/lib.rs
+  - processing_bootstrap/src/main.rs
+  - src/amlas/app.py
+  - src/amlas/cli/__main__.py
+  repository_tree:
+    status: captured
+    sha: 3931db760f1798cc13b5f59f7f9370c4ac1c74bf
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Agentic automation from hypothesis to spec driven ML engineering.**'
+  why_used: A Spec-driven agent swarm using Strands + AgentCore with a ClaudeCode-Like UX for Machine Learning &
+    Data Engineering lifecycle. Provides surface control over Sagemaker, Data wrangler, & many other AWS services
+    in the ML lifecycle.
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies:
+    - anyio
+    - click
+    - cryptography
+    - defusedxml
+    - gitpython
+    - httpx
+    - idna
+    - lightgbm
+    - mako
+    - mcp
+    - numpy
+    - optuna
+    - pandas
+    - pillow
+    - pyasn1
+    - pydantic
+    - pydantic-settings
+    - pyjwt
+    - python-dotenv
+    - python-frontmatter
+    - python-multipart
+    - pyyaml
+    - rich
+    - scikit-learn
+    - scipy
+    - setuptools
+    - shap
+    - skops
+    - starlette
+    - strands-agents
+    - textual
+    - urllib3
+    - xgboost
+    build_and_package_tools:
+    - Cargo manifest
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: processing_bootstrap/src/lib.rs,
+    processing_bootstrap/src/main.rs, src/amlas/app.py, src/amlas/cli/__main__.py'
+  setup_and_usage:
+  - '🚀 Quickstart: scripts/setup.sh is the single supported setup entry point. It prepares'
+  - '🚀 Quickstart: the project environment, creates or loads .env, prompts for missing AWS settings, validates'
+  - '🚀 Quickstart: the selected profile, region, and target account before dependency installation or AWS writes,'
+  - '🚀 Quickstart: bootstraps CDK, deploys the managed infrastructure, and configures the local CLI/TUI.'
+  - '🚀 Quickstart: Before starting, configure AWS credentials for your selected account through a named'
+  - '🚀 Quickstart: profile or the standard credential chain. Setup checks the AWS CLI’s AgentCore API'
+  - '🚀 Quickstart: support and prepares Docker/buildx through its host helper for the default runtime'
+  - '🚀 Quickstart: image build. Read-only preflight does not need Docker. See'
+  limitations:
+  - '🔐 Security: Please **do not** open public issues for security vulnerabilities. See'
+  - '🔐 Security: SECURITY.md for reporting guidance and the project security posture.'
+  - '🔐 Security: See the sample-code notice at the top of this README for deployment responsibilities.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-samples/AMLAS--sample-ml-engineering-agent-swarm/blob/main/README.md
+  path: README.md
+  blob_sha: f64dc3a7426b9e4c3c33a89a8a6279196ec66961
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 3f13af3837e3b0b28af7ecdc28b88ed4eb94b2b1
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 5c1ff93f46b1ff38153027e5dff045c3146f2e94
+  retrieved: true
+- type: manifest
+  path: processing_bootstrap/Cargo.toml
+  blob_sha: e09ce1308675924dd3ae6c381d73b539b6992c9d
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: 3931db760f1798cc13b5f59f7f9370c4ac1c74bf
+  truncated: false
+- type: source_file
+  path: processing_bootstrap/src/lib.rs
+  blob_sha: 53b1a45cdedefc9934960fd051a53ddd361dfe6e
+  retrieved: true
+- type: source_file
+  path: processing_bootstrap/src/main.rs
+  blob_sha: bd0f59c78a619e0655e2eb293b2e9b13308d6f25
+  retrieved: true
+- type: source_file
+  path: src/amlas/app.py
+  blob_sha: 50ca0648afa4b75d2541da3b5110269c39c7fcad
+  retrieved: true
+- type: source_file
+  path: src/amlas/cli/__main__.py
+  blob_sha: f9be021da81c9675aa298a27889ab4ffb074cda6
+  retrieved: true

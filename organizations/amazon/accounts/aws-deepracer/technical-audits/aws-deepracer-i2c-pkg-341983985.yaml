@@ -1,0 +1,100 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:44:32+00:00'
+evidence_fingerprint: 5705b78f877620a5a6c33b79add64db2b9489d824402ab81c7a7b7fd5a75be20
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/aws-deepracer-i2c-pkg
+  repository_id: 341983985
+  url: https://github.com/aws-deepracer/aws-deepracer-i2c-pkg
+  description: The DeepRacer I2C ROS package creates the battery_node that is responsible for providing the vehicle
+    battery level information.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-04-14T16:53:14Z'
+  stars: 1
+  readme_url: https://github.com/aws-deepracer/aws-deepracer-i2c-pkg/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a2d9aa4b16de6d0a5cd51274fa9c4d4380f543a9
+  manifest_paths:
+  - i2c_pkg/CMakeLists.txt
+  source_files_inspected:
+  - i2c_pkg/src/battery_node.cpp
+  - i2c_pkg/src/i2c.cpp
+  - i2c_pkg/include/i2c_pkg/i2c.hpp
+  - i2c_pkg/launch/i2c_pkg_launch.py
+  repository_tree:
+    status: captured
+    sha: c9b13c4bebd3b966c14cea77aea6dac3875e7cf7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The AWS DeepRacer I2C ROS package creates the battery_node, which is part of the core AWS DeepRacer application
+    and launches from the deepracer_launcher. For more information about the application and the components, see
+    the aws-deepracer-launcher repository
+  why_used: The DeepRacer I2C ROS package creates the battery_node that is responsible for providing the vehicle
+    battery level information.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: i2c_pkg/src/battery_node.cpp,
+    i2c_pkg/src/i2c.cpp, i2c_pkg/include/i2c_pkg/i2c.hpp, i2c_pkg/launch/i2c_pkg_launch.py'
+  setup_and_usage:
+  - 'Installation: Follow these steps to install the AWS DeepRacer I2C package.'
+  - 'Usage: Although the battery_node is built to work with the AWS DeepRacer application, you can run it independently
+    for development, testing, and debugging purposes.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/aws-deepracer-i2c-pkg/blob/main/README.md
+  path: README.md
+  blob_sha: a2d9aa4b16de6d0a5cd51274fa9c4d4380f543a9
+  retrieved: true
+- type: manifest
+  path: i2c_pkg/CMakeLists.txt
+  blob_sha: 92e1b5d754301136d332b19a348d09122aed0e25
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 11100
+    Python: 1538
+    CMake: 1504
+- type: Git tree
+  status: captured
+  sha: c9b13c4bebd3b966c14cea77aea6dac3875e7cf7
+  truncated: false
+- type: source_file
+  path: i2c_pkg/src/battery_node.cpp
+  blob_sha: 328c4ca71ed81988e8a656bcceb098932557f15f
+  retrieved: true
+- type: source_file
+  path: i2c_pkg/src/i2c.cpp
+  blob_sha: bf3c257b2017cfd4eb1b72d1bd8c53f439b98d4d
+  retrieved: true
+- type: source_file
+  path: i2c_pkg/include/i2c_pkg/i2c.hpp
+  blob_sha: 43096b1f7e0e8debeded29d4d71d8871af1d8f1e
+  retrieved: true
+- type: source_file
+  path: i2c_pkg/launch/i2c_pkg_launch.py
+  blob_sha: 5ecad3b4df6998b7324bf7b9219bedd6f9364910
+  retrieved: true

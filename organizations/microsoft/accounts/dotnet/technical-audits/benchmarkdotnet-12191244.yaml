@@ -1,0 +1,126 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:55:53+00:00'
+evidence_fingerprint: bbf074e6cb503bf3f9ecc31b8fd187519b654b16a8c7efd9272a0fce23ef1f4f
+repository_metadata:
+  company: Microsoft
+  account: dotnet
+  full_name: dotnet/BenchmarkDotNet
+  repository_id: 12191244
+  url: https://github.com/dotnet/BenchmarkDotNet
+  description: Powerful .NET library for benchmarking
+  default_branch: master
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T16:55:45Z'
+  stars: 11534
+  readme_url: https://github.com/dotnet/BenchmarkDotNet/blob/master/README.md
+  readme_path: README.md
+  readme_sha: a71ef028888e7ce0dcc73f65ea44d6f7b8141916
+  manifest_paths:
+  - tests/BenchmarkDotNet.IntegrationTests.WasmBenchmarks/package.json
+  - tests/BenchmarkDotNet.IntegrationTests.WasmBenchmarks/node_modules/ws/package.json
+  source_files_inspected:
+  - src/BenchmarkDotNet.Analyzers/AnalyzerHelper.cs
+  - src/BenchmarkDotNet.Analyzers/AsyncTypeShapes.cs
+  - src/BenchmarkDotNet.Analyzers/Attributes/ArgumentsAttributeAnalyzer.cs
+  - src/BenchmarkDotNet.Analyzers/Attributes/BenchmarkCancellationAttributeAnalyzer.cs
+  repository_tree:
+    status: captured
+    sha: 47594820aa99db17584ce6a6d5f690e2b61c37b1
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**BenchmarkDotNet** helps you to transform methods into benchmarks, track their performance, and share
+    reproducible measurement experiments. It''s no harder than writing unit tests! Under the hood, it performs a
+    lot of magic that guarantees reliable and precise results thanks to the perfolizer and pragmastat statistical
+    engine. BenchmarkDotNet protects you from popular benchmarking mistakes and warns you if something is wrong
+    with your benchmark design or obtained measurements. The results are presented in a user-friendly form that
+    highlights all the important facts about your experiment. BenchmarkDotNet is already adopted by 27400+ GitHub
+    projects including .NET Runtime, .NET Compiler, .NET Performance, and many others.'
+  why_used: Powerful .NET library for benchmarking
+  core_features: []
+  technology_stack:
+    languages:
+    - C#
+    - Shell
+    - JavaScript
+    - R
+    - PowerShell
+    - F#
+    - Batchfile
+    - Visual Basic .NET
+    frameworks_and_libraries: []
+    dependencies:
+    - benchmark
+    - bufferutil
+    - eslint
+    - eslint-config-prettier
+    - eslint-plugin-prettier
+    - globals
+    - mocha
+    - nyc
+    - prettier
+    - utf-8-validate
+    - ws
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/BenchmarkDotNet.Analyzers/AnalyzerHelper.cs,
+    src/BenchmarkDotNet.Analyzers/AsyncTypeShapes.cs, src/BenchmarkDotNet.Analyzers/Attributes/ArgumentsAttributeAnalyzer.cs,
+    src/BenchmarkDotNet.Analyzers/Attributes/BenchmarkCancellationAttributeAnalyzer.cs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/dotnet/BenchmarkDotNet/blob/master/README.md
+  path: README.md
+  blob_sha: a71ef028888e7ce0dcc73f65ea44d6f7b8141916
+  retrieved: true
+- type: manifest
+  path: tests/BenchmarkDotNet.IntegrationTests.WasmBenchmarks/package.json
+  blob_sha: 4414d1d5b6acd54d55e3c22181d72d92f908e333
+  retrieved: true
+- type: manifest
+  path: tests/BenchmarkDotNet.IntegrationTests.WasmBenchmarks/node_modules/ws/package.json
+  blob_sha: 91b826966802375e85467d92dffd3b5f3555d27d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 5003792
+    Shell: 68420
+    JavaScript: 18669
+    R: 7849
+    PowerShell: 3266
+    F#: 3233
+    Batchfile: 3135
+    Visual Basic .NET: 2241
+- type: Git tree
+  status: captured
+  sha: 47594820aa99db17584ce6a6d5f690e2b61c37b1
+  truncated: false
+- type: source_file
+  path: src/BenchmarkDotNet.Analyzers/AnalyzerHelper.cs
+  blob_sha: 3f9b91b8f0af3fb92fb1a5cf0f721ccf1aec76f0
+  retrieved: true
+- type: source_file
+  path: src/BenchmarkDotNet.Analyzers/AsyncTypeShapes.cs
+  blob_sha: 741a56a4661c9ad904434632f7a77b27be5d5071
+  retrieved: true
+- type: source_file
+  path: src/BenchmarkDotNet.Analyzers/Attributes/ArgumentsAttributeAnalyzer.cs
+  blob_sha: 79233fa6676915ebe05a513ecf18070d3e508304
+  retrieved: true
+- type: source_file
+  path: src/BenchmarkDotNet.Analyzers/Attributes/BenchmarkCancellationAttributeAnalyzer.cs
+  blob_sha: baa117e26df62c93b569e9975f242346be6f88f0
+  retrieved: true

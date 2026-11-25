@@ -1,0 +1,108 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:45:12+00:00'
+evidence_fingerprint: 1d2b08f18cfaf61659baa21adb87a7b85b959e9ea674c8022f75f932744b2f80
+repository_metadata:
+  company: Amazon
+  account: aws-samples
+  full_name: aws-samples/AI-search-with-amazon-opensearch-service
+  repository_id: 539582988
+  url: https://github.com/aws-samples/AI-search-with-amazon-opensearch-service
+  description: null
+  default_branch: Next-Gen-Search-Workshop
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-09-23T09:16:37Z'
+  stars: 77
+  readme_url: https://github.com/aws-samples/AI-search-with-amazon-opensearch-service/blob/Next-Gen-Search-Workshop/README.md
+  readme_path: README.md
+  readme_sha: 05a10dfce9f153eae98e70ac298659d759c09908
+  manifest_paths:
+  - OpenSearchApp/requirements.txt
+  source_files_inspected:
+  - OpenSearchApp/app.py
+  - deploy.sh
+  - OpenSearchApp/app_multiple_model.py
+  - OpenSearchApp/pages/AI_Shopping_Assistant.py
+  repository_tree:
+    status: captured
+    sha: 859bf7c40ac570862b07052f60ebfb530208df63
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository covers all search types of Amazon openSearch service that involve machine leaning to
+    improve search relevance. The search types include,
+  why_used: This repository covers all search types of Amazon openSearch service that involve machine leaning to
+    improve search relevance. The search types include,
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Jupyter Notebook
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - PyPDF2
+    - boto3
+    - langchain
+    - opensearch-py
+    - pandas
+    - pdf2image
+    - pillow
+    - requests_aws4auth
+    - sklearn
+    - streamlit
+    - transformers
+    - unstructured
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: OpenSearchApp/app.py,
+    deploy.sh, OpenSearchApp/app_multiple_model.py, OpenSearchApp/pages/AI_Shopping_Assistant.py'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-samples/AI-search-with-amazon-opensearch-service/blob/Next-Gen-Search-Workshop/README.md
+  path: README.md
+  blob_sha: 05a10dfce9f153eae98e70ac298659d759c09908
+  retrieved: true
+- type: manifest
+  path: OpenSearchApp/requirements.txt
+  blob_sha: 1380753612191b9dd4db5577402fa204c64b6812
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 288558
+    Jupyter Notebook: 276703
+    Shell: 475
+- type: Git tree
+  status: captured
+  sha: 859bf7c40ac570862b07052f60ebfb530208df63
+  truncated: false
+- type: source_file
+  path: OpenSearchApp/app.py
+  blob_sha: aa058617e51421eb58e3cfa1fa08bd4e8f323fe9
+  retrieved: true
+- type: source_file
+  path: deploy.sh
+  blob_sha: 04f3ac104a5250a46745396a6d7769e276eaefeb
+  retrieved: true
+- type: source_file
+  path: OpenSearchApp/app_multiple_model.py
+  blob_sha: 3bf42df7b939d45ef1007e8a7f4661ea40216e73
+  retrieved: true
+- type: source_file
+  path: OpenSearchApp/pages/AI_Shopping_Assistant.py
+  blob_sha: be7128fba2162452f4cefff0e3af28b73a7e1d72
+  retrieved: true

@@ -1,0 +1,209 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:05:54+00:00'
+evidence_fingerprint: 5ec83b74d87fb33c19d7000c4f388dcc0ff22387d23aa1ffcead0f5c686931d9
+repository_metadata:
+  company: SAP
+  account: SAP-cloud-infrastructure
+  full_name: SAP-cloud-infrastructure/metaldhcp
+  repository_id: 1401438134
+  url: https://github.com/SAP-cloud-infrastructure/metaldhcp
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T11:21:47Z'
+  stars: 0
+  readme_url: https://github.com/SAP-cloud-infrastructure/metaldhcp/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 46954f3be29de34f74fca795ffc6625a556f7b33
+  manifest_paths:
+  - Dockerfile
+  - go.mod
+  - Makefile
+  source_files_inspected:
+  - cmd/tftpd/main.go
+  - main.go
+  - cmd/tftpd/main_test.go
+  - api/v1alpha1/groupversion_info.go
+  repository_tree:
+    status: captured
+    sha: 899005e6f469bb9839b28f3efc1235d77c5a7e87
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A DHCP server for bare-metal out-of-band networks. It is built on the coredhcp library — not a fork —
+    and adds a single custom plugin, oob, for Kubernetes-native address management.
+  why_used: A DHCP server for bare-metal out-of-band networks. It is built on the coredhcp library — not a fork
+    — and adds a single custom plugin, oob, for Kubernetes-native address management.
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Python
+    - Makefile
+    - Dockerfile
+    - Shell
+    - Starlark
+    - Go Template
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/Masterminds/semver/v3
+    - github.com/beorn7/perks
+    - github.com/cespare/xxhash/v2
+    - github.com/chappjc/logrus-prefix
+    - github.com/coredhcp/coredhcp
+    - github.com/davecgh/go-spew
+    - github.com/emicklei/go-restful/v3
+    - github.com/endobit/oui
+    - github.com/evanphx/json-patch/v5
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/go-logr/logr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/go-openapi/swag/cmdutils
+    - github.com/go-openapi/swag/conv
+    - github.com/go-openapi/swag/fileutils
+    - github.com/go-openapi/swag/jsonutils
+    - github.com/go-openapi/swag/loading
+    - github.com/go-openapi/swag/mangling
+    - github.com/go-openapi/swag/netutils
+    - github.com/go-openapi/swag/pools
+    - github.com/go-openapi/swag/stringutils
+    - github.com/go-openapi/swag/typeutils
+    - github.com/go-openapi/swag/yamlutils
+    - github.com/go-task/slim-sprig/v3
+    - github.com/go-viper/mapstructure/v2
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/gopacket
+    - github.com/google/pprof
+    - github.com/google/uuid
+    - github.com/insomniacslk/dhcp
+    - github.com/json-iterator/go
+    - github.com/mattn/go-colorable
+    - github.com/mattn/go-isatty
+    - github.com/mgutz/ansi
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/munnerz/goautoneg
+    - github.com/nxadm/tail
+    - github.com/onsi/ginkgo/v2
+    - github.com/onsi/gomega
+    - github.com/pelletier/go-toml/v2
+    - github.com/pierrec/lz4/v4
+    - github.com/pin/tftp/v3
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/rifflock/lfshook
+    - github.com/sagikazarmark/locafero
+    - github.com/sirupsen/logrus
+    - github.com/sourcegraph/conc
+    - github.com/spf13/afero
+    - github.com/spf13/cast
+    - github.com/spf13/pflag
+    - github.com/spf13/viper
+    - github.com/subosito/gotenv
+    - github.com/u-root/uio
+    - github.com/x448/float16
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - go.yaml.in/yaml/v2
+    - go.yaml.in/yaml/v3
+    - golang.org/x/crypto
+    - golang.org/x/mod
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/term
+    - golang.org/x/text
+    - golang.org/x/time
+    - golang.org/x/tools
+    - gomodules.xyz/jsonpatch/v2
+    - google.golang.org/protobuf
+    - gopkg.in/evanphx/json-patch.v4
+    - gopkg.in/inf.v0
+    - gopkg.in/yaml.v3
+    - k8s.io/api
+    - k8s.io/apiextensions-apiserver
+    - k8s.io/apimachinery
+    - k8s.io/client-go
+    - k8s.io/klog/v2
+    - k8s.io/kube-openapi
+    - k8s.io/utils
+    - sigs.k8s.io/controller-runtime
+    - sigs.k8s.io/json
+    - sigs.k8s.io/randfill
+    - sigs.k8s.io/structured-merge-diff/v6
+    - sigs.k8s.io/yaml
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/tftpd/main.go,
+    main.go, cmd/tftpd/main_test.go, api/v1alpha1/groupversion_info.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP-cloud-infrastructure/metaldhcp/blob/main/README.md
+  path: README.md
+  blob_sha: 46954f3be29de34f74fca795ffc6625a556f7b33
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 2c04b7e7692209b89e98d59e0c315cfd9995ccd4
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: de7836eb0c5cf523be5b24de375e0cc64fa3f6a3
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 0a0f1f09591dc68252713ecf95644147b1eddb59
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 156614
+    Python: 23782
+    Makefile: 6511
+    Dockerfile: 2389
+    Shell: 2183
+    Starlark: 1537
+    Go Template: 1003
+- type: Git tree
+  status: captured
+  sha: 899005e6f469bb9839b28f3efc1235d77c5a7e87
+  truncated: false
+- type: source_file
+  path: cmd/tftpd/main.go
+  blob_sha: a5a622af01ae8259789b89774aae32abb4f2f138
+  retrieved: true
+- type: source_file
+  path: main.go
+  blob_sha: db09aecb94ab56175b05dcbe288fc2ddf6ed04ad
+  retrieved: true
+- type: source_file
+  path: cmd/tftpd/main_test.go
+  blob_sha: b3d857fa406158d95dfd11d2da60fbb7b15ac310
+  retrieved: true
+- type: source_file
+  path: api/v1alpha1/groupversion_info.go
+  blob_sha: 1581f04652c07b583e4ff72c09f8d15660928975
+  retrieved: true

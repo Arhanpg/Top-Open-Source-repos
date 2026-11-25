@@ -1,10 +1,10 @@
 # Technical audits — aws-cloudformation
 
-Updated: 2026-11-25T08:29:15+00:00
+Updated: 2026-11-25T23:09:24+00:00
 
 ## Status counts
 
-- evidence_only: 6
+- evidence_only: 10
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -17,4 +17,8 @@ Updated: 2026-11-25T08:29:15+00:00
 | aws-cloudformation-resource-providers-accessanalyzer-221521522 | evidence_only | [aws-cloudformation-resource-providers-accessanalyzer-221521522.md](aws-cloudformation-resource-providers-accessanalyzer-221521522.md) | [aws-cloudformation-resource-providers-accessanalyzer-221521522.yaml](aws-cloudformation-resource-providers-accessanalyzer-221521522.yaml) |
 | aws-cloudformation-resource-providers-acmpca-251668635 | evidence_only | [aws-cloudformation-resource-providers-acmpca-251668635.md](aws-cloudformation-resource-providers-acmpca-251668635.md) | [aws-cloudformation-resource-providers-acmpca-251668635.yaml](aws-cloudformation-resource-providers-acmpca-251668635.yaml) |
 | aws-cloudformation-resource-providers-amplify-327147168 | evidence_only | [aws-cloudformation-resource-providers-amplify-327147168.md](aws-cloudformation-resource-providers-amplify-327147168.md) | [aws-cloudformation-resource-providers-amplify-327147168.yaml](aws-cloudformation-resource-providers-amplify-327147168.yaml) |
+| aws-cloudformation-resource-providers-amplifyuibuilder-398363690 | evidence_only | [aws-cloudformation-resource-providers-amplifyuibuilder-398363690.md](aws-cloudformation-resource-providers-amplifyuibuilder-398363690.md) | [aws-cloudformation-resource-providers-amplifyuibuilder-398363690.yaml](aws-cloudformation-resource-providers-amplifyuibuilder-398363690.yaml) |
+| aws-cloudformation-resource-providers-applicationinsights-263462096 | evidence_only | [aws-cloudformation-resource-providers-applicationinsights-263462096.md](aws-cloudformation-resource-providers-applicationinsights-263462096.md) | [aws-cloudformation-resource-providers-applicationinsights-263462096.yaml](aws-cloudformation-resource-providers-applicationinsights-263462096.yaml) |
+| aws-cloudformation-resource-providers-apprunner-448120585 | evidence_only | [aws-cloudformation-resource-providers-apprunner-448120585.md](aws-cloudformation-resource-providers-apprunner-448120585.md) | [aws-cloudformation-resource-providers-apprunner-448120585.yaml](aws-cloudformation-resource-providers-apprunner-448120585.yaml) |
+| aws-cloudformation-resource-providers-aps-402217505 | evidence_only | [aws-cloudformation-resource-providers-aps-402217505.md](aws-cloudformation-resource-providers-aps-402217505.md) | [aws-cloudformation-resource-providers-aps-402217505.yaml](aws-cloudformation-resource-providers-aps-402217505.yaml) |
 | github-171341618 | insufficient_evidence | [github-171341618.md](github-171341618.md) | [github-171341618.yaml](github-171341618.yaml) |

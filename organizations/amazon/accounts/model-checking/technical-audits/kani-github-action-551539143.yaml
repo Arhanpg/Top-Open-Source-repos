@@ -1,0 +1,96 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:46:32+00:00'
+evidence_fingerprint: 3b3e0f0b25a16a52062cc801f7662b58e09f857c2d2518314e5af2a210fbe54c
+repository_metadata:
+  company: Amazon
+  account: model-checking
+  full_name: model-checking/kani-github-action
+  repository_id: 551539143
+  url: https://github.com/model-checking/kani-github-action
+  description: This repository provides a GitHub Action for running the Kani Rust Verifier in CI.
+  default_branch: v1
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-09-20T21:38:54Z'
+  stars: 14
+  readme_url: https://github.com/model-checking/kani-github-action/blob/v1/README.md
+  readme_path: README.md
+  readme_sha: 9971d6ab4afacdea7ab9391fb8a5e65a64cd5a64
+  manifest_paths:
+  - tests/cargo-kani/simple-lib/Cargo.toml
+  source_files_inspected:
+  - src/install-kani.sh
+  - scripts/copyright_check.py
+  - scripts/run-autopep8.sh
+  - scripts/run-clang-format.sh
+  repository_tree:
+    status: captured
+    sha: 553a499083e5c000a5a2768132bcfa09a0fd06e9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository provides a GitHub Action for running the Kani Rust Verifier in CI.
+  why_used: This repository provides a GitHub Action for running the Kani Rust Verifier in CI.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Rust
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Cargo manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/install-kani.sh,
+    scripts/copyright_check.py, scripts/run-autopep8.sh, scripts/run-clang-format.sh'
+  setup_and_usage:
+  - 'Example usage in a workflow YAML file:: Here are a few examples of workflow YAML files for the Kani Github
+    Action:'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/model-checking/kani-github-action/blob/v1/README.md
+  path: README.md
+  blob_sha: 9971d6ab4afacdea7ab9391fb8a5e65a64cd5a64
+  retrieved: true
+- type: manifest
+  path: tests/cargo-kani/simple-lib/Cargo.toml
+  blob_sha: 23f843337dc752dbb2034214a257d46a3ea98d79
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 4759
+    Shell: 4032
+    Rust: 1041
+- type: Git tree
+  status: captured
+  sha: 553a499083e5c000a5a2768132bcfa09a0fd06e9
+  truncated: false
+- type: source_file
+  path: src/install-kani.sh
+  blob_sha: 591de2dbb1550afc5447b4b7cd28cccdeff726bb
+  retrieved: true
+- type: source_file
+  path: scripts/copyright_check.py
+  blob_sha: d789909662c8dcb850d4bfa19ef1e87897e17fce
+  retrieved: true
+- type: source_file
+  path: scripts/run-autopep8.sh
+  blob_sha: 0673f59db77c4d5f9db1694e0b9b3b22d47eb3f3
+  retrieved: true
+- type: source_file
+  path: scripts/run-clang-format.sh
+  blob_sha: 754c9d94791b06426b899a2e57a1e71bc4e36fda
+  retrieved: true

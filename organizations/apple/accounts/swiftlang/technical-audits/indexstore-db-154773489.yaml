@@ -1,0 +1,130 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:03:06+00:00'
+evidence_fingerprint: 6243c59e0f1ac0a30981223bd028178d6884dc5ebaadf8f85b9a406231a1fa79
+repository_metadata:
+  company: Apple
+  account: swiftlang
+  full_name: swiftlang/indexstore-db
+  repository_id: 154773489
+  url: https://github.com/swiftlang/indexstore-db
+  description: Index database library for use with sourcekit-lsp
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T09:57:13Z'
+  stars: 422
+  readme_url: https://github.com/swiftlang/indexstore-db/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 896700a7af9c51ad59cad53bedc7f8ef543b470a
+  manifest_paths:
+  - CMakeLists.txt
+  - Sources/CMakeLists.txt
+  - cmake/modules/CMakeLists.txt
+  - Sources/IndexStoreDB/CMakeLists.txt
+  - Sources/IndexStoreDB_CIndexStoreDB/CMakeLists.txt
+  - Sources/IndexStoreDB_Core/CMakeLists.txt
+  source_files_inspected:
+  - Sources/ISDBTestSupport/INPUTS/RelativeWorkingDir/main.c
+  - Sources/ISDBTestSupport/INPUTS/SingleUnit/main.c
+  - Package.swift
+  - Sources/index-dump/index-dump.swift
+  repository_tree:
+    status: captured
+    sha: 1ef5b926d335259d40dfe07178792d248f0aeca0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: IndexStoreDB is a source code indexing library. It provides a composable and efficient query API for
+    looking up source code symbols, symbol occurrences, and relations. IndexStoreDB uses the libIndexStore library,
+    which lives in swiftlang/llvm-project, for reading raw index data. Raw index data can be produced by compilers
+    such as Apple Clang and Swift using the -index-store-path option. IndexStoreDB enables efficiently querying
+    this data by maintaining acceleration tables in a key-value database built with LMDB.
+  why_used: Index database library for use with sourcekit-lsp
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Swift
+    - C
+    - Python
+    - CMake
+    - Objective-C++
+    - Objective-C
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Sources/ISDBTestSupport/INPUTS/RelativeWorkingDir/main.c,
+    Sources/ISDBTestSupport/INPUTS/SingleUnit/main.c, Package.swift, Sources/index-dump/index-dump.swift'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/swiftlang/indexstore-db/blob/main/README.md
+  path: README.md
+  blob_sha: 896700a7af9c51ad59cad53bedc7f8ef543b470a
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: ddc0912e65423b263761e5db8634e413aba722b7
+  retrieved: true
+- type: manifest
+  path: Sources/CMakeLists.txt
+  blob_sha: b01ed5a50f58fa43ea22cbd8c0ae4ff0e5fb7816
+  retrieved: true
+- type: manifest
+  path: cmake/modules/CMakeLists.txt
+  blob_sha: 0884d3012054658d66ceb3d4eca190f798622753
+  retrieved: true
+- type: manifest
+  path: Sources/IndexStoreDB/CMakeLists.txt
+  blob_sha: 84596bbee4fce7cb9b5e7817201a23f2e6ba5848
+  retrieved: true
+- type: manifest
+  path: Sources/IndexStoreDB_CIndexStoreDB/CMakeLists.txt
+  blob_sha: 0c9b73b598add8477d35791f7b8030ad0a257e15
+  retrieved: true
+- type: manifest
+  path: Sources/IndexStoreDB_Core/CMakeLists.txt
+  blob_sha: 631ccec8ff359a6aae9eef684f324ffaf1efae2c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 3154642
+    Swift: 333289
+    C: 79272
+    Python: 10030
+    CMake: 7383
+    Objective-C++: 1196
+    Objective-C: 548
+- type: Git tree
+  status: captured
+  sha: 1ef5b926d335259d40dfe07178792d248f0aeca0
+  truncated: false
+- type: source_file
+  path: Sources/ISDBTestSupport/INPUTS/RelativeWorkingDir/main.c
+  blob_sha: a9b822554f432195b91a1502c6b9f0cde545c91e
+  retrieved: true
+- type: source_file
+  path: Sources/ISDBTestSupport/INPUTS/SingleUnit/main.c
+  blob_sha: 7da700fd123cea0ba8d77d1720c149850240f1ac
+  retrieved: true
+- type: source_file
+  path: Package.swift
+  blob_sha: 3810d2ae520c33fa58ce8bb12b1abe8e2b8133f0
+  retrieved: true
+- type: source_file
+  path: Sources/index-dump/index-dump.swift
+  blob_sha: acdcb75179cf834698b0e232e965d6fd4cda8705
+  retrieved: true

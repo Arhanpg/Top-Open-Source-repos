@@ -6,7 +6,7 @@
 - Default branch: 3.0.0-stable
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-25T08:28:02+00:00
+- Generated: 2026-11-25T22:51:20+00:00
 
 ## Project purpose
 
@@ -22,7 +22,7 @@ No separately supported feature list extracted.
 
 ## Technology stack
 
-- Languages: Unknown / not established
+- Languages: HTML, PHP, JavaScript, CSS, ApacheConf
 - Frameworks/libraries: Unknown / not established
 - Dependency names: mikey179/vfsStream
 - Build/package tools: Composer manifest
@@ -57,7 +57,7 @@ No explicit limitations extracted; this does not mean none exist.
 - Manifests: composer.json
 - Sampled source files: system/core/Benchmark.php, system/core/CodeIgniter.php, system/core/Common.php, system/core/compat/hash.php
 - Git tree state: captured
-- Evidence fingerprint: ee5fd585af5705db686269b1beed3b889aca44129127c4640d5c17ab8767871a
+- Evidence fingerprint: 4e6b4b9011886d8660971191e28bed242440ef43e57bcbe3adcb5b1abcd1aa5b
 
 ## Unverified / unknown
 

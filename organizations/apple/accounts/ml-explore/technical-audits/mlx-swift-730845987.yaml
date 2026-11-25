@@ -1,0 +1,140 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:54:57+00:00'
+evidence_fingerprint: b54b8f9f83440c92750c939e5244570e09385d969658d2a576a0c0f040843362
+repository_metadata:
+  company: Apple
+  account: ml-explore
+  full_name: ml-explore/mlx-swift
+  repository_id: 730845987
+  url: https://github.com/ml-explore/mlx-swift
+  description: Swift API for MLX
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T00:33:24Z'
+  stars: 2098
+  readme_url: https://github.com/ml-explore/mlx-swift/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 035e09b15aa4911ed2e470418c9bae269a3a781f
+  manifest_paths:
+  - CMakeLists.txt
+  - Source/Cmlx/fmt/CMakeLists.txt
+  - Source/Cmlx/json/CMakeLists.txt
+  - Source/Cmlx/fmt/support/build.gradle
+  - Source/Cmlx/fmt/test/CMakeLists.txt
+  - Source/Cmlx/fmt/test/add-subdirectory-test/CMakeLists.txt
+  source_files_inspected:
+  - Source/Cmlx/fmt/src/fmt.cc
+  - Source/Cmlx/fmt/src/format.cc
+  - Source/Cmlx/fmt/src/os.cc
+  - .github/scripts/build-linux-cuda-cmake.sh
+  repository_tree:
+    status: captured
+    sha: ee24a63f8c57b665683562056335d269cb8367ec
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Installation** | **Documentation** | **Examples**'
+  why_used: Swift API for MLX
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Swift
+    - Python
+    - C
+    - Metal
+    - CMake
+    - Shell
+    - CSS
+    - Cuda
+    - Makefile
+    - Objective-C
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle build file
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Source/Cmlx/fmt/src/fmt.cc,
+    Source/Cmlx/fmt/src/format.cc, Source/Cmlx/fmt/src/os.cc, .github/scripts/build-linux-cuda-cmake.sh'
+  setup_and_usage:
+  - 'Installation: The MLX Swift package can be built and run from Xcode or SwiftPM. A CMake installation is also
+    provided, featuring a native Linux build option.'
+  - 'Installation: More details are in the documentation.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ml-explore/mlx-swift/blob/main/README.md
+  path: README.md
+  blob_sha: 035e09b15aa4911ed2e470418c9bae269a3a781f
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 3ddeeb7c5776c014b2576d2d318066df56709a8b
+  retrieved: true
+- type: manifest
+  path: Source/Cmlx/fmt/CMakeLists.txt
+  blob_sha: d6aa85cd818fadf75c50dd70ce18df8baeb2770b
+  retrieved: true
+- type: manifest
+  path: Source/Cmlx/json/CMakeLists.txt
+  blob_sha: 58de8b32e10fda4ba6f5a0fb54f25f14af48fc47
+  retrieved: true
+- type: manifest
+  path: Source/Cmlx/fmt/support/build.gradle
+  blob_sha: c5126d0583b37e2f5d9c6d8d281b26833fd2d55d
+  retrieved: true
+- type: manifest
+  path: Source/Cmlx/fmt/test/CMakeLists.txt
+  blob_sha: 3441244e3b1e1cff797010da75ca2b80b333ae17
+  retrieved: true
+- type: manifest
+  path: Source/Cmlx/fmt/test/add-subdirectory-test/CMakeLists.txt
+  blob_sha: 6ce485f2507c1be3a41ae392da0894165346864c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 10514564
+    Swift: 2645811
+    Python: 269722
+    C: 233310
+    Metal: 86198
+    CMake: 62013
+    Shell: 18918
+    CSS: 1267
+    Cuda: 905
+    Makefile: 299
+    Objective-C: 215
+    JavaScript: 76
+- type: Git tree
+  status: captured
+  sha: ee24a63f8c57b665683562056335d269cb8367ec
+  truncated: false
+- type: source_file
+  path: Source/Cmlx/fmt/src/fmt.cc
+  blob_sha: 0713da75c393e7500a194bbff65ebcd079e22281
+  retrieved: true
+- type: source_file
+  path: Source/Cmlx/fmt/src/format.cc
+  blob_sha: 526082e3467c030b017f5ef7efc4e68f2112ce07
+  retrieved: true
+- type: source_file
+  path: Source/Cmlx/fmt/src/os.cc
+  blob_sha: 4d7c299b83c56ef56994a59b6aed0f0a086210c1
+  retrieved: true
+- type: source_file
+  path: .github/scripts/build-linux-cuda-cmake.sh
+  blob_sha: 1262ded044416245b096db12dcf9d4a2679e074c
+  retrieved: true

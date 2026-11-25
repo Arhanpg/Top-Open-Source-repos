@@ -1,7 +1,7 @@
 schema_version: '1.0'
 audit_status: evidence_only
-generated_at: '2026-11-25T08:03:48+00:00'
-evidence_fingerprint: 0d909e13cbe031240f53bb118ebadd10b3ffa1c50f986645546eb5629a8d19bb
+generated_at: '2026-11-25T23:00:01+00:00'
+evidence_fingerprint: 057cc338deec5cc2e491a477fa32ad075df38221d1ba812b5876ccf13a7fc284
 repository_metadata:
   company: Amazon
   account: aws
@@ -40,7 +40,11 @@ analysis:
   why_used: Client library for using AWS IoT Shadow service on embedded devices
   core_features: []
   technology_stack:
-    languages: []
+    languages:
+    - C
+    - Makefile
+    - Python
+    - CMake
     frameworks_and_libraries: []
     dependencies: []
     build_and_package_tools:
@@ -92,7 +96,11 @@ evidence_sources:
   blob_sha: 9aa2fa205af9960a559eb2f6576eab6e5140cc15
   retrieved: true
 - type: GitHub Languages API
-  values: {}
+  values:
+    C: 167200
+    Makefile: 45930
+    Python: 19901
+    CMake: 18338
 - type: Git tree
   status: captured
   sha: e0d4a35435e7fbc337b13db3db9366b476917125

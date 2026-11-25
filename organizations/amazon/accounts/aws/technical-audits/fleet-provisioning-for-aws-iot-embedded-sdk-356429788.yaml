@@ -1,7 +1,7 @@
 schema_version: '1.0'
 audit_status: evidence_only
-generated_at: '2026-11-25T08:12:13+00:00'
-evidence_fingerprint: 416db4c746a22332e18f22191ff58f25c10a375e1abe02175bab4ab1ee584773
+generated_at: '2026-11-25T23:08:02+00:00'
+evidence_fingerprint: 19b7f0c81a7d59633b9d81660a1e5c6ab6d2a5da74cbd30a87cb0f80780f031f
 repository_metadata:
   company: Amazon
   account: aws
@@ -39,7 +39,11 @@ analysis:
   why_used: Client library for using AWS IoT Fleet Provisioning service on embedded devices
   core_features: []
   technology_stack:
-    languages: []
+    languages:
+    - C
+    - Makefile
+    - Python
+    - CMake
     frameworks_and_libraries: []
     dependencies: []
     build_and_package_tools:
@@ -87,7 +91,11 @@ evidence_sources:
   blob_sha: 6459e08cca2bce5d81d622c13a659f5c970ea90b
   retrieved: true
 - type: GitHub Languages API
-  values: {}
+  values:
+    C: 115418
+    Makefile: 42100
+    Python: 21332
+    CMake: 14868
 - type: Git tree
   status: captured
   sha: 8a655195c45ca25d6181a268465b82a194c50e7c

@@ -1,0 +1,109 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:54:51+00:00'
+evidence_fingerprint: 6d11e27e45c261c7090ffe96057dfd6e9fffc8fb493a5fced71aa742ec881353
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/SwiftUsd
+  repository_id: 1027849444
+  url: https://github.com/apple/SwiftUsd
+  description: A Swift Package for using OpenUSD, Pixar's Universal Scene Description
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-02T21:48:52Z'
+  stars: 88
+  readme_url: https://github.com/apple/SwiftUsd/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 240a8c3af21e0054298446693ce9d7fb0c1b0975
+  manifest_paths: []
+  source_files_inspected:
+  - .github/scripts/build-openusd.py
+  - .github/scripts/compute-openusd-build-cache-key.py
+  - .github/scripts/compute-test-artifact-name.py
+  - .github/scripts/define-build-matrix.py
+  repository_tree:
+    status: captured
+    sha: eeb743796386c2d0c527bb1fbae4dda9a0ca4846
+    truncated: true
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A Swift Package for using OpenUSD, Pixar's Universal Scene Description
+  why_used: A Swift Package for using OpenUSD, Pixar's Universal Scene Description
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - C
+    - Swift
+    - GLSL
+    - Objective-C++
+    - Objective-C
+    - Metal
+    - Slang
+    - Python
+    - HTML
+    - JavaScript
+    - CMake
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .github/scripts/build-openusd.py,
+    .github/scripts/compute-openusd-build-cache-key.py, .github/scripts/compute-test-artifact-name.py, .github/scripts/define-build-matrix.py'
+  setup_and_usage:
+  - 'Getting Started: Before you can start using SwiftUsd, you need to add it as a dependency to your Xcode project
+    or Swift Package, and then configure a few build settings.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/SwiftUsd/blob/main/README.md
+  path: README.md
+  blob_sha: 240a8c3af21e0054298446693ce9d7fb0c1b0975
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 172478355
+    C: 2800178
+    Swift: 2257718
+    GLSL: 1385860
+    Objective-C++: 351554
+    Objective-C: 152568
+    Metal: 83520
+    Slang: 83090
+    Python: 3769
+    HTML: 2474
+    JavaScript: 2418
+    CMake: 1325
+    Shell: 952
+- type: Git tree
+  status: captured
+  sha: eeb743796386c2d0c527bb1fbae4dda9a0ca4846
+  truncated: true
+- type: source_file
+  path: .github/scripts/build-openusd.py
+  blob_sha: c14a4b6d7193976bc9411b81d701075fa645c263
+  retrieved: true
+- type: source_file
+  path: .github/scripts/compute-openusd-build-cache-key.py
+  blob_sha: cd67c23ef23b15d33735b8f7eb690ad1fd43c8f3
+  retrieved: true
+- type: source_file
+  path: .github/scripts/compute-test-artifact-name.py
+  blob_sha: 77d19db23edf66bc7d3e504c1793ba78c8ca0cf1
+  retrieved: true
+- type: source_file
+  path: .github/scripts/define-build-matrix.py
+  blob_sha: 4bcb324a6f0d1a793a2cff1830d02c8e11a8eaf7
+  retrieved: true

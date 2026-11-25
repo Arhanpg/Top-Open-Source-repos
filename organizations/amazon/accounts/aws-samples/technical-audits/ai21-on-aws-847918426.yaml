@@ -1,0 +1,93 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:53:20+00:00'
+evidence_fingerprint: 27841abc4fcb59c77f378b748b0844b883f369183d2e6c2be28a5c13256d9b6d
+repository_metadata:
+  company: Amazon
+  account: aws-samples
+  full_name: aws-samples/AI21-on-AWS
+  repository_id: 847918426
+  url: https://github.com/aws-samples/AI21-on-AWS
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-10-22T17:22:36Z'
+  stars: 12
+  readme_url: https://github.com/aws-samples/AI21-on-AWS/blob/main/README.md
+  readme_path: README.md
+  readme_sha: bd4d8b55883250d83cb208753a14317b0e9b85b5
+  manifest_paths:
+  - sagemaker-notebooks/Jamba1.5-Retriever/scripts/requirements.txt
+  source_files_inspected:
+  - bedrock-notebooks/bedrock_code_snippets_sdk.py
+  - sagemaker-notebooks/Jamba1.5-Retriever/scripts/inference.py
+  - sagemaker-notebooks/Jamba1.5-Retriever/scripts/train.py
+  repository_tree:
+    status: captured
+    sha: abf7a4f46a691a2537179c887c22ad1a4b941841
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Welcome to the repository hosting example use of AI21 models on AWS! You will find a few folders within
+    this repository that give various examples.
+  why_used: Welcome to the repository hosting example use of AI21 models on AWS! You will find a few folders within
+    this repository that give various examples.
+  core_features: []
+  technology_stack:
+    languages:
+    - Jupyter Notebook
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - accelerate
+    - causal-conv1d
+    - mamba-ssm
+    - transformers
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: bedrock-notebooks/bedrock_code_snippets_sdk.py,
+    sagemaker-notebooks/Jamba1.5-Retriever/scripts/inference.py, sagemaker-notebooks/Jamba1.5-Retriever/scripts/train.py'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-samples/AI21-on-AWS/blob/main/README.md
+  path: README.md
+  blob_sha: bd4d8b55883250d83cb208753a14317b0e9b85b5
+  retrieved: true
+- type: manifest
+  path: sagemaker-notebooks/Jamba1.5-Retriever/scripts/requirements.txt
+  blob_sha: f74b0791c16d8fd8d94f8744bea549e27d81be47
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Jupyter Notebook: 67453
+    Python: 22394
+- type: Git tree
+  status: captured
+  sha: abf7a4f46a691a2537179c887c22ad1a4b941841
+  truncated: false
+- type: source_file
+  path: bedrock-notebooks/bedrock_code_snippets_sdk.py
+  blob_sha: b2fb4b9d65c2468a7234addda13a279d2d706cca
+  retrieved: true
+- type: source_file
+  path: sagemaker-notebooks/Jamba1.5-Retriever/scripts/inference.py
+  blob_sha: 0bc317eee94fe2205e44eccae17075d8022a4cb9
+  retrieved: true
+- type: source_file
+  path: sagemaker-notebooks/Jamba1.5-Retriever/scripts/train.py
+  blob_sha: 38cceb9a1d75ea9a0735298bb1c69660c15f50f2
+  retrieved: true

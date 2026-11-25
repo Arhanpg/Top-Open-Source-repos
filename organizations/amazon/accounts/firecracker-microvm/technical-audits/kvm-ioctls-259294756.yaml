@@ -1,0 +1,96 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:02:25+00:00'
+evidence_fingerprint: cba8aa9fccfab8e3bee9f1ee2e697901a15f2d656710aeaf213e25fa64b9939b
+repository_metadata:
+  company: Amazon
+  account: firecracker-microvm
+  full_name: firecracker-microvm/kvm-ioctls
+  repository_id: 259294756
+  url: https://github.com/firecracker-microvm/kvm-ioctls
+  description: DEPRECATED fork of rust-vmm/kvm-ioctls
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: true
+  disabled: false
+  pushed_at: '2021-03-16T09:32:20Z'
+  stars: 0
+  readme_url: https://github.com/firecracker-microvm/kvm-ioctls/blob/master/README.md
+  readme_path: README.md
+  readme_sha: eea9022a97bf48c9c23ad1b7da1e2d5f35901d90
+  manifest_paths:
+  - Cargo.toml
+  source_files_inspected:
+  - src/ioctls/mod.rs
+  - src/lib.rs
+  - src/cap.rs
+  - src/ioctls/device.rs
+  repository_tree:
+    status: captured
+    sha: bcd30b62c58be477b5422c1c625b93fa88b4746a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is no longer supported, please consider using upstream https://github.com/rust-vmm/kvm-ioctls directly.
+  why_used: DEPRECATED fork of rust-vmm/kvm-ioctls
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    frameworks_and_libraries: []
+    dependencies:
+    - byteorder
+    - kvm-bindings
+    - libc
+    - vmm-sys-util
+    build_and_package_tools:
+    - Cargo manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/ioctls/mod.rs,
+    src/lib.rs, src/cap.rs, src/ioctls/device.rs'
+  setup_and_usage: []
+  limitations:
+  - 'Supported Platforms: The kvm-ioctls can be used on x86_64 and aarch64. Right now the aarch64 support'
+  - 'Supported Platforms: is considered experimental. For a production ready version, please check the'
+  - 'Supported Platforms: progress in the corresponding'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/firecracker-microvm/kvm-ioctls/blob/master/README.md
+  path: README.md
+  blob_sha: eea9022a97bf48c9c23ad1b7da1e2d5f35901d90
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: befe24b4f5e2a5e76fc99884386840f3e7f8adb9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 193258
+- type: Git tree
+  status: captured
+  sha: bcd30b62c58be477b5422c1c625b93fa88b4746a
+  truncated: false
+- type: source_file
+  path: src/ioctls/mod.rs
+  blob_sha: e28fc0fb140db6d3de051fdb9ae6a86af59168b8
+  retrieved: true
+- type: source_file
+  path: src/lib.rs
+  blob_sha: 07c2842602ba147720adf1abc0b1dc5492b76402
+  retrieved: true
+- type: source_file
+  path: src/cap.rs
+  blob_sha: 6540659d0ff0e81ba242e9802a3302364415d46b
+  retrieved: true
+- type: source_file
+  path: src/ioctls/device.rs
+  blob_sha: 6b4f68c486fa84614b50c0c0c3cd2724e1a9968d
+  retrieved: true

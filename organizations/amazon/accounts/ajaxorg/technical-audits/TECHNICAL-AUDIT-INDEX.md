@@ -1,10 +1,10 @@
 # Technical audits — ajaxorg
 
-Updated: 2026-11-25T08:29:14+00:00
+Updated: 2026-11-25T23:09:24+00:00
 
 ## Status counts
 
-- evidence_only: 7
+- evidence_only: 8
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -19,3 +19,4 @@ Updated: 2026-11-25T08:29:14+00:00
 | cloud9-60638147 | evidence_only | [cloud9-60638147.md](cloud9-60638147.md) | [cloud9-60638147.yaml](cloud9-60638147.yaml) |
 | github-171342680 | insufficient_evidence | [github-171342680.md](github-171342680.md) | [github-171342680.yaml](github-171342680.yaml) |
 | node-amd-loader-2689185 | evidence_only | [node-amd-loader-2689185.md](node-amd-loader-2689185.md) | [node-amd-loader-2689185.yaml](node-amd-loader-2689185.yaml) |
+| treehugger-1532873 | evidence_only | [treehugger-1532873.md](treehugger-1532873.md) | [treehugger-1532873.yaml](treehugger-1532873.yaml) |

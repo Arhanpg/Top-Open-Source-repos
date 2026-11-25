@@ -1,0 +1,165 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:02:42+00:00'
+evidence_fingerprint: 34446b6d58ce57a79a57c7a0d305219d579324b2d01c616f1b6c952736265a41
+repository_metadata:
+  company: Amazon
+  account: model-checking
+  full_name: model-checking/kani-vscode-extension
+  repository_id: 550298157
+  url: https://github.com/model-checking/kani-vscode-extension
+  description: Kani VSCode Extension
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T15:02:17Z'
+  stars: 23
+  readme_url: https://github.com/model-checking/kani-vscode-extension/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3f742d204aa377e6ade831a0fd17a93b6881b1c1
+  manifest_paths:
+  - makefile
+  - package.json
+  - resources/test-crates/simple-test/Cargo.toml
+  source_files_inspected:
+  - resources/test-crates/simple-test/src/lib.rs
+  - resources/test-crates/simple-test/src/funs.rs
+  - src/constants.ts
+  - src/debugger/debugger.ts
+  repository_tree:
+    status: captured
+    sha: 8ffd76b6efe98225a5bc8584cd853f0e93606f83
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A Visual Studio Code extension that allows users to run and debug their Kani Rust Verifier harnesses
+    in VS Code.
+  why_used: Kani VSCode Extension
+  core_features:
+  - name: Automatically indexes and shows Kani harnesses in a tree view.
+    description: Automatically indexes and shows Kani harnesses in a tree view.
+    evidence:
+    - README.md#Features
+  - name: One-click button for verifying Kani harnesses.
+    description: One-click button for verifying Kani harnesses.
+    evidence:
+    - README.md#Features
+  - name: Generate counterexamples as Rust unit tests.
+    description: Generate counterexamples as Rust unit tests.
+    evidence:
+    - README.md#Features
+  - name: Debug counterexamples using a standard debugger.
+    description: Debug counterexamples using a standard debugger.
+    evidence:
+    - README.md#Features
+  - name: View coverage information inline using VS Code source highlighting.
+    description: View coverage information inline using VS Code source highlighting.
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    - Python
+    - Rust
+    - Shell
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@types/emscripten'
+    - '@types/mocha'
+    - '@types/node'
+    - '@types/vscode'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - '@vscode/test-electron'
+    - esbuild
+    - eslint
+    - eslint-config-love
+    - eslint-config-prettier
+    - eslint-import-resolver-typescript
+    - eslint-plugin-header
+    - eslint-plugin-import
+    - eslint-plugin-n
+    - eslint-plugin-no-null
+    - eslint-plugin-prettier
+    - eslint-plugin-promise
+    - glob
+    - mocha
+    - prettier
+    - readline
+    - toml
+    - typescript
+    - web-tree-sitter
+    build_and_package_tools:
+    - Cargo manifest
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: resources/test-crates/simple-test/src/lib.rs,
+    resources/test-crates/simple-test/src/funs.rs, src/constants.ts, src/debugger/debugger.ts'
+  setup_and_usage:
+  - 'Usage: 1. Open a Rust package in Visual Studio Code.'
+  - 'Usage: 2. Navigate to the testing panel and expand on the Kani harness tree view where the harnesses are shown.'
+  - 'Usage: 3. Click on the play button beside the harness or the filename or the crate to run Kani on the respective
+    test case.'
+  - 'Usage: Check user guide for more detailed information.'
+  - 'Installation: The Kani VSCode Extension is available as a VSCode plugin. You can install the Kani VSCode Extension
+    from the Visual Studio Marketplace.'
+  - 'Installation: If you want to build and package from source directly, see dev-documentation for more information.'
+  limitations:
+  - 'Security: See SECURITY for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/model-checking/kani-vscode-extension/blob/main/README.md
+  path: README.md
+  blob_sha: 3f742d204aa377e6ade831a0fd17a93b6881b1c1
+  retrieved: true
+- type: manifest
+  path: makefile
+  blob_sha: 19dba58f8788fa9f79a52b9c2528bf22da6adfe3
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 170f967b292faa1b702d4cd5e8f77ee649d9511c
+  retrieved: true
+- type: manifest
+  path: resources/test-crates/simple-test/Cargo.toml
+  blob_sha: faf0c68afc3dc4c0393c302e3dd45b0f9d493b09
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 115263
+    JavaScript: 7205
+    Python: 4759
+    Rust: 3051
+    Shell: 2039
+    Makefile: 252
+- type: Git tree
+  status: captured
+  sha: 8ffd76b6efe98225a5bc8584cd853f0e93606f83
+  truncated: false
+- type: source_file
+  path: resources/test-crates/simple-test/src/lib.rs
+  blob_sha: 8383971baf1beb48b76e0bfcf3e3401bbe0eef66
+  retrieved: true
+- type: source_file
+  path: resources/test-crates/simple-test/src/funs.rs
+  blob_sha: a8155d9e26510fa0f29f7634a294609489585fde
+  retrieved: true
+- type: source_file
+  path: src/constants.ts
+  blob_sha: 23f7189e629f41e3c9b4f0fde9d9c659139a9e20
+  retrieved: true
+- type: source_file
+  path: src/debugger/debugger.ts
+  blob_sha: 92f41c97435770b49472fa43549451ba5a1f7212
+  retrieved: true

@@ -1,0 +1,201 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:07:38+00:00'
+evidence_fingerprint: 9f9439fb53ca75ddc56ffbc2a3d661500465bb6d755721390fad75861b57f33e
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/amazon-connect-chat-ui-examples
+  repository_id: 214268077
+  url: https://github.com/amazon-connect/amazon-connect-chat-ui-examples
+  description: Examples of how to create and customize the customer side chat for Amazon Connect
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-16T18:44:03Z'
+  stars: 180
+  readme_url: https://github.com/amazon-connect/amazon-connect-chat-ui-examples/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 6429fa728123323cc7664b3655d961b96cd84d9d
+  manifest_paths:
+  - customChatWidget/package.json
+  - startChatContactAPILocalProxy/package.json
+  - mobileChatExamples/android-webview-sample/build.gradle
+  - mobileChatExamples/androidChatExample/build.gradle.kts
+  - mobileChatExamples/connectReactNativeChat/package.json
+  - mobileChatExamples/android-webview-sample/app/build.gradle
+  source_files_inspected:
+  - customChatWidget/src/App.js
+  - customChatWidget/src/components/ChatButton/index.js
+  - customChatWidget/src/components/ChatIcon/index.js
+  - customChatWidget/src/components/InputField/index.js
+  repository_tree:
+    status: captured
+    sha: 3f609150611fe5cb1067dd57c78b043d23cd3d95
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repo contains examples on how to implement the customer side of Amazon Connect chat. Please refer
+    to the README under each solution to see the complete details as to what each solution does and how to deploy
+    it.
+  why_used: Examples of how to create and customize the customer side chat for Amazon Connect
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - Swift
+    - Kotlin
+    - HTML
+    - CSS
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-sdk/client-connect'
+    - '@babel/core'
+    - '@babel/preset-env'
+    - '@babel/preset-react'
+    - '@expo/webpack-config'
+    - '@react-native-async-storage/async-storage'
+    - '@react-native-community/netinfo'
+    - '@react-native/assets-registry'
+    - '@react-navigation/native'
+    - '@react-navigation/stack'
+    - '@testing-library/react-hooks'
+    - '@testing-library/react-native'
+    - amazon-connect-chatjs
+    - animejs
+    - axios
+    - babel-loader
+    - babel-plugin-module-resolver
+    - body-parser
+    - buffer
+    - cors
+    - css-loader
+    - eslint
+    - eslint-plugin-react
+    - expo
+    - expo-standard-web-crypto
+    - express
+    - file-loader
+    - husky
+    - jest
+    - jest-environment-jsdom
+    - jest-react-native
+    - lint-staged
+    - prettier
+    - prop-types
+    - react
+    - react-dom
+    - react-icons
+    - react-native
+    - react-native-elements
+    - react-native-gesture-handler
+    - react-native-get-random-values
+    - react-native-gifted-chat
+    - react-native-keyboard-controller
+    - react-native-lightbox
+    - react-native-loading-spinner-overlay
+    - react-native-polyfill-globals
+    - react-native-reanimated
+    - react-native-safe-area-context
+    - react-native-screens
+    - react-native-url-polyfill
+    - react-native-vector-icons
+    - react-native-web
+    - react-router-dom
+    - react-spinners
+    - react-test-renderer
+    - react-transition-group
+    - style-loader
+    - styled-components
+    - supertest
+    - web-streams-polyfill
+    - webpack
+    - webpack-cli
+    build_and_package_tools:
+    - Gradle build file
+    - Gradle Kotlin build file
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: customChatWidget/src/App.js,
+    customChatWidget/src/components/ChatButton/index.js, customChatWidget/src/components/ChatIcon/index.js, customChatWidget/src/components/InputField/index.js'
+  setup_and_usage:
+  - 'Part 3 - Example Usage: The index.html within amazon-connect-chat-interface/local-testing folder provides an
+    example html page that you use to test your code.'
+  - 'Part 3 - Example Usage: * Import the amazon-connect-chat-interface.js bundle file within a tag. Code Ref'
+  - 'Part 3 - Example Usage: * Configure the apiGatewayEndpoint in local-testing/backendEndpoints.js and import
+    backendEndpoints.js file within a tag. Code Ref'
+  - 'Part 3 - Example Usage: * (Optional) Following Steps in Admin Guide to use JWT'
+  - 'Part 3 - Example Usage: * Within connect.ChatInterface.initiateChat function, pass the x-amz-snippet-id header
+    and x-amz-security-token header (optional)'
+  - 'Part 3 - Example Usage: connect.ChatInterface.initiateChat({'
+  - 'Part 3 - Example Usage: contactAttributes: JSON.stringify({'
+  - 'Part 3 - Example Usage: "customerName": customerName'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/amazon-connect-chat-ui-examples/blob/master/README.md
+  path: README.md
+  blob_sha: 6429fa728123323cc7664b3655d961b96cd84d9d
+  retrieved: true
+- type: manifest
+  path: customChatWidget/package.json
+  blob_sha: 3e9c69c9364cfa1bc999b86ab2e46964d3d9ca00
+  retrieved: true
+- type: manifest
+  path: startChatContactAPILocalProxy/package.json
+  blob_sha: 9a91254037c26c086a906d966eedd34c90cf8391
+  retrieved: true
+- type: manifest
+  path: mobileChatExamples/android-webview-sample/build.gradle
+  blob_sha: 9869fd92644a8faa7650d41444148c71c422513d
+  retrieved: true
+- type: manifest
+  path: mobileChatExamples/androidChatExample/build.gradle.kts
+  blob_sha: 2fb499486513c5f648e329a4383711a0029b8559
+  retrieved: true
+- type: manifest
+  path: mobileChatExamples/connectReactNativeChat/package.json
+  blob_sha: 22d7a2badddddb366c90efc4f1649d50f25bc90a
+  retrieved: true
+- type: manifest
+  path: mobileChatExamples/android-webview-sample/app/build.gradle
+  blob_sha: ed044498f2b4761d7d79a2dda89fbbf9ea5e43f8
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 190972
+    Swift: 135078
+    Kotlin: 108419
+    HTML: 71671
+    CSS: 32218
+    Shell: 58
+- type: Git tree
+  status: captured
+  sha: 3f609150611fe5cb1067dd57c78b043d23cd3d95
+  truncated: false
+- type: source_file
+  path: customChatWidget/src/App.js
+  blob_sha: f7b9ed146c341d90019a95440d140ad1fa247f7a
+  retrieved: true
+- type: source_file
+  path: customChatWidget/src/components/ChatButton/index.js
+  blob_sha: 288c49f06b67346953b1fc2a0193762278b9f4ec
+  retrieved: true
+- type: source_file
+  path: customChatWidget/src/components/ChatIcon/index.js
+  blob_sha: 651937dc162b70a1ab968f26ea6829c4f8eded42
+  retrieved: true
+- type: source_file
+  path: customChatWidget/src/components/InputField/index.js
+  blob_sha: efe11bc61c76dba70298af0503663349b932994d
+  retrieved: true

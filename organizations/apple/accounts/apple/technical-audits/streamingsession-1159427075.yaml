@@ -1,0 +1,90 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:46:48+00:00'
+evidence_fingerprint: 6c1f526b18bcf8aada8b3fe2f929c727b1ca2d073588feb3fbaa10a28970073e
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/StreamingSession
+  repository_id: 1159427075
+  url: https://github.com/apple/StreamingSession
+  description: Streaming immersive content from a CloudXR™ application to visionOS and iOS
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-08-12T19:35:17Z'
+  stars: 41
+  readme_url: https://github.com/apple/StreamingSession/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3d015183653184e7b1aab21219e8323d12dd7c3f
+  manifest_paths: []
+  source_files_inspected:
+  - StreamingSession-OpenXRSample/main.cpp
+  - Package.swift
+  - Sources/CloudXRKitWrapper/CloudXRKitWrapper.swift
+  - StreamingSession-OpenXRSample/MessageChannel.cpp
+  repository_tree:
+    status: captured
+    sha: c06380a5d9de4325382bd731c3e0e8d98c171e9f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains the supplementary materials necessary to support a streaming session, allowing
+    you to connect, pair, and stream an OpenXR experience to a visionOS or iOS device. Use the StreamingSession-WindowsApp
+    and StreamingSession-OpenXRSample applications to create a streaming endpoint on your Windows computer that
+    visionOS and iOS devices can stream content from.
+  why_used: Streaming immersive content from a CloudXR™ application to visionOS and iOS
+  core_features: []
+  technology_stack:
+    languages:
+    - C#
+    - C++
+    - Swift
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: StreamingSession-OpenXRSample/main.cpp,
+    Package.swift, Sources/CloudXRKitWrapper/CloudXRKitWrapper.swift, StreamingSession-OpenXRSample/MessageChannel.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/StreamingSession/blob/main/README.md
+  path: README.md
+  blob_sha: 3d015183653184e7b1aab21219e8323d12dd7c3f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 117012
+    C++: 50110
+    Swift: 1008
+- type: Git tree
+  status: captured
+  sha: c06380a5d9de4325382bd731c3e0e8d98c171e9f
+  truncated: false
+- type: source_file
+  path: StreamingSession-OpenXRSample/main.cpp
+  blob_sha: bdd0cb0ae503dff882da9a0d7b3b0b5ba53cd751
+  retrieved: true
+- type: source_file
+  path: Package.swift
+  blob_sha: 3f03655d76bd17f374174471097e52623cbf06ee
+  retrieved: true
+- type: source_file
+  path: Sources/CloudXRKitWrapper/CloudXRKitWrapper.swift
+  blob_sha: b81f1d3c9c3f73e42b2e6c3fed3c7af4887811ee
+  retrieved: true
+- type: source_file
+  path: StreamingSession-OpenXRSample/MessageChannel.cpp
+  blob_sha: 5e88343478df42a10bf0e2357e4aa205fb600524
+  retrieved: true

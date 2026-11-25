@@ -1,0 +1,102 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:57:45+00:00'
+evidence_fingerprint: b410eb63b7987d53bdcc4773481bc3ee39c8453e45521c93388059915dd54e91
+repository_metadata:
+  company: SAP
+  account: SAP
+  full_name: SAP/a-multidimensional-analysis-of-bug-density-in-sap-hana
+  repository_id: 840343159
+  url: https://github.com/SAP/a-multidimensional-analysis-of-bug-density-in-sap-hana
+  description: Materials for our paper `A Multidimensional Analysis of Bug Density in SAP HANA`.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-08-12T22:43:30Z'
+  stars: 0
+  readme_url: https://github.com/SAP/a-multidimensional-analysis-of-bug-density-in-sap-hana/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 0de2fd5534c6c4b14e659cf56a99d124c2bffd8a
+  manifest_paths:
+  - analysis/requirements.txt
+  source_files_inspected:
+  - data_collection/Main.java
+  - data_collection/MetricGatherer.java
+  - data_collection/model/BlameResult.java
+  - data_collection/model/Bugfix.java
+  repository_tree:
+    status: captured
+    sha: 0934d22a753dc7a5cdf62f66953c1f8d2c1b6bd6
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains the source code and materials for the paper
+  why_used: Materials for our paper `A Multidimensional Analysis of Bug Density in SAP HANA`.
+  core_features: []
+  technology_stack:
+    languages:
+    - Jupyter Notebook
+    - Java
+    - TeX
+    frameworks_and_libraries: []
+    dependencies:
+    - nbimporter
+    - numpy
+    - pandas
+    - scipy
+    - seaborn
+    - statistics
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: data_collection/Main.java,
+    data_collection/MetricGatherer.java, data_collection/model/BlameResult.java, data_collection/model/Bugfix.java'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP/a-multidimensional-analysis-of-bug-density-in-sap-hana/blob/main/README.md
+  path: README.md
+  blob_sha: 0de2fd5534c6c4b14e659cf56a99d124c2bffd8a
+  retrieved: true
+- type: manifest
+  path: analysis/requirements.txt
+  blob_sha: e9a3967da0dc0c012a5d1b32fd87c98b3cae24ee
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Jupyter Notebook: 215180
+    Java: 201352
+    TeX: 124
+- type: Git tree
+  status: captured
+  sha: 0934d22a753dc7a5cdf62f66953c1f8d2c1b6bd6
+  truncated: false
+- type: source_file
+  path: data_collection/Main.java
+  blob_sha: b80372e99a40963430e381ca18238bd51a1c0a3b
+  retrieved: true
+- type: source_file
+  path: data_collection/MetricGatherer.java
+  blob_sha: 5086b3545b62e55d4c3c4321390e23eebe47653a
+  retrieved: true
+- type: source_file
+  path: data_collection/model/BlameResult.java
+  blob_sha: d36130023055c8f79b0317568ec86ef8b2009b62
+  retrieved: true
+- type: source_file
+  path: data_collection/model/Bugfix.java
+  blob_sha: f6805c2f08efa704718f649993937c5c17ac6490
+  retrieved: true

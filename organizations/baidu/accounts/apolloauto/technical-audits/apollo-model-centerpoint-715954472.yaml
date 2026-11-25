@@ -1,0 +1,141 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:03:14+00:00'
+evidence_fingerprint: d20eadf686fc5945aef40e36aa19228a5f9cd1d5fa30b0533e8ec8a37a3a2a3d
+repository_metadata:
+  company: Baidu
+  account: ApolloAuto
+  full_name: ApolloAuto/apollo-model-centerpoint
+  repository_id: 715954472
+  url: https://github.com/ApolloAuto/apollo-model-centerpoint
+  description: null
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-11-14T02:37:16Z'
+  stars: 47
+  readme_url: https://github.com/ApolloAuto/apollo-model-centerpoint/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 7624954e301c10615586efae948ce1ece611b909
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  - paddle3d/ops/setup.py
+  - deploy/caddn/cpp/CMakeLists.txt
+  - deploy/centerpoint/cpp/CMakeLists.txt
+  - deploy/iassd/cpp/CMakeLists.txt
+  source_files_inspected:
+  - deploy/caddn/cpp/compile.sh
+  - deploy/caddn/cpp/custom_ops/grid_sample_3d.cc
+  - deploy/caddn/cpp/custom_ops/grid_sample_3d.h
+  - deploy/caddn/cpp/custom_ops/iou3d_cpu.cpp
+  repository_tree:
+    status: captured
+    sha: a26eda289cf4d7e4d29d772d3c167a3a25705185
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 该项目提供了开源自动驾驶平台Apollo中Lidar 3D目标检测算法CenterPoint的训练和部署代码。
+  why_used: 该项目提供了开源自动驾驶平台Apollo中Lidar 3D目标检测算法CenterPoint的训练和部署代码。
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - Cuda
+    - CMake
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - colorlog
+    - easydict
+    - filelock
+    - h5py
+    - numba
+    - numpy
+    - nuscenes-devkit
+    - opencv-python
+    - paddledet
+    - paddleseg
+    - pandas
+    - pillow
+    - pyquaternion
+    - pyyaml
+    - rarfile
+    - scikit-image
+    - scikit-learn
+    - visualdl
+    build_and_package_tools:
+    - CMake configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: deploy/caddn/cpp/compile.sh,
+    deploy/caddn/cpp/custom_ops/grid_sample_3d.cc, deploy/caddn/cpp/custom_ops/grid_sample_3d.h, deploy/caddn/cpp/custom_ops/iou3d_cpu.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ApolloAuto/apollo-model-centerpoint/blob/master/README.md
+  path: README.md
+  blob_sha: 7624954e301c10615586efae948ce1ece611b909
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 99c41a917adbdb1f7eef50be807a25cfe2a13f91
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 8ada5fdc5b374634d47d8633daaeb4848431b1e0
+  retrieved: true
+- type: manifest
+  path: paddle3d/ops/setup.py
+  blob_sha: 2a26e467ab77da44b72cb0853a3d281d4b248bb9
+  retrieved: true
+- type: manifest
+  path: deploy/caddn/cpp/CMakeLists.txt
+  blob_sha: e6023ffbb628a5c37266f4b7aac9aa414f50cd1c
+  retrieved: true
+- type: manifest
+  path: deploy/centerpoint/cpp/CMakeLists.txt
+  blob_sha: 17fc8e36332b833ca01d178d7a019098913fff7f
+  retrieved: true
+- type: manifest
+  path: deploy/iassd/cpp/CMakeLists.txt
+  blob_sha: 17fc8e36332b833ca01d178d7a019098913fff7f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 1813766
+    C++: 369153
+    Cuda: 358808
+    CMake: 71344
+    Shell: 32309
+- type: Git tree
+  status: captured
+  sha: a26eda289cf4d7e4d29d772d3c167a3a25705185
+  truncated: false
+- type: source_file
+  path: deploy/caddn/cpp/compile.sh
+  blob_sha: 1946b7f99cbbda178805065af8ea722fbb334b8f
+  retrieved: true
+- type: source_file
+  path: deploy/caddn/cpp/custom_ops/grid_sample_3d.cc
+  blob_sha: 4a093d6c74d9fa03da66022c256b2423fbe6bd28
+  retrieved: true
+- type: source_file
+  path: deploy/caddn/cpp/custom_ops/grid_sample_3d.h
+  blob_sha: 47c5e332a11b3b213eee33b516b6f4af9e2af985
+  retrieved: true
+- type: source_file
+  path: deploy/caddn/cpp/custom_ops/iou3d_cpu.cpp
+  blob_sha: b16551729c169000b171057a29f86d6198741c3d
+  retrieved: true

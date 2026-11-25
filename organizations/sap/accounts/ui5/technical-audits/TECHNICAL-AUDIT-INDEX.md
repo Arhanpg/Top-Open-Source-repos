@@ -1,10 +1,10 @@
 # Technical audits — ui5
 
-Updated: 2026-11-25T08:29:14+00:00
+Updated: 2026-11-25T23:09:21+00:00
 
 ## Status counts
 
-- evidence_only: 6
+- evidence_only: 9
 
 ## Repository dossiers
 
@@ -16,3 +16,6 @@ Updated: 2026-11-25T08:29:14+00:00
 | github-923699517 | evidence_only | [github-923699517.md](github-923699517.md) | [github-923699517.yaml](github-923699517.yaml) |
 | inspector-42198847 | evidence_only | [inspector-42198847.md](inspector-42198847.md) | [inspector-42198847.yaml](inspector-42198847.yaml) |
 | linter-762309789 | evidence_only | [linter-762309789.md](linter-762309789.md) | [linter-762309789.yaml](linter-762309789.yaml) |
+| manifest-269312476 | evidence_only | [manifest-269312476.md](manifest-269312476.md) | [manifest-269312476.yaml](manifest-269312476.yaml) |
+| mcp-server-1026058228 | evidence_only | [mcp-server-1026058228.md](mcp-server-1026058228.md) | [mcp-server-1026058228.yaml](mcp-server-1026058228.yaml) |
+| openui5-15085215 | evidence_only | [openui5-15085215.md](openui5-15085215.md) | [openui5-15085215.yaml](openui5-15085215.yaml) |

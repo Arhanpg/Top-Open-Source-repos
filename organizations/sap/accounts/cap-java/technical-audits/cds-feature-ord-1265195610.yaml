@@ -1,0 +1,130 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:05:06+00:00'
+evidence_fingerprint: 5b5f72d1c33b158ca83b419209fafdce4d387eb7ac73b75e4d4a7e71e78efaf7
+repository_metadata:
+  company: SAP
+  account: cap-java
+  full_name: cap-java/cds-feature-ord
+  repository_id: 1265195610
+  url: https://github.com/cap-java/cds-feature-ord
+  description: ORD plugin for CAP Java
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T10:34:25Z'
+  stars: 0
+  readme_url: https://github.com/cap-java/cds-feature-ord/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 21d7c9d16e4003590dac487e31e3ccd1ec5b787a
+  manifest_paths:
+  - pom.xml
+  - cds-feature-ord/pom.xml
+  source_files_inspected:
+  - cds-feature-ord/src/main/java/com/sap/cds/feature/ord/adapter/DocumentsAdapterFactory.java
+  - cds-feature-ord/src/main/java/com/sap/cds/feature/ord/adapter/WellKnownAdapterFactory.java
+  - cds-feature-ord/src/main/java/com/sap/cds/feature/ord/clients/impl/MtxSidecarClientImpl.java
+  - cds-feature-ord/src/main/java/com/sap/cds/feature/ord/clients/MtxSidecarClient.java
+  repository_tree:
+    status: captured
+    sha: 358a0f3fd2c5889b1783659527c1338d2a045eed
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The com.sap.cds:cds-feature-ord dependency is a CAP Java plugin that provides out-of-the box ORD metadata
+    exposure .
+  why_used: ORD plugin for CAP Java
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    frameworks_and_libraries: []
+    dependencies:
+    - cds-adapter-api
+    - cds-feature-ord
+    - cds-feature-ord-root
+    - cds-services-api
+    - cds-services-bom
+    - cds-services-impl
+    - cds-services-utils
+    - cds4j-core
+    - central-publishing-maven-plugin
+    - flatten-maven-plugin
+    - hamcrest
+    - jackson-databind
+    - jacoco-maven-plugin
+    - jakarta.servlet-api
+    - junit-jupiter
+    - lombok
+    - maven-clean-plugin
+    - maven-compiler-plugin
+    - maven-deploy-plugin
+    - maven-enforcer-plugin
+    - maven-gpg-plugin
+    - maven-javadoc-plugin
+    - maven-pmd-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - mockito-core
+    - pitest-maven
+    - sdk-bom
+    - slf4j-api
+    - slf4j-reload4j
+    - spotbugs-maven-plugin
+    - spotless-maven-plugin
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cds-feature-ord/src/main/java/com/sap/cds/feature/ord/adapter/DocumentsAdapterFactory.java,
+    cds-feature-ord/src/main/java/com/sap/cds/feature/ord/adapter/WellKnownAdapterFactory.java, cds-feature-ord/src/main/java/com/sap/cds/feature/ord/clients/impl/MtxSidecarClientImpl.java,
+    cds-feature-ord/src/main/java/com/sap/cds/feature/ord/clients/MtxSidecarClient.java'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions in
+    our security policy on how to report it. Please do not create GitHub issues for security-related doubts or problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-java/cds-feature-ord/blob/main/README.md
+  path: README.md
+  blob_sha: 21d7c9d16e4003590dac487e31e3ccd1ec5b787a
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: e2f9b5ddb3d373d27762ebb4f129e2d5a1280401
+  retrieved: true
+- type: manifest
+  path: cds-feature-ord/pom.xml
+  blob_sha: 1cf54cb20e941c374c924fe23f252fde77bb0fac
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 149511
+- type: Git tree
+  status: captured
+  sha: 358a0f3fd2c5889b1783659527c1338d2a045eed
+  truncated: false
+- type: source_file
+  path: cds-feature-ord/src/main/java/com/sap/cds/feature/ord/adapter/DocumentsAdapterFactory.java
+  blob_sha: 94db87af24d629ab00fa5c583b089c9c1d12734b
+  retrieved: true
+- type: source_file
+  path: cds-feature-ord/src/main/java/com/sap/cds/feature/ord/adapter/WellKnownAdapterFactory.java
+  blob_sha: d064e0c1cb9aa76040c5db772bd20600280e65d3
+  retrieved: true
+- type: source_file
+  path: cds-feature-ord/src/main/java/com/sap/cds/feature/ord/clients/impl/MtxSidecarClientImpl.java
+  blob_sha: 65b8205a49ae0dcf0daab5fec5b0a8621f2d2125
+  retrieved: true
+- type: source_file
+  path: cds-feature-ord/src/main/java/com/sap/cds/feature/ord/clients/MtxSidecarClient.java
+  blob_sha: adef00abfe9fd1b17d913f32cbf63c122d0f5eef
+  retrieved: true

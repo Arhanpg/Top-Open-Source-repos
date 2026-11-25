@@ -6,7 +6,7 @@
 - Default branch: main
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-25T08:12:13+00:00
+- Generated: 2026-11-25T23:08:02+00:00
 
 ## Project purpose
 
@@ -22,7 +22,7 @@ No separately supported feature list extracted.
 
 ## Technology stack
 
-- Languages: Unknown / not established
+- Languages: C, Makefile, Python, CMake
 - Frameworks/libraries: Unknown / not established
 - Dependency names: Unknown / not established
 - Build/package tools: CMake configuration
@@ -53,7 +53,7 @@ No setup information established.
 - Manifests: CMakeLists.txt, test/CMakeLists.txt, test/unit-test/CMakeLists.txt, test/cbmc/proofs/FleetProvisioning_GetRegisterThingTopic/Makefile, test/cbmc/proofs/FleetProvisioning_MatchTopic/Makefile
 - Sampled source files: source/fleet_provisioning.c, source/include/fleet_provisioning.h, source/include/fleet_provisioning_config_defaults.h
 - Git tree state: captured
-- Evidence fingerprint: 416db4c746a22332e18f22191ff58f25c10a375e1abe02175bab4ab1ee584773
+- Evidence fingerprint: 19b7f0c81a7d59633b9d81660a1e5c6ab6d2a5da74cbd30a87cb0f80780f031f
 
 ## Unverified / unknown
 

@@ -1,0 +1,111 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:50:56+00:00'
+evidence_fingerprint: 17364accdfa7258794f075535b53f652336aa5e180523718bffa1d4dcce48b9c
+repository_metadata:
+  company: Tencent
+  account: Tencent
+  full_name: Tencent/ActionDetection-DBG
+  repository_id: 221115094
+  url: https://github.com/Tencent/ActionDetection-DBG
+  description: Code for AAAI2020 paper "Fast Learning of Temporal Action Proposal via Dense Boundary Generator"
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-04-07T11:28:48Z'
+  stars: 352
+  readme_url: https://github.com/Tencent/ActionDetection-DBG/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 33b4752329292fb8c14b504cd8806000cb06782f
+  manifest_paths:
+  - pytorch/custom_op/setup.py
+  - tensorflow/custom_op/Makefile
+  source_files_inspected:
+  - tensorflow/custom_op/src/prop_tcfg.h
+  - tensorflow/custom_op/src/prop_tcfg_op.cc
+  - tensorflow/custom_op/src/prop_tcfg_op.cu.cc
+  - config_loader.py
+  repository_tree:
+    status: captured
+    sha: 5b5bde5d141fec5b3b2fcf25aaadaf88f746f234
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: In this repo, we propose a novel and unified action detection framework, named DBG, with superior performance
+    over the state-of-the-art action detectors BSN and BMN. You can use the code to evaluate our DBG for action
+    proposal generation or action detection. For more details, please refer to our paper Fast Learning of Temporal
+    Action Proposal via Dense Boundary Generator!
+  why_used: Code for AAAI2020 paper "Fast Learning of Temporal Action Proposal via Dense Boundary Generator"
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - Cuda
+    - Shell
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: tensorflow/custom_op/src/prop_tcfg.h,
+    tensorflow/custom_op/src/prop_tcfg_op.cc, tensorflow/custom_op/src/prop_tcfg_op.cu.cc, config_loader.py'
+  setup_and_usage:
+  - 'Installation: Clone the github repository. We will call the cloned directory as $DBG_ROOT.'
+  - 'Installation: Firstly, you should compile our proposal feature generation layers.'
+  - 'Installation: Please compile according to the framework you need.'
+  - 'Installation: Compile **tensorflow-version** proposal feature generation layers:'
+  - 'Installation: cd tensorflow/custom_op'
+  - 'Installation: Compile **pytorch-version** proposal feature generation layers:'
+  - 'Installation: python setup.py install'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Tencent/ActionDetection-DBG/blob/master/README.md
+  path: README.md
+  blob_sha: 33b4752329292fb8c14b504cd8806000cb06782f
+  retrieved: true
+- type: manifest
+  path: pytorch/custom_op/setup.py
+  blob_sha: 8d940ae148dc609d8ad43121f7371f48c1a54e3b
+  retrieved: true
+- type: manifest
+  path: tensorflow/custom_op/Makefile
+  blob_sha: 8c1160967f503327d8125ba87bcd6db2eb6107e8
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 95975
+    C++: 21611
+    Cuda: 8937
+    Shell: 3366
+    Makefile: 765
+- type: Git tree
+  status: captured
+  sha: 5b5bde5d141fec5b3b2fcf25aaadaf88f746f234
+  truncated: false
+- type: source_file
+  path: tensorflow/custom_op/src/prop_tcfg.h
+  blob_sha: fe69b9451362f7ad643497253fc5faeb5d846b2d
+  retrieved: true
+- type: source_file
+  path: tensorflow/custom_op/src/prop_tcfg_op.cc
+  blob_sha: 4dfb9b75b65581bf884f4151bdea1647e6772b63
+  retrieved: true
+- type: source_file
+  path: tensorflow/custom_op/src/prop_tcfg_op.cu.cc
+  blob_sha: 2411c325f7b71d24bac3008db6fe88d601c7ba63
+  retrieved: true
+- type: source_file
+  path: config_loader.py
+  blob_sha: ff8e8eb12fc859ed094f198a2c31fd549d296d3a
+  retrieved: true

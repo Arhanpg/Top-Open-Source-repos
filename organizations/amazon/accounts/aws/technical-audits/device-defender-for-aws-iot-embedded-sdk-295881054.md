@@ -6,7 +6,7 @@
 - Default branch: main
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-25T03:53:47+00:00
+- Generated: 2026-11-25T22:52:00+00:00
 
 ## Project purpose
 
@@ -22,7 +22,7 @@ No separately supported feature list extracted.
 
 ## Technology stack
 
-- Languages: Unknown / not established
+- Languages: C, Makefile, Python, CMake
 - Frameworks/libraries: Unknown / not established
 - Dependency names: Unknown / not established
 - Build/package tools: CMake configuration
@@ -55,7 +55,7 @@ No setup information established.
 - Manifests: CMakeLists.txt, test/CMakeLists.txt, test/unit-test/CMakeLists.txt, test/cbmc/proofs/Defender_GetTopic/Makefile, test/cbmc/proofs/Defender_MatchTopic/Makefile
 - Sampled source files: source/defender.c, source/include/defender.h, source/include/defender_config_defaults.h
 - Git tree state: captured
-- Evidence fingerprint: 271b2baea12120f304a69a9efc89ea362cfd07e4d96f1547cefc1390c32c22a2
+- Evidence fingerprint: 895a2af3893c468117ac94fb28c9a073b73956642455a114c5dd119596f55356
 
 ## Unverified / unknown
 

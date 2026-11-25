@@ -1,0 +1,144 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:55:37+00:00'
+evidence_fingerprint: 8eb498cc145c3adfd5f1f411db13f400d7a9becf8eb30f4d6992c2af38215012
+repository_metadata:
+  company: Baidu
+  account: xuperchain
+  full_name: xuperchain/contract-sdk-java
+  repository_id: 365502434
+  url: https://github.com/xuperchain/contract-sdk-java
+  description: The Java SDK for XuperChain smart contract
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2022-03-01T06:49:25Z'
+  stars: 3
+  readme_url: https://github.com/xuperchain/contract-sdk-java/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a82d626a4b7c95ef7a733155c8c9ca215d8ca220
+  manifest_paths:
+  - pom.xml
+  - example/builtin-types/pom.xml
+  - example/counter/pom.xml
+  - example/cross-query-demo/pom.xml
+  - example/erc20/pom.xml
+  - example/call/c1/pom.xml
+  source_files_inspected:
+  - example/builtin-types/src/main/java/com/baidu/xuper/BuiltinTypes.java
+  - example/call/c1/src/main/java/com/baidu/xuper/c1.java
+  - example/call/c2/src/main/java/com/baidu/xuper/c2.java
+  - example/counter/src/main/java/com/baidu/xuper/example/Counter.java
+  repository_tree:
+    status: captured
+    sha: cdb83b1ea489a44d946b6daeb91dcf65f71ccebe
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Java SDK for XuperChain smart contract
+  why_used: The Java SDK for XuperChain smart contract
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - annotations-api
+    - builtin-types
+    - c1
+    - counter
+    - cross-query-demo
+    - erc20
+    - grpc-netty-shaded
+    - grpc-protobuf
+    - grpc-stub
+    - gson
+    - java-contract-sdk
+    - junit
+    - maven-assembly-plugin
+    - maven-clean-plugin
+    - maven-compiler-plugin
+    - maven-deploy-plugin
+    - maven-gpg-plugin
+    - maven-install-plugin
+    - maven-jar-plugin
+    - maven-javadoc-plugin
+    - maven-project-info-reports-plugin
+    - maven-resources-plugin
+    - maven-site-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - os-maven-plugin
+    - protobuf-maven-plugin
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: example/builtin-types/src/main/java/com/baidu/xuper/BuiltinTypes.java,
+    example/call/c1/src/main/java/com/baidu/xuper/c1.java, example/call/c2/src/main/java/com/baidu/xuper/c2.java,
+    example/counter/src/main/java/com/baidu/xuper/example/Counter.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/xuperchain/contract-sdk-java/blob/main/README.md
+  path: README.md
+  blob_sha: a82d626a4b7c95ef7a733155c8c9ca215d8ca220
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: 9636a1384444de027b63683802358bb35e63454f
+  retrieved: true
+- type: manifest
+  path: example/builtin-types/pom.xml
+  blob_sha: 1405aa9f7a02e18959da4d22fa8bf2d41b222abd
+  retrieved: true
+- type: manifest
+  path: example/counter/pom.xml
+  blob_sha: 7b7315c00895b145562859616fe1071f2b12e08b
+  retrieved: true
+- type: manifest
+  path: example/cross-query-demo/pom.xml
+  blob_sha: 15577aa29319fcd59b8218ae445018a87181e7cd
+  retrieved: true
+- type: manifest
+  path: example/erc20/pom.xml
+  blob_sha: c21da05fbdc70846c261bc7e6d14a9158fd29d26
+  retrieved: true
+- type: manifest
+  path: example/call/c1/pom.xml
+  blob_sha: 4bab0082fffa7bc01e9769348ff5ecdc05475acc
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 44702
+    JavaScript: 774
+- type: Git tree
+  status: captured
+  sha: cdb83b1ea489a44d946b6daeb91dcf65f71ccebe
+  truncated: false
+- type: source_file
+  path: example/builtin-types/src/main/java/com/baidu/xuper/BuiltinTypes.java
+  blob_sha: ca4eaf62881bd05398f8dccb83a293f6a1b688b8
+  retrieved: true
+- type: source_file
+  path: example/call/c1/src/main/java/com/baidu/xuper/c1.java
+  blob_sha: 47203a8e143734875ed8dd9c678ce79578c82139
+  retrieved: true
+- type: source_file
+  path: example/call/c2/src/main/java/com/baidu/xuper/c2.java
+  blob_sha: e8fe6eb282f51ff675b653f3212f2213d414972a
+  retrieved: true
+- type: source_file
+  path: example/counter/src/main/java/com/baidu/xuper/example/Counter.java
+  blob_sha: 0fac9be804868e6bc4b604d5001f6ee9aa6d80e6
+  retrieved: true

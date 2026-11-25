@@ -1,0 +1,189 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:44:24+00:00'
+evidence_fingerprint: 32a686bc10eee5c4f628978d7eddfda3565e53333df3b90beff758731ca59052
+repository_metadata:
+  company: Amazon
+  account: aws-controllers-k8s
+  full_name: aws-controllers-k8s/amg-controller
+  repository_id: 1050073861
+  url: https://github.com/aws-controllers-k8s/amg-controller
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-08T01:22:22Z'
+  stars: 0
+  readme_url: https://github.com/aws-controllers-k8s/amg-controller/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1cfe12bd73faf061f71a6275df4496c447089a7a
+  manifest_paths:
+  - go.mod
+  - Makefile
+  - test/e2e/requirements.txt
+  source_files_inspected:
+  - cmd/controller/main.go
+  - pkg/resource/registry.go
+  - pkg/version/version.go
+  - apis/v1alpha1/doc.go
+  repository_tree:
+    status: captured
+    sha: 94b5c645c77d71b4571dfa1ae3651bc5567964ea
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains source code for the AWS Controllers for Kubernetes (ACK) service controller
+    for .
+  why_used: This repository contains source code for the AWS Controllers for Kubernetes (ACK) service controller
+    for .
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Go Template
+    - Makefile
+    - Go
+    frameworks_and_libraries: []
+    dependencies:
+    - acktest
+    - github.com/aws-controllers-k8s/runtime
+    - github.com/aws/aws-sdk-go
+    - github.com/aws/aws-sdk-go-v2
+    - github.com/aws/aws-sdk-go-v2/config
+    - github.com/aws/aws-sdk-go-v2/credentials
+    - github.com/aws/aws-sdk-go-v2/feature/ec2/imds
+    - github.com/aws/aws-sdk-go-v2/internal/configsources
+    - github.com/aws/aws-sdk-go-v2/internal/endpoints/v2
+    - github.com/aws/aws-sdk-go-v2/internal/ini
+    - github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding
+    - github.com/aws/aws-sdk-go-v2/service/internal/presigned-url
+    - github.com/aws/aws-sdk-go-v2/service/sso
+    - github.com/aws/aws-sdk-go-v2/service/ssooidc
+    - github.com/aws/aws-sdk-go-v2/service/sts
+    - github.com/aws/smithy-go
+    - github.com/beorn7/perks
+    - github.com/cenkalti/backoff/v4
+    - github.com/cespare/xxhash/v2
+    - github.com/davecgh/go-spew
+    - github.com/emicklei/go-restful/v3
+    - github.com/evanphx/json-patch/v5
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/go-logr/logr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/gogo/protobuf
+    - github.com/google/btree
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/uuid
+    - github.com/itchyny/gojq
+    - github.com/itchyny/timefmt-go
+    - github.com/jaypipes/envutil
+    - github.com/josharian/intern
+    - github.com/json-iterator/go
+    - github.com/mailru/easyjson
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/munnerz/goautoneg
+    - github.com/pkg/errors
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/samber/lo
+    - github.com/spf13/pflag
+    - github.com/x448/float16
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - go.yaml.in/yaml/v2
+    - go.yaml.in/yaml/v3
+    - golang.org/x/exp
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/term
+    - golang.org/x/text
+    - golang.org/x/time
+    - gomodules.xyz/jsonpatch/v2
+    - google.golang.org/protobuf
+    - gopkg.in/evanphx/json-patch.v4
+    - gopkg.in/inf.v0
+    - gopkg.in/yaml.v3
+    - k8s.io/api
+    - k8s.io/apiextensions-apiserver
+    - k8s.io/apimachinery
+    - k8s.io/client-go
+    - k8s.io/klog/v2
+    - k8s.io/kube-openapi
+    - k8s.io/utils
+    - sigs.k8s.io/controller-runtime
+    - sigs.k8s.io/json
+    - sigs.k8s.io/randfill
+    - sigs.k8s.io/structured-merge-diff/v6
+    - sigs.k8s.io/yaml
+    build_and_package_tools:
+    - Go module manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/controller/main.go,
+    pkg/resource/registry.go, pkg/version/version.go, apis/v1alpha1/doc.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-controllers-k8s/amg-controller/blob/main/README.md
+  path: README.md
+  blob_sha: 1cfe12bd73faf061f71a6275df4496c447089a7a
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 22869a8931ae82fb336bff651adbf77ba6bb30f5
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 0953c01ad02c122fc28ef5ec126b33903b82b652
+  retrieved: true
+- type: manifest
+  path: test/e2e/requirements.txt
+  blob_sha: b18559c5d92c04b832693971b825356a7bb74773
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 7410
+    Go Template: 2797
+    Makefile: 565
+    Go: 158
+- type: Git tree
+  status: captured
+  sha: 94b5c645c77d71b4571dfa1ae3651bc5567964ea
+  truncated: false
+- type: source_file
+  path: cmd/controller/main.go
+  blob_sha: 2b7e4e02891802b8d2898934be5cb88354c922dc
+  retrieved: true
+- type: source_file
+  path: pkg/resource/registry.go
+  blob_sha: 3f3aa2867cfdf2db63d6c8e834379bdeaf180b6d
+  retrieved: true
+- type: source_file
+  path: pkg/version/version.go
+  blob_sha: de0f243286d981939d43946ff35ed59d663d72df
+  retrieved: true
+- type: source_file
+  path: apis/v1alpha1/doc.go
+  blob_sha: 2f5a4a3ccfb7a7c5f022a6dfcedf4b7a1d0f759a
+  retrieved: true

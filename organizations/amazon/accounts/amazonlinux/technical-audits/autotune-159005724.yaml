@@ -1,0 +1,95 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:43:44+00:00'
+evidence_fingerprint: 43dce2bef4588e0d787ff2067031115715ee011ab66597905216eed1b8f4a4db
+repository_metadata:
+  company: Amazon
+  account: amazonlinux
+  full_name: amazonlinux/autotune
+  repository_id: 159005724
+  url: https://github.com/amazonlinux/autotune
+  description: EC2 Amazon Linux Kernel Autotuning
+  default_branch: master
+  license_spdx: GPL-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2019-11-17T23:10:20Z'
+  stars: 30
+  readme_url: https://github.com/amazonlinux/autotune/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 670e6993b58221ccf79c3bc3f1b6dca20e42e549
+  manifest_paths:
+  - Makefile
+  - setup.py
+  source_files_inspected:
+  - src/ec2sys_autotune/__init__.py
+  - src/ec2sys_autotune/ec2_autotune_lock.py
+  - src/ec2sys_autotune/ec2_autotune_start.py
+  - src/ec2sys_autotune/ec2_autotune_stop.py
+  repository_tree:
+    status: captured
+    sha: 7fd4998bfb51f28c44ccbc58f748ae27d6899288
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'Amazon Linux Kernel Autotuning (Beta): -------------------------------'
+  why_used: EC2 Amazon Linux Kernel Autotuning
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/ec2sys_autotune/__init__.py,
+    src/ec2sys_autotune/ec2_autotune_lock.py, src/ec2sys_autotune/ec2_autotune_start.py, src/ec2sys_autotune/ec2_autotune_stop.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazonlinux/autotune/blob/master/README.md
+  path: README.md
+  blob_sha: 670e6993b58221ccf79c3bc3f1b6dca20e42e549
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 7eab7b5197eba79474c87c7b0fd29775a96cd770
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 0164b27fcbedc639c820ca84d88817166c5d2ecc
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 118933
+    Makefile: 378
+- type: Git tree
+  status: captured
+  sha: 7fd4998bfb51f28c44ccbc58f748ae27d6899288
+  truncated: false
+- type: source_file
+  path: src/ec2sys_autotune/__init__.py
+  blob_sha: dcf2c804da5e19d617a03a6c68aa128d1d1f89a0
+  retrieved: true
+- type: source_file
+  path: src/ec2sys_autotune/ec2_autotune_lock.py
+  blob_sha: 8b8f3cee516010c8c3402de76dc9bf9c8fa941e3
+  retrieved: true
+- type: source_file
+  path: src/ec2sys_autotune/ec2_autotune_start.py
+  blob_sha: f6b21d9e0fdcf4cb671a81908cfc8d4f9eb06fd7
+  retrieved: true
+- type: source_file
+  path: src/ec2sys_autotune/ec2_autotune_stop.py
+  blob_sha: ef65df4b0411d0b74914f766e2052ea3c94cd008
+  retrieved: true

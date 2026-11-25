@@ -1,0 +1,169 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:08:18+00:00'
+evidence_fingerprint: f88eec5bb4b0fdcdca6288b44bd7d8fdb6ddd0a816d77fe025a9b210824bf95e
+repository_metadata:
+  company: Amazon
+  account: aws-amplify
+  full_name: aws-amplify/amplify-data
+  repository_id: 697275720
+  url: https://github.com/aws-amplify/amplify-data
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T04:20:11Z'
+  stars: 18
+  readme_url: https://github.com/aws-amplify/amplify-data/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 561d46ee71aaf388b52a9faddfae451edfd5fb2f
+  manifest_paths:
+  - package.json
+  - examples/client-types-example/package.json
+  - examples/tsc-compliance/package.json
+  - packages/benches/package.json
+  - packages/data-schema-types/package.json
+  - packages/data-schema/package.json
+  source_files_inspected:
+  - packages/data-schema-types/src/builder/index.ts
+  - packages/data-schema-types/src/client/index.ts
+  - packages/data-schema-types/src/index.ts
+  - packages/data-schema/src/ClientSchema/Core/index.ts
+  repository_tree:
+    status: captured
+    sha: c10c78d747e222b17602d5bd086658380843d7c6
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains the implementation for the Amplify Data Schema Builder package @aws-amplify/data-schema,
+    the Amplify Data Client generateClient(), as well as supporting utilities, automated tests, and performance
+    benchmarks.
+  why_used: This repository contains the implementation for the Amplify Data Schema Builder package @aws-amplify/data-schema,
+    the Amplify Data Client generateClient(), as well as supporting utilities, automated tests, and performance
+    benchmarks.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    - Shell
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@actions/github'
+    - '@arktype/attest'
+    - '@aws-amplify/adapter-nextjs'
+    - '@aws-amplify/data-schema'
+    - '@aws-amplify/data-schema-types'
+    - '@aws-sdk/types'
+    - '@changesets/cli'
+    - '@microsoft/api-documenter'
+    - '@microsoft/api-extractor'
+    - '@rollup/plugin-typescript'
+    - '@smithy/util-base64'
+    - '@tsd/typescript'
+    - '@types/aws-lambda'
+    - '@types/jest'
+    - '@types/jsdom'
+    - '@types/json-schema'
+    - '@types/node'
+    - aws-amplify
+    - eslint
+    - eslint-config-prettier
+    - eslint-plugin-import-x
+    - execa
+    - glob
+    - graphql
+    - husky
+    - jest
+    - jest-tsd
+    - jsdom
+    - next
+    - prettier
+    - rimraf
+    - rollup
+    - rxjs
+    - ts-jest
+    - tsx
+    - turbo
+    - typedoc
+    - typescript
+    - typescript-eslint
+    - verdaccio
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: packages/data-schema-types/src/builder/index.ts,
+    packages/data-schema-types/src/client/index.ts, packages/data-schema-types/src/index.ts, packages/data-schema/src/ClientSchema/Core/index.ts'
+  setup_and_usage:
+  - 'Quickstart: To get started with AWS Amplify, visit AWS Amplify Quickstart.'
+  - 'Quickstart: npm create amplify@latest'
+  limitations:
+  - 'Security: If you discover a potential security issue in this project we ask that you notify AWS/Amazon Security
+    via our vulnerability reporting page. Please do **not** create a public GitHub issue.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-amplify/amplify-data/blob/main/README.md
+  path: README.md
+  blob_sha: 561d46ee71aaf388b52a9faddfae451edfd5fb2f
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 2af8b55fd3fda005189b89f0988f54d8813e5abb
+  retrieved: true
+- type: manifest
+  path: examples/client-types-example/package.json
+  blob_sha: 2ac7da3226034d9123cf719cbdee0584913fc2ac
+  retrieved: true
+- type: manifest
+  path: examples/tsc-compliance/package.json
+  blob_sha: 2750918ad0f23ad0cf0fc3bfc298f6bb478aa8c8
+  retrieved: true
+- type: manifest
+  path: packages/benches/package.json
+  blob_sha: 40b87fe7a1f5651b35a393dfd29e37a557c1e97b
+  retrieved: true
+- type: manifest
+  path: packages/data-schema-types/package.json
+  blob_sha: 66640fc5f3100a83523588b94fe292c153afdca3
+  retrieved: true
+- type: manifest
+  path: packages/data-schema/package.json
+  blob_sha: ce9cde60d07dddda5ce89e0f4bf15ba8e9540d58
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 3832597
+    JavaScript: 10366
+    Shell: 6429
+    HTML: 500
+- type: Git tree
+  status: captured
+  sha: c10c78d747e222b17602d5bd086658380843d7c6
+  truncated: false
+- type: source_file
+  path: packages/data-schema-types/src/builder/index.ts
+  blob_sha: fcb073fefcd6bebc8afd726f830e66828ebc5e90
+  retrieved: true
+- type: source_file
+  path: packages/data-schema-types/src/client/index.ts
+  blob_sha: f69dafc324fb4ff68f259673a824d3c6ea42f083
+  retrieved: true
+- type: source_file
+  path: packages/data-schema-types/src/index.ts
+  blob_sha: afdf3e4903bbc24d915aee9ea0df37f68157b1f2
+  retrieved: true
+- type: source_file
+  path: packages/data-schema/src/ClientSchema/Core/index.ts
+  blob_sha: a55fcbcb0a8b9aebba3309b1339b09c8858b532f
+  retrieved: true

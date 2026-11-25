@@ -1,0 +1,83 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:04:49+00:00'
+evidence_fingerprint: a09a75518f3fe82dd1de3a86303a0edd846eec3e8afb2e8e1ce402c254e7b2e6
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/ccache-feedstock
+  repository_id: 282245494
+  url: https://github.com/rapidsai/ccache-feedstock
+  description: A conda-smithy repository for ccache.
+  default_branch: master
+  license_spdx: BSD-3-Clause
+  archived: true
+  fork: true
+  disabled: false
+  pushed_at: '2021-05-25T15:14:43Z'
+  stars: 0
+  readme_url: https://github.com/rapidsai/ccache-feedstock/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 07881c1c5793e32cb35cda4ff5d1d7b7b6aab6ab
+  manifest_paths: []
+  source_files_inspected:
+  - .scripts/build_steps.sh
+  - .scripts/run_docker_build.sh
+  - .scripts/run_osx_build.sh
+  - build-locally.py
+  repository_tree:
+    status: captured
+    sha: 50f96afe6c2fb0fd47567acf1ace8f47b5023f35
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: About ccache ============
+  why_used: A conda-smithy repository for ccache.
+  core_features: []
+  technology_stack:
+    languages:
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .scripts/build_steps.sh,
+    .scripts/run_docker_build.sh, .scripts/run_osx_build.sh, build-locally.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/ccache-feedstock/blob/master/README.md
+  path: README.md
+  blob_sha: 07881c1c5793e32cb35cda4ff5d1d7b7b6aab6ab
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Shell: 896
+- type: Git tree
+  status: captured
+  sha: 50f96afe6c2fb0fd47567acf1ace8f47b5023f35
+  truncated: false
+- type: source_file
+  path: .scripts/build_steps.sh
+  blob_sha: 0d5ef1c199873cc4c410598d042ff94fe68b9edc
+  retrieved: true
+- type: source_file
+  path: .scripts/run_docker_build.sh
+  blob_sha: e4d5baba349626da18544e7ec648c6dbf46afe6c
+  retrieved: true
+- type: source_file
+  path: .scripts/run_osx_build.sh
+  blob_sha: d7e3c06510d2f66956710ab267b5dace019a63d1
+  retrieved: true
+- type: source_file
+  path: build-locally.py
+  blob_sha: 8f7ecca4faef291697ea39a1ccbe09e13d953e56
+  retrieved: true

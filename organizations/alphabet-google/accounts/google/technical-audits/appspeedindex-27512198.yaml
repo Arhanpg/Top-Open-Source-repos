@@ -1,0 +1,87 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:42:47+00:00'
+evidence_fingerprint: 4ed1ca669d2cef0914afae51d90c79a157b973d2312bfdc774e9045c0034aca3
+repository_metadata:
+  company: Alphabet (Google)
+  account: google
+  full_name: google/AppSpeedIndex
+  repository_id: 27512198
+  url: https://github.com/google/AppSpeedIndex
+  description: null
+  default_branch: master
+  license_spdx: BSD-3-Clause
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2020-01-13T02:54:27Z'
+  stars: 13
+  readme_url: https://github.com/google/AppSpeedIndex/blob/master/README.md
+  readme_path: README.md
+  readme_sha: eb7e95dcc8cb5e801336e4e91a7c3cf032d7151d
+  manifest_paths: []
+  source_files_inspected:
+  - android_app/src/com/google/android/apps/appspeedindex/BoundingBox.java
+  - bitmap.py
+  - bitmaptools.cc
+  - html_graph.py
+  repository_tree:
+    status: captured
+    sha: 6b16cb194fdf5f300ab559e753015730b02b1efb
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '""" This repository is based on chrome''s speed index: https://code.google.com/p/chromium/codesearch#chromium/src/tools/perf/metrics/speedindex.py'
+  why_used: '""" This repository is based on chrome''s speed index: https://code.google.com/p/chromium/codesearch#chromium/src/tools/perf/metrics/speedindex.py'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - Java
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: android_app/src/com/google/android/apps/appspeedindex/BoundingBox.java,
+    bitmap.py, bitmaptools.cc, html_graph.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google/AppSpeedIndex/blob/master/README.md
+  path: README.md
+  blob_sha: eb7e95dcc8cb5e801336e4e91a7c3cf032d7151d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 183266
+    C++: 6416
+    Java: 1532
+- type: Git tree
+  status: captured
+  sha: 6b16cb194fdf5f300ab559e753015730b02b1efb
+  truncated: false
+- type: source_file
+  path: android_app/src/com/google/android/apps/appspeedindex/BoundingBox.java
+  blob_sha: f1b2a446ede81d6930641678c354fa3a60b65eb7
+  retrieved: true
+- type: source_file
+  path: bitmap.py
+  blob_sha: 9e7b796d9220b7d2227d0920573fbb38c60fb151
+  retrieved: true
+- type: source_file
+  path: bitmaptools.cc
+  blob_sha: ba4a8a59101e0c0d5274048d2797cd83b42804f8
+  retrieved: true
+- type: source_file
+  path: html_graph.py
+  blob_sha: 7a37c809678461dc578d25edd1a504b41024deef
+  retrieved: true

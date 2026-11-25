@@ -1,0 +1,126 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:44:00+00:00'
+evidence_fingerprint: 2c84d66ce1fae1239e6c135412c2cc4f8c8183647255827e317dc7f449f2d0d7
+repository_metadata:
+  company: Amazon
+  account: aws-actions
+  full_name: aws-actions/application-observability-for-aws
+  repository_id: 1077809865
+  url: https://github.com/aws-actions/application-observability-for-aws
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-08-27T21:07:50Z'
+  stars: 3
+  readme_url: https://github.com/aws-actions/application-observability-for-aws/blob/main/README.md
+  readme_path: README.md
+  readme_sha: da2d0424a5050e4a9139ab60be2c7b1324b3f555
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/config/mcp-config.js
+  - src/init.js
+  - src/post-result.js
+  - src/prepare-claude-config.js
+  repository_tree:
+    status: captured
+    sha: 4fbc599c63fd743c189d6dce08bdca4109e7d762
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This action provides an end-to-end application observability investigation workflow that connects your
+    source code and live production telemetry data to AI agent. It leverages CloudWatch MCPs and generates custom
+    prompts to provide the context that AI agents need for troubleshooting and applying code fixes.
+  why_used: This action provides an end-to-end application observability investigation workflow that connects your
+    source code and live production telemetry data to AI agent. It leverages CloudWatch MCPs and generates custom
+    prompts to provide the context that AI agents need for troubleshooting and applying code fixes.
+  core_features:
+  - name: '**Troubleshoot Production Issues**: Investigate and resolve production problems using live telemetry
+      and Service Level Objective (SLO) data'
+    description: '**Troubleshoot Production Issues**: Investigate and resolve production problems using live telemetry
+      and Service Level Objective (SLO) data'
+    evidence:
+    - README.md#✨ Features
+  - name: '**Instrumentation Assistance**: Automatically instrument your applications directly from GitHub'
+    description: '**Instrumentation Assistance**: Automatically instrument your applications directly from GitHub'
+    evidence:
+    - README.md#✨ Features
+  - name: '**AI-Powered Analysis**: Use AI agents to analyze performance issues, receive actionable recommendations,
+      and apply code fixes'
+    description: '**AI-Powered Analysis**: Use AI agents to analyze performance issues, receive actionable recommendations,
+      and apply code fixes'
+    evidence:
+    - README.md#✨ Features
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@actions/github'
+    - '@octokit/rest'
+    - jest
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/config/mcp-config.js,
+    src/init.js, src/post-result.js, src/prepare-claude-config.js'
+  setup_and_usage:
+  - '🚀 Getting Started: This action configures AI agents within your GitHub workflow by generating AWS-specific
+    MCP configurations and custom observability prompts. You only need to provide IAM role to assume and a Bedrock
+    Model ID you want to use, or API token from your existing LLM subscription. The example below demonstrates a
+    workflow template that integrates this act'
+  limitations:
+  - '🔒 Security: This action prioritizes security with strict access controls, OIDC-based AWS authentication, and
+    built-in protections against prompt injection attacks. Only users with write access or higher can trigger the
+    action, and all operations are scoped to the specific repository.'
+  - '🔒 Security: For detailed security information, including:'
+  - '🔒 Security: * Access control and permission requirements'
+  - '🔒 Security: * AWS IAM permissions and OIDC configuration'
+  - '🔒 Security: * Prompt injection risks and mitigations'
+  - '🔒 Security: * Security best practices'
+  - '🔒 Security: See the Security Documentation.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-actions/application-observability-for-aws/blob/main/README.md
+  path: README.md
+  blob_sha: da2d0424a5050e4a9139ab60be2c7b1324b3f555
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: c63d31dc1c0dad0bff42a9bac8ddd94aae5b4d0c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 173719
+- type: Git tree
+  status: captured
+  sha: 4fbc599c63fd743c189d6dce08bdca4109e7d762
+  truncated: false
+- type: source_file
+  path: src/config/mcp-config.js
+  blob_sha: b948fa8c786582dcc41420f76bdecf47451be824
+  retrieved: true
+- type: source_file
+  path: src/init.js
+  blob_sha: f038697c9d95fb5ee71f7c70c88c029a1dcc6994
+  retrieved: true
+- type: source_file
+  path: src/post-result.js
+  blob_sha: ed6c88234fe231844a8c26b12b12ff6f52e4227d
+  retrieved: true
+- type: source_file
+  path: src/prepare-claude-config.js
+  blob_sha: 2d0615adeadfc09ecbf876b89cdbf05899c2adc4
+  retrieved: true

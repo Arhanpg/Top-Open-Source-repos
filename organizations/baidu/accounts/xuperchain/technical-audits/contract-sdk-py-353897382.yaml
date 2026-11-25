@@ -1,0 +1,104 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:03:38+00:00'
+evidence_fingerprint: 131ff1b20cf03e0137a132c1a29a25e979a20a6ea69ae1123ee7d48308d11d04
+repository_metadata:
+  company: Baidu
+  account: xuperchain
+  full_name: xuperchain/contract-sdk-py
+  repository_id: 353897382
+  url: https://github.com/xuperchain/contract-sdk-py
+  description: The Python SDK for XuperChain smart contract
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2021-04-19T06:32:49Z'
+  stars: 0
+  readme_url: https://github.com/xuperchain/contract-sdk-py/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 93039f423c907d9d610fb4fd762b42b506d6a3cd
+  manifest_paths:
+  - pyproject.toml
+  - requirements.txt
+  - setup.py
+  source_files_inspected:
+  - example/counter/counter.py
+  - example/features/features.py
+  - setup.py
+  repository_tree:
+    status: captured
+    sha: dea340ba87a93f7dd4ec0bf1d4dd9615d59a8600
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: contract-sdk-py 是 XuperChain 的官方python 合约SDK，使用前请先在本地运行最新的XuperChain，并确保开启 native 合约支持
+  why_used: The Python SDK for XuperChain smart contract
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - grpcio
+    - grpcio-reflection
+    - protobuf
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: example/__init__.py,
+    example/counter/counter.py, example/features/features.py, setup.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/xuperchain/contract-sdk-py/blob/main/README.md
+  path: README.md
+  blob_sha: 93039f423c907d9d610fb4fd762b42b506d6a3cd
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 1870a2edbf0f9e516b8a25121afcd17a773b47df
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: b65e7387e4b1a6a493943a7792c650a767284db3
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: bfb507aaf3b010a3fb4ff65237e95e83220bb17b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 17206
+    JavaScript: 1498
+- type: Git tree
+  status: captured
+  sha: dea340ba87a93f7dd4ec0bf1d4dd9615d59a8600
+  truncated: false
+- type: source_file
+  path: example/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: example/counter/counter.py
+  blob_sha: 578c39e6f137e0db81c7676f0c04e2c58512c8cf
+  retrieved: true
+- type: source_file
+  path: example/features/features.py
+  blob_sha: 8fc42ce825b9040c43be55600e05a6c0160326b8
+  retrieved: true
+- type: source_file
+  path: setup.py
+  blob_sha: bfb507aaf3b010a3fb4ff65237e95e83220bb17b
+  retrieved: true

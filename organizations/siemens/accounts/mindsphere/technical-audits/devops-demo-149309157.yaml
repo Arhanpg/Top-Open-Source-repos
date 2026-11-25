@@ -1,0 +1,181 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:58:41+00:00'
+evidence_fingerprint: 56c0d7a1f51786e81a643b1544c4fd3598b825ef573eee23430c4e860515d82e
+repository_metadata:
+  company: Siemens
+  account: mindsphere
+  full_name: mindsphere/devops-demo
+  repository_id: 149309157
+  url: https://github.com/mindsphere/devops-demo
+  description: DevOps demo code demonstrated during MindSphere Developer Days in Berlin (mirror of project on GitLab)
+  default_branch: master
+  license_spdx: MIT
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-03-02T03:25:19Z'
+  stars: 37
+  readme_url: https://github.com/mindsphere/devops-demo/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 3c8114e118553714db7e607f8e20f7f01bd73283
+  manifest_paths:
+  - package.json
+  - agent/package.json
+  - server/package.json
+  - devops/devopsadmin/package.json
+  source_files_inspected:
+  - server/server.js
+  - agent/index.js
+  - devops/devopsadmin/index.js
+  - devops/devopsadmin/services/index.js
+  repository_tree:
+    status: captured
+    sha: 204e5f13fe462e6fd9f02eed3d3abc893f12edcb
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Close interaction of development and operations is essential to accelerate delivery of applications.
+    This is a demo across the whole DevOps cycle with MindSphere, by using well known and widely used open source
+    tools.
+  why_used: DevOps demo code demonstrated during MindSphere Developer Days in Berlin (mirror of project on GitLab)
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - TypeScript
+    - Shell
+    - HTML
+    - CSS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@angular-devkit/build-angular'
+    - '@angular/animations'
+    - '@angular/cli'
+    - '@angular/common'
+    - '@angular/compiler'
+    - '@angular/compiler-cli'
+    - '@angular/core'
+    - '@angular/forms'
+    - '@angular/language-service'
+    - '@angular/platform-browser'
+    - '@angular/platform-browser-dynamic'
+    - '@angular/router'
+    - '@commitlint/cli'
+    - '@commitlint/config-conventional'
+    - '@mindconnect/mindconnect-nodejs'
+    - '@types/jasmine'
+    - '@types/jasminewd2'
+    - '@types/node'
+    - body-parser
+    - bootstrap
+    - chromedriver
+    - codelyzer
+    - core-js
+    - cors
+    - eclint
+    - express
+    - express-http-proxy
+    - express-prom-bundle
+    - font-awesome
+    - helmet
+    - http
+    - https-proxy-agent
+    - husky
+    - jasmine-core
+    - jasmine-reporters
+    - jasmine-spec-reporter
+    - jsonwebtoken
+    - jwks-rsa
+    - karma
+    - karma-chrome-launcher
+    - karma-coverage-istanbul-reporter
+    - karma-jasmine
+    - karma-jasmine-html-reporter
+    - karma-junit-reporter
+    - karma-webdriver-launcher
+    - license-checker
+    - lodash.includes
+    - markdownlint-cli
+    - mongoose
+    - ngx-cookie-service
+    - nyc
+    - protractor
+    - rxjs
+    - superagent
+    - swagger-ui-express
+    - ts-node
+    - tslint
+    - typescript
+    - zone.js
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: server/server.js,
+    agent/index.js, devops/devopsadmin/index.js, devops/devopsadmin/services/index.js'
+  setup_and_usage: []
+  limitations:
+  - 'Known Issues / Limitations: - The gitlab-ci integration requires manually setting'
+  - 'Known Issues / Limitations: authentication with access and refresh tokens available as protected'
+  - 'Known Issues / Limitations: CI/CD Gitlab Variables,'
+  - 'Known Issues / Limitations: and they need to be renewed every 30 days. This can be copied directly from'
+  - 'Known Issues / Limitations: your CloudFoundry CLI ~/.cf/config.json file after successful cf login.'
+  - 'Known Issues / Limitations: - Storage for Prometheus is currently transient, pending'
+  - 'Known Issues / Limitations: support for some kind of dynamic persistent storage for apps, or direct'
+  - 'Known Issues / Limitations: support for Prometheus in MindSphere.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/mindsphere/devops-demo/blob/master/README.md
+  path: README.md
+  blob_sha: 3c8114e118553714db7e607f8e20f7f01bd73283
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: c57a92f8f5a521da343c5e7873e9811666b90b4f
+  retrieved: true
+- type: manifest
+  path: agent/package.json
+  blob_sha: f505ce7e0961109c6606118716b6f795588e5f67
+  retrieved: true
+- type: manifest
+  path: server/package.json
+  blob_sha: 019508facca56b7e9e06fa7648f05858ab6d203e
+  retrieved: true
+- type: manifest
+  path: devops/devopsadmin/package.json
+  blob_sha: a214b52419ad11987b9ca5ab6009294b2f43597d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 37566
+    TypeScript: 21288
+    Shell: 7900
+    HTML: 2136
+    CSS: 59
+- type: Git tree
+  status: captured
+  sha: 204e5f13fe462e6fd9f02eed3d3abc893f12edcb
+  truncated: false
+- type: source_file
+  path: server/server.js
+  blob_sha: dc9ccb341c62100dec4d4107e1a1f0f0248693ae
+  retrieved: true
+- type: source_file
+  path: agent/index.js
+  blob_sha: b9cf95e99164e5328fee00895cae940980e781ba
+  retrieved: true
+- type: source_file
+  path: devops/devopsadmin/index.js
+  blob_sha: 58b3022efbdd6bdc346616f8f7640484a0227e3b
+  retrieved: true
+- type: source_file
+  path: devops/devopsadmin/services/index.js
+  blob_sha: bccc7146f6507f7a746028c993cedb5cdc980347
+  retrieved: true

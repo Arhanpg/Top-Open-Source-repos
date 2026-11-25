@@ -1,0 +1,237 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:45:20+00:00'
+evidence_fingerprint: d73f22c5c4b7688d69110778e6e71c37b475c97f7e5807048c9c7a655e7e9b87
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/application-pattern-orchestrator-on-aws
+  repository_id: 509358788
+  url: https://github.com/aws-solutions/application-pattern-orchestrator-on-aws
+  description: Application Pattern Orchestrator (APO) is an AWS Solution that helps customers to establish and manage
+    an internal catalog of reusable, repeatable, well-architected, secure-by-design, and production-ready cloud
+    infrastructure patterns for use by application development and engineering teams throughout their organisations.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2025-02-19T22:34:31Z'
+  stars: 20
+  readme_url: https://github.com/aws-solutions/application-pattern-orchestrator-on-aws/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5e6b9de61f857eb2969ecbeb94450ef753f98c4f
+  manifest_paths:
+  - source/package.json
+  - source/blueprint-infrastructure/package.json
+  - source/blueprint-ui/package.json
+  - source/lambda/blueprintgovernanceservice/package.json
+  - source/lambda/blueprintgovernanceservice/initialRepoTemplates/cdk/package.json
+  - source/lambda/blueprintgovernanceservice/initialRepoTemplates/cfn/package.json
+  source_files_inspected:
+  - source/blueprint-ui/src/components/types/index.ts
+  - source/cypress/fixtures/templaterepo/cdk/packages/compliant-dynamodb-table/lib/index.ts
+  - source/cypress/fixtures/templaterepo/cdk/packages/compliant-s3-bucket/lib/index.ts
+  - source/lambda/blueprintgovernanceservice/src/App.ts
+  repository_tree:
+    status: captured
+    sha: e4e049aee0e22a451ec2277ad1222cba0cd4b6d0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**You can find other AWS Solutions in the AWS Solutions Library.**'
+  why_used: Application Pattern Orchestrator (APO) is an AWS Solution that helps customers to establish and manage
+    an internal catalog of reusable, repeatable, well-architected, secure-by-design, and production-ready cloud
+    infrastructure patterns for use by application development and engineering teams throughout their organisations.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    - Shell
+    - HTML
+    - CSS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-amplify/auth'
+    - '@aws-amplify/core'
+    - '@aws-amplify/ui-react'
+    - '@aws-cdk/aws-servicecatalogappregistry-alpha'
+    - '@aws-cdk/aws-synthetics-alpha'
+    - '@aws-crypto/sha256-js'
+    - '@aws-sdk/client-cloudformation'
+    - '@aws-sdk/client-codeartifact'
+    - '@aws-sdk/client-codebuild'
+    - '@aws-sdk/client-codecommit'
+    - '@aws-sdk/client-codepipeline'
+    - '@aws-sdk/client-dynamodb'
+    - '@aws-sdk/client-lambda'
+    - '@aws-sdk/client-s3'
+    - '@aws-sdk/client-secrets-manager'
+    - '@aws-sdk/client-service-catalog'
+    - '@aws-sdk/client-ses'
+    - '@aws-sdk/client-sns'
+    - '@aws-sdk/client-ssm'
+    - '@aws-sdk/lib-dynamodb'
+    - '@aws-sdk/node-http-handler'
+    - '@aws-sdk/protocol-http'
+    - '@aws-sdk/signature-v4'
+    - '@aws-sdk/types'
+    - '@aws-sdk/util-dynamodb'
+    - '@aws-sdk/util-utf8-node'
+    - '@middy/core'
+    - '@middy/http-cors'
+    - '@octokit/rest'
+    - '@octokit/types'
+    - '@testing-library/jest-dom'
+    - '@testing-library/react'
+    - '@types/archiver'
+    - '@types/aws-lambda'
+    - '@types/jest'
+    - '@types/jest-when'
+    - '@types/js-yaml'
+    - '@types/lodash'
+    - '@types/lodash.isstring'
+    - '@types/node'
+    - '@types/react'
+    - '@types/react-dom'
+    - '@types/uuid'
+    - '@types/whatwg-url'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - archiver
+    - aws-amplify
+    - aws-cdk
+    - aws-cdk-lib
+    - aws-lambda
+    - aws-northstar
+    - aws-sdk
+    - aws-sdk-client-mock
+    - aws-sdk-client-mock-jest
+    - aws-sdk-mock
+    - aws-xray-sdk
+    - axios
+    - buffer
+    - cdk-nag
+    - constructs
+    - cypress
+    - date-fns
+    - dotenv
+    - encoding
+    - esbuild
+    - eslint
+    - eslint-config-prettier
+    - eslint-config-typescript
+    - eslint-plugin-header
+    - eslint-plugin-import
+    - eslint-plugin-prettier
+    - eslint-plugin-react
+    - filemanager-webpack-plugin
+    - handlebars
+    - https-proxy-agent
+    - jest
+    - jest-environment-jsdom
+    - jest-junit
+    - jest-when
+    - js-yaml
+    - js-yaml-cloudformation-schema
+    - lodash
+    - lodash.isstring
+    - loglevel
+    - mini-css-extract-plugin
+    - moment
+    - nock
+    - prettier
+    - react
+    - react-dom
+    - react-query
+    - react-router-dom
+    - react-scripts
+    - reflect-metadata
+    - semver
+    - source-map-support
+    - standard-version
+    - ts-jest
+    - ts-loader
+    - ts-mockito
+    - tsyringe
+    - typescript
+    - uuid
+    - web-vitals
+    - webpack
+    - webpack-cli
+    - whatwg-url
+    - winston
+    - winston-transport
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/blueprint-ui/src/components/types/index.ts,
+    source/cypress/fixtures/templaterepo/cdk/packages/compliant-dynamodb-table/lib/index.ts, source/cypress/fixtures/templaterepo/cdk/packages/compliant-s3-bucket/lib/index.ts,
+    source/lambda/blueprintgovernanceservice/src/App.ts'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/application-pattern-orchestrator-on-aws/blob/main/README.md
+  path: README.md
+  blob_sha: 5e6b9de61f857eb2969ecbeb94450ef753f98c4f
+  retrieved: true
+- type: manifest
+  path: source/package.json
+  blob_sha: 01b5308f8e0bf5472de701f933139e894666bb7d
+  retrieved: true
+- type: manifest
+  path: source/blueprint-infrastructure/package.json
+  blob_sha: 1b2b7e458c0ecfaa7dad7b57ba8584a9ae035d90
+  retrieved: true
+- type: manifest
+  path: source/blueprint-ui/package.json
+  blob_sha: 65fe6349795979ee89c77bda95b57cfc3afc029c
+  retrieved: true
+- type: manifest
+  path: source/lambda/blueprintgovernanceservice/package.json
+  blob_sha: fd735653ef05a1a0ffa9909abfded12350831b14
+  retrieved: true
+- type: manifest
+  path: source/lambda/blueprintgovernanceservice/initialRepoTemplates/cdk/package.json
+  blob_sha: 645f6bfe389c880baec71f05a055165c1ccc6690
+  retrieved: true
+- type: manifest
+  path: source/lambda/blueprintgovernanceservice/initialRepoTemplates/cfn/package.json
+  blob_sha: eb28b737a92db8952d28b2ce0e5947845da3e0ff
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 1131584
+    JavaScript: 59024
+    Shell: 2932
+    HTML: 1742
+    CSS: 930
+- type: Git tree
+  status: captured
+  sha: e4e049aee0e22a451ec2277ad1222cba0cd4b6d0
+  truncated: false
+- type: source_file
+  path: source/blueprint-ui/src/components/types/index.ts
+  blob_sha: a3717d4f227bb1bc66a032ba15f6d057620628fc
+  retrieved: true
+- type: source_file
+  path: source/cypress/fixtures/templaterepo/cdk/packages/compliant-dynamodb-table/lib/index.ts
+  blob_sha: 272ce9b1a878b4d6aa68bd868cf636f61513df7a
+  retrieved: true
+- type: source_file
+  path: source/cypress/fixtures/templaterepo/cdk/packages/compliant-s3-bucket/lib/index.ts
+  blob_sha: a3c43c728d37033d62bc3b5af99e0bd0bb00aed5
+  retrieved: true
+- type: source_file
+  path: source/lambda/blueprintgovernanceservice/src/App.ts
+  blob_sha: 13d76e42a448dc4d75d55f7dec6c607a4756b11f
+  retrieved: true

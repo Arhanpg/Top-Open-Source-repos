@@ -1,0 +1,91 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:46:40+00:00'
+evidence_fingerprint: 6161a029b87f35daf300a83faf7075f7be04c62315f870ab41dfb8a0a93c98f7
+repository_metadata:
+  company: Amazon
+  account: projen
+  full_name: projen/projen-go
+  repository_id: 334747669
+  url: https://github.com/projen/projen-go
+  description: Go bindings for projen
+  default_branch: main
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T13:15:57Z'
+  stars: 5
+  readme_url: https://github.com/projen/projen-go/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a9cc13fbca5c6c5b0484b680763b82571017aa3e
+  manifest_paths:
+  - projen/go.mod
+  source_files_inspected:
+  - projen/awscdk/main.go
+  - projen/cdk/main.go
+  - projen/cdk8s/main.go
+  - projen/cdktf/main.go
+  repository_tree:
+    status: captured
+    sha: 35ca9b23e22490a17f8c055a8c8d05c447d63e1a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Experimental Go bindings for projen
+  why_used: Go bindings for projen
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/aws/constructs-go/constructs/v10
+    - github.com/aws/jsii-runtime-go
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: projen/awscdk/main.go,
+    projen/cdk/main.go, projen/cdk8s/main.go, projen/cdktf/main.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/projen/projen-go/blob/main/README.md
+  path: README.md
+  blob_sha: a9cc13fbca5c6c5b0484b680763b82571017aa3e
+  retrieved: true
+- type: manifest
+  path: projen/go.mod
+  blob_sha: c6333d871c43da6ba6fb2f16b778ee8cd54ad263
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 4980169
+- type: Git tree
+  status: captured
+  sha: 35ca9b23e22490a17f8c055a8c8d05c447d63e1a
+  truncated: false
+- type: source_file
+  path: projen/awscdk/main.go
+  blob_sha: 3ee192308bb884b7c3734edc360f4ff73f6315fe
+  retrieved: true
+- type: source_file
+  path: projen/cdk/main.go
+  blob_sha: 247cb18f97a2f0a3dace11bfb242feb84335ebd4
+  retrieved: true
+- type: source_file
+  path: projen/cdk8s/main.go
+  blob_sha: 2eeceebcf533359c14a19d99853667c59e9e7ff3
+  retrieved: true
+- type: source_file
+  path: projen/cdktf/main.go
+  blob_sha: 9207fea6403efd7cce74c7dedc1e6f58e1826a35
+  retrieved: true

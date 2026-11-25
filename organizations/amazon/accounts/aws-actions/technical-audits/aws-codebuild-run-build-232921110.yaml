@@ -1,0 +1,101 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:00:09+00:00'
+evidence_fingerprint: 2100d5e54f08a863322b4ab45a93eab39a773cab7266eda02832319102b61f3c
+repository_metadata:
+  company: Amazon
+  account: aws-actions
+  full_name: aws-actions/aws-codebuild-run-build
+  repository_id: 232921110
+  url: https://github.com/aws-actions/aws-codebuild-run-build
+  description: Run an AWS CodeBuild project as a step in a GitHub Actions workflow job.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-06-01T16:23:27Z'
+  stars: 300
+  readme_url: https://github.com/aws-actions/aws-codebuild-run-build/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5cede184ffb1077aaa6ab0b460e33a7877b07230
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - index.js
+  - code-build.js
+  - local.js
+  repository_tree:
+    status: captured
+    sha: 9e61f649fa62777bfb41c50179fdbbf521ab811b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This action runs a [AWS CodeBuild][codebuild] [project][codebuild project] as a step in a GitHub Actions
+    workflow job.
+  why_used: Run an AWS CodeBuild project as a step in a GitHub Actions workflow job.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@actions/exec'
+    - '@actions/github'
+    - '@aws-sdk/client-cloudwatch-logs'
+    - '@aws-sdk/client-codebuild'
+    - '@vercel/ncc'
+    - chai
+    - eslint
+    - eslint-config-prettier
+    - husky
+    - lint-staged
+    - mocha
+    - mocha-each
+    - prettier
+    - uuid
+    - yargs
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: index.js, code-build.js,
+    local.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-actions/aws-codebuild-run-build/blob/main/README.md
+  path: README.md
+  blob_sha: 5cede184ffb1077aaa6ab0b460e33a7877b07230
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: d5f9eb96a997aea33a0646d7abdeb70a25b0b12b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 39415
+- type: Git tree
+  status: captured
+  sha: 9e61f649fa62777bfb41c50179fdbbf521ab811b
+  truncated: false
+- type: source_file
+  path: index.js
+  blob_sha: 12b4e89b5d1a9951a77bcce872736e85bc8d18e2
+  retrieved: true
+- type: source_file
+  path: code-build.js
+  blob_sha: 2976f379cfbdfcede629abedb99b62847b654922
+  retrieved: true
+- type: source_file
+  path: local.js
+  blob_sha: 6d7d6c2df85ec0c3cb26885ed7a750d9780a6833
+  retrieved: true

@@ -1,0 +1,142 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:49:20+00:00'
+evidence_fingerprint: 96ba9fb66e82ea47b08b09330ff3dc57118579f858e27c33e94c4ff89c2f587d
+repository_metadata:
+  company: SAP
+  account: cap-js-community
+  full_name: cap-js-community/mtx-tool
+  repository_id: 590077548
+  url: https://github.com/cap-js-community/mtx-tool
+  description: Multitenancy and Extensibility Tool is a cli to reduce operational overhead for Cloud Foundry SaaS
+    applications
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-13T14:51:01Z'
+  stars: 25
+  readme_url: https://github.com/cap-js-community/mtx-tool/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 74d28cbcabad5fefa7e37e0214128782f0ecb85c
+  manifest_paths:
+  - package.json
+  - docs/Gemfile
+  source_files_inspected:
+  - src/cli.js
+  - src/commands.js
+  - src/config.js
+  - src/context.js
+  repository_tree:
+    status: captured
+    sha: 8c5e66b7478f5ec5b704f1036c91227111e66ab6
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Multitenancy and Extensibility Tool is a cli to reduce operational overhead for multitenant Cloud Foundry
+    applications, particularly in the areas user authentication, tenant registration, CAP multitenancy, and HANA
+    container management.
+  why_used: Multitenancy and Extensibility Tool is a cli to reduce operational overhead for Cloud Foundry SaaS applications
+  core_features:
+  - name: --registry-migrate TENANT_ID migrate tenant to subscription manager
+    description: --registry-migrate TENANT_ID migrate tenant to subscription manager
+    evidence:
+    - README.md#Features
+  - name: --registry-offboard TENANT_ID offboard tenant subscription
+    description: --registry-offboard TENANT_ID offboard tenant subscription
+    evidence:
+    - README.md#Features
+  - name: --registry-offboard-skip TENANT_ID SKIP_APPS offboard tenant subscription skipping apps
+    description: --registry-offboard-skip TENANT_ID SKIP_APPS offboard tenant subscription skipping apps
+    evidence:
+    - README.md#Features
+  - name: --cds-offboard-tenant TENANT_ID offboard specific tenant
+    description: --cds-offboard-tenant TENANT_ID offboard specific tenant
+    evidence:
+    - README.md#Features
+  - name: --cds-offboard-all offboard all tenants
+    description: --cds-offboard-all offboard all tenants
+    evidence:
+    - README.md#Features
+  - name: --svm-delete-bindings SERVICE_PLAN TENANT_ID delete service bindings
+    description: --svm-delete-bindings SERVICE_PLAN TENANT_ID delete service bindings
+    evidence:
+    - README.md#Features
+  - name: --svm-delete SERVICE_PLAN TENANT_ID delete service instances and bindings
+    description: --svm-delete SERVICE_PLAN TENANT_ID delete service instances and bindings
+    evidence:
+    - README.md#Features
+  - name: are potentially _dangerous_ commands
+    description: are potentially _dangerous_ commands
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@eslint/js'
+    - eslint
+    - eslint-config-prettier
+    - eslint-plugin-jest
+    - globals
+    - jest
+    - nock
+    - node-fetch
+    - prettier
+    - typescript
+    build_and_package_tools:
+    - Bundler manifest
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/cli.js, src/commands.js,
+    src/config.js, src/context.js'
+  setup_and_usage:
+  - 'Getting Started: Prerequisite is an installed CF cli v8 or newer.'
+  - 'Getting Started: npm install --global @cap-js-community/mtx-tool'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js-community/mtx-tool/blob/main/README.md
+  path: README.md
+  blob_sha: 74d28cbcabad5fefa7e37e0214128782f0ecb85c
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: f45526ad3f48cca5a904422406736a7e5951f0dc
+  retrieved: true
+- type: manifest
+  path: docs/Gemfile
+  blob_sha: 005080944cc1c8425e4ffc3e52cbd565804c80cb
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 546914
+- type: Git tree
+  status: captured
+  sha: 8c5e66b7478f5ec5b704f1036c91227111e66ab6
+  truncated: false
+- type: source_file
+  path: src/cli.js
+  blob_sha: be23ec59e8ad1fc1f452e1b2370e81c3fed2e665
+  retrieved: true
+- type: source_file
+  path: src/commands.js
+  blob_sha: 24477e6b0eaaa045fafb6f42d82f317d6539bca9
+  retrieved: true
+- type: source_file
+  path: src/config.js
+  blob_sha: f2b3eb69093e2db2b51a990aa745c411c8409775
+  retrieved: true
+- type: source_file
+  path: src/context.js
+  blob_sha: 9b61d95389987918fd1b511b7b63cbeb77fc06be
+  retrieved: true

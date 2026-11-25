@@ -1,0 +1,128 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:45:52+00:00'
+evidence_fingerprint: 65adce0b0ab0a8aface99fcd5ca5d9ba541213308be4565c6b03ea381e71b152
+repository_metadata:
+  company: Amazon
+  account: bottlerocket-os
+  full_name: bottlerocket-os/bottlerocket-ecs-updater
+  repository_id: 322691393
+  url: https://github.com/bottlerocket-os/bottlerocket-ecs-updater
+  description: A service to automatically manage Bottlerocket updates in an Amazon ECS cluster.
+  default_branch: develop
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-01-26T09:20:56Z'
+  stars: 50
+  readme_url: https://github.com/bottlerocket-os/bottlerocket-ecs-updater/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: 47de441c115b84dac8543c3292cea6674132a1bc
+  manifest_paths:
+  - Dockerfile
+  - Makefile
+  - updater/go.mod
+  source_files_inspected:
+  - updater/main.go
+  - integ/cleanup.sh
+  - integ/common.sh
+  - integ/run-updater.sh
+  repository_tree:
+    status: captured
+    sha: f10b2a5bbafcb7fde61b37bdd48a54e7ad666121
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Bottlerocket ECS Updater is a service you can install into your ECS cluster that helps you keep your
+    Bottlerocket container instances up to date. When installed, the Bottlerocket ECS Updater will periodically
+    query each Bottlerocket container instance to find whether an update is available and drain tasks while an update
+    is in progress. Updates to Bottlerocket are rolled out in waves to reduce the impact of issues; the container
+    instances in your cluster may not all see updates at the same time.
+  why_used: A service to automatically manage Bottlerocket updates in an Amazon ECS cluster.
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Shell
+    - Makefile
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/aws/aws-sdk-go
+    - github.com/davecgh/go-spew
+    - github.com/jmespath/go-jmespath
+    - github.com/pmezard/go-difflib
+    - github.com/stretchr/testify
+    - gopkg.in/yaml.v3
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: updater/main.go, integ/cleanup.sh,
+    integ/common.sh, integ/run-updater.sh'
+  setup_and_usage:
+  - 'Installation: You can install the Bottlerocket ECS Updater into your cluster with the provided CloudFormation
+    template.'
+  - 'Installation: The following information is required when creating the CloudFormation stack:'
+  - 'Installation: * The name of the ECS cluster where you are running Bottlerocket container instances'
+  - 'Installation: * The name of the CloudWatch Logs log group where the Bottlerocket ECS Updater will send its
+    logs'
+  - 'Installation: * At least one subnet ID that has Internet access (which does not need to be shared with the
+    rest of your cluster)'
+  - 'Installation: When installed, the CloudFormation template will create the following resources in your account:'
+  - 'Installation: * A task definition for the Bottlerocket ECS Updater'
+  - 'Installation: * A CloudWatch Events scheduled rule to execute the Bottlerocket ECS Updater'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/bottlerocket-os/bottlerocket-ecs-updater/blob/develop/README.md
+  path: README.md
+  blob_sha: 47de441c115b84dac8543c3292cea6674132a1bc
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 6e988b8e14ce126332bf0620bb4895133b294697
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 4924f3d55aa4ef073f60c9cd88c921ce966b2f19
+  retrieved: true
+- type: manifest
+  path: updater/go.mod
+  blob_sha: 0b116af119b21b14c15f3ed59c99eab81868d050
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 87791
+    Shell: 13364
+    Makefile: 2679
+    Dockerfile: 1599
+- type: Git tree
+  status: captured
+  sha: f10b2a5bbafcb7fde61b37bdd48a54e7ad666121
+  truncated: false
+- type: source_file
+  path: updater/main.go
+  blob_sha: 30aac4d9ba80ec38ac543bf80cd58998c3afed28
+  retrieved: true
+- type: source_file
+  path: integ/cleanup.sh
+  blob_sha: e36af661be5de1c1cbc931f4a176659ca0526f21
+  retrieved: true
+- type: source_file
+  path: integ/common.sh
+  blob_sha: 6125b0f37f1f5bae16b923c543b1bd5262951c64
+  retrieved: true
+- type: source_file
+  path: integ/run-updater.sh
+  blob_sha: 1bf53658d30c6b006b367f400fbf41b77a746ec3
+  retrieved: true

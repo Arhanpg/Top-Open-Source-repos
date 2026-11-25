@@ -1,0 +1,147 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:07:46+00:00'
+evidence_fingerprint: 301d2f31c46f7ba088fb501da12dbcbbbc4b2fc6e15ecab279033e436989c6be
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/AutoGDA-Efficient-Grounding-Verification-in-RAG
+  repository_id: 935069903
+  url: https://github.com/amazon-science/AutoGDA-Efficient-Grounding-Verification-in-RAG
+  description: null
+  default_branch: main
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-02-28T19:49:22Z'
+  stars: 3
+  readme_url: https://github.com/amazon-science/AutoGDA-Efficient-Grounding-Verification-in-RAG/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3c778601b38067ec569d6f5526bebe7e7736bf23
+  manifest_paths:
+  - pyproject.toml
+  - requirements.txt
+  source_files_inspected:
+  - src/cross_encoder_model/model_wrappers.py
+  - src/cross_encoder_model/my_evaluator.py
+  repository_tree:
+    status: captured
+    sha: da055fe60f77e768d1660a47944b232707f7a011
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains code for the Automatic Generative Domain Adaption (Auto-GDA) framework published
+    at ICLR 2025. It can be used to generate high-quality synthetic NLI data, which is useful for fine-tuning efficient
+    NLI models to specific domains.
+  why_used: This repository contains code for the Automatic Generative Domain Adaption (Auto-GDA) framework published
+    at ICLR 2025. It can be used to generate high-quality synthetic NLI data, which is useful for fine-tuning efficient
+    NLI models to specific domains.
+  core_features: []
+  technology_stack:
+    languages:
+    - Jupyter Notebook
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - accelerate
+    - boto3
+    - datasets
+    - en-core-web-sm
+    - evaluate
+    - gensim
+    - httpx
+    - huggingface-hub
+    - ipykernel
+    - ipython
+    - ipywidgets
+    - jupyter
+    - jupyterlab
+    - jupyterlab_widgets
+    - litellm
+    - matplotlib
+    - matplotlib-inline
+    - multiprocess
+    - nltk
+    - notebook
+    - numpy
+    - openai
+    - optuna
+    - pandas
+    - s3fs
+    - scikit-learn
+    - scipy
+    - seaborn
+    - sentence-transformers
+    - sentencepiece
+    - spacy
+    - torch
+    - tqdm
+    - transformers
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/__init__.py, src/cross_encoder_model/__init__.py,
+    src/cross_encoder_model/model_wrappers.py, src/cross_encoder_model/my_evaluator.py'
+  setup_and_usage:
+  - 'Installation: git clone git@github.com:amazon-science/AutoGDA-Efficient-Grounding-Verification-in-RAG.git'
+  - 'Installation: cd AutoGDA-Efficient-Grounding-Verification-in-RAG'
+  - 'Installation: Install mysql server which is used to manage hyperparameter configuration and venv or conda (if
+    not already installed)'
+  - 'Installation: sudo apt-get install mysql-server pkg-config default-libmysqlclient-dev build-essential python3.10-venv'
+  - 'Usage: **Datasets.** First, download the datasets by exectuing the script ./src/scripts/download_datasets.sh
+    from the main directory as working directory.'
+  - 'Usage: **LLM APIs.** For using the LLM APIs either make sure you have valid credentials for Amazon Bedrock
+    in your ~/.aws folder or set the OpenAI key in data/openai.json.'
+  - 'Quickstart: We provide a simple example for running Auto-GDA on the LFQA-Verification dataset.'
+  - 'Quickstart: We recommend first generating the initial data using the notebook notebooks/GenerateSync.ipynb.
+    Second you can just launch a run of Auto-GDA by running'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/AutoGDA-Efficient-Grounding-Verification-in-RAG/blob/main/README.md
+  path: README.md
+  blob_sha: 3c778601b38067ec569d6f5526bebe7e7736bf23
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 12db8578f359254ed06421a3cb37014ebea952d3
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 00da8c8d304b3f9711eb4a45dcf8b6f58bd71c3f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Jupyter Notebook: 436164
+    Python: 289241
+    Shell: 4852
+- type: Git tree
+  status: captured
+  sha: da055fe60f77e768d1660a47944b232707f7a011
+  truncated: false
+- type: source_file
+  path: src/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: src/cross_encoder_model/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: src/cross_encoder_model/model_wrappers.py
+  blob_sha: bee3376533459774f68928f5e28d88cda4cbc583
+  retrieved: true
+- type: source_file
+  path: src/cross_encoder_model/my_evaluator.py
+  blob_sha: 474c313ba63b7dde1fe5ab6fc51b93f96dfaf4d5
+  retrieved: true

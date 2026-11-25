@@ -1,0 +1,146 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:05:14+00:00'
+evidence_fingerprint: 21181687d9760db045422d92169a6866b74da779a996370dfeb2a45e19e6115a
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/cds-federation-synonyms
+  repository_id: 1285084649
+  url: https://github.com/cap-js/cds-federation-synonyms
+  description: CDS plugin for CAP-to-CAP Data Federation based on SAP HANA synonyms.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T10:08:13Z'
+  stars: 4
+  readme_url: https://github.com/cap-js/cds-federation-synonyms/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 260cee9e02895c76ac6734585b85cb7767ee0340
+  manifest_paths:
+  - package.json
+  - test/ext-guard-it/package.json
+  - test/scenarios/package.json
+  - test/e2e/xflights/package.json
+  - test/e2e/xtravels-j/package.json
+  - test/e2e/xtravels-j/pom.xml
+  source_files_inspected:
+  - lib/server.js
+  - lib/audit-log.js
+  - lib/build-plugin.js
+  - lib/config-helper.js
+  repository_tree:
+    status: captured
+    sha: 42a6f5c983c158a4f7fc60ce692e885802a15d1f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: CDS plugin for SAP HANA synonym-based data federation.
+  why_used: CDS plugin for CAP-to-CAP Data Federation based on SAP HANA synonyms.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    - Shell
+    - Java
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/audit-logging'
+    - '@cap-js/cds-federation-synonyms'
+    - '@cap-js/cds-test'
+    - '@cap-js/hana'
+    - '@cap-js/sqlite'
+    - '@capire/xflights-data-syn'
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - '@sap/cds-mtxs'
+    - '@sap/xssec'
+    - cds-maven-plugin
+    - cds-services-bom
+    - flatten-maven-plugin
+    - maven-compiler-plugin
+    - maven-enforcer-plugin
+    - maven-surefire-plugin
+    - spring-boot-dependencies
+    - spring-boot-maven-plugin
+    - xtravels-j-parent
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/server.js, lib/audit-log.js,
+    lib/build-plugin.js, lib/config-helper.js'
+  setup_and_usage:
+  - 'Usage: Install the plugin both in the provider and in the consumer app.'
+  - 'Usage: If the consumer uses multi-tenancy, install the plugin in the consumer''s MTX sidecar, too.'
+  - 'Usage: npm install git+https://github.com/cap-js/cds-federation-synonyms.git'
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow the instructions found
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/cds-federation-synonyms/blob/main/README.md
+  path: README.md
+  blob_sha: 260cee9e02895c76ac6734585b85cb7767ee0340
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 86fd9640cd55912c9692e904d27d67dcdd36e90c
+  retrieved: true
+- type: manifest
+  path: test/ext-guard-it/package.json
+  blob_sha: 3b1f101754aca8aa0e036e8a78022b1776c66e1c
+  retrieved: true
+- type: manifest
+  path: test/scenarios/package.json
+  blob_sha: 6031622e1e7a4bcca905346c0fa3a992ef562e69
+  retrieved: true
+- type: manifest
+  path: test/e2e/xflights/package.json
+  blob_sha: 8526340fd96f6114710be095b86e27bb2c853b75
+  retrieved: true
+- type: manifest
+  path: test/e2e/xtravels-j/package.json
+  blob_sha: 215ddc70dc6f8695ea16ebba68ad29f5fb1c9a21
+  retrieved: true
+- type: manifest
+  path: test/e2e/xtravels-j/pom.xml
+  blob_sha: adc338b523929f5c9a417b96d3cd751eeed03d8f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 177609
+    CAP CDS: 16125
+    Shell: 2960
+    Java: 300
+- type: Git tree
+  status: captured
+  sha: 42a6f5c983c158a4f7fc60ce692e885802a15d1f
+  truncated: false
+- type: source_file
+  path: lib/server.js
+  blob_sha: 134481ccd6c0aca29b8735880d0d68684174fd69
+  retrieved: true
+- type: source_file
+  path: lib/audit-log.js
+  blob_sha: e19e7c6604ef797e3e28cf75d55e4c1babb1b5be
+  retrieved: true
+- type: source_file
+  path: lib/build-plugin.js
+  blob_sha: fbc5083151aabb77164aa14818c83262eb05a7f6
+  retrieved: true
+- type: source_file
+  path: lib/config-helper.js
+  blob_sha: 550999056ad147eecd0604370756d40c94b2889f
+  retrieved: true

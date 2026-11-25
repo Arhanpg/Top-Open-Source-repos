@@ -1,0 +1,118 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:02:02+00:00'
+evidence_fingerprint: d1fa931c68db547d2288ef2e0cfaf6c27ab28cc35260f2842bf8c6dba7a3672e
+repository_metadata:
+  company: Amazon
+  account: bottlerocket-os
+  full_name: bottlerocket-os/bottlerocket-project-website
+  repository_id: 525824226
+  url: https://github.com/bottlerocket-os/bottlerocket-project-website
+  description: Source code and content for the bottlerocket website
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-16T16:06:20Z'
+  stars: 13
+  readme_url: https://github.com/bottlerocket-os/bottlerocket-project-website/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 67571434d4f9da514ef2142b614cfd15f1753f74
+  manifest_paths:
+  - go.mod
+  - Makefile
+  - package.json
+  source_files_inspected:
+  - scripts/nvidia-driver-versions/create_data_file_from_cargo.sh
+  - scripts/nvidia-driver-versions/create_markdown.sh
+  - scripts/nvidia-driver-versions/get_cargos.sh
+  - scripts/software-versions-inventory/software-versions-index.sh
+  repository_tree:
+    status: captured
+    sha: 28ab00bb8b8b4c4f176c077f822e3247990ce0a0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository is the source to the Bottlerocket project website. It contains the content (as Markdown
+    files), templates (HTML), stylesheets (CSS), and Hugo configurations (mostly TOML, some YAML).
+  why_used: Source code and content for the bottlerocket website
+  core_features: []
+  technology_stack:
+    languages:
+    - HTML
+    - SCSS
+    - Shell
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - autoprefixer
+    - github.com/google/docsy
+    - github.com/google/docsy/dependencies
+    - postcss
+    - postcss-cli
+    build_and_package_tools:
+    - Go module manifest
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: scripts/nvidia-driver-versions/create_data_file_from_cargo.sh,
+    scripts/nvidia-driver-versions/create_markdown.sh, scripts/nvidia-driver-versions/get_cargos.sh, scripts/software-versions-inventory/software-versions-index.sh'
+  setup_and_usage:
+  - 'Hugo Installation: Hugo is available for many platforms.'
+  - 'Hugo Installation: - Linux: most native package managers'
+  - 'Hugo Installation: - macOS: brew install hugo'
+  - 'Hugo Installation: - Windows: choco install hugo'
+  - 'Hugo Installation: See the Hugo installation instructions for additional options.'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/bottlerocket-os/bottlerocket-project-website/blob/main/README.md
+  path: README.md
+  blob_sha: 67571434d4f9da514ef2142b614cfd15f1753f74
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 67b750a5ac383d29a93a1c0eca99da5254492a00
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: d8a0246545a4c34a1bae9efee25285ab685f4d18
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 3e70e7c3ab53a60b70cca307b625d502673becd9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    HTML: 112142
+    SCSS: 30713
+    Shell: 16626
+    Makefile: 551
+- type: Git tree
+  status: captured
+  sha: 28ab00bb8b8b4c4f176c077f822e3247990ce0a0
+  truncated: false
+- type: source_file
+  path: scripts/nvidia-driver-versions/create_data_file_from_cargo.sh
+  blob_sha: fe0133394cd53387dccbd7ea84a471afcce525dc
+  retrieved: true
+- type: source_file
+  path: scripts/nvidia-driver-versions/create_markdown.sh
+  blob_sha: 04fbdb07adc4940f60928b8d23ba98d3fc5647f0
+  retrieved: true
+- type: source_file
+  path: scripts/nvidia-driver-versions/get_cargos.sh
+  blob_sha: a368289d0dc69d8077548ba98132c0021a58cbb6
+  retrieved: true
+- type: source_file
+  path: scripts/software-versions-inventory/software-versions-index.sh
+  blob_sha: 5663b89fe9bc4afbf83af87307e682bffa58434d
+  retrieved: true

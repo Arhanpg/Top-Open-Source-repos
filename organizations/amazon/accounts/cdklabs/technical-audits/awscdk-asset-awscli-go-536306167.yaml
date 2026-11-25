@@ -1,0 +1,75 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:02:09+00:00'
+evidence_fingerprint: 15ef6bdfa7a8449562681b80ad1c62b7c306e269d4bb714c2a29fe7b480fc084
+repository_metadata:
+  company: Amazon
+  account: cdklabs
+  full_name: cdklabs/awscdk-asset-awscli-go
+  repository_id: 536306167
+  url: https://github.com/cdklabs/awscdk-asset-awscli-go
+  description: null
+  default_branch: awscli.1
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-16T18:49:35Z'
+  stars: 0
+  readme_url: https://github.com/cdklabs/awscdk-asset-awscli-go/blob/awscli.1/README.md
+  readme_path: README.md
+  readme_sha: 643873c3a5afd312c4d7bcb2b1288d7f7ff6cc1e
+  manifest_paths:
+  - awscliv1/go.mod
+  source_files_inspected:
+  - awscliv1/jsii/jsii.go
+  repository_tree:
+    status: captured
+    sha: 974e3d9f60c61cc73d25b45673cbafbffaa544eb
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository included Go bindings for awscdk-asset-awscli.
+  why_used: This repository included Go bindings for awscdk-asset-awscli.
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/aws/jsii-runtime-go
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: awscliv1/jsii/jsii.go'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See Security Issue Notifications for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cdklabs/awscdk-asset-awscli-go/blob/awscli.1/README.md
+  path: README.md
+  blob_sha: 643873c3a5afd312c4d7bcb2b1288d7f7ff6cc1e
+  retrieved: true
+- type: manifest
+  path: awscliv1/go.mod
+  blob_sha: fa27fa4b61b54ba51f919f4bd8905c7e326bc9e2
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 733
+- type: Git tree
+  status: captured
+  sha: 974e3d9f60c61cc73d25b45673cbafbffaa544eb
+  truncated: false
+- type: source_file
+  path: awscliv1/jsii/jsii.go
+  blob_sha: c7d55482b41a5c0df53b402ccefd6c0280deb540
+  retrieved: true

@@ -1,0 +1,87 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:48:56+00:00'
+evidence_fingerprint: 429af2529cefbf2f2393ffa0af9e7b592a1a0905d86ccd597a8f579e4411d56a
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/contrib
+  repository_id: 306442101
+  url: https://github.com/triton-inference-server/contrib
+  description: Community contributions to Triton that are not officially supported or maintained by the Triton project.
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-06-05T22:13:16Z'
+  stars: 8
+  readme_url: https://github.com/triton-inference-server/contrib/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e237cddd8ece74eb8ac51e726ad403a23d718bac
+  manifest_paths: []
+  source_files_inspected:
+  - centos_build/backend_images/onnxruntime/gen_dockerfile.sh
+  - centos_build/backend_images/onnxruntime/gen_ort_dockerfile.py
+  - centos_build/build.py
+  - grpc_generated/c#/SimpleCSharpclient.cs
+  repository_tree:
+    status: captured
+    sha: 37e15283d9525ad0d83a26a5cbd6028bfbac2942
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: -->
+  why_used: Community contributions to Triton that are not officially supported or maintained by the Triton project.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C#
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: centos_build/backend_images/onnxruntime/gen_dockerfile.sh,
+    centos_build/backend_images/onnxruntime/gen_ort_dockerfile.py, centos_build/build.py, grpc_generated/c#/SimpleCSharpclient.cs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/contrib/blob/main/README.md
+  path: README.md
+  blob_sha: e237cddd8ece74eb8ac51e726ad403a23d718bac
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 112733
+    C#: 3772
+    Shell: 1865
+- type: Git tree
+  status: captured
+  sha: 37e15283d9525ad0d83a26a5cbd6028bfbac2942
+  truncated: false
+- type: source_file
+  path: centos_build/backend_images/onnxruntime/gen_dockerfile.sh
+  blob_sha: 65c691e95fa9b6be130c27254f570748b7c831a6
+  retrieved: true
+- type: source_file
+  path: centos_build/backend_images/onnxruntime/gen_ort_dockerfile.py
+  blob_sha: 7abc01962f348b8de56568807d089ccdf0c47f77
+  retrieved: true
+- type: source_file
+  path: centos_build/build.py
+  blob_sha: 239b64c4fa40a3582c847a2f343d516c0531c0a5
+  retrieved: true
+- type: source_file
+  path: grpc_generated/c#/SimpleCSharpclient.cs
+  blob_sha: b2ff2155626924b3e88a0381c88c1e611ff06d9a
+  retrieved: true

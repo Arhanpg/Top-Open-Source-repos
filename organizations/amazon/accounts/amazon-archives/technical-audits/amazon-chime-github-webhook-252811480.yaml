@@ -1,0 +1,112 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:07:29+00:00'
+evidence_fingerprint: c68d18619c8d801ae5e261efe44644ecd26c557f7517592a0d2c4571323e6929
+repository_metadata:
+  company: Amazon
+  account: amazon-archives
+  full_name: amazon-archives/amazon-chime-github-webhook
+  repository_id: 252811480
+  url: https://github.com/amazon-archives/amazon-chime-github-webhook
+  description: Send a message to Amazon Chime chat rooms
+  default_branch: master
+  license_spdx: MIT
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2020-10-01T17:42:20Z'
+  stars: 18
+  readme_url: https://github.com/amazon-archives/amazon-chime-github-webhook/blob/master/README.md
+  readme_path: README.md
+  readme_sha: fb91690d92121d1b33714a3cf3eb2cd3a272dc35
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/main.ts
+  - __tests__/main.test.ts
+  - jest.config.js
+  repository_tree:
+    status: captured
+    sha: 08a69540bfd6792357057242f91f669d401294ec
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Send message to Amazon Chime chat rooms.
+  why_used: Send a message to Amazon Chime chat rooms
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@types/jest'
+    - '@types/node'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - '@zeit/ncc'
+    - chime
+    - eslint
+    - eslint-config-prettier
+    - eslint-plugin-github
+    - eslint-plugin-jest
+    - eslint-plugin-prettier
+    - husky
+    - jest
+    - jest-circus
+    - js-yaml
+    - prettier
+    - ts-jest
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/main.ts, __tests__/main.test.ts,
+    jest.config.js'
+  setup_and_usage:
+  - 'Usage: - name: Send message to Amazon Chime chat room'
+  - 'Usage: uses: aws-actions/amazon-chime-github-webhook@v1'
+  - 'Usage: webhook: ${{ secrets.webhook }}'
+  - 'Usage: The action can be passed a webhook URL and message to be send to a Amazon Chime chat room. webook should
+    be defined as an encrypted secret and not be exposed directly.'
+  - 'Usage: See action.yml for the full documentation for this action''s inputs and outputs.'
+  - 'Usage: > You can learn more about creating an Amazon Chime Webhook and about Amazon Chime'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-archives/amazon-chime-github-webhook/blob/master/README.md
+  path: README.md
+  blob_sha: fb91690d92121d1b33714a3cf3eb2cd3a272dc35
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 69989b22c15f3a7eb0e554830e6d41c0c6fcea8a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 2260
+    JavaScript: 237
+- type: Git tree
+  status: captured
+  sha: 08a69540bfd6792357057242f91f669d401294ec
+  truncated: false
+- type: source_file
+  path: src/main.ts
+  blob_sha: 31e1241ee6d143605368a53722bf38bbfc02fe18
+  retrieved: true
+- type: source_file
+  path: __tests__/main.test.ts
+  blob_sha: 8337123733d67435a1d7a87592990c2efbf50534
+  retrieved: true
+- type: source_file
+  path: jest.config.js
+  blob_sha: faabcb36aca63d589bdfbcb4d27b326ac3a87ce1
+  retrieved: true

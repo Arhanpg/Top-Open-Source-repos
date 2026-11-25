@@ -1,0 +1,133 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:48:41+00:00'
+evidence_fingerprint: 7f754d399ab77efe50de2cc978b0e76395e80cfe1288225148eedba97aa2b34f
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/Universal_Robots_ROS2_Driver
+  repository_id: 986623879
+  url: https://github.com/NVIDIA-ISAAC-ROS/Universal_Robots_ROS2_Driver
+  description: Universal Robots ROS2 driver supporting CB3 and e-Series
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2026-08-27T07:15:51Z'
+  stars: 2
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/Universal_Robots_ROS2_Driver/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7f6d8ce6e555be87401348ceb41a0976e3f94e85
+  manifest_paths:
+  - ur/CMakeLists.txt
+  - ur_calibration/CMakeLists.txt
+  - ur_controllers/CMakeLists.txt
+  - ur_dashboard_msgs/CMakeLists.txt
+  - ur_moveit_config/CMakeLists.txt
+  - ur_robot_driver/CMakeLists.txt
+  source_files_inspected:
+  - ur_calibration/src/calibration.cpp
+  - ur_calibration/src/calibration_consumer.cpp
+  - ur_calibration/src/calibration_correction.cpp
+  - ur_controllers/src/force_mode_controller.cpp
+  repository_tree:
+    status: captured
+    sha: 12bf1945608ffcbbbae47d4b812b80ef4a51942a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Universal Robots has become a dominant supplier of lightweight, robotic manipulators for industry, as
+    well as for scientific research and education.
+  why_used: Universal Robots ROS2 driver supporting CB3 and e-Series
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - CMake
+    - Shell
+    - Batchfile
+    - Emacs Lisp
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: ur_calibration/src/calibration.cpp,
+    ur_calibration/src/calibration_consumer.cpp, ur_calibration/src/calibration_correction.cpp, ur_controllers/src/force_mode_controller.cpp'
+  setup_and_usage:
+  - 'Getting Started: For getting started, you''ll basically need three steps:'
+  - 'Getting Started: 1. **Install the driver**'
+  - 'Getting Started: sudo apt-get install ros-rolling-ur'
+  - 'Getting Started: See the installation instructions for more details and source-build instructions.'
+  - 'Getting Started: 2. **Start & Setup the robot**. Once you''ve installed the driver, [setup the'
+  - 'Getting Started: robot](https://docs.universal-robots.com/Universal_Robots_ROS2_Documentation/doc/ur_robot_driver/ur_robot_driver/doc/installation/robot_setup.html)'
+  - 'Getting Started: to be able to communicate with this driver correctly.'
+  - 'Getting Started: Please do this step carefully and extract the calibration as explained'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/Universal_Robots_ROS2_Driver/blob/main/README.md
+  path: README.md
+  blob_sha: 7f6d8ce6e555be87401348ceb41a0976e3f94e85
+  retrieved: true
+- type: manifest
+  path: ur/CMakeLists.txt
+  blob_sha: 9ce91270c5862e9a9c9b101fb7006d2ed9c60d15
+  retrieved: true
+- type: manifest
+  path: ur_calibration/CMakeLists.txt
+  blob_sha: e95014a133fd4a6864ea0b7695a5212c1870904d
+  retrieved: true
+- type: manifest
+  path: ur_controllers/CMakeLists.txt
+  blob_sha: b7520888554cb200a2fb36937b4202c8cc4efbc8
+  retrieved: true
+- type: manifest
+  path: ur_dashboard_msgs/CMakeLists.txt
+  blob_sha: b04e37fd42d1c6cfa05220b195dac3030efe6c9f
+  retrieved: true
+- type: manifest
+  path: ur_moveit_config/CMakeLists.txt
+  blob_sha: 80ff7c315dcc3c54b084ab3bbb6277d0de592192
+  retrieved: true
+- type: manifest
+  path: ur_robot_driver/CMakeLists.txt
+  blob_sha: 5b54eb0b422478933e554411758eb039b90d59be
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 407039
+    Python: 237065
+    CMake: 13435
+    Shell: 2138
+    Batchfile: 788
+    Emacs Lisp: 410
+- type: Git tree
+  status: captured
+  sha: 12bf1945608ffcbbbae47d4b812b80ef4a51942a
+  truncated: false
+- type: source_file
+  path: ur_calibration/src/calibration.cpp
+  blob_sha: 9a680d8560504a1ee8b169d4dc05699f357d6ab9
+  retrieved: true
+- type: source_file
+  path: ur_calibration/src/calibration_consumer.cpp
+  blob_sha: 13ed1885fd68243b1fc549e1df2dfe240532b24d
+  retrieved: true
+- type: source_file
+  path: ur_calibration/src/calibration_correction.cpp
+  blob_sha: 8b2a5fa7caab27fd1b4932f587ff704a2a67c126
+  retrieved: true
+- type: source_file
+  path: ur_controllers/src/force_mode_controller.cpp
+  blob_sha: 6f0c3677b9ab5ff8e20c49ce35b7a27def1c70dc
+  retrieved: true

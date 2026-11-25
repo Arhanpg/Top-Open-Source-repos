@@ -1,0 +1,124 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:04:58+00:00'
+evidence_fingerprint: ed909743a0467813b39fcb497d1c3f3b933fe4ecae5130334d5601ffcce276ce
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/dali_backend
+  repository_id: 294219252
+  url: https://github.com/triton-inference-server/dali_backend
+  description: The Triton backend that allows running GPU-accelerated data pre-processing pipelines implemented
+    in DALI's python API.
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-19T10:38:34Z'
+  stars: 148
+  readme_url: https://github.com/triton-inference-server/dali_backend/blob/main/README.md
+  readme_path: README.md
+  readme_sha: d5d0248243b9a71dc419d208bdd4bd2b0e73c254
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  - src/CMakeLists.txt
+  - src/dali_executor/CMakeLists.txt
+  source_files_inspected:
+  - src/config_tools/config_tools.cc
+  - src/config_tools/config_tools.h
+  - src/config_tools/config_tools.test.cc
+  - src/dali_backend.cc
+  repository_tree:
+    status: captured
+    sha: 1448e0f4a305c05ec609011478fdc3896879fb93
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains code for DALI Backend for Triton Inference Server.
+  why_used: The Triton backend that allows running GPU-accelerated data pre-processing pipelines implemented in
+    DALI's python API.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - Shell
+    - CMake
+    - C
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/config_tools/config_tools.cc,
+    src/config_tools/config_tools.h, src/config_tools/config_tools.test.cc, src/dali_backend.cc'
+  setup_and_usage: []
+  limitations:
+  - 'Known limitations:: 1. DALI''s ImageDecoder accepts data only from the CPU - keep this in mind when putting
+    together your DALI pipeline.'
+  - 'Known limitations:: 1. Triton accepts only homogeneous batch shape. Feel free to pad your batch of encoded
+    images with zeros'
+  - 'Known limitations:: 1. Due to DALI limitations, you might observe unnaturally increased memory consumption
+    when'
+  - 'Known limitations:: defining instance group for DALI model with higher count than 1. We suggest using default
+    instance'
+  - 'Known limitations:: group for DALI model.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/dali_backend/blob/main/README.md
+  path: README.md
+  blob_sha: d5d0248243b9a71dc419d208bdd4bd2b0e73c254
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 70a50bd6ed906e24926e8a3c0743f3e15c5795cd
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: a52671b2bad7c842017979898b065504ece300f2
+  retrieved: true
+- type: manifest
+  path: src/CMakeLists.txt
+  blob_sha: 0e5aced392e161d0829f5ae35a8e80f3f9c4550c
+  retrieved: true
+- type: manifest
+  path: src/dali_executor/CMakeLists.txt
+  blob_sha: 19af7953f717c6b131c55f32b360d99362bc8f68
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 212227
+    Python: 161140
+    Shell: 68861
+    CMake: 18703
+    C: 4180
+- type: Git tree
+  status: captured
+  sha: 1448e0f4a305c05ec609011478fdc3896879fb93
+  truncated: false
+- type: source_file
+  path: src/config_tools/config_tools.cc
+  blob_sha: be059b149cf38a3777222ed601fe9fe2ad5e48b1
+  retrieved: true
+- type: source_file
+  path: src/config_tools/config_tools.h
+  blob_sha: e9124e06fd1d63191330885c6d7aff515eda325a
+  retrieved: true
+- type: source_file
+  path: src/config_tools/config_tools.test.cc
+  blob_sha: 2a6e178e960ee00ee9ae09edc66cbdcf30b980b1
+  retrieved: true
+- type: source_file
+  path: src/dali_backend.cc
+  blob_sha: 8b42dd5c56f0026f7baa8ba144b847f67dc17fe0
+  retrieved: true

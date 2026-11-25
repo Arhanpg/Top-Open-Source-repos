@@ -1,0 +1,137 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:44:40+00:00'
+evidence_fingerprint: 3dc2f9143fe3c0390e1199567c9da30a008453dc7f3c744770b80dd595b4a419
+repository_metadata:
+  company: Amazon
+  account: aws-ia
+  full_name: aws-ia/cfn-abi-crowdstrike-fcs
+  repository_id: 627052977
+  url: https://github.com/aws-ia/cfn-abi-crowdstrike-fcs
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-15T18:10:24Z'
+  stars: 6
+  readme_url: https://github.com/aws-ia/cfn-abi-crowdstrike-fcs/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 758ec40dd28a4eaf22a62d46d5800622f46c114f
+  manifest_paths:
+  - guide/go.mod
+  - .project_automation/functional_tests/Dockerfile
+  - .project_automation/publication/Dockerfile
+  - .project_automation/static_tests/Dockerfile
+  - lambda_functions/source/eks-existing-clusters/requirements.txt
+  - .project_automation/functional_tests/scoutsuite/lambda_functions/source/lambda_s3_presignedurl/requirements.txt
+  source_files_inspected:
+  - .project_automation/deprecation/entrypoint.sh
+  - .project_automation/deprovision/entrypoint.sh
+  - .project_automation/functional_tests/entrypoint.sh
+  - .project_automation/functional_tests/scoutsuite/create-scoutsuite-custom-rule.py
+  repository_tree:
+    status: captured
+    sha: 0f08e83ff3b3ec899977dd0b3aace855fb673e16
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ':x: This repository is subject to deprecation on November 16th 2026. For more details, please review
+    this announcement.'
+  why_used: ':x: This repository is subject to deprecation on November 16th 2026. For more details, please review
+    this announcement.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - CSS
+    - Shell
+    - HTML
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - boto3
+    - requests
+    - urllib3
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .project_automation/deprecation/entrypoint.sh,
+    .project_automation/deprovision/entrypoint.sh, .project_automation/functional_tests/entrypoint.sh, .project_automation/functional_tests/scoutsuite/create-scoutsuite-custom-rule.py'
+  setup_and_usage: []
+  limitations:
+  - 'CrowdStrike Cloud Security with AWS Built-in: CrowdStrike now supports AWS Organization registration through
+    the AWS Built-In (ABI) program. ABI is a differentiation program that validates AWS Partner solutions that have
+    automated their integrations with relevant AWS foundational services such as identity, management, security,
+    and operations.'
+  - 'CrowdStrike Cloud Security with AWS Built-in: This AWS Built-In (ABI) solution deploys CrowdStrike Falcon Cloud
+    Security integrations for AWS Organizations on the AWS Cloud. It’s for IT administrators and security professionals
+    who want to provide Cloud Security Posture Management (CSPM) across multiple AWS accounts.'
+  - 'CrowdStrike Cloud Security with AWS Built-in: **Click Here to Get Started**'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-ia/cfn-abi-crowdstrike-fcs/blob/main/README.md
+  path: README.md
+  blob_sha: 758ec40dd28a4eaf22a62d46d5800622f46c114f
+  retrieved: true
+- type: manifest
+  path: guide/go.mod
+  blob_sha: bbddc8815db89d16ec36b1029c1fe92470bb9550
+  retrieved: true
+- type: manifest
+  path: .project_automation/functional_tests/Dockerfile
+  blob_sha: 2c4a79673afdb710b97d66ed71ea764cae6c3fce
+  retrieved: true
+- type: manifest
+  path: .project_automation/publication/Dockerfile
+  blob_sha: 2ec2c62e55a548809fc5f562e17377f894dbdb31
+  retrieved: true
+- type: manifest
+  path: .project_automation/static_tests/Dockerfile
+  blob_sha: 4be248ba94cc3e5a0353601043e7c96df0f6261f
+  retrieved: true
+- type: manifest
+  path: lambda_functions/source/eks-existing-clusters/requirements.txt
+  blob_sha: d83c55059d46e18e1a439d5beb0e5f65759d8fe6
+  retrieved: true
+- type: manifest
+  path: .project_automation/functional_tests/scoutsuite/lambda_functions/source/lambda_s3_presignedurl/requirements.txt
+  blob_sha: 1db657b6b33513004179265762389a4e67e19f9f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 78075
+    CSS: 26909
+    Shell: 22903
+    HTML: 3812
+    Dockerfile: 1016
+- type: Git tree
+  status: captured
+  sha: 0f08e83ff3b3ec899977dd0b3aace855fb673e16
+  truncated: false
+- type: source_file
+  path: .project_automation/deprecation/entrypoint.sh
+  blob_sha: 395a46fec7795662ca181c1102e1b6d54863ea6c
+  retrieved: true
+- type: source_file
+  path: .project_automation/deprovision/entrypoint.sh
+  blob_sha: 395a46fec7795662ca181c1102e1b6d54863ea6c
+  retrieved: true
+- type: source_file
+  path: .project_automation/functional_tests/entrypoint.sh
+  blob_sha: 4c1f300fc5332b3f1456eb90779e95826a6ca4db
+  retrieved: true
+- type: source_file
+  path: .project_automation/functional_tests/scoutsuite/create-scoutsuite-custom-rule.py
+  blob_sha: 2941192719d52914b3aa62e7d10ef28d463f502c
+  retrieved: true

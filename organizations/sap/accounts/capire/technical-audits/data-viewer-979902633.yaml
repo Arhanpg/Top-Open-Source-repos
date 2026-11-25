@@ -1,0 +1,90 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:49:28+00:00'
+evidence_fingerprint: 3b6f73233766aec03236d6d61fed93cb274acef4430d8c3e3fb2b6e5f1fb77af
+repository_metadata:
+  company: SAP
+  account: capire
+  full_name: capire/data-viewer
+  repository_id: 979902633
+  url: https://github.com/capire/data-viewer
+  description: A plugin for admin and support tasks
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-26T11:00:38Z'
+  stars: 0
+  readme_url: https://github.com/capire/data-viewer/blob/main/readme.md
+  readme_path: readme.md
+  readme_sha: dba9fae2c60b7fbe8f024bd3d3abec695d253e3d
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - app/viewer/app.js
+  - cds-plugin.js
+  - srv/data-service.js
+  repository_tree:
+    status: captured
+    sha: 0c1c99df1123cb82c777592e5c3040d4f9b1b522
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a CAP plugin which adds a generic browser for data to your application. It is used in the bookstore
+    sample.
+  why_used: A plugin for admin and support tasks
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - HTML
+    - CAP CDS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@sap/cds'
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: app/viewer/app.js,
+    cds-plugin.js, srv/data-service.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/capire/data-viewer/blob/main/readme.md
+  path: readme.md
+  blob_sha: dba9fae2c60b7fbe8f024bd3d3abec695d253e3d
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: d23b8205ff2d1392a3367e14926a211cdfe46bcc
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 6538
+    HTML: 3607
+    CAP CDS: 620
+- type: Git tree
+  status: captured
+  sha: 0c1c99df1123cb82c777592e5c3040d4f9b1b522
+  truncated: false
+- type: source_file
+  path: app/viewer/app.js
+  blob_sha: 561a61a3f43f88c13ad1a3c31df56870f9ce6d61
+  retrieved: true
+- type: source_file
+  path: cds-plugin.js
+  blob_sha: 732e0015eb6ecd74de534d16a23e6da4ad87ebba
+  retrieved: true
+- type: source_file
+  path: srv/data-service.js
+  blob_sha: e0a5c7767af6f46636ccd90db8e77c5453979d37
+  retrieved: true

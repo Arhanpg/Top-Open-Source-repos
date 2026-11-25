@@ -1,16 +1,19 @@
 # Technical audits — amazon-archives
 
-Updated: 2026-11-25T08:29:14+00:00
+Updated: 2026-11-25T23:09:23+00:00
 
 ## Status counts
 
-- evidence_only: 7
+- evidence_only: 11
 - insufficient_evidence: 1
 
 ## Repository dossiers
 
 | Repository | Status | Markdown | YAML |
 |---|---|---|---|
+| ai-driven-social-media-dashboard-195132386 | evidence_only | [ai-driven-social-media-dashboard-195132386.md](ai-driven-social-media-dashboard-195132386.md) | [ai-driven-social-media-dashboard-195132386.yaml](ai-driven-social-media-dashboard-195132386.yaml) |
+| alexa-heroku-help-desk-sample-129788972 | evidence_only | [alexa-heroku-help-desk-sample-129788972.md](alexa-heroku-help-desk-sample-129788972.md) | [alexa-heroku-help-desk-sample-129788972.yaml](alexa-heroku-help-desk-sample-129788972.yaml) |
+| amazon-chime-github-webhook-252811480 | evidence_only | [amazon-chime-github-webhook-252811480.md](amazon-chime-github-webhook-252811480.md) | [amazon-chime-github-webhook-252811480.yaml](amazon-chime-github-webhook-252811480.yaml) |
 | aws-mimic-iiitoomop-91026662 | evidence_only | [aws-mimic-iiitoomop-91026662.md](aws-mimic-iiitoomop-91026662.md) | [aws-mimic-iiitoomop-91026662.yaml](aws-mimic-iiitoomop-91026662.yaml) |
 | bsmobileprovision-10947817 | evidence_only | [bsmobileprovision-10947817.md](bsmobileprovision-10947817.md) | [bsmobileprovision-10947817.yaml](bsmobileprovision-10947817.yaml) |
 | github-171341969 | insufficient_evidence | [github-171341969.md](github-171341969.md) | [github-171341969.yaml](github-171341969.yaml) |
@@ -19,3 +22,4 @@ Updated: 2026-11-25T08:29:14+00:00
 | template-apache-2-0-lambda-mit-0-224014226 | evidence_only | [template-apache-2-0-lambda-mit-0-224014226.md](template-apache-2-0-lambda-mit-0-224014226.md) | [template-apache-2-0-lambda-mit-0-224014226.yaml](template-apache-2-0-lambda-mit-0-224014226.yaml) |
 | template-custom-207916591 | evidence_only | [template-custom-207916591.md](template-custom-207916591.md) | [template-custom-207916591.yaml](template-custom-207916591.yaml) |
 | template-devguide-207924379 | evidence_only | [template-devguide-207924379.md](template-devguide-207924379.md) | [template-devguide-207924379.yaml](template-devguide-207924379.yaml) |
+| template-mit-0-202388123 | evidence_only | [template-mit-0-202388123.md](template-mit-0-202388123.md) | [template-mit-0-202388123.yaml](template-mit-0-202388123.yaml) |

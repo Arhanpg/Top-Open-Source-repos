@@ -1,0 +1,119 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:05:46+00:00'
+evidence_fingerprint: ff86d4dcbb30fc2b6bb6b9771e4c2425a7be5ceb0d19829b59b6a6a58c4b2a85
+repository_metadata:
+  company: SAP
+  account: SAP
+  full_name: SAP/aas-mcp-server
+  repository_id: 1237483517
+  url: https://github.com/SAP/aas-mcp-server
+  description: An AAS MCP adapter that exposes configured Asset Administration Shell APIs as Model Context Protocol
+    tools, enabling LLM agents to interact with any AAS-compliant backend.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T07:46:11Z'
+  stars: 9
+  readme_url: https://github.com/SAP/aas-mcp-server/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7019a9976e6e14c05efd11d0bdf71acfdb79bf5c
+  manifest_paths:
+  - Dockerfile
+  - pyproject.toml
+  source_files_inspected:
+  - src/aas_mcp_server/cli.py
+  - src/aas_mcp_server/server.py
+  - src/aas_mcp_server/__init__.py
+  - src/aas_mcp_server/audit.py
+  repository_tree:
+    status: captured
+    sha: 56a9eca6a671a1597ade87129db41c844ea93699
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> OpenAPI-to-MCP bridge for Asset Administration Shell (AAS) APIs'
+  why_used: An AAS MCP adapter that exposes configured Asset Administration Shell APIs as Model Context Protocol
+    tools, enabling LLM agents to interact with any AAS-compliant backend.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - cryptography
+    - fastmcp
+    - httpx2
+    - mcp
+    - oas-patch
+    - py-key-value-aio
+    - pyyaml
+    build_and_package_tools:
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/aas_mcp_server/cli.py,
+    src/aas_mcp_server/server.py, src/aas_mcp_server/__init__.py, src/aas_mcp_server/audit.py'
+  setup_and_usage:
+  - 'Docker Usage: The pre-built image is published to GitHub Container Registry at'
+  - 'Docker Usage: ghcr.io/sap/aas-mcp-server (multi-arch linux/amd64 + linux/arm64, SBOM'
+  - 'Docker Usage: and build-provenance attested). The examples below use :latest; pin to a'
+  - 'Docker Usage: specific version (:0.1.0) or minor line (:0.1) for reproducible deployments.'
+  limitations:
+  - 'Security / Disclosure: - **Read-only by default** - Write operations disabled unless --enable-writes'
+  - 'Security / Disclosure: - **Allowlist-based** - Only explicitly allowed operations exposed'
+  - 'Security / Disclosure: - **Wildcard patterns** - [get, "*"], ["*", /path], ["*", "*"]'
+  - 'Security / Disclosure: - **Pagination limits** - Max 100 items per request'
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP/aas-mcp-server/blob/main/README.md
+  path: README.md
+  blob_sha: 7019a9976e6e14c05efd11d0bdf71acfdb79bf5c
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 6bf6fb70874d73ee968ec9efad8ff1c060c21919
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 4212e0458b0192ad704a7673c01df4bcc0e90efd
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 497509
+    Shell: 19599
+    Dockerfile: 1704
+- type: Git tree
+  status: captured
+  sha: 56a9eca6a671a1597ade87129db41c844ea93699
+  truncated: false
+- type: source_file
+  path: src/aas_mcp_server/cli.py
+  blob_sha: 1232ebc505efae63b944543a039081d3d1457d46
+  retrieved: true
+- type: source_file
+  path: src/aas_mcp_server/server.py
+  blob_sha: b65553fd0e01e86df15177299d063481a0a8e3e0
+  retrieved: true
+- type: source_file
+  path: src/aas_mcp_server/__init__.py
+  blob_sha: 99e0ef9b9dd5b7684efe1d31ce411906daaa8bf6
+  retrieved: true
+- type: source_file
+  path: src/aas_mcp_server/audit.py
+  blob_sha: ea66e691539f5d7758c7c1ccf64249f78cf84f92
+  retrieved: true

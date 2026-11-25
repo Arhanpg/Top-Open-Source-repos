@@ -1,10 +1,10 @@
 # Technical audits — cdklabs
 
-Updated: 2026-11-25T08:29:14+00:00
+Updated: 2026-11-25T23:09:23+00:00
 
 ## Status counts
 
-- evidence_only: 5
+- evidence_only: 8
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -16,4 +16,7 @@ Updated: 2026-11-25T08:29:14+00:00
 | aws-delivlib-153164192 | evidence_only | [aws-delivlib-153164192.md](aws-delivlib-153164192.md) | [aws-delivlib-153164192.yaml](aws-delivlib-153164192.yaml) |
 | aws-lambda-rust-730215757 | evidence_only | [aws-lambda-rust-730215757.md](aws-lambda-rust-730215757.md) | [aws-lambda-rust-730215757.yaml](aws-lambda-rust-730215757.yaml) |
 | aws-secrets-github-sync-403250046 | evidence_only | [aws-secrets-github-sync-403250046.md](aws-secrets-github-sync-403250046.md) | [aws-secrets-github-sync-403250046.yaml](aws-secrets-github-sync-403250046.yaml) |
+| awscdk-appsync-utils-558997289 | evidence_only | [awscdk-appsync-utils-558997289.md](awscdk-appsync-utils-558997289.md) | [awscdk-appsync-utils-558997289.yaml](awscdk-appsync-utils-558997289.yaml) |
+| awscdk-asset-awscli-528539897 | evidence_only | [awscdk-asset-awscli-528539897.md](awscdk-asset-awscli-528539897.md) | [awscdk-asset-awscli-528539897.yaml](awscdk-asset-awscli-528539897.yaml) |
+| awscdk-asset-awscli-go-536306167 | evidence_only | [awscdk-asset-awscli-go-536306167.md](awscdk-asset-awscli-go-536306167.md) | [awscdk-asset-awscli-go-536306167.yaml](awscdk-asset-awscli-go-536306167.yaml) |
 | github-744758625 | insufficient_evidence | [github-744758625.md](github-744758625.md) | [github-744758625.yaml](github-744758625.yaml) |

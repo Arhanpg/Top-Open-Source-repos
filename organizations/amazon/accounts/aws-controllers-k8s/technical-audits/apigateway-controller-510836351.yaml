@@ -1,0 +1,194 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:52:32+00:00'
+evidence_fingerprint: ca5a0a51866ed63e56062ae8bfd9e5f26f8cfd616bb4d39978aed85662fc73b1
+repository_metadata:
+  company: Amazon
+  account: aws-controllers-k8s
+  full_name: aws-controllers-k8s/apigateway-controller
+  repository_id: 510836351
+  url: https://github.com/aws-controllers-k8s/apigateway-controller
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T04:19:48Z'
+  stars: 2
+  readme_url: https://github.com/aws-controllers-k8s/apigateway-controller/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7a072537ab415a88f99c88d9dd18bb1405051db0
+  manifest_paths:
+  - go.mod
+  - Makefile
+  - test/e2e/requirements.txt
+  source_files_inspected:
+  - cmd/controller/main.go
+  - pkg/resource/api_integration_response/delta.go
+  - pkg/resource/api_integration_response/descriptor.go
+  - pkg/resource/api_integration_response/hooks.go
+  repository_tree:
+    status: captured
+    sha: f239ba1482d8f5d347ae2f6921c042a7b342c6f0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains source code for the AWS Controllers for Kubernetes (ACK) service controller
+    for .
+  why_used: This repository contains source code for the AWS Controllers for Kubernetes (ACK) service controller
+    for .
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Python
+    - Go Template
+    - Smarty
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - acktest
+    - github.com/aws-controllers-k8s/cognitoidentityprovider-controller
+    - github.com/aws-controllers-k8s/ec2-controller
+    - github.com/aws-controllers-k8s/elbv2-controller
+    - github.com/aws-controllers-k8s/iam-controller
+    - github.com/aws-controllers-k8s/runtime
+    - github.com/aws/aws-sdk-go-v2
+    - github.com/aws/aws-sdk-go-v2/config
+    - github.com/aws/aws-sdk-go-v2/credentials
+    - github.com/aws/aws-sdk-go-v2/feature/ec2/imds
+    - github.com/aws/aws-sdk-go-v2/internal/configsources
+    - github.com/aws/aws-sdk-go-v2/internal/endpoints/v2
+    - github.com/aws/aws-sdk-go-v2/internal/ini
+    - github.com/aws/aws-sdk-go-v2/service/apigateway
+    - github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding
+    - github.com/aws/aws-sdk-go-v2/service/internal/presigned-url
+    - github.com/aws/aws-sdk-go-v2/service/sso
+    - github.com/aws/aws-sdk-go-v2/service/ssooidc
+    - github.com/aws/aws-sdk-go-v2/service/sts
+    - github.com/aws/smithy-go
+    - github.com/beorn7/perks
+    - github.com/cenkalti/backoff/v4
+    - github.com/cespare/xxhash/v2
+    - github.com/davecgh/go-spew
+    - github.com/emicklei/go-restful/v3
+    - github.com/evanphx/json-patch/v5
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/go-logr/logr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/google/btree
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/uuid
+    - github.com/itchyny/gojq
+    - github.com/itchyny/timefmt-go
+    - github.com/jaypipes/envutil
+    - github.com/josharian/intern
+    - github.com/json-iterator/go
+    - github.com/mailru/easyjson
+    - github.com/micahhausler/aws-iam-policy
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/munnerz/goautoneg
+    - github.com/pkg/errors
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/spf13/pflag
+    - github.com/stretchr/testify
+    - github.com/x448/float16
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - go.yaml.in/yaml/v2
+    - go.yaml.in/yaml/v3
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/term
+    - golang.org/x/text
+    - golang.org/x/time
+    - gomodules.xyz/jsonpatch/v2
+    - google.golang.org/protobuf
+    - gopkg.in/evanphx/json-patch.v4
+    - gopkg.in/inf.v0
+    - gopkg.in/yaml.v3
+    - k8s.io/api
+    - k8s.io/apiextensions-apiserver
+    - k8s.io/apimachinery
+    - k8s.io/client-go
+    - k8s.io/klog/v2
+    - k8s.io/kube-openapi
+    - k8s.io/utils
+    - sigs.k8s.io/controller-runtime
+    - sigs.k8s.io/json
+    - sigs.k8s.io/randfill
+    - sigs.k8s.io/structured-merge-diff/v6
+    - sigs.k8s.io/yaml
+    build_and_package_tools:
+    - Go module manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/controller/main.go,
+    pkg/resource/api_integration_response/delta.go, pkg/resource/api_integration_response/descriptor.go, pkg/resource/api_integration_response/hooks.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-controllers-k8s/apigateway-controller/blob/main/README.md
+  path: README.md
+  blob_sha: 7a072537ab415a88f99c88d9dd18bb1405051db0
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 6d72bdc39a1fc3d57dfe9a5a9b14d2275455b99a
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 0953c01ad02c122fc28ef5ec126b33903b82b652
+  retrieved: true
+- type: manifest
+  path: test/e2e/requirements.txt
+  blob_sha: 94e8125ce104efaaa66f6b42cc5fc1138bc5d507
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 62577
+    Python: 62420
+    Go Template: 5765
+    Smarty: 981
+    Makefile: 565
+- type: Git tree
+  status: captured
+  sha: f239ba1482d8f5d347ae2f6921c042a7b342c6f0
+  truncated: false
+- type: source_file
+  path: cmd/controller/main.go
+  blob_sha: a01f49e407ae2ab0e43f0af8076bc7fc60021f67
+  retrieved: true
+- type: source_file
+  path: pkg/resource/api_integration_response/delta.go
+  blob_sha: 6090d99151ba3522bdd526ca9de74d1720f8b32b
+  retrieved: true
+- type: source_file
+  path: pkg/resource/api_integration_response/descriptor.go
+  blob_sha: 8501c848d3f904adec7ddd74234f92d6a5454e52
+  retrieved: true
+- type: source_file
+  path: pkg/resource/api_integration_response/hooks.go
+  blob_sha: 9ac1b1ed8824206ef090c56ec90d30b43b67e688
+  retrieved: true

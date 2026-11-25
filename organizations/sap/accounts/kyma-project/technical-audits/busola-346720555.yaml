@@ -1,0 +1,254 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:05:38+00:00'
+evidence_fingerprint: 5f5a5df1286e433aadf59523c9a93f6a8c4c8cb403f838a6b6df687b47516cc5
+repository_metadata:
+  company: SAP
+  account: kyma-project
+  full_name: kyma-project/busola
+  repository_id: 346720555
+  url: https://github.com/kyma-project/busola
+  description: Web based Kubernetes Dashboard with a focus on privacy that requires no active components or special
+    privileges in your cluster.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T13:12:34Z'
+  stars: 31
+  readme_url: https://github.com/kyma-project/busola/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 77f743e25eb47ef5fccaa1e86c507f5d72ae1493
+  manifest_paths:
+  - Dockerfile
+  - Makefile
+  - package.json
+  - backend/Dockerfile
+  - backend/Makefile
+  - backend/package.json
+  source_files_inspected:
+  - src/command-pallette/CommandPalletteUI/handlers/index.ts
+  - src/components/Extensibility/helpers/index.js
+  - src/shared/components/ResourceGraph/buildGraph/index.ts
+  - src/shared/helpers/index.ts
+  repository_tree:
+    status: captured
+    sha: 7cbcc540ab2ad17b6d47f30986caae1a7b932d79
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Busola is a web-based UI for managing resources within a Kubernetes cluster. It's based on the ReactJS
+    library.
+  why_used: Web based Kubernetes Dashboard with a focus on privacy that requires no active components or special
+    privileges in your cluster.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    - SCSS
+    - CSS
+    - Shell
+    - Dockerfile
+    - Makefile
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cypress/code-coverage'
+    - '@datasert/cronjs-parser'
+    - '@eslint/js'
+    - '@fundamental-styles/common-css'
+    - '@nabla/vite-plugin-eslint'
+    - '@openapi-contrib/openapi-schema-to-json-schema'
+    - '@peculiar/x509'
+    - '@sap-theming/theming-base-content'
+    - '@sentry/react'
+    - '@stoplight/json-ref-resolver'
+    - '@testing-library/jest-dom'
+    - '@testing-library/react'
+    - '@testing-library/user-event'
+    - '@types/didyoumean'
+    - '@types/file-saver'
+    - '@types/js-yaml'
+    - '@types/jsonpath'
+    - '@types/lodash'
+    - '@types/node'
+    - '@types/pluralize'
+    - '@types/prop-types'
+    - '@types/react'
+    - '@types/react-dom'
+    - '@types/react-syntax-highlighter'
+    - '@types/uuid'
+    - '@typescript-eslint/parser'
+    - '@ui-schema/json-schema'
+    - '@ui-schema/react'
+    - '@ui-schema/ui-schema'
+    - '@ui5/webcomponents'
+    - '@ui5/webcomponents-base'
+    - '@ui5/webcomponents-compat'
+    - '@ui5/webcomponents-fiori'
+    - '@ui5/webcomponents-icons'
+    - '@ui5/webcomponents-icons-tnt'
+    - '@ui5/webcomponents-react'
+    - '@ui5/webcomponents-react-base'
+    - '@ui5/webcomponents-react-charts'
+    - '@ui5/webcomponents-react-compat'
+    - '@vitejs/plugin-react'
+    - '@vitest/coverage-v8'
+    - '@viz-js/viz'
+    - '@xterm/addon-fit'
+    - '@xterm/xterm'
+    - classnames
+    - compare-versions
+    - compression
+    - concurrently
+    - copy-to-clipboard
+    - core-js
+    - cors
+    - cronstrue
+    - cypress
+    - didyoumean
+    - eslint
+    - eslint-plugin-react
+    - eslint-plugin-react-hooks
+    - express
+    - express-jwt
+    - express-rate-limit
+    - file-saver
+    - glob
+    - globals
+    - http-status-codes
+    - husky
+    - i18next
+    - i18next-http-backend
+    - immutable
+    - jiti
+    - jotai
+    - jotai-devtools
+    - jotai-effect
+    - js-tiktoken
+    - js-yaml
+    - jsdom
+    - jsonata
+    - jsonpath
+    - jsonschema
+    - jwks-rsa
+    - jwt-decode
+    - lint-staged
+    - lodash
+    - lodash.escape
+    - lodash.isempty
+    - lodash.merge
+    - marked
+    - marked-react
+    - memfs
+    - monaco-editor
+    - monaco-yaml
+    - nodemon
+    - oidc-client-ts
+    - p-queue
+    - pako
+    - pino-http
+    - pluralize
+    - prettier
+    - prop-types
+    - react
+    - react-dom
+    - react-i18next
+    - react-router
+    - react-syntax-highlighter
+    - react-zoom-pan-pinch
+    - resize-observer-polyfill
+    - rfc6902
+    - sass
+    - typescript
+    - typescript-eslint
+    - url-sanitizer
+    - uuid
+    - vite
+    - vitest
+    - webpack
+    - webpack-cli
+    - webpack-node-externals
+    - ws
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/command-pallette/CommandPalletteUI/handlers/index.ts,
+    src/components/Extensibility/helpers/index.js, src/shared/components/ResourceGraph/buildGraph/index.ts, src/shared/helpers/index.ts'
+  setup_and_usage:
+  - 'Installation: To install dependencies for the root and backend projects, and to prepare symlinks for local
+    libraries within this repository, run the following command:'
+  - 'Installation: To learn how to install the dashboard with Istio Ingress and install it in a Kyma cluster, see
+    Deploying and Accessing Busola in the Kubernetes Cluster.'
+  - 'Usage: Run the npm start command.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/kyma-project/busola/blob/main/README.md
+  path: README.md
+  blob_sha: 77f743e25eb47ef5fccaa1e86c507f5d72ae1493
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: e30fdd73c7238857e42ef4b5cc35eaf43912d26d
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: a9dedf5b2772cf1cd8939eb464cb9b02b5c15af2
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 9cd2bb96ed7c2409e19e7e24b1653460b0676a24
+  retrieved: true
+- type: manifest
+  path: backend/Dockerfile
+  blob_sha: 6fbdef9705a5cfcb0aeadbe8d990799943b4e741
+  retrieved: true
+- type: manifest
+  path: backend/Makefile
+  blob_sha: 28e836f2e5d5841319b26830a9336e6f270d4b2b
+  retrieved: true
+- type: manifest
+  path: backend/package.json
+  blob_sha: c629d6e6e4b65951d07eeeaad6ac225f953915ea
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 2551903
+    JavaScript: 924525
+    SCSS: 79307
+    CSS: 11892
+    Shell: 3039
+    Dockerfile: 2388
+    Makefile: 2284
+    HTML: 1991
+- type: Git tree
+  status: captured
+  sha: 7cbcc540ab2ad17b6d47f30986caae1a7b932d79
+  truncated: false
+- type: source_file
+  path: src/command-pallette/CommandPalletteUI/handlers/index.ts
+  blob_sha: d4889af03ebcd53347b24caf2aec71bb098df547
+  retrieved: true
+- type: source_file
+  path: src/components/Extensibility/helpers/index.js
+  blob_sha: a9d63cf2f914dde8fce1e05b74fdaf8f0bf726e1
+  retrieved: true
+- type: source_file
+  path: src/shared/components/ResourceGraph/buildGraph/index.ts
+  blob_sha: 625d55849131b88c948bf00e94bd4f9ac4f6fe38
+  retrieved: true
+- type: source_file
+  path: src/shared/helpers/index.ts
+  blob_sha: 9c73b34653ef42ca5e1686bbec6cadddc54638a7
+  retrieved: true

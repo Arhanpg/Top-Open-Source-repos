@@ -1,10 +1,10 @@
 # Technical audits — corretto
 
-Updated: 2026-11-25T08:29:15+00:00
+Updated: 2026-11-25T23:09:24+00:00
 
 ## Status counts
 
-- evidence_only: 5
+- evidence_only: 8
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -16,4 +16,7 @@ Updated: 2026-11-25T08:29:15+00:00
 | corretto-11-170194909 | evidence_only | [corretto-11-170194909.md](corretto-11-170194909.md) | [corretto-11-170194909.yaml](corretto-11-170194909.yaml) |
 | corretto-11-docker-170195306 | evidence_only | [corretto-11-docker-170195306.md](corretto-11-docker-170195306.md) | [corretto-11-docker-170195306.yaml](corretto-11-docker-170195306.yaml) |
 | corretto-17-381428400 | evidence_only | [corretto-17-381428400.md](corretto-17-381428400.md) | [corretto-17-381428400.yaml](corretto-17-381428400.yaml) |
+| corretto-18-450648017 | evidence_only | [corretto-18-450648017.md](corretto-18-450648017.md) | [corretto-18-450648017.yaml](corretto-18-450648017.yaml) |
+| corretto-19-523074088 | evidence_only | [corretto-19-523074088.md](corretto-19-523074088.md) | [corretto-19-523074088.yaml](corretto-19-523074088.yaml) |
+| corretto-20-577881916 | evidence_only | [corretto-20-577881916.md](corretto-20-577881916.md) | [corretto-20-577881916.yaml](corretto-20-577881916.yaml) |
 | github-245025824 | insufficient_evidence | [github-245025824.md](github-245025824.md) | [github-245025824.yaml](github-245025824.yaml) |

@@ -1,0 +1,169 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:48:17+00:00'
+evidence_fingerprint: 69f7f5a85c90c985aceb9d3de68e770c189084cdc8d6da4852d998fd015ef41f
+repository_metadata:
+  company: NVIDIA
+  account: ai-dynamo
+  full_name: ai-dynamo/dynamo
+  repository_id: 942206898
+  url: https://github.com/ai-dynamo/dynamo
+  description: A Datacenter Scale Distributed Inference Serving Framework
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T20:16:11Z'
+  stars: 8556
+  readme_url: https://github.com/ai-dynamo/dynamo/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 218570a33b8d901b6049f0c05a056cf7cdf495fe
+  manifest_paths:
+  - Cargo.toml
+  - pyproject.toml
+  - benchmarks/pyproject.toml
+  - .github/scripts/package.json
+  - benchmarks/cuda_custom_storage/Makefile
+  - deploy/operator/Dockerfile
+  source_files_inspected:
+  - components/src/dynamo/frontend/__main__.py
+  - components/src/dynamo/frontend/main.py
+  - components/src/dynamo/global_planner/__main__.py
+  - components/src/dynamo/global_router/__main__.py
+  repository_tree:
+    status: captured
+    sha: 3389c0f4b9ecf148dff22e14badff6de0d3d5afb
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'SPDX-FileCopyrightText: Copyright (c) 2024-2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    SPDX-License-Identifier: Apache-2.0'
+  why_used: A Datacenter Scale Distributed Inference Serving Framework
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    - Python
+    - Go
+    - Shell
+    - Dockerfile
+    - C++
+    - HTML
+    - Makefile
+    - Go Template
+    - Jinja
+    - Starlark
+    - Standard ML
+    - C
+    - CMake
+    frameworks_and_libraries: []
+    dependencies:
+    - ai-dynamo-runtime
+    - aiohttp
+    - aiperf
+    - aisim
+    - certifi
+    - kubernetes
+    - matplotlib
+    - micromatch
+    - msgspec
+    - networkx
+    - numpy
+    - pandas
+    - prometheus_client
+    - pydantic
+    - pyzmq
+    - redis
+    - tabulate
+    - tqdm
+    - transformers
+    - typing_extensions
+    - yaml
+    - zstandard
+    build_and_package_tools:
+    - Cargo manifest
+    - Docker build configuration
+    - npm-compatible manifest
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: components/src/dynamo/frontend/__main__.py,
+    components/src/dynamo/frontend/main.py, components/src/dynamo/global_planner/__main__.py, components/src/dynamo/global_router/__main__.py'
+  setup_and_usage:
+  - 'Quick Start: > This repo ships agent skills: if you work with an AI coding agent (Claude Code, Codex,'
+  - 'Quick Start: > Cursor), clone the repo and ask it to deploy, troubleshoot, benchmark, or optimize a Dynamo'
+  - 'Quick Start: > deployment. The skills activate automatically; no setup required.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ai-dynamo/dynamo/blob/main/README.md
+  path: README.md
+  blob_sha: 218570a33b8d901b6049f0c05a056cf7cdf495fe
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: 7003e91810d20a8b9b4a733cc039a15f23d1b444
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: c893359bacb7c20174e83a4ab633536825e3cf64
+  retrieved: true
+- type: manifest
+  path: benchmarks/pyproject.toml
+  blob_sha: 2cd845851e44424ad6672ed05e1a24ab36b351ff
+  retrieved: true
+- type: manifest
+  path: .github/scripts/package.json
+  blob_sha: 26d2cb176eb09d5e31a5be82c24967df077250cb
+  retrieved: true
+- type: manifest
+  path: benchmarks/cuda_custom_storage/Makefile
+  blob_sha: bdecb7d1cccae7c91026b46f73a30548837dff3d
+  retrieved: true
+- type: manifest
+  path: deploy/operator/Dockerfile
+  blob_sha: ede1af4700e4eb946377d2ebeb4f06e0e3b7d2e2
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 31838347
+    Python: 26056348
+    Go: 8264347
+    Shell: 470190
+    Dockerfile: 290252
+    C++: 74568
+    HTML: 73532
+    Makefile: 55535
+    Go Template: 35162
+    Jinja: 31357
+    Starlark: 14317
+    Standard ML: 10170
+    C: 8703
+    CMake: 7759
+- type: Git tree
+  status: captured
+  sha: 3389c0f4b9ecf148dff22e14badff6de0d3d5afb
+  truncated: false
+- type: source_file
+  path: components/src/dynamo/frontend/__main__.py
+  blob_sha: 15c0cf3ef64f7da8766f038904e25c09c5f4bfa8
+  retrieved: true
+- type: source_file
+  path: components/src/dynamo/frontend/main.py
+  blob_sha: f0ff0682db624b86917261bea3555d3631ce04c3
+  retrieved: true
+- type: source_file
+  path: components/src/dynamo/global_planner/__main__.py
+  blob_sha: e77b7c83ba4c355250897dc377adfb8fe0deac5e
+  retrieved: true
+- type: source_file
+  path: components/src/dynamo/global_router/__main__.py
+  blob_sha: a98a49a8f9a50b71150217a0aac716186b23b568
+  retrieved: true

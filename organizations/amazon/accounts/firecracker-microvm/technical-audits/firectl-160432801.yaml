@@ -1,0 +1,131 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:46:16+00:00'
+evidence_fingerprint: 7261f82141b926e5840af118a882273d0ca6b0f183fc617318e4d9361b1ffcf1
+repository_metadata:
+  company: Amazon
+  account: firecracker-microvm
+  full_name: firecracker-microvm/firectl
+  repository_id: 160432801
+  url: https://github.com/firecracker-microvm/firectl
+  description: firectl is a command-line tool to run Firecracker microVMs
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-10T19:53:44Z'
+  stars: 652
+  readme_url: https://github.com/firecracker-microvm/firectl/blob/main/README.md
+  readme_path: README.md
+  readme_sha: c619ff4f3988f853e4c8599d5c591fac4fe2c419
+  manifest_paths:
+  - go.mod
+  - Makefile
+  source_files_inspected:
+  - main.go
+  - errors.go
+  - main_test.go
+  - options.go
+  repository_tree:
+    status: captured
+    sha: 1c4e1d9e7fbbb38c84a46bd837a713205d17563e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: We have made the decision to deprecate firectl.
+  why_used: firectl is a command-line tool to run Firecracker microVMs
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/PuerkitoBio/purell
+    - github.com/PuerkitoBio/urlesc
+    - github.com/asaskevich/govalidator
+    - github.com/containerd/fifo
+    - github.com/containernetworking/cni
+    - github.com/containernetworking/plugins
+    - github.com/firecracker-microvm/firecracker-go-sdk
+    - github.com/go-openapi/analysis
+    - github.com/go-openapi/errors
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/loads
+    - github.com/go-openapi/runtime
+    - github.com/go-openapi/spec
+    - github.com/go-openapi/strfmt
+    - github.com/go-openapi/swag
+    - github.com/go-openapi/validate
+    - github.com/google/uuid
+    - github.com/hashicorp/errwrap
+    - github.com/hashicorp/go-multierror
+    - github.com/jessevdk/go-flags
+    - github.com/josharian/intern
+    - github.com/mailru/easyjson
+    - github.com/mitchellh/mapstructure
+    - github.com/oklog/ulid
+    - github.com/opentracing/opentracing-go
+    - github.com/pkg/errors
+    - github.com/sirupsen/logrus
+    - github.com/vishvananda/netlink
+    - github.com/vishvananda/netns
+    - go.mongodb.org/mongo-driver
+    - golang.org/x/net
+    - golang.org/x/sys
+    - golang.org/x/text
+    - gopkg.in/yaml.v2
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: main.go, errors.go,
+    main_test.go, options.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/firecracker-microvm/firectl/blob/main/README.md
+  path: README.md
+  blob_sha: c619ff4f3988f853e4c8599d5c591fac4fe2c419
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: c743c81aa415b7b649dc9ae45969fb60941bfb1c
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 6fd40ab3c2924f2e8f53264bb469fb044d5720bb
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 42307
+    Makefile: 1795
+- type: Git tree
+  status: captured
+  sha: 1c4e1d9e7fbbb38c84a46bd837a713205d17563e
+  truncated: false
+- type: source_file
+  path: main.go
+  blob_sha: 5ebf5dd75c1dad119c65439c8985cac479cc9d9e
+  retrieved: true
+- type: source_file
+  path: errors.go
+  blob_sha: ee2d14f92a27d789c26bb699a66d7c0a22b4a035
+  retrieved: true
+- type: source_file
+  path: main_test.go
+  blob_sha: 2d005cc852d38a8ad399d63efd496f4de5804780
+  retrieved: true
+- type: source_file
+  path: options.go
+  blob_sha: 509a736e01395596d219fec0ec931a88ea9ddf16
+  retrieved: true

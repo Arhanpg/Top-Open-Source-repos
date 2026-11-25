@@ -1,10 +1,10 @@
 # Technical audits — google-gemini
 
-Updated: 2026-11-25T08:29:14+00:00
+Updated: 2026-11-25T23:09:22+00:00
 
 ## Status counts
 
-- evidence_only: 7
+- evidence_only: 11
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -17,5 +17,9 @@ Updated: 2026-11-25T08:29:14+00:00
 | angular-database-schema-sample-793884318 | evidence_only | [angular-database-schema-sample-793884318.md](angular-database-schema-sample-793884318.md) | [angular-database-schema-sample-793884318.yaml](angular-database-schema-sample-793884318.yaml) |
 | angular-docs-rag-sample-797401960 | evidence_only | [angular-docs-rag-sample-797401960.md](angular-docs-rag-sample-797401960.md) | [angular-docs-rag-sample-797401960.yaml](angular-docs-rag-sample-797401960.yaml) |
 | angular-draw-it-sample-796934168 | evidence_only | [angular-draw-it-sample-796934168.md](angular-draw-it-sample-796934168.md) | [angular-draw-it-sample-796934168.yaml](angular-draw-it-sample-796934168.yaml) |
+| angular-language-learning-sample-798449521 | evidence_only | [angular-language-learning-sample-798449521.md](angular-language-learning-sample-798449521.md) | [angular-language-learning-sample-798449521.yaml](angular-language-learning-sample-798449521.yaml) |
+| angular-rock-paper-scissors-sample-797403318 | evidence_only | [angular-rock-paper-scissors-sample-797403318.md](angular-rock-paper-scissors-sample-797403318.md) | [angular-rock-paper-scissors-sample-797403318.yaml](angular-rock-paper-scissors-sample-797403318.yaml) |
+| angular-webaudio-melodies-sample-794759922 | evidence_only | [angular-webaudio-melodies-sample-794759922.md](angular-webaudio-melodies-sample-794759922.md) | [angular-webaudio-melodies-sample-794759922.yaml](angular-webaudio-melodies-sample-794759922.yaml) |
+| angular-webxr-art-sample-796940304 | evidence_only | [angular-webxr-art-sample-796940304.md](angular-webxr-art-sample-796940304.md) | [angular-webxr-art-sample-796940304.yaml](angular-webxr-art-sample-796940304.yaml) |
 | github-765449529 | insufficient_evidence | [github-765449529.md](github-765449529.md) | [github-765449529.yaml](github-765449529.yaml) |
 | journal-with-gemini-798431387 | evidence_only | [journal-with-gemini-798431387.md](journal-with-gemini-798431387.md) | [journal-with-gemini-798431387.yaml](journal-with-gemini-798431387.yaml) |

@@ -1,10 +1,10 @@
 # Technical audits — cap-js-community
 
-Updated: 2026-11-25T08:29:14+00:00
+Updated: 2026-11-25T23:09:23+00:00
 
 ## Status counts
 
-- evidence_only: 6
+- evidence_only: 9
 
 ## Repository dossiers
 
@@ -16,3 +16,6 @@ Updated: 2026-11-25T08:29:14+00:00
 | event-queue-655765459 | evidence_only | [event-queue-655765459.md](event-queue-655765459.md) | [event-queue-655765459.yaml](event-queue-655765459.yaml) |
 | feature-toggle-library-616362565 | evidence_only | [feature-toggle-library-616362565.md](feature-toggle-library-616362565.md) | [feature-toggle-library-616362565.yaml](feature-toggle-library-616362565.yaml) |
 | github-563816783 | evidence_only | [github-563816783.md](github-563816783.md) | [github-563816783.yaml](github-563816783.yaml) |
+| mtx-tool-590077548 | evidence_only | [mtx-tool-590077548.md](mtx-tool-590077548.md) | [mtx-tool-590077548.yaml](mtx-tool-590077548.yaml) |
+| odata-v2-adapter-606059939 | evidence_only | [odata-v2-adapter-606059939.md](odata-v2-adapter-606059939.md) | [odata-v2-adapter-606059939.yaml](odata-v2-adapter-606059939.yaml) |
+| repository-template-563820151 | evidence_only | [repository-template-563820151.md](repository-template-563820151.md) | [repository-template-563820151.yaml](repository-template-563820151.yaml) |

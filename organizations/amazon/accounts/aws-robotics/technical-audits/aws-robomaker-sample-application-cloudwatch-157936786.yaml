@@ -1,0 +1,132 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:09:14+00:00'
+evidence_fingerprint: 6a9ebfa6e60d393081898bffa0bfad6fc46d3f09f1eef6d170913f9cb0167faa
+repository_metadata:
+  company: Amazon
+  account: aws-robotics
+  full_name: aws-robotics/aws-robomaker-sample-application-cloudwatch
+  repository_id: 157936786
+  url: https://github.com/aws-robotics/aws-robomaker-sample-application-cloudwatch
+  description: 'Use AWS RoboMaker and demonstrate monitoring robot health and operational metrics with AWS CloudWatch. '
+  default_branch: ros1
+  license_spdx: MIT-0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2021-12-30T21:33:09Z'
+  stars: 22
+  readme_url: https://github.com/aws-robotics/aws-robomaker-sample-application-cloudwatch/blob/ros1/README.md
+  readme_path: README.md
+  readme_sha: a088d1403d18c3473a481e42a2f248a20411096f
+  manifest_paths:
+  - Makefile
+  - robot_ws/src/cloudwatch_robot/CMakeLists.txt
+  - robot_ws/src/cloudwatch_robot/setup.py
+  - simulation_ws/src/aws_robomaker_simulation_common/CMakeLists.txt
+  - simulation_ws/src/aws_robomaker_simulation_common/setup.py
+  - simulation_ws/src/cloudwatch_simulation/CMakeLists.txt
+  source_files_inspected:
+  - robot_ws/src/cloudwatch_robot/deploymentScripts/post_check_monitor_nodes.sh
+  - robot_ws/src/cloudwatch_robot/deploymentScripts/post_launch_file.sh
+  - robot_ws/src/cloudwatch_robot/deploymentScripts/pre_launch_file.sh
+  - robot_ws/src/cloudwatch_robot/nodes/monitor_distance_to_goal.py
+  repository_tree:
+    status: captured
+    sha: 89fe2c5b2ba96d935fe1acf8dcedb518d684fa19
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Monitor health and operational metrics for a fleet of robots in a simulated home using AWS CloudWatch
+    Metrics and AWS CloudWatch Logs. Streamed metrics include speed, distance to nearest obstacle, distance to current
+    goal, robot CPU utilization, and RAM usage.
+  why_used: Use AWS RoboMaker and demonstrate monitoring robot health and operational metrics with AWS CloudWatch.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - CMake
+    - Makefile
+    - Ruby
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: robot_ws/src/cloudwatch_robot/deploymentScripts/post_check_monitor_nodes.sh,
+    robot_ws/src/cloudwatch_robot/deploymentScripts/post_launch_file.sh, robot_ws/src/cloudwatch_robot/deploymentScripts/pre_launch_file.sh,
+    robot_ws/src/cloudwatch_robot/nodes/monitor_distance_to_goal.py'
+  setup_and_usage:
+  - 'Installation: The following will be installed'
+  - 'Installation: - Colcon - Used for building and bundling the application.'
+  - 'Installation: - vcstool - Used to pull in sample app dependencies that are only available from source, not
+    from apt or pip.'
+  - 'Installation: - rosdep - rosdep is a command-line tool for installing system dependencies of ROS packages.'
+  - 'Installation: If ROS is detected, then ROS Installation will be skipped.'
+  - 'Installation: - ROS Melodic - Other versions may work, however they have not been tested'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-robotics/aws-robomaker-sample-application-cloudwatch/blob/ros1/README.md
+  path: README.md
+  blob_sha: a088d1403d18c3473a481e42a2f248a20411096f
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: aba4fe7dba77c113d59cc64ec9ca2ed7efddbfc3
+  retrieved: true
+- type: manifest
+  path: robot_ws/src/cloudwatch_robot/CMakeLists.txt
+  blob_sha: 6e4aa7a7ed4ade8cc6ba79d29283678c95e7339b
+  retrieved: true
+- type: manifest
+  path: robot_ws/src/cloudwatch_robot/setup.py
+  blob_sha: 8242c8588654091557f3d1391ab4d671fa6446fc
+  retrieved: true
+- type: manifest
+  path: simulation_ws/src/aws_robomaker_simulation_common/CMakeLists.txt
+  blob_sha: 6d68b90ff94a601aff9ef825ac7938e665ab468f
+  retrieved: true
+- type: manifest
+  path: simulation_ws/src/aws_robomaker_simulation_common/setup.py
+  blob_sha: 1d5e7353b3b5fcd35f5889522572655829f45d15
+  retrieved: true
+- type: manifest
+  path: simulation_ws/src/cloudwatch_simulation/CMakeLists.txt
+  blob_sha: c24d8020711e0cab8ffc22da20486290bf885ab0
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 32611
+    Shell: 9312
+    CMake: 6880
+    Makefile: 1038
+    Ruby: 535
+- type: Git tree
+  status: captured
+  sha: 89fe2c5b2ba96d935fe1acf8dcedb518d684fa19
+  truncated: false
+- type: source_file
+  path: robot_ws/src/cloudwatch_robot/deploymentScripts/post_check_monitor_nodes.sh
+  blob_sha: cc41da983a52e0c8460695bcf0a707e8da5b2dfb
+  retrieved: true
+- type: source_file
+  path: robot_ws/src/cloudwatch_robot/deploymentScripts/post_launch_file.sh
+  blob_sha: b7d6ea6cd60d37584a483647ed6aec1b52a26bb8
+  retrieved: true
+- type: source_file
+  path: robot_ws/src/cloudwatch_robot/deploymentScripts/pre_launch_file.sh
+  blob_sha: dcf4681e8b96ff9f36d573b5a748c2835361e384
+  retrieved: true
+- type: source_file
+  path: robot_ws/src/cloudwatch_robot/nodes/monitor_distance_to_goal.py
+  blob_sha: 58d63c58ad00af1855189957d8f00456d015acff
+  retrieved: true

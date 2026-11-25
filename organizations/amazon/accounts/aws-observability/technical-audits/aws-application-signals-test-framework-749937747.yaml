@@ -1,0 +1,145 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:44:48+00:00'
+evidence_fingerprint: f1214b70b6cdf1e46dc3fee7706f7041357be54f377140ccb83cd176b513e58e
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/aws-application-signals-test-framework
+  repository_id: 749937747
+  url: https://github.com/aws-observability/aws-application-signals-test-framework
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T19:04:56Z'
+  stars: 8
+  readme_url: https://github.com/aws-observability/aws-application-signals-test-framework/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 31a429ad1992aafcc116ddcd28de9046e8f43a06
+  manifest_paths:
+  - buildSrc/build.gradle.kts
+  - validator/build.gradle.kts
+  - mcp-testing/evals/requirements.txt
+  - sample-apps/traffic-generator/Dockerfile
+  - sample-apps/traffic-generator/package.json
+  - sample-apps/dotnet/asp_frontend_service/Dockerfile
+  source_files_inspected:
+  - mcp-testing/evals/tasks/applicationsignals/samples/get-enablement-guide-samples/docker-apps/java/spring-boot/src/main/java/com/application/springboot/Application.java
+  - mcp-testing/evals/tasks/applicationsignals/samples/investigations-sample/src/main.py
+  - mcp-testing/evals/__main__.py
+  - mcp-testing/evals/tasks/applicationsignals/samples/get-enablement-guide-samples/docker-apps/nodejs/express/app.js
+  repository_tree:
+    status: captured
+    sha: 67cfd4066d479dc968715493d874cf613c8e95d9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository uses pre-commit to automatically format Terraform files.
+  why_used: This repository uses pre-commit to automatically format Terraform files.
+  core_features: []
+  technology_stack:
+    languages:
+    - Mustache
+    - HCL
+    - Python
+    - Java
+    - TypeScript
+    - Shell
+    - C#
+    - JavaScript
+    - Smarty
+    - PowerShell
+    - Dockerfile
+    - ASP.NET
+    frameworks_and_libraries: []
+    dependencies:
+    - axios
+    - boto3
+    - loguru
+    - mcp
+    build_and_package_tools:
+    - Gradle Kotlin build file
+    - Docker build configuration
+    - npm-compatible manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: mcp-testing/evals/tasks/applicationsignals/samples/get-enablement-guide-samples/docker-apps/java/spring-boot/src/main/java/com/application/springboot/Application.java,
+    mcp-testing/evals/tasks/applicationsignals/samples/investigations-sample/src/main.py, mcp-testing/evals/__main__.py,
+    mcp-testing/evals/tasks/applicationsignals/samples/get-enablement-guide-samples/docker-apps/nodejs/express/app.js'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/aws-application-signals-test-framework/blob/main/README.md
+  path: README.md
+  blob_sha: 31a429ad1992aafcc116ddcd28de9046e8f43a06
+  retrieved: true
+- type: manifest
+  path: buildSrc/build.gradle.kts
+  blob_sha: 018784784e6b0ee9ee333f18c6f827b6b31edad7
+  retrieved: true
+- type: manifest
+  path: validator/build.gradle.kts
+  blob_sha: afe44a5b4d0a734c3adb9efe7a80102d549b473f
+  retrieved: true
+- type: manifest
+  path: mcp-testing/evals/requirements.txt
+  blob_sha: 92901526a763ca5ff5ab864baf4aa02ae6eff1fc
+  retrieved: true
+- type: manifest
+  path: sample-apps/traffic-generator/Dockerfile
+  blob_sha: e20787412620e8359e00845fa4db4527868aaef8
+  retrieved: true
+- type: manifest
+  path: sample-apps/traffic-generator/package.json
+  blob_sha: d1ccdec12f62c075d24cf54597cb2c1530981cb6
+  retrieved: true
+- type: manifest
+  path: sample-apps/dotnet/asp_frontend_service/Dockerfile
+  blob_sha: 200b799b4afe74515c5380a4c14ceecf02886d28
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Mustache: 964464
+    HCL: 606088
+    Python: 293100
+    Java: 222675
+    TypeScript: 50438
+    Shell: 38657
+    C#: 27121
+    JavaScript: 18013
+    Smarty: 15524
+    PowerShell: 12713
+    Dockerfile: 9489
+    ASP.NET: 1248
+- type: Git tree
+  status: captured
+  sha: 67cfd4066d479dc968715493d874cf613c8e95d9
+  truncated: false
+- type: source_file
+  path: mcp-testing/evals/tasks/applicationsignals/samples/get-enablement-guide-samples/docker-apps/java/spring-boot/src/main/java/com/application/springboot/Application.java
+  blob_sha: 088b50fa862355c2b74f640b3fb0ff72ad272394
+  retrieved: true
+- type: source_file
+  path: mcp-testing/evals/tasks/applicationsignals/samples/investigations-sample/src/main.py
+  blob_sha: 2b32bf5c637e5cc1485b2888012807dbaf98f645
+  retrieved: true
+- type: source_file
+  path: mcp-testing/evals/__main__.py
+  blob_sha: 31a7459c4658d1ebcd10bcb8393351dc25b9da54
+  retrieved: true
+- type: source_file
+  path: mcp-testing/evals/tasks/applicationsignals/samples/get-enablement-guide-samples/docker-apps/nodejs/express/app.js
+  blob_sha: 1306060286103d4741243cf1e91783807465f912
+  retrieved: true

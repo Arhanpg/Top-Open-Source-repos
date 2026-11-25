@@ -1,0 +1,101 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:59:21+00:00'
+evidence_fingerprint: fcb2692c35f5d0e2e04c610d4595fe9e6545a7b8b9030d999357f2d23826aa89
+repository_metadata:
+  company: Alphabet (Google)
+  account: GoogleCloudPlatform
+  full_name: GoogleCloudPlatform/DIY-Tools
+  repository_id: 238751362
+  url: https://github.com/GoogleCloudPlatform/DIY-Tools
+  description: null
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-04-24T08:48:16Z'
+  stars: 47
+  readme_url: https://github.com/GoogleCloudPlatform/DIY-Tools/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 98b3959c0a9892591730110bc2346d5067623549
+  manifest_paths:
+  - gcp-data-drive/Dockerfile
+  - gcp-data-drive/go.mod
+  source_files_inspected:
+  - gcp-data-drive/cmd/webserver/main.go
+  - gcp-data-drive/bq.go
+  - gcp-data-drive/fs.go
+  - gcp-data-drive/gcpdatadrive.go
+  repository_tree:
+    status: captured
+    sha: 92d335794ad18561685498264e414c2b678546bc
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: An eclectic set of tools and training materials from the Google Professional Services Organization (PSO)
+    to help out individual developers. These tools demonstrate effective usage patterns for using Cloud API's and
+    services.
+  why_used: An eclectic set of tools and training materials from the Google Professional Services Organization (PSO)
+    to help out individual developers. These tools demonstrate effective usage patterns for using Cloud API's and
+    services.
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies:
+    - cloud.google.com/go/bigquery
+    - cloud.google.com/go/firestore
+    - github.com/google/go-cmp
+    - google.golang.org/api
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: gcp-data-drive/cmd/webserver/main.go,
+    gcp-data-drive/bq.go, gcp-data-drive/fs.go, gcp-data-drive/gcpdatadrive.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/GoogleCloudPlatform/DIY-Tools/blob/master/README.md
+  path: README.md
+  blob_sha: 98b3959c0a9892591730110bc2346d5067623549
+  retrieved: true
+- type: manifest
+  path: gcp-data-drive/Dockerfile
+  blob_sha: d47758dceb50b7a1b8e80c88929b46fbc4228279
+  retrieved: true
+- type: manifest
+  path: gcp-data-drive/go.mod
+  blob_sha: 7dc90793da0303d9ffda199f60e4faeccbb66f5f
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: 92d335794ad18561685498264e414c2b678546bc
+  truncated: false
+- type: source_file
+  path: gcp-data-drive/cmd/webserver/main.go
+  blob_sha: f83a9a24df566ccec82fb352c5c088b6acc62f7f
+  retrieved: true
+- type: source_file
+  path: gcp-data-drive/bq.go
+  blob_sha: 0938e77158e159c7e4736c7df7f5f66413c3f0ba
+  retrieved: true
+- type: source_file
+  path: gcp-data-drive/fs.go
+  blob_sha: f54cc36eaeb8d3468839c56de3bd5bae39d07b47
+  retrieved: true
+- type: source_file
+  path: gcp-data-drive/gcpdatadrive.go
+  blob_sha: 0ba4264d1eae1f373ad8e7da516d5bb1712fda3a
+  retrieved: true

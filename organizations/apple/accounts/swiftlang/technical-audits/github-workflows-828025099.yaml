@@ -1,0 +1,107 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:55:05+00:00'
+evidence_fingerprint: 8fc48ee073398f33a52785c8c60d5af535f1c04afac9d3111e2b9160e111e21e
+repository_metadata:
+  company: Apple
+  account: swiftlang
+  full_name: swiftlang/github-workflows
+  repository_id: 828025099
+  url: https://github.com/swiftlang/github-workflows
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T17:51:26Z'
+  stars: 115
+  readme_url: https://github.com/swiftlang/github-workflows/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e95af22ac8fe4386ac1aa07307336eac0e34115e
+  manifest_paths:
+  - tests/CMakeProject/CMakeLists.txt
+  source_files_inspected:
+  - .github/actions/install-cmake/install-cmake.sh
+  - .github/matrix-generator/Package.swift
+  - .github/matrix-generator/Sources/generate-matrix/main.swift
+  - .github/matrix-generator/Sources/MatrixGenerator/GenerateMatrix.swift
+  repository_tree:
+    status: captured
+    sha: c3f8c233a31d9dd27f72af822cbbc0cfd33f92c3
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository will contain reusable workflows to minimize redundant workflows across the organization.
+    This effort will also facilitate the standardization of testing processes while empowering repository code owners
+    to customize their testing plans as needed. The repository will contain workflows to support different types
+    of repositories, such as Swift Package and Swift Compiler.
+  why_used: This repository will contain reusable workflows to minimize redundant workflows across the organization.
+    This effort will also facilitate the standardization of testing processes while empowering repository code owners
+    to customize their testing plans as needed. The repository will contain workflows to support different types
+    of repositories, such as Swift Package and Swift Compiler.
+  core_features: []
+  technology_stack:
+    languages:
+    - Shell
+    - PowerShell
+    - Swift
+    - C
+    - Python
+    - CMake
+    - Java
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .github/actions/install-cmake/install-cmake.sh,
+    .github/matrix-generator/Package.swift, .github/matrix-generator/Sources/generate-matrix/main.swift, .github/matrix-generator/Sources/MatrixGenerator/GenerateMatrix.swift'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/swiftlang/github-workflows/blob/main/README.md
+  path: README.md
+  blob_sha: e95af22ac8fe4386ac1aa07307336eac0e34115e
+  retrieved: true
+- type: manifest
+  path: tests/CMakeProject/CMakeLists.txt
+  blob_sha: 42f9ddafb20677e478d377ef4efcb34ece2bd423
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Shell: 64110
+    PowerShell: 11167
+    Swift: 6588
+    C: 542
+    Python: 535
+    CMake: 84
+    Java: 20
+- type: Git tree
+  status: captured
+  sha: c3f8c233a31d9dd27f72af822cbbc0cfd33f92c3
+  truncated: false
+- type: source_file
+  path: .github/actions/install-cmake/install-cmake.sh
+  blob_sha: 8ac81f34820a93c47e009902a6b050883b05be61
+  retrieved: true
+- type: source_file
+  path: .github/matrix-generator/Package.swift
+  blob_sha: c1c67f25561ff43ef3513689ef36cc1cf2cd6d63
+  retrieved: true
+- type: source_file
+  path: .github/matrix-generator/Sources/generate-matrix/main.swift
+  blob_sha: 5385611d53a6207df6196cc8aad6a258ad329eac
+  retrieved: true
+- type: source_file
+  path: .github/matrix-generator/Sources/MatrixGenerator/GenerateMatrix.swift
+  blob_sha: 491a5b0a241f6946e58b4cd2648ce43182259dca
+  retrieved: true

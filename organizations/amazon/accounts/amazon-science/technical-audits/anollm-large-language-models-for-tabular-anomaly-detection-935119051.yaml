@@ -1,0 +1,110 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:51:44+00:00'
+evidence_fingerprint: 1c4e1d6523ff0aa8449e9ee03d0c0ed7396be275779196fd47548e831165cad3
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/AnoLLM-large-language-models-for-tabular-anomaly-detection
+  repository_id: 935119051
+  url: https://github.com/amazon-science/AnoLLM-large-language-models-for-tabular-anomaly-detection
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-02T10:06:29Z'
+  stars: 41
+  readme_url: https://github.com/amazon-science/AnoLLM-large-language-models-for-tabular-anomaly-detection/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 50fe1fd42b80d5a9759c5866db9ff54a7d40987c
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - src/__init__.py
+  - src/baselines/dte.py
+  - src/baselines/icl.py
+  - src/data_utils.py
+  repository_tree:
+    status: captured
+    sha: 4c5d317e18d69afa56c77689d6162b2e4a7241eb
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This repository contains the implementation of the paper: > **AnoLLM: Large Language Models for Tabular
+    Anomaly Detection** > International Conference on Learning Representations (ICLR 2025) > Che-Ping Tsai, Ganyu
+    Teng, Phil Wallis, Wei Ding.'
+  why_used: 'This repository contains the implementation of the paper: > **AnoLLM: Large Language Models for Tabular
+    Anomaly Detection** > International Conference on Learning Representations (ICLR 2025) > Che-Ping Tsai, Ganyu
+    Teng, Phil Wallis, Wei Ding.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - adbench
+    - datasets
+    - deepod
+    - feature_engine
+    - gensim
+    - numpy
+    - pandas
+    - peft
+    - scikit_learn
+    - scipy
+    - tf-keras
+    - tqdm
+    - transformers
+    - ucimlrepo
+    - wandb
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/__init__.py, src/baselines/dte.py,
+    src/baselines/icl.py, src/data_utils.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/AnoLLM-large-language-models-for-tabular-anomaly-detection/blob/main/README.md
+  path: README.md
+  blob_sha: 50fe1fd42b80d5a9759c5866db9ff54a7d40987c
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: b34b09e74985baf5908b25276178a3ca10717aff
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 110938
+    Shell: 53869
+- type: Git tree
+  status: captured
+  sha: 4c5d317e18d69afa56c77689d6162b2e4a7241eb
+  truncated: false
+- type: source_file
+  path: src/__init__.py
+  blob_sha: 203562bfa077a16fadd91e30a5a288cbf09feb6f
+  retrieved: true
+- type: source_file
+  path: src/baselines/dte.py
+  blob_sha: aec9f44294d71c93247df46bf28426e53fea8160
+  retrieved: true
+- type: source_file
+  path: src/baselines/icl.py
+  blob_sha: a1d461f1529b2b0e52e0cd31f87f793c03ab16ef
+  retrieved: true
+- type: source_file
+  path: src/data_utils.py
+  blob_sha: ddb91b960157838f12a1f1c99d4147403a021d07
+  retrieved: true

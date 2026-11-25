@@ -1,0 +1,94 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:04:09+00:00'
+evidence_fingerprint: 998534a45b13176e7262d9c09d0662353ef797c312ec9d9af4eda6c25fb4cedd
+repository_metadata:
+  company: Microsoft
+  account: MicrosoftDocs
+  full_name: MicrosoftDocs/Azure-Maya-Mystery-Challenge-2
+  repository_id: 281763715
+  url: https://github.com/MicrosoftDocs/Azure-Maya-Mystery-Challenge-2
+  description: A shopping cart experience tied to the Azure Maya Mystery to help learn the meaning of the temple's
+    name
+  default_branch: main
+  license_spdx: CC-BY-4.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-03-09T16:03:13Z'
+  stars: 3
+  readme_url: https://github.com/MicrosoftDocs/Azure-Maya-Mystery-Challenge-2/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 9adfc96a36d34108c5593fb3ac241bf0c9086686
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - app.js
+  - products.js
+  - public/frontend.js
+  repository_tree:
+    status: captured
+    sha: 5db93d6a78c4c8395f0e8cca8f7c687fa45903d5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: By running this application using Node.js, you will be able to gather the gear you need to dive into
+    the mysterious cenote as described in Part 2 of the Azure Maya Mystery.
+  why_used: A shopping cart experience tied to the Azure Maya Mystery to help learn the meaning of the temple's
+    name
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CSS
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - express
+    - mustache-express
+    - node-fetch
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: app.js, products.js,
+    public/frontend.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/MicrosoftDocs/Azure-Maya-Mystery-Challenge-2/blob/main/README.md
+  path: README.md
+  blob_sha: 9adfc96a36d34108c5593fb3ac241bf0c9086686
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 8852483b09ed426b651cba63291cfd611cfece7b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 4266
+    CSS: 722
+    HTML: 646
+- type: Git tree
+  status: captured
+  sha: 5db93d6a78c4c8395f0e8cca8f7c687fa45903d5
+  truncated: false
+- type: source_file
+  path: app.js
+  blob_sha: 382697876c252f2e11a225ad947d522be6333d3b
+  retrieved: true
+- type: source_file
+  path: products.js
+  blob_sha: 52469d50c6e523a5549e72d3b724681f246b24f5
+  retrieved: true
+- type: source_file
+  path: public/frontend.js
+  blob_sha: 87dbf94fb8d5b348ef52da33eda8ee2bd1a73d71
+  retrieved: true

@@ -1,0 +1,79 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:55:13+00:00'
+evidence_fingerprint: 3cf30ed991170a2a5ccfbaea6987ffc5732e759919be31e99ed8326ac773ae74
+repository_metadata:
+  company: Baidu
+  account: ApolloAuto
+  full_name: ApolloAuto/apollo-kernel
+  repository_id: 95910564
+  url: https://github.com/ApolloAuto/apollo-kernel
+  description: Collections of Apollo Kernels
+  default_branch: master
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2022-05-27T11:49:48Z'
+  stars: 410
+  readme_url: https://github.com/ApolloAuto/apollo-kernel/blob/master/README.md
+  readme_path: README.md
+  readme_sha: f5c707c693c304507c9398e8b7b9d223821688e9
+  manifest_paths: []
+  source_files_inspected:
+  - linux/build.sh
+  - linux/install-nvidia.sh
+  - linux/install_kernel.sh
+  repository_tree:
+    status: captured
+    sha: faa0e8dd76551b22f01db70b4a2451a70e61ae9b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Apollo Kernel provides the necessary kernel level support to run Apollo software stack. In the first
+    release, we add the most popular solution, Linux Kernel, under the linux directory.
+  why_used: Collections of Apollo Kernels
+  core_features: []
+  technology_stack:
+    languages:
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: linux/build.sh, linux/install-nvidia.sh,
+    linux/install_kernel.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ApolloAuto/apollo-kernel/blob/master/README.md
+  path: README.md
+  blob_sha: f5c707c693c304507c9398e8b7b9d223821688e9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Shell: 14622
+- type: Git tree
+  status: captured
+  sha: faa0e8dd76551b22f01db70b4a2451a70e61ae9b
+  truncated: false
+- type: source_file
+  path: linux/build.sh
+  blob_sha: bcafc22f1fcc00fc700a827460ac2f7974fa3f5a
+  retrieved: true
+- type: source_file
+  path: linux/install-nvidia.sh
+  blob_sha: 8fd47a0b07d94b9befd4dd26595dbb6648cd6341
+  retrieved: true
+- type: source_file
+  path: linux/install_kernel.sh
+  blob_sha: 2ad3a27825ab2a1b9357c7c7004471ee0e918c80
+  retrieved: true

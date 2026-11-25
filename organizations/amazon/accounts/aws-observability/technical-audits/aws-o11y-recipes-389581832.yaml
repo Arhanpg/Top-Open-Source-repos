@@ -1,0 +1,175 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:52:57+00:00'
+evidence_fingerprint: b57819d465975fc205d1e451e989bb1dc0f744c32231770603c2cccbf53b956c
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/aws-o11y-recipes
+  repository_id: 389581832
+  url: https://github.com/aws-observability/aws-o11y-recipes
+  description: 'recipes for observability solutions at AWS '
+  default_branch: main
+  license_spdx: null
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2023-01-11T14:23:43Z'
+  stars: 110
+  readme_url: https://github.com/aws-observability/aws-o11y-recipes/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 8263cdb9498391b6bdd6b2158c85bd8a45467d32
+  manifest_paths:
+  - sandbox/CWMetricStreamExporter/Makefile
+  - sandbox/CWMetricStreamExporter/package.json
+  - sandbox/ho11y/Dockerfile
+  - sandbox/ho11y/go.mod
+  - sandbox/CWMetricStreamExporter/cdk/package.json
+  - sandbox/CWMetricStreamExporter/lambda/go.mod
+  source_files_inspected:
+  - sandbox/CWMetricStreamExporter/lambda/main.go
+  - sandbox/ho11y/main.go
+  - sandbox/CWMetricStreamExporter/cdk/lib/cdk-stack.ts
+  - sandbox/CWMetricStreamExporter/cdk/bin/cdk.ts
+  repository_tree:
+    status: captured
+    sha: 2cd3ddcd76d4890a3f0df1c4f5964dd7647279a8
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repo has been archived and the project merged into https://github.com/aws-observability/observability-best-practices.
+  why_used: recipes for observability solutions at AWS
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - TypeScript
+    - Python
+    - Shell
+    - JavaScript
+    - HTML
+    - Dockerfile
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-cdk/assert'
+    - '@aws-cdk/aws-iam'
+    - '@aws-cdk/aws-kinesisfirehose'
+    - '@aws-cdk/aws-kinesisfirehose-destinations'
+    - '@aws-cdk/core'
+    - '@types/jest'
+    - '@types/js-yaml'
+    - '@types/node'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - aws-cdk
+    - eslint
+    - eslint-config-airbnb-base
+    - eslint-plugin-import
+    - github.com/aws/aws-lambda-go
+    - github.com/aws/aws-sdk-go
+    - github.com/bitly/go-simplejson
+    - github.com/bmizerany/assert
+    - github.com/c2h5oh/datasize
+    - github.com/catalint/datasize
+    - github.com/gogo/protobuf
+    - github.com/golang/snappy
+    - github.com/gorilla/mux
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/prometheus
+    - github.com/sirupsen/logrus
+    - go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/mux/otelmux
+    - go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
+    - go.opentelemetry.io/contrib/propagators/aws
+    - go.opentelemetry.io/otel
+    - go.opentelemetry.io/otel/exporters/otlp
+    - go.opentelemetry.io/otel/sdk
+    - go.opentelemetry.io/otel/sdk/metric
+    - go.opentelemetry.io/otel/trace
+    - golang.org/x/net
+    - google.golang.org/genproto
+    - google.golang.org/grpc
+    - google.golang.org/protobuf
+    - jest
+    - js-yaml
+    - source-map-support
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: sandbox/CWMetricStreamExporter/lambda/main.go,
+    sandbox/ho11y/main.go, sandbox/CWMetricStreamExporter/cdk/lib/cdk-stack.ts, sandbox/CWMetricStreamExporter/cdk/bin/cdk.ts'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/aws-o11y-recipes/blob/main/README.md
+  path: README.md
+  blob_sha: 8263cdb9498391b6bdd6b2158c85bd8a45467d32
+  retrieved: true
+- type: manifest
+  path: sandbox/CWMetricStreamExporter/Makefile
+  blob_sha: 473937f2d2aa03948d1b312d43ce9355c1e0dbf6
+  retrieved: true
+- type: manifest
+  path: sandbox/CWMetricStreamExporter/package.json
+  blob_sha: f47cf8da6cafffecfd21770239533b8e3c3a93a4
+  retrieved: true
+- type: manifest
+  path: sandbox/ho11y/Dockerfile
+  blob_sha: b20561061fd20c01cc96d73fef061f5ddd84845f
+  retrieved: true
+- type: manifest
+  path: sandbox/ho11y/go.mod
+  blob_sha: d1b2ff38336becf1afe889adb10d3b65f9e3083d
+  retrieved: true
+- type: manifest
+  path: sandbox/CWMetricStreamExporter/cdk/package.json
+  blob_sha: e4233dfac8c668aef4de5ae935aee67ee066635d
+  retrieved: true
+- type: manifest
+  path: sandbox/CWMetricStreamExporter/lambda/go.mod
+  blob_sha: 5bdc9ef87b25a27f3528c7bd6a76b294fc14a669
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 24246
+    TypeScript: 5613
+    Python: 5141
+    Shell: 3246
+    JavaScript: 1092
+    HTML: 892
+    Dockerfile: 421
+    Makefile: 266
+- type: Git tree
+  status: captured
+  sha: 2cd3ddcd76d4890a3f0df1c4f5964dd7647279a8
+  truncated: false
+- type: source_file
+  path: sandbox/CWMetricStreamExporter/lambda/main.go
+  blob_sha: 641d32c061d8f4193457ecfb23ce8259110789c4
+  retrieved: true
+- type: source_file
+  path: sandbox/ho11y/main.go
+  blob_sha: e31fcfe1c2c6f10cdbd934eb61952d07f0ee4634
+  retrieved: true
+- type: source_file
+  path: sandbox/CWMetricStreamExporter/cdk/lib/cdk-stack.ts
+  blob_sha: 2716f23d52f7d1f0f8d1718b4a9613cb3e6723a0
+  retrieved: true
+- type: source_file
+  path: sandbox/CWMetricStreamExporter/cdk/bin/cdk.ts
+  blob_sha: d330f6b07fb47d1bc5f818bcccf5218ffe3fbf77
+  retrieved: true

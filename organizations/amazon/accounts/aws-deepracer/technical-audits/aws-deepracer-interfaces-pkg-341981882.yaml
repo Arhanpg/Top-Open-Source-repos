@@ -1,0 +1,74 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:00:41+00:00'
+evidence_fingerprint: bbed7b548fba965b5526a5a5d6e8d935a860ae22e32432129b74bd89d0fa3adf
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/aws-deepracer-interfaces-pkg
+  repository_id: 341981882
+  url: https://github.com/aws-deepracer/aws-deepracer-interfaces-pkg
+  description: The DeepRacer Interfaces ROS package is a foundational package that creates the custom service and
+    message types that are used in the core AWS DeepRacer application.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-07-03T16:58:16Z'
+  stars: 2
+  readme_url: https://github.com/aws-deepracer/aws-deepracer-interfaces-pkg/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 02d77e6446800514544bcae62c724c07c345e947
+  manifest_paths:
+  - deepracer_interfaces_pkg/CMakeLists.txt
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: 5b752966889d2b491e4866743245e74b2859a312
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The AWS DeepRacer interfaces ROS package is a foundational package that creates the custom service and
+    message types that are used in the core AWS DeepRacer application. These services and messages are shared across
+    the packages that are part of the AWS DeepRacer application. For more details about the application and the
+    components, see the aws-deepracer-launcher repository.
+  why_used: The DeepRacer Interfaces ROS package is a foundational package that creates the custom service and message
+    types that are used in the core AWS DeepRacer application.
+  core_features: []
+  technology_stack:
+    languages:
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage:
+  - 'Installation: Follow these steps to install the AWS DeepRacer interfaces package.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/aws-deepracer-interfaces-pkg/blob/main/README.md
+  path: README.md
+  blob_sha: 02d77e6446800514544bcae62c724c07c345e947
+  retrieved: true
+- type: manifest
+  path: deepracer_interfaces_pkg/CMakeLists.txt
+  blob_sha: be482127d31f9534a0f77a8508f47c0da469e2c6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    CMake: 2382
+- type: Git tree
+  status: captured
+  sha: 5b752966889d2b491e4866743245e74b2859a312
+  truncated: false

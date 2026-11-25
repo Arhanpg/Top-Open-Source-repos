@@ -1,0 +1,110 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:53:52+00:00'
+evidence_fingerprint: 3d5e5aaa758e8e1ed130b41de89185676c92e9f77629ea054a1f6f23e4411ec0
+repository_metadata:
+  company: Amazon
+  account: boto
+  full_name: boto/botoflow
+  repository_id: 60211054
+  url: https://github.com/boto/botoflow
+  description: Botoflow is an asynchronous framework for Amazon SWF that helps you build SWF applications using
+    Python
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2022-12-26T20:15:26Z'
+  stars: 14
+  readme_url: https://github.com/boto/botoflow/blob/master/README.rst
+  readme_path: README.rst
+  readme_sha: 89bb4f057ef299d131d87ac1b334b3da2b8a1114
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  - docs/Makefile
+  source_files_inspected:
+  - botoflow/core/__init__.py
+  - botoflow/core/async_context.py
+  - botoflow/core/async_event_loop.py
+  - botoflow/core/async_root_task_context.py
+  repository_tree:
+    status: captured
+    sha: 75927418c7a391c2ff42d94ad59c899f0d43da3f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ================================================ Botoflow - Asynchronous Framework for Amazon SWF ================================================
+  why_used: Botoflow is an asynchronous framework for Amazon SWF that helps you build SWF applications using Python
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - coverage
+    - dill
+    - mock
+    - nose
+    - pytest
+    - pytest-catchlog
+    - pytest-cov
+    - retrying
+    - tox
+    - wheel
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: botoflow/core/__init__.py,
+    botoflow/core/async_context.py, botoflow/core/async_event_loop.py, botoflow/core/async_root_task_context.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/boto/botoflow/blob/master/README.rst
+  path: README.rst
+  blob_sha: 89bb4f057ef299d131d87ac1b334b3da2b8a1114
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 91ca11a7c0902112cd031b7060f3e324229c051e
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: cd3e8f3f1fdd530566930eeb850801b9cf139afe
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: 1f8e57819bfe724256cccb0e292f8ad20ce15d74
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 484833
+- type: Git tree
+  status: captured
+  sha: 75927418c7a391c2ff42d94ad59c899f0d43da3f
+  truncated: false
+- type: source_file
+  path: botoflow/core/__init__.py
+  blob_sha: df6952dac9d26e74825df1a4724e10dfeb4a58b9
+  retrieved: true
+- type: source_file
+  path: botoflow/core/async_context.py
+  blob_sha: cf427764d65f2cc0a6d3643de5b009670efca182
+  retrieved: true
+- type: source_file
+  path: botoflow/core/async_event_loop.py
+  blob_sha: 5eac835fcc57bc9379fca74f66bdccdc3a2768b3
+  retrieved: true
+- type: source_file
+  path: botoflow/core/async_root_task_context.py
+  blob_sha: e1ec12d83db4c5d17eb71c54c19accf4d28dba91
+  retrieved: true

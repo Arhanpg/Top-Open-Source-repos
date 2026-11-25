@@ -6,7 +6,7 @@
 - Default branch: main
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-25T03:45:08+00:00
+- Generated: 2026-11-25T22:43:52+00:00
 
 ## Project purpose
 
@@ -22,7 +22,7 @@ No separately supported feature list extracted.
 
 ## Technology stack
 
-- Languages: Unknown / not established
+- Languages: Python, Jupyter Notebook, Shell
 - Frameworks/libraries: Unknown / not established
 - Dependency names: PyYAML, absl-py, aiobotocore, aiohappyeyeballs, aiohttp, aioitertools, aiosignal, aiosqlite, alembic, altair, annotated-doc, annotated-types, antlr4-python3-runtime, anyio, asn1crypto, asttokens, astunparse, attrs, autopep8, aws-embedded-metrics, aws-requests-auth, awswrangler, banks, beautifulsoup4, bedrock-agentcore, bedrock-agentcore-starter-toolkit, black, blinker, bokeh, boto3, botocore, cachetools, certifi, cffi, chardet, charset-normalizer, click, cloudpickle, colorama, comm, contourpy, cryptography, cycler, databricks-sdk, dataclasses-json, datasets, debugpy, decorator, deprecated, dill, dirtyjson, distro, docker, docstring-parser, docstring-to-markdown, duckdb, executing, fastapi, filelock, filetype, flask, flask-cors, flatbuffers, fonttools, frozenlist, fsspec, gast, gitdb, gitpython, google-api-core, google-auth, google-cloud-bigquery, google-cloud-core, google-crc32c, google-pasta, google-resumable-media, googleapis-common-protos, graphene, graphql-core, graphql-relay, greenlet, griffe, grpcio, grpcio-status, gunicorn, h11, h5py, hf-xet, httpcore, httpx, httpx-sse, huggingface-hub, ibis, idna, importlib-metadata, ipykernel, ipython, ipython-pygments-lexers, itsdangerous, jedi, jinja2, jsonschema, moto, opensearch-py, pydantic, pytest, pytest-cov, pytest-mock, pyyaml, requests, retrying, rich, termcolor, typer
 - Build/package tools: Python project manifest, pip requirements file
@@ -54,7 +54,7 @@ Architecture is not interpreted in evidence-only mode. Sampled source files: src
 - Manifests: pyproject.toml, requirements.txt, setup.py, tests/requirements.txt, examples/analytic-workflow/data-notebooks/notebooks/requirements.txt, examples/analytic-workflow/genai/job-code/requirements.txt
 - Sampled source files: src/smus_cicd/cli.py, src/smus_cicd/mcp/__main__.py, src/smus_cicd/mcp/server.py, src/smus_cicd/__init__.py
 - Git tree state: captured
-- Evidence fingerprint: f751b9b368383fa62b574cf4cb3a818c5e1f41be9a8ddcc97f30eb5f3c730046
+- Evidence fingerprint: f63f4393e87a3fe39b5d3d82681e105d39bb1ec266dfd8d4482e58eabaaba187
 
 ## Unverified / unknown
 

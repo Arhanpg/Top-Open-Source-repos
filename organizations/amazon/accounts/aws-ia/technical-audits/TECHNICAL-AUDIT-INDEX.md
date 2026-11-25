@@ -1,10 +1,10 @@
 # Technical audits — aws-ia
 
-Updated: 2026-11-25T08:29:15+00:00
+Updated: 2026-11-25T23:09:24+00:00
 
 ## Status counts
 
-- evidence_only: 5
+- evidence_only: 9
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -16,4 +16,8 @@ Updated: 2026-11-25T08:29:15+00:00
 | aws-ia-documentation-base-common-448028246 | evidence_only | [aws-ia-documentation-base-common-448028246.md](aws-ia-documentation-base-common-448028246.md) | [aws-ia-documentation-base-common-448028246.yaml](aws-ia-documentation-base-common-448028246.yaml) |
 | cdk-ps-aws-data-fabric-security-764851445 | evidence_only | [cdk-ps-aws-data-fabric-security-764851445.md](cdk-ps-aws-data-fabric-security-764851445.md) | [cdk-ps-aws-data-fabric-security-764851445.yaml](cdk-ps-aws-data-fabric-security-764851445.yaml) |
 | cfn-abi-aws-reference-guide-618583772 | evidence_only | [cfn-abi-aws-reference-guide-618583772.md](cfn-abi-aws-reference-guide-618583772.md) | [cfn-abi-aws-reference-guide-618583772.yaml](cfn-abi-aws-reference-guide-618583772.yaml) |
+| cfn-abi-crowdstrike-fcs-627052977 | evidence_only | [cfn-abi-crowdstrike-fcs-627052977.md](cfn-abi-crowdstrike-fcs-627052977.md) | [cfn-abi-crowdstrike-fcs-627052977.yaml](cfn-abi-crowdstrike-fcs-627052977.yaml) |
+| cfn-abi-deepwatch-mdr-621494914 | evidence_only | [cfn-abi-deepwatch-mdr-621494914.md](cfn-abi-deepwatch-mdr-621494914.md) | [cfn-abi-deepwatch-mdr-621494914.yaml](cfn-abi-deepwatch-mdr-621494914.yaml) |
+| cfn-abi-ibmsecurity-qradar-627052900 | evidence_only | [cfn-abi-ibmsecurity-qradar-627052900.md](cfn-abi-ibmsecurity-qradar-627052900.md) | [cfn-abi-ibmsecurity-qradar-627052900.yaml](cfn-abi-ibmsecurity-qradar-627052900.yaml) |
+| cfn-abi-lacework-polygraph-621441541 | evidence_only | [cfn-abi-lacework-polygraph-621441541.md](cfn-abi-lacework-polygraph-621441541.md) | [cfn-abi-lacework-polygraph-621441541.yaml](cfn-abi-lacework-polygraph-621441541.yaml) |
 | github-411533239 | evidence_only | [github-411533239.md](github-411533239.md) | [github-411533239.yaml](github-411533239.yaml) |

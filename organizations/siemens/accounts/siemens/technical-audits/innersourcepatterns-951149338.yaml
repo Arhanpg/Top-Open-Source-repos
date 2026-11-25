@@ -1,0 +1,103 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:06:50+00:00'
+evidence_fingerprint: 6a05c8e0789ccae0da0c9c582f4677c7914aa96d0277e07d58456e8a5b9902d4
+repository_metadata:
+  company: Siemens
+  account: Siemens
+  full_name: siemens/InnerSourcePatterns
+  repository_id: 951149338
+  url: https://github.com/siemens/InnerSourcePatterns
+  description: These patterns document how to apply open source principles and practices for software development
+    within the confines of an organization - aka InnerSource.
+  default_branch: main
+  license_spdx: CC-BY-SA-4.0
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2025-05-07T07:32:09Z'
+  stars: 1
+  readme_url: https://github.com/siemens/InnerSourcePatterns/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1e41e686248319847168ebe05d06df05a08493b3
+  manifest_paths:
+  - pattern-categorization/package.json
+  - book/scripts/Gemfile
+  - meta/scripts/Gemfile
+  source_files_inspected:
+  - .github/lint-pattern-syntax/pattern-template.js
+  - book/scripts/generate_toc.rb
+  - meta/scripts/find_upgradeable_patterns.rb
+  repository_tree:
+    status: captured
+    sha: 7ffce9f61a33fc021e40af97b0fcfb1a68fa0cf7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains the InnerSource Patterns collected by the [InnerSource Commons][isc-website].
+    These patterns are InnerSource best practices codified in a specific format to make it easy to understand, evaluate,
+    and reuse them.
+  why_used: These patterns document how to apply open source principles and practices for software development within
+    the confines of an organization - aka InnerSource.
+  core_features: []
+  technology_stack:
+    languages:
+    - HTML
+    - Ruby
+    frameworks_and_libraries: []
+    dependencies:
+    - markmap-cli
+    - optipng-bin
+    build_and_package_tools:
+    - Bundler manifest
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .github/lint-pattern-syntax/pattern-template.js,
+    book/scripts/generate_toc.rb, meta/scripts/find_upgradeable_patterns.rb'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/siemens/InnerSourcePatterns/blob/main/README.md
+  path: README.md
+  blob_sha: 1e41e686248319847168ebe05d06df05a08493b3
+  retrieved: true
+- type: manifest
+  path: pattern-categorization/package.json
+  blob_sha: 61c50321f142a965041041937aa6a8f7b7b72f52
+  retrieved: true
+- type: manifest
+  path: book/scripts/Gemfile
+  blob_sha: b6ad7dc6a52fc522ad57af201f67ef6570a56bbd
+  retrieved: true
+- type: manifest
+  path: meta/scripts/Gemfile
+  blob_sha: 1cd3261e2facc6d81c2b5459fb3526d18f50a689
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    HTML: 40477
+    Ruby: 6999
+- type: Git tree
+  status: captured
+  sha: 7ffce9f61a33fc021e40af97b0fcfb1a68fa0cf7
+  truncated: false
+- type: source_file
+  path: .github/lint-pattern-syntax/pattern-template.js
+  blob_sha: 2bbe399ced8b6c9bd484096e3a7af55d0be5f625
+  retrieved: true
+- type: source_file
+  path: book/scripts/generate_toc.rb
+  blob_sha: 3a42b70887b2d5e8fa27afb56200a29ab689408c
+  retrieved: true
+- type: source_file
+  path: meta/scripts/find_upgradeable_patterns.rb
+  blob_sha: face61c6542a6a2d78814882cf7744c06375bba7
+  retrieved: true

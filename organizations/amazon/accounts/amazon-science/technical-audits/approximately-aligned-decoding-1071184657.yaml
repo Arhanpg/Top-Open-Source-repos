@@ -1,0 +1,122 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:59:45+00:00'
+evidence_fingerprint: 9f36f1173b501fccfc65bfbfbfba314a9567e88d6c633649c49a68b69cce293a
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/Approximately-Aligned-Decoding
+  repository_id: 1071184657
+  url: https://github.com/amazon-science/Approximately-Aligned-Decoding
+  description: null
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-02-13T14:34:59Z'
+  stars: 5
+  readme_url: https://github.com/amazon-science/Approximately-Aligned-Decoding/blob/main/README.md
+  readme_path: README.md
+  readme_sha: eeb3eb234fc87f9eeb49673ba81a4bdad3ddacb0
+  manifest_paths:
+  - requirements.txt
+  - pyright_hallucination_detector/package.json
+  source_files_inspected:
+  - pyright_hallucination_detector/src/check_hallucination.ts
+  - pyright_hallucination_detector/src/run_server.ts
+  - approx_aligned_decoding/backtracking_strategy/__init__.py
+  repository_tree:
+    status: captured
+    sha: 0cf60240cc915b3adafb871748494acfa49a5e34
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Official code for https://neurips.cc/virtual/2025/poster/120288
+  why_used: Official code for https://neurips.cc/virtual/2025/poster/120288
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Python
+    - Jupyter Notebook
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - '@types/express'
+    - '@types/jest'
+    - '@zzzen/pyright-internal'
+    - accelerate
+    - ansi
+    - datasets
+    - express
+    - jest
+    - jupyter
+    - numpy
+    - pandas
+    - pyright
+    - requests
+    - scipy
+    - tokenizers
+    - torch
+    - tqdm
+    - transformers
+    - ts-jest
+    - ts-node
+    - typescript
+    - typing_extensions
+    build_and_package_tools:
+    - npm-compatible manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: pyright_hallucination_detector/src/check_hallucination.ts,
+    pyright_hallucination_detector/src/run_server.ts, approx_aligned_decoding/__init__.py, approx_aligned_decoding/backtracking_strategy/__init__.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/Approximately-Aligned-Decoding/blob/main/README.md
+  path: README.md
+  blob_sha: eeb3eb234fc87f9eeb49673ba81a4bdad3ddacb0
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 161bc3c9277af911a11e7c9e27a77340f3d60ac5
+  retrieved: true
+- type: manifest
+  path: pyright_hallucination_detector/package.json
+  blob_sha: 7306964a4b004739a34c983a7c0fb9bc0455e4f7
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 179947
+    Python: 157197
+    Jupyter Notebook: 12258
+    Shell: 743
+- type: Git tree
+  status: captured
+  sha: 0cf60240cc915b3adafb871748494acfa49a5e34
+  truncated: false
+- type: source_file
+  path: pyright_hallucination_detector/src/check_hallucination.ts
+  blob_sha: 83e24cc83f90948c11da58bb606f58c7e28df1d2
+  retrieved: true
+- type: source_file
+  path: pyright_hallucination_detector/src/run_server.ts
+  blob_sha: 1a06e76711ba8cfea51d96ffb9240068e9317d4c
+  retrieved: true
+- type: source_file
+  path: approx_aligned_decoding/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: approx_aligned_decoding/backtracking_strategy/__init__.py
+  blob_sha: a470ad0ca4a66f55615b6a84d96ec7f37a90f49e
+  retrieved: true

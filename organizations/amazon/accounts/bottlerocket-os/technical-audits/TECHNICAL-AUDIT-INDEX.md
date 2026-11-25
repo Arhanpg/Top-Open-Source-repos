@@ -1,10 +1,10 @@
 # Technical audits — bottlerocket-os
 
-Updated: 2026-11-25T08:29:14+00:00
+Updated: 2026-11-25T23:09:21+00:00
 
 ## Status counts
 
-- evidence_only: 6
+- evidence_only: 9
 
 ## Repository dossiers
 
@@ -15,4 +15,7 @@ Updated: 2026-11-25T08:29:14+00:00
 | bottlerocket-bootstrap-container-836889820 | evidence_only | [bottlerocket-bootstrap-container-836889820.md](bottlerocket-bootstrap-container-836889820.md) | [bottlerocket-bootstrap-container-836889820.yaml](bottlerocket-bootstrap-container-836889820.yaml) |
 | bottlerocket-control-container-240619456 | evidence_only | [bottlerocket-control-container-240619456.md](bottlerocket-control-container-240619456.md) | [bottlerocket-control-container-240619456.yaml](bottlerocket-control-container-240619456.yaml) |
 | bottlerocket-core-kit-810418424 | evidence_only | [bottlerocket-core-kit-810418424.md](bottlerocket-core-kit-810418424.md) | [bottlerocket-core-kit-810418424.yaml](bottlerocket-core-kit-810418424.yaml) |
+| bottlerocket-ecs-updater-322691393 | evidence_only | [bottlerocket-ecs-updater-322691393.md](bottlerocket-ecs-updater-322691393.md) | [bottlerocket-ecs-updater-322691393.yaml](bottlerocket-ecs-updater-322691393.yaml) |
+| bottlerocket-kernel-kit-884539052 | evidence_only | [bottlerocket-kernel-kit-884539052.md](bottlerocket-kernel-kit-884539052.md) | [bottlerocket-kernel-kit-884539052.yaml](bottlerocket-kernel-kit-884539052.yaml) |
+| bottlerocket-project-website-525824226 | evidence_only | [bottlerocket-project-website-525824226.md](bottlerocket-project-website-525824226.md) | [bottlerocket-project-website-525824226.yaml](bottlerocket-project-website-525824226.yaml) |
 | github-246401776 | evidence_only | [github-246401776.md](github-246401776.md) | [github-246401776.yaml](github-246401776.yaml) |

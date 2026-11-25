@@ -1,0 +1,112 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:47:36+00:00'
+evidence_fingerprint: 2e90282576de40bc2d6d1fdc4f03029e9252d163c4241d76317d70ca60423852
+repository_metadata:
+  company: Baidu
+  account: xuperchain
+  full_name: xuperchain/contract-sdk-go
+  repository_id: 329852492
+  url: https://github.com/xuperchain/contract-sdk-go
+  description: The Go contract sdk for xuperchain
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2022-06-08T03:16:28Z'
+  stars: 8
+  readme_url: https://github.com/xuperchain/contract-sdk-go/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3ada3e3d9d1a9f97db0431200bba1e977f3b93e0
+  manifest_paths:
+  - go.mod
+  - Makefile
+  - example/Makefile
+  source_files_inspected:
+  - example/award_manage/main.go
+  - example/charity/main.go
+  - example/counter/main.go
+  - example/eleccert/main.go
+  repository_tree:
+    status: captured
+    sha: 963046d958326145b50780d26e8994f966532c01
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Go contract sdk for xuperchain
+  why_used: The Go contract sdk for xuperchain
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - JavaScript
+    - Shell
+    - Makefile
+    - Assembly
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/go-playground/validator/v10
+    - github.com/golang/protobuf
+    - golang.org/x/net
+    - golang.org/x/sys
+    - google.golang.org/grpc
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: example/award_manage/main.go,
+    example/charity/main.go, example/counter/main.go, example/eleccert/main.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/xuperchain/contract-sdk-go/blob/main/README.md
+  path: README.md
+  blob_sha: 3ada3e3d9d1a9f97db0431200bba1e977f3b93e0
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 8a50bc64bdaa8eba1945623b0d5b2882bc086857
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 5ca8e5daf4e78e263d7e792f7d75dbf573929b8d
+  retrieved: true
+- type: manifest
+  path: example/Makefile
+  blob_sha: 1ce5709058da8a8ed31594f53617e2dfe82d5509
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 98961
+    JavaScript: 29240
+    Shell: 416
+    Makefile: 309
+    Assembly: 135
+- type: Git tree
+  status: captured
+  sha: 963046d958326145b50780d26e8994f966532c01
+  truncated: false
+- type: source_file
+  path: example/award_manage/main.go
+  blob_sha: 78e78d2afbfea5bd24ea3495a1cf6544ae82fe53
+  retrieved: true
+- type: source_file
+  path: example/charity/main.go
+  blob_sha: 77f447809c5ace26246a5b4d3e367784157d4422
+  retrieved: true
+- type: source_file
+  path: example/counter/main.go
+  blob_sha: 63f59a673f7da87c8598a4f2e7b5637dea58e601
+  retrieved: true
+- type: source_file
+  path: example/eleccert/main.go
+  blob_sha: 37625fc6ccee8438668dc13465fc31a97b6ae88b
+  retrieved: true

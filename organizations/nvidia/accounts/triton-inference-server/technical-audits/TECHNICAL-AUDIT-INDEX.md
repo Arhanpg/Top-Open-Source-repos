@@ -1,10 +1,10 @@
 # Technical audits — triton-inference-server
 
-Updated: 2026-11-25T08:29:15+00:00
+Updated: 2026-11-25T23:09:23+00:00
 
 ## Status counts
 
-- evidence_only: 6
+- evidence_only: 9
 
 ## Repository dossiers
 
@@ -14,5 +14,8 @@ Updated: 2026-11-25T08:29:15+00:00
 | checksum-repository-agent-331492017 | evidence_only | [checksum-repository-agent-331492017.md](checksum-repository-agent-331492017.md) | [checksum-repository-agent-331492017.yaml](checksum-repository-agent-331492017.yaml) |
 | client-352816666 | evidence_only | [client-352816666.md](client-352816666.md) | [client-352816666.yaml](client-352816666.yaml) |
 | common-285053408 | evidence_only | [common-285053408.md](common-285053408.md) | [common-285053408.yaml](common-285053408.yaml) |
+| contrib-306442101 | evidence_only | [contrib-306442101.md](contrib-306442101.md) | [contrib-306442101.yaml](contrib-306442101.yaml) |
+| core-295559728 | evidence_only | [core-295559728.md](core-295559728.md) | [core-295559728.yaml](core-295559728.yaml) |
+| dali-backend-294219252 | evidence_only | [dali-backend-294219252.md](dali-backend-294219252.md) | [dali-backend-294219252.yaml](dali-backend-294219252.yaml) |
 | github-490856153 | evidence_only | [github-490856153.md](github-490856153.md) | [github-490856153.yaml](github-490856153.yaml) |
 | tensorrt-llm-1130520542 | evidence_only | [tensorrt-llm-1130520542.md](tensorrt-llm-1130520542.md) | [tensorrt-llm-1130520542.yaml](tensorrt-llm-1130520542.yaml) |

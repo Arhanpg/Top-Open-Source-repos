@@ -1,0 +1,85 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:03:29+00:00'
+evidence_fingerprint: 950c1ed9665e3c608be953f10ba6ca693e0f028691320d6001cb8444bb11db41
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/ElasticCTR
+  repository_id: 225549581
+  url: https://github.com/PaddlePaddle/ElasticCTR
+  description: ElasticCTR，即飞桨弹性计算推荐系统，是基于Kubernetes的企业级推荐系统开源解决方案。该方案融合了百度业务场景下持续打磨的高精度CTR模型、飞桨开源框架的大规模分布式训练能力、工业级稀疏参数弹性调度服务，帮助用户在Kubernetes环境中一键完成推荐系统部署，具备高性能、工业级部署、端到端体验的特点，并且作为开源套件，满足二次深度开发的需求。
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2020-07-11T05:12:47Z'
+  stars: 188
+  readme_url: https://github.com/PaddlePaddle/ElasticCTR/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 3aa69b02901dff447dcb27447623b7615ba9bcde
+  manifest_paths: []
+  source_files_inspected:
+  - elastic-ctr-cli/elastic-control.sh
+  - elastic-ctr-cli/listen.py
+  - elastic-ctr-cli/service.py
+  - elastic-ctr-cli/service_auto_port.py
+  repository_tree:
+    status: captured
+    sha: fae508e313c3cbb37139cc7e0807c24fe257a348
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ElasticCTR是分布式训练CTR预估任务和Serving流程一键部署的方案，用户只需配置数据源、样本格式即可完成一系列的训练与预测任务
+  why_used: ElasticCTR，即飞桨弹性计算推荐系统，是基于Kubernetes的企业级推荐系统开源解决方案。该方案融合了百度业务场景下持续打磨的高精度CTR模型、飞桨开源框架的大规模分布式训练能力、工业级稀疏参数弹性调度服务，帮助用户在Kubernetes环境中一键完成推荐系统部署，具备高性能、工业级部署、端到端体验的特点，并且作为开源套件，满足二次深度开发的需求。
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: elastic-ctr-cli/elastic-control.sh,
+    elastic-ctr-cli/listen.py, elastic-ctr-cli/service.py, elastic-ctr-cli/service_auto_port.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/ElasticCTR/blob/master/README.md
+  path: README.md
+  blob_sha: 3aa69b02901dff447dcb27447623b7615ba9bcde
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 55067
+    Shell: 28804
+- type: Git tree
+  status: captured
+  sha: fae508e313c3cbb37139cc7e0807c24fe257a348
+  truncated: false
+- type: source_file
+  path: elastic-ctr-cli/elastic-control.sh
+  blob_sha: d0c34f2025c64ddb18870320969e1ac802c95454
+  retrieved: true
+- type: source_file
+  path: elastic-ctr-cli/listen.py
+  blob_sha: 0794f737dcbd30809fd88889c8a96837d985cfd1
+  retrieved: true
+- type: source_file
+  path: elastic-ctr-cli/service.py
+  blob_sha: 43c4f8bbf155302d66c1e05200e3b78911f7da91
+  retrieved: true
+- type: source_file
+  path: elastic-ctr-cli/service_auto_port.py
+  blob_sha: 79bd1a78bcb33e75ddb60d86bb09a11bf362b249
+  retrieved: true

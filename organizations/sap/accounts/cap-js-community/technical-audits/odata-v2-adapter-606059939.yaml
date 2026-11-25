@@ -1,0 +1,211 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:57:22+00:00'
+evidence_fingerprint: 3aff216f262b3127c40565359bdae9f87fdefbf1f6810314086280b0d3afc752
+repository_metadata:
+  company: SAP
+  account: cap-js-community
+  full_name: cap-js-community/odata-v2-adapter
+  repository_id: 606059939
+  url: https://github.com/cap-js-community/odata-v2-adapter
+  description: OData V2 adapter for CDS. Exposes a full-fledged OData V2 service, converting OData V2 requests to
+    CDS OData V4 service calls and responses back.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T19:31:01Z'
+  stars: 39
+  readme_url: https://github.com/cap-js-community/odata-v2-adapter/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 22824b8ca3e731447015182e92a8d8c8d310fa7c
+  manifest_paths:
+  - package.json
+  - test-hana/_env/package.json
+  - test-postgres/_env/package.json
+  - test/_env/package.json
+  - test-hana/_env/db/package.json
+  source_files_inspected:
+  - test-hana/_env/srv/server.js
+  - src/build.js
+  - src/index.d.ts
+  - test-hana/_env/app/parameters/webapp/Component.js
+  repository_tree:
+    status: captured
+    sha: 2ee07e0443334ed523b53fcf5096936436a0218b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Exposes a full-fledged OData V2 service, converting OData V2 requests to CDS OData V4 service calls and
+    responses back. Runs in the context of the SAP Cloud Application Programming Model (CAP) using CDS Node.js module
+    @sap/cds or CDS Java modules com.sap.cds.
+  why_used: OData V2 adapter for CDS. Exposes a full-fledged OData V2 service, converting OData V2 requests to CDS
+    OData V4 service calls and responses back.
+  core_features:
+  - name: GET, POST, PUT / MERGE / PATCH, DELETE
+    description: GET, POST, PUT / MERGE / PATCH, DELETE
+    evidence:
+    - README.md#Features
+  - name: Batch support
+    description: Batch support
+    evidence:
+    - README.md#Features
+  - name: Actions, Functions
+    description: Actions, Functions
+    evidence:
+    - README.md#Features
+  - name: Analytical Annotations
+    description: Analytical Annotations
+    evidence:
+    - README.md#Features
+  - name: Deep Expands/Selects
+    description: Deep Expands/Selects
+    evidence:
+    - README.md#Features
+  - name: JSON, Atom (XML) format
+    description: JSON, Atom (XML) format
+    evidence:
+    - README.md#Features
+  - name: Deep Structures
+    description: Deep Structures
+    evidence:
+    - README.md#Features
+  - name: Data Type Mapping
+    description: Data Type Mapping
+    evidence:
+    - README.md#Features
+  - name: IEEE754Compatible
+    description: IEEE754Compatible
+    evidence:
+    - README.md#Features
+  - name: Messages / Error Handling
+    description: Messages / Error Handling
+    evidence:
+    - README.md#Features
+  - name: Location Header
+    description: Location Header
+    evidence:
+    - README.md#Features
+  - name: $inlinecount / $count / \$value
+    description: $inlinecount / $count / \$value
+    evidence:
+    - README.md#Features
+  - name: Entity with Parameters
+    description: Entity with Parameters
+    evidence:
+    - README.md#Features
+  - name: File Upload (binary, multipart/form-data)
+    description: File Upload (binary, multipart/form-data)
+    evidence:
+    - README.md#Features
+  - name: Stream Support (Octet and Url)
+    description: Stream Support (Octet and Url)
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    - HTML
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js-community/odata-v2-adapter'
+    - '@cap-js/cds-test'
+    - '@cap-js/hana'
+    - '@cap-js/postgres'
+    - '@cap-js/sqlite'
+    - '@eslint/js'
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - '@sap/hdi-deploy'
+    - '@types/express'
+    - '@vitest/coverage-v8'
+    - '@vitest/eslint-plugin'
+    - body-parser
+    - body-parser-xml
+    - compression
+    - eslint
+    - eslint-config-prettier
+    - eslint-plugin-n
+    - express
+    - express-fileupload
+    - http-proxy-middleware
+    - node-fetch
+    - prettier
+    - supertest
+    - typescript
+    - typescript-eslint
+    - vitest
+    - xml2js
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: test-hana/_env/srv/server.js,
+    src/build.js, src/index.d.ts, test-hana/_env/app/parameters/webapp/Component.js'
+  setup_and_usage:
+  - 'Getting Started: - Run npm add @cap-js-community/odata-v2-adapter in @sap/cds project'
+  - 'Getting Started: - Execute cds-serve to start server'
+  - 'Getting Started: - OData V2 service is available at http://localhost:4004/odata/v2/'
+  - 'Getting Started: - OData V4 service is available at http://localhost:4004/odata/v4/'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js-community/odata-v2-adapter/blob/main/README.md
+  path: README.md
+  blob_sha: 22824b8ca3e731447015182e92a8d8c8d310fa7c
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 22e3d945b695a0f538a47cad293acbe702e0e550
+  retrieved: true
+- type: manifest
+  path: test-hana/_env/package.json
+  blob_sha: e159170b58f92db9dec3a47b149bb3affc97284b
+  retrieved: true
+- type: manifest
+  path: test-postgres/_env/package.json
+  blob_sha: ca9d4038acf71ea233ff021cb11b5a7817a1f8fc
+  retrieved: true
+- type: manifest
+  path: test/_env/package.json
+  blob_sha: abaca7bead5b4e567081ebaec646928e55f0a1b4
+  retrieved: true
+- type: manifest
+  path: test-hana/_env/db/package.json
+  blob_sha: 7b4d0acef4d259df9c3f9a24e45e6fd880296894
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 607492
+    CAP CDS: 47485
+    HTML: 2850
+    TypeScript: 176
+- type: Git tree
+  status: captured
+  sha: 2ee07e0443334ed523b53fcf5096936436a0218b
+  truncated: false
+- type: source_file
+  path: test-hana/_env/srv/server.js
+  blob_sha: 7d5c31014fcab86756314c32631537309aa863ca
+  retrieved: true
+- type: source_file
+  path: src/build.js
+  blob_sha: c1cb135a458071c938b7b47caf9cadc7a9df10c0
+  retrieved: true
+- type: source_file
+  path: src/index.d.ts
+  blob_sha: 13294bafd6c9a3f04a3a34ea5b0cb7b1cf8a1a21
+  retrieved: true
+- type: source_file
+  path: test-hana/_env/app/parameters/webapp/Component.js
+  blob_sha: 8c86f1b87ea3a5c5bace36984ca2add290a8cac7
+  retrieved: true

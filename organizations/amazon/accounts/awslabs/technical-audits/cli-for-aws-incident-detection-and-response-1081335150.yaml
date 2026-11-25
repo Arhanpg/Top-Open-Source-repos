@@ -1,0 +1,103 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:45:36+00:00'
+evidence_fingerprint: 42cf1000cfe09c581c5a25897ac99da5e3b1cb365a81380713b56cb00ad5ae78
+repository_metadata:
+  company: Amazon
+  account: awslabs
+  full_name: awslabs/CLI-for-AWS-Incident-Detection-and-Response
+  repository_id: 1081335150
+  url: https://github.com/awslabs/CLI-for-AWS-Incident-Detection-and-Response
+  description: 'Command line tools to help you onboard to AWS Incident Detection and Response '
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-29T23:10:17Z'
+  stars: 20
+  readme_url: https://github.com/awslabs/CLI-for-AWS-Incident-Detection-and-Response/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a36dbf03e7332f67f268f4e8cd8a42523a8b98b8
+  manifest_paths:
+  - pyproject.toml
+  source_files_inspected:
+  - src/aws_idr_customer_cli/main.py
+  - src/aws_idr_customer_cli/clients/ec2.py
+  repository_tree:
+    status: captured
+    sha: 0a5ded2c755b2ca039d51b4fc110962a5eaad9e9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'The AWS Incident Detection and Response Customer CLI (referred to as the "IDR CLI" or "CLI" in this
+    package) is a command-line-interface tool that streamlines how you onboard to AWS Incident Detection and Response
+    ("IDR"). You can read more about IDR onboarding in the User Guide: https://docs.aws.amazon.com/IDR/latest/userguide/getting-started-idr.html'
+  why_used: Command line tools to help you onboard to AWS Incident Detection and Response
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies:
+    - arnparse
+    - aws-lambda-powertools
+    - boto3
+    - boto3-stubs
+    - click
+    - colorama
+    - cryptography
+    - dataclasses-json
+    - injector
+    - pyyaml
+    - questionary
+    - retry
+    - rich
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/aws_idr_customer_cli/main.py,
+    src/aws_idr_customer_cli/__init__.py, src/aws_idr_customer_cli/clients/__init__.py, src/aws_idr_customer_cli/clients/ec2.py'
+  setup_and_usage:
+  - 'Quick Start: **Prerequisites**: AWS credentials configured (not needed in CloudShell) and required IAM permissions
+    - see Getting Started and IAM Policies'
+  limitations:
+  - 'Security: See SECURITY for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/awslabs/CLI-for-AWS-Incident-Detection-and-Response/blob/main/README.md
+  path: README.md
+  blob_sha: a36dbf03e7332f67f268f4e8cd8a42523a8b98b8
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 578e4781b965fa1915c0d701f616b10900996aba
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: 0a5ded2c755b2ca039d51b4fc110962a5eaad9e9
+  truncated: false
+- type: source_file
+  path: src/aws_idr_customer_cli/main.py
+  blob_sha: 12bb10b2e166417d0a66cc91cf8245e3085c6f39
+  retrieved: true
+- type: source_file
+  path: src/aws_idr_customer_cli/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: src/aws_idr_customer_cli/clients/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: src/aws_idr_customer_cli/clients/ec2.py
+  blob_sha: 3d2eb33dadfb6fa3a44d89c942d00e1b145e07cb
+  retrieved: true

@@ -1,0 +1,87 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:08:41+00:00'
+evidence_fingerprint: e7d90932b3b592363bf7de3b83caa80ea7594af8112a97aae10c4f8d6c3f6004
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/aws-deepracer-launcher
+  repository_id: 341983585
+  url: https://github.com/aws-deepracer/aws-deepracer-launcher
+  description: 'Build robotics applications with AWS DeepRacer device software and hardware: https://www.amazon.com/dp/B07JMHRKQG'
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-05-15T15:57:12Z'
+  stars: 108
+  readme_url: https://github.com/aws-deepracer/aws-deepracer-launcher/blob/main/readme.md
+  readme_path: readme.md
+  readme_sha: 26f89ecc98aa18f102e500b2a208848453e7a097
+  manifest_paths:
+  - deepracer_launcher/CMakeLists.txt
+  source_files_inspected:
+  - deepracer_launcher/launch/deepracer_launcher.py
+  - install_dependencies.sh
+  repository_tree:
+    status: captured
+    sha: 3313fa54ab2033e4482c9fd0af2bed1e9a27242f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The AWS DeepRacer vehicle is a Wi-Fi enabled physical vehicle that can drive itself on a physical track
+    by using a reinforcement learning model. This repository contains the robot application code shipped with the
+    AWS DeepRacer hardware. It also includes examples demonstrating how you can extend the AWS DeepRacer application
+    for new scenarios. For example, the Follow the Leader (FTL) sample project shows how you can use object detection
+    and navigation to modify the vehicle application to follow you as you move about in a room.
+  why_used: 'Build robotics applications with AWS DeepRacer device software and hardware: https://www.amazon.com/dp/B07JMHRKQG'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - CMake
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: deepracer_launcher/launch/deepracer_launcher.py,
+    install_dependencies.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/aws-deepracer-launcher/blob/main/readme.md
+  path: readme.md
+  blob_sha: 26f89ecc98aa18f102e500b2a208848453e7a097
+  retrieved: true
+- type: manifest
+  path: deepracer_launcher/CMakeLists.txt
+  blob_sha: a80a9c481d3b3bc70504db80f2ff203151f8577d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 5881
+    CMake: 1022
+    Shell: 648
+- type: Git tree
+  status: captured
+  sha: 3313fa54ab2033e4482c9fd0af2bed1e9a27242f
+  truncated: false
+- type: source_file
+  path: deepracer_launcher/launch/deepracer_launcher.py
+  blob_sha: 411d72ced05b48d89c1e0ac5db9afaeb0103c79d
+  retrieved: true
+- type: source_file
+  path: install_dependencies.sh
+  blob_sha: bd57be896b2c3475177216e6550b16b4b89eb738
+  retrieved: true

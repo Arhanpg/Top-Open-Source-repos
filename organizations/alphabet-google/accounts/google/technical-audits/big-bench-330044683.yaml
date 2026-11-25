@@ -1,0 +1,240 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:07:07+00:00'
+evidence_fingerprint: ef50076968b48f3beac7562991d4fa01f1b332dfc56db8ff93d2ed5d88632291
+repository_metadata:
+  company: Alphabet (Google)
+  account: google
+  full_name: google/BIG-bench
+  repository_id: 330044683
+  url: https://github.com/google/BIG-bench
+  description: Beyond the Imitation Game collaborative benchmark for measuring and extrapolating the capabilities
+    of language models
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-07-19T11:57:37Z'
+  stars: 3243
+  readme_url: https://github.com/google/BIG-bench/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 630172c5df6d58493689a23345c5c5575feb517f
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  - scripts/docker/Dockerfile
+  - bigbench/benchmark_tasks/chess_state_tracking/scripts/requirements.txt
+  source_files_inspected:
+  - bigbench/api/analysis.py
+  - bigbench/api/conftest.py
+  repository_tree:
+    status: captured
+    sha: bd35c2e487af183ea54c4847f4824d36f7956f28
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Beyond the Imitation Game Benchmark (BIG-bench) is a *collaborative* benchmark intended to probe
+    large language models and extrapolate their future capabilities. The *more than 200* tasks included in BIG-bench
+    are summarized by keyword here, and by task name here. A paper introducing the benchmark, including evaluation
+    results on large language models, is currently under review, and is available as a preprint.
+  why_used: Beyond the Imitation Game collaborative benchmark for measuring and extrapolating the capabilities of
+    language models
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Jupyter Notebook
+    - Dockerfile
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - GitPython
+    - Jinja2
+    - ManimPango
+    - Markdown
+    - MarkupSafe
+    - Pillow
+    - PyJWT
+    - PyOpenGL
+    - PySocks
+    - PyYAML
+    - Pygments
+    - QtPy
+    - RestrictedPython
+    - SecretStorage
+    - Send2Trash
+    - Werkzeug
+    - absl-py
+    - accelerate
+    - aiohttp
+    - appdirs
+    - argon2-cffi
+    - arrow
+    - async-generator
+    - async-timeout
+    - attrs
+    - backcall
+    - binaryornot
+    - bitarray
+    - black
+    - bleach
+    - blinker
+    - blis
+    - boto3
+    - botocore
+    - brotlipy
+    - cachetools
+    - catalogue
+    - certifi
+    - cffi
+    - chardet
+    - chess
+    - click
+    - click-default-group
+    - cloudpickle
+    - cloup
+    - colorama
+    - colour
+    - commonmark
+    - configparser
+    - cookiecutter
+    - cryptography
+    - cycler
+    - cymem
+    - datasets
+    - decorator
+    - deepspeed
+    - defusedxml
+    - dill
+    - docker-pycreds
+    - editdistance
+    - en-core-web-lg
+    - en-core-web-sm
+    - en-core-web-trf
+    - entrypoints
+    - filelock
+    - fsspec
+    - ftfy
+    - future
+    - gitdb
+    - glcontext
+    - google-auth
+    - google-auth-oauthlib
+    - grpcio
+    - huggingface-hub
+    - idna
+    - immutabledict
+    - importlib-metadata
+    - ipykernel
+    - ipython
+    - ipython-genutils
+    - ipywidgets
+    - jedi
+    - jeepney
+    - jinja2-time
+    - jmespath
+    - joblib
+    - jsonschema
+    - jupyter
+    - jupyter-client
+    - jupyter-console
+    - jupyter-core
+    - jupyterlab-pygments
+    - jupyterlab-widgets
+    - keyring
+    - kiwisolver
+    - line-profiler
+    - lxml
+    - manim
+    - mapbox-earcut
+    - matplotlib
+    - meson
+    - mistune
+    - mkl-fft
+    - mkl-random
+    - numpy
+    - pytest
+    - requests-unixsocket
+    - scikit-learn
+    - scipy
+    - seaborn
+    - seqio
+    - t5
+    - tensorflow
+    - tensorflow-text
+    - transformers
+    build_and_package_tools:
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: bigbench/__init__.py,
+    bigbench/api/__init__.py, bigbench/api/analysis.py, bigbench/api/conftest.py'
+  setup_and_usage:
+  - 'Quick start Colab notebooks: **Using SeqIO to inspect and evaluate BIG-bench json tasks**:'
+  - 'Quick start Colab notebooks: - load BIG-bench json tasks and inspect examples'
+  - 'Quick start Colab notebooks: - evaluate a t5x model on a BIG-bench json task'
+  - 'Quick start Colab notebooks: **Creating new BIG-bench tasks**'
+  - 'Quick start Colab notebooks: - lightweight task creation and evaluation'
+  - 'Quick start Colab notebooks: - manually perform BIG-bench tasks (after creating a task in your own branch,
+    use this notebook to manually evaluate and verify that it is behaving correctly)'
+  - 'Quick start instructions to load BIG-bench json tasks using SeqIO :chair:+:telescope:: !pip install git+https://github.com/google/BIG-bench.git
+    # This may take a few minutes'
+  - 'Quick start instructions to load BIG-bench json tasks using SeqIO :chair:+:telescope:: from bigbench.bbseqio
+    import tasks'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google/BIG-bench/blob/main/README.md
+  path: README.md
+  blob_sha: 630172c5df6d58493689a23345c5c5575feb517f
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 3b1647416a9ad81e6ae4ffcbaa30c69ade5b0ae4
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 19c445affc7cf1fa647245eaf65ccafdbb27244c
+  retrieved: true
+- type: manifest
+  path: scripts/docker/Dockerfile
+  blob_sha: 41bc212f0b9d9e0e0f9dbd21df7245975f9d906c
+  retrieved: true
+- type: manifest
+  path: bigbench/benchmark_tasks/chess_state_tracking/scripts/requirements.txt
+  blob_sha: c31392fb595aa00f4abc6d32ae9b853371d87124
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 1564542
+    Jupyter Notebook: 638615
+    Dockerfile: 1453
+    Shell: 1436
+- type: Git tree
+  status: captured
+  sha: bd35c2e487af183ea54c4847f4824d36f7956f28
+  truncated: false
+- type: source_file
+  path: bigbench/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: bigbench/api/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: bigbench/api/analysis.py
+  blob_sha: 67ae6aa8559652e71673a60d97ee58bd65e9a64d
+  retrieved: true
+- type: source_file
+  path: bigbench/api/conftest.py
+  blob_sha: 5cec50a4a680bc75cfe5ca5a6189d0e94772a221
+  retrieved: true

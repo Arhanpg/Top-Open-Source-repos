@@ -1,0 +1,102 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:47:52+00:00'
+evidence_fingerprint: 2948881ca90cd743130567aa5de3d719e93a042e3329400381db8edc2f73cf12
+repository_metadata:
+  company: Microsoft
+  account: dotnet
+  full_name: dotnet/AzCopyNet
+  repository_id: 296705329
+  url: https://github.com/dotnet/AzCopyNet
+  description: .NET Library to seamlessly leverage AzCopy
+  default_branch: main
+  license_spdx: MIT
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-12-20T20:05:49Z'
+  stars: 14
+  readme_url: https://github.com/dotnet/AzCopyNet/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 91fabb5da259b40d59aee96c5b52de7e8b58b27a
+  manifest_paths: []
+  source_files_inspected:
+  - src/AzCopy.Client/AZCopyClient.cs
+  - src/AzCopy.Contract/AZCopyLocation/LocalLocation.cs
+  - src/AzCopy.Contract/AZCopyLocation/LocationBase.cs
+  - src/AzCopy.Contract/AZCopyLocation/RemoteSasLocation.cs
+  repository_tree:
+    status: captured
+    sha: 7ebf67269b610cadbf8df6b8aebc69ca98fe760c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: AzCopy.Net is a .net standard library for AzCopy. It is a thin wrapper out of AzCopy v10 cli.
+  why_used: .NET Library to seamlessly leverage AzCopy
+  core_features: []
+  technology_stack:
+    languages:
+    - PowerShell
+    - C#
+    - Shell
+    - CMake
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/AzCopy.Client/AZCopyClient.cs,
+    src/AzCopy.Contract/AZCopyLocation/LocalLocation.cs, src/AzCopy.Contract/AZCopyLocation/LocationBase.cs, src/AzCopy.Contract/AZCopyLocation/RemoteSasLocation.cs'
+  setup_and_usage:
+  - 'Quick start: First, add nuget reference to AzCopy.Client. It provides straight forward API to call into AzCopy
+    v10 cli.'
+  - 'Quick start: Then add reference to one of the four nuget asset packages based on your OS and platform. The
+    version of these packages are corresponded to the version of azcopy v10 cli it carries with.'
+  - 'Quick start: If azcopy v10 cli has already installed on your machine, you can also add its full path to $AZCOPYPATH.
+    When running the app, AzCopy.Client will use the azcopy cli pointed by $AZCOPYPATH.'
+  - 'Quick start: Finally, use AzCopy.Client the same way of using azcopy in cmd!'
+  - 'Quick start: var localFile = new LocalLocation()'
+  - 'Quick start: var sasLocation = new RemoteSasLocation()'
+  - 'Quick start: ResourceUri = @"uri",'
+  - 'Quick start: Container = @"container"'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/dotnet/AzCopyNet/blob/main/README.md
+  path: README.md
+  blob_sha: 91fabb5da259b40d59aee96c5b52de7e8b58b27a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    PowerShell: 150727
+    C#: 112216
+    Shell: 95989
+    CMake: 9107
+    Batchfile: 373
+- type: Git tree
+  status: captured
+  sha: 7ebf67269b610cadbf8df6b8aebc69ca98fe760c
+  truncated: false
+- type: source_file
+  path: src/AzCopy.Client/AZCopyClient.cs
+  blob_sha: ee7568bb1db116123b4f35bdc81d423ba233be97
+  retrieved: true
+- type: source_file
+  path: src/AzCopy.Contract/AZCopyLocation/LocalLocation.cs
+  blob_sha: 729e63a938c2914c290bd52f0f55abf469998f41
+  retrieved: true
+- type: source_file
+  path: src/AzCopy.Contract/AZCopyLocation/LocationBase.cs
+  blob_sha: dd618c49c9662cda4543d1c3752fbfbd6f57bd2c
+  retrieved: true
+- type: source_file
+  path: src/AzCopy.Contract/AZCopyLocation/RemoteSasLocation.cs
+  blob_sha: c6c658e528f5b60af7eb73b3f6faf221efc7f44d
+  retrieved: true

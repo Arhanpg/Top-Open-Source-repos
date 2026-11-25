@@ -1,0 +1,71 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:47:43+00:00'
+evidence_fingerprint: f51b6506a112e769ddb9ce6a490094a02bb17bb152051038baaaf2897916e5be
+repository_metadata:
+  company: Microsoft
+  account: Azure
+  full_name: Azure/ABAP-Cloud-SDK-for-Azure
+  repository_id: 1317068670
+  url: https://github.com/Azure/ABAP-Cloud-SDK-for-Azure
+  description: ABAP Cloud SDK for Azure — Azure REST clients for SAP BAIP ABAP (SAP BTP)
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T10:57:12Z'
+  stars: 2
+  readme_url: https://github.com/Azure/ABAP-Cloud-SDK-for-Azure/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1a44bc2a2179a82cb5d3fd88aa102ab0336882a3
+  manifest_paths: []
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: da2e85162e1a82d12e46be612814b84010c30511
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'An enterprise-grade SDK that lets **ABAP Cloud** (SAP Business AI Platform, ABAP environment / S/4HANA
+    Cloud) applications call **Azure REST APIs** with the same ergonomics you expect from the official Azure SDKs
+    for Java or .NET: a layered HTTP **pipeline**, pluggable **credentials**, typed **exceptions**, and strongly-typed
+    service clients — all written in released, cloud-ready ABAP (ABAP for Cloud Development, language version 5).'
+  why_used: ABAP Cloud SDK for Azure — Azure REST clients for SAP BAIP ABAP (SAP BTP)
+  core_features: []
+  technology_stack:
+    languages:
+    - ABAP
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage: []
+  limitations:
+  - 'Security: Do not report security vulnerabilities through public GitHub issues. Please report them to the Microsoft'
+  - 'Security: Security Response Center as described in SECURITY.md.'
+  - 'Security: **Never commit real client secrets, account keys, or SAS tokens.** Credentials belong in a secure
+    store'
+  - 'Security: and are injected at runtime; zcl_az_test_environment is the single place to plug local integration-test'
+  - 'Security: values and must stay blank in source control.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Azure/ABAP-Cloud-SDK-for-Azure/blob/main/README.md
+  path: README.md
+  blob_sha: 1a44bc2a2179a82cb5d3fd88aa102ab0336882a3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    ABAP: 1420912
+- type: Git tree
+  status: captured
+  sha: da2e85162e1a82d12e46be612814b84010c30511
+  truncated: false

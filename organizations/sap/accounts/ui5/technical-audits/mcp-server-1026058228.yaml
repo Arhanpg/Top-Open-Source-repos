@@ -1,0 +1,198 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:58:26+00:00'
+evidence_fingerprint: 367119dfcf42aa86cb096873bcc40be97e27a9fa3cf2ae94b3b8d29ca924caf2
+repository_metadata:
+  company: SAP
+  account: UI5
+  full_name: UI5/mcp-server
+  repository_id: 1026058228
+  url: https://github.com/UI5/mcp-server
+  description: The UI5 MCP server improves the developer experience when working with agentic AI and the UI5 framework.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T17:10:16Z'
+  stars: 109
+  readme_url: https://github.com/UI5/mcp-server/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 86c61d57d6e38805aad2940874dde29901bcb70b
+  manifest_paths:
+  - package.json
+  - resources/template-card/package.json
+  - resources/template-js/package.json
+  - resources/template-ts/package.json
+  - test/expected/create_integration_card/common/package.json
+  - test/expected/create_integration_card/destinations/package.json
+  source_files_inspected:
+  - src/server.ts
+  - src/tools/create_integration_card/index.ts
+  - src/tools/create_ui5_app/index.ts
+  - src/tools/get_api_reference/index.ts
+  repository_tree:
+    status: captured
+    sha: 9f59c36f21f3d77edfa57de4bb5d399c665b345a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A Model Context Protocol server for UI5 application development.
+  why_used: The UI5 MCP server improves the developer experience when working with agentic AI and the UI5 framework.
+  core_features:
+  - name: Helps with the creation of new UI5 projects when working with agentic AI tools
+    description: Helps with the creation of new UI5 projects when working with agentic AI tools
+    evidence:
+    - README.md#Key Features
+  - name: Supports the developer to detect and fix UI5-specific errors in the code
+    description: Supports the developer to detect and fix UI5-specific errors in the code
+    evidence:
+    - README.md#Key Features
+  - name: Provides additional UI5-specific information for agentic AI tools
+    description: Provides additional UI5-specific information for agentic AI tools
+    evidence:
+    - README.md#Key Features
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    - HTML
+    - EJS
+    - CSS
+    frameworks_and_libraries: []
+    dependencies:
+    - <% if (!gte1_100_0) { %>@types/jquery
+    - <% } %>@ui5/cli
+    - <%= tstypes %>
+    - '@commitlint/cli'
+    - '@commitlint/config-conventional'
+    - '@eslint/js'
+    - '@istanbuljs/esm-loader-hook'
+    - '@istanbuljs/nyc-config-typescript'
+    - '@modelcontextprotocol/inspector'
+    - '@modelcontextprotocol/sdk'
+    - '@stylistic/eslint-plugin'
+    - '@types/ejs'
+    - '@types/make-fetch-happen'
+    - '@types/node'
+    - '@types/qunit'
+    - '@types/semver'
+    - '@types/sinon'
+    - '@types/yauzl-promise'
+    - '@ui5-language-assistant/semantic-model-types'
+    - '@ui5/cli'
+    - '@ui5/linter'
+    - '@ui5/logger'
+    - '@ui5/middleware-code-coverage'
+    - '@ui5/project'
+    - ajv
+    - ajv-formats
+    - async-mutex
+    - ava
+    - babel-plugin-istanbul
+    - check-engine-light
+    - ejs
+    - eslint
+    - eslint-plugin-ava
+    - eslint-plugin-jsdoc
+    - esmock
+    - execa
+    - fast-xml-parser
+    - globals
+    - globby
+    - http-server
+    - husky
+    - karma
+    - karma-chrome-launcher
+    - karma-coverage
+    - karma-ui5
+    - knip
+    - licensee
+    - lockfile
+    - make-fetch-happen
+    - nyc
+    - rimraf
+    - semver
+    - sinon
+    - tsx
+    - typescript
+    - typescript-eslint
+    - ui5-middleware-livereload
+    - ui5-test-runner
+    - ui5-tooling-transpile
+    - yauzl-promise
+    - zod
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/server.ts, src/tools/create_integration_card/index.ts,
+    src/tools/create_ui5_app/index.ts, src/tools/get_api_reference/index.ts'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/UI5/mcp-server/blob/main/README.md
+  path: README.md
+  blob_sha: 86c61d57d6e38805aad2940874dde29901bcb70b
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: fcc1b5fcfb608268b3f7c8b777833d9f26ebcd00
+  retrieved: true
+- type: manifest
+  path: resources/template-card/package.json
+  blob_sha: 91b07f69531f05c16eb36d6f1b7668a8ceadb91d
+  retrieved: true
+- type: manifest
+  path: resources/template-js/package.json
+  blob_sha: dfaa54ebf60f534a53dfba58aee1823a0ddd57eb
+  retrieved: true
+- type: manifest
+  path: resources/template-ts/package.json
+  blob_sha: a79638adc1a44a2dec99a59706fa232eb082a5db
+  retrieved: true
+- type: manifest
+  path: test/expected/create_integration_card/common/package.json
+  blob_sha: 91b07f69531f05c16eb36d6f1b7668a8ceadb91d
+  retrieved: true
+- type: manifest
+  path: test/expected/create_integration_card/destinations/package.json
+  blob_sha: 91b07f69531f05c16eb36d6f1b7668a8ceadb91d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 453196
+    JavaScript: 42426
+    HTML: 24223
+    EJS: 6380
+    CSS: 3476
+- type: Git tree
+  status: captured
+  sha: 9f59c36f21f3d77edfa57de4bb5d399c665b345a
+  truncated: false
+- type: source_file
+  path: src/server.ts
+  blob_sha: 902577d10ce190e72d1512c2480e5e02bb43624f
+  retrieved: true
+- type: source_file
+  path: src/tools/create_integration_card/index.ts
+  blob_sha: a375cc0f671d6f78ae51f20351179106b759e1da
+  retrieved: true
+- type: source_file
+  path: src/tools/create_ui5_app/index.ts
+  blob_sha: ba3a9586fc7a9c7f317433713d75f6256a61583d
+  retrieved: true
+- type: source_file
+  path: src/tools/get_api_reference/index.ts
+  blob_sha: 7284e63d1fefddf3e20061d8cb40af105d25d282
+  retrieved: true

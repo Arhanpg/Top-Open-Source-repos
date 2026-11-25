@@ -1,0 +1,155 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:04:34+00:00'
+evidence_fingerprint: 3af7c1bf040b710d6c259e30afd565f1f83e35e40e5001104a9dda2e7a14b1e2
+repository_metadata:
+  company: NVIDIA
+  account: nvidia-cosmos
+  full_name: nvidia-cosmos/cosmos-rl
+  repository_id: 999256448
+  url: https://github.com/nvidia-cosmos/cosmos-rl
+  description: Cosmos-RL is a flexible and scalable Reinforcement Learning framework specialized for Physical AI
+    applications.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-19T05:03:04Z'
+  stars: 486
+  readme_url: https://github.com/nvidia-cosmos/cosmos-rl/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4228638aae981d791e6450177b7601304f5bd44a
+  manifest_paths:
+  - Dockerfile
+  - pyproject.toml
+  - docs/Makefile
+  - reward_service/pyproject.toml
+  source_files_inspected:
+  - cosmos_rl/cli/cli.py
+  - cosmos_rl/tools/profiler/__main__.py
+  - cosmos_rl/tools/profiler/cli.py
+  - cosmos_rl/__init__.py
+  repository_tree:
+    status: captured
+    sha: 4c6a0494c3a3ddceffa655934672c87abc21d439
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> [!IMPORTANT] > ## Cosmos-RL has moved to Cosmos Framework > > Post-training for Cosmos models is now
+    developed in **NVIDIA/cosmos-framework**: offline SFT, DPO, GRPO, actor-critic PPO, on-policy distillation (OPD),
+    and DiffusionNFT, plus Joint PPO recipes for embodied policies. All of them run on one stack that scales from
+    a single GPU to a multinode Ray cluster. > > **Start here:** Cosmos Framework post-training docs > > This repository
+    is no longer under active development and will receive only limited maintenance updates. Future features, documentation,
+    and community support will be focused on Cosmos Framework. > > Looking for the Cosmos 3 models? Visit NVIDIA/cosmos.'
+  why_used: Cosmos-RL is a flexible and scalable Reinforcement Learning framework specialized for Physical AI applications.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - HTML
+    - Dockerfile
+    - Jinja
+    frameworks_and_libraries: []
+    dependencies:
+    - StrEnum
+    - accelerate
+    - av
+    - blobfile
+    - boto3
+    - click
+    - cloudpickle
+    - datasets
+    - diffusers
+    - fastapi
+    - kernels
+    - liger_kernel
+    - math_verify
+    - modelscope
+    - msgpack
+    - nest_asyncio
+    - nvidia-ml-py
+    - nvidia-nccl-cu12
+    - peft
+    - pybind11
+    - pydantic
+    - pynvml
+    - pyyaml
+    - qwen_vl_utils
+    - redis
+    - rich
+    - tensordict
+    - toml
+    - torch
+    - torchao
+    - torchvision
+    - transformers
+    - uvicorn
+    - zmq
+    build_and_package_tools:
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cosmos_rl/cli/cli.py,
+    cosmos_rl/tools/profiler/__main__.py, cosmos_rl/tools/profiler/cli.py, cosmos_rl/__init__.py'
+  setup_and_usage:
+  - 'Getting Started: Cosmos-RL is a flexible and scalable Reinforcement Learning framework specialized for Physical
+    AI applications.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/nvidia-cosmos/cosmos-rl/blob/main/README.md
+  path: README.md
+  blob_sha: 4228638aae981d791e6450177b7601304f5bd44a
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 403aebc218fee745cc24522b728220c57356a256
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 7396529e347a60fb4c90411f0502b519b0fac681
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: d4bb2cbb9eddb1bb1b4f366623044af8e4830919
+  retrieved: true
+- type: manifest
+  path: reward_service/pyproject.toml
+  blob_sha: dd0ad34a4cc9a74243527a8c46d9e64331349201
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 11459335
+    Shell: 149545
+    HTML: 11682
+    Dockerfile: 10109
+    Jinja: 3075
+- type: Git tree
+  status: captured
+  sha: 4c6a0494c3a3ddceffa655934672c87abc21d439
+  truncated: false
+- type: source_file
+  path: cosmos_rl/cli/cli.py
+  blob_sha: e9462dcacc836c482c29fbcdd13dc500daa0b5da
+  retrieved: true
+- type: source_file
+  path: cosmos_rl/tools/profiler/__main__.py
+  blob_sha: 3a520b3fbb354e2404514e624bb38c1e2609d46d
+  retrieved: true
+- type: source_file
+  path: cosmos_rl/tools/profiler/cli.py
+  blob_sha: d2b97f1e73c00d23ec8daa9588bf26997bccc958
+  retrieved: true
+- type: source_file
+  path: cosmos_rl/__init__.py
+  blob_sha: cb0742a128a58acab3cff8d7ba627a1f6efb9590
+  retrieved: true

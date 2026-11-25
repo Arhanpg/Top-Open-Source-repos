@@ -1,0 +1,98 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:07:21+00:00'
+evidence_fingerprint: 9491ea1b540be2369a5820626fa5451c3dde6bfccb3986ae352b989d8f556d38
+repository_metadata:
+  company: Alphabet (Google)
+  account: GoogleCloudPlatform
+  full_name: GoogleCloudPlatform/Data-Pipeline
+  repository_id: 14596461
+  url: https://github.com/GoogleCloudPlatform/Data-Pipeline
+  description: Data pipeline is a tool to run Data loading pipelines. It is an open sourced app engine app that
+    users can extend to suit their own needs. Out of the box it will load files from a source, transform them and
+    then output them (output might be writing to a file or loading them into a data analysis tool). It is designed
+    to be modular and support various sources, transformation technologies and output types. The transformations
+    can be chained together to form complex pipelines.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2014-02-11T18:32:58Z'
+  stars: 87
+  readme_url: https://github.com/GoogleCloudPlatform/Data-Pipeline/blob/master/README.md
+  readme_path: README.md
+  readme_sha: db2600849ae516a5e35d0a12122d7ef973299b2f
+  manifest_paths: []
+  source_files_inspected:
+  - app/src/server.py
+  - app/static/components/app/app.js
+  - app/static/hadoop_scripts/rpc_daemon/__main__.py
+  repository_tree:
+    status: captured
+    sha: 439f9cd7f2e5bf9f52b716f3281b96a0366d90e6
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Data Pipeline is a self-hosted [Google App Engine] sample application that enables its users to easily
+    define and execute data flows across different [Google Cloud Platform] products. It is intended as a reference
+    for connecting multiple cloud services together, and as a head start for building custom data processing solutions.
+  why_used: Data pipeline is a tool to run Data loading pipelines. It is an open sourced app engine app that users
+    can extend to suit their own needs. Out of the box it will load files from a source, transform them and then
+    output them (output might be writing to a file or loading them into a data analysis tool). It is designed to
+    be modular and support various sources, transformation technologies and output types. The transformations can
+    be chained together to form complex pipelines.
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: app/src/server.py,
+    app/static/components/app/app.js, app/static/hadoop_scripts/rpc_daemon/__main__.py, app/lib/__init__.py'
+  setup_and_usage:
+  - 'Installation Guide: If you don''t have it already, install the Google App Engine SDK and follow the'
+  - 'Installation Guide: [installation instructions]. As noted previously,'
+  - 'Installation Guide: *Data Pipeline* use App Engine Modules which were introduced in App Engine 1.8.3'
+  - 'Installation Guide: so you must install at least that version.'
+  - 'Installation: 1. Make an app at appengine.google.com (we use an app id of example for this'
+  - 'Installation: 3. Set up a Google Cloud Storage bucket (if you don''t have already have it,'
+  - 'Installation: [install gsutil]. If you do have it, you might need to run'
+  - 'Installation: gsutil config to set up the credentials):'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/GoogleCloudPlatform/Data-Pipeline/blob/master/README.md
+  path: README.md
+  blob_sha: db2600849ae516a5e35d0a12122d7ef973299b2f
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: 439f9cd7f2e5bf9f52b716f3281b96a0366d90e6
+  truncated: false
+- type: source_file
+  path: app/src/server.py
+  blob_sha: 3cde1232606cd6d15a7e7afb50700391d55b6c21
+  retrieved: true
+- type: source_file
+  path: app/static/components/app/app.js
+  blob_sha: 6ad505fcc1be03726dc38916e8a28d26046321af
+  retrieved: true
+- type: source_file
+  path: app/static/hadoop_scripts/rpc_daemon/__main__.py
+  blob_sha: 06e66eed3dfbb293b0599c400587e28015daa227
+  retrieved: true
+- type: source_file
+  path: app/lib/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false

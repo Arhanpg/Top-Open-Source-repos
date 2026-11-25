@@ -1,0 +1,84 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:50:31+00:00'
+evidence_fingerprint: c41ca3e872711f4e7a1334d601d8a8217635d6c02a8ed1bd2e2d6eddf6455927
+repository_metadata:
+  company: Siemens
+  account: industrial-edge
+  full_name: industrial-edge/LEdgeBuffer-getting-started
+  repository_id: 375333797
+  url: https://github.com/industrial-edge/LEdgeBuffer-getting-started
+  description: The SIMATIC library "LEdgeBuffer" allows creating a local buffer in the PLC to sample high speed
+    signals. This buffer and the recording job can be accessed and controled via OPC-UA.
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-12-18T11:33:00Z'
+  stars: 2
+  readme_url: https://github.com/industrial-edge/LEdgeBuffer-getting-started/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f322381d35627c7dc56c01bfa06957133f1fd18f
+  manifest_paths:
+  - package.json
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: 8aa06be9dc563056bf79bc79231c31f775ae2c7c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This document will take you through the basic steps and configuration of components required to set up
+    a PLC program with the SIEMENS library "LEdgeBuffer" to record and send high frequency signals' data to an edge
+    computing application using MQTT and Node-RED or SIEMENS Industrial Flow Creator.
+  why_used: The SIMATIC library "LEdgeBuffer" allows creating a local buffer in the PLC to sample high speed signals.
+    This buffer and the recording job can be accessed and controled via OPC-UA.
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies:
+    - node-red-contrib-opcua
+    - node-red-contrib-ui-led
+    - node-red-dashboard
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage:
+  - 'Installation Guide: 1. Firstly, the user must import the PLC library into their PLC application. see this link:
+    Library SIMATIC: S7-1500 – LEdgeBuffer'
+  - 'Installation Guide: 2. A fork of this github repository must be created'
+  - 'Installation Guide: 3. Open *Node-Red Editor* with browser (authenticate if necessary)'
+  - 'Installation Guide: 4. Press button on top-right corner, and go to Projects-->New (or ctrl-alt-n)'
+  - 'Installation Guide: 5. Choose **Clone Repository**, and input the Git repository URL of your fork'
+  - 'Installation Guide: 6. Authenticate using preconfigured SSH keys or HTTPS access tokens'
+  - 'Installation Guide: 7. After the succcessful clone, **restart** *Node-Red* internally (refreshing the webpage
+    or restarting flows is not enough)'
+  - 'Installation Guide: 8. Go back to *Node-Red Editor*, press button on top-right corner, and go to Projects-->Project
+    settings-->Dependencies'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/industrial-edge/LEdgeBuffer-getting-started/blob/main/README.md
+  path: README.md
+  blob_sha: f322381d35627c7dc56c01bfa06957133f1fd18f
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 87d834764cda3e5078160941a67d456875de6a87
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: 8aa06be9dc563056bf79bc79231c31f775ae2c7c
+  truncated: false

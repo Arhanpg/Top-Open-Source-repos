@@ -1,0 +1,105 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:55:29+00:00'
+evidence_fingerprint: b451f131a8da587690b4afa1fe3117eedf1283e6c4606ae474588f349cc88e16
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/EasyData
+  repository_id: 566306389
+  url: https://github.com/PaddlePaddle/EasyData
+  description: null
+  default_branch: develop
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2022-12-05T02:44:49Z'
+  stars: 116
+  readme_url: https://github.com/PaddlePaddle/EasyData/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: 1c9b28f4de8702124d128356913e0947c86165be
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  source_files_inspected:
+  - deploy/ppcv/core/__init__.py
+  - deploy/ppcv/core/config.py
+  - deploy/ppcv/core/framework.py
+  - deploy/ppcv/core/workspace.py
+  repository_tree:
+    status: captured
+    sha: f73a0976ad4db0526948a32f9bc9e3dc4b5c86e7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: EasyData 旨在打造一套通用、领先且实用的数据自动扩充与数据清洗工具库，并提供开源数据集与标注工具大全，助力开发者获得高质量的训练、推理数据，从而提升 AI 算法的实用效果。
+  why_used: EasyData 旨在打造一套通用、领先且实用的数据自动扩充与数据清洗工具库，并提供开源数据集与标注工具大全，助力开发者获得高质量的训练、推理数据，从而提升 AI 算法的实用效果。
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - Pillow
+    - PyYAML
+    - Shapely
+    - faiss_cpu
+    - matplotlib
+    - opencv-python
+    - pyclipper
+    - scipy
+    - tqdm
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: deploy/ppcv/core/__init__.py,
+    deploy/ppcv/core/config.py, deploy/ppcv/core/framework.py, deploy/ppcv/core/workspace.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/EasyData/blob/develop/README.md
+  path: README.md
+  blob_sha: 1c9b28f4de8702124d128356913e0947c86165be
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 74e72363dc0a7a6c20caae1f31f56849686061d1
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: fbb7fdb27ffd14ea96a22fa8b61361ae5408035f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 495708
+    Shell: 776
+- type: Git tree
+  status: captured
+  sha: f73a0976ad4db0526948a32f9bc9e3dc4b5c86e7
+  truncated: false
+- type: source_file
+  path: deploy/ppcv/core/__init__.py
+  blob_sha: bd903e54904d3f1f33b1abc0ffb99d4b3057cb9f
+  retrieved: true
+- type: source_file
+  path: deploy/ppcv/core/config.py
+  blob_sha: 8a1cbe3131652225deae470f1eb3cfa0917ad1fa
+  retrieved: true
+- type: source_file
+  path: deploy/ppcv/core/framework.py
+  blob_sha: a14322114371c2173af516fb110b211d5911bc42
+  retrieved: true
+- type: source_file
+  path: deploy/ppcv/core/workspace.py
+  blob_sha: 7fa41a869ad6bc4a486846baca1057ccfdbc5ee4
+  retrieved: true

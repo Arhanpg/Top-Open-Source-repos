@@ -1,0 +1,184 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T23:04:26+00:00'
+evidence_fingerprint: 5fed380bd4ad68ac176197634f632811ffda2ec7f5919b3313aa2e9a66213671
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/Audio2Face-3D-SDK
+  repository_id: 1034647520
+  url: https://github.com/NVIDIA/Audio2Face-3D-SDK
+  description: High-performance C++/CUDA SDK for running Audio2Emotion and Audio2Face inference with integrated
+    post-processing.
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-08-28T14:22:28Z'
+  stars: 239
+  readme_url: https://github.com/NVIDIA/Audio2Face-3D-SDK/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 78dd7a9c75e1842f76e2321a2cdba7248c5bbf00
+  manifest_paths:
+  - CMakeLists.txt
+  - audio2emotion-sdk/CMakeLists.txt
+  - audio2face-sdk/CMakeLists.txt
+  - audio2x-common/CMakeLists.txt
+  - audio2x-sdk/CMakeLists.txt
+  - deps/requirements.txt
+  source_files_inspected:
+  - audio2emotion-sdk/source/benchmarks/main.cpp
+  - audio2emotion-sdk/source/samples/sample-a2e-executor/main.cpp
+  - audio2emotion-sdk/source/samples/sample-a2e-inference/main.cpp
+  - audio2face-sdk/source/benchmarks/main.cpp
+  repository_tree:
+    status: captured
+    sha: 9eb0dc8d4112377fb099e383cb66b431201718d0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'The Audio2X SDK is a comprehensive toolkit for fast audio-driven animation and emotion detection. It
+    consists of two main components:'
+  why_used: High-performance C++/CUDA SDK for running Audio2Emotion and Audio2Face inference with integrated post-processing.
+  core_features:
+  - name: '**Faster Than Real-time Processing**: Faster than 60 FPS frame generation'
+    description: '**Faster Than Real-time Processing**: Faster than 60 FPS frame generation'
+    evidence:
+    - README.md#Key Features
+  - name: '**Multi-track Support**: Process multiple audio streams simultaneously'
+    description: '**Multi-track Support**: Process multiple audio streams simultaneously'
+    evidence:
+    - README.md#Key Features
+  - name: '**GPU Acceleration**: Full CUDA/TensorRT integration'
+    description: '**GPU Acceleration**: Full CUDA/TensorRT integration'
+    evidence:
+    - README.md#Key Features
+  - name: '**Flexible Architecture**: Support for both batch and interactive processing modes'
+    description: '**Flexible Architecture**: Support for both batch and interactive processing modes'
+    evidence:
+    - README.md#Key Features
+  - name: '**Cross-platform**: Windows and Linux support'
+    description: '**Cross-platform**: Windows and Linux support'
+    evidence:
+    - README.md#Key Features
+  technology_stack:
+    languages:
+    - C++
+    - Cuda
+    - CMake
+    - Python
+    - Roff
+    - Batchfile
+    - PowerShell
+    - Shell
+    - C
+    frameworks_and_libraries: []
+    dependencies:
+    - Jinja2
+    - MarkupSafe
+    - PyYAML
+    - certifi
+    - charset-normalizer
+    - colorama
+    - filelock
+    - fsspec
+    - huggingface-hub
+    - idna
+    - inquirerpy
+    - mpmath
+    - networkx
+    - numpy
+    - onnx
+    - packaging
+    - pfzy
+    - prompt_toolkit
+    - protobuf
+    - pydub
+    - requests
+    - scipy
+    - sympy
+    - torch
+    - tqdm
+    - typing_extensions
+    - urllib3
+    - wcwidth
+    build_and_package_tools:
+    - CMake configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: audio2emotion-sdk/source/benchmarks/main.cpp,
+    audio2emotion-sdk/source/samples/sample-a2e-executor/main.cpp, audio2emotion-sdk/source/samples/sample-a2e-inference/main.cpp,
+    audio2face-sdk/source/benchmarks/main.cpp'
+  setup_and_usage:
+  - 'Getting Started with Development: Now that you''ve set up the SDK, here are some recommended next steps to
+    explore and get the most out of it:'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/Audio2Face-3D-SDK/blob/main/README.md
+  path: README.md
+  blob_sha: 78dd7a9c75e1842f76e2321a2cdba7248c5bbf00
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: d0af42e175179403012a5443184c523b2bc7dcdb
+  retrieved: true
+- type: manifest
+  path: audio2emotion-sdk/CMakeLists.txt
+  blob_sha: 1b94132e460862d755ec7d3f6c39bb6dc9165bb3
+  retrieved: true
+- type: manifest
+  path: audio2face-sdk/CMakeLists.txt
+  blob_sha: c8af8a94c3ea5242b6291b5fcff478bcf29cef59
+  retrieved: true
+- type: manifest
+  path: audio2x-common/CMakeLists.txt
+  blob_sha: 709ec2239bedc024c455398a2b46731e33f37e06
+  retrieved: true
+- type: manifest
+  path: audio2x-sdk/CMakeLists.txt
+  blob_sha: 0b059de9e429c8efbff10e7dbdd484548ecf498c
+  retrieved: true
+- type: manifest
+  path: deps/requirements.txt
+  blob_sha: ff803f5a7ad361939ab6fef80f91e5c6016a1ec8
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 2273001
+    Cuda: 177411
+    CMake: 84984
+    Python: 73376
+    Roff: 37208
+    Batchfile: 22168
+    PowerShell: 21730
+    Shell: 17533
+    C: 5809
+- type: Git tree
+  status: captured
+  sha: 9eb0dc8d4112377fb099e383cb66b431201718d0
+  truncated: false
+- type: source_file
+  path: audio2emotion-sdk/source/benchmarks/main.cpp
+  blob_sha: bd3d40521bd6f05163b55926d1f34de14e9a1c99
+  retrieved: true
+- type: source_file
+  path: audio2emotion-sdk/source/samples/sample-a2e-executor/main.cpp
+  blob_sha: 5d9e5e0da7ecb966c11220652312b5b74e7c4033
+  retrieved: true
+- type: source_file
+  path: audio2emotion-sdk/source/samples/sample-a2e-inference/main.cpp
+  blob_sha: 928cd04ef8e3d1c41413c898876d5f1e2fbc960c
+  retrieved: true
+- type: source_file
+  path: audio2face-sdk/source/benchmarks/main.cpp
+  blob_sha: 6283d7366facc6d651742c7b1c0efcc99e490bb6
+  retrieved: true

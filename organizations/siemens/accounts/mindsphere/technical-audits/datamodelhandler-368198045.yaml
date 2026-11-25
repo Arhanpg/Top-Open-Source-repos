@@ -1,0 +1,88 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:50:40+00:00'
+evidence_fingerprint: 3f5c3c7de2ea4ab2da533637e5ef4391866b6a3677e4d1a05996e57f78aa2d11
+repository_metadata:
+  company: Siemens
+  account: mindsphere
+  full_name: mindsphere/dataModelHandler
+  repository_id: 368198045
+  url: https://github.com/mindsphere/dataModelHandler
+  description: 'Python tool set for mass importing, exporting, mapping and deleting MindSphere data models using
+    csv-files as exchange format. '
+  default_branch: master
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2021-05-18T14:32:55Z'
+  stars: 2
+  readme_url: https://github.com/mindsphere/dataModelHandler/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 6b14e20a98ed6af1dea91fdedc3f9d4f24272d9a
+  manifest_paths: []
+  source_files_inspected:
+  - main.py
+  - modules/agents.py
+  - modules/apiHandler.py
+  - modules/datamodelClassDefinitions.py
+  repository_tree:
+    status: captured
+    sha: ef714898ec6c6b7084770a488cd03f40586caa08
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This is an application that allows to import, export and delete MindSphere data models using csv-files
+    as exchange format. Additionally mass agent creation, deriving of device-assets and mapping is fully supported.
+    For now, the mode of operation has to be specified for a script run using the config-file or during execution
+    The four possible modes are: import, export, delete, agents'
+  why_used: Python tool set for mass importing, exporting, mapping and deleting MindSphere data models using csv-files
+    as exchange format.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: main.py, modules/agents.py,
+    modules/apiHandler.py, modules/datamodelClassDefinitions.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/mindsphere/dataModelHandler/blob/master/README.md
+  path: README.md
+  blob_sha: 6b14e20a98ed6af1dea91fdedc3f9d4f24272d9a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 308270
+- type: Git tree
+  status: captured
+  sha: ef714898ec6c6b7084770a488cd03f40586caa08
+  truncated: false
+- type: source_file
+  path: main.py
+  blob_sha: 2a966abafefa2341dedf6f9a65007dc5fc6e27a4
+  retrieved: true
+- type: source_file
+  path: modules/agents.py
+  blob_sha: 149be30dce3c33282ea63dad5271911c5b832e7c
+  retrieved: true
+- type: source_file
+  path: modules/apiHandler.py
+  blob_sha: 29ae6cb250357801e9b0e11b15c2bcb0c2d09cfb
+  retrieved: true
+- type: source_file
+  path: modules/datamodelClassDefinitions.py
+  blob_sha: ef9409a5b245a5830caa797693f517f7ea9612f4
+  retrieved: true

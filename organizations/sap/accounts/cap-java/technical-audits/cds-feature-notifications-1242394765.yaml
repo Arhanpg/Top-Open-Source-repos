@@ -1,0 +1,177 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T22:57:06+00:00'
+evidence_fingerprint: a1595c18942b99ec1817fdd41d5a914f820964f8f0f2974a882215fe1d745685
+repository_metadata:
+  company: SAP
+  account: cap-java
+  full_name: cap-java/cds-feature-notifications
+  repository_id: 1242394765
+  url: https://github.com/cap-java/cds-feature-notifications
+  description: A CAP Java plugin that integrates SAP Alert Notification service (ANS) with the SAP Cloud Application
+    Programming Model (CAP) for sending business notifications.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T15:36:59Z'
+  stars: 0
+  readme_url: https://github.com/cap-java/cds-feature-notifications/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3b1e7e21c01d8291d92a19a7a18fc6a4ddbc82bd
+  manifest_paths:
+  - package.json
+  - pom.xml
+  - cds-feature-notifications/pom.xml
+  - coverage-report/pom.xml
+  - integration-tests/package.json
+  - integration-tests/pom.xml
+  source_files_inspected:
+  - integration-tests/srv/src/main/java/customer/sample_app/Application.java
+  - sample-app/srv/src/main/java/customer/sample_app/Application.java
+  - cds-feature-notifications/src/main/java/com/sap/cds/notifications/AlertNotificationOAuth2PropertySupplier.java
+  - cds-feature-notifications/src/main/java/com/sap/cds/notifications/assemblers/NotificationAssembler.java
+  repository_tree:
+    status: captured
+    sha: 7ba2b4ba42683a0735d53d0eb405f8528ad7c134
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A CAP Java plugin that integrates SAP Alert Notification service (ANS) with the SAP Cloud Application
+    Programming Model (CAP) for sending business notifications.
+  why_used: A CAP Java plugin that integrates SAP Alert Notification service (ANS) with the SAP Cloud Application
+    Programming Model (CAP) for sending business notifications.
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - CAP CDS
+    - HTML
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@sap/cds-dk'
+    - '@sap/eslint-plugin-cds'
+    - assertj-core
+    - build-helper-maven-plugin
+    - cds-adapter-api
+    - cds-feature-jdbc
+    - cds-feature-notifications
+    - cds-feature-notifications-coverage-report
+    - cds-feature-notifications-root
+    - cds-feature-remote-odata
+    - cds-maven-plugin
+    - cds-services-api
+    - cds-services-bom
+    - cds-services-impl
+    - cds-services-utils
+    - central-publishing-maven-plugin
+    - cloudplatform-connectivity
+    - cloudplatform-core
+    - commons-io
+    - commons-lang3
+    - connectivity-destination-service
+    - eslint
+    - flatten-maven-plugin
+    - integration-tests
+    - integration-tests-parent
+    - jacoco-maven-plugin
+    - junit-bom
+    - junit-jupiter
+    - logback-classic
+    - logback-core
+    - maven-clean-plugin
+    - maven-compiler-plugin
+    - maven-deploy-plugin
+    - maven-enforcer-plugin
+    - maven-failsafe-plugin
+    - maven-gpg-plugin
+    - maven-javadoc-plugin
+    - maven-pmd-plugin
+    - maven-resources-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - mockito-bom
+    - mockito-core
+    - sdk-bom
+    - spotbugs-annotations
+    - spotless-maven-plugin
+    - spring-boot-dependencies
+    - spring-boot-maven-plugin
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: integration-tests/srv/src/main/java/customer/sample_app/Application.java,
+    sample-app/srv/src/main/java/customer/sample_app/Application.java, cds-feature-notifications/src/main/java/com/sap/cds/notifications/AlertNotificationOAuth2PropertySupplier.java,
+    cds-feature-notifications/src/main/java/com/sap/cds/notifications/assemblers/NotificationAssembler.java'
+  setup_and_usage:
+  - 'Getting Started: This section walks you through setting up a minimal notification in **local mode** (console
+    output only, no ANS required).'
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions in
+    our security policy on how to report it. Please do not create GitHub issues for security-related doubts or problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-java/cds-feature-notifications/blob/main/README.md
+  path: README.md
+  blob_sha: 3b1e7e21c01d8291d92a19a7a18fc6a4ddbc82bd
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 4bcc6d2ff5be2389d822eb396db7180e55896bb2
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: 19a3f45e8f7a611cba003e482f1236927cea045e
+  retrieved: true
+- type: manifest
+  path: cds-feature-notifications/pom.xml
+  blob_sha: 475ff99cf6ecc9fa352bb2a41d52eb53582d04ed
+  retrieved: true
+- type: manifest
+  path: coverage-report/pom.xml
+  blob_sha: 65186b80e3f9f61763c9484a2deacfc84165f9fc
+  retrieved: true
+- type: manifest
+  path: integration-tests/package.json
+  blob_sha: 6b7e98e11379ff6bef89685393b8948b194003bd
+  retrieved: true
+- type: manifest
+  path: integration-tests/pom.xml
+  blob_sha: 63bb3a96a1fd4fc4b7ddb800f08f5cbff771a6cd
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 324064
+    CAP CDS: 38037
+    HTML: 4045
+    JavaScript: 408
+- type: Git tree
+  status: captured
+  sha: 7ba2b4ba42683a0735d53d0eb405f8528ad7c134
+  truncated: false
+- type: source_file
+  path: integration-tests/srv/src/main/java/customer/sample_app/Application.java
+  blob_sha: 92621cebbbb0add2b328dce4b463c3c1dbe92321
+  retrieved: true
+- type: source_file
+  path: sample-app/srv/src/main/java/customer/sample_app/Application.java
+  blob_sha: 4fe540afc4c3d046dbab6d8e68a572793c87860e
+  retrieved: true
+- type: source_file
+  path: cds-feature-notifications/src/main/java/com/sap/cds/notifications/AlertNotificationOAuth2PropertySupplier.java
+  blob_sha: 50dbaa681afea29b95d710033d56e716bba96722
+  retrieved: true
+- type: source_file
+  path: cds-feature-notifications/src/main/java/com/sap/cds/notifications/assemblers/NotificationAssembler.java
+  blob_sha: e35fb2ef8f77836bc84b5463e3b5c6e04a86f273
+  retrieved: true
