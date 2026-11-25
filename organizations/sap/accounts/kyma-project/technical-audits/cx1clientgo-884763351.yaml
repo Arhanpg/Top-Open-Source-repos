@@ -1,0 +1,119 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:51:16+00:00'
+evidence_fingerprint: e11102f1e04760f3fe29573a5e2b758b3484af8803b8d68a2babc856718e2203
+repository_metadata:
+  company: SAP
+  account: kyma-project
+  full_name: kyma-project/Cx1ClientGo
+  repository_id: 884763351
+  url: https://github.com/kyma-project/Cx1ClientGo
+  description: Simple client for Cx1 written in GoLang
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: true
+  disabled: false
+  pushed_at: '2025-07-11T09:00:19Z'
+  stars: 1
+  readme_url: https://github.com/kyma-project/Cx1ClientGo/blob/main/readme.md
+  readme_path: readme.md
+  readme_sha: 423e1147ce9ba352c49c8bf37b0f941dca33a409
+  manifest_paths:
+  - go.mod
+  - _examples/AccessManagement/go.mod
+  - _examples/ListScans/go.mod
+  - _examples/OneHundredApps/go.mod
+  - _examples/QueryManipulation/go.mod
+  source_files_inspected:
+  - _examples/AccessManagement/AccessManagement.go
+  - _examples/ListScans/ListScans.go
+  - _examples/MigrationImport/DataImport.go
+  - _examples/OneHundredApps/OneHundredApps.go
+  repository_tree:
+    status: captured
+    sha: 18228846ee725acb490ccf8f0cceb5151abe72e5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Due to organization policy, this repository will no longer be public in the near future. If you use this
+    repository and require continued access, please contact your CSM/TAM or other Checkmarx representative to discuss
+    options and alternatives.
+  why_used: Simple client for Cx1 written in GoLang
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/cxpsemea/Cx1ClientGo
+    - github.com/golang-jwt/jwt/v4
+    - github.com/google/go-querystring
+    - github.com/sirupsen/logrus
+    - github.com/t-tomalak/logrus-easy-formatter
+    - golang.org/x/exp
+    - golang.org/x/oauth2
+    - golang.org/x/sys
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: _examples/AccessManagement/AccessManagement.go,
+    _examples/ListScans/ListScans.go, _examples/MigrationImport/DataImport.go, _examples/OneHundredApps/OneHundredApps.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/kyma-project/Cx1ClientGo/blob/main/readme.md
+  path: readme.md
+  blob_sha: 423e1147ce9ba352c49c8bf37b0f941dca33a409
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: c5a58ae5466a54b52098cd3c46ee07a606333382
+  retrieved: true
+- type: manifest
+  path: _examples/AccessManagement/go.mod
+  blob_sha: 3984315483007a35f53c64ad8bd19a7ed9e23ba1
+  retrieved: true
+- type: manifest
+  path: _examples/ListScans/go.mod
+  blob_sha: 4b4e7843453ef78eabebe3182b0af16d6b4cf07e
+  retrieved: true
+- type: manifest
+  path: _examples/OneHundredApps/go.mod
+  blob_sha: 9209f5bf5a7a85e5c7909b10b0574ef0a0eee9ca
+  retrieved: true
+- type: manifest
+  path: _examples/QueryManipulation/go.mod
+  blob_sha: 09815c06049f29282c1ba9b8bcfa311b87079f2a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 408907
+- type: Git tree
+  status: captured
+  sha: 18228846ee725acb490ccf8f0cceb5151abe72e5
+  truncated: false
+- type: source_file
+  path: _examples/AccessManagement/AccessManagement.go
+  blob_sha: 9c340c368ff3be8ec46af2598a8e05c29908c03a
+  retrieved: true
+- type: source_file
+  path: _examples/ListScans/ListScans.go
+  blob_sha: 424d119628cd6a072ada93ad1674d17f66e358ba
+  retrieved: true
+- type: source_file
+  path: _examples/MigrationImport/DataImport.go
+  blob_sha: 2a70cb2fd6de55c257fd5cef66e763d20f152141
+  retrieved: true
+- type: source_file
+  path: _examples/OneHundredApps/OneHundredApps.go
+  blob_sha: 7e2e61283217096f50b3590f9c4275dcc6413fd1
+  retrieved: true

@@ -1,0 +1,139 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:54:35+00:00'
+evidence_fingerprint: 88fb2364603ffb96180985b0d0a6e90f31081aee588a9e11ebb6c8f2baac348f
+repository_metadata:
+  company: Amazon
+  account: aws-ia
+  full_name: aws-ia/addons-transformer-for-amazon-eks
+  repository_id: 816876526
+  url: https://github.com/aws-ia/addons-transformer-for-amazon-eks
+  description: Addons Transformer to transform ISV Softwares to EKS Marketplace
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2024-05-10T14:40:34Z'
+  stars: 1
+  readme_url: https://github.com/aws-ia/addons-transformer-for-amazon-eks/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 0f4dbf9cbb32fc6782740ef2e07ec2154c69ecf7
+  manifest_paths:
+  - Makefile
+  - package.json
+  source_files_inspected:
+  - src/index.ts
+  - src/commandOpts/create-issue.ts
+  - src/commandOpts/validate.ts
+  - src/commands/create-issue.ts
+  repository_tree:
+    status: captured
+    sha: 767a257148be5e0ec18d44ad39499e9ed0da1cb7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Addons Transformer CLI for Amazon EKS =====================================
+  why_used: Addons Transformer to transform ISV Softwares to EKS Marketplace
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Shell
+    - Makefile
+    - JavaScript
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@inquirer/prompts'
+    - '@inquirer/select'
+    - '@oclif/core'
+    - '@oclif/plugin-help'
+    - '@oclif/prettier-config'
+    - '@oclif/test'
+    - '@octokit/core'
+    - '@types/ajv'
+    - '@types/chai'
+    - '@types/fs-extra'
+    - '@types/inquirer'
+    - '@types/js-yaml'
+    - '@types/mocha'
+    - '@types/node'
+    - ajv
+    - chai
+    - eslint
+    - eslint-config-oclif
+    - eslint-config-oclif-typescript
+    - eslint-config-prettier
+    - js-yaml
+    - json-schema
+    - mocha
+    - oclif
+    - shx
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/index.ts, src/commandOpts/create-issue.ts,
+    src/commandOpts/validate.ts, src/commands/create-issue.ts'
+  setup_and_usage:
+  - 'Cloud Shell Installation: To quickly get started with this transformer, you can leverage CloudShell in the
+    AWS Console. Some prerequisites you need:'
+  - 'Cloud Shell Installation: * Access to the helm chart to pull it'
+  - 'Cloud Shell Installation: * Install the Helm CLI in CloudShell using the following commands:'
+  - 'Cloud Shell Installation: $ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3'
+  - 'Cloud Shell Installation: $ chmod 700 get_helm.sh'
+  - 'Cloud Shell Installation: * A GitHub token as required by The GitHub Service'
+  - 'Cloud Shell Installation: To use this CLI in CloudShell,'
+  - 'Cloud Shell Installation: * Log into the AWS Console with a role that has access to the location of the helm
+    chart'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-ia/addons-transformer-for-amazon-eks/blob/main/README.md
+  path: README.md
+  blob_sha: 0f4dbf9cbb32fc6782740ef2e07ec2154c69ecf7
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: ca794fbdadefa4c80c98ddfb9e4a5c5be50ce1a2
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 6e1ebe53f5f5f290bf5d54215a031a1ff73a1928
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 34228
+    Shell: 1065
+    Makefile: 816
+    JavaScript: 416
+    Batchfile: 117
+- type: Git tree
+  status: captured
+  sha: 767a257148be5e0ec18d44ad39499e9ed0da1cb7
+  truncated: false
+- type: source_file
+  path: src/index.ts
+  blob_sha: 21c366dc76700144ab75d1bf824309de281bb058
+  retrieved: true
+- type: source_file
+  path: src/commandOpts/create-issue.ts
+  blob_sha: 8af2f76d3161dc51aac77b731810d9e553c3d92c
+  retrieved: true
+- type: source_file
+  path: src/commandOpts/validate.ts
+  blob_sha: 8c13ee4c22adda8a985c70124d39cbf59608fca8
+  retrieved: true
+- type: source_file
+  path: src/commands/create-issue.ts
+  blob_sha: be77fbebdd5769d0b8b1ccf32180741e38fe4b21
+  retrieved: true

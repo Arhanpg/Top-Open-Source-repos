@@ -1,0 +1,112 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:56:51+00:00'
+evidence_fingerprint: b37944efb5356583f15af4612064db71a794fce81f9eb07916968d6ce02962a9
+repository_metadata:
+  company: Amazon
+  account: projen
+  full_name: projen/canary-testing
+  repository_id: 825836616
+  url: https://github.com/projen/canary-testing
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T00:31:47Z'
+  stars: 1
+  readme_url: https://github.com/projen/canary-testing/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b2a845ad3c25f10dead478687f3a3a21ba0bb5d0
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/index.ts
+  - src/project.ts
+  - .projenrc.ts
+  - projenrc/auto-merge.ts
+  repository_tree:
+    status: captured
+    sha: 59287029d86e04dbc16346e8f7c55210d2dc4745
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ':warning: Do not use! :warning:'
+  why_used: ':warning: Do not use! :warning:'
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@types/jest'
+    - '@types/node'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - commit-and-tag-version
+    - constructs
+    - eslint
+    - eslint-config-prettier
+    - eslint-import-resolver-typescript
+    - eslint-plugin-import
+    - eslint-plugin-prettier
+    - jest
+    - jest-junit
+    - jsii
+    - jsii-diff
+    - jsii-docgen
+    - jsii-pacmak
+    - jsii-rosetta
+    - prettier
+    - projen
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/index.ts, src/project.ts,
+    .projenrc.ts, projenrc/auto-merge.ts'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/projen/canary-testing/blob/main/README.md
+  path: README.md
+  blob_sha: b2a845ad3c25f10dead478687f3a3a21ba0bb5d0
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 7d3c3e970c9a78b4a21da2336b180b1fe0e04c56
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 8247
+- type: Git tree
+  status: captured
+  sha: 59287029d86e04dbc16346e8f7c55210d2dc4745
+  truncated: false
+- type: source_file
+  path: src/index.ts
+  blob_sha: 9ff8c7dff40bde28a02dea45f9c20b501e181fdb
+  retrieved: true
+- type: source_file
+  path: src/project.ts
+  blob_sha: fdd539ae7f77816de1a09bbb2e26f583f3596220
+  retrieved: true
+- type: source_file
+  path: .projenrc.ts
+  blob_sha: e34414384f879ea33d3e686eb262a57c601c58d7
+  retrieved: true
+- type: source_file
+  path: projenrc/auto-merge.ts
+  blob_sha: 1ea31b4427a7c941c929a4dae1c7e6367e39bb33
+  retrieved: true

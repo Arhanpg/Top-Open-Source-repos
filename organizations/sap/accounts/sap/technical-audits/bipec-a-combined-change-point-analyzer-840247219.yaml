@@ -1,0 +1,102 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:51:23+00:00'
+evidence_fingerprint: 90e47a7c7f754299c798ae06f5277aabf7d532f59accee9e35bd72a2aae2be07
+repository_metadata:
+  company: SAP
+  account: SAP
+  full_name: SAP/BIPeC-A-Combined-Change-Point-Analyzer
+  repository_id: 840247219
+  url: https://github.com/SAP/BIPeC-A-Combined-Change-Point-Analyzer
+  description: 'Materials for our paper BIPeC: A Combined Change-Point Analyzer to Identify Performance Regressions
+    in Large-scale Database Systems.'
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-06-15T15:38:41Z'
+  stars: 1
+  readme_url: https://github.com/SAP/BIPeC-A-Combined-Change-Point-Analyzer/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e6cab878403170bcd21cd04997bc44cedbb19db3
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - bayesian_detector.py
+  - bipec.py
+  - log.py
+  - plot.py
+  repository_tree:
+    status: captured
+    sha: 9d4b27589239973f46326bfa66902d3d0b369a73
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Source code and materials for the paper
+  why_used: 'Materials for our paper BIPeC: A Combined Change-Point Analyzer to Identify Performance Regressions
+    in Large-scale Database Systems.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - matplotlib
+    - numpy
+    - pandas
+    - ruptures
+    - scipy
+    - tqdm
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: bayesian_detector.py,
+    bipec.py, log.py, plot.py'
+  setup_and_usage:
+  - 'Usage: There are several prerequisites that need to be installed in advance.'
+  - 'Usage: You should have python >= 3.10.'
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP/BIPeC-A-Combined-Change-Point-Analyzer/blob/main/README.md
+  path: README.md
+  blob_sha: e6cab878403170bcd21cd04997bc44cedbb19db3
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 12ddc06c8150acbf54efdb4120ad316913af1b63
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 16378
+- type: Git tree
+  status: captured
+  sha: 9d4b27589239973f46326bfa66902d3d0b369a73
+  truncated: false
+- type: source_file
+  path: bayesian_detector.py
+  blob_sha: 14e7eb991327ab72181ecbba55772d649e6ed8d5
+  retrieved: true
+- type: source_file
+  path: bipec.py
+  blob_sha: 9167b3d743cb290f29add568d9430a87f35c5777
+  retrieved: true
+- type: source_file
+  path: log.py
+  blob_sha: 8cf053da41375f3ee1b82f1fb195e43d6aa69b6e
+  retrieved: true
+- type: source_file
+  path: plot.py
+  blob_sha: ed105288b9d5d83b39a9031458c3adeeda87efc3
+  retrieved: true

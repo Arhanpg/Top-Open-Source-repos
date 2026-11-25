@@ -1,0 +1,154 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:40:32+00:00'
+evidence_fingerprint: 41d50e0c7aa89f37c087eea169457498ad0e419d1b7f99feddeb4b2a70e7ea6c
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/Anakin
+  repository_id: 133907444
+  url: https://github.com/PaddlePaddle/Anakin
+  description: High performance  Cross-platform Inference-engine, you could run Anakin on x86-cpu,arm, nv-gpu, amd-gpu,bitmain
+    and cambricon devices.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-09-23T22:22:29Z'
+  stars: 537
+  readme_url: https://github.com/PaddlePaddle/Anakin/blob/master/README.md
+  readme_path: README.md
+  readme_sha: d5fdc2f0556ef1edcecdd7dd31660e6bcbfb933b
+  manifest_paths:
+  - CMakeLists.txt
+  - examples/CMakeLists.txt
+  - framework/CMakeLists.txt
+  - saber/CMakeLists.txt
+  - sgx/CMakeLists.txt
+  - test/CMakeLists.txt
+  source_files_inspected:
+  - tools/external_converter_v2/parser/frontend/main.py
+  - framework/core/any.h
+  - framework/core/base.h
+  - framework/core/common_macros.h
+  repository_tree:
+    status: captured
+    sha: 2720b4547859954a66ad8dac0af2ca30b041aa47
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Welcome to the Anakin GitHub.
+  why_used: High performance  Cross-platform Inference-engine, you could run Anakin on x86-cpu,arm, nv-gpu, amd-gpu,bitmain
+    and cambricon devices.
+  core_features:
+  - name: '**Flexibility**'
+    description: '**Flexibility**'
+    evidence:
+    - README.md#Features
+  - name: '**High performance**'
+    description: '**High performance**'
+    evidence:
+    - README.md#Features
+  - name: Automatic graph fusion. The goal of all performance optimizations under a
+    description: Automatic graph fusion. The goal of all performance optimizations under a
+    evidence:
+    - README.md#Features
+  - name: Memory reuse. Forward prediction is a one-way calculation. We reuse
+    description: Memory reuse. Forward prediction is a one-way calculation. We reuse
+    evidence:
+    - README.md#Features
+  - name: Assembly level optimization. Saber is a underlying DNN library for Anakin, which
+    description: Assembly level optimization. Saber is a underlying DNN library for Anakin, which
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - JavaScript
+    - Cuda
+    - C
+    - CMake
+    - Shell
+    - CSS
+    - HTML
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: tools/external_converter_v2/parser/frontend/main.py,
+    framework/core/any.h, framework/core/base.h, framework/core/common_macros.h'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/Anakin/blob/master/README.md
+  path: README.md
+  blob_sha: d5fdc2f0556ef1edcecdd7dd31660e6bcbfb933b
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 619b16de825f15ddb0861ede202ae614ba06315f
+  retrieved: true
+- type: manifest
+  path: examples/CMakeLists.txt
+  blob_sha: b937572894c269758b7d72dc4c7554521bf7fb83
+  retrieved: true
+- type: manifest
+  path: framework/CMakeLists.txt
+  blob_sha: 6316c27c3281c46a56b2bb655c4464b25ae3bddd
+  retrieved: true
+- type: manifest
+  path: saber/CMakeLists.txt
+  blob_sha: bdd91a1d990fee77cdc207a6196cc139238db8d1
+  retrieved: true
+- type: manifest
+  path: sgx/CMakeLists.txt
+  blob_sha: 254eada1f9884909884fd46bc3cf14db00049780
+  retrieved: true
+- type: manifest
+  path: test/CMakeLists.txt
+  blob_sha: 3491f4ab7f51f59a568d6f79051192e66696117a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 10322038
+    Python: 663905
+    JavaScript: 653166
+    Cuda: 632924
+    C: 242750
+    CMake: 208588
+    Shell: 36494
+    CSS: 18091
+    HTML: 16033
+    Dockerfile: 4166
+- type: Git tree
+  status: captured
+  sha: 2720b4547859954a66ad8dac0af2ca30b041aa47
+  truncated: false
+- type: source_file
+  path: tools/external_converter_v2/parser/frontend/main.py
+  blob_sha: e0fa10db79e686092a65a266666b1ade4655a58b
+  retrieved: true
+- type: source_file
+  path: framework/core/any.h
+  blob_sha: 109e2421949e2e8c3b684f63906e6a74d4682eba
+  retrieved: true
+- type: source_file
+  path: framework/core/base.h
+  blob_sha: 5a2ea47495103e93c45dd818105bfca6dd8b4570
+  retrieved: true
+- type: source_file
+  path: framework/core/common_macros.h
+  blob_sha: 0c8b4430e7c6699c357e090a081e6bca67574849
+  retrieved: true

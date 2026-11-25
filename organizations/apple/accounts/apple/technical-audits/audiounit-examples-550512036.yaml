@@ -1,0 +1,88 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:48:27+00:00'
+evidence_fingerprint: bb5d9606c3874c01985995c93df94010261cf8a0ddf177cde67f898a57098038
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/AudioUnit-Examples
+  repository_id: 550512036
+  url: https://github.com/apple/AudioUnit-Examples
+  description: AudioUnit Examples
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2022-11-08T10:52:05Z'
+  stars: 96
+  readme_url: https://github.com/apple/AudioUnit-Examples/blob/main/ReadMe.md
+  readme_path: ReadMe.md
+  readme_sha: 90367a8e5b8113de9f6d98438265b3fcc1fa64fa
+  manifest_paths: []
+  source_files_inspected:
+  - AudioUnitEffectExample/FilterDemo/AUSource/Filter.cpp
+  - AudioUnitEffectExample/FilterDemo/AUSource/Filter.h
+  - AudioUnitEffectExample/FilterDemo/CocoaUI/AppleDemoFilter_GraphView.h
+  - AudioUnitEffectExample/FilterDemo/CocoaUI/AppleDemoFilter_GraphView.m
+  repository_tree:
+    status: captured
+    sha: 1892420e468dbdabed417c45fbee26c3dcd39f9b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The AudioUnit-Examples repository contains sample code for Audio Unit v2 and v3 development.
+  why_used: AudioUnit Examples
+  core_features: []
+  technology_stack:
+    languages:
+    - Swift
+    - Objective-C
+    - C++
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: AudioUnitEffectExample/FilterDemo/AUSource/Filter.cpp,
+    AudioUnitEffectExample/FilterDemo/AUSource/Filter.h, AudioUnitEffectExample/FilterDemo/CocoaUI/AppleDemoFilter_GraphView.h,
+    AudioUnitEffectExample/FilterDemo/CocoaUI/AppleDemoFilter_GraphView.m'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/AudioUnit-Examples/blob/main/ReadMe.md
+  path: ReadMe.md
+  blob_sha: 90367a8e5b8113de9f6d98438265b3fcc1fa64fa
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Swift: 40441
+    Objective-C: 38526
+    C++: 17346
+- type: Git tree
+  status: captured
+  sha: 1892420e468dbdabed417c45fbee26c3dcd39f9b
+  truncated: false
+- type: source_file
+  path: AudioUnitEffectExample/FilterDemo/AUSource/Filter.cpp
+  blob_sha: ac619fe7a5ee1d68af029a8600a8c17e9f238637
+  retrieved: true
+- type: source_file
+  path: AudioUnitEffectExample/FilterDemo/AUSource/Filter.h
+  blob_sha: f0408728149633dda634502783660bd0e943b6f0
+  retrieved: true
+- type: source_file
+  path: AudioUnitEffectExample/FilterDemo/CocoaUI/AppleDemoFilter_GraphView.h
+  blob_sha: a92b0bbf43e1f4050a77e3219e008a680b70d14a
+  retrieved: true
+- type: source_file
+  path: AudioUnitEffectExample/FilterDemo/CocoaUI/AppleDemoFilter_GraphView.m
+  blob_sha: ab0e2b951ad13ee54d7de6e4addc403c48c155d2
+  retrieved: true

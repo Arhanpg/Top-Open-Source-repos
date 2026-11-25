@@ -1,0 +1,97 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:57:31+00:00'
+evidence_fingerprint: f8353a7be38894baa4e5fe0b6b451b25d5748f91ee33cadd7f6525afb361295d
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/AnyQ
+  repository_id: 139385775
+  url: https://github.com/baidu/AnyQ
+  description: FAQ-based Question Answering System
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2020-11-28T12:32:49Z'
+  stars: 2570
+  readme_url: https://github.com/baidu/AnyQ/blob/master/README.md
+  readme_path: README.md
+  readme_sha: e9012e454098f25bfa5747e5b67813f94f3112d1
+  manifest_paths:
+  - CMakeLists.txt
+  source_files_inspected:
+  - include/server/anyq_postprocessor.h
+  - include/server/anyq_preprocessor.h
+  - include/server/http_server.h
+  - include/server/http_service_impl.h
+  repository_tree:
+    status: captured
+    sha: 9ae14ba3273163fbf0a210ccba3090689579f5bd
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**AnyQ(ANswer Your Questions)** 开源项目主要包含面向FAQ集合的问答系统框架、文本语义匹配工具SimNet。'
+  why_used: FAQ-based Question Answering System
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - Shell
+    - CMake
+    - C
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: include/server/anyq_postprocessor.h,
+    include/server/anyq_preprocessor.h, include/server/http_server.h, include/server/http_service_impl.h'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/AnyQ/blob/master/README.md
+  path: README.md
+  blob_sha: e9012e454098f25bfa5747e5b67813f94f3112d1
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 571b0bf7543b73cd830268c0c776176786702ef9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 295312
+    Python: 172355
+    Shell: 6317
+    CMake: 5309
+    C: 2365
+- type: Git tree
+  status: captured
+  sha: 9ae14ba3273163fbf0a210ccba3090689579f5bd
+  truncated: false
+- type: source_file
+  path: include/server/anyq_postprocessor.h
+  blob_sha: 25455eb7373548d2b6ef672a1a2e1eb3c8145252
+  retrieved: true
+- type: source_file
+  path: include/server/anyq_preprocessor.h
+  blob_sha: cabce118dc4ba17ffa7eae7a528246425ca4fb0d
+  retrieved: true
+- type: source_file
+  path: include/server/http_server.h
+  blob_sha: dd16956e4fbab4c1353a6ad6a9f99519f2d4378b
+  retrieved: true
+- type: source_file
+  path: include/server/http_service_impl.h
+  blob_sha: a42d140cae2b455e4939f7808895e47a594f182b
+  retrieved: true

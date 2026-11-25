@@ -1,0 +1,144 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:44:28+00:00'
+evidence_fingerprint: 350f2f30dc3b312836cc7142df567b045e2edf794d58e8ae7c43bcf302dded96
+repository_metadata:
+  company: Amazon
+  account: ajaxorg
+  full_name: ajaxorg/ace
+  repository_id: 1028340
+  url: https://github.com/ajaxorg/ace
+  description: Ace (Ajax.org Cloud9 Editor)
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-29T15:18:14Z'
+  stars: 27136
+  readme_url: https://github.com/ajaxorg/ace/blob/master/Readme.md
+  readme_path: Readme.md
+  readme_sha: a4df9550500b58e4b7bc8065ecb02ee257d1b5be
+  manifest_paths:
+  - Makefile
+  - package.json
+  - doc/package.json
+  - tool/package.json
+  - demo/test_ace_builds/package.json
+  - demo/test_package/package.json
+  source_files_inspected:
+  - demo/static-highlighter/server.js
+  - demo/test_ace_builds/index.ts
+  - demo/test_package/index.ts
+  - lib/ace/loader_build.js
+  repository_tree:
+    status: captured
+    sha: 5052d55ba6ade9c85a500dd208efb12478ace696
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Ace (Ajax.org Cloud9 Editor) ============================
+  why_used: Ace (Ajax.org Cloud9 Editor)
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - HTML
+    - Shell
+    - Makefile
+    - CSS
+    frameworks_and_libraries: []
+    dependencies:
+    - ace-builds
+    - ace-code
+    - ace-legacy-linters
+    - amd-loader
+    - architect-build
+    - asset-smasher
+    - asyncjs
+    - browser-pack
+    - browserify
+    - c8
+    - cson
+    - css-parse
+    - css-stringify
+    - deps-sort
+    - derequire
+    - dryice
+    - eslint
+    - mocha
+    - panino
+    - plist
+    - standard-version
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: demo/static-highlighter/server.js,
+    demo/test_ace_builds/index.ts, demo/test_package/index.ts, lib/ace/loader_build.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ajaxorg/ace/blob/master/Readme.md
+  path: Readme.md
+  blob_sha: a4df9550500b58e4b7bc8065ecb02ee257d1b5be
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 29cf0495029701c10398a3091238bbbea1acf6d5
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 6d1050778144a09cbb3dfb940c96cc898b432d23
+  retrieved: true
+- type: manifest
+  path: doc/package.json
+  blob_sha: 50796eea193040f53453f8a3d5044a0ad7bad39f
+  retrieved: true
+- type: manifest
+  path: tool/package.json
+  blob_sha: fc6322379f0155263faf6d85399933780c589e40
+  retrieved: true
+- type: manifest
+  path: demo/test_ace_builds/package.json
+  blob_sha: a6af1786a619ecb6962c732a916a34cee9bafbac
+  retrieved: true
+- type: manifest
+  path: demo/test_package/package.json
+  blob_sha: a0c3782e21c5c8b9b92af9d21131caa8bad56674
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 13137265
+    HTML: 160262
+    Shell: 7126
+    Makefile: 1115
+    CSS: 1045
+- type: Git tree
+  status: captured
+  sha: 5052d55ba6ade9c85a500dd208efb12478ace696
+  truncated: false
+- type: source_file
+  path: demo/static-highlighter/server.js
+  blob_sha: a733d83b927ff58c5d6c91ca3368becaf0277820
+  retrieved: true
+- type: source_file
+  path: demo/test_ace_builds/index.ts
+  blob_sha: 063e625ce14c53c15e855ebe7cf3c387f2fc4c53
+  retrieved: true
+- type: source_file
+  path: demo/test_package/index.ts
+  blob_sha: 460a67fec62eb672659a05e34806f549cdf50d51
+  retrieved: true
+- type: source_file
+  path: lib/ace/loader_build.js
+  blob_sha: 77505a27cdd8ca2e23127db9add9742978a05827
+  retrieved: true

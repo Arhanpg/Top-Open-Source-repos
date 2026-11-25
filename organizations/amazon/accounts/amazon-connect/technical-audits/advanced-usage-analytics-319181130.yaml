@@ -1,0 +1,88 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:53:23+00:00'
+evidence_fingerprint: 56baae7de07d24bd4db6f77b6469306183e790b26b538b31b587266d94688aa0
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/advanced-usage-analytics
+  repository_id: 319181130
+  url: https://github.com/amazon-connect/advanced-usage-analytics
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2022-12-08T07:43:55Z'
+  stars: 6
+  readme_url: https://github.com/amazon-connect/advanced-usage-analytics/blob/main/README.md
+  readme_path: README.md
+  readme_sha: cfdfdabc1bf8ddcc3bbd3723a638057035266abb
+  manifest_paths: []
+  source_files_inspected:
+  - cloudformation/FrontendStackCustomResources/frontendgenerator.js
+  - Frontend/connect-ccp-metric-worker.js
+  - Frontend/main.js
+  repository_tree:
+    status: captured
+    sha: 5e51cfc1fc22c5548d77da4f011e624cacdef7fe
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains the AWS Cloudformation templates, Amazon Athena Queries and other artifacts
+    used in the Analyzing Amazon Connect usage with agent desktop and streaming data blog post.
+  why_used: This repository contains the AWS Cloudformation templates, Amazon Athena Queries and other artifacts
+    used in the Analyzing Amazon Connect usage with agent desktop and streaming data blog post.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cloudformation/FrontendStackCustomResources/frontendgenerator.js,
+    Frontend/connect-ccp-metric-worker.js, Frontend/main.js'
+  setup_and_usage:
+  - 'Advanced usage analytics on Amazon Connect: This repository contains the AWS Cloudformation templates, Amazon
+    Athena Queries and other artifacts used in the Analyzing Amazon Connect usage with agent desktop and streaming
+    data blog post.'
+  - 'Advanced usage analytics on Amazon Connect: For detailed starter project overview and deployment steps please
+    refer to the blog.'
+  - 'Advanced usage analytics on Amazon Connect: Below outlines the optional step of setting up an Amazon Quicksight
+    visualization.'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/advanced-usage-analytics/blob/main/README.md
+  path: README.md
+  blob_sha: cfdfdabc1bf8ddcc3bbd3723a638057035266abb
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 24204
+- type: Git tree
+  status: captured
+  sha: 5e51cfc1fc22c5548d77da4f011e624cacdef7fe
+  truncated: false
+- type: source_file
+  path: cloudformation/FrontendStackCustomResources/frontendgenerator.js
+  blob_sha: 5b3b1c099ccae8d4b41e3003e09676389fd9ba72
+  retrieved: true
+- type: source_file
+  path: Frontend/connect-ccp-metric-worker.js
+  blob_sha: 9d097ceac1fc945ff9a9d7329ae0b42241fd8711
+  retrieved: true
+- type: source_file
+  path: Frontend/main.js
+  blob_sha: d22ce929790f486d5ec6cad415d761e3bc1c26b0
+  retrieved: true

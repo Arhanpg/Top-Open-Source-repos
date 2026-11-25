@@ -1,0 +1,124 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:50:59+00:00'
+evidence_fingerprint: 1515cd3a0f853e2b5643b5da425005fe597c4eb80159e409954af61db0eafdb9
+repository_metadata:
+  company: SAP
+  account: cap-js-community
+  full_name: cap-js-community/business-metrics
+  repository_id: 975416708
+  url: https://github.com/cap-js-community/business-metrics
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-26T03:34:16Z'
+  stars: 3
+  readme_url: https://github.com/cap-js-community/business-metrics/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2fc09b186288ab116cc51c6d57e7f97b2691a27f
+  manifest_paths:
+  - package.json
+  - test/bookshop/package.json
+  source_files_inspected:
+  - lib/metrics/entity-metrics.js
+  - cds-plugin.js
+  - jest.config.js
+  repository_tree:
+    status: captured
+    sha: 2b6a2b175d116a9060362ac63ec7764eb72a272b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Business-metrics** is an extension library for **@cap-js/telemetry** designed for CAP (Cloud Application
+    Programming) applications. It allows you to effortlessly track usage and performance by integrating Counter
+    and Gauge metrics directly into your CAP service entities and actions. These metrics enable better observability
+    and can be exported to telemetry tools for monitoring.'
+  why_used: '**Business-metrics** is an extension library for **@cap-js/telemetry** designed for CAP (Cloud Application
+    Programming) applications. It allows you to effortlessly track usage and performance by integrating Counter
+    and Gauge metrics directly into your CAP service entities and actions. These metrics enable better observability
+    and can be exported to telemetry tools for monitoring.'
+  core_features:
+  - name: '**Counter Metrics**: Track the number of times specific events occur for service entities or actions
+      (e.g., READ, DELETE or custom actions like releaseSalesOrde'
+    description: '**Counter Metrics**: Track the number of times specific events occur for service entities or actions
+      (e.g., READ, DELETE or custom actions like releaseSalesOrder).'
+    evidence:
+    - README.md#Features
+  - name: '**Gauge Metrics**: Monitor and observe specific fields of entities, such as stock levels or other numeric
+      values.'
+    description: '**Gauge Metrics**: Monitor and observe specific fields of entities, such as stock levels or other
+      numeric values.'
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/cds-test'
+    - '@cap-js/cds-types'
+    - '@cap-js/sqlite'
+    - '@cap-js/telemetry'
+    - '@opentelemetry/api'
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - '@sap/cds-mtxs'
+    - business-metrics
+    - eslint
+    - jest
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/metrics/entity-metrics.js,
+    cds-plugin.js, jest.config.js'
+  setup_and_usage:
+  - 'Installation: 1. Add business-metrics to your dependencies via npm add @cap-js-community/business-metrics'
+  - 'Installation: npm add @cap-js-community/business-metrics'
+  - 'Installation: 2. Enable business metrics in package.json under the cds.requires.telemetry.metrics section:'
+  - 'Installation: "enableBusinessMetrics": true'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js-community/business-metrics/blob/main/README.md
+  path: README.md
+  blob_sha: 2fc09b186288ab116cc51c6d57e7f97b2691a27f
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: ee6918cb22f71f20b8dff435cf85b2be96249cc4
+  retrieved: true
+- type: manifest
+  path: test/bookshop/package.json
+  blob_sha: 9911d287fef85e42406098e0cee8f02821f273ff
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 33570
+    CAP CDS: 3727
+- type: Git tree
+  status: captured
+  sha: 2b6a2b175d116a9060362ac63ec7764eb72a272b
+  truncated: false
+- type: source_file
+  path: lib/metrics/entity-metrics.js
+  blob_sha: 2ea1d6d1f9efea6e65a8017b5ca9b7cb5db1efd5
+  retrieved: true
+- type: source_file
+  path: cds-plugin.js
+  blob_sha: ac0df8c6b6d19e218dce982218509b4388761010
+  retrieved: true
+- type: source_file
+  path: jest.config.js
+  blob_sha: d2ec731b883219b55ddb43fa7179724d37adcd7b
+  retrieved: true

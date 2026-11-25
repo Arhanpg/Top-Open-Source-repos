@@ -1,0 +1,112 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:47:15+00:00'
+evidence_fingerprint: 30d9137ac8657f20b60bbab3bea33d885c74f6dda32f7afef2009a247974bec6
+repository_metadata:
+  company: Amazon
+  account: cdklabs
+  full_name: cdklabs/aws-cdk-notices
+  repository_id: 455195449
+  url: https://github.com/cdklabs/aws-cdk-notices
+  description: Static website for the distribution of notices to AWS CDK users.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T00:08:33Z'
+  stars: 11
+  readme_url: https://github.com/cdklabs/aws-cdk-notices/blob/main/README.md
+  readme_path: README.md
+  readme_sha: aa920ba53506259d9604efecfc218bccf9adc9b0
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/action-role.ts
+  - src/construct-info.ts
+  - src/main.ts
+  - src/notice.ts
+  repository_tree:
+    status: captured
+    sha: 927a77cbefd63a881d45f42e8495de5099531cfb
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A static website for the distribution of [notices][1] that we want to broadcast to AWS CDK users. This
+    information can be used in different ways. For example, it can be consumed by the CDK CLI to display messages
+    to users on every command, or it can be used by a GitHub workflow to update issues.
+  why_used: Static website for the distribution of notices to AWS CDK users.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@stylistic/eslint-plugin'
+    - '@types/jest'
+    - '@types/node'
+    - '@types/semver'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - aws-cdk
+    - aws-cdk-lib
+    - cdk-pipelines-github
+    - constructs
+    - esbuild
+    - eslint
+    - eslint-import-resolver-typescript
+    - eslint-plugin-import
+    - jest
+    - jest-junit
+    - projen
+    - semver
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/action-role.ts,
+    src/construct-info.ts, src/main.ts, src/notice.ts'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cdklabs/aws-cdk-notices/blob/main/README.md
+  path: README.md
+  blob_sha: aa920ba53506259d9604efecfc218bccf9adc9b0
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 787722a74102ede33af862c663c81c7d0328aac1
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 34275
+- type: Git tree
+  status: captured
+  sha: 927a77cbefd63a881d45f42e8495de5099531cfb
+  truncated: false
+- type: source_file
+  path: src/action-role.ts
+  blob_sha: 26078fec4551db2ae237b115065b4fac280343f1
+  retrieved: true
+- type: source_file
+  path: src/construct-info.ts
+  blob_sha: ba3e5a3fcd63172e05c6f366bebafbebb8952943
+  retrieved: true
+- type: source_file
+  path: src/main.ts
+  blob_sha: 87d578d7aa1dbb4418eeb9d519cba931297e8f92
+  retrieved: true
+- type: source_file
+  path: src/notice.ts
+  blob_sha: e29a516a142d0c539243557ac54e44a0e0857b27
+  retrieved: true

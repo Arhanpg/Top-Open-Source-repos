@@ -1,0 +1,123 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:52:35+00:00'
+evidence_fingerprint: f78a425e1c6fadb17724350d10cbdf19b49b90d36625029993da20931baec1ec
+repository_metadata:
+  company: Tencent
+  account: Tencent
+  full_name: Tencent/3TS
+  repository_id: 286680935
+  url: https://github.com/Tencent/3TS
+  description: 腾讯事务处理技术验证系统（Tencent Transaction Processing Testbed System）
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-09-11T03:09:01Z'
+  stars: 157
+  readme_url: https://github.com/Tencent/3TS/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 99b0abd76f86eaa13f05e7d3cc21e30f807c499d
+  manifest_paths:
+  - contrib/deneva/Makefile
+  source_files_inspected:
+  - contrib/deneva/system/main.cpp
+  - src/3ts/backend/anomaly_identify.cc
+  - src/3ts/backend/anomaly_identify.h
+  - src/3ts/backend/cca/algorithm.h
+  repository_tree:
+    status: captured
+    sha: 1be46c4cb2dc962ed9630b51e07425cf640cf594
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Tencent Transaction Processing Testbed System (3TS)** that is jointly developed by Tencent''s TDSQL
+    team and the Key Laboratory of Data Engineering and Knowledge Engineering of the Ministry of Education of Renmin
+    University of China. The system aims to design and construct a unified framework for transaction processing
+    (including distributed transactions). It enables users to quickly build new concurrency control approaches via
+    the access interface provided by the framework. Based on an comprehensive experiment study over the benchmarks,
+    and the applications abstracted, users can select an optimal concurrency control approach. At present, 3TS has
+    been integrated 13 mainstream concurrency control approaches, and provides common benchmarks such as TPC-C，PPS
+    and YCSB. 3TS further provides a consistency level test benchmark, to address the issue of system selection
+    difficulty caused by the '
+  why_used: 腾讯事务处理技术验证系统（Tencent Transaction Processing Testbed System）
+  core_features:
+  - name: 'Support three ways to generate histories: Traversing Generating, Randomly Generating, Generating From
+      the Text File.'
+    description: 'Support three ways to generate histories: Traversing Generating, Randomly Generating, Generating
+      From the Text File.'
+    evidence:
+    - README.md#Features
+  - name: Built-in multiple algorithms, including Serializable Algorithm, Conflict Serializable Algorithm, SSI,
+      BOCC, FOCC, etc.
+    description: Built-in multiple algorithms, including Serializable Algorithm, Conflict Serializable Algorithm,
+      SSI, BOCC, FOCC, etc.
+    evidence:
+    - README.md#Features
+  - name: Support evaluating algorithm cost from the execution time and rollback rate two perspectives.
+    description: Support evaluating algorithm cost from the execution time and rollback rate two perspectives.
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - C++
+    - C
+    - Makefile
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: contrib/deneva/system/main.cpp,
+    src/3ts/backend/anomaly_identify.cc, src/3ts/backend/anomaly_identify.h, src/3ts/backend/cca/algorithm.h'
+  setup_and_usage:
+  - 'Usage: - Run make.sh to compile the code. The 3TS binary will be generated if compiling successfully.'
+  - 'Usage: - Run cp config/config.cfg.template config.cfg to copy the configuration file.'
+  - 'Usage: - Run vi config.cfg to modify the configuration file to determine the behavior of the testbed.'
+  - 'Usage: - Run ./3TS --conf_path=config.cfg to execute test. The test result file will be generated when test
+    is over.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Tencent/3TS/blob/master/README.md
+  path: README.md
+  blob_sha: 99b0abd76f86eaa13f05e7d3cc21e30f807c499d
+  retrieved: true
+- type: manifest
+  path: contrib/deneva/Makefile
+  blob_sha: 90b32c27760b23e610217fd6e6e5d116efe32d28
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 1378586
+    C: 51738
+    Makefile: 4387
+    Shell: 1452
+- type: Git tree
+  status: captured
+  sha: 1be46c4cb2dc962ed9630b51e07425cf640cf594
+  truncated: false
+- type: source_file
+  path: contrib/deneva/system/main.cpp
+  blob_sha: 71f7d9e8bb0a2f11b40815dae5352ab8845072c1
+  retrieved: true
+- type: source_file
+  path: src/3ts/backend/anomaly_identify.cc
+  blob_sha: 2a897726c3bb5670613849e7ec1e14150f5b09dd
+  retrieved: true
+- type: source_file
+  path: src/3ts/backend/anomaly_identify.h
+  blob_sha: b75795d2c6f87c41c3d4351715de1b3cefd7c134
+  retrieved: true
+- type: source_file
+  path: src/3ts/backend/cca/algorithm.h
+  blob_sha: cc12ab62f85a1b50d6c58f7ec2b7325bb005f962
+  retrieved: true

@@ -1,0 +1,95 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:56:59+00:00'
+evidence_fingerprint: 7ca22e814b21eb3d2475cb944367e816c71a75596b08312a0e1ae8cc12dee9f5
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/AudioUnitSDK
+  repository_id: 373606198
+  url: https://github.com/apple/AudioUnitSDK
+  description: AudioUnit SDK
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-09-25T17:38:30Z'
+  stars: 229
+  readme_url: https://github.com/apple/AudioUnitSDK/blob/main/readme.md
+  readme_path: readme.md
+  readme_sha: a984fbe0cbc0ef91fd53ae8a78adcecdde554b7b
+  manifest_paths: []
+  source_files_inspected:
+  - src/AudioUnitSDK/AUBase.cpp
+  - src/AudioUnitSDK/AUBuffer.cpp
+  - src/AudioUnitSDK/AUBufferAllocator.cpp
+  - src/AudioUnitSDK/AUEffectBase.cpp
+  repository_tree:
+    status: captured
+    sha: e790d478624ad1ae839e7646125a70653608cfad
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The AudioUnitSDK contains a set of base classes as well as utility sources required for Audio Unit development.
+    These utility classes extend or wrap Core Audio API’s providing developers with the essential scaffolding to
+    create audio effects, instruments, and generators on Apple platforms. They provide an easier to implement C++
+    class model wrapping the C framework APIs.
+  why_used: AudioUnit SDK
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Objective-C
+    - Objective-C++
+    - C
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/AudioUnitSDK/AUBase.cpp,
+    src/AudioUnitSDK/AUBuffer.cpp, src/AudioUnitSDK/AUBufferAllocator.cpp, src/AudioUnitSDK/AUEffectBase.cpp'
+  setup_and_usage: []
+  limitations:
+  - 'Security: - Fixed out-of-bounds read in AUMIDIBase deserialization.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/AudioUnitSDK/blob/main/readme.md
+  path: readme.md
+  blob_sha: a984fbe0cbc0ef91fd53ae8a78adcecdde554b7b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 179101
+    Objective-C: 93314
+    Objective-C++: 12054
+    C: 4532
+    Shell: 2075
+- type: Git tree
+  status: captured
+  sha: e790d478624ad1ae839e7646125a70653608cfad
+  truncated: false
+- type: source_file
+  path: src/AudioUnitSDK/AUBase.cpp
+  blob_sha: 914a02abec0456e9a00eaf70412579cfb1325cc0
+  retrieved: true
+- type: source_file
+  path: src/AudioUnitSDK/AUBuffer.cpp
+  blob_sha: ced30e71901a62b64dc7485c25e9099273df67a4
+  retrieved: true
+- type: source_file
+  path: src/AudioUnitSDK/AUBufferAllocator.cpp
+  blob_sha: 50eb911a27246fa23bb2ab799e17b559ab848e78
+  retrieved: true
+- type: source_file
+  path: src/AudioUnitSDK/AUEffectBase.cpp
+  blob_sha: 625f615f66d3e067faa9635807fee7636e77e9da
+  retrieved: true

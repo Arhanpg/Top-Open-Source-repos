@@ -1,0 +1,128 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:50:11+00:00'
+evidence_fingerprint: 54cb520ad6e9cbff6fa312324de2e17184844d9942f56f0c57f5f85b775a0b0a
+repository_metadata:
+  company: NVIDIA
+  account: nvidia-cosmos
+  full_name: nvidia-cosmos/cosmos-cookbook
+  repository_id: 1042354192
+  url: https://github.com/nvidia-cosmos/cosmos-cookbook
+  description: Post-training scripts and samples for NVIDIA Cosmos ecosystem
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-06-07T17:12:43Z'
+  stars: 489
+  readme_url: https://github.com/nvidia-cosmos/cosmos-cookbook/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b44a1bf0a5a24fba198bf046094796dbe1291bb5
+  manifest_paths:
+  - pyproject.toml
+  - scripts/metrics/qualitative/fvd_fid/requirements.txt
+  - docs/getting_started/nebius/reason2/src/requirements.txt
+  source_files_inspected:
+  - .github/scripts/validate_claude_md.py
+  - bin/check_auto_generated_files.sh
+  - bin/jupytext.sh
+  - bin/uv_lock.sh
+  repository_tree:
+    status: captured
+    sha: ee44991c28bf74830745fa69db940dbfc0f59675
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> [!IMPORTANT] > ## 🚀 Cosmos 3 Has Arrived > > Cosmos 3 is NVIDIA''s next-generation foundation model
+    platform for Physical AI. Compared with the Cosmos Cookbook, Cosmos 3 provides the latest home for models, technical
+    reports, tutorials, benchmarks, and ecosystem updates. > > Rather than relying on separate models for reasoning,
+    prediction, transfer, and policy learning, a single Cosmos 3 model can understand the world, reason about physical
+    interactions, predict future outcomes, transform observations across domains, and generate actions for embodied
+    agents. This unified architecture enables stronger performance across a broad range of Physical AI applications,
+    including robotics, autonomous vehicles, and smart spaces. > > This repository is no longer under active development
+    and will receive only limited maintenance updates. Future model releases, features, documentation, and community'
+  why_used: Post-training scripts and samples for NVIDIA Cosmos ecosystem
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Just
+    frameworks_and_libraries: []
+    dependencies:
+    - Pillow
+    - cd-fvd
+    - decord
+    - einops
+    - numpy
+    - openai
+    - opencv-python
+    - requests
+    - scipy
+    - torch
+    - torch-fidelity
+    - torchmetrics
+    - torchvision
+    - tqdm
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .github/scripts/validate_claude_md.py,
+    bin/check_auto_generated_files.sh, bin/jupytext.sh, bin/uv_lock.sh'
+  setup_and_usage: []
+  limitations:
+  - 'For Documentation & Contribution (All Platforms): - **Git** with Git LFS'
+  - 'For Documentation & Contribution (All Platforms): - **Python**: Version 3.10+'
+  - 'For Documentation & Contribution (All Platforms): - **Internet access** for cloning and dependencies'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/nvidia-cosmos/cosmos-cookbook/blob/main/README.md
+  path: README.md
+  blob_sha: b44a1bf0a5a24fba198bf046094796dbe1291bb5
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: a79302bb2807fbda8caf8c8b99c799c38845ba01
+  retrieved: true
+- type: manifest
+  path: scripts/metrics/qualitative/fvd_fid/requirements.txt
+  blob_sha: 7fdd914c0a0b6b128796d27612b355e95e4ad9f0
+  retrieved: true
+- type: manifest
+  path: docs/getting_started/nebius/reason2/src/requirements.txt
+  blob_sha: aa2b7044640bde26ad6c737af5bc4550a95bf641
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 617628
+    Shell: 6762
+    Just: 1901
+- type: Git tree
+  status: captured
+  sha: ee44991c28bf74830745fa69db940dbfc0f59675
+  truncated: false
+- type: source_file
+  path: .github/scripts/validate_claude_md.py
+  blob_sha: 73052ff9db2fbf131665ab0813bf620dbefcbbd7
+  retrieved: true
+- type: source_file
+  path: bin/check_auto_generated_files.sh
+  blob_sha: 5d52f959bd9ebb04db2b1430af4d5f84ed5334a9
+  retrieved: true
+- type: source_file
+  path: bin/jupytext.sh
+  blob_sha: 27bfe9ff7a6afdb5e39258fb0526b72743dd26e1
+  retrieved: true
+- type: source_file
+  path: bin/uv_lock.sh
+  blob_sha: 6d831ed229879a5ed42a649b5874efd79d5a6d04
+  retrieved: true

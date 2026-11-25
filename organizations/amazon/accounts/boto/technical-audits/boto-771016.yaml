@@ -1,0 +1,111 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:55:39+00:00'
+evidence_fingerprint: 481c3bd060fd9daf96c7e66c04770a565dd73678869d6ab3dcac371986fd525b
+repository_metadata:
+  company: Amazon
+  account: boto
+  full_name: boto/boto
+  repository_id: 771016
+  url: https://github.com/boto/boto
+  description: For the latest version of boto, see https://github.com/boto/boto3 -- Python interface to Amazon Web
+    Services
+  default_branch: develop
+  license_spdx: NOASSERTION
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-01-12T23:46:55Z'
+  stars: 6404
+  readme_url: https://github.com/boto/boto/blob/develop/README.rst
+  readme_path: README.rst
+  readme_sha: 33a4a62bb0459d2a655132a27bfa4a324435a6f4
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  - docs/Makefile
+  source_files_inspected:
+  - boto/manage/server.py
+  - boto/mashups/server.py
+  - boto/__init__.py
+  - boto/auth.py
+  repository_tree:
+    status: captured
+    sha: 30db67d3306f8b5ff9c96ea1db9903299946df21
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Deprecation notice
+  why_used: For the latest version of boto, see https://github.com/boto/boto3 -- Python interface to Amazon Web
+    Services
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - PyYAML
+    - argparse
+    - coverage
+    - httpretty
+    - mock
+    - nose
+    - paramiko
+    - requests
+    - rsa
+    - simplejson
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: boto/manage/server.py,
+    boto/mashups/server.py, boto/__init__.py, boto/auth.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/boto/boto/blob/develop/README.rst
+  path: README.rst
+  blob_sha: 33a4a62bb0459d2a655132a27bfa4a324435a6f4
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: e334ae26fa77de23664c5142cfd9959179705d50
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 49dc3c81bdd25165085214bc88fa7838760835e9
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: 91d9bf278f45dfe36f806ffa12ef44ac827e07ec
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 6692904
+- type: Git tree
+  status: captured
+  sha: 30db67d3306f8b5ff9c96ea1db9903299946df21
+  truncated: false
+- type: source_file
+  path: boto/manage/server.py
+  blob_sha: d9224ab8a8bf7e153bd34b41b5fa83c8d881b503
+  retrieved: true
+- type: source_file
+  path: boto/mashups/server.py
+  blob_sha: 7045e7f4da0f46c85415cad5c38e24fd5989734c
+  retrieved: true
+- type: source_file
+  path: boto/__init__.py
+  blob_sha: 70efe5feb525150cffe41e049811c9acc47f78ce
+  retrieved: true
+- type: source_file
+  path: boto/auth.py
+  blob_sha: 79b1eb3d729bffe4e31a602ede9e084f15c21872
+  retrieved: true

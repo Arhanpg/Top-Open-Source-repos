@@ -1,0 +1,126 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:57:08+00:00'
+evidence_fingerprint: 439e66eeef583d8f8511cf4529bfb87e4f1ee6602f2446be32527e71341a402b
+repository_metadata:
+  company: Apple
+  account: ml-explore
+  full_name: ml-explore/mlx-data
+  repository_id: 724762002
+  url: https://github.com/ml-explore/mlx-data
+  description: Efficient framework-agnostic data loading
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-10-01T00:58:36Z'
+  stars: 484
+  readme_url: https://github.com/ml-explore/mlx-data/blob/main/README.md
+  readme_path: README.md
+  readme_sha: efe20e217af73040d085eff13e76671c20051c6e
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  - setup.py
+  - docs/Makefile
+  - docs/requirements.txt
+  - super/CMakeLists.txt
+  source_files_inspected:
+  - mlx/data/core/audio/Audio.cpp
+  - mlx/data/core/audio/Audio.h
+  - mlx/data/core/audio/AudioPrivate.h
+  - mlx/data/core/audio/AudioSampleRate.cpp
+  repository_tree:
+    status: captured
+    sha: f124558268039f71772fdfd1e1d5a2f91f230268
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: MLX Data =========
+  why_used: Efficient framework-agnostic data loading
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - CMake
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - breathe
+    - mlx-data
+    - sphinx
+    - sphinx-book-theme
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: mlx/data/core/audio/Audio.cpp,
+    mlx/data/core/audio/Audio.h, mlx/data/core/audio/AudioPrivate.h, mlx/data/core/audio/AudioSampleRate.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ml-explore/mlx-data/blob/main/README.md
+  path: README.md
+  blob_sha: efe20e217af73040d085eff13e76671c20051c6e
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 296a457e400594a6a0530d9cf5a6c7faf5d4fde3
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 80bfe589b8810b46189662271cffad8dbbe8a244
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 3ef95119129d314e5b4902b378e18ba9d5b8a2a9
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: ee230164dec3700669ff5ffb775aed068d3793ea
+  retrieved: true
+- type: manifest
+  path: docs/requirements.txt
+  blob_sha: 10c49d6c4650f0ca006339c4722f23c69483052d
+  retrieved: true
+- type: manifest
+  path: super/CMakeLists.txt
+  blob_sha: 3691754e8997a87bd506c87ce9a19fd40d567bf9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 504106
+    Python: 101210
+    CMake: 62657
+    Shell: 1948
+- type: Git tree
+  status: captured
+  sha: f124558268039f71772fdfd1e1d5a2f91f230268
+  truncated: false
+- type: source_file
+  path: mlx/data/core/audio/Audio.cpp
+  blob_sha: 88e01d0a683186666445d7c8bcf7a43d1e991cb3
+  retrieved: true
+- type: source_file
+  path: mlx/data/core/audio/Audio.h
+  blob_sha: 3696e940fb2ce725117bfafc448e380c86ad7f9f
+  retrieved: true
+- type: source_file
+  path: mlx/data/core/audio/AudioPrivate.h
+  blob_sha: 9e5260b979a67d37bc3305a11838032199b0ada4
+  retrieved: true
+- type: source_file
+  path: mlx/data/core/audio/AudioSampleRate.cpp
+  blob_sha: 74908b174160da1f7b7270c1f0b4734705612b61
+  retrieved: true

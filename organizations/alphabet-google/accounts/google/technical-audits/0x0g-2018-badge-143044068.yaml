@@ -1,0 +1,96 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:52:43+00:00'
+evidence_fingerprint: 956dae68678b1a455b768a73ef49dd5c7316675824a11d79d8353d4c32c1751e
+repository_metadata:
+  company: Alphabet (Google)
+  account: google
+  full_name: google/0x0g-2018-badge
+  repository_id: 143044068
+  url: https://github.com/google/0x0g-2018-badge
+  description: null
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2018-07-31T17:31:33Z'
+  stars: 19
+  readme_url: https://github.com/google/0x0g-2018-badge/blob/master/README.md
+  readme_path: README.md
+  readme_sha: ce30d282ded726ccf513a563b964b37f865d1200
+  manifest_paths:
+  - firmware.X/Makefile
+  source_files_inspected:
+  - firmware.X/main.c
+  - firmware.X/ir_decoder.c
+  - firmware.X/ir_decoder.h
+  - firmware.X/ir_transmitter.c
+  repository_tree:
+    status: captured
+    sha: ee283bae69e34cf116e24e1651ac8a503cb48c0c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is the electronic badge distributed at 0x0G, Google's annual event at DEF CON/Black Hat. This badge
+    features a PIC microcontroller driving a ring of LEDs with communication over infrared.
+  why_used: This is the electronic badge distributed at 0x0G, Google's annual event at DEF CON/Black Hat. This badge
+    features a PIC microcontroller driving a ring of LEDs with communication over infrared.
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - Makefile
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: firmware.X/main.c,
+    firmware.X/ir_decoder.c, firmware.X/ir_decoder.h, firmware.X/ir_transmitter.c'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google/0x0g-2018-badge/blob/master/README.md
+  path: README.md
+  blob_sha: ce30d282ded726ccf513a563b964b37f865d1200
+  retrieved: true
+- type: manifest
+  path: firmware.X/Makefile
+  blob_sha: d7c35cb1ec87141aacece9ac391c70afd40442fb
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 24260
+    Makefile: 21596
+    Python: 4040
+    Shell: 1375
+- type: Git tree
+  status: captured
+  sha: ee283bae69e34cf116e24e1651ac8a503cb48c0c
+  truncated: false
+- type: source_file
+  path: firmware.X/main.c
+  blob_sha: aa2523ac524a1f74d153d5b2566762919ba869ba
+  retrieved: true
+- type: source_file
+  path: firmware.X/ir_decoder.c
+  blob_sha: 767d07cef241f91dbf4699c22b95befcce27d161
+  retrieved: true
+- type: source_file
+  path: firmware.X/ir_decoder.h
+  blob_sha: 95f085e068c4fbff3031f0afcfb6f744f7276521
+  retrieved: true
+- type: source_file
+  path: firmware.X/ir_transmitter.c
+  blob_sha: 42e174f873c4462d79d15959d137e48d511d714c
+  retrieved: true

@@ -1,0 +1,77 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:43:51+00:00'
+evidence_fingerprint: e8b8cd8eade3898147b0497b72977b4ad12a1d522ce0ab69c30554df8861946d
+repository_metadata:
+  company: Siemens
+  account: Siemens
+  full_name: siemens/.github
+  repository_id: 491935418
+  url: https://github.com/siemens/.github
+  description: null
+  default_branch: main
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T23:14:51Z'
+  stars: 3
+  readme_url: https://github.com/siemens/.github/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 21755caa24d994361cd58390b3827696a3f85c26
+  manifest_paths:
+  - scripts/pyproject.toml
+  source_files_inspected:
+  - scripts/announcements.py
+  repository_tree:
+    status: captured
+    sha: 42bc0ae3095819bdf4b67a5cd8aae39dcf30d997
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This repository contains files related to many or all repositories withing the siemens organization,
+    namely:'
+  why_used: 'This repository contains files related to many or all repositories withing the siemens organization,
+    namely:'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - PyGithub
+    - loguru
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: scripts/announcements.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/siemens/.github/blob/main/README.md
+  path: README.md
+  blob_sha: 21755caa24d994361cd58390b3827696a3f85c26
+  retrieved: true
+- type: manifest
+  path: scripts/pyproject.toml
+  blob_sha: d40c98850604e593fc9022af4298efc7f33c25b9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 3205
+- type: Git tree
+  status: captured
+  sha: 42bc0ae3095819bdf4b67a5cd8aae39dcf30d997
+  truncated: false
+- type: source_file
+  path: scripts/announcements.py
+  blob_sha: e88a900679b9d611808e1808fdcd446a014b5ca5
+  retrieved: true

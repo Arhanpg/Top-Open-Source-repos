@@ -1,0 +1,96 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:46:59+00:00'
+evidence_fingerprint: d36c27d5a04141da7bf190f78d487063e2c9833747b8523fb7c095134b00f2e5
+repository_metadata:
+  company: Amazon
+  account: boto
+  full_name: boto/bcdoc
+  repository_id: 9522814
+  url: https://github.com/boto/bcdoc
+  description: '[Deprecated] Tools to help document botocore-based projects'
+  default_branch: develop
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2017-09-01T19:47:59Z'
+  stars: 6
+  readme_url: https://github.com/boto/bcdoc/blob/develop/README.rst
+  readme_path: README.rst
+  readme_sha: 0577384e7ff0409fdd34c9754fa01834a3ef9a69
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  source_files_inspected:
+  - bcdoc/__init__.py
+  - bcdoc/compat.py
+  - bcdoc/docevents.py
+  - bcdoc/docstringparser.py
+  repository_tree:
+    status: captured
+    sha: 389acfd2f2f6f4869ad969f7820931f1077cd903
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: bcdoc =====
+  why_used: '[Deprecated] Tools to help document botocore-based projects'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - docutils
+    - six
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: bcdoc/__init__.py,
+    bcdoc/compat.py, bcdoc/docevents.py, bcdoc/docstringparser.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/boto/bcdoc/blob/develop/README.rst
+  path: README.rst
+  blob_sha: 0577384e7ff0409fdd34c9754fa01834a3ef9a69
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 2fd360f11f817ebbc14916d434eec7f4a3f45689
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: e119fe9fa30f6a578012aeaf58162912daaf0f53
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 61645
+- type: Git tree
+  status: captured
+  sha: 389acfd2f2f6f4869ad969f7820931f1077cd903
+  truncated: false
+- type: source_file
+  path: bcdoc/__init__.py
+  blob_sha: b687f69da2144383f320cfab8015c402160af33c
+  retrieved: true
+- type: source_file
+  path: bcdoc/compat.py
+  blob_sha: ee6d7c910b75b94246c2aa8df1621434c95e2828
+  retrieved: true
+- type: source_file
+  path: bcdoc/docevents.py
+  blob_sha: f5c6c84938f797a179d461495512e8d8262d5ec1
+  retrieved: true
+- type: source_file
+  path: bcdoc/docstringparser.py
+  blob_sha: a6afb95b77eb700f6b732dba55690dc3f60ec0dd
+  retrieved: true

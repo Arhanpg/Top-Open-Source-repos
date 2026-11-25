@@ -1,0 +1,131 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:48:11+00:00'
+evidence_fingerprint: 7b260f06446dbd1ecbb2e020cbab300ae8802cbaf050d5f7edc9afae9a85b636
+repository_metadata:
+  company: Amazon
+  account: opensearch
+  full_name: opensearch/revolut
+  repository_id: 98311907
+  url: https://github.com/opensearch/revolut
+  description: A pre-interview task for Revolut
+  default_branch: master
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2017-07-31T09:22:42Z'
+  stars: 0
+  readme_url: https://github.com/opensearch/revolut/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 38ab35338601b2657df2a08689b083cbe1cb7aec
+  manifest_paths:
+  - pom.xml
+  - transactional-ear/pom.xml
+  - transactional-ejb/pom.xml
+  - transactional-web/pom.xml
+  source_files_inspected:
+  - transactional-ejb/src/main/java/com/revolut/data/AccountRepository.java
+  - transactional-ejb/src/main/java/com/revolut/data/ClientRepository.java
+  - transactional-ejb/src/main/java/com/revolut/model/Account.java
+  - transactional-ejb/src/main/java/com/revolut/model/Client.java
+  repository_tree:
+    status: captured
+    sha: 1bfc350058b49b2d6e5175b2d4141696b9eeef4a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'transactional: Money Transfer Service ===================================== Author: Roman Tokarev Level:
+    Intermediate Technologies: EAR, JPA Summary: Based on kitchensink, but deployed as an EAR Target Project: WildFly
+    Source: https://github.com/opensearch/revolut/>'
+  why_used: A pre-interview task for Revolut
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    frameworks_and_libraries: []
+    dependencies:
+    - arquillian-junit-container
+    - arquillian-protocol-servlet
+    - cdi-api
+    - hibernate-jpa-2.1-api
+    - hibernate-validator
+    - jackson-annotations
+    - jaxrs-api
+    - jboss-ejb-api_3.2_spec
+    - jboss-javaee-7.0-with-hibernate
+    - jboss-javaee-7.0-with-tools
+    - jboss-jsf-api_2.2_spec
+    - junit
+    - maven-ear-plugin
+    - maven-ejb-plugin
+    - maven-surefire-plugin
+    - maven-war-plugin
+    - slf4j-api
+    - transactional
+    - transactional-ear
+    - transactional-ejb
+    - transactional-web
+    - wildfly-arquillian-container-managed
+    - wildfly-arquillian-container-remote
+    - wildfly-maven-plugin
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: transactional-ejb/src/main/java/com/revolut/data/AccountRepository.java,
+    transactional-ejb/src/main/java/com/revolut/data/ClientRepository.java, transactional-ejb/src/main/java/com/revolut/model/Account.java,
+    transactional-ejb/src/main/java/com/revolut/model/Client.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/opensearch/revolut/blob/master/README.md
+  path: README.md
+  blob_sha: 38ab35338601b2657df2a08689b083cbe1cb7aec
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: 864a7a187f307e24d69a7be2207ee46d8f0c8f20
+  retrieved: true
+- type: manifest
+  path: transactional-ear/pom.xml
+  blob_sha: 86dcb444e5142c9978454aaef780408b7f4276ef
+  retrieved: true
+- type: manifest
+  path: transactional-ejb/pom.xml
+  blob_sha: ce901d49c8e713852e1e019f739ab394d6f7e315
+  retrieved: true
+- type: manifest
+  path: transactional-web/pom.xml
+  blob_sha: 21724b91987606f6a0e96cf09f852b600242df49
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 21143
+- type: Git tree
+  status: captured
+  sha: 1bfc350058b49b2d6e5175b2d4141696b9eeef4a
+  truncated: false
+- type: source_file
+  path: transactional-ejb/src/main/java/com/revolut/data/AccountRepository.java
+  blob_sha: 3fa3c9627d2132c450d151b78a54a999d3c874b8
+  retrieved: true
+- type: source_file
+  path: transactional-ejb/src/main/java/com/revolut/data/ClientRepository.java
+  blob_sha: 57b8699f3fe5ea0d6f43c4b4a0eff660f4d9f06d
+  retrieved: true
+- type: source_file
+  path: transactional-ejb/src/main/java/com/revolut/model/Account.java
+  blob_sha: e22913240eb6cd173366e07c9dc08ac1a7110841
+  retrieved: true
+- type: source_file
+  path: transactional-ejb/src/main/java/com/revolut/model/Client.java
+  blob_sha: b7623c2d93c5dd761bce40256203a6d6d6b81f6e
+  retrieved: true

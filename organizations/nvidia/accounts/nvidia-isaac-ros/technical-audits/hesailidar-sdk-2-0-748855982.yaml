@@ -1,0 +1,105 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:58:51+00:00'
+evidence_fingerprint: 5f4568f4e3bffde124fad27bd4c0f0eece98ebd625cb4ef65e3730d759938ed5
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/HesaiLidar_SDK_2.0
+  repository_id: 748855982
+  url: https://github.com/NVIDIA-ISAAC-ROS/HesaiLidar_SDK_2.0
+  description: null
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2025-03-21T20:32:03Z'
+  stars: 2
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/HesaiLidar_SDK_2.0/blob/master/README.md
+  readme_path: README.md
+  readme_sha: cb10d6c8479f4f28a8f98d2c36d32aac3896b757
+  manifest_paths:
+  - CMakeLists.txt
+  - libhesai/CMakeLists.txt
+  - tool/CMakeLists.txt
+  source_files_inspected:
+  - libhesai/Container/src/blocking_ring.cc
+  - libhesai/Container/src/ring.cc
+  - libhesai/Container/src/ring_2d_shared.cc
+  - libhesai/Container/src/ring_2dex.cc
+  repository_tree:
+    status: captured
+    sha: 909efe8ba5629f68c6c3b8a84b3702e5d9d24758
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository includes the software development kit for Hesai LiDAR sensor manufactured by Hesai Technology
+  why_used: This repository includes the software development kit for Hesai LiDAR sensor manufactured by Hesai Technology
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Cuda
+    - C
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: libhesai/Container/src/blocking_ring.cc,
+    libhesai/Container/src/ring.cc, libhesai/Container/src/ring_2d_shared.cc, libhesai/Container/src/ring_2dex.cc'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/HesaiLidar_SDK_2.0/blob/master/README.md
+  path: README.md
+  blob_sha: cb10d6c8479f4f28a8f98d2c36d32aac3896b757
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: af49fbeeb3a129990097dacb226c9390f846828b
+  retrieved: true
+- type: manifest
+  path: libhesai/CMakeLists.txt
+  blob_sha: 1c9afa4d010e3f39655e4aef1ecdb51b65369780
+  retrieved: true
+- type: manifest
+  path: tool/CMakeLists.txt
+  blob_sha: 7bbcb4345c5494e6ef7bf602c620cd9ea38968f2
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 856535
+    Cuda: 263909
+    C: 11230
+    CMake: 9999
+- type: Git tree
+  status: captured
+  sha: 909efe8ba5629f68c6c3b8a84b3702e5d9d24758
+  truncated: false
+- type: source_file
+  path: libhesai/Container/src/blocking_ring.cc
+  blob_sha: e8446adb423a32091f795095d70d25b5c2f535f7
+  retrieved: true
+- type: source_file
+  path: libhesai/Container/src/ring.cc
+  blob_sha: b47ea850bf9e9b750f5c93d6b80b13723d35aec0
+  retrieved: true
+- type: source_file
+  path: libhesai/Container/src/ring_2d_shared.cc
+  blob_sha: 15729a112dc550df2365458332b806e0545e7a48
+  retrieved: true
+- type: source_file
+  path: libhesai/Container/src/ring_2dex.cc
+  blob_sha: 30a667e5cb30ffb133b722b13fff15d3558d6294
+  retrieved: true

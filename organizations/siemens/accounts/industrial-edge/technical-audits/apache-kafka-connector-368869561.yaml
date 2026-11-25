@@ -1,0 +1,103 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:52:11+00:00'
+evidence_fingerprint: 52deab61485837d4599291f8c9d5d8591c7b555241f28e90df63c7293ce00423
+repository_metadata:
+  company: Siemens
+  account: industrial-edge
+  full_name: industrial-edge/Apache-Kafka-Connector
+  repository_id: 368869561
+  url: https://github.com/industrial-edge/Apache-Kafka-Connector
+  description: 'The Apache Kafka Connector connects to the IE Databus and Apache Kafka. '
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-11-25T06:58:02Z'
+  stars: 10
+  readme_url: https://github.com/industrial-edge/Apache-Kafka-Connector/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4f610d75ec74c9c6ddcd84f1d97b22a1f084039f
+  manifest_paths:
+  - src/consumer/requirements.txt
+  - src/producer/requirements.txt
+  source_files_inspected:
+  - src/consumer/main.py
+  - src/producer/main.py
+  - src/consumer/globalconfig.py
+  - src/consumer/kafka.py
+  repository_tree:
+    status: captured
+    sha: 4844dce9d2565b686e58cbd64c77381ebf9b544d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Connect Industrial Edge Device to Apache Kafka
+  why_used: The Apache Kafka Connector connects to the IE Databus and Apache Kafka.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - confluent-kafka
+    - paho-mqtt
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/consumer/main.py,
+    src/producer/main.py, src/consumer/globalconfig.py, src/consumer/kafka.py'
+  setup_and_usage:
+  - 'Installation: You can find the further information about the following steps in the docs'
+  - 'Installation: - Upload application to Industrial Edge Management'
+  - 'Installation: - Configure and install application to Industrial Edge Device'
+  - 'Usage: Connect your Industrial Edge Device to a PLC as datasource over the network.'
+  - 'Usage: Provide a Apache Kafka Broker (see Prerequisites) that is accessible for the Industrial Edge Device
+    over the network'
+  - 'Usage: Use e.g. Flow Creator to verify data exchange to and from Apache Kafka Broker.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/industrial-edge/Apache-Kafka-Connector/blob/main/README.md
+  path: README.md
+  blob_sha: 4f610d75ec74c9c6ddcd84f1d97b22a1f084039f
+  retrieved: true
+- type: manifest
+  path: src/consumer/requirements.txt
+  blob_sha: df146bc3246711c4140b2abee3d88f1cdee329ab
+  retrieved: true
+- type: manifest
+  path: src/producer/requirements.txt
+  blob_sha: df146bc3246711c4140b2abee3d88f1cdee329ab
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 10252
+- type: Git tree
+  status: captured
+  sha: 4844dce9d2565b686e58cbd64c77381ebf9b544d
+  truncated: false
+- type: source_file
+  path: src/consumer/main.py
+  blob_sha: d9837a160cddabe38ad13f6d3534a0abcf7e557c
+  retrieved: true
+- type: source_file
+  path: src/producer/main.py
+  blob_sha: 07b6ce4ef98175e19af7061f8fe56e43350109a7
+  retrieved: true
+- type: source_file
+  path: src/consumer/globalconfig.py
+  blob_sha: 5dd5ef0d933397a9301efaf069a40bfc12752e9d
+  retrieved: true
+- type: source_file
+  path: src/consumer/kafka.py
+  blob_sha: cc0ab36dee1db3f9751d2d1fd8735c97c3f9439e
+  retrieved: true

@@ -1,0 +1,87 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:49:39+00:00'
+evidence_fingerprint: 1f4f880e83d1bb28ecc7a31c1ae88102abeef3a3f42257ab0cd9503954762440
+repository_metadata:
+  company: Microsoft
+  account: microsoft
+  full_name: microsoft/.Net-Interactive-Kernels-ADS
+  repository_id: 342423762
+  url: https://github.com/microsoft/.Net-Interactive-Kernels-ADS
+  description: Install and Use .Net Interactive Kernels in ADS
+  default_branch: main
+  license_spdx: MIT
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2023-07-19T02:33:47Z'
+  stars: 7
+  readme_url: https://github.com/microsoft/.Net-Interactive-Kernels-ADS/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 69d2e93a9f79b91e2158e06cd344907f515e317d
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/notebook.ts
+  repository_tree:
+    status: captured
+    sha: 89b6aaa5ee19968b8ecfd580020497300bf7845a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Install and Use .Net Interactive Kernels in ADS
+  why_used: Install and Use .Net Interactive Kernels in ADS
+  core_features: []
+  technology_stack:
+    languages:
+    - Jupyter Notebook
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@types/azdata'
+    - '@types/glob'
+    - '@types/mocha'
+    - '@types/node'
+    - '@types/vscode'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - eslint
+    - glob
+    - mocha
+    - typescript
+    - vscode-test
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/notebook.ts'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/microsoft/.Net-Interactive-Kernels-ADS/blob/main/README.md
+  path: README.md
+  blob_sha: 69d2e93a9f79b91e2158e06cd344907f515e317d
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 3f0dfd9ca76c266f65ebcadf7dd6c53f38b64132
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Jupyter Notebook: 5102
+    TypeScript: 828
+- type: Git tree
+  status: captured
+  sha: 89b6aaa5ee19968b8ecfd580020497300bf7845a
+  truncated: false
+- type: source_file
+  path: src/notebook.ts
+  blob_sha: fb6c38bfc8b89cdf220662c525d356343d2cbf09
+  retrieved: true

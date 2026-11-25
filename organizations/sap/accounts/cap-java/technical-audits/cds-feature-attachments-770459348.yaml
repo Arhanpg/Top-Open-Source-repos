@@ -1,0 +1,187 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:59:16+00:00'
+evidence_fingerprint: 374e9248547f7ac2282b02bfe3023f15ac634f55ce2aca80c12c9670486879a4
+repository_metadata:
+  company: SAP
+  account: cap-java
+  full_name: cap-java/cds-feature-attachments
+  repository_id: 770459348
+  url: https://github.com/cap-java/cds-feature-attachments
+  description: Support for attachments
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T15:55:02Z'
+  stars: 6
+  readme_url: https://github.com/cap-java/cds-feature-attachments/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 210e8f25f3c46d2d5ffdf263bafeb4abbb33ecde
+  manifest_paths:
+  - pom.xml
+  - cds-feature-attachments/package.json
+  - cds-feature-attachments/pom.xml
+  - coverage-report/pom.xml
+  - integration-tests/package.json
+  - integration-tests/pom.xml
+  source_files_inspected:
+  - integration-tests/generic/src/main/java/com/sap/cds/feature/attachments/integrationtests/Application.java
+  - integration-tests/mtx-local/srv/src/main/java/com/sap/cds/feature/attachments/integrationtests/mt/Application.java
+  - samples/bookshop/srv/src/main/java/customer/bookshop/Application.java
+  - cds-feature-attachments/src/main/java/com/sap/cds/feature/attachments/configuration/Registration.java
+  repository_tree:
+    status: captured
+    sha: 4caed21f807715da45ca5d19945c7135fbb442f9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The com.sap.cds:cds-feature-attachments dependency is a CAP Java plugin that provides out-of-the box
+    attachments storage and handling by using an aspect Attachments.
+  why_used: Support for attachments
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - CAP CDS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@sap/cds-dk'
+    - assertj-core
+    - awaitility
+    - cds-adapter-api
+    - cds-feature-attachments
+    - cds-feature-attachments-coverage-report
+    - cds-feature-attachments-fs
+    - cds-feature-attachments-integration-tests-generic
+    - cds-feature-attachments-integration-tests-mtx-local
+    - cds-feature-attachments-integration-tests-parent
+    - cds-feature-attachments-oss
+    - cds-feature-attachments-root
+    - cds-maven-plugin
+    - cds-services-api
+    - cds-services-bom
+    - cds-services-impl
+    - cds-services-utils
+    - cds4j-core
+    - central-publishing-maven-plugin
+    - cloudplatform-core
+    - commons-io
+    - commons-lang3
+    - connectivity-apache-httpclient4
+    - flatten-maven-plugin
+    - guava
+    - jacoco-maven-plugin
+    - junit-bom
+    - junit-jupiter
+    - logback-classic
+    - maven-clean-plugin
+    - maven-compiler-plugin
+    - maven-deploy-plugin
+    - maven-enforcer-plugin
+    - maven-failsafe-plugin
+    - maven-gpg-plugin
+    - maven-javadoc-plugin
+    - maven-pmd-plugin
+    - maven-resources-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - mockito-bom
+    - mockito-core
+    - netty-bom
+    - pmd-rules
+    - sdk-bom
+    - spotbugs-annotations
+    - spotbugs-maven-plugin
+    - spotless-maven-plugin
+    - spring-boot-dependencies
+    - tools
+    - vavr
+    - wiremock-spring-boot
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: integration-tests/generic/src/main/java/com/sap/cds/feature/attachments/integrationtests/Application.java,
+    integration-tests/mtx-local/srv/src/main/java/com/sap/cds/feature/attachments/integrationtests/mt/Application.java,
+    samples/bookshop/srv/src/main/java/customer/bookshop/Application.java, cds-feature-attachments/src/main/java/com/sap/cds/feature/attachments/configuration/Registration.java'
+  setup_and_usage:
+  - 'Quick Start: For a quick setup with in-memory storage:'
+  - 'Quick Start: - Add the cds-feature-attachments Maven dependency to the srv/pom.xml and configure the cds-maven-plugin
+    with the resolve goal as described in MVN Setup.'
+  - 'Quick Start: - Extend the CDS model with the Attachments aspect and annotate the service for UI integration
+    as explained in Changes in the CDS Models and for the UI.'
+  - 'Quick Start: For a complete working example, see the bookshop sample.'
+  - 'Quick Start: The incidents app provides a demonstration of how to use this plugin.'
+  - 'Quick Start: For object store integration, see Amazon, Azure, and Google Object Stores.'
+  limitations:
+  - 'Security: To secure the endpoint, security annotations can be used. For example:'
+  - 'Security: using {Attachments} from com.sap.cds/cds-feature-attachments;'
+  - 'Security: entity Items : cuid {'
+  - 'Security: attachments : Composition of many Attachments;'
+  - 'Security: annotate RestoreAttachments with @(requires: ''internal-user'');'
+  - 'Security: Here the RestoreAttachments service is annotated with the requires annotation to secure the service.'
+  - 'Security: Various other annotations can be used to secure the service.'
+  - 'Security: More information about the CAP Java security concept can be found in'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-java/cds-feature-attachments/blob/main/README.md
+  path: README.md
+  blob_sha: 210e8f25f3c46d2d5ffdf263bafeb4abbb33ecde
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: b978f0ed7bf9a039cb22e0c1dc023a863b06c2aa
+  retrieved: true
+- type: manifest
+  path: cds-feature-attachments/package.json
+  blob_sha: 050bfb4e9f1210534d5be810d8dae7af5ced21ce
+  retrieved: true
+- type: manifest
+  path: cds-feature-attachments/pom.xml
+  blob_sha: 2c73aea2a507093fc6c1a202afea3c7e608069ea
+  retrieved: true
+- type: manifest
+  path: coverage-report/pom.xml
+  blob_sha: 7c8988fdbf528a4d4908b30e66366b95c73d7272
+  retrieved: true
+- type: manifest
+  path: integration-tests/package.json
+  blob_sha: a1851a2a59749fe894fc0902be02cbb72df9e9bc
+  retrieved: true
+- type: manifest
+  path: integration-tests/pom.xml
+  blob_sha: 09bab7abc29df027d598aa9a84772e78ef2b74d5
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 966272
+    CAP CDS: 9464
+- type: Git tree
+  status: captured
+  sha: 4caed21f807715da45ca5d19945c7135fbb442f9
+  truncated: false
+- type: source_file
+  path: integration-tests/generic/src/main/java/com/sap/cds/feature/attachments/integrationtests/Application.java
+  blob_sha: b4faee76b10b9d9a184f63bb40ded395ba1771bf
+  retrieved: true
+- type: source_file
+  path: integration-tests/mtx-local/srv/src/main/java/com/sap/cds/feature/attachments/integrationtests/mt/Application.java
+  blob_sha: fc98c7fb8dfcbe4016f6e5e81278b31dfc0a1860
+  retrieved: true
+- type: source_file
+  path: samples/bookshop/srv/src/main/java/customer/bookshop/Application.java
+  blob_sha: f395d210b560f8cc37b3f8ec91836ddbd42448ce
+  retrieved: true
+- type: source_file
+  path: cds-feature-attachments/src/main/java/com/sap/cds/feature/attachments/configuration/Registration.java
+  blob_sha: 76e4c7582e67da6f3668d9e4d0ed8a6309b452ba
+  retrieved: true

@@ -1,0 +1,220 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:51:32+00:00'
+evidence_fingerprint: c09a2ea9f26cea1e907f49af2cc0de2a92eea26cd4e4fd799b3c2235cbedc5d7
+repository_metadata:
+  company: SAP
+  account: SAP-cloud-infrastructure
+  full_name: SAP-cloud-infrastructure/dual-deployment-operator
+  repository_id: 1296466238
+  url: https://github.com/SAP-cloud-infrastructure/dual-deployment-operator
+  description: Kubernetes operator that deploys split host/remote helm chart/kustomization in Gardener environments,
+    rendering a Helm chart or kustomize source per operator and applying each half to its target cluster via server-side
+    apply.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T16:09:36Z'
+  stars: 2
+  readme_url: https://github.com/SAP-cloud-infrastructure/dual-deployment-operator/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b11f8c999fd87e2f9a9ef1ec0898736f7bc14dd4
+  manifest_paths:
+  - Dockerfile
+  - go.mod
+  - Makefile
+  source_files_inspected:
+  - cmd/main.go
+  - cmd/main_test.go
+  - .devcontainer/post-install.sh
+  - api/v1alpha1/dualdeploymentoperator_types.go
+  repository_tree:
+    status: captured
+    sha: d203b2492c997066d40bbcae9fd1f1072327e489
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A Kubernetes operator for **Gardener** environments that deploys a single Helm chart or kustomize source
+    across **two clusters at once** — the seed (in-cluster) and its shoot (remote) — from one DualDeploymentOperator
+    custom resource.
+  why_used: Kubernetes operator that deploys split host/remote helm chart/kustomization in Gardener environments,
+    rendering a Helm chart or kustomize source per operator and applying each half to its target cluster via server-side
+    apply.
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Makefile
+    - Dockerfile
+    - Shell
+    - Go Template
+    - Nix
+    frameworks_and_libraries: []
+    dependencies:
+    - cel.dev/expr
+    - dario.cat/mergo
+    - github.com/Azure/go-ansiterm
+    - github.com/BurntSushi/toml
+    - github.com/MakeNowJust/heredoc
+    - github.com/Masterminds/goutils
+    - github.com/Masterminds/semver/v3
+    - github.com/Masterminds/sprig/v3
+    - github.com/Masterminds/squirrel
+    - github.com/Microsoft/go-winio
+    - github.com/ProtonMail/go-crypto
+    - github.com/antlr4-go/antlr/v4
+    - github.com/asaskevich/govalidator
+    - github.com/beorn7/perks
+    - github.com/blang/semver/v4
+    - github.com/cenkalti/backoff/v5
+    - github.com/cespare/xxhash/v2
+    - github.com/chai2010/gettext-go
+    - github.com/cloudflare/circl
+    - github.com/cyphar/filepath-securejoin
+    - github.com/davecgh/go-spew
+    - github.com/emicklei/go-restful/v3
+    - github.com/emirpasic/gods
+    - github.com/evanphx/json-patch
+    - github.com/evanphx/json-patch/v5
+    - github.com/exponent-io/jsonpath
+    - github.com/fatih/color
+    - github.com/felixge/httpsnoop
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/go-errors/errors
+    - github.com/go-git/gcfg
+    - github.com/go-git/go-billy/v5
+    - github.com/go-git/go-git/v5
+    - github.com/go-gorp/gorp/v3
+    - github.com/go-logr/logr
+    - github.com/go-logr/stdr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/go-task/slim-sprig/v3
+    - github.com/gobwas/glob
+    - github.com/golang/groupcache
+    - github.com/google/btree
+    - github.com/google/cel-go
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/pprof
+    - github.com/google/uuid
+    - github.com/gosuri/uitable
+    - github.com/grpc-ecosystem/grpc-gateway/v2
+    - github.com/hashicorp/errwrap
+    - github.com/hashicorp/go-multierror
+    - github.com/hashicorp/golang-lru/v2
+    - github.com/huandu/xstrings
+    - github.com/inconshreveable/mousetrap
+    - github.com/jbenet/go-context
+    - github.com/jmoiron/sqlx
+    - github.com/josharian/intern
+    - github.com/json-iterator/go
+    - github.com/kevinburke/ssh_config
+    - github.com/klauspost/cpuid/v2
+    - github.com/lann/builder
+    - github.com/lann/ps
+    - github.com/lib/pq
+    - github.com/liggitt/tabwriter
+    - github.com/mailru/easyjson
+    - github.com/mattn/go-colorable
+    - github.com/mattn/go-isatty
+    - github.com/mattn/go-runewidth
+    - github.com/mitchellh/copystructure
+    - github.com/mitchellh/go-wordwrap
+    - github.com/mitchellh/reflectwalk
+    - github.com/moby/term
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/monochromegane/go-gitignore
+    - github.com/munnerz/goautoneg
+    - github.com/onsi/ginkgo/v2
+    - github.com/onsi/gomega
+    - github.com/opencontainers/go-digest
+    - github.com/opencontainers/image-spec
+    - github.com/peterbourgon/diskv
+    - github.com/pjbgf/sha1cd
+    - github.com/pkg/errors
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/rubenv/sql-migrate
+    - github.com/russross/blackfriday/v2
+    - github.com/santhosh-tekuri/jsonschema/v6
+    - github.com/sergi/go-diff
+    - github.com/shopspring/decimal
+    - github.com/skeema/knownhosts
+    - github.com/spf13/cast
+    - github.com/spf13/cobra
+    - github.com/spf13/pflag
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/main.go, cmd/main_test.go,
+    .devcontainer/post-install.sh, api/v1alpha1/dualdeploymentoperator_types.go'
+  setup_and_usage:
+  - 'Usage: Create a DualDeploymentOperator CR describing your source, the shoot namespace, and how to'
+  limitations:
+  - 'Security / Disclosure: If you find a bug that may be a security problem, please follow the instructions in
+    our'
+  - 'Security / Disclosure: Please do not open GitHub issues for security-related concerns.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP-cloud-infrastructure/dual-deployment-operator/blob/main/README.md
+  path: README.md
+  blob_sha: b11f8c999fd87e2f9a9ef1ec0898736f7bc14dd4
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: e738b93d9be30f203642d3d7231f46e151f962d5
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 94ea6da32760eefbf70ad8f528c09a710cd3d797
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 1f75f6b1a9ae707be1dc264fe867e915460f91ab
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 662987
+    Makefile: 18346
+    Dockerfile: 8058
+    Shell: 4806
+    Go Template: 2292
+    Nix: 442
+- type: Git tree
+  status: captured
+  sha: d203b2492c997066d40bbcae9fd1f1072327e489
+  truncated: false
+- type: source_file
+  path: cmd/main.go
+  blob_sha: 8bc12743b4a7842abdf590e3e115df4938381bc6
+  retrieved: true
+- type: source_file
+  path: cmd/main_test.go
+  blob_sha: e613c049adf7898830780d94c921b0352de20551
+  retrieved: true
+- type: source_file
+  path: .devcontainer/post-install.sh
+  blob_sha: 13b196465dafb612c39a442e5d178091cd80b92b
+  retrieved: true
+- type: source_file
+  path: api/v1alpha1/dualdeploymentoperator_types.go
+  blob_sha: 34fb63acb608ee20cf43267d52fcda65c31b1a4d
+  retrieved: true

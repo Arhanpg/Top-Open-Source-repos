@@ -1,0 +1,94 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:53:39+00:00'
+evidence_fingerprint: a721f534a125ed3e737002bad73a661a6e881076cc0cb44bc7f0b3149de04c1e
+repository_metadata:
+  company: Amazon
+  account: amazonlinux
+  full_name: amazonlinux/amazon-ec2-net-utils
+  repository_id: 105076325
+  url: https://github.com/amazonlinux/amazon-ec2-net-utils
+  description: ec2-net-utils contains a set of utilities for managing elastic network interfaces on Amazon EC2.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-19T19:25:55Z'
+  stars: 99
+  readme_url: https://github.com/amazonlinux/amazon-ec2-net-utils/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4e394f5e5f2f3a2598607e28e90c04a223494fc3
+  manifest_paths: []
+  source_files_inspected:
+  - lib/lib.sh
+  - .github/container-tests-al2023.sh
+  - .github/container-tests-debian12.sh
+  - bin/set-hostname-imds.sh
+  repository_tree:
+    status: captured
+    sha: aed2067426d96bdaba8b30ed75d21f0f1d777f0b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'The amazon-ec2-net-utils package provides functionality needed to configure a Linux instance for optimal
+    performance in a VPC environment. It handles:'
+  why_used: ec2-net-utils contains a set of utilities for managing elastic network interfaces on Amazon EC2.
+  core_features: []
+  technology_stack:
+    languages:
+    - Shell
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/lib.sh, .github/container-tests-al2023.sh,
+    .github/container-tests-debian12.sh, bin/set-hostname-imds.sh'
+  setup_and_usage:
+  - 'Usage: amazon-ec2-net-utils is expected to be pre-installed on Amazon Linux'
+  - 'Usage: 2023 and future releases. In the common case, customers should not'
+  - 'Usage: need to be aware of its operation. Configuration of network interfaces'
+  - 'Usage: should occur following the principle of least astonishment. That is,'
+  - 'Usage: traffic should be routed via the ENI associated with the source'
+  - 'Usage: address. Custom configuration should be respected. New ENI'
+  - 'Usage: attachments should be used automatically, and associated resources'
+  - 'Usage: should be cleaned up on detachment. Manipulation of an ENI attachment'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazonlinux/amazon-ec2-net-utils/blob/main/README.md
+  path: README.md
+  blob_sha: 4e394f5e5f2f3a2598607e28e90c04a223494fc3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Shell: 67233
+    Makefile: 4036
+- type: Git tree
+  status: captured
+  sha: aed2067426d96bdaba8b30ed75d21f0f1d777f0b
+  truncated: false
+- type: source_file
+  path: lib/lib.sh
+  blob_sha: e8c8957a6204f54b26dcccada3d23a502ea5e379
+  retrieved: true
+- type: source_file
+  path: .github/container-tests-al2023.sh
+  blob_sha: a5572d10431d06ed269f5fc424d6ae7edf091be0
+  retrieved: true
+- type: source_file
+  path: .github/container-tests-debian12.sh
+  blob_sha: 70eb79f609cf9c22a6e04965271ccb89c99a7dd9
+  retrieved: true
+- type: source_file
+  path: bin/set-hostname-imds.sh
+  blob_sha: 04cd156b0e034152b9c94d014037b8e31b9a691c
+  retrieved: true

@@ -1,0 +1,154 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:44:44+00:00'
+evidence_fingerprint: 8faaa05c3109e1701c47fcf62670d07f1e81fb6773b6c5bae0f642e03898b0fd
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/AmazonConnectSDK
+  repository_id: 692108977
+  url: https://github.com/amazon-connect/AmazonConnectSDK
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-04T21:09:19Z'
+  stars: 23
+  readme_url: https://github.com/amazon-connect/AmazonConnectSDK/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2c7b4f67b455bda4810ff5e37ab23f0c9a6d752e
+  manifest_paths:
+  - package.json
+  - activity/package.json
+  - ai-agents/package.json
+  - app-controller/package.json
+  - app-manager-agent/package.json
+  - app-manager/package.json
+  source_files_inspected:
+  - activity/src/index.ts
+  - ai-agents/src/index.ts
+  - app-controller/src/app/index.ts
+  - app-controller/src/index.ts
+  repository_tree:
+    status: captured
+    sha: 783b32c88fc83843494b42f7960b5a3c8fbb95a2
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Amazon Connect SDK is a set of modules that can be used to achieve deep integrations within the Amazon
+    Connect ecosystem. Notably, the Amazon Connect SDK can be used by Agent Workspace applications within the Agent
+    Workspace.
+  why_used: The Amazon Connect SDK is a set of modules that can be used to achieve deep integrations within the
+    Amazon Connect ecosystem. Notably, the Amazon Connect SDK can be used by Agent Workspace applications within
+    the Agent Workspace.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@amazon-connect/app-controller'
+    - '@amazon-connect/app-manager'
+    - '@amazon-connect/core'
+    - '@amazon-connect/workspace-types'
+    - '@eslint/js'
+    - '@swc/cli'
+    - '@swc/core'
+    - '@swc/core-darwin-arm64'
+    - '@swc/core-linux-x64-gnu'
+    - '@swc/jest'
+    - '@types/jest'
+    - '@types/lodash.debounce'
+    - '@types/node'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - baseline-browser-mapping
+    - eslint
+    - eslint-config-prettier
+    - eslint-plugin-prettier
+    - eslint-plugin-simple-import-sort
+    - husky
+    - istanbul-lib-coverage
+    - istanbul-lib-report
+    - istanbul-reports
+    - jest
+    - jest-mock-extended
+    - lint-staged
+    - lodash.debounce
+    - nx
+    - prettier
+    - ts-loader
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: activity/src/index.ts,
+    ai-agents/src/index.ts, app-controller/src/app/index.ts, app-controller/src/index.ts'
+  setup_and_usage:
+  - 'Usage: To install the app module, perform the following command within your node package:'
+  - 'Usage: npm install --save @amazon-connect/app'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/AmazonConnectSDK/blob/main/README.md
+  path: README.md
+  blob_sha: 2c7b4f67b455bda4810ff5e37ab23f0c9a6d752e
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 76f7afe48736230558fa2b610a28eae9b62cabdb
+  retrieved: true
+- type: manifest
+  path: activity/package.json
+  blob_sha: 7cd029d064c60f6defbfb7ef52b6986235a1ee73
+  retrieved: true
+- type: manifest
+  path: ai-agents/package.json
+  blob_sha: d92652bc51d35e7ec0402555258f7052c96a426d
+  retrieved: true
+- type: manifest
+  path: app-controller/package.json
+  blob_sha: 0e20c2307995afd5105de5161a7cc4141ca1c452
+  retrieved: true
+- type: manifest
+  path: app-manager-agent/package.json
+  blob_sha: 960e45c597f432d0f9cc370645766fa2dcbd9f4e
+  retrieved: true
+- type: manifest
+  path: app-manager/package.json
+  blob_sha: d58c03f0999d89e0d25d33e6011efd039c567aa9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 1353212
+    JavaScript: 10253
+- type: Git tree
+  status: captured
+  sha: 783b32c88fc83843494b42f7960b5a3c8fbb95a2
+  truncated: false
+- type: source_file
+  path: activity/src/index.ts
+  blob_sha: 1327ee7e37f69cc385f8af326ab990360bbb80b0
+  retrieved: true
+- type: source_file
+  path: ai-agents/src/index.ts
+  blob_sha: 7b6aa86140fb706aa890d91a246dd526468f21fd
+  retrieved: true
+- type: source_file
+  path: app-controller/src/app/index.ts
+  blob_sha: d37ff8b3ccb537a13b96ce5be966c4b152fded68
+  retrieved: true
+- type: source_file
+  path: app-controller/src/index.ts
+  blob_sha: 1a789c8c792ce5621e9bb513b8d3bc38403d3f93
+  retrieved: true

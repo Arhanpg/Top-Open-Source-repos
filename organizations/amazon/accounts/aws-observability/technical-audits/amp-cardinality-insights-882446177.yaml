@@ -1,0 +1,134 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:54:44+00:00'
+evidence_fingerprint: 9a7b08c405ae08ecc62a99b0c84622d99ca9d4383ca4722a322473355ed90d89
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/amp-cardinality-insights
+  repository_id: 882446177
+  url: https://github.com/aws-observability/amp-cardinality-insights
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-11-19T08:17:10Z'
+  stars: 4
+  readme_url: https://github.com/aws-observability/amp-cardinality-insights/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f898cfc314f3e2a5ab4d6af43a1bc60b6da08749
+  manifest_paths:
+  - lambda/Makefile
+  - lambda/aggregate-counts/go.mod
+  - lambda/aggregate-counts/Makefile
+  - lambda/count-metrics/go.mod
+  - lambda/count-metrics/Makefile
+  - lambda/metric-names/go.mod
+  source_files_inspected:
+  - lambda/aggregate-counts/main.go
+  - lambda/count-metrics/main.go
+  - lambda/metric-names/main.go
+  - .github/workflows/get-dirs.py
+  repository_tree:
+    status: captured
+    sha: ac78ebdeb9c2fd2c764707c6e4aec33682093cca
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This project helps you have visibility into high cardinality metrics from an Amazon Managed Service for
+    Prometheus workspace.
+  why_used: This project helps you have visibility into high cardinality metrics from an Amazon Managed Service
+    for Prometheus workspace.
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Python
+    - Shell
+    - Smarty
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/aws/aws-lambda-go
+    - github.com/aws/aws-sdk-go
+    - github.com/davecgh/go-spew
+    - github.com/google/uuid
+    - github.com/jmespath/go-jmespath
+    - github.com/pmezard/go-difflib
+    - github.com/stretchr/testify
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - gopkg.in/yaml.v3
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lambda/aggregate-counts/main.go,
+    lambda/count-metrics/main.go, lambda/metric-names/main.go, .github/workflows/get-dirs.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/amp-cardinality-insights/blob/main/README.md
+  path: README.md
+  blob_sha: f898cfc314f3e2a5ab4d6af43a1bc60b6da08749
+  retrieved: true
+- type: manifest
+  path: lambda/Makefile
+  blob_sha: a6699b6e82cde83cd6827c99c61a9078cc3c4250
+  retrieved: true
+- type: manifest
+  path: lambda/aggregate-counts/go.mod
+  blob_sha: dc4afd3f9934a58ca9e1caacd7344d39eb21b487
+  retrieved: true
+- type: manifest
+  path: lambda/aggregate-counts/Makefile
+  blob_sha: 8b607e61e81f713b3929d1b311570426d000ac37
+  retrieved: true
+- type: manifest
+  path: lambda/count-metrics/go.mod
+  blob_sha: 84effda10152f3a8601bd45082800491533e1dd7
+  retrieved: true
+- type: manifest
+  path: lambda/count-metrics/Makefile
+  blob_sha: e482f203237b3378746c91230816d4cf290c9bc4
+  retrieved: true
+- type: manifest
+  path: lambda/metric-names/go.mod
+  blob_sha: 03f091fbd1ed1b32a5f9c853cf574dfa493ee24a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 17528
+    Python: 1465
+    Shell: 1241
+    Smarty: 548
+    Makefile: 412
+- type: Git tree
+  status: captured
+  sha: ac78ebdeb9c2fd2c764707c6e4aec33682093cca
+  truncated: false
+- type: source_file
+  path: lambda/aggregate-counts/main.go
+  blob_sha: 4b87cfbea7dd19d355b0ed8b5bf2a208caf4ea09
+  retrieved: true
+- type: source_file
+  path: lambda/count-metrics/main.go
+  blob_sha: 46afed234886e3e2f2e1f1ecda3ccd432a9bb2db
+  retrieved: true
+- type: source_file
+  path: lambda/metric-names/main.go
+  blob_sha: 494c7b30a2c4ec97aa7bf4c10dfe88fd75b3960d
+  retrieved: true
+- type: source_file
+  path: .github/workflows/get-dirs.py
+  blob_sha: 53f6f04411395ebeed67cb4dac32a888e2df3171
+  retrieved: true

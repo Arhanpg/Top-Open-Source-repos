@@ -1,0 +1,126 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:48:51+00:00'
+evidence_fingerprint: d26ddeb24f409b60cba2ee7f297a21c63628e0959917196b7d67308766fae4fc
+repository_metadata:
+  company: Baidu
+  account: ApolloAuto
+  full_name: ApolloAuto/Apollo-Vision-Net
+  repository_id: 898790778
+  url: https://github.com/ApolloAuto/Apollo-Vision-Net
+  description: Apollo BEV+OCC network training
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-12-05T04:56:51Z'
+  stars: 28
+  readme_url: https://github.com/ApolloAuto/Apollo-Vision-Net/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 8617913b7f168856ed347609fffcf0a9d54d1f83
+  manifest_paths:
+  - projects/mmdet3d_plugin/bevformer/backbones/ops_dcnv3/setup.py
+  source_files_inspected:
+  - projects/mmdet3d_plugin/bevformer/backbones/ops_dcnv3/src/cpu/dcnv3_cpu.cpp
+  - projects/mmdet3d_plugin/bevformer/backbones/ops_dcnv3/src/cpu/dcnv3_cpu.h
+  - projects/mmdet3d_plugin/bevformer/backbones/ops_dcnv3/src/cuda/dcnv3_cuda.h
+  - projects/mmdet3d_plugin/bevformer/backbones/ops_dcnv3/src/dcnv3.h
+  repository_tree:
+    status: captured
+    sha: 0c3f7c41a7756141f51af2917e687d99ae670de0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository introduces the Apollo Vision Network, a new 3D detection and occupancy prediction network
+    for autonomous driving.
+  why_used: Apollo BEV+OCC network training
+  core_features:
+  - name: 'Image backbone: Replacing ResNet-50 with pre-trained DLA-34 using depth estimation data (Toyota DDAD15M)
+      reduces model complexity while improving performance.'
+    description: 'Image backbone: Replacing ResNet-50 with pre-trained DLA-34 using depth estimation data (Toyota
+      DDAD15M) reduces model complexity while improving performance.'
+    evidence:
+    - README.md#Highlights
+  - name: 'Image neck: Replacing the single scale FPN network with a SecondFPN network improves the performance
+      of the model.'
+    description: 'Image neck: Replacing the single scale FPN network with a SecondFPN network improves the performance
+      of the model.'
+    evidence:
+    - README.md#Highlights
+  - name: 'Detection head: Using GroupDETR instead of DETR significantly improves object detection performance without
+      increasing time consumption.'
+    description: 'Detection head: Using GroupDETR instead of DETR significantly improves object detection performance
+      without increasing time consumption.'
+    evidence:
+    - README.md#Highlights
+  - name: 'Occ head: Using low resolution bev queries (50 * 50) in the Transformer encoder, then upsampling to high
+      resolution (200 * 200) in the occ head, significantly i'
+    description: 'Occ head: Using low resolution bev queries (50 * 50) in the Transformer encoder, then upsampling
+      to high resolution (200 * 200) in the occ head, significantly improve inference speed.'
+    evidence:
+    - README.md#Highlights
+  - name: 'OCC loss: Increase the weight of OCC focal loss from 1.0 to 10.0, introduce affinity loss and lovasz
+      softmax loss, and significantly improve the miou of OCC det'
+    description: 'OCC loss: Increase the weight of OCC focal loss from 1.0 to 10.0, introduce affinity loss and
+      lovasz softmax loss, and significantly improve the miou of OCC detection.'
+    evidence:
+    - README.md#Highlights
+  technology_stack:
+    languages:
+    - Python
+    - Cuda
+    - C++
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: projects/mmdet3d_plugin/bevformer/backbones/ops_dcnv3/src/cpu/dcnv3_cpu.cpp,
+    projects/mmdet3d_plugin/bevformer/backbones/ops_dcnv3/src/cpu/dcnv3_cpu.h, projects/mmdet3d_plugin/bevformer/backbones/ops_dcnv3/src/cuda/dcnv3_cuda.h,
+    projects/mmdet3d_plugin/bevformer/backbones/ops_dcnv3/src/dcnv3.h'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ApolloAuto/Apollo-Vision-Net/blob/main/README.md
+  path: README.md
+  blob_sha: 8617913b7f168856ed347609fffcf0a9d54d1f83
+  retrieved: true
+- type: manifest
+  path: projects/mmdet3d_plugin/bevformer/backbones/ops_dcnv3/setup.py
+  blob_sha: 28e12fdc68c84705f44228f176e3d51a4eebd0bd
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 1415006
+    Cuda: 57993
+    C++: 8224
+    Shell: 1466
+- type: Git tree
+  status: captured
+  sha: 0c3f7c41a7756141f51af2917e687d99ae670de0
+  truncated: false
+- type: source_file
+  path: projects/mmdet3d_plugin/bevformer/backbones/ops_dcnv3/src/cpu/dcnv3_cpu.cpp
+  blob_sha: a3bddc1814e0cae6076102b94bed415f45f61f14
+  retrieved: true
+- type: source_file
+  path: projects/mmdet3d_plugin/bevformer/backbones/ops_dcnv3/src/cpu/dcnv3_cpu.h
+  blob_sha: d457bcbddf7c8fead715109591683012d341d4ea
+  retrieved: true
+- type: source_file
+  path: projects/mmdet3d_plugin/bevformer/backbones/ops_dcnv3/src/cuda/dcnv3_cuda.h
+  blob_sha: 069f2829a927e27d7f341885509e837d09004a8c
+  retrieved: true
+- type: source_file
+  path: projects/mmdet3d_plugin/bevformer/backbones/ops_dcnv3/src/dcnv3.h
+  blob_sha: 029648e17afb8556e90908fcdbe2da237973dca0
+  retrieved: true

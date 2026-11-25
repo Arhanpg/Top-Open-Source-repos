@@ -1,0 +1,126 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:47:56+00:00'
+evidence_fingerprint: 550e8c5c78489405dc8a0dce152ac590d854e91154cd249de7180631ca549145
+repository_metadata:
+  company: Amazon
+  account: model-checking
+  full_name: model-checking/cbmc-proof-debugger
+  repository_id: 559266859
+  url: https://github.com/model-checking/cbmc-proof-debugger
+  description: 'The CBMC proof debugger is a Visual Studio Code extension contributing a trace debugger for findings
+    by CBMC. '
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T09:54:54Z'
+  stars: 11
+  readme_url: https://github.com/model-checking/cbmc-proof-debugger/blob/main/README.md
+  readme_path: README.md
+  readme_sha: bd3ed207a8e168d0491c3a8ef65ce9268f36d550
+  manifest_paths:
+  - Makefile
+  - package.json
+  - demo/Makefile
+  - docs/Makefile
+  source_files_inspected:
+  - demo/main.c
+  - src/adapter.ts
+  - src/constants.ts
+  - src/exceptions.ts
+  repository_tree:
+    status: captured
+    sha: f9d058e31407087126096732801846758a2a4d12
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The CBMC Proof Debugger is a Visual Studio Code debugger for CBMC error traces.
+  why_used: The CBMC proof debugger is a Visual Studio Code extension contributing a trace debugger for findings
+    by CBMC.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@types/glob'
+    - '@types/mocha'
+    - '@types/node'
+    - '@types/vscode'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - '@vscode/debugadapter'
+    - '@vscode/debugprotocol'
+    - '@vscode/test-electron'
+    - '@vscode/vsce'
+    - await-notify
+    - console
+    - eslint
+    - glob
+    - mocha
+    - typescript
+    - typescript-formatter
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: demo/main.c, src/adapter.ts,
+    src/constants.ts, src/exceptions.ts'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/model-checking/cbmc-proof-debugger/blob/main/README.md
+  path: README.md
+  blob_sha: bd3ed207a8e168d0491c3a8ef65ce9268f36d550
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 2e76536b8b7ad6dd4bc126264fbdd1dca08da145
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 0e2244c66d6ef27306c96e188084b9ab0db85a36
+  retrieved: true
+- type: manifest
+  path: demo/Makefile
+  blob_sha: 75ec2d9053d2315413cffa1348affb19db8cd22b
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: 251aafc51b593e08d428d3ea88e5358f3424399e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 105945
+    Makefile: 506
+- type: Git tree
+  status: captured
+  sha: f9d058e31407087126096732801846758a2a4d12
+  truncated: false
+- type: source_file
+  path: demo/main.c
+  blob_sha: 9c20c6cec7fccdef564e73182e927e6aa6dc51b4
+  retrieved: true
+- type: source_file
+  path: src/adapter.ts
+  blob_sha: 4da2e8b049d09b2a860722360d44ac5a52f2f83a
+  retrieved: true
+- type: source_file
+  path: src/constants.ts
+  blob_sha: f0c1d9aa938fff28e1cbaf953e8556507c977b58
+  retrieved: true
+- type: source_file
+  path: src/exceptions.ts
+  blob_sha: c40ea85e4b5384371b32b18082c6a281834919f9
+  retrieved: true

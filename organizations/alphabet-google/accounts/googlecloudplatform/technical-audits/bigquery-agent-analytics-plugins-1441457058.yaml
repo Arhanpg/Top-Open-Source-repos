@@ -1,0 +1,100 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T04:01:31+00:00'
+evidence_fingerprint: 23a03a50f725c41d4a9dbd770e84c780a1590837b6eb88a366adfd1fd231a5f9
+repository_metadata:
+  company: Alphabet (Google)
+  account: GoogleCloudPlatform
+  full_name: GoogleCloudPlatform/BigQuery-Agent-Analytics-Plugins
+  repository_id: 1441457058
+  url: https://github.com/GoogleCloudPlatform/BigQuery-Agent-Analytics-Plugins
+  description: Claude Code plugin and mod that stream coding-agent sessions to BigQuery in the BigQuery Agent Analytics
+    agent_events schema, so you can observe, analyze, and evaluate coding-agent activity alongside your ADK agents.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T00:53:14Z'
+  stars: 1
+  readme_url: https://github.com/GoogleCloudPlatform/BigQuery-Agent-Analytics-Plugins/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1447463eac6eaaad4d82a5904eaa631c60406e7f
+  manifest_paths:
+  - plugins/claude_code_mod/tests/package.json
+  source_files_inspected:
+  - plugins/claude_code_dist/bigquery-agent-analytics-mod/hooks/lib/allowlist.ts
+  - plugins/claude_code_dist/bigquery-agent-analytics-mod/hooks/lib/bigquery.ts
+  - plugins/claude_code_dist/bigquery-agent-analytics-mod/hooks/lib/config.ts
+  - plugins/claude_code_dist/bigquery-agent-analytics-mod/hooks/lib/deadletter.ts
+  repository_tree:
+    status: captured
+    sha: 97c5fccf04fc7ff0be1c2436cbcc67f450a1898d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Claude Code plugins that stream coding-agent sessions to BigQuery in the BigQuery Agent Analytics agent_events
+    schema, so you can analyze coding-agent activity alongside your ADK agents.
+  why_used: Claude Code plugin and mod that stream coding-agent sessions to BigQuery in the BigQuery Agent Analytics
+    agent_events schema, so you can observe, analyze, and evaluate coding-agent activity alongside your ADK agents.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Python
+    - Shell
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: plugins/claude_code_dist/bigquery-agent-analytics-mod/hooks/lib/allowlist.ts,
+    plugins/claude_code_dist/bigquery-agent-analytics-mod/hooks/lib/bigquery.ts, plugins/claude_code_dist/bigquery-agent-analytics-mod/hooks/lib/config.ts,
+    plugins/claude_code_dist/bigquery-agent-analytics-mod/hooks/lib/deadletter.ts'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/GoogleCloudPlatform/BigQuery-Agent-Analytics-Plugins/blob/main/README.md
+  path: README.md
+  blob_sha: 1447463eac6eaaad4d82a5904eaa631c60406e7f
+  retrieved: true
+- type: manifest
+  path: plugins/claude_code_mod/tests/package.json
+  blob_sha: d8eccef786267123512d390cc91c3f96895b61e9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 2257252
+    Python: 1144366
+    Shell: 171225
+    JavaScript: 102483
+- type: Git tree
+  status: captured
+  sha: 97c5fccf04fc7ff0be1c2436cbcc67f450a1898d
+  truncated: false
+- type: source_file
+  path: plugins/claude_code_dist/bigquery-agent-analytics-mod/hooks/lib/allowlist.ts
+  blob_sha: 2394df7af638f67c2ef82795ff2af2c1ec6ea190
+  retrieved: true
+- type: source_file
+  path: plugins/claude_code_dist/bigquery-agent-analytics-mod/hooks/lib/bigquery.ts
+  blob_sha: 16b3339b41742f4bcefc86ebf518a3039c126501
+  retrieved: true
+- type: source_file
+  path: plugins/claude_code_dist/bigquery-agent-analytics-mod/hooks/lib/config.ts
+  blob_sha: 9359fc00bcd032fa4e83b00dfaca7c7d0c6fd242
+  retrieved: true
+- type: source_file
+  path: plugins/claude_code_dist/bigquery-agent-analytics-mod/hooks/lib/deadletter.ts
+  blob_sha: 7271c4ac23deec1b3bef1a0c2863c1083d58be11
+  retrieved: true

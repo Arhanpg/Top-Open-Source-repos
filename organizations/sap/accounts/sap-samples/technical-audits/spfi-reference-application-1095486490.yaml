@@ -1,0 +1,123 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:51:47+00:00'
+evidence_fingerprint: 19702c100597693a09da73faa19eb5b7a8c896992b0f758f09e1f326053896a2
+repository_metadata:
+  company: SAP
+  account: SAP-samples
+  full_name: SAP-samples/SPFI-Reference-Application
+  repository_id: 1095486490
+  url: https://github.com/SAP-samples/SPFI-Reference-Application
+  description: Same application implementing the Service Provider Fulfilment API. A standardised API to trigger
+    the SaaS technical fulfillment request towards SaaS Providers (SAP and Partners). Fulfilment is a high-level
+    term compassing various activities like tenant provisioning, etc.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-19T17:17:14Z'
+  stars: 0
+  readme_url: https://github.com/SAP-samples/SPFI-Reference-Application/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 8834fa07dfd8d3ea82783e407ea626348910dbe6
+  manifest_paths:
+  - Makefile
+  - pom.xml
+  source_files_inspected:
+  - src/main/java/com/sap/lm/sl/spfi/refapp/spfi_v2_ref_app/model/jpa/tenant/Application.java
+  - src/main/java/com/sap/lm/sl/spfi/refapp/spfi_v2_ref_app/config/CertificateValidationFilter.java
+  - src/main/java/com/sap/lm/sl/spfi/refapp/spfi_v2_ref_app/config/MdcTaskDecorator.java
+  - src/main/java/com/sap/lm/sl/spfi/refapp/spfi_v2_ref_app/config/SecurityConfig.java
+  repository_tree:
+    status: captured
+    sha: ce0f9597bce1e0251b0d5f40dc7e15d316012cd7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A Spring Boot reference application that demonstrates how to implement the **SPFI V2 REST API contract**
+    — the standard interface between a Unified Provisioning operator and a service provider for tenant lifecycle
+    management and SSO configuration.
+  why_used: Same application implementing the Service Provider Fulfilment API. A standardised API to trigger the
+    SaaS technical fulfillment request towards SaaS Providers (SAP and Partners). Fulfilment is a high-level term
+    compassing various activities like tenant provisioning, etc.
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies:
+    - annotations
+    - bcpkix-jdk15on
+    - jakarta.jakartaee-web-api
+    - json
+    - lombok
+    - maven-compiler-plugin
+    - spfi-v2-ref-app
+    - spring-boot
+    - spring-boot-maven-plugin
+    - spring-boot-starter-json
+    - spring-boot-starter-parent
+    - spring-boot-starter-security
+    - spring-boot-starter-test
+    - spring-boot-starter-web
+    - spring-security-test
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/main/java/com/sap/lm/sl/spfi/refapp/spfi_v2_ref_app/model/jpa/tenant/Application.java,
+    src/main/java/com/sap/lm/sl/spfi/refapp/spfi_v2_ref_app/config/CertificateValidationFilter.java, src/main/java/com/sap/lm/sl/spfi/refapp/spfi_v2_ref_app/config/MdcTaskDecorator.java,
+    src/main/java/com/sap/lm/sl/spfi/refapp/spfi_v2_ref_app/config/SecurityConfig.java'
+  setup_and_usage: []
+  limitations:
+  - 'Security (High): - **Verify the certificate chain is complete** (intermediate CAs included).'
+  - 'Security (High): - **Check certificate expiration**: openssl x509 -in cert.pem -noout -dates'
+  - 'Security (High): - **Ensure the server''s hostname matches the CN or SAN** in the server certificate.'
+  - 'Security (High): - **Validate the CN** against the response of the /certInfo endpoint from the Operator.'
+  - 'Security: mTLS: All API calls are protected with mutual TLS. The operator presents a client certificate issued
+    by the SAP PKI service; the application server validates this certificate against a configured truststore.'
+  - 'Spring Security Configuration: public class SecurityConfig {'
+  - 'Spring Security Configuration: public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {'
+  - 'Spring Security Configuration: .authorizeHttpRequests(authorize -> authorize'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP-samples/SPFI-Reference-Application/blob/main/README.md
+  path: README.md
+  blob_sha: 8834fa07dfd8d3ea82783e407ea626348910dbe6
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 809875c8004f21d6ee05a4ac497fdce9cc5f1827
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: d4ef353c8e31ce98a00a06333d0b7f0030ae2c7c
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: ce0f9597bce1e0251b0d5f40dc7e15d316012cd7
+  truncated: false
+- type: source_file
+  path: src/main/java/com/sap/lm/sl/spfi/refapp/spfi_v2_ref_app/model/jpa/tenant/Application.java
+  blob_sha: 9fa16e5416cf6fe0a9827ada5129b0616f838173
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/sap/lm/sl/spfi/refapp/spfi_v2_ref_app/config/CertificateValidationFilter.java
+  blob_sha: 006514a90aa3a222f78f5676a2d9a7e50de48d84
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/sap/lm/sl/spfi/refapp/spfi_v2_ref_app/config/MdcTaskDecorator.java
+  blob_sha: 8e9c2cba2b168096ab29a2c43650eb5e483c44a4
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/sap/lm/sl/spfi/refapp/spfi_v2_ref_app/config/SecurityConfig.java
+  blob_sha: 16384b02636eccf4750e9efaf0e0a2fc2dc07f5c
+  retrieved: true

@@ -1,0 +1,132 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:59:08+00:00'
+evidence_fingerprint: 5440bb9030d7cdd1d2b0b115100988419b98da96c89ed1eccf37d6a7de582d8d
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/backend
+  repository_id: 285065983
+  url: https://github.com/triton-inference-server/backend
+  description: Common source, scripts and utilities for creating Triton backends.
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-03T19:34:43Z'
+  stars: 382
+  readme_url: https://github.com/triton-inference-server/backend/blob/main/README.md
+  readme_path: README.md
+  readme_sha: bcf3224827a5b6112fe1d97a8ea3ab00dd413616
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  - tests/CMakeLists.txt
+  - examples/backends/bls/CMakeLists.txt
+  - examples/backends/minimal/CMakeLists.txt
+  - examples/backends/recommended/CMakeLists.txt
+  source_files_inspected:
+  - src/backend_common.cc
+  - src/backend_input_collector.cc
+  - src/backend_memory.cc
+  - src/backend_model.cc
+  repository_tree:
+    status: captured
+    sha: d37b5bc473320bdac1caedff6219a71ce20bc367
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: -->
+  why_used: Common source, scripts and utilities for creating Triton backends.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    - Cuda
+    - C
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/backend_common.cc,
+    src/backend_input_collector.cc, src/backend_memory.cc, src/backend_model.cc'
+  setup_and_usage:
+  - 'Can I add (or remove) a backend to an existing Triton installation?: Yes. See Backend Shared Library for general'
+  - 'Can I add (or remove) a backend to an existing Triton installation?: information about how the shared library
+    implementing a backend is'
+  - 'Can I add (or remove) a backend to an existing Triton installation?: managed by Triton, and [Triton with Unsupported
+    and Custom'
+  - 'Can I add (or remove) a backend to an existing Triton installation?: Backends](https://github.com/triton-inference-server/server/blob/main/docs/customization_guide/compose.md#triton-with-unsupported-and-custom-backends)'
+  - 'Can I add (or remove) a backend to an existing Triton installation?: for documentation on how to add your backend
+    to the released Triton'
+  - 'Can I add (or remove) a backend to an existing Triton installation?: Docker image. For a standard install the
+    globally available backends'
+  - 'Can I add (or remove) a backend to an existing Triton installation?: are in /opt/tritonserver/backends.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/backend/blob/main/README.md
+  path: README.md
+  blob_sha: bcf3224827a5b6112fe1d97a8ea3ab00dd413616
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 5a31ea2d262636496480c335eac98b16af6a9e5a
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 5e8749f81b286a3a6446b3c61fdda84f9281beb9
+  retrieved: true
+- type: manifest
+  path: tests/CMakeLists.txt
+  blob_sha: 646991aab0728021d837f0f6779fd619d57a4ea5
+  retrieved: true
+- type: manifest
+  path: examples/backends/bls/CMakeLists.txt
+  blob_sha: 36f1a01dc66b2e46471dc4e0ef970a45ee285f6a
+  retrieved: true
+- type: manifest
+  path: examples/backends/minimal/CMakeLists.txt
+  blob_sha: 968b5cd6ad32b64f5bc6930136588c7401b30565
+  retrieved: true
+- type: manifest
+  path: examples/backends/recommended/CMakeLists.txt
+  blob_sha: 5deabf68db7262663237b47f43fd5ce8d9ab0d72
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 254583
+    CMake: 16996
+    Cuda: 3325
+    C: 1904
+- type: Git tree
+  status: captured
+  sha: d37b5bc473320bdac1caedff6219a71ce20bc367
+  truncated: false
+- type: source_file
+  path: src/backend_common.cc
+  blob_sha: 121aa4e32c56b6783725d313aae712aa75b04dbe
+  retrieved: true
+- type: source_file
+  path: src/backend_input_collector.cc
+  blob_sha: 3b3f615c172fac2cc2e983f17cd3b0582301dcef
+  retrieved: true
+- type: source_file
+  path: src/backend_memory.cc
+  blob_sha: 9b0c69c1da09e0cc989ed8e0bb9dc7f65146156a
+  retrieved: true
+- type: source_file
+  path: src/backend_model.cc
+  blob_sha: 7d051ad135f988014f632218abacd53d9afab0bd
+  retrieved: true

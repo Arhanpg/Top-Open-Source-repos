@@ -1,0 +1,106 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:50:03+00:00'
+evidence_fingerprint: f961004a26796b6ddc8b7e3fc18961d2810903bdad709d9e973f0ea145be5bcb
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/5t5g
+  repository_id: 359964264
+  url: https://github.com/NVIDIA/5t5g
+  description: This project shows how to leverage your DPDK network application with Mellanox 5T5G features like
+    Accurate Send Scheduling and eCPRI flow steering rules
+  default_branch: master
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2022-02-24T11:20:50Z'
+  stars: 24
+  readme_url: https://github.com/NVIDIA/5t5g/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 86beaa48b47961e49f183f421c58a16c4ceebb72
+  manifest_paths:
+  - CMakeLists.txt
+  - generator/CMakeLists.txt
+  - receiver/CMakeLists.txt
+  source_files_inspected:
+  - generator/src/main.cpp
+  - receiver/src/main.cpp
+  - common/src/ru.cpp
+  - common/src/utils.cpp
+  repository_tree:
+    status: captured
+    sha: 053797425f79eebbf2677cd7f4c2c0969e076680
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'The goal of this project is to provide an example on how to use 5T for 5G features through the DPDK
+    library. To understand the terminology and acronyms, please refer to the ORAN standard):'
+  why_used: This project shows how to leverage your DPDK network application with Mellanox 5T5G features like Accurate
+    Send Scheduling and eCPRI flow steering rules
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    - Cuda
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: generator/src/main.cpp,
+    receiver/src/main.cpp, common/src/ru.cpp, common/src/utils.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/5t5g/blob/master/README.md
+  path: README.md
+  blob_sha: 86beaa48b47961e49f183f421c58a16c4ceebb72
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: b16ef49e4137d4ad971e79fe8b0b32fcfcf734c0
+  retrieved: true
+- type: manifest
+  path: generator/CMakeLists.txt
+  blob_sha: 69baa6a5ccd8f09f47ab79b00aa593b237a59af1
+  retrieved: true
+- type: manifest
+  path: receiver/CMakeLists.txt
+  blob_sha: 60742a82a002e53756339b110be5899fd16451d2
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 111515
+    CMake: 7898
+    Cuda: 2088
+- type: Git tree
+  status: captured
+  sha: 053797425f79eebbf2677cd7f4c2c0969e076680
+  truncated: false
+- type: source_file
+  path: generator/src/main.cpp
+  blob_sha: d15e2c8d84d861759640cf8359af7ac2d04910e0
+  retrieved: true
+- type: source_file
+  path: receiver/src/main.cpp
+  blob_sha: 18295fa03d64c7450411fbfd0160375f4767a7c7
+  retrieved: true
+- type: source_file
+  path: common/src/ru.cpp
+  blob_sha: 4fc47b2ac5082cc0629faaf9a9ed2aa2d324eedc
+  retrieved: true
+- type: source_file
+  path: common/src/utils.cpp
+  blob_sha: 687f6e7e04d49e24d6cbe6e4b1f2a81d8830b1ab
+  retrieved: true

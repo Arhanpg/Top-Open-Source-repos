@@ -1,0 +1,103 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:59:47+00:00'
+evidence_fingerprint: 925be6ca3001ab39a1816b253d8a287a5ffbac9982fe42ede9a8c816ca8c6946
+repository_metadata:
+  company: SAP
+  account: kyma-project
+  full_name: kyma-project/addons
+  repository_id: 151691065
+  url: https://github.com/kyma-project/addons
+  description: Helm Broker AddOns
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-09-14T12:31:54Z'
+  stars: 3
+  readme_url: https://github.com/kyma-project/addons/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 0fd63b99e17f727c92ac56598e58e41d99b7c1f7
+  manifest_paths:
+  - Makefile
+  - scripts/package.json
+  source_files_inspected:
+  - scripts/checker.sh
+  - scripts/create_latest_tag_step.sh
+  - scripts/create_release_branch_step.sh
+  - scripts/deploy_current_addons_to_minikube.sh
+  repository_tree:
+    status: captured
+    sha: 38567895126f4b233a19034b464fcc2c001c15e4
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains addons which the Helm Broker uses. For more information on what the Helm Broker
+    is, how it uses addons, and how to create your own addons, read the official Helm Broker documentation.
+  why_used: Helm Broker AddOns
+  core_features: []
+  technology_stack:
+    languages:
+    - Shell
+    - Mustache
+    - Makefile
+    - Smarty
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: scripts/checker.sh,
+    scripts/create_latest_tag_step.sh, scripts/create_release_branch_step.sh, scripts/deploy_current_addons_to_minikube.sh'
+  setup_and_usage:
+  - 'Usage: The addons folder contains sources of addons and index files that are available in releases. Choose
+    a set of addons you want to use, add your own addons, and configure the Helm Broker to fetch them.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/kyma-project/addons/blob/master/README.md
+  path: README.md
+  blob_sha: 0fd63b99e17f727c92ac56598e58e41d99b7c1f7
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 2b3632404b128ee3f625f0e6b58cd040e4656354
+  retrieved: true
+- type: manifest
+  path: scripts/package.json
+  blob_sha: d3bb75424f4bfddbe364c5dcceebdfbc49a66472
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Shell: 12570
+    Mustache: 9893
+    Makefile: 1057
+    Smarty: 668
+- type: Git tree
+  status: captured
+  sha: 38567895126f4b233a19034b464fcc2c001c15e4
+  truncated: false
+- type: source_file
+  path: scripts/checker.sh
+  blob_sha: 1548028ddadf759653e3b5d0fdda8f067694e5e0
+  retrieved: true
+- type: source_file
+  path: scripts/create_latest_tag_step.sh
+  blob_sha: 27725b4e9937840fca130d2aced997cd9bac86f0
+  retrieved: true
+- type: source_file
+  path: scripts/create_release_branch_step.sh
+  blob_sha: b2fcf8e12cdaebc99617c09aab0c9ce85188e139
+  retrieved: true
+- type: source_file
+  path: scripts/deploy_current_addons_to_minikube.sh
+  blob_sha: 7cc389b6afb176469dd8d22814c14802b3d0ddea
+  retrieved: true

@@ -1,0 +1,136 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:56:44+00:00'
+evidence_fingerprint: 9e397ab674b60e1caef25803ee884a6b76b6d08c278bc53969e01361f7add06f
+repository_metadata:
+  company: Amazon
+  account: opensearch
+  full_name: opensearch/statefulj
+  repository_id: 122448164
+  url: https://github.com/opensearch/statefulj
+  description: A Finite State Machine Implementation along with an integrated Spring Based Framework
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2017-05-20T22:02:57Z'
+  stars: 0
+  readme_url: https://github.com/opensearch/statefulj/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 73bcfcbf2f04af79c13349c06255bd6c59de06ca
+  manifest_paths:
+  - pom.xml
+  - statefulj-common/pom.xml
+  - statefulj-framework/pom.xml
+  - statefulj-fsm/pom.xml
+  - statefulj-persistence/pom.xml
+  - statefulj-framework/statefulj-framework-binders/pom.xml
+  source_files_inspected:
+  - statefulj-common/src/main/java/org/statefulj/common/utils/FieldAccessor.java
+  - statefulj-common/src/main/java/org/statefulj/common/utils/ReflectionUtils.java
+  - statefulj-framework/statefulj-framework-binders/statefulj-framework-binders-camel/src/main/java/org/statefulj/framework/binders/camel/CamelBinder.java
+  - statefulj-framework/statefulj-framework-binders/statefulj-framework-binders-common/src/main/java/org/statefulj/framework/binders/common/AbstractRestfulBinder.java
+  repository_tree:
+    status: captured
+    sha: c8116132a0acb343209731ac8d394c19e7560e8b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: StatefulJ =========
+  why_used: A Finite State Machine Implementation along with an integrated Spring Based Framework
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    frameworks_and_libraries: []
+    dependencies:
+    - commons-lang3
+    - junit
+    - logback-classic
+    - maven-compiler-plugin
+    - maven-gpg-plugin
+    - maven-javadoc-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - mockito-all
+    - nexus-staging-maven-plugin
+    - servlet-api
+    - slf4j-api
+    - spring-context
+    - spring-test
+    - statefulj
+    - statefulj-common
+    - statefulj-framework
+    - statefulj-framework-binders
+    - statefulj-fsm
+    - statefulj-persistence
+    - statefulj-persistence-common
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: statefulj-common/src/main/java/org/statefulj/common/utils/FieldAccessor.java,
+    statefulj-common/src/main/java/org/statefulj/common/utils/ReflectionUtils.java, statefulj-framework/statefulj-framework-binders/statefulj-framework-binders-camel/src/main/java/org/statefulj/framework/binders/camel/CamelBinder.java,
+    statefulj-framework/statefulj-framework-binders/statefulj-framework-binders-common/src/main/java/org/statefulj/framework/binders/common/AbstractRestfulBinder.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/opensearch/statefulj/blob/master/README.md
+  path: README.md
+  blob_sha: 73bcfcbf2f04af79c13349c06255bd6c59de06ca
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: 494ef4954ba38b6a0217aa5d4d2f0b8b3b5f9291
+  retrieved: true
+- type: manifest
+  path: statefulj-common/pom.xml
+  blob_sha: 991551246bafe2a205f6a971b5d7580c8d136b3c
+  retrieved: true
+- type: manifest
+  path: statefulj-framework/pom.xml
+  blob_sha: 6b4bb85b302726367a8556efd0a39fcfd8f96853
+  retrieved: true
+- type: manifest
+  path: statefulj-fsm/pom.xml
+  blob_sha: db5bcf0ccb0788eba27c6a5827008356b3a8f801
+  retrieved: true
+- type: manifest
+  path: statefulj-persistence/pom.xml
+  blob_sha: c544198eb801b1a3354839fc126a62aed73f6450
+  retrieved: true
+- type: manifest
+  path: statefulj-framework/statefulj-framework-binders/pom.xml
+  blob_sha: 6bc581ce7913d1a7828663a65ec8e4a748fdcc15
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 387481
+- type: Git tree
+  status: captured
+  sha: c8116132a0acb343209731ac8d394c19e7560e8b
+  truncated: false
+- type: source_file
+  path: statefulj-common/src/main/java/org/statefulj/common/utils/FieldAccessor.java
+  blob_sha: 873c1134360ee3d57964d5edf504ba5e26519460
+  retrieved: true
+- type: source_file
+  path: statefulj-common/src/main/java/org/statefulj/common/utils/ReflectionUtils.java
+  blob_sha: a7df433212cd6ece3a64e391b05d91011f146b00
+  retrieved: true
+- type: source_file
+  path: statefulj-framework/statefulj-framework-binders/statefulj-framework-binders-camel/src/main/java/org/statefulj/framework/binders/camel/CamelBinder.java
+  blob_sha: 8928609855e1b61a197d3da7d0ade6da6ffea291
+  retrieved: true
+- type: source_file
+  path: statefulj-framework/statefulj-framework-binders/statefulj-framework-binders-common/src/main/java/org/statefulj/framework/binders/common/AbstractRestfulBinder.java
+  blob_sha: 1114ac8b418ef32bc0561c73e719b2e807c0090c
+  retrieved: true

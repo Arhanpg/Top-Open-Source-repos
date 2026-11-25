@@ -1,0 +1,139 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:59:56+00:00'
+evidence_fingerprint: 4ff6b8b82c816cd0c7734d0f0fdbb8d2ff308a430f247b7a7d6804a8af6c42c5
+repository_metadata:
+  company: SAP
+  account: SAP
+  full_name: SAP/InfraBox
+  repository_id: 126344645
+  url: https://github.com/SAP/InfraBox
+  description: InfraBox is a cloud native continuous integration system
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T06:56:16Z'
+  stars: 284
+  readme_url: https://github.com/SAP/InfraBox/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 47a6746d1f80354a5062db942af22357f0e7957f
+  manifest_paths:
+  - infrabox/generator/Dockerfile
+  - infrabox/local-dev/Makefile
+  - infrabox/test-registry/Dockerfile
+  - src/api/Dockerfile
+  - src/checker/Dockerfile
+  - src/cluster-status/Dockerfile
+  source_files_inspected:
+  - src/api/server.py
+  - src/cluster-status/server.py
+  - src/collector-api/server.py
+  - src/dashboard-client/config/index.js
+  repository_tree:
+    status: captured
+    sha: 0d21bcb42c6a1cc15382c105bc9a6a329ae16c51
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'InfraBox is a continuous integration system. It''s well suited for cloud native applications and has
+    native support for kubernetes. Watch our short introduction video:'
+  why_used: InfraBox is a cloud native continuous integration system
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Go
+    - Vue
+    - JavaScript
+    - Open Policy Agent
+    - Shell
+    - Dockerfile
+    - Go Template
+    - PLpgSQL
+    - CSS
+    - HTML
+    - Mustache
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/api/server.py,
+    src/cluster-status/server.py, src/collector-api/server.py, src/dashboard-client/config/index.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP/InfraBox/blob/master/README.md
+  path: README.md
+  blob_sha: 47a6746d1f80354a5062db942af22357f0e7957f
+  retrieved: true
+- type: manifest
+  path: infrabox/generator/Dockerfile
+  blob_sha: 070185447f4fff1fd2a718622c86b68c9dd05f83
+  retrieved: true
+- type: manifest
+  path: infrabox/local-dev/Makefile
+  blob_sha: d45611a15c62a53819bba50cb00733a68d81fd77
+  retrieved: true
+- type: manifest
+  path: infrabox/test-registry/Dockerfile
+  blob_sha: c157bf034a706796e86d2abf0a40f62699e5994c
+  retrieved: true
+- type: manifest
+  path: src/api/Dockerfile
+  blob_sha: a3db9387556e9eede214acb6dce6704545d3ad45
+  retrieved: true
+- type: manifest
+  path: src/checker/Dockerfile
+  blob_sha: 233f398080da183bdfa55c2b1fa6645fbd44d66b
+  retrieved: true
+- type: manifest
+  path: src/cluster-status/Dockerfile
+  blob_sha: 586d3e65de93854ed196807876b33f4522c0a1b2
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 749424
+    Go: 318738
+    Vue: 276270
+    JavaScript: 80078
+    Open Policy Agent: 63829
+    Shell: 22043
+    Dockerfile: 20301
+    Go Template: 16537
+    PLpgSQL: 13810
+    CSS: 7004
+    HTML: 4672
+    Mustache: 4369
+    Makefile: 481
+- type: Git tree
+  status: captured
+  sha: 0d21bcb42c6a1cc15382c105bc9a6a329ae16c51
+  truncated: false
+- type: source_file
+  path: src/api/server.py
+  blob_sha: 20620ac8a6f8fbdcce5dd2e8b1c52c90e246858a
+  retrieved: true
+- type: source_file
+  path: src/cluster-status/server.py
+  blob_sha: df70fa000bebd34db3239a7b81e44c76966ae090
+  retrieved: true
+- type: source_file
+  path: src/collector-api/server.py
+  blob_sha: 3ca14f0b22d1b1010a05c6191a270d3ed7d8be02
+  retrieved: true
+- type: source_file
+  path: src/dashboard-client/config/index.js
+  blob_sha: 8c372675ad2a25a00c8500917663a6de431fd494
+  retrieved: true

@@ -1,0 +1,104 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T04:01:55+00:00'
+evidence_fingerprint: 27d8dbf1fde65539d3b51fed758b8f79d0fa8b398ee29dc317158dd0e904341c
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/agentic-cx-designer-sdk
+  repository_id: 1325707121
+  url: https://github.com/amazon-connect/agentic-cx-designer-sdk
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T16:54:08Z'
+  stars: 12
+  readme_url: https://github.com/amazon-connect/agentic-cx-designer-sdk/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f378f7cbaa5ab0ec54f4f44c69da485919672703
+  manifest_paths:
+  - example-scripts/package.json
+  source_files_inspected:
+  - example-scripts/lib/client.js
+  - example-scripts/lib/ensure.js
+  - example-scripts/autocare-voice-assistant/application.js
+  - example-scripts/autocare-voice-assistant/build-deploy.js
+  repository_tree:
+    status: captured
+    sha: 7d743e5ce14716c31e9a7fe2cdae701411cbf301
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: TypeScript SDK client for Amazon Connect Agentic CX Designer — provides programmatic access to workspace
+    resources including applications, flows, knowledge bases, guardrails, and more.
+  why_used: TypeScript SDK client for Amazon Connect Agentic CX Designer — provides programmatic access to workspace
+    resources including applications, flows, knowledge bases, guardrails, and more.
+  core_features: []
+  technology_stack:
+    languages:
+    - Smithy
+    - JavaScript
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - amazon-connect-acxd-sdk
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: example-scripts/lib/client.js,
+    example-scripts/lib/ensure.js, example-scripts/autocare-voice-assistant/application.js, example-scripts/autocare-voice-assistant/build-deploy.js'
+  setup_and_usage:
+  - 'Installation: npm install amazon-connect-acxd-sdk'
+  - 'Usage: import { AgenticCXDesignerClient, ListApplicationsCommand } from "amazon-connect-acxd-sdk";'
+  - 'Usage: const client = new AgenticCXDesignerClient({'
+  - 'Usage: apiKey: "REPLACE_WITH_API_KEY",'
+  - 'Usage: workspaceId: "REPLACE_WITH_WORKSPACE_ID", // required for workspace-scoped operations'
+  - 'Usage: const response = await client.send(new ListApplicationsCommand({}));'
+  - 'Usage: console.log(response.items);'
+  limitations:
+  - 'Security: See CONTRIBUTING for how to report security issues.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/agentic-cx-designer-sdk/blob/main/README.md
+  path: README.md
+  blob_sha: f378f7cbaa5ab0ec54f4f44c69da485919672703
+  retrieved: true
+- type: manifest
+  path: example-scripts/package.json
+  blob_sha: 7a1afb6361f07d5334b42a380a0829efc0224cfd
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Smithy: 177399
+    JavaScript: 67346
+    TypeScript: 4147
+- type: Git tree
+  status: captured
+  sha: 7d743e5ce14716c31e9a7fe2cdae701411cbf301
+  truncated: false
+- type: source_file
+  path: example-scripts/lib/client.js
+  blob_sha: ea99e8780d7bfc5ce21d4d919b76dc3da4e0374b
+  retrieved: true
+- type: source_file
+  path: example-scripts/lib/ensure.js
+  blob_sha: 19d3fadb9a4c8482052875aad59a72f915920fdb
+  retrieved: true
+- type: source_file
+  path: example-scripts/autocare-voice-assistant/application.js
+  blob_sha: 7fa7b4cfd0e90de77c41947aa10d6d78c81e39ea
+  retrieved: true
+- type: source_file
+  path: example-scripts/autocare-voice-assistant/build-deploy.js
+  blob_sha: 44457ff6f52a4169a1559eab45316f61aeaf8c56
+  retrieved: true

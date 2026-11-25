@@ -1,0 +1,227 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:47:32+00:00'
+evidence_fingerprint: 7c2cb031ddfe3192abf911039ff336a9f5c0e34c410c0037efa09195a10357f1
+repository_metadata:
+  company: Amazon
+  account: firecracker-microvm
+  full_name: firecracker-microvm/firecracker
+  repository_id: 107505869
+  url: https://github.com/firecracker-microvm/firecracker
+  description: Secure and fast microVMs for serverless computing.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T16:57:25Z'
+  stars: 38190
+  readme_url: https://github.com/firecracker-microvm/firecracker/blob/main/README.md
+  readme_path: README.md
+  readme_sha: fc4aa8ee2250e9e953b4cff8bf603bc4e5de80c3
+  manifest_paths:
+  - Cargo.toml
+  - tests/pyproject.toml
+  - src/acpi-tables/Cargo.toml
+  - src/clippy-tracing/Cargo.toml
+  - src/cpu-template-helper/Cargo.toml
+  - src/firecracker/Cargo.toml
+  source_files_inspected:
+  - src/acpi-tables/src/lib.rs
+  - src/clippy-tracing/src/main.rs
+  - src/cpu-template-helper/src/fingerprint/mod.rs
+  - src/cpu-template-helper/src/main.rs
+  repository_tree:
+    status: captured
+    sha: 62a0d1e225f1350b99d3f9f1ba6cf1c406f663f5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Our mission is to enable secure, multi-tenant, minimal-overhead execution of container and function workloads.
+  why_used: Secure and fast microVMs for serverless computing.
+  core_features:
+  - name: 'Configure the microvm by:'
+    description: 'Configure the microvm by:'
+    evidence:
+    - README.md#Features & Capabilities
+  - name: Setting the number of vCPUs (the default is 1).
+    description: Setting the number of vCPUs (the default is 1).
+    evidence:
+    - README.md#Features & Capabilities
+  - name: Setting the memory size (the default is 128 MiB).
+    description: Setting the memory size (the default is 128 MiB).
+    evidence:
+    - README.md#Features & Capabilities
+  - name: Configuring a CPU template.
+    description: Configuring a CPU template.
+    evidence:
+    - README.md#Features & Capabilities
+  - name: Add one or more network interfaces to the microVM.
+    description: Add one or more network interfaces to the microVM.
+    evidence:
+    - README.md#Features & Capabilities
+  - name: Add one or more read-write or read-only disks to the microVM, each represented
+    description: Add one or more read-write or read-only disks to the microVM, each represented
+    evidence:
+    - README.md#Features & Capabilities
+  - name: Trigger a block device re-scan while the guest is running. This enables the
+    description: Trigger a block device re-scan while the guest is running. This enables the
+    evidence:
+    - README.md#Features & Capabilities
+  - name: Change the backing file for a block device, before or after the guest boots.
+    description: Change the backing file for a block device, before or after the guest boots.
+    evidence:
+    - README.md#Features & Capabilities
+  - name: Configure rate limiters for virtio devices which can limit the bandwidth,
+    description: Configure rate limiters for virtio devices which can limit the bandwidth,
+    evidence:
+    - README.md#Features & Capabilities
+  - name: Configure the logging and metric system.
+    description: Configure the logging and metric system.
+    evidence:
+    - README.md#Features & Capabilities
+  - name: '[BETA] Configure the data tree of the guest-facing metadata service. The'
+    description: '[BETA] Configure the data tree of the guest-facing metadata service. The'
+    evidence:
+    - README.md#Features & Capabilities
+  - name: Add a vsock socket to the microVM.
+    description: Add a vsock socket to the microVM.
+    evidence:
+    - README.md#Features & Capabilities
+  - name: Add a entropy device to the microVM.
+    description: Add a entropy device to the microVM.
+    evidence:
+    - README.md#Features & Capabilities
+  - name: Add a pmem device to the microVM.
+    description: Add a pmem device to the microVM.
+    evidence:
+    - README.md#Features & Capabilities
+  - name: Configure and manage memory hotplugging.
+    description: Configure and manage memory hotplugging.
+    evidence:
+    - README.md#Features & Capabilities
+  technology_stack:
+    languages:
+    - Rust
+    - Python
+    - Shell
+    - C
+    - Dockerfile
+    - Go
+    frameworks_and_libraries: []
+    dependencies:
+    - cargo_toml
+    - clap
+    - displaydoc
+    - event-manager
+    - itertools
+    - libc
+    - log-instrument
+    - micro_http
+    - proc-macro2
+    - quote
+    - seccompiler
+    - semver
+    - serde
+    - serde_derive
+    - serde_json
+    - syn
+    - thiserror
+    - userfaultfd
+    - utils
+    - uuid
+    - vm-memory
+    - vmm
+    - vmm-sys-util
+    - walkdir
+    - zerocopy
+    build_and_package_tools:
+    - Cargo manifest
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/acpi-tables/src/lib.rs,
+    src/clippy-tracing/src/main.rs, src/cpu-template-helper/src/fingerprint/mod.rs, src/cpu-template-helper/src/main.rs'
+  setup_and_usage:
+  - 'Getting Started: To get started with Firecracker, download the latest'
+  - 'Getting Started: or build it from source.'
+  - 'Getting Started: You can build Firecracker on any Unix/Linux system that has Docker running (we'
+  - 'Getting Started: use a development container) and bash installed, as follows:'
+  - 'Getting Started: git clone https://github.com/firecracker-microvm/firecracker'
+  - 'Getting Started: toolchain="$(uname -m)-unknown-linux-musl"'
+  - 'Getting Started: The Firecracker binary will be placed at'
+  - 'Getting Started: build/cargo_target/${toolchain}/debug/firecracker. For more information on'
+  limitations:
+  - 'Tested platforms: We test all combinations of:'
+  - 'Tested platforms: | Instance | Host OS & Kernel | Guest Rootfs | Guest Kernel |'
+  - 'Tested platforms: | :------------------------------------------ | :---------------- | :----------- | :-----------
+    |'
+  - 'Tested platforms: | m5n.metal (Intel Cascade Lake) | al2 linux_5.10 | ubuntu 24.04 | linux_5.10 |'
+  - 'Tested platforms: | m6i.metal (Intel Ice Lake) | al2023 linux_6.1 | | linux_6.1 |'
+  - 'Tested platforms: | | al2023 linux_6.18 | | |'
+  - 'Tested platforms: | m7i.metal-24xl (Intel Sapphire Rapids) | | | |'
+  - 'Tested platforms: | m7i.metal-48xl (Intel Sapphire Rapids) | | | |'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/firecracker-microvm/firecracker/blob/main/README.md
+  path: README.md
+  blob_sha: fc4aa8ee2250e9e953b4cff8bf603bc4e5de80c3
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: 954fc22736f1b8c72f827c70de6d209fe137295c
+  retrieved: true
+- type: manifest
+  path: tests/pyproject.toml
+  blob_sha: d2473782e175320eac9038c1c0be0b30b7e9bc52
+  retrieved: true
+- type: manifest
+  path: src/acpi-tables/Cargo.toml
+  blob_sha: 3c49d181ae1e128b8b295a365e84e5c770b0d3e6
+  retrieved: true
+- type: manifest
+  path: src/clippy-tracing/Cargo.toml
+  blob_sha: 544f449452b05e931bbecf4123dc88f96af22f02
+  retrieved: true
+- type: manifest
+  path: src/cpu-template-helper/Cargo.toml
+  blob_sha: 517d7e0e638e41872b21306b75905fcb93a79954
+  retrieved: true
+- type: manifest
+  path: src/firecracker/Cargo.toml
+  blob_sha: 07d7418240e9456ef9b99d2b901c842707df09ea
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 5192127
+    Python: 1292338
+    Shell: 107670
+    C: 43039
+    Dockerfile: 14678
+    Go: 3759
+- type: Git tree
+  status: captured
+  sha: 62a0d1e225f1350b99d3f9f1ba6cf1c406f663f5
+  truncated: false
+- type: source_file
+  path: src/acpi-tables/src/lib.rs
+  blob_sha: d3b7df0791ea2d2395e17d8bc874bc5e7de2bf9a
+  retrieved: true
+- type: source_file
+  path: src/clippy-tracing/src/main.rs
+  blob_sha: ef6365ccf40844620f73a0c1a000bc826ce15dcf
+  retrieved: true
+- type: source_file
+  path: src/cpu-template-helper/src/fingerprint/mod.rs
+  blob_sha: 8fe27f3f777709a91255f8cfb7830afe06b827b9
+  retrieved: true
+- type: source_file
+  path: src/cpu-template-helper/src/main.rs
+  blob_sha: 8adbc4f06d03a4adb32a829a91b9fa9c204a3b9b
+  retrieved: true

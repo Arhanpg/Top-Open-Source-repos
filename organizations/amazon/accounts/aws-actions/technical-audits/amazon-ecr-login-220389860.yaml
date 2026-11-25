@@ -1,0 +1,116 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:53:55+00:00'
+evidence_fingerprint: 58f7440b612d98f64d83b3752deebacff19c68d6ee6047c54cd66224d9f1f2d5
+repository_metadata:
+  company: Amazon
+  account: aws-actions
+  full_name: aws-actions/amazon-ecr-login
+  repository_id: 220389860
+  url: https://github.com/aws-actions/amazon-ecr-login
+  description: Logs into Amazon ECR with the local Docker client.
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T00:11:18Z'
+  stars: 1063
+  readme_url: https://github.com/aws-actions/amazon-ecr-login/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 8b5737e3bc742da6c0dae046941b8c748ab1d96a
+  manifest_paths:
+  - package.json
+  - dist/package.json
+  - dist/cleanup/package.json
+  source_files_inspected:
+  - index.js
+  - cleanup.js
+  - cleanup.test.js
+  - eslint.config.js
+  repository_tree:
+    status: captured
+    sha: 87f9ab6b90b40811c0cca91f83faddec1e070cfa
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Logs in the local Docker client to one or more Amazon ECR Private registries or an Amazon ECR Public
+    registry.
+  why_used: Logs into Amazon ECR with the local Docker client.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@actions/exec'
+    - '@aws-sdk/client-ecr'
+    - '@aws-sdk/client-ecr-public'
+    - '@aws-sdk/client-signin'
+    - '@aws-sdk/credential-providers'
+    - '@aws-sdk/node-http-handler'
+    - '@eslint/js'
+    - '@vercel/ncc'
+    - aws-sdk-client-mock
+    - eslint
+    - globals
+    - https-proxy-agent
+    - jest
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: index.js, cleanup.js,
+    cleanup.test.js, eslint.config.js'
+  setup_and_usage: []
+  limitations:
+  - 'Security Disclosures: If you would like to report a potential security issue in this project, please do not
+    create a GitHub issue. Instead, please follow the instructions here or email AWS security directly.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-actions/amazon-ecr-login/blob/main/README.md
+  path: README.md
+  blob_sha: 8b5737e3bc742da6c0dae046941b8c748ab1d96a
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 677bc5d4782da5765793c7d66dc43d286fcb76d5
+  retrieved: true
+- type: manifest
+  path: dist/package.json
+  blob_sha: 3dbc1ca591c0557e35b6004aeba250e6a70b56e3
+  retrieved: true
+- type: manifest
+  path: dist/cleanup/package.json
+  blob_sha: 3dbc1ca591c0557e35b6004aeba250e6a70b56e3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 72113
+- type: Git tree
+  status: captured
+  sha: 87f9ab6b90b40811c0cca91f83faddec1e070cfa
+  truncated: false
+- type: source_file
+  path: index.js
+  blob_sha: acbc53f7da60a48f46bd2bb2791fdf77173ba26e
+  retrieved: true
+- type: source_file
+  path: cleanup.js
+  blob_sha: a444a1e9ea051db7525911094cef77b04ad4177b
+  retrieved: true
+- type: source_file
+  path: cleanup.test.js
+  blob_sha: 6b8e2b7c5b35d4e6e19ccba09d595e79ebd25676
+  retrieved: true
+- type: source_file
+  path: eslint.config.js
+  blob_sha: d9a145dba77f629e05d9319b4a711747e8da2827
+  retrieved: true

@@ -1,0 +1,125 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:55:07+00:00'
+evidence_fingerprint: 1b7d972a463bccb46f96fa52e676905c508b7229cccb05e617e2ff68a421d87a
+repository_metadata:
+  company: Amazon
+  account: aws-samples
+  full_name: aws-samples/42dot-cdk-fleetmanagement-system
+  repository_id: 821622560
+  url: https://github.com/aws-samples/42dot-cdk-fleetmanagement-system
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-04-10T02:18:15Z'
+  stars: 1
+  readme_url: https://github.com/aws-samples/42dot-cdk-fleetmanagement-system/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 417ab7fc4a07a181a0fd3921a583d61ee53e0edc
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - lib/aws-iot-core-provisioning-infra-stack.d.ts
+  - lib/aws-iot-core-provisioning-infra-stack.js
+  - lib/aws-iot-core-provisioning-infra-stack.ts
+  - lib/aws-iot-core-rule-infra-stack.d.ts
+  repository_tree:
+    status: captured
+    sha: 07673e909ce0f449932d57907f3aaf95cafa6a99
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: CASE, the mega-trend keyword for the automotive industry, can be summarized as Connectivity, Autonomous,
+    Sharing, and Electrification. Among them, connectivity is the foundation that enables cars that are integrated
+    with IT technology to develop into living spaces that are connected to the world and move, and to provide various
+    mobility services. As the number of connected vehicles in mobility services increases rapidly, fleet management
+    systems (FMS) need to be configured to meet various needs. In this post, we'll share how 42dot addressed these
+    challenges with AWS IoT Core and AWS CDK.
+  why_used: CASE, the mega-trend keyword for the automotive industry, can be summarized as Connectivity, Autonomous,
+    Sharing, and Electrification. Among them, connectivity is the foundation that enables cars that are integrated
+    with IT technology to develop into living spaces that are connected to the world and move, and to provide various
+    mobility services. As the number of connected vehicles in mobility services increases rapidly, fleet management
+    systems (FMS) need to be configured to meet various needs. In this post, we'll share how 42dot addressed these
+    challenges with AWS IoT Core and AWS CDK.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Python
+    - JavaScript
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - 0g
+    - '@aws-sdk/client-kafka'
+    - '@types/jest'
+    - '@types/node'
+    - aws-cdk
+    - aws-cdk-lib
+    - constructs
+    - jest
+    - path
+    - source-map-support
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/aws-iot-core-provisioning-infra-stack.d.ts,
+    lib/aws-iot-core-provisioning-infra-stack.js, lib/aws-iot-core-provisioning-infra-stack.ts, lib/aws-iot-core-rule-infra-stack.d.ts'
+  setup_and_usage: []
+  limitations:
+  - 'Step 2: Device Policy and Security Setup: In AwsIotCoreProvisioningInfraStack'
+  - 'Step 2: Device Policy and Security Setup: 1. Device Policy Customization'
+  - 'Step 2: Device Policy and Security Setup: - Modifies a predefined JSON policy (device/device-policy.json) based
+    on configuration, creating an IoT device policy that allows topic publishing and subscription.'
+  - 'Step 2: Device Policy and Security Setup: 2. Lambda Role for Pre-Provisioning'
+  - 'Step 2: Device Policy and Security Setup: - Establishes an IAM role with permissions for AWS Lambda to verify
+    devices during the pre-provisioning phase.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-samples/42dot-cdk-fleetmanagement-system/blob/main/README.md
+  path: README.md
+  blob_sha: 417ab7fc4a07a181a0fd3921a583d61ee53e0edc
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 313e676d99cb5603d4a2e4f67f17aa0ed02ac0f9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 22501
+    Python: 2824
+    JavaScript: 1654
+    Shell: 1419
+- type: Git tree
+  status: captured
+  sha: 07673e909ce0f449932d57907f3aaf95cafa6a99
+  truncated: false
+- type: source_file
+  path: lib/aws-iot-core-provisioning-infra-stack.d.ts
+  blob_sha: 522cfb377152299165d5ab28caae25f7afe31c9e
+  retrieved: true
+- type: source_file
+  path: lib/aws-iot-core-provisioning-infra-stack.js
+  blob_sha: 50d9d7ee0517687702c884eef9b1cacb7a2edb83
+  retrieved: true
+- type: source_file
+  path: lib/aws-iot-core-provisioning-infra-stack.ts
+  blob_sha: 1db8a897023d74cfbb216bb3ca677e13602dc27d
+  retrieved: true
+- type: source_file
+  path: lib/aws-iot-core-rule-infra-stack.d.ts
+  blob_sha: 5897bb18ec4f1ce7317a858a5af42aa501c9aa79
+  retrieved: true

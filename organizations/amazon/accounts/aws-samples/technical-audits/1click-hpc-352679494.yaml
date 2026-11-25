@@ -1,0 +1,88 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:46:27+00:00'
+evidence_fingerprint: 92f2ef5ee924f1d61caf13869477aad9cfc3ddecbfdf408078c0af977e03b59c
+repository_metadata:
+  company: Amazon
+  account: aws-samples
+  full_name: aws-samples/1click-hpc
+  repository_id: 352679494
+  url: https://github.com/aws-samples/1click-hpc
+  description: Deploy your HPC Cluster on AWS in 20min. with just 1-Click.
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-02-20T19:10:09Z'
+  stars: 66
+  readme_url: https://github.com/aws-samples/1click-hpc/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 932916f38b2b3bce4353e0bca98ff194bbb26ee9
+  manifest_paths: []
+  source_files_inspected:
+  - enginframe/alb.session.closing.hook.sh
+  - enginframe/alb.session.starting.hook.sh
+  - modules/04.configure.disable.anacron.compute.sh
+  - modules/04.configure.slurm.AllOrNothing.headnode.sh
+  repository_tree:
+    status: captured
+    sha: 75d5b7687f9782a614de4a627f4593178826ee55
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This project aims at speeding up the deployment of an HPC Cluster on AWS. Following the instructions
+    below a fully functional and ready to use HPC cluster will be created with just 1-Click.
+  why_used: Deploy your HPC Cluster on AWS in 20min. with just 1-Click.
+  core_features: []
+  technology_stack:
+    languages:
+    - Shell
+    - HTML
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: enginframe/alb.session.closing.hook.sh,
+    enginframe/alb.session.starting.hook.sh, modules/04.configure.disable.anacron.compute.sh, modules/04.configure.slurm.AllOrNothing.headnode.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-samples/1click-hpc/blob/main/README.md
+  path: README.md
+  blob_sha: 932916f38b2b3bce4353e0bca98ff194bbb26ee9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Shell: 78368
+    HTML: 3351
+    Python: 536
+- type: Git tree
+  status: captured
+  sha: 75d5b7687f9782a614de4a627f4593178826ee55
+  truncated: false
+- type: source_file
+  path: enginframe/alb.session.closing.hook.sh
+  blob_sha: 69a71797c95cf32f00e57453dac6a64d14838767
+  retrieved: true
+- type: source_file
+  path: enginframe/alb.session.starting.hook.sh
+  blob_sha: 27bcfd885893533001a3abb48e462e67706c6746
+  retrieved: true
+- type: source_file
+  path: modules/04.configure.disable.anacron.compute.sh
+  blob_sha: 7ee419d0c45a9490031eabf3494632e45aff24eb
+  retrieved: true
+- type: source_file
+  path: modules/04.configure.slurm.AllOrNothing.headnode.sh
+  blob_sha: bbd08727b4fe0b7a017d161abd574f58e474ba7b
+  retrieved: true

@@ -1,0 +1,137 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:47:40+00:00'
+evidence_fingerprint: ec2ea1895618f24e5bb14daa7eb50c616e76876754f52bee41649c8ae3a597e6
+repository_metadata:
+  company: Amazon
+  account: freertos
+  full_name: FreeRTOS/CI-CD-Github-Actions
+  repository_id: 323997802
+  url: https://github.com/FreeRTOS/CI-CD-Github-Actions
+  description: Common GitHub Actions for CI/CD on FreeRTOS library repositories.
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T17:47:58Z'
+  stars: 25
+  readme_url: https://github.com/FreeRTOS/CI-CD-Github-Actions/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3b4ca5c4cda069923a45cdd7f6eb089c699bdd17
+  manifest_paths:
+  - executable-monitor/requirements.txt
+  - link-verifier/requirements.txt
+  - localhost-http-1.1-server/requirements.txt
+  - localhost-mqtt-broker/requirements.txt
+  - manifest-verifier/requirements.txt
+  - memory_statistics/makefile
+  source_files_inspected:
+  - rust-spell-check/crates/libaspell-sys/src/lib.rs
+  - rust-spell-check/src/main.rs
+  - clang-formatting/filesWithCRLFEndings/fileWithCRLFEnding.h
+  - clang-formatting/filesWithCRLFEndings/testWithCRLFEnding.c
+  repository_tree:
+    status: captured
+    sha: eb588852ff1dd66a21763964097f60f4c8814bd4
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains common GitHub Actions for use in CI/CD on FreeRTOS, and AWS, Library Repositories.
+  why_used: Common GitHub Actions for CI/CD on FreeRTOS library repositories.
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - Python
+    - Rust
+    - HTML
+    - Makefile
+    - Tree-sitter Query
+    frameworks_and_libraries: []
+    dependencies:
+    - amqtt
+    - beautifulsoup4
+    - bs4
+    - certifi
+    - chardet
+    - gitpython
+    - idna
+    - pyOpenSSL
+    - pyyaml
+    - requests
+    - soupsieve
+    - termcolor
+    - urllib3
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: rust-spell-check/crates/libaspell-sys/src/lib.rs,
+    rust-spell-check/src/main.rs, clang-formatting/filesWithCRLFEndings/fileWithCRLFEnding.h, clang-formatting/filesWithCRLFEndings/testWithCRLFEnding.c'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/FreeRTOS/CI-CD-Github-Actions/blob/main/README.md
+  path: README.md
+  blob_sha: 3b4ca5c4cda069923a45cdd7f6eb089c699bdd17
+  retrieved: true
+- type: manifest
+  path: executable-monitor/requirements.txt
+  blob_sha: f83cdd5a99956da483a998faf0ceeb5194578f1a
+  retrieved: true
+- type: manifest
+  path: link-verifier/requirements.txt
+  blob_sha: 007c28b0b349bdd29d4388a979faefa419c095be
+  retrieved: true
+- type: manifest
+  path: localhost-http-1.1-server/requirements.txt
+  blob_sha: 2b8d1875054afb5c9ed417d92efdc154540ff4d5
+  retrieved: true
+- type: manifest
+  path: localhost-mqtt-broker/requirements.txt
+  blob_sha: 8011c19d6286a671ee70d1311152382ab384c0af
+  retrieved: true
+- type: manifest
+  path: manifest-verifier/requirements.txt
+  blob_sha: f83cdd5a99956da483a998faf0ceeb5194578f1a
+  retrieved: true
+- type: manifest
+  path: memory_statistics/makefile
+  blob_sha: aaef96fd442c6c5e2808f72fb898cfc9dbb7225c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 88825
+    Python: 84265
+    Rust: 8322
+    HTML: 1081
+    Makefile: 360
+    Tree-sitter Query: 80
+- type: Git tree
+  status: captured
+  sha: eb588852ff1dd66a21763964097f60f4c8814bd4
+  truncated: false
+- type: source_file
+  path: rust-spell-check/crates/libaspell-sys/src/lib.rs
+  blob_sha: a38a13a81db48ec3451d59a24f2680c9f0193fd3
+  retrieved: true
+- type: source_file
+  path: rust-spell-check/src/main.rs
+  blob_sha: 8c8b2fbf873955d4929652af77824661d1713c90
+  retrieved: true
+- type: source_file
+  path: clang-formatting/filesWithCRLFEndings/fileWithCRLFEnding.h
+  blob_sha: ea31f8385c6d624859916ec19a928dfbe29c8364
+  retrieved: true
+- type: source_file
+  path: clang-formatting/filesWithCRLFEndings/testWithCRLFEnding.c
+  blob_sha: a2c2e7d411a1254f4143ebcf55d863f63b04098f
+  retrieved: true

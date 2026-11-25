@@ -1,0 +1,150 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:58:36+00:00'
+evidence_fingerprint: d518ea60fda07a38cfe1f5bd6833ab85ef69eabaedc50181e03d19797278f67a
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/ACCV-Lab
+  repository_id: 1093176253
+  url: https://github.com/NVIDIA/ACCV-Lab
+  description: Accelerated Computer Vision Lab (ACCV-Lab) is a systematic collection of packages with the common
+    goal to facilitate end-to-end efficient training in the ADAS domain, each package offering tools & best practices
+    for a specific aspect/task in this domain.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T03:51:16Z'
+  stars: 69
+  readme_url: https://github.com/NVIDIA/ACCV-Lab/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4eb180845f418c392525e00b445ee4ca61f0796a
+  manifest_paths:
+  - pyproject.toml
+  - build_config/pyproject.toml
+  - build_config/setup.py
+  - docker/Dockerfile
+  - docs/Makefile
+  - docs/requirements.txt
+  source_files_inspected:
+  - demos/streampetr/projects/mmdet3d_plugin/core/adjusted_impl/iter_based_runner_with_time.py
+  - demos/streampetr/projects/mmdet3d_plugin/core/adjusted_impl/optimizer_with_time.py
+  - demos/streampetr/projects/mmdet3d_plugin/core/apis/__init__.py
+  - demos/streampetr/projects/mmdet3d_plugin/core/apis/mmdet_train.py
+  repository_tree:
+    status: captured
+    sha: 9773e6dde6306e0e086785f1e60ef3590b551361
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Accelerated Computer Vision Lab (ACCV-Lab) is a systematic collection of packages with the common goal
+    to facilitate end-to-end efficient training in the ADAS domain, each package offering tools & best practices
+    for a specific aspect/task in this domain.
+  why_used: Accelerated Computer Vision Lab (ACCV-Lab) is a systematic collection of packages with the common goal
+    to facilitate end-to-end efficient training in the ADAS domain, each package offering tools & best practices
+    for a specific aspect/task in this domain.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - C
+    - Cuda
+    - Shell
+    - CMake
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - PyYAML
+    - linkify-it-py
+    - myst-parser
+    - setuptools-scm
+    - sphinx
+    - sphinx-autobuild
+    - sphinx-autodoc-typehints
+    - sphinx-rtd-theme
+    - torch
+    build_and_package_tools:
+    - Docker build configuration
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: demos/streampetr/projects/mmdet3d_plugin/core/adjusted_impl/iter_based_runner_with_time.py,
+    demos/streampetr/projects/mmdet3d_plugin/core/adjusted_impl/optimizer_with_time.py, demos/streampetr/projects/mmdet3d_plugin/core/apis/__init__.py,
+    demos/streampetr/projects/mmdet3d_plugin/core/apis/mmdet_train.py'
+  setup_and_usage:
+  - 'Quick Start: A docker file setting up the environment to install and use the ACCV-Lab package is available
+    in the'
+  - 'Quick Start: docker/ directory. It allows building an image and using it as root (build without any parameters),'
+  - 'Quick Start: but also allows to configure a specific user (see the Dockerfile for the parameters).'
+  - 'Quick Start: The image can be built as follows (run from inside the docker/ directory):'
+  - '🚀 Installation Guide: Step-by-step installation instructions for users and developers.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/ACCV-Lab/blob/main/README.md
+  path: README.md
+  blob_sha: 4eb180845f418c392525e00b445ee4ca61f0796a
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 58a446af8dbd92380492e03ec60484ee9a95100f
+  retrieved: true
+- type: manifest
+  path: build_config/pyproject.toml
+  blob_sha: 11fbeae9d4f1a79289c88fc8ebb3fdcabf3bfef8
+  retrieved: true
+- type: manifest
+  path: build_config/setup.py
+  blob_sha: afbd2f92bad7093cadfe802153c8e11ec062b360
+  retrieved: true
+- type: manifest
+  path: docker/Dockerfile
+  blob_sha: 7e76a3272d5f8b0f6dc8a373c3e9929473a8a21a
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: 987e408641f3a26f4614344cbc17166036984c1e
+  retrieved: true
+- type: manifest
+  path: docs/requirements.txt
+  blob_sha: 2094f715bae2d2d14e4a60cb4a48b0a243c3fe41
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 2546885
+    C++: 923858
+    C: 400512
+    Cuda: 188628
+    Shell: 47124
+    CMake: 40114
+    Dockerfile: 4336
+- type: Git tree
+  status: captured
+  sha: 9773e6dde6306e0e086785f1e60ef3590b551361
+  truncated: false
+- type: source_file
+  path: demos/streampetr/projects/mmdet3d_plugin/core/adjusted_impl/iter_based_runner_with_time.py
+  blob_sha: 35145f4cb8516b30e7a7705ab5904e005db13b5b
+  retrieved: true
+- type: source_file
+  path: demos/streampetr/projects/mmdet3d_plugin/core/adjusted_impl/optimizer_with_time.py
+  blob_sha: 22cddc132716067862de34b2fd590b60167a95c1
+  retrieved: true
+- type: source_file
+  path: demos/streampetr/projects/mmdet3d_plugin/core/apis/__init__.py
+  blob_sha: 57161c2930a52530d414fe3c11a54a532df4c084
+  retrieved: true
+- type: source_file
+  path: demos/streampetr/projects/mmdet3d_plugin/core/apis/mmdet_train.py
+  blob_sha: b60ae30e5b7942a1a4896c768f59ce529859da43
+  retrieved: true

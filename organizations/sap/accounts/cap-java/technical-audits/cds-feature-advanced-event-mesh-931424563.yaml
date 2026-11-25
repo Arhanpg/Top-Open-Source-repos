@@ -1,0 +1,142 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:50:43+00:00'
+evidence_fingerprint: 11792e34a82dbcaa29747be3169065e5982e45d16bd0dd5f1dfc1acce14ea012
+repository_metadata:
+  company: SAP
+  account: cap-java
+  full_name: cap-java/cds-feature-advanced-event-mesh
+  repository_id: 931424563
+  url: https://github.com/cap-java/cds-feature-advanced-event-mesh
+  description: CDS plugin providing integration with SAP Integration Suite, advanced event mesh.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-19T15:06:06Z'
+  stars: 1
+  readme_url: https://github.com/cap-java/cds-feature-advanced-event-mesh/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4ff15f5cb52bbdf4390aa8715bdd544f5875c091
+  manifest_paths:
+  - pom.xml
+  - cds-feature-advanced-event-mesh/pom.xml
+  source_files_inspected:
+  - cds-feature-advanced-event-mesh/src/main/java/com/sap/cds/feature/messaging/aem/client/AemManagementClient.java
+  - cds-feature-advanced-event-mesh/src/main/java/com/sap/cds/feature/messaging/aem/client/AemValidationClient.java
+  - cds-feature-advanced-event-mesh/src/main/java/com/sap/cds/feature/messaging/aem/client/binding/AemAuthenticationServiceView.java
+  - cds-feature-advanced-event-mesh/src/main/java/com/sap/cds/feature/messaging/aem/client/binding/AemClientIdentity.java
+  repository_tree:
+    status: captured
+    sha: f86e924181faa2ef3fdc786b4645a61b5c153007
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: CDS plugin providing integration with SAP Integration Suite, advanced event mesh.
+  why_used: CDS plugin providing integration with SAP Integration Suite, advanced event mesh.
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    frameworks_and_libraries: []
+    dependencies:
+    - assertj-core
+    - byte-buddy-agent
+    - cds-feature-advanced-event-mesh
+    - cds-feature-advanced-event-mesh-root
+    - cds-services-api
+    - cds-services-bom
+    - cds-services-impl
+    - cds-services-messaging
+    - cds-services-utils
+    - central-publishing-maven-plugin
+    - commons-codec
+    - commons-io
+    - connectivity-apache-httpclient4
+    - flatten-maven-plugin
+    - guava
+    - jackson-databind
+    - jacoco-maven-plugin
+    - jakarta.servlet-api
+    - json-path
+    - jsr305
+    - junit-jupiter
+    - maven-clean-plugin
+    - maven-compiler-plugin
+    - maven-dependency-plugin
+    - maven-deploy-plugin
+    - maven-enforcer-plugin
+    - maven-failsafe-plugin
+    - maven-gpg-plugin
+    - maven-javadoc-plugin
+    - maven-pmd-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - mockito-bom
+    - mockito-core
+    - mockserver-netty
+    - netty-bom
+    - pitest-junit5-plugin
+    - pitest-maven
+    - qpid-jms-client
+    - sdk-bom
+    - slf4j-api
+    - slf4j-reload4j
+    - spotbugs-maven-plugin
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cds-feature-advanced-event-mesh/src/main/java/com/sap/cds/feature/messaging/aem/client/AemManagementClient.java,
+    cds-feature-advanced-event-mesh/src/main/java/com/sap/cds/feature/messaging/aem/client/AemValidationClient.java,
+    cds-feature-advanced-event-mesh/src/main/java/com/sap/cds/feature/messaging/aem/client/binding/AemAuthenticationServiceView.java,
+    cds-feature-advanced-event-mesh/src/main/java/com/sap/cds/feature/messaging/aem/client/binding/AemClientIdentity.java'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-java/cds-feature-advanced-event-mesh/blob/main/README.md
+  path: README.md
+  blob_sha: 4ff15f5cb52bbdf4390aa8715bdd544f5875c091
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: 42c5ed4a7e88c3e310a99d9f39bc900cd42a490d
+  retrieved: true
+- type: manifest
+  path: cds-feature-advanced-event-mesh/pom.xml
+  blob_sha: 8310b483264a85fe2533306f25ac400a41bb4ca7
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 106238
+- type: Git tree
+  status: captured
+  sha: f86e924181faa2ef3fdc786b4645a61b5c153007
+  truncated: false
+- type: source_file
+  path: cds-feature-advanced-event-mesh/src/main/java/com/sap/cds/feature/messaging/aem/client/AemManagementClient.java
+  blob_sha: 079d20c2ad611dcc179088d1eae7e4157ee6d665
+  retrieved: true
+- type: source_file
+  path: cds-feature-advanced-event-mesh/src/main/java/com/sap/cds/feature/messaging/aem/client/AemValidationClient.java
+  blob_sha: 60ee3ee8d586bd2fadcc0a3e8e94d8a1ef39dad0
+  retrieved: true
+- type: source_file
+  path: cds-feature-advanced-event-mesh/src/main/java/com/sap/cds/feature/messaging/aem/client/binding/AemAuthenticationServiceView.java
+  blob_sha: 97717a5e81d3e500850245dccc0fba519f702cfb
+  retrieved: true
+- type: source_file
+  path: cds-feature-advanced-event-mesh/src/main/java/com/sap/cds/feature/messaging/aem/client/binding/AemClientIdentity.java
+  blob_sha: 024496be00348dff08f460286dddbca568685e2c
+  retrieved: true

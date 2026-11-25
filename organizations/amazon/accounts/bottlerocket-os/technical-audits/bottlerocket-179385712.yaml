@@ -1,0 +1,134 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:47:08+00:00'
+evidence_fingerprint: 18aee65bfd79f6bee1cfe0f84a9584bf22580da2ebe79083f2e83a31a44f2b43
+repository_metadata:
+  company: Amazon
+  account: bottlerocket-os
+  full_name: bottlerocket-os/bottlerocket
+  repository_id: 179385712
+  url: https://github.com/bottlerocket-os/bottlerocket
+  description: An operating system designed for hosting containers
+  default_branch: develop
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T20:36:56Z'
+  stars: 9703
+  readme_url: https://github.com/bottlerocket-os/bottlerocket/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: de13b0d2effa4ae09693d9872bea2339916f62f3
+  manifest_paths:
+  - Cargo.toml
+  - sources/Cargo.toml
+  - packages/settings-defaults/Cargo.toml
+  - packages/settings-migrations/Cargo.toml
+  - packages/settings-plugins/Cargo.toml
+  - sources/bottlerocket-release/Cargo.toml
+  source_files_inspected:
+  - sources/api/datastore/src/deserialization/mod.rs
+  - sources/api/datastore/src/lib.rs
+  - sources/api/datastore/src/serialization/mod.rs
+  - sources/api/migration/migration-helpers/src/lib.rs
+  repository_tree:
+    status: captured
+    sha: c250d1cfdbdbe291f53380e655a70ff6baf0ca81
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Welcome to Bottlerocket!
+  why_used: An operating system designed for hosting containers
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    - Shell
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - envy
+    - generate-readme
+    - log
+    - semver
+    - serde
+    - snafu
+    build_and_package_tools:
+    - Cargo manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: sources/api/datastore/src/deserialization/mod.rs,
+    sources/api/datastore/src/lib.rs, sources/api/datastore/src/serialization/mod.rs, sources/api/migration/migration-helpers/src/lib.rs'
+  setup_and_usage: []
+  limitations:
+  - 'Platform-specific settings: Platform-specific settings are automatically set at boot time by early-boot-config
+    based on metadata available on the running platform.'
+  - 'Platform-specific settings: They can be overridden for testing purposes in the same way as other settings.'
+  - 'Security: To learn more about security features in Bottlerocket, please see SECURITY FEATURES.'
+  - 'Security: It describes how we use features like dm-verity and SELinux to protect the system from security threats.'
+  - 'Security: To learn more about security recommendations for Bottlerocket, please see SECURITY GUIDANCE.'
+  - 'Security: It documents additional steps you can take to secure the OS, and includes resources such as a Pod
+    Security Policy for your reference.'
+  - 'Security: In addition, almost all first-party components are written in Rust.'
+  - 'Security: Rust eliminates some classes of memory safety issues, and encourages design patterns that help security.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/bottlerocket-os/bottlerocket/blob/develop/README.md
+  path: README.md
+  blob_sha: de13b0d2effa4ae09693d9872bea2339916f62f3
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: 28d388a077d46549f5f978b1b4943e424a2d7ee8
+  retrieved: true
+- type: manifest
+  path: sources/Cargo.toml
+  blob_sha: 78f5d8d0e3006840393eb8f921553487ebd50708
+  retrieved: true
+- type: manifest
+  path: packages/settings-defaults/Cargo.toml
+  blob_sha: 3d16914ff994e20dc0a68ed4b1f1aa55600ee51a
+  retrieved: true
+- type: manifest
+  path: packages/settings-migrations/Cargo.toml
+  blob_sha: 072e62b22c7e2bfae176e1f27fa1a12a166f3efd
+  retrieved: true
+- type: manifest
+  path: packages/settings-plugins/Cargo.toml
+  blob_sha: e1a5b775ab791806004f3d4532f5152cb17b7326
+  retrieved: true
+- type: manifest
+  path: sources/bottlerocket-release/Cargo.toml
+  blob_sha: 26bd3d38f2049a581ca09429b778b79bc484ba58
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 555771
+    Shell: 46945
+    JavaScript: 1902
+- type: Git tree
+  status: captured
+  sha: c250d1cfdbdbe291f53380e655a70ff6baf0ca81
+  truncated: false
+- type: source_file
+  path: sources/api/datastore/src/deserialization/mod.rs
+  blob_sha: fe300fa9a13ca28154e907c3a13415de15331744
+  retrieved: true
+- type: source_file
+  path: sources/api/datastore/src/lib.rs
+  blob_sha: 53fb25369af24d0b332018eba46e37bcb0232fa5
+  retrieved: true
+- type: source_file
+  path: sources/api/datastore/src/serialization/mod.rs
+  blob_sha: 3c3d7b2566121afc17880e73bdf5ea95b65e8d4a
+  retrieved: true
+- type: source_file
+  path: sources/api/migration/migration-helpers/src/lib.rs
+  blob_sha: 3a1787bc044b368a5f08f246ab78d5e76b8459f7
+  retrieved: true

@@ -1,0 +1,247 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:50:37+00:00'
+evidence_fingerprint: a12bbfca7ead3af3e9d2f7060e8db64564f188716c2a0e980a567079751e21dd
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/TensorRT-LLM
+  repository_id: 1130520542
+  url: https://github.com/triton-inference-server/TensorRT-LLM
+  description: TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs)
+    and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also
+    contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant
+    way.
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2026-11-23T20:06:49Z'
+  stars: 8
+  readme_url: https://github.com/triton-inference-server/TensorRT-LLM/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4414e19fc01a00d74a245d8948aec6db7d279778
+  manifest_paths:
+  - pyproject.toml
+  - requirements.txt
+  - setup.py
+  - 3rdparty/CMakeLists.txt
+  - agent-flow/pyproject.toml
+  - cpp/CMakeLists.txt
+  source_files_inspected:
+  - scripts/attribution/sbom/src/trtllm_sbom/cli.py
+  - agent-flow/agent_flow/workflows/agent_team/cli.py
+  - agent-flow/agent_flow/workflows/modeling_bringup/cli.py
+  - agent-flow/agent_flow/workflows/perf_analyze/cli.py
+  repository_tree:
+    status: captured
+    sha: abdc5c94732bdcb59ce4c6349102af9c3f250d50
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: TensorRT LLM ===========================
+  why_used: TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and
+    supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains
+    components to create Python and C++ runtimes that orchestrate the inference execution in a performant way.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - Cuda
+    - Groovy
+    - Shell
+    - CMake
+    - Jinja
+    - C
+    - Makefile
+    - JavaScript
+    - Standard ML
+    frameworks_and_libraries: []
+    dependencies:
+    - PyNvVideoCodec
+    - StrEnum
+    - accelerate
+    - aenum
+    - anyio
+    - apache-tvm-ffi
+    - backoff
+    - blake3
+    - blobfile
+    - build
+    - cache-dit
+    - claude-agent-sdk
+    - click
+    - click_option_group
+    - colored
+    - cuda-core
+    - cuda-python
+    - cuda-tile
+    - datasets
+    - diffusers
+    - einops
+    - etcd-sdk-python
+    - evaluate
+    - fastapi
+    - filelock
+    - fla-core
+    - flash-attn-4
+    - flashinfer-python
+    - ftfy
+    - graphviz
+    - grpcio
+    - grpcio-health-checking
+    - h5py
+    - jinja2
+    - jsonschema
+    - lark
+    - lazy_loader
+    - librosa
+    - llguidance
+    - llist
+    - matplotlib
+    - mcp
+    - meson
+    - mistral-common
+    - mooncake-transfer-engine-cuda13
+    - mpi4py
+    - mpmath
+    - msgpack
+    - msgspec
+    - nccl4py
+    - ninja
+    - numexpr
+    - numpy
+    - nvidia-cuda-nvrtc
+    - nvidia-cuda-tileiras
+    - nvidia-cudnn-frontend
+    - nvidia-cutlass-dsl
+    - nvidia-matmul-heuristics
+    - nvidia-ml-py
+    - nvidia-nccl-cu13
+    - nvtx
+    - omegaconf
+    - openai
+    - openai-codex
+    - openai-harmony
+    - optimum
+    - ordered-set
+    - packaging
+    - pandas
+    - partial_json_parser
+    - patchelf
+    - peft
+    - pillow
+    - plotly
+    - polygraphy
+    - prometheus_client
+    - prometheus_fastapi_instrumentator
+    - protobuf
+    - psutil
+    - pulp
+    - pydantic
+    - pydantic-settings
+    - python-multipart
+    - pyyaml
+    - pyzmq
+    - quack-kernels
+    - rich
+    - safetensors
+    - sentencepiece
+    - setuptools
+    - soundfile
+    - starlette
+    - tiktoken
+    - torch
+    - torch-c-dlpack-ext
+    - torchao
+    - torchvision
+    - transformers
+    - triton
+    - uvicorn
+    - uvloop
+    - xgrammar
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: scripts/attribution/sbom/src/trtllm_sbom/cli.py,
+    agent-flow/agent_flow/workflows/agent_team/cli.py, agent-flow/agent_flow/workflows/modeling_bringup/cli.py,
+    agent-flow/agent_flow/workflows/perf_analyze/cli.py'
+  setup_and_usage:
+  - 'Getting Started: To get started with TensorRT-LLM, visit our documentation:'
+  - 'Getting Started: - Supported Hardware, Models, and other Software'
+  - 'Getting Started: - Benchmarking Performance'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/TensorRT-LLM/blob/main/README.md
+  path: README.md
+  blob_sha: 4414e19fc01a00d74a245d8948aec6db7d279778
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 06b955449358e66196563fd9c16da6ed078c6359
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 0f8a96650577ce190c3b6d75fc67503e614fe307
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: c239d4fff6050b8db87717c572290b9d2dce6437
+  retrieved: true
+- type: manifest
+  path: 3rdparty/CMakeLists.txt
+  blob_sha: b48fbf8ab55bfe738e67a056cfa753ab60acdd7d
+  retrieved: true
+- type: manifest
+  path: agent-flow/pyproject.toml
+  blob_sha: 981c32cf34c8a945be2dbe35438aa72dd0363932
+  retrieved: true
+- type: manifest
+  path: cpp/CMakeLists.txt
+  blob_sha: 8d3c3cdccb34bcc2410cb256c797cddf10f9bcbf
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 162126140
+    C++: 33165726
+    Cuda: 13551592
+    Groovy: 918464
+    Shell: 403977
+    CMake: 392131
+    Jinja: 73453
+    C: 66929
+    Makefile: 35892
+    JavaScript: 12173
+    Standard ML: 11101
+- type: Git tree
+  status: captured
+  sha: abdc5c94732bdcb59ce4c6349102af9c3f250d50
+  truncated: false
+- type: source_file
+  path: scripts/attribution/sbom/src/trtllm_sbom/cli.py
+  blob_sha: 5c1695cdebbadc465167e35c505119dd8ad8a71b
+  retrieved: true
+- type: source_file
+  path: agent-flow/agent_flow/workflows/agent_team/cli.py
+  blob_sha: c7435ae12ebff9f36ab0e29ab62449f7d7147c8f
+  retrieved: true
+- type: source_file
+  path: agent-flow/agent_flow/workflows/modeling_bringup/cli.py
+  blob_sha: 817997159a115eddedcb83b95a042418de98af46
+  retrieved: true
+- type: source_file
+  path: agent-flow/agent_flow/workflows/perf_analyze/cli.py
+  blob_sha: 8f04f3476ededc94f77f9934a80462b2a530ca4a
+  retrieved: true

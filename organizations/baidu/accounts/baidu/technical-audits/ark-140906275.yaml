@@ -1,0 +1,90 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:48:59+00:00'
+evidence_fingerprint: 26f7237fed681a1fa9960bcc671995dbc3816f7572cfd6bc3692ee05bb1c6fb4
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/ARK
+  repository_id: 140906275
+  url: https://github.com/baidu/ARK
+  description: Development framework of intelligent operation
+  default_branch: master
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2021-05-10T11:52:41Z'
+  stars: 58
+  readme_url: https://github.com/baidu/ARK/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 4b1df388e65614d0a45dccf5820e7a0f34c647e7
+  manifest_paths:
+  - setup.py
+  source_files_inspected:
+  - demo/demo_log/main.py
+  - demo/local_guardian/bin/main.py
+  - ark/__init__.py
+  - ark/are/__init__.py
+  repository_tree:
+    status: captured
+    sha: 824db0965d4aeaaff6bb6d036398d7f1c6b0a177
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ARK是一个基于事件驱动模型的智能运维开发框架，其目的是为了提供智能运维的工程化方案，以解决如下问题：
+  why_used: Development framework of intelligent operation
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: demo/demo_log/main.py,
+    demo/local_guardian/bin/main.py, ark/__init__.py, ark/are/__init__.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/ARK/blob/master/README.md
+  path: README.md
+  blob_sha: 4b1df388e65614d0a45dccf5820e7a0f34c647e7
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 5d4f04192ab033bf97ba9db7b3d2b0c5665f7b01
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 283938
+    Shell: 26217
+- type: Git tree
+  status: captured
+  sha: 824db0965d4aeaaff6bb6d036398d7f1c6b0a177
+  truncated: false
+- type: source_file
+  path: demo/demo_log/main.py
+  blob_sha: fa635179ec4a939f3d374b34ee427c25400558a4
+  retrieved: true
+- type: source_file
+  path: demo/local_guardian/bin/main.py
+  blob_sha: 8d718ccb31ba08aef2d3643eb58c008ab41e2132
+  retrieved: true
+- type: source_file
+  path: ark/__init__.py
+  blob_sha: 09c27b77318a2dd52e48a02b9a67952982813b09
+  retrieved: true
+- type: source_file
+  path: ark/are/__init__.py
+  blob_sha: de136c4f3f9223752075c026a4647e98b40e36e6
+  retrieved: true

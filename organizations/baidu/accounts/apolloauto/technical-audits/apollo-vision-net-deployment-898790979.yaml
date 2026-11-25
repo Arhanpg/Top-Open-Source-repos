@@ -1,0 +1,137 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:57:24+00:00'
+evidence_fingerprint: 1bfac21e1f9a2338b5823802ee41ce237219bf3253b681097fbe0002de5bac4d
+repository_metadata:
+  company: Baidu
+  account: ApolloAuto
+  full_name: ApolloAuto/Apollo-Vision-Net-Deployment
+  repository_id: 898790979
+  url: https://github.com/ApolloAuto/Apollo-Vision-Net-Deployment
+  description: Apollo BEV+OCC model deployment
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-12-05T05:07:42Z'
+  stars: 10
+  readme_url: https://github.com/ApolloAuto/Apollo-Vision-Net-Deployment/blob/main/README.md
+  readme_path: README.md
+  readme_sha: c919521b6a05f55d6c1c832c1dc1cf47b1277cfd
+  manifest_paths:
+  - requirements.txt
+  - docker/Dockerfile
+  - TensorRT/CMakeLists.txt
+  - third_party/bev_mmdet3d/setup.py
+  source_files_inspected:
+  - ci/check/run_py_format.py
+  - configs/_base_/default_runtime.py
+  - configs/_base_/det2trt.py
+  - configs/_base_/schedules/schedule_1x.py
+  repository_tree:
+    status: captured
+    sha: 63dbd8ce3d82d3ed2fb8c94dd394b53afead9670
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository is a deployment project of Apollo Vision Network on TensorRT.
+  why_used: Apollo BEV+OCC model deployment
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Cuda
+    - C++
+    - Dockerfile
+    - CMake
+    - C
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - Pillow
+    - Shapely
+    - matplotlib
+    - netron
+    - numba
+    - numpy
+    - nuscenes_devkit
+    - nvidia-pyindex
+    - opencv_python
+    - pycocotools
+    - pycuda
+    - pyquaternion
+    - pytorch_quantization
+    - scipy
+    - setuptools
+    - terminaltables
+    - thop
+    - tqdm
+    - trimesh
+    build_and_package_tools:
+    - CMake configuration
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: ci/check/run_py_format.py,
+    configs/_base_/default_runtime.py, configs/_base_/det2trt.py, configs/_base_/schedules/schedule_1x.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ApolloAuto/Apollo-Vision-Net-Deployment/blob/main/README.md
+  path: README.md
+  blob_sha: c919521b6a05f55d6c1c832c1dc1cf47b1277cfd
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 6e239d138add43dbeea1fb842fc7dbbb835c2254
+  retrieved: true
+- type: manifest
+  path: docker/Dockerfile
+  blob_sha: ad94148c084803b4286fc294dc5109da0d4476f5
+  retrieved: true
+- type: manifest
+  path: TensorRT/CMakeLists.txt
+  blob_sha: 8ff6da2c7c93cf38094e5d87d259ff931d6669a5
+  retrieved: true
+- type: manifest
+  path: third_party/bev_mmdet3d/setup.py
+  blob_sha: 19ca9e849f08d544d8891cb2221d3e5ba803453c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 633363
+    Cuda: 321925
+    C++: 175790
+    Dockerfile: 4697
+    CMake: 1297
+    C: 1074
+    Shell: 89
+- type: Git tree
+  status: captured
+  sha: 63dbd8ce3d82d3ed2fb8c94dd394b53afead9670
+  truncated: false
+- type: source_file
+  path: ci/check/run_py_format.py
+  blob_sha: 5ee843258f1e6596b4b88d6e61d24ebfd1a421f0
+  retrieved: true
+- type: source_file
+  path: configs/_base_/default_runtime.py
+  blob_sha: a657ab2e7e0a2fe7cd383ec8def9774d38a20150
+  retrieved: true
+- type: source_file
+  path: configs/_base_/det2trt.py
+  blob_sha: e296d952026f3e19efe53c74e4654a7fb2af6920
+  retrieved: true
+- type: source_file
+  path: configs/_base_/schedules/schedule_1x.py
+  blob_sha: 4a405bcb30338ceee3eb22ca155c5eac7ed538c1
+  retrieved: true

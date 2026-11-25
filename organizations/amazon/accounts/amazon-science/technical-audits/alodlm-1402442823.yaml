@@ -1,0 +1,120 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:53:31+00:00'
+evidence_fingerprint: 97eda5198d08e9a8ebcc9ce95f17fdc29168df72b90a21c5fd6788e9b164267d
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/ALoDLM
+  repository_id: 1402442823
+  url: https://github.com/amazon-science/ALoDLM
+  description: 'Research code and optimized inference for ALoDLM: Adaptively Looped Diffusion Language Models.'
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-08T19:49:33Z'
+  stars: 59
+  readme_url: https://github.com/amazon-science/ALoDLM/blob/main/README.md
+  readme_path: README.md
+  readme_sha: d1cdcf51678a9b02174d082e5a25b13e2bbae423
+  manifest_paths:
+  - pyproject.toml
+  - optimized/pyproject.toml
+  source_files_inspected:
+  - optimized/alodlm_optimized/cli.py
+  - alodlm/__init__.py
+  - alodlm/attention.py
+  - alodlm/batch.py
+  repository_tree:
+    status: captured
+    sha: d0cda49f536904515b38e6e246dfeb2aaad4c938
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'Diffusion language models (DLMs) enable fast generation by predicting multiple tokens in parallel, yet
+    their practical adoption remains hindered by a persistent quality gap relative to comparably sized autoregressive
+    models. We attribute this gap to a *computation-difficulty mismatch*: within a partially observed sequence,
+    some unknown tokens are readily predictable, while others require substantially more computation to resolve.
+    Existing DLMs, however, apply uniform computational depth to every unknown position at each denoising step.'
+  why_used: 'Research code and optimized inference for ALoDLM: Adaptively Looped Diffusion Language Models.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - PyYAML
+    - accelerate
+    - huggingface-hub
+    - numpy
+    - safetensors
+    - torch
+    - tqdm
+    - transformers
+    - vllm
+    - xxhash
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: optimized/alodlm_optimized/cli.py,
+    alodlm/__init__.py, alodlm/attention.py, alodlm/batch.py'
+  setup_and_usage:
+  - 'Getting started: Clone this repository and choose one of the two inference environments below.'
+  - 'Getting started: The model weights are downloaded on first use; training is not required to try'
+  - 'Getting started: them. Use Python 3.12 for the commands below.'
+  - 'Getting started: git clone https://github.com/amazon-science/ALoDLM.git'
+  limitations:
+  - 'Limitations: ALoDLM can have a longer time to first token than a comparable autoregressive'
+  - 'Limitations: (AR) model. Its recurrent architecture builds depth-specific KV caches during'
+  - 'Limitations: prompt prefill and may require multiple refinement passes before committing'
+  - 'Limitations: the first output tokens. This additional computation can reduce the benefit'
+  - 'Limitations: of parallel decoding for short responses or latency-sensitive interactions.'
+  - 'Limitations: Generation speed is also input-dependent: token confidence and adaptive'
+  - 'Limitations: stopping decisions determine the amount of recurrent computation and the'
+  - 'Limitations: number of tokens committed in parallel. Throughput can therefore vary across'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/ALoDLM/blob/main/README.md
+  path: README.md
+  blob_sha: d1cdcf51678a9b02174d082e5a25b13e2bbae423
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 7a541be70f3ec1cb05b4c01fd7bde84c34f59008
+  retrieved: true
+- type: manifest
+  path: optimized/pyproject.toml
+  blob_sha: 8e13cbe8ffb22ad042f46659111c8ae708ac6c39
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 371713
+- type: Git tree
+  status: captured
+  sha: d0cda49f536904515b38e6e246dfeb2aaad4c938
+  truncated: false
+- type: source_file
+  path: optimized/alodlm_optimized/cli.py
+  blob_sha: e23a9d6655b428b757d22a840341677eb634dd9c
+  retrieved: true
+- type: source_file
+  path: alodlm/__init__.py
+  blob_sha: a5594c6e4d6e57690b0a260960f619b7e8149682
+  retrieved: true
+- type: source_file
+  path: alodlm/attention.py
+  blob_sha: 6857dd88b0f8ff75fbb1e24ba3dedb939c85cbdc
+  retrieved: true
+- type: source_file
+  path: alodlm/batch.py
+  blob_sha: d0672735f5d231c7897e594a5fa7d764fe80a786
+  retrieved: true

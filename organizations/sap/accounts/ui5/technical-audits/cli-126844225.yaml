@@ -1,0 +1,191 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:52:04+00:00'
+evidence_fingerprint: 516b34102863196ad551f20f847796c05b444250cabd63fad238bf48fc2f7eab
+repository_metadata:
+  company: SAP
+  account: UI5
+  full_name: UI5/cli
+  repository_id: 126844225
+  url: https://github.com/UI5/cli
+  description: An open and modular toolchain to develop state of the art applications based on the UI5 framework
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T13:03:31Z'
+  stars: 510
+  readme_url: https://github.com/UI5/cli/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 736c81bfd6bba5142b18a95510ac263e3f1eceee
+  manifest_paths:
+  - package.json
+  - internal/benchmark/package.json
+  - internal/documentation/package.json
+  - internal/e2e-tests/package.json
+  - packages/builder/package.json
+  - packages/cli/package.json
+  source_files_inspected:
+  - packages/logger/lib/index.js
+  - packages/logger/lib/writers/interactiveConsole/state/server.js
+  - packages/server/lib/liveReload/server.js
+  - packages/server/lib/server.js
+  repository_tree:
+    status: captured
+    sha: 9d53cb6f64503934a3a1bd687d6e730b461f56cd
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> An open and modular toolchain to develop state-of-the-art applications based on the UI5 framework.'
+  why_used: An open and modular toolchain to develop state of the art applications based on the UI5 framework
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - HTML
+    - CSS
+    - TypeScript
+    - Shell
+    - Less
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@apidevtools/json-schema-ref-parser'
+    - '@commitlint/cli'
+    - '@commitlint/config-conventional'
+    - '@eslint/js'
+    - '@istanbuljs/esm-loader-hook'
+    - '@jridgewell/sourcemap-codec'
+    - '@jridgewell/trace-mapping'
+    - '@tailwindcss/vite'
+    - '@types/node'
+    - '@ui5/builder'
+    - '@ui5/fs'
+    - '@ui5/logger'
+    - '@ui5/project'
+    - '@ui5/server'
+    - audit-ci
+    - autoprefixer
+    - ava
+    - chalk
+    - check-engine-light
+    - cheerio
+    - cross-env
+    - cssnano
+    - data-with-position
+    - escape-unicode
+    - escope
+    - eslint
+    - eslint-config-google
+    - eslint-plugin-ava
+    - eslint-plugin-jsdoc
+    - esmock
+    - espree
+    - execa
+    - globals
+    - graceful-fs
+    - handlebars
+    - husky
+    - import-local
+    - js-yaml
+    - jsdoc
+    - knip
+    - less-openui5
+    - licensee
+    - line-column
+    - markdown-it-implicit-figures
+    - node-stream-zip
+    - nyc
+    - open
+    - postcss
+    - pretty-data
+    - pretty-hrtime
+    - rimraf
+    - semver
+    - sinon
+    - strip-ansi
+    - tailwindcss
+    - terser
+    - testdouble
+    - traverse
+    - update-notifier
+    - vitepress
+    - vue
+    - workerpool
+    - xml2js
+    - yargs
+    - yesno
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: packages/logger/lib/index.js,
+    packages/logger/lib/writers/interactiveConsole/state/server.js, packages/server/lib/liveReload/server.js, packages/server/lib/server.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/UI5/cli/blob/main/README.md
+  path: README.md
+  blob_sha: 736c81bfd6bba5142b18a95510ac263e3f1eceee
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: d970280c4d824ea0fbac5807b9d5aad11302964a
+  retrieved: true
+- type: manifest
+  path: internal/benchmark/package.json
+  blob_sha: 46dfc6ebc643e89c3005496f03c3f5ba4477ad57
+  retrieved: true
+- type: manifest
+  path: internal/documentation/package.json
+  blob_sha: 07ca7a18be20345992d90580262c31c1d7fb9f5b
+  retrieved: true
+- type: manifest
+  path: internal/e2e-tests/package.json
+  blob_sha: 005730d9cb0aa4772e88aeb59a96d247f092a57c
+  retrieved: true
+- type: manifest
+  path: packages/builder/package.json
+  blob_sha: 76344e1888784958024b685fa8302536db2c6303
+  retrieved: true
+- type: manifest
+  path: packages/cli/package.json
+  blob_sha: 3b7ea9e17cbd2698f21029823bbe0ffa6b402fc2
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 6464424
+    HTML: 8114
+    CSS: 7574
+    TypeScript: 2333
+    Shell: 1722
+    Less: 637
+    Dockerfile: 192
+- type: Git tree
+  status: captured
+  sha: 9d53cb6f64503934a3a1bd687d6e730b461f56cd
+  truncated: false
+- type: source_file
+  path: packages/logger/lib/index.js
+  blob_sha: b34728239926415c3b8e3a4b6dbfd9e8a1a0a533
+  retrieved: true
+- type: source_file
+  path: packages/logger/lib/writers/interactiveConsole/state/server.js
+  blob_sha: 1f678ebb97720a6fd65285c8c369e8c77917461d
+  retrieved: true
+- type: source_file
+  path: packages/server/lib/liveReload/server.js
+  blob_sha: 2f47c06d33ddef366dfd6c4363e8909896c6b82c
+  retrieved: true
+- type: source_file
+  path: packages/server/lib/server.js
+  blob_sha: c5ac3e9e118093c26cea740eec824ce902a015bb
+  retrieved: true

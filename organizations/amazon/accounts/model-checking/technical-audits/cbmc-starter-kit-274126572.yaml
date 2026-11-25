@@ -1,0 +1,128 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:56:28+00:00'
+evidence_fingerprint: 6fc4f446b9a854aefbcad4d5ee8ec2b5332a5f5ff6d6db94fefaf1fe7b7abd47
+repository_metadata:
+  company: Amazon
+  account: model-checking
+  full_name: model-checking/cbmc-starter-kit
+  repository_id: 274126572
+  url: https://github.com/model-checking/cbmc-starter-kit
+  description: The CBMC starter kit makes it easy to add CBMC verification to a software project.
+  default_branch: master
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-01T14:54:00Z'
+  stars: 58
+  readme_url: https://github.com/model-checking/cbmc-starter-kit/blob/master/README.md
+  readme_path: README.md
+  readme_sha: ce4ae44549f591f54c3c5451063d56517a5f31af
+  manifest_paths:
+  - Makefile
+  - pyproject.toml
+  - docs/Makefile
+  - src/cbmc_starter_kit/Makefile
+  - src/cbmc_starter_kit/setup.py
+  - test/repo/Makefile
+  source_files_inspected:
+  - src/cbmc_starter_kit/arguments.py
+  - src/cbmc_starter_kit/ctagst.py
+  - src/cbmc_starter_kit/etc/bash_completion.d/cbmc-starter-kit.sh
+  repository_tree:
+    status: captured
+    sha: 235b3c08916b1fd6fa827f841648a1485c351b5a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a starter kit for writing CBMC proofs.
+  why_used: The CBMC starter kit makes it easy to add CBMC verification to a software project.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Makefile
+    - C
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/cbmc_starter_kit/__init__.py,
+    src/cbmc_starter_kit/arguments.py, src/cbmc_starter_kit/ctagst.py, src/cbmc_starter_kit/etc/bash_completion.d/cbmc-starter-kit.sh'
+  setup_and_usage:
+  - 'Installation: The starter kit is distributed as both a brew package and a pip package, and the'
+  - 'Installation: gives installation instructions that we repeat here.'
+  - 'brew installation: On MacOS, we recommend using brew to install the starter kit with'
+  - 'brew installation: brew install cbmc-starter-kit'
+  - 'brew installation: and upgrade to the latest version with'
+  - 'brew installation: brew upgrade cbmc-starter-kit'
+  - 'brew installation: In these instructions, the first line taps an AWS repository that hosts the starter kit.'
+  - 'brew installation: The brew home page gives instructions for installing brew.'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/model-checking/cbmc-starter-kit/blob/master/README.md
+  path: README.md
+  blob_sha: ce4ae44549f591f54c3c5451063d56517a5f31af
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 990a5a108ca8b21da65284cb676d172c9ea2ae28
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: c93eb6815a172b4f647961b9d0b787fd1704b0f3
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: aaa35bc690056bdecba4345148b88713278071d0
+  retrieved: true
+- type: manifest
+  path: src/cbmc_starter_kit/Makefile
+  blob_sha: 3a58898def2810216ba75f1edd9c811fef065b6a
+  retrieved: true
+- type: manifest
+  path: src/cbmc_starter_kit/setup.py
+  blob_sha: 8d46c49cfc25a4309a69e64cae8a9b1b6b0f7e21
+  retrieved: true
+- type: manifest
+  path: test/repo/Makefile
+  blob_sha: 73ddfe5ec384e7630dab87e3a166847b0b3795f4
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 64291
+    Makefile: 50737
+    C: 4906
+    Shell: 1413
+- type: Git tree
+  status: captured
+  sha: 235b3c08916b1fd6fa827f841648a1485c351b5a
+  truncated: false
+- type: source_file
+  path: src/cbmc_starter_kit/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: src/cbmc_starter_kit/arguments.py
+  blob_sha: 96db4d0b6161cc0fa9a3a6210b001fde3adecf43
+  retrieved: true
+- type: source_file
+  path: src/cbmc_starter_kit/ctagst.py
+  blob_sha: e1d52ea37c1b22fd0d303decd0e7a9dfc8a5f2ba
+  retrieved: true
+- type: source_file
+  path: src/cbmc_starter_kit/etc/bash_completion.d/cbmc-starter-kit.sh
+  blob_sha: 3e9a66d67e3a5b8cdcf7779ab610e31b01118f42
+  retrieved: true

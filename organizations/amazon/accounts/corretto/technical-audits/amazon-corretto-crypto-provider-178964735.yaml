@@ -1,0 +1,146 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:47:24+00:00'
+evidence_fingerprint: cd395f7efb07f03552ce8b185b38d985773b6feb1d39941d3b916cdbb673ed39
+repository_metadata:
+  company: Amazon
+  account: corretto
+  full_name: corretto/amazon-corretto-crypto-provider
+  repository_id: 178964735
+  url: https://github.com/corretto/amazon-corretto-crypto-provider
+  description: The Amazon Corretto Crypto Provider is a collection of high-performance cryptographic implementations
+    exposed via standard JCA/JCE interfaces.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T19:34:50Z'
+  stars: 275
+  readme_url: https://github.com/corretto/amazon-corretto-crypto-provider/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 6e434e0c34130098c04a76cebb13fa94bf18f13a
+  manifest_paths:
+  - build.gradle
+  - CMakeLists.txt
+  - benchmarks/lib/build.gradle.kts
+  - CMake/trycompile/CMakeLists.txt
+  - examples/gradle-kt-dsl/lib/build.gradle.kts
+  source_files_inspected:
+  - benchmarks/lib/src/jmh/java/com/amazon/corretto/crypto/provider/benchmarks/AesBase.java
+  - benchmarks/lib/src/jmh/java/com/amazon/corretto/crypto/provider/benchmarks/AesCbcOneShot.java
+  - benchmarks/lib/src/jmh/java/com/amazon/corretto/crypto/provider/benchmarks/AesCbcUpdate.java
+  - benchmarks/lib/src/jmh/java/com/amazon/corretto/crypto/provider/benchmarks/AesCfbBase.java
+  repository_tree:
+    status: captured
+    sha: 983bdc0e39111cf8ab6d4ee509dcdddf2f9b3540
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Amazon Corretto Crypto Provider (ACCP) is a collection of high-performance cryptographic implementations
+    exposed via the standard JCA/JCE interfaces. This means that it can be used as a drop in replacement for many
+    different Java applications. (Differences from the default OpenJDK implementations are documented here.) As
+    of 2.0.0, algorithms exposed by ACCP are primarily backed by AWS-LC's implementations.
+  why_used: The Amazon Corretto Crypto Provider is a collection of high-performance cryptographic implementations
+    exposed via standard JCA/JCE interfaces.
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - C++
+    - CMake
+    - Shell
+    - Python
+    - C
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle build file
+    - Gradle Kotlin build file
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: benchmarks/lib/src/jmh/java/com/amazon/corretto/crypto/provider/benchmarks/AesBase.java,
+    benchmarks/lib/src/jmh/java/com/amazon/corretto/crypto/provider/benchmarks/AesCbcOneShot.java, benchmarks/lib/src/jmh/java/com/amazon/corretto/crypto/provider/benchmarks/AesCbcUpdate.java,
+    benchmarks/lib/src/jmh/java/com/amazon/corretto/crypto/provider/benchmarks/AesCfbBase.java'
+  setup_and_usage:
+  - 'Installation: Installing via Maven or Gradle is the easiest way to get ACCP and ensure you'
+  - 'Installation: will always have the most recent version. We strongly recommend you always pull'
+  - 'Installation: in the latest version for best performance and bug-fixes.'
+  - 'Installation: Whether you''re using Maven, Gradle, or some other build system that also pulls'
+  - 'Installation: packages from Maven Central, it''s important to specify a classifier, otherwise,'
+  - 'Installation: one would get an empty package. The possible classifiers are as follows:'
+  - 'Installation: | Classifier | Support since version | FIPS support since version |'
+  - 'Installation: |------------|-----------------------|----------------------------|'
+  limitations:
+  - 'Compatibility & Requirements: ACCP has the following requirements:'
+  - 'Compatibility & Requirements: * JDK8 or newer (This includes both OracleJDK and Amazon Corretto)'
+  - 'Compatibility & Requirements: * One of the platforms listed under Platform Support below'
+  - 'Supported Platforms: "Supported" means the platform is tested in CI before every release. The two platforms
+    get there'
+  - 'Supported Platforms: differently, so the minimum version each row names is not the same kind of guarantee:'
+  - 'Supported Platforms: * **Linux** is built and smoke-tested by the release pipeline itself, which pins its build
+    image'
+  - 'Supported Platforms: (currently Amazon Linux 2). "Minimum glibc" is the oldest glibc a published .so is linked'
+  - 'Supported Platforms: against; glibc''s symbol versioning is forward-only, so a host with an older glibc cannot
+    load a'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/corretto/amazon-corretto-crypto-provider/blob/main/README.md
+  path: README.md
+  blob_sha: 6e434e0c34130098c04a76cebb13fa94bf18f13a
+  retrieved: true
+- type: manifest
+  path: build.gradle
+  blob_sha: eeef83c4389c2302ca7c9e9b9f911d220df37b3b
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 9464d6cb0a5f992a0a378469bcf8ac3942e5884a
+  retrieved: true
+- type: manifest
+  path: benchmarks/lib/build.gradle.kts
+  blob_sha: 00f14c1df5fb2ec811794120f93b394604bff1b0
+  retrieved: true
+- type: manifest
+  path: CMake/trycompile/CMakeLists.txt
+  blob_sha: bd62a3cd9b98c526dc4f1a112714d3ac13ad2e3d
+  retrieved: true
+- type: manifest
+  path: examples/gradle-kt-dsl/lib/build.gradle.kts
+  blob_sha: d339d8eaa7b5db52388087d63b7afa55c2dafc98
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 1824779
+    C++: 327928
+    CMake: 49692
+    Shell: 36522
+    Python: 3608
+    C: 740
+- type: Git tree
+  status: captured
+  sha: 983bdc0e39111cf8ab6d4ee509dcdddf2f9b3540
+  truncated: false
+- type: source_file
+  path: benchmarks/lib/src/jmh/java/com/amazon/corretto/crypto/provider/benchmarks/AesBase.java
+  blob_sha: ed8e554a24f703698ccbc4d88f6d36eb63bd95aa
+  retrieved: true
+- type: source_file
+  path: benchmarks/lib/src/jmh/java/com/amazon/corretto/crypto/provider/benchmarks/AesCbcOneShot.java
+  blob_sha: 9b31df5b14f4915a0d7a491e7ae26c1161b7a09b
+  retrieved: true
+- type: source_file
+  path: benchmarks/lib/src/jmh/java/com/amazon/corretto/crypto/provider/benchmarks/AesCbcUpdate.java
+  blob_sha: c63e136166f6b500cef660972fc7df1760b9c1d8
+  retrieved: true
+- type: source_file
+  path: benchmarks/lib/src/jmh/java/com/amazon/corretto/crypto/provider/benchmarks/AesCfbBase.java
+  blob_sha: afc139c26b4a458814760c7eb8f0842df570c981
+  retrieved: true

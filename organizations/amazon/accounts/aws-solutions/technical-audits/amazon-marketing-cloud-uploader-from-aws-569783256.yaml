@@ -1,0 +1,144 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:55:16+00:00'
+evidence_fingerprint: 846ecf770dc7c695a76dd4509efc18ed7d6c83d670cf8f51a3a0f41e7d8cb880
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/amazon-marketing-cloud-uploader-from-aws
+  repository_id: 569783256
+  url: https://github.com/aws-solutions/amazon-marketing-cloud-uploader-from-aws
+  description: Easily upload first-party signals into Amazon Marketing Cloud (AMC) for evaluating and planning advertising
+    campaigns
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2025-10-02T21:51:36Z'
+  stars: 21
+  readme_url: https://github.com/aws-solutions/amazon-marketing-cloud-uploader-from-aws/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b2be86a832269dd319b98bcb510c255a332ac728
+  manifest_paths:
+  - deployment/lambda_layer_factory/Dockerfile
+  - deployment/lambda_layer_factory/requirements.txt
+  - source/amc_uploader/requirements.txt
+  - source/amc_uploader/setup.py
+  - source/anonymous_data_logger/requirements.txt
+  - source/api/requirements.txt
+  source_files_inspected:
+  - source/website/src/store/index.js
+  - source/api/app.py
+  - source/amc_uploader/lib/tasks.py
+  repository_tree:
+    status: captured
+    sha: 5446191224fdbe4138f309fe0acb79dd493d1bc2
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This solution enables users to upload first party datasets from Amazon S3 into the Amazon Marketing Cloud
+    (AMC). It includes a web application in which users are guided through the process of defining datasets and
+    their PII attributes. Once this information is submitted, the solution initiates an ETL workflow that performs
+    data normalization, hashing of plain-text PII, time-series partitioning, and upload to AMC.
+  why_used: Easily upload first-party signals into Amazon Marketing Cloud (AMC) for evaluating and planning advertising
+    campaigns
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Vue
+    - Shell
+    - JavaScript
+    - CSS
+    - HTML
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - aws-xray-sdk
+    - chalice
+    - requests
+    - urllib3
+    build_and_package_tools:
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/website/src/store/index.js,
+    source/api/app.py, source/amc_uploader/lib/__init__.py, source/amc_uploader/lib/tasks.py'
+  setup_and_usage:
+  - 'INSTALLATION: The following Cloudformation templates will deploy the application.'
+  - 'INSTALLATION: US East (N. Virginia) | [](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=amcufa&templateURL=https://solutions-reference.s3.amazonaws.com/amazon-marketing-cloud-uploader-from-aws/latest/amazon-marketing-cloud-uploader-from-aws.template)'
+  - 'INSTALLATION: EU West (Ireland) | [](https://console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/new?stackName=amcufa&templateURL=https://solutions-reference.s3.amazonaws.com/amazon-marketing-cloud-uploader-from-aws/latest/amazon-marketing-cloud-uploader-from-aws.template)'
+  - 'INSTALLATION: Once the Cloud Formation stack has been created, open the URL shown in the UserInterface output
+    of the base stack. You can also get this URL with the following AWS CLI command:'
+  - 'INSTALLATION: aws cloudformation --region $REGION describe-stacks --stack-name $STACK_NAME --query "Stacks[0].Outputs[?OutputKey==''UserInterface''].OutputValue"
+    --output text'
+  - 'INSTALLATION: For more installation options, see the Advanced Installation section.'
+  limitations:
+  - 'Known Issues: Visit the Issue page in this repository for known issues and feature requests.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/amazon-marketing-cloud-uploader-from-aws/blob/main/README.md
+  path: README.md
+  blob_sha: b2be86a832269dd319b98bcb510c255a332ac728
+  retrieved: true
+- type: manifest
+  path: deployment/lambda_layer_factory/Dockerfile
+  blob_sha: c4b65dba535519904c0cee3d6c29bfad7e7a1f75
+  retrieved: true
+- type: manifest
+  path: deployment/lambda_layer_factory/requirements.txt
+  blob_sha: a365b054e9db6626460758be685b2a30a732f843
+  retrieved: true
+- type: manifest
+  path: source/amc_uploader/requirements.txt
+  blob_sha: ac1728900b88d2c1ec685dfbb79ca28a626eda33
+  retrieved: true
+- type: manifest
+  path: source/amc_uploader/setup.py
+  blob_sha: 6fb8dd24998cfb072807891530b48c598fb36bb6
+  retrieved: true
+- type: manifest
+  path: source/anonymous_data_logger/requirements.txt
+  blob_sha: 58bc216ebb59ddaf90d0623e8afd57b5587814c5
+  retrieved: true
+- type: manifest
+  path: source/api/requirements.txt
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: GitHub Languages API
+  values:
+    Python: 258930
+    Vue: 209957
+    Shell: 56546
+    JavaScript: 9869
+    CSS: 4398
+    HTML: 519
+    Dockerfile: 489
+- type: Git tree
+  status: captured
+  sha: 5446191224fdbe4138f309fe0acb79dd493d1bc2
+  truncated: false
+- type: source_file
+  path: source/website/src/store/index.js
+  blob_sha: b09895d1ddc0f66c0ae272c8e160654e3f6f618e
+  retrieved: true
+- type: source_file
+  path: source/api/app.py
+  blob_sha: 1a5398e6518588f310c9da609d460333148823fd
+  retrieved: true
+- type: source_file
+  path: source/amc_uploader/lib/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: source/amc_uploader/lib/tasks.py
+  blob_sha: 5398625c1c9e7d96858ff8c7ea92f93b5c6318cf
+  retrieved: true

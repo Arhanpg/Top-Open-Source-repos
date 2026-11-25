@@ -1,0 +1,106 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:50:19+00:00'
+evidence_fingerprint: f6826419680485c93c099f2c21257a8a18ad281ebfcb36cfa69c80752bed2194
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/HesaiLidar_ROS_2.0
+  repository_id: 748856718
+  url: https://github.com/NVIDIA-ISAAC-ROS/HesaiLidar_ROS_2.0
+  description: null
+  default_branch: master
+  license_spdx: null
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2025-03-21T23:57:13Z'
+  stars: 5
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/HesaiLidar_ROS_2.0/blob/master/README.md
+  readme_path: README.md
+  readme_sha: bcb7b960bc5758e8535d8e1a30bb42f9eb888e04
+  manifest_paths:
+  - CMakeLists.txt
+  source_files_inspected:
+  - src/manager/node_manager.cc
+  - src/manager/node_manager.h
+  - src/manager/source_driver_ros1.hpp
+  - src/manager/source_driver_ros2.hpp
+  repository_tree:
+    status: captured
+    sha: a053f1074c5f580c0259b06bbd7f9922430f479a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository includes the ROS Driver for Hesai LiDAR sensor manufactured by Hesai Technology. Developed
+    based on HesaiLidar_SDK_2.0, After launched, the project will monitor UDP packets from Lidar,parse data and
+    publish point cloud frames into ROS topic
+  why_used: This repository includes the ROS Driver for Hesai LiDAR sensor manufactured by Hesai Technology. Developed
+    based on HesaiLidar_SDK_2.0, After launched, the project will monitor UDP packets from Lidar,parse data and
+    publish point cloud frames into ROS topic
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    - Cuda
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/manager/node_manager.cc,
+    src/manager/node_manager.h, src/manager/source_driver_ros1.hpp, src/manager/source_driver_ros2.hpp'
+  setup_and_usage:
+  - 'Installation dependencies: Install ROS related dependency libraries, please refer to: http://wiki.ros.org'
+  - 'Installation dependencies: - Ubuntu 16.04 - ROS Kinetic desktop'
+  - 'Installation dependencies: - Ubuntu 18.04 - ROS Melodic desktop'
+  - 'Installation dependencies: - Ubuntu 20.04 - ROS Noetic desktop'
+  - 'Installation dependencies: - Ubuntu 18.04 - ROS2 Dashing desktop'
+  - 'Installation dependencies: - Ubuntu 20.04 - ROS2 Foxy desktop'
+  - 'Installation dependencies: - Ubuntu 22.04 - ROS2 Humble desktop'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/HesaiLidar_ROS_2.0/blob/master/README.md
+  path: README.md
+  blob_sha: bcb7b960bc5758e8535d8e1a30bb42f9eb888e04
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 29360a624358a2cfbce3660e46b7b0d8347caae7
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 34856
+    CMake: 7762
+    Cuda: 6757
+    Python: 1259
+- type: Git tree
+  status: captured
+  sha: a053f1074c5f580c0259b06bbd7f9922430f479a
+  truncated: false
+- type: source_file
+  path: src/manager/node_manager.cc
+  blob_sha: db94bb7e5abbd8a96e0c121f330c6cd5176b682f
+  retrieved: true
+- type: source_file
+  path: src/manager/node_manager.h
+  blob_sha: 10009804f6c3da62629e46ffe82fd2af3f53c228
+  retrieved: true
+- type: source_file
+  path: src/manager/source_driver_ros1.hpp
+  blob_sha: dfebd1e33d15ece091262887686f246d44837833
+  retrieved: true
+- type: source_file
+  path: src/manager/source_driver_ros2.hpp
+  blob_sha: ba5ff9d970bb1bee0078a5a5b2e520b58244b4d8
+  retrieved: true

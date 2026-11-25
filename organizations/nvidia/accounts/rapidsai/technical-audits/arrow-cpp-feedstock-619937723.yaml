@@ -1,0 +1,88 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:58:59+00:00'
+evidence_fingerprint: 111193d91e9b3458ec87a4a9202827e9f22dbafaebf66f7297797ae85486b447
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/arrow-cpp-feedstock
+  repository_id: 619937723
+  url: https://github.com/rapidsai/arrow-cpp-feedstock
+  description: A conda-smithy repository for arrow-cpp.
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: true
+  fork: true
+  disabled: false
+  pushed_at: '2023-03-21T23:37:35Z'
+  stars: 0
+  readme_url: https://github.com/rapidsai/arrow-cpp-feedstock/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b79b78269846ffca3a386767eae6007cf4d7d71a
+  manifest_paths: []
+  source_files_inspected:
+  - .scripts/build_steps.sh
+  - .scripts/logging_utils.sh
+  - .scripts/run_docker_build.sh
+  - .scripts/run_osx_build.sh
+  repository_tree:
+    status: captured
+    sha: 12b669bb56d43721378341e1256d3534c4f46548
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: About arrow-cpp-feedstock =========================
+  why_used: A conda-smithy repository for arrow-cpp.
+  core_features: []
+  technology_stack:
+    languages:
+    - Shell
+    - Batchfile
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .scripts/build_steps.sh,
+    .scripts/logging_utils.sh, .scripts/run_docker_build.sh, .scripts/run_osx_build.sh'
+  setup_and_usage: []
+  limitations:
+  - 'Search all versions available on your platform:: mamba repoquery search apache-arrow-proc --channel conda-forge'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/arrow-cpp-feedstock/blob/main/README.md
+  path: README.md
+  blob_sha: b79b78269846ffca3a386767eae6007cf4d7d71a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Shell: 7538
+    Batchfile: 3718
+    Python: 133
+- type: Git tree
+  status: captured
+  sha: 12b669bb56d43721378341e1256d3534c4f46548
+  truncated: false
+- type: source_file
+  path: .scripts/build_steps.sh
+  blob_sha: a6b09f6b7b0e80a461ba6742cb7a09c1ab92c713
+  retrieved: true
+- type: source_file
+  path: .scripts/logging_utils.sh
+  blob_sha: 57bc95c2421b4508cf8ec99e9b31ed7994a1990c
+  retrieved: true
+- type: source_file
+  path: .scripts/run_docker_build.sh
+  blob_sha: 923623983b6c11c20548d2d95f3000a788fea8bb
+  retrieved: true
+- type: source_file
+  path: .scripts/run_osx_build.sh
+  blob_sha: bb00584b92b5852efbc25adf5c81affb0a470e4c
+  retrieved: true

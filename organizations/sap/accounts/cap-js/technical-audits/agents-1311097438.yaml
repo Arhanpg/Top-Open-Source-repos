@@ -1,0 +1,158 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:59:24+00:00'
+evidence_fingerprint: 9fd601104911c8ce418e54d842dffc523fbc5269784bd49edf07ba44cbac5817
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/agents
+  repository_id: 1311097438
+  url: https://github.com/cap-js/agents
+  description: CAP plugin to build agents
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T14:12:16Z'
+  stars: 20
+  readme_url: https://github.com/cap-js/agents/blob/main/README.md
+  readme_path: README.md
+  readme_sha: bb7c364746ae41f5a47ecde650920b373327d36e
+  manifest_paths:
+  - package.json
+  - tests/projects/agent-card-compile/package.json
+  - tests/projects/bookshop/package.json
+  - tests/projects/deep-agent/package.json
+  - tests/projects/mtx/package.json
+  - tests/projects/telemetry-debug/package.json
+  source_files_inspected:
+  - lib/agents/index.js
+  - lib/agents/middleware/index.js
+  - lib/eval/index.js
+  - lib/index.js
+  repository_tree:
+    status: captured
+    sha: db05eeee2a460698b23d0d91def8de90f82be3e6
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: CDS plugin for building agents based on the A2A protocol.
+  why_used: CAP plugin to build agents
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - HTML
+    - CAP CDS
+    - Java
+    frameworks_and_libraries: []
+    dependencies:
+    - '@a2a-js/sdk'
+    - '@cap-js/agents'
+    - '@cap-js/attachments'
+    - '@cap-js/audit-logging'
+    - '@cap-js/cds-test'
+    - '@cap-js/hana'
+    - '@cap-js/mcp'
+    - '@cap-js/sqlite'
+    - '@cap-js/telemetry'
+    - '@earendil-works/pi-agent-core'
+    - '@earendil-works/pi-ai'
+    - '@langchain/anthropic'
+    - '@langchain/core'
+    - '@langchain/langgraph'
+    - '@langchain/mcp-adapters'
+    - '@langchain/openai'
+    - '@opentelemetry/exporter-trace-otlp-proto'
+    - '@opentelemetry/sdk-trace'
+    - '@sap-ai-sdk/langchain'
+    - '@sap-ai-sdk/orchestration'
+    - '@sap-cloud-sdk/connectivity'
+    - '@sap-cloud-sdk/http-client'
+    - '@sap/cds'
+    - '@sap/cds-mtxs'
+    - '@sap/xssec'
+    - '@toon-format/toon'
+    - '@vitest/coverage-v8'
+    - acorn
+    - deepagents
+    - langchain
+    - marked
+    - openevals
+    - oxfmt
+    - zod
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/agents/index.js,
+    lib/agents/middleware/index.js, lib/eval/index.js, lib/index.js'
+  setup_and_usage:
+  - 'Usage: For detailed instructions about setup and usage, refer to the official documentation.'
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow the instructions found
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/agents/blob/main/README.md
+  path: README.md
+  blob_sha: bb7c364746ae41f5a47ecde650920b373327d36e
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: eb6e86399661d051fe9a69715f2201d860826737
+  retrieved: true
+- type: manifest
+  path: tests/projects/agent-card-compile/package.json
+  blob_sha: bf25b7797988f5428e0ff1e27765fb5f77e4d89a
+  retrieved: true
+- type: manifest
+  path: tests/projects/bookshop/package.json
+  blob_sha: 45068f7fe192991cd1f0e311a0d734ed8116394b
+  retrieved: true
+- type: manifest
+  path: tests/projects/deep-agent/package.json
+  blob_sha: 2d14f80dcdbacd239a37f9ead7af09fce5cf638a
+  retrieved: true
+- type: manifest
+  path: tests/projects/mtx/package.json
+  blob_sha: 794c4c4d8dab917232f7726c7671b3d1605953ae
+  retrieved: true
+- type: manifest
+  path: tests/projects/telemetry-debug/package.json
+  blob_sha: c85623ca92797df3dd11e5a5e460a5789a50d40c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 968355
+    HTML: 55119
+    CAP CDS: 39667
+    Java: 2633
+- type: Git tree
+  status: captured
+  sha: db05eeee2a460698b23d0d91def8de90f82be3e6
+  truncated: false
+- type: source_file
+  path: lib/agents/index.js
+  blob_sha: 61a80ffc4eb87957eb6c10a150e6b185cdc40916
+  retrieved: true
+- type: source_file
+  path: lib/agents/middleware/index.js
+  blob_sha: 250a0781276ea471fe3a79a61f40664b8958b8fd
+  retrieved: true
+- type: source_file
+  path: lib/eval/index.js
+  blob_sha: d3be167a0eb7dab82517feb05c5a820bb6c433ee
+  retrieved: true
+- type: source_file
+  path: lib/index.js
+  blob_sha: 1e246b2c581297ce6886fa0e4eb31c2bd010fcd4
+  retrieved: true

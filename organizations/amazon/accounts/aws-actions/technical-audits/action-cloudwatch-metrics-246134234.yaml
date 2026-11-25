@@ -1,0 +1,107 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:45:15+00:00'
+evidence_fingerprint: 287e014bf998b6b4c607d1a150ad59ba65d47fc3c9392ef78c18e05935a95a31
+repository_metadata:
+  company: Amazon
+  account: aws-actions
+  full_name: aws-actions/action-cloudwatch-metrics
+  repository_id: 246134234
+  url: https://github.com/aws-actions/action-cloudwatch-metrics
+  description: '[Unmaintained] Github Action to publish metrics to AWS CloudWatch'
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2022-01-28T18:57:31Z'
+  stars: 6
+  readme_url: https://github.com/aws-actions/action-cloudwatch-metrics/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e337af50b37f8d6c3f397bce493b1099e8cf94e0
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/cw-build-status.ts
+  - .github/workflows/build-and-test.sh
+  - .github/workflows/generate-metrics-file.sh
+  - __tests__/main.test.ts
+  repository_tree:
+    status: captured
+    sha: c27a56eb65edbf8953902f395c4a28e8a46cd288
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This action publishes a single metric to [Amazon CloudWatch][amazon-cloudwatch].
+  why_used: '[Unmaintained] Github Action to publish metrics to AWS CloudWatch'
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Shell
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@actions/exec'
+    - '@actions/github'
+    - '@types/jest'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - '@zeit/ncc'
+    - aws-sdk
+    - eslint
+    - husky
+    - jest
+    - prettier
+    - ts-jest
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/cw-build-status.ts,
+    .github/workflows/build-and-test.sh, .github/workflows/generate-metrics-file.sh, __tests__/main.test.ts'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-actions/action-cloudwatch-metrics/blob/main/README.md
+  path: README.md
+  blob_sha: e337af50b37f8d6c3f397bce493b1099e8cf94e0
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 54fbfb1938888abf6aa12c7727884765355922ac
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 2521
+    Shell: 701
+    JavaScript: 246
+- type: Git tree
+  status: captured
+  sha: c27a56eb65edbf8953902f395c4a28e8a46cd288
+  truncated: false
+- type: source_file
+  path: src/cw-build-status.ts
+  blob_sha: 9a91975ab4ab0de08ccb6b787f8bb1e3354b3703
+  retrieved: true
+- type: source_file
+  path: .github/workflows/build-and-test.sh
+  blob_sha: 217c2848f99b0568654ba8fed3b1424d071a4729
+  retrieved: true
+- type: source_file
+  path: .github/workflows/generate-metrics-file.sh
+  blob_sha: ebd024514a618042485dd7e69ebae74f784a3df7
+  retrieved: true
+- type: source_file
+  path: __tests__/main.test.ts
+  blob_sha: a5ff0a6b416f90902f87d7fe3eda4a8e85cd0245
+  retrieved: true

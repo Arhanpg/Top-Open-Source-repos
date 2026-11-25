@@ -1,0 +1,171 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T04:01:00+00:00'
+evidence_fingerprint: 2fe72ade1043d938a8a9288dbe30dfb1e2a55f09a9351ad4453fe33b0bc1b22b
+repository_metadata:
+  company: Siemens
+  account: Siemens
+  full_name: siemens/ASLanPPConnector
+  repository_id: 10500137
+  url: https://github.com/siemens/ASLanPPConnector
+  description: ASLan++ connector
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2015-04-07T12:29:21Z'
+  stars: 1
+  readme_url: https://github.com/siemens/ASLanPPConnector/blob/master/README.txt
+  readme_path: README.txt
+  readme_sha: 1d56e63ed7dd7c248f4aa529869cf022f8aa0f72
+  manifest_paths:
+  - src/pom.xml
+  - src/aslan-backends/pom.xml
+  - src/aslan-commons/pom.xml
+  - src/aslan-core/pom.xml
+  - src/aslan-xml-wsclient/pom.xml
+  - src/aslan-xml/pom.xml
+  source_files_inspected:
+  - src/aslan-xml-wsclient/src/main/java/org/avantssar/aslan/xml/client/Main.java
+  - src/aslan-xml/src/main/java/org/avantssar/aslan/xml/Main.java
+  - src/aslanpp-connector-wsclient/src/main/java/org/avantssar/aslanpp/client/Main.java
+  - src/aslanpp-translator/src/main/java/org/avantssar/aslanpp/Main.java
+  repository_tree:
+    status: captured
+    sha: 4b07c306c5b8c04dcf1eec0a1b57289d99115cd4
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ASLanPPConnector ================
+  why_used: ASLan++ connector
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - GAP
+    - HTML
+    - Shell
+    - Ruby
+    frameworks_and_libraries: []
+    dependencies:
+    - ${project.artifactId}
+    - antlr
+    - antlr-runtime
+    - antlr3-maven-plugin
+    - args4j
+    - aslan-backends
+    - aslan-commons
+    - aslan-core
+    - aslan-xml
+    - aslan-xml-client
+    - aslan-xml-wsclient
+    - aslanpp-everything
+    - cargo-maven2-plugin
+    - commons-io
+    - commons-lang
+    - enunciate-rt
+    - gunit
+    - jaxb-api
+    - jaxws-api
+    - jsr181
+    - jsr181-api
+    - jsr311-api
+    - junit
+    - log4j
+    - maven-assembly-plugin
+    - maven-compiler-plugin
+    - maven-enunciate-plugin
+    - maven-gunit-plugin
+    - maven-install-plugin
+    - maven-jar-plugin
+    - maven-javadoc-plugin
+    - maven-jetty-plugin
+    - maven-resources-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - maven-war-plugin
+    - saaj-api
+    - stringtemplate
+    - tools
+    - xercesImpl
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/aslan-xml-wsclient/src/main/java/org/avantssar/aslan/xml/client/Main.java,
+    src/aslan-xml/src/main/java/org/avantssar/aslan/xml/Main.java, src/aslanpp-connector-wsclient/src/main/java/org/avantssar/aslanpp/client/Main.java,
+    src/aslanpp-translator/src/main/java/org/avantssar/aslanpp/Main.java'
+  setup_and_usage: []
+  limitations:
+  - 'limitations under the License.: Translator from the ASLan++ specification language to ASLan (and back),'
+  - 'limitations under the License.: developed in the AVANTSSAR and SPaCIoS EU projects'
+  - 'limitations under the License.: RUNNING THE TRANSLATOR'
+  - 'limitations under the License.: ======================'
+  - 'limitations under the License.: $ java -jar aslanpp-connector.jar -h'
+  - 'limitations under the License.: Example specifications, including the official case studies, may be found at'
+  - 'limitations under the License.: http://www.avantssar.eu/index.php?option=com_content&task=view&id=19&Itemid=40'
+  - 'limitations under the License.: GETTING STARTED WITH THE SOURCES'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/siemens/ASLanPPConnector/blob/master/README.txt
+  path: README.txt
+  blob_sha: 1d56e63ed7dd7c248f4aa529869cf022f8aa0f72
+  retrieved: true
+- type: manifest
+  path: src/pom.xml
+  blob_sha: cb96a9b2986f6111e3594841bf4d501553bdf166
+  retrieved: true
+- type: manifest
+  path: src/aslan-backends/pom.xml
+  blob_sha: a1fcf3a8a6a9ccc5583b7604d1993e495c57f1f3
+  retrieved: true
+- type: manifest
+  path: src/aslan-commons/pom.xml
+  blob_sha: 78c401b28422d5d127655c7332936d0937049202
+  retrieved: true
+- type: manifest
+  path: src/aslan-core/pom.xml
+  blob_sha: 2003abac8795d14ed121c0690d458c5e4555fa82
+  retrieved: true
+- type: manifest
+  path: src/aslan-xml-wsclient/pom.xml
+  blob_sha: ab31fae3db369b5d8f49893878994e63786eb20f
+  retrieved: true
+- type: manifest
+  path: src/aslan-xml/pom.xml
+  blob_sha: 7cd87326742aba8d902e5413523eb38c3821748e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 1628076
+    GAP: 73255
+    HTML: 55778
+    Shell: 25815
+    Ruby: 462
+- type: Git tree
+  status: captured
+  sha: 4b07c306c5b8c04dcf1eec0a1b57289d99115cd4
+  truncated: false
+- type: source_file
+  path: src/aslan-xml-wsclient/src/main/java/org/avantssar/aslan/xml/client/Main.java
+  blob_sha: 5048be08087f8485d927e49d4e0c4e5b8469b5d9
+  retrieved: true
+- type: source_file
+  path: src/aslan-xml/src/main/java/org/avantssar/aslan/xml/Main.java
+  blob_sha: e87886cd864def3b3b3a89df699e92fbda713e6e
+  retrieved: true
+- type: source_file
+  path: src/aslanpp-connector-wsclient/src/main/java/org/avantssar/aslanpp/client/Main.java
+  blob_sha: dc28adcc8904f6c7bea65b351eb480f46f15cfc7
+  retrieved: true
+- type: source_file
+  path: src/aslanpp-translator/src/main/java/org/avantssar/aslanpp/Main.java
+  blob_sha: ad43e0ab5fa489abbde7d8d09882cd5bc2ac6c96
+  retrieved: true

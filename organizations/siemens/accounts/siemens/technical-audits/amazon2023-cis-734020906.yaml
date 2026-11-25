@@ -1,0 +1,73 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:52:26+00:00'
+evidence_fingerprint: 6a0aeb9f24ddc131f0acf7671587080af46b81b550b0f74fe16073d486558735
+repository_metadata:
+  company: Siemens
+  account: Siemens
+  full_name: siemens/AMAZON2023-CIS
+  repository_id: 734020906
+  url: https://github.com/siemens/AMAZON2023-CIS
+  description: Ansible role for Amazon2023 CIS Baseline
+  default_branch: devel
+  license_spdx: MIT
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2024-03-12T06:12:19Z'
+  stars: 0
+  readme_url: https://github.com/siemens/AMAZON2023-CIS/blob/devel/README.md
+  readme_path: README.md
+  readme_sha: 87243e1697d2e2e019af42bff346950f8eb6172a
+  manifest_paths: []
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: 0ed0c8d68eacd34f80a7fa3e9531fa5bd245eec4
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '---'
+  why_used: Ansible role for Amazon2023 CIS Baseline
+  core_features: []
+  technology_stack:
+    languages:
+    - YAML
+    - Jinja
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage: []
+  limitations:
+  - 'Matching a security Level for CIS: It is possible to only run level 1 or level 2 controls for CIS.'
+  - 'Matching a security Level for CIS: This is managed using tags:'
+  - 'Matching a security Level for CIS: The control found in the defaults main also needs to reflect this, as this
+    control is the testing that takes place if you are using the audit component.'
+  - 'Known Issues: Default builds dont have a root password set, so prelim will fail. Please set a root password
+    using the correct encryption version'
+  - 'Known Issues: CIS Documented controls'
+  - 'Known Issues: - 1.2.2 and 1.2.4 affect default repos and will stop patching from occuring'
+  - 'Known Issues: - 6.1.1 and 6.1.2 are identical. So section 6 only has 12 items compared to documentation.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/siemens/AMAZON2023-CIS/blob/devel/README.md
+  path: README.md
+  blob_sha: 87243e1697d2e2e019af42bff346950f8eb6172a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    YAML: 287646
+    Jinja: 37651
+- type: Git tree
+  status: captured
+  sha: 0ed0c8d68eacd34f80a7fa3e9531fa5bd245eec4
+  truncated: false

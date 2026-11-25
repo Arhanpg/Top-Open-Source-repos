@@ -1,0 +1,102 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:49:07+00:00'
+evidence_fingerprint: c1bf1637172ff65e44d9811f690405d51e35f7839d76d5e5e0e8c4d56390618a
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/Athena
+  repository_id: 796574484
+  url: https://github.com/PaddlePaddle/Athena
+  description: null
+  default_branch: develop
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-01-13T05:27:38Z'
+  stars: 5
+  readme_url: https://github.com/PaddlePaddle/Athena/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: ea920fec119b15b1557283f9f9079c73be3d5508
+  manifest_paths:
+  - pyproject.toml
+  - setup.py
+  source_files_inspected:
+  - athena/_constraint_unittests.py
+  - athena/advanced_pass/py_to_json.py
+  repository_tree:
+    status: captured
+    sha: f98a66c8e9fcc21caa864f1351e5b7b3c3bbd448
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'Set environment variable FLAGS_logging_pir_py_code_dir to an existed logging directory before running
+    a paddle program. Once the paddle program finished, under the logging directory, there are two generated pir
+    python files: exec_programs.py and programs_example_input_tensor_meta.py.'
+  why_used: 'Set environment variable FLAGS_logging_pir_py_code_dir to an existed logging directory before running
+    a paddle program. Once the paddle program finished, under the logging directory, there are two generated pir
+    python files: exec_programs.py and programs_example_input_tensor_meta.py.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Jinja
+    - Shell
+    - Awk
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: athena/__init__.py,
+    athena/_constraint_unittests.py, athena/advanced_pass/__init__.py, athena/advanced_pass/py_to_json.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/Athena/blob/develop/README.md
+  path: README.md
+  blob_sha: ea920fec119b15b1557283f9f9079c73be3d5508
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: cf363e4a26c37d905ac75604819549af2320fba2
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 67dabbc0d436175a530fb62ea55d8ae0fea6a5a2
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 2983199
+    Jinja: 98124
+    Shell: 2845
+    Awk: 243
+- type: Git tree
+  status: captured
+  sha: f98a66c8e9fcc21caa864f1351e5b7b3c3bbd448
+  truncated: false
+- type: source_file
+  path: athena/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: athena/_constraint_unittests.py
+  blob_sha: a810f1cce41b3d5b25f45df1baeef1ce1a7926b9
+  retrieved: true
+- type: source_file
+  path: athena/advanced_pass/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: athena/advanced_pass/py_to_json.py
+  blob_sha: f87b399a33c32070cb622a5a3b1871208106c39b
+  retrieved: true

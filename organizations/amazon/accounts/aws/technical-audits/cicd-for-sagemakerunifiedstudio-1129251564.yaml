@@ -1,0 +1,237 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-25T03:45:08+00:00'
+evidence_fingerprint: f751b9b368383fa62b574cf4cb3a818c5e1f41be9a8ddcc97f30eb5f3c730046
+repository_metadata:
+  company: Amazon
+  account: aws
+  full_name: aws/CICD-for-SageMakerUnifiedStudio
+  repository_id: 1129251564
+  url: https://github.com/aws/CICD-for-SageMakerUnifiedStudio
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T08:08:29Z'
+  stars: 18
+  readme_url: https://github.com/aws/CICD-for-SageMakerUnifiedStudio/blob/main/README.md
+  readme_path: README.md
+  readme_sha: cc8792ff7ddfa725bd94d83e098e18de12a82515
+  manifest_paths:
+  - pyproject.toml
+  - requirements.txt
+  - setup.py
+  - tests/requirements.txt
+  - examples/analytic-workflow/data-notebooks/notebooks/requirements.txt
+  - examples/analytic-workflow/genai/job-code/requirements.txt
+  source_files_inspected:
+  - src/smus_cicd/cli.py
+  - src/smus_cicd/mcp/__main__.py
+  - src/smus_cicd/mcp/server.py
+  - src/smus_cicd/__init__.py
+  repository_tree:
+    status: captured
+    sha: 21b1d7bd0bffc8874f6965b6d4ec1f7c81f16425
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> **[IAM + IdC Domains]** This CLI supports both IAM-based and IAM Identity Center (IdC)-based SMUS
+    domains. For IdC domains, additional setup (VPC networking, Lake Formation permissions, inline IAM policies)
+    may be required — see the setup scripts in each example directory.'
+  why_used: '> **[IAM + IdC Domains]** This CLI supports both IAM-based and IAM Identity Center (IdC)-based SMUS
+    domains. For IdC domains, additional setup (VPC networking, Lake Formation permissions, inline IAM policies)
+    may be required — see the setup scripts in each example directory.'
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies:
+    - PyYAML
+    - absl-py
+    - aiobotocore
+    - aiohappyeyeballs
+    - aiohttp
+    - aioitertools
+    - aiosignal
+    - aiosqlite
+    - alembic
+    - altair
+    - annotated-doc
+    - annotated-types
+    - antlr4-python3-runtime
+    - anyio
+    - asn1crypto
+    - asttokens
+    - astunparse
+    - attrs
+    - autopep8
+    - aws-embedded-metrics
+    - aws-requests-auth
+    - awswrangler
+    - banks
+    - beautifulsoup4
+    - bedrock-agentcore
+    - bedrock-agentcore-starter-toolkit
+    - black
+    - blinker
+    - bokeh
+    - boto3
+    - botocore
+    - cachetools
+    - certifi
+    - cffi
+    - chardet
+    - charset-normalizer
+    - click
+    - cloudpickle
+    - colorama
+    - comm
+    - contourpy
+    - cryptography
+    - cycler
+    - databricks-sdk
+    - dataclasses-json
+    - datasets
+    - debugpy
+    - decorator
+    - deprecated
+    - dill
+    - dirtyjson
+    - distro
+    - docker
+    - docstring-parser
+    - docstring-to-markdown
+    - duckdb
+    - executing
+    - fastapi
+    - filelock
+    - filetype
+    - flask
+    - flask-cors
+    - flatbuffers
+    - fonttools
+    - frozenlist
+    - fsspec
+    - gast
+    - gitdb
+    - gitpython
+    - google-api-core
+    - google-auth
+    - google-cloud-bigquery
+    - google-cloud-core
+    - google-crc32c
+    - google-pasta
+    - google-resumable-media
+    - googleapis-common-protos
+    - graphene
+    - graphql-core
+    - graphql-relay
+    - greenlet
+    - griffe
+    - grpcio
+    - grpcio-status
+    - gunicorn
+    - h11
+    - h5py
+    - hf-xet
+    - httpcore
+    - httpx
+    - httpx-sse
+    - huggingface-hub
+    - ibis
+    - idna
+    - importlib-metadata
+    - ipykernel
+    - ipython
+    - ipython-pygments-lexers
+    - itsdangerous
+    - jedi
+    - jinja2
+    - jsonschema
+    - moto
+    - opensearch-py
+    - pydantic
+    - pytest
+    - pytest-cov
+    - pytest-mock
+    - pyyaml
+    - requests
+    - retrying
+    - rich
+    - termcolor
+    - typer
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/smus_cicd/cli.py,
+    src/smus_cicd/mcp/__main__.py, src/smus_cicd/mcp/server.py, src/smus_cicd/__init__.py'
+  setup_and_usage:
+  - 'Quick Start: pip install aws-smus-cicd-cli'
+  - 'Quick Start: **Deploy your first application:**'
+  - 'Getting Started: - **Quick Start Guide** - Deploy your first application (10 min)'
+  - 'Getting Started: - **Admin Guide** - Set up infrastructure (15 min)'
+  - 'Getting Started: - **Generate a Manifest with AI** - Agent skill that scans your project and generates a manifest'
+  limitations:
+  - 'Security Notice: Always install from the official AWS PyPI package or source code.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws/CICD-for-SageMakerUnifiedStudio/blob/main/README.md
+  path: README.md
+  blob_sha: cc8792ff7ddfa725bd94d83e098e18de12a82515
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: f854fedaa33240bc384188cf884514f4d6065b39
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 99ebe5edec8dab3abb71218cc1b1225a1f011466
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 0a387387a13ee7b6bc88cf40134f55758e4cd5dd
+  retrieved: true
+- type: manifest
+  path: tests/requirements.txt
+  blob_sha: ec0875f40906e90734e9762312b80aa124095a75
+  retrieved: true
+- type: manifest
+  path: examples/analytic-workflow/data-notebooks/notebooks/requirements.txt
+  blob_sha: 988cf8279ede0c713ca495fffbca7906383b8454
+  retrieved: true
+- type: manifest
+  path: examples/analytic-workflow/genai/job-code/requirements.txt
+  blob_sha: c391e30650d31deb9fa5dd32ea532dc6126ff6c4
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: 21b1d7bd0bffc8874f6965b6d4ec1f7c81f16425
+  truncated: false
+- type: source_file
+  path: src/smus_cicd/cli.py
+  blob_sha: 4da3d667330144f4a5298c31957d1f4212624b54
+  retrieved: true
+- type: source_file
+  path: src/smus_cicd/mcp/__main__.py
+  blob_sha: 55a37f39ba491586601328f5fffae8cb050cf186
+  retrieved: true
+- type: source_file
+  path: src/smus_cicd/mcp/server.py
+  blob_sha: 2bcde86c4b706d250eb28ad2d803e3a0b5704a47
+  retrieved: true
+- type: source_file
+  path: src/smus_cicd/__init__.py
+  blob_sha: fdd1f6dc7a2f6c5ac324ecec3f22307aa14cdf80
+  retrieved: true
