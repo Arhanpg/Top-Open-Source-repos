@@ -1,0 +1,137 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:15:11+00:00'
+evidence_fingerprint: a3e84c6930d488f2e2391409876e51929764bd18984c286a48c47d19fbf2e879
+repository_metadata:
+  company: Baidu
+  account: ApolloAuto
+  full_name: ApolloAuto/apollo-model-yolox
+  repository_id: 715954255
+  url: https://github.com/ApolloAuto/apollo-model-yolox
+  description: '[Apollo] This is the implementation of yolox3d first stage, a camera 2D object detection for autonomous
+    driving perception.'
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-12-07T09:08:36Z'
+  stars: 20
+  readme_url: https://github.com/ApolloAuto/apollo-model-yolox/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 96e387d2541653d1427b147bebb38b261bc1ba6e
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  - docs/Makefile
+  - demo/ncnn/android/build.gradle
+  - demo/OpenVINO/cpp/CMakeLists.txt
+  - demo/TensorRT/cpp/CMakeLists.txt
+  source_files_inspected:
+  - demo/ncnn/android/app/src/main/java/com/megvii/yoloXncnn/MainActivity.java
+  - demo/ncnn/android/app/src/main/java/com/megvii/yoloXncnn/yoloXncnn.java
+  - demo/ncnn/android/app/src/main/jni/yoloXncnn_jni.cpp
+  - yolox/core/__init__.py
+  repository_tree:
+    status: captured
+    sha: c8382ea6d21023465e701176ad409077330e1974
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: YOLOX is an anchor-free version of YOLO, with a simpler design but better performance! It aims to bridge
+    the gap between research and industrial communities. For more details, please refer to our report on Arxiv.
+  why_used: '[Apollo] This is the implementation of yolox3d first stage, a camera 2D object detection for autonomous
+    driving perception.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    frameworks_and_libraries: []
+    dependencies:
+    - loguru
+    - ninja
+    - numpy
+    - onnx
+    - onnx-simplifier
+    - opencv_python
+    - psutil
+    - pycocotools
+    - tabulate
+    - tensorboard
+    - thop
+    - torch
+    - torchvision
+    - tqdm
+    build_and_package_tools:
+    - Gradle build file
+    - CMake configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: demo/ncnn/android/app/src/main/java/com/megvii/yoloXncnn/MainActivity.java,
+    demo/ncnn/android/app/src/main/java/com/megvii/yoloXncnn/yoloXncnn.java, demo/ncnn/android/app/src/main/jni/yoloXncnn_jni.cpp,
+    yolox/core/__init__.py'
+  setup_and_usage:
+  - 'Quick Start: Step1. Install YOLOX from source.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ApolloAuto/apollo-model-yolox/blob/main/README.md
+  path: README.md
+  blob_sha: 96e387d2541653d1427b147bebb38b261bc1ba6e
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 010ece172328aed698a4c5cb73eb5e46a7385af0
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 5fec79764f284e49947e9b343b59fe3249fa04ed
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: ce61fb6a84ca97d25d833b64fa1b66d8f3e6ae7f
+  retrieved: true
+- type: manifest
+  path: demo/ncnn/android/build.gradle
+  blob_sha: 88031d6a3a28f01e5f46d46fd6ce82453c834061
+  retrieved: true
+- type: manifest
+  path: demo/OpenVINO/cpp/CMakeLists.txt
+  blob_sha: 614739bda584016b5b46cfc356ba94d23be43464
+  retrieved: true
+- type: manifest
+  path: demo/TensorRT/cpp/CMakeLists.txt
+  blob_sha: 5f14edd594a5c9106bc5d50bc352c5bb14f716a4
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 304023
+    C++: 24802
+- type: Git tree
+  status: captured
+  sha: c8382ea6d21023465e701176ad409077330e1974
+  truncated: false
+- type: source_file
+  path: demo/ncnn/android/app/src/main/java/com/megvii/yoloXncnn/MainActivity.java
+  blob_sha: 0f57e4f1297e3d4787d9e859bccc386bd3bbab06
+  retrieved: true
+- type: source_file
+  path: demo/ncnn/android/app/src/main/java/com/megvii/yoloXncnn/yoloXncnn.java
+  blob_sha: 212e1c2b881b89c69f27211160df0d2c61a098d8
+  retrieved: true
+- type: source_file
+  path: demo/ncnn/android/app/src/main/jni/yoloXncnn_jni.cpp
+  blob_sha: c27867d2be73cd51a02033f6e7a50b7721954db8
+  retrieved: true
+- type: source_file
+  path: yolox/core/__init__.py
+  blob_sha: c2379c704ec6320066cbb45a6b8dacca548662a0
+  retrieved: true

@@ -6,7 +6,7 @@
 - Default branch: main
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-25T08:28:51+00:00
+- Generated: 2026-11-26T07:04:20+00:00
 
 ## Project purpose
 
@@ -22,7 +22,7 @@ No separately supported feature list extracted.
 
 ## Technology stack
 
-- Languages: Unknown / not established
+- Languages: C, CMake, Python, C++, Shell
 - Frameworks/libraries: Unknown / not established
 - Dependency names: Unknown / not established
 - Build/package tools: CMake configuration
@@ -54,7 +54,7 @@ No setup information established.
 - Manifests: CMakeLists.txt, test/CMakeLists.txt, test/unit-test/CMakeLists.txt
 - Sampled source files: source/include/jobs.h, source/jobs.c, source/otaJobParser/include/job_parser.h, source/otaJobParser/include/ota_job_processor.h
 - Git tree state: captured
-- Evidence fingerprint: d950626e03e5fc10407461db78c6a079f8230ed4901d211862b775d513770297
+- Evidence fingerprint: 532e61a0eb4e90f8bfb19f39b58209c7aa1efd4632b63417be99cbc948666cba
 
 ## Unverified / unknown
 

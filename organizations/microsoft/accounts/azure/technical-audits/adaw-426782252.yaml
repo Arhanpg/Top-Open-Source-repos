@@ -1,0 +1,114 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:15:42+00:00'
+evidence_fingerprint: c8adf6e3800e0cdc3684bd155ec5847035d0220367d767d2fd75d5dba251c55a
+repository_metadata:
+  company: Microsoft
+  account: Azure
+  full_name: Azure/ADAW
+  repository_id: 426782252
+  url: https://github.com/Azure/ADAW
+  description: null
+  default_branch: main
+  license_spdx: MIT
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-11-28T19:34:56Z'
+  stars: 5
+  readme_url: https://github.com/Azure/ADAW/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3cec5169dab2263f286546e1bb492251c33b5979
+  manifest_paths: []
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: b91e69af2351bad1d7657e30d6b0029655178593
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The goal of this project is to provide and document referential infrastructure architecture pattern,
+    guidance, explanations, and deployment resources/tools to successfully deploy workspace for data analysis based
+    on Azure services.
+  why_used: The goal of this project is to provide and document referential infrastructure architecture pattern,
+    guidance, explanations, and deployment resources/tools to successfully deploy workspace for data analysis based
+    on Azure services.
+  core_features:
+  - name: Focus on Enterprise Grade Security standards
+    description: Focus on Enterprise Grade Security standards
+    evidence:
+    - README.md#Key Features
+  - name: Strong Support for Auditing, Monitoring and Diagnostics data
+    description: Strong Support for Auditing, Monitoring and Diagnostics data
+    evidence:
+    - README.md#Key Features
+  - name: Integrate and Keep network communication in perimeter where applicable
+    description: Integrate and Keep network communication in perimeter where applicable
+    evidence:
+    - README.md#Key Features
+  - name: Allow consumption of data sources inside perimeter, analyze data in cloud
+    description: Allow consumption of data sources inside perimeter, analyze data in cloud
+    evidence:
+    - README.md#Key Features
+  - name: Benefit from Cloud Managed Services, reduce management and operations overhead
+    description: Benefit from Cloud Managed Services, reduce management and operations overhead
+    evidence:
+    - README.md#Key Features
+  - name: Integrations with other cloud native tools - mainly Power Platform
+    description: Integrations with other cloud native tools - mainly Power Platform
+    evidence:
+    - README.md#Key Features
+  - name: Protect and encrypt storage where potentially sensitive data are stored
+    description: Protect and encrypt storage where potentially sensitive data are stored
+    evidence:
+    - README.md#Key Features
+  - name: Protect keys and credentials in secure place
+    description: Protect keys and credentials in secure place
+    evidence:
+    - README.md#Key Features
+  technology_stack:
+    languages:
+    - Bicep
+    - PowerShell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage: []
+  limitations:
+  - 'control-plane subnet and network security group: This subnet is for integrating with Azure Databricks control
+    plane.'
+  - 'control-plane subnet and network security group: This script creates two rules in network security group for
+    this subnet.'
+  - 'control-plane subnet and network security group: - Deny all incoming communication'
+  - 'control-plane subnet and network security group: - Deny all outgoing communication.'
+  - 'control-plane subnet and network security group: Databricks itself modifies this network security group to
+    additionally add any incoming communication from whole virtual network,'
+  - 'control-plane subnet and network security group: allows outgoing communication to whole virtual network, outgoing
+    Azure Databricks (port 443), outgoing Azure MySQL DB (port 3306),'
+  - 'control-plane subnet and network security group: outgoing Azure Storage (port 443) and outgoing Azure Event
+    Hub (port 9093).'
+  - 'control-plane subnet and network security group: Diagnostic settings of network security group is redirected
+    into Log Analytics.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Azure/ADAW/blob/main/README.md
+  path: README.md
+  blob_sha: 3cec5169dab2263f286546e1bb492251c33b5979
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Bicep: 42187
+    PowerShell: 4760
+- type: Git tree
+  status: captured
+  sha: b91e69af2351bad1d7657e30d6b0029655178593
+  truncated: false

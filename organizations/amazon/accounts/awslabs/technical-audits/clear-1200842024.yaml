@@ -1,7 +1,7 @@
 schema_version: '1.0'
 audit_status: evidence_only
-generated_at: '2026-11-25T08:22:17+00:00'
-evidence_fingerprint: ee5a02ae538d98e10a838a0ffafe8f01a0329f5f206a6107e1e7505fa804f86f
+generated_at: '2026-11-26T07:06:04+00:00'
+evidence_fingerprint: c851f30ac9770aee8016af6c71de4ce00a9217df13daa335e189a4f3af9fdaae
 repository_metadata:
   company: Amazon
   account: awslabs
@@ -42,7 +42,11 @@ analysis:
     mechanisms that reuse it. However, the retrieved context may not be directly applicable to unseen future tasks.
   core_features: []
   technology_stack:
-    languages: []
+    languages:
+    - Python
+    - Jinja
+    - Shell
+    - Dockerfile
     frameworks_and_libraries: []
     dependencies:
     - appworld
@@ -93,7 +97,11 @@ evidence_sources:
   blob_sha: 9a10baf106e66a9de59757c7e557a51173b4fc1d
   retrieved: true
 - type: GitHub Languages API
-  values: {}
+  values:
+    Python: 63566
+    Jinja: 3311
+    Shell: 1891
+    Dockerfile: 1169
 - type: Git tree
   status: captured
   sha: 7c59cf5ca4d5f2fee94d195740cc8178cb49428a

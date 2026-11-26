@@ -1,10 +1,10 @@
 # Technical audits — aws-observability
 
-Updated: 2026-11-25T23:09:24+00:00
+Updated: 2026-11-26T07:22:01+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 13
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -20,4 +20,8 @@ Updated: 2026-11-25T23:09:24+00:00
 | aws-o11y-recipes-389581832 | evidence_only | [aws-o11y-recipes-389581832.md](aws-o11y-recipes-389581832.md) | [aws-o11y-recipes-389581832.yaml](aws-o11y-recipes-389581832.yaml) |
 | aws-observability-accelerator-639373237 | evidence_only | [aws-observability-accelerator-639373237.md](aws-observability-accelerator-639373237.md) | [aws-observability-accelerator-639373237.yaml](aws-observability-accelerator-639373237.yaml) |
 | aws-otel-android-962892875 | evidence_only | [aws-otel-android-962892875.md](aws-otel-android-962892875.md) | [aws-otel-android-962892875.yaml](aws-otel-android-962892875.yaml) |
+| aws-otel-collector-295875994 | evidence_only | [aws-otel-collector-295875994.md](aws-otel-collector-295875994.md) | [aws-otel-collector-295875994.yaml](aws-otel-collector-295875994.yaml) |
+| aws-otel-community-288856124 | evidence_only | [aws-otel-community-288856124.md](aws-otel-community-288856124.md) | [aws-otel-community-288856124.yaml](aws-otel-community-288856124.yaml) |
+| aws-otel-dotnet-301544306 | evidence_only | [aws-otel-dotnet-301544306.md](aws-otel-dotnet-301544306.md) | [aws-otel-dotnet-301544306.yaml](aws-otel-dotnet-301544306.yaml) |
+| aws-otel-dotnet-instrumentation-794197298 | evidence_only | [aws-otel-dotnet-instrumentation-794197298.md](aws-otel-dotnet-instrumentation-794197298.md) | [aws-otel-dotnet-instrumentation-794197298.yaml](aws-otel-dotnet-instrumentation-794197298.yaml) |
 | github-559009922 | insufficient_evidence | [github-559009922.md](github-559009922.md) | [github-559009922.yaml](github-559009922.yaml) |

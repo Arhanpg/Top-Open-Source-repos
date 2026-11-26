@@ -1,10 +1,10 @@
 # Technical audits — nvidia-cosmos
 
-Updated: 2026-11-25T23:09:23+00:00
+Updated: 2026-11-26T07:22:01+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 12
 
 ## Repository dossiers
 
@@ -18,4 +18,7 @@ Updated: 2026-11-25T23:09:23+00:00
 | cosmos-reason1-941558026 | evidence_only | [cosmos-reason1-941558026.md](cosmos-reason1-941558026.md) | [cosmos-reason1-941558026.yaml](cosmos-reason1-941558026.yaml) |
 | cosmos-reason2-1052924124 | evidence_only | [cosmos-reason2-1052924124.md](cosmos-reason2-1052924124.md) | [cosmos-reason2-1052924124.yaml](cosmos-reason2-1052924124.yaml) |
 | cosmos-rl-999256448 | evidence_only | [cosmos-rl-999256448.md](cosmos-rl-999256448.md) | [cosmos-rl-999256448.yaml](cosmos-rl-999256448.yaml) |
+| cosmos-transfer1-941557915 | evidence_only | [cosmos-transfer1-941557915.md](cosmos-transfer1-941557915.md) | [cosmos-transfer1-941557915.yaml](cosmos-transfer1-941557915.yaml) |
+| cosmos-transfer2-5-1064229898 | evidence_only | [cosmos-transfer2-5-1064229898.md](cosmos-transfer2-5-1064229898.md) | [cosmos-transfer2-5-1064229898.yaml](cosmos-transfer2-5-1064229898.yaml) |
+| cosmos-xenna-991550298 | evidence_only | [cosmos-xenna-991550298.md](cosmos-xenna-991550298.md) | [cosmos-xenna-991550298.yaml](cosmos-xenna-991550298.yaml) |
 | github-959407048 | evidence_only | [github-959407048.md](github-959407048.md) | [github-959407048.yaml](github-959407048.yaml) |

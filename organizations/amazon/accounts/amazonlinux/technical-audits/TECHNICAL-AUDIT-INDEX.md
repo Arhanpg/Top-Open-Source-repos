@@ -1,10 +1,10 @@
 # Technical audits — amazonlinux
 
-Updated: 2026-11-25T23:09:25+00:00
+Updated: 2026-11-26T07:22:00+00:00
 
 ## Status counts
 
-- evidence_only: 10
+- evidence_only: 14
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -22,3 +22,7 @@ Updated: 2026-11-25T23:09:25+00:00
 | dnf-plugin-support-info-429972683 | evidence_only | [dnf-plugin-support-info-429972683.md](dnf-plugin-support-info-429972683.md) | [dnf-plugin-support-info-429972683.yaml](dnf-plugin-support-info-429972683.yaml) |
 | github-171342503 | insufficient_evidence | [github-171342503.md](github-171342503.md) | [github-171342503.yaml](github-171342503.yaml) |
 | kiwi-image-descriptions-examples-1044536974 | evidence_only | [kiwi-image-descriptions-examples-1044536974.md](kiwi-image-descriptions-examples-1044536974.md) | [kiwi-image-descriptions-examples-1044536974.yaml](kiwi-image-descriptions-examples-1044536974.yaml) |
+| linux-300697475 | evidence_only | [linux-300697475.md](linux-300697475.md) | [linux-300697475.yaml](linux-300697475.yaml) |
+| rust-bundled-packaging-157781760 | evidence_only | [rust-bundled-packaging-157781760.md](rust-bundled-packaging-157781760.md) | [rust-bundled-packaging-157781760.yaml](rust-bundled-packaging-157781760.yaml) |
+| smart-restart-721057689 | evidence_only | [smart-restart-721057689.md](smart-restart-721057689.md) | [smart-restart-721057689.yaml](smart-restart-721057689.yaml) |
+| update-motd-671264807 | evidence_only | [update-motd-671264807.md](update-motd-671264807.md) | [update-motd-671264807.yaml](update-motd-671264807.yaml) |

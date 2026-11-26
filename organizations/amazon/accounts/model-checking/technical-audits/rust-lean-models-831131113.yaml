@@ -1,0 +1,71 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:58:59+00:00'
+evidence_fingerprint: d9a2ce9871811491d3549034e3e15a947ab179cfcc52aa189983a09468474065
+repository_metadata:
+  company: Amazon
+  account: model-checking
+  full_name: model-checking/rust-lean-models
+  repository_id: 831131113
+  url: https://github.com/model-checking/rust-lean-models
+  description: Lean models of Rust libraries
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-09-04T01:57:08Z'
+  stars: 40
+  readme_url: https://github.com/model-checking/rust-lean-models/blob/main/README.md
+  readme_path: README.md
+  readme_sha: bc8db31c133ad9e7ae47bbcf58c6f2a0134b2af2
+  manifest_paths: []
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: 268a46cf2de95b0a4b340dc0bd607b65709e1bf9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '-- Copyright Kani Contributors -- SPDX-License-Identifier: Apache-2.0 OR MIT --->'
+  why_used: Lean models of Rust libraries
+  core_features: []
+  technology_stack:
+    languages:
+    - Lean
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage:
+  - 'Installation: - Add the following lines to your lakefile.lean:'
+  - 'Installation: require «rust-lean-models» from git "https://github.com/model-checking/rust-lean-models"'
+  - 'Installation: - Change the lean version in your lean-toolchain to the one in'
+  - 'Installation: - Run lake update in the terminal.'
+  - 'Installation: - Import the packages and open the namespaces in your Lean files'
+  - 'Installation: (see ProofTutorial.lean)'
+  - 'Installation: import RustLeanModels.Basic'
+  - 'Installation: import RustLeanModels.RustString'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/model-checking/rust-lean-models/blob/main/README.md
+  path: README.md
+  blob_sha: bc8db31c133ad9e7ae47bbcf58c6f2a0134b2af2
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Lean: 317299
+- type: Git tree
+  status: captured
+  sha: 268a46cf2de95b0a4b340dc0bd607b65709e1bf9
+  truncated: false

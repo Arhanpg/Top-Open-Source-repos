@@ -1,10 +1,10 @@
 # Technical audits — sap-docs
 
-Updated: 2026-11-25T23:09:22+00:00
+Updated: 2026-11-26T07:22:02+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 12
 
 ## Repository dossiers
 
@@ -18,4 +18,7 @@ Updated: 2026-11-25T23:09:22+00:00
 | btp-business-application-studio-360897108 | evidence_only | [btp-business-application-studio-360897108.md](btp-business-application-studio-360897108.md) | [btp-business-application-studio-360897108.yaml](btp-business-application-studio-360897108.yaml) |
 | btp-cloud-identity-services-533758529 | evidence_only | [btp-cloud-identity-services-533758529.md](btp-cloud-identity-services-533758529.md) | [btp-cloud-identity-services-533758529.yaml](btp-cloud-identity-services-533758529.yaml) |
 | btp-cloud-identity-services-system-integration-guide-676028952 | evidence_only | [btp-cloud-identity-services-system-integration-guide-676028952.md](btp-cloud-identity-services-system-integration-guide-676028952.md) | [btp-cloud-identity-services-system-integration-guide-676028952.yaml](btp-cloud-identity-services-system-integration-guide-676028952.yaml) |
+| btp-cloud-integration-automation-service-745470332 | evidence_only | [btp-cloud-integration-automation-service-745470332.md](btp-cloud-integration-automation-service-745470332.md) | [btp-cloud-integration-automation-service-745470332.yaml](btp-cloud-integration-automation-service-745470332.yaml) |
+| btp-cloud-logging-730279912 | evidence_only | [btp-cloud-logging-730279912.md](btp-cloud-logging-730279912.md) | [btp-cloud-logging-730279912.yaml](btp-cloud-logging-730279912.yaml) |
+| btp-cloud-platform-404731074 | evidence_only | [btp-cloud-platform-404731074.md](btp-cloud-platform-404731074.md) | [btp-cloud-platform-404731074.yaml](btp-cloud-platform-404731074.yaml) |
 | github-362398258 | evidence_only | [github-362398258.md](github-362398258.md) | [github-362398258.yaml](github-362398258.yaml) |

@@ -1,0 +1,111 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:10:37+00:00'
+evidence_fingerprint: 61d0b25cb001ef4c4760a1e3beaba3324a5a694143258a4c719a540ece9a46bb
+repository_metadata:
+  company: SAP
+  account: UI5
+  full_name: UI5/plugins-coding-agents
+  repository_id: 1184343602
+  url: https://github.com/UI5/plugins-coding-agents
+  description: SAPUI5 / OpenUI5 plugins for Coding Agents
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T02:24:39Z'
+  stars: 46
+  readme_url: https://github.com/UI5/plugins-coding-agents/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1f358308c4e742b534a89a08ccda41abf81b391c
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - plugins/ui5-modernization/skills/fix-cyclic-deps/scripts/lib/graph-utils.js
+  - .husky/skip.js
+  - knip.config.js
+  - plugins/ui5-modernization/skills/fix-component-async/scripts/verify-component.js
+  repository_tree:
+    status: captured
+    sha: 747f12776c6a901ecd73d48b4673289cc5882d07
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> Start your UI5 journey with coding agents.'
+  why_used: SAPUI5 / OpenUI5 plugins for Coding Agents
+  core_features:
+  - name: Helps with the creation of new UI5 projects when working with coding agents
+    description: Helps with the creation of new UI5 projects when working with coding agents
+    evidence:
+    - README.md#Key Features
+  - name: Supports the developer to detect and fix UI5-specific errors
+    description: Supports the developer to detect and fix UI5-specific errors
+    evidence:
+    - README.md#Key Features
+  - name: Provides additional UI5-specific information for coding agents
+    description: Provides additional UI5-specific information for coding agents
+    evidence:
+    - README.md#Key Features
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@commitlint/cli'
+    - '@commitlint/config-conventional'
+    - '@microsoft/vally-cli'
+    - husky
+    - knip
+    - licensee
+    - prettier
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: plugins/ui5-modernization/skills/fix-cyclic-deps/scripts/lib/graph-utils.js,
+    .husky/skip.js, knip.config.js, plugins/ui5-modernization/skills/fix-component-async/scripts/verify-component.js'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that might be a security problem, please follow the instructions
+    given in Security Policy on how to report it. Please do not create GitHub issues for security-related concerns
+    or problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/UI5/plugins-coding-agents/blob/main/README.md
+  path: README.md
+  blob_sha: 1f358308c4e742b534a89a08ccda41abf81b391c
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 8197a3ae29f10cab8caac5d5429f7b1cbd6a45f2
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 215419
+- type: Git tree
+  status: captured
+  sha: 747f12776c6a901ecd73d48b4673289cc5882d07
+  truncated: false
+- type: source_file
+  path: plugins/ui5-modernization/skills/fix-cyclic-deps/scripts/lib/graph-utils.js
+  blob_sha: 3421758b8fbb7db874633075a0150c7f2446ac7c
+  retrieved: true
+- type: source_file
+  path: .husky/skip.js
+  blob_sha: f67431759e4904d8e2de419c9fda20801c66ff3a
+  retrieved: true
+- type: source_file
+  path: knip.config.js
+  blob_sha: 1ba2bd7d41bbd4c036a6407d27a674f91ffa5a22
+  retrieved: true
+- type: source_file
+  path: plugins/ui5-modernization/skills/fix-component-async/scripts/verify-component.js
+  blob_sha: 56eeeeb9a8fa3868b5c78c2b083a887f63868645
+  retrieved: true

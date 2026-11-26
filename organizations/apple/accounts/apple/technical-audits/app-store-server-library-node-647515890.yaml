@@ -1,0 +1,115 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:14:55+00:00'
+evidence_fingerprint: 9ea893b3843d5ce0aeb7304e2fc03c2e6ca9ef88f882a79d4c7defe541b78658
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/app-store-server-library-node
+  repository_id: 647515890
+  url: https://github.com/apple/app-store-server-library-node
+  description: The Node.js server library for the App Store Server API and App Store Server Notifications.
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-02T02:04:17Z'
+  stars: 388
+  readme_url: https://github.com/apple/app-store-server-library-node/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 6f662520d7c99529ae7e169c55b2cdfa0fae54b1
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - helper_validation_utils.ts
+  - jws_signature_creator.ts
+  - jws_verification.ts
+  - models/AbstractAdvancedCommerceBaseItem.ts
+  repository_tree:
+    status: captured
+    sha: 845c4717eaa811fb69789cdcc5c89488d3456c2c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Node.js server library for the App Store Server API, App Store Server Notifications, Retention Messaging
+    API, and Advanced Commerce API. Also available in Swift, Python, and Java.
+  why_used: The Node.js server library for the App Store Server API and App Store Server Notifications.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Lua
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@types/jest'
+    - '@types/jsonwebtoken'
+    - '@types/jsrsasign'
+    - '@types/node'
+    - '@types/node-fetch'
+    - base64url
+    - jest
+    - jsonwebtoken
+    - jsrsasign
+    - node-fetch
+    - ts-jest
+    - typedoc
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: helper_validation_utils.ts,
+    jws_signature_creator.ts, jws_verification.ts, models/AbstractAdvancedCommerceBaseItem.ts'
+  setup_and_usage:
+  - 'API Usage: import { AppStoreServerAPIClient, Environment, SendTestNotificationResponse } from "@apple/app-store-server-library"'
+  - 'API Usage: const issuerId = "99b16628-15e4-4668-972b-eeff55eeff55"'
+  - 'API Usage: const keyId = "ABCDEFGHIJ"'
+  - 'API Usage: const bundleId = "com.example"'
+  - 'API Usage: const filePath = "/path/to/key/SubscriptionKey_ABCDEFGHIJ.p8"'
+  - 'API Usage: const encodedKey = readFile(filePath) // Specific implementation may vary'
+  - 'API Usage: const environment = Environment.SANDBOX'
+  - 'API Usage: const client = new AppStoreServerAPIClient(encodedKey, keyId, issuerId, bundleId, environment)'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/app-store-server-library-node/blob/main/README.md
+  path: README.md
+  blob_sha: 6f662520d7c99529ae7e169c55b2cdfa0fae54b1
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 4c3bcbaed62e0a8695e55239e9122a40ec262b95
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 851880
+    Lua: 241
+    JavaScript: 131
+- type: Git tree
+  status: captured
+  sha: 845c4717eaa811fb69789cdcc5c89488d3456c2c
+  truncated: false
+- type: source_file
+  path: helper_validation_utils.ts
+  blob_sha: 546baa1e3c5fc91214ab8aaa7d3739e8b18b0b9a
+  retrieved: true
+- type: source_file
+  path: jws_signature_creator.ts
+  blob_sha: 810b82a66c7b3e3447f0936e0ff5c6ca2d1c0755
+  retrieved: true
+- type: source_file
+  path: jws_verification.ts
+  blob_sha: ad706aa814c179706729d001278371c8af7853b5
+  retrieved: true
+- type: source_file
+  path: models/AbstractAdvancedCommerceBaseItem.ts
+  blob_sha: dc103a659664d91453733cb98a5e3642e9ff104f
+  retrieved: true

@@ -1,10 +1,10 @@
 # Technical audits — nvidia
 
-Updated: 2026-11-25T23:09:23+00:00
+Updated: 2026-11-26T07:22:01+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 12
 
 ## Repository dossiers
 
@@ -18,4 +18,7 @@ Updated: 2026-11-25T23:09:23+00:00
 | ai-factory-operations-agent-1266698124 | evidence_only | [ai-factory-operations-agent-1266698124.md](ai-factory-operations-agent-1266698124.md) | [ai-factory-operations-agent-1266698124.yaml](ai-factory-operations-agent-1266698124.yaml) |
 | amgx-105789598 | evidence_only | [amgx-105789598.md](amgx-105789598.md) | [amgx-105789598.yaml](amgx-105789598.yaml) |
 | audio2face-3d-1058223147 | evidence_only | [audio2face-3d-1058223147.md](audio2face-3d-1058223147.md) | [audio2face-3d-1058223147.yaml](audio2face-3d-1058223147.yaml) |
+| audio2face-3d-samples-897654836 | evidence_only | [audio2face-3d-samples-897654836.md](audio2face-3d-samples-897654836.md) | [audio2face-3d-samples-897654836.yaml](audio2face-3d-samples-897654836.yaml) |
 | audio2face-3d-sdk-1034647520 | evidence_only | [audio2face-3d-sdk-1034647520.md](audio2face-3d-sdk-1034647520.md) | [audio2face-3d-sdk-1034647520.yaml](audio2face-3d-sdk-1034647520.yaml) |
+| audio2face-3d-training-framework-1034347645 | evidence_only | [audio2face-3d-training-framework-1034347645.md](audio2face-3d-training-framework-1034347645.md) | [audio2face-3d-training-framework-1034347645.yaml](audio2face-3d-training-framework-1034347645.yaml) |
+| autofa-1461338888 | evidence_only | [autofa-1461338888.md](autofa-1461338888.md) | [autofa-1461338888.yaml](autofa-1461338888.yaml) |

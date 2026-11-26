@@ -1,0 +1,179 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:12:21+00:00'
+evidence_fingerprint: 2dece6b0c3de12d19c7a29d85d20e38497ec3ab114543ad12dee489d7c4ad543
+repository_metadata:
+  company: Amazon
+  account: aws-actions
+  full_name: aws-actions/aws-elasticbeanstalk-deploy
+  repository_id: 1150080493
+  url: https://github.com/aws-actions/aws-elasticbeanstalk-deploy
+  description: GitHub Action for deploying applications to AWS Elastic Beanstalk
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-30T21:38:14Z'
+  stars: 12
+  readme_url: https://github.com/aws-actions/aws-elasticbeanstalk-deploy/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1082da52a7190e0ca306442c293065f09723422a
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/__tests__/conflict_detection.test.ts
+  - src/__tests__/option_settings_validation.test.ts
+  - src/__tests__/s3_operations.test.ts
+  - src/__tests__/setup.ts
+  repository_tree:
+    status: captured
+    sha: 241b997c122558ef0737fa23f6d0a6812ab179c6
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A GitHub Action for deploying applications to AWS Elastic Beanstalk with automatic version management,
+    environment creation, health monitoring, and intelligent retry logic. It supports both Beanstalk Standard (EC2-backed)
+    environments and Beanstalk Cluster (EKS-backed) container environments.
+  why_used: GitHub Action for deploying applications to AWS Elastic Beanstalk
+  core_features:
+  - name: '**Automatic Environment Creation**: Creates Elastic Beanstalk applications and environments if they don''t
+      exist'
+    description: '**Automatic Environment Creation**: Creates Elastic Beanstalk applications and environments if
+      they don''t exist'
+    evidence:
+    - README.md#Features
+  - name: '**Two Deployment Modes**: Deploys to Beanstalk Standard (EC2-backed) environments or to Beanstalk Cluster
+      (EKS-backed) container environments'
+    description: '**Two Deployment Modes**: Deploys to Beanstalk Standard (EC2-backed) environments or to Beanstalk
+      Cluster (EKS-backed) container environments'
+    evidence:
+    - README.md#Features
+  - name: '**Flexible Container Sourcing**: For Beanstalk Cluster environments, deploy a pre-built image or let
+      Elastic Beanstalk build one from your source'
+    description: '**Flexible Container Sourcing**: For Beanstalk Cluster environments, deploy a pre-built image
+      or let Elastic Beanstalk build one from your source'
+    evidence:
+    - README.md#Features
+  - name: '**Deployment Package Management**: Auto-creates deployment packages from your repository or uses pre-built
+      packages'
+    description: '**Deployment Package Management**: Auto-creates deployment packages from your repository or uses
+      pre-built packages'
+    evidence:
+    - README.md#Features
+  - name: '**S3 Upload**: Uploads deployment artifacts to S3 for version management'
+    description: '**S3 Upload**: Uploads deployment artifacts to S3 for version management'
+    evidence:
+    - README.md#Features
+  - name: '**Health Monitoring**: Waits for deployment completion and environment health recovery'
+    description: '**Health Monitoring**: Waits for deployment completion and environment health recovery'
+    evidence:
+    - README.md#Features
+  - name: '**Event Streaming**: Displays real-time deployment events in GitHub Actions logs'
+    description: '**Event Streaming**: Displays real-time deployment events in GitHub Actions logs'
+    evidence:
+    - README.md#Features
+  - name: '**Intelligent Retries**: Exponential backoff for transient API failures'
+    description: '**Intelligent Retries**: Exponential backoff for transient API failures'
+    evidence:
+    - README.md#Features
+  - name: '**Version Reuse**: Optionally deploy an application version that already exists under the label, to promote
+      one version across environments'
+    description: '**Version Reuse**: Optionally deploy an application version that already exists under the label,
+      to promote one version across environments'
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@actions/exec'
+    - '@aws-sdk/client-elastic-beanstalk'
+    - '@aws-sdk/client-s3'
+    - '@aws-sdk/client-sts'
+    - '@types/archiver'
+    - '@types/jest'
+    - '@types/node'
+    - '@vercel/ncc'
+    - archiver
+    - ignore
+    - jest
+    - ts-jest
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/__tests__/conflict_detection.test.ts,
+    src/__tests__/option_settings_validation.test.ts, src/__tests__/s3_operations.test.ts, src/__tests__/setup.ts'
+  setup_and_usage:
+  - 'Quick Start: Create a workflow file in your repository at .github/workflows/deploy-to-elastic-beanstalk.yml
+    (or any name you prefer under .github/workflows/). The core deploy step looks like this:'
+  - 'Quick Start: - name: Deploy to Elastic Beanstalk'
+  - 'Quick Start: uses: aws-actions/aws-elasticbeanstalk-deploy@v1'
+  - 'Quick Start: aws-region: ${{ env.AWS_REGION }}'
+  - 'Quick Start: application-name: ${{ env.APPLICATION_NAME }}'
+  - 'Quick Start: environment-name: ${{ env.ENVIRONMENT_NAME }}'
+  - 'Quick Start: solution-stack-name: ''64bit Amazon Linux 2023 v4.3.0 running Python 3.11'''
+  - 'Quick Start: "Namespace": "aws:autoscaling:launchconfiguration",'
+  limitations:
+  - 'Platform Configuration: When **creating a new Beanstalk Standard environment**, you must provide **exactly
+    one** of the following:'
+  - 'Platform Configuration: | Input | Description |'
+  - 'Platform Configuration: |-------|-------------|'
+  - 'Platform Configuration: | solution-stack-name | Solution stack name (e.g., 64bit Amazon Linux 2023 v4.9.2 running
+    Python 3.14) |'
+  - 'Platform Configuration: | platform-arn | Platform ARN (e.g., arn:aws:elasticbeanstalk:us-east-1::platform/Python
+    3.14 running on 64bit Amazon Linux 2023/4.9.2) |'
+  - 'Platform Configuration: You can find the list of supported platforms and example values in the AWS Elastic
+    Beanstalk documentation for supported platforms.'
+  - 'Platform Configuration: When **deploying to an existing environment**, these inputs are **optional**. The existing
+    environment''s platform configuration will be used if neither is provided.'
+  - 'Platform Configuration: > When you specify solution-stack-name or platform-arn, each deployment updates your
+    environment to that platform version if it differs from the current one. To deploy without changing the platform
+    version, omit both options.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-actions/aws-elasticbeanstalk-deploy/blob/main/README.md
+  path: README.md
+  blob_sha: 1082da52a7190e0ca306442c293065f09723422a
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 97538251323a099d390ab959ef549d9aed38ad7c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 283544
+    JavaScript: 2314
+    Python: 247
+- type: Git tree
+  status: captured
+  sha: 241b997c122558ef0737fa23f6d0a6812ab179c6
+  truncated: false
+- type: source_file
+  path: src/__tests__/conflict_detection.test.ts
+  blob_sha: 182041e9e7a9e9f2f0f88d7e88fd34d8b6ef33b1
+  retrieved: true
+- type: source_file
+  path: src/__tests__/option_settings_validation.test.ts
+  blob_sha: bede162f8911a9b5e33f68a0c4eb86e050c69c62
+  retrieved: true
+- type: source_file
+  path: src/__tests__/s3_operations.test.ts
+  blob_sha: 3673eaa5cb8e1e615d99284754894ef53317d0c4
+  retrieved: true
+- type: source_file
+  path: src/__tests__/setup.ts
+  blob_sha: 999c3fbbf8811204c6ef37276f7bdcdff62b1a86
+  retrieved: true

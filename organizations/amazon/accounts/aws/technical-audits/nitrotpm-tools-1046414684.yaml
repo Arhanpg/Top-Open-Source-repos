@@ -1,0 +1,126 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:12:13+00:00'
+evidence_fingerprint: 7779f7c962abb55aeae051c1e3fbca7a9ce3b867cf7fc950deb669f55bc0a802
+repository_metadata:
+  company: Amazon
+  account: aws
+  full_name: aws/NitroTPM-Tools
+  repository_id: 1046414684
+  url: https://github.com/aws/NitroTPM-Tools
+  description: null
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T13:40:12Z'
+  stars: 7
+  readme_url: https://github.com/aws/NitroTPM-Tools/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 087b7ab1119290aca58f54b2e26ca793b65b98d3
+  manifest_paths:
+  - Cargo.toml
+  - nitro-tpm-attest/Cargo.toml
+  - nitro-tpm-pcr-compute/Cargo.toml
+  source_files_inspected:
+  - nitro-tpm-attest/src/lib.rs
+  - nitro-tpm-attest/src/main.rs
+  - nitro-tpm-attest/src/raw/mod.rs
+  - nitro-tpm-attest/src/tss/message_buffer/mod.rs
+  repository_tree:
+    status: captured
+    sha: 5f217a65c1826c15a5459bf2c9f259583c996a91
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A collection of utilities for working with NitroTPM attestation.
+  why_used: A collection of utilities for working with NitroTPM attestation.
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - anyhow
+    - authenticode
+    - aws-config
+    - aws-lc-rs
+    - aws-nitro-enclaves-nsm-api
+    - aws-sdk-kms
+    - base64ct
+    - ciborium
+    - clap
+    - digest
+    - env_logger
+    - hex
+    - log
+    - object
+    - openssl
+    - semver
+    - serde
+    - serde_json
+    - thiserror
+    - tokio
+    - tss-esapi
+    - tss-esapi-sys
+    - uuid
+    - x509-cert
+    build_and_package_tools:
+    - Cargo manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: nitro-tpm-attest/src/lib.rs,
+    nitro-tpm-attest/src/main.rs, nitro-tpm-attest/src/raw/mod.rs, nitro-tpm-attest/src/tss/message_buffer/mod.rs'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws/NitroTPM-Tools/blob/main/README.md
+  path: README.md
+  blob_sha: 087b7ab1119290aca58f54b2e26ca793b65b98d3
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: a5bd3a4d763b87b15591599de2074bd1908fac5c
+  retrieved: true
+- type: manifest
+  path: nitro-tpm-attest/Cargo.toml
+  blob_sha: 1b852bf4920011aaba3634ca582cb373b3fa4c6d
+  retrieved: true
+- type: manifest
+  path: nitro-tpm-pcr-compute/Cargo.toml
+  blob_sha: 969db0c177f2f0939e9b07af550d39e84fa7b9d0
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 78413
+    Dockerfile: 1636
+- type: Git tree
+  status: captured
+  sha: 5f217a65c1826c15a5459bf2c9f259583c996a91
+  truncated: false
+- type: source_file
+  path: nitro-tpm-attest/src/lib.rs
+  blob_sha: 7e35eec6da85703dd9e958de4a73111195798a6f
+  retrieved: true
+- type: source_file
+  path: nitro-tpm-attest/src/main.rs
+  blob_sha: 8ef4547649025c353b9a65bdded89ba8e679bebd
+  retrieved: true
+- type: source_file
+  path: nitro-tpm-attest/src/raw/mod.rs
+  blob_sha: 6687dffbb25878d1826beddd4a94ed9ed60f2c3c
+  retrieved: true
+- type: source_file
+  path: nitro-tpm-attest/src/tss/message_buffer/mod.rs
+  blob_sha: 73a4aadf571fe10d4067b875867cb08edfbf5b13
+  retrieved: true

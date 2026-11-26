@@ -1,0 +1,137 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:00:21+00:00'
+evidence_fingerprint: 8b3754820f774ac387b24c6c0478f36c567e76bade1dd873808235ae7013b930
+repository_metadata:
+  company: Microsoft
+  account: microsoft
+  full_name: microsoft/3DTelecommunications
+  repository_id: 790468692
+  url: https://github.com/microsoft/3DTelecommunications
+  description: 3D Telecommunications project utilizing Holoportation technology to provide live volumetric capture.  Used
+    in one case to increase the reach of specialized medicine.
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-19T03:28:44Z'
+  stars: 24
+  readme_url: https://github.com/microsoft/3DTelecommunications/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 11b47f2f52af0bc902b4a4507213a08d38a02f5a
+  manifest_paths:
+  - CMakeLists.txt
+  - Kinect/DepthPodToFusionARM/CMakeLists.txt
+  - Kinect/K4ALauncherDaemon/CMakeLists.txt
+  - Kinect/K4ARecorder/CMakeLists.txt
+  - Kinect/K4AToFusionJetson/CMakeLists.txt
+  - McLib2/LibUtility/CMakeLists.txt
+  source_files_inspected:
+  - RenderingClient/rendering_client/main.cpp
+  - McLib2/LibUtility/src/Config.cpp
+  - McLib2/LibUtility/src/Logger.cpp
+  - McLib2/LibUtility/src/TimeUtil.cpp
+  repository_tree:
+    status: captured
+    sha: 7f972af08725cbfb3bb07ec50c3eb37bac8c2254
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> This is the open source repository for the 3D Telecommunications system created by Microsoft Research
+    Special Projects Group and used in the 3D Telemedicine application: https://www.microsoft.com/en-us/research/project/3d-telemedicine/'
+  why_used: 3D Telecommunications project utilizing Holoportation technology to provide live volumetric capture.  Used
+    in one case to increase the reach of specialized medicine.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - C#
+    - Cuda
+    - ShaderLab
+    - C
+    - HLSL
+    - PowerShell
+    - CMake
+    - Python
+    - Shell
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: RenderingClient/rendering_client/main.cpp,
+    McLib2/LibUtility/src/Config.cpp, McLib2/LibUtility/src/Logger.cpp, McLib2/LibUtility/src/TimeUtil.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/microsoft/3DTelecommunications/blob/main/README.md
+  path: README.md
+  blob_sha: 11b47f2f52af0bc902b4a4507213a08d38a02f5a
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 18627a81eb1cd6fd6aed10178876d50c3d6154ed
+  retrieved: true
+- type: manifest
+  path: Kinect/DepthPodToFusionARM/CMakeLists.txt
+  blob_sha: a16c0ddb8c8c9805a879a22776481b5fe31ab758
+  retrieved: true
+- type: manifest
+  path: Kinect/K4ALauncherDaemon/CMakeLists.txt
+  blob_sha: d311842358cfab3c564eeb2962b3d055b71a8c31
+  retrieved: true
+- type: manifest
+  path: Kinect/K4ARecorder/CMakeLists.txt
+  blob_sha: dda8aeec363508ba6409f341675591b4c7a58d85
+  retrieved: true
+- type: manifest
+  path: Kinect/K4AToFusionJetson/CMakeLists.txt
+  blob_sha: 2b44ebe6f2a28639dc532c299809907098b2db27
+  retrieved: true
+- type: manifest
+  path: McLib2/LibUtility/CMakeLists.txt
+  blob_sha: 57ddbea811a00af8027d5b0ac9ec8d031fc931c9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 2607062
+    C#: 1973618
+    Cuda: 746692
+    ShaderLab: 95595
+    C: 90305
+    HLSL: 57279
+    PowerShell: 56372
+    CMake: 55444
+    Python: 18488
+    Shell: 13360
+    Batchfile: 514
+- type: Git tree
+  status: captured
+  sha: 7f972af08725cbfb3bb07ec50c3eb37bac8c2254
+  truncated: false
+- type: source_file
+  path: RenderingClient/rendering_client/main.cpp
+  blob_sha: bf379e49329d2ffae31d5ddd8792d55c1401eb29
+  retrieved: true
+- type: source_file
+  path: McLib2/LibUtility/src/Config.cpp
+  blob_sha: 03b2e7da41642a00f21a67bd3a46a5f32c838c0b
+  retrieved: true
+- type: source_file
+  path: McLib2/LibUtility/src/Logger.cpp
+  blob_sha: b5a2380ea53184a354c8a377a21c47d1d6b8bac8
+  retrieved: true
+- type: source_file
+  path: McLib2/LibUtility/src/TimeUtil.cpp
+  blob_sha: 5d32da32a17c51c37541ee250b2f7e2f9ffa9443
+  retrieved: true

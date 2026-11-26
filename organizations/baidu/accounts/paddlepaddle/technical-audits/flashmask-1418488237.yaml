@@ -1,0 +1,130 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:07:41+00:00'
+evidence_fingerprint: 76c6f2e44b4cb1093908f6a7a3483df80926e4ecb0ca0b42d9f4538dcf3b053f
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/FlashMask
+  repository_id: 1418488237
+  url: https://github.com/PaddlePaddle/FlashMask
+  description: Efficient Mask-Aware Distributed Attention for Long-Context Training
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-19T15:06:00Z'
+  stars: 67
+  readme_url: https://github.com/PaddlePaddle/FlashMask/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b2886a81e0756633b8afe279fff4aa7bfe500be6
+  manifest_paths:
+  - pyproject.toml
+  - setup.py
+  - flashmask/cp_balance/csrc/CMakeLists.txt
+  - flashmask/overlap/csrc/CMakeLists.txt
+  - flashmask/utils/csrc/setup.py
+  source_files_inspected:
+  - flashmask/__init__.py
+  - flashmask/backend/__init__.py
+  - flashmask/backend/_paddle.py
+  - flashmask/backend/_torch.py
+  repository_tree:
+    status: captured
+    sha: f08e09f184da834912ff0fceb0b5f88ec257070a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Flexible and Efficient Attention with Column-wise Sparse Masks**'
+  why_used: Efficient Mask-Aware Distributed Attention for Long-Context Training
+  core_features:
+  - name: memory-efficient, flexible, and fast masked attention kernels;
+    description: memory-efficient, flexible, and fast masked attention kernels;
+    evidence:
+    - README.md#✨ Key Features
+  - name: mask-aware distributed attention with communication/computation overlap and load balancing;
+    description: mask-aware distributed attention with communication/computation overlap and load balancing;
+    evidence:
+    - README.md#✨ Key Features
+  - name: large head dim support.
+    description: large head dim support.
+    evidence:
+    - README.md#✨ Key Features
+  technology_stack:
+    languages:
+    - Python
+    - Cuda
+    - C++
+    - Shell
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: flashmask/__init__.py,
+    flashmask/backend/__init__.py, flashmask/backend/_paddle.py, flashmask/backend/_torch.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/FlashMask/blob/main/README.md
+  path: README.md
+  blob_sha: b2886a81e0756633b8afe279fff4aa7bfe500be6
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 3af2dfb796989a5157b5fc689691e940ea2bb8fe
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: d7e814901398349099b84a30d6acfb4f6ca20404
+  retrieved: true
+- type: manifest
+  path: flashmask/cp_balance/csrc/CMakeLists.txt
+  blob_sha: f9d884504c3f762a9084ba49b34590186041d73e
+  retrieved: true
+- type: manifest
+  path: flashmask/overlap/csrc/CMakeLists.txt
+  blob_sha: cf7d6175b7ad591e44af19408ee683dcc159d3c0
+  retrieved: true
+- type: manifest
+  path: flashmask/utils/csrc/setup.py
+  blob_sha: 417f957822f10acf3123d7e709146f253a21b27c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 2012010
+    Cuda: 242989
+    C++: 22406
+    Shell: 18982
+    CMake: 8591
+- type: Git tree
+  status: captured
+  sha: f08e09f184da834912ff0fceb0b5f88ec257070a
+  truncated: false
+- type: source_file
+  path: flashmask/__init__.py
+  blob_sha: 6d6db651b8fea0909ba87444f8c99ba62c95004f
+  retrieved: true
+- type: source_file
+  path: flashmask/backend/__init__.py
+  blob_sha: 42e7737e6de5d0c03c64a81ebfc9b8eb98a98f62
+  retrieved: true
+- type: source_file
+  path: flashmask/backend/_paddle.py
+  blob_sha: 6198cd73486f00d86a5a0b619b10ead73a12d17d
+  retrieved: true
+- type: source_file
+  path: flashmask/backend/_torch.py
+  blob_sha: 158fa5b11ed7b3a994b56fecb174ef3fe452976a
+  retrieved: true

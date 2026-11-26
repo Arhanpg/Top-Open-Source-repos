@@ -1,0 +1,145 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:09:18+00:00'
+evidence_fingerprint: b8490253cdfe6805293abd321811593b2cce2e73504ad5b0c5f882194f4b95cc
+repository_metadata:
+  company: SAP
+  account: cap-java
+  full_name: cap-java/repository-template
+  repository_id: 770389729
+  url: https://github.com/cap-java/repository-template
+  description: Default templates of SAP's repositories. Provides template files including LICENSE, .reuse/dep5,
+    Code of Conduct, etc...
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T13:54:35Z'
+  stars: 0
+  readme_url: https://github.com/cap-java/repository-template/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f5186752308b8d37abffcda3308500e3816a7ace
+  manifest_paths:
+  - package.json
+  - pom.xml
+  - srv/pom.xml
+  - samples/bookshop/package.json
+  - samples/bookshop/pom.xml
+  - samples/bookshop/srv/pom.xml
+  source_files_inspected:
+  - samples/bookshop/srv/src/main/java/customer/bookshop/Application.java
+  - samples/bookshop/app/admin-books/webapp/Component.js
+  - samples/bookshop/app/browse/webapp/Component.js
+  - samples/bookshop/srv/src/main/java/customer/bookshop/handlers/CatalogServiceHandler.java
+  repository_tree:
+    status: captured
+    sha: 4f7d197d425bb4fcc076c249c1a25e099e4cafa2
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This template is a good start for repositories on github.com/cap-java.
+  why_used: Default templates of SAP's repositories. Provides template files including LICENSE, .reuse/dep5, Code
+    of Conduct, etc...
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    frameworks_and_libraries: []
+    dependencies:
+    - '@sap/cds-dk'
+    - '@sap/eslint-plugin-cds'
+    - bookshop
+    - bookshop-parent
+    - cds-adapter-odata-v4
+    - cds-maven-plugin
+    - cds-services-bom
+    - cds-services-utils
+    - cds-starter-spring-boot
+    - eslint
+    - flatten-maven-plugin
+    - h2
+    - maven-checkstyle-plugin
+    - maven-compiler-plugin
+    - maven-enforcer-plugin
+    - maven-surefire-plugin
+    - plugin-template-emoji
+    - plugin-template-emoji-parent
+    - slf4j-api
+    - spring-boot-dependencies
+    - spring-boot-devtools
+    - spring-boot-maven-plugin
+    - spring-boot-starter-security
+    - spring-boot-starter-test
+    - spring-boot-starter-webmvc-test
+    - spring-security-test
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: samples/bookshop/srv/src/main/java/customer/bookshop/Application.java,
+    samples/bookshop/app/admin-books/webapp/Component.js, samples/bookshop/app/browse/webapp/Component.js, samples/bookshop/srv/src/main/java/customer/bookshop/handlers/CatalogServiceHandler.java'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions in
+    our security policy on how to report it. Please do not create GitHub issues for security-related doubts or problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-java/repository-template/blob/main/README.md
+  path: README.md
+  blob_sha: f5186752308b8d37abffcda3308500e3816a7ace
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 8cedb0c2c9e350da78ccb8cf6cb68eafe03608e1
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: 986da22de98130d2ac30b06bb8ef92a414fbe36c
+  retrieved: true
+- type: manifest
+  path: srv/pom.xml
+  blob_sha: c4b768dfbc7f1819c548c377f8dadb0144edd68f
+  retrieved: true
+- type: manifest
+  path: samples/bookshop/package.json
+  blob_sha: 1c37820efec4c211646aac3fdbefd0d4385c98df
+  retrieved: true
+- type: manifest
+  path: samples/bookshop/pom.xml
+  blob_sha: 87faf65d43d9de636033597c091d2517917ac5dc
+  retrieved: true
+- type: manifest
+  path: samples/bookshop/srv/pom.xml
+  blob_sha: ef6e4cc035f857e7f2a577cec3088e7bf9a7bdac
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 2687
+- type: Git tree
+  status: captured
+  sha: 4f7d197d425bb4fcc076c249c1a25e099e4cafa2
+  truncated: false
+- type: source_file
+  path: samples/bookshop/srv/src/main/java/customer/bookshop/Application.java
+  blob_sha: f395d210b560f8cc37b3f8ec91836ddbd42448ce
+  retrieved: true
+- type: source_file
+  path: samples/bookshop/app/admin-books/webapp/Component.js
+  blob_sha: e98677ee91beb374db080e4406548ec02b01cf8b
+  retrieved: true
+- type: source_file
+  path: samples/bookshop/app/browse/webapp/Component.js
+  blob_sha: 4020679f81553d85d5d5de9cd1602aaf35c2abb1
+  retrieved: true
+- type: source_file
+  path: samples/bookshop/srv/src/main/java/customer/bookshop/handlers/CatalogServiceHandler.java
+  blob_sha: 72f17a60a06ed97b4c21cb0654c1340ea3d0e4ff
+  retrieved: true

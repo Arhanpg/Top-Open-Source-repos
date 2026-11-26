@@ -1,0 +1,115 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:18:30+00:00'
+evidence_fingerprint: b3240e3188aa5d31b87b60f982cfe4a07381c245040f7ffa66e676b5fe5a6334
+repository_metadata:
+  company: Siemens
+  account: mindsphere
+  full_name: mindsphere/mindconnect-mqtt
+  repository_id: 656060641
+  url: https://github.com/mindsphere/mindconnect-mqtt
+  description: 'MindConnect MQTT - Example for getting started to securely connect your on-site devices in a saleable
+    manner to Insights Hub. By cloning or downloading this repository, you accept the Development License Agreement,
+    which can be found at https://documentation.mindsphere.io/MindSphere/license.html '
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-03-12T08:27:47Z'
+  stars: 7
+  readme_url: https://github.com/mindsphere/mindconnect-mqtt/blob/main/README.md
+  readme_path: README.md
+  readme_sha: db9f7c75026c93d998152237e00fb4999c5f671c
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - lib/config_parser.py
+  - AssetModelPublisher.py
+  - MindConnectClient.py
+  repository_tree:
+    status: captured
+    sha: c52d733f362580d817c25134d8b62cadc9a6e7f5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Sample python code for getting started to securely connect your MindConnect MQTT on-site devices in a
+    scaleable manner to Insights Hub.
+  why_used: MindConnect MQTT - Example for getting started to securely connect your on-site devices in a saleable
+    manner to Insights Hub. By cloning or downloading this repository, you accept the Development License Agreement,
+    which can be found at https://documentation.mindsphere.io/MindSphere/license.html
+  core_features:
+  - name: Use MQTT certificates to connect to Insights Hub.
+    description: Use MQTT certificates to connect to Insights Hub.
+    evidence:
+    - README.md#Features
+  - name: Define Asset Model and publish for model creation and instantiation.
+    description: Define Asset Model and publish for model creation and instantiation.
+    evidence:
+    - README.md#Features
+  - name: Ingesting timeseries data, events and uploading files to Insights Hub.
+    description: Ingesting timeseries data, events and uploading files to Insights Hub.
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - PyJWT
+    - PySimpleGUI
+    - certifi
+    - charset-normalizer
+    - idna
+    - oauthlib
+    - paho-mqtt
+    - requests
+    - schedule
+    - urllib3
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/config_parser.py,
+    AssetModelPublisher.py, MindConnectClient.py'
+  setup_and_usage:
+  - 'Installation: Install latest Python version and install the dependencies using below command.'
+  - 'Installation: run pip install -r requirements.txt'
+  - 'Installation: Verify the valid certificates in the agent_cert folder and mqtt-config.json file is updated with
+    the correct values.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/mindsphere/mindconnect-mqtt/blob/main/README.md
+  path: README.md
+  blob_sha: db9f7c75026c93d998152237e00fb4999c5f671c
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 6182ea397b4f5108d576098cd4729ed16ead7055
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 37712
+- type: Git tree
+  status: captured
+  sha: c52d733f362580d817c25134d8b62cadc9a6e7f5
+  truncated: false
+- type: source_file
+  path: lib/config_parser.py
+  blob_sha: 79fb63ab632d6cf8978006732288d1ef38bf7681
+  retrieved: true
+- type: source_file
+  path: AssetModelPublisher.py
+  blob_sha: 9f7ac58115f068a5ae89df983d0fb48c0f6c41a5
+  retrieved: true
+- type: source_file
+  path: MindConnectClient.py
+  blob_sha: 7a62fc71785146510435a924c42a1a4ccc1b2c78
+  retrieved: true

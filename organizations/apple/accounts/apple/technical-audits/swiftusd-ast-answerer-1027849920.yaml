@@ -1,0 +1,94 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:59:08+00:00'
+evidence_fingerprint: 50416994b3af9879f6237d7ae23e902490f09462dca6f18f7693d174b4f1e55e
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/SwiftUsd-ast-answerer
+  repository_id: 1027849920
+  url: https://github.com/apple/SwiftUsd-ast-answerer
+  description: Code generation tool for SwiftUsd
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-02T21:48:47Z'
+  stars: 10
+  readme_url: https://github.com/apple/SwiftUsd-ast-answerer/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4b147a1d09683b5bffbe500aa1f390c009821429
+  manifest_paths:
+  - CMakeLists.txt
+  source_files_inspected:
+  - source/Driver/main.cpp
+  - analysis_change.py
+  - resources/test.cpp
+  - source/AnalysisPass/APINotesAnalysisPass.cpp
+  repository_tree:
+    status: captured
+    sha: 925d156e6fa413e010127181787ade170a27560b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A Clang-AST based project for understanding the OpenUSD AST and generating code for a Swift interface
+    to Usd
+  why_used: Code generation tool for SwiftUsd
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/Driver/main.cpp,
+    analysis_change.py, resources/test.cpp, source/AnalysisPass/APINotesAnalysisPass.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/SwiftUsd-ast-answerer/blob/main/README.md
+  path: README.md
+  blob_sha: 4b147a1d09683b5bffbe500aa1f390c009821429
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 1c3af365948ea7e503aa69e6f727c9184efa889b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 892507
+    Python: 20950
+    CMake: 12594
+- type: Git tree
+  status: captured
+  sha: 925d156e6fa413e010127181787ade170a27560b
+  truncated: false
+- type: source_file
+  path: source/Driver/main.cpp
+  blob_sha: f0ea9ac1f8ce598d09b43ede2e91244e9239943f
+  retrieved: true
+- type: source_file
+  path: analysis_change.py
+  blob_sha: e6d731756ae7f6a19ca2e3b64cb2491f2965573b
+  retrieved: true
+- type: source_file
+  path: resources/test.cpp
+  blob_sha: 7f8a3b75a8f6e27d8ddee8caf6cb5b3b82e7c2bc
+  retrieved: true
+- type: source_file
+  path: source/AnalysisPass/APINotesAnalysisPass.cpp
+  blob_sha: a8154d76c5d0775ae1fe13e14025230b643bae01
+  retrieved: true

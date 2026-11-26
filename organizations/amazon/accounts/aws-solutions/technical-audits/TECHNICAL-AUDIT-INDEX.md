@@ -1,10 +1,10 @@
 # Technical audits — aws-solutions
 
-Updated: 2026-11-25T23:09:24+00:00
+Updated: 2026-11-26T07:22:00+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 13
 
 ## Repository dossiers
 
@@ -18,4 +18,8 @@ Updated: 2026-11-25T23:09:24+00:00
 | application-pattern-orchestrator-on-aws-509358788 | evidence_only | [application-pattern-orchestrator-on-aws-509358788.md](application-pattern-orchestrator-on-aws-509358788.md) | [application-pattern-orchestrator-on-aws-509358788.yaml](application-pattern-orchestrator-on-aws-509358788.yaml) |
 | audience-uploader-from-aws-clean-rooms-569782567 | evidence_only | [audience-uploader-from-aws-clean-rooms-569782567.md](audience-uploader-from-aws-clean-rooms-569782567.md) | [audience-uploader-from-aws-clean-rooms-569782567.yaml](audience-uploader-from-aws-clean-rooms-569782567.yaml) |
 | automated-data-analytics-on-aws-486439844 | evidence_only | [automated-data-analytics-on-aws-486439844.md](automated-data-analytics-on-aws-486439844.md) | [automated-data-analytics-on-aws-486439844.yaml](automated-data-analytics-on-aws-486439844.yaml) |
+| automated-security-response-on-aws-285372365 | evidence_only | [automated-security-response-on-aws-285372365.md](automated-security-response-on-aws-285372365.md) | [automated-security-response-on-aws-285372365.yaml](automated-security-response-on-aws-285372365.yaml) |
+| automations-for-aws-firewall-manager-298359533 | evidence_only | [automations-for-aws-firewall-manager-298359533.md](automations-for-aws-firewall-manager-298359533.md) | [automations-for-aws-firewall-manager-298359533.yaml](automations-for-aws-firewall-manager-298359533.yaml) |
+| aws-centralized-logging-72462327 | evidence_only | [aws-centralized-logging-72462327.md](aws-centralized-logging-72462327.md) | [aws-centralized-logging-72462327.yaml](aws-centralized-logging-72462327.yaml) |
+| aws-connected-mobility-solution-452003006 | evidence_only | [aws-connected-mobility-solution-452003006.md](aws-connected-mobility-solution-452003006.md) | [aws-connected-mobility-solution-452003006.yaml](aws-connected-mobility-solution-452003006.yaml) |
 | github-178254703 | evidence_only | [github-178254703.md](github-178254703.md) | [github-178254703.yaml](github-178254703.yaml) |

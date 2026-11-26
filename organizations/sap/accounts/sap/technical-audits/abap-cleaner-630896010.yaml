@@ -1,0 +1,136 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:17:35+00:00'
+evidence_fingerprint: 1437a259eef6c13bab31a452e250fdc4c394d341f0f3efd9f37810cdcf316358
+repository_metadata:
+  company: SAP
+  account: SAP
+  full_name: SAP/abap-cleaner
+  repository_id: 630896010
+  url: https://github.com/SAP/abap-cleaner
+  description: ABAP cleaner applies 100+ cleanup rules to ABAP code at a single keystroke
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-22T12:44:33Z'
+  stars: 695
+  readme_url: https://github.com/SAP/abap-cleaner/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a47f8a0d14d486d947f623456e4c4e37f38550fb
+  manifest_paths:
+  - pom.xml
+  - com.sap.adt.abapcleaner.app/pom.xml
+  - vscode-extension/package.json
+  source_files_inspected:
+  - com.sap.adt.abapcleaner.gui/src/com/sap/adt/abapcleaner/gui/BackgroundJob.java
+  - com.sap.adt.abapcleaner.gui/src/com/sap/adt/abapcleaner/gui/BackgroundTask.java
+  - com.sap.adt.abapcleaner.gui/src/com/sap/adt/abapcleaner/gui/CodeDisplay.java
+  - com.sap.adt.abapcleaner.gui/src/com/sap/adt/abapcleaner/gui/CodeDisplayColors.java
+  repository_tree:
+    status: captured
+    sha: c6d4ea2d962076c8d716de5189edb2876453b53f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: While there is no lack of guidelines and rules on what clean ABAP code should look like...
+  why_used: ABAP cleaner applies 100+ cleanup rules to ABAP code at a single keystroke
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - TypeScript
+    - ABAP
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@types/node'
+    - '@types/vscode'
+    - '@vscode/vsce'
+    - build-helper-maven-plugin
+    - com.sap.adt.abapcleaner.app
+    - maven-antrun-plugin
+    - org.junit
+    - parent
+    - target-platform-configuration
+    - tycho-maven-plugin
+    - tycho-p2-director-plugin
+    - tycho-p2-repository-plugin
+    - tycho-surefire-plugin
+    - tycho-versions-plugin
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: com.sap.adt.abapcleaner.gui/src/com/sap/adt/abapcleaner/gui/BackgroundJob.java,
+    com.sap.adt.abapcleaner.gui/src/com/sap/adt/abapcleaner/gui/BackgroundTask.java, com.sap.adt.abapcleaner.gui/src/com/sap/adt/abapcleaner/gui/CodeDisplay.java,
+    com.sap.adt.abapcleaner.gui/src/com/sap/adt/abapcleaner/gui/CodeDisplayColors.java'
+  setup_and_usage: []
+  limitations:
+  - 'Limitations and Known Issues: In ABAP development tools for Eclipse (ADT), the ABAP cleaner plug-in (as any
+    other plug-in) can only be installed'
+  - 'Limitations and Known Issues: from extensible versions of ADT, in which menu ''Help / Install New Software...''
+    is available.'
+  - 'Limitations and Known Issues: Since ABAP cleaner does not perform additional backend calls, cleanup is restricted
+    to what can be done within the current code document,'
+  - 'Limitations and Known Issues: without retrieving additional DDIC information, signatures, includes etc.'
+  - 'Limitations and Known Issues: ABAP cleaner strives to offer cleanup rules that automatically detect what can
+    be improved in the given ABAP code,'
+  - 'Limitations and Known Issues: so after some initial configuration, users shall be able to apply "everything
+    everywhere" with just one keystroke.'
+  - 'Limitations and Known Issues: ABAP cleaner is therefore restricted to cleanup rules that keep functionality
+    unchanged and can be applied without'
+  - 'Limitations and Known Issues: any additional user interaction, or need for subsequent inspection of changes.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP/abap-cleaner/blob/main/README.md
+  path: README.md
+  blob_sha: a47f8a0d14d486d947f623456e4c4e37f38550fb
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: e76130b801706e479be02c6e8109052edb655537
+  retrieved: true
+- type: manifest
+  path: com.sap.adt.abapcleaner.app/pom.xml
+  blob_sha: b6fbf75d93ce438d1ee0f2c69d0df41822c51fab
+  retrieved: true
+- type: manifest
+  path: vscode-extension/package.json
+  blob_sha: ec3d65cd1509e796e5c2f8ee7858653926a209bd
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 6014198
+    TypeScript: 55475
+    ABAP: 5696
+    HTML: 1517
+- type: Git tree
+  status: captured
+  sha: c6d4ea2d962076c8d716de5189edb2876453b53f
+  truncated: false
+- type: source_file
+  path: com.sap.adt.abapcleaner.gui/src/com/sap/adt/abapcleaner/gui/BackgroundJob.java
+  blob_sha: 9d847b5d4472ee0178014e51f0cc344a6801ce13
+  retrieved: true
+- type: source_file
+  path: com.sap.adt.abapcleaner.gui/src/com/sap/adt/abapcleaner/gui/BackgroundTask.java
+  blob_sha: 84a48d345b15cfceaab04a83688182d22b68ff57
+  retrieved: true
+- type: source_file
+  path: com.sap.adt.abapcleaner.gui/src/com/sap/adt/abapcleaner/gui/CodeDisplay.java
+  blob_sha: 52f9386f2bd4e2956da9c7cdbd4310932a236eac
+  retrieved: true
+- type: source_file
+  path: com.sap.adt.abapcleaner.gui/src/com/sap/adt/abapcleaner/gui/CodeDisplayColors.java
+  blob_sha: ee0e9af434e5d5f48e6eca9c245f5015473a60b6
+  retrieved: true

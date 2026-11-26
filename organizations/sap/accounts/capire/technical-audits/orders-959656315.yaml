@@ -1,0 +1,88 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:17:18+00:00'
+evidence_fingerprint: 2a168efe7b2632e7afeccf4b44087fa3802da793bda4e6146ed35c90cfd11f12
+repository_metadata:
+  company: SAP
+  account: capire
+  full_name: capire/orders
+  repository_id: 959656315
+  url: https://github.com/capire/orders
+  description: A generic reuse service
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-28T15:13:44Z'
+  stars: 1
+  readme_url: https://github.com/capire/orders/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 863862cef7a17d2ece6cc3e7031d4c81b3ac200b
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - app/orders/webapp/Component.js
+  - srv/orders-service.js
+  repository_tree:
+    status: captured
+    sha: 034f302a1d32ff72f7d291fca5c142429f531323
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a sample app which provides a generic reuse service for managing orders, and a corresponding
+    Fiori UI. It is used in the bookstore sample.
+  why_used: A generic reuse service
+  core_features: []
+  technology_stack:
+    languages:
+    - CAP CDS
+    - JavaScript
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/hana'
+    - '@capire/common'
+    - '@sap/cds'
+    - '@sap/xssec'
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: app/orders/webapp/Component.js,
+    srv/orders-service.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/capire/orders/blob/main/README.md
+  path: README.md
+  blob_sha: 863862cef7a17d2ece6cc3e7031d4c81b3ac200b
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 838a8c9c39eb631fd6006eae7939d104ed3db497
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    CAP CDS: 3681
+    JavaScript: 1480
+    HTML: 1240
+- type: Git tree
+  status: captured
+  sha: 034f302a1d32ff72f7d291fca5c142429f531323
+  truncated: false
+- type: source_file
+  path: app/orders/webapp/Component.js
+  blob_sha: b01bcb6559b11fc11747513ed304c6e980d6fd1f
+  retrieved: true
+- type: source_file
+  path: srv/orders-service.js
+  blob_sha: 222129b471352562cedac646ff6f5c6b5854a5fd
+  retrieved: true

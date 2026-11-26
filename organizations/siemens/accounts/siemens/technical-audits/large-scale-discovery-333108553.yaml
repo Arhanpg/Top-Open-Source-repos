@@ -1,0 +1,275 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:18:39+00:00'
+evidence_fingerprint: e0b52e6f8a80f475688069f7823d4c6beade871dc181d2fc7bade155c42fe62e
+repository_metadata:
+  company: Siemens
+  account: Siemens
+  full_name: siemens/Large-Scale-Discovery
+  repository_id: 333108553
+  url: https://github.com/siemens/Large-Scale-Discovery
+  description: A network scanning solution for information gathering in large IT/OT network environments.
+  default_branch: master
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-31T14:00:41Z'
+  stars: 33
+  readme_url: https://github.com/siemens/Large-Scale-Discovery/blob/master/README.md
+  readme_path: README.md
+  readme_sha: f9c3ee943cbc53f35759dadc408f16ac0a20cc38
+  manifest_paths:
+  - go.mod
+  - web_frontend/package.json
+  source_files_inspected:
+  - web_frontend/src/App.ts
+  - web_frontend/src/i18n/index.ts
+  - agent/main.go
+  - broker/main.go
+  repository_tree:
+    status: captured
+    sha: 57daf1827e7b669f3e53e72a0a14e8b2c93b3bbb
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Large-Scale Discovery is a solution for discovering assets, services and contents and metadata within
+    large IT/OT networks. It relies on a few basic well-known open-source tools (Nmap , SSLyze) and is extended
+    with additional scan logic and several custom scan modules.
+  why_used: A network scanning solution for information gathering in large IT/OT network environments.
+  core_features:
+  - name: Web interface for scan configuration and control
+    description: Web interface for scan configuration and control
+    evidence:
+    - README.md#Key Features
+  - name: Multiple scan scopes, groups and users possible
+    description: Multiple scan scopes, groups and users possible
+    evidence:
+    - README.md#Key Features
+  - name: Continuous scans to keep data updated
+    description: Continuous scans to keep data updated
+    evidence:
+    - README.md#Key Features
+  - name: Scan agents can be put into dedicated network zones
+    description: Scan agents can be put into dedicated network zones
+    evidence:
+    - README.md#Key Features
+  - name: Randomization of scan targets for load distribution
+    description: Randomization of scan targets for load distribution
+    evidence:
+    - README.md#Key Features
+  - name: Restriction of scan times to local working hours (e.g. during office times or outside)
+    description: Restriction of scan times to local working hours (e.g. during office times or outside)
+    evidence:
+    - README.md#Key Features
+  - name: Scalable configuration and parallelization
+    description: Scalable configuration and parallelization
+    evidence:
+    - README.md#Key Features
+  - name: Discovery of potential hostnames from different sources
+    description: Discovery of potential hostnames from different sources
+    evidence:
+    - README.md#Key Features
+  - name: Data expansion with information from remote repositories, e.g., Active Directory
+    description: Data expansion with information from remote repositories, e.g., Active Directory
+    evidence:
+    - README.md#Key Features
+  - name: Versatile scan module configuration
+    description: Versatile scan module configuration
+    evidence:
+    - README.md#Key Features
+  - name: Lowest possible dependency stack
+    description: Lowest possible dependency stack
+    evidence:
+    - README.md#Key Features
+  technology_stack:
+    languages:
+    - Go
+    - Vue
+    - TypeScript
+    - JavaScript
+    - Batchfile
+    - HTML
+    - CSS
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - '@dicebear/collection'
+    - '@dicebear/core'
+    - '@intlify/unplugin-vue-i18n'
+    - '@playwright/test'
+    - '@primeuix/themes'
+    - '@primevue/core'
+    - '@types/node'
+    - '@vitejs/plugin-vue'
+    - '@vue/eslint-config-prettier'
+    - '@vue/eslint-config-typescript'
+    - '@vue/test-utils'
+    - aead.dev/minisign
+    - axios
+    - carvel.dev/ytt
+    - chart.js
+    - code.gitea.io/sdk/gitea
+    - dario.cat/mergo
+    - eslint
+    - eslint-plugin-vue
+    - filippo.io/edwards25519
+    - git.mills.io/prologic/smtpd
+    - github.com/42wim/httpsig
+    - github.com/Azure/azure-sdk-for-go/sdk/azcore
+    - github.com/Azure/azure-sdk-for-go/sdk/azidentity
+    - github.com/Azure/azure-sdk-for-go/sdk/internal
+    - github.com/Azure/azure-sdk-for-go/sdk/storage/azblob
+    - github.com/Azure/go-ntlmssp
+    - github.com/AzureAD/microsoft-authentication-library-for-go
+    - github.com/FalconOpsLLC/goexec
+    - github.com/KyleBanks/depth
+    - github.com/Masterminds/semver/v3
+    - github.com/Microsoft/go-winio
+    - github.com/Mzack9999/gcache
+    - github.com/Mzack9999/go-http-digest-auth-client
+    - github.com/Mzack9999/go-rsync
+    - github.com/Mzack9999/goimpacket
+    - github.com/Pallinder/go-randomdata
+    - github.com/ProtonMail/go-crypto
+    - github.com/PuerkitoBio/goquery
+    - github.com/PuerkitoBio/purell
+    - github.com/PuerkitoBio/urlesc
+    - github.com/RedTeamPentesting/adauth
+    - github.com/STARRY-S/zip
+    - github.com/Ullaakut/nmap/v3
+    - github.com/VividCortex/ewma
+    - github.com/akrylysov/pogreb
+    - github.com/alecthomas/chroma
+    - github.com/alecthomas/chroma/v2
+    - github.com/alecthomas/template
+    - github.com/alecthomas/units
+    - github.com/alexbrainman/sspi
+    - github.com/alexsnet/go-vnc
+    - github.com/alitto/pond
+    - github.com/andybalholm/brotli
+    - github.com/andybalholm/cascadia
+    - github.com/andygrunwald/go-jira
+    - github.com/antchfx/htmlquery
+    - github.com/antchfx/xmlquery
+    - github.com/antchfx/xpath
+    - github.com/asaskevich/govalidator
+    - github.com/aws/aws-sdk-go-v2
+    - github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream
+    - github.com/aws/aws-sdk-go-v2/config
+    - github.com/aws/aws-sdk-go-v2/credentials
+    - github.com/aws/aws-sdk-go-v2/feature/ec2/imds
+    - github.com/aws/aws-sdk-go-v2/feature/s3/manager
+    - github.com/aws/aws-sdk-go-v2/internal/configsources
+    - github.com/aws/aws-sdk-go-v2/internal/endpoints/v2
+    - github.com/aws/aws-sdk-go-v2/internal/ini
+    - github.com/aws/aws-sdk-go-v2/internal/v4a
+    - github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding
+    - github.com/aws/aws-sdk-go-v2/service/internal/checksum
+    - github.com/aws/aws-sdk-go-v2/service/internal/presigned-url
+    - github.com/aws/aws-sdk-go-v2/service/internal/s3shared
+    - github.com/aws/aws-sdk-go-v2/service/s3
+    - github.com/aws/aws-sdk-go-v2/service/sso
+    - github.com/aws/aws-sdk-go-v2/service/ssooidc
+    - github.com/aws/aws-sdk-go-v2/service/sts
+    - github.com/aws/smithy-go
+    - github.com/aymanbagabas/go-osc52/v2
+    - github.com/aymerick/douceur
+    - github.com/bahlo/generic-list-go
+    - github.com/bits-and-blooms/bitset
+    - github.com/bits-and-blooms/bloom/v3
+    - github.com/bmizerany/assert
+    - github.com/bodgit/plumbing
+    - github.com/bodgit/sevenzip
+    - github.com/bodgit/windows
+    - github.com/brianvoe/gofakeit/v7
+    - github.com/buger/jsonparser
+    - github.com/bytedance/gopkg
+    - github.com/bytedance/sonic
+    - github.com/bytedance/sonic/loader
+    - github.com/caddyserver/certmagic
+    - github.com/caddyserver/zerossl
+    - github.com/censys/censys-sdk-go
+    - github.com/cespare/xxhash
+    - github.com/cespare/xxhash/v2
+    - github.com/charmbracelet/colorprofile
+    - github.com/charmbracelet/glamour
+    - github.com/charmbracelet/lipgloss
+    - github.com/charmbracelet/x/ansi
+    - github.com/charmbracelet/x/cellbuf
+    - github.com/charmbracelet/x/exp/slice
+    - github.com/charmbracelet/x/term
+    - github.com/cheggaaa/pb/v3
+    - github.com/clbanning/mxj/v2
+    - github.com/cloudflare/cfssl
+    - github.com/cloudflare/circl
+    - github.com/cloudwego/base64x
+    - github.com/cnf/structhash
+    - github.com/cockroachdb/apd/v3
+    - github.com/containerd/errdefs
+    - github.com/containerd/errdefs/pkg
+    - github.com/cyphar/filepath-securejoin
+    - jsdom
+    - knip
+    - pinia
+    - prettier
+    - primeicons
+    build_and_package_tools:
+    - Go module manifest
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: web_frontend/src/App.ts,
+    web_frontend/src/i18n/index.ts, agent/main.go, broker/main.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/siemens/Large-Scale-Discovery/blob/master/README.md
+  path: README.md
+  blob_sha: f9c3ee943cbc53f35759dadc408f16ac0a20cc38
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 4d720ec1035052cba9feec2890102f23a012db59
+  retrieved: true
+- type: manifest
+  path: web_frontend/package.json
+  blob_sha: 5435787a510d2f67855a80787ce088a0f7705101
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 1642916
+    Vue: 834653
+    TypeScript: 454686
+    JavaScript: 3814
+    Batchfile: 2170
+    HTML: 874
+    CSS: 714
+    Shell: 440
+- type: Git tree
+  status: captured
+  sha: 57daf1827e7b669f3e53e72a0a14e8b2c93b3bbb
+  truncated: false
+- type: source_file
+  path: web_frontend/src/App.ts
+  blob_sha: a0d79defad318fe42a526253ae75b781ab591519
+  retrieved: true
+- type: source_file
+  path: web_frontend/src/i18n/index.ts
+  blob_sha: 29295b5ab0307f3491e94292f08c920eaadfd0a0
+  retrieved: true
+- type: source_file
+  path: agent/main.go
+  blob_sha: 563f888105f48e3b1797576cabdde164c1804c6d
+  retrieved: true
+- type: source_file
+  path: broker/main.go
+  blob_sha: bc0d3dc327a006da56c1285ad2ffa5ef4fedfc98
+  retrieved: true

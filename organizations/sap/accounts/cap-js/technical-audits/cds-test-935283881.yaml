@@ -1,0 +1,112 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:09:25+00:00'
+evidence_fingerprint: 5011c04b190d60dc41a0558ddae3efb7ea6451574ce4b1f8e101f2ac4c0edc3a
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/cds-test
+  repository_id: 935283881
+  url: https://github.com/cap-js/cds-test
+  description: Test Support for CAP Node.js
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T09:05:52Z'
+  stars: 6
+  readme_url: https://github.com/cap-js/cds-test/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 07c6001a098ad89c8f788c49b4b6d9655a598b4d
+  manifest_paths:
+  - package.json
+  - test/app/package.json
+  source_files_inspected:
+  - lib/cds-test.js
+  - lib/chai.js
+  - lib/data.js
+  - lib/expect.js
+  repository_tree:
+    status: captured
+    sha: 993944b4e740bb3130b04d1e31007d4cc3089ae0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a library with test utilities for CAP Node.js applications, like
+  why_used: Test Support for CAP Node.js
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/sqlite'
+    - '@cap-js/test'
+    - '@sap/cds'
+    - chai
+    - chai-as-promised
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/cds-test.js, lib/chai.js,
+    lib/data.js, lib/expect.js'
+  setup_and_usage:
+  - 'Usage: Add a simple test file test/bookshop.test.js with this content:'
+  - 'Usage: const cds = require(''@sap/cds'')'
+  - 'Usage: const { GET, expect } = cds.test (__dirname+''/..'')'
+  - 'Usage: describe(''Sample tests'', () => {'
+  - 'Usage: it(''serves Books'', async () => {'
+  - 'Usage: const { data } = await GET /odata/v4/catalog/Books'
+  - 'Usage: expect(data.value.length).to.be.greaterThanOrEqual(5)'
+  - 'Usage: Run it with Vitest, for example:'
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/cds-test/blob/main/README.md
+  path: README.md
+  blob_sha: 07c6001a098ad89c8f788c49b4b6d9655a598b4d
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 156486cc585c7b55245ae7186873805bb4ca4b78
+  retrieved: true
+- type: manifest
+  path: test/app/package.json
+  blob_sha: 99cbbb231e4c49e11541f6eaa27116174f3d906d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 74866
+    CAP CDS: 1846
+- type: Git tree
+  status: captured
+  sha: 993944b4e740bb3130b04d1e31007d4cc3089ae0
+  truncated: false
+- type: source_file
+  path: lib/cds-test.js
+  blob_sha: 766240af4ea97b74162598a69ec197974f3d2aa8
+  retrieved: true
+- type: source_file
+  path: lib/chai.js
+  blob_sha: a92c8fb1256788795294a3f66d59526f3f834696
+  retrieved: true
+- type: source_file
+  path: lib/data.js
+  blob_sha: a540389013eb50199861377469f60660ed5df5a9
+  retrieved: true
+- type: source_file
+  path: lib/expect.js
+  blob_sha: 27ce20d0a14388467e820f921273f904e4343d02
+  retrieved: true

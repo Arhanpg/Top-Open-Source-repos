@@ -1,0 +1,243 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:01:57+00:00'
+evidence_fingerprint: 6c0cd9951a5071bd3f2d921a8b5c9751795c76ce9427de34a8bcbb7d2ae0993f
+repository_metadata:
+  company: SAP
+  account: kyma-project
+  full_name: kyma-project/cfapi
+  repository_id: 817216616
+  url: https://github.com/kyma-project/cfapi
+  description: CF API kyma module
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-22T12:21:59Z'
+  stars: 0
+  readme_url: https://github.com/kyma-project/cfapi/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 8b31978fb28d9f671ebef5fb54e8db44cd4cef3a
+  manifest_paths:
+  - Dockerfile
+  - go.mod
+  - Makefile
+  - components/btp-service-broker/Dockerfile
+  - components/btp-service-broker/go.mod
+  - components/btp-service-broker/Makefile
+  source_files_inspected:
+  - components/btp-service-broker/main.go
+  - main.go
+  - api/v1alpha1/cfapi_types.go
+  - api/v1alpha1/groupversion_info.go
+  repository_tree:
+    status: captured
+    sha: a38a4695891363d0f01fd6c3707bb021056283f3
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: CF API Kyma Module is providing a CF API to run on top of Kyma, using the open source Korifi project
+    Once installed, one could use the cf cli to connect and deploy workloads.
+  why_used: CF API kyma module
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Shell
+    - Makefile
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - code.cloudfoundry.org/brokerapi/v13
+    - code.cloudfoundry.org/korifi
+    - dario.cat/mergo
+    - github.com/Azure/go-ansiterm
+    - github.com/BooleanCat/go-functional/v2
+    - github.com/BurntSushi/toml
+    - github.com/MakeNowJust/heredoc
+    - github.com/Masterminds/goutils
+    - github.com/Masterminds/semver/v3
+    - github.com/Masterminds/sprig/v3
+    - github.com/Masterminds/squirrel
+    - github.com/SAP/sap-btp-service-operator
+    - github.com/asaskevich/govalidator
+    - github.com/beorn7/perks
+    - github.com/blang/semver/v4
+    - github.com/blendle/zapdriver
+    - github.com/cespare/xxhash/v2
+    - github.com/chai2010/gettext-go
+    - github.com/clipperhouse/uax29/v2
+    - github.com/containerd/containerd
+    - github.com/containerd/errdefs
+    - github.com/containerd/log
+    - github.com/containerd/platforms
+    - github.com/cyphar/filepath-securejoin
+    - github.com/davecgh/go-spew
+    - github.com/emicklei/go-restful/v3
+    - github.com/evanphx/json-patch
+    - github.com/evanphx/json-patch/v5
+    - github.com/exponent-io/jsonpath
+    - github.com/fatih/color
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/gardener/cert-management
+    - github.com/gardener/external-dns-management
+    - github.com/go-errors/errors
+    - github.com/go-gorp/gorp/v3
+    - github.com/go-logr/logr
+    - github.com/go-logr/stdr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/go-openapi/swag/cmdutils
+    - github.com/go-openapi/swag/conv
+    - github.com/go-openapi/swag/fileutils
+    - github.com/go-openapi/swag/jsonname
+    - github.com/go-openapi/swag/jsonutils
+    - github.com/go-openapi/swag/loading
+    - github.com/go-openapi/swag/mangling
+    - github.com/go-openapi/swag/netutils
+    - github.com/go-openapi/swag/stringutils
+    - github.com/go-openapi/swag/typeutils
+    - github.com/go-openapi/swag/yamlutils
+    - github.com/go-task/slim-sprig/v3
+    - github.com/gobuffalo/flect
+    - github.com/gobwas/glob
+    - github.com/golang/protobuf
+    - github.com/google/btree
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/go-containerregistry
+    - github.com/google/pprof
+    - github.com/google/uuid
+    - github.com/gosuri/uitable
+    - github.com/gregjones/httpcache
+    - github.com/hashicorp/errwrap
+    - github.com/hashicorp/go-multierror
+    - github.com/huandu/xstrings
+    - github.com/inconshreveable/mousetrap
+    - github.com/jmoiron/sqlx
+    - github.com/json-iterator/go
+    - github.com/klauspost/compress
+    - github.com/kyma-project/istio/operator
+    - github.com/lann/builder
+    - github.com/lann/ps
+    - github.com/lib/pq
+    - github.com/liggitt/tabwriter
+    - github.com/mattn/go-colorable
+    - github.com/mattn/go-isatty
+    - github.com/mattn/go-runewidth
+    - github.com/maxbrunsfeld/counterfeiter/v6
+    - github.com/mitchellh/copystructure
+    - github.com/mitchellh/go-wordwrap
+    - github.com/mitchellh/reflectwalk
+    - github.com/moby/term
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/monochromegane/go-gitignore
+    - github.com/munnerz/goautoneg
+    - github.com/onsi/ginkgo/v2
+    - github.com/onsi/gomega
+    - github.com/opencontainers/go-digest
+    - github.com/opencontainers/image-spec
+    - github.com/peterbourgon/diskv
+    - github.com/pivotal/kpack
+    - github.com/pkg/errors
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/rubenv/sql-migrate
+    - github.com/russross/blackfriday/v2
+    - github.com/spf13/cobra
+    - github.com/spf13/pflag
+    - github.com/x448/float16
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - go.yaml.in/yaml/v2
+    - go.yaml.in/yaml/v3
+    - golang.org/x/mod
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/term
+    - golang.org/x/text
+    - golang.org/x/time
+    - golang.org/x/tools
+    - gomodules.xyz/jsonpatch/v2
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: components/btp-service-broker/main.go,
+    main.go, api/v1alpha1/cfapi_types.go, api/v1alpha1/groupversion_info.go'
+  setup_and_usage:
+  - 'Usage: Use CF cli to deploy applications as on a normal CF. The buildpacks used are native community buildpacks.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/kyma-project/cfapi/blob/main/README.md
+  path: README.md
+  blob_sha: 8b31978fb28d9f671ebef5fb54e8db44cd4cef3a
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 6ffcce2ca505aa60433777b335de0c35e32909cb
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: de14c25da095c77cc75d8a01f2f10686994cd4f0
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: fc6c368403b0815b3278e98f4b7ad1b8c5b4e7f9
+  retrieved: true
+- type: manifest
+  path: components/btp-service-broker/Dockerfile
+  blob_sha: 4215bb7832171d71f023e031e3ab92391c3eeee8
+  retrieved: true
+- type: manifest
+  path: components/btp-service-broker/go.mod
+  blob_sha: 31716153a50fd5481a93fa23240f0757a95e778d
+  retrieved: true
+- type: manifest
+  path: components/btp-service-broker/Makefile
+  blob_sha: 95e60f8d65921d3037d719fdd8e542099dd27a61
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 262257
+    Shell: 20620
+    Makefile: 6434
+    Dockerfile: 3761
+- type: Git tree
+  status: captured
+  sha: a38a4695891363d0f01fd6c3707bb021056283f3
+  truncated: false
+- type: source_file
+  path: components/btp-service-broker/main.go
+  blob_sha: 5d57f65c47e4ca18cc7dbd00c2396a692f428e44
+  retrieved: true
+- type: source_file
+  path: main.go
+  blob_sha: 793baec7a991b8fce7ba54b4f11406fd95c07973
+  retrieved: true
+- type: source_file
+  path: api/v1alpha1/cfapi_types.go
+  blob_sha: 7f4d46d17f104472c024a8c38c56e48e88016555
+  retrieved: true
+- type: source_file
+  path: api/v1alpha1/groupversion_info.go
+  blob_sha: fd25dc3ab77afe8788bf45f4237733cbfdf030c7
+  retrieved: true

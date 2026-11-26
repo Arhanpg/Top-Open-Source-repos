@@ -1,0 +1,230 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:59:26+00:00'
+evidence_fingerprint: 046fe2915a13b183a3eb7a148891d0b5adbad2c715e918a9897185cc01c8d32b
+repository_metadata:
+  company: Apple
+  account: swiftlang
+  full_name: swiftlang/llvm-project
+  repository_id: 215875945
+  url: https://github.com/swiftlang/llvm-project
+  description: The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.  This
+    fork is used to manage Swift’s stable releases of Clang as well as support the Swift project.
+  default_branch: next
+  license_spdx: NOASSERTION
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2026-11-23T20:30:30Z'
+  stars: 1250
+  readme_url: https://github.com/swiftlang/llvm-project/blob/next/README.md
+  readme_path: README.md
+  readme_sha: 5811635868237d7d59cf488c381718e5e29fb78a
+  manifest_paths:
+  - .ci/requirements.txt
+  - bolt/CMakeLists.txt
+  - clang-tools-extra/CMakeLists.txt
+  - clang/CMakeLists.txt
+  - compiler-rt/CMakeLists.txt
+  - cross-project-tests/CMakeLists.txt
+  source_files_inspected:
+  - flang-rt/lib/runtime/main.cpp
+  - flang/lib/Optimizer/Builder/Runtime/Main.cpp
+  - bolt/utils/dot2html/__main__.py
+  - clang-tools-extra/clang-doc/assets/index.js
+  repository_tree:
+    status: captured
+    sha: 21bb31054825474e2118cc83f7e4c366f085d625
+    truncated: true
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is Swift's fork of llvm-project. For more information on Swift's branching scheme, please see apple-docs/AppleBranchingScheme.md.
+  why_used: The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.  This
+    fork is used to manage Swift’s stable releases of Clang as well as support the Swift project.
+  core_features: []
+  technology_stack:
+    languages:
+    - LLVM
+    - C++
+    - C
+    - Assembly
+    - MLIR
+    - Python
+    - Fortran
+    - FIRRTL
+    - CMake
+    - Objective-C
+    - HLSL
+    - HTML
+    - Starlark
+    - HIP
+    - Cuda
+    - Objective-C++
+    - SWIG
+    - Swift
+    - OCaml
+    - JavaScript
+    - Makefile
+    - Shell
+    - Perl
+    - Awk
+    - TypeScript
+    - Pawn
+    - Jupyter Notebook
+    - Emacs Lisp
+    - CSS
+    - Roff
+    - Batchfile
+    - Mustache
+    - Groovy
+    - NASL
+    - Vim Script
+    - Dockerfile
+    - Tree-sitter Query
+    - Lua
+    - M
+    - GDB
+    - Nix
+    - Cool
+    - Rust
+    - MATLAB
+    - Linker Script
+    - TeX
+    - AMPL
+    - Go Template
+    - Wolfram Language
+    - AppleScript
+    - POV-Ray SDL
+    - DTrace
+    - Limbo
+    - PHP
+    - RPC
+    - Mercury
+    frameworks_and_libraries: []
+    dependencies:
+    - PyGithub
+    - google-cloud-storage
+    - junitparser
+    build_and_package_tools:
+    - CMake configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: flang-rt/lib/runtime/main.cpp,
+    flang/lib/Optimizer/Builder/Runtime/Main.cpp, bolt/utils/dot2html/__main__.py, clang-tools-extra/clang-doc/assets/index.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/swiftlang/llvm-project/blob/next/README.md
+  path: README.md
+  blob_sha: 5811635868237d7d59cf488c381718e5e29fb78a
+  retrieved: true
+- type: manifest
+  path: .ci/requirements.txt
+  blob_sha: 45eb2535484963338398948b7a141322449e09bb
+  retrieved: true
+- type: manifest
+  path: bolt/CMakeLists.txt
+  blob_sha: 8deb5cea0401ba8e276ecb774a16ae42b47fa226
+  retrieved: true
+- type: manifest
+  path: clang-tools-extra/CMakeLists.txt
+  blob_sha: 89e89195277b0d48f5b1d33c7adcbe871303c02d
+  retrieved: true
+- type: manifest
+  path: clang/CMakeLists.txt
+  blob_sha: 0602fd966528f93c1387ce8177f0e6472457e73c
+  retrieved: true
+- type: manifest
+  path: compiler-rt/CMakeLists.txt
+  blob_sha: c57e5a54c6810d4adea07c3844d661386402b0d1
+  retrieved: true
+- type: manifest
+  path: cross-project-tests/CMakeLists.txt
+  blob_sha: 7ea31466661006993229bd5d8566e7890937b3f0
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    LLVM: 835535693
+    C++: 586482728
+    C: 244178764
+    Assembly: 219320357
+    MLIR: 34530306
+    Python: 18823240
+    Fortran: 15721105
+    FIRRTL: 6480547
+    CMake: 5580556
+    Objective-C: 4805375
+    HLSL: 4391930
+    HTML: 2341644
+    Starlark: 2200576
+    HIP: 1775839
+    Cuda: 1755139
+    Objective-C++: 1398437
+    SWIG: 418288
+    Swift: 394071
+    OCaml: 340429
+    JavaScript: 294866
+    Makefile: 272409
+    Shell: 265083
+    Perl: 183797
+    Awk: 127345
+    TypeScript: 124052
+    Pawn: 85606
+    Jupyter Notebook: 72939
+    Emacs Lisp: 68498
+    CSS: 66117
+    Roff: 60797
+    Batchfile: 55924
+    Mustache: 38258
+    Groovy: 36617
+    NASL: 35217
+    Vim Script: 29311
+    Dockerfile: 21896
+    Tree-sitter Query: 14568
+    Lua: 13065
+    M: 10852
+    GDB: 8450
+    Nix: 7135
+    Cool: 5401
+    Rust: 5149
+    MATLAB: 5049
+    Linker Script: 4387
+    TeX: 2141
+    AMPL: 2065
+    Go Template: 1848
+    Wolfram Language: 1685
+    AppleScript: 1429
+    POV-Ray SDL: 861
+    DTrace: 334
+    Limbo: 306
+    PHP: 64
+    RPC: 28
+    Mercury: 14
+- type: Git tree
+  status: captured
+  sha: 21bb31054825474e2118cc83f7e4c366f085d625
+  truncated: true
+- type: source_file
+  path: flang-rt/lib/runtime/main.cpp
+  blob_sha: 950d0839863f018f7e33e665d0e1bb670ce5e33f
+  retrieved: true
+- type: source_file
+  path: flang/lib/Optimizer/Builder/Runtime/Main.cpp
+  blob_sha: dbd9fa071abdf07c98be5debbd8ca9657b23e47d
+  retrieved: true
+- type: source_file
+  path: bolt/utils/dot2html/__main__.py
+  blob_sha: 95f6a532225d240bd2242f0b2ba3f2b72e8023d0
+  retrieved: true
+- type: source_file
+  path: clang-tools-extra/clang-doc/assets/index.js
+  blob_sha: 8a83f072526f9c19d4d132003f1870f30ff0a911
+  retrieved: true

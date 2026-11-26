@@ -1,10 +1,10 @@
 # Technical audits — mindsphere
 
-Updated: 2026-11-25T23:09:23+00:00
+Updated: 2026-11-26T07:22:02+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 12
 
 ## Repository dossiers
 
@@ -18,4 +18,7 @@ Updated: 2026-11-25T23:09:23+00:00
 | devops-demo-149309157 | evidence_only | [devops-demo-149309157.md](devops-demo-149309157.md) | [devops-demo-149309157.yaml](devops-demo-149309157.yaml) |
 | github-487896241 | evidence_only | [github-487896241.md](github-487896241.md) | [github-487896241.yaml](github-487896241.yaml) |
 | json-schema-to-mindsphere-demo-app-311510978 | evidence_only | [json-schema-to-mindsphere-demo-app-311510978.md](json-schema-to-mindsphere-demo-app-311510978.md) | [json-schema-to-mindsphere-demo-app-311510978.yaml](json-schema-to-mindsphere-demo-app-311510978.yaml) |
+| mindconnect-lib-304628649 | evidence_only | [mindconnect-lib-304628649.md](mindconnect-lib-304628649.md) | [mindconnect-lib-304628649.yaml](mindconnect-lib-304628649.yaml) |
+| mindconnect-mcl-c-agent-320589978 | evidence_only | [mindconnect-mcl-c-agent-320589978.md](mindconnect-mcl-c-agent-320589978.md) | [mindconnect-mcl-c-agent-320589978.yaml](mindconnect-mcl-c-agent-320589978.yaml) |
+| mindconnect-mqtt-656060641 | evidence_only | [mindconnect-mqtt-656060641.md](mindconnect-mqtt-656060641.md) | [mindconnect-mqtt-656060641.yaml](mindconnect-mqtt-656060641.yaml) |
 | predictivelearning-examples-439314216 | evidence_only | [predictivelearning-examples-439314216.md](predictivelearning-examples-439314216.md) | [predictivelearning-examples-439314216.yaml](predictivelearning-examples-439314216.yaml) |

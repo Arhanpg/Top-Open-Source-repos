@@ -1,10 +1,10 @@
 # Technical audits — xuperchain
 
-Updated: 2026-11-25T23:09:23+00:00
+Updated: 2026-11-26T07:22:01+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 12
 
 ## Repository dossiers
 
@@ -17,5 +17,8 @@ Updated: 2026-11-25T23:09:23+00:00
 | contract-sdk-go-329852492 | evidence_only | [contract-sdk-go-329852492.md](contract-sdk-go-329852492.md) | [contract-sdk-go-329852492.yaml](contract-sdk-go-329852492.yaml) |
 | contract-sdk-java-365502434 | evidence_only | [contract-sdk-java-365502434.md](contract-sdk-java-365502434.md) | [contract-sdk-java-365502434.yaml](contract-sdk-java-365502434.yaml) |
 | contract-sdk-py-353897382 | evidence_only | [contract-sdk-py-353897382.md](contract-sdk-py-353897382.md) | [contract-sdk-py-353897382.yaml](contract-sdk-py-353897382.yaml) |
+| crypto-249356348 | evidence_only | [crypto-249356348.md](crypto-249356348.md) | [crypto-249356348.yaml](crypto-249356348.yaml) |
+| docs-198141768 | evidence_only | [docs-198141768.md](docs-198141768.md) | [docs-198141768.yaml](docs-198141768.yaml) |
+| eth-proxy-383673407 | evidence_only | [eth-proxy-383673407.md](eth-proxy-383673407.md) | [eth-proxy-383673407.yaml](eth-proxy-383673407.yaml) |
 | github-392676072 | evidence_only | [github-392676072.md](github-392676072.md) | [github-392676072.yaml](github-392676072.yaml) |
 | xip-242135968 | evidence_only | [xip-242135968.md](xip-242135968.md) | [xip-242135968.yaml](xip-242135968.yaml) |

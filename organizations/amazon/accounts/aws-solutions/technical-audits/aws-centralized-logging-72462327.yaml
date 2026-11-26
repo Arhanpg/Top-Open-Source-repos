@@ -1,0 +1,138 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:13:42+00:00'
+evidence_fingerprint: 3f34409ab8c23bd7e7c7529e37c38cd3047f8d78a7924bf33582c15c172492ce
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/aws-centralized-logging
+  repository_id: 72462327
+  url: https://github.com/aws-solutions/aws-centralized-logging
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-03-01T17:34:17Z'
+  stars: 250
+  readme_url: https://github.com/aws-solutions/aws-centralized-logging/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7ecc41955bb087cd5ed57f8caaa257fe0c965b9e
+  manifest_paths:
+  - package.json
+  - source/resources/package.json
+  - source/services/helper/package.json
+  - source/services/transformer/package.json
+  - source/services/@aws-solutions/utils/package.json
+  source_files_inspected:
+  - source/resources/bin/app.ts
+  - source/services/helper/index.ts
+  - source/services/transformer/index.ts
+  - source/resources/lib/cl-demo-ec2-construct.ts
+  repository_tree:
+    status: captured
+    sha: 1d45d9fbc191e2bd13acf80da6ce18101cdbe454
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Centralized Logging on AWS has been superseded by the Centralized Logging with OpenSearch Centralized
+    Logging with OpenSearch solution. All existing deployments will continue to work but the solution will no longer
+    be supported and maintained.**'
+  why_used: '**Centralized Logging on AWS has been superseded by the Centralized Logging with OpenSearch Centralized
+    Logging with OpenSearch solution. All existing deployments will continue to work but the solution will no longer
+    be supported and maintained.**'
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-cdk/assert'
+    - '@types/aws-lambda'
+    - '@types/jest'
+    - '@types/node'
+    - '@types/uuid'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - aws-cdk
+    - aws-sdk
+    - eslint
+    - eslint-config-prettier
+    - eslint-plugin-prettier
+    - got
+    - jest
+    - jest-sonar-reporter
+    - prettier
+    - ts-jest
+    - ts-node
+    - typescript
+    - uuid
+    - winston
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/resources/bin/app.ts,
+    source/services/helper/index.ts, source/services/transformer/index.ts, source/resources/lib/cl-demo-ec2-construct.ts'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/aws-centralized-logging/blob/main/README.md
+  path: README.md
+  blob_sha: 7ecc41955bb087cd5ed57f8caaa257fe0c965b9e
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 78772cef75213b0ff085fc8d62e0a6bfc8e140d5
+  retrieved: true
+- type: manifest
+  path: source/resources/package.json
+  blob_sha: 0905b187e3999728d9e02ce7209e7a455961a7c6
+  retrieved: true
+- type: manifest
+  path: source/services/helper/package.json
+  blob_sha: c6d1d556f83c2086ab487331f38d3336252443ef
+  retrieved: true
+- type: manifest
+  path: source/services/transformer/package.json
+  blob_sha: 00e4fb7c86e122766670aada62d224f65411f3f6
+  retrieved: true
+- type: manifest
+  path: source/services/@aws-solutions/utils/package.json
+  blob_sha: dc2050f94b8e253dd80ead58b590cbc14460fcf8
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 85456
+    JavaScript: 1923
+    Shell: 1387
+- type: Git tree
+  status: captured
+  sha: 1d45d9fbc191e2bd13acf80da6ce18101cdbe454
+  truncated: false
+- type: source_file
+  path: source/resources/bin/app.ts
+  blob_sha: 2cf2fd1a8e1d617dcfdc1b1332b1af6d5dd80d56
+  retrieved: true
+- type: source_file
+  path: source/services/helper/index.ts
+  blob_sha: fecc6540ed76f450e3bc2c24483a7cfced1336f4
+  retrieved: true
+- type: source_file
+  path: source/services/transformer/index.ts
+  blob_sha: 296d9f56cf75308e8c8710788d35756ed245ee7f
+  retrieved: true
+- type: source_file
+  path: source/resources/lib/cl-demo-ec2-construct.ts
+  blob_sha: 811c60b6e7b60b4728b16d3d1b570bfc9007a942
+  retrieved: true

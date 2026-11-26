@@ -1,0 +1,99 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:05:00+00:00'
+evidence_fingerprint: a53217c02efb2ba6097582326566f3e1b550ba4c831b208325507312b7b19e5d
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/aws-deepracer-model-optimizer-pkg
+  repository_id: 341984643
+  url: https://github.com/aws-deepracer/aws-deepracer-model-optimizer-pkg
+  description: The DeepRacer Model Optimizer ROS package creates the model_optimizer_node that is responsible for
+    running the Intel OpenVino Model Optimizer script on the DeepRacer reinforcement learning models to obtain the
+    optimized artifacts.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-03-15T19:51:56Z'
+  stars: 5
+  readme_url: https://github.com/aws-deepracer/aws-deepracer-model-optimizer-pkg/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 723309c472aa5e7c05623ad63d28a8beb2fcc399
+  manifest_paths:
+  - model_optimizer_pkg/setup.py
+  source_files_inspected:
+  - model_optimizer_pkg/launch/model_optimizer_pkg_launch.py
+  - model_optimizer_pkg/model_optimizer_pkg/__init__.py
+  - model_optimizer_pkg/model_optimizer_pkg/constants.py
+  - model_optimizer_pkg/model_optimizer_pkg/model_optimizer_node.py
+  repository_tree:
+    status: captured
+    sha: a56ef570e1577dcaf45a97138bbebeb77c05bc7f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The AWS DeepRacer Model Optimizer ROS package creates the model_optimizer_node, which is part of the
+    core AWS DeepRacer application and launches from the deepracer_launcher. For more information about the application
+    and the components, see the aws-deepracer-launcher repository.
+  why_used: The DeepRacer Model Optimizer ROS package creates the model_optimizer_node that is responsible for running
+    the Intel OpenVino Model Optimizer script on the DeepRacer reinforcement learning models to obtain the optimized
+    artifacts.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: model_optimizer_pkg/launch/model_optimizer_pkg_launch.py,
+    model_optimizer_pkg/model_optimizer_pkg/__init__.py, model_optimizer_pkg/model_optimizer_pkg/constants.py, model_optimizer_pkg/model_optimizer_pkg/model_optimizer_node.py'
+  setup_and_usage:
+  - 'Installation: Follow these instructions to install the AWS DeepRacer model optimizer package.'
+  - 'Usage: The model_optimizer_node provides a very specific and core functionality to optimize the reinforcement
+    learning models that are trained on the AWS DeepRacer simulator. Intel OpenVino provides APIs and scripts to
+    create a intermediate representation that can be used for faster model inference. Although the node is built
+    to work with the AWS DeepRace'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/aws-deepracer-model-optimizer-pkg/blob/main/README.md
+  path: README.md
+  blob_sha: 723309c472aa5e7c05623ad63d28a8beb2fcc399
+  retrieved: true
+- type: manifest
+  path: model_optimizer_pkg/setup.py
+  blob_sha: d4e42868d18b5125ede4080fe3d7c518e6999fbc
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 31945
+- type: Git tree
+  status: captured
+  sha: a56ef570e1577dcaf45a97138bbebeb77c05bc7f
+  truncated: false
+- type: source_file
+  path: model_optimizer_pkg/launch/model_optimizer_pkg_launch.py
+  blob_sha: 8ef9083c559ce7855d5a32b1361c5f5ef0ab6045
+  retrieved: true
+- type: source_file
+  path: model_optimizer_pkg/model_optimizer_pkg/__init__.py
+  blob_sha: 83a73bbc05b4236628deb8041723bd42d99b58ca
+  retrieved: true
+- type: source_file
+  path: model_optimizer_pkg/model_optimizer_pkg/constants.py
+  blob_sha: 3c7db1fe5ee766916dda0be5e7f40ace6ee81a6d
+  retrieved: true
+- type: source_file
+  path: model_optimizer_pkg/model_optimizer_pkg/model_optimizer_node.py
+  blob_sha: 1b6c315db32834647331ebec872b7a205cd925ba
+  retrieved: true

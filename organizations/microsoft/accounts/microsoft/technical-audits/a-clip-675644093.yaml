@@ -1,0 +1,84 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:15:58+00:00'
+evidence_fingerprint: 53564f03fbe104efad77372da78eeee4d87deb8b9be59d851fa6f40d72955f99
+repository_metadata:
+  company: Microsoft
+  account: microsoft
+  full_name: microsoft/A-CLIP
+  repository_id: 675644093
+  url: https://github.com/microsoft/A-CLIP
+  description: Official Implementation of Attentive Mask CLIP (ICCV2023, https://arxiv.org/abs/2212.08653)
+  default_branch: main
+  license_spdx: MIT
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-05-29T14:40:11Z'
+  stars: 38
+  readme_url: https://github.com/microsoft/A-CLIP/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 502465d06a7c2737c9fd452f8a69498a06188620
+  manifest_paths: []
+  source_files_inspected:
+  - main.py
+  - datasets.py
+  - eval_zeroshot.py
+  - losses.py
+  repository_tree:
+    status: captured
+    sha: 2b2774e4a83eb69ba13b8246e326473773528c1b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is the official implementation of Attentive Mask CLIP (A-CLIP, ICCV2023). A-CLIP aims to improve
+    the efficiency of CLIP training by introducing an efficient image augmentation approach called image token removal.
+  why_used: Official Implementation of Attentive Mask CLIP (ICCV2023, https://arxiv.org/abs/2212.08653)
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: main.py, datasets.py,
+    eval_zeroshot.py, losses.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/microsoft/A-CLIP/blob/main/README.md
+  path: README.md
+  blob_sha: 502465d06a7c2737c9fd452f8a69498a06188620
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 107032
+- type: Git tree
+  status: captured
+  sha: 2b2774e4a83eb69ba13b8246e326473773528c1b
+  truncated: false
+- type: source_file
+  path: main.py
+  blob_sha: 53c55477a0c61f13d8d7ce4ca74064fd5918f496
+  retrieved: true
+- type: source_file
+  path: datasets.py
+  blob_sha: 388b7eef8bbf0287bcf20793f12f8c3d1de5b183
+  retrieved: true
+- type: source_file
+  path: eval_zeroshot.py
+  blob_sha: b2abfc730a23155bea56fd721d599089fc48d948
+  retrieved: true
+- type: source_file
+  path: losses.py
+  blob_sha: ff24b2561b0edef71e263443e9f0aeafb825e841
+  retrieved: true

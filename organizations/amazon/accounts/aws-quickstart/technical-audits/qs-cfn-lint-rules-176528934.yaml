@@ -1,0 +1,116 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:13:17+00:00'
+evidence_fingerprint: 37719069d589ed83e974348c5305501c76a4aae8957e9f02a3d169fa9bc0c982
+repository_metadata:
+  company: Amazon
+  account: aws-quickstart
+  full_name: aws-quickstart/qs-cfn-lint-rules
+  repository_id: 176528934
+  url: https://github.com/aws-quickstart/qs-cfn-lint-rules
+  description: QuickStart specific rules for cfn-python-lint
+  default_branch: main
+  license_spdx: null
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-02-13T16:04:25Z'
+  stars: 13
+  readme_url: https://github.com/aws-quickstart/qs-cfn-lint-rules/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 549962bb97b3afd84b4f5c97848739a1ae16eac8
+  manifest_paths:
+  - pyproject.toml
+  - requirements.txt
+  - setup.py
+  source_files_inspected:
+  - bin/qs-experemental-remediator.py
+  - qs_cfn_lint_rules/__init__.py
+  - qs_cfn_lint_rules/AppStreamPlaintextCreds.py
+  - qs_cfn_lint_rules/Casing.py
+  repository_tree:
+    status: captured
+    sha: b2d36798c1052cc856b80a7f8d9b727eb72d8dbd
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repo provides CloudFormation linting rules specific to AWS Quick Start guidelines, for more information
+    see the Contributors Guide.
+  why_used: QuickStart specific rules for cfn-python-lint
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - jq
+    frameworks_and_libraries: []
+    dependencies:
+    - cfn-lint
+    - cfn_flip
+    - policyuniverse
+    - pyspellchecker
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: bin/qs-experemental-remediator.py,
+    qs_cfn_lint_rules/__init__.py, qs_cfn_lint_rules/AppStreamPlaintextCreds.py, qs_cfn_lint_rules/Casing.py'
+  setup_and_usage:
+  - 'AWS Quick Start cfn-lint rules: This repo provides CloudFormation linting rules specific to AWS Quick Start'
+  - 'AWS Quick Start cfn-lint rules: guidelines, for more information see the Contributors Guide.'
+  - 'Installation and Usage: git clone https://github.com/aws-quickstart/qs-cfn-lint-rules.git'
+  - 'Installation and Usage: To add the rules when running on the command line use the -a flag to add the additional
+    rules:'
+  - 'Installation and Usage: cfn-lint my-cfn-template.yaml -a ~/qs-cfn-lint-rules/qs_cfn_lint_rules/'
+  - 'Installation and Usage: To use in your IDE install the relevant'
+  - 'Installation and Usage: cfn-lint plugin and add the rules to your'
+  - 'Installation and Usage: cfn-lint config file (~/.cfnlintrc) as follows:'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-quickstart/qs-cfn-lint-rules/blob/main/README.md
+  path: README.md
+  blob_sha: 549962bb97b3afd84b4f5c97848739a1ae16eac8
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: c7af1c2e39b6864238a410d8d9896d09f999aad3
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: a4143dee9d188617e800fc337e83296f27ca7f3d
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 161dfcdf626705514aff62f168d87fc6a71d2c58
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 177920
+    jq: 506
+- type: Git tree
+  status: captured
+  sha: b2d36798c1052cc856b80a7f8d9b727eb72d8dbd
+  truncated: false
+- type: source_file
+  path: bin/qs-experemental-remediator.py
+  blob_sha: 94ae15f5a29de5375e3a2f9e0972f87217a711a8
+  retrieved: true
+- type: source_file
+  path: qs_cfn_lint_rules/__init__.py
+  blob_sha: 09eb7e75a27ccbd65a0662dcc4a217e4867f8262
+  retrieved: true
+- type: source_file
+  path: qs_cfn_lint_rules/AppStreamPlaintextCreds.py
+  blob_sha: 8fea0181f00b2a7144e3e5061ff87443e05818cf
+  retrieved: true
+- type: source_file
+  path: qs_cfn_lint_rules/Casing.py
+  blob_sha: 778f27d0d353acc7d803e8d76893a539a197d2ab
+  retrieved: true

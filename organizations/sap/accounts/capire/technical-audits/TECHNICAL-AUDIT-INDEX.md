@@ -1,10 +1,10 @@
 # Technical audits — capire
 
-Updated: 2026-11-25T23:09:25+00:00
+Updated: 2026-11-26T07:22:01+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 12
 
 ## Repository dossiers
 
@@ -19,3 +19,6 @@ Updated: 2026-11-25T23:09:25+00:00
 | docs-609050923 | evidence_only | [docs-609050923.md](docs-609050923.md) | [docs-609050923.yaml](docs-609050923.yaml) |
 | github-959808954 | evidence_only | [github-959808954.md](github-959808954.md) | [github-959808954.yaml](github-959808954.yaml) |
 | homebrew-tap-1109015603 | evidence_only | [homebrew-tap-1109015603.md](homebrew-tap-1109015603.md) | [homebrew-tap-1109015603.yaml](homebrew-tap-1109015603.yaml) |
+| incidents-1023089908 | evidence_only | [incidents-1023089908.md](incidents-1023089908.md) | [incidents-1023089908.yaml](incidents-1023089908.yaml) |
+| incidents-app-685533985 | evidence_only | [incidents-app-685533985.md](incidents-app-685533985.md) | [incidents-app-685533985.yaml](incidents-app-685533985.yaml) |
+| orders-959656315 | evidence_only | [orders-959656315.md](orders-959656315.md) | [orders-959656315.yaml](orders-959656315.yaml) |

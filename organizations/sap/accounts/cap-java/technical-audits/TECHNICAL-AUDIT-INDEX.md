@@ -1,10 +1,10 @@
 # Technical audits — cap-java
 
-Updated: 2026-11-25T23:09:23+00:00
+Updated: 2026-11-26T07:22:02+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 12
 
 ## Repository dossiers
 
@@ -19,3 +19,6 @@ Updated: 2026-11-25T23:09:23+00:00
 | cds-feature-notifications-1242394765 | evidence_only | [cds-feature-notifications-1242394765.md](cds-feature-notifications-1242394765.md) | [cds-feature-notifications-1242394765.yaml](cds-feature-notifications-1242394765.yaml) |
 | cds-feature-ord-1265195610 | evidence_only | [cds-feature-ord-1265195610.md](cds-feature-ord-1265195610.md) | [cds-feature-ord-1265195610.yaml](cds-feature-ord-1265195610.yaml) |
 | github-770385555 | evidence_only | [github-770385555.md](github-770385555.md) | [github-770385555.yaml](github-770385555.yaml) |
+| incidents-app-919974179 | evidence_only | [incidents-app-919974179.md](incidents-app-919974179.md) | [incidents-app-919974179.yaml](incidents-app-919974179.yaml) |
+| repository-template-770389729 | evidence_only | [repository-template-770389729.md](repository-template-770389729.md) | [repository-template-770389729.yaml](repository-template-770389729.yaml) |
+| sdm-829838419 | evidence_only | [sdm-829838419.md](sdm-829838419.md) | [sdm-829838419.yaml](sdm-829838419.yaml) |

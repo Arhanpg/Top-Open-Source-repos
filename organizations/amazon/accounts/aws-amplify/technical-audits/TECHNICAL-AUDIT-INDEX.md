@@ -1,10 +1,10 @@
 # Technical audits — aws-amplify
 
-Updated: 2026-11-25T23:09:24+00:00
+Updated: 2026-11-26T07:22:00+00:00
 
 ## Status counts
 
-- evidence_only: 10
+- evidence_only: 14
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -21,4 +21,8 @@ Updated: 2026-11-25T23:09:24+00:00
 | amplify-codegen-306458797 | evidence_only | [amplify-codegen-306458797.md](amplify-codegen-306458797.md) | [amplify-codegen-306458797.yaml](amplify-codegen-306458797.yaml) |
 | amplify-codegen-ui-382129678 | evidence_only | [amplify-codegen-ui-382129678.md](amplify-codegen-ui-382129678.md) | [amplify-codegen-ui-382129678.yaml](amplify-codegen-ui-382129678.yaml) |
 | amplify-data-697275720 | evidence_only | [amplify-data-697275720.md](amplify-data-697275720.md) | [amplify-data-697275720.yaml](amplify-data-697275720.yaml) |
+| amplify-flutter-253571453 | evidence_only | [amplify-flutter-253571453.md](amplify-flutter-253571453.md) | [amplify-flutter-253571453.yaml](amplify-flutter-253571453.yaml) |
+| amplify-hosting-192008434 | evidence_only | [amplify-hosting-192008434.md](amplify-hosting-192008434.md) | [amplify-hosting-192008434.yaml](amplify-hosting-192008434.yaml) |
+| amplify-ios-maplibre-416419013 | evidence_only | [amplify-ios-maplibre-416419013.md](amplify-ios-maplibre-416419013.md) | [amplify-ios-maplibre-416419013.yaml](amplify-ios-maplibre-416419013.yaml) |
+| amplify-ios-samples-369300649 | evidence_only | [amplify-ios-samples-369300649.md](amplify-ios-samples-369300649.md) | [amplify-ios-samples-369300649.yaml](amplify-ios-samples-369300649.yaml) |
 | github-171341614 | insufficient_evidence | [github-171341614.md](github-171341614.md) | [github-171341614.yaml](github-171341614.yaml) |

@@ -1,0 +1,126 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:06:46+00:00'
+evidence_fingerprint: f62b789d6a85b0bc878b85ffe792ca826c0582ff2019a07584c487b76602d955
+repository_metadata:
+  company: Amazon
+  account: firecracker-microvm
+  full_name: firecracker-microvm/nsdi2020-data
+  repository_id: 239760690
+  url: https://github.com/firecracker-microvm/nsdi2020-data
+  description: null
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2020-03-06T19:55:20Z'
+  stars: 26
+  readme_url: https://github.com/firecracker-microvm/nsdi2020-data/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 735f363979edc2d516811bb48854c27a8be77b1f
+  manifest_paths:
+  - prep/Makefile
+  - prep/cloud-hypervisor/Dockerfile
+  - prep/cloud-hypervisor/Makefile
+  - prep/config-fc/Makefile
+  - prep/firecracker/Makefile
+  - prep/img/Makefile
+  source_files_inspected:
+  - prep/pkg/bench/etc/profile.d/namespace.sh
+  - prep/pkg/bench/usr/bin/ssh.sh
+  - prep/pkg/init-exit/init.c
+  - data/update-plots.sh
+  repository_tree:
+    status: captured
+    sha: 33b73b1e42167662bc013f1199b202b8c4d39aa1
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This repository contains all the scripts, source code, and data used for our NSDI 2020 paper on "Firecracker:
+    Lightweight Virtualization for Serverless Applications".'
+  why_used: 'This repository contains all the scripts, source code, and data used for our NSDI 2020 paper on "Firecracker:
+    Lightweight Virtualization for Serverless Applications".'
+  core_features: []
+  technology_stack:
+    languages:
+    - Shell
+    - Dockerfile
+    - Go
+    - Makefile
+    - Python
+    - C
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: prep/pkg/bench/etc/profile.d/namespace.sh,
+    prep/pkg/bench/usr/bin/ssh.sh, prep/pkg/init-exit/init.c, data/update-plots.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/firecracker-microvm/nsdi2020-data/blob/master/README.md
+  path: README.md
+  blob_sha: 735f363979edc2d516811bb48854c27a8be77b1f
+  retrieved: true
+- type: manifest
+  path: prep/Makefile
+  blob_sha: 12177d3fdaf095b5d63fe378649e73ba5b9c3958
+  retrieved: true
+- type: manifest
+  path: prep/cloud-hypervisor/Dockerfile
+  blob_sha: 009efdcb2864c2972a4e8811a077555d550c94d8
+  retrieved: true
+- type: manifest
+  path: prep/cloud-hypervisor/Makefile
+  blob_sha: 62e917e9123faef46da6f0fb99bdd0aef017addd
+  retrieved: true
+- type: manifest
+  path: prep/config-fc/Makefile
+  blob_sha: 3fff946da54d0022b632e8db35bca227ab967b6d
+  retrieved: true
+- type: manifest
+  path: prep/firecracker/Makefile
+  blob_sha: 7e5792bcccafa3192ab9d352ef158308d161ff3d
+  retrieved: true
+- type: manifest
+  path: prep/img/Makefile
+  blob_sha: 7e2b639b0a74fffbaf0c397f119798e2e882c042
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Shell: 39170
+    Dockerfile: 7958
+    Go: 6517
+    Makefile: 4385
+    Python: 2759
+    C: 937
+- type: Git tree
+  status: captured
+  sha: 33b73b1e42167662bc013f1199b202b8c4d39aa1
+  truncated: false
+- type: source_file
+  path: prep/pkg/bench/etc/profile.d/namespace.sh
+  blob_sha: 45775ea08642428922598a65d4e2c849a7f643de
+  retrieved: true
+- type: source_file
+  path: prep/pkg/bench/usr/bin/ssh.sh
+  blob_sha: 46dbf0900c730b61ad27660798a418c4512ad672
+  retrieved: true
+- type: source_file
+  path: prep/pkg/init-exit/init.c
+  blob_sha: 9bd2b3bcc1499f0a1826e45c566fcd01b3057c6d
+  retrieved: true
+- type: source_file
+  path: data/update-plots.sh
+  blob_sha: 44283e0b157255708f633eb3014e0acd7bd153e9
+  retrieved: true

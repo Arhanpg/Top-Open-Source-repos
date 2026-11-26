@@ -1,10 +1,10 @@
 # Technical audits — amazon-archives
 
-Updated: 2026-11-25T23:09:23+00:00
+Updated: 2026-11-26T07:22:00+00:00
 
 ## Status counts
 
-- evidence_only: 11
+- evidence_only: 15
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -14,6 +14,10 @@ Updated: 2026-11-25T23:09:23+00:00
 | ai-driven-social-media-dashboard-195132386 | evidence_only | [ai-driven-social-media-dashboard-195132386.md](ai-driven-social-media-dashboard-195132386.md) | [ai-driven-social-media-dashboard-195132386.yaml](ai-driven-social-media-dashboard-195132386.yaml) |
 | alexa-heroku-help-desk-sample-129788972 | evidence_only | [alexa-heroku-help-desk-sample-129788972.md](alexa-heroku-help-desk-sample-129788972.md) | [alexa-heroku-help-desk-sample-129788972.yaml](alexa-heroku-help-desk-sample-129788972.yaml) |
 | amazon-chime-github-webhook-252811480 | evidence_only | [amazon-chime-github-webhook-252811480.md](amazon-chime-github-webhook-252811480.md) | [amazon-chime-github-webhook-252811480.yaml](amazon-chime-github-webhook-252811480.yaml) |
+| amazon-chime-webhooks-nodejs-249773055 | evidence_only | [amazon-chime-webhooks-nodejs-249773055.md](amazon-chime-webhooks-nodejs-249773055.md) | [amazon-chime-webhooks-nodejs-249773055.yaml](amazon-chime-webhooks-nodejs-249773055.yaml) |
+| amazon-cloudfront-dynamic-ota-390490032 | evidence_only | [amazon-cloudfront-dynamic-ota-390490032.md](amazon-cloudfront-dynamic-ota-390490032.md) | [amazon-cloudfront-dynamic-ota-390490032.yaml](amazon-cloudfront-dynamic-ota-390490032.yaml) |
+| amazon-cognito-android-21631940 | evidence_only | [amazon-cognito-android-21631940.md](amazon-cognito-android-21631940.md) | [amazon-cognito-android-21631940.yaml](amazon-cognito-android-21631940.yaml) |
+| amazon-cognito-auth-js-93084667 | evidence_only | [amazon-cognito-auth-js-93084667.md](amazon-cognito-auth-js-93084667.md) | [amazon-cognito-auth-js-93084667.yaml](amazon-cognito-auth-js-93084667.yaml) |
 | aws-mimic-iiitoomop-91026662 | evidence_only | [aws-mimic-iiitoomop-91026662.md](aws-mimic-iiitoomop-91026662.md) | [aws-mimic-iiitoomop-91026662.yaml](aws-mimic-iiitoomop-91026662.yaml) |
 | bsmobileprovision-10947817 | evidence_only | [bsmobileprovision-10947817.md](bsmobileprovision-10947817.md) | [bsmobileprovision-10947817.yaml](bsmobileprovision-10947817.yaml) |
 | github-171341969 | insufficient_evidence | [github-171341969.md](github-171341969.md) | [github-171341969.yaml](github-171341969.yaml) |

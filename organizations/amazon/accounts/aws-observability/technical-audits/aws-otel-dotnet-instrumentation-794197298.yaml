@@ -1,0 +1,155 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:20:47+00:00'
+evidence_fingerprint: 7e3ef70adafe03e6d40b527111deefa3e3956220e8cf475af78d0709623d143d
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/aws-otel-dotnet-instrumentation
+  repository_id: 794197298
+  url: https://github.com/aws-observability/aws-otel-dotnet-instrumentation
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T03:25:29Z'
+  stars: 1
+  readme_url: https://github.com/aws-observability/aws-otel-dotnet-instrumentation/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 0f04e5dc962b8ac74fb5a162f1d9c4dd4a139530
+  manifest_paths:
+  - sample-applications/integration-test-app/Dockerfile
+  - sample-applications/udp-exporter-test-app/Dockerfile
+  - tools/cp-utility/Cargo.toml
+  - test/contract-tests/tests/pyproject.toml
+  - test/images/MockCollector/Dockerfile
+  - test/contract-tests/images/mock-collector/Dockerfile
+  source_files_inspected:
+  - tools/cp-utility/src/main.rs
+  - sample-applications/lambda-test-apps/SimpleLambdaFunction/src/SimpleLambdaFunction/Function.cs
+  - src/AWS.Distro.OpenTelemetry.AutoInstrumentation/AdaptiveSampler.cs
+  - src/AWS.Distro.OpenTelemetry.AutoInstrumentation/AdaptiveSamplingConfig.cs
+  repository_tree:
+    status: captured
+    sha: 562023eee736e2a8f6cc365b6efa723af277b8cb
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This project is a redistribution of the OpenTelemetry Agent for DotNet, preconfigured for use with AWS
+    services. Please check out that project too to get a better understanding of the underlying internals. You won't
+    see much code in this repository since we only apply some small configuration changes, and our OpenTelemetry
+    friends takes care of the rest.
+  why_used: This project is a redistribution of the OpenTelemetry Agent for DotNet, preconfigured for use with AWS
+    services. Please check out that project too to get a better understanding of the underlying internals. You won't
+    see much code in this repository since we only apply some small configuration changes, and our OpenTelemetry
+    friends takes care of the rest.
+  core_features: []
+  technology_stack:
+    languages:
+    - C#
+    - JavaScript
+    - Python
+    - Shell
+    - Rust
+    - Dockerfile
+    - PowerShell
+    - HCL
+    - HTML
+    - Batchfile
+    - CSS
+    - ASP.NET
+    frameworks_and_libraries: []
+    dependencies:
+    - docker
+    - grpcio
+    - mock-collector
+    - opentelemetry-proto
+    - opentelemetry-sdk
+    - requests
+    - tempfile
+    - testcontainers
+    - uuid
+    build_and_package_tools:
+    - Cargo manifest
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: tools/cp-utility/src/main.rs,
+    sample-applications/lambda-test-apps/SimpleLambdaFunction/src/SimpleLambdaFunction/Function.cs, src/AWS.Distro.OpenTelemetry.AutoInstrumentation/AdaptiveSampler.cs,
+    src/AWS.Distro.OpenTelemetry.AutoInstrumentation/AdaptiveSamplingConfig.cs'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/aws-otel-dotnet-instrumentation/blob/main/README.md
+  path: README.md
+  blob_sha: 0f04e5dc962b8ac74fb5a162f1d9c4dd4a139530
+  retrieved: true
+- type: manifest
+  path: sample-applications/integration-test-app/Dockerfile
+  blob_sha: 2d55066d2b1d829d7c72b49d76941f600d7312bf
+  retrieved: true
+- type: manifest
+  path: sample-applications/udp-exporter-test-app/Dockerfile
+  blob_sha: 3627e713da4b7fea7cb7da5a29b61fc14d2810c4
+  retrieved: true
+- type: manifest
+  path: tools/cp-utility/Cargo.toml
+  blob_sha: 7169660e4d9fe9bc3bdb3758f258fc94081b9274
+  retrieved: true
+- type: manifest
+  path: test/contract-tests/tests/pyproject.toml
+  blob_sha: bf00dbd2d083d21070f03935b335f7e691bb0e1e
+  retrieved: true
+- type: manifest
+  path: test/images/MockCollector/Dockerfile
+  blob_sha: a0d88430885ec4243e99a9aa13f5061c98800824
+  retrieved: true
+- type: manifest
+  path: test/contract-tests/images/mock-collector/Dockerfile
+  blob_sha: bad4f42b1d1738050c4a8e53fc6d7eb58b2e5ef5
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 2206017
+    JavaScript: 231697
+    Python: 227191
+    Shell: 22619
+    Rust: 16034
+    Dockerfile: 11083
+    PowerShell: 6874
+    HCL: 6369
+    HTML: 4653
+    Batchfile: 1136
+    CSS: 476
+    ASP.NET: 101
+- type: Git tree
+  status: captured
+  sha: 562023eee736e2a8f6cc365b6efa723af277b8cb
+  truncated: false
+- type: source_file
+  path: tools/cp-utility/src/main.rs
+  blob_sha: 7fd2e805c9db4ab121a36fb824a90152100dbd63
+  retrieved: true
+- type: source_file
+  path: sample-applications/lambda-test-apps/SimpleLambdaFunction/src/SimpleLambdaFunction/Function.cs
+  blob_sha: d7c118159b989d1ceb0afd5a3973c68e357f2fb3
+  retrieved: true
+- type: source_file
+  path: src/AWS.Distro.OpenTelemetry.AutoInstrumentation/AdaptiveSampler.cs
+  blob_sha: 99e9c5af65d460d4275b648b1a08e7451784e978
+  retrieved: true
+- type: source_file
+  path: src/AWS.Distro.OpenTelemetry.AutoInstrumentation/AdaptiveSamplingConfig.cs
+  blob_sha: 6ffb100a3b94c5ed06c6f8e1332dbed1e5425a18
+  retrieved: true

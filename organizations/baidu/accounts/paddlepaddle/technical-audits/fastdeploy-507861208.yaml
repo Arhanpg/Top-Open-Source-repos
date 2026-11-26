@@ -1,0 +1,229 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:59:49+00:00'
+evidence_fingerprint: 74e729b5fe5ec77aea246aa5ffb8f3893978428158a7e40e4f0fb2e2345bedd9
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/FastDeploy
+  repository_id: 507861208
+  url: https://github.com/PaddlePaddle/FastDeploy
+  description: High-performance Inference and Deployment Toolkit for LLMs and VLMs based on PaddlePaddle
+  default_branch: develop
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-09-24T14:17:31Z'
+  stars: 3723
+  readme_url: https://github.com/PaddlePaddle/FastDeploy/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: bacd3186b4b14c80d5fca6e6776c9a5bb0b1841c
+  manifest_paths:
+  - pyproject.toml
+  - requirements.txt
+  - setup.py
+  - benchmarks/requirements.txt
+  - docs/requirements.txt
+  - fastdeploy/golang_router/go.mod
+  source_files_inspected:
+  - fastdeploy/golang_router/cmd/main.go
+  - fastdeploy/entrypoints/cli/benchmark/main.py
+  - fastdeploy/entrypoints/cli/main.py
+  - custom_ops/xpu_ops/src/ops/adjust_batch.cc
+  repository_tree:
+    status: captured
+    sha: 60253470bcd6b4b16ba6568200367c888d1aa72d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: README_CN.md
+  why_used: High-performance Inference and Deployment Toolkit for LLMs and VLMs based on PaddlePaddle
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - Cuda
+    - Go
+    - Shell
+    - C
+    - CMake
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - Pillow
+    - aiohttp
+    - aiozmq
+    - aistudio_sdk
+    - crcmod
+    - cupy-cuda12x
+    - einops
+    - etcd3
+    - fast_dataindex
+    - fastapi
+    - flake8
+    - flashinfer-python-paddle
+    - github.com/beorn7/perks
+    - github.com/bytedance/sonic
+    - github.com/cespare/xxhash/v2
+    - github.com/chenzhuoyu/base64x
+    - github.com/davecgh/go-spew
+    - github.com/gabriel-vasile/mimetype
+    - github.com/gin-contrib/sse
+    - github.com/gin-gonic/gin
+    - github.com/go-playground/locales
+    - github.com/go-playground/universal-translator
+    - github.com/go-playground/validator/v10
+    - github.com/goccy/go-json
+    - github.com/google/go-cmp
+    - github.com/json-iterator/go
+    - github.com/klauspost/compress
+    - github.com/klauspost/cpuid/v2
+    - github.com/leodido/go-urn
+    - github.com/mattn/go-isatty
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/munnerz/goautoneg
+    - github.com/pelletier/go-toml/v2
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/stretchr/testify
+    - github.com/twitchyliquid64/golang-asm
+    - github.com/ugorji/go/codec
+    - github.com/valyala/bytebufferpool
+    - golang.org/x/arch
+    - golang.org/x/crypto
+    - golang.org/x/net
+    - golang.org/x/sys
+    - golang.org/x/text
+    - google.golang.org/protobuf
+    - gopkg.in/yaml.v3
+    - gradio
+    - gunicorn
+    - httpx
+    - mkdocs
+    - mkdocs-get-deps
+    - mkdocs-material
+    - mkdocs-material-extensions
+    - mkdocs-multilang
+    - mkdocs-static-i18n
+    - modelscope
+    - moviepy
+    - msgpack
+    - msgspec
+    - numpy
+    - openai
+    - opentelemetry-api
+    - opentelemetry-distro
+    - opentelemetry-exporter-otlp
+    - opentelemetry-instrumentation-fastapi
+    - opentelemetry-instrumentation-logging
+    - opentelemetry-instrumentation-mysql
+    - opentelemetry-instrumentation-redis
+    - opentelemetry-sdk
+    - p2pstore
+    - paddlecodec
+    - paddleformers
+    - partial_json_parser
+    - pre-commit
+    - prometheus-client
+    - py-cpuinfo
+    - pybind11
+    - pynvml
+    - pyyaml
+    - redis
+    - requests
+    - ruamel.yaml
+    - safetensors
+    - setproctitle
+    - setuptools
+    - setuptools-scm
+    - tabulate
+    - tqdm
+    - transformers
+    - triton
+    - uvicorn
+    - visualdl
+    - xlwt
+    - yapf
+    - zmq
+    build_and_package_tools:
+    - Go module manifest
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: fastdeploy/golang_router/cmd/main.go,
+    fastdeploy/entrypoints/cli/benchmark/main.py, fastdeploy/entrypoints/cli/main.py, custom_ops/xpu_ops/src/ops/adjust_batch.cc'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/FastDeploy/blob/develop/README.md
+  path: README.md
+  blob_sha: bacd3186b4b14c80d5fca6e6776c9a5bb0b1841c
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 28c48533a72674e8762460c7f694259c1817b5f7
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 3a2e3c9951ab5da62fdebbb1318bb5257b8fc1d0
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 6d58cb3db0ebb0bf79888388ac8286224b30455e
+  retrieved: true
+- type: manifest
+  path: benchmarks/requirements.txt
+  blob_sha: a72ae695ae0c9eb82e1b15b497cefe882454015b
+  retrieved: true
+- type: manifest
+  path: docs/requirements.txt
+  blob_sha: f4361bacf03383000a05a67463dc2dfd4132744d
+  retrieved: true
+- type: manifest
+  path: fastdeploy/golang_router/go.mod
+  blob_sha: 25528406084a73efe883cd73de8f9a92e3d91b84
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 14538248
+    C++: 4138660
+    Cuda: 4076701
+    Go: 204988
+    Shell: 168915
+    C: 21982
+    CMake: 14368
+    Makefile: 666
+- type: Git tree
+  status: captured
+  sha: 60253470bcd6b4b16ba6568200367c888d1aa72d
+  truncated: false
+- type: source_file
+  path: fastdeploy/golang_router/cmd/main.go
+  blob_sha: e0e8c98e1373004f0769f8220925ce3ef724a7a7
+  retrieved: true
+- type: source_file
+  path: fastdeploy/entrypoints/cli/benchmark/main.py
+  blob_sha: 3de1279845e730f38056a7e254aa433b5ddd8975
+  retrieved: true
+- type: source_file
+  path: fastdeploy/entrypoints/cli/main.py
+  blob_sha: 28d20bb665f12e72da0c3e8627d32eabe90f2d17
+  retrieved: true
+- type: source_file
+  path: custom_ops/xpu_ops/src/ops/adjust_batch.cc
+  blob_sha: 5bd9dc424c507baf6a379951d1bb58afed28e4f4
+  retrieved: true

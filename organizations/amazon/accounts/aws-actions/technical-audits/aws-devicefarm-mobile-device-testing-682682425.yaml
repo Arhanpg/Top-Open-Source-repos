@@ -1,0 +1,107 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:04:28+00:00'
+evidence_fingerprint: 4b43ae8d6b43180f8977b1d50c0e6deb77e36b346978a65ab21757a0f69c28d3
+repository_metadata:
+  company: Amazon
+  account: aws-actions
+  full_name: aws-actions/aws-devicefarm-mobile-device-testing
+  repository_id: 682682425
+  url: https://github.com/aws-actions/aws-devicefarm-mobile-device-testing
+  description: Run automated Mobile Device Testing on AWS Device Farm
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T15:23:05Z'
+  stars: 12
+  readme_url: https://github.com/aws-actions/aws-devicefarm-mobile-device-testing/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4f7c4ff2176fd819e027913e0d757ace887d2076
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - index.js
+  - cleanup.js
+  - cleanup.test.js
+  - constants.js
+  repository_tree:
+    status: captured
+    sha: e05052f95b096e439a00b83b038a029eb860742d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Runs a Mobile Device Automated Test on AWS Device Farm.
+  why_used: Run automated Mobile Device Testing on AWS Device Farm
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@actions/github'
+    - '@aws-sdk/client-device-farm'
+    - '@eslint/js'
+    - '@rollup/plugin-commonjs'
+    - '@rollup/plugin-json'
+    - '@rollup/plugin-node-resolve'
+    - '@vitest/coverage-v8'
+    - aws-sdk-client-mock
+    - aws-sdk-client-mock-vitest
+    - axios
+    - eslint
+    - globals
+    - mock-fs
+    - rollup
+    - vitest
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: index.js, cleanup.js,
+    cleanup.test.js, constants.js'
+  setup_and_usage: []
+  limitations:
+  - 'Security Disclosures: If you would like to report a potential security issue in this project, please do not
+    create a GitHub issue. Instead, please follow the instructions here or email AWS security directly.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-actions/aws-devicefarm-mobile-device-testing/blob/main/README.md
+  path: README.md
+  blob_sha: 4f7c4ff2176fd819e027913e0d757ace887d2076
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: c39fa87b75e108aac0a4f0d53078f0dad9fc6613
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 86072
+- type: Git tree
+  status: captured
+  sha: e05052f95b096e439a00b83b038a029eb860742d
+  truncated: false
+- type: source_file
+  path: index.js
+  blob_sha: 851fc94db7aaf6378984a55296bf79505495c23a
+  retrieved: true
+- type: source_file
+  path: cleanup.js
+  blob_sha: 1a26f3c47a74eb5797298586c87c26dd34d64be8
+  retrieved: true
+- type: source_file
+  path: cleanup.test.js
+  blob_sha: 0fd0c0a7dfb604eec5b8f6f01de16dd74aeff4f1
+  retrieved: true
+- type: source_file
+  path: constants.js
+  blob_sha: f4dd8e8bb3a9b5c1e0807beb9a1664535e994ee8
+  retrieved: true

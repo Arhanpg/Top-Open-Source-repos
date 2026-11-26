@@ -1,10 +1,10 @@
 # Technical audits — ui5
 
-Updated: 2026-11-25T23:09:21+00:00
+Updated: 2026-11-26T07:22:01+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 12
 
 ## Repository dossiers
 
@@ -19,3 +19,6 @@ Updated: 2026-11-25T23:09:21+00:00
 | manifest-269312476 | evidence_only | [manifest-269312476.md](manifest-269312476.md) | [manifest-269312476.yaml](manifest-269312476.yaml) |
 | mcp-server-1026058228 | evidence_only | [mcp-server-1026058228.md](mcp-server-1026058228.md) | [mcp-server-1026058228.yaml](mcp-server-1026058228.yaml) |
 | openui5-15085215 | evidence_only | [openui5-15085215.md](openui5-15085215.md) | [openui5-15085215.yaml](openui5-15085215.yaml) |
+| openui5-website-165688605 | evidence_only | [openui5-website-165688605.md](openui5-website-165688605.md) | [openui5-website-165688605.yaml](openui5-website-165688605.yaml) |
+| plugins-coding-agents-1184343602 | evidence_only | [plugins-coding-agents-1184343602.md](plugins-coding-agents-1184343602.md) | [plugins-coding-agents-1184343602.yaml](plugins-coding-agents-1184343602.yaml) |
+| renovate-config-958428694 | evidence_only | [renovate-config-958428694.md](renovate-config-958428694.md) | [renovate-config-958428694.yaml](renovate-config-958428694.yaml) |

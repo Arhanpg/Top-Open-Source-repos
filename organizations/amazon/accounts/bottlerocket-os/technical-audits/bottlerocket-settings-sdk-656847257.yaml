@@ -1,0 +1,139 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:06:21+00:00'
+evidence_fingerprint: c82d0460551e0e90a83d46c5fc60ea609b52efb5236b37ebaca6f04a470d678f
+repository_metadata:
+  company: Amazon
+  account: bottlerocket-os
+  full_name: bottlerocket-os/bottlerocket-settings-sdk
+  repository_id: 656847257
+  url: https://github.com/bottlerocket-os/bottlerocket-settings-sdk
+  description: A Rust library for extending Bottlerocket's settings API
+  default_branch: develop
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-04T01:08:43Z'
+  stars: 5
+  readme_url: https://github.com/bottlerocket-os/bottlerocket-settings-sdk/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: a4f074fd6cd81a1efc7009c2be991789a3315d46
+  manifest_paths:
+  - Cargo.toml
+  - Makefile
+  - bottlerocket-defaults-helper/Cargo.toml
+  - bottlerocket-settings-derive/Cargo.toml
+  - bottlerocket-settings-plugin/Cargo.toml
+  - bottlerocket-settings-sdk/Cargo.toml
+  source_files_inspected:
+  - bottlerocket-defaults-helper/src/lib.rs
+  - bottlerocket-settings-derive/src/lib.rs
+  - bottlerocket-settings-models/model-derive/src/lib.rs
+  - bottlerocket-settings-models/modeled-types/src/lib.rs
+  repository_tree:
+    status: captured
+    sha: f318fedcf5911c37af7837df904ae7666d5c28b7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A Rust library for creating extensions to Bottlerocket's Settings API.
+  why_used: A Rust library for extending Bottlerocket's settings API
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    - JavaScript
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - abi_stable
+    - anyhow
+    - argh
+    - bottlerocket-settings-derive
+    - bottlerocket-template-helper
+    - ctor
+    - darling
+    - env_logger
+    - lazy_static
+    - log
+    - maplit
+    - proc-macro2
+    - quote
+    - serde
+    - serde_json
+    - snafu
+    - syn
+    - toml
+    - tracing
+    - walkdir
+    build_and_package_tools:
+    - Cargo manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: bottlerocket-defaults-helper/src/lib.rs,
+    bottlerocket-settings-derive/src/lib.rs, bottlerocket-settings-models/model-derive/src/lib.rs, bottlerocket-settings-models/modeled-types/src/lib.rs'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/bottlerocket-os/bottlerocket-settings-sdk/blob/develop/README.md
+  path: README.md
+  blob_sha: a4f074fd6cd81a1efc7009c2be991789a3315d46
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: bdc7fce63d0e9e725018fa0df4e60046001f7e0f
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 5db6a70729947cc7b3018e54ce24afb0e08bbb27
+  retrieved: true
+- type: manifest
+  path: bottlerocket-defaults-helper/Cargo.toml
+  blob_sha: 0fe7de9bf8832ef2727f6e002d184411e600eb67
+  retrieved: true
+- type: manifest
+  path: bottlerocket-settings-derive/Cargo.toml
+  blob_sha: be169d13df915ee335451215843626f14e59c5ec
+  retrieved: true
+- type: manifest
+  path: bottlerocket-settings-plugin/Cargo.toml
+  blob_sha: ddd8b5336f9a259dea3f6037f55742d868fd45a1
+  retrieved: true
+- type: manifest
+  path: bottlerocket-settings-sdk/Cargo.toml
+  blob_sha: 354d0cdf4aa1e77512ef9727ef1c313604b5c255
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 519022
+    JavaScript: 1796
+    Makefile: 317
+- type: Git tree
+  status: captured
+  sha: f318fedcf5911c37af7837df904ae7666d5c28b7
+  truncated: false
+- type: source_file
+  path: bottlerocket-defaults-helper/src/lib.rs
+  blob_sha: 850629362470587e39765ad3ba71f8e12edac71b
+  retrieved: true
+- type: source_file
+  path: bottlerocket-settings-derive/src/lib.rs
+  blob_sha: 7c5493226bff0c7de676a9ab523158529c317fbb
+  retrieved: true
+- type: source_file
+  path: bottlerocket-settings-models/model-derive/src/lib.rs
+  blob_sha: 7fcd3c614d2338a11af56b6fc52f45898638cdcf
+  retrieved: true
+- type: source_file
+  path: bottlerocket-settings-models/modeled-types/src/lib.rs
+  blob_sha: 1e8b4757da526f81286561f4420417c0af4a11ae
+  retrieved: true

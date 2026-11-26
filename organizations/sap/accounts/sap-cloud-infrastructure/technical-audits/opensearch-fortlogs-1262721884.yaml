@@ -1,0 +1,72 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:17:42+00:00'
+evidence_fingerprint: 53c150dd37c5b4d7fac7e8f2e9104b5097bedb48a84aa353eb9758795315b01a
+repository_metadata:
+  company: SAP
+  account: SAP-cloud-infrastructure
+  full_name: SAP-cloud-infrastructure/opensearch-fortlogs
+  repository_id: 1262721884
+  url: https://github.com/SAP-cloud-infrastructure/opensearch-fortlogs
+  description: Custom OpenSearch Docker image for FortLogs
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-19T09:59:18Z'
+  stars: 0
+  readme_url: https://github.com/SAP-cloud-infrastructure/opensearch-fortlogs/blob/main/README.md
+  readme_path: README.md
+  readme_sha: dc6fc645df064cf2b7cf51292a9fb414320619ef
+  manifest_paths:
+  - Dockerfile
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: 8ca78b1281e49fbd25a13bdd6ab46a721ea5d003
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Custom OpenSearch Docker image that replaces the bundled opensearch-security-analytics and opensearch-alerting
+    plugins with patched builds containing upstream fixes not yet merged.
+  why_used: Custom OpenSearch Docker image for FortLogs
+  core_features: []
+  technology_stack:
+    languages:
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage: []
+  limitations:
+  - 'opensearch-project/security-analytics: - PRs by thecodingshrimp'
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions in
+    the security policy on how to report it. Please do not create GitHub issues for security-related doubts or problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP-cloud-infrastructure/opensearch-fortlogs/blob/main/README.md
+  path: README.md
+  blob_sha: dc6fc645df064cf2b7cf51292a9fb414320619ef
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 6ad688c83567d568e72df21c7ad49b7d5fe89e0e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Dockerfile: 1530
+- type: Git tree
+  status: captured
+  sha: 8ca78b1281e49fbd25a13bdd6ab46a721ea5d003
+  truncated: false

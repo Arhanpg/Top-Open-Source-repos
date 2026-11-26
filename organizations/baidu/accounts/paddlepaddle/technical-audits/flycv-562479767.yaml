@@ -1,0 +1,124 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:15:27+00:00'
+evidence_fingerprint: b7df6fad3696055c19325534e215ea4c967e856d9f1b33b5984c58f942dd5f9c
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/FlyCV
+  repository_id: 562479767
+  url: https://github.com/PaddlePaddle/FlyCV
+  description: 'FlyCV is a high-performance library for processing computer visual tasks. '
+  default_branch: develop
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-06-02T02:43:47Z'
+  stars: 594
+  readme_url: https://github.com/PaddlePaddle/FlyCV/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: bacd3186b4b14c80d5fca6e6776c9a5bb0b1841c
+  manifest_paths:
+  - CMakeLists.txt
+  - benchmark/CMakeLists.txt
+  - modules/CMakeLists.txt
+  - samples/CMakeLists.txt
+  - tests/CMakeLists.txt
+  - samples/armlinux/CMakeLists.txt
+  source_files_inspected:
+  - benchmark/modules/core/mat_bench.cpp
+  - modules/core/allocator/include/cpu_allocator.h
+  - modules/core/allocator/interface/base_allocator.h
+  - modules/core/allocator/src/base_allocator.cpp
+  repository_tree:
+    status: captured
+    sha: 0a5ec58900553868e54422e569a491e4d8ddc9b1
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: README_CN.md
+  why_used: FlyCV is a high-performance library for processing computer visual tasks.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - C
+    - CMake
+    - Python
+    - Shell
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: benchmark/modules/core/mat_bench.cpp,
+    modules/core/allocator/include/cpu_allocator.h, modules/core/allocator/interface/base_allocator.h, modules/core/allocator/src/base_allocator.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/FlyCV/blob/develop/README.md
+  path: README.md
+  blob_sha: bacd3186b4b14c80d5fca6e6776c9a5bb0b1841c
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 1aa7d151e31d3864929e670bd92f08f6eb7854e2
+  retrieved: true
+- type: manifest
+  path: benchmark/CMakeLists.txt
+  blob_sha: e4dc8c64e0dedf3826b98ef17b43ba0d97051921
+  retrieved: true
+- type: manifest
+  path: modules/CMakeLists.txt
+  blob_sha: ee9b14f82987e615a82ffe44a0c2ede9c0e9ee4e
+  retrieved: true
+- type: manifest
+  path: samples/CMakeLists.txt
+  blob_sha: 509ccbbb39784975048dc7f728659280efc3286f
+  retrieved: true
+- type: manifest
+  path: tests/CMakeLists.txt
+  blob_sha: ebea1d9cfb241a4dc60dee635699a6a633170eda
+  retrieved: true
+- type: manifest
+  path: samples/armlinux/CMakeLists.txt
+  blob_sha: fd15423b2e74e1538e86e1478978676def68b4f0
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 3017739
+    C: 418254
+    CMake: 47820
+    Python: 17190
+    Shell: 9255
+    JavaScript: 3822
+- type: Git tree
+  status: captured
+  sha: 0a5ec58900553868e54422e569a491e4d8ddc9b1
+  truncated: false
+- type: source_file
+  path: benchmark/modules/core/mat_bench.cpp
+  blob_sha: 8b8702f722a4cdf795a914d24fcba1b0cde03a20
+  retrieved: true
+- type: source_file
+  path: modules/core/allocator/include/cpu_allocator.h
+  blob_sha: 6f2e05a235d2d9bc34b10eb558655433eecb184a
+  retrieved: true
+- type: source_file
+  path: modules/core/allocator/interface/base_allocator.h
+  blob_sha: d4bf82dfb945f5a04373cb02c62ae52fddf38707
+  retrieved: true
+- type: source_file
+  path: modules/core/allocator/src/base_allocator.cpp
+  blob_sha: 1a653b6d7b4f771f8a50eb37268da02f34af373e
+  retrieved: true

@@ -1,0 +1,100 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:11:41+00:00'
+evidence_fingerprint: e591ef7ddce03f650eaa1870e204a266f3cd45a5df604505dd21eebfd37aa5c3
+repository_metadata:
+  company: Amazon
+  account: amazon-archives
+  full_name: amazon-archives/amazon-cognito-android
+  repository_id: 21631940
+  url: https://github.com/amazon-archives/amazon-cognito-android
+  description: 'ARCHIVED: Use https://github.com/aws/aws-sdk-android/'
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2018-03-28T22:39:46Z'
+  stars: 31
+  readme_url: https://github.com/amazon-archives/amazon-cognito-android/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 592f25c626390dfe0ede78b05fe315d9ba8eeec5
+  manifest_paths:
+  - pom.xml
+  source_files_inspected:
+  - src/main/java/com/amazonaws/mobileconnectors/cognito/CognitoSyncManager.java
+  - src/main/java/com/amazonaws/mobileconnectors/cognito/Dataset.java
+  - src/main/java/com/amazonaws/mobileconnectors/cognito/DatasetMetadata.java
+  - src/main/java/com/amazonaws/mobileconnectors/cognito/DefaultDataset.java
+  repository_tree:
+    status: captured
+    sha: 21c807873482f5beb0bc842602f40295462f6bba
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**This repository has been merged into AWS SDK for Android. All the code is moved under aws-sdk-android/aws-android-sdk-cognito.
+    Amazon Cognito Sync will continue to be developed and maintained in the master repo. Any future issues regarding
+    Amazon Cognito should be posted at aws-sdk-android/issues. This repo will be inactive and is pending removal
+    if necessary.**'
+  why_used: 'ARCHIVED: Use https://github.com/aws/aws-sdk-android/'
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    frameworks_and_libraries: []
+    dependencies:
+    - android
+    - aws-android-sdk-cognito
+    - aws-android-sdk-core
+    - maven-compiler-plugin
+    - maven-gpg-plugin
+    - maven-javadoc-plugin
+    - nexus-staging-maven-plugin
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/main/java/com/amazonaws/mobileconnectors/cognito/CognitoSyncManager.java,
+    src/main/java/com/amazonaws/mobileconnectors/cognito/Dataset.java, src/main/java/com/amazonaws/mobileconnectors/cognito/DatasetMetadata.java,
+    src/main/java/com/amazonaws/mobileconnectors/cognito/DefaultDataset.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-archives/amazon-cognito-android/blob/master/README.md
+  path: README.md
+  blob_sha: 592f25c626390dfe0ede78b05fe315d9ba8eeec5
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: 3d0459672d24e8d88b1106c52d5a9de9fbf6db0b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 499487
+- type: Git tree
+  status: captured
+  sha: 21c807873482f5beb0bc842602f40295462f6bba
+  truncated: false
+- type: source_file
+  path: src/main/java/com/amazonaws/mobileconnectors/cognito/CognitoSyncManager.java
+  blob_sha: 94145e2a0781847b211b3efb59c0986824a6473f
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/amazonaws/mobileconnectors/cognito/Dataset.java
+  blob_sha: 5f26172de8ac32226a0641cced0a1f4b0d89cee2
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/amazonaws/mobileconnectors/cognito/DatasetMetadata.java
+  blob_sha: 991c3a0aab2e9326a1869802743e195834dd8e6b
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/amazonaws/mobileconnectors/cognito/DefaultDataset.java
+  blob_sha: 6ae2218309173bd97d63600c26b8e5aa989f6486
+  retrieved: true

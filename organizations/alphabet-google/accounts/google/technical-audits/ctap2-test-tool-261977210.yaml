@@ -1,0 +1,92 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:18:54+00:00'
+evidence_fingerprint: 59dba38c685da765afbc0bb0e7ec1e3d427684f5f9fa2378743c615bf297bc57
+repository_metadata:
+  company: Alphabet (Google)
+  account: google
+  full_name: google/CTAP2-test-tool
+  repository_id: 261977210
+  url: https://github.com/google/CTAP2-test-tool
+  description: Test tool for CTAP2 authenticators
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2023-07-11T11:38:30Z'
+  stars: 58
+  readme_url: https://github.com/google/CTAP2-test-tool/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1973ac891baaaf516f11b5208cb0c871e0db6c60
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - src/cbor_builders.cc
+  - src/cbor_builders.h
+  - src/cbor_builders_test.cc
+  - src/command_state.cc
+  repository_tree:
+    status: captured
+    sha: 0e3d32d8cb10c03a4a28e099b152c6c62d620d4e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The test suite intents to make it easier for developers to find bugs in their CTAP2 implementation. It
+    supports CTAP 2.0 only, see supported features.
+  why_used: Test tool for CTAP2 authenticators
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies:
+    - argparse
+    - jinja2
+    - tabulate
+    - tqdm
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/cbor_builders.cc,
+    src/cbor_builders.h, src/cbor_builders_test.cc, src/command_state.cc'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google/CTAP2-test-tool/blob/main/README.md
+  path: README.md
+  blob_sha: 1973ac891baaaf516f11b5208cb0c871e0db6c60
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: e75022369a50f9e81bf0ba280edf79afa0150680
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: 0e3d32d8cb10c03a4a28e099b152c6c62d620d4e
+  truncated: false
+- type: source_file
+  path: src/cbor_builders.cc
+  blob_sha: eff661557a569caa0eccd36876ac76fa9e783853
+  retrieved: true
+- type: source_file
+  path: src/cbor_builders.h
+  blob_sha: 46440e7aeafd74230c0fa04b5fd6175917dc268d
+  retrieved: true
+- type: source_file
+  path: src/cbor_builders_test.cc
+  blob_sha: 20a3edf2cf955f73be085d1ffd9f57b267681446
+  retrieved: true
+- type: source_file
+  path: src/command_state.cc
+  blob_sha: 5d6b8a6377d66bf08e0252019ab2dacb5d8519c8
+  retrieved: true

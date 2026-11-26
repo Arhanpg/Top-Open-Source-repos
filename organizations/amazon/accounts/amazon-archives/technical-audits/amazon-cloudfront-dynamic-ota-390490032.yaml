@@ -1,0 +1,92 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:03:48+00:00'
+evidence_fingerprint: a308acc4e51980574699ac8e507d33cc6657152b2b58f08bd02acc04dc546b66
+repository_metadata:
+  company: Amazon
+  account: amazon-archives
+  full_name: amazon-archives/amazon-cloudfront-dynamic-ota
+  repository_id: 390490032
+  url: https://github.com/amazon-archives/amazon-cloudfront-dynamic-ota
+  description: A solution for providing over the air updates to devices regardless of authentication status with
+    packages generated dynamically based on query params in the request and ETags in the header.
+  default_branch: main
+  license_spdx: MIT-0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2021-08-14T01:50:37Z'
+  stars: 3
+  readme_url: https://github.com/amazon-archives/amazon-cloudfront-dynamic-ota/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e4e34ddfa53868a0c28b4b278436503956345401
+  manifest_paths:
+  - runtime/requirements.txt
+  source_files_inspected:
+  - runtime/app.py
+  - infrastructure/cloudformation_template.py
+  - init.py
+  repository_tree:
+    status: captured
+    sha: 49e68898deae1b00eaa9207ffa1c8634e7884c86
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A common pattern for IoT devices is for updates to be pushed over the air. However, in some cases, it
+    may not be possible to control updates to a device. This is especially true in the case of "anonymous" devices
+    that are unregistered with a backend system, such as AWS IoT. It may also be cost prohibitive to try to manage
+    updates to large fleets of devices, where a fire-and-forget strategy might be better suited.
+  why_used: A solution for providing over the air updates to devices regardless of authentication status with packages
+    generated dynamically based on query params in the request and ETags in the header.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - boto3
+    - flask
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: runtime/app.py, infrastructure/cloudformation_template.py,
+    init.py'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-archives/amazon-cloudfront-dynamic-ota/blob/main/README.md
+  path: README.md
+  blob_sha: e4e34ddfa53868a0c28b4b278436503956345401
+  retrieved: true
+- type: manifest
+  path: runtime/requirements.txt
+  blob_sha: faf5cbbb9c39f6706f79a37ba848b844686897e7
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 25821
+- type: Git tree
+  status: captured
+  sha: 49e68898deae1b00eaa9207ffa1c8634e7884c86
+  truncated: false
+- type: source_file
+  path: runtime/app.py
+  blob_sha: 8170bdc6a2b22df30240cacaed32099ae5e4c1c6
+  retrieved: true
+- type: source_file
+  path: infrastructure/cloudformation_template.py
+  blob_sha: bf9bb20c9788a61b8503282c8c70cd0a23cc2627
+  retrieved: true
+- type: source_file
+  path: init.py
+  blob_sha: 32c56b053f85fafd37adaa976d9f48181de9fe1d
+  retrieved: true

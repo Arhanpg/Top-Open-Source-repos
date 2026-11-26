@@ -1,0 +1,97 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:04:35+00:00'
+evidence_fingerprint: ad14eb0c13812702fe8559634266bd62586785659d1e77e480d020ecce89b5e3
+repository_metadata:
+  company: Amazon
+  account: aws-amplify
+  full_name: aws-amplify/amplify-hosting
+  repository_id: 192008434
+  url: https://github.com/aws-amplify/amplify-hosting
+  description: AWS Amplify Hosting provides a Git-based workflow for deploying and hosting fullstack serverless
+    web applications.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-08-13T21:21:19Z'
+  stars: 479
+  readme_url: https://github.com/aws-amplify/amplify-hosting/blob/main/README.md
+  readme_path: README.md
+  readme_sha: d3a5b2f976120015a84f27b2eaed7e2f86786022
+  manifest_paths:
+  - images/amazonlinux1/Dockerfile
+  - images/latest/Dockerfile
+  source_files_inspected:
+  - scripts/amplifyPush.sh
+  repository_tree:
+    status: captured
+    sha: 686004cef9f0ed0024d9a0b377cafac5ae6020de
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> [!NOTE] > This repository only accepts new feature requests for AWS Amplify Hosting. For technical
+    support, we encourage you to open a case with AWS technical support if you have AWS support plan. If you do
+    not have an active AWS support plan, we encourage you to leverage our Amplify community Discord server where
+    community members and staff try to help each other with Amplify.'
+  why_used: AWS Amplify Hosting provides a Git-based workflow for deploying and hosting fullstack serverless web
+    applications.
+  core_features:
+  - name: '**Up for consideration:** We are considering working on this feature this year.'
+    description: '**Up for consideration:** We are considering working on this feature this year.'
+    evidence:
+    - README.md#Feature request status
+  - name: '**In progress:** Our engineering team is actively working on the feature.'
+    description: '**In progress:** Our engineering team is actively working on the feature.'
+    evidence:
+    - README.md#Feature request status
+  - name: '**Done:** The feature has rolled out to all available regions.'
+    description: '**Done:** The feature has rolled out to all available regions.'
+    evidence:
+    - README.md#Feature request status
+  technology_stack:
+    languages:
+    - Dockerfile
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: scripts/amplifyPush.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-amplify/amplify-hosting/blob/main/README.md
+  path: README.md
+  blob_sha: d3a5b2f976120015a84f27b2eaed7e2f86786022
+  retrieved: true
+- type: manifest
+  path: images/amazonlinux1/Dockerfile
+  blob_sha: e238b325927f369dbc010273f79bfe9adadbafd3
+  retrieved: true
+- type: manifest
+  path: images/latest/Dockerfile
+  blob_sha: e238b325927f369dbc010273f79bfe9adadbafd3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Dockerfile: 348
+    Shell: 141
+- type: Git tree
+  status: captured
+  sha: 686004cef9f0ed0024d9a0b377cafac5ae6020de
+  truncated: false
+- type: source_file
+  path: scripts/amplifyPush.sh
+  blob_sha: 73ea9d1d454835841f68631d2ad993e1d882bee9
+  retrieved: true

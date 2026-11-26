@@ -1,0 +1,133 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:12:37+00:00'
+evidence_fingerprint: b918e9ce204b81b6328ead0a5945ce2481cd1f8c4b5c72afc9a2b92117ba5e51
+repository_metadata:
+  company: Amazon
+  account: aws-cloudformation
+  full_name: aws-cloudformation/aws-cloudformation-resource-providers-awsutilities-commandrunner
+  repository_id: 265697056
+  url: https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-awsutilities-commandrunner
+  description: null
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-03-01T23:37:55Z'
+  stars: 81
+  readme_url: https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-awsutilities-commandrunner/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 3416fbeede0292149107cb50ea0a6f93c906f13d
+  manifest_paths:
+  - pom.xml
+  source_files_inspected:
+  - src/main/java/software/awsutility/cloudformation/commandrunner/CallbackContext.java
+  - src/main/java/software/awsutility/cloudformation/commandrunner/Configuration.java
+  - src/main/java/software/awsutility/cloudformation/commandrunner/CreateHandler.java
+  - src/main/java/software/awsutility/cloudformation/commandrunner/DeleteHandler.java
+  repository_tree:
+    status: captured
+    sha: 96015a7d61e114b4ee9f61ed7ca814c949022f0c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: I took all the feedback, issues and feature requests from all our users to create this new major version.
+    All known bugs for CommandRunner have now been fixed!
+  why_used: I took all the feedback, issues and feature requests from all our users to create this new major version.
+    All known bugs for CommandRunner have now been fixed!
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - assertj-core
+    - aws-cloudformation-rpdk-java-plugin
+    - aws-java-sdk
+    - aws-java-sdk-cloudformation
+    - aws-java-sdk-core
+    - aws-java-sdk-ec2
+    - aws-java-sdk-iam
+    - aws-java-sdk-s3
+    - aws-java-sdk-ssm
+    - aws-java-sdk-sts
+    - aws-lambda-java-core
+    - awsutility-cloudformation-commandrunner-handler
+    - build-helper-maven-plugin
+    - exec-maven-plugin
+    - jackson-core
+    - jacoco-maven-plugin
+    - jmespath-java
+    - junit-jupiter
+    - lombok
+    - maven-compiler-plugin
+    - maven-resources-plugin
+    - maven-shade-plugin
+    - maven-surefire-plugin
+    - mockito-core
+    - mockito-junit-jupiter
+    - slf4j-jdk14
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/main/java/software/awsutility/cloudformation/commandrunner/CallbackContext.java,
+    src/main/java/software/awsutility/cloudformation/commandrunner/Configuration.java, src/main/java/software/awsutility/cloudformation/commandrunner/CreateHandler.java,
+    src/main/java/software/awsutility/cloudformation/commandrunner/DeleteHandler.java'
+  setup_and_usage:
+  - 'User Installation Steps: *Note: To build the source yourself, see the Developer Build Steps section below.*'
+  - 'User Installation Steps: **Step 0**: Clone this repository and download the latest release using the following
+    commands.'
+  - 'User Installation Steps: git clone https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-awsutilities-commandrunner.git'
+  - 'User Installation Steps: cd aws-cloudformation-resource-providers-awsutilities-commandrunner'
+  - 'User Installation Steps: curl -LO https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-awsutilities-commandrunner/releases/latest/download/awsutility-cloudformation-commandrunner.zip'
+  - 'User Installation Steps: **Step 1**: Use the register.sh bash script to register resource from scratch and
+    upload package to S3 bucket. Pass the optional --set-default option to set this version to be the default version
+    for the AWSUtility::CloudFormation::CommandRunner resource.'
+  - 'User Installation Steps: $ ./scripts/register.sh --set-default'
+  - 'User Installation Steps: Below is an example of a successful registration using the register.sh script.'
+  limitations:
+  - 'SecurityGroupId: The Id of the Security Group to attach to the instance the command is run in. If using SecurityGroup,
+    the SubnetId property is required.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-awsutilities-commandrunner/blob/master/README.md
+  path: README.md
+  blob_sha: 3416fbeede0292149107cb50ea0a6f93c906f13d
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: 3c084b7ec90be8045f2e27bfedf7467f45a15b61
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 44680
+    Shell: 9500
+- type: Git tree
+  status: captured
+  sha: 96015a7d61e114b4ee9f61ed7ca814c949022f0c
+  truncated: false
+- type: source_file
+  path: src/main/java/software/awsutility/cloudformation/commandrunner/CallbackContext.java
+  blob_sha: 086131e4ad77f79bec265829400ecc4b6d2b3806
+  retrieved: true
+- type: source_file
+  path: src/main/java/software/awsutility/cloudformation/commandrunner/Configuration.java
+  blob_sha: 2147175cb36beba6b754b704a38c59bbcc9bd2ec
+  retrieved: true
+- type: source_file
+  path: src/main/java/software/awsutility/cloudformation/commandrunner/CreateHandler.java
+  blob_sha: 5404657053d0088ee98e6c9c8f2376b6095fa42f
+  retrieved: true
+- type: source_file
+  path: src/main/java/software/awsutility/cloudformation/commandrunner/DeleteHandler.java
+  blob_sha: 2d276c164ac3d3abab729478790aae487bb8ed1a
+  retrieved: true

@@ -1,10 +1,10 @@
 # Technical audits — aws-deepracer
 
-Updated: 2026-11-25T23:09:22+00:00
+Updated: 2026-11-26T07:22:01+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 13
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -20,4 +20,8 @@ Updated: 2026-11-25T23:09:22+00:00
 | aws-deepracer-inference-pkg-341984304 | evidence_only | [aws-deepracer-inference-pkg-341984304.md](aws-deepracer-inference-pkg-341984304.md) | [aws-deepracer-inference-pkg-341984304.yaml](aws-deepracer-inference-pkg-341984304.yaml) |
 | aws-deepracer-interfaces-pkg-341981882 | evidence_only | [aws-deepracer-interfaces-pkg-341981882.md](aws-deepracer-interfaces-pkg-341981882.md) | [aws-deepracer-interfaces-pkg-341981882.yaml](aws-deepracer-interfaces-pkg-341981882.yaml) |
 | aws-deepracer-launcher-341983585 | evidence_only | [aws-deepracer-launcher-341983585.md](aws-deepracer-launcher-341983585.md) | [aws-deepracer-launcher-341983585.yaml](aws-deepracer-launcher-341983585.yaml) |
+| aws-deepracer-mapping-sample-project-342349813 | evidence_only | [aws-deepracer-mapping-sample-project-342349813.md](aws-deepracer-mapping-sample-project-342349813.md) | [aws-deepracer-mapping-sample-project-342349813.yaml](aws-deepracer-mapping-sample-project-342349813.yaml) |
+| aws-deepracer-model-optimizer-pkg-341984643 | evidence_only | [aws-deepracer-model-optimizer-pkg-341984643.md](aws-deepracer-model-optimizer-pkg-341984643.md) | [aws-deepracer-model-optimizer-pkg-341984643.yaml](aws-deepracer-model-optimizer-pkg-341984643.yaml) |
+| aws-deepracer-navigation-pkg-341982395 | evidence_only | [aws-deepracer-navigation-pkg-341982395.md](aws-deepracer-navigation-pkg-341982395.md) | [aws-deepracer-navigation-pkg-341982395.yaml](aws-deepracer-navigation-pkg-341982395.yaml) |
+| aws-deepracer-notebooks-377646415 | evidence_only | [aws-deepracer-notebooks-377646415.md](aws-deepracer-notebooks-377646415.md) | [aws-deepracer-notebooks-377646415.yaml](aws-deepracer-notebooks-377646415.yaml) |
 | github-744758268 | insufficient_evidence | [github-744758268.md](github-744758268.md) | [github-744758268.yaml](github-744758268.yaml) |

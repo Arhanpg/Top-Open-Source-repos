@@ -1,0 +1,201 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:56:36+00:00'
+evidence_fingerprint: ea03683fb2ec3b4a38e9d2c3362883968d8feaf0db1d3dc6e235aac217df7d1e
+repository_metadata:
+  company: Amazon
+  account: aws-amplify
+  full_name: aws-amplify/amplify-flutter
+  repository_id: 253571453
+  url: https://github.com/aws-amplify/amplify-flutter
+  description: A declarative library with an easy-to-use interface for building Flutter applications on AWS.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T16:51:48Z'
+  stars: 1357
+  readme_url: https://github.com/aws-amplify/amplify-flutter/blob/main/README.md
+  readme_path: README.md
+  readme_sha: d5230187e0cd58c00816e5ae6f28fc26d9fee03f
+  manifest_paths:
+  - .devcontainer/Dockerfile
+  - actions/package.json
+  - infra-gen2/package.json
+  - infra/package.json
+  - canaries/android/build.gradle
+  - infra-gen2/infra-common/package.json
+  source_files_inspected:
+  - canaries/amplify/backend/function/canaries741cf74ePreSignup/src/index.js
+  - infra-gen2/infra-common/src/index.ts
+  - packages/amplify/amplify_flutter/example/windows/runner/main.cpp
+  - packages/analytics/amplify_analytics_pinpoint/example/windows/runner/main.cpp
+  repository_tree:
+    status: captured
+    sha: 08d45c4c32d0620563211305aa94ec3efa960b3f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: AWS Amplify provides a declarative and easy-to-use interface across different categories of cloud operations.
+    Our default implementation works with Amazon Web Services (AWS), but AWS Amplify is designed to be open and
+    pluggable for any custom backend or service. See AWS Amplify for further details about the Amplify Framework.
+  why_used: A declarative library with an easy-to-use interface for building Flutter applications on AWS.
+  core_features: []
+  technology_stack:
+    languages:
+    - Dart
+    - Swift
+    - Kotlin
+    - TypeScript
+    - Shell
+    - JavaScript
+    - C++
+    - CMake
+    - HTML
+    - Java
+    - Python
+    - Objective-C
+    - Smithy
+    - Ruby
+    - PowerShell
+    - C
+    - Makefile
+    - CSS
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@actions/exec'
+    - '@actions/github'
+    - '@actions/http-client'
+    - '@actions/tool-cache'
+    - '@aws-amplify/backend'
+    - '@aws-amplify/backend-cli'
+    - '@aws-crypto/client-node'
+    - '@aws-sdk/client-amplify'
+    - '@aws-sdk/client-cognito-identity-provider'
+    - '@aws-sdk/client-s3'
+    - '@types/aws-lambda'
+    - '@types/babel__traverse'
+    - '@types/jest'
+    - '@types/node'
+    - '@vercel/ncc'
+    - aws-amplify
+    - aws-cdk
+    - aws-cdk-lib
+    - constructs
+    - esbuild
+    - infra-common
+    - jest
+    - node-fetch
+    - source-map-support
+    - ts-jest
+    - ts-node
+    - tsx
+    - typescript
+    build_and_package_tools:
+    - Gradle build file
+    - Docker build configuration
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: canaries/amplify/backend/function/canaries741cf74ePreSignup/src/index.js,
+    infra-gen2/infra-common/src/index.ts, packages/amplify/amplify_flutter/example/windows/runner/main.cpp, packages/analytics/amplify_analytics_pinpoint/example/windows/runner/main.cpp'
+  setup_and_usage:
+  - 'Getting Started With Amplify Flutter: 1. Open your Flutter project. If you do not have an active Flutter project,
+    you can create one after installing the Flutter development tooling and running flutter create in your terminal.'
+  - 'Getting Started With Amplify Flutter: 2. Run the following to create an amplify project:'
+  - 'Getting Started With Amplify Flutter: npm create amplify@latest -y'
+  - 'Getting Started With Amplify Flutter: 4. To use the Authenticator, you need to add the following dependencies
+    to your project:'
+  - 'Getting Started With Amplify Flutter: amplify_auth_cognito: ^2.0.0'
+  - 'Getting Started With Amplify Flutter: amplify_authenticator: ^2.0.0'
+  - 'Getting Started With Amplify Flutter: amplify_flutter: ^2.0.0'
+  - 'Getting Started With Amplify Flutter: 5. run flutter pub get'
+  limitations:
+  - 'Category / Platform Support: | Category | Android | iOS | Web | Windows | MacOS | Linux |'
+  - 'Category / Platform Support: | -------------- | :-----: | :-: | :-: | :-----: | :---: | :---: |'
+  - 'Category / Platform Support: | Analytics | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |'
+  - 'Category / Platform Support: | API (REST) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |'
+  - 'Category / Platform Support: | API (GraphQL) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |'
+  - 'Category / Platform Support: | Authentication | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |'
+  - 'Category / Platform Support: | DataStore | ✅ | ✅ | 🔴 | 🔴 | 🔴 | 🔴 |'
+  - 'Category / Platform Support: | Storage | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-amplify/amplify-flutter/blob/main/README.md
+  path: README.md
+  blob_sha: d5230187e0cd58c00816e5ae6f28fc26d9fee03f
+  retrieved: true
+- type: manifest
+  path: .devcontainer/Dockerfile
+  blob_sha: f6fd53ebf6c70c132e8a7f1bd2eee6a91ccc2780
+  retrieved: true
+- type: manifest
+  path: actions/package.json
+  blob_sha: 2ecb80e0938d2f74bd24813c88f07f15d8b78805
+  retrieved: true
+- type: manifest
+  path: infra-gen2/package.json
+  blob_sha: ce49675e4a6ed0985d1b4022771c46da4cd2168e
+  retrieved: true
+- type: manifest
+  path: infra/package.json
+  blob_sha: b3bdaf28f034d2d2cc02cd9756dc2545f09ee0f1
+  retrieved: true
+- type: manifest
+  path: canaries/android/build.gradle
+  blob_sha: d2ffbffa4cd251cc00b2b93a5efc2a0213460220
+  retrieved: true
+- type: manifest
+  path: infra-gen2/infra-common/package.json
+  blob_sha: b202bfd41e54b9ee8877fda0640bb288dba9b0fe
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Dart: 7903535
+    Swift: 2122618
+    Kotlin: 404304
+    TypeScript: 167031
+    Shell: 79138
+    JavaScript: 38137
+    C++: 25950
+    CMake: 25406
+    HTML: 22354
+    Java: 21021
+    Python: 19818
+    Objective-C: 19149
+    Smithy: 18928
+    Ruby: 12770
+    PowerShell: 8720
+    C: 3495
+    Makefile: 2493
+    CSS: 2472
+    Dockerfile: 1572
+- type: Git tree
+  status: captured
+  sha: 08d45c4c32d0620563211305aa94ec3efa960b3f
+  truncated: false
+- type: source_file
+  path: canaries/amplify/backend/function/canaries741cf74ePreSignup/src/index.js
+  blob_sha: 876a0cedec6bc05948bc7a974f3daccfbcf82702
+  retrieved: true
+- type: source_file
+  path: infra-gen2/infra-common/src/index.ts
+  blob_sha: 9843543a068fa23c1ab9a829169a58ff5045ccf9
+  retrieved: true
+- type: source_file
+  path: packages/amplify/amplify_flutter/example/windows/runner/main.cpp
+  blob_sha: e55689e0d02cab3c9002067a71f0e88d58c1ece4
+  retrieved: true
+- type: source_file
+  path: packages/analytics/amplify_analytics_pinpoint/example/windows/runner/main.cpp
+  blob_sha: dee395d57c246871b04e152a7e03879e80f8ba03
+  retrieved: true

@@ -1,10 +1,10 @@
 # Technical audits — cdklabs
 
-Updated: 2026-11-25T23:09:23+00:00
+Updated: 2026-11-26T07:22:01+00:00
 
 ## Status counts
 
-- evidence_only: 8
+- evidence_only: 12
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -19,4 +19,8 @@ Updated: 2026-11-25T23:09:23+00:00
 | awscdk-appsync-utils-558997289 | evidence_only | [awscdk-appsync-utils-558997289.md](awscdk-appsync-utils-558997289.md) | [awscdk-appsync-utils-558997289.yaml](awscdk-appsync-utils-558997289.yaml) |
 | awscdk-asset-awscli-528539897 | evidence_only | [awscdk-asset-awscli-528539897.md](awscdk-asset-awscli-528539897.md) | [awscdk-asset-awscli-528539897.yaml](awscdk-asset-awscli-528539897.yaml) |
 | awscdk-asset-awscli-go-536306167 | evidence_only | [awscdk-asset-awscli-go-536306167.md](awscdk-asset-awscli-go-536306167.md) | [awscdk-asset-awscli-go-536306167.yaml](awscdk-asset-awscli-go-536306167.yaml) |
+| awscdk-asset-kubectl-536358159 | evidence_only | [awscdk-asset-kubectl-536358159.md](awscdk-asset-kubectl-536358159.md) | [awscdk-asset-kubectl-536358159.yaml](awscdk-asset-kubectl-536358159.yaml) |
+| awscdk-asset-node-proxy-agent-540036754 | evidence_only | [awscdk-asset-node-proxy-agent-540036754.md](awscdk-asset-node-proxy-agent-540036754.md) | [awscdk-asset-node-proxy-agent-540036754.yaml](awscdk-asset-node-proxy-agent-540036754.yaml) |
+| awscdk-asset-node-proxy-agent-go-540037715 | evidence_only | [awscdk-asset-node-proxy-agent-go-540037715.md](awscdk-asset-node-proxy-agent-go-540037715.md) | [awscdk-asset-node-proxy-agent-go-540037715.yaml](awscdk-asset-node-proxy-agent-go-540037715.yaml) |
+| awscdk-change-analyzer-361684977 | evidence_only | [awscdk-change-analyzer-361684977.md](awscdk-change-analyzer-361684977.md) | [awscdk-change-analyzer-361684977.yaml](awscdk-change-analyzer-361684977.yaml) |
 | github-744758625 | insufficient_evidence | [github-744758625.md](github-744758625.md) | [github-744758625.yaml](github-744758625.yaml) |

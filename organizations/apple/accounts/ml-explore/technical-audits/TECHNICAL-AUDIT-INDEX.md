@@ -1,10 +1,10 @@
 # Technical audits — ml-explore
 
-Updated: 2026-11-25T23:09:24+00:00
+Updated: 2026-11-26T07:22:00+00:00
 
 ## Status counts
 
-- evidence_only: 8
+- evidence_only: 9
 - insufficient_evidence: 1
 - manual_reviewed: 1
 
@@ -22,3 +22,4 @@ Updated: 2026-11-25T23:09:24+00:00
 | mlx-onnx-745343050 | evidence_only | [mlx-onnx-745343050.md](mlx-onnx-745343050.md) | [mlx-onnx-745343050.yaml](mlx-onnx-745343050.yaml) |
 | mlx-swift-730845987 | evidence_only | [mlx-swift-730845987.md](mlx-swift-730845987.md) | [mlx-swift-730845987.yaml](mlx-swift-730845987.yaml) |
 | mlx-swift-examples-761903377 | evidence_only | [mlx-swift-examples-761903377.md](mlx-swift-examples-761903377.md) | [mlx-swift-examples-761903377.yaml](mlx-swift-examples-761903377.yaml) |
+| mlx-swift-lm-1068168978 | evidence_only | [mlx-swift-lm-1068168978.md](mlx-swift-lm-1068168978.md) | [mlx-swift-lm-1068168978.yaml](mlx-swift-lm-1068168978.yaml) |

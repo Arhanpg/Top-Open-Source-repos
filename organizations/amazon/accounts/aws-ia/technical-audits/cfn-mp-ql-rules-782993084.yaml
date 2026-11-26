@@ -1,0 +1,106 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:20:39+00:00'
+evidence_fingerprint: 37e9b9494da4182cbf136c4d4b969336ff8028ef367f2a51160eddf882787ed3
+repository_metadata:
+  company: Amazon
+  account: aws-ia
+  full_name: aws-ia/cfn-mp-ql-rules
+  repository_id: 782993084
+  url: https://github.com/aws-ia/cfn-mp-ql-rules
+  description: Custom cfn-lint ruleset
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-03-06T22:42:39Z'
+  stars: 3
+  readme_url: https://github.com/aws-ia/cfn-mp-ql-rules/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 582786934eaf72f7a9cc5ad09adc3cb66fb93417
+  manifest_paths:
+  - pyproject.toml
+  - requirements.txt
+  - setup.py
+  source_files_inspected:
+  - Archive/NoDefaultAndEcho.py
+  - Archive/stack/MatchingParameterNotPassed.py
+  - bin/qs-experemental-remediator.py
+  - cfn_mp_ql_rules/__init__.py
+  repository_tree:
+    status: captured
+    sha: 48636b9d5a1ff6d5b4ec5345b0906db1756a8739
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Python Package (CFN Lint Rules)
+  why_used: Custom cfn-lint ruleset
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - jq
+    frameworks_and_libraries: []
+    dependencies:
+    - cfn-lint
+    - cfn_flip
+    - policyuniverse
+    - pyspellchecker
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Archive/NoDefaultAndEcho.py,
+    Archive/stack/MatchingParameterNotPassed.py, bin/qs-experemental-remediator.py, cfn_mp_ql_rules/__init__.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-ia/cfn-mp-ql-rules/blob/main/README.md
+  path: README.md
+  blob_sha: 582786934eaf72f7a9cc5ad09adc3cb66fb93417
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 44041ea6baae270aa8d3a15192feaba7015b3e9a
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: af1ba10cbabc4a9c0b1ca985462e1fbcea497fd6
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 352a73f8501db7afcb46b2955b27ce79bb210974
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 166871
+    jq: 495
+- type: Git tree
+  status: captured
+  sha: 48636b9d5a1ff6d5b4ec5345b0906db1756a8739
+  truncated: false
+- type: source_file
+  path: Archive/NoDefaultAndEcho.py
+  blob_sha: e4bad2f1aee4198968d07e10f23e192e7bfa2ce3
+  retrieved: true
+- type: source_file
+  path: Archive/stack/MatchingParameterNotPassed.py
+  blob_sha: 42309ed32d98c51d2061ccb16f91b615ee9f4384
+  retrieved: true
+- type: source_file
+  path: bin/qs-experemental-remediator.py
+  blob_sha: f4ea2ff92ebb3fd7643619881aa617bfaa409d3d
+  retrieved: true
+- type: source_file
+  path: cfn_mp_ql_rules/__init__.py
+  blob_sha: 86a2ede82b3518ed1fbc72966565cddf923e9e3a
+  retrieved: true

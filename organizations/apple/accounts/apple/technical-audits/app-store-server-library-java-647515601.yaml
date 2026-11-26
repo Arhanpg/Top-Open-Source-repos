@@ -1,0 +1,101 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:07:09+00:00'
+evidence_fingerprint: d878a0e433a2479966e61786e993db6a15e9367c9116c688c6aa440bfd4686b6
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/app-store-server-library-java
+  repository_id: 647515601
+  url: https://github.com/apple/app-store-server-library-java
+  description: The Java server library for the App Store Server API and App Store Server Notifications.
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T02:03:17Z'
+  stars: 281
+  readme_url: https://github.com/apple/app-store-server-library-java/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 640dc46e75d60c02dba76320e21f837800d686d9
+  manifest_paths:
+  - build.gradle
+  source_files_inspected:
+  - src/main/java/com/apple/itunes/storekit/advancedcommerce/AdvancedCommerceInAppSignatureCreator.java
+  - src/main/java/com/apple/itunes/storekit/client/APIError.java
+  - src/main/java/com/apple/itunes/storekit/client/APIException.java
+  - src/main/java/com/apple/itunes/storekit/client/AppStoreServerAPIClient.java
+  repository_tree:
+    status: captured
+    sha: 0224415256e5b6e8a80b9d3a362af3341ec7cdd3
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Java server library for the App Store Server API, App Store Server Notifications, Retention Messaging
+    API, and Advanced Commerce API. Also available in Swift, Python, and Node.js.
+  why_used: The Java server library for the App Store Server API and App Store Server Notifications.
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - Lua
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle build file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/main/java/com/apple/itunes/storekit/advancedcommerce/AdvancedCommerceInAppSignatureCreator.java,
+    src/main/java/com/apple/itunes/storekit/client/APIError.java, src/main/java/com/apple/itunes/storekit/client/APIException.java,
+    src/main/java/com/apple/itunes/storekit/client/AppStoreServerAPIClient.java'
+  setup_and_usage:
+  - 'API Usage: import com.apple.itunes.storekit.client.APIException;'
+  - 'API Usage: import com.apple.itunes.storekit.client.AppStoreServerAPIClient;'
+  - 'API Usage: import com.apple.itunes.storekit.model.Environment;'
+  - 'API Usage: import com.apple.itunes.storekit.model.SendTestNotificationResponse;'
+  - 'API Usage: import java.io.IOException;'
+  - 'API Usage: import java.nio.file.Files;'
+  - 'API Usage: import java.nio.file.Path;'
+  - 'API Usage: public class APIExample {'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/app-store-server-library-java/blob/main/README.md
+  path: README.md
+  blob_sha: 640dc46e75d60c02dba76320e21f837800d686d9
+  retrieved: true
+- type: manifest
+  path: build.gradle
+  blob_sha: 72de335330d891c29a7b411f4136dd7497bb061b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 1356916
+    Lua: 241
+- type: Git tree
+  status: captured
+  sha: 0224415256e5b6e8a80b9d3a362af3341ec7cdd3
+  truncated: false
+- type: source_file
+  path: src/main/java/com/apple/itunes/storekit/advancedcommerce/AdvancedCommerceInAppSignatureCreator.java
+  blob_sha: f07e410297525869dd4f3e5e0080dbc9d8ea269b
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/apple/itunes/storekit/client/APIError.java
+  blob_sha: 515cd425d892a5c4cbd5d2aa336924b805e8a651
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/apple/itunes/storekit/client/APIException.java
+  blob_sha: 8c274e62c925fc59a5e3a630ff0e5fe396dcd00a
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/apple/itunes/storekit/client/AppStoreServerAPIClient.java
+  blob_sha: 35e5626b4c299f22f92abd1fe2ecda3645e4a5ca
+  retrieved: true

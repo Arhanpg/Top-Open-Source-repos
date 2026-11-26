@@ -1,0 +1,101 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:18:14+00:00'
+evidence_fingerprint: 40116d4c10ad284f83d557e4183719126a42009cd993343045e070f7144d369b
+repository_metadata:
+  company: SAP
+  account: UI5
+  full_name: UI5/renovate-config
+  repository_id: 958428694
+  url: https://github.com/UI5/renovate-config
+  description: With the UI5 Renovate Preset Config its such as easy to update your UI5 project automatically when
+    a new UI5 version is released.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T14:11:53Z'
+  stars: 12
+  readme_url: https://github.com/UI5/renovate-config/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 8f02cfb8a1d298971edd2b094732b11531819397
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - .husky/skip.js
+  repository_tree:
+    status: captured
+    sha: 6a4148534970ff98b8189c78ff62969b89c79522
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> A Renovate preset to keep your UI5 application up-to-date.'
+  why_used: With the UI5 Renovate Preset Config its such as easy to update your UI5 project automatically when a
+    new UI5 version is released.
+  core_features:
+  - name: ui5.yaml files
+    description: ui5.yaml files
+    evidence:
+    - README.md#Features
+  - name: manifest.json and CommonDataModel.json files
+    description: manifest.json and CommonDataModel.json files
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@commitlint/cli'
+    - '@commitlint/config-conventional'
+    - husky
+    - knip
+    - licensee
+    - prettier
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .husky/skip.js'
+  setup_and_usage:
+  - 'Usage: 1. Set up Renovate for your repository.'
+  - 'Usage: 2. Create a new file called renovate.json at the root level of your project.'
+  - 'Usage: 3. Add the following content:'
+  - 'Usage: "$schema": "https://docs.renovatebot.com/renovate-schema.json",'
+  - 'Usage: "github>ui5/renovate-config"'
+  - 'Usage: "separateMinorPatch": true'
+  - 'Usage: **Note:** We recommend setting separateMinorPatch to true to create separate pull requests for patches
+    and minor releases.'
+  - 'Usage: If your project should only consume Long-Term Support (LTS) releases, use the following content:'
+  limitations:
+  - 'Security / Disclosure: If you find any bug that might be a security problem, please follow the instructions
+    given in Security Policy on how to report it. Please do not create GitHub issues for security-related concerns
+    or problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/UI5/renovate-config/blob/main/README.md
+  path: README.md
+  blob_sha: 8f02cfb8a1d298971edd2b094732b11531819397
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 96fac7f7ff4d8b01f7b066c2ba5e8d30c330a5f7
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 681
+- type: Git tree
+  status: captured
+  sha: 6a4148534970ff98b8189c78ff62969b89c79522
+  truncated: false
+- type: source_file
+  path: .husky/skip.js
+  blob_sha: f67431759e4904d8e2de419c9fda20801c66ff3a
+  retrieved: true

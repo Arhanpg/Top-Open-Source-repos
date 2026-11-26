@@ -1,7 +1,7 @@
 schema_version: '1.0'
 audit_status: evidence_only
-generated_at: '2026-11-25T08:28:51+00:00'
-evidence_fingerprint: d950626e03e5fc10407461db78c6a079f8230ed4901d211862b775d513770297
+generated_at: '2026-11-26T07:04:20+00:00'
+evidence_fingerprint: 532e61a0eb4e90f8bfb19f39b58209c7aa1efd4632b63417be99cbc948666cba
 repository_metadata:
   company: Amazon
   account: aws
@@ -38,7 +38,12 @@ analysis:
   why_used: Client library for using AWS IoT Jobs service on embedded devices
   core_features: []
   technology_stack:
-    languages: []
+    languages:
+    - C
+    - CMake
+    - Python
+    - C++
+    - Shell
     frameworks_and_libraries: []
     dependencies: []
     build_and_package_tools:
@@ -79,7 +84,12 @@ evidence_sources:
   blob_sha: 4a17367a52149fa0ef5b11ee90c4ec767fa74792
   retrieved: true
 - type: GitHub Languages API
-  values: {}
+  values:
+    C: 211072
+    CMake: 18332
+    Python: 4874
+    C++: 3054
+    Shell: 1255
 - type: Git tree
   status: captured
   sha: 88b340bf258318d3e2baef606268d10d42d9926e

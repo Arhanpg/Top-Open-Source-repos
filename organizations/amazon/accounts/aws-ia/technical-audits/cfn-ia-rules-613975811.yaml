@@ -1,0 +1,94 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:13:01+00:00'
+evidence_fingerprint: b9c5ca80fcd61cb38765d7e11882965b56095941fb1b01132388918ccab9c323
+repository_metadata:
+  company: Amazon
+  account: aws-ia
+  full_name: aws-ia/cfn-ia-rules
+  repository_id: 613975811
+  url: https://github.com/aws-ia/cfn-ia-rules
+  description: Python Package (CFN Lint Rules)
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-04T19:05:08Z'
+  stars: 4
+  readme_url: https://github.com/aws-ia/cfn-ia-rules/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 258946fd3fabc1bedebeff158b9624126c11f0f4
+  manifest_paths:
+  - pyproject.toml
+  source_files_inspected:
+  - cfn_ia_rules/__init__.py
+  - cfn_ia_rules/common.py
+  - cfn_ia_rules/rules/__init__.py
+  repository_tree:
+    status: captured
+    sha: 6276e384733861b2bfda4a931308743b1f6ce6ac
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Python Package (CFN Lint Rules)
+  why_used: Python Package (CFN Lint Rules)
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - bandit
+    - black
+    - cfn-lint
+    - policyuniverse
+    - pyspellchecker
+    - six
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cfn_ia_rules/__init__.py,
+    cfn_ia_rules/common.py, cfn_ia_rules/rules/__init__.py, cfn_ia_rules/rules/best_practice/__init__.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-ia/cfn-ia-rules/blob/main/README.md
+  path: README.md
+  blob_sha: 258946fd3fabc1bedebeff158b9624126c11f0f4
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: b7c9e9fd92144644f14c321cccaaf27e19ffedee
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 126471
+- type: Git tree
+  status: captured
+  sha: 6276e384733861b2bfda4a931308743b1f6ce6ac
+  truncated: false
+- type: source_file
+  path: cfn_ia_rules/__init__.py
+  blob_sha: f7253f9913e6df6ffbbbd5061c633e7c09175d6b
+  retrieved: true
+- type: source_file
+  path: cfn_ia_rules/common.py
+  blob_sha: 2b498bad29d1662c510e465d3184a72f5f2945cf
+  retrieved: true
+- type: source_file
+  path: cfn_ia_rules/rules/__init__.py
+  blob_sha: 3337c6a623e6b62d33531efbe560f59c9e6e96a6
+  retrieved: true
+- type: source_file
+  path: cfn_ia_rules/rules/best_practice/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false

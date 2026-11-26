@@ -1,0 +1,85 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:15:18+00:00'
+evidence_fingerprint: 392696aa02681719f47512a293c22d1e691bf80f6064a00392d2f3a8f7bb2a6d
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/DuReader
+  repository_id: 110076861
+  url: https://github.com/baidu/DuReader
+  description: Baseline Systems of DuReader Dataset
+  default_branch: master
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2022-05-26T09:30:46Z'
+  stars: 1180
+  readme_url: https://github.com/baidu/DuReader/blob/master/README.md
+  readme_path: README.md
+  readme_sha: d6b6fb9faaac50acc153117aa50cc6084cafd81b
+  manifest_paths: []
+  source_files_inspected:
+  - MRQA2019-D-NET/server/bert_server/pdnlp/__main__.py
+  - MRQA2019-D-NET/server/ernie_server/pdnlp/__main__.py
+  - ACL2019-KTNET/reading_comprehension/src/batching.py
+  - ACL2019-KTNET/reading_comprehension/src/batching_twomemory.py
+  repository_tree:
+    status: captured
+    sha: d30609057bea483cd599c22ecbf6c63691dbbd54
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**DuReader focus on the benchmarks and models of machine reading comprehension for question answering.**'
+  why_used: Baseline Systems of DuReader Dataset
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: MRQA2019-D-NET/server/bert_server/pdnlp/__main__.py,
+    MRQA2019-D-NET/server/ernie_server/pdnlp/__main__.py, ACL2019-KTNET/reading_comprehension/src/batching.py, ACL2019-KTNET/reading_comprehension/src/batching_twomemory.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/DuReader/blob/master/README.md
+  path: README.md
+  blob_sha: d6b6fb9faaac50acc153117aa50cc6084cafd81b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 1233585
+    Shell: 67841
+- type: Git tree
+  status: captured
+  sha: d30609057bea483cd599c22ecbf6c63691dbbd54
+  truncated: false
+- type: source_file
+  path: MRQA2019-D-NET/server/bert_server/pdnlp/__main__.py
+  blob_sha: cf1dc9efefca3392147f10c6df875b4d864206ab
+  retrieved: true
+- type: source_file
+  path: MRQA2019-D-NET/server/ernie_server/pdnlp/__main__.py
+  blob_sha: cf1dc9efefca3392147f10c6df875b4d864206ab
+  retrieved: true
+- type: source_file
+  path: ACL2019-KTNET/reading_comprehension/src/batching.py
+  blob_sha: 5341f6bb729137a17567c69db73cb52e1c2c3d32
+  retrieved: true
+- type: source_file
+  path: ACL2019-KTNET/reading_comprehension/src/batching_twomemory.py
+  blob_sha: 5eb510bdba1db5b464fe54ef6b2d447b37586c75
+  retrieved: true

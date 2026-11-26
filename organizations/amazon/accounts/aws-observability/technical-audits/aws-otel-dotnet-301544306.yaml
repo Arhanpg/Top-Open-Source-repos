@@ -1,0 +1,109 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:13:09+00:00'
+evidence_fingerprint: b673c9b5749956f9814e59bf28237ca981be105251bcea1291b921379bb1086d
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/aws-otel-dotnet
+  repository_id: 301544306
+  url: https://github.com/aws-observability/aws-otel-dotnet
+  description: AWS Distro for OpenTelemetry .NET
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-03-18T16:08:16Z'
+  stars: 22
+  readme_url: https://github.com/aws-observability/aws-otel-dotnet/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 248fb8c21e41238a6651ed56258d1307d982c19a
+  manifest_paths:
+  - integration-test-app/Dockerfile
+  - .github/docker-performance-tests/alarms-poller/Dockerfile
+  - .github/docker-performance-tests/load-generator/Dockerfile
+  source_files_inspected:
+  - .github/docker-performance-tests/alarms-poller/metric_data_params.py
+  - .github/docker-performance-tests/alarms-poller/poll_during_performance_tests.py
+  - .github/scripts/performance-tests/get-metric-data/metric_data_params.py
+  - .github/scripts/performance-tests/get-metric-data/produce_performance_test_results.py
+  repository_tree:
+    status: captured
+    sha: 19dcf5adf1a30305eadb474ae835b34ca9231a2e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repo hosts documentation and sample apps for the ADOT .NET library which provides the AWS service
+    integrations for traces and metrics for the OpenTelemetry .NET library. The library can be configured to support
+    trace applications with the AWS X-Ray service. This way, all the features of the OpenTelemetry project are available,
+    but its components are configured to create traces which can be viewed in the AWS X-Ray console and are configured
+    to allow propagation of those contexts across multiple downstream AWS services.
+  why_used: AWS Distro for OpenTelemetry .NET
+  core_features: []
+  technology_stack:
+    languages:
+    - C#
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .github/docker-performance-tests/alarms-poller/metric_data_params.py,
+    .github/docker-performance-tests/alarms-poller/poll_during_performance_tests.py, .github/scripts/performance-tests/get-metric-data/metric_data_params.py,
+    .github/scripts/performance-tests/get-metric-data/produce_performance_test_results.py'
+  setup_and_usage:
+  - 'Getting Started: Check out the getting started documentation'
+  limitations:
+  - 'Security issue notifications: If you discover a potential security issue in this project we ask that you notify
+    AWS/Amazon Security via our vulnerability reporting page. Please do **not** create a public github issue.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/aws-otel-dotnet/blob/main/README.md
+  path: README.md
+  blob_sha: 248fb8c21e41238a6651ed56258d1307d982c19a
+  retrieved: true
+- type: manifest
+  path: integration-test-app/Dockerfile
+  blob_sha: e331f484e42d173b3f1cb8f5a2ba1736df6a79f4
+  retrieved: true
+- type: manifest
+  path: .github/docker-performance-tests/alarms-poller/Dockerfile
+  blob_sha: 13be354bbd577602fbafc4e81b28344edcd829ea
+  retrieved: true
+- type: manifest
+  path: .github/docker-performance-tests/load-generator/Dockerfile
+  blob_sha: a9b31f7154e39e7f97df90a526fe2547dbdad7d9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 3887
+    Dockerfile: 291
+- type: Git tree
+  status: captured
+  sha: 19dcf5adf1a30305eadb474ae835b34ca9231a2e
+  truncated: false
+- type: source_file
+  path: .github/docker-performance-tests/alarms-poller/metric_data_params.py
+  blob_sha: 76287a78ef18dcd3a08ab12d2d2b935b45bce7a5
+  retrieved: true
+- type: source_file
+  path: .github/docker-performance-tests/alarms-poller/poll_during_performance_tests.py
+  blob_sha: 4fde3aae136b0b446f800e1f8538c8b8eada984f
+  retrieved: true
+- type: source_file
+  path: .github/scripts/performance-tests/get-metric-data/metric_data_params.py
+  blob_sha: 1866a5894f122d6f4cda3d3cb71e993ff93c4f87
+  retrieved: true
+- type: source_file
+  path: .github/scripts/performance-tests/get-metric-data/produce_performance_test_results.py
+  blob_sha: 3ad8a0f1ccf9a5d3f8c3fbc0c7402f6240575aa5
+  retrieved: true

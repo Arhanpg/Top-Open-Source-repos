@@ -1,0 +1,158 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:11:01+00:00'
+evidence_fingerprint: b86a7c7e615ab6c9dbea312d66406d245961b85fc1ac5f8693a40fd78fc9f2ce
+repository_metadata:
+  company: Siemens
+  account: Siemens
+  full_name: siemens/Keyboard
+  repository_id: 2222018
+  url: https://github.com/siemens/Keyboard
+  description: Virtual Keyboard using jQuery UI
+  default_branch: master
+  license_spdx: null
+  archived: true
+  fork: true
+  disabled: false
+  pushed_at: '2013-06-11T13:21:34Z'
+  stars: 1
+  readme_url: https://github.com/siemens/Keyboard/blob/master/README.markdown
+  readme_path: README.markdown
+  readme_sha: 20bfa0c4329dfec6c365d58f99a2ed1197f7efa0
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - demo/calculator.js
+  - demo/demo.js
+  - demo/jquery.chili-2.2.js
+  - demo/recipes.js
+  repository_tree:
+    status: captured
+    sha: 685e6bdeda235bbfc6f90e99d762d956b0e27840
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Originally posted by Jeremy Satterfield in his blog, jQuery plugins and on Snipplr. Currently maintained
+    by Mottie.
+  why_used: Virtual Keyboard using jQuery UI
+  core_features:
+  - name: An on-screen virtual keyboard embedded within the browser window which will popup when a specified entry
+      field is focused.
+    description: An on-screen virtual keyboard embedded within the browser window which will popup when a specified
+      entry field is focused.
+    evidence:
+    - README.md#Features (Demo)
+  - name: The user can then type and preview their input before Accepting or Canceling.
+    description: The user can then type and preview their input before Accepting or Canceling.
+    evidence:
+    - README.md#Features (Demo)
+  - name: Add custom keyboard layouts easily.
+    description: Add custom keyboard layouts easily.
+    evidence:
+    - README.md#Features (Demo)
+  - name: Add up to four standard key sets to each layout that use the shift and alt keys (default, shift, alt and
+      alt-shift).
+    description: Add up to four standard key sets to each layout that use the shift and alt keys (default, shift,
+      alt and alt-shift).
+    evidence:
+    - README.md#Features (Demo)
+  - name: Add any number of optional modifier keys (meta keys) to add more key sets.
+    description: Add any number of optional modifier keys (meta keys) to add more key sets.
+    evidence:
+    - README.md#Features (Demo)
+  - name: Each meta key set also includes the shift, alt and alt-shift keysets - New in version 1.8.9.
+    description: Each meta key set also includes the shift, alt and alt-shift keysets - New in version 1.8.9.
+    evidence:
+    - README.md#Features (Demo)
+  - name: Position the keyboard in any location around the element, or target another element on the page.
+    description: Position the keyboard in any location around the element, or target another element on the page.
+    evidence:
+    - README.md#Features (Demo)
+  - name: Easily modify the key text to any language or symbol.
+    description: Easily modify the key text to any language or symbol.
+    evidence:
+    - README.md#Features (Demo)
+  - name: Allow direct input or lock the preview window.
+    description: Allow direct input or lock the preview window.
+    evidence:
+    - README.md#Features (Demo)
+  - name: Set a maximum length to the inputted content.
+    description: Set a maximum length to the inputted content.
+    evidence:
+    - README.md#Features (Demo)
+  - name: Scroll through the other key sets using the mouse wheel while hovering over a key to bypass the need to
+      use alt, shift or meta keys.
+    description: Scroll through the other key sets using the mouse wheel while hovering over a key to bypass the
+      need to use alt, shift or meta keys.
+    evidence:
+    - README.md#Features (Demo)
+  - name: Easily type in characters with diacritics. Here are some default combination examples - it is possible
+      to add more.
+    description: Easily type in characters with diacritics. Here are some default combination examples - it is possible
+      to add more.
+    evidence:
+    - README.md#Features (Demo)
+  - name: ''' + vowel ( vowel with acute accent, e.g. '' + e = é )'
+    description: ''' + vowel ( vowel with acute accent, e.g. '' + e = é )'
+    evidence:
+    - README.md#Features (Demo)
+  - name: \ + vowel ( vowel with grave accent, e.g., \ + e = è )
+    description: \ + vowel ( vowel with grave accent, e.g., \ + e = è )
+    evidence:
+    - README.md#Features (Demo)
+  - name: '" + vowel ( vowel with diaeresis, e.g., " + e = ë )'
+    description: '" + vowel ( vowel with diaeresis, e.g., " + e = ë )'
+    evidence:
+    - README.md#Features (Demo)
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: demo/calculator.js,
+    demo/demo.js, demo/jquery.chili-2.2.js, demo/recipes.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/siemens/Keyboard/blob/master/README.markdown
+  path: README.markdown
+  blob_sha: 20bfa0c4329dfec6c365d58f99a2ed1197f7efa0
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 5a0009b7e357b9e1be9a7bd159c340c2f83493b6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 186296
+- type: Git tree
+  status: captured
+  sha: 685e6bdeda235bbfc6f90e99d762d956b0e27840
+  truncated: false
+- type: source_file
+  path: demo/calculator.js
+  blob_sha: 0a5f1bc1174516ca360d2bb171dbde833e47f61d
+  retrieved: true
+- type: source_file
+  path: demo/demo.js
+  blob_sha: de05affc6a1c25a0a1be0fe1b3a7f2567938689e
+  retrieved: true
+- type: source_file
+  path: demo/jquery.chili-2.2.js
+  blob_sha: 0a971bf4a0121e7a13505fa553b93619148f4e45
+  retrieved: true
+- type: source_file
+  path: demo/recipes.js
+  blob_sha: b0ca2a5353c5ae9e695954857575de7ea62ef952
+  retrieved: true

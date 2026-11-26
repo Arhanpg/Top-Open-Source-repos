@@ -1,0 +1,151 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:09:34+00:00'
+evidence_fingerprint: 7587f642bdf9543cd95ecf747fa1131bb9168b27f17d3b9ea5cc317d60377621
+repository_metadata:
+  company: SAP
+  account: cap-js-community
+  full_name: cap-js-community/websocket
+  repository_id: 732091217
+  url: https://github.com/cap-js-community/websocket
+  description: Exposes a WebSocket protocol via WebSocket standard or Socket.IO for CDS services
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-14T13:23:13Z'
+  stars: 21
+  readme_url: https://github.com/cap-js-community/websocket/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e0b70ef1f63142eebc51bfa4698e2927c8ad86ce
+  manifest_paths:
+  - package.json
+  - examples/bookshop/package.json
+  - test/_env/package.json
+  - test/_env/approuter/package.json
+  - test/_env/backend/package.json
+  - test/_env/app/fiori/package.json
+  source_files_inspected:
+  - src/index.js
+  - src/redis/index.js
+  - src/adapter/base.js
+  - src/adapter/redis.js
+  repository_tree:
+    status: captured
+    sha: 37e40f61ea3a5e2affe9ea786c4ce995428f6c79
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Exposes a WebSocket protocol via WebSocket standard or Socket.IO for CDS services. Runs in the context
+    of the SAP Cloud Application Programming Model (CAP) using @sap/cds (CDS Node.js).
+  why_used: Exposes a WebSocket protocol via WebSocket standard or Socket.IO for CDS services
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    - HTML
+    - CSS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js-community/common'
+    - '@cap-js-community/websocket'
+    - '@cap-js/cds-test'
+    - '@cap-js/sqlite'
+    - '@eslint/js'
+    - '@sap/approuter'
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - '@socket.io/redis-adapter'
+    - '@socket.io/redis-streams-adapter'
+    - '@ui5/cli'
+    - '@vitest/coverage-v8'
+    - '@vitest/eslint-plugin'
+    - eslint
+    - eslint-config-prettier
+    - eslint-plugin-n
+    - globals
+    - prettier
+    - socket.io
+    - socket.io-client
+    - ui5-task-zipper
+    - vitest
+    - ws
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/index.js, src/redis/index.js,
+    src/adapter/base.js, src/adapter/redis.js'
+  setup_and_usage:
+  - 'Getting Started: - Run npm add @cap-js-community/websocket in @sap/cds project'
+  - 'Getting Started: - Add a WebSocket-enabled CDS service:'
+  - 'Getting Started: service ChatService {'
+  - 'Getting Started: - Emit event from business logic:'
+  - 'Getting Started: await srv.emit("received", { text: "Hello World!" });'
+  - 'Getting Started: - Start server via cds-serve'
+  - 'Getting Started: - Access the service endpoint via the WebSocket client'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js-community/websocket/blob/main/README.md
+  path: README.md
+  blob_sha: e0b70ef1f63142eebc51bfa4698e2927c8ad86ce
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: faf4d80119eb69388f9720a0108424ffe83b5aab
+  retrieved: true
+- type: manifest
+  path: examples/bookshop/package.json
+  blob_sha: 915838b2dbd6442623cfb3b8bca33052fc316ed7
+  retrieved: true
+- type: manifest
+  path: test/_env/package.json
+  blob_sha: 24fe172a62554a43a001b2bcca979bc42bdea2f7
+  retrieved: true
+- type: manifest
+  path: test/_env/approuter/package.json
+  blob_sha: 3e6d9484b033d9d8e58ad99f6dbfbc94d8c8834d
+  retrieved: true
+- type: manifest
+  path: test/_env/backend/package.json
+  blob_sha: 67ad9933ddc2c3e96efbe960d7965c0aba7d21b6
+  retrieved: true
+- type: manifest
+  path: test/_env/app/fiori/package.json
+  blob_sha: d1b0cc3098fe733632cdf094d58f2a59cc43ee39
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 323249
+    CAP CDS: 30215
+    HTML: 3396
+    CSS: 1752
+- type: Git tree
+  status: captured
+  sha: 37e40f61ea3a5e2affe9ea786c4ce995428f6c79
+  truncated: false
+- type: source_file
+  path: src/index.js
+  blob_sha: dd55689414dd29137d9e2641130510ba956efac4
+  retrieved: true
+- type: source_file
+  path: src/redis/index.js
+  blob_sha: a923f2774a59abab69be933ab93216ec2d724589
+  retrieved: true
+- type: source_file
+  path: src/adapter/base.js
+  blob_sha: c9ccbbbf597baff8d3c975c76c1e816287945307
+  retrieved: true
+- type: source_file
+  path: src/adapter/redis.js
+  blob_sha: 2db9617f2ab61475b8613f7248d7de88d8ed095c
+  retrieved: true

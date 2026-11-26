@@ -1,0 +1,132 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:56:44+00:00'
+evidence_fingerprint: cb8a0e935da74724442c167a552e4bd1ecc5a37d4a356e9df8fbea5f4826fb8b
+repository_metadata:
+  company: Amazon
+  account: aws-cloudformation
+  full_name: aws-cloudformation/aws-cloudformation-resource-providers-athena
+  repository_id: 193797074
+  url: https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-athena
+  description: The CloudFormation Resource Provider Package For Amazon Athena
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2026-01-26T21:38:15Z'
+  stars: 5
+  readme_url: https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-athena/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 17120620c099bcbf202a3ea368ef7dd5a149b251
+  manifest_paths:
+  - capacityreservation/pom.xml
+  - datacatalog/pom.xml
+  - namedquery/pom.xml
+  - preparedstatement/pom.xml
+  - workgroup/pom.xml
+  source_files_inspected:
+  - capacityreservation/src/main/java/software/amazon/athena/capacityreservation/BaseHandlerStd.java
+  - capacityreservation/src/main/java/software/amazon/athena/capacityreservation/CallbackContext.java
+  - capacityreservation/src/main/java/software/amazon/athena/capacityreservation/ClientBuilder.java
+  - capacityreservation/src/main/java/software/amazon/athena/capacityreservation/Configuration.java
+  repository_tree:
+    status: captured
+    sha: fd7db4832db98198151481d11c0e250f8ec7a91b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The CloudFormation Resource Provider Package For Amazon Athena
+  why_used: The CloudFormation Resource Provider Package For Amazon Athena
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    frameworks_and_libraries: []
+    dependencies:
+    - assertj-core
+    - athena
+    - aws-athena-capacityreservation-handler
+    - aws-athena-datacatalog-handler
+    - aws-athena-namedquery-handler
+    - aws-athena-preparedstatement-handler
+    - aws-athena-workgroup-handler
+    - aws-cloudformation-rpdk-java-plugin
+    - build-helper-maven-plugin
+    - exec-maven-plugin
+    - jacoco-maven-plugin
+    - junit-jupiter
+    - log4j-api
+    - log4j-core
+    - log4j-slf4j-impl
+    - lombok
+    - maven-compiler-plugin
+    - maven-resources-plugin
+    - maven-shade-plugin
+    - maven-surefire-plugin
+    - mockito-core
+    - mockito-junit-jupiter
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: capacityreservation/src/main/java/software/amazon/athena/capacityreservation/BaseHandlerStd.java,
+    capacityreservation/src/main/java/software/amazon/athena/capacityreservation/CallbackContext.java, capacityreservation/src/main/java/software/amazon/athena/capacityreservation/ClientBuilder.java,
+    capacityreservation/src/main/java/software/amazon/athena/capacityreservation/Configuration.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-athena/blob/master/README.md
+  path: README.md
+  blob_sha: 17120620c099bcbf202a3ea368ef7dd5a149b251
+  retrieved: true
+- type: manifest
+  path: capacityreservation/pom.xml
+  blob_sha: f338818855c22119922bd2d932b0df9c9c542a14
+  retrieved: true
+- type: manifest
+  path: datacatalog/pom.xml
+  blob_sha: ceb78ead4e56e3c51f32af8aadc8e8a8fa518446
+  retrieved: true
+- type: manifest
+  path: namedquery/pom.xml
+  blob_sha: 9a1e536fc7d5729d7771585782a3281f8ff6ccfd
+  retrieved: true
+- type: manifest
+  path: preparedstatement/pom.xml
+  blob_sha: 4ac714cc2d28a2ad3d4262af39eb8b59b2ab475c
+  retrieved: true
+- type: manifest
+  path: workgroup/pom.xml
+  blob_sha: b82b75b2c1d237c22ed79b4922b42c9d92f3769c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 473574
+- type: Git tree
+  status: captured
+  sha: fd7db4832db98198151481d11c0e250f8ec7a91b
+  truncated: false
+- type: source_file
+  path: capacityreservation/src/main/java/software/amazon/athena/capacityreservation/BaseHandlerStd.java
+  blob_sha: 893a7d7c72dffdbea53fffc136d3aaa24f7eeef9
+  retrieved: true
+- type: source_file
+  path: capacityreservation/src/main/java/software/amazon/athena/capacityreservation/CallbackContext.java
+  blob_sha: 2a093fdb637fe9b75780979bc9a1afece0a05d70
+  retrieved: true
+- type: source_file
+  path: capacityreservation/src/main/java/software/amazon/athena/capacityreservation/ClientBuilder.java
+  blob_sha: bf737556a50d76d8edb05fc2cd0de3cee1fddbc3
+  retrieved: true
+- type: source_file
+  path: capacityreservation/src/main/java/software/amazon/athena/capacityreservation/Configuration.java
+  blob_sha: 4f794c6ae9030a30fadd2d9c04cb531fafd83774
+  retrieved: true

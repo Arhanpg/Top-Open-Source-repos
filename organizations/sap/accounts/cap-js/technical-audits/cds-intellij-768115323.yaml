@@ -1,0 +1,125 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:01:32+00:00'
+evidence_fingerprint: d034477f3af72d936db86ab157032a5dbff5edac4f9ebe5da0a9e8b2780c8f72
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/cds-intellij
+  repository_id: 768115323
+  url: https://github.com/cap-js/cds-intellij
+  description: SAP CDS Language Support for IntelliJ
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T01:33:52Z'
+  stars: 16
+  readme_url: https://github.com/cap-js/cds-intellij/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 8b48cb2b5bddc4cd7406d9e0f27c2151ef19b06f
+  manifest_paths:
+  - build.gradle
+  - lsp/package.json
+  source_files_inspected:
+  - src/js/codestyle/patchJavaSrc.js
+  - src/js/usersettings/patchUserSettingsJavaSrc.js
+  - src/js/util/string.js
+  - src/main/java/com/sap/cap/cds/intellij/CdsFileType.java
+  repository_tree:
+    status: captured
+    sha: cfe34a9370e7321527eec7ddab47a643002b4ed5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Welcome to **SAP CDS Language Support for IntelliJ**. It is a plugin for IntelliJ IDEs that provides
+    editing and development support for the CDS language as used in the SAP Cloud Application Programming Model
+    (CAP).
+  why_used: SAP CDS Language Support for IntelliJ
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - Shell
+    - JavaScript
+    - Kotlin
+    - CAP CDS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@sap/cds-lsp'
+    build_and_package_tools:
+    - Gradle build file
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/js/codestyle/patchJavaSrc.js,
+    src/js/usersettings/patchUserSettingsJavaSrc.js, src/js/util/string.js, src/main/java/com/sap/cap/cds/intellij/CdsFileType.java'
+  setup_and_usage:
+  - 'Download and Installation: Prepare your environment:'
+  - 'Download and Installation: 1. Install [](https://nodejs.org/en/)'
+  - 'Download and Installation: on your computer if not already present.'
+  - 'Download and Installation: 2. Register the new Node.js installation in your IntelliJ IDE by going to *File
+    > Settings > Languages & Frameworks > CDS*.'
+  - 'Download and Installation: 3. If you have installed the SAP CDS Language Support for IntelliJ plugin from a
+    ZIP file before, uninstall it.'
+  - 'Download and Installation: - Note: we have reset the current plugin version to 1.0.0 for the first JetBrains
+    Marketplace release, to clarify that the feature set is still incomplete.'
+  - 'Download and Installation: Install or update the plugin:'
+  - 'Download and Installation: 1. In your IntelliJ IDE, go to *File > Settings > Plugins*.'
+  limitations:
+  - 'Known Compatibility Issues: | Symptom | Solution |'
+  - 'Known Compatibility Issues: |------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|'
+  - 'Known Compatibility Issues: | SAP CDS Language Support for IntelliJ is not enabled in the IDE. | 1.x versions
+    of the plugin are not compatible with the **free** IntelliJ **Community** Edition. Make sure you are using a
+    version ≥ 2.x of the plugin. |'
+  - 'Known Compatibility Issues: | CDS file icons are missing and/or no syntax highlighting | Uninstall any previous
+    versions of the plugin *(File > Settings > Plugins)*. Remove the ''cds'' TextMate Bundle *(File > Settings >
+    Editor > TextMate Bundles)*. Restart the IDE. Install the latest plugin version. |'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/cds-intellij/blob/main/README.md
+  path: README.md
+  blob_sha: 8b48cb2b5bddc4cd7406d9e0f27c2151ef19b06f
+  retrieved: true
+- type: manifest
+  path: build.gradle
+  blob_sha: 51ac6fe56a772792954cd92ee4b522a62ed96bed
+  retrieved: true
+- type: manifest
+  path: lsp/package.json
+  blob_sha: 6dc50482063411f2269fb9f25d2fa924628fcdf2
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 207109
+    Shell: 16421
+    JavaScript: 10336
+    Kotlin: 842
+    CAP CDS: 227
+- type: Git tree
+  status: captured
+  sha: cfe34a9370e7321527eec7ddab47a643002b4ed5
+  truncated: false
+- type: source_file
+  path: src/js/codestyle/patchJavaSrc.js
+  blob_sha: 857c1485759844dfac29600dfdfdacf3142e9d49
+  retrieved: true
+- type: source_file
+  path: src/js/usersettings/patchUserSettingsJavaSrc.js
+  blob_sha: 332f51b30624a8f9e6f07b9b187c13ff3605e1ee
+  retrieved: true
+- type: source_file
+  path: src/js/util/string.js
+  blob_sha: b9ccdf2180b08093a712dcef904d5ebacb17d8d8
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/sap/cap/cds/intellij/CdsFileType.java
+  blob_sha: 942e84677461f0bdb3f9077c4d09c204d3fa2460
+  retrieved: true

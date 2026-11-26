@@ -1,0 +1,123 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:07:25+00:00'
+evidence_fingerprint: dc978cc07618c38066b6d3d5e12855aeb7311383bf52170a54ea19105f52a2e3
+repository_metadata:
+  company: Baidu
+  account: ApolloAuto
+  full_name: ApolloAuto/apollo-model-yolo3d
+  repository_id: 715954375
+  url: https://github.com/ApolloAuto/apollo-model-yolo3d
+  description: '[Apollo] This is the implementation of yolox3d second stage, a camera 3D object detection for autonomous
+    driving perception.'
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-11-13T02:07:34Z'
+  stars: 18
+  readme_url: https://github.com/ApolloAuto/apollo-model-yolo3d/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 225913f9b8eb617ca4fbfaa837e67eeecf2a4885
+  manifest_paths:
+  - Makefile
+  - pyproject.toml
+  - requirements.txt
+  - setup.py
+  source_files_inspected:
+  - src/datamodules/components/kitti_dataset.py
+  repository_tree:
+    status: captured
+    sha: 1734873c88661dd3b2e2e85b5e8b31bb159ac28b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: YOLO3D is inspired by Mousavian et al. in their paper **3D Bounding Box Estimation Using Deep Learning
+    and Geometry**. YOLO3D uses a different approach, we use 2d gt label result as the input of first stage detector,
+    then use the 2d result as input to regressor model.
+  why_used: '[Apollo] This is the implementation of yolox3d second stage, a camera 3D object detection for autonomous
+    driving perception.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Makefile
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - hydra-colorlog
+    - hydra-core
+    - hydra-optuna-sweeper
+    - pre-commit
+    - pyrootutils
+    - pytest
+    - pytorch-lightning
+    - rich
+    - sh
+    - torch
+    - torchmetrics
+    - torchvision
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/__init__.py, src/datamodules/__init__.py,
+    src/datamodules/components/__init__.py, src/datamodules/components/kitti_dataset.py'
+  setup_and_usage:
+  - 'Quickstart: git clone git@github.com:ApolloAuto/apollo-model-yolo3d.git'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ApolloAuto/apollo-model-yolo3d/blob/main/README.md
+  path: README.md
+  blob_sha: 225913f9b8eb617ca4fbfaa837e67eeecf2a4885
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 249a6589a6966a431374fee9693520c8891c2d68
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 300ebf04f0594f1c517e7017d3697490009b203f
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 4d444c536313366ee1f5570f03659552451a44b5
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: d492719ca682b4fea6ac9663b38d013c842ca409
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 291923
+    Makefile: 1169
+    Shell: 440
+- type: Git tree
+  status: captured
+  sha: 1734873c88661dd3b2e2e85b5e8b31bb159ac28b
+  truncated: false
+- type: source_file
+  path: src/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: src/datamodules/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: src/datamodules/components/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: src/datamodules/components/kitti_dataset.py
+  blob_sha: a2bf37c05ec3abdc475c6f7583e338b94bd23437
+  retrieved: true

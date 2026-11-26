@@ -1,0 +1,102 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:16:47+00:00'
+evidence_fingerprint: d9c415bb66688fb0ab10d6a11adbfaa3f5365659b1ba95b693f77e9592ea809f
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/clang-recipe
+  repository_id: 188277957
+  url: https://github.com/rapidsai/clang-recipe
+  description: Clang build recipe for anaconda
+  default_branch: master
+  license_spdx: null
+  archived: true
+  fork: true
+  disabled: false
+  pushed_at: '2019-05-28T18:10:25Z'
+  stars: 0
+  readme_url: https://github.com/rapidsai/clang-recipe/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 961a20096e9ca2b732f112c2b3cbb484855c2ed6
+  manifest_paths:
+  - Dockerfile
+  - py/setup.py
+  source_files_inspected:
+  - lib/build.sh
+  - py/build.sh
+  - py/setup.py
+  repository_tree:
+    status: captured
+    sha: 67f1a8e5bf79a376cb3185f9c06de292495618be
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repo contains recipe for building clang library, clang-format, clang-tidy and also the python wrapper
+    for clang library.
+  why_used: Clang build recipe for anaconda
+  core_features: []
+  technology_stack:
+    languages:
+    - Dockerfile
+    - Shell
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/build.sh, py/build.sh,
+    py/setup.py'
+  setup_and_usage:
+  - 'Usage: git clone https://github.com/teju85/clang-recipe'
+  - 'Usage: docker build -t conda:dev .'
+  - 'Usage: docker run --rm -it conda:dev /bin/bash'
+  - 'Usage: inside-container# anaconda login'
+  - 'Usage: inside-container# conda build lib'
+  - 'Usage: inside-container# anaconda upload /path/to/libclang/package.tar.gz'
+  - 'Usage: inside-container# conda build py'
+  - 'Usage: inside-container# anaconda upload /path/to/clang/package.tar.gz'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/clang-recipe/blob/master/README.md
+  path: README.md
+  blob_sha: 961a20096e9ca2b732f112c2b3cbb484855c2ed6
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 1fe307d1deebc77364934f71559d5c7f8ac9b50e
+  retrieved: true
+- type: manifest
+  path: py/setup.py
+  blob_sha: fc68c2b342e2d84dbffc4d2ec104e1147252dcbc
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Dockerfile: 726
+    Shell: 558
+    Python: 341
+- type: Git tree
+  status: captured
+  sha: 67f1a8e5bf79a376cb3185f9c06de292495618be
+  truncated: false
+- type: source_file
+  path: lib/build.sh
+  blob_sha: 4281ce365b278daac4b55792096777a1e7e82fa5
+  retrieved: true
+- type: source_file
+  path: py/build.sh
+  blob_sha: 7846c1e73ffcf8039cf27572029839a870b19aca
+  retrieved: true
+- type: source_file
+  path: py/setup.py
+  blob_sha: fc68c2b342e2d84dbffc4d2ec104e1147252dcbc
+  retrieved: true

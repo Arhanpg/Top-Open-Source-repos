@@ -1,0 +1,194 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:19:35+00:00'
+evidence_fingerprint: 89e1a3401f363170f23d96e51b473c4e2650511df3cd7f168d5ee132f2cec3fc
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/BYOKG-NAACL24
+  repository_id: 780143645
+  url: https://github.com/amazon-science/BYOKG-NAACL24
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-08-29T18:03:40Z'
+  stars: 21
+  readme_url: https://github.com/amazon-science/BYOKG-NAACL24/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5a86a673b09778b0a0bd52f12cba671b8e9a48b0
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - src/explorer.py
+  - src/llm_wrapper.py
+  - src/question_generator.py
+  - src/question_generator_l2m.py
+  repository_tree:
+    status: captured
+    sha: f11831e7851f501ff99b6dcade32be6864793df7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This is the official implementation of the NAACL''24 paper Bring Your Own KG: Self-Supervised Program
+    Synthesis for Zero-Shot KGQA.'
+  why_used: 'This is the official implementation of the NAACL''24 paper Bring Your Own KG: Self-Supervised Program
+    Synthesis for Zero-Shot KGQA.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - Babel
+    - Pillow
+    - PyYAML
+    - Pygments
+    - Send2Trash
+    - absl-py
+    - accelerate
+    - aiohttp
+    - aiosignal
+    - anyio
+    - argon2-cffi
+    - argon2-cffi-bindings
+    - arrow
+    - asttokens
+    - async-lru
+    - async-timeout
+    - attrs
+    - backcall
+    - beautifulsoup4
+    - bert-score
+    - bleach
+    - boto3
+    - botocore
+    - certifi
+    - cffi
+    - charset-normalizer
+    - click
+    - comm
+    - contourpy
+    - cycler
+    - datasets
+    - debugpy
+    - defusedxml
+    - dill
+    - einops
+    - evaluate
+    - exceptiongroup
+    - executing
+    - fastjsonschema
+    - fonttools
+    - fqdn
+    - frozenlist
+    - fsspec
+    - gdown
+    - huggingface-hub
+    - idna
+    - importlib-metadata
+    - importlib-resources
+    - ipykernel
+    - ipython
+    - ipywidgets
+    - isoduration
+    - jedi
+    - jmespath
+    - joblib
+    - json5
+    - jsonpointer
+    - jsonschema
+    - jsonschema-specifications
+    - jupyter-events
+    - jupyter-lsp
+    - jupyter_client
+    - jupyter_core
+    - jupyter_server
+    - jupyter_server_terminals
+    - jupyterlab
+    - jupyterlab-pygments
+    - jupyterlab-widgets
+    - jupyterlab_server
+    - kiwisolver
+    - matplotlib
+    - matplotlib-inline
+    - mistune
+    - multidict
+    - multiprocess
+    - nbclient
+    - nbconvert
+    - nbformat
+    - nest-asyncio
+    - nltk
+    - notebook_shim
+    - numpy
+    - overrides
+    - packaging
+    - pandas
+    - pandocfilters
+    - parso
+    - pexpect
+    - pickleshare
+    - platformdirs
+    - prometheus-client
+    - prompt-toolkit
+    - psutil
+    - ptyprocess
+    - pure-eval
+    - pyarrow
+    - pycparser
+    - pyparsing
+    - python-dateutil
+    - python-json-logger
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/explorer.py, src/llm_wrapper.py,
+    src/question_generator.py, src/question_generator_l2m.py'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/BYOKG-NAACL24/blob/main/README.md
+  path: README.md
+  blob_sha: 5a86a673b09778b0a0bd52f12cba671b8e9a48b0
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: cf5f2a70e98244cc1d506aed136a8480c5483b9a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 337610
+    Shell: 5519
+- type: Git tree
+  status: captured
+  sha: f11831e7851f501ff99b6dcade32be6864793df7
+  truncated: false
+- type: source_file
+  path: src/explorer.py
+  blob_sha: 82acf37f5454c9aba18bfd0b9b7036bdb1f58f8f
+  retrieved: true
+- type: source_file
+  path: src/llm_wrapper.py
+  blob_sha: 98d3a1bfedf218fde114a9eec45a17cde5092d7a
+  retrieved: true
+- type: source_file
+  path: src/question_generator.py
+  blob_sha: f27dbb17bfa3dfb1d2610007219461d8a4c1503e
+  retrieved: true
+- type: source_file
+  path: src/question_generator_l2m.py
+  blob_sha: 207e95a202b2df444e55418f556c33aa9fd13dc3
+  retrieved: true

@@ -1,0 +1,127 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:05:09+00:00'
+evidence_fingerprint: dea0ca84ce03aa80022bc43de9dacc85146960528862f78e7e07b1e75558fb7d
+repository_metadata:
+  company: Amazon
+  account: aws-ia
+  full_name: aws-ia/cfn-abi-trend-cloudone
+  repository_id: 621161235
+  url: https://github.com/aws-ia/cfn-abi-trend-cloudone
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-15T18:12:46Z'
+  stars: 4
+  readme_url: https://github.com/aws-ia/cfn-abi-trend-cloudone/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e1d845be5126878c4a51a5b7645da13b6d549537
+  manifest_paths:
+  - guide/go.mod
+  - .project_automation/functional_tests/Dockerfile
+  - .project_automation/publication/Dockerfile
+  - .project_automation/static_tests/Dockerfile
+  - lambda_functions/source/AddAWSAccountToCloudOneFunction/requirements.txt
+  - lambda_functions/source/AgentDeploymentScriptFunction/requirements.txt
+  source_files_inspected:
+  - lambda_functions/source/AddAWSAccountToCloudOneFunction/app.py
+  - lambda_functions/source/AgentDeploymentScriptFunction/app.py
+  - lambda_functions/source/AWSConnectorCreateLambda/app.py
+  - lambda_functions/source/GetCloudOneRegionAndAccountFunction/app.py
+  repository_tree:
+    status: captured
+    sha: ad32770562c69a6fc85a1244b3089fcd216d1b91
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ':x: This repository is subject to deprecation on November 16th 2026. For more details, please review
+    this announcement.'
+  why_used: ':x: This repository is subject to deprecation on November 16th 2026. For more details, please review
+    this announcement.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - CSS
+    - Shell
+    - HTML
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lambda_functions/source/AddAWSAccountToCloudOneFunction/app.py,
+    lambda_functions/source/AgentDeploymentScriptFunction/app.py, lambda_functions/source/AWSConnectorCreateLambda/app.py,
+    lambda_functions/source/GetCloudOneRegionAndAccountFunction/app.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-ia/cfn-abi-trend-cloudone/blob/main/README.md
+  path: README.md
+  blob_sha: e1d845be5126878c4a51a5b7645da13b6d549537
+  retrieved: true
+- type: manifest
+  path: guide/go.mod
+  blob_sha: bbddc8815db89d16ec36b1029c1fe92470bb9550
+  retrieved: true
+- type: manifest
+  path: .project_automation/functional_tests/Dockerfile
+  blob_sha: 2c4a79673afdb710b97d66ed71ea764cae6c3fce
+  retrieved: true
+- type: manifest
+  path: .project_automation/publication/Dockerfile
+  blob_sha: 2ec2c62e55a548809fc5f562e17377f894dbdb31
+  retrieved: true
+- type: manifest
+  path: .project_automation/static_tests/Dockerfile
+  blob_sha: 4be248ba94cc3e5a0353601043e7c96df0f6261f
+  retrieved: true
+- type: manifest
+  path: lambda_functions/source/AddAWSAccountToCloudOneFunction/requirements.txt
+  blob_sha: b6f7d1a6726321fd6bc280ecc4986771edeb49af
+  retrieved: true
+- type: manifest
+  path: lambda_functions/source/AgentDeploymentScriptFunction/requirements.txt
+  blob_sha: b6f7d1a6726321fd6bc280ecc4986771edeb49af
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 67839
+    CSS: 26909
+    Shell: 7210
+    HTML: 3812
+    Dockerfile: 1016
+- type: Git tree
+  status: captured
+  sha: ad32770562c69a6fc85a1244b3089fcd216d1b91
+  truncated: false
+- type: source_file
+  path: lambda_functions/source/AddAWSAccountToCloudOneFunction/app.py
+  blob_sha: 1907b967cdc020b671d16f03aaea7b8179af1c20
+  retrieved: true
+- type: source_file
+  path: lambda_functions/source/AgentDeploymentScriptFunction/app.py
+  blob_sha: 3ab7e73f15a92b60116d84c7a08f10282d5eb209
+  retrieved: true
+- type: source_file
+  path: lambda_functions/source/AWSConnectorCreateLambda/app.py
+  blob_sha: e97b5e02237648f3348d80a804c78c7a6c14355d
+  retrieved: true
+- type: source_file
+  path: lambda_functions/source/GetCloudOneRegionAndAccountFunction/app.py
+  blob_sha: 223689f7a093f7da83a9813eb46cd41f1e5fb369
+  retrieved: true

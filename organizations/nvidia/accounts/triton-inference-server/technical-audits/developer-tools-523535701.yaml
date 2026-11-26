@@ -1,0 +1,112 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:01:16+00:00'
+evidence_fingerprint: b18ef4f975dbc0bfe213682f7265f25a05cd2c610ed22fba6c6c9da2987e85d3
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/developer_tools
+  repository_id: 523535701
+  url: https://github.com/triton-inference-server/developer_tools
+  description: null
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-06T21:47:48Z'
+  stars: 22
+  readme_url: https://github.com/triton-inference-server/developer_tools/blob/main/README.md
+  readme_path: README.md
+  readme_sha: adb360f178d06221017dc3b9d4fe6a4620553d3b
+  manifest_paths:
+  - pyproject.toml
+  - server/CMakeLists.txt
+  - server/examples/CMakeLists.txt
+  - server/test/CMakeLists.txt
+  source_files_inspected:
+  - server/include/triton/developer_tools/common.h
+  - server/include/triton/developer_tools/generic_server_wrapper.h
+  - server/include/triton/developer_tools/server_wrapper.h
+  - server/install_dependencies_and_build.sh
+  repository_tree:
+    status: captured
+    sha: a6c9edb9db7d09b430e41748546aaf9ca8d241c0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Unknown from inspected evidence
+  why_used: Unknown from inspected evidence
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - CMake
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: server/include/triton/developer_tools/common.h,
+    server/include/triton/developer_tools/generic_server_wrapper.h, server/include/triton/developer_tools/server_wrapper.h,
+    server/install_dependencies_and_build.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/developer_tools/blob/main/README.md
+  path: README.md
+  blob_sha: adb360f178d06221017dc3b9d4fe6a4620553d3b
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 1a8da1f4d366d75f2af71229a835ed5fd3102b5f
+  retrieved: true
+- type: manifest
+  path: server/CMakeLists.txt
+  blob_sha: ed85e9ef147d573719adead516bd44e253639439
+  retrieved: true
+- type: manifest
+  path: server/examples/CMakeLists.txt
+  blob_sha: 613ab7c6e44252fc81760c7b8442e8416161f7a5
+  retrieved: true
+- type: manifest
+  path: server/test/CMakeLists.txt
+  blob_sha: 5c661972f61676421a9e31a290e2ba899eb5b919
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 219100
+    Python: 22152
+    CMake: 14255
+    Shell: 13383
+- type: Git tree
+  status: captured
+  sha: a6c9edb9db7d09b430e41748546aaf9ca8d241c0
+  truncated: false
+- type: source_file
+  path: server/include/triton/developer_tools/common.h
+  blob_sha: 90c9d4c4badd56d5eb06d2bac7bfc0d8df56a40f
+  retrieved: true
+- type: source_file
+  path: server/include/triton/developer_tools/generic_server_wrapper.h
+  blob_sha: 9216b3aa7b1b33f11db3acd122b631743d947c81
+  retrieved: true
+- type: source_file
+  path: server/include/triton/developer_tools/server_wrapper.h
+  blob_sha: 5e437da6a74dfddf77c6245cf5627462b3ec604c
+  retrieved: true
+- type: source_file
+  path: server/install_dependencies_and_build.sh
+  blob_sha: 96b651afd4e431d5f1fa5a25599cfc4dffe394bf
+  retrieved: true

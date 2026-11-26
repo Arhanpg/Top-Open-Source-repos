@@ -1,0 +1,220 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:01:41+00:00'
+evidence_fingerprint: ca8f8a4a3ff364df4c124283650689f64a1c91cf97475f30619fa114d8d95a20
+repository_metadata:
+  company: SAP
+  account: cap-js-community
+  full_name: cap-js-community/sap-afc-sdk
+  repository_id: 927605833
+  url: https://github.com/cap-js-community/sap-afc-sdk
+  description: SAP Advanced Financial Closing SDK for CDS
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T04:54:24Z'
+  stars: 1
+  readme_url: https://github.com/cap-js-community/sap-afc-sdk/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5e433fc770e02527e80fe14fb72a9a039a8f0479
+  manifest_paths:
+  - package.json
+  - app/scheduling.monitoring.job/package.json
+  - java/plugin/pom.xml
+  - java/project/package.json
+  - java/project/pom.xml
+  - java/project/srv/pom.xml
+  source_files_inspected:
+  - java/project/srv/src/main/java/com/github/capjscommunity/sapafcsdk/Application.java
+  - bin/features/app.js
+  - index.js
+  - srv/server.js
+  repository_tree:
+    status: captured
+    sha: eab31292cb54d3559d49defaf77d25013c3ac557
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: SAP Advanced Financial Closing SDK for CDS provides an SDK for SAP Advanced Financial Closing to be consumed
+    with SAP Cloud Application Programming Model.
+  why_used: SAP Advanced Financial Closing SDK for CDS
+  core_features:
+  - name: 'GET /rest/feature/state(): Read current feature toggle state'
+    description: 'GET /rest/feature/state(): Read current feature toggle state'
+    evidence:
+    - README.md#Feature Toggles
+  - name: 'POST /rest/feature/redisUpdate: Update feature toggle state'
+    description: 'POST /rest/feature/redisUpdate: Update feature toggle state'
+    evidence:
+    - README.md#Feature Toggles
+  - name: 'Terminal: afc api key -i'
+    description: 'Terminal: afc api key -i'
+    evidence:
+    - README.md#Feature Toggles
+  technology_stack:
+    languages:
+    - Java
+    - JavaScript
+    - CAP CDS
+    - Shell
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js-community/event-queue'
+    - '@cap-js-community/feature-toggle-library'
+    - '@cap-js-community/sap-afc-sdk'
+    - '@cap-js-community/websocket'
+    - '@cap-js/cds-test'
+    - '@cap-js/sqlite'
+    - '@sap-cloud-sdk/connectivity'
+    - '@sap-cloud-sdk/http-client'
+    - '@sap-cloud-sdk/resilience'
+    - '@sap/cds'
+    - '@sap/cds-common-content'
+    - '@sap/cds-dk'
+    - '@sap/cds-lsp'
+    - '@sap/sbf'
+    - '@sap/ux-ui5-tooling'
+    - '@ui5/cli'
+    - '@vitest/coverage-v8'
+    - '@vitest/eslint-plugin'
+    - android-json
+    - cds-adapter-odata-v4
+    - cds-feature-identity
+    - cds-feature-remote-odata
+    - cds-maven-plugin
+    - cds-services-bom
+    - cds-starter-spring-boot
+    - clean
+    - commander
+    - cors
+    - eslint
+    - eslint-config-prettier
+    - eslint-plugin-n
+    - express
+    - flatten-maven-plugin
+    - globals
+    - h2
+    - helmet
+    - http-status-codes
+    - jacoco-maven-plugin
+    - java-bom
+    - maven-clean-plugin
+    - maven-compiler-plugin
+    - maven-deploy-plugin
+    - maven-enforcer-plugin
+    - maven-jar-plugin
+    - maven-javadoc-plugin
+    - maven-pmd-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - node-fetch
+    - openurl
+    - pitest-maven
+    - prettier
+    - prettier-plugin-java
+    - prompt-sync
+    - sap-afc-sdk
+    - sap-afc-sdk-parent
+    - shelljs
+    - spring-boot-dependencies
+    - spring-boot-devtools
+    - spring-boot-maven-plugin
+    - spring-boot-starter-security
+    - spring-boot-starter-test
+    - spring-boot-starter-webflux
+    - spring-boot-starter-webmvc-test
+    - spring-boot-starter-websocket
+    - spring-cloud-starter-open-service-broker
+    - spring-security-test
+    - springdoc-openapi-starter-webmvc-ui
+    - swagger-ui-express
+    - ui5-task-zipper
+    - verror
+    - vitest
+    - ws
+    - xml2js
+    - yaml
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: java/project/srv/src/main/java/com/github/capjscommunity/sapafcsdk/Application.java,
+    bin/features/app.js, index.js, srv/server.js'
+  setup_and_usage:
+  - 'Getting Started: A new CDS project can be initialized using SAP Build Code tools on SAP Business Technology
+    Platform (BTP)'
+  - 'Getting Started: or @sap/cds-dk CLI command cds init can be used to bootstrap a new CAP application. See capire.'
+  - 'Usage: - Run npm add @cap-js-community/sap-afc-sdk in @sap/cds CAP Node.js project'
+  - 'Usage: - Execute npm start to start server'
+  - 'Usage: - Access the welcome page at http://localhost:4004'
+  - 'Usage: - Access Applications'
+  - 'Usage: - /launchpad.html: Sandbox Launchpad'
+  - 'Usage: - /scheduling.monitoring.job: Standalone Scheduling Monitoring Job UI'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js-community/sap-afc-sdk/blob/main/README.md
+  path: README.md
+  blob_sha: 5e433fc770e02527e80fe14fb72a9a039a8f0479
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: a6a0ee91725b57e015f97533b2308ba7d20fb5be
+  retrieved: true
+- type: manifest
+  path: app/scheduling.monitoring.job/package.json
+  blob_sha: 9b46f1bbb876701509f83eb0f8191c6e6d37c118
+  retrieved: true
+- type: manifest
+  path: java/plugin/pom.xml
+  blob_sha: 286c2acd12170090821f4b00087496f326a26d0a
+  retrieved: true
+- type: manifest
+  path: java/project/package.json
+  blob_sha: 31969bcd62b726e53b4a5e0929170e76db4cdcdb
+  retrieved: true
+- type: manifest
+  path: java/project/pom.xml
+  blob_sha: b122934967837a6de91ed21b3dbb2fb5c06a1dbe
+  retrieved: true
+- type: manifest
+  path: java/project/srv/pom.xml
+  blob_sha: 4777e6ebae22b254a22e27718f9185e5bceac7e7
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 376200
+    JavaScript: 310742
+    CAP CDS: 31057
+    Shell: 7327
+    HTML: 3049
+- type: Git tree
+  status: captured
+  sha: eab31292cb54d3559d49defaf77d25013c3ac557
+  truncated: false
+- type: source_file
+  path: java/project/srv/src/main/java/com/github/capjscommunity/sapafcsdk/Application.java
+  blob_sha: b834777f7bee72d0b39ad934aeed4cb8e992d2be
+  retrieved: true
+- type: source_file
+  path: bin/features/app.js
+  blob_sha: f7a7261388c325854a47b9460921d3c57c79cbc3
+  retrieved: true
+- type: source_file
+  path: index.js
+  blob_sha: bb907bb2e20ded23cf719d1b19fdb73a91649fc2
+  retrieved: true
+- type: source_file
+  path: srv/server.js
+  blob_sha: 39ca4e3880bf3ebc84eaae4e9740ec3fdbf10089
+  retrieved: true

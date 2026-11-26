@@ -1,0 +1,86 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:11:48+00:00'
+evidence_fingerprint: 27e59e17a10a5332a0aafe04918899349d93c02ccb11964bb94fc9eb69164aec
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/amazon-connect-contact-lens-api-sample-app
+  repository_id: 360750239
+  url: https://github.com/amazon-connect/amazon-connect-contact-lens-api-sample-app
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2021-04-23T17:27:03Z'
+  stars: 1
+  readme_url: https://github.com/amazon-connect/amazon-connect-contact-lens-api-sample-app/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 76884a42cfb849af0cfd42ea28b44699eed7e180
+  manifest_paths:
+  - aws-resources-creator/package.json
+  source_files_inspected:
+  - aws-resources-creator/create-contact-flows.js
+  - aws-resources-creator/get-realtime-call-analytics-from-contactlens.js
+  repository_tree:
+    status: captured
+    sha: c7b8e1d64600647a7c721a685219669b8254348d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Source code for the blog Use Contact Lens for Amazon Connect to streamline call transfers with real-time
+    AI powered insights.
+  why_used: Source code for the blog Use Contact Lens for Amazon Connect to streamline call transfers with real-time
+    AI powered insights.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - aws-sdk
+    - fs
+    - https
+    - url
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: aws-resources-creator/create-contact-flows.js,
+    aws-resources-creator/get-realtime-call-analytics-from-contactlens.js'
+  setup_and_usage:
+  - 'Usage: Use sam to build, invoke and deploy the function.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/amazon-connect-contact-lens-api-sample-app/blob/main/README.md
+  path: README.md
+  blob_sha: 76884a42cfb849af0cfd42ea28b44699eed7e180
+  retrieved: true
+- type: manifest
+  path: aws-resources-creator/package.json
+  blob_sha: 14e427fabc7caab0e634986e8d20d7bc37e4c89d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 20768
+- type: Git tree
+  status: captured
+  sha: c7b8e1d64600647a7c721a685219669b8254348d
+  truncated: false
+- type: source_file
+  path: aws-resources-creator/create-contact-flows.js
+  blob_sha: 7d87cbfc9d3f1c55c863d77edd6bfaea61718181
+  retrieved: true
+- type: source_file
+  path: aws-resources-creator/get-realtime-call-analytics-from-contactlens.js
+  blob_sha: 4033498919f6b95bce37f394cc310c1c1b0d24ee
+  retrieved: true

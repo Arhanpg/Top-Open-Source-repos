@@ -1,0 +1,188 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:22:00+00:00'
+evidence_fingerprint: eac7ac0d6e8b53da1b0ec8c108c7adb75141ec98e5e2fecfa938fbd3a83f442f
+repository_metadata:
+  company: Amazon
+  account: cdklabs
+  full_name: cdklabs/awscdk-change-analyzer
+  repository_id: 361684977
+  url: https://github.com/cdklabs/awscdk-change-analyzer
+  description: A toolkit that analyzes the differences between two cloud infrastructures states.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-06-29T08:12:43Z'
+  stars: 13
+  readme_url: https://github.com/cdklabs/awscdk-change-analyzer/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2130bc3ca35e6ab8aa84e86fe4e57aeb14a5d694
+  manifest_paths:
+  - package.json
+  - packages/aws-c2a/package.json
+  - packages/@aws-c2a/cdk-pipelines-step/package.json
+  - packages/@aws-c2a/engine/package.json
+  - packages/@aws-c2a/models/package.json
+  - packages/@aws-c2a/presets/package.json
+  source_files_inspected:
+  - packages/@aws-c2a/cdk-pipelines-step/lib/index.ts
+  - packages/@aws-c2a/cdk-pipelines-step/lib/private/approve-lambda/index.ts
+  - packages/@aws-c2a/engine/lib/aggregations/component-operation/aggregation-modules/index.ts
+  - packages/@aws-c2a/engine/lib/aggregations/index.ts
+  repository_tree:
+    status: captured
+    sha: b7747a670b8199994d9c81474035209352e7e735
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'The **CDK Change Analyzer** (C2A) is a tool that helps you:'
+  why_used: A toolkit that analyzes the differences between two cloud infrastructures states.
+  core_features: []
+  technology_stack:
+    languages:
+    - HTML
+    - TypeScript
+    - JavaScript
+    - Shell
+    - CSS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-c2a/engine'
+    - '@aws-c2a/models'
+    - '@aws-c2a/presets'
+    - '@aws-c2a/rules'
+    - '@aws-c2a/visualizer'
+    - '@aws-c2a/web-app'
+    - '@aws-cdk/assert'
+    - '@aws-cdk/aws-appsync'
+    - '@aws-cdk/aws-codebuild'
+    - '@aws-cdk/aws-codepipeline'
+    - '@aws-cdk/aws-codepipeline-actions'
+    - '@aws-cdk/aws-ec2'
+    - '@aws-cdk/aws-iam'
+    - '@aws-cdk/aws-lambda'
+    - '@aws-cdk/aws-s3'
+    - '@aws-cdk/aws-s3-assets'
+    - '@aws-cdk/aws-secretsmanager'
+    - '@aws-cdk/aws-sns'
+    - '@aws-cdk/aws-sqs'
+    - '@aws-cdk/cfnspec'
+    - '@aws-cdk/cloud-assembly-schema'
+    - '@aws-cdk/core'
+    - '@aws-cdk/cx-api'
+    - '@aws-cdk/pipelines'
+    - '@babel/core'
+    - '@babel/preset-env'
+    - '@babel/preset-typescript'
+    - '@types/aws-sdk'
+    - '@types/graphviz'
+    - '@types/jest'
+    - '@types/node'
+    - '@types/semver'
+    - '@types/string-similarity'
+    - '@types/yaml'
+    - '@types/yargs'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - aws-sdk
+    - babel-jest
+    - babel-plugin-inline-import
+    - colors
+    - constructs
+    - eslint
+    - eslint-plugin-import
+    - fifinet
+    - graphviz
+    - jest
+    - jsii
+    - jsii-pacmak
+    - lerna
+    - minimatch
+    - rimraf
+    - semver
+    - ts-jest
+    - ts-node
+    - tsconfig-paths
+    - typescript
+    - yaml
+    - yargs
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: packages/@aws-c2a/cdk-pipelines-step/lib/index.ts,
+    packages/@aws-c2a/cdk-pipelines-step/lib/private/approve-lambda/index.ts, packages/@aws-c2a/engine/lib/aggregations/component-operation/aggregation-modules/index.ts,
+    packages/@aws-c2a/engine/lib/aggregations/index.ts'
+  setup_and_usage:
+  - 'Usage: 1. Add a [PerformChangeAnalysis'
+  - 'Usage: step](https://github.com/cdklabs/awscdk-change-analyzer/tree/main/packages/%40aws-c2a/cdk-pipelines-step)
+    to your CDK pipeline.'
+  - 'Usage: 2. Create a JSON file to encode your own'
+  - 'Usage: to save yourself manual reviewing time.'
+  limitations:
+  - 'Security: See CONTRIBUTING for more'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cdklabs/awscdk-change-analyzer/blob/main/README.md
+  path: README.md
+  blob_sha: 2130bc3ca35e6ab8aa84e86fe4e57aeb14a5d694
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 9731f17d761fb67b39923de03bfa1261b5a2efb0
+  retrieved: true
+- type: manifest
+  path: packages/aws-c2a/package.json
+  blob_sha: c6131ed50e717d61b45312d25dd4eaf7b7c35c2f
+  retrieved: true
+- type: manifest
+  path: packages/@aws-c2a/cdk-pipelines-step/package.json
+  blob_sha: 7ab739b5aa271c3939b0f2ef1c085a63aa34cf78
+  retrieved: true
+- type: manifest
+  path: packages/@aws-c2a/engine/package.json
+  blob_sha: ef773b3373bd7fef22debb0eecb6da3502810249
+  retrieved: true
+- type: manifest
+  path: packages/@aws-c2a/models/package.json
+  blob_sha: 1ff96d908a853d4ecffb14b1b48b0a09e4f9814b
+  retrieved: true
+- type: manifest
+  path: packages/@aws-c2a/presets/package.json
+  blob_sha: 554a3c8a634f79a567c4571d41ca97d35195c922
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    HTML: 5591394
+    TypeScript: 434702
+    JavaScript: 15105
+    Shell: 802
+    CSS: 91
+- type: Git tree
+  status: captured
+  sha: b7747a670b8199994d9c81474035209352e7e735
+  truncated: false
+- type: source_file
+  path: packages/@aws-c2a/cdk-pipelines-step/lib/index.ts
+  blob_sha: ad961d96d4081c0a9da880f23060e8bee3bfc764
+  retrieved: true
+- type: source_file
+  path: packages/@aws-c2a/cdk-pipelines-step/lib/private/approve-lambda/index.ts
+  blob_sha: 46e5b7ef78774b63f2930fe23e8de635e19d01f3
+  retrieved: true
+- type: source_file
+  path: packages/@aws-c2a/engine/lib/aggregations/component-operation/aggregation-modules/index.ts
+  blob_sha: 827608460eca99e4d2fc6595bf0801e20d904918
+  retrieved: true
+- type: source_file
+  path: packages/@aws-c2a/engine/lib/aggregations/index.ts
+  blob_sha: a1d4aac0485e2e44daac763cbe2de618511bde37
+  retrieved: true

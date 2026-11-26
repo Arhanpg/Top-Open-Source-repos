@@ -1,10 +1,10 @@
 # Technical audits — aws-controllers-k8s
 
-Updated: 2026-11-25T23:09:24+00:00
+Updated: 2026-11-26T07:22:00+00:00
 
 ## Status counts
 
-- evidence_only: 10
+- evidence_only: 14
 
 ## Repository dossiers
 
@@ -19,4 +19,8 @@ Updated: 2026-11-25T23:09:24+00:00
 | apigateway-controller-510836351 | evidence_only | [apigateway-controller-510836351.md](apigateway-controller-510836351.md) | [apigateway-controller-510836351.yaml](apigateway-controller-510836351.yaml) |
 | apigatewayv2-controller-333629851 | evidence_only | [apigatewayv2-controller-333629851.md](apigatewayv2-controller-333629851.md) | [apigatewayv2-controller-333629851.yaml](apigatewayv2-controller-333629851.yaml) |
 | appconfig-controller-1406409560 | evidence_only | [appconfig-controller-1406409560.md](appconfig-controller-1406409560.md) | [appconfig-controller-1406409560.yaml](appconfig-controller-1406409560.yaml) |
+| applicationautoscaling-controller-350433951 | evidence_only | [applicationautoscaling-controller-350433951.md](applicationautoscaling-controller-350433951.md) | [applicationautoscaling-controller-350433951.yaml](applicationautoscaling-controller-350433951.yaml) |
+| athena-controller-838611767 | evidence_only | [athena-controller-838611767.md](athena-controller-838611767.md) | [athena-controller-838611767.yaml](athena-controller-838611767.yaml) |
+| autoscaling-controller-384192258 | evidence_only | [autoscaling-controller-384192258.md](autoscaling-controller-384192258.md) | [autoscaling-controller-384192258.yaml](autoscaling-controller-384192258.yaml) |
+| backup-controller-1131296045 | evidence_only | [backup-controller-1131296045.md](backup-controller-1131296045.md) | [backup-controller-1131296045.yaml](backup-controller-1131296045.yaml) |
 | github-397711626 | evidence_only | [github-397711626.md](github-397711626.md) | [github-397711626.yaml](github-397711626.yaml) |

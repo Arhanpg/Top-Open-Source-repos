@@ -1,10 +1,10 @@
 # Technical audits — google-gemini
 
-Updated: 2026-11-25T23:09:22+00:00
+Updated: 2026-11-26T07:22:02+00:00
 
 ## Status counts
 
-- evidence_only: 11
+- evidence_only: 15
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -21,5 +21,9 @@ Updated: 2026-11-25T23:09:22+00:00
 | angular-rock-paper-scissors-sample-797403318 | evidence_only | [angular-rock-paper-scissors-sample-797403318.md](angular-rock-paper-scissors-sample-797403318.md) | [angular-rock-paper-scissors-sample-797403318.yaml](angular-rock-paper-scissors-sample-797403318.yaml) |
 | angular-webaudio-melodies-sample-794759922 | evidence_only | [angular-webaudio-melodies-sample-794759922.md](angular-webaudio-melodies-sample-794759922.md) | [angular-webaudio-melodies-sample-794759922.yaml](angular-webaudio-melodies-sample-794759922.yaml) |
 | angular-webxr-art-sample-796940304 | evidence_only | [angular-webxr-art-sample-796940304.md](angular-webxr-art-sample-796940304.md) | [angular-webxr-art-sample-796940304.yaml](angular-webxr-art-sample-796940304.yaml) |
+| api-examples-936817871 | evidence_only | [api-examples-936817871.md](api-examples-936817871.md) | [api-examples-936817871.yaml](api-examples-936817871.yaml) |
+| computer-use-preview-978411532 | evidence_only | [computer-use-preview-978411532.md](computer-use-preview-978411532.md) | [computer-use-preview-978411532.yaml](computer-use-preview-978411532.yaml) |
+| cookbook-771670025 | evidence_only | [cookbook-771670025.md](cookbook-771670025.md) | [cookbook-771670025.yaml](cookbook-771670025.yaml) |
+| crewai-quickstart-1002698252 | evidence_only | [crewai-quickstart-1002698252.md](crewai-quickstart-1002698252.md) | [crewai-quickstart-1002698252.yaml](crewai-quickstart-1002698252.yaml) |
 | github-765449529 | insufficient_evidence | [github-765449529.md](github-765449529.md) | [github-765449529.yaml](github-765449529.yaml) |
 | journal-with-gemini-798431387 | evidence_only | [journal-with-gemini-798431387.md](journal-with-gemini-798431387.md) | [journal-with-gemini-798431387.yaml](journal-with-gemini-798431387.yaml) |

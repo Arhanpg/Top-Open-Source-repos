@@ -1,10 +1,10 @@
 # Technical audits — swiftlang
 
-Updated: 2026-11-25T23:09:22+00:00
+Updated: 2026-11-26T07:22:01+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 12
 
 ## Repository dossiers
 
@@ -19,3 +19,6 @@ Updated: 2026-11-25T23:09:22+00:00
 | github-813284799 | evidence_only | [github-813284799.md](github-813284799.md) | [github-813284799.yaml](github-813284799.yaml) |
 | github-workflows-828025099 | evidence_only | [github-workflows-828025099.md](github-workflows-828025099.md) | [github-workflows-828025099.yaml](github-workflows-828025099.yaml) |
 | indexstore-db-154773489 | evidence_only | [indexstore-db-154773489.md](indexstore-db-154773489.md) | [indexstore-db-154773489.yaml](indexstore-db-154773489.yaml) |
+| llvm-project-215875945 | evidence_only | [llvm-project-215875945.md](llvm-project-215875945.md) | [llvm-project-215875945.yaml](llvm-project-215875945.yaml) |
+| project-operations-1022322071 | evidence_only | [project-operations-1022322071.md](project-operations-1022322071.md) | [project-operations-1022322071.yaml](project-operations-1022322071.yaml) |
+| repo-templates-845744880 | evidence_only | [repo-templates-845744880.md](repo-templates-845744880.md) | [repo-templates-845744880.yaml](repo-templates-845744880.yaml) |

@@ -1,10 +1,10 @@
 # Technical audits — google
 
-Updated: 2026-11-25T23:09:23+00:00
+Updated: 2026-11-26T07:22:00+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 
 ## Repository dossiers
 
@@ -21,4 +21,8 @@ Updated: 2026-11-25T23:09:23+00:00
 | arc-gen-920759800 | evidence_only | [arc-gen-920759800.md](arc-gen-920759800.md) | [arc-gen-920759800.yaml](arc-gen-920759800.yaml) |
 | begin-dataset-372906577 | evidence_only | [begin-dataset-372906577.md](begin-dataset-372906577.md) | [begin-dataset-372906577.yaml](begin-dataset-372906577.yaml) |
 | big-bench-330044683 | evidence_only | [big-bench-330044683.md](big-bench-330044683.md) | [big-bench-330044683.yaml](big-bench-330044683.yaml) |
+| bucketserver-151745332 | evidence_only | [bucketserver-151745332.md](bucketserver-151745332.md) | [bucketserver-151745332.yaml](bucketserver-151745332.yaml) |
+| cfu-playground-346151420 | evidence_only | [cfu-playground-346151420.md](cfu-playground-346151420.md) | [cfu-playground-346151420.yaml](cfu-playground-346151420.yaml) |
+| csp-validator-5815969 | evidence_only | [csp-validator-5815969.md](csp-validator-5815969.md) | [csp-validator-5815969.yaml](csp-validator-5815969.yaml) |
+| ctap2-test-tool-261977210 | evidence_only | [ctap2-test-tool-261977210.md](ctap2-test-tool-261977210.md) | [ctap2-test-tool-261977210.yaml](ctap2-test-tool-261977210.yaml) |
 | github-170908616 | evidence_only | [github-170908616.md](github-170908616.md) | [github-170908616.yaml](github-170908616.yaml) |

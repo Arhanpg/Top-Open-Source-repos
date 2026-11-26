@@ -1,0 +1,94 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:58:44+00:00'
+evidence_fingerprint: 07ba66b27d438127dada1a174c40e183862dcc2d3ffb4374826c6a66d44f10a7
+repository_metadata:
+  company: Amazon
+  account: firecracker-microvm
+  full_name: firecracker-microvm/micro-http
+  repository_id: 236465835
+  url: https://github.com/firecracker-microvm/micro-http
+  description: A minimal HTTP implementation used by Firecracker
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-08-01T23:12:30Z'
+  stars: 97
+  readme_url: https://github.com/firecracker-microvm/micro-http/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 68dccd686a5db8372210cd789691787d3d8b730f
+  manifest_paths:
+  - Cargo.toml
+  source_files_inspected:
+  - src/common/mod.rs
+  - src/lib.rs
+  - src/common/headers.rs
+  - src/connection.rs
+  repository_tree:
+    status: captured
+    sha: e9db5584ad7d66a9ae2c067d8f81ec7df8d95b3f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a minimal implementation of the HTTP/1.0 and HTTP/1.1 protocols. This HTTP implementation is
+    stateless thus it does not support chunking or compression.
+  why_used: A minimal HTTP implementation used by Firecracker
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    frameworks_and_libraries: []
+    dependencies:
+    - libc
+    - vmm-sys-util
+    build_and_package_tools:
+    - Cargo manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/common/mod.rs,
+    src/lib.rs, src/common/headers.rs, src/connection.rs'
+  setup_and_usage: []
+  limitations:
+  - 'Policy for Security Disclosures: If you suspect you have uncovered a vulnerability, contact us privately, as'
+  - 'Policy for Security Disclosures: outlined in our [security policy document](); we will immediately prioritize'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/firecracker-microvm/micro-http/blob/main/README.md
+  path: README.md
+  blob_sha: 68dccd686a5db8372210cd789691787d3d8b730f
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: 63409ddf8853854fa02ba732c333b989ee5548b4
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 203709
+- type: Git tree
+  status: captured
+  sha: e9db5584ad7d66a9ae2c067d8f81ec7df8d95b3f
+  truncated: false
+- type: source_file
+  path: src/common/mod.rs
+  blob_sha: 686ea95ae8108b82786671d675ff92cc254a86e4
+  retrieved: true
+- type: source_file
+  path: src/lib.rs
+  blob_sha: c35d6412814f3d8edf5d7295c3515d3a8180e121
+  retrieved: true
+- type: source_file
+  path: src/common/headers.rs
+  blob_sha: e70d62d22f8316e2b19302e3d7a4f5b4839b55eb
+  retrieved: true
+- type: source_file
+  path: src/connection.rs
+  blob_sha: 3bd0d59cac665309f8c87a3f22987b863d37388f
+  retrieved: true

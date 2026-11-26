@@ -1,0 +1,103 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:59:16+00:00'
+evidence_fingerprint: b1d495ae453117c8a5007dd64bf706850ef47e3f8031dfed655cdf7438d17479
+repository_metadata:
+  company: Apple
+  account: ml-explore
+  full_name: ml-explore/mlx-swift-lm
+  repository_id: 1068168978
+  url: https://github.com/ml-explore/mlx-swift-lm
+  description: LLMs and VLMs with MLX Swift
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T03:26:23Z'
+  stars: 879
+  readme_url: https://github.com/ml-explore/mlx-swift-lm/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 8ff6f115d39367250d8fbfd0f9802f90c46778b9
+  manifest_paths: []
+  source_files_inspected:
+  - .github/scripts/ci-state.js
+  - .github/scripts/ci-state.test.js
+  - IntegrationTesting/IntegrationTesting/IntegrationTesting.swift
+  - IntegrationTesting/IntegrationTestingTests/AttachmentLabelTemplateIntegrationTests.swift
+  repository_tree:
+    status: captured
+    sha: 9d1c1d8f743b85cc91510f8dcf304c0f66e218bc
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: MLX Swift LM is a Swift package to build tools and applications with large language models (LLMs) and
+    vision language models (VLMs) in MLX Swift.
+  why_used: LLMs and VLMs with MLX Swift
+  core_features: []
+  technology_stack:
+    languages:
+    - Swift
+    - C++
+    - Python
+    - C
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .github/scripts/ci-state.js,
+    .github/scripts/ci-state.test.js, IntegrationTesting/IntegrationTesting/IntegrationTesting.swift, IntegrationTesting/IntegrationTestingTests/AttachmentLabelTemplateIntegrationTests.swift'
+  setup_and_usage:
+  - 'Usage: This package integrates with a variety of tokenizer and downloader packages through protocol conformance.
+    Users can pick from three ways to integrate with these packages, which offer different tradeoffs between freedom
+    and convenience.'
+  - 'Usage: See documentation on how to integrate mlx-swift-lm and downloaders/tokenizers.'
+  - 'Usage: > If the documentation link shows a 404, view the'
+  - 'Installation: Add the core package to your Package.swift:'
+  - 'Installation: .package(url: "https://github.com/ml-explore/mlx-swift-lm", .upToNextMinor(from: "3.32.3")),'
+  - 'Installation: Then chose an integration package for downloaders and tokenizers.'
+  - 'Installation: > If the documentation link shows a 404, view the'
+  - 'Quick Start: See also MLXLMCommon. The simplest way to get started is using the MLXHuggingFace macros, which
+    provide a default Hugging Face downloader and tokenizer integration.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ml-explore/mlx-swift-lm/blob/main/README.md
+  path: README.md
+  blob_sha: 8ff6f115d39367250d8fbfd0f9802f90c46778b9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Swift: 8992809
+    C++: 884219
+    Python: 50989
+    C: 17723
+    Shell: 5117
+- type: Git tree
+  status: captured
+  sha: 9d1c1d8f743b85cc91510f8dcf304c0f66e218bc
+  truncated: false
+- type: source_file
+  path: .github/scripts/ci-state.js
+  blob_sha: 90e78e590a29fd3b909ca50b16bd07925ed49428
+  retrieved: true
+- type: source_file
+  path: .github/scripts/ci-state.test.js
+  blob_sha: c3c69ef254d89c077f0ba33a6cfa986f883f0ac2
+  retrieved: true
+- type: source_file
+  path: IntegrationTesting/IntegrationTesting/IntegrationTesting.swift
+  blob_sha: 6d108fac7b790f20f2143d695e8bdc447fae2599
+  retrieved: true
+- type: source_file
+  path: IntegrationTesting/IntegrationTestingTests/AttachmentLabelTemplateIntegrationTests.swift
+  blob_sha: ee57e9706fdf981d50aa52b6e546df15a99ae98e
+  retrieved: true

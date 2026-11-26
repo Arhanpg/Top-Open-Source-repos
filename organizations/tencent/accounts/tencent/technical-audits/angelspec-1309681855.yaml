@@ -1,0 +1,176 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:18:47+00:00'
+evidence_fingerprint: 0cc5014546efccb604392721b45a76aa86f0af8034b06d0ce07becdfffa86678
+repository_metadata:
+  company: Tencent
+  account: Tencent
+  full_name: Tencent/AngelSpec
+  repository_id: 1309681855
+  url: https://github.com/Tencent/AngelSpec
+  description: A unified, torch-native training framework for MTP and block-parallel speculative decoding.
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T16:24:19Z'
+  stars: 295
+  readme_url: https://github.com/Tencent/AngelSpec/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 9fdc1fda4efaec75a5d6b472d0854df448e8b986
+  manifest_paths:
+  - Makefile
+  - pyproject.toml
+  - docs/Makefile
+  - docs/requirements.txt
+  - angelspec/controller/setup.py
+  source_files_inspected:
+  - angelspec/__init__.py
+  - angelspec/config/__init__.py
+  - angelspec/config/eval_config.py
+  - angelspec/config/inference_config.py
+  repository_tree:
+    status: captured
+    sha: 6e86fe9f64a881e732e999394a2575dfb3b3ca48
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**A unified training framework for MTP and block-parallel speculative decoding**'
+  why_used: A unified, torch-native training framework for MTP and block-parallel speculative decoding.
+  core_features:
+  - name: '**7 draft architectures** — DFly2, DFly, DFlash, DFlare, Eagle3, DSpark, MTP — behind one training pipeline;
+      switching is a config change'
+    description: '**7 draft architectures** — DFly2, DFly, DFlash, DFlare, Eagle3, DSpark, MTP — behind one training
+      pipeline; switching is a config change'
+    evidence:
+    - README.md#Key Features
+  - name: '**MTP training with TTT** — on-policy multi-depth rollout with memory close to a single causal pass;
+      long-context training up to 256k via Ulysses sequence paral'
+    description: '**MTP training with TTT** — on-policy multi-depth rollout with memory close to a single causal
+      pass; long-context training up to 256k via Ulysses sequence parallelism'
+    evidence:
+    - README.md#Key Features
+  - name: '**Acceptance-aligned objectives** — CE, top-k KL, LK losses, D-PACE weighting, and end-to-end TV, composable
+      through configuration'
+    description: '**Acceptance-aligned objectives** — CE, top-k KL, LK losses, D-PACE weighting, and end-to-end
+      TV, composable through configuration'
+    evidence:
+    - README.md#Key Features
+  - name: '**MLA / DSA drafters** — drafters that read the target''s MLA latents and DSA candidates'
+    description: '**MLA / DSA drafters** — drafters that read the target''s MLA latents and DSA candidates'
+    evidence:
+    - README.md#Key Features
+  - name: '**Document-aware sequence packing** — Megatron-style fixed-length packing with strict cross-document
+      isolation, on both the DFlash and MTP paths'
+    description: '**Document-aware sequence packing** — Megatron-style fixed-length packing with strict cross-document
+      isolation, on both the DFlash and MTP paths'
+    evidence:
+    - README.md#Key Features
+  - name: '**Online evaluation** — genuine speculative decoding against the latest checkpoint during training, reporting
+      mean accepted length and per-position acceptance a'
+    description: '**Online evaluation** — genuine speculative decoding against the latest checkpoint during training,
+      reporting mean accepted length and per-position acceptance as measured by the serving engine'
+    evidence:
+    - README.md#Key Features
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - accelerate
+    - cmake
+    - datasets
+    - myst-parser
+    - ninja
+    - numba
+    - numpy
+    - omegaconf
+    - openai
+    - openai-harmony
+    - packaging
+    - psutil
+    - pydantic
+    - pyzmq
+    - qwen-vl-utils
+    - ray
+    - setuptools
+    - sphinx
+    - sphinx-autobuild
+    - sphinx-book-theme
+    - sphinx-copybutton
+    - sphinx-design
+    - sphinx-tabs
+    - swanlab
+    - tqdm
+    - transformers
+    - wandb
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: angelspec/__init__.py,
+    angelspec/config/__init__.py, angelspec/config/eval_config.py, angelspec/config/inference_config.py'
+  setup_and_usage:
+  - 'Single-node quickstart (8 GPUs: 4 inference + 4 training): ./examples/qwen3-8b-dfly/run.sh'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Tencent/AngelSpec/blob/main/README.md
+  path: README.md
+  blob_sha: 9fdc1fda4efaec75a5d6b472d0854df448e8b986
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 3669fcea2200394fee0c8cadbfd0139f796df503
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 5c668754ba86bf93886cae7cee4200eb1be9732e
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: f2529d9890a62640900e86e356d96b80117c8a9c
+  retrieved: true
+- type: manifest
+  path: docs/requirements.txt
+  blob_sha: 605c292f939ea3ba1a3a9075b8fbe4a9763ec1d6
+  retrieved: true
+- type: manifest
+  path: angelspec/controller/setup.py
+  blob_sha: 899c4770570768fd3506dad6ad8a686e8a0d2a55
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 3847714
+    Shell: 24318
+    Makefile: 382
+- type: Git tree
+  status: captured
+  sha: 6e86fe9f64a881e732e999394a2575dfb3b3ca48
+  truncated: false
+- type: source_file
+  path: angelspec/__init__.py
+  blob_sha: f21903ab175da68d557079c35b78380384d1045d
+  retrieved: true
+- type: source_file
+  path: angelspec/config/__init__.py
+  blob_sha: bbbe6e46f595cc4365c1e5ba7bf2a07ac2bf2a85
+  retrieved: true
+- type: source_file
+  path: angelspec/config/eval_config.py
+  blob_sha: 8e491cfc9d9cc26cb55c31b1ad81182887e5c035
+  retrieved: true
+- type: source_file
+  path: angelspec/config/inference_config.py
+  blob_sha: cb60157c9a43c1bcce891b30aee984d50f74ec76
+  retrieved: true

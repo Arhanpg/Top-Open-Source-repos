@@ -1,0 +1,140 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:59:32+00:00'
+evidence_fingerprint: 3b393a99db99b9880737459e90a60d9d87f837c22910b5a3f9ec8c7de92d6186
+repository_metadata:
+  company: Baidu
+  account: ApolloAuto
+  full_name: ApolloAuto/apollo-model-radar4d
+  repository_id: 715954639
+  url: https://github.com/ApolloAuto/apollo-model-radar4d
+  description: null
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-11-10T07:11:26Z'
+  stars: 22
+  readme_url: https://github.com/ApolloAuto/apollo-model-radar4d/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 5a5cc63ed25e61256dd6dd52f6501ab746b770ba
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  source_files_inspected:
+  - pcdet/ops/iou3d_nms/src/iou3d_cpu.cpp
+  - pcdet/ops/iou3d_nms/src/iou3d_cpu.h
+  - pcdet/ops/iou3d_nms/src/iou3d_nms.cpp
+  - pcdet/ops/iou3d_nms/src/iou3d_nms.h
+  repository_tree:
+    status: captured
+    sha: bb9dbb4b77c14251944d00edb3c7df9b6eb2845f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Prepare your own dataset, and modify the dataset path in "tools/cfgs/dataset_configs/radar4d_dataset.yaml"
+  why_used: Prepare your own dataset, and modify the dataset path in "tools/cfgs/dataset_configs/radar4d_dataset.yaml"
+  core_features:
+  - name: '[x] Support both one-stage and two-stage 3D object detection frameworks'
+    description: '[x] Support both one-stage and two-stage 3D object detection frameworks'
+    evidence:
+    - README.md#Currently Supported Features
+  - name: '[x] Support distributed training & testing with multiple GPUs and multiple machines'
+    description: '[x] Support distributed training & testing with multiple GPUs and multiple machines'
+    evidence:
+    - README.md#Currently Supported Features
+  - name: '[x] Support multiple heads on different scales to detect different classes'
+    description: '[x] Support multiple heads on different scales to detect different classes'
+    evidence:
+    - README.md#Currently Supported Features
+  - name: '[x] Support stacked version set abstraction to encode various number of points in different scenes'
+    description: '[x] Support stacked version set abstraction to encode various number of points in different scenes'
+    evidence:
+    - README.md#Currently Supported Features
+  - name: '[x] Support Adaptive Training Sample Selection (ATSS) for target assignment'
+    description: '[x] Support Adaptive Training Sample Selection (ATSS) for target assignment'
+    evidence:
+    - README.md#Currently Supported Features
+  - name: '[x] Support RoI-aware point cloud pooling & RoI-grid point cloud pooling'
+    description: '[x] Support RoI-aware point cloud pooling & RoI-grid point cloud pooling'
+    evidence:
+    - README.md#Currently Supported Features
+  - name: '[x] Support GPU version 3D IoU calculation and rotated NMS'
+    description: '[x] Support GPU version 3D IoU calculation and rotated NMS'
+    evidence:
+    - README.md#Currently Supported Features
+  technology_stack:
+    languages:
+    - Python
+    - Cuda
+    - C++
+    - C
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - easydict
+    - numba
+    - numpy
+    - pyyaml
+    - scikit-image
+    - tensorboardX
+    - torch
+    - tqdm
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: pcdet/ops/iou3d_nms/src/iou3d_cpu.cpp,
+    pcdet/ops/iou3d_nms/src/iou3d_cpu.h, pcdet/ops/iou3d_nms/src/iou3d_nms.cpp, pcdet/ops/iou3d_nms/src/iou3d_nms.h'
+  setup_and_usage:
+  - 'Installation: Please refer to INSTALL.md for the installation of OpenPCDet.'
+  - 'Getting Started: Please refer to GETTING_STARTED.md to learn more usage about this project.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ApolloAuto/apollo-model-radar4d/blob/master/README.md
+  path: README.md
+  blob_sha: 5a5cc63ed25e61256dd6dd52f6501ab746b770ba
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: aa85ef83bc9df4ce06ba5f747015134ce4ae8808
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: ab7afe39849416a5e30d12229ae4fc3694362085
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 540367
+    Cuda: 77081
+    C++: 46016
+    C: 3847
+    Shell: 1954
+- type: Git tree
+  status: captured
+  sha: bb9dbb4b77c14251944d00edb3c7df9b6eb2845f
+  truncated: false
+- type: source_file
+  path: pcdet/ops/iou3d_nms/src/iou3d_cpu.cpp
+  blob_sha: d528ad91b1635725752e2a78a217260dafe597ef
+  retrieved: true
+- type: source_file
+  path: pcdet/ops/iou3d_nms/src/iou3d_cpu.h
+  blob_sha: 8835ee7049c6f71866ed9f0f1bb019933a63d1cd
+  retrieved: true
+- type: source_file
+  path: pcdet/ops/iou3d_nms/src/iou3d_nms.cpp
+  blob_sha: d41da8ad078431cc56d71f1a56f891480ffec07f
+  retrieved: true
+- type: source_file
+  path: pcdet/ops/iou3d_nms/src/iou3d_nms.h
+  blob_sha: aa7ae0edf22034c798778277c5b8aa6701906a9d
+  retrieved: true

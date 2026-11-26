@@ -1,10 +1,10 @@
 # Technical audits — firecracker-microvm
 
-Updated: 2026-11-25T23:09:22+00:00
+Updated: 2026-11-26T07:22:01+00:00
 
 ## Status counts
 
-- evidence_only: 8
+- evidence_only: 11
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -20,3 +20,6 @@ Updated: 2026-11-25T23:09:22+00:00
 | github-171342069 | insufficient_evidence | [github-171342069.md](github-171342069.md) | [github-171342069.yaml](github-171342069.yaml) |
 | kvm-bindings-259266181 | evidence_only | [kvm-bindings-259266181.md](kvm-bindings-259266181.md) | [kvm-bindings-259266181.yaml](kvm-bindings-259266181.yaml) |
 | kvm-ioctls-259294756 | evidence_only | [kvm-ioctls-259294756.md](kvm-ioctls-259294756.md) | [kvm-ioctls-259294756.yaml](kvm-ioctls-259294756.yaml) |
+| micro-http-236465835 | evidence_only | [micro-http-236465835.md](micro-http-236465835.md) | [micro-http-236465835.yaml](micro-http-236465835.yaml) |
+| nsdi2020-data-239760690 | evidence_only | [nsdi2020-data-239760690.md](nsdi2020-data-239760690.md) | [nsdi2020-data-239760690.yaml](nsdi2020-data-239760690.yaml) |
+| versionize-259237858 | evidence_only | [versionize-259237858.md](versionize-259237858.md) | [versionize-259237858.yaml](versionize-259237858.yaml) |

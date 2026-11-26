@@ -1,0 +1,76 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:00:03+00:00'
+evidence_fingerprint: 83be51bb24b0033881b86d9cd8cb57dc7369f54193e882938c36331e9220703a
+repository_metadata:
+  company: Microsoft
+  account: Azure
+  full_name: Azure/ACS-Deployment-Tutorial
+  repository_id: 88418799
+  url: https://github.com/Azure/ACS-Deployment-Tutorial
+  description: A tutorial on how to deploy a Dockerised deep learning application on Azure Container Services
+  default_branch: master
+  license_spdx: MIT
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2023-03-28T16:46:36Z'
+  stars: 29
+  readme_url: https://github.com/Azure/ACS-Deployment-Tutorial/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 29234f21f23c7517d4def2bf4ceb3612c8445ca8
+  manifest_paths: []
+  source_files_inspected:
+  - testing_utilities.py
+  repository_tree:
+    status: captured
+    sha: b9f78b6a9a0b06f633d702f5a89c7dc3e67489b3
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Deploying machine learning models can often be tricky due to their numerous dependencies, deep learning
+    models often even more so. One of the ways to overcome this is to use Docker containers. Unfortunately, it is
+    rarely straight-forward. In this tutorial, we will demonstrate how to deploy a pre-trained deep learning model
+    using Azure Container Services, which allows us to orchestrate a number of containers using DC/OS. By using
+    Azure Container Services, we can ensure that it is performant, scalable and flexible enough to accommodate any
+    deep learning framework. The Docker image we will be deploying can be found here. It contains a simple Flask
+    web application with Nginx web server. The deep learning framework we will use is the Microsoft Cognitive Toolkit
+    (CNTK) and we will be using a pre-trained model; specifically the ResNet 152 model.
+  why_used: A tutorial on how to deploy a Dockerised deep learning application on Azure Container Services
+  core_features: []
+  technology_stack:
+    languages:
+    - Jupyter Notebook
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: testing_utilities.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Azure/ACS-Deployment-Tutorial/blob/master/README.md
+  path: README.md
+  blob_sha: 29234f21f23c7517d4def2bf4ceb3612c8445ca8
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Jupyter Notebook: 2662763
+    Python: 2680
+- type: Git tree
+  status: captured
+  sha: b9f78b6a9a0b06f633d702f5a89c7dc3e67489b3
+  truncated: false
+- type: source_file
+  path: testing_utilities.py
+  blob_sha: 2b254d4e6eba798d0f52af584face696909ce853
+  retrieved: true

@@ -1,0 +1,149 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:55:31+00:00'
+evidence_fingerprint: ab973fb6fb70e389d6a34624ecd40d858a186fe36f31a118fb9851abbdee5e33
+repository_metadata:
+  company: Alphabet (Google)
+  account: google-gemini
+  full_name: google-gemini/api-examples
+  repository_id: 936817871
+  url: https://github.com/google-gemini/api-examples
+  description: Example code for the Gemini API
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T00:13:21Z'
+  stars: 143
+  readme_url: https://github.com/google-gemini/api-examples/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4a7b5e9a6319c151e77a05cc698d468feb674d47
+  manifest_paths:
+  - go/go.mod
+  - interactions/package.json
+  - interactions/pom.xml
+  - java/pom.xml
+  - javascript/package.json
+  source_files_inspected:
+  - java/src/main/java/com/example/gemini/BuildConfig.java
+  - java/src/main/java/com/example/gemini/ChatSession.java
+  - java/src/main/java/com/example/gemini/CodeExecution.java
+  - java/src/main/java/com/example/gemini/ConfigureModelParameters.java
+  repository_tree:
+    status: captured
+    sha: c2d6a1ea2914e420191e401c37d59621fa33f38a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains example code for key features of the Gemini API. The repo is organized by programming
+    language.
+  why_used: Example code for the Gemini API
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Java
+    - Python
+    - JavaScript
+    - Shell
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@google/genai'
+    - cloud.google.com/go
+    - cloud.google.com/go/auth
+    - cloud.google.com/go/compute/metadata
+    - github.com/golang/groupcache
+    - github.com/google/go-cmp
+    - github.com/google/s2a-go
+    - github.com/googleapis/enterprise-certificate-proxy
+    - github.com/gorilla/websocket
+    - go.opencensus.io
+    - golang.org/x/crypto
+    - golang.org/x/net
+    - golang.org/x/sys
+    - golang.org/x/text
+    - google-genai
+    - google.golang.org/genproto/googleapis/rpc
+    - google.golang.org/grpc
+    - google.golang.org/protobuf
+    - interactions
+    - jasmine
+    - java
+    - junit
+    - junit-jupiter-engine
+    - maven-compiler-plugin
+    - maven-surefire-plugin
+    - prettier
+    build_and_package_tools:
+    - Go module manifest
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: java/src/main/java/com/example/gemini/BuildConfig.java,
+    java/src/main/java/com/example/gemini/ChatSession.java, java/src/main/java/com/example/gemini/CodeExecution.java,
+    java/src/main/java/com/example/gemini/ConfigureModelParameters.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google-gemini/api-examples/blob/main/README.md
+  path: README.md
+  blob_sha: 4a7b5e9a6319c151e77a05cc698d468feb674d47
+  retrieved: true
+- type: manifest
+  path: go/go.mod
+  blob_sha: 4a3b213ae4e5ea23b33af5a9e064727fa7d55f5a
+  retrieved: true
+- type: manifest
+  path: interactions/package.json
+  blob_sha: 734b9191d7c7468fca82a433a992437ae574c930
+  retrieved: true
+- type: manifest
+  path: interactions/pom.xml
+  blob_sha: 4ea5953b0110843779a16e9f30b38813fa19feaa
+  retrieved: true
+- type: manifest
+  path: java/pom.xml
+  blob_sha: c6d976e0e1ab4ce69ceb716cc205991c3570b459
+  retrieved: true
+- type: manifest
+  path: javascript/package.json
+  blob_sha: 0a9f05192134fc4a43c33d70e0fec21a428fa08d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 162911
+    Java: 121195
+    Python: 102847
+    JavaScript: 96906
+    Shell: 80879
+    TypeScript: 40543
+- type: Git tree
+  status: captured
+  sha: c2d6a1ea2914e420191e401c37d59621fa33f38a
+  truncated: false
+- type: source_file
+  path: java/src/main/java/com/example/gemini/BuildConfig.java
+  blob_sha: a55e58c1913d3adfa6ae00270ddd852015ee08f7
+  retrieved: true
+- type: source_file
+  path: java/src/main/java/com/example/gemini/ChatSession.java
+  blob_sha: 859d75646b1a74bcc312c14d67832a5dc2d6e331
+  retrieved: true
+- type: source_file
+  path: java/src/main/java/com/example/gemini/CodeExecution.java
+  blob_sha: 47ae9e2134360b76a3fa1f89edcd418f5790fd1d
+  retrieved: true
+- type: source_file
+  path: java/src/main/java/com/example/gemini/ConfigureModelParameters.java
+  blob_sha: a573d531a0b986ac4f46c44ac0b1d2f3cf1ac834
+  retrieved: true

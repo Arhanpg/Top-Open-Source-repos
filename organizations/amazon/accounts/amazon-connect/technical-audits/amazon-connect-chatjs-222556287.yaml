@@ -1,0 +1,145 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:55:55+00:00'
+evidence_fingerprint: 6b7f93d7c7a3f05459252098f4e7b5b448c3df9cd83f75afb88746fbe760d424
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/amazon-connect-chatjs
+  repository_id: 222556287
+  url: https://github.com/amazon-connect/amazon-connect-chatjs
+  description: Amazon Connect ChatJS - a browser-based contact center integration API for Chat on the Agent and
+    Customer side.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T17:31:53Z'
+  stars: 120
+  readme_url: https://github.com/amazon-connect/amazon-connect-chatjs/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 8b458df0fe8297742e77c087cbeb579bc2e873e3
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/index.js
+  - src/chat.js
+  - src/chat.spec.js
+  - src/client/client.js
+  repository_tree:
+    status: captured
+    sha: 1c13776feec7668eaa07268e705f481f1a5d3f9a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A browser-based JavaScript library to build custom chat interfaces for Amazon Connect. Includes TypeScript
+    support, fully managed WebSocket connections, and simplified API calls with internal AWS SDK integration. The
+    Amazon Connect Chat javascript library (ChatJS) gives you the power to customize your chat experience and build
+    your own chat widget or agent chat UI.
+  why_used: Amazon Connect ChatJS - a browser-based contact center integration API for Chat on the Agent and Customer
+    side.
+  core_features:
+  - name: Handling File Attachments in Chat
+    description: Handling File Attachments in Chat
+    evidence:
+    - README.md#Features
+  - name: React Native Support
+    description: React Native Support
+    evidence:
+    - README.md#Features
+  - name: Enabling Persistent Chat
+    description: Enabling Persistent Chat
+    evidence:
+    - README.md#Features
+  - name: Enabling Attachment Scanner
+    description: Enabling Attachment Scanner
+    evidence:
+    - README.md#Features
+  - name: Interactive Messages
+    description: Interactive Messages
+    evidence:
+    - README.md#Features
+  - name: Multi-Party Chat Feature (StreamsJS)
+    description: Multi-Party Chat Feature (StreamsJS)
+    evidence:
+    - README.md#Features
+  - name: Web Calling Feature (aws-chime-sdk)
+    description: Web Calling Feature (aws-chime-sdk)
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - JavaScript
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@babel/cli'
+    - '@babel/core'
+    - '@babel/eslint-parser'
+    - '@babel/preset-env'
+    - babel-loader
+    - copy-webpack-plugin
+    - detect-browser
+    - eslint
+    - eslint-config-prettier
+    - eslint-plugin-jest
+    - eslint-plugin-prettier
+    - jest
+    - jest-environment-jsdom
+    - lodash.throttle
+    - regenerator-runtime
+    - sprintf-js
+    - typescript
+    - webpack
+    - webpack-cli
+    - webpack-dev-server
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/index.js, src/chat.js,
+    src/chat.spec.js, src/client/client.js'
+  setup_and_usage:
+  - 'Installation: npm install amazon-connect-chatjs'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/amazon-connect-chatjs/blob/master/README.md
+  path: README.md
+  blob_sha: 8b458df0fe8297742e77c087cbeb579bc2e873e3
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 7b74ed5bc8975ac93b5b27dee445a8a7f7939637
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 545150
+    TypeScript: 2533
+- type: Git tree
+  status: captured
+  sha: 1c13776feec7668eaa07268e705f481f1a5d3f9a
+  truncated: false
+- type: source_file
+  path: src/index.js
+  blob_sha: 8f8a4c5f395e6314a57036777d1c379d3e7195c8
+  retrieved: true
+- type: source_file
+  path: src/chat.js
+  blob_sha: 833e1b3af54d83be23f4655dc1affe312c8b0d4c
+  retrieved: true
+- type: source_file
+  path: src/chat.spec.js
+  blob_sha: 71919fb9753ef7c553d3409f3e0ebe2642a6de07
+  retrieved: true
+- type: source_file
+  path: src/client/client.js
+  blob_sha: f2b1b5c79ce20ace0a1a2c05e309808c9b8e07c4
+  retrieved: true

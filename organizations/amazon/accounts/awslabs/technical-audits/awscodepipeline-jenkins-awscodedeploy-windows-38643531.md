@@ -6,7 +6,7 @@
 - Default branch: archive
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-25T03:46:50+00:00
+- Generated: 2026-11-26T06:58:02+00:00
 
 ## Project purpose
 
@@ -22,7 +22,7 @@ No separately supported feature list extracted.
 
 ## Technology stack
 
-- Languages: Unknown / not established
+- Languages: Ruby, HTML, Batchfile
 - Frameworks/libraries: Unknown / not established
 - Dependency names: Unknown / not established
 - Build/package tools: Unknown / not established
@@ -50,7 +50,7 @@ No explicit limitations extracted; this does not mean none exist.
 - Manifests: none
 - Sampled source files: none
 - Git tree state: captured
-- Evidence fingerprint: 48057afdb13de87c7d009c346650e78dc965306cdf68fef079689210bfbfae47
+- Evidence fingerprint: 4ff0749fe043546387d58d03a1e3b36ee21baf948b61eb918a6c6b62b3cbe3db
 
 ## Unverified / unknown
 

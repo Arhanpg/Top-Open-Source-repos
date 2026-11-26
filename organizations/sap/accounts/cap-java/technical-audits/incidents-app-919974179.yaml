@@ -1,0 +1,148 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:01:24+00:00'
+evidence_fingerprint: da6fab72ff8719208e8d35aa4c5e8e1fc9cc7f21710706a320418f3e792e10e1
+repository_metadata:
+  company: SAP
+  account: cap-java
+  full_name: cap-java/incidents-app
+  repository_id: 919974179
+  url: https://github.com/cap-java/incidents-app
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2026-11-11T10:12:09Z'
+  stars: 1
+  readme_url: https://github.com/cap-java/incidents-app/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 080831f591c380cb41150cf1a02512fe393d40d3
+  manifest_paths:
+  - package.json
+  - pom.xml
+  - .devcontainer/Dockerfile
+  - db/package.json
+  - srv/pom.xml
+  - app/incidents/package.json
+  source_files_inspected:
+  - srv/src/main/java/customer/incident_management/Application.java
+  - app/incidents/webapp/Component.js
+  - srv/src/main/java/customer/incident_management/handler/ProcessorServiceHandler.java
+  repository_tree:
+    status: captured
+    sha: 9d3f02d5df955c8c225d087c71e95dec525929a3
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Welcome to the Incident Management reference sample application for CAP and development recommendations
+    provided by the SAP BTP Developer Guide.
+  why_used: Welcome to the Incident Management reference sample application for CAP and development recommendations
+    provided by the SAP BTP Developer Guide.
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - CAP CDS
+    - HTML
+    - JavaScript
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@sap/cds-dk'
+    - '@sap/hdi-deploy'
+    - '@sap/ux-ui5-tooling'
+    - '@ui5/cli'
+    - cds-adapter-odata-v4
+    - cds-feature-attachments
+    - cds-maven-plugin
+    - cds-services-bom
+    - cds-starter-cloudfoundry
+    - cds-starter-spring-boot
+    - flatten-maven-plugin
+    - h2
+    - hdb
+    - incident-management
+    - incident-management-parent
+    - maven-compiler-plugin
+    - maven-enforcer-plugin
+    - maven-surefire-plugin
+    - spring-boot-dependencies
+    - spring-boot-devtools
+    - spring-boot-maven-plugin
+    - spring-boot-starter-actuator
+    - spring-boot-starter-test
+    - spring-security-test
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: srv/src/main/java/customer/incident_management/Application.java,
+    app/incidents/webapp/Component.js, srv/src/main/java/customer/incident_management/handler/ProcessorServiceHandler.java'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-java/incidents-app/blob/main/README.md
+  path: README.md
+  blob_sha: 080831f591c380cb41150cf1a02512fe393d40d3
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 535d182c4fef01250f50ec11bca53ae9afea3c44
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: eff834bace64fb8ba8e0aa4130d19ffdd2f7f3ad
+  retrieved: true
+- type: manifest
+  path: .devcontainer/Dockerfile
+  blob_sha: 3f0d2c7c4ad17f7ea429dca04e4fe77f8d52e7bd
+  retrieved: true
+- type: manifest
+  path: db/package.json
+  blob_sha: aae3a3c576bd1d605227124a1523e259544b85f0
+  retrieved: true
+- type: manifest
+  path: srv/pom.xml
+  blob_sha: d97d177e1f92f5316fe9c8a92271253016fb4ed4
+  retrieved: true
+- type: manifest
+  path: app/incidents/package.json
+  blob_sha: 2a2f5f479fdbf40c0d95bd7c44e21f86e856803a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 9828
+    CAP CDS: 8411
+    HTML: 7129
+    JavaScript: 3113
+    Dockerfile: 548
+- type: Git tree
+  status: captured
+  sha: 9d3f02d5df955c8c225d087c71e95dec525929a3
+  truncated: false
+- type: source_file
+  path: srv/src/main/java/customer/incident_management/Application.java
+  blob_sha: 43c4b8baa7688e91907fc6b19052ec7579e88835
+  retrieved: true
+- type: source_file
+  path: app/incidents/webapp/Component.js
+  blob_sha: 0eb77aba8a9138ff731cba4bf89b24409e9c1d4f
+  retrieved: true
+- type: source_file
+  path: srv/src/main/java/customer/incident_management/handler/ProcessorServiceHandler.java
+  blob_sha: 3cf85dfdb5cadd14e42b25ddc35ec23acf6a3912
+  retrieved: true

@@ -1,0 +1,135 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:16:55+00:00'
+evidence_fingerprint: 1d42ddbd88790edf949800b35f251eddbed2a4d88d085a524d0a57ec68969a16
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/fil_backend
+  repository_id: 346460537
+  url: https://github.com/triton-inference-server/fil_backend
+  description: FIL backend for the Triton Inference Server
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-03T05:25:28Z'
+  stars: 94
+  readme_url: https://github.com/triton-inference-server/fil_backend/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 08f692616bdfaa1cd8d7ffb20ab7fa8b7e8838f5
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  - ops/Dockerfile
+  - rapids_triton_python/pyproject.toml
+  - test/CMakeLists.txt
+  source_files_inspected:
+  - src/api.cc
+  - src/cpu_forest_model.h
+  - src/cpu_treeshap_model.h
+  - src/detail/omp_helpers.h
+  repository_tree:
+    status: captured
+    sha: d7c566dad15345e97faab7132e0bb3168274bafa
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: -->
+  why_used: FIL backend for the Triton Inference Server
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Jupyter Notebook
+    - Python
+    - C
+    - Shell
+    - CMake
+    - Dockerfile
+    - Cuda
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/api.cc, src/cpu_forest_model.h,
+    src/cpu_treeshap_model.h, src/detail/omp_helpers.h'
+  setup_and_usage:
+  - 'Usage Information: - [Introductory end-to-end'
+  - 'Usage Information: example](https://nbviewer.org/github/triton-inference-server/fil_backend/blob/main/notebooks/categorical-fraud-detection/Fraud_Detection_Example.ipynb)'
+  - 'Usage Information: notebook](https://nbviewer.org/github/triton-inference-server/fil_backend/blob/main/notebooks/faq/FAQs.ipynb)
+    with code snippets for many common scenarios'
+  - 'Usage Information: - Model Configuration'
+  - 'Usage Information: - Explainability and Shapley value support'
+  - 'Usage Information: - Scikit-Learn and cuML model support'
+  - 'Usage Information: - Model support and limitations'
+  - 'Quickstart: Deploying a tree model in 3 steps: 1. Copy your model into the following directory structure. In
+    this'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/fil_backend/blob/main/README.md
+  path: README.md
+  blob_sha: 08f692616bdfaa1cd8d7ffb20ab7fa8b7e8838f5
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: d0bb48cf4a752c97eca3a86bfe8c1fa853ab450d
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 1a8da1f4d366d75f2af71229a835ed5fd3102b5f
+  retrieved: true
+- type: manifest
+  path: ops/Dockerfile
+  blob_sha: 87fdb773991c6d306e5c94c815edbe2b8b103e8d
+  retrieved: true
+- type: manifest
+  path: rapids_triton_python/pyproject.toml
+  blob_sha: 9787c3bdf008a57ae3cb2e27a8261eb3f134ff73
+  retrieved: true
+- type: manifest
+  path: test/CMakeLists.txt
+  blob_sha: db9f68c05ab6eb829843008cc21733937d72de8b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 225310
+    Jupyter Notebook: 203039
+    Python: 74828
+    C: 45018
+    Shell: 38318
+    CMake: 18842
+    Dockerfile: 7954
+    Cuda: 2459
+- type: Git tree
+  status: captured
+  sha: d7c566dad15345e97faab7132e0bb3168274bafa
+  truncated: false
+- type: source_file
+  path: src/api.cc
+  blob_sha: 8a374a6ca5c691575044f9347af88d76033c7b91
+  retrieved: true
+- type: source_file
+  path: src/cpu_forest_model.h
+  blob_sha: f4baddf5acc3c3aef210df1f68e8f83c79e87531
+  retrieved: true
+- type: source_file
+  path: src/cpu_treeshap_model.h
+  blob_sha: 8a4ca6f8738dc02bbfe39434ffd02c4837a3760d
+  retrieved: true
+- type: source_file
+  path: src/detail/omp_helpers.h
+  blob_sha: 3ac54ef266d52dcef773455487eb6d31ecb48f65
+  retrieved: true

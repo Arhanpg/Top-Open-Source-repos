@@ -1,0 +1,160 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:03:25+00:00'
+evidence_fingerprint: 8d04a29c1262577793dd3f5bdf3382c704ad0ed56c33585cec422db37c7e5de6
+repository_metadata:
+  company: Alphabet (Google)
+  account: google
+  full_name: google/CFU-Playground
+  repository_id: 346151420
+  url: https://github.com/google/CFU-Playground
+  description: 'Want a faster ML processor? Do it yourself! -- A framework for playing with custom opcodes to accelerate
+    TensorFlow Lite for Microcontrollers (TFLM).    . . . . .   Online tutorial: https://google.github.io/CFU-Playground/   For
+    reference docs, see the link below.'
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-02-26T18:00:41Z'
+  stars: 573
+  readme_url: https://github.com/google/CFU-Playground/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 0cb70973602ccd1c728a5bf312551a92560b4117
+  manifest_paths:
+  - Makefile
+  - common/Makefile
+  - conf/requirements.txt
+  - docs/Makefile
+  - docs/requirements.txt
+  - scripts/Dockerfile
+  source_files_inspected:
+  - common/src/main.c
+  - common/src/base.c
+  - common/src/base.h
+  - common/src/benchmarks.c
+  repository_tree:
+    status: captured
+    sha: 0ef41b10a1c7ae3e5fad8346093602dde7c8a2d7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Want a faster ML processor? Do it yourself!
+  why_used: 'Want a faster ML processor? Do it yourself! -- A framework for playing with custom opcodes to accelerate
+    TensorFlow Lite for Microcontrollers (TFLM).    . . . . .   Online tutorial: https://google.github.io/CFU-Playground/   For
+    reference docs, see the link below.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Verilog
+    - C++
+    - Python
+    - C
+    - Makefile
+    - Jupyter Notebook
+    - Shell
+    - Scala
+    - Linker Script
+    - SystemVerilog
+    - RobotFramework
+    - Assembly
+    - Dockerfile
+    - CMake
+    frameworks_and_libraries: []
+    dependencies:
+    - Pillow
+    - Sphinx
+    - Wave
+    - meson
+    - recommonmark
+    - requests
+    - simplejson
+    - six
+    - sphinx-jinja
+    - sphinx-material
+    - sphinx-tabs
+    - sphinxcontrib-wavedrom
+    - termcolor
+    - tqdm
+    - yapf
+    build_and_package_tools:
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: common/src/main.c,
+    common/src/base.c, common/src/base.h, common/src/benchmarks.c'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google/CFU-Playground/blob/main/README.md
+  path: README.md
+  blob_sha: 0cb70973602ccd1c728a5bf312551a92560b4117
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 539202cf7d7916e3bd19b20869e57993c6a5d1c3
+  retrieved: true
+- type: manifest
+  path: common/Makefile
+  blob_sha: b61aa916170f88bd7bf5e0066e94c0fcd85fef79
+  retrieved: true
+- type: manifest
+  path: conf/requirements.txt
+  blob_sha: 7627275735fabd7bb0d5a3a47dad4d00a9db2e6c
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: d0c3cbf1020d5c292abdedf27627c6abe25e2293
+  retrieved: true
+- type: manifest
+  path: docs/requirements.txt
+  blob_sha: 8ec649bc0d23ed29d2016b24175fcb75473ad1ff
+  retrieved: true
+- type: manifest
+  path: scripts/Dockerfile
+  blob_sha: 448d1b7e510d11a55d6de7d1e3148c5a4018cd05
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Verilog: 7408891
+    C++: 4936579
+    Python: 1767725
+    C: 453784
+    Makefile: 43264
+    Jupyter Notebook: 35820
+    Shell: 26458
+    Scala: 18649
+    Linker Script: 7793
+    SystemVerilog: 6923
+    RobotFramework: 6125
+    Assembly: 3800
+    Dockerfile: 1026
+    CMake: 976
+- type: Git tree
+  status: captured
+  sha: 0ef41b10a1c7ae3e5fad8346093602dde7c8a2d7
+  truncated: false
+- type: source_file
+  path: common/src/main.c
+  blob_sha: 173734cc27baf60caeaaca9ed66156aed1663359
+  retrieved: true
+- type: source_file
+  path: common/src/base.c
+  blob_sha: 36f4497a5cea7a9cc3d85931744a71880a253652
+  retrieved: true
+- type: source_file
+  path: common/src/base.h
+  blob_sha: 075742d32adfddca568860ea93975a926518ba1b
+  retrieved: true
+- type: source_file
+  path: common/src/benchmarks.c
+  blob_sha: f84c6b35a2acc66e5055dc5a96952d6fa5fb741f
+  retrieved: true

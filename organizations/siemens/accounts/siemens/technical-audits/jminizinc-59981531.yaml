@@ -1,0 +1,122 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:03:08+00:00'
+evidence_fingerprint: b840cb1b749a70f1caa6412431e4edb7ad0eed2383d7efa4bf02ae33997f8479
+repository_metadata:
+  company: Siemens
+  account: Siemens
+  full_name: siemens/JMiniZinc
+  repository_id: 59981531
+  url: https://github.com/siemens/JMiniZinc
+  description: JMiniZinc
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2020-10-13T07:20:30Z'
+  stars: 18
+  readme_url: https://github.com/siemens/JMiniZinc/blob/master/README.md
+  readme_path: README.md
+  readme_sha: cf542e03f97e51bdfda9b4d46d67304a8df94058
+  manifest_paths:
+  - com.siemens.jminizinc.core/pom.xml
+  - com.siemens.jminizinc.diag.ui/pom.xml
+  - com.siemens.jminizinc.diag/pom.xml
+  - com.siemens.jminizinc/pom.xml
+  source_files_inspected:
+  - com.siemens.jminizinc.core/src/main/java/at/siemens/ct/common/utils/ArrayUtils.java
+  - com.siemens.jminizinc.core/src/main/java/at/siemens/ct/common/utils/CollectionUtils.java
+  - com.siemens.jminizinc.core/src/main/java/at/siemens/ct/common/utils/FileUtils.java
+  - com.siemens.jminizinc.core/src/main/java/at/siemens/ct/common/utils/ListUtils.java
+  repository_tree:
+    status: captured
+    sha: 6a4b5bde339738fb74dfc763a9cdb715b2ba22c7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: JMiniZinc is a Java interface to the constraint modeling language MiniZinc. It provides an API to generate
+    MiniZinc models, to start MiniZinc compilers and solvers (which are not part of JMiniZinc), and to parse the
+    output of solvers.
+  why_used: JMiniZinc
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - Shell
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies:
+    - core
+    - diag
+    - jminizinc
+    - junit
+    - ui
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: com.siemens.jminizinc.core/src/main/java/at/siemens/ct/common/utils/ArrayUtils.java,
+    com.siemens.jminizinc.core/src/main/java/at/siemens/ct/common/utils/CollectionUtils.java, com.siemens.jminizinc.core/src/main/java/at/siemens/ct/common/utils/FileUtils.java,
+    com.siemens.jminizinc.core/src/main/java/at/siemens/ct/common/utils/ListUtils.java'
+  setup_and_usage:
+  - 'Usage: You should be able to figure out quickly how to use JMiniZinc by looking at our JUnit tests, especially
+    NQueensDemo.'
+  - 'Usage: First you construct a MiniZinc model by adding Variables, Constraints etc. to a ModelBuilder,'
+  - 'Usage: Then you add additional syntactical elements (e.g. a solving strategy) to a ModelWriter'
+  - 'Usage: and let the resulting model be solved by an Executor.'
+  - 'Usage: For the Executors to work, executables minizinc, mzn2fzn, ... should be available on your PATH.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/siemens/JMiniZinc/blob/master/README.md
+  path: README.md
+  blob_sha: cf542e03f97e51bdfda9b4d46d67304a8df94058
+  retrieved: true
+- type: manifest
+  path: com.siemens.jminizinc.core/pom.xml
+  blob_sha: 5ea257a7287802492902166babd53b06eb92fd10
+  retrieved: true
+- type: manifest
+  path: com.siemens.jminizinc.diag.ui/pom.xml
+  blob_sha: 1f32c27f4cb133e9c5e643da68f71fd1dd22cfc5
+  retrieved: true
+- type: manifest
+  path: com.siemens.jminizinc.diag/pom.xml
+  blob_sha: 9f4ba3c5f028145073c6cc39afa263574ec8cb43
+  retrieved: true
+- type: manifest
+  path: com.siemens.jminizinc/pom.xml
+  blob_sha: b261ff172f963000771a300c1fd2fa357edb632f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 436766
+    Shell: 626
+    Batchfile: 112
+- type: Git tree
+  status: captured
+  sha: 6a4b5bde339738fb74dfc763a9cdb715b2ba22c7
+  truncated: false
+- type: source_file
+  path: com.siemens.jminizinc.core/src/main/java/at/siemens/ct/common/utils/ArrayUtils.java
+  blob_sha: 19d1a4a98b022ed6520ae23df9edb80b0e823e62
+  retrieved: true
+- type: source_file
+  path: com.siemens.jminizinc.core/src/main/java/at/siemens/ct/common/utils/CollectionUtils.java
+  blob_sha: 07846a5985abaec31f8161c866cf0626cb2346a3
+  retrieved: true
+- type: source_file
+  path: com.siemens.jminizinc.core/src/main/java/at/siemens/ct/common/utils/FileUtils.java
+  blob_sha: 14f0d4a3a737742838597e1f88141d86509653a5
+  retrieved: true
+- type: source_file
+  path: com.siemens.jminizinc.core/src/main/java/at/siemens/ct/common/utils/ListUtils.java
+  blob_sha: f89f93e6acd097960a46c3d2e8148cb80c1e9beb
+  retrieved: true

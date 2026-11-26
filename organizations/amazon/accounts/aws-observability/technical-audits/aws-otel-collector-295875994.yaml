@@ -1,0 +1,252 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:57:17+00:00'
+evidence_fingerprint: b6f00c541571df7e9c7427f465de5610279f44cb522477827846f512c8773dd4
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/aws-otel-collector
+  repository_id: 295875994
+  url: https://github.com/aws-observability/aws-otel-collector
+  description: AWS Distro for OpenTelemetry Collector (see ADOT Roadmap at https://github.com/orgs/aws-observability/projects/4)
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T18:45:13Z'
+  stars: 756
+  readme_url: https://github.com/aws-observability/aws-otel-collector/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 69bd44ce18c851c28e7a0bfed5b161af35dc36c4
+  manifest_paths:
+  - go.mod
+  - Makefile
+  - testbed/go.mod
+  - testbed/Makefile
+  - cmd/awscollector/Dockerfile
+  - tools/release/image-mirror/go.mod
+  source_files_inspected:
+  - cmd/awscollector/main.go
+  - cmd/healthcheck/main.go
+  - tools/release/image-mirror/main.go
+  - tools/workflow/cleaner/main.go
+  repository_tree:
+    status: captured
+    sha: 84bbb07943a7f7e6f16692aa9c8feb15f54ebced
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: AWS Distro for OpenTelemetry Collector (ADOT Collector) is an AWS supported version of the upstream OpenTelemetry
+    Collector and is distributed by Amazon. It supports the selected components from the OpenTelemetry community.
+    It is fully compatible with AWS computing platforms including EC2, ECS, and EKS. It enables users to send telemetry
+    data to AWS CloudWatch Metrics, Traces, and Logs backends as well as the other supported backends.
+  why_used: AWS Distro for OpenTelemetry Collector (see ADOT Roadmap at https://github.com/orgs/aws-observability/projects/4)
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Shell
+    - Python
+    - Makefile
+    - PowerShell
+    - Dockerfile
+    - Go Template
+    frameworks_and_libraries: []
+    dependencies:
+    - cloud.google.com/go/auth
+    - cloud.google.com/go/auth/oauth2adapt
+    - cloud.google.com/go/compute
+    - cloud.google.com/go/compute/metadata
+    - github.com/Azure/azure-sdk-for-go/sdk/azcore
+    - github.com/Azure/azure-sdk-for-go/sdk/azidentity
+    - github.com/Azure/azure-sdk-for-go/sdk/internal
+    - github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/compute/armcompute/v5
+    - github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/network/armnetwork/v4
+    - github.com/Azure/go-ansiterm
+    - github.com/AzureAD/microsoft-authentication-library-for-go
+    - github.com/Code-Hex/go-generics-cache
+    - github.com/DataDog/agent-payload/v5
+    - github.com/DataDog/datadog-agent/comp/api/api/def
+    - github.com/DataDog/datadog-agent/comp/core/config
+    - github.com/DataDog/datadog-agent/comp/core/delegatedauth
+    - github.com/DataDog/datadog-agent/comp/core/flare/builder
+    - github.com/DataDog/datadog-agent/comp/core/flare/types
+    - github.com/DataDog/datadog-agent/comp/core/hostname/hostnameinterface
+    - github.com/DataDog/datadog-agent/comp/core/log/def
+    - github.com/DataDog/datadog-agent/comp/core/secrets/def
+    - github.com/DataDog/datadog-agent/comp/core/secrets/noop-impl
+    - github.com/DataDog/datadog-agent/comp/core/status
+    - github.com/DataDog/datadog-agent/comp/core/tagger/def
+    - github.com/DataDog/datadog-agent/comp/core/tagger/origindetection
+    - github.com/DataDog/datadog-agent/comp/core/tagger/types
+    - github.com/DataDog/datadog-agent/comp/core/tagger/utils
+    - github.com/DataDog/datadog-agent/comp/core/telemetry
+    - github.com/DataDog/datadog-agent/comp/def
+    - github.com/DataDog/datadog-agent/comp/forwarder/defaultforwarder
+    - github.com/DataDog/datadog-agent/comp/forwarder/orchestrator/orchestratorinterface
+    - github.com/DataDog/datadog-agent/comp/logs-library
+    - github.com/DataDog/datadog-agent/comp/logs/agent/config
+    - github.com/DataDog/datadog-agent/comp/otelcol/logsagentpipeline
+    - github.com/DataDog/datadog-agent/comp/otelcol/logsagentpipeline/logsagentpipelineimpl
+    - github.com/DataDog/datadog-agent/comp/otelcol/otlp/components/exporter/logsagentexporter
+    - github.com/DataDog/datadog-agent/comp/otelcol/otlp/components/exporter/serializerexporter
+    - github.com/DataDog/datadog-agent/comp/otelcol/otlp/components/metricsclient
+    - github.com/DataDog/datadog-agent/comp/serializer/logscompression
+    - github.com/DataDog/datadog-agent/comp/serializer/metricscompression
+    - github.com/DataDog/datadog-agent/comp/trace/compression/def
+    - github.com/DataDog/datadog-agent/comp/trace/compression/impl-gzip
+    - github.com/DataDog/datadog-agent/pkg/aggregator/ckey
+    - github.com/DataDog/datadog-agent/pkg/api
+    - github.com/DataDog/datadog-agent/pkg/collector/check/defaults
+    - github.com/DataDog/datadog-agent/pkg/config/basic
+    - github.com/DataDog/datadog-agent/pkg/config/buildschema
+    - github.com/DataDog/datadog-agent/pkg/config/create
+    - github.com/DataDog/datadog-agent/pkg/config/env
+    - github.com/DataDog/datadog-agent/pkg/config/helper
+    - github.com/DataDog/datadog-agent/pkg/config/mock
+    - github.com/DataDog/datadog-agent/pkg/config/model
+    - github.com/DataDog/datadog-agent/pkg/config/nodetreemodel
+    - github.com/DataDog/datadog-agent/pkg/config/setup
+    - github.com/DataDog/datadog-agent/pkg/config/structure
+    - github.com/DataDog/datadog-agent/pkg/config/utils
+    - github.com/DataDog/datadog-agent/pkg/fips
+    - github.com/DataDog/datadog-agent/pkg/logs/client
+    - github.com/DataDog/datadog-agent/pkg/logs/diagnostic
+    - github.com/DataDog/datadog-agent/pkg/logs/message
+    - github.com/DataDog/datadog-agent/pkg/logs/sources
+    - github.com/DataDog/datadog-agent/pkg/logs/status/statusinterface
+    - github.com/DataDog/datadog-agent/pkg/logs/status/utils
+    - github.com/DataDog/datadog-agent/pkg/logs/types
+    - github.com/DataDog/datadog-agent/pkg/metrics
+    - github.com/DataDog/datadog-agent/pkg/obfuscate
+    - github.com/DataDog/datadog-agent/pkg/opentelemetry-mapping-go/inframetadata
+    - github.com/DataDog/datadog-agent/pkg/opentelemetry-mapping-go/otlp/attributes
+    - github.com/DataDog/datadog-agent/pkg/opentelemetry-mapping-go/otlp/logs
+    - github.com/DataDog/datadog-agent/pkg/opentelemetry-mapping-go/otlp/metrics
+    - github.com/DataDog/datadog-agent/pkg/opentelemetry-mapping-go/otlp/rum
+    - github.com/DataDog/datadog-agent/pkg/orchestrator/model
+    - github.com/DataDog/datadog-agent/pkg/orchestrator/util
+    - github.com/DataDog/datadog-agent/pkg/process/util/api
+    - github.com/DataDog/datadog-agent/pkg/proto
+    - github.com/DataDog/datadog-agent/pkg/remoteconfig/state
+    - github.com/DataDog/datadog-agent/pkg/serializer
+    - github.com/DataDog/datadog-agent/pkg/status/health
+    - github.com/DataDog/datadog-agent/pkg/tagger/types
+    - github.com/DataDog/datadog-agent/pkg/tagset
+    - github.com/DataDog/datadog-agent/pkg/template
+    - github.com/DataDog/datadog-agent/pkg/trace
+    - github.com/DataDog/datadog-agent/pkg/trace/log
+    - github.com/DataDog/datadog-agent/pkg/trace/stats
+    - github.com/DataDog/datadog-agent/pkg/trace/traceutil
+    - github.com/DataDog/datadog-agent/pkg/util/backoff
+    - github.com/DataDog/datadog-agent/pkg/util/buf
+    - github.com/DataDog/datadog-agent/pkg/util/cgroups
+    - github.com/DataDog/datadog-agent/pkg/util/compression
+    - github.com/DataDog/datadog-agent/pkg/util/defaultpaths
+    - github.com/DataDog/datadog-agent/pkg/util/executable
+    - github.com/DataDog/datadog-agent/pkg/util/filesystem
+    - github.com/DataDog/datadog-agent/pkg/util/fxutil
+    - github.com/DataDog/datadog-agent/pkg/util/hostname/validate
+    - github.com/DataDog/datadog-agent/pkg/util/hostport
+    - github.com/DataDog/datadog-agent/pkg/util/http
+    - github.com/DataDog/datadog-agent/pkg/util/json
+    - github.com/DataDog/datadog-agent/pkg/util/log
+    - github.com/DataDog/datadog-agent/pkg/util/option
+    - github.com/DataDog/datadog-agent/pkg/util/otel
+    - github.com/DataDog/datadog-agent/pkg/util/pointer
+    - github.com/Microsoft/go-winio
+    - github.com/aws/aws-sdk-go-v2
+    - github.com/aws/aws-sdk-go-v2/config
+    - github.com/aws/aws-sdk-go-v2/credentials
+    - github.com/aws/aws-sdk-go-v2/feature/ec2/imds
+    - github.com/aws/aws-sdk-go-v2/internal/configsources
+    - github.com/aws/aws-sdk-go-v2/internal/endpoints/v2
+    - github.com/aws/aws-sdk-go-v2/internal/ini
+    - github.com/aws/aws-sdk-go-v2/service/ecrpublic
+    - github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding
+    - github.com/aws/aws-sdk-go-v2/service/internal/presigned-url
+    - github.com/aws/aws-sdk-go-v2/service/signin
+    - github.com/aws/aws-sdk-go-v2/service/sso
+    - github.com/aws/aws-sdk-go-v2/service/ssooidc
+    - github.com/aws/aws-sdk-go-v2/service/sts
+    - github.com/aws/smithy-go
+    - github.com/cenkalti/backoff
+    - github.com/cenkalti/backoff/v4
+    - github.com/cespare/xxhash/v2
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/awscollector/main.go,
+    cmd/healthcheck/main.go, tools/release/image-mirror/main.go, tools/workflow/cleaner/main.go'
+  setup_and_usage: []
+  limitations:
+  - 'Security issue notifications: If you discover a potential security issue in this project we ask that you notify
+    AWS/Amazon Security via our vulnerability reporting page. Please do **not** create a public github issue.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/aws-otel-collector/blob/main/README.md
+  path: README.md
+  blob_sha: 69bd44ce18c851c28e7a0bfed5b161af35dc36c4
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 983ea2fe0ba2d9254d8cc992d4c2be2a40901447
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 983529bb837e4a80f86f32407b6859c695e90c85
+  retrieved: true
+- type: manifest
+  path: testbed/go.mod
+  blob_sha: e8e1c5332db38c871b2e732cbbe72abf5442dbce
+  retrieved: true
+- type: manifest
+  path: testbed/Makefile
+  blob_sha: 39734bfaebb22d2ab5d884d0cc7bf440fa490a9b
+  retrieved: true
+- type: manifest
+  path: cmd/awscollector/Dockerfile
+  blob_sha: 05704ae00be409c9ef69475c51cabe1718ef577d
+  retrieved: true
+- type: manifest
+  path: tools/release/image-mirror/go.mod
+  blob_sha: bd96fbeafda90fef5c85e13095f34a95d0923664
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 171190
+    Shell: 48794
+    Python: 16297
+    Makefile: 11353
+    PowerShell: 11222
+    Dockerfile: 2698
+    Go Template: 1120
+- type: Git tree
+  status: captured
+  sha: 84bbb07943a7f7e6f16692aa9c8feb15f54ebced
+  truncated: false
+- type: source_file
+  path: cmd/awscollector/main.go
+  blob_sha: dbb7b56b8bdf5f59bf845c88cb61a8b15fd5c30c
+  retrieved: true
+- type: source_file
+  path: cmd/healthcheck/main.go
+  blob_sha: ec8b12a79ec6c07b527b63ef28e418c3d2700802
+  retrieved: true
+- type: source_file
+  path: tools/release/image-mirror/main.go
+  blob_sha: 4f25d9243a7932c7114d8508a43c5299c2fcc01c
+  retrieved: true
+- type: source_file
+  path: tools/workflow/cleaner/main.go
+  blob_sha: 7fdd93b43a5574d03d1a9cc5532e638949a9cb33
+  retrieved: true

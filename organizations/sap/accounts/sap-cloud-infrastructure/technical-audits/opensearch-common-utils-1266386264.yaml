@@ -1,0 +1,98 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:10:05+00:00'
+evidence_fingerprint: 3cefc6350781008b0ce41109a00c4515cbdea4d5531ab53e4a9eed80a70cfdbc
+repository_metadata:
+  company: SAP
+  account: SAP-cloud-infrastructure
+  full_name: SAP-cloud-infrastructure/opensearch-common-utils
+  repository_id: 1266386264
+  url: https://github.com/SAP-cloud-infrastructure/opensearch-common-utils
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T13:24:41Z'
+  stars: 0
+  readme_url: https://github.com/SAP-cloud-infrastructure/opensearch-common-utils/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 98ee4ce2a3878421dc53e9637701397f81b1458b
+  manifest_paths:
+  - build.gradle
+  source_files_inspected:
+  - src/main/java/org/opensearch/commons/authuser/AuthUserRequestBuilder.java
+  - src/main/java/org/opensearch/commons/authuser/User.java
+  - src/main/java/org/opensearch/commons/authuser/util/Base64Helper.java
+  - src/main/java/org/opensearch/commons/authuser/util/SafeSerializationUtils.java
+  repository_tree:
+    status: captured
+    sha: 5e1b9c56464c4d2e837df4afd4a729f508f09fa1
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: OpenSearch Common Utils is focused on providing reusable Java components for OpenSearch plugins.
+  why_used: OpenSearch Common Utils is focused on providing reusable Java components for OpenSearch plugins.
+  core_features: []
+  technology_stack:
+    languages:
+    - Kotlin
+    - Java
+    - Shell
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle build file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/main/java/org/opensearch/commons/authuser/AuthUserRequestBuilder.java,
+    src/main/java/org/opensearch/commons/authuser/User.java, src/main/java/org/opensearch/commons/authuser/util/Base64Helper.java,
+    src/main/java/org/opensearch/commons/authuser/util/SafeSerializationUtils.java'
+  setup_and_usage: []
+  limitations:
+  - 'Security: If you discover a potential security issue in this project we ask that you notify AWS/Amazon Security
+    via our vulnerability reporting page. Please do **not** create a public GitHub issue.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP-cloud-infrastructure/opensearch-common-utils/blob/main/README.md
+  path: README.md
+  blob_sha: 98ee4ce2a3878421dc53e9637701397f81b1458b
+  retrieved: true
+- type: manifest
+  path: build.gradle
+  blob_sha: 117463dc616834c746677cae302e694635b98c7b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Kotlin: 1204225
+    Java: 173685
+    Shell: 2056
+    Python: 1387
+- type: Git tree
+  status: captured
+  sha: 5e1b9c56464c4d2e837df4afd4a729f508f09fa1
+  truncated: false
+- type: source_file
+  path: src/main/java/org/opensearch/commons/authuser/AuthUserRequestBuilder.java
+  blob_sha: 19811b5b5a0b6929d0909d14ae2e8434617017ff
+  retrieved: true
+- type: source_file
+  path: src/main/java/org/opensearch/commons/authuser/User.java
+  blob_sha: 9d6b5041bc033d9cb00a628ef7e2591501d0bfe4
+  retrieved: true
+- type: source_file
+  path: src/main/java/org/opensearch/commons/authuser/util/Base64Helper.java
+  blob_sha: 5b6d8dac16421e64d39a0779eeaceb7497bcde67
+  retrieved: true
+- type: source_file
+  path: src/main/java/org/opensearch/commons/authuser/util/SafeSerializationUtils.java
+  blob_sha: b9d3b87abeb1951d95dd1ddc1d7a5ecbd93d3e47
+  retrieved: true

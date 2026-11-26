@@ -6,7 +6,7 @@
 - Default branch: master
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-25T23:07:21+00:00
+- Generated: 2026-11-26T06:55:39+00:00
 
 ## Project purpose
 
@@ -22,7 +22,7 @@ No separately supported feature list extracted.
 
 ## Technology stack
 
-- Languages: Unknown / not established
+- Languages: Python, JavaScript, Shell, CSS
 - Frameworks/libraries: Unknown / not established
 - Dependency names: Unknown / not established
 - Build/package tools: Unknown / not established
@@ -57,7 +57,7 @@ No explicit limitations extracted; this does not mean none exist.
 - Manifests: none
 - Sampled source files: app/src/server.py, app/static/components/app/app.js, app/static/hadoop_scripts/rpc_daemon/__main__.py
 - Git tree state: captured
-- Evidence fingerprint: 9491ea1b540be2369a5820626fa5451c3dde6bfccb3986ae352b989d8f556d38
+- Evidence fingerprint: e6653f510847291e44f0dde3a320205ddddfd127c3f52ea4962174979b836ed0
 
 ## Unverified / unknown
 

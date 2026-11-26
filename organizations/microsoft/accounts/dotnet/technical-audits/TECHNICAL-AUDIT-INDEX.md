@@ -1,10 +1,10 @@
 # Technical audits — dotnet
 
-Updated: 2026-11-25T23:09:23+00:00
+Updated: 2026-11-26T07:22:02+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 12
 
 ## Repository dossiers
 
@@ -18,4 +18,7 @@ Updated: 2026-11-25T23:09:23+00:00
 | azcopynet-296705329 | evidence_only | [azcopynet-296705329.md](azcopynet-296705329.md) | [azcopynet-296705329.yaml](azcopynet-296705329.yaml) |
 | benchmarkdotnet-12191244 | evidence_only | [benchmarkdotnet-12191244.md](benchmarkdotnet-12191244.md) | [benchmarkdotnet-12191244.yaml](benchmarkdotnet-12191244.yaml) |
 | buildperformancetestassets-140595884 | evidence_only | [buildperformancetestassets-140595884.md](buildperformancetestassets-140595884.md) | [buildperformancetestassets-140595884.yaml](buildperformancetestassets-140595884.yaml) |
+| clangsharp-30737688 | evidence_only | [clangsharp-30737688.md](clangsharp-30737688.md) | [clangsharp-30737688.yaml](clangsharp-30737688.yaml) |
+| clicommandlineparser-83599430 | evidence_only | [clicommandlineparser-83599430.md](clicommandlineparser-83599430.md) | [clicommandlineparser-83599430.yaml](clicommandlineparser-83599430.yaml) |
+| comet-192122815 | evidence_only | [comet-192122815.md](comet-192122815.md) | [comet-192122815.yaml](comet-192122815.yaml) |
 | github-596679563 | evidence_only | [github-596679563.md](github-596679563.md) | [github-596679563.yaml](github-596679563.yaml) |

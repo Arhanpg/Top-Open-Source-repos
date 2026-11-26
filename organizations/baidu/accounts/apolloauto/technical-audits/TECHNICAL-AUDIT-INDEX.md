@@ -1,10 +1,10 @@
 # Technical audits — apolloauto
 
-Updated: 2026-11-25T23:09:21+00:00
+Updated: 2026-11-26T07:22:00+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 12
 
 ## Repository dossiers
 
@@ -17,5 +17,8 @@ Updated: 2026-11-25T23:09:21+00:00
 | apollo-contrib-137266423 | evidence_only | [apollo-contrib-137266423.md](apollo-contrib-137266423.md) | [apollo-contrib-137266423.yaml](apollo-contrib-137266423.yaml) |
 | apollo-kernel-95910564 | evidence_only | [apollo-kernel-95910564.md](apollo-kernel-95910564.md) | [apollo-kernel-95910564.yaml](apollo-kernel-95910564.yaml) |
 | apollo-model-centerpoint-715954472 | evidence_only | [apollo-model-centerpoint-715954472.md](apollo-model-centerpoint-715954472.md) | [apollo-model-centerpoint-715954472.yaml](apollo-model-centerpoint-715954472.yaml) |
+| apollo-model-radar4d-715954639 | evidence_only | [apollo-model-radar4d-715954639.md](apollo-model-radar4d-715954639.md) | [apollo-model-radar4d-715954639.yaml](apollo-model-radar4d-715954639.yaml) |
+| apollo-model-yolo3d-715954375 | evidence_only | [apollo-model-yolo3d-715954375.md](apollo-model-yolo3d-715954375.md) | [apollo-model-yolo3d-715954375.yaml](apollo-model-yolo3d-715954375.yaml) |
+| apollo-model-yolox-715954255 | evidence_only | [apollo-model-yolox-715954255.md](apollo-model-yolox-715954255.md) | [apollo-model-yolox-715954255.yaml](apollo-model-yolox-715954255.yaml) |
 | apollo-vision-net-898790778 | evidence_only | [apollo-vision-net-898790778.md](apollo-vision-net-898790778.md) | [apollo-vision-net-898790778.yaml](apollo-vision-net-898790778.yaml) |
 | apollo-vision-net-deployment-898790979 | evidence_only | [apollo-vision-net-deployment-898790979.md](apollo-vision-net-deployment-898790979.md) | [apollo-vision-net-deployment-898790979.yaml](apollo-vision-net-deployment-898790979.yaml) |

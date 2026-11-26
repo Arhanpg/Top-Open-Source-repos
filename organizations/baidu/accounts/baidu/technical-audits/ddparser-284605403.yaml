@@ -1,0 +1,100 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:59:40+00:00'
+evidence_fingerprint: d6367c8fcdd48d01911a9187e29ae0834192edbe25fbb0a193aa6d7497536ad0
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/DDParser
+  repository_id: 284605403
+  url: https://github.com/baidu/DDParser
+  description: 百度开源的依存句法分析系统
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-02-05T03:09:55Z'
+  stars: 999
+  readme_url: https://github.com/baidu/DDParser/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 2f9977e2cc6841490bb282d7ed1095315f68a070
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  source_files_inspected:
+  - ddparser/__init__.py
+  - ddparser/download_data.sh
+  - ddparser/download_pretrained_model.sh
+  - ddparser/ernie/__init__.py
+  repository_tree:
+    status: captured
+    sha: 4d6935a26f211987f54b980fe174971e4a1366e8
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 依存句法分析是自然语言处理核心技术之一，旨在通过分析句子中词语之间的依存关系来确定句子的句法结构，如下图实例所示： 依存句法分析作为底层技术，可直接用于提升其他NLP任务的效果，这些任务包括但不限于语义角色标注、语义匹配、事件抽取等。该技术具有很高的研究价值及应用价值。为了方便研究人员和商业合作伙伴共享效果领先的依存句法分析技术，我们开源了基于大规模标注数据训练的高性能的依存句法分析工具，并提供一键式安装及预测服务，用户只需一条命令即可获取依存句法分析结果。
+  why_used: 百度开源的依存句法分析系统
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - LAC
+    - configparser
+    - paddlepaddle-gpu
+    - tqdm
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: ddparser/__init__.py,
+    ddparser/download_data.sh, ddparser/download_pretrained_model.sh, ddparser/ernie/__init__.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/DDParser/blob/master/README.md
+  path: README.md
+  blob_sha: 2f9977e2cc6841490bb282d7ed1095315f68a070
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: d4ad4bda87f3854b7000b50294acd23d4029965b
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 6c532eda7f17c28b522783939fcb9cf936b63a24
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 447419
+    Shell: 4896
+- type: Git tree
+  status: captured
+  sha: 4d6935a26f211987f54b980fe174971e4a1366e8
+  truncated: false
+- type: source_file
+  path: ddparser/__init__.py
+  blob_sha: 0272f3e51a23b92c072a7f503cc788b902bd0b75
+  retrieved: true
+- type: source_file
+  path: ddparser/download_data.sh
+  blob_sha: 5f7f2f1e2a2b6226bad66523cecb1625cfc390b6
+  retrieved: true
+- type: source_file
+  path: ddparser/download_pretrained_model.sh
+  blob_sha: 8d0e3f6989864a30f842add1902f0208ced0db7f
+  retrieved: true
+- type: source_file
+  path: ddparser/ernie/__init__.py
+  blob_sha: 3fd77214113f9aaf8f75b86f07d5232541630a30
+  retrieved: true

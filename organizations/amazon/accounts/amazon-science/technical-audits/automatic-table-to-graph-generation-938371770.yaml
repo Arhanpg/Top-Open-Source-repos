@@ -1,0 +1,120 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:56:03+00:00'
+evidence_fingerprint: bfb4dbe46309115cbccfe720adcfccd67f274e96e850ce4121d339575e40ef94
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/Automatic-Table-to-Graph-Generation
+  repository_id: 938371770
+  url: https://github.com/amazon-science/Automatic-Table-to-Graph-Generation
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-04-21T20:54:39Z'
+  stars: 20
+  readme_url: https://github.com/amazon-science/Automatic-Table-to-Graph-Generation/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 11b12ed1cadf937c92791c72d94f545f55c38007
+  manifest_paths:
+  - Dockerfile
+  - web_app/requirements.txt
+  source_files_inspected:
+  - dbinfer/main.py
+  - multi-table-benchmark/dbinfer/main.py
+  - web_app/app.py
+  - commands.sh
+  repository_tree:
+    status: captured
+    sha: 67368eca4b7c92481b07245c61ca2c77152271da
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: AutoG is a novel framework that addresses the critical challenge of automatically constructing high-quality
+    graphs from tabular data for graph machine learning (GML) applications. While GML has seen tremendous growth,
+    the crucial step of converting tabular data into meaningful graphs remains largely manual and unstandardized.
+    AutoG leverages Large Language Models (LLMs) to automate this process, producing graphs that rival those created
+    by human experts.
+  why_used: AutoG is a novel framework that addresses the critical challenge of automatically constructing high-quality
+    graphs from tabular data for graph machine learning (GML) applications. While GML has seen tremendous growth,
+    the crucial step of converting tabular data into meaningful graphs remains largely manual and unstandardized.
+    AutoG leverages Large Language Models (LLMs) to automate this process, producing graphs that rival those created
+    by human experts.
+  core_features:
+  - name: Automatic graph schema generation without human intervention
+    description: Automatic graph schema generation without human intervention
+    evidence:
+    - README.md#Key Features
+  - name: LLM-based solution for high-quality graph construction
+    description: LLM-based solution for high-quality graph construction
+    evidence:
+    - README.md#Key Features
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - SQLAlchemy
+    - boto3
+    - pandas
+    - python-dotenv
+    - streamlit
+    build_and_package_tools:
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: dbinfer/main.py, multi-table-benchmark/dbinfer/main.py,
+    web_app/app.py, commands.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/Automatic-Table-to-Graph-Generation/blob/main/README.md
+  path: README.md
+  blob_sha: 11b12ed1cadf937c92791c72d94f545f55c38007
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: d469d04d01ee5275706d39a619ffc30fef741be4
+  retrieved: true
+- type: manifest
+  path: web_app/requirements.txt
+  blob_sha: e9d497793a9e33334d6dc46e68c8509acfbc8e18
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 1192511
+    Shell: 24146
+    Dockerfile: 2655
+- type: Git tree
+  status: captured
+  sha: 67368eca4b7c92481b07245c61ca2c77152271da
+  truncated: false
+- type: source_file
+  path: dbinfer/main.py
+  blob_sha: 037393cd3a94701ff5bbaf3b76f9396506ead10d
+  retrieved: true
+- type: source_file
+  path: multi-table-benchmark/dbinfer/main.py
+  blob_sha: 037393cd3a94701ff5bbaf3b76f9396506ead10d
+  retrieved: true
+- type: source_file
+  path: web_app/app.py
+  blob_sha: 5d2ae46a8d856e7af689ccbaefead376d34adbd0
+  retrieved: true
+- type: source_file
+  path: commands.sh
+  blob_sha: 7fea42f65558764d9560b67d308c003d48c124e6
+  retrieved: true

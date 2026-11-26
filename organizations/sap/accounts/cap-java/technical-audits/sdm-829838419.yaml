@@ -1,0 +1,315 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:17:03+00:00'
+evidence_fingerprint: 424e281ebb3f374f411c771a3aad330a71a3eea8ba6c1e64fea91f053b901bda
+repository_metadata:
+  company: SAP
+  account: cap-java
+  full_name: cap-java/sdm
+  repository_id: 829838419
+  url: https://github.com/cap-java/sdm
+  description: null
+  default_branch: develop
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-19T08:21:04Z'
+  stars: 1
+  readme_url: https://github.com/cap-java/sdm/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: e2bb94059ee2ad1af3a2f83adb05b4df0db0489b
+  manifest_paths:
+  - pom.xml
+  - deploy-oss/pom.xml
+  - sdm/pom.xml
+  - app/multi-tenant/central-space/cloud-cap-samples-java/package.json
+  - app/multi-tenant/central-space/cloud-cap-samples-java/pom.xml
+  - app/multi-tenant/personal-space/cloud-cap-samples-java/package.json
+  source_files_inspected:
+  - app/multi-tenant/central-space/cloud-cap-samples-java/app/vue/app.js
+  - app/multi-tenant/central-space/cloud-cap-samples-java/mtx/sidecar/server.js
+  - app/multi-tenant/central-space/cloud-cap-samples-java/srv/src/main/java/my/bookshop/Application.java
+  - app/multi-tenant/personal-space/cloud-cap-samples-java/app/vue/app.js
+  repository_tree:
+    status: captured
+    sha: 965db066954b90b22bd513ce2d88efff9cac2fcf
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The com.sap.cds:sdm dependency is a CAP Java plugin that provides an easy CAP-level integration with
+    SAP Document Management Service. This package supports handling of attachments(documents) by using an aspect
+    Attachments in SAP Document Management Service. This plugin can be consumed by the CAP application deployed
+    on BTP to store their documents in the form of attachments in Document Management Repository.
+  why_used: The com.sap.cds:sdm dependency is a CAP Java plugin that provides an easy CAP-level integration with
+    SAP Document Management Service. This package supports handling of attachments(documents) by using an aspect
+    Attachments in SAP Document Management Service. This plugin can be consumed by the CAP application deployed
+    on BTP to store their documents in the form of attachments in Document Management Repository.
+  core_features:
+  - name: 'Create attachment : Provides the capability to upload new attachments.'
+    description: 'Create attachment : Provides the capability to upload new attachments.'
+    evidence:
+    - README.md#Key features
+  - name: 'Read attachment : Provides the capability to preview attachments.'
+    description: 'Read attachment : Provides the capability to preview attachments.'
+    evidence:
+    - README.md#Key features
+  - name: 'Delete attachment : Provides the capability to remove attachments.'
+    description: 'Delete attachment : Provides the capability to remove attachments.'
+    evidence:
+    - README.md#Key features
+  - name: 'Rename attachment : Provides the capability to rename attachments.'
+    description: 'Rename attachment : Provides the capability to rename attachments.'
+    evidence:
+    - README.md#Key features
+  - name: 'Virus scanning : Provides the capability to support malware scan and Trend Micro scan for virus scan
+      enabled repositories.'
+    description: 'Virus scanning : Provides the capability to support malware scan and Trend Micro scan for virus
+      scan enabled repositories.'
+    evidence:
+    - README.md#Key features
+  - name: 'Draft functionality : Provides the capability of working with draft attachments.'
+    description: 'Draft functionality : Provides the capability of working with draft attachments.'
+    evidence:
+    - README.md#Key features
+  - name: 'Display attachments specific to repository: Lists attachments contained in the repository that is configured
+      with the CAP application.'
+    description: 'Display attachments specific to repository: Lists attachments contained in the repository that
+      is configured with the CAP application.'
+    evidence:
+    - README.md#Key features
+  - name: 'Custom properties : Provides the capability to define custom properties for attachments.'
+    description: 'Custom properties : Provides the capability to define custom properties for attachments.'
+    evidence:
+    - README.md#Key features
+  - name: 'Maximum allowed uploads: Provides the capability to define the maximum number of uploads allowed for
+      the user. Automatically disables the upload button in the U'
+    description: 'Maximum allowed uploads: Provides the capability to define the maximum number of uploads allowed
+      for the user. Automatically disables the upload button in the UI when the limit is reached.'
+    evidence:
+    - README.md#Key features
+  - name: 'Maximum file size: Provides the capability to specify the maximum file size for attachments.'
+    description: 'Maximum file size: Provides the capability to specify the maximum file size for attachments.'
+    evidence:
+    - README.md#Key features
+  - name: 'Multiple attachment facets: Provides the capability to define multiple attachment facets/sections in
+      the CAP Entity.'
+    description: 'Multiple attachment facets: Provides the capability to define multiple attachment facets/sections
+      in the CAP Entity.'
+    evidence:
+    - README.md#Key features
+  - name: 'Technical user support: Provides the capability to consume the plugin using technical user.'
+    description: 'Technical user support: Provides the capability to consume the plugin using technical user.'
+    evidence:
+    - README.md#Key features
+  - name: 'Copy attachments: Provides the capability to copy attachments from one entity to another entity.'
+    description: 'Copy attachments: Provides the capability to copy attachments from one entity to another entity.'
+    evidence:
+    - README.md#Key features
+  - name: 'Link as attachments: Provides the capability to support link or URL as attachments.'
+    description: 'Link as attachments: Provides the capability to support link or URL as attachments.'
+    evidence:
+    - README.md#Key features
+  - name: 'Edit Link-type attachments: Provides the capability to update URL of link-type attachments.'
+    description: 'Edit Link-type attachments: Provides the capability to update URL of link-type attachments.'
+    evidence:
+    - README.md#Key features
+  technology_stack:
+    languages:
+    - Java
+    - CAP CDS
+    - Shell
+    - JavaScript
+    - HTML
+    - Rich Text Format
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/hana'
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - '@sap/cds-mtxs'
+    - assertj-core
+    - bcpkix-jdk18on
+    - bcprov-jdk18on
+    - bookshop-parent
+    - build-helper-maven-plugin
+    - byte-buddy
+    - byte-buddy-agent
+    - cache-api
+    - cds-feature-attachments
+    - cds-maven-plugin
+    - cds-services-api
+    - cds-services-bom
+    - cds-services-impl
+    - cds-starter-cloudfoundry
+    - central-publishing-maven-plugin
+    - checker-qual
+    - cloudplatform-core
+    - commons-codec
+    - commons-csv
+    - commons-io
+    - commons-lang3
+    - commons-logging
+    - connectivity-oauth
+    - ehcache
+    - emjapi-extension-sap-cp-jms
+    - env
+    - flatten-maven-plugin
+    - guava
+    - hamcrest-core
+    - httpasyncclient
+    - httpclient5
+    - httpcore-nio
+    - httpcore5
+    - httpcore5-h2
+    - httpmime
+    - jackson-annotations
+    - jackson-bom
+    - jackson-core
+    - jackson-databind
+    - jacoco-maven-plugin
+    - jakarta.jms-api
+    - java-access-api
+    - java-api
+    - java-bom
+    - java-core-api
+    - java-security
+    - jaxb-runtime
+    - json
+    - jsr305
+    - junit
+    - junit-jupiter-api
+    - kotlin-bom
+    - listenablefuture
+    - log4j-api
+    - logback-classic
+    - logback-core
+    - lombok
+    - maven-clean-plugin
+    - maven-compiler-plugin
+    - maven-dependency-plugin
+    - maven-deploy-plugin
+    - maven-enforcer-plugin
+    - maven-failsafe-plugin
+    - maven-gpg-plugin
+    - maven-install-plugin
+    - maven-javadoc-plugin
+    - maven-pmd-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - micrometer-bom
+    - mockito-bom
+    - mockito-core
+    - mockito-junit-jupiter
+    - mockwebserver
+    - netty-bom
+    - ngdbc
+    - nimbus-jose-jwt
+    - objenesis
+    - okhttp
+    - opentelemetry-api
+    - opentelemetry-bom
+    - reactor-core
+    - resilience4j
+    - rxjava
+    - sdk-bom
+    - sdk-modules-bom
+    - sdm
+    - sdm-root
+    - spotless-maven-plugin
+    - spring-boot-autoconfigure
+    - spring-boot-maven-plugin
+    - spring-boot-starter-parent
+    - spring-boot-starter-security
+    - spring-core
+    - spring-security-core
+    - spring-security-web
+    - spring-web
+    - token-client
+    - tomcat-embed-core
+    - tomcat-embed-el
+    - tomcat-embed-websocket
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: app/multi-tenant/central-space/cloud-cap-samples-java/app/vue/app.js,
+    app/multi-tenant/central-space/cloud-cap-samples-java/mtx/sidecar/server.js, app/multi-tenant/central-space/cloud-cap-samples-java/srv/src/main/java/my/bookshop/Application.java,
+    app/multi-tenant/personal-space/cloud-cap-samples-java/app/vue/app.js'
+  setup_and_usage:
+  - 'Usage Methods: 1. **A helper method to move attachments from one entity to another**'
+  - 'Usage Methods: The AttachmentService instance can be used to call moveAttachments method. This method expects
+    an object of MoveAttachmentInput which requires the source folder ID, target entity''s ID (up__Id), the attachments
+    facet name and the list of objectIds corresponding to attachments that are to be moved.'
+  - 'Usage Methods: String sourceFolderId = "source-folder-id";'
+  - 'Usage Methods: String up__ID = "123";'
+  - 'Usage Methods: List objectIds = ["abc", "xyz"];'
+  - 'Usage Methods: String facet = "AdminService.Books.attachments"'
+  - 'Usage Methods: boolean isSystemUser = false;'
+  - 'Usage Methods: var moveEventInput = new MoveAttachmentInput('
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-java/sdm/blob/develop/README.md
+  path: README.md
+  blob_sha: e2bb94059ee2ad1af3a2f83adb05b4df0db0489b
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: 2687ff68c00c3f10d5a57251250dcdef16dfdeeb
+  retrieved: true
+- type: manifest
+  path: deploy-oss/pom.xml
+  blob_sha: 3439abe10f17eb19f7db2ab265ca440132979f74
+  retrieved: true
+- type: manifest
+  path: sdm/pom.xml
+  blob_sha: 42d4fc8c4a61a9b785ff3802b714fdc75ad3fd92
+  retrieved: true
+- type: manifest
+  path: app/multi-tenant/central-space/cloud-cap-samples-java/package.json
+  blob_sha: 1a49eaa19192e68e2f1275d6ad38be10027f9e50
+  retrieved: true
+- type: manifest
+  path: app/multi-tenant/central-space/cloud-cap-samples-java/pom.xml
+  blob_sha: 549e0e329d0b863962b3a51f6baad5c87d880ac2
+  retrieved: true
+- type: manifest
+  path: app/multi-tenant/personal-space/cloud-cap-samples-java/package.json
+  blob_sha: 1a49eaa19192e68e2f1275d6ad38be10027f9e50
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 3244678
+    CAP CDS: 318888
+    Shell: 68966
+    JavaScript: 51004
+    HTML: 31588
+    Rich Text Format: 401
+- type: Git tree
+  status: captured
+  sha: 965db066954b90b22bd513ce2d88efff9cac2fcf
+  truncated: false
+- type: source_file
+  path: app/multi-tenant/central-space/cloud-cap-samples-java/app/vue/app.js
+  blob_sha: 8b4a6f0528262c7feda32e9aa08d031d99a77c3f
+  retrieved: true
+- type: source_file
+  path: app/multi-tenant/central-space/cloud-cap-samples-java/mtx/sidecar/server.js
+  blob_sha: b331c9e9495d1036baebbcee5a22c65687cc7e6a
+  retrieved: true
+- type: source_file
+  path: app/multi-tenant/central-space/cloud-cap-samples-java/srv/src/main/java/my/bookshop/Application.java
+  blob_sha: d4ab598c7743e375a31c47cbd7a1ff1b72d36550
+  retrieved: true
+- type: source_file
+  path: app/multi-tenant/personal-space/cloud-cap-samples-java/app/vue/app.js
+  blob_sha: 8b4a6f0528262c7feda32e9aa08d031d99a77c3f
+  retrieved: true

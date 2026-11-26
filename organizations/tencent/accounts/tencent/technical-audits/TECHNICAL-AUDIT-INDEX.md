@@ -1,10 +1,10 @@
 # Technical audits — tencent
 
-Updated: 2026-11-25T23:09:22+00:00
+Updated: 2026-11-26T07:22:01+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 12
 
 ## Repository dossiers
 
@@ -17,5 +17,8 @@ Updated: 2026-11-25T23:09:22+00:00
 | ai-infra-guard-908108028 | evidence_only | [ai-infra-guard-908108028.md](ai-infra-guard-908108028.md) | [ai-infra-guard-908108028.yaml](ai-infra-guard-908108028.yaml) |
 | aicgseceval-1015741629 | evidence_only | [aicgseceval-1015741629.md](aicgseceval-1015741629.md) | [aicgseceval-1015741629.yaml](aicgseceval-1015741629.yaml) |
 | ailightgame-1288038160 | evidence_only | [ailightgame-1288038160.md](ailightgame-1288038160.md) | [ailightgame-1288038160.yaml](ailightgame-1288038160.yaml) |
+| anchornavpage-1434083790 | evidence_only | [anchornavpage-1434083790.md](anchornavpage-1434083790.md) | [anchornavpage-1434083790.yaml](anchornavpage-1434083790.yaml) |
+| angelslim-1013493454 | evidence_only | [angelslim-1013493454.md](angelslim-1013493454.md) | [angelslim-1013493454.yaml](angelslim-1013493454.yaml) |
+| angelspec-1309681855 | evidence_only | [angelspec-1309681855.md](angelspec-1309681855.md) | [angelspec-1309681855.yaml](angelspec-1309681855.yaml) |
 | apex-sql-project-1241975714 | evidence_only | [apex-sql-project-1241975714.md](apex-sql-project-1241975714.md) | [apex-sql-project-1241975714.yaml](apex-sql-project-1241975714.yaml) |
 | github-1010860903 | evidence_only | [github-1010860903.md](github-1010860903.md) | [github-1010860903.yaml](github-1010860903.yaml) |

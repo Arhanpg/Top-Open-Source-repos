@@ -1,0 +1,90 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:01:00+00:00'
+evidence_fingerprint: 0d508183c5bbfd7f3dce5871592b06807cc9a1b28d80daf69736166f83c929ef
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/f1tenth_system
+  repository_id: 650424906
+  url: https://github.com/NVIDIA-ISAAC-ROS/f1tenth_system
+  description: Drivers and system level code for the F1TENTH vehicles
+  default_branch: foxy-devel
+  license_spdx: null
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2023-06-08T02:07:09Z'
+  stars: 1
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/f1tenth_system/blob/foxy-devel/README.md
+  readme_path: README.md
+  readme_sha: ffc69eab1c42b3352caccf0a0dc0ed654227203c
+  manifest_paths:
+  - f1tenth_stack/setup.py
+  source_files_inspected:
+  - f1tenth_stack/f1tenth_stack/tf_publisher.py
+  - f1tenth_stack/f1tenth_stack/throttle_interpolator.py
+  - f1tenth_stack/launch/bringup_launch.py
+  repository_tree:
+    status: captured
+    sha: 736b6d01264393bbd4517a9cde86d49b9986a76f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Drivers onboard f1tenth race cars. This branch is under development for migration to ROS2. See the documentation
+    of F1TENTH on how to get started.
+  why_used: Drivers and system level code for the F1TENTH vehicles
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: f1tenth_stack/f1tenth_stack/__init__.py,
+    f1tenth_stack/f1tenth_stack/tf_publisher.py, f1tenth_stack/f1tenth_stack/throttle_interpolator.py, f1tenth_stack/launch/bringup_launch.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/f1tenth_system/blob/foxy-devel/README.md
+  path: README.md
+  blob_sha: ffc69eab1c42b3352caccf0a0dc0ed654227203c
+  retrieved: true
+- type: manifest
+  path: f1tenth_stack/setup.py
+  blob_sha: c5a999283960a323f185213be481084ee7bd16f6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 15759
+    Shell: 781
+- type: Git tree
+  status: captured
+  sha: 736b6d01264393bbd4517a9cde86d49b9986a76f
+  truncated: false
+- type: source_file
+  path: f1tenth_stack/f1tenth_stack/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: f1tenth_stack/f1tenth_stack/tf_publisher.py
+  blob_sha: 574e21493b30dcfacad385533ee565583920bbb8
+  retrieved: true
+- type: source_file
+  path: f1tenth_stack/f1tenth_stack/throttle_interpolator.py
+  blob_sha: f8c63148bd86516d65c253e26cee12dd0ef69531
+  retrieved: true
+- type: source_file
+  path: f1tenth_stack/launch/bringup_launch.py
+  blob_sha: 239b731b217c9556ecdda17622db150a09824ef5
+  retrieved: true

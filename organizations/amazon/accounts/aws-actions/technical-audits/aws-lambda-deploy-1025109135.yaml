@@ -1,0 +1,114 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:19:58+00:00'
+evidence_fingerprint: 3b177ae9dadd2e1a5683ab65acb0d88fb43ef95db9caadb62b28a9a664f05e1f
+repository_metadata:
+  company: Amazon
+  account: aws-actions
+  full_name: aws-actions/aws-lambda-deploy
+  repository_id: 1025109135
+  url: https://github.com/aws-actions/aws-lambda-deploy
+  description: Deploys a Lambda function.
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-13T20:56:55Z'
+  stars: 271
+  readme_url: https://github.com/aws-actions/aws-lambda-deploy/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 6ee0ff0f14faea33bd856aa32faca18c7c5976ab
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - index.js
+  - .eslintrc.js
+  - __tests__/code_artifacts.test.js
+  - __tests__/container_image_support.test.js
+  repository_tree:
+    status: captured
+    sha: 315b9f044d69af5700356e81ae3df3e3326466a5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Updates the code and configuration of AWS Lambda functions as part of GitHub Actions workflow steps.
+    Supports both .zip file archives and container images stored in Amazon ECR.
+  why_used: Deploys a Lambda function.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@actions/github'
+    - '@aws-sdk/client-lambda'
+    - '@aws-sdk/client-s3'
+    - '@aws-sdk/client-sts'
+    - '@aws-sdk/util-retry'
+    - '@smithy/node-http-handler'
+    - '@vercel/ncc'
+    - adm-zip
+    - eslint
+    - eslint-plugin-jest
+    - glob
+    - jest
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: index.js, .eslintrc.js,
+    __tests__/code_artifacts.test.js, __tests__/container_image_support.test.js'
+  setup_and_usage:
+  - 'Usage: name: Deploy to AWS Lambda'
+  - 'Usage: id-token: write # This is required for OIDC authentication'
+  - 'Usage: contents: read # This is required to checkout the repository'
+  - 'Usage: runs-on: ubuntu-latest'
+  - 'Usage: environment: production'
+  - 'Usage: uses: actions/checkout@v5'
+  - 'Usage: - name: Configure AWS credentials'
+  - 'Usage: uses: aws-actions/configure-aws-credentials@v4'
+  limitations:
+  - 'Security Disclosures: If you would like to report a potential security issue in this project, please'
+  - 'Security Disclosures: do not create a GitHub issue. Instead, please follow the instructions'
+  - 'Security Disclosures: security directly](mailto:aws-security@amazon.com).'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-actions/aws-lambda-deploy/blob/main/README.md
+  path: README.md
+  blob_sha: 6ee0ff0f14faea33bd856aa32faca18c7c5976ab
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 6f22b538f32de1892792f7723fd3b285fb1f4534
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 259941
+- type: Git tree
+  status: captured
+  sha: 315b9f044d69af5700356e81ae3df3e3326466a5
+  truncated: false
+- type: source_file
+  path: index.js
+  blob_sha: 686c883d553309d3c86207732423a7c1e0423b8e
+  retrieved: true
+- type: source_file
+  path: .eslintrc.js
+  blob_sha: 74822c8e712fa4377c3f9fa0f24856ce2f110e56
+  retrieved: true
+- type: source_file
+  path: __tests__/code_artifacts.test.js
+  blob_sha: 8acd559878040cef3924d79aa65ccf622f2b74d6
+  retrieved: true
+- type: source_file
+  path: __tests__/container_image_support.test.js
+  blob_sha: 505dc4e56fde483c9e827db603558582df93d2d7
+  retrieved: true

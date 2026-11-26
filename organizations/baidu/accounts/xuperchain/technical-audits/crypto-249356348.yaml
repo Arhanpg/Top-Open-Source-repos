@@ -1,0 +1,116 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:59:56+00:00'
+evidence_fingerprint: 624610cc6aaca9a7518b3523261b13ea354494733967cc4dac5d4392cbbb9c99
+repository_metadata:
+  company: Baidu
+  account: xuperchain
+  full_name: xuperchain/crypto
+  repository_id: 249356348
+  url: https://github.com/xuperchain/crypto
+  description: This project is the crypto library for XuperChain. Ring signature, multi signature, schnorr signature,
+    secret share, hierarchical deterministic encryption, threshold signature scheme(tss schnorr) , bls signature
+    have been supported.目前开源部分已经支持了Xuper统一超级签名算法、Schnorr签名，环签名、多重签名，tss(schnorr)门限签名，BLS签名等多种签名算法。也支持了秘密分享、分层确定性加解密等多种密码学能力。
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-07-28T04:09:13Z'
+  stars: 65
+  readme_url: https://github.com/xuperchain/crypto/blob/master/README.md
+  readme_path: README.md
+  readme_sha: d5eff20f98f052f15e3796fd06859c794487c709
+  manifest_paths:
+  - go.mod
+  - Makefile
+  source_files_inspected:
+  - core/account/address.go
+  - core/account/filekey.go
+  - core/account/jsonkey.go
+  - core/account/sharekey.go
+  repository_tree:
+    status: captured
+    sha: d144cda9bc5fe1edfe8ca5f304b2f440e373ad8b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This project is the crypto library for XuperChain.
+  why_used: This project is the crypto library for XuperChain. Ring signature, multi signature, schnorr signature,
+    secret share, hierarchical deterministic encryption, threshold signature scheme(tss schnorr) , bls signature
+    have been supported.目前开源部分已经支持了Xuper统一超级签名算法、Schnorr签名，环签名、多重签名，tss(schnorr)门限签名，BLS签名等多种签名算法。也支持了秘密分享、分层确定性加解密等多种密码学能力。
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Makefile
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/blang/semver/v4
+    - github.com/consensys/bavard
+    - github.com/consensys/gnark
+    - github.com/consensys/gnark-crypto
+    - github.com/fxamacker/cbor/v2
+    - github.com/google/pprof
+    - github.com/mattn/go-colorable
+    - github.com/mattn/go-isatty
+    - github.com/mmcloughlin/addchain
+    - github.com/rs/zerolog
+    - github.com/x448/float16
+    - golang.org/x/crypto
+    - golang.org/x/sys
+    - rsc.io/tmplfunc
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: core/account/address.go,
+    core/account/filekey.go, core/account/jsonkey.go, core/account/sharekey.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/xuperchain/crypto/blob/master/README.md
+  path: README.md
+  blob_sha: d5eff20f98f052f15e3796fd06859c794487c709
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: b70b950c96ac49a6e4787e31165027cb1e55d021
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: d21637661d3ca49b9b9d13f5be8d1ecd252daf2d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 674799
+    Makefile: 391
+    Shell: 382
+- type: Git tree
+  status: captured
+  sha: d144cda9bc5fe1edfe8ca5f304b2f440e373ad8b
+  truncated: false
+- type: source_file
+  path: core/account/address.go
+  blob_sha: a56ab8eed1b19e9eab6a6a5e808ca3e602ea9068
+  retrieved: true
+- type: source_file
+  path: core/account/filekey.go
+  blob_sha: ab4fabdbf7e4013f6312ecb57b2bb154ea9cb883
+  retrieved: true
+- type: source_file
+  path: core/account/jsonkey.go
+  blob_sha: b939fe7d9912990139b957320cbb7426dbcfb0aa
+  retrieved: true
+- type: source_file
+  path: core/account/sharekey.go
+  blob_sha: 69fd7be30dee4c14d61b36527bceaacafd0dfb2a
+  retrieved: true

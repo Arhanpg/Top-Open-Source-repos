@@ -1,10 +1,10 @@
 # Technical audits — bottlerocket-os
 
-Updated: 2026-11-25T23:09:21+00:00
+Updated: 2026-11-26T07:22:01+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 13
 
 ## Repository dossiers
 
@@ -18,4 +18,8 @@ Updated: 2026-11-25T23:09:21+00:00
 | bottlerocket-ecs-updater-322691393 | evidence_only | [bottlerocket-ecs-updater-322691393.md](bottlerocket-ecs-updater-322691393.md) | [bottlerocket-ecs-updater-322691393.yaml](bottlerocket-ecs-updater-322691393.yaml) |
 | bottlerocket-kernel-kit-884539052 | evidence_only | [bottlerocket-kernel-kit-884539052.md](bottlerocket-kernel-kit-884539052.md) | [bottlerocket-kernel-kit-884539052.yaml](bottlerocket-kernel-kit-884539052.yaml) |
 | bottlerocket-project-website-525824226 | evidence_only | [bottlerocket-project-website-525824226.md](bottlerocket-project-website-525824226.md) | [bottlerocket-project-website-525824226.yaml](bottlerocket-project-website-525824226.yaml) |
+| bottlerocket-sdk-240619521 | evidence_only | [bottlerocket-sdk-240619521.md](bottlerocket-sdk-240619521.md) | [bottlerocket-sdk-240619521.yaml](bottlerocket-sdk-240619521.yaml) |
+| bottlerocket-settings-sdk-656847257 | evidence_only | [bottlerocket-settings-sdk-656847257.md](bottlerocket-settings-sdk-656847257.md) | [bottlerocket-settings-sdk-656847257.yaml](bottlerocket-settings-sdk-656847257.yaml) |
+| bottlerocket-test-system-381435140 | evidence_only | [bottlerocket-test-system-381435140.md](bottlerocket-test-system-381435140.md) | [bottlerocket-test-system-381435140.yaml](bottlerocket-test-system-381435140.yaml) |
+| bottlerocket-update-operator-240619080 | evidence_only | [bottlerocket-update-operator-240619080.md](bottlerocket-update-operator-240619080.md) | [bottlerocket-update-operator-240619080.yaml](bottlerocket-update-operator-240619080.yaml) |
 | github-246401776 | evidence_only | [github-246401776.md](github-246401776.md) | [github-246401776.yaml](github-246401776.yaml) |

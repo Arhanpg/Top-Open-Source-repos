@@ -1,0 +1,67 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:55:22+00:00'
+evidence_fingerprint: e83b984b0488f424685ce187767d85e9f058ae58bfec03e75e20e79bc8d6aa62
+repository_metadata:
+  company: Alphabet (Google)
+  account: google
+  full_name: google/BucketServer
+  repository_id: 151745332
+  url: https://github.com/google/BucketServer
+  description: Serve GCS Bucket content anonymously from Windows, Linux and MacOS
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2018-10-05T16:49:16Z'
+  stars: 7
+  readme_url: https://github.com/google/BucketServer/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 111dc75965220c4db02ec212fef5a71757777bc5
+  manifest_paths: []
+  source_files_inspected:
+  - main.go
+  repository_tree:
+    status: captured
+    sha: 170ec07fd0b76883a7c8a52b9f021ad7f54ea7b8
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Serve GCS Bucket content anonymously
+  why_used: Serve GCS Bucket content anonymously from Windows, Linux and MacOS
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: main.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google/BucketServer/blob/master/README.md
+  path: README.md
+  blob_sha: 111dc75965220c4db02ec212fef5a71757777bc5
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 2292
+- type: Git tree
+  status: captured
+  sha: 170ec07fd0b76883a7c8a52b9f021ad7f54ea7b8
+  truncated: false
+- type: source_file
+  path: main.go
+  blob_sha: 5bb5aa105467d1d1993a59ba4f08b0225baf7184
+  retrieved: true

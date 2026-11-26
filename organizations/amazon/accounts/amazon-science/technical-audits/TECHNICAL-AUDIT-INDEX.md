@@ -1,10 +1,10 @@
 # Technical audits — amazon-science
 
-Updated: 2026-11-25T23:09:21+00:00
+Updated: 2026-11-26T07:22:02+00:00
 
 ## Status counts
 
-- evidence_only: 10
+- evidence_only: 14
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -20,5 +20,9 @@ Updated: 2026-11-25T23:09:21+00:00
 | approximately-aligned-decoding-1071184657 | evidence_only | [approximately-aligned-decoding-1071184657.md](approximately-aligned-decoding-1071184657.md) | [approximately-aligned-decoding-1071184657.yaml](approximately-aligned-decoding-1071184657.yaml) |
 | atod-1376041039 | evidence_only | [atod-1376041039.md](atod-1376041039.md) | [atod-1376041039.yaml](atod-1376041039.yaml) |
 | autogda-efficient-grounding-verification-in-rag-935069903 | evidence_only | [autogda-efficient-grounding-verification-in-rag-935069903.md](autogda-efficient-grounding-verification-in-rag-935069903.md) | [autogda-efficient-grounding-verification-in-rag-935069903.yaml](autogda-efficient-grounding-verification-in-rag-935069903.yaml) |
+| automatic-table-to-graph-generation-938371770 | evidence_only | [automatic-table-to-graph-generation-938371770.md](automatic-table-to-graph-generation-938371770.md) | [automatic-table-to-graph-generation-938371770.yaml](automatic-table-to-graph-generation-938371770.yaml) |
+| automating-relational-machine-learning-1167127630 | evidence_only | [automating-relational-machine-learning-1167127630.md](automating-relational-machine-learning-1167127630.md) | [automating-relational-machine-learning-1167127630.yaml](automating-relational-machine-learning-1167127630.yaml) |
 | aws-swing-571593771 | evidence_only | [aws-swing-571593771.md](aws-swing-571593771.md) | [aws-swing-571593771.yaml](aws-swing-571593771.yaml) |
+| bopro-iclr-2025-940306804 | evidence_only | [bopro-iclr-2025-940306804.md](bopro-iclr-2025-940306804.md) | [bopro-iclr-2025-940306804.yaml](bopro-iclr-2025-940306804.yaml) |
+| byokg-naacl24-780143645 | evidence_only | [byokg-naacl24-780143645.md](byokg-naacl24-780143645.md) | [byokg-naacl24-780143645.yaml](byokg-naacl24-780143645.yaml) |
 | github-291827029 | insufficient_evidence | [github-291827029.md](github-291827029.md) | [github-291827029.yaml](github-291827029.yaml) |

@@ -6,7 +6,7 @@
 - Default branch: main
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-25T22:45:36+00:00
+- Generated: 2026-11-26T07:13:57+00:00
 
 ## Project purpose
 
@@ -22,7 +22,7 @@ No separately supported feature list extracted.
 
 ## Technology stack
 
-- Languages: Unknown / not established
+- Languages: Python, JavaScript
 - Frameworks/libraries: Unknown / not established
 - Dependency names: arnparse, aws-lambda-powertools, boto3, boto3-stubs, click, colorama, cryptography, dataclasses-json, injector, pyyaml, questionary, retry, rich
 - Build/package tools: Python project manifest
@@ -50,7 +50,7 @@ Architecture is not interpreted in evidence-only mode. Sampled source files: src
 - Manifests: pyproject.toml
 - Sampled source files: src/aws_idr_customer_cli/main.py, src/aws_idr_customer_cli/clients/ec2.py
 - Git tree state: captured
-- Evidence fingerprint: 42cf1000cfe09c581c5a25897ac99da5e3b1cb365a81380713b56cb00ad5ae78
+- Evidence fingerprint: 4437ee37a9524c92e561d5a0207770933a592832249d9fd8b23c9c5d536a0f47
 
 ## Unverified / unknown
 

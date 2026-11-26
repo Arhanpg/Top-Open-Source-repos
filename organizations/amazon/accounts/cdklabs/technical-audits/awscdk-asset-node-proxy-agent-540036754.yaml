@@ -1,0 +1,131 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:06:28+00:00'
+evidence_fingerprint: c51652e48197f6267e8113dba781e16575a791a31b964d668f791a629b2216b7
+repository_metadata:
+  company: Amazon
+  account: cdklabs
+  full_name: cdklabs/awscdk-asset-node-proxy-agent
+  repository_id: 540036754
+  url: https://github.com/cdklabs/awscdk-asset-node-proxy-agent
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T00:33:38Z'
+  stars: 0
+  readme_url: https://github.com/cdklabs/awscdk-asset-node-proxy-agent/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4d6f984a3511b8d29cf371fdedaeec72972b4822
+  manifest_paths:
+  - package.json
+  - layer/Dockerfile
+  - layer/package.json
+  source_files_inspected:
+  - src/index.ts
+  - src/node-proxy-agent-layer.ts
+  - .projenrc.ts
+  - layer/build.sh
+  repository_tree:
+    status: captured
+    sha: a51027b37607b74d26f6977f40c1354deb8c1720
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '---'
+  why_used: '---'
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Dockerfile
+    - Shell
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-cdk/integ-runner'
+    - '@aws-cdk/integ-tests-alpha'
+    - '@stylistic/eslint-plugin'
+    - '@types/jest'
+    - '@types/node'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - aws-cdk-lib
+    - cdklabs-projen-project-types
+    - commit-and-tag-version
+    - constructs
+    - eslint
+    - eslint-import-resolver-typescript
+    - eslint-plugin-import
+    - jest
+    - jest-junit
+    - jsii
+    - jsii-diff
+    - jsii-pacmak
+    - jsii-rosetta
+    - projen
+    - proxy-agent
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/index.ts, src/node-proxy-agent-layer.ts,
+    .projenrc.ts, layer/build.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cdklabs/awscdk-asset-node-proxy-agent/blob/main/README.md
+  path: README.md
+  blob_sha: 4d6f984a3511b8d29cf371fdedaeec72972b4822
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: bc2efe6def5038b32e4f0906e857377450ee3d3f
+  retrieved: true
+- type: manifest
+  path: layer/Dockerfile
+  blob_sha: 1cee17a73e3e4a9c6cc85efd7363d2190040d322
+  retrieved: true
+- type: manifest
+  path: layer/package.json
+  blob_sha: 642ab1e700a049f2f3355cd112aa99e2e8858112
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 5434
+    Dockerfile: 501
+    Shell: 446
+    JavaScript: 105
+- type: Git tree
+  status: captured
+  sha: a51027b37607b74d26f6977f40c1354deb8c1720
+  truncated: false
+- type: source_file
+  path: src/index.ts
+  blob_sha: e18d71d317dcea1d088f74946472885295c83b26
+  retrieved: true
+- type: source_file
+  path: src/node-proxy-agent-layer.ts
+  blob_sha: f4f3d54fce2c70dc9adf4a0dc71088db69fb89de
+  retrieved: true
+- type: source_file
+  path: .projenrc.ts
+  blob_sha: 7cd4ae32755982cd7016292b4cdd8e65e35a86ee
+  retrieved: true
+- type: source_file
+  path: layer/build.sh
+  blob_sha: 6bcf03c90fdda52416aa163723fec3a3215444ea
+  retrieved: true

@@ -1,0 +1,104 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:19:03+00:00'
+evidence_fingerprint: 88fd3b0ff9d4dbda8798177ad68819d453609c0467473167cee357a6cfbbf239
+repository_metadata:
+  company: Alphabet (Google)
+  account: google-gemini
+  full_name: google-gemini/crewai-quickstart
+  repository_id: 1002698252
+  url: https://github.com/google-gemini/crewai-quickstart
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-08-19T07:33:31Z'
+  stars: 66
+  readme_url: https://github.com/google-gemini/crewai-quickstart/blob/main/README.md
+  readme_path: README.md
+  readme_sha: aec06abc441a0a85e994744d66b1a9a947a44101
+  manifest_paths:
+  - Dockerfile
+  - pyproject.toml
+  source_files_inspected:
+  - src/github_resume_generator/main.py
+  - src/api/service.py
+  - src/github_resume_generator/crew.py
+  repository_tree:
+    status: captured
+    sha: b9882c76a528ad3e9e14d25a380b85c08876001b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Use the Gemini API and CrewAI to generate a CV/Resume from a GitHub profile, using CrewAI to manage a
+    crew of agents, and using the Gemini API with Google Search Grounding to research and write the content.
+  why_used: Use the Gemini API and CrewAI to generate a CV/Resume from a GitHub profile, using CrewAI to manage
+    a crew of agents, and using the Gemini API with Google Search Grounding to research and write the content.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - HTML
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - crewai
+    - fastapi
+    - uvicorn
+    build_and_package_tools:
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/github_resume_generator/main.py,
+    src/api/service.py, src/github_resume_generator/__init__.py, src/github_resume_generator/crew.py'
+  setup_and_usage:
+  - 'Installation: This project uses UV for Python dependency management and package handling.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google-gemini/crewai-quickstart/blob/main/README.md
+  path: README.md
+  blob_sha: aec06abc441a0a85e994744d66b1a9a947a44101
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 7dedf83101065f4c092074265f615971ce724d81
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 543aff79ea5ca58ebe27fc547c5af2f47bd86358
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 11105
+    HTML: 10865
+    Dockerfile: 509
+- type: Git tree
+  status: captured
+  sha: b9882c76a528ad3e9e14d25a380b85c08876001b
+  truncated: false
+- type: source_file
+  path: src/github_resume_generator/main.py
+  blob_sha: afb783f6c095674e92b081dfb380dfc8967a7f05
+  retrieved: true
+- type: source_file
+  path: src/api/service.py
+  blob_sha: bcbf8008bb7cbe5b9a42a778a511f1e849b304dc
+  retrieved: true
+- type: source_file
+  path: src/github_resume_generator/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: src/github_resume_generator/crew.py
+  blob_sha: d327983d2d388a1a1eae6e70c44b9c3f817b859a
+  retrieved: true

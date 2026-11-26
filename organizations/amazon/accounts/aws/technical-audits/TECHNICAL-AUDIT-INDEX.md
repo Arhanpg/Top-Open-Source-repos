@@ -1,10 +1,10 @@
 # Technical audits — aws
 
-Updated: 2026-11-25T23:09:24+00:00
+Updated: 2026-11-26T07:22:01+00:00
 
 ## Status counts
 
-- evidence_only: 6
+- evidence_only: 8
 - insufficient_evidence: 1
 - manual_reviewed: 1
 
@@ -20,3 +20,5 @@ Updated: 2026-11-25T23:09:24+00:00
 | github-171341606 | insufficient_evidence | [github-171341606.md](github-171341606.md) | [github-171341606.yaml](github-171341606.yaml) |
 | interconnect-1021739901 | evidence_only | [interconnect-1021739901.md](interconnect-1021739901.md) | [interconnect-1021739901.yaml](interconnect-1021739901.yaml) |
 | jobs-for-aws-iot-embedded-sdk-295881493 | evidence_only | [jobs-for-aws-iot-embedded-sdk-295881493.md](jobs-for-aws-iot-embedded-sdk-295881493.md) | [jobs-for-aws-iot-embedded-sdk-295881493.yaml](jobs-for-aws-iot-embedded-sdk-295881493.yaml) |
+| nitrotpm-tools-1046414684 | evidence_only | [nitrotpm-tools-1046414684.md](nitrotpm-tools-1046414684.md) | [nitrotpm-tools-1046414684.yaml](nitrotpm-tools-1046414684.yaml) |
+| sigv4-for-aws-iot-embedded-sdk-335474684 | evidence_only | [sigv4-for-aws-iot-embedded-sdk-335474684.md](sigv4-for-aws-iot-embedded-sdk-335474684.md) | [sigv4-for-aws-iot-embedded-sdk-335474684.yaml](sigv4-for-aws-iot-embedded-sdk-335474684.yaml) |

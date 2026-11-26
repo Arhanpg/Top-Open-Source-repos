@@ -1,0 +1,169 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:08:30+00:00'
+evidence_fingerprint: 8a8a7672777ade1857c96eaee273266d70c3054a02483d55f8b813a441f86836
+repository_metadata:
+  company: NVIDIA
+  account: ai-dynamo
+  full_name: ai-dynamo/frontend-crates
+  repository_id: 1237159425
+  url: https://github.com/ai-dynamo/frontend-crates
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T18:30:19Z'
+  stars: 31
+  readme_url: https://github.com/ai-dynamo/frontend-crates/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2abdbff2d4a6344ccd0988dd17ed1fb939e3b803
+  manifest_paths:
+  - Cargo.toml
+  - conformance/Cargo.toml
+  - decisions/Cargo.toml
+  - multimodal/Cargo.toml
+  - protocols/Cargo.toml
+  - renderer/Cargo.toml
+  source_files_inspected:
+  - conformance/publisher/src/lib.rs
+  - conformance/publisher/src/main.rs
+  - conformance/src/lib.rs
+  - decisions/src/lib.rs
+  repository_tree:
+    status: captured
+    sha: e4cbded7fe05ecba82326358f1a1bde7cced42f2
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Standalone Rust crates for building OpenAI/Anthropic-compatible inference servers, plus a small demo
+    wiring them together.
+  why_used: Standalone Rust crates for building OpenAI/Anthropic-compatible inference servers, plus a small demo
+    wiring them together.
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    - HTML
+    - Python
+    - JavaScript
+    - CSS
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - aho-corasick
+    - anyhow
+    - async-openai
+    - base64
+    - blake3
+    - chrono
+    - derive_builder
+    - dynamo-parsers
+    - dynamo-parsers-v2
+    - dynamo-protocols
+    - dynamo-renderer
+    - dynamo-tokenizers
+    - either
+    - futures
+    - gif
+    - image
+    - indexmap
+    - ipnet
+    - jsonschema
+    - matroska-demuxer
+    - memchr
+    - minijinja
+    - minijinja-contrib
+    - png
+    - rayon
+    - reqwest
+    - rubato
+    - rustfft
+    - serde
+    - serde_json
+    - serde_yaml
+    - sha2
+    - symphonia
+    - tempfile
+    - thiserror
+    - tokio
+    - tokio-test
+    - tracing
+    - turbojpeg
+    - url
+    - utoipa
+    - uuid
+    - xxhash-rust
+    build_and_package_tools:
+    - Cargo manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: conformance/publisher/src/lib.rs,
+    conformance/publisher/src/main.rs, conformance/src/lib.rs, decisions/src/lib.rs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ai-dynamo/frontend-crates/blob/main/README.md
+  path: README.md
+  blob_sha: 2abdbff2d4a6344ccd0988dd17ed1fb939e3b803
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: a007cfbb4ab60e9d44f95bddf6fd5b6a083c41cd
+  retrieved: true
+- type: manifest
+  path: conformance/Cargo.toml
+  blob_sha: 885a28df028e97c3a349cad75e06433e705b38d3
+  retrieved: true
+- type: manifest
+  path: decisions/Cargo.toml
+  blob_sha: e6c00811a7770353c0f3984200ddb5ee86612c26
+  retrieved: true
+- type: manifest
+  path: multimodal/Cargo.toml
+  blob_sha: 221550c617daefe291a9c633ae717ebb46ba5de9
+  retrieved: true
+- type: manifest
+  path: protocols/Cargo.toml
+  blob_sha: 3b1ec5d9f229cda8cdf8c1ef7bb1d0e495fa6cfd
+  retrieved: true
+- type: manifest
+  path: renderer/Cargo.toml
+  blob_sha: 4fc777f107d34f53d7da40ca19e48d7bdff681fe
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 9373977
+    HTML: 8863535
+    Python: 2946155
+    JavaScript: 751010
+    CSS: 98635
+    Shell: 15181
+- type: Git tree
+  status: captured
+  sha: e4cbded7fe05ecba82326358f1a1bde7cced42f2
+  truncated: false
+- type: source_file
+  path: conformance/publisher/src/lib.rs
+  blob_sha: 97c5028ade92d1e56fc3458d65d1a2be89295165
+  retrieved: true
+- type: source_file
+  path: conformance/publisher/src/main.rs
+  blob_sha: ca0b554dacac463719c21e5d64dea7c694875f62
+  retrieved: true
+- type: source_file
+  path: conformance/src/lib.rs
+  blob_sha: d3e6089ee2afa2704fb6dc20d991247d7855d3e0
+  retrieved: true
+- type: source_file
+  path: decisions/src/lib.rs
+  blob_sha: 5e465f3e4edc28e6a59b60dd093f01bd3682345e
+  retrieved: true

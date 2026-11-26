@@ -1,0 +1,112 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:16:39+00:00'
+evidence_fingerprint: df6ccb71604c5ba39e48eced7a470451ca13af1f37ea7ec01522115b40b1193a
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/greenwave_monitor
+  repository_id: 1062847444
+  url: https://github.com/NVIDIA-ISAAC-ROS/greenwave_monitor
+  description: ROS 2 Topic Monitoring
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-09-08T15:37:27Z'
+  stars: 265
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/greenwave_monitor/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e0f1160f22fb86d151a7275bddb57424004d382b
+  manifest_paths:
+  - greenwave_monitor/CMakeLists.txt
+  - greenwave_monitor_interfaces/CMakeLists.txt
+  source_files_inspected:
+  - greenwave_monitor/src/example_greenwave_publisher_main.cpp
+  - greenwave_monitor/src/example_greenwave_publisher_node.cpp
+  - greenwave_monitor/src/greenwave_monitor.cpp
+  - greenwave_monitor/src/greenwave_monitor_main.cpp
+  repository_tree:
+    status: captured
+    sha: 5d2570633bc3f9f919b956cc76d32f29abefdc08
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Greenwave monitor is a tool for runtime monitoring of ROS 2 topics.
+  why_used: ROS 2 Topic Monitoring
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - Shell
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: greenwave_monitor/src/example_greenwave_publisher_main.cpp,
+    greenwave_monitor/src/example_greenwave_publisher_node.cpp, greenwave_monitor/src/greenwave_monitor.cpp, greenwave_monitor/src/greenwave_monitor_main.cpp'
+  setup_and_usage:
+  - 'Installation: > **Note:** Make sure ROS_DISTRO is set to your ROS 2 distribution, for example by'
+  - 'Installation: > running source /opt/ros/ /setup.bash.'
+  - 'Installation: sudo apt install ros-${ROS_DISTRO}-greenwave-monitor'
+  - 'Installation: From source, for development:'
+  - 'Installation: git clone https://github.com/NVIDIA-ISAAC-ROS/greenwave_monitor.git'
+  - 'Installation: colcon build --packages-up-to greenwave_monitor'
+  - 'Installation: source install/setup.bash'
+  - 'Usage: Greenwave monitor provides a lightweight ncurses dashboard for monitoring topics. An optional rich TUI
+    (r2s integration) with additional features is also available as a separate package.'
+  limitations:
+  - 'Compatibility: Greenwave monitor is a standalone package tested on Humble, Iron, Jazzy, Lyrical, Kilted, and
+    Rolling ROS 2 releases, under Ubuntu 22.04, Ubuntu 24.04, and Ubuntu 26.04. It does not depend on Isaac ROS.
+    It does however play nicely with Isaac ROS NITROS diagnostics, see docs/DESIGN_AND_IMPLEMENTATION.md for more.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/greenwave_monitor/blob/main/README.md
+  path: README.md
+  blob_sha: e0f1160f22fb86d151a7275bddb57424004d382b
+  retrieved: true
+- type: manifest
+  path: greenwave_monitor/CMakeLists.txt
+  blob_sha: 630f1e1658db1e826bbd493278023fb5b45fc95f
+  retrieved: true
+- type: manifest
+  path: greenwave_monitor_interfaces/CMakeLists.txt
+  blob_sha: 68b36918b4b8c44898e823571cee66574036aa21
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 101852
+    C++: 91923
+    Shell: 16122
+    CMake: 7477
+- type: Git tree
+  status: captured
+  sha: 5d2570633bc3f9f919b956cc76d32f29abefdc08
+  truncated: false
+- type: source_file
+  path: greenwave_monitor/src/example_greenwave_publisher_main.cpp
+  blob_sha: 8443dddfd0cb389f5ab4a2c5d890ccb9754faa95
+  retrieved: true
+- type: source_file
+  path: greenwave_monitor/src/example_greenwave_publisher_node.cpp
+  blob_sha: 5f2201affb04f9611bd3511b510a39c82689d4ca
+  retrieved: true
+- type: source_file
+  path: greenwave_monitor/src/greenwave_monitor.cpp
+  blob_sha: ff8a92452900f59c4a49fe7cdd55de282e70e4e1
+  retrieved: true
+- type: source_file
+  path: greenwave_monitor/src/greenwave_monitor_main.cpp
+  blob_sha: edf9aa12d8b1e7d12be1088a3abae76c6ce277f0
+  retrieved: true

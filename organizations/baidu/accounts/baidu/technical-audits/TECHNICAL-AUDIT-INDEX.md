@@ -1,10 +1,10 @@
 # Technical audits — baidu
 
-Updated: 2026-11-25T23:09:22+00:00
+Updated: 2026-11-26T07:22:01+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 12
 
 ## Repository dossiers
 
@@ -18,4 +18,7 @@ Updated: 2026-11-25T23:09:22+00:00
 | carbongraph-452175796 | evidence_only | [carbongraph-452175796.md](carbongraph-452175796.md) | [carbongraph-452175796.yaml](carbongraph-452175796.yaml) |
 | cup-31452813 | evidence_only | [cup-31452813.md](cup-31452813.md) | [cup-31452813.yaml](cup-31452813.yaml) |
 | curve-107930664 | evidence_only | [curve-107930664.md](curve-107930664.md) | [curve-107930664.yaml](curve-107930664.yaml) |
+| ddparser-284605403 | evidence_only | [ddparser-284605403.md](ddparser-284605403.md) | [ddparser-284605403.yaml](ddparser-284605403.yaml) |
+| dialogue-149082884 | evidence_only | [dialogue-149082884.md](dialogue-149082884.md) | [dialogue-149082884.yaml](dialogue-149082884.yaml) |
+| dureader-110076861 | evidence_only | [dureader-110076861.md](dureader-110076861.md) | [dureader-110076861.yaml](dureader-110076861.yaml) |
 | github-1009597798 | evidence_only | [github-1009597798.md](github-1009597798.md) | [github-1009597798.yaml](github-1009597798.yaml) |

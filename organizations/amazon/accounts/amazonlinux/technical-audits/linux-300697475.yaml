@@ -1,0 +1,161 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:56:14+00:00'
+evidence_fingerprint: 6064531a414c1ac9eb72b585e2ecbecb42be71623e9ad0687351d59e47da6c64
+repository_metadata:
+  company: Amazon
+  account: amazonlinux
+  full_name: amazonlinux/linux
+  repository_id: 300697475
+  url: https://github.com/amazonlinux/linux
+  description: Linux kernel stable tree mirror
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2026-11-23T16:00:09Z'
+  stars: 79
+  readme_url: https://github.com/amazonlinux/linux/blob/master/README
+  readme_path: README
+  readme_sha: 010c587224224ba1254657b42b091a6c62c39e92
+  manifest_paths:
+  - Makefile
+  - block/Makefile
+  - certs/Makefile
+  - crypto/Makefile
+  - Documentation/Makefile
+  - drivers/Makefile
+  source_files_inspected:
+  - drivers/net/ethernet/mellanox/mlx5/core/main.c
+  - arch/alpha/boot/main.c
+  - arch/loongarch/kvm/main.c
+  - arch/powerpc/boot/main.c
+  repository_tree:
+    status: captured
+    sha: f7f02239c74a4579cfd1355c3bbad8879c97dc96
+    truncated: true
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Linux kernel ============
+  why_used: Linux kernel stable tree mirror
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - Assembly
+    - Rust
+    - Shell
+    - Python
+    - Makefile
+    - Perl
+    - C++
+    - SmPL
+    - Yacc
+    - Roff
+    - Awk
+    - Lex
+    - Jinja
+    - UnrealScript
+    - Gherkin
+    - Linker Script
+    - SWIG
+    - RPC
+    - M4
+    - Clojure
+    - MATLAB
+    - CSS
+    - CMake
+    - sed
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: drivers/net/ethernet/mellanox/mlx5/core/main.c,
+    arch/alpha/boot/main.c, arch/loongarch/kvm/main.c, arch/powerpc/boot/main.c'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazonlinux/linux/blob/master/README
+  path: README
+  blob_sha: 010c587224224ba1254657b42b091a6c62c39e92
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 9d5bfe5e0b43cc0a8915c8bbfec5c7b187d9b461
+  retrieved: true
+- type: manifest
+  path: block/Makefile
+  blob_sha: e7bd320e3d6971a8abf584f5de42776bb54e8216
+  retrieved: true
+- type: manifest
+  path: certs/Makefile
+  blob_sha: 3ee1960f9f4a59e0c27a94f433716e1a68e5ea1d
+  retrieved: true
+- type: manifest
+  path: crypto/Makefile
+  blob_sha: 33bb5ad595e8f51c5e769f2db9e54a0dedc940f9
+  retrieved: true
+- type: manifest
+  path: Documentation/Makefile
+  blob_sha: ee852afe9bb9985fd092d0b2c83213c46136ef48
+  retrieved: true
+- type: manifest
+  path: drivers/Makefile
+  blob_sha: 0841ea851847e8d3466b5459ee29d2a0efbe11c8
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 1482575114
+    Assembly: 9588059
+    Rust: 7259896
+    Shell: 6640296
+    Python: 5218732
+    Makefile: 3049411
+    Perl: 1119781
+    C++: 191265
+    SmPL: 186413
+    Yacc: 111756
+    Roff: 103428
+    Awk: 84736
+    Lex: 64812
+    Jinja: 36976
+    UnrealScript: 16071
+    Gherkin: 10903
+    Linker Script: 10068
+    SWIG: 6319
+    RPC: 4632
+    M4: 3329
+    Clojure: 2727
+    MATLAB: 2482
+    CSS: 1491
+    CMake: 495
+    sed: 379
+- type: Git tree
+  status: captured
+  sha: f7f02239c74a4579cfd1355c3bbad8879c97dc96
+  truncated: true
+- type: source_file
+  path: drivers/net/ethernet/mellanox/mlx5/core/main.c
+  blob_sha: 0439fcfb9ce571835048ed01ebe6d84a698b5fe5
+  retrieved: true
+- type: source_file
+  path: arch/alpha/boot/main.c
+  blob_sha: 22a1cb0264afe6397ef2598c107f88280b979d63
+  retrieved: true
+- type: source_file
+  path: arch/loongarch/kvm/main.c
+  blob_sha: c65ae2fa4c4b15080ca36bee304271b29e215ded
+  retrieved: true
+- type: source_file
+  path: arch/powerpc/boot/main.c
+  blob_sha: 2c0e2a1cab0122688d6b4883a45f464bae204f5f
+  retrieved: true

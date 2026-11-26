@@ -1,10 +1,10 @@
 # Technical audits — microsoftdocs
 
-Updated: 2026-11-25T23:09:22+00:00
+Updated: 2026-11-26T07:22:02+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 12
 
 ## Repository dossiers
 
@@ -18,4 +18,7 @@ Updated: 2026-11-25T23:09:22+00:00
 | azure-machinelearning-datascience-84980193 | evidence_only | [azure-machinelearning-datascience-84980193.md](azure-machinelearning-datascience-84980193.md) | [azure-machinelearning-datascience-84980193.yaml](azure-machinelearning-datascience-84980193.yaml) |
 | azure-maya-mystery-challenge-1-257689547 | evidence_only | [azure-maya-mystery-challenge-1-257689547.md](azure-maya-mystery-challenge-1-257689547.md) | [azure-maya-mystery-challenge-1-257689547.yaml](azure-maya-mystery-challenge-1-257689547.yaml) |
 | azure-maya-mystery-challenge-2-281763715 | evidence_only | [azure-maya-mystery-challenge-2-281763715.md](azure-maya-mystery-challenge-2-281763715.md) | [azure-maya-mystery-challenge-2-281763715.yaml](azure-maya-mystery-challenge-2-281763715.yaml) |
+| azure-maya-mystery-challenge-3-288285970 | evidence_only | [azure-maya-mystery-challenge-3-288285970.md](azure-maya-mystery-challenge-3-288285970.md) | [azure-maya-mystery-challenge-3-288285970.yaml](azure-maya-mystery-challenge-3-288285970.yaml) |
+| azure-sphere-developer-learning-path-260070854 | evidence_only | [azure-sphere-developer-learning-path-260070854.md](azure-sphere-developer-learning-path-260070854.md) | [azure-sphere-developer-learning-path-260070854.yaml](azure-sphere-developer-learning-path-260070854.yaml) |
+| azure-trusted-launch-vms-linux-851440285 | evidence_only | [azure-trusted-launch-vms-linux-851440285.md](azure-trusted-launch-vms-linux-851440285.md) | [azure-trusted-launch-vms-linux-851440285.yaml](azure-trusted-launch-vms-linux-851440285.yaml) |
 | github-194900040 | evidence_only | [github-194900040.md](github-194900040.md) | [github-194900040.yaml](github-194900040.yaml) |

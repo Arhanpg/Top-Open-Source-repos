@@ -1,0 +1,91 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:15:50+00:00'
+evidence_fingerprint: 905f0aacc5044be68657ca3c0819dec3f7bc432a1abec61d7fabaae8a3a24775
+repository_metadata:
+  company: Microsoft
+  account: dotnet
+  full_name: dotnet/Comet
+  repository_id: 192122815
+  url: https://github.com/dotnet/Comet
+  description: Comet is an MVU UIToolkit written in C#
+  default_branch: dev
+  license_spdx: MIT
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-12-07T08:29:01Z'
+  stars: 1664
+  readme_url: https://github.com/dotnet/Comet/blob/dev/README.md
+  readme_path: README.md
+  readme_sha: de5d327f49794681dbe3e828aff58d7b3697eda5
+  manifest_paths: []
+  source_files_inspected:
+  - src/Comet.SourceGenerator/AutoNotifyGenerator.cs
+  - src/Comet.SourceGenerator/CometViewSourceGenerator.cs
+  - src/Comet.SourceGenerator/StateWrapperGenerator.cs
+  - src/Comet.SourceGenerator/StringExtensions.cs
+  repository_tree:
+    status: captured
+    sha: 7afec25e2109a4036bedf4bb26967febe8b1a3ce
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Chat on Discord
+  why_used: Comet is an MVU UIToolkit written in C#
+  core_features: []
+  technology_stack:
+    languages:
+    - C#
+    - PowerShell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/Comet.SourceGenerator/AutoNotifyGenerator.cs,
+    src/Comet.SourceGenerator/CometViewSourceGenerator.cs, src/Comet.SourceGenerator/StateWrapperGenerator.cs, src/Comet.SourceGenerator/StringExtensions.cs'
+  setup_and_usage:
+  - 'Getting Started: When you''re ready to take a ride on the Comet, head over to the wiki and follow the Getting
+    Started guide.'
+  limitations:
+  - 'What platforms are supported?: Comet is developed on top of .NET MAUI handlers, providing its own implementation
+    for interfaces such as Microsoft.Maui.IButton and other controls. Any platform supported by .NET MAUI can be
+    targeted:'
+  - 'What platforms are supported?: Non-MAUI application models, such as UWP or WPF, are not supported.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/dotnet/Comet/blob/dev/README.md
+  path: README.md
+  blob_sha: de5d327f49794681dbe3e828aff58d7b3697eda5
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 518832
+    PowerShell: 1723
+- type: Git tree
+  status: captured
+  sha: 7afec25e2109a4036bedf4bb26967febe8b1a3ce
+  truncated: false
+- type: source_file
+  path: src/Comet.SourceGenerator/AutoNotifyGenerator.cs
+  blob_sha: 2eecb396376849f7076769e99d15199089fd1145
+  retrieved: true
+- type: source_file
+  path: src/Comet.SourceGenerator/CometViewSourceGenerator.cs
+  blob_sha: 446b039ca5e8670d4c6e84c5464943951c984356
+  retrieved: true
+- type: source_file
+  path: src/Comet.SourceGenerator/StateWrapperGenerator.cs
+  blob_sha: 38ec34fcfe850241d5ff9c2111a187d8ef41f139
+  retrieved: true
+- type: source_file
+  path: src/Comet.SourceGenerator/StringExtensions.cs
+  blob_sha: ab571be4c4bd3fff8e206604f57154ed20ef89f1
+  retrieved: true

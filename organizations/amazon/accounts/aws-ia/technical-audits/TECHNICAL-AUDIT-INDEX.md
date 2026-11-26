@@ -1,10 +1,10 @@
 # Technical audits — aws-ia
 
-Updated: 2026-11-25T23:09:24+00:00
+Updated: 2026-11-26T07:22:02+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 13
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -20,4 +20,8 @@ Updated: 2026-11-25T23:09:24+00:00
 | cfn-abi-deepwatch-mdr-621494914 | evidence_only | [cfn-abi-deepwatch-mdr-621494914.md](cfn-abi-deepwatch-mdr-621494914.md) | [cfn-abi-deepwatch-mdr-621494914.yaml](cfn-abi-deepwatch-mdr-621494914.yaml) |
 | cfn-abi-ibmsecurity-qradar-627052900 | evidence_only | [cfn-abi-ibmsecurity-qradar-627052900.md](cfn-abi-ibmsecurity-qradar-627052900.md) | [cfn-abi-ibmsecurity-qradar-627052900.yaml](cfn-abi-ibmsecurity-qradar-627052900.yaml) |
 | cfn-abi-lacework-polygraph-621441541 | evidence_only | [cfn-abi-lacework-polygraph-621441541.md](cfn-abi-lacework-polygraph-621441541.md) | [cfn-abi-lacework-polygraph-621441541.yaml](cfn-abi-lacework-polygraph-621441541.yaml) |
+| cfn-abi-spotbynetapp-cloudcheckr-630259239 | evidence_only | [cfn-abi-spotbynetapp-cloudcheckr-630259239.md](cfn-abi-spotbynetapp-cloudcheckr-630259239.md) | [cfn-abi-spotbynetapp-cloudcheckr-630259239.yaml](cfn-abi-spotbynetapp-cloudcheckr-630259239.yaml) |
+| cfn-abi-trend-cloudone-621161235 | evidence_only | [cfn-abi-trend-cloudone-621161235.md](cfn-abi-trend-cloudone-621161235.md) | [cfn-abi-trend-cloudone-621161235.yaml](cfn-abi-trend-cloudone-621161235.yaml) |
+| cfn-ia-rules-613975811 | evidence_only | [cfn-ia-rules-613975811.md](cfn-ia-rules-613975811.md) | [cfn-ia-rules-613975811.yaml](cfn-ia-rules-613975811.yaml) |
+| cfn-mp-ql-rules-782993084 | evidence_only | [cfn-mp-ql-rules-782993084.md](cfn-mp-ql-rules-782993084.md) | [cfn-mp-ql-rules-782993084.yaml](cfn-mp-ql-rules-782993084.yaml) |
 | github-411533239 | evidence_only | [github-411533239.md](github-411533239.md) | [github-411533239.yaml](github-411533239.yaml) |

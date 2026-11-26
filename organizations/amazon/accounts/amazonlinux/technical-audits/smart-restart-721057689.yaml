@@ -1,0 +1,103 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:12:04+00:00'
+evidence_fingerprint: 11871b103638431a6056c55e6f45993d6c7db061a39dc9dad0968deb6c68638f
+repository_metadata:
+  company: Amazon
+  account: amazonlinux
+  full_name: amazonlinux/smart-restart
+  repository_id: 721057689
+  url: https://github.com/amazonlinux/smart-restart
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-08-25T12:33:37Z'
+  stars: 8
+  readme_url: https://github.com/amazonlinux/smart-restart/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ccd950d64284a894dc0937f5e3187a8c840cc8f7
+  manifest_paths:
+  - Makefile
+  - tests/Makefile
+  source_files_inspected:
+  - bin/smart-restart.sh
+  repository_tree:
+    status: captured
+    sha: 79ecef160377922b613cae0bb911e5e6ccb5fb4c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This package restarts systemd services on system updates every time a package is updated (installed or
+    deleted) using the systems package mamanger (every time dnf {update, upgrade, downgrade} is executed). It primarily
+    is tailored for Amazon Linux 2023 but easily can be ported to all RPM based systems like Fedora. Smart-Restart
+    utilizes the needs-restarting package from dnf-utils and a custom denylisting mechanism to determine which services
+    need to be restarted and how to determine if a system reboot is advices. In case a system reboot is advised,
+    a reboot hint marker file is generated (/run/smart-restart/reboot-hint-marker) containing the services and other
+    components which require a restart.
+  why_used: This package restarts systemd services on system updates every time a package is updated (installed
+    or deleted) using the systems package mamanger (every time dnf {update, upgrade, downgrade} is executed). It
+    primarily is tailored for Amazon Linux 2023 but easily can be ported to all RPM based systems like Fedora. Smart-Restart
+    utilizes the needs-restarting package from dnf-utils and a custom denylisting mechanism to determine which services
+    need to be restarted and how to determine if a system reboot is advices. In case a system reboot is advised,
+    a reboot hint marker file is generated (/run/smart-restart/reboot-hint-marker) containing the services and other
+    components which require a restart.
+  core_features: []
+  technology_stack:
+    languages:
+    - Shell
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: bin/smart-restart.sh'
+  setup_and_usage:
+  - 'Manual installation: For now, manual installation of Smart-Restart supports AL2 and AL2023. The main reason
+    for the differentiation'
+  - 'Manual installation: is the package manager. AL2 mainly uses yum and AL2023 dnf. The following prequsites bring
+    the needs-restarting'
+  - 'Manual installation: script and the a package managers plugin which allows to hook into the different parts
+    of the package managers'
+  - 'Manual installation: installation process.'
+  - 'Installation: For dnf based systems:'
+  - 'Installation: sudo dnf install -y dnf-utils dnf-plugin-post-transaction-actions'
+  - 'Installation: For yum based systems:'
+  - 'Installation: sudo yum install -y yum-utils yum-plugin-post-transaction-actions'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazonlinux/smart-restart/blob/main/README.md
+  path: README.md
+  blob_sha: ccd950d64284a894dc0937f5e3187a8c840cc8f7
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 0b40f6f6e58dd9734155927602f7b8d659fe1de6
+  retrieved: true
+- type: manifest
+  path: tests/Makefile
+  blob_sha: 98bc2449afdc2ca21451f435b3c09dc9fde524f5
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Shell: 37728
+    Makefile: 1958
+- type: Git tree
+  status: captured
+  sha: 79ecef160377922b613cae0bb911e5e6ccb5fb4c
+  truncated: false
+- type: source_file
+  path: bin/smart-restart.sh
+  blob_sha: a7712dc32cf78c1692f01ecf9968b840215d7e74
+  retrieved: true

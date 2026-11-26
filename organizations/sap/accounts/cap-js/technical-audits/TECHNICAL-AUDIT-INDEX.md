@@ -1,10 +1,10 @@
 # Technical audits — cap-js
 
-Updated: 2026-11-25T23:09:25+00:00
+Updated: 2026-11-26T07:22:02+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 12
 - manual_reviewed: 1
 
 ## Repository dossiers
@@ -20,4 +20,7 @@ Updated: 2026-11-25T23:09:25+00:00
 | cap-operator-plugin-762314628 | evidence_only | [cap-operator-plugin-762314628.md](cap-operator-plugin-762314628.md) | [cap-operator-plugin-762314628.yaml](cap-operator-plugin-762314628.yaml) |
 | cds-dbs-639043217 | evidence_only | [cds-dbs-639043217.md](cds-dbs-639043217.md) | [cds-dbs-639043217.yaml](cds-dbs-639043217.yaml) |
 | cds-federation-synonyms-1285084649 | evidence_only | [cds-federation-synonyms-1285084649.md](cds-federation-synonyms-1285084649.md) | [cds-federation-synonyms-1285084649.yaml](cds-federation-synonyms-1285084649.yaml) |
+| cds-intellij-768115323 | evidence_only | [cds-intellij-768115323.md](cds-intellij-768115323.md) | [cds-intellij-768115323.yaml](cds-intellij-768115323.yaml) |
+| cds-test-935283881 | evidence_only | [cds-test-935283881.md](cds-test-935283881.md) | [cds-test-935283881.yaml](cds-test-935283881.yaml) |
+| cds-ts-extension-1425160817 | evidence_only | [cds-ts-extension-1425160817.md](cds-ts-extension-1425160817.md) | [cds-ts-extension-1425160817.yaml](cds-ts-extension-1425160817.yaml) |
 | github-565835524 | evidence_only | [github-565835524.md](github-565835524.md) | [github-565835524.yaml](github-565835524.yaml) |

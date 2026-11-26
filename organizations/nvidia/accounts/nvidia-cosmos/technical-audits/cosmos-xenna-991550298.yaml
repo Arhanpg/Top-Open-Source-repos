@@ -1,0 +1,140 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:16:31+00:00'
+evidence_fingerprint: 2b387dd7cbade8803cd285119a90dace1a81bf1fb060eb4093e91322eead12f4
+repository_metadata:
+  company: NVIDIA
+  account: nvidia-cosmos
+  full_name: nvidia-cosmos/cosmos-xenna
+  repository_id: 991550298
+  url: https://github.com/nvidia-cosmos/cosmos-xenna
+  description: Python library for building and running distributed data pipelines using Ray
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-09T16:30:55Z'
+  stars: 89
+  readme_url: https://github.com/nvidia-cosmos/cosmos-xenna/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 86a8663476b0c2bb2d33431afeae83312f345824
+  manifest_paths:
+  - Cargo.toml
+  - pyproject.toml
+  source_files_inspected:
+  - src/file_distribution/mod.rs
+  - src/lib.rs
+  - src/pipelines/mod.rs
+  - src/pipelines/private/mod.rs
+  repository_tree:
+    status: captured
+    sha: 9a5fee8ecf77ed2c9158105d7d1284e6a7b14ba0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> [!IMPORTANT] > ## 🚀 Cosmos 3 Has Arrived > > Cosmos 3 is NVIDIA''s next-generation foundation model
+    platform for Physical AI. Compared with Cosmos-Xenna, Cosmos 3 unifies reasoning, world prediction, simulation,
+    transfer, and action generation within a single model family and ecosystem. > > Rather than relying on separate
+    models for reasoning, prediction, transfer, and policy learning, a single Cosmos 3 model can understand the
+    world, reason about physical interactions, predict future outcomes, transform observations across domains, and
+    generate actions for embodied agents. This unified architecture enables stronger performance across a broad
+    range of Physical AI applications, including robotics, autonomous vehicles, and smart spaces. > > This repository
+    is no longer under active development and will receive only limited maintenance updates. Future model releases,
+    features, documentatio'
+  why_used: Python library for building and running distributed data pipelines using Ray
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Rust
+    frameworks_and_libraries: []
+    dependencies:
+    - approx
+    - attrs
+    - axum
+    - cattrs
+    - comfy-table
+    - crossbeam-channel
+    - env_logger
+    - fixed
+    - futures
+    - good_lp
+    - itertools
+    - jinja2
+    - log
+    - loguru
+    - object_store
+    - obstore
+    - portpicker
+    - pulp
+    - pyo3
+    - rand
+    - ray
+    - reqwest
+    - retry
+    - serde
+    - serde_json
+    - tabulate
+    - tempfile
+    - thiserror
+    - tokio
+    - tokio-retry
+    - url
+    - uuid
+    build_and_package_tools:
+    - Cargo manifest
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/file_distribution/mod.rs,
+    src/lib.rs, src/pipelines/mod.rs, src/pipelines/private/mod.rs'
+  setup_and_usage:
+  - 'Standalone Usage: You can also use the distributed download system independently, outside of a pipeline context:'
+  - 'Standalone Usage: from cosmos_xenna import file_distribution'
+  - 'Quick Start: For detailed examples, check out the examples/ directory.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/nvidia-cosmos/cosmos-xenna/blob/main/README.md
+  path: README.md
+  blob_sha: 86a8663476b0c2bb2d33431afeae83312f345824
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: efa956644555edee6cfb4460a62b15c04b473958
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: b0f1b8c50e59b45ecfa80f5e5fd0a42b5e6eeb50
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 1315110
+    Rust: 607464
+- type: Git tree
+  status: captured
+  sha: 9a5fee8ecf77ed2c9158105d7d1284e6a7b14ba0
+  truncated: false
+- type: source_file
+  path: src/file_distribution/mod.rs
+  blob_sha: 1679b03f9a09df84698de9d3a62b85d2342885a3
+  retrieved: true
+- type: source_file
+  path: src/lib.rs
+  blob_sha: 336b3c3a35055aac7b5b4c12c1033183292537cd
+  retrieved: true
+- type: source_file
+  path: src/pipelines/mod.rs
+  blob_sha: 8939250e97c8e5d3266ec201cae6c84646fb8ef1
+  retrieved: true
+- type: source_file
+  path: src/pipelines/private/mod.rs
+  blob_sha: eace4a989000484602c7d43fdf775718a3e9a899
+  retrieved: true

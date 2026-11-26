@@ -1,10 +1,10 @@
 # Technical audits — aws-actions
 
-Updated: 2026-11-25T23:09:22+00:00
+Updated: 2026-11-26T07:22:02+00:00
 
 ## Status counts
 
-- evidence_only: 10
+- evidence_only: 14
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -21,4 +21,8 @@ Updated: 2026-11-25T23:09:22+00:00
 | aws-cloudformation-github-deploy-248828679 | evidence_only | [aws-cloudformation-github-deploy-248828679.md](aws-cloudformation-github-deploy-248828679.md) | [aws-cloudformation-github-deploy-248828679.yaml](aws-cloudformation-github-deploy-248828679.yaml) |
 | aws-codebuild-run-build-232921110 | evidence_only | [aws-codebuild-run-build-232921110.md](aws-codebuild-run-build-232921110.md) | [aws-codebuild-run-build-232921110.yaml](aws-codebuild-run-build-232921110.yaml) |
 | aws-continuum-run-pentest-1346718761 | evidence_only | [aws-continuum-run-pentest-1346718761.md](aws-continuum-run-pentest-1346718761.md) | [aws-continuum-run-pentest-1346718761.yaml](aws-continuum-run-pentest-1346718761.yaml) |
+| aws-devicefarm-browser-testing-703756244 | evidence_only | [aws-devicefarm-browser-testing-703756244.md](aws-devicefarm-browser-testing-703756244.md) | [aws-devicefarm-browser-testing-703756244.yaml](aws-devicefarm-browser-testing-703756244.yaml) |
+| aws-devicefarm-mobile-device-testing-682682425 | evidence_only | [aws-devicefarm-mobile-device-testing-682682425.md](aws-devicefarm-mobile-device-testing-682682425.md) | [aws-devicefarm-mobile-device-testing-682682425.yaml](aws-devicefarm-mobile-device-testing-682682425.yaml) |
+| aws-elasticbeanstalk-deploy-1150080493 | evidence_only | [aws-elasticbeanstalk-deploy-1150080493.md](aws-elasticbeanstalk-deploy-1150080493.md) | [aws-elasticbeanstalk-deploy-1150080493.yaml](aws-elasticbeanstalk-deploy-1150080493.yaml) |
+| aws-lambda-deploy-1025109135 | evidence_only | [aws-lambda-deploy-1025109135.md](aws-lambda-deploy-1025109135.md) | [aws-lambda-deploy-1025109135.yaml](aws-lambda-deploy-1025109135.yaml) |
 | github-245025626 | insufficient_evidence | [github-245025626.md](github-245025626.md) | [github-245025626.yaml](github-245025626.yaml) |

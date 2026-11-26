@@ -1,0 +1,139 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:00:12+00:00'
+evidence_fingerprint: 2f25d2b87f4b16cd25405e0e713e573d25d71790971765e9b76d3fa5e71827c5
+repository_metadata:
+  company: Microsoft
+  account: dotnet
+  full_name: dotnet/ClangSharp
+  repository_id: 30737688
+  url: https://github.com/dotnet/ClangSharp
+  description: Clang bindings for .NET written in C#
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-14T23:01:49Z'
+  stars: 1269
+  readme_url: https://github.com/dotnet/ClangSharp/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 898fdf5ca5e3114a20ee8b62d52e150b19a8f90f
+  manifest_paths:
+  - CMakeLists.txt
+  - sources/CMakeLists.txt
+  - sources/libClangSharp/CMakeLists.txt
+  source_files_inspected:
+  - build.sh
+  - pack.sh
+  - restore.sh
+  - scripts/build.sh
+  repository_tree:
+    status: captured
+    sha: 20e8b87b886adb573f8f89bd68ddb0d589156c21
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ClangSharp provides Clang bindings written in C#. It is self-hosted and auto-generates itself by parsing
+    the Clang C header files using ClangSharpPInvokeGenerator.
+  why_used: Clang bindings for .NET written in C#
+  core_features:
+  - name: Auto-generated using Clang C headers files, and supports all functionality exposed by them ~ which means
+      you can build tooling around C/C++
+    description: Auto-generated using Clang C headers files, and supports all functionality exposed by them ~ which
+      means you can build tooling around C/C++
+    evidence:
+    - README.md#Features
+  - name: Exposes the raw unsafe API for performance
+    description: Exposes the raw unsafe API for performance
+    evidence:
+    - README.md#Features
+  - name: Exposes a slightly higher abstraction that is type safe (CXIndex and CXTranslationUnit are different types,
+      despite being pointers internally)
+    description: Exposes a slightly higher abstraction that is type safe (CXIndex and CXTranslationUnit are different
+      types, despite being pointers internally)
+    evidence:
+    - README.md#Features
+  - name: Exposes an again slightly higher abstraction that tries to mirror the Clang C++ Type Hierarchy where possible
+    description: Exposes an again slightly higher abstraction that tries to mirror the Clang C++ Type Hierarchy
+      where possible
+    evidence:
+    - README.md#Features
+  - name: Nearly identical to the Clang C APIs, e.g. clang_getDiagnosticSpelling in C, vs. clang.getDiagnosticSpelling
+      (notice the . in the C# API)
+    description: Nearly identical to the Clang C APIs, e.g. clang_getDiagnosticSpelling in C, vs. clang.getDiagnosticSpelling
+      (notice the . in the C# API)
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - C#
+    - C++
+    - C
+    - PowerShell
+    - Shell
+    - CMake
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: build.sh, pack.sh,
+    restore.sh, scripts/build.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/dotnet/ClangSharp/blob/main/README.md
+  path: README.md
+  blob_sha: 898fdf5ca5e3114a20ee8b62d52e150b19a8f90f
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: a0202e02e59266ff39fa0e7d35ada2b44e19b758
+  retrieved: true
+- type: manifest
+  path: sources/CMakeLists.txt
+  blob_sha: 6e1e5d538a90924d7edc85e26f66f06effdfff77
+  retrieved: true
+- type: manifest
+  path: sources/libClangSharp/CMakeLists.txt
+  blob_sha: f8158741da6540e21997966515bee4c5f236d9a4
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 3489408
+    C++: 302214
+    C: 58292
+    PowerShell: 22571
+    Shell: 20995
+    CMake: 5863
+    Batchfile: 664
+- type: Git tree
+  status: captured
+  sha: 20e8b87b886adb573f8f89bd68ddb0d589156c21
+  truncated: false
+- type: source_file
+  path: build.sh
+  blob_sha: 1beb45f43669ceb714f367fd047dfdd73adc6d0a
+  retrieved: true
+- type: source_file
+  path: pack.sh
+  blob_sha: 0a2f1b2e356ef9bc894f806edabb6feafee20264
+  retrieved: true
+- type: source_file
+  path: restore.sh
+  blob_sha: 6e95bb42f3b56db13c9c186e63d4c5d353061a51
+  retrieved: true
+- type: source_file
+  path: scripts/build.sh
+  blob_sha: c8e54f1028d7e1ab2e2eb9a99887b641a3e34269
+  retrieved: true

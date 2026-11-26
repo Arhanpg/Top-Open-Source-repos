@@ -1,0 +1,91 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:01:08+00:00'
+evidence_fingerprint: cd344b027ad5a6d0f2a895895a5dbe74ca62a9100af0c3e9097ed8a4f7c22867
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/ci-imgs
+  repository_id: 504062804
+  url: https://github.com/rapidsai/ci-imgs
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T20:13:16Z'
+  stars: 16
+  readme_url: https://github.com/rapidsai/ci-imgs/blob/main/README.md
+  readme_path: README.md
+  readme_sha: cf09cd4e26c94406052406c40144043c98ea8731
+  manifest_paths: []
+  source_files_inspected:
+  - ci/check-dockerfiles.py
+  - ci/compute-build-args.sh
+  - ci/compute-matrix.sh
+  - ci/create-multiarch-manifest.sh
+  repository_tree:
+    status: captured
+    sha: 481fd0d7e494cf020f77de47d87a6f0bcc5dbc73
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This repository includes the following CI images for RAPIDS:'
+  why_used: 'This repository includes the following CI images for RAPIDS:'
+  core_features: []
+  technology_stack:
+    languages:
+    - Dockerfile
+    - Shell
+    - jq
+    - Python
+    - Go Template
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: ci/check-dockerfiles.py,
+    ci/compute-build-args.sh, ci/compute-matrix.sh, ci/create-multiarch-manifest.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/ci-imgs/blob/main/README.md
+  path: README.md
+  blob_sha: cf09cd4e26c94406052406c40144043c98ea8731
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Dockerfile: 28500
+    Shell: 18253
+    jq: 3305
+    Python: 1569
+    Go Template: 635
+- type: Git tree
+  status: captured
+  sha: 481fd0d7e494cf020f77de47d87a6f0bcc5dbc73
+  truncated: false
+- type: source_file
+  path: ci/check-dockerfiles.py
+  blob_sha: b262a5991bd8784c00dd4ce112dfdb4117f3fbf5
+  retrieved: true
+- type: source_file
+  path: ci/compute-build-args.sh
+  blob_sha: 41040b54c02d4ec90f7af819586708fb4ca4c0bf
+  retrieved: true
+- type: source_file
+  path: ci/compute-matrix.sh
+  blob_sha: 82d8af1a41604b5c2eed148bb3cd9fca64530942
+  retrieved: true
+- type: source_file
+  path: ci/create-multiarch-manifest.sh
+  blob_sha: 495fa3ba21402f1142d8719af6d4e8e20c772780
+  retrieved: true

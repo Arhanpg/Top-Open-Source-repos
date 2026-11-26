@@ -1,0 +1,129 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:00:45+00:00'
+evidence_fingerprint: 656b9d82d85a3a29a9d75b88a7cd342aae6da03a50d600da23199885b87a0798
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/Audio2Face-3D-Samples
+  repository_id: 897654836
+  url: https://github.com/NVIDIA/Audio2Face-3D-Samples
+  description: 'A service to convert audio to facial blendshapes for lipsyncing and facial performances. '
+  default_branch: main
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-03-11T20:16:07Z'
+  stars: 342
+  readme_url: https://github.com/NVIDIA/Audio2Face-3D-Samples/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ef7c1b1a05ecdee69a54b0ebf51dfa98d297518b
+  manifest_paths:
+  - proto/requirements.txt
+  - proto/setup.py
+  - early_access/a2f-3d-authoring-sample-app/requirements.txt
+  - migration/deployment_configuration_files_from_v1.0_to_v1.2/requirements.txt
+  - scripts/audio2face_3d_microservices_interaction_app/requirements.txt
+  - scripts/config_fetching_app/requirements.txt
+  source_files_inspected:
+  - early_access/a2f-3d-authoring-sample-app/auth.py
+  - early_access/a2f-3d-authoring-sample-app/client_local_deploy.py
+  - early_access/a2f-3d-authoring-sample-app/client_nvcf_deploy.py
+  - early_access/a2f-3d-authoring-sample-app/common.py
+  repository_tree:
+    status: captured
+    sha: 81b49ab94e9626bd7550a8d41f8441fd785b32a9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: NVIDIA Audio2Face-3D NIM (A2F-3D NIM) is delivering generative AI avatar animation solutions based on
+    audio and emotion inputs.
+  why_used: A service to convert audio to facial blendshapes for lipsyncing and facial performances.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - PyYAML
+    - googleapis-common-protos
+    - grpcio
+    - grpcio-tools
+    - grpclib
+    - matplotlib
+    - numpy
+    - pandas
+    - protobuf
+    - protobuf-gen
+    - pydantic
+    - ruamel.yaml
+    - scipy
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: early_access/a2f-3d-authoring-sample-app/auth.py,
+    early_access/a2f-3d-authoring-sample-app/client_local_deploy.py, early_access/a2f-3d-authoring-sample-app/client_nvcf_deploy.py,
+    early_access/a2f-3d-authoring-sample-app/common.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/Audio2Face-3D-Samples/blob/main/README.md
+  path: README.md
+  blob_sha: ef7c1b1a05ecdee69a54b0ebf51dfa98d297518b
+  retrieved: true
+- type: manifest
+  path: proto/requirements.txt
+  blob_sha: 5d2a22ca2ebc1b7a1ec2b581f60f1b9aeeb0e85a
+  retrieved: true
+- type: manifest
+  path: proto/setup.py
+  blob_sha: 15b5dc7301f04941943b857cfe19e088f5f354a6
+  retrieved: true
+- type: manifest
+  path: early_access/a2f-3d-authoring-sample-app/requirements.txt
+  blob_sha: 2ac25c9151a99e9116376965f36fdff94ca0f283
+  retrieved: true
+- type: manifest
+  path: migration/deployment_configuration_files_from_v1.0_to_v1.2/requirements.txt
+  blob_sha: 4c0f633d2d87cdad3b2fe0adabb3c509947160bf
+  retrieved: true
+- type: manifest
+  path: scripts/audio2face_3d_microservices_interaction_app/requirements.txt
+  blob_sha: 28924586a57926e6419ef3217ee7133a814b070d
+  retrieved: true
+- type: manifest
+  path: scripts/config_fetching_app/requirements.txt
+  blob_sha: 300817308946f35a54ecfc7bdba996612c8275a6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 126388
+- type: Git tree
+  status: captured
+  sha: 81b49ab94e9626bd7550a8d41f8441fd785b32a9
+  truncated: false
+- type: source_file
+  path: early_access/a2f-3d-authoring-sample-app/auth.py
+  blob_sha: 5cdd7162d90aa9298561a90213b9a8678180cb67
+  retrieved: true
+- type: source_file
+  path: early_access/a2f-3d-authoring-sample-app/client_local_deploy.py
+  blob_sha: 323fb25c6e4173ec2a5d4a8943ceb2eb065febf7
+  retrieved: true
+- type: source_file
+  path: early_access/a2f-3d-authoring-sample-app/client_nvcf_deploy.py
+  blob_sha: fad2bf7bd5063fb69f1506bb4d68d576a4fa5da7
+  retrieved: true
+- type: source_file
+  path: early_access/a2f-3d-authoring-sample-app/common.py
+  blob_sha: 81f507d9fbe9d51219e6cc8c3372555a6065eb05
+  retrieved: true

@@ -1,0 +1,250 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:16:15+00:00'
+evidence_fingerprint: dedb4c630ca93e91eefeb179ba9be8d7884fd54dad479a805c8ee6bb9a7e0a54
+repository_metadata:
+  company: NVIDIA
+  account: ai-dynamo
+  full_name: ai-dynamo/grove
+  repository_id: 863068440
+  url: https://github.com/ai-dynamo/grove
+  description: Kubernetes enhancements for Network Topology Aware Gang Scheduling & Autoscaling
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T16:48:54Z'
+  stars: 298
+  readme_url: https://github.com/ai-dynamo/grove/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5f7e45ed594836f58993e714611ddd45c6e1cf69
+  manifest_paths:
+  - Makefile
+  - cli-plugin/go.mod
+  - operator/Dockerfile
+  - operator/go.mod
+  - operator/Makefile
+  - operator/pyproject.toml
+  source_files_inspected:
+  - operator/cmd/install-crds/main.go
+  - operator/cmd/main.go
+  - operator/initc/cmd/main.go
+  - operator/hack/scale-dashboard/app.js
+  repository_tree:
+    status: captured
+    sha: 35a54cbbbf2d648560e79fe0f7f7f7ed836b2430
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**One API. Any inference architecture.**'
+  why_used: Kubernetes enhancements for Network Topology Aware Gang Scheduling & Autoscaling
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Python
+    - Shell
+    - Makefile
+    - JavaScript
+    - Go Template
+    - CSS
+    - HTML
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - dario.cat/mergo
+    - docker
+    - github.com/AdaLogics/go-fuzz-headers
+    - github.com/Azure/go-ansiterm
+    - github.com/BurntSushi/toml
+    - github.com/MakeNowJust/heredoc
+    - github.com/Masterminds/goutils
+    - github.com/Masterminds/semver/v3
+    - github.com/Masterminds/sprig/v3
+    - github.com/Masterminds/squirrel
+    - github.com/Microsoft/go-winio
+    - github.com/ai-dynamo/grove/operator/api
+    - github.com/ai-dynamo/grove/scheduler/api
+    - github.com/asaskevich/govalidator
+    - github.com/beorn7/perks
+    - github.com/blang/semver/v4
+    - github.com/cespare/xxhash/v2
+    - github.com/chai2010/gettext-go
+    - github.com/containerd/containerd
+    - github.com/containerd/errdefs
+    - github.com/containerd/errdefs/pkg
+    - github.com/containerd/log
+    - github.com/containerd/platforms
+    - github.com/cyphar/filepath-securejoin
+    - github.com/davecgh/go-spew
+    - github.com/distribution/distribution/v3
+    - github.com/distribution/reference
+    - github.com/docker/go-connections
+    - github.com/docker/go-units
+    - github.com/emicklei/go-restful/v3
+    - github.com/evanphx/json-patch
+    - github.com/evanphx/json-patch/v5
+    - github.com/exponent-io/jsonpath
+    - github.com/fatih/color
+    - github.com/felixge/httpsnoop
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/go-errors/errors
+    - github.com/go-gorp/gorp/v3
+    - github.com/go-logr/logr
+    - github.com/go-logr/stdr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/go-openapi/swag/cmdutils
+    - github.com/go-openapi/swag/conv
+    - github.com/go-openapi/swag/fileutils
+    - github.com/go-openapi/swag/jsonutils
+    - github.com/go-openapi/swag/loading
+    - github.com/go-openapi/swag/mangling
+    - github.com/go-openapi/swag/netutils
+    - github.com/go-openapi/swag/pools
+    - github.com/go-openapi/swag/stringutils
+    - github.com/go-openapi/swag/typeutils
+    - github.com/go-openapi/swag/yamlutils
+    - github.com/gobwas/glob
+    - github.com/google/btree
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/go-github/v86
+    - github.com/google/go-querystring
+    - github.com/google/uuid
+    - github.com/gorilla/websocket
+    - github.com/gosuri/uitable
+    - github.com/gregjones/httpcache
+    - github.com/hashicorp/errwrap
+    - github.com/hashicorp/go-multierror
+    - github.com/huandu/xstrings
+    - github.com/inconshreveable/mousetrap
+    - github.com/jmoiron/sqlx
+    - github.com/json-iterator/go
+    - github.com/kai-scheduler/KAI-scheduler
+    - github.com/klauspost/compress
+    - github.com/lann/builder
+    - github.com/lann/ps
+    - github.com/lib/pq
+    - github.com/liggitt/tabwriter
+    - github.com/mattn/go-colorable
+    - github.com/mattn/go-isatty
+    - github.com/mattn/go-runewidth
+    - github.com/mitchellh/copystructure
+    - github.com/mitchellh/go-wordwrap
+    - github.com/mitchellh/reflectwalk
+    - github.com/moby/docker-image-spec
+    - github.com/moby/moby/api
+    - github.com/moby/moby/client
+    - github.com/moby/spdystream
+    - github.com/moby/term
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/monochromegane/go-gitignore
+    - github.com/munnerz/goautoneg
+    - github.com/mxk/go-flowrate
+    - github.com/open-policy-agent/cert-controller
+    - github.com/opencontainers/go-digest
+    - github.com/opencontainers/image-spec
+    - github.com/peterbourgon/diskv
+    - github.com/pkg/errors
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - pydantic
+    - pydantic-settings
+    - pyyaml
+    - rich
+    - sh
+    - tenacity
+    - typer
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: operator/cmd/install-crds/main.go,
+    operator/cmd/main.go, operator/initc/cmd/main.go, operator/hack/scale-dashboard/app.js'
+  setup_and_usage:
+  - 'Quick Start on Local Kind Cluster: Get Grove running in 5 minutes on a local kind cluster.'
+  limitations:
+  - 'Kubernetes Compatibility: Grove validates the following Kubernetes minor release lines in CI:'
+  - 'Kubernetes Compatibility: | Kubernetes | K3s image | CI coverage |'
+  - 'Kubernetes Compatibility: | :--- | :--- | :--- |'
+  - 'Kubernetes Compatibility: | 1.34 | rancher/k3s:v1.34.11-k3s1 | Compatibility smoke suite |'
+  - 'Kubernetes Compatibility: | 1.35 | rancher/k3s:v1.35.5-k3s1 | Regular E2E jobs |'
+  - 'Kubernetes Compatibility: The compatibility smoke suite exercises representative installation, scheduling,
+    deletion, update, topology, and resource-sharing paths on the minimum supported version. Full behavioral coverage
+    runs through the regular E2E jobs on Kubernetes 1.35. Scale, AutoMNNVL, startup-ordering, and upgrade tests
+    remain on their dedicated CI targets.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ai-dynamo/grove/blob/main/README.md
+  path: README.md
+  blob_sha: 5f7e45ed594836f58993e714611ddd45c6e1cf69
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 254523f474ce7bded58f833b1fc1ee51c628c6e9
+  retrieved: true
+- type: manifest
+  path: cli-plugin/go.mod
+  blob_sha: 077a1b5042606833f35dc87ffe2f3178e75c1504
+  retrieved: true
+- type: manifest
+  path: operator/Dockerfile
+  blob_sha: c9d1b30e49f324f7e7b858a3ce69c8fc1b4f4b97
+  retrieved: true
+- type: manifest
+  path: operator/go.mod
+  blob_sha: e8e59d37e129bb1b82744fa0d21d9ce473ae203d
+  retrieved: true
+- type: manifest
+  path: operator/Makefile
+  blob_sha: 240d8848cff4894cc4798beffd94d841b29103d2
+  retrieved: true
+- type: manifest
+  path: operator/pyproject.toml
+  blob_sha: aff1e88375607a33da8ee2def6798e49e4a1f23d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 5050266
+    Python: 175959
+    Shell: 51462
+    Makefile: 29824
+    JavaScript: 28411
+    Go Template: 7988
+    CSS: 6631
+    HTML: 3617
+    Dockerfile: 2679
+- type: Git tree
+  status: captured
+  sha: 35a54cbbbf2d648560e79fe0f7f7f7ed836b2430
+  truncated: false
+- type: source_file
+  path: operator/cmd/install-crds/main.go
+  blob_sha: 04b1c1502219a3e1d9bf33d20aee2c118095ba25
+  retrieved: true
+- type: source_file
+  path: operator/cmd/main.go
+  blob_sha: 138a2e36f5d17b72b51cfd878514a6c05d7e37c5
+  retrieved: true
+- type: source_file
+  path: operator/initc/cmd/main.go
+  blob_sha: 101d4d0447c81fa921412b09a078c2648526fa04
+  retrieved: true
+- type: source_file
+  path: operator/hack/scale-dashboard/app.js
+  blob_sha: 7b94fb59d99c91fa358bc708fc2ddaae6e50c7d7
+  retrieved: true

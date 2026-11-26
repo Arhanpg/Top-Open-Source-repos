@@ -1,0 +1,108 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:03:56+00:00'
+evidence_fingerprint: bf95e73faa4ef896656271e4f7c04f9b3e663fb73a571519d6c8193b46435ef6
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/amazon-connect-contact-lens-action-item-reminders
+  repository_id: 433524996
+  url: https://github.com/amazon-connect/amazon-connect-contact-lens-action-item-reminders
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2023-10-18T16:15:17Z'
+  stars: 1
+  readme_url: https://github.com/amazon-connect/amazon-connect-contact-lens-action-item-reminders/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2c6f04dc3fe96e17d5bd5a2f13c0c87295f875cd
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/lambda/contactLensHandler/index.js
+  - lib/contact-lens-action-item-reminder-stack.ts
+  - bin/contact-lens-action-item-reminder.ts
+  - jest.config.js
+  repository_tree:
+    status: captured
+    sha: 4dab80c2d8503e18394fe9a498da313237de6c27
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repo is attached to the blog "Create action item reminders with Amazon Connect Tasks and Contact
+    Lens for Amazon Connect". Head there to get the full set of steps for using this code.
+  why_used: This repo is attached to the blog "Create action item reminders with Amazon Connect Tasks and Contact
+    Lens for Amazon Connect". Head there to get the full set of steps for using this code.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-cdk/assert'
+    - '@aws-cdk/aws-iam'
+    - '@aws-cdk/aws-lambda'
+    - '@aws-cdk/aws-sns'
+    - '@aws-cdk/aws-sns-subscriptions'
+    - '@aws-cdk/core'
+    - '@types/jest'
+    - '@types/node'
+    - aws-cdk
+    - jest
+    - source-map-support
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/lambda/contactLensHandler/index.js,
+    lib/contact-lens-action-item-reminder-stack.ts, bin/contact-lens-action-item-reminder.ts, jest.config.js'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/amazon-connect-contact-lens-action-item-reminders/blob/main/README.md
+  path: README.md
+  blob_sha: 2c6f04dc3fe96e17d5bd5a2f13c0c87295f875cd
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: ce068dd3684869ca81e035ba7e6b1cda02c2b12c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 4184
+    JavaScript: 3631
+- type: Git tree
+  status: captured
+  sha: 4dab80c2d8503e18394fe9a498da313237de6c27
+  truncated: false
+- type: source_file
+  path: src/lambda/contactLensHandler/index.js
+  blob_sha: 75038f646d43edd034bfda044afc57133997a113
+  retrieved: true
+- type: source_file
+  path: lib/contact-lens-action-item-reminder-stack.ts
+  blob_sha: 00a2c04e57ca294d00336dfd9af6ebc5b865a02c
+  retrieved: true
+- type: source_file
+  path: bin/contact-lens-action-item-reminder.ts
+  blob_sha: 2f4ce84005af34701f4cdc47fe12a898896a45c7
+  retrieved: true
+- type: source_file
+  path: jest.config.js
+  blob_sha: 08263b8954a4237f482c48466fa39295f5ac347b
+  retrieved: true

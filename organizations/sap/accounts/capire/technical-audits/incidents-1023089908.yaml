@@ -1,0 +1,129 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:01:49+00:00'
+evidence_fingerprint: a2c7f8cdcf0c8f620c8d754be95505233620745c5430ad82cad105aa81d0c3cd
+repository_metadata:
+  company: SAP
+  account: capire
+  full_name: capire/incidents
+  repository_id: 1023089908
+  url: https://github.com/capire/incidents
+  description: Shows usages of common CAP plugins
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2026-04-29T11:50:51Z'
+  stars: 1
+  readme_url: https://github.com/capire/incidents/blob/main/readme.md
+  readme_path: readme.md
+  readme_sha: bbde3e72428d2498051bdb1df75897a310d8bfcd
+  manifest_paths:
+  - package.json
+  - .devcontainer/Dockerfile
+  - app/incidents/package.json
+  - xmpls/messaging/package.json
+  - xmpls/remote-service/package.json
+  source_files_inspected:
+  - srv/server.js
+  - xmpls/messaging/server.js
+  - xmpls/remote-service/server.js
+  - app/incidents/webapp/Component.js
+  repository_tree:
+    status: captured
+    sha: 23f0588f6dc6b108857822cc8296fd5737d65637
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Welcome to the Incident Management reference sample application for the SAP Cloud Application Programming
+    Model (CAP).
+  why_used: Shows usages of common CAP plugins
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    - HTML
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/attachments'
+    - '@cap-js/audit-logging'
+    - '@cap-js/cds-test'
+    - '@cap-js/change-tracking'
+    - '@cap-js/sqlite'
+    - '@sap-cloud-sdk/connectivity'
+    - '@sap-cloud-sdk/http-client'
+    - '@sap-cloud-sdk/resilience'
+    - '@sap-cloud-sdk/util'
+    - '@sap/cds'
+    - '@sap/xb-msg-amqp-v100'
+    - express
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: srv/server.js, xmpls/messaging/server.js,
+    xmpls/remote-service/server.js, app/incidents/webapp/Component.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/capire/incidents/blob/main/readme.md
+  path: readme.md
+  blob_sha: bbde3e72428d2498051bdb1df75897a310d8bfcd
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: dbc97a9df8a93376125a817e54246f8a805dc820
+  retrieved: true
+- type: manifest
+  path: .devcontainer/Dockerfile
+  blob_sha: 3f0d2c7c4ad17f7ea429dca04e4fe77f8d52e7bd
+  retrieved: true
+- type: manifest
+  path: app/incidents/package.json
+  blob_sha: b57342084cd74e45e65be2abed6d84301ea2cae3
+  retrieved: true
+- type: manifest
+  path: xmpls/messaging/package.json
+  blob_sha: 56bee82927282cb93460b94a0403e205ae82aaf0
+  retrieved: true
+- type: manifest
+  path: xmpls/remote-service/package.json
+  blob_sha: 85644d2818cff5b96b9708600ccd576555c7e93c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 36187
+    CAP CDS: 10567
+    HTML: 4966
+    Dockerfile: 548
+- type: Git tree
+  status: captured
+  sha: 23f0588f6dc6b108857822cc8296fd5737d65637
+  truncated: false
+- type: source_file
+  path: srv/server.js
+  blob_sha: d9b549c227c04cb2e799abeb26c1e751e9261763
+  retrieved: true
+- type: source_file
+  path: xmpls/messaging/server.js
+  blob_sha: 922ec84f34d729a50cacbecc89c1875d3aaedaf8
+  retrieved: true
+- type: source_file
+  path: xmpls/remote-service/server.js
+  blob_sha: b4a4c871d9f6c40ec63e1c8abc3c18b447dbece8
+  retrieved: true
+- type: source_file
+  path: app/incidents/webapp/Component.js
+  blob_sha: 0eb77aba8a9138ff731cba4bf89b24409e9c1d4f
+  retrieved: true

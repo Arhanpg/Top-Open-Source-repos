@@ -1,0 +1,184 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:20:23+00:00'
+evidence_fingerprint: 4593f99dc9e384212451fc59a497fa6303c4566392ae3e497389f50e296ab4d1
+repository_metadata:
+  company: Amazon
+  account: aws-controllers-k8s
+  full_name: aws-controllers-k8s/backup-controller
+  repository_id: 1131296045
+  url: https://github.com/aws-controllers-k8s/backup-controller
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-10T21:40:41Z'
+  stars: 0
+  readme_url: https://github.com/aws-controllers-k8s/backup-controller/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2c7f890f6635b7be51c792b16e6d78c079da1c92
+  manifest_paths:
+  - go.mod
+  - test/e2e/requirements.txt
+  source_files_inspected:
+  - cmd/controller/main.go
+  - pkg/resource/backup_plan/delta.go
+  - pkg/resource/backup_plan/descriptor.go
+  - pkg/resource/backup_plan/hooks.go
+  repository_tree:
+    status: captured
+    sha: 3f7e351143f0872e6cf46ce207b37e4f161c8e2c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains source code for the AWS Controllers for Kubernetes (ACK) service controller
+    for AWS Backup.
+  why_used: This repository contains source code for the AWS Controllers for Kubernetes (ACK) service controller
+    for AWS Backup.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Go
+    - Go Template
+    - Smarty
+    frameworks_and_libraries: []
+    dependencies:
+    - acktest
+    - github.com/aws-controllers-k8s/iam-controller
+    - github.com/aws-controllers-k8s/kms-controller
+    - github.com/aws-controllers-k8s/runtime
+    - github.com/aws/aws-sdk-go-v2
+    - github.com/aws/aws-sdk-go-v2/config
+    - github.com/aws/aws-sdk-go-v2/credentials
+    - github.com/aws/aws-sdk-go-v2/feature/ec2/imds
+    - github.com/aws/aws-sdk-go-v2/internal/configsources
+    - github.com/aws/aws-sdk-go-v2/internal/endpoints/v2
+    - github.com/aws/aws-sdk-go-v2/internal/ini
+    - github.com/aws/aws-sdk-go-v2/service/backup
+    - github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding
+    - github.com/aws/aws-sdk-go-v2/service/internal/presigned-url
+    - github.com/aws/aws-sdk-go-v2/service/sso
+    - github.com/aws/aws-sdk-go-v2/service/ssooidc
+    - github.com/aws/aws-sdk-go-v2/service/sts
+    - github.com/aws/smithy-go
+    - github.com/beorn7/perks
+    - github.com/cenkalti/backoff/v4
+    - github.com/cespare/xxhash/v2
+    - github.com/davecgh/go-spew
+    - github.com/emicklei/go-restful/v3
+    - github.com/evanphx/json-patch/v5
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/go-logr/logr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/google/btree
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/uuid
+    - github.com/itchyny/gojq
+    - github.com/itchyny/timefmt-go
+    - github.com/jaypipes/envutil
+    - github.com/josharian/intern
+    - github.com/json-iterator/go
+    - github.com/mailru/easyjson
+    - github.com/micahhausler/aws-iam-policy
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/munnerz/goautoneg
+    - github.com/pkg/errors
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/spf13/pflag
+    - github.com/x448/float16
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - go.yaml.in/yaml/v2
+    - go.yaml.in/yaml/v3
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/term
+    - golang.org/x/text
+    - golang.org/x/time
+    - gomodules.xyz/jsonpatch/v2
+    - google.golang.org/protobuf
+    - gopkg.in/evanphx/json-patch.v4
+    - gopkg.in/inf.v0
+    - gopkg.in/yaml.v3
+    - k8s.io/api
+    - k8s.io/apiextensions-apiserver
+    - k8s.io/apimachinery
+    - k8s.io/client-go
+    - k8s.io/klog/v2
+    - k8s.io/kube-openapi
+    - k8s.io/utils
+    - sigs.k8s.io/controller-runtime
+    - sigs.k8s.io/json
+    - sigs.k8s.io/randfill
+    - sigs.k8s.io/structured-merge-diff/v6
+    - sigs.k8s.io/yaml
+    build_and_package_tools:
+    - Go module manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/controller/main.go,
+    pkg/resource/backup_plan/delta.go, pkg/resource/backup_plan/descriptor.go, pkg/resource/backup_plan/hooks.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-controllers-k8s/backup-controller/blob/main/README.md
+  path: README.md
+  blob_sha: 2c7f890f6635b7be51c792b16e6d78c079da1c92
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 11e31e385107c5f72e564d989d4a5696499891e4
+  retrieved: true
+- type: manifest
+  path: test/e2e/requirements.txt
+  blob_sha: 277440210b5e146d4329f8e2f885b49dd8a17684
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 46415
+    Go: 11460
+    Go Template: 5758
+    Smarty: 1382
+- type: Git tree
+  status: captured
+  sha: 3f7e351143f0872e6cf46ce207b37e4f161c8e2c
+  truncated: false
+- type: source_file
+  path: cmd/controller/main.go
+  blob_sha: d2834deb36f581bbc39518743c1cdd905f2d7036
+  retrieved: true
+- type: source_file
+  path: pkg/resource/backup_plan/delta.go
+  blob_sha: f7f1125fe3c9301f7c6f6d9d4a43eeb9a74b3ea9
+  retrieved: true
+- type: source_file
+  path: pkg/resource/backup_plan/descriptor.go
+  blob_sha: 73fb8665dd242a692b1d8786ce3d568dc3740993
+  retrieved: true
+- type: source_file
+  path: pkg/resource/backup_plan/hooks.go
+  blob_sha: 2159565ad4c08bd43d0e56cba0e9909d986fcffa
+  retrieved: true

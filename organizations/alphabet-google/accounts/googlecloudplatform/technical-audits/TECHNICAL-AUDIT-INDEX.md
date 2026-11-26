@@ -1,10 +1,10 @@
 # Technical audits — googlecloudplatform
 
-Updated: 2026-11-25T23:09:24+00:00
+Updated: 2026-11-26T07:22:00+00:00
 
 ## Status counts
 
-- evidence_only: 8
+- evidence_only: 11
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -18,5 +18,8 @@ Updated: 2026-11-25T23:09:24+00:00
 | cloudgauge-1064747588 | evidence_only | [cloudgauge-1064747588.md](cloudgauge-1064747588.md) | [cloudgauge-1064747588.yaml](cloudgauge-1064747588.yaml) |
 | codeigniter-34619949 | evidence_only | [codeigniter-34619949.md](codeigniter-34619949.md) | [codeigniter-34619949.yaml](codeigniter-34619949.yaml) |
 | data-pipeline-14596461 | evidence_only | [data-pipeline-14596461.md](data-pipeline-14596461.md) | [data-pipeline-14596461.yaml](data-pipeline-14596461.yaml) |
+| dataflowjavasdk-27503425 | evidence_only | [dataflowjavasdk-27503425.md](dataflowjavasdk-27503425.md) | [dataflowjavasdk-27503425.yaml](dataflowjavasdk-27503425.yaml) |
+| dataflowpythonsdk-52123243 | evidence_only | [dataflowpythonsdk-52123243.md](dataflowpythonsdk-52123243.md) | [dataflowpythonsdk-52123243.yaml](dataflowpythonsdk-52123243.yaml) |
+| dataflowsdk-examples-40148405 | evidence_only | [dataflowsdk-examples-40148405.md](dataflowsdk-examples-40148405.md) | [dataflowsdk-examples-40148405.yaml](dataflowsdk-examples-40148405.yaml) |
 | diy-tools-238751362 | evidence_only | [diy-tools-238751362.md](diy-tools-238751362.md) | [diy-tools-238751362.yaml](diy-tools-238751362.yaml) |
 | github-557646489 | insufficient_evidence | [github-557646489.md](github-557646489.md) | [github-557646489.yaml](github-557646489.yaml) |

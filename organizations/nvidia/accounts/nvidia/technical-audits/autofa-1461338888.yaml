@@ -1,0 +1,134 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:16:23+00:00'
+evidence_fingerprint: 42b1c97cfbdca43e05399c9382d2569fef25d3a4899e2525de175f9170dd5563
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/AutoFA
+  repository_id: 1461338888
+  url: https://github.com/NVIDIA/AutoFA
+  description: 'Research preview: Diagnose known failure modes and uncover emerging ones in agent traces, building
+    a reusable knowledge bank.'
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T16:56:26Z'
+  stars: 4
+  readme_url: https://github.com/NVIDIA/AutoFA/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 56b0821bfb873ce7fb04af2e56c940090d6b1bc2
+  manifest_paths:
+  - pyproject.toml
+  source_files_inspected:
+  - src/autofa/__main__.py
+  - src/autofa/cli.py
+  - src/autofa/mcp/server.py
+  - src/autofa/preflight/cheating/cli.py
+  repository_tree:
+    status: captured
+    sha: 6d36a086967cfce5ce7de49bf52c7b268af9eee9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Automated failure analysis for models and agent harnesses.**'
+  why_used: 'Research preview: Diagnose known failure modes and uncover emerging ones in agent traces, building
+    a reusable knowledge bank.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - HTML
+    - JavaScript
+    - CSS
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - Pillow
+    - PyYAML
+    - claude-agent-sdk
+    - fastapi
+    - ijson
+    - jinja2
+    - keyring
+    - numpy
+    - openai
+    - polars
+    - prompt-toolkit
+    - pyarrow
+    - pygments
+    - pypdfium2
+    - python-multipart
+    - regex
+    - rich
+    - tomlkit
+    - uvicorn
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/autofa/__main__.py,
+    src/autofa/cli.py, src/autofa/mcp/server.py, src/autofa/preflight/cheating/cli.py'
+  setup_and_usage:
+  - 'Quick start: Want to try AutoFA but do not have evaluation logs? The repository includes three example'
+  - 'Quick start: LiveCodeBench runs for thinkingmachines/Inkling-Small, zai-org/GLM-5.3-Flash and'
+  - 'Quick start: nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16. Follow the'
+  - 'Quick start: example reports and bundled-data tutorial to browse their'
+  - 'Quick start: ready-made analyses without running AutoFA, or run AutoFA yourself on the included'
+  - 'Quick start: You need uv and a signed-in'
+  - 'Quick start: Codex CLI. Clone the repository:'
+  - 'Quick start: git clone https://github.com/NVIDIA/AutoFA.git'
+  limitations:
+  - 'Known limitations: > **Research preview**'
+  - 'Known limitations: > AutoFA is in research preview and is not yet ready for production use. Its code,'
+  - 'Known limitations: > configuration and output formats may change without backward compatibility.'
+  - 'Known limitations: > Findings are produced by AI agents and may be incomplete or inaccurate; review them'
+  - 'Known limitations: > before acting on them.'
+  - 'Known limitations: - Discovery and model-based judging need your own model access, and the selected trace'
+  - 'Known limitations: content is sent to the providers you configure.'
+  - 'Known limitations: - The Library server uses a shared profile: anyone holding its token can read and modify'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/AutoFA/blob/main/README.md
+  path: README.md
+  blob_sha: 56b0821bfb873ce7fb04af2e56c940090d6b1bc2
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: dc7fa6234610875c9f8f702a42f78123220bc16b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 11560093
+    HTML: 4347171
+    JavaScript: 197724
+    CSS: 88062
+    Shell: 2880
+- type: Git tree
+  status: captured
+  sha: 6d36a086967cfce5ce7de49bf52c7b268af9eee9
+  truncated: false
+- type: source_file
+  path: src/autofa/__main__.py
+  blob_sha: fba2234347502b2c1cc6019b7aae5c06c461bf6f
+  retrieved: true
+- type: source_file
+  path: src/autofa/cli.py
+  blob_sha: de65783c01e41de896f28dd898dc563f21ebf5e5
+  retrieved: true
+- type: source_file
+  path: src/autofa/mcp/server.py
+  blob_sha: ce8dfa6b91dfad660cb5d2deb1f436150cd50ff6
+  retrieved: true
+- type: source_file
+  path: src/autofa/preflight/cheating/cli.py
+  blob_sha: 8cda43c83ba9740ef97047e9044ba2fec6ca10d0
+  retrieved: true

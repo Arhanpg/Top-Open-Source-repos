@@ -1,10 +1,10 @@
 # Technical audits — sap-samples
 
-Updated: 2026-11-25T23:09:22+00:00
+Updated: 2026-11-26T07:22:02+00:00
 
 ## Status counts
 
-- evidence_only: 8
+- evidence_only: 11
 
 ## Repository dossiers
 
@@ -16,5 +16,8 @@ Updated: 2026-11-25T23:09:22+00:00
 | abap-islm-tutorial-samples-1250058806 | evidence_only | [abap-islm-tutorial-samples-1250058806.md](abap-islm-tutorial-samples-1250058806.md) | [abap-islm-tutorial-samples-1250058806.yaml](abap-islm-tutorial-samples-1250058806.yaml) |
 | abap-oo-basics-256635020 | evidence_only | [abap-oo-basics-256635020.md](abap-oo-basics-256635020.md) | [abap-oo-basics-256635020.yaml](abap-oo-basics-256635020.yaml) |
 | abap-partner-reference-application-1013734845 | evidence_only | [abap-partner-reference-application-1013734845.md](abap-partner-reference-application-1013734845.md) | [abap-partner-reference-application-1013734845.yaml](abap-partner-reference-application-1013734845.yaml) |
+| abap-platform-analytics-data-modeling-920016238 | evidence_only | [abap-platform-analytics-data-modeling-920016238.md](abap-platform-analytics-data-modeling-920016238.md) | [abap-platform-analytics-data-modeling-920016238.yaml](abap-platform-analytics-data-modeling-920016238.yaml) |
+| abap-platform-application-jobs-578745161 | evidence_only | [abap-platform-application-jobs-578745161.md](abap-platform-application-jobs-578745161.md) | [abap-platform-application-jobs-578745161.yaml](abap-platform-application-jobs-578745161.yaml) |
+| abap-platform-basic-trial-1118115469 | evidence_only | [abap-platform-basic-trial-1118115469.md](abap-platform-basic-trial-1118115469.md) | [abap-platform-basic-trial-1118115469.yaml](abap-platform-basic-trial-1118115469.yaml) |
 | github-464904570 | evidence_only | [github-464904570.md](github-464904570.md) | [github-464904570.yaml](github-464904570.yaml) |
 | spfi-reference-application-1095486490 | evidence_only | [spfi-reference-application-1095486490.md](spfi-reference-application-1095486490.md) | [spfi-reference-application-1095486490.yaml](spfi-reference-application-1095486490.yaml) |

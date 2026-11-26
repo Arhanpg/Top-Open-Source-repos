@@ -1,0 +1,107 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T06:58:11+00:00'
+evidence_fingerprint: 9c094c42cef2d2443648d4261d6233b8b692d6f2f7e4f6bbe502bde63abf0c4b
+repository_metadata:
+  company: Amazon
+  account: boto
+  full_name: boto/botoweb
+  repository_id: 5471776
+  url: https://github.com/boto/botoweb
+  description: botoweb is an Application Framework for highly scalable application servers. It uses the standard
+    Three-Tier architecture to be housed in the Amazon Web Services environment. It uses boto for communication
+    with these services (hence the name, botoweb).
+  default_branch: master
+  license_spdx: null
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2016-08-15T14:25:53Z'
+  stars: 29
+  readme_url: https://github.com/boto/botoweb/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 774f8c9fa05843c8f7907503feeec85f364dedc3
+  manifest_paths:
+  - setup.py
+  - docs/Makefile
+  source_files_inspected:
+  - botoweb/__init__.py
+  - botoweb/appserver/__init__.py
+  - botoweb/appserver/auth_layer.py
+  - botoweb/appserver/cache_layer.py
+  repository_tree:
+    status: captured
+    sha: ece4f0bfdb70196e1bea46253849d71d20686421
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Welcome =======
+  why_used: botoweb is an Application Framework for highly scalable application servers. It uses the standard Three-Tier
+    architecture to be housed in the Amazon Web Services environment. It uses boto for communication with these
+    services (hence the name, botoweb).
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - JavaScript
+    - XSLT
+    - HTML
+    - CSS
+    - ApacheConf
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: botoweb/__init__.py,
+    botoweb/appserver/__init__.py, botoweb/appserver/auth_layer.py, botoweb/appserver/cache_layer.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/boto/botoweb/blob/master/README.md
+  path: README.md
+  blob_sha: 774f8c9fa05843c8f7907503feeec85f364dedc3
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 6b98e55a630223816ff1cce9251b32d335245b8b
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: 398239bf79bfa9918bae8e7ebd37cb797f21f0bd
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 392286
+    JavaScript: 132633
+    XSLT: 5247
+    HTML: 3012
+    CSS: 2124
+    ApacheConf: 652
+- type: Git tree
+  status: captured
+  sha: ece4f0bfdb70196e1bea46253849d71d20686421
+  truncated: false
+- type: source_file
+  path: botoweb/__init__.py
+  blob_sha: 61c24c4f848e5bbfbcb58710a7a20c4ec7113edb
+  retrieved: true
+- type: source_file
+  path: botoweb/appserver/__init__.py
+  blob_sha: 3fd4a14677132269e3719f9a8b13200f5e3e73fd
+  retrieved: true
+- type: source_file
+  path: botoweb/appserver/auth_layer.py
+  blob_sha: 503a2f72922b21908ef922c8b3339bdce2b29464
+  retrieved: true
+- type: source_file
+  path: botoweb/appserver/cache_layer.py
+  blob_sha: a97a2d798a87af012d6f625b19a842f998113e49
+  retrieved: true

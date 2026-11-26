@@ -1,0 +1,148 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:14:14+00:00'
+evidence_fingerprint: d0b74f98af6a4e47327820fd871ce64dab43dd085cf7ff96afae8737800db4e5
+repository_metadata:
+  company: Amazon
+  account: bottlerocket-os
+  full_name: bottlerocket-os/bottlerocket-test-system
+  repository_id: 381435140
+  url: https://github.com/bottlerocket-os/bottlerocket-test-system
+  description: A system for testing Bottlerocket
+  default_branch: develop
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-29T21:33:48Z'
+  stars: 18
+  readme_url: https://github.com/bottlerocket-os/bottlerocket-test-system/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: 37983de30f6e4b50d3ad7ec5b61c997b7476be86
+  manifest_paths:
+  - Cargo.toml
+  - Dockerfile
+  - Makefile
+  - cli/Cargo.toml
+  - controller/Cargo.toml
+  - controller/Dockerfile
+  source_files_inspected:
+  - agent/agent-common/src/lib.rs
+  - agent/builder-derive/src/lib.rs
+  - agent/configuration-derive/src/lib.rs
+  - agent/resource-agent/src/clients/mod.rs
+  repository_tree:
+    status: captured
+    sha: 791ea011e8180e302cc931f47ce759aedeedec83
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A system for testing Bottlerocket. To learn more about how it works, see the design document.
+  why_used: A system for testing Bottlerocket
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    - Dockerfile
+    - Makefile
+    - Shell
+    - Go
+    frameworks_and_libraries: []
+    dependencies:
+    - anyhow
+    - assert_cmd
+    - aws-config
+    - aws-lc-rs
+    - aws-sdk-cloudwatchlogs
+    - aws-types
+    - clap
+    - env_logger
+    - futures
+    - http
+    - k8s-openapi
+    - kube
+    - kube-runtime
+    - lazy_static
+    - log
+    - selftest
+    - serde_json
+    - snafu
+    - terminal_size
+    - testsys-model
+    - tokio
+    build_and_package_tools:
+    - Cargo manifest
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: agent/agent-common/src/lib.rs,
+    agent/builder-derive/src/lib.rs, agent/configuration-derive/src/lib.rs, agent/resource-agent/src/clients/mod.rs'
+  setup_and_usage:
+  - 'Quickstart: See our QUICKSTART for a walk through of compiling, deploying, and running a quick test.'
+  - 'Quickstart: More detailed quickstart guides can be found in the main Bottlerocket repo.'
+  - 'Quickstart: See the QUICKSTART-*.md files for information on the various deployment targets.'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/bottlerocket-os/bottlerocket-test-system/blob/develop/README.md
+  path: README.md
+  blob_sha: 37983de30f6e4b50d3ad7ec5b61c997b7476be86
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: 7228c1dc38c0d04b442ffaab2a322d0eee4a8ce6
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: a56220b37878b56b43ceebde0862b7bc908374c5
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 69ab03b2952303c1f715f893268968e8782af6dd
+  retrieved: true
+- type: manifest
+  path: cli/Cargo.toml
+  blob_sha: be73664c312122efd786092631251892b5bbe7f4
+  retrieved: true
+- type: manifest
+  path: controller/Cargo.toml
+  blob_sha: 46912cfcd3998a74c99e211d88bdf5faf5bc597c
+  retrieved: true
+- type: manifest
+  path: controller/Dockerfile
+  blob_sha: 4847eb397853ee97dc528e959f575a9b88e277fd
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 779190
+    Dockerfile: 29561
+    Makefile: 22320
+    Shell: 10574
+    Go: 8343
+- type: Git tree
+  status: captured
+  sha: 791ea011e8180e302cc931f47ce759aedeedec83
+  truncated: false
+- type: source_file
+  path: agent/agent-common/src/lib.rs
+  blob_sha: cdf40018da6d78295605c3cc5bbe89b7c2b01d86
+  retrieved: true
+- type: source_file
+  path: agent/builder-derive/src/lib.rs
+  blob_sha: c54db789c0eb2e76d0fca3d868db0fc047a139b9
+  retrieved: true
+- type: source_file
+  path: agent/configuration-derive/src/lib.rs
+  blob_sha: 1c5cd68c009ec5646237f2ce4749fbcd39e3e1b4
+  retrieved: true
+- type: source_file
+  path: agent/resource-agent/src/clients/mod.rs
+  blob_sha: 2580cfddb60ff453b022822326c7b44d6fbb1e19
+  retrieved: true

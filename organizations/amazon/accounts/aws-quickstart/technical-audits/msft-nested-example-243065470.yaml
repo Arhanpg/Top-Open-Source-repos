@@ -1,0 +1,99 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:05:24+00:00'
+evidence_fingerprint: 488419ef3efdcce5d4a6720c049ccaf07ecc86491f1ee8bf465aab7e299a472a
+repository_metadata:
+  company: Amazon
+  account: aws-quickstart
+  full_name: aws-quickstart/msft-nested-example
+  repository_id: 243065470
+  url: https://github.com/aws-quickstart/msft-nested-example
+  description: Sample code from blog post
+  default_branch: main
+  license_spdx: null
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-03-24T19:54:08Z'
+  stars: 1
+  readme_url: https://github.com/aws-quickstart/msft-nested-example/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b3fc7fe44ac61fe9f30c35b6aa983ff2e092dbf3
+  manifest_paths:
+  - submodules/quickstart-microsoft-activedirectory/submodules/quickstart-microsoft-utilities/scripts/Dockerfile
+  - submodules/quickstart-microsoft-exchange/submodules/quickstart-microsoft-utilities/scripts/Dockerfile
+  - submodules/quickstart-microsoft-rdgateway/submodules/quickstart-microsoft-utilities/scripts/Dockerfile
+  - submodules/quickstart-microsoft-sharepoint/submodules/quickstart-microsoft-utilities/scripts/Dockerfile
+  - submodules/quickstart-microsoft-sql/submodules/quickstart-microsoft-utilities/scripts/Dockerfile
+  - submodules/quickstart-microsoft-activedirectory/submodules/quickstart-microsoft-rdgateway/submodules/quickstart-microsoft-utilities/scripts/Dockerfile
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: 64eb8e319bef4917567971ddabb7c0bea1ecb15b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Sample code from blog post
+  why_used: Sample code from blog post
+  core_features: []
+  technology_stack:
+    languages:
+    - PowerShell
+    - Dockerfile
+    - Batchfile
+    - TSQL
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-quickstart/msft-nested-example/blob/main/README.md
+  path: README.md
+  blob_sha: b3fc7fe44ac61fe9f30c35b6aa983ff2e092dbf3
+  retrieved: true
+- type: manifest
+  path: submodules/quickstart-microsoft-activedirectory/submodules/quickstart-microsoft-utilities/scripts/Dockerfile
+  blob_sha: c105f5424e5ab632bcfda367890ec7e4e822a696
+  retrieved: true
+- type: manifest
+  path: submodules/quickstart-microsoft-exchange/submodules/quickstart-microsoft-utilities/scripts/Dockerfile
+  blob_sha: c105f5424e5ab632bcfda367890ec7e4e822a696
+  retrieved: true
+- type: manifest
+  path: submodules/quickstart-microsoft-rdgateway/submodules/quickstart-microsoft-utilities/scripts/Dockerfile
+  blob_sha: c105f5424e5ab632bcfda367890ec7e4e822a696
+  retrieved: true
+- type: manifest
+  path: submodules/quickstart-microsoft-sharepoint/submodules/quickstart-microsoft-utilities/scripts/Dockerfile
+  blob_sha: c105f5424e5ab632bcfda367890ec7e4e822a696
+  retrieved: true
+- type: manifest
+  path: submodules/quickstart-microsoft-sql/submodules/quickstart-microsoft-utilities/scripts/Dockerfile
+  blob_sha: c105f5424e5ab632bcfda367890ec7e4e822a696
+  retrieved: true
+- type: manifest
+  path: submodules/quickstart-microsoft-activedirectory/submodules/quickstart-microsoft-rdgateway/submodules/quickstart-microsoft-utilities/scripts/Dockerfile
+  blob_sha: c105f5424e5ab632bcfda367890ec7e4e822a696
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    PowerShell: 1317922
+    Dockerfile: 47538
+    Batchfile: 2096
+    TSQL: 324
+- type: Git tree
+  status: captured
+  sha: 64eb8e319bef4917567971ddabb7c0bea1ecb15b
+  truncated: false

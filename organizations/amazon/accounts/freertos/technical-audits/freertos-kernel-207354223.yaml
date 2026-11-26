@@ -1,0 +1,133 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:06:54+00:00'
+evidence_fingerprint: a29ff13d7b3c1fd0ff0f349b91f69a1a3c226bfe9b8df61ba0dc833609e154cc
+repository_metadata:
+  company: Amazon
+  account: freertos
+  full_name: FreeRTOS/FreeRTOS-Kernel
+  repository_id: 207354223
+  url: https://github.com/FreeRTOS/FreeRTOS-Kernel
+  description: FreeRTOS kernel files only, submoduled into https://github.com/FreeRTOS/FreeRTOS and various other
+    repos.
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T17:09:13Z'
+  stars: 4677
+  readme_url: https://github.com/FreeRTOS/FreeRTOS-Kernel/blob/main/README.md
+  readme_path: README.md
+  readme_sha: fabe5220b68cd16ca69adc0c4f9d0e4db40ab3fd
+  manifest_paths:
+  - CMakeLists.txt
+  - include/CMakeLists.txt
+  - portable/CMakeLists.txt
+  - examples/cmake_example/CMakeLists.txt
+  - examples/coverity/CMakeLists.txt
+  - portable/ThirdParty/GCC/RP2040/CMakeLists.txt
+  source_files_inspected:
+  - .github/scripts/find_replace.sh
+  - .github/scripts/kernel_checker.py
+  - .github/scripts/manifest_updater.py
+  - croutine.c
+  repository_tree:
+    status: captured
+    sha: 770bda27f70503633e545a292434356ca99eee18
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains FreeRTOS kernel source/header files and kernel ports only. This repository is
+    referenced as a submodule in FreeRTOS/FreeRTOS repository, which contains pre-configured demo application projects
+    under FreeRTOS/Demo directory.
+  why_used: FreeRTOS kernel files only, submoduled into https://github.com/FreeRTOS/FreeRTOS and various other repos.
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - Assembly
+    - CMake
+    - Python
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .github/scripts/find_replace.sh,
+    .github/scripts/kernel_checker.py, .github/scripts/manifest_updater.py, croutine.c'
+  setup_and_usage:
+  - 'Getting started: This repository contains FreeRTOS kernel source/header files and kernel'
+  - 'Getting started: ports only. This repository is referenced as a submodule in'
+  - 'Getting started: repository, which contains pre-configured demo application projects under'
+  - 'Getting started: FreeRTOS/Demo directory.'
+  - 'Getting started: The easiest way to use FreeRTOS is to start with one of the pre-configured demo'
+  - 'Getting started: application projects. That way you will have the correct FreeRTOS source files'
+  - 'Getting started: included, and the correct include paths configured. Once a demo application is'
+  - 'Getting started: building and executing you can remove the demo application files, and start to'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/FreeRTOS/FreeRTOS-Kernel/blob/main/README.md
+  path: README.md
+  blob_sha: fabe5220b68cd16ca69adc0c4f9d0e4db40ab3fd
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 86471b775108098c3e1ec7a003c69f82ae34e043
+  retrieved: true
+- type: manifest
+  path: include/CMakeLists.txt
+  blob_sha: 46a1c3e7f5f5566408040811b48a837040c5dc8e
+  retrieved: true
+- type: manifest
+  path: portable/CMakeLists.txt
+  blob_sha: ffbb6164c8b2df1c0cc098eaa7de09f49fccc5c0
+  retrieved: true
+- type: manifest
+  path: examples/cmake_example/CMakeLists.txt
+  blob_sha: 7b31cc52a0930115808244037f760eb132522f66
+  retrieved: true
+- type: manifest
+  path: examples/coverity/CMakeLists.txt
+  blob_sha: 3c0f4e452eac3b5e26916f21412ab6f3857047c3
+  retrieved: true
+- type: manifest
+  path: portable/ThirdParty/GCC/RP2040/CMakeLists.txt
+  blob_sha: e1034ebad2bdd292e52057a3a5a97b53da57a172
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 16095739
+    Assembly: 1666438
+    CMake: 83494
+    Python: 12978
+    Batchfile: 6591
+- type: Git tree
+  status: captured
+  sha: 770bda27f70503633e545a292434356ca99eee18
+  truncated: false
+- type: source_file
+  path: .github/scripts/find_replace.sh
+  blob_sha: ee94ea12084605474d7fdb8c738f18bee0fdb828
+  retrieved: true
+- type: source_file
+  path: .github/scripts/kernel_checker.py
+  blob_sha: 373ba60365eaf4d2f0c7dddb9d3f460f993d3e0b
+  retrieved: true
+- type: source_file
+  path: .github/scripts/manifest_updater.py
+  blob_sha: fc2343da34c5d5c9e914b4db1cf9b64371f6e922
+  retrieved: true
+- type: source_file
+  path: croutine.c
+  blob_sha: 95cbb294c5ec7ba1959c302be098197749f4e856
+  retrieved: true

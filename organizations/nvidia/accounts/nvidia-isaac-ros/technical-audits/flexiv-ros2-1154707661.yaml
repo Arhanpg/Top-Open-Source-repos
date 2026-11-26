@@ -1,0 +1,136 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:08:53+00:00'
+evidence_fingerprint: 0a841c9aa22e4fdca616008af355f9aee6e2db5b73490f85d7b739269b545b03
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/flexiv_ros2
+  repository_id: 1154707661
+  url: https://github.com/NVIDIA-ISAAC-ROS/flexiv_ros2
+  description: ROS 2 integration of RDK for Flexiv robots.
+  default_branch: humble
+  license_spdx: Apache-2.0
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2026-11-03T21:51:01Z'
+  stars: 0
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/flexiv_ros2/blob/humble/README.md
+  readme_path: README.md
+  readme_sha: 1fda41f1775b3707249294eff5f86e58e37d8461
+  manifest_paths:
+  - flexiv_bringup/CMakeLists.txt
+  - flexiv_description/CMakeLists.txt
+  - flexiv_gripper/CMakeLists.txt
+  - flexiv_hardware/CMakeLists.txt
+  - flexiv_moveit_config/CMakeLists.txt
+  - flexiv_msgs/CMakeLists.txt
+  source_files_inspected:
+  - flexiv_controllers/flexiv_robot_states_broadcaster/src/flexiv_robot_states_broadcaster.cpp
+  - flexiv_controllers/gpio_controller/src/gpio_controller.cpp
+  - flexiv_gripper/src/gripper_action_server.cpp
+  - flexiv_hardware/src/flexiv_hardware_interface.cpp
+  repository_tree:
+    status: captured
+    sha: b621b6f99859472fa611496a703cb30407635e45
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: For ROS 2 users to easily work with RDK, the APIs of RDK are wrapped into ROS packages in flexiv_ros2.
+    Key functionalities like realtime and non-realtime joint torque and position control are supported, and the
+    integration with ros2_control framework and MoveIt! 2 is also implemented.
+  why_used: ROS 2 integration of RDK for Flexiv robots.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - CMake
+    - C
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: flexiv_controllers/flexiv_robot_states_broadcaster/src/flexiv_robot_states_broadcaster.cpp,
+    flexiv_controllers/gpio_controller/src/gpio_controller.cpp, flexiv_gripper/src/gripper_action_server.cpp, flexiv_hardware/src/flexiv_hardware_interface.cpp'
+  setup_and_usage:
+  - 'Getting Started: This project was developed for ROS 2 Foxy (Ubuntu 20.04), Humble (Ubuntu 22.04) and Jazzy
+    (Ubuntu 24.04). Other versions of Ubuntu and ROS 2 may work, but are not officially supported.'
+  - 'Getting Started: 1. Install ROS 2 Humble via Debian Packages'
+  - 'Getting Started: 2. Install colcon and additional ROS packages:'
+  - 'Getting Started: sudo apt install -y \'
+  - 'Getting Started: python3-colcon-common-extensions \'
+  - 'Getting Started: ros-humble-tinyxml2-vendor \'
+  - 'Getting Started: ros-humble-ros2-control \'
+  - 'Getting Started: ros-humble-realtime-tools \'
+  limitations:
+  - 'Compatibility: | **Supported OS** | **Supported ROS 2 distribution** |'
+  - 'Compatibility: | ---------------- | ------------------------------------------------------------- |'
+  - 'Compatibility: | Ubuntu 20.04 | Foxy Fitzroy |'
+  - 'Compatibility: | Ubuntu 22.04 | Humble Hawksbill |'
+  - 'Compatibility: | Ubuntu 24.04 | Jazzy Jalisco |'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/flexiv_ros2/blob/humble/README.md
+  path: README.md
+  blob_sha: 1fda41f1775b3707249294eff5f86e58e37d8461
+  retrieved: true
+- type: manifest
+  path: flexiv_bringup/CMakeLists.txt
+  blob_sha: 91e5a3107b175744d2f77c04d42db8c2755d947b
+  retrieved: true
+- type: manifest
+  path: flexiv_description/CMakeLists.txt
+  blob_sha: 6bb63ccf2e0e4ebb7a34fa28c3bf016e08dda1b6
+  retrieved: true
+- type: manifest
+  path: flexiv_gripper/CMakeLists.txt
+  blob_sha: 9f6b9139b763b39b2625969535ce20888253d2e5
+  retrieved: true
+- type: manifest
+  path: flexiv_hardware/CMakeLists.txt
+  blob_sha: bc326aec43d1abba2484e4dd24f92c1e0dabb1e2
+  retrieved: true
+- type: manifest
+  path: flexiv_moveit_config/CMakeLists.txt
+  blob_sha: 8d2410058d6d54b76f707b17ca15485c7c475cbe
+  retrieved: true
+- type: manifest
+  path: flexiv_msgs/CMakeLists.txt
+  blob_sha: 8e0206b22735dbab9a4ff4e1edddd653fcd8f434
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 73206
+    Python: 58247
+    CMake: 8666
+    C: 1187
+- type: Git tree
+  status: captured
+  sha: b621b6f99859472fa611496a703cb30407635e45
+  truncated: false
+- type: source_file
+  path: flexiv_controllers/flexiv_robot_states_broadcaster/src/flexiv_robot_states_broadcaster.cpp
+  blob_sha: 039a7703e1c0ab369fbeacd386017e8d9ca88364
+  retrieved: true
+- type: source_file
+  path: flexiv_controllers/gpio_controller/src/gpio_controller.cpp
+  blob_sha: 076834db28e1791a38b399e619fc1b706a81bcdd
+  retrieved: true
+- type: source_file
+  path: flexiv_gripper/src/gripper_action_server.cpp
+  blob_sha: c10117ba58def2a2d667ecf9bb63fc802538ec49
+  retrieved: true
+- type: source_file
+  path: flexiv_hardware/src/flexiv_hardware_interface.cpp
+  blob_sha: 737676460fbd14c2307473c003385cd6b980b313
+  retrieved: true

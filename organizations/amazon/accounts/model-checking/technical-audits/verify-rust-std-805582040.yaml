@@ -1,0 +1,139 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T07:07:02+00:00'
+evidence_fingerprint: 4b5bd11c5bd00e2df6e5fe943004d2d586b1a156c4e73fc5345f2ea4cb05362c
+repository_metadata:
+  company: Amazon
+  account: model-checking
+  full_name: model-checking/verify-rust-std
+  repository_id: 805582040
+  url: https://github.com/model-checking/verify-rust-std
+  description: Verifying the Rust standard library
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2026-11-22T18:20:26Z'
+  stars: 374
+  readme_url: https://github.com/model-checking/verify-rust-std/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3987760dee80b04d068a29729974622fd402eaae
+  manifest_paths:
+  - library/Cargo.toml
+  - testable-simd-models/Cargo.toml
+  - doc/mdbook-metrics/Cargo.toml
+  - library/alloc/Cargo.toml
+  - library/alloctests/Cargo.toml
+  - library/compiler-builtins/Cargo.toml
+  source_files_inspected:
+  - doc/mdbook-metrics/src/main.rs
+  - library/alloc/src/collections/binary_heap/mod.rs
+  - library/alloc/src/collections/btree/mod.rs
+  - library/alloc/src/collections/mod.rs
+  repository_tree:
+    status: captured
+    sha: eac26ed069fe2a5f9d362efe4c9f5f5514e951bd
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository is a fork of the official Rust programming language repository, created solely to verify
+    the Rust standard library. It should not be used as an alternative to the official Rust releases. The repository
+    is tool agnostic and welcomes the addition of new tools. The currently accepted tools are Flux, ESBMC, Kani,
+    KMIR, and VeriFast.
+  why_used: Verifying the Rust standard library
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    - C
+    - Python
+    - Shell
+    - Assembly
+    - Dockerfile
+    - Julia
+    frameworks_and_libraries: []
+    dependencies:
+    - compiler_builtins
+    - core
+    - mdbook
+    - mdbook-linkcheck
+    - pastey
+    - rand
+    - rand_xorshift
+    - safety
+    - serde_json
+    build_and_package_tools:
+    - Cargo manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: doc/mdbook-metrics/src/main.rs,
+    library/alloc/src/collections/binary_heap/mod.rs, library/alloc/src/collections/btree/mod.rs, library/alloc/src/collections/mod.rs'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See SECURITY for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/model-checking/verify-rust-std/blob/main/README.md
+  path: README.md
+  blob_sha: 3987760dee80b04d068a29729974622fd402eaae
+  retrieved: true
+- type: manifest
+  path: library/Cargo.toml
+  blob_sha: 788c990c163440c389f4891cc0b3fa521ba79ad4
+  retrieved: true
+- type: manifest
+  path: testable-simd-models/Cargo.toml
+  blob_sha: 6e2116fec82e0450947d29394973b3bec5239ae2
+  retrieved: true
+- type: manifest
+  path: doc/mdbook-metrics/Cargo.toml
+  blob_sha: 984c9b09a4e64522081dd1f67ad82d844d074cc5
+  retrieved: true
+- type: manifest
+  path: library/alloc/Cargo.toml
+  blob_sha: 69e9da4eee3bcb3c48a627b3b130bfe9871cbf7d
+  retrieved: true
+- type: manifest
+  path: library/alloctests/Cargo.toml
+  blob_sha: 791b8ecbafce35087b3c1d8273332ffc821e8d62
+  retrieved: true
+- type: manifest
+  path: library/compiler-builtins/Cargo.toml
+  blob_sha: 2091b3aa0f2fc28b1d4c2ddcfc3bf8678f858d12
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 44100189
+    C: 1157335
+    Python: 230360
+    Shell: 74970
+    Assembly: 69549
+    Dockerfile: 24104
+    Julia: 4196
+- type: Git tree
+  status: captured
+  sha: eac26ed069fe2a5f9d362efe4c9f5f5514e951bd
+  truncated: false
+- type: source_file
+  path: doc/mdbook-metrics/src/main.rs
+  blob_sha: 919d9fc66d7b7f04c08ac7611f55d14312de1f3e
+  retrieved: true
+- type: source_file
+  path: library/alloc/src/collections/binary_heap/mod.rs
+  blob_sha: 2c69b40eb5394bfdfdf9d243cca97a1b91c77eae
+  retrieved: true
+- type: source_file
+  path: library/alloc/src/collections/btree/mod.rs
+  blob_sha: 6651480667391e99cb98527668ddade4059342c4
+  retrieved: true
+- type: source_file
+  path: library/alloc/src/collections/mod.rs
+  blob_sha: 2cc6b8e894664dedd253027a6ff2a24ca507ea7e
+  retrieved: true
