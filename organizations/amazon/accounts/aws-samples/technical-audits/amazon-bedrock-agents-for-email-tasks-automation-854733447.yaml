@@ -1,0 +1,130 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:32:44+00:00'
+evidence_fingerprint: 54edb958b6a79910fd3a57d9c9908259c2936c236033c69f121e2196b151da4e
+repository_metadata:
+  company: Amazon
+  account: aws-samples
+  full_name: aws-samples/Amazon-Bedrock-Agents-for-Email-Tasks-Automation
+  repository_id: 854733447
+  url: https://github.com/aws-samples/Amazon-Bedrock-Agents-for-Email-Tasks-Automation
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-24T01:04:14Z'
+  stars: 6
+  readme_url: https://github.com/aws-samples/Amazon-Bedrock-Agents-for-Email-Tasks-Automation/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 60540f24f538b3d546a97f09476a3b95a7966865
+  manifest_paths:
+  - package.json
+  - lambda/lambda-layer/nodejs/package.json
+  source_files_inspected:
+  - lib/constructs/index.ts
+  - lib/prompts/index.ts
+  - lib/constructs/agent-construct.ts
+  - lib/constructs/agent-guardrail.ts
+  repository_tree:
+    status: captured
+    sha: c8ff6c942f753c722cb8a92226f209ec2d1b6548
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> Amazon Bedrock is a fully managed service that offers a choice of high-performing foundation models
+    (FMs) from leading AI companies like AI21 Labs, Anthropic, Cohere, Meta, Mistral AI, Stability AI, and Amazon
+    through a single API, along with a broad set of capabilities you need to build generative AI applications with
+    security, privacy, and responsible AI. Using Amazon Bedrock, you can easily experiment with and evaluate top
+    FMs for your use case, privately customize them with your data using techniques such as fine-tuning and Retrieval
+    Augmented Generation (RAG), and build agents that execute tasks using your enterprise systems and data sources.
+    Since Amazon Bedrock is serverless, you don''t have to manage any infrastructure, and you can securely integrate
+    and deploy generative AI capabilities into your applications using the AWS services you are already familiar
+    with.'
+  why_used: '> Amazon Bedrock is a fully managed service that offers a choice of high-performing foundation models
+    (FMs) from leading AI companies like AI21 Labs, Anthropic, Cohere, Meta, Mistral AI, Stability AI, and Amazon
+    through a single API, along with a broad set of capabilities you need to build generative AI applications with
+    security, privacy, and responsible AI. Using Amazon Bedrock, you can easily experiment with and evaluate top
+    FMs for your use case, privately customize them with your data using techniques such as fine-tuning and Retrieval
+    Augmented Generation (RAG), and build agents that execute tasks using your enterprise systems and data sources.
+    Since Amazon Bedrock is serverless, you don''t have to manage any infrastructure, and you can securely integrate
+    and deploy generative AI capabilities into your applications using the AWS services you are already familiar
+    with.'
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-sdk/client-dynamodb'
+    - '@aws-sdk/credential-provider-node'
+    - '@aws/agents-for-amazon-bedrock-blueprints'
+    - '@opensearch-project/opensearch'
+    - '@types/jest'
+    - '@types/node'
+    - aws-cdk
+    - aws-cdk-lib
+    - cdk-nag
+    - constructs
+    - mailparser
+    - source-map-support
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/constructs/index.ts,
+    lib/prompts/index.ts, lib/constructs/agent-construct.ts, lib/constructs/agent-guardrail.ts'
+  setup_and_usage:
+  - 'Installation: Clone the Amazon-Bedrock-Agents-for-Email-Tasks-Automation git repository and begin by installing
+    the necessary NPM packages. Open your terminal and run the following command:'
+  - 'Installation: This command will install all dependencies defined in your package.json file, preparing your
+    environment for deployment.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-samples/Amazon-Bedrock-Agents-for-Email-Tasks-Automation/blob/main/README.md
+  path: README.md
+  blob_sha: 60540f24f538b3d546a97f09476a3b95a7966865
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 191cd1e532a205f2fa5034c85ccf971e4f1f6924
+  retrieved: true
+- type: manifest
+  path: lambda/lambda-layer/nodejs/package.json
+  blob_sha: 50659e5542203a65d51be62b24d77e089f01c6b6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 54418
+    JavaScript: 21771
+- type: Git tree
+  status: captured
+  sha: c8ff6c942f753c722cb8a92226f209ec2d1b6548
+  truncated: false
+- type: source_file
+  path: lib/constructs/index.ts
+  blob_sha: 8590fb4fc153f0f9ca960907907cf605845c0afe
+  retrieved: true
+- type: source_file
+  path: lib/prompts/index.ts
+  blob_sha: 8dff86d6a434c51e194c6dd301f7dadab7399a51
+  retrieved: true
+- type: source_file
+  path: lib/constructs/agent-construct.ts
+  blob_sha: e7b3b6ca727de637086cb6d5ee7c40da7ebcfea7
+  retrieved: true
+- type: source_file
+  path: lib/constructs/agent-guardrail.ts
+  blob_sha: 640eb904e5adeea0bbcb35d81debdd32a85ce6fa
+  retrieved: true

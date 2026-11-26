@@ -1,10 +1,10 @@
 # Technical audits — aws-observability
 
-Updated: 2026-11-26T07:22:01+00:00
+Updated: 2026-11-26T22:57:04+00:00
 
 ## Status counts
 
-- evidence_only: 13
+- evidence_only: 17
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -24,4 +24,8 @@ Updated: 2026-11-26T07:22:01+00:00
 | aws-otel-community-288856124 | evidence_only | [aws-otel-community-288856124.md](aws-otel-community-288856124.md) | [aws-otel-community-288856124.yaml](aws-otel-community-288856124.yaml) |
 | aws-otel-dotnet-301544306 | evidence_only | [aws-otel-dotnet-301544306.md](aws-otel-dotnet-301544306.md) | [aws-otel-dotnet-301544306.yaml](aws-otel-dotnet-301544306.yaml) |
 | aws-otel-dotnet-instrumentation-794197298 | evidence_only | [aws-otel-dotnet-instrumentation-794197298.md](aws-otel-dotnet-instrumentation-794197298.md) | [aws-otel-dotnet-instrumentation-794197298.yaml](aws-otel-dotnet-instrumentation-794197298.yaml) |
+| aws-otel-go-295886476 | evidence_only | [aws-otel-go-295886476.md](aws-otel-go-295886476.md) | [aws-otel-go-295886476.yaml](aws-otel-go-295886476.yaml) |
+| aws-otel-helm-charts-295886366 | evidence_only | [aws-otel-helm-charts-295886366.md](aws-otel-helm-charts-295886366.md) | [aws-otel-helm-charts-295886366.yaml](aws-otel-helm-charts-295886366.yaml) |
+| aws-otel-java-instrumentation-295885890 | evidence_only | [aws-otel-java-instrumentation-295885890.md](aws-otel-java-instrumentation-295885890.md) | [aws-otel-java-instrumentation-295885890.yaml](aws-otel-java-instrumentation-295885890.yaml) |
+| aws-otel-js-295886063 | evidence_only | [aws-otel-js-295886063.md](aws-otel-js-295886063.md) | [aws-otel-js-295886063.yaml](aws-otel-js-295886063.yaml) |
 | github-559009922 | insufficient_evidence | [github-559009922.md](github-559009922.md) | [github-559009922.yaml](github-559009922.yaml) |

@@ -1,0 +1,98 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:40:21+00:00'
+evidence_fingerprint: 46dbf07445f835281212081e0ccc853fd1c248ac917bcc457653ea82a7a6a5d5
+repository_metadata:
+  company: Amazon
+  account: awslabs
+  full_name: awslabs/DRS-Settings-Tool
+  repository_id: 905286602
+  url: https://github.com/awslabs/DRS-Settings-Tool
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-12-20T05:21:57Z'
+  stars: 2
+  readme_url: https://github.com/awslabs/DRS-Settings-Tool/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e7a3939f974dd0f474c8e6bc34ce8f2f1a27a74b
+  manifest_paths: []
+  source_files_inspected:
+  - classes/basic_launch_settings.py
+  - classes/launch_template_settings.py
+  - classes/replication_settings.py
+  - classes/source_server_info.py
+  repository_tree:
+    status: captured
+    sha: 803a2c06f40ce6ab0782c5b8c9b1346725ff8557
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This tool was created to help change settings in bulk for multiple Elastic Disaster Recovery Service(DRS)
+    Source Servers.
+  why_used: This tool was created to help change settings in bulk for multiple Elastic Disaster Recovery Service(DRS)
+    Source Servers.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: classes/basic_launch_settings.py,
+    classes/launch_template_settings.py, classes/replication_settings.py, classes/source_server_info.py'
+  setup_and_usage:
+  - 'Installation: - Clone or download the desired file format locally on the computer in which you have the AWS
+    credentials file configured, and ensure AWS Endpoint connectivity for API calls.'
+  - 'Usage: 1. Ensure you configured your AWS credentials file and are pointing to the correct region. You can do
+    this by setting the appropriate region in your credentials profile specific config settings (noted in the pre-requisites).'
+  - 'Usage: 2. Run the "get_settings.py" file. You will be prompted to enter the "Target Account ID". The "Target
+    Account" will be the account in which your source servers would launch into during recovery. For single account
+    use, use that single account number. For accounts with DRS source servers that are extended, use the account
+    number where the servers ar'
+  - 'Usage: 3. Open the "DRS_Settings.csv" file in the CSV file editor of choice(Microsoft Excel for example), and
+    make all the desired changes for each source server. **NOTE** It is important that you do NOT modify the "DRS_Settings_DO_NOT_EDIT.csv"
+    file as we will use this as a comparison to limit AWS API calls being made for servers that have not been chang'
+  - 'Usage: 4. Run the "update_settings.py" file to update the settings for all your Source Servers in DRS.'
+  - 'Usage: 5. A log will be generated in the directory named "DRS-Update-Tool.log", for troubleshooting purposes.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/awslabs/DRS-Settings-Tool/blob/main/README.md
+  path: README.md
+  blob_sha: e7a3939f974dd0f474c8e6bc34ce8f2f1a27a74b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 46769
+- type: Git tree
+  status: captured
+  sha: 803a2c06f40ce6ab0782c5b8c9b1346725ff8557
+  truncated: false
+- type: source_file
+  path: classes/basic_launch_settings.py
+  blob_sha: 6ac2833d98413d3bc565a44d65eec02f9df6aaab
+  retrieved: true
+- type: source_file
+  path: classes/launch_template_settings.py
+  blob_sha: dd623654e42561824d9cb3c964b0ab49b6f400fe
+  retrieved: true
+- type: source_file
+  path: classes/replication_settings.py
+  blob_sha: 5fd19c8c43b81593214599542c8fa8480faa9dcf
+  retrieved: true
+- type: source_file
+  path: classes/source_server_info.py
+  blob_sha: 1a7163aa37178fc1895e85fda18f9cecd7a58863
+  retrieved: true

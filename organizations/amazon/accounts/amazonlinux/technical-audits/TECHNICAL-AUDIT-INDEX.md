@@ -1,10 +1,10 @@
 # Technical audits — amazonlinux
 
-Updated: 2026-11-26T07:22:00+00:00
+Updated: 2026-11-26T22:57:03+00:00
 
 ## Status counts
 
-- evidence_only: 14
+- evidence_only: 15
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -26,3 +26,4 @@ Updated: 2026-11-26T07:22:00+00:00
 | rust-bundled-packaging-157781760 | evidence_only | [rust-bundled-packaging-157781760.md](rust-bundled-packaging-157781760.md) | [rust-bundled-packaging-157781760.yaml](rust-bundled-packaging-157781760.yaml) |
 | smart-restart-721057689 | evidence_only | [smart-restart-721057689.md](smart-restart-721057689.md) | [smart-restart-721057689.yaml](smart-restart-721057689.yaml) |
 | update-motd-671264807 | evidence_only | [update-motd-671264807.md](update-motd-671264807.md) | [update-motd-671264807.yaml](update-motd-671264807.yaml) |
+| upgrade-modules-154886103 | evidence_only | [upgrade-modules-154886103.md](upgrade-modules-154886103.md) | [upgrade-modules-154886103.yaml](upgrade-modules-154886103.yaml) |

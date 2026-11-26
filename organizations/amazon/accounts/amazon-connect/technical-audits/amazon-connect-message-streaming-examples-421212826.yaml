@@ -1,0 +1,138 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:45:25+00:00'
+evidence_fingerprint: e90a4dfd2f44f05c0f2d16ba25feccfb2ce7b65492d087cfd7f6fa6dd679ba7f
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/amazon-connect-message-streaming-examples
+  repository_id: 421212826
+  url: https://github.com/amazon-connect/amazon-connect-message-streaming-examples
+  description: 'This repository contains an example project on how to get started with Amazon Connect Chat Message
+    Streaming APIs to enable SMS and Facebook messenger channels for customer service. '
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-07-20T06:16:04Z'
+  stars: 26
+  readme_url: https://github.com/amazon-connect/amazon-connect-message-streaming-examples/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1141d1237ed11cb66c5e5ba8373257be3ce7781b
+  manifest_paths:
+  - package.json
+  - src/common-util/package.json
+  - src/lambda/digitalChannelHealthCheck/package.json
+  - src/lambda/inboundMessageHandler/package.json
+  - src/lambda/outboundMessageHandler/package.json
+  source_files_inspected:
+  - src/common-util/index.js
+  - src/lambda/digitalChannelHealthCheck/index.js
+  - src/lambda/inboundMessageHandler/index.js
+  - src/lambda/outboundMessageHandler/index.js
+  repository_tree:
+    status: captured
+    sha: d5ed0262944148098ef147b0953b29320f863bb0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: For detailed steps please visit the blog
+  why_used: This repository contains an example project on how to get started with Amazon Connect Chat Message Streaming
+    APIs to enable SMS and Facebook messenger channels for customer service.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-cdk/assert'
+    - '@aws-cdk/aws-apigateway'
+    - '@aws-cdk/aws-apigatewayv2'
+    - '@aws-cdk/aws-apigatewayv2-integrations'
+    - '@aws-cdk/aws-dynamodb'
+    - '@aws-cdk/aws-iam'
+    - '@aws-cdk/aws-lambda'
+    - '@aws-cdk/aws-pinpoint'
+    - '@aws-cdk/aws-s3'
+    - '@aws-cdk/aws-s3-notifications'
+    - '@aws-cdk/aws-secretsmanager'
+    - '@aws-cdk/aws-sns'
+    - '@aws-cdk/aws-sns-subscriptions'
+    - '@aws-cdk/core'
+    - '@types/jest'
+    - '@types/node'
+    - aws-cdk
+    - aws-sdk
+    - common-util
+    - jest
+    - source-map-support
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/common-util/index.js,
+    src/lambda/digitalChannelHealthCheck/index.js, src/lambda/inboundMessageHandler/index.js, src/lambda/outboundMessageHandler/index.js'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/amazon-connect-message-streaming-examples/blob/main/README.md
+  path: README.md
+  blob_sha: 1141d1237ed11cb66c5e5ba8373257be3ce7781b
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: f50561493f5852176a88dbfebb3cbf6127877ec1
+  retrieved: true
+- type: manifest
+  path: src/common-util/package.json
+  blob_sha: 694265f02dfa018876f270abeae6b38ec003bd53
+  retrieved: true
+- type: manifest
+  path: src/lambda/digitalChannelHealthCheck/package.json
+  blob_sha: 47ea9efa859100aaf23315b5eef907f705beaa79
+  retrieved: true
+- type: manifest
+  path: src/lambda/inboundMessageHandler/package.json
+  blob_sha: 187b583a003e7caaf52ce098179771acf491c8d4
+  retrieved: true
+- type: manifest
+  path: src/lambda/outboundMessageHandler/package.json
+  blob_sha: ac49b41718c0ed24ebf0b816ec1bfa3b45295e3f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 41019
+    TypeScript: 15668
+- type: Git tree
+  status: captured
+  sha: d5ed0262944148098ef147b0953b29320f863bb0
+  truncated: false
+- type: source_file
+  path: src/common-util/index.js
+  blob_sha: f7b59fd5fa6f490b02e8efcd61464c2c48e69df3
+  retrieved: true
+- type: source_file
+  path: src/lambda/digitalChannelHealthCheck/index.js
+  blob_sha: 1977350b29475fe65b1204a61213f54ba3ecd7d5
+  retrieved: true
+- type: source_file
+  path: src/lambda/inboundMessageHandler/index.js
+  blob_sha: caee854acbf2e79d6c7775cf3e6c0851262050fe
+  retrieved: true
+- type: source_file
+  path: src/lambda/outboundMessageHandler/index.js
+  blob_sha: 79c3520b553a9cde8482351690b46e60437dde5f
+  retrieved: true

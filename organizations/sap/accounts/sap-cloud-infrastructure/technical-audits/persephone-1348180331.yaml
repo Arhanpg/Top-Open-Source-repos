@@ -1,0 +1,213 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:50:37+00:00'
+evidence_fingerprint: dadefa59d48a9a2d951dd260ad46ad03cbfc0c36aa2e8bae509dddceb3b50d5f
+repository_metadata:
+  company: SAP
+  account: SAP-cloud-infrastructure
+  full_name: SAP-cloud-infrastructure/persephone
+  repository_id: 1348180331
+  url: https://github.com/SAP-cloud-infrastructure/persephone
+  description: Kubernetes-as-a-Service operator for SAP Cloud Infrastructure. Automates the provisioning and lifecycle
+    management of Gardener-managed Kubernetes clusters on OpenStack.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T02:54:55Z'
+  stars: 7
+  readme_url: https://github.com/SAP-cloud-infrastructure/persephone/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 6f828749a91d27aeb30ea966e75ba2322ca5480a
+  manifest_paths:
+  - Dockerfile
+  - go.mod
+  - Makefile
+  source_files_inspected:
+  - cmd/persephone-audit-webhook/main.go
+  - cmd/persephone-liquid-apiserver/main.go
+  - cmd/persephone-operator/main.go
+  - cmd/persephone-webhook/main.go
+  repository_tree:
+    status: captured
+    sha: 233bc95ede7a10d840b9c26d197b1df219b89e94
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'SPDX-FileCopyrightText: 2025 SAP SE or an SAP affiliate company'
+  why_used: Kubernetes-as-a-Service operator for SAP Cloud Infrastructure. Automates the provisioning and lifecycle
+    management of Gardener-managed Kubernetes clusters on OpenStack.
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Makefile
+    - Dockerfile
+    - Shell
+    - Nix
+    frameworks_and_libraries: []
+    dependencies:
+    - cel.dev/expr
+    - dario.cat/mergo
+    - github.com/AdaLogics/go-fuzz-headers
+    - github.com/BurntSushi/toml
+    - github.com/Masterminds/goutils
+    - github.com/Masterminds/semver/v3
+    - github.com/Masterminds/sprig/v3
+    - github.com/NYTimes/gziphandler
+    - github.com/PaesslerAG/gval
+    - github.com/PaesslerAG/jsonpath
+    - github.com/VictoriaMetrics/VictoriaLogs
+    - github.com/VictoriaMetrics/VictoriaMetrics
+    - github.com/VictoriaMetrics/easyproto
+    - github.com/VictoriaMetrics/metrics
+    - github.com/VictoriaMetrics/metricsql
+    - github.com/VictoriaMetrics/operator/api
+    - github.com/adrg/xdg
+    - github.com/alecthomas/units
+    - github.com/andybalholm/brotli
+    - github.com/antlr4-go/antlr/v4
+    - github.com/armon/go-metrics
+    - github.com/aws/aws-sdk-go-v2
+    - github.com/aws/aws-sdk-go-v2/config
+    - github.com/aws/aws-sdk-go-v2/credentials
+    - github.com/aws/aws-sdk-go-v2/feature/ec2/imds
+    - github.com/aws/aws-sdk-go-v2/internal/configsources
+    - github.com/aws/aws-sdk-go-v2/internal/endpoints/v2
+    - github.com/aws/aws-sdk-go-v2/internal/v4a
+    - github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding
+    - github.com/aws/aws-sdk-go-v2/service/internal/presigned-url
+    - github.com/aws/aws-sdk-go-v2/service/signin
+    - github.com/aws/aws-sdk-go-v2/service/sso
+    - github.com/aws/aws-sdk-go-v2/service/ssooidc
+    - github.com/aws/aws-sdk-go-v2/service/sts
+    - github.com/aws/smithy-go
+    - github.com/beorn7/perks
+    - github.com/blang/semver/v4
+    - github.com/bmatcuk/doublestar/v4
+    - github.com/brunoga/deep
+    - github.com/cenkalti/backoff/v5
+    - github.com/cespare/xxhash/v2
+    - github.com/coreos/go-semver
+    - github.com/coreos/go-systemd/v22
+    - github.com/cyphar/filepath-securejoin
+    - github.com/databus23/goslo.policy
+    - github.com/davecgh/go-spew
+    - github.com/distribution/reference
+    - github.com/elliotchance/orderedmap/v3
+    - github.com/emicklei/go-restful/v3
+    - github.com/evanphx/json-patch/v5
+    - github.com/fatih/color
+    - github.com/felixge/httpsnoop
+    - github.com/fluent/fluent-operator/v3
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/gardener/cert-management
+    - github.com/gardener/etcd-druid/api
+    - github.com/gardener/gardener
+    - github.com/gardener/gardener-extension-provider-openstack
+    - github.com/gardener/gardener/pkg/apis
+    - github.com/gardener/machine-controller-manager
+    - github.com/gardener/pvc-autoscaler
+    - github.com/go-jose/go-jose/v4
+    - github.com/go-logr/logr
+    - github.com/go-logr/stdr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/errors
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/go-openapi/swag/cmdutils
+    - github.com/go-openapi/swag/conv
+    - github.com/go-openapi/swag/fileutils
+    - github.com/go-openapi/swag/jsonutils
+    - github.com/go-openapi/swag/loading
+    - github.com/go-openapi/swag/mangling
+    - github.com/go-openapi/swag/netutils
+    - github.com/go-openapi/swag/pools
+    - github.com/go-openapi/swag/stringutils
+    - github.com/go-openapi/swag/typeutils
+    - github.com/go-openapi/swag/yamlutils
+    - github.com/go-task/slim-sprig/v3
+    - github.com/go-test/deep
+    - github.com/go-viper/mapstructure/v2
+    - github.com/gobwas/glob
+    - github.com/golang-jwt/jwt/v5
+    - github.com/golang/protobuf
+    - github.com/google/btree
+    - github.com/google/cel-go
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/pprof
+    - github.com/google/uuid
+    - github.com/gophercloud/gophercloud/v2
+    - github.com/gorilla/mux
+    - github.com/gorilla/websocket
+    - github.com/grpc-ecosystem/go-grpc-middleware/providers/prometheus
+    - github.com/grpc-ecosystem/go-grpc-middleware/v2
+    - github.com/grpc-ecosystem/grpc-gateway/v2
+    - github.com/hashicorp/errwrap
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/persephone-audit-webhook/main.go,
+    cmd/persephone-liquid-apiserver/main.go, cmd/persephone-operator/main.go, cmd/persephone-webhook/main.go'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP-cloud-infrastructure/persephone/blob/main/README.md
+  path: README.md
+  blob_sha: 6f828749a91d27aeb30ea966e75ba2322ca5480a
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: deb3d9efc78fa00b6d5fae5ce005fb97dc2da9e2
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: ed7f60eeaeb80a3b2e94742b645ff3ec89cc901a
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 901c577184b1c48be384e19d38cd7777f3f48963
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 559218
+    Makefile: 19243
+    Dockerfile: 3452
+    Shell: 3038
+    Nix: 465
+- type: Git tree
+  status: captured
+  sha: 233bc95ede7a10d840b9c26d197b1df219b89e94
+  truncated: false
+- type: source_file
+  path: cmd/persephone-audit-webhook/main.go
+  blob_sha: e729a833612b1baad3acc7a8c22794864d6a8f65
+  retrieved: true
+- type: source_file
+  path: cmd/persephone-liquid-apiserver/main.go
+  blob_sha: 82af80240a067bd543c7c219f1c609eafdd293f8
+  retrieved: true
+- type: source_file
+  path: cmd/persephone-operator/main.go
+  blob_sha: 6924c0d283f87d74dc6df1c54a1d2ee8a54cfd00
+  retrieved: true
+- type: source_file
+  path: cmd/persephone-webhook/main.go
+  blob_sha: 9637d84e814e588bb3cbbc89a057ebc8dd8e8c1a
+  retrieved: true

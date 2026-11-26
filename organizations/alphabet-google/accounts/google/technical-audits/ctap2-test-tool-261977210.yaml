@@ -1,7 +1,7 @@
 schema_version: '1.0'
 audit_status: evidence_only
-generated_at: '2026-11-26T07:18:54+00:00'
-evidence_fingerprint: 59dba38c685da765afbc0bb0e7ec1e3d427684f5f9fa2378743c615bf297bc57
+generated_at: '2026-11-26T22:37:49+00:00'
+evidence_fingerprint: 471171c25792c13dbc404a05c706185cc13bef96b1d9e6df1ff3dde2bd5dc717
 repository_metadata:
   company: Alphabet (Google)
   account: google
@@ -37,7 +37,12 @@ analysis:
   why_used: Test tool for CTAP2 authenticators
   core_features: []
   technology_stack:
-    languages: []
+    languages:
+    - C++
+    - Starlark
+    - Shell
+    - Python
+    - Batchfile
     frameworks_and_libraries: []
     dependencies:
     - argparse
@@ -69,7 +74,12 @@ evidence_sources:
   blob_sha: e75022369a50f9e81bf0ba280edf79afa0150680
   retrieved: true
 - type: GitHub Languages API
-  values: {}
+  values:
+    C++: 453341
+    Starlark: 16420
+    Shell: 5763
+    Python: 4268
+    Batchfile: 748
 - type: Git tree
   status: captured
   sha: 0e3d32d8cb10c03a4a28e099b152c6c62d620d4e

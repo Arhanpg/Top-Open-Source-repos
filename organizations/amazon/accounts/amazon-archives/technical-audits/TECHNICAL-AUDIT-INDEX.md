@@ -1,10 +1,10 @@
 # Technical audits — amazon-archives
 
-Updated: 2026-11-26T07:22:00+00:00
+Updated: 2026-11-26T22:57:03+00:00
 
 ## Status counts
 
-- evidence_only: 15
+- evidence_only: 19
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -18,6 +18,10 @@ Updated: 2026-11-26T07:22:00+00:00
 | amazon-cloudfront-dynamic-ota-390490032 | evidence_only | [amazon-cloudfront-dynamic-ota-390490032.md](amazon-cloudfront-dynamic-ota-390490032.md) | [amazon-cloudfront-dynamic-ota-390490032.yaml](amazon-cloudfront-dynamic-ota-390490032.yaml) |
 | amazon-cognito-android-21631940 | evidence_only | [amazon-cognito-android-21631940.md](amazon-cognito-android-21631940.md) | [amazon-cognito-android-21631940.yaml](amazon-cognito-android-21631940.yaml) |
 | amazon-cognito-auth-js-93084667 | evidence_only | [amazon-cognito-auth-js-93084667.md](amazon-cognito-auth-js-93084667.md) | [amazon-cognito-auth-js-93084667.yaml](amazon-cognito-auth-js-93084667.yaml) |
+| amazon-cognito-ios-21633057 | evidence_only | [amazon-cognito-ios-21633057.md](amazon-cognito-ios-21633057.md) | [amazon-cognito-ios-21633057.yaml](amazon-cognito-ios-21633057.yaml) |
+| amazon-cognito-js-26130293 | evidence_only | [amazon-cognito-js-26130293.md](amazon-cognito-js-26130293.md) | [amazon-cognito-js-26130293.yaml](amazon-cognito-js-26130293.yaml) |
+| amazon-cognito-streams-sample-31430470 | evidence_only | [amazon-cognito-streams-sample-31430470.md](amazon-cognito-streams-sample-31430470.md) | [amazon-cognito-streams-sample-31430470.yaml](amazon-cognito-streams-sample-31430470.yaml) |
+| amazon-cognito-unity-28116001 | evidence_only | [amazon-cognito-unity-28116001.md](amazon-cognito-unity-28116001.md) | [amazon-cognito-unity-28116001.yaml](amazon-cognito-unity-28116001.yaml) |
 | aws-mimic-iiitoomop-91026662 | evidence_only | [aws-mimic-iiitoomop-91026662.md](aws-mimic-iiitoomop-91026662.md) | [aws-mimic-iiitoomop-91026662.yaml](aws-mimic-iiitoomop-91026662.yaml) |
 | bsmobileprovision-10947817 | evidence_only | [bsmobileprovision-10947817.md](bsmobileprovision-10947817.md) | [bsmobileprovision-10947817.yaml](bsmobileprovision-10947817.yaml) |
 | github-171341969 | insufficient_evidence | [github-171341969.md](github-171341969.md) | [github-171341969.yaml](github-171341969.yaml) |

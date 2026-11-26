@@ -1,0 +1,130 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:32:05+00:00'
+evidence_fingerprint: e0a3326a543a109d7af64da36d87cd426cdc10424ccfd34ad2cbbe193ed1e9d9
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/aws-deepracer-offroad-sample-project
+  repository_id: 355335343
+  url: https://github.com/aws-deepracer/aws-deepracer-offroad-sample-project
+  description: Use a series of QR codes as waypoints to navigate the AWS DeepRacer around a custom path. Create
+    your own custom path by placing the basic waypoint codes as a sequence along the track or encode additional
+    instructions in them to invent new applications.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2022-06-06T23:41:08Z'
+  stars: 15
+  readme_url: https://github.com/aws-deepracer/aws-deepracer-offroad-sample-project/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2a6c10120de018bce30b07c33ab24faceab01fc4
+  manifest_paths:
+  - deepracer_offroad_ws/ctrl_pkg/CMakeLists.txt
+  - deepracer_offroad_ws/deepracer_interfaces_pkg/CMakeLists.txt
+  - deepracer_offroad_ws/deepracer_offroad_launcher/CMakeLists.txt
+  - deepracer_offroad_ws/deepracer_offroad_navigation_pkg/setup.py
+  - deepracer_offroad_ws/qr_detection_pkg/setup.py
+  - deepracer_offroad_ws/webserver_pkg/setup.py
+  source_files_inspected:
+  - deepracer_offroad_ws/ctrl_pkg/src/ctrl_node.cpp
+  - deepracer_offroad_ws/ctrl_pkg/src/ctrl_state.cpp
+  - deepracer_offroad_ws/ctrl_pkg/include/ctrl_pkg/ctrl_state.hpp
+  - deepracer_offroad_ws/ctrl_pkg/include/ctrl_pkg/ctrl_state_base.hpp
+  repository_tree:
+    status: captured
+    sha: a23849511ff71e6945255f7cad72a3642f99b880
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The AWS DeepRacer Offroad sample project is a sample application built on top of the existing AWS DeepRacer
+    application. It uses QR code detection, through which the AWS DeepRacer device can identify and navigate along
+    a path set up using QR codes to guide the car. For detailed information on the AWS DeepRacer Offroad sample
+    project, see the AWS DeepRacer Offroad sample project getting started documentation.
+  why_used: Use a series of QR codes as waypoints to navigate the AWS DeepRacer around a custom path. Create your
+    own custom path by placing the basic waypoint codes as a sequence along the track or encode additional instructions
+    in them to invent new applications.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - CMake
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: deepracer_offroad_ws/ctrl_pkg/src/ctrl_node.cpp,
+    deepracer_offroad_ws/ctrl_pkg/src/ctrl_state.cpp, deepracer_offroad_ws/ctrl_pkg/include/ctrl_pkg/ctrl_state.hpp,
+    deepracer_offroad_ws/ctrl_pkg/include/ctrl_pkg/ctrl_state_base.hpp'
+  setup_and_usage:
+  - 'Installation: Follow these steps to install the AWS DeepRacer Offroad sample project.'
+  - 'Usage: To use the AWS DeepRacer Offroad sample application, follow these instructions.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/aws-deepracer-offroad-sample-project/blob/main/README.md
+  path: README.md
+  blob_sha: 2a6c10120de018bce30b07c33ab24faceab01fc4
+  retrieved: true
+- type: manifest
+  path: deepracer_offroad_ws/ctrl_pkg/CMakeLists.txt
+  blob_sha: 0429a100ffe283c5a59dc185ab53820b781455eb
+  retrieved: true
+- type: manifest
+  path: deepracer_offroad_ws/deepracer_interfaces_pkg/CMakeLists.txt
+  blob_sha: 1395d8eeca507ba3b42afda58a473b27a47ac073
+  retrieved: true
+- type: manifest
+  path: deepracer_offroad_ws/deepracer_offroad_launcher/CMakeLists.txt
+  blob_sha: 7764e89cd474376a47c23e3b876d1d0261aa056b
+  retrieved: true
+- type: manifest
+  path: deepracer_offroad_ws/deepracer_offroad_navigation_pkg/setup.py
+  blob_sha: d930b0d09690e8bf2796eb7f66c6c23f6354ba58
+  retrieved: true
+- type: manifest
+  path: deepracer_offroad_ws/qr_detection_pkg/setup.py
+  blob_sha: 8dc51cc70aa1dd2bde1440f554d1533d59de26c0
+  retrieved: true
+- type: manifest
+  path: deepracer_offroad_ws/webserver_pkg/setup.py
+  blob_sha: c68dc03e3b80826c9a976eeb7136a6c33924a155
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 246639
+    C++: 88920
+    CMake: 4966
+    Shell: 815
+- type: Git tree
+  status: captured
+  sha: a23849511ff71e6945255f7cad72a3642f99b880
+  truncated: false
+- type: source_file
+  path: deepracer_offroad_ws/ctrl_pkg/src/ctrl_node.cpp
+  blob_sha: cce2dc5837f6df5c16fa935f1572cd44696c3267
+  retrieved: true
+- type: source_file
+  path: deepracer_offroad_ws/ctrl_pkg/src/ctrl_state.cpp
+  blob_sha: 6270820a7ae486310770fc0964b13b280633e7cb
+  retrieved: true
+- type: source_file
+  path: deepracer_offroad_ws/ctrl_pkg/include/ctrl_pkg/ctrl_state.hpp
+  blob_sha: 2f945f9b82bea16419ddfc9786e57ec9b6fde2f1
+  retrieved: true
+- type: source_file
+  path: deepracer_offroad_ws/ctrl_pkg/include/ctrl_pkg/ctrl_state_base.hpp
+  blob_sha: e35782605f8c26bfe5437e43d0771cd9b139cb89
+  retrieved: true

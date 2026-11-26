@@ -1,0 +1,119 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:49:01+00:00'
+evidence_fingerprint: 36df9e30675cfdb0a90bbb60f51fb8b7d6d05262cb27e3638e6daf65989d7fc9
+repository_metadata:
+  company: Microsoft
+  account: dotnet
+  full_name: dotnet/Docker.DotNet
+  repository_id: 23337905
+  url: https://github.com/dotnet/Docker.DotNet
+  description: ':whale: .NET (C#) Client Library for Docker API'
+  default_branch: master
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-08-28T14:08:51Z'
+  stars: 2414
+  readme_url: https://github.com/dotnet/Docker.DotNet/blob/master/README.md
+  readme_path: README.md
+  readme_sha: f54f82752d2386a6e7d2c01906efed0f6db4784a
+  manifest_paths:
+  - tools/specgen/go.mod
+  source_files_inspected:
+  - src/Docker.DotNet.BasicAuth/BasicAuthCredentials.cs
+  - src/Docker.DotNet.BasicAuth/BasicAuthHandler.cs
+  - src/Docker.DotNet.BasicAuth/MaybeSecureString.cs
+  - src/Docker.DotNet.X509/CertificateCredentials.cs
+  repository_tree:
+    status: captured
+    sha: f23fb236b9d07519f90c7851df7baef22abee471
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: "\uFEFF# .NET Client for Docker Remote API"
+  why_used: ':whale: .NET (C#) Client Library for Docker API'
+  core_features: []
+  technology_stack:
+    languages:
+    - C#
+    - Go
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/davecgh/go-spew
+    - github.com/docker/docker
+    - github.com/docker/go-connections
+    - github.com/docker/go-units
+    - github.com/gogo/protobuf
+    - github.com/google/go-cmp
+    - github.com/kr/text
+    - github.com/moby/term
+    - github.com/morikuni/aec
+    - github.com/opencontainers/go-digest
+    - github.com/opencontainers/image-spec
+    - github.com/stretchr/testify
+    - golang.org/x/sys
+    - golang.org/x/xerrors
+    - gopkg.in/check.v1
+    - gopkg.in/yaml.v3
+    - gotest.tools/v3
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/Docker.DotNet.BasicAuth/BasicAuthCredentials.cs,
+    src/Docker.DotNet.BasicAuth/BasicAuthHandler.cs, src/Docker.DotNet.BasicAuth/MaybeSecureString.cs, src/Docker.DotNet.X509/CertificateCredentials.cs'
+  setup_and_usage:
+  - 'Installation: [](https://www.nuget.org/packages/Docker.DotNet)'
+  - 'Installation: You can add this library to your project using [NuGet][nuget].'
+  - 'Installation: **Package Manager Console**'
+  - 'Installation: Run the following command in the “Package Manager Console”:'
+  - 'Installation: > PM> Install-Package Docker.DotNet'
+  - 'Installation: Right click to your project in Visual Studio, choose “Manage NuGet Packages” and search for ‘Docker.DotNet’
+    and click ‘Install’.'
+  - 'Installation: ([see NuGet Gallery][nuget-gallery].)'
+  - 'Installation: **.NET Core Command Line Interface**'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/dotnet/Docker.DotNet/blob/master/README.md
+  path: README.md
+  blob_sha: f54f82752d2386a6e7d2c01906efed0f6db4784a
+  retrieved: true
+- type: manifest
+  path: tools/specgen/go.mod
+  blob_sha: 1f9d6603681a97731d559fc5327baa5c221acb8e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 577815
+    Go: 45525
+    Batchfile: 67
+- type: Git tree
+  status: captured
+  sha: f23fb236b9d07519f90c7851df7baef22abee471
+  truncated: false
+- type: source_file
+  path: src/Docker.DotNet.BasicAuth/BasicAuthCredentials.cs
+  blob_sha: 16e0a3b12db2c6a97f254630e37556c7fb6ba075
+  retrieved: true
+- type: source_file
+  path: src/Docker.DotNet.BasicAuth/BasicAuthHandler.cs
+  blob_sha: 96c6fb9a9f4f22454c8cd899db7687197a0a3c15
+  retrieved: true
+- type: source_file
+  path: src/Docker.DotNet.BasicAuth/MaybeSecureString.cs
+  blob_sha: 8ce95303906fbccc4fd71c7684ee13f8025a31e3
+  retrieved: true
+- type: source_file
+  path: src/Docker.DotNet.X509/CertificateCredentials.cs
+  blob_sha: 852bb34ff02747570233ea230d25130d2ba8292a
+  retrieved: true

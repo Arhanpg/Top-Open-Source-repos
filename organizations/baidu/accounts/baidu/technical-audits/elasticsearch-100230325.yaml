@@ -1,0 +1,89 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:48:29+00:00'
+evidence_fingerprint: 5a64c7f853eb38f6bb3cb7a55b5f60ddc05196e7838332341d55fe65deea898b
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/Elasticsearch
+  repository_id: 100230325
+  url: https://github.com/baidu/Elasticsearch
+  description: Baidu Elasticsearch
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2018-07-29T22:18:49Z'
+  stars: 431
+  readme_url: https://github.com/baidu/Elasticsearch/blob/master/README.md
+  readme_path: README.md
+  readme_sha: db0d9c53bf1034252ed1aa44a207861b289af140
+  manifest_paths: []
+  source_files_inspected:
+  - src/main/baidu/java/io/crate/analyze/AlterTenantModifyNodesAnalyzedStatement.java
+  - src/main/baidu/java/io/crate/analyze/AlterTenantModifyNodesStatementAnalyzer.java
+  - src/main/baidu/java/io/crate/analyze/AlterTenantPropertyAnalyzedStatement.java
+  - src/main/baidu/java/io/crate/analyze/AlterTenantPropertyStatementAnalyzer.java
+  repository_tree:
+    status: captured
+    sha: b5897700ae65759cfcdd040b05c637d2ddebb736
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Elasticsearch是一个灵活、功能强大的开源、分布式的实时搜索和分析引擎，百度从2014年开始在内部使用Elasticsearch来解决日志分析，多维分析，文本检索等问题。 在使用的过程中遇到了一系列的问题，比如Elasticsearch的多副本一致性，脑裂问题，查询语言不易用等。针对这些问题百度做了一系列的优化和改进，改进主要基于社区版本的Elasticsearch
+    2.3.3 和 Crate 0.55.
+  why_used: Baidu Elasticsearch
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - GAP
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/main/baidu/java/io/crate/analyze/AlterTenantModifyNodesAnalyzedStatement.java,
+    src/main/baidu/java/io/crate/analyze/AlterTenantModifyNodesStatementAnalyzer.java, src/main/baidu/java/io/crate/analyze/AlterTenantPropertyAnalyzedStatement.java,
+    src/main/baidu/java/io/crate/analyze/AlterTenantPropertyStatementAnalyzer.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/Elasticsearch/blob/master/README.md
+  path: README.md
+  blob_sha: db0d9c53bf1034252ed1aa44a207861b289af140
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 25456244
+    GAP: 81842
+    Shell: 10444
+- type: Git tree
+  status: captured
+  sha: b5897700ae65759cfcdd040b05c637d2ddebb736
+  truncated: false
+- type: source_file
+  path: src/main/baidu/java/io/crate/analyze/AlterTenantModifyNodesAnalyzedStatement.java
+  blob_sha: cf425ed68e8178b0063bd305539318f7e44cfb79
+  retrieved: true
+- type: source_file
+  path: src/main/baidu/java/io/crate/analyze/AlterTenantModifyNodesStatementAnalyzer.java
+  blob_sha: b3d8bac080ad5f10de231a6602a0d5a1226090f2
+  retrieved: true
+- type: source_file
+  path: src/main/baidu/java/io/crate/analyze/AlterTenantPropertyAnalyzedStatement.java
+  blob_sha: 92a14877437a4c6b01077b77683602e84ae4d8c5
+  retrieved: true
+- type: source_file
+  path: src/main/baidu/java/io/crate/analyze/AlterTenantPropertyStatementAnalyzer.java
+  blob_sha: 0aff3654f3d74b57a4849928f69e64ca20956577
+  retrieved: true

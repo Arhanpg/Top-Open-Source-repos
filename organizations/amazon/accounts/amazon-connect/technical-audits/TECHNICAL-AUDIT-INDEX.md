@@ -1,10 +1,10 @@
 # Technical audits — amazon-connect
 
-Updated: 2026-11-26T07:22:00+00:00
+Updated: 2026-11-26T22:57:04+00:00
 
 ## Status counts
 
-- evidence_only: 15
+- evidence_only: 19
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -25,5 +25,9 @@ Updated: 2026-11-26T07:22:00+00:00
 | amazon-connect-contact-lens-action-item-reminders-433524996 | evidence_only | [amazon-connect-contact-lens-action-item-reminders-433524996.md](amazon-connect-contact-lens-action-item-reminders-433524996.md) | [amazon-connect-contact-lens-action-item-reminders-433524996.yaml](amazon-connect-contact-lens-action-item-reminders-433524996.yaml) |
 | amazon-connect-contact-lens-api-sample-app-360750239 | evidence_only | [amazon-connect-contact-lens-api-sample-app-360750239.md](amazon-connect-contact-lens-api-sample-app-360750239.md) | [amazon-connect-contact-lens-api-sample-app-360750239.yaml](amazon-connect-contact-lens-api-sample-app-360750239.yaml) |
 | amazon-connect-customer-profiles-508463431 | evidence_only | [amazon-connect-customer-profiles-508463431.md](amazon-connect-customer-profiles-508463431.md) | [amazon-connect-customer-profiles-508463431.yaml](amazon-connect-customer-profiles-508463431.yaml) |
+| amazon-connect-github-io-209400569 | evidence_only | [amazon-connect-github-io-209400569.md](amazon-connect-github-io-209400569.md) | [amazon-connect-github-io-209400569.yaml](amazon-connect-github-io-209400569.yaml) |
+| amazon-connect-in-app-calling-examples-778445982 | evidence_only | [amazon-connect-in-app-calling-examples-778445982.md](amazon-connect-in-app-calling-examples-778445982.md) | [amazon-connect-in-app-calling-examples-778445982.yaml](amazon-connect-in-app-calling-examples-778445982.yaml) |
+| amazon-connect-message-streaming-examples-421212826 | evidence_only | [amazon-connect-message-streaming-examples-421212826.md](amazon-connect-message-streaming-examples-421212826.md) | [amazon-connect-message-streaming-examples-421212826.yaml](amazon-connect-message-streaming-examples-421212826.yaml) |
+| amazon-connect-realtime-transcription-171378529 | evidence_only | [amazon-connect-realtime-transcription-171378529.md](amazon-connect-realtime-transcription-171378529.md) | [amazon-connect-realtime-transcription-171378529.yaml](amazon-connect-realtime-transcription-171378529.yaml) |
 | amazonconnectsdk-692108977 | evidence_only | [amazonconnectsdk-692108977.md](amazonconnectsdk-692108977.md) | [amazonconnectsdk-692108977.yaml](amazonconnectsdk-692108977.yaml) |
 | github-204069760 | insufficient_evidence | [github-204069760.md](github-204069760.md) | [github-204069760.yaml](github-204069760.yaml) |

@@ -1,0 +1,140 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:42:53+00:00'
+evidence_fingerprint: 2ab869e7f026f90819f4f0de06dc4935b3df32b0d6411ab83f133751af5792ca
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/clx
+  repository_id: 186716715
+  url: https://github.com/rapidsai/clx
+  description: A collection of RAPIDS examples for security analysts, data scientists, and engineers to quickly
+    get started applying RAPIDS and GPU acceleration to real-world cybersecurity use cases.
+  default_branch: branch-23.04
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2023-05-19T16:07:03Z'
+  stars: 174
+  readme_url: https://github.com/rapidsai/clx/blob/branch-23.04/README.md
+  readme_path: README.md
+  readme_sha: 4a48cad4ab10d34a718002d77d69cad968a95fd0
+  manifest_paths:
+  - Dockerfile
+  - docs/Makefile
+  - python/setup.py
+  - siem_integrations/Dockerfile
+  - examples/streamz/Dockerfile
+  - examples/streamz/python/setup.py
+  source_files_inspected:
+  - build.sh
+  - ci/checks/changelog.sh
+  - ci/checks/style.sh
+  - ci/cpu/build.sh
+  repository_tree:
+    status: captured
+    sha: 14e3a6d5d5ef1a7fc576c0670361fc908630b495
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: CLX has been deprecated in favor of Morpheus, a new highly optimized AI framework that includes pre-trained
+    AI capabilities for cybersecurity. This repo will therefore no longer be updated. Many of the CLX use cases
+    and examples have already been migrated to Morpheus. The Morpheus framework also allows you to build your own
+    pipelines for cybersecurity and information security use cases.
+  why_used: A collection of RAPIDS examples for security analysts, data scientists, and engineers to quickly get
+    started applying RAPIDS and GPU acceleration to real-world cybersecurity use cases.
+  core_features: []
+  technology_stack:
+    languages:
+    - Jupyter Notebook
+    - Python
+    - Shell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: build.sh, ci/checks/changelog.sh,
+    ci/checks/style.sh, ci/cpu/build.sh'
+  setup_and_usage:
+  - 'Quick Start: Please see the Demo Docker Repository, choosing a tag based on the NVIDIA CUDA version you’re
+    running. This provides a ready to run Docker container with CLX and its dependencies already installed.'
+  - 'Quick Start: docker pull rapidsai/rapidsai-clx:22.04-cuda11.5-runtime-ubuntu18.04-py3.8'
+  - 'Quick Start: Nightly images for current development version can be pulled from https://hub.docker.com/r/rapidsai/rapidsai-clx-nightly.'
+  - 'Getting Started with Python and Notebooks: CLX is targeted towards cybersecurity data scientists, senior security
+    analysts, threat hunters, and forensic investigators. Data scientists can use CLX in traditional Python files
+    and Jupyter notebooks. The notebooks folder contains example use cases and workflow instantiations. It''s also
+    easy to get started using CLX with RAPIDS with Python. The '
+  - 'Getting Started With Workflows: In addition to traditional Python files and Jupyter notebooks, CLX also includes
+    structure in the form of a workflow. A workflow is a series of data transformations performed on a GPU dataframe
+    that contains raw cyber data, with the goal of surfacing meaningful cyber analytical output. Multiple I/O methods
+    are available, including Kafka and on-disk'
+  - 'Getting Started With Workflows: Example flow workflow reading and writing to file:'
+  - 'Getting Started With Workflows: from clx.workflow import netflow_workflow'
+  - 'Getting Started With Workflows: "input_format": "csv",'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/clx/blob/branch-23.04/README.md
+  path: README.md
+  blob_sha: 4a48cad4ab10d34a718002d77d69cad968a95fd0
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: fad66e1be18a5598df9afc6afa055a7e294f958b
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: d34345c9c2f6ed69501079d2d43287a444b5daa9
+  retrieved: true
+- type: manifest
+  path: python/setup.py
+  blob_sha: ffdd888833ff2fc91ffa851253f790813c5f18ec
+  retrieved: true
+- type: manifest
+  path: siem_integrations/Dockerfile
+  blob_sha: bfa6eacfe25d380e4693cd452365c6bb41f9757f
+  retrieved: true
+- type: manifest
+  path: examples/streamz/Dockerfile
+  blob_sha: 186f6592927c1f3be4fd9894ed4815befe756eba
+  retrieved: true
+- type: manifest
+  path: examples/streamz/python/setup.py
+  blob_sha: bd7323e9b2090f1450c9e039eb9f64173484b050
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Jupyter Notebook: 2772795
+    Python: 569624
+    Shell: 28859
+    Dockerfile: 2340
+- type: Git tree
+  status: captured
+  sha: 14e3a6d5d5ef1a7fc576c0670361fc908630b495
+  truncated: false
+- type: source_file
+  path: build.sh
+  blob_sha: bb33bfa05f095229e31440d812d015baa430f325
+  retrieved: true
+- type: source_file
+  path: ci/checks/changelog.sh
+  blob_sha: e6ae7311ed7467bce89c94f81d86b50e119dc2c1
+  retrieved: true
+- type: source_file
+  path: ci/checks/style.sh
+  blob_sha: 53d92c932457311b05fdd020153ba157e08bfecd
+  retrieved: true
+- type: source_file
+  path: ci/cpu/build.sh
+  blob_sha: d9263a86a6192bf3042b90d662f4122ea7744c1e
+  retrieved: true

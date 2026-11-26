@@ -1,10 +1,10 @@
 # Technical audits — capire
 
-Updated: 2026-11-26T07:22:01+00:00
+Updated: 2026-11-26T22:57:01+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 
 ## Repository dossiers
 
@@ -22,3 +22,7 @@ Updated: 2026-11-26T07:22:01+00:00
 | incidents-1023089908 | evidence_only | [incidents-1023089908.md](incidents-1023089908.md) | [incidents-1023089908.yaml](incidents-1023089908.yaml) |
 | incidents-app-685533985 | evidence_only | [incidents-app-685533985.md](incidents-app-685533985.md) | [incidents-app-685533985.yaml](incidents-app-685533985.yaml) |
 | orders-959656315 | evidence_only | [orders-959656315.md](orders-959656315.md) | [orders-959656315.yaml](orders-959656315.yaml) |
+| orders-java-1118827303 | evidence_only | [orders-java-1118827303.md](orders-java-1118827303.md) | [orders-java-1118827303.yaml](orders-java-1118827303.yaml) |
+| reviews-959655991 | evidence_only | [reviews-959655991.md](reviews-959655991.md) | [reviews-959655991.yaml](reviews-959655991.yaml) |
+| reviews-java-1118827554 | evidence_only | [reviews-java-1118827554.md](reviews-java-1118827554.md) | [reviews-java-1118827554.yaml](reviews-java-1118827554.yaml) |
+| s4-1143213033 | evidence_only | [s4-1143213033.md](s4-1143213033.md) | [s4-1143213033.yaml](s4-1143213033.yaml) |

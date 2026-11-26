@@ -1,0 +1,95 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:41:09+00:00'
+evidence_fingerprint: 44fe6d80b5f533f925c13b42d3b5e09c0fbe43ee0419689fc48870dd75319241
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/app-store-server-library-swift
+  repository_id: 647516197
+  url: https://github.com/apple/app-store-server-library-swift
+  description: The Swift server library for the App Store Server API and App Store Server Notifications.
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-20T04:02:58Z'
+  stars: 302
+  readme_url: https://github.com/apple/app-store-server-library-swift/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5e9de9ea5b72e438da8a9624dc050d77d0643597
+  manifest_paths: []
+  source_files_inspected:
+  - Package.swift
+  - Sources/AppStoreServerLibrary/ChainVerifier.swift
+  - Sources/AppStoreServerLibrary/JWSSignatureCreator.swift
+  - Sources/AppStoreServerLibrary/Models/AccountTenure.swift
+  repository_tree:
+    status: captured
+    sha: 2cfb2faef49525aa5d7aaced7873eb23b0a6e2c1
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Swift server library for the App Store Server API, App Store Server Notifications, the Retention
+    Messaging API, and Advanced Commerce API. Also available in Java, Python, and Node.js.
+  why_used: The Swift server library for the App Store Server API and App Store Server Notifications.
+  core_features: []
+  technology_stack:
+    languages:
+    - Swift
+    - Lua
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Package.swift, Sources/AppStoreServerLibrary/ChainVerifier.swift,
+    Sources/AppStoreServerLibrary/JWSSignatureCreator.swift, Sources/AppStoreServerLibrary/Models/AccountTenure.swift'
+  setup_and_usage:
+  - 'API Usage: import AppStoreServerLibrary'
+  - 'API Usage: let issuerId = "99b16628-15e4-4668-972b-eeff55eeff55"'
+  - 'API Usage: let keyId = "ABCDEFGHIJ"'
+  - 'API Usage: let bundleId = "com.example"'
+  - 'API Usage: let encodedKey = try! String(contentsOfFile: "/path/to/key/SubscriptionKey_ABCDEFGHIJ.p8")'
+  - 'API Usage: let environment = AppStoreEnvironment.sandbox'
+  - 'API Usage: // try! used for example purposes only'
+  - 'API Usage: let client = try! AppStoreServerAPIClient(signingKey: encodedKey, keyId: keyId, issuerId: issuerId,
+    bundleId: bundleId, environment: environment)'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/app-store-server-library-swift/blob/main/README.md
+  path: README.md
+  blob_sha: 5e9de9ea5b72e438da8a9624dc050d77d0643597
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Swift: 876137
+    Lua: 241
+- type: Git tree
+  status: captured
+  sha: 2cfb2faef49525aa5d7aaced7873eb23b0a6e2c1
+  truncated: false
+- type: source_file
+  path: Package.swift
+  blob_sha: b9413b82bbb648298292e7e73a06b87a42a4c01b
+  retrieved: true
+- type: source_file
+  path: Sources/AppStoreServerLibrary/ChainVerifier.swift
+  blob_sha: fef88afce0bb5a4e64b99c6bd544bf8fad0f1ee1
+  retrieved: true
+- type: source_file
+  path: Sources/AppStoreServerLibrary/JWSSignatureCreator.swift
+  blob_sha: 772ed84a6ad3e900e39fca3e39bce4033b5b3fd8
+  retrieved: true
+- type: source_file
+  path: Sources/AppStoreServerLibrary/Models/AccountTenure.swift
+  blob_sha: 2bffd4b65629924ca10bbe3d1d810880d85aae96
+  retrieved: true

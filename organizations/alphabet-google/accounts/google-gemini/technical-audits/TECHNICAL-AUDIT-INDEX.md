@@ -1,10 +1,10 @@
 # Technical audits — google-gemini
 
-Updated: 2026-11-26T07:22:02+00:00
+Updated: 2026-11-26T22:57:02+00:00
 
 ## Status counts
 
-- evidence_only: 15
+- evidence_only: 19
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -25,5 +25,9 @@ Updated: 2026-11-26T07:22:02+00:00
 | computer-use-preview-978411532 | evidence_only | [computer-use-preview-978411532.md](computer-use-preview-978411532.md) | [computer-use-preview-978411532.yaml](computer-use-preview-978411532.yaml) |
 | cookbook-771670025 | evidence_only | [cookbook-771670025.md](cookbook-771670025.md) | [cookbook-771670025.yaml](cookbook-771670025.yaml) |
 | crewai-quickstart-1002698252 | evidence_only | [crewai-quickstart-1002698252.md](crewai-quickstart-1002698252.md) | [crewai-quickstart-1002698252.yaml](crewai-quickstart-1002698252.yaml) |
+| demolab-1426842914 | evidence_only | [demolab-1426842914.md](demolab-1426842914.md) | [demolab-1426842914.yaml](demolab-1426842914.yaml) |
+| deprecated-generative-ai-android-727310537 | evidence_only | [deprecated-generative-ai-android-727310537.md](deprecated-generative-ai-android-727310537.md) | [deprecated-generative-ai-android-727310537.yaml](deprecated-generative-ai-android-727310537.yaml) |
+| deprecated-generative-ai-dart-730328013 | evidence_only | [deprecated-generative-ai-dart-730328013.md](deprecated-generative-ai-dart-730328013.md) | [deprecated-generative-ai-dart-730328013.yaml](deprecated-generative-ai-dart-730328013.yaml) |
+| deprecated-generative-ai-js-727311636 | evidence_only | [deprecated-generative-ai-js-727311636.md](deprecated-generative-ai-js-727311636.md) | [deprecated-generative-ai-js-727311636.yaml](deprecated-generative-ai-js-727311636.yaml) |
 | github-765449529 | insufficient_evidence | [github-765449529.md](github-765449529.md) | [github-765449529.yaml](github-765449529.yaml) |
 | journal-with-gemini-798431387 | evidence_only | [journal-with-gemini-798431387.md](journal-with-gemini-798431387.md) | [journal-with-gemini-798431387.yaml](journal-with-gemini-798431387.yaml) |

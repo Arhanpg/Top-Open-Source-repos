@@ -1,0 +1,96 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:33:49+00:00'
+evidence_fingerprint: c55158314a341db7ec1386395dc341acb18236d31273ed72f23cdb7da437fa70
+repository_metadata:
+  company: Amazon
+  account: firecracker-microvm
+  full_name: firecracker-microvm/versionize_derive
+  repository_id: 259238816
+  url: https://github.com/firecracker-microvm/versionize_derive
+  description: Exports the Versionize derive proc macro that generates the Versionize implementation for structs,
+    enums and unions by using structure annotations.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2023-08-24T10:40:31Z'
+  stars: 14
+  readme_url: https://github.com/firecracker-microvm/versionize_derive/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b0b5a224b4db4024a672b4fc5e3994e201527bc5
+  manifest_paths:
+  - Cargo.toml
+  source_files_inspected:
+  - src/descriptors/mod.rs
+  - src/fields/mod.rs
+  - src/lib.rs
+  - src/common.rs
+  repository_tree:
+    status: captured
+    sha: 12a7fd24ccb6b9839b26e5222024af04dfa9c0c8
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Versionize is a framework for version tolerant serializion/deserialization of Rust data structures,
+    designed for usecases that need fast deserialization times and minimal size overhead. It does not aim to be
+    a generic serialization framework and only the bincode backend is supported.**'
+  why_used: Exports the Versionize derive proc macro that generates the Versionize implementation for structs, enums
+    and unions by using structure annotations.
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    frameworks_and_libraries: []
+    dependencies:
+    - proc-macro2
+    - quote
+    - syn
+    build_and_package_tools:
+    - Cargo manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/descriptors/mod.rs,
+    src/fields/mod.rs, src/lib.rs, src/common.rs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/firecracker-microvm/versionize_derive/blob/main/README.md
+  path: README.md
+  blob_sha: b0b5a224b4db4024a672b4fc5e3994e201527bc5
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: 4c65e7fc1187a1d4fa18e3a8dd1a9420ce7ac68d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 32240
+- type: Git tree
+  status: captured
+  sha: 12a7fd24ccb6b9839b26e5222024af04dfa9c0c8
+  truncated: false
+- type: source_file
+  path: src/descriptors/mod.rs
+  blob_sha: bd8f23cb73cf680d4f18ff09fb1b8e8b02926810
+  retrieved: true
+- type: source_file
+  path: src/fields/mod.rs
+  blob_sha: 416929efb40119b31b158a31b3b990d001ed6a14
+  retrieved: true
+- type: source_file
+  path: src/lib.rs
+  blob_sha: b987f77987d58cc79838d446fe402f635e19c9b8
+  retrieved: true
+- type: source_file
+  path: src/common.rs
+  blob_sha: a990f867beac09a6420ef4041f3d17b2df05635a
+  retrieved: true

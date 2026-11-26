@@ -1,10 +1,10 @@
 # Technical audits — aws-quickstart
 
-Updated: 2026-11-26T07:22:02+00:00
+Updated: 2026-11-26T22:57:01+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 - insufficient_evidence: 2
 
 ## Repository dossiers
@@ -24,4 +24,8 @@ Updated: 2026-11-26T07:22:02+00:00
 | lambda-copyzips-216471670 | insufficient_evidence | [lambda-copyzips-216471670.md](lambda-copyzips-216471670.md) | [lambda-copyzips-216471670.yaml](lambda-copyzips-216471670.yaml) |
 | msft-nested-example-243065470 | evidence_only | [msft-nested-example-243065470.md](msft-nested-example-243065470.md) | [msft-nested-example-243065470.yaml](msft-nested-example-243065470.yaml) |
 | qs-cfn-lint-rules-176528934 | evidence_only | [qs-cfn-lint-rules-176528934.md](qs-cfn-lint-rules-176528934.md) | [qs-cfn-lint-rules-176528934.yaml](qs-cfn-lint-rules-176528934.yaml) |
+| qs-workshop-2021-330022846 | evidence_only | [qs-workshop-2021-330022846.md](qs-workshop-2021-330022846.md) | [qs-workshop-2021-330022846.yaml](qs-workshop-2021-330022846.yaml) |
 | qs-workshop-236592401 | insufficient_evidence | [qs-workshop-236592401.md](qs-workshop-236592401.md) | [qs-workshop-236592401.yaml](qs-workshop-236592401.yaml) |
+| quickstart-aerospike-358371873 | evidence_only | [quickstart-aerospike-358371873.md](quickstart-aerospike-358371873.md) | [quickstart-aerospike-358371873.yaml](quickstart-aerospike-358371873.yaml) |
+| quickstart-alz-examples-217617604 | evidence_only | [quickstart-alz-examples-217617604.md](quickstart-alz-examples-217617604.md) | [quickstart-alz-examples-217617604.yaml](quickstart-alz-examples-217617604.yaml) |
+| quickstart-amazon-aurora-mysql-195865086 | evidence_only | [quickstart-amazon-aurora-mysql-195865086.md](quickstart-amazon-aurora-mysql-195865086.md) | [quickstart-amazon-aurora-mysql-195865086.yaml](quickstart-amazon-aurora-mysql-195865086.yaml) |

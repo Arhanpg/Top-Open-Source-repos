@@ -1,0 +1,75 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:47:41+00:00'
+evidence_fingerprint: a521e73dabab7b27009377477f9c32de0674cf1db8ccd68b7f84ec728c9e79e5
+repository_metadata:
+  company: Amazon
+  account: cdklabs
+  full_name: cdklabs/awscdk-kubectl-go
+  repository_id: 539172071
+  url: https://github.com/cdklabs/awscdk-kubectl-go
+  description: null
+  default_branch: kubectl.20
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-26T15:03:37Z'
+  stars: 1
+  readme_url: https://github.com/cdklabs/awscdk-kubectl-go/blob/kubectl.20/README.md
+  readme_path: README.md
+  readme_sha: 2d954cde925ee9bec84238dd48d762560279ac88
+  manifest_paths:
+  - kubectlv20/go.mod
+  source_files_inspected:
+  - kubectlv20/jsii/jsii.go
+  repository_tree:
+    status: captured
+    sha: 0437718acca3517897c3cbe60b41de4bf8da3d0a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository included Go bindings for awscdk-asset-kubectl.
+  why_used: This repository included Go bindings for awscdk-asset-kubectl.
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/aws/jsii-runtime-go
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: kubectlv20/jsii/jsii.go'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See Security Issue Notifications for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cdklabs/awscdk-kubectl-go/blob/kubectl.20/README.md
+  path: README.md
+  blob_sha: 2d954cde925ee9bec84238dd48d762560279ac88
+  retrieved: true
+- type: manifest
+  path: kubectlv20/go.mod
+  blob_sha: 9dec8f3bdcc24343392b2def6fb80c0477f6cf8f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 733
+- type: Git tree
+  status: captured
+  sha: 0437718acca3517897c3cbe60b41de4bf8da3d0a
+  truncated: false
+- type: source_file
+  path: kubectlv20/jsii/jsii.go
+  blob_sha: 2fe2a1dc9d178d9fb0788130ac1981601990044b
+  retrieved: true

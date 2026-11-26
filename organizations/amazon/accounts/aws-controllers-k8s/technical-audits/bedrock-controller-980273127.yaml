@@ -1,0 +1,189 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:39:09+00:00'
+evidence_fingerprint: d521f425d3e9f3bfb92a39b96ab673bebc89aa9282c16972299e72a994157a8d
+repository_metadata:
+  company: Amazon
+  account: aws-controllers-k8s
+  full_name: aws-controllers-k8s/bedrock-controller
+  repository_id: 980273127
+  url: https://github.com/aws-controllers-k8s/bedrock-controller
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-10T21:41:52Z'
+  stars: 1
+  readme_url: https://github.com/aws-controllers-k8s/bedrock-controller/blob/main/README.md
+  readme_path: README.md
+  readme_sha: d4dec55734997151d1cc4ebb1ca3fb279bc16b7a
+  manifest_paths:
+  - go.mod
+  - Makefile
+  - test/e2e/requirements.txt
+  source_files_inspected:
+  - cmd/controller/main.go
+  - pkg/resource/inference_profile/delta.go
+  - pkg/resource/inference_profile/descriptor.go
+  - pkg/resource/inference_profile/hooks.go
+  repository_tree:
+    status: captured
+    sha: a8dc739cbf99e7ad73ce6ac602b4d60c1f007e1a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains source code for the AWS Controllers for Kubernetes (ACK) service controller
+    for .
+  why_used: This repository contains source code for the AWS Controllers for Kubernetes (ACK) service controller
+    for .
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Python
+    - Go Template
+    - Makefile
+    - Smarty
+    frameworks_and_libraries: []
+    dependencies:
+    - acktest
+    - github.com/aws-controllers-k8s/runtime
+    - github.com/aws/aws-sdk-go-v2
+    - github.com/aws/aws-sdk-go-v2/config
+    - github.com/aws/aws-sdk-go-v2/credentials
+    - github.com/aws/aws-sdk-go-v2/feature/ec2/imds
+    - github.com/aws/aws-sdk-go-v2/internal/configsources
+    - github.com/aws/aws-sdk-go-v2/internal/endpoints/v2
+    - github.com/aws/aws-sdk-go-v2/internal/ini
+    - github.com/aws/aws-sdk-go-v2/service/bedrock
+    - github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding
+    - github.com/aws/aws-sdk-go-v2/service/internal/presigned-url
+    - github.com/aws/aws-sdk-go-v2/service/sso
+    - github.com/aws/aws-sdk-go-v2/service/ssooidc
+    - github.com/aws/aws-sdk-go-v2/service/sts
+    - github.com/aws/smithy-go
+    - github.com/beorn7/perks
+    - github.com/cenkalti/backoff/v4
+    - github.com/cespare/xxhash/v2
+    - github.com/davecgh/go-spew
+    - github.com/emicklei/go-restful/v3
+    - github.com/evanphx/json-patch/v5
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/go-logr/logr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/google/btree
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/uuid
+    - github.com/itchyny/gojq
+    - github.com/itchyny/timefmt-go
+    - github.com/jaypipes/envutil
+    - github.com/josharian/intern
+    - github.com/json-iterator/go
+    - github.com/mailru/easyjson
+    - github.com/micahhausler/aws-iam-policy
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/munnerz/goautoneg
+    - github.com/pkg/errors
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/spf13/pflag
+    - github.com/x448/float16
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - go.yaml.in/yaml/v2
+    - go.yaml.in/yaml/v3
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/term
+    - golang.org/x/text
+    - golang.org/x/time
+    - gomodules.xyz/jsonpatch/v2
+    - google.golang.org/protobuf
+    - gopkg.in/evanphx/json-patch.v4
+    - gopkg.in/inf.v0
+    - gopkg.in/yaml.v3
+    - k8s.io/api
+    - k8s.io/apiextensions-apiserver
+    - k8s.io/apimachinery
+    - k8s.io/client-go
+    - k8s.io/klog/v2
+    - k8s.io/kube-openapi
+    - k8s.io/utils
+    - sigs.k8s.io/controller-runtime
+    - sigs.k8s.io/json
+    - sigs.k8s.io/randfill
+    - sigs.k8s.io/structured-merge-diff/v6
+    - sigs.k8s.io/yaml
+    build_and_package_tools:
+    - Go module manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/controller/main.go,
+    pkg/resource/inference_profile/delta.go, pkg/resource/inference_profile/descriptor.go, pkg/resource/inference_profile/hooks.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-controllers-k8s/bedrock-controller/blob/main/README.md
+  path: README.md
+  blob_sha: d4dec55734997151d1cc4ebb1ca3fb279bc16b7a
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 25db38e2ffbbb84fbf8d79f8ab462c721d76115a
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 0953c01ad02c122fc28ef5ec126b33903b82b652
+  retrieved: true
+- type: manifest
+  path: test/e2e/requirements.txt
+  blob_sha: bdf9c5e0014518d7f1a0a6c5079eea4cb5451b3a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 14332
+    Python: 12196
+    Go Template: 3248
+    Makefile: 565
+    Smarty: 380
+- type: Git tree
+  status: captured
+  sha: a8dc739cbf99e7ad73ce6ac602b4d60c1f007e1a
+  truncated: false
+- type: source_file
+  path: cmd/controller/main.go
+  blob_sha: c412285c41da35b41cb2e1e38abbb5587b8d6e2b
+  retrieved: true
+- type: source_file
+  path: pkg/resource/inference_profile/delta.go
+  blob_sha: d0de112b0898704629cbb8646d391c01fbb446ac
+  retrieved: true
+- type: source_file
+  path: pkg/resource/inference_profile/descriptor.go
+  blob_sha: 382aaf2e19abb3452e5393cba09ebe910d306ffe
+  retrieved: true
+- type: source_file
+  path: pkg/resource/inference_profile/hooks.go
+  blob_sha: a5130d46cc06c610de27487bbb33a403a63b9d88
+  retrieved: true

@@ -1,0 +1,123 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:48:37+00:00'
+evidence_fingerprint: 528d8ebb5e972ff53155e612facfd7238e5700db87a8cea575689387410f8492
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/InterpretDL
+  repository_id: 274012656
+  url: https://github.com/PaddlePaddle/InterpretDL
+  description: 'InterpretDL: Interpretation of Deep Learning Models，基于『飞桨』的模型可解释性算法库。'
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-09-04T01:07:30Z'
+  stars: 262
+  readme_url: https://github.com/PaddlePaddle/InterpretDL/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 923125f9d7811511a17886a0efc992fe5eae65f3
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  - docs/Makefile
+  - docs/requirements.txt
+  source_files_inspected:
+  - interpretdl/__init__.py
+  - interpretdl/common/file_utils.py
+  - interpretdl/common/paddle_utils.py
+  repository_tree:
+    status: captured
+    sha: 781f4af7e28df56cfb75d113b9746ee389ffbb9e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**中文** | English'
+  why_used: 'InterpretDL: Interpretation of Deep Learning Models，基于『飞桨』的模型可解释性算法库。'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - IPython
+    - matplotlib
+    - numpy
+    - opencv-python
+    - paddlepaddle
+    - pillow
+    - recommonmark
+    - requests
+    - scikit-image
+    - scikit-learn
+    - sphinx
+    - sphinx_rtd_theme
+    - tqdm
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: interpretdl/__init__.py,
+    interpretdl/common/__init__.py, interpretdl/common/file_utils.py, interpretdl/common/paddle_utils.py'
+  setup_and_usage:
+  - 'Installation: It requires the deep learning framework paddlepaddle, versions with CUDA support are recommended.'
+  - 'Pip installation: pip install interpretdl'
+  - 'Developer installation: git clone https://github.com/PaddlePaddle/InterpretDL.git'
+  - 'Getting Started: All interpreters inherit the abstract class Interpreter, of which interpret(**kwargs) is the
+    function to call.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/InterpretDL/blob/master/README.md
+  path: README.md
+  blob_sha: 923125f9d7811511a17886a0efc992fe5eae65f3
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 3de8a60f1fa7811bde338a297f4075f230be28ff
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 2c05fa3f474584003842d72e8b8dc0ced7c80c38
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: d4bb2cbb9eddb1bb1b4f366623044af8e4830919
+  retrieved: true
+- type: manifest
+  path: docs/requirements.txt
+  blob_sha: 996723a5d603adf6c7112319616fa5f548aaa06b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 492308
+    Shell: 444
+- type: Git tree
+  status: captured
+  sha: 781f4af7e28df56cfb75d113b9746ee389ffbb9e
+  truncated: false
+- type: source_file
+  path: interpretdl/__init__.py
+  blob_sha: 846002e4446821a978c4f1775a3ba5a22c4c3069
+  retrieved: true
+- type: source_file
+  path: interpretdl/common/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: interpretdl/common/file_utils.py
+  blob_sha: 37a7c511b605848d58d4c7dbbbfc5bc28fb2eb1b
+  retrieved: true
+- type: source_file
+  path: interpretdl/common/paddle_utils.py
+  blob_sha: 8a3df05c513c2d7df2694fc60575fd04e667f0fa
+  retrieved: true

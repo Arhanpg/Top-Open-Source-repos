@@ -1,0 +1,86 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:43:25+00:00'
+evidence_fingerprint: 6461c8e8a7b8b7a4462871a08c2e21ef1efa6e432a61f932835fa01ef469ac1f
+repository_metadata:
+  company: SAP
+  account: kyma-project
+  full_name: kyma-project/community-modules
+  repository_id: 715972371
+  url: https://github.com/kyma-project/community-modules
+  description: Kyma community modules
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T15:46:41Z'
+  stars: 1
+  readme_url: https://github.com/kyma-project/community-modules/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5d392398393821ec92b8b2f51798afdba3a81429
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - k8s.js
+  - scripts/aggregate-modules.js
+  repository_tree:
+    status: captured
+    sha: d9b85faa2bf59a2ac0dd9ec4b211c295bf577561
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'Modules are independent, composable building blocks that extend Kyma functionality. Each module typically
+    provides:'
+  why_used: Kyma community modules
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - glob
+    - js-yaml
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: k8s.js, scripts/aggregate-modules.js'
+  setup_and_usage: []
+  limitations:
+  - 'Known Limitations: - Community modules aren''t subject to the Service Level Agreement (SLA).'
+  - 'Known Limitations: - Incompatible or invalid ModuleTemplates may break during rendering in Kyma dashboard.'
+  - 'Known Limitations: - Some community modules may require additional configuration or permissions.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/kyma-project/community-modules/blob/main/README.md
+  path: README.md
+  blob_sha: 5d392398393821ec92b8b2f51798afdba3a81429
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 78ff11088070073d9c6895e71f1c4499cb3c7e0a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 5210
+    HTML: 1217
+- type: Git tree
+  status: captured
+  sha: d9b85faa2bf59a2ac0dd9ec4b211c295bf577561
+  truncated: false
+- type: source_file
+  path: k8s.js
+  blob_sha: 1749bb46e3acd495e399eecff9eee959552ea62e
+  retrieved: true
+- type: source_file
+  path: scripts/aggregate-modules.js
+  blob_sha: a318ae4acc474ff3488f72235371945f8615376b
+  retrieved: true

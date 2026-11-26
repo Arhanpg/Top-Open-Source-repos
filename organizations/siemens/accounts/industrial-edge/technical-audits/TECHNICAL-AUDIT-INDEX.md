@@ -1,15 +1,17 @@
 # Technical audits — industrial-edge
 
-Updated: 2026-11-26T07:22:02+00:00
+Updated: 2026-11-26T22:57:03+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 15
 
 ## Repository dossiers
 
 | Repository | Status | Markdown | YAML |
 |---|---|---|---|
+| ai-sdk-971402227 | evidence_only | [ai-sdk-971402227.md](ai-sdk-971402227.md) | [ai-sdk-971402227.yaml](ai-sdk-971402227.yaml) |
+| ai-sdk-tutorials-868974719 | evidence_only | [ai-sdk-tutorials-868974719.md](ai-sdk-tutorials-868974719.md) | [ai-sdk-tutorials-868974719.yaml](ai-sdk-tutorials-868974719.yaml) |
 | apache-kafka-connector-368869561 | evidence_only | [apache-kafka-connector-368869561.md](apache-kafka-connector-368869561.md) | [apache-kafka-connector-368869561.yaml](apache-kafka-connector-368869561.yaml) |
 | bottle-filling-demo-flowcreator-1117563042 | evidence_only | [bottle-filling-demo-flowcreator-1117563042.md](bottle-filling-demo-flowcreator-1117563042.md) | [bottle-filling-demo-flowcreator-1117563042.yaml](bottle-filling-demo-flowcreator-1117563042.yaml) |
 | bring-own-apps-to-shopfloor-490289419 | evidence_only | [bring-own-apps-to-shopfloor-490289419.md](bring-own-apps-to-shopfloor-490289419.md) | [bring-own-apps-to-shopfloor-490289419.yaml](bring-own-apps-to-shopfloor-490289419.yaml) |
@@ -22,3 +24,4 @@ Updated: 2026-11-26T07:22:02+00:00
 | pn-io-connectivity-with-bosch-mlc-984732762 | evidence_only | [pn-io-connectivity-with-bosch-mlc-984732762.md](pn-io-connectivity-with-bosch-mlc-984732762.md) | [pn-io-connectivity-with-bosch-mlc-984732762.yaml](pn-io-connectivity-with-bosch-mlc-984732762.yaml) |
 | s7-1500v-getting-started-900761338 | evidence_only | [s7-1500v-getting-started-900761338.md](s7-1500v-getting-started-900761338.md) | [s7-1500v-getting-started-900761338.yaml](s7-1500v-getting-started-900761338.yaml) |
 | s7-connector-data-handling-getting-started-365960789 | evidence_only | [s7-connector-data-handling-getting-started-365960789.md](s7-connector-data-handling-getting-started-365960789.md) | [s7-connector-data-handling-getting-started-365960789.yaml](s7-connector-data-handling-getting-started-365960789.yaml) |
+| shopfloor-to-cloud-connectivity-408732160 | evidence_only | [shopfloor-to-cloud-connectivity-408732160.md](shopfloor-to-cloud-connectivity-408732160.md) | [shopfloor-to-cloud-connectivity-408732160.yaml](shopfloor-to-cloud-connectivity-408732160.yaml) |

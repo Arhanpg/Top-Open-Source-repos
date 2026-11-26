@@ -1,0 +1,112 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:38:37+00:00'
+evidence_fingerprint: 504d8a48d3ac4f638772e0a55995affd2c1be6acd9f9e0f584e1d235bc939f26
+repository_metadata:
+  company: Amazon
+  account: aws
+  full_name: aws/Unified-Studio-for-Amazon-Sagemaker
+  repository_id: 889315774
+  url: https://github.com/aws/Unified-Studio-for-Amazon-Sagemaker
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-10T20:25:27Z'
+  stars: 58
+  readme_url: https://github.com/aws/Unified-Studio-for-Amazon-Sagemaker/blob/main/README.md
+  readme_path: README.md
+  readme_sha: aebd7dff889f37f264fd971a16eec937193d48c6
+  manifest_paths:
+  - experimental/cross-domain-data-product-sync/Makefile
+  - experimental/cross-domain-data-product-sync/requirements.txt
+  - migration/athena-notebook-migration/requirements.txt
+  - migration/glue/requirements.txt
+  source_files_inspected:
+  - migration/glue/cli.py
+  - .github/workflows/glue-migration-tests/e2e/conftest.py
+  - .github/workflows/glue-migration-tests/e2e/provision_mysql.py
+  - .github/workflows/glue-migration-tests/e2e/test_connection_migration_e2e.py
+  repository_tree:
+    status: captured
+    sha: 7b119409d8b101ba5b09da9e0d585dffefce1e65
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This repository contains utilities for Amazon SageMaker Unified Studio. It is structured as follows:'
+  why_used: 'This repository contains utilities for Amazon SageMaker Unified Studio. It is structured as follows:'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - HCL
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - boto3
+    - botocore
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: migration/glue/cli.py,
+    .github/workflows/glue-migration-tests/e2e/conftest.py, .github/workflows/glue-migration-tests/e2e/provision_mysql.py,
+    .github/workflows/glue-migration-tests/e2e/test_connection_migration_e2e.py'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws/Unified-Studio-for-Amazon-Sagemaker/blob/main/README.md
+  path: README.md
+  blob_sha: aebd7dff889f37f264fd971a16eec937193d48c6
+  retrieved: true
+- type: manifest
+  path: experimental/cross-domain-data-product-sync/Makefile
+  blob_sha: e25ededaf999b6ad7072706deee62174eb28fa76
+  retrieved: true
+- type: manifest
+  path: experimental/cross-domain-data-product-sync/requirements.txt
+  blob_sha: 3085a1b640972a182c46ef896dca7e1f693a8bd8
+  retrieved: true
+- type: manifest
+  path: migration/athena-notebook-migration/requirements.txt
+  blob_sha: 85710d523aafd914b4d62582524bd76700da0296
+  retrieved: true
+- type: manifest
+  path: migration/glue/requirements.txt
+  blob_sha: aa8fb00502958cbbbb8fdbb9568cf22c67c92b7b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 361779
+    HCL: 69072
+    Makefile: 1748
+- type: Git tree
+  status: captured
+  sha: 7b119409d8b101ba5b09da9e0d585dffefce1e65
+  truncated: false
+- type: source_file
+  path: migration/glue/cli.py
+  blob_sha: e149a7d8fc14851c5bb54c4c2d53874c2449fdfb
+  retrieved: true
+- type: source_file
+  path: .github/workflows/glue-migration-tests/e2e/conftest.py
+  blob_sha: c467f2b6e919b3d5e0ebdbd896841b125470698d
+  retrieved: true
+- type: source_file
+  path: .github/workflows/glue-migration-tests/e2e/provision_mysql.py
+  blob_sha: d2ec1876042abf6e07707d05aa72219310786876
+  retrieved: true
+- type: source_file
+  path: .github/workflows/glue-migration-tests/e2e/test_connection_migration_e2e.py
+  blob_sha: 7cbe226efbd895c37cf438bbd3edfdd66be25215
+  retrieved: true

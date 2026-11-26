@@ -1,0 +1,81 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:43:01+00:00'
+evidence_fingerprint: 7aca2e5bc60cbeeeb29cb200d645ecee194c0e8e9bc0400337f2eb7412296830
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/identity_backend
+  repository_id: 285115542
+  url: https://github.com/triton-inference-server/identity_backend
+  description: Example Triton backend that demonstrates most of the Triton Backend API.
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-02T23:26:25Z'
+  stars: 6
+  readme_url: https://github.com/triton-inference-server/identity_backend/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2bcd8e87ba0a261494cb0365d7cd8f47a0c0b65b
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  source_files_inspected:
+  - src/identity.cc
+  repository_tree:
+    status: captured
+    sha: 8251e2509b957f067287c33013bfe69114484771
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: -->
+  why_used: Example Triton backend that demonstrates most of the Triton Backend API.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/identity.cc'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/identity_backend/blob/main/README.md
+  path: README.md
+  blob_sha: 2bcd8e87ba0a261494cb0365d7cd8f47a0c0b65b
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 183ededab2970193302003191367aace0ad4462d
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 1a8da1f4d366d75f2af71229a835ed5fd3102b5f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 52855
+    CMake: 8076
+- type: Git tree
+  status: captured
+  sha: 8251e2509b957f067287c33013bfe69114484771
+  truncated: false
+- type: source_file
+  path: src/identity.cc
+  blob_sha: 5835e991a75762425c381cc47b56ea50acc1eb5e
+  retrieved: true

@@ -6,7 +6,7 @@
 - Default branch: main
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-26T07:18:54+00:00
+- Generated: 2026-11-26T22:37:49+00:00
 
 ## Project purpose
 
@@ -22,7 +22,7 @@ No separately supported feature list extracted.
 
 ## Technology stack
 
-- Languages: Unknown / not established
+- Languages: C++, Starlark, Shell, Python, Batchfile
 - Frameworks/libraries: Unknown / not established
 - Dependency names: argparse, jinja2, tabulate, tqdm
 - Build/package tools: pip requirements file
@@ -50,7 +50,7 @@ No explicit limitations extracted; this does not mean none exist.
 - Manifests: requirements.txt
 - Sampled source files: src/cbor_builders.cc, src/cbor_builders.h, src/cbor_builders_test.cc, src/command_state.cc
 - Git tree state: captured
-- Evidence fingerprint: 59dba38c685da765afbc0bb0e7ec1e3d427684f5f9fa2378743c615bf297bc57
+- Evidence fingerprint: 471171c25792c13dbc404a05c706185cc13bef96b1d9e6df1ff3dde2bd5dc717
 
 ## Unverified / unknown
 

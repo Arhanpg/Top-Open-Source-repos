@@ -1,0 +1,239 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:36:21+00:00'
+evidence_fingerprint: f6d04696020ea9b49033afee3c3775e2fe1724e2c70d45d25429cea38398056f
+repository_metadata:
+  company: SAP
+  account: kyma-project
+  full_name: kyma-project/community
+  repository_id: 139590666
+  url: https://github.com/kyma-project/community
+  description: Provides general guidelines, contributing, and maintaining rules for all who add content to Kyma.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-16T10:32:26Z'
+  stars: 45
+  readme_url: https://github.com/kyma-project/community/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 88cc135e476bf6e5c8436420eb137142ad794b87
+  manifest_paths:
+  - concepts/observability-consistent-logging/evaluation/go.mod
+  - concepts/observability-strategy/configurable-monitoring/pocs/tools/metric-gen/Dockerfile
+  - concepts/observability-strategy/configurable-monitoring/pocs/tools/metric-gen/go.mod
+  - concepts/observability-strategy/configurable-monitoring/pocs/tools/metric-stats/go.mod
+  - concepts/observability-strategy/configurable-tracing/pocs/tools/otel-load-generator/Dockerfile
+  - concepts/observability-strategy/configurable-tracing/pocs/tools/otel-load-generator/go.mod
+  source_files_inspected:
+  - concepts/observability-strategy/configurable-monitoring/pocs/tools/metric-gen/main.go
+  - concepts/observability-strategy/configurable-monitoring/pocs/tools/metric-stats/main.go
+  - concepts/observability-strategy/configurable-tracing/pocs/tools/otel-load-generator/main.go
+  - .kyma-project-io/build-preview.sh
+  repository_tree:
+    status: captured
+    sha: a7eccefc9a5311771a38ac3f12815292ad870883
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Welcome to the Kyma community page!
+  why_used: Provides general guidelines, contributing, and maintaining rules for all who add content to Kyma.
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - HTML
+    - Shell
+    - JavaScript
+    - Java
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - contrib.go.opencensus.io/exporter/prometheus
+    - github.com/apache/thrift
+    - github.com/apex/log
+    - github.com/beorn7/perks
+    - github.com/cenkalti/backoff/v4
+    - github.com/census-instrumentation/opencensus-proto
+    - github.com/cespare/xxhash/v2
+    - github.com/davecgh/go-spew
+    - github.com/felixge/httpsnoop
+    - github.com/go-kit/log
+    - github.com/go-logfmt/logfmt
+    - github.com/go-logr/logr
+    - github.com/go-logr/stdr
+    - github.com/go-ole/go-ole
+    - github.com/gogo/googleapis
+    - github.com/gogo/protobuf
+    - github.com/golang/groupcache
+    - github.com/golang/protobuf
+    - github.com/golang/snappy
+    - github.com/google/uuid
+    - github.com/gorilla/mux
+    - github.com/grpc-ecosystem/grpc-gateway/v2
+    - github.com/inconshreveable/mousetrap
+    - github.com/jaegertracing/jaeger
+    - github.com/json-iterator/go
+    - github.com/klauspost/compress
+    - github.com/knadh/koanf
+    - github.com/lufia/plan9stats
+    - github.com/matttproud/golang_protobuf_extensions
+    - github.com/mitchellh/copystructure
+    - github.com/mitchellh/mapstructure
+    - github.com/mitchellh/reflectwalk
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/mostynb/go-grpc-compression
+    - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/jaegerexporter
+    - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opencensusexporter
+    - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/zipkinexporter
+    - github.com/open-telemetry/opentelemetry-collector-contrib/internal/common
+    - github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal
+    - github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent
+    - github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger
+    - github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus
+    - github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin
+    - github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver
+    - github.com/open-telemetry/opentelemetry-collector-contrib/receiver/opencensusreceiver
+    - github.com/open-telemetry/opentelemetry-collector-contrib/receiver/zipkinreceiver
+    - github.com/open-telemetry/opentelemetry-collector-contrib/testbed
+    - github.com/opentracing/opentracing-go
+    - github.com/openzipkin/zipkin-go
+    - github.com/pmezard/go-difflib
+    - github.com/power-devops/perfstat
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/prometheus/statsd_exporter
+    - github.com/rs/cors
+    - github.com/rs/zerolog
+    - github.com/shirou/gopsutil/v3
+    - github.com/soheilhy/cmux
+    - github.com/spf13/cobra
+    - github.com/spf13/pflag
+    - github.com/stretchr/testify
+    - github.com/tklauser/go-sysconf
+    - github.com/tklauser/numcpus
+    - github.com/uber/jaeger-client-go
+    - github.com/uber/jaeger-lib
+    - github.com/yusufpapurcu/wmi
+    - go.opencensus.io
+    - go.opentelemetry.io/collector
+    - go.opentelemetry.io/collector/component
+    - go.opentelemetry.io/collector/confmap
+    - go.opentelemetry.io/collector/consumer
+    - go.opentelemetry.io/collector/exporter
+    - go.opentelemetry.io/collector/exporter/loggingexporter
+    - go.opentelemetry.io/collector/exporter/otlpexporter
+    - go.opentelemetry.io/collector/exporter/otlphttpexporter
+    - go.opentelemetry.io/collector/extension/ballastextension
+    - go.opentelemetry.io/collector/extension/zpagesextension
+    - go.opentelemetry.io/collector/featuregate
+    - go.opentelemetry.io/collector/pdata
+    - go.opentelemetry.io/collector/processor/batchprocessor
+    - go.opentelemetry.io/collector/processor/memorylimiterprocessor
+    - go.opentelemetry.io/collector/receiver
+    - go.opentelemetry.io/collector/receiver/otlpreceiver
+    - go.opentelemetry.io/collector/semconv
+    - go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc
+    - go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
+    - go.opentelemetry.io/contrib/propagators/b3
+    - go.opentelemetry.io/contrib/zpages
+    - go.opentelemetry.io/otel
+    - go.opentelemetry.io/otel/exporters/otlp/internal/retry
+    - go.opentelemetry.io/otel/exporters/otlp/otlptrace
+    - go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc
+    - go.opentelemetry.io/otel/exporters/prometheus
+    - go.opentelemetry.io/otel/metric
+    - go.opentelemetry.io/otel/sdk
+    - go.opentelemetry.io/otel/sdk/metric
+    - go.opentelemetry.io/otel/trace
+    - go.opentelemetry.io/proto/otlp
+    - go.uber.org/atomic
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - golang.org/x/net
+    - golang.org/x/sys
+    - golang.org/x/text
+    - google.golang.org/genproto
+    - google.golang.org/grpc
+    - google.golang.org/protobuf
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: concepts/observability-strategy/configurable-monitoring/pocs/tools/metric-gen/main.go,
+    concepts/observability-strategy/configurable-monitoring/pocs/tools/metric-stats/main.go, concepts/observability-strategy/configurable-tracing/pocs/tools/otel-load-generator/main.go,
+    .kyma-project-io/build-preview.sh'
+  setup_and_usage: []
+  limitations:
+  - 'Security: The community is relentless about Kyma security. To report a security issue, send an email with details
+    directly to kyma-security@googlegroups.com instead of using a public issue tracker.'
+  - 'Security: Thank you for your interest in Kyma. Hope you''ll stay with us for a while.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/kyma-project/community/blob/main/README.md
+  path: README.md
+  blob_sha: 88cc135e476bf6e5c8436420eb137142ad794b87
+  retrieved: true
+- type: manifest
+  path: concepts/observability-consistent-logging/evaluation/go.mod
+  blob_sha: a233b674a8231791f4adcdeca624bd0a051e9e25
+  retrieved: true
+- type: manifest
+  path: concepts/observability-strategy/configurable-monitoring/pocs/tools/metric-gen/Dockerfile
+  blob_sha: 5c0f6026b1dffce5d9bfd574688b2afa31e91999
+  retrieved: true
+- type: manifest
+  path: concepts/observability-strategy/configurable-monitoring/pocs/tools/metric-gen/go.mod
+  blob_sha: bc192cd74d01b8978ed08d26a43224babd378008
+  retrieved: true
+- type: manifest
+  path: concepts/observability-strategy/configurable-monitoring/pocs/tools/metric-stats/go.mod
+  blob_sha: 0703fcc24f8f536faf9937ab120304a489824c6f
+  retrieved: true
+- type: manifest
+  path: concepts/observability-strategy/configurable-tracing/pocs/tools/otel-load-generator/Dockerfile
+  blob_sha: 2d4e6736b57aa66b3f7e39bbfa53c24660dd95eb
+  retrieved: true
+- type: manifest
+  path: concepts/observability-strategy/configurable-tracing/pocs/tools/otel-load-generator/go.mod
+  blob_sha: 9c870231d0075a87beec20c6ca8253c717c95d40
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 16866
+    HTML: 16456
+    Shell: 2646
+    JavaScript: 1601
+    Java: 1343
+    Dockerfile: 924
+- type: Git tree
+  status: captured
+  sha: a7eccefc9a5311771a38ac3f12815292ad870883
+  truncated: false
+- type: source_file
+  path: concepts/observability-strategy/configurable-monitoring/pocs/tools/metric-gen/main.go
+  blob_sha: cf100e42aad32c147179a6611fcfeb7df205ccae
+  retrieved: true
+- type: source_file
+  path: concepts/observability-strategy/configurable-monitoring/pocs/tools/metric-stats/main.go
+  blob_sha: 3063c2b0ce4c99b7818a63ff636e0cb30095cd73
+  retrieved: true
+- type: source_file
+  path: concepts/observability-strategy/configurable-tracing/pocs/tools/otel-load-generator/main.go
+  blob_sha: a8fe7be54411aec9a47a458c81be9c18381a80d9
+  retrieved: true
+- type: source_file
+  path: .kyma-project-io/build-preview.sh
+  blob_sha: 216dc84018930dee052f4ac133a819cfa327e27b
+  retrieved: true

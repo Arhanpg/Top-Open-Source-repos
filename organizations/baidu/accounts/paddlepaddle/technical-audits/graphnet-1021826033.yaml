@@ -1,0 +1,107 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:34:38+00:00'
+evidence_fingerprint: 870c6d2e8a32e267584a44230ba989c3527dc24ce87b680bd1d795bded47d90e
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/GraphNet
+  repository_id: 1021826033
+  url: https://github.com/PaddlePaddle/GraphNet
+  description: A Large-Scale Computation Graph Database for Tensor Compiler Research
+  default_branch: develop
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-22T06:10:40Z'
+  stars: 98
+  readme_url: https://github.com/PaddlePaddle/GraphNet/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: a23398270c1c585c71be4bb45f92ccb793b7506a
+  manifest_paths:
+  - pyproject.toml
+  - requirements.txt
+  source_files_inspected:
+  - graph_net_rpc/grpc/server.py
+  - tools/triton_kernel_extractor/__main__.py
+  - graph_net/__init__.py
+  - graph_net/agent/__init__.py
+  repository_tree:
+    status: captured
+    sha: b121f5a7aff25d884333614c31124881038930bc
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**GraphNet** is a large-scale dataset of deep learning **computation graphs**, built as a standard benchmark
+    for **tensor compiler** optimization. It provides over 2.7K computation graphs extracted from state-of-the-art
+    deep learning models spanning diverse tasks and ML frameworks. With standardized formats and rich metadata,
+    GraphNet enables fair comparison and reproducible evaluation of the general optimization capabilities of tensor
+    compilers, thereby supporting advanced research such as AI for System on Compilers.'
+  why_used: A Large-Scale Computation Graph Database for Tensor Compiler Research
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - astor
+    - pre-commit
+    - scipy
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: graph_net_rpc/grpc/server.py,
+    tools/triton_kernel_extractor/__main__.py, graph_net/__init__.py, graph_net/agent/__init__.py'
+  setup_and_usage:
+  - '⚡ Quick Start: This section shows how to evaluate tensor compilers and reproduce benchmark results (for compiler
+    users and developers),'
+  - '⚡ Quick Start: as well as how to contribute new computation graphs (for GraphNet contributors).'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/GraphNet/blob/develop/README.md
+  path: README.md
+  blob_sha: a23398270c1c585c71be4bb45f92ccb793b7506a
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 08e8a89925434231d6478c0f65c24aed67c28c7a
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 329549e1e296eb82ee1468398a822a5ebfbb7e42
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 127393267
+    Shell: 150340
+- type: Git tree
+  status: captured
+  sha: b121f5a7aff25d884333614c31124881038930bc
+  truncated: false
+- type: source_file
+  path: graph_net_rpc/grpc/server.py
+  blob_sha: 2873173cc02e7bca9ae09652e5d031faa20ed788
+  retrieved: true
+- type: source_file
+  path: tools/triton_kernel_extractor/__main__.py
+  blob_sha: c55aa002abc8a44527117034737933cc33b6c283
+  retrieved: true
+- type: source_file
+  path: graph_net/__init__.py
+  blob_sha: 6b9f4a5aadabfd488eaebeeb979c04384a2b9836
+  retrieved: true
+- type: source_file
+  path: graph_net/agent/__init__.py
+  blob_sha: 56608c87618989cae9d1b5a0a6a33dc6a0800ee4
+  retrieved: true

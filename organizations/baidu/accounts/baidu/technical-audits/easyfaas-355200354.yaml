@@ -1,0 +1,157 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:41:33+00:00'
+evidence_fingerprint: 16686f2aa001043eb53b11377c7198cdabef227ed9abbf279f99ac4e7e78c44a
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/EasyFaaS
+  repository_id: 355200354
+  url: https://github.com/baidu/EasyFaaS
+  description: EasyFaaS是一个依赖轻、适配性强、资源占用少、无状态且高性能的函数计算服务引擎
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2022-10-20T01:54:55Z'
+  stars: 610
+  readme_url: https://github.com/baidu/EasyFaaS/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ba1a7e3492bde048fa115f06a927b305146d2802
+  manifest_paths:
+  - go.mod
+  - Makefile
+  - scripts/allInOne/docker/Dockerfile
+  - scripts/controller/docker/Dockerfile
+  - scripts/funclet/docker/Dockerfile
+  - scripts/stubs/docker/Dockerfile
+  source_files_inspected:
+  - cmd/controller/app/server.go
+  - cmd/controller/controller.go
+  - cmd/controller/options/options.go
+  - cmd/controller/options/options_test.go
+  repository_tree:
+    status: captured
+    sha: 756b73c11444d490192c9fbda0a1d031ce30a2c5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: EasyFaaS是一个依赖轻、适配性强、资源占用少、无状态且高性能的函数计算服务引擎。它有以下几个特点：
+  why_used: EasyFaaS是一个依赖轻、适配性强、资源占用少、无状态且高性能的函数计算服务引擎
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Shell
+    - Makefile
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - code.cloudfoundry.org/go-diodes
+    - github.com/aws/aws-sdk-go
+    - github.com/docker/libnetwork
+    - github.com/emicklei/go-restful
+    - github.com/erikh/ping
+    - github.com/go-ozzo/ozzo-routing
+    - github.com/godbus/dbus
+    - github.com/golang/gddo
+    - github.com/google/gofuzz
+    - github.com/google/uuid
+    - github.com/gorilla/mux
+    - github.com/json-iterator/go
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/onsi/ginkgo
+    - github.com/onsi/gomega
+    - github.com/opencontainers/runc
+    - github.com/opencontainers/runtime-spec
+    - github.com/pkg/errors
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/qiangxue/fasthttp-routing
+    - github.com/rogpeppe/go-internal
+    - github.com/spf13/pflag
+    - github.com/stretchr/testify
+    - github.com/valyala/fasthttp
+    - github.com/vishvananda/netlink
+    - github.com/vishvananda/netns
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - golang.org/x/sys
+    - gopkg.in/inf.v0
+    - gopkg.in/yaml.v3
+    - k8s.io/apimachinery
+    - k8s.io/klog
+    - sigs.k8s.io/yaml
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/controller/app/server.go,
+    cmd/controller/controller.go, cmd/controller/options/options.go, cmd/controller/options/options_test.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/EasyFaaS/blob/main/README.md
+  path: README.md
+  blob_sha: ba1a7e3492bde048fa115f06a927b305146d2802
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: e779d22b058a160f80775bd7af8223ac9da5ca9b
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: a14af5d750e12751f65803e7971c2944ee186d59
+  retrieved: true
+- type: manifest
+  path: scripts/allInOne/docker/Dockerfile
+  blob_sha: 8a941d0c42a533367a87c94f40e65c46b39c44ee
+  retrieved: true
+- type: manifest
+  path: scripts/controller/docker/Dockerfile
+  blob_sha: c188e87c47196df852b09a2e918f1d075f1b6333
+  retrieved: true
+- type: manifest
+  path: scripts/funclet/docker/Dockerfile
+  blob_sha: a2b79a2836cd8bde0421bdd8e1ba2ff03ac6b77b
+  retrieved: true
+- type: manifest
+  path: scripts/stubs/docker/Dockerfile
+  blob_sha: 501d69faa63da4c64b6801802537aeb920ae329f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 957498
+    Shell: 60327
+    Makefile: 2532
+    Dockerfile: 794
+- type: Git tree
+  status: captured
+  sha: 756b73c11444d490192c9fbda0a1d031ce30a2c5
+  truncated: false
+- type: source_file
+  path: cmd/controller/app/server.go
+  blob_sha: f597ebb8cd4108842d3c92704b0f97637b1b5152
+  retrieved: true
+- type: source_file
+  path: cmd/controller/controller.go
+  blob_sha: 8061463a79f508d20f76d7371b01096755a599a8
+  retrieved: true
+- type: source_file
+  path: cmd/controller/options/options.go
+  blob_sha: 315289de02e058ce7c6f9f0f1f286d9462c8f4cb
+  retrieved: true
+- type: source_file
+  path: cmd/controller/options/options_test.go
+  blob_sha: 903751fc2c8c0bb287af2953429b73d57c1c5a4d
+  retrieved: true

@@ -1,0 +1,174 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:49:25+00:00'
+evidence_fingerprint: bd07a08f785eb9cc2db577f700efa8e7943c536c77a791a15aa4e7169769e762
+repository_metadata:
+  company: NVIDIA
+  account: ai-dynamo
+  full_name: ai-dynamo/nixl
+  repository_id: 943421085
+  url: https://github.com/ai-dynamo/nixl
+  description: NVIDIA Inference Xfer Library (NIXL)
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T20:12:04Z'
+  stars: 1375
+  readme_url: https://github.com/ai-dynamo/nixl/blob/main/README.md
+  readme_path: README.md
+  readme_sha: bae76051269e0aeb0104d5234327adb460062502
+  manifest_paths:
+  - Cargo.toml
+  - pyproject.toml
+  - requirements.txt
+  - contrib/Dockerfile
+  - benchmark/kvbench/pyproject.toml
+  - examples/rust/Cargo.toml
+  source_files_inspected:
+  - benchmark/nixlbench/src/main.cpp
+  - src/bindings/rust/src/lib.rs
+  - .ci/scripts/wheel_inspect/__main__.py
+  - .ci/scripts/wheel_inspect/cli.py
+  repository_tree:
+    status: captured
+    sha: 9d2c8bfc2c420f7671fee5f3ba86082553700c53
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'SPDX-FileCopyrightText: Copyright (c) 2025-2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    SPDX-License-Identifier: Apache-2.0 -->'
+  why_used: NVIDIA Inference Xfer Library (NIXL)
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - Meson
+    - Shell
+    - Rust
+    - Cuda
+    - Dockerfile
+    - C
+    - CSS
+    - Groovy
+    - MDX
+    - Standard ML
+    frameworks_and_libraries: []
+    dependencies:
+    - black
+    - chrono
+    - clap
+    - click
+    - etcd3
+    - flake8
+    - isort
+    - mypy
+    - nixl
+    - nixl-sys
+    - numpy
+    - pre-commit
+    - pytest
+    - pyyaml
+    - tabulate
+    - tokio
+    - toml
+    - tomli
+    - torch
+    - tqdm
+    - tracing
+    - tracing-subscriber
+    - types-PyYAML
+    build_and_package_tools:
+    - Cargo manifest
+    - Docker build configuration
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: benchmark/nixlbench/src/main.cpp,
+    src/bindings/rust/src/lib.rs, .ci/scripts/wheel_inspect/__main__.py, .ci/scripts/wheel_inspect/cli.py'
+  setup_and_usage:
+  - 'Installation from source: - uv: https://docs.astral.sh/uv/getting-started/installation/'
+  - 'Installation from source: - tomlkit: https://pypi.org/project/tomlkit/'
+  - 'Installation from source: - PyTorch: https://pytorch.org/get-started/locally/'
+  - 'Installation from source: uv is always required *even if* you have another kind of Python virtual environment
+    manager or if you are using a system-wide Python installation without using a virtual environment.'
+  - 'Installation from source: Example with uv Python virtual environment:'
+  - 'Installation from source: curl -LsSf https://astral.sh/uv/install.sh | sh'
+  - 'Installation from source: export PATH="$HOME/.local/bin:${PATH}"'
+  - 'Installation from source: uv venv .venv --python 3.12'
+  limitations:
+  - 'Supported Platforms: NIXL is supported on a Linux environment only. It is tested on Ubuntu (22.04/24.04) and
+    Fedora. macOS and Windows are not currently supported; use a Linux host or container/VM.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ai-dynamo/nixl/blob/main/README.md
+  path: README.md
+  blob_sha: bae76051269e0aeb0104d5234327adb460062502
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: e5cfaa47b59da7468926d4632a9742b617f3897f
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 2070f9c451d283bbc4e2546ef41f97e04d70c7ad
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 2813cd00b643384f6d968696a121e3da9d097c30
+  retrieved: true
+- type: manifest
+  path: contrib/Dockerfile
+  blob_sha: 6ad6b1870ee4237792337b9cbafc6e3074f8b313
+  retrieved: true
+- type: manifest
+  path: benchmark/kvbench/pyproject.toml
+  blob_sha: 8091f0cba9f3e11d8a0b9df28cb670a1eac397c2
+  retrieved: true
+- type: manifest
+  path: examples/rust/Cargo.toml
+  blob_sha: 75f36b09d71a7c1230ba1c0e3df9aaed76d6d0f3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 5139508
+    Python: 482245
+    Meson: 258492
+    Shell: 247131
+    Rust: 242506
+    Cuda: 120668
+    Dockerfile: 45432
+    C: 38361
+    CSS: 22477
+    Groovy: 15544
+    MDX: 4901
+    Standard ML: 4805
+- type: Git tree
+  status: captured
+  sha: 9d2c8bfc2c420f7671fee5f3ba86082553700c53
+  truncated: false
+- type: source_file
+  path: benchmark/nixlbench/src/main.cpp
+  blob_sha: cf3d86d75857a3d37557f2910d976bfc7ed4c516
+  retrieved: true
+- type: source_file
+  path: src/bindings/rust/src/lib.rs
+  blob_sha: 86bc0c5f74e13b5795468b29c41ff0f48f39fd40
+  retrieved: true
+- type: source_file
+  path: .ci/scripts/wheel_inspect/__main__.py
+  blob_sha: 472c74ee3921211fa3e6a9b4ce2b752aa030d939
+  retrieved: true
+- type: source_file
+  path: .ci/scripts/wheel_inspect/cli.py
+  blob_sha: 55a9f9076c837445948cf06850ca9635971c75fc
+  retrieved: true

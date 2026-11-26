@@ -1,10 +1,10 @@
 # Technical audits — bottlerocket-os
 
-Updated: 2026-11-26T07:22:01+00:00
+Updated: 2026-11-26T22:57:04+00:00
 
 ## Status counts
 
-- evidence_only: 13
+- evidence_only: 15
 
 ## Repository dossiers
 
@@ -23,3 +23,5 @@ Updated: 2026-11-26T07:22:01+00:00
 | bottlerocket-test-system-381435140 | evidence_only | [bottlerocket-test-system-381435140.md](bottlerocket-test-system-381435140.md) | [bottlerocket-test-system-381435140.yaml](bottlerocket-test-system-381435140.yaml) |
 | bottlerocket-update-operator-240619080 | evidence_only | [bottlerocket-update-operator-240619080.md](bottlerocket-update-operator-240619080.md) | [bottlerocket-update-operator-240619080.yaml](bottlerocket-update-operator-240619080.yaml) |
 | github-246401776 | evidence_only | [github-246401776.md](github-246401776.md) | [github-246401776.yaml](github-246401776.yaml) |
+| hotdog-438819602 | evidence_only | [hotdog-438819602.md](hotdog-438819602.md) | [hotdog-438819602.yaml](hotdog-438819602.yaml) |
+| twoliter-633089849 | evidence_only | [twoliter-633089849.md](twoliter-633089849.md) | [twoliter-633089849.yaml](twoliter-633089849.yaml) |

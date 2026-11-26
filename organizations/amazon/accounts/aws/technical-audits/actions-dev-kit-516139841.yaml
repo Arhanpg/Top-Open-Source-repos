@@ -1,0 +1,174 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:45:41+00:00'
+evidence_fingerprint: b7017f28ff1de9e32d9a4941d08e289e214d59b51756e0a5aff66ad01f9182c5
+repository_metadata:
+  company: Amazon
+  account: aws
+  full_name: aws/actions-dev-kit
+  repository_id: 516139841
+  url: https://github.com/aws/actions-dev-kit
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-09-16T04:11:59Z'
+  stars: 28
+  readme_url: https://github.com/aws/actions-dev-kit/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7f396830645153db115c72d30dc7bd058883e11f
+  manifest_paths:
+  - package.json
+  - packages/adk-core/package.json
+  - packages/adk-model-parser/package.json
+  - packages/adk-utils/package.json
+  - packages/adk/package.json
+  - packages/codecatalyst-entities/project/package.json
+  source_files_inspected:
+  - packages/adk-model-parser/lib/index.ts
+  - packages/adk-utils/lib/index.ts
+  - packages/adk/lib/index.ts
+  - packages/adk/templates/action/typescript/lib/index.ts
+  repository_tree:
+    status: captured
+    sha: 35cb7339a99aa83248046cd99d9a7c2ad3df3d75
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Amazon CodeCatalyst provides software development teams one place to plan work, collaborate on code,
+    and build, test, and deploy applications with continuous integration/continuous delivery (CI/CD) tools. For
+    more information, see What is Amazon CodeCatalyst?
+  why_used: Amazon CodeCatalyst provides software development teams one place to plan work, collaborate on code,
+    and build, test, and deploy applications with continuous integration/continuous delivery (CI/CD) tools. For
+    more information, see What is Amazon CodeCatalyst?
+  core_features: []
+  technology_stack:
+    languages:
+    - HTML
+    - TypeScript
+    - CSS
+    - JavaScript
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws/codecatalyst-adk-core'
+    - '@aws/codecatalyst-adk-model-parser'
+    - '@aws/codecatalyst-adk-utils'
+    - '@nestjs/common'
+    - '@nestjs/core'
+    - '@tsconfig/node12'
+    - '@types/jest'
+    - '@types/js-yaml'
+    - '@types/jsonwebtoken'
+    - '@types/node'
+    - '@types/shelljs'
+    - '@types/yargs'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - chalk
+    - eslint
+    - eslint-plugin-import
+    - eslint-plugin-jest
+    - fs-extra
+    - graceful-fs
+    - jest
+    - jest-junit
+    - js-yaml
+    - jsii
+    - jsii-diff
+    - jsii-docgen
+    - jsii-pacmak
+    - jsii-rosetta
+    - json5
+    - jsonschema
+    - jsonwebtoken
+    - reflect-metadata
+    - rxjs
+    - shelljs
+    - ts-node
+    - tsconfig-paths
+    - typedoc
+    - typescript
+    - yargs
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: packages/adk-model-parser/lib/index.ts,
+    packages/adk-utils/lib/index.ts, packages/adk/lib/index.ts, packages/adk/templates/action/typescript/lib/index.ts'
+  setup_and_usage:
+  - 'Sample Usage: import * as core from ''@aws/codecatalyst-adk-core'';'
+  - 'Sample Usage: import * as project from ''@aws/codecatalyst-project'';'
+  - 'Sample Usage: import { RunSummaryLevel, RunSummaries } from ''@aws/codecatalyst-run-summaries'';'
+  - 'Sample Usage: import * as space from ''@aws/codecatalyst-space'';'
+  - 'Sample Usage: const destinationBucket = core.getInput(''DestinationBucketName'')'
+  - 'Sample Usage: # => Maps to the destination bucket configuration in CodeCatalyst workflow definition'
+  - 'Sample Usage: const srcDir = core.getInput(''SourcePath'')'
+  - 'Sample Usage: # => Maps to the src dir configuration in CodeCatalyst workflow definition'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws/actions-dev-kit/blob/main/README.md
+  path: README.md
+  blob_sha: 7f396830645153db115c72d30dc7bd058883e11f
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: ff6b294dcf258c77abf04b08a20645ee720a6729
+  retrieved: true
+- type: manifest
+  path: packages/adk-core/package.json
+  blob_sha: 6733bd8df6fc189dbe85b45d8978ab4fab200cfb
+  retrieved: true
+- type: manifest
+  path: packages/adk-model-parser/package.json
+  blob_sha: cc5a2d082641e9efd313c2806f06c971da7d9121
+  retrieved: true
+- type: manifest
+  path: packages/adk-utils/package.json
+  blob_sha: 5867fc7f5891940d92b89681169f3c255ac30330
+  retrieved: true
+- type: manifest
+  path: packages/adk/package.json
+  blob_sha: bcc136db738e29ceb9321c08c982af6cfef72a5c
+  retrieved: true
+- type: manifest
+  path: packages/codecatalyst-entities/project/package.json
+  blob_sha: 94080107c0c957378b37aa0a6425a0f6b27a0043
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    HTML: 551130
+    TypeScript: 105954
+    CSS: 31353
+    JavaScript: 7137
+    Shell: 334
+- type: Git tree
+  status: captured
+  sha: 35cb7339a99aa83248046cd99d9a7c2ad3df3d75
+  truncated: false
+- type: source_file
+  path: packages/adk-model-parser/lib/index.ts
+  blob_sha: c750d8525ad0f5dfd10dcfc000de8d2a67407936
+  retrieved: true
+- type: source_file
+  path: packages/adk-utils/lib/index.ts
+  blob_sha: f2109867478b2cdecff89dd700ab21b3ed7c6e29
+  retrieved: true
+- type: source_file
+  path: packages/adk/lib/index.ts
+  blob_sha: c230adadc7bf91c1c8ed0d84206f487ee38f32a3
+  retrieved: true
+- type: source_file
+  path: packages/adk/templates/action/typescript/lib/index.ts
+  blob_sha: 24142c068b87a2833231d6b28a6b28dd760100d5
+  retrieved: true

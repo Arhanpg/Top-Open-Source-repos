@@ -1,0 +1,96 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:51:25+00:00'
+evidence_fingerprint: 2300109de1999703f270623792be6ebdc070cbbf7f0fdda78c1778d40ee9b1f3
+repository_metadata:
+  company: Siemens
+  account: mindsphere
+  full_name: mindsphere/mindsphere-auth-helper
+  repository_id: 275625626
+  url: https://github.com/mindsphere/mindsphere-auth-helper
+  description: This chrome extension can be used to simplify the development tasks for which you need to use the
+    SESSION and XSRF-TOKEN to access Insights Hub APIs. It provides an easy way to copy the Insights Hub authentication
+    cookies to the clipboard without having to go to chrome developer tools.
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-02T02:24:29Z'
+  stars: 6
+  readme_url: https://github.com/mindsphere/mindsphere-auth-helper/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 8e927b33b645a4d5b4cbb51496005f05d34e9c29
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - scripts.ts
+  repository_tree:
+    status: captured
+    sha: 0160793df5e25c746b6cdbcf9a112151a2e9844a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This chrome extension can be used to simplify the development tasks for which you need to use the SESSION
+    and XSRF-TOKEN to access Insights Hub and Indutrial IoT APIs. It provides an easy way to copy the Insights Hub
+    and Indutrial IoT authentication cookies to the clipboard without having to go to chrome developer tools.
+  why_used: This chrome extension can be used to simplify the development tasks for which you need to use the SESSION
+    and XSRF-TOKEN to access Insights Hub APIs. It provides an easy way to copy the Insights Hub authentication
+    cookies to the clipboard without having to go to chrome developer tools.
+  core_features: []
+  technology_stack:
+    languages:
+    - CSS
+    - HTML
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@types/chrome'
+    - copyfiles
+    - cross-env
+    - cross-var
+    - rimraf
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: scripts.ts'
+  setup_and_usage:
+  - 'Installation: Go to chrome web store and click on **add to chrome**.'
+  - 'Installation: Once the extension is installed: log in to your Insights Hub and Indutrial IoT tenant, navigate
+    to your application and click on the extension icon to display the available application cookies. You can now
+    click e.g. on **session** or **Xsrf** button which will copy the corresponding cookie to your clipboard.'
+  - 'Installation: The cookies can be used with the tools like curl, postman etc. (Click on the links for more examples)'
+  - 'Installation: --cookie "SESSION= ;XSRF-TOKEN= " \'
+  - 'Installation: https:// - - . .mindsphere.io/api/assetmanagement/v3/assets'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/mindsphere/mindsphere-auth-helper/blob/master/README.md
+  path: README.md
+  blob_sha: 8e927b33b645a4d5b4cbb51496005f05d34e9c29
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: db87ef78ae0a52abf1f0f8a2904feddb3cbe82eb
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    CSS: 142911
+    HTML: 6558
+    TypeScript: 5364
+- type: Git tree
+  status: captured
+  sha: 0160793df5e25c746b6cdbcf9a112151a2e9844a
+  truncated: false
+- type: source_file
+  path: scripts.ts
+  blob_sha: a4804bb0c2cd4ba112472da4c0daf65bed626c1c
+  retrieved: true

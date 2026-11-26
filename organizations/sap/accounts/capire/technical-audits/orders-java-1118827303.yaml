@@ -1,0 +1,123 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:36:13+00:00'
+evidence_fingerprint: 784e513ce5e89f06cb399719ba640872f73709088f711b93bac52be93cda8899
+repository_metadata:
+  company: SAP
+  account: capire
+  full_name: capire/orders-java
+  repository_id: 1118827303
+  url: https://github.com/capire/orders-java
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-09T14:10:26Z'
+  stars: 0
+  readme_url: https://github.com/capire/orders-java/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 262f7e836c7d1e5b3831353e594966d19ffe0c40
+  manifest_paths:
+  - package.json
+  - pom.xml
+  - srv/pom.xml
+  source_files_inspected:
+  - srv/src/main/java/customer/orders/Application.java
+  - app/orders/webapp/Component.js
+  - srv/src/main/java/customer/orders/OrdersHandler.java
+  repository_tree:
+    status: captured
+    sha: 8c5a60de238ae0a294ad6cd2d8c2f45244a92e08
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a sample app which provides a generic reuse service for managing orders, and a corresponding
+    Fiori UI. It is used in the bookstore sample.
+  why_used: This is a sample app which provides a generic reuse service for managing orders, and a corresponding
+    Fiori UI. It is used in the bookstore sample.
+  core_features: []
+  technology_stack:
+    languages:
+    - CAP CDS
+    - Java
+    - HTML
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@capire/common'
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - cds-adapter-odata-v4
+    - cds-feature-enterprise-messaging
+    - cds-maven-plugin
+    - cds-services-bom
+    - cds-starter-cloudfoundry
+    - cds-starter-spring-boot
+    - flatten-maven-plugin
+    - h2
+    - maven-compiler-plugin
+    - maven-enforcer-plugin
+    - maven-surefire-plugin
+    - orders
+    - orders-parent
+    - spring-boot-dependencies
+    - spring-boot-devtools
+    - spring-boot-maven-plugin
+    - spring-boot-starter-test
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: srv/src/main/java/customer/orders/Application.java,
+    app/orders/webapp/Component.js, srv/src/main/java/customer/orders/OrdersHandler.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/capire/orders-java/blob/main/README.md
+  path: README.md
+  blob_sha: 262f7e836c7d1e5b3831353e594966d19ffe0c40
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: c89d86b7dfeeb779da6528bac1697e27458d7e04
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: cc7624d477b9ae39724c5e760e9bf2bbfda5efec
+  retrieved: true
+- type: manifest
+  path: srv/pom.xml
+  blob_sha: c8d4aef7543a8635740cc8ea993701d9d883a45c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    CAP CDS: 3792
+    Java: 2948
+    HTML: 1172
+    JavaScript: 200
+- type: Git tree
+  status: captured
+  sha: 8c5a60de238ae0a294ad6cd2d8c2f45244a92e08
+  truncated: false
+- type: source_file
+  path: srv/src/main/java/customer/orders/Application.java
+  blob_sha: a6c384f8bfb6d568f82ccf791701e929e82a3981
+  retrieved: true
+- type: source_file
+  path: app/orders/webapp/Component.js
+  blob_sha: dff3acbcd1739ca98e735e50e661f781b5cd3fcf
+  retrieved: true
+- type: source_file
+  path: srv/src/main/java/customer/orders/OrdersHandler.java
+  blob_sha: ebbe8d2dff8d6f8b87c066d19f81c17104da34fb
+  retrieved: true

@@ -1,0 +1,117 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:35:57+00:00'
+evidence_fingerprint: c11b9ef88ebbb0a7b9eabf62cab1d2b6611da2313daf75b9b7ecd9e3333587b7
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/hugectr_backend
+  repository_id: 332048175
+  url: https://github.com/triton-inference-server/hugectr_backend
+  description: null
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-10-17T07:00:00Z'
+  stars: 58
+  readme_url: https://github.com/triton-inference-server/hugectr_backend/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b0bf8a464e68908c884d313d9f7af9fbc52f4b51
+  manifest_paths:
+  - hps_backend/CMakeLists.txt
+  - hps_backend/samples/hps-triton-ensemble/requirements.txt
+  source_files_inspected:
+  - hps_backend/src/backend.cpp
+  - hps_backend/src/hps.cc
+  - hps_backend/src/model_instance_state.cpp
+  - hps_backend/src/model_state.cpp
+  repository_tree:
+    status: captured
+    sha: 5eb32e7a4d0b2a451cbb67cd33bb868716c18817
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: -->
+  why_used: -->
+  core_features: []
+  technology_stack:
+    languages:
+    - Jupyter Notebook
+    - C++
+    - CMake
+    - Shell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - jupyter
+    - onnx
+    - tensorflow
+    - tf2onnx
+    - torch
+    build_and_package_tools:
+    - CMake configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: hps_backend/src/backend.cpp,
+    hps_backend/src/hps.cc, hps_backend/src/model_instance_state.cpp, hps_backend/src/model_state.cpp'
+  setup_and_usage:
+  - 'Quick Start: You can build the HPS Backend from scratch and install to the specify path based on your own specific
+    requirements using the NGC Merlin inference Docker images.'
+  - 'Quick Start: We support the following compute capabilities for inference deployment:'
+  - 'Quick Start: | Compute Capability | GPU | SM |'
+  - 'Quick Start: |--------------------|----------------------|----|'
+  - 'Quick Start: | 7.0 | NVIDIA V100 (Volta) | 70 |'
+  - 'Quick Start: | 7.5 | NVIDIA T4 (Turing) | 75 |'
+  - 'Quick Start: | 8.0 | NVIDIA A100 (Ampere) | 80 |'
+  - 'Quick Start: | 8.6 | NVIDIA A10 (Ampere) | 72 |'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/hugectr_backend/blob/main/README.md
+  path: README.md
+  blob_sha: b0bf8a464e68908c884d313d9f7af9fbc52f4b51
+  retrieved: true
+- type: manifest
+  path: hps_backend/CMakeLists.txt
+  blob_sha: fd327dea8dbbd70c307f83b462e55e04ec2da819
+  retrieved: true
+- type: manifest
+  path: hps_backend/samples/hps-triton-ensemble/requirements.txt
+  blob_sha: 9a168c0931858c3339b8dc646f71b449cf3886f7
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Jupyter Notebook: 215593
+    C++: 139169
+    CMake: 9432
+    Shell: 1762
+    Dockerfile: 1492
+- type: Git tree
+  status: captured
+  sha: 5eb32e7a4d0b2a451cbb67cd33bb868716c18817
+  truncated: false
+- type: source_file
+  path: hps_backend/src/backend.cpp
+  blob_sha: ac7f656f26326f925c2d928a88867353201a66eb
+  retrieved: true
+- type: source_file
+  path: hps_backend/src/hps.cc
+  blob_sha: d7cdc3f43716d4fcf73fdb70ff65a8f9bf8bf163
+  retrieved: true
+- type: source_file
+  path: hps_backend/src/model_instance_state.cpp
+  blob_sha: 0d09bc78c2cfb2466352f1e3c17c6b85de7cbdf5
+  retrieved: true
+- type: source_file
+  path: hps_backend/src/model_state.cpp
+  blob_sha: 80d145423b8fbdc3ad166c74b5df9422ac153411
+  retrieved: true

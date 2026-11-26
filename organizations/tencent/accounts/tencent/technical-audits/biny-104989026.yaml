@@ -1,0 +1,98 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:44:45+00:00'
+evidence_fingerprint: 8f7263d46191e0696aa416bfc55fa468b0fb5fc8bef0b55eba272a72e940f40e
+repository_metadata:
+  company: Tencent
+  account: Tencent
+  full_name: Tencent/Biny
+  repository_id: 104989026
+  url: https://github.com/Tencent/Biny
+  description: Biny is a tiny, high-performance PHP framework for web applications
+  default_branch: master
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-08-24T03:30:40Z'
+  stars: 1682
+  readme_url: https://github.com/Tencent/Biny/blob/master/ReadMe.md
+  readme_path: ReadMe.md
+  readme_sha: def04ab0bc341f66a3e169e4edfd7eb2c30e34f9
+  manifest_paths:
+  - composer.json
+  source_files_inspected:
+  - app/config/config.php
+  - app/config/dns_dev.php
+  - app/config/dns_pre.php
+  - app/config/dns_pub.php
+  repository_tree:
+    status: captured
+    sha: eb5686cd33ae282b68dba2248b610212bb6bdcaf
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Biny是一款高性能的轻量级PHP框架
+  why_used: Biny is a tiny, high-performance PHP framework for web applications
+  core_features: []
+  technology_stack:
+    languages:
+    - PHP
+    - CSS
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - ext-json
+    - ext-mbstring
+    - ext-mysqli
+    - phpstan/phpstan
+    - phpunit/phpunit
+    build_and_package_tools:
+    - Composer manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: app/config/config.php,
+    app/config/dns_dev.php, app/config/dns_pre.php, app/config/dns_pub.php'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Tencent/Biny/blob/master/ReadMe.md
+  path: ReadMe.md
+  blob_sha: def04ab0bc341f66a3e169e4edfd7eb2c30e34f9
+  retrieved: true
+- type: manifest
+  path: composer.json
+  blob_sha: cbfb155c42305b72107a49174358a9a443ee7541
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    PHP: 504123
+    CSS: 29247
+    JavaScript: 10137
+- type: Git tree
+  status: captured
+  sha: eb5686cd33ae282b68dba2248b610212bb6bdcaf
+  truncated: false
+- type: source_file
+  path: app/config/config.php
+  blob_sha: 1051b19e906556b24893a2ee081fc13df5a8ab38
+  retrieved: true
+- type: source_file
+  path: app/config/dns_dev.php
+  blob_sha: 50d30e19357b8b227885dcec8b1fc3091190a510
+  retrieved: true
+- type: source_file
+  path: app/config/dns_pre.php
+  blob_sha: 542b9b44946c28a0bc73375f1361deaf21f8ca82
+  retrieved: true
+- type: source_file
+  path: app/config/dns_pub.php
+  blob_sha: 542b9b44946c28a0bc73375f1361deaf21f8ca82
+  retrieved: true

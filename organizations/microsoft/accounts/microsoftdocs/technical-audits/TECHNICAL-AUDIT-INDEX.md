@@ -1,10 +1,10 @@
 # Technical audits — microsoftdocs
 
-Updated: 2026-11-26T07:22:02+00:00
+Updated: 2026-11-26T22:57:05+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 
 ## Repository dossiers
 
@@ -21,4 +21,8 @@ Updated: 2026-11-26T07:22:02+00:00
 | azure-maya-mystery-challenge-3-288285970 | evidence_only | [azure-maya-mystery-challenge-3-288285970.md](azure-maya-mystery-challenge-3-288285970.md) | [azure-maya-mystery-challenge-3-288285970.yaml](azure-maya-mystery-challenge-3-288285970.yaml) |
 | azure-sphere-developer-learning-path-260070854 | evidence_only | [azure-sphere-developer-learning-path-260070854.md](azure-sphere-developer-learning-path-260070854.md) | [azure-sphere-developer-learning-path-260070854.yaml](azure-sphere-developer-learning-path-260070854.yaml) |
 | azure-trusted-launch-vms-linux-851440285 | evidence_only | [azure-trusted-launch-vms-linux-851440285.md](azure-trusted-launch-vms-linux-851440285.md) | [azure-trusted-launch-vms-linux-851440285.yaml](azure-trusted-launch-vms-linux-851440285.yaml) |
+| backup-confidential-vms-with-cmk-638185403 | evidence_only | [backup-confidential-vms-with-cmk-638185403.md](backup-confidential-vms-with-cmk-638185403.md) | [backup-confidential-vms-with-cmk-638185403.yaml](backup-confidential-vms-with-cmk-638185403.yaml) |
+| cntk-89207175 | evidence_only | [cntk-89207175.md](cntk-89207175.md) | [cntk-89207175.yaml](cntk-89207175.yaml) |
+| csidev-public-110157210 | evidence_only | [csidev-public-110157210.md](csidev-public-110157210.md) | [csidev-public-110157210.yaml](csidev-public-110157210.yaml) |
+| csidev-public-ppe-158671211 | evidence_only | [csidev-public-ppe-158671211.md](csidev-public-ppe-158671211.md) | [csidev-public-ppe-158671211.yaml](csidev-public-ppe-158671211.yaml) |
 | github-194900040 | evidence_only | [github-194900040.md](github-194900040.md) | [github-194900040.yaml](github-194900040.yaml) |

@@ -1,0 +1,122 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:37:57+00:00'
+evidence_fingerprint: 3a843ce1e13de5597e495a8a8986c94c27a4f9ce9ba155a0c1c140263815bc72
+repository_metadata:
+  company: Alphabet (Google)
+  account: google-gemini
+  full_name: google-gemini/deprecated-generative-ai-android
+  repository_id: 727310537
+  url: https://github.com/google-gemini/deprecated-generative-ai-android
+  description: This SDK is now deprecated, use the unified Firebase SDK.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2025-06-11T17:37:30Z'
+  stars: 863
+  readme_url: https://github.com/google-gemini/deprecated-generative-ai-android/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4464de79fe781aa198d0adeb9839a0e937be1549
+  manifest_paths:
+  - build.gradle.kts
+  - common/build.gradle.kts
+  - generativeai-android-sample/build.gradle.kts
+  - generativeai/build.gradle.kts
+  - plugins/build.gradle.kts
+  - generativeai-android-sample/app/build.gradle.kts
+  source_files_inspected:
+  - common/src/main/kotlin/com/google/ai/client/generativeai/common/APIController.kt
+  - common/src/main/kotlin/com/google/ai/client/generativeai/common/client/Types.kt
+  - common/src/main/kotlin/com/google/ai/client/generativeai/common/Exceptions.kt
+  - common/src/main/kotlin/com/google/ai/client/generativeai/common/Request.kt
+  repository_tree:
+    status: captured
+    sha: 2b0b977223b7d3a0dff525a71b7a756fa0a9a7f9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: With Gemini 2.0, we took the chance to create a unified SDK for mobile developers who want to use Google's
+    GenAI models (Gemini, Veo, Imagen, etc). As part of that process, we took all of the feedback from this SDK
+    and what developers like about other SDKs in the ecosystem to directly work with the Firebase SDK. We don't
+    plan to add anything to this SDK or making any further changes. We know how disruptive an SDK change can be
+    and don't take this change lightly, but our goal is to create an extremely simple and clear path for developers
+    to build with our models so it felt necessary to make this change.
+  why_used: This SDK is now deprecated, use the unified Firebase SDK.
+  core_features: []
+  technology_stack:
+    languages:
+    - Kotlin
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle Kotlin build file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: common/src/main/kotlin/com/google/ai/client/generativeai/common/APIController.kt,
+    common/src/main/kotlin/com/google/ai/client/generativeai/common/client/Types.kt, common/src/main/kotlin/com/google/ai/client/generativeai/common/Exceptions.kt,
+    common/src/main/kotlin/com/google/ai/client/generativeai/common/Request.kt'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google-gemini/deprecated-generative-ai-android/blob/main/README.md
+  path: README.md
+  blob_sha: 4464de79fe781aa198d0adeb9839a0e937be1549
+  retrieved: true
+- type: manifest
+  path: build.gradle.kts
+  blob_sha: eb02553e1d87d1e74804ecc0151b6cecd945a303
+  retrieved: true
+- type: manifest
+  path: common/build.gradle.kts
+  blob_sha: 842e930157a254c68a82936ab1edf175e29ce41e
+  retrieved: true
+- type: manifest
+  path: generativeai-android-sample/build.gradle.kts
+  blob_sha: 9a4caa052408ebf0ac464feebf8e62b45f556258
+  retrieved: true
+- type: manifest
+  path: generativeai/build.gradle.kts
+  blob_sha: 9a0e0259f12abf4adff71c8a4ca6ba8351c65682
+  retrieved: true
+- type: manifest
+  path: plugins/build.gradle.kts
+  blob_sha: 822a4b2600118c0f34df3ee402c26fc2255d8706
+  retrieved: true
+- type: manifest
+  path: generativeai-android-sample/app/build.gradle.kts
+  blob_sha: 4a7a5613dc13fca2194429b03d8abfbde1835c31
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Kotlin: 297005
+    Shell: 1948
+- type: Git tree
+  status: captured
+  sha: 2b0b977223b7d3a0dff525a71b7a756fa0a9a7f9
+  truncated: false
+- type: source_file
+  path: common/src/main/kotlin/com/google/ai/client/generativeai/common/APIController.kt
+  blob_sha: aaf79634ac42e6de25506f3caae8d2ada949c13c
+  retrieved: true
+- type: source_file
+  path: common/src/main/kotlin/com/google/ai/client/generativeai/common/client/Types.kt
+  blob_sha: e32b91966a39bd94a1de145cab52de85213bdc4d
+  retrieved: true
+- type: source_file
+  path: common/src/main/kotlin/com/google/ai/client/generativeai/common/Exceptions.kt
+  blob_sha: 15cd25d9f2a65ccdd2abf415720b5290af2de09f
+  retrieved: true
+- type: source_file
+  path: common/src/main/kotlin/com/google/ai/client/generativeai/common/Request.kt
+  blob_sha: b252b2e15e34a318e3b58e9591bf3515a5865149
+  retrieved: true

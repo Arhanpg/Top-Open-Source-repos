@@ -1,0 +1,139 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:32:53+00:00'
+evidence_fingerprint: 2581f07e353afae6a3b5b5d5af9fa19e323c50fa391ce700d92a0b9cc84a895a
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/aws-connected-vehicle-solution
+  repository_id: 110621453
+  url: https://github.com/aws-solutions/aws-connected-vehicle-solution
+  description: The AWS Connected Vehicle Solution is a reference implementation that provides a foundation for automotive
+    product transformations for connected vehicle services, autonomous driving, electric powertrains, and shared
+    mobility.
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2021-05-20T15:11:32Z'
+  stars: 92
+  readme_url: https://github.com/aws-solutions/aws-connected-vehicle-solution/blob/master/README.md
+  readme_path: README.md
+  readme_sha: ab4479ae885ab120156ea79d867dc1ea0f71143f
+  manifest_paths:
+  - source/data-loaders/dtc-generator/package.json
+  - source/resources/helper/package.json
+  - source/services/anomaly/package.json
+  - source/services/driversafety/package.json
+  - source/services/dtc/package.json
+  - source/services/jitr/package.json
+  source_files_inspected:
+  - source/services/anomaly/lib/index.js
+  - source/services/driversafety/lib/index.js
+  - source/services/dtc/lib/index.js
+  - source/services/marketing/lib/index.js
+  repository_tree:
+    status: captured
+    sha: 91956f71be0e7d1573aa65db68bfb47f173e85cd
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The AWS Connected Vehicle Solution is a reference implementation that provides a foundation for automotive
+    product transformations for connected vehicle services, autonomous driving, electric powertrains, and shared
+    mobility.
+  why_used: The AWS Connected Vehicle Solution is a reference implementation that provides a foundation for automotive
+    product transformations for connected vehicle services, autonomous driving, electric powertrains, and shared
+    mobility.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - aws-iot-device-sdk
+    - aws-sdk
+    - aws-sdk-mock
+    - chai
+    - fast-csv
+    - mocha
+    - moment
+    - node-uuid
+    - npm-run-all
+    - proxyquire
+    - randomstring
+    - shortid
+    - sinon
+    - sinon-chai
+    - underscore
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/services/anomaly/lib/index.js,
+    source/services/driversafety/lib/index.js, source/services/dtc/lib/index.js, source/services/marketing/lib/index.js'
+  setup_and_usage:
+  - 'Getting Started: To get started with the AWS Connected Vehicle Solution, please review the solution documentation.
+    https://aws.amazon.com/answers/iot/connected-vehicle-solution/'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/aws-connected-vehicle-solution/blob/master/README.md
+  path: README.md
+  blob_sha: ab4479ae885ab120156ea79d867dc1ea0f71143f
+  retrieved: true
+- type: manifest
+  path: source/data-loaders/dtc-generator/package.json
+  blob_sha: c6d831e46986fbe6c655a69008160a412c0346ba
+  retrieved: true
+- type: manifest
+  path: source/resources/helper/package.json
+  blob_sha: 9febe69d22aa1c88e162ec4cad0d5a237fb4e9b9
+  retrieved: true
+- type: manifest
+  path: source/services/anomaly/package.json
+  blob_sha: e73c6503b40e6e404bf43551c284101b4b7824fa
+  retrieved: true
+- type: manifest
+  path: source/services/driversafety/package.json
+  blob_sha: b61a653bb8f826c638ac36da3461a7d01fb3aa0b
+  retrieved: true
+- type: manifest
+  path: source/services/dtc/package.json
+  blob_sha: 862bce21ad9ad2c56e4caecf981f390b64ebe45a
+  retrieved: true
+- type: manifest
+  path: source/services/jitr/package.json
+  blob_sha: 36ffce2df994862a5cd1dff1b42b4c8e3c29c178
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 217034
+    Shell: 5837
+- type: Git tree
+  status: captured
+  sha: 91956f71be0e7d1573aa65db68bfb47f173e85cd
+  truncated: false
+- type: source_file
+  path: source/services/anomaly/lib/index.js
+  blob_sha: a93d8dd540a8f975317b4fbdeb47847adf1df9df
+  retrieved: true
+- type: source_file
+  path: source/services/driversafety/lib/index.js
+  blob_sha: d7356a051b4a16915259fbb32fc0bb25ded75d61
+  retrieved: true
+- type: source_file
+  path: source/services/dtc/lib/index.js
+  blob_sha: a25f6e64c6ad4d860efd06e7f6a36eb3a0577f8a
+  retrieved: true
+- type: source_file
+  path: source/services/marketing/lib/index.js
+  blob_sha: 3fd9457b8cd9112531288038952f881ba76c56f3
+  retrieved: true

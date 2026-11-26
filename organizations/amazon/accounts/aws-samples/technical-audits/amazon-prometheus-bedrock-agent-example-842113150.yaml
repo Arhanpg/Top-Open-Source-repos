@@ -1,0 +1,129 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:47:01+00:00'
+evidence_fingerprint: 40a588f2e777321a7c25a341b69bab12dcc0f2cadf5e781e0e8db58f96ab3ca0
+repository_metadata:
+  company: Amazon
+  account: aws-samples
+  full_name: aws-samples/Amazon-prometheus-bedrock-agent-example
+  repository_id: 842113150
+  url: https://github.com/aws-samples/Amazon-prometheus-bedrock-agent-example
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-15T19:07:50Z'
+  stars: 3
+  readme_url: https://github.com/aws-samples/Amazon-prometheus-bedrock-agent-example/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 24cb94b2a58e7a73e3890e01feb37452438ea59c
+  manifest_paths:
+  - a2a/Dockerfile
+  - a2a/pyproject.toml
+  - a2a/requirements.txt
+  - devops-agent/smart-demo-main/Dockerfile
+  - devops-agent/smart-demo-main/requirements.txt
+  - a2a/app/argocd_agent_eks/Dockerfile
+  source_files_inspected:
+  - a2a/app/argocd_agent_eks/main.py
+  - a2a/app/guardrail_agent/main.py
+  - devops-agent/smart-demo-main/app.py
+  - a2a/app/__init__.py
+  repository_tree:
+    status: captured
+    sha: 18d894939d07d182c12b842c2cc8e81b63422f2d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '-------------------------------------------------------------------------------- Amazon Prometheus Bedrock
+    Agent Example --------------------------------------------------------------------------------'
+  why_used: '-------------------------------------------------------------------------------- Amazon Prometheus
+    Bedrock Agent Example --------------------------------------------------------------------------------'
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies:
+    - a2a
+    - awslabs.prometheus-mcp-server
+    - bedrock-agentcore
+    - boto3
+    - flask
+    - gunicorn
+    - kubernetes
+    - mcp
+    - prometheus_client
+    - requests
+    - strands-agents
+    - strands-agents-tools
+    - urllib3
+    build_and_package_tools:
+    - Docker build configuration
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: a2a/app/argocd_agent_eks/main.py,
+    a2a/app/guardrail_agent/main.py, devops-agent/smart-demo-main/app.py, a2a/app/__init__.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-samples/Amazon-prometheus-bedrock-agent-example/blob/main/README.md
+  path: README.md
+  blob_sha: 24cb94b2a58e7a73e3890e01feb37452438ea59c
+  retrieved: true
+- type: manifest
+  path: a2a/Dockerfile
+  blob_sha: 3a06fa0a735674cb6a058cb878636371e44b1b69
+  retrieved: true
+- type: manifest
+  path: a2a/pyproject.toml
+  blob_sha: a6e2442c31aae20933d0054cc8115ce24ce588a8
+  retrieved: true
+- type: manifest
+  path: a2a/requirements.txt
+  blob_sha: 25d6a61e33f3ed9996a9892269fd5e4cfa4353bc
+  retrieved: true
+- type: manifest
+  path: devops-agent/smart-demo-main/Dockerfile
+  blob_sha: 1d394d5fae2c9f34a5e25548b0a043a92e106840
+  retrieved: true
+- type: manifest
+  path: devops-agent/smart-demo-main/requirements.txt
+  blob_sha: f16a75c0053ef76306ab7e5c61fe555d05dbf2a6
+  retrieved: true
+- type: manifest
+  path: a2a/app/argocd_agent_eks/Dockerfile
+  blob_sha: ba4575f2d217a9f8dd472549ef6ffcd130c3d3fd
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: 18d894939d07d182c12b842c2cc8e81b63422f2d
+  truncated: false
+- type: source_file
+  path: a2a/app/argocd_agent_eks/main.py
+  blob_sha: 561215fab2014a93b6e43dafda0fc9e620b0afed
+  retrieved: true
+- type: source_file
+  path: a2a/app/guardrail_agent/main.py
+  blob_sha: 2bac2fe0fd88fa3afbc43ab2932d9e7a02201a84
+  retrieved: true
+- type: source_file
+  path: devops-agent/smart-demo-main/app.py
+  blob_sha: 8e70698cf27ba43223c2442e8a2e2a0d1922d235
+  retrieved: true
+- type: source_file
+  path: a2a/app/__init__.py
+  blob_sha: edabda988fb14481b3181518c792206932580c4d
+  retrieved: true

@@ -1,0 +1,126 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:49:33+00:00'
+evidence_fingerprint: 70f534c3ca6d1b3094d42223f7520a79df451377721ea8090115eba6ad9e7c83
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/Bobber
+  repository_id: 336076085
+  url: https://github.com/NVIDIA/Bobber
+  description: Containerized testing of system components that impact AI workload performance
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-04-25T15:25:56Z'
+  stars: 15
+  readme_url: https://github.com/NVIDIA/Bobber/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f1c95dcc61f7655275665defe9afcc964d10963d
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  - bobber/lib/docker/Dockerfile
+  source_files_inspected:
+  - bobber/lib/__init__.py
+  - bobber/lib/analysis/__init__.py
+  - bobber/lib/analysis/aggregate_results.py
+  - bobber/lib/analysis/common.py
+  repository_tree:
+    status: captured
+    sha: c92651270b82354897b78864e83b887634af5f79
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Containerized testing of system components that impact AI workload performance.
+  why_used: Containerized testing of system components that impact AI workload performance
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - PyYAML
+    - certifi
+    - chardet
+    - docker
+    - idna
+    - numpy
+    - pycodestyle
+    - requests
+    - six
+    - tabulate
+    - urllib3
+    - websocket-client
+    build_and_package_tools:
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: bobber/lib/__init__.py,
+    bobber/lib/analysis/__init__.py, bobber/lib/analysis/aggregate_results.py, bobber/lib/analysis/common.py'
+  setup_and_usage:
+  - 'Python dependency installation: Bobber features a Python wheel which can be installed using PIP3 for Python3
+    and'
+  - 'Python dependency installation: nvidia-pyindex. Installing the wheel will also install all required'
+  - 'Python dependency installation: First, install PIP3 if not already installed on all of the machines that will
+    be'
+  - 'Python dependency installation: sudo apt install -y python3-pip'
+  - 'Python dependency installation: Next, install nvidia-pyindex and nvidia-bobber globally on all nodes. By'
+  - 'Python dependency installation: installing globally with sudo, the application will be available in all paths'
+  - 'Python dependency installation: to all users, though it can also be installed in a virtualenv or conda'
+  - 'Python dependency installation: sudo pip3 install nvidia-pyindex'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/Bobber/blob/main/README.md
+  path: README.md
+  blob_sha: f1c95dcc61f7655275665defe9afcc964d10963d
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 5cb8832315d2b27d55d1656af5ee307603b2ccfc
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: ce61b059473ee25285ddfba82cd2c5c0474b19ba
+  retrieved: true
+- type: manifest
+  path: bobber/lib/docker/Dockerfile
+  blob_sha: 248f6847eec05d00c8caad6a302f8bc48704e9fd
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 158093
+    Shell: 14168
+    Dockerfile: 3740
+- type: Git tree
+  status: captured
+  sha: c92651270b82354897b78864e83b887634af5f79
+  truncated: false
+- type: source_file
+  path: bobber/lib/__init__.py
+  blob_sha: 548d2d447de68422c7e6df5d1da98b2169133f1d
+  retrieved: true
+- type: source_file
+  path: bobber/lib/analysis/__init__.py
+  blob_sha: 548d2d447de68422c7e6df5d1da98b2169133f1d
+  retrieved: true
+- type: source_file
+  path: bobber/lib/analysis/aggregate_results.py
+  blob_sha: 61be50f8fd0bb7419001161339f1e83656651f41
+  retrieved: true
+- type: source_file
+  path: bobber/lib/analysis/common.py
+  blob_sha: b1af96c5fc34649b6d45e61a92c37eab0ef45a82
+  retrieved: true

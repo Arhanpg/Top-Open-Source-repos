@@ -1,0 +1,94 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:41:01+00:00'
+evidence_fingerprint: b58e33561593971b3cb60ec8f02f76527dd74768617be51c2b0a04faec99dcdb
+repository_metadata:
+  company: Amazon
+  account: freertos
+  full_name: FreeRTOS/FreeRTOS-Kernel-Partner-Supported-Ports
+  repository_id: 375531850
+  url: https://github.com/FreeRTOS/FreeRTOS-Kernel-Partner-Supported-Ports
+  description: null
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-09-09T05:15:33Z'
+  stars: 19
+  readme_url: https://github.com/FreeRTOS/FreeRTOS-Kernel-Partner-Supported-Ports/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3fab01fbc5ba5483823f895ed1f2b43b72e2a3a7
+  manifest_paths:
+  - Cadence/Xtensa/Makefile
+  source_files_inspected:
+  - Cadence/Xtensa/asm-offsets.c
+  - Cadence/Xtensa/port.c
+  - Cadence/Xtensa/portbenchmark.h
+  - Cadence/Xtensa/portclib.c
+  repository_tree:
+    status: captured
+    sha: 772401185b157e5842b063eddffd280d51fb6388
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This repository contains FreeRTOS ports supported by FreeRTOS partners. For a partner supported FreeRTOS
+    port:'
+  why_used: 'This repository contains FreeRTOS ports supported by FreeRTOS partners. For a partner supported FreeRTOS
+    port:'
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - Assembly
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Cadence/Xtensa/asm-offsets.c,
+    Cadence/Xtensa/port.c, Cadence/Xtensa/portbenchmark.h, Cadence/Xtensa/portclib.c'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/FreeRTOS/FreeRTOS-Kernel-Partner-Supported-Ports/blob/main/README.md
+  path: README.md
+  blob_sha: 3fab01fbc5ba5483823f895ed1f2b43b72e2a3a7
+  retrieved: true
+- type: manifest
+  path: Cadence/Xtensa/Makefile
+  blob_sha: 460bde70e0833dccbccd74aa84a48018347de52c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 459736
+    Assembly: 216599
+    Makefile: 4069
+- type: Git tree
+  status: captured
+  sha: 772401185b157e5842b063eddffd280d51fb6388
+  truncated: false
+- type: source_file
+  path: Cadence/Xtensa/asm-offsets.c
+  blob_sha: fde46118a564f2379f3c5270eed7dc66bd4d772c
+  retrieved: true
+- type: source_file
+  path: Cadence/Xtensa/port.c
+  blob_sha: 4907ce5c763c7e85f1c7528b4e9e1e69c1a1e663
+  retrieved: true
+- type: source_file
+  path: Cadence/Xtensa/portbenchmark.h
+  blob_sha: d9ebd5abbd82e8816f221dd7ded6b15820c7f90b
+  retrieved: true
+- type: source_file
+  path: Cadence/Xtensa/portclib.c
+  blob_sha: 6db8be594a87e84d56abe76973958245c7227750
+  retrieved: true

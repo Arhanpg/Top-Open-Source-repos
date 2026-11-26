@@ -1,0 +1,79 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:34:29+00:00'
+evidence_fingerprint: 7e03e6a13aa988590c6c7527412d52af38050772593a795377976e8689e6cd31
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/ERNIE-Image
+  repository_id: 1210026347
+  url: https://github.com/baidu/ERNIE-Image
+  description: ERNIE-Image is an open text-to-image generation model developed by the ERNIE-Image team at Baidu.
+    It is built on a single-stream Diffusion Transformer (DiT), with only 8B DiT parameters, it reaches state-of-the-art
+    performance among open-weight text-to-image models.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-04-17T02:32:44Z'
+  stars: 521
+  readme_url: https://github.com/baidu/ERNIE-Image/blob/main/README.md
+  readme_path: README.md
+  readme_sha: bf9bbdf9feccb6451acfa98c351f651a8eb5c3ed
+  manifest_paths: []
+  source_files_inspected:
+  - src/example/infer_demo.py
+  repository_tree:
+    status: captured
+    sha: e9b9d484a9a27db1da3f9766d56f94068340622d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ERNIE-Image is an open text-to-image generation model developed by the ERNIE-Image team at Baidu. It
+    is built on a single-stream Diffusion Transformer (DiT) and paired with a lightweight Prompt Enhancer that expands
+    brief user inputs into richer structured descriptions. With only 8B DiT parameters, it reaches state-of-the-art
+    performance among open-weight text-to-image models.
+  why_used: ERNIE-Image is an open text-to-image generation model developed by the ERNIE-Image team at Baidu. It
+    is built on a single-stream Diffusion Transformer (DiT), with only 8B DiT parameters, it reaches state-of-the-art
+    performance among open-weight text-to-image models.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/example/__init__.py,
+    src/example/infer_demo.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/ERNIE-Image/blob/main/README.md
+  path: README.md
+  blob_sha: bf9bbdf9feccb6451acfa98c351f651a8eb5c3ed
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 710
+- type: Git tree
+  status: captured
+  sha: e9b9d484a9a27db1da3f9766d56f94068340622d
+  truncated: false
+- type: source_file
+  path: src/example/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: src/example/infer_demo.py
+  blob_sha: 812f7303fe8f30b20621515dc6a83754e4c18686
+  retrieved: true

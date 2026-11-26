@@ -1,10 +1,10 @@
 # Technical audits — sap-docs
 
-Updated: 2026-11-26T07:22:02+00:00
+Updated: 2026-11-26T22:57:04+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 15
 
 ## Repository dossiers
 
@@ -21,4 +21,7 @@ Updated: 2026-11-26T07:22:02+00:00
 | btp-cloud-integration-automation-service-745470332 | evidence_only | [btp-cloud-integration-automation-service-745470332.md](btp-cloud-integration-automation-service-745470332.md) | [btp-cloud-integration-automation-service-745470332.yaml](btp-cloud-integration-automation-service-745470332.yaml) |
 | btp-cloud-logging-730279912 | evidence_only | [btp-cloud-logging-730279912.md](btp-cloud-logging-730279912.md) | [btp-cloud-logging-730279912.yaml](btp-cloud-logging-730279912.yaml) |
 | btp-cloud-platform-404731074 | evidence_only | [btp-cloud-platform-404731074.md](btp-cloud-platform-404731074.md) | [btp-cloud-platform-404731074.yaml](btp-cloud-platform-404731074.yaml) |
+| btp-cloud-transport-management-821301836 | evidence_only | [btp-cloud-transport-management-821301836.md](btp-cloud-transport-management-821301836.md) | [btp-cloud-transport-management-821301836.yaml](btp-cloud-transport-management-821301836.yaml) |
+| btp-connectivity-705745504 | evidence_only | [btp-connectivity-705745504.md](btp-connectivity-705745504.md) | [btp-connectivity-705745504.yaml](btp-connectivity-705745504.yaml) |
+| btp-continuous-integration-and-delivery-746576391 | evidence_only | [btp-continuous-integration-and-delivery-746576391.md](btp-continuous-integration-and-delivery-746576391.md) | [btp-continuous-integration-and-delivery-746576391.yaml](btp-continuous-integration-and-delivery-746576391.yaml) |
 | github-362398258 | evidence_only | [github-362398258.md](github-362398258.md) | [github-362398258.yaml](github-362398258.yaml) |

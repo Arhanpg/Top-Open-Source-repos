@@ -1,10 +1,10 @@
 # Technical audits — ai-dynamo
 
-Updated: 2026-11-26T07:22:00+00:00
+Updated: 2026-11-26T22:57:03+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 
 ## Repository dossiers
 
@@ -22,3 +22,7 @@ Updated: 2026-11-26T07:22:00+00:00
 | frontend-crates-1237159425 | evidence_only | [frontend-crates-1237159425.md](frontend-crates-1237159425.md) | [frontend-crates-1237159425.yaml](frontend-crates-1237159425.yaml) |
 | github-945552856 | evidence_only | [github-945552856.md](github-945552856.md) | [github-945552856.yaml](github-945552856.yaml) |
 | grove-863068440 | evidence_only | [grove-863068440.md](grove-863068440.md) | [grove-863068440.yaml](grove-863068440.yaml) |
+| kvcr-1342045617 | evidence_only | [kvcr-1342045617.md](kvcr-1342045617.md) | [kvcr-1342045617.yaml](kvcr-1342045617.yaml) |
+| modelexpress-982985446 | evidence_only | [modelexpress-982985446.md](modelexpress-982985446.md) | [modelexpress-982985446.yaml](modelexpress-982985446.yaml) |
+| nixl-943421085 | evidence_only | [nixl-943421085.md](nixl-943421085.md) | [nixl-943421085.yaml](nixl-943421085.yaml) |
+| openengine-1287558335 | evidence_only | [openengine-1287558335.md](openengine-1287558335.md) | [openengine-1287558335.yaml](openengine-1287558335.yaml) |

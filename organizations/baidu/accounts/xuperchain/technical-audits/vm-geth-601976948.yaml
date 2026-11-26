@@ -1,0 +1,135 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:55:33+00:00'
+evidence_fingerprint: 2af3c456fe3d16cd503c9b0474feeeba39deb5fc547772b7a884a3e34f1d2d18
+repository_metadata:
+  company: Baidu
+  account: xuperchain
+  full_name: xuperchain/vm-geth
+  repository_id: 601976948
+  url: https://github.com/xuperchain/vm-geth
+  description: null
+  default_branch: master
+  license_spdx: LGPL-2.1
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-02-16T06:34:51Z'
+  stars: 0
+  readme_url: https://github.com/xuperchain/vm-geth/blob/master/README.md
+  readme_path: README.md
+  readme_sha: f39b5bfea395c7381709ed9eb6a213c10981b28b
+  manifest_paths:
+  - go.mod
+  - Makefile
+  source_files_inspected:
+  - main.go
+  - example/example.go
+  - geth/address/address.go
+  - geth/creator.go
+  repository_tree:
+    status: captured
+    sha: 125000605458b879e9d5fba12ba117c8c090ad1f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: vm-geth 是一个用于实现 Solidity 的 EVM 动态链接工具。
+  why_used: vm-geth 是一个用于实现 Solidity 的 EVM 动态链接工具。
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/beorn7/perks
+    - github.com/cloudflare/bn256
+    - github.com/consensys/gnark
+    - github.com/consensys/gurvy
+    - github.com/davecgh/go-spew
+    - github.com/emirpasic/gods
+    - github.com/fsnotify/fsnotify
+    - github.com/go-stack/stack
+    - github.com/golang/protobuf
+    - github.com/hashicorp/hcl
+    - github.com/magiconair/properties
+    - github.com/matttproud/golang_protobuf_extensions
+    - github.com/mitchellh/mapstructure
+    - github.com/pelletier/go-toml
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/spf13/afero
+    - github.com/spf13/cast
+    - github.com/spf13/jwalterweatherman
+    - github.com/spf13/pflag
+    - github.com/spf13/viper
+    - github.com/stretchr/testify
+    - github.com/subosito/gotenv
+    - github.com/syndtr/goleveldb
+    - github.com/xuperchain/crypto
+    - github.com/xuperchain/log15
+    - golang.org/x/crypto
+    - golang.org/x/net
+    - golang.org/x/sys
+    - golang.org/x/text
+    - google.golang.org/genproto
+    - google.golang.org/grpc
+    - google.golang.org/protobuf
+    - gopkg.in/ini.v1
+    - gopkg.in/yaml.v2
+    - gopkg.in/yaml.v3
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: main.go, example/example.go,
+    geth/address/address.go, geth/creator.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/xuperchain/vm-geth/blob/master/README.md
+  path: README.md
+  blob_sha: f39b5bfea395c7381709ed9eb6a213c10981b28b
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: f9c8fcb3d1784d19b7a7a4bb7d4082922b5e44ee
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: c620de11990efb68a324e9c30c1374e0ca092868
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 6685
+    Makefile: 150
+- type: Git tree
+  status: captured
+  sha: 125000605458b879e9d5fba12ba117c8c090ad1f
+  truncated: false
+- type: source_file
+  path: main.go
+  blob_sha: d7f30dfca1bb46c74c5aae7179a1c2f75514db4e
+  retrieved: true
+- type: source_file
+  path: example/example.go
+  blob_sha: f49fc9c8cc7d74ea80d1f4b0e6a52f10b34c0e90
+  retrieved: true
+- type: source_file
+  path: geth/address/address.go
+  blob_sha: 2b6df4525523d9ed11a3b5d791aa6e5ce9cea526
+  retrieved: true
+- type: source_file
+  path: geth/creator.go
+  blob_sha: 084546b61ac5067bf020a5e7844f924ce45f0da0
+  retrieved: true

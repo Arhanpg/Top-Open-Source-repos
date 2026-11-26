@@ -1,0 +1,108 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:38:13+00:00'
+evidence_fingerprint: e1edc9ff2bb667852d26b3315942a0151691ceee5abce56b4f94e3012dca1537
+repository_metadata:
+  company: Amazon
+  account: amazon-archives
+  full_name: amazon-archives/amazon-cognito-js
+  repository_id: 26130293
+  url: https://github.com/amazon-archives/amazon-cognito-js
+  description: Amazon Cognito Sync Manager for JavaScript
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2019-07-25T21:56:46Z'
+  stars: 199
+  readme_url: https://github.com/amazon-archives/amazon-cognito-js/blob/master/README.md
+  readme_path: README.md
+  readme_sha: d018666492f46c2a619bb8a67ad270903183c7db
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/CognitoSyncConflict.js
+  - src/CognitoSyncDataset.js
+  - src/CognitoSyncDatasetMetadata.js
+  - src/CognitoSyncDatasetUpdates.js
+  repository_tree:
+    status: captured
+    sha: c76b9b60d1f35eb45f90506979300229566057b4
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: "\uFEFF# Amazon Cognito Sync Manager for JavaScript"
+  why_used: Amazon Cognito Sync Manager for JavaScript
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - grunt
+    - grunt-contrib-jshint
+    - grunt-contrib-qunit
+    - grunt-contrib-uglify
+    - grunt-contrib-watch
+    - grunt-jsdoc
+    - grunt-umd
+    - qunitjs
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/CognitoSyncConflict.js,
+    src/CognitoSyncDataset.js, src/CognitoSyncDatasetMetadata.js, src/CognitoSyncDatasetUpdates.js'
+  setup_and_usage:
+  - 'Usage: **Step 1.** Log into Amazon Cognito management console and create a new identity pool. Be sure to enable
+    the "unauthenticated'
+  - 'Usage: identities" option. On the last step of the wizard, make a note of your Account ID, Identity Pool ID,
+    and'
+  - 'Usage: Unauthenticated Role ARN.'
+  - 'Usage: * https://console.aws.amazon.com/cognito/home/?region=us-east-1'
+  - 'Usage: **Step 2.** Instantiate the AWS JavaScript SDK using the AWS.CognitoIdentityCredentials class, using
+    the information you'
+  - 'Usage: gathered from the previous step.'
+  - 'Usage: AWS.config.region = ''us-east-1'';'
+  - 'Usage: AWS.config.credentials = new AWS.CognitoIdentityCredentials({'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-archives/amazon-cognito-js/blob/master/README.md
+  path: README.md
+  blob_sha: d018666492f46c2a619bb8a67ad270903183c7db
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: cc3a042319b6201d57be78c5f35c25b5ce5ca9b3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 78831
+- type: Git tree
+  status: captured
+  sha: c76b9b60d1f35eb45f90506979300229566057b4
+  truncated: false
+- type: source_file
+  path: src/CognitoSyncConflict.js
+  blob_sha: 1f43de12414187a138bae3fa0e6b424602aee5d2
+  retrieved: true
+- type: source_file
+  path: src/CognitoSyncDataset.js
+  blob_sha: a86385896eba816da7aceabfbcb97125f3d34d1f
+  retrieved: true
+- type: source_file
+  path: src/CognitoSyncDatasetMetadata.js
+  blob_sha: 5902d4352523e04a0b71611f9cc8d20a3d140ca9
+  retrieved: true
+- type: source_file
+  path: src/CognitoSyncDatasetUpdates.js
+  blob_sha: db809cebe2b3e6809e2be4be85526eb8d17f920a
+  retrieved: true

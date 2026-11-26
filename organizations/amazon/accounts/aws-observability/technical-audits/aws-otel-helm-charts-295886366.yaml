@@ -1,0 +1,95 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:39:33+00:00'
+evidence_fingerprint: e9c1eefd53217a5de4b84ecb368abe980c7f5f8053b082ff5ecb7e1f5da85799
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/aws-otel-helm-charts
+  repository_id: 295886366
+  url: https://github.com/aws-observability/aws-otel-helm-charts
+  description: AWS Distro for OpenTelemetry (ADOT) Helm Charts
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-10-30T19:21:20Z'
+  stars: 48
+  readme_url: https://github.com/aws-observability/aws-otel-helm-charts/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2451bfc6e855360963de87ea532df91b078f7039
+  manifest_paths:
+  - charts/adot-exporter-for-eks-on-ec2/Makefile
+  source_files_inspected:
+  - charts/adot-exporter-for-eks-on-ec2/scripts/install-tools.sh
+  - charts/adot-exporter-for-eks-on-ec2/scripts/lint-charts.sh
+  - charts/adot-exporter-for-eks-on-ec2/scripts/validate-charts.sh
+  repository_tree:
+    status: captured
+    sha: 61ace8936a809d687bc923571949390ea6bc9d1f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This AWS Distro for OpenTelemetry (ADOT) Helm Charts repository contains Helm charts to provide easy
+    mechanisms to setup the ADOT Collector and other collection agents to collect telemetry data such as metrics,
+    logs and traces to send to AWS monitoring services.
+  why_used: AWS Distro for OpenTelemetry (ADOT) Helm Charts
+  core_features: []
+  technology_stack:
+    languages:
+    - Mustache
+    - Shell
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: charts/adot-exporter-for-eks-on-ec2/scripts/install-tools.sh,
+    charts/adot-exporter-for-eks-on-ec2/scripts/lint-charts.sh, charts/adot-exporter-for-eks-on-ec2/scripts/validate-charts.sh'
+  setup_and_usage:
+  - 'Getting Started: Helm must be installed to use the chart. Please refer to Helm''s documentation to get started.'
+  - 'Getting Started: Once Helm is set up properly, add this repo as follows:'
+  - 'Getting Started: $ helm repo add aws-observability https://aws-observability.github.io/aws-otel-helm-charts'
+  - 'Getting Started: $ helm search repo aws-observability # Run this command in order to see the charts.'
+  limitations:
+  - 'Security issue notifications: If you discover a potential security issue in this project we ask that you notify
+    AWS/Amazon Security via our vulnerability reporting page. Please do **not** create a public github issue.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/aws-otel-helm-charts/blob/main/README.md
+  path: README.md
+  blob_sha: 2451bfc6e855360963de87ea532df91b078f7039
+  retrieved: true
+- type: manifest
+  path: charts/adot-exporter-for-eks-on-ec2/Makefile
+  blob_sha: 004e21b9270c8a5bf4d95e4450a6fe25d8002f53
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Mustache: 3109
+    Shell: 2417
+    Makefile: 555
+- type: Git tree
+  status: captured
+  sha: 61ace8936a809d687bc923571949390ea6bc9d1f
+  truncated: false
+- type: source_file
+  path: charts/adot-exporter-for-eks-on-ec2/scripts/install-tools.sh
+  blob_sha: 695f5dc818b17227b6ba145072c31adb35a51220
+  retrieved: true
+- type: source_file
+  path: charts/adot-exporter-for-eks-on-ec2/scripts/lint-charts.sh
+  blob_sha: 507858c4f91a3bf47c0905bc3e2c36b7b8ad5942
+  retrieved: true
+- type: source_file
+  path: charts/adot-exporter-for-eks-on-ec2/scripts/validate-charts.sh
+  blob_sha: 10d8896fdb07bc2d441b606fbe37737a56976e9f
+  retrieved: true

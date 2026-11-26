@@ -1,0 +1,160 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:35:41+00:00'
+evidence_fingerprint: 8088f585b7a99ca36c170489fdfc177268e272b02b29737e3fa80c7e88c1eae3
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/gxf
+  repository_id: 706985693
+  url: https://github.com/NVIDIA-ISAAC-ROS/gxf
+  description: Acceleration-friendly component architecture framework
+  default_branch: main
+  license_spdx: null
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-01T03:46:26Z'
+  stars: 20
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/gxf/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 852e76d1b49381c12dc3c09f618584306bde578e
+  manifest_paths:
+  - com_nvidia_gxf/CMakeLists.txt
+  - com_nvidia_gxf/pyproject.toml
+  - com_nvidia_gxf/common/CMakeLists.txt
+  - com_nvidia_gxf/gxf/CMakeLists.txt
+  - docker/scripts/requirements.txt
+  - com_nvidia_gxf/common/tests/CMakeLists.txt
+  source_files_inspected:
+  - com_nvidia_gxf/gxf/app/application.cpp
+  - com_nvidia_gxf/gxf/app/application.hpp
+  - com_nvidia_gxf/gxf/app/arg.hpp
+  - com_nvidia_gxf/gxf/app/arg_parse.cpp
+  repository_tree:
+    status: captured
+    sha: ed5e1fe47b74632de1de5697680fae3ad80240da
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: GXF is a framework from NVIDIA that provides a component-based architecture designed for developing hardware
+    accelerated compute graphs. The framework is at the foundation of other high-performance SDKs such as NVIDIA
+    Holoscan, DeepStream, and Isaac ROS. For example, NITROS (NVIDIA Isaac Transport for ROS) leverages GXF compute
+    graphs embedded within ROS 2 nodes with optimized transport between them to achieve highly efficient ROS application
+    graphs.
+  why_used: Acceleration-friendly component architecture framework
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Starlark
+    - CMake
+    - Shell
+    - Dockerfile
+    - Smarty
+    - Python
+    - C
+    frameworks_and_libraries: []
+    dependencies:
+    - Jinja2
+    - MarkupSafe
+    - PyYAML
+    - cmake
+    - construct
+    - docker
+    - gitpython
+    - grpcio
+    - launchpadlib
+    - ninja
+    - numpy
+    - protobuf
+    - pyarmor
+    - pyinstaller
+    - pylint
+    - pyparsing
+    - pytest
+    - python-on-whales
+    - requests
+    - result
+    - sphinx
+    - sphinx-rtd-theme
+    - toml
+    - urllib3
+    - urwid
+    - yq
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: com_nvidia_gxf/gxf/app/application.cpp,
+    com_nvidia_gxf/gxf/app/application.hpp, com_nvidia_gxf/gxf/app/arg.hpp, com_nvidia_gxf/gxf/app/arg_parse.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/gxf/blob/main/README.md
+  path: README.md
+  blob_sha: 852e76d1b49381c12dc3c09f618584306bde578e
+  retrieved: true
+- type: manifest
+  path: com_nvidia_gxf/CMakeLists.txt
+  blob_sha: bef89cb2819f937a13c34fe59a361a99af5d8407
+  retrieved: true
+- type: manifest
+  path: com_nvidia_gxf/pyproject.toml
+  blob_sha: 4b09e59c65707424631b4e5e92b1a50b446c566f
+  retrieved: true
+- type: manifest
+  path: com_nvidia_gxf/common/CMakeLists.txt
+  blob_sha: b63169b99c8294329b7b8660bc00c13a7aaf8b51
+  retrieved: true
+- type: manifest
+  path: com_nvidia_gxf/gxf/CMakeLists.txt
+  blob_sha: a1d7b7daf1ab2ca796f77a772c1baca142532fbb
+  retrieved: true
+- type: manifest
+  path: docker/scripts/requirements.txt
+  blob_sha: 1cca713be294486dcf52086559a961bd3d154334
+  retrieved: true
+- type: manifest
+  path: com_nvidia_gxf/common/tests/CMakeLists.txt
+  blob_sha: da77b00faf8f32c5640bc0747cc1c1f03c02ef8a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 4124011
+    Starlark: 504429
+    CMake: 156829
+    Shell: 141965
+    Dockerfile: 56455
+    Smarty: 34342
+    Python: 8991
+    C: 1188
+- type: Git tree
+  status: captured
+  sha: ed5e1fe47b74632de1de5697680fae3ad80240da
+  truncated: false
+- type: source_file
+  path: com_nvidia_gxf/gxf/app/application.cpp
+  blob_sha: 51ff1863187ded9554fd2325d8ba3f114517a84b
+  retrieved: true
+- type: source_file
+  path: com_nvidia_gxf/gxf/app/application.hpp
+  blob_sha: bb66a8a00e0782395f7791d9449f1aefbd25a39a
+  retrieved: true
+- type: source_file
+  path: com_nvidia_gxf/gxf/app/arg.hpp
+  blob_sha: 2108689dcf9ba08091ad89b6661ee98219afc011
+  retrieved: true
+- type: source_file
+  path: com_nvidia_gxf/gxf/app/arg_parse.cpp
+  blob_sha: 86d5ce10f5f76c302fae1f15c531a1b9662d318f
+  retrieved: true

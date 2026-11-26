@@ -1,0 +1,104 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:34:45+00:00'
+evidence_fingerprint: b8178dc01b16bf34d159e367be012fdc5b2a620d7780a3258f7d5d86c3c7fdef
+repository_metadata:
+  company: Baidu
+  account: xuperchain
+  full_name: xuperchain/go-libp2p-kad-dht
+  repository_id: 188235533
+  url: https://github.com/xuperchain/go-libp2p-kad-dht
+  description: null
+  default_branch: master
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2019-05-23T13:14:38Z'
+  stars: 4
+  readme_url: https://github.com/xuperchain/go-libp2p-kad-dht/blob/master/README.md
+  readme_path: README.md
+  readme_sha: f27a49871d17ff3303fbbd0a044f19b0abb02069
+  manifest_paths:
+  - Makefile
+  - package.json
+  - pb/Makefile
+  source_files_inspected:
+  - dht.go
+  - dht_bootstrap.go
+  - dht_net.go
+  - dht_test.go
+  repository_tree:
+    status: captured
+    sha: deb186a92a098fdcf9fdb0f19cded81ca09f0050
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> A Kademlia DHT implementation on go-libp2p'
+  why_used: '> A Kademlia DHT implementation on go-libp2p'
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Makefile
+    - Groovy
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: dht.go, dht_bootstrap.go,
+    dht_net.go, dht_test.go'
+  setup_and_usage:
+  - 'Usage: Go to https://godoc.org/github.com/libp2p/go-libp2p-kad-dht.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/xuperchain/go-libp2p-kad-dht/blob/master/README.md
+  path: README.md
+  blob_sha: f27a49871d17ff3303fbbd0a044f19b0abb02069
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: d6680bd0223f7f9b378c07c627543b9988684339
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 38e8a7a79f30eacefa43a25585f7dbd973c88458
+  retrieved: true
+- type: manifest
+  path: pb/Makefile
+  blob_sha: eb14b5768ab8c076400318853d319d271149e200
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 147546
+    Makefile: 381
+    Groovy: 9
+- type: Git tree
+  status: captured
+  sha: deb186a92a098fdcf9fdb0f19cded81ca09f0050
+  truncated: false
+- type: source_file
+  path: dht.go
+  blob_sha: af7024b00f80892f567b24c92ad81bb9674eb058
+  retrieved: true
+- type: source_file
+  path: dht_bootstrap.go
+  blob_sha: a2c4f3f5b7bb61be158d1aa0782746fe6ba5eaad
+  retrieved: true
+- type: source_file
+  path: dht_net.go
+  blob_sha: 03a7cfc433607cb7bad64c99966d821eb6793cf3
+  retrieved: true
+- type: source_file
+  path: dht_test.go
+  blob_sha: dde2f4eb952fd6893bc63f560b6cc39f2c0be22b
+  retrieved: true

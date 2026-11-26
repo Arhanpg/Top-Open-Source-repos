@@ -1,0 +1,103 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:53:57+00:00'
+evidence_fingerprint: da14ceae0d6323f01b3093e348831efcb1c518bdc2d322d99538e2ba7b593dce
+repository_metadata:
+  company: Amazon
+  account: aws-samples
+  full_name: aws-samples/AppSync_Sync_Async_Integration
+  repository_id: 923729161
+  url: https://github.com/aws-samples/AppSync_Sync_Async_Integration
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-03-24T15:42:57Z'
+  stars: 4
+  readme_url: https://github.com/aws-samples/AppSync_Sync_Async_Integration/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 356718e42b18edbb956dc23ac4d0cc57341f61e2
+  manifest_paths:
+  - function/requirements.txt
+  source_files_inspected:
+  - function/app.py
+  - function/secretsmanager.py
+  - function/websocket_handler.py
+  - function/workflow.py
+  repository_tree:
+    status: captured
+    sha: 7c14ae6bec800601a6eda4b075bacb2ab1b83811
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a demo application that consists of an API converting a synchronous request coming from the client
+    into an asynchronous request to the backend using AppSync Events. In order to simulate an asynchronous backend
+    processing, we are using an asynchronous AWS Step Functions workflow, which receives an event with Name and
+    Surname as input, waits 10 seconds and then posts an event with the full name at the AppSync Event channel.
+    While the asynchrnous procesing is execute, the synchronous API subscribes to the AppSync channel in order to
+    be notified when the event arrives there.
+  why_used: This is a demo application that consists of an API converting a synchronous request coming from the
+    client into an asynchronous request to the backend using AppSync Events. In order to simulate an asynchronous
+    backend processing, we are using an asynchronous AWS Step Functions workflow, which receives an event with Name
+    and Surname as input, waits 10 seconds and then posts an event with the full name at the AppSync Event channel.
+    While the asynchrnous procesing is execute, the synchronous API subscribes to the AppSync channel in order to
+    be notified when the event arrives there.
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies:
+    - websocket-client
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: function/app.py, function/secretsmanager.py,
+    function/websocket_handler.py, function/workflow.py'
+  setup_and_usage: []
+  limitations:
+  - 'Security Considerations: - API Gateway endpoints are publicly accessible'
+  - 'Security Considerations: - Lambda function has restricted IAM permissions'
+  - 'Security Considerations: - Secrets are managed through AWS Secrets Manager'
+  - 'Security Considerations: - All sensitive data is encrypted at rest'
+  - 'Security Considerations: - API authentication is handled via API keys'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-samples/AppSync_Sync_Async_Integration/blob/main/README.md
+  path: README.md
+  blob_sha: 356718e42b18edbb956dc23ac4d0cc57341f61e2
+  retrieved: true
+- type: manifest
+  path: function/requirements.txt
+  blob_sha: db0afb87c14c7bef55b5487e0fb7f1fe54651f8e
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: 7c14ae6bec800601a6eda4b075bacb2ab1b83811
+  truncated: false
+- type: source_file
+  path: function/app.py
+  blob_sha: 6ab28af00f1f51ea36bc99c817ec0be4b868a9bb
+  retrieved: true
+- type: source_file
+  path: function/secretsmanager.py
+  blob_sha: a218b5a863da4279137a409c7c7af975047aee69
+  retrieved: true
+- type: source_file
+  path: function/websocket_handler.py
+  blob_sha: 534fef83ac3ebcbd5a12009d148c1f2758663454
+  retrieved: true
+- type: source_file
+  path: function/workflow.py
+  blob_sha: 7c455a718895e1e136a2b5be4f572326de538efb
+  retrieved: true

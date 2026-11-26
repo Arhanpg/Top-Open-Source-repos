@@ -1,0 +1,94 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:45:49+00:00'
+evidence_fingerprint: 168feee7d3fcb609ca3d37c7ab2be4bccfc3dfd5de7f7ba5676433c2764e95b3
+repository_metadata:
+  company: Amazon
+  account: aws-actions
+  full_name: aws-actions/cloudformation-aws-iam-policy-validator
+  repository_id: 784920149
+  url: https://github.com/aws-actions/cloudformation-aws-iam-policy-validator
+  description: Policy Validator for AWS IAM Policies in CloudFormation templates
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-06-09T17:47:53Z'
+  stars: 13
+  readme_url: https://github.com/aws-actions/cloudformation-aws-iam-policy-validator/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 318de4d7ad3583289fdb91304282317a1969e272
+  manifest_paths:
+  - Dockerfile
+  source_files_inspected:
+  - main.py
+  - test_cfn.py
+  repository_tree:
+    status: captured
+    sha: 670cc0f0348550562fbd5aa93b1d587a1d4fe486
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A GitHub Action that takes an AWS CloudFormation template, parses the IAM policies attached to IAM roles,
+    users, groups, and resources then runs them through IAM Access Analyzer policy validation and (optionally) custom
+    policy checks. Note that a charge is associated with each custom policy check. For more details about pricing,
+    see IAM Access Analyzer pricing.
+  why_used: Policy Validator for AWS IAM Policies in CloudFormation templates
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: main.py, test_cfn.py'
+  setup_and_usage:
+  - 'Example Usage: **Before each of the following examples, make sure to include the following:**'
+  - 'Example Usage: - Setting up the role: Role used in the GitHub workflow should have necessary permissions required'
+  - 'Example Usage: - to be called from the GitHub workflows - setup OpenID Connect(OIDC) provider and IAM role
+    & Trust policy as described in step 1 & 2 in this blog'
+  - 'Example Usage: - to call the AWS APIs for the policy checks - ValidatePolicy, CheckNoNewAccess, CheckAccessNotGranted,
+    CheckNoPublicAccess. Refer this page for more details'
+  - 'Example Usage: - name: Checkout Repo'
+  - 'Example Usage: uses: actions/checkout@v4'
+  - 'Example Usage: - name: Configure AWS Credentials'
+  - 'Example Usage: uses: aws-actions/configure-aws-credentials@v4'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-actions/cloudformation-aws-iam-policy-validator/blob/main/README.md
+  path: README.md
+  blob_sha: 318de4d7ad3583289fdb91304282317a1969e272
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 4bec6524cc2407e023ef9856fdfb96f0176f4b0a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 17496
+    Dockerfile: 194
+- type: Git tree
+  status: captured
+  sha: 670cc0f0348550562fbd5aa93b1d587a1d4fe486
+  truncated: false
+- type: source_file
+  path: main.py
+  blob_sha: 26803b2451e45047756bfc9669cfed0dec02c867
+  retrieved: true
+- type: source_file
+  path: test_cfn.py
+  blob_sha: 96c7c73bab6a5ee5641463e15ced565d9fc6e930
+  retrieved: true

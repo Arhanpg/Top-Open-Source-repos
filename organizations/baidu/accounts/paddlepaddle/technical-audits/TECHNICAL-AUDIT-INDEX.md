@@ -1,10 +1,10 @@
 # Technical audits — paddlepaddle
 
-Updated: 2026-11-26T07:22:01+00:00
+Updated: 2026-11-26T22:57:03+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 
 ## Repository dossiers
 
@@ -22,3 +22,7 @@ Updated: 2026-11-26T07:22:01+00:00
 | fastdeploy-507861208 | evidence_only | [fastdeploy-507861208.md](fastdeploy-507861208.md) | [fastdeploy-507861208.yaml](fastdeploy-507861208.yaml) |
 | flashmask-1418488237 | evidence_only | [flashmask-1418488237.md](flashmask-1418488237.md) | [flashmask-1418488237.yaml](flashmask-1418488237.yaml) |
 | flycv-562479767 | evidence_only | [flycv-562479767.md](flycv-562479767.md) | [flycv-562479767.yaml](flycv-562479767.yaml) |
+| graphnet-1021826033 | evidence_only | [graphnet-1021826033.md](graphnet-1021826033.md) | [graphnet-1021826033.yaml](graphnet-1021826033.yaml) |
+| halops-1426644141 | evidence_only | [halops-1426644141.md](halops-1426644141.md) | [halops-1426644141.yaml](halops-1426644141.yaml) |
+| interpretdl-274012656 | evidence_only | [interpretdl-274012656.md](interpretdl-274012656.md) | [interpretdl-274012656.yaml](interpretdl-274012656.yaml) |
+| knover-276845708 | evidence_only | [knover-276845708.md](knover-276845708.md) | [knover-276845708.yaml](knover-276845708.yaml) |

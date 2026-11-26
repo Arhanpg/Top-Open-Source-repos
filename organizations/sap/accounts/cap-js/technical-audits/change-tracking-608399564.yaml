@@ -1,0 +1,154 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:56:54+00:00'
+evidence_fingerprint: 3cfb8551beb2624218fe03640cff98a2b497a0799c9fd660d176c176dee9540f
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/change-tracking
+  repository_id: 608399564
+  url: https://github.com/cap-js/change-tracking
+  description: CDS plugin providing out-of-the box support for automatic capturing, storing, and viewing of the
+    change records of modeled entities.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-19T13:34:35Z'
+  stars: 43
+  readme_url: https://github.com/cap-js/change-tracking/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 0a0dd7b2b5ad10c95a7abdbe239c9ea7efaaccc9
+  manifest_paths:
+  - package.json
+  - tests/bookshop-mtx/package.json
+  - tests/bookshop/package.json
+  - tests/bookshop/pom.xml
+  - tests/bookshop/srv/pom.xml
+  - tests/performance/perf-bookshop/package.json
+  source_files_inspected:
+  - lib/csn-enhancements/index.js
+  - lib/addMigrationTable.js
+  - lib/csn-enhancements/annotations.js
+  - lib/csn-enhancements/dynamicLocalization.js
+  repository_tree:
+    status: captured
+    sha: 2defb8f12f7c52ce5a7dee00c9bf136dbd0c513d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A CDS plugin for automatic capturing, storing, and viewing of change records for modelled entities.
+  why_used: CDS plugin providing out-of-the box support for automatic capturing, storing, and viewing of the change
+    records of modeled entities.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    - Java
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/attachments'
+    - '@cap-js/cds-test'
+    - '@cap-js/cds-types'
+    - '@cap-js/change-tracking'
+    - '@cap-js/hana'
+    - '@cap-js/postgres'
+    - '@cap-js/sqlite'
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - '@sap/cds-mtxs'
+    - '@sap/xssec'
+    - better-sqlite3
+    - cds-adapter-hcql
+    - cds-adapter-odata-v4
+    - cds-maven-plugin
+    - cds-services-bom
+    - cds-starter-spring-boot
+    - flatten-maven-plugin
+    - h2
+    - incidents-java
+    - incidents-java-parent
+    - maven-compiler-plugin
+    - maven-enforcer-plugin
+    - maven-surefire-plugin
+    - puppeteer
+    - spring-boot-dependencies
+    - spring-boot-devtools
+    - spring-boot-maven-plugin
+    - spring-boot-starter-security
+    - spring-boot-starter-test
+    - ui5-test-runner
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/csn-enhancements/index.js,
+    lib/addMigrationTable.js, lib/csn-enhancements/annotations.js, lib/csn-enhancements/dynamicLocalization.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/change-tracking/blob/main/README.md
+  path: README.md
+  blob_sha: 0a0dd7b2b5ad10c95a7abdbe239c9ea7efaaccc9
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 3df07fe2c4c01f70a4d9f1ae4cc15b7684c5c710
+  retrieved: true
+- type: manifest
+  path: tests/bookshop-mtx/package.json
+  blob_sha: ab742f1d61a14e113f58cb269ec5add38ffb9817
+  retrieved: true
+- type: manifest
+  path: tests/bookshop/package.json
+  blob_sha: f9d64916bb0807337e3a344d0908eafb5ad320ff
+  retrieved: true
+- type: manifest
+  path: tests/bookshop/pom.xml
+  blob_sha: 24bc5874aa75116b9d356b73b88518dfb637954e
+  retrieved: true
+- type: manifest
+  path: tests/bookshop/srv/pom.xml
+  blob_sha: 145fa7d05833c441cf15888c9c7c59d729b1b20c
+  retrieved: true
+- type: manifest
+  path: tests/performance/perf-bookshop/package.json
+  blob_sha: 6d08d2a00f6c1954e910c0637b4aa13c448b2e7e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 725444
+    CAP CDS: 67677
+    Java: 9580
+    HTML: 2945
+- type: Git tree
+  status: captured
+  sha: 2defb8f12f7c52ce5a7dee00c9bf136dbd0c513d
+  truncated: false
+- type: source_file
+  path: lib/csn-enhancements/index.js
+  blob_sha: e35ed7225502c72eac873e94d7ed4c0d33dcf5f4
+  retrieved: true
+- type: source_file
+  path: lib/addMigrationTable.js
+  blob_sha: 32cfffe0aae266a0b703768aaa658f712d3a8c73
+  retrieved: true
+- type: source_file
+  path: lib/csn-enhancements/annotations.js
+  blob_sha: 9aab9ceff7a5c70c2752a4f09bef2a0911df2030
+  retrieved: true
+- type: source_file
+  path: lib/csn-enhancements/dynamicLocalization.js
+  blob_sha: 3d39bc4763ab0c6cc2d2aa6ca5b7dc7450ad7ed1
+  retrieved: true

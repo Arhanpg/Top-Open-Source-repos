@@ -1,0 +1,156 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:54:06+00:00'
+evidence_fingerprint: c3d0098e3ad3a8e646a36a467becc21885c751bde6a8cbc20272bb5c8711c67f
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/aws-data-lake-solution
+  repository_id: 74497220
+  url: https://github.com/aws-solutions/aws-data-lake-solution
+  description: A deployable reference implementation intended to address pain points around conceptualizing data
+    lake architectures that automatically configures the core AWS services necessary to easily tag, search, share,
+    and govern specific subsets of data across a business or with other external businesses.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-06-03T18:22:27Z'
+  stars: 398
+  readme_url: https://github.com/aws-solutions/aws-data-lake-solution/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 59e0fa76910072a25593d9b6a48ab6d993b3678b
+  manifest_paths:
+  - deployment/manifest-generator/package.json
+  - source/cli/package.json
+  - source/console/package.json
+  - source/api/authorizer/package.json
+  - source/resources/access-validator/package.json
+  - source/resources/helper/package.json
+  source_files_inspected:
+  - source/api/services/admin/lib/index.js
+  - source/api/services/cart/lib/index.js
+  - source/api/services/logging/lib/index.js
+  - source/api/services/manifest/lib/index.js
+  repository_tree:
+    status: captured
+    sha: 3c791de429750bbbb3df69139c122a57f6ec50e4
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Many Amazon Web Services (AWS) customers require a data storage and analytics solution that offers more
+    agility and flexibility than traditional data management systems. A data lake is an increasingly popular way
+    to store and analyze data because it allows businesses to store all of their data, structured and unstructured,
+    in a centralized repository. The AWS Cloud provides many of the building blocks required to help businesses
+    implement a secure, flexible, and cost-effective data lake.
+  why_used: A deployable reference implementation intended to address pain points around conceptualizing data lake
+    architectures that automatically configures the core AWS services necessary to easily tag, search, share, and
+    govern specific subsets of data across a business or with other external businesses.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - HTML
+    - Shell
+    - CSS
+    frameworks_and_libraries: []
+    dependencies:
+    - aws-sdk-mock
+    - bower
+    - chai
+    - chai-things
+    - commander
+    - elasticsearch
+    - http-aws-es
+    - http-server
+    - jasmine-core
+    - js-base64
+    - jsonwebtoken
+    - jwk-to-pem
+    - karma
+    - karma-chrome-launcher
+    - karma-firefox-launcher
+    - karma-jasmine
+    - karma-junit-reporter
+    - mime-types
+    - mocha
+    - moment
+    - npm-run-all
+    - password-generator
+    - protractor
+    - request
+    - sinon
+    - sinon-chai
+    - underscore
+    - uuid
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/api/services/admin/lib/index.js,
+    source/api/services/cart/lib/index.js, source/api/services/logging/lib/index.js, source/api/services/manifest/lib/index.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/aws-data-lake-solution/blob/main/README.md
+  path: README.md
+  blob_sha: 59e0fa76910072a25593d9b6a48ab6d993b3678b
+  retrieved: true
+- type: manifest
+  path: deployment/manifest-generator/package.json
+  blob_sha: fa76ebbbb2a27a8946b382cc9a0f41a8bdfcf7ac
+  retrieved: true
+- type: manifest
+  path: source/cli/package.json
+  blob_sha: 609d1d5d03152c3b77fddae7e03fecb26cef4f77
+  retrieved: true
+- type: manifest
+  path: source/console/package.json
+  blob_sha: 23426c57964f540a9005db62ba01cdcc627c667c
+  retrieved: true
+- type: manifest
+  path: source/api/authorizer/package.json
+  blob_sha: ddcf7817aa8d5bcd10273d61d74d226ff546342d
+  retrieved: true
+- type: manifest
+  path: source/resources/access-validator/package.json
+  blob_sha: a7b78965e01155c1066d045d501e234ed1fe9e7d
+  retrieved: true
+- type: manifest
+  path: source/resources/helper/package.json
+  blob_sha: faff5fae20f1608f7832704fb2bab79d0b9ad2a4
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 1057570
+    HTML: 91700
+    Shell: 17853
+    CSS: 7972
+- type: Git tree
+  status: captured
+  sha: 3c791de429750bbbb3df69139c122a57f6ec50e4
+  truncated: false
+- type: source_file
+  path: source/api/services/admin/lib/index.js
+  blob_sha: 15742fed86e564e9d9d0c66a2eadbd345d28cbc8
+  retrieved: true
+- type: source_file
+  path: source/api/services/cart/lib/index.js
+  blob_sha: 913133101a81315785b8efbc3abaa961caa94b6f
+  retrieved: true
+- type: source_file
+  path: source/api/services/logging/lib/index.js
+  blob_sha: 0f1bd20ec0b3fd5708e157b3d73eabc613862caa
+  retrieved: true
+- type: source_file
+  path: source/api/services/manifest/lib/index.js
+  blob_sha: 90920613edd1e864cfe6f16320278cd6bd8e8a27
+  retrieved: true

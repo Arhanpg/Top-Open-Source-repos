@@ -1,10 +1,10 @@
 # Technical audits — rapidsai
 
-Updated: 2026-11-26T07:22:01+00:00
+Updated: 2026-11-26T22:57:02+00:00
 
 ## Status counts
 
-- evidence_only: 11
+- evidence_only: 15
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -21,5 +21,9 @@ Updated: 2026-11-26T07:22:01+00:00
 | ci-imgs-504062804 | evidence_only | [ci-imgs-504062804.md](ci-imgs-504062804.md) | [ci-imgs-504062804.yaml](ci-imgs-504062804.yaml) |
 | cibuildwheel-imgs-561828274 | evidence_only | [cibuildwheel-imgs-561828274.md](cibuildwheel-imgs-561828274.md) | [cibuildwheel-imgs-561828274.yaml](cibuildwheel-imgs-561828274.yaml) |
 | clang-recipe-188277957 | evidence_only | [clang-recipe-188277957.md](clang-recipe-188277957.md) | [clang-recipe-188277957.yaml](clang-recipe-188277957.yaml) |
+| cloud-ml-examples-247161726 | evidence_only | [cloud-ml-examples-247161726.md](cloud-ml-examples-247161726.md) | [cloud-ml-examples-247161726.yaml](cloud-ml-examples-247161726.yaml) |
+| clx-186716715 | evidence_only | [clx-186716715.md](clx-186716715.md) | [clx-186716715.yaml](clx-186716715.yaml) |
+| code-share-185428432 | evidence_only | [code-share-185428432.md](code-share-185428432.md) | [code-share-185428432.yaml](code-share-185428432.yaml) |
+| crossfit-599787661 | evidence_only | [crossfit-599787661.md](crossfit-599787661.md) | [crossfit-599787661.yaml](crossfit-599787661.yaml) |
 | gaas-483302477 | evidence_only | [gaas-483302477.md](gaas-483302477.md) | [gaas-483302477.yaml](gaas-483302477.yaml) |
 | github-506698882 | insufficient_evidence | [github-506698882.md](github-506698882.md) | [github-506698882.yaml](github-506698882.yaml) |

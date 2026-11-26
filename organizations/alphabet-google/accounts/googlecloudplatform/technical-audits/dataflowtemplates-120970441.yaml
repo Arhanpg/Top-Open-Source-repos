@@ -1,0 +1,245 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:38:05+00:00'
+evidence_fingerprint: 5438fdc4e47459d9fa6b374503f5083b4be26634681d9c67008be8a84bd17a32
+repository_metadata:
+  company: Alphabet (Google)
+  account: GoogleCloudPlatform
+  full_name: GoogleCloudPlatform/DataflowTemplates
+  repository_id: 120970441
+  url: https://github.com/GoogleCloudPlatform/DataflowTemplates
+  description: Cloud Dataflow Google-provided templates for solving in-Cloud data tasks
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T20:49:14Z'
+  stars: 1318
+  readme_url: https://github.com/GoogleCloudPlatform/DataflowTemplates/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 56e2893eab7cc917112ae5376915f8dc3ec53eb4
+  manifest_paths:
+  - pom.xml
+  - cicd/go.mod
+  - it/pom.xml
+  - lt/pom.xml
+  - metadata/pom.xml
+  - plaintext-logging/pom.xml
+  source_files_inspected:
+  - cicd/cmd/run-build/main.go
+  - cicd/cmd/run-checkstyle/main.go
+  - cicd/cmd/run-failure-injection-tests/main.go
+  - cicd/cmd/run-it-smoke-tests/main.go
+  repository_tree:
+    status: captured
+    sha: bcc688aa7aa05b215662b9c853a9575a45015aa7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: These Dataflow templates are an effort to solve simple, but large, in-Cloud data tasks, including data
+    import/export/backup/restore and bulk API operations, without a development environment. The technology under
+    the hood which makes these operations possible is the Google Cloud Dataflow service combined with a set of Apache
+    Beam SDK templated pipelines.
+  why_used: Cloud Dataflow Google-provided templates for solving in-Cloud data tasks
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - HCL
+    - Python
+    - PLSQL
+    - Go
+    - JavaScript
+    - Shell
+    - Smarty
+    - CQL
+    - Go Template
+    - PLpgSQL
+    - FreeMarker
+    - PureBasic
+    frameworks_and_libraries: []
+    dependencies:
+    - '*'
+    - aircompressor
+    - auto-service
+    - auto-value
+    - avro
+    - beam-sdks-java-core
+    - beam-sdks-java-google-cloud-platform-bom
+    - checkstyle
+    - commons-codec
+    - commons-compress
+    - commons-configuration2
+    - commons-io
+    - commons-math3
+    - exec-maven-plugin
+    - extra-enforcer-rules
+    - failsafe
+    - github.com/ProtonMail/go-crypto
+    - github.com/agext/levenshtein
+    - github.com/apparentlymart/go-textseg/v15
+    - github.com/apparentlymart/go-textseg/v17
+    - github.com/cloudflare/circl
+    - github.com/google/go-cmp
+    - github.com/hashicorp/errwrap
+    - github.com/hashicorp/go-cleanhttp
+    - github.com/hashicorp/go-multierror
+    - github.com/hashicorp/go-retryablehttp
+    - github.com/hashicorp/go-version
+    - github.com/hashicorp/hc-install
+    - github.com/hashicorp/hcl/v2
+    - github.com/hashicorp/terraform-exec
+    - github.com/hashicorp/terraform-json
+    - github.com/inconshreveable/mousetrap
+    - github.com/mitchellh/go-wordwrap
+    - github.com/spf13/cobra
+    - github.com/spf13/pflag
+    - github.com/zclconf/go-cty
+    - golang.org/x/crypto
+    - golang.org/x/mod
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/text
+    - golang.org/x/tools
+    - guava
+    - hadoop-common
+    - hadoop-yarn-client
+    - httpclient5
+    - httpcore5
+    - httpcore5-h2
+    - integration-testing-lib
+    - it-google-cloud-platform
+    - jackson-bom
+    - jacoco-maven-plugin
+    - jettison
+    - jetty-alpn-client
+    - jetty-client
+    - jetty-ee8-servlet
+    - jetty-ee8-webapp
+    - jetty-http
+    - jetty-io
+    - jetty-security
+    - jetty-server
+    - jetty-util
+    - jetty-util-ajax
+    - jetty-websocket-jetty-api
+    - jetty-websocket-jetty-client
+    - jetty-websocket-jetty-common
+    - jetty-xml
+    - jline
+    - json
+    - junit
+    - kerby-bom
+    - log4j
+    - log4j-api
+    - log4j-core
+    - lt
+    - lz4-java
+    - maven-checkstyle-plugin
+    - maven-compiler-plugin
+    - maven-dependency-plugin
+    - maven-enforcer-plugin
+    - maven-jar-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - maven-surefire-report-plugin
+    - metadata
+    - mockito-core
+    - mockito-inline
+    - neo4j-java-driver
+    - netty-bom
+    - okio
+    - opentelemetry-bom
+    - plaintext-logging
+    - plexus-archiver
+    - slf4j-api
+    - slf4j-simple
+    - snakeyaml
+    - snappy-java
+    - spotless-maven-plugin
+    - surefire-junit47
+    - templates
+    - templates-maven-plugin
+    - truth
+    - zookeeper
+    build_and_package_tools:
+    - Go module manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cicd/cmd/run-build/main.go,
+    cicd/cmd/run-checkstyle/main.go, cicd/cmd/run-failure-injection-tests/main.go, cicd/cmd/run-it-smoke-tests/main.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/GoogleCloudPlatform/DataflowTemplates/blob/main/README.md
+  path: README.md
+  blob_sha: 56e2893eab7cc917112ae5376915f8dc3ec53eb4
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: c5324b8c5de13a0469daffee89ece837a2aba4f6
+  retrieved: true
+- type: manifest
+  path: cicd/go.mod
+  blob_sha: d092e820971f58900dd82bf03791836f1013a9bc
+  retrieved: true
+- type: manifest
+  path: it/pom.xml
+  blob_sha: 84dc66b15bae3bd5994993bf5c8404812a683b9c
+  retrieved: true
+- type: manifest
+  path: lt/pom.xml
+  blob_sha: aa738c60cf0ecb1a4058d510a419be56315ecbca
+  retrieved: true
+- type: manifest
+  path: metadata/pom.xml
+  blob_sha: 80e638113e24022555bcf0b61ca37924f27c1c48
+  retrieved: true
+- type: manifest
+  path: plaintext-logging/pom.xml
+  blob_sha: 554630161c26570e566e45321f6a0992ebec2007
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 23583251
+    HCL: 1494352
+    Python: 520227
+    PLSQL: 240388
+    Go: 100706
+    JavaScript: 34339
+    Shell: 20841
+    Smarty: 18486
+    CQL: 17355
+    Go Template: 6266
+    PLpgSQL: 3838
+    FreeMarker: 1008
+    PureBasic: 35
+- type: Git tree
+  status: captured
+  sha: bcc688aa7aa05b215662b9c853a9575a45015aa7
+  truncated: false
+- type: source_file
+  path: cicd/cmd/run-build/main.go
+  blob_sha: ac76d2809bbbe611b314fe32165bc7322282b6a1
+  retrieved: true
+- type: source_file
+  path: cicd/cmd/run-checkstyle/main.go
+  blob_sha: 158d314f4c1f94dabab5280794aa6033cbba7359
+  retrieved: true
+- type: source_file
+  path: cicd/cmd/run-failure-injection-tests/main.go
+  blob_sha: 23c3bce4efed0b818a4db695ee51bd965963b038
+  retrieved: true
+- type: source_file
+  path: cicd/cmd/run-it-smoke-tests/main.go
+  blob_sha: 613acd1fbf0ce9999e3d2ebaca00c5a073b1a11c
+  retrieved: true

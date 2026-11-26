@@ -1,0 +1,135 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:55:01+00:00'
+evidence_fingerprint: 41fd7e3cfa8ab6d59476db76f53a0a8edd16ab56a08b72f4c674a385555d77b8
+repository_metadata:
+  company: Apple
+  account: swiftlang
+  full_name: swiftlang/swift-android-examples
+  repository_id: 1073159990
+  url: https://github.com/swiftlang/swift-android-examples
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-13T18:32:52Z'
+  stars: 572
+  readme_url: https://github.com/swiftlang/swift-android-examples/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 28b81329aa42bbdcf36b274a8cbd6cc221259d6d
+  manifest_paths:
+  - build.gradle.kts
+  - hello-swift-raw-jni-callback/build.gradle.kts
+  - hello-swift-raw-jni-library/build.gradle.kts
+  - hello-swift-raw-jni/build.gradle.kts
+  - native-activity/build.gradle.kts
+  - hello-cpp-swift/app/build.gradle.kts
+  source_files_inspected:
+  - hello-cpp-swift/app/src/main/java/com/example/hellocppswift/MainActivity.kt
+  - hello-cpp-swift/cpp-lib/src/calculator.cpp
+  - hello-swift-java/hashing-app/src/androidTest/java/com/example/hashingapp/ExampleInstrumentedTest.kt
+  - hello-swift-java/hashing-app/src/main/java/com/example/hashingapp/MainActivity.kt
+  repository_tree:
+    status: captured
+    sha: 10060c0d3c2b1eba3d3d2ec9dac0bc9102f619da
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains example applications that demonstrate how to use the Swift SDK for Android.
+    Each example showcases different integration patterns for Swift on Android.
+  why_used: This repository contains example applications that demonstrate how to use the Swift SDK for Android.
+    Each example showcases different integration patterns for Swift on Android.
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - Kotlin
+    - Swift
+    - Shell
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle Kotlin build file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: hello-cpp-swift/app/src/main/java/com/example/hellocppswift/MainActivity.kt,
+    hello-cpp-swift/cpp-lib/src/calculator.cpp, hello-swift-java/hashing-app/src/androidTest/java/com/example/hashingapp/ExampleInstrumentedTest.kt,
+    hello-swift-java/hashing-app/src/main/java/com/example/hashingapp/MainActivity.kt'
+  setup_and_usage:
+  - 'Getting Started: The **hello-swift-java** example is the recommended'
+  - 'Getting Started: approach for integrating Swift into Android applications. This example'
+  - 'Getting Started: demonstrates how to build a Swift library that can be seamlessly called from'
+  - 'Getting Started: Kotlin/Java code using swift-java,'
+  - 'Getting Started: which automatically generates the necessary Java wrappers and JNI bindings for'
+  - 'Getting Started: The example consists of two components:'
+  - 'Getting Started: - **hashing-lib**: A Swift package that uses swift-crypto to provide SHA256'
+  - 'Getting Started: hashing functionality'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/swiftlang/swift-android-examples/blob/main/README.md
+  path: README.md
+  blob_sha: 28b81329aa42bbdcf36b274a8cbd6cc221259d6d
+  retrieved: true
+- type: manifest
+  path: build.gradle.kts
+  blob_sha: 24598f0a3729a471d40929a82c25102f85e9eb11
+  retrieved: true
+- type: manifest
+  path: hello-swift-raw-jni-callback/build.gradle.kts
+  blob_sha: a41a64e07740c7e13595349c1cb4b12372fb22bd
+  retrieved: true
+- type: manifest
+  path: hello-swift-raw-jni-library/build.gradle.kts
+  blob_sha: c89f2ff4fe1f0f73a6892eef8ae9502da2afb9eb
+  retrieved: true
+- type: manifest
+  path: hello-swift-raw-jni/build.gradle.kts
+  blob_sha: 3b3dd39d3da332b2ad48b427c87b0e7846bce46c
+  retrieved: true
+- type: manifest
+  path: native-activity/build.gradle.kts
+  blob_sha: 0aa70d06ecc4f9953704130df52d6efffe178cc6
+  retrieved: true
+- type: manifest
+  path: hello-cpp-swift/app/build.gradle.kts
+  blob_sha: 77d79b603d6fb1dce0bdeaf0ad184c7d8860c44b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 30424
+    Kotlin: 29932
+    Swift: 26072
+    Shell: 3648
+    C++: 615
+    CMake: 446
+- type: Git tree
+  status: captured
+  sha: 10060c0d3c2b1eba3d3d2ec9dac0bc9102f619da
+  truncated: false
+- type: source_file
+  path: hello-cpp-swift/app/src/main/java/com/example/hellocppswift/MainActivity.kt
+  blob_sha: a064d9521e27a39343aef62e9afc6f0a3e366518
+  retrieved: true
+- type: source_file
+  path: hello-cpp-swift/cpp-lib/src/calculator.cpp
+  blob_sha: bf1665cbbfed6c6c0aeddc36eae3dd53f202ba8e
+  retrieved: true
+- type: source_file
+  path: hello-swift-java/hashing-app/src/androidTest/java/com/example/hashingapp/ExampleInstrumentedTest.kt
+  blob_sha: 4ab5ebbeedc5673ef24e8a000647e0ec48d520db
+  retrieved: true
+- type: source_file
+  path: hello-swift-java/hashing-app/src/main/java/com/example/hashingapp/MainActivity.kt
+  blob_sha: a9f343adacfa29f3709aae04eda7b4ac60cb1f7a
+  retrieved: true

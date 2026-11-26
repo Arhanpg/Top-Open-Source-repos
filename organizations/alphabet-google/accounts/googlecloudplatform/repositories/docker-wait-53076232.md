@@ -1,0 +1,89 @@
+# GoogleCloudPlatform/docker-wait
+
+- Company: Alphabet (Google)
+- GitHub account: [https://github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)
+- Mapping status: official-project-linked
+- Repository: [GoogleCloudPlatform/docker-wait](https://github.com/GoogleCloudPlatform/docker-wait)
+- Default branch: master
+- README: [Open upstream README](https://github.com/GoogleCloudPlatform/docker-wait/blob/master/README.md)
+- README blob SHA: 38d7b3511ad905943a6cb512246781a071a70abe
+- README bytes captured: 896
+- README truncated at capture limit: False
+- Repository ID: 53076232
+- Evidence state: evidence captured; manual review pending
+- Manual review: manual technical interpretation pending
+
+## Upstream description
+
+No GitHub description supplied.
+
+This is repository-owner metadata, not an independently verified technical summary.
+
+## README capture
+
+- Status: captured
+- Unavailable reason: Not applicable
+- Captured: 2026-11-26T20:12:38+00:00
+
+### Short excerpt (up to 300 words)
+
+> docker-wait is a C program that waits for a docker container to exit. The docker built-in command docker wait takes at least 20MB memory, while
+
+### README headings
+
+- Lightweight Docker wait tool
+- How to build the tool
+- How to run the tool
+- Licensing
+
+## README section evidence excerpts
+
+Short excerpts are selected from matching upstream README sections. They are source evidence, not generated or human-reviewed technical summaries.
+
+### Introduction: Lightweight Docker wait tool
+
+> docker-wait is a C program that waits for a docker container to exit. The docker built-in command docker wait takes at least 20MB memory, while
+
+## GitHub language statistics
+
+GitHub's Languages API reports detected source-code bytes. It does not identify frameworks or architecture by itself.
+
+| Language | Bytes |
+|---|---:|
+| C | 2,774 |
+
+## Build and dependency manifest paths
+
+These paths were found in the default-branch tree. A manifest filename alone is not proof of a framework or runtime.
+
+- No recognised manifests found or captured
+
+- Manifest scan truncated by GitHub: False
+- Manifest capture state: none_found
+
+## Lifecycle metadata
+
+- Archived: True
+- Fork: False
+- Disabled: False
+- Licence SPDX: Apache-2.0
+- Stars at capture: 4
+- Forks at capture: 4
+- Last updated: 2023-01-27T21:15:11Z
+- Last pushed: 2016-03-03T19:18:57Z
+- Topics: Not supplied
+
+## Required manual review
+
+Interpret the README's purpose and capabilities; confirm framework/library claims against manifests and relevant source; inspect architecture, tests, licence, security guidance, platform constraints and maintenance status. Only then change the manual review state to README reviewed.
+
+## Upstream links
+
+- [Repository](https://github.com/GoogleCloudPlatform/docker-wait)
+- [README](https://github.com/GoogleCloudPlatform/docker-wait/blob/master/README.md)
+- [Issues](https://github.com/GoogleCloudPlatform/docker-wait/issues)
+- [Releases](https://github.com/GoogleCloudPlatform/docker-wait/releases)
+
+Capture errors: None
+
+*Generated evidence capture only. This page is not labelled README reviewed until a human has interpreted and checked the upstream material.*

@@ -1,10 +1,10 @@
 # Technical audits — googlecloudplatform
 
-Updated: 2026-11-26T07:22:00+00:00
+Updated: 2026-11-26T22:57:05+00:00
 
 ## Status counts
 
-- evidence_only: 11
+- evidence_only: 14
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -21,5 +21,8 @@ Updated: 2026-11-26T07:22:00+00:00
 | dataflowjavasdk-27503425 | evidence_only | [dataflowjavasdk-27503425.md](dataflowjavasdk-27503425.md) | [dataflowjavasdk-27503425.yaml](dataflowjavasdk-27503425.yaml) |
 | dataflowpythonsdk-52123243 | evidence_only | [dataflowpythonsdk-52123243.md](dataflowpythonsdk-52123243.md) | [dataflowpythonsdk-52123243.yaml](dataflowpythonsdk-52123243.yaml) |
 | dataflowsdk-examples-40148405 | evidence_only | [dataflowsdk-examples-40148405.md](dataflowsdk-examples-40148405.md) | [dataflowsdk-examples-40148405.yaml](dataflowsdk-examples-40148405.yaml) |
+| dataflowtemplates-120970441 | evidence_only | [dataflowtemplates-120970441.md](dataflowtemplates-120970441.md) | [dataflowtemplates-120970441.yaml](dataflowtemplates-120970441.yaml) |
 | diy-tools-238751362 | evidence_only | [diy-tools-238751362.md](diy-tools-238751362.md) | [diy-tools-238751362.yaml](diy-tools-238751362.yaml) |
+| ez-wsi-dicomweb-607867551 | evidence_only | [ez-wsi-dicomweb-607867551.md](ez-wsi-dicomweb-607867551.md) | [ez-wsi-dicomweb-607867551.yaml](ez-wsi-dicomweb-607867551.yaml) |
+| filestore-snapshot-scheduler-527922435 | evidence_only | [filestore-snapshot-scheduler-527922435.md](filestore-snapshot-scheduler-527922435.md) | [filestore-snapshot-scheduler-527922435.yaml](filestore-snapshot-scheduler-527922435.yaml) |
 | github-557646489 | insufficient_evidence | [github-557646489.md](github-557646489.md) | [github-557646489.yaml](github-557646489.yaml) |

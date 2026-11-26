@@ -1,0 +1,92 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:56:29+00:00'
+evidence_fingerprint: dbfe2fe46612611f957f067726791d114717ce8567f3f6d6d9cfcd7ff21d1a58
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/isaac_ros_apriltag
+  repository_id: 418684392
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_apriltag
+  description: NVIDIA-accelerated Apriltag detection and pose estimation.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T06:56:50Z'
+  stars: 203
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_apriltag/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e5ad16d8faa1d5a9a954dec0f7fd638dc2b1a616
+  manifest_paths:
+  - isaac_ros_apriltag/CMakeLists.txt
+  source_files_inspected:
+  - isaac_ros_apriltag/src/apriltag_node.cpp
+  - isaac_ros_apriltag/include/isaac_ros_apriltag/apriltag_node.hpp
+  - isaac_ros_apriltag/launch/isaac_ros_apriltag.launch.py
+  - isaac_ros_apriltag/launch/isaac_ros_apriltag_core.launch.py
+  repository_tree:
+    status: captured
+    sha: 1b4fc92207a8b6f32cb4e75dde59f791d9d60aed
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: NVIDIA-accelerated AprilTag detection and pose estimation.
+  why_used: NVIDIA-accelerated Apriltag detection and pose estimation.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: isaac_ros_apriltag/src/apriltag_node.cpp,
+    isaac_ros_apriltag/include/isaac_ros_apriltag/apriltag_node.hpp, isaac_ros_apriltag/launch/isaac_ros_apriltag.launch.py,
+    isaac_ros_apriltag/launch/isaac_ros_apriltag_core.launch.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_apriltag/blob/main/README.md
+  path: README.md
+  blob_sha: e5ad16d8faa1d5a9a954dec0f7fd638dc2b1a616
+  retrieved: true
+- type: manifest
+  path: isaac_ros_apriltag/CMakeLists.txt
+  blob_sha: 91924a232acaf414fde65f3fb5ce4ad5a7d082cc
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 28297
+    CMake: 3425
+- type: Git tree
+  status: captured
+  sha: 1b4fc92207a8b6f32cb4e75dde59f791d9d60aed
+  truncated: false
+- type: source_file
+  path: isaac_ros_apriltag/src/apriltag_node.cpp
+  blob_sha: bbda52a7885c92d54e30aa31c19d0f873ddfb3c5
+  retrieved: true
+- type: source_file
+  path: isaac_ros_apriltag/include/isaac_ros_apriltag/apriltag_node.hpp
+  blob_sha: 97ceedfb761e79abb526b288d84d37dd8b2402c9
+  retrieved: true
+- type: source_file
+  path: isaac_ros_apriltag/launch/isaac_ros_apriltag.launch.py
+  blob_sha: 2129f7e00f170795681d5352d2ddc2456fb72fb4
+  retrieved: true
+- type: source_file
+  path: isaac_ros_apriltag/launch/isaac_ros_apriltag_core.launch.py
+  blob_sha: 1a97f8253d57f613f31f2e503635d9b2c6bf6a75
+  retrieved: true

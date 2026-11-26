@@ -1,0 +1,83 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:39:57+00:00'
+evidence_fingerprint: fce99aefea30270c5575b4abd2ba9816eba086d09ba8f1c2cd12c6abfc7f5a1c
+repository_metadata:
+  company: Amazon
+  account: aws-samples
+  full_name: aws-samples/Amazon-EKS-pod-logs-to-CloudTrail-Lake
+  repository_id: 801303781
+  url: https://github.com/aws-samples/Amazon-EKS-pod-logs-to-CloudTrail-Lake
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-05-16T03:28:52Z'
+  stars: 0
+  readme_url: https://github.com/aws-samples/Amazon-EKS-pod-logs-to-CloudTrail-Lake/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f2c43b63d548992592e0618720e364a198dfe75b
+  manifest_paths: []
+  source_files_inspected:
+  - EKS-pod-logs-to-CloudTrailLake/log_import/app.py
+  - EKS-pod-logs-to-CloudTrailLake/log_import/object_wrapper.py
+  repository_tree:
+    status: captured
+    sha: f199bebdf0d079965b0513c838f21ab0953582f7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Customers often look for options to capture and centralized storage of application logs from [Amazon
+    Elastic Kubernetes Service on Fargate](https://docs.aws.amazon.com/eks/latest/userguide/fargate.html) (Amazon
+    EKS on Fargate) Pods to investigate root causes or analyze security incidents. Customers also like the capability
+    to easily query the logs to assist with security investigations. In this blog post, we show you how to ingest
+    the Amazon EKS Pod logs into [AWS CloudTrail Lake](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-lake.html)
+    for long-term storage and analytics.
+  why_used: Customers often look for options to capture and centralized storage of application logs from [Amazon
+    Elastic Kubernetes Service on Fargate](https://docs.aws.amazon.com/eks/latest/userguide/fargate.html) (Amazon
+    EKS on Fargate) Pods to investigate root causes or analyze security incidents. Customers also like the capability
+    to easily query the logs to assist with security investigations. In this blog post, we show you how to ingest
+    the Amazon EKS Pod logs into [AWS CloudTrail Lake](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-lake.html)
+    for long-term storage and analytics.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: EKS-pod-logs-to-CloudTrailLake/log_import/app.py,
+    EKS-pod-logs-to-CloudTrailLake/log_import/object_wrapper.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-samples/Amazon-EKS-pod-logs-to-CloudTrail-Lake/blob/main/README.md
+  path: README.md
+  blob_sha: f2c43b63d548992592e0618720e364a198dfe75b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 14714
+- type: Git tree
+  status: captured
+  sha: f199bebdf0d079965b0513c838f21ab0953582f7
+  truncated: false
+- type: source_file
+  path: EKS-pod-logs-to-CloudTrailLake/log_import/app.py
+  blob_sha: 2500202095aedabff31b40d58f903e4648123e47
+  retrieved: true
+- type: source_file
+  path: EKS-pod-logs-to-CloudTrailLake/log_import/object_wrapper.py
+  blob_sha: db35e5bf97a7e3535846eb28138964b6be04cfaa
+  retrieved: true

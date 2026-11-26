@@ -1,10 +1,10 @@
 # Technical audits — ui5
 
-Updated: 2026-11-26T07:22:01+00:00
+Updated: 2026-11-26T22:57:03+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 15
 
 ## Repository dossiers
 
@@ -22,3 +22,6 @@ Updated: 2026-11-26T07:22:01+00:00
 | openui5-website-165688605 | evidence_only | [openui5-website-165688605.md](openui5-website-165688605.md) | [openui5-website-165688605.yaml](openui5-website-165688605.yaml) |
 | plugins-coding-agents-1184343602 | evidence_only | [plugins-coding-agents-1184343602.md](plugins-coding-agents-1184343602.md) | [plugins-coding-agents-1184343602.yaml](plugins-coding-agents-1184343602.yaml) |
 | renovate-config-958428694 | evidence_only | [renovate-config-958428694.md](renovate-config-958428694.md) | [renovate-config-958428694.yaml](renovate-config-958428694.yaml) |
+| repository-template-923703362 | evidence_only | [repository-template-923703362.md](repository-template-923703362.md) | [repository-template-923703362.yaml](repository-template-923703362.yaml) |
+| sample-app-27821071 | evidence_only | [sample-app-27821071.md](sample-app-27821071.md) | [sample-app-27821071.yaml](sample-app-27821071.yaml) |
+| sample-webcomponents-angular-170030546 | evidence_only | [sample-webcomponents-angular-170030546.md](sample-webcomponents-angular-170030546.md) | [sample-webcomponents-angular-170030546.yaml](sample-webcomponents-angular-170030546.yaml) |

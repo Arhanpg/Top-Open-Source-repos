@@ -1,0 +1,91 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:30:52+00:00'
+evidence_fingerprint: cadfc42cbfe64c15a2ac36ca67e869e08c09226bc97cdee47b9fea585ba39fce
+repository_metadata:
+  company: Amazon
+  account: amazon-archives
+  full_name: amazon-archives/amazon-cognito-ios
+  repository_id: 21633057
+  url: https://github.com/amazon-archives/amazon-cognito-ios
+  description: 'ARCHIVED: Use https://github.com/aws/aws-sdk-ios/'
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2018-03-28T22:39:03Z'
+  stars: 33
+  readme_url: https://github.com/amazon-archives/amazon-cognito-ios/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 6e6ecfcf41fc8ca3291e1c67e402f70f05b9cbcc
+  manifest_paths: []
+  source_files_inspected:
+  - AWSCognitoSyncTests/AmazonCognitoSqliteManagerTests.m
+  - AWSCognitoSyncTests/AWSCognitoClientTest.m
+  - AWSCognitoSyncTests/AWSCognitoSyncServiceTests.m
+  - AWSCognitoSyncTests/AWSGeneralCognitoSyncTests.m
+  repository_tree:
+    status: captured
+    sha: 02a84da37da0fd445c73508e8464a944cf61b6f0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository has been merged into AWS SDK for iOS. All the code is moved under aws-sdk-iOS/AWSCognito.
+    Amazon Cognito Sync will continue to be developed and maintained in the master repo. Any future issues regarding
+    Amazon Cognito should be posted at aws-sdk-ios/issues. This repo will be inactive and is pending removal if
+    necessary.
+  why_used: 'ARCHIVED: Use https://github.com/aws/aws-sdk-ios/'
+  core_features: []
+  technology_stack:
+    languages:
+    - Objective-C
+    - Ruby
+    - C
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: AWSCognitoSyncTests/AmazonCognitoSqliteManagerTests.m,
+    AWSCognitoSyncTests/AWSCognitoClientTest.m, AWSCognitoSyncTests/AWSCognitoSyncServiceTests.m, AWSCognitoSyncTests/AWSGeneralCognitoSyncTests.m'
+  setup_and_usage:
+  - 'Installation: To start using the AWS SDK for iOS, follow the instructions at Setup the SDK for iOS.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-archives/amazon-cognito-ios/blob/master/README.md
+  path: README.md
+  blob_sha: 6e6ecfcf41fc8ca3291e1c67e402f70f05b9cbcc
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Objective-C: 484017
+    Ruby: 5712
+    C: 1810
+- type: Git tree
+  status: captured
+  sha: 02a84da37da0fd445c73508e8464a944cf61b6f0
+  truncated: false
+- type: source_file
+  path: AWSCognitoSyncTests/AmazonCognitoSqliteManagerTests.m
+  blob_sha: bafe0dd6151035a86d5c08a48380a97bd8fa7841
+  retrieved: true
+- type: source_file
+  path: AWSCognitoSyncTests/AWSCognitoClientTest.m
+  blob_sha: 43e20f4a0a940a279a53269e233709c51dd34686
+  retrieved: true
+- type: source_file
+  path: AWSCognitoSyncTests/AWSCognitoSyncServiceTests.m
+  blob_sha: 8edebbfe6bc2614fba9a1e8ac826d7aa844bc139
+  retrieved: true
+- type: source_file
+  path: AWSCognitoSyncTests/AWSGeneralCognitoSyncTests.m
+  blob_sha: 5e59a19f1acfe174a850dabda2edde99637a752d
+  retrieved: true

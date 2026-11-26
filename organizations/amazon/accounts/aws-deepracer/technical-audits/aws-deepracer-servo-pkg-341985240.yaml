@@ -1,0 +1,102 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:46:21+00:00'
+evidence_fingerprint: 375753609f239dc233de76a40ee1d99058a3544f343592c1fe26f799c53ddf11
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/aws-deepracer-servo-pkg
+  repository_id: 341985240
+  url: https://github.com/aws-deepracer/aws-deepracer-servo-pkg
+  description: The DeepRacer Servo ROS package creates the servo_node that is responsible to map the input servo
+    throttle and steering angle messages to raw PWM values to move the car.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2021-11-08T22:39:51Z'
+  stars: 4
+  readme_url: https://github.com/aws-deepracer/aws-deepracer-servo-pkg/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 388451b780d8bd96e7ceb2dee841ccc4cb4b6aae
+  manifest_paths:
+  - servo_pkg/CMakeLists.txt
+  source_files_inspected:
+  - servo_pkg/src/bios_version.cpp
+  - servo_pkg/src/led_mgr.cpp
+  - servo_pkg/src/pwm.cpp
+  - servo_pkg/src/servo_mgr.cpp
+  repository_tree:
+    status: captured
+    sha: e97a4c9cf8b4e285cb71f93ba6cbbe992649565e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The AWS DeepRacer servo ROS package creates the servo_node, which is part of the core AWS DeepRacer application
+    and launches from the deepracer_launcher. For more information about the application and the components, see
+    the aws-deepracer-launcher repository.
+  why_used: The DeepRacer Servo ROS package creates the servo_node that is responsible to map the input servo throttle
+    and steering angle messages to raw PWM values to move the car.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: servo_pkg/src/bios_version.cpp,
+    servo_pkg/src/led_mgr.cpp, servo_pkg/src/pwm.cpp, servo_pkg/src/servo_mgr.cpp'
+  setup_and_usage:
+  - 'Installation: Follow these steps to install the AWS DeepRacer servo package.'
+  - 'Usage: The servo_node provides the core functionality to map the input servo throttle and steering angle ratios
+    to raw PWM values and writing that to the buffer so that car moves accordingly. Although the node is built to
+    work with the AWS DeepRacer application, you can run it independently for development, testing, and debugging
+    purposes.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/aws-deepracer-servo-pkg/blob/main/README.md
+  path: README.md
+  blob_sha: 388451b780d8bd96e7ceb2dee841ccc4cb4b6aae
+  retrieved: true
+- type: manifest
+  path: servo_pkg/CMakeLists.txt
+  blob_sha: 54488db1ed623bad1d4583eb3cf69721fc35cc9c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 57572
+    CMake: 1693
+    Python: 1538
+- type: Git tree
+  status: captured
+  sha: e97a4c9cf8b4e285cb71f93ba6cbbe992649565e
+  truncated: false
+- type: source_file
+  path: servo_pkg/src/bios_version.cpp
+  blob_sha: 47d40060130f5c906976d2041fb2300260dd3974
+  retrieved: true
+- type: source_file
+  path: servo_pkg/src/led_mgr.cpp
+  blob_sha: 55f238ecc6592e709768f2b0e82f8c3fe79b14c9
+  retrieved: true
+- type: source_file
+  path: servo_pkg/src/pwm.cpp
+  blob_sha: b1d8fd7ff7989d526e59a06cff9d6de1e84394c8
+  retrieved: true
+- type: source_file
+  path: servo_pkg/src/servo_mgr.cpp
+  blob_sha: e50be4c6be8a351265082031360bc16f554d165a
+  retrieved: true

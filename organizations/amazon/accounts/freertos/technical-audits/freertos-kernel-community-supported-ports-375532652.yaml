@@ -1,0 +1,104 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:33:57+00:00'
+evidence_fingerprint: 0c7a7d2e97e4a18a379633dcb340be86e22512f9c2b44b36e9db786b86343d67
+repository_metadata:
+  company: Amazon
+  account: freertos
+  full_name: FreeRTOS/FreeRTOS-Kernel-Community-Supported-Ports
+  repository_id: 375532652
+  url: https://github.com/FreeRTOS/FreeRTOS-Kernel-Community-Supported-Ports
+  description: null
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-03-18T23:57:56Z'
+  stars: 36
+  readme_url: https://github.com/FreeRTOS/FreeRTOS-Kernel-Community-Supported-Ports/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b0126d70fda88c371620f6705f29bbf1d8df6d0e
+  manifest_paths:
+  - GCC/RP2350_ARM_NTZ/CMakeLists.txt
+  - GCC/RP2350_RISC-V/CMakeLists.txt
+  source_files_inspected:
+  - CCRH/RH850_F1KM_S4/port.c
+  - CCRH/RH850_F1KM_S4/portmacro.h
+  - CCS/C2000_C28x/port.c
+  - CCS/C2000_C28x/portmacro.h
+  repository_tree:
+    status: captured
+    sha: 00576d70f1b0ef9de66d9a912afdb827a11204b6
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This repository contains FreeRTOS ports supported by FreeRTOS community members. For a community supported
+    FreeRTOS port:'
+  why_used: 'This repository contains FreeRTOS ports supported by FreeRTOS community members. For a community supported
+    FreeRTOS port:'
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - Assembly
+    - CMake
+    - Linker Script
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: CCRH/RH850_F1KM_S4/port.c,
+    CCRH/RH850_F1KM_S4/portmacro.h, CCS/C2000_C28x/port.c, CCS/C2000_C28x/portmacro.h'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/FreeRTOS/FreeRTOS-Kernel-Community-Supported-Ports/blob/main/README.md
+  path: README.md
+  blob_sha: b0126d70fda88c371620f6705f29bbf1d8df6d0e
+  retrieved: true
+- type: manifest
+  path: GCC/RP2350_ARM_NTZ/CMakeLists.txt
+  blob_sha: 3abbabc00819aa0f8be0e5e49ecb412483268ad6
+  retrieved: true
+- type: manifest
+  path: GCC/RP2350_RISC-V/CMakeLists.txt
+  blob_sha: 3abbabc00819aa0f8be0e5e49ecb412483268ad6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 1066853
+    Assembly: 157336
+    CMake: 25432
+    Linker Script: 6083
+    Python: 4604
+- type: Git tree
+  status: captured
+  sha: 00576d70f1b0ef9de66d9a912afdb827a11204b6
+  truncated: false
+- type: source_file
+  path: CCRH/RH850_F1KM_S4/port.c
+  blob_sha: 2553731d9a6e7ec4999e054a872375e711381460
+  retrieved: true
+- type: source_file
+  path: CCRH/RH850_F1KM_S4/portmacro.h
+  blob_sha: bfe2a7345d6d3b1c4b3ce13f6d343f46fa3121a8
+  retrieved: true
+- type: source_file
+  path: CCS/C2000_C28x/port.c
+  blob_sha: f869683aaf2358ec20d95f84f4c6f561f7a5683b
+  retrieved: true
+- type: source_file
+  path: CCS/C2000_C28x/portmacro.h
+  blob_sha: 90908b90f3f61ab193e16b30693bb12db1828382
+  retrieved: true

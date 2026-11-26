@@ -1,10 +1,10 @@
 # Technical audits — aws-actions
 
-Updated: 2026-11-26T07:22:02+00:00
+Updated: 2026-11-26T22:57:03+00:00
 
 ## Status counts
 
-- evidence_only: 14
+- evidence_only: 18
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -25,4 +25,8 @@ Updated: 2026-11-26T07:22:02+00:00
 | aws-devicefarm-mobile-device-testing-682682425 | evidence_only | [aws-devicefarm-mobile-device-testing-682682425.md](aws-devicefarm-mobile-device-testing-682682425.md) | [aws-devicefarm-mobile-device-testing-682682425.yaml](aws-devicefarm-mobile-device-testing-682682425.yaml) |
 | aws-elasticbeanstalk-deploy-1150080493 | evidence_only | [aws-elasticbeanstalk-deploy-1150080493.md](aws-elasticbeanstalk-deploy-1150080493.md) | [aws-elasticbeanstalk-deploy-1150080493.yaml](aws-elasticbeanstalk-deploy-1150080493.yaml) |
 | aws-lambda-deploy-1025109135 | evidence_only | [aws-lambda-deploy-1025109135.md](aws-lambda-deploy-1025109135.md) | [aws-lambda-deploy-1025109135.yaml](aws-lambda-deploy-1025109135.yaml) |
+| aws-secretsmanager-get-secrets-541792993 | evidence_only | [aws-secretsmanager-get-secrets-541792993.md](aws-secretsmanager-get-secrets-541792993.md) | [aws-secretsmanager-get-secrets-541792993.yaml](aws-secretsmanager-get-secrets-541792993.yaml) |
+| closed-issue-message-300014779 | evidence_only | [closed-issue-message-300014779.md](closed-issue-message-300014779.md) | [closed-issue-message-300014779.yaml](closed-issue-message-300014779.yaml) |
+| cloudformation-aws-iam-policy-validator-784920149 | evidence_only | [cloudformation-aws-iam-policy-validator-784920149.md](cloudformation-aws-iam-policy-validator-784920149.md) | [cloudformation-aws-iam-policy-validator-784920149.yaml](cloudformation-aws-iam-policy-validator-784920149.yaml) |
+| codeguru-reviewer-316088125 | evidence_only | [codeguru-reviewer-316088125.md](codeguru-reviewer-316088125.md) | [codeguru-reviewer-316088125.yaml](codeguru-reviewer-316088125.yaml) |
 | github-245025626 | insufficient_evidence | [github-245025626.md](github-245025626.md) | [github-245025626.yaml](github-245025626.yaml) |

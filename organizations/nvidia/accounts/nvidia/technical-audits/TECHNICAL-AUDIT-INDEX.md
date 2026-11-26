@@ -1,10 +1,10 @@
 # Technical audits — nvidia
 
-Updated: 2026-11-26T07:22:01+00:00
+Updated: 2026-11-26T22:57:01+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 
 ## Repository dossiers
 
@@ -22,3 +22,7 @@ Updated: 2026-11-26T07:22:01+00:00
 | audio2face-3d-sdk-1034647520 | evidence_only | [audio2face-3d-sdk-1034647520.md](audio2face-3d-sdk-1034647520.md) | [audio2face-3d-sdk-1034647520.yaml](audio2face-3d-sdk-1034647520.yaml) |
 | audio2face-3d-training-framework-1034347645 | evidence_only | [audio2face-3d-training-framework-1034347645.md](audio2face-3d-training-framework-1034347645.md) | [audio2face-3d-training-framework-1034347645.yaml](audio2face-3d-training-framework-1034347645.yaml) |
 | autofa-1461338888 | evidence_only | [autofa-1461338888.md](autofa-1461338888.md) | [autofa-1461338888.yaml](autofa-1461338888.yaml) |
+| bigvgan-500933346 | evidence_only | [bigvgan-500933346.md](bigvgan-500933346.md) | [bigvgan-500933346.yaml](bigvgan-500933346.yaml) |
+| bionemo-1072429218 | evidence_only | [bionemo-1072429218.md](bionemo-1072429218.md) | [bionemo-1072429218.yaml](bionemo-1072429218.yaml) |
+| bobber-336076085 | evidence_only | [bobber-336076085.md](bobber-336076085.md) | [bobber-336076085.yaml](bobber-336076085.yaml) |
+| broadcast-skills-1355631811 | evidence_only | [broadcast-skills-1355631811.md](broadcast-skills-1355631811.md) | [broadcast-skills-1355631811.yaml](broadcast-skills-1355631811.yaml) |

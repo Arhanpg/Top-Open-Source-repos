@@ -1,0 +1,163 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:52:37+00:00'
+evidence_fingerprint: 4fbaba0e5edd497c7e7e476d9e29cca3da49cee3d01d4494b2843f7769d39efb
+repository_metadata:
+  company: Amazon
+  account: aws
+  full_name: aws/agent-toolkit-for-aws
+  repository_id: 1219009070
+  url: https://github.com/aws/agent-toolkit-for-aws
+  description: Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T19:24:59Z'
+  stars: 3550
+  readme_url: https://github.com/aws/agent-toolkit-for-aws/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ccd48d4cf8f9a397039a464b728b4045f45f453c
+  manifest_paths:
+  - .github/scripts/package.json
+  - plugins/aws-agents/skills/agents-pay/requirements.txt
+  - plugins/aws-startup-advisor/fixtures/bma-scan-agents-independent/repo/requirements.txt
+  - plugins/aws-startup-advisor/fixtures/bma-scan-agents-langgraph/repo/Dockerfile
+  - plugins/aws-startup-advisor/fixtures/bma-scan-agents-langgraph/repo/requirements.txt
+  - plugins/aws-startup-advisor/fixtures/bma-scan-agents-openai/repo/Dockerfile
+  source_files_inspected:
+  - plugins/aws-agents/skills/agents-pay/packages/openclaw/src/index.ts
+  - plugins/aws-startup-advisor/fixtures/bma-scan-workloads-mixed/repo/app/main.py
+  - plugins/aws-startup-advisor/skills/render-to-aws/fixtures/render-application/src/app.py
+  - plugins/aws-startup-advisor/fixtures/bma-scan-agents-openai/repo/support/app.py
+  repository_tree:
+    status: captured
+    sha: 957746d5df3b69afa6e5791a85be59bd5456023d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Help AI coding agents build, deploy, and manage applications on AWS.
+  why_used: Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - TypeScript
+    - Shell
+    - HCL
+    - HTML
+    - JavaScript
+    - Go Template
+    - Java
+    - PowerShell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - annotated-types
+    - anyio
+    - bedrock-agentcore
+    - boto3
+    - botocore
+    - certifi
+    - click
+    - h11
+    - httpcore
+    - httpx
+    - idna
+    - jmespath
+    - langchain-anthropic
+    - langchain-google-genai
+    - langchain-openai
+    - langgraph
+    - marked
+    - pydantic
+    - pydantic-core
+    - python-dateutil
+    - requests
+    - s3transfer
+    - six
+    - starlette
+    - typing-inspection
+    - urllib3
+    - uvicorn
+    - websockets
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: plugins/aws-agents/skills/agents-pay/packages/openclaw/src/index.ts,
+    plugins/aws-startup-advisor/fixtures/bma-scan-workloads-mixed/repo/app/main.py, plugins/aws-startup-advisor/skills/render-to-aws/fixtures/render-application/src/app.py,
+    plugins/aws-startup-advisor/fixtures/bma-scan-agents-openai/repo/support/app.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws/agent-toolkit-for-aws/blob/main/README.md
+  path: README.md
+  blob_sha: ccd48d4cf8f9a397039a464b728b4045f45f453c
+  retrieved: true
+- type: manifest
+  path: .github/scripts/package.json
+  blob_sha: a2a4e514c4d32c42251082018d2f0772f2495d6c
+  retrieved: true
+- type: manifest
+  path: plugins/aws-agents/skills/agents-pay/requirements.txt
+  blob_sha: a544c3ce36ff16eae3f3e84788f13fa9fea55250
+  retrieved: true
+- type: manifest
+  path: plugins/aws-startup-advisor/fixtures/bma-scan-agents-independent/repo/requirements.txt
+  blob_sha: 4c0c9de6d758db2b1934ba202dd483e52ad461e3
+  retrieved: true
+- type: manifest
+  path: plugins/aws-startup-advisor/fixtures/bma-scan-agents-langgraph/repo/Dockerfile
+  blob_sha: 3a1534c2bb61b6a7165b30c342db7d58b87a4930
+  retrieved: true
+- type: manifest
+  path: plugins/aws-startup-advisor/fixtures/bma-scan-agents-langgraph/repo/requirements.txt
+  blob_sha: fe6a8d35e33d810eedb3ef08fa9613aa66458668
+  retrieved: true
+- type: manifest
+  path: plugins/aws-startup-advisor/fixtures/bma-scan-agents-openai/repo/Dockerfile
+  blob_sha: a2b788f7b162d6ff3c6d55d7795c7d2aca7372ab
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 10121310
+    TypeScript: 266339
+    Shell: 228435
+    HCL: 169453
+    HTML: 96759
+    JavaScript: 43909
+    Go Template: 24072
+    Java: 15287
+    PowerShell: 14231
+    Dockerfile: 1046
+- type: Git tree
+  status: captured
+  sha: 957746d5df3b69afa6e5791a85be59bd5456023d
+  truncated: false
+- type: source_file
+  path: plugins/aws-agents/skills/agents-pay/packages/openclaw/src/index.ts
+  blob_sha: 0419439564c8312c87c74577756652d1c383b28c
+  retrieved: true
+- type: source_file
+  path: plugins/aws-startup-advisor/fixtures/bma-scan-workloads-mixed/repo/app/main.py
+  blob_sha: b7026b945e2521250f01de67ddc471c60d325f14
+  retrieved: true
+- type: source_file
+  path: plugins/aws-startup-advisor/skills/render-to-aws/fixtures/render-application/src/app.py
+  blob_sha: 8a4b79e3a9c826342c7cd33335634e6b54f48cb0
+  retrieved: true
+- type: source_file
+  path: plugins/aws-startup-advisor/fixtures/bma-scan-agents-openai/repo/support/app.py
+  blob_sha: 4bcc612778eae4c6782c92614fe82d3bdf02674b
+  retrieved: true

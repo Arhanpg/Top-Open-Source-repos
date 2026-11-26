@@ -1,0 +1,164 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:51:41+00:00'
+evidence_fingerprint: 8e9a0bc06a61d1d1df1b7c6c9dbb621c0910c54b73376de58f006a8bf21fbfc6
+repository_metadata:
+  company: Tencent
+  account: Tencent
+  full_name: Tencent/BlazerML-tvm
+  repository_id: 464327715
+  url: https://github.com/Tencent/BlazerML-tvm
+  description: Tencent Distribution of TVM
+  default_branch: TPAT
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-04-07T11:20:51Z'
+  stars: 16
+  readme_url: https://github.com/Tencent/BlazerML-tvm/blob/TPAT/README.md
+  readme_path: README.md
+  readme_sha: d96038d17804bc748ad091bf403f8cd0890151b9
+  manifest_paths:
+  - CMakeLists.txt
+  - Makefile
+  - pyproject.toml
+  - docs/Makefile
+  - golang/Makefile
+  - jvm/pom.xml
+  source_files_inspected:
+  - apps/microtvm/zephyr/template_project/src/aot_demo/main.c
+  - apps/microtvm/zephyr/template_project/src/host_driven/main.c
+  - apps/sgx/src/main.rs
+  - apps/wasm-standalone/wasm-graph/src/lib.rs
+  repository_tree:
+    status: captured
+    sha: 9d59324c420935611f64411180ba75225e7868bd
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ============================================== Documentation | Contributors | Community | Release Notes
+  why_used: Tencent Distribution of TVM
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - Rust
+    - C
+    - Shell
+    - CMake
+    - Java
+    - Go
+    - TypeScript
+    - Objective-C++
+    - Makefile
+    - Cython
+    - Objective-C
+    - Cuda
+    - JavaScript
+    - Batchfile
+    - HTML
+    - RenderScript
+    frameworks_and_libraries: []
+    dependencies:
+    - build-helper-maven-plugin
+    - maven-assembly-plugin
+    - maven-compiler-plugin
+    - maven-dependency-plugin
+    - maven-deploy-plugin
+    - maven-gpg-plugin
+    - maven-install-plugin
+    - maven-jar-plugin
+    - maven-javadoc-plugin
+    - maven-resources-plugin
+    - maven-source-plugin
+    - native-maven-plugin
+    - nexus-staging-maven-plugin
+    - tvm4j-parent
+    build_and_package_tools:
+    - CMake configuration
+    - Maven project manifest
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: apps/microtvm/zephyr/template_project/src/aot_demo/main.c,
+    apps/microtvm/zephyr/template_project/src/host_driven/main.c, apps/sgx/src/main.rs, apps/wasm-standalone/wasm-graph/src/lib.rs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Tencent/BlazerML-tvm/blob/TPAT/README.md
+  path: README.md
+  blob_sha: d96038d17804bc748ad091bf403f8cd0890151b9
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 7293abb60f7ce143fc343758f4a567b6a04b2d33
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 8ebbea610f5769b8a64fbeaf0c8c307afb78f3bc
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 5cca711ddbe6e38ea3297bf6797b9afd9eb34dbb
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: e04e324a0f80b226e5bc4c41fae22304f3cb346a
+  retrieved: true
+- type: manifest
+  path: golang/Makefile
+  blob_sha: 181ecdf368b8dade10cc6047522021f64203aae7
+  retrieved: true
+- type: manifest
+  path: jvm/pom.xml
+  blob_sha: 1aeaa0e579214b4b5edf53342e239bacc2b0a1fe
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 15107094
+    C++: 10886668
+    Rust: 386479
+    C: 345500
+    Shell: 223873
+    CMake: 202484
+    Java: 199950
+    Go: 111527
+    TypeScript: 94385
+    Objective-C++: 87655
+    Makefile: 67074
+    Cython: 28979
+    Objective-C: 24259
+    Cuda: 16902
+    JavaScript: 15305
+    Batchfile: 4093
+    HTML: 2664
+    RenderScript: 1895
+- type: Git tree
+  status: captured
+  sha: 9d59324c420935611f64411180ba75225e7868bd
+  truncated: false
+- type: source_file
+  path: apps/microtvm/zephyr/template_project/src/aot_demo/main.c
+  blob_sha: 3946727b26a8c9ecd3d1725edcdd671378742983
+  retrieved: true
+- type: source_file
+  path: apps/microtvm/zephyr/template_project/src/host_driven/main.c
+  blob_sha: 44d656028cbc3dbe36802b3eb6728c79dec1d780
+  retrieved: true
+- type: source_file
+  path: apps/sgx/src/main.rs
+  blob_sha: 16dd9a9c8b7529470992664c8220b64bbfba3f08
+  retrieved: true
+- type: source_file
+  path: apps/wasm-standalone/wasm-graph/src/lib.rs
+  blob_sha: 92a3d5c2f3b0482d05872d44b107daf84c1a37bd
+  retrieved: true

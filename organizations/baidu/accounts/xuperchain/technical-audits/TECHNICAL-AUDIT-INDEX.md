@@ -1,10 +1,10 @@
 # Technical audits — xuperchain
 
-Updated: 2026-11-26T07:22:01+00:00
+Updated: 2026-11-26T22:57:04+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 
 ## Repository dossiers
 
@@ -21,4 +21,8 @@ Updated: 2026-11-26T07:22:01+00:00
 | docs-198141768 | evidence_only | [docs-198141768.md](docs-198141768.md) | [docs-198141768.yaml](docs-198141768.yaml) |
 | eth-proxy-383673407 | evidence_only | [eth-proxy-383673407.md](eth-proxy-383673407.md) | [eth-proxy-383673407.yaml](eth-proxy-383673407.yaml) |
 | github-392676072 | evidence_only | [github-392676072.md](github-392676072.md) | [github-392676072.yaml](github-392676072.yaml) |
+| go-libp2p-kad-dht-188235533 | evidence_only | [go-libp2p-kad-dht-188235533.md](go-libp2p-kad-dht-188235533.md) | [go-libp2p-kad-dht-188235533.yaml](go-libp2p-kad-dht-188235533.yaml) |
+| log15-188234245 | evidence_only | [log15-188234245.md](log15-188234245.md) | [log15-188234245.yaml](log15-188234245.yaml) |
+| regression-pytest-601979083 | evidence_only | [regression-pytest-601979083.md](regression-pytest-601979083.md) | [regression-pytest-601979083.yaml](regression-pytest-601979083.yaml) |
+| vm-geth-601976948 | evidence_only | [vm-geth-601976948.md](vm-geth-601976948.md) | [vm-geth-601976948.yaml](vm-geth-601976948.yaml) |
 | xip-242135968 | evidence_only | [xip-242135968.md](xip-242135968.md) | [xip-242135968.yaml](xip-242135968.yaml) |

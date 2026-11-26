@@ -1,0 +1,88 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:47:09+00:00'
+evidence_fingerprint: 5b7eb577b2fc1c48bff86bf24108ffad571cacfe1b37027b27b8feceeacaf91a
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/aws-crr-monitor
+  repository_id: 89635934
+  url: https://github.com/aws-solutions/aws-crr-monitor
+  description: A solution for near real-time monitoring of replication of objects in Amazon S3 between a source
+    bucket and a destination bucket across multiple regions.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2023-06-30T14:15:44Z'
+  stars: 38
+  readme_url: https://github.com/aws-solutions/aws-crr-monitor/blob/master/Readme.md
+  readme_path: Readme.md
+  readme_sha: cd5b216712d04c4ef236d193b3848bb9317950b5
+  manifest_paths: []
+  source_files_inspected:
+  - deployment/build-s3-dist.sh
+  - source/CRRdeployagent/cfn_resource.py
+  - source/CRRdeployagent/CRRdeployagent.py
+  - source/CRRHourlyMaint/CRRHourlyMaint.py
+  repository_tree:
+    status: captured
+    sha: 7be50734da580222d6136a00f63764bfd57fdab1
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This AWS Solution has been archived and is no longer maintained by AWS. To discover other solutions,
+    please visit the AWS Solutions Library.
+  why_used: A solution for near real-time monitoring of replication of objects in Amazon S3 between a source bucket
+    and a destination bucket across multiple regions.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: deployment/build-s3-dist.sh,
+    source/CRRdeployagent/cfn_resource.py, source/CRRdeployagent/CRRdeployagent.py, source/CRRHourlyMaint/CRRHourlyMaint.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/aws-crr-monitor/blob/master/Readme.md
+  path: Readme.md
+  blob_sha: cd5b216712d04c4ef236d193b3848bb9317950b5
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 89000
+    Shell: 1977
+- type: Git tree
+  status: captured
+  sha: 7be50734da580222d6136a00f63764bfd57fdab1
+  truncated: false
+- type: source_file
+  path: deployment/build-s3-dist.sh
+  blob_sha: ad0215c17add8551dd0a632ddc0140a01403c3a2
+  retrieved: true
+- type: source_file
+  path: source/CRRdeployagent/cfn_resource.py
+  blob_sha: 4eb6086118e385e9d644538dd34bb7bedb41e7f6
+  retrieved: true
+- type: source_file
+  path: source/CRRdeployagent/CRRdeployagent.py
+  blob_sha: cfff31ac8f598fbd49a821a3b1955deededc6d50
+  retrieved: true
+- type: source_file
+  path: source/CRRHourlyMaint/CRRHourlyMaint.py
+  blob_sha: 4903e708a62f69cdaabb1dcbfaa50ebcfbee33b4
+  retrieved: true

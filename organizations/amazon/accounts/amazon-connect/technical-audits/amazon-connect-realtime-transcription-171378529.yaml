@@ -1,0 +1,98 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:52:21+00:00'
+evidence_fingerprint: 2acd58f4d99993bfe78b7207b4212b33ad7e86f77c012753060305f3660a6af6
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/amazon-connect-realtime-transcription
+  repository_id: 171378529
+  url: https://github.com/amazon-connect/amazon-connect-realtime-transcription
+  description: Transcribe Live Customer Audio for Amazon Connect using Amazon Kinesis Video Streams and Amazon Transcribe
+  default_branch: master
+  license_spdx: MIT-0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2023-01-05T02:03:32Z'
+  stars: 176
+  readme_url: https://github.com/amazon-connect/amazon-connect-realtime-transcription/blob/master/README.md
+  readme_path: README.md
+  readme_sha: f1ad52ddd9214059d78defdf81aeabca6669916a
+  manifest_paths:
+  - build.gradle
+  source_files_inspected:
+  - src/main/java/com/amazonaws/kvstranscribestreaming/AudioUtils.java
+  - src/main/java/com/amazonaws/kvstranscribestreaming/KVSContactTagProcessor.java
+  - src/main/java/com/amazonaws/kvstranscribestreaming/KVSStreamTrackObject.java
+  - src/main/java/com/amazonaws/kvstranscribestreaming/KVSTranscribeStreamingLambda.java
+  repository_tree:
+    status: captured
+    sha: 92a782db7112a2734284925f2738312ec634e124
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Making it easy to get started with Amazon Connect live audio streaming and real-time transcription using
+    Amazon Transcribe.
+  why_used: Transcribe Live Customer Audio for Amazon Connect using Amazon Kinesis Video Streams and Amazon Transcribe
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - JavaScript
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle build file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/main/java/com/amazonaws/kvstranscribestreaming/AudioUtils.java,
+    src/main/java/com/amazonaws/kvstranscribestreaming/KVSContactTagProcessor.java, src/main/java/com/amazonaws/kvstranscribestreaming/KVSStreamTrackObject.java,
+    src/main/java/com/amazonaws/kvstranscribestreaming/KVSTranscribeStreamingLambda.java'
+  setup_and_usage:
+  - 'Getting Started: Getting started with this project is easy. The most basic use case of capturing audio in the
+    Amazon Connect IVR can be accomplished by downloading the pre-packaged Lambda Functions, deploying the CloudFormation
+    template in your account, and importing the Contact Flows into your Amazon Connect Instance.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/amazon-connect-realtime-transcription/blob/master/README.md
+  path: README.md
+  blob_sha: f1ad52ddd9214059d78defdf81aeabca6669916a
+  retrieved: true
+- type: manifest
+  path: build.gradle
+  blob_sha: 30c87371827d33c888e4e3ac429e535c15f872af
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 78610
+    JavaScript: 16193
+    Python: 2911
+- type: Git tree
+  status: captured
+  sha: 92a782db7112a2734284925f2738312ec634e124
+  truncated: false
+- type: source_file
+  path: src/main/java/com/amazonaws/kvstranscribestreaming/AudioUtils.java
+  blob_sha: a29603dc6f140e7238a26b943cc596f721c65d37
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/amazonaws/kvstranscribestreaming/KVSContactTagProcessor.java
+  blob_sha: 2ac24fe6f9db16ca67273cfa35eea2552a419553
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/amazonaws/kvstranscribestreaming/KVSStreamTrackObject.java
+  blob_sha: c7ffbf9b0075a38aa0a01889c162c824e0208f2f
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/amazonaws/kvstranscribestreaming/KVSTranscribeStreamingLambda.java
+  blob_sha: 91934031f2e7d9936305e5d79457a644e2bf4b56
+  retrieved: true

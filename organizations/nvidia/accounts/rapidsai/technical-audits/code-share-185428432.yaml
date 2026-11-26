@@ -1,0 +1,140 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:49:49+00:00'
+evidence_fingerprint: 069f5a90479e1c030158c87628e0bd9095ab9f4f2ed71e4e406a2ca574049f73
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/code-share
+  repository_id: 185428432
+  url: https://github.com/rapidsai/code-share
+  description: null
+  default_branch: main
+  license_spdx: null
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2020-08-28T15:20:16Z'
+  stars: 1
+  readme_url: https://github.com/rapidsai/code-share/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a5e1054f8521e078cde9fae4e49b20373667e60c
+  manifest_paths:
+  - maxflow/Makefile
+  - maxflow/galois/CMakeLists.txt
+  - maxflow/galois/apps/CMakeLists.txt
+  - maxflow/galois/inputs/CMakeLists.txt
+  - maxflow/galois/lib/CMakeLists.txt
+  - maxflow/galois/scripts/CMakeLists.txt
+  source_files_inspected:
+  - maxflow/galois/src/Barrier.cpp
+  - maxflow/galois/src/Context.cpp
+  - maxflow/galois/src/FileGraph.cpp
+  - maxflow/galois/src/FileGraphParallel.cpp
+  repository_tree:
+    status: captured
+    sha: 9d32c712e26a57c8135443d0c4e550eb5f982f29
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository is a way to share experimental codes that are not yet integrated in RAPIDS products.
+    Prototypes may not build or run.
+  why_used: This repository is a way to share experimental codes that are not yet integrated in RAPIDS products.
+    Prototypes may not build or run.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    - Cuda
+    - Python
+    - Perl
+    - Shell
+    - Perl 6
+    - R
+    - C
+    - Makefile
+    - MATLAB
+    - M4
+    - Fortran
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: maxflow/galois/src/Barrier.cpp,
+    maxflow/galois/src/Context.cpp, maxflow/galois/src/FileGraph.cpp, maxflow/galois/src/FileGraphParallel.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/code-share/blob/main/README.md
+  path: README.md
+  blob_sha: a5e1054f8521e078cde9fae4e49b20373667e60c
+  retrieved: true
+- type: manifest
+  path: maxflow/Makefile
+  blob_sha: 69f862d786d17b6da00169b406152e0fb5c8d7f5
+  retrieved: true
+- type: manifest
+  path: maxflow/galois/CMakeLists.txt
+  blob_sha: c31f11cd83848d52f1f900ee50f2a547181af363
+  retrieved: true
+- type: manifest
+  path: maxflow/galois/apps/CMakeLists.txt
+  blob_sha: 9d3a2967cc8381ce02ecaea8f3f35de2a53039f6
+  retrieved: true
+- type: manifest
+  path: maxflow/galois/inputs/CMakeLists.txt
+  blob_sha: 2c731ee42943a856cde3a2d738cc491fa0aea6a4
+  retrieved: true
+- type: manifest
+  path: maxflow/galois/lib/CMakeLists.txt
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: manifest
+  path: maxflow/galois/scripts/CMakeLists.txt
+  blob_sha: b70eadbdeac23a647c2ee3118ba1baf623be4c58
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 2714291
+    CMake: 91507
+    Cuda: 65301
+    Python: 30564
+    Perl: 21364
+    Shell: 11516
+    Perl 6: 10534
+    R: 7761
+    C: 6720
+    Makefile: 3305
+    MATLAB: 1637
+    M4: 1087
+    Fortran: 266
+- type: Git tree
+  status: captured
+  sha: 9d32c712e26a57c8135443d0c4e550eb5f982f29
+  truncated: false
+- type: source_file
+  path: maxflow/galois/src/Barrier.cpp
+  blob_sha: d4723d63f3630432eb7073aa9134f2864d6926e3
+  retrieved: true
+- type: source_file
+  path: maxflow/galois/src/Context.cpp
+  blob_sha: 5c4d12a8033157b23b2fd62a1b987f07111cb5de
+  retrieved: true
+- type: source_file
+  path: maxflow/galois/src/FileGraph.cpp
+  blob_sha: 6fbad1519e8a6e8b71926d3f1d4936367cbe20cd
+  retrieved: true
+- type: source_file
+  path: maxflow/galois/src/FileGraphParallel.cpp
+  blob_sha: a37989b7ea67e23732c67398f8dd5224682bec60
+  retrieved: true

@@ -1,10 +1,10 @@
 # Technical audits — aws-cloudformation
 
-Updated: 2026-11-26T07:22:00+00:00
+Updated: 2026-11-26T22:57:04+00:00
 
 ## Status counts
 
-- evidence_only: 14
+- evidence_only: 18
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -25,4 +25,8 @@ Updated: 2026-11-26T07:22:00+00:00
 | aws-cloudformation-resource-providers-auditmanager-297364048 | evidence_only | [aws-cloudformation-resource-providers-auditmanager-297364048.md](aws-cloudformation-resource-providers-auditmanager-297364048.md) | [aws-cloudformation-resource-providers-auditmanager-297364048.yaml](aws-cloudformation-resource-providers-auditmanager-297364048.yaml) |
 | aws-cloudformation-resource-providers-awsutilities-commandrunner-265697056 | evidence_only | [aws-cloudformation-resource-providers-awsutilities-commandrunner-265697056.md](aws-cloudformation-resource-providers-awsutilities-commandrunner-265697056.md) | [aws-cloudformation-resource-providers-awsutilities-commandrunner-265697056.yaml](aws-cloudformation-resource-providers-awsutilities-commandrunner-265697056.yaml) |
 | aws-cloudformation-resource-providers-b2bi-703214360 | evidence_only | [aws-cloudformation-resource-providers-b2bi-703214360.md](aws-cloudformation-resource-providers-b2bi-703214360.md) | [aws-cloudformation-resource-providers-b2bi-703214360.yaml](aws-cloudformation-resource-providers-b2bi-703214360.yaml) |
+| aws-cloudformation-resource-providers-batch-402515745 | evidence_only | [aws-cloudformation-resource-providers-batch-402515745.md](aws-cloudformation-resource-providers-batch-402515745.md) | [aws-cloudformation-resource-providers-batch-402515745.yaml](aws-cloudformation-resource-providers-batch-402515745.yaml) |
+| aws-cloudformation-resource-providers-bedrock-original-857151613 | evidence_only | [aws-cloudformation-resource-providers-bedrock-original-857151613.md](aws-cloudformation-resource-providers-bedrock-original-857151613.md) | [aws-cloudformation-resource-providers-bedrock-original-857151613.yaml](aws-cloudformation-resource-providers-bedrock-original-857151613.yaml) |
+| aws-cloudformation-resource-providers-budgets-331405342 | evidence_only | [aws-cloudformation-resource-providers-budgets-331405342.md](aws-cloudformation-resource-providers-budgets-331405342.md) | [aws-cloudformation-resource-providers-budgets-331405342.yaml](aws-cloudformation-resource-providers-budgets-331405342.yaml) |
+| aws-cloudformation-resource-providers-cleanrooms-602749919 | evidence_only | [aws-cloudformation-resource-providers-cleanrooms-602749919.md](aws-cloudformation-resource-providers-cleanrooms-602749919.md) | [aws-cloudformation-resource-providers-cleanrooms-602749919.yaml](aws-cloudformation-resource-providers-cleanrooms-602749919.yaml) |
 | github-171341618 | insufficient_evidence | [github-171341618.md](github-171341618.md) | [github-171341618.yaml](github-171341618.yaml) |

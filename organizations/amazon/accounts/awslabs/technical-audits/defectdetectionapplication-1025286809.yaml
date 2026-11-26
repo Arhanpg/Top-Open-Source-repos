@@ -1,0 +1,167 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:47:26+00:00'
+evidence_fingerprint: 40c2801397d38ed8860d63b8d848611188872b575e770e41e83bda9e45b72a03
+repository_metadata:
+  company: Amazon
+  account: awslabs
+  full_name: awslabs/DefectDetectionApplication
+  repository_id: 1025286809
+  url: https://github.com/awslabs/DefectDetectionApplication
+  description: Defect Detection Application - A Edge Based Industrial Inspection System - AWS Solution Guidance
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T15:55:12Z'
+  stars: 24
+  readme_url: https://github.com/awslabs/DefectDetectionApplication/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 948590122ab6db2baadb6f3a102b1f4a2d5286a8
+  manifest_paths:
+  - pyproject.toml
+  - setup.py
+  - hmi/package.json
+  - com.dda.InferenceUploader/artifacts/requirements.txt
+  - datasets/detection_training/requirements.txt
+  - edge-cv-portal/backend/requirements.txt
+  source_files_inspected:
+  - edge-cv-portal/frontend/src/pages/node-designer/index.ts
+  - edge-cv-portal/frontend/src/pages/workflows/index.ts
+  - edge-cv-portal/frontend/src/types/index.ts
+  - src/backend/app.py
+  repository_tree:
+    status: captured
+    sha: 91cf84a30adfdba55bd81bc3f7a4e17f7848be2a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Defect Detection Application (DDA) is an edge-deployed computer vision solution for quality assurance
+    in discrete manufacturing environments. Originally developed by the AWS EdgeML service team, DDA is now available
+    as an open-source project under the stewardship of the AWS Manufacturing TFC and Auto/Manufacturing IBU.
+  why_used: Defect Detection Application - A Edge Based Industrial Inspection System - AWS Solution Guidance
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - TypeScript
+    - Shell
+    - C++
+    - Jupyter Notebook
+    - Dockerfile
+    - CMake
+    - SWIG
+    - CSS
+    - JavaScript
+    - HTML
+    - PowerShell
+    - C
+    - Mako
+    - Batchfile
+    - SCSS
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@playwright/test'
+    - PyYAML
+    - boto3
+    - botocore
+    - fast-check
+    - jsdom
+    - numpy
+    - onnx
+    - onnxruntime
+    - onnxslim
+    - typescript
+    - ultralytics
+    - vite
+    - vitest
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: edge-cv-portal/frontend/src/pages/node-designer/index.ts,
+    edge-cv-portal/frontend/src/pages/workflows/index.ts, edge-cv-portal/frontend/src/types/index.ts, src/backend/app.py'
+  setup_and_usage:
+  - 'IAM Permissions for Installation: Installing DDA does not need an administrator user. An administrator does
+    a one-time setup in each account (create the policies, bootstrap CDK with them, create an installer role); the
+    person installing DDA then runs every step with the installer role. The policy documents are in edge-cv-portal/iam/.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/awslabs/DefectDetectionApplication/blob/main/README.md
+  path: README.md
+  blob_sha: 948590122ab6db2baadb6f3a102b1f4a2d5286a8
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: e1aeff4008157a470179eeba99c5dc370869a306
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: ca5fc64cd28f1a6f54a7dcef966f3902ac5d14f0
+  retrieved: true
+- type: manifest
+  path: hmi/package.json
+  blob_sha: ded2ca5b35d433950cecc32e9eb56e04e2ddc4b0
+  retrieved: true
+- type: manifest
+  path: com.dda.InferenceUploader/artifacts/requirements.txt
+  blob_sha: f6315cd5ca1e45eae50083581fbb9b0aa3ea5274
+  retrieved: true
+- type: manifest
+  path: datasets/detection_training/requirements.txt
+  blob_sha: 27977a1f1151f3f859e9c7e7eaf8c14d13a6cca8
+  retrieved: true
+- type: manifest
+  path: edge-cv-portal/backend/requirements.txt
+  blob_sha: 360be124f704b31bdb7b1f1defa753d6169dd479
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 41710725
+    TypeScript: 10848813
+    Shell: 1240573
+    C++: 1131558
+    Jupyter Notebook: 96367
+    Dockerfile: 51563
+    CMake: 38342
+    SWIG: 22439
+    CSS: 9547
+    JavaScript: 8083
+    HTML: 7138
+    PowerShell: 4069
+    C: 2175
+    Mako: 1270
+    Batchfile: 769
+    SCSS: 766
+    Makefile: 638
+- type: Git tree
+  status: captured
+  sha: 91cf84a30adfdba55bd81bc3f7a4e17f7848be2a
+  truncated: false
+- type: source_file
+  path: edge-cv-portal/frontend/src/pages/node-designer/index.ts
+  blob_sha: 818e44c523e2ebb2844d3f0fc32ddb85db5de7ff
+  retrieved: true
+- type: source_file
+  path: edge-cv-portal/frontend/src/pages/workflows/index.ts
+  blob_sha: 4f6d3b536a7a9d9c7e1700b262449b263659ab9c
+  retrieved: true
+- type: source_file
+  path: edge-cv-portal/frontend/src/types/index.ts
+  blob_sha: b1afbf35928e57a6f8ac0d0deff46b27e7058faf
+  retrieved: true
+- type: source_file
+  path: src/backend/app.py
+  blob_sha: 98f18556cfeaf9e01db4ae9950822eeac482be4a
+  retrieved: true

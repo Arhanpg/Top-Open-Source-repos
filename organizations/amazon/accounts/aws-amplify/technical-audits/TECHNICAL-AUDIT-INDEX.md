@@ -1,10 +1,10 @@
 # Technical audits — aws-amplify
 
-Updated: 2026-11-26T07:22:00+00:00
+Updated: 2026-11-26T22:57:02+00:00
 
 ## Status counts
 
-- evidence_only: 14
+- evidence_only: 18
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -25,4 +25,8 @@ Updated: 2026-11-26T07:22:00+00:00
 | amplify-hosting-192008434 | evidence_only | [amplify-hosting-192008434.md](amplify-hosting-192008434.md) | [amplify-hosting-192008434.yaml](amplify-hosting-192008434.yaml) |
 | amplify-ios-maplibre-416419013 | evidence_only | [amplify-ios-maplibre-416419013.md](amplify-ios-maplibre-416419013.md) | [amplify-ios-maplibre-416419013.yaml](amplify-ios-maplibre-416419013.yaml) |
 | amplify-ios-samples-369300649 | evidence_only | [amplify-ios-samples-369300649.md](amplify-ios-samples-369300649.md) | [amplify-ios-samples-369300649.yaml](amplify-ios-samples-369300649.yaml) |
+| amplify-js-105590837 | evidence_only | [amplify-js-105590837.md](amplify-js-105590837.md) | [amplify-js-105590837.yaml](amplify-js-105590837.yaml) |
+| amplify-js-samples-188472741 | evidence_only | [amplify-js-samples-188472741.md](amplify-js-samples-188472741.md) | [amplify-js-samples-188472741.yaml](amplify-js-samples-188472741.yaml) |
+| amplify-studio-316555325 | evidence_only | [amplify-studio-316555325.md](amplify-studio-316555325.md) | [amplify-studio-316555325.yaml](amplify-studio-316555325.yaml) |
+| amplify-swift-177009496 | evidence_only | [amplify-swift-177009496.md](amplify-swift-177009496.md) | [amplify-swift-177009496.yaml](amplify-swift-177009496.yaml) |
 | github-171341614 | insufficient_evidence | [github-171341614.md](github-171341614.md) | [github-171341614.yaml](github-171341614.yaml) |

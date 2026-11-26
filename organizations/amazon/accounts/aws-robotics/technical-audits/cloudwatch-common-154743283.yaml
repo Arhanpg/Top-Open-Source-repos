@@ -1,0 +1,106 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:39:49+00:00'
+evidence_fingerprint: 29480aff47d55f8dbf2c9b5f4c94909d27901f369537f2cbe60f41920a9b4bcb
+repository_metadata:
+  company: Amazon
+  account: aws-robotics
+  full_name: aws-robotics/cloudwatch-common
+  repository_id: 154743283
+  url: https://github.com/aws-robotics/cloudwatch-common
+  description: ROS packages for facilitating the use of AWS cloud services.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-02-08T21:40:45Z'
+  stars: 4
+  readme_url: https://github.com/aws-robotics/cloudwatch-common/blob/master/README.md
+  readme_path: README.md
+  readme_sha: cf0e7b6d5ad89084037ee9824a1e09f38e482049
+  manifest_paths:
+  - cloudwatch_logs_common/CMakeLists.txt
+  - cloudwatch_metrics_common/CMakeLists.txt
+  - dataflow_lite/CMakeLists.txt
+  - file_management/CMakeLists.txt
+  source_files_inspected:
+  - cloudwatch_logs_common/src/log_batcher.cpp
+  - cloudwatch_logs_common/src/log_publisher.cpp
+  - cloudwatch_logs_common/src/log_service_factory.cpp
+  - cloudwatch_logs_common/src/utils/cloudwatch_logs_facade.cpp
+  repository_tree:
+    status: captured
+    sha: fc720ee5425d80b3a9f2135f402e2f610dc89724
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is the common library for the cloudwatch_logger and cloudwatch_metrics_collector packages.
+  why_used: ROS packages for facilitating the use of AWS cloud services.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cloudwatch_logs_common/src/log_batcher.cpp,
+    cloudwatch_logs_common/src/log_publisher.cpp, cloudwatch_logs_common/src/log_service_factory.cpp, cloudwatch_logs_common/src/utils/cloudwatch_logs_facade.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-robotics/cloudwatch-common/blob/master/README.md
+  path: README.md
+  blob_sha: cf0e7b6d5ad89084037ee9824a1e09f38e482049
+  retrieved: true
+- type: manifest
+  path: cloudwatch_logs_common/CMakeLists.txt
+  blob_sha: 97a12ea636aa087fc21b6670237858321a08c681
+  retrieved: true
+- type: manifest
+  path: cloudwatch_metrics_common/CMakeLists.txt
+  blob_sha: 027fed211f534242616e46145ca924bbd3bcac57
+  retrieved: true
+- type: manifest
+  path: dataflow_lite/CMakeLists.txt
+  blob_sha: a3a0f2b43e135da130f6bcf5770f872b8e6e1923
+  retrieved: true
+- type: manifest
+  path: file_management/CMakeLists.txt
+  blob_sha: 5d5c65e5d8ee5eb5969ecf5533a2b65acf58b9cc
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 361062
+    CMake: 21139
+- type: Git tree
+  status: captured
+  sha: fc720ee5425d80b3a9f2135f402e2f610dc89724
+  truncated: false
+- type: source_file
+  path: cloudwatch_logs_common/src/log_batcher.cpp
+  blob_sha: b88ad3bf6a0b87dcec6d9c9ecb99df488db58382
+  retrieved: true
+- type: source_file
+  path: cloudwatch_logs_common/src/log_publisher.cpp
+  blob_sha: aba4bf14c6f1fd07285ab4ff0a8452ffbbf67322
+  retrieved: true
+- type: source_file
+  path: cloudwatch_logs_common/src/log_service_factory.cpp
+  blob_sha: 60f5ec1cdec6dd490f0520c708880ab3e03d7f3b
+  retrieved: true
+- type: source_file
+  path: cloudwatch_logs_common/src/utils/cloudwatch_logs_facade.cpp
+  blob_sha: 3d3da0218f7027b1ffbcb6c8c6e6af7cbb31410e
+  retrieved: true

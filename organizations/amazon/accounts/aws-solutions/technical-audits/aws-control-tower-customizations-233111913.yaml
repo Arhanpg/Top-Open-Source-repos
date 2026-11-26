@@ -1,0 +1,108 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:40:05+00:00'
+evidence_fingerprint: d30f8d155126fe4ecfa14ea617bec3737a7865a76bc653c4db030e1aa3796fa2
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/aws-control-tower-customizations
+  repository_id: 233111913
+  url: https://github.com/aws-solutions/aws-control-tower-customizations
+  description: The Customizations for AWS Control Tower solution combines AWS Control Tower and other highly-available,
+    trusted AWS services to help customers more quickly set up a secure, multi-account AWS environment using AWS
+    best practices.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-27T23:40:19Z'
+  stars: 419
+  readme_url: https://github.com/aws-solutions/aws-control-tower-customizations/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3ab087681536554776b6d28a8e911c3739bfb226
+  manifest_paths:
+  - source/src/pyproject.toml
+  - source/src/setup.py
+  source_files_inspected:
+  - source/src/cfct/aws/services/cloudformation.py
+  repository_tree:
+    status: captured
+    sha: eeb3f878b8bdac40b67b8539d71f98d37812b865
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Customizations for AWS Control Tower solution combines AWS Control Tower and other highly-available,
+    trusted AWS services to help customers more quickly set up a secure, multi-account AWS environment based on
+    AWS best practices. Customers can easily add customizations to their AWS Control Tower landing zone using an
+    AWS CloudFormation template, service control policies (SCPs), and resource control policies (RCPs). Customers
+    can deploy their custom template and policies to both individual accounts and organizational units (OUs) within
+    their organization. Customizations for AWS Control Tower integrates with AWS Control Tower lifecycle events
+    to ensure that resource deployments stay in sync with the customer's landing zone. For example, when a new account
+    is created using the AWS Control Tower account factory, the solution ensures that all resources attached to
+    the account's OUs will be
+  why_used: The Customizations for AWS Control Tower solution combines AWS Control Tower and other highly-available,
+    trusted AWS services to help customers more quickly set up a secure, multi-account AWS environment using AWS
+    best practices.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Jinja
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/src/cfct/__init__.py,
+    source/src/cfct/aws/__init__.py, source/src/cfct/aws/services/__init__.py, source/src/cfct/aws/services/cloudformation.py'
+  setup_and_usage:
+  - 'Getting Started: To get started with Customizations for AWS Control Tower, please review the documentation'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/aws-control-tower-customizations/blob/main/README.md
+  path: README.md
+  blob_sha: 3ab087681536554776b6d28a8e911c3739bfb226
+  retrieved: true
+- type: manifest
+  path: source/src/pyproject.toml
+  blob_sha: b533dfe06304f37a8d0b4db1e1a645d6ec351a0b
+  retrieved: true
+- type: manifest
+  path: source/src/setup.py
+  blob_sha: 456f91bceab94a988557e414786f7cff8efad30b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 305687
+    Shell: 32278
+    Jinja: 258
+- type: Git tree
+  status: captured
+  sha: eeb3f878b8bdac40b67b8539d71f98d37812b865
+  truncated: false
+- type: source_file
+  path: source/src/cfct/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: source/src/cfct/aws/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: source/src/cfct/aws/services/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: source/src/cfct/aws/services/cloudformation.py
+  blob_sha: 1acc0e4e16d60406bfe564efdfea312e52d78e4c
+  retrieved: true

@@ -1,10 +1,10 @@
 # Technical audits — aws-deepracer
 
-Updated: 2026-11-26T07:22:01+00:00
+Updated: 2026-11-26T22:57:02+00:00
 
 ## Status counts
 
-- evidence_only: 13
+- evidence_only: 17
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -24,4 +24,8 @@ Updated: 2026-11-26T07:22:01+00:00
 | aws-deepracer-model-optimizer-pkg-341984643 | evidence_only | [aws-deepracer-model-optimizer-pkg-341984643.md](aws-deepracer-model-optimizer-pkg-341984643.md) | [aws-deepracer-model-optimizer-pkg-341984643.yaml](aws-deepracer-model-optimizer-pkg-341984643.yaml) |
 | aws-deepracer-navigation-pkg-341982395 | evidence_only | [aws-deepracer-navigation-pkg-341982395.md](aws-deepracer-navigation-pkg-341982395.md) | [aws-deepracer-navigation-pkg-341982395.yaml](aws-deepracer-navigation-pkg-341982395.yaml) |
 | aws-deepracer-notebooks-377646415 | evidence_only | [aws-deepracer-notebooks-377646415.md](aws-deepracer-notebooks-377646415.md) | [aws-deepracer-notebooks-377646415.yaml](aws-deepracer-notebooks-377646415.yaml) |
+| aws-deepracer-offroad-sample-project-355335343 | evidence_only | [aws-deepracer-offroad-sample-project-355335343.md](aws-deepracer-offroad-sample-project-355335343.md) | [aws-deepracer-offroad-sample-project-355335343.yaml](aws-deepracer-offroad-sample-project-355335343.yaml) |
+| aws-deepracer-sensor-fusion-pkg-341984884 | evidence_only | [aws-deepracer-sensor-fusion-pkg-341984884.md](aws-deepracer-sensor-fusion-pkg-341984884.md) | [aws-deepracer-sensor-fusion-pkg-341984884.yaml](aws-deepracer-sensor-fusion-pkg-341984884.yaml) |
+| aws-deepracer-servo-pkg-341985240 | evidence_only | [aws-deepracer-servo-pkg-341985240.md](aws-deepracer-servo-pkg-341985240.md) | [aws-deepracer-servo-pkg-341985240.yaml](aws-deepracer-servo-pkg-341985240.yaml) |
+| aws-deepracer-status-led-pkg-341985526 | evidence_only | [aws-deepracer-status-led-pkg-341985526.md](aws-deepracer-status-led-pkg-341985526.md) | [aws-deepracer-status-led-pkg-341985526.yaml](aws-deepracer-status-led-pkg-341985526.yaml) |
 | github-744758268 | insufficient_evidence | [github-744758268.md](github-744758268.md) | [github-744758268.yaml](github-744758268.yaml) |

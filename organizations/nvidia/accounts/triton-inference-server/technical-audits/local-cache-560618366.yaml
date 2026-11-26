@@ -1,0 +1,92 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:49:57+00:00'
+evidence_fingerprint: d540a4e2ebd615c212a0bbbedc66e5406dea4ac0c92a0d3a6858cf503bdbdbe2
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/local_cache
+  repository_id: 560618366
+  url: https://github.com/triton-inference-server/local_cache
+  description: Implementation of a local in-memory cache for Triton Inference Server's TRITONCACHE API
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-02T23:26:32Z'
+  stars: 6
+  readme_url: https://github.com/triton-inference-server/local_cache/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 313dff815384274dd95e41282d6f67f913465a38
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  source_files_inspected:
+  - src/cache_api.cc
+  - src/local_cache.cc
+  - src/local_cache.h
+  repository_tree:
+    status: captured
+    sha: 534ef45af9c405c2eb6c8fd57869230a40f53c48
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: -->
+  why_used: Implementation of a local in-memory cache for Triton Inference Server's TRITONCACHE API
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/cache_api.cc,
+    src/local_cache.cc, src/local_cache.h'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/local_cache/blob/main/README.md
+  path: README.md
+  blob_sha: 313dff815384274dd95e41282d6f67f913465a38
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 96fdd42c9445c1d4f21a6e031e88904d79efe4a8
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 1a8da1f4d366d75f2af71229a835ed5fd3102b5f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 28493
+    CMake: 7302
+- type: Git tree
+  status: captured
+  sha: 534ef45af9c405c2eb6c8fd57869230a40f53c48
+  truncated: false
+- type: source_file
+  path: src/cache_api.cc
+  blob_sha: d08d53660fcf7d158ed44d4e9e6f2526fdd3e8b9
+  retrieved: true
+- type: source_file
+  path: src/local_cache.cc
+  blob_sha: a23b1fe469f2caebc57e64d7e0f77038a3a156e0
+  retrieved: true
+- type: source_file
+  path: src/local_cache.h
+  blob_sha: 433faed28232ad7c0202fcfb6208e9b771fca8fb
+  retrieved: true

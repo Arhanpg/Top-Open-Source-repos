@@ -1,0 +1,124 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:43:41+00:00'
+evidence_fingerprint: 98ae36e12b6a5a7a6839b0a536c0850268ad7d0be5ba591d69cbf0886afe5af8
+repository_metadata:
+  company: SAP
+  account: SAP-cloud-infrastructure
+  full_name: SAP-cloud-infrastructure/opensearch-security-analytics
+  repository_id: 1266384333
+  url: https://github.com/SAP-cloud-infrastructure/opensearch-security-analytics
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T15:24:24Z'
+  stars: 0
+  readme_url: https://github.com/SAP-cloud-infrastructure/opensearch-security-analytics/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7e6b3dd8c4cf68ce03d24d899a92ae62ad460e1c
+  manifest_paths:
+  - build.gradle
+  source_files_inspected:
+  - src/main/java/org/opensearch/securityanalytics/action/AckAlertsAction.java
+  - src/main/java/org/opensearch/securityanalytics/action/AckAlertsRequest.java
+  - src/main/java/org/opensearch/securityanalytics/action/AckAlertsResponse.java
+  - src/main/java/org/opensearch/securityanalytics/action/AckCorrelationAlertsAction.java
+  repository_tree:
+    status: captured
+    sha: 78d50312e833f79845525545b6330d5183f3bd04
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The OpenSearch Security Analytics aims to enable you to run security operations by automating threat
+    detection and threat analysis on your data. Security analytics plugin will include a threat detection engine
+    that will be pre-loaded with a set of detection rules, that you can customize and extend to alert on standard
+    or custom attack patterns.
+  why_used: The OpenSearch Security Analytics aims to enable you to run security operations by automating threat
+    detection and threat analysis on your data. Security analytics plugin will include a threat detection engine
+    that will be pre-loaded with a set of detection rules, that you can customize and extend to alert on standard
+    or custom attack patterns.
+  core_features:
+  - name: This open-source framework for analyzing the security events will address the cost and complexity associated
+      with running the security operations on your busine
+    description: This open-source framework for analyzing the security events will address the cost and complexity
+      associated with running the security operations on your business and infrastructure data.
+    evidence:
+    - README.md#Highlights
+  - name: It will enable you to monitor your data, generate findings and send alert notifications automatically
+      to your stakeholders.
+    description: It will enable you to monitor your data, generate findings and send alert notifications automatically
+      to your stakeholders.
+    evidence:
+    - README.md#Highlights
+  - name: The security analytics dashboards will let you manage your threats, correlate events and take remediation
+      actions.
+    description: The security analytics dashboards will let you manage your threats, correlate events and take remediation
+      actions.
+    evidence:
+    - README.md#Highlights
+  technology_stack:
+    languages:
+    - Java
+    - Shell
+    - ANTLR
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle build file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/main/java/org/opensearch/securityanalytics/action/AckAlertsAction.java,
+    src/main/java/org/opensearch/securityanalytics/action/AckAlertsRequest.java, src/main/java/org/opensearch/securityanalytics/action/AckAlertsResponse.java,
+    src/main/java/org/opensearch/securityanalytics/action/AckCorrelationAlertsAction.java'
+  setup_and_usage: []
+  limitations:
+  - 'OpenSearch Security Analytics: The OpenSearch Security Analytics aims to enable you to run security operations
+    by automating threat detection and threat analysis on your data. Security analytics plugin will include a threat
+    detection engine that will be pre-loaded with a set of detection rules, that you can customize and extend to
+    alert on standard or custom attack patterns.'
+  - 'Security: If you discover a potential security issue in this project we ask that you notify AWS/Amazon Security
+    via our vulnerability reporting page. Please do **not** create a public GitHub issue.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP-cloud-infrastructure/opensearch-security-analytics/blob/main/README.md
+  path: README.md
+  blob_sha: 7e6b3dd8c4cf68ce03d24d899a92ae62ad460e1c
+  retrieved: true
+- type: manifest
+  path: build.gradle
+  blob_sha: 3e5df925a1a9ff06a4d05e2286c0b887dc772b4d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 4141460
+    Shell: 2165
+    ANTLR: 1850
+- type: Git tree
+  status: captured
+  sha: 78d50312e833f79845525545b6330d5183f3bd04
+  truncated: false
+- type: source_file
+  path: src/main/java/org/opensearch/securityanalytics/action/AckAlertsAction.java
+  blob_sha: 3c0ed0ad9877ff1e4b67e2ed2405c13ec968672c
+  retrieved: true
+- type: source_file
+  path: src/main/java/org/opensearch/securityanalytics/action/AckAlertsRequest.java
+  blob_sha: 455fd56ca4b1d64aa4d8c67dc7b0a5ffe8eee504
+  retrieved: true
+- type: source_file
+  path: src/main/java/org/opensearch/securityanalytics/action/AckAlertsResponse.java
+  blob_sha: 56262689bb4eb1629511d6166d82c04e6b00f618
+  retrieved: true
+- type: source_file
+  path: src/main/java/org/opensearch/securityanalytics/action/AckCorrelationAlertsAction.java
+  blob_sha: d85d23f1cc72dd253dfed38d47594f0e521dac8e
+  retrieved: true

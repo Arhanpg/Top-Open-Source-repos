@@ -1,0 +1,86 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:47:33+00:00'
+evidence_fingerprint: 65cb27a365e41c6051949a058f3bb7114efea973865c4a7952e9ffcb3b890b36
+repository_metadata:
+  company: Amazon
+  account: boto
+  full_name: boto/usage
+  repository_id: 1324685
+  url: https://github.com/boto/usage
+  description: Python module to parse AWS XML usage files
+  default_branch: master
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2011-02-03T16:20:11Z'
+  stars: 26
+  readme_url: https://github.com/boto/usage/blob/master/README
+  readme_path: README
+  readme_sha: 8bbba12e1fe2b249f1b780a8fe3611f2f4531c83
+  manifest_paths: []
+  source_files_inspected:
+  - usage/__init__.py
+  - usage/dataset.py
+  - usage/dimension.py
+  - usage/reports.py
+  repository_tree:
+    status: captured
+    sha: 6ffe1640e597e3c6d64d9b4b7a5dd653c35a2a70
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'usage provides some basic tools to parse XML usage reports from Amazone Web Services. These reports
+    contain detailed information about resources that you are using (and therefore will be billed for) for a given
+    AWS account. There is no API available to download these usage reports from your AWS web console so you either
+    have to download them manually or use a screen scraping approach as described here:'
+  why_used: Python module to parse AWS XML usage files
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: usage/__init__.py,
+    usage/dataset.py, usage/dimension.py, usage/reports.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/boto/usage/blob/master/README
+  path: README
+  blob_sha: 8bbba12e1fe2b249f1b780a8fe3611f2f4531c83
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 15022
+- type: Git tree
+  status: captured
+  sha: 6ffe1640e597e3c6d64d9b4b7a5dd653c35a2a70
+  truncated: false
+- type: source_file
+  path: usage/__init__.py
+  blob_sha: 97008dfc0dfd52232f026fb82f1854ddcfe9c5be
+  retrieved: true
+- type: source_file
+  path: usage/dataset.py
+  blob_sha: 3f47da76bd7e0656bf428621d3037090231e3d67
+  retrieved: true
+- type: source_file
+  path: usage/dimension.py
+  blob_sha: 85c9ecd90ad3ca2c4693f5a1b7a16559cad556fa
+  retrieved: true
+- type: source_file
+  path: usage/reports.py
+  blob_sha: 2fd73a02395e1421530132011f064bcd8166403e
+  retrieved: true

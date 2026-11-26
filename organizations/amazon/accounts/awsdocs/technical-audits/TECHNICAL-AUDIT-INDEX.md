@@ -1,10 +1,10 @@
 # Technical audits — awsdocs
 
-Updated: 2026-11-26T07:22:00+00:00
+Updated: 2026-11-26T22:57:04+00:00
 
 ## Status counts
 
-- evidence_only: 11
+- evidence_only: 15
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -20,6 +20,10 @@ Updated: 2026-11-26T07:22:00+00:00
 | amazon-chime-administration-guide-124436956 | evidence_only | [amazon-chime-administration-guide-124436956.md](amazon-chime-administration-guide-124436956.md) | [amazon-chime-administration-guide-124436956.yaml](amazon-chime-administration-guide-124436956.yaml) |
 | amazon-chime-sdk-developer-guide-209177634 | evidence_only | [amazon-chime-sdk-developer-guide-209177634.md](amazon-chime-sdk-developer-guide-209177634.md) | [amazon-chime-sdk-developer-guide-209177634.yaml](amazon-chime-sdk-developer-guide-209177634.yaml) |
 | amazon-chime-user-guide-124437338 | evidence_only | [amazon-chime-user-guide-124437338.md](amazon-chime-user-guide-124437338.md) | [amazon-chime-user-guide-124437338.yaml](amazon-chime-user-guide-124437338.yaml) |
+| amazon-cloud-directory-developer-guide-110873280 | evidence_only | [amazon-cloud-directory-developer-guide-110873280.md](amazon-cloud-directory-developer-guide-110873280.md) | [amazon-cloud-directory-developer-guide-110873280.yaml](amazon-cloud-directory-developer-guide-110873280.yaml) |
+| amazon-cloudfront-developer-guide-112963294 | evidence_only | [amazon-cloudfront-developer-guide-112963294.md](amazon-cloudfront-developer-guide-112963294.md) | [amazon-cloudfront-developer-guide-112963294.yaml](amazon-cloudfront-developer-guide-112963294.yaml) |
+| amazon-cloudsearch-developer-guide-123648877 | evidence_only | [amazon-cloudsearch-developer-guide-123648877.md](amazon-cloudsearch-developer-guide-123648877.md) | [amazon-cloudsearch-developer-guide-123648877.yaml](amazon-cloudsearch-developer-guide-123648877.yaml) |
+| amazon-cloudwatch-events-user-guide-123359199 | evidence_only | [amazon-cloudwatch-events-user-guide-123359199.md](amazon-cloudwatch-events-user-guide-123359199.md) | [amazon-cloudwatch-events-user-guide-123359199.yaml](amazon-cloudwatch-events-user-guide-123359199.yaml) |
 | aws-kinesis-video-documentation-117897013 | evidence_only | [aws-kinesis-video-documentation-117897013.md](aws-kinesis-video-documentation-117897013.md) | [aws-kinesis-video-documentation-117897013.yaml](aws-kinesis-video-documentation-117897013.yaml) |
 | github-171341792 | insufficient_evidence | [github-171341792.md](github-171341792.md) | [github-171341792.yaml](github-171341792.yaml) |
 | guidespatternssolutions-196658381 | evidence_only | [guidespatternssolutions-196658381.md](guidespatternssolutions-196658381.md) | [guidespatternssolutions-196658381.yaml](guidespatternssolutions-196658381.yaml) |

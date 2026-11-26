@@ -1,0 +1,105 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:46:29+00:00'
+evidence_fingerprint: 1810b9a0180ede89fe97084541a0061e8736677b8e705adbae3a192ef67e94a8
+repository_metadata:
+  company: Amazon
+  account: aws-ia
+  full_name: aws-ia/cfn-ps-amazon-aurora-postgresql
+  repository_id: 670321597
+  url: https://github.com/aws-ia/cfn-ps-amazon-aurora-postgresql
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-10-03T18:52:34Z'
+  stars: 1
+  readme_url: https://github.com/aws-ia/cfn-ps-amazon-aurora-postgresql/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ae39222ff3a87a24ef5da20535cfd5d2097e12d8
+  manifest_paths:
+  - .project_automation/functional_tests/Dockerfile
+  - .project_automation/publication/Dockerfile
+  - .project_automation/static_tests/Dockerfile
+  source_files_inspected:
+  - .project_automation/deprecation/entrypoint.sh
+  - .project_automation/deprovision/entrypoint.sh
+  - .project_automation/functional_tests/entrypoint.sh
+  - .project_automation/init/noop.sh
+  repository_tree:
+    status: captured
+    sha: afadcf03bbdf4d0f1758860b440b676e4d948934
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ':x: This repository is subject to deprecation in Q4 2024. For more details, please review this announcement.'
+  why_used: ':x: This repository is subject to deprecation in Q4 2024. For more details, please review this announcement.'
+  core_features: []
+  technology_stack:
+    languages:
+    - HTML
+    - Shell
+    - Python
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .project_automation/deprecation/entrypoint.sh,
+    .project_automation/deprovision/entrypoint.sh, .project_automation/functional_tests/entrypoint.sh, .project_automation/init/noop.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-ia/cfn-ps-amazon-aurora-postgresql/blob/main/README.md
+  path: README.md
+  blob_sha: ae39222ff3a87a24ef5da20535cfd5d2097e12d8
+  retrieved: true
+- type: manifest
+  path: .project_automation/functional_tests/Dockerfile
+  blob_sha: 6ed770737f66fce33a512b38308ad61bfd87e5dc
+  retrieved: true
+- type: manifest
+  path: .project_automation/publication/Dockerfile
+  blob_sha: 8f713604dcc65604d6bc4e3861eaa0331aa9012e
+  retrieved: true
+- type: manifest
+  path: .project_automation/static_tests/Dockerfile
+  blob_sha: e8d7c3202c6e2fb61ecf1f9eb168090e2e8c4d2e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    HTML: 67834
+    Shell: 8722
+    Python: 1978
+    Dockerfile: 770
+- type: Git tree
+  status: captured
+  sha: afadcf03bbdf4d0f1758860b440b676e4d948934
+  truncated: false
+- type: source_file
+  path: .project_automation/deprecation/entrypoint.sh
+  blob_sha: 395a46fec7795662ca181c1102e1b6d54863ea6c
+  retrieved: true
+- type: source_file
+  path: .project_automation/deprovision/entrypoint.sh
+  blob_sha: 395a46fec7795662ca181c1102e1b6d54863ea6c
+  retrieved: true
+- type: source_file
+  path: .project_automation/functional_tests/entrypoint.sh
+  blob_sha: 11185c7e015112c3f64904ab23d0d1764a40b76b
+  retrieved: true
+- type: source_file
+  path: .project_automation/init/noop.sh
+  blob_sha: 052b47d94e59d8c2c622e6c1749b6235213f9b73
+  retrieved: true

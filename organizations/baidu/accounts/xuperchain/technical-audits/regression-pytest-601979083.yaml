@@ -1,0 +1,96 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:48:45+00:00'
+evidence_fingerprint: 723380f282d36f220e277ec8b7f129831bae2752d02a986f1b070e5c81e24eb7
+repository_metadata:
+  company: Baidu
+  account: xuperchain
+  full_name: xuperchain/regression-pytest
+  repository_id: 601979083
+  url: https://github.com/xuperchain/regression-pytest
+  description: null
+  default_branch: master
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-02-22T03:12:42Z'
+  stars: 0
+  readme_url: https://github.com/xuperchain/regression-pytest/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 4132d84869de49feec70c240ed295dd09e7cd81f
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - cases/account/test_acc_0_normal.py
+  - cases/account/test_acc_1_abnormal.py
+  - cases/account/test_acc_2_normal.py
+  - cases/account/test_acc_3_abnormal.py
+  repository_tree:
+    status: captured
+    sha: dfdf60613d920637cead02ccd4f01220525fff15
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 使用pytest框架，搭建xchain的自动化测试用例，覆盖账户、转账、权限、合约、平行链、共识、共识升级、事件订阅等功能点。
+  why_used: 使用pytest框架，搭建xchain的自动化测试用例，覆盖账户、转账、权限、合约、平行链、共识、共识升级、事件订阅等功能点。
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - PyYAML
+    - numpy
+    - pre-commit
+    - pytest
+    - pytz
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cases/account/test_acc_0_normal.py,
+    cases/account/test_acc_1_abnormal.py, cases/account/test_acc_2_normal.py, cases/account/test_acc_3_abnormal.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/xuperchain/regression-pytest/blob/master/README.md
+  path: README.md
+  blob_sha: 4132d84869de49feec70c240ed295dd09e7cd81f
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: f4995bc17ae27d2e9edcae912f60335def42e1fa
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 440486
+    Shell: 4720
+- type: Git tree
+  status: captured
+  sha: dfdf60613d920637cead02ccd4f01220525fff15
+  truncated: false
+- type: source_file
+  path: cases/account/test_acc_0_normal.py
+  blob_sha: 7a7bc30ab262d7d4c2763ff8da63d861aaa0fc9a
+  retrieved: true
+- type: source_file
+  path: cases/account/test_acc_1_abnormal.py
+  blob_sha: 0541c80f438fbfd01315a96289416ec65112a2b3
+  retrieved: true
+- type: source_file
+  path: cases/account/test_acc_2_normal.py
+  blob_sha: 007ed01783f021c7a735d68818b5c0f176b7dfe5
+  retrieved: true
+- type: source_file
+  path: cases/account/test_acc_3_abnormal.py
+  blob_sha: ee2df25733eee0b61249699b73fb8b304bc2aa4b
+  retrieved: true

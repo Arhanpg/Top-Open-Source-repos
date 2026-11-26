@@ -1,0 +1,134 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:46:37+00:00'
+evidence_fingerprint: bc728e147cc5a22260d56c71355e32b55e525ba5c7e43483f846234bcd92a566
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/aws-otel-java-instrumentation
+  repository_id: 295885890
+  url: https://github.com/aws-observability/aws-otel-java-instrumentation
+  description: AWS Distro for OpenTelemetry Java Instrumentation Library
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T18:36:04Z'
+  stars: 104
+  readme_url: https://github.com/aws-observability/aws-otel-java-instrumentation/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 78178a5ff9c30c68cfda62fa0cdc7e20fceec545
+  manifest_paths:
+  - build.gradle.kts
+  - Dockerfile
+  - awsagentprovider/build.gradle.kts
+  - awspropagator/build.gradle.kts
+  - buildSrc/build.gradle.kts
+  - cloudwatch-plugin-otel/build.gradle.kts
+  source_files_inspected:
+  - appsignals-tests/images/grpc/grpc-client/src/main/java/software/amazon/opentelemetry/Main.java
+  - appsignals-tests/images/http-clients/spring-mvc-client/src/main/java/com/amazon/sampleapp/Application.java
+  - appsignals-tests/images/jdbc/src/main/java/software/amazon/opentelemetry/Application.java
+  - cloudwatch-plugin-otel/contract-tests/mock-collector/src/main/java/software/amazon/opentelemetry/cloudwatch/spanmetrics/e2e/mockcollector/Main.java
+  repository_tree:
+    status: captured
+    sha: 6dbe272d453d0d07911c601d2ffa467dc2b404a5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This project is a redistribution of the OpenTelemetry Agent for Java, preconfigured for use with AWS
+    services. Please check out that project too to get a better understanding of the underlying internals. You won't
+    see much code in this repository since we only apply some small configuration changes, and our OpenTelemetry
+    friends takes care of the rest.
+  why_used: AWS Distro for OpenTelemetry Java Instrumentation Library
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - Rust
+    - Python
+    - Shell
+    - HCL
+    - Dockerfile
+    - Kotlin
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle Kotlin build file
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: appsignals-tests/images/grpc/grpc-client/src/main/java/software/amazon/opentelemetry/Main.java,
+    appsignals-tests/images/http-clients/spring-mvc-client/src/main/java/com/amazon/sampleapp/Application.java,
+    appsignals-tests/images/jdbc/src/main/java/software/amazon/opentelemetry/Application.java, cloudwatch-plugin-otel/contract-tests/mock-collector/src/main/java/software/amazon/opentelemetry/cloudwatch/spanmetrics/e2e/mockcollector/Main.java'
+  setup_and_usage:
+  - 'Getting Started: Check out the getting started documentation.'
+  limitations:
+  - 'Security issue notifications: If you discover a potential security issue in this project we ask that you notify
+    AWS/Amazon Security via our vulnerability reporting page. Please do **not** create a public github issue.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/aws-otel-java-instrumentation/blob/main/README.md
+  path: README.md
+  blob_sha: 78178a5ff9c30c68cfda62fa0cdc7e20fceec545
+  retrieved: true
+- type: manifest
+  path: build.gradle.kts
+  blob_sha: 8e25ac39e273df86baf1dd7f85d60c7930a7985d
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: f94b5ae10f69029e35e622ad87965c283c5bd949
+  retrieved: true
+- type: manifest
+  path: awsagentprovider/build.gradle.kts
+  blob_sha: eee620094af0791b6120a8f2774475b60fe5c73a
+  retrieved: true
+- type: manifest
+  path: awspropagator/build.gradle.kts
+  blob_sha: 8dda35eb000cbe163d2336ffac2da58696f66d1f
+  retrieved: true
+- type: manifest
+  path: buildSrc/build.gradle.kts
+  blob_sha: 2c5d3e28ebf4fc6985be2f28fd5d24410836d3f4
+  retrieved: true
+- type: manifest
+  path: cloudwatch-plugin-otel/build.gradle.kts
+  blob_sha: e8a8b44d41e16321b21bd86090db737be7fc50d2
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 3646660
+    Rust: 14750
+    Python: 13247
+    Shell: 10105
+    HCL: 5108
+    Dockerfile: 3414
+    Kotlin: 1858
+- type: Git tree
+  status: captured
+  sha: 6dbe272d453d0d07911c601d2ffa467dc2b404a5
+  truncated: false
+- type: source_file
+  path: appsignals-tests/images/grpc/grpc-client/src/main/java/software/amazon/opentelemetry/Main.java
+  blob_sha: a933b7367d8b870d8470464c912731b1d797e26e
+  retrieved: true
+- type: source_file
+  path: appsignals-tests/images/http-clients/spring-mvc-client/src/main/java/com/amazon/sampleapp/Application.java
+  blob_sha: ce9af1eab3dd735aa4f7e09fb9e02e8d605b314b
+  retrieved: true
+- type: source_file
+  path: appsignals-tests/images/jdbc/src/main/java/software/amazon/opentelemetry/Application.java
+  blob_sha: 293a41de9c431741fe5748e5f88e87a0217c796f
+  retrieved: true
+- type: source_file
+  path: cloudwatch-plugin-otel/contract-tests/mock-collector/src/main/java/software/amazon/opentelemetry/cloudwatch/spanmetrics/e2e/mockcollector/Main.java
+  blob_sha: 026b01ae64880e9b119757db169d5ebb571048c0
+  retrieved: true

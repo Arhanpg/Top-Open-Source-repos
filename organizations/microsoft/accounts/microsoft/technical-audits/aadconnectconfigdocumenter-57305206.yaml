@@ -1,0 +1,115 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:49:09+00:00'
+evidence_fingerprint: 5952c4bea45be7287971356b5877a67b08fb3ab1f4774a7f987739fc9e1d3cb3
+repository_metadata:
+  company: Microsoft
+  account: microsoft
+  full_name: microsoft/AADConnectConfigDocumenter
+  repository_id: 57305206
+  url: https://github.com/microsoft/AADConnectConfigDocumenter
+  description: AAD Connect configuration documenter is a tool to generate documentation of an AAD Connect installation.
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-04-26T21:01:42Z'
+  stars: 267
+  readme_url: https://github.com/microsoft/AADConnectConfigDocumenter/blob/master/README.md
+  readme_path: README.md
+  readme_sha: d7d2473468b3c54694f07bac03dbe2a12b85aef8
+  manifest_paths: []
+  source_files_inspected:
+  - src/AzureADConnectSyncDocumenter/ActiveDirectoryConnectorDocumenter.cs
+  - src/AzureADConnectSyncDocumenter/AzureActiveDirectoryConnectorDocumenter.cs
+  - src/AzureADConnectSyncDocumenter/AzureADConnectSyncDocumenter.cs
+  - src/AzureADConnectSyncDocumenter/DocumenterResources.Designer.cs
+  repository_tree:
+    status: captured
+    sha: f6df39c240217993f2eeec845cc6c63375d0fdff
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: AAD Connect configuration documenter is a tool to generate documentation of an Azure AD Connect installation.
+    Currently, the documentation is only limited to the Azure AD Connect sync configuration.
+  why_used: AAD Connect configuration documenter is a tool to generate documentation of an AAD Connect installation.
+  core_features: []
+  technology_stack:
+    languages:
+    - C#
+    - CSS
+    - JavaScript
+    - PowerShell
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/AzureADConnectSyncDocumenter/ActiveDirectoryConnectorDocumenter.cs,
+    src/AzureADConnectSyncDocumenter/AzureActiveDirectoryConnectorDocumenter.cs, src/AzureADConnectSyncDocumenter/AzureADConnectSyncDocumenter.cs,
+    src/AzureADConnectSyncDocumenter/DocumenterResources.Designer.cs'
+  setup_and_usage:
+  - '**How to use the tool** (if you want to generate report for the current server installation):: 1. Download
+    the latest release AzureADConnectSyncDocumenter.zip from the releases tab under the Code tab tab, UNBLOCK the
+    downloaded zip file and extract the zip file to an empty local folder on a machine which has .NET Framework
+    4.5 installed.'
+  - '**How to use the tool** (if you want to generate report for the current server installation):: * This will
+    extract the Documenter application binaries along with the sample data files for "Contoso".'
+  - '**How to use the tool** (if you want to generate report for the current server installation):: * Make sure
+    that the tool runs by double-clicking on the cmd file AzureADConnectSyncDocumenter.cmd.'
+  - '**How to use the tool** (if you want to generate report for the current server installation):: * Upon successful
+    execution, the generated report for "Contoso" will be found in the Documenter "Report" folder.'
+  - '**How to use the tool** (if you want to generate report for the current server installation):: 2. Export the
+    Server Configuration of your Azure AD Connect sync server (named "AADC-SERVER01" in the example below) by running
+    Get-ADSyncServerConfiguration cmdlet defined in ADSync module shipped with Azure AD Connect as in the example
+    below.'
+  - '**How to use the tool** (if you want to generate report for the current server installation):: Get-ADSyncServerConfiguration
+    -Path "C:\Temp\AADC-SERVER01-06JUN2022"'
+  - '**How to use the tool** (if you want to generate report for the current server installation):: 3. Copy the
+    configuration export files folder produced in the previous step ("AADC-SERVER01-06JUN2022") to the "Data" directory
+    of the Documenter tool.'
+  - '**How to use the tool** (if you want to generate report for the current server installation):: 4. Open a command
+    prompt and change directory to AzureADConnectSyncDocumenter which should have AzureADConnectSyncDocumenterCmd.exe
+    executable of the tool. Run the tool as follows to generate the report'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/microsoft/AADConnectConfigDocumenter/blob/master/README.md
+  path: README.md
+  blob_sha: d7d2473468b3c54694f07bac03dbe2a12b85aef8
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 537383
+    CSS: 5013
+    JavaScript: 3856
+    PowerShell: 2848
+    Batchfile: 857
+- type: Git tree
+  status: captured
+  sha: f6df39c240217993f2eeec845cc6c63375d0fdff
+  truncated: false
+- type: source_file
+  path: src/AzureADConnectSyncDocumenter/ActiveDirectoryConnectorDocumenter.cs
+  blob_sha: eca8481b43ff5991a1e4d9ade6ccccfbe5a68ea1
+  retrieved: true
+- type: source_file
+  path: src/AzureADConnectSyncDocumenter/AzureActiveDirectoryConnectorDocumenter.cs
+  blob_sha: 0510a95d89c4d4ff28135e5bdf6f4124c9897560
+  retrieved: true
+- type: source_file
+  path: src/AzureADConnectSyncDocumenter/AzureADConnectSyncDocumenter.cs
+  blob_sha: b86f709e6cb2a85f13be826f203237054e12bd21
+  retrieved: true
+- type: source_file
+  path: src/AzureADConnectSyncDocumenter/DocumenterResources.Designer.cs
+  blob_sha: db8ae7ef0df5055f2e4105aed0f4e3f924f1cdaa
+  retrieved: true

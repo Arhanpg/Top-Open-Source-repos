@@ -1,10 +1,10 @@
 # Technical audits — azure
 
-Updated: 2026-11-26T07:22:00+00:00
+Updated: 2026-11-26T22:57:05+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 
 ## Repository dossiers
 
@@ -20,5 +20,9 @@ Updated: 2026-11-26T07:22:00+00:00
 | acs-deployment-tutorial-88418799 | evidence_only | [acs-deployment-tutorial-88418799.md](acs-deployment-tutorial-88418799.md) | [acs-deployment-tutorial-88418799.yaml](acs-deployment-tutorial-88418799.yaml) |
 | acss-preview-481264489 | evidence_only | [acss-preview-481264489.md](acss-preview-481264489.md) | [acss-preview-481264489.yaml](acss-preview-481264489.yaml) |
 | adaw-426782252 | evidence_only | [adaw-426782252.md](adaw-426782252.md) | [adaw-426782252.yaml](adaw-426782252.yaml) |
+| adlawithr-gettingstarted-101329988 | evidence_only | [adlawithr-gettingstarted-101329988.md](adlawithr-gettingstarted-101329988.md) | [adlawithr-gettingstarted-101329988.yaml](adlawithr-gettingstarted-101329988.yaml) |
+| adme-solution-accelerators-852393757 | evidence_only | [adme-solution-accelerators-852393757.md](adme-solution-accelerators-852393757.md) | [adme-solution-accelerators-852393757.yaml](adme-solution-accelerators-852393757.yaml) |
+| adx-in-a-day-544712932 | evidence_only | [adx-in-a-day-544712932.md](adx-in-a-day-544712932.md) | [adx-in-a-day-544712932.yaml](adx-in-a-day-544712932.yaml) |
+| adx-in-a-day-lab1-548753392 | evidence_only | [adx-in-a-day-lab1-548753392.md](adx-in-a-day-lab1-548753392.md) | [adx-in-a-day-lab1-548753392.yaml](adx-in-a-day-lab1-548753392.yaml) |
 | github-194899508 | evidence_only | [github-194899508.md](github-194899508.md) | [github-194899508.yaml](github-194899508.yaml) |
 | microsoft-defender-for-iot-498780144 | evidence_only | [microsoft-defender-for-iot-498780144.md](microsoft-defender-for-iot-498780144.md) | [microsoft-defender-for-iot-498780144.yaml](microsoft-defender-for-iot-498780144.yaml) |

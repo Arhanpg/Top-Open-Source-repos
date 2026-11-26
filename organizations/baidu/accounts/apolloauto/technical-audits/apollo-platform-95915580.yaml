@@ -1,0 +1,152 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:34:22+00:00'
+evidence_fingerprint: 595b86190fd8dde6cdc3797b2a2df8f80880e8fddeb7437b085f37717bf258b5
+repository_metadata:
+  company: Baidu
+  account: ApolloAuto
+  full_name: ApolloAuto/apollo-platform
+  repository_id: 95915580
+  url: https://github.com/ApolloAuto/apollo-platform
+  description: Collections of Apollo Platform Software
+  default_branch: master
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2019-07-03T08:15:31Z'
+  stars: 745
+  readme_url: https://github.com/ApolloAuto/apollo-platform/blob/master/README.md
+  readme_path: README.md
+  readme_sha: a11ddc709cc75f1108fa8af0230a439c2f258632
+  manifest_paths:
+  - ros/actionlib/CMakeLists.txt
+  - ros/actionlib/setup.py
+  - ros/angles/CMakeLists.txt
+  - ros/catkin/CMakeLists.txt
+  - ros/catkin/setup.py
+  - ros/class_loader/CMakeLists.txt
+  source_files_inspected:
+  - ros/dynamic_reconfigure/src/dynamic_reconfigure/server.py
+  - ros/ros_comm/roslaunch/src/roslaunch/server.py
+  - ros/ros_comm/rosmaster/src/rosmaster/main.py
+  - ros/actionlib/include/actionlib/server/action_server.h
+  repository_tree:
+    status: captured
+    sha: 97fe2fd2e612c4f9c8c0bcdf94761906a0aa44e9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Apollo-platform will cover all the platform level support. In the first release, we add the most
+    popular solution Robot Operating System (ROS) under ros directory.
+  why_used: Collections of Apollo Platform Software
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - CMake
+    - Common Lisp
+    - C
+    - EmberScript
+    - HTML
+    - Shell
+    - Makefile
+    - TeX
+    - Objective-C
+    - CSS
+    - Roff
+    - MATLAB
+    - Awk
+    - Elixir
+    - M
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: ros/dynamic_reconfigure/src/dynamic_reconfigure/server.py,
+    ros/ros_comm/roslaunch/src/roslaunch/server.py, ros/ros_comm/rosmaster/src/rosmaster/main.py, ros/actionlib/include/actionlib/server/action_server.h'
+  setup_and_usage: []
+  limitations:
+  - 'Apollo-Platform: The Apollo-platform will cover all the platform level support.'
+  - 'Apollo-Platform: In the first release, we add the most popular solution Robot'
+  - 'Apollo-Platform: Operating System (ROS) under ros directory.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ApolloAuto/apollo-platform/blob/master/README.md
+  path: README.md
+  blob_sha: a11ddc709cc75f1108fa8af0230a439c2f258632
+  retrieved: true
+- type: manifest
+  path: ros/actionlib/CMakeLists.txt
+  blob_sha: fbb9920c0c497e48c6b93dbd85a4beab572fedff
+  retrieved: true
+- type: manifest
+  path: ros/actionlib/setup.py
+  blob_sha: 25e1ba9ac922875fa350d8b4ce77f23f4840bd44
+  retrieved: true
+- type: manifest
+  path: ros/angles/CMakeLists.txt
+  blob_sha: 4026fc603d5310b68b631c2d52a065da9bd371c3
+  retrieved: true
+- type: manifest
+  path: ros/catkin/CMakeLists.txt
+  blob_sha: 8256b4cf58ee86643cc3847d30d5b4e0311798ed
+  retrieved: true
+- type: manifest
+  path: ros/catkin/setup.py
+  blob_sha: 4674e3cf2119815a58f49983bca1b295a1934f8a
+  retrieved: true
+- type: manifest
+  path: ros/class_loader/CMakeLists.txt
+  blob_sha: 035a9886a6f2c49b791ed45baa82c115be77ee9b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 5689688
+    Python: 4026864
+    CMake: 495861
+    Common Lisp: 343898
+    C: 146473
+    EmberScript: 57616
+    HTML: 43927
+    Shell: 37066
+    Makefile: 31165
+    TeX: 6929
+    Objective-C: 2462
+    CSS: 1882
+    Roff: 1735
+    MATLAB: 720
+    Awk: 640
+    Elixir: 475
+    M: 406
+    Batchfile: 118
+- type: Git tree
+  status: captured
+  sha: 97fe2fd2e612c4f9c8c0bcdf94761906a0aa44e9
+  truncated: false
+- type: source_file
+  path: ros/dynamic_reconfigure/src/dynamic_reconfigure/server.py
+  blob_sha: 36d1027762e8864d03f9c2cd4b58f3765a559c16
+  retrieved: true
+- type: source_file
+  path: ros/ros_comm/roslaunch/src/roslaunch/server.py
+  blob_sha: 03d5e4a267c27f9972ebbcd3fbcb5b8d3439ea37
+  retrieved: true
+- type: source_file
+  path: ros/ros_comm/rosmaster/src/rosmaster/main.py
+  blob_sha: b18babd99a686c87d4d70913d432bcc6cfe1e12d
+  retrieved: true
+- type: source_file
+  path: ros/actionlib/include/actionlib/server/action_server.h
+  blob_sha: 2c62812f73c8f3281880567b3479230be2432a25
+  retrieved: true

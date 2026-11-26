@@ -1,10 +1,10 @@
 # Technical audits — swiftlang
 
-Updated: 2026-11-26T07:22:01+00:00
+Updated: 2026-11-26T22:57:04+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 
 ## Repository dossiers
 
@@ -22,3 +22,7 @@ Updated: 2026-11-26T07:22:01+00:00
 | llvm-project-215875945 | evidence_only | [llvm-project-215875945.md](llvm-project-215875945.md) | [llvm-project-215875945.yaml](llvm-project-215875945.yaml) |
 | project-operations-1022322071 | evidence_only | [project-operations-1022322071.md](project-operations-1022322071.md) | [project-operations-1022322071.yaml](project-operations-1022322071.yaml) |
 | repo-templates-845744880 | evidence_only | [repo-templates-845744880.md](repo-templates-845744880.md) | [repo-templates-845744880.yaml](repo-templates-845744880.yaml) |
+| sourcekit-lsp-154773196 | evidence_only | [sourcekit-lsp-154773196.md](sourcekit-lsp-154773196.md) | [sourcekit-lsp-154773196.yaml](sourcekit-lsp-154773196.yaml) |
+| swift-3-api-guidelines-review-47225519 | evidence_only | [swift-3-api-guidelines-review-47225519.md](swift-3-api-guidelines-review-47225519.md) | [swift-3-api-guidelines-review-47225519.yaml](swift-3-api-guidelines-review-47225519.yaml) |
+| swift-44838949 | evidence_only | [swift-44838949.md](swift-44838949.md) | [swift-44838949.yaml](swift-44838949.yaml) |
+| swift-android-examples-1073159990 | evidence_only | [swift-android-examples-1073159990.md](swift-android-examples-1073159990.md) | [swift-android-examples-1073159990.yaml](swift-android-examples-1073159990.yaml) |

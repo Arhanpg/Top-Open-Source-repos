@@ -1,0 +1,95 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:49:41+00:00'
+evidence_fingerprint: 6fa3961f6480a1a379215eaa05cb6b0f974733395c51a52b183315f296ce0894
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/isaac_perceptor
+  repository_id: 808387794
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_perceptor
+  description: Perception workflows
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-01T02:30:12Z'
+  stars: 78
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/isaac_perceptor/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f787994adfecab914130e4d9b77484e496bf3a7e
+  manifest_paths:
+  - isaac_ros_perceptor_bringup/CMakeLists.txt
+  - isaac_ros_perceptor_python_utils/setup.py
+  source_files_inspected:
+  - isaac_ros_perceptor_bringup/launch/algorithms/hawks_processing.launch.py
+  - isaac_ros_perceptor_bringup/launch/algorithms/lidar_processing.launch.py
+  - isaac_ros_perceptor_bringup/launch/algorithms/nvblox.launch.py
+  - isaac_ros_perceptor_bringup/launch/algorithms/occupancy_grid_localizer.launch.py
+  repository_tree:
+    status: captured
+    sha: 52967ac8122b9bef411e15d027b64f5423f40efc
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains the integrated Isaac Perceptor launch files.
+  why_used: Perception workflows
+  core_features: []
+  technology_stack:
+    languages:
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: isaac_ros_perceptor_bringup/launch/algorithms/hawks_processing.launch.py,
+    isaac_ros_perceptor_bringup/launch/algorithms/lidar_processing.launch.py, isaac_ros_perceptor_bringup/launch/algorithms/nvblox.launch.py,
+    isaac_ros_perceptor_bringup/launch/algorithms/occupancy_grid_localizer.launch.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_perceptor/blob/main/README.md
+  path: README.md
+  blob_sha: f787994adfecab914130e4d9b77484e496bf3a7e
+  retrieved: true
+- type: manifest
+  path: isaac_ros_perceptor_bringup/CMakeLists.txt
+  blob_sha: e61ff190ace70ec6911849c28db13d7361fa4301
+  retrieved: true
+- type: manifest
+  path: isaac_ros_perceptor_python_utils/setup.py
+  blob_sha: 0b68dc8bf280f82c8472de4657bc8b1458d54930
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    CMake: 1406
+- type: Git tree
+  status: captured
+  sha: 52967ac8122b9bef411e15d027b64f5423f40efc
+  truncated: false
+- type: source_file
+  path: isaac_ros_perceptor_bringup/launch/algorithms/hawks_processing.launch.py
+  blob_sha: 9c3cb0729f1a95684b6ebc175b10636bedc3a27b
+  retrieved: true
+- type: source_file
+  path: isaac_ros_perceptor_bringup/launch/algorithms/lidar_processing.launch.py
+  blob_sha: a03e9ec64a29e0d3a36af8e13ae7662f807a9494
+  retrieved: true
+- type: source_file
+  path: isaac_ros_perceptor_bringup/launch/algorithms/nvblox.launch.py
+  blob_sha: 739881ba2f695b1caf4619bce0124e34f5e30f4e
+  retrieved: true
+- type: source_file
+  path: isaac_ros_perceptor_bringup/launch/algorithms/occupancy_grid_localizer.launch.py
+  blob_sha: f7691fa8c233c4a32cb315abba3214192657891f
+  retrieved: true

@@ -1,0 +1,141 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:34:13+00:00'
+evidence_fingerprint: 458a09e3017a8b470cef89383eaf14053ac249cf5354bc24f3fa616140c377dc
+repository_metadata:
+  company: Apple
+  account: swiftlang
+  full_name: swiftlang/sourcekit-lsp
+  repository_id: 154773196
+  url: https://github.com/swiftlang/sourcekit-lsp
+  description: Language Server Protocol implementation for Swift and C-based languages
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T09:58:02Z'
+  stars: 3932
+  readme_url: https://github.com/swiftlang/sourcekit-lsp/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 0185d7ba399916796618ea92ee7863e331155a74
+  manifest_paths:
+  - CMakeLists.txt
+  - Sources/CMakeLists.txt
+  - .devcontainer/default/Dockerfile
+  - Sources/BuildServerIntegration/CMakeLists.txt
+  - Sources/CCompletionScoring/CMakeLists.txt
+  - Sources/ClangLanguageService/CMakeLists.txt
+  source_files_inspected:
+  - Package.swift
+  - SourceKitLSPDevUtils/Package.swift
+  - SourceKitLSPDevUtils/Sources/ConfigSchemaGen/ConfigSchemaGen.swift
+  - SourceKitLSPDevUtils/Sources/ConfigSchemaGen/JSONSchema.swift
+  repository_tree:
+    status: captured
+    sha: 070df097b66091596eab2ff21f85f1f39a315a4b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: SourceKit-LSP is an implementation of the Language Server Protocol (LSP) for Swift and C-based languages.
+    It provides intelligent editor functionality like code-completion and jump-to-definition to editors that support
+    LSP. SourceKit-LSP is built on top of sourcekitd and clangd for high-fidelity language support, and provides
+    a powerful source code index as well as cross-language support. SourceKit-LSP supports projects that use the
+    Swift Package Manager and projects that generate a compile_commands.json file, such as CMake.
+  why_used: Language Server Protocol implementation for Swift and C-based languages
+  core_features: []
+  technology_stack:
+    languages:
+    - Swift
+    - C
+    - Python
+    - CMake
+    - Dockerfile
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Package.swift, SourceKitLSPDevUtils/Package.swift,
+    SourceKitLSPDevUtils/Sources/ConfigSchemaGen/ConfigSchemaGen.swift, SourceKitLSPDevUtils/Sources/ConfigSchemaGen/JSONSchema.swift'
+  setup_and_usage:
+  - 'Getting Started: SourceKit-LSP is included in the Swift toolchains available on swift.org and is bundled with
+    Xcode.'
+  - 'Getting Started: swift.org/tools has a list of popular editors that support LSP and can thus be hooked up to
+    SourceKit-LSP to provide intelligent editor functionality as well as set-up guides.'
+  - 'Getting Started: > SourceKit-LSP does not update its global index in the background or build Swift modules
+    in the background. Thus, a lot of cross-module or global functionality is limited if the project hasn''t been
+    built recently. To update the index or rebuild the Swift modules, build your project or enable the experimental
+    background indexing as described in Ena'
+  - 'Getting Started: To learn more about SourceKit-LSP, refer to the Documentation.'
+  - 'Getting Started: > If you are using SourceKit-LSP with a SwiftPM project in which you need to pass additional
+    arguments to the swift build invocation, as is commonly the case for embedded projects, you need to teach SourceKit-LSP
+    about those arguments as described in Using SourceKit-LSP with Embedded Projects.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/swiftlang/sourcekit-lsp/blob/main/README.md
+  path: README.md
+  blob_sha: 0185d7ba399916796618ea92ee7863e331155a74
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 52488527b0f9045d2de5b69afbd359bfa42e0bff
+  retrieved: true
+- type: manifest
+  path: Sources/CMakeLists.txt
+  blob_sha: fdb7f873919c46ac68fcf49142542bafeec9738a
+  retrieved: true
+- type: manifest
+  path: .devcontainer/default/Dockerfile
+  blob_sha: 7cb443594b74b3e5ca60c35549e17df0cb4311b8
+  retrieved: true
+- type: manifest
+  path: Sources/BuildServerIntegration/CMakeLists.txt
+  blob_sha: 68fe95c505f7784b640ab0233e5a932e64b3241c
+  retrieved: true
+- type: manifest
+  path: Sources/CCompletionScoring/CMakeLists.txt
+  blob_sha: 18437046e47158bbf53e96feeaab145539ac7718
+  retrieved: true
+- type: manifest
+  path: Sources/ClangLanguageService/CMakeLists.txt
+  blob_sha: f9ab7cd2047eb0eb8085a6ad2aea265195ccdaaa
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Swift: 4477703
+    C: 49599
+    Python: 30370
+    CMake: 28566
+    Dockerfile: 821
+    Shell: 110
+- type: Git tree
+  status: captured
+  sha: 070df097b66091596eab2ff21f85f1f39a315a4b
+  truncated: false
+- type: source_file
+  path: Package.swift
+  blob_sha: edc1d9c0519967414d9f4335dd6d5e33a93bbda9
+  retrieved: true
+- type: source_file
+  path: SourceKitLSPDevUtils/Package.swift
+  blob_sha: 4fa3ec1d70d1607045f09bb71b6d783e7fc69d7e
+  retrieved: true
+- type: source_file
+  path: SourceKitLSPDevUtils/Sources/ConfigSchemaGen/ConfigSchemaGen.swift
+  blob_sha: 48c51ef6ccb2d20e87aeba6e7b3adaae7b3da608
+  retrieved: true
+- type: source_file
+  path: SourceKitLSPDevUtils/Sources/ConfigSchemaGen/JSONSchema.swift
+  blob_sha: 85fa92275e0eaa1013fee54d46f5dc7a324f26a3
+  retrieved: true

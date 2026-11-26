@@ -1,10 +1,10 @@
 # Technical audits — boto
 
-Updated: 2026-11-26T07:22:02+00:00
+Updated: 2026-11-26T22:57:01+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 15
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -24,3 +24,6 @@ Updated: 2026-11-26T07:22:02+00:00
 | bwclient-js-5528710 | evidence_only | [bwclient-js-5528710.md](bwclient-js-5528710.md) | [bwclient-js-5528710.yaml](bwclient-js-5528710.yaml) |
 | github-1081523269 | insufficient_evidence | [github-1081523269.md](github-1081523269.md) | [github-1081523269.yaml](github-1081523269.yaml) |
 | guzzle-sphinx-theme-boto-436812364 | evidence_only | [guzzle-sphinx-theme-boto-436812364.md](guzzle-sphinx-theme-boto-436812364.md) | [guzzle-sphinx-theme-boto-436812364.yaml](guzzle-sphinx-theme-boto-436812364.yaml) |
+| requestbuilder-3961464 | evidence_only | [requestbuilder-3961464.md](requestbuilder-3961464.md) | [requestbuilder-3961464.yaml](requestbuilder-3961464.yaml) |
+| s3transfer-49535299 | evidence_only | [s3transfer-49535299.md](s3transfer-49535299.md) | [s3transfer-49535299.yaml](s3transfer-49535299.yaml) |
+| usage-1324685 | evidence_only | [usage-1324685.md](usage-1324685.md) | [usage-1324685.yaml](usage-1324685.yaml) |

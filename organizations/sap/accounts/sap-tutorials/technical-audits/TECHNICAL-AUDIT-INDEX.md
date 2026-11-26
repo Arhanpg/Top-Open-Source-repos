@@ -1,10 +1,10 @@
 # Technical audits — sap-tutorials
 
-Updated: 2026-11-26T07:22:00+00:00
+Updated: 2026-11-26T22:57:01+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 15
 
 ## Repository dossiers
 
@@ -21,4 +21,7 @@ Updated: 2026-11-26T07:22:00+00:00
 | developer-advocates-409206000 | evidence_only | [developer-advocates-409206000.md](developer-advocates-409206000.md) | [developer-advocates-409206000.yaml](developer-advocates-409206000.yaml) |
 | eda-986147905 | evidence_only | [eda-986147905.md](eda-986147905.md) | [eda-986147905.yaml](eda-986147905.yaml) |
 | github-517984045 | evidence_only | [github-517984045.md](github-517984045.md) | [github-517984045.yaml](github-517984045.yaml) |
+| integration-1362852935 | evidence_only | [integration-1362852935.md](integration-1362852935.md) | [integration-1362852935.yaml](integration-1362852935.yaml) |
+| joule-studio-1312803895 | evidence_only | [joule-studio-1312803895.md](joule-studio-1312803895.md) | [joule-studio-1312803895.yaml](joule-studio-1312803895.yaml) |
+| meta-tutorials-491909372 | evidence_only | [meta-tutorials-491909372.md](meta-tutorials-491909372.md) | [meta-tutorials-491909372.yaml](meta-tutorials-491909372.yaml) |
 | tutorials-47708831 | evidence_only | [tutorials-47708831.md](tutorials-47708831.md) | [tutorials-47708831.yaml](tutorials-47708831.yaml) |

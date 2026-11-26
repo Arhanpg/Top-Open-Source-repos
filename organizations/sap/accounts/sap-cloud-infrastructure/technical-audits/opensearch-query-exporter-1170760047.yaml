@@ -1,0 +1,142 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:36:37+00:00'
+evidence_fingerprint: 60ae672baabf255e402d74ddc946142fa6e988dba62b643f6a20f9339aa17ce4
+repository_metadata:
+  company: SAP
+  account: SAP-cloud-infrastructure
+  full_name: SAP-cloud-infrastructure/opensearch-query-exporter
+  repository_id: 1170760047
+  url: https://github.com/SAP-cloud-infrastructure/opensearch-query-exporter
+  description: A Prometheus exporter for OpenSearch queries
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-19T11:11:07Z'
+  stars: 0
+  readme_url: https://github.com/SAP-cloud-infrastructure/opensearch-query-exporter/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a496ca4991172ebd5356f8e5eb0e4da6ded3ee88
+  manifest_paths:
+  - Dockerfile
+  - go.mod
+  - Makefile
+  source_files_inspected:
+  - cmd/exporter/main.go
+  - cmd/exporter/main_test.go
+  - pkg/config/config.go
+  - pkg/config/config_test.go
+  repository_tree:
+    status: captured
+    sha: d63414395902098af5390464fd33cebd7c872e56
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A Prometheus exporter that runs custom OpenSearch queries on a schedule and exposes results as metrics.
+    Designed for Kubernetes deployments where teams define their own queries via ConfigMaps.
+  why_used: A Prometheus exporter for OpenSearch queries
+  core_features:
+  - name: '**Query-focused**: Only exposes metrics you define, no noise from cluster internals'
+    description: '**Query-focused**: Only exposes metrics you define, no noise from cluster internals'
+    evidence:
+    - README.md#Features
+  - name: '**Secure**: TLS-only with credential failover support'
+    description: '**Secure**: TLS-only with credential failover support'
+    evidence:
+    - README.md#Features
+  - name: '**Efficient**: Concurrent background query execution, minimal footprint'
+    description: '**Efficient**: Concurrent background query execution, minimal footprint'
+    evidence:
+    - README.md#Features
+  - name: '**Resilient**: Configurable error handling (preserve/drop/zero) per query'
+    description: '**Resilient**: Configurable error handling (preserve/drop/zero) per query'
+    evidence:
+    - README.md#Features
+  - name: '**Safe**: max_query_range rejects queries that would hit warm/cold storage'
+    description: '**Safe**: max_query_range rejects queries that would hit warm/cold storage'
+    evidence:
+    - README.md#Features
+  - name: '**Kubernetes-native**: Health probes, env var expansion in config, ConfigMap-friendly'
+    description: '**Kubernetes-native**: Health probes, env var expansion in config, ConfigMap-friendly'
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - Go
+    - Dockerfile
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/beorn7/perks
+    - github.com/cespare/xxhash/v2
+    - github.com/kr/text
+    - github.com/munnerz/goautoneg
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - golang.org/x/sys
+    - google.golang.org/protobuf
+    - gopkg.in/yaml.v3
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/exporter/main.go,
+    cmd/exporter/main_test.go, pkg/config/config.go, pkg/config/config_test.go'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions in
+    the security policy on how to report it. Please do not create GitHub issues for security-related doubts or problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP-cloud-infrastructure/opensearch-query-exporter/blob/main/README.md
+  path: README.md
+  blob_sha: a496ca4991172ebd5356f8e5eb0e4da6ded3ee88
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 92e76e92a32ffcb42da8be11d2663539bf61f1ff
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 3560ad31d0201a7ea94614d63e3319f23459478d
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 5cc19700ff29a1b91c8c61f206745d4eed121823
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 122518
+    Dockerfile: 671
+    Makefile: 519
+- type: Git tree
+  status: captured
+  sha: d63414395902098af5390464fd33cebd7c872e56
+  truncated: false
+- type: source_file
+  path: cmd/exporter/main.go
+  blob_sha: 129af70de5d4d04e1a6e5ba0a82142f338a7b44d
+  retrieved: true
+- type: source_file
+  path: cmd/exporter/main_test.go
+  blob_sha: c11f5baa348b5afaad60e830a654400ca011f765
+  retrieved: true
+- type: source_file
+  path: pkg/config/config.go
+  blob_sha: 775897fb5e8ad121b972bf09ed31b56177c2463d
+  retrieved: true
+- type: source_file
+  path: pkg/config/config_test.go
+  blob_sha: 376bc0232cb6a80d46c20aeaee13ea6cdcc4a756
+  retrieved: true

@@ -6,7 +6,7 @@
 - Default branch: master
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-26T07:11:16+00:00
+- Generated: 2026-11-26T22:30:28+00:00
 
 ## Project purpose
 
@@ -22,7 +22,7 @@ No separately supported feature list extracted.
 
 ## Technology stack
 
-- Languages: Unknown / not established
+- Languages: Python
 - Frameworks/libraries: Unknown / not established
 - Dependency names: Unknown / not established
 - Build/package tools: Unknown / not established
@@ -57,7 +57,7 @@ No explicit limitations extracted; this does not mean none exist.
 - Manifests: none
 - Sampled source files: CSPValidator.py
 - Git tree state: captured
-- Evidence fingerprint: c9d198e06443880f9407911e759e78e3c639f1f640d55182d4883b2a2755e2d1
+- Evidence fingerprint: d97295b828395a92bd180508cb0bc07c8d653d209f1b453216d937a3abc735c9
 
 ## Unverified / unknown
 

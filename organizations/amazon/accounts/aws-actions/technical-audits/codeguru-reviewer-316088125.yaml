@@ -1,0 +1,75 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:52:45+00:00'
+evidence_fingerprint: 89c4a9eb604c5c0e9ec4b23f9c8455c7df8aa18f879e699c0e725a21b42cf42e
+repository_metadata:
+  company: Amazon
+  account: aws-actions
+  full_name: aws-actions/codeguru-reviewer
+  repository_id: 316088125
+  url: https://github.com/aws-actions/codeguru-reviewer
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-01-31T19:49:14Z'
+  stars: 91
+  readme_url: https://github.com/aws-actions/codeguru-reviewer/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ced3a1583c84ecbb7c161efe1e4129b763aa4936
+  manifest_paths: []
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: 8d66450cc20edba1e677c5af548341a021b79c94
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Amazon CodeGuru Reviewer finds issues in your Java and Python code and provides recommendations on how
+    to remediate them. CodeGuru Reviewer identifies
+  why_used: Amazon CodeGuru Reviewer finds issues in your Java and Python code and provides recommendations on how
+    to remediate them. CodeGuru Reviewer identifies
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage:
+  - 'Usage: **Step 1: Set up Your workflow.yml File**'
+  - 'Usage: * **Add checkout to your workflow:**'
+  - 'Usage: For CodeGuru to run, check out your repository using actions/checkout@v2. **You will need to set fetch-depth:
+    0 to fetch all history for all branches and tags.** For example:'
+  - 'Usage: - name: Checkout repository'
+  - 'Usage: uses: actions/checkout@v2'
+  - 'Usage: fetch-depth: 0 # This is a required field for CodeGuru'
+  - 'Usage: * **Provide your AWS Credentials:**'
+  - 'Usage: We recommend following the instructions and using aws-actions/configure-aws-credentials to configure
+    your credentials for a job. The IAM user or IAM role requires AmazonCodeGuruReviewerFullAccess policy and S3
+    permissions (s3:PutObject, s3:ListBucket, s3:GetObject) for the "codeguru-reviewer-*" S3 bucket. The CodeGuru
+    Reviewer action supports crede'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-actions/codeguru-reviewer/blob/main/README.md
+  path: README.md
+  blob_sha: ced3a1583c84ecbb7c161efe1e4129b763aa4936
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: 8d66450cc20edba1e677c5af548341a021b79c94
+  truncated: false

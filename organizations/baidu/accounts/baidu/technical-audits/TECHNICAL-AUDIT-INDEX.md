@@ -1,10 +1,10 @@
 # Technical audits — baidu
 
-Updated: 2026-11-26T07:22:01+00:00
+Updated: 2026-11-26T22:57:04+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 
 ## Repository dossiers
 
@@ -21,4 +21,8 @@ Updated: 2026-11-26T07:22:01+00:00
 | ddparser-284605403 | evidence_only | [ddparser-284605403.md](ddparser-284605403.md) | [ddparser-284605403.yaml](ddparser-284605403.yaml) |
 | dialogue-149082884 | evidence_only | [dialogue-149082884.md](dialogue-149082884.md) | [dialogue-149082884.yaml](dialogue-149082884.yaml) |
 | dureader-110076861 | evidence_only | [dureader-110076861.md](dureader-110076861.md) | [dureader-110076861.yaml](dureader-110076861.yaml) |
+| easyfaas-355200354 | evidence_only | [easyfaas-355200354.md](easyfaas-355200354.md) | [easyfaas-355200354.yaml](easyfaas-355200354.yaml) |
+| elasticsearch-100230325 | evidence_only | [elasticsearch-100230325.md](elasticsearch-100230325.md) | [elasticsearch-100230325.yaml](elasticsearch-100230325.yaml) |
+| ernie-image-1210026347 | evidence_only | [ernie-image-1210026347.md](ernie-image-1210026347.md) | [ernie-image-1210026347.yaml](ernie-image-1210026347.yaml) |
+| familia-94299010 | evidence_only | [familia-94299010.md](familia-94299010.md) | [familia-94299010.yaml](familia-94299010.yaml) |
 | github-1009597798 | evidence_only | [github-1009597798.md](github-1009597798.md) | [github-1009597798.yaml](github-1009597798.yaml) |

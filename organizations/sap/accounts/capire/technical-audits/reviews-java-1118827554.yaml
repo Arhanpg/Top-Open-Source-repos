@@ -1,0 +1,125 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:50:13+00:00'
+evidence_fingerprint: f4a4564e66cf2d6cad440d66f1654f1c4836cbe82701ea034e7463448cfa13a1
+repository_metadata:
+  company: SAP
+  account: capire
+  full_name: capire/reviews-java
+  repository_id: 1118827554
+  url: https://github.com/capire/reviews-java
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-09T14:10:29Z'
+  stars: 0
+  readme_url: https://github.com/capire/reviews-java/blob/main/README.md
+  readme_path: README.md
+  readme_sha: d6bb35bd08c1c596b56af345184336225ad01ba6
+  manifest_paths:
+  - package.json
+  - pom.xml
+  - srv/pom.xml
+  source_files_inspected:
+  - app/vue/app.js
+  - srv/src/main/java/customer/reviews/Application.java
+  - app/vue/cap.js
+  - srv/src/main/java/customer/reviews/ReviewsHandler.java
+  repository_tree:
+    status: captured
+    sha: c9f987d9b24da46eeb1d6cb4fd1dda753e9e5d6c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a sample app which provides a generic reuse service for managing reviews, and a corresponding
+    Vue UI. It is used in the bookstore sample.
+  why_used: This is a sample app which provides a generic reuse service for managing reviews, and a corresponding
+    Vue UI. It is used in the bookstore sample.
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - CAP CDS
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - cds-adapter-odata-v4
+    - cds-feature-enterprise-messaging
+    - cds-maven-plugin
+    - cds-services-bom
+    - cds-starter-cloudfoundry
+    - cds-starter-spring-boot
+    - flatten-maven-plugin
+    - h2
+    - maven-compiler-plugin
+    - maven-enforcer-plugin
+    - maven-surefire-plugin
+    - reviews
+    - reviews-parent
+    - spring-boot-dependencies
+    - spring-boot-devtools
+    - spring-boot-maven-plugin
+    - spring-boot-starter-test
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: app/vue/app.js, srv/src/main/java/customer/reviews/Application.java,
+    app/vue/cap.js, srv/src/main/java/customer/reviews/ReviewsHandler.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/capire/reviews-java/blob/main/README.md
+  path: README.md
+  blob_sha: d6bb35bd08c1c596b56af345184336225ad01ba6
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: f9ee8eb114b93f82cbf7d77bf31570e6f9b4442a
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: 868342e96a042752caf8bcac14fe25d5d043eb4e
+  retrieved: true
+- type: manifest
+  path: srv/pom.xml
+  blob_sha: 7f8dcaaee2c4039d0503044214593fd21b5b0156
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 4699
+    CAP CDS: 2638
+    HTML: 2613
+- type: Git tree
+  status: captured
+  sha: c9f987d9b24da46eeb1d6cb4fd1dda753e9e5d6c
+  truncated: false
+- type: source_file
+  path: app/vue/app.js
+  blob_sha: aac918014b4cfb6254307a6014350d413d2d0acb
+  retrieved: true
+- type: source_file
+  path: srv/src/main/java/customer/reviews/Application.java
+  blob_sha: 2a3a6e856203f068427af7ddd7905e37aeaf0182
+  retrieved: true
+- type: source_file
+  path: app/vue/cap.js
+  blob_sha: 6187aba4659156a70843d6a65ba2e90c496cee14
+  retrieved: true
+- type: source_file
+  path: srv/src/main/java/customer/reviews/ReviewsHandler.java
+  blob_sha: 12d5b0d8ba5e232a3ff36cf3f81a31a507aa36a5
+  retrieved: true

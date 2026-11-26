@@ -1,10 +1,10 @@
 # Technical audits — kyma-project
 
-Updated: 2026-11-26T07:22:01+00:00
+Updated: 2026-11-26T22:57:04+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 15
 
 ## Repository dossiers
 
@@ -20,5 +20,8 @@ Updated: 2026-11-26T07:22:01+00:00
 | cfapi-817216616 | evidence_only | [cfapi-817216616.md](cfapi-817216616.md) | [cfapi-817216616.yaml](cfapi-817216616.yaml) |
 | cli-157188288 | evidence_only | [cli-157188288.md](cli-157188288.md) | [cli-157188288.yaml](cli-157188288.yaml) |
 | cloud-manager-719623644 | evidence_only | [cloud-manager-719623644.md](cloud-manager-719623644.md) | [cloud-manager-719623644.yaml](cloud-manager-719623644.yaml) |
+| community-139590666 | evidence_only | [community-139590666.md](community-139590666.md) | [community-139590666.yaml](community-139590666.yaml) |
+| community-modules-715972371 | evidence_only | [community-modules-715972371.md](community-modules-715972371.md) | [community-modules-715972371.yaml](community-modules-715972371.yaml) |
+| compass-manager-617496276 | evidence_only | [compass-manager-617496276.md](compass-manager-617496276.md) | [compass-manager-617496276.yaml](compass-manager-617496276.yaml) |
 | cx1clientgo-884763351 | evidence_only | [cx1clientgo-884763351.md](cx1clientgo-884763351.md) | [cx1clientgo-884763351.yaml](cx1clientgo-884763351.yaml) |
 | github-678089458 | evidence_only | [github-678089458.md](github-678089458.md) | [github-678089458.yaml](github-678089458.yaml) |

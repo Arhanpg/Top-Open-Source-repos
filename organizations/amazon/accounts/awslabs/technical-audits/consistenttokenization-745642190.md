@@ -6,7 +6,7 @@
 - Default branch: main
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-25T23:01:45+00:00
+- Generated: 2026-11-26T22:33:08+00:00
 
 ## Project purpose
 
@@ -22,7 +22,7 @@ No separately supported feature list extracted.
 
 ## Technology stack
 
-- Languages: Unknown / not established
+- Languages: Jupyter Notebook, Python, Shell
 - Frameworks/libraries: Unknown / not established
 - Dependency names: Unknown / not established
 - Build/package tools: Unknown / not established
@@ -50,7 +50,7 @@ No setup information established.
 - Manifests: none
 - Sampled source files: confidence_stat.py, exp_scripts/compute_conf.sh, exp_scripts/eval_model_in_bulk.sh, exp_scripts/eval_single_model.sh
 - Git tree state: captured
-- Evidence fingerprint: 1e8a0343c373e983b9667baff443b3c43b1c31282fb3fb84bf67898b769c973a
+- Evidence fingerprint: e6b87186cf6d430943fabb1dc6527aebdf3440ecf82b5ef827c95be67ada0be7
 
 ## Unverified / unknown
 

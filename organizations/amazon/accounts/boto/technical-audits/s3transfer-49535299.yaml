@@ -1,0 +1,101 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:40:29+00:00'
+evidence_fingerprint: 0438c5a3895085589bc2f76b8ac97c469b18f5af18e689c67dcb867f42e5f9f8
+repository_metadata:
+  company: Amazon
+  account: boto
+  full_name: boto/s3transfer
+  repository_id: 49535299
+  url: https://github.com/boto/s3transfer
+  description: Amazon S3 Transfer Manager for Python
+  default_branch: develop
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-05T22:43:47Z'
+  stars: 240
+  readme_url: https://github.com/boto/s3transfer/blob/develop/README.rst
+  readme_path: README.rst
+  readme_sha: c0cc26043e6f9376d9b350c36db1370ccf786fc9
+  manifest_paths:
+  - pyproject.toml
+  - requirements.txt
+  - setup.py
+  source_files_inspected:
+  - s3transfer/__init__.py
+  - s3transfer/bandwidth.py
+  - s3transfer/compat.py
+  - s3transfer/constants.py
+  repository_tree:
+    status: captured
+    sha: ed8fd2a4be5e43801c17805c8944cedca2317cf5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ===================================================== s3transfer - An Amazon S3 Transfer Manager for
+    Python =====================================================
+  why_used: Amazon S3 Transfer Manager for Python
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: s3transfer/__init__.py,
+    s3transfer/bandwidth.py, s3transfer/compat.py, s3transfer/constants.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/boto/s3transfer/blob/develop/README.rst
+  path: README.rst
+  blob_sha: c0cc26043e6f9376d9b350c36db1370ccf786fc9
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 1d08964413bb3215e510ca39193278a3211aeac1
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 0b8d131219771e6f80a0523ad0d4f2bacce61d28
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: e3622f9afe1c3555256c1d9ce1f21746a0016b01
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 921988
+- type: Git tree
+  status: captured
+  sha: ed8fd2a4be5e43801c17805c8944cedca2317cf5
+  truncated: false
+- type: source_file
+  path: s3transfer/__init__.py
+  blob_sha: 24fa63ab8442f2a91e6c6eb47c227260c4bc248b
+  retrieved: true
+- type: source_file
+  path: s3transfer/bandwidth.py
+  blob_sha: 9301c8e3b9d1a9c9f7a13137fd23c93f196b4d2a
+  retrieved: true
+- type: source_file
+  path: s3transfer/compat.py
+  blob_sha: 68267ad0e2689c6c88fd2fda3bf397f16f97cc90
+  retrieved: true
+- type: source_file
+  path: s3transfer/constants.py
+  blob_sha: 478253a8dc6cfb98fdbabf2badd85ec2702e72f6
+  retrieved: true

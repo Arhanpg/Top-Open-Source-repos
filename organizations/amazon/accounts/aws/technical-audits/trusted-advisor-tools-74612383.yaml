@@ -1,0 +1,155 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:31:25+00:00'
+evidence_fingerprint: e2a3d796fda1b7586ad3060a5bfe9ef74f8986b025194135ba3142d8a80911e3
+repository_metadata:
+  company: Amazon
+  account: aws
+  full_name: aws/Trusted-Advisor-Tools
+  repository_id: 74612383
+  url: https://github.com/aws/Trusted-Advisor-Tools
+  description: The sample functions provided help to automate AWS Trusted Advisor best practices using Amazon Cloudwatch
+    events and AWS Lambda.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-16T11:09:51Z'
+  stars: 278
+  readme_url: https://github.com/aws/Trusted-Advisor-Tools/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 4a9f7b06c8d379fc476c931c5d43759e057b1440
+  manifest_paths:
+  - AWSQuotaIncreaseSupport/cdk/requirements.txt
+  - TA-WellArchitected/tawa-eisenhower-matrix-app/package.json
+  - S3IncompleteMPUAbort/ta-s3-incomplete-mpu-abort/apply_lifecycle_function/requirements.txt
+  - S3IncompleteMPUAbort/ta-s3-incomplete-mpu-abort/tests/requirements.txt
+  - AWSQuotaIncreaseSupport/cdk/layers/deepagents/requirements.txt
+  - TA-WellArchitected/tawa-optimization-starter/src/tawa/requirements.txt
+  source_files_inspected:
+  - TA-WellArchitected/tawa-optimization-starter/src/tawa/app.py
+  - AWSQuotaIncreaseSupport/cdk/app.py
+  - IAMPasswordPolicy/set_password_policy/app.py
+  - S3BucketVersioning/lambda/app.py
+  repository_tree:
+    status: captured
+    sha: cf71a42899fd6f670b507c55ac3806c9c4399319
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: AWS Trusted Advisor provides real time guidance to help users provision their resources following AWS
+    best practices. You can now create configurable, rule-based events for automated actions based on AWS Trusted
+    Advisor’s library of best-practice checks using Amazon EventBridge. The sample functions provided help to automate
+    Trusted Advisor best practices.
+  why_used: The sample functions provided help to automate AWS Trusted Advisor best practices using Amazon Cloudwatch
+    events and AWS Lambda.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - JavaScript
+    - HCL
+    - Shell
+    - CSS
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cloudscape-design/components'
+    - '@cloudscape-design/global-styles'
+    - '@vitejs/plugin-react'
+    - aws-cdk-lib
+    - boto3
+    - bs4
+    - constructs
+    - deepagents
+    - langchain-aws
+    - lodash-es
+    - pytest
+    - pytest-mock
+    - react
+    - react-dom
+    - react-grid-layout
+    - regex
+    - requests
+    - six
+    - vite
+    build_and_package_tools:
+    - npm-compatible manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: TA-WellArchitected/tawa-optimization-starter/src/tawa/app.py,
+    AWSQuotaIncreaseSupport/cdk/app.py, IAMPasswordPolicy/set_password_policy/app.py, S3BucketVersioning/lambda/app.py'
+  setup_and_usage:
+  - 'Setup and Usage: Setup and usage instructions are present for each tool in its respective directory:'
+  - 'Setup and Usage: Stop Amazon EC2 instances with low utilization'
+  - 'Setup and Usage: Create snapshots for EBS volumes with no recent backup'
+  - 'Setup and Usage: Delete exposed IAM Keys and monitor usage'
+  - 'Setup and Usage: Enable S3 bucket Versioning'
+  - 'Setup and Usage: More information about Trusted Advisor is available here: https://aws.amazon.com/premiumsupport/trustedadvisor/'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws/Trusted-Advisor-Tools/blob/master/README.md
+  path: README.md
+  blob_sha: 4a9f7b06c8d379fc476c931c5d43759e057b1440
+  retrieved: true
+- type: manifest
+  path: AWSQuotaIncreaseSupport/cdk/requirements.txt
+  blob_sha: 2df285cf7ffafeb5fb5cd3bca3ac62c34503f62a
+  retrieved: true
+- type: manifest
+  path: TA-WellArchitected/tawa-eisenhower-matrix-app/package.json
+  blob_sha: e12120d64ac89ac8dd903cd09ac24fffc9b02a61
+  retrieved: true
+- type: manifest
+  path: S3IncompleteMPUAbort/ta-s3-incomplete-mpu-abort/apply_lifecycle_function/requirements.txt
+  blob_sha: 271e7f2c715c9ccc9ab15511db70dde28c2a553b
+  retrieved: true
+- type: manifest
+  path: S3IncompleteMPUAbort/ta-s3-incomplete-mpu-abort/tests/requirements.txt
+  blob_sha: a9dc15caa9cd2da66414fe20a03fe7d51abf615e
+  retrieved: true
+- type: manifest
+  path: AWSQuotaIncreaseSupport/cdk/layers/deepagents/requirements.txt
+  blob_sha: 9f0e4ef6c1f424821659d2fc206f76486eaaa850
+  retrieved: true
+- type: manifest
+  path: TA-WellArchitected/tawa-optimization-starter/src/tawa/requirements.txt
+  blob_sha: 3ed6fec18d0e45f8682a883e0ce38154a3486a3c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 194555
+    JavaScript: 49596
+    HCL: 13039
+    Shell: 11540
+    CSS: 5373
+    HTML: 1440
+- type: Git tree
+  status: captured
+  sha: cf71a42899fd6f670b507c55ac3806c9c4399319
+  truncated: false
+- type: source_file
+  path: TA-WellArchitected/tawa-optimization-starter/src/tawa/app.py
+  blob_sha: 366e1c47a4a589bfc4e1d776dbd18ef294b493f0
+  retrieved: true
+- type: source_file
+  path: AWSQuotaIncreaseSupport/cdk/app.py
+  blob_sha: 8c1c69bbf74787810629e9e077683e5372a2e0b2
+  retrieved: true
+- type: source_file
+  path: IAMPasswordPolicy/set_password_policy/app.py
+  blob_sha: 93608a840970e526fd592078ee796ec08b203d1f
+  retrieved: true
+- type: source_file
+  path: S3BucketVersioning/lambda/app.py
+  blob_sha: d4f1bc0446a91ec72265054a47f6531bf9cb1c62
+  retrieved: true

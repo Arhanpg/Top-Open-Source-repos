@@ -1,0 +1,192 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:54:21+00:00'
+evidence_fingerprint: 233abcef5cce9ae5097e0fb1c1913a5da54e75dbe5beb2b57c944362a9bca368
+repository_metadata:
+  company: Amazon
+  account: awslabs
+  full_name: awslabs/EventWinnower
+  repository_id: 1199870788
+  url: https://github.com/awslabs/EventWinnower
+  description: A lightweight, command-line data-stream processing framework written in Rust
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-07T20:28:11Z'
+  stars: 9
+  readme_url: https://github.com/awslabs/EventWinnower/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 33830e286737aad74e0f8624e288c91e70febd53
+  manifest_paths:
+  - Cargo.toml
+  - macros/Cargo.toml
+  source_files_inspected:
+  - macros/src/lib.rs
+  - src/bin/main.rs
+  - src/lib.rs
+  - src/processors/dynamodb/mod.rs
+  repository_tree:
+    status: captured
+    sha: 8e48d5afeb61e5ba6719b18bcea55dc299a0d2b0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A data-stream processing framework written in Rust that enables complex data transformations through
+    composable processors connected via a bash-like graph-based workflow language. This work includes options to
+    leverage Amazon AWS services and can serve as a reference implementation of Rust integration.
+  why_used: A lightweight, command-line data-stream processing framework written in Rust
+  core_features:
+  - name: '**Processing Graph Architecture**: Build complex DAGs using variables for branching and merging of data
+      streams'
+    description: '**Processing Graph Architecture**: Build complex DAGs using variables for branching and merging
+      of data streams'
+    evidence:
+    - README.md#Features
+  - name: '**Stream Processing**: Low latency, event-at-a-time processing as well as batch-events at a time processing'
+    description: '**Stream Processing**: Low latency, event-at-a-time processing as well as batch-events at a time
+      processing'
+    evidence:
+    - README.md#Features
+  - name: '**Multiple Input Sources**: JSON files, CSV, S3 objects, SQS queues, Kinesis streams, Athena queries'
+    description: '**Multiple Input Sources**: JSON files, CSV, S3 objects, SQS queues, Kinesis streams, Athena queries'
+    evidence:
+    - README.md#Features
+  - name: '**Rich Processing Library**: 50+ built-in processors for filtering, transformation, aggregation, and
+      analysis'
+    description: '**Rich Processing Library**: 50+ built-in processors for filtering, transformation, aggregation,
+      and analysis'
+    evidence:
+    - README.md#Features
+  - name: '**AWS Integration**: Native support for S3, SQS, Kinesis, Firehose, SNS, Bedrock, DynamoDB, and Athena'
+    description: '**AWS Integration**: Native support for S3, SQS, Kinesis, Firehose, SNS, Bedrock, DynamoDB, and
+      Athena'
+    evidence:
+    - README.md#Features
+  - name: '**Concurrent Processing**: Multi-threaded execution with configurable thread pools'
+    description: '**Concurrent Processing**: Multi-threaded execution with configurable thread pools'
+    evidence:
+    - README.md#Features
+  - name: '**Stateful Analytics**: Store intermediate results and create complex data flow patterns'
+    description: '**Stateful Analytics**: Store intermediate results and create complex data flow patterns'
+    evidence:
+    - README.md#Features
+  - name: '**IP Enrichment**: MaxMind GeoIP integration for location and ISP data'
+    description: '**IP Enrichment**: MaxMind GeoIP integration for location and ISP data'
+    evidence:
+    - README.md#Features
+  - name: '**Text Analysis**: N-gram generation, tokenization, fuzzy clustering, and deduplication'
+    description: '**Text Analysis**: N-gram generation, tokenization, fuzzy clustering, and deduplication'
+    evidence:
+    - README.md#Features
+  - name: Cloudwatch aggregate metrics logging
+    description: Cloudwatch aggregate metrics logging
+    evidence:
+    - README.md#Missing Features
+  technology_stack:
+    languages:
+    - Rust
+    frameworks_and_libraries: []
+    dependencies:
+    - aho-corasick
+    - anyhow
+    - async-compression
+    - async-recursion
+    - async-trait
+    - aws-config
+    - aws-sdk-athena
+    - aws-sdk-bedrockruntime
+    - aws-sdk-dynamodb
+    - aws-sdk-firehose
+    - aws-sdk-kinesis
+    - aws-sdk-s3
+    - aws-sdk-sns
+    - aws-sdk-sqs
+    - aws-smithy-async
+    - aws-smithy-runtime-api
+    - chrono
+    - clap
+    - crossbeam-channel
+    - csv
+    - csv-async
+    - ctrlc
+    - data-encoding
+    - eventwinnower-macros
+    - flate2
+    - futures
+    - hex
+    - jmespath
+    - lambda_runtime
+    - lazy_static
+    - logos
+    - lru
+    - mockall
+    - ordered-float
+    - proptest
+    - quote
+    - rand
+    - rand_distr
+    - regex
+    - serde_json
+    - shlex
+    - syn
+    - tempfile
+    - tokio
+    - tokio-stream
+    - urlencoding
+    - zstd
+    build_and_package_tools:
+    - Cargo manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: macros/src/lib.rs,
+    src/bin/main.rs, src/lib.rs, src/processors/dynamodb/mod.rs'
+  setup_and_usage:
+  - 'Installation: Build from source using Cargo:'
+  - 'Installation: cargo build --release'
+  - 'Installation: The binary will be available at target/release/eventwinnower.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/awslabs/EventWinnower/blob/main/README.md
+  path: README.md
+  blob_sha: 33830e286737aad74e0f8624e288c91e70febd53
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: 29bf3385c49c0a062a363fcc149daabee8373d72
+  retrieved: true
+- type: manifest
+  path: macros/Cargo.toml
+  blob_sha: 0bba826b2a94a7427530469d8913a67fb96aea15
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 1033952
+- type: Git tree
+  status: captured
+  sha: 8e48d5afeb61e5ba6719b18bcea55dc299a0d2b0
+  truncated: false
+- type: source_file
+  path: macros/src/lib.rs
+  blob_sha: 0726574d747839f29c54deadf63df2070c702808
+  retrieved: true
+- type: source_file
+  path: src/bin/main.rs
+  blob_sha: 240a1f8f09d00b9d464e4f2213d305ab053ac52e
+  retrieved: true
+- type: source_file
+  path: src/lib.rs
+  blob_sha: 555adde97564bc8ac73136742e109240cee81e57
+  retrieved: true
+- type: source_file
+  path: src/processors/dynamodb/mod.rs
+  blob_sha: a71edc36c705b20438b3cdc7b07a6961a301559e
+  retrieved: true

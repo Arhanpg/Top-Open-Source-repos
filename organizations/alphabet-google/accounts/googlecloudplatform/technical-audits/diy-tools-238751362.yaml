@@ -1,7 +1,7 @@
 schema_version: '1.0'
 audit_status: evidence_only
-generated_at: '2026-11-25T22:59:21+00:00'
-evidence_fingerprint: fcb2692c35f5d0e2e04c610d4595fe9e6545a7b8b9030d999357f2d23826aa89
+generated_at: '2026-11-26T22:30:44+00:00'
+evidence_fingerprint: 38f57bf689c5d8c5b2611489b8f494ea9184f86fcaa823f20754d7d81fe152b0
 repository_metadata:
   company: Alphabet (Google)
   account: GoogleCloudPlatform
@@ -41,7 +41,9 @@ analysis:
     services.
   core_features: []
   technology_stack:
-    languages: []
+    languages:
+    - Go
+    - Dockerfile
     frameworks_and_libraries: []
     dependencies:
     - cloud.google.com/go/bigquery
@@ -78,7 +80,9 @@ evidence_sources:
   blob_sha: 7dc90793da0303d9ffda199f60e4faeccbb66f5f
   retrieved: true
 - type: GitHub Languages API
-  values: {}
+  values:
+    Go: 21173
+    Dockerfile: 1628
 - type: Git tree
   status: captured
   sha: 92d335794ad18561685498264e414c2b678546bc

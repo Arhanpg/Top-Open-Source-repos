@@ -1,10 +1,10 @@
 # Technical audits — sap-cloud-infrastructure
 
-Updated: 2026-11-26T07:22:02+00:00
+Updated: 2026-11-26T22:57:03+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 15
 
 ## Repository dossiers
 
@@ -22,3 +22,6 @@ Updated: 2026-11-26T07:22:02+00:00
 | opensearch-alerting-1266385271 | evidence_only | [opensearch-alerting-1266385271.md](opensearch-alerting-1266385271.md) | [opensearch-alerting-1266385271.yaml](opensearch-alerting-1266385271.yaml) |
 | opensearch-common-utils-1266386264 | evidence_only | [opensearch-common-utils-1266386264.md](opensearch-common-utils-1266386264.md) | [opensearch-common-utils-1266386264.yaml](opensearch-common-utils-1266386264.yaml) |
 | opensearch-fortlogs-1262721884 | evidence_only | [opensearch-fortlogs-1262721884.md](opensearch-fortlogs-1262721884.md) | [opensearch-fortlogs-1262721884.yaml](opensearch-fortlogs-1262721884.yaml) |
+| opensearch-query-exporter-1170760047 | evidence_only | [opensearch-query-exporter-1170760047.md](opensearch-query-exporter-1170760047.md) | [opensearch-query-exporter-1170760047.yaml](opensearch-query-exporter-1170760047.yaml) |
+| opensearch-security-analytics-1266384333 | evidence_only | [opensearch-security-analytics-1266384333.md](opensearch-security-analytics-1266384333.md) | [opensearch-security-analytics-1266384333.yaml](opensearch-security-analytics-1266384333.yaml) |
+| persephone-1348180331 | evidence_only | [persephone-1348180331.md](persephone-1348180331.md) | [persephone-1348180331.yaml](persephone-1348180331.yaml) |

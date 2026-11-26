@@ -1,0 +1,108 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:56:37+00:00'
+evidence_fingerprint: 59f0e8cc1d7ed0b790e9d62401257fbb786580e85ee347c0bd3afbb10d6ff5be
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/crossfit
+  repository_id: 599787661
+  url: https://github.com/rapidsai/crossfit
+  description: Metric calculation library
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2025-07-03T20:03:17Z'
+  stars: 11
+  readme_url: https://github.com/rapidsai/crossfit/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f71087a9c790bb6bdee5ff1aa5659354abfb5728
+  manifest_paths:
+  - pyproject.toml
+  - setup.py
+  - docker/ci/Dockerfile
+  source_files_inspected:
+  - ci/check_file_size.sh
+  - ci/test_gpu.sh
+  - crossfit/__init__.py
+  - crossfit/_version.py
+  repository_tree:
+    status: captured
+    sha: b080d15015a17a76ceddfa9968aa0187fe6dcac3
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Multi Node Multi GPU Offline Inference and metric calculation library
+  why_used: Metric calculation library
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: ci/check_file_size.sh,
+    ci/test_gpu.sh, crossfit/__init__.py, crossfit/_version.py'
+  setup_and_usage:
+  - 'Installation: Install this library using pip:'
+  - 'Installation from source (for cuda 12.x): git clone https://github.com/rapidsai/crossfit.git'
+  - 'Installation from source (for cuda 12.x): pip install --extra-index-url https://pypi.nvidia.com ".[cuda12x]"'
+  - 'Usage: Usage instructions go here.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/crossfit/blob/main/README.md
+  path: README.md
+  blob_sha: f71087a9c790bb6bdee5ff1aa5659354abfb5728
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 89709d963240da3605defd910b4f2bce16a5807e
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 020fbba4c65ccb072bd69c49f83936799b8176f3
+  retrieved: true
+- type: manifest
+  path: docker/ci/Dockerfile
+  blob_sha: dee46502d0a524cdd001a66d22221b57ff8f835e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 464876
+    Shell: 3091
+    Dockerfile: 1233
+- type: Git tree
+  status: captured
+  sha: b080d15015a17a76ceddfa9968aa0187fe6dcac3
+  truncated: false
+- type: source_file
+  path: ci/check_file_size.sh
+  blob_sha: 60992e507cb4a74e4091eddcda4490ab7d81da3a
+  retrieved: true
+- type: source_file
+  path: ci/test_gpu.sh
+  blob_sha: 652311068769740c58e7a5a9b644214b8b4cead6
+  retrieved: true
+- type: source_file
+  path: crossfit/__init__.py
+  blob_sha: 5e563f083ed6a61be21202e3947fac7254e5d481
+  retrieved: true
+- type: source_file
+  path: crossfit/_version.py
+  blob_sha: 68febcf487a96023df52c940aa5b922e7dc3b8ef
+  retrieved: true

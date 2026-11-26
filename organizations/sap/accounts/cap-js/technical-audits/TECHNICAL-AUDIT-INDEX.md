@@ -1,10 +1,10 @@
 # Technical audits — cap-js
 
-Updated: 2026-11-26T07:22:02+00:00
+Updated: 2026-11-26T22:57:04+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 - manual_reviewed: 1
 
 ## Repository dossiers
@@ -23,4 +23,8 @@ Updated: 2026-11-26T07:22:02+00:00
 | cds-intellij-768115323 | evidence_only | [cds-intellij-768115323.md](cds-intellij-768115323.md) | [cds-intellij-768115323.yaml](cds-intellij-768115323.yaml) |
 | cds-test-935283881 | evidence_only | [cds-test-935283881.md](cds-test-935283881.md) | [cds-test-935283881.yaml](cds-test-935283881.yaml) |
 | cds-ts-extension-1425160817 | evidence_only | [cds-ts-extension-1425160817.md](cds-ts-extension-1425160817.md) | [cds-ts-extension-1425160817.yaml](cds-ts-extension-1425160817.yaml) |
+| cds-typer-538476855 | evidence_only | [cds-typer-538476855.md](cds-typer-538476855.md) | [cds-typer-538476855.yaml](cds-typer-538476855.yaml) |
+| cds-types-691588259 | evidence_only | [cds-types-691588259.md](cds-types-691588259.md) | [cds-types-691588259.yaml](cds-types-691588259.yaml) |
+| cf-setup-1031895632 | evidence_only | [cf-setup-1031895632.md](cf-setup-1031895632.md) | [cf-setup-1031895632.yaml](cf-setup-1031895632.yaml) |
+| change-tracking-608399564 | evidence_only | [change-tracking-608399564.md](change-tracking-608399564.md) | [change-tracking-608399564.yaml](change-tracking-608399564.yaml) |
 | github-565835524 | evidence_only | [github-565835524.md](github-565835524.md) | [github-565835524.yaml](github-565835524.yaml) |

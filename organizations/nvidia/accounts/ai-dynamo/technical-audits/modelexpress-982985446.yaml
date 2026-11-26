@@ -1,0 +1,252 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:42:29+00:00'
+evidence_fingerprint: 711122db90cdf796ebf385d8a401bd1ac3d9c85890bdccfc5dbcd7302dd05497
+repository_metadata:
+  company: NVIDIA
+  account: ai-dynamo
+  full_name: ai-dynamo/modelexpress
+  repository_id: 982985446
+  url: https://github.com/ai-dynamo/modelexpress
+  description: Model Express is a Rust-based component meant to be placed next to existing model inference systems
+    to speed up their startup times and improve overall performance.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T18:10:26Z'
+  stars: 205
+  readme_url: https://github.com/ai-dynamo/modelexpress/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ed58461846eec02042c607e53eaee95fb4e3a203
+  manifest_paths:
+  - Cargo.toml
+  - .devcontainer/Dockerfile
+  - ci/pyproject.toml
+  - docker/Dockerfile
+  - modelexpress_client/Cargo.toml
+  - modelexpress_common/Cargo.toml
+  source_files_inspected:
+  - modelexpress_client/src/lib.rs
+  - modelexpress_common/src/lib.rs
+  - modelexpress_server/src/lib.rs
+  - modelexpress_server/src/main.rs
+  repository_tree:
+    status: captured
+    sha: 032ae309a9a5c7cea1d6e7f0e0a3bb6f477fb835
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'SPDX-FileCopyrightText: Copyright (c) 2025-2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    SPDX-License-Identifier: Apache-2.0 -->'
+  why_used: Model Express is a Rust-based component meant to be placed next to existing model inference systems
+    to speed up their startup times and improve overall performance.
+  core_features:
+  - name: '**Cold start reduction** — GPU-to-GPU P2P transfer over InfiniBand instead of disk load'
+    description: '**Cold start reduction** — GPU-to-GPU P2P transfer over InfiniBand instead of disk load'
+    evidence:
+    - README.md#Features
+  - name: '**Capability-driven loading** — Fixed priority chain: P2P RDMA → server cache → InstantTensor → ModelStreamer
+      → GDS → native loader, with safe fallback'
+    description: '**Capability-driven loading** — Fixed priority chain: P2P RDMA → server cache → InstantTensor
+      → ModelStreamer → GDS → native loader, with safe fallback'
+    evidence:
+    - README.md#Features
+  - name: '**HuggingFace caching** — PVC-backed cache, HF_HUB_OFFLINE, ignore_weights, get_model_path for Dynamo'
+    description: '**HuggingFace caching** — PVC-backed cache, HF_HUB_OFFLINE, ignore_weights, get_model_path for
+      Dynamo'
+    evidence:
+    - README.md#Features
+  - name: '**P2P GPU transfer** — vLLM modelexpress loader, SGLang remote_instance loader with the modelexpress
+      backend, and TRT-LLM checkpoint_format="MX" with NVIDIA NIX'
+    description: '**P2P GPU transfer** — vLLM modelexpress loader, SGLang remote_instance loader with the modelexpress
+      backend, and TRT-LLM checkpoint_format="MX" with NVIDIA NIXL over InfiniBand, RoCE, NVLink, EFA, and other
+      supported fabrics'
+    evidence:
+    - README.md#Features
+  - name: '**JIT cache transfer** — Reuse compatible vLLM and SGLang NIXL compilation caches when replicas scale
+      out'
+    description: '**JIT cache transfer** — Reuse compatible vLLM and SGLang NIXL compilation caches when replicas
+      scale out'
+    evidence:
+    - README.md#Features
+  - name: '**Metadata backends** — Redis, Kubernetes CRD, or decentralized Kubernetes Service routing'
+    description: '**Metadata backends** — Redis, Kubernetes CRD, or decentralized Kubernetes Service routing'
+    evidence:
+    - README.md#Features
+  - name: '**Kubernetes** — Helm chart, CRDs/Redis for P2P, no-shared-storage support'
+    description: '**Kubernetes** — Helm chart, CRDs/Redis for P2P, no-shared-storage support'
+    evidence:
+    - README.md#Features
+  - name: '**CLI** — Health, download, list, validate, clear; init-container support for pre-warming'
+    description: '**CLI** — Health, download, list, validate, clear; init-container support for pre-warming'
+    evidence:
+    - README.md#Features
+  - name: '**ModelStreamer integration** — Pipeline concurrent reads from S3, Azure Blob, GCS, or local storage
+      into vLLM and SGLang'
+    description: '**ModelStreamer integration** — Pipeline concurrent reads from S3, Azure Blob, GCS, or local storage
+      into vLLM and SGLang'
+    evidence:
+    - README.md#Features
+  - name: '**Expanded model pull providers**: NGC catalog and Google Cloud Storage in addition to Hugging Face'
+    description: '**Expanded model pull providers**: NGC catalog and Google Cloud Storage in addition to Hugging
+      Face'
+    evidence:
+    - README.md#Features
+  - name: '**GDS (GPUDirect Storage)**: load model weights directly from NVMe into GPU memory, bypassing the CPU/DRAM
+      copy path'
+    description: '**GDS (GPUDirect Storage)**: load model weights directly from NVMe into GPU memory, bypassing
+      the CPU/DRAM copy path'
+    evidence:
+    - README.md#Features
+  - name: '**Lower NIXL registration overhead** — Opt in to allocation-level pool registration or a single VMM arena
+      registration'
+    description: '**Lower NIXL registration overhead** — Opt in to allocation-level pool registration or a single
+      VMM arena registration'
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - Python
+    - Rust
+    - Shell
+    - Lua
+    - C++
+    - Dockerfile
+    - Go Template
+    frameworks_and_libraries: []
+    dependencies:
+    - aiperf
+    - anyhow
+    - async-trait
+    - chrono
+    - clap
+    - colored
+    - config
+    - crc32c
+    - fd-lock
+    - futures
+    - google-cloud-auth
+    - google-cloud-gax
+    - google-cloud-storage
+    - grpcio
+    - grpcio-tools
+    - hf-hub
+    - jiff
+    - modelexpress-common
+    - object-store-reqwest
+    - object_store
+    - openssl
+    - prost
+    - pytest
+    - reqwest
+    - rustls
+    - serde
+    - serde_json
+    - serde_yaml
+    - sha2
+    - tempfile
+    - thiserror
+    - tokio
+    - tonic
+    - tonic-build
+    - tracing
+    - tracing-subscriber
+    - uuid
+    - wiremock
+    build_and_package_tools:
+    - Cargo manifest
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: modelexpress_client/src/lib.rs,
+    modelexpress_common/src/lib.rs, modelexpress_server/src/lib.rs, modelexpress_server/src/main.rs'
+  setup_and_usage:
+  - 'Quick Start: This Quick Start sets up the P2P path, which is what the benchmarks above measure, so it needs
+    the full NIXL and metadata-backend prerequisites listed below. For a local single-machine setup instead, docker
+    compose -f docker/docker-compose.yml up --build brings up the server with a Redis backend and no NIXL, and the
+    modelexpress-cli commands in CLI'
+  - 'Quick Start: **Requirements:** vLLM 0.23.0+, the ModelExpress Python package, NIXL-compatible GPU nodes, and
+    a reachable metadata backend.'
+  - 'Quick Start: git clone https://github.com/ai-dynamo/modelexpress.git'
+  - 'Quick Start: python -m pip install ./modelexpress_client/python'
+  - 'Quick Start: export MX_SERVER_ADDRESS=modelexpress-server:8001'
+  - 'Quick Start: export MX_P2P_METADATA=1'
+  - 'Quick Start: export MX_ARTIFACT_TRANSFER=1'
+  - 'Quick Start: export MX_ARTIFACT_BACKEND=nixl'
+  limitations:
+  - 'Known Issues: - **GDS loader does not scale with TP** — Each TP rank reads full checkpoint tensors and vLLM
+    shards them afterward, so GDS/disk reads scale with TP degree. This can reduce or reverse expected GDS speedups
+    versus the default mmap-based disk loader; TP-aware range reads are needed for a full fix. See GDS Reads Full
+    Checkpoint Tensors Under TP.'
+  - 'Known Issues: - **P2P source wedges after a reader is torn down (UCX/InfiniBand)** — Once a reader that pulled
+    from a source is removed, the source can stop serving new readers: their RDMA reads stall to the transfer timeout
+    and fall back to disk, while the source keeps advertising Ready and serving inference normally. Loading stays
+    correct, but P2P is effective'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ai-dynamo/modelexpress/blob/main/README.md
+  path: README.md
+  blob_sha: ed58461846eec02042c607e53eaee95fb4e3a203
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: 29f05d2f461f9610170f75ecf670e9722613c515
+  retrieved: true
+- type: manifest
+  path: .devcontainer/Dockerfile
+  blob_sha: 94ff5cbb05d3b43691e1196b485cd879e43abdb0
+  retrieved: true
+- type: manifest
+  path: ci/pyproject.toml
+  blob_sha: 24a56ff668b978889f4bff50879d6ff00c1f574d
+  retrieved: true
+- type: manifest
+  path: docker/Dockerfile
+  blob_sha: 1b9010224f3e636b40925cfb5b475b2f3a5e8a0f
+  retrieved: true
+- type: manifest
+  path: modelexpress_client/Cargo.toml
+  blob_sha: 691937f6b0b5c101a6c76ed30dc3b996e38f5ac3
+  retrieved: true
+- type: manifest
+  path: modelexpress_common/Cargo.toml
+  blob_sha: d87e5f0c661d52db6c445ff2625f27b9b92cab73
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 5583258
+    Rust: 1923033
+    Shell: 54994
+    Lua: 39137
+    C++: 20409
+    Dockerfile: 9033
+    Go Template: 4297
+- type: Git tree
+  status: captured
+  sha: 032ae309a9a5c7cea1d6e7f0e0a3bb6f477fb835
+  truncated: false
+- type: source_file
+  path: modelexpress_client/src/lib.rs
+  blob_sha: 743c4e12fa03fe58f43ba33fb59b5863dbf1eb3a
+  retrieved: true
+- type: source_file
+  path: modelexpress_common/src/lib.rs
+  blob_sha: b5a528dbcb5e1dbe85f3cdcb45ad63f2b31b6c34
+  retrieved: true
+- type: source_file
+  path: modelexpress_server/src/lib.rs
+  blob_sha: 2c8bcad2b47e14a30fbba689d090bcfc99a919e4
+  retrieved: true
+- type: source_file
+  path: modelexpress_server/src/main.rs
+  blob_sha: c809b3f2a9931088701e8fe4579c8d403c423e7a
+  retrieved: true

@@ -1,0 +1,99 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:52:29+00:00'
+evidence_fingerprint: 16e5b4f5e0f012c515fdd6038d5ee9a629337ceb5f422caa59409353dd307f9a
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/Buggy-Aware-CodeLM
+  repository_id: 853481244
+  url: https://github.com/amazon-science/Buggy-Aware-CodeLM
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-09-09T19:44:58Z'
+  stars: 1
+  readme_url: https://github.com/amazon-science/Buggy-Aware-CodeLM/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f7287e345ada45211c9cc337bb6e3fbc9d905cda
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - generator/generate.py
+  - generator/transformation_classes.py
+  - generator/truncate.py
+  - inference/inference.py
+  repository_tree:
+    status: captured
+    sha: 75d7ddca79da158ee8dd0ce129e5a4dcab52cb37
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is the experiment code for our ACL 2024 (Findings) paper "Fine-tuning Language Models for Joint
+    Rewriting and Completion of Code with Potential Bugs".
+  why_used: This is the experiment code for our ACL 2024 (Findings) paper "Fine-tuning Language Models for Joint
+    Rewriting and Completion of Code with Potential Bugs".
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - datasets
+    - deepspeed
+    - fire
+    - mpi4py
+    - transformers
+    - wandb
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: generator/generate.py,
+    generator/transformation_classes.py, generator/truncate.py, inference/inference.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/Buggy-Aware-CodeLM/blob/main/README.md
+  path: README.md
+  blob_sha: f7287e345ada45211c9cc337bb6e3fbc9d905cda
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: df13ee82f060b413728ba24a28a9d7925e49b48c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 50238
+    Shell: 2970
+- type: Git tree
+  status: captured
+  sha: 75d7ddca79da158ee8dd0ce129e5a4dcab52cb37
+  truncated: false
+- type: source_file
+  path: generator/generate.py
+  blob_sha: 569e8b90cd60b5c8860aaf3aff02965a25e12b2d
+  retrieved: true
+- type: source_file
+  path: generator/transformation_classes.py
+  blob_sha: a6d35120db9dc627c1aaa59c65bfddfbc27b35f0
+  retrieved: true
+- type: source_file
+  path: generator/truncate.py
+  blob_sha: e319e399b3f367296adf33a51122dd04e78b208b
+  retrieved: true
+- type: source_file
+  path: inference/inference.py
+  blob_sha: b7d4c6434fb6180078cb543f5622bfea53aa8cb4
+  retrieved: true

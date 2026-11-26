@@ -1,0 +1,135 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:41:49+00:00'
+evidence_fingerprint: 600b9be79857a2fd94178a60e1c7fbb49bacd94c264da9492d0385eff2967d41
+repository_metadata:
+  company: Baidu
+  account: xuperchain
+  full_name: xuperchain/log15
+  repository_id: 188234245
+  url: https://github.com/xuperchain/log15
+  description: This repository is a fork of log15.
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2019-06-20T08:15:07Z'
+  stars: 3
+  readme_url: https://github.com/xuperchain/log15/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 06d0615488e76216fe488dbf734d36daef3577bd
+  manifest_paths: []
+  source_files_inspected:
+  - doc.go
+  - format.go
+  - handler.go
+  - handler_go13.go
+  repository_tree:
+    status: captured
+    sha: 7c38b492af5b8dc4fd3b6d21125785ecab2ce473
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This depository is a fork of log15. Add time-based log rotation and some other improvements.
+  why_used: This repository is a fork of log15.
+  core_features:
+  - name: A simple, easy-to-understand API
+    description: A simple, easy-to-understand API
+    evidence:
+    - README.md#Features
+  - name: Promotes structured logging by encouraging use of key/value pairs
+    description: Promotes structured logging by encouraging use of key/value pairs
+    evidence:
+    - README.md#Features
+  - name: Child loggers which inherit and add their own private context
+    description: Child loggers which inherit and add their own private context
+    evidence:
+    - README.md#Features
+  - name: Lazy evaluation of expensive operations
+    description: Lazy evaluation of expensive operations
+    evidence:
+    - README.md#Features
+  - name: Simple Handler interface allowing for construction of flexible, custom logging configurations with a tiny
+      API.
+    description: Simple Handler interface allowing for construction of flexible, custom logging configurations with
+      a tiny API.
+    evidence:
+    - README.md#Features
+  - name: Color terminal support
+    description: Color terminal support
+    evidence:
+    - README.md#Features
+  - name: Built-in support for logging to files, streams, syslog, and the network
+    description: Built-in support for logging to files, streams, syslog, and the network
+    evidence:
+    - README.md#Features
+  - name: Support for forking records to multiple handlers, buffering records for output, failing over from failed
+      handler writes, + more
+    description: Support for forking records to multiple handlers, buffering records for output, failing over from
+      failed handler writes, + more
+    evidence:
+    - README.md#Features
+  - name: '**Time based log rotation**. Support log rotation interval in minutes, and keep specifed numbers of old
+      log files.'
+    description: '**Time based log rotation**. Support log rotation interval in minutes, and keep specifed numbers
+      of old log files.'
+    evidence:
+    - README.md#Features
+  - name: '**Add a BoundLvlFilterHandler**, which accepts two log verbosal level as a boundary. Only write the log
+      between minLvl and maxLvl.'
+    description: '**Add a BoundLvlFilterHandler**, which accepts two log verbosal level as a boundary. Only write
+      the log between minLvl and maxLvl.'
+    evidence:
+    - README.md#Features
+  - name: '**Add a new Trace log level**,which is between Info and Debug.'
+    description: '**Add a new Trace log level**,which is between Info and Debug.'
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - Go
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: doc.go, format.go,
+    handler.go, handler_go13.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/xuperchain/log15/blob/master/README.md
+  path: README.md
+  blob_sha: 06d0615488e76216fe488dbf734d36daef3577bd
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 43905
+- type: Git tree
+  status: captured
+  sha: 7c38b492af5b8dc4fd3b6d21125785ecab2ce473
+  truncated: false
+- type: source_file
+  path: doc.go
+  blob_sha: dd427f7c91511cdd537fb20ecc16418afc1189bf
+  retrieved: true
+- type: source_file
+  path: format.go
+  blob_sha: a6e72bd5b9ee395346e44d627b09b63a29fd9269
+  retrieved: true
+- type: source_file
+  path: handler.go
+  blob_sha: ee27af3e51be1f01285be7e2291162bd90faa71a
+  retrieved: true
+- type: source_file
+  path: handler_go13.go
+  blob_sha: 0843ed0e5f388b60c82b15fb53a00f9aac069d8a
+  retrieved: true

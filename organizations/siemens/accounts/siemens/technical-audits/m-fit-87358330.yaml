@@ -1,0 +1,102 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:51:33+00:00'
+evidence_fingerprint: 2d56389b3f3778bc2b21221629cbc420ee9aa4fc3d234ce40af3e162ac4cb50b
+repository_metadata:
+  company: Siemens
+  account: Siemens
+  full_name: siemens/M-Fit
+  repository_id: 87358330
+  url: https://github.com/siemens/M-Fit
+  description: the M-Fit suite, a set of programs for testing and validating traffic controllers against the various
+    ITE/AASHTO/NEMA ATC and Caltrans TEES 2009 standards
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2017-04-18T17:31:46Z'
+  stars: 1
+  readme_url: https://github.com/siemens/M-Fit/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 9a36e6207b2f844f7de5ca75f03bdfcc7e0be7e8
+  manifest_paths:
+  - Makefile
+  source_files_inspected:
+  - src/datakeyFit.c
+  - src/displayFit.c
+  - src/displayLib.c
+  - src/displayLib.h
+  repository_tree:
+    status: captured
+    sha: 54e632db39e236de94c23a771514ad58f4152299
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: the M-Fit suite, a set of programs for testing and validating traffic controllers against the various
+    ITE/AASHTO/NEMA ATC and Caltrans TEES 2009 standards The M-Fit suite is a set of tests originally designed for
+    evaluating Siemens ATC 5.2b and ATC 6.xcompliant engine boards. It may also be of use on other manufacturers’
+    engine boards.The suite is designed to be used in three different ways. First, it is a tool to permit bench
+    testing andlong term environmental testing of controllers during the manufacturing process. To support this,
+    theM-Fit suite is easily scriptable with a consistent set of control options for iteration count, verbosity,
+    andlogging. In this way, groups of tests can be run in sequence or simultaneously, and the series of testsrepeated
+    as needed or indefinitely. Second, it is a tool for configuration and diagnostic testing of controllers that
+    have failed manufacturingte
+  why_used: the M-Fit suite, a set of programs for testing and validating traffic controllers against the various
+    ITE/AASHTO/NEMA ATC and Caltrans TEES 2009 standards
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - Makefile
+    - C++
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/datakeyFit.c,
+    src/displayFit.c, src/displayLib.c, src/displayLib.h'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/siemens/M-Fit/blob/master/README.md
+  path: README.md
+  blob_sha: 9a36e6207b2f844f7de5ca75f03bdfcc7e0be7e8
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 183ca1a522fd47d7904b4eb5285e41a58a5730dc
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 360850
+    Makefile: 9129
+    C++: 1758
+- type: Git tree
+  status: captured
+  sha: 54e632db39e236de94c23a771514ad58f4152299
+  truncated: false
+- type: source_file
+  path: src/datakeyFit.c
+  blob_sha: 2b6c72731262c76bb2d0f4d35cb61b972a390d42
+  retrieved: true
+- type: source_file
+  path: src/displayFit.c
+  blob_sha: 8ae2662be0eecdf213f0f33ea528fce865563738
+  retrieved: true
+- type: source_file
+  path: src/displayLib.c
+  blob_sha: 5a2749878f8258bd5e2b3f20d4d72438067bc2ec
+  retrieved: true
+- type: source_file
+  path: src/displayLib.h
+  blob_sha: e4d8b2f261534160093195bf1321d1516288b936
+  retrieved: true

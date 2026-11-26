@@ -1,10 +1,10 @@
 # Technical audits — nvidia-isaac-ros
 
-Updated: 2026-11-26T07:22:01+00:00
+Updated: 2026-11-26T22:57:02+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 
 ## Repository dossiers
 
@@ -16,8 +16,12 @@ Updated: 2026-11-26T07:22:01+00:00
 | flexiv-ros2-1154707661 | evidence_only | [flexiv-ros2-1154707661.md](flexiv-ros2-1154707661.md) | [flexiv-ros2-1154707661.yaml](flexiv-ros2-1154707661.yaml) |
 | github-506822724 | evidence_only | [github-506822724.md](github-506822724.md) | [github-506822724.yaml](github-506822724.yaml) |
 | greenwave-monitor-1062847444 | evidence_only | [greenwave-monitor-1062847444.md](greenwave-monitor-1062847444.md) | [greenwave-monitor-1062847444.yaml](greenwave-monitor-1062847444.yaml) |
+| gxf-706985693 | evidence_only | [gxf-706985693.md](gxf-706985693.md) | [gxf-706985693.yaml](gxf-706985693.yaml) |
 | hesailidar-ros-2-0-748856718 | evidence_only | [hesailidar-ros-2-0-748856718.md](hesailidar-ros-2-0-748856718.md) | [hesailidar-ros-2-0-748856718.yaml](hesailidar-ros-2-0-748856718.yaml) |
 | hesailidar-sdk-2-0-748855982 | evidence_only | [hesailidar-sdk-2-0-748855982.md](hesailidar-sdk-2-0-748855982.md) | [hesailidar-sdk-2-0-748855982.yaml](hesailidar-sdk-2-0-748855982.yaml) |
+| isaac-perceptor-808387794 | evidence_only | [isaac-perceptor-808387794.md](isaac-perceptor-808387794.md) | [isaac-perceptor-808387794.yaml](isaac-perceptor-808387794.yaml) |
+| isaac-ros-apriltag-418684392 | evidence_only | [isaac-ros-apriltag-418684392.md](isaac-ros-apriltag-418684392.md) | [isaac-ros-apriltag-418684392.yaml](isaac-ros-apriltag-418684392.yaml) |
+| isaac-ros-cli-1090935175 | evidence_only | [isaac-ros-cli-1090935175.md](isaac-ros-cli-1090935175.md) | [isaac-ros-cli-1090935175.yaml](isaac-ros-cli-1090935175.yaml) |
 | nvidia-isaac-ros-github-io-699560470 | evidence_only | [nvidia-isaac-ros-github-io-699560470.md](nvidia-isaac-ros-github-io-699560470.md) | [nvidia-isaac-ros-github-io-699560470.yaml](nvidia-isaac-ros-github-io-699560470.yaml) |
 | rmp220-sdk-781570117 | evidence_only | [rmp220-sdk-781570117.md](rmp220-sdk-781570117.md) | [rmp220-sdk-781570117.yaml](rmp220-sdk-781570117.yaml) |
 | universal-robots-client-library-986625231 | evidence_only | [universal-robots-client-library-986625231.md](universal-robots-client-library-986625231.md) | [universal-robots-client-library-986625231.yaml](universal-robots-client-library-986625231.yaml) |

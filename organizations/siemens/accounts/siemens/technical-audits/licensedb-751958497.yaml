@@ -1,0 +1,158 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:37:33+00:00'
+evidence_fingerprint: 64fd9d1c57009bf575315498d6561abf30c2bef98cfce2072e127fed0b72eeec
+repository_metadata:
+  company: Siemens
+  account: Siemens
+  full_name: siemens/LicenseDb
+  repository_id: 751958497
+  url: https://github.com/siemens/LicenseDb
+  description: null
+  default_branch: main
+  license_spdx: GPL-2.0
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2026-10-07T08:53:33Z'
+  stars: 0
+  readme_url: https://github.com/siemens/LicenseDb/blob/main/README.md
+  readme_path: README.md
+  readme_sha: d2cf99dbb8df4af0d3bf4c5493eec1cbbb92d662
+  manifest_paths:
+  - Dockerfile
+  - go.mod
+  source_files_inspected:
+  - cmd/laas/main.go
+  - cmd/laas/gen.go
+  - cmd/laas/gen_external_ref_schema.go
+  - pkg/api/api.go
+  repository_tree:
+    status: captured
+    sha: b287708226cd671a985b1ba7864a7629ff84a863
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'SPDX-License-Identifier: GPL-2.0-only -->'
+  why_used: 'SPDX-License-Identifier: GPL-2.0-only -->'
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Dockerfile
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/KyleBanks/depth
+    - github.com/PuerkitoBio/purell
+    - github.com/PuerkitoBio/urlesc
+    - github.com/bytedance/sonic
+    - github.com/chenzhuoyu/base64x
+    - github.com/dave/jennifer
+    - github.com/davecgh/go-spew
+    - github.com/gabriel-vasile/mimetype
+    - github.com/gin-contrib/sse
+    - github.com/gin-gonic/gin
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/spec
+    - github.com/go-openapi/swag
+    - github.com/go-playground/locales
+    - github.com/go-playground/universal-translator
+    - github.com/go-playground/validator/v10
+    - github.com/go-sql-driver/mysql
+    - github.com/goccy/go-json
+    - github.com/golang-jwt/jwt/v4
+    - github.com/jackc/pgpassfile
+    - github.com/jackc/pgservicefile
+    - github.com/jackc/pgx/v5
+    - github.com/jackc/puddle/v2
+    - github.com/jinzhu/inflection
+    - github.com/jinzhu/now
+    - github.com/joho/godotenv
+    - github.com/josharian/intern
+    - github.com/json-iterator/go
+    - github.com/klauspost/cpuid/v2
+    - github.com/leodido/go-urn
+    - github.com/mailru/easyjson
+    - github.com/mattn/go-isatty
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/pelletier/go-toml/v2
+    - github.com/pmezard/go-difflib
+    - github.com/rogpeppe/go-internal
+    - github.com/stretchr/testify
+    - github.com/swaggo/files
+    - github.com/swaggo/gin-swagger
+    - github.com/swaggo/swag
+    - github.com/twitchyliquid64/golang-asm
+    - github.com/ugorji/go/codec
+    - golang.org/x/arch
+    - golang.org/x/crypto
+    - golang.org/x/exp
+    - golang.org/x/net
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/text
+    - golang.org/x/tools
+    - google.golang.org/protobuf
+    - gopkg.in/yaml.v2
+    - gopkg.in/yaml.v3
+    - gorm.io/datatypes
+    - gorm.io/driver/mysql
+    - gorm.io/driver/postgres
+    - gorm.io/gorm
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/laas/main.go,
+    cmd/laas/gen.go, cmd/laas/gen_external_ref_schema.go, pkg/api/api.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/siemens/LicenseDb/blob/main/README.md
+  path: README.md
+  blob_sha: d2cf99dbb8df4af0d3bf4c5493eec1cbbb92d662
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: d7675baf0b9a333221b4158327b0013781b7dd6c
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: d8fd82610bedc0866327296ed0218a627bd2c535
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 259125
+    Dockerfile: 1038
+    Shell: 647
+- type: Git tree
+  status: captured
+  sha: b287708226cd671a985b1ba7864a7629ff84a863
+  truncated: false
+- type: source_file
+  path: cmd/laas/main.go
+  blob_sha: 6382f4c29e484c1f75ae2e92778f728a99645e90
+  retrieved: true
+- type: source_file
+  path: cmd/laas/gen.go
+  blob_sha: 25362bea87ba1a856833f81c0c2da83d45d9eeda
+  retrieved: true
+- type: source_file
+  path: cmd/laas/gen_external_ref_schema.go
+  blob_sha: d6c62ed819aeaac7ee077c9dac5512120b2fc471
+  retrieved: true
+- type: source_file
+  path: pkg/api/api.go
+  blob_sha: 3e25dbc8e134d249b73c8ac6346646467f682b76
+  retrieved: true

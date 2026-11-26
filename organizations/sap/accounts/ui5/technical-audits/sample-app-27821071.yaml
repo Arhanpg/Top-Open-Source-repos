@@ -1,0 +1,102 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:44:13+00:00'
+evidence_fingerprint: 3fbef5d96123c4656daf262605a7640ed367da2d535df494d3679987f06e4490
+repository_metadata:
+  company: SAP
+  account: UI5
+  full_name: UI5/sample-app
+  repository_id: 27821071
+  url: https://github.com/UI5/sample-app
+  description: OpenUI5 Sample App
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T04:32:33Z'
+  stars: 305
+  readme_url: https://github.com/UI5/sample-app/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ada6e4792afc87db39a0a061b333ff797401c36f
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - webapp/Component.js
+  - webapp/controller/App.controller.js
+  - webapp/util/Helper.js
+  repository_tree:
+    status: captured
+    sha: c518e4576a38dbca83a160020ac60ac78274f751
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> OpenUI5 sample app using the UI5 CLI.'
+  why_used: OpenUI5 Sample App
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - HTML
+    - CSS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@eslint/js'
+    - '@ui5/cli'
+    - '@ui5/linter'
+    - '@ui5/middleware-code-coverage'
+    - eslint
+    - globals
+    - local-web-server
+    - rimraf
+    - ui5-test-runner
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: webapp/Component.js,
+    webapp/controller/App.controller.js, webapp/util/Helper.js'
+  setup_and_usage:
+  - 'Getting started: 1. Clone this repository and navigate into it'
+  - 'Getting started: git clone https://github.com/UI5/sample-app.git'
+  - 'Getting started: 1. Install all dependencies'
+  - 'Getting started: 1. Start a local server and run the application (http://localhost:8080/index.html)'
+  - 'Getting started: ui5 serve -o index.html'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/UI5/sample-app/blob/main/README.md
+  path: README.md
+  blob_sha: ada6e4792afc87db39a0a061b333ff797401c36f
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 7e32f37b65a3a2e9a8c129764f60eaa14f87cd29
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 21143
+    HTML: 1396
+    CSS: 119
+- type: Git tree
+  status: captured
+  sha: c518e4576a38dbca83a160020ac60ac78274f751
+  truncated: false
+- type: source_file
+  path: webapp/Component.js
+  blob_sha: 3333430cd2d9b063a3621c0f0d8d9bca81a22b8d
+  retrieved: true
+- type: source_file
+  path: webapp/controller/App.controller.js
+  blob_sha: 7d45c51551b6b1db0976b9ea6b98c616fe64b9d4
+  retrieved: true
+- type: source_file
+  path: webapp/util/Helper.js
+  blob_sha: c8fac17ded537863b398b841b5f641adbeb89164
+  retrieved: true

@@ -1,0 +1,167 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:41:41+00:00'
+evidence_fingerprint: 3e45a74abb449346485b753c37216cdc399d2b0d141d05df3a6536c899a4e7e2
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/HALOps
+  repository_id: 1426644141
+  url: https://github.com/PaddlePaddle/HALOps
+  description: High-performance Accelerated LLM Operators
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T14:13:15Z'
+  stars: 25
+  readme_url: https://github.com/PaddlePaddle/HALOps/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f7be872d9b11e4e43073f73d43dc177b873fc79f
+  manifest_paths:
+  - pyproject.toml
+  - requirements.txt
+  - setup.py
+  - benchmark/requirements.txt
+  - docs/requirements.txt
+  source_files_inspected:
+  - benchmark/core/__init__.py
+  - benchmark/core/cupti/__init__.py
+  - benchmark/core/cupti/cupti.py
+  - benchmark/core/log_util.py
+  repository_tree:
+    status: captured
+    sha: 0045f79ee128905e134437f5a04ef3201b51ee4a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: English | 简体中文
+  why_used: High-performance Accelerated LLM Operators
+  core_features:
+  - name: '**GQA attention**: variable-length prefill and paged-KV decode across BF16 / FP8 KV cache, GQA and speculative
+      decoding; split-KV parallelism, adaptive reductio'
+    description: '**GQA attention**: variable-length prefill and paged-KV decode across BF16 / FP8 KV cache, GQA
+      and speculative decoding; split-KV parallelism, adaptive reduction and fused pre/post-processing make full
+      use of SM100 compute and bandwidth in long-context and small-batch decode.'
+    evidence:
+    - README.md#Highlights
+  - name: '**Multi-precision GEMM**: FP8 (MXFP8) and FP4 (NVFP4 / MXFP4) block-scaled GEMM for dense, batched and
+      MoE grouped workloads; with ultra-lightweight flexible ti'
+    description: '**Multi-precision GEMM**: FP8 (MXFP8) and FP4 (NVFP4 / MXFP4) block-scaled GEMM for dense, batched
+      and MoE grouped workloads; with ultra-lightweight flexible tile configurations and pre-mapped tile scheduling,
+      it delivers industry-leading performance in most scenarios on SM100.'
+    evidence:
+    - README.md#Highlights
+  - name: '**MegaKernel sparse MLA**: high-performance MegaKernel sparse attention for HCA and SWA, removing kernel
+      scheduling and intermediate memory round trips, with ti'
+    description: '**MegaKernel sparse MLA**: high-performance MegaKernel sparse attention for HCA and SWA, removing
+      kernel scheduling and intermediate memory round trips, with tile-level pipelining that hides compute and memory
+      latency to push GPU utilization further.'
+    evidence:
+    - README.md#Highlights
+  - name: '**Low-latency decode operators**: for low-concurrency, small-workload decode, provides low-latency GEMM,
+      the MegaLLMoE MegaKernel and One-Pass mHC, with support'
+    description: '**Low-latency decode operators**: for low-concurrency, small-workload decode, provides low-latency
+      GEMM, the MegaLLMoE MegaKernel and One-Pass mHC, with supporting quantization operators.'
+    evidence:
+    - README.md#Highlights
+  technology_stack:
+    languages:
+    - Cuda
+    - Python
+    - C++
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - apache-tvm-ffi
+    - furo
+    - myst-parser
+    - numpy
+    - nvidia-cudnn-cu13
+    - nvidia-cudnn-frontend
+    - nvidia-cutlass-dsl
+    - pandas
+    - pytest
+    - pyyaml
+    - setuptools
+    - sphinx
+    - sphinx-copybutton
+    - torch
+    - wheel
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: benchmark/core/__init__.py,
+    benchmark/core/cupti/__init__.py, benchmark/core/cupti/cupti.py, benchmark/core/log_util.py'
+  setup_and_usage:
+  - 'Verify the Installation: After installation, the W8A8-MXFP8 dense GEMM example below checks the quantization
+    and GEMM path. It should print torch.Size([128, 256]) torch.bfloat16.'
+  - 'Verify the Installation: from halops import dense_gemm, group_wise_quant'
+  - 'Verify the Installation: M, N, K = 128, 256, 512'
+  - 'Verify the Installation: a = torch.randn((M, K), device="cuda", dtype=torch.bfloat16)'
+  - 'Verify the Installation: b = torch.randn((N, K), device="cuda", dtype=torch.bfloat16)'
+  - 'Verify the Installation: a_fp8, scale_a = group_wise_quant(a, mode="w8a8-mxfp8", use_swizzle=True)'
+  - 'Verify the Installation: b_fp8, scale_b = group_wise_quant(b, mode="w8a8-mxfp8", use_swizzle=True)'
+  - 'Verify the Installation: output = torch.empty((M, N), device="cuda", dtype=torch.bfloat16)'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/HALOps/blob/main/README.md
+  path: README.md
+  blob_sha: f7be872d9b11e4e43073f73d43dc177b873fc79f
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 27ba766ef1bcf0945ea4810d3587a8aaeaeb44d3
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: a08e67616a2471e6962043a593be400fca37944e
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: d89bf0c1d0f496c53c2039b590e4cfe9e34c6973
+  retrieved: true
+- type: manifest
+  path: benchmark/requirements.txt
+  blob_sha: 7d99dda7b2777411ea71cda4608fd5f6e1063e8a
+  retrieved: true
+- type: manifest
+  path: docs/requirements.txt
+  blob_sha: 8b8bb37ed378f70076c2361ffe4ccc6a4ecf7579
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Cuda: 1772551
+    Python: 1197775
+    C++: 33415
+    Shell: 1310
+- type: Git tree
+  status: captured
+  sha: 0045f79ee128905e134437f5a04ef3201b51ee4a
+  truncated: false
+- type: source_file
+  path: benchmark/core/__init__.py
+  blob_sha: e2f61e1dfc91bcd289f0cedfb2291be557301b97
+  retrieved: true
+- type: source_file
+  path: benchmark/core/cupti/__init__.py
+  blob_sha: aef1bf2004f17b58d0c06c36be8cb8a9f1178b66
+  retrieved: true
+- type: source_file
+  path: benchmark/core/cupti/cupti.py
+  blob_sha: 29a259b801e056434379c87a496b90317c51aaa6
+  retrieved: true
+- type: source_file
+  path: benchmark/core/log_util.py
+  blob_sha: 8614bc06cf4f4877e36c013d22b497de06c3864b
+  retrieved: true

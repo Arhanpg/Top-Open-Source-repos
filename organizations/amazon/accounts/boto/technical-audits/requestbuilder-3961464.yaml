@@ -1,0 +1,96 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:33:16+00:00'
+evidence_fingerprint: 1daa44ef3ecbfc795cfcddd3c5bee53301a724441d42c77d07c2ff3f9f95567e
+repository_metadata:
+  company: Amazon
+  account: boto
+  full_name: boto/requestbuilder
+  repository_id: 3961464
+  url: https://github.com/boto/requestbuilder
+  description: Command line-driven HTTP request builder
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2016-12-09T03:02:54Z'
+  stars: 23
+  readme_url: https://github.com/boto/requestbuilder/blob/master/README
+  readme_path: README
+  readme_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  source_files_inspected:
+  - requestbuilder/__init__.py
+  - requestbuilder/auth/__init__.py
+  - requestbuilder/auth/aws.py
+  - requestbuilder/command.py
+  repository_tree:
+    status: captured
+    sha: 8d449ae52cbfd2c9afc01a612e0f98d0f123bfa2
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Command line-driven HTTP request builder
+  why_used: Command line-driven HTTP request builder
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - requests
+    - six
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: requestbuilder/__init__.py,
+    requestbuilder/auth/__init__.py, requestbuilder/auth/aws.py, requestbuilder/command.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: low
+evidence_sources:
+- type: README
+  url: https://github.com/boto/requestbuilder/blob/master/README
+  path: README
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: manifest
+  path: requirements.txt
+  blob_sha: 68a0d4205dedd2059bf432d06259c72b462a64c4
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: fbd9dcae432532ebee378885b5dfb81377116ab8
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 141767
+- type: Git tree
+  status: captured
+  sha: 8d449ae52cbfd2c9afc01a612e0f98d0f123bfa2
+  truncated: false
+- type: source_file
+  path: requestbuilder/__init__.py
+  blob_sha: fed9e95282a771ef4edd6b12626de7d9955a665a
+  retrieved: true
+- type: source_file
+  path: requestbuilder/auth/__init__.py
+  blob_sha: baf80ce949d8da3e6c1418c0d0a1aaca31548624
+  retrieved: true
+- type: source_file
+  path: requestbuilder/auth/aws.py
+  blob_sha: 949e24aaa304021a68634b181d2c88b7cca2fb71
+  retrieved: true
+- type: source_file
+  path: requestbuilder/command.py
+  blob_sha: 9b3d4a8e3b95452a68cb305182430c3600604f35
+  retrieved: true

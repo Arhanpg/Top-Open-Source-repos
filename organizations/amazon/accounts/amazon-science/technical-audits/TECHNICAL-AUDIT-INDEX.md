@@ -1,10 +1,10 @@
 # Technical audits — amazon-science
 
-Updated: 2026-11-26T07:22:02+00:00
+Updated: 2026-11-26T22:57:01+00:00
 
 ## Status counts
 
-- evidence_only: 14
+- evidence_only: 18
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -23,6 +23,10 @@ Updated: 2026-11-26T07:22:02+00:00
 | automatic-table-to-graph-generation-938371770 | evidence_only | [automatic-table-to-graph-generation-938371770.md](automatic-table-to-graph-generation-938371770.md) | [automatic-table-to-graph-generation-938371770.yaml](automatic-table-to-graph-generation-938371770.yaml) |
 | automating-relational-machine-learning-1167127630 | evidence_only | [automating-relational-machine-learning-1167127630.md](automating-relational-machine-learning-1167127630.md) | [automating-relational-machine-learning-1167127630.yaml](automating-relational-machine-learning-1167127630.yaml) |
 | aws-swing-571593771 | evidence_only | [aws-swing-571593771.md](aws-swing-571593771.md) | [aws-swing-571593771.yaml](aws-swing-571593771.yaml) |
+| bartgraphsumm-399244873 | evidence_only | [bartgraphsumm-399244873.md](bartgraphsumm-399244873.md) | [bartgraphsumm-399244873.yaml](bartgraphsumm-399244873.yaml) |
+| benchproofer-1415967247 | evidence_only | [benchproofer-1415967247.md](benchproofer-1415967247.md) | [benchproofer-1415967247.yaml](benchproofer-1415967247.yaml) |
+| beyondcorrelation-904499362 | evidence_only | [beyondcorrelation-904499362.md](beyondcorrelation-904499362.md) | [beyondcorrelation-904499362.yaml](beyondcorrelation-904499362.yaml) |
 | bopro-iclr-2025-940306804 | evidence_only | [bopro-iclr-2025-940306804.md](bopro-iclr-2025-940306804.md) | [bopro-iclr-2025-940306804.yaml](bopro-iclr-2025-940306804.yaml) |
+| buggy-aware-codelm-853481244 | evidence_only | [buggy-aware-codelm-853481244.md](buggy-aware-codelm-853481244.md) | [buggy-aware-codelm-853481244.yaml](buggy-aware-codelm-853481244.yaml) |
 | byokg-naacl24-780143645 | evidence_only | [byokg-naacl24-780143645.md](byokg-naacl24-780143645.md) | [byokg-naacl24-780143645.yaml](byokg-naacl24-780143645.yaml) |
 | github-291827029 | insufficient_evidence | [github-291827029.md](github-291827029.md) | [github-291827029.yaml](github-291827029.yaml) |

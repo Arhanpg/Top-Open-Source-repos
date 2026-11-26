@@ -1,0 +1,162 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:38:21+00:00'
+evidence_fingerprint: aa589390c9f431004b434c839f72e19b09f7e00643f4c1556f370e50f55be645
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/amazon-connect-in-app-calling-examples
+  repository_id: 778445982
+  url: https://github.com/amazon-connect/amazon-connect-in-app-calling-examples
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-03-30T11:59:36Z'
+  stars: 24
+  readme_url: https://github.com/amazon-connect/amazon-connect-in-app-calling-examples/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 9770d2abfaa3185bc86892a6796824a94791af2a
+  manifest_paths:
+  - Android/AmazonConnectInAppCallingAndroidSample/build.gradle
+  - Backend/AmazonConnectNetraApiSample/package.json
+  - Web/amazon-connect-ccp-web-calling-example/package.json
+  - Web/amazon-connect-multi-user-web-calling-sample/package.json
+  - Android/AmazonConnectInAppCallingAndroidSample/app/build.gradle
+  - Backend/AmazonConnectNetraApiSample/lambda/package.json
+  source_files_inspected:
+  - Web/amazon-connect-multi-user-web-calling-sample/server/index.js
+  - Web/amazon-connect-multi-user-web-calling-sample/client/index.js
+  - Android/AmazonConnectInAppCallingAndroidSample/app/src/main/java/com/amazonaws/services/connect/inappcalling/sample/CallConfiguration.kt
+  - Android/AmazonConnectInAppCallingAndroidSample/app/src/main/java/com/amazonaws/services/connect/inappcalling/sample/common/Extensions.kt
+  repository_tree:
+    status: captured
+    sha: 54e0284975f6a4b6fe28350907cf97562be37137
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'Amazon Connect''s out of the box communication widget and agent workspace allow you to add in-app, web,
+    and video calling capabilities to your website or mobile application with a few lines of code. This repository
+    contains examples of: 1) how to create multi-user web and video calling experiences, 2) how to integrate in-app
+    calling into iOS and Android applications, 3) an example backend that works with these iOS and Android mobile
+    samples, and 4) while web calling works out of the box with custom CCPs for voice call, we show to integrate
+    video calling into an custom CCP.'
+  why_used: 'Amazon Connect''s out of the box communication widget and agent workspace allow you to add in-app,
+    web, and video calling capabilities to your website or mobile application with a few lines of code. This repository
+    contains examples of: 1) how to create multi-user web and video calling experiences, 2) how to integrate in-app
+    calling into iOS and Android applications, 3) an example backend that works with these iOS and Android mobile
+    samples, and 4) while web calling works out of the box with custom CCPs for voice call, we show to integrate
+    video calling into an custom CCP.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Swift
+    - JavaScript
+    - Kotlin
+    - TypeScript
+    - Shell
+    - CSS
+    - HTML
+    - Ruby
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-sdk/client-connect'
+    - '@aws-sdk/client-connectparticipant'
+    - '@aws-sdk/client-dynamodb'
+    - '@aws-sdk/lib-dynamodb'
+    - '@types/aws-lambda'
+    - '@types/node'
+    - amazon-chime-sdk-js
+    - amazon-connect-streams
+    - aws-cdk
+    - aws-cdk-lib
+    - concurrently
+    - constructs
+    - cors
+    - dotenv
+    - esbuild
+    - esbuild-plugins-node-modules-polyfill
+    - express
+    - nodemon
+    - source-map-support
+    - ts-node
+    - typescript
+    - uuid
+    build_and_package_tools:
+    - Gradle build file
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Web/amazon-connect-multi-user-web-calling-sample/server/index.js,
+    Web/amazon-connect-multi-user-web-calling-sample/client/index.js, Android/AmazonConnectInAppCallingAndroidSample/app/src/main/java/com/amazonaws/services/connect/inappcalling/sample/CallConfiguration.kt,
+    Android/AmazonConnectInAppCallingAndroidSample/app/src/main/java/com/amazonaws/services/connect/inappcalling/sample/common/Extensions.kt'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/amazon-connect-in-app-calling-examples/blob/main/README.md
+  path: README.md
+  blob_sha: 9770d2abfaa3185bc86892a6796824a94791af2a
+  retrieved: true
+- type: manifest
+  path: Android/AmazonConnectInAppCallingAndroidSample/build.gradle
+  blob_sha: 9936a18b9b881766ed8b16396344eeb39ad055e7
+  retrieved: true
+- type: manifest
+  path: Backend/AmazonConnectNetraApiSample/package.json
+  blob_sha: c7d689b0e9f81a5cc783e2f2984f13e0fd804f43
+  retrieved: true
+- type: manifest
+  path: Web/amazon-connect-ccp-web-calling-example/package.json
+  blob_sha: b27315a7b586cf840375973aff34e71ab5e0bdd7
+  retrieved: true
+- type: manifest
+  path: Web/amazon-connect-multi-user-web-calling-sample/package.json
+  blob_sha: e64d08bafa7f97ae316c72984d86af90c56b82b2
+  retrieved: true
+- type: manifest
+  path: Android/AmazonConnectInAppCallingAndroidSample/app/build.gradle
+  blob_sha: 46fd1d5b4f649070f0d5506f9b243146a54533ee
+  retrieved: true
+- type: manifest
+  path: Backend/AmazonConnectNetraApiSample/lambda/package.json
+  blob_sha: b24101fbcc5647ef11a916e439f4eb901d944c10
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Swift: 151561
+    JavaScript: 140800
+    Kotlin: 139730
+    TypeScript: 21340
+    Shell: 20944
+    CSS: 5384
+    HTML: 4761
+    Ruby: 385
+- type: Git tree
+  status: captured
+  sha: 54e0284975f6a4b6fe28350907cf97562be37137
+  truncated: false
+- type: source_file
+  path: Web/amazon-connect-multi-user-web-calling-sample/server/index.js
+  blob_sha: 933e8feeceee6dd0cf1dda7c494fdd064307ea68
+  retrieved: true
+- type: source_file
+  path: Web/amazon-connect-multi-user-web-calling-sample/client/index.js
+  blob_sha: 2fd5395ab8314dd080b0d31a9b5d174a54da8e5a
+  retrieved: true
+- type: source_file
+  path: Android/AmazonConnectInAppCallingAndroidSample/app/src/main/java/com/amazonaws/services/connect/inappcalling/sample/CallConfiguration.kt
+  blob_sha: 062bba806eb631b42cfea01a043cb55a1410d92c
+  retrieved: true
+- type: source_file
+  path: Android/AmazonConnectInAppCallingAndroidSample/app/src/main/java/com/amazonaws/services/connect/inappcalling/sample/common/Extensions.kt
+  blob_sha: 46bf0695f43abbb86f9734ea0ada90c629e87704
+  retrieved: true

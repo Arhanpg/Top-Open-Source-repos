@@ -1,10 +1,10 @@
 # Technical audits — aws-ia
 
-Updated: 2026-11-26T07:22:02+00:00
+Updated: 2026-11-26T22:57:04+00:00
 
 ## Status counts
 
-- evidence_only: 13
+- evidence_only: 17
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -24,4 +24,8 @@ Updated: 2026-11-26T07:22:02+00:00
 | cfn-abi-trend-cloudone-621161235 | evidence_only | [cfn-abi-trend-cloudone-621161235.md](cfn-abi-trend-cloudone-621161235.md) | [cfn-abi-trend-cloudone-621161235.yaml](cfn-abi-trend-cloudone-621161235.yaml) |
 | cfn-ia-rules-613975811 | evidence_only | [cfn-ia-rules-613975811.md](cfn-ia-rules-613975811.md) | [cfn-ia-rules-613975811.yaml](cfn-ia-rules-613975811.yaml) |
 | cfn-mp-ql-rules-782993084 | evidence_only | [cfn-mp-ql-rules-782993084.md](cfn-mp-ql-rules-782993084.md) | [cfn-mp-ql-rules-782993084.yaml](cfn-mp-ql-rules-782993084.yaml) |
+| cfn-ps-aerospike-681799449 | evidence_only | [cfn-ps-aerospike-681799449.md](cfn-ps-aerospike-681799449.md) | [cfn-ps-aerospike-681799449.yaml](cfn-ps-aerospike-681799449.yaml) |
+| cfn-ps-amazon-aurora-mysql-678481001 | evidence_only | [cfn-ps-amazon-aurora-mysql-678481001.md](cfn-ps-amazon-aurora-mysql-678481001.md) | [cfn-ps-amazon-aurora-mysql-678481001.yaml](cfn-ps-amazon-aurora-mysql-678481001.yaml) |
+| cfn-ps-amazon-aurora-postgresql-670321597 | evidence_only | [cfn-ps-amazon-aurora-postgresql-670321597.md](cfn-ps-amazon-aurora-postgresql-670321597.md) | [cfn-ps-amazon-aurora-postgresql-670321597.yaml](cfn-ps-amazon-aurora-postgresql-670321597.yaml) |
+| cfn-ps-amazon-rds-682321278 | evidence_only | [cfn-ps-amazon-rds-682321278.md](cfn-ps-amazon-rds-682321278.md) | [cfn-ps-amazon-rds-682321278.yaml](cfn-ps-amazon-rds-682321278.yaml) |
 | github-411533239 | evidence_only | [github-411533239.md](github-411533239.md) | [github-411533239.yaml](github-411533239.yaml) |

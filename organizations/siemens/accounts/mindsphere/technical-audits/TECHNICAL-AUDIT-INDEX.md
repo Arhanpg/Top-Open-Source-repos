@@ -1,10 +1,10 @@
 # Technical audits — mindsphere
 
-Updated: 2026-11-26T07:22:02+00:00
+Updated: 2026-11-26T22:57:04+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 15
 
 ## Repository dossiers
 
@@ -21,4 +21,7 @@ Updated: 2026-11-26T07:22:02+00:00
 | mindconnect-lib-304628649 | evidence_only | [mindconnect-lib-304628649.md](mindconnect-lib-304628649.md) | [mindconnect-lib-304628649.yaml](mindconnect-lib-304628649.yaml) |
 | mindconnect-mcl-c-agent-320589978 | evidence_only | [mindconnect-mcl-c-agent-320589978.md](mindconnect-mcl-c-agent-320589978.md) | [mindconnect-mcl-c-agent-320589978.yaml](mindconnect-mcl-c-agent-320589978.yaml) |
 | mindconnect-mqtt-656060641 | evidence_only | [mindconnect-mqtt-656060641.md](mindconnect-mqtt-656060641.md) | [mindconnect-mqtt-656060641.yaml](mindconnect-mqtt-656060641.yaml) |
+| mindconnect-mqtt-v4-example-890970979 | evidence_only | [mindconnect-mqtt-v4-example-890970979.md](mindconnect-mqtt-v4-example-890970979.md) | [mindconnect-mqtt-v4-example-890970979.yaml](mindconnect-mqtt-v4-example-890970979.yaml) |
+| mindconnect-nodejs-167309487 | evidence_only | [mindconnect-nodejs-167309487.md](mindconnect-nodejs-167309487.md) | [mindconnect-nodejs-167309487.yaml](mindconnect-nodejs-167309487.yaml) |
+| mindsphere-auth-helper-275625626 | evidence_only | [mindsphere-auth-helper-275625626.md](mindsphere-auth-helper-275625626.md) | [mindsphere-auth-helper-275625626.yaml](mindsphere-auth-helper-275625626.yaml) |
 | predictivelearning-examples-439314216 | evidence_only | [predictivelearning-examples-439314216.md](predictivelearning-examples-439314216.md) | [predictivelearning-examples-439314216.yaml](predictivelearning-examples-439314216.yaml) |

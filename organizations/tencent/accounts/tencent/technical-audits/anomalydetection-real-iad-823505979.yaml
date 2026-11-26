@@ -1,0 +1,106 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:37:41+00:00'
+evidence_fingerprint: 82170c8603ab07baf4f43f563441bd22488cb35f82234005d4829e08d75e5bf2
+repository_metadata:
+  company: Tencent
+  account: Tencent
+  full_name: Tencent/AnomalyDetection_Real-IAD
+  repository_id: 823505979
+  url: https://github.com/Tencent/AnomalyDetection_Real-IAD
+  description: null
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-07-16T02:09:15Z'
+  stars: 134
+  readme_url: https://github.com/Tencent/AnomalyDetection_Real-IAD/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ea8b51a64d89a9d5435adc9bc080e68ef2551d28
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - datasets/base_dataset.py
+  - datasets/cifar_dataset.py
+  - datasets/custom_dataset.py
+  repository_tree:
+    status: captured
+    sha: 3a1eb31cf708893627c264e1a141e9e7c114de24
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Official experiment example of Real-IAD Dataset using UniAD
+  why_used: Official experiment example of Real-IAD Dataset using UniAD
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - Pillow
+    - PyYAML
+    - easydict
+    - einops
+    - numpy
+    - opencv-python
+    - pycryptodome
+    - scikit-image
+    - scikit-learn
+    - scipy
+    - tabulate
+    - timm
+    - torch
+    - torchvision
+    - tqdm
+    - wheel
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: datasets/__init__.py,
+    datasets/base_dataset.py, datasets/cifar_dataset.py, datasets/custom_dataset.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Tencent/AnomalyDetection_Real-IAD/blob/main/README.md
+  path: README.md
+  blob_sha: ea8b51a64d89a9d5435adc9bc080e68ef2551d28
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 5235b4be417c856054f11e83280e9637c2918be5
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 188475
+    Shell: 7047
+- type: Git tree
+  status: captured
+  sha: 3a1eb31cf708893627c264e1a141e9e7c114de24
+  truncated: false
+- type: source_file
+  path: datasets/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: datasets/base_dataset.py
+  blob_sha: 3e06695c9c17140705eb9c0d03971f1be6020a66
+  retrieved: true
+- type: source_file
+  path: datasets/cifar_dataset.py
+  blob_sha: 9f583f0aa6179f5ba3ff6684e86ee12c85d8f7a5
+  retrieved: true
+- type: source_file
+  path: datasets/custom_dataset.py
+  blob_sha: ea9ff77e0901639be5599c2ff66070ea3eb71262
+  retrieved: true

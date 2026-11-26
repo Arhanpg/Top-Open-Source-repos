@@ -1,0 +1,174 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:44:29+00:00'
+evidence_fingerprint: ac9132793262d3437a168757da89d35db96123511a59b5e236e94b4153da2fed
+repository_metadata:
+  company: Siemens
+  account: mindsphere
+  full_name: mindsphere/mindconnect-nodejs
+  repository_id: 167309487
+  url: https://github.com/mindsphere/mindconnect-nodejs
+  description: NodeJS Library for Industrial IoT Connectivity - TypeScript SDK for Industrial IoT - Command Line
+    Interface - Development Proxy - typescript-sdk is waiting for your contributions!
+  default_branch: master
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-31T04:20:08Z'
+  stars: 71
+  readme_url: https://github.com/mindsphere/mindconnect-nodejs/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 53cd9842af0ac90c3e416c930a9ba8be8e3e00dd
+  manifest_paths:
+  - Dockerfile
+  - package.json
+  source_files_inspected:
+  - src/api/sdk/index.ts
+  - src/index.ts
+  - src/api/agent-auth.ts
+  - src/api/auth-base.ts
+  repository_tree:
+    status: captured
+    sha: f1db4980b349b538e5c3ca9cd7f80fe36618cdfb
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> [!WARNING] > ### Breaking change starting with version 4.0.0 > > Insights Hub URLs are migrating from
+    the mindsphere.io domain to the new siemens.app scheme. **Version 4.0.0 and above only work with the new siemens.app
+    URLs** and are **not compatible** with tenants/gateways still using the old mindsphere.io URLs. > > - If your
+    tenant/gateway already uses the new siemens.app URLs, install @mindconnect/mindconnect-nodejs@^4.0.0. > - If
+    your tenant/gateway still uses the old mindsphere.io URLs, keep using @mindconnect/mindconnect-nodejs@^3.0.0
+    (the 3.x line will continue to work with the old URL scheme). > > **4.0.0 is best-effort compatible with the
+    new Xcelerator gateway** - it has been tested against the current public-cloud regions, but the migration is
+    still in progress and some backend behavior (see below) is known to differ across deployments. **For on-premise/private-cloud
+    install'
+  why_used: NodeJS Library for Industrial IoT Connectivity - TypeScript SDK for Industrial IoT - Command Line Interface
+    - Development Proxy - typescript-sdk is waiting for your contributions!
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - HTML
+    - JavaScript
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@compodoc/compodoc'
+    - '@rollup/plugin-commonjs'
+    - '@rollup/plugin-json'
+    - '@rollup/plugin-node-resolve'
+    - '@types/async-lock'
+    - '@types/chai'
+    - '@types/csvtojson'
+    - '@types/debug'
+    - '@types/jsonwebtoken'
+    - '@types/lodash'
+    - '@types/mocha'
+    - '@types/node'
+    - '@types/uuid'
+    - ajv
+    - ajv-formats
+    - ajv-keywords
+    - async-lock
+    - chai
+    - chalk
+    - commander
+    - concurrently
+    - copyfiles
+    - cross-env
+    - cross-fetch
+    - csvtojson
+    - date-fns
+    - debug
+    - https-proxy-agent
+    - json-groupby
+    - jsonwebtoken
+    - license-checker
+    - lodash
+    - mime-types
+    - mocha
+    - mocha-jenkins-reporter
+    - nock
+    - ora-classic
+    - performant-array-to-tree
+    - pkg
+    - rimraf
+    - rollup
+    - rollup-plugin-node-polyfills
+    - rollup-plugin-terser
+    - rsa-pem-to-jwk
+    - ts-node
+    - tslib
+    - tslint
+    - typescript
+    - typescript-tslint-plugin
+    - update-notifier-cjs
+    - url-search-params-polyfill
+    - uuid
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/api/sdk/index.ts,
+    src/index.ts, src/api/agent-auth.ts, src/api/auth-base.ts'
+  setup_and_usage:
+  - 'Getting started: [](https://developer.siemens.com/industrial-iot-open-source/mindconnect-nodejs/cli/index.html)'
+  - 'Getting started: The easiest way to start is to use the provided command line interface to create a starter
+    project:'
+  limitations:
+  - 'Platform Core APIs: | Name |SDK - Client | Command |'
+  - 'Platform Core APIs: | Identity Management | :heavy_check_mark: | :heavy_check_mark: |'
+  - 'Platform Core APIs: | Resource Access Management 1 | :heavy_check_mark: | :heavy_check_mark: |'
+  - 'Platform Core APIs: | Oauth Authorization | :heavy_check_mark: | :heavy_check_mark: |'
+  - 'Platform Core APIs: | Tenant Management | :heavy_check_mark: | :heavy_check_mark: |'
+  - 'Platform Core APIs: | Token Management | :heavy_check_mark: | :heavy_check_mark: |'
+  - 'Platform Core APIs: | Message Broker 2 (preview) | :heavy_check_mark: | :heavy_check_mark: |'
+  - 'Platform Core APIs: | Usage Transparency | :heavy_check_mark: | |'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/mindsphere/mindconnect-nodejs/blob/master/README.md
+  path: README.md
+  blob_sha: 53cd9842af0ac90c3e416c930a9ba8be8e3e00dd
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 60e178320116e2d3a097a5680fe22d8e1ea8a4ba
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: e45b596ea81b9bf3bbaf4eb86dcc59a091b6f6d8
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 2139104
+    HTML: 20808
+    JavaScript: 7529
+    Dockerfile: 180
+- type: Git tree
+  status: captured
+  sha: f1db4980b349b538e5c3ca9cd7f80fe36618cdfb
+  truncated: false
+- type: source_file
+  path: src/api/sdk/index.ts
+  blob_sha: f2b9906c151d1c09fa878c316fb1fa5ffab64c90
+  retrieved: true
+- type: source_file
+  path: src/index.ts
+  blob_sha: 7725bc7730edbf6771e0a844a97ab03c23b08ff3
+  retrieved: true
+- type: source_file
+  path: src/api/agent-auth.ts
+  blob_sha: f3cf6c5a5f35e552ab492038eb082136094b4a3f
+  retrieved: true
+- type: source_file
+  path: src/api/auth-base.ts
+  blob_sha: 1f968b3fda40a3a82a4a09b668f6666398294de2
+  retrieved: true

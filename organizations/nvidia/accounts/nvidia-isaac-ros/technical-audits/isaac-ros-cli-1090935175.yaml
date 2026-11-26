@@ -1,0 +1,93 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:42:45+00:00'
+evidence_fingerprint: 5a47492842a9b971e7e478a6364752493508c5381acf89b0e6a43cade3d0e688
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/isaac-ros-cli
+  repository_id: 1090935175
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac-ros-cli
+  description: ' A command-line interface for managing Isaac ROS development environments.'
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T06:56:48Z'
+  stars: 13
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/isaac-ros-cli/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2fb01d0fbd74cd78498c19217ab8d3b07cf3f6ab
+  manifest_paths:
+  - Makefile
+  source_files_inspected:
+  - src/isaac_ros_cli/cli.py
+  - src/isaac_ros_cli/__init__.py
+  - src/isaac_ros_cli/commands/activate/__init__.py
+  - src/isaac_ros_cli/commands/activate/baremetal.py
+  repository_tree:
+    status: captured
+    sha: e31138c53f8517abe6f1df3eb8bf4394c1ac2012
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A command-line interface for managing Isaac ROS development environments.
+  why_used: A command-line interface for managing Isaac ROS development environments.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/isaac_ros_cli/cli.py,
+    src/isaac_ros_cli/__init__.py, src/isaac_ros_cli/commands/activate/__init__.py, src/isaac_ros_cli/commands/activate/baremetal.py'
+  setup_and_usage:
+  - 'Installation: sudo apt-get install isaac-ros-cli'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac-ros-cli/blob/main/README.md
+  path: README.md
+  blob_sha: 2fb01d0fbd74cd78498c19217ab8d3b07cf3f6ab
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 9d3b78ca6305599a719b0707ffc90b7f65476bc6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 267320
+    Shell: 25440
+    Makefile: 4394
+- type: Git tree
+  status: captured
+  sha: e31138c53f8517abe6f1df3eb8bf4394c1ac2012
+  truncated: false
+- type: source_file
+  path: src/isaac_ros_cli/cli.py
+  blob_sha: fb0f19f2a2a8ae5e3b73accca456d84ae3cf8679
+  retrieved: true
+- type: source_file
+  path: src/isaac_ros_cli/__init__.py
+  blob_sha: be18112dbf6057c69b8b1a7269e82504b4e15473
+  retrieved: true
+- type: source_file
+  path: src/isaac_ros_cli/commands/activate/__init__.py
+  blob_sha: 3e9ce50e10ecd99ed7300d2829a7620c20afbcf9
+  retrieved: true
+- type: source_file
+  path: src/isaac_ros_cli/commands/activate/baremetal.py
+  blob_sha: edd08698db941f0cfb08e925e6cc2f61bb6970af
+  retrieved: true

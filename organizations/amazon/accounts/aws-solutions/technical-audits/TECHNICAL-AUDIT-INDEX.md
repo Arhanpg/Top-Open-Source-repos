@@ -1,10 +1,10 @@
 # Technical audits — aws-solutions
 
-Updated: 2026-11-26T07:22:00+00:00
+Updated: 2026-11-26T22:57:03+00:00
 
 ## Status counts
 
-- evidence_only: 13
+- evidence_only: 17
 
 ## Repository dossiers
 
@@ -22,4 +22,8 @@ Updated: 2026-11-26T07:22:00+00:00
 | automations-for-aws-firewall-manager-298359533 | evidence_only | [automations-for-aws-firewall-manager-298359533.md](automations-for-aws-firewall-manager-298359533.md) | [automations-for-aws-firewall-manager-298359533.yaml](automations-for-aws-firewall-manager-298359533.yaml) |
 | aws-centralized-logging-72462327 | evidence_only | [aws-centralized-logging-72462327.md](aws-centralized-logging-72462327.md) | [aws-centralized-logging-72462327.yaml](aws-centralized-logging-72462327.yaml) |
 | aws-connected-mobility-solution-452003006 | evidence_only | [aws-connected-mobility-solution-452003006.md](aws-connected-mobility-solution-452003006.md) | [aws-connected-mobility-solution-452003006.yaml](aws-connected-mobility-solution-452003006.yaml) |
+| aws-connected-vehicle-solution-110621453 | evidence_only | [aws-connected-vehicle-solution-110621453.md](aws-connected-vehicle-solution-110621453.md) | [aws-connected-vehicle-solution-110621453.yaml](aws-connected-vehicle-solution-110621453.yaml) |
+| aws-control-tower-customizations-233111913 | evidence_only | [aws-control-tower-customizations-233111913.md](aws-control-tower-customizations-233111913.md) | [aws-control-tower-customizations-233111913.yaml](aws-control-tower-customizations-233111913.yaml) |
+| aws-crr-monitor-89635934 | evidence_only | [aws-crr-monitor-89635934.md](aws-crr-monitor-89635934.md) | [aws-crr-monitor-89635934.yaml](aws-crr-monitor-89635934.yaml) |
+| aws-data-lake-solution-74497220 | evidence_only | [aws-data-lake-solution-74497220.md](aws-data-lake-solution-74497220.md) | [aws-data-lake-solution-74497220.yaml](aws-data-lake-solution-74497220.yaml) |
 | github-178254703 | evidence_only | [github-178254703.md](github-178254703.md) | [github-178254703.yaml](github-178254703.yaml) |

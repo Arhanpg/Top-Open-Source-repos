@@ -1,10 +1,10 @@
 # Technical audits — aws-controllers-k8s
 
-Updated: 2026-11-26T07:22:00+00:00
+Updated: 2026-11-26T22:57:05+00:00
 
 ## Status counts
 
-- evidence_only: 14
+- evidence_only: 18
 
 ## Repository dossiers
 
@@ -23,4 +23,8 @@ Updated: 2026-11-26T07:22:00+00:00
 | athena-controller-838611767 | evidence_only | [athena-controller-838611767.md](athena-controller-838611767.md) | [athena-controller-838611767.yaml](athena-controller-838611767.yaml) |
 | autoscaling-controller-384192258 | evidence_only | [autoscaling-controller-384192258.md](autoscaling-controller-384192258.md) | [autoscaling-controller-384192258.yaml](autoscaling-controller-384192258.yaml) |
 | backup-controller-1131296045 | evidence_only | [backup-controller-1131296045.md](backup-controller-1131296045.md) | [backup-controller-1131296045.yaml](backup-controller-1131296045.yaml) |
+| batch-controller-785231713 | evidence_only | [batch-controller-785231713.md](batch-controller-785231713.md) | [batch-controller-785231713.yaml](batch-controller-785231713.yaml) |
+| bedrock-controller-980273127 | evidence_only | [bedrock-controller-980273127.md](bedrock-controller-980273127.md) | [bedrock-controller-980273127.yaml](bedrock-controller-980273127.yaml) |
+| bedrockagent-controller-982281760 | evidence_only | [bedrockagent-controller-982281760.md](bedrockagent-controller-982281760.md) | [bedrockagent-controller-982281760.yaml](bedrockagent-controller-982281760.yaml) |
+| bedrockagentcorecontrol-controller-1075770606 | evidence_only | [bedrockagentcorecontrol-controller-1075770606.md](bedrockagentcorecontrol-controller-1075770606.md) | [bedrockagentcorecontrol-controller-1075770606.yaml](bedrockagentcorecontrol-controller-1075770606.yaml) |
 | github-397711626 | evidence_only | [github-397711626.md](github-397711626.md) | [github-397711626.yaml](github-397711626.yaml) |

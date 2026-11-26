@@ -1,0 +1,128 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:35:49+00:00'
+evidence_fingerprint: af87743aa7fcce14ffce8063ce10223b72b2baa24609789edc835bcaf8484367
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/cloud-ml-examples
+  repository_id: 247161726
+  url: https://github.com/rapidsai/cloud-ml-examples
+  description: A collection of Machine Learning examples to get started with deploying RAPIDS in the Cloud
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-11-01T17:02:24Z'
+  stars: 141
+  readme_url: https://github.com/rapidsai/cloud-ml-examples/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ee64f8c06de4e9188562c507d0d275c4888f7d2a
+  manifest_paths:
+  - aws/code/Dockerfile
+  - azure/kubernetes/Dockerfile
+  - azure/notebooks/Dockerfile
+  - dask/kubernetes/Dockerfile
+  - databricks/docker/Dockerfile
+  - aws/rapids_sagemaker_higgs/docker/Dockerfile
+  source_files_inspected:
+  - databricks/src/rapids_install_cuml0.13_cuda10.0_ubuntu16.04.sh
+  - mlflow/docker_environment/src/k8s/entrypoint.sh
+  - mlflow/docker_environment/src/k8s/tracking_entrypoint.sh
+  - mlflow/docker_environment/src/rf_test/test_query.py
+  repository_tree:
+    status: captured
+    sha: 4ff6fd68b3658bc0c1c68c1a731cf20e44bea8aa
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: RAPIDS is a suite of open-source libraries that bring GPU acceleration to data science pipelines. Users
+    building cloud-based machine learning experiments can take advantage of this acceleration throughout their workloads
+    to build models faster, cheaper, and more easily on the cloud platform of their choice.
+  why_used: A collection of Machine Learning examples to get started with deploying RAPIDS in the Cloud
+  core_features: []
+  technology_stack:
+    languages:
+    - Jupyter Notebook
+    - Python
+    - Shell
+    - Smarty
+    - Dockerfile
+    - Jinja
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: databricks/src/rapids_install_cuml0.13_cuda10.0_ubuntu16.04.sh,
+    mlflow/docker_environment/src/k8s/entrypoint.sh, mlflow/docker_environment/src/k8s/tracking_entrypoint.sh, mlflow/docker_environment/src/rf_test/test_query.py'
+  setup_and_usage:
+  - 'Quick Start Using RAPIDS Cloud ML Container: The Cloud ML Docker Repository provides a ready to run Docker
+    container with RAPIDS and libraries/SDKs for AWS SageMaker, Azure ML and Google AI Platfrom HPO examples.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/cloud-ml-examples/blob/main/README.md
+  path: README.md
+  blob_sha: ee64f8c06de4e9188562c507d0d275c4888f7d2a
+  retrieved: true
+- type: manifest
+  path: aws/code/Dockerfile
+  blob_sha: e73cecff8f215082c4bd3c62c39580d53035777f
+  retrieved: true
+- type: manifest
+  path: azure/kubernetes/Dockerfile
+  blob_sha: 4065a5506aeacc3e242acc8964f39e74b76b600c
+  retrieved: true
+- type: manifest
+  path: azure/notebooks/Dockerfile
+  blob_sha: d0743510d7c943d10a6f6a7aded8dbcdfb5b3822
+  retrieved: true
+- type: manifest
+  path: dask/kubernetes/Dockerfile
+  blob_sha: 4419f5a8bd1bc1e2ed2d65442da6ada49f963c0e
+  retrieved: true
+- type: manifest
+  path: databricks/docker/Dockerfile
+  blob_sha: 54a51573266f437f55b688778eba579f5fa2fe74
+  retrieved: true
+- type: manifest
+  path: aws/rapids_sagemaker_higgs/docker/Dockerfile
+  blob_sha: 67071681805c53d5f64c2cbf057438793a39c728
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Jupyter Notebook: 2463170
+    Python: 152440
+    Shell: 18412
+    Smarty: 7212
+    Dockerfile: 2887
+    Jinja: 1527
+- type: Git tree
+  status: captured
+  sha: 4ff6fd68b3658bc0c1c68c1a731cf20e44bea8aa
+  truncated: false
+- type: source_file
+  path: databricks/src/rapids_install_cuml0.13_cuda10.0_ubuntu16.04.sh
+  blob_sha: 68cfdf3ed1da997b4e31c82ee60d2ca230c91c87
+  retrieved: true
+- type: source_file
+  path: mlflow/docker_environment/src/k8s/entrypoint.sh
+  blob_sha: 087c87172a8c132a401ca50ac4bebe3e4a74d173
+  retrieved: true
+- type: source_file
+  path: mlflow/docker_environment/src/k8s/tracking_entrypoint.sh
+  blob_sha: 44bacabc14954461d4ef028d756fbda5be657190
+  retrieved: true
+- type: source_file
+  path: mlflow/docker_environment/src/rf_test/test_query.py
+  blob_sha: be78b7d39411e6d5fba4e762e9776d741dbb5bbb
+  retrieved: true

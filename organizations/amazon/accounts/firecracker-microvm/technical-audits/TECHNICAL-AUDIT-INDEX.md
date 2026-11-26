@@ -1,10 +1,10 @@
 # Technical audits — firecracker-microvm
 
-Updated: 2026-11-26T07:22:01+00:00
+Updated: 2026-11-26T22:57:03+00:00
 
 ## Status counts
 
-- evidence_only: 11
+- evidence_only: 12
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -23,3 +23,4 @@ Updated: 2026-11-26T07:22:01+00:00
 | micro-http-236465835 | evidence_only | [micro-http-236465835.md](micro-http-236465835.md) | [micro-http-236465835.yaml](micro-http-236465835.yaml) |
 | nsdi2020-data-239760690 | evidence_only | [nsdi2020-data-239760690.md](nsdi2020-data-239760690.md) | [nsdi2020-data-239760690.yaml](nsdi2020-data-239760690.yaml) |
 | versionize-259237858 | evidence_only | [versionize-259237858.md](versionize-259237858.md) | [versionize-259237858.yaml](versionize-259237858.yaml) |
+| versionize-derive-259238816 | evidence_only | [versionize-derive-259238816.md](versionize-derive-259238816.md) | [versionize-derive-259238816.yaml](versionize-derive-259238816.yaml) |

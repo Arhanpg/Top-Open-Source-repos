@@ -1,0 +1,98 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:53:49+00:00'
+evidence_fingerprint: 8cd21f52888eb2e717a635c120ddffd26aab69e5fe1ec8e472507f3440f77be4
+repository_metadata:
+  company: Amazon
+  account: aws-robotics
+  full_name: aws-robotics/cloudwatchlogs-ros2
+  repository_id: 168239450
+  url: https://github.com/aws-robotics/cloudwatchlogs-ros2
+  description: ROS packages for facilitating the use of AWS cloud services.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-02-08T21:40:04Z'
+  stars: 7
+  readme_url: https://github.com/aws-robotics/cloudwatchlogs-ros2/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 8dd768634f603acf26444fefa8a912373dec3773
+  manifest_paths:
+  - cloudwatch_logger/CMakeLists.txt
+  source_files_inspected:
+  - cloudwatch_logger/src/main.cpp
+  - cloudwatch_logger/src/log_node.cpp
+  - cloudwatch_logger/src/log_node_param_helper.cpp
+  - cloudwatch_logger/include/cloudwatch_logger/log_node.h
+  repository_tree:
+    status: captured
+    sha: f84c447e07ad80f3103e4d6415d7609574ea3513
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The **cloudwatch_logger** node enables logs generated in a ROS system to get sent to AWS CloudWatch Logs.
+    Out of the box, this node provides the ability to subscribe to the **/rosout** topic, which all logs using the
+    ROS logging framework will be published to by default, and sends logs to the AWS CloudWatch Logs service. Logs
+    can be sent to AWS CloudWatch Logs selectively based on log severity. The **cloudwatch_logger** node can also
+    subscribe to other topics if logs are not sent to **/rosout**, and it is able to unsubscribe from the **/rosout**
+    topic if desired.
+  why_used: ROS packages for facilitating the use of AWS cloud services.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cloudwatch_logger/src/main.cpp,
+    cloudwatch_logger/src/log_node.cpp, cloudwatch_logger/src/log_node_param_helper.cpp, cloudwatch_logger/include/cloudwatch_logger/log_node.h'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-robotics/cloudwatchlogs-ros2/blob/master/README.md
+  path: README.md
+  blob_sha: 8dd768634f603acf26444fefa8a912373dec3773
+  retrieved: true
+- type: manifest
+  path: cloudwatch_logger/CMakeLists.txt
+  blob_sha: af0d16ef30e7a6502a8177237e4390a1eb2168e3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 63553
+    CMake: 3899
+    Python: 2540
+- type: Git tree
+  status: captured
+  sha: f84c447e07ad80f3103e4d6415d7609574ea3513
+  truncated: false
+- type: source_file
+  path: cloudwatch_logger/src/main.cpp
+  blob_sha: a5d8971decdd4bb6d31ab3ddb9001e0400215175
+  retrieved: true
+- type: source_file
+  path: cloudwatch_logger/src/log_node.cpp
+  blob_sha: ec08b7e9e4e08e404f7abe7b98db334453a50ee1
+  retrieved: true
+- type: source_file
+  path: cloudwatch_logger/src/log_node_param_helper.cpp
+  blob_sha: 8aa0e5028d6c1ecd3e719f56575912378a2a8fc9
+  retrieved: true
+- type: source_file
+  path: cloudwatch_logger/include/cloudwatch_logger/log_node.h
+  blob_sha: 66dab1dd20809e9033d65b8358ecfa7ca9999176
+  retrieved: true

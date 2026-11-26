@@ -1,0 +1,111 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:55:17+00:00'
+evidence_fingerprint: 7f7e3396c4ecd71919eecaee3476070f67cace279fdfe531c695b20d242c4615
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/Familia
+  repository_id: 94299010
+  url: https://github.com/baidu/Familia
+  description: A Toolkit for Industrial Topic Modeling
+  default_branch: master
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2021-07-01T08:28:33Z'
+  stars: 2645
+  readme_url: https://github.com/baidu/Familia/blob/master/README.md
+  readme_path: README.md
+  readme_sha: c54ce2a3eeccbcce01c92faebc579e1e12a071fa
+  manifest_paths:
+  - Dockerfile
+  - Makefile
+  - python/requirements.txt
+  source_files_inspected:
+  - python/app.py
+  - src/demo/doc_distance_demo.cpp
+  - src/demo/document_keywords_demo.cpp
+  - src/demo/inference_demo.cpp
+  repository_tree:
+    status: captured
+    sha: e26da90331da4fcc9cec249ecb8f5d3147ee9a1d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Familia** 开源项目包含文档主题推断工具、语义匹配计算工具以及基于工业级语料训练的三种主题模型：Latent Dirichlet Allocation(LDA)、SentenceLDA 和Topical
+    Word Embedding(TWE)。 支持用户以“拿来即用”的方式进行文本分类、文本聚类、个性化推荐等多种场景的调研和应用。考虑到主题模型训练成本较高以及开源主题模型资源有限的现状，我们会陆续开放基于工业级语料训练的多个垂直领域的主题模型，以及这些模型在工业界的典型应用方式，助力主题模型技术的科研和落地。([**English**][10])'
+  why_used: A Toolkit for Industrial Topic Modeling
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - Makefile
+    - Shell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - sanic
+    - sanic-openapi
+    build_and_package_tools:
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: python/app.py, src/demo/doc_distance_demo.cpp,
+    src/demo/document_keywords_demo.cpp, src/demo/inference_demo.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/Familia/blob/master/README.md
+  path: README.md
+  blob_sha: c54ce2a3eeccbcce01c92faebc579e1e12a071fa
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: d72fd9bc8946692c8855934fb9fbb56993568d93
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 4a8ae98fda65d3936873e118c728796d0ac497c3
+  retrieved: true
+- type: manifest
+  path: python/requirements.txt
+  blob_sha: 8f13da5ba2b2425f7805bdd4ad7f22e84ea0cdb3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 102548
+    Python: 62942
+    Makefile: 4534
+    Shell: 3959
+    Dockerfile: 416
+- type: Git tree
+  status: captured
+  sha: e26da90331da4fcc9cec249ecb8f5d3147ee9a1d
+  truncated: false
+- type: source_file
+  path: python/app.py
+  blob_sha: 2e765cef170b5a428d899d9f503b8abe02ce57ce
+  retrieved: true
+- type: source_file
+  path: src/demo/doc_distance_demo.cpp
+  blob_sha: 90ee4ca928ddd5a93e81005e607c396d7866a064
+  retrieved: true
+- type: source_file
+  path: src/demo/document_keywords_demo.cpp
+  blob_sha: a10c4b4385839e88cfd647681681cf0f6eb123bc
+  retrieved: true
+- type: source_file
+  path: src/demo/inference_demo.cpp
+  blob_sha: 546524e815ca883fd165147f175e994c14313dfd
+  retrieved: true

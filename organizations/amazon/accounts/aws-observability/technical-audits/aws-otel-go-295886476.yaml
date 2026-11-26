@@ -1,0 +1,158 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:32:21+00:00'
+evidence_fingerprint: 7179d6cf22d90f6e294735f6aa7800667c841fb913615c93a6f1ba05d0381889
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/aws-otel-go
+  repository_id: 295886476
+  url: https://github.com/aws-observability/aws-otel-go
+  description: AWS Distro for OpenTelemetry Go
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-14T01:45:39Z'
+  stars: 43
+  readme_url: https://github.com/aws-observability/aws-otel-go/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2162efa337f58677ea4670dabfeedb7ceabc308c
+  manifest_paths:
+  - sampleapp/Dockerfile
+  - sampleapp/go.mod
+  - exporters/xrayudp/go.mod
+  - .github/docker-performance-tests/alarms-poller/Dockerfile
+  - .github/docker-performance-tests/load-generator/Dockerfile
+  - .github/test-sample-apps/udp-exporter-test-app/go.mod
+  source_files_inspected:
+  - sampleapp/main.go
+  - .github/docker-performance-tests/alarms-poller/metric_data_params.py
+  - .github/docker-performance-tests/alarms-poller/poll_during_performance_tests.py
+  - .github/scripts/performance-tests/get-metric-data/metric_data_params.py
+  repository_tree:
+    status: captured
+    sha: b7265ec03424f86c41a71100bd3614799772d0b7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repo hosts documentation and sample apps for the ADOT Go library which provides the AWS service
+    integrations for traces and metrics for the OpenTelemetry Go library. The library can be configured to support
+    trace applications with the AWS X-Ray service.
+  why_used: AWS Distro for OpenTelemetry Go
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/aws-observability/aws-otel-go/exporters/xrayudp
+    - github.com/bitly/go-simplejson
+    - github.com/cenkalti/backoff/v4
+    - github.com/cespare/xxhash/v2
+    - github.com/davecgh/go-spew
+    - github.com/felixge/httpsnoop
+    - github.com/go-logr/logr
+    - github.com/go-logr/stdr
+    - github.com/golang/protobuf
+    - github.com/google/uuid
+    - github.com/gorilla/mux
+    - github.com/grpc-ecosystem/grpc-gateway/v2
+    - github.com/pmezard/go-difflib
+    - github.com/stretchr/testify
+    - go.opentelemetry.io/auto/sdk
+    - go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/mux/otelmux
+    - go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
+    - go.opentelemetry.io/contrib/propagators/aws
+    - go.opentelemetry.io/otel
+    - go.opentelemetry.io/otel/exporters/otlp/internal/retry
+    - go.opentelemetry.io/otel/exporters/otlp/otlptrace
+    - go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc
+    - go.opentelemetry.io/otel/metric
+    - go.opentelemetry.io/otel/sdk
+    - go.opentelemetry.io/otel/trace
+    - go.opentelemetry.io/proto/otlp
+    - golang.org/x/net
+    - golang.org/x/sys
+    - golang.org/x/text
+    - google.golang.org/genproto
+    - google.golang.org/genproto/googleapis/api
+    - google.golang.org/genproto/googleapis/rpc
+    - google.golang.org/grpc
+    - google.golang.org/protobuf
+    - gopkg.in/yaml.v3
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: sampleapp/main.go,
+    .github/docker-performance-tests/alarms-poller/metric_data_params.py, .github/docker-performance-tests/alarms-poller/poll_during_performance_tests.py,
+    .github/scripts/performance-tests/get-metric-data/metric_data_params.py'
+  setup_and_usage:
+  - 'Getting Started: Check out the getting started documentation'
+  limitations:
+  - 'Security issue notifications: If you discover a potential security issue in this project we ask that you notify
+    AWS/Amazon Security via our vulnerability reporting page. Please do **not** create a public github issue.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/aws-otel-go/blob/main/README.md
+  path: README.md
+  blob_sha: 2162efa337f58677ea4670dabfeedb7ceabc308c
+  retrieved: true
+- type: manifest
+  path: sampleapp/Dockerfile
+  blob_sha: 8979feeb45858fd23c33ca4be6b0c420ea9966a6
+  retrieved: true
+- type: manifest
+  path: sampleapp/go.mod
+  blob_sha: 46a1066bde28830d1379b1755f08178e0fd4bb38
+  retrieved: true
+- type: manifest
+  path: exporters/xrayudp/go.mod
+  blob_sha: f0c8ddc1893beceff45aceb84cf2ea3acd441dd6
+  retrieved: true
+- type: manifest
+  path: .github/docker-performance-tests/alarms-poller/Dockerfile
+  blob_sha: 13be354bbd577602fbafc4e81b28344edcd829ea
+  retrieved: true
+- type: manifest
+  path: .github/docker-performance-tests/load-generator/Dockerfile
+  blob_sha: c8965cf6218088c42e2ec9863c1bbd00ae5071dc
+  retrieved: true
+- type: manifest
+  path: .github/test-sample-apps/udp-exporter-test-app/go.mod
+  blob_sha: 188903d62af74ad6e3a76e4f92d769f36e8a92c6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 144441
+    Dockerfile: 339
+- type: Git tree
+  status: captured
+  sha: b7265ec03424f86c41a71100bd3614799772d0b7
+  truncated: false
+- type: source_file
+  path: sampleapp/main.go
+  blob_sha: bc76fbe19ac426f379dacc8cfe7b2941acd1c7bf
+  retrieved: true
+- type: source_file
+  path: .github/docker-performance-tests/alarms-poller/metric_data_params.py
+  blob_sha: 76287a78ef18dcd3a08ab12d2d2b935b45bce7a5
+  retrieved: true
+- type: source_file
+  path: .github/docker-performance-tests/alarms-poller/poll_during_performance_tests.py
+  blob_sha: 4fde3aae136b0b446f800e1f8538c8b8eada984f
+  retrieved: true
+- type: source_file
+  path: .github/scripts/performance-tests/get-metric-data/metric_data_params.py
+  blob_sha: 1866a5894f122d6f4cda3d3cb71e993ff93c4f87
+  retrieved: true

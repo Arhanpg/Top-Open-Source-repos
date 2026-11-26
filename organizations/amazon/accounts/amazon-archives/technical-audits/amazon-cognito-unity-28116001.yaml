@@ -1,0 +1,85 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:52:13+00:00'
+evidence_fingerprint: 2ff5299cf8cd60150beab3ac70b32b2ae844d1fc8303ce523332e3c68db0f0e0
+repository_metadata:
+  company: Amazon
+  account: amazon-archives
+  full_name: amazon-archives/amazon-cognito-unity
+  repository_id: 28116001
+  url: https://github.com/amazon-archives/amazon-cognito-unity
+  description: Official repository for Amazon Cognito SDK for Unity (distributed as part of AWS Mobile SDK for Unity)
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2019-02-06T01:16:57Z'
+  stars: 12
+  readme_url: https://github.com/amazon-archives/amazon-cognito-unity/blob/master/readme.md
+  readme_path: readme.md
+  readme_sha: 70bf5a15ed9097a65c2176e5cd423427ccc6c6eb
+  manifest_paths: []
+  source_files_inspected:
+  - CognitoSync/Custom/GlobalSuppressions.cs
+  - CognitoSync/Custom/Internal/_unity/AmazonCognitoSyncPostMarshallHandler.cs
+  - CognitoSync/Custom/Internal/_unity/AmazonCognitoSyncPostSignHandler.cs
+  - CognitoSync/Custom/Internal/CognitoCredentialsRetriever.cs
+  repository_tree:
+    status: captured
+    sha: a5f39e34ecc56bcdb204e35f30e603c5c9fa4191
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Amazon Cognito Sync manager for unity is now distributed as a part of the aws sdk for dotnet. Please
+    refer the new github repository for more information.
+  why_used: Official repository for Amazon Cognito SDK for Unity (distributed as part of AWS Mobile SDK for Unity)
+  core_features: []
+  technology_stack:
+    languages:
+    - C#
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: CognitoSync/Custom/GlobalSuppressions.cs,
+    CognitoSync/Custom/Internal/_unity/AmazonCognitoSyncPostMarshallHandler.cs, CognitoSync/Custom/Internal/_unity/AmazonCognitoSyncPostSignHandler.cs,
+    CognitoSync/Custom/Internal/CognitoCredentialsRetriever.cs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-archives/amazon-cognito-unity/blob/master/readme.md
+  path: readme.md
+  blob_sha: 70bf5a15ed9097a65c2176e5cd423427ccc6c6eb
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 648407
+- type: Git tree
+  status: captured
+  sha: a5f39e34ecc56bcdb204e35f30e603c5c9fa4191
+  truncated: false
+- type: source_file
+  path: CognitoSync/Custom/GlobalSuppressions.cs
+  blob_sha: 2939d9e7c5abea64d2a76889ffe8e6b2add0c7d4
+  retrieved: true
+- type: source_file
+  path: CognitoSync/Custom/Internal/_unity/AmazonCognitoSyncPostMarshallHandler.cs
+  blob_sha: 89734a6562ef5b6182043de7351c2804506d35de
+  retrieved: true
+- type: source_file
+  path: CognitoSync/Custom/Internal/_unity/AmazonCognitoSyncPostSignHandler.cs
+  blob_sha: c6bccb4c28faa1a004fb437d9376078436e0edaa
+  retrieved: true
+- type: source_file
+  path: CognitoSync/Custom/Internal/CognitoCredentialsRetriever.cs
+  blob_sha: fc963cef7e1418ff3199dbc25f95d2d1abfd1ada
+  retrieved: true

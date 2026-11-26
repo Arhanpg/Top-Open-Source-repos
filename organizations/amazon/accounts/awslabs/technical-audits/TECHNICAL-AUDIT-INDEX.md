@@ -1,10 +1,10 @@
 # Technical audits — awslabs
 
-Updated: 2026-11-26T07:22:01+00:00
+Updated: 2026-11-26T22:57:02+00:00
 
 ## Status counts
 
-- evidence_only: 9
+- evidence_only: 12
 
 ## Repository dossiers
 
@@ -18,4 +18,7 @@ Updated: 2026-11-26T07:22:01+00:00
 | clear-1200842024 | evidence_only | [clear-1200842024.md](clear-1200842024.md) | [clear-1200842024.yaml](clear-1200842024.yaml) |
 | cli-for-aws-incident-detection-and-response-1081335150 | evidence_only | [cli-for-aws-incident-detection-and-response-1081335150.md](cli-for-aws-incident-detection-and-response-1081335150.md) | [cli-for-aws-incident-detection-and-response-1081335150.yaml](cli-for-aws-incident-detection-and-response-1081335150.yaml) |
 | consistenttokenization-745642190 | evidence_only | [consistenttokenization-745642190.md](consistenttokenization-745642190.md) | [consistenttokenization-745642190.yaml](consistenttokenization-745642190.yaml) |
+| defectdetectionapplication-1025286809 | evidence_only | [defectdetectionapplication-1025286809.md](defectdetectionapplication-1025286809.md) | [defectdetectionapplication-1025286809.yaml](defectdetectionapplication-1025286809.yaml) |
+| drs-settings-tool-905286602 | evidence_only | [drs-settings-tool-905286602.md](drs-settings-tool-905286602.md) | [drs-settings-tool-905286602.yaml](drs-settings-tool-905286602.yaml) |
+| eventwinnower-1199870788 | evidence_only | [eventwinnower-1199870788.md](eventwinnower-1199870788.md) | [eventwinnower-1199870788.yaml](eventwinnower-1199870788.yaml) |
 | github-171341712 | evidence_only | [github-171341712.md](github-171341712.md) | [github-171341712.yaml](github-171341712.yaml) |

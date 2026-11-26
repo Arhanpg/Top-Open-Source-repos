@@ -1,0 +1,72 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:50:05+00:00'
+evidence_fingerprint: d61f3a6af1ce2a8344494b423b7997a9425e1ad57ddc8674dc61006a0312e593
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/cf-setup
+  repository_id: 1031895632
+  url: https://github.com/cap-js/cf-setup
+  description: GitHub action to set up Cloud Foundry
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-13T14:30:44Z'
+  stars: 2
+  readme_url: https://github.com/cap-js/cf-setup/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 54ae5e16fb6b197f44be53269b93bd7cbbe587ce
+  manifest_paths: []
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: b9d4946b1ecf2daebc35d1ca697aa5b161b7ade9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A reusable GitHub action to set up Cloud Foundry and Multi-Target Application (MTA) tooling to deploy
+    SAP Cloud Application Programming Model (CAP) applications.
+  why_used: GitHub action to set up Cloud Foundry
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage:
+  - 'Usage: - uses: cap-js/cf-setup@v2'
+  - 'Usage: api: ${{ vars.CF_API }}'
+  - 'Usage: org: ${{ vars.CF_ORG }}'
+  - 'Usage: space: ${{ vars.CF_SPACE }}'
+  - 'Usage: username: ${{ vars.CF_USERNAME }}'
+  - 'Usage: password: ${{ secrets.CF_PASSWORD }}'
+  - 'Usage: origin: ${{ vars.CF_ORIGIN }}'
+  - 'Usage: # optional — pin tool versions (defaults shown)'
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/cf-setup/blob/main/README.md
+  path: README.md
+  blob_sha: 54ae5e16fb6b197f44be53269b93bd7cbbe587ce
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: b9d4946b1ecf2daebc35d1ca697aa5b161b7ade9
+  truncated: false

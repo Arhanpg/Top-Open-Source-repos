@@ -1,0 +1,191 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:40:38+00:00'
+evidence_fingerprint: 118ac46d5730e366f837b9ae73ca7331c71a2abaccffacced4807c87637f93f3
+repository_metadata:
+  company: Amazon
+  account: bottlerocket-os
+  full_name: bottlerocket-os/twoliter
+  repository_id: 633089849
+  url: https://github.com/bottlerocket-os/twoliter
+  description: A build tool for customizing Bottlerocket
+  default_branch: develop
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T04:43:33Z'
+  stars: 34
+  readme_url: https://github.com/bottlerocket-os/twoliter/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: 64eafa0790994fe3fe04c95c961e9fc64b2c515e
+  manifest_paths:
+  - Cargo.toml
+  - Makefile
+  - twoliter/Cargo.toml
+  - tests/integration-tests/Cargo.toml
+  - tools/advisory-checker/Cargo.toml
+  - tools/amispec/Cargo.toml
+  source_files_inspected:
+  - tools/advisory-checker/src/main.rs
+  - tools/amispec/src/lib.rs
+  - tools/bootconfig/src/bootconfig/mod.rs
+  - tools/bootconfig/src/grub/mod.rs
+  repository_tree:
+    status: captured
+    sha: fb9e423e2063ee4315b6c59788741819797e74fc
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A build tool for creating custom [Bottlerocket] variants. See the [design doc] describing how Twoliter
+    works. We welcome ideas and requirements in the form of issues and comments!
+  why_used: A build tool for customizing Bottlerocket
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    - Shell
+    - Dockerfile
+    - Makefile
+    - Go
+    frameworks_and_libraries: []
+    dependencies:
+    - advisory-checker
+    - anyhow
+    - async-recursion
+    - async-trait
+    - async-walkdir
+    - aws-config
+    - aws-sdk-ec2
+    - aws-sdk-sts
+    - base64
+    - bon
+    - bounded-integer
+    - buildsys-config
+    - bytes
+    - clap
+    - duct
+    - env_logger
+    - error-utils
+    - filetime
+    - flate2
+    - futures
+    - krane-bundle
+    - lazy_static
+    - libc
+    - log
+    - lzma-rs
+    - maplit
+    - mockall
+    - num-traits
+    - nutype
+    - oci-cli-wrapper
+    - olpc-cjson
+    - once_cell
+    - path-absolutize
+    - rand
+    - regex
+    - reqwest
+    - rpm
+    - semver
+    - serde
+    - serde-templated
+    - serde_json
+    - serde_plain
+    - sha2
+    - snafu
+    - strum
+    - tar
+    - tempfile
+    - test-case
+    - tokio
+    - toml
+    - tracing
+    - twoliter
+    - twoliter-tool-advisory-checker
+    - twoliter-tool-buildsys
+    - twoliter-tool-eif-builder
+    - twoliter-tool-embedded-bundle
+    - twoliter-tool-pcrsys
+    - twoliter-tool-pipesys
+    - twoliter-tool-pubsys
+    - twoliter-tool-pubsys-setup
+    - twoliter-tool-reprosys
+    - twoliter-tool-tuftool
+    - twoliter-tool-ukisys
+    - twoliter-tool-unplug
+    - uuid
+    - walkdir
+    - which
+    - zstd
+    build_and_package_tools:
+    - Cargo manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: tools/advisory-checker/src/main.rs,
+    tools/amispec/src/lib.rs, tools/bootconfig/src/bootconfig/mod.rs, tools/bootconfig/src/grub/mod.rs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/bottlerocket-os/twoliter/blob/develop/README.md
+  path: README.md
+  blob_sha: 64eafa0790994fe3fe04c95c961e9fc64b2c515e
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: 51f17eb334f1967883a2a4323ce13af40e3d4caf
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 75deb6607bdbbb8d7673af4032767eb3ea9db3bc
+  retrieved: true
+- type: manifest
+  path: twoliter/Cargo.toml
+  blob_sha: f6db2b1d02a5ad845681faf0d4fbea274cd13824
+  retrieved: true
+- type: manifest
+  path: tests/integration-tests/Cargo.toml
+  blob_sha: 762af8a329436548be5705ed0ca2232d0b46ce94
+  retrieved: true
+- type: manifest
+  path: tools/advisory-checker/Cargo.toml
+  blob_sha: dee5f0913ea530b0298dbc699cb86468de07fe2d
+  retrieved: true
+- type: manifest
+  path: tools/amispec/Cargo.toml
+  blob_sha: 397e05c4b4a2f157d7d871fcd0d53f2df43a5e8b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 1778212
+    Shell: 264967
+    Dockerfile: 31957
+    Makefile: 1419
+    Go: 184
+- type: Git tree
+  status: captured
+  sha: fb9e423e2063ee4315b6c59788741819797e74fc
+  truncated: false
+- type: source_file
+  path: tools/advisory-checker/src/main.rs
+  blob_sha: 3edaf51245f3502c4e91f88cdfd40440533e418c
+  retrieved: true
+- type: source_file
+  path: tools/amispec/src/lib.rs
+  blob_sha: 11bb9595ca7c2ad82afdbdc7296c9de04fb0ae72
+  retrieved: true
+- type: source_file
+  path: tools/bootconfig/src/bootconfig/mod.rs
+  blob_sha: 8e1db7ec31c908bc9cb748d9c16de1f62bc78d11
+  retrieved: true
+- type: source_file
+  path: tools/bootconfig/src/grub/mod.rs
+  blob_sha: 11e935c2164052a1b333267736e1dce498948bf9
+  retrieved: true

@@ -1,10 +1,10 @@
 # Technical audits — cdklabs
 
-Updated: 2026-11-26T07:22:01+00:00
+Updated: 2026-11-26T22:57:05+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -23,4 +23,8 @@ Updated: 2026-11-26T07:22:01+00:00
 | awscdk-asset-node-proxy-agent-540036754 | evidence_only | [awscdk-asset-node-proxy-agent-540036754.md](awscdk-asset-node-proxy-agent-540036754.md) | [awscdk-asset-node-proxy-agent-540036754.yaml](awscdk-asset-node-proxy-agent-540036754.yaml) |
 | awscdk-asset-node-proxy-agent-go-540037715 | evidence_only | [awscdk-asset-node-proxy-agent-go-540037715.md](awscdk-asset-node-proxy-agent-go-540037715.md) | [awscdk-asset-node-proxy-agent-go-540037715.yaml](awscdk-asset-node-proxy-agent-go-540037715.yaml) |
 | awscdk-change-analyzer-361684977 | evidence_only | [awscdk-change-analyzer-361684977.md](awscdk-change-analyzer-361684977.md) | [awscdk-change-analyzer-361684977.yaml](awscdk-change-analyzer-361684977.yaml) |
+| awscdk-docs-1362941195 | evidence_only | [awscdk-docs-1362941195.md](awscdk-docs-1362941195.md) | [awscdk-docs-1362941195.yaml](awscdk-docs-1362941195.yaml) |
+| awscdk-dynamodb-global-tables-521026136 | evidence_only | [awscdk-dynamodb-global-tables-521026136.md](awscdk-dynamodb-global-tables-521026136.md) | [awscdk-dynamodb-global-tables-521026136.yaml](awscdk-dynamodb-global-tables-521026136.yaml) |
+| awscdk-kubectl-go-539172071 | evidence_only | [awscdk-kubectl-go-539172071.md](awscdk-kubectl-go-539172071.md) | [awscdk-kubectl-go-539172071.yaml](awscdk-kubectl-go-539172071.yaml) |
+| awscdk-lambda-dotnet-724190214 | evidence_only | [awscdk-lambda-dotnet-724190214.md](awscdk-lambda-dotnet-724190214.md) | [awscdk-lambda-dotnet-724190214.yaml](awscdk-lambda-dotnet-724190214.yaml) |
 | github-744758625 | insufficient_evidence | [github-744758625.md](github-744758625.md) | [github-744758625.yaml](github-744758625.yaml) |

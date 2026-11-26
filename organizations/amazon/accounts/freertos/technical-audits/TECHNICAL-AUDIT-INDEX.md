@@ -1,10 +1,10 @@
 # Technical audits — freertos
 
-Updated: 2026-11-26T07:22:02+00:00
+Updated: 2026-11-26T22:57:05+00:00
 
 ## Status counts
 
-- evidence_only: 11
+- evidence_only: 15
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -22,4 +22,8 @@ Updated: 2026-11-26T07:22:02+00:00
 | freertos-community-supported-demos-375532893 | evidence_only | [freertos-community-supported-demos-375532893.md](freertos-community-supported-demos-375532893.md) | [freertos-community-supported-demos-375532893.yaml](freertos-community-supported-demos-375532893.yaml) |
 | freertos-kernel-207354223 | evidence_only | [freertos-kernel-207354223.md](freertos-kernel-207354223.md) | [freertos-kernel-207354223.yaml](freertos-kernel-207354223.yaml) |
 | freertos-kernel-book-696234469 | evidence_only | [freertos-kernel-book-696234469.md](freertos-kernel-book-696234469.md) | [freertos-kernel-book-696234469.yaml](freertos-kernel-book-696234469.yaml) |
+| freertos-kernel-community-supported-ports-375532652 | evidence_only | [freertos-kernel-community-supported-ports-375532652.md](freertos-kernel-community-supported-ports-375532652.md) | [freertos-kernel-community-supported-ports-375532652.yaml](freertos-kernel-community-supported-ports-375532652.yaml) |
+| freertos-kernel-partner-supported-ports-375531850 | evidence_only | [freertos-kernel-partner-supported-ports-375531850.md](freertos-kernel-partner-supported-ports-375531850.md) | [freertos-kernel-partner-supported-ports-375531850.yaml](freertos-kernel-partner-supported-ports-375531850.yaml) |
+| freertos-labs-240618617 | evidence_only | [freertos-labs-240618617.md](freertos-labs-240618617.md) | [freertos-labs-240618617.yaml](freertos-labs-240618617.yaml) |
+| freertos-lts-318273159 | evidence_only | [freertos-lts-318273159.md](freertos-lts-318273159.md) | [freertos-lts-318273159.yaml](freertos-lts-318273159.yaml) |
 | github-744757911 | insufficient_evidence | [github-744757911.md](github-744757911.md) | [github-744757911.yaml](github-744757911.yaml) |

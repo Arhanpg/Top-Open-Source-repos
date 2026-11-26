@@ -1,10 +1,10 @@
 # Technical audits — dotnet
 
-Updated: 2026-11-26T07:22:02+00:00
+Updated: 2026-11-26T22:57:02+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 
 ## Repository dossiers
 
@@ -21,4 +21,8 @@ Updated: 2026-11-26T07:22:02+00:00
 | clangsharp-30737688 | evidence_only | [clangsharp-30737688.md](clangsharp-30737688.md) | [clangsharp-30737688.yaml](clangsharp-30737688.yaml) |
 | clicommandlineparser-83599430 | evidence_only | [clicommandlineparser-83599430.md](clicommandlineparser-83599430.md) | [clicommandlineparser-83599430.yaml](clicommandlineparser-83599430.yaml) |
 | comet-192122815 | evidence_only | [comet-192122815.md](comet-192122815.md) | [comet-192122815.yaml](comet-192122815.yaml) |
+| connect-event-in-a-box-106721683 | evidence_only | [connect-event-in-a-box-106721683.md](connect-event-in-a-box-106721683.md) | [connect-event-in-a-box-106721683.yaml](connect-event-in-a-box-106721683.yaml) |
+| datagridextensions-61982799 | evidence_only | [datagridextensions-61982799.md](datagridextensions-61982799.md) | [datagridextensions-61982799.yaml](datagridextensions-61982799.yaml) |
+| docker-dotnet-23337905 | evidence_only | [docker-dotnet-23337905.md](docker-dotnet-23337905.md) | [docker-dotnet-23337905.yaml](docker-dotnet-23337905.yaml) |
+| entityframework-apidocs-69378996 | evidence_only | [entityframework-apidocs-69378996.md](entityframework-apidocs-69378996.md) | [entityframework-apidocs-69378996.yaml](entityframework-apidocs-69378996.yaml) |
 | github-596679563 | evidence_only | [github-596679563.md](github-596679563.md) | [github-596679563.yaml](github-596679563.yaml) |

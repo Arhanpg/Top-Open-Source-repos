@@ -1,0 +1,87 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-26T22:41:25+00:00'
+evidence_fingerprint: f05d55439b19174bf2a117179e9c422eeb87d99cdebdc2ef2268f1c0ade1bf93
+repository_metadata:
+  company: Baidu
+  account: ApolloAuto
+  full_name: ApolloAuto/application-core
+  repository_id: 712761633
+  url: https://github.com/ApolloAuto/application-core
+  description: 'A project with all Apollo open source package '
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-01-26T06:40:02Z'
+  stars: 17
+  readme_url: https://github.com/ApolloAuto/application-core/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4015683cfa5969297febc12e7ca1264afabbc0b5
+  manifest_paths: []
+  source_files_inspected:
+  - kill_all.sh
+  - park_scripts/model.serialize.sh
+  - park_scripts/nparse.py
+  - park_scripts/perf/nperf.sh
+  repository_tree:
+    status: captured
+    sha: 8d9c61be4b81ccd45df7acf3ef97934c97e08a60
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: README_cn.md
+  why_used: A project with all Apollo open source package
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Starlark
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: kill_all.sh, park_scripts/model.serialize.sh,
+    park_scripts/nparse.py, park_scripts/perf/nperf.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ApolloAuto/application-core/blob/main/README.md
+  path: README.md
+  blob_sha: 4015683cfa5969297febc12e7ca1264afabbc0b5
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 23874
+    Shell: 6833
+    Starlark: 165
+- type: Git tree
+  status: captured
+  sha: 8d9c61be4b81ccd45df7acf3ef97934c97e08a60
+  truncated: false
+- type: source_file
+  path: kill_all.sh
+  blob_sha: 1b93f4f2a697949ab03587a0ec7e3daf78a45ac7
+  retrieved: true
+- type: source_file
+  path: park_scripts/model.serialize.sh
+  blob_sha: 23508bd288b7e00bca0202183a1f396fc8857506
+  retrieved: true
+- type: source_file
+  path: park_scripts/nparse.py
+  blob_sha: 766ad182ca1dd7e9280ff068b8db85ca4541ff6d
+  retrieved: true
+- type: source_file
+  path: park_scripts/perf/nperf.sh
+  blob_sha: 4024916a1fbeea206bf99459737be279b001cfd2
+  retrieved: true
