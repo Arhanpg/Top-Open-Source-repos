@@ -1,0 +1,258 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T06:59:21+00:00'
+evidence_fingerprint: 8e5cc1aeefd362bfaa0086f8c918d24740c75013a2578634e8f54137506ba201
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/aws-otel-js-instrumentation
+  repository_id: 824711236
+  url: https://github.com/aws-observability/aws-otel-js-instrumentation
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T20:03:10Z'
+  stars: 14
+  readme_url: https://github.com/aws-observability/aws-otel-js-instrumentation/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2123a43b5ffd6210652273b66e8e1cf9d3e9845f
+  manifest_paths:
+  - Dockerfile
+  - package.json
+  - aws-distro-opentelemetry-node-autoinstrumentation/package.json
+  - cloudwatch-plugin-otel/package.json
+  - docker-utils/package.json
+  - lambda-layer/package.json
+  source_files_inspected:
+  - aws-distro-opentelemetry-node-autoinstrumentation/src/dynamic-instrumentation/index.ts
+  - aws-distro-opentelemetry-node-autoinstrumentation/src/serviceevents/collectors/index.ts
+  - aws-distro-opentelemetry-node-autoinstrumentation/src/serviceevents/exporter/index.ts
+  - aws-distro-opentelemetry-node-autoinstrumentation/src/serviceevents/index.ts
+  repository_tree:
+    status: captured
+    sha: 8fe66dd80594adcd59263e590290e013d5d6f3d9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This project is a redistribution of the OpenTelemetry Auto-Instrumentation for NodeJS, preconfigured
+    for use with AWS services. Please check out that project too to get a better understanding of the underlying
+    internals. You won't see much code in this repository since we only apply some small configuration changes,
+    and our OpenTelemetry friends takes care of the rest. The exception to this is support for Application Signals.
+  why_used: This project is a redistribution of the OpenTelemetry Auto-Instrumentation for NodeJS, preconfigured
+    for use with AWS services. Please check out that project too to get a better understanding of the underlying
+    internals. You won't see much code in this repository since we only apply some small configuration changes,
+    and our OpenTelemetry friends takes care of the rest. The exception to this is support for Application Signals.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Python
+    - JavaScript
+    - Rust
+    - Shell
+    - HCL
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@ai-sdk/amazon-bedrock'
+    - '@ai-sdk/anthropic'
+    - '@ai-sdk/azure'
+    - '@ai-sdk/cohere'
+    - '@ai-sdk/google'
+    - '@ai-sdk/groq'
+    - '@ai-sdk/mistral'
+    - '@ai-sdk/openai'
+    - '@ai-sdk/xai'
+    - '@aws-sdk/client-bedrock'
+    - '@aws-sdk/client-bedrock-agent'
+    - '@aws-sdk/client-bedrock-agent-runtime'
+    - '@aws-sdk/client-bedrock-agentcore'
+    - '@aws-sdk/client-bedrock-runtime'
+    - '@aws-sdk/client-cloudwatch-logs'
+    - '@aws-sdk/client-kinesis'
+    - '@aws-sdk/client-lambda'
+    - '@aws-sdk/client-s3'
+    - '@aws-sdk/client-secrets-manager'
+    - '@aws-sdk/client-sfn'
+    - '@aws-sdk/client-sns'
+    - '@aws-sdk/client-sts'
+    - '@grpc/grpc-js'
+    - '@grpc/proto-loader'
+    - '@jridgewell/trace-mapping'
+    - '@langchain/anthropic'
+    - '@langchain/aws'
+    - '@langchain/cohere'
+    - '@langchain/core'
+    - '@langchain/deepseek'
+    - '@langchain/google-genai'
+    - '@langchain/groq'
+    - '@langchain/langgraph'
+    - '@langchain/mistralai'
+    - '@langchain/openai'
+    - '@langchain/xai'
+    - '@openai/agents'
+    - '@openai/agents-extensions'
+    - '@opentelemetry/api'
+    - '@opentelemetry/api-logs'
+    - '@opentelemetry/auto-configuration-propagators'
+    - '@opentelemetry/auto-instrumentations-node'
+    - '@opentelemetry/baggage-span-processor'
+    - '@opentelemetry/contrib-test-utils'
+    - '@opentelemetry/core'
+    - '@opentelemetry/exporter-logs-otlp-grpc'
+    - '@opentelemetry/exporter-logs-otlp-http'
+    - '@opentelemetry/exporter-logs-otlp-proto'
+    - '@opentelemetry/exporter-metrics-otlp-grpc'
+    - '@opentelemetry/exporter-metrics-otlp-http'
+    - '@opentelemetry/exporter-metrics-otlp-proto'
+    - '@opentelemetry/exporter-prometheus'
+    - '@opentelemetry/exporter-trace-otlp-proto'
+    - '@opentelemetry/exporter-zipkin'
+    - '@opentelemetry/id-generator-aws-xray'
+    - '@opentelemetry/instrumentation'
+    - '@opentelemetry/instrumentation-aws-sdk'
+    - '@opentelemetry/otlp-transformer'
+    - '@opentelemetry/propagator-aws-xray'
+    - '@opentelemetry/resource-detector-aws'
+    - '@opentelemetry/resources'
+    - '@opentelemetry/sdk-logs'
+    - '@opentelemetry/sdk-metrics'
+    - '@opentelemetry/sdk-node'
+    - '@opentelemetry/sdk-trace-base'
+    - '@opentelemetry/sdk-trace-node'
+    - '@opentelemetry/semantic-conventions'
+    - '@smithy/node-http-handler'
+    - '@smithy/protocol-http'
+    - '@smithy/signature-v4'
+    - '@testcontainers/kafka'
+    - '@types/express'
+    - '@types/mocha'
+    - '@types/node'
+    - '@types/proxyquire'
+    - '@types/sinon'
+    - '@types/uuid'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - acorn
+    - ai
+    - ajv
+    - bestzip
+    - copyfiles
+    - eslint
+    - eslint-config-airbnb-base
+    - eslint-config-prettier
+    - eslint-plugin-header
+    - eslint-plugin-import
+    - eslint-plugin-node
+    - eslint-plugin-prettier
+    - expect
+    - express
+    - glob
+    - kafkajs
+    - lerna
+    - lerna-changelog
+    - markdownlint-cli2
+    - minimatch
+    - mocha
+    - nock
+    - node-fetch
+    - nyc
+    - pg
+    - pirates
+    - prettier
+    - process
+    - proxyquire
+    - rimraf
+    - rotating-file-stream
+    - semver
+    - sinon
+    - test-all-versions
+    - testcontainers
+    - ts-mocha
+    - typescript
+    - util
+    - uuid
+    - zod
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: aws-distro-opentelemetry-node-autoinstrumentation/src/dynamic-instrumentation/index.ts,
+    aws-distro-opentelemetry-node-autoinstrumentation/src/serviceevents/collectors/index.ts, aws-distro-opentelemetry-node-autoinstrumentation/src/serviceevents/exporter/index.ts,
+    aws-distro-opentelemetry-node-autoinstrumentation/src/serviceevents/index.ts'
+  setup_and_usage:
+  - 'Getting Started: The official AWS Documentation for getting started with ADOT JS Auto-Instrumentation is under
+    construction.'
+  - 'Getting Started: Meanwhile, check out the getting started documentation for manual instrumentation.'
+  limitations:
+  - 'Security issue notifications: If you discover a potential security issue in this project we ask that you notify
+    AWS/Amazon Security via our vulnerability reporting page. Please do **not** create a public github issue.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/aws-otel-js-instrumentation/blob/main/README.md
+  path: README.md
+  blob_sha: 2123a43b5ffd6210652273b66e8e1cf9d3e9845f
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 5103f825bcda27e2d3c6f69179ea1ff7a039c9ff
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 28ce57be04b9a8e3c426bdca333b9883df0b0280
+  retrieved: true
+- type: manifest
+  path: aws-distro-opentelemetry-node-autoinstrumentation/package.json
+  blob_sha: e37b95ede7d2ff8244441157bf7b0a4ed435e2b0
+  retrieved: true
+- type: manifest
+  path: cloudwatch-plugin-otel/package.json
+  blob_sha: e93aa2b7e1fd97eac1b33a6c59cd5319abadad91
+  retrieved: true
+- type: manifest
+  path: docker-utils/package.json
+  blob_sha: bd6ea7b4a22e183d8e6b801d47b920397dcf5cdc
+  retrieved: true
+- type: manifest
+  path: lambda-layer/package.json
+  blob_sha: 4e2d2a8177b38b0472e3fde4c718caf75cc93d67
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 2753607
+    Python: 241689
+    JavaScript: 115445
+    Rust: 14031
+    Shell: 13104
+    HCL: 8850
+    Dockerfile: 7495
+- type: Git tree
+  status: captured
+  sha: 8fe66dd80594adcd59263e590290e013d5d6f3d9
+  truncated: false
+- type: source_file
+  path: aws-distro-opentelemetry-node-autoinstrumentation/src/dynamic-instrumentation/index.ts
+  blob_sha: e6e3dc786c5e07b93cc6557c2c9a2de8db27d405
+  retrieved: true
+- type: source_file
+  path: aws-distro-opentelemetry-node-autoinstrumentation/src/serviceevents/collectors/index.ts
+  blob_sha: 070eb41762fb589371626d75fd0b03941e1a9ea8
+  retrieved: true
+- type: source_file
+  path: aws-distro-opentelemetry-node-autoinstrumentation/src/serviceevents/exporter/index.ts
+  blob_sha: 7de345d6a2f2ff1f2622071356749fcf2ba2e77d
+  retrieved: true
+- type: source_file
+  path: aws-distro-opentelemetry-node-autoinstrumentation/src/serviceevents/index.ts
+  blob_sha: ba5ae710d0e5d8de0a8a84ff1daeeb9cf40842c6
+  retrieved: true

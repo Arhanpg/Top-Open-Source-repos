@@ -1,10 +1,10 @@
 # Technical audits — swiftlang
 
-Updated: 2026-11-26T22:57:04+00:00
+Updated: 2026-11-27T07:24:05+00:00
 
 ## Status counts
 
-- evidence_only: 16
+- evidence_only: 20
 
 ## Repository dossiers
 
@@ -26,3 +26,7 @@ Updated: 2026-11-26T22:57:04+00:00
 | swift-3-api-guidelines-review-47225519 | evidence_only | [swift-3-api-guidelines-review-47225519.md](swift-3-api-guidelines-review-47225519.md) | [swift-3-api-guidelines-review-47225519.yaml](swift-3-api-guidelines-review-47225519.yaml) |
 | swift-44838949 | evidence_only | [swift-44838949.md](swift-44838949.md) | [swift-44838949.yaml](swift-44838949.yaml) |
 | swift-android-examples-1073159990 | evidence_only | [swift-android-examples-1073159990.md](swift-android-examples-1073159990.md) | [swift-android-examples-1073159990.yaml](swift-android-examples-1073159990.yaml) |
+| swift-aoc-starter-example-725830812 | evidence_only | [swift-aoc-starter-example-725830812.md](swift-aoc-starter-example-725830812.md) | [swift-aoc-starter-example-725830812.yaml](swift-aoc-starter-example-725830812.yaml) |
+| swift-binding-generator-core-1431665401 | evidence_only | [swift-binding-generator-core-1431665401.md](swift-binding-generator-core-1431665401.md) | [swift-binding-generator-core-1431665401.yaml](swift-binding-generator-core-1431665401.yaml) |
+| swift-book-520680969 | evidence_only | [swift-book-520680969.md](swift-book-520680969.md) | [swift-book-520680969.yaml](swift-book-520680969.yaml) |
+| swift-build-923737552 | evidence_only | [swift-build-923737552.md](swift-build-923737552.md) | [swift-build-923737552.yaml](swift-build-923737552.yaml) |

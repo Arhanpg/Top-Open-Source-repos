@@ -1,0 +1,152 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:06:41+00:00'
+evidence_fingerprint: a2a6623ae01149b8402736558b954c1076d05847e6ffd919a975ce475d575eb9
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/aws-waf-security-automations
+  repository_id: 68951589
+  url: https://github.com/aws-solutions/aws-waf-security-automations
+  description: This solution automatically deploys a single web access control list (web ACL) with a set of AWS
+    WAF rules designed to filter common web-based attacks.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-28T15:24:19Z'
+  stars: 928
+  readme_url: https://github.com/aws-solutions/aws-waf-security-automations/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 13db3167ac7980f189b702e8cc59bb5542d01f7c
+  manifest_paths:
+  - source/custom_resource/pyproject.toml
+  - source/helper/pyproject.toml
+  - source/infrastructure/package.json
+  - source/ip_retention_handler/pyproject.toml
+  - source/log_parser/pyproject.toml
+  - source/metrics/pyproject.toml
+  source_files_inspected:
+  - source/infrastructure/lib/aws-waf-security-automations-stack.ts
+  - source/infrastructure/lib/components/athenaPartition/athena-partitions-role.ts
+  - source/infrastructure/lib/components/athenaPartition/athena-partitions.ts
+  - source/infrastructure/lib/components/badBot/bad-bot.ts
+  repository_tree:
+    status: captured
+    sha: dac49ea064e19c4d847739d65155461ee259d817
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Important: Security Automations for AWS WAF will retire in December 2026. Deployments (via CloudFormation
+    or GitHub) will remain operational, but customers will assume responsibility for maintenance and API-related
+    updates post-retirement. Customers can explore using native AWS WAF capabilities including AWS Managed Rules,
+    native rate-based rules, and the AWS WAF Console for intuitive configuration and management. These native capabilities
+    provide superior functionality, better performance, real-time updates, and enhanced security features compared
+    to the solution.**'
+  why_used: This solution automatically deploys a single web access control list (web ACL) with a set of AWS WAF
+    rules designed to filter common web-based attacks.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - TypeScript
+    - Shell
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@eslint/js'
+    - '@types/jest'
+    - '@types/node'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - aws-cdk
+    - aws-cdk-lib
+    - aws-lambda-powertools
+    - aws-xray-sdk
+    - backoff
+    - constructs
+    - cryptography
+    - eslint
+    - globals
+    - jest
+    - jest-sonar-reporter
+    - jinja2
+    - prettier
+    - pyparsing
+    - ts-jest
+    - ts-node
+    - typescript
+    - urllib3
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/infrastructure/lib/aws-waf-security-automations-stack.ts,
+    source/infrastructure/lib/components/athenaPartition/athena-partitions-role.ts, source/infrastructure/lib/components/athenaPartition/athena-partitions.ts,
+    source/infrastructure/lib/components/badBot/bad-bot.ts'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/aws-waf-security-automations/blob/main/README.md
+  path: README.md
+  blob_sha: 13db3167ac7980f189b702e8cc59bb5542d01f7c
+  retrieved: true
+- type: manifest
+  path: source/custom_resource/pyproject.toml
+  blob_sha: 3ab6fa86fbb9b01d5600207508b4221131f5e958
+  retrieved: true
+- type: manifest
+  path: source/helper/pyproject.toml
+  blob_sha: 5645d42c37014afbed76a7dfb6242384875ea345
+  retrieved: true
+- type: manifest
+  path: source/infrastructure/package.json
+  blob_sha: 69b714442652e8a51f4fb3cbeb91851cfbff7c03
+  retrieved: true
+- type: manifest
+  path: source/ip_retention_handler/pyproject.toml
+  blob_sha: 8164b55fb9534d49ae68093f998bd248e0e6caaa
+  retrieved: true
+- type: manifest
+  path: source/log_parser/pyproject.toml
+  blob_sha: ca0e267fa6eb1dd54855c414d6632adf84d5aba0
+  retrieved: true
+- type: manifest
+  path: source/metrics/pyproject.toml
+  blob_sha: 2d0adb5893d5e57482c849460e26baafc9279078
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 410653
+    TypeScript: 401576
+    Shell: 16607
+    JavaScript: 583
+- type: Git tree
+  status: captured
+  sha: dac49ea064e19c4d847739d65155461ee259d817
+  truncated: false
+- type: source_file
+  path: source/infrastructure/lib/aws-waf-security-automations-stack.ts
+  blob_sha: 8f7e0f9ea99651479ad3fdf12c9c94798f1fc17b
+  retrieved: true
+- type: source_file
+  path: source/infrastructure/lib/components/athenaPartition/athena-partitions-role.ts
+  blob_sha: 6ca0cf4e969670e218f1861eb07b80319c82863c
+  retrieved: true
+- type: source_file
+  path: source/infrastructure/lib/components/athenaPartition/athena-partitions.ts
+  blob_sha: 054fead5a2b5ff7c4dbd9a81bd8b609b03dbe265
+  retrieved: true
+- type: source_file
+  path: source/infrastructure/lib/components/badBot/bad-bot.ts
+  blob_sha: 21a124279915e6b15a6c8f0ced0f2ebdd69b4045
+  retrieved: true

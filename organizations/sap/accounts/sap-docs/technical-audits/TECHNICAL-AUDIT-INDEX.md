@@ -1,10 +1,10 @@
 # Technical audits — sap-docs
 
-Updated: 2026-11-26T22:57:04+00:00
+Updated: 2026-11-27T07:24:07+00:00
 
 ## Status counts
 
-- evidence_only: 15
+- evidence_only: 19
 
 ## Repository dossiers
 
@@ -24,4 +24,8 @@ Updated: 2026-11-26T22:57:04+00:00
 | btp-cloud-transport-management-821301836 | evidence_only | [btp-cloud-transport-management-821301836.md](btp-cloud-transport-management-821301836.md) | [btp-cloud-transport-management-821301836.yaml](btp-cloud-transport-management-821301836.yaml) |
 | btp-connectivity-705745504 | evidence_only | [btp-connectivity-705745504.md](btp-connectivity-705745504.md) | [btp-connectivity-705745504.yaml](btp-connectivity-705745504.yaml) |
 | btp-continuous-integration-and-delivery-746576391 | evidence_only | [btp-continuous-integration-and-delivery-746576391.md](btp-continuous-integration-and-delivery-746576391.md) | [btp-continuous-integration-and-delivery-746576391.yaml](btp-continuous-integration-and-delivery-746576391.yaml) |
+| btp-credential-store-727220992 | evidence_only | [btp-credential-store-727220992.md](btp-credential-store-727220992.md) | [btp-credential-store-727220992.yaml](btp-credential-store-727220992.yaml) |
+| btp-custom-domain-service-524040471 | evidence_only | [btp-custom-domain-service-524040471.md](btp-custom-domain-service-524040471.md) | [btp-custom-domain-service-524040471.yaml](btp-custom-domain-service-524040471.yaml) |
+| btp-developer-guide-697772961 | evidence_only | [btp-developer-guide-697772961.md](btp-developer-guide-697772961.md) | [btp-developer-guide-697772961.yaml](btp-developer-guide-697772961.yaml) |
+| btp-fiori-tools-696311699 | evidence_only | [btp-fiori-tools-696311699.md](btp-fiori-tools-696311699.md) | [btp-fiori-tools-696311699.yaml](btp-fiori-tools-696311699.yaml) |
 | github-362398258 | evidence_only | [github-362398258.md](github-362398258.md) | [github-362398258.yaml](github-362398258.yaml) |

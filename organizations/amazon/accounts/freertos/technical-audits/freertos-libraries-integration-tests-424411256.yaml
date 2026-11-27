@@ -1,0 +1,91 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:00:32+00:00'
+evidence_fingerprint: 68c7d29e2a61117e83a29300c8e41fd7781e7c76a760f5b733798dd0e63cf215
+repository_metadata:
+  company: Amazon
+  account: freertos
+  full_name: FreeRTOS/FreeRTOS-Libraries-Integration-Tests
+  repository_id: 424411256
+  url: https://github.com/FreeRTOS/FreeRTOS-Libraries-Integration-Tests
+  description: null
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-01-07T06:38:26Z'
+  stars: 8
+  readme_url: https://github.com/FreeRTOS/FreeRTOS-Libraries-Integration-Tests/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1f93d1c803205ecf2b5b72721d1f2c7f6df58cea
+  manifest_paths: []
+  source_files_inspected:
+  - src/common/network_connection.h
+  - src/common/platform_function.h
+  - src/mqtt/mqtt_test.c
+  - src/mqtt/mqtt_test.h
+  repository_tree:
+    status: captured
+    sha: 783951590dacad49b10ca9d6d2a8c18c0b6f93a5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains tests that verify an integration of FreeRTOS IoT libraries running on a specific
+    microcontroller-based development board for robustness and compatibility with AWS’s published best practices
+    for AWS IoT Core connectivity.
+  why_used: This repository contains tests that verify an integration of FreeRTOS IoT libraries running on a specific
+    microcontroller-based development board for robustness and compatibility with AWS’s published best practices
+    for AWS IoT Core connectivity.
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - Go
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/common/network_connection.h,
+    src/common/platform_function.h, src/mqtt/mqtt_test.c, src/mqtt/mqtt_test.h'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/FreeRTOS/FreeRTOS-Libraries-Integration-Tests/blob/main/README.md
+  path: README.md
+  blob_sha: 1f93d1c803205ecf2b5b72721d1f2c7f6df58cea
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 362030
+    Go: 8093
+    CMake: 948
+- type: Git tree
+  status: captured
+  sha: 783951590dacad49b10ca9d6d2a8c18c0b6f93a5
+  truncated: false
+- type: source_file
+  path: src/common/network_connection.h
+  blob_sha: de37735c721917a37c1928a0bca50ac9c03e79e8
+  retrieved: true
+- type: source_file
+  path: src/common/platform_function.h
+  blob_sha: a2b6ecd6efbe6d4c7fb98139756e80aadf4db921
+  retrieved: true
+- type: source_file
+  path: src/mqtt/mqtt_test.c
+  blob_sha: bba4cb454113412c72138eec6a5ec0fc81c86826
+  retrieved: true
+- type: source_file
+  path: src/mqtt/mqtt_test.h
+  blob_sha: 805561bca64246231c725ff907dcee6863dd6a87
+  retrieved: true

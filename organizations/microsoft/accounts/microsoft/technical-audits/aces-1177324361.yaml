@@ -1,0 +1,135 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:08:32+00:00'
+evidence_fingerprint: 9dadc4d0ae0e0ca4c20b3a9137da071189930c62ee58457481a67806bbe7530f
+repository_metadata:
+  company: Microsoft
+  account: microsoft
+  full_name: microsoft/ACES
+  repository_id: 1177324361
+  url: https://github.com/microsoft/ACES
+  description: Security Agent Benchmarking and Evaluation Framework
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-08-18T02:40:07Z'
+  stars: 6
+  readme_url: https://github.com/microsoft/ACES/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1fab8eede6f78561d5de82b8d45c4f15e4b65d4b
+  manifest_paths:
+  - pyproject.toml
+  source_files_inspected:
+  - src/saber/cli/app.py
+  - src/__init__.py
+  - src/saber/__init__.py
+  - src/saber/agents/__init__.py
+  repository_tree:
+    status: captured
+    sha: a40177bd289b4ef627c5a9fac6cc1e46ce442450
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Agent Capability Evaluation Suite (ACES) / Security Agent Benchmarking and Evaluation Research (SABER)**'
+  why_used: Security Agent Benchmarking and Evaluation Framework
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Jinja
+    frameworks_and_libraries: []
+    dependencies:
+    - aiohttp
+    - anthropic
+    - azure-identity
+    - click
+    - docker
+    - fastapi
+    - fastmcp
+    - filelock
+    - httpx
+    - httpx-sse
+    - inspect-ai
+    - jinja2
+    - mcp
+    - openai
+    - pydantic
+    - python-dotenv
+    - pyyaml
+    - requests
+    - rich
+    - ruamel-yaml
+    - tabulate
+    - typer
+    - urllib3
+    - uvicorn
+    - watchfiles
+    - websockets
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/saber/cli/app.py,
+    src/__init__.py, src/saber/__init__.py, src/saber/agents/__init__.py'
+  setup_and_usage: []
+  limitations:
+  - 'SABER — Security Agent Benchmarking and Evaluation Research: **Agent Capability Evaluation Suite (ACES) / Security
+    Agent Benchmarking and Evaluation Research (SABER)**'
+  - 'SABER — Security Agent Benchmarking and Evaluation Research: > ## ⚠️ This Azure DevOps repository is deprecated'
+  - 'SABER — Security Agent Benchmarking and Evaluation Research: > **SABER''s permanent home is GitHub:** github.com/microsoft/ACES
+    (this library) + github.com/microsoft/ACESEvals (benchmarks).'
+  - 'SABER — Security Agent Benchmarking and Evaluation Research: > This Azure DevOps repo (SABER) becomes **read-only
+    after 2026-09-30** and will then be retired. Migrate any clones, pipelines, and references to GitHub, and do
+    all new work there.'
+  - 'SABER — Security Agent Benchmarking and Evaluation Research: > **Naming:** The external name for this project
+    is **ACES**. **SABER** is the internal Microsoft codename. The Python package, CLI commands, and code all use
+    the name saber. Both names refer to the same system.'
+  - 'SABER — Security Agent Benchmarking and Evaluation Research: > **Repositories (GitHub is the permanent home):**'
+  - 'SABER — Security Agent Benchmarking and Evaluation Research: > - **GitHub (permanent home):** ACESEvals (benchmarks)
+    + ACES (this library)'
+  - 'SABER — Security Agent Benchmarking and Evaluation Research: > - **Azure DevOps (deprecated — read-only after
+    2026-09-30):** oss_saber + SABER. Being retired; do new work on GitHub.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/microsoft/ACES/blob/main/README.md
+  path: README.md
+  blob_sha: 1fab8eede6f78561d5de82b8d45c4f15e4b65d4b
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 764ed3723803c1f1a07926b33318b9624bbb47b3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 1786308
+    Shell: 9267
+    Jinja: 9247
+- type: Git tree
+  status: captured
+  sha: a40177bd289b4ef627c5a9fac6cc1e46ce442450
+  truncated: false
+- type: source_file
+  path: src/saber/cli/app.py
+  blob_sha: c9356f4b95b2cc5de4bac90c2e9616f545b10c56
+  retrieved: true
+- type: source_file
+  path: src/__init__.py
+  blob_sha: 8463b13a977a076fa6bc30b1461b34bc29afae46
+  retrieved: true
+- type: source_file
+  path: src/saber/__init__.py
+  blob_sha: 65c3883f1a4b238f7488570dc601059e15a13918
+  retrieved: true
+- type: source_file
+  path: src/saber/agents/__init__.py
+  blob_sha: a0b4f9b1f626bd3cbf6bb5805c6d347b1f12a319
+  retrieved: true

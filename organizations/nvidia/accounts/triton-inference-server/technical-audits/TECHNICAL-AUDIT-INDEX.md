@@ -1,10 +1,10 @@
 # Technical audits — triton-inference-server
 
-Updated: 2026-11-26T22:57:01+00:00
+Updated: 2026-11-27T07:24:08+00:00
 
 ## Status counts
 
-- evidence_only: 16
+- evidence_only: 20
 
 ## Repository dossiers
 
@@ -25,4 +25,8 @@ Updated: 2026-11-26T22:57:01+00:00
 | identity-backend-285115542 | evidence_only | [identity-backend-285115542.md](identity-backend-285115542.md) | [identity-backend-285115542.yaml](identity-backend-285115542.yaml) |
 | local-cache-560618366 | evidence_only | [local-cache-560618366.md](local-cache-560618366.md) | [local-cache-560618366.yaml](local-cache-560618366.yaml) |
 | model-analyzer-292107115 | evidence_only | [model-analyzer-292107115.md](model-analyzer-292107115.md) | [model-analyzer-292107115.yaml](model-analyzer-292107115.yaml) |
+| model-navigator-353778387 | evidence_only | [model-navigator-353778387.md](model-navigator-353778387.md) | [model-navigator-353778387.yaml](model-navigator-353778387.yaml) |
+| onnxruntime-backend-290372011 | evidence_only | [onnxruntime-backend-290372011.md](onnxruntime-backend-290372011.md) | [onnxruntime-backend-290372011.yaml](onnxruntime-backend-290372011.yaml) |
+| openvino-backend-336391126 | evidence_only | [openvino-backend-336391126.md](openvino-backend-336391126.md) | [openvino-backend-336391126.yaml](openvino-backend-336391126.yaml) |
+| paddlepaddle-backend-376158404 | evidence_only | [paddlepaddle-backend-376158404.md](paddlepaddle-backend-376158404.md) | [paddlepaddle-backend-376158404.yaml](paddlepaddle-backend-376158404.yaml) |
 | tensorrt-llm-1130520542 | evidence_only | [tensorrt-llm-1130520542.md](tensorrt-llm-1130520542.md) | [tensorrt-llm-1130520542.yaml](tensorrt-llm-1130520542.yaml) |

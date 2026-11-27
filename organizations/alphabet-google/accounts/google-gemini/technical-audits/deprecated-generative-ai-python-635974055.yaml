@@ -1,0 +1,96 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T06:57:44+00:00'
+evidence_fingerprint: 5275c5cbd3dd3cd7299a838d0d684693a533c8e64c77cc7f6cf5858e375a1bdc
+repository_metadata:
+  company: Alphabet (Google)
+  account: google-gemini
+  full_name: google-gemini/deprecated-generative-ai-python
+  repository_id: 635974055
+  url: https://github.com/google-gemini/deprecated-generative-ai-python
+  description: 'This SDK is now deprecated, use the new unified Google GenAI SDK. '
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2025-12-16T17:45:53Z'
+  stars: 2331
+  readme_url: https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 59fc50312fea4df67bb6d91a25b39287ee391452
+  manifest_paths:
+  - pyproject.toml
+  - setup.py
+  source_files_inspected:
+  - google/generativeai/notebook/lib/__init__.py
+  - google/generativeai/notebook/lib/llm_function.py
+  - google/generativeai/notebook/lib/llmfn_input_utils.py
+  - google/generativeai/notebook/lib/llmfn_inputs_source.py
+  repository_tree:
+    status: captured
+    sha: 4e38d0d63f0d5541bee3cc199ece327a9578c726
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: With Gemini 2.0, we took the chance to create a single unified SDK for all developers who want to use
+    Google's GenAI models (Gemini, Veo, Imagen, etc). As part of that process, we took all of the feedback from
+    this SDK and what developers like about other SDKs in the ecosystem to create the Google Gen AI SDK.
+  why_used: This SDK is now deprecated, use the new unified Google GenAI SDK.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: google/generativeai/notebook/lib/__init__.py,
+    google/generativeai/notebook/lib/llm_function.py, google/generativeai/notebook/lib/llmfn_input_utils.py, google/generativeai/notebook/lib/llmfn_inputs_source.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+  path: README.md
+  blob_sha: 59fc50312fea4df67bb6d91a25b39287ee391452
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 222ebca21b3ad8b23b660b0fa45b376f96df66c6
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: d8ab792a4150a4ce386d570b447b1e79775ece7f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 918576
+- type: Git tree
+  status: captured
+  sha: 4e38d0d63f0d5541bee3cc199ece327a9578c726
+  truncated: false
+- type: source_file
+  path: google/generativeai/notebook/lib/__init__.py
+  blob_sha: 35a14b7b86015f564928dc6967f0a7c00fbc42f8
+  retrieved: true
+- type: source_file
+  path: google/generativeai/notebook/lib/llm_function.py
+  blob_sha: c4f379828636b38f8009fe0f88d03691f238d40f
+  retrieved: true
+- type: source_file
+  path: google/generativeai/notebook/lib/llmfn_input_utils.py
+  blob_sha: 1112f182658f03ae190206d7578da16ef9912ed4
+  retrieved: true
+- type: source_file
+  path: google/generativeai/notebook/lib/llmfn_inputs_source.py
+  blob_sha: ff134fcc758be607efc6456ca544da9cc678a489
+  retrieved: true

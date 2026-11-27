@@ -1,10 +1,10 @@
 # Technical audits — siemens
 
-Updated: 2026-11-26T22:57:05+00:00
+Updated: 2026-11-27T07:24:05+00:00
 
 ## Status counts
 
-- evidence_only: 15
+- evidence_only: 18
 
 ## Repository dossiers
 
@@ -25,3 +25,6 @@ Updated: 2026-11-26T22:57:05+00:00
 | licensedb-751958497 | evidence_only | [licensedb-751958497.md](licensedb-751958497.md) | [licensedb-751958497.yaml](licensedb-751958497.yaml) |
 | lightweightcmpra-305635143 | evidence_only | [lightweightcmpra-305635143.md](lightweightcmpra-305635143.md) | [lightweightcmpra-305635143.yaml](lightweightcmpra-305635143.yaml) |
 | m-fit-87358330 | evidence_only | [m-fit-87358330.md](m-fit-87358330.md) | [m-fit-87358330.yaml](m-fit-87358330.yaml) |
+| netarchtest-236915772 | evidence_only | [netarchtest-236915772.md](netarchtest-236915772.md) | [netarchtest-236915772.yaml](netarchtest-236915772.yaml) |
+| ooasp-515188934 | evidence_only | [ooasp-515188934.md](ooasp-515188934.md) | [ooasp-515188934.yaml](ooasp-515188934.yaml) |
+| oocsp-59981547 | evidence_only | [oocsp-59981547.md](oocsp-59981547.md) | [oocsp-59981547.yaml](oocsp-59981547.yaml) |

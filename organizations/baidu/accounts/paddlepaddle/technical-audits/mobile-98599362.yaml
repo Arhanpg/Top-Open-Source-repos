@@ -1,0 +1,118 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:14:49+00:00'
+evidence_fingerprint: fcdacd665b93cdf615927165b005eb159af609c2d066cad43deece6971d6c10a
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/Mobile
+  repository_id: 98599362
+  url: https://github.com/PaddlePaddle/Mobile
+  description: Embedded and Mobile Deployment
+  default_branch: develop
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2018-05-02T18:44:51Z'
+  stars: 73
+  readme_url: https://github.com/PaddlePaddle/Mobile/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: f6a7b421b93ca17b352e3aad308e843e90d17033
+  manifest_paths:
+  - Demo/linux/CMakeLists.txt
+  - benchmark/tool/C/CMakeLists.txt
+  - Demo/Android/AICamera/build.gradle
+  - Demo/Android/AICamera/app/build.gradle
+  - Demo/Android/AICamera/app/CMakeLists.txt
+  source_files_inspected:
+  - Demo/linux/ssd/main.cpp
+  - Demo/Android/AICamera/app/src/androidTest/java/com/paddlepaddle/pdcamera/ExampleInstrumentedTest.java
+  - Demo/Android/AICamera/app/src/main/cpp/android_common.h
+  - Demo/Android/AICamera/app/src/main/cpp/binary_reader.cpp
+  repository_tree:
+    status: captured
+    sha: 045dfd49e75b1d80295c9e4221dde1f3e2228131
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Here mainly describes how to deploy PaddlePaddle to the mobile end, as well as some deployment optimization
+    methods and some benchmark.
+  why_used: Embedded and Mobile Deployment
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - CMake
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle build file
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Demo/linux/ssd/main.cpp,
+    Demo/Android/AICamera/app/src/androidTest/java/com/paddlepaddle/pdcamera/ExampleInstrumentedTest.java, Demo/Android/AICamera/app/src/main/cpp/android_common.h,
+    Demo/Android/AICamera/app/src/main/cpp/binary_reader.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/Mobile/blob/develop/README.md
+  path: README.md
+  blob_sha: f6a7b421b93ca17b352e3aad308e843e90d17033
+  retrieved: true
+- type: manifest
+  path: Demo/linux/CMakeLists.txt
+  blob_sha: 4f1a3a08047996d5f48fb7345370a78263802838
+  retrieved: true
+- type: manifest
+  path: benchmark/tool/C/CMakeLists.txt
+  blob_sha: 94ffaced01cf621c1ed53bf7bf32ce466cb4e714
+  retrieved: true
+- type: manifest
+  path: Demo/Android/AICamera/build.gradle
+  blob_sha: a47fa4bbf6730c7d1269737564381c8464224713
+  retrieved: true
+- type: manifest
+  path: Demo/Android/AICamera/app/build.gradle
+  blob_sha: 9b8c258a332e620d1c1b041798ac55193651bdbc
+  retrieved: true
+- type: manifest
+  path: Demo/Android/AICamera/app/CMakeLists.txt
+  blob_sha: fe00d122ddb87c3ef339dad965290ce24780f9c5
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 49487
+    C++: 5182
+    CMake: 3572
+    Shell: 1000
+- type: Git tree
+  status: captured
+  sha: 045dfd49e75b1d80295c9e4221dde1f3e2228131
+  truncated: false
+- type: source_file
+  path: Demo/linux/ssd/main.cpp
+  blob_sha: ada0c4043b1639d0be6daa441d096b022309b169
+  retrieved: true
+- type: source_file
+  path: Demo/Android/AICamera/app/src/androidTest/java/com/paddlepaddle/pdcamera/ExampleInstrumentedTest.java
+  blob_sha: 882a3dd5bd5ecedf4f37443c58bc19d9d2ee727b
+  retrieved: true
+- type: source_file
+  path: Demo/Android/AICamera/app/src/main/cpp/android_common.h
+  blob_sha: 06a3e94350d3269a68f5d60fe42d40be2757b091
+  retrieved: true
+- type: source_file
+  path: Demo/Android/AICamera/app/src/main/cpp/binary_reader.cpp
+  blob_sha: ac2be4a2b249452673c54e21d97af114318ea069
+  retrieved: true

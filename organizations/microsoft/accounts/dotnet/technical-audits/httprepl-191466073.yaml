@@ -1,0 +1,106 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:08:24+00:00'
+evidence_fingerprint: 56bf0b1d855c809ba2b2d775ee90fdf4d5bac9b9fa00989ab48bf4976a12c84c
+repository_metadata:
+  company: Microsoft
+  account: dotnet
+  full_name: dotnet/HttpRepl
+  repository_id: 191466073
+  url: https://github.com/dotnet/HttpRepl
+  description: The HTTP Read-Eval-Print Loop (REPL) is a lightweight, cross-platform command-line tool that's supported
+    everywhere .NET Core is supported and is used for making HTTP requests to test ASP.NET Core web APIs and view
+    their results.
+  default_branch: main
+  license_spdx: MIT
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2026-01-21T18:04:50Z'
+  stars: 707
+  readme_url: https://github.com/dotnet/HttpRepl/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ea9fb6e216d72b8031a4b45b9bfbd5dad259ba21
+  manifest_paths: []
+  source_files_inspected:
+  - src/Microsoft.HttpRepl.Telemetry/DockerContainerDetectorForTelemetry.cs
+  - src/Microsoft.HttpRepl.Telemetry/EnvironmentHelper.cs
+  - src/Microsoft.HttpRepl.Telemetry/FirstTimeUseNoticeSentinel.cs
+  - src/Microsoft.HttpRepl.Telemetry/IDockerContainerDetector.cs
+  repository_tree:
+    status: captured
+    sha: d8c2e47f9a4df9f1012885eaaf586ca30a24fb64
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: HttpRepl =======
+  why_used: The HTTP Read-Eval-Print Loop (REPL) is a lightweight, cross-platform command-line tool that's supported
+    everywhere .NET Core is supported and is used for making HTTP requests to test ASP.NET Core web APIs and view
+    their results.
+  core_features: []
+  technology_stack:
+    languages:
+    - C#
+    - PowerShell
+    - Shell
+    - CMake
+    - Python
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/Microsoft.HttpRepl.Telemetry/DockerContainerDetectorForTelemetry.cs,
+    src/Microsoft.HttpRepl.Telemetry/EnvironmentHelper.cs, src/Microsoft.HttpRepl.Telemetry/FirstTimeUseNoticeSentinel.cs,
+    src/Microsoft.HttpRepl.Telemetry/IDockerContainerDetector.cs'
+  setup_and_usage:
+  - 'Installation: To install the HttpRepl, run the following command:'
+  - 'Installation: dotnet tool install -g Microsoft.dotnet-httprepl'
+  - 'Installation: A .NET Core Global Tool is installed from the Microsoft.dotnet-httprepl NuGet package.'
+  - 'Usage: See the documentation for how to use and configure HttpRepl.'
+  limitations:
+  - 'Reporting security issues and bugs: Security issues and bugs should be reported privately, via email, to the
+    Microsoft Security Response Center (MSRC) secure@microsoft.com. You should receive a response within 24 hours.
+    If for some reason you do not, please follow up via email to ensure we received your original message. Further
+    information, including the MSRC PGP key, can be found i'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/dotnet/HttpRepl/blob/main/README.md
+  path: README.md
+  blob_sha: ea9fb6e216d72b8031a4b45b9bfbd5dad259ba21
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 819426
+    PowerShell: 171533
+    Shell: 132165
+    CMake: 14853
+    Python: 13176
+    Batchfile: 639
+- type: Git tree
+  status: captured
+  sha: d8c2e47f9a4df9f1012885eaaf586ca30a24fb64
+  truncated: false
+- type: source_file
+  path: src/Microsoft.HttpRepl.Telemetry/DockerContainerDetectorForTelemetry.cs
+  blob_sha: bba6d35f995b2e7138c92a49b72ee8c13fad8a57
+  retrieved: true
+- type: source_file
+  path: src/Microsoft.HttpRepl.Telemetry/EnvironmentHelper.cs
+  blob_sha: 322a6915c3f312fd828fa2618f065745e588a547
+  retrieved: true
+- type: source_file
+  path: src/Microsoft.HttpRepl.Telemetry/FirstTimeUseNoticeSentinel.cs
+  blob_sha: 7f0a13e2ef48da57d6723d05d54bb002542b7404
+  retrieved: true
+- type: source_file
+  path: src/Microsoft.HttpRepl.Telemetry/IDockerContainerDetector.cs
+  blob_sha: 04cdf0885b16ca54e0b952207a00658d30c8676a
+  retrieved: true

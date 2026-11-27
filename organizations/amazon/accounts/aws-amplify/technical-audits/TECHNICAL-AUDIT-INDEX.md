@@ -1,10 +1,10 @@
 # Technical audits — aws-amplify
 
-Updated: 2026-11-26T22:57:02+00:00
+Updated: 2026-11-27T07:24:08+00:00
 
 ## Status counts
 
-- evidence_only: 18
+- evidence_only: 22
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -29,4 +29,8 @@ Updated: 2026-11-26T22:57:02+00:00
 | amplify-js-samples-188472741 | evidence_only | [amplify-js-samples-188472741.md](amplify-js-samples-188472741.md) | [amplify-js-samples-188472741.yaml](amplify-js-samples-188472741.yaml) |
 | amplify-studio-316555325 | evidence_only | [amplify-studio-316555325.md](amplify-studio-316555325.md) | [amplify-studio-316555325.yaml](amplify-studio-316555325.yaml) |
 | amplify-swift-177009496 | evidence_only | [amplify-swift-177009496.md](amplify-swift-177009496.md) | [amplify-swift-177009496.yaml](amplify-swift-177009496.yaml) |
+| amplify-swift-plugin-toolkit-657755727 | evidence_only | [amplify-swift-plugin-toolkit-657755727.md](amplify-swift-plugin-toolkit-657755727.md) | [amplify-swift-plugin-toolkit-657755727.yaml](amplify-swift-plugin-toolkit-657755727.yaml) |
+| amplify-swift-utils-notifications-563527981 | evidence_only | [amplify-swift-utils-notifications-563527981.md](amplify-swift-utils-notifications-563527981.md) | [amplify-swift-utils-notifications-563527981.yaml](amplify-swift-utils-notifications-563527981.yaml) |
+| amplify-ui-351548334 | evidence_only | [amplify-ui-351548334.md](amplify-ui-351548334.md) | [amplify-ui-351548334.yaml](amplify-ui-351548334.yaml) |
+| amplify-ui-android-490439616 | evidence_only | [amplify-ui-android-490439616.md](amplify-ui-android-490439616.md) | [amplify-ui-android-490439616.yaml](amplify-ui-android-490439616.yaml) |
 | github-171341614 | insufficient_evidence | [github-171341614.md](github-171341614.md) | [github-171341614.yaml](github-171341614.yaml) |

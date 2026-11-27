@@ -1,0 +1,102 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:01:20+00:00'
+evidence_fingerprint: 931c308b246c5932e00b714e44f96bdca54c61e6315966b3544b104a200c36a6
+repository_metadata:
+  company: Baidu
+  account: xuperchain
+  full_name: xuperchain/wagon
+  repository_id: 222390065
+  url: https://github.com/xuperchain/wagon
+  description: wagon, a WebAssembly-based Go interpreter, for Go.
+  default_branch: master
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2020-03-13T16:43:34Z'
+  stars: 2
+  readme_url: https://github.com/xuperchain/wagon/blob/master/README.md
+  readme_path: README.md
+  readme_sha: bf988a22a6114f6b7aa815f38067ba3dcdc6c71c
+  manifest_paths:
+  - go.mod
+  source_files_inspected:
+  - cmd/wasm-dump/main.go
+  - cmd/wasm-run/main.go
+  - cmd/wasm-dump/hex.go
+  - cmd/wasm-dump/main_test.go
+  repository_tree:
+    status: captured
+    sha: c428b7c8cea1b998db25f12f6e7df0353e5abb86
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: wagon =====
+  why_used: wagon, a WebAssembly-based Go interpreter, for Go.
+  core_features:
+  - name: Add instruction gas support, it is still a basic version can barely run.
+    description: Add instruction gas support, it is still a basic version can barely run.
+    evidence:
+    - README.md#Additional features
+  - name: Add lazy compiling and cache of compiled code which speed up big wasm code like go.
+    description: Add lazy compiling and cache of compiled code which speed up big wasm code like go.
+    evidence:
+    - README.md#Additional features
+  technology_stack:
+    languages:
+    - Go
+    - Assembly
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/edsrzf/mmap-go
+    - github.com/twitchyliquid64/golang-asm
+    - golang.org/x/sys
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/wasm-dump/main.go,
+    cmd/wasm-run/main.go, cmd/wasm-dump/hex.go, cmd/wasm-dump/main_test.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/xuperchain/wagon/blob/master/README.md
+  path: README.md
+  blob_sha: bf988a22a6114f6b7aa815f38067ba3dcdc6c71c
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 4a30e74aa1ec0af4c608862af1278db1ec865501
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 438950
+    Assembly: 787
+- type: Git tree
+  status: captured
+  sha: c428b7c8cea1b998db25f12f6e7df0353e5abb86
+  truncated: false
+- type: source_file
+  path: cmd/wasm-dump/main.go
+  blob_sha: 4764b5de489763fdc241afede230b5ed09e8bf4d
+  retrieved: true
+- type: source_file
+  path: cmd/wasm-run/main.go
+  blob_sha: b6ab96cf5b5c322d15b9fa3cf16afb478593cecb
+  retrieved: true
+- type: source_file
+  path: cmd/wasm-dump/hex.go
+  blob_sha: 41c0753601414c338694d8e7e0295f89cffba25f
+  retrieved: true
+- type: source_file
+  path: cmd/wasm-dump/main_test.go
+  blob_sha: 97f749ba992136aab607c9d984884e29a80d2175
+  retrieved: true

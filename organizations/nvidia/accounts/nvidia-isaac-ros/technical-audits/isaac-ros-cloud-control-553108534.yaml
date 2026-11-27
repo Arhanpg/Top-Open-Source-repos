@@ -1,0 +1,123 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:15:53+00:00'
+evidence_fingerprint: c08ca38938c337c47f069e945d14f3a14d218c0a55ed0db121d81e1ac2d8ddd6
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/isaac_ros_cloud_control
+  repository_id: 553108534
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_cloud_control
+  description: VDA5050-compatible mission controller
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T06:56:52Z'
+  stars: 82
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_cloud_control/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a9d4cb8f4c491cb8685703f697171b121e84bf55
+  manifest_paths:
+  - isaac_ros_cloud_control_interface/CMakeLists.txt
+  - isaac_ros_humanoid_task_server/setup.py
+  - isaac_ros_json_info_generator/setup.py
+  - isaac_ros_mega_controller/setup.py
+  - isaac_ros_mega_node_monitor/setup.py
+  - isaac_ros_mission_client/CMakeLists.txt
+  source_files_inspected:
+  - isaac_ros_vda5050_client/src/example_action_handler.cpp
+  - isaac_ros_vda5050_client/src/vda5050_client_main.cpp
+  - isaac_ros_vda5050_client/src/vda5050_client_node.cpp
+  - vda5050_action_handler_plugins/src/apriltag_handler.cpp
+  repository_tree:
+    status: captured
+    sha: 0a9e02e685207754d2498b7831d408410fe6a132
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: VDA5050-compatible mission controller
+  why_used: VDA5050-compatible mission controller
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: isaac_ros_vda5050_client/src/example_action_handler.cpp,
+    isaac_ros_vda5050_client/src/vda5050_client_main.cpp, isaac_ros_vda5050_client/src/vda5050_client_node.cpp,
+    vda5050_action_handler_plugins/src/apriltag_handler.cpp'
+  setup_and_usage:
+  - 'Quickstart: A Quickstart with Isaac Sim is here.'
+  - 'Quickstart: MCP tutorials in Cursor:'
+  - 'Quickstart: - Mission Control MCP in Cursor'
+  - 'Quickstart: - Mission Dispatch MCP in Cursor'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_cloud_control/blob/main/README.md
+  path: README.md
+  blob_sha: a9d4cb8f4c491cb8685703f697171b121e84bf55
+  retrieved: true
+- type: manifest
+  path: isaac_ros_cloud_control_interface/CMakeLists.txt
+  blob_sha: e7ddf4c4c8753b6bb70516dbace62515ce183dd6
+  retrieved: true
+- type: manifest
+  path: isaac_ros_humanoid_task_server/setup.py
+  blob_sha: e9dda0878e38413c9ea4dd05924d4dcf642456ba
+  retrieved: true
+- type: manifest
+  path: isaac_ros_json_info_generator/setup.py
+  blob_sha: cf52d7abdfd1147be854186c50534e7482ed4f2a
+  retrieved: true
+- type: manifest
+  path: isaac_ros_mega_controller/setup.py
+  blob_sha: 8a7618f7e911a19085ae9caf432376f5aa39556a
+  retrieved: true
+- type: manifest
+  path: isaac_ros_mega_node_monitor/setup.py
+  blob_sha: a0266247a2decb5341e81c5037c8ee47d871712c
+  retrieved: true
+- type: manifest
+  path: isaac_ros_mission_client/CMakeLists.txt
+  blob_sha: dccf5c260ae7fa9624e101beb823df177ee3e910
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 169953
+    CMake: 18179
+    Shell: 1173
+- type: Git tree
+  status: captured
+  sha: 0a9e02e685207754d2498b7831d408410fe6a132
+  truncated: false
+- type: source_file
+  path: isaac_ros_vda5050_client/src/example_action_handler.cpp
+  blob_sha: 0628e0385a8053fb449cc1ad8fd087ce719a8bfc
+  retrieved: true
+- type: source_file
+  path: isaac_ros_vda5050_client/src/vda5050_client_main.cpp
+  blob_sha: a4ad08216d6873a65adf5bf438430dac2971cbc9
+  retrieved: true
+- type: source_file
+  path: isaac_ros_vda5050_client/src/vda5050_client_node.cpp
+  blob_sha: fa668be85bdb2737f9f4ba81457b9402bedf49c6
+  retrieved: true
+- type: source_file
+  path: vda5050_action_handler_plugins/src/apriltag_handler.cpp
+  blob_sha: 7b5ebc504708fd243c4353ff444668165f443ca3
+  retrieved: true

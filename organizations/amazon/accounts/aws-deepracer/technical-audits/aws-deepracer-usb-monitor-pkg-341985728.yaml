@@ -1,0 +1,96 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:05:52+00:00'
+evidence_fingerprint: f2c4e473e985b20f2530c3fb107dc5e92c16a387aa1fd386be33e88f86e4b83c
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/aws-deepracer-usb-monitor-pkg
+  repository_id: 341985728
+  url: https://github.com/aws-deepracer/aws-deepracer-usb-monitor-pkg
+  description: The DeepRacer USB Monitor ROS package creates the usb_monitor_node which monitors the connection/disconnection
+    of the USB drive and provides functionality to watch for specific files/folders in it.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2021-06-02T20:31:08Z'
+  stars: 2
+  readme_url: https://github.com/aws-deepracer/aws-deepracer-usb-monitor-pkg/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f776156980f18c6c67d336e069b538e8cfc97a48
+  manifest_paths:
+  - usb_monitor_pkg/setup.py
+  source_files_inspected:
+  - usb_monitor_pkg/launch/usb_monitor_pkg_launch.py
+  - usb_monitor_pkg/setup.py
+  - usb_monitor_pkg/usb_monitor_pkg/__init__.py
+  - usb_monitor_pkg/usb_monitor_pkg/constants.py
+  repository_tree:
+    status: captured
+    sha: 90a62c9ec4d4086ea7bf16c9657d52026cc1a118
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The AWS DeepRacer USB monitor ROS package creates the usb_monitor_node, which is part of the core AWS
+    DeepRacer application and launches from the deepracer_launcher. For more information about the application and
+    the components, see the aws-deepracer-launcher repository.
+  why_used: The DeepRacer USB Monitor ROS package creates the usb_monitor_node which monitors the connection/disconnection
+    of the USB drive and provides functionality to watch for specific files/folders in it.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: usb_monitor_pkg/launch/usb_monitor_pkg_launch.py,
+    usb_monitor_pkg/setup.py, usb_monitor_pkg/usb_monitor_pkg/__init__.py, usb_monitor_pkg/usb_monitor_pkg/constants.py'
+  setup_and_usage:
+  - 'Installation: Follow these steps to install the AWS DeepRacer USB monitor package.'
+  - 'Usage: The usb_monitor_node provides basic system-level functionality for the AWS DeepRacer application to
+    work. Although the node is built to work with the AWS DeepRacer application, you can run it independently for
+    development, testing, and debugging purposes.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/aws-deepracer-usb-monitor-pkg/blob/main/README.md
+  path: README.md
+  blob_sha: f776156980f18c6c67d336e069b538e8cfc97a48
+  retrieved: true
+- type: manifest
+  path: usb_monitor_pkg/setup.py
+  blob_sha: a7c5e638cfcb85324c9bf44298a175f853c3c3e0
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 30785
+- type: Git tree
+  status: captured
+  sha: 90a62c9ec4d4086ea7bf16c9657d52026cc1a118
+  truncated: false
+- type: source_file
+  path: usb_monitor_pkg/launch/usb_monitor_pkg_launch.py
+  blob_sha: 83a4e909f051ca5342e6cedd3d2936b0ca9023f9
+  retrieved: true
+- type: source_file
+  path: usb_monitor_pkg/setup.py
+  blob_sha: a7c5e638cfcb85324c9bf44298a175f853c3c3e0
+  retrieved: true
+- type: source_file
+  path: usb_monitor_pkg/usb_monitor_pkg/__init__.py
+  blob_sha: 83a73bbc05b4236628deb8041723bd42d99b58ca
+  retrieved: true
+- type: source_file
+  path: usb_monitor_pkg/usb_monitor_pkg/constants.py
+  blob_sha: c474b6c046d313ada5925f3458d030601b0c8574
+  retrieved: true

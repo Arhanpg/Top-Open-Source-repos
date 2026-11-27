@@ -1,0 +1,100 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:08:00+00:00'
+evidence_fingerprint: 01fc122247c339c0a8a4c5ff3bb4c12528760626c0aad420ce04b3ad0a94eac1
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/MetaGym
+  repository_id: 196743910
+  url: https://github.com/PaddlePaddle/MetaGym
+  description: Collection of Reinforcement Learning / Meta Reinforcement Learning Environments.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-07-15T17:29:11Z'
+  stars: 303
+  readme_url: https://github.com/PaddlePaddle/MetaGym/blob/master/README.md
+  readme_path: README.md
+  readme_sha: f8d94e55c75f6a23bb9fb6df599be1a98366aa5a
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  source_files_inspected:
+  - metagym/__init__.py
+  - metagym/bandits/__init__.py
+  - metagym/bandits/bandits_env.py
+  - metagym/bandits/demo_thompson_sampling.py
+  repository_tree:
+    status: captured
+    sha: 0c73628bd5917ea22ef08557425ffefefd9351ae
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: MetaGym provides abundant environments for benchmarking Reinforcement Learning and Meta Reinforcement
+    Learning
+  why_used: Collection of Reinforcement Learning / Meta Reinforcement Learning Environments.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - mock
+    - numpy
+    - pyglet
+    - setuptools
+    - six
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: metagym/__init__.py,
+    metagym/bandits/__init__.py, metagym/bandits/bandits_env.py, metagym/bandits/demo_thompson_sampling.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/MetaGym/blob/master/README.md
+  path: README.md
+  blob_sha: f8d94e55c75f6a23bb9fb6df599be1a98366aa5a
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 56dc52ca511c49e3212110dff05cf842d9e5afa7
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 1745d5e433c220c6cd34e10484135de78d278d07
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 638273
+- type: Git tree
+  status: captured
+  sha: 0c73628bd5917ea22ef08557425ffefefd9351ae
+  truncated: false
+- type: source_file
+  path: metagym/__init__.py
+  blob_sha: 1c42012066391dbb8a299e980528cd00c950bf18
+  retrieved: true
+- type: source_file
+  path: metagym/bandits/__init__.py
+  blob_sha: 2263adf1f804795063dd1835dcf2b89458c2235e
+  retrieved: true
+- type: source_file
+  path: metagym/bandits/bandits_env.py
+  blob_sha: cb92879126f1a61332fef96693a99d33bda36601
+  retrieved: true
+- type: source_file
+  path: metagym/bandits/demo_thompson_sampling.py
+  blob_sha: 64491ae0fff99e9de1112323f4862b2bde02d5f7
+  retrieved: true

@@ -1,0 +1,113 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:12:01+00:00'
+evidence_fingerprint: 3bed74a9f8784d317ebda90f2a0945c1dd3b77e7c32dd7ca5cbc0b9c918256fc
+repository_metadata:
+  company: Amazon
+  account: aws
+  full_name: aws/amazon-chime-sdk-android
+  repository_id: 249543698
+  url: https://github.com/aws/amazon-chime-sdk-android
+  description: An Android client library for integrating multi-party communications powered by the Amazon Chime
+    service.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T19:21:10Z'
+  stars: 113
+  readme_url: https://github.com/aws/amazon-chime-sdk-android/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 3f2c9ff1037b0be6581c2924b2f150a1b6df0856
+  manifest_paths:
+  - build.gradle
+  - amazon-chime-sdk/build.gradle
+  - app/build.gradle
+  source_files_inspected:
+  - amazon-chime-sdk/src/androidTest/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/backgroundfilter/BackgroundFilterVideoFrameProcessorTest.kt
+  - amazon-chime-sdk/src/androidTest/java/com/amazonaws/services/chime/sdk/meetings/internal/utils/SQLiteDatabaseManagerIntegrationTests.kt
+  - amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/analytics/DefaultEventAnalyticsController.kt
+  - amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/analytics/DefaultMeetingStatsCollector.kt
+  repository_tree:
+    status: captured
+    sha: 5c834beb1ab9ef714347b52d2fbd9ab400fd6ed9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Amazon Chime SDK Project Board
+  why_used: An Android client library for integrating multi-party communications powered by the Amazon Chime service.
+  core_features: []
+  technology_stack:
+    languages:
+    - Kotlin
+    - Java
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle build file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: amazon-chime-sdk/src/androidTest/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/backgroundfilter/BackgroundFilterVideoFrameProcessorTest.kt,
+    amazon-chime-sdk/src/androidTest/java/com/amazonaws/services/chime/sdk/meetings/internal/utils/SQLiteDatabaseManagerIntegrationTests.kt,
+    amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/analytics/DefaultEventAnalyticsController.kt,
+    amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/analytics/DefaultMeetingStatsCollector.kt'
+  setup_and_usage:
+  - 'Usage examples: > Replace with the latest version from the latest release.'
+  - 'Usage: - Screen and content share'
+  - 'Usage: - Custom Video Source'
+  - 'Usage: - Background Blur and Replacement'
+  limitations:
+  - 'Java Compatibility: For Java 17 compatibility, add this inside your app/build.gradle:'
+  - 'Java Compatibility: sourceCompatibility JavaVersion.VERSION_17'
+  - 'Java Compatibility: targetCompatibility JavaVersion.VERSION_17'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws/amazon-chime-sdk-android/blob/master/README.md
+  path: README.md
+  blob_sha: 3f2c9ff1037b0be6581c2924b2f150a1b6df0856
+  retrieved: true
+- type: manifest
+  path: build.gradle
+  blob_sha: 2007ebbd83884f97baee9f8f178c32a38b7f8b0f
+  retrieved: true
+- type: manifest
+  path: amazon-chime-sdk/build.gradle
+  blob_sha: 7b1c253c348a4a9c436c1cf0eb061d2f43651b29
+  retrieved: true
+- type: manifest
+  path: app/build.gradle
+  blob_sha: d61fc38a36bf861101ff41e65c4e72235ce2368f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Kotlin: 1472659
+    Java: 4778
+    Shell: 119
+- type: Git tree
+  status: captured
+  sha: 5c834beb1ab9ef714347b52d2fbd9ab400fd6ed9
+  truncated: false
+- type: source_file
+  path: amazon-chime-sdk/src/androidTest/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/backgroundfilter/BackgroundFilterVideoFrameProcessorTest.kt
+  blob_sha: 10018712eebe2ddffa0c2b657910d214a2249ca2
+  retrieved: true
+- type: source_file
+  path: amazon-chime-sdk/src/androidTest/java/com/amazonaws/services/chime/sdk/meetings/internal/utils/SQLiteDatabaseManagerIntegrationTests.kt
+  blob_sha: 3209fca096f6fc1b9d60e2f19465b37d2693fa21
+  retrieved: true
+- type: source_file
+  path: amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/analytics/DefaultEventAnalyticsController.kt
+  blob_sha: 106f9f741d8e11eb555a878eb9e51d0b8c8f7c8b
+  retrieved: true
+- type: source_file
+  path: amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/analytics/DefaultMeetingStatsCollector.kt
+  blob_sha: bd0bd90e045ad0d83a70e530acbf3caa01be8c75
+  retrieved: true

@@ -1,0 +1,102 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:18:52+00:00'
+evidence_fingerprint: 0d1fb1b9001f7de45dc51d2f74d6b7c06f04c04992a86569d19ac20e1ecf9e21
+repository_metadata:
+  company: Amazon
+  account: aws-actions
+  full_name: aws-actions/handle-non-labeled-issues
+  repository_id: 1292769791
+  url: https://github.com/aws-actions/handle-non-labeled-issues
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T04:54:44Z'
+  stars: 0
+  readme_url: https://github.com/aws-actions/handle-non-labeled-issues/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ed6bac5b550784215000a06953a01066f8d595f9
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/index.ts
+  - src/main.ts
+  repository_tree:
+    status: captured
+    sha: eba87177e17dac2923b21adb415cbbd448c5bf89
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Issues created through the GitHub web interface can have templates applied to them, which allows maintainers
+    to set a label on new issue creation. But there's no way to enforce that a label is applied to an issue when
+    it is created through the API or gh CLI. LLM agents especially prefer to use the API to create issues, which
+    can lead to unlabeled issues being created.
+  why_used: Issues created through the GitHub web interface can have templates applied to them, which allows maintainers
+    to set a label on new issue creation. But there's no way to enforce that a label is applied to an issue when
+    it is created through the API or gh CLI. LLM agents especially prefer to use the API to create issues, which
+    can lead to unlabeled issues being created.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@actions/github'
+    - '@biomejs/biome'
+    - '@types/node'
+    - '@vitest/coverage-v8'
+    - esbuild
+    - generate-license-file
+    - markdownlint-cli
+    - typescript
+    - vitest
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/index.ts, src/main.ts'
+  setup_and_usage:
+  - 'Usage: Use this example workflow file:'
+  - 'Usage: name: Handle Non-labeled Issues'
+  - 'Usage: handle_non_labeled_issues:'
+  - 'Usage: runs-on: ubuntu-latest'
+  - 'Usage: - uses: aws-actions/handle-non-labeled-issues@v1'
+  - 'Usage: Hi! This issue was created via the API, so it didn''t have a label'
+  - 'Usage: and may be missing some information. Please use the issue template'
+  - 'Usage: through the GitHub web interface next time to ensure that we have'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-actions/handle-non-labeled-issues/blob/main/README.md
+  path: README.md
+  blob_sha: ed6bac5b550784215000a06953a01066f8d595f9
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: b522891bfb28ebb44599ca68fa924ef57f75d35e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 8182
+- type: Git tree
+  status: captured
+  sha: eba87177e17dac2923b21adb415cbbd448c5bf89
+  truncated: false
+- type: source_file
+  path: src/index.ts
+  blob_sha: 9c4b15a613100d2d5553e8ca79c122a8be86f10a
+  retrieved: true
+- type: source_file
+  path: src/main.ts
+  blob_sha: 4d033272057fe1dc001f74e9c1f2208aed770e0c
+  retrieved: true

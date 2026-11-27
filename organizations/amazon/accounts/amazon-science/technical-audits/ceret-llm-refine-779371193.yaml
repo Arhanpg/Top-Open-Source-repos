@@ -1,0 +1,88 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:05:04+00:00'
+evidence_fingerprint: aa4af333a387a4ab8d0fc668ddf69141b9dab79bd2fd2797ca232fb0e0835950
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/CERET-LLM-refine
+  repository_id: 779371193
+  url: https://github.com/amazon-science/CERET-LLM-refine
+  description: 'This is the code repository for paper CERET: Cost-Effective Extrinsic Refinement for Text Generation
+    (NAACL 2024).'
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-06-12T03:01:02Z'
+  stars: 5
+  readme_url: https://github.com/amazon-science/CERET-LLM-refine/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 04466f33a73c85a5486a74035d0134d01a1bc00c
+  manifest_paths: []
+  source_files_inspected:
+  - eg/refine.sh
+  - eval/metrics.py
+  - eval/refiner.py
+  - utils/args.py
+  repository_tree:
+    status: captured
+    sha: 9573120e9525559526f90212d2a4dedc69ace811
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'Authors: Jason Cai, Hang Su, Monica Sunkara, Igor Shalyminov, Saab Mansour'
+  why_used: 'This is the code repository for paper CERET: Cost-Effective Extrinsic Refinement for Text Generation
+    (NAACL 2024).'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: eg/refine.sh, eval/metrics.py,
+    eval/refiner.py, utils/args.py'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/CERET-LLM-refine/blob/main/README.md
+  path: README.md
+  blob_sha: 04466f33a73c85a5486a74035d0134d01a1bc00c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 46329
+    Shell: 945
+- type: Git tree
+  status: captured
+  sha: 9573120e9525559526f90212d2a4dedc69ace811
+  truncated: false
+- type: source_file
+  path: eg/refine.sh
+  blob_sha: 2fbdb491c6d0e9bcaa0083d03688f79a6f733ebd
+  retrieved: true
+- type: source_file
+  path: eval/metrics.py
+  blob_sha: 91db49a90fd4558623da5b6aad4a4e918f7b4a1c
+  retrieved: true
+- type: source_file
+  path: eval/refiner.py
+  blob_sha: d399471394253d13bea4fc3062eeec34cd88e94c
+  retrieved: true
+- type: source_file
+  path: utils/args.py
+  blob_sha: e0a41bb1f0871a17e9a4fa4e421ceb6d3621ec00
+  retrieved: true

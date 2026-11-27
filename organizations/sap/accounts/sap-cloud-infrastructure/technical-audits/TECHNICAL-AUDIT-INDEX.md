@@ -1,10 +1,10 @@
 # Technical audits — sap-cloud-infrastructure
 
-Updated: 2026-11-26T22:57:03+00:00
+Updated: 2026-11-27T07:24:11+00:00
 
 ## Status counts
 
-- evidence_only: 15
+- evidence_only: 19
 
 ## Repository dossiers
 
@@ -25,3 +25,7 @@ Updated: 2026-11-26T22:57:03+00:00
 | opensearch-query-exporter-1170760047 | evidence_only | [opensearch-query-exporter-1170760047.md](opensearch-query-exporter-1170760047.md) | [opensearch-query-exporter-1170760047.yaml](opensearch-query-exporter-1170760047.yaml) |
 | opensearch-security-analytics-1266384333 | evidence_only | [opensearch-security-analytics-1266384333.md](opensearch-security-analytics-1266384333.md) | [opensearch-security-analytics-1266384333.yaml](opensearch-security-analytics-1266384333.yaml) |
 | persephone-1348180331 | evidence_only | [persephone-1348180331.md](persephone-1348180331.md) | [persephone-1348180331.yaml](persephone-1348180331.yaml) |
+| repository-template-1161575865 | evidence_only | [repository-template-1161575865.md](repository-template-1161575865.md) | [repository-template-1161575865.yaml](repository-template-1161575865.yaml) |
+| sap-hana-backup-integration-1223564528 | evidence_only | [sap-hana-backup-integration-1223564528.md](sap-hana-backup-integration-1223564528.md) | [sap-hana-backup-integration-1223564528.yaml](sap-hana-backup-integration-1223564528.yaml) |
+| technical-interview-tasks-1142348806 | evidence_only | [technical-interview-tasks-1142348806.md](technical-interview-tasks-1142348806.md) | [technical-interview-tasks-1142348806.yaml](technical-interview-tasks-1142348806.yaml) |
+| terraform-provider-sci-139866035 | evidence_only | [terraform-provider-sci-139866035.md](terraform-provider-sci-139866035.md) | [terraform-provider-sci-139866035.yaml](terraform-provider-sci-139866035.yaml) |

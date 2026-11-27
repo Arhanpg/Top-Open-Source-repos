@@ -1,0 +1,133 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:03:44+00:00'
+evidence_fingerprint: 8e60ab763526f79f4249908f0a4e21661aadb60bd3becdeb7967d62b8ef962ec
+repository_metadata:
+  company: SAP
+  account: UI5
+  full_name: UI5/sample-webcomponents-openui5
+  repository_id: 1318183745
+  url: https://github.com/UI5/sample-webcomponents-openui5
+  description: Reference app for using UI5 Web Components in OpenUI5/SAPUI5
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-31T15:56:32Z'
+  stars: 1
+  readme_url: https://github.com/UI5/sample-webcomponents-openui5/blob/main/README.md
+  readme_path: README.md
+  readme_sha: def3fe24b485da311c2eb179cf961ecb0c04c43f
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - webapp/Component.ts
+  - webapp/controller/App.controller.ts
+  repository_tree:
+    status: captured
+    sha: 48ced0aa40ace3a484681ccd78301465c1d8b4d5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Reference app for using UI5 Web Components in OpenUI5/SAPUI5 as first-class citizen within OpenUI5/SAPUI5
+    programming model
+  why_used: Reference app for using UI5 Web Components in OpenUI5/SAPUI5
+  core_features:
+  - name: Add a todo (text + deadline) via **Input**, **DatePicker** and an **Emphasized Button**
+    description: Add a todo (text + deadline) via **Input**, **DatePicker** and an **Emphasized Button**
+    evidence:
+    - README.md#Features
+  - name: Two **Panels** — *Incompleted Tasks* and *Completed Tasks* — populated from a JSON model and kept in sync
+      with a done flag
+    description: Two **Panels** — *Incompleted Tasks* and *Completed Tasks* — populated from a JSON model and kept
+      in sync with a done flag
+    evidence:
+    - README.md#Features
+  - name: Mark items done / not-done by selecting them in the multi-selection **List** (an item selected in *Incompleted*
+      moves to *Completed*, and vice-versa)
+    description: Mark items done / not-done by selecting them in the multi-selection **List** (an item selected
+      in *Incompleted* moves to *Completed*, and vice-versa)
+    evidence:
+    - README.md#Features
+  - name: '**Edit** and **Delete** actions per item; editing opens a **Dialog** (TextArea + DatePicker)'
+    description: '**Edit** and **Delete** actions per item; editing opens a **Dialog** (TextArea + DatePicker)'
+    evidence:
+    - README.md#Features
+  - name: '**ShellBar** with a logo, a theme-switcher **Popover** (Horizon / Quartz, incl. high-contrast variants)
+      and a profile **Popover**'
+    description: '**ShellBar** with a logo, a theme-switcher **Popover** (Horizon / Quartz, incl. high-contrast
+      variants) and a profile **Popover**'
+    evidence:
+    - README.md#Features
+  - name: Profile popover opens **Settings** and **Help** dialogs
+    description: Profile popover opens **Settings** and **Help** dialogs
+    evidence:
+    - README.md#Features
+  - name: '**RTL** toggle and **compact content density** toggle in Settings'
+    description: '**RTL** toggle and **compact content density** toggle in Settings'
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - TypeScript
+    - CSS
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@types/openui5'
+    - '@ui5/cli'
+    - '@ui5/webcomponents'
+    - '@ui5/webcomponents-fiori'
+    - '@ui5/webcomponents-icons'
+    - typescript
+    - ui5-middleware-livereload
+    - ui5-tooling-modules
+    - ui5-tooling-transpile
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: webapp/Component.ts,
+    webapp/controller/App.controller.ts'
+  setup_and_usage:
+  - 'Getting started: npm start runs ui5 serve and opens the app in your browser. To build a self-contained production
+    bundle into dist/:'
+  - 'Getting started: To type-check the TypeScript sources without emitting:'
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/UI5/sample-webcomponents-openui5/blob/main/README.md
+  path: README.md
+  blob_sha: def3fe24b485da311c2eb179cf961ecb0c04c43f
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: d3b32f681122bc7603c5e024ebdfcb0da78853e8
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 7931
+    CSS: 1099
+    HTML: 818
+- type: Git tree
+  status: captured
+  sha: 48ced0aa40ace3a484681ccd78301465c1d8b4d5
+  truncated: false
+- type: source_file
+  path: webapp/Component.ts
+  blob_sha: 0d29e617d59a35fd7d01751d2a6f3ce738599521
+  retrieved: true
+- type: source_file
+  path: webapp/controller/App.controller.ts
+  blob_sha: 4ceb15b93dc5267878a6f550236247b82d4477ab
+  retrieved: true

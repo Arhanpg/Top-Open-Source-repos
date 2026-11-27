@@ -1,0 +1,92 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:14:56+00:00'
+evidence_fingerprint: 01f8026e247a110241efafe6b019cba9408823cc756a99f2f90845a61d125fe8
+repository_metadata:
+  company: Baidu
+  account: xuperchain
+  full_name: xuperchain/xasset-sdk-go
+  repository_id: 431727189
+  url: https://github.com/xuperchain/xasset-sdk-go
+  description: XuperAsset platform golang SDK.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-11-07T07:29:08Z'
+  stars: 10
+  readme_url: https://github.com/xuperchain/xasset-sdk-go/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a3a62570638a3ca6dae3ebdde9166013de014b68
+  manifest_paths:
+  - go.mod
+  source_files_inspected:
+  - tools/xasset-cli/main.go
+  - tools/xasset-cli/cmd/account.go
+  - tools/xasset-cli/cmd/base.go
+  - tools/xasset-cli/cmd/sign.go
+  repository_tree:
+    status: captured
+    sha: 74e590f75971e0edc92c618d277e4f3688c854d2
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 本项目提供Xasset Go语言版的开发者工具包（SDK），开发者可以基于该SDK使用Go语言接入到Xasset平台。
+  why_used: XuperAsset platform golang SDK.
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/baidubce/bce-sdk-go
+    - github.com/spf13/cobra
+    - github.com/xuperchain/crypto
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: tools/xasset-cli/main.go,
+    tools/xasset-cli/cmd/account.go, tools/xasset-cli/cmd/base.go, tools/xasset-cli/cmd/sign.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/xuperchain/xasset-sdk-go/blob/main/README.md
+  path: README.md
+  blob_sha: a3a62570638a3ca6dae3ebdde9166013de014b68
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 7c0c9d5808bf8221889c5fa70c92b9cdc8f459e2
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 248893
+- type: Git tree
+  status: captured
+  sha: 74e590f75971e0edc92c618d277e4f3688c854d2
+  truncated: false
+- type: source_file
+  path: tools/xasset-cli/main.go
+  blob_sha: a3e62033142d731693949d5446e8c5bd549687ea
+  retrieved: true
+- type: source_file
+  path: tools/xasset-cli/cmd/account.go
+  blob_sha: f9fbdb39fd6a1849133081d093a6cae76cf59faf
+  retrieved: true
+- type: source_file
+  path: tools/xasset-cli/cmd/base.go
+  blob_sha: 4d69c56e83ada78f90c344ba565fab29512046b1
+  retrieved: true
+- type: source_file
+  path: tools/xasset-cli/cmd/sign.go
+  blob_sha: 1c4de3a0713b388a70f7a713491996050d5dd346
+  retrieved: true

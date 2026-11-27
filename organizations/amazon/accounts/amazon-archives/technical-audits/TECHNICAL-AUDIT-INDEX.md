@@ -1,10 +1,10 @@
 # Technical audits — amazon-archives
 
-Updated: 2026-11-26T22:57:03+00:00
+Updated: 2026-11-27T07:24:09+00:00
 
 ## Status counts
 
-- evidence_only: 19
+- evidence_only: 23
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -22,6 +22,10 @@ Updated: 2026-11-26T22:57:03+00:00
 | amazon-cognito-js-26130293 | evidence_only | [amazon-cognito-js-26130293.md](amazon-cognito-js-26130293.md) | [amazon-cognito-js-26130293.yaml](amazon-cognito-js-26130293.yaml) |
 | amazon-cognito-streams-sample-31430470 | evidence_only | [amazon-cognito-streams-sample-31430470.md](amazon-cognito-streams-sample-31430470.md) | [amazon-cognito-streams-sample-31430470.yaml](amazon-cognito-streams-sample-31430470.yaml) |
 | amazon-cognito-unity-28116001 | evidence_only | [amazon-cognito-unity-28116001.md](amazon-cognito-unity-28116001.md) | [amazon-cognito-unity-28116001.yaml](amazon-cognito-unity-28116001.yaml) |
+| amazon-creator-mrss-feed-sample-124922636 | evidence_only | [amazon-creator-mrss-feed-sample-124922636.md](amazon-creator-mrss-feed-sample-124922636.md) | [amazon-creator-mrss-feed-sample-124922636.yaml](amazon-creator-mrss-feed-sample-124922636.yaml) |
+| amazon-dsstne-54621372 | evidence_only | [amazon-dsstne-54621372.md](amazon-dsstne-54621372.md) | [amazon-dsstne-54621372.yaml](amazon-dsstne-54621372.yaml) |
+| amazon-ecs-interstella-workshop-111957371 | evidence_only | [amazon-ecs-interstella-workshop-111957371.md](amazon-ecs-interstella-workshop-111957371.md) | [amazon-ecs-interstella-workshop-111957371.yaml](amazon-ecs-interstella-workshop-111957371.yaml) |
+| amazon-kinesis-connectors-14697005 | evidence_only | [amazon-kinesis-connectors-14697005.md](amazon-kinesis-connectors-14697005.md) | [amazon-kinesis-connectors-14697005.yaml](amazon-kinesis-connectors-14697005.yaml) |
 | aws-mimic-iiitoomop-91026662 | evidence_only | [aws-mimic-iiitoomop-91026662.md](aws-mimic-iiitoomop-91026662.md) | [aws-mimic-iiitoomop-91026662.yaml](aws-mimic-iiitoomop-91026662.yaml) |
 | bsmobileprovision-10947817 | evidence_only | [bsmobileprovision-10947817.md](bsmobileprovision-10947817.md) | [bsmobileprovision-10947817.yaml](bsmobileprovision-10947817.yaml) |
 | github-171341969 | insufficient_evidence | [github-171341969.md](github-171341969.md) | [github-171341969.yaml](github-171341969.yaml) |

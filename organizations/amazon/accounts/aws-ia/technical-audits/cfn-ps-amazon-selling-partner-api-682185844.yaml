@@ -1,0 +1,112 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:06:01+00:00'
+evidence_fingerprint: 2e0bc1fc7b0b2debf5cea1bb8bd11cc22863ffcbf1465406194af0c885ee992b
+repository_metadata:
+  company: Amazon
+  account: aws-ia
+  full_name: aws-ia/cfn-ps-amazon-selling-partner-api
+  repository_id: 682185844
+  url: https://github.com/aws-ia/cfn-ps-amazon-selling-partner-api
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-10-03T18:52:41Z'
+  stars: 6
+  readme_url: https://github.com/aws-ia/cfn-ps-amazon-selling-partner-api/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 534b5637811b52df30a8e74c0b9e7a3fcaf81b34
+  manifest_paths:
+  - .project_automation/functional_tests/Dockerfile
+  - .project_automation/publication/Dockerfile
+  - .project_automation/static_tests/Dockerfile
+  - functions/source/ExampleLambda/requirements.txt
+  source_files_inspected:
+  - .project_automation/deprecation/entrypoint.sh
+  - .project_automation/deprovision/entrypoint.sh
+  - .project_automation/functional_tests/entrypoint.sh
+  - .project_automation/init/noop.sh
+  repository_tree:
+    status: captured
+    sha: 0ff00837625f034537972094af2d5a31722c7b72
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ':x: This repository is subject to deprecation in Q4 2024. For more details, please review this announcement.'
+  why_used: ':x: This repository is subject to deprecation in Q4 2024. For more details, please review this announcement.'
+  core_features: []
+  technology_stack:
+    languages:
+    - HTML
+    - Shell
+    - Python
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - requests-aws4auth
+    build_and_package_tools:
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .project_automation/deprecation/entrypoint.sh,
+    .project_automation/deprovision/entrypoint.sh, .project_automation/functional_tests/entrypoint.sh, .project_automation/init/noop.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-ia/cfn-ps-amazon-selling-partner-api/blob/main/README.md
+  path: README.md
+  blob_sha: 534b5637811b52df30a8e74c0b9e7a3fcaf81b34
+  retrieved: true
+- type: manifest
+  path: .project_automation/functional_tests/Dockerfile
+  blob_sha: 6ed770737f66fce33a512b38308ad61bfd87e5dc
+  retrieved: true
+- type: manifest
+  path: .project_automation/publication/Dockerfile
+  blob_sha: 5294774881be1b9eb3680dd8d8e63b5575487172
+  retrieved: true
+- type: manifest
+  path: .project_automation/static_tests/Dockerfile
+  blob_sha: bf8f5df07afba4a616b18e473866c947266c7c92
+  retrieved: true
+- type: manifest
+  path: functions/source/ExampleLambda/requirements.txt
+  blob_sha: bb39cfbfcc6ba11ad61350c7dc673d5f7e512373
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    HTML: 65900
+    Shell: 8007
+    Python: 7642
+    Dockerfile: 778
+- type: Git tree
+  status: captured
+  sha: 0ff00837625f034537972094af2d5a31722c7b72
+  truncated: false
+- type: source_file
+  path: .project_automation/deprecation/entrypoint.sh
+  blob_sha: 395a46fec7795662ca181c1102e1b6d54863ea6c
+  retrieved: true
+- type: source_file
+  path: .project_automation/deprovision/entrypoint.sh
+  blob_sha: 395a46fec7795662ca181c1102e1b6d54863ea6c
+  retrieved: true
+- type: source_file
+  path: .project_automation/functional_tests/entrypoint.sh
+  blob_sha: 11185c7e015112c3f64904ab23d0d1764a40b76b
+  retrieved: true
+- type: source_file
+  path: .project_automation/init/noop.sh
+  blob_sha: 052b47d94e59d8c2c622e6c1749b6235213f9b73
+  retrieved: true

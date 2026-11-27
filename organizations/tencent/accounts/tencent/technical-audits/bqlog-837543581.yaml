@@ -1,0 +1,230 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:11:05+00:00'
+evidence_fingerprint: 1b0f2316daf3487fbc8c84f87257100a4f44443f9e8b2008a4ca807ff70073f9
+repository_metadata:
+  company: Tencent
+  account: Tencent
+  full_name: Tencent/BqLog
+  repository_id: 837543581
+  url: https://github.com/Tencent/BqLog
+  description: A lightweight, high-performance, industrial-grade cross-language logging library (C++/Java/C#/Kotlin/TS/Python/Go),
+    battle-tested in Honor of Kings.
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T06:02:53Z'
+  stars: 737
+  readme_url: https://github.com/Tencent/BqLog/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 9e477fa4f1e216b2e2a6530e472fc5453a38a8aa
+  manifest_paths:
+  - CMakeLists.txt
+  - pack/CMakeLists.txt
+  - src/CMakeLists.txt
+  - benchmark/cpp/CMakeLists.txt
+  - benchmark/go/go.mod
+  - demo/cpp/CMakeLists.txt
+  source_files_inspected:
+  - demo/nodejs/src/index.ts
+  - wrapper/typescript/src/index.ts
+  - benchmark/cpp/main.cpp
+  - benchmark/go/main.go
+  repository_tree:
+    status: captured
+    sha: e1495502cc6bafdb79bbecd1aa1528ac6c2cac1d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**English** | 简体中文'
+  why_used: A lightweight, high-performance, industrial-grade cross-language logging library (C++/Java/C#/Kotlin/TS/Python/Go),
+    battle-tested in Honor of Kings.
+  core_features:
+  - name: Significant performance advantage over common open-source logging libraries (see Benchmark); suitable
+      for server, client, and mobile.
+    description: Significant performance advantage over common open-source logging libraries (see Benchmark); suitable
+      for server, client, and mobile.
+    evidence:
+    - README.md#✨ Highlights
+  - name: 'Low memory usage: in the Benchmark case (10 threads, 2,000,000 log entries each), the whole benchmark
+      process peaks at no more than 3.1 MB on macOS. On mobile p'
+    description: 'Low memory usage: in the Benchmark case (10 threads, 2,000,000 log entries each), the whole benchmark
+      process peaks at no more than 3.1 MB on macOS. On mobile platforms, BqLog itself generally uses around 1 MB.'
+    evidence:
+    - README.md#✨ Highlights
+  - name: Provides a high-performance, high-compression real-time compressed log format.
+    description: Provides a high-performance, high-compression real-time compressed log format.
+    evidence:
+    - README.md#✨ Highlights
+  - name: Supports strong hybrid encryption (asymmetric + symmetric) for log content protection with nearly zero
+      performance overhead (optional).
+    description: Supports strong hybrid encryption (asymmetric + symmetric) for log content protection with nearly
+      zero performance overhead (optional).
+    evidence:
+    - README.md#✨ Highlights
+  - name: Works well inside game engines (Unity, Unreal, etc.), with UE Blueprint and builtin data type support.
+    description: Works well inside game engines (Unity, Unreal, etc.), with UE Blueprint and builtin data type support.
+    evidence:
+    - README.md#✨ Highlights
+  - name: Supports utf8, utf16, utf32 characters and strings, as well as bool, float, double, and integer types
+      of various sizes.
+    description: Supports utf8, utf16, utf32 characters and strings, as well as bool, float, double, and integer
+      types of various sizes.
+    evidence:
+    - README.md#✨ Highlights
+  - name: Supports C++20 std::format style format strings (without positional index and time formatting).
+    description: Supports C++20 std::format style format strings (without positional index and time formatting).
+    evidence:
+    - README.md#✨ Highlights
+  - name: Asynchronous logging supports crash recovery and tries to avoid data loss.
+    description: Asynchronous logging supports crash recovery and tries to avoid data loss.
+    evidence:
+    - README.md#✨ Highlights
+  - name: On Java, C#, TypeScript wrappers, it can achieve "zero extra heap alloc" (or very close), avoiding continuous
+      object allocations.
+    description: On Java, C#, TypeScript wrappers, it can achieve "zero extra heap alloc" (or very close), avoiding
+      continuous object allocations.
+    evidence:
+    - README.md#✨ Highlights
+  - name: Depends only on the standard C library and platform APIs; can be compiled with Android ANDROID_STL = none.
+    description: Depends only on the standard C library and platform APIs; can be compiled with Android ANDROID_STL
+      = none.
+    evidence:
+    - README.md#✨ Highlights
+  - name: Supports C++11 and later standards and works under very strict compiler options.
+    description: Supports C++11 and later standards and works under very strict compiler options.
+    evidence:
+    - README.md#✨ Highlights
+  - name: Build system is based on CMake and provides multi-platform scripts, easy to integrate.
+    description: Build system is based on CMake and provides multi-platform scripts, easy to integrate.
+    evidence:
+    - README.md#✨ Highlights
+  - name: Available through Homebrew, vcpkg and NuGet, with find_package / pkg-config support.
+    description: Available through Homebrew, vcpkg and NuGet, with find_package / pkg-config support.
+    evidence:
+    - README.md#✨ Highlights
+  - name: Supports custom parameter types.
+    description: Supports custom parameter types.
+    evidence:
+    - README.md#✨ Highlights
+  - name: Very friendly for code completion and IDE hints.
+    description: Very friendly for code completion and IDE hints.
+    evidence:
+    - README.md#✨ Highlights
+  technology_stack:
+    languages:
+    - C++
+    - Java
+    - C#
+    - C
+    - Shell
+    - CMake
+    - Go
+    - Python
+    - TypeScript
+    - Batchfile
+    - JavaScript
+    - Objective-C++
+    - Verse
+    - PowerShell
+    - Ruby
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: demo/nodejs/src/index.ts,
+    wrapper/typescript/src/index.ts, benchmark/cpp/main.cpp, benchmark/go/main.go'
+  setup_and_usage:
+  - '🚀 Quick Start: > Before calling any API, you need to integrate BqLog into your project first:'
+  - '🚀 Quick Start: > - **Standard environments** (C++, Java, C#, Python, Node.js, etc.) → Integration Guide'
+  - '🚀 Quick Start: > - **Game engines** (Unity, Tuanjie Engine, Unreal Engine) → Game Engine Integration Guide'
+  - '🚀 Quick Start: > - **Anything else** → FAQ'
+  limitations:
+  - '🖥️ Supported platforms & languages: | Platforms | Languages |'
+  - '🖥️ Supported platforms & languages: |-----------|-----------|'
+  - '🖥️ Supported platforms & languages: | Windows 64-bit, macOS, Linux (incl. embedded), iOS, Android, HarmonyOS,
+    OpenHarmony, Unix (FreeBSD, NetBSD, OpenBSD, Solaris, etc.) | C++ (C++11+), Java / Kotlin, C# (Unity, .NET),
+    ArkTS / C++ (HarmonyOS & OpenHarmony share the same package), JavaScript / TypeScript (Node.js), Python 3.7+,
+    Go, Unreal Engine (UE4, UE5 & UE6 development builds) |'
+  - '🖥️ Supported platforms & languages: | PlayStation 4, PlayStation 5, Nintendo Switch (experimental, source integration)
+    | C++ (C++11+) |'
+  - '🖥️ Supported platforms & languages: **Hardware architectures**: x86, x86_64, ARM32, ARM64'
+  - '🖥️ Supported platforms & languages: **Integration methods**: Dynamic library, Static library, Source code'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Tencent/BqLog/blob/main/README.md
+  path: README.md
+  blob_sha: 9e477fa4f1e216b2e2a6530e472fc5453a38a8aa
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 734c04671c6ee899023347fb09451ff7b13e4a80
+  retrieved: true
+- type: manifest
+  path: pack/CMakeLists.txt
+  blob_sha: 08e259b9543d1494eade0eb67a13245e8c09ec81
+  retrieved: true
+- type: manifest
+  path: src/CMakeLists.txt
+  blob_sha: 1edc5e6b94393c80b65c21782f49128fc1686381
+  retrieved: true
+- type: manifest
+  path: benchmark/cpp/CMakeLists.txt
+  blob_sha: a7b1eb82fbe4174b5513090c150bc13a2f5bd636
+  retrieved: true
+- type: manifest
+  path: benchmark/go/go.mod
+  blob_sha: e928a970211639709f374abd3d6f28516d11d40c
+  retrieved: true
+- type: manifest
+  path: demo/cpp/CMakeLists.txt
+  blob_sha: 13910d09f2c45dccb32375ec01c52e1f9e18ce31
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 3815781
+    Java: 322969
+    C#: 251351
+    C: 233124
+    Shell: 144042
+    CMake: 143759
+    Go: 111032
+    Python: 96258
+    TypeScript: 95987
+    Batchfile: 57642
+    JavaScript: 33315
+    Objective-C++: 6607
+    Verse: 4592
+    PowerShell: 4001
+    Ruby: 1705
+- type: Git tree
+  status: captured
+  sha: e1495502cc6bafdb79bbecd1aa1528ac6c2cac1d
+  truncated: false
+- type: source_file
+  path: demo/nodejs/src/index.ts
+  blob_sha: d3771065d60a59cd637d2a001fa316d337533a3f
+  retrieved: true
+- type: source_file
+  path: wrapper/typescript/src/index.ts
+  blob_sha: 0b265df16462dbfa5d7562a812ddfb5158b392d8
+  retrieved: true
+- type: source_file
+  path: benchmark/cpp/main.cpp
+  blob_sha: 89630cbfd103fe74c172d4296cc0a1247b05ecb6
+  retrieved: true
+- type: source_file
+  path: benchmark/go/main.go
+  blob_sha: 094a45377966ea77d4d4e788fd921101fa86705c
+  retrieved: true

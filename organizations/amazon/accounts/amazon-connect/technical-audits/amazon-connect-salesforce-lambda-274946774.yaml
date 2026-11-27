@@ -1,0 +1,89 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:04:56+00:00'
+evidence_fingerprint: f26c3fa899fc8a85db7f30e7deeaa97d8a01a5b672dfaddbe536239684c37ac1
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/amazon-connect-salesforce-lambda
+  repository_id: 274946774
+  url: https://github.com/amazon-connect/amazon-connect-salesforce-lambda
+  description: null
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-09-02T23:40:17Z'
+  stars: 55
+  readme_url: https://github.com/amazon-connect/amazon-connect-salesforce-lambda/blob/master/README.md
+  readme_path: README.md
+  readme_sha: faf0aec3fc2191c9d1e21eebc8cda450299aa486
+  manifest_paths: []
+  source_files_inspected:
+  - sam-app/lambda_functions/log_util.py
+  - sam-app/lambda_functions/salesforce.py
+  - sam-app/lambda_functions/sf_util.py
+  - sam-app/lambda_functions/sfComprehendUtil.py
+  repository_tree:
+    status: captured
+    sha: b00091c5e74592c762292fb8740c86a78668f2cd
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The core functionality of the Amazon Connect CTI Adapter provides a WebRTC browser-based Contact Control
+    Panel (CCP) within Salesforce. The Amazon Connect CTI integration consists of two components, a managed Salesforce
+    package and an AWS Serverless application, which can be deployed to your AWS environment.
+  why_used: The core functionality of the Amazon Connect CTI Adapter provides a WebRTC browser-based Contact Control
+    Panel (CCP) within Salesforce. The Amazon Connect CTI integration consists of two components, a managed Salesforce
+    package and an AWS Serverless application, which can be deployed to your AWS environment.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: sam-app/lambda_functions/log_util.py,
+    sam-app/lambda_functions/salesforce.py, sam-app/lambda_functions/sf_util.py, sam-app/lambda_functions/sfComprehendUtil.py'
+  setup_and_usage: []
+  limitations:
+  - 'CTI Adapter Versions Compatibility: Link to Compatibility Chart'
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/amazon-connect-salesforce-lambda/blob/master/README.md
+  path: README.md
+  blob_sha: faf0aec3fc2191c9d1e21eebc8cda450299aa486
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 202758
+- type: Git tree
+  status: captured
+  sha: b00091c5e74592c762292fb8740c86a78668f2cd
+  truncated: false
+- type: source_file
+  path: sam-app/lambda_functions/log_util.py
+  blob_sha: 6776b02975b354a644ae73f991da3dc617766145
+  retrieved: true
+- type: source_file
+  path: sam-app/lambda_functions/salesforce.py
+  blob_sha: 3a845acba1b07bce0f10a88b885ea5b34b901645
+  retrieved: true
+- type: source_file
+  path: sam-app/lambda_functions/sf_util.py
+  blob_sha: a7c950301c148137de58ccaf4a959629fb2ff19d
+  retrieved: true
+- type: source_file
+  path: sam-app/lambda_functions/sfComprehendUtil.py
+  blob_sha: 9b4d89e5880f43e7e3e0bd139afe6a577bd0106c
+  retrieved: true

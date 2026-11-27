@@ -1,10 +1,10 @@
 # Technical audits — aws
 
-Updated: 2026-11-26T22:57:02+00:00
+Updated: 2026-11-27T07:24:07+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 - insufficient_evidence: 1
 - manual_reviewed: 1
 
@@ -14,6 +14,10 @@ Updated: 2026-11-26T22:57:02+00:00
 |---|---|---|---|
 | actions-dev-kit-516139841 | evidence_only | [actions-dev-kit-516139841.md](actions-dev-kit-516139841.md) | [actions-dev-kit-516139841.yaml](actions-dev-kit-516139841.yaml) |
 | agent-toolkit-for-aws-1219009070 | evidence_only | [agent-toolkit-for-aws-1219009070.md](agent-toolkit-for-aws-1219009070.md) | [agent-toolkit-for-aws-1219009070.yaml](agent-toolkit-for-aws-1219009070.yaml) |
+| agentcore-cli-1142733186 | evidence_only | [agentcore-cli-1142733186.md](agentcore-cli-1142733186.md) | [agentcore-cli-1142733186.yaml](agentcore-cli-1142733186.yaml) |
+| agentcore-devx-devtools-1286480923 | evidence_only | [agentcore-devx-devtools-1286480923.md](agentcore-devx-devtools-1286480923.md) | [agentcore-devx-devtools-1286480923.yaml](agentcore-devx-devtools-1286480923.yaml) |
+| amazon-chime-sdk-android-249543698 | evidence_only | [amazon-chime-sdk-android-249543698.md](amazon-chime-sdk-android-249543698.md) | [amazon-chime-sdk-android-249543698.yaml](amazon-chime-sdk-android-249543698.yaml) |
+| amazon-chime-sdk-component-library-react-261522182 | evidence_only | [amazon-chime-sdk-component-library-react-261522182.md](amazon-chime-sdk-component-library-react-261522182.md) | [amazon-chime-sdk-component-library-react-261522182.yaml](amazon-chime-sdk-component-library-react-261522182.yaml) |
 | audit-plugin-for-mysql-491703714 | manual_reviewed | [audit-plugin-for-mysql-491703714.md](audit-plugin-for-mysql-491703714.md) | [audit-plugin-for-mysql-491703714.yaml](audit-plugin-for-mysql-491703714.yaml) |
 | cicd-for-sagemakerunifiedstudio-1129251564 | evidence_only | [cicd-for-sagemakerunifiedstudio-1129251564.md](cicd-for-sagemakerunifiedstudio-1129251564.md) | [cicd-for-sagemakerunifiedstudio-1129251564.yaml](cicd-for-sagemakerunifiedstudio-1129251564.yaml) |
 | device-defender-for-aws-iot-embedded-sdk-295881054 | evidence_only | [device-defender-for-aws-iot-embedded-sdk-295881054.md](device-defender-for-aws-iot-embedded-sdk-295881054.md) | [device-defender-for-aws-iot-embedded-sdk-295881054.yaml](device-defender-for-aws-iot-embedded-sdk-295881054.yaml) |

@@ -1,0 +1,180 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:16:33+00:00'
+evidence_fingerprint: 324a0d10bdb7dd1509dc808b7bd344b46da02c1a18a7398214306643e8aab225
+repository_metadata:
+  company: SAP
+  account: kyma-project
+  full_name: kyma-project/cp-mod-migrator
+  repository_id: 745385822
+  url: https://github.com/kyma-project/cp-mod-migrator
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-09-04T09:40:43Z'
+  stars: 0
+  readme_url: https://github.com/kyma-project/cp-mod-migrator/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1970d683be4fe5d6adb13213fa313a7799c9a650
+  manifest_paths:
+  - Dockerfile
+  - go.mod
+  - Makefile
+  - images/backup/Dockerfile
+  - images/cleaner/Dockerfile
+  source_files_inspected:
+  - main.go
+  - pkg/cluster_status.go
+  - pkg/cluster_status_test.go
+  - pkg/cproxy/api/v211/type_http.go
+  repository_tree:
+    status: captured
+    sha: a722a83b0b54758c6a20359d20beadbf4e74fc9b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains the source code of components that are necessary to perform the migration from
+    the legacy Kyma Connectivity Proxy component (currently in version 2.9.3) into the new Kyma Connectivity Proxy
+    module.
+  why_used: This repository contains the source code of components that are necessary to perform the migration from
+    the legacy Kyma Connectivity Proxy component (currently in version 2.9.3) into the new Kyma Connectivity Proxy
+    module.
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Shell
+    - Makefile
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/davecgh/go-spew
+    - github.com/emicklei/go-restful/v3
+    - github.com/evanphx/json-patch/v5
+    - github.com/go-logr/logr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/go-task/slim-sprig
+    - github.com/gogo/protobuf
+    - github.com/golang/protobuf
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/gofuzz
+    - github.com/google/pprof
+    - github.com/google/uuid
+    - github.com/imdario/mergo
+    - github.com/josharian/intern
+    - github.com/json-iterator/go
+    - github.com/mailru/easyjson
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/munnerz/goautoneg
+    - github.com/onsi/ginkgo/v2
+    - github.com/onsi/gomega
+    - github.com/pkg/errors
+    - github.com/pmezard/go-difflib
+    - github.com/spf13/pflag
+    - github.com/stretchr/objx
+    - github.com/stretchr/testify
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sys
+    - golang.org/x/term
+    - golang.org/x/text
+    - golang.org/x/time
+    - golang.org/x/tools
+    - google.golang.org/appengine
+    - google.golang.org/protobuf
+    - gopkg.in/inf.v0
+    - gopkg.in/yaml.v2
+    - gopkg.in/yaml.v3
+    - k8s.io/api
+    - k8s.io/apiextensions-apiserver
+    - k8s.io/apimachinery
+    - k8s.io/client-go
+    - k8s.io/klog/v2
+    - k8s.io/kube-openapi
+    - k8s.io/kubectl
+    - k8s.io/utils
+    - sigs.k8s.io/controller-runtime
+    - sigs.k8s.io/json
+    - sigs.k8s.io/structured-merge-diff/v4
+    - sigs.k8s.io/yaml
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: main.go, pkg/cluster_status.go,
+    pkg/cluster_status_test.go, pkg/cproxy/api/v211/type_http.go'
+  setup_and_usage:
+  - 'Restoring old installation: The goal is to restore the previous state of the Connectivity Proxy in case of
+    any issues during the migration process.'
+  - 'Restoring old installation: Check if the Connectivity Proxy Operator Pod is running. In such a case, disable
+    the Connectivity Proxy module using Busola or by editing the Kyma resource. \'
+  - 'Restoring old installation: Wait some time for the uninstallation of the Connectivity Proxy module. \'
+  - 'Restoring old installation: After the Connectivity Proxy module is uninstalled, wait about one hour for the
+    Kyma Control Plane to restore the legacy Connectivity Proxy objects on the cluster.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/kyma-project/cp-mod-migrator/blob/main/README.md
+  path: README.md
+  blob_sha: 1970d683be4fe5d6adb13213fa313a7799c9a650
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 41fac2f22dcf5bc3a2d692095d9c36c5a29d3da7
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 4529ea71f5beb66ae9897530bd73c80c7cb967bb
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 03158ce77ea7b0ad13c0f9d55061e2844bf719d0
+  retrieved: true
+- type: manifest
+  path: images/backup/Dockerfile
+  blob_sha: 7c5b08fd53d2fa583c05c5dfc86ee8f5d0a4fe53
+  retrieved: true
+- type: manifest
+  path: images/cleaner/Dockerfile
+  blob_sha: d85fc9026a46735a4a417712a39dccd5d26aa8c1
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 32113
+    Shell: 12672
+    Makefile: 1118
+    Dockerfile: 887
+- type: Git tree
+  status: captured
+  sha: a722a83b0b54758c6a20359d20beadbf4e74fc9b
+  truncated: false
+- type: source_file
+  path: main.go
+  blob_sha: 5a1618614e80d14f91027dd0a61ce094b264b7c7
+  retrieved: true
+- type: source_file
+  path: pkg/cluster_status.go
+  blob_sha: 0898603f01ae273a2d6ae1242d9e23fe321b1d89
+  retrieved: true
+- type: source_file
+  path: pkg/cluster_status_test.go
+  blob_sha: 554ab94e08b4e2094898e1803f7e7892c8e456d0
+  retrieved: true
+- type: source_file
+  path: pkg/cproxy/api/v211/type_http.go
+  blob_sha: 64a654cfd48c77b82bd48d05da9571acbb27385b
+  retrieved: true

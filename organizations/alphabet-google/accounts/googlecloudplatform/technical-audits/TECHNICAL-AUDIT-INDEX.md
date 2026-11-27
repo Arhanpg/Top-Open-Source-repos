@@ -1,10 +1,10 @@
 # Technical audits — googlecloudplatform
 
-Updated: 2026-11-26T22:57:05+00:00
+Updated: 2026-11-27T07:24:07+00:00
 
 ## Status counts
 
-- evidence_only: 14
+- evidence_only: 18
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -26,3 +26,7 @@ Updated: 2026-11-26T22:57:05+00:00
 | ez-wsi-dicomweb-607867551 | evidence_only | [ez-wsi-dicomweb-607867551.md](ez-wsi-dicomweb-607867551.md) | [ez-wsi-dicomweb-607867551.yaml](ez-wsi-dicomweb-607867551.yaml) |
 | filestore-snapshot-scheduler-527922435 | evidence_only | [filestore-snapshot-scheduler-527922435.md](filestore-snapshot-scheduler-527922435.md) | [filestore-snapshot-scheduler-527922435.yaml](filestore-snapshot-scheduler-527922435.yaml) |
 | github-557646489 | insufficient_evidence | [github-557646489.md](github-557646489.md) | [github-557646489.yaml](github-557646489.yaml) |
+| iot-icebreaker-61675003 | evidence_only | [iot-icebreaker-61675003.md](iot-icebreaker-61675003.md) | [iot-icebreaker-61675003.yaml](iot-icebreaker-61675003.yaml) |
+| kbatch-219865624 | evidence_only | [kbatch-219865624.md](kbatch-219865624.md) | [kbatch-219865624.yaml](kbatch-219865624.yaml) |
+| labelcat-43977316 | evidence_only | [labelcat-43977316.md](labelcat-43977316.md) | [labelcat-43977316.yaml](labelcat-43977316.yaml) |
+| lifesciences-1146209919 | evidence_only | [lifesciences-1146209919.md](lifesciences-1146209919.md) | [lifesciences-1146209919.yaml](lifesciences-1146209919.yaml) |

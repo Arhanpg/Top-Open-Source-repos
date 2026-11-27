@@ -1,10 +1,10 @@
 # Technical audits — aws-solutions
 
-Updated: 2026-11-26T22:57:03+00:00
+Updated: 2026-11-27T07:24:09+00:00
 
 ## Status counts
 
-- evidence_only: 17
+- evidence_only: 21
 
 ## Repository dossiers
 
@@ -26,4 +26,8 @@ Updated: 2026-11-26T22:57:03+00:00
 | aws-control-tower-customizations-233111913 | evidence_only | [aws-control-tower-customizations-233111913.md](aws-control-tower-customizations-233111913.md) | [aws-control-tower-customizations-233111913.yaml](aws-control-tower-customizations-233111913.yaml) |
 | aws-crr-monitor-89635934 | evidence_only | [aws-crr-monitor-89635934.md](aws-crr-monitor-89635934.md) | [aws-crr-monitor-89635934.yaml](aws-crr-monitor-89635934.yaml) |
 | aws-data-lake-solution-74497220 | evidence_only | [aws-data-lake-solution-74497220.md](aws-data-lake-solution-74497220.md) | [aws-data-lake-solution-74497220.yaml](aws-data-lake-solution-74497220.yaml) |
+| aws-devops-monitoring-dashboard-348777695 | evidence_only | [aws-devops-monitoring-dashboard-348777695.md](aws-devops-monitoring-dashboard-348777695.md) | [aws-devops-monitoring-dashboard-348777695.yaml](aws-devops-monitoring-dashboard-348777695.yaml) |
+| aws-waf-security-automations-68951589 | evidence_only | [aws-waf-security-automations-68951589.md](aws-waf-security-automations-68951589.md) | [aws-waf-security-automations-68951589.yaml](aws-waf-security-automations-68951589.yaml) |
+| centralized-logging-with-opensearch-496020999 | evidence_only | [centralized-logging-with-opensearch-496020999.md](centralized-logging-with-opensearch-496020999.md) | [centralized-logging-with-opensearch-496020999.yaml](centralized-logging-with-opensearch-496020999.yaml) |
+| cloud-migration-factory-on-aws-249775638 | evidence_only | [cloud-migration-factory-on-aws-249775638.md](cloud-migration-factory-on-aws-249775638.md) | [cloud-migration-factory-on-aws-249775638.yaml](cloud-migration-factory-on-aws-249775638.yaml) |
 | github-178254703 | evidence_only | [github-178254703.md](github-178254703.md) | [github-178254703.yaml](github-178254703.yaml) |

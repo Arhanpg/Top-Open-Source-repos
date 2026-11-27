@@ -1,0 +1,248 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:23:17+00:00'
+evidence_fingerprint: 27d5561af02848a334edb15cb46621d349ccf5868d465dc0f93afb45f6fac4bd
+repository_metadata:
+  company: SAP
+  account: SAP
+  full_name: SAP/agent-quality-inspect
+  repository_id: 1147797107
+  url: https://github.com/SAP/agent-quality-inspect
+  description: Evaluation package that allows benchmarking of agentic AIs from various sources and frameworks by
+    producing statistical results which can be compared across different use cases and datasets.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-06-26T05:40:53Z'
+  stars: 79
+  readme_url: https://github.com/SAP/agent-quality-inspect/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4578879a77eef73898ef763c15ebca5038e07ec0
+  manifest_paths:
+  - pyproject.toml
+  - docs/Makefile
+  - agent_runners/tau2-bench/Makefile
+  - agent_runners/tau2-bench/pyproject.toml
+  - agent_runners/tau2-bench/requirements.txt
+  source_files_inspected:
+  - agent_runners/tau2-bench/src/tau2/cli.py
+  - agent_runners/tau2-bench/src/tau2/environment/server.py
+  - agent_runners/tau2-bench/fastapi_server/main.py
+  - agent_runners/tau2-bench/src/tau2/__init__.py
+  repository_tree:
+    status: captured
+    sha: e47a38d675c63835d88ded4133c88a5d1fc83dab
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'Paper Link: https://openreview.net/pdf?id=fHsVNklKOc'
+  why_used: Evaluation package that allows benchmarking of agentic AIs from various sources and frameworks by producing
+    statistical results which can be compared across different use cases and datasets.
+  core_features:
+  - name: '**User personas**: User proxy simulating users with different levels of domain expertise (expert and
+      non-expert).'
+    description: '**User personas**: User proxy simulating users with different levels of domain expertise (expert
+      and non-expert).'
+    evidence:
+    - README.md#Features
+  - name: '**Area Under the Curve (AUC)**: Measures the area under the progress curve and evaluates how quickly
+      the agent makes progress toward the goal.'
+    description: '**Area Under the Curve (AUC)**: Measures the area under the progress curve and evaluates how quickly
+      the agent makes progress toward the goal.'
+    evidence:
+    - README.md#Features
+  - name: '**Progress Per Turn (PPT)**: Measures the average progress made by the agent in each turn.'
+    description: '**Progress Per Turn (PPT)**: Measures the average progress made by the agent in each turn.'
+    evidence:
+    - README.md#Features
+  - name: '**Task success and reliability**: Metrics such as pass@k and pass^k.'
+    description: '**Task success and reliability**: Metrics such as pass@k and pass^k.'
+    evidence:
+    - README.md#Features
+  - name: '**Error analysis**: Automatic categorization of failure modes to highlight where and why agents fail.'
+    description: '**Error analysis**: Automatic categorization of failure modes to highlight where and why agents
+      fail.'
+    evidence:
+    - README.md#Features
+  - name: '**Agent-runner support**: Supports and is extensible to different agent runners. This repository currently
+      includes integrations for **Tau2Bench** and **Toolsan'
+    description: '**Agent-runner support**: Supports and is extensible to different agent runners. This repository
+      currently includes integrations for **Tau2Bench** and **Toolsandbox** and provides a pattern to extend to
+      other multi-turn benchmarks.'
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - PyYAML
+    - addict
+    - aiohappyeyeballs
+    - aiohttp
+    - aiosignal
+    - annotated-types
+    - anyio
+    - appdirs
+    - attrs
+    - backoff
+    - certifi
+    - charset-normalizer
+    - click
+    - colorama
+    - contourpy
+    - cycler
+    - deepdiff
+    - distro
+    - docstring-parser
+    - fastapi
+    - filelock
+    - fonttools
+    - frozenlist
+    - fs
+    - fsspec
+    - h11
+    - httpcore
+    - httpx
+    - huggingface-hub
+    - idna
+    - importlib-metadata
+    - iniconfig
+    - jinja2
+    - jiter
+    - joblib
+    - jsonschema
+    - jsonschema-specifications
+    - kiwisolver
+    - langfuse
+    - litellm
+    - loguru
+    - markdown-it-py
+    - markupsafe
+    - matplotlib
+    - mdurl
+    - multidict
+    - narwhals
+    - numpy
+    - openai
+    - orderly-set
+    - packaging
+    - pandas
+    - pillow
+    - plotly
+    - pluggy
+    - propcache
+    - psutil
+    - pydantic
+    - pydantic-argparse
+    - pydantic-core
+    - pygments
+    - pyparsing
+    - pytest
+    - python-dateutil
+    - python-dotenv
+    - pytz
+    - pyyaml
+    - redis
+    - referencing
+    - regex
+    - requests
+    - rich
+    - rpds-py
+    - ruff
+    - scikit-learn
+    - scipy
+    - seaborn
+    - setuptools
+    - six
+    - sniffio
+    - starlette
+    - tabulate
+    - tenacity
+    - threadpoolctl
+    - tiktoken
+    - tokenizers
+    - toml
+    - tqdm
+    - typing-extensions
+    - tzdata
+    - urllib3
+    - uvicorn
+    - watchdog
+    - win32-setctime
+    - wrapt
+    - yarl
+    - zipp
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: agent_runners/tau2-bench/src/tau2/cli.py,
+    agent_runners/tau2-bench/src/tau2/environment/server.py, agent_runners/tau2-bench/fastapi_server/main.py, agent_runners/tau2-bench/src/tau2/__init__.py'
+  setup_and_usage:
+  - 'Quick Start: There are two primary ways to use this repository:'
+  - 'Quick Start: 1. **As a metrics / evaluation package** inside your own code.'
+  - 'Quick Start: 2. **Via the provided experiment runners** to reproduce paper results and run new evaluations.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP/agent-quality-inspect/blob/main/README.md
+  path: README.md
+  blob_sha: 4578879a77eef73898ef763c15ebca5038e07ec0
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 607459631b30494b25a1dafeb8e46c2cf583d7a5
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: d4bb2cbb9eddb1bb1b4f366623044af8e4830919
+  retrieved: true
+- type: manifest
+  path: agent_runners/tau2-bench/Makefile
+  blob_sha: 3af92f71114dd706e853ec4891cc1e4c0dce162a
+  retrieved: true
+- type: manifest
+  path: agent_runners/tau2-bench/pyproject.toml
+  blob_sha: e20ad90546c48b5e06429dba8a60d176987179d2
+  retrieved: true
+- type: manifest
+  path: agent_runners/tau2-bench/requirements.txt
+  blob_sha: 426c94c657c103480e67570aac46d870d92592cb
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 1489936
+    Shell: 2648
+    Makefile: 839
+- type: Git tree
+  status: captured
+  sha: e47a38d675c63835d88ded4133c88a5d1fc83dab
+  truncated: false
+- type: source_file
+  path: agent_runners/tau2-bench/src/tau2/cli.py
+  blob_sha: a4605ca5dbef56a53fb6f6937e65378e7d8ae8fd
+  retrieved: true
+- type: source_file
+  path: agent_runners/tau2-bench/src/tau2/environment/server.py
+  blob_sha: 233ab8ec4acb4321f63065317a6ff1a1aae80369
+  retrieved: true
+- type: source_file
+  path: agent_runners/tau2-bench/fastapi_server/main.py
+  blob_sha: d7edf231c7af1ec88829065f957908c86f49bdf3
+  retrieved: true
+- type: source_file
+  path: agent_runners/tau2-bench/src/tau2/__init__.py
+  blob_sha: 8b137891791fe96927ad78e64b0aad7bded08bdc
+  retrieved: true

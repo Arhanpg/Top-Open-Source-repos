@@ -1,0 +1,116 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:07:04+00:00'
+evidence_fingerprint: 8ec6b56076a32a01be153ef46027e09c7374d89b35ead81c179d5a8cf97d3147
+repository_metadata:
+  company: Amazon
+  account: cdklabs
+  full_name: cdklabs/awscdk-v1-stack-finder
+  repository_id: 503621347
+  url: https://github.com/cdklabs/awscdk-v1-stack-finder
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T00:28:06Z'
+  stars: 19
+  readme_url: https://github.com/cdklabs/awscdk-v1-stack-finder/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 01aa696131e1d3e2388db1783c6ca8a20103f953
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/index.ts
+  - src/cli.ts
+  - .projenrc.ts
+  repository_tree:
+    status: captured
+    sha: 229789ceb8bbcfdd852949d8b2884fc4bb4afa4a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Command line tool to identify stacks that were deployed with AWS CDK V1 (as opposed to V2). You can use
+    this to help with the migration process from V1 to V2.
+  why_used: Command line tool to identify stacks that were deployed with AWS CDK V1 (as opposed to V2). You can
+    use this to help with the migration process from V1 to V2.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@stylistic/eslint-plugin'
+    - '@types/jest'
+    - '@types/node'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - aws-sdk
+    - cdklabs-projen-project-types
+    - commit-and-tag-version
+    - constructs
+    - eslint
+    - eslint-import-resolver-typescript
+    - eslint-plugin-import
+    - jest
+    - jest-junit
+    - projen
+    - ts-jest
+    - ts-node
+    - typescript
+    - yaml
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/index.ts, src/cli.ts,
+    .projenrc.ts'
+  setup_and_usage:
+  - 'Usage: Configure you AWS credentials as normal, and run:'
+  - 'Usage: npx awscdk-v1-stack-finder'
+  - 'Usage: To use a profile, run:'
+  - 'Usage: AWS_SDK_LOAD_CONFIG=1 AWS_PROFILE= npx awscdk-v1-stack-finder'
+  - 'Usage: By default, this will scan all regions in your account (apart from us-iso-east-1 and us-iso-west-1)'
+  - 'Usage: and print the stacks that were deployed with AWS CDK V1:'
+  - 'Usage: ❯ npx awscdk-v1-stack-finder'
+  - 'Usage: us-east-1: fetching stacks'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cdklabs/awscdk-v1-stack-finder/blob/main/README.md
+  path: README.md
+  blob_sha: 01aa696131e1d3e2388db1783c6ca8a20103f953
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 3bd12138e436cf507f660706552b3c4c563e88f5
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 9425
+    JavaScript: 111
+- type: Git tree
+  status: captured
+  sha: 229789ceb8bbcfdd852949d8b2884fc4bb4afa4a
+  truncated: false
+- type: source_file
+  path: src/index.ts
+  blob_sha: 2dae97d219189b45a621773b65841d727339d446
+  retrieved: true
+- type: source_file
+  path: src/cli.ts
+  blob_sha: cde9a6b0adb308bfe4424ad612a65e721ddceb25
+  retrieved: true
+- type: source_file
+  path: .projenrc.ts
+  blob_sha: 979250999a20f33e43e33eac87700f8538a117ab
+  retrieved: true

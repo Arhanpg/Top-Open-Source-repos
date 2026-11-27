@@ -1,10 +1,10 @@
 # Technical audits — amazon-science
 
-Updated: 2026-11-26T22:57:01+00:00
+Updated: 2026-11-27T07:24:10+00:00
 
 ## Status counts
 
-- evidence_only: 18
+- evidence_only: 22
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -29,4 +29,8 @@ Updated: 2026-11-26T22:57:01+00:00
 | bopro-iclr-2025-940306804 | evidence_only | [bopro-iclr-2025-940306804.md](bopro-iclr-2025-940306804.md) | [bopro-iclr-2025-940306804.yaml](bopro-iclr-2025-940306804.yaml) |
 | buggy-aware-codelm-853481244 | evidence_only | [buggy-aware-codelm-853481244.md](buggy-aware-codelm-853481244.md) | [buggy-aware-codelm-853481244.yaml](buggy-aware-codelm-853481244.yaml) |
 | byokg-naacl24-780143645 | evidence_only | [byokg-naacl24-780143645.md](byokg-naacl24-780143645.md) | [byokg-naacl24-780143645.yaml](byokg-naacl24-780143645.yaml) |
+| cdsl-naacl2025-929160276 | evidence_only | [cdsl-naacl2025-929160276.md](cdsl-naacl2025-929160276.md) | [cdsl-naacl2025-929160276.yaml](cdsl-naacl2025-929160276.yaml) |
+| ceret-llm-refine-779371193 | evidence_only | [ceret-llm-refine-779371193.md](ceret-llm-refine-779371193.md) | [ceret-llm-refine-779371193.yaml](ceret-llm-refine-779371193.yaml) |
+| csr-bench-951612468 | evidence_only | [csr-bench-951612468.md](csr-bench-951612468.md) | [csr-bench-951612468.yaml](csr-bench-951612468.yaml) |
+| ctf-dojo-1062066165 | evidence_only | [ctf-dojo-1062066165.md](ctf-dojo-1062066165.md) | [ctf-dojo-1062066165.yaml](ctf-dojo-1062066165.yaml) |
 | github-291827029 | insufficient_evidence | [github-291827029.md](github-291827029.md) | [github-291827029.yaml](github-291827029.yaml) |

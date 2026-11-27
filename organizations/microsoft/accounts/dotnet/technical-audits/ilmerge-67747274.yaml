@@ -1,0 +1,94 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:15:12+00:00'
+evidence_fingerprint: 788c0a47457f74630648448cfd412092c01784ab1c7d8a0c70cccb5e515e94d5
+repository_metadata:
+  company: Microsoft
+  account: dotnet
+  full_name: dotnet/ILMerge
+  repository_id: 67747274
+  url: https://github.com/dotnet/ILMerge
+  description: ILMerge is a static linker for .NET Assemblies.
+  default_branch: master
+  license_spdx: MIT
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2020-07-09T16:44:18Z'
+  stars: 1303
+  readme_url: https://github.com/dotnet/ILMerge/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 0884d51bc225ce14dc17f6dbe33766a0cd05e07e
+  manifest_paths: []
+  source_files_inspected:
+  - Common/Include/version.cs
+  - ILMerge.Tests/BaselineTests.cs
+  - ILMerge.Tests/Extensions.cs
+  - ILMerge.Tests/Helpers/CspContainerUtils.cs
+  repository_tree:
+    status: captured
+    sha: 325b5154c999fad547e0ed3db9aeb7e7b2be7e02
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ILMerge is a utility that merges multiple .NET assemblies into a single assembly. It is freely available
+    for use and is available as a NuGet package.
+  why_used: ILMerge is a static linker for .NET Assemblies.
+  core_features: []
+  technology_stack:
+    languages:
+    - C#
+    - PowerShell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Common/Include/version.cs,
+    ILMerge.Tests/BaselineTests.cs, ILMerge.Tests/Extensions.cs, ILMerge.Tests/Helpers/CspContainerUtils.cs'
+  setup_and_usage:
+  - 'Installation: As noted on the ilmerge NuGet page, the package can be installed from the Visual Studio environment.
+    Expand the project container in the Solution Explorer view. Right click on references and select Manage NuGet
+    Packages'
+  - 'Installation: Ensure the Package source is set to nuget.org'
+  - 'Installation: Next, click on Tools - NuGet Package Manager - Package Manager Console. Ensure the Package source
+    is also set to nuget.org'
+  - 'Installation: To install for the project, use the Install-Package command:'
+  - 'Installation: Install-Package ilmerge -Version 3.0.29'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/dotnet/ILMerge/blob/master/README.md
+  path: README.md
+  blob_sha: 0884d51bc225ce14dc17f6dbe33766a0cd05e07e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 3323169
+    PowerShell: 785
+- type: Git tree
+  status: captured
+  sha: 325b5154c999fad547e0ed3db9aeb7e7b2be7e02
+  truncated: false
+- type: source_file
+  path: Common/Include/version.cs
+  blob_sha: ae4fa803f54c92403fac877f96772e3868f27ab7
+  retrieved: true
+- type: source_file
+  path: ILMerge.Tests/BaselineTests.cs
+  blob_sha: 156c3b02834fb9cdcce2d3aa58883a3842fd5103
+  retrieved: true
+- type: source_file
+  path: ILMerge.Tests/Extensions.cs
+  blob_sha: 7e2cf8bbbfa623753ef5fc590e508fde3247e06e
+  retrieved: true
+- type: source_file
+  path: ILMerge.Tests/Helpers/CspContainerUtils.cs
+  blob_sha: 6fef2860151500855f6fc479350341ddb1dc01e0
+  retrieved: true

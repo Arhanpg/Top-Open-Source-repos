@@ -1,0 +1,167 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:16:40+00:00'
+evidence_fingerprint: 88ef8d15617a8dec13a118a36ababdc9c4524f7d1f8d75febc13bb56f6312043
+repository_metadata:
+  company: SAP
+  account: SAP
+  full_name: SAP/admission-webhook-runtime
+  repository_id: 631988239
+  url: https://github.com/SAP/admission-webhook-runtime
+  description: A generic Kubernetes admission webhook implementation framework
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T07:18:25Z'
+  stars: 7
+  readme_url: https://github.com/SAP/admission-webhook-runtime/blob/main/README.md
+  readme_path: README.md
+  readme_sha: c41e3229b1ad39de2bc2aed79d168c40d9d7c489
+  manifest_paths:
+  - go.mod
+  - Makefile
+  source_files_inspected:
+  - pkg/admission/admission_suite_test.go
+  - pkg/admission/context.go
+  - pkg/admission/flags.go
+  - pkg/admission/router.go
+  repository_tree:
+    status: captured
+    sha: c0795c6c5b5823a0c4ced580b93429b553e6c8ec
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains a generic Kubernetes admission webhook implementation framework.
+  why_used: A generic Kubernetes admission webhook implementation framework
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/Masterminds/semver/v3
+    - github.com/beorn7/perks
+    - github.com/cespare/xxhash/v2
+    - github.com/davecgh/go-spew
+    - github.com/emicklei/go-restful/v3
+    - github.com/evanphx/json-patch/v5
+    - github.com/fxamacker/cbor/v2
+    - github.com/go-logr/logr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/go-openapi/swag/cmdutils
+    - github.com/go-openapi/swag/conv
+    - github.com/go-openapi/swag/fileutils
+    - github.com/go-openapi/swag/jsonutils
+    - github.com/go-openapi/swag/loading
+    - github.com/go-openapi/swag/mangling
+    - github.com/go-openapi/swag/netutils
+    - github.com/go-openapi/swag/pools
+    - github.com/go-openapi/swag/stringutils
+    - github.com/go-openapi/swag/typeutils
+    - github.com/go-openapi/swag/yamlutils
+    - github.com/go-task/slim-sprig/v3
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/pprof
+    - github.com/google/uuid
+    - github.com/json-iterator/go
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/munnerz/goautoneg
+    - github.com/onsi/ginkgo/v2
+    - github.com/onsi/gomega
+    - github.com/pkg/errors
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/spf13/pflag
+    - github.com/x448/float16
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - go.yaml.in/yaml/v2
+    - go.yaml.in/yaml/v3
+    - golang.org/x/mod
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/term
+    - golang.org/x/text
+    - golang.org/x/time
+    - golang.org/x/tools
+    - gomodules.xyz/jsonpatch/v2
+    - google.golang.org/protobuf
+    - gopkg.in/evanphx/json-patch.v4
+    - gopkg.in/inf.v0
+    - k8s.io/api
+    - k8s.io/apiextensions-apiserver
+    - k8s.io/apimachinery
+    - k8s.io/client-go
+    - k8s.io/klog/v2
+    - k8s.io/kube-openapi
+    - k8s.io/utils
+    - sigs.k8s.io/controller-runtime
+    - sigs.k8s.io/json
+    - sigs.k8s.io/randfill
+    - sigs.k8s.io/structured-merge-diff/v6
+    - sigs.k8s.io/yaml
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: pkg/admission/admission_suite_test.go,
+    pkg/admission/context.go, pkg/admission/flags.go, pkg/admission/router.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP/admission-webhook-runtime/blob/main/README.md
+  path: README.md
+  blob_sha: c41e3229b1ad39de2bc2aed79d168c40d9d7c489
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 4e17c21edfea3e8866b89355c832e278960ba44b
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 7a792f1a58fbcc80eeed298d7266a87288c2b929
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 38023
+    Makefile: 1495
+- type: Git tree
+  status: captured
+  sha: c0795c6c5b5823a0c4ced580b93429b553e6c8ec
+  truncated: false
+- type: source_file
+  path: pkg/admission/admission_suite_test.go
+  blob_sha: 5cdfc452f4339549694168358efceb0db4e52a23
+  retrieved: true
+- type: source_file
+  path: pkg/admission/context.go
+  blob_sha: 8ae3c4e00e848ebae84501e07c4e8ffb66765fb7
+  retrieved: true
+- type: source_file
+  path: pkg/admission/flags.go
+  blob_sha: 5fd0a0fad46c52195bd1ea0375c2c31a29e6c0c8
+  retrieved: true
+- type: source_file
+  path: pkg/admission/router.go
+  blob_sha: 6517a31a0ffcb7dafe2f9e1f6197a31cc028fcad
+  retrieved: true

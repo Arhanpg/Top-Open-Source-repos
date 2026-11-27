@@ -1,0 +1,179 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:18:13+00:00'
+evidence_fingerprint: e8f4800955d33bc1cd420a11f42c7af14cfe834b3cc80a9125e824037dc8baa7
+repository_metadata:
+  company: Alphabet (Google)
+  account: GoogleCloudPlatform
+  full_name: GoogleCloudPlatform/LifeSciences
+  repository_id: 1146209919
+  url: https://github.com/GoogleCloudPlatform/LifeSciences
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T20:39:55Z'
+  stars: 58
+  readme_url: https://github.com/GoogleCloudPlatform/LifeSciences/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3cd28d4725772afaf67c24e4f676ab2fe937b6d7
+  manifest_paths:
+  - applications/sentinel/Dockerfile
+  - applications/sentinel/pyproject.toml
+  - applications/open-agentic-science-engine/tools/pyproject.toml
+  - applications/open-agentic-science-engine/tools/requirements.txt
+  - applications/pharma-on-gemini-enterprise/argus-on-gemini-enterprise/Dockerfile
+  - applications/pharma-on-gemini-enterprise/argus-on-gemini-enterprise/pyproject.toml
+  source_files_inspected:
+  - applications/protein-structure-prediction/src/foldrun-analysis-job/foldrun_analysis/main.py
+  - applications/protein-structure-prediction/src/foldrun-viewer/app.py
+  - applications/sentinel/frontend/src/types/index.ts
+  - applications/open-agentic-science-engine/eval/__main__.py
+  repository_tree:
+    status: captured
+    sha: daa6fe005794f0609a9ad6432f60e58d0d263503
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains a collection of demo applications that demonstrate the use of Google Cloud Platform
+    (GCP) services for Pharma and Life Sciences.
+  why_used: This repository contains a collection of demo applications that demonstrate the use of Google Cloud
+    Platform (GCP) services for Pharma and Life Sciences.
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies:
+    - PyYAML
+    - a2a-sdk
+    - aiohttp
+    - annotated-types
+    - anyio
+    - certifi
+    - cffi
+    - charset-normalizer
+    - click
+    - cryptography
+    - distro
+    - docstring-parser
+    - fastapi
+    - gcsfs
+    - google-adk
+    - google-api-core
+    - google-auth
+    - google-cloud-agentplatform
+    - google-cloud-aiplatform
+    - google-cloud-bigquery
+    - google-cloud-core
+    - google-cloud-logging
+    - google-cloud-resource-manager
+    - google-cloud-storage
+    - google-crc32c
+    - google-genai
+    - google-resumable-media
+    - googleapis-common-protos
+    - grpc-google-iam-v1
+    - grpcio
+    - grpcio-status
+    - h11
+    - httpcore
+    - httpx
+    - idna
+    - jinja2
+    - jsonpath-ng
+    - markdown
+    - markupsafe
+    - matplotlib
+    - mcp
+    - mistune
+    - numpy
+    - opentelemetry-resourcedetector-gcp
+    - pillow
+    - protobuf
+    - pydantic
+    - pydantic-settings
+    - python-dotenv
+    - python-multipart
+    - requests
+    - starlette
+    - uvicorn
+    - xhtml2pdf
+    - zstandard
+    build_and_package_tools:
+    - Docker build configuration
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: applications/protein-structure-prediction/src/foldrun-analysis-job/foldrun_analysis/main.py,
+    applications/protein-structure-prediction/src/foldrun-viewer/app.py, applications/sentinel/frontend/src/types/index.ts,
+    applications/open-agentic-science-engine/eval/__main__.py'
+  setup_and_usage:
+  - 'Getting Started: To get started with a sample application:'
+  - 'Getting Started: 1. Browse the Applications section below to find the application you are interested in.'
+  - 'Getting Started: 2. Click the link to navigate to the application''s directory.'
+  - 'Getting Started: 3. Follow the instructions in the application''s specific README.md for setup and running
+    details.'
+  - 'Getting Started: For general prerequisites and setup instructions common to all applications, you can also
+    refer to the Applications README.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/GoogleCloudPlatform/LifeSciences/blob/main/README.md
+  path: README.md
+  blob_sha: 3cd28d4725772afaf67c24e4f676ab2fe937b6d7
+  retrieved: true
+- type: manifest
+  path: applications/sentinel/Dockerfile
+  blob_sha: 9e678360cddd80294b723ffe9e23db406b2e5d7e
+  retrieved: true
+- type: manifest
+  path: applications/sentinel/pyproject.toml
+  blob_sha: e7e2c767e75e58f7b6a70b7fbc700232b3b85b37
+  retrieved: true
+- type: manifest
+  path: applications/open-agentic-science-engine/tools/pyproject.toml
+  blob_sha: 8cb433760f28dadf498e3b2d1e4682a8ff109c04
+  retrieved: true
+- type: manifest
+  path: applications/open-agentic-science-engine/tools/requirements.txt
+  blob_sha: d0c43cf2f50bcedd3431c6af4dd1ca52962b0ba2
+  retrieved: true
+- type: manifest
+  path: applications/pharma-on-gemini-enterprise/argus-on-gemini-enterprise/Dockerfile
+  blob_sha: ed9f9908594960912860894aecac731516a9581f
+  retrieved: true
+- type: manifest
+  path: applications/pharma-on-gemini-enterprise/argus-on-gemini-enterprise/pyproject.toml
+  blob_sha: 52c309c4123117f643db97ed92db43a4d1756d9b
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: daa6fe005794f0609a9ad6432f60e58d0d263503
+  truncated: false
+- type: source_file
+  path: applications/protein-structure-prediction/src/foldrun-analysis-job/foldrun_analysis/main.py
+  blob_sha: ccd3b132a7708a4ae1ea3c8f382f34fb43cda929
+  retrieved: true
+- type: source_file
+  path: applications/protein-structure-prediction/src/foldrun-viewer/app.py
+  blob_sha: 92b97ca27aaf0d3d29b6a680f079146c81ad3ee4
+  retrieved: true
+- type: source_file
+  path: applications/sentinel/frontend/src/types/index.ts
+  blob_sha: 7c1057abdcd038949617133386ef0c66c989fc96
+  retrieved: true
+- type: source_file
+  path: applications/open-agentic-science-engine/eval/__main__.py
+  blob_sha: ef84a4abb91736664942c982bb7c900d3715848e
+  retrieved: true

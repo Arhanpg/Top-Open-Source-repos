@@ -1,10 +1,10 @@
 # Technical audits — microsoft
 
-Updated: 2026-11-26T22:57:02+00:00
+Updated: 2026-11-27T07:24:06+00:00
 
 ## Status counts
 
-- evidence_only: 16
+- evidence_only: 20
 
 ## Repository dossiers
 
@@ -23,6 +23,10 @@ Updated: 2026-11-26T22:57:02+00:00
 | aadb2c-migration-1093581650 | evidence_only | [aadb2c-migration-1093581650.md](aadb2c-migration-1093581650.md) | [aadb2c-migration-1093581650.yaml](aadb2c-migration-1093581650.yaml) |
 | aadconnectconfigdocumenter-57305206 | evidence_only | [aadconnectconfigdocumenter-57305206.md](aadconnectconfigdocumenter-57305206.md) | [aadconnectconfigdocumenter-57305206.yaml](aadconnectconfigdocumenter-57305206.yaml) |
 | abap-sdk-for-azure-124694095 | evidence_only | [abap-sdk-for-azure-124694095.md](abap-sdk-for-azure-124694095.md) | [abap-sdk-for-azure-124694095.yaml](abap-sdk-for-azure-124694095.yaml) |
+| abs-csa-assets-744583961 | evidence_only | [abs-csa-assets-744583961.md](abs-csa-assets-744583961.md) | [abs-csa-assets-744583961.yaml](abs-csa-assets-744583961.yaml) |
+| aces-1177324361 | evidence_only | [aces-1177324361.md](aces-1177324361.md) | [aces-1177324361.yaml](aces-1177324361.yaml) |
+| acesevals-1177325050 | evidence_only | [acesevals-1177325050.md](acesevals-1177325050.md) | [acesevals-1177325050.yaml](acesevals-1177325050.yaml) |
+| acv-832980398 | evidence_only | [acv-832980398.md](acv-832980398.md) | [acv-832980398.yaml](acv-832980398.yaml) |
 | github-194898737 | evidence_only | [github-194898737.md](github-194898737.md) | [github-194898737.yaml](github-194898737.yaml) |
 | net-interactive-kernels-ads-342423762 | evidence_only | [net-interactive-kernels-ads-342423762.md](net-interactive-kernels-ads-342423762.md) | [net-interactive-kernels-ads-342423762.yaml](net-interactive-kernels-ads-342423762.yaml) |
 | net-modernization-in-a-day-255536764 | evidence_only | [net-modernization-in-a-day-255536764.md](net-modernization-in-a-day-255536764.md) | [net-modernization-in-a-day-255536764.yaml](net-modernization-in-a-day-255536764.yaml) |

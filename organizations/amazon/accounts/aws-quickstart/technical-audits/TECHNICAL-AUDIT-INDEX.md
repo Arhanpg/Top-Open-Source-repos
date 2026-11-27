@@ -1,10 +1,10 @@
 # Technical audits — aws-quickstart
 
-Updated: 2026-11-26T22:57:01+00:00
+Updated: 2026-11-27T07:24:11+00:00
 
 ## Status counts
 
-- evidence_only: 16
+- evidence_only: 20
 - insufficient_evidence: 2
 
 ## Repository dossiers
@@ -29,3 +29,7 @@ Updated: 2026-11-26T22:57:01+00:00
 | quickstart-aerospike-358371873 | evidence_only | [quickstart-aerospike-358371873.md](quickstart-aerospike-358371873.md) | [quickstart-aerospike-358371873.yaml](quickstart-aerospike-358371873.yaml) |
 | quickstart-alz-examples-217617604 | evidence_only | [quickstart-alz-examples-217617604.md](quickstart-alz-examples-217617604.md) | [quickstart-alz-examples-217617604.yaml](quickstart-alz-examples-217617604.yaml) |
 | quickstart-amazon-aurora-mysql-195865086 | evidence_only | [quickstart-amazon-aurora-mysql-195865086.md](quickstart-amazon-aurora-mysql-195865086.md) | [quickstart-amazon-aurora-mysql-195865086.yaml](quickstart-amazon-aurora-mysql-195865086.yaml) |
+| quickstart-amazon-aurora-postgresql-185318770 | evidence_only | [quickstart-amazon-aurora-postgresql-185318770.md](quickstart-amazon-aurora-postgresql-185318770.md) | [quickstart-amazon-aurora-postgresql-185318770.yaml](quickstart-amazon-aurora-postgresql-185318770.yaml) |
+| quickstart-amazon-eks-nodegroup-288829112 | evidence_only | [quickstart-amazon-eks-nodegroup-288829112.md](quickstart-amazon-eks-nodegroup-288829112.md) | [quickstart-amazon-eks-nodegroup-288829112.yaml](quickstart-amazon-eks-nodegroup-288829112.yaml) |
+| quickstart-amazon-rds-204575264 | evidence_only | [quickstart-amazon-rds-204575264.md](quickstart-amazon-rds-204575264.md) | [quickstart-amazon-rds-204575264.yaml](quickstart-amazon-rds-204575264.yaml) |
+| quickstart-amazon-redshift-193150511 | evidence_only | [quickstart-amazon-redshift-193150511.md](quickstart-amazon-redshift-193150511.md) | [quickstart-amazon-redshift-193150511.yaml](quickstart-amazon-redshift-193150511.yaml) |

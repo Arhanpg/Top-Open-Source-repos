@@ -1,0 +1,119 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:09:05+00:00'
+evidence_fingerprint: 8fdcd4508caa969145b10878c73aade57a117d23deb59748418b0670d715ade8
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/isaac_ros_benchmark
+  repository_id: 620539076
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_benchmark
+  description: Performance benchmarking for NVIDIA-accelerated Isaac ROS packages
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T06:56:51Z'
+  stars: 39
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_benchmark/blob/main/README.md
+  readme_path: README.md
+  readme_sha: bda21e242b717a1188d1641f8723d971bd1c78f4
+  manifest_paths:
+  - isaac_ros_benchmark/CMakeLists.txt
+  - benchmarks/isaac_ros_apriltag_benchmark/CMakeLists.txt
+  - benchmarks/isaac_ros_centerpose_benchmark/CMakeLists.txt
+  - benchmarks/isaac_ros_detectnet_benchmark/CMakeLists.txt
+  - benchmarks/isaac_ros_dnn_image_encoder_benchmark/CMakeLists.txt
+  - benchmarks/isaac_ros_dope_benchmark/CMakeLists.txt
+  source_files_inspected:
+  - isaac_ros_benchmark/src/buffer_monitor_node.cpp
+  - isaac_ros_benchmark/src/buffer_playback_node.cpp
+  - isaac_ros_benchmark/src/rosidl_buffer_topic_adapters.cpp
+  - benchmarks/isaac_ros_apriltag_benchmark/scripts/isaac_ros_apriltag_graph.py
+  repository_tree:
+    status: captured
+    sha: c0fedd06d8a2d07df853cfea5afa54e05bcbe979
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Performance benchmarking for NVIDIA-accelerated Isaac ROS packages.
+  why_used: Performance benchmarking for NVIDIA-accelerated Isaac ROS packages
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - CMake
+    - C++
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: isaac_ros_benchmark/src/buffer_monitor_node.cpp,
+    isaac_ros_benchmark/src/buffer_playback_node.cpp, isaac_ros_benchmark/src/rosidl_buffer_topic_adapters.cpp,
+    benchmarks/isaac_ros_apriltag_benchmark/scripts/isaac_ros_apriltag_graph.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_benchmark/blob/main/README.md
+  path: README.md
+  blob_sha: bda21e242b717a1188d1641f8723d971bd1c78f4
+  retrieved: true
+- type: manifest
+  path: isaac_ros_benchmark/CMakeLists.txt
+  blob_sha: f7995164c0519ea7e8a45b1dd80250da3b50a114
+  retrieved: true
+- type: manifest
+  path: benchmarks/isaac_ros_apriltag_benchmark/CMakeLists.txt
+  blob_sha: de5df8017f4eb0232e3e0a1d7f52afff06c68def
+  retrieved: true
+- type: manifest
+  path: benchmarks/isaac_ros_centerpose_benchmark/CMakeLists.txt
+  blob_sha: 06ddffaa66912ac0d2fd3c21f00dc485ee318f7c
+  retrieved: true
+- type: manifest
+  path: benchmarks/isaac_ros_detectnet_benchmark/CMakeLists.txt
+  blob_sha: 138d5d6453062db91e5c87ce12fd608496f8d893
+  retrieved: true
+- type: manifest
+  path: benchmarks/isaac_ros_dnn_image_encoder_benchmark/CMakeLists.txt
+  blob_sha: e1f7f5f2a45172e5f35ac2cbfb46859a9af6f0d7
+  retrieved: true
+- type: manifest
+  path: benchmarks/isaac_ros_dope_benchmark/CMakeLists.txt
+  blob_sha: 16181319a1b7cc7d3d74bbc1ff880d2f0208d535
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 529234
+    CMake: 48894
+    C++: 26635
+- type: Git tree
+  status: captured
+  sha: c0fedd06d8a2d07df853cfea5afa54e05bcbe979
+  truncated: false
+- type: source_file
+  path: isaac_ros_benchmark/src/buffer_monitor_node.cpp
+  blob_sha: 2a55d7dbd82f626507e598c4ae4ff50d0b3ab006
+  retrieved: true
+- type: source_file
+  path: isaac_ros_benchmark/src/buffer_playback_node.cpp
+  blob_sha: 79d624fbc477b2395a8c44425a6f094cef73f4c3
+  retrieved: true
+- type: source_file
+  path: isaac_ros_benchmark/src/rosidl_buffer_topic_adapters.cpp
+  blob_sha: 42c5ea2bca6a37571641b2a01b871aed406a0a9f
+  retrieved: true
+- type: source_file
+  path: benchmarks/isaac_ros_apriltag_benchmark/scripts/isaac_ros_apriltag_graph.py
+  blob_sha: e6b9909820cf8e7ada9dda19e8be8d6b8f14130e
+  retrieved: true

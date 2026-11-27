@@ -1,10 +1,10 @@
 # Technical audits — aws-robotics
 
-Updated: 2026-11-26T22:57:02+00:00
+Updated: 2026-11-27T07:24:10+00:00
 
 ## Status counts
 
-- evidence_only: 18
+- evidence_only: 22
 
 ## Repository dossiers
 
@@ -26,5 +26,9 @@ Updated: 2026-11-26T22:57:02+00:00
 | cloudwatch-common-154743283 | evidence_only | [cloudwatch-common-154743283.md](cloudwatch-common-154743283.md) | [cloudwatch-common-154743283.yaml](cloudwatch-common-154743283.yaml) |
 | cloudwatchlogs-ros1-154743369 | evidence_only | [cloudwatchlogs-ros1-154743369.md](cloudwatchlogs-ros1-154743369.md) | [cloudwatchlogs-ros1-154743369.yaml](cloudwatchlogs-ros1-154743369.yaml) |
 | cloudwatchlogs-ros2-168239450 | evidence_only | [cloudwatchlogs-ros2-168239450.md](cloudwatchlogs-ros2-168239450.md) | [cloudwatchlogs-ros2-168239450.yaml](cloudwatchlogs-ros2-168239450.yaml) |
+| cloudwatchmetrics-ros1-154743387 | evidence_only | [cloudwatchmetrics-ros1-154743387.md](cloudwatchmetrics-ros1-154743387.md) | [cloudwatchmetrics-ros1-154743387.yaml](cloudwatchmetrics-ros1-154743387.yaml) |
+| cloudwatchmetrics-ros2-168239591 | evidence_only | [cloudwatchmetrics-ros2-168239591.md](cloudwatchmetrics-ros2-168239591.md) | [cloudwatchmetrics-ros2-168239591.yaml](cloudwatchmetrics-ros2-168239591.yaml) |
 | github-171341635 | evidence_only | [github-171341635.md](github-171341635.md) | [github-171341635.yaml](github-171341635.yaml) |
+| health-metrics-collector-ros1-155613615 | evidence_only | [health-metrics-collector-ros1-155613615.md](health-metrics-collector-ros1-155613615.md) | [health-metrics-collector-ros1-155613615.yaml](health-metrics-collector-ros1-155613615.yaml) |
+| health-metrics-collector-ros2-200933258 | evidence_only | [health-metrics-collector-ros2-200933258.md](health-metrics-collector-ros2-200933258.md) | [health-metrics-collector-ros2-200933258.yaml](health-metrics-collector-ros2-200933258.yaml) |
 | ros2-sectest-187255145 | evidence_only | [ros2-sectest-187255145.md](ros2-sectest-187255145.md) | [ros2-sectest-187255145.yaml](ros2-sectest-187255145.yaml) |

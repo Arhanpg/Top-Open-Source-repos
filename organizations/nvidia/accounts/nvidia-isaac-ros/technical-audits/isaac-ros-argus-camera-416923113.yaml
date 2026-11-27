@@ -1,0 +1,96 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:02:16+00:00'
+evidence_fingerprint: 1f668c3489005e7284d6e409e20d076c729b9ee4170d22cf6046e5f2a8ffe71c
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/isaac_ros_argus_camera
+  repository_id: 416923113
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_argus_camera
+  description: ROS 2 packages based on NVIDIA libArgus library for NVIDIA-accelerated CSI camera support.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-01T02:30:24Z'
+  stars: 108
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_argus_camera/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 99cf6bc9acfc9f578932ba548555d2eb524ce098
+  manifest_paths:
+  - gxf_isaac_camera_utils/CMakeLists.txt
+  - isaac_ros_argus_camera/CMakeLists.txt
+  source_files_inspected:
+  - isaac_ros_argus_camera/src/argus_camera_mono_node.cpp
+  - isaac_ros_argus_camera/src/argus_camera_node.cpp
+  - isaac_ros_argus_camera/src/argus_camera_stereo_node.cpp
+  - isaac_ros_argus_camera/src/argus_nitros_context.cpp
+  repository_tree:
+    status: captured
+    sha: a6c4698d0494ceeba05f7bb71667ff30193bdf56
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ROS 2 packages based on NVIDIA libArgus library for NVIDIA-accelerated CSI camera support.
+  why_used: ROS 2 packages based on NVIDIA libArgus library for NVIDIA-accelerated CSI camera support.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: isaac_ros_argus_camera/src/argus_camera_mono_node.cpp,
+    isaac_ros_argus_camera/src/argus_camera_node.cpp, isaac_ros_argus_camera/src/argus_camera_stereo_node.cpp, isaac_ros_argus_camera/src/argus_nitros_context.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_argus_camera/blob/main/README.md
+  path: README.md
+  blob_sha: 99cf6bc9acfc9f578932ba548555d2eb524ce098
+  retrieved: true
+- type: manifest
+  path: gxf_isaac_camera_utils/CMakeLists.txt
+  blob_sha: a65c43f3ef7d65b041d18e96e9f83c8ff200015d
+  retrieved: true
+- type: manifest
+  path: isaac_ros_argus_camera/CMakeLists.txt
+  blob_sha: 5c504e04bdcb8fa57b4de7944a8876543453439e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 51833
+    CMake: 5716
+- type: Git tree
+  status: captured
+  sha: a6c4698d0494ceeba05f7bb71667ff30193bdf56
+  truncated: false
+- type: source_file
+  path: isaac_ros_argus_camera/src/argus_camera_mono_node.cpp
+  blob_sha: 8291d390f600447c596674390eda407f9d0f6798
+  retrieved: true
+- type: source_file
+  path: isaac_ros_argus_camera/src/argus_camera_node.cpp
+  blob_sha: aa4adbfba4e7b7f6eb80b9f086a450156cb28d2b
+  retrieved: true
+- type: source_file
+  path: isaac_ros_argus_camera/src/argus_camera_stereo_node.cpp
+  blob_sha: 8da3b6d351ae878ddb910150dab7024ae2e449e0
+  retrieved: true
+- type: source_file
+  path: isaac_ros_argus_camera/src/argus_nitros_context.cpp
+  blob_sha: e595de6a88486bffe9550d885165be9452564a5a
+  retrieved: true

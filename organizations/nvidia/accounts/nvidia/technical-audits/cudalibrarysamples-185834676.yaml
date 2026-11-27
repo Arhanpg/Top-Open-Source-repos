@@ -1,0 +1,141 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:08:57+00:00'
+evidence_fingerprint: c7a466c0086c4d7e5b883e4a187eb4f426e385d8be39b0ac67fec4ca54f0fd73
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/CUDALibrarySamples
+  repository_id: 185834676
+  url: https://github.com/NVIDIA/CUDALibrarySamples
+  description: CUDA Library Samples
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T05:47:44Z'
+  stars: 2553
+  readme_url: https://github.com/NVIDIA/CUDALibrarySamples/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 221c2bc22cb303001bf967caeb819af7476bb770
+  manifest_paths:
+  - cuBLASLt/CMakeLists.txt
+  - cuBLASMp/CMakeLists.txt
+  - cuEST/pyproject.toml
+  - cuPQC/Makefile
+  - cuSOLVERMp/CMakeLists.txt
+  - cuSOLVERSp2cuDSS/CMakeLists.txt
+  source_files_inspected:
+  - cuBLASLt/LtBlk128x128Fp8gemmGroupedSimple/main.cpp
+  - cuBLASLt/LtBlk128x128Fp8Matmul/main.cpp
+  - cuBLASLt/LtDgemmEmulated/main.cpp
+  - cuBLASLt/LtDgemmPresetAlgo/main.cpp
+  repository_tree:
+    status: captured
+    sha: 804a02f668b7593c006f6bcf55d0e07113709f57
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'The **CUDA Library Samples** repository contains various examples that demonstrate the use of GPU-accelerated
+    libraries in CUDA. These libraries enable high-performance computing in a wide range of applications, including
+    math operations, image processing, signal processing, linear algebra, and compression. The samples included
+    cover:'
+  why_used: CUDA Library Samples
+  core_features: []
+  technology_stack:
+    languages:
+    - Cuda
+    - C++
+    - Python
+    - C
+    - CMake
+    - Fortran
+    - Makefile
+    - AMPL
+    - Jupyter Notebook
+    - Shell
+    - Batchfile
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - numpy
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cuBLASLt/LtBlk128x128Fp8gemmGroupedSimple/main.cpp,
+    cuBLASLt/LtBlk128x128Fp8Matmul/main.cpp, cuBLASLt/LtDgemmEmulated/main.cpp, cuBLASLt/LtDgemmPresetAlgo/main.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/CUDALibrarySamples/blob/main/README.md
+  path: README.md
+  blob_sha: 221c2bc22cb303001bf967caeb819af7476bb770
+  retrieved: true
+- type: manifest
+  path: cuBLASLt/CMakeLists.txt
+  blob_sha: 1728ee6c9b635a3589b959082dc0357c41d341d9
+  retrieved: true
+- type: manifest
+  path: cuBLASMp/CMakeLists.txt
+  blob_sha: 4a55692e6fd54d1c26cbdb3d0ff548d92aafdef8
+  retrieved: true
+- type: manifest
+  path: cuEST/pyproject.toml
+  blob_sha: a9bd17cc6cc6d6f35bc7bc02284f6e9756c24d6d
+  retrieved: true
+- type: manifest
+  path: cuPQC/Makefile
+  blob_sha: 4bdaba04e6883afe8b4c5cbe08f20f2c49c45fe5
+  retrieved: true
+- type: manifest
+  path: cuSOLVERMp/CMakeLists.txt
+  blob_sha: 663d647ce94f243e37c85b6e524fa267876938cd
+  retrieved: true
+- type: manifest
+  path: cuSOLVERSp2cuDSS/CMakeLists.txt
+  blob_sha: 302eb76ea9410924b9107464548c985af0c09804
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Cuda: 3190532
+    C++: 3020738
+    Python: 2023060
+    C: 1691110
+    CMake: 918344
+    Fortran: 849902
+    Makefile: 155131
+    AMPL: 95606
+    Jupyter Notebook: 57891
+    Shell: 20474
+    Batchfile: 4647
+    Dockerfile: 784
+- type: Git tree
+  status: captured
+  sha: 804a02f668b7593c006f6bcf55d0e07113709f57
+  truncated: false
+- type: source_file
+  path: cuBLASLt/LtBlk128x128Fp8gemmGroupedSimple/main.cpp
+  blob_sha: 5fa0c8383461992a82ea9c1410f9d50ee9ee4685
+  retrieved: true
+- type: source_file
+  path: cuBLASLt/LtBlk128x128Fp8Matmul/main.cpp
+  blob_sha: ef71011fe4b85eacc08b6b703b896ce3bc48924b
+  retrieved: true
+- type: source_file
+  path: cuBLASLt/LtDgemmEmulated/main.cpp
+  blob_sha: f9d2ce5ffee316e00667064e114276e1641c6f9a
+  retrieved: true
+- type: source_file
+  path: cuBLASLt/LtDgemmPresetAlgo/main.cpp
+  blob_sha: b4786dd6fccd1f4aafd7bb5c613b3e784025b923
+  retrieved: true

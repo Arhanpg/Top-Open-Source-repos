@@ -1,0 +1,119 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:01:05+00:00'
+evidence_fingerprint: 41eefe7382d989b3ec16a6e0cc4d6a2392cd6bd8318f7c3493e65328b7123a1d
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/GPT
+  repository_id: 118391641
+  url: https://github.com/baidu/GPT
+  description: null
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2020-04-26T14:42:14Z'
+  stars: 92
+  readme_url: https://github.com/baidu/GPT/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 9aeba81dab778f79fac4b1db4db4bbb5c877c403
+  manifest_paths:
+  - build.gradle
+  - gpt-sdk/build.gradle
+  - gpt-demo/GPTHostDemo/build.gradle
+  - gpt-demo/GPTPluginDemo/build.gradle
+  source_files_inspected:
+  - gpt-demo/GPTHostDemo/src/com/baidu/android/pushservice/internal/BasicPushNotificationBuilder.java
+  - gpt-demo/GPTHostDemo/src/com/baidu/android/pushservice/internal/CustomPushNotificationBuilder.java
+  - gpt-demo/GPTHostDemo/src/com/baidu/android/pushservice/internal/PushManager.java
+  - gpt-demo/GPTHostDemo/src/com/baidu/android/pushservice/internal/PushNotificationBuilder.java
+  repository_tree:
+    status: captured
+    sha: 9b775599f70952108790dbf8a5c12edee7f1a2d8
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: repositories{ maven{ url "http://szwg-appsearch-dev.szwg01.baidu.com:8081/repository/maven-releases/"
+    } } } compile 'com.baidu.android.gporter:GreedyPorter:6.0' }
+  why_used: repositories{ maven{ url "http://szwg-appsearch-dev.szwg01.baidu.com:8081/repository/maven-releases/"
+    } } } compile 'com.baidu.android.gporter:GreedyPorter:6.0' }
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - HTML
+    - CSS
+    - C
+    - JavaScript
+    - Makefile
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle build file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: gpt-demo/GPTHostDemo/src/com/baidu/android/pushservice/internal/BasicPushNotificationBuilder.java,
+    gpt-demo/GPTHostDemo/src/com/baidu/android/pushservice/internal/CustomPushNotificationBuilder.java, gpt-demo/GPTHostDemo/src/com/baidu/android/pushservice/internal/PushManager.java,
+    gpt-demo/GPTHostDemo/src/com/baidu/android/pushservice/internal/PushNotificationBuilder.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/GPT/blob/master/README.md
+  path: README.md
+  blob_sha: 9aeba81dab778f79fac4b1db4db4bbb5c877c403
+  retrieved: true
+- type: manifest
+  path: build.gradle
+  blob_sha: b92111b6466f14af529ea185a1a6029de3fcfb8d
+  retrieved: true
+- type: manifest
+  path: gpt-sdk/build.gradle
+  blob_sha: ec33bbeb08a20a59d88bf63397ec71b62197841d
+  retrieved: true
+- type: manifest
+  path: gpt-demo/GPTHostDemo/build.gradle
+  blob_sha: 51365ba4a1a262beac1cadc0bd24c5116591f040
+  retrieved: true
+- type: manifest
+  path: gpt-demo/GPTPluginDemo/build.gradle
+  blob_sha: f4c3506675972a11bd5abdb4d1675d3cf4324f50
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 953524
+    HTML: 359781
+    CSS: 12842
+    C: 2118
+    JavaScript: 827
+    Makefile: 785
+    Shell: 437
+- type: Git tree
+  status: captured
+  sha: 9b775599f70952108790dbf8a5c12edee7f1a2d8
+  truncated: false
+- type: source_file
+  path: gpt-demo/GPTHostDemo/src/com/baidu/android/pushservice/internal/BasicPushNotificationBuilder.java
+  blob_sha: 7749cb705d6a1a1681787c6d158aa655aa33485b
+  retrieved: true
+- type: source_file
+  path: gpt-demo/GPTHostDemo/src/com/baidu/android/pushservice/internal/CustomPushNotificationBuilder.java
+  blob_sha: cb7c08920917be0c3f7ef7843f28139c00cccc4c
+  retrieved: true
+- type: source_file
+  path: gpt-demo/GPTHostDemo/src/com/baidu/android/pushservice/internal/PushManager.java
+  blob_sha: 9ab3da842753cd7918546b2cae4b594f11beb7f3
+  retrieved: true
+- type: source_file
+  path: gpt-demo/GPTHostDemo/src/com/baidu/android/pushservice/internal/PushNotificationBuilder.java
+  blob_sha: f9f78589c4ae780b0c70f9b0ad77e9d95ea25d7f
+  retrieved: true

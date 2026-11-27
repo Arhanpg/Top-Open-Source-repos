@@ -1,0 +1,98 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:12:40+00:00'
+evidence_fingerprint: faae289a2d10a9f51b0215dda68b7e03a81e0a7ea52a2edec1431ebecb78f2a2
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/aws-deepracer-webserver-pkg
+  repository_id: 341985928
+  url: https://github.com/aws-deepracer/aws-deepracer-webserver-pkg
+  description: The DeepRacer Web Server ROS package creates the web_publisher_node which launches a Flask application
+    as a background thread and creates service clients and subscribers for all the services and topics that are
+    required by the APIs called from the DeepRacer vehicle console.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2021-07-28T21:16:08Z'
+  stars: 2
+  readme_url: https://github.com/aws-deepracer/aws-deepracer-webserver-pkg/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1338f89b262f96b2ca7c3fd07e59b706e1ae3bf9
+  manifest_paths:
+  - webserver_pkg/setup.py
+  source_files_inspected:
+  - webserver_pkg/launch/webserver_pkg_launch.py
+  - webserver_pkg/setup.py
+  - webserver_pkg/webserver_pkg/__init__.py
+  - webserver_pkg/webserver_pkg/calibration.py
+  repository_tree:
+    status: captured
+    sha: f210a17fe054bd0d29ee150581353b74c9919b89
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The AWS DeepRacer web server ROS package creates the webserver_publisher_node, which is part of the core
+    AWS DeepRacer application and launches from the deepracer_launcher. For more details about the application and
+    its components, see the aws-deepracer-launcher repository.
+  why_used: The DeepRacer Web Server ROS package creates the web_publisher_node which launches a Flask application
+    as a background thread and creates service clients and subscribers for all the services and topics that are
+    required by the APIs called from the DeepRacer vehicle console.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: webserver_pkg/launch/webserver_pkg_launch.py,
+    webserver_pkg/setup.py, webserver_pkg/webserver_pkg/__init__.py, webserver_pkg/webserver_pkg/calibration.py'
+  setup_and_usage:
+  - 'Installation: Follow these steps to install the AWS DeepRacer web server package.'
+  - 'Usage: The webserver_publisher_node provides basic system-level functionality for the AWS DeepRacer application
+    to work. Although the node is built to work with the AWS DeepRacer application, you can run it independently
+    for development, testing, and debugging purposes.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/aws-deepracer-webserver-pkg/blob/main/README.md
+  path: README.md
+  blob_sha: 1338f89b262f96b2ca7c3fd07e59b706e1ae3bf9
+  retrieved: true
+- type: manifest
+  path: webserver_pkg/setup.py
+  blob_sha: c68dc03e3b80826c9a976eeb7136a6c33924a155
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 163314
+- type: Git tree
+  status: captured
+  sha: f210a17fe054bd0d29ee150581353b74c9919b89
+  truncated: false
+- type: source_file
+  path: webserver_pkg/launch/webserver_pkg_launch.py
+  blob_sha: f2c7e5bf9df7a636d4a37744a66c384ac2c737a4
+  retrieved: true
+- type: source_file
+  path: webserver_pkg/setup.py
+  blob_sha: c68dc03e3b80826c9a976eeb7136a6c33924a155
+  retrieved: true
+- type: source_file
+  path: webserver_pkg/webserver_pkg/__init__.py
+  blob_sha: 83a73bbc05b4236628deb8041723bd42d99b58ca
+  retrieved: true
+- type: source_file
+  path: webserver_pkg/webserver_pkg/calibration.py
+  blob_sha: 8d67a45e1aecd42379f08114caa3375e05f3246e
+  retrieved: true

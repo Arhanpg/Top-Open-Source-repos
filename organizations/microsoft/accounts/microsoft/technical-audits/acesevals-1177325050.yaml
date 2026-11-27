@@ -1,0 +1,150 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:15:21+00:00'
+evidence_fingerprint: a1922388cc736ba122c63779bc42f59bbbc04fef9ed2f00f5b1fd93eb106d667
+repository_metadata:
+  company: Microsoft
+  account: microsoft
+  full_name: microsoft/ACESEvals
+  repository_id: 1177325050
+  url: https://github.com/microsoft/ACESEvals
+  description: Security Agent Benchmarking and Evaluation Research
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-05T21:01:42Z'
+  stars: 21
+  readme_url: https://github.com/microsoft/ACESEvals/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3f41aea4281f8e5f94cf2f6c54786b815273b547
+  manifest_paths:
+  - pyproject.toml
+  - domains/cti_realm/setup.py
+  - domains/excytin/setup.py
+  - domains/cti_realm/docker/Dockerfile
+  - domains/eval_ranges/saber_sim_incident_134_v1/setup.py
+  - domains/eval_ranges/saber_sim_incident_134_v2/setup.py
+  source_files_inspected:
+  - domains/cybench/docker/challenges/labyrinth_linguist/challenge/src/main/java/Main.java
+  - domains/cybench/docker/challenges/labyrinth_linguist/resources/src/main/java/Main.java
+  - domains/eval_ranges/saber_sim_incident_134_v1/docker/saber_az_bridge/saber_az_bridge/__main__.py
+  - domains/eval_ranges/saber_sim_incident_134_v1/docker/saber_az_bridge/saber_az_bridge/cli.py
+  repository_tree:
+    status: captured
+    sha: 79872b4f8daf23a4a806ccd35630d6f7db05d590
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> **Naming:** The external name for this project is **ACES** (Agent Capability Evaluation Suite). **SABER**
+    (Security Agent Benchmarking and Evaluation Research) is the internal Microsoft codename. Both names refer to
+    the same system. You may see "SABER" in code, package names (saber), CLI commands (uv run saber build), and
+    logs — this is expected.'
+  why_used: Security Agent Benchmarking and Evaluation Research
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Jupyter Notebook
+    - Jinja
+    - Dockerfile
+    - Shell
+    - CSS
+    - Java
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - huggingface-hub
+    - inspect-ai
+    - openai
+    - saber
+    build_and_package_tools:
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: domains/cybench/docker/challenges/labyrinth_linguist/challenge/src/main/java/Main.java,
+    domains/cybench/docker/challenges/labyrinth_linguist/resources/src/main/java/Main.java, domains/eval_ranges/saber_sim_incident_134_v1/docker/saber_az_bridge/saber_az_bridge/__main__.py,
+    domains/eval_ranges/saber_sim_incident_134_v1/docker/saber_az_bridge/saber_az_bridge/cli.py'
+  setup_and_usage: []
+  limitations:
+  - 'CyBench — Security Challenges: CTF-style cybersecurity challenges for penetration testing and web security
+    evaluation.'
+  - 'CyBench — Security Challenges: uv run inspect eval domains/cybench --model openai/azure/gpt-4.1'
+  - 'SABER-Sim — Simulated Azure Security Ranges: Azure cloud security simulations backed by Dockerized mock services.
+    Each range under'
+  - 'SABER-Sim — Simulated Azure Security Ranges: domains/eval_ranges/ is a separate domain with six tasks:'
+  - 'SABER-Sim — Simulated Azure Security Ranges: red-team attack, reconnaissance, detection, posture analysis,
+    remediation, and threat intelligence.'
+  - 'SABER-Sim — Simulated Azure Security Ranges: Point Inspect at an individual range directory, not the parent.'
+  - 'SABER-Sim — Simulated Azure Security Ranges: > **First run:** Setup hooks automatically download and verify
+    the range''s telemetry from'
+  - 'SABER-Sim — Simulated Azure Security Ranges: > HuggingFace. Use -T build=true to build missing Docker images.
+    Each sample starts a'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/microsoft/ACESEvals/blob/main/README.md
+  path: README.md
+  blob_sha: 3f41aea4281f8e5f94cf2f6c54786b815273b547
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 2e44c06466f2e6144d4a712d6a928951c3348647
+  retrieved: true
+- type: manifest
+  path: domains/cti_realm/setup.py
+  blob_sha: 67f40c51dbbb03cf6405a8ffb0dd28b6bc43fb7f
+  retrieved: true
+- type: manifest
+  path: domains/excytin/setup.py
+  blob_sha: 8226c52f09a1d870dbeb3d365766a181d7328d91
+  retrieved: true
+- type: manifest
+  path: domains/cti_realm/docker/Dockerfile
+  blob_sha: c32331b955589834286ed6b7a76c5b1b5f345ec5
+  retrieved: true
+- type: manifest
+  path: domains/eval_ranges/saber_sim_incident_134_v1/setup.py
+  blob_sha: d9dc41560c10a81b6938f01afc1a20e10d1db7a9
+  retrieved: true
+- type: manifest
+  path: domains/eval_ranges/saber_sim_incident_134_v2/setup.py
+  blob_sha: d9dc41560c10a81b6938f01afc1a20e10d1db7a9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 33479137
+    Jupyter Notebook: 17876799
+    Jinja: 2176431
+    Dockerfile: 144200
+    Shell: 83118
+    CSS: 5814
+    Java: 4962
+    HTML: 1210
+- type: Git tree
+  status: captured
+  sha: 79872b4f8daf23a4a806ccd35630d6f7db05d590
+  truncated: false
+- type: source_file
+  path: domains/cybench/docker/challenges/labyrinth_linguist/challenge/src/main/java/Main.java
+  blob_sha: 9cc05b4bdc213fdc6ee453f849944d7c03f8c283
+  retrieved: true
+- type: source_file
+  path: domains/cybench/docker/challenges/labyrinth_linguist/resources/src/main/java/Main.java
+  blob_sha: 9cc05b4bdc213fdc6ee453f849944d7c03f8c283
+  retrieved: true
+- type: source_file
+  path: domains/eval_ranges/saber_sim_incident_134_v1/docker/saber_az_bridge/saber_az_bridge/__main__.py
+  blob_sha: 75a3cb10dae013e1e139b9cc1ee011b63b91dd84
+  retrieved: true
+- type: source_file
+  path: domains/eval_ranges/saber_sim_incident_134_v1/docker/saber_az_bridge/saber_az_bridge/cli.py
+  blob_sha: b7c1ca2b0343ab9caec20681c3a97184db13328b
+  retrieved: true

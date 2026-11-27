@@ -1,0 +1,265 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:08:49+00:00'
+evidence_fingerprint: a6128a60ba31ea9b8525a07868209ae294bb5438e25c9fd11ba93b8955344d42
+repository_metadata:
+  company: NVIDIA
+  account: ai-dynamo
+  full_name: ai-dynamo/snapshot
+  repository_id: 1299481757
+  url: https://github.com/ai-dynamo/snapshot
+  description: Snapshot gets GPU pods ready in seconds instead of minutes — by restoring a fully initialized GPU
+    worker instead of starting one from scratch. Kubernetes-native checkpoint & restore that runs alongside your
+    existing stack.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T18:16:29Z'
+  stars: 179
+  readme_url: https://github.com/ai-dynamo/snapshot/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f8af32e60e3e8bb54b1ebacfd03c466000df602e
+  manifest_paths:
+  - Makefile
+  - agent/Dockerfile
+  - agent/go.mod
+  - agent/Makefile
+  - api/go.mod
+  - api/Makefile
+  source_files_inspected:
+  - agent/cmd/agent/main.go
+  - agent/cmd/cuda-checkpoint-helper/main.c
+  - agent/cmd/cuinterpose/rust/abi/src/lib.rs
+  - agent/cmd/cuinterpose/rust/coordinator/src/main.rs
+  repository_tree:
+    status: captured
+    sha: 7eb2ee6367d3b35b6677aef6b2a4f55edaaba56c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Snapshot is a Kubernetes-native checkpoint and restore system for NVIDIA GPU workloads. It checkpoints
+    a fully initialized GPU pod (its running process, with CPU and GPU memory) and restores that state on any compatible
+    node, so a pod becomes ready in seconds instead of minutes.
+  why_used: Snapshot gets GPU pods ready in seconds instead of minutes — by restoring a fully initialized GPU worker
+    instead of starting one from scratch. Kubernetes-native checkpoint & restore that runs alongside your existing
+    stack.
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Python
+    - C++
+    - Rust
+    - TypeScript
+    - Shell
+    - C
+    - Dockerfile
+    - Makefile
+    - Go Template
+    - CSS
+    - HTML
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/Microsoft/go-winio
+    - github.com/Microsoft/hcsshim
+    - github.com/ai-dynamo/snapshot/api
+    - github.com/aperturerobotics/protobuf-go-lite
+    - github.com/beorn7/perks
+    - github.com/cespare/xxhash/v2
+    - github.com/checkpoint-restore/go-criu/v8
+    - github.com/containerd/cgroups/v3
+    - github.com/containerd/containerd/api
+    - github.com/containerd/containerd/v2
+    - github.com/containerd/continuity
+    - github.com/containerd/errdefs
+    - github.com/containerd/errdefs/pkg
+    - github.com/containerd/fifo
+    - github.com/containerd/log
+    - github.com/containerd/log/otel
+    - github.com/containerd/nri
+    - github.com/containerd/platforms
+    - github.com/containerd/plugin
+    - github.com/containerd/ttrpc
+    - github.com/containerd/typeurl/v2
+    - github.com/cyphar/filepath-securejoin
+    - github.com/davecgh/go-spew
+    - github.com/distribution/reference
+    - github.com/emicklei/go-restful/v3
+    - github.com/evanphx/json-patch/v5
+    - github.com/felixge/httpsnoop
+    - github.com/fxamacker/cbor/v2
+    - github.com/go-logr/logr
+    - github.com/go-logr/stdr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/go-openapi/swag/cmdutils
+    - github.com/go-openapi/swag/conv
+    - github.com/go-openapi/swag/fileutils
+    - github.com/go-openapi/swag/jsonutils
+    - github.com/go-openapi/swag/loading
+    - github.com/go-openapi/swag/mangling
+    - github.com/go-openapi/swag/netutils
+    - github.com/go-openapi/swag/pools
+    - github.com/go-openapi/swag/stringutils
+    - github.com/go-openapi/swag/typeutils
+    - github.com/go-openapi/swag/yamlutils
+    - github.com/google/gnostic-models
+    - github.com/google/uuid
+    - github.com/json-iterator/go
+    - github.com/klauspost/compress
+    - github.com/knqyf263/go-plugin
+    - github.com/moby/locker
+    - github.com/moby/sys/mountinfo
+    - github.com/moby/sys/signal
+    - github.com/moby/sys/user
+    - github.com/moby/sys/userns
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/munnerz/goautoneg
+    - github.com/opencontainers/go-digest
+    - github.com/opencontainers/image-spec
+    - github.com/opencontainers/runtime-spec
+    - github.com/pierrec/lz4/v4
+    - github.com/pkg/errors
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/sirupsen/logrus
+    - github.com/stretchr/testify
+    - github.com/tetratelabs/wazero
+    - github.com/x448/float16
+    - go.opentelemetry.io/auto/sdk
+    - go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc
+    - go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
+    - go.opentelemetry.io/otel
+    - go.opentelemetry.io/otel/log
+    - go.opentelemetry.io/otel/metric
+    - go.opentelemetry.io/otel/sdk
+    - go.opentelemetry.io/otel/trace
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - go.yaml.in/yaml/v2
+    - go.yaml.in/yaml/v3
+    - golang.org/x/mod
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/term
+    - golang.org/x/text
+    - golang.org/x/time
+    - google.golang.org/genproto/googleapis/rpc
+    - google.golang.org/grpc
+    - google.golang.org/protobuf
+    - gopkg.in/evanphx/json-patch.v4
+    - gopkg.in/inf.v0
+    - gopkg.in/yaml.v3
+    - k8s.io/api
+    - k8s.io/apimachinery
+    - k8s.io/klog/v2
+    - k8s.io/kube-openapi
+    - k8s.io/utils
+    - sigs.k8s.io/json
+    - sigs.k8s.io/randfill
+    - sigs.k8s.io/structured-merge-diff/v6
+    - sigs.k8s.io/yaml
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: agent/cmd/agent/main.go,
+    agent/cmd/cuda-checkpoint-helper/main.c, agent/cmd/cuinterpose/rust/abi/src/lib.rs, agent/cmd/cuinterpose/rust/coordinator/src/main.rs'
+  setup_and_usage:
+  - 'Installation: Snapshot installs as a single per-cluster Helm release: a control-plane operator'
+  - 'Installation: plus a privileged node agent (DaemonSet) on GPU nodes. Install it in its own'
+  - 'Installation: namespace, and run GPU workloads in separate namespaces.'
+  - 'Installation: Snapshot can be installed:'
+  - 'Installation: - **From a release** (recommended)'
+  - 'Installation: - **From source** (build the images and install locally)'
+  - 'Quickstart: Once Snapshot is installed, the'
+  - 'Quickstart: Quickstart: Checkpoint and Restore One Pod'
+  limitations:
+  - 'Limitations: - Linux nodes on x86_64 or arm64.'
+  - 'Limitations: - Workloads, including multi-GPU workloads, must run on a single node. Multi-node is on the roadmap.'
+  - 'Limitations: - vGPU is not supported.'
+  - 'Limitations: - Runs only on NVIDIA GPUs supported by the required CUDA driver.'
+  - 'Security: To report a security vulnerability, follow the process in SECURITY.md.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ai-dynamo/snapshot/blob/main/README.md
+  path: README.md
+  blob_sha: f8af32e60e3e8bb54b1ebacfd03c466000df602e
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 2fe9289d9b42780e2703d0fab6bd73d7b1317616
+  retrieved: true
+- type: manifest
+  path: agent/Dockerfile
+  blob_sha: c3c2484ab196d5c0b9332a5a76327174beca6abc
+  retrieved: true
+- type: manifest
+  path: agent/go.mod
+  blob_sha: 6a4e2d98063cceddf694e0368086c8a5ba803c95
+  retrieved: true
+- type: manifest
+  path: agent/Makefile
+  blob_sha: dc11f44262ea8e9abc1879ae2a1b37ab69a275b1
+  retrieved: true
+- type: manifest
+  path: api/go.mod
+  blob_sha: 745f86d5dcac12d8c21691c4a3c868e65edd321e
+  retrieved: true
+- type: manifest
+  path: api/Makefile
+  blob_sha: 1e342d5b48f735054f2c87b476967f72e4af7403
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 2324819
+    Python: 1040005
+    C++: 825262
+    Rust: 524205
+    TypeScript: 103080
+    Shell: 65768
+    C: 51256
+    Dockerfile: 40226
+    Makefile: 31964
+    Go Template: 13247
+    CSS: 10208
+    HTML: 5011
+    JavaScript: 896
+- type: Git tree
+  status: captured
+  sha: 7eb2ee6367d3b35b6677aef6b2a4f55edaaba56c
+  truncated: false
+- type: source_file
+  path: agent/cmd/agent/main.go
+  blob_sha: 1679022cf0f0e2fa6dbc0f69b3c6d8a869651de7
+  retrieved: true
+- type: source_file
+  path: agent/cmd/cuda-checkpoint-helper/main.c
+  blob_sha: d0bedbcba673277d65069e336c4f727d86112e82
+  retrieved: true
+- type: source_file
+  path: agent/cmd/cuinterpose/rust/abi/src/lib.rs
+  blob_sha: 72b061cd488d365eac441356226ca075d9930cef
+  retrieved: true
+- type: source_file
+  path: agent/cmd/cuinterpose/rust/coordinator/src/main.rs
+  blob_sha: 0f2e5c0b090cfc448fc40a6b1ca0e74b959e2d19
+  retrieved: true

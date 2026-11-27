@@ -1,0 +1,130 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:20:36+00:00'
+evidence_fingerprint: f83434a3caab28032c65b330818930c6ad42291739324302cc7daa0e75221139
+repository_metadata:
+  company: Amazon
+  account: cdklabs
+  full_name: cdklabs/cdk-amazonmq
+  repository_id: 820335257
+  url: https://github.com/cdklabs/cdk-amazonmq
+  description: 'This repository contains L2+ AWS CDK constructs for Amazon MQ '
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T08:30:33Z'
+  stars: 7
+  readme_url: https://github.com/cdklabs/cdk-amazonmq/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b3966241e41bca744cdee2a004d1a7b1c1031e62
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/activemq/index.ts
+  - src/activemq/lambda/index.ts
+  - src/activemq/usermanagement/index.ts
+  - src/index.ts
+  repository_tree:
+    status: captured
+    sha: 59ea66fdd46fde9360f6f254d082c7f97f88b403
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '---'
+  why_used: This repository contains L2+ AWS CDK constructs for Amazon MQ
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-cdk/integ-runner'
+    - '@aws-cdk/integ-tests-alpha'
+    - '@aws-sdk/client-ec2'
+    - '@aws-sdk/client-lambda'
+    - '@aws-sdk/client-secrets-manager'
+    - '@aws-sdk/client-ssm'
+    - '@aws-sdk/util-arn-parser'
+    - '@types/aws-lambda'
+    - '@types/jest'
+    - '@types/node'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - aws-cdk
+    - aws-cdk-lib
+    - cdk-nag
+    - cdklabs-projen-project-types
+    - commit-and-tag-version
+    - constructs
+    - esbuild
+    - eslint
+    - eslint-config-prettier
+    - eslint-import-resolver-typescript
+    - eslint-plugin-import
+    - eslint-plugin-prettier
+    - jest
+    - jest-junit
+    - jsii
+    - jsii-diff
+    - jsii-docgen
+    - jsii-pacmak
+    - jsii-rosetta
+    - mqtt
+    - prettier
+    - projen
+    - rabbitmq-client
+    - rhea
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/activemq/index.ts,
+    src/activemq/lambda/index.ts, src/activemq/usermanagement/index.ts, src/index.ts'
+  setup_and_usage: []
+  limitations:
+  - 'Security: In order to build secure solutions follow the guidelines and recommendations in the *Security* section
+    of the AWS documentation for the Amazon MQ.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cdklabs/cdk-amazonmq/blob/main/README.md
+  path: README.md
+  blob_sha: b3966241e41bca744cdee2a004d1a7b1c1031e62
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 9b16d28ade64797d2181df96c9be5327bdc27b2d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 329348
+- type: Git tree
+  status: captured
+  sha: 59ea66fdd46fde9360f6f254d082c7f97f88b403
+  truncated: false
+- type: source_file
+  path: src/activemq/index.ts
+  blob_sha: 267549f8041e04a406635b6392c9313e8639476d
+  retrieved: true
+- type: source_file
+  path: src/activemq/lambda/index.ts
+  blob_sha: 6f68f30330bbb510b93622b79e9269e5e60d95b9
+  retrieved: true
+- type: source_file
+  path: src/activemq/usermanagement/index.ts
+  blob_sha: ea1af9b9a5bfbdc1e296bf8e218705225d1f4b08
+  retrieved: true
+- type: source_file
+  path: src/index.ts
+  blob_sha: c1d1bc0ff939bf8203a9ce4f419e08f5cc26c42d
+  retrieved: true

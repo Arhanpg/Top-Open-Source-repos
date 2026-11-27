@@ -1,10 +1,10 @@
 # Technical audits — capire
 
-Updated: 2026-11-26T22:57:01+00:00
+Updated: 2026-11-27T07:24:08+00:00
 
 ## Status counts
 
-- evidence_only: 16
+- evidence_only: 20
 
 ## Repository dossiers
 
@@ -26,3 +26,7 @@ Updated: 2026-11-26T22:57:01+00:00
 | reviews-959655991 | evidence_only | [reviews-959655991.md](reviews-959655991.md) | [reviews-959655991.yaml](reviews-959655991.yaml) |
 | reviews-java-1118827554 | evidence_only | [reviews-java-1118827554.md](reviews-java-1118827554.md) | [reviews-java-1118827554.yaml](reviews-java-1118827554.yaml) |
 | s4-1143213033 | evidence_only | [s4-1143213033.md](s4-1143213033.md) | [s4-1143213033.yaml](s4-1143213033.yaml) |
+| samples-959665065 | evidence_only | [samples-959665065.md](samples-959665065.md) | [samples-959665065.yaml](samples-959665065.yaml) |
+| samples-java-1118815560 | evidence_only | [samples-java-1118815560.md](samples-java-1118815560.md) | [samples-java-1118815560.yaml](samples-java-1118815560.yaml) |
+| shared-db-959657171 | evidence_only | [shared-db-959657171.md](shared-db-959657171.md) | [shared-db-959657171.yaml](shared-db-959657171.yaml) |
+| shared-db-java-1118829972 | evidence_only | [shared-db-java-1118829972.md](shared-db-java-1118829972.md) | [shared-db-java-1118829972.yaml](shared-db-java-1118829972.yaml) |

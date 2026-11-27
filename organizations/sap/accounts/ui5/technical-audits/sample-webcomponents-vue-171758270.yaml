@@ -1,0 +1,111 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:23:56+00:00'
+evidence_fingerprint: 126bb5ab49ad374f988027af79a6e8e52689aa97cffe9d18e4ffb5ac3a767173
+repository_metadata:
+  company: SAP
+  account: UI5
+  full_name: UI5/sample-webcomponents-vue
+  repository_id: 171758270
+  url: https://github.com/UI5/sample-webcomponents-vue
+  description: UI5 Web Components Sample TODO application built with Vue.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-09-09T03:45:51Z'
+  stars: 65
+  readme_url: https://github.com/UI5/sample-webcomponents-vue/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3f2c005a3225e399efed14586f3ec2b39678f784
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/main.js
+  - .eslintrc.js
+  - vite.config.js
+  repository_tree:
+    status: captured
+    sha: 5483f989e98571503c4b8e1c08eaf04f8f088821
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Vue sample application to demonstrate the usage of the UI5 Web Components. It shows how to bind properties,
+    to subscribe to events, using nested components and the bootstrapped Vue build.
+  why_used: UI5 Web Components Sample TODO application built with Vue.
+  core_features: []
+  technology_stack:
+    languages:
+    - Vue
+    - JavaScript
+    - HTML
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - '@commitlint/cli'
+    - '@commitlint/config-conventional'
+    - '@ui5/webcomponents'
+    - '@ui5/webcomponents-base'
+    - '@ui5/webcomponents-fiori'
+    - '@ui5/webcomponents-icons'
+    - '@vitejs/plugin-vue'
+    - eslint
+    - eslint-plugin-vue
+    - husky
+    - vite
+    - vue
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/main.js, .eslintrc.js,
+    vite.config.js'
+  setup_and_usage:
+  - 'Getting started: 1. Clone this repository using the GitHub Command line tool and navigate into the downloaded
+    directory.'
+  - 'Getting started: git clone https://github.com/UI5/sample-webcomponents-vue.git'
+  - 'Getting started: cd sample-webcomponents-vue'
+  - 'Getting started: 1. Install all dependencies'
+  - 'Getting started: 1. Start a local server and run the application. (The running application can be found here:
+    http://localhost:5173)'
+  limitations:
+  - 'Limitations: No limitations known.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/UI5/sample-webcomponents-vue/blob/main/README.md
+  path: README.md
+  blob_sha: 3f2c005a3225e399efed14586f3ec2b39678f784
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: a4cdd34cafcc40a1f60a85d80be02f1cc626c0e7
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Vue: 16554
+    JavaScript: 708
+    HTML: 627
+    Shell: 76
+- type: Git tree
+  status: captured
+  sha: 5483f989e98571503c4b8e1c08eaf04f8f088821
+  truncated: false
+- type: source_file
+  path: src/main.js
+  blob_sha: ea96ca47593d019fc79dd1411390e86338438724
+  retrieved: true
+- type: source_file
+  path: .eslintrc.js
+  blob_sha: bd77fd5bdf5aac19a5cd99262869e10a0a0ece8d
+  retrieved: true
+- type: source_file
+  path: vite.config.js
+  blob_sha: 94dfbdd296a380df1e8f10edd853c5b29f7d5829
+  retrieved: true

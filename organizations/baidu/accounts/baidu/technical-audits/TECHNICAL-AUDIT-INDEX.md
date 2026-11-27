@@ -1,10 +1,10 @@
 # Technical audits — baidu
 
-Updated: 2026-11-26T22:57:04+00:00
+Updated: 2026-11-27T07:24:07+00:00
 
 ## Status counts
 
-- evidence_only: 16
+- evidence_only: 20
 
 ## Repository dossiers
 
@@ -26,3 +26,7 @@ Updated: 2026-11-26T22:57:04+00:00
 | ernie-image-1210026347 | evidence_only | [ernie-image-1210026347.md](ernie-image-1210026347.md) | [ernie-image-1210026347.yaml](ernie-image-1210026347.yaml) |
 | familia-94299010 | evidence_only | [familia-94299010.md](familia-94299010.md) | [familia-94299010.yaml](familia-94299010.yaml) |
 | github-1009597798 | evidence_only | [github-1009597798.md](github-1009597798.md) | [github-1009597798.yaml](github-1009597798.yaml) |
+| gpt-118391641 | evidence_only | [gpt-118391641.md](gpt-118391641.md) | [gpt-118391641.yaml](gpt-118391641.yaml) |
+| ice-ba-125794263 | evidence_only | [ice-ba-125794263.md](ice-ba-125794263.md) | [ice-ba-125794263.yaml](ice-ba-125794263.yaml) |
+| itest-14324719 | evidence_only | [itest-14324719.md](itest-14324719.md) | [itest-14324719.yaml](itest-14324719.yaml) |
+| jprotobuf-rpc-socket-26525663 | evidence_only | [jprotobuf-rpc-socket-26525663.md](jprotobuf-rpc-socket-26525663.md) | [jprotobuf-rpc-socket-26525663.yaml](jprotobuf-rpc-socket-26525663.yaml) |

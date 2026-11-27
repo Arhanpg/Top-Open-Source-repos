@@ -1,0 +1,111 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:16:08+00:00'
+evidence_fingerprint: a6c36a6d118766b45d43118a4764435bb2a874048a7de59f781a41314ae300af
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/openvino_backend
+  repository_id: 336391126
+  url: https://github.com/triton-inference-server/openvino_backend
+  description: OpenVINO backend for Triton.
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-04T22:57:07Z'
+  stars: 39
+  readme_url: https://github.com/triton-inference-server/openvino_backend/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 98211ee86805189528fc20f32259f41b62b822b9
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  - tests/requirements.txt
+  source_files_inspected:
+  - src/openvino.cc
+  - src/openvino_utils.cc
+  - src/openvino_utils.h
+  - tools/gen_openvino_dockerfile.py
+  repository_tree:
+    status: captured
+    sha: f9bb822f6bbc69e30147d1f43066c561b1280b8c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: -->
+  why_used: OpenVINO backend for Triton.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - CMake
+    frameworks_and_libraries: []
+    dependencies:
+    - pytest
+    - requests
+    - tritonclient
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/openvino.cc, src/openvino_utils.cc,
+    src/openvino_utils.h, tools/gen_openvino_dockerfile.py'
+  setup_and_usage: []
+  limitations:
+  - 'Known Issues: * Models with the scalar on the input (shape without any dimension are not supported)'
+  - 'Known Issues: * Reshaping using dimension ranges is not supported.'
+  - 'Known Issues: * Models without output names are not supported. Models must be saved with names assigned.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/openvino_backend/blob/main/README.md
+  path: README.md
+  blob_sha: 98211ee86805189528fc20f32259f41b62b822b9
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: edee318d3bf8a0f296257597162bef7d87f07bcc
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 1a8da1f4d366d75f2af71229a835ed5fd3102b5f
+  retrieved: true
+- type: manifest
+  path: tests/requirements.txt
+  blob_sha: c9d0db9c12053bf438e27b7b522d9e7d24e56375
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 74053
+    Python: 26071
+    CMake: 12043
+- type: Git tree
+  status: captured
+  sha: f9bb822f6bbc69e30147d1f43066c561b1280b8c
+  truncated: false
+- type: source_file
+  path: src/openvino.cc
+  blob_sha: d4e00dd6a366851623b92d9d7afe499c4c7d9efd
+  retrieved: true
+- type: source_file
+  path: src/openvino_utils.cc
+  blob_sha: e6edefeb63bb861561a5a2b8fef1d4b13e3716d0
+  retrieved: true
+- type: source_file
+  path: src/openvino_utils.h
+  blob_sha: a89493737d7c2b2f1aff35ab578a834cfcec7b69
+  retrieved: true
+- type: source_file
+  path: tools/gen_openvino_dockerfile.py
+  blob_sha: 42f590de420914a34a9085177809da2f8864b63f
+  retrieved: true

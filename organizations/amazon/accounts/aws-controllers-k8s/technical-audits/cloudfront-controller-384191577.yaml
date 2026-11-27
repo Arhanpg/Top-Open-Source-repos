@@ -1,0 +1,189 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:12:32+00:00'
+evidence_fingerprint: 5c3146d0a0f3140dac3aca9f9d97915757cd0dd75b36c87e16b3b06a1cd72d12
+repository_metadata:
+  company: Amazon
+  account: aws-controllers-k8s
+  full_name: aws-controllers-k8s/cloudfront-controller
+  repository_id: 384191577
+  url: https://github.com/aws-controllers-k8s/cloudfront-controller
+  description: ACK service controller for Amazon CloudFront
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-10T21:41:52Z'
+  stars: 9
+  readme_url: https://github.com/aws-controllers-k8s/cloudfront-controller/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 879f2291834a459b621f582f55eea912f81f16e0
+  manifest_paths:
+  - go.mod
+  - Makefile
+  - test/e2e/requirements.txt
+  source_files_inspected:
+  - cmd/controller/main.go
+  - pkg/resource/cache_policy/delta.go
+  - pkg/resource/cache_policy/descriptor.go
+  - pkg/resource/cache_policy/hooks.go
+  repository_tree:
+    status: captured
+    sha: 0eb2ae4cadd58fd9bad7236b8ee5fd5954dcee6d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains source code for the AWS Controllers for Kubernetes (ACK) service controller
+    for CloudFront.
+  why_used: ACK service controller for Amazon CloudFront
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Go
+    - Smarty
+    - Go Template
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - acktest
+    - github.com/aws-controllers-k8s/acm-controller
+    - github.com/aws-controllers-k8s/runtime
+    - github.com/aws/aws-sdk-go-v2
+    - github.com/aws/aws-sdk-go-v2/config
+    - github.com/aws/aws-sdk-go-v2/credentials
+    - github.com/aws/aws-sdk-go-v2/feature/ec2/imds
+    - github.com/aws/aws-sdk-go-v2/internal/configsources
+    - github.com/aws/aws-sdk-go-v2/internal/endpoints/v2
+    - github.com/aws/aws-sdk-go-v2/internal/ini
+    - github.com/aws/aws-sdk-go-v2/service/cloudfront
+    - github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding
+    - github.com/aws/aws-sdk-go-v2/service/internal/presigned-url
+    - github.com/aws/aws-sdk-go-v2/service/sso
+    - github.com/aws/aws-sdk-go-v2/service/ssooidc
+    - github.com/aws/aws-sdk-go-v2/service/sts
+    - github.com/aws/smithy-go
+    - github.com/beorn7/perks
+    - github.com/cenkalti/backoff/v4
+    - github.com/cespare/xxhash/v2
+    - github.com/davecgh/go-spew
+    - github.com/emicklei/go-restful/v3
+    - github.com/evanphx/json-patch/v5
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/go-logr/logr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/google/btree
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/uuid
+    - github.com/itchyny/gojq
+    - github.com/itchyny/timefmt-go
+    - github.com/jaypipes/envutil
+    - github.com/josharian/intern
+    - github.com/json-iterator/go
+    - github.com/mailru/easyjson
+    - github.com/micahhausler/aws-iam-policy
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/munnerz/goautoneg
+    - github.com/pkg/errors
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/spf13/pflag
+    - github.com/x448/float16
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - go.yaml.in/yaml/v2
+    - go.yaml.in/yaml/v3
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/term
+    - golang.org/x/text
+    - golang.org/x/time
+    - gomodules.xyz/jsonpatch/v2
+    - google.golang.org/protobuf
+    - gopkg.in/evanphx/json-patch.v4
+    - gopkg.in/inf.v0
+    - gopkg.in/yaml.v3
+    - k8s.io/api
+    - k8s.io/apiextensions-apiserver
+    - k8s.io/apimachinery
+    - k8s.io/client-go
+    - k8s.io/klog/v2
+    - k8s.io/kube-openapi
+    - k8s.io/utils
+    - sigs.k8s.io/controller-runtime
+    - sigs.k8s.io/json
+    - sigs.k8s.io/randfill
+    - sigs.k8s.io/structured-merge-diff/v6
+    - sigs.k8s.io/yaml
+    build_and_package_tools:
+    - Go module manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/controller/main.go,
+    pkg/resource/cache_policy/delta.go, pkg/resource/cache_policy/descriptor.go, pkg/resource/cache_policy/hooks.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-controllers-k8s/cloudfront-controller/blob/main/README.md
+  path: README.md
+  blob_sha: 879f2291834a459b621f582f55eea912f81f16e0
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: a02d3b1cd9d458ffe482222f36d9f92c63109ef7
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 0953c01ad02c122fc28ef5ec126b33903b82b652
+  retrieved: true
+- type: manifest
+  path: test/e2e/requirements.txt
+  blob_sha: 94e8125ce104efaaa66f6b42cc5fc1138bc5d507
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 86011
+    Go: 34104
+    Smarty: 18156
+    Go Template: 5483
+    Makefile: 565
+- type: Git tree
+  status: captured
+  sha: 0eb2ae4cadd58fd9bad7236b8ee5fd5954dcee6d
+  truncated: false
+- type: source_file
+  path: cmd/controller/main.go
+  blob_sha: e5a8625246454795099a6b0f3462e74d1f3fae1a
+  retrieved: true
+- type: source_file
+  path: pkg/resource/cache_policy/delta.go
+  blob_sha: 442d370b51ec68336b5bc24390523c8bdf27e550
+  retrieved: true
+- type: source_file
+  path: pkg/resource/cache_policy/descriptor.go
+  blob_sha: 25393c565430727e8d24e5af8b3b12d40c277dd4
+  retrieved: true
+- type: source_file
+  path: pkg/resource/cache_policy/hooks.go
+  blob_sha: 9ded65c691dd3201afd61d4e1e6b35406d3a8b32
+  retrieved: true

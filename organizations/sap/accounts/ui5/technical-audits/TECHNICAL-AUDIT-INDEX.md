@@ -1,10 +1,10 @@
 # Technical audits — ui5
 
-Updated: 2026-11-26T22:57:03+00:00
+Updated: 2026-11-27T07:24:06+00:00
 
 ## Status counts
 
-- evidence_only: 15
+- evidence_only: 19
 
 ## Repository dossiers
 
@@ -25,3 +25,7 @@ Updated: 2026-11-26T22:57:03+00:00
 | repository-template-923703362 | evidence_only | [repository-template-923703362.md](repository-template-923703362.md) | [repository-template-923703362.yaml](repository-template-923703362.yaml) |
 | sample-app-27821071 | evidence_only | [sample-app-27821071.md](sample-app-27821071.md) | [sample-app-27821071.yaml](sample-app-27821071.yaml) |
 | sample-webcomponents-angular-170030546 | evidence_only | [sample-webcomponents-angular-170030546.md](sample-webcomponents-angular-170030546.md) | [sample-webcomponents-angular-170030546.yaml](sample-webcomponents-angular-170030546.yaml) |
+| sample-webcomponents-openui5-1318183745 | evidence_only | [sample-webcomponents-openui5-1318183745.md](sample-webcomponents-openui5-1318183745.md) | [sample-webcomponents-openui5-1318183745.yaml](sample-webcomponents-openui5-1318183745.yaml) |
+| sample-webcomponents-react-171362623 | evidence_only | [sample-webcomponents-react-171362623.md](sample-webcomponents-react-171362623.md) | [sample-webcomponents-react-171362623.yaml](sample-webcomponents-react-171362623.yaml) |
+| sample-webcomponents-svelte-429510928 | evidence_only | [sample-webcomponents-svelte-429510928.md](sample-webcomponents-svelte-429510928.md) | [sample-webcomponents-svelte-429510928.yaml](sample-webcomponents-svelte-429510928.yaml) |
+| sample-webcomponents-vue-171758270 | evidence_only | [sample-webcomponents-vue-171758270.md](sample-webcomponents-vue-171758270.md) | [sample-webcomponents-vue-171758270.yaml](sample-webcomponents-vue-171758270.yaml) |

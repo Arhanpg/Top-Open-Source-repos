@@ -1,0 +1,72 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:11:12+00:00'
+evidence_fingerprint: 5f71499f891440d6458d76cc762dc13032d84def15bf58c6cc1c01a94a4a266e
+repository_metadata:
+  company: Alphabet (Google)
+  account: google
+  full_name: google/Chrome.Docs
+  repository_id: 41880252
+  url: https://github.com/google/Chrome.Docs
+  description: Temporary documentation for developer features in the Chrome beta, canary, and dev channels.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2016-07-27T20:45:15Z'
+  stars: 27
+  readme_url: https://github.com/google/Chrome.Docs/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 36724a7d2558e895d9f21a7211335778650eb727
+  manifest_paths: []
+  source_files_inspected:
+  - gulpfile.js
+  - strings.js
+  repository_tree:
+    status: captured
+    sha: 54332bd31c438b37d0798e643df4c230d8edf153
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Draft documentation for developer features in the Chrome beta, canary, and dev channels.
+  why_used: Temporary documentation for developer features in the Chrome beta, canary, and dev channels.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: gulpfile.js, strings.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google/Chrome.Docs/blob/master/README.md
+  path: README.md
+  blob_sha: 36724a7d2558e895d9f21a7211335778650eb727
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 1874
+- type: Git tree
+  status: captured
+  sha: 54332bd31c438b37d0798e643df4c230d8edf153
+  truncated: false
+- type: source_file
+  path: gulpfile.js
+  blob_sha: cf6a51efcfbe9457a58adc30be4c31e4af3b9b7d
+  retrieved: true
+- type: source_file
+  path: strings.js
+  blob_sha: 8ccb28fda5f68dc79fa1d9c9504fb92cf4fff59e
+  retrieved: true

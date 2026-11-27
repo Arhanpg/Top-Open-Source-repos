@@ -1,10 +1,10 @@
 # Technical audits — aws-actions
 
-Updated: 2026-11-26T22:57:03+00:00
+Updated: 2026-11-27T07:24:06+00:00
 
 ## Status counts
 
-- evidence_only: 18
+- evidence_only: 22
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -29,4 +29,8 @@ Updated: 2026-11-26T22:57:03+00:00
 | closed-issue-message-300014779 | evidence_only | [closed-issue-message-300014779.md](closed-issue-message-300014779.md) | [closed-issue-message-300014779.yaml](closed-issue-message-300014779.yaml) |
 | cloudformation-aws-iam-policy-validator-784920149 | evidence_only | [cloudformation-aws-iam-policy-validator-784920149.md](cloudformation-aws-iam-policy-validator-784920149.md) | [cloudformation-aws-iam-policy-validator-784920149.yaml](cloudformation-aws-iam-policy-validator-784920149.yaml) |
 | codeguru-reviewer-316088125 | evidence_only | [codeguru-reviewer-316088125.md](codeguru-reviewer-316088125.md) | [codeguru-reviewer-316088125.yaml](codeguru-reviewer-316088125.yaml) |
+| codeguru-security-651267900 | evidence_only | [codeguru-security-651267900.md](codeguru-security-651267900.md) | [codeguru-security-651267900.yaml](codeguru-security-651267900.yaml) |
+| configure-aws-credentials-220391287 | evidence_only | [configure-aws-credentials-220391287.md](configure-aws-credentials-220391287.md) | [configure-aws-credentials-220391287.yaml](configure-aws-credentials-220391287.yaml) |
+| devops-agent-qa-1263345109 | evidence_only | [devops-agent-qa-1263345109.md](devops-agent-qa-1263345109.md) | [devops-agent-qa-1263345109.yaml](devops-agent-qa-1263345109.yaml) |
 | github-245025626 | insufficient_evidence | [github-245025626.md](github-245025626.md) | [github-245025626.yaml](github-245025626.yaml) |
+| handle-non-labeled-issues-1292769791 | evidence_only | [handle-non-labeled-issues-1292769791.md](handle-non-labeled-issues-1292769791.md) | [handle-non-labeled-issues-1292769791.yaml](handle-non-labeled-issues-1292769791.yaml) |

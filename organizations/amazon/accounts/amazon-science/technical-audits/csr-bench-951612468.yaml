@@ -1,0 +1,101 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:11:52+00:00'
+evidence_fingerprint: 7930eaeeff9c628354e9af6e8d860ad66feab200d61eea6f6ec9e229ba52b6a6
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/CSR-Bench
+  repository_id: 951612468
+  url: https://github.com/amazon-science/CSR-Bench
+  description: 'CSR-Bench: Benchmarking LLM Agents in Deployment of Computer Science Research Repositories'
+  default_branch: main
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-07-23T22:32:45Z'
+  stars: 5
+  readme_url: https://github.com/amazon-science/CSR-Bench/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 42c286f8e3eae7cf92c94a4cce39a0a0236077a7
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - main.py
+  - assets/issue_utils.py
+  - csr-agent/utils/multi-agent-sde.py
+  - csr-agent/utils/tool_usage.py
+  repository_tree:
+    status: captured
+    sha: 2d41bd112816034d5f38b66530be3f0af7ff87dd
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The csr-bench repository provides a benchmarking and retrieval system with utilities for executing bash
+    commands, interacting with models, and web searching. This repository is organized into several Python scripts
+    that serve various functions, such as data retrieval, bash utilities, and model execution.
+  why_used: 'CSR-Bench: Benchmarking LLM Agents in Deployment of Computer Science Research Repositories'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - boto3
+    - colorama
+    - pexpect
+    - rank_bm25
+    - requests
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: main.py, assets/issue_utils.py,
+    csr-agent/utils/multi-agent-sde.py, csr-agent/utils/tool_usage.py'
+  setup_and_usage:
+  - 'Installation: 1. Clone the repository to your local machine:'
+  - 'Installation: 2. Install the required Python dependencies using pip:'
+  - 'Installation: pip install -r requirements.txt'
+  - 'Installation: 3. (Optional) Set up Docker if you''d prefer to run the environment in a containerized setup:'
+  - 'Usage: The primary script to run the system is main.py. You can execute it directly via the command line:'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/CSR-Bench/blob/main/README.md
+  path: README.md
+  blob_sha: 42c286f8e3eae7cf92c94a4cce39a0a0236077a7
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 07c420ad9156700e3324a86ae3b60d0f7a850b3c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 76596
+- type: Git tree
+  status: captured
+  sha: 2d41bd112816034d5f38b66530be3f0af7ff87dd
+  truncated: false
+- type: source_file
+  path: main.py
+  blob_sha: 37ad1c3f380b22320430512892194d72eda08b5a
+  retrieved: true
+- type: source_file
+  path: assets/issue_utils.py
+  blob_sha: 42bc9e74ee2f914f1b71658816ac0e9946d8a1eb
+  retrieved: true
+- type: source_file
+  path: csr-agent/utils/multi-agent-sde.py
+  blob_sha: 3dc4dc07c617c90e171f1e18e7d538550a83654a
+  retrieved: true
+- type: source_file
+  path: csr-agent/utils/tool_usage.py
+  blob_sha: 28d0dd7e11e5121765488199f90171d39a5b67ba
+  retrieved: true

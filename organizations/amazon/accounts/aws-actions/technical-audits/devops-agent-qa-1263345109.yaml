@@ -1,0 +1,86 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:12:08+00:00'
+evidence_fingerprint: be20208940b9a91aac6c1b96fa381cba9d6fd645ab8786b8703f71e3eb0fd469
+repository_metadata:
+  company: Amazon
+  account: aws-actions
+  full_name: aws-actions/devops-agent-qa
+  repository_id: 1263345109
+  url: https://github.com/aws-actions/devops-agent-qa
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-08-20T21:12:51Z'
+  stars: 0
+  readme_url: https://github.com/aws-actions/devops-agent-qa/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f954b06f60c3b2f1a9f4424d3c8ecbfbea7fab15
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/index.ts
+  repository_tree:
+    status: captured
+    sha: 7371c3472c2a3055fd9f405d64910fecedd51459
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A GitHub Action that triggers the AWS DevOps Release Testing Agent after deployment. It automatically
+    runs UI or API tests against your application and reports results as a GitHub Check Run on your commit.
+  why_used: A GitHub Action that triggers the AWS DevOps Release Testing Agent after deployment. It automatically
+    runs UI or API tests against your application and reports results as a GitHub Check Run on your commit.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@actions/github'
+    - '@types/node'
+    - '@vercel/ncc'
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/index.ts'
+  setup_and_usage: []
+  limitations:
+  - 'Limitations: - **Guest mode only** — no authenticated testing. If you need login flows, use a test profile.'
+  - 'Limitations: - **API specs must fit in the webhook payload** — for specs exceeding ~1MB, use a test profile
+    instead.'
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-actions/devops-agent-qa/blob/main/README.md
+  path: README.md
+  blob_sha: f954b06f60c3b2f1a9f4424d3c8ecbfbea7fab15
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: b2a000b876715a7221e720573bb578e7cbbe80c7
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 6360
+    Shell: 867
+- type: Git tree
+  status: captured
+  sha: 7371c3472c2a3055fd9f405d64910fecedd51459
+  truncated: false
+- type: source_file
+  path: src/index.ts
+  blob_sha: 4f16b86dbbb95e7e07e567c794cdeddb2f2dca6d
+  retrieved: true

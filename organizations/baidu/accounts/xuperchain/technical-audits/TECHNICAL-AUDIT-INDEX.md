@@ -1,10 +1,10 @@
 # Technical audits — xuperchain
 
-Updated: 2026-11-26T22:57:04+00:00
+Updated: 2026-11-27T07:24:09+00:00
 
 ## Status counts
 
-- evidence_only: 16
+- evidence_only: 20
 
 ## Repository dossiers
 
@@ -25,4 +25,8 @@ Updated: 2026-11-26T22:57:04+00:00
 | log15-188234245 | evidence_only | [log15-188234245.md](log15-188234245.md) | [log15-188234245.yaml](log15-188234245.yaml) |
 | regression-pytest-601979083 | evidence_only | [regression-pytest-601979083.md](regression-pytest-601979083.md) | [regression-pytest-601979083.yaml](regression-pytest-601979083.yaml) |
 | vm-geth-601976948 | evidence_only | [vm-geth-601976948.md](vm-geth-601976948.md) | [vm-geth-601976948.yaml](vm-geth-601976948.yaml) |
+| wagon-222390065 | evidence_only | [wagon-222390065.md](wagon-222390065.md) | [wagon-222390065.yaml](wagon-222390065.yaml) |
+| wavm-192487176 | evidence_only | [wavm-192487176.md](wavm-192487176.md) | [wavm-192487176.yaml](wavm-192487176.yaml) |
+| xasset-sdk-go-431727189 | evidence_only | [xasset-sdk-go-431727189.md](xasset-sdk-go-431727189.md) | [xasset-sdk-go-431727189.yaml](xasset-sdk-go-431727189.yaml) |
+| xasset-sdk-java-431728452 | evidence_only | [xasset-sdk-java-431728452.md](xasset-sdk-java-431728452.md) | [xasset-sdk-java-431728452.yaml](xasset-sdk-java-431728452.yaml) |
 | xip-242135968 | evidence_only | [xip-242135968.md](xip-242135968.md) | [xip-242135968.yaml](xip-242135968.yaml) |

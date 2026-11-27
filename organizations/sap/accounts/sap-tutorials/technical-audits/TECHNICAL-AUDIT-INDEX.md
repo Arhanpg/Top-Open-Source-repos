@@ -1,10 +1,10 @@
 # Technical audits — sap-tutorials
 
-Updated: 2026-11-26T22:57:01+00:00
+Updated: 2026-11-27T07:24:11+00:00
 
 ## Status counts
 
-- evidence_only: 15
+- evidence_only: 19
 
 ## Repository dossiers
 
@@ -24,4 +24,8 @@ Updated: 2026-11-26T22:57:01+00:00
 | integration-1362852935 | evidence_only | [integration-1362852935.md](integration-1362852935.md) | [integration-1362852935.yaml](integration-1362852935.yaml) |
 | joule-studio-1312803895 | evidence_only | [joule-studio-1312803895.md](joule-studio-1312803895.md) | [joule-studio-1312803895.yaml](joule-studio-1312803895.yaml) |
 | meta-tutorials-491909372 | evidence_only | [meta-tutorials-491909372.md](meta-tutorials-491909372.md) | [meta-tutorials-491909372.yaml](meta-tutorials-491909372.yaml) |
+| sap-btp-sdk-android-567195099 | evidence_only | [sap-btp-sdk-android-567195099.md](sap-btp-sdk-android-567195099.md) | [sap-btp-sdk-android-567195099.yaml](sap-btp-sdk-android-567195099.yaml) |
+| sap-btp-sdk-ios-566332583 | evidence_only | [sap-btp-sdk-ios-566332583.md](sap-btp-sdk-ios-566332583.md) | [sap-btp-sdk-ios-566332583.yaml](sap-btp-sdk-ios-566332583.yaml) |
+| sap-build-apps-579694924 | evidence_only | [sap-build-apps-579694924.md](sap-build-apps-579694924.md) | [sap-build-apps-579694924.yaml](sap-build-apps-579694924.yaml) |
+| sap-build-process-automation-560030055 | evidence_only | [sap-build-process-automation-560030055.md](sap-build-process-automation-560030055.md) | [sap-build-process-automation-560030055.yaml](sap-build-process-automation-560030055.yaml) |
 | tutorials-47708831 | evidence_only | [tutorials-47708831.md](tutorials-47708831.md) | [tutorials-47708831.yaml](tutorials-47708831.yaml) |

@@ -1,10 +1,10 @@
 # Technical audits — aws-observability
 
-Updated: 2026-11-26T22:57:04+00:00
+Updated: 2026-11-27T07:24:06+00:00
 
 ## Status counts
 
-- evidence_only: 17
+- evidence_only: 21
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -28,4 +28,8 @@ Updated: 2026-11-26T22:57:04+00:00
 | aws-otel-helm-charts-295886366 | evidence_only | [aws-otel-helm-charts-295886366.md](aws-otel-helm-charts-295886366.md) | [aws-otel-helm-charts-295886366.yaml](aws-otel-helm-charts-295886366.yaml) |
 | aws-otel-java-instrumentation-295885890 | evidence_only | [aws-otel-java-instrumentation-295885890.md](aws-otel-java-instrumentation-295885890.md) | [aws-otel-java-instrumentation-295885890.yaml](aws-otel-java-instrumentation-295885890.yaml) |
 | aws-otel-js-295886063 | evidence_only | [aws-otel-js-295886063.md](aws-otel-js-295886063.md) | [aws-otel-js-295886063.yaml](aws-otel-js-295886063.yaml) |
+| aws-otel-js-instrumentation-824711236 | evidence_only | [aws-otel-js-instrumentation-824711236.md](aws-otel-js-instrumentation-824711236.md) | [aws-otel-js-instrumentation-824711236.yaml](aws-otel-js-instrumentation-824711236.yaml) |
+| aws-otel-lambda-315511216 | evidence_only | [aws-otel-lambda-315511216.md](aws-otel-lambda-315511216.md) | [aws-otel-lambda-315511216.yaml](aws-otel-lambda-315511216.yaml) |
+| aws-otel-php-506005359 | evidence_only | [aws-otel-php-506005359.md](aws-otel-php-506005359.md) | [aws-otel-php-506005359.yaml](aws-otel-php-506005359.yaml) |
+| aws-otel-playground-224066118 | evidence_only | [aws-otel-playground-224066118.md](aws-otel-playground-224066118.md) | [aws-otel-playground-224066118.yaml](aws-otel-playground-224066118.yaml) |
 | github-559009922 | insufficient_evidence | [github-559009922.md](github-559009922.md) | [github-559009922.yaml](github-559009922.yaml) |

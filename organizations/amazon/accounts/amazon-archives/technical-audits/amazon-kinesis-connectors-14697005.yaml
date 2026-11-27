@@ -1,0 +1,121 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:18:20+00:00'
+evidence_fingerprint: bde4c8b6075863945f1cdad833c0a82c2f7a31f92b1af3d3de7aec1da0e791d6
+repository_metadata:
+  company: Amazon
+  account: amazon-archives
+  full_name: amazon-archives/amazon-kinesis-connectors
+  repository_id: 14697005
+  url: https://github.com/amazon-archives/amazon-kinesis-connectors
+  description: null
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2021-03-18T19:42:33Z'
+  stars: 327
+  readme_url: https://github.com/amazon-archives/amazon-kinesis-connectors/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 2dfbf7a7658714b16b9d3b39199fe3e52298a926
+  manifest_paths:
+  - pom.xml
+  - samples/pom.xml
+  source_files_inspected:
+  - samples/src/main/java/samples/BatchedStreamSource.java
+  - samples/src/main/java/samples/dynamodb/DynamoDBExecutor.java
+  - samples/src/main/java/samples/dynamodb/DynamoDBMessageModelPipeline.java
+  - samples/src/main/java/samples/dynamodb/KinesisMessageModelDynamoDBTransformer.java
+  repository_tree:
+    status: captured
+    sha: 7c4813d620ef0d8af0392768c63b079e7b8b1c5c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The **Amazon Kinesis Connector Library** helps Java developers integrate [Amazon Kinesis][aws-kinesis]
+    with other AWS and non-AWS services. The current version of the library provides connectors for [Amazon DynamoDB][aws-dynamodb],
+    [Amazon Redshift][aws-redshift], [Amazon S3][aws-s3], [Elasticsearch][Elasticsearch]. The library also includes
+    sample connectors of each type, plus Apache Ant build files for running the samples.
+  why_used: The **Amazon Kinesis Connector Library** helps Java developers integrate [Amazon Kinesis][aws-kinesis]
+    with other AWS and non-AWS services. The current version of the library provides connectors for [Amazon DynamoDB][aws-dynamodb],
+    [Amazon Redshift][aws-redshift], [Amazon S3][aws-s3], [Elasticsearch][Elasticsearch]. The library also includes
+    sample connectors of each type, plus Apache Ant build files for running the samples.
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    frameworks_and_libraries: []
+    dependencies:
+    - amazon-kinesis-client
+    - amazon-kinesis-connectors
+    - amazon-kinesis-connectors-samples
+    - appassembler-maven-plugin
+    - aws-java-sdk
+    - aws-java-sdk-core
+    - aws-java-sdk-dynamodb
+    - aws-java-sdk-kinesis
+    - aws-java-sdk-s3
+    - easymock
+    - elasticsearch
+    - hamcrest-all
+    - jackson-core
+    - jackson-databind
+    - junit
+    - lucene-core
+    - maven-compiler-plugin
+    - maven-gpg-plugin
+    - mockito-all
+    - postgresql
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: samples/src/main/java/samples/BatchedStreamSource.java,
+    samples/src/main/java/samples/dynamodb/DynamoDBExecutor.java, samples/src/main/java/samples/dynamodb/DynamoDBMessageModelPipeline.java,
+    samples/src/main/java/samples/dynamodb/KinesisMessageModelDynamoDBTransformer.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-archives/amazon-kinesis-connectors/blob/master/README.md
+  path: README.md
+  blob_sha: 2dfbf7a7658714b16b9d3b39199fe3e52298a926
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: d9c0eb2541c85ed9dfe55455fd4eb9638210bc8d
+  retrieved: true
+- type: manifest
+  path: samples/pom.xml
+  blob_sha: e8f7e8c214ac2efb61433ba24081b17272520672
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 178002
+- type: Git tree
+  status: captured
+  sha: 7c4813d620ef0d8af0392768c63b079e7b8b1c5c
+  truncated: false
+- type: source_file
+  path: samples/src/main/java/samples/BatchedStreamSource.java
+  blob_sha: 490c1da8f40b3d1d0f1e1b966f864cc2436f99e4
+  retrieved: true
+- type: source_file
+  path: samples/src/main/java/samples/dynamodb/DynamoDBExecutor.java
+  blob_sha: 07555b1faea8f5381a95d5425efec3c281d9a08a
+  retrieved: true
+- type: source_file
+  path: samples/src/main/java/samples/dynamodb/DynamoDBMessageModelPipeline.java
+  blob_sha: 660481aa65cfbaf2ce00f2213731d53e4720725d
+  retrieved: true
+- type: source_file
+  path: samples/src/main/java/samples/dynamodb/KinesisMessageModelDynamoDBTransformer.java
+  blob_sha: da88bfda4b5518c82f962001958f1a9de196d953
+  retrieved: true

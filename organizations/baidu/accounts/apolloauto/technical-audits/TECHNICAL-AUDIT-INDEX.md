@@ -1,11 +1,11 @@
 # Technical audits — apolloauto
 
-Updated: 2026-11-26T22:57:02+00:00
+Updated: 2026-11-27T07:24:05+00:00
 
 ## Status counts
 
-- evidence_only: 15
-- insufficient_evidence: 1
+- evidence_only: 16
+- insufficient_evidence: 4
 
 ## Repository dossiers
 
@@ -27,3 +27,7 @@ Updated: 2026-11-26T22:57:02+00:00
 | application-core-712761633 | evidence_only | [application-core-712761633.md](application-core-712761633.md) | [application-core-712761633.yaml](application-core-712761633.yaml) |
 | application-core-arm-715094515 | evidence_only | [application-core-arm-715094515.md](application-core-arm-715094515.md) | [application-core-arm-715094515.yaml](application-core-arm-715094515.yaml) |
 | application-demo-580276408 | insufficient_evidence | [application-demo-580276408.md](application-demo-580276408.md) | [application-demo-580276408.yaml](application-demo-580276408.yaml) |
+| application-perception-683997812 | insufficient_evidence | [application-perception-683997812.md](application-perception-683997812.md) | [application-perception-683997812.yaml](application-perception-683997812.yaml) |
+| application-pnc-673280654 | evidence_only | [application-pnc-673280654.md](application-pnc-673280654.md) | [application-pnc-673280654.yaml](application-pnc-673280654.yaml) |
+| application-urban-580666442 | insufficient_evidence | [application-urban-580666442.md](application-urban-580666442.md) | [application-urban-580666442.yaml](application-urban-580666442.yaml) |
+| pnc-competition-628553188 | insufficient_evidence | [pnc-competition-628553188.md](pnc-competition-628553188.md) | [pnc-competition-628553188.yaml](pnc-competition-628553188.yaml) |

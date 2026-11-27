@@ -1,0 +1,181 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T06:59:53+00:00'
+evidence_fingerprint: a8ad5f29edc1a1215ef9a47394ceff2a862007fbebd63dfb1ffa3e9ed6495642
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/aws-devops-monitoring-dashboard
+  repository_id: 348777695
+  url: https://github.com/aws-solutions/aws-devops-monitoring-dashboard
+  description: 'The DevOps Monitoring Dashboard on AWS solution is a reference implementation that automates the
+    process for monitoring and visualizing performance and operational metrics in continuous integration/continuous
+    delivery (CI/CD) pipeline following AWS best practices. '
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-12-09T18:14:07Z'
+  stars: 75
+  readme_url: https://github.com/aws-solutions/aws-devops-monitoring-dashboard/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 77384560857596063c0456d14412019e1565a15a
+  manifest_paths:
+  - source/package.json
+  - deployment/cdk-solution-helper/package.json
+  - source/lambda/event_parser/package.json
+  - source/lambda/multi_account_custom_resources/package.json
+  - source/lambda/query_runner/package.json
+  - source/lambda/quicksight-custom-resources/pyproject.toml
+  source_files_inspected:
+  - deployment/cdk-solution-helper/index.js
+  - source/lambda/event_parser/index.js
+  - source/lambda/query_runner/index.js
+  - source/lambda/tag_query/index.js
+  repository_tree:
+    status: captured
+    sha: 085c68152e2d116474bc88883cb4dd27f064e8b4
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '⚠️ __Important: DevOps Monitoring Dashboard on AWS will no longer be supported starting December 3,
+    2024. You can find other AWS Solutions in the AWS Solutions Library__ ⚠️'
+  why_used: The DevOps Monitoring Dashboard on AWS solution is a reference implementation that automates the process
+    for monitoring and visualizing performance and operational metrics in continuous integration/continuous delivery
+    (CI/CD) pipeline following AWS best practices.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - TypeScript
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-cdk/assert'
+    - '@aws-cdk/aws-glue-alpha'
+    - '@aws-cdk/aws-servicecatalogappregistry-alpha'
+    - '@aws-sdk/client-athena'
+    - '@aws-sdk/client-cloudwatch'
+    - '@aws-sdk/client-eventbridge'
+    - '@aws-sdk/client-glue'
+    - '@aws-sdk/client-s3'
+    - '@aws-sdk/client-secrets-manager'
+    - '@aws-solutions-constructs/aws-eventbridge-kinesisfirehose-s3'
+    - '@aws-solutions-constructs/aws-eventbridge-lambda'
+    - '@aws-solutions-constructs/aws-kinesisfirehose-s3'
+    - '@aws-solutions-constructs/core'
+    - '@types/jest'
+    - '@types/node'
+    - PyYAML
+    - async
+    - aws-cdk
+    - aws-cdk-lib
+    - aws-sdk-mock
+    - axios
+    - axios-mock-adapter
+    - boto3
+    - botocore
+    - cdk-nag
+    - chai
+    - constructs
+    - crhelper
+    - eslint
+    - eslint-config-prettier
+    - eslint-config-react-app
+    - eslint-plugin-header
+    - eslint-plugin-import
+    - eslint-plugin-node
+    - eslint-plugin-prettier
+    - jest
+    - mocha
+    - mock
+    - moto
+    - npm-run-all
+    - nyc
+    - prettier
+    - pytest
+    - pytest-cov
+    - pytest-env
+    - requests
+    - sinon
+    - sinon-chai
+    - source-map-support
+    - tenacity
+    - ts-jest
+    - ts-node
+    - typescript
+    - urllib3
+    - uuid
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: deployment/cdk-solution-helper/index.js,
+    source/lambda/event_parser/index.js, source/lambda/query_runner/index.js, source/lambda/tag_query/index.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/aws-devops-monitoring-dashboard/blob/main/README.md
+  path: README.md
+  blob_sha: 77384560857596063c0456d14412019e1565a15a
+  retrieved: true
+- type: manifest
+  path: source/package.json
+  blob_sha: 456971dbbe82b94866c3c3134321540655336aac
+  retrieved: true
+- type: manifest
+  path: deployment/cdk-solution-helper/package.json
+  blob_sha: a499cb197bdc41f202cacaf9d6df72b47084ed09
+  retrieved: true
+- type: manifest
+  path: source/lambda/event_parser/package.json
+  blob_sha: ae67b2eb20502523cb49700e65dcc7d1f6d0788a
+  retrieved: true
+- type: manifest
+  path: source/lambda/multi_account_custom_resources/package.json
+  blob_sha: d1a941e68046b5d19d91b09899a6ea231bc5c97d
+  retrieved: true
+- type: manifest
+  path: source/lambda/query_runner/package.json
+  blob_sha: 26b1e2dc0c60a6092158e99d10fff9e78027ed22
+  retrieved: true
+- type: manifest
+  path: source/lambda/quicksight-custom-resources/pyproject.toml
+  blob_sha: 997e6ee065daa03a3fd5651873fa5f17a3db29ea
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 303752
+    TypeScript: 112440
+    Python: 96212
+    Shell: 15677
+- type: Git tree
+  status: captured
+  sha: 085c68152e2d116474bc88883cb4dd27f064e8b4
+  truncated: false
+- type: source_file
+  path: deployment/cdk-solution-helper/index.js
+  blob_sha: 5807565bf1b29cab9fd3d31cdf144baa671114b8
+  retrieved: true
+- type: source_file
+  path: source/lambda/event_parser/index.js
+  blob_sha: a8688c1c116c7f4a816378efd2c3d973a6d5ced6
+  retrieved: true
+- type: source_file
+  path: source/lambda/query_runner/index.js
+  blob_sha: c0f384a9d7de68334edc3c6801445ded9293bd81
+  retrieved: true
+- type: source_file
+  path: source/lambda/tag_query/index.js
+  blob_sha: ad70b6dd23eb655d73b5438915ea9d50e83f503c
+  retrieved: true

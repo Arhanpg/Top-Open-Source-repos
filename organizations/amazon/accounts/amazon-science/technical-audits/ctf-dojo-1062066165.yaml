@@ -1,0 +1,94 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:18:36+00:00'
+evidence_fingerprint: b9abee84a60da6eb24c63ab9c60a09dc87d49f70dae12a63978fbef2c2c59275
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/CTF-Dojo
+  repository_id: 1062066165
+  url: https://github.com/amazon-science/CTF-Dojo
+  description: Training Language Model Agents to Find Vulnerabilities with CTF-Dojo
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-01-10T01:31:14Z'
+  stars: 77
+  readme_url: https://github.com/amazon-science/CTF-Dojo/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 31c0834a347aab38cff61e97bae56fd61f2e0070
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - ctf_forge.py
+  - find_writeups.py
+  - forge/analysis.py
+  repository_tree:
+    status: captured
+    sha: fe6bd82c1f27902e5d25dc053a39b1efeb79f48e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 🧐&nbsp; Overview
+  why_used: Training Language Model Agents to Find Vulnerabilities with CTF-Dojo
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - PyYAML
+    - litellm
+    - tqdm
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: ctf_forge.py, find_writeups.py,
+    forge/__init__.py, forge/analysis.py'
+  setup_and_usage:
+  - 'Quick Start: 1. Clone the Pwn.College''s CTF Archive as a template'
+  - 'Quick Start: git clone https://github.com/pwncollege/ctf-archive.git'
+  - 'Quick Start: 2. Run CTF-Forge on the CTF Archive to create CTF-Dojo'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/CTF-Dojo/blob/main/README.md
+  path: README.md
+  blob_sha: 31c0834a347aab38cff61e97bae56fd61f2e0070
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 0e4124f08a157d0c80709dfff56e99a24aadfaeb
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 247682
+- type: Git tree
+  status: captured
+  sha: fe6bd82c1f27902e5d25dc053a39b1efeb79f48e
+  truncated: false
+- type: source_file
+  path: ctf_forge.py
+  blob_sha: a08a2fd369f675d28f37ea318cc247e3df5d51c1
+  retrieved: true
+- type: source_file
+  path: find_writeups.py
+  blob_sha: 623b9c29da6813b72fa2fbe2ea7a7d4f4a35738b
+  retrieved: true
+- type: source_file
+  path: forge/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: forge/analysis.py
+  blob_sha: cdc480b0bfc025c1f0fc9be1ef821f697675f28c
+  retrieved: true

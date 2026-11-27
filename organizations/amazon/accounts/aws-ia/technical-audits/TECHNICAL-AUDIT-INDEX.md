@@ -1,10 +1,10 @@
 # Technical audits — aws-ia
 
-Updated: 2026-11-26T22:57:04+00:00
+Updated: 2026-11-27T07:24:05+00:00
 
 ## Status counts
 
-- evidence_only: 17
+- evidence_only: 21
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -28,4 +28,8 @@ Updated: 2026-11-26T22:57:04+00:00
 | cfn-ps-amazon-aurora-mysql-678481001 | evidence_only | [cfn-ps-amazon-aurora-mysql-678481001.md](cfn-ps-amazon-aurora-mysql-678481001.md) | [cfn-ps-amazon-aurora-mysql-678481001.yaml](cfn-ps-amazon-aurora-mysql-678481001.yaml) |
 | cfn-ps-amazon-aurora-postgresql-670321597 | evidence_only | [cfn-ps-amazon-aurora-postgresql-670321597.md](cfn-ps-amazon-aurora-postgresql-670321597.md) | [cfn-ps-amazon-aurora-postgresql-670321597.yaml](cfn-ps-amazon-aurora-postgresql-670321597.yaml) |
 | cfn-ps-amazon-rds-682321278 | evidence_only | [cfn-ps-amazon-rds-682321278.md](cfn-ps-amazon-rds-682321278.md) | [cfn-ps-amazon-rds-682321278.yaml](cfn-ps-amazon-rds-682321278.yaml) |
+| cfn-ps-amazon-redshift-682306321 | evidence_only | [cfn-ps-amazon-redshift-682306321.md](cfn-ps-amazon-redshift-682306321.md) | [cfn-ps-amazon-redshift-682306321.yaml](cfn-ps-amazon-redshift-682306321.yaml) |
+| cfn-ps-amazon-selling-partner-api-682185844 | evidence_only | [cfn-ps-amazon-selling-partner-api-682185844.md](cfn-ps-amazon-selling-partner-api-682185844.md) | [cfn-ps-amazon-selling-partner-api-682185844.yaml](cfn-ps-amazon-selling-partner-api-682185844.yaml) |
+| cfn-ps-amazon-selling-partner-api-reports-notifications-682304239 | evidence_only | [cfn-ps-amazon-selling-partner-api-reports-notifications-682304239.md](cfn-ps-amazon-selling-partner-api-reports-notifications-682304239.md) | [cfn-ps-amazon-selling-partner-api-reports-notifications-682304239.yaml](cfn-ps-amazon-selling-partner-api-reports-notifications-682304239.yaml) |
+| cfn-ps-amazon-vpc-traffic-mirroring-670793843 | evidence_only | [cfn-ps-amazon-vpc-traffic-mirroring-670793843.md](cfn-ps-amazon-vpc-traffic-mirroring-670793843.md) | [cfn-ps-amazon-vpc-traffic-mirroring-670793843.yaml](cfn-ps-amazon-vpc-traffic-mirroring-670793843.yaml) |
 | github-411533239 | evidence_only | [github-411533239.md](github-411533239.md) | [github-411533239.yaml](github-411533239.yaml) |

@@ -1,0 +1,108 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:00:40+00:00'
+evidence_fingerprint: 0e7eba66b70b771e318bdbfff7e63487284faa863e0bb0f84c7cc653563d5566
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/apple-ads-platform-api-python
+  repository_id: 1235836801
+  url: https://github.com/apple/apple-ads-platform-api-python
+  description: A Python client library for the Apple Ads Platform API
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-13T14:52:49Z'
+  stars: 34
+  readme_url: https://github.com/apple/apple-ads-platform-api-python/blob/main/README.md
+  readme_path: README.md
+  readme_sha: c31707bf4746b23c0e3b38245863c7e4b0008700
+  manifest_paths:
+  - pyproject.toml
+  source_files_inspected:
+  - apple_ads_platform/__init__.py
+  - apple_ads_platform/api/__init__.py
+  - apple_ads_platform/api_client.py
+  - apple_ads_platform/api_response.py
+  repository_tree:
+    status: captured
+    sha: 7367afb204c1aeef43efab55ef9ebd36d8b01d90
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A Python client library for the Apple Ads Platform API.
+  why_used: A Python client library for the Apple Ads Platform API
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Mustache
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - cryptography
+    - pydantic
+    - pyjwt
+    - python-dateutil
+    - typing-extensions
+    - urllib3
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: apple_ads_platform/__init__.py,
+    apple_ads_platform/api/__init__.py, apple_ads_platform/api_client.py, apple_ads_platform/api_response.py'
+  setup_and_usage:
+  - 'Installation: Install this library from PyPI. Like nearly any software dependency, you should pin a specific'
+  - 'Installation: version and update it only when you explicitly intend to do so.'
+  - 'Installation: pip install apple-ads-platform==VERSION'
+  - 'Installation: Poetry (pyproject.toml):'
+  - 'Installation: "apple-ads-platform==VERSION",'
+  - 'Installation: This library requires Python 3.12 or newer.'
+  - 'Getting Started: This library makes it easy to construct an'
+  - 'Getting Started: AppleAdsApi instance that is ready to call the Apple'
+  limitations:
+  - 'Apple Ads Platform API Python: A Python client library for the Apple Ads Platform API.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/apple-ads-platform-api-python/blob/main/README.md
+  path: README.md
+  blob_sha: c31707bf4746b23c0e3b38245863c7e4b0008700
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: ba26d0a2b8439a5be0b00c3645329cf637657b2e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 3015794
+    Mustache: 31815
+    Shell: 2451
+- type: Git tree
+  status: captured
+  sha: 7367afb204c1aeef43efab55ef9ebd36d8b01d90
+  truncated: false
+- type: source_file
+  path: apple_ads_platform/__init__.py
+  blob_sha: 4f6c27e8e74b2260e594bcbc366a3c54a1f01465
+  retrieved: true
+- type: source_file
+  path: apple_ads_platform/api/__init__.py
+  blob_sha: d2b9e4eb1f2a4f2783436f79895e6106f9ec3422
+  retrieved: true
+- type: source_file
+  path: apple_ads_platform/api_client.py
+  blob_sha: 24f6878b1f3e36de2ef787231c7985a547c3fc6d
+  retrieved: true
+- type: source_file
+  path: apple_ads_platform/api_response.py
+  blob_sha: 08c0acdadd71172237fe3efb5ed5437a6c9459bf
+  retrieved: true

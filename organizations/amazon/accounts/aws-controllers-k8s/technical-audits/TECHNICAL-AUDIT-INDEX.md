@@ -1,10 +1,10 @@
 # Technical audits — aws-controllers-k8s
 
-Updated: 2026-11-26T22:57:05+00:00
+Updated: 2026-11-27T07:24:09+00:00
 
 ## Status counts
 
-- evidence_only: 18
+- evidence_only: 22
 
 ## Repository dossiers
 
@@ -27,4 +27,8 @@ Updated: 2026-11-26T22:57:05+00:00
 | bedrock-controller-980273127 | evidence_only | [bedrock-controller-980273127.md](bedrock-controller-980273127.md) | [bedrock-controller-980273127.yaml](bedrock-controller-980273127.yaml) |
 | bedrockagent-controller-982281760 | evidence_only | [bedrockagent-controller-982281760.md](bedrockagent-controller-982281760.md) | [bedrockagent-controller-982281760.yaml](bedrockagent-controller-982281760.yaml) |
 | bedrockagentcorecontrol-controller-1075770606 | evidence_only | [bedrockagentcorecontrol-controller-1075770606.md](bedrockagentcorecontrol-controller-1075770606.md) | [bedrockagentcorecontrol-controller-1075770606.yaml](bedrockagentcorecontrol-controller-1075770606.yaml) |
+| billing-controller-1140173280 | evidence_only | [billing-controller-1140173280.md](billing-controller-1140173280.md) | [billing-controller-1140173280.yaml](billing-controller-1140173280.yaml) |
+| budgets-controller-1140172332 | evidence_only | [budgets-controller-1140172332.md](budgets-controller-1140172332.md) | [budgets-controller-1140172332.yaml](budgets-controller-1140172332.yaml) |
+| cloudfront-controller-384191577 | evidence_only | [cloudfront-controller-384191577.md](cloudfront-controller-384191577.md) | [cloudfront-controller-384191577.yaml](cloudfront-controller-384191577.yaml) |
+| cloudtrail-controller-481695541 | evidence_only | [cloudtrail-controller-481695541.md](cloudtrail-controller-481695541.md) | [cloudtrail-controller-481695541.yaml](cloudtrail-controller-481695541.yaml) |
 | github-397711626 | evidence_only | [github-397711626.md](github-397711626.md) | [github-397711626.yaml](github-397711626.yaml) |

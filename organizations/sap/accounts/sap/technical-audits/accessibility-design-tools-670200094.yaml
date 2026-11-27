@@ -1,0 +1,92 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:09:52+00:00'
+evidence_fingerprint: 0f26e1cb4a98ee734bdf63a042d37d41f1ebe58b9a0d36e120fc575ea6281bf7
+repository_metadata:
+  company: SAP
+  account: SAP
+  full_name: SAP/accessibility-design-tools
+  repository_id: 670200094
+  url: https://github.com/SAP/accessibility-design-tools
+  description: Accessibility Design Tools Figma Plugins
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-29T13:09:47Z'
+  stars: 2
+  readme_url: https://github.com/SAP/accessibility-design-tools/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 722bbbd3a4600836fb6348b22dcd07f50857bbf3
+  manifest_paths:
+  - ACCAssets/package.json
+  source_files_inspected:
+  - ACCAssets/code.js
+  - ACCAssets/code.ts
+  repository_tree:
+    status: captured
+    sha: 0a1192dc5188fe1c64e2b9d2819fd146c9aef6a9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Accessibility Design Tools Figma plugin offers a subset of annotations of the SAP Accessibility Design
+    Tools Second Edition Figma library for designers. It is intended to annotate accessibility-relevant information
+    in application and control visual and interaction design before handover to development.
+  why_used: Accessibility Design Tools Figma Plugins
+  core_features: []
+  technology_stack:
+    languages:
+    - HTML
+    - JavaScript
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@figma/plugin-typings'
+    - '@types/node'
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: ACCAssets/code.js,
+    ACCAssets/code.ts'
+  setup_and_usage:
+  - 'Plugin usage: Each of the plugins contain a quick reference (Info "i") how to use them on existing Figma stencils
+    within Application UI Design.'
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP/accessibility-design-tools/blob/main/README.md
+  path: README.md
+  blob_sha: 722bbbd3a4600836fb6348b22dcd07f50857bbf3
+  retrieved: true
+- type: manifest
+  path: ACCAssets/package.json
+  blob_sha: f9849c67c9d28f150078c9c69f87b0044b659adb
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    HTML: 170679
+    JavaScript: 33052
+    TypeScript: 30887
+- type: Git tree
+  status: captured
+  sha: 0a1192dc5188fe1c64e2b9d2819fd146c9aef6a9
+  truncated: false
+- type: source_file
+  path: ACCAssets/code.js
+  blob_sha: ff03d0fa5e9bf8f3f48dbc6fdf566308d5d6e2a6
+  retrieved: true
+- type: source_file
+  path: ACCAssets/code.ts
+  blob_sha: a0ddd4e7cbd4e9f9d11e1e3f3e922ebb301963e0
+  retrieved: true

@@ -1,10 +1,10 @@
 # Technical audits — microsoftdocs
 
-Updated: 2026-11-26T22:57:05+00:00
+Updated: 2026-11-27T07:24:08+00:00
 
 ## Status counts
 
-- evidence_only: 16
+- evidence_only: 20
 
 ## Repository dossiers
 
@@ -22,7 +22,11 @@ Updated: 2026-11-26T22:57:05+00:00
 | azure-sphere-developer-learning-path-260070854 | evidence_only | [azure-sphere-developer-learning-path-260070854.md](azure-sphere-developer-learning-path-260070854.md) | [azure-sphere-developer-learning-path-260070854.yaml](azure-sphere-developer-learning-path-260070854.yaml) |
 | azure-trusted-launch-vms-linux-851440285 | evidence_only | [azure-trusted-launch-vms-linux-851440285.md](azure-trusted-launch-vms-linux-851440285.md) | [azure-trusted-launch-vms-linux-851440285.yaml](azure-trusted-launch-vms-linux-851440285.yaml) |
 | backup-confidential-vms-with-cmk-638185403 | evidence_only | [backup-confidential-vms-with-cmk-638185403.md](backup-confidential-vms-with-cmk-638185403.md) | [backup-confidential-vms-with-cmk-638185403.yaml](backup-confidential-vms-with-cmk-638185403.yaml) |
+| cloudappsecuritydocs-70624749 | evidence_only | [cloudappsecuritydocs-70624749.md](cloudappsecuritydocs-70624749.md) | [cloudappsecuritydocs-70624749.yaml](cloudappsecuritydocs-70624749.yaml) |
 | cntk-89207175 | evidence_only | [cntk-89207175.md](cntk-89207175.md) | [cntk-89207175.yaml](cntk-89207175.yaml) |
+| communitytoolkit-447368318 | evidence_only | [communitytoolkit-447368318.md](communitytoolkit-447368318.md) | [communitytoolkit-447368318.yaml](communitytoolkit-447368318.yaml) |
+| console-docs-65402701 | evidence_only | [console-docs-65402701.md](console-docs-65402701.md) | [console-docs-65402701.yaml](console-docs-65402701.yaml) |
 | csidev-public-110157210 | evidence_only | [csidev-public-110157210.md](csidev-public-110157210.md) | [csidev-public-110157210.yaml](csidev-public-110157210.yaml) |
 | csidev-public-ppe-158671211 | evidence_only | [csidev-public-ppe-158671211.md](csidev-public-ppe-158671211.md) | [csidev-public-ppe-158671211.yaml](csidev-public-ppe-158671211.yaml) |
+| csidev-public-prod-159756056 | evidence_only | [csidev-public-prod-159756056.md](csidev-public-prod-159756056.md) | [csidev-public-prod-159756056.yaml](csidev-public-prod-159756056.yaml) |
 | github-194900040 | evidence_only | [github-194900040.md](github-194900040.md) | [github-194900040.yaml](github-194900040.yaml) |

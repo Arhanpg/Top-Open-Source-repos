@@ -1,0 +1,116 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:07:53+00:00'
+evidence_fingerprint: f1d1ec5bd29ef7ed89594437e9f4edd67c952819b7a6c4f1ffb5699592c986b5
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/ICE-BA
+  repository_id: 125794263
+  url: https://github.com/baidu/ICE-BA
+  description: null
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2018-09-12T14:08:33Z'
+  stars: 765
+  readme_url: https://github.com/baidu/ICE-BA/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 839723060c355c4b7bd7d5a61d17d922452512a3
+  manifest_paths:
+  - CMakeLists.txt
+  - App/CMakeLists.txt
+  - Backend/CMakeLists.txt
+  - Frontend/CMakeLists.txt
+  source_files_inspected:
+  - App/EuRoC_test.cpp
+  - App/InputSequence.h
+  - App/run_backend.cpp
+  - Backend/BundleAdjustment/GlobalBundleAdjustor.cpp
+  repository_tree:
+    status: captured
+    sha: 730db9ac2f4119e6138bc55c948cc9231e6cbe05
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'We present ICE-BA, an incremental, consistent and efficient bundle adjustment for visual-inertial SLAM,
+    which takes feature tracks, IMU measurements and optionally the loop constraints as input, performs in parallel
+    both local BA over the sliding window and global BA over all keyframes, and outputs camera pose and updated
+    map points for each frame in real-time. The main contributions include:'
+  why_used: 'We present ICE-BA, an incremental, consistent and efficient bundle adjustment for visual-inertial SLAM,
+    which takes feature tracks, IMU measurements and optionally the loop constraints as input, performs in parallel
+    both local BA over the sliding window and global BA over all keyframes, and outputs camera pose and updated
+    map points for each frame in real-time. The main contributions include:'
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    - C
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: App/EuRoC_test.cpp,
+    App/InputSequence.h, App/run_backend.cpp, Backend/BundleAdjustment/GlobalBundleAdjustor.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/ICE-BA/blob/master/README.md
+  path: README.md
+  blob_sha: 839723060c355c4b7bd7d5a61d17d922452512a3
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: ae4b3a3dfe7ea5b410267705640df829259eafb5
+  retrieved: true
+- type: manifest
+  path: App/CMakeLists.txt
+  blob_sha: ec9ccecb70941732ebb6b2a34c77ce531649b83d
+  retrieved: true
+- type: manifest
+  path: Backend/CMakeLists.txt
+  blob_sha: 85fc2ea52cb84e43e8ff9b861700019d658dc0d7
+  retrieved: true
+- type: manifest
+  path: Frontend/CMakeLists.txt
+  blob_sha: 82a232d5af004053509799957f1cf1a044e6cbb7
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 3508261
+    CMake: 47899
+    C: 10761
+    Shell: 2479
+- type: Git tree
+  status: captured
+  sha: 730db9ac2f4119e6138bc55c948cc9231e6cbe05
+  truncated: false
+- type: source_file
+  path: App/EuRoC_test.cpp
+  blob_sha: 4290151e9b8b871d2c19ef660f1c811039a16997
+  retrieved: true
+- type: source_file
+  path: App/InputSequence.h
+  blob_sha: 613b2ea16ad9b1dcee33e2572d17d9c48948ba2e
+  retrieved: true
+- type: source_file
+  path: App/run_backend.cpp
+  blob_sha: 55e1f38abac013e7fcb2477166ba72db0e21f378
+  retrieved: true
+- type: source_file
+  path: Backend/BundleAdjustment/GlobalBundleAdjustor.cpp
+  blob_sha: 3f8449e96e6ab9541b0ebc75f5d5d20e38f0f217
+  retrieved: true

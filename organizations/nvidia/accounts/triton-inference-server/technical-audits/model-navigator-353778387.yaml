@@ -1,0 +1,127 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:02:33+00:00'
+evidence_fingerprint: 23a4f38730492cf4051ef252cbc9fd4b92ce16df88a0594ce9396f2999cb6595
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/model_navigator
+  repository_id: 353778387
+  url: https://github.com/triton-inference-server/model_navigator
+  description: Triton Model Navigator is an inference toolkit designed for optimizing and deploying Deep Learning
+    models with a focus on NVIDIA GPUs.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-27T21:41:45Z'
+  stars: 226
+  readme_url: https://github.com/triton-inference-server/model_navigator/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 0ead0a81272ed0bed2d685d61df35f042616ca90
+  manifest_paths:
+  - Makefile
+  - pyproject.toml
+  source_files_inspected:
+  - model_navigator/core/__init__.py
+  - model_navigator/core/constants.py
+  - model_navigator/core/context.py
+  - model_navigator/core/dataloader.py
+  repository_tree:
+    status: captured
+    sha: 3e53901a406f41613f29b193826aa1e655a62263
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Copyright (c) 2021-2025, NVIDIA CORPORATION. All rights reserved.
+  why_used: Triton Model Navigator is an inference toolkit designed for optimizing and deploying Deep Learning models
+    with a focus on NVIDIA GPUs.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - dacite
+    - fire
+    - jsonlines
+    - loguru
+    - mpmath
+    - numpy
+    - nvidia-modelopt
+    - onnx
+    - onnx_graphsurgeon
+    - onnxruntime
+    - onnxruntime-gpu
+    - onnxscript
+    - packaging
+    - polygraphy
+    - psutil
+    - py-cpuinfo
+    - pyee
+    - pynvml
+    - python-slugify
+    - pyyaml
+    - rich
+    - tabulate
+    - tensorrt
+    - tritonclient
+    - wrapt
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: model_navigator/core/__init__.py,
+    model_navigator/core/constants.py, model_navigator/core/context.py, model_navigator/core/dataloader.py'
+  setup_and_usage:
+  - 'Quick Start: The quick start section provides examples of possible optimization and deployment paths provided
+    in Triton Model Navigator.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/model_navigator/blob/main/README.md
+  path: README.md
+  blob_sha: 0ead0a81272ed0bed2d685d61df35f042616ca90
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: effa2a3a42caa3df182ef7dd7460332b4eb8ae0b
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 21b1971fde1914bcf182ba8ff5c4ac6438b75880
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 2041340
+    Shell: 39814
+    Makefile: 3095
+- type: Git tree
+  status: captured
+  sha: 3e53901a406f41613f29b193826aa1e655a62263
+  truncated: false
+- type: source_file
+  path: model_navigator/core/__init__.py
+  blob_sha: 544b5e4be840112a0da862415cec40c5a9b9d34b
+  retrieved: true
+- type: source_file
+  path: model_navigator/core/constants.py
+  blob_sha: 7705d4a178796c27e825f45a95c0763301305564
+  retrieved: true
+- type: source_file
+  path: model_navigator/core/context.py
+  blob_sha: 35159fc2105467d0b18c0c264229c2264eccf385
+  retrieved: true
+- type: source_file
+  path: model_navigator/core/dataloader.py
+  blob_sha: bafef272adb8b6377f523c56404c8e081dffed2c
+  retrieved: true

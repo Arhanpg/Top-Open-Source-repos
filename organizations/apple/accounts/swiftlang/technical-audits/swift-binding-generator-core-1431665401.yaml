@@ -1,0 +1,93 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:07:36+00:00'
+evidence_fingerprint: 0a5be1c832e8c63dca3e1a79e8aa0d64bb93b7a764235bed3394f8455bfd22cc
+repository_metadata:
+  company: Apple
+  account: swiftlang
+  full_name: swiftlang/swift-binding-generator-core
+  repository_id: 1431665401
+  url: https://github.com/swiftlang/swift-binding-generator-core
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T03:51:38Z'
+  stars: 9
+  readme_url: https://github.com/swiftlang/swift-binding-generator-core/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5d5daf930e1b86cca9ade5b5656a915b3ef6b2a4
+  manifest_paths: []
+  source_files_inspected:
+  - .github/scripts/install_swiftly.sh
+  - .github/scripts/test_swift_java.sh
+  - Package.swift
+  - Plugins/_StaticBuildConfigPlugin/_StaticBuildConfigPlugin.swift
+  repository_tree:
+    status: captured
+    sha: 3d30e081f16090dd3213e96ba7c52ae44ea5e35f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Shared, reusable, target-language agnostic core libraries useful for building Swift language interop
+    binding generators, such as swift-java and JavaScriptKit and more.
+  why_used: Shared, reusable, target-language agnostic core libraries useful for building Swift language interop
+    binding generators, such as swift-java and JavaScriptKit and more.
+  core_features: []
+  technology_stack:
+    languages:
+    - Swift
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .github/scripts/install_swiftly.sh,
+    .github/scripts/test_swift_java.sh, Package.swift, Plugins/_StaticBuildConfigPlugin/_StaticBuildConfigPlugin.swift'
+  setup_and_usage: []
+  limitations:
+  - 'Source Compatibility: This package does not offer strict source stable API, however we make effort to either
+    not break, or update consumers of the library when changes are made here.'
+  - 'Source Compatibility: This is verified with CI checking downstream consumers: swift-java, JavaScriptKit etc.
+    This approach is beneficial to quick iteration and supporting a limited'
+  - 'Source Compatibility: set of official language interop libraries and tools, without locking down the API.'
+  - 'Source Compatibility: If you are maintaining another language target, please reach out and we''ll work out
+    a way to collaborate.'
+  - 'Source Compatibility: In the future we may consider a stricter source compatibility guarantee.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/swiftlang/swift-binding-generator-core/blob/main/README.md
+  path: README.md
+  blob_sha: 5d5daf930e1b86cca9ade5b5656a915b3ef6b2a4
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Swift: 372399
+- type: Git tree
+  status: captured
+  sha: 3d30e081f16090dd3213e96ba7c52ae44ea5e35f
+  truncated: false
+- type: source_file
+  path: .github/scripts/install_swiftly.sh
+  blob_sha: e0792894fae00716f8510d0f2e2cb2e7bce02284
+  retrieved: true
+- type: source_file
+  path: .github/scripts/test_swift_java.sh
+  blob_sha: 1863bd44e8f8bc70d786ded5dccaa78d3e1eae82
+  retrieved: true
+- type: source_file
+  path: Package.swift
+  blob_sha: db7ea8b5da5899156648426d3ea4c34b56b3950f
+  retrieved: true
+- type: source_file
+  path: Plugins/_StaticBuildConfigPlugin/_StaticBuildConfigPlugin.swift
+  blob_sha: 7feb83929d733b54c7deeb58eab262956042fa45
+  retrieved: true

@@ -1,10 +1,10 @@
 # Technical audits — kyma-project
 
-Updated: 2026-11-26T22:57:04+00:00
+Updated: 2026-11-27T07:24:07+00:00
 
 ## Status counts
 
-- evidence_only: 15
+- evidence_only: 19
 
 ## Repository dossiers
 
@@ -23,5 +23,9 @@ Updated: 2026-11-26T22:57:04+00:00
 | community-139590666 | evidence_only | [community-139590666.md](community-139590666.md) | [community-139590666.yaml](community-139590666.yaml) |
 | community-modules-715972371 | evidence_only | [community-modules-715972371.md](community-modules-715972371.md) | [community-modules-715972371.yaml](community-modules-715972371.yaml) |
 | compass-manager-617496276 | evidence_only | [compass-manager-617496276.md](compass-manager-617496276.md) | [compass-manager-617496276.yaml](compass-manager-617496276.yaml) |
+| compliancy-1142472334 | evidence_only | [compliancy-1142472334.md](compliancy-1142472334.md) | [compliancy-1142472334.yaml](compliancy-1142472334.yaml) |
+| control-plane-274376254 | evidence_only | [control-plane-274376254.md](control-plane-274376254.md) | [control-plane-274376254.yaml](control-plane-274376254.yaml) |
+| cp-mod-migrator-745385822 | evidence_only | [cp-mod-migrator-745385822.md](cp-mod-migrator-745385822.md) | [cp-mod-migrator-745385822.yaml](cp-mod-migrator-745385822.yaml) |
 | cx1clientgo-884763351 | evidence_only | [cx1clientgo-884763351.md](cx1clientgo-884763351.md) | [cx1clientgo-884763351.yaml](cx1clientgo-884763351.yaml) |
+| dev-toolbox-959329449 | evidence_only | [dev-toolbox-959329449.md](dev-toolbox-959329449.md) | [dev-toolbox-959329449.yaml](dev-toolbox-959329449.yaml) |
 | github-678089458 | evidence_only | [github-678089458.md](github-678089458.md) | [github-678089458.yaml](github-678089458.yaml) |

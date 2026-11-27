@@ -1,10 +1,10 @@
 # Technical audits — awsdocs
 
-Updated: 2026-11-26T22:57:04+00:00
+Updated: 2026-11-27T07:24:05+00:00
 
 ## Status counts
 
-- evidence_only: 15
+- evidence_only: 19
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -24,6 +24,10 @@ Updated: 2026-11-26T22:57:04+00:00
 | amazon-cloudfront-developer-guide-112963294 | evidence_only | [amazon-cloudfront-developer-guide-112963294.md](amazon-cloudfront-developer-guide-112963294.md) | [amazon-cloudfront-developer-guide-112963294.yaml](amazon-cloudfront-developer-guide-112963294.yaml) |
 | amazon-cloudsearch-developer-guide-123648877 | evidence_only | [amazon-cloudsearch-developer-guide-123648877.md](amazon-cloudsearch-developer-guide-123648877.md) | [amazon-cloudsearch-developer-guide-123648877.yaml](amazon-cloudsearch-developer-guide-123648877.yaml) |
 | amazon-cloudwatch-events-user-guide-123359199 | evidence_only | [amazon-cloudwatch-events-user-guide-123359199.md](amazon-cloudwatch-events-user-guide-123359199.md) | [amazon-cloudwatch-events-user-guide-123359199.yaml](amazon-cloudwatch-events-user-guide-123359199.yaml) |
+| amazon-cloudwatch-logs-user-guide-123396701 | evidence_only | [amazon-cloudwatch-logs-user-guide-123396701.md](amazon-cloudwatch-logs-user-guide-123396701.md) | [amazon-cloudwatch-logs-user-guide-123396701.yaml](amazon-cloudwatch-logs-user-guide-123396701.yaml) |
+| amazon-cloudwatch-user-guide-123396855 | evidence_only | [amazon-cloudwatch-user-guide-123396855.md](amazon-cloudwatch-user-guide-123396855.md) | [amazon-cloudwatch-user-guide-123396855.yaml](amazon-cloudwatch-user-guide-123396855.yaml) |
+| amazon-codeguru-profiler-user-guide-280508048 | evidence_only | [amazon-codeguru-profiler-user-guide-280508048.md](amazon-codeguru-profiler-user-guide-280508048.md) | [amazon-codeguru-profiler-user-guide-280508048.yaml](amazon-codeguru-profiler-user-guide-280508048.yaml) |
+| amazon-codeguru-reviewer-user-guide-280506513 | evidence_only | [amazon-codeguru-reviewer-user-guide-280506513.md](amazon-codeguru-reviewer-user-guide-280506513.md) | [amazon-codeguru-reviewer-user-guide-280506513.yaml](amazon-codeguru-reviewer-user-guide-280506513.yaml) |
 | aws-kinesis-video-documentation-117897013 | evidence_only | [aws-kinesis-video-documentation-117897013.md](aws-kinesis-video-documentation-117897013.md) | [aws-kinesis-video-documentation-117897013.yaml](aws-kinesis-video-documentation-117897013.yaml) |
 | github-171341792 | insufficient_evidence | [github-171341792.md](github-171341792.md) | [github-171341792.yaml](github-171341792.yaml) |
 | guidespatternssolutions-196658381 | evidence_only | [guidespatternssolutions-196658381.md](guidespatternssolutions-196658381.md) | [guidespatternssolutions-196658381.yaml](guidespatternssolutions-196658381.yaml) |

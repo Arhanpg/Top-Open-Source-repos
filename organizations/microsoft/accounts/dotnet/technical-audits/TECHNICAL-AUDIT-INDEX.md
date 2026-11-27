@@ -1,10 +1,10 @@
 # Technical audits — dotnet
 
-Updated: 2026-11-26T22:57:02+00:00
+Updated: 2026-11-27T07:24:10+00:00
 
 ## Status counts
 
-- evidence_only: 16
+- evidence_only: 20
 
 ## Repository dossiers
 
@@ -25,4 +25,8 @@ Updated: 2026-11-26T22:57:02+00:00
 | datagridextensions-61982799 | evidence_only | [datagridextensions-61982799.md](datagridextensions-61982799.md) | [datagridextensions-61982799.yaml](datagridextensions-61982799.yaml) |
 | docker-dotnet-23337905 | evidence_only | [docker-dotnet-23337905.md](docker-dotnet-23337905.md) | [docker-dotnet-23337905.yaml](docker-dotnet-23337905.yaml) |
 | entityframework-apidocs-69378996 | evidence_only | [entityframework-apidocs-69378996.md](entityframework-apidocs-69378996.md) | [entityframework-apidocs-69378996.yaml](entityframework-apidocs-69378996.yaml) |
+| entityframework-docs-36473762 | evidence_only | [entityframework-docs-36473762.md](entityframework-docs-36473762.md) | [entityframework-docs-36473762.yaml](entityframework-docs-36473762.yaml) |
 | github-596679563 | evidence_only | [github-596679563.md](github-596679563.md) | [github-596679563.yaml](github-596679563.yaml) |
+| httprepl-191466073 | evidence_only | [httprepl-191466073.md](httprepl-191466073.md) | [httprepl-191466073.yaml](httprepl-191466073.yaml) |
+| ilmerge-67747274 | evidence_only | [ilmerge-67747274.md](ilmerge-67747274.md) | [ilmerge-67747274.yaml](ilmerge-67747274.yaml) |
+| javaapidocs-147373947 | evidence_only | [javaapidocs-147373947.md](javaapidocs-147373947.md) | [javaapidocs-147373947.yaml](javaapidocs-147373947.yaml) |

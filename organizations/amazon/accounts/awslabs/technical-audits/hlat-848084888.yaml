@@ -1,0 +1,88 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:13:44+00:00'
+evidence_fingerprint: 5ae2855f9f7292881a8e0e4c9f5acabbce7a7e95bc5106c27204b7dfc62f306e
+repository_metadata:
+  company: Amazon
+  account: awslabs
+  full_name: awslabs/HLAT
+  repository_id: 848084888
+  url: https://github.com/awslabs/HLAT
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-11-07T03:03:24Z'
+  stars: 6
+  readme_url: https://github.com/awslabs/HLAT/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 985da84ce5ceae033df4025e0d4fb979f2a94605
+  manifest_paths: []
+  source_files_inspected:
+  - 70b/compile_and_run.sh
+  - 70b/hf_utils.py
+  - 70b/modeling_llama_nxd.py
+  - 70b/online_example_packing.py
+  repository_tree:
+    status: captured
+    sha: 80f454b141ed70fbd41a8cf7ff555b38b236f1a5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'Open source code for paper (HLAT: High-quality Large Language Model Pre-trained on AWS Trainium: https://arxiv.org/abs/2404.10630)
+    and blog (https://aws.amazon.com/blogs/machine-learning/end-to-end-llm-training-on-instance-clusters-with-over-100-nodes-using-aws-trainium).'
+  why_used: 'Open source code for paper (HLAT: High-quality Large Language Model Pre-trained on AWS Trainium: https://arxiv.org/abs/2404.10630)
+    and blog (https://aws.amazon.com/blogs/machine-learning/end-to-end-llm-training-on-instance-clusters-with-over-100-nodes-using-aws-trainium).'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: 70b/compile_and_run.sh,
+    70b/hf_utils.py, 70b/modeling_llama_nxd.py, 70b/online_example_packing.py'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/awslabs/HLAT/blob/main/README.md
+  path: README.md
+  blob_sha: 985da84ce5ceae033df4025e0d4fb979f2a94605
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 411126
+    Shell: 39781
+- type: Git tree
+  status: captured
+  sha: 80f454b141ed70fbd41a8cf7ff555b38b236f1a5
+  truncated: false
+- type: source_file
+  path: 70b/compile_and_run.sh
+  blob_sha: 1dc6770390b276bd04713a92473c66c0fc68539a
+  retrieved: true
+- type: source_file
+  path: 70b/hf_utils.py
+  blob_sha: fc85cdef8b7472df9b83658b67949cdeebd14486
+  retrieved: true
+- type: source_file
+  path: 70b/modeling_llama_nxd.py
+  blob_sha: 28bdb6e7db1c16fd6f9ae69812c896c8ed3ccbd7
+  retrieved: true
+- type: source_file
+  path: 70b/online_example_packing.py
+  blob_sha: 4110bc65c5bf5426edf6f4b0dac2813e0225e6e7
+  retrieved: true

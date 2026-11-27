@@ -1,10 +1,10 @@
 # Technical audits — nvidia
 
-Updated: 2026-11-26T22:57:01+00:00
+Updated: 2026-11-27T07:24:09+00:00
 
 ## Status counts
 
-- evidence_only: 16
+- evidence_only: 20
 
 ## Repository dossiers
 
@@ -26,3 +26,7 @@ Updated: 2026-11-26T22:57:01+00:00
 | bionemo-1072429218 | evidence_only | [bionemo-1072429218.md](bionemo-1072429218.md) | [bionemo-1072429218.yaml](bionemo-1072429218.yaml) |
 | bobber-336076085 | evidence_only | [bobber-336076085.md](bobber-336076085.md) | [bobber-336076085.yaml](bobber-336076085.yaml) |
 | broadcast-skills-1355631811 | evidence_only | [broadcast-skills-1355631811.md](broadcast-skills-1355631811.md) | [broadcast-skills-1355631811.yaml](broadcast-skills-1355631811.yaml) |
+| chatrtx-706696555 | evidence_only | [chatrtx-706696555.md](chatrtx-706696555.md) | [chatrtx-706696555.yaml](chatrtx-706696555.yaml) |
+| cleanunet-510902455 | evidence_only | [cleanunet-510902455.md](cleanunet-510902455.md) | [cleanunet-510902455.yaml](cleanunet-510902455.yaml) |
+| cuda-fortran-2ed-874417210 | evidence_only | [cuda-fortran-2ed-874417210.md](cuda-fortran-2ed-874417210.md) | [cuda-fortran-2ed-874417210.yaml](cuda-fortran-2ed-874417210.yaml) |
+| cudalibrarysamples-185834676 | evidence_only | [cudalibrarysamples-185834676.md](cudalibrarysamples-185834676.md) | [cudalibrarysamples-185834676.yaml](cudalibrarysamples-185834676.yaml) |

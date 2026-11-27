@@ -1,0 +1,99 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:09:20+00:00'
+evidence_fingerprint: 8b2eef7a8ede30ae1437500152af8bc8b85ce03b936cc7c85aafd63876699085
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/onnxruntime_backend
+  repository_id: 290372011
+  url: https://github.com/triton-inference-server/onnxruntime_backend
+  description: The Triton backend for the ONNX Runtime.
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T20:38:48Z'
+  stars: 188
+  readme_url: https://github.com/triton-inference-server/onnxruntime_backend/blob/main/README.md
+  readme_path: README.md
+  readme_sha: cdd154ad2bb10932e19a759d9fad5d5c70333fa2
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  source_files_inspected:
+  - src/onnxruntime_loader.cc
+  - src/onnxruntime_loader.h
+  - src/onnxruntime_utils.cc
+  - src/onnxruntime_utils.h
+  repository_tree:
+    status: captured
+    sha: 0efc492cc4578b7fbe3892eb0d193491efdabc56
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: -->
+  why_used: The Triton backend for the ONNX Runtime.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/onnxruntime_loader.cc,
+    src/onnxruntime_loader.h, src/onnxruntime_utils.cc, src/onnxruntime_utils.h'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/onnxruntime_backend/blob/main/README.md
+  path: README.md
+  blob_sha: cdd154ad2bb10932e19a759d9fad5d5c70333fa2
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 776a520b7c66c76a457fb571b44770f9debfbbcc
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 1a8da1f4d366d75f2af71229a835ed5fd3102b5f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 189529
+    Python: 24304
+    CMake: 21663
+- type: Git tree
+  status: captured
+  sha: 0efc492cc4578b7fbe3892eb0d193491efdabc56
+  truncated: false
+- type: source_file
+  path: src/onnxruntime_loader.cc
+  blob_sha: 121aa52ee82b858337f1f85c2e43eca357c70a69
+  retrieved: true
+- type: source_file
+  path: src/onnxruntime_loader.h
+  blob_sha: d5c4472aba401e17b552354f3afc1b17556387e8
+  retrieved: true
+- type: source_file
+  path: src/onnxruntime_utils.cc
+  blob_sha: 70445077de97f494319617fe5acc1ec526605e4f
+  retrieved: true
+- type: source_file
+  path: src/onnxruntime_utils.h
+  blob_sha: f862a74d1b857f9fef59dd413164ff90299835ef
+  retrieved: true

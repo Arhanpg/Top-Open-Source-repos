@@ -1,10 +1,10 @@
 # Technical audits — aws-samples
 
-Updated: 2026-11-26T22:57:03+00:00
+Updated: 2026-11-27T07:24:06+00:00
 
 ## Status counts
 
-- evidence_only: 18
+- evidence_only: 22
 
 ## Repository dossiers
 
@@ -23,6 +23,10 @@ Updated: 2026-11-26T22:57:03+00:00
 | amazon-prometheus-bedrock-agent-example-842113150 | evidence_only | [amazon-prometheus-bedrock-agent-example-842113150.md](amazon-prometheus-bedrock-agent-example-842113150.md) | [amazon-prometheus-bedrock-agent-example-842113150.yaml](amazon-prometheus-bedrock-agent-example-842113150.yaml) |
 | amlas-sample-ml-engineering-agent-swarm-1372116853 | evidence_only | [amlas-sample-ml-engineering-agent-swarm-1372116853.md](amlas-sample-ml-engineering-agent-swarm-1372116853.md) | [amlas-sample-ml-engineering-agent-swarm-1372116853.yaml](amlas-sample-ml-engineering-agent-swarm-1372116853.yaml) |
 | appsync-sync-async-integration-923729161 | evidence_only | [appsync-sync-async-integration-923729161.md](appsync-sync-async-integration-923729161.md) | [appsync-sync-async-integration-923729161.yaml](appsync-sync-async-integration-923729161.yaml) |
+| archiving-rdbms-for-cost-reduction-911344703 | evidence_only | [archiving-rdbms-for-cost-reduction-911344703.md](archiving-rdbms-for-cost-reduction-911344703.md) | [archiving-rdbms-for-cost-reduction-911344703.yaml](archiving-rdbms-for-cost-reduction-911344703.yaml) |
+| autoinspect-ai-powered-vehicle-quality-inspection-872389305 | evidence_only | [autoinspect-ai-powered-vehicle-quality-inspection-872389305.md](autoinspect-ai-powered-vehicle-quality-inspection-872389305.md) | [autoinspect-ai-powered-vehicle-quality-inspection-872389305.yaml](autoinspect-ai-powered-vehicle-quality-inspection-872389305.yaml) |
+| automate-opensearch-cross-cluster-replication-for-resilience-with-sceptre-and-cloudformation-907543125 | evidence_only | [automate-opensearch-cross-cluster-replication-for-resilience-with-sceptre-and-cloudformation-907543125.md](automate-opensearch-cross-cluster-replication-for-resilience-with-sceptre-and-cloudformation-907543125.md) | [automate-opensearch-cross-cluster-replication-for-resilience-with-sceptre-and-cloudformation-907543125.yaml](automate-opensearch-cross-cluster-replication-for-resilience-with-sceptre-and-cloudformation-907543125.yaml) |
+| automated-database-user-management-aurora-mysql-831966718 | evidence_only | [automated-database-user-management-aurora-mysql-831966718.md](automated-database-user-management-aurora-mysql-831966718.md) | [automated-database-user-management-aurora-mysql-831966718.yaml](automated-database-user-management-aurora-mysql-831966718.yaml) |
 | aws-first-cloud-journey-876592271 | evidence_only | [aws-first-cloud-journey-876592271.md](aws-first-cloud-journey-876592271.md) | [aws-first-cloud-journey-876592271.yaml](aws-first-cloud-journey-876592271.yaml) |
 | aws-first-genai-journey-873521376 | evidence_only | [aws-first-genai-journey-873521376.md](aws-first-genai-journey-873521376.md) | [aws-first-genai-journey-873521376.yaml](aws-first-genai-journey-873521376.yaml) |
 | aws-serverless-resiliency-samples-930607002 | evidence_only | [aws-serverless-resiliency-samples-930607002.md](aws-serverless-resiliency-samples-930607002.md) | [aws-serverless-resiliency-samples-930607002.yaml](aws-serverless-resiliency-samples-930607002.yaml) |

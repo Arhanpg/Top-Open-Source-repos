@@ -1,10 +1,10 @@
 # Technical audits — freertos
 
-Updated: 2026-11-26T22:57:05+00:00
+Updated: 2026-11-27T07:24:05+00:00
 
 ## Status counts
 
-- evidence_only: 15
+- evidence_only: 19
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -25,5 +25,9 @@ Updated: 2026-11-26T22:57:05+00:00
 | freertos-kernel-community-supported-ports-375532652 | evidence_only | [freertos-kernel-community-supported-ports-375532652.md](freertos-kernel-community-supported-ports-375532652.md) | [freertos-kernel-community-supported-ports-375532652.yaml](freertos-kernel-community-supported-ports-375532652.yaml) |
 | freertos-kernel-partner-supported-ports-375531850 | evidence_only | [freertos-kernel-partner-supported-ports-375531850.md](freertos-kernel-partner-supported-ports-375531850.md) | [freertos-kernel-partner-supported-ports-375531850.yaml](freertos-kernel-partner-supported-ports-375531850.yaml) |
 | freertos-labs-240618617 | evidence_only | [freertos-labs-240618617.md](freertos-labs-240618617.md) | [freertos-labs-240618617.yaml](freertos-labs-240618617.yaml) |
+| freertos-libraries-integration-tests-424411256 | evidence_only | [freertos-libraries-integration-tests-424411256.md](freertos-libraries-integration-tests-424411256.md) | [freertos-libraries-integration-tests-424411256.yaml](freertos-libraries-integration-tests-424411256.yaml) |
 | freertos-lts-318273159 | evidence_only | [freertos-lts-318273159.md](freertos-lts-318273159.md) | [freertos-lts-318273159.yaml](freertos-lts-318273159.yaml) |
+| freertos-partner-supported-demos-375532288 | evidence_only | [freertos-partner-supported-demos-375532288.md](freertos-partner-supported-demos-375532288.md) | [freertos-partner-supported-demos-375532288.yaml](freertos-partner-supported-demos-375532288.yaml) |
+| freertos-plus-tcp-288329655 | evidence_only | [freertos-plus-tcp-288329655.md](freertos-plus-tcp-288329655.md) | [freertos-plus-tcp-288329655.yaml](freertos-plus-tcp-288329655.yaml) |
+| freertos-sesip-320092446 | evidence_only | [freertos-sesip-320092446.md](freertos-sesip-320092446.md) | [freertos-sesip-320092446.yaml](freertos-sesip-320092446.yaml) |
 | github-744757911 | insufficient_evidence | [github-744757911.md](github-744757911.md) | [github-744757911.yaml](github-744757911.yaml) |

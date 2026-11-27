@@ -1,0 +1,99 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T06:59:04+00:00'
+evidence_fingerprint: 8a3816b320213f1d616152120a32ff11a237a8bce0ab23476945053f8636f02e
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/aws-deepracer-systems-pkg
+  repository_id: 341982756
+  url: https://github.com/aws-deepracer/aws-deepracer-systems-pkg
+  description: The DeepRacer Systems ROS package creates the software_update_node, model_loader_node, otg_control_node,
+    network_monitor_node which are responsible for managing system level functionalities required in the DeepRacer
+    application.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-04-01T18:00:59Z'
+  stars: 1
+  readme_url: https://github.com/aws-deepracer/aws-deepracer-systems-pkg/blob/main/README.md
+  readme_path: README.md
+  readme_sha: db2455c28e5d69db8a1cd6b22cdd65f57d095efe
+  manifest_paths:
+  - deepracer_systems_pkg/setup.py
+  source_files_inspected:
+  - deepracer_systems_pkg/deepracer_systems_pkg/__init__.py
+  - deepracer_systems_pkg/deepracer_systems_pkg/constants.py
+  - deepracer_systems_pkg/deepracer_systems_pkg/deepracer_systems_scripts_module/deepracer_systems_scripts_node.py
+  repository_tree:
+    status: captured
+    sha: f016576aff16350ea63aa864f178e432feec1041
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The AWS DeepRacer systems ROS package creates the software_update_node, model_loader_node, otg_control_node,
+    network_monitor_node and deepracer_systems_scripts_node, which are part of the core AWS DeepRacer application
+    and launch from the deepracer_launcher. For more information about the application and the components, see the
+    aws-deepracer-launcher repository.
+  why_used: The DeepRacer Systems ROS package creates the software_update_node, model_loader_node, otg_control_node,
+    network_monitor_node which are responsible for managing system level functionalities required in the DeepRacer
+    application.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: deepracer_systems_pkg/deepracer_systems_pkg/__init__.py,
+    deepracer_systems_pkg/deepracer_systems_pkg/constants.py, deepracer_systems_pkg/deepracer_systems_pkg/deepracer_systems_scripts_module/__init__.py,
+    deepracer_systems_pkg/deepracer_systems_pkg/deepracer_systems_scripts_module/deepracer_systems_scripts_node.py'
+  setup_and_usage:
+  - 'Installation: Follow these steps to install the AWS DeepRacer systems package.'
+  - 'Usage: These nodes provide basic system-level functionality for the AWS DeepRacer application to work. Although
+    the nodes are built to work with the AWS DeepRacer application, you can run them independently for development,
+    testing, and debugging purposes.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/aws-deepracer-systems-pkg/blob/main/README.md
+  path: README.md
+  blob_sha: db2455c28e5d69db8a1cd6b22cdd65f57d095efe
+  retrieved: true
+- type: manifest
+  path: deepracer_systems_pkg/setup.py
+  blob_sha: 3730e828fdda64754837f567edd5e3cb4d3f2caf
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 208540
+- type: Git tree
+  status: captured
+  sha: f016576aff16350ea63aa864f178e432feec1041
+  truncated: false
+- type: source_file
+  path: deepracer_systems_pkg/deepracer_systems_pkg/__init__.py
+  blob_sha: 83a73bbc05b4236628deb8041723bd42d99b58ca
+  retrieved: true
+- type: source_file
+  path: deepracer_systems_pkg/deepracer_systems_pkg/constants.py
+  blob_sha: af988f90f2c518f59c4f885f091ba989a0076c68
+  retrieved: true
+- type: source_file
+  path: deepracer_systems_pkg/deepracer_systems_pkg/deepracer_systems_scripts_module/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: deepracer_systems_pkg/deepracer_systems_pkg/deepracer_systems_scripts_module/deepracer_systems_scripts_node.py
+  blob_sha: d0c7722ab1112926312865407d1fc1e222fcd2a1
+  retrieved: true

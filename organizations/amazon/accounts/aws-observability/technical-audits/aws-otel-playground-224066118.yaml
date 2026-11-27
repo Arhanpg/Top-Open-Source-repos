@@ -1,0 +1,103 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:19:40+00:00'
+evidence_fingerprint: 0cd5f33757cc4946b1f508713e1519ffe1ddb8c978e61355eb7a3ae8b994be29
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/aws-otel-playground
+  repository_id: 224066118
+  url: https://github.com/aws-observability/aws-otel-playground
+  description: Sample Application for the AWS X-Ray SDK with support for OpenTelemetry
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-09-05T22:15:05Z'
+  stars: 35
+  readme_url: https://github.com/aws-observability/aws-otel-playground/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 6ec2b430b15d7d3b70ef1b7dafab204b57e6e20a
+  manifest_paths:
+  - build.gradle.kts
+  - api/build.gradle.kts
+  - appdb/build.gradle.kts
+  - backend-webflux/build.gradle.kts
+  - backend/build.gradle.kts
+  - dependencyManagement/build.gradle.kts
+  source_files_inspected:
+  - lambda-api/src/main/java/io/awsobservability/opentelemetry/playground/lambdaapi/HelloLambdaHandler.java
+  repository_tree:
+    status: captured
+    sha: 921e5b261044cdc473643139432fedb394dd15f9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains a toy application which exhibits a simple yet somewhat representative trace,
+    including AWS SDK calls, a frontend and backend, and HTTP and gRPC.
+  why_used: Sample Application for the AWS X-Ray SDK with support for OpenTelemetry
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - HCL
+    - Kotlin
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle Kotlin build file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lambda-api/src/main/java/io/awsobservability/opentelemetry/playground/lambdaapi/HelloLambdaHandler.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/aws-otel-playground/blob/main/README.md
+  path: README.md
+  blob_sha: 6ec2b430b15d7d3b70ef1b7dafab204b57e6e20a
+  retrieved: true
+- type: manifest
+  path: build.gradle.kts
+  blob_sha: e4e0a7eaf0107cf87a815c1f23d9971c0ea2f383
+  retrieved: true
+- type: manifest
+  path: api/build.gradle.kts
+  blob_sha: 5c177826acac313114ae839a8c26a6442aa16529
+  retrieved: true
+- type: manifest
+  path: appdb/build.gradle.kts
+  blob_sha: 6db58e984d7b55c2800254d1a5291688c6ec611d
+  retrieved: true
+- type: manifest
+  path: backend-webflux/build.gradle.kts
+  blob_sha: 331014ba00a8c9f89787fdc3717d3e8bbee220d3
+  retrieved: true
+- type: manifest
+  path: backend/build.gradle.kts
+  blob_sha: 65c8d3ff8fdd7fce2cf1ded9d1549a1e3030ba1b
+  retrieved: true
+- type: manifest
+  path: dependencyManagement/build.gradle.kts
+  blob_sha: 9b46cd39f7da6a391b053fe9d5995a049f77e036
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 25667
+    HCL: 21780
+    Kotlin: 11558
+- type: Git tree
+  status: captured
+  sha: 921e5b261044cdc473643139432fedb394dd15f9
+  truncated: false
+- type: source_file
+  path: lambda-api/src/main/java/io/awsobservability/opentelemetry/playground/lambdaapi/HelloLambdaHandler.java
+  blob_sha: b73e474e2d06b9abee66c06acda5fba2988fb936
+  retrieved: true

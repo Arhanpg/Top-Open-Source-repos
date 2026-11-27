@@ -1,0 +1,104 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:01:44+00:00'
+evidence_fingerprint: dc6339d99fba2fc608017a0dce01aec597712812be8105df491eae834f961f0b
+repository_metadata:
+  company: Microsoft
+  account: microsoft
+  full_name: microsoft/ABS-CSA-Assets
+  repository_id: 744583961
+  url: https://github.com/microsoft/ABS-CSA-Assets
+  description: This repo centralizes assets used by Microsoft CSAs. It is available to all organizations for educational
+    purposes.
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-01-15T21:24:37Z'
+  stars: 11
+  readme_url: https://github.com/microsoft/ABS-CSA-Assets/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 8bcc2a24a606a08c13a0030254be6e4cbde6a7a5
+  manifest_paths:
+  - WellArchitectedFramework/Reliability/samples/CodeQuality/package.json
+  source_files_inspected:
+  - Samples/Dynamics365/CE/Alerts/AlertFromRibbon.js
+  - Samples/Dynamics365/CE/BulkCreateTestContactData/BulkCreate/BatchRequestExtensions.cs
+  - Samples/Dynamics365/CE/BulkCreateTestContactData/BulkCreate/Etw_Trace_implementation.cs
+  - Samples/Dynamics365/CE/BulkCreateTestContactData/BulkCreate/Program.cs
+  repository_tree:
+    status: captured
+    sha: 71a9ac6deb0d33a4e62c4e44d08c46141da822c9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This repo is now a website! It can be found here: https://microsoft.github.io/ABS-CSA-Assets/welcome/'
+  why_used: This repo centralizes assets used by Microsoft CSAs. It is available to all organizations for educational
+    purposes.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@eslint/js'
+    - '@microsoft/eslint-plugin-power-apps'
+    - eslint
+    - globals
+    - prettier
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Samples/Dynamics365/CE/Alerts/AlertFromRibbon.js,
+    Samples/Dynamics365/CE/BulkCreateTestContactData/BulkCreate/BatchRequestExtensions.cs, Samples/Dynamics365/CE/BulkCreateTestContactData/BulkCreate/Etw_Trace_implementation.cs,
+    Samples/Dynamics365/CE/BulkCreateTestContactData/BulkCreate/Program.cs'
+  setup_and_usage: []
+  limitations:
+  - 'Power Platform: XrmToolbox - Flow Ownership Audit - Laurens Vandendriessche/Felix Mora'
+  - 'Microsoft Power Platform Governance: Audit DLP Policy Changes - aliyoussefi'
+  - 'Microsoft Power Platform Governance: Create App User and Query BAP API - aliyoussefi'
+  - 'Microsoft Power Platform Governance: Install PAC CLI Package using PowerShell - aliyoussefi'
+  - 'Microsoft Power Platform Governance: Whitelist IP Addresses in Azure Key Vault for Power Platform - aliyoussefi'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/microsoft/ABS-CSA-Assets/blob/main/README.md
+  path: README.md
+  blob_sha: 8bcc2a24a606a08c13a0030254be6e4cbde6a7a5
+  retrieved: true
+- type: manifest
+  path: WellArchitectedFramework/Reliability/samples/CodeQuality/package.json
+  blob_sha: 79e4f03bbecfdc10eabd4ae45dfd98c354277254
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 2349
+    HTML: 6
+- type: Git tree
+  status: captured
+  sha: 71a9ac6deb0d33a4e62c4e44d08c46141da822c9
+  truncated: false
+- type: source_file
+  path: Samples/Dynamics365/CE/Alerts/AlertFromRibbon.js
+  blob_sha: 120d3518fb9e324862144f1a12a9204bfaaea5de
+  retrieved: true
+- type: source_file
+  path: Samples/Dynamics365/CE/BulkCreateTestContactData/BulkCreate/BatchRequestExtensions.cs
+  blob_sha: b71044baa2e351cb9978c346f2c2767f5fdf1da8
+  retrieved: true
+- type: source_file
+  path: Samples/Dynamics365/CE/BulkCreateTestContactData/BulkCreate/Etw_Trace_implementation.cs
+  blob_sha: 4ee68be26e35f7601d96db957d59298c0cb12aed
+  retrieved: true
+- type: source_file
+  path: Samples/Dynamics365/CE/BulkCreateTestContactData/BulkCreate/Program.cs
+  blob_sha: fc7cdde2eff5b057776a881502e205de56127ff3
+  retrieved: true

@@ -1,0 +1,112 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:06:56+00:00'
+evidence_fingerprint: 418ca2db0394231d42639eba71e7afcc7f5986ef273c904fc50093464822e22d
+repository_metadata:
+  company: Amazon
+  account: awslabs
+  full_name: awslabs/Git_llm_pick
+  repository_id: 1013131524
+  url: https://github.com/awslabs/Git_llm_pick
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-08-17T07:48:17Z'
+  stars: 4
+  readme_url: https://github.com/awslabs/Git_llm_pick/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f867246de154a2e8c2baf0291a887b3a7aa92110
+  manifest_paths:
+  - Makefile
+  - pyproject.toml
+  - setup.py
+  source_files_inspected:
+  - src/git_llm_pick/__init__.py
+  - src/git_llm_pick/git_commands.py
+  - src/git_llm_pick/git_llm_pick.py
+  - src/git_llm_pick/llm_client.py
+  repository_tree:
+    status: captured
+    sha: 99fcfc42c28cab75ec3d3a6e81ea76511c13bfa3
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This repository contains two packages for Linux kernel backporting:'
+  why_used: 'This repository contains two packages for Linux kernel backporting:'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - C
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/git_llm_pick/__init__.py,
+    src/git_llm_pick/git_commands.py, src/git_llm_pick/git_llm_pick.py, src/git_llm_pick/llm_client.py'
+  setup_and_usage:
+  - 'Getting Started: You need active AWS credentials, and access to the selected AWS Bedrock model (Nova Pro as
+    default) to be able to use the tool.'
+  - 'Getting Started: If your system has no access to your AWS account, or is missing libraries, the respective
+    phases will be skipped.'
+  - 'Getting Started: Documentation how to access AWS Bedrock models is given in'
+  - 'Getting Started: https://docs.aws.amazon.com/bedrock/latest/userguide/model-access-modify.html'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/awslabs/Git_llm_pick/blob/main/README.md
+  path: README.md
+  blob_sha: f867246de154a2e8c2baf0291a887b3a7aa92110
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: cd4776fa5fa90fc0ad307c046b70d4c40b544eb5
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: f3d97e0410a1c132da77c95ff8658662fe1cac43
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 5998f79df05fd30a64e3d14c97e909a94cbcb15e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 203164
+    Shell: 17943
+    C: 2432
+    Makefile: 1496
+- type: Git tree
+  status: captured
+  sha: 99fcfc42c28cab75ec3d3a6e81ea76511c13bfa3
+  truncated: false
+- type: source_file
+  path: src/git_llm_pick/__init__.py
+  blob_sha: f4346238dae3cbd21f8eac24eb841fc5a5ff5700
+  retrieved: true
+- type: source_file
+  path: src/git_llm_pick/git_commands.py
+  blob_sha: 441b88bc97911b3512828de7c6c283b096443123
+  retrieved: true
+- type: source_file
+  path: src/git_llm_pick/git_llm_pick.py
+  blob_sha: 7e5abf3e0228d1361cec4affe29e60d24db3052e
+  retrieved: true
+- type: source_file
+  path: src/git_llm_pick/llm_client.py
+  blob_sha: 56994e388d27c5573f901de819f02df7738cf4f3
+  retrieved: true

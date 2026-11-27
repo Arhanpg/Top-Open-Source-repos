@@ -1,10 +1,10 @@
 # Technical audits — paddlepaddle
 
-Updated: 2026-11-26T22:57:03+00:00
+Updated: 2026-11-27T07:24:08+00:00
 
 ## Status counts
 
-- evidence_only: 16
+- evidence_only: 20
 
 ## Repository dossiers
 
@@ -26,3 +26,7 @@ Updated: 2026-11-26T22:57:03+00:00
 | halops-1426644141 | evidence_only | [halops-1426644141.md](halops-1426644141.md) | [halops-1426644141.yaml](halops-1426644141.yaml) |
 | interpretdl-274012656 | evidence_only | [interpretdl-274012656.md](interpretdl-274012656.md) | [interpretdl-274012656.yaml](interpretdl-274012656.yaml) |
 | knover-276845708 | evidence_only | [knover-276845708.md](knover-276845708.md) | [knover-276845708.yaml](knover-276845708.yaml) |
+| litekit-302509341 | evidence_only | [litekit-302509341.md](litekit-302509341.md) | [litekit-302509341.yaml](litekit-302509341.yaml) |
+| metagym-196743910 | evidence_only | [metagym-196743910.md](metagym-196743910.md) | [metagym-196743910.yaml](metagym-196743910.yaml) |
+| mobile-98599362 | evidence_only | [mobile-98599362.md](mobile-98599362.md) | [mobile-98599362.yaml](mobile-98599362.yaml) |
+| palm-210520127 | evidence_only | [palm-210520127.md](palm-210520127.md) | [palm-210520127.yaml](palm-210520127.yaml) |

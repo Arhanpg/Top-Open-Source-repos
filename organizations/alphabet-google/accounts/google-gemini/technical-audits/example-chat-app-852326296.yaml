@@ -1,0 +1,179 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:11:20+00:00'
+evidence_fingerprint: 713b3f8744a85d9aadba6c9b56dffcfcbf95108b6ac2eee0326aea4255931fc0
+repository_metadata:
+  company: Alphabet (Google)
+  account: google-gemini
+  full_name: google-gemini/example-chat-app
+  repository_id: 852326296
+  url: https://github.com/google-gemini/example-chat-app
+  description: Get up and running with the Gemini API using Node.js and Python
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-06-22T16:15:54Z'
+  stars: 205
+  readme_url: https://github.com/google-gemini/example-chat-app/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ee0b6af43b81108df2c3a0a36f49659582bb7275
+  manifest_paths:
+  - client-react/package.json
+  - server-go/go.mod
+  - server-js/package.json
+  - server-python/requirements.txt
+  source_files_inspected:
+  - client-react/src/App.js
+  - client-react/src/index.js
+  - server-go/main.go
+  - server-js/app.js
+  repository_tree:
+    status: captured
+    sha: b28c0d764fa96254ae38b53cff692c0d3f83fb22
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This example app lets the user chat with the Gemini API and use it as a personal AI assistant. The app
+    supports text-only chat in two modes: non-streaming and streaming.'
+  why_used: Get up and running with the Gemini API using Node.js and Python
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - Go
+    - CSS
+    - Python
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@fortawesome/fontawesome-svg-core'
+    - '@fortawesome/free-solid-svg-icons'
+    - '@fortawesome/react-fontawesome'
+    - '@google/generative-ai'
+    - '@testing-library/jest-dom'
+    - '@testing-library/react'
+    - '@testing-library/user-event'
+    - '@vitejs/plugin-react'
+    - Flask
+    - axios
+    - cloud.google.com/go
+    - cloud.google.com/go/ai
+    - cloud.google.com/go/auth
+    - cloud.google.com/go/auth/oauth2adapt
+    - cloud.google.com/go/compute/metadata
+    - cloud.google.com/go/longrunning
+    - cors
+    - express
+    - flask-cors
+    - github.com/felixge/httpsnoop
+    - github.com/go-logr/logr
+    - github.com/go-logr/stdr
+    - github.com/golang/groupcache
+    - github.com/google/generative-ai-go
+    - github.com/google/s2a-go
+    - github.com/google/uuid
+    - github.com/googleapis/enterprise-certificate-proxy
+    - github.com/googleapis/gax-go/v2
+    - github.com/rs/cors
+    - go.opencensus.io
+    - go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc
+    - go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
+    - go.opentelemetry.io/otel
+    - go.opentelemetry.io/otel/metric
+    - go.opentelemetry.io/otel/trace
+    - golang.org/x/crypto
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/text
+    - golang.org/x/time
+    - google-generativeai
+    - google.golang.org/api
+    - google.golang.org/genproto/googleapis/api
+    - google.golang.org/genproto/googleapis/rpc
+    - google.golang.org/grpc
+    - google.golang.org/protobuf
+    - python-dotenv
+    - react
+    - react-dom
+    - react-markdown
+    - react-scripts
+    - vite
+    - web-vitals
+    build_and_package_tools:
+    - Go module manifest
+    - npm-compatible manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: client-react/src/App.js,
+    client-react/src/index.js, server-go/main.go, server-js/app.js'
+  setup_and_usage:
+  - 'Installation: Follow the installation instructions for one of the backend servers (Node.js,'
+  - '(Option 1) Node.js installation: Before running the installation steps, make sure that Node.js v18+ and npm
+    are'
+  - '(Option 1) Node.js installation: installed in your development environment.'
+  - '(Option 1) Node.js installation: 1. Navigate to the app directory, server-js (i.e. where package.json is'
+  - '(Option 2) Python installation: Before running the installation steps, make sure that Python 3.9+ is installed'
+  - '(Option 2) Python installation: in your development environment. Then navigate to the app directory,'
+  - '(Option 2) Python installation: server-python, and complete the installation.'
+  - '(Option 3) Go installation: Check if Go 1.20+ is installed on your system.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google-gemini/example-chat-app/blob/main/README.md
+  path: README.md
+  blob_sha: ee0b6af43b81108df2c3a0a36f49659582bb7275
+  retrieved: true
+- type: manifest
+  path: client-react/package.json
+  blob_sha: b851bd60c2cab88bd92f47ca9a6c34a71359a8bd
+  retrieved: true
+- type: manifest
+  path: server-go/go.mod
+  blob_sha: 60f1bf65e68adf0c480d6393602d8964e98168e3
+  retrieved: true
+- type: manifest
+  path: server-js/package.json
+  blob_sha: bcadbab7fcdb35d400b42f8c24245e4ee1e2ac5c
+  retrieved: true
+- type: manifest
+  path: server-python/requirements.txt
+  blob_sha: 90074636dce042edcf3e0b101f33a5a501a73fb2
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 17410
+    Go: 8101
+    CSS: 4933
+    Python: 3579
+    HTML: 1829
+- type: Git tree
+  status: captured
+  sha: b28c0d764fa96254ae38b53cff692c0d3f83fb22
+  truncated: false
+- type: source_file
+  path: client-react/src/App.js
+  blob_sha: 87ce6c681c3abacc02277df960035c391c8be74b
+  retrieved: true
+- type: source_file
+  path: client-react/src/index.js
+  blob_sha: d563c0fb10ba0e42724b21286eb546ee4e5734fc
+  retrieved: true
+- type: source_file
+  path: server-go/main.go
+  blob_sha: b47ee6cfc1d277f7b8fbc8739a070474ec12dfe9
+  retrieved: true
+- type: source_file
+  path: server-js/app.js
+  blob_sha: 099047af994c526b91649423c67ae0291e8b7ffe
+  retrieved: true

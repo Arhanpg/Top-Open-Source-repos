@@ -1,10 +1,10 @@
 # Technical audits — sap-samples
 
-Updated: 2026-11-26T22:57:01+00:00
+Updated: 2026-11-27T07:24:11+00:00
 
 ## Status counts
 
-- evidence_only: 14
+- evidence_only: 18
 
 ## Repository dossiers
 
@@ -22,5 +22,9 @@ Updated: 2026-11-26T22:57:01+00:00
 | abap-platform-bgpf-appl-log-events-side-effects-928318652 | evidence_only | [abap-platform-bgpf-appl-log-events-side-effects-928318652.md](abap-platform-bgpf-appl-log-events-side-effects-928318652.md) | [abap-platform-bgpf-appl-log-events-side-effects-928318652.yaml](abap-platform-bgpf-appl-log-events-side-effects-928318652.yaml) |
 | abap-platform-ccm-workshops-1031824462 | evidence_only | [abap-platform-ccm-workshops-1031824462.md](abap-platform-ccm-workshops-1031824462.md) | [abap-platform-ccm-workshops-1031824462.yaml](abap-platform-ccm-workshops-1031824462.yaml) |
 | abap-platform-codejam-latest-features-2602-1137746800 | evidence_only | [abap-platform-codejam-latest-features-2602-1137746800.md](abap-platform-codejam-latest-features-2602-1137746800.md) | [abap-platform-codejam-latest-features-2602-1137746800.yaml](abap-platform-codejam-latest-features-2602-1137746800.yaml) |
+| abap-platform-codejam-latest-features-2608-1323865196 | evidence_only | [abap-platform-codejam-latest-features-2608-1323865196.md](abap-platform-codejam-latest-features-2608-1323865196.md) | [abap-platform-codejam-latest-features-2608-1323865196.yaml](abap-platform-codejam-latest-features-2608-1323865196.yaml) |
+| abap-platform-fiori-feature-showcase-548782680 | evidence_only | [abap-platform-fiori-feature-showcase-548782680.md](abap-platform-fiori-feature-showcase-548782680.md) | [abap-platform-fiori-feature-showcase-548782680.yaml](abap-platform-fiori-feature-showcase-548782680.yaml) |
+| abap-platform-fusion-development-sap-cloud-erp-sap-btp-1193565441 | evidence_only | [abap-platform-fusion-development-sap-cloud-erp-sap-btp-1193565441.md](abap-platform-fusion-development-sap-cloud-erp-sap-btp-1193565441.md) | [abap-platform-fusion-development-sap-cloud-erp-sap-btp-1193565441.yaml](abap-platform-fusion-development-sap-cloud-erp-sap-btp-1193565441.yaml) |
+| abap-platform-jak-172288111 | evidence_only | [abap-platform-jak-172288111.md](abap-platform-jak-172288111.md) | [abap-platform-jak-172288111.yaml](abap-platform-jak-172288111.yaml) |
 | github-464904570 | evidence_only | [github-464904570.md](github-464904570.md) | [github-464904570.yaml](github-464904570.yaml) |
 | spfi-reference-application-1095486490 | evidence_only | [spfi-reference-application-1095486490.md](spfi-reference-application-1095486490.md) | [spfi-reference-application-1095486490.yaml](spfi-reference-application-1095486490.yaml) |

@@ -1,0 +1,179 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:00:27+00:00'
+evidence_fingerprint: 56d581f92222ad7612f9fd9ce6d65cdf7c4d777b19ee6dd0ed03469d30e62ef6
+repository_metadata:
+  company: Amazon
+  account: corretto
+  full_name: corretto/corretto-8
+  repository_id: 156599958
+  url: https://github.com/corretto/corretto-8
+  description: Amazon Corretto 8 is a no-cost, multi-platform, production-ready distribution of OpenJDK 8
+  default_branch: develop
+  license_spdx: GPL-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T07:03:40Z'
+  stars: 2127
+  readme_url: https://github.com/corretto/corretto-8/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: cf75214ae7e5b32193c4fa03100bc00025171e0a
+  manifest_paths:
+  - build.gradle
+  - Makefile
+  - test/Makefile
+  - corba/make/Makefile
+  - hotspot/make/Makefile
+  - hotspot/test/Makefile
+  source_files_inspected:
+  - hotspot/src/share/vm/adlc/main.cpp
+  - jaxws/src/share/jaxws_classes/com/sun/xml/internal/rngom/digested/Main.java
+  - jdk/src/macosx/classes/com/apple/eawt/Application.java
+  - jdk/src/share/bin/main.c
+  repository_tree:
+    status: captured
+    sha: 7eb5709d7f73fa77093a363c27fcd501f9915324
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Amazon Corretto is a no-cost, multiplatform, production-ready distribution of the Open Java Development
+    Kit (OpenJDK). Corretto is used internally at Amazon for production services. With Corretto, you can develop
+    and run Java applications on operating systems such as Amazon Linux 2, Windows, and macOS.
+  why_used: Amazon Corretto 8 is a no-cost, multi-platform, production-ready distribution of OpenJDK 8
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - C++
+    - C
+    - JavaScript
+    - Roff
+    - Shell
+    - HTML
+    - Objective-C
+    - Makefile
+    - XSLT
+    - M4
+    - DTrace
+    - Python
+    - Assembly
+    - IL Assembly
+    - Batchfile
+    - Monkey C
+    - TypeScript
+    - Noir
+    - Awk
+    - CSS
+    - Perl
+    - Lex
+    - Haskell
+    - C#
+    - Ruby
+    - HLSL
+    - ReScript
+    - sed
+    - Raku
+    - MATLAB
+    - SourcePawn
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle build file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: hotspot/src/share/vm/adlc/main.cpp,
+    jaxws/src/share/jaxws_classes/com/sun/xml/internal/rngom/digested/Main.java, jdk/src/macosx/classes/com/apple/eawt/Application.java,
+    jdk/src/share/bin/main.c'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/corretto/corretto-8/blob/develop/README.md
+  path: README.md
+  blob_sha: cf75214ae7e5b32193c4fa03100bc00025171e0a
+  retrieved: true
+- type: manifest
+  path: build.gradle
+  blob_sha: 18981d746a9bef42a0c586fe1a99ee07556a5f1f
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: d1ca32bfd7d79427b130014ee7798c48b03fb535
+  retrieved: true
+- type: manifest
+  path: test/Makefile
+  blob_sha: 28ecdbb6938bf3201082a7cde858fc5882e36f86
+  retrieved: true
+- type: manifest
+  path: corba/make/Makefile
+  blob_sha: 4570070f45be21e0e67a71f422d5729b5c29c5eb
+  retrieved: true
+- type: manifest
+  path: hotspot/make/Makefile
+  blob_sha: ad195763beb252378a38eae29f4557f1a96b6952
+  retrieved: true
+- type: manifest
+  path: hotspot/test/Makefile
+  blob_sha: 363d5a94a36e592496789758ab82d78200555b34
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 269208164
+    C++: 41495383
+    C: 28712810
+    JavaScript: 4353043
+    Roff: 4024416
+    Shell: 3627816
+    HTML: 2576453
+    Objective-C: 1395686
+    Makefile: 901311
+    XSLT: 700031
+    M4: 334543
+    DTrace: 155778
+    Python: 153745
+    Assembly: 138101
+    IL Assembly: 82975
+    Batchfile: 64150
+    Monkey C: 46287
+    TypeScript: 43337
+    Noir: 38888
+    Awk: 20311
+    CSS: 18063
+    Perl: 14088
+    Lex: 13233
+    Haskell: 11378
+    C#: 7619
+    Ruby: 4432
+    HLSL: 3395
+    ReScript: 3232
+    sed: 3106
+    Raku: 2253
+    MATLAB: 1730
+    SourcePawn: 78
+- type: Git tree
+  status: captured
+  sha: 7eb5709d7f73fa77093a363c27fcd501f9915324
+  truncated: false
+- type: source_file
+  path: hotspot/src/share/vm/adlc/main.cpp
+  blob_sha: bf5ec5733535fcadf5147cd8e08b29724a8cefa5
+  retrieved: true
+- type: source_file
+  path: jaxws/src/share/jaxws_classes/com/sun/xml/internal/rngom/digested/Main.java
+  blob_sha: defb37207e53de40cdeee99bdef02854a351965e
+  retrieved: true
+- type: source_file
+  path: jdk/src/macosx/classes/com/apple/eawt/Application.java
+  blob_sha: 9b7b959d12914d8f031ba604d9b9b8ff62f66e1b
+  retrieved: true
+- type: source_file
+  path: jdk/src/share/bin/main.c
+  blob_sha: 677eb6962f94ca075afd3c2b5f7ea39602281be1
+  retrieved: true

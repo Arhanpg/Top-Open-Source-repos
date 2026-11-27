@@ -1,10 +1,10 @@
 # Technical audits — google-gemini
 
-Updated: 2026-11-26T22:57:02+00:00
+Updated: 2026-11-27T07:24:11+00:00
 
 ## Status counts
 
-- evidence_only: 19
+- evidence_only: 23
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -29,5 +29,9 @@ Updated: 2026-11-26T22:57:02+00:00
 | deprecated-generative-ai-android-727310537 | evidence_only | [deprecated-generative-ai-android-727310537.md](deprecated-generative-ai-android-727310537.md) | [deprecated-generative-ai-android-727310537.yaml](deprecated-generative-ai-android-727310537.yaml) |
 | deprecated-generative-ai-dart-730328013 | evidence_only | [deprecated-generative-ai-dart-730328013.md](deprecated-generative-ai-dart-730328013.md) | [deprecated-generative-ai-dart-730328013.yaml](deprecated-generative-ai-dart-730328013.yaml) |
 | deprecated-generative-ai-js-727311636 | evidence_only | [deprecated-generative-ai-js-727311636.md](deprecated-generative-ai-js-727311636.md) | [deprecated-generative-ai-js-727311636.yaml](deprecated-generative-ai-js-727311636.yaml) |
+| deprecated-generative-ai-python-635974055 | evidence_only | [deprecated-generative-ai-python-635974055.md](deprecated-generative-ai-python-635974055.md) | [deprecated-generative-ai-python-635974055.yaml](deprecated-generative-ai-python-635974055.yaml) |
+| deprecated-generative-ai-swift-632592079 | evidence_only | [deprecated-generative-ai-swift-632592079.md](deprecated-generative-ai-swift-632592079.md) | [deprecated-generative-ai-swift-632592079.yaml](deprecated-generative-ai-swift-632592079.yaml) |
+| example-chat-app-852326296 | evidence_only | [example-chat-app-852326296.md](example-chat-app-852326296.md) | [example-chat-app-852326296.yaml](example-chat-app-852326296.yaml) |
+| flutter-draw-it-sample-796961924 | evidence_only | [flutter-draw-it-sample-796961924.md](flutter-draw-it-sample-796961924.md) | [flutter-draw-it-sample-796961924.yaml](flutter-draw-it-sample-796961924.yaml) |
 | github-765449529 | insufficient_evidence | [github-765449529.md](github-765449529.md) | [github-765449529.yaml](github-765449529.yaml) |
 | journal-with-gemini-798431387 | evidence_only | [journal-with-gemini-798431387.md](journal-with-gemini-798431387.md) | [journal-with-gemini-798431387.yaml](journal-with-gemini-798431387.yaml) |

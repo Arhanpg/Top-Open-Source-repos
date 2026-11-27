@@ -1,10 +1,10 @@
 # Technical audits — rapidsai
 
-Updated: 2026-11-26T22:57:02+00:00
+Updated: 2026-11-27T07:24:11+00:00
 
 ## Status counts
 
-- evidence_only: 15
+- evidence_only: 19
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -25,5 +25,9 @@ Updated: 2026-11-26T22:57:02+00:00
 | clx-186716715 | evidence_only | [clx-186716715.md](clx-186716715.md) | [clx-186716715.yaml](clx-186716715.yaml) |
 | code-share-185428432 | evidence_only | [code-share-185428432.md](code-share-185428432.md) | [code-share-185428432.yaml](code-share-185428432.yaml) |
 | crossfit-599787661 | evidence_only | [crossfit-599787661.md](crossfit-599787661.md) | [crossfit-599787661.yaml](crossfit-599787661.yaml) |
+| cucim-356356336 | evidence_only | [cucim-356356336.md](cucim-356356336.md) | [cucim-356356336.yaml](cucim-356356336.yaml) |
+| cudatashader-205177993 | evidence_only | [cudatashader-205177993.md](cudatashader-205177993.md) | [cudatashader-205177993.yaml](cudatashader-205177993.yaml) |
+| cudatoolkit-feedstock-383908005 | evidence_only | [cudatoolkit-feedstock-383908005.md](cudatoolkit-feedstock-383908005.md) | [cudatoolkit-feedstock-383908005.yaml](cudatoolkit-feedstock-383908005.yaml) |
+| cudf-alpha-152325502 | evidence_only | [cudf-alpha-152325502.md](cudf-alpha-152325502.md) | [cudf-alpha-152325502.yaml](cudf-alpha-152325502.yaml) |
 | gaas-483302477 | evidence_only | [gaas-483302477.md](gaas-483302477.md) | [gaas-483302477.yaml](gaas-483302477.yaml) |
 | github-506698882 | insufficient_evidence | [github-506698882.md](github-506698882.md) | [github-506698882.yaml](github-506698882.yaml) |

@@ -1,10 +1,10 @@
 # Technical audits — ai-dynamo
 
-Updated: 2026-11-26T22:57:03+00:00
+Updated: 2026-11-27T07:24:09+00:00
 
 ## Status counts
 
-- evidence_only: 16
+- evidence_only: 19
 
 ## Repository dossiers
 
@@ -26,3 +26,6 @@ Updated: 2026-11-26T22:57:03+00:00
 | modelexpress-982985446 | evidence_only | [modelexpress-982985446.md](modelexpress-982985446.md) | [modelexpress-982985446.yaml](modelexpress-982985446.yaml) |
 | nixl-943421085 | evidence_only | [nixl-943421085.md](nixl-943421085.md) | [nixl-943421085.yaml](nixl-943421085.yaml) |
 | openengine-1287558335 | evidence_only | [openengine-1287558335.md](openengine-1287558335.md) | [openengine-1287558335.yaml](openengine-1287558335.yaml) |
+| radixshmem-1396440763 | evidence_only | [radixshmem-1396440763.md](radixshmem-1396440763.md) | [radixshmem-1396440763.yaml](radixshmem-1396440763.yaml) |
+| snapshot-1299481757 | evidence_only | [snapshot-1299481757.md](snapshot-1299481757.md) | [snapshot-1299481757.yaml](snapshot-1299481757.yaml) |
+| velo-1188360418 | evidence_only | [velo-1188360418.md](velo-1188360418.md) | [velo-1188360418.yaml](velo-1188360418.yaml) |

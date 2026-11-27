@@ -1,0 +1,149 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:14:09+00:00'
+evidence_fingerprint: ddd5de716405e2506b24b9850add296188d2ec2b6374bea2355f29fad15df099
+repository_metadata:
+  company: Amazon
+  account: freertos
+  full_name: FreeRTOS/FreeRTOS-Plus-TCP
+  repository_id: 288329655
+  url: https://github.com/FreeRTOS/FreeRTOS-Plus-TCP
+  description: 'FreeRTOS-Plus-TCP library repository. +TCP files only. Submoduled into https://github.com/FreeRTOS/FreeRTOS
+    and various other repos. '
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-16T17:04:48Z'
+  stars: 220
+  readme_url: https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1a669d14cb3141408049b6c93fcbb44664202407
+  manifest_paths:
+  - CMakeLists.txt
+  - source/CMakeLists.txt
+  - test/CMakeLists.txt
+  - tools/CMakeLists.txt
+  - source/portable/CMakeLists.txt
+  - test/build-combination/CMakeLists.txt
+  source_files_inspected:
+  - GenerateOriginalFiles.py
+  - source/FreeRTOS_ARP.c
+  - source/FreeRTOS_BitConfig.c
+  - source/FreeRTOS_DHCP.c
+  repository_tree:
+    status: captured
+    sha: 0232325c9a2d2621705d7077396d47e27811b80f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: FreeRTOS-Plus-TCP is a lightweight TCP/IP stack for FreeRTOS. It provides a familiar Berkeley sockets
+    interface, making it as simple to use and learn as possible. FreeRTOS-Plus-TCP's features and RAM footprint
+    are fully scalable, making FreeRTOS-Plus-TCP equally applicable to smaller lower throughput microcontrollers
+    as well as larger higher throughput microprocessors.
+  why_used: FreeRTOS-Plus-TCP library repository. +TCP files only. Submoduled into https://github.com/FreeRTOS/FreeRTOS
+    and various other repos.
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - CMake
+    - Python
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: GenerateOriginalFiles.py,
+    source/FreeRTOS_ARP.c, source/FreeRTOS_BitConfig.c, source/FreeRTOS_DHCP.c'
+  setup_and_usage:
+  - 'Getting started: The easiest way to use version 4.0.0 and later of FreeRTOS-Plus-TCP is to refer the Getting
+    started Guide (found here)'
+  - 'Getting started: Another way is to start with the pre-configured IPv4 Windows Simulator demo (found in this
+    directory) or IPv6 Multi-endpoint Windows Simulator demo (found in this directory). That way you will have the
+    correct FreeRTOS source files included, and the correct include paths configured. Once a demo application is
+    building and executing you can remove t'
+  - 'Getting started: Additionally, for FreeRTOS-Plus-TCP source code organization refer to the Documentation, and
+    API Reference.'
+  limitations:
+  - 'Generating pre V3.0.0 folder structure for backward compatibility:: If you wish to continue using a version
+    earlier than V3.0.0 i.e. continue to use your existing source code organization, a script is provided to generate
+    the folder structure similar to this.'
+  - 'Generating pre V3.0.0 folder structure for backward compatibility:: **Note:** After running the script, while
+    the .c files will have same names as the pre V3.0.0 source, the files in the include directory will have different
+    names and the number of files will differ as well. This should, however, not pose any problems to most projects
+    as projects generally include all files in a given directory.'
+  - 'Generating pre V3.0.0 folder structure for backward compatibility:: Running the script to generate pre V3.0.0
+    folder structure:'
+  - 'Generating pre V3.0.0 folder structure for backward compatibility:: For running the script, you will need Python
+    version > 3.7. You can download/install it from here.'
+  - 'Generating pre V3.0.0 folder structure for backward compatibility:: Once python is downloaded and installed,
+    you can verify the version from your terminal/command window by typing python --version.'
+  - 'Generating pre V3.0.0 folder structure for backward compatibility:: To run the script, you should switch to
+    the FreeRTOS-Plus-TCP directory'
+  - 'Generating pre V3.0.0 folder structure for backward compatibility:: Then run python /GenerateOriginalFiles.py.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/blob/main/README.md
+  path: README.md
+  blob_sha: 1a669d14cb3141408049b6c93fcbb44664202407
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 2e2266c0b81c43c49ccb8251d5d6ee7f1b4f7bb5
+  retrieved: true
+- type: manifest
+  path: source/CMakeLists.txt
+  blob_sha: 47170a75690f3618aaf4ec3350e18c1970cf9626
+  retrieved: true
+- type: manifest
+  path: test/CMakeLists.txt
+  blob_sha: 0a3de4a8a14f030def75ff2c030cfd69d1584d59
+  retrieved: true
+- type: manifest
+  path: tools/CMakeLists.txt
+  blob_sha: d9d827138b67011d64e9142fbbfcb2a371fcaa0a
+  retrieved: true
+- type: manifest
+  path: source/portable/CMakeLists.txt
+  blob_sha: 4afd6fca1dd8e606239f3221db8fdb453c814da5
+  retrieved: true
+- type: manifest
+  path: test/build-combination/CMakeLists.txt
+  blob_sha: f170af459e597e804b56de160fb93519eb6db7a5
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 11259695
+    CMake: 313967
+    Python: 99163
+    Makefile: 611
+- type: Git tree
+  status: captured
+  sha: 0232325c9a2d2621705d7077396d47e27811b80f
+  truncated: false
+- type: source_file
+  path: GenerateOriginalFiles.py
+  blob_sha: 210cf8d69cff3a25a0e5483d06fa16ab7f4fc1ae
+  retrieved: true
+- type: source_file
+  path: source/FreeRTOS_ARP.c
+  blob_sha: 823ca87ecf7eaa373812081d530b0cdd4d39fb9f
+  retrieved: true
+- type: source_file
+  path: source/FreeRTOS_BitConfig.c
+  blob_sha: 8c4d0ba79c550c6ca81d6b06ebad60ce64751267
+  retrieved: true
+- type: source_file
+  path: source/FreeRTOS_DHCP.c
+  blob_sha: 77f6ae75281ca0c4d5094b3c3b8e567f6142c4fc
+  retrieved: true

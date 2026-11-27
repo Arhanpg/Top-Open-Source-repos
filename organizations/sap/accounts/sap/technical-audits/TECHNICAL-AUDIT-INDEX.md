@@ -1,10 +1,10 @@
 # Technical audits — sap
 
-Updated: 2026-11-26T22:57:05+00:00
+Updated: 2026-11-27T07:24:08+00:00
 
 ## Status counts
 
-- evidence_only: 15
+- evidence_only: 19
 
 ## Repository dossiers
 
@@ -18,6 +18,10 @@ Updated: 2026-11-26T22:57:05+00:00
 | abap-file-formats-339325036 | evidence_only | [abap-file-formats-339325036.md](abap-file-formats-339325036.md) | [abap-file-formats-339325036.yaml](abap-file-formats-339325036.yaml) |
 | abap-file-formats-tools-459651539 | evidence_only | [abap-file-formats-tools-459651539.md](abap-file-formats-tools-459651539.md) | [abap-file-formats-tools-459651539.yaml](abap-file-formats-tools-459651539.yaml) |
 | abap-open-source-namespaces-834063632 | evidence_only | [abap-open-source-namespaces-834063632.md](abap-open-source-namespaces-834063632.md) | [abap-open-source-namespaces-834063632.yaml](abap-open-source-namespaces-834063632.yaml) |
+| abap-to-json-629583220 | evidence_only | [abap-to-json-629583220.md](abap-to-json-629583220.md) | [abap-to-json-629583220.yaml](abap-to-json-629583220.yaml) |
+| accessibility-design-tools-670200094 | evidence_only | [accessibility-design-tools-670200094.md](accessibility-design-tools-670200094.md) | [accessibility-design-tools-670200094.yaml](accessibility-design-tools-670200094.yaml) |
+| admission-webhook-runtime-631988239 | evidence_only | [admission-webhook-runtime-631988239.md](admission-webhook-runtime-631988239.md) | [admission-webhook-runtime-631988239.yaml](admission-webhook-runtime-631988239.yaml) |
+| agent-quality-inspect-1147797107 | evidence_only | [agent-quality-inspect-1147797107.md](agent-quality-inspect-1147797107.md) | [agent-quality-inspect-1147797107.yaml](agent-quality-inspect-1147797107.yaml) |
 | bipec-a-combined-change-point-analyzer-840247219 | evidence_only | [bipec-a-combined-change-point-analyzer-840247219.md](bipec-a-combined-change-point-analyzer-840247219.md) | [bipec-a-combined-change-point-analyzer-840247219.yaml](bipec-a-combined-change-point-analyzer-840247219.yaml) |
 | github-358244620 | evidence_only | [github-358244620.md](github-358244620.md) | [github-358244620.yaml](github-358244620.yaml) |
 | infrabox-126344645 | evidence_only | [infrabox-126344645.md](infrabox-126344645.md) | [infrabox-126344645.yaml](infrabox-126344645.yaml) |

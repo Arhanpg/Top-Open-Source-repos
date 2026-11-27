@@ -1,0 +1,96 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:22:20+00:00'
+evidence_fingerprint: 05ba5740b232f2023e4bda6cc46e3121681a413b09bc9c9862029ad6a170f319
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/CleanUNet
+  repository_id: 510902455
+  url: https://github.com/NVIDIA/CleanUNet
+  description: Official PyTorch Implementation of CleanUNet (ICASSP 2022)
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-10-11T12:13:16Z'
+  stars: 354
+  readme_url: https://github.com/NVIDIA/CleanUNet/blob/main/README.md
+  readme_path: README.md
+  readme_sha: bdbd2d9ccb81dcba7f4f43dda29320fa1f1c3984
+  manifest_paths:
+  - Dockerfile
+  source_files_inspected:
+  - dataset.py
+  - denoise.py
+  - distributed.py
+  - network.py
+  repository_tree:
+    status: captured
+    sha: 4c682cca851d356b1cd479ddbe0a0236d277b479
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This repo contains official PyTorch implementation of CleanUNet: Speech Denoising in the Waveform Domain
+    with Self-Attention. CleanUNet is a causal speech denoising model on the raw waveform. It is based on an encoder-decoder
+    architecture combined with several self-attention blocks to refine its bottleneck representations, which is
+    crucial to obtain good results. The model is optimized through a set of losses defined over both waveform and
+    multi-resolution spectrograms. The proposed method outperforms the state-of-the-art models in terms of denoised
+    speech quality from various objective and subjective evaluation metrics. Sound demos can be found in This blog.'
+  why_used: Official PyTorch Implementation of CleanUNet (ICASSP 2022)
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: dataset.py, denoise.py,
+    distributed.py, network.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/CleanUNet/blob/main/README.md
+  path: README.md
+  blob_sha: bdbd2d9ccb81dcba7f4f43dda29320fa1f1c3984
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: dea0f7c03f7e6bfcba2ca1784f479e19d95fa751
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 56525
+    Dockerfile: 260
+- type: Git tree
+  status: captured
+  sha: 4c682cca851d356b1cd479ddbe0a0236d277b479
+  truncated: false
+- type: source_file
+  path: dataset.py
+  blob_sha: 1162398e4b60e1aa1f687d0ca0baa212886c0c4f
+  retrieved: true
+- type: source_file
+  path: denoise.py
+  blob_sha: 57b6c60e6a37265ce361583a6aa4e4b355cc8588
+  retrieved: true
+- type: source_file
+  path: distributed.py
+  blob_sha: b6009f263c1a2f71fb2f5735208d522531b2b313
+  retrieved: true
+- type: source_file
+  path: network.py
+  blob_sha: 68f00136d1d02733d557b717a6af9fb08f9272ae
+  retrieved: true

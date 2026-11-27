@@ -1,0 +1,77 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:02:48+00:00'
+evidence_fingerprint: d89adcb8a20be783b0f28be3a87b0e6e4031d33feddc804c632692c863a211bc
+repository_metadata:
+  company: SAP
+  account: capire
+  full_name: capire/samples
+  repository_id: 959665065
+  url: https://github.com/capire/samples
+  description: A monorepo to work on several projects at once
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-08T12:38:56Z'
+  stars: 29
+  readme_url: https://github.com/capire/samples/blob/main/readme.md
+  readme_path: readme.md
+  readme_sha: 46a7b7502c7abb9364f90e1f653d9e817f56ad93
+  manifest_paths:
+  - package.json
+  - .deploy/app-router/package.json
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: 572f6e82356f4529878f93ba0c4c0dd702ed3d90
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Find here a collection of samples for the SAP Cloud Application Programming Model organized in a simple
+    monorepo setup.
+  why_used: A monorepo to work on several projects at once
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/cds-test'
+    - '@sap/approuter'
+    - '@sap/cds-dk'
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/capire/samples/blob/main/readme.md
+  path: readme.md
+  blob_sha: 46a7b7502c7abb9364f90e1f653d9e817f56ad93
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 95911c74e14c138eb29542e624ff327536038029
+  retrieved: true
+- type: manifest
+  path: .deploy/app-router/package.json
+  blob_sha: beb69165785c905931d76a53a6fafecfafd7d92c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 583
+- type: Git tree
+  status: captured
+  sha: 572f6e82356f4529878f93ba0c4c0dd702ed3d90
+  truncated: false

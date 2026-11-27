@@ -1,0 +1,96 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:20:52+00:00'
+evidence_fingerprint: 889320f00f9f281479233df04632cc309cd1e3bd3c2fe11254224c945fc8e5b8
+repository_metadata:
+  company: Amazon
+  account: freertos
+  full_name: FreeRTOS/FreeRTOS-SESIP
+  repository_id: 320092446
+  url: https://github.com/FreeRTOS/FreeRTOS-SESIP
+  description: null
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-04-27T21:41:31Z'
+  stars: 6
+  readme_url: https://github.com/FreeRTOS/FreeRTOS-SESIP/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 49c42ace7c6d5e16be17256542c7f96ecbdc4f42
+  manifest_paths:
+  - tools/requirements.txt
+  source_files_inspected:
+  - source/main.c
+  - lib/bootloader/spifi_boot.c
+  - lib/bootloader/spifi_boot.h
+  - lib/FreeRTOS/FreeRTOS-Plus-Trace/config/trcConfig.h
+  repository_tree:
+    status: captured
+    sha: 3c5776bc0e4bf56066a8d04f8d11671901c72387
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This project is an example of an IoT application using FreeRTOS. This project was used to achieve SESIP
+    certification for the FreeRTOS kernel.
+  why_used: This project is an example of an IoT application using FreeRTOS. This project was used to achieve SESIP
+    certification for the FreeRTOS kernel.
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - boto3
+    - pyserial
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/main.c, lib/bootloader/spifi_boot.c,
+    lib/bootloader/spifi_boot.h, lib/FreeRTOS/FreeRTOS-Plus-Trace/config/trcConfig.h'
+  setup_and_usage:
+  - 'Getting started: For instructions describing how to operate this demo please refer to this documentation.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/FreeRTOS/FreeRTOS-SESIP/blob/main/README.md
+  path: README.md
+  blob_sha: 49c42ace7c6d5e16be17256542c7f96ecbdc4f42
+  retrieved: true
+- type: manifest
+  path: tools/requirements.txt
+  blob_sha: 7853eaf716e54a66bb7cc3ca04f3c0e52b65415e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 4017353
+    Python: 22910
+- type: Git tree
+  status: captured
+  sha: 3c5776bc0e4bf56066a8d04f8d11671901c72387
+  truncated: false
+- type: source_file
+  path: source/main.c
+  blob_sha: bfdabbaf1d1082c673a88a1e7d8d4ca09af3d660
+  retrieved: true
+- type: source_file
+  path: lib/bootloader/spifi_boot.c
+  blob_sha: b88f5e29527d9e35a5957be40e2e3e3f6a782da7
+  retrieved: true
+- type: source_file
+  path: lib/bootloader/spifi_boot.h
+  blob_sha: c0bb432354dd87f53bcab6d408c795fb176f1330
+  retrieved: true
+- type: source_file
+  path: lib/FreeRTOS/FreeRTOS-Plus-Trace/config/trcConfig.h
+  blob_sha: 2c9ffa05804ab02ac2ed7769c124decf0c385687
+  retrieved: true

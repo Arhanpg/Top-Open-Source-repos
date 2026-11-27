@@ -1,0 +1,196 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T06:58:25+00:00'
+evidence_fingerprint: 2700d352b67acb5c8027ead675628e774c5b019bce0ed59b764a4d1e7d98466e
+repository_metadata:
+  company: Amazon
+  account: aws
+  full_name: aws/agentcore-cli
+  repository_id: 1142733186
+  url: https://github.com/aws/agentcore-cli
+  description: The terminal experience for AgentCore!
+  default_branch: v1.x
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T19:19:36Z'
+  stars: 337
+  readme_url: https://github.com/aws/agentcore-cli/blob/v1.x/README.md
+  readme_path: README.md
+  readme_sha: 59aaa8eb450144fadec78c4092f464c976ee2304
+  manifest_paths:
+  - Makefile
+  - package.json
+  - .github/harness/Dockerfile
+  - src/assets/cdk/package.json
+  - src/assets/evaluators/python-lambda/pyproject.toml
+  - src/assets/templates/a2a-python-strands/pyproject.toml
+  source_files_inspected:
+  - src/assets/templates/a2a-python-strands/main.py
+  - src/assets/templates/agent-python-langchain/main.py
+  - src/assets/templates/agent-python-minimal/main.py
+  - src/assets/templates/agent-python-strands/main.py
+  repository_tree:
+    status: captured
+    sha: 524f1241e72f25ee8d89156bc5497c7bac3939e3
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: agentcore is a command-line tool and interactive terminal UI (TUI) for **Amazon Bedrock AgentCore**,
+    the platform for building and running production AI agents (documentation).
+  why_used: The terminal experience for AgentCore!
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Python
+    - JavaScript
+    - Dockerfile
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-cdk/cloudformation-diff'
+    - '@aws-cdk/toolkit-lib'
+    - '@aws-sdk/client-application-signals'
+    - '@aws-sdk/client-bedrock-agent'
+    - '@aws-sdk/client-bedrock-agentcore'
+    - '@aws-sdk/client-bedrock-agentcore-control'
+    - '@aws-sdk/client-cloudformation'
+    - '@aws-sdk/client-cloudwatch-logs'
+    - '@aws-sdk/client-iam'
+    - '@aws-sdk/client-s3'
+    - '@aws-sdk/client-sts'
+    - '@aws-sdk/client-xray'
+    - '@aws-sdk/util-endpoints'
+    - '@aws/agent-inspector'
+    - '@aws/agentcore-cdk'
+    - '@napi-rs/keyring'
+    - '@opentelemetry/api'
+    - '@opentelemetry/exporter-metrics-otlp-http'
+    - '@opentelemetry/otlp-transformer'
+    - '@opentelemetry/resources'
+    - '@opentelemetry/sdk-metrics'
+    - '@secretlint/secretlint-rule-preset-recommend'
+    - '@smithy/core'
+    - '@tanstack/react-query'
+    - '@types/bun'
+    - '@types/cross-spawn'
+    - '@types/node'
+    - '@types/react'
+    - '@types/semver'
+    - '@types/ws'
+    - aws-cdk
+    - aws-cdk-lib
+    - bedrock-agentcore
+    - cli-truncate
+    - commander
+    - constructs
+    - cross-spawn
+    - handlebars
+    - husky
+    - ink
+    - ink-scroll-view
+    - ink-testing-library
+    - lint-staged
+    - lodash
+    - oxlint
+    - prettier
+    - react
+    - react-devtools-core
+    - react-router
+    - secretlint
+    - semver
+    - smol-toml
+    - string-width
+    - terminal-size
+    - typescript
+    - vitest
+    - winston
+    - winston-daily-rotate-file
+    - ws
+    - yaml
+    - zod
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/assets/templates/a2a-python-strands/main.py,
+    src/assets/templates/agent-python-langchain/main.py, src/assets/templates/agent-python-minimal/main.py, src/assets/templates/agent-python-strands/main.py'
+  setup_and_usage:
+  - 'Installation: You need Node.js 20.12 or later and AWS credentials configured as for the AWS CLI. Python templates'
+  - 'Installation: npm install -g @aws/agentcore'
+  - 'Installation: If the Python-based Bedrock AgentCore Starter Toolkit is installed, uninstall it: both provide
+    an'
+  - 'Quick Start: A project holds either kind of agent, or both:'
+  - 'Quick Start: - A **Harness** is a managed agent you configure in YAML — model, system prompt, tools, skills
+    — and'
+  - 'Quick Start: AgentCore runs for you.'
+  - 'Quick Start: - A **Runtime** is agent code you own, scaffolded from a template and deployed for you.'
+  - 'Quick Start: Create a project, add a Harness to it, deploy it, and send a prompt:'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws/agentcore-cli/blob/v1.x/README.md
+  path: README.md
+  blob_sha: 59aaa8eb450144fadec78c4092f464c976ee2304
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: d980aa3319e8340a6cef5f1eeec09e494dbaf333
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: de131fab0a5ed8dbe03ca73e10dd8c47c493379e
+  retrieved: true
+- type: manifest
+  path: .github/harness/Dockerfile
+  blob_sha: 74e498f5c015283e43696b1da71eeea6f199696c
+  retrieved: true
+- type: manifest
+  path: src/assets/cdk/package.json
+  blob_sha: 244b5d9c754790fcd81db265c42c4dfbbd30722c
+  retrieved: true
+- type: manifest
+  path: src/assets/evaluators/python-lambda/pyproject.toml
+  blob_sha: e5b86cfce362ee6c4785e529a87cab2b5c19e717
+  retrieved: true
+- type: manifest
+  path: src/assets/templates/a2a-python-strands/pyproject.toml
+  blob_sha: 98d340fbba2deb3eaf2dfeb0a77f10cd3e507242
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 6862166
+    Python: 134671
+    JavaScript: 10192
+    Dockerfile: 1380
+    Makefile: 617
+- type: Git tree
+  status: captured
+  sha: 524f1241e72f25ee8d89156bc5497c7bac3939e3
+  truncated: false
+- type: source_file
+  path: src/assets/templates/a2a-python-strands/main.py
+  blob_sha: 122bba38f2c9085f0d26c5272de52f6f84a7d523
+  retrieved: true
+- type: source_file
+  path: src/assets/templates/agent-python-langchain/main.py
+  blob_sha: b2b18c146564a1ba0a3730ebe5e76d13cbe89db8
+  retrieved: true
+- type: source_file
+  path: src/assets/templates/agent-python-minimal/main.py
+  blob_sha: 4bf4e2213784fedc6435b8242a47151042ca6e86
+  retrieved: true
+- type: source_file
+  path: src/assets/templates/agent-python-strands/main.py
+  blob_sha: ffd55b88ecd6fb01e486f3eae91a9a384d4587f8
+  retrieved: true

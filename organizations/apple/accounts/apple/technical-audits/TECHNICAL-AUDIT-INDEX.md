@@ -1,10 +1,10 @@
 # Technical audits — apple
 
-Updated: 2026-11-26T22:57:03+00:00
+Updated: 2026-11-27T07:24:08+00:00
 
 ## Status counts
 
-- evidence_only: 15
+- evidence_only: 19
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -17,6 +17,10 @@ Updated: 2026-11-26T22:57:03+00:00
 | app-store-server-library-swift-647516197 | evidence_only | [app-store-server-library-swift-647516197.md](app-store-server-library-swift-647516197.md) | [app-store-server-library-swift-647516197.yaml](app-store-server-library-swift-647516197.yaml) |
 | apple-ads-platform-api-java-1334323442 | evidence_only | [apple-ads-platform-api-java-1334323442.md](apple-ads-platform-api-java-1334323442.md) | [apple-ads-platform-api-java-1334323442.yaml](apple-ads-platform-api-java-1334323442.yaml) |
 | apple-ads-platform-api-node-1235836066 | evidence_only | [apple-ads-platform-api-node-1235836066.md](apple-ads-platform-api-node-1235836066.md) | [apple-ads-platform-api-node-1235836066.yaml](apple-ads-platform-api-node-1235836066.yaml) |
+| apple-ads-platform-api-python-1235836801 | evidence_only | [apple-ads-platform-api-python-1235836801.md](apple-ads-platform-api-python-1235836801.md) | [apple-ads-platform-api-python-1235836801.yaml](apple-ads-platform-api-python-1235836801.yaml) |
+| apple-ads-platform-api-swift-1309241569 | evidence_only | [apple-ads-platform-api-swift-1309241569.md](apple-ads-platform-api-swift-1309241569.md) | [apple-ads-platform-api-swift-1309241569.yaml](apple-ads-platform-api-swift-1309241569.yaml) |
+| apple-llvm-infrastructure-tools-196327850 | evidence_only | [apple-llvm-infrastructure-tools-196327850.md](apple-llvm-infrastructure-tools-196327850.md) | [apple-llvm-infrastructure-tools-196327850.yaml](apple-llvm-infrastructure-tools-196327850.yaml) |
+| apple-root-program-1161430788 | evidence_only | [apple-root-program-1161430788.md](apple-root-program-1161430788.md) | [apple-root-program-1161430788.yaml](apple-root-program-1161430788.yaml) |
 | audiounit-examples-550512036 | evidence_only | [audiounit-examples-550512036.md](audiounit-examples-550512036.md) | [audiounit-examples-550512036.yaml](audiounit-examples-550512036.yaml) |
 | audiounitsdk-373606198 | evidence_only | [audiounitsdk-373606198.md](audiounitsdk-373606198.md) | [audiounitsdk-373606198.yaml](audiounitsdk-373606198.yaml) |
 | fhirmodels-274484771 | evidence_only | [fhirmodels-274484771.md](fhirmodels-274484771.md) | [fhirmodels-274484771.yaml](fhirmodels-274484771.yaml) |

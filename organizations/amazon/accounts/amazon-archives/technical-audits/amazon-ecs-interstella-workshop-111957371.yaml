@@ -1,0 +1,147 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:11:37+00:00'
+evidence_fingerprint: c43077b1286642c7c229d465eb7154f90721858b6708e7833806467cdca2b0b3
+repository_metadata:
+  company: Amazon
+  account: amazon-archives
+  full_name: amazon-archives/amazon-ecs-interstella-workshop
+  repository_id: 111957371
+  url: https://github.com/amazon-archives/amazon-ecs-interstella-workshop
+  description: Amazon ECS Interstella Workshops CON209/318/319/407
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2020-01-30T20:21:18Z'
+  stars: 55
+  readme_url: https://github.com/amazon-archives/amazon-ecs-interstella-workshop/blob/master/README.md
+  readme_path: README.md
+  readme_sha: ef94d25a4cdc330f992a2b6a30fd6ad910f78b9c
+  manifest_paths:
+  - client/iridium/Dockerfile
+  - client/iridium/requirements.txt
+  - client/magnesite/Dockerfile
+  - client/magnesite/requirements.txt
+  - client/monolith/Dockerfile
+  - client/monolith/requirements.txt
+  source_files_inspected:
+  - server/admin/admin.py
+  - server/admin/cron.py
+  - server/lambdaFunctions/processInterstella8888Requests/processInterstella8888Requests.js
+  - admin/lambda/aggregator.py
+  repository_tree:
+    status: captured
+    sha: b1534e8e9aa58a82104dbf12737866d12edebce9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Welcome to the Interstella Intergalactic Trading Company team.
+  why_used: Amazon ECS Interstella Workshops CON209/318/319/407
+  core_features: []
+  technology_stack:
+    languages:
+    - HTML
+    - Python
+    - JavaScript
+    - Shell
+    - Scala
+    - CSS
+    frameworks_and_libraries: []
+    dependencies:
+    - Flask
+    - Jinja2
+    - MarkupSafe
+    - Werkzeug
+    - argparse
+    - boto3
+    - botocore
+    - certifi
+    - chardet
+    - click
+    - docutils
+    - futures
+    - idna
+    - itsdangerous
+    - jmespath
+    - python-dateutil
+    - requests
+    - s3transfer
+    - six
+    - urllib3
+    - wsgiref
+    build_and_package_tools:
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: server/admin/admin.py,
+    server/admin/cron.py, server/lambdaFunctions/processInterstella8888Requests/processInterstella8888Requests.js,
+    admin/lambda/aggregator.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-archives/amazon-ecs-interstella-workshop/blob/master/README.md
+  path: README.md
+  blob_sha: ef94d25a4cdc330f992a2b6a30fd6ad910f78b9c
+  retrieved: true
+- type: manifest
+  path: client/iridium/Dockerfile
+  blob_sha: 005696b66958f6346edad896b0686f34d9a18239
+  retrieved: true
+- type: manifest
+  path: client/iridium/requirements.txt
+  blob_sha: d16ea3432cf91c8f8504ed30c01f3879add3a1be
+  retrieved: true
+- type: manifest
+  path: client/magnesite/Dockerfile
+  blob_sha: 7bb4a344e3fae501de5c35c9954f98615a22479b
+  retrieved: true
+- type: manifest
+  path: client/magnesite/requirements.txt
+  blob_sha: d16ea3432cf91c8f8504ed30c01f3879add3a1be
+  retrieved: true
+- type: manifest
+  path: client/monolith/Dockerfile
+  blob_sha: 96db91d93c6820306f8d1d212943f9d1d5a76ca7
+  retrieved: true
+- type: manifest
+  path: client/monolith/requirements.txt
+  blob_sha: d16ea3432cf91c8f8504ed30c01f3879add3a1be
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    HTML: 317183
+    Python: 118705
+    JavaScript: 55958
+    Shell: 6380
+    Scala: 4535
+    CSS: 3999
+- type: Git tree
+  status: captured
+  sha: b1534e8e9aa58a82104dbf12737866d12edebce9
+  truncated: false
+- type: source_file
+  path: server/admin/admin.py
+  blob_sha: f5337f53dc870364ddfc1cf276419141de4b31e0
+  retrieved: true
+- type: source_file
+  path: server/admin/cron.py
+  blob_sha: a12990684db0b88ad22671386e861c8a99c85d0a
+  retrieved: true
+- type: source_file
+  path: server/lambdaFunctions/processInterstella8888Requests/processInterstella8888Requests.js
+  blob_sha: 807bec6e603aac981fda7a173aaa51c5c527384b
+  retrieved: true
+- type: source_file
+  path: admin/lambda/aggregator.py
+  blob_sha: ee088a83e1a1577cd76ba46eb60f357eabaa76ee
+  retrieved: true

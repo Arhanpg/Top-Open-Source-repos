@@ -1,10 +1,10 @@
 # Technical audits — tencent
 
-Updated: 2026-11-26T22:57:03+00:00
+Updated: 2026-11-27T07:24:10+00:00
 
 ## Status counts
 
-- evidence_only: 15
+- evidence_only: 18
 
 ## Repository dossiers
 
@@ -24,4 +24,7 @@ Updated: 2026-11-26T22:57:03+00:00
 | apex-sql-project-1241975714 | evidence_only | [apex-sql-project-1241975714.md](apex-sql-project-1241975714.md) | [apex-sql-project-1241975714.yaml](apex-sql-project-1241975714.yaml) |
 | biny-104989026 | evidence_only | [biny-104989026.md](biny-104989026.md) | [biny-104989026.yaml](biny-104989026.yaml) |
 | blazerml-tvm-464327715 | evidence_only | [blazerml-tvm-464327715.md](blazerml-tvm-464327715.md) | [blazerml-tvm-464327715.yaml](blazerml-tvm-464327715.yaml) |
+| blockfusion-813473905 | evidence_only | [blockfusion-813473905.md](blockfusion-813473905.md) | [blockfusion-813473905.yaml](blockfusion-813473905.yaml) |
+| bqlog-837543581 | evidence_only | [bqlog-837543581.md](bqlog-837543581.md) | [bqlog-837543581.yaml](bqlog-837543581.yaml) |
+| browserskill-1276665883 | evidence_only | [browserskill-1276665883.md](browserskill-1276665883.md) | [browserskill-1276665883.yaml](browserskill-1276665883.yaml) |
 | github-1010860903 | evidence_only | [github-1010860903.md](github-1010860903.md) | [github-1010860903.yaml](github-1010860903.yaml) |

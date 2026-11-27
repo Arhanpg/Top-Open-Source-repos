@@ -1,0 +1,98 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T06:59:36+00:00'
+evidence_fingerprint: 0779ea80d129ad257335d01cc9fea3edcfaa68742589016136132dc60fdfb2b2
+repository_metadata:
+  company: Amazon
+  account: aws-robotics
+  full_name: aws-robotics/cloudwatchmetrics-ros1
+  repository_id: 154743387
+  url: https://github.com/aws-robotics/cloudwatchmetrics-ros1
+  description: ROS packages for facilitating the use of AWS cloud services.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-02-08T21:41:48Z'
+  stars: 13
+  readme_url: https://github.com/aws-robotics/cloudwatchmetrics-ros1/blob/master/README.md
+  readme_path: README.md
+  readme_sha: f96b7638419bff914b3c3d7a813f9ad927e18209
+  manifest_paths:
+  - cloudwatch_metrics_collector/CMakeLists.txt
+  source_files_inspected:
+  - cloudwatch_metrics_collector/src/main.cpp
+  - cloudwatch_metrics_collector/src/metrics_collector.cpp
+  - cloudwatch_metrics_collector/src/metrics_collector_parameter_helper.cpp
+  - cloudwatch_metrics_collector/include/cloudwatch_metrics_collector/metrics_collector.hpp
+  repository_tree:
+    status: captured
+    sha: f676f594a14e2dbfa29cd262206ad9c9a36c3e51
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The cloudwatch_metrics_collector ROS Node publishes your robot's metrics to the cloud to enable you to
+    easily track the health of a fleet with the use of automated monitoring and actions for when a robot's metrics
+    show abnormalities. You can easily track historic trends and profile behavior such as resource usage. Out of
+    the box it provides a ROS interface to take a ROS message defining a metric and publish it to Amazon CloudWatch
+    Metrics. The only configuration required to get started is setting up AWS Credentials and Permissions for your
+    robot.The CloudWatch Metrics Node can be used with existing ROS Nodes that publish metric messages or with your
+    own nodes if you instrument them to publish your own custom metrics.
+  why_used: ROS packages for facilitating the use of AWS cloud services.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cloudwatch_metrics_collector/src/main.cpp,
+    cloudwatch_metrics_collector/src/metrics_collector.cpp, cloudwatch_metrics_collector/src/metrics_collector_parameter_helper.cpp,
+    cloudwatch_metrics_collector/include/cloudwatch_metrics_collector/metrics_collector.hpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-robotics/cloudwatchmetrics-ros1/blob/master/README.md
+  path: README.md
+  blob_sha: f96b7638419bff914b3c3d7a813f9ad927e18209
+  retrieved: true
+- type: manifest
+  path: cloudwatch_metrics_collector/CMakeLists.txt
+  blob_sha: b0bd2944b415089552670a268740c2bdb70b153c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 47547
+    CMake: 4543
+- type: Git tree
+  status: captured
+  sha: f676f594a14e2dbfa29cd262206ad9c9a36c3e51
+  truncated: false
+- type: source_file
+  path: cloudwatch_metrics_collector/src/main.cpp
+  blob_sha: e9063f76bcce4276acd8f423ddc310d8592e8571
+  retrieved: true
+- type: source_file
+  path: cloudwatch_metrics_collector/src/metrics_collector.cpp
+  blob_sha: 5babbd7a9aa47e995362ae8e9798bbac54dbc0d2
+  retrieved: true
+- type: source_file
+  path: cloudwatch_metrics_collector/src/metrics_collector_parameter_helper.cpp
+  blob_sha: 32471c05884f8c5fe7c5c98e1ce4d489454c5c0c
+  retrieved: true
+- type: source_file
+  path: cloudwatch_metrics_collector/include/cloudwatch_metrics_collector/metrics_collector.hpp
+  blob_sha: e242e07525ccce2337d5c08ba9e88614e7c61291
+  retrieved: true

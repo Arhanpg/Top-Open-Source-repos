@@ -1,0 +1,125 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:21:09+00:00'
+evidence_fingerprint: 0dc9182d2e780384e024e5128b34721ecfcc1be1661f3a1b01b96cd394a8657e
+repository_metadata:
+  company: Apple
+  account: swiftlang
+  full_name: swiftlang/swift-build
+  repository_id: 923737552
+  url: https://github.com/swiftlang/swift-build
+  description: A high-level build system based on llbuild, used by Xcode, Swift Playground, and the Swift Package
+    Manager
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T09:03:32Z'
+  stars: 2253
+  readme_url: https://github.com/swiftlang/swift-build/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 67fbbe578e00422f1c13944245544cf3d8579f42
+  manifest_paths:
+  - CMakeLists.txt
+  - Sources/CMakeLists.txt
+  - cmake/modules/CMakeLists.txt
+  - Sources/SWBAndroidPlatform/CMakeLists.txt
+  - Sources/SWBApplePlatform/CMakeLists.txt
+  - Sources/SWBBuildService/CMakeLists.txt
+  source_files_inspected:
+  - .devcontainer/init.sh
+  - .github/scripts/clone-swiftpm-deps.sh
+  - .github/scripts/format-check.sh
+  - .github/scripts/prebuild.sh
+  repository_tree:
+    status: captured
+    sha: b0453d0b343bb8406f20f62c21c532b7a68639fd
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Swift Build =======
+  why_used: A high-level build system based on llbuild, used by Xcode, Swift Playground, and the Swift Package Manager
+  core_features: []
+  technology_stack:
+    languages:
+    - Swift
+    - C++
+    - CMake
+    - C
+    - Shell
+    - Emacs Lisp
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .devcontainer/init.sh,
+    .github/scripts/clone-swiftpm-deps.sh, .github/scripts/format-check.sh, .github/scripts/prebuild.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/swiftlang/swift-build/blob/main/README.md
+  path: README.md
+  blob_sha: 67fbbe578e00422f1c13944245544cf3d8579f42
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: f8f1ec60929fa6d13d189c3ef2a75f8d12597441
+  retrieved: true
+- type: manifest
+  path: Sources/CMakeLists.txt
+  blob_sha: 7be9a7c418d1e9a24ec3d21a25df8f79f163809e
+  retrieved: true
+- type: manifest
+  path: cmake/modules/CMakeLists.txt
+  blob_sha: 1f05107b5a1801e6331a00b0ec1d6d3cef5cb985
+  retrieved: true
+- type: manifest
+  path: Sources/SWBAndroidPlatform/CMakeLists.txt
+  blob_sha: 72d8cd9b65237e1a2c89b34697dd33d7bf22d207
+  retrieved: true
+- type: manifest
+  path: Sources/SWBApplePlatform/CMakeLists.txt
+  blob_sha: 5769a07f988b67db67928bf7a477e6f61a168590
+  retrieved: true
+- type: manifest
+  path: Sources/SWBBuildService/CMakeLists.txt
+  blob_sha: 520b2e757264a8f009a6a16e57ea485315cb265a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Swift: 20918091
+    C++: 110298
+    CMake: 57781
+    C: 50998
+    Shell: 1656
+    Emacs Lisp: 719
+- type: Git tree
+  status: captured
+  sha: b0453d0b343bb8406f20f62c21c532b7a68639fd
+  truncated: false
+- type: source_file
+  path: .devcontainer/init.sh
+  blob_sha: 16243ada32649de2fe5f843b5c63623735c80634
+  retrieved: true
+- type: source_file
+  path: .github/scripts/clone-swiftpm-deps.sh
+  blob_sha: 3c8059e7baaaef69c0e0db10148a092a301f4d67
+  retrieved: true
+- type: source_file
+  path: .github/scripts/format-check.sh
+  blob_sha: 6c515276b2db1c1796905bc2ba6e9a581ed66568
+  retrieved: true
+- type: source_file
+  path: .github/scripts/prebuild.sh
+  blob_sha: d3040cbbdd5fe9247e09fc0f41c3858c0547a8b0
+  retrieved: true

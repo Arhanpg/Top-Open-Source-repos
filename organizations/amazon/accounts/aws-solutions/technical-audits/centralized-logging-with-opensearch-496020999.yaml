@@ -1,0 +1,221 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:13:29+00:00'
+evidence_fingerprint: dc9f0d38bcef1d34cfb7552867b9d423e0b0a5f9dadef2ce6e979bbe6e0a3b1c
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/centralized-logging-with-opensearch
+  repository_id: 496020999
+  url: https://github.com/aws-solutions/centralized-logging-with-opensearch
+  description: Build your own log analytics platform on OpenSearch in 20 minutes
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-10T17:14:00Z'
+  stars: 132
+  readme_url: https://github.com/aws-solutions/centralized-logging-with-opensearch/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 0d26e92b838e4667e5c83e5ab763fb1ce1592983
+  manifest_paths:
+  - deployment/cdk-solution-helper/package.json
+  - source/constructs/package.json
+  - source/portal/package.json
+  - deployment/ecr/clo-logging-syslog/Dockerfile
+  - deployment/ecr/clo-s3-list-objects/Dockerfile
+  - deployment/ecr/clo-s3-list-objects/pyproject.toml
+  source_files_inspected:
+  - source/portal/src/types/index.ts
+  - deployment/cdk-solution-helper/index.js
+  - source/constructs/lib/api/api-stack.ts
+  - source/constructs/lib/api/app-log-ingestion-flow.ts
+  repository_tree:
+    status: captured
+    sha: 4284e6144247d987027c9cde163af751677e9199
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Important: This AWS Solution will retire in December 2026. We encourage customers to explore using
+    [Amazon CloudWatch''s new unified data management and analytics capabilities](https://aws.amazon.com/blogs/aws/amazon-cloudwatch-introduces-unified-data-management-and-analytics-for-operations-security-and-compliance/).
+    Learn more about AWS CloudWatch unified data and telemetry and give it a try in the AWS CloudWatch console.**'
+  why_used: Build your own log analytics platform on OpenSearch in 20 minutes
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - TypeScript
+    - SCSS
+    - Shell
+    - Velocity Template Language
+    - JavaScript
+    - Dockerfile
+    - HTML
+    - Lua
+    frameworks_and_libraries: []
+    dependencies:
+    - '@apollo/client'
+    - '@aws-amplify/auth'
+    - '@aws-amplify/core'
+    - '@aws-amplify/ui-react'
+    - '@aws-cdk/aws-appsync-alpha'
+    - '@aws-cdk/aws-glue-alpha'
+    - '@aws-solutions-constructs/aws-cloudfront-oai-s3'
+    - '@aws-solutions-constructs/aws-cloudfront-s3'
+    - '@material-ui/core'
+    - '@material-ui/icons'
+    - '@material-ui/lab'
+    - '@reduxjs/toolkit'
+    - '@testing-library/jest-dom'
+    - '@testing-library/react'
+    - '@testing-library/react-hooks'
+    - '@types/jest'
+    - '@types/lodash.clonedeep'
+    - '@types/node'
+    - '@types/prettier'
+    - '@types/react'
+    - '@types/react-copy-to-clipboard'
+    - '@types/react-dom'
+    - '@types/react-router-dom'
+    - '@types/react-syntax-highlighter'
+    - '@types/redux-mock-store'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - ajv
+    - amplify
+    - apexcharts
+    - apollo-link
+    - aws-amplify
+    - aws-appsync-auth-link
+    - aws-appsync-subscription-link
+    - aws-cdk
+    - aws-cdk-lib
+    - axios
+    - boto3
+    - cdk-nag
+    - classnames
+    - constructs
+    - cross-env
+    - date-fns
+    - env-cmd
+    - eslint
+    - eslint-config-prettier
+    - eslint-config-react
+    - eslint-config-standard
+    - eslint-import-resolver-node
+    - eslint-import-resolver-typescript
+    - eslint-plugin-import
+    - eslint-plugin-node
+    - eslint-plugin-prettier
+    - eslint-plugin-promise
+    - eslint-plugin-react
+    - graphql
+    - graphql-tag
+    - i18next
+    - i18next-browser-languagedetector
+    - i18next-http-backend
+    - jest
+    - js-json-schema-inferrer
+    - lodash.clonedeep
+    - moment
+    - oidc-client-ts
+    - react
+    - react-apexcharts
+    - react-copy-to-clipboard
+    - react-dom
+    - react-i18next
+    - react-minimal-datetime-range
+    - react-oidc-context
+    - react-redux
+    - react-router-dom
+    - react-scripts
+    - react-syntax-highlighter
+    - redux
+    - redux-mock-store
+    - rimraf
+    - sass
+    - setuptools
+    - source-map-support
+    - ts-jest
+    - ts-node
+    - typescript
+    - urllib3
+    - web-vitals
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/portal/src/types/index.ts,
+    deployment/cdk-solution-helper/index.js, source/constructs/lib/api/api-stack.ts, source/constructs/lib/api/app-log-ingestion-flow.ts'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/centralized-logging-with-opensearch/blob/main/README.md
+  path: README.md
+  blob_sha: 0d26e92b838e4667e5c83e5ab763fb1ce1592983
+  retrieved: true
+- type: manifest
+  path: deployment/cdk-solution-helper/package.json
+  blob_sha: 3764e3ea34d4856f7769ef6dfa5c3d81ff4c2969
+  retrieved: true
+- type: manifest
+  path: source/constructs/package.json
+  blob_sha: ff94d262f4011428cc1420e66a15d1ca37be4408
+  retrieved: true
+- type: manifest
+  path: source/portal/package.json
+  blob_sha: 52310c93a86f4e101c1076cd4fc21d1286fe1bcc
+  retrieved: true
+- type: manifest
+  path: deployment/ecr/clo-logging-syslog/Dockerfile
+  blob_sha: b169151ac11d40ac4797b3f37a553bf96866f59d
+  retrieved: true
+- type: manifest
+  path: deployment/ecr/clo-s3-list-objects/Dockerfile
+  blob_sha: dd6dcb3c7513a70fbff0d5019c850218b885cc6d
+  retrieved: true
+- type: manifest
+  path: deployment/ecr/clo-s3-list-objects/pyproject.toml
+  blob_sha: 3458376b3f5624baa4139969c6e71f1191ee6ef5
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 6255054
+    TypeScript: 3831345
+    SCSS: 66635
+    Shell: 62608
+    Velocity Template Language: 44225
+    JavaScript: 6061
+    Dockerfile: 2216
+    HTML: 1624
+    Lua: 359
+- type: Git tree
+  status: captured
+  sha: 4284e6144247d987027c9cde163af751677e9199
+  truncated: false
+- type: source_file
+  path: source/portal/src/types/index.ts
+  blob_sha: 92f4bf92163a7a649d6f8cdaad7c644eba33f6f3
+  retrieved: true
+- type: source_file
+  path: deployment/cdk-solution-helper/index.js
+  blob_sha: 1fea3452dc5032286e67cad286a8cad506523e15
+  retrieved: true
+- type: source_file
+  path: source/constructs/lib/api/api-stack.ts
+  blob_sha: cbe861af97e65359538d5259a2b77e004bd3fd79
+  retrieved: true
+- type: source_file
+  path: source/constructs/lib/api/app-log-ingestion-flow.ts
+  blob_sha: d591b30208f45dac16998806927f51b9744a2824
+  retrieved: true

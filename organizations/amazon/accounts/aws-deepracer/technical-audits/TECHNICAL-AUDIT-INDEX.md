@@ -1,10 +1,10 @@
 # Technical audits — aws-deepracer
 
-Updated: 2026-11-26T22:57:02+00:00
+Updated: 2026-11-27T07:24:06+00:00
 
 ## Status counts
 
-- evidence_only: 17
+- evidence_only: 21
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -28,4 +28,8 @@ Updated: 2026-11-26T22:57:02+00:00
 | aws-deepracer-sensor-fusion-pkg-341984884 | evidence_only | [aws-deepracer-sensor-fusion-pkg-341984884.md](aws-deepracer-sensor-fusion-pkg-341984884.md) | [aws-deepracer-sensor-fusion-pkg-341984884.yaml](aws-deepracer-sensor-fusion-pkg-341984884.yaml) |
 | aws-deepracer-servo-pkg-341985240 | evidence_only | [aws-deepracer-servo-pkg-341985240.md](aws-deepracer-servo-pkg-341985240.md) | [aws-deepracer-servo-pkg-341985240.yaml](aws-deepracer-servo-pkg-341985240.yaml) |
 | aws-deepracer-status-led-pkg-341985526 | evidence_only | [aws-deepracer-status-led-pkg-341985526.md](aws-deepracer-status-led-pkg-341985526.md) | [aws-deepracer-status-led-pkg-341985526.yaml](aws-deepracer-status-led-pkg-341985526.yaml) |
+| aws-deepracer-systems-pkg-341982756 | evidence_only | [aws-deepracer-systems-pkg-341982756.md](aws-deepracer-systems-pkg-341982756.md) | [aws-deepracer-systems-pkg-341982756.yaml](aws-deepracer-systems-pkg-341982756.yaml) |
+| aws-deepracer-usb-monitor-pkg-341985728 | evidence_only | [aws-deepracer-usb-monitor-pkg-341985728.md](aws-deepracer-usb-monitor-pkg-341985728.md) | [aws-deepracer-usb-monitor-pkg-341985728.yaml](aws-deepracer-usb-monitor-pkg-341985728.yaml) |
+| aws-deepracer-webserver-pkg-341985928 | evidence_only | [aws-deepracer-webserver-pkg-341985928.md](aws-deepracer-webserver-pkg-341985928.md) | [aws-deepracer-webserver-pkg-341985928.yaml](aws-deepracer-webserver-pkg-341985928.yaml) |
+| deepracer-compat-reward-function-472958848 | evidence_only | [deepracer-compat-reward-function-472958848.md](deepracer-compat-reward-function-472958848.md) | [deepracer-compat-reward-function-472958848.yaml](deepracer-compat-reward-function-472958848.yaml) |
 | github-744758268 | insufficient_evidence | [github-744758268.md](github-744758268.md) | [github-744758268.yaml](github-744758268.yaml) |

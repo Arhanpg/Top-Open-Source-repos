@@ -1,0 +1,106 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:22:44+00:00'
+evidence_fingerprint: b0721ec18dc6b3a27bb8c0d17a042e61f8ae28abd28364e1db9194f182c9d6c1
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/paddlepaddle_backend
+  repository_id: 376158404
+  url: https://github.com/triton-inference-server/paddlepaddle_backend
+  description: null
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-02-09T03:30:38Z'
+  stars: 36
+  readme_url: https://github.com/triton-inference-server/paddlepaddle_backend/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 13c4f964bb9063f28d6e08dfb8c6b828a81d2536
+  manifest_paths:
+  - CMakeLists.txt
+  - Dockerfile
+  - paddle-lib/Dockerfile
+  source_files_inspected:
+  - src/paddle.cc
+  - src/paddle_backend_utils.cc
+  - src/paddle_backend_utils.h
+  - paddle-lib/build_paddle.sh
+  repository_tree:
+    status: captured
+    sha: b3fa3f6231c18e165ccc4e3e3931342648859000
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: README_en.md
+  why_used: README_en.md
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Shell
+    - Dockerfile
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/paddle.cc, src/paddle_backend_utils.cc,
+    src/paddle_backend_utils.h, paddle-lib/build_paddle.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/paddlepaddle_backend/blob/main/README.md
+  path: README.md
+  blob_sha: 13c4f964bb9063f28d6e08dfb8c6b828a81d2536
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 7d3a5fa8d60c57471a92c7483d2c3cade1bcd49d
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 02b50adcab7c900211072241319f739495f3c83e
+  retrieved: true
+- type: manifest
+  path: paddle-lib/Dockerfile
+  blob_sha: 03b38d362d289ba8c125a213fe9144e04a99ceee
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 62472
+    Shell: 6527
+    Dockerfile: 6135
+    CMake: 4185
+- type: Git tree
+  status: captured
+  sha: b3fa3f6231c18e165ccc4e3e3931342648859000
+  truncated: false
+- type: source_file
+  path: src/paddle.cc
+  blob_sha: 935acecec98bb90216f85f00d11321cd36c5ea45
+  retrieved: true
+- type: source_file
+  path: src/paddle_backend_utils.cc
+  blob_sha: 89576aa0ddb8a2e3c7470d9e958c1a107a2e53dd
+  retrieved: true
+- type: source_file
+  path: src/paddle_backend_utils.h
+  blob_sha: afc8946e5ef6f0c9d9877c0209cc475f0f3e197b
+  retrieved: true
+- type: source_file
+  path: paddle-lib/build_paddle.sh
+  blob_sha: f936a0077b986bae0c00e0d8ef1f8c9e18241656
+  retrieved: true

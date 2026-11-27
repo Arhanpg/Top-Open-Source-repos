@@ -1,0 +1,155 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:02:40+00:00'
+evidence_fingerprint: 4733607a1f46ed16cd5c0002b05b9d941bd943676824602acad9696e9e5279e9
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/data-inspector
+  repository_id: 1113210154
+  url: https://github.com/cap-js/data-inspector
+  description: A CDS plugin designed to help support users and developers securely inspect raw database content
+    in both local and production environments, ensuring compliance with security standards. It supports multiple
+    data sources—including database entities and services—providing direct, auditable access for troubleshooting
+    and analysis.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-16T17:45:14Z'
+  stars: 5
+  readme_url: https://github.com/cap-js/data-inspector/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e065c372c0c205e51f017836bde28d2bd34839f5
+  manifest_paths:
+  - package.json
+  - test/package.json
+  - app/data-inspector-ui/package.json
+  source_files_inspected:
+  - lib/configurators/index.ts
+  - app/data-inspector-ui/webapp/Component.js
+  - app/data-inspector-ui/webapp/controller/App.controller.js
+  - app/data-inspector-ui/webapp/controller/columnview.controller.js
+  repository_tree:
+    status: captured
+    sha: 9bb552748b81921924b0ec03ffb3aca3b62d5382
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '@cap-js/data-inspector is a plugin to **view data** of CAP Node.js applications. It comes with an SAPUI5
+    app consumable out of the box.'
+  why_used: A CDS plugin designed to help support users and developers securely inspect raw database content in
+    both local and production environments, ensuring compliance with security standards. It supports multiple data
+    sources—including database entities and services—providing direct, auditable access for troubleshooting and
+    analysis.
+  core_features:
+  - name: Exclude specific entities and elements from being exposed by the plugin. See Excluding Entities and Elements.
+    description: Exclude specific entities and elements from being exposed by the plugin. See Excluding Entities
+      and Elements.
+    evidence:
+    - README.md#Features
+  - name: Automatically log access to sensitive personal data using @cap-js/audit-logging. See Audit Logging.
+    description: Automatically log access to sensitive personal data using @cap-js/audit-logging. See Audit Logging.
+    evidence:
+    - README.md#Features
+  - name: Provide xsuaa scope for access control. See Authorization.
+    description: Provide xsuaa scope for access control. See Authorization.
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    - CAP CDS
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/audit-logging'
+    - '@cap-js/cds-test'
+    - '@cap-js/cds-typer'
+    - '@cap-js/cds-types'
+    - '@cap-js/data-inspector'
+    - '@cap-js/sqlite'
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - '@sap/ux-ui5-tooling'
+    - '@types/mocha'
+    - '@types/node'
+    - '@ui5/cli'
+    - c8
+    - chai
+    - cross-env
+    - eslint
+    - eslint-config-prettier
+    - mocha
+    - prettier
+    - rimraf
+    - ts-node
+    - tsx
+    - typescript
+    - typescript-eslint
+    - ui5-task-zipper
+    - yaml
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/configurators/index.ts,
+    app/data-inspector-ui/webapp/Component.js, app/data-inspector-ui/webapp/controller/App.controller.js, app/data-inspector-ui/webapp/controller/columnview.controller.js'
+  setup_and_usage:
+  - 'Installation: Install the plugin in your CAP Node.js project:'
+  - 'Installation: npm install @cap-js/data-inspector'
+  limitations:
+  - 'Security / Disclosure: If you find a bug that might be a security problem, follow the instructions in our security
+    policy to report it. Don''t create GitHub issues for security-related questions or problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/data-inspector/blob/main/README.md
+  path: README.md
+  blob_sha: e065c372c0c205e51f017836bde28d2bd34839f5
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: d282ab9ded9142537227a2ffca5fc168e8bd5aa4
+  retrieved: true
+- type: manifest
+  path: test/package.json
+  blob_sha: 46d5eddacb9be820bcca8cbac5a877cd2b23caae
+  retrieved: true
+- type: manifest
+  path: app/data-inspector-ui/package.json
+  blob_sha: 05e05748c35eda14878a4d4dc31062a3185ac886
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 236305
+    JavaScript: 40303
+    CAP CDS: 6248
+    HTML: 4213
+- type: Git tree
+  status: captured
+  sha: 9bb552748b81921924b0ec03ffb3aca3b62d5382
+  truncated: false
+- type: source_file
+  path: lib/configurators/index.ts
+  blob_sha: 15201eb7b72598796da410cbefcf5f3219cef22a
+  retrieved: true
+- type: source_file
+  path: app/data-inspector-ui/webapp/Component.js
+  blob_sha: ba689a18d1584d5360e42e822b885567d9def73f
+  retrieved: true
+- type: source_file
+  path: app/data-inspector-ui/webapp/controller/App.controller.js
+  blob_sha: 4ba1594f39b88b891098e9b2a08f0038300ced72
+  retrieved: true
+- type: source_file
+  path: app/data-inspector-ui/webapp/controller/columnview.controller.js
+  blob_sha: e240baced4694260b08c4370c3a642c6bb5b9802
+  retrieved: true

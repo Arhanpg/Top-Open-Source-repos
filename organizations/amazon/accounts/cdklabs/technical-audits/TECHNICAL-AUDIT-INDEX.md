@@ -1,10 +1,10 @@
 # Technical audits — cdklabs
 
-Updated: 2026-11-26T22:57:05+00:00
+Updated: 2026-11-27T07:24:05+00:00
 
 ## Status counts
 
-- evidence_only: 16
+- evidence_only: 20
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -27,4 +27,8 @@ Updated: 2026-11-26T22:57:05+00:00
 | awscdk-dynamodb-global-tables-521026136 | evidence_only | [awscdk-dynamodb-global-tables-521026136.md](awscdk-dynamodb-global-tables-521026136.md) | [awscdk-dynamodb-global-tables-521026136.yaml](awscdk-dynamodb-global-tables-521026136.yaml) |
 | awscdk-kubectl-go-539172071 | evidence_only | [awscdk-kubectl-go-539172071.md](awscdk-kubectl-go-539172071.md) | [awscdk-kubectl-go-539172071.yaml](awscdk-kubectl-go-539172071.yaml) |
 | awscdk-lambda-dotnet-724190214 | evidence_only | [awscdk-lambda-dotnet-724190214.md](awscdk-lambda-dotnet-724190214.md) | [awscdk-lambda-dotnet-724190214.yaml](awscdk-lambda-dotnet-724190214.yaml) |
+| awscdk-service-spec-593127616 | evidence_only | [awscdk-service-spec-593127616.md](awscdk-service-spec-593127616.md) | [awscdk-service-spec-593127616.yaml](awscdk-service-spec-593127616.yaml) |
+| awscdk-v1-stack-finder-503621347 | evidence_only | [awscdk-v1-stack-finder-503621347.md](awscdk-v1-stack-finder-503621347.md) | [awscdk-v1-stack-finder-503621347.yaml](awscdk-v1-stack-finder-503621347.yaml) |
+| cdk-amazon-chime-resources-455673299 | evidence_only | [cdk-amazon-chime-resources-455673299.md](cdk-amazon-chime-resources-455673299.md) | [cdk-amazon-chime-resources-455673299.yaml](cdk-amazon-chime-resources-455673299.yaml) |
+| cdk-amazonmq-820335257 | evidence_only | [cdk-amazonmq-820335257.md](cdk-amazonmq-820335257.md) | [cdk-amazonmq-820335257.yaml](cdk-amazonmq-820335257.yaml) |
 | github-744758625 | insufficient_evidence | [github-744758625.md](github-744758625.md) | [github-744758625.yaml](github-744758625.yaml) |

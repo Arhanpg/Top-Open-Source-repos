@@ -1,0 +1,149 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:21:25+00:00'
+evidence_fingerprint: e63e77b50d8ee34cb3d7da390c86789a0c58ecb198bb43a497c76f2dd662b682
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/Jprotobuf-rpc-socket
+  repository_id: 26525663
+  url: https://github.com/baidu/Jprotobuf-rpc-socket
+  description: Protobuf RPC是一种基于TCP协议的二进制RPC通信协议的Java实现
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-02-20T09:25:56Z'
+  stars: 532
+  readme_url: https://github.com/baidu/Jprotobuf-rpc-socket/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 58bb2eb10d4d2a722533f8a058ba4a5e4178c376
+  manifest_paths:
+  - pom.xml
+  - jprotobuf-rpc-core-spring-base/pom.xml
+  - jprotobuf-rpc-core-spring/pom.xml
+  - jprotobuf-rpc-core-spring2/pom.xml
+  - jprotobuf-rpc-core-test/pom.xml
+  - jprotobuf-rpc-core/pom.xml
+  source_files_inspected:
+  - jprotobuf-rpc-core-spring-base/src/main/java/com/baidu/jprotobuf/pbrpc/client/ha/HaProtobufRpcProxy.java
+  - jprotobuf-rpc-core-spring-base/src/main/java/com/baidu/jprotobuf/pbrpc/client/ha/lb/failover/DummySocketFailOverInterceptor.java
+  - jprotobuf-rpc-core-spring-base/src/main/java/com/baidu/jprotobuf/pbrpc/client/ha/lb/failover/FailOverEvent.java
+  - jprotobuf-rpc-core-spring-base/src/main/java/com/baidu/jprotobuf/pbrpc/client/ha/lb/failover/FailOverInterceptor.java
+  repository_tree:
+    status: captured
+    sha: a72b6b2905761f5ce257472ee5c29a2a2c827b14
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Jprotobuf-rpc-socket ====================
+  why_used: Protobuf RPC是一种基于TCP协议的二进制RPC通信协议的Java实现
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - asm
+    - cglib
+    - commons-pool2
+    - jedis
+    - jprotobuf
+    - jprotobuf-precompile-plugin
+    - jprotobuf-rpc-common
+    - jprotobuf-rpc-core
+    - jprotobuf-rpc-core-spring
+    - jprotobuf-rpc-core-spring-base
+    - jprotobuf-rpc-core-spring2
+    - jprotobuf-rpc-core-test
+    - jprotobuf-rpc-socket
+    - junit
+    - log4j-api
+    - log4j-core
+    - log4j-jcl
+    - log4j-slf4j-impl
+    - maven-compiler-plugin
+    - maven-gpg-plugin
+    - maven-javadoc-plugin
+    - maven-source-plugin
+    - netty-all
+    - oss-parent
+    - reactor-netty
+    - servlet-api
+    - slf4j-api
+    - snappy-java
+    - spring-aop
+    - spring-context
+    - spring-web
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: jprotobuf-rpc-core-spring-base/src/main/java/com/baidu/jprotobuf/pbrpc/client/ha/HaProtobufRpcProxy.java,
+    jprotobuf-rpc-core-spring-base/src/main/java/com/baidu/jprotobuf/pbrpc/client/ha/lb/failover/DummySocketFailOverInterceptor.java,
+    jprotobuf-rpc-core-spring-base/src/main/java/com/baidu/jprotobuf/pbrpc/client/ha/lb/failover/FailOverEvent.java,
+    jprotobuf-rpc-core-spring-base/src/main/java/com/baidu/jprotobuf/pbrpc/client/ha/lb/failover/FailOverInterceptor.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/Jprotobuf-rpc-socket/blob/master/README.md
+  path: README.md
+  blob_sha: 58bb2eb10d4d2a722533f8a058ba4a5e4178c376
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: ffd5a0e49569058f82ff557191ad9ac8d9579646
+  retrieved: true
+- type: manifest
+  path: jprotobuf-rpc-core-spring-base/pom.xml
+  blob_sha: b0cd6a70c94c82dbdad02819c671822c6e1f8d69
+  retrieved: true
+- type: manifest
+  path: jprotobuf-rpc-core-spring/pom.xml
+  blob_sha: 1bbdf0df2657666715b5061518cd0a4400eaacdf
+  retrieved: true
+- type: manifest
+  path: jprotobuf-rpc-core-spring2/pom.xml
+  blob_sha: ef35fd3f64698bec9606dee9e8a3cb83fc824708
+  retrieved: true
+- type: manifest
+  path: jprotobuf-rpc-core-test/pom.xml
+  blob_sha: 815e15fd9187544c37e63cafe996be80d6614eb9
+  retrieved: true
+- type: manifest
+  path: jprotobuf-rpc-core/pom.xml
+  blob_sha: 26b588cc513dd601236202212ce4e8236f192e3a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 923985
+    HTML: 273
+- type: Git tree
+  status: captured
+  sha: a72b6b2905761f5ce257472ee5c29a2a2c827b14
+  truncated: false
+- type: source_file
+  path: jprotobuf-rpc-core-spring-base/src/main/java/com/baidu/jprotobuf/pbrpc/client/ha/HaProtobufRpcProxy.java
+  blob_sha: 5a4b90775d42dd7e79fb3fa635f1eb642c1005e9
+  retrieved: true
+- type: source_file
+  path: jprotobuf-rpc-core-spring-base/src/main/java/com/baidu/jprotobuf/pbrpc/client/ha/lb/failover/DummySocketFailOverInterceptor.java
+  blob_sha: 4dfcf27e553d680e919f8b43d6491852043dabf8
+  retrieved: true
+- type: source_file
+  path: jprotobuf-rpc-core-spring-base/src/main/java/com/baidu/jprotobuf/pbrpc/client/ha/lb/failover/FailOverEvent.java
+  blob_sha: c8ca8d058995a358bba287b2578056207661f91d
+  retrieved: true
+- type: source_file
+  path: jprotobuf-rpc-core-spring-base/src/main/java/com/baidu/jprotobuf/pbrpc/client/ha/lb/failover/FailOverInterceptor.java
+  blob_sha: 0be5e4247c5f7d72abc411a39cc91b0f4406648d
+  retrieved: true

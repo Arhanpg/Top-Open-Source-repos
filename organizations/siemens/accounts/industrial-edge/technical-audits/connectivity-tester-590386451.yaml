@@ -1,0 +1,134 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:24:04+00:00'
+evidence_fingerprint: d425ef367196853d5d40509b46cbdb67b141c7ecb86e236bc6bb232a47111c8b
+repository_metadata:
+  company: Siemens
+  account: industrial-edge
+  full_name: industrial-edge/connectivity-tester
+  repository_id: 590386451
+  url: https://github.com/industrial-edge/connectivity-tester
+  description: 'Provide additional network diagnostic possibilities on your Industrial Edge Devices via an interactive
+    Web UI '
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-10-27T11:19:27Z'
+  stars: 11
+  readme_url: https://github.com/industrial-edge/connectivity-tester/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 636f8bc86037906ff125acc646c98ad90226d765
+  manifest_paths:
+  - src/backend_flask/requirements.txt
+  - src/frontend_react/package.json
+  source_files_inspected:
+  - src/backend_flask/app.py
+  - src/frontend_react/src/App.js
+  - src/frontend_react/src/index.js
+  - src/frontend_react/src/layout/Dialog.js
+  repository_tree:
+    status: captured
+    sha: 7c7428a1cdc46550d113eeca5af0adb98479cfd1
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Network diagnostic tool for Industrial Edge Devices.
+  why_used: Provide additional network diagnostic possibilities on your Industrial Edge Devices via an interactive
+    Web UI
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - Python
+    - HTML
+    - SCSS
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - '@emotion/react'
+    - '@emotion/styled'
+    - '@mui/icons-material'
+    - '@mui/lab'
+    - '@mui/material'
+    - Flask
+    - Jinja2
+    - MarkupSafe
+    - Werkzeug
+    - asyncua
+    - classnames
+    - click
+    - dnspython
+    - gunicorn
+    - itsdangerous
+    - node-sass
+    - ntplib
+    - ping3
+    - python-dotenv
+    - react
+    - react-dom
+    - react-router-dom
+    - react-scripts
+    - requests
+    - typescript
+    - validators
+    build_and_package_tools:
+    - npm-compatible manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/backend_flask/app.py,
+    src/frontend_react/src/App.js, src/frontend_react/src/index.js, src/frontend_react/src/layout/Dialog.js'
+  setup_and_usage:
+  - 'Installation: Please follow the installation instructions.'
+  - 'Usage: To use the app, click on the app icon on your Edge Device or go to https:// /conntest/. Use the navigation
+    bar on the top of the page to choose a tool and use the provided input dialogs to execute them.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/industrial-edge/connectivity-tester/blob/main/README.md
+  path: README.md
+  blob_sha: 636f8bc86037906ff125acc646c98ad90226d765
+  retrieved: true
+- type: manifest
+  path: src/backend_flask/requirements.txt
+  blob_sha: 91fd7db18e0fd0315382d89ba9ca56e25c765302
+  retrieved: true
+- type: manifest
+  path: src/frontend_react/package.json
+  blob_sha: 3febc9c5f2af2ba54cc8eaf1bec6975cf76ab350
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 27054
+    Python: 12847
+    HTML: 3105
+    SCSS: 1120
+    Shell: 30
+- type: Git tree
+  status: captured
+  sha: 7c7428a1cdc46550d113eeca5af0adb98479cfd1
+  truncated: false
+- type: source_file
+  path: src/backend_flask/app.py
+  blob_sha: bc6028959179ec186b523acfbfe0daede8fbdc1e
+  retrieved: true
+- type: source_file
+  path: src/frontend_react/src/App.js
+  blob_sha: 34d7554c98b8e7e19a140bc66af0f49be5cef147
+  retrieved: true
+- type: source_file
+  path: src/frontend_react/src/index.js
+  blob_sha: 34b8576f7ed7b2e15aa6b3212c290e4d3c2ce66b
+  retrieved: true
+- type: source_file
+  path: src/frontend_react/src/layout/Dialog.js
+  blob_sha: 327102012429c6196942fffa1170ef16ff96a5e8
+  retrieved: true

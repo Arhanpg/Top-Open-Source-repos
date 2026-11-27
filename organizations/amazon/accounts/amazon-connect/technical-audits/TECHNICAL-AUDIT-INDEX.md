@@ -1,10 +1,10 @@
 # Technical audits — amazon-connect
 
-Updated: 2026-11-26T22:57:04+00:00
+Updated: 2026-11-27T07:24:10+00:00
 
 ## Status counts
 
-- evidence_only: 19
+- evidence_only: 23
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -29,5 +29,9 @@ Updated: 2026-11-26T22:57:04+00:00
 | amazon-connect-in-app-calling-examples-778445982 | evidence_only | [amazon-connect-in-app-calling-examples-778445982.md](amazon-connect-in-app-calling-examples-778445982.md) | [amazon-connect-in-app-calling-examples-778445982.yaml](amazon-connect-in-app-calling-examples-778445982.yaml) |
 | amazon-connect-message-streaming-examples-421212826 | evidence_only | [amazon-connect-message-streaming-examples-421212826.md](amazon-connect-message-streaming-examples-421212826.md) | [amazon-connect-message-streaming-examples-421212826.yaml](amazon-connect-message-streaming-examples-421212826.yaml) |
 | amazon-connect-realtime-transcription-171378529 | evidence_only | [amazon-connect-realtime-transcription-171378529.md](amazon-connect-realtime-transcription-171378529.md) | [amazon-connect-realtime-transcription-171378529.yaml](amazon-connect-realtime-transcription-171378529.yaml) |
+| amazon-connect-salesforce-cti-302168441 | evidence_only | [amazon-connect-salesforce-cti-302168441.md](amazon-connect-salesforce-cti-302168441.md) | [amazon-connect-salesforce-cti-302168441.yaml](amazon-connect-salesforce-cti-302168441.yaml) |
+| amazon-connect-salesforce-lambda-274946774 | evidence_only | [amazon-connect-salesforce-lambda-274946774.md](amazon-connect-salesforce-lambda-274946774.md) | [amazon-connect-salesforce-lambda-274946774.yaml](amazon-connect-salesforce-lambda-274946774.yaml) |
+| amazon-connect-salesforce-scv-294499519 | evidence_only | [amazon-connect-salesforce-scv-294499519.md](amazon-connect-salesforce-scv-294499519.md) | [amazon-connect-salesforce-scv-294499519.yaml](amazon-connect-salesforce-scv-294499519.yaml) |
+| amazon-connect-snippets-243334432 | evidence_only | [amazon-connect-snippets-243334432.md](amazon-connect-snippets-243334432.md) | [amazon-connect-snippets-243334432.yaml](amazon-connect-snippets-243334432.yaml) |
 | amazonconnectsdk-692108977 | evidence_only | [amazonconnectsdk-692108977.md](amazonconnectsdk-692108977.md) | [amazonconnectsdk-692108977.yaml](amazonconnectsdk-692108977.yaml) |
 | github-204069760 | insufficient_evidence | [github-204069760.md](github-204069760.md) | [github-204069760.yaml](github-204069760.yaml) |

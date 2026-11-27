@@ -1,0 +1,161 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:15:37+00:00'
+evidence_fingerprint: e7a412723717e58701f84651b3c610e31c0651a1d34f264f527dd53979127fed
+repository_metadata:
+  company: NVIDIA
+  account: ai-dynamo
+  full_name: ai-dynamo/velo
+  repository_id: 1188360418
+  url: https://github.com/ai-dynamo/velo
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-22T15:39:33Z'
+  stars: 13
+  readme_url: https://github.com/ai-dynamo/velo/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a1ee1d7acb0f3170f71ad9494301b247947ed887
+  manifest_paths:
+  - Cargo.toml
+  - examples/Cargo.toml
+  - crates/ucx-rs/Cargo.toml
+  - lib/velo-ext/Cargo.toml
+  - lib/velo-hub-ext/Cargo.toml
+  - lib/velo-hub/Cargo.toml
+  source_files_inspected:
+  - crates/ucx-rs/src/lib.rs
+  - lib/velo-ext/src/lib.rs
+  - lib/velo-hub-ext/src/lib.rs
+  - lib/velo-hub/src/client/mod.rs
+  repository_tree:
+    status: captured
+    sha: e5a076e86b07883003e5457b8e65031e588a6c0e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'SPDX-FileCopyrightText: Copyright (c) 2025-2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    SPDX-License-Identifier: Apache-2.0 -->'
+  why_used: 'SPDX-FileCopyrightText: Copyright (c) 2025-2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    SPDX-License-Identifier: Apache-2.0 -->'
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - anyhow
+    - axum
+    - bindgen
+    - bytes
+    - clap
+    - crc32fast
+    - dashmap
+    - etcd-client
+    - flate2
+    - flume
+    - futures
+    - hdrhistogram
+    - http
+    - humantime
+    - parking_lot
+    - prometheus
+    - reqwest
+    - rmp-serde
+    - serde
+    - serde_bytes
+    - serde_json
+    - sha2
+    - socket2
+    - tar
+    - thiserror
+    - tokio
+    - tokio-util
+    - tracing
+    - tracing-subscriber
+    - uuid
+    - velo
+    - velo-ext
+    - velo-hub
+    - velo-hub-ext
+    - xxhash-rust
+    build_and_package_tools:
+    - Cargo manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: crates/ucx-rs/src/lib.rs,
+    lib/velo-ext/src/lib.rs, lib/velo-hub-ext/src/lib.rs, lib/velo-hub/src/client/mod.rs'
+  setup_and_usage:
+  - 'Quick start: cargo add serde --features derive'
+  - 'Quick start: cargo add tokio --features macros,rt-multi-thread'
+  - 'Quick start: use serde::{Deserialize, Serialize};'
+  - 'Quick start: use velo::transports::tcp::TcpTransportBuilder;'
+  - 'Quick start: use velo::{Handler, TypedContext, Velo};'
+  - 'Quick start: #[derive(Serialize, Deserialize)]'
+  - 'Quick start: struct AddRequest { a: i64, b: i64 }'
+  - 'Quick start: #[derive(Serialize, Deserialize)]'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/ai-dynamo/velo/blob/main/README.md
+  path: README.md
+  blob_sha: a1ee1d7acb0f3170f71ad9494301b247947ed887
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: cfd228c8eb4abfe655690ae3efbe1672cb8c7253
+  retrieved: true
+- type: manifest
+  path: examples/Cargo.toml
+  blob_sha: f872b8baff60401650af5806b3dcd2b3be767871
+  retrieved: true
+- type: manifest
+  path: crates/ucx-rs/Cargo.toml
+  blob_sha: fc451619ed3ad7b9f4760717c9f10c147a87f15f
+  retrieved: true
+- type: manifest
+  path: lib/velo-ext/Cargo.toml
+  blob_sha: 791380c16145f2ffea6fc9be6b06e6c01a1b8817
+  retrieved: true
+- type: manifest
+  path: lib/velo-hub-ext/Cargo.toml
+  blob_sha: 1890ebc81c6305248c943c3db9fa61292838ad37
+  retrieved: true
+- type: manifest
+  path: lib/velo-hub/Cargo.toml
+  blob_sha: ae935ab55392a751463d90e3c821f7136e4acd8e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 7422196
+    Shell: 51006
+- type: Git tree
+  status: captured
+  sha: e5a076e86b07883003e5457b8e65031e588a6c0e
+  truncated: false
+- type: source_file
+  path: crates/ucx-rs/src/lib.rs
+  blob_sha: 2e250bf2deb3fc916cd655b2d9114d3a346a108a
+  retrieved: true
+- type: source_file
+  path: lib/velo-ext/src/lib.rs
+  blob_sha: 66bbe41a4a72e0cd7e4eb3f9c075de24132271e3
+  retrieved: true
+- type: source_file
+  path: lib/velo-hub-ext/src/lib.rs
+  blob_sha: b78cfb78c69fef8b26c160482a443c072f6fab8a
+  retrieved: true
+- type: source_file
+  path: lib/velo-hub/src/client/mod.rs
+  blob_sha: 89d5e7aa1cf9976c77b6d8b57b704bbd04340314
+  retrieved: true

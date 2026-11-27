@@ -1,0 +1,136 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:01:13+00:00'
+evidence_fingerprint: d080fe108b5aa5a9fcfc041ca3093a5d5eb6cb6e476919b82146167370fa86e1
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/LiteKit
+  repository_id: 302509341
+  url: https://github.com/PaddlePaddle/LiteKit
+  description: Off-The-Shelf AI Development Kit for APP Developers based on Paddle Lite （『飞桨』移动端开箱即用AI套件, 包含Java
+    & Objective C接口支持）
+  default_branch: develop
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2021-06-25T09:30:21Z'
+  stars: 132
+  readme_url: https://github.com/PaddlePaddle/LiteKit/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: 25602e2c364b7f9207add782c900392536a603fa
+  manifest_paths:
+  - LiteKitCore/LiteKitCore/Android/build.gradle
+  - LiteKitCore/LiteKitCore/C++/CMakeLists.txt
+  - LiteKitCore/LiteKitCoreDemo/Android/build.gradle
+  - LiteKitDemo/Android/LiteKitDemo/build.gradle
+  - LiteKitCore/LiteKitCore/Android/litekitcore/build.gradle
+  - LiteKitCore/LiteKitCore/C++/build-ios/CMakeLists.txt
+  source_files_inspected:
+  - LiteKitCore/LiteKitCore/Android/litekitcore/src/main/cpp/include/common_log.h
+  - LiteKitCore/LiteKitCore/Android/litekitcore/src/main/cpp/include/litekit_inference_api.h
+  - LiteKitCore/LiteKitCore/Android/litekitcore/src/main/cpp/include/litekit_init.h
+  - LiteKitCore/LiteKitCore/Android/litekitcore/src/main/cpp/include/litekit_input.h
+  repository_tree:
+    status: captured
+    sha: d4c0aeb95460bdf003f84ccb3523986f271e4a9f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: LiteKit是基于端推理框架LiteKitCore和端推理引擎PaddleLite，面向移动端工程师的AI能力解决方案。 LiteKit旨在为客户端应用提供开箱即用的离线的AI能力，使产品快速的简单的接入AI能力，并将提供的AI能力应用于各种业务场景。
+  why_used: Off-The-Shelf AI Development Kit for APP Developers based on Paddle Lite （『飞桨』移动端开箱即用AI套件, 包含Java &
+    Objective C接口支持）
+  core_features: []
+  technology_stack:
+    languages:
+    - Objective-C
+    - C++
+    - Objective-C++
+    - Java
+    - C
+    - Python
+    - CMake
+    - Shell
+    - Swift
+    - Ruby
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle build file
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: LiteKitCore/LiteKitCore/Android/litekitcore/src/main/cpp/include/common_log.h,
+    LiteKitCore/LiteKitCore/Android/litekitcore/src/main/cpp/include/litekit_inference_api.h, LiteKitCore/LiteKitCore/Android/litekitcore/src/main/cpp/include/litekit_init.h,
+    LiteKitCore/LiteKitCore/Android/litekitcore/src/main/cpp/include/litekit_input.h'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/LiteKit/blob/develop/README.md
+  path: README.md
+  blob_sha: 25602e2c364b7f9207add782c900392536a603fa
+  retrieved: true
+- type: manifest
+  path: LiteKitCore/LiteKitCore/Android/build.gradle
+  blob_sha: 6754c23d52caabf45925ba403600949593949972
+  retrieved: true
+- type: manifest
+  path: LiteKitCore/LiteKitCore/C++/CMakeLists.txt
+  blob_sha: 4938cbb6da03162b37df63429a82156e6c08d6f9
+  retrieved: true
+- type: manifest
+  path: LiteKitCore/LiteKitCoreDemo/Android/build.gradle
+  blob_sha: 6754c23d52caabf45925ba403600949593949972
+  retrieved: true
+- type: manifest
+  path: LiteKitDemo/Android/LiteKitDemo/build.gradle
+  blob_sha: 5a96376655b9af8b5d12936f54c2eb28968d373c
+  retrieved: true
+- type: manifest
+  path: LiteKitCore/LiteKitCore/Android/litekitcore/build.gradle
+  blob_sha: 69b08a60679307136a4292238ae9af32c772d169
+  retrieved: true
+- type: manifest
+  path: LiteKitCore/LiteKitCore/C++/build-ios/CMakeLists.txt
+  blob_sha: cac3433df1cab968c8cbb75725c6e98ce070a9ba
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Objective-C: 269925
+    C++: 198403
+    Objective-C++: 129328
+    Java: 128923
+    C: 58271
+    Python: 19013
+    CMake: 16738
+    Shell: 9824
+    Swift: 1752
+    Ruby: 1074
+- type: Git tree
+  status: captured
+  sha: d4c0aeb95460bdf003f84ccb3523986f271e4a9f
+  truncated: false
+- type: source_file
+  path: LiteKitCore/LiteKitCore/Android/litekitcore/src/main/cpp/include/common_log.h
+  blob_sha: 25dda014a6e27d4e815e5189a192249459c00e17
+  retrieved: true
+- type: source_file
+  path: LiteKitCore/LiteKitCore/Android/litekitcore/src/main/cpp/include/litekit_inference_api.h
+  blob_sha: 643d7712ef7039900a4ccef9ecd8324f0791a688
+  retrieved: true
+- type: source_file
+  path: LiteKitCore/LiteKitCore/Android/litekitcore/src/main/cpp/include/litekit_init.h
+  blob_sha: a1dfdbd941fe1755fc0c09862840c2c3ab55434e
+  retrieved: true
+- type: source_file
+  path: LiteKitCore/LiteKitCore/Android/litekitcore/src/main/cpp/include/litekit_input.h
+  blob_sha: b7f8b7abaf9c5cc29427af84d67bc64aa22b7c27
+  retrieved: true

@@ -1,0 +1,157 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:12:49+00:00'
+evidence_fingerprint: 4aa30aa616bc9878313b4ed3ab849c28bbf04f6316c4f9ff8f32f207a55ec2d7
+repository_metadata:
+  company: Amazon
+  account: aws-ia
+  full_name: aws-ia/cfn-ps-amazon-selling-partner-api-reports-notifications
+  repository_id: 682304239
+  url: https://github.com/aws-ia/cfn-ps-amazon-selling-partner-api-reports-notifications
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-10-03T18:52:43Z'
+  stars: 1
+  readme_url: https://github.com/aws-ia/cfn-ps-amazon-selling-partner-api-reports-notifications/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2bd64d3d0bdce2ea92e5dff9bab06a20508b7d0b
+  manifest_paths:
+  - .project_automation/functional_tests/Dockerfile
+  - .project_automation/publication/Dockerfile
+  - .project_automation/static_tests/Dockerfile
+  - functions/source/NotificationsSubscriber/Dockerfile
+  - functions/source/NotificationsSubscriber/pom.xml
+  - functions/source/ReportCreator/Dockerfile
+  source_files_inspected:
+  - functions/source/NotificationsSubscriber/src/main/java/io/swagger/client/api/NotificationsApi.java
+  - functions/source/NotificationsSubscriber/src/main/java/io/swagger/client/ApiCallback.java
+  - functions/source/NotificationsSubscriber/src/main/java/io/swagger/client/ApiClient.java
+  - functions/source/NotificationsSubscriber/src/main/java/io/swagger/client/ApiException.java
+  repository_tree:
+    status: captured
+    sha: 0fbc8a79eb21bb5d1f6878cda4d5cbd88ed81b3e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ':x: This repository is subject to deprecation in Q4 2024. For more details, please review this announcement.'
+  why_used: ':x: This repository is subject to deprecation in Q4 2024. For more details, please review this announcement.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - HTML
+    - Shell
+    - Dockerfile
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - aws-encryption-sdk-java
+    - aws-java-sdk-dynamodb
+    - aws-lambda-java-core
+    - build-helper-maven-plugin
+    - gson
+    - gson-fire
+    - guava
+    - javax.annotation-api
+    - junit
+    - logging-interceptor
+    - lombok
+    - maven-compiler-plugin
+    - maven-dependency-plugin
+    - maven-enforcer-plugin
+    - maven-install-plugin
+    - maven-jar-plugin
+    - maven-javadoc-plugin
+    - maven-shade-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - notifications-subscriber
+    - okhttp
+    - secretsmanager
+    - sellingpartnerapi-aa-java
+    - slf4j-simple
+    - swagger-annotations
+    - threetenbp
+    build_and_package_tools:
+    - Docker build configuration
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: functions/source/NotificationsSubscriber/src/main/java/io/swagger/client/api/NotificationsApi.java,
+    functions/source/NotificationsSubscriber/src/main/java/io/swagger/client/ApiCallback.java, functions/source/NotificationsSubscriber/src/main/java/io/swagger/client/ApiClient.java,
+    functions/source/NotificationsSubscriber/src/main/java/io/swagger/client/ApiException.java'
+  setup_and_usage:
+  - 'quickstart-amazon-selling-partner-api-notifications Quick Start: For architectural details, step-by-step instructions,
+    and customization options, see the deployment guide.'
+  - 'quickstart-amazon-selling-partner-api-notifications Quick Start: To post feedback, submit feature ideas, or
+    report bugs, use the **Issues** section of this GitHub repo.'
+  - 'quickstart-amazon-selling-partner-api-notifications Quick Start: To submit code for this Quick Start, see the
+    AWS Quick Start Contributor''s Kit.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-ia/cfn-ps-amazon-selling-partner-api-reports-notifications/blob/main/README.md
+  path: README.md
+  blob_sha: 2bd64d3d0bdce2ea92e5dff9bab06a20508b7d0b
+  retrieved: true
+- type: manifest
+  path: .project_automation/functional_tests/Dockerfile
+  blob_sha: 6ed770737f66fce33a512b38308ad61bfd87e5dc
+  retrieved: true
+- type: manifest
+  path: .project_automation/publication/Dockerfile
+  blob_sha: 5294774881be1b9eb3680dd8d8e63b5575487172
+  retrieved: true
+- type: manifest
+  path: .project_automation/static_tests/Dockerfile
+  blob_sha: bf8f5df07afba4a616b18e473866c947266c7c92
+  retrieved: true
+- type: manifest
+  path: functions/source/NotificationsSubscriber/Dockerfile
+  blob_sha: fed2047a26f9a88fd7153a5d7acb0dea909df975
+  retrieved: true
+- type: manifest
+  path: functions/source/NotificationsSubscriber/pom.xml
+  blob_sha: 97392fbcab2b7141ee469eba02b7a0459b8806c8
+  retrieved: true
+- type: manifest
+  path: functions/source/ReportCreator/Dockerfile
+  blob_sha: fed2047a26f9a88fd7153a5d7acb0dea909df975
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 717702
+    HTML: 81683
+    Shell: 8007
+    Dockerfile: 2458
+    Python: 1978
+- type: Git tree
+  status: captured
+  sha: 0fbc8a79eb21bb5d1f6878cda4d5cbd88ed81b3e
+  truncated: false
+- type: source_file
+  path: functions/source/NotificationsSubscriber/src/main/java/io/swagger/client/api/NotificationsApi.java
+  blob_sha: a2e3039d1cf16cf547e0b8999bbeceb545f72406
+  retrieved: true
+- type: source_file
+  path: functions/source/NotificationsSubscriber/src/main/java/io/swagger/client/ApiCallback.java
+  blob_sha: 0750bf953293ea7d9c1d5902b5cfc1b98ecc4d8b
+  retrieved: true
+- type: source_file
+  path: functions/source/NotificationsSubscriber/src/main/java/io/swagger/client/ApiClient.java
+  blob_sha: dee95d20cd8b2d63f30e9d3fff620dbab8234ef0
+  retrieved: true
+- type: source_file
+  path: functions/source/NotificationsSubscriber/src/main/java/io/swagger/client/ApiException.java
+  blob_sha: ca1d888913db6a4510aae89efb4811466720130c
+  retrieved: true

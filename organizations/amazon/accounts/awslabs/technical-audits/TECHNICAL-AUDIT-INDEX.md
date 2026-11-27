@@ -1,10 +1,10 @@
 # Technical audits — awslabs
 
-Updated: 2026-11-26T22:57:02+00:00
+Updated: 2026-11-27T07:24:07+00:00
 
 ## Status counts
 
-- evidence_only: 12
+- evidence_only: 16
 
 ## Repository dossiers
 
@@ -21,4 +21,8 @@ Updated: 2026-11-26T22:57:02+00:00
 | defectdetectionapplication-1025286809 | evidence_only | [defectdetectionapplication-1025286809.md](defectdetectionapplication-1025286809.md) | [defectdetectionapplication-1025286809.yaml](defectdetectionapplication-1025286809.yaml) |
 | drs-settings-tool-905286602 | evidence_only | [drs-settings-tool-905286602.md](drs-settings-tool-905286602.md) | [drs-settings-tool-905286602.yaml](drs-settings-tool-905286602.yaml) |
 | eventwinnower-1199870788 | evidence_only | [eventwinnower-1199870788.md](eventwinnower-1199870788.md) | [eventwinnower-1199870788.yaml](eventwinnower-1199870788.yaml) |
+| fastthaig2p-1332692074 | evidence_only | [fastthaig2p-1332692074.md](fastthaig2p-1332692074.md) | [fastthaig2p-1332692074.yaml](fastthaig2p-1332692074.yaml) |
+| git-llm-pick-1013131524 | evidence_only | [git-llm-pick-1013131524.md](git-llm-pick-1013131524.md) | [git-llm-pick-1013131524.yaml](git-llm-pick-1013131524.yaml) |
 | github-171341712 | evidence_only | [github-171341712.md](github-171341712.md) | [github-171341712.yaml](github-171341712.yaml) |
+| hlat-848084888 | evidence_only | [hlat-848084888.md](hlat-848084888.md) | [hlat-848084888.yaml](hlat-848084888.yaml) |
+| hope-1396657565 | evidence_only | [hope-1396657565.md](hope-1396657565.md) | [hope-1396657565.yaml](hope-1396657565.yaml) |

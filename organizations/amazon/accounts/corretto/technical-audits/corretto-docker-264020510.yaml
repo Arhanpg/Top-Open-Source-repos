@@ -1,0 +1,142 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:14:01+00:00'
+evidence_fingerprint: e74aabf316fe94a26617f83b3738b577d891c6ca32b656141a69b78cfeb77367
+repository_metadata:
+  company: Amazon
+  account: corretto
+  full_name: corretto/corretto-docker
+  repository_id: 264020510
+  url: https://github.com/corretto/corretto-docker
+  description: 'Dockerfiles for Amazon Corretto Official images. '
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T01:40:59Z'
+  stars: 201
+  readme_url: https://github.com/corretto/corretto-docker/blob/main/README.md
+  readme_path: README.md
+  readme_sha: add77e1cc23ed5ea4e69404e22306b8feab87b5c
+  manifest_paths:
+  - 11/headful/al2023/Dockerfile
+  - 11/headful/al2027/Dockerfile
+  - 11/headless/al2/Dockerfile
+  - 11/headless/al2023/Dockerfile
+  - 11/headless/al2027/Dockerfile
+  - 11/jdk/al2-generic/Dockerfile
+  source_files_inspected:
+  - bin/apply-template.py
+  - bin/create-images.sh
+  - bin/tag-generator.py
+  - bin/test-image.sh
+  repository_tree:
+    status: captured
+    sha: 3e8587f5398df579c396f8cc6a1acd67124768c9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Master repository where Dockerfiles for Amazon Corretto are hosted. These docker files are used to build
+    images for Amazon Corretto Offical Images and ECR images.
+  why_used: Dockerfiles for Amazon Corretto Official images.
+  core_features: []
+  technology_stack:
+    languages:
+    - Dockerfile
+    - Shell
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: bin/apply-template.py,
+    bin/create-images.sh, bin/tag-generator.py, bin/test-image.sh'
+  setup_and_usage:
+  - 'Usage: The docker images are available on Amazon Corretto Official Images'
+  - 'Usage: To use Amazon Corretto Official Images from Docker hub run'
+  - 'Usage: docker pull amazoncorretto:17'
+  - 'Usage: The docker images are also available on **Amazon ECR**.'
+  - 'Usage: To get Corretto docker images from Amazon ECR please see Amazon Corretto''s ECR Public Gallery as well
+    as the Docker Official Images ECR Public Gallery'
+  - 'Usage: To use docker images from Corretto ECR Public Gallery run the following commands:'
+  - 'Usage: docker pull public.ecr.aws/amazoncorretto/amazoncorretto:17'
+  - 'Usage: docker run -it public.ecr.aws/amazoncorretto/amazoncorretto:17 /bin/bash'
+  limitations:
+  - 'Security: If you would like to report a potential security issue in this project, please do not create a GitHub
+    issue. Instead,'
+  - 'Security: please follow the instructions here or email'
+  - 'Security: AWS security directly.'
+  - 'Why does security scanner show that a docker image has a CVE?: If a security scanner reports that an amazoncorretto
+    image includes a CVE, the first recommended action is to pull an updated version of this image with docker pull
+    amazoncorretto: .'
+  - 'Why does security scanner show that a docker image has a CVE?: If no updated image is available, run the appropriate
+    command to update packages for the platform in your Dockerfiles or running systems to resolve the issue immediately.'
+  - 'Why does security scanner show that a docker image has a CVE?: * AmazonLinux 2023 (default images): dnf update
+    -y --security --releasever=latest'
+  - 'Why does security scanner show that a docker image has a CVE?: * AmazonLinux 2 and many other RPM based distrobutions:
+    yum update -y --security'
+  - 'Why does security scanner show that a docker image has a CVE?: * AlpineLinux: apk -U upgrade'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/corretto/corretto-docker/blob/main/README.md
+  path: README.md
+  blob_sha: add77e1cc23ed5ea4e69404e22306b8feab87b5c
+  retrieved: true
+- type: manifest
+  path: 11/headful/al2023/Dockerfile
+  blob_sha: b34f9a639d188fb1b9c04e729839f6c2b1dbd666
+  retrieved: true
+- type: manifest
+  path: 11/headful/al2027/Dockerfile
+  blob_sha: 453920b3047671a70e901d7de4f78d7d875b4ad8
+  retrieved: true
+- type: manifest
+  path: 11/headless/al2/Dockerfile
+  blob_sha: 0d5b01856b749501bb8936c1547ebe99315546b6
+  retrieved: true
+- type: manifest
+  path: 11/headless/al2023/Dockerfile
+  blob_sha: c5362bfc0dee77b8d77dd04e30002595abd99666
+  retrieved: true
+- type: manifest
+  path: 11/headless/al2027/Dockerfile
+  blob_sha: eae3b8e419bad520a719a2010cd21f283c053a1d
+  retrieved: true
+- type: manifest
+  path: 11/jdk/al2-generic/Dockerfile
+  blob_sha: 6eb7181a4becef45acf23e41f175782d82232345
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Dockerfile: 118844
+    Shell: 12355
+    Python: 10291
+- type: Git tree
+  status: captured
+  sha: 3e8587f5398df579c396f8cc6a1acd67124768c9
+  truncated: false
+- type: source_file
+  path: bin/apply-template.py
+  blob_sha: b22d55404017ee942feeeeb8b43f681b1b0cb8e6
+  retrieved: true
+- type: source_file
+  path: bin/create-images.sh
+  blob_sha: a592eee61e36cfa62d39097a8bc2990079046a9b
+  retrieved: true
+- type: source_file
+  path: bin/tag-generator.py
+  blob_sha: f01ff0ee60de2aa72cc5832344966105b5359ae5
+  retrieved: true
+- type: source_file
+  path: bin/test-image.sh
+  blob_sha: 70cea14638e0858f8a6a62f3020c6f5ea5c3eec9
+  retrieved: true

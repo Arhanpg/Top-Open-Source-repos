@@ -1,0 +1,95 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:20:04+00:00'
+evidence_fingerprint: 0f283a653fe7bcad20ffc69864bea7b718e77381862056d4ac08c0fa5816c1e3
+repository_metadata:
+  company: Amazon
+  account: aws-samples
+  full_name: aws-samples/Automated-Database-User-Management-Aurora-MySQL
+  repository_id: 831966718
+  url: https://github.com/aws-samples/Automated-Database-User-Management-Aurora-MySQL
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-09-02T07:42:40Z'
+  stars: 11
+  readme_url: https://github.com/aws-samples/Automated-Database-User-Management-Aurora-MySQL/blob/main/README.md
+  readme_path: README.md
+  readme_sha: bd4c302c2a73ac5eab64a045171469e152d6afd9
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - db_manager.py
+  - lambda_function.py
+  - secret_policy_manager.py
+  - secret_rotation_manager.py
+  repository_tree:
+    status: captured
+    sha: c01068b7b90ab246a2ec1ff267fc1d775c85402a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This project provides an AWS Lambda function to manage MySQL database users. The Lambda function can
+    be used to create, delete, update grants, or reset the password of a user. Additionally, it integrates with
+    AWS Secrets Manager for secret management. The function is designed to be triggered via an AWS Systems Manager
+    (SSM) Automation document.
+  why_used: This project provides an AWS Lambda function to manage MySQL database users. The Lambda function can
+    be used to create, delete, update grants, or reset the password of a user. Additionally, it integrates with
+    AWS Secrets Manager for secret management. The function is designed to be triggered via an AWS Systems Manager
+    (SSM) Automation document.
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies:
+    - pymysql
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: db_manager.py, lambda_function.py,
+    secret_policy_manager.py, secret_rotation_manager.py'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-samples/Automated-Database-User-Management-Aurora-MySQL/blob/main/README.md
+  path: README.md
+  blob_sha: bd4c302c2a73ac5eab64a045171469e152d6afd9
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: d4a7eda50c15f0aee13204710d37dad082cf95ef
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: c01068b7b90ab246a2ec1ff267fc1d775c85402a
+  truncated: false
+- type: source_file
+  path: db_manager.py
+  blob_sha: 8d0e9576990faf6957e27919caa49f206fb4d250
+  retrieved: true
+- type: source_file
+  path: lambda_function.py
+  blob_sha: 76a2e008b48a852d290cdc8dab827545c98f1459
+  retrieved: true
+- type: source_file
+  path: secret_policy_manager.py
+  blob_sha: 06400f64eb8152fb7cb5836896db10f5044671ec
+  retrieved: true
+- type: source_file
+  path: secret_rotation_manager.py
+  blob_sha: 4258c9a2b39485b1634793ef17b66b03e99acd49
+  retrieved: true

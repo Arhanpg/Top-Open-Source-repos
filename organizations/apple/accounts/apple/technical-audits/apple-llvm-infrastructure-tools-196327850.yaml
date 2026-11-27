@@ -1,0 +1,128 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:14:17+00:00'
+evidence_fingerprint: a1ad8a005ece945220e98689e3cc6c4f07d7ca62aa986f97e7b18e1d042282a1
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/apple-llvm-infrastructure-tools
+  repository_id: 196327850
+  url: https://github.com/apple/apple-llvm-infrastructure-tools
+  description: null
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-10-10T19:44:08Z'
+  stars: 50
+  readme_url: https://github.com/apple/apple-llvm-infrastructure-tools/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 39f88ba0df4563e428e1c9ab5944878969f4a62e
+  manifest_paths:
+  - Makefile
+  - setup.py
+  - docs/Makefile
+  - docs/requirements.txt
+  - src/Makefile
+  - test/Makefile
+  source_files_inspected:
+  - git_apple_llvm/am/main.py
+  - git_apple_llvm/pr/main.py
+  - src/bisect_first_match.h
+  - src/bump_allocator.h
+  repository_tree:
+    status: captured
+    sha: 08eb5328a34e552728f89db25535243f3786b3a4
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a collection of tools for maintaining LLVM-project&ndash;related infrastructure, including CI,
+    automerging, monorepo transition, and others.
+  why_used: This is a collection of tools for maintaining LLVM-project&ndash;related infrastructure, including CI,
+    automerging, monorepo transition, and others.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - Shell
+    - C
+    - Makefile
+    - Awk
+    frameworks_and_libraries: []
+    dependencies:
+    - recommonmark
+    - sphinx
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: git_apple_llvm/am/main.py,
+    git_apple_llvm/pr/main.py, src/bisect_first_match.h, src/bump_allocator.h'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/apple-llvm-infrastructure-tools/blob/main/README.md
+  path: README.md
+  blob_sha: 39f88ba0df4563e428e1c9ab5944878969f4a62e
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: cac4d3ff458a326f849d1d70fd1f7b5a1164d098
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 3bcda1e59fe37d0fad2206c65e76021e8457cab5
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: caca000dcd35edda6fd4c724cf42e959bd624d5c
+  retrieved: true
+- type: manifest
+  path: docs/requirements.txt
+  blob_sha: 085b3a792a7bbeb679c6b88fffac967b9decff91
+  retrieved: true
+- type: manifest
+  path: src/Makefile
+  blob_sha: 578cdfd8ac030414e3ff59aa77c938cb09ef1b44
+  retrieved: true
+- type: manifest
+  path: test/Makefile
+  blob_sha: bba9aa3cd736930dbce396a19991dc05e9e08aba
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 195601
+    Python: 175179
+    Shell: 111150
+    C: 15177
+    Makefile: 9723
+    Awk: 4859
+- type: Git tree
+  status: captured
+  sha: 08eb5328a34e552728f89db25535243f3786b3a4
+  truncated: false
+- type: source_file
+  path: git_apple_llvm/am/main.py
+  blob_sha: a4ddf37c0152725cf46360e20791f8a139397691
+  retrieved: true
+- type: source_file
+  path: git_apple_llvm/pr/main.py
+  blob_sha: c953ceb31f3614006b98f754215c310007dbf085
+  retrieved: true
+- type: source_file
+  path: src/bisect_first_match.h
+  blob_sha: 5eb48657b33fe0bb912b4fcb7944c1b4b86569cc
+  retrieved: true
+- type: source_file
+  path: src/bump_allocator.h
+  blob_sha: 3ce76e9902598945bc9aad303cb0bfbdc5b1ebdc
+  retrieved: true

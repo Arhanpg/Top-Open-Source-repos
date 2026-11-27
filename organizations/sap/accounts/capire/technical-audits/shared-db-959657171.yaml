@@ -1,0 +1,72 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:16:24+00:00'
+evidence_fingerprint: 7e327179ce8a9dd25071b88e7d9c508ecaabce0339c48820e608092044876e10
+repository_metadata:
+  company: SAP
+  account: capire
+  full_name: capire/shared-db
+  repository_id: 959657171
+  url: https://github.com/capire/shared-db
+  description: Used to deploy micro services with shared DB
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-31T15:47:41Z'
+  stars: 0
+  readme_url: https://github.com/capire/shared-db/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2e17362eefa85243f176c3d2a04894312f2242f5
+  manifest_paths:
+  - package.json
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: 7eb100593f283c3aeab2f16dc1f0726e3fb99bb9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Shows how a model can be shared across multiple apps that all rely on the same domain model. See the
+    Microservices with CAP guide for the general idea and background.
+  why_used: Used to deploy micro services with shared DB
+  core_features: []
+  technology_stack:
+    languages:
+    - CAP CDS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@capire/bookstore'
+    - '@capire/orders'
+    - '@capire/reviews'
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/capire/shared-db/blob/main/README.md
+  path: README.md
+  blob_sha: 2e17362eefa85243f176c3d2a04894312f2242f5
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 8361dca9481d21fec2b22c2f743bfcfcac37597e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    CAP CDS: 91
+- type: Git tree
+  status: captured
+  sha: 7eb100593f283c3aeab2f16dc1f0726e3fb99bb9
+  truncated: false

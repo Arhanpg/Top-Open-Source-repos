@@ -1,0 +1,158 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:09:29+00:00'
+evidence_fingerprint: 1d05c081a7ce23d9f925fe4b22048d82a05e22dfe335b2506f60f2a20e0175f2
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/data-privacy
+  repository_id: 1198538392
+  url: https://github.com/cap-js/data-privacy
+  description: SAP Cloud Application Programing Model (CAP) plugin for integrating into the SAP BTP Data Privacy
+    Integration service which helps implementing data privacy requirements, like data retention management to compliantly
+    delete personal data and personal data information retrieval for when users request their personal data.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-05T05:22:11Z'
+  stars: 1
+  readme_url: https://github.com/cap-js/data-privacy/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f643e9268f1e8918d3e24fd18ceeb48b915a1252
+  manifest_paths:
+  - package.json
+  - tests/bookshop-app/package.json
+  - tests/incidents-mgmt/package.json
+  - tests/information/extend-information-endpoint/package.json
+  - tests/retention/extend-retention-endpoint/package.json
+  - tests/bookshop-app/app/router/package.json
+  source_files_inspected:
+  - lib/csn-enhancements/index.js
+  - lib/csn-runtime-extensions/index.js
+  - lib/add/add.js
+  - lib/csn-enhancements/information/enhanceAnnotations.js
+  repository_tree:
+    status: captured
+    sha: 4ac3ff2ff1fb140b8405428810bfff1b395e87b8
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The @cap-js/data-privacy plugin provides an out of box integration for CAP based applications with the
+    SAP Data Privacy Integration (DPI) service.
+  why_used: SAP Cloud Application Programing Model (CAP) plugin for integrating into the SAP BTP Data Privacy Integration
+    service which helps implementing data privacy requirements, like data retention management to compliantly delete
+    personal data and personal data information retrieval for when users request their personal data.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    - Handlebars
+    - HTML
+    - Clean
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/audit-logging'
+    - '@cap-js/cds-test'
+    - '@cap-js/cds-types'
+    - '@cap-js/data-privacy'
+    - '@cap-js/hana'
+    - '@cap-js/sqlite'
+    - '@eslint/js'
+    - '@sap/ams'
+    - '@sap/ams-dev'
+    - '@sap/approuter'
+    - '@sap/cds'
+    - '@sap/cds-common-content'
+    - '@sap/cds-dk'
+    - '@sap/cds-lsp'
+    - '@sap/cds-mtxs'
+    - '@sap/ux-specification'
+    - '@sap/xsenv'
+    - '@sap/xssec'
+    - cds-launchpad-plugin
+    - cds-plugin-ui5
+    - eslint
+    - express
+    - jest
+    - passport
+    - patch-package
+    - path
+    - prettier
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/csn-enhancements/index.js,
+    lib/csn-runtime-extensions/index.js, lib/add/add.js, lib/csn-enhancements/information/enhanceAnnotations.js'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions in
+    our security policy on how to report it. Please do not create GitHub issues for security-related doubts or problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/data-privacy/blob/main/README.md
+  path: README.md
+  blob_sha: f643e9268f1e8918d3e24fd18ceeb48b915a1252
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: db2feb79af508789046607aabfc2312e2e888066
+  retrieved: true
+- type: manifest
+  path: tests/bookshop-app/package.json
+  blob_sha: 3d41028bbcc451750b72a7eda5d1d673b42c33a6
+  retrieved: true
+- type: manifest
+  path: tests/incidents-mgmt/package.json
+  blob_sha: 4671137274aa9e0618a0f76793e112fb132737e2
+  retrieved: true
+- type: manifest
+  path: tests/information/extend-information-endpoint/package.json
+  blob_sha: ae99d0c5085716a50ac8903615bf21d40e151b7f
+  retrieved: true
+- type: manifest
+  path: tests/retention/extend-retention-endpoint/package.json
+  blob_sha: 2db6d53c87beb527f5e3fb7b22cff09e8a5a190a
+  retrieved: true
+- type: manifest
+  path: tests/bookshop-app/app/router/package.json
+  blob_sha: a541c689a865ed7b9330f8a7d7772a5a93f12e8c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 436156
+    CAP CDS: 131869
+    Handlebars: 4258
+    HTML: 1099
+    Clean: 1051
+    TypeScript: 430
+- type: Git tree
+  status: captured
+  sha: 4ac3ff2ff1fb140b8405428810bfff1b395e87b8
+  truncated: false
+- type: source_file
+  path: lib/csn-enhancements/index.js
+  blob_sha: 420838201dcf15c79eed4963bad9e2c02ece79ad
+  retrieved: true
+- type: source_file
+  path: lib/csn-runtime-extensions/index.js
+  blob_sha: 8445ead1bd6e536f50fbe2ce1c070e4c4b50b06f
+  retrieved: true
+- type: source_file
+  path: lib/add/add.js
+  blob_sha: 5e745dcc6123281fba56f5eee231b313b022607d
+  retrieved: true
+- type: source_file
+  path: lib/csn-enhancements/information/enhanceAnnotations.js
+  blob_sha: 9ad4994f3863d80409c998c1225dd61cf10e5da2
+  retrieved: true

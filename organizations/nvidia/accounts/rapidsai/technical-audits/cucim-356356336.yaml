@@ -1,0 +1,130 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:09:13+00:00'
+evidence_fingerprint: 93e9c4b1438508ac693a453552f1290eae722b3775fe15442a407b2739c67081
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/cucim
+  repository_id: 356356336
+  url: https://github.com/rapidsai/cucim
+  description: NVIDIA cuCIM - GPU-accelerated image processing library
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T19:49:53Z'
+  stars: 475
+  readme_url: https://github.com/rapidsai/cucim/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 62c72f8374e8fb6b5f2e7df637263a87591b8680
+  manifest_paths:
+  - CMakeLists.txt
+  - benchmarks/CMakeLists.txt
+  - cpp/CMakeLists.txt
+  - docs/Makefile
+  - gds/CMakeLists.txt
+  - python/CMakeLists.txt
+  source_files_inspected:
+  - python/cucim/src/cucim/__main__.py
+  - python/cucim/src/cucim/clara/cli.py
+  - benchmarks/main.cpp
+  - cpp/plugins/cucim.kit.cumed/benchmarks/main.cpp
+  repository_tree:
+    status: captured
+    sha: 29e30a0573416f9fb2e4ca3c6e075ce7f48a5de5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: NVIDIA cuCIM (pronounced "koo-sim", see here) is an open-source, accelerated computer vision and image
+    processing software library for multidimensional images used in biomedical, geospatial, material and life science,
+    and remote sensing use cases.
+  why_used: NVIDIA cuCIM - GPU-accelerated image processing library
+  core_features: []
+  technology_stack:
+    languages:
+    - Jupyter Notebook
+    - Python
+    - C++
+    - C
+    - CMake
+    - Cuda
+    - Shell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: python/cucim/src/cucim/__main__.py,
+    python/cucim/src/cucim/clara/cli.py, benchmarks/main.cpp, cpp/plugins/cucim.kit.cumed/benchmarks/main.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/cucim/blob/main/README.md
+  path: README.md
+  blob_sha: 62c72f8374e8fb6b5f2e7df637263a87591b8680
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 1fd0758a6b86a24565eba214defb3bb23ec16f9b
+  retrieved: true
+- type: manifest
+  path: benchmarks/CMakeLists.txt
+  blob_sha: 628e720627208b7ab5140d74d366bd911cdd7187
+  retrieved: true
+- type: manifest
+  path: cpp/CMakeLists.txt
+  blob_sha: 5d85e7aeb95affbee366a99b5eac1df672eaf82a
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: ab142fa0020ba2bca1145a6ee76adb80f4a9b937
+  retrieved: true
+- type: manifest
+  path: gds/CMakeLists.txt
+  blob_sha: d81656cfa2a9ac5465e97992d9bf25bc771a033c
+  retrieved: true
+- type: manifest
+  path: python/CMakeLists.txt
+  blob_sha: 0e438ba23ee23ada75712e0b917ee7dbd8fba5ff
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Jupyter Notebook: 13668040
+    Python: 3609369
+    C++: 1064436
+    C: 170318
+    CMake: 156528
+    Cuda: 57891
+    Shell: 54540
+    Dockerfile: 62
+- type: Git tree
+  status: captured
+  sha: 29e30a0573416f9fb2e4ca3c6e075ce7f48a5de5
+  truncated: false
+- type: source_file
+  path: python/cucim/src/cucim/__main__.py
+  blob_sha: 9ee602fe6152d2f94b7b1befe76ad5ab8626ca52
+  retrieved: true
+- type: source_file
+  path: python/cucim/src/cucim/clara/cli.py
+  blob_sha: 329cc6b765a5ac3e23ac93a00c6989e4f53e5d3b
+  retrieved: true
+- type: source_file
+  path: benchmarks/main.cpp
+  blob_sha: 9b8780535385691e600894d1059d01f27d688a19
+  retrieved: true
+- type: source_file
+  path: cpp/plugins/cucim.kit.cumed/benchmarks/main.cpp
+  blob_sha: baf3ef15b4a30e13cc27ed1cd42c9478e22a780e
+  retrieved: true

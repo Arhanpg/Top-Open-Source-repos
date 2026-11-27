@@ -1,0 +1,97 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:04:40+00:00'
+evidence_fingerprint: d36d4a8e0049dd7f2e463cb2a98c1d13679c2f12694160209a1a855da80b992f
+repository_metadata:
+  company: Alphabet (Google)
+  account: GoogleCloudPlatform
+  full_name: GoogleCloudPlatform/Kbatch
+  repository_id: 219865624
+  url: https://github.com/GoogleCloudPlatform/Kbatch
+  description: Code name for Batch on GKE.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2020-05-08T00:36:35Z'
+  stars: 50
+  readme_url: https://github.com/GoogleCloudPlatform/Kbatch/blob/master/README.md
+  readme_path: README.md
+  readme_sha: d2e49517100a29b026685f40725fe52702b86d45
+  manifest_paths:
+  - samples/computepi/Dockerfile
+  - samples/GPUjob/Dockerfile
+  source_files_inspected:
+  - admintools/filestore/deploy_nfs_client_provisioner.sh
+  - admintools/monitoring/disable_metrics_export_to_sd.sh
+  - admintools/monitoring/setup_metrics_export_to_sd.sh
+  - admintools/users/add-user.sh
+  repository_tree:
+    status: captured
+    sha: b27a6375237949e8bf9975ff1264d6d34c8b9c2b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: High performance, high throughput and technical batch computing are all about scale and speed. Many applications,
+    such as drug discovery and genomics, financial services and image processing require access to a large and diverse
+    set of computing resources on demand. With more and faster computing power, you can convert an idea into a discovery,
+    a hypothesis into a cure or an inspiration into a product. Google Cloud provides customers with flexible, on-demand
+    access to large amounts of cutting edge high-performance resources with Compute Engine.
+  why_used: Code name for Batch on GKE.
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: admintools/filestore/deploy_nfs_client_provisioner.sh,
+    admintools/monitoring/disable_metrics_export_to_sd.sh, admintools/monitoring/setup_metrics_export_to_sd.sh,
+    admintools/users/add-user.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/GoogleCloudPlatform/Kbatch/blob/master/README.md
+  path: README.md
+  blob_sha: d2e49517100a29b026685f40725fe52702b86d45
+  retrieved: true
+- type: manifest
+  path: samples/computepi/Dockerfile
+  blob_sha: 7e6135a90c3c53f09a89f37a7296c6225f3e9026
+  retrieved: true
+- type: manifest
+  path: samples/GPUjob/Dockerfile
+  blob_sha: 7ce5a63cbaa2a9ea333f6c3b265cc8a1a36d5451
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: b27a6375237949e8bf9975ff1264d6d34c8b9c2b
+  truncated: false
+- type: source_file
+  path: admintools/filestore/deploy_nfs_client_provisioner.sh
+  blob_sha: c618743c6a077a76c2470c434d0af20f6bf26d48
+  retrieved: true
+- type: source_file
+  path: admintools/monitoring/disable_metrics_export_to_sd.sh
+  blob_sha: 296bbedb2575ace7b63bcd458fd7a7c408698878
+  retrieved: true
+- type: source_file
+  path: admintools/monitoring/setup_metrics_export_to_sd.sh
+  blob_sha: 67bf803a343fad11a39100469060acd698209fdb
+  retrieved: true
+- type: source_file
+  path: admintools/users/add-user.sh
+  blob_sha: 4c56d97f423544cd0927b15229ba619fec1f9362
+  retrieved: true

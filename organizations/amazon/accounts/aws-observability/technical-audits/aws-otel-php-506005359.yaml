@@ -1,0 +1,131 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:12:56+00:00'
+evidence_fingerprint: 4742b8cbd8a6104fae9b754dee2b135a00aca917071d072a2e7badb2bff55a94
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/aws-otel-php
+  repository_id: 506005359
+  url: https://github.com/aws-observability/aws-otel-php
+  description: AWS Distro for OpenTelemetry PHP
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-03-18T21:15:42Z'
+  stars: 18
+  readme_url: https://github.com/aws-observability/aws-otel-php/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5a6322cb2791820090fffad0bb560ef6ffbd872e
+  manifest_paths:
+  - composer.json
+  - SampleApp/composer.json
+  - SampleApp/Dockerfile
+  source_files_inspected:
+  - SampleApp/src/Controller/AwsSdkInstrumentationController.php
+  - SampleApp/src/Kernel.php
+  - SampleApp/config/bundles.php
+  - SampleApp/config/preload.php
+  repository_tree:
+    status: captured
+    sha: f5fcb69c4808f1ec803ff803aa423df2677b9bf4
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains documentation and sample apps for the AWS Distro for OpenTelemetry in PHP. It
+    provides the AWS service integrations for traces for the OpenTelemetry PHP library. The library can be configured
+    to support trace applications with the AWS X-Ray service.
+  why_used: AWS Distro for OpenTelemetry PHP
+  core_features: []
+  technology_stack:
+    languages:
+    - PHP
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - aws/aws-sdk-php
+    - aws/aws-sdk-php-symfony
+    - ext-ctype
+    - ext-grpc
+    - ext-iconv
+    - google/protobuf
+    - grpc/grpc
+    - monolog/monolog
+    - open-telemetry/api
+    - open-telemetry/contrib-aws
+    - open-telemetry/exporter-otlp
+    - open-telemetry/sdk
+    - open-telemetry/transport-grpc
+    - php-http/guzzle7-adapter
+    - php-http/message
+    - php-http/message-factory
+    - sensio/framework-extra-bundle
+    - symfony/console
+    - symfony/dotenv
+    - symfony/flex
+    - symfony/framework-bundle
+    - symfony/http-client
+    - symfony/runtime
+    - symfony/yaml
+    build_and_package_tools:
+    - Composer manifest
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: SampleApp/src/Controller/AwsSdkInstrumentationController.php,
+    SampleApp/src/Kernel.php, SampleApp/config/bundles.php, SampleApp/config/preload.php'
+  setup_and_usage:
+  - 'Getting Started: See the links below for information on getting started with ADOT PHP:'
+  - 'Getting Started: - ADOT PHP manual instrumentation'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/aws-otel-php/blob/main/README.md
+  path: README.md
+  blob_sha: 5a6322cb2791820090fffad0bb560ef6ffbd872e
+  retrieved: true
+- type: manifest
+  path: composer.json
+  blob_sha: 3736a59c2645b6298953fd03fcfc7f9a39a0ad47
+  retrieved: true
+- type: manifest
+  path: SampleApp/composer.json
+  blob_sha: 0495e463c19f5ade6ef7610ebbf31f6d7da46f95
+  retrieved: true
+- type: manifest
+  path: SampleApp/Dockerfile
+  blob_sha: 24c6d023fdf33c4d9f960f8d0725e041f5a42ec9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    PHP: 8782
+    Dockerfile: 632
+- type: Git tree
+  status: captured
+  sha: f5fcb69c4808f1ec803ff803aa423df2677b9bf4
+  truncated: false
+- type: source_file
+  path: SampleApp/src/Controller/AwsSdkInstrumentationController.php
+  blob_sha: 327cc4c45706db554f37aa728dec39fe3dc510c5
+  retrieved: true
+- type: source_file
+  path: SampleApp/src/Kernel.php
+  blob_sha: 779cd1f2b12e0d30731787539ba67645b73ef796
+  retrieved: true
+- type: source_file
+  path: SampleApp/config/bundles.php
+  blob_sha: bdb0e986dd1ba6a56211ef7427f2251708171072
+  retrieved: true
+- type: source_file
+  path: SampleApp/config/preload.php
+  blob_sha: 5ebcdb2153c870e7d915f3b3fcdd55821424284c
+  retrieved: true

@@ -1,0 +1,137 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:08:09+00:00'
+evidence_fingerprint: 816a9812ee811e341bbd9e9aa0cb47c37cb339b6a5f3c6b986ecb9aa9f1a49dd
+repository_metadata:
+  company: Baidu
+  account: xuperchain
+  full_name: xuperchain/wavm
+  repository_id: 192487176
+  url: https://github.com/xuperchain/wavm
+  description: A High Performance XuperChain WASM Virtual Machine based on WAVM
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2019-07-08T15:45:49Z'
+  stars: 23
+  readme_url: https://github.com/xuperchain/wavm/blob/master/README.md
+  readme_path: README.md
+  readme_sha: fc6c58af94ea59f3861bbe0ef24865e66d537ded
+  manifest_paths:
+  - go.mod
+  - Makefile
+  - WAVM/CMakeLists.txt
+  - WAVM/Dockerfile
+  - WAVM/Examples/CMakeLists.txt
+  - WAVM/Test/CMakeLists.txt
+  source_files_inspected:
+  - main.go
+  - WAVM/Lib/Emscripten/Emscripten.cpp
+  - WAVM/Lib/Emscripten/Interface.cpp
+  - WAVM/Lib/IR/DisassemblyNames.cpp
+  repository_tree:
+    status: captured
+    sha: 31119ca4080ec16866e3c594b836863b8333c116
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a XuperChain WASM Virtual Machine based on WAVM/WAVM, most of the changes compared to the original
+    repo are that we add gas metering to the wasm code and provide a golang wrapper. All the changes are not invasive
+    to the original WAVM.
+  why_used: A High Performance XuperChain WASM Virtual Machine based on WAVM
+  core_features: []
+  technology_stack:
+    languages:
+    - WebAssembly
+    - C++
+    - C
+    - CMake
+    - Assembly
+    - Shell
+    - Go
+    - Dockerfile
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/gogo/protobuf
+    - github.com/xuperchain/xuperunion
+    build_and_package_tools:
+    - CMake configuration
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: main.go, WAVM/Lib/Emscripten/Emscripten.cpp,
+    WAVM/Lib/Emscripten/Interface.cpp, WAVM/Lib/IR/DisassemblyNames.cpp'
+  setup_and_usage:
+  - 'Quick start: * LLVM 8.0.0 (recommended)'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/xuperchain/wavm/blob/master/README.md
+  path: README.md
+  blob_sha: fc6c58af94ea59f3861bbe0ef24865e66d537ded
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: fcb297da2e50c9b06b2aec215091ea5ef2157968
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 777da956e5e34f2ad8c711eef09d006dda709b48
+  retrieved: true
+- type: manifest
+  path: WAVM/CMakeLists.txt
+  blob_sha: 13725dfc079ee54f13fb79fc958e247c688cfc69
+  retrieved: true
+- type: manifest
+  path: WAVM/Dockerfile
+  blob_sha: 622be74219284307ca5fc9cd52e7b029b6c16c70
+  retrieved: true
+- type: manifest
+  path: WAVM/Examples/CMakeLists.txt
+  blob_sha: 39bed8379be14ffdf60fd82f1c24bdeacd0ee9b0
+  retrieved: true
+- type: manifest
+  path: WAVM/Test/CMakeLists.txt
+  blob_sha: 6ac7983ad2b151f46c65bd0e47b7e1f6fba4d7ea
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    WebAssembly: 9021630
+    C++: 1274334
+    C: 54398
+    CMake: 31095
+    Assembly: 10817
+    Shell: 9922
+    Go: 7149
+    Dockerfile: 532
+    Makefile: 517
+- type: Git tree
+  status: captured
+  sha: 31119ca4080ec16866e3c594b836863b8333c116
+  truncated: false
+- type: source_file
+  path: main.go
+  blob_sha: 5ce63f63b6b0cff776a84d72b18fc3a7549ab0a6
+  retrieved: true
+- type: source_file
+  path: WAVM/Lib/Emscripten/Emscripten.cpp
+  blob_sha: 79a98c09ad1d8dcd2b4d3eae25dfd085d727a872
+  retrieved: true
+- type: source_file
+  path: WAVM/Lib/Emscripten/Interface.cpp
+  blob_sha: 033e0d9aa6669899466937a76f30b375d2fca280
+  retrieved: true
+- type: source_file
+  path: WAVM/Lib/IR/DisassemblyNames.cpp
+  blob_sha: be3c25d04cd93800b0d1dcdef74adda3795ef10e
+  retrieved: true

@@ -1,0 +1,77 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T07:23:40+00:00'
+evidence_fingerprint: 5238f4ac4cc3b405ac1a75bf4a3807c266328c230c31023bb398152f67b5da36
+repository_metadata:
+  company: SAP
+  account: SAP-samples
+  full_name: SAP-samples/abap-platform-jak
+  repository_id: 172288111
+  url: https://github.com/SAP-samples/abap-platform-jak
+  description: The JSON ABAP Konverter
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-29T07:40:17Z'
+  stars: 17
+  readme_url: https://github.com/SAP-samples/abap-platform-jak/blob/main/README.md
+  readme_path: README.md
+  readme_sha: af3b12fafa4d13a7d589ae1c6db6b626d5c521fe
+  manifest_paths: []
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: 2e0f6ab0511117fe963bd6565cb976da1a5e60af
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Attention: This is sample code!**'
+  why_used: The JSON ABAP Konverter
+  core_features: []
+  technology_stack:
+    languages:
+    - ABAP
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage:
+  - 'Download and Installation: Use the abapGit plug-in to install the JSON ABAP Konverter by executing the following
+    steps:'
+  - 'Download and Installation: * In ADT create the package /DMO/JAK as a subpackage under /DMO/SAP (keep the defaulted
+    values)'
+  - 'Download and Installation: * In ADT click on Window > Show View > Other... and choose the entry abapGit Repositories
+    to open the abapGit view'
+  - 'Download and Installation: * Make sure to have the correct ABAP Cloud Project selected (See the little headline
+    in the abapGit view for the current project)'
+  - 'Download and Installation: * Click on the + icon to clone an abapGit repository'
+  - 'Download and Installation: * Provide the URL of this repository: https://github.com/SAP/abap-platform-jak.git'
+  - 'Download and Installation: * On the next page choose the master branch and provide the package /DMO/JAK'
+  - 'Download and Installation: * Provide a valid transport request and choose Finish. This starts the cloning of
+    the repository - which might take a few minutes'
+  limitations:
+  - 'Known Issues: As mentioned before, after cloning a abapGit repository some objects might not be active. Use
+    the mass activation feature in ADT to activate those artifacts.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP-samples/abap-platform-jak/blob/main/README.md
+  path: README.md
+  blob_sha: af3b12fafa4d13a7d589ae1c6db6b626d5c521fe
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    ABAP: 18962
+- type: Git tree
+  status: captured
+  sha: 2e0f6ab0511117fe963bd6565cb976da1a5e60af
+  truncated: false

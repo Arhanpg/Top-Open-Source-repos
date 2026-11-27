@@ -1,10 +1,10 @@
 # Technical audits — cap-js
 
-Updated: 2026-11-26T22:57:04+00:00
+Updated: 2026-11-27T07:24:07+00:00
 
 ## Status counts
 
-- evidence_only: 16
+- evidence_only: 20
 - manual_reviewed: 1
 
 ## Repository dossiers
@@ -27,4 +27,8 @@ Updated: 2026-11-26T22:57:04+00:00
 | cds-types-691588259 | evidence_only | [cds-types-691588259.md](cds-types-691588259.md) | [cds-types-691588259.yaml](cds-types-691588259.yaml) |
 | cf-setup-1031895632 | evidence_only | [cf-setup-1031895632.md](cf-setup-1031895632.md) | [cf-setup-1031895632.yaml](cf-setup-1031895632.yaml) |
 | change-tracking-608399564 | evidence_only | [change-tracking-608399564.md](change-tracking-608399564.md) | [change-tracking-608399564.yaml](change-tracking-608399564.yaml) |
+| data-inspector-1113210154 | evidence_only | [data-inspector-1113210154.md](data-inspector-1113210154.md) | [data-inspector-1113210154.yaml](data-inspector-1113210154.yaml) |
+| data-privacy-1198538392 | evidence_only | [data-privacy-1198538392.md](data-privacy-1198538392.md) | [data-privacy-1198538392.yaml](data-privacy-1198538392.yaml) |
+| event-broker-840520874 | evidence_only | [event-broker-840520874.md](event-broker-840520874.md) | [event-broker-840520874.yaml](event-broker-840520874.yaml) |
 | github-565835524 | evidence_only | [github-565835524.md](github-565835524.md) | [github-565835524.yaml](github-565835524.yaml) |
+| graphql-557382068 | evidence_only | [graphql-557382068.md](graphql-557382068.md) | [graphql-557382068.yaml](graphql-557382068.yaml) |

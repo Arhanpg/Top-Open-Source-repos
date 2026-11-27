@@ -1,0 +1,85 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T06:59:44+00:00'
+evidence_fingerprint: 3191efa3b2c02600bc487e1586fa6ea60cc36e9a14d9e8632aba112393613d40
+repository_metadata:
+  company: Amazon
+  account: aws-samples
+  full_name: aws-samples/Archiving-RDBMs-for-cost-reduction
+  repository_id: 911344703
+  url: https://github.com/aws-samples/Archiving-RDBMs-for-cost-reduction
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-01-02T20:02:02Z'
+  stars: 2
+  readme_url: https://github.com/aws-samples/Archiving-RDBMs-for-cost-reduction/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e6c752c9398b15d50cd21d754653a1141508c3b0
+  manifest_paths:
+  - Dockerfile
+  source_files_inspected:
+  - entrypoint.sh
+  - lambda_function.py
+  repository_tree:
+    status: captured
+    sha: 8a96d4ead0d1838d799bcecf60f7bf1169abccef
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Archiving RDBMS to S3 Glacier for cost reduction
+  why_used: Archiving RDBMS to S3 Glacier for cost reduction
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: entrypoint.sh, lambda_function.py'
+  setup_and_usage:
+  - 'Installation: Implementation steps - high level'
+  - 'Installation: To test this solution in your environment you will be required to follow these steps:'
+  - 'Installation: 1. Create an Amazon S3 Bucket to store your archives.'
+  - 'Installation: 2. Set an Amazon S3 Lifecycle policy on your Amazon S3 bucket so that your objects get moved
+    to lower, less expensive tiers automatically.'
+  - 'Installation: 3. Create an Elastic Container Registry (ECR) repository to save your container image.'
+  - 'Installation: 4. Create a Docker image with backup tools and push it to Amazon ECR.'
+  - 'Installation: 5. Deploy the CloudFormation template.'
+  - 'Installation: 6. Configure an EventBridge schedule to launch the AWS Lambda function.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-samples/Archiving-RDBMs-for-cost-reduction/blob/main/README.md
+  path: README.md
+  blob_sha: e6c752c9398b15d50cd21d754653a1141508c3b0
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 6fa9e3f51c20bca0ad06d099244666f5a52c1c14
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: 8a96d4ead0d1838d799bcecf60f7bf1169abccef
+  truncated: false
+- type: source_file
+  path: entrypoint.sh
+  blob_sha: 00eab80412173e4503d541388a8da41cbfb8e039
+  retrieved: true
+- type: source_file
+  path: lambda_function.py
+  blob_sha: 23a744e9678d41ba0fe85ac09e428ab706fd31e2
+  retrieved: true
