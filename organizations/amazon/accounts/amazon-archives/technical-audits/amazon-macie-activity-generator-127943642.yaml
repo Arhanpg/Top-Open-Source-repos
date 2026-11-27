@@ -1,0 +1,86 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:24:25+00:00'
+evidence_fingerprint: 3acec1d855a83e2866ec4e27b77aa9628104f0e285aef39b3268371c6a96aa21
+repository_metadata:
+  company: Amazon
+  account: amazon-archives
+  full_name: amazon-archives/amazon-macie-activity-generator
+  repository_id: 127943642
+  url: https://github.com/amazon-archives/amazon-macie-activity-generator
+  description: A platform to help security researchers develop and test machine learning-based security services
+    based on time-series data, with the ability to generate synthetic time-series, replay existing log time-series,
+    and inject noise and anomalies.
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2019-04-09T08:56:34Z'
+  stars: 17
+  readme_url: https://github.com/amazon-archives/amazon-macie-activity-generator/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 534f72c43b6330a9d9b434ddb4b66d057158b08f
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - src/main.py
+  repository_tree:
+    status: captured
+    sha: d96bb3a497781d80d9bd38792a77774ad784e78d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Anomaly detection systems** (i.e. Amazon Macie) often perform quantitative analytics over timeseries
+    derived from activities on their monitored subjects. While the core anomaly detection algorithms can be tested
+    in isolation using test vectors, testing and measuring end to end performance and accuracy of these systems
+    remain a challenge. **activity generator** aims to address at least a subset of these challenges via providing
+    a platform to facilitate **timeseries generation, noise addition, anomaly injection** and **execution on target
+    subjects** over an extended period of time. This platform offers generating synthetic timeseries as well as
+    replaying real timeseries gathered from monitoring subjects in the past.'
+  why_used: A platform to help security researchers develop and test machine learning-based security services based
+    on time-series data, with the ability to generate synthetic time-series, replay existing log time-series, and
+    inject noise and anomalies.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - faker
+    - numpy
+    - scipy
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/main.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-archives/amazon-macie-activity-generator/blob/master/README.md
+  path: README.md
+  blob_sha: 534f72c43b6330a9d9b434ddb4b66d057158b08f
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 062a04fe08a2f6148ab46731376caeb2a371c917
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 43776
+- type: Git tree
+  status: captured
+  sha: d96bb3a497781d80d9bd38792a77774ad784e78d
+  truncated: false
+- type: source_file
+  path: src/main.py
+  blob_sha: 5c17499da2a3ec45a5e07cffa36c11eaa2ee4bd6
+  retrieved: true

@@ -1,0 +1,90 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:21:13+00:00'
+evidence_fingerprint: eee30bac8cb0887e334ac8ba091cbca62083dc154cf8518ada4b16b7568cd531
+repository_metadata:
+  company: Microsoft
+  account: Azure
+  full_name: Azure/AI-Landing-Zones
+  repository_id: 954386495
+  url: https://github.com/Azure/AI-Landing-Zones
+  description: The AI Landing Zone is a secure, resilient and scalable reference architecture and reference implementation
+    in the form of bicep, terraform and portal
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T00:25:32Z'
+  stars: 358
+  readme_url: https://github.com/Azure/AI-Landing-Zones/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 8f6b686b6246dd548382b3097da8fcbbef5dd060
+  manifest_paths: []
+  source_files_inspected:
+  - main.py
+  - scripts/planner/collect_prices.py
+  - scripts/planner/published_prices.py
+  - scripts/planner/validate_catalog.py
+  repository_tree:
+    status: captured
+    sha: a975b908af5962fe0a97b89e6a37a9d048a83f26
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The AI Landing Zone provides an enterprise-scale production ready reference architecture with implementation
+    (Portal, Bicep & Terraform) to deploy secure and resilient AI Apps & Agents workloads in Azure. AI Landing Zones
+    includes an Agent Landing Zone and an AI Gateway Landing Zone. You can deploy them together or independently,
+    according to your organization's needs.
+  why_used: The AI Landing Zone is a secure, resilient and scalable reference architecture and reference implementation
+    in the form of bicep, terraform and portal
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - HTML
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: main.py, scripts/planner/collect_prices.py,
+    scripts/planner/published_prices.py, scripts/planner/validate_catalog.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Azure/AI-Landing-Zones/blob/main/README.md
+  path: README.md
+  blob_sha: 8f6b686b6246dd548382b3097da8fcbbef5dd060
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 149335
+    HTML: 2252
+- type: Git tree
+  status: captured
+  sha: a975b908af5962fe0a97b89e6a37a9d048a83f26
+  truncated: false
+- type: source_file
+  path: main.py
+  blob_sha: ee33d280ac83b1256aec8e71676d1f371cd4d710
+  retrieved: true
+- type: source_file
+  path: scripts/planner/collect_prices.py
+  blob_sha: 83435a44138a63d643909c1fa86aff6da9188b03
+  retrieved: true
+- type: source_file
+  path: scripts/planner/published_prices.py
+  blob_sha: df37f5260e715417893467b566bc9c50b92e7804
+  retrieved: true
+- type: source_file
+  path: scripts/planner/validate_catalog.py
+  blob_sha: ec2363fd6047ffb64e452b7ac74dcb48763313a5
+  retrieved: true

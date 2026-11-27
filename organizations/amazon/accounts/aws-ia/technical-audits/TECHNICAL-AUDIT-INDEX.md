@@ -1,10 +1,10 @@
 # Technical audits — aws-ia
 
-Updated: 2026-11-27T07:24:05+00:00
+Updated: 2026-11-27T22:44:05+00:00
 
 ## Status counts
 
-- evidence_only: 21
+- evidence_only: 25
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -32,4 +32,8 @@ Updated: 2026-11-27T07:24:05+00:00
 | cfn-ps-amazon-selling-partner-api-682185844 | evidence_only | [cfn-ps-amazon-selling-partner-api-682185844.md](cfn-ps-amazon-selling-partner-api-682185844.md) | [cfn-ps-amazon-selling-partner-api-682185844.yaml](cfn-ps-amazon-selling-partner-api-682185844.yaml) |
 | cfn-ps-amazon-selling-partner-api-reports-notifications-682304239 | evidence_only | [cfn-ps-amazon-selling-partner-api-reports-notifications-682304239.md](cfn-ps-amazon-selling-partner-api-reports-notifications-682304239.md) | [cfn-ps-amazon-selling-partner-api-reports-notifications-682304239.yaml](cfn-ps-amazon-selling-partner-api-reports-notifications-682304239.yaml) |
 | cfn-ps-amazon-vpc-traffic-mirroring-670793843 | evidence_only | [cfn-ps-amazon-vpc-traffic-mirroring-670793843.md](cfn-ps-amazon-vpc-traffic-mirroring-670793843.md) | [cfn-ps-amazon-vpc-traffic-mirroring-670793843.yaml](cfn-ps-amazon-vpc-traffic-mirroring-670793843.yaml) |
+| cfn-ps-ammos-smallsat-toolkit-682300697 | evidence_only | [cfn-ps-ammos-smallsat-toolkit-682300697.md](cfn-ps-ammos-smallsat-toolkit-682300697.md) | [cfn-ps-ammos-smallsat-toolkit-682300697.yaml](cfn-ps-ammos-smallsat-toolkit-682300697.yaml) |
+| cfn-ps-apache-rocketmq-682298038 | evidence_only | [cfn-ps-apache-rocketmq-682298038.md](cfn-ps-apache-rocketmq-682298038.md) | [cfn-ps-apache-rocketmq-682298038.yaml](cfn-ps-apache-rocketmq-682298038.yaml) |
+| cfn-ps-apache-superset-682662157 | evidence_only | [cfn-ps-apache-superset-682662157.md](cfn-ps-apache-superset-682662157.md) | [cfn-ps-apache-superset-682662157.yaml](cfn-ps-apache-superset-682662157.yaml) |
+| cfn-ps-autodesk-forge-670321918 | evidence_only | [cfn-ps-autodesk-forge-670321918.md](cfn-ps-autodesk-forge-670321918.md) | [cfn-ps-autodesk-forge-670321918.yaml](cfn-ps-autodesk-forge-670321918.yaml) |
 | github-411533239 | evidence_only | [github-411533239.md](github-411533239.md) | [github-411533239.yaml](github-411533239.yaml) |

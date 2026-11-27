@@ -1,0 +1,172 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:24:41+00:00'
+evidence_fingerprint: ddddeffc5ff471436475c641767bb30de1a693b148e29f992252e09f561147dc
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/CiteEval
+  repository_id: 1019161351
+  url: https://github.com/amazon-science/CiteEval
+  description: 'Official repository for CiteEval: Principle-Driven Citation Evaluation for Source Attribution'
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-01-22T20:41:05Z'
+  stars: 9
+  readme_url: https://github.com/amazon-science/CiteEval/blob/main/README.md
+  readme_path: README.md
+  readme_sha: aa8e16e2703725c386622fbc7e596df4264e2151
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - src/common_utils/eval_utils.py
+  - src/common_utils/logging_utils.py
+  - src/common_utils/rating_utils.py
+  repository_tree:
+    status: captured
+    sha: ffe80b46a684e3ebfb6135369274b4ddcdd85b3e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This repository releases the code and data for **CiteEval**:'
+  why_used: 'Official repository for CiteEval: Principle-Driven Citation Evaluation for Source Attribution'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - Jinja2
+    - MarkupSafe
+    - PyYAML
+    - Pygments
+    - accelerate
+    - annotated-types
+    - anyio
+    - asttokens
+    - certifi
+    - charset-normalizer
+    - click
+    - comm
+    - configobj
+    - decorator
+    - distro
+    - exceptiongroup
+    - executing
+    - filelock
+    - fsspec
+    - h11
+    - hf-xet
+    - httpcore
+    - httpx
+    - huggingface-hub
+    - idna
+    - ipython
+    - ipywidgets
+    - jedi
+    - joblib
+    - jupyterlab_widgets
+    - lightning-utilities
+    - matplotlib-inline
+    - mpmath
+    - networkx
+    - nltk
+    - numpy
+    - nvidia-cublas-cu12
+    - nvidia-cuda-cupti-cu12
+    - nvidia-cuda-nvrtc-cu12
+    - nvidia-cuda-runtime-cu12
+    - nvidia-cudnn-cu12
+    - nvidia-cufft-cu12
+    - nvidia-curand-cu12
+    - nvidia-cusolver-cu12
+    - nvidia-cusparse-cu12
+    - nvidia-cusparselt-cu12
+    - nvidia-nccl-cu12
+    - nvidia-nvjitlink-cu12
+    - nvidia-nvtx-cu12
+    - openai
+    - packaging
+    - parso
+    - pexpect
+    - prompt_toolkit
+    - psutil
+    - ptyprocess
+    - pure_eval
+    - pydantic
+    - pydantic_core
+    - regex
+    - requests
+    - safetensors
+    - scikit-learn
+    - scipy
+    - sentencepiece
+    - sniffio
+    - stack-data
+    - sympy
+    - threadpoolctl
+    - tokenizers
+    - torch
+    - torchmetrics
+    - tqdm
+    - traitlets
+    - transformers
+    - triton
+    - typing-inspection
+    - typing_extensions
+    - urllib3
+    - wcwidth
+    - widgetsnbextension
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/__init__.py, src/common_utils/eval_utils.py,
+    src/common_utils/logging_utils.py, src/common_utils/rating_utils.py'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/CiteEval/blob/main/README.md
+  path: README.md
+  blob_sha: aa8e16e2703725c386622fbc7e596df4264e2151
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 12a86333dc63ca823833c285640288042631a295
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 140503
+    Shell: 5201
+- type: Git tree
+  status: captured
+  sha: ffe80b46a684e3ebfb6135369274b4ddcdd85b3e
+  truncated: false
+- type: source_file
+  path: src/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: src/common_utils/eval_utils.py
+  blob_sha: e126b825753c5aebfc88ba3c32fb4aed42ec897c
+  retrieved: true
+- type: source_file
+  path: src/common_utils/logging_utils.py
+  blob_sha: f01f0726e9f1e8db56d055d3b758ed22defe2899
+  retrieved: true
+- type: source_file
+  path: src/common_utils/rating_utils.py
+  blob_sha: 44d0980322372e2863274ed299f5599a852d8e97
+  retrieved: true

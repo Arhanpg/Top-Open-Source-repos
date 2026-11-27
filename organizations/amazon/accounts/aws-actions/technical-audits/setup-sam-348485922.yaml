@@ -1,0 +1,90 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:18:23+00:00'
+evidence_fingerprint: bdc9f7e742de992dde65cbf10e690ab3ebbccf1e76a063f3a0a0a0a9b39e03ab
+repository_metadata:
+  company: Amazon
+  account: aws-actions
+  full_name: aws-actions/setup-sam
+  repository_id: 348485922
+  url: https://github.com/aws-actions/setup-sam
+  description: Action to set up AWS SAM CLI and add it to the PATH
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-11T23:52:21Z'
+  stars: 169
+  readme_url: https://github.com/aws-actions/setup-sam/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 75f7d304d75a9212a06997f4e85862568d86c951
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - index.js
+  - lib/setup.js
+  repository_tree:
+    status: captured
+    sha: 6c8364a282e2484f2ed2d48a69e308db08427a2f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Action to set up AWS SAM CLI and add it to the PATH.
+  why_used: Action to set up AWS SAM CLI and add it to the PATH
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/cache'
+    - '@actions/core'
+    - '@actions/exec'
+    - '@actions/http-client'
+    - '@actions/io'
+    - '@actions/tool-cache'
+    - '@vercel/ncc'
+    - eslint
+    - jest
+    - prettier
+    - semver
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: index.js, lib/setup.js'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING.md for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-actions/setup-sam/blob/main/README.md
+  path: README.md
+  blob_sha: 75f7d304d75a9212a06997f4e85862568d86c951
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: ed04c9017e7f1c2ad7ea73722c50308c00af4337
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 39231
+- type: Git tree
+  status: captured
+  sha: 6c8364a282e2484f2ed2d48a69e308db08427a2f
+  truncated: false
+- type: source_file
+  path: index.js
+  blob_sha: 55edb0081d9f7ad3d225495edadda9bd0f431b9b
+  retrieved: true
+- type: source_file
+  path: lib/setup.js
+  blob_sha: 745dfd14c314d7d9f60f42aa549eb880e15b5d2f
+  retrieved: true

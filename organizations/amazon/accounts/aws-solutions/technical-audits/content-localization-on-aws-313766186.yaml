@@ -1,0 +1,215 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:39:06+00:00'
+evidence_fingerprint: 8591d4012a2946cede9102e26ad572a6c76c6108b38786d37a5a2141c74aa150
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/content-localization-on-aws
+  repository_id: 313766186
+  url: https://github.com/aws-solutions/content-localization-on-aws
+  description: Automatically generate multi-language subtitles using AWS  AI/ML services. Machine generated subtitles
+    can be edited to improve accuracy and downstream tracks will automatically be regenerated based on the edits.
+    Built on Media Insights Engine (https://github.com/awslabs/aws-media-insights-engine)
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2025-08-29T16:24:40Z'
+  stars: 44
+  readme_url: https://github.com/aws-solutions/content-localization-on-aws/blob/main/README.md
+  readme_path: README.md
+  readme_sha: db2bd42823297de1ad8267264c314dc981274b7b
+  manifest_paths:
+  - source/anonymized-data-logger/requirements.txt
+  - source/consumer/requirements.txt
+  - source/helper/requirements.txt
+  - source/website/package.json
+  - test/e2e/requirements.txt
+  - test/unit/requirements.txt
+  source_files_inspected:
+  - source/website/src/store/index.js
+  - source/anonymized-data-logger/lib/cfnresponse.py
+  - source/anonymized-data-logger/lib/metrics.py
+  - source/website/src/main.js
+  repository_tree:
+    status: captured
+    sha: 2405c2d7566bd74045f3bb167cc1b19b6b52ad5a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Welcome to the Content Localization on AWS project! This project will help you extend the reach of your
+    VOD content by quickly and efficiently creating accurate multi-language subtitles using AWS AI Services. You
+    can make manual corrections to the automatically created subtitles and use advanced AWS AI Service customization
+    features to improve the results of the automation for your content domain. Content Localization is built on
+    Media Insights on AWS, a framework that helps accelerate the development of serverless applications that process
+    video, images, audio, and text with artificial intelligence services and multimedia services on AWS.
+  why_used: Automatically generate multi-language subtitles using AWS  AI/ML services. Machine generated subtitles
+    can be edited to improve accuracy and downstream tracks will automatically be regenerated based on the edits.
+    Built on Media Insights Engine (https://github.com/awslabs/aws-media-insights-engine)
+  core_features:
+  - name: Search for filenames containing the suffix ".mp4" with, *.mp4 or filename:*.mp4
+    description: Search for filenames containing the suffix ".mp4" with, *.mp4 or filename:*.mp4
+    evidence:
+    - 'README.md#Search Capabilities:'
+  - name: 'Since Content Moderation returns a "Violence" label when it detects violence in a video, you can search
+      for any video containing violence simply with: Violence'
+    description: 'Since Content Moderation returns a "Violence" label when it detects violence in a video, you can
+      search for any video containing violence simply with: Violence'
+    evidence:
+    - 'README.md#Search Capabilities:'
+  - name: 'Search for videos containing violence with a 80% confidence threshold: Violence AND Confidence:>80'
+    description: 'Search for videos containing violence with a 80% confidence threshold: Violence AND Confidence:>80'
+    evidence:
+    - 'README.md#Search Capabilities:'
+  - name: 'The previous queries may match videos whose transcript contains the word "Violence". You can restrict
+      your search to only Content Moderation results, like this:'
+    description: 'The previous queries may match videos whose transcript contains the word "Violence". You can restrict
+      your search to only Content Moderation results, like this: Operator:content_moderation AND (Name:Violence
+      AND Confidence:>80)'
+    evidence:
+    - 'README.md#Search Capabilities:'
+  - name: 'To search for Violence results in Content Moderation and guns or weapons identified by Label Detection,
+      try this: (Operator:content_moderation AND Name:Violence'
+    description: 'To search for Violence results in Content Moderation and guns or weapons identified by Label Detection,
+      try this: (Operator:content_moderation AND Name:Violence AND Confidence:>80) OR (Operator:label_detection
+      AND (Name:Gun OR Name:Weapon))'
+    evidence:
+    - 'README.md#Search Capabilities:'
+  - name: You can search for phrases in Comprehend results like this, PhraseText:"some deep water" AND Confidence:>80
+    description: You can search for phrases in Comprehend results like this, PhraseText:"some deep water" AND Confidence:>80
+    evidence:
+    - 'README.md#Search Capabilities:'
+  - name: To see the full set of attributes that you can search for, click the Analytics menu item and search for
+      "*" in the Discover tab of Kibana.
+    description: To see the full set of attributes that you can search for, click the Analytics menu item and search
+      for "*" in the Discover tab of Kibana.
+    evidence:
+    - 'README.md#Search Capabilities:'
+  technology_stack:
+    languages:
+    - Vue
+    - Python
+    - Shell
+    - JavaScript
+    - CSS
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@eslint/eslintrc'
+    - '@vitejs/plugin-vue'
+    - '@vue/compat'
+    - '@vue/compiler-sfc'
+    - aws-amplify
+    - aws-amplify-vue
+    - axios
+    - bootstrap
+    - bootstrap-vue
+    - boto3
+    - botocore
+    - chart.js
+    - diff
+    - dropzone
+    - elasticsearch
+    - eslint
+    - eslint-plugin-vue
+    - jquery
+    - jwt-decode
+    - latest-version
+    - lodash
+    - number-to-words
+    - pytest
+    - pytest-cov
+    - requests
+    - requests-aws4auth
+    - selenium
+    - unplugin-vue-components
+    - urllib3
+    - video.js
+    - videojs-flash
+    - videojs-hotkeys
+    - videojs-markers
+    - vite
+    - vue
+    - vue-highlightjs
+    - vue-router
+    - vuex
+    - vuex-persistedstate
+    - wavesurfer.js
+    - webdriver-manager
+    - webpack-subresource-integrity
+    build_and_package_tools:
+    - npm-compatible manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/website/src/store/index.js,
+    source/anonymized-data-logger/lib/cfnresponse.py, source/anonymized-data-logger/lib/metrics.py, source/website/src/main.js'
+  setup_and_usage: []
+  limitations:
+  - 'Known Issues: Visit the Issue page in this repository for known issues and feature requests.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/content-localization-on-aws/blob/main/README.md
+  path: README.md
+  blob_sha: db2bd42823297de1ad8267264c314dc981274b7b
+  retrieved: true
+- type: manifest
+  path: source/anonymized-data-logger/requirements.txt
+  blob_sha: 450f9508d264c93ef02ecbf8e9ba47dd77cdd94a
+  retrieved: true
+- type: manifest
+  path: source/consumer/requirements.txt
+  blob_sha: d49f470cae8ae244d5e15ae3cc9a154900dae43d
+  retrieved: true
+- type: manifest
+  path: source/helper/requirements.txt
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: manifest
+  path: source/website/package.json
+  blob_sha: c1ff2b5f1008f00a3d80c8ddeaba19ae52a4028b
+  retrieved: true
+- type: manifest
+  path: test/e2e/requirements.txt
+  blob_sha: 00c710803d1c56f607a009a65f12df26c5417b00
+  retrieved: true
+- type: manifest
+  path: test/unit/requirements.txt
+  blob_sha: 6be0c88ca70dcb25111cae366abf60d340ab8bf4
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Vue: 372851
+    Python: 147004
+    Shell: 33904
+    JavaScript: 8850
+    CSS: 2653
+    HTML: 724
+- type: Git tree
+  status: captured
+  sha: 2405c2d7566bd74045f3bb167cc1b19b6b52ad5a
+  truncated: false
+- type: source_file
+  path: source/website/src/store/index.js
+  blob_sha: 7f203ea35f01b84650a629c731c9776cf17de63d
+  retrieved: true
+- type: source_file
+  path: source/anonymized-data-logger/lib/cfnresponse.py
+  blob_sha: 1759f0fcf2ef8eb0016bf055e6c705f4fed640b2
+  retrieved: true
+- type: source_file
+  path: source/anonymized-data-logger/lib/metrics.py
+  blob_sha: abd43573be23a1b6aef0d6dbf6725f5c4e1951fd
+  retrieved: true
+- type: source_file
+  path: source/website/src/main.js
+  blob_sha: 9255e5203064212be565f36914510577d142e9fa
+  retrieved: true

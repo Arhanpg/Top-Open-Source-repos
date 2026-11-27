@@ -1,0 +1,197 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:32:58+00:00'
+evidence_fingerprint: b9f2d3fc48908e3f9bf0d4763c117100b47fcd249da3e7884dc17370a2aceeaf
+repository_metadata:
+  company: Amazon
+  account: awslabs
+  full_name: awslabs/InfraForge
+  repository_id: 1054250313
+  url: https://github.com/awslabs/InfraForge
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-22T03:43:11Z'
+  stars: 14
+  readme_url: https://github.com/awslabs/InfraForge/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 67be30a4e4c314015e575c4931b8ee167f1724e3
+  manifest_paths:
+  - go.mod
+  - tools/eks-gpu-benchmark/Dockerfile
+  - tools/mcp/go.mod
+  - forges/aws/lambda/Dockerfile
+  source_files_inspected:
+  - cmd/ami-lookup/main.go
+  - cmd/infraforge/main.go
+  - cmd/infraforge/bootstrap.sh
+  - cmd/infraforge/deploy.sh
+  repository_tree:
+    status: captured
+    sha: 033f4ad947b5652923174fa34a7fe604d2556a94
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: English | 中文
+  why_used: English | 中文
+  core_features:
+  - name: '**Modular Architecture:** Infrastructure components are organized as "forges" that can be composed together'
+    description: '**Modular Architecture:** Infrastructure components are organized as "forges" that can be composed
+      together'
+    evidence:
+    - README.md#Key Features
+  - name: '**Configuration-Driven:** Infrastructure defined through JSON configuration files'
+    description: '**Configuration-Driven:** Infrastructure defined through JSON configuration files'
+    evidence:
+    - README.md#Key Features
+  - name: '**Multi-Resource Support:** Supports various AWS services including DS, EC2, ECS, EKS, EFS, FSx Lustre,
+      and more'
+    description: '**Multi-Resource Support:** Supports various AWS services including DS, EC2, ECS, EKS, EFS, FSx
+      Lustre, and more'
+    evidence:
+    - README.md#Key Features
+  - name: '**Cross-Stack References:** Resources can reference and depend on each other'
+    description: '**Cross-Stack References:** Resources can reference and depend on each other'
+    evidence:
+    - README.md#Key Features
+  - name: '**Flexible Deployment Options:** Deploy entire stacks or individual components'
+    description: '**Flexible Deployment Options:** Deploy entire stacks or individual components'
+    evidence:
+    - README.md#Key Features
+  - name: '**Amazon Q Integration:** Optional MCP server for conversational infrastructure management'
+    description: '**Amazon Q Integration:** Optional MCP server for conversational infrastructure management'
+    evidence:
+    - README.md#Key Features
+  technology_stack:
+    languages:
+    - Go
+    - Shell
+    - Dockerfile
+    - PowerShell
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/Masterminds/semver/v3
+    - github.com/aws/aws-cdk-go/awscdk/v2
+    - github.com/aws/aws-sdk-go-v2
+    - github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream
+    - github.com/aws/aws-sdk-go-v2/config
+    - github.com/aws/aws-sdk-go-v2/credentials
+    - github.com/aws/aws-sdk-go-v2/feature/ec2/imds
+    - github.com/aws/aws-sdk-go-v2/internal/configsources
+    - github.com/aws/aws-sdk-go-v2/internal/endpoints/v2
+    - github.com/aws/aws-sdk-go-v2/internal/v4a
+    - github.com/aws/aws-sdk-go-v2/service/ec2
+    - github.com/aws/aws-sdk-go-v2/service/iam
+    - github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding
+    - github.com/aws/aws-sdk-go-v2/service/internal/checksum
+    - github.com/aws/aws-sdk-go-v2/service/internal/presigned-url
+    - github.com/aws/aws-sdk-go-v2/service/internal/s3shared
+    - github.com/aws/aws-sdk-go-v2/service/s3
+    - github.com/aws/aws-sdk-go-v2/service/secretsmanager
+    - github.com/aws/aws-sdk-go-v2/service/signin
+    - github.com/aws/aws-sdk-go-v2/service/ssm
+    - github.com/aws/aws-sdk-go-v2/service/sso
+    - github.com/aws/aws-sdk-go-v2/service/ssooidc
+    - github.com/aws/aws-sdk-go-v2/service/sts
+    - github.com/aws/constructs-go/constructs/v10
+    - github.com/aws/jsii-runtime-go
+    - github.com/aws/smithy-go
+    - github.com/cdklabs/awscdk-asset-awscli-go/awscliv1/v2
+    - github.com/cdklabs/awscdk-asset-node-proxy-agent-go/nodeproxyagentv6/v2
+    - github.com/cdklabs/awscdk-kubectl-go/kubectlv33/v2
+    - github.com/cdklabs/awscdk-kubectl-go/kubectlv34/v2
+    - github.com/cdklabs/awscdk-kubectl-go/kubectlv35/v2
+    - github.com/cdklabs/awscdk-kubectl-go/kubectlv36/v2
+    - github.com/cdklabs/awscdk-kubectl-go/kubectlv37/v2
+    - github.com/cdklabs/cloud-assembly-schema-go/awscdkcloudassemblyschema/v54
+    - github.com/fatih/color
+    - github.com/google/jsonschema-go
+    - github.com/google/uuid
+    - github.com/mattn/go-colorable
+    - github.com/mattn/go-isatty
+    - github.com/pelletier/go-toml/v2
+    - github.com/santhosh-tekuri/jsonschema/v6
+    - github.com/spf13/cast
+    - github.com/yosida95/uritemplate/v3
+    - github.com/yuin/goldmark
+    - golang.org/x/lint
+    - golang.org/x/mod
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/telemetry
+    - golang.org/x/text
+    - golang.org/x/tools
+    - golang.org/x/tools/cmd/godoc
+    - golang.org/x/tools/godoc
+    - gopkg.in/yaml.v3
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/ami-lookup/main.go,
+    cmd/infraforge/main.go, cmd/infraforge/bootstrap.sh, cmd/infraforge/deploy.sh'
+  setup_and_usage:
+  - 'Installation: 1. Clone the repository:'
+  - 'Installation: git clone https://github.com/awslabs/InfraForge.git'
+  - 'Installation: 2. Install dependencies:'
+  - 'Installation: 3. Build the application:'
+  - 'Usage: 1. Choose a solution configuration from the configs/ directory:'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/awslabs/InfraForge/blob/main/README.md
+  path: README.md
+  blob_sha: 67be30a4e4c314015e575c4931b8ee167f1724e3
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 0801cbb230fe4eb0cbba2f9e93e513bf2332d0b8
+  retrieved: true
+- type: manifest
+  path: tools/eks-gpu-benchmark/Dockerfile
+  blob_sha: 3a21c1d6df8d01e5df14acf5c647c39db68d69c8
+  retrieved: true
+- type: manifest
+  path: tools/mcp/go.mod
+  blob_sha: f2e487a0b18f21daaecc5bd9c11af15a71869965
+  retrieved: true
+- type: manifest
+  path: forges/aws/lambda/Dockerfile
+  blob_sha: 3d600e37a7ac3bb3992f1446811f861588850f14
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 581828
+    Shell: 21585
+    Dockerfile: 14239
+    PowerShell: 9210
+- type: Git tree
+  status: captured
+  sha: 033f4ad947b5652923174fa34a7fe604d2556a94
+  truncated: false
+- type: source_file
+  path: cmd/ami-lookup/main.go
+  blob_sha: 5a2f728508eeb2745ce1f49539bf3d2a336f04c2
+  retrieved: true
+- type: source_file
+  path: cmd/infraforge/main.go
+  blob_sha: e25ee88e5ccb599d81d4972b13d433e6833fc4d0
+  retrieved: true
+- type: source_file
+  path: cmd/infraforge/bootstrap.sh
+  blob_sha: 0efeafe547e51aae9cea9d46a662009d6d1afd89
+  retrieved: true
+- type: source_file
+  path: cmd/infraforge/deploy.sh
+  blob_sha: 63ab651ff9c3b08e3e7618be25e51f3b09af1a19
+  retrieved: true

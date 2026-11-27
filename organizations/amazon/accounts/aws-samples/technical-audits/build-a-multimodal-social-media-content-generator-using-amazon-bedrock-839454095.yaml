@@ -1,0 +1,94 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:38:57+00:00'
+evidence_fingerprint: a76ffb08f5c6637d542f3a137a877a06bd0b3d4c620bcd5d35a6264203e85ab1
+repository_metadata:
+  company: Amazon
+  account: aws-samples
+  full_name: aws-samples/Build-a-multimodal-social-media-content-generator-using-Amazon-Bedrock
+  repository_id: 839454095
+  url: https://github.com/aws-samples/Build-a-multimodal-social-media-content-generator-using-Amazon-Bedrock
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-02-06T16:31:28Z'
+  stars: 21
+  readme_url: https://github.com/aws-samples/Build-a-multimodal-social-media-content-generator-using-Amazon-Bedrock/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a6c6869bfa54b586fde1540936a9c92e12796d2f
+  manifest_paths:
+  - streamlit-app/requirements.txt
+  source_files_inspected:
+  - streamlit-app/app.py
+  - embedding-generation/utility.py
+  - streamlit-app/cleanup.sh
+  - streamlit-app/constants.py
+  repository_tree:
+    status: captured
+    sha: 72f8208bbb10b52da1a48078a16c1351c6cf9ed8
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This solution provides you with a Streamlit app to **generate rich and engaging Social Media Post** (image
+    and text) tailored to your audience preference, while adhering to your brand-specific messaging and guidelines.
+  why_used: This solution provides you with a Streamlit app to **generate rich and engaging Social Media Post**
+    (image and text) tailored to your audience preference, while adhering to your brand-specific messaging and guidelines.
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies:
+    - boto3
+    - opensearch-py
+    - requests-aws4auth
+    - sagemaker
+    - streamlit
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: streamlit-app/app.py,
+    embedding-generation/utility.py, streamlit-app/cleanup.sh, streamlit-app/constants.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-samples/Build-a-multimodal-social-media-content-generator-using-Amazon-Bedrock/blob/main/README.md
+  path: README.md
+  blob_sha: a6c6869bfa54b586fde1540936a9c92e12796d2f
+  retrieved: true
+- type: manifest
+  path: streamlit-app/requirements.txt
+  blob_sha: 901d3013142912068df3450641a076d155b1bf4c
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: 72f8208bbb10b52da1a48078a16c1351c6cf9ed8
+  truncated: false
+- type: source_file
+  path: streamlit-app/app.py
+  blob_sha: 00e9b0e4f387fdd7b113fa810d8f043d1cd1c613
+  retrieved: true
+- type: source_file
+  path: embedding-generation/utility.py
+  blob_sha: 7f680bfb69335053daad8cbc2c6c594fcbc0db1d
+  retrieved: true
+- type: source_file
+  path: streamlit-app/cleanup.sh
+  blob_sha: c33ee63e08cd832c55731ff9cd6a49835259cebe
+  retrieved: true
+- type: source_file
+  path: streamlit-app/constants.py
+  blob_sha: d4e5ccd1edbaf90117c2a38057ff3c05843b8ad6
+  retrieved: true

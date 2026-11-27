@@ -1,10 +1,10 @@
 # Technical audits — aws-solutions
 
-Updated: 2026-11-27T07:24:09+00:00
+Updated: 2026-11-27T22:44:08+00:00
 
 ## Status counts
 
-- evidence_only: 21
+- evidence_only: 25
 
 ## Repository dossiers
 
@@ -30,4 +30,8 @@ Updated: 2026-11-27T07:24:09+00:00
 | aws-waf-security-automations-68951589 | evidence_only | [aws-waf-security-automations-68951589.md](aws-waf-security-automations-68951589.md) | [aws-waf-security-automations-68951589.yaml](aws-waf-security-automations-68951589.yaml) |
 | centralized-logging-with-opensearch-496020999 | evidence_only | [centralized-logging-with-opensearch-496020999.md](centralized-logging-with-opensearch-496020999.md) | [centralized-logging-with-opensearch-496020999.yaml](centralized-logging-with-opensearch-496020999.yaml) |
 | cloud-migration-factory-on-aws-249775638 | evidence_only | [cloud-migration-factory-on-aws-249775638.md](cloud-migration-factory-on-aws-249775638.md) | [cloud-migration-factory-on-aws-249775638.yaml](cloud-migration-factory-on-aws-249775638.yaml) |
+| cognito-user-profiles-export-reference-architecture-224018331 | evidence_only | [cognito-user-profiles-export-reference-architecture-224018331.md](cognito-user-profiles-export-reference-architecture-224018331.md) | [cognito-user-profiles-export-reference-architecture-224018331.yaml](cognito-user-profiles-export-reference-architecture-224018331.yaml) |
+| connected-mobility-solution-on-aws-public-assets-840007203 | evidence_only | [connected-mobility-solution-on-aws-public-assets-840007203.md](connected-mobility-solution-on-aws-public-assets-840007203.md) | [connected-mobility-solution-on-aws-public-assets-840007203.yaml](connected-mobility-solution-on-aws-public-assets-840007203.yaml) |
+| content-analysis-on-aws-245225523 | evidence_only | [content-analysis-on-aws-245225523.md](content-analysis-on-aws-245225523.md) | [content-analysis-on-aws-245225523.yaml](content-analysis-on-aws-245225523.yaml) |
+| content-localization-on-aws-313766186 | evidence_only | [content-localization-on-aws-313766186.md](content-localization-on-aws-313766186.md) | [content-localization-on-aws-313766186.yaml](content-localization-on-aws-313766186.yaml) |
 | github-178254703 | evidence_only | [github-178254703.md](github-178254703.md) | [github-178254703.yaml](github-178254703.yaml) |

@@ -1,0 +1,166 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:33:14+00:00'
+evidence_fingerprint: 16775c7fd639a9de58a9fa88a5ac475c20be9c7730f9df9218e9959e656347d8
+repository_metadata:
+  company: Amazon
+  account: corretto
+  full_name: corretto/heapothesys
+  repository_id: 248322535
+  url: https://github.com/corretto/heapothesys
+  description: Heapothesys /hɪˈpɒθɪsɪs/ is a heap allocation JVM benchmark developed by the Amazon Corretto team.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-02-26T19:06:29Z'
+  stars: 193
+  readme_url: https://github.com/corretto/heapothesys/blob/master/README.md
+  readme_path: README.md
+  readme_sha: f636654225ccadb9a87e23dae4679f39c4539783
+  manifest_paths:
+  - Extremem/Makefile
+  - Extremem/pom.xml
+  - HyperAlloc/pom.xml
+  - Extremem/src/Makefile
+  - Extremem/src/main/Makefile
+  - Extremem/src/test/Makefile
+  source_files_inspected:
+  - Extremem/src/main/java/com/amazon/corretto/benchmark/extremem/Main.java
+  - Extremem/src/main/java/com/amazon/corretto/benchmark/extremem/AbsoluteTime.java
+  - Extremem/src/main/java/com/amazon/corretto/benchmark/extremem/Actor.java
+  - Extremem/src/main/java/com/amazon/corretto/benchmark/extremem/Arraylet.java
+  repository_tree:
+    status: captured
+    sha: 10fac1bc2d3e7c4abeea1627f91846963e45f514
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Heapothesys (/hɪˈpɒθɪsɪs/) is a collection of JVM garbage collection workloads developed by the Amazon
+    Corretto team. These workloads are intended to be useful in helping to compare alternative garbage collection
+    algorithms and configuration choices, helping to evaluate proposed improvements to garbage collection algorithms
+    and implementations, and helping to detect garbage collection performance and latency regressions.
+  why_used: Heapothesys /hɪˈpɒθɪsɪs/ is a heap allocation JVM benchmark developed by the Amazon Corretto team.
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - HyperAlloc
+    - MutabilityDetector4FindBugs
+    - apache-rat-plugin
+    - build-helper-maven-plugin
+    - exec-maven-plugin
+    - extremem
+    - hamcrest-core
+    - jacoco-maven-plugin
+    - jdepend-maven-plugin
+    - jol-core
+    - junit-jupiter
+    - license-maven-plugin
+    - maven-antrun-plugin
+    - maven-assembly-plugin
+    - maven-changes-plugin
+    - maven-clean-plugin
+    - maven-compiler-plugin
+    - maven-dependency-plugin
+    - "maven-dependency-versions-check-plugin\n                    "
+    - maven-deploy-plugin
+    - maven-enforcer-plugin
+    - maven-failsafe-plugin
+    - maven-filtering
+    - maven-help-plugin
+    - maven-install-plugin
+    - maven-jar-plugin
+    - maven-javadoc-plugin
+    - maven-jdeprscan-plugin
+    - maven-jdeps-plugin
+    - maven-jxr-plugin
+    - maven-pmd-plugin
+    - maven-project-info-reports-plugin
+    - maven-release-plugin
+    - maven-resources-plugin
+    - maven-scm-plugin
+    - maven-shade-plugin
+    - maven-site-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - maven-toolchains-plugin
+    - maven-war-plugin
+    - mockito-core
+    - pitest-maven
+    - spotbugs-maven-plugin
+    - tidy-maven-plugin
+    - versions-maven-plugin
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Extremem/src/main/java/com/amazon/corretto/benchmark/extremem/Main.java,
+    Extremem/src/main/java/com/amazon/corretto/benchmark/extremem/AbsoluteTime.java, Extremem/src/main/java/com/amazon/corretto/benchmark/extremem/Actor.java,
+    Extremem/src/main/java/com/amazon/corretto/benchmark/extremem/Arraylet.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/corretto/heapothesys/blob/master/README.md
+  path: README.md
+  blob_sha: f636654225ccadb9a87e23dae4679f39c4539783
+  retrieved: true
+- type: manifest
+  path: Extremem/Makefile
+  blob_sha: 8933e06ae963837bad9a4087886e93e4d803a73a
+  retrieved: true
+- type: manifest
+  path: Extremem/pom.xml
+  blob_sha: 397fbeac0dfd92b042e0ae5a58dfe87375fe80ac
+  retrieved: true
+- type: manifest
+  path: HyperAlloc/pom.xml
+  blob_sha: a0d71a775c5fc118160ef27156bb913bdfa64480
+  retrieved: true
+- type: manifest
+  path: Extremem/src/Makefile
+  blob_sha: f0c8677398aebc3e154958df330950f91f9373fb
+  retrieved: true
+- type: manifest
+  path: Extremem/src/main/Makefile
+  blob_sha: b05237162189733047c1ecd954a73a6a62033a00
+  retrieved: true
+- type: manifest
+  path: Extremem/src/test/Makefile
+  blob_sha: b05237162189733047c1ecd954a73a6a62033a00
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 634122
+    Makefile: 2655
+- type: Git tree
+  status: captured
+  sha: 10fac1bc2d3e7c4abeea1627f91846963e45f514
+  truncated: false
+- type: source_file
+  path: Extremem/src/main/java/com/amazon/corretto/benchmark/extremem/Main.java
+  blob_sha: 873b02b1519b968f4f7aad03486c0f5c17bec304
+  retrieved: true
+- type: source_file
+  path: Extremem/src/main/java/com/amazon/corretto/benchmark/extremem/AbsoluteTime.java
+  blob_sha: 25aaca8b8078ddc23c6f39e26925201e39464c9e
+  retrieved: true
+- type: source_file
+  path: Extremem/src/main/java/com/amazon/corretto/benchmark/extremem/Actor.java
+  blob_sha: 8d876c8a781b8caa485211cf7ab8518756a71517
+  retrieved: true
+- type: source_file
+  path: Extremem/src/main/java/com/amazon/corretto/benchmark/extremem/Arraylet.java
+  blob_sha: 5a2fe85ecb61ca5b2282a9621cd6c144857dfb4c
+  retrieved: true

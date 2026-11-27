@@ -1,0 +1,100 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:25:29+00:00'
+evidence_fingerprint: f4089dc78e2d65d329c30b51cdcba7e80e27590d4681c1b4b26eeab00c25dfb6
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/deepracer-env-config
+  repository_id: 449867944
+  url: https://github.com/aws-deepracer/deepracer-env-config
+  description: A python library to manipulate "RL Lab - DeepRacer" environment configurations over the UDE side-channel.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-07-22T17:10:38Z'
+  stars: 3
+  readme_url: https://github.com/aws-deepracer/deepracer-env-config/blob/main/README.md
+  readme_path: README.md
+  readme_sha: c7254adf5e808af463c29a8ca184f3440d6d0a29
+  manifest_paths:
+  - CMakeLists.txt
+  - setup.py
+  source_files_inspected:
+  - deepracer_env_config/__init__.py
+  - deepracer_env_config/client.py
+  - deepracer_env_config/config_server.py
+  - deepracer_env_config/configs/__init__.py
+  repository_tree:
+    status: captured
+    sha: 0ec33186cb1d8e4dd5b135bafdafaceb567c8ee7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The AWS DeepRacer Environment Config package provides a simple interface for manipulating the "RL Lab
+    - AWS DeepRacer" environment configurations over the UDE side-channel.
+  why_used: A python library to manipulate "RL Lab - DeepRacer" environment configurations over the UDE side-channel.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: deepracer_env_config/__init__.py,
+    deepracer_env_config/client.py, deepracer_env_config/config_server.py, deepracer_env_config/configs/__init__.py'
+  setup_and_usage:
+  - 'Installation: To install AWS DeepRacer Environment Config package, run the pip install deepracer-env-config
+    command.'
+  - 'Installation: Python 3.6, 3.7, 3.8, and 3.9 are supported on Linux, Windows, and macOS.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/deepracer-env-config/blob/main/README.md
+  path: README.md
+  blob_sha: c7254adf5e808af463c29a8ca184f3440d6d0a29
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 838c70d4e68136b9aff378477d306bf9172fecf9
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 756b2335e10f2e377023cb063c481932997e2c70
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 127595
+    CMake: 324
+- type: Git tree
+  status: captured
+  sha: 0ec33186cb1d8e4dd5b135bafdafaceb567c8ee7
+  truncated: false
+- type: source_file
+  path: deepracer_env_config/__init__.py
+  blob_sha: 3bc354341a7dbe68f3f80d49aef7c3b53c402a8a
+  retrieved: true
+- type: source_file
+  path: deepracer_env_config/client.py
+  blob_sha: 2124ef99b790eb77314b3d59440067e0492eb2d6
+  retrieved: true
+- type: source_file
+  path: deepracer_env_config/config_server.py
+  blob_sha: 4e67bf9d3581151e96fe9476c73689ab77c5975d
+  retrieved: true
+- type: source_file
+  path: deepracer_env_config/configs/__init__.py
+  blob_sha: 83a73bbc05b4236628deb8041723bd42d99b58ca
+  retrieved: true

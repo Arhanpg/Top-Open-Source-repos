@@ -1,10 +1,10 @@
 # Technical audits — xuperchain
 
-Updated: 2026-11-27T07:24:09+00:00
+Updated: 2026-11-27T22:44:04+00:00
 
 ## Status counts
 
-- evidence_only: 20
+- evidence_only: 24
 
 ## Repository dossiers
 
@@ -29,4 +29,8 @@ Updated: 2026-11-27T07:24:09+00:00
 | wavm-192487176 | evidence_only | [wavm-192487176.md](wavm-192487176.md) | [wavm-192487176.yaml](wavm-192487176.yaml) |
 | xasset-sdk-go-431727189 | evidence_only | [xasset-sdk-go-431727189.md](xasset-sdk-go-431727189.md) | [xasset-sdk-go-431727189.yaml](xasset-sdk-go-431727189.yaml) |
 | xasset-sdk-java-431728452 | evidence_only | [xasset-sdk-java-431728452.md](xasset-sdk-java-431728452.md) | [xasset-sdk-java-431728452.yaml](xasset-sdk-java-431728452.yaml) |
+| xasset-sdk-php-431728916 | evidence_only | [xasset-sdk-php-431728916.md](xasset-sdk-php-431728916.md) | [xasset-sdk-php-431728916.yaml](xasset-sdk-php-431728916.yaml) |
+| xasset-sdk-python-492664552 | evidence_only | [xasset-sdk-python-492664552.md](xasset-sdk-python-492664552.md) | [xasset-sdk-python-492664552.yaml](xasset-sdk-python-492664552.yaml) |
+| xbench-191128279 | evidence_only | [xbench-191128279.md](xbench-191128279.md) | [xbench-191128279.yaml](xbench-191128279.yaml) |
+| xdev-366319872 | evidence_only | [xdev-366319872.md](xdev-366319872.md) | [xdev-366319872.yaml](xdev-366319872.yaml) |
 | xip-242135968 | evidence_only | [xip-242135968.md](xip-242135968.md) | [xip-242135968.yaml](xip-242135968.yaml) |

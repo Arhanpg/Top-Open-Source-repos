@@ -1,0 +1,97 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:26:09+00:00'
+evidence_fingerprint: 9f86ce31138a3de8cb9db6c69bb772e438b99f6be9079fbad7343309d2482b5e
+repository_metadata:
+  company: Amazon
+  account: aws-samples
+  full_name: aws-samples/Automated-Oracle-E-Business-Suite-DR-Switchover
+  repository_id: 627611879
+  url: https://github.com/aws-samples/Automated-Oracle-E-Business-Suite-DR-Switchover
+  description: Oracle E-Business Suite DR Switchover
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-04-13T18:20:18Z'
+  stars: 3
+  readme_url: https://github.com/aws-samples/Automated-Oracle-E-Business-Suite-DR-Switchover/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 93edf8db268cb72726352084f87e92192814e5ae
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - app.py
+  - atsobject/ats_obj_stack.py
+  - atsobject/lambda/ATS-EBS-ELBSwitch/lambda_function.py
+  - atsobject/lambda/ATS-EBS-FetchPrimaryDb/lambda_function.py
+  repository_tree:
+    status: captured
+    sha: b032ad31224ee95f9fd536040e34237150de6c00
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Many Organizations are running Oracle E-Business Suite, which in most cases is considered a core application
+    within the organization. Oracle E-Business Suite is a business application suite that includes financial, supply
+    chain, human resources, and customer relationship management modules. Due to the application’s critical nature,
+    It is imperative to architect Oracle E-Business Suite for high availability and to develop the ability to switchover
+    the application and database as quickly as possible by removing personal dependencies. It is critical for organizations
+    to ensure high availability of Oracle E-Business Suite applications in order to minimize downtime and maintain
+    business continuity. One method for achieving high availability is to perform an EBS application switchover.
+    This document will go over how to perform an Oracle E-Business Suite application and database switchover.
+  why_used: Oracle E-Business Suite DR Switchover
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies:
+    - aws-cdk-lib
+    - boto3
+    - constructs
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: app.py, atsobject/ats_obj_stack.py,
+    atsobject/lambda/ATS-EBS-ELBSwitch/lambda_function.py, atsobject/lambda/ATS-EBS-FetchPrimaryDb/lambda_function.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-samples/Automated-Oracle-E-Business-Suite-DR-Switchover/blob/main/README.md
+  path: README.md
+  blob_sha: 93edf8db268cb72726352084f87e92192814e5ae
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 9e18d243c32b76c3d8f3697db28f80b4944fcf6b
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: b032ad31224ee95f9fd536040e34237150de6c00
+  truncated: false
+- type: source_file
+  path: app.py
+  blob_sha: dc0d885d0384120c513be1f1ee01a4599525742a
+  retrieved: true
+- type: source_file
+  path: atsobject/ats_obj_stack.py
+  blob_sha: 5870af2b0d2d677c9fba9db7b335aa74e0af6be4
+  retrieved: true
+- type: source_file
+  path: atsobject/lambda/ATS-EBS-ELBSwitch/lambda_function.py
+  blob_sha: a49f8b76f927204c0bfc08722dfc7cbe30fd6ee3
+  retrieved: true
+- type: source_file
+  path: atsobject/lambda/ATS-EBS-FetchPrimaryDb/lambda_function.py
+  blob_sha: d345a4c393e1e61765fa214f2d0501b53caa86e5
+  retrieved: true

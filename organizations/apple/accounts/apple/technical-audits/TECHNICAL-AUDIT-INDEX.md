@@ -1,10 +1,10 @@
 # Technical audits — apple
 
-Updated: 2026-11-27T07:24:08+00:00
+Updated: 2026-11-27T22:44:03+00:00
 
 ## Status counts
 
-- evidence_only: 19
+- evidence_only: 23
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -21,8 +21,12 @@ Updated: 2026-11-27T07:24:08+00:00
 | apple-ads-platform-api-swift-1309241569 | evidence_only | [apple-ads-platform-api-swift-1309241569.md](apple-ads-platform-api-swift-1309241569.md) | [apple-ads-platform-api-swift-1309241569.yaml](apple-ads-platform-api-swift-1309241569.yaml) |
 | apple-llvm-infrastructure-tools-196327850 | evidence_only | [apple-llvm-infrastructure-tools-196327850.md](apple-llvm-infrastructure-tools-196327850.md) | [apple-llvm-infrastructure-tools-196327850.yaml](apple-llvm-infrastructure-tools-196327850.yaml) |
 | apple-root-program-1161430788 | evidence_only | [apple-root-program-1161430788.md](apple-root-program-1161430788.md) | [apple-root-program-1161430788.yaml](apple-root-program-1161430788.yaml) |
+| apple-rules-lint-294468697 | evidence_only | [apple-rules-lint-294468697.md](apple-rules-lint-294468697.md) | [apple-rules-lint-294468697.yaml](apple-rules-lint-294468697.yaml) |
 | audiounit-examples-550512036 | evidence_only | [audiounit-examples-550512036.md](audiounit-examples-550512036.md) | [audiounit-examples-550512036.yaml](audiounit-examples-550512036.yaml) |
 | audiounitsdk-373606198 | evidence_only | [audiounitsdk-373606198.md](audiounitsdk-373606198.md) | [audiounitsdk-373606198.yaml](audiounitsdk-373606198.yaml) |
+| axlearn-606266313 | evidence_only | [axlearn-606266313.md](axlearn-606266313.md) | [axlearn-606266313.yaml](axlearn-606266313.yaml) |
+| batch-processing-gateway-521371906 | evidence_only | [batch-processing-gateway-521371906.md](batch-processing-gateway-521371906.md) | [batch-processing-gateway-521371906.yaml](batch-processing-gateway-521371906.yaml) |
+| ccs-caldavclientlibrary-64889654 | evidence_only | [ccs-caldavclientlibrary-64889654.md](ccs-caldavclientlibrary-64889654.md) | [ccs-caldavclientlibrary-64889654.yaml](ccs-caldavclientlibrary-64889654.yaml) |
 | fhirmodels-274484771 | evidence_only | [fhirmodels-274484771.md](fhirmodels-274484771.md) | [fhirmodels-274484771.yaml](fhirmodels-274484771.yaml) |
 | gcgc-423990530 | evidence_only | [gcgc-423990530.md](gcgc-423990530.md) | [gcgc-423990530.yaml](gcgc-423990530.yaml) |
 | github-590165204 | insufficient_evidence | [github-590165204.md](github-590165204.md) | [github-590165204.yaml](github-590165204.yaml) |

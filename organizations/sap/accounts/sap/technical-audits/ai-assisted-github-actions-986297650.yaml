@@ -1,0 +1,137 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:22:41+00:00'
+evidence_fingerprint: 61e6fe4370adf613a403cb608570e9519e3bdd6bfa657e97aeedffd0917d697c
+repository_metadata:
+  company: SAP
+  account: SAP
+  full_name: SAP/ai-assisted-github-actions
+  repository_id: 986297650
+  url: https://github.com/SAP/ai-assisted-github-actions
+  description: Automate your PR workflow with GitHub Actions powered by SAP AI Core. Get instant summaries and reviews—no
+    more manual grunt work.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T14:16:39Z'
+  stars: 9
+  readme_url: https://github.com/SAP/ai-assisted-github-actions/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5e87eb6f165da241904fc9b8e1e42ec0da5b8ad4
+  manifest_paths:
+  - pr-review/package.json
+  - pr-summary/package.json
+  source_files_inspected:
+  - pr-review/src/index.ts
+  - pr-summary/src/index.ts
+  - pr-review/src/ai-core-client.ts
+  - pr-review/src/config.ts
+  repository_tree:
+    status: captured
+    sha: 7121b917beeb80dbec9812ac646137df9b7a331f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: _Automate your PR workflow with GitHub Actions powered by SAP AI Core. Get instant summaries and reviews—no
+    more manual grunt work._
+  why_used: Automate your PR workflow with GitHub Actions powered by SAP AI Core. Get instant summaries and reviews—no
+    more manual grunt work.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@actions/github'
+    - '@eslint/js'
+    - '@octokit/action'
+    - '@octokit/plugin-retry'
+    - '@octokit/plugin-throttling'
+    - '@octokit/webhooks'
+    - '@sap-ai-sdk/ai-api'
+    - '@sap-ai-sdk/orchestration'
+    - '@types/node'
+    - '@vercel/ncc'
+    - axios
+    - eslint
+    - eslint-plugin-import
+    - eslint-plugin-sonarjs
+    - eslint-plugin-unicorn
+    - minimatch
+    - mollitia
+    - octokit
+    - parse-diff
+    - prettier
+    - tsx
+    - typescript
+    - typescript-eslint
+    - yaml
+    - zod
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: pr-review/src/index.ts,
+    pr-summary/src/index.ts, pr-review/src/ai-core-client.ts, pr-review/src/config.ts'
+  setup_and_usage:
+  - 'Usage: Create a GitHub Actions workflow file e.g., .github/workflows/ai-assistance.yml, with the following
+    content:'
+  - 'Usage: types: [ready_for_review]'
+  - 'Usage: runs-on: [ubuntu-latest]'
+  - 'Usage: - uses: SAP/ai-assisted-github-actions/pr-summary@v3'
+  - 'Usage: aicore-service-key: ${{ secrets.AICORE_SERVICE_KEY }}'
+  - 'Usage: exclude-files: package-lock.json'
+  - 'Usage: runs-on: [ubuntu-latest]'
+  - 'Usage: - uses: SAP/ai-assisted-github-actions/pr-review@v3'
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP/ai-assisted-github-actions/blob/main/README.md
+  path: README.md
+  blob_sha: 5e87eb6f165da241904fc9b8e1e42ec0da5b8ad4
+  retrieved: true
+- type: manifest
+  path: pr-review/package.json
+  blob_sha: b55a1c9c3cb342b2176860182d49817a0f92997a
+  retrieved: true
+- type: manifest
+  path: pr-summary/package.json
+  blob_sha: bc0a5fb0b270dfb462eb0dc044c576b07dff70a3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 48775
+    JavaScript: 2990
+- type: Git tree
+  status: captured
+  sha: 7121b917beeb80dbec9812ac646137df9b7a331f
+  truncated: false
+- type: source_file
+  path: pr-review/src/index.ts
+  blob_sha: e6ce5452be538c1f64b8596d5e95fcc16b67c52f
+  retrieved: true
+- type: source_file
+  path: pr-summary/src/index.ts
+  blob_sha: e6ce5452be538c1f64b8596d5e95fcc16b67c52f
+  retrieved: true
+- type: source_file
+  path: pr-review/src/ai-core-client.ts
+  blob_sha: 7f48a07379f93b672288bb5e73755572797fc151
+  retrieved: true
+- type: source_file
+  path: pr-review/src/config.ts
+  blob_sha: cfbc57e8b09a5532c4499fcbc684196951948249
+  retrieved: true

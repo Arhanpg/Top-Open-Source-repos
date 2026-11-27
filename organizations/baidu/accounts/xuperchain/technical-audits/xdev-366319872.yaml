@@ -1,0 +1,106 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:40:25+00:00'
+evidence_fingerprint: 912ae95f0158d3303de53df5055fe952bf338d798ff392ab788637490424a8e3
+repository_metadata:
+  company: Baidu
+  account: xuperchain
+  full_name: xuperchain/xdev
+  repository_id: 366319872
+  url: https://github.com/xuperchain/xdev
+  description: The compiler and test tool for contract
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-03-02T07:58:04Z'
+  stars: 2
+  readme_url: https://github.com/xuperchain/xdev/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2503ce5c59f3fa8c1463bc3ffbe58d0f89b1ec7f
+  manifest_paths:
+  - go.mod
+  - Makefile
+  source_files_inspected:
+  - main.go
+  - cmd/build.go
+  - cmd/init.go
+  - cmd/root.go
+  repository_tree:
+    status: captured
+    sha: 819bfd713fcf1561a7403b02216974fb781ff10f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: XDEV 是 XuperChain 合约构建测试工具，支持
+  why_used: The compiler and test tool for contract
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Shell
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/BurntSushi/toml
+    - github.com/ddliu/motto
+    - github.com/golang/protobuf
+    - github.com/mitchellh/mapstructure
+    - github.com/robertkrimen/otto
+    - github.com/spf13/cobra
+    - github.com/xuperchain/xupercore
+    - gopkg.in/sourcemap.v1
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: main.go, cmd/build.go,
+    cmd/init.go, cmd/root.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/xuperchain/xdev/blob/main/README.md
+  path: README.md
+  blob_sha: 2503ce5c59f3fa8c1463bc3ffbe58d0f89b1ec7f
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: d243f3d54e1f918ff5a36e719d1df2f8c4601035
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: aae0d7b15cf5481856b0b6466a5fcfc040aac388
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 75223
+    Shell: 532
+    Makefile: 493
+- type: Git tree
+  status: captured
+  sha: 819bfd713fcf1561a7403b02216974fb781ff10f
+  truncated: false
+- type: source_file
+  path: main.go
+  blob_sha: f7d3ce9ff3794bc517dec475bf3154c0262007ec
+  retrieved: true
+- type: source_file
+  path: cmd/build.go
+  blob_sha: 01eb796870f0fa1275a288be4d1834f687915193
+  retrieved: true
+- type: source_file
+  path: cmd/init.go
+  blob_sha: 3d7f0fbf015243e1a2824455eea8367048b67b26
+  retrieved: true
+- type: source_file
+  path: cmd/root.go
+  blob_sha: 89540fb5f472540a108c88becf21aeb05898ccc0
+  retrieved: true

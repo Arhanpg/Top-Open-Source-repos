@@ -1,10 +1,10 @@
 # Technical audits — amazon-science
 
-Updated: 2026-11-27T07:24:10+00:00
+Updated: 2026-11-27T22:44:06+00:00
 
 ## Status counts
 
-- evidence_only: 22
+- evidence_only: 27
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -31,6 +31,11 @@ Updated: 2026-11-27T07:24:10+00:00
 | byokg-naacl24-780143645 | evidence_only | [byokg-naacl24-780143645.md](byokg-naacl24-780143645.md) | [byokg-naacl24-780143645.yaml](byokg-naacl24-780143645.yaml) |
 | cdsl-naacl2025-929160276 | evidence_only | [cdsl-naacl2025-929160276.md](cdsl-naacl2025-929160276.md) | [cdsl-naacl2025-929160276.yaml](cdsl-naacl2025-929160276.yaml) |
 | ceret-llm-refine-779371193 | evidence_only | [ceret-llm-refine-779371193.md](ceret-llm-refine-779371193.md) | [ceret-llm-refine-779371193.yaml](ceret-llm-refine-779371193.yaml) |
+| chaitea-chat-interaction-autocomplete-895491284 | evidence_only | [chaitea-chat-interaction-autocomplete-895491284.md](chaitea-chat-interaction-autocomplete-895491284.md) | [chaitea-chat-interaction-autocomplete-895491284.yaml](chaitea-chat-interaction-autocomplete-895491284.yaml) |
+| citeeval-1019161351 | evidence_only | [citeeval-1019161351.md](citeeval-1019161351.md) | [citeeval-1019161351.yaml](citeeval-1019161351.yaml) |
+| codeassistbench-1080772157 | evidence_only | [codeassistbench-1080772157.md](codeassistbench-1080772157.md) | [codeassistbench-1080772157.yaml](codeassistbench-1080772157.yaml) |
+| codesage-753889040 | evidence_only | [codesage-753889040.md](codesage-753889040.md) | [codesage-753889040.yaml](codesage-753889040.yaml) |
+| codestruct-1211900261 | evidence_only | [codestruct-1211900261.md](codestruct-1211900261.md) | [codestruct-1211900261.yaml](codestruct-1211900261.yaml) |
 | csr-bench-951612468 | evidence_only | [csr-bench-951612468.md](csr-bench-951612468.md) | [csr-bench-951612468.yaml](csr-bench-951612468.yaml) |
 | ctf-dojo-1062066165 | evidence_only | [ctf-dojo-1062066165.md](ctf-dojo-1062066165.md) | [ctf-dojo-1062066165.yaml](ctf-dojo-1062066165.yaml) |
 | github-291827029 | insufficient_evidence | [github-291827029.md](github-291827029.md) | [github-291827029.yaml](github-291827029.yaml) |

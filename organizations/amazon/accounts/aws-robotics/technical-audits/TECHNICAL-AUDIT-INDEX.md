@@ -1,10 +1,10 @@
 # Technical audits — aws-robotics
 
-Updated: 2026-11-27T07:24:10+00:00
+Updated: 2026-11-27T22:44:04+00:00
 
 ## Status counts
 
-- evidence_only: 22
+- evidence_only: 26
 
 ## Repository dossiers
 
@@ -31,4 +31,8 @@ Updated: 2026-11-27T07:24:10+00:00
 | github-171341635 | evidence_only | [github-171341635.md](github-171341635.md) | [github-171341635.yaml](github-171341635.yaml) |
 | health-metrics-collector-ros1-155613615 | evidence_only | [health-metrics-collector-ros1-155613615.md](health-metrics-collector-ros1-155613615.md) | [health-metrics-collector-ros1-155613615.yaml](health-metrics-collector-ros1-155613615.yaml) |
 | health-metrics-collector-ros2-200933258 | evidence_only | [health-metrics-collector-ros2-200933258.md](health-metrics-collector-ros2-200933258.md) | [health-metrics-collector-ros2-200933258.yaml](health-metrics-collector-ros2-200933258.yaml) |
+| kinesisvideo-common-154743309 | evidence_only | [kinesisvideo-common-154743309.md](kinesisvideo-common-154743309.md) | [kinesisvideo-common-154743309.yaml](kinesisvideo-common-154743309.yaml) |
+| kinesisvideo-encoder-common-158597991 | evidence_only | [kinesisvideo-encoder-common-158597991.md](kinesisvideo-encoder-common-158597991.md) | [kinesisvideo-encoder-common-158597991.yaml](kinesisvideo-encoder-common-158597991.yaml) |
+| kinesisvideo-encoder-ros1-158598080 | evidence_only | [kinesisvideo-encoder-ros1-158598080.md](kinesisvideo-encoder-ros1-158598080.md) | [kinesisvideo-encoder-ros1-158598080.yaml](kinesisvideo-encoder-ros1-158598080.yaml) |
+| kinesisvideo-encoder-ros2-168239764 | evidence_only | [kinesisvideo-encoder-ros2-168239764.md](kinesisvideo-encoder-ros2-168239764.md) | [kinesisvideo-encoder-ros2-168239764.yaml](kinesisvideo-encoder-ros2-168239764.yaml) |
 | ros2-sectest-187255145 | evidence_only | [ros2-sectest-187255145.md](ros2-sectest-187255145.md) | [ros2-sectest-187255145.yaml](ros2-sectest-187255145.yaml) |

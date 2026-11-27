@@ -1,10 +1,10 @@
 # Technical audits — nvidia
 
-Updated: 2026-11-27T07:24:09+00:00
+Updated: 2026-11-27T22:44:10+00:00
 
 ## Status counts
 
-- evidence_only: 20
+- evidence_only: 24
 
 ## Repository dossiers
 
@@ -28,5 +28,9 @@ Updated: 2026-11-27T07:24:09+00:00
 | broadcast-skills-1355631811 | evidence_only | [broadcast-skills-1355631811.md](broadcast-skills-1355631811.md) | [broadcast-skills-1355631811.yaml](broadcast-skills-1355631811.yaml) |
 | chatrtx-706696555 | evidence_only | [chatrtx-706696555.md](chatrtx-706696555.md) | [chatrtx-706696555.yaml](chatrtx-706696555.yaml) |
 | cleanunet-510902455 | evidence_only | [cleanunet-510902455.md](cleanunet-510902455.md) | [cleanunet-510902455.yaml](cleanunet-510902455.yaml) |
+| cloud-trust-scripts-601713461 | evidence_only | [cloud-trust-scripts-601713461.md](cloud-trust-scripts-601713461.md) | [cloud-trust-scripts-601713461.yaml](cloud-trust-scripts-601713461.yaml) |
+| comd-cuda-14217748 | evidence_only | [comd-cuda-14217748.md](comd-cuda-14217748.md) | [comd-cuda-14217748.yaml](comd-cuda-14217748.yaml) |
+| compileiq-1228891212 | evidence_only | [compileiq-1228891212.md](compileiq-1228891212.md) | [compileiq-1228891212.yaml](compileiq-1228891212.yaml) |
+| contrastivelosses4vrd-176369298 | evidence_only | [contrastivelosses4vrd-176369298.md](contrastivelosses4vrd-176369298.md) | [contrastivelosses4vrd-176369298.yaml](contrastivelosses4vrd-176369298.yaml) |
 | cuda-fortran-2ed-874417210 | evidence_only | [cuda-fortran-2ed-874417210.md](cuda-fortran-2ed-874417210.md) | [cuda-fortran-2ed-874417210.yaml](cuda-fortran-2ed-874417210.yaml) |
 | cudalibrarysamples-185834676 | evidence_only | [cudalibrarysamples-185834676.md](cudalibrarysamples-185834676.md) | [cudalibrarysamples-185834676.yaml](cudalibrarysamples-185834676.yaml) |

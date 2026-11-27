@@ -1,10 +1,10 @@
 # Technical audits — googlecloudplatform
 
-Updated: 2026-11-27T07:24:07+00:00
+Updated: 2026-11-27T22:44:09+00:00
 
 ## Status counts
 
-- evidence_only: 18
+- evidence_only: 19
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -30,3 +30,4 @@ Updated: 2026-11-27T07:24:07+00:00
 | kbatch-219865624 | evidence_only | [kbatch-219865624.md](kbatch-219865624.md) | [kbatch-219865624.yaml](kbatch-219865624.yaml) |
 | labelcat-43977316 | evidence_only | [labelcat-43977316.md](labelcat-43977316.md) | [labelcat-43977316.yaml](labelcat-43977316.yaml) |
 | lifesciences-1146209919 | evidence_only | [lifesciences-1146209919.md](lifesciences-1146209919.md) | [lifesciences-1146209919.yaml](lifesciences-1146209919.yaml) |
+| minicat-98673010 | evidence_only | [minicat-98673010.md](minicat-98673010.md) | [minicat-98673010.yaml](minicat-98673010.yaml) |

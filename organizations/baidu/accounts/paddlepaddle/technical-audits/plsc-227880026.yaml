@@ -1,0 +1,119 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:40:17+00:00'
+evidence_fingerprint: 823b42ff9f549260f079d8fa2fc68271444f5fa82c57e59442fad6fedfcf6e97
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/PLSC
+  repository_id: 227880026
+  url: https://github.com/PaddlePaddle/PLSC
+  description: Paddle Large Scale Classification Tools，supports ArcFace, CosFace, PartialFC, Data Parallel + Model
+    Parallel. Model includes ResNet, ViT, Swin, DeiT, CaiT, FaceViT, MoCo, MAE, ConvMAE, CAE.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-06-06T11:13:52Z'
+  stars: 155
+  readme_url: https://github.com/PaddlePaddle/PLSC/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 1c34e201aa9b9658310d973e29d578c508bd3963
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  source_files_inspected:
+  - plsc/core/__init__.py
+  - plsc/core/grad_clip.py
+  - plsc/core/grad_scaler.py
+  - plsc/core/param_fuse.py
+  repository_tree:
+    status: captured
+    sha: 4794e643f551654d82316c2e2a52bee53c91191b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '------------------------------------------------------------------------------------------'
+  why_used: Paddle Large Scale Classification Tools，supports ArcFace, CosFace, PartialFC, Data Parallel + Model
+    Parallel. Model includes ResNet, ViT, Swin, DeiT, CaiT, FaceViT, MoCo, MAE, ConvMAE, CAE.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Jupyter Notebook
+    frameworks_and_libraries: []
+    dependencies:
+    - easydict
+    - numpy
+    - onnx
+    - onnxruntime-gpu
+    - opencv-python
+    - paddle2onnx
+    - pillow
+    - prettytable
+    - requests
+    - scikit-image
+    - scikit-learn
+    - scipy
+    - tqdm
+    - visualdl
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: plsc/core/__init__.py,
+    plsc/core/grad_clip.py, plsc/core/grad_scaler.py, plsc/core/param_fuse.py'
+  setup_and_usage:
+  - 'Installation: PLSC provides two usage methods: one is as an external third-party library, and users can use
+    import plsc in their own projects; the other is to develop and use it locally based on this repository.'
+  - 'Installation: **Note**: With the continuous iteration of the PaddlePaddle version, the PLSC master branch adapts
+    to the PaddlePaddle develop branch, and API mismatches may occur in lower versions of PaddlePaddle.'
+  - 'Getting Started: See Quick Run Recognition for the basic usage of PLSC.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/PLSC/blob/master/README.md
+  path: README.md
+  blob_sha: 1c34e201aa9b9658310d973e29d578c508bd3963
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: b731746282c3e1fce1efb5defc839b78d27dc2dc
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 7c8fa29f43b60718772934ca18f52ca127c6b5fd
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 838683
+    Shell: 120168
+    Jupyter Notebook: 12295
+- type: Git tree
+  status: captured
+  sha: 4794e643f551654d82316c2e2a52bee53c91191b
+  truncated: false
+- type: source_file
+  path: plsc/core/__init__.py
+  blob_sha: d1329172981a9d7215a5cffa966fd80c84a3308e
+  retrieved: true
+- type: source_file
+  path: plsc/core/grad_clip.py
+  blob_sha: de71cc693ffaeecd730ecff3ef8816b9a5ffdf58
+  retrieved: true
+- type: source_file
+  path: plsc/core/grad_scaler.py
+  blob_sha: 46ade01ff3b740eb927df4a321252c879497727f
+  retrieved: true
+- type: source_file
+  path: plsc/core/param_fuse.py
+  blob_sha: ca7ca3aadc16e9c54fbef6dcdce913187fe5085a
+  retrieved: true

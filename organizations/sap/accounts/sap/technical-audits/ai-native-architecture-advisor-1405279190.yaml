@@ -1,0 +1,101 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:29:13+00:00'
+evidence_fingerprint: b37f496c73b3a2845cdf2b0a322255948b129d1e3ae5f7ef8cfe383a47762a53
+repository_metadata:
+  company: SAP
+  account: SAP
+  full_name: SAP/ai-native-architecture-advisor
+  repository_id: 1405279190
+  url: https://github.com/SAP/ai-native-architecture-advisor
+  description: 'Describe an SAP business problem and this Claude Code / Codex plugin helps you design an AI solution
+    for it. It asks a few questions, then writes a clear plan: what to build, how the parts fit together, and which
+    SAP services to use. Built on SAP''s own North Star and AI Golden Path guidance.'
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-15T23:54:09Z'
+  stars: 5
+  readme_url: https://github.com/SAP/ai-native-architecture-advisor/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 00d34c20e845809c134e6862ffa64c7527491a20
+  manifest_paths:
+  - videos/supplier-confirmation/package.json
+  source_files_inspected:
+  - scripts/package-jwd-skill.sh
+  - scripts/package-jwd-zip.sh
+  - skills/ai-native-architecture-advisor/assets/marked.umd.js
+  - worker/download-proxy.js
+  repository_tree:
+    status: captured
+    sha: a62298c5c0fccfe20a216e88bcc074d87c92e309
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Reimagine an SAP customer or partner use case for the AI-native era. Describe the business problem, explore
+    the options with the Advisor, and build an **AI Native Solution Brief** with a proposed architecture and a visual
+    HTML report.
+  why_used: 'Describe an SAP business problem and this Claude Code / Codex plugin helps you design an AI solution
+    for it. It asks a few questions, then writes a clear plan: what to build, how the parts fit together, and which
+    SAP services to use. Built on SAP''s own North Star and AI Golden Path guidance.'
+  core_features: []
+  technology_stack:
+    languages:
+    - HTML
+    - JavaScript
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: scripts/package-jwd-skill.sh,
+    scripts/package-jwd-zip.sh, skills/ai-native-architecture-advisor/assets/marked.umd.js, worker/download-proxy.js'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions in
+    our security policy on how to report it. Please do not create GitHub issues for security-related doubts or problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP/ai-native-architecture-advisor/blob/main/README.md
+  path: README.md
+  blob_sha: 00d34c20e845809c134e6862ffa64c7527491a20
+  retrieved: true
+- type: manifest
+  path: videos/supplier-confirmation/package.json
+  blob_sha: f953fc1d2365cdb92959d99d5abab6ac9390486d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    HTML: 169811
+    JavaScript: 16180
+    Shell: 2932
+- type: Git tree
+  status: captured
+  sha: a62298c5c0fccfe20a216e88bcc074d87c92e309
+  truncated: false
+- type: source_file
+  path: scripts/package-jwd-skill.sh
+  blob_sha: 8bf000bd64b5c443e872a4ed3602a9b7c7692ef0
+  retrieved: true
+- type: source_file
+  path: scripts/package-jwd-zip.sh
+  blob_sha: e9e9c3fa224c1c62a1022aad182184095b16aa84
+  retrieved: true
+- type: source_file
+  path: skills/ai-native-architecture-advisor/assets/marked.umd.js
+  blob_sha: f123c379692ef638a33ab8ca470a120910d1a6cd
+  retrieved: true
+- type: source_file
+  path: worker/download-proxy.js
+  blob_sha: 39afdac2786e421dc2002ae854ca1b18d35add97
+  retrieved: true

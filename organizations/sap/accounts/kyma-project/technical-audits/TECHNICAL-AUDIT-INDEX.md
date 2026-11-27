@@ -1,10 +1,10 @@
 # Technical audits — kyma-project
 
-Updated: 2026-11-27T07:24:07+00:00
+Updated: 2026-11-27T22:44:05+00:00
 
 ## Status counts
 
-- evidence_only: 19
+- evidence_only: 23
 
 ## Repository dossiers
 
@@ -28,4 +28,8 @@ Updated: 2026-11-27T07:24:07+00:00
 | cp-mod-migrator-745385822 | evidence_only | [cp-mod-migrator-745385822.md](cp-mod-migrator-745385822.md) | [cp-mod-migrator-745385822.yaml](cp-mod-migrator-745385822.yaml) |
 | cx1clientgo-884763351 | evidence_only | [cx1clientgo-884763351.md](cx1clientgo-884763351.md) | [cx1clientgo-884763351.yaml](cx1clientgo-884763351.yaml) |
 | dev-toolbox-959329449 | evidence_only | [dev-toolbox-959329449.md](dev-toolbox-959329449.md) | [dev-toolbox-959329449.yaml](dev-toolbox-959329449.yaml) |
+| directory-size-exporter-604235905 | evidence_only | [directory-size-exporter-604235905.md](directory-size-exporter-604235905.md) | [directory-size-exporter-604235905.yaml](directory-size-exporter-604235905.yaml) |
+| docker-registry-788884886 | evidence_only | [docker-registry-788884886.md](docker-registry-788884886.md) | [docker-registry-788884886.yaml](docker-registry-788884886.yaml) |
+| dora-integration-test-1145868367 | evidence_only | [dora-integration-test-1145868367.md](dora-integration-test-1145868367.md) | [dora-integration-test-1145868367.yaml](dora-integration-test-1145868367.yaml) |
+| eventing-auth-manager-623834856 | evidence_only | [eventing-auth-manager-623834856.md](eventing-auth-manager-623834856.md) | [eventing-auth-manager-623834856.yaml](eventing-auth-manager-623834856.yaml) |
 | github-678089458 | evidence_only | [github-678089458.md](github-678089458.md) | [github-678089458.yaml](github-678089458.yaml) |

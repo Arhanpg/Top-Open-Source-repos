@@ -1,0 +1,209 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:25:46+00:00'
+evidence_fingerprint: 89472cd6ad376f3eecb37ffa4aaf6c1bb6a5e7e759d36b2a6b0f28acd1724ca7
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/aws-otel-python-instrumentation
+  repository_id: 734796211
+  url: https://github.com/aws-observability/aws-otel-python-instrumentation
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T18:41:31Z'
+  stars: 13
+  readme_url: https://github.com/aws-observability/aws-otel-python-instrumentation/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1ca9642c193a973d69505b1c4a3caad12b9c3c20
+  manifest_paths:
+  - Dockerfile
+  - pyproject.toml
+  - aws-opentelemetry-distro/pyproject.toml
+  - cloudwatch-plugin-otel/pyproject.toml
+  - performance-tests/build.gradle.kts
+  - contract-tests/tests/pyproject.toml
+  source_files_inspected:
+  - tools/cp-utility/src/main.rs
+  - contract-tests/images/applications/cloudwatch-plugin-otel/server.py
+  - aws-opentelemetry-distro/src/amazon/opentelemetry/distro/_aws_attribute_keys.py
+  - aws-opentelemetry-distro/src/amazon/opentelemetry/distro/_aws_metric_attribute_generator.py
+  repository_tree:
+    status: captured
+    sha: 3fa2d6f138fcf89756340dc24a9f4391604a4ad6
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This project is a redistribution of the OpenTelemetry Distro for Python, preconfigured for use with AWS
+    services. Please check out that project too to get a better understanding of the underlying internals. You won't
+    see much code in this repository since we only apply some small configuration changes, and our OpenTelemetry
+    friends takes care of the rest. The exception to this is support for Application Signals.
+  why_used: This project is a redistribution of the OpenTelemetry Distro for Python, preconfigured for use with
+    AWS services. Please check out that project too to get a better understanding of the underlying internals. You
+    won't see much code in this repository since we only apply some small configuration changes, and our OpenTelemetry
+    friends takes care of the rest. The exception to this is support for Application Signals.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Java
+    - Dockerfile
+    - Shell
+    - Rust
+    - HCL
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - bytecode
+    - cachetools
+    - certifi
+    - docker
+    - grpcio
+    - jsonschema
+    - opentelemetry-api
+    - opentelemetry-distro
+    - opentelemetry-exporter-otlp-proto-common
+    - opentelemetry-exporter-otlp-proto-grpc
+    - opentelemetry-exporter-otlp-proto-http
+    - opentelemetry-instrumentation
+    - opentelemetry-instrumentation-aio-pika
+    - opentelemetry-instrumentation-aiohttp-client
+    - opentelemetry-instrumentation-aiokafka
+    - opentelemetry-instrumentation-aiopg
+    - opentelemetry-instrumentation-asgi
+    - opentelemetry-instrumentation-asyncpg
+    - opentelemetry-instrumentation-aws-lambda
+    - opentelemetry-instrumentation-boto3sqs
+    - opentelemetry-instrumentation-botocore
+    - opentelemetry-instrumentation-cassandra
+    - opentelemetry-instrumentation-celery
+    - opentelemetry-instrumentation-confluent-kafka
+    - opentelemetry-instrumentation-dbapi
+    - opentelemetry-instrumentation-django
+    - opentelemetry-instrumentation-falcon
+    - opentelemetry-instrumentation-fastapi
+    - opentelemetry-instrumentation-flask
+    - opentelemetry-instrumentation-grpc
+    - opentelemetry-instrumentation-httpx
+    - opentelemetry-instrumentation-jinja2
+    - opentelemetry-instrumentation-kafka-python
+    - opentelemetry-instrumentation-logging
+    - opentelemetry-instrumentation-mysql
+    - opentelemetry-instrumentation-mysqlclient
+    - opentelemetry-instrumentation-pika
+    - opentelemetry-instrumentation-psycopg2
+    - opentelemetry-instrumentation-pymemcache
+    - opentelemetry-instrumentation-pymongo
+    - opentelemetry-instrumentation-pymysql
+    - opentelemetry-instrumentation-pyramid
+    - opentelemetry-instrumentation-redis
+    - opentelemetry-instrumentation-remoulade
+    - opentelemetry-instrumentation-requests
+    - opentelemetry-instrumentation-sqlalchemy
+    - opentelemetry-instrumentation-sqlite3
+    - opentelemetry-instrumentation-starlette
+    - opentelemetry-instrumentation-system-metrics
+    - opentelemetry-instrumentation-threading
+    - opentelemetry-instrumentation-tornado
+    - opentelemetry-instrumentation-tortoiseorm
+    - opentelemetry-instrumentation-urllib
+    - opentelemetry-instrumentation-urllib3
+    - opentelemetry-instrumentation-wsgi
+    - opentelemetry-processor-baggage
+    - opentelemetry-propagator-aws-xray
+    - opentelemetry-propagator-b3
+    - opentelemetry-propagator-jaeger
+    - opentelemetry-propagator-ot-trace
+    - opentelemetry-proto
+    - opentelemetry-sdk
+    - opentelemetry-sdk-extension-aws
+    - opentelemetry-semantic-conventions
+    - protobuf
+    - python-dateutil
+    - pyyaml
+    - requests
+    - testcontainers
+    - typing-extensions
+    - urllib3
+    build_and_package_tools:
+    - Gradle Kotlin build file
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: tools/cp-utility/src/main.rs,
+    contract-tests/images/applications/cloudwatch-plugin-otel/server.py, aws-opentelemetry-distro/src/amazon/opentelemetry/distro/_aws_attribute_keys.py,
+    aws-opentelemetry-distro/src/amazon/opentelemetry/distro/_aws_metric_attribute_generator.py'
+  setup_and_usage:
+  - 'Getting Started: Check out the getting started documentation.'
+  limitations:
+  - 'Security issue notifications: If you discover a potential security issue in this project we ask that you notify
+    AWS/Amazon Security via our vulnerability reporting page. Please do **not** create a public github issue.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/aws-otel-python-instrumentation/blob/main/README.md
+  path: README.md
+  blob_sha: 1ca9642c193a973d69505b1c4a3caad12b9c3c20
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: d1204c3343e4c65805f4066d0ab370234a573ef9
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: e642977d15454bfb5add42d1e333fadc2c5947a5
+  retrieved: true
+- type: manifest
+  path: aws-opentelemetry-distro/pyproject.toml
+  blob_sha: d24c0e461c3cf1488ec5dad6952325ec8fbc17d4
+  retrieved: true
+- type: manifest
+  path: cloudwatch-plugin-otel/pyproject.toml
+  blob_sha: 85909cb1761b71c8320dd7fbd4ef00427d4f416f
+  retrieved: true
+- type: manifest
+  path: performance-tests/build.gradle.kts
+  blob_sha: a719841b2c02786343ea17a021e4769b2527209c
+  retrieved: true
+- type: manifest
+  path: contract-tests/tests/pyproject.toml
+  blob_sha: 5a83a62e1553c3611a58256e37cd170a1a13dc0f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 4458318
+    Java: 70810
+    Dockerfile: 17970
+    Shell: 14219
+    Rust: 14031
+    HCL: 5979
+    JavaScript: 3001
+- type: Git tree
+  status: captured
+  sha: 3fa2d6f138fcf89756340dc24a9f4391604a4ad6
+  truncated: false
+- type: source_file
+  path: tools/cp-utility/src/main.rs
+  blob_sha: 83b69d2bb2c2e99e810b39a438b7cd3c6f57e26a
+  retrieved: true
+- type: source_file
+  path: contract-tests/images/applications/cloudwatch-plugin-otel/server.py
+  blob_sha: 9bc04750faf20d1e4c3b1065623828f897b0d9df
+  retrieved: true
+- type: source_file
+  path: aws-opentelemetry-distro/src/amazon/opentelemetry/distro/_aws_attribute_keys.py
+  blob_sha: 69cff92622d937f4969fd925d3475da2bfbcee2b
+  retrieved: true
+- type: source_file
+  path: aws-opentelemetry-distro/src/amazon/opentelemetry/distro/_aws_metric_attribute_generator.py
+  blob_sha: 7f36cfab30e59a3d477780802602d2b02f0a1d4a
+  retrieved: true

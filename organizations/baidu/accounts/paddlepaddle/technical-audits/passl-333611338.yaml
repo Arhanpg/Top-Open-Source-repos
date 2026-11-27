@@ -1,0 +1,120 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:27:30+00:00'
+evidence_fingerprint: f5c050d204d248d91919a55b187f3d7be46f235ac3d4f2e8b509c0bd85568d83
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/PASSL
+  repository_id: 333611338
+  url: https://github.com/PaddlePaddle/PASSL
+  description: PASSL包含 SimCLR，MoCo v1/v2，BYOL，CLIP，PixPro，simsiam, SwAV, BEiT，MAE   等图像自监督算法以及 Vision Transformer，DEiT，Swin
+    Transformer，CvT，T2T-ViT，MLP-Mixer，XCiT，ConvNeXt，PVTv2 等基础视觉算法
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-08-01T12:12:32Z'
+  stars: 291
+  readme_url: https://github.com/PaddlePaddle/PASSL/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3e4cb82410151b1ba132762c9a72abbb4a51a843
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  - passl_v110/utils/setup.py
+  source_files_inspected:
+  - passl/core/__init__.py
+  - passl/core/grad_clip.py
+  - passl/core/grad_scaler.py
+  - passl/core/param_fuse.py
+  repository_tree:
+    status: captured
+    sha: 16bd25fcd0ab64767b149c52a0a7298ff637c8d0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ⚙️ English | 简体中文
+  why_used: PASSL包含 SimCLR，MoCo v1/v2，BYOL，CLIP，PixPro，simsiam, SwAV, BEiT，MAE   等图像自监督算法以及 Vision Transformer，DEiT，Swin
+    Transformer，CvT，T2T-ViT，MLP-Mixer，XCiT，ConvNeXt，PVTv2 等基础视觉算法
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Jupyter Notebook
+    frameworks_and_libraries: []
+    dependencies:
+    - easydict
+    - numpy
+    - onnx
+    - onnxruntime-gpu
+    - opencv-python
+    - paddle2onnx
+    - pillow
+    - prettytable
+    - requests
+    - scikit-image
+    - scikit-learn
+    - scipy
+    - tqdm
+    - visualdl
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: passl/core/__init__.py,
+    passl/core/grad_clip.py, passl/core/grad_scaler.py, passl/core/param_fuse.py'
+  setup_and_usage:
+  - 'Getting Started: Please see GETTING_STARTED.md for the basic usage of PASSL.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/PASSL/blob/main/README.md
+  path: README.md
+  blob_sha: 3e4cb82410151b1ba132762c9a72abbb4a51a843
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 477fa4cae9480c0bdd746a020d4967bb109b5cfb
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 4f7c556823733e4e5231622e81d3ae88d30358ce
+  retrieved: true
+- type: manifest
+  path: passl_v110/utils/setup.py
+  blob_sha: ec7c010cfe84fa3a363dc2aca12a2ba0e029a612
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 1757259
+    Shell: 186898
+    Jupyter Notebook: 2997
+- type: Git tree
+  status: captured
+  sha: 16bd25fcd0ab64767b149c52a0a7298ff637c8d0
+  truncated: false
+- type: source_file
+  path: passl/core/__init__.py
+  blob_sha: d1329172981a9d7215a5cffa966fd80c84a3308e
+  retrieved: true
+- type: source_file
+  path: passl/core/grad_clip.py
+  blob_sha: 1f47c80a627605d2baf95805559ebae0e6cb862c
+  retrieved: true
+- type: source_file
+  path: passl/core/grad_scaler.py
+  blob_sha: 46ade01ff3b740eb927df4a321252c879497727f
+  retrieved: true
+- type: source_file
+  path: passl/core/param_fuse.py
+  blob_sha: 599341ab41f2a7bc58ed7c1d4bba6250d8396eab
+  retrieved: true

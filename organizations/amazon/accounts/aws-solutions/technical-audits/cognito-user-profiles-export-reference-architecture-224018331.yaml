@@ -1,0 +1,127 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:19:44+00:00'
+evidence_fingerprint: bef41c365eb03bb9f8176312b931a050f9485496008b528748a8dca25a008efc
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/cognito-user-profiles-export-reference-architecture
+  repository_id: 224018331
+  url: https://github.com/aws-solutions/cognito-user-profiles-export-reference-architecture
+  description: This solution has been replaced by Guidance for User Profiles Export with Amazon Cognito
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2025-06-26T19:35:33Z'
+  stars: 55
+  readme_url: https://github.com/aws-solutions/cognito-user-profiles-export-reference-architecture/blob/main/README.md
+  readme_path: README.md
+  readme_sha: d319c548bc28c0944af2ca8d945fa757f4d2c571
+  manifest_paths:
+  - source/custom-resources/package.json
+  - source/utils/package.json
+  - source/workflow-common/package.json
+  - source/workflow-export/package.json
+  - source/workflow-import/package.json
+  source_files_inspected:
+  - deployment/build-s3-dist.sh
+  - deployment/run-unit-tests.sh
+  - source/custom-resources/check-stackset-status.js
+  - source/custom-resources/global-table-checker.js
+  repository_tree:
+    status: captured
+    sha: 9a3713f0ccb4872f0cd07a878be7005958240043
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ⚠️🚨⚠️ This solution has been replaced by Guidance for User Profiles Export with Amazon Cognito ⚠️🚨⚠️
+  why_used: This solution has been replaced by Guidance for User Profiles Export with Amazon Cognito
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-sdk/client-cloudformation'
+    - '@aws-sdk/client-cognito-identity-provider'
+    - '@aws-sdk/client-dynamodb'
+    - '@aws-sdk/client-s3'
+    - '@aws-sdk/client-sfn'
+    - '@aws-sdk/client-sns'
+    - '@aws-sdk/client-sqs'
+    - '@aws-sdk/client-ssm'
+    - '@aws-sdk/lib-dynamodb'
+    - '@aws-sdk/node-http-handler'
+    - aws-sdk-client-mock
+    - axios
+    - axios-mock-adapter
+    - jest
+    - moment
+    - uuid
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: deployment/build-s3-dist.sh,
+    deployment/run-unit-tests.sh, source/custom-resources/check-stackset-status.js, source/custom-resources/global-table-checker.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/cognito-user-profiles-export-reference-architecture/blob/main/README.md
+  path: README.md
+  blob_sha: d319c548bc28c0944af2ca8d945fa757f4d2c571
+  retrieved: true
+- type: manifest
+  path: source/custom-resources/package.json
+  blob_sha: 59d3243741da9ae5e81bef5b00b8c2f686fab9a4
+  retrieved: true
+- type: manifest
+  path: source/utils/package.json
+  blob_sha: 6d97a1cc0d3ed506269a17c4e3b116db37dc09d8
+  retrieved: true
+- type: manifest
+  path: source/workflow-common/package.json
+  blob_sha: 56b29842bd86c12eb19f3b297c505ca8b61c0369
+  retrieved: true
+- type: manifest
+  path: source/workflow-export/package.json
+  blob_sha: 870b39dcda100a46693a6215ce7b9749244ab7ba
+  retrieved: true
+- type: manifest
+  path: source/workflow-import/package.json
+  blob_sha: 020e23ab2ce19d508d7bc1d788f6beab65d3a1e1
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 245306
+    Shell: 5969
+- type: Git tree
+  status: captured
+  sha: 9a3713f0ccb4872f0cd07a878be7005958240043
+  truncated: false
+- type: source_file
+  path: deployment/build-s3-dist.sh
+  blob_sha: 9c9e237ef8de1e344b68c4345978f5c359dcd30b
+  retrieved: true
+- type: source_file
+  path: deployment/run-unit-tests.sh
+  blob_sha: 2a521e2d9e75a116faf03aa9bc5dc2059b98b4a1
+  retrieved: true
+- type: source_file
+  path: source/custom-resources/check-stackset-status.js
+  blob_sha: 3017df9625fd1eb08f957765d1c47c1d1db9b0f0
+  retrieved: true
+- type: source_file
+  path: source/custom-resources/global-table-checker.js
+  blob_sha: 2ce690480679518fbff2689a5cd33e87c6197aa8
+  retrieved: true

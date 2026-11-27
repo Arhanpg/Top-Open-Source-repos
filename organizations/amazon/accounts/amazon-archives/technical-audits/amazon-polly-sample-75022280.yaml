@@ -1,0 +1,85 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:37:13+00:00'
+evidence_fingerprint: 257810ebed732b8c40bd40a465ebb51a4b8987166f5024e22c9169c4e36dafca
+repository_metadata:
+  company: Amazon
+  account: amazon-archives
+  full_name: amazon-archives/amazon-polly-sample
+  repository_id: 75022280
+  url: https://github.com/amazon-archives/amazon-polly-sample
+  description: Sample application for Amazon Polly. Allows to convert any blog into an audio podcast.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2020-01-30T20:20:01Z'
+  stars: 151
+  readme_url: https://github.com/amazon-archives/amazon-polly-sample/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 9f9ffb527d5dcd5499819465d7525e17f3cc3b73
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - lambda_function.py
+  repository_tree:
+    status: captured
+    sha: 74597916f554bab8f38aba06fa194096e617a7a6
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This app allows you to easily convert any publicly available RSS content into audio Podcasts, so you
+    can listen to your favorite blogs on mobile devices instead of reading them.
+  why_used: Sample application for Amazon Polly. Allows to convert any blog into an audio podcast.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - awscli
+    - boto3
+    - bs4
+    - feedgen
+    - feedparser
+    - python-dateutil
+    - python-lambda
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: __init__.py, lambda_function.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-archives/amazon-polly-sample/blob/master/README.md
+  path: README.md
+  blob_sha: 9f9ffb527d5dcd5499819465d7525e17f3cc3b73
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: da0e0ec0ab42e38eff48eda40ec31abedd0d9607
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 4249
+- type: Git tree
+  status: captured
+  sha: 74597916f554bab8f38aba06fa194096e617a7a6
+  truncated: false
+- type: source_file
+  path: __init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: lambda_function.py
+  blob_sha: 117660e939fb3fa4de966c2b0795565680aab443
+  retrieved: true

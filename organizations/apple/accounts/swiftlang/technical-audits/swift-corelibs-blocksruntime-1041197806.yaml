@@ -1,0 +1,103 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:40:01+00:00'
+evidence_fingerprint: 060714fb9b4e864ab6dfed9025a0022c5e085598f0741f6b5b0af3e421500ab0
+repository_metadata:
+  company: Apple
+  account: swiftlang
+  full_name: swiftlang/swift-corelibs-blocksruntime
+  repository_id: 1041197806
+  url: https://github.com/swiftlang/swift-corelibs-blocksruntime
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T18:42:17Z'
+  stars: 4
+  readme_url: https://github.com/swiftlang/swift-corelibs-blocksruntime/blob/main/README.md
+  readme_path: README.md
+  readme_sha: aabed7b47c6d6b2b19aeacd866a7b788a50fdefa
+  manifest_paths:
+  - CMakeLists.txt
+  - cmake/modules/CMakeLists.txt
+  - src/BlocksRuntime/CMakeLists.txt
+  source_files_inspected:
+  - src/BlocksRuntime/Block.h
+  - src/BlocksRuntime/Block_private.h
+  - src/BlocksRuntime/data.c
+  - src/BlocksRuntime/runtime.c
+  repository_tree:
+    status: captured
+    sha: bab3309f4ee02fbb0d0cb11cd9d306b0872d84b1
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The BlocksRuntime library (also known as "libclosure") contains the runtime support for the C/Objective-C
+    "blocks" feature.
+  why_used: The BlocksRuntime library (also known as "libclosure") contains the runtime support for the C/Objective-C
+    "blocks" feature.
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/BlocksRuntime/Block.h,
+    src/BlocksRuntime/Block_private.h, src/BlocksRuntime/data.c, src/BlocksRuntime/runtime.c'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/swiftlang/swift-corelibs-blocksruntime/blob/main/README.md
+  path: README.md
+  blob_sha: aabed7b47c6d6b2b19aeacd866a7b788a50fdefa
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 8603c6a3080cee1049ea864b43e28459f77a5eed
+  retrieved: true
+- type: manifest
+  path: cmake/modules/CMakeLists.txt
+  blob_sha: 10cc0e100dfcfa1a5a8363247b4010ad5ec2dc76
+  retrieved: true
+- type: manifest
+  path: src/BlocksRuntime/CMakeLists.txt
+  blob_sha: 2301ffea7cd93aec638296cf08fc7e1dfbab3a0d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 41698
+    CMake: 5210
+- type: Git tree
+  status: captured
+  sha: bab3309f4ee02fbb0d0cb11cd9d306b0872d84b1
+  truncated: false
+- type: source_file
+  path: src/BlocksRuntime/Block.h
+  blob_sha: 32f27f4f94b69cb6d0498051c5cb8d1e26e4aa71
+  retrieved: true
+- type: source_file
+  path: src/BlocksRuntime/Block_private.h
+  blob_sha: b2e1512ac977fe3ec0b02298759c2b5baa93a844
+  retrieved: true
+- type: source_file
+  path: src/BlocksRuntime/data.c
+  blob_sha: fe4745b04d682858dc41f0d75fb4dc725c596ac3
+  retrieved: true
+- type: source_file
+  path: src/BlocksRuntime/runtime.c
+  blob_sha: 4b7d4bfa2c666202240b823d35cc895879bb737e
+  retrieved: true

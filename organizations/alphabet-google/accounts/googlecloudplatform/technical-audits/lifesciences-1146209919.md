@@ -6,7 +6,7 @@
 - Default branch: main
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-27T07:18:13+00:00
+- Generated: 2026-11-27T22:37:06+00:00
 
 ## Project purpose
 
@@ -22,7 +22,7 @@ No separately supported feature list extracted.
 
 ## Technology stack
 
-- Languages: Unknown / not established
+- Languages: Python, HTML, Shell, TypeScript, HCL, Dockerfile, JavaScript, Go Template
 - Frameworks/libraries: Unknown / not established
 - Dependency names: PyYAML, a2a-sdk, aiohttp, annotated-types, anyio, certifi, cffi, charset-normalizer, click, cryptography, distro, docstring-parser, fastapi, gcsfs, google-adk, google-api-core, google-auth, google-cloud-agentplatform, google-cloud-aiplatform, google-cloud-bigquery, google-cloud-core, google-cloud-logging, google-cloud-resource-manager, google-cloud-storage, google-crc32c, google-genai, google-resumable-media, googleapis-common-protos, grpc-google-iam-v1, grpcio, grpcio-status, h11, httpcore, httpx, idna, jinja2, jsonpath-ng, markdown, markupsafe, matplotlib, mcp, mistune, numpy, opentelemetry-resourcedetector-gcp, pillow, protobuf, pydantic, pydantic-settings, python-dotenv, python-multipart, requests, starlette, uvicorn, xhtml2pdf, zstandard
 - Build/package tools: Docker build configuration, Python project manifest, pip requirements file
@@ -54,7 +54,7 @@ No explicit limitations extracted; this does not mean none exist.
 - Manifests: applications/sentinel/Dockerfile, applications/sentinel/pyproject.toml, applications/open-agentic-science-engine/tools/pyproject.toml, applications/open-agentic-science-engine/tools/requirements.txt, applications/pharma-on-gemini-enterprise/argus-on-gemini-enterprise/Dockerfile, applications/pharma-on-gemini-enterprise/argus-on-gemini-enterprise/pyproject.toml
 - Sampled source files: applications/protein-structure-prediction/src/foldrun-analysis-job/foldrun_analysis/main.py, applications/protein-structure-prediction/src/foldrun-viewer/app.py, applications/sentinel/frontend/src/types/index.ts, applications/open-agentic-science-engine/eval/__main__.py
 - Git tree state: captured
-- Evidence fingerprint: e8f4800955d33bc1cd420a11f42c7af14cfe834b3cc80a9125e824037dc8baa7
+- Evidence fingerprint: f5ac50db6aba8d563d95f1aeec0d31f171a808cdec41fd76c13dfdec475d3a5d
 
 ## Unverified / unknown
 

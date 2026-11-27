@@ -1,0 +1,137 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:17:27+00:00'
+evidence_fingerprint: 7d45468d6f807a7b99b86ab242491a75fd56ee8c0c2e66f70235a170ddef558f
+repository_metadata:
+  company: Alphabet (Google)
+  account: google
+  full_name: google/CoMMA
+  repository_id: 997602476
+  url: https://github.com/google/CoMMA
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-12T22:08:16Z'
+  stars: 27
+  readme_url: https://github.com/google/CoMMA/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 72d3ff9051baa17877fc42a8f200d2731e01bd80
+  manifest_paths:
+  - Cargo.toml
+  - c-helpers/CMakeLists.txt
+  source_files_inspected:
+  - src/lib.rs
+  - GPUViz/src/nccl_stats.h
+  - src/clock.rs
+  - src/cloud_daemon.rs
+  repository_tree:
+    status: captured
+    sha: ac736cee9d8caf84fb05bfd7ca00ca93dca05943
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is the repository for CoMMA, a library that collects collective telemetry through NCCL's profiler
+    plugin API.
+  why_used: This is the repository for CoMMA, a library that collects collective telemetry through NCCL's profiler
+    plugin API.
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    - C
+    - CMake
+    frameworks_and_libraries: []
+    dependencies:
+    - bindgen
+    - clap
+    - cmake
+    - criterion
+    - crossbeam
+    - env_logger
+    - histogram
+    - libc
+    - libloading
+    - log
+    - nom
+    - nvml-wrapper
+    - opentelemetry
+    - opentelemetry-otlp
+    - opentelemetry_sdk
+    - prost
+    - prost-types
+    - rand
+    - serde_json
+    - static_assertions
+    - tempfile
+    - tokio
+    - tonic
+    - tonic-build
+    build_and_package_tools:
+    - Cargo manifest
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/lib.rs, GPUViz/src/nccl_stats.h,
+    src/clock.rs, src/cloud_daemon.rs'
+  setup_and_usage:
+  - 'Getting Started: CoMMA is often pre-installed as part of most GCP AI Hypercomputer container and OS images
+    and is enabled by default. For more information, see the AI Hypercomputer documentation.'
+  - 'Getting Started: If you use any of these OS or container images and want to disable CoMMA from collecting NCCL
+    telemetry, see Disable CoMMA.'
+  - 'Installation: If you don''t use any of these images and want to install CoMMA, use one of the following methods.
+    For full installation instructions, see AI Hypercomputer documentation.'
+  - 'Installation: | Installation method | Supported machine types |'
+  - 'Installation: |---------------------|-------------------------|'
+  - 'Installation: | Use NCCL gIB image (Recommended for newer machine types) | A4X, A4 High, and A3 Ultra |'
+  - 'Installation: | Use CoMMA installer image | A4X, A4 High, and A3 Ultra |'
+  - 'Installation: | Build from source (Required for older machine types) | A3 Mega, A3 High, A3 Edge, A2 Ultra,
+    A2 Standard, and N1 with attached GPUs |'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google/CoMMA/blob/main/README.md
+  path: README.md
+  blob_sha: 72d3ff9051baa17877fc42a8f200d2731e01bd80
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: cf30553fcdfbf0bc6debfcef2921c0d3d2940e05
+  retrieved: true
+- type: manifest
+  path: c-helpers/CMakeLists.txt
+  blob_sha: 5142e04e6e4b042aa2d99b726b7c36f1e614f5e8
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 380100
+    C: 13760
+    CMake: 971
+- type: Git tree
+  status: captured
+  sha: ac736cee9d8caf84fb05bfd7ca00ca93dca05943
+  truncated: false
+- type: source_file
+  path: src/lib.rs
+  blob_sha: b72136d060dd6da2c0f7f76fac12be5b7684f2cf
+  retrieved: true
+- type: source_file
+  path: GPUViz/src/nccl_stats.h
+  blob_sha: b149a5eab1fd1b62dd150be79c132d10984f4666
+  retrieved: true
+- type: source_file
+  path: src/clock.rs
+  blob_sha: 99b6b430acaf1a0244c41063463e1af1de6897e5
+  retrieved: true
+- type: source_file
+  path: src/cloud_daemon.rs
+  blob_sha: 35100953a55515bb7163f24983ffc4147479f676
+  retrieved: true

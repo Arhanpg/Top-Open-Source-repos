@@ -1,10 +1,10 @@
 # Technical audits — freertos
 
-Updated: 2026-11-27T07:24:05+00:00
+Updated: 2026-11-27T22:44:05+00:00
 
 ## Status counts
 
-- evidence_only: 19
+- evidence_only: 23
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -30,4 +30,8 @@ Updated: 2026-11-27T07:24:05+00:00
 | freertos-partner-supported-demos-375532288 | evidence_only | [freertos-partner-supported-demos-375532288.md](freertos-partner-supported-demos-375532288.md) | [freertos-partner-supported-demos-375532288.yaml](freertos-partner-supported-demos-375532288.yaml) |
 | freertos-plus-tcp-288329655 | evidence_only | [freertos-plus-tcp-288329655.md](freertos-plus-tcp-288329655.md) | [freertos-plus-tcp-288329655.yaml](freertos-plus-tcp-288329655.yaml) |
 | freertos-sesip-320092446 | evidence_only | [freertos-sesip-320092446.md](freertos-sesip-320092446.md) | [freertos-sesip-320092446.yaml](freertos-sesip-320092446.yaml) |
+| freertos-smp-demos-337543553 | evidence_only | [freertos-smp-demos-337543553.md](freertos-smp-demos-337543553.md) | [freertos-smp-demos-337543553.yaml](freertos-smp-demos-337543553.yaml) |
+| freertos-website-content-1346401741 | evidence_only | [freertos-website-content-1346401741.md](freertos-website-content-1346401741.md) | [freertos-website-content-1346401741.yaml](freertos-website-content-1346401741.yaml) |
 | github-744757911 | insufficient_evidence | [github-744757911.md](github-744757911.md) | [github-744757911.yaml](github-744757911.yaml) |
+| lab-project-cmsis-packs-demos-504617363 | evidence_only | [lab-project-cmsis-packs-demos-504617363.md](lab-project-cmsis-packs-demos-504617363.md) | [lab-project-cmsis-packs-demos-504617363.yaml](lab-project-cmsis-packs-demos-504617363.yaml) |
+| lab-project-espressif-demos-438439516 | evidence_only | [lab-project-espressif-demos-438439516.md](lab-project-espressif-demos-438439516.md) | [lab-project-espressif-demos-438439516.yaml](lab-project-espressif-demos-438439516.yaml) |

@@ -1,10 +1,10 @@
 # Technical audits — awslabs
 
-Updated: 2026-11-27T07:24:07+00:00
+Updated: 2026-11-27T22:44:05+00:00
 
 ## Status counts
 
-- evidence_only: 16
+- evidence_only: 20
 
 ## Repository dossiers
 
@@ -26,3 +26,7 @@ Updated: 2026-11-27T07:24:07+00:00
 | github-171341712 | evidence_only | [github-171341712.md](github-171341712.md) | [github-171341712.yaml](github-171341712.yaml) |
 | hlat-848084888 | evidence_only | [hlat-848084888.md](hlat-848084888.md) | [hlat-848084888.yaml](hlat-848084888.yaml) |
 | hope-1396657565 | evidence_only | [hope-1396657565.md](hope-1396657565.md) | [hope-1396657565.yaml](hope-1396657565.yaml) |
+| infracanvas-1008151053 | evidence_only | [infracanvas-1008151053.md](infracanvas-1008151053.md) | [infracanvas-1008151053.yaml](infracanvas-1008151053.yaml) |
+| infradocgen-1058549207 | evidence_only | [infradocgen-1058549207.md](infradocgen-1058549207.md) | [infradocgen-1058549207.yaml](infradocgen-1058549207.yaml) |
+| infraforge-1054250313 | evidence_only | [infraforge-1054250313.md](infraforge-1054250313.md) | [infraforge-1054250313.yaml](infraforge-1054250313.yaml) |
+| isitonaws-85245642 | evidence_only | [isitonaws-85245642.md](isitonaws-85245642.md) | [isitonaws-85245642.yaml](isitonaws-85245642.yaml) |

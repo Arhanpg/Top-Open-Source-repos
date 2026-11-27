@@ -1,10 +1,10 @@
 # Technical audits — aws-deepracer
 
-Updated: 2026-11-27T07:24:06+00:00
+Updated: 2026-11-27T22:44:10+00:00
 
 ## Status counts
 
-- evidence_only: 21
+- evidence_only: 25
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -32,4 +32,8 @@ Updated: 2026-11-27T07:24:06+00:00
 | aws-deepracer-usb-monitor-pkg-341985728 | evidence_only | [aws-deepracer-usb-monitor-pkg-341985728.md](aws-deepracer-usb-monitor-pkg-341985728.md) | [aws-deepracer-usb-monitor-pkg-341985728.yaml](aws-deepracer-usb-monitor-pkg-341985728.yaml) |
 | aws-deepracer-webserver-pkg-341985928 | evidence_only | [aws-deepracer-webserver-pkg-341985928.md](aws-deepracer-webserver-pkg-341985928.md) | [aws-deepracer-webserver-pkg-341985928.yaml](aws-deepracer-webserver-pkg-341985928.yaml) |
 | deepracer-compat-reward-function-472958848 | evidence_only | [deepracer-compat-reward-function-472958848.md](deepracer-compat-reward-function-472958848.md) | [deepracer-compat-reward-function-472958848.yaml](deepracer-compat-reward-function-472958848.yaml) |
+| deepracer-env-449868509 | evidence_only | [deepracer-env-449868509.md](deepracer-env-449868509.md) | [deepracer-env-449868509.yaml](deepracer-env-449868509.yaml) |
+| deepracer-env-config-449867944 | evidence_only | [deepracer-env-config-449867944.md](deepracer-env-config-449867944.md) | [deepracer-env-config-449867944.yaml](deepracer-env-config-449867944.yaml) |
+| deepracer-env-state-472960404 | evidence_only | [deepracer-env-state-472960404.md](deepracer-env-state-472960404.md) | [deepracer-env-state-472960404.yaml](deepracer-env-state-472960404.yaml) |
+| deepracer-track-geometry-462049882 | evidence_only | [deepracer-track-geometry-462049882.md](deepracer-track-geometry-462049882.md) | [deepracer-track-geometry-462049882.yaml](deepracer-track-geometry-462049882.yaml) |
 | github-744758268 | insufficient_evidence | [github-744758268.md](github-744758268.md) | [github-744758268.yaml](github-744758268.yaml) |

@@ -1,0 +1,141 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:34:58+00:00'
+evidence_fingerprint: 57c79de208bc07bb7623116ab6cbb5fd51c4ec45668f2aebbb92438378b08d81
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/cugraph-gnn
+  repository_id: 528468843
+  url: https://github.com/rapidsai/cugraph-gnn
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T19:03:25Z'
+  stars: 82
+  readme_url: https://github.com/rapidsai/cugraph-gnn/blob/main/README.md
+  readme_path: README.md
+  readme_sha: d0856ce96c89bcb850bfa3d60dbad194192ce180
+  manifest_paths:
+  - pyproject.toml
+  - .devcontainer/Dockerfile
+  - cpp/CMakeLists.txt
+  - cpp/bench/CMakeLists.txt
+  - cpp/tests/CMakeLists.txt
+  - python/cugraph-pyg/pyproject.toml
+  source_files_inspected:
+  - cpp/src/cuda_macros.cpp
+  - cpp/src/cuda_macros.hpp
+  - cpp/src/error.hpp
+  - cpp/src/graph_ops/append_unique.cpp
+  repository_tree:
+    status: captured
+    sha: e938141469cdcf67380a0fc5d127bc44c703eae1
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: RAPIDS cuGraph GNN is a monorepo containing packages for GPU-accelerated graph neural networks (GNNs).
+    cuGraph-GNN supports the creation and manipulation of graphs followed by the execution of scalable fast graph
+    algorithms.
+  why_used: RAPIDS cuGraph GNN is a monorepo containing packages for GPU-accelerated graph neural networks (GNNs).
+    cuGraph-GNN supports the creation and manipulation of graphs followed by the execution of scalable fast graph
+    algorithms.
+  core_features: []
+  technology_stack:
+    languages:
+    - Cuda
+    - Python
+    - C++
+    - Cython
+    - Shell
+    - C
+    - CMake
+    - HTML
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - cupy-cuda13x
+    - numpy
+    - pandas
+    - pylibcugraph
+    - pylibwholegraph
+    build_and_package_tools:
+    - CMake configuration
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cpp/src/cuda_macros.cpp,
+    cpp/src/cuda_macros.hpp, cpp/src/error.hpp, cpp/src/graph_ops/append_unique.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/cugraph-gnn/blob/main/README.md
+  path: README.md
+  blob_sha: d0856ce96c89bcb850bfa3d60dbad194192ce180
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 5662e9f0662e4ff03ee13396b00461f1f2cf3a6e
+  retrieved: true
+- type: manifest
+  path: .devcontainer/Dockerfile
+  blob_sha: 1283563fe665a2d0efba7c01335f25b161fae333
+  retrieved: true
+- type: manifest
+  path: cpp/CMakeLists.txt
+  blob_sha: bf007aa6004f95ac7280301ebb11f407c7c3b82b
+  retrieved: true
+- type: manifest
+  path: cpp/bench/CMakeLists.txt
+  blob_sha: 32d7aec540c610c06597670249e3ec89a9dc9107
+  retrieved: true
+- type: manifest
+  path: cpp/tests/CMakeLists.txt
+  blob_sha: bef779695bd7345002ad4400cef2ee6045b2b5da
+  retrieved: true
+- type: manifest
+  path: python/cugraph-pyg/pyproject.toml
+  blob_sha: e4b3a8a4a300a0542488e553bb9911be217bcfce
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Cuda: 831774
+    Python: 719929
+    C++: 647473
+    Cython: 95917
+    Shell: 71475
+    C: 59753
+    CMake: 26580
+    HTML: 2352
+    Dockerfile: 1636
+- type: Git tree
+  status: captured
+  sha: e938141469cdcf67380a0fc5d127bc44c703eae1
+  truncated: false
+- type: source_file
+  path: cpp/src/cuda_macros.cpp
+  blob_sha: 819e1a570ec25ec022f8a8f5a30a2e577c34e33e
+  retrieved: true
+- type: source_file
+  path: cpp/src/cuda_macros.hpp
+  blob_sha: c41a00c6247b09ad88ae88efec3278946c2f3fe3
+  retrieved: true
+- type: source_file
+  path: cpp/src/error.hpp
+  blob_sha: a902f8f4e3503857301e01be276179726a70fecb
+  retrieved: true
+- type: source_file
+  path: cpp/src/graph_ops/append_unique.cpp
+  blob_sha: 3819997efc6eb2541c87515d204151ed219d25e5
+  retrieved: true

@@ -1,0 +1,151 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:20:58+00:00'
+evidence_fingerprint: 10dc9d2f362df973a03792fb5d61c7619bc158b0df563834e4f0d42a9cfe0490
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/PARL
+  repository_id: 131044128
+  url: https://github.com/PaddlePaddle/PARL
+  description: 'A high-performance distributed training framework for Reinforcement Learning '
+  default_branch: develop
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-02T03:09:36Z'
+  stars: 3453
+  readme_url: https://github.com/PaddlePaddle/PARL/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: c962c0919cef182093d4942dc3ef5b899caad29f
+  manifest_paths:
+  - CMakeLists.txt
+  - setup.py
+  - .teamcity/Dockerfile
+  - .teamcity/requirements.txt
+  - docs/Makefile
+  - docs/requirements.txt
+  source_files_inspected:
+  - benchmark/torch/AlphaZero/main.py
+  - evo_kit/core/include/evo_kit/adam_optimizer.h
+  - evo_kit/core/include/evo_kit/cached_gaussian_sampling.h
+  - evo_kit/core/include/evo_kit/gaussian_sampling.h
+  repository_tree:
+    status: captured
+    sha: 14a14f0608ab09db4dd8789bf53a031a818bb414
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: English | 简体中文
+  why_used: A high-performance distributed training framework for Reinforcement Learning
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - JavaScript
+    - Shell
+    - HTML
+    - CMake
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - details
+    - gym
+    - opencv-python
+    - paddlepaddle
+    - parameterized
+    - rarfile
+    build_and_package_tools:
+    - CMake configuration
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: benchmark/torch/AlphaZero/main.py,
+    evo_kit/core/include/evo_kit/adam_optimizer.h, evo_kit/core/include/evo_kit/cached_gaussian_sampling.h, evo_kit/core/include/evo_kit/gaussian_sampling.h'
+  setup_and_usage:
+  - 'Getting Started: Several-points to get you started:'
+  - 'Getting Started: - Tutorial : How to solve cartpole problem.'
+  - 'Getting Started: - Xparl Usage : How to set up a cluster with xparl and compute in parallel.'
+  - 'Getting Started: - Advanced Tutorial : Create customized algorithms.'
+  - 'Getting Started: For beginners who know little about reinforcement learning, we also provide an introductory
+    course: ( Video | Code )'
+  limitations:
+  - 'xparl Security: xparl runs Python code on trusted cluster machines. Set a shared, randomly generated XPARL_AUTH_TOKEN
+    of at least 32 bytes on every master, worker, and client before startup. All ZeroMQ connections require CURVE
+    authentication and encryption; control metadata uses validated JSON. The master and HTTP services bind to loopback
+    by default, and HTTP mo'
+  - 'Security Considerations: - Only trusted users and machines may hold the cluster secret or submit code.'
+  - 'Security Considerations: - Keep all cluster and heartbeat ports on a private network behind a firewall.'
+  - 'Security Considerations: - Upgrade all nodes and clients together; older processes cannot use the new protocol.'
+  - 'Security Considerations: - Existing published packages require an upgrade to patched source or a release containing
+    the fix.'
+  - 'Security Considerations: See the security and upgrade guide for configuration, monitoring access, and migration
+    steps.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/PARL/blob/develop/README.md
+  path: README.md
+  blob_sha: c962c0919cef182093d4942dc3ef5b899caad29f
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 8daf5a72bfed1883b5b3dcd780b666b4ca17cb2a
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 477b63a7af0511b0acc60eedfa0b6ef2407f31e7
+  retrieved: true
+- type: manifest
+  path: .teamcity/Dockerfile
+  blob_sha: 9ed59d152b7684f483dc5a54295500a3a3991feb
+  retrieved: true
+- type: manifest
+  path: .teamcity/requirements.txt
+  blob_sha: a9ed2ccc7d910111379a74e990b4108d23b493bd
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: 5dede4aa4a23f17efed56f090855c4b111d2a84d
+  retrieved: true
+- type: manifest
+  path: docs/requirements.txt
+  blob_sha: 6800c233bec49e0bb3d016f3547ade68f4f902f6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 1855649
+    C++: 90735
+    JavaScript: 33170
+    Shell: 21321
+    HTML: 12992
+    CMake: 12034
+    Dockerfile: 1298
+- type: Git tree
+  status: captured
+  sha: 14a14f0608ab09db4dd8789bf53a031a818bb414
+  truncated: false
+- type: source_file
+  path: benchmark/torch/AlphaZero/main.py
+  blob_sha: 433e2ff0efb35e6a39df53a845a25a8110b20993
+  retrieved: true
+- type: source_file
+  path: evo_kit/core/include/evo_kit/adam_optimizer.h
+  blob_sha: b268b69f61d35e5d6df8eeb56b1869e7bcb828ff
+  retrieved: true
+- type: source_file
+  path: evo_kit/core/include/evo_kit/cached_gaussian_sampling.h
+  blob_sha: c033fb7f23e9d3d91754237cad61e181a823db2d
+  retrieved: true
+- type: source_file
+  path: evo_kit/core/include/evo_kit/gaussian_sampling.h
+  blob_sha: c0fc66f058f2d1b9224d19d5c029cdca1853f638
+  retrieved: true

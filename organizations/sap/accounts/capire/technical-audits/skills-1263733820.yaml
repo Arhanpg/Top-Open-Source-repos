@@ -1,0 +1,98 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:22:25+00:00'
+evidence_fingerprint: 2d051cbee29818f1d02a1a0c3945043b0462f1ed4b62f8412b788cb8c70e788a
+repository_metadata:
+  company: SAP
+  account: capire
+  full_name: capire/skills
+  repository_id: 1263733820
+  url: https://github.com/capire/skills
+  description: Skills for Development of SAP Cloud Application Programming Model
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-13T18:54:21Z'
+  stars: 20
+  readme_url: https://github.com/capire/skills/blob/main/README.md
+  readme_path: README.md
+  readme_sha: c82e52a4a52530d59d04b2df9b8b77eda0054e10
+  manifest_paths:
+  - skills/cap-add-remote-service/evals/fixture/package.json
+  - skills/cap-mtx/evals/fixture/package.json
+  - skills/cap-developer/evals/fixtures/esm-helpdesk/package.json
+  source_files_inspected:
+  - skills/cap-add-remote-service/evals/fixture/srv/travel-service.js
+  - skills/cap-developer/evals/fixtures/esm-helpdesk/srv/ticket-service.js
+  - skills/cap-mtx/evals/fixture/srv/incidents-service.js
+  repository_tree:
+    status: captured
+    sha: b0b44b991c607d0fb08dbc592eb2bdf35fde1f67
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Curated set of skills helping AI coding agents build and maintain CAP applications.
+  why_used: Skills for Development of SAP Cloud Application Programming Model
+  core_features: []
+  technology_stack:
+    languages:
+    - CAP CDS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/sqlite'
+    - '@capire/xflights-data'
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: skills/cap-add-remote-service/evals/fixture/srv/travel-service.js,
+    skills/cap-developer/evals/fixtures/esm-helpdesk/srv/ticket-service.js, skills/cap-mtx/evals/fixture/srv/incidents-service.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/capire/skills/blob/main/README.md
+  path: README.md
+  blob_sha: c82e52a4a52530d59d04b2df9b8b77eda0054e10
+  retrieved: true
+- type: manifest
+  path: skills/cap-add-remote-service/evals/fixture/package.json
+  blob_sha: ea49d1a22758d1f5e6dcc82978ee9b99bb07c502
+  retrieved: true
+- type: manifest
+  path: skills/cap-mtx/evals/fixture/package.json
+  blob_sha: 71badfc58bb3989a30d6d1b58d453540ad2f01ad
+  retrieved: true
+- type: manifest
+  path: skills/cap-developer/evals/fixtures/esm-helpdesk/package.json
+  blob_sha: 7b6487275eb304fcd53fb144d00bb1053d4d561a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    CAP CDS: 1375
+- type: Git tree
+  status: captured
+  sha: b0b44b991c607d0fb08dbc592eb2bdf35fde1f67
+  truncated: false
+- type: source_file
+  path: skills/cap-add-remote-service/evals/fixture/srv/travel-service.js
+  blob_sha: 9ca704930e151dc12114c1a3042fab23cf2b3af6
+  retrieved: true
+- type: source_file
+  path: skills/cap-developer/evals/fixtures/esm-helpdesk/srv/ticket-service.js
+  blob_sha: 67e249893e521c43be05cd08d40479b103bf8eef
+  retrieved: true
+- type: source_file
+  path: skills/cap-mtx/evals/fixture/srv/incidents-service.js
+  blob_sha: 71fb407060f469d80dc41e3bef8dfd5a7f4a5def
+  retrieved: true

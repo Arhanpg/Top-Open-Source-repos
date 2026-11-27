@@ -1,0 +1,82 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:34:25+00:00'
+evidence_fingerprint: 2dfba8d4e71bc62443135653f8616226d6e3d957ab7f3ae7a7c0770a312ff6d0
+repository_metadata:
+  company: Microsoft
+  account: microsoft
+  full_name: microsoft/ADLaM-Display
+  repository_id: 654246770
+  url: https://github.com/microsoft/ADLaM-Display
+  description: A display font for the ADLaM script, which is an indigenous writing system for some West African
+    languages.
+  default_branch: main
+  license_spdx: OFL-1.1
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-01-19T18:01:03Z'
+  stars: 14
+  readme_url: https://github.com/microsoft/ADLaM-Display/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 0e39f03638b3ed4bf018a94141095a073f77e960
+  manifest_paths:
+  - Makefile
+  - requirements.txt
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: 8d9ee8c796161c712f5f3d19a75a4803643e804b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: To help address the lack of display typefaces for the ADLaM script, invented by Ibrahima and Abdoulaye
+    Barry, Microsoft commissioned three renowned type designers Neil Patel, Mark Jamra, and Andrew Footit to create
+    ADLaM Display. The team created the font by taking inspiration from the spots, triangles, lozenges and chevrons
+    patterns found in traditional khasas (blankets), Wodaabe (hats), and textiles of the Fulani culture.
+  why_used: A display font for the ADLaM script, which is an indigenous writing system for some West African languages.
+  core_features: []
+  technology_stack:
+    languages:
+    - Makefile
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - fontbakery
+    - fontmake
+    - gftools
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/microsoft/ADLaM-Display/blob/main/README.md
+  path: README.md
+  blob_sha: 0e39f03638b3ed4bf018a94141095a073f77e960
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: c51c5f6a3833ab538f266444813181bf6d5acb28
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 91396ab5a4da41e4af06f239c652dc2e36914cfd
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Makefile: 903
+    HTML: 590
+- type: Git tree
+  status: captured
+  sha: 8d9ee8c796161c712f5f3d19a75a4803643e804b
+  truncated: false

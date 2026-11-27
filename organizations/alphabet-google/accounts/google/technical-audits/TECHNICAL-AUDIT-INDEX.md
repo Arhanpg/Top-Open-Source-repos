@@ -1,10 +1,10 @@
 # Technical audits — google
 
-Updated: 2026-11-27T07:24:10+00:00
+Updated: 2026-11-27T22:44:04+00:00
 
 ## Status counts
 
-- evidence_only: 22
+- evidence_only: 27
 
 ## Repository dossiers
 
@@ -28,7 +28,12 @@ Updated: 2026-11-27T07:24:10+00:00
 | channelplate-5511393 | evidence_only | [channelplate-5511393.md](channelplate-5511393.md) | [channelplate-5511393.yaml](channelplate-5511393.yaml) |
 | chrome-docs-41880252 | evidence_only | [chrome-docs-41880252.md](chrome-docs-41880252.md) | [chrome-docs-41880252.yaml](chrome-docs-41880252.yaml) |
 | chromebrowserenterprise-419020781 | evidence_only | [chromebrowserenterprise-419020781.md](chromebrowserenterprise-419020781.md) | [chromebrowserenterprise-419020781.yaml](chromebrowserenterprise-419020781.yaml) |
+| codecity-75521723 | evidence_only | [codecity-75521723.md](codecity-75521723.md) | [codecity-75521723.yaml](codecity-75521723.yaml) |
+| comma-997602476 | evidence_only | [comma-997602476.md](comma-997602476.md) | [comma-997602476.yaml](comma-997602476.yaml) |
+| commonlooputils-294654664 | evidence_only | [commonlooputils-294654664.md](commonlooputils-294654664.md) | [commonlooputils-294654664.yaml](commonlooputils-294654664.yaml) |
 | csp-validator-5815969 | evidence_only | [csp-validator-5815969.md](csp-validator-5815969.md) | [csp-validator-5815969.yaml](csp-validator-5815969.yaml) |
 | ctap2-test-tool-261977210 | evidence_only | [ctap2-test-tool-261977210.md](ctap2-test-tool-261977210.md) | [ctap2-test-tool-261977210.yaml](ctap2-test-tool-261977210.yaml) |
 | ctap2-test-tool-corpus-311733589 | evidence_only | [ctap2-test-tool-corpus-311733589.md](ctap2-test-tool-corpus-311733589.md) | [ctap2-test-tool-corpus-311733589.yaml](ctap2-test-tool-corpus-311733589.yaml) |
+| curbsidepickup-257683950 | evidence_only | [curbsidepickup-257683950.md](curbsidepickup-257683950.md) | [curbsidepickup-257683950.yaml](curbsidepickup-257683950.yaml) |
+| daplink-port-280530485 | evidence_only | [daplink-port-280530485.md](daplink-port-280530485.md) | [daplink-port-280530485.yaml](daplink-port-280530485.yaml) |
 | github-170908616 | evidence_only | [github-170908616.md](github-170908616.md) | [github-170908616.yaml](github-170908616.yaml) |

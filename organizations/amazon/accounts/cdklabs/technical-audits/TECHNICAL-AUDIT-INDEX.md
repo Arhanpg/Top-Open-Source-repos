@@ -1,10 +1,10 @@
 # Technical audits — cdklabs
 
-Updated: 2026-11-27T07:24:05+00:00
+Updated: 2026-11-27T22:44:03+00:00
 
 ## Status counts
 
-- evidence_only: 20
+- evidence_only: 24
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -31,4 +31,8 @@ Updated: 2026-11-27T07:24:05+00:00
 | awscdk-v1-stack-finder-503621347 | evidence_only | [awscdk-v1-stack-finder-503621347.md](awscdk-v1-stack-finder-503621347.md) | [awscdk-v1-stack-finder-503621347.yaml](awscdk-v1-stack-finder-503621347.yaml) |
 | cdk-amazon-chime-resources-455673299 | evidence_only | [cdk-amazon-chime-resources-455673299.md](cdk-amazon-chime-resources-455673299.md) | [cdk-amazon-chime-resources-455673299.yaml](cdk-amazon-chime-resources-455673299.yaml) |
 | cdk-amazonmq-820335257 | evidence_only | [cdk-amazonmq-820335257.md](cdk-amazonmq-820335257.md) | [cdk-amazonmq-820335257.yaml](cdk-amazonmq-820335257.yaml) |
+| cdk-amazonmq-activemq-configs-931186035 | evidence_only | [cdk-amazonmq-activemq-configs-931186035.md](cdk-amazonmq-activemq-configs-931186035.md) | [cdk-amazonmq-activemq-configs-931186035.yaml](cdk-amazonmq-activemq-configs-931186035.yaml) |
+| cdk-amazonmq-go-823878697 | evidence_only | [cdk-amazonmq-go-823878697.md](cdk-amazonmq-go-823878697.md) | [cdk-amazonmq-go-823878697.yaml](cdk-amazonmq-go-823878697.yaml) |
+| cdk-app-cli-488778308 | evidence_only | [cdk-app-cli-488778308.md](cdk-app-cli-488778308.md) | [cdk-app-cli-488778308.yaml](cdk-app-cli-488778308.yaml) |
+| cdk-appflow-653596623 | evidence_only | [cdk-appflow-653596623.md](cdk-appflow-653596623.md) | [cdk-appflow-653596623.yaml](cdk-appflow-653596623.yaml) |
 | github-744758625 | insufficient_evidence | [github-744758625.md](github-744758625.md) | [github-744758625.yaml](github-744758625.yaml) |

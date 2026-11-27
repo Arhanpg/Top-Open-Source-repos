@@ -1,10 +1,10 @@
 # Technical audits — google-gemini
 
-Updated: 2026-11-27T07:24:11+00:00
+Updated: 2026-11-27T22:44:10+00:00
 
 ## Status counts
 
-- evidence_only: 23
+- evidence_only: 28
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -33,5 +33,10 @@ Updated: 2026-11-27T07:24:11+00:00
 | deprecated-generative-ai-swift-632592079 | evidence_only | [deprecated-generative-ai-swift-632592079.md](deprecated-generative-ai-swift-632592079.md) | [deprecated-generative-ai-swift-632592079.yaml](deprecated-generative-ai-swift-632592079.yaml) |
 | example-chat-app-852326296 | evidence_only | [example-chat-app-852326296.md](example-chat-app-852326296.md) | [example-chat-app-852326296.yaml](example-chat-app-852326296.yaml) |
 | flutter-draw-it-sample-796961924 | evidence_only | [flutter-draw-it-sample-796961924.md](flutter-draw-it-sample-796961924.md) | [flutter-draw-it-sample-796961924.yaml](flutter-draw-it-sample-796961924.yaml) |
+| flutter-tabletop-character-sample-796941693 | evidence_only | [flutter-tabletop-character-sample-796941693.md](flutter-tabletop-character-sample-796941693.md) | [flutter-tabletop-character-sample-796941693.yaml](flutter-tabletop-character-sample-796941693.yaml) |
+| gemini-4-demo-vanilla-3d-1415670200 | evidence_only | [gemini-4-demo-vanilla-3d-1415670200.md](gemini-4-demo-vanilla-3d-1415670200.md) | [gemini-4-demo-vanilla-3d-1415670200.yaml](gemini-4-demo-vanilla-3d-1415670200.yaml) |
+| gemini-android-computer-use-quickstart-1280204353 | evidence_only | [gemini-android-computer-use-quickstart-1280204353.md](gemini-android-computer-use-quickstart-1280204353.md) | [gemini-android-computer-use-quickstart-1280204353.yaml](gemini-android-computer-use-quickstart-1280204353.yaml) |
+| gemini-api-cli-1224715013 | evidence_only | [gemini-api-cli-1224715013.md](gemini-api-cli-1224715013.md) | [gemini-api-cli-1224715013.yaml](gemini-api-cli-1224715013.yaml) |
+| gemini-api-quickstart-853516073 | evidence_only | [gemini-api-quickstart-853516073.md](gemini-api-quickstart-853516073.md) | [gemini-api-quickstart-853516073.yaml](gemini-api-quickstart-853516073.yaml) |
 | github-765449529 | insufficient_evidence | [github-765449529.md](github-765449529.md) | [github-765449529.yaml](github-765449529.yaml) |
 | journal-with-gemini-798431387 | evidence_only | [journal-with-gemini-798431387.md](journal-with-gemini-798431387.md) | [journal-with-gemini-798431387.yaml](journal-with-gemini-798431387.yaml) |

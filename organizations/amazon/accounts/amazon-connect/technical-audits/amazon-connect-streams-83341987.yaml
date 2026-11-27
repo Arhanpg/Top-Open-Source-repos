@@ -1,0 +1,132 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:17:59+00:00'
+evidence_fingerprint: 19ef4d119b40c38de4106f02314c9a55404cca38ab1b851c2310b13d7808b49a
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/amazon-connect-streams
+  repository_id: 83341987
+  url: https://github.com/amazon-connect/amazon-connect-streams
+  description: Amazon Connect Streams - a browser-based contact center integration API, typically with CRM systems.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T18:26:05Z'
+  stars: 466
+  readme_url: https://github.com/amazon-connect/amazon-connect-streams/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 2d2e62c3887e6037bdb04c9df116ee845a48984f
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/agent-app/agent-app.js
+  - src/agent-app/app-registry.js
+  - src/client.js
+  - src/event.js
+  repository_tree:
+    status: captured
+    sha: d9c7411ae90c64cd9968dd071c37d24c6aae969e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'The Amazon Connect Streams API (Streams) gives you the power to integrate your existing web applications
+    with Amazon Connect. Streams lets you embed the Contact Control Panel (CCP) and Customer Profiles app UI into
+    your page. It also enables you to handle agent and contact state events directly through an object oriented
+    event driven interface. You can use the built in interface or build your own from scratch: Streams gives you
+    the choice.'
+  why_used: Amazon Connect Streams - a browser-based contact center integration API, typically with CRM systems.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@amazon-connect/activity'
+    - '@amazon-connect/contact'
+    - '@amazon-connect/core'
+    - '@amazon-connect/site'
+    - '@amazon-connect/site-streams'
+    - '@amazon-connect/user'
+    - '@amazon-connect/voice'
+    - '@babel/eslint-parser'
+    - '@babel/preset-env'
+    - '@babel/preset-typescript'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - amazon-chime-sdk-js
+    - babel-jest
+    - babel-loader
+    - babel-plugin-istanbul
+    - chai
+    - eslint
+    - eslint-config-airbnb-base
+    - eslint-config-airbnb-typescript
+    - eslint-config-prettier
+    - eslint-plugin-import
+    - jest
+    - jest-environment-jsdom
+    - prettier
+    - proxyquire
+    - terser-webpack-plugin
+    - typescript
+    - webpack
+    - webpack-cli
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/agent-app/agent-app.js,
+    src/agent-app/app-registry.js, src/client.js, src/event.js'
+  setup_and_usage:
+  - 'Usage: amazon-connect-streams is available from npmjs.com. If you''d like to download it here, you can use
+    either of the files like release/connect-streams*.'
+  - 'Usage: Run npm run release to generate new release files. Full instructions for building locally with npm can
+    be found below.'
+  - 'Usage: In version 1.x, we also support make for legacy builds. This option was removed in version 2.x.'
+  - 'Usage with TypeScript: amazon-connect-streams is compatible with TypeScript. You''ll need to use version 3.0.1
+    or higher:'
+  - 'Usage with TypeScript: import "amazon-connect-streams";'
+  - 'Usage with TypeScript: connect.core.initCCP({ /* ... */ });'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/amazon-connect-streams/blob/master/README.md
+  path: README.md
+  blob_sha: 2d2e62c3887e6037bdb04c9df116ee845a48984f
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 8af6dbf86b6aabd6f8e9548554ed8a523fc6413e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 7711998
+- type: Git tree
+  status: captured
+  sha: d9c7411ae90c64cd9968dd071c37d24c6aae969e
+  truncated: false
+- type: source_file
+  path: src/agent-app/agent-app.js
+  blob_sha: ebf90771dade87ffb1a95c9be1a713fcc4185557
+  retrieved: true
+- type: source_file
+  path: src/agent-app/app-registry.js
+  blob_sha: 335aa9d4d647754d0fd31177cd76e299839b02cb
+  retrieved: true
+- type: source_file
+  path: src/client.js
+  blob_sha: a6a0f1ab06fdffe596b6f11a14aff18faf3101cd
+  retrieved: true
+- type: source_file
+  path: src/event.js
+  blob_sha: 937ab693607c2b55ba5e634afde696d7227afc7e
+  retrieved: true

@@ -1,0 +1,91 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:28:17+00:00'
+evidence_fingerprint: 1b066120baacb2b25597254390bcee3e8500642c9f3c2444b7c7330c3008160e
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/CoMD-CUDA
+  repository_id: 14217748
+  url: https://github.com/NVIDIA/CoMD-CUDA
+  description: GPU implementation of classical molecular dynamics proxy application.
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: true
+  fork: true
+  disabled: false
+  pushed_at: '2017-01-30T15:37:07Z'
+  stars: 31
+  readme_url: https://github.com/NVIDIA/CoMD-CUDA/blob/master/README.md
+  readme_path: README.md
+  readme_sha: dfa2407cbf4acc6cb9db2c666176d6a446f035e0
+  manifest_paths: []
+  source_files_inspected:
+  - src-mpi/cmdLineParser.c
+  - src-mpi/cmdLineParser.h
+  - src-mpi/CoMD.c
+  - src-mpi/CoMDTypes.h
+  repository_tree:
+    status: captured
+    sha: b5c88b1884f3351505db5bf659093816b5791b81
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: CoMD-CUDA ====
+  why_used: GPU implementation of classical molecular dynamics proxy application.
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - C++
+    - Cuda
+    - Objective-C
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src-mpi/cmdLineParser.c,
+    src-mpi/cmdLineParser.h, src-mpi/CoMD.c, src-mpi/CoMDTypes.h'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/CoMD-CUDA/blob/master/README.md
+  path: README.md
+  blob_sha: dfa2407cbf4acc6cb9db2c666176d6a446f035e0
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 512310
+    C++: 77361
+    Cuda: 52373
+    Objective-C: 17014
+    Shell: 2616
+- type: Git tree
+  status: captured
+  sha: b5c88b1884f3351505db5bf659093816b5791b81
+  truncated: false
+- type: source_file
+  path: src-mpi/cmdLineParser.c
+  blob_sha: 79bf0ea715baef4b4d0b49a3b3a1ba287cfd58b2
+  retrieved: true
+- type: source_file
+  path: src-mpi/cmdLineParser.h
+  blob_sha: 69e533fcf3f35952b8431575caf24d7c93b22590
+  retrieved: true
+- type: source_file
+  path: src-mpi/CoMD.c
+  blob_sha: dc84e8900d88ff4ff9f02192e0f45481479dd633
+  retrieved: true
+- type: source_file
+  path: src-mpi/CoMDTypes.h
+  blob_sha: b6b9755b6b0ed65e25a79a68a301ce2bf3188347
+  retrieved: true

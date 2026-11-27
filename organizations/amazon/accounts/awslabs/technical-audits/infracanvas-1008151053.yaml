@@ -1,0 +1,117 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:19:59+00:00'
+evidence_fingerprint: bb2a103a72f0ca36990ae4e50563ea10d762682aba94cb194c4eefc47cb4efdb
+repository_metadata:
+  company: Amazon
+  account: awslabs
+  full_name: awslabs/InfraCanvas
+  repository_id: 1008151053
+  url: https://github.com/awslabs/InfraCanvas
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-30T05:54:42Z'
+  stars: 2
+  readme_url: https://github.com/awslabs/InfraCanvas/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 9bbe7191a59213a64c0fc38493b310b2370e7611
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - app.py
+  - config.py
+  - prompts.py
+  - ui/__init__.py
+  repository_tree:
+    status: captured
+    sha: 3bcf8c10c946c11970c2e95e6c27c4eb6eacca43
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '[//]: # (Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.) [//]: # (SPDX-License-Identifier:
+    Apache-2.0)'
+  why_used: '[//]: # (Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.) [//]: # (SPDX-License-Identifier:
+    Apache-2.0)'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - boto3
+    - botocore
+    - cfn-lint
+    - checkov
+    - pytest
+    - pyyaml
+    - streamlit
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: app.py, config.py,
+    prompts.py, ui/__init__.py'
+  setup_and_usage:
+  - 'Installation and Local Running of Code: To locally run the code you must have python installed in your system
+    as a prerequisite. Then follow these steps:-'
+  - 'Installation and Local Running of Code: - Clone the repository'
+  - 'Installation and Local Running of Code: - Go to the terminal of the project repository'
+  - 'Installation and Local Running of Code: - Configure AWS profile'
+  - 'Installation and Local Running of Code: - Run python3 -m venv .venv'
+  - 'Installation and Local Running of Code: - Run source .venv/bin/activate'
+  - 'Installation and Local Running of Code: - Install dependencies pip install -r requirements.txt'
+  - 'Installation and Local Running of Code: - For running the code use streamlit run app.py'
+  limitations:
+  - 'Security Best Practices: - **Never commit AWS credentials** to version control'
+  - 'Security Best Practices: - **Use least privilege principle** - only grant necessary Bedrock permissions'
+  - 'Security Best Practices: - **Rotate access keys regularly** (if using IAM users)'
+  - 'Security Best Practices: - **Enable MFA** on your AWS account'
+  - 'Security Best Practices: - **Use temporary credentials** when possible (SSO preferred)'
+  - '2. Security Analysis (30% of readiness score): Comprehensive security vulnerability detection and compliance
+    checking:'
+  - '2. Security Analysis (30% of readiness score): **Security Issues Detected:**'
+  - '2. Security Analysis (30% of readiness score): - **Encryption**: Unencrypted resources (S3 buckets, EBS volumes,
+    RDS databases, etc.)'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/awslabs/InfraCanvas/blob/main/README.md
+  path: README.md
+  blob_sha: 9bbe7191a59213a64c0fc38493b310b2370e7611
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 0b6e40826734bb648e0487b61bfc19d27de50f99
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 143204
+- type: Git tree
+  status: captured
+  sha: 3bcf8c10c946c11970c2e95e6c27c4eb6eacca43
+  truncated: false
+- type: source_file
+  path: app.py
+  blob_sha: 0bce3cc70e5fcfcd8ed86677a08c0a2a6bc49a3d
+  retrieved: true
+- type: source_file
+  path: config.py
+  blob_sha: 79e78418fd250ab8d5319831f9c1e8276f03b2e4
+  retrieved: true
+- type: source_file
+  path: prompts.py
+  blob_sha: efc75ab5f025472a6238523b79a7b828a5fe283f
+  retrieved: true
+- type: source_file
+  path: ui/__init__.py
+  blob_sha: 05e60c63ba9afd5379b30e39e576b8d56abfc374
+  retrieved: true

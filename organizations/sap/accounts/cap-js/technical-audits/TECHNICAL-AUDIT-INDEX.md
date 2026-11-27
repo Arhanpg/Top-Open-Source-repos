@@ -1,10 +1,10 @@
 # Technical audits — cap-js
 
-Updated: 2026-11-27T07:24:07+00:00
+Updated: 2026-11-27T22:44:07+00:00
 
 ## Status counts
 
-- evidence_only: 20
+- evidence_only: 24
 - manual_reviewed: 1
 
 ## Repository dossiers
@@ -32,3 +32,7 @@ Updated: 2026-11-27T07:24:07+00:00
 | event-broker-840520874 | evidence_only | [event-broker-840520874.md](event-broker-840520874.md) | [event-broker-840520874.yaml](event-broker-840520874.yaml) |
 | github-565835524 | evidence_only | [github-565835524.md](github-565835524.md) | [github-565835524.yaml](github-565835524.yaml) |
 | graphql-557382068 | evidence_only | [graphql-557382068.md](graphql-557382068.md) | [graphql-557382068.yaml](graphql-557382068.yaml) |
+| mcp-1272105565 | evidence_only | [mcp-1272105565.md](mcp-1272105565.md) | [mcp-1272105565.yaml](mcp-1272105565.yaml) |
+| mcp-server-961105832 | evidence_only | [mcp-server-961105832.md](mcp-server-961105832.md) | [mcp-server-961105832.yaml](mcp-server-961105832.yaml) |
+| n8n-1311103163 | evidence_only | [n8n-1311103163.md](n8n-1311103163.md) | [n8n-1311103163.yaml](n8n-1311103163.yaml) |
+| notifications-665872643 | evidence_only | [notifications-665872643.md](notifications-665872643.md) | [notifications-665872643.yaml](notifications-665872643.yaml) |

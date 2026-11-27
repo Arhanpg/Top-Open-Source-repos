@@ -1,0 +1,94 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:39:53+00:00'
+evidence_fingerprint: ae528ed7ed19f502f74c009ed873544cf502d449546f8390a9c15a377b18bbc7
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/ccs-caldavclientlibrary
+  repository_id: 64889654
+  url: https://github.com/apple/ccs-caldavclientlibrary
+  description: CalDAV/CardDAV Testing Tool Used by CalendarServer
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-02-24T17:27:48Z'
+  stars: 45
+  readme_url: https://github.com/apple/ccs-caldavclientlibrary/blob/master/README
+  readme_path: README
+  readme_sha: 641bd50c3d825cec26a2371bd59a2f42c6e98471
+  manifest_paths:
+  - setup.py
+  source_files_inspected:
+  - caldavclientlibrary/browser/commands/server.py
+  - caldavclientlibrary/__init__.py
+  - caldavclientlibrary/admin/__init__.py
+  - caldavclientlibrary/admin/xmlaccounts/__init__.py
+  repository_tree:
+    status: captured
+    sha: 1fc18e479dac49f9856e8717b6e5d8f324f68e51
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: README for CalDAVClientLibrary
+  why_used: CalDAV/CardDAV Testing Tool Used by CalendarServer
+  core_features: []
+  technology_stack:
+    languages:
+    - HTML
+    - Python
+    - CSS
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: caldavclientlibrary/browser/commands/server.py,
+    caldavclientlibrary/__init__.py, caldavclientlibrary/admin/__init__.py, caldavclientlibrary/admin/xmlaccounts/__init__.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/ccs-caldavclientlibrary/blob/master/README
+  path: README
+  blob_sha: 641bd50c3d825cec26a2371bd59a2f42c6e98471
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 8d1ab847c7fe2b7856ef45f3f0fb4e767be77716
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    HTML: 12079516
+    Python: 510851
+    CSS: 16023
+    JavaScript: 10581
+- type: Git tree
+  status: captured
+  sha: 1fc18e479dac49f9856e8717b6e5d8f324f68e51
+  truncated: false
+- type: source_file
+  path: caldavclientlibrary/browser/commands/server.py
+  blob_sha: b3f47c444b1445568c0607a7ae6ead4d0aed91c3
+  retrieved: true
+- type: source_file
+  path: caldavclientlibrary/__init__.py
+  blob_sha: 024c92c178230a21176198de2ff275381ca3e1fb
+  retrieved: true
+- type: source_file
+  path: caldavclientlibrary/admin/__init__.py
+  blob_sha: 024c92c178230a21176198de2ff275381ca3e1fb
+  retrieved: true
+- type: source_file
+  path: caldavclientlibrary/admin/xmlaccounts/__init__.py
+  blob_sha: 024c92c178230a21176198de2ff275381ca3e1fb
+  retrieved: true

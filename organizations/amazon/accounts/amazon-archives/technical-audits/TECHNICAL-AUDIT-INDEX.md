@@ -1,10 +1,10 @@
 # Technical audits — amazon-archives
 
-Updated: 2026-11-27T07:24:09+00:00
+Updated: 2026-11-27T22:44:08+00:00
 
 ## Status counts
 
-- evidence_only: 23
+- evidence_only: 28
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -26,6 +26,11 @@ Updated: 2026-11-27T07:24:09+00:00
 | amazon-dsstne-54621372 | evidence_only | [amazon-dsstne-54621372.md](amazon-dsstne-54621372.md) | [amazon-dsstne-54621372.yaml](amazon-dsstne-54621372.yaml) |
 | amazon-ecs-interstella-workshop-111957371 | evidence_only | [amazon-ecs-interstella-workshop-111957371.md](amazon-ecs-interstella-workshop-111957371.md) | [amazon-ecs-interstella-workshop-111957371.yaml](amazon-ecs-interstella-workshop-111957371.yaml) |
 | amazon-kinesis-connectors-14697005 | evidence_only | [amazon-kinesis-connectors-14697005.md](amazon-kinesis-connectors-14697005.md) | [amazon-kinesis-connectors-14697005.yaml](amazon-kinesis-connectors-14697005.yaml) |
+| amazon-kinesis-data-visualization-sample-18813709 | evidence_only | [amazon-kinesis-data-visualization-sample-18813709.md](amazon-kinesis-data-visualization-sample-18813709.md) | [amazon-kinesis-data-visualization-sample-18813709.yaml](amazon-kinesis-data-visualization-sample-18813709.yaml) |
+| amazon-macie-activity-generator-127943642 | evidence_only | [amazon-macie-activity-generator-127943642.md](amazon-macie-activity-generator-127943642.md) | [amazon-macie-activity-generator-127943642.yaml](amazon-macie-activity-generator-127943642.yaml) |
+| amazon-mcf-plugin-for-magento-2-113228427 | evidence_only | [amazon-mcf-plugin-for-magento-2-113228427.md](amazon-mcf-plugin-for-magento-2-113228427.md) | [amazon-mcf-plugin-for-magento-2-113228427.yaml](amazon-mcf-plugin-for-magento-2-113228427.yaml) |
+| amazon-polly-sample-75022280 | evidence_only | [amazon-polly-sample-75022280.md](amazon-polly-sample-75022280.md) | [amazon-polly-sample-75022280.yaml](amazon-polly-sample-75022280.yaml) |
+| amazon-quicksight-embedding-sample-162758898 | evidence_only | [amazon-quicksight-embedding-sample-162758898.md](amazon-quicksight-embedding-sample-162758898.md) | [amazon-quicksight-embedding-sample-162758898.yaml](amazon-quicksight-embedding-sample-162758898.yaml) |
 | aws-mimic-iiitoomop-91026662 | evidence_only | [aws-mimic-iiitoomop-91026662.md](aws-mimic-iiitoomop-91026662.md) | [aws-mimic-iiitoomop-91026662.yaml](aws-mimic-iiitoomop-91026662.yaml) |
 | bsmobileprovision-10947817 | evidence_only | [bsmobileprovision-10947817.md](bsmobileprovision-10947817.md) | [bsmobileprovision-10947817.yaml](bsmobileprovision-10947817.yaml) |
 | github-171341969 | insufficient_evidence | [github-171341969.md](github-171341969.md) | [github-171341969.yaml](github-171341969.yaml) |

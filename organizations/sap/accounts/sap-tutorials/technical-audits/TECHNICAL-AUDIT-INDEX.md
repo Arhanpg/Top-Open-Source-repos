@@ -1,10 +1,10 @@
 # Technical audits — sap-tutorials
 
-Updated: 2026-11-27T07:24:11+00:00
+Updated: 2026-11-27T22:44:04+00:00
 
 ## Status counts
 
-- evidence_only: 19
+- evidence_only: 23
 
 ## Repository dossiers
 
@@ -28,4 +28,8 @@ Updated: 2026-11-27T07:24:11+00:00
 | sap-btp-sdk-ios-566332583 | evidence_only | [sap-btp-sdk-ios-566332583.md](sap-btp-sdk-ios-566332583.md) | [sap-btp-sdk-ios-566332583.yaml](sap-btp-sdk-ios-566332583.yaml) |
 | sap-build-apps-579694924 | evidence_only | [sap-build-apps-579694924.md](sap-build-apps-579694924.md) | [sap-build-apps-579694924.yaml](sap-build-apps-579694924.yaml) |
 | sap-build-process-automation-560030055 | evidence_only | [sap-build-process-automation-560030055.md](sap-build-process-automation-560030055.md) | [sap-build-process-automation-560030055.yaml](sap-build-process-automation-560030055.yaml) |
+| sap-conversational-ai-409082635 | evidence_only | [sap-conversational-ai-409082635.md](sap-conversational-ai-409082635.md) | [sap-conversational-ai-409082635.yaml](sap-conversational-ai-409082635.yaml) |
+| sap-mobile-cards-567024496 | evidence_only | [sap-mobile-cards-567024496.md](sap-mobile-cards-567024496.md) | [sap-mobile-cards-567024496.yaml](sap-mobile-cards-567024496.yaml) |
+| sap-mobile-development-kit-545071476 | evidence_only | [sap-mobile-development-kit-545071476.md](sap-mobile-development-kit-545071476.md) | [sap-mobile-development-kit-545071476.yaml](sap-mobile-development-kit-545071476.yaml) |
+| sapcommunity-390376556 | evidence_only | [sapcommunity-390376556.md](sapcommunity-390376556.md) | [sapcommunity-390376556.yaml](sapcommunity-390376556.yaml) |
 | tutorials-47708831 | evidence_only | [tutorials-47708831.md](tutorials-47708831.md) | [tutorials-47708831.yaml](tutorials-47708831.yaml) |

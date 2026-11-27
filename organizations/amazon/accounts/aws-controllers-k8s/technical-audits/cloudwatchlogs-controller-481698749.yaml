@@ -1,0 +1,192 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:31:46+00:00'
+evidence_fingerprint: 64fac32a536932e820210acacc976c5bfcaa704d41096419df5f37b2e33452ca
+repository_metadata:
+  company: Amazon
+  account: aws-controllers-k8s
+  full_name: aws-controllers-k8s/cloudwatchlogs-controller
+  repository_id: 481698749
+  url: https://github.com/aws-controllers-k8s/cloudwatchlogs-controller
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-19T22:17:33Z'
+  stars: 2
+  readme_url: https://github.com/aws-controllers-k8s/cloudwatchlogs-controller/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5bab15b1310f0459dd72bbdd095691d430b23070
+  manifest_paths:
+  - go.mod
+  - Makefile
+  - test/e2e/requirements.txt
+  source_files_inspected:
+  - cmd/controller/main.go
+  - pkg/resource/delivery/delta.go
+  - pkg/resource/delivery/descriptor.go
+  - pkg/resource/delivery/hook.go
+  repository_tree:
+    status: captured
+    sha: 2dd976b3ce463b26e81e78294e6df3e40cf8fac7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains source code for the AWS Controllers for Kubernetes (ACK) service controller
+    for .
+  why_used: This repository contains source code for the AWS Controllers for Kubernetes (ACK) service controller
+    for .
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Go
+    - Go Template
+    - Smarty
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - acktest
+    - github.com/aws-controllers-k8s/kms-controller
+    - github.com/aws-controllers-k8s/runtime
+    - github.com/aws/aws-sdk-go-v2
+    - github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream
+    - github.com/aws/aws-sdk-go-v2/config
+    - github.com/aws/aws-sdk-go-v2/credentials
+    - github.com/aws/aws-sdk-go-v2/feature/ec2/imds
+    - github.com/aws/aws-sdk-go-v2/internal/configsources
+    - github.com/aws/aws-sdk-go-v2/internal/endpoints/v2
+    - github.com/aws/aws-sdk-go-v2/internal/ini
+    - github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs
+    - github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding
+    - github.com/aws/aws-sdk-go-v2/service/internal/presigned-url
+    - github.com/aws/aws-sdk-go-v2/service/sso
+    - github.com/aws/aws-sdk-go-v2/service/ssooidc
+    - github.com/aws/aws-sdk-go-v2/service/sts
+    - github.com/aws/smithy-go
+    - github.com/beorn7/perks
+    - github.com/cenkalti/backoff/v4
+    - github.com/cespare/xxhash/v2
+    - github.com/davecgh/go-spew
+    - github.com/emicklei/go-restful/v3
+    - github.com/evanphx/json-patch/v5
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/go-logr/logr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/google/btree
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/uuid
+    - github.com/itchyny/gojq
+    - github.com/itchyny/timefmt-go
+    - github.com/jaypipes/envutil
+    - github.com/josharian/intern
+    - github.com/json-iterator/go
+    - github.com/mailru/easyjson
+    - github.com/micahhausler/aws-iam-policy
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/munnerz/goautoneg
+    - github.com/pkg/errors
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/spf13/pflag
+    - github.com/stretchr/testify
+    - github.com/x448/float16
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - go.yaml.in/yaml/v2
+    - go.yaml.in/yaml/v3
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/term
+    - golang.org/x/text
+    - golang.org/x/time
+    - gomodules.xyz/jsonpatch/v2
+    - google.golang.org/protobuf
+    - gopkg.in/evanphx/json-patch.v4
+    - gopkg.in/inf.v0
+    - gopkg.in/yaml.v3
+    - k8s.io/api
+    - k8s.io/apiextensions-apiserver
+    - k8s.io/apimachinery
+    - k8s.io/client-go
+    - k8s.io/klog/v2
+    - k8s.io/kube-openapi
+    - k8s.io/utils
+    - sigs.k8s.io/controller-runtime
+    - sigs.k8s.io/json
+    - sigs.k8s.io/randfill
+    - sigs.k8s.io/structured-merge-diff/v6
+    - sigs.k8s.io/yaml
+    build_and_package_tools:
+    - Go module manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/controller/main.go,
+    pkg/resource/delivery/delta.go, pkg/resource/delivery/descriptor.go, pkg/resource/delivery/hook.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-controllers-k8s/cloudwatchlogs-controller/blob/main/README.md
+  path: README.md
+  blob_sha: 5bab15b1310f0459dd72bbdd095691d430b23070
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: d8860cf63cfaba41ff284830d9877188f6a1606f
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 0953c01ad02c122fc28ef5ec126b33903b82b652
+  retrieved: true
+- type: manifest
+  path: test/e2e/requirements.txt
+  blob_sha: 277440210b5e146d4329f8e2f885b49dd8a17684
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 106731
+    Go: 40484
+    Go Template: 7498
+    Smarty: 5013
+    Makefile: 565
+- type: Git tree
+  status: captured
+  sha: 2dd976b3ce463b26e81e78294e6df3e40cf8fac7
+  truncated: false
+- type: source_file
+  path: cmd/controller/main.go
+  blob_sha: dece52d80f4eac45705adf71009d3cb30d920e25
+  retrieved: true
+- type: source_file
+  path: pkg/resource/delivery/delta.go
+  blob_sha: d1a28f63f3bbfb76f7fe034d1d3d39cbfed49356
+  retrieved: true
+- type: source_file
+  path: pkg/resource/delivery/descriptor.go
+  blob_sha: 776dfdcfa43e36e3aaf45875ee9484d2934cdf94
+  retrieved: true
+- type: source_file
+  path: pkg/resource/delivery/hook.go
+  blob_sha: dbc293fd92b73a867c1e522c2bbf5b25e6b07639
+  retrieved: true

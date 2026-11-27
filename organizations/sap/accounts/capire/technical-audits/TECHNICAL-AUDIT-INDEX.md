@@ -1,10 +1,10 @@
 # Technical audits — capire
 
-Updated: 2026-11-27T07:24:08+00:00
+Updated: 2026-11-27T22:44:06+00:00
 
 ## Status counts
 
-- evidence_only: 20
+- evidence_only: 24
 
 ## Repository dossiers
 
@@ -30,3 +30,7 @@ Updated: 2026-11-27T07:24:08+00:00
 | samples-java-1118815560 | evidence_only | [samples-java-1118815560.md](samples-java-1118815560.md) | [samples-java-1118815560.yaml](samples-java-1118815560.yaml) |
 | shared-db-959657171 | evidence_only | [shared-db-959657171.md](shared-db-959657171.md) | [shared-db-959657171.yaml](shared-db-959657171.yaml) |
 | shared-db-java-1118829972 | evidence_only | [shared-db-java-1118829972.md](shared-db-java-1118829972.md) | [shared-db-java-1118829972.yaml](shared-db-java-1118829972.yaml) |
+| skills-1263733820 | evidence_only | [skills-1263733820.md](skills-1263733820.md) | [skills-1263733820.yaml](skills-1263733820.yaml) |
+| university-1192835429 | evidence_only | [university-1192835429.md](university-1192835429.md) | [university-1192835429.yaml](university-1192835429.yaml) |
+| xflights-1006476807 | evidence_only | [xflights-1006476807.md](xflights-1006476807.md) | [xflights-1006476807.yaml](xflights-1006476807.yaml) |
+| xflights-java-1071468492 | evidence_only | [xflights-java-1071468492.md](xflights-java-1071468492.md) | [xflights-java-1071468492.yaml](xflights-java-1071468492.yaml) |

@@ -6,7 +6,7 @@
 - Default branch: master
 - Audit status: evidence_only
 - Confidence: medium
-- Generated: 2026-11-27T06:57:52+00:00
+- Generated: 2026-11-27T22:17:43+00:00
 
 ## Project purpose
 
@@ -22,7 +22,7 @@ No separately supported feature list extracted.
 
 ## Technology stack
 
-- Languages: Unknown / not established
+- Languages: JavaScript, HTML, Python, CSS, Shell
 - Frameworks/libraries: Unknown / not established
 - Dependency names: express, google-api-python-client, googleapis, jscs, jshint, jsonfile, lodash, mocha, node-deb, node-uuid, promise, request, request-json, root-require, should, should-sinon, socket.io
 - Build/package tools: npm-compatible manifest, pip requirements file
@@ -50,7 +50,7 @@ No explicit limitations extracted; this does not mean none exist.
 - Manifests: onboard-web-server/package.json, appengine/phone-to-pubsub/requirements.txt
 - Sampled source files: onboard-web-server/lib/sensor/index.js, appengine/datastore-to-api/main.py, appengine/phone-to-pubsub/main.py, appengine/pubsub-to-datastore/main.py
 - Git tree state: captured
-- Evidence fingerprint: 7ac249e78bcf4a59e7f40134a9e9c9f374dc6c67b14ab8e091f6c329da44814f
+- Evidence fingerprint: fa36236e26f4fbcb28006df76922790e645c9d1d8dbd6eeebfffb556d60c4d0d
 
 ## Unverified / unknown
 

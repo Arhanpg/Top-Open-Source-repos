@@ -1,0 +1,119 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:35:14+00:00'
+evidence_fingerprint: 9c61fceb3272f3c6c7e1ed22346df1e8202cb9f714565bc936a627fb2e11d08d
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/n8n
+  repository_id: 1311103163
+  url: https://github.com/cap-js/n8n
+  description: Node Plugin for CAP Node Applications to trigger and interact with n8n workflows
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-19T22:14:35Z'
+  stars: 2
+  readme_url: https://github.com/cap-js/n8n/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a1f0e94b8529d433df2f0650092d79c870a49d8f
+  manifest_paths:
+  - package.json
+  - tests/bookshop/package.json
+  source_files_inspected:
+  - lib/api/connection.js
+  - lib/api/destination.js
+  - lib/build-plugin.js
+  - lib/handlers/annotationHandlers.js
+  repository_tree:
+    status: captured
+    sha: 59ee2c25352d80148372a4790374617317140176
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Trigger n8n workflows from CAP applications with @n8n.process.start annotations or through the programmatic
+    n8n service.
+  why_used: Node Plugin for CAP Node Applications to trigger and interact with n8n workflows
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/cds-test'
+    - '@cap-js/hana'
+    - '@cap-js/n8n'
+    - '@cap-js/sqlite'
+    - '@sap-cloud-sdk/connectivity'
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - '@sap/xssec'
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/api/connection.js,
+    lib/api/destination.js, lib/build-plugin.js, lib/handlers/annotationHandlers.js'
+  setup_and_usage:
+  - 'Quick start: We use the @capire/bookshop as a running sample hereinafter. Clone it and open it in VSCode as
+    follows:'
+  - 'Quick start: git clone https://github.com/capire/bookshop'
+  - 'Quick start: Within your project root run this to add the plugin:'
+  - 'Quick start: Annotate AdminService.Authors with @n8n.process.start:'
+  - 'Quick start: // srv/admin-service.cds'
+  - 'Quick start: annotate AdminService.Authors with @n8n.process.start: {'
+  - 'Quick start: path: ''author-created'','
+  - 'Quick start: Start your application with cds watch and create a new Author to trigger a workflow:'
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow the instructions found
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/n8n/blob/main/README.md
+  path: README.md
+  blob_sha: a1f0e94b8529d433df2f0650092d79c870a49d8f
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: e101e94fcede5ca94e48cf63dbc9eb395c0f45bd
+  retrieved: true
+- type: manifest
+  path: tests/bookshop/package.json
+  blob_sha: 600502118008d6592b4f647f555a9b24bd35cbf3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 160447
+    CAP CDS: 14831
+    Shell: 6419
+- type: Git tree
+  status: captured
+  sha: 59ee2c25352d80148372a4790374617317140176
+  truncated: false
+- type: source_file
+  path: lib/api/connection.js
+  blob_sha: 6f0853d03f3286153fd788880d40ce7b525d9931
+  retrieved: true
+- type: source_file
+  path: lib/api/destination.js
+  blob_sha: 11893efecc6fcb47188130333b86926350d2352c
+  retrieved: true
+- type: source_file
+  path: lib/build-plugin.js
+  blob_sha: 8c3bcfa9179e69cb42eb03b75375b9dbb77bfb55
+  retrieved: true
+- type: source_file
+  path: lib/handlers/annotationHandlers.js
+  blob_sha: 4dfd875919b1994a3910d72a2acef76362c3584d
+  retrieved: true

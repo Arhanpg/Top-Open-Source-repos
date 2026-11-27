@@ -1,0 +1,112 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:24:57+00:00'
+evidence_fingerprint: c4d0317b63f87bb06ed668d4eba8b12790c8210589b1dc538d3d615d9ddc2e69
+repository_metadata:
+  company: Amazon
+  account: aws-actions
+  full_name: aws-actions/stale-issue-cleanup
+  repository_id: 250377255
+  url: https://github.com/aws-actions/stale-issue-cleanup
+  description: Clean up stale issues in your repository with GitHub Actions!
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-08-25T18:07:33Z'
+  stars: 13
+  readme_url: https://github.com/aws-actions/stale-issue-cleanup/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b003303161ee01ae4d55b776a4b726fc970adb0e
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/entrypoint.ts
+  - src/github.ts
+  - src/utils.ts
+  - vitest.config.ts
+  repository_tree:
+    status: captured
+    sha: e5ad8723c7e1f9aa47b6ffdca50d4470514809e1
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This GitHub action warns and then closes issues and PRs without activity after a specified amount of
+    time. It improves upon [GitHub's original stale action](https://github.com/actions/stale) by allowing the action
+    to run only on issues that contain a specified label, and removing labels once the issue sees new activity.
+  why_used: Clean up stale issues in your repository with GitHub Actions!
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@actions/github'
+    - '@biomejs/biome'
+    - '@fetch-mock/vitest'
+    - '@octokit/plugin-rest-endpoint-methods'
+    - '@types/dateformat'
+    - '@types/node'
+    - '@vercel/ncc'
+    - '@vitest/coverage-v8'
+    - dateformat
+    - dotenv
+    - typescript
+    - vitest
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/entrypoint.ts,
+    src/github.ts, src/utils.ts, vitest.config.ts'
+  setup_and_usage:
+  - 'Usage: You need to add a workflow file into your repository under'
+  - 'Usage: .github/workflows, just like any other Github Action.'
+  - 'Usage: This workflow file follows the standard workflow syntax for Github Actions..'
+  - 'Usage: A sample workflow file for you to use as a drop-in is in sample_workflow.yml.'
+  - 'Usage: For a list of options and their description, see action.yml.'
+  - 'Usage: Here''s an abbreviated example with just the step for this action:'
+  - 'Usage: - uses: aws-actions/stale-issue-cleanup@v7.1.0'
+  - 'Usage: # Types of issues that will be processed'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-actions/stale-issue-cleanup/blob/main/README.md
+  path: README.md
+  blob_sha: b003303161ee01ae4d55b776a4b726fc970adb0e
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 837a182c876d6c493562c80717d99f3365c547a6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 88879
+- type: Git tree
+  status: captured
+  sha: e5ad8723c7e1f9aa47b6ffdca50d4470514809e1
+  truncated: false
+- type: source_file
+  path: src/entrypoint.ts
+  blob_sha: 60aa3cc8ba8612c37ba8a585f8b4daa046ae607d
+  retrieved: true
+- type: source_file
+  path: src/github.ts
+  blob_sha: 056489407c00c56b92b0784b8b7b0b6e0ba9eb51
+  retrieved: true
+- type: source_file
+  path: src/utils.ts
+  blob_sha: 6a50d7b5f40cf809d011831de2a653893a39273b
+  retrieved: true
+- type: source_file
+  path: vitest.config.ts
+  blob_sha: c5f7c5204e7a75832b426feb5196d4734a0ea866
+  retrieved: true

@@ -1,0 +1,205 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:22:50+00:00'
+evidence_fingerprint: bb6f0588ac3bf56d385fc255889c742bd0c21f012abd3b7b21916d9f53519eea
+repository_metadata:
+  company: SAP
+  account: SAP-cloud-infrastructure
+  full_name: SAP-cloud-infrastructure/webhook-injector
+  repository_id: 1171117741
+  url: https://github.com/SAP-cloud-infrastructure/webhook-injector
+  description: A Kubernetes controller that runs as a sidecar to webhook servers, managing the lifecycle of webhook
+    configurations and TLS certificates for remote or local clusters.
+  default_branch: main
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-07T22:50:39Z'
+  stars: 0
+  readme_url: https://github.com/SAP-cloud-infrastructure/webhook-injector/blob/main/README.md
+  readme_path: README.md
+  readme_sha: d84d08ea5f41ab5de7428a796b4b6e3492917797
+  manifest_paths:
+  - Dockerfile
+  - go.mod
+  - Makefile
+  source_files_inspected:
+  - cmd/webhook-injector/main.go
+  - pkg/certificates/bundle.go
+  - pkg/certificates/bundle_test.go
+  - pkg/certificates/generator.go
+  repository_tree:
+    status: captured
+    sha: 3cc230ce8c40c640f923ddb40320cf6e178a5361
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'SPDX-FileCopyrightText: 2026 SAP SE or an SAP affiliate company'
+  why_used: A Kubernetes controller that runs as a sidecar to webhook servers, managing the lifecycle of webhook
+    configurations and TLS certificates for remote or local clusters.
+  core_features:
+  - name: '**Automatic Certificate Management**: Generates and rotates self-signed certificates with dynamic SANs.'
+    description: '**Automatic Certificate Management**: Generates and rotates self-signed certificates with dynamic
+      SANs.'
+    evidence:
+    - README.md#Features
+  - name: '**Smart Rotation**: Time-based (20% remaining validity threshold), config-based (SAN changes), or manual
+      (annotation).'
+    description: '**Smart Rotation**: Time-based (20% remaining validity threshold), config-based (SAN changes),
+      or manual (annotation).'
+    evidence:
+    - README.md#Features
+  - name: '**Remote Cluster Support**: Manage webhooks in clusters where the webhook server doesn''t run.'
+    description: '**Remote Cluster Support**: Manage webhooks in clusters where the webhook server doesn''t run.'
+    evidence:
+    - README.md#Features
+  - name: '**Language Agnostic**: Works with any webhook server that can watch certificate files for changes.'
+    description: '**Language Agnostic**: Works with any webhook server that can watch certificate files for changes.'
+    evidence:
+    - README.md#Features
+  - name: '**High Availability**: Leader election with multi-replica support, zero-downtime rotation.'
+    description: '**High Availability**: Leader election with multi-replica support, zero-downtime rotation.'
+    evidence:
+    - README.md#Features
+  - name: '**Zero-downtime certificate rotation**: staged overlap — both old and new certs trusted on the target
+      cluster before the new one is served, then the old cert is'
+    description: '**Zero-downtime certificate rotation**: staged overlap — both old and new certs trusted on the
+      target cluster before the new one is served, then the old cert is pruned after a configurable grace window.'
+    evidence:
+    - README.md#Features
+  - name: '**Gardener Seed Support**: Stamps CRDs at the source — inside Gardener ManagedResource Secrets on the
+      seed — so the stamp survives gardener-resource-manager''s n'
+    description: '**Gardener Seed Support**: Stamps CRDs at the source — inside Gardener ManagedResource Secrets
+      on the seed — so the stamp survives gardener-resource-manager''s next sync into the shoot.'
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - Go
+    - Makefile
+    - Shell
+    - Dockerfile
+    - Nix
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/andybalholm/brotli
+    - github.com/beorn7/perks
+    - github.com/cespare/xxhash/v2
+    - github.com/davecgh/go-spew
+    - github.com/emicklei/go-restful/v3
+    - github.com/evanphx/json-patch
+    - github.com/evanphx/json-patch/v5
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/gardener/gardener/pkg/apis
+    - github.com/go-logr/logr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/google/btree
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/uuid
+    - github.com/josharian/intern
+    - github.com/json-iterator/go
+    - github.com/mailru/easyjson
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/munnerz/goautoneg
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/spf13/pflag
+    - github.com/x448/float16
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - go.yaml.in/yaml/v2
+    - go.yaml.in/yaml/v3
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/term
+    - golang.org/x/text
+    - golang.org/x/time
+    - gomodules.xyz/jsonpatch/v2
+    - google.golang.org/protobuf
+    - gopkg.in/evanphx/json-patch.v4
+    - gopkg.in/inf.v0
+    - gopkg.in/yaml.v3
+    - k8s.io/api
+    - k8s.io/apiextensions-apiserver
+    - k8s.io/apimachinery
+    - k8s.io/client-go
+    - k8s.io/klog/v2
+    - k8s.io/kube-openapi
+    - k8s.io/utils
+    - sigs.k8s.io/controller-runtime
+    - sigs.k8s.io/json
+    - sigs.k8s.io/randfill
+    - sigs.k8s.io/structured-merge-diff/v6
+    - sigs.k8s.io/yaml
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/webhook-injector/main.go,
+    pkg/certificates/bundle.go, pkg/certificates/bundle_test.go, pkg/certificates/generator.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP-cloud-infrastructure/webhook-injector/blob/main/README.md
+  path: README.md
+  blob_sha: d84d08ea5f41ab5de7428a796b4b6e3492917797
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: d4d6498187f85f8a86ff7a9a988d8a1be14cfbd1
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 9345dbb52d5edf7cc267491cbb36210f9e247b3f
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 00a75ed01234fd8341e3f548886a3ec9f5d0ea3f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 438039
+    Makefile: 15813
+    Shell: 5482
+    Dockerfile: 3003
+    Nix: 375
+- type: Git tree
+  status: captured
+  sha: 3cc230ce8c40c640f923ddb40320cf6e178a5361
+  truncated: false
+- type: source_file
+  path: cmd/webhook-injector/main.go
+  blob_sha: 31e5f58ca962cceab28a7867c75be49939470e59
+  retrieved: true
+- type: source_file
+  path: pkg/certificates/bundle.go
+  blob_sha: 89e1b7cd1b571c8cf81eddd4bbd710f96927fd28
+  retrieved: true
+- type: source_file
+  path: pkg/certificates/bundle_test.go
+  blob_sha: e76d4b136aa873619bf9ff4dd2d62315222bb968
+  retrieved: true
+- type: source_file
+  path: pkg/certificates/generator.go
+  blob_sha: bc032024b94da8c3fc0ecc065a30a32d4ac8a3b4
+  retrieved: true

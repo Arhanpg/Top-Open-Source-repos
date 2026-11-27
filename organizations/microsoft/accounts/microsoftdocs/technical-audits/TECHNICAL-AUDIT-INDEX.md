@@ -1,10 +1,10 @@
 # Technical audits — microsoftdocs
 
-Updated: 2026-11-27T07:24:08+00:00
+Updated: 2026-11-27T22:44:03+00:00
 
 ## Status counts
 
-- evidence_only: 20
+- evidence_only: 24
 
 ## Repository dossiers
 
@@ -26,7 +26,11 @@ Updated: 2026-11-27T07:24:08+00:00
 | cntk-89207175 | evidence_only | [cntk-89207175.md](cntk-89207175.md) | [cntk-89207175.yaml](cntk-89207175.yaml) |
 | communitytoolkit-447368318 | evidence_only | [communitytoolkit-447368318.md](communitytoolkit-447368318.md) | [communitytoolkit-447368318.yaml](communitytoolkit-447368318.yaml) |
 | console-docs-65402701 | evidence_only | [console-docs-65402701.md](console-docs-65402701.md) | [console-docs-65402701.yaml](console-docs-65402701.yaml) |
+| contribute-114027797 | evidence_only | [contribute-114027797.md](contribute-114027797.md) | [contribute-114027797.yaml](contribute-114027797.yaml) |
+| cortanaskillskit-148383641 | evidence_only | [cortanaskillskit-148383641.md](cortanaskillskit-148383641.md) | [cortanaskillskit-148383641.yaml](cortanaskillskit-148383641.yaml) |
 | csidev-public-110157210 | evidence_only | [csidev-public-110157210.md](csidev-public-110157210.md) | [csidev-public-110157210.yaml](csidev-public-110157210.yaml) |
 | csidev-public-ppe-158671211 | evidence_only | [csidev-public-ppe-158671211.md](csidev-public-ppe-158671211.md) | [csidev-public-ppe-158671211.yaml](csidev-public-ppe-158671211.yaml) |
 | csidev-public-prod-159756056 | evidence_only | [csidev-public-prod-159756056.md](csidev-public-prod-159756056.md) | [csidev-public-prod-159756056.yaml](csidev-public-prod-159756056.yaml) |
+| d365fnoarchivewithdataverselongtermretention-757764315 | evidence_only | [d365fnoarchivewithdataverselongtermretention-757764315.md](d365fnoarchivewithdataverselongtermretention-757764315.md) | [d365fnoarchivewithdataverselongtermretention-757764315.yaml](d365fnoarchivewithdataverselongtermretention-757764315.yaml) |
+| devopslearn-222500933 | evidence_only | [devopslearn-222500933.md](devopslearn-222500933.md) | [devopslearn-222500933.yaml](devopslearn-222500933.yaml) |
 | github-194900040 | evidence_only | [github-194900040.md](github-194900040.md) | [github-194900040.yaml](github-194900040.yaml) |

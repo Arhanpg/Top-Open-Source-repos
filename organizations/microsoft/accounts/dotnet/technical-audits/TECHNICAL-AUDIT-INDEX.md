@@ -1,10 +1,10 @@
 # Technical audits — dotnet
 
-Updated: 2026-11-27T07:24:10+00:00
+Updated: 2026-11-27T22:44:06+00:00
 
 ## Status counts
 
-- evidence_only: 20
+- evidence_only: 24
 
 ## Repository dossiers
 
@@ -30,3 +30,7 @@ Updated: 2026-11-27T07:24:10+00:00
 | httprepl-191466073 | evidence_only | [httprepl-191466073.md](httprepl-191466073.md) | [httprepl-191466073.yaml](httprepl-191466073.yaml) |
 | ilmerge-67747274 | evidence_only | [ilmerge-67747274.md](ilmerge-67747274.md) | [ilmerge-67747274.yaml](ilmerge-67747274.yaml) |
 | javaapidocs-147373947 | evidence_only | [javaapidocs-147373947.md](javaapidocs-147373947.md) | [javaapidocs-147373947.yaml](javaapidocs-147373947.yaml) |
+| jsapidocs-139201598 | evidence_only | [jsapidocs-139201598.md](jsapidocs-139201598.md) | [jsapidocs-139201598.yaml](jsapidocs-139201598.yaml) |
+| kerberos-net-85489138 | evidence_only | [kerberos-net-85489138.md](kerberos-net-85489138.md) | [kerberos-net-85489138.yaml](kerberos-net-85489138.yaml) |
+| llvmsharp-30781424 | evidence_only | [llvmsharp-30781424.md](llvmsharp-30781424.md) | [llvmsharp-30781424.yaml](llvmsharp-30781424.yaml) |
+| mqttnet-85242321 | evidence_only | [mqttnet-85242321.md](mqttnet-85242321.md) | [mqttnet-85242321.yaml](mqttnet-85242321.yaml) |

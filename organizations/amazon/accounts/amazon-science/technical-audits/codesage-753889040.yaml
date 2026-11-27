@@ -1,0 +1,100 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:37:29+00:00'
+evidence_fingerprint: a4441bcb0b423e2d1e55d2d1f87e6148550decaf664f41d6afe53f4c12f608c8
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/CodeSage
+  repository_id: 753889040
+  url: https://github.com/amazon-science/CodeSage
+  description: 'CodeSage: Code Representation Learning At Scale (ICLR 2024)'
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-10-27T14:35:55Z'
+  stars: 123
+  readme_url: https://github.com/amazon-science/CodeSage/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 8c4f805e89320dbd6fd8e9bc000100ac3aeaee93
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - benchmark/get_embeddings.py
+  - benchmark/get_evalres.py
+  - benchmark/run_benchmark.py
+  - data/code2code/extend.py
+  repository_tree:
+    status: captured
+    sha: a8d52932714bf1f4ba94210e1ffb3e9a14b9b380
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This repository contains the data and inference code of the ICLR 2024 paper "CodeSage: Code Representation
+    Learning At Scale."'
+  why_used: 'CodeSage: Code Representation Learning At Scale (ICLR 2024)'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - datasets
+    - prettytable
+    - scikit-learn
+    - sentencepiece
+    - torch
+    - tqdm
+    - transformers
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: benchmark/get_embeddings.py,
+    benchmark/get_evalres.py, benchmark/run_benchmark.py, data/code2code/extend.py'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/CodeSage/blob/main/README.md
+  path: README.md
+  blob_sha: 8c4f805e89320dbd6fd8e9bc000100ac3aeaee93
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 990daa2911ef67cfdbe3f3a076778fb698312d38
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 65899
+    Shell: 4591
+- type: Git tree
+  status: captured
+  sha: a8d52932714bf1f4ba94210e1ffb3e9a14b9b380
+  truncated: false
+- type: source_file
+  path: benchmark/get_embeddings.py
+  blob_sha: 5212d5161604f9be4b971e34a56bb5b11ef42e47
+  retrieved: true
+- type: source_file
+  path: benchmark/get_evalres.py
+  blob_sha: 6c2871d4f7f191ce25f0417ed47740a8d01b225c
+  retrieved: true
+- type: source_file
+  path: benchmark/run_benchmark.py
+  blob_sha: 16ecd72ac5e64bdde3e1f3b528239f715e6be2ad
+  retrieved: true
+- type: source_file
+  path: data/code2code/extend.py
+  blob_sha: 39236f32c58bb85c550a32500db81a18da903af3
+  retrieved: true

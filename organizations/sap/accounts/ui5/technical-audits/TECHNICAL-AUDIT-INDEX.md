@@ -1,10 +1,11 @@
 # Technical audits — ui5
 
-Updated: 2026-11-27T07:24:06+00:00
+Updated: 2026-11-27T22:44:07+00:00
 
 ## Status counts
 
-- evidence_only: 19
+- evidence_only: 22
+- insufficient_evidence: 1
 
 ## Repository dossiers
 
@@ -29,3 +30,7 @@ Updated: 2026-11-27T07:24:06+00:00
 | sample-webcomponents-react-171362623 | evidence_only | [sample-webcomponents-react-171362623.md](sample-webcomponents-react-171362623.md) | [sample-webcomponents-react-171362623.yaml](sample-webcomponents-react-171362623.yaml) |
 | sample-webcomponents-svelte-429510928 | evidence_only | [sample-webcomponents-svelte-429510928.md](sample-webcomponents-svelte-429510928.md) | [sample-webcomponents-svelte-429510928.yaml](sample-webcomponents-svelte-429510928.yaml) |
 | sample-webcomponents-vue-171758270 | evidence_only | [sample-webcomponents-vue-171758270.md](sample-webcomponents-vue-171758270.md) | [sample-webcomponents-vue-171758270.yaml](sample-webcomponents-vue-171758270.yaml) |
+| tutorials-717004137 | evidence_only | [tutorials-717004137.md](tutorials-717004137.md) | [tutorials-717004137.yaml](tutorials-717004137.yaml) |
+| typescript-182082218 | evidence_only | [typescript-182082218.md](typescript-182082218.md) | [typescript-182082218.yaml](typescript-182082218.yaml) |
+| ui5-github-io-1071596747 | insufficient_evidence | [ui5-github-io-1071596747.md](ui5-github-io-1071596747.md) | [ui5-github-io-1071596747.yaml](ui5-github-io-1071596747.yaml) |
+| webcomponents-167405382 | evidence_only | [webcomponents-167405382.md](webcomponents-167405382.md) | [webcomponents-167405382.yaml](webcomponents-167405382.yaml) |

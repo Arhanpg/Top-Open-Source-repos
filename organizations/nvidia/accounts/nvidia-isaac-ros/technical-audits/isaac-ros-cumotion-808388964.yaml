@@ -1,0 +1,118 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:28:26+00:00'
+evidence_fingerprint: c5eecd4f8f4454a6540591d92b9ca05dab76c7ed88ebd33fc7f68fee9a56b18f
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/isaac_ros_cumotion
+  repository_id: 808388964
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_cumotion
+  description: NVIDIA-accelerated packages for arm motion planning and control
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T06:56:57Z'
+  stars: 279
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_cumotion/blob/main/README.md
+  readme_path: README.md
+  readme_sha: dbf2c59119983f755b0709189aeab908b98f5107
+  manifest_paths:
+  - isaac_ros_cumotion/CMakeLists.txt
+  - isaac_ros_cumotion_controllers/CMakeLists.txt
+  - isaac_ros_cumotion_examples/setup.py
+  - isaac_ros_cumotion_interfaces/CMakeLists.txt
+  - isaac_ros_cumotion_moveit/CMakeLists.txt
+  - isaac_ros_cumotion_object_attachment/CMakeLists.txt
+  source_files_inspected:
+  - isaac_ros_cumotion/src/cumotion_planner.cpp
+  - isaac_ros_cumotion/src/impl/cumotion_logger_bridge.cpp
+  - isaac_ros_cumotion/src/impl/ik_solver_impl.cpp
+  - isaac_ros_cumotion/src/impl/robot_manager_impl.cpp
+  repository_tree:
+    status: captured
+    sha: 90d0a431e59cddaad119cb53e6b515dad08745fb
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: NVIDIA accelerated packages for arm motion planning and control
+  why_used: NVIDIA-accelerated packages for arm motion planning and control
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: isaac_ros_cumotion/src/cumotion_planner.cpp,
+    isaac_ros_cumotion/src/impl/cumotion_logger_bridge.cpp, isaac_ros_cumotion/src/impl/ik_solver_impl.cpp, isaac_ros_cumotion/src/impl/robot_manager_impl.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_cumotion/blob/main/README.md
+  path: README.md
+  blob_sha: dbf2c59119983f755b0709189aeab908b98f5107
+  retrieved: true
+- type: manifest
+  path: isaac_ros_cumotion/CMakeLists.txt
+  blob_sha: 5d07abad91aba45cac0ddbecb77bbbbf35c78a83
+  retrieved: true
+- type: manifest
+  path: isaac_ros_cumotion_controllers/CMakeLists.txt
+  blob_sha: 9a061ca273e5ab8ce88c049016967723a6564f21
+  retrieved: true
+- type: manifest
+  path: isaac_ros_cumotion_examples/setup.py
+  blob_sha: fba55f31b2458289fa858e47d781e1600f2b20d2
+  retrieved: true
+- type: manifest
+  path: isaac_ros_cumotion_interfaces/CMakeLists.txt
+  blob_sha: 3ff363e58697741df4ef9f205a87a89ba39f9172
+  retrieved: true
+- type: manifest
+  path: isaac_ros_cumotion_moveit/CMakeLists.txt
+  blob_sha: a7ff93861747d76fae525fe92156304b394c6558
+  retrieved: true
+- type: manifest
+  path: isaac_ros_cumotion_object_attachment/CMakeLists.txt
+  blob_sha: 389243492fa5f2386c62cae219d5eb5c4bd003a3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 444868
+    CMake: 21867
+    Shell: 1284
+- type: Git tree
+  status: captured
+  sha: 90d0a431e59cddaad119cb53e6b515dad08745fb
+  truncated: false
+- type: source_file
+  path: isaac_ros_cumotion/src/cumotion_planner.cpp
+  blob_sha: 754437c92a6a7a1ed9b810d7121d3e61f398991c
+  retrieved: true
+- type: source_file
+  path: isaac_ros_cumotion/src/impl/cumotion_logger_bridge.cpp
+  blob_sha: f733384042ea7dc6ba0e49a867a303e6cd4ae625
+  retrieved: true
+- type: source_file
+  path: isaac_ros_cumotion/src/impl/ik_solver_impl.cpp
+  blob_sha: 33d96b82ee6934a065d1b31760928bab13519040
+  retrieved: true
+- type: source_file
+  path: isaac_ros_cumotion/src/impl/robot_manager_impl.cpp
+  blob_sha: 7d5bd482b600d80a30bd14b3e780245de1ca0e6a
+  retrieved: true

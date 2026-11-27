@@ -1,0 +1,88 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:38:41+00:00'
+evidence_fingerprint: 751bcf51be833cf1f6eea3f0960197b922a52672b07d365cef718f276e330409
+repository_metadata:
+  company: Amazon
+  account: aws-quickstart
+  full_name: aws-quickstart/quickstart-ammos-smallsat-toolkit
+  repository_id: 377301931
+  url: https://github.com/aws-quickstart/quickstart-ammos-smallsat-toolkit
+  description: AWS Quick Start Team
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-10-03T18:48:00Z'
+  stars: 5
+  readme_url: https://github.com/aws-quickstart/quickstart-ammos-smallsat-toolkit/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 88edf7f0cadc04476ccd37b2e5a037a0228f25bc
+  manifest_paths: []
+  source_files_inspected:
+  - functions/source/LoggingProcessorLambda/index.js
+  - functions/source/CognitoClientInspect/cfn_cognito_inspect.py
+  - functions/source/CognitoClientInspect/cfnresponse.py
+  - functions/source/RoleChecker/cfnresponse.py
+  repository_tree:
+    status: captured
+    sha: e85af9c586847dc37cc2eb13e6b195810985d39e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ':x: This repository is subject to deprecation in Q4 2024. For more details, please review this announcement.'
+  why_used: AWS Quick Start Team
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: functions/source/LoggingProcessorLambda/index.js,
+    functions/source/CognitoClientInspect/cfn_cognito_inspect.py, functions/source/CognitoClientInspect/cfnresponse.py,
+    functions/source/RoleChecker/cfnresponse.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-quickstart/quickstart-ammos-smallsat-toolkit/blob/main/README.md
+  path: README.md
+  blob_sha: 88edf7f0cadc04476ccd37b2e5a037a0228f25bc
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 7164
+    Shell: 5698
+    JavaScript: 4731
+- type: Git tree
+  status: captured
+  sha: e85af9c586847dc37cc2eb13e6b195810985d39e
+  truncated: false
+- type: source_file
+  path: functions/source/LoggingProcessorLambda/index.js
+  blob_sha: 37bdcf24dca524b654650183c2cd0e5c19b70106
+  retrieved: true
+- type: source_file
+  path: functions/source/CognitoClientInspect/cfn_cognito_inspect.py
+  blob_sha: ed38ca1aec1804a18246f49d5ee24a3a18271b77
+  retrieved: true
+- type: source_file
+  path: functions/source/CognitoClientInspect/cfnresponse.py
+  blob_sha: 3593a83078d0b9ca047cb7954ff5fc6e0f35a78f
+  retrieved: true
+- type: source_file
+  path: functions/source/RoleChecker/cfnresponse.py
+  blob_sha: 3593a83078d0b9ca047cb7954ff5fc6e0f35a78f
+  retrieved: true

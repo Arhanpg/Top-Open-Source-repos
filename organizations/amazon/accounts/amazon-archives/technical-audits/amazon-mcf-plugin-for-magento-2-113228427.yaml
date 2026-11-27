@@ -1,0 +1,100 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:30:49+00:00'
+evidence_fingerprint: 42c4f6b9ccc0d191c2aa2e4510ee08bd571b5683ba2a2bf3347ece7f81fa6120
+repository_metadata:
+  company: Amazon
+  account: amazon-archives
+  full_name: amazon-archives/amazon-mcf-plugin-for-magento-2
+  repository_id: 113228427
+  url: https://github.com/amazon-archives/amazon-mcf-plugin-for-magento-2
+  description: Plugin code to enable Amazon MCF in Magento 2.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2018-12-20T19:32:05Z'
+  stars: 11
+  readme_url: https://github.com/amazon-archives/amazon-mcf-plugin-for-magento-2/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 1a136c20096fe0a6f00ac0c6b63121dcbd4bb4c4
+  manifest_paths:
+  - Amazon/MCF/composer.json
+  source_files_inspected:
+  - Amazon/MCF/Block/Adminhtml/Create/Items.php
+  - Amazon/MCF/Block/Catalog/Product/View/ProductShippingBlock.php
+  - Amazon/MCF/Block/System/Config/AmazonSynchronize.php
+  - Amazon/MCF/Controller/Adminhtml/System/Config/AmazonSynchronize.php
+  repository_tree:
+    status: captured
+    sha: 33dc64554fd8106b76632122e2c8376f08a859af
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Plugin code to enable Amazon MCF in Magento 2.
+  why_used: Plugin code to enable Amazon MCF in Magento 2.
+  core_features: []
+  technology_stack:
+    languages:
+    - PHP
+    - HTML
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - magento/framework
+    - magento/module-catalog
+    - magento/module-quote
+    - magento/module-sales
+    - magento/module-sales-rule
+    - magento/module-store
+    build_and_package_tools:
+    - Composer manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Amazon/MCF/Block/Adminhtml/Create/Items.php,
+    Amazon/MCF/Block/Catalog/Product/View/ProductShippingBlock.php, Amazon/MCF/Block/System/Config/AmazonSynchronize.php,
+    Amazon/MCF/Controller/Adminhtml/System/Config/AmazonSynchronize.php'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-archives/amazon-mcf-plugin-for-magento-2/blob/master/README.md
+  path: README.md
+  blob_sha: 1a136c20096fe0a6f00ac0c6b63121dcbd4bb4c4
+  retrieved: true
+- type: manifest
+  path: Amazon/MCF/composer.json
+  blob_sha: 83a13117de129a13cce8a2860121e9590135cb3c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    PHP: 154715
+    HTML: 14715
+    JavaScript: 4054
+- type: Git tree
+  status: captured
+  sha: 33dc64554fd8106b76632122e2c8376f08a859af
+  truncated: false
+- type: source_file
+  path: Amazon/MCF/Block/Adminhtml/Create/Items.php
+  blob_sha: 4b3324718b2d45c0c2df3409bb202976f64970e9
+  retrieved: true
+- type: source_file
+  path: Amazon/MCF/Block/Catalog/Product/View/ProductShippingBlock.php
+  blob_sha: 6f34e7e0c5a58f2f306cf4aa86beec729b59bb6a
+  retrieved: true
+- type: source_file
+  path: Amazon/MCF/Block/System/Config/AmazonSynchronize.php
+  blob_sha: 3efdc709cee800ed9f8337a686e85bde58dbffdb
+  retrieved: true
+- type: source_file
+  path: Amazon/MCF/Controller/Adminhtml/System/Config/AmazonSynchronize.php
+  blob_sha: 4175fc2bc701dac183d2b6e459ec651d17148c4b
+  retrieved: true

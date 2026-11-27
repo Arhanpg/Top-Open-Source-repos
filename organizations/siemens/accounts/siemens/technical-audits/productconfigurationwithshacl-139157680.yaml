@@ -1,0 +1,87 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:30:09+00:00'
+evidence_fingerprint: 4409cd0ff48e6ca1cb544c18ddf92bd5616a44141fbf6641dc795092d6943046
+repository_metadata:
+  company: Siemens
+  account: Siemens
+  full_name: siemens/ProductConfigurationWithSHACL
+  repository_id: 139157680
+  url: https://github.com/siemens/ProductConfigurationWithSHACL
+  description: Example code and models for a paper published at the Configuration Workshop 2018
+  default_branch: master
+  license_spdx: MPL-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-03-10T09:38:07Z'
+  stars: 4
+  readme_url: https://github.com/siemens/ProductConfigurationWithSHACL/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 874967e6362221dd64f85dc67834629ec3803edf
+  manifest_paths:
+  - configws2018/pom.xml
+  source_files_inspected:
+  - configws2018/src/main/java/com/siemens/productconfigurationshacl/App.java
+  - configws2018/src/main/java/com/siemens/productconfigurationshacl/ShaclRacksSolver.java
+  - configws2018/src/main/java/com/siemens/productconfigurationshacl/triples_to_asp/TriplesToASPTranslator.java
+  repository_tree:
+    status: captured
+    sha: 81bfbf3f6ba4c7830be7503a7dd43ab89771aaa5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: /configws2018 Code for "Integrating Semantic Web Technologies and ASP for Product Configuration".
+  why_used: Example code and models for a paper published at the Configuration Workshop 2018
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    frameworks_and_libraries: []
+    dependencies:
+    - ProductConfigurationWithSHACL
+    - junit
+    - shacl
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: configws2018/src/main/java/com/siemens/productconfigurationshacl/App.java,
+    configws2018/src/main/java/com/siemens/productconfigurationshacl/ShaclRacksSolver.java, configws2018/src/main/java/com/siemens/productconfigurationshacl/triples_to_asp/TriplesToASPTranslator.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/siemens/ProductConfigurationWithSHACL/blob/master/README.md
+  path: README.md
+  blob_sha: 874967e6362221dd64f85dc67834629ec3803edf
+  retrieved: true
+- type: manifest
+  path: configws2018/pom.xml
+  blob_sha: 7cc0791649c851c797d88d36b409bbb2957a611a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 13427
+- type: Git tree
+  status: captured
+  sha: 81bfbf3f6ba4c7830be7503a7dd43ab89771aaa5
+  truncated: false
+- type: source_file
+  path: configws2018/src/main/java/com/siemens/productconfigurationshacl/App.java
+  blob_sha: 4c90381c00e97e8ac8bd8030cd37f05a507ceedb
+  retrieved: true
+- type: source_file
+  path: configws2018/src/main/java/com/siemens/productconfigurationshacl/ShaclRacksSolver.java
+  blob_sha: 980720f3d90c5e3761786b9f04f1a30d30774e85
+  retrieved: true
+- type: source_file
+  path: configws2018/src/main/java/com/siemens/productconfigurationshacl/triples_to_asp/TriplesToASPTranslator.java
+  blob_sha: ac3c2664608e769f5a8c0667a4f545281dea25a5
+  retrieved: true

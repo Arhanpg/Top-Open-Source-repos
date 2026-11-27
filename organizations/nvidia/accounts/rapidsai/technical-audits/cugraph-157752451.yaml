@@ -1,0 +1,135 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:22:02+00:00'
+evidence_fingerprint: efad2e0639bc5cd282a2edf4fdbbdfbc2b5530adc8edc7add871edf613dac108
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/cugraph
+  repository_id: 157752451
+  url: https://github.com/rapidsai/cugraph
+  description: cuGraph - RAPIDS Graph Analytics Library
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T19:22:09Z'
+  stars: 2260
+  readme_url: https://github.com/rapidsai/cugraph/blob/main/README.md
+  readme_path: README.md
+  readme_sha: de6dc1db13871fb6fdb1d7070ba07b1600cf4a55
+  manifest_paths:
+  - pyproject.toml
+  - .devcontainer/Dockerfile
+  - cpp/CMakeLists.txt
+  - cpp/libcugraph_etl/CMakeLists.txt
+  - cpp/tests/CMakeLists.txt
+  - python/cugraph/CMakeLists.txt
+  source_files_inspected:
+  - benchmarks/cugraph/standalone/main.py
+  - cpp/src/c_api/abstract_functor.hpp
+  - cpp/src/c_api/allgather.cpp
+  - cpp/src/c_api/array.cpp
+  repository_tree:
+    status: captured
+    sha: 6db1b906ec2371e50d04b45c4c108832227bf5ee
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: NVIDIA cuGraph is a collection of packages focused on GPU-accelerated graph analytics. cuGraph supports
+    the creation and manipulation of graphs followed by the execution of scalable fast graph algorithms.
+  why_used: cuGraph - RAPIDS Graph Analytics Library
+  core_features: []
+  technology_stack:
+    languages:
+    - Cuda
+    - C++
+    - Python
+    - C
+    - Jupyter Notebook
+    - Cython
+    - CMake
+    - Shell
+    - Dockerfile
+    - HTML
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: benchmarks/cugraph/standalone/main.py,
+    cpp/src/c_api/abstract_functor.hpp, cpp/src/c_api/allgather.cpp, cpp/src/c_api/array.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/cugraph/blob/main/README.md
+  path: README.md
+  blob_sha: de6dc1db13871fb6fdb1d7070ba07b1600cf4a55
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: c9e59fb190b1caf2cb8d9845c2dfeafcc36aa422
+  retrieved: true
+- type: manifest
+  path: .devcontainer/Dockerfile
+  blob_sha: 21a54d49173db717ff7cd7c84092e47f7f261db4
+  retrieved: true
+- type: manifest
+  path: cpp/CMakeLists.txt
+  blob_sha: 78070401e649d9627b05730e8b13d202d7f0d90d
+  retrieved: true
+- type: manifest
+  path: cpp/libcugraph_etl/CMakeLists.txt
+  blob_sha: d37a7dd8f7d29c9d9aed8da37eca9873c1cdbf61
+  retrieved: true
+- type: manifest
+  path: cpp/tests/CMakeLists.txt
+  blob_sha: 86a9d18373fe6aad1ce0354847ea66d0b7925135
+  retrieved: true
+- type: manifest
+  path: python/cugraph/CMakeLists.txt
+  blob_sha: 3aa9280dd8a95913dff28103cafd67c7d52ed545
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Cuda: 6707649
+    C++: 3368230
+    Python: 1757404
+    C: 1327778
+    Jupyter Notebook: 1127993
+    Cython: 726234
+    CMake: 125875
+    Shell: 87584
+    Dockerfile: 3585
+    HTML: 2352
+- type: Git tree
+  status: captured
+  sha: 6db1b906ec2371e50d04b45c4c108832227bf5ee
+  truncated: false
+- type: source_file
+  path: benchmarks/cugraph/standalone/main.py
+  blob_sha: 5e46aba547d6e04cfec94183ea32a83469109803
+  retrieved: true
+- type: source_file
+  path: cpp/src/c_api/abstract_functor.hpp
+  blob_sha: 98b8c9c68e7388476ae4885afe7256fb9ea24388
+  retrieved: true
+- type: source_file
+  path: cpp/src/c_api/allgather.cpp
+  blob_sha: 7f21e622a787c2885d4f33f36a242fcac2c6a8b8
+  retrieved: true
+- type: source_file
+  path: cpp/src/c_api/array.cpp
+  blob_sha: 70b04685d26a33a64f49bd71821bd70ea09ab189
+  retrieved: true

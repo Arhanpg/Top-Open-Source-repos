@@ -1,0 +1,99 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:31:21+00:00'
+evidence_fingerprint: 4da2503753a17daa6558d9e472fb2153aba015e5fd1c4c3cd37c382088757f2c
+repository_metadata:
+  company: Amazon
+  account: aws-actions
+  full_name: aws-actions/sustainability-scanner
+  repository_id: 676336646
+  url: https://github.com/aws-actions/sustainability-scanner
+  description: Runs AWS Sustainability Scanner against infrastructure-as-code.
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-19T15:59:32Z'
+  stars: 26
+  readme_url: https://github.com/aws-actions/sustainability-scanner/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 6c0cd9f2f5c0b855d3dee9344296905ef9c16f14
+  manifest_paths:
+  - Dockerfile
+  source_files_inspected:
+  - entrypoint.sh
+  - report.py
+  repository_tree:
+    status: captured
+    sha: 8b9f4bd2d09c6ecd0df3baf4f271d64ac2e73fc7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This GitHub Action runs AWS Sustainability Scanner against infrastructure-as-code to identify sustainability
+    best practices, generates a report with a score and suggested improvements to apply to your template.
+  why_used: Runs AWS Sustainability Scanner against infrastructure-as-code.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: entrypoint.sh, report.py'
+  setup_and_usage:
+  - 'Usage: In your Github worflows, under steps, add the following:'
+  - 'Usage: name: AWS Sustainability Scanner'
+  - 'Usage: uses: aws-actions/sustainability-scanner@v1'
+  - 'Usage with a directory and custom rules set: runs-on: ubuntu-latest'
+  - 'Usage with a directory and custom rules set: - uses: actions/checkout@v4'
+  - 'Usage with a directory and custom rules set: # Run AWS Sustainability Scanner against "my-cf-stacks" folder
+    with an additional rules set'
+  - 'Usage with a directory and custom rules set: - name: AWS Sustainability Scanner'
+  - 'Usage with a directory and custom rules set: uses: aws-actions/sustainability-scanner@v1'
+  limitations:
+  - 'Security considerations: Template files are copied to a temporary directory with neutral names before they
+    are scanned, so unusual file names (quotes, spaces, line breaks) cannot alter how the scanner invokes CFN Guard.
+    The original names are kept in the results and the job summary.'
+  - 'Security considerations: The action stops the runner from processing workflow commands while it runs, so template
+    content in the scan output cannot be interpreted as a workflow command, and CFN Guard error output is printed
+    escaped.'
+  - 'Security considerations: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-actions/sustainability-scanner/blob/main/README.md
+  path: README.md
+  blob_sha: 6c0cd9f2f5c0b855d3dee9344296905ef9c16f14
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 78a85bc9048e8e88e69a0f949baffb6f4a46423b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 23330
+    Shell: 9861
+    Dockerfile: 1133
+- type: Git tree
+  status: captured
+  sha: 8b9f4bd2d09c6ecd0df3baf4f271d64ac2e73fc7
+  truncated: false
+- type: source_file
+  path: entrypoint.sh
+  blob_sha: bf805a5c1d113056436f5c88974983a229f54493
+  retrieved: true
+- type: source_file
+  path: report.py
+  blob_sha: 356806f3f7c46810c953ff6dd9e49f6eed689084
+  retrieved: true

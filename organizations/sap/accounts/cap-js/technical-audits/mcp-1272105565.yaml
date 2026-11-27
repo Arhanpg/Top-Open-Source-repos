@@ -1,0 +1,126 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:22:18+00:00'
+evidence_fingerprint: 1402e695b63691780922aa94a8399ca42252e83c5385021909f33fb90cf64732
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/mcp
+  repository_id: 1272105565
+  url: https://github.com/cap-js/mcp
+  description: CAP plugin to expose services over MCP for AI agent consumption.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T12:57:21Z'
+  stars: 22
+  readme_url: https://github.com/cap-js/mcp/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5b80a81f762bbff08b14618de8eb85418c828710
+  manifest_paths:
+  - package.json
+  - tests/bookshop-mtx/package.json
+  - tests/bookshop/package.json
+  - tests/bookshop/app/router/package.json
+  source_files_inspected:
+  - lib/index.js
+  - lib/api.js
+  - lib/auth.js
+  - lib/clients.js
+  repository_tree:
+    status: captured
+    sha: ff711ff237792a0853448d19f088f3552f77278d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a protocol adapter for the Model Context Protocol to expose CAP services for agent consumption.
+    For more information, check the official documentation.
+  why_used: CAP plugin to expose services over MCP for AI agent consumption.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/cds-test'
+    - '@cap-js/hana'
+    - '@cap-js/mcp'
+    - '@cap-js/sqlite'
+    - '@modelcontextprotocol/node'
+    - '@modelcontextprotocol/server'
+    - '@sap/approuter'
+    - '@sap/cds'
+    - '@sap/cds-mtxs'
+    - '@sap/hana-client'
+    - '@sap/xssec'
+    - '@toon-format/toon'
+    - better-sqlite3
+    - express
+    - oxfmt
+    - zod
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/index.js, lib/api.js,
+    lib/auth.js, lib/clients.js'
+  setup_and_usage: []
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow the instructions found
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/mcp/blob/main/README.md
+  path: README.md
+  blob_sha: 5b80a81f762bbff08b14618de8eb85418c828710
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: b6eeaad006978f2de2faa9864a55951a490c7ee7
+  retrieved: true
+- type: manifest
+  path: tests/bookshop-mtx/package.json
+  blob_sha: ed510c843ae6cdabc6b64b65768f10b551cb9ba5
+  retrieved: true
+- type: manifest
+  path: tests/bookshop/package.json
+  blob_sha: 6ae8637814265557c283a315ce08b131af0bb64d
+  retrieved: true
+- type: manifest
+  path: tests/bookshop/app/router/package.json
+  blob_sha: 89bee13220b73b11a865f9a10f9072a1f9804a04
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 299437
+    CAP CDS: 25354
+- type: Git tree
+  status: captured
+  sha: ff711ff237792a0853448d19f088f3552f77278d
+  truncated: false
+- type: source_file
+  path: lib/index.js
+  blob_sha: 52b461ff375880c43a19b822069329a4200428e8
+  retrieved: true
+- type: source_file
+  path: lib/api.js
+  blob_sha: 335f8e660f6011235cc9b0f772c5e41483f80b70
+  retrieved: true
+- type: source_file
+  path: lib/auth.js
+  blob_sha: 61deaa9b60c0cd002edef0097026ff14532a96e4
+  retrieved: true
+- type: source_file
+  path: lib/clients.js
+  blob_sha: 9abff52df6c0b5119906f95f8cab5fa2d844fe95
+  retrieved: true

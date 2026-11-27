@@ -1,0 +1,188 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:44:02+00:00'
+evidence_fingerprint: 91ba3625bcc5dcfd49f12c1ea6a85b70b4519d0743a21e5d0ee91d606fc9a1b6
+repository_metadata:
+  company: Amazon
+  account: aws
+  full_name: aws/amazon-chime-sdk-js
+  repository_id: 216939647
+  url: https://github.com/aws/amazon-chime-sdk-js
+  description: A JavaScript client library for integrating multi-party communications powered by the Amazon Chime
+    service.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T17:12:40Z'
+  stars: 765
+  readme_url: https://github.com/aws/amazon-chime-sdk-js/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 694057b60e609db1a8803c691bd1d512f1035b11
+  manifest_paths:
+  - package.json
+  - integration/package.json
+  - demos/browser/package.json
+  - demos/serverless/package.json
+  - demos/serverless/src/package.json
+  source_files_inspected:
+  - src/index.ts
+  - demos/browser/app/meeting/app/DemoMeetingApp.ts
+  - demos/browser/app/meeting/app/pageElements.ts
+  - demos/browser/app/meeting/app/SessionEvents.ts
+  repository_tree:
+    status: captured
+    sha: 00e7c04fa078afd36a16b5838ee4d2b91f0fb32c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Amazon Chime SDK Project Board
+  why_used: A JavaScript client library for integrating multi-party communications powered by the Amazon Chime service.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    - Shell
+    - Ruby
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-crypto/sha256-js'
+    - '@aws-sdk/client-chime-sdk-media-pipelines'
+    - '@aws-sdk/client-chime-sdk-meetings'
+    - '@aws-sdk/client-chime-sdk-messaging'
+    - '@aws-sdk/client-cloudwatch-logs'
+    - '@aws-sdk/client-device-farm'
+    - '@aws-sdk/client-dynamodb'
+    - '@aws-sdk/client-ivs'
+    - '@aws-sdk/client-s3'
+    - '@aws-sdk/client-sts'
+    - '@aws-sdk/util-hex-encoding'
+    - '@eslint/js'
+    - '@fluffy-spoon/substitute'
+    - '@types/chai'
+    - '@types/chai-as-promised'
+    - '@types/mocha'
+    - '@types/node'
+    - '@types/sinon'
+    - '@types/ua-parser-js'
+    - '@types/uuid'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - amazon-chime-sdk-js
+    - aws-embedded-metrics
+    - chai
+    - chai-as-promised
+    - chalk
+    - chokidar
+    - compression
+    - cross-env
+    - detect-browser
+    - eslint
+    - eslint-config-prettier
+    - eslint-plugin-prettier
+    - eslint-plugin-simple-import-sort
+    - fetch-mock
+    - fs-extra
+    - git-rev-sync
+    - longjohn
+    - lucide-static
+    - minimist
+    - mocha
+    - mocha-steps
+    - node-fetch
+    - nyc
+    - pako
+    - prettier
+    - protobufjs
+    - protobufjs-cli
+    - resize-observer
+    - rimraf
+    - selenium-webdriver
+    - sinon
+    - spawn-wrap
+    - terser
+    - ts-node
+    - typedoc
+    - typedoc-plugin-merge-modules
+    - typescript
+    - typescript-eslint
+    - ua-parser-js
+    - uuid
+    - vite
+    - vite-plugin-singlefile
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/index.ts, demos/browser/app/meeting/app/DemoMeetingApp.ts,
+    demos/browser/app/meeting/app/pageElements.ts, demos/browser/app/meeting/app/SessionEvents.ts'
+  setup_and_usage:
+  - 'Installation: Make sure you have Node.js version 18 or higher. Node 20 is recommended and supported.'
+  - 'Installation: To add the Amazon Chime SDK for JavaScript into an existing application,'
+  - 'Installation: install the package directly from npm:'
+  - 'Installation: npm install amazon-chime-sdk-js --save'
+  - 'Installation: Note that the Amazon Chime SDK for JavaScript targets ES2015, which is fully compatible with'
+  - 'Installation: all supported browsers.'
+  - 'Usage: - Screen and content share'
+  - 'Usage: - Monitoring and alerts'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws/amazon-chime-sdk-js/blob/main/README.md
+  path: README.md
+  blob_sha: 694057b60e609db1a8803c691bd1d512f1035b11
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 07fa70ff35a1933fd6ac30e8100e54465ca9ba79
+  retrieved: true
+- type: manifest
+  path: integration/package.json
+  blob_sha: 546ca0e4ca5f9e6f82af66944e2d3f2c29e10c02
+  retrieved: true
+- type: manifest
+  path: demos/browser/package.json
+  blob_sha: 6be0ecbe38457d1542d65219640a29baef497a2d
+  retrieved: true
+- type: manifest
+  path: demos/serverless/package.json
+  blob_sha: 935685574c11b0a527fbf1d7966006ffe2b2c464
+  retrieved: true
+- type: manifest
+  path: demos/serverless/src/package.json
+  blob_sha: 2deb2490871802500a7896292a05cf852b990c8a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 4975822
+    JavaScript: 1114009
+    Shell: 7986
+    Ruby: 4870
+- type: Git tree
+  status: captured
+  sha: 00e7c04fa078afd36a16b5838ee4d2b91f0fb32c
+  truncated: false
+- type: source_file
+  path: src/index.ts
+  blob_sha: 819ddb7dbf7c7b48e932d86feb9c8d7fb6f7c48e
+  retrieved: true
+- type: source_file
+  path: demos/browser/app/meeting/app/DemoMeetingApp.ts
+  blob_sha: 9e3f7c749b7b266241c6836e2843824b3f64569c
+  retrieved: true
+- type: source_file
+  path: demos/browser/app/meeting/app/pageElements.ts
+  blob_sha: 53e8fa90afc207bf066cae4c504e5255ea919dec
+  retrieved: true
+- type: source_file
+  path: demos/browser/app/meeting/app/SessionEvents.ts
+  blob_sha: add0c359e9c15fbfe500768667d4b45115976586
+  retrieved: true

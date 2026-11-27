@@ -1,0 +1,81 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:32:25+00:00'
+evidence_fingerprint: 2c1eebb47a09848f44bf9e30743d3e8cf3c3384e5cb71882726f2ad0fce82d33
+repository_metadata:
+  company: Amazon
+  account: aws-robotics
+  full_name: aws-robotics/kinesisvideo-encoder-ros1
+  repository_id: 158598080
+  url: https://github.com/aws-robotics/kinesisvideo-encoder-ros1
+  description: ROS packages for facilitating the use of AWS cloud services.
+  default_branch: master
+  license_spdx: null
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-02-08T21:47:41Z'
+  stars: 25
+  readme_url: https://github.com/aws-robotics/kinesisvideo-encoder-ros1/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 6a843c21abeb12800826e856808e4b56d6f6238f
+  manifest_paths:
+  - h264_video_encoder/CMakeLists.txt
+  source_files_inspected:
+  - h264_video_encoder/src/main.cpp
+  - h264_video_encoder/src/h264_video_encoder.cpp
+  repository_tree:
+    status: captured
+    sha: c5835f8fe9a629b4cb01f47c5426a1b7b3720fa9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This package provides a ROS Node that will encode a stream of images into an H264 video stream.
+  why_used: ROS packages for facilitating the use of AWS cloud services.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: h264_video_encoder/src/main.cpp,
+    h264_video_encoder/src/h264_video_encoder.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-robotics/kinesisvideo-encoder-ros1/blob/master/README.md
+  path: README.md
+  blob_sha: 6a843c21abeb12800826e856808e4b56d6f6238f
+  retrieved: true
+- type: manifest
+  path: h264_video_encoder/CMakeLists.txt
+  blob_sha: 832094aa8beae24b36797f631d0a856fde18da4f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 18335
+    CMake: 2609
+- type: Git tree
+  status: captured
+  sha: c5835f8fe9a629b4cb01f47c5426a1b7b3720fa9
+  truncated: false
+- type: source_file
+  path: h264_video_encoder/src/main.cpp
+  blob_sha: 1cc02a811455cf69747cf1f67c59e95648aac510
+  retrieved: true
+- type: source_file
+  path: h264_video_encoder/src/h264_video_encoder.cpp
+  blob_sha: df4a8cad044deb53a135cbc6f6ee058e29e5476d
+  retrieved: true

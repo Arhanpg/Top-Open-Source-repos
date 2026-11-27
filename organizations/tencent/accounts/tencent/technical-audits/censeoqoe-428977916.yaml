@@ -1,0 +1,103 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:43:05+00:00'
+evidence_fingerprint: feb9475eb672d7a6e32d1393ee9fabc4729ce98efd9b11d487dfb046faed5357
+repository_metadata:
+  company: Tencent
+  account: Tencent
+  full_name: Tencent/CenseoQoE
+  repository_id: 428977916
+  url: https://github.com/Tencent/CenseoQoE
+  description: image and video quality assessment
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-01-12T11:37:07Z'
+  stars: 240
+  readme_url: https://github.com/Tencent/CenseoQoE/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 34322c80221cf3ad1d2be37af59fe205b8d9c087
+  manifest_paths:
+  - CenseoQoE-Algorithm/Dockerfile
+  - CenseoQoE-SDK/CMakeLists.txt
+  source_files_inspected:
+  - CenseoQoE-SDK/main.cpp
+  - CenseoQoE-SDK/src/censeo.cpp
+  - CenseoQoE-SDK/src/infos.cpp
+  - CenseoQoE-SDK/src/libtorch_infer_engine/model_base.cpp
+  repository_tree:
+    status: captured
+    sha: a181364362306e31312894ecccc6dc80b055b81c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 图像/视频在编解码、传输和显示等过程中难免引入不同类型/程度的失真导致图像质量下降。图像/视频质量评价(IVQA)的研究目标是希望模仿人类视觉感知系统， 通过算法评估图片/视频在终端用户的眼中画质主观体验的好坏，目前在视频编解码、画质增强、画质监控、推荐算法、竞品分析等领域有广泛的应用。
+  why_used: image and video quality assessment
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - Shell
+    - CMake
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: CenseoQoE-SDK/main.cpp,
+    CenseoQoE-SDK/src/censeo.cpp, CenseoQoE-SDK/src/infos.cpp, CenseoQoE-SDK/src/libtorch_infer_engine/model_base.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Tencent/CenseoQoE/blob/master/README.md
+  path: README.md
+  blob_sha: 34322c80221cf3ad1d2be37af59fe205b8d9c087
+  retrieved: true
+- type: manifest
+  path: CenseoQoE-Algorithm/Dockerfile
+  blob_sha: 9672bb34be8b6c11a34ba30afd46a612007aee37
+  retrieved: true
+- type: manifest
+  path: CenseoQoE-SDK/CMakeLists.txt
+  blob_sha: e0ac2a2176ef7d379c06fdbe6baf89f880f161f0
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 95799
+    C++: 42665
+    Shell: 5365
+    CMake: 3734
+    Dockerfile: 1116
+- type: Git tree
+  status: captured
+  sha: a181364362306e31312894ecccc6dc80b055b81c
+  truncated: false
+- type: source_file
+  path: CenseoQoE-SDK/main.cpp
+  blob_sha: e830f0187e3fd3adf560568f6f23105bea110fd4
+  retrieved: true
+- type: source_file
+  path: CenseoQoE-SDK/src/censeo.cpp
+  blob_sha: fbccdff45e63c272deb9cdc9156890d660f06053
+  retrieved: true
+- type: source_file
+  path: CenseoQoE-SDK/src/infos.cpp
+  blob_sha: c48d545bbc45fa7651faa5ccd06fc89ec610d5fd
+  retrieved: true
+- type: source_file
+  path: CenseoQoE-SDK/src/libtorch_infer_engine/model_base.cpp
+  blob_sha: 209760b063e65d0acb36fd50bbe2b9440420add3
+  retrieved: true

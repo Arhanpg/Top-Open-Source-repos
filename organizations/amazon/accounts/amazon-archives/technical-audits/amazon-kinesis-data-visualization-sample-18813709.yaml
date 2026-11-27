@@ -1,0 +1,138 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:17:51+00:00'
+evidence_fingerprint: 0c15c54a72285eeaa5eb73ae4fd8bd16c5c85bb3d7d299380ea90d72010c02b4
+repository_metadata:
+  company: Amazon
+  account: amazon-archives
+  full_name: amazon-archives/amazon-kinesis-data-visualization-sample
+  repository_id: 18813709
+  url: https://github.com/amazon-archives/amazon-kinesis-data-visualization-sample
+  description: Amazon Kinesis Data Visualization Sample Application
+  default_branch: master
+  license_spdx: MIT-0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2019-04-09T00:09:07Z'
+  stars: 171
+  readme_url: https://github.com/amazon-archives/amazon-kinesis-data-visualization-sample/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 006879870e6f5d3f08cb8cc1783d5ba39fa2ed8c
+  manifest_paths:
+  - pom.xml
+  - src/main/static-content/wwwroot/flot-0.8.2/Makefile
+  source_files_inspected:
+  - src/main/java/com/amazonaws/services/kinesis/samples/datavis/HttpReferrerCounterApplication.java
+  - src/main/java/com/amazonaws/services/kinesis/samples/datavis/HttpReferrerStreamWriter.java
+  - src/main/java/com/amazonaws/services/kinesis/samples/datavis/kcl/counter/BucketBasedCounter.java
+  - src/main/java/com/amazonaws/services/kinesis/samples/datavis/kcl/counter/SlidingWindowCounter.java
+  repository_tree:
+    status: captured
+    sha: 08641820e2d3fc49a2c5e2d331a4e422e9335b9d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The **Amazon Kinesis Data Visualization Sample Application** demonstrates how to interact with [Amazon
+    Kinesis][kinesis] to generate meaningful statistics from a stream of data and visualize those results in real
+    time.
+  why_used: Amazon Kinesis Data Visualization Sample Application
+  core_features:
+  - name: A record publisher to send data to [Amazon Kinesis][kinesis].
+    description: A record publisher to send data to [Amazon Kinesis][kinesis].
+    evidence:
+    - README.md#Features
+  - name: An [Amazon Kinesis Client][kcl] application to compute the number of HTTP requests a resource received,
+      and the HTTP referrer that sent them, over a sliding win
+    description: An [Amazon Kinesis Client][kcl] application to compute the number of HTTP requests a resource received,
+      and the HTTP referrer that sent them, over a sliding window.
+    evidence:
+    - README.md#Features
+  - name: An embedded web server and real time chart to display counts as they are computed.
+    description: An embedded web server and real time chart to display counts as they are computed.
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - JavaScript
+    - Java
+    - CSS
+    - HTML
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - amazon-kinesis-client
+    - amazon-kinesis-data-visualization-sample
+    - exec-maven-plugin
+    - jetty-servlet
+    - junit
+    - maven-assembly-plugin
+    - maven-compiler-plugin
+    - mockito-all
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/main/java/com/amazonaws/services/kinesis/samples/datavis/HttpReferrerCounterApplication.java,
+    src/main/java/com/amazonaws/services/kinesis/samples/datavis/HttpReferrerStreamWriter.java, src/main/java/com/amazonaws/services/kinesis/samples/datavis/kcl/counter/BucketBasedCounter.java,
+    src/main/java/com/amazonaws/services/kinesis/samples/datavis/kcl/counter/SlidingWindowCounter.java'
+  setup_and_usage:
+  - 'Getting Started: 1. **Sign up for AWS** &mdash; Before you begin, you need an AWS account. For more information
+    about creating an AWS account and retrieving your AWS credentials, see [AWS Account and Credentials][docs-signup]
+    in the AWS SDK for Java Developer Guide.'
+  - 'Getting Started: 1. **Sign up for Amazon Kinesis** &mdash; Go to the Amazon Kinesis console to sign up for
+    the service.'
+  - 'Getting Started: 1. **Minimum requirements** &mdash; To use the sample application, you''ll need **Java 1.7+**
+    and [Maven 3][maven]. For more information about the requirements, see the [Getting Started][kinesis-getting-started]
+    section of the Amazon Kinesis Developer Guide.'
+  - 'Getting Started: 1. **Using the Amazon Kinesis Data Visualization Sample Application** &mdash; The best way
+    to familiarize yourself with the sample application is to read the [Getting Started][kinesis-getting-started]
+    section of the Amazon Kinesis Developer Guide.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-archives/amazon-kinesis-data-visualization-sample/blob/master/README.md
+  path: README.md
+  blob_sha: 006879870e6f5d3f08cb8cc1783d5ba39fa2ed8c
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: dc6e7102f94743a3148891e607853c558cee3b0a
+  retrieved: true
+- type: manifest
+  path: src/main/static-content/wwwroot/flot-0.8.2/Makefile
+  blob_sha: 2e070d0c3c03417df83c6fd217eea8393887b16f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 313184
+    Java: 130195
+    CSS: 1536
+    HTML: 1006
+    Makefile: 285
+- type: Git tree
+  status: captured
+  sha: 08641820e2d3fc49a2c5e2d331a4e422e9335b9d
+  truncated: false
+- type: source_file
+  path: src/main/java/com/amazonaws/services/kinesis/samples/datavis/HttpReferrerCounterApplication.java
+  blob_sha: 9fb705a8b0092709aa6a0392b6b0295199ddc4eb
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/amazonaws/services/kinesis/samples/datavis/HttpReferrerStreamWriter.java
+  blob_sha: fd29ae84d1853ae4d775bc030e2111b5295f630c
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/amazonaws/services/kinesis/samples/datavis/kcl/counter/BucketBasedCounter.java
+  blob_sha: 17d02efe88478440073855e170c8abd5132d429c
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/amazonaws/services/kinesis/samples/datavis/kcl/counter/SlidingWindowCounter.java
+  blob_sha: a97627a8ce4d043ac270d3ba6dcabece7c2984b8
+  retrieved: true

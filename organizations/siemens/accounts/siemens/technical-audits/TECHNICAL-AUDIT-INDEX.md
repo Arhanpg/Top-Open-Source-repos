@@ -1,10 +1,10 @@
 # Technical audits — siemens
 
-Updated: 2026-11-27T07:24:05+00:00
+Updated: 2026-11-27T22:44:02+00:00
 
 ## Status counts
 
-- evidence_only: 18
+- evidence_only: 22
 
 ## Repository dossiers
 
@@ -28,3 +28,7 @@ Updated: 2026-11-27T07:24:05+00:00
 | netarchtest-236915772 | evidence_only | [netarchtest-236915772.md](netarchtest-236915772.md) | [netarchtest-236915772.yaml](netarchtest-236915772.yaml) |
 | ooasp-515188934 | evidence_only | [ooasp-515188934.md](ooasp-515188934.md) | [ooasp-515188934.yaml](ooasp-515188934.yaml) |
 | oocsp-59981547 | evidence_only | [oocsp-59981547.md](oocsp-59981547.md) | [oocsp-59981547.yaml](oocsp-59981547.yaml) |
+| powershell-221002805 | evidence_only | [powershell-221002805.md](powershell-221002805.md) | [powershell-221002805.yaml](powershell-221002805.yaml) |
+| productconfigurationwithshacl-139157680 | evidence_only | [productconfigurationwithshacl-139157680.md](productconfigurationwithshacl-139157680.md) | [productconfigurationwithshacl-139157680.yaml](productconfigurationwithshacl-139157680.yaml) |
+| rhel9-cis-707639805 | evidence_only | [rhel9-cis-707639805.md](rhel9-cis-707639805.md) | [rhel9-cis-707639805.yaml](rhel9-cis-707639805.yaml) |
+| ubuntu22-cis-656668399 | evidence_only | [ubuntu22-cis-656668399.md](ubuntu22-cis-656668399.md) | [ubuntu22-cis-656668399.yaml](ubuntu22-cis-656668399.yaml) |

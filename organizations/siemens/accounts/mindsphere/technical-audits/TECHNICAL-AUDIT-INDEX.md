@@ -1,10 +1,10 @@
 # Technical audits — mindsphere
 
-Updated: 2026-11-27T07:24:11+00:00
+Updated: 2026-11-27T22:44:03+00:00
 
 ## Status counts
 
-- evidence_only: 17
+- evidence_only: 21
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -25,7 +25,11 @@ Updated: 2026-11-27T07:24:11+00:00
 | mindconnect-mqtt-v4-example-890970979 | evidence_only | [mindconnect-mqtt-v4-example-890970979.md](mindconnect-mqtt-v4-example-890970979.md) | [mindconnect-mqtt-v4-example-890970979.yaml](mindconnect-mqtt-v4-example-890970979.yaml) |
 | mindconnect-nodejs-167309487 | evidence_only | [mindconnect-nodejs-167309487.md](mindconnect-nodejs-167309487.md) | [mindconnect-nodejs-167309487.yaml](mindconnect-nodejs-167309487.yaml) |
 | mindsphere-auth-helper-275625626 | evidence_only | [mindsphere-auth-helper-275625626.md](mindsphere-auth-helper-275625626.md) | [mindsphere-auth-helper-275625626.yaml](mindsphere-auth-helper-275625626.yaml) |
+| mindsphere-github-io-186260618 | evidence_only | [mindsphere-github-io-186260618.md](mindsphere-github-io-186260618.md) | [mindsphere-github-io-186260618.yaml](mindsphere-github-io-186260618.yaml) |
 | mindsphere-java-sdk-examples-329870360 | evidence_only | [mindsphere-java-sdk-examples-329870360.md](mindsphere-java-sdk-examples-329870360.md) | [mindsphere-java-sdk-examples-329870360.yaml](mindsphere-java-sdk-examples-329870360.yaml) |
 | mindsphere-node-sdk-examples-329870638 | evidence_only | [mindsphere-node-sdk-examples-329870638.md](mindsphere-node-sdk-examples-329870638.md) | [mindsphere-node-sdk-examples-329870638.yaml](mindsphere-node-sdk-examples-329870638.yaml) |
 | mindsphere-python-sdk-example-app-476300637 | insufficient_evidence | [mindsphere-python-sdk-example-app-476300637.md](mindsphere-python-sdk-example-app-476300637.md) | [mindsphere-python-sdk-example-app-476300637.yaml](mindsphere-python-sdk-example-app-476300637.yaml) |
+| mindsphere-python-sdk-examples-329870799 | evidence_only | [mindsphere-python-sdk-examples-329870799.md](mindsphere-python-sdk-examples-329870799.md) | [mindsphere-python-sdk-examples-329870799.yaml](mindsphere-python-sdk-examples-329870799.yaml) |
+| mindsphere-remote-service-522530128 | evidence_only | [mindsphere-remote-service-522530128.md](mindsphere-remote-service-522530128.md) | [mindsphere-remote-service-522530128.yaml](mindsphere-remote-service-522530128.yaml) |
+| mongo-191940584 | evidence_only | [mongo-191940584.md](mongo-191940584.md) | [mongo-191940584.yaml](mongo-191940584.yaml) |
 | predictivelearning-examples-439314216 | evidence_only | [predictivelearning-examples-439314216.md](predictivelearning-examples-439314216.md) | [predictivelearning-examples-439314216.yaml](predictivelearning-examples-439314216.yaml) |

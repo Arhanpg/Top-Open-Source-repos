@@ -1,0 +1,132 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:23:46+00:00'
+evidence_fingerprint: a040b0223683cddbac0cab3f496f58446483ecb7c4f35454078893ccacb8a417
+repository_metadata:
+  company: Siemens
+  account: Siemens
+  full_name: siemens/PowerShell
+  repository_id: 221002805
+  url: https://github.com/siemens/PowerShell
+  description: PowerShell for every system!
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2019-11-11T09:56:11Z'
+  stars: 3
+  readme_url: https://github.com/siemens/PowerShell/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 78d35389e2412458b1305cdac74cc21555f053ec
+  manifest_paths:
+  - .devcontainer/Dockerfile
+  - test/docker/networktest/Dockerfile
+  - docker/tests/Templates/centos7/Dockerfile
+  - docker/tests/Templates/debian.9/Dockerfile
+  - docker/tests/Templates/fedora28/Dockerfile
+  - docker/tests/Templates/fxdependent-centos7/Dockerfile
+  source_files_inspected:
+  - src/Microsoft.Management.Infrastructure.CimCmdlets/AssemblyInfo.cs
+  - src/Microsoft.Management.Infrastructure.CimCmdlets/CimAsyncOperation.cs
+  - src/Microsoft.Management.Infrastructure.CimCmdlets/CimBaseAction.cs
+  - src/Microsoft.Management.Infrastructure.CimCmdlets/CimCmdletModuleInitialize.cs
+  repository_tree:
+    status: captured
+    sha: e197543bad330cf026912f34403641f0e210d260
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Welcome to the PowerShell GitHub Community! PowerShell Core is a cross-platform (Windows, Linux, and
+    macOS) automation and configuration tool/framework that works well with your existing tools and is optimized
+    for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line
+    shell, an associated scripting language and a framework for processing cmdlets.
+  why_used: PowerShell for every system!
+  core_features: []
+  technology_stack:
+    languages:
+    - C#
+    - PowerShell
+    - Roff
+    - Shell
+    - Dockerfile
+    - HTML
+    - XSLT
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/Microsoft.Management.Infrastructure.CimCmdlets/AssemblyInfo.cs,
+    src/Microsoft.Management.Infrastructure.CimCmdlets/CimAsyncOperation.cs, src/Microsoft.Management.Infrastructure.CimCmdlets/CimBaseAction.cs,
+    src/Microsoft.Management.Infrastructure.CimCmdlets/CimCmdletModuleInitialize.cs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/siemens/PowerShell/blob/master/README.md
+  path: README.md
+  blob_sha: 78d35389e2412458b1305cdac74cc21555f053ec
+  retrieved: true
+- type: manifest
+  path: .devcontainer/Dockerfile
+  blob_sha: d47fe90be5d9c95eacf3e48121d1e27c7dd35b76
+  retrieved: true
+- type: manifest
+  path: test/docker/networktest/Dockerfile
+  blob_sha: 1e4f3d65ebb19a1067478af0f86cad76b0fa3896
+  retrieved: true
+- type: manifest
+  path: docker/tests/Templates/centos7/Dockerfile
+  blob_sha: dddf243944598d63cfa2f8867feef461ad57f3dc
+  retrieved: true
+- type: manifest
+  path: docker/tests/Templates/debian.9/Dockerfile
+  blob_sha: f2de0f8d61feb8eec857b5c8400f47cb15b9cd0e
+  retrieved: true
+- type: manifest
+  path: docker/tests/Templates/fedora28/Dockerfile
+  blob_sha: 9c9f958f54dd0870846b6ff44308b04957b218df
+  retrieved: true
+- type: manifest
+  path: docker/tests/Templates/fxdependent-centos7/Dockerfile
+  blob_sha: 10cde0cd125e99644e28fc7145b36280bf1d2184
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 30356856
+    PowerShell: 4214702
+    Roff: 214984
+    Shell: 49621
+    Dockerfile: 21884
+    HTML: 18072
+    XSLT: 14397
+    Batchfile: 24
+- type: Git tree
+  status: captured
+  sha: e197543bad330cf026912f34403641f0e210d260
+  truncated: false
+- type: source_file
+  path: src/Microsoft.Management.Infrastructure.CimCmdlets/AssemblyInfo.cs
+  blob_sha: 25ea29305592634acc067196f93562a54160e0ca
+  retrieved: true
+- type: source_file
+  path: src/Microsoft.Management.Infrastructure.CimCmdlets/CimAsyncOperation.cs
+  blob_sha: b7e418e05b645861795ba656040a306a2c7ad6b2
+  retrieved: true
+- type: source_file
+  path: src/Microsoft.Management.Infrastructure.CimCmdlets/CimBaseAction.cs
+  blob_sha: c76fb819697ac6de212a3b88900167394c56363d
+  retrieved: true
+- type: source_file
+  path: src/Microsoft.Management.Infrastructure.CimCmdlets/CimCmdletModuleInitialize.cs
+  blob_sha: 7f9a1da4057c02a043e75cf2b96accc15e89c450
+  retrieved: true

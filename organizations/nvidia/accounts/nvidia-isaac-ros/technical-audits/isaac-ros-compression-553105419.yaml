@@ -1,0 +1,103 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:21:53+00:00'
+evidence_fingerprint: e3cc502d80000875b940e6bf499e5744a23e9b99701ab0bec18ca3c700afdbbf
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/isaac_ros_compression
+  repository_id: 553105419
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_compression
+  description: NVIDIA-accelerated data compression
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T06:56:55Z'
+  stars: 73
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_compression/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 680fc924e10274da13051349953c0ca33225dad9
+  manifest_paths:
+  - codec/CMakeLists.txt
+  - isaac_ros_h264_decoder/CMakeLists.txt
+  - isaac_ros_h264_encoder/CMakeLists.txt
+  source_files_inspected:
+  - isaac_ros_h264_decoder/src/decoder_node.cpp
+  - isaac_ros_h264_decoder/src/decoder_v4l2_impl.cpp
+  - isaac_ros_h264_decoder/src/decoder_v4l2_utils.cpp
+  - isaac_ros_h264_encoder/src/encoder_node.cpp
+  repository_tree:
+    status: captured
+    sha: 355e0f4c75fea069e6385b8587dd5a9891037c6f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: NVIDIA-accelerated data compression.
+  why_used: NVIDIA-accelerated data compression
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: isaac_ros_h264_decoder/src/decoder_node.cpp,
+    isaac_ros_h264_decoder/src/decoder_v4l2_impl.cpp, isaac_ros_h264_decoder/src/decoder_v4l2_utils.cpp, isaac_ros_h264_encoder/src/encoder_node.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_compression/blob/main/README.md
+  path: README.md
+  blob_sha: 680fc924e10274da13051349953c0ca33225dad9
+  retrieved: true
+- type: manifest
+  path: codec/CMakeLists.txt
+  blob_sha: e3e194b5eacbf2d2b3fe7b147fa168d0faa8fd5c
+  retrieved: true
+- type: manifest
+  path: isaac_ros_h264_decoder/CMakeLists.txt
+  blob_sha: c6f42d72c6a371ee931d1c5356314552182260b9
+  retrieved: true
+- type: manifest
+  path: isaac_ros_h264_encoder/CMakeLists.txt
+  blob_sha: aa238d88f135c0788f342b92653c3a187985e676
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 188460
+    C++: 127198
+    CMake: 13569
+- type: Git tree
+  status: captured
+  sha: 355e0f4c75fea069e6385b8587dd5a9891037c6f
+  truncated: false
+- type: source_file
+  path: isaac_ros_h264_decoder/src/decoder_node.cpp
+  blob_sha: 88d029ff112c965fa0635cc07042a31cd524d362
+  retrieved: true
+- type: source_file
+  path: isaac_ros_h264_decoder/src/decoder_v4l2_impl.cpp
+  blob_sha: 28f3c70853e192e27fc90e4d51e29f9fd45dd0dd
+  retrieved: true
+- type: source_file
+  path: isaac_ros_h264_decoder/src/decoder_v4l2_utils.cpp
+  blob_sha: 018e69dae95858aa790d8bf4a45f273824dcd10a
+  retrieved: true
+- type: source_file
+  path: isaac_ros_h264_encoder/src/encoder_node.cpp
+  blob_sha: 030777342d8757d25f51ce5016a1d5a8b061371f
+  retrieved: true

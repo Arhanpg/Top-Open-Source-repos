@@ -1,0 +1,122 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:39:29+00:00'
+evidence_fingerprint: f7f6eb10fad66b18b6538f75d0f2657b3b8418f0e0fa28a19627f00eafe6314f
+repository_metadata:
+  company: Amazon
+  account: cdklabs
+  full_name: cdklabs/cdk-appflow
+  repository_id: 653596623
+  url: https://github.com/cdklabs/cdk-appflow
+  description: This repository contains L2 AWS CDK constructs for Amazon AppFlow
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T08:34:19Z'
+  stars: 14
+  readme_url: https://github.com/cdklabs/cdk-appflow/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ee75c515e6efea37478d0c367054db3261dc1c13
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/amazonrdsforpostgresql/index.ts
+  - src/asana/index.ts
+  - src/core/connectors/index.ts
+  - src/core/flows/flow-time-updater/index.ts
+  repository_tree:
+    status: captured
+    sha: 1d885965d7c8c65f638ea3d6cd8c00437b64682c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '---'
+  why_used: This repository contains L2 AWS CDK constructs for Amazon AppFlow
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-cdk/aws-glue-alpha'
+    - '@aws-cdk/aws-redshift-alpha'
+    - '@aws-cdk/integ-runner'
+    - '@aws-cdk/integ-tests-alpha'
+    - '@types/aws-lambda'
+    - '@types/jest'
+    - '@types/node'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - aws-cdk
+    - aws-cdk-lib
+    - cdklabs-projen-project-types
+    - commit-and-tag-version
+    - constructs
+    - esbuild
+    - eslint
+    - eslint-config-prettier
+    - eslint-import-resolver-typescript
+    - eslint-plugin-import
+    - eslint-plugin-prettier
+    - jest
+    - jest-junit
+    - jsii
+    - jsii-diff
+    - jsii-docgen
+    - jsii-pacmak
+    - jsii-rosetta
+    - prettier
+    - projen
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/amazonrdsforpostgresql/index.ts,
+    src/asana/index.ts, src/core/connectors/index.ts, src/core/flows/flow-time-updater/index.ts'
+  setup_and_usage: []
+  limitations:
+  - 'Security considerations: It is *recommended* to follow data protection mechanisms for Amazon AppFlow.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cdklabs/cdk-appflow/blob/main/README.md
+  path: README.md
+  blob_sha: ee75c515e6efea37478d0c367054db3261dc1c13
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 2c3fc25cca932e8fef73edf48edeeb6c9a24962c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 438466
+- type: Git tree
+  status: captured
+  sha: 1d885965d7c8c65f638ea3d6cd8c00437b64682c
+  truncated: false
+- type: source_file
+  path: src/amazonrdsforpostgresql/index.ts
+  blob_sha: 055d082ca896133d7dfd6be9a93b7c75ff22a717
+  retrieved: true
+- type: source_file
+  path: src/asana/index.ts
+  blob_sha: a4672084b3e1ed69175250d1f5f6ccaa4c64638e
+  retrieved: true
+- type: source_file
+  path: src/core/connectors/index.ts
+  blob_sha: 4b318c7fdd4da3fc893b36f8b6412947dc9398bc
+  retrieved: true
+- type: source_file
+  path: src/core/flows/flow-time-updater/index.ts
+  blob_sha: 4596703486fe004f16002d27bdea4affdfc7d134
+  retrieved: true

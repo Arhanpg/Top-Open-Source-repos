@@ -1,10 +1,10 @@
 # Technical audits — awsdocs
 
-Updated: 2026-11-27T07:24:05+00:00
+Updated: 2026-11-27T22:44:09+00:00
 
 ## Status counts
 
-- evidence_only: 19
+- evidence_only: 23
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -28,6 +28,10 @@ Updated: 2026-11-27T07:24:05+00:00
 | amazon-cloudwatch-user-guide-123396855 | evidence_only | [amazon-cloudwatch-user-guide-123396855.md](amazon-cloudwatch-user-guide-123396855.md) | [amazon-cloudwatch-user-guide-123396855.yaml](amazon-cloudwatch-user-guide-123396855.yaml) |
 | amazon-codeguru-profiler-user-guide-280508048 | evidence_only | [amazon-codeguru-profiler-user-guide-280508048.md](amazon-codeguru-profiler-user-guide-280508048.md) | [amazon-codeguru-profiler-user-guide-280508048.yaml](amazon-codeguru-profiler-user-guide-280508048.yaml) |
 | amazon-codeguru-reviewer-user-guide-280506513 | evidence_only | [amazon-codeguru-reviewer-user-guide-280506513.md](amazon-codeguru-reviewer-user-guide-280506513.md) | [amazon-codeguru-reviewer-user-guide-280506513.yaml](amazon-codeguru-reviewer-user-guide-280506513.yaml) |
+| amazon-cognito-developer-guide-350862337 | evidence_only | [amazon-cognito-developer-guide-350862337.md](amazon-cognito-developer-guide-350862337.md) | [amazon-cognito-developer-guide-350862337.yaml](amazon-cognito-developer-guide-350862337.yaml) |
+| amazon-comprehend-developer-guide-113607122 | evidence_only | [amazon-comprehend-developer-guide-113607122.md](amazon-comprehend-developer-guide-113607122.md) | [amazon-comprehend-developer-guide-113607122.yaml](amazon-comprehend-developer-guide-113607122.yaml) |
+| amazon-comprehend-medical-developer-guide-421591428 | evidence_only | [amazon-comprehend-medical-developer-guide-421591428.md](amazon-comprehend-medical-developer-guide-421591428.md) | [amazon-comprehend-medical-developer-guide-421591428.yaml](amazon-comprehend-medical-developer-guide-421591428.yaml) |
+| amazon-connect-admin-guide-120649881 | evidence_only | [amazon-connect-admin-guide-120649881.md](amazon-connect-admin-guide-120649881.md) | [amazon-connect-admin-guide-120649881.yaml](amazon-connect-admin-guide-120649881.yaml) |
 | aws-kinesis-video-documentation-117897013 | evidence_only | [aws-kinesis-video-documentation-117897013.md](aws-kinesis-video-documentation-117897013.md) | [aws-kinesis-video-documentation-117897013.yaml](aws-kinesis-video-documentation-117897013.yaml) |
 | github-171341792 | insufficient_evidence | [github-171341792.md](github-171341792.md) | [github-171341792.yaml](github-171341792.yaml) |
 | guidespatternssolutions-196658381 | evidence_only | [guidespatternssolutions-196658381.md](guidespatternssolutions-196658381.md) | [guidespatternssolutions-196658381.yaml](guidespatternssolutions-196658381.yaml) |

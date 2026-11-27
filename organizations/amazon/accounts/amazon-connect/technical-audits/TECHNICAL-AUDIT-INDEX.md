@@ -1,10 +1,10 @@
 # Technical audits — amazon-connect
 
-Updated: 2026-11-27T07:24:10+00:00
+Updated: 2026-11-27T22:44:09+00:00
 
 ## Status counts
 
-- evidence_only: 23
+- evidence_only: 28
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -33,5 +33,10 @@ Updated: 2026-11-27T07:24:10+00:00
 | amazon-connect-salesforce-lambda-274946774 | evidence_only | [amazon-connect-salesforce-lambda-274946774.md](amazon-connect-salesforce-lambda-274946774.md) | [amazon-connect-salesforce-lambda-274946774.yaml](amazon-connect-salesforce-lambda-274946774.yaml) |
 | amazon-connect-salesforce-scv-294499519 | evidence_only | [amazon-connect-salesforce-scv-294499519.md](amazon-connect-salesforce-scv-294499519.md) | [amazon-connect-salesforce-scv-294499519.yaml](amazon-connect-salesforce-scv-294499519.yaml) |
 | amazon-connect-snippets-243334432 | evidence_only | [amazon-connect-snippets-243334432.md](amazon-connect-snippets-243334432.md) | [amazon-connect-snippets-243334432.yaml](amazon-connect-snippets-243334432.yaml) |
+| amazon-connect-streams-83341987 | evidence_only | [amazon-connect-streams-83341987.md](amazon-connect-streams-83341987.md) | [amazon-connect-streams-83341987.yaml](amazon-connect-streams-83341987.yaml) |
+| amazon-connect-taskjs-316564069 | evidence_only | [amazon-connect-taskjs-316564069.md](amazon-connect-taskjs-316564069.md) | [amazon-connect-taskjs-316564069.yaml](amazon-connect-taskjs-316564069.yaml) |
+| amazon-connect-voice-id-sample-application-385395200 | evidence_only | [amazon-connect-voice-id-sample-application-385395200.md](amazon-connect-voice-id-sample-application-385395200.md) | [amazon-connect-voice-id-sample-application-385395200.yaml](amazon-connect-voice-id-sample-application-385395200.yaml) |
+| amazon-connect-workshops-392778052 | evidence_only | [amazon-connect-workshops-392778052.md](amazon-connect-workshops-392778052.md) | [amazon-connect-workshops-392778052.yaml](amazon-connect-workshops-392778052.yaml) |
 | amazonconnectsdk-692108977 | evidence_only | [amazonconnectsdk-692108977.md](amazonconnectsdk-692108977.md) | [amazonconnectsdk-692108977.yaml](amazonconnectsdk-692108977.yaml) |
+| connect-kvs-consumer-demo-756504437 | evidence_only | [connect-kvs-consumer-demo-756504437.md](connect-kvs-consumer-demo-756504437.md) | [connect-kvs-consumer-demo-756504437.yaml](connect-kvs-consumer-demo-756504437.yaml) |
 | github-204069760 | insufficient_evidence | [github-204069760.md](github-204069760.md) | [github-204069760.yaml](github-204069760.yaml) |

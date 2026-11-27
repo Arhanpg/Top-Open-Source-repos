@@ -1,0 +1,198 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:34:01+00:00'
+evidence_fingerprint: 65dccfd2a63ea0435d7a05c01dfb96e74ca33389be8ece708b807f1b6ec4716b
+repository_metadata:
+  company: Baidu
+  account: xuperchain
+  full_name: xuperchain/xbench
+  repository_id: 191128279
+  url: https://github.com/xuperchain/xbench
+  description: Benchmark project for XuperChain
+  default_branch: master
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-05-20T06:50:39Z'
+  stars: 18
+  readme_url: https://github.com/xuperchain/xbench/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 04a89d25df5bec921621f649aa94d8fea2314622
+  manifest_paths:
+  - go.mod
+  - Makefile
+  source_files_inspected:
+  - cmd/generate/main.go
+  - cmd/xbench/main.go
+  - cmd/generate/cli/cli.go
+  - cmd/generate/cli/evidence.go
+  repository_tree:
+    status: captured
+    sha: 76d453ba5c20c65616beb84d7cb4e8542022ee18
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: xbench是xuperchain的压测工具，功能：
+  why_used: Benchmark project for XuperChain
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Shell
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - cloud.google.com/go/compute
+    - cloud.google.com/go/compute/metadata
+    - github.com/BurntSushi/toml
+    - github.com/ChainSafe/go-schnorrkel
+    - github.com/Masterminds/goutils
+    - github.com/Masterminds/semver/v3
+    - github.com/Masterminds/sprig/v3
+    - github.com/alecthomas/kingpin
+    - github.com/alecthomas/template
+    - github.com/alecthomas/units
+    - github.com/beorn7/perks
+    - github.com/bojand/ghz
+    - github.com/btcsuite/btcd
+    - github.com/btcsuite/btcutil
+    - github.com/bufbuild/protocompile
+    - github.com/census-instrumentation/opencensus-proto
+    - github.com/cespare/xxhash/v2
+    - github.com/cncf/udpa/go
+    - github.com/cncf/xds/go
+    - github.com/consensys/gnark
+    - github.com/consensys/gnark-crypto
+    - github.com/cosmos/go-bip39
+    - github.com/davecgh/go-spew
+    - github.com/dustin/go-humanize
+    - github.com/emirpasic/gods
+    - github.com/envoyproxy/go-control-plane
+    - github.com/envoyproxy/protoc-gen-validate
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/go-kit/kit
+    - github.com/go-logfmt/logfmt
+    - github.com/go-stack/stack
+    - github.com/gogo/protobuf
+    - github.com/golang/protobuf
+    - github.com/golang/snappy
+    - github.com/google/uuid
+    - github.com/grpc-ecosystem/grpc-gateway
+    - github.com/gtank/merlin
+    - github.com/gtank/ristretto255
+    - github.com/hashicorp/hcl
+    - github.com/huandu/xstrings
+    - github.com/hyperledger/burrow
+    - github.com/imdario/mergo
+    - github.com/inconshreveable/mousetrap
+    - github.com/ipfs/go-cid
+    - github.com/ipfs/go-ipfs-addr
+    - github.com/ipfs/go-log
+    - github.com/ipfs/go-log/v2
+    - github.com/jhump/protoreflect
+    - github.com/jinzhu/configor
+    - github.com/libp2p/go-buffer-pool
+    - github.com/libp2p/go-libp2p-core
+    - github.com/libp2p/go-libp2p-crypto
+    - github.com/libp2p/go-libp2p-peer
+    - github.com/libp2p/go-openssl
+    - github.com/magiconair/properties
+    - github.com/matttproud/golang_protobuf_extensions
+    - github.com/mimoo/StrobeGo
+    - github.com/minio/blake2b-simd
+    - github.com/minio/sha256-simd
+    - github.com/mitchellh/copystructure
+    - github.com/mitchellh/mapstructure
+    - github.com/mitchellh/reflectwalk
+    - github.com/mr-tron/base58
+    - github.com/multiformats/go-base32
+    - github.com/multiformats/go-base36
+    - github.com/multiformats/go-multiaddr
+    - github.com/multiformats/go-multibase
+    - github.com/multiformats/go-multihash
+    - github.com/multiformats/go-varint
+    - github.com/opentracing/opentracing-go
+    - github.com/patrickmn/go-cache
+    - github.com/pelletier/go-toml
+    - github.com/pelletier/go-toml/v2
+    - github.com/pkg/errors
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/shopspring/decimal
+    - github.com/spacemonkeygo/spacelog
+    - github.com/spaolacci/murmur3
+    - github.com/spf13/afero
+    - github.com/spf13/cast
+    - github.com/spf13/cobra
+    - github.com/spf13/jwalterweatherman
+    - github.com/spf13/pflag
+    - github.com/spf13/viper
+    - github.com/subosito/gotenv
+    - github.com/syndtr/goleveldb
+    - github.com/tendermint/go-amino
+    - github.com/tendermint/tendermint
+    - github.com/tmthrgd/go-hex
+    - github.com/x448/float16
+    - github.com/xuperchain/crypto
+    - github.com/xuperchain/log15
+    - github.com/xuperchain/xuper-sdk-go/v2
+    - github.com/xuperchain/xuperchain
+    - github.com/xuperchain/xupercore
+    - go.uber.org/atomic
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/generate/main.go,
+    cmd/xbench/main.go, cmd/generate/cli/cli.go, cmd/generate/cli/evidence.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/xuperchain/xbench/blob/master/README.md
+  path: README.md
+  blob_sha: 04a89d25df5bec921621f649aa94d8fea2314622
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: bd5ca8259ccbe159b30595dd84437ff647cd1458
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 52a0e9902b7486bb106deb270a441890a49a5fbd
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 55954
+    Shell: 2698
+    Makefile: 54
+- type: Git tree
+  status: captured
+  sha: 76d453ba5c20c65616beb84d7cb4e8542022ee18
+  truncated: false
+- type: source_file
+  path: cmd/generate/main.go
+  blob_sha: 80cead883ea5196dd6f8bd4fc9975143693740ab
+  retrieved: true
+- type: source_file
+  path: cmd/xbench/main.go
+  blob_sha: 604e5931013db68009bb894d255b651f539b35b1
+  retrieved: true
+- type: source_file
+  path: cmd/generate/cli/cli.go
+  blob_sha: 414196182a9920a6c2c8ee23986469c174592ff2
+  retrieved: true
+- type: source_file
+  path: cmd/generate/cli/evidence.go
+  blob_sha: 25d32cab67d23da8ef26f5c96e4cfe525c8956a6
+  retrieved: true

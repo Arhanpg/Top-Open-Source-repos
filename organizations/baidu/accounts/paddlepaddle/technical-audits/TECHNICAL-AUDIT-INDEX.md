@@ -1,10 +1,10 @@
 # Technical audits — paddlepaddle
 
-Updated: 2026-11-27T07:24:08+00:00
+Updated: 2026-11-27T22:44:05+00:00
 
 ## Status counts
 
-- evidence_only: 20
+- evidence_only: 24
 
 ## Repository dossiers
 
@@ -30,3 +30,7 @@ Updated: 2026-11-27T07:24:08+00:00
 | metagym-196743910 | evidence_only | [metagym-196743910.md](metagym-196743910.md) | [metagym-196743910.yaml](metagym-196743910.yaml) |
 | mobile-98599362 | evidence_only | [mobile-98599362.md](mobile-98599362.md) | [mobile-98599362.yaml](mobile-98599362.yaml) |
 | palm-210520127 | evidence_only | [palm-210520127.md](palm-210520127.md) | [palm-210520127.yaml](palm-210520127.yaml) |
+| parl-131044128 | evidence_only | [parl-131044128.md](parl-131044128.md) | [parl-131044128.yaml](parl-131044128.yaml) |
+| passl-333611338 | evidence_only | [passl-333611338.md](passl-333611338.md) | [passl-333611338.yaml](passl-333611338.yaml) |
+| pgl-191286408 | evidence_only | [pgl-191286408.md](pgl-191286408.md) | [pgl-191286408.yaml](pgl-191286408.yaml) |
+| plsc-227880026 | evidence_only | [plsc-227880026.md](plsc-227880026.md) | [plsc-227880026.yaml](plsc-227880026.yaml) |

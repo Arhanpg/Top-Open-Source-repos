@@ -1,10 +1,10 @@
 # Technical audits — aws-observability
 
-Updated: 2026-11-27T07:24:06+00:00
+Updated: 2026-11-27T22:44:06+00:00
 
 ## Status counts
 
-- evidence_only: 21
+- evidence_only: 25
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -32,4 +32,8 @@ Updated: 2026-11-27T07:24:06+00:00
 | aws-otel-lambda-315511216 | evidence_only | [aws-otel-lambda-315511216.md](aws-otel-lambda-315511216.md) | [aws-otel-lambda-315511216.yaml](aws-otel-lambda-315511216.yaml) |
 | aws-otel-php-506005359 | evidence_only | [aws-otel-php-506005359.md](aws-otel-php-506005359.md) | [aws-otel-php-506005359.yaml](aws-otel-php-506005359.yaml) |
 | aws-otel-playground-224066118 | evidence_only | [aws-otel-playground-224066118.md](aws-otel-playground-224066118.md) | [aws-otel-playground-224066118.yaml](aws-otel-playground-224066118.yaml) |
+| aws-otel-python-295886216 | evidence_only | [aws-otel-python-295886216.md](aws-otel-python-295886216.md) | [aws-otel-python-295886216.yaml](aws-otel-python-295886216.yaml) |
+| aws-otel-python-instrumentation-734796211 | evidence_only | [aws-otel-python-instrumentation-734796211.md](aws-otel-python-instrumentation-734796211.md) | [aws-otel-python-instrumentation-734796211.yaml](aws-otel-python-instrumentation-734796211.yaml) |
+| aws-otel-ruby-447384197 | evidence_only | [aws-otel-ruby-447384197.md](aws-otel-ruby-447384197.md) | [aws-otel-ruby-447384197.yaml](aws-otel-ruby-447384197.yaml) |
+| aws-otel-swift-979692610 | evidence_only | [aws-otel-swift-979692610.md](aws-otel-swift-979692610.md) | [aws-otel-swift-979692610.yaml](aws-otel-swift-979692610.yaml) |
 | github-559009922 | insufficient_evidence | [github-559009922.md](github-559009922.md) | [github-559009922.yaml](github-559009922.yaml) |

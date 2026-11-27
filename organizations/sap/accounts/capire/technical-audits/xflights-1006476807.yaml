@@ -1,0 +1,106 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:35:22+00:00'
+evidence_fingerprint: f847ef662c1557cc84faf0cd6fe4f14d23318b75ab23c2e886dc23d76c2874ae
+repository_metadata:
+  company: SAP
+  account: capire
+  full_name: capire/xflights
+  repository_id: 1006476807
+  url: https://github.com/capire/xflights
+  description: 'Master data service for flights, airlines, airports '
+  default_branch: main
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-16T21:32:33Z'
+  stars: 6
+  readme_url: https://github.com/capire/xflights/blob/main/readme.md
+  readme_path: readme.md
+  readme_sha: 9162058acd03c82edee62777a8dca5eaaeb32420
+  manifest_paths:
+  - package.json
+  - apis/data-service/package.json
+  - apis/data-service/shortcut/package.json
+  source_files_inspected:
+  - apis/data-service/cds-plugin.js
+  - db/data/update-dates.js
+  - eslint.config.js
+  - srv/data-service.js
+  repository_tree:
+    status: captured
+    sha: 7b2e77b6f16475ecaf7d599a1a96f99f3b7d56a0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a reuse package to manage and serve master data like _Airlines_, _Airports_, and _Flights_. It
+    publishes a pre-built client package, that is used in the xtravels application.
+  why_used: Master data service for flights, airlines, airports
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/hana'
+    - '@cap-js/sqlite'
+    - '@capire/xflights'
+    - '@sap/cds'
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: apis/data-service/cds-plugin.js,
+    db/data/update-dates.js, eslint.config.js, srv/data-service.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/capire/xflights/blob/main/readme.md
+  path: readme.md
+  blob_sha: 9162058acd03c82edee62777a8dca5eaaeb32420
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 8d3815ced323131bc22f6165bc2ac19953fd1f09
+  retrieved: true
+- type: manifest
+  path: apis/data-service/package.json
+  blob_sha: 42f96ea9dbab0f7feec4408bd8969f041773c969
+  retrieved: true
+- type: manifest
+  path: apis/data-service/shortcut/package.json
+  blob_sha: 61fcfc24b2f4705d2f89a9493f767349325d4d7e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 11415
+    CAP CDS: 5802
+- type: Git tree
+  status: captured
+  sha: 7b2e77b6f16475ecaf7d599a1a96f99f3b7d56a0
+  truncated: false
+- type: source_file
+  path: apis/data-service/cds-plugin.js
+  blob_sha: b5c900c2cda1964dae6c11add040fac67e3a13ec
+  retrieved: true
+- type: source_file
+  path: db/data/update-dates.js
+  blob_sha: 77b88d442d8d5d8ac847d04b9c21618a409a84c6
+  retrieved: true
+- type: source_file
+  path: eslint.config.js
+  blob_sha: ad32d9b3b43525d5edda55b514acd81c92522843
+  retrieved: true
+- type: source_file
+  path: srv/data-service.js
+  blob_sha: a5d9ec3625e3b0f790c817125985fefaeb5f1f13
+  retrieved: true

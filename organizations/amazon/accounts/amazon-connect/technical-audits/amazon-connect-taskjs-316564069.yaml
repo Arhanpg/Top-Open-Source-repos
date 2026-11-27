@@ -1,0 +1,106 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:24:33+00:00'
+evidence_fingerprint: 7a2e4fd57cede127b39e7ce9ca8f131de1537100cd7e38fc0321e95e0d09f1e6
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/amazon-connect-taskjs
+  repository_id: 316564069
+  url: https://github.com/amazon-connect/amazon-connect-taskjs
+  description: Amazon Connect Task JS - a browser-based contact center integration API for Tasks.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-01T17:37:55Z'
+  stars: 22
+  readme_url: https://github.com/amazon-connect/amazon-connect-taskjs/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 66d86c8a5de7cd5469b048441a16f1124ae72df8
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/index.js
+  - src/constants.js
+  - src/core/agentApis.js
+  - src/core/agentApis.spec.js
+  repository_tree:
+    status: captured
+    sha: 8db245002c014be1b0c5a59965979a3f793c42b8
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Amazon Connect Task javascript library (TaskJS) gives you the power to handle task contacts when
+    used together with Amazon Connect Streams.
+  why_used: Amazon Connect Task JS - a browser-based contact center integration API for Tasks.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@babel/core'
+    - '@babel/preset-env'
+    - babel-loader
+    - copy-webpack-plugin
+    - eslint
+    - eslint-config-prettier
+    - eslint-webpack-plugin
+    - jest
+    - ssri
+    - webpack
+    - webpack-cli
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/index.js, src/constants.js,
+    src/core/agentApis.js, src/core/agentApis.spec.js'
+  setup_and_usage:
+  - 'Usage:: TaskJS provides a taskSession instance for each task contact. You can access the taskSession by calling
+    the getMediaController method on a taskConnection. getMediaController returns a promise that resolves with a
+    taskSession instance.'
+  - 'Usage:: taskConnection.getMediaController().then((taskSession) => { /* ... */ });'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/amazon-connect-taskjs/blob/main/README.md
+  path: README.md
+  blob_sha: 66d86c8a5de7cd5469b048441a16f1124ae72df8
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: f05fa5436118905dea8ed32b7ec8db5fe0b34475
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 20270
+- type: Git tree
+  status: captured
+  sha: 8db245002c014be1b0c5a59965979a3f793c42b8
+  truncated: false
+- type: source_file
+  path: src/index.js
+  blob_sha: c8a2043eb3b314e524f02f87a8a7dcde1df4ac44
+  retrieved: true
+- type: source_file
+  path: src/constants.js
+  blob_sha: bada045d37993be090aae18295641c93ae12b7b1
+  retrieved: true
+- type: source_file
+  path: src/core/agentApis.js
+  blob_sha: 557ea4c1a0ff6c1e96926cb320a6e4787afe2b0d
+  retrieved: true
+- type: source_file
+  path: src/core/agentApis.spec.js
+  blob_sha: 41fbd11bd8b3d4a2d469a8d51fe118af44c0be34
+  retrieved: true

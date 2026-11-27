@@ -1,0 +1,104 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:43:29+00:00'
+evidence_fingerprint: aafa5e3b102a4a65433d7ed724ce5ed47944d3b09aeab4845ffe87c1945f7315
+repository_metadata:
+  company: Alphabet (Google)
+  account: GoogleCloudPlatform
+  full_name: GoogleCloudPlatform/MiniCat
+  repository_id: 98673010
+  url: https://github.com/GoogleCloudPlatform/MiniCat
+  description: Custom Text Classifier
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2018-01-08T18:43:04Z'
+  stars: 16
+  readme_url: https://github.com/GoogleCloudPlatform/MiniCat/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 9594d1558fd92701781524b16f5439a1ee2ea422
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  source_files_inspected:
+  - main.py
+  - cmle/__init__.py
+  - cmle/trainer/__init__.py
+  - cmle/trainer/cnn_model.py
+  repository_tree:
+    status: captured
+    sha: dc63a7f400d4b2a3f7e7cb50d8ba970f99a17d88
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: MiniCat is short for Mini Text Categorizer.
+  why_used: Custom Text Classifier
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - google-auth
+    - google-cloud-language
+    - google-cloud-storage
+    - google_api_python_client
+    - pandas
+    - tensorflow
+    - urllib3
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: main.py, cmle/__init__.py,
+    cmle/trainer/__init__.py, cmle/trainer/cnn_model.py'
+  setup_and_usage:
+  - 'Quickstart: This tool could be used to classify different types of text data such as emails,'
+  - 'Quickstart: support-tickets, movie reviews, news topics etc.'
+  - 'Quickstart: Let''s consider the case of emails.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/GoogleCloudPlatform/MiniCat/blob/master/README.md
+  path: README.md
+  blob_sha: 9594d1558fd92701781524b16f5439a1ee2ea422
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: e0ae1a7836912f96a5acc954ebd259450ad0d93a
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 4c0e10716de1655edcd0ff421b44a4948e96c414
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 49002
+- type: Git tree
+  status: captured
+  sha: dc63a7f400d4b2a3f7e7cb50d8ba970f99a17d88
+  truncated: false
+- type: source_file
+  path: main.py
+  blob_sha: ddb5984305189cc35986d293ecbb491985ad084e
+  retrieved: true
+- type: source_file
+  path: cmle/__init__.py
+  blob_sha: 8b137891791fe96927ad78e64b0aad7bded08bdc
+  retrieved: true
+- type: source_file
+  path: cmle/trainer/__init__.py
+  blob_sha: 8b137891791fe96927ad78e64b0aad7bded08bdc
+  retrieved: true
+- type: source_file
+  path: cmle/trainer/cnn_model.py
+  blob_sha: 148092c9f67e2fd5be047310cb717a62bbf308c0
+  retrieved: true

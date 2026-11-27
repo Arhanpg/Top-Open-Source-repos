@@ -1,0 +1,134 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:33:54+00:00'
+evidence_fingerprint: ae641ccab49df06e94882591f92d8df97e18c3c92bd096537a06413d8f087299
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/PGL
+  repository_id: 191286408
+  url: https://github.com/PaddlePaddle/PGL
+  description: Paddle Graph Learning (PGL) is an efficient and flexible graph learning framework based on PaddlePaddle
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-12-11T05:15:14Z'
+  stars: 1584
+  readme_url: https://github.com/PaddlePaddle/PGL/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e04db060e93fce1a8c2e8387e4733c440e604c93
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  - docs/Makefile
+  - docs/requirements.txt
+  - legacy/requirements.txt
+  - legacy/setup.py
+  source_files_inspected:
+  - ogb_examples/graphproppred/ogbg_molpcba/main.py
+  - apps/Graph4Rec/env_run/src/datasets/__init__.py
+  - apps/Graph4Rec/env_run/src/datasets/dataset.py
+  - apps/Graph4Rec/env_run/src/datasets/dist_dataloader.py
+  repository_tree:
+    status: captured
+    sha: 94b5cfebb6d10f80e97be81fa9972d0097be1173
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: DOC | Quick Start | 中文
+  why_used: Paddle Graph Learning (PGL) is an efficient and flexible graph learning framework based on PaddlePaddle
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Jupyter Notebook
+    - Shell
+    - Cython
+    - Dockerfile
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - cython
+    - mistune
+    - numpy
+    - paddlepaddle
+    - pgl
+    - redis-py-cluster
+    - sphinx
+    - sphinx_rtd_theme
+    - visualdl
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: ogb_examples/graphproppred/ogbg_molpcba/main.py,
+    apps/Graph4Rec/env_run/src/datasets/__init__.py, apps/Graph4Rec/env_run/src/datasets/dataset.py, apps/Graph4Rec/env_run/src/datasets/dist_dataloader.py'
+  setup_and_usage:
+  - 'Installation: You can simply install it via pip.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/PGL/blob/main/README.md
+  path: README.md
+  blob_sha: e04db060e93fce1a8c2e8387e4733c440e604c93
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: d22cd253364e8edf77b0f2f096567586859728e5
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 938e753640d82c4611e86befa3c5b4899e66c475
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: d0c3cbf1020d5c292abdedf27627c6abe25e2293
+  retrieved: true
+- type: manifest
+  path: docs/requirements.txt
+  blob_sha: 6d7957bb19ade0ee6d7895f92555bd9738f531ce
+  retrieved: true
+- type: manifest
+  path: legacy/requirements.txt
+  blob_sha: acd3de6d9108ea1eb40b14d01951ad33ff1378e4
+  retrieved: true
+- type: manifest
+  path: legacy/setup.py
+  blob_sha: f0b808afacd550293ecdc47ff221a683c50ae07f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 2386536
+    Jupyter Notebook: 61376
+    Shell: 45796
+    Cython: 31120
+    Dockerfile: 1622
+    Makefile: 638
+- type: Git tree
+  status: captured
+  sha: 94b5cfebb6d10f80e97be81fa9972d0097be1173
+  truncated: false
+- type: source_file
+  path: ogb_examples/graphproppred/ogbg_molpcba/main.py
+  blob_sha: 6a9a5ec271df344864c436de925e25154213e073
+  retrieved: true
+- type: source_file
+  path: apps/Graph4Rec/env_run/src/datasets/__init__.py
+  blob_sha: 1b48f5b1eb5b9d76cc6fa3f59a96eac2ddb5d663
+  retrieved: true
+- type: source_file
+  path: apps/Graph4Rec/env_run/src/datasets/dataset.py
+  blob_sha: 3c59bd6358baa76cb8a9a9138fbfea4783843930
+  retrieved: true
+- type: source_file
+  path: apps/Graph4Rec/env_run/src/datasets/dist_dataloader.py
+  blob_sha: 684f649ccfdaf11d8799bb5019e93ded17d160f0
+  retrieved: true

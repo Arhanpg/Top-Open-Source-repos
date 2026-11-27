@@ -1,0 +1,133 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:38:34+00:00'
+evidence_fingerprint: 8c3addeeb49bb355b4e2866f55824c42b98069c0bc501e971ee8a14521c3a4a5
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/aws-otel-swift
+  repository_id: 979692610
+  url: https://github.com/aws-observability/aws-otel-swift
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-08-24T17:39:08Z'
+  stars: 8
+  readme_url: https://github.com/aws-observability/aws-otel-swift/blob/main/README.md
+  readme_path: README.md
+  readme_sha: eb0ebebc1d1603bfbeda5e7d530ea6ede6e54814
+  manifest_paths:
+  - Makefile
+  - Examples/AwsOtelUI/package.json
+  - Examples/SimpleAwsDemo/Makefile
+  - Examples/SimpleAwsDemo/SimpleAwsDemo/cdk/package.json
+  source_files_inspected:
+  - Package.swift
+  - scripts/bump-version.sh
+  - scripts/check-coverage.sh
+  - scripts/check-performance.sh
+  repository_tree:
+    status: captured
+    sha: 6d63798f22d9994d71f42407b38aafd5e420c68f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: AWS Distro for OpenTelemetry (ADOT) Swift is a redistribution of the OpenTelemetry Swift, configured
+    with in-house instrumentations to use with AWS CloudWatch Real User Monitoring.
+  why_used: AWS Distro for OpenTelemetry (ADOT) Swift is a redistribution of the OpenTelemetry Swift, configured
+    with in-house instrumentations to use with AWS CloudWatch Real User Monitoring.
+  core_features: []
+  technology_stack:
+    languages:
+    - Swift
+    - Shell
+    - Python
+    - Makefile
+    - Objective-C
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@opentelemetry/otlp-transformer'
+    - '@types/jest'
+    - '@types/node'
+    - aws-cdk
+    - aws-cdk-lib
+    - compression
+    - constructs
+    - express
+    - jest
+    - open
+    - protobufjs
+    - source-map-support
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Package.swift, scripts/bump-version.sh,
+    scripts/check-coverage.sh, scripts/check-performance.sh'
+  setup_and_usage: []
+  limitations:
+  - 'Available Platforms: At this time, we only officially support iOS 16+. However, we also have continuation integration
+    in place for latest versions of macOS, tvOS, watchOS, and visionOS.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/aws-otel-swift/blob/main/README.md
+  path: README.md
+  blob_sha: eb0ebebc1d1603bfbeda5e7d530ea6ede6e54814
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 4d14d50924cbc7a5bcd5db636b3c9e6d108e6cce
+  retrieved: true
+- type: manifest
+  path: Examples/AwsOtelUI/package.json
+  blob_sha: e3dc6aa2db63b7c59b43bb7228015714c1640b92
+  retrieved: true
+- type: manifest
+  path: Examples/SimpleAwsDemo/Makefile
+  blob_sha: 902f9e7dd71ac6a15c5a48f820f3aac9a9c49458
+  retrieved: true
+- type: manifest
+  path: Examples/SimpleAwsDemo/SimpleAwsDemo/cdk/package.json
+  blob_sha: 9cb12258a0461dc5f14d33ed1d28010e11d17b6d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Swift: 637932
+    Shell: 110072
+    Python: 23466
+    Makefile: 7283
+    Objective-C: 5359
+    JavaScript: 3230
+- type: Git tree
+  status: captured
+  sha: 6d63798f22d9994d71f42407b38aafd5e420c68f
+  truncated: false
+- type: source_file
+  path: Package.swift
+  blob_sha: bfbf7e4ce5da3d93d57899ded21c74d57759b0c4
+  retrieved: true
+- type: source_file
+  path: scripts/bump-version.sh
+  blob_sha: 03c30540c82145d0440b8ad29f8489d41fb4064f
+  retrieved: true
+- type: source_file
+  path: scripts/check-coverage.sh
+  blob_sha: 95805b8e221e4a85835ce09f4f6b666e458204cc
+  retrieved: true
+- type: source_file
+  path: scripts/check-performance.sh
+  blob_sha: dd649aa5a8b801a3afe91ccbb70c727fd12d3fc7
+  retrieved: true

@@ -1,10 +1,10 @@
 # Technical audits — aws-actions
 
-Updated: 2026-11-27T07:24:06+00:00
+Updated: 2026-11-27T22:44:09+00:00
 
 ## Status counts
 
-- evidence_only: 22
+- evidence_only: 26
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -34,3 +34,7 @@ Updated: 2026-11-27T07:24:06+00:00
 | devops-agent-qa-1263345109 | evidence_only | [devops-agent-qa-1263345109.md](devops-agent-qa-1263345109.md) | [devops-agent-qa-1263345109.yaml](devops-agent-qa-1263345109.yaml) |
 | github-245025626 | insufficient_evidence | [github-245025626.md](github-245025626.md) | [github-245025626.yaml](github-245025626.yaml) |
 | handle-non-labeled-issues-1292769791 | evidence_only | [handle-non-labeled-issues-1292769791.md](handle-non-labeled-issues-1292769791.md) | [handle-non-labeled-issues-1292769791.yaml](handle-non-labeled-issues-1292769791.yaml) |
+| setup-sam-348485922 | evidence_only | [setup-sam-348485922.md](setup-sam-348485922.md) | [setup-sam-348485922.yaml](setup-sam-348485922.yaml) |
+| stale-issue-cleanup-250377255 | evidence_only | [stale-issue-cleanup-250377255.md](stale-issue-cleanup-250377255.md) | [stale-issue-cleanup-250377255.yaml](stale-issue-cleanup-250377255.yaml) |
+| sustainability-scanner-676336646 | evidence_only | [sustainability-scanner-676336646.md](sustainability-scanner-676336646.md) | [sustainability-scanner-676336646.yaml](sustainability-scanner-676336646.yaml) |
+| terraform-aws-iam-policy-validator-784921498 | evidence_only | [terraform-aws-iam-policy-validator-784921498.md](terraform-aws-iam-policy-validator-784921498.md) | [terraform-aws-iam-policy-validator-784921498.yaml](terraform-aws-iam-policy-validator-784921498.yaml) |

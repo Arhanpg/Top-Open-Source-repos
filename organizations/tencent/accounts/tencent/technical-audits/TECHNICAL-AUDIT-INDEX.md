@@ -1,10 +1,10 @@
 # Technical audits — tencent
 
-Updated: 2026-11-27T07:24:10+00:00
+Updated: 2026-11-27T22:44:06+00:00
 
 ## Status counts
 
-- evidence_only: 18
+- evidence_only: 22
 
 ## Repository dossiers
 
@@ -27,4 +27,8 @@ Updated: 2026-11-27T07:24:10+00:00
 | blockfusion-813473905 | evidence_only | [blockfusion-813473905.md](blockfusion-813473905.md) | [blockfusion-813473905.yaml](blockfusion-813473905.yaml) |
 | bqlog-837543581 | evidence_only | [bqlog-837543581.md](bqlog-837543581.md) | [bqlog-837543581.yaml](bqlog-837543581.yaml) |
 | browserskill-1276665883 | evidence_only | [browserskill-1276665883.md](browserskill-1276665883.md) | [browserskill-1276665883.yaml](browserskill-1276665883.yaml) |
+| buildingblock-1148720768 | evidence_only | [buildingblock-1148720768.md](buildingblock-1148720768.md) | [buildingblock-1148720768.yaml](buildingblock-1148720768.yaml) |
+| censeoqoe-428977916 | evidence_only | [censeoqoe-428977916.md](censeoqoe-428977916.md) | [censeoqoe-428977916.yaml](censeoqoe-428977916.yaml) |
+| cmongo-137185014 | evidence_only | [cmongo-137185014.md](cmongo-137185014.md) | [cmongo-137185014.yaml](cmongo-137185014.yaml) |
+| cuarewardbench-1244147963 | evidence_only | [cuarewardbench-1244147963.md](cuarewardbench-1244147963.md) | [cuarewardbench-1244147963.yaml](cuarewardbench-1244147963.yaml) |
 | github-1010860903 | evidence_only | [github-1010860903.md](github-1010860903.md) | [github-1010860903.yaml](github-1010860903.yaml) |

@@ -1,0 +1,102 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:30:57+00:00'
+evidence_fingerprint: 7aac1c33afd5b09d5c1fc8a644565e669a4d04220c9c47cd8bda87c3c0a3f86c
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/amazon-connect-voice-id-sample-application
+  repository_id: 385395200
+  url: https://github.com/amazon-connect/amazon-connect-voice-id-sample-application
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2023-01-03T20:43:00Z'
+  stars: 3
+  readme_url: https://github.com/amazon-connect/amazon-connect-voice-id-sample-application/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 99a4d79321c4a6f710c27b3b680562e7baaf669f
+  manifest_paths:
+  - contact-flow-creator/package.json
+  - website-creator/package.json
+  source_files_inspected:
+  - contact-flow-creator/index.js
+  - website-creator/index.js
+  - website-creator/js/jquery-3.6.0.min.js
+  - website-creator/js/voiceid.js
+  repository_tree:
+    status: captured
+    sha: 635403907434a315131bd8c7b386c09493a9feff
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**IMPORTANT! This repository is deprecated. It is not actively being supported and has been archived**'
+  why_used: '**IMPORTANT! This repository is deprecated. It is not actively being supported and has been archived**'
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - HTML
+    - CSS
+    frameworks_and_libraries: []
+    dependencies:
+    - aws-sdk
+    - https
+    - url
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: contact-flow-creator/index.js,
+    website-creator/index.js, website-creator/js/jquery-3.6.0.min.js, website-creator/js/voiceid.js'
+  setup_and_usage:
+  - 'Usage: Use sam to build, invoke and deploy the function.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/amazon-connect-voice-id-sample-application/blob/main/README.md
+  path: README.md
+  blob_sha: 99a4d79321c4a6f710c27b3b680562e7baaf669f
+  retrieved: true
+- type: manifest
+  path: contact-flow-creator/package.json
+  blob_sha: 179ab3aa76e19fdbda27c5acec63d383cd030ef4
+  retrieved: true
+- type: manifest
+  path: website-creator/package.json
+  blob_sha: c9c5aef3f3134db6da8aeaf9fc40d1792af2238f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 988434
+    HTML: 1398
+    CSS: 1101
+- type: Git tree
+  status: captured
+  sha: 635403907434a315131bd8c7b386c09493a9feff
+  truncated: false
+- type: source_file
+  path: contact-flow-creator/index.js
+  blob_sha: 6ac16b69fbbd271327b14c494622cad8d7e6faa5
+  retrieved: true
+- type: source_file
+  path: website-creator/index.js
+  blob_sha: b76f82aa1941cda865645a319695fc2bec7db687
+  retrieved: true
+- type: source_file
+  path: website-creator/js/jquery-3.6.0.min.js
+  blob_sha: c4c6022f2982e8dae64cebd6b9a2b59f2547faad
+  retrieved: true
+- type: source_file
+  path: website-creator/js/voiceid.js
+  blob_sha: f257845e5c1bee5cc67bf63741914dbe9f9182ed
+  retrieved: true

@@ -1,0 +1,117 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:36:17+00:00'
+evidence_fingerprint: e8900b74883b9943018015953e50f03b2010c9f763f435439d77fc047527ce8c
+repository_metadata:
+  company: Siemens
+  account: industrial-edge
+  full_name: industrial-edge/device-kit-network-service
+  repository_id: 429713963
+  url: https://github.com/industrial-edge/device-kit-network-service
+  description: IE Device Kit API reference implementation for network service
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-05T07:03:45Z'
+  stars: 7
+  readme_url: https://github.com/industrial-edge/device-kit-network-service/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 78da366e875e4ceebb0234e7ad0141a7ddc1888b
+  manifest_paths:
+  - go.mod
+  - build/package/Makefile
+  source_files_inspected:
+  - cmd/networkservice/main.go
+  - app/networkservice.go
+  - app/util.go
+  - api/siemens_iedge_dmapi_v1/Network.pb.go
+  repository_tree:
+    status: captured
+    sha: 44b654443faf3aacd16b43291a3a5175b22af62b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The IE Device Kit API provides the abstraction layer that decouples the Industrial Edge Runtime from
+    the underlying Linux systems. This allows to adapt the runtime and its behavior to serve for the specific needs
+    of different Industrial Edge products.
+  why_used: IE Device Kit API reference implementation for network service
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Makefile
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/Wifx/gonetworkmanager/v2
+    - github.com/agiledragon/gomonkey/v2
+    - github.com/davecgh/go-spew
+    - github.com/godbus/dbus/v5
+    - github.com/google/go-cmp
+    - github.com/google/uuid
+    - github.com/maltegrosse/go-modemmanager
+    - github.com/pmezard/go-difflib
+    - github.com/stretchr/objx
+    - github.com/stretchr/testify
+    - golang.org/x/net
+    - golang.org/x/sys
+    - golang.org/x/text
+    - google.golang.org/genproto/googleapis/rpc
+    - google.golang.org/grpc
+    - google.golang.org/protobuf
+    - gopkg.in/yaml.v3
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/networkservice/main.go,
+    app/networkservice.go, app/util.go, api/siemens_iedge_dmapi_v1/Network.pb.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/industrial-edge/device-kit-network-service/blob/main/README.md
+  path: README.md
+  blob_sha: 78da366e875e4ceebb0234e7ad0141a7ddc1888b
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 080e688a88a0969573c16d49994dc5b63409aadf
+  retrieved: true
+- type: manifest
+  path: build/package/Makefile
+  blob_sha: bbd28683470aa6d40073991a59524f74c0ced578
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 653297
+    Makefile: 3409
+    Shell: 1979
+- type: Git tree
+  status: captured
+  sha: 44b654443faf3aacd16b43291a3a5175b22af62b
+  truncated: false
+- type: source_file
+  path: cmd/networkservice/main.go
+  blob_sha: 53e08c48c5dbfaa6c9d294f31259da671d142298
+  retrieved: true
+- type: source_file
+  path: app/networkservice.go
+  blob_sha: 5c7a1c8f173e290ba048801892925d3c5060f28f
+  retrieved: true
+- type: source_file
+  path: app/util.go
+  blob_sha: 88fdcc8f62551fc21bd85afc5fc5fda675a3b1ed
+  retrieved: true
+- type: source_file
+  path: api/siemens_iedge_dmapi_v1/Network.pb.go
+  blob_sha: dfe24f050fa4f6bd40ec95852372084db12f898b
+  retrieved: true

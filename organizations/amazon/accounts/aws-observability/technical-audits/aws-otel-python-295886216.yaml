@@ -1,0 +1,135 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:19:12+00:00'
+evidence_fingerprint: ce2beda0a9c5a592ea52172aad0786d9342d05052fea69a5d016bc0f7453e029
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/aws-otel-python
+  repository_id: 295886216
+  url: https://github.com/aws-observability/aws-otel-python
+  description: AWS Distro for OpenTelemetry Python
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-03-18T21:19:33Z'
+  stars: 28
+  readme_url: https://github.com/aws-observability/aws-otel-python/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e77e6c335120120398ea9acd98f9c221a0e32075
+  manifest_paths:
+  - .github/docker-performance-tests/alarms-poller/Dockerfile
+  - .github/docker-performance-tests/load-generator/Dockerfile
+  - integration-test-apps/auto-instrumentation/flask/Dockerfile
+  - integration-test-apps/auto-instrumentation/flask/requirements.txt
+  - integration-test-apps/manual-instrumentation/flask/Dockerfile
+  - integration-test-apps/manual-instrumentation/flask/requirements.txt
+  source_files_inspected:
+  - .github/docker-performance-tests/alarms-poller/metric_data_params.py
+  - .github/docker-performance-tests/alarms-poller/poll_during_performance_tests.py
+  - .github/scripts/performance-tests/get-metric-data/metric_data_params.py
+  - .github/scripts/performance-tests/get-metric-data/produce_performance_test_results.py
+  repository_tree:
+    status: captured
+    sha: 22a9fa47c7feabda2f476e8230612d521d507b29
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repo hosts documentation and sample apps for the ADOT Python library which provides the AWS service
+    integrations for traces and metrics for the OpenTelemetry Python library. The library can be configured to support
+    trace applications with the AWS X-Ray service. This enables all the features of the OpenTelemetry project and
+    configures its components to create traces that can be viewed in the AWS X-Ray console and allow propagation
+    of those contexts across multiple downstream AWS services.
+  why_used: AWS Distro for OpenTelemetry Python
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - boto3
+    - flask
+    - opentelemetry-distro
+    - opentelemetry-propagator-aws-xray
+    - opentelemetry-sdk-extension-aws
+    - requests
+    build_and_package_tools:
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .github/docker-performance-tests/alarms-poller/metric_data_params.py,
+    .github/docker-performance-tests/alarms-poller/poll_during_performance_tests.py, .github/scripts/performance-tests/get-metric-data/metric_data_params.py,
+    .github/scripts/performance-tests/get-metric-data/produce_performance_test_results.py'
+  setup_and_usage:
+  - 'Getting Started: Check out the links below for information on getting started with ADOT in Python:'
+  - 'Getting Started: - Tracing with Automatic Instrumentation'
+  - 'Getting Started: - Tracing with Manual Instrumentation'
+  limitations:
+  - 'Security issue notifications: If you discover a potential security issue in this project we ask that you notify
+    AWS/Amazon Security via our vulnerability reporting page. Please do **not** create a public github issue.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/aws-otel-python/blob/main/README.md
+  path: README.md
+  blob_sha: e77e6c335120120398ea9acd98f9c221a0e32075
+  retrieved: true
+- type: manifest
+  path: .github/docker-performance-tests/alarms-poller/Dockerfile
+  blob_sha: 0d6d2fbe4716c3e548e1ce9dfef5322ae6d40c37
+  retrieved: true
+- type: manifest
+  path: .github/docker-performance-tests/load-generator/Dockerfile
+  blob_sha: a9b31f7154e39e7f97df90a526fe2547dbdad7d9
+  retrieved: true
+- type: manifest
+  path: integration-test-apps/auto-instrumentation/flask/Dockerfile
+  blob_sha: ea612c5534c3a788c92aec0559b429463634f521
+  retrieved: true
+- type: manifest
+  path: integration-test-apps/auto-instrumentation/flask/requirements.txt
+  blob_sha: ce98f225529d302d6c813616019d2d44abf60353
+  retrieved: true
+- type: manifest
+  path: integration-test-apps/manual-instrumentation/flask/Dockerfile
+  blob_sha: 0fd44b432ad125e33597acecaf5e81b16bffd5e2
+  retrieved: true
+- type: manifest
+  path: integration-test-apps/manual-instrumentation/flask/requirements.txt
+  blob_sha: ebf0fb36ec1eb5c8ef902a484f773122054aa657
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 14658
+    Shell: 4305
+    Dockerfile: 716
+- type: Git tree
+  status: captured
+  sha: 22a9fa47c7feabda2f476e8230612d521d507b29
+  truncated: false
+- type: source_file
+  path: .github/docker-performance-tests/alarms-poller/metric_data_params.py
+  blob_sha: 76287a78ef18dcd3a08ab12d2d2b935b45bce7a5
+  retrieved: true
+- type: source_file
+  path: .github/docker-performance-tests/alarms-poller/poll_during_performance_tests.py
+  blob_sha: 4fde3aae136b0b446f800e1f8538c8b8eada984f
+  retrieved: true
+- type: source_file
+  path: .github/scripts/performance-tests/get-metric-data/metric_data_params.py
+  blob_sha: 1866a5894f122d6f4cda3d3cb71e993ff93c4f87
+  retrieved: true
+- type: source_file
+  path: .github/scripts/performance-tests/get-metric-data/produce_performance_test_results.py
+  blob_sha: 3ad8a0f1ccf9a5d3f8c3fbc0c7402f6240575aa5
+  retrieved: true

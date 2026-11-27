@@ -1,0 +1,146 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:34:42+00:00'
+evidence_fingerprint: f58dadb58fbc08c4ebd6d5ebeb26728f32eecde1a4bfccc018723496224744b6
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/CompileIQ
+  repository_id: 1228891212
+  url: https://github.com/NVIDIA/CompileIQ
+  description: An Optimizer for Nvidia Compilers.
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T20:41:47Z'
+  stars: 150
+  readme_url: https://github.com/NVIDIA/CompileIQ/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 789732967d8ebb1fb72f826ca67f779b282a1553
+  manifest_paths:
+  - Makefile
+  - pyproject.toml
+  - examples/compilers/nvbench_example/CMakeLists.txt
+  - examples/compilers/xla_ciq_example/requirements.txt
+  - skills/compileiq-debug/scripts/requirements.txt
+  - skills/compileiq-validate-result/scripts/requirements.txt
+  source_files_inspected:
+  - .github/scripts/smoke_test_compileiq_wheel.py
+  - compileiq/backends.py
+  - compileiq/ciq.py
+  - compileiq/config/const.py
+  repository_tree:
+    status: captured
+    sha: 35c3e91d5b77b0f4e45b126725fde979e75df248
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Push GPU kernels further with NVIDIA compiler tuning.**'
+  why_used: An Optimizer for Nvidia Compilers.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Standard ML
+    - Makefile
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - aiohttp
+    - anyio
+    - click
+    - dill
+    - json5
+    - loguru
+    - msgpack
+    - numpy
+    - pandas
+    - pillow
+    - protobuf
+    - pydantic
+    - ray
+    - requests
+    - scipy
+    - tqdm
+    - urllib3
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: .github/scripts/smoke_test_compileiq_wheel.py,
+    compileiq/backends.py, compileiq/ciq.py, compileiq/config/const.py'
+  setup_and_usage: []
+  limitations:
+  - 'Supported platforms: CompileIQ 1.1 targets Python 3.11, 3.12, 3.13, and 3.14. The beta CI matrix'
+  - 'Supported platforms: composes, verifies, and clean-installs complete wheels for Linux x86_64, Linux'
+  - 'Supported platforms: ARM64, Windows AMD64, and macOS ARM64 on each of those Python versions. Every'
+  - 'Supported platforms: cell provides the same amber engine.'
+  - 'Supported platforms: Linux wheels target glibc 2.34 or newer and are tagged manylinux_2_34. See'
+  - 'Supported platforms: the installation guide for Linux runtime library'
+  - 'Supported platforms: requirements and Windows runtime notes.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/CompileIQ/blob/main/README.md
+  path: README.md
+  blob_sha: 789732967d8ebb1fb72f826ca67f779b282a1553
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 7f69b72e4df6b1b4cb66a24987c63e0a0190e9c8
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 52ba4bdfb20fd3772211b68ba164bbca9743f2b7
+  retrieved: true
+- type: manifest
+  path: examples/compilers/nvbench_example/CMakeLists.txt
+  blob_sha: 41a7c41afd370d57d0fc50a4b9548d927c5b9bb0
+  retrieved: true
+- type: manifest
+  path: examples/compilers/xla_ciq_example/requirements.txt
+  blob_sha: 6dbcaecf09e5ccac0f3697426d1401ce8b7e5b40
+  retrieved: true
+- type: manifest
+  path: skills/compileiq-debug/scripts/requirements.txt
+  blob_sha: 9dff89394ddc0e16af3174e3fe0b87d7fa527acc
+  retrieved: true
+- type: manifest
+  path: skills/compileiq-validate-result/scripts/requirements.txt
+  blob_sha: 475fbd5a77a8859bae6dc34624869932be364a69
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 856390
+    Standard ML: 38495
+    Makefile: 27243
+    Shell: 25158
+- type: Git tree
+  status: captured
+  sha: 35c3e91d5b77b0f4e45b126725fde979e75df248
+  truncated: false
+- type: source_file
+  path: .github/scripts/smoke_test_compileiq_wheel.py
+  blob_sha: 11af0c789214c5cf8f06baca5ae876645e9bcb0d
+  retrieved: true
+- type: source_file
+  path: compileiq/backends.py
+  blob_sha: 594f3227f6a83cf4ad405a1e4cb85e75f4137f40
+  retrieved: true
+- type: source_file
+  path: compileiq/ciq.py
+  blob_sha: 5e593342aafe2d5d283b2f0956cb2c25a5349bb3
+  retrieved: true
+- type: source_file
+  path: compileiq/config/const.py
+  blob_sha: ab5823c8391371758c58633ec7617e66e13528ba
+  retrieved: true

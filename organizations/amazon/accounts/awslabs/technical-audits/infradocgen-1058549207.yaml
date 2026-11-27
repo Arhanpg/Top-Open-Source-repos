@@ -1,0 +1,169 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:26:33+00:00'
+evidence_fingerprint: 3224809aea2436c23d9e99f306aae447dac9784520fcc41461d7da8e9904f827
+repository_metadata:
+  company: Amazon
+  account: awslabs
+  full_name: awslabs/InfraDocGen
+  repository_id: 1058549207
+  url: https://github.com/awslabs/InfraDocGen
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-02-28T15:03:21Z'
+  stars: 7
+  readme_url: https://github.com/awslabs/InfraDocGen/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 6ac0eb7a0a828edf16b9a4a4bd0c9a223a65cacd
+  manifest_paths:
+  - requirements.txt
+  - infra-ui/package.json
+  source_files_inspected:
+  - main.py
+  - infra-ui/src/App.jsx
+  - infra-ui/src/components/DashboardView.jsx
+  - infra-ui/src/components/InfrastructureAnalysis.jsx
+  repository_tree:
+    status: captured
+    sha: 96bc7236a1045c553d3a88a41df900558f70ecf0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Infrastructure Document Generator is an intelligent automation tool that revolutionizes AWS infrastructure
+    documentation and analysis. By automatically scanning cloud environments, it creates comprehensive, real-time
+    documentation with detailed configuration reports, including dependency maps of resources based on access policies.
+    The tool goes beyond basic documentation by providing actionable insights based on AWS Well-Architected Framework
+    principles, providing reports on Security Best Practices, Comprehensive Analysis and Performance Improvement,
+    enabling organizations to optimize their cloud infrastructure while maintaining accurate documentation with
+    minimal effort.
+  why_used: The Infrastructure Document Generator is an intelligent automation tool that revolutionizes AWS infrastructure
+    documentation and analysis. By automatically scanning cloud environments, it creates comprehensive, real-time
+    documentation with detailed configuration reports, including dependency maps of resources based on access policies.
+    The tool goes beyond basic documentation by providing actionable insights based on AWS Well-Architected Framework
+    principles, providing reports on Security Best Practices, Comprehensive Analysis and Performance Improvement,
+    enabling organizations to optimize their cloud infrastructure while maintaining accurate documentation with
+    minimal effort.
+  core_features:
+  - name: Displays AWS resources organized by service and region
+    description: Displays AWS resources organized by service and region
+    evidence:
+    - README.md#Features
+  - name: AI-powered infrastructure analysis and documentation
+    description: AI-powered infrastructure analysis and documentation
+    evidence:
+    - README.md#Features
+  - name: Interactive dependency graphs with drag-and-drop functionality
+    description: Interactive dependency graphs with drag-and-drop functionality
+    evidence:
+    - README.md#Features
+  - name: Real-time progress tracking for analysis operations
+    description: Real-time progress tracking for analysis operations
+    evidence:
+    - README.md#Features
+  - name: Clean, responsive UI using AWS Cloudscape Design components
+    description: Clean, responsive UI using AWS Cloudscape Design components
+    evidence:
+    - README.md#Features
+  - name: Context API for data fetching and state management
+    description: Context API for data fetching and state management
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages:
+    - Python
+    - JavaScript
+    - CSS
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cloudscape-design/components'
+    - '@cloudscape-design/global-styles'
+    - '@vitejs/plugin-react'
+    - axios
+    - boto3
+    - botocore
+    - deepdiff
+    - elkjs
+    - fastapi
+    - pydantic
+    - python-dateutil
+    - python-multipart
+    - react
+    - react-dom
+    - react-markdown
+    - reactflow
+    - typing-extensions
+    - urllib3
+    - uvicorn
+    - vite
+    build_and_package_tools:
+    - npm-compatible manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: main.py, infra-ui/src/App.jsx,
+    infra-ui/src/components/DashboardView.jsx, infra-ui/src/components/InfrastructureAnalysis.jsx'
+  setup_and_usage:
+  - 'Usage: 1. Start the backend API server'
+  - 'Usage: 2. Launch the frontend application'
+  - 'Usage: 3. Navigate to http://localhost:3000'
+  - 'Usage: 4. Use the interface to scan AWS infrastructure and generate documentation'
+  limitations:
+  - 'Security & Identity Services: - **IAM**: Users, Groups, Roles, Policies'
+  - 'Security & Identity Services: - **Secrets Manager**: Secrets'
+  - 'Security & Identity Services: - **ACM**: Certificates'
+  - 'Security & Identity Services: - **Shield**: Protections'
+  - 'Security & Identity Services: - **GuardDuty**: Detectors'
+  - 'Security & Identity Services: - **WAF/WAFv2**: Web ACLs'
+  - 'Security & Identity Services: - **Macie**: Classification Jobs'
+  - 'Security Best Practices: - **Never commit AWS credentials** to version control'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/awslabs/InfraDocGen/blob/main/README.md
+  path: README.md
+  blob_sha: 6ac0eb7a0a828edf16b9a4a4bd0c9a223a65cacd
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: ee167b0df281f0cb9982cc93801567956298e049
+  retrieved: true
+- type: manifest
+  path: infra-ui/package.json
+  blob_sha: 90448c3b7ea5374b5152b1fe886e91229065efba
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 284962
+    JavaScript: 104779
+    CSS: 9154
+    HTML: 490
+- type: Git tree
+  status: captured
+  sha: 96bc7236a1045c553d3a88a41df900558f70ecf0
+  truncated: false
+- type: source_file
+  path: main.py
+  blob_sha: a9fee215aaf97b9ab038e17b494fb050a6731e0a
+  retrieved: true
+- type: source_file
+  path: infra-ui/src/App.jsx
+  blob_sha: cbdda0754e003aa51a909e29f2fd743ddcf4d13c
+  retrieved: true
+- type: source_file
+  path: infra-ui/src/components/DashboardView.jsx
+  blob_sha: 94583c348c49cddde909b6dd6afa31652b561cbc
+  retrieved: true
+- type: source_file
+  path: infra-ui/src/components/InfrastructureAnalysis.jsx
+  blob_sha: 6ed20867816b6285ad5f10f5f4d3951eefcba384
+  retrieved: true

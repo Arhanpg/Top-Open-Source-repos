@@ -1,0 +1,87 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:27:53+00:00'
+evidence_fingerprint: 19a1e98e00f4a9c5f141072ebed3ca0b0b32b0079b9b54f649d0c739b145777f
+repository_metadata:
+  company: Microsoft
+  account: dotnet
+  full_name: dotnet/Kerberos.NET
+  repository_id: 85489138
+  url: https://github.com/dotnet/Kerberos.NET
+  description: A Kerberos implementation built entirely in managed code.
+  default_branch: develop
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-22T23:11:21Z'
+  stars: 568
+  readme_url: https://github.com/dotnet/Kerberos.NET/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: 45c7610f9b1aa5e33b883f8b4244fec01c1a6fa4
+  manifest_paths: []
+  source_files_inspected:
+  - Kerberos.NET/Server/DefaultRealmSettings.cs
+  - Kerberos.NET/Server/IAKerbAcceptor.cs
+  - Kerberos.NET/Server/IAKerbAcceptorResult.cs
+  - Kerberos.NET/Server/IRealmReferral.cs
+  repository_tree:
+    status: captured
+    sha: 5df19d5a6125fc5375f199c459d0f52e92157720
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A complete Kerberos library built entirely in managed code without (many) OS dependencies.
+  why_used: A Kerberos implementation built entirely in managed code.
+  core_features: []
+  technology_stack:
+    languages:
+    - C#
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Kerberos.NET/Server/DefaultRealmSettings.cs,
+    Kerberos.NET/Server/IAKerbAcceptor.cs, Kerberos.NET/Server/IAKerbAcceptorResult.cs, Kerberos.NET/Server/IRealmReferral.cs'
+  setup_and_usage:
+  - 'Getting Started: There are two ways you can go about using this library. The first is to download the code
+    and build it locally. The second, better, option is to just use nuget.'
+  - 'Getting Started: PM> Install-Package Kerberos.NET'
+  limitations:
+  - 'Cross Platform Support: The library will work on all supported .NET Standard 2.0 platforms with some caveats.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/dotnet/Kerberos.NET/blob/develop/README.md
+  path: README.md
+  blob_sha: 45c7610f9b1aa5e33b883f8b4244fec01c1a6fa4
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 3218906
+- type: Git tree
+  status: captured
+  sha: 5df19d5a6125fc5375f199c459d0f52e92157720
+  truncated: false
+- type: source_file
+  path: Kerberos.NET/Server/DefaultRealmSettings.cs
+  blob_sha: 45c445a8fc4b40a4535564cd6bd22ec84ce8ca0c
+  retrieved: true
+- type: source_file
+  path: Kerberos.NET/Server/IAKerbAcceptor.cs
+  blob_sha: e2b8f8f74c760f0cb7975814fa5f345f9caa49bf
+  retrieved: true
+- type: source_file
+  path: Kerberos.NET/Server/IAKerbAcceptorResult.cs
+  blob_sha: ea4120214e9c7501bf93de018ad7b15e33ffde44
+  retrieved: true
+- type: source_file
+  path: Kerberos.NET/Server/IRealmReferral.cs
+  blob_sha: cfef5f38e2ccadf7cede800631d59bf01a819678
+  retrieved: true

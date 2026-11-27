@@ -1,0 +1,120 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:28:50+00:00'
+evidence_fingerprint: e8b00fc275c11a9ba81c17682e06267b516f77404c864920c52800c8b5edb0ed
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/mcp-server
+  repository_id: 961105832
+  url: https://github.com/cap-js/mcp-server
+  description: MCP server for AI-assisted development of CAP applications
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-19T16:23:56Z'
+  stars: 119
+  readme_url: https://github.com/cap-js/mcp-server/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a04f31acc314221ccd2e1bb69effc08dd2fcb4ff
+  manifest_paths:
+  - package.json
+  - tests/sample/package.json
+  source_files_inspected:
+  - index.js
+  - lib/api.js
+  - lib/bm25/fallback.js
+  - lib/bm25/fts5.js
+  repository_tree:
+    status: captured
+    sha: 51ac88899e2f89d28a2a09429effa59e8495bf82
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A Model Context Protocol (MCP) server for the SAP Cloud Application Programming Model (CAP). Use it for
+    AI-assisted development of CAP applications (_agentic coding_).
+  why_used: MCP server for AI-assisted development of CAP applications
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/ai'
+    - '@cap-js/cds-types'
+    - '@cap-js/sqlite'
+    - '@huggingface/hub'
+    - '@huggingface/tokenizers'
+    - '@huggingface/transformers'
+    - '@modelcontextprotocol/sdk'
+    - '@sap/cds'
+    - onnxruntime-node
+    - oxfmt
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: index.js, lib/api.js,
+    lib/bm25/fallback.js, lib/bm25/fts5.js'
+  setup_and_usage:
+  - 'Usage in Claude Code: Register the server with Claude Code.'
+  - 'Usage in Claude Code: **For all projects (user scope):**'
+  - 'Usage in Claude Code: claude mcp add --scope user cds-mcp -- npx -y @cap-js/mcp-server'
+  - 'Usage in Claude Code: **For the current project only (local scope, not committed):**'
+  - 'Usage in Claude Code: claude mcp add cds-mcp -- npx -y @cap-js/mcp-server'
+  - 'Usage in Claude Code: **For the current project only (committed to the repository):**'
+  - 'Usage in Claude Code: claude mcp add --scope project cds-mcp -- npx -y @cap-js/mcp-server'
+  - 'Usage in Claude Code: To set an environment variable, add --env before the server name:'
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please don''t create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/mcp-server/blob/main/README.md
+  path: README.md
+  blob_sha: a04f31acc314221ccd2e1bb69effc08dd2fcb4ff
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 1244200790cecda57d23a6b19b44aa59f462e939
+  retrieved: true
+- type: manifest
+  path: tests/sample/package.json
+  blob_sha: 258f3e079add9e17ceb30bb1d294201c5c343565
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 739496
+    CAP CDS: 11567
+    HTML: 1129
+- type: Git tree
+  status: captured
+  sha: 51ac88899e2f89d28a2a09429effa59e8495bf82
+  truncated: false
+- type: source_file
+  path: index.js
+  blob_sha: a86159a12b17a80848b849d748eae3688b82e823
+  retrieved: true
+- type: source_file
+  path: lib/api.js
+  blob_sha: 4046d4adcbe9fb2d5d2524f2a61c8986be3e09bf
+  retrieved: true
+- type: source_file
+  path: lib/bm25/fallback.js
+  blob_sha: 82dbb05f875c803b67261a4ee352378810d0afb4
+  retrieved: true
+- type: source_file
+  path: lib/bm25/fts5.js
+  blob_sha: 50c01a3c71deb13fdd49c12507d61e913db0a4e1
+  retrieved: true

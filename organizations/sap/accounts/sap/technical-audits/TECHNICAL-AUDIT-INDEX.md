@@ -1,10 +1,10 @@
 # Technical audits — sap
 
-Updated: 2026-11-27T07:24:08+00:00
+Updated: 2026-11-27T22:44:04+00:00
 
 ## Status counts
 
-- evidence_only: 19
+- evidence_only: 23
 
 ## Repository dossiers
 
@@ -22,6 +22,10 @@ Updated: 2026-11-27T07:24:08+00:00
 | accessibility-design-tools-670200094 | evidence_only | [accessibility-design-tools-670200094.md](accessibility-design-tools-670200094.md) | [accessibility-design-tools-670200094.yaml](accessibility-design-tools-670200094.yaml) |
 | admission-webhook-runtime-631988239 | evidence_only | [admission-webhook-runtime-631988239.md](admission-webhook-runtime-631988239.md) | [admission-webhook-runtime-631988239.yaml](admission-webhook-runtime-631988239.yaml) |
 | agent-quality-inspect-1147797107 | evidence_only | [agent-quality-inspect-1147797107.md](agent-quality-inspect-1147797107.md) | [agent-quality-inspect-1147797107.yaml](agent-quality-inspect-1147797107.yaml) |
+| ai-assisted-github-actions-986297650 | evidence_only | [ai-assisted-github-actions-986297650.md](ai-assisted-github-actions-986297650.md) | [ai-assisted-github-actions-986297650.yaml](ai-assisted-github-actions-986297650.yaml) |
+| ai-native-architecture-advisor-1405279190 | evidence_only | [ai-native-architecture-advisor-1405279190.md](ai-native-architecture-advisor-1405279190.md) | [ai-native-architecture-advisor-1405279190.yaml](ai-native-architecture-advisor-1405279190.yaml) |
+| ai-sdk-945861499 | evidence_only | [ai-sdk-945861499.md](ai-sdk-945861499.md) | [ai-sdk-945861499.yaml](ai-sdk-945861499.yaml) |
+| ai-sdk-java-829468847 | evidence_only | [ai-sdk-java-829468847.md](ai-sdk-java-829468847.md) | [ai-sdk-java-829468847.yaml](ai-sdk-java-829468847.yaml) |
 | bipec-a-combined-change-point-analyzer-840247219 | evidence_only | [bipec-a-combined-change-point-analyzer-840247219.md](bipec-a-combined-change-point-analyzer-840247219.md) | [bipec-a-combined-change-point-analyzer-840247219.yaml](bipec-a-combined-change-point-analyzer-840247219.yaml) |
 | github-358244620 | evidence_only | [github-358244620.md](github-358244620.md) | [github-358244620.yaml](github-358244620.yaml) |
 | infrabox-126344645 | evidence_only | [infrabox-126344645.md](infrabox-126344645.md) | [infrabox-126344645.yaml](infrabox-126344645.yaml) |

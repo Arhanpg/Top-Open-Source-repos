@@ -1,0 +1,151 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:22:10+00:00'
+evidence_fingerprint: 14dcf9aaeb0edce703e6367defdfb284a84398fe4e87a1463739886e423105ca
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/perf_analyzer
+  repository_id: 539716607
+  url: https://github.com/triton-inference-server/perf_analyzer
+  description: null
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T22:14:01Z'
+  stars: 164
+  readme_url: https://github.com/triton-inference-server/perf_analyzer/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 9751dd0b4894f8fe9ef692ccf10898616c446679
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  - genai-perf/pyproject.toml
+  - src/CMakeLists.txt
+  - src/client_backend/CMakeLists.txt
+  - src/client_backend/dynamic_grpc/CMakeLists.txt
+  source_files_inspected:
+  - src/perf_analyzer/cli.py
+  - genai-perf/genai_perf/main.py
+  - src/base_queue_ctx_id_tracker.h
+  - src/client_backend/client_backend.cc
+  repository_tree:
+    status: captured
+    sha: 0394b321bc21ab6d5f1f574121cc9113f15b0601
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Copyright (c) 2020-2026, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+  why_used: Copyright (c) 2020-2026, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+  core_features:
+  - name: Sequence Models,
+    description: Sequence Models,
+    evidence:
+    - README.md#Other Features
+  - name: Input Data to model inferences can be auto-generated or
+    description: Input Data to model inferences can be auto-generated or
+    evidence:
+    - README.md#Other Features
+  - name: TorchServe can be used as the
+    description: TorchServe can be used as the
+    evidence:
+    - README.md#Other Features
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies:
+    - fastparquet
+    - jinja2
+    - kaleido
+    - numpy
+    - optuna
+    - orjson
+    - pandas
+    - perf-analyzer
+    - pillow
+    - plotly
+    - pyarrow
+    - pytest
+    - pytest-mock
+    - pyyaml
+    - responses
+    - rich
+    - soundfile
+    - statsmodels
+    - transformers
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/perf_analyzer/cli.py,
+    genai-perf/genai_perf/main.py, src/base_queue_ctx_id_tracker.h, src/client_backend/client_backend.cc'
+  setup_and_usage:
+  - 'Quick Start: The steps below will guide you on how to start using Perf Analyzer.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/perf_analyzer/blob/main/README.md
+  path: README.md
+  blob_sha: 9751dd0b4894f8fe9ef692ccf10898616c446679
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 5052347a3b225d2d75e3ae04807a96c57b6c0a2f
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: b6cda7e70622dfc2ebdfa8432bb4918538e6baf3
+  retrieved: true
+- type: manifest
+  path: genai-perf/pyproject.toml
+  blob_sha: 88f8b11b5fd510ed4a82d66ed714454f7b392fb0
+  retrieved: true
+- type: manifest
+  path: src/CMakeLists.txt
+  blob_sha: 619a3b272a321af0dc4c2026752350df7b6b9987
+  retrieved: true
+- type: manifest
+  path: src/client_backend/CMakeLists.txt
+  blob_sha: 28e3e5fd3e2d69d696fbbb0bf5b45cc76fcfd846
+  retrieved: true
+- type: manifest
+  path: src/client_backend/dynamic_grpc/CMakeLists.txt
+  blob_sha: 61f22a10570545d965e7b3b12ac187241d28aa0a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 1956784
+    C++: 1873024
+    CMake: 51028
+- type: Git tree
+  status: captured
+  sha: 0394b321bc21ab6d5f1f574121cc9113f15b0601
+  truncated: false
+- type: source_file
+  path: src/perf_analyzer/cli.py
+  blob_sha: fe643d988a17e3e2163abd76ad599b19388eaf82
+  retrieved: true
+- type: source_file
+  path: genai-perf/genai_perf/main.py
+  blob_sha: 34b81b651f4dac478196c92acdcb4b8d47ab10b6
+  retrieved: true
+- type: source_file
+  path: src/base_queue_ctx_id_tracker.h
+  blob_sha: 0ef3ce1194c1f791ccb17ac81a4106f6b2e14509
+  retrieved: true
+- type: source_file
+  path: src/client_backend/client_backend.cc
+  blob_sha: a31ae0049170ee14cdfd9d0470cd6eb4536c4076
+  retrieved: true

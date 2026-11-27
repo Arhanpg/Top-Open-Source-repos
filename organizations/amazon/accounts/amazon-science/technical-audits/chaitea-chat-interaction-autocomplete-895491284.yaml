@@ -1,0 +1,108 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:18:07+00:00'
+evidence_fingerprint: 92008267a746617d144bd7e682d41552255372ad1e995e83547c6ff14868177d
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/ChaiTea-chat-interaction-autocomplete
+  repository_id: 895491284
+  url: https://github.com/amazon-science/ChaiTea-chat-interaction-autocomplete
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-11-28T10:55:33Z'
+  stars: 1
+  readme_url: https://github.com/amazon-science/ChaiTea-chat-interaction-autocomplete/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 8e8abe483e6932c53d10878f73701f461c6bc8cf
+  manifest_paths:
+  - pyproject.toml
+  - requirements.txt
+  source_files_inspected:
+  - src/__init__.py
+  - src/inference.py
+  - src/metrics.py
+  - src/prepare_oasst.py
+  repository_tree:
+    status: captured
+    sha: ed648c4e0066ab3d5bfb3a1483b597a74220129a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'Before running experiments, get the needed packages by running: pip install -r requirements.txt'
+  why_used: 'Before running experiments, get the needed packages by running: pip install -r requirements.txt'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - bert_score
+    - datasets
+    - docker
+    - evaluate
+    - langdetect
+    - pandas
+    - python-Levenshtein
+    - rouge-score
+    - s3fs
+    - torch
+    - tqdm
+    - transformers
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/__init__.py, src/inference.py,
+    src/metrics.py, src/prepare_oasst.py'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/ChaiTea-chat-interaction-autocomplete/blob/main/README.md
+  path: README.md
+  blob_sha: 8e8abe483e6932c53d10878f73701f461c6bc8cf
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 6dbd43fbd7f530f3f0c554c63605be7e3d220485
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 419197480e610434d17fcb828348e1a1d4ee3d29
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 62558
+- type: Git tree
+  status: captured
+  sha: ed648c4e0066ab3d5bfb3a1483b597a74220129a
+  truncated: false
+- type: source_file
+  path: src/__init__.py
+  blob_sha: 21f24437f24fab4d53ac0dfcb30243de4420e336
+  retrieved: true
+- type: source_file
+  path: src/inference.py
+  blob_sha: cbd0271697e39096a794c21af36cddc630399c82
+  retrieved: true
+- type: source_file
+  path: src/metrics.py
+  blob_sha: d0fb5534fe3b1a7d7a52ad61f12ac713208045ee
+  retrieved: true
+- type: source_file
+  path: src/prepare_oasst.py
+  blob_sha: 5f221c2a7ed3251355855fc051a38a7b6cd0d185
+  retrieved: true

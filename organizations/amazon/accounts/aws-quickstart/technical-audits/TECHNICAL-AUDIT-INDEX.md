@@ -1,10 +1,10 @@
 # Technical audits — aws-quickstart
 
-Updated: 2026-11-27T07:24:11+00:00
+Updated: 2026-11-27T22:44:03+00:00
 
 ## Status counts
 
-- evidence_only: 20
+- evidence_only: 24
 - insufficient_evidence: 2
 
 ## Repository dossiers
@@ -33,3 +33,7 @@ Updated: 2026-11-27T07:24:11+00:00
 | quickstart-amazon-eks-nodegroup-288829112 | evidence_only | [quickstart-amazon-eks-nodegroup-288829112.md](quickstart-amazon-eks-nodegroup-288829112.md) | [quickstart-amazon-eks-nodegroup-288829112.yaml](quickstart-amazon-eks-nodegroup-288829112.yaml) |
 | quickstart-amazon-rds-204575264 | evidence_only | [quickstart-amazon-rds-204575264.md](quickstart-amazon-rds-204575264.md) | [quickstart-amazon-rds-204575264.yaml](quickstart-amazon-rds-204575264.yaml) |
 | quickstart-amazon-redshift-193150511 | evidence_only | [quickstart-amazon-redshift-193150511.md](quickstart-amazon-redshift-193150511.md) | [quickstart-amazon-redshift-193150511.yaml](quickstart-amazon-redshift-193150511.yaml) |
+| quickstart-amazon-selling-partner-api-355314092 | evidence_only | [quickstart-amazon-selling-partner-api-355314092.md](quickstart-amazon-selling-partner-api-355314092.md) | [quickstart-amazon-selling-partner-api-355314092.yaml](quickstart-amazon-selling-partner-api-355314092.yaml) |
+| quickstart-amazon-selling-partner-api-reports-notifications-423881599 | evidence_only | [quickstart-amazon-selling-partner-api-reports-notifications-423881599.md](quickstart-amazon-selling-partner-api-reports-notifications-423881599.md) | [quickstart-amazon-selling-partner-api-reports-notifications-423881599.yaml](quickstart-amazon-selling-partner-api-reports-notifications-423881599.yaml) |
+| quickstart-amazon-vpc-traffic-mirroring-364702294 | evidence_only | [quickstart-amazon-vpc-traffic-mirroring-364702294.md](quickstart-amazon-vpc-traffic-mirroring-364702294.md) | [quickstart-amazon-vpc-traffic-mirroring-364702294.yaml](quickstart-amazon-vpc-traffic-mirroring-364702294.yaml) |
+| quickstart-ammos-smallsat-toolkit-377301931 | evidence_only | [quickstart-ammos-smallsat-toolkit-377301931.md](quickstart-ammos-smallsat-toolkit-377301931.md) | [quickstart-ammos-smallsat-toolkit-377301931.yaml](quickstart-ammos-smallsat-toolkit-377301931.yaml) |

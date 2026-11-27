@@ -1,0 +1,95 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:28:34+00:00'
+evidence_fingerprint: 90f8f840a976c0a8a5ebead0b976723de9eab65a33beca772ae058b07245463e
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/cugraph-docs
+  repository_id: 803335366
+  url: https://github.com/rapidsai/cugraph-docs
+  description: cuGraph Docs - RAPIDS Graph Analytics Documentation
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T15:10:05Z'
+  stars: 5
+  readme_url: https://github.com/rapidsai/cugraph-docs/blob/main/README.md
+  readme_path: README.md
+  readme_sha: da26defb44e7817650cb3cad789d16f72d6fc7cc
+  manifest_paths:
+  - pyproject.toml
+  - docs/cugraph-docs/Makefile
+  source_files_inspected:
+  - build.sh
+  - ci/build_docs.sh
+  - ci/check_style.sh
+  - ci/release/update-version.sh
+  repository_tree:
+    status: captured
+    sha: dbbef75352587ea8c7d693f95bd2466aec9c869a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: RAPIDS cuGraph-docs is a repo for building all the documentation associated with RAPIDS cuGraph which
+    supports the creation and manipulation of GPU-based graphs and the execution of scalable fast graph algorithms.
+  why_used: cuGraph Docs - RAPIDS Graph Analytics Documentation
+  core_features: []
+  technology_stack:
+    languages:
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: build.sh, ci/build_docs.sh,
+    ci/check_style.sh, ci/release/update-version.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/cugraph-docs/blob/main/README.md
+  path: README.md
+  blob_sha: da26defb44e7817650cb3cad789d16f72d6fc7cc
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: f13c87ef75dadfe46e648def6b6a90c72b48b121
+  retrieved: true
+- type: manifest
+  path: docs/cugraph-docs/Makefile
+  blob_sha: ac16367ef52c68e6a858da5344082cf089af6bf6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Shell: 11334
+- type: Git tree
+  status: captured
+  sha: dbbef75352587ea8c7d693f95bd2466aec9c869a
+  truncated: false
+- type: source_file
+  path: build.sh
+  blob_sha: b3b08d2275dc967cfa885c4d0214b52a0cef6a3a
+  retrieved: true
+- type: source_file
+  path: ci/build_docs.sh
+  blob_sha: c802100674a13269fee7d5b66f3ee11a2354da9a
+  retrieved: true
+- type: source_file
+  path: ci/check_style.sh
+  blob_sha: ebb04f689365a9adccc0bfd31239b56ef29ed3c8
+  retrieved: true
+- type: source_file
+  path: ci/release/update-version.sh
+  blob_sha: ec70e71ac5220696ecfb6ee5c48518921bbdc000
+  retrieved: true

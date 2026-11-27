@@ -1,10 +1,10 @@
 # Technical audits — industrial-edge
 
-Updated: 2026-11-27T07:24:05+00:00
+Updated: 2026-11-27T22:44:08+00:00
 
 ## Status counts
 
-- evidence_only: 19
+- evidence_only: 23
 
 ## Repository dossiers
 
@@ -19,8 +19,12 @@ Updated: 2026-11-27T07:24:05+00:00
 | bring-own-apps-to-shopfloor-490289419 | evidence_only | [bring-own-apps-to-shopfloor-490289419.md](bring-own-apps-to-shopfloor-490289419.md) | [bring-own-apps-to-shopfloor-490289419.yaml](bring-own-apps-to-shopfloor-490289419.yaml) |
 | common-databus-payload-format-503659199 | evidence_only | [common-databus-payload-format-503659199.md](common-databus-payload-format-503659199.md) | [common-databus-payload-format-503659199.yaml](common-databus-payload-format-503659199.yaml) |
 | connectivity-tester-590386451 | evidence_only | [connectivity-tester-590386451.md](connectivity-tester-590386451.md) | [connectivity-tester-590386451.yaml](connectivity-tester-590386451.yaml) |
+| connector-for-iec61850-getting-started-1030306676 | evidence_only | [connector-for-iec61850-getting-started-1030306676.md](connector-for-iec61850-getting-started-1030306676.md) | [connector-for-iec61850-getting-started-1030306676.yaml](connector-for-iec61850-getting-started-1030306676.yaml) |
+| connector-for-lorawan-getting-started-865211233 | evidence_only | [connector-for-lorawan-getting-started-865211233.md](connector-for-lorawan-getting-started-865211233.md) | [connector-for-lorawan-getting-started-865211233.yaml](connector-for-lorawan-getting-started-865211233.yaml) |
 | connector-for-melsec-getting-started-897831007 | evidence_only | [connector-for-melsec-getting-started-897831007.md](connector-for-melsec-getting-started-897831007.md) | [connector-for-melsec-getting-started-897831007.yaml](connector-for-melsec-getting-started-897831007.yaml) |
 | developer-guide-hands-on-app-362865268 | evidence_only | [developer-guide-hands-on-app-362865268.md](developer-guide-hands-on-app-362865268.md) | [developer-guide-hands-on-app-362865268.yaml](developer-guide-hands-on-app-362865268.yaml) |
+| device-kit-network-service-429713963 | evidence_only | [device-kit-network-service-429713963.md](device-kit-network-service-429713963.md) | [device-kit-network-service-429713963.yaml](device-kit-network-service-429713963.yaml) |
+| device-kit-ntp-service-429714250 | evidence_only | [device-kit-ntp-service-429714250.md](device-kit-ntp-service-429714250.md) | [device-kit-ntp-service-429714250.yaml](device-kit-ntp-service-429714250.yaml) |
 | github-448000744 | evidence_only | [github-448000744.md](github-448000744.md) | [github-448000744.yaml](github-448000744.yaml) |
 | ledgebuffer-getting-started-375333797 | evidence_only | [ledgebuffer-getting-started-375333797.md](ledgebuffer-getting-started-375333797.md) | [ledgebuffer-getting-started-375333797.yaml](ledgebuffer-getting-started-375333797.yaml) |
 | performance-analytics-408793816 | evidence_only | [performance-analytics-408793816.md](performance-analytics-408793816.md) | [performance-analytics-408793816.yaml](performance-analytics-408793816.yaml) |

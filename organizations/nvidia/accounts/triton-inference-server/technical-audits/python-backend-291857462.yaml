@@ -1,0 +1,123 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:28:42+00:00'
+evidence_fingerprint: 712fe58061e7f73c7f76a5606f459f313c1eeceb7f48cc1ed6cefa5e83b2e29f
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/python_backend
+  repository_id: 291857462
+  url: https://github.com/triton-inference-server/python_backend
+  description: Triton backend that enables pre-process, post-processing and other logic to be implemented in Python.
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T20:59:57Z'
+  stars: 684
+  readme_url: https://github.com/triton-inference-server/python_backend/blob/main/README.md
+  readme_path: README.md
+  readme_sha: c7c20e9b2c64b6177b6f9d73b94aae25e1ae3846
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  - .devcontainer/Dockerfile
+  - src/shm_monitor/CMakeLists.txt
+  source_files_inspected:
+  - src/correlation_id.cc
+  - src/correlation_id.h
+  - src/gpu_buffers.cc
+  - src/gpu_buffers.h
+  repository_tree:
+    status: captured
+    sha: 2969e4e93759e0b18ebcd7bb66cbb7047f3be1d9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: -->
+  why_used: Triton backend that enables pre-process, post-processing and other logic to be implemented in Python.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - Shell
+    - CMake
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/correlation_id.cc,
+    src/correlation_id.h, src/gpu_buffers.cc, src/gpu_buffers.h'
+  setup_and_usage:
+  - 'Quick Start: 1. Run the Triton Inference Server container.'
+  - 'Quick Start: docker run --shm-size=1g --ulimit memlock=-1 -p 8000:8000 -p 8001:8001 -p 8002:8002 --ulimit stack=67108864
+    -ti nvcr.io/nvidia/tritonserver: -py3'
+  - 'Quick Start: Replace \ with the Triton version (e.g. 21.05).'
+  - 'Quick Start: 2. Inside the container, clone the Python backend repository.'
+  - 'Quick Start: git clone https://github.com/triton-inference-server/python_backend -b r'
+  - 'Quick Start: 3. Install example model.'
+  - 'Quick Start: mkdir -p models/add_sub/1/'
+  - 'Quick Start: cp examples/add_sub/model.py models/add_sub/1/model.py'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/python_backend/blob/main/README.md
+  path: README.md
+  blob_sha: c7c20e9b2c64b6177b6f9d73b94aae25e1ae3846
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: f9956f2d895e7435fec148d3120f6822da2cd3eb
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 5e8749f81b286a3a6446b3c61fdda84f9281beb9
+  retrieved: true
+- type: manifest
+  path: .devcontainer/Dockerfile
+  blob_sha: 737725bbc1f753f7a5321ed8cb148bfc69401230
+  retrieved: true
+- type: manifest
+  path: src/shm_monitor/CMakeLists.txt
+  blob_sha: 2ae8bd45a9915259776d8e8cfecf9aa9c7c90242
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 662685
+    Python: 55992
+    Shell: 21944
+    CMake: 17652
+    Dockerfile: 2029
+- type: Git tree
+  status: captured
+  sha: 2969e4e93759e0b18ebcd7bb66cbb7047f3be1d9
+  truncated: false
+- type: source_file
+  path: src/correlation_id.cc
+  blob_sha: d7b19eea7dcbf5b4dde4d530020ee4fd96f50b0a
+  retrieved: true
+- type: source_file
+  path: src/correlation_id.h
+  blob_sha: 63185d9fb4a8299bcf2963108749d3b7f8e1a909
+  retrieved: true
+- type: source_file
+  path: src/gpu_buffers.cc
+  blob_sha: 4b1b0f9f4bd91f7e1f35ca5e8202135760e35c4d
+  retrieved: true
+- type: source_file
+  path: src/gpu_buffers.h
+  blob_sha: fd683ba73418ad5b0f59157a0c570fac9074e20b
+  retrieved: true

@@ -1,0 +1,200 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:41:54+00:00'
+evidence_fingerprint: 6a8aa3e69f552912bb2acc4d862b438ecf5fe4ee5665b7427af108bbe316f318
+repository_metadata:
+  company: SAP
+  account: kyma-project
+  full_name: kyma-project/eventing-auth-manager
+  repository_id: 623834856
+  url: https://github.com/kyma-project/eventing-auth-manager
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-04T11:32:08Z'
+  stars: 1
+  readme_url: https://github.com/kyma-project/eventing-auth-manager/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 85fd1a57df05a11f64d83db3c7204801f86fbfe9
+  manifest_paths:
+  - Dockerfile
+  - go.mod
+  - Makefile
+  - hack/scripts/releaselabelvalidator/requirements.txt
+  source_files_inspected:
+  - cmd/main.go
+  - cmd/main_test.go
+  - api/v1alpha1/eventingauth_types.go
+  - api/v1alpha1/groupversion_info.go
+  repository_tree:
+    status: captured
+    sha: 04f5e2054afb61f77df302d56adc8ecb5182f13d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Eventing Auth Manager is a central component that is deployed in Kyma Control Plane (KCP). The component
+    manages applications in the SAP Cloud Identity Services - Identity Authentication by creating and deleting them
+    based on the creation or deletion of a managed Kyma runtime.
+  why_used: Eventing Auth Manager is a central component that is deployed in Kyma Control Plane (KCP). The component
+    manages applications in the SAP Cloud Identity Services - Identity Authentication by creating and deleting them
+    based on the creation or deletion of a managed Kyma runtime.
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Makefile
+    - Shell
+    - Python
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/Masterminds/semver/v3
+    - github.com/apapsch/go-jsonmerge/v2
+    - github.com/beorn7/perks
+    - github.com/cespare/xxhash/v2
+    - github.com/davecgh/go-spew
+    - github.com/deepmap/oapi-codegen
+    - github.com/emicklei/go-restful/v3
+    - github.com/evanphx/json-patch
+    - github.com/evanphx/json-patch/v5
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/go-logr/logr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/go-openapi/swag/cmdutils
+    - github.com/go-openapi/swag/conv
+    - github.com/go-openapi/swag/fileutils
+    - github.com/go-openapi/swag/jsonutils
+    - github.com/go-openapi/swag/loading
+    - github.com/go-openapi/swag/mangling
+    - github.com/go-openapi/swag/netutils
+    - github.com/go-openapi/swag/pools
+    - github.com/go-openapi/swag/stringutils
+    - github.com/go-openapi/swag/typeutils
+    - github.com/go-openapi/swag/yamlutils
+    - github.com/go-task/slim-sprig/v3
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/pprof
+    - github.com/google/uuid
+    - github.com/json-iterator/go
+    - github.com/kyma-project/lifecycle-manager/api
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/munnerz/goautoneg
+    - github.com/oapi-codegen/runtime
+    - github.com/onsi/ginkgo/v2
+    - github.com/onsi/gomega
+    - github.com/pkg/errors
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/spf13/pflag
+    - github.com/stretchr/objx
+    - github.com/stretchr/testify
+    - github.com/x448/float16
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - go.yaml.in/yaml/v2
+    - go.yaml.in/yaml/v3
+    - golang.org/x/mod
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/term
+    - golang.org/x/text
+    - golang.org/x/time
+    - golang.org/x/tools
+    - gomodules.xyz/jsonpatch/v2
+    - google.golang.org/protobuf
+    - gopkg.in/evanphx/json-patch.v4
+    - gopkg.in/inf.v0
+    - gopkg.in/yaml.v3
+    - k8s.io/api
+    - k8s.io/apiextensions-apiserver
+    - k8s.io/apimachinery
+    - k8s.io/client-go
+    - k8s.io/klog/v2
+    - k8s.io/kube-openapi
+    - k8s.io/utils
+    - pyyaml
+    - requests
+    - sigs.k8s.io/controller-runtime
+    - sigs.k8s.io/json
+    - sigs.k8s.io/randfill
+    - sigs.k8s.io/structured-merge-diff/v6
+    - sigs.k8s.io/yaml
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/main.go, cmd/main_test.go,
+    api/v1alpha1/eventingauth_types.go, api/v1alpha1/groupversion_info.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/kyma-project/eventing-auth-manager/blob/main/README.md
+  path: README.md
+  blob_sha: 85fd1a57df05a11f64d83db3c7204801f86fbfe9
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 23ed8b728bd4af2c4c9de2cf9dd6dfbef1454cfa
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 4af3952a32442cbd4ce711766fa125dc05db21d6
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 3e7da4a36cb25562d610fe5ece236952e589b7cb
+  retrieved: true
+- type: manifest
+  path: hack/scripts/releaselabelvalidator/requirements.txt
+  blob_sha: 1c6d8b40e6e9fbbca7f9982635c6b504a9434944
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 127713
+    Makefile: 10687
+    Shell: 5990
+    Python: 2225
+    Dockerfile: 1355
+- type: Git tree
+  status: captured
+  sha: 04f5e2054afb61f77df302d56adc8ecb5182f13d
+  truncated: false
+- type: source_file
+  path: cmd/main.go
+  blob_sha: aac7279da0a4015a357cb82e1a19599531649fa4
+  retrieved: true
+- type: source_file
+  path: cmd/main_test.go
+  blob_sha: 5e72cbbbed435800521f09bfadbc5226cf9cfa15
+  retrieved: true
+- type: source_file
+  path: api/v1alpha1/eventingauth_types.go
+  blob_sha: b83f759c0d9c31116d1f3d72ac3903a4c58cd1ee
+  retrieved: true
+- type: source_file
+  path: api/v1alpha1/groupversion_info.go
+  blob_sha: 7b36d6250fd84a7e93791ed7bc90961ddfa73416
+  retrieved: true

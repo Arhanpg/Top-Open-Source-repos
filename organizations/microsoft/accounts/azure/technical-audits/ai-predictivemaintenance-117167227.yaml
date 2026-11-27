@@ -1,0 +1,142 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:34:09+00:00'
+evidence_fingerprint: f34a4540e745a8e9ee673ae6b2eb64724ba2e65d09ab149f4cfee79577954445
+repository_metadata:
+  company: Microsoft
+  account: Azure
+  full_name: Azure/AI-PredictiveMaintenance
+  repository_id: 117167227
+  url: https://github.com/Azure/AI-PredictiveMaintenance
+  description: null
+  default_branch: master
+  license_spdx: CC-BY-4.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2023-07-06T21:18:35Z'
+  stars: 156
+  readme_url: https://github.com/Azure/AI-PredictiveMaintenance/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 6f586a9ebe4bf3f3f55c8ce8e56c11fdb559d42f
+  manifest_paths:
+  - src/WebApp/requirements.txt
+  - src/WebApp/shared_modules/setup.py
+  source_files_inspected:
+  - src/WebApp/flask/app.py
+  - src/CustomScripts/setup.sh
+  - src/Infographics/convert_pdf_to_png.sh
+  - src/Infographics/download_and_prepare_images.sh
+  repository_tree:
+    status: captured
+    sha: 366e35f4c60828258e1708b7e922b65725a702e0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This open-source solution template showcases a complete Azure infrastructure capable of supporting Predictive
+    Maintenance scenarios in the context of IoT remote monitoring. This repo provides reusable and customizable
+    building blocks to enable Azure customers to solve Predictive Maintenance problems using Azure's cloud AI services.
+  why_used: This open-source solution template showcases a complete Azure infrastructure capable of supporting Predictive
+    Maintenance scenarios in the context of IoT remote monitoring. This repo provides reusable and customizable
+    building blocks to enable Azure customers to solve Predictive Maintenance problems using Azure's cloud AI services.
+  core_features:
+  - name: Automated deployment to Azure
+    description: Automated deployment to Azure
+    evidence:
+    - README.md#Main features
+  - name: Sample Jupyter notebooks covering feature engineering, model training, evaluation and operationalization
+    description: Sample Jupyter notebooks covering feature engineering, model training, evaluation and operationalization
+    evidence:
+    - README.md#Main features
+  - name: Configurable and extensible data generator (supports static and streaming modes)
+    description: Configurable and extensible data generator (supports static and streaming modes)
+    evidence:
+    - README.md#Main features
+  - name: Technical documentation
+    description: Technical documentation
+    evidence:
+    - README.md#Main features
+  - name: Demo dashboard featuring IoT device management, live metrics, and prediction visualization
+    description: Demo dashboard featuring IoT device management, live metrics, and prediction visualization
+    evidence:
+    - README.md#Main features
+  - name: Integration with Linux Data Science Virtual Machine (DSVM) and Azure Databricks
+    description: Integration with Linux Data Science Virtual Machine (DSVM) and Azure Databricks
+    evidence:
+    - README.md#Main features
+  - name: Compliance with Team Data Science Process (TDSP)
+    description: Compliance with Team Data Science Process (TDSP)
+    evidence:
+    - README.md#Main features
+  technology_stack:
+    languages:
+    - Python
+    - Scala
+    - JavaScript
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - Flask
+    - Flask-Breadcrumbs
+    - Markdown
+    - PyJWT
+    - azure-iothub-device-client
+    - azure-iothub-service-client
+    - azure-storage
+    - numpy
+    - scipy
+    - urllib3
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/WebApp/flask/app.py,
+    src/CustomScripts/setup.sh, src/Infographics/convert_pdf_to_png.sh, src/Infographics/download_and_prepare_images.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Azure/AI-PredictiveMaintenance/blob/master/README.md
+  path: README.md
+  blob_sha: 6f586a9ebe4bf3f3f55c8ce8e56c11fdb559d42f
+  retrieved: true
+- type: manifest
+  path: src/WebApp/requirements.txt
+  blob_sha: f57624136c4b9d6dade75f3296788f6976984977
+  retrieved: true
+- type: manifest
+  path: src/WebApp/shared_modules/setup.py
+  blob_sha: 0121b04dcbb8bdef6b425fe0681df2e2637befe7
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 41937
+    Scala: 18898
+    JavaScript: 1538
+    Shell: 1377
+- type: Git tree
+  status: captured
+  sha: 366e35f4c60828258e1708b7e922b65725a702e0
+  truncated: false
+- type: source_file
+  path: src/WebApp/flask/app.py
+  blob_sha: 76a5f42e193e4453581d31a0daa7df02c8474033
+  retrieved: true
+- type: source_file
+  path: src/CustomScripts/setup.sh
+  blob_sha: 79f7776da1243f7b54c2172014c34595f3a404cb
+  retrieved: true
+- type: source_file
+  path: src/Infographics/convert_pdf_to_png.sh
+  blob_sha: 69a0d58c2aa0f7cd199b2f621b7d83f9ee50e310
+  retrieved: true
+- type: source_file
+  path: src/Infographics/download_and_prepare_images.sh
+  blob_sha: f77bc3445ffde568d88629c7e5918226425767bd
+  retrieved: true

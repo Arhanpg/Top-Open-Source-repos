@@ -1,0 +1,83 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:30:33+00:00'
+evidence_fingerprint: 3dd159470a71bca6321b0849b8f46a0549261ec89a93efa64c312d9e3d992651
+repository_metadata:
+  company: Alphabet (Google)
+  account: google-gemini
+  full_name: google-gemini/gemini-android-computer-use-quickstart
+  repository_id: 1280204353
+  url: https://github.com/google-gemini/gemini-android-computer-use-quickstart
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T13:42:23Z'
+  stars: 82
+  readme_url: https://github.com/google-gemini/gemini-android-computer-use-quickstart/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4123ebafea49f96a8cc178c736ed78dcc6dc0636
+  manifest_paths:
+  - requirements.txt
+  source_files_inspected:
+  - agent.py
+  - setup_emulator.sh
+  repository_tree:
+    status: captured
+    sha: 21ce21aadeea79f27423688d01091485a220909a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains a reference implementation for controlling an Android emulator using the **Gemini
+    4 Hydrogen** Computer Use API (mobile environment) via the Google GenAI SDK.
+  why_used: This repository contains a reference implementation for controlling an Android emulator using the **Gemini
+    4 Hydrogen** Computer Use API (mobile environment) via the Google GenAI SDK.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - google-genai
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: agent.py, setup_emulator.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google-gemini/gemini-android-computer-use-quickstart/blob/main/README.md
+  path: README.md
+  blob_sha: 4123ebafea49f96a8cc178c736ed78dcc6dc0636
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: d234bd935dc73f587192e2acf55c4cb304e30604
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 10442
+    Shell: 4441
+- type: Git tree
+  status: captured
+  sha: 21ce21aadeea79f27423688d01091485a220909a
+  truncated: false
+- type: source_file
+  path: agent.py
+  blob_sha: a13ec372168130824bf6709f4f8b97424cb55ee1
+  retrieved: true
+- type: source_file
+  path: setup_emulator.sh
+  blob_sha: f6e381cc6f66deaeb1b13dba2f7458a54d251e16
+  retrieved: true

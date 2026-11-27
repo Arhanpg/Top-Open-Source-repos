@@ -1,10 +1,10 @@
 # Technical audits — rapidsai
 
-Updated: 2026-11-27T07:24:11+00:00
+Updated: 2026-11-27T22:44:08+00:00
 
 ## Status counts
 
-- evidence_only: 19
+- evidence_only: 23
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -29,5 +29,9 @@ Updated: 2026-11-27T07:24:11+00:00
 | cudatashader-205177993 | evidence_only | [cudatashader-205177993.md](cudatashader-205177993.md) | [cudatashader-205177993.yaml](cudatashader-205177993.yaml) |
 | cudatoolkit-feedstock-383908005 | evidence_only | [cudatoolkit-feedstock-383908005.md](cudatoolkit-feedstock-383908005.md) | [cudatoolkit-feedstock-383908005.yaml](cudatoolkit-feedstock-383908005.yaml) |
 | cudf-alpha-152325502 | evidence_only | [cudf-alpha-152325502.md](cudf-alpha-152325502.md) | [cudf-alpha-152325502.yaml](cudf-alpha-152325502.yaml) |
+| cugraph-157752451 | evidence_only | [cugraph-157752451.md](cugraph-157752451.md) | [cugraph-157752451.yaml](cugraph-157752451.yaml) |
+| cugraph-docs-803335366 | evidence_only | [cugraph-docs-803335366.md](cugraph-docs-803335366.md) | [cugraph-docs-803335366.yaml](cugraph-docs-803335366.yaml) |
+| cugraph-gnn-528468843 | evidence_only | [cugraph-gnn-528468843.md](cugraph-gnn-528468843.md) | [cugraph-gnn-528468843.yaml](cugraph-gnn-528468843.yaml) |
+| cugraph-pg-498392465 | evidence_only | [cugraph-pg-498392465.md](cugraph-pg-498392465.md) | [cugraph-pg-498392465.yaml](cugraph-pg-498392465.yaml) |
 | gaas-483302477 | evidence_only | [gaas-483302477.md](gaas-483302477.md) | [gaas-483302477.yaml](gaas-483302477.yaml) |
 | github-506698882 | insufficient_evidence | [github-506698882.md](github-506698882.md) | [github-506698882.yaml](github-506698882.yaml) |

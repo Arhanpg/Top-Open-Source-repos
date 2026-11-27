@@ -1,0 +1,98 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:26:01+00:00'
+evidence_fingerprint: 43a64663fa5f0be4ef6001e8581794d84b088cad30b573c04be4189ffbac9015
+repository_metadata:
+  company: Amazon
+  account: aws-robotics
+  full_name: aws-robotics/kinesisvideo-encoder-common
+  repository_id: 158597991
+  url: https://github.com/aws-robotics/kinesisvideo-encoder-common
+  description: ROS packages for facilitating the use of AWS cloud services.
+  default_branch: master
+  license_spdx: LGPL-2.1
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-02-08T22:37:18Z'
+  stars: 9
+  readme_url: https://github.com/aws-robotics/kinesisvideo-encoder-common/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 36b6458b39241c92b7d64913f7cc9c9f930d5a68
+  manifest_paths:
+  - h264_encoder_core/CMakeLists.txt
+  source_files_inspected:
+  - h264_encoder_core/src/h264_encoder.cpp
+  - h264_encoder_core/src/h264_encoder_node_config.cpp
+  - h264_encoder_core/include/h264_encoder_core/h264_encoder.h
+  - h264_encoder_core/include/h264_encoder_core/h264_encoder_node_config.h
+  repository_tree:
+    status: captured
+    sha: 9981fd1c7f521a009c965ec3d02ef18211172fb0
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains the h264_encoder_core package, a library for encoding images into video frames.
+    It is used by the h264_video_encoder node.
+  why_used: ROS packages for facilitating the use of AWS cloud services.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: h264_encoder_core/src/h264_encoder.cpp,
+    h264_encoder_core/src/h264_encoder_node_config.cpp, h264_encoder_core/include/h264_encoder_core/h264_encoder.h,
+    h264_encoder_core/include/h264_encoder_core/h264_encoder_node_config.h'
+  setup_and_usage:
+  - 'Installation: **Installing on Raspberry Pi**'
+  - 'Installation: It is recommended that you build this package from source for use on the Raspberry Pi. The ROS2
+    build farm doesn''t have ffmpeg and related encoding libraries that are specific to the Raspberry Pi and required
+    to enable hardware encoding. If installing from apt on RaspberryPi expect to use software encoding which can
+    be very slow with limited comput'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-robotics/kinesisvideo-encoder-common/blob/master/README.md
+  path: README.md
+  blob_sha: 36b6458b39241c92b7d64913f7cc9c9f930d5a68
+  retrieved: true
+- type: manifest
+  path: h264_encoder_core/CMakeLists.txt
+  blob_sha: ce8edec996d515b4cd702ea509e44e8422c4114f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 31828
+    CMake: 2782
+- type: Git tree
+  status: captured
+  sha: 9981fd1c7f521a009c965ec3d02ef18211172fb0
+  truncated: false
+- type: source_file
+  path: h264_encoder_core/src/h264_encoder.cpp
+  blob_sha: 064725241c1e915606a48bcfc27da907fbcd37c5
+  retrieved: true
+- type: source_file
+  path: h264_encoder_core/src/h264_encoder_node_config.cpp
+  blob_sha: ba378ef192af3673f1dc8ef7f39cc0599cf18787
+  retrieved: true
+- type: source_file
+  path: h264_encoder_core/include/h264_encoder_core/h264_encoder.h
+  blob_sha: 26ce4b7297a6f17530205e64615a0c32a1ddee86
+  retrieved: true
+- type: source_file
+  path: h264_encoder_core/include/h264_encoder_core/h264_encoder_node_config.h
+  blob_sha: fc7819ee947fa4d4ee174c4acd5a62b301b63987
+  retrieved: true

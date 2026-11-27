@@ -1,10 +1,10 @@
 # Technical audits — aws-controllers-k8s
 
-Updated: 2026-11-27T07:24:09+00:00
+Updated: 2026-11-27T22:44:07+00:00
 
 ## Status counts
 
-- evidence_only: 22
+- evidence_only: 26
 
 ## Repository dossiers
 
@@ -31,4 +31,8 @@ Updated: 2026-11-27T07:24:09+00:00
 | budgets-controller-1140172332 | evidence_only | [budgets-controller-1140172332.md](budgets-controller-1140172332.md) | [budgets-controller-1140172332.yaml](budgets-controller-1140172332.yaml) |
 | cloudfront-controller-384191577 | evidence_only | [cloudfront-controller-384191577.md](cloudfront-controller-384191577.md) | [cloudfront-controller-384191577.yaml](cloudfront-controller-384191577.yaml) |
 | cloudtrail-controller-481695541 | evidence_only | [cloudtrail-controller-481695541.md](cloudtrail-controller-481695541.md) | [cloudtrail-controller-481695541.yaml](cloudtrail-controller-481695541.yaml) |
+| cloudwatch-controller-670331691 | evidence_only | [cloudwatch-controller-670331691.md](cloudwatch-controller-670331691.md) | [cloudwatch-controller-670331691.yaml](cloudwatch-controller-670331691.yaml) |
+| cloudwatchevents-controller-481699075 | evidence_only | [cloudwatchevents-controller-481699075.md](cloudwatchevents-controller-481699075.md) | [cloudwatchevents-controller-481699075.yaml](cloudwatchevents-controller-481699075.yaml) |
+| cloudwatchlogs-controller-481698749 | evidence_only | [cloudwatchlogs-controller-481698749.md](cloudwatchlogs-controller-481698749.md) | [cloudwatchlogs-controller-481698749.yaml](cloudwatchlogs-controller-481698749.yaml) |
+| code-generator-333423109 | evidence_only | [code-generator-333423109.md](code-generator-333423109.md) | [code-generator-333423109.yaml](code-generator-333423109.yaml) |
 | github-397711626 | evidence_only | [github-397711626.md](github-397711626.md) | [github-397711626.yaml](github-397711626.yaml) |

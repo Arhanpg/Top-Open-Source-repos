@@ -1,10 +1,10 @@
 # Technical audits — corretto
 
-Updated: 2026-11-27T07:24:10+00:00
+Updated: 2026-11-27T22:44:10+00:00
 
 ## Status counts
 
-- evidence_only: 19
+- evidence_only: 23
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -30,4 +30,8 @@ Updated: 2026-11-27T07:24:10+00:00
 | corretto-8-docker-156772930 | evidence_only | [corretto-8-docker-156772930.md](corretto-8-docker-156772930.md) | [corretto-8-docker-156772930.yaml](corretto-8-docker-156772930.yaml) |
 | corretto-docker-264020510 | evidence_only | [corretto-docker-264020510.md](corretto-docker-264020510.md) | [corretto-docker-264020510.yaml](corretto-docker-264020510.yaml) |
 | corretto-downloads-467238788 | evidence_only | [corretto-downloads-467238788.md](corretto-downloads-467238788.md) | [corretto-downloads-467238788.yaml](corretto-downloads-467238788.yaml) |
+| corretto-jdk-288318195 | evidence_only | [corretto-jdk-288318195.md](corretto-jdk-288318195.md) | [corretto-jdk-288318195.yaml](corretto-jdk-288318195.yaml) |
+| corretto-jmc-273309119 | evidence_only | [corretto-jmc-273309119.md](corretto-jmc-273309119.md) | [corretto-jmc-273309119.yaml](corretto-jmc-273309119.yaml) |
 | github-245025824 | insufficient_evidence | [github-245025824.md](github-245025824.md) | [github-245025824.yaml](github-245025824.yaml) |
+| heapothesys-248322535 | evidence_only | [heapothesys-248322535.md](heapothesys-248322535.md) | [heapothesys-248322535.yaml](heapothesys-248322535.yaml) |
+| hotpatch-for-apache-log4j2-437426386 | evidence_only | [hotpatch-for-apache-log4j2-437426386.md](hotpatch-for-apache-log4j2-437426386.md) | [hotpatch-for-apache-log4j2-437426386.yaml](hotpatch-for-apache-log4j2-437426386.yaml) |

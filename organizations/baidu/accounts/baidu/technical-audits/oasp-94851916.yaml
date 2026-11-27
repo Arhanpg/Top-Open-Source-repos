@@ -1,0 +1,107 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:27:21+00:00'
+evidence_fingerprint: 1f032bf0c4cd279403752fc0d23bd0bae36a466beaa27c708097b99ca25c51b1
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/OASP
+  repository_id: 94851916
+  url: https://github.com/baidu/OASP
+  description: OASP (Online App Status Protocol)
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2017-11-29T06:20:37Z'
+  stars: 31
+  readme_url: https://github.com/baidu/OASP/blob/master/README.md
+  readme_path: README.md
+  readme_sha: de4ce45cb8afbdc131565c7d1330f4f0e4918ea2
+  manifest_paths:
+  - client/build.gradle
+  - client/app/build.gradle
+  - client/oasp/build.gradle
+  source_files_inspected:
+  - server/server.py
+  - client/app/src/main/java/com/yulong/oaspclient/ListAdapter.java
+  - client/app/src/main/java/com/yulong/oaspclient/MainActivity.java
+  - client/oasp/src/main/java/com/baidu/oasp/OASPStatus.java
+  repository_tree:
+    status: captured
+    sha: 22dcec2862eda7885d69f8c5af46e7e9ca39cf10
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: App signature is the foundation of the Android ecosystem. App developers must never lose the signing
+    certificate/key and keep them secretly. However, we can always see misuses/abuses/leakages of the signing certs.
+    Therefore, a new signing scheme is needed to allow developers to migrate to new signing certs, or at least allow
+    them to "tag" apps signed by lost certificates.
+  why_used: OASP (Online App Status Protocol)
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle build file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: server/server.py,
+    client/app/src/main/java/com/yulong/oaspclient/ListAdapter.java, client/app/src/main/java/com/yulong/oaspclient/MainActivity.java,
+    client/oasp/src/main/java/com/baidu/oasp/OASPStatus.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/OASP/blob/master/README.md
+  path: README.md
+  blob_sha: de4ce45cb8afbdc131565c7d1330f4f0e4918ea2
+  retrieved: true
+- type: manifest
+  path: client/build.gradle
+  blob_sha: e6b32bc7884bb98a5024981d37fec787514b56c8
+  retrieved: true
+- type: manifest
+  path: client/app/build.gradle
+  blob_sha: 368b82f99151705ab7da2b2964f9de749823f1f2
+  retrieved: true
+- type: manifest
+  path: client/oasp/build.gradle
+  blob_sha: 81e1286ac3bd6ba86dfd959f95c6dd74bb5a0543
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 24118
+    Python: 4351
+    Shell: 3894
+- type: Git tree
+  status: captured
+  sha: 22dcec2862eda7885d69f8c5af46e7e9ca39cf10
+  truncated: false
+- type: source_file
+  path: server/server.py
+  blob_sha: bcceae370e3d04d6c215cdef83672ea583a860c0
+  retrieved: true
+- type: source_file
+  path: client/app/src/main/java/com/yulong/oaspclient/ListAdapter.java
+  blob_sha: 911845183bf3f0e179316342343624ac1783ad94
+  retrieved: true
+- type: source_file
+  path: client/app/src/main/java/com/yulong/oaspclient/MainActivity.java
+  blob_sha: ecf2b81a1fd583ea4242b5b1b9bd2f033d6e3bf8
+  retrieved: true
+- type: source_file
+  path: client/oasp/src/main/java/com/baidu/oasp/OASPStatus.java
+  blob_sha: 07a13a93d2ac9962d3cdcdb91e4e104c7d7fec8b
+  retrieved: true

@@ -1,10 +1,10 @@
 # Technical audits — swiftlang
 
-Updated: 2026-11-27T07:24:05+00:00
+Updated: 2026-11-27T22:44:02+00:00
 
 ## Status counts
 
-- evidence_only: 20
+- evidence_only: 24
 
 ## Repository dossiers
 
@@ -30,3 +30,7 @@ Updated: 2026-11-27T07:24:05+00:00
 | swift-binding-generator-core-1431665401 | evidence_only | [swift-binding-generator-core-1431665401.md](swift-binding-generator-core-1431665401.md) | [swift-binding-generator-core-1431665401.yaml](swift-binding-generator-core-1431665401.yaml) |
 | swift-book-520680969 | evidence_only | [swift-book-520680969.md](swift-book-520680969.md) | [swift-book-520680969.yaml](swift-book-520680969.yaml) |
 | swift-build-923737552 | evidence_only | [swift-build-923737552.md](swift-build-923737552.md) | [swift-build-923737552.yaml](swift-build-923737552.yaml) |
+| swift-cmake-examples-648494460 | evidence_only | [swift-cmake-examples-648494460.md](swift-cmake-examples-648494460.md) | [swift-cmake-examples-648494460.yaml](swift-cmake-examples-648494460.yaml) |
+| swift-cmark-47902653 | evidence_only | [swift-cmark-47902653.md](swift-cmark-47902653.md) | [swift-cmark-47902653.yaml](swift-cmark-47902653.yaml) |
+| swift-community-hosted-continuous-integration-111026478 | evidence_only | [swift-community-hosted-continuous-integration-111026478.md](swift-community-hosted-continuous-integration-111026478.md) | [swift-community-hosted-continuous-integration-111026478.yaml](swift-community-hosted-continuous-integration-111026478.yaml) |
+| swift-corelibs-blocksruntime-1041197806 | evidence_only | [swift-corelibs-blocksruntime-1041197806.md](swift-corelibs-blocksruntime-1041197806.md) | [swift-corelibs-blocksruntime-1041197806.yaml](swift-corelibs-blocksruntime-1041197806.yaml) |

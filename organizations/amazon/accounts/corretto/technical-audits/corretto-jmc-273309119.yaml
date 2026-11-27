@@ -1,0 +1,258 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:26:50+00:00'
+evidence_fingerprint: 60bde93a6b0580344775f0bff9be3667c1c47caf9890a2740817c58ee4a9b5a9
+repository_metadata:
+  company: Amazon
+  account: corretto
+  full_name: corretto/corretto-jmc
+  repository_id: 273309119
+  url: https://github.com/corretto/corretto-jmc
+  description: A build of JDK Mission Control (JMC) by the Corretto team.
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2021-11-11T00:35:18Z'
+  stars: 34
+  readme_url: https://github.com/corretto/corretto-jmc/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 209951148c2f9025a9b71bf6548c1648fc5d8f4f
+  manifest_paths:
+  - src/pom.xml
+  - src/agent/pom.xml
+  - src/application/pom.xml
+  - src/core/pom.xml
+  - src/releng/pom.xml
+  - src/application/coverage/pom.xml
+  source_files_inspected:
+  - src/application/org.openjdk.jmc.joverflow/src/main/java/org/openjdk/jmc/joverflow/Main.java
+  - src/application/org.openjdk.jmc.rcp.application/src/main/java/org/openjdk/jmc/rcp/application/Application.java
+  - src/agent/src/main/java/org/openjdk/jmc/agent/Agent.java
+  - src/agent/src/main/java/org/openjdk/jmc/agent/Attribute.java
+  repository_tree:
+    status: captured
+    sha: 453918435fd01a6a32633875725789356f8399c7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '*JMC for Corretto* is a build of JDK Mission Control (JMC) by the Corretto team. It tracks the latest
+    stable JMC release with extra patches to support the usage of the JDK Flight Recorder feature in Corretto releases
+    including:'
+  why_used: A build of JDK Mission Control (JMC) by the Corretto team.
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - HTML
+    - XSLT
+    - Shell
+    - JavaScript
+    - Batchfile
+    - CSS
+    frameworks_and_libraries: []
+    dependencies:
+    - agent
+    - asm
+    - asm-commons
+    - asm-util
+    - build-helper-maven-plugin
+    - buildnumber-maven-plugin
+    - common
+    - common.test
+    - coverage
+    - directory-maven-plugin
+    - flatten-maven-plugin
+    - flightrecorder
+    - flightrecorder.rules
+    - flightrecorder.rules.jdk
+    - flightrecorder.serializers
+    - flightrecorder.test
+    - jacoco-maven-plugin
+    - jdp
+    - junit
+    - maven-bundle-plugin
+    - maven-deploy-plugin
+    - maven-enforcer-plugin
+    - maven-failsafe-plugin
+    - maven-gpg-plugin
+    - maven-jar-plugin
+    - maven-javadoc-plugin
+    - maven-resources-plugin
+    - maven-shade-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - missioncontrol
+    - missioncontrol.application
+    - missioncontrol.core
+    - missioncontrol.releng
+    - nexus-staging-maven-plugin
+    - org.openjdk.jmc.alert
+    - org.openjdk.jmc.attach
+    - org.openjdk.jmc.browser
+    - org.openjdk.jmc.browser.attach
+    - org.openjdk.jmc.browser.jdp
+    - org.openjdk.jmc.browser.uitest
+    - org.openjdk.jmc.commands
+    - org.openjdk.jmc.console.jconsole
+    - org.openjdk.jmc.console.jconsole.uitest
+    - org.openjdk.jmc.console.pde
+    - org.openjdk.jmc.console.persistence
+    - org.openjdk.jmc.console.persistence.uitest
+    - org.openjdk.jmc.console.twitter
+    - org.openjdk.jmc.console.ui
+    - org.openjdk.jmc.console.ui.diagnostic
+    - org.openjdk.jmc.console.ui.mbeanbrowser
+    - org.openjdk.jmc.console.ui.notification
+    - org.openjdk.jmc.console.ui.subscriptions
+    - org.openjdk.jmc.console.uitest
+    - org.openjdk.jmc.docs
+    - org.openjdk.jmc.feature.console
+    - org.openjdk.jmc.feature.console.ui.subscriptions
+    - org.openjdk.jmc.feature.core
+    - org.openjdk.jmc.feature.flightrecorder
+    - org.openjdk.jmc.feature.flightrecorder.ext.g1
+    - org.openjdk.jmc.feature.flightrecorder.ext.jfx
+    - org.openjdk.jmc.feature.flightrecorder.metadata
+    - org.openjdk.jmc.feature.ide
+    - org.openjdk.jmc.feature.ide.launch
+    - org.openjdk.jmc.feature.jconsole
+    - org.openjdk.jmc.feature.joverflow
+    - org.openjdk.jmc.feature.license
+    - org.openjdk.jmc.feature.pde
+    - org.openjdk.jmc.feature.rcp
+    - org.openjdk.jmc.feature.rcp.update
+    - org.openjdk.jmc.feature.twitter
+    - org.openjdk.jmc.flightrecorder.configuration
+    - org.openjdk.jmc.flightrecorder.configuration.test
+    - org.openjdk.jmc.flightrecorder.controlpanel.ui
+    - org.openjdk.jmc.flightrecorder.controlpanel.ui.configuration
+    - org.openjdk.jmc.flightrecorder.controlpanel.ui.configuration.test
+    - org.openjdk.jmc.flightrecorder.controlpanel.ui.test
+    - org.openjdk.jmc.flightrecorder.ext.g1
+    - org.openjdk.jmc.flightrecorder.ext.jfx
+    - org.openjdk.jmc.flightrecorder.ext.jfx.test
+    - org.openjdk.jmc.flightrecorder.metadata
+    - org.openjdk.jmc.flightrecorder.pde
+    - org.openjdk.jmc.flightrecorder.rules.extensionprovider
+    - org.openjdk.jmc.flightrecorder.ui
+    - org.openjdk.jmc.flightrecorder.ui.test
+    - org.openjdk.jmc.flightrecorder.uitest
+    - org.openjdk.jmc.greychart
+    - org.openjdk.jmc.greychart.test
+    - org.openjdk.jmc.greychart.ui
+    - org.openjdk.jmc.ide.jdt
+    - org.openjdk.jmc.ide.launch
+    - org.openjdk.jmc.ide.launch.test
+    - org.openjdk.jmc.ide.ui
+    - org.openjdk.jmc.joverflow
+    - org.openjdk.jmc.joverflow.test
+    - org.openjdk.jmc.joverflow.ui
+    - org.openjdk.jmc.osgi.extension
+    - org.openjdk.jmc.pde
+    - org.openjdk.jmc.rcp.application
+    - org.openjdk.jmc.rcp.application.uitest
+    - org.openjdk.jmc.rcp.intro
+    - org.openjdk.jmc.rcp.product
+    - org.openjdk.jmc.rcp.product.feature
+    - org.openjdk.jmc.rjmx
+    - org.openjdk.jmc.rjmx.ext
+    - org.openjdk.jmc.rjmx.services.jfr
+    - org.openjdk.jmc.rjmx.services.jfr.test
+    - org.openjdk.jmc.rjmx.test
+    - org.openjdk.jmc.rjmx.ui
+    - org.openjdk.jmc.test.jemmy
+    - org.openjdk.jmc.ui
+    - org.openjdk.jmc.ui.common
+    - org.openjdk.jmc.ui.common.test
+    - org.openjdk.jmc.ui.test
+    - org.openjdk.jmc.updatesite.ide
+    - org.openjdk.jmc.updatesite.rcp
+    - platform-definition-2020-03
+    - platform-definition-2020-06
+    - platform-definition-2020-09
+    - platform-definition-2020-12
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/application/org.openjdk.jmc.joverflow/src/main/java/org/openjdk/jmc/joverflow/Main.java,
+    src/application/org.openjdk.jmc.rcp.application/src/main/java/org/openjdk/jmc/rcp/application/Application.java,
+    src/agent/src/main/java/org/openjdk/jmc/agent/Agent.java, src/agent/src/main/java/org/openjdk/jmc/agent/Attribute.java'
+  setup_and_usage: []
+  limitations:
+  - 'Supported platforms: JMC for Corretto is supported on the following platforms:'
+  - 'Supported platforms: * Linux (w/ GTK+ 3), x64'
+  - 'Supported platforms: * macOS 10.10 or later, x64'
+  - 'Supported platforms: * Windows 7 or later, x64'
+  - 'Supported platforms: Please note that JMC is a client GUI tool for diagnosing and profiling JVM. It has the
+    ability to connect to a remote-running Java process with JMX remote enabled and continuously monitor the JVM
+    performance. It can also analyze the JFR profiling data generated by a different JVM on a distinct platform.
+    Therefore, you can still leverage JMC feature'
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/corretto/corretto-jmc/blob/master/README.md
+  path: README.md
+  blob_sha: 209951148c2f9025a9b71bf6548c1648fc5d8f4f
+  retrieved: true
+- type: manifest
+  path: src/pom.xml
+  blob_sha: 7c83b49e95a8a1349937c740336e929f8afa8971
+  retrieved: true
+- type: manifest
+  path: src/agent/pom.xml
+  blob_sha: 373e28c9ed38b342cd0b5b9e0f1fe235f44ea868
+  retrieved: true
+- type: manifest
+  path: src/application/pom.xml
+  blob_sha: a0c754c762f1bb260e023df44c1fe549428c8ec1
+  retrieved: true
+- type: manifest
+  path: src/core/pom.xml
+  blob_sha: 4e3bde2e4fe29aef3ef2e2d179110edce6eb4059
+  retrieved: true
+- type: manifest
+  path: src/releng/pom.xml
+  blob_sha: 88989fd86bb123eb5b33cdabf440ccb307e389f1
+  retrieved: true
+- type: manifest
+  path: src/application/coverage/pom.xml
+  blob_sha: dab1fc71eafbc287add70f7f68208d916541fc55
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 14092596
+    HTML: 2204136
+    XSLT: 22161
+    Shell: 21299
+    JavaScript: 7919
+    Batchfile: 7669
+    CSS: 6365
+- type: Git tree
+  status: captured
+  sha: 453918435fd01a6a32633875725789356f8399c7
+  truncated: false
+- type: source_file
+  path: src/application/org.openjdk.jmc.joverflow/src/main/java/org/openjdk/jmc/joverflow/Main.java
+  blob_sha: 00e5c0526ef635816edced95c3028852ea1a05f9
+  retrieved: true
+- type: source_file
+  path: src/application/org.openjdk.jmc.rcp.application/src/main/java/org/openjdk/jmc/rcp/application/Application.java
+  blob_sha: 9a84f992266c605192a46f3944a970102555ed2f
+  retrieved: true
+- type: source_file
+  path: src/agent/src/main/java/org/openjdk/jmc/agent/Agent.java
+  blob_sha: 79d48a8340c1f5a0c9af4f7bc787cbb96982134d
+  retrieved: true
+- type: source_file
+  path: src/agent/src/main/java/org/openjdk/jmc/agent/Attribute.java
+  blob_sha: dd7ce131f0bdbb7e9b3102bdc565bdf3ef0f9899
+  retrieved: true

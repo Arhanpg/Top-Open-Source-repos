@@ -1,10 +1,10 @@
 # Technical audits — aws-amplify
 
-Updated: 2026-11-27T07:24:08+00:00
+Updated: 2026-11-27T22:44:08+00:00
 
 ## Status counts
 
-- evidence_only: 22
+- evidence_only: 26
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -33,4 +33,8 @@ Updated: 2026-11-27T07:24:08+00:00
 | amplify-swift-utils-notifications-563527981 | evidence_only | [amplify-swift-utils-notifications-563527981.md](amplify-swift-utils-notifications-563527981.md) | [amplify-swift-utils-notifications-563527981.yaml](amplify-swift-utils-notifications-563527981.yaml) |
 | amplify-ui-351548334 | evidence_only | [amplify-ui-351548334.md](amplify-ui-351548334.md) | [amplify-ui-351548334.yaml](amplify-ui-351548334.yaml) |
 | amplify-ui-android-490439616 | evidence_only | [amplify-ui-android-490439616.md](amplify-ui-android-490439616.md) | [amplify-ui-android-490439616.yaml](amplify-ui-android-490439616.yaml) |
+| amplify-ui-swift-authenticator-626620651 | evidence_only | [amplify-ui-swift-authenticator-626620651.md](amplify-ui-swift-authenticator-626620651.md) | [amplify-ui-swift-authenticator-626620651.yaml](amplify-ui-swift-authenticator-626620651.yaml) |
+| amplify-ui-swift-liveness-490432440 | evidence_only | [amplify-ui-swift-liveness-490432440.md](amplify-ui-swift-liveness-490432440.md) | [amplify-ui-swift-liveness-490432440.yaml](amplify-ui-swift-liveness-490432440.yaml) |
+| aws-amplify-github-io-140887504 | evidence_only | [aws-amplify-github-io-140887504.md](aws-amplify-github-io-140887504.md) | [aws-amplify-github-io-140887504.yaml](aws-amplify-github-io-140887504.yaml) |
+| aws-appsync-apollo-extensions-swift-844638888 | evidence_only | [aws-appsync-apollo-extensions-swift-844638888.md](aws-appsync-apollo-extensions-swift-844638888.md) | [aws-appsync-apollo-extensions-swift-844638888.yaml](aws-appsync-apollo-extensions-swift-844638888.yaml) |
 | github-171341614 | insufficient_evidence | [github-171341614.md](github-171341614.md) | [github-171341614.yaml](github-171341614.yaml) |

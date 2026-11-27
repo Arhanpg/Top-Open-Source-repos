@@ -1,0 +1,123 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:30:19+00:00'
+evidence_fingerprint: fa3de9d026b906b912fb1d33d19380c3c27c4ac64064966f7d00fd617b7d1eeb
+repository_metadata:
+  company: Tencent
+  account: Tencent
+  full_name: Tencent/CMONGO
+  repository_id: 137185014
+  url: https://github.com/Tencent/CMONGO
+  description: MongoDB for Tencent Cloud
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2019-09-19T03:57:49Z'
+  stars: 126
+  readme_url: https://github.com/Tencent/CMONGO/blob/master/README
+  readme_path: README
+  readme_sha: 6b38e117e3f5b46a0cb8a24b4dcbf7e1593528fe
+  manifest_paths:
+  - src/third_party/libstemmer_c/Makefile
+  - src/third_party/s2/Makefile
+  - src/third_party/IntelRDFPMathLib20U1/LIBRARY/makefile
+  - src/third_party/IntelRDFPMathLib20U1/TESTS/makefile
+  - src/third_party/wiredtiger/lang/python/setup.py
+  - src/third_party/wiredtiger/src/docs/Makefile
+  source_files_inspected:
+  - buildscripts/resmokelib/core/__init__.py
+  - buildscripts/resmokelib/core/network.py
+  - buildscripts/resmokelib/core/pipe.py
+  - buildscripts/resmokelib/core/process.py
+  repository_tree:
+    status: captured
+    sha: 0631db6635730e4e10d932ff66fd7739253873a1
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: CMONGO README
+  why_used: MongoDB for Tencent Cloud
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - JavaScript
+    - Python
+    - C
+    - Shell
+    - HTML
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: buildscripts/resmokelib/core/__init__.py,
+    buildscripts/resmokelib/core/network.py, buildscripts/resmokelib/core/pipe.py, buildscripts/resmokelib/core/process.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Tencent/CMONGO/blob/master/README
+  path: README
+  blob_sha: 6b38e117e3f5b46a0cb8a24b4dcbf7e1593528fe
+  retrieved: true
+- type: manifest
+  path: src/third_party/libstemmer_c/Makefile
+  blob_sha: 64d6c8ea596671ddcb61c3246c32036ec354c7f0
+  retrieved: true
+- type: manifest
+  path: src/third_party/s2/Makefile
+  blob_sha: cbc4fed9873a0634cfcfdb128d72fe3b2913deb8
+  retrieved: true
+- type: manifest
+  path: src/third_party/IntelRDFPMathLib20U1/LIBRARY/makefile
+  blob_sha: ffaa2cf04b036e50a81e7ecc4a713e896e1e3019
+  retrieved: true
+- type: manifest
+  path: src/third_party/IntelRDFPMathLib20U1/TESTS/makefile
+  blob_sha: 34fb64d788570f6ab7a2f736b6aae648ff2b5575
+  retrieved: true
+- type: manifest
+  path: src/third_party/wiredtiger/lang/python/setup.py
+  blob_sha: cf5b0c5cab1f9b9f6d416578c5b8e1520b31fb87
+  retrieved: true
+- type: manifest
+  path: src/third_party/wiredtiger/src/docs/Makefile
+  blob_sha: 71173523a0a3f528d74e667492a81ce2b8ab37fe
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 24678972
+    JavaScript: 5123828
+    Python: 856251
+    C: 161957
+    Shell: 16526
+    HTML: 392
+- type: Git tree
+  status: captured
+  sha: 0631db6635730e4e10d932ff66fd7739253873a1
+  truncated: false
+- type: source_file
+  path: buildscripts/resmokelib/core/__init__.py
+  blob_sha: 29a19a525009cb6cd670336522a340986bbadcca
+  retrieved: true
+- type: source_file
+  path: buildscripts/resmokelib/core/network.py
+  blob_sha: 44e54667a67f9a31f81007ab11e6d08227660972
+  retrieved: true
+- type: source_file
+  path: buildscripts/resmokelib/core/pipe.py
+  blob_sha: bb080721b2dbd9783a889141d161ddac114d3d95
+  retrieved: true
+- type: source_file
+  path: buildscripts/resmokelib/core/process.py
+  blob_sha: b8efa8af25a463585229d3d3bb3d50eb392c7d46
+  retrieved: true

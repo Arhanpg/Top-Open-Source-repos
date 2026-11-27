@@ -1,10 +1,10 @@
 # Technical audits — triton-inference-server
 
-Updated: 2026-11-27T07:24:08+00:00
+Updated: 2026-11-27T22:44:07+00:00
 
 ## Status counts
 
-- evidence_only: 20
+- evidence_only: 24
 
 ## Repository dossiers
 
@@ -29,4 +29,8 @@ Updated: 2026-11-27T07:24:08+00:00
 | onnxruntime-backend-290372011 | evidence_only | [onnxruntime-backend-290372011.md](onnxruntime-backend-290372011.md) | [onnxruntime-backend-290372011.yaml](onnxruntime-backend-290372011.yaml) |
 | openvino-backend-336391126 | evidence_only | [openvino-backend-336391126.md](openvino-backend-336391126.md) | [openvino-backend-336391126.yaml](openvino-backend-336391126.yaml) |
 | paddlepaddle-backend-376158404 | evidence_only | [paddlepaddle-backend-376158404.md](paddlepaddle-backend-376158404.md) | [paddlepaddle-backend-376158404.yaml](paddlepaddle-backend-376158404.yaml) |
+| perf-analyzer-539716607 | evidence_only | [perf-analyzer-539716607.md](perf-analyzer-539716607.md) | [perf-analyzer-539716607.yaml](perf-analyzer-539716607.yaml) |
+| python-backend-291857462 | evidence_only | [python-backend-291857462.md](python-backend-291857462.md) | [python-backend-291857462.yaml](python-backend-291857462.yaml) |
+| pytorch-backend-300743679 | evidence_only | [pytorch-backend-300743679.md](pytorch-backend-300743679.md) | [pytorch-backend-300743679.yaml](pytorch-backend-300743679.yaml) |
+| pytriton-563462295 | evidence_only | [pytriton-563462295.md](pytriton-563462295.md) | [pytriton-563462295.yaml](pytriton-563462295.yaml) |
 | tensorrt-llm-1130520542 | evidence_only | [tensorrt-llm-1130520542.md](tensorrt-llm-1130520542.md) | [tensorrt-llm-1130520542.yaml](tensorrt-llm-1130520542.yaml) |

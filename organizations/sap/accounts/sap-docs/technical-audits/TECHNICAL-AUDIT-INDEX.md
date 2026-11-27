@@ -1,10 +1,10 @@
 # Technical audits — sap-docs
 
-Updated: 2026-11-27T07:24:07+00:00
+Updated: 2026-11-27T22:44:02+00:00
 
 ## Status counts
 
-- evidence_only: 19
+- evidence_only: 23
 
 ## Repository dossiers
 
@@ -28,4 +28,8 @@ Updated: 2026-11-27T07:24:07+00:00
 | btp-custom-domain-service-524040471 | evidence_only | [btp-custom-domain-service-524040471.md](btp-custom-domain-service-524040471.md) | [btp-custom-domain-service-524040471.yaml](btp-custom-domain-service-524040471.yaml) |
 | btp-developer-guide-697772961 | evidence_only | [btp-developer-guide-697772961.md](btp-developer-guide-697772961.md) | [btp-developer-guide-697772961.yaml](btp-developer-guide-697772961.yaml) |
 | btp-fiori-tools-696311699 | evidence_only | [btp-fiori-tools-696311699.md](btp-fiori-tools-696311699.md) | [btp-fiori-tools-696311699.yaml](btp-fiori-tools-696311699.yaml) |
+| btp-integration-suite-542987264 | evidence_only | [btp-integration-suite-542987264.md](btp-integration-suite-542987264.md) | [btp-integration-suite-542987264.yaml](btp-integration-suite-542987264.yaml) |
+| btp-job-scheduling-service-523351965 | evidence_only | [btp-job-scheduling-service-523351965.md](btp-job-scheduling-service-523351965.md) | [btp-job-scheduling-service-523351965.yaml](btp-job-scheduling-service-523351965.yaml) |
+| btp-master-data-integration-715076168 | evidence_only | [btp-master-data-integration-715076168.md](btp-master-data-integration-715076168.md) | [btp-master-data-integration-715076168.yaml](btp-master-data-integration-715076168.yaml) |
+| btp-neo-environment-528042153 | evidence_only | [btp-neo-environment-528042153.md](btp-neo-environment-528042153.md) | [btp-neo-environment-528042153.yaml](btp-neo-environment-528042153.yaml) |
 | github-362398258 | evidence_only | [github-362398258.md](github-362398258.md) | [github-362398258.yaml](github-362398258.yaml) |

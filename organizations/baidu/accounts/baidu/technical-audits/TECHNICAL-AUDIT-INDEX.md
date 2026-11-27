@@ -1,10 +1,10 @@
 # Technical audits — baidu
 
-Updated: 2026-11-27T07:24:07+00:00
+Updated: 2026-11-27T22:44:06+00:00
 
 ## Status counts
 
-- evidence_only: 20
+- evidence_only: 24
 
 ## Repository dossiers
 
@@ -30,3 +30,7 @@ Updated: 2026-11-27T07:24:07+00:00
 | ice-ba-125794263 | evidence_only | [ice-ba-125794263.md](ice-ba-125794263.md) | [ice-ba-125794263.yaml](ice-ba-125794263.yaml) |
 | itest-14324719 | evidence_only | [itest-14324719.md](itest-14324719.md) | [itest-14324719.yaml](itest-14324719.yaml) |
 | jprotobuf-rpc-socket-26525663 | evidence_only | [jprotobuf-rpc-socket-26525663.md](jprotobuf-rpc-socket-26525663.md) | [jprotobuf-rpc-socket-26525663.yaml](jprotobuf-rpc-socket-26525663.yaml) |
+| noahv-174317828 | evidence_only | [noahv-174317828.md](noahv-174317828.md) | [noahv-174317828.yaml](noahv-174317828.yaml) |
+| oasp-94851916 | evidence_only | [oasp-94851916.md](oasp-94851916.md) | [oasp-94851916.yaml](oasp-94851916.yaml) |
+| qcompute-293708494 | evidence_only | [qcompute-293708494.md](qcompute-293708494.md) | [qcompute-293708494.yaml](qcompute-293708494.yaml) |
+| qcomputesdk-ts-589421371 | evidence_only | [qcomputesdk-ts-589421371.md](qcomputesdk-ts-589421371.md) | [qcomputesdk-ts-589421371.yaml](qcomputesdk-ts-589421371.yaml) |

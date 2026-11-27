@@ -1,0 +1,109 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:40:09+00:00'
+evidence_fingerprint: c8020d4f1d840ab3fa414eaec9e140e10ba1454a8442ad0c0b1ea7fc2ae561d5
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/QComputeSDK-TS
+  repository_id: 589421371
+  url: https://github.com/baidu/QComputeSDK-TS
+  description: 'QComputeSDK-TypeScript is the TypeScript version of QCompute, the quantum development kit of Quantum
+    Leaf ( https://quantum-hub.baidu.com ). '
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-01-18T05:40:21Z'
+  stars: 4
+  readme_url: https://github.com/baidu/QComputeSDK-TS/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 1821bde9605e3c9a4abc5e65b3d89b3f34361ca9
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - Example/Level_1/ChainCall.ts
+  - Example/Level_1/GHZ_Cloud.ts
+  - Example/Level_1/HCNOT_Cloud.ts
+  - Example/Level_1/Hybrid_Cloud.ts
+  repository_tree:
+    status: captured
+    sha: d89d9d789398d2efc35cffc096de4748e0321fa4
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'QComputeSDK-TypeScript is the TypeScript version of QCompute, the quantum development kit of Quantum
+    Leaf. QComputeSDK-TypeScript can be used to design quantum experiments: build quantum circuits, manipulate quantum
+    modules, and run quantum computing tasks on Quantum Leaf ( ). The user, via QComputeSDK-TypeScript, can use
+    all quantum-ends on the cloud, including QPUs and cloud simulators.'
+  why_used: QComputeSDK-TypeScript is the TypeScript version of QCompute, the quantum development kit of Quantum
+    Leaf ( https://quantum-hub.baidu.com ).
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - TypeScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@baiducloud/sdk'
+    - '@types/clone'
+    - '@types/node'
+    - '@types/tmp'
+    - axios
+    - axios-retry
+    - clone
+    - mathjs
+    - nanoid
+    - protobufjs
+    - sleep-promise
+    - tmp
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Example/Level_1/ChainCall.ts,
+    Example/Level_1/GHZ_Cloud.ts, Example/Level_1/HCNOT_Cloud.ts, Example/Level_1/Hybrid_Cloud.ts'
+  setup_and_usage: []
+  limitations:
+  - 'Platform Requirements: The source code can run on any platform that supports Node.js.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/QComputeSDK-TS/blob/master/README.md
+  path: README.md
+  blob_sha: 1821bde9605e3c9a4abc5e65b3d89b3f34361ca9
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 692415e3bc69882d387f559ef3988f8f176ac90c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 163726
+    TypeScript: 144452
+- type: Git tree
+  status: captured
+  sha: d89d9d789398d2efc35cffc096de4748e0321fa4
+  truncated: false
+- type: source_file
+  path: Example/Level_1/ChainCall.ts
+  blob_sha: f8049dd56af3fa03177037a642ef4316d446fb4b
+  retrieved: true
+- type: source_file
+  path: Example/Level_1/GHZ_Cloud.ts
+  blob_sha: 9ad769e46fa384a5a331cfc9e22b87cc72102b1d
+  retrieved: true
+- type: source_file
+  path: Example/Level_1/HCNOT_Cloud.ts
+  blob_sha: 9a3ad23de0792df65c99be6c1132fe6198e9fc88
+  retrieved: true
+- type: source_file
+  path: Example/Level_1/Hybrid_Cloud.ts
+  blob_sha: 4cf809d90b186c4f86277f5d9dcc2f01471c0da3
+  retrieved: true

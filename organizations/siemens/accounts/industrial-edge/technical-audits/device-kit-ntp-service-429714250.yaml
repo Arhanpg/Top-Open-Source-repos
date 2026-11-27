@@ -1,0 +1,111 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:42:41+00:00'
+evidence_fingerprint: b033619124ac57712b4d26c22a72490f61b0e466048b39ce6d25a23bc101ef4d
+repository_metadata:
+  company: Siemens
+  account: industrial-edge
+  full_name: industrial-edge/device-kit-ntp-service
+  repository_id: 429714250
+  url: https://github.com/industrial-edge/device-kit-ntp-service
+  description: IE Device Kit API reference implementation for ntp service
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-05T06:50:53Z'
+  stars: 3
+  readme_url: https://github.com/industrial-edge/device-kit-ntp-service/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b63f7d118fd1b50141db98b9cd63d9d7eed4e5f9
+  manifest_paths:
+  - go.mod
+  - build/package/Makefile
+  source_files_inspected:
+  - cmd/ntpservice/main.go
+  - app/ntpservice.go
+  - app/ntpservice_test.go
+  - api/siemens_iedge_dmapi_v1/Ntp.pb.go
+  repository_tree:
+    status: captured
+    sha: afe9479e2261fbcad62b9f33e11fe5b548b78c27
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The IE Device Kit API provides the abstraction layer that decouples the Industrial Edge Runtime from
+    the underlying Linux systems. This allows to adapt the runtime and its behavior to serve for the specific needs
+    of different Industrial Edge products.
+  why_used: IE Device Kit API reference implementation for ntp service
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Makefile
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/davecgh/go-spew
+    - github.com/pmezard/go-difflib
+    - github.com/stretchr/objx
+    - github.com/stretchr/testify
+    - golang.org/x/net
+    - golang.org/x/sys
+    - golang.org/x/text
+    - google.golang.org/genproto/googleapis/rpc
+    - google.golang.org/grpc
+    - google.golang.org/protobuf
+    - gopkg.in/yaml.v3
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/ntpservice/main.go,
+    app/ntpservice.go, app/ntpservice_test.go, api/siemens_iedge_dmapi_v1/Ntp.pb.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/industrial-edge/device-kit-ntp-service/blob/main/README.md
+  path: README.md
+  blob_sha: b63f7d118fd1b50141db98b9cd63d9d7eed4e5f9
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 368d7a54daeae4a813dafb4d8ce9670c19540ab9
+  retrieved: true
+- type: manifest
+  path: build/package/Makefile
+  blob_sha: 10cf203852ec7643cdcc52c08994174ee7e59866
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 64194
+    Makefile: 3401
+    Shell: 1816
+- type: Git tree
+  status: captured
+  sha: afe9479e2261fbcad62b9f33e11fe5b548b78c27
+  truncated: false
+- type: source_file
+  path: cmd/ntpservice/main.go
+  blob_sha: 9cc5ac38d66bda69f596fd9ca141dc6736bde9de
+  retrieved: true
+- type: source_file
+  path: app/ntpservice.go
+  blob_sha: 309059746794d68d1f4a873191a29eb09de4b1ac
+  retrieved: true
+- type: source_file
+  path: app/ntpservice_test.go
+  blob_sha: 3913dfb4ad4b71f9ca528559491eb5f7916052a0
+  retrieved: true
+- type: source_file
+  path: api/siemens_iedge_dmapi_v1/Ntp.pb.go
+  blob_sha: 00b5f3e8ffc145559294f8a21a85156fe3f4409f
+  retrieved: true

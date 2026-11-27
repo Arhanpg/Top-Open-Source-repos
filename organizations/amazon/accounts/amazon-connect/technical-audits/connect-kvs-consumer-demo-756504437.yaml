@@ -1,0 +1,107 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:43:45+00:00'
+evidence_fingerprint: 50cb33364504f0024f9a7926494c9a58ded005eda85f88ae90986b31acd2c4e3
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/connect-kvs-consumer-demo
+  repository_id: 756504437
+  url: https://github.com/amazon-connect/connect-kvs-consumer-demo
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-09-15T17:34:04Z'
+  stars: 3
+  readme_url: https://github.com/amazon-connect/connect-kvs-consumer-demo/blob/main/README.md
+  readme_path: README.md
+  readme_sha: acd5ec3cb3bcc2b891fe9b6605b28770ce14fa90
+  manifest_paths:
+  - pom.xml
+  source_files_inspected:
+  - src/main/java/software/aws/connect/LMSCompositeMkvElementVisitor.java
+  - src/main/java/software/aws/connect/LMSDataVisitor.java
+  - src/main/java/software/aws/connect/LMSDemo.java
+  - src/main/java/software/aws/connect/LMSExample.java
+  repository_tree:
+    status: captured
+    sha: dd1994a5a3fb5707f270f51a5c430c5fc96d0b45
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Amazon Connect KVS Consumer Demo provides an example of how to process audio data published to a
+    Kinesis Video Stream by Amazon Connect.
+  why_used: The Amazon Connect KVS Consumer Demo provides an example of how to process audio data published to a
+    Kinesis Video Stream by Amazon Connect.
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    frameworks_and_libraries: []
+    dependencies:
+    - amazon-connect-kvs-consumer-demo
+    - amazon-kinesis-video-streams-parser-library
+    - aws-java-sdk-bom
+    - aws-java-sdk-core
+    - junit
+    - maven-assembly-plugin
+    - maven-clean-plugin
+    - maven-compiler-plugin
+    - maven-deploy-plugin
+    - maven-install-plugin
+    - maven-jar-plugin
+    - maven-project-info-reports-plugin
+    - maven-resources-plugin
+    - maven-site-plugin
+    - maven-surefire-plugin
+    - mockito-core
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/main/java/software/aws/connect/LMSCompositeMkvElementVisitor.java,
+    src/main/java/software/aws/connect/LMSDataVisitor.java, src/main/java/software/aws/connect/LMSDemo.java, src/main/java/software/aws/connect/LMSExample.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/connect-kvs-consumer-demo/blob/main/README.md
+  path: README.md
+  blob_sha: acd5ec3cb3bcc2b891fe9b6605b28770ce14fa90
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: 84911f4d454352faf15fe97399eeb8b66b13a986
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 21318
+- type: Git tree
+  status: captured
+  sha: dd1994a5a3fb5707f270f51a5c430c5fc96d0b45
+  truncated: false
+- type: source_file
+  path: src/main/java/software/aws/connect/LMSCompositeMkvElementVisitor.java
+  blob_sha: a200a25d713759b544789fb691bd43eaa01c5fe5
+  retrieved: true
+- type: source_file
+  path: src/main/java/software/aws/connect/LMSDataVisitor.java
+  blob_sha: 3e6bc42e9f5922d2f64b4eff1edfb2a88f80bf50
+  retrieved: true
+- type: source_file
+  path: src/main/java/software/aws/connect/LMSDemo.java
+  blob_sha: 246c447368b42457a512924770638593558b5647
+  retrieved: true
+- type: source_file
+  path: src/main/java/software/aws/connect/LMSExample.java
+  blob_sha: 5b7680dcfac46c11a29c34a289ab0b05e036e01d
+  retrieved: true

@@ -1,0 +1,117 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:39:37+00:00'
+evidence_fingerprint: 23aa39a212ca313fc7d96b68917f112f1b938176e86787b31183a134c92c2a4d
+repository_metadata:
+  company: Amazon
+  account: corretto
+  full_name: corretto/hotpatch-for-apache-log4j2
+  repository_id: 437426386
+  url: https://github.com/corretto/hotpatch-for-apache-log4j2
+  description: An  agent to hotpatch the log4j RCE from CVE-2021-44228.
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-10-24T02:25:53Z'
+  stars: 496
+  readme_url: https://github.com/corretto/hotpatch-for-apache-log4j2/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1c407d028047e6e7910ddb37976896fcc6840a81
+  manifest_paths:
+  - build.gradle
+  - pom.xml
+  source_files_inspected:
+  - src/main/java/com/amazon/corretto/hotpatch/org/objectweb/asm/AnnotationVisitor.java
+  - src/main/java/com/amazon/corretto/hotpatch/org/objectweb/asm/AnnotationWriter.java
+  - src/main/java/com/amazon/corretto/hotpatch/org/objectweb/asm/Attribute.java
+  - src/main/java/com/amazon/corretto/hotpatch/org/objectweb/asm/ByteVector.java
+  repository_tree:
+    status: captured
+    sha: 6f016b3b1860c7a24e3d4637c93c492ad86a546a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a tool which injects a Java agent into a running JVM process. The agent will attempt to patch
+    the lookup() method of all loaded org.apache.logging.log4j.core.lookup.JndiLookup instances to unconditionally
+    return the string "Patched JndiLookup::lookup()". It is designed to address the CVE-2021-44228 remote code execution
+    vulnerability in Log4j without restarting the Java process. This tool will also address CVE-2021-45046.
+  why_used: An  agent to hotpatch the log4j RCE from CVE-2021-44228.
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - Shell
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - hotpatch-for-apache-log4j2
+    - jdk.tools
+    - maven-gpg-plugin
+    - maven-jar-plugin
+    - nexus-staging-maven-plugin
+    build_and_package_tools:
+    - Gradle build file
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/main/java/com/amazon/corretto/hotpatch/org/objectweb/asm/AnnotationVisitor.java,
+    src/main/java/com/amazon/corretto/hotpatch/org/objectweb/asm/AnnotationWriter.java, src/main/java/com/amazon/corretto/hotpatch/org/objectweb/asm/Attribute.java,
+    src/main/java/com/amazon/corretto/hotpatch/org/objectweb/asm/ByteVector.java'
+  setup_and_usage: []
+  limitations:
+  - 'Known issues: If you get an error like:'
+  - 'Known issues: Exception in thread "main" com.sun.tools.attach.AttachNotSupportedException: The VM does not
+    support the attach mechanism'
+  - 'Known issues: at jdk.attach/sun.tools.attach.HotSpotAttachProvider.testAttachable(HotSpotAttachProvider.java:153)'
+  - 'Known issues: at jdk.attach/sun.tools.attach.AttachProviderImpl.attachVirtualMachine(AttachProviderImpl.java:56)'
+  - 'Known issues: at jdk.attach/com.sun.tools.attach.VirtualMachine.attach(VirtualMachine.java:207)'
+  - 'Known issues: at Log4jHotPatch.loadInstrumentationAgent(Log4jHotPatch.java:115)'
+  - 'Known issues: at Log4jHotPatch.main(Log4jHotPatch.java:139)'
+  - 'Known issues: this means that your JVM is refusing any kind of help because it is running with -XX:+DisableAttachMechanism.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/corretto/hotpatch-for-apache-log4j2/blob/main/README.md
+  path: README.md
+  blob_sha: 1c407d028047e6e7910ddb37976896fcc6840a81
+  retrieved: true
+- type: manifest
+  path: build.gradle
+  blob_sha: 308782aa03f88eb544a2d3cb72b5cc351f1ea3e8
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: 8038f4fdd9207b01aaa216ae5263c617e1db5159
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 806949
+    Shell: 5949
+    HTML: 5786
+- type: Git tree
+  status: captured
+  sha: 6f016b3b1860c7a24e3d4637c93c492ad86a546a
+  truncated: false
+- type: source_file
+  path: src/main/java/com/amazon/corretto/hotpatch/org/objectweb/asm/AnnotationVisitor.java
+  blob_sha: 25e7afed9a0cf7af1d593a27d5e96dd99f31c5c5
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/amazon/corretto/hotpatch/org/objectweb/asm/AnnotationWriter.java
+  blob_sha: 6f5780a0856519450cd608b522c6b762291c75fb
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/amazon/corretto/hotpatch/org/objectweb/asm/Attribute.java
+  blob_sha: 662c601f2224167abbc20eb9260854dffcd69219
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/amazon/corretto/hotpatch/org/objectweb/asm/ByteVector.java
+  blob_sha: 9ed8d85cd8acdc24fc182ca6973a20be12501e02
+  retrieved: true

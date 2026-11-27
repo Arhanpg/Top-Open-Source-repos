@@ -1,0 +1,145 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:40:48+00:00'
+evidence_fingerprint: 62c8b645f7c9bb9b34edaf639201857c1c00a14d189c553347519c4e1f66f89a
+repository_metadata:
+  company: Microsoft
+  account: microsoft
+  full_name: microsoft/ADU
+  repository_id: 150630983
+  url: https://github.com/microsoft/ADU
+  description: Appliance Diagnostic Utility (ADU) for Analytics Platform System (APS)
+  default_branch: master
+  license_spdx: MIT
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2023-06-09T13:14:23Z'
+  stars: 10
+  readme_url: https://github.com/microsoft/ADU/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 8a9e17f463426a52e6c9eb226a248ff20f83287e
+  manifest_paths: []
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: 44018f9d227235cd66e7272a7f086d1db7cb9565
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**You can download the newest releast from the ''release'' page.** Extract the downloaded file (ADU-_version_.zip)
+    to HST01 under C:\. The name of the ADU folder is not important unless you have set up automated jobs that depend
+    on a particular folder structure. By default it will look like this: C:\ADU\ADU.ps1'
+  why_used: Appliance Diagnostic Utility (ADU) for Analytics Platform System (APS)
+  core_features:
+  - name: '**Diagnostics Collection**: Collect logs and diagnostic data from appliance'
+    description: '**Diagnostics Collection**: Collect logs and diagnostic data from appliance'
+    evidence:
+    - README.md#Functionality
+  - name: '**Distributed command**: Run a command on all nodes or a subset of nodes.'
+    description: '**Distributed command**: Run a command on all nodes or a subset of nodes.'
+    evidence:
+    - README.md#Functionality
+  - name: '**Check WMI Leak**: Checks that WMI has not had any leaks and fixes it if required (online)'
+    description: '**Check WMI Leak**: Checks that WMI has not had any leaks and fixes it if required (online)'
+    evidence:
+    - README.md#Functionality
+  - name: '**Fix Network Connection Profile**: Checks for adapters on the wrong profile and attempts to repair it
+      (onlin)'
+    description: '**Fix Network Connection Profile**: Checks for adapters on the wrong profile and attempts to repair
+      it (onlin)'
+    evidence:
+    - README.md#Functionality
+  - name: '**Get Network adapter Config**: Retrieves the IP configuration from all network adapters in the appliance'
+    description: '**Get Network adapter Config**: Retrieves the IP configuration from all network adapters in the
+      appliance'
+    evidence:
+    - README.md#Functionality
+  - name: '**Manage Performance Counters**: Turn performance counters on or off on all nodes of the appliance.'
+    description: '**Manage Performance Counters**: Turn performance counters on or off on all nodes of the appliance.'
+    evidence:
+    - README.md#Functionality
+  - name: '**Publish PDW XMLs**: Copy one set of XMLs out to the rest of the servers.'
+    description: '**Publish PDW XMLs**: Copy one set of XMLs out to the rest of the servers.'
+    evidence:
+    - README.md#Functionality
+  - name: '**Set External Time Source**: Will ask for an NTP server and attempt to set the appliance to sync to
+      that source'
+    description: '**Set External Time Source**: Will ask for an NTP server and attempt to set the appliance to sync
+      to that source'
+    evidence:
+    - README.md#Functionality
+  - name: '**All Table Sizes**: Collects size and rowcount for all tables in selected database (or all)'
+    description: '**All Table Sizes**: Collects size and rowcount for all tables in selected database (or all)'
+    evidence:
+    - README.md#Functionality
+  - name: '**Audit SQL Security Logs**:'
+    description: '**Audit SQL Security Logs**:'
+    evidence:
+    - README.md#Functionality
+  - name: '**Backup Test**:'
+    description: '**Backup Test**:'
+    evidence:
+    - README.md#Functionality
+  - name: '**Database Space Report**: Retrieves used and unused database space including the specified space when
+      DB was created.'
+    description: '**Database Space Report**: Retrieves used and unused database space including the specified space
+      when DB was created.'
+    evidence:
+    - README.md#Functionality
+  - name: '**Distributed Table Sizes**: Collects size of all distributed tables in selected database (or all)'
+    description: '**Distributed Table Sizes**: Collects size of all distributed tables in selected database (or
+      all)'
+    evidence:
+    - README.md#Functionality
+  - name: '**Failed Data Loads**:'
+    description: '**Failed Data Loads**:'
+    evidence:
+    - README.md#Functionality
+  - name: '**Last Modified Statistics**: Collects the last modified date for all statistics on all tables in the
+      specified database (or all)'
+    description: '**Last Modified Statistics**: Collects the last modified date for all statistics on all tables
+      in the specified database (or all)'
+    evidence:
+    - README.md#Functionality
+  technology_stack:
+    languages:
+    - PowerShell
+    - TSQL
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage:
+  - 'Usage: **You can download the newest releast from the ''release'' page.** Extract the downloaded file (ADU-_version_.zip)
+    to HST01 under C:\. The name of the ADU folder is not important unless you have set up automated jobs that depend
+    on a particular folder structure. By default it will look like this: C:\ADU\ADU.ps1'
+  - 'Usage: Execute it using PowerShell: C:\ADU\ADU.ps1'
+  - 'Usage: A menu will be displayed to select your options. All of these are safe to run while the appliance is
+    online, but as a best practice you should not be making changes to the appliance under the highest volume times
+    due to possible performance impact on the appliance or diagnostic tool.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/microsoft/ADU/blob/master/README.md
+  path: README.md
+  blob_sha: 8a9e17f463426a52e6c9eb226a248ff20f83287e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    PowerShell: 785823
+    TSQL: 2854
+    Batchfile: 846
+- type: Git tree
+  status: captured
+  sha: 44018f9d227235cd66e7272a7f086d1db7cb9565
+  truncated: false

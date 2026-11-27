@@ -1,10 +1,10 @@
 # Technical audits — sap-samples
 
-Updated: 2026-11-27T07:24:11+00:00
+Updated: 2026-11-27T22:44:09+00:00
 
 ## Status counts
 
-- evidence_only: 18
+- evidence_only: 22
 
 ## Repository dossiers
 
@@ -26,5 +26,9 @@ Updated: 2026-11-27T07:24:11+00:00
 | abap-platform-fiori-feature-showcase-548782680 | evidence_only | [abap-platform-fiori-feature-showcase-548782680.md](abap-platform-fiori-feature-showcase-548782680.md) | [abap-platform-fiori-feature-showcase-548782680.yaml](abap-platform-fiori-feature-showcase-548782680.yaml) |
 | abap-platform-fusion-development-sap-cloud-erp-sap-btp-1193565441 | evidence_only | [abap-platform-fusion-development-sap-cloud-erp-sap-btp-1193565441.md](abap-platform-fusion-development-sap-cloud-erp-sap-btp-1193565441.md) | [abap-platform-fusion-development-sap-cloud-erp-sap-btp-1193565441.yaml](abap-platform-fusion-development-sap-cloud-erp-sap-btp-1193565441.yaml) |
 | abap-platform-jak-172288111 | evidence_only | [abap-platform-jak-172288111.md](abap-platform-jak-172288111.md) | [abap-platform-jak-172288111.yaml](abap-platform-jak-172288111.yaml) |
+| abap-platform-nominated-apis-consumption-971246703 | evidence_only | [abap-platform-nominated-apis-consumption-971246703.md](abap-platform-nominated-apis-consumption-971246703.md) | [abap-platform-nominated-apis-consumption-971246703.yaml](abap-platform-nominated-apis-consumption-971246703.yaml) |
+| abap-platform-rap-opensap-295545969 | evidence_only | [abap-platform-rap-opensap-295545969.md](abap-platform-rap-opensap-295545969.md) | [abap-platform-rap-opensap-295545969.yaml](abap-platform-rap-opensap-295545969.yaml) |
+| abap-platform-rap-transactional-outbox-with-bgpf-1086248215 | evidence_only | [abap-platform-rap-transactional-outbox-with-bgpf-1086248215.md](abap-platform-rap-transactional-outbox-with-bgpf-1086248215.md) | [abap-platform-rap-transactional-outbox-with-bgpf-1086248215.yaml](abap-platform-rap-transactional-outbox-with-bgpf-1086248215.yaml) |
+| abap-platform-rap-workshops-303481780 | evidence_only | [abap-platform-rap-workshops-303481780.md](abap-platform-rap-workshops-303481780.md) | [abap-platform-rap-workshops-303481780.yaml](abap-platform-rap-workshops-303481780.yaml) |
 | github-464904570 | evidence_only | [github-464904570.md](github-464904570.md) | [github-464904570.yaml](github-464904570.yaml) |
 | spfi-reference-application-1095486490 | evidence_only | [spfi-reference-application-1095486490.md](spfi-reference-application-1095486490.md) | [spfi-reference-application-1095486490.yaml](spfi-reference-application-1095486490.yaml) |

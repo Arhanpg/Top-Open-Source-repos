@@ -1,10 +1,10 @@
 # Technical audits — nvidia-isaac-ros
 
-Updated: 2026-11-27T07:24:11+00:00
+Updated: 2026-11-27T22:44:04+00:00
 
 ## Status counts
 
-- evidence_only: 20
+- evidence_only: 24
 
 ## Repository dossiers
 
@@ -26,6 +26,10 @@ Updated: 2026-11-27T07:24:11+00:00
 | isaac-ros-cli-1090935175 | evidence_only | [isaac-ros-cli-1090935175.md](isaac-ros-cli-1090935175.md) | [isaac-ros-cli-1090935175.yaml](isaac-ros-cli-1090935175.yaml) |
 | isaac-ros-cloud-control-553108534 | evidence_only | [isaac-ros-cloud-control-553108534.md](isaac-ros-cloud-control-553108534.md) | [isaac-ros-cloud-control-553108534.yaml](isaac-ros-cloud-control-553108534.yaml) |
 | isaac-ros-common-416920444 | evidence_only | [isaac-ros-common-416920444.md](isaac-ros-common-416920444.md) | [isaac-ros-common-416920444.yaml](isaac-ros-common-416920444.yaml) |
+| isaac-ros-compression-553105419 | evidence_only | [isaac-ros-compression-553105419.md](isaac-ros-compression-553105419.md) | [isaac-ros-compression-553105419.yaml](isaac-ros-compression-553105419.yaml) |
+| isaac-ros-cumotion-808388964 | evidence_only | [isaac-ros-cumotion-808388964.md](isaac-ros-cumotion-808388964.md) | [isaac-ros-cumotion-808388964.yaml](isaac-ros-cumotion-808388964.yaml) |
+| isaac-ros-data-tools-901609145 | evidence_only | [isaac-ros-data-tools-901609145.md](isaac-ros-data-tools-901609145.md) | [isaac-ros-data-tools-901609145.yaml](isaac-ros-data-tools-901609145.yaml) |
+| isaac-ros-deploy-1225085755 | evidence_only | [isaac-ros-deploy-1225085755.md](isaac-ros-deploy-1225085755.md) | [isaac-ros-deploy-1225085755.yaml](isaac-ros-deploy-1225085755.yaml) |
 | nvidia-isaac-ros-github-io-699560470 | evidence_only | [nvidia-isaac-ros-github-io-699560470.md](nvidia-isaac-ros-github-io-699560470.md) | [nvidia-isaac-ros-github-io-699560470.yaml](nvidia-isaac-ros-github-io-699560470.yaml) |
 | rmp220-sdk-781570117 | evidence_only | [rmp220-sdk-781570117.md](rmp220-sdk-781570117.md) | [rmp220-sdk-781570117.yaml](rmp220-sdk-781570117.yaml) |
 | universal-robots-client-library-986625231 | evidence_only | [universal-robots-client-library-986625231.md](universal-robots-client-library-986625231.md) | [universal-robots-client-library-986625231.yaml](universal-robots-client-library-986625231.yaml) |

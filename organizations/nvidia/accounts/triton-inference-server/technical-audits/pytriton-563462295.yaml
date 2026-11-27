@@ -1,0 +1,147 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:41:30+00:00'
+evidence_fingerprint: 981f99bc7936a8b13615ca716972a46f3bad2af018166a2ce686dc2ed451a292
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/pytriton
+  repository_id: 563462295
+  url: https://github.com/triton-inference-server/pytriton
+  description: PyTriton is a Flask/FastAPI-like interface that simplifies Triton's deployment in Python environments.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-08-13T13:31:14Z'
+  stars: 848
+  readme_url: https://github.com/triton-inference-server/pytriton/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a0e20e8b9f0a04c699f504eb7eded493322fa63b
+  manifest_paths:
+  - Makefile
+  - pyproject.toml
+  - examples/huggingface_opt_multinode_jax/Dockerfile
+  - examples/tensorrt_llm/Dockerfile
+  - examples/tensorrt_llm/Makefile
+  - examples/tensorrt_llm/requirements.txt
+  source_files_inspected:
+  - pytriton/__main__.py
+  - pytriton/server/__init__.py
+  - pytriton/server/python_backend_config.py
+  - pytriton/server/triton_server.py
+  repository_tree:
+    status: captured
+    sha: 00a0f305a5875a7f24cf51a2fa511841badd9e7d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Copyright (c) 2022-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+  why_used: PyTriton is a Flask/FastAPI-like interface that simplifies Triton's deployment in Python environments.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - grpcio
+    - hf_transfer
+    - huggingface_hub
+    - importlib_metadata
+    - numpy
+    - nvidia-pytriton
+    - protobuf
+    - pyzmq
+    - sh
+    - tensorrt_llm
+    - transformers
+    - tritonclient
+    - typer
+    - typing_inspect
+    - wrapt
+    build_and_package_tools:
+    - Docker build configuration
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: pytriton/__main__.py,
+    pytriton/server/__init__.py, pytriton/server/python_backend_config.py, pytriton/server/triton_server.py'
+  setup_and_usage:
+  - 'Quick Start: The quick start presents how to run Python model in Triton Inference Server without need to change
+    the current working'
+  - 'Quick Start: environment. In the example we are using a simple Linear model.'
+  - 'Quick Start: The infer_fn is a function that takes an data tensor and returns a list with single output tensor.
+    The @batch from batching decorators is used to handle batching for the model.'
+  - 'Quick Start: from pytriton.decorators import batch'
+  - 'Quick Start: result = data * np.array([[-1]], dtype=np.float32) # Process inputs and produce result'
+  - 'Quick Start: In the next step, you can create the binding between the inference callable and Triton Inference
+    Server using the bind method from pyTriton. This method takes the model name, the inference callable, the inputs
+    and outputs tensors, and an optional model configuration object.'
+  - 'Quick Start: from pytriton.model_config import Tensor'
+  - 'Quick Start: from pytriton.triton import Triton'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/pytriton/blob/main/README.md
+  path: README.md
+  blob_sha: a0e20e8b9f0a04c699f504eb7eded493322fa63b
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: bdbf4ae65f7683169c2af79ab823f60691391118
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 47a5169f9834fd1c85f9baa8776b1e701b17c9ba
+  retrieved: true
+- type: manifest
+  path: examples/huggingface_opt_multinode_jax/Dockerfile
+  blob_sha: bf4ecea7d139db45e18af8b32152331b0281fd56
+  retrieved: true
+- type: manifest
+  path: examples/tensorrt_llm/Dockerfile
+  blob_sha: 1aa5db13f97fa0a4259303d791adfc4b2567f647
+  retrieved: true
+- type: manifest
+  path: examples/tensorrt_llm/Makefile
+  blob_sha: 359684a1aa47eeecd968da9c1adf3a0aa1098c30
+  retrieved: true
+- type: manifest
+  path: examples/tensorrt_llm/requirements.txt
+  blob_sha: c7c8e8c6080e508c78a17b6bbdeed1fbe2b12641
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 1207602
+    Shell: 67072
+    Makefile: 4259
+- type: Git tree
+  status: captured
+  sha: 00a0f305a5875a7f24cf51a2fa511841badd9e7d
+  truncated: false
+- type: source_file
+  path: pytriton/__main__.py
+  blob_sha: d5627705baad392ccf5c829191fad33ca4744156
+  retrieved: true
+- type: source_file
+  path: pytriton/server/__init__.py
+  blob_sha: 935a79d63fab2a26564aa03472f3af1e62b0a954
+  retrieved: true
+- type: source_file
+  path: pytriton/server/python_backend_config.py
+  blob_sha: 5da062b96b701cd4654158a84233260f2da2d90f
+  retrieved: true
+- type: source_file
+  path: pytriton/server/triton_server.py
+  blob_sha: 263b60e80027ea45a002792d8d614c9ea9d342bf
+  retrieved: true

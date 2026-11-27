@@ -1,0 +1,111 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-27T22:18:15+00:00'
+evidence_fingerprint: 0585b812c51631f1826e71037b5d1c48c2512c0c869b16dd0f8c86498bae49bd
+repository_metadata:
+  company: Amazon
+  account: aws
+  full_name: aws/amazon-chime-sdk-cpp
+  repository_id: 493807486
+  url: https://github.com/aws/amazon-chime-sdk-cpp
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-05-16T18:35:11Z'
+  stars: 23
+  readme_url: https://github.com/aws/amazon-chime-sdk-cpp/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 6c1b571308e463bad8e1162c54791e87ed5463fa
+  manifest_paths:
+  - chime-sdk-signaling-cpp/CMakeLists.txt
+  - chime-sdk-signaling-cpp/test/CMakeLists.txt
+  - chime-sdk-signaling-cpp/demo/cli/CMakeLists.txt
+  - chime-sdk-signaling-cpp/demo/test_cli/CMakeLists.txt
+  source_files_inspected:
+  - chime-sdk-signaling-cpp/src/audio_video/audio_frame_adapter.h
+  - chime-sdk-signaling-cpp/src/audio_video/default_audio_frame_adapter.cc
+  - chime-sdk-signaling-cpp/src/audio_video/default_audio_frame_adapter.h
+  - chime-sdk-signaling-cpp/src/audio_video/internal_local_stream_configuration.h
+  repository_tree:
+    status: captured
+    sha: 607480e252fc3b76cf798704e4dc78dcdbe8a961
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Amazon Chime SDK Project Board
+  why_used: Amazon Chime SDK Project Board
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    - Shell
+    - C
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: chime-sdk-signaling-cpp/src/audio_video/audio_frame_adapter.h,
+    chime-sdk-signaling-cpp/src/audio_video/default_audio_frame_adapter.cc, chime-sdk-signaling-cpp/src/audio_video/default_audio_frame_adapter.h,
+    chime-sdk-signaling-cpp/src/audio_video/internal_local_stream_configuration.h'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws/amazon-chime-sdk-cpp/blob/main/README.md
+  path: README.md
+  blob_sha: 6c1b571308e463bad8e1162c54791e87ed5463fa
+  retrieved: true
+- type: manifest
+  path: chime-sdk-signaling-cpp/CMakeLists.txt
+  blob_sha: d9b14fe5a1c709942889f5dd0bc19c947741bd10
+  retrieved: true
+- type: manifest
+  path: chime-sdk-signaling-cpp/test/CMakeLists.txt
+  blob_sha: 40ce31f84ade9af503f9fdc1ed9dc58978f55973
+  retrieved: true
+- type: manifest
+  path: chime-sdk-signaling-cpp/demo/cli/CMakeLists.txt
+  blob_sha: 392c9288271ec48bfe403b5b1bb99d4a5efa0ed5
+  retrieved: true
+- type: manifest
+  path: chime-sdk-signaling-cpp/demo/test_cli/CMakeLists.txt
+  blob_sha: ba94af752aa8bbf868aedb3e2dca8d32083ebadb
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 235653
+    CMake: 27951
+    Shell: 2601
+    C: 232
+- type: Git tree
+  status: captured
+  sha: 607480e252fc3b76cf798704e4dc78dcdbe8a961
+  truncated: false
+- type: source_file
+  path: chime-sdk-signaling-cpp/src/audio_video/audio_frame_adapter.h
+  blob_sha: 5b9ad77bf045fdbcd54435e757dfca30602e17b0
+  retrieved: true
+- type: source_file
+  path: chime-sdk-signaling-cpp/src/audio_video/default_audio_frame_adapter.cc
+  blob_sha: 3bb599160de5b593a72dddfdc61ef2a74d3dacfd
+  retrieved: true
+- type: source_file
+  path: chime-sdk-signaling-cpp/src/audio_video/default_audio_frame_adapter.h
+  blob_sha: 10a3cbf4e14090ff213a5a749edd44daa2310f64
+  retrieved: true
+- type: source_file
+  path: chime-sdk-signaling-cpp/src/audio_video/internal_local_stream_configuration.h
+  blob_sha: 9c746bcc48d4cb5560051dade38e1c374bfc7fed
+  retrieved: true

@@ -1,10 +1,10 @@
 # Technical audits — aws
 
-Updated: 2026-11-27T07:24:07+00:00
+Updated: 2026-11-27T22:44:07+00:00
 
 ## Status counts
 
-- evidence_only: 16
+- evidence_only: 21
 - insufficient_evidence: 1
 - manual_reviewed: 1
 
@@ -18,6 +18,11 @@ Updated: 2026-11-27T07:24:07+00:00
 | agentcore-devx-devtools-1286480923 | evidence_only | [agentcore-devx-devtools-1286480923.md](agentcore-devx-devtools-1286480923.md) | [agentcore-devx-devtools-1286480923.yaml](agentcore-devx-devtools-1286480923.yaml) |
 | amazon-chime-sdk-android-249543698 | evidence_only | [amazon-chime-sdk-android-249543698.md](amazon-chime-sdk-android-249543698.md) | [amazon-chime-sdk-android-249543698.yaml](amazon-chime-sdk-android-249543698.yaml) |
 | amazon-chime-sdk-component-library-react-261522182 | evidence_only | [amazon-chime-sdk-component-library-react-261522182.md](amazon-chime-sdk-component-library-react-261522182.md) | [amazon-chime-sdk-component-library-react-261522182.yaml](amazon-chime-sdk-component-library-react-261522182.yaml) |
+| amazon-chime-sdk-cpp-493807486 | evidence_only | [amazon-chime-sdk-cpp-493807486.md](amazon-chime-sdk-cpp-493807486.md) | [amazon-chime-sdk-cpp-493807486.yaml](amazon-chime-sdk-cpp-493807486.yaml) |
+| amazon-chime-sdk-ios-249575172 | evidence_only | [amazon-chime-sdk-ios-249575172.md](amazon-chime-sdk-ios-249575172.md) | [amazon-chime-sdk-ios-249575172.yaml](amazon-chime-sdk-ios-249575172.yaml) |
+| amazon-chime-sdk-ios-no-video-codecs-spm-754884196 | evidence_only | [amazon-chime-sdk-ios-no-video-codecs-spm-754884196.md](amazon-chime-sdk-ios-no-video-codecs-spm-754884196.md) | [amazon-chime-sdk-ios-no-video-codecs-spm-754884196.yaml](amazon-chime-sdk-ios-no-video-codecs-spm-754884196.yaml) |
+| amazon-chime-sdk-ios-spm-633106671 | evidence_only | [amazon-chime-sdk-ios-spm-633106671.md](amazon-chime-sdk-ios-spm-633106671.md) | [amazon-chime-sdk-ios-spm-633106671.yaml](amazon-chime-sdk-ios-spm-633106671.yaml) |
+| amazon-chime-sdk-js-216939647 | evidence_only | [amazon-chime-sdk-js-216939647.md](amazon-chime-sdk-js-216939647.md) | [amazon-chime-sdk-js-216939647.yaml](amazon-chime-sdk-js-216939647.yaml) |
 | audit-plugin-for-mysql-491703714 | manual_reviewed | [audit-plugin-for-mysql-491703714.md](audit-plugin-for-mysql-491703714.md) | [audit-plugin-for-mysql-491703714.yaml](audit-plugin-for-mysql-491703714.yaml) |
 | cicd-for-sagemakerunifiedstudio-1129251564 | evidence_only | [cicd-for-sagemakerunifiedstudio-1129251564.md](cicd-for-sagemakerunifiedstudio-1129251564.md) | [cicd-for-sagemakerunifiedstudio-1129251564.yaml](cicd-for-sagemakerunifiedstudio-1129251564.yaml) |
 | device-defender-for-aws-iot-embedded-sdk-295881054 | evidence_only | [device-defender-for-aws-iot-embedded-sdk-295881054.md](device-defender-for-aws-iot-embedded-sdk-295881054.md) | [device-defender-for-aws-iot-embedded-sdk-295881054.yaml](device-defender-for-aws-iot-embedded-sdk-295881054.yaml) |
