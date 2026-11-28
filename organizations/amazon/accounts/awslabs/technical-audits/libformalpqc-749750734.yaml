@@ -1,0 +1,128 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:09:52+00:00'
+evidence_fingerprint: 3eafea19c947b93bff8d92ef46f771f4222cc8476c1c2bb6e218ce6cdd5764ff
+repository_metadata:
+  company: Amazon
+  account: awslabs
+  full_name: awslabs/LibFormalPQC
+  repository_id: 749750734
+  url: https://github.com/awslabs/LibFormalPQC
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-22T11:54:25Z'
+  stars: 25
+  readme_url: https://github.com/awslabs/LibFormalPQC/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b5f33b8d637e85e257cdc9ed1ee780219f8b9095
+  manifest_paths:
+  - HQC/spark_ada/Makefile
+  - lemire/rust/Cargo.toml
+  - SLH/rust_verus/Cargo.toml
+  - SLH/rust_verus/Makefile
+  - MLKEM/rust/ref/Makefile
+  - SLH/spark_ada/tests/Makefile
+  source_files_inspected:
+  - lemire/rust/src/lib.rs
+  - MLKEM/rust/verus/mlkem/src/lib.rs
+  - SLH/rust_verus/src/lib.rs
+  - lemire/rust/src/lemire.rs
+  repository_tree:
+    status: captured
+    sha: 378c829a67ec7ee50f63549f27e89771b671814d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This library presents new reference implementation of the NIST PQC algorithms.
+  why_used: This library presents new reference implementation of the NIST PQC algorithms.
+  core_features: []
+  technology_stack:
+    languages:
+    - Ada
+    - C
+    - Python
+    - Rust
+    - Makefile
+    - C++
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies:
+    - sha3
+    - vstd
+    build_and_package_tools:
+    - Cargo manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lemire/rust/src/lib.rs,
+    MLKEM/rust/verus/mlkem/src/lib.rs, SLH/rust_verus/src/lib.rs, lemire/rust/src/lemire.rs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/awslabs/LibFormalPQC/blob/main/README.md
+  path: README.md
+  blob_sha: b5f33b8d637e85e257cdc9ed1ee780219f8b9095
+  retrieved: true
+- type: manifest
+  path: HQC/spark_ada/Makefile
+  blob_sha: 0affeef42955f378a28b290fff43657d9a951b89
+  retrieved: true
+- type: manifest
+  path: lemire/rust/Cargo.toml
+  blob_sha: 4229165e2c5ae494e48287021c927bb650ff7ee6
+  retrieved: true
+- type: manifest
+  path: SLH/rust_verus/Cargo.toml
+  blob_sha: ebeee813f118a769b0f597605ebff3c8519dedce
+  retrieved: true
+- type: manifest
+  path: SLH/rust_verus/Makefile
+  blob_sha: e2940030adb1f1c3a4cc7782577dc1cae057e934
+  retrieved: true
+- type: manifest
+  path: MLKEM/rust/ref/Makefile
+  blob_sha: ecddb9706231af6979de80e001d1a9634908c710
+  retrieved: true
+- type: manifest
+  path: SLH/spark_ada/tests/Makefile
+  blob_sha: eb37359c29ed53e23ff6c429c6119309db725cbd
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Ada: 598792
+    C: 76280
+    Python: 49959
+    Rust: 33544
+    Makefile: 11238
+    C++: 1309
+    Batchfile: 483
+- type: Git tree
+  status: captured
+  sha: 378c829a67ec7ee50f63549f27e89771b671814d
+  truncated: false
+- type: source_file
+  path: lemire/rust/src/lib.rs
+  blob_sha: f4dd1e363d0d8394b94ebe137017b31e20a25010
+  retrieved: true
+- type: source_file
+  path: MLKEM/rust/verus/mlkem/src/lib.rs
+  blob_sha: bfbf24e777966d4780a7c7435b4b99ba28fdf073
+  retrieved: true
+- type: source_file
+  path: SLH/rust_verus/src/lib.rs
+  blob_sha: d3fad432fe50fa8550abfa475f9c9268a871c7ae
+  retrieved: true
+- type: source_file
+  path: lemire/rust/src/lemire.rs
+  blob_sha: 664bc141b6ee958304bbf028e7f386c667dc78b8
+  retrieved: true

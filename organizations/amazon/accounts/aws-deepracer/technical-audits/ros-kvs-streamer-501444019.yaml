@@ -1,0 +1,98 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:56:31+00:00'
+evidence_fingerprint: 24c8701d91d95520d31d43ea0c21d001261e468b2e336b914344bc521484c5d9
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/ros-kvs-streamer
+  repository_id: 501444019
+  url: https://github.com/aws-deepracer/ros-kvs-streamer
+  description: ROS1 kinesis video streamer
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-07-22T19:25:56Z'
+  stars: 2
+  readme_url: https://github.com/aws-deepracer/ros-kvs-streamer/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f45372f91b113dcd3e3eca581e3dd90b282d1939
+  manifest_paths:
+  - ros_kvs_streamer/CMakeLists.txt
+  - ros_kvs_streamer/setup.py
+  source_files_inspected:
+  - ros_kvs_streamer/pytest_runner.py
+  - ros_kvs_streamer/ros_kvs_streamer/__init__.py
+  - ros_kvs_streamer/ros_kvs_streamer/exception.py
+  - ros_kvs_streamer/ros_kvs_streamer/kvs_streamer.py
+  repository_tree:
+    status: captured
+    sha: 74191d1674bb777780f480cbee1be35e20217dbf
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Generic ROS1 kinesis video streamer
+  why_used: ROS1 kinesis video streamer
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: ros_kvs_streamer/pytest_runner.py,
+    ros_kvs_streamer/ros_kvs_streamer/__init__.py, ros_kvs_streamer/ros_kvs_streamer/exception.py, ros_kvs_streamer/ros_kvs_streamer/kvs_streamer.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/ros-kvs-streamer/blob/main/README.md
+  path: README.md
+  blob_sha: f45372f91b113dcd3e3eca581e3dd90b282d1939
+  retrieved: true
+- type: manifest
+  path: ros_kvs_streamer/CMakeLists.txt
+  blob_sha: f63d52ffb26cf3f2177afb155a0aaf8970de6815
+  retrieved: true
+- type: manifest
+  path: ros_kvs_streamer/setup.py
+  blob_sha: 9905c278b04727968d03135b64d9533190df7ad9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 33095
+    Shell: 1871
+    CMake: 466
+- type: Git tree
+  status: captured
+  sha: 74191d1674bb777780f480cbee1be35e20217dbf
+  truncated: false
+- type: source_file
+  path: ros_kvs_streamer/pytest_runner.py
+  blob_sha: c40ee88d2df2bb77a8088baf0cb0bc0e4e20a605
+  retrieved: true
+- type: source_file
+  path: ros_kvs_streamer/ros_kvs_streamer/__init__.py
+  blob_sha: 9f42c6c0ea6d4b5fb286d7dcf8639a45d4de98e1
+  retrieved: true
+- type: source_file
+  path: ros_kvs_streamer/ros_kvs_streamer/exception.py
+  blob_sha: cfe94786eb23aa9272ef38660ebb75e870d390c3
+  retrieved: true
+- type: source_file
+  path: ros_kvs_streamer/ros_kvs_streamer/kvs_streamer.py
+  blob_sha: 7b354e7e218d04a74af7ad51a586b58964e2e2b9
+  retrieved: true

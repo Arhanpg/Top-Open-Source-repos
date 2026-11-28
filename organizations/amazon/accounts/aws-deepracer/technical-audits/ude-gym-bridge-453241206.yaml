@@ -1,0 +1,106 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:14:44+00:00'
+evidence_fingerprint: ef0f1ae51ac329569ca5d1b176419da18ef9dd653abe2f11fa58f057eb2c7e21
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/ude-gym-bridge
+  repository_id: 453241206
+  url: https://github.com/aws-deepracer/ude-gym-bridge
+  description: A bridge implementation of Unified Distributed Environment (UDE) to provide the integration between
+    UDE and OpenAI Gym.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-07-22T17:02:42Z'
+  stars: 2
+  readme_url: https://github.com/aws-deepracer/ude-gym-bridge/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a230ec633a0257014fafc607d53f756764e92cbd
+  manifest_paths:
+  - setup.py
+  - docker/Dockerfile
+  source_files_inspected:
+  - docker/entrypoint.sh
+  - setup.py
+  - ude_gym_bridge/__init__.py
+  - ude_gym_bridge/gym_env_remote_runner.py
+  repository_tree:
+    status: captured
+    sha: 486973034ec0eee4ee0d0bbf6f30b677bcdeafd5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The UDE Gym Bridge package is a bridge implementation of the Unified Distributed Environment (UDE). It
+    provides integration between UDE and OpenAI Gym.
+  why_used: A bridge implementation of Unified Distributed Environment (UDE) to provide the integration between
+    UDE and OpenAI Gym.
+  core_features: []
+  technology_stack:
+    languages:
+    - Jupyter Notebook
+    - Python
+    - Dockerfile
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: docker/entrypoint.sh,
+    setup.py, ude_gym_bridge/__init__.py, ude_gym_bridge/gym_env_remote_runner.py'
+  setup_and_usage:
+  - 'Installation: To install UDE Gym Bridge, run the pip install ude-gym-bridge command.'
+  - 'Installation: Python 3.6, 3.7, 3.8, and 3.9 are supported on Linux, Windows, and macOS.'
+  - 'Usage Examples: For a sample UDE example with OpenAI gym environments Sample'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/ude-gym-bridge/blob/main/README.md
+  path: README.md
+  blob_sha: a230ec633a0257014fafc607d53f756764e92cbd
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 3bcb83194d5849d84d76676b7612c6fd8749d5c6
+  retrieved: true
+- type: manifest
+  path: docker/Dockerfile
+  blob_sha: ba8710a1c0f0b4969bca2d46ac0061493ab75e09
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Jupyter Notebook: 42860
+    Python: 28881
+    Dockerfile: 2241
+    Shell: 635
+- type: Git tree
+  status: captured
+  sha: 486973034ec0eee4ee0d0bbf6f30b677bcdeafd5
+  truncated: false
+- type: source_file
+  path: docker/entrypoint.sh
+  blob_sha: d67494254cfcc6cf25c78741f048454f3967e692
+  retrieved: true
+- type: source_file
+  path: setup.py
+  blob_sha: 3bcb83194d5849d84d76676b7612c6fd8749d5c6
+  retrieved: true
+- type: source_file
+  path: ude_gym_bridge/__init__.py
+  blob_sha: fe0c555b82d600f7cc0ee86ef5779a0dfca06a00
+  retrieved: true
+- type: source_file
+  path: ude_gym_bridge/gym_env_remote_runner.py
+  blob_sha: 2731ef3faf79b655b66e4e7466125fcab10a70cc
+  retrieved: true

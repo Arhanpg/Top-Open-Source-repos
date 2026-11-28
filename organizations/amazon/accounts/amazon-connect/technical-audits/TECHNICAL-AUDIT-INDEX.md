@@ -1,10 +1,10 @@
 # Technical audits — amazon-connect
 
-Updated: 2026-11-27T22:44:09+00:00
+Updated: 2026-11-28T07:15:22+00:00
 
 ## Status counts
 
-- evidence_only: 28
+- evidence_only: 33
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -39,4 +39,9 @@ Updated: 2026-11-27T22:44:09+00:00
 | amazon-connect-workshops-392778052 | evidence_only | [amazon-connect-workshops-392778052.md](amazon-connect-workshops-392778052.md) | [amazon-connect-workshops-392778052.yaml](amazon-connect-workshops-392778052.yaml) |
 | amazonconnectsdk-692108977 | evidence_only | [amazonconnectsdk-692108977.md](amazonconnectsdk-692108977.md) | [amazonconnectsdk-692108977.yaml](amazonconnectsdk-692108977.yaml) |
 | connect-kvs-consumer-demo-756504437 | evidence_only | [connect-kvs-consumer-demo-756504437.md](connect-kvs-consumer-demo-756504437.md) | [connect-kvs-consumer-demo-756504437.yaml](connect-kvs-consumer-demo-756504437.yaml) |
+| customer-profiles-snippets-314065547 | evidence_only | [customer-profiles-snippets-314065547.md](customer-profiles-snippets-314065547.md) | [customer-profiles-snippets-314065547.yaml](customer-profiles-snippets-314065547.yaml) |
 | github-204069760 | insufficient_evidence | [github-204069760.md](github-204069760.md) | [github-204069760.yaml](github-204069760.yaml) |
+| touchpoint-1333398781 | evidence_only | [touchpoint-1333398781.md](touchpoint-1333398781.md) | [touchpoint-1333398781.yaml](touchpoint-1333398781.yaml) |
+| touchpoint-android-1412090582 | evidence_only | [touchpoint-android-1412090582.md](touchpoint-android-1412090582.md) | [touchpoint-android-1412090582.yaml](touchpoint-android-1412090582.yaml) |
+| touchpoint-ios-1412089480 | evidence_only | [touchpoint-ios-1412089480.md](touchpoint-ios-1412089480.md) | [touchpoint-ios-1412089480.yaml](touchpoint-ios-1412089480.yaml) |
+| video-call-escalation-339152559 | evidence_only | [video-call-escalation-339152559.md](video-call-escalation-339152559.md) | [video-call-escalation-339152559.yaml](video-call-escalation-339152559.yaml) |

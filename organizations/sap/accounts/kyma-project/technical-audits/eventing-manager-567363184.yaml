@@ -1,0 +1,226 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:53:53+00:00'
+evidence_fingerprint: 529bc88dd710b3f230d71810f24feeb3954ffbdf84cd1ef478c565a5c783e82d
+repository_metadata:
+  company: SAP
+  account: kyma-project
+  full_name: kyma-project/eventing-manager
+  repository_id: 567363184
+  url: https://github.com/kyma-project/eventing-manager
+  description: Eventing Operator installs Eventing as Kyma module
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-16T07:08:52Z'
+  stars: 6
+  readme_url: https://github.com/kyma-project/eventing-manager/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 382b76d7a3fd7cb9b046aaab14647f67ad4d261d
+  manifest_paths:
+  - Dockerfile
+  - go.mod
+  - Makefile
+  - hack/ci/Makefile
+  - hack/e2e/sink/Dockerfile
+  - hack/e2e/sink/go.mod
+  source_files_inspected:
+  - cmd/main.go
+  - hack/e2e/sink/cmd/main.go
+  - cmd/main_test.go
+  - pkg/backend/cleaner/eventmesh.go
+  repository_tree:
+    status: captured
+    sha: 82aff3b334bff26f0ae2c4804b70fe8f5eb9099d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Eventing Manager is a standard Kubernetes operator that observes the state of Eventing resources and
+    reconciles their state according to the desired state. It uses Controllers, which provide a reconcile function
+    responsible for synchronizing resources until the desired state is reached in the cluster.
+  why_used: Eventing Operator installs Eventing as Kyma module
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Shell
+    - Makefile
+    - Dockerfile
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/antithesishq/antithesis-sdk-go
+    - github.com/avast/retry-go/v3
+    - github.com/beorn7/perks
+    - github.com/blang/semver/v4
+    - github.com/cespare/xxhash/v2
+    - github.com/chigopher/pathlib
+    - github.com/cloudevents/sdk-go/protocol/nats/v2
+    - github.com/cloudevents/sdk-go/v2
+    - github.com/davecgh/go-spew
+    - github.com/emicklei/go-restful/v3
+    - github.com/evanphx/json-patch/v5
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/go-logr/logr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/gogo/protobuf
+    - github.com/golang/protobuf
+    - github.com/google/btree
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/go-tpm
+    - github.com/google/uuid
+    - github.com/gorilla/mux
+    - github.com/hashicorp/hcl
+    - github.com/huandu/xstrings
+    - github.com/iancoleman/strcase
+    - github.com/inconshreveable/mousetrap
+    - github.com/jinzhu/copier
+    - github.com/josharian/intern
+    - github.com/json-iterator/go
+    - github.com/kelseyhightower/envconfig
+    - github.com/klauspost/compress
+    - github.com/kyma-project/api-gateway
+    - github.com/kyma-project/kyma/common/logging
+    - github.com/kyma-project/nats-manager
+    - github.com/magiconair/properties
+    - github.com/mailru/easyjson
+    - github.com/mattn/go-colorable
+    - github.com/mattn/go-isatty
+    - github.com/minio/highwayhash
+    - github.com/mitchellh/go-homedir
+    - github.com/mitchellh/hashstructure/v2
+    - github.com/mitchellh/mapstructure
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/munnerz/goautoneg
+    - github.com/nats-io/jwt/v2
+    - github.com/nats-io/nats-server/v2
+    - github.com/nats-io/nats.go
+    - github.com/nats-io/nkeys
+    - github.com/nats-io/nuid
+    - github.com/nxadm/tail
+    - github.com/onsi/ginkgo
+    - github.com/onsi/gomega
+    - github.com/pelletier/go-toml/v2
+    - github.com/pkg/errors
+    - github.com/pmezard/go-difflib
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/rs/zerolog
+    - github.com/sagikazarmark/locafero
+    - github.com/sagikazarmark/slog-shim
+    - github.com/sourcegraph/conc
+    - github.com/spf13/afero
+    - github.com/spf13/cast
+    - github.com/spf13/cobra
+    - github.com/spf13/pflag
+    - github.com/spf13/viper
+    - github.com/stretchr/objx
+    - github.com/stretchr/testify
+    - github.com/subosito/gotenv
+    - github.com/thoas/go-funk
+    - github.com/vektra/mockery/v2
+    - github.com/x448/float16
+    - go.uber.org/atomic
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - go.yaml.in/yaml/v2
+    - go.yaml.in/yaml/v3
+    - golang.org/x/crypto
+    - golang.org/x/exp
+    - golang.org/x/mod
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sync
+    - golang.org/x/sys
+    - golang.org/x/term
+    - golang.org/x/text
+    - golang.org/x/time
+    - golang.org/x/tools
+    - golang.org/x/xerrors
+    - gomodules.xyz/jsonpatch/v2
+    - google.golang.org/genproto/googleapis/api
+    - google.golang.org/protobuf
+    - gopkg.in/evanphx/json-patch.v4
+    - gopkg.in/inf.v0
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/main.go, hack/e2e/sink/cmd/main.go,
+    cmd/main_test.go, pkg/backend/cleaner/eventmesh.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/kyma-project/eventing-manager/blob/main/README.md
+  path: README.md
+  blob_sha: 382b76d7a3fd7cb9b046aaab14647f67ad4d261d
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 12d5b2a9f57ab6d090a2cd1367568a099d79c657
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 18db10efd7369c9e58b859c02d8f0757e02f88ad
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 7bf20faf31e38561cec9fc6b386499de4c234562
+  retrieved: true
+- type: manifest
+  path: hack/ci/Makefile
+  blob_sha: 2ff3aa8d5a57524f0351b2e1fe1bd1f11fb1daad
+  retrieved: true
+- type: manifest
+  path: hack/e2e/sink/Dockerfile
+  blob_sha: 676d4faeff129127a6e72c4ed0006536f372464e
+  retrieved: true
+- type: manifest
+  path: hack/e2e/sink/go.mod
+  blob_sha: f6f31f76c425486ceb99654061f2989df642cb49
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 1406239
+    Shell: 41052
+    Makefile: 23206
+    Dockerfile: 2811
+    JavaScript: 1707
+- type: Git tree
+  status: captured
+  sha: 82aff3b334bff26f0ae2c4804b70fe8f5eb9099d
+  truncated: false
+- type: source_file
+  path: cmd/main.go
+  blob_sha: 516a0dead2c4512b5f1230ad532c45ac1f9d3768
+  retrieved: true
+- type: source_file
+  path: hack/e2e/sink/cmd/main.go
+  blob_sha: e9a9cfa04de300cd05c5e5e2ec41b6b1b51d17a9
+  retrieved: true
+- type: source_file
+  path: cmd/main_test.go
+  blob_sha: 022c14f40483898f2237ec7d00daae53e3311881
+  retrieved: true
+- type: source_file
+  path: pkg/backend/cleaner/eventmesh.go
+  blob_sha: 9d15940e1c13fae2801393b0ef39ff3c42cbb98c
+  retrieved: true

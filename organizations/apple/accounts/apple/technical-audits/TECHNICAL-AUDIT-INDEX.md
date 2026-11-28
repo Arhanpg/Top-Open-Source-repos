@@ -1,10 +1,10 @@
 # Technical audits — apple
 
-Updated: 2026-11-27T22:44:03+00:00
+Updated: 2026-11-28T07:15:19+00:00
 
 ## Status counts
 
-- evidence_only: 23
+- evidence_only: 27
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -27,6 +27,10 @@ Updated: 2026-11-27T22:44:03+00:00
 | axlearn-606266313 | evidence_only | [axlearn-606266313.md](axlearn-606266313.md) | [axlearn-606266313.yaml](axlearn-606266313.yaml) |
 | batch-processing-gateway-521371906 | evidence_only | [batch-processing-gateway-521371906.md](batch-processing-gateway-521371906.md) | [batch-processing-gateway-521371906.yaml](batch-processing-gateway-521371906.yaml) |
 | ccs-caldavclientlibrary-64889654 | evidence_only | [ccs-caldavclientlibrary-64889654.md](ccs-caldavclientlibrary-64889654.md) | [ccs-caldavclientlibrary-64889654.yaml](ccs-caldavclientlibrary-64889654.yaml) |
+| ccs-caldavtester-64889655 | evidence_only | [ccs-caldavtester-64889655.md](ccs-caldavtester-64889655.md) | [ccs-caldavtester-64889655.yaml](ccs-caldavtester-64889655.yaml) |
+| ccs-calendarserver-64889658 | evidence_only | [ccs-calendarserver-64889658.md](ccs-calendarserver-64889658.md) | [ccs-calendarserver-64889658.yaml](ccs-calendarserver-64889658.yaml) |
+| ccs-pycalendar-64889666 | evidence_only | [ccs-pycalendar-64889666.md](ccs-pycalendar-64889666.md) | [ccs-pycalendar-64889666.yaml](ccs-pycalendar-64889666.yaml) |
+| ccs-pykerberos-64889668 | evidence_only | [ccs-pykerberos-64889668.md](ccs-pykerberos-64889668.md) | [ccs-pykerberos-64889668.yaml](ccs-pykerberos-64889668.yaml) |
 | fhirmodels-274484771 | evidence_only | [fhirmodels-274484771.md](fhirmodels-274484771.md) | [fhirmodels-274484771.yaml](fhirmodels-274484771.yaml) |
 | gcgc-423990530 | evidence_only | [gcgc-423990530.md](gcgc-423990530.md) | [gcgc-423990530.yaml](gcgc-423990530.yaml) |
 | github-590165204 | insufficient_evidence | [github-590165204.md](github-590165204.md) | [github-590165204.yaml](github-590165204.yaml) |

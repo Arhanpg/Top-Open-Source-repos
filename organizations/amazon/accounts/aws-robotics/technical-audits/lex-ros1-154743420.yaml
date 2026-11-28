@@ -1,0 +1,97 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:09:19+00:00'
+evidence_fingerprint: d83b9082ee94e9d65859e30ed18706056b1b6076602da83f6200670eca1ae318
+repository_metadata:
+  company: Amazon
+  account: aws-robotics
+  full_name: aws-robotics/lex-ros1
+  repository_id: 154743420
+  url: https://github.com/aws-robotics/lex-ros1
+  description: ROS packages for facilitating the use of AWS cloud services.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-02-08T18:07:40Z'
+  stars: 10
+  readme_url: https://github.com/aws-robotics/lex-ros1/blob/master/README.md
+  readme_path: README.md
+  readme_sha: de7ebdd3dcb3ba2b2fbe9ecef26911c323179d21
+  manifest_paths:
+  - lex_common_msgs/CMakeLists.txt
+  - lex_node/CMakeLists.txt
+  source_files_inspected:
+  - lex_node/src/main.cpp
+  - lex_node/src/lex_node.cpp
+  - lex_node/include/lex_node/lex_node.h
+  repository_tree:
+    status: captured
+    sha: e30e1a36041ce72c70abd9189da5408deae5f752
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The ROS lex_node node enables a robot to comprehend natural language commands by voice or textual input
+    and respond through a set of actions, which an AWS Lex Bot maps to ROS messages. Out of the box this node provides
+    a ROS interface to communicate with a specified Amazon Lex bot (configured via lex_config.yaml) and requires
+    configuration of AWS credentials. The Amazon Lex bot needs to be defined with responses and slots for customer
+    prompts. A set of default slots and mappings are demonstrated in the [sample app] and include actions as “Create
+    ,” “Go to ” and “Stop.” Additional guides on configuring bots with are available at [Getting Started with Amazon
+    Lex].
+  why_used: ROS packages for facilitating the use of AWS cloud services.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lex_node/src/main.cpp,
+    lex_node/src/lex_node.cpp, lex_node/include/lex_node/lex_node.h'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-robotics/lex-ros1/blob/master/README.md
+  path: README.md
+  blob_sha: de7ebdd3dcb3ba2b2fbe9ecef26911c323179d21
+  retrieved: true
+- type: manifest
+  path: lex_common_msgs/CMakeLists.txt
+  blob_sha: 01c8856281eebb2f58cb6ed1f9b2f3d2ad2456b9
+  retrieved: true
+- type: manifest
+  path: lex_node/CMakeLists.txt
+  blob_sha: acd46b6e000324c6bf31465775e9aa52d72304c3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 15875
+    CMake: 3517
+- type: Git tree
+  status: captured
+  sha: e30e1a36041ce72c70abd9189da5408deae5f752
+  truncated: false
+- type: source_file
+  path: lex_node/src/main.cpp
+  blob_sha: a1392fef1854fc1f17f04ddbca98bc9ba044d458
+  retrieved: true
+- type: source_file
+  path: lex_node/src/lex_node.cpp
+  blob_sha: 066f7ec4aa44bfb9e095ed28090e1c561f2cabba
+  retrieved: true
+- type: source_file
+  path: lex_node/include/lex_node/lex_node.h
+  blob_sha: 95a11742031bd7c235d96c09e6e4d947478627b7
+  retrieved: true

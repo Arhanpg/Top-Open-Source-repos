@@ -1,0 +1,156 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:54:32+00:00'
+evidence_fingerprint: a148dbf04b07f6cc47b6ba8f6a27607bb800b38bec4ee7b393d99895ded11a75
+repository_metadata:
+  company: SAP
+  account: UI5
+  full_name: UI5/webcomponents-geomap
+  repository_id: 1347382249
+  url: https://github.com/UI5/webcomponents-geomap
+  description: Geomap Web Component for visualizing geospatial data based on UI5 Web Components.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T12:23:24Z'
+  stars: 0
+  readme_url: https://github.com/UI5/webcomponents-geomap/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 08a74425b60a74bafe671338ba6b7af51192cd1b
+  manifest_paths:
+  - package.json
+  - website/package.json
+  source_files_inspected:
+  - website/src/components/Editor/index.js
+  - website/src/pages/index.js
+  - lib/copy-css.js
+  - src/Assets.ts
+  repository_tree:
+    status: captured
+    sha: 627abb623d82aeca6024c617a883f006fff59531
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Geomap Web Component for visualizing geospatial data based on UI5 Web Components.
+  why_used: Geomap Web Component for visualizing geospatial data based on UI5 Web Components.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    - HTML
+    - CSS
+    - MDX
+    frameworks_and_libraries: []
+    dependencies:
+    - '@commitlint/cli'
+    - '@commitlint/config-conventional'
+    - '@cypress/code-coverage'
+    - '@docusaurus/core'
+    - '@docusaurus/module-type-aliases'
+    - '@docusaurus/preset-classic'
+    - '@docusaurus/tsconfig'
+    - '@docusaurus/types'
+    - '@maplibre/maplibre-gl-style-spec'
+    - '@mdx-js/react'
+    - '@semantic-release/changelog'
+    - '@semantic-release/commit-analyzer'
+    - '@semantic-release/git'
+    - '@semantic-release/github'
+    - '@semantic-release/npm'
+    - '@semantic-release/release-notes-generator'
+    - '@types/geojson'
+    - '@ui5/webcomponents'
+    - '@ui5/webcomponents-base'
+    - '@ui5/webcomponents-icons'
+    - '@ui5/webcomponents-icons-business-suite'
+    - '@ui5/webcomponents-theming'
+    - '@ui5/webcomponents-tools'
+    - clsx
+    - conventional-changelog-conventionalcommits
+    - cypress
+    - cypress-ct-lit
+    - eslint-plugin-cypress
+    - husky
+    - junit-report-merger
+    - lit
+    - maplibre-gl
+    - npm-run-all
+    - playground-elements
+    - prism-react-renderer
+    - raw-loader
+    - react
+    - react-dom
+    - react-splitter-light
+    - rimraf
+    - semantic-release
+    - tarts
+    - terra-draw
+    - terra-draw-maplibre-gl-adapter
+    - typescript
+    - vite-plugin-checker
+    - vite-plugin-istanbul
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: website/src/components/Editor/index.js,
+    website/src/pages/index.js, lib/copy-css.js, src/Assets.ts'
+  setup_and_usage: []
+  limitations:
+  - 'Content Security Policy (CSP) Requirements: This Web Component integrates MapLibre GL JS to provide interactive
+    mapping capabilities.'
+  - 'Content Security Policy (CSP) Requirements: Since MapLibre internally uses Web Workers and blob: URLs, certain
+    Content Security Policy (CSP) directives must be enabled for the component to function correctly.'
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/UI5/webcomponents-geomap/blob/main/README.md
+  path: README.md
+  blob_sha: 08a74425b60a74bafe671338ba6b7af51192cd1b
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 13687e1773b203fd847f8611cff1c821e6931823
+  retrieved: true
+- type: manifest
+  path: website/package.json
+  blob_sha: 36b3d70f479df3ae6d7092bb02a4010ecd57fd2a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 725261
+    JavaScript: 670487
+    HTML: 187960
+    CSS: 15267
+    MDX: 3341
+- type: Git tree
+  status: captured
+  sha: 627abb623d82aeca6024c617a883f006fff59531
+  truncated: false
+- type: source_file
+  path: website/src/components/Editor/index.js
+  blob_sha: f5a9d547b8d2cc9b6999a7076a54259453c054c3
+  retrieved: true
+- type: source_file
+  path: website/src/pages/index.js
+  blob_sha: df834cd4e26c3da528f35f2ed0b1d2e01f51ff0d
+  retrieved: true
+- type: source_file
+  path: lib/copy-css.js
+  blob_sha: 720d39c7636a75f88cdb1e6b5f6d612bed18404b
+  retrieved: true
+- type: source_file
+  path: src/Assets.ts
+  blob_sha: 4be313758fa4fed46b4fb9f21c33d157e0d2f621
+  retrieved: true

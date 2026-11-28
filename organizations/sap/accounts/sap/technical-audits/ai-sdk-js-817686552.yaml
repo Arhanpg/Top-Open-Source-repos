@@ -1,0 +1,185 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:54:01+00:00'
+evidence_fingerprint: 9fbe5f0853c274b665ae970e1a4d9c9072ca062b296d2671a3e70a8e840c4d75
+repository_metadata:
+  company: SAP
+  account: SAP
+  full_name: SAP/ai-sdk-js
+  repository_id: 817686552
+  url: https://github.com/SAP/ai-sdk-js
+  description: SAP Cloud SDK for AI is the official Software Development Kit (SDK) for SAP AI Core, SAP Generative
+    AI Hub, and Orchestration Service.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T16:39:49Z'
+  stars: 131
+  readme_url: https://github.com/SAP/ai-sdk-js/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 9396cf67826b260351af776eedb95c8b5580fcbf
+  manifest_paths:
+  - package.json
+  - sample-cap/package.json
+  - sample-code/package.json
+  - packages/ai-api/package.json
+  - packages/context-registry/package.json
+  - packages/core/package.json
+  source_files_inspected:
+  - packages/ai-api/src/client/AI_CORE_API/index.ts
+  - packages/ai-api/src/client/AI_CORE_API/schema/index.ts
+  - packages/ai-api/src/index.ts
+  - packages/ai-api/src/utils/index.ts
+  repository_tree:
+    status: captured
+    sha: b38a32f43ea703c7b0e16ff501dcaebc1df109ae
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: SAP Cloud SDK for AI is the official Software Development Kit (SDK) for **SAP AI Core**, **SAP Generative
+    AI Hub**, and **Orchestration Service**.
+  why_used: SAP Cloud SDK for AI is the official Software Development Kit (SDK) for SAP AI Core, SAP Generative
+    AI Hub, and Orchestration Service.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - HTML
+    - JavaScript
+    - CAP CDS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@actions/core'
+    - '@blueoak/list'
+    - '@langchain/classic'
+    - '@langchain/core'
+    - '@langchain/langgraph'
+    - '@langchain/mcp-adapters'
+    - '@langchain/textsplitters'
+    - '@modelcontextprotocol/sdk'
+    - '@sap-ai-sdk/ai-api'
+    - '@sap-ai-sdk/context-registry'
+    - '@sap-ai-sdk/core'
+    - '@sap-ai-sdk/document-grounding'
+    - '@sap-ai-sdk/foundation-models'
+    - '@sap-ai-sdk/langchain'
+    - '@sap-ai-sdk/llm-batch'
+    - '@sap-ai-sdk/openai'
+    - '@sap-ai-sdk/orchestration'
+    - '@sap-ai-sdk/prompt-registry'
+    - '@sap-ai-sdk/rpt'
+    - '@sap-ai-sdk/tabular-orchestration'
+    - '@sap-cloud-sdk/connectivity'
+    - '@sap-cloud-sdk/generator-common'
+    - '@sap-cloud-sdk/http-client'
+    - '@sap-cloud-sdk/openapi'
+    - '@sap-cloud-sdk/openapi-generator'
+    - '@sap-cloud-sdk/resilience'
+    - '@sap-cloud-sdk/util'
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - '@sap/xssec'
+    - '@types/express'
+    - '@types/node'
+    - '@types/ws'
+    - '@typescript/native'
+    - '@upstash/context7-mcp'
+    - '@vitest/coverage-v8'
+    - express
+    - hyparquet-writer
+    - jose
+    - knip
+    - langchain
+    - memfs
+    - nock
+    - openai
+    - orval
+    - oxfmt
+    - oxlint
+    - tsrs
+    - typedoc
+    - typescript
+    - vitest
+    - ws
+    - zod
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: packages/ai-api/src/client/AI_CORE_API/index.ts,
+    packages/ai-api/src/client/AI_CORE_API/schema/index.ts, packages/ai-api/src/index.ts, packages/ai-api/src/utils/index.ts'
+  setup_and_usage:
+  - 'Installation: npm install @sap-ai-sdk/ai-api'
+  - 'Installation: npm install @sap-ai-sdk/foundation-models'
+  - 'Installation: npm install @sap-ai-sdk/langchain'
+  - 'Installation: npm install @sap-ai-sdk/orchestration'
+  - 'Installation: npm install @sap-ai-sdk/document-grounding'
+  - 'Installation: npm install @sap-ai-sdk/prompt-registry'
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it.'
+  - 'Security / Disclosure: Please do not create GitHub issues for security-related doubts or problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP/ai-sdk-js/blob/main/README.md
+  path: README.md
+  blob_sha: 9396cf67826b260351af776eedb95c8b5580fcbf
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 7c0232753525ab631f22b3f3d358e681bf823b78
+  retrieved: true
+- type: manifest
+  path: sample-cap/package.json
+  blob_sha: bb2daf35a96c5cf590e81183c32f1e976123302a
+  retrieved: true
+- type: manifest
+  path: sample-code/package.json
+  blob_sha: eaf016f0a2b02ddcfd04ac390d246f56b771cc23
+  retrieved: true
+- type: manifest
+  path: packages/ai-api/package.json
+  blob_sha: 16972ceaad1fc086e1130c88c0f18277277241dc
+  retrieved: true
+- type: manifest
+  path: packages/context-registry/package.json
+  blob_sha: d24d254c5a97e2a0a72e889b3e77192ed23926fb
+  retrieved: true
+- type: manifest
+  path: packages/core/package.json
+  blob_sha: 64e084a6c617defb2d4bb6ec6c070ebeb35baa81
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 2517721
+    HTML: 45109
+    JavaScript: 8364
+    CAP CDS: 754
+- type: Git tree
+  status: captured
+  sha: b38a32f43ea703c7b0e16ff501dcaebc1df109ae
+  truncated: false
+- type: source_file
+  path: packages/ai-api/src/client/AI_CORE_API/index.ts
+  blob_sha: 51808e0a7804d72afcf63a17cbe66492f81a7f13
+  retrieved: true
+- type: source_file
+  path: packages/ai-api/src/client/AI_CORE_API/schema/index.ts
+  blob_sha: 400b3846ccc320c8c7ca1a25765552c106929336
+  retrieved: true
+- type: source_file
+  path: packages/ai-api/src/index.ts
+  blob_sha: b5606d8f78623ce655eca112617694b3ee1952cd
+  retrieved: true
+- type: source_file
+  path: packages/ai-api/src/utils/index.ts
+  blob_sha: bfcaed55381f3cb225bbffb4acd6708b9240d591
+  retrieved: true

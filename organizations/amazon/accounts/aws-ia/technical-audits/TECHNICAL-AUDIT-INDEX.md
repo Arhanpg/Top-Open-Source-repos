@@ -1,10 +1,10 @@
 # Technical audits — aws-ia
 
-Updated: 2026-11-27T22:44:05+00:00
+Updated: 2026-11-28T07:15:17+00:00
 
 ## Status counts
 
-- evidence_only: 25
+- evidence_only: 30
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -36,4 +36,9 @@ Updated: 2026-11-27T22:44:05+00:00
 | cfn-ps-apache-rocketmq-682298038 | evidence_only | [cfn-ps-apache-rocketmq-682298038.md](cfn-ps-apache-rocketmq-682298038.md) | [cfn-ps-apache-rocketmq-682298038.yaml](cfn-ps-apache-rocketmq-682298038.yaml) |
 | cfn-ps-apache-superset-682662157 | evidence_only | [cfn-ps-apache-superset-682662157.md](cfn-ps-apache-superset-682662157.md) | [cfn-ps-apache-superset-682662157.yaml](cfn-ps-apache-superset-682662157.yaml) |
 | cfn-ps-autodesk-forge-670321918 | evidence_only | [cfn-ps-autodesk-forge-670321918.md](cfn-ps-autodesk-forge-670321918.md) | [cfn-ps-autodesk-forge-670321918.yaml](cfn-ps-autodesk-forge-670321918.yaml) |
+| cfn-ps-aws-acm-certificate-688194366 | evidence_only | [cfn-ps-aws-acm-certificate-688194366.md](cfn-ps-aws-acm-certificate-688194366.md) | [cfn-ps-aws-acm-certificate-688194366.yaml](cfn-ps-aws-acm-certificate-688194366.yaml) |
+| cfn-ps-aws-amb-fabric-682325944 | evidence_only | [cfn-ps-aws-amb-fabric-682325944.md](cfn-ps-aws-amb-fabric-682325944.md) | [cfn-ps-aws-amb-fabric-682325944.yaml](cfn-ps-aws-amb-fabric-682325944.yaml) |
+| cfn-ps-aws-dms-automation-682318515 | evidence_only | [cfn-ps-aws-dms-automation-682318515.md](cfn-ps-aws-dms-automation-682318515.md) | [cfn-ps-aws-dms-automation-682318515.yaml](cfn-ps-aws-dms-automation-682318515.yaml) |
+| cfn-ps-aws-ec2-sitecore-xp-682304203 | evidence_only | [cfn-ps-aws-ec2-sitecore-xp-682304203.md](cfn-ps-aws-ec2-sitecore-xp-682304203.md) | [cfn-ps-aws-ec2-sitecore-xp-682304203.yaml](cfn-ps-aws-ec2-sitecore-xp-682304203.yaml) |
+| cfn-ps-aws-vpc-623177016 | evidence_only | [cfn-ps-aws-vpc-623177016.md](cfn-ps-aws-vpc-623177016.md) | [cfn-ps-aws-vpc-623177016.yaml](cfn-ps-aws-vpc-623177016.yaml) |
 | github-411533239 | evidence_only | [github-411533239.md](github-411533239.md) | [github-411533239.yaml](github-411533239.yaml) |

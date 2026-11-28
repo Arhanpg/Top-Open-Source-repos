@@ -1,10 +1,10 @@
 # Technical audits — aws-samples
 
-Updated: 2026-11-27T22:44:08+00:00
+Updated: 2026-11-28T07:15:18+00:00
 
 ## Status counts
 
-- evidence_only: 25
+- evidence_only: 29
 
 ## Repository dossiers
 
@@ -33,5 +33,9 @@ Updated: 2026-11-27T22:44:08+00:00
 | aws-serverless-resiliency-samples-930607002 | evidence_only | [aws-serverless-resiliency-samples-930607002.md](aws-serverless-resiliency-samples-930607002.md) | [aws-serverless-resiliency-samples-930607002.yaml](aws-serverless-resiliency-samples-930607002.yaml) |
 | awscodepipeline-s3-awscodedeploy-windows-38643445 | evidence_only | [awscodepipeline-s3-awscodedeploy-windows-38643445.md](awscodepipeline-s3-awscodedeploy-windows-38643445.md) | [awscodepipeline-s3-awscodedeploy-windows-38643445.yaml](awscodepipeline-s3-awscodedeploy-windows-38643445.yaml) |
 | bedrock-recommendations-for-patch-manager-867794232 | evidence_only | [bedrock-recommendations-for-patch-manager-867794232.md](bedrock-recommendations-for-patch-manager-867794232.md) | [bedrock-recommendations-for-patch-manager-867794232.yaml](bedrock-recommendations-for-patch-manager-867794232.yaml) |
+| build-a-computer-vision-based-asset-inventory-app-with-low-no-training-894022227 | evidence_only | [build-a-computer-vision-based-asset-inventory-app-with-low-no-training-894022227.md](build-a-computer-vision-based-asset-inventory-app-with-low-no-training-894022227.md) | [build-a-computer-vision-based-asset-inventory-app-with-low-no-training-894022227.yaml](build-a-computer-vision-based-asset-inventory-app-with-low-no-training-894022227.yaml) |
 | build-a-multimodal-social-media-content-generator-using-amazon-bedrock-839454095 | evidence_only | [build-a-multimodal-social-media-content-generator-using-amazon-bedrock-839454095.md](build-a-multimodal-social-media-content-generator-using-amazon-bedrock-839454095.md) | [build-a-multimodal-social-media-content-generator-using-amazon-bedrock-839454095.yaml](build-a-multimodal-social-media-content-generator-using-amazon-bedrock-839454095.yaml) |
+| building-a-connected-car-physical-prototype-with-aws-iot-services-811285966 | evidence_only | [building-a-connected-car-physical-prototype-with-aws-iot-services-811285966.md](building-a-connected-car-physical-prototype-with-aws-iot-services-811285966.md) | [building-a-connected-car-physical-prototype-with-aws-iot-services-811285966.yaml](building-a-connected-car-physical-prototype-with-aws-iot-services-811285966.yaml) |
+| centralize-best-practice-recommendations-for-your-cloud-operations-874961326 | evidence_only | [centralize-best-practice-recommendations-for-your-cloud-operations-874961326.md](centralize-best-practice-recommendations-for-your-cloud-operations-874961326.md) | [centralize-best-practice-recommendations-for-your-cloud-operations-874961326.yaml](centralize-best-practice-recommendations-for-your-cloud-operations-874961326.yaml) |
+| china-cloudfront-ssl-plugin-804796069 | evidence_only | [china-cloudfront-ssl-plugin-804796069.md](china-cloudfront-ssl-plugin-804796069.md) | [china-cloudfront-ssl-plugin-804796069.yaml](china-cloudfront-ssl-plugin-804796069.yaml) |
 | github-171341693 | evidence_only | [github-171341693.md](github-171341693.md) | [github-171341693.yaml](github-171341693.yaml) |

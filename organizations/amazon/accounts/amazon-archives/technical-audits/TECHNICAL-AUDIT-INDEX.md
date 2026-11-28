@@ -1,11 +1,11 @@
 # Technical audits — amazon-archives
 
-Updated: 2026-11-27T22:44:08+00:00
+Updated: 2026-11-28T07:15:19+00:00
 
 ## Status counts
 
-- evidence_only: 28
-- insufficient_evidence: 1
+- evidence_only: 32
+- insufficient_evidence: 2
 
 ## Repository dossiers
 
@@ -31,6 +31,11 @@ Updated: 2026-11-27T22:44:08+00:00
 | amazon-mcf-plugin-for-magento-2-113228427 | evidence_only | [amazon-mcf-plugin-for-magento-2-113228427.md](amazon-mcf-plugin-for-magento-2-113228427.md) | [amazon-mcf-plugin-for-magento-2-113228427.yaml](amazon-mcf-plugin-for-magento-2-113228427.yaml) |
 | amazon-polly-sample-75022280 | evidence_only | [amazon-polly-sample-75022280.md](amazon-polly-sample-75022280.md) | [amazon-polly-sample-75022280.yaml](amazon-polly-sample-75022280.yaml) |
 | amazon-quicksight-embedding-sample-162758898 | evidence_only | [amazon-quicksight-embedding-sample-162758898.md](amazon-quicksight-embedding-sample-162758898.md) | [amazon-quicksight-embedding-sample-162758898.yaml](amazon-quicksight-embedding-sample-162758898.yaml) |
+| amazon-transcribe-medical-demo-235885301 | evidence_only | [amazon-transcribe-medical-demo-235885301.md](amazon-transcribe-medical-demo-235885301.md) | [amazon-transcribe-medical-demo-235885301.yaml](amazon-transcribe-medical-demo-235885301.yaml) |
+| amazon-transcribe-websocket-static-198685005 | evidence_only | [amazon-transcribe-websocket-static-198685005.md](amazon-transcribe-websocket-static-198685005.md) | [amazon-transcribe-websocket-static-198685005.yaml](amazon-transcribe-websocket-static-198685005.yaml) |
+| amediamanager-18274537 | insufficient_evidence | [amediamanager-18274537.md](amediamanager-18274537.md) | [amediamanager-18274537.yaml](amediamanager-18274537.yaml) |
+| amplify-photo-gallery-workshop-158659849 | evidence_only | [amplify-photo-gallery-workshop-158659849.md](amplify-photo-gallery-workshop-158659849.md) | [amplify-photo-gallery-workshop-158659849.yaml](amplify-photo-gallery-workshop-158659849.yaml) |
+| app-analytics-hub-228486761 | evidence_only | [app-analytics-hub-228486761.md](app-analytics-hub-228486761.md) | [app-analytics-hub-228486761.yaml](app-analytics-hub-228486761.yaml) |
 | aws-mimic-iiitoomop-91026662 | evidence_only | [aws-mimic-iiitoomop-91026662.md](aws-mimic-iiitoomop-91026662.md) | [aws-mimic-iiitoomop-91026662.yaml](aws-mimic-iiitoomop-91026662.yaml) |
 | bsmobileprovision-10947817 | evidence_only | [bsmobileprovision-10947817.md](bsmobileprovision-10947817.md) | [bsmobileprovision-10947817.yaml](bsmobileprovision-10947817.yaml) |
 | github-171341969 | insufficient_evidence | [github-171341969.md](github-171341969.md) | [github-171341969.yaml](github-171341969.yaml) |

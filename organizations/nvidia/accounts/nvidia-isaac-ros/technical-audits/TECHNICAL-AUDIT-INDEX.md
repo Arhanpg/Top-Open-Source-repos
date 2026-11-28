@@ -1,10 +1,10 @@
 # Technical audits — nvidia-isaac-ros
 
-Updated: 2026-11-27T22:44:04+00:00
+Updated: 2026-11-28T07:15:18+00:00
 
 ## Status counts
 
-- evidence_only: 24
+- evidence_only: 28
 
 ## Repository dossiers
 
@@ -30,6 +30,10 @@ Updated: 2026-11-27T22:44:04+00:00
 | isaac-ros-cumotion-808388964 | evidence_only | [isaac-ros-cumotion-808388964.md](isaac-ros-cumotion-808388964.md) | [isaac-ros-cumotion-808388964.yaml](isaac-ros-cumotion-808388964.yaml) |
 | isaac-ros-data-tools-901609145 | evidence_only | [isaac-ros-data-tools-901609145.md](isaac-ros-data-tools-901609145.md) | [isaac-ros-data-tools-901609145.yaml](isaac-ros-data-tools-901609145.yaml) |
 | isaac-ros-deploy-1225085755 | evidence_only | [isaac-ros-deploy-1225085755.md](isaac-ros-deploy-1225085755.md) | [isaac-ros-deploy-1225085755.yaml](isaac-ros-deploy-1225085755.yaml) |
+| isaac-ros-depth-segmentation-509289728 | evidence_only | [isaac-ros-depth-segmentation-509289728.md](isaac-ros-depth-segmentation-509289728.md) | [isaac-ros-depth-segmentation-509289728.yaml](isaac-ros-depth-segmentation-509289728.yaml) |
+| isaac-ros-dnn-inference-416922955 | evidence_only | [isaac-ros-dnn-inference-416922955.md](isaac-ros-dnn-inference-416922955.md) | [isaac-ros-dnn-inference-416922955.yaml](isaac-ros-dnn-inference-416922955.yaml) |
+| isaac-ros-dnn-stereo-depth-509288029 | evidence_only | [isaac-ros-dnn-stereo-depth-509288029.md](isaac-ros-dnn-stereo-depth-509288029.md) | [isaac-ros-dnn-stereo-depth-509288029.yaml](isaac-ros-dnn-stereo-depth-509288029.yaml) |
+| isaac-ros-examples-808389477 | evidence_only | [isaac-ros-examples-808389477.md](isaac-ros-examples-808389477.md) | [isaac-ros-examples-808389477.yaml](isaac-ros-examples-808389477.yaml) |
 | nvidia-isaac-ros-github-io-699560470 | evidence_only | [nvidia-isaac-ros-github-io-699560470.md](nvidia-isaac-ros-github-io-699560470.md) | [nvidia-isaac-ros-github-io-699560470.yaml](nvidia-isaac-ros-github-io-699560470.yaml) |
 | rmp220-sdk-781570117 | evidence_only | [rmp220-sdk-781570117.md](rmp220-sdk-781570117.md) | [rmp220-sdk-781570117.yaml](rmp220-sdk-781570117.yaml) |
 | universal-robots-client-library-986625231 | evidence_only | [universal-robots-client-library-986625231.md](universal-robots-client-library-986625231.md) | [universal-robots-client-library-986625231.yaml](universal-robots-client-library-986625231.yaml) |

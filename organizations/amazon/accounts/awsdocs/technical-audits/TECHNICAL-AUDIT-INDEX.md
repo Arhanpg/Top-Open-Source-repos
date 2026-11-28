@@ -1,10 +1,10 @@
 # Technical audits — awsdocs
 
-Updated: 2026-11-27T22:44:09+00:00
+Updated: 2026-11-28T07:15:16+00:00
 
 ## Status counts
 
-- evidence_only: 23
+- evidence_only: 27
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -32,6 +32,10 @@ Updated: 2026-11-27T22:44:09+00:00
 | amazon-comprehend-developer-guide-113607122 | evidence_only | [amazon-comprehend-developer-guide-113607122.md](amazon-comprehend-developer-guide-113607122.md) | [amazon-comprehend-developer-guide-113607122.yaml](amazon-comprehend-developer-guide-113607122.yaml) |
 | amazon-comprehend-medical-developer-guide-421591428 | evidence_only | [amazon-comprehend-medical-developer-guide-421591428.md](amazon-comprehend-medical-developer-guide-421591428.md) | [amazon-comprehend-medical-developer-guide-421591428.yaml](amazon-comprehend-medical-developer-guide-421591428.yaml) |
 | amazon-connect-admin-guide-120649881 | evidence_only | [amazon-connect-admin-guide-120649881.md](amazon-connect-admin-guide-120649881.md) | [amazon-connect-admin-guide-120649881.yaml](amazon-connect-admin-guide-120649881.yaml) |
+| amazon-connect-user-guide-120534613 | evidence_only | [amazon-connect-user-guide-120534613.md](amazon-connect-user-guide-120534613.md) | [amazon-connect-user-guide-120534613.yaml](amazon-connect-user-guide-120534613.yaml) |
+| amazon-corretto-11-user-guide-183485599 | evidence_only | [amazon-corretto-11-user-guide-183485599.md](amazon-corretto-11-user-guide-183485599.md) | [amazon-corretto-11-user-guide-183485599.yaml](amazon-corretto-11-user-guide-183485599.yaml) |
+| amazon-corretto-8-user-guide-183511616 | evidence_only | [amazon-corretto-8-user-guide-183511616.md](amazon-corretto-8-user-guide-183511616.md) | [amazon-corretto-8-user-guide-183511616.yaml](amazon-corretto-8-user-guide-183511616.yaml) |
+| amazon-detective-admin-guide-256119517 | evidence_only | [amazon-detective-admin-guide-256119517.md](amazon-detective-admin-guide-256119517.md) | [amazon-detective-admin-guide-256119517.yaml](amazon-detective-admin-guide-256119517.yaml) |
 | aws-kinesis-video-documentation-117897013 | evidence_only | [aws-kinesis-video-documentation-117897013.md](aws-kinesis-video-documentation-117897013.md) | [aws-kinesis-video-documentation-117897013.yaml](aws-kinesis-video-documentation-117897013.yaml) |
 | github-171341792 | insufficient_evidence | [github-171341792.md](github-171341792.md) | [github-171341792.yaml](github-171341792.yaml) |
 | guidespatternssolutions-196658381 | evidence_only | [guidespatternssolutions-196658381.md](guidespatternssolutions-196658381.md) | [guidespatternssolutions-196658381.yaml](guidespatternssolutions-196658381.yaml) |

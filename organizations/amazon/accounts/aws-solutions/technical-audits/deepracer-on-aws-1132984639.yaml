@@ -1,0 +1,257 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:03:37+00:00'
+evidence_fingerprint: fe0049a3630f6bdd19452ee361e40c882f9f0d3989461a4e017b4584005e6384
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/deepracer-on-aws
+  repository_id: 1132984639
+  url: https://github.com/aws-solutions/deepracer-on-aws
+  description: DeepRacer on AWS is the latest evolution of AWS DeepRacer, delivering a self-hosted reinforcement
+    learning solution you can deploy to your AWS account to train and evaluate autonomous-driving models in a 3D
+    simulated environment.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-19T16:32:50Z'
+  stars: 29
+  readme_url: https://github.com/aws-solutions/deepracer-on-aws/blob/main/README.md
+  readme_path: README.md
+  readme_sha: c517623a3e92e32f5859e2ea3e0557776bbd76ff
+  manifest_paths:
+  - source/package.json
+  - deployment/cdk-solution-helper/package.json
+  - source/apps/infra/package.json
+  - source/apps/website/package.json
+  - source/libs/config/package.json
+  - source/libs/database/package.json
+  source_files_inspected:
+  - source/apps/infra/lib/constructs/ecr-image-downloader/index.ts
+  - source/apps/website/src/components/AppLayout/components/Breadcrumbs/index.ts
+  - source/apps/website/src/components/AppLayout/components/SideNavigation/index.ts
+  - source/apps/website/src/components/AppLayout/components/TopNavigation/index.ts
+  repository_tree:
+    status: captured
+    sha: 6591efe422e745c7c918080eefe165cf14727ead
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: DeepRacer on AWS is a solution that allows you to train and evaluate reinforcement learning models in
+    a three-dimensional simulated autonomous-driving environment. The trained model can then be downloaded to a
+    AWS DeepRacer vehicle (a 1/18th scale RC car capable of running inference on a trained AWS DeepRacer model for
+    autonomous driving) so it can drive in a physical environment. You can also submit your model to a virtual race
+    and have its performance ranked against other models in a virtual leaderboard.
+  why_used: DeepRacer on AWS is the latest evolution of AWS DeepRacer, delivering a self-hosted reinforcement learning
+    solution you can deploy to your AWS account to train and evaluate autonomous-driving models in a 3D simulated
+    environment.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - Python
+    - Smithy
+    - Shell
+    - JavaScript
+    - CSS
+    - Dockerfile
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-amplify/ui-react'
+    - '@aws-crypto/sha256-browser'
+    - '@aws-lambda-powertools/logger'
+    - '@aws-lambda-powertools/metrics'
+    - '@aws-lambda-powertools/tracer'
+    - '@aws-sdk/client-appconfig'
+    - '@aws-sdk/client-appconfigdata'
+    - '@aws-sdk/client-cloudwatch-logs'
+    - '@aws-sdk/client-dynamodb'
+    - '@aws-sdk/client-kinesis-video'
+    - '@aws-sdk/client-kinesis-video-archived-media'
+    - '@aws-sdk/client-kinesis-video-media'
+    - '@aws-sdk/client-lambda'
+    - '@aws-sdk/client-s3'
+    - '@aws-sdk/client-sagemaker'
+    - '@aws-sdk/client-service-quotas'
+    - '@aws-sdk/client-sfn'
+    - '@aws-sdk/client-sqs'
+    - '@aws-sdk/client-ssm'
+    - '@aws-sdk/client-sts'
+    - '@aws-sdk/lib-dynamodb'
+    - '@aws-sdk/lib-storage'
+    - '@aws-sdk/signature-v4'
+    - '@aws-sdk/util-dynamodb'
+    - '@aws-smithy/server-apigateway'
+    - '@aws-smithy/server-common'
+    - '@aws-solutions-constructs/aws-cloudfront-s3'
+    - '@aws-solutions-constructs/aws-wafwebacl-apigateway'
+    - '@cloudscape-design/board-components'
+    - '@cloudscape-design/code-view'
+    - '@cloudscape-design/collection-hooks'
+    - '@cloudscape-design/components'
+    - '@cloudscape-design/design-tokens'
+    - '@cloudscape-design/global-styles'
+    - '@deepracer-indy/config'
+    - '@deepracer-indy/database'
+    - '@deepracer-indy/typescript-client'
+    - '@deepracer-indy/typescript-server-client'
+    - '@deepracer-indy/utils'
+    - '@hookform/devtools'
+    - '@hookform/resolvers'
+    - '@nx/eslint'
+    - '@nx/eslint-plugin'
+    - '@nx/js'
+    - '@nx/react'
+    - '@nx/storybook'
+    - '@nx/vite'
+    - '@nx/vitest'
+    - '@nx/web'
+    - '@nx/workspace'
+    - '@react-three/drei'
+    - '@react-three/fiber'
+    - '@reduxjs/toolkit'
+    - '@smithy/middleware-retry'
+    - '@smithy/protocol-http'
+    - '@smithy/types'
+    - '@storybook/addon-actions'
+    - '@storybook/addon-console'
+    - '@storybook/addon-essentials'
+    - '@storybook/addon-interactions'
+    - '@storybook/addon-links'
+    - '@storybook/core-server'
+    - '@storybook/react'
+    - '@storybook/react-vite'
+    - '@storybook/test'
+    - '@storybook/test-runner'
+    - '@stylistic/eslint-plugin'
+    - '@swc-node/register'
+    - '@swc/core'
+    - '@swc/helpers'
+    - '@testing-library/jest-dom'
+    - '@testing-library/react'
+    - '@testing-library/user-event'
+    - '@types/aws-lambda'
+    - '@types/humanize-duration'
+    - '@types/js-yaml'
+    - '@types/node'
+    - '@types/react'
+    - '@types/react-dom'
+    - '@types/three'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - '@vitejs/plugin-react-swc'
+    - '@vitest/coverage-v8'
+    - '@vitest/ui'
+    - ace-builds
+    - avataaars
+    - aws-amplify
+    - aws-cdk
+    - aws-cdk-lib
+    - aws-iot-device-sdk-v2
+    - aws-sdk-client-mock
+    - aws-sdk-client-mock-vitest
+    - constructs
+    - electrodb
+    - esbuild
+    - eslint
+    - eslint-config-prettier
+    - eslint-import-resolver-typescript
+    - eslint-plugin-import
+    - eslint-plugin-jsx-a11y
+    - eslint-plugin-prettier
+    - eslint-plugin-react
+    - eslint-plugin-react-hooks
+    - eslint-plugin-react-refresh
+    - eslint-plugin-storybook
+    - eslint-plugin-testing-library
+    - eslint-plugin-vitest
+    - fractional-indexing
+    - hls.js
+    - humanize-duration
+    - i18n-iso-countries
+    - i18next
+    - i18next-intervalplural-postprocessor
+    - jiti
+    - js-yaml
+    - jsdom
+    - msw
+    - msw-storybook-addon
+    - nanoid
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/apps/infra/lib/constructs/ecr-image-downloader/index.ts,
+    source/apps/website/src/components/AppLayout/components/Breadcrumbs/index.ts, source/apps/website/src/components/AppLayout/components/SideNavigation/index.ts,
+    source/apps/website/src/components/AppLayout/components/TopNavigation/index.ts'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/deepracer-on-aws/blob/main/README.md
+  path: README.md
+  blob_sha: c517623a3e92e32f5859e2ea3e0557776bbd76ff
+  retrieved: true
+- type: manifest
+  path: source/package.json
+  blob_sha: f33734859c1ee3c0fec8c96ec987d0ffb14c7b31
+  retrieved: true
+- type: manifest
+  path: deployment/cdk-solution-helper/package.json
+  blob_sha: bf7cc7d6a9bcbb27092d64e37dda01b8ab99a4bf
+  retrieved: true
+- type: manifest
+  path: source/apps/infra/package.json
+  blob_sha: 879349c44b18d189fedd80cc5ee8d853639a9103
+  retrieved: true
+- type: manifest
+  path: source/apps/website/package.json
+  blob_sha: 641069f1bbca68251380dc3afefe24eea17d7a05
+  retrieved: true
+- type: manifest
+  path: source/libs/config/package.json
+  blob_sha: ef6ed49d6b724748f9d71517a5afe6c6fa4a62c6
+  retrieved: true
+- type: manifest
+  path: source/libs/database/package.json
+  blob_sha: 9b9125b2cd679cad5ab12f8d42444ad5151e71ac
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 6822690
+    Python: 170377
+    Smithy: 100882
+    Shell: 54950
+    JavaScript: 50475
+    CSS: 24778
+    Dockerfile: 2066
+    HTML: 488
+- type: Git tree
+  status: captured
+  sha: 6591efe422e745c7c918080eefe165cf14727ead
+  truncated: false
+- type: source_file
+  path: source/apps/infra/lib/constructs/ecr-image-downloader/index.ts
+  blob_sha: b1441ce0cec2bb21ec32fbee4a986a5adabb7217
+  retrieved: true
+- type: source_file
+  path: source/apps/website/src/components/AppLayout/components/Breadcrumbs/index.ts
+  blob_sha: 5a75cd29137aa8162e62d9fb8e08c05d8cbc940f
+  retrieved: true
+- type: source_file
+  path: source/apps/website/src/components/AppLayout/components/SideNavigation/index.ts
+  blob_sha: 02de840f149fea394303bdf9995326f42253a711
+  retrieved: true
+- type: source_file
+  path: source/apps/website/src/components/AppLayout/components/TopNavigation/index.ts
+  blob_sha: 8fee10f8a5b29393a4f0309b0dc0e5e3c4481c42
+  retrieved: true

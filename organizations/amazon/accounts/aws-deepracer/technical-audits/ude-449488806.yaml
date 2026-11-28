@@ -1,0 +1,101 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:08:48+00:00'
+evidence_fingerprint: 594d1bf5454461574a0e09d3731ce374631559b4bfe922b6ad74d2214e403150
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/ude
+  repository_id: 449488806
+  url: https://github.com/aws-deepracer/ude
+  description: An open source Python library for virtualizing reinforcement learning environments.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-07-22T17:07:56Z'
+  stars: 2
+  readme_url: https://github.com/aws-deepracer/ude/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f0382c32018846ea787a7f42be5b3642f135fb34
+  manifest_paths:
+  - CMakeLists.txt
+  - setup.py
+  source_files_inspected:
+  - protobuf-definitions/make.sh
+  - pytest_runner.py
+  - setup.py
+  - ude/__init__.py
+  repository_tree:
+    status: captured
+    sha: 1b0420afd33ed02ddcf1a192078b601518dcb02d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: UDE is an open-source Python library for virtualizing reinforcement learning environments. It supports
+    seamless offload and provides a uniform API to control the flow and life-cycle of the simulation environments.
+  why_used: An open source Python library for virtualizing reinforcement learning environments.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: protobuf-definitions/make.sh,
+    pytest_runner.py, setup.py, ude/__init__.py'
+  setup_and_usage:
+  - 'Installation: To install the UDE toolkit, run the pip install udecommand.'
+  - 'Installation: Python 3.6, 3.7, 3.8, and 3.9 are supported on Linux, Windows, and macOS.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/ude/blob/main/README.md
+  path: README.md
+  blob_sha: f0382c32018846ea787a7f42be5b3642f135fb34
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 5175aea6e78e3fb2856e4906eb507fb60029761e
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 322385518b1c5aca92ab7f37599927b7b000d0d0
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 330484
+    Shell: 1165
+    CMake: 278
+- type: Git tree
+  status: captured
+  sha: 1b0420afd33ed02ddcf1a192078b601518dcb02d
+  truncated: false
+- type: source_file
+  path: protobuf-definitions/make.sh
+  blob_sha: b029f0e834606fe9d7558f26ea0200e11b543a9c
+  retrieved: true
+- type: source_file
+  path: pytest_runner.py
+  blob_sha: c40ee88d2df2bb77a8088baf0cb0bc0e4e20a605
+  retrieved: true
+- type: source_file
+  path: setup.py
+  blob_sha: 322385518b1c5aca92ab7f37599927b7b000d0d0
+  retrieved: true
+- type: source_file
+  path: ude/__init__.py
+  blob_sha: cf5f8c9956a2c20974e67f7299cb51bc5379e4bb
+  retrieved: true

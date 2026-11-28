@@ -1,0 +1,119 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:06:00+00:00'
+evidence_fingerprint: 2371042cad6850765e96325eaded92f1b2f82def1e5e22fd34e7b27c5d63e279
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/print
+  repository_id: 990470701
+  url: https://github.com/cap-js/print
+  description: Streamline document printing workflows with a lightweight, API-driven service. Supports cross-platform
+    integration, queue management.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-22T12:05:28Z'
+  stars: 1
+  readme_url: https://github.com/cap-js/print/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 596881b49c8b75dcc9eca5bde0462eeaffc15f2f
+  manifest_paths:
+  - package.json
+  - test/bookshop/package.json
+  source_files_inspected:
+  - lib/btp-utils.js
+  - lib/enhance-csn.js
+  - lib/token-cache.js
+  - .prettierrc.js
+  repository_tree:
+    status: captured
+    sha: d74932a2e707dcd6266b4df4eefc21109900bcac
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The @cap-js/print package is a CDS plugin that provides print service features through integration with
+    the SAP Print Service.
+  why_used: Streamline document printing workflows with a lightweight, API-driven service. Supports cross-platform
+    integration, queue management.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/cds-test'
+    - '@cap-js/db-service'
+    - '@cap-js/hana'
+    - '@cap-js/print'
+    - '@cap-js/sqlite'
+    - '@sap-cloud-sdk/connectivity'
+    - '@sap-cloud-sdk/http-client'
+    - '@sap-cloud-sdk/resilience'
+    - '@sap/cds'
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/btp-utils.js,
+    lib/enhance-csn.js, lib/token-cache.js, .prettierrc.js'
+  setup_and_usage:
+  - 'Usage: To use this plugin to print documents, there are two main steps:'
+  - 'Usage: 1. Ensure your model meets the requirements'
+  - 'Usage: 2. Annotate your CDS model with @PDF.Printable'
+  - 'Manual Usage: You can also use the print service to print documents manually, i.e., without the @PDF.Printable
+    annotations and generated actions and handlers.'
+  - 'Manual Usage: Use cases for a manual approach could be:'
+  - 'Manual Usage: - You want to print documents that are not part of your CDS model, i.e., files generated at runtime.'
+  - 'Manual Usage: - Your model does not meet the requirements for the automatic approach.'
+  - 'Manual Usage: - You want to print a file type other than PDF.'
+  limitations:
+  - 'Security / Disclosure: If you find a bug that may be a security problem, please follow the instructions in
+    our security policy on how to report it. Please do not create GitHub issues for security-related doubts or problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/print/blob/main/README.md
+  path: README.md
+  blob_sha: 596881b49c8b75dcc9eca5bde0462eeaffc15f2f
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 6f58726ef2e90e1e739a1180d57dea255c11b069
+  retrieved: true
+- type: manifest
+  path: test/bookshop/package.json
+  blob_sha: 10fbe5a7611f4e75be24c18e50e4d183b1c84139
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 53011
+    CAP CDS: 19242
+- type: Git tree
+  status: captured
+  sha: d74932a2e707dcd6266b4df4eefc21109900bcac
+  truncated: false
+- type: source_file
+  path: lib/btp-utils.js
+  blob_sha: d451395151f74de12ed7bd24ffcbb4624f8281a8
+  retrieved: true
+- type: source_file
+  path: lib/enhance-csn.js
+  blob_sha: 6edc0d07c2f39832f7f736cd4a15c0ba1e5c8994
+  retrieved: true
+- type: source_file
+  path: lib/token-cache.js
+  blob_sha: 6a19b89ff9947f2151be58b83f87b44625e9e542
+  retrieved: true
+- type: source_file
+  path: .prettierrc.js
+  blob_sha: 8f819e5741e91afe01d2ce7e9a6e15822b0ffb08
+  retrieved: true

@@ -1,10 +1,10 @@
 # Technical audits — microsoft
 
-Updated: 2026-11-27T22:44:04+00:00
+Updated: 2026-11-28T07:15:17+00:00
 
 ## Status counts
 
-- evidence_only: 24
+- evidence_only: 28
 
 ## Repository dossiers
 
@@ -31,6 +31,10 @@ Updated: 2026-11-27T22:44:04+00:00
 | adbench-38539834 | evidence_only | [adbench-38539834.md](adbench-38539834.md) | [adbench-38539834.yaml](adbench-38539834.yaml) |
 | adlam-display-654246770 | evidence_only | [adlam-display-654246770.md](adlam-display-654246770.md) | [adlam-display-654246770.yaml](adlam-display-654246770.yaml) |
 | adu-150630983 | evidence_only | [adu-150630983.md](adu-150630983.md) | [adu-150630983.yaml](adu-150630983.yaml) |
+| aec-challenge-292698088 | evidence_only | [aec-challenge-292698088.md](aec-challenge-292698088.md) | [aec-challenge-292698088.yaml](aec-challenge-292698088.yaml) |
+| afun-demos-218607748 | evidence_only | [afun-demos-218607748.md](afun-demos-218607748.md) | [afun-demos-218607748.yaml](afun-demos-218607748.yaml) |
+| agic-installer-assistant-527419290 | evidence_only | [agic-installer-assistant-527419290.md](agic-installer-assistant-527419290.md) | [agic-installer-assistant-527419290.yaml](agic-installer-assistant-527419290.yaml) |
+| ahs-appservicedotnet-169285878 | evidence_only | [ahs-appservicedotnet-169285878.md](ahs-appservicedotnet-169285878.md) | [ahs-appservicedotnet-169285878.yaml](ahs-appservicedotnet-169285878.yaml) |
 | github-194898737 | evidence_only | [github-194898737.md](github-194898737.md) | [github-194898737.yaml](github-194898737.yaml) |
 | net-interactive-kernels-ads-342423762 | evidence_only | [net-interactive-kernels-ads-342423762.md](net-interactive-kernels-ads-342423762.md) | [net-interactive-kernels-ads-342423762.yaml](net-interactive-kernels-ads-342423762.yaml) |
 | net-modernization-in-a-day-255536764 | evidence_only | [net-modernization-in-a-day-255536764.md](net-modernization-in-a-day-255536764.md) | [net-modernization-in-a-day-255536764.yaml](net-modernization-in-a-day-255536764.yaml) |

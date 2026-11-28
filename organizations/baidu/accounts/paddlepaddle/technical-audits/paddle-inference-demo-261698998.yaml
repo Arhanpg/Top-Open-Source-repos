@@ -1,0 +1,137 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:10:41+00:00'
+evidence_fingerprint: e753f701cb4f22332f5ada60c772a1071796cadd4582cb14804e8a4174cb4455
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/Paddle-Inference-Demo
+  repository_id: 261698998
+  url: https://github.com/PaddlePaddle/Paddle-Inference-Demo
+  description: null
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-11-20T03:11:06Z'
+  stars: 269
+  readme_url: https://github.com/PaddlePaddle/Paddle-Inference-Demo/blob/master/README.md
+  readme_path: README.md
+  readme_sha: b19b8e81b4f7e8e34453fc59d198ea31ccbb949e
+  manifest_paths:
+  - docs-official/Makefile
+  - docs-official/requirements.txt
+  - docs/Makefile
+  - docs/requirements.txt
+  - c++/lib/CMakeLists.txt
+  - c++/advanced/tensorrt_precision_debug/CMakeLists.txt
+  source_files_inspected:
+  - c++/advanced/custom-operator-generic-plugin/compile.sh
+  - c++/advanced/custom-operator-generic-plugin/custom_gap_op.cc
+  - c++/advanced/custom-operator-generic-plugin/custom_gap_op_test.cc
+  - c++/advanced/custom-operator-generic-plugin/run.sh
+  repository_tree:
+    status: captured
+    sha: 260386384ece338ff31b8ccfd22667b70e40c41a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Paddle Inference为飞桨核心框架推理引擎。Paddle Inference功能特性丰富，性能优异，针对服务器端应用场景进行了深度的适配优化，做到高吞吐、低时延，保证了飞桨模型在服务器端即训即用，快速部署。
+  why_used: Paddle Inference为飞桨核心框架推理引擎。Paddle Inference功能特性丰富，性能优异，针对服务器端应用场景进行了深度的适配优化，做到高吞吐、低时延，保证了飞桨模型在服务器端即训即用，快速部署。
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - Shell
+    - CMake
+    - Cuda
+    - HTML
+    - Go
+    - Batchfile
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - jinja2
+    - recommonmark
+    - sphinx
+    - sphinx_markdown_tables
+    - sphinx_rtd_theme
+    build_and_package_tools:
+    - CMake configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: c++/advanced/custom-operator-generic-plugin/compile.sh,
+    c++/advanced/custom-operator-generic-plugin/custom_gap_op.cc, c++/advanced/custom-operator-generic-plugin/custom_gap_op_test.cc,
+    c++/advanced/custom-operator-generic-plugin/run.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/Paddle-Inference-Demo/blob/master/README.md
+  path: README.md
+  blob_sha: b19b8e81b4f7e8e34453fc59d198ea31ccbb949e
+  retrieved: true
+- type: manifest
+  path: docs-official/Makefile
+  blob_sha: 298ea9e213e8c4c11f0431077510d4e325733c65
+  retrieved: true
+- type: manifest
+  path: docs-official/requirements.txt
+  blob_sha: 6470a6fdd90a1a1d9468540dec48b6d2ce0b5bb5
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: 298ea9e213e8c4c11f0431077510d4e325733c65
+  retrieved: true
+- type: manifest
+  path: docs/requirements.txt
+  blob_sha: d3bc7dd101b9b0a5ddabba529ea58b68791f4365
+  retrieved: true
+- type: manifest
+  path: c++/lib/CMakeLists.txt
+  blob_sha: d70719511a5d66bf1689f7f702c7d260c46e51c9
+  retrieved: true
+- type: manifest
+  path: c++/advanced/tensorrt_precision_debug/CMakeLists.txt
+  blob_sha: 3fdb0eda22874cdef0b82d7c7accd62dbfbee273
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 221915
+    Python: 139168
+    Shell: 47298
+    CMake: 44988
+    Cuda: 15315
+    HTML: 9726
+    Go: 4030
+    Batchfile: 752
+    Makefile: 580
+- type: Git tree
+  status: captured
+  sha: 260386384ece338ff31b8ccfd22667b70e40c41a
+  truncated: false
+- type: source_file
+  path: c++/advanced/custom-operator-generic-plugin/compile.sh
+  blob_sha: 556881477212a2b3ff779a0718bffe59a064487f
+  retrieved: true
+- type: source_file
+  path: c++/advanced/custom-operator-generic-plugin/custom_gap_op.cc
+  blob_sha: 093b1bd15bb59f58fad9b4f791dba9c92e3ee7c2
+  retrieved: true
+- type: source_file
+  path: c++/advanced/custom-operator-generic-plugin/custom_gap_op_test.cc
+  blob_sha: f10d34a48b8fef94862d6beb64a481f3729cc067
+  retrieved: true
+- type: source_file
+  path: c++/advanced/custom-operator-generic-plugin/run.sh
+  blob_sha: af86acdb3aaf9ca42d13851be8fddad43f0c3abc
+  retrieved: true

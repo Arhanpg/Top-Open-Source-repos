@@ -1,0 +1,123 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:57:20+00:00'
+evidence_fingerprint: c14d58a8662b2e7e2884fc579ba72f883376b07602463d7af989c684e4247e32
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/data-connectors-for-aws-clean-rooms
+  repository_id: 569002831
+  url: https://github.com/aws-solutions/data-connectors-for-aws-clean-rooms
+  description: Simplify the process of selecting application sources and preparing data for collaborating in AWS
+    Clean Rooms
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-01-22T22:19:38Z'
+  stars: 13
+  readme_url: https://github.com/aws-solutions/data-connectors-for-aws-clean-rooms/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 088dc5ac0290c6a2e62d0bed69cd2fcf79901acd
+  manifest_paths:
+  - source/aws_lambda/setup.py
+  - source/infrastructure/setup.py
+  - source/cdk_solution_helper_py/helpers_cdk/setup.py
+  - source/cdk_solution_helper_py/helpers_common/setup.py
+  - source/aws_lambda/custom_resource/remove_s3_object/requirements.txt
+  - source/aws_lambda/custom_resource/salesforce/requirements.txt
+  source_files_inspected:
+  - source/cdk_solution_helper_py/helpers_cdk/aws_solutions/cdk/aws_lambda/cfn_custom_resources/resource_hash/src/__init__.py
+  - source/cdk_solution_helper_py/helpers_cdk/aws_solutions/cdk/aws_lambda/cfn_custom_resources/resource_hash/src/custom_resources/__init__.py
+  - source/cdk_solution_helper_py/helpers_cdk/aws_solutions/cdk/aws_lambda/cfn_custom_resources/resource_hash/src/custom_resources/hash.py
+  - source/cdk_solution_helper_py/helpers_cdk/aws_solutions/cdk/aws_lambda/cfn_custom_resources/resource_name/src/__init__.py
+  repository_tree:
+    status: captured
+    sha: ae55f7f759cd02ba36a6c9ba58cc8c3b1669a3c7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> [!WARNING] > **THIS AWS SOLUTION IS NO LONGER MAINTAINED**'
+  why_used: Simplify the process of selecting application sources and preparing data for collaborating in AWS Clean
+    Rooms
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - boto3
+    - crhelper
+    - requests
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/cdk_solution_helper_py/helpers_cdk/aws_solutions/cdk/aws_lambda/cfn_custom_resources/resource_hash/src/__init__.py,
+    source/cdk_solution_helper_py/helpers_cdk/aws_solutions/cdk/aws_lambda/cfn_custom_resources/resource_hash/src/custom_resources/__init__.py,
+    source/cdk_solution_helper_py/helpers_cdk/aws_solutions/cdk/aws_lambda/cfn_custom_resources/resource_hash/src/custom_resources/hash.py,
+    source/cdk_solution_helper_py/helpers_cdk/aws_solutions/cdk/aws_lambda/cfn_custom_resources/resource_name/src/__init__.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/data-connectors-for-aws-clean-rooms/blob/main/README.md
+  path: README.md
+  blob_sha: 088dc5ac0290c6a2e62d0bed69cd2fcf79901acd
+  retrieved: true
+- type: manifest
+  path: source/aws_lambda/setup.py
+  blob_sha: 37fed74dcb28030d36807208610c85f07a7711f3
+  retrieved: true
+- type: manifest
+  path: source/infrastructure/setup.py
+  blob_sha: e0a26b46e49e11a23ffd775f090c905f3c43625b
+  retrieved: true
+- type: manifest
+  path: source/cdk_solution_helper_py/helpers_cdk/setup.py
+  blob_sha: c98b3607eff57639bbd94ba1872b6a2e9f278c31
+  retrieved: true
+- type: manifest
+  path: source/cdk_solution_helper_py/helpers_common/setup.py
+  blob_sha: 6bc3f13843f851c31a23aedd2c8235012ccd9a4c
+  retrieved: true
+- type: manifest
+  path: source/aws_lambda/custom_resource/remove_s3_object/requirements.txt
+  blob_sha: 832072fd1092bb7d8e7cc2604bd0f65752bf3379
+  retrieved: true
+- type: manifest
+  path: source/aws_lambda/custom_resource/salesforce/requirements.txt
+  blob_sha: a0166a45d74df1377b6e3a1d5c860eed43f37d23
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 454418
+    Shell: 3604
+- type: Git tree
+  status: captured
+  sha: ae55f7f759cd02ba36a6c9ba58cc8c3b1669a3c7
+  truncated: false
+- type: source_file
+  path: source/cdk_solution_helper_py/helpers_cdk/aws_solutions/cdk/aws_lambda/cfn_custom_resources/resource_hash/src/__init__.py
+  blob_sha: 330623f88ea6a0bd9b999758bbbe7ec669bc267e
+  retrieved: true
+- type: source_file
+  path: source/cdk_solution_helper_py/helpers_cdk/aws_solutions/cdk/aws_lambda/cfn_custom_resources/resource_hash/src/custom_resources/__init__.py
+  blob_sha: 330623f88ea6a0bd9b999758bbbe7ec669bc267e
+  retrieved: true
+- type: source_file
+  path: source/cdk_solution_helper_py/helpers_cdk/aws_solutions/cdk/aws_lambda/cfn_custom_resources/resource_hash/src/custom_resources/hash.py
+  blob_sha: 4e45d7e30333b586ed42e679514a2a77bb9e0301
+  retrieved: true
+- type: source_file
+  path: source/cdk_solution_helper_py/helpers_cdk/aws_solutions/cdk/aws_lambda/cfn_custom_resources/resource_name/src/__init__.py
+  blob_sha: 330623f88ea6a0bd9b999758bbbe7ec669bc267e
+  retrieved: true

@@ -1,0 +1,174 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:55:13+00:00'
+evidence_fingerprint: 21dd99d187e9476d15f461c725237519f56575d7b11c2f73a2a1869f1316755f
+repository_metadata:
+  company: Alphabet (Google)
+  account: google
+  full_name: google/DirectXShaderCompiler
+  repository_id: 85727471
+  url: https://github.com/google/DirectXShaderCompiler
+  description: This repo hosts the source for the DirectX Shader Compiler which is based on LLVM/Clang.
+  default_branch: master
+  license_spdx: NOASSERTION
+  archived: true
+  fork: true
+  disabled: false
+  pushed_at: '2020-09-21T17:48:32Z'
+  stars: 54
+  readme_url: https://github.com/google/DirectXShaderCompiler/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 506af319ca80c190df7ad7928874598652626705
+  manifest_paths:
+  - CMakeLists.txt
+  - docs/CMakeLists.txt
+  - examples/CMakeLists.txt
+  - external/CMakeLists.txt
+  - lib/CMakeLists.txt
+  - projects/CMakeLists.txt
+  source_files_inspected:
+  - lib/TableGen/Main.cpp
+  - tools/llvm-c-test/main.c
+  - utils/llvm-build/llvmbuild/main.py
+  - lib/Analysis/AliasAnalysis.cpp
+  repository_tree:
+    status: captured
+    sha: 7ad81b9a749f6cb9b81fc9b599766fe6bc2c923e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The DirectX Shader Compiler project includes a compiler and related tools used to compile High-Level
+    Shader Language (HLSL) programs into DirectX Intermediate Language (DXIL) representation. Applications that
+    make use of DirectX for graphics, games, and computation can use it to generate shader programs.
+  why_used: This repo hosts the source for the DirectX Shader Compiler which is based on LLVM/Clang.
+  core_features:
+  - name: dxc.exe, a command-line tool that can compile HLSL programs for shader model 6.0 or higher
+    description: dxc.exe, a command-line tool that can compile HLSL programs for shader model 6.0 or higher
+    evidence:
+    - README.md#Features and Goals
+  - name: dxcompiler.dll, a DLL providing a componentized compiler, assembler, disassembler, and validator
+    description: dxcompiler.dll, a DLL providing a componentized compiler, assembler, disassembler, and validator
+    evidence:
+    - README.md#Features and Goals
+  - name: dxilconv.dll, a DLL providing a converter from DXBC (older shader bytecode format)
+    description: dxilconv.dll, a DLL providing a converter from DXBC (older shader bytecode format)
+    evidence:
+    - README.md#Features and Goals
+  - name: various other tools based on the above components
+    description: various other tools based on the above components
+    evidence:
+    - README.md#Features and Goals
+  technology_stack:
+    languages:
+    - C++
+    - HLSL
+    - LLVM
+    - C
+    - Python
+    - C#
+    - CMake
+    - Objective-C
+    - HTML
+    - Shell
+    - Batchfile
+    - Assembly
+    - Cuda
+    - JavaScript
+    - Perl
+    - Emacs Lisp
+    - Makefile
+    - Roff
+    - NASL
+    - PowerShell
+    - AppleScript
+    - Pawn
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/TableGen/Main.cpp,
+    tools/llvm-c-test/main.c, utils/llvm-build/llvmbuild/main.py, lib/Analysis/AliasAnalysis.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google/DirectXShaderCompiler/blob/master/README.md
+  path: README.md
+  blob_sha: 506af319ca80c190df7ad7928874598652626705
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: c6596391bdd08e7596313e3afb1aa53afb9d35c0
+  retrieved: true
+- type: manifest
+  path: docs/CMakeLists.txt
+  blob_sha: 2388a92d39ef7c26e3868abbe82ad09ec050e8bd
+  retrieved: true
+- type: manifest
+  path: examples/CMakeLists.txt
+  blob_sha: 463d60b19c50ecb2ad4dfd579d9e2844cc846ffd
+  retrieved: true
+- type: manifest
+  path: external/CMakeLists.txt
+  blob_sha: b55b58b62d5e3cd4bfa8fbdc10309f6139b4f35e
+  retrieved: true
+- type: manifest
+  path: lib/CMakeLists.txt
+  blob_sha: ea9b5e566101bdf12c5eed844848ebebb41c83f0
+  retrieved: true
+- type: manifest
+  path: projects/CMakeLists.txt
+  blob_sha: 2e424938a3bb1a23b249f83b088acea607ddc424
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 77346770
+    HLSL: 9268464
+    LLVM: 8026288
+    C: 3818422
+    Python: 1077784
+    C#: 447505
+    CMake: 373402
+    Objective-C: 361923
+    HTML: 236877
+    Shell: 92790
+    Batchfile: 84715
+    Assembly: 66706
+    Cuda: 48056
+    JavaScript: 38356
+    Perl: 33163
+    Emacs Lisp: 15973
+    Makefile: 12668
+    Roff: 12023
+    NASL: 11142
+    PowerShell: 1908
+    AppleScript: 1429
+    Pawn: 1041
+- type: Git tree
+  status: captured
+  sha: 7ad81b9a749f6cb9b81fc9b599766fe6bc2c923e
+  truncated: false
+- type: source_file
+  path: lib/TableGen/Main.cpp
+  blob_sha: 902c71d1dbde10d898ebc2e13634af362ff10688
+  retrieved: true
+- type: source_file
+  path: tools/llvm-c-test/main.c
+  blob_sha: c51d50930e20597b0d4163de2ceacdbd35c495a1
+  retrieved: true
+- type: source_file
+  path: utils/llvm-build/llvmbuild/main.py
+  blob_sha: 207fd6248fb6281531b3d10e6306ba5191faaa03
+  retrieved: true
+- type: source_file
+  path: lib/Analysis/AliasAnalysis.cpp
+  blob_sha: 44d137dffd22d5622e14087578bd32a381314154
+  retrieved: true

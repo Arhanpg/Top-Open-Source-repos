@@ -1,0 +1,119 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:57:52+00:00'
+evidence_fingerprint: 39ed67001c35b0cda1a0ed42c32c6c949640b70f823529bacfb3eeca1b42ce7f
+repository_metadata:
+  company: Amazon
+  account: corretto
+  full_name: corretto/samples
+  repository_id: 174015455
+  url: https://github.com/corretto/samples
+  description: Corretto Samples
+  default_branch: master
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2022-03-09T15:11:55Z'
+  stars: 3
+  readme_url: https://github.com/corretto/samples/blob/master/README.md
+  readme_path: README.md
+  readme_sha: a76aa9b80bb87c6073597d775934015e86b1784a
+  manifest_paths:
+  - accp-demos/build.gradle
+  - accp-demos/Dockerfile
+  - benchmarks/build.gradle
+  - jmx-demos/build.gradle
+  - jmx-demos/Dockerfile
+  - benchmarks/ACCP/build.gradle
+  source_files_inspected:
+  - accp-demos/src/main/java/com/amazon/corretto/demo/CipherDemo.java
+  - accp-demos/src/main/java/com/amazon/corretto/demo/SecureRandomDemo.java
+  - benchmarks/ACCP/src/jmh/java/com/amazon/corretto/samples/jmh/ACCPCipherEncryptionBenchmark.java
+  - benchmarks/ACCP/src/jmh/java/com/amazon/corretto/samples/jmh/ACCPMessageDigestBenchmark.java
+  repository_tree:
+    status: captured
+    sha: 476b0ce27abff904e02ea9914c678295843edfdf
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is a repo where we will collect samples for performance improvements and new capabilities as they
+    show up in Corretto.
+  why_used: Corretto Samples
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle build file
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: accp-demos/src/main/java/com/amazon/corretto/demo/CipherDemo.java,
+    accp-demos/src/main/java/com/amazon/corretto/demo/SecureRandomDemo.java, benchmarks/ACCP/src/jmh/java/com/amazon/corretto/samples/jmh/ACCPCipherEncryptionBenchmark.java,
+    benchmarks/ACCP/src/jmh/java/com/amazon/corretto/samples/jmh/ACCPMessageDigestBenchmark.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/corretto/samples/blob/master/README.md
+  path: README.md
+  blob_sha: a76aa9b80bb87c6073597d775934015e86b1784a
+  retrieved: true
+- type: manifest
+  path: accp-demos/build.gradle
+  blob_sha: 1cf229c078ae5510ab5b4e9499b55b869afefc93
+  retrieved: true
+- type: manifest
+  path: accp-demos/Dockerfile
+  blob_sha: 6e5406621095f6a3466d8addb130bb9eeace5da7
+  retrieved: true
+- type: manifest
+  path: benchmarks/build.gradle
+  blob_sha: 4d9195daf7840d56296bc0167cdcc0d9222746df
+  retrieved: true
+- type: manifest
+  path: jmx-demos/build.gradle
+  blob_sha: e6dbb83e8b0099b729faa6a7f01f75903037f485
+  retrieved: true
+- type: manifest
+  path: jmx-demos/Dockerfile
+  blob_sha: 6e5406621095f6a3466d8addb130bb9eeace5da7
+  retrieved: true
+- type: manifest
+  path: benchmarks/ACCP/build.gradle
+  blob_sha: b23b723e9d75123beeb30d240da8b6e288e9c6c8
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 25914
+    Dockerfile: 244
+- type: Git tree
+  status: captured
+  sha: 476b0ce27abff904e02ea9914c678295843edfdf
+  truncated: false
+- type: source_file
+  path: accp-demos/src/main/java/com/amazon/corretto/demo/CipherDemo.java
+  blob_sha: d789f405ccc2394c22c627ecd6eb162d4e337c15
+  retrieved: true
+- type: source_file
+  path: accp-demos/src/main/java/com/amazon/corretto/demo/SecureRandomDemo.java
+  blob_sha: 9ef3b66339ff3aa3a4a8b590c82f76594b92f209
+  retrieved: true
+- type: source_file
+  path: benchmarks/ACCP/src/jmh/java/com/amazon/corretto/samples/jmh/ACCPCipherEncryptionBenchmark.java
+  blob_sha: a482e562945c6f3bd7ba231e60fb493ce6a56198
+  retrieved: true
+- type: source_file
+  path: benchmarks/ACCP/src/jmh/java/com/amazon/corretto/samples/jmh/ACCPMessageDigestBenchmark.java
+  blob_sha: 6f5dd48086310d2776cee4bc3960952a3979fa1e
+  retrieved: true

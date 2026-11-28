@@ -1,0 +1,220 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:06:49+00:00'
+evidence_fingerprint: 1505f5c1953802a7b3cc7044f0c3ac9e57ab8eb641b391eae639b939199b2f8f
+repository_metadata:
+  company: SAP
+  account: UI5
+  full_name: UI5/webcomponents-react
+  repository_id: 182085192
+  url: https://github.com/UI5/webcomponents-react
+  description: A wrapper implementation for React of the UI5 Web Components that are compliant with the SAP Fiori
+    User Experience
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T11:32:47Z'
+  stars: 543
+  readme_url: https://github.com/UI5/webcomponents-react/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 60d90c74afcefe6c7486e11b1d8ad2f33ef2a709
+  manifest_paths:
+  - makefile
+  - package.json
+  - examples/nextjs-app/package.json
+  - examples/nextjs-pages/package.json
+  - examples/react-router-ts/package.json
+  - examples/vite-ts/package.json
+  source_files_inspected:
+  - packages/ai/src/index.ts
+  - packages/base/src/Device/index.ts
+  - packages/base/src/hooks/index.ts
+  - packages/base/src/index.ts
+  repository_tree:
+    status: captured
+    sha: e35485b7b5a995d6ac452b7020f96b4f53205f24
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ui5-webcomponents-react is providing a Fiori-compliant React implementation by leveraging the UI5 Web
+    Components.
+  why_used: A wrapper implementation for React of the UI5 Web Components that are compliant with the SAP Fiori User
+    Experience
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - MDX
+    - CSS
+    - JavaScript
+    - HTML
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@babel/cli'
+    - '@babel/core'
+    - '@babel/preset-env'
+    - '@babel/preset-react'
+    - '@babel/preset-typescript'
+    - '@cypress/code-coverage'
+    - '@eslint/compat'
+    - '@eslint/js'
+    - '@playwright/test'
+    - '@react-router/dev'
+    - '@react-router/node'
+    - '@react-router/serve'
+    - '@semantic-release/github'
+    - '@stackblitz/sdk'
+    - '@storybook/addon-a11y'
+    - '@storybook/addon-docs'
+    - '@storybook/react-vite'
+    - '@testing-library/cypress'
+    - '@types/jscodeshift'
+    - '@types/node'
+    - '@types/react'
+    - '@types/react-dom'
+    - '@ui5/webcomponents'
+    - '@ui5/webcomponents-ai'
+    - '@ui5/webcomponents-base'
+    - '@ui5/webcomponents-compat'
+    - '@ui5/webcomponents-cypress-commands'
+    - '@ui5/webcomponents-fiori'
+    - '@ui5/webcomponents-icons'
+    - '@ui5/webcomponents-react'
+    - '@ui5/webcomponents-tools'
+    - '@vitejs/plugin-react'
+    - chromatic
+    - cross-env
+    - cssnano
+    - cypress
+    - cypress-real-events
+    - dedent
+    - documentation
+    - eslint
+    - eslint-config-next
+    - eslint-config-prettier
+    - eslint-import-resolver-typescript
+    - eslint-plugin-import
+    - eslint-plugin-jsx-a11y
+    - eslint-plugin-no-only-tests
+    - eslint-plugin-prettier
+    - eslint-plugin-react
+    - eslint-plugin-react-hooks
+    - eslint-plugin-react-refresh
+    - eslint-plugin-storybook
+    - glob
+    - globals
+    - husky
+    - isbot
+    - lerna
+    - lint-staged
+    - next
+    - npm-run-all2
+    - nyc
+    - pagefind
+    - postcss
+    - postcss-cli
+    - postcss-import
+    - postcss-modules
+    - prettier
+    - publint
+    - react
+    - react-dom
+    - react-router
+    - remark-gfm
+    - rimraf
+    - storybook
+    - tocbot
+    - typescript
+    - typescript-eslint
+    - vite
+    - vite-plugin-istanbul
+    - vite-tsconfig-paths
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: packages/ai/src/index.ts,
+    packages/base/src/Device/index.ts, packages/base/src/hooks/index.ts, packages/base/src/index.ts'
+  setup_and_usage:
+  - 'Download and Installation: You can install @ui5/webcomponents-react along with the required peer-dependencies
+    based on the components you plan to use. **In most cases, the recommended installation is the most maintainable
+    option.**'
+  - 'Recommended Installation: Install @ui5/webcomponents-react along with the @ui5/webcomponents and @ui5/webcomponents-fiori
+    peer-dependencies as dependencies in your project:'
+  - 'Recommended Installation: npm install @ui5/webcomponents-react @ui5/webcomponents @ui5/webcomponents-fiori'
+  - 'Recommended Installation: **Note:** If you import anything from another @ui5/webcomponents-xyz package, we
+    recommend installing it as a dependency as well, even if it’s already included through another package.'
+  - 'Minimal Installation: Since version v2.14.0 of @ui5/webcomponents-react, @ui5/webcomponents-fiori is an optional
+    peer-dependency. You will still need to install it if:'
+  - 'Minimal Installation: - You want to use any component from the @ui5/webcomponents-fiori package.'
+  - 'Minimal Installation: - You want to use the VariantManagement component.'
+  - 'Minimal Installation: - You import anything from the @ui5/webcomponents-fiori package.'
+  limitations:
+  - 'Known Issues: Please take a look at our GitHub Issues.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/UI5/webcomponents-react/blob/main/README.md
+  path: README.md
+  blob_sha: 60d90c74afcefe6c7486e11b1d8ad2f33ef2a709
+  retrieved: true
+- type: manifest
+  path: makefile
+  blob_sha: e5775a0bfe586aae942ba642fea3638687724687
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: f58185486c9b8901800a6b5393e8c168b64ed1cd
+  retrieved: true
+- type: manifest
+  path: examples/nextjs-app/package.json
+  blob_sha: d8afd4ce2f2f4bb7433c5bcd494dfbbbfa4018b1
+  retrieved: true
+- type: manifest
+  path: examples/nextjs-pages/package.json
+  blob_sha: 2ce704007dfc3a8ec8d3633405d856682eec5beb
+  retrieved: true
+- type: manifest
+  path: examples/react-router-ts/package.json
+  blob_sha: 835b527f768456ec8d01a5927f9df5e1571c834b
+  retrieved: true
+- type: manifest
+  path: examples/vite-ts/package.json
+  blob_sha: f1f473978d9c96211d659375b5ab7cfc0297a891
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 4273618
+    MDX: 371613
+    CSS: 116797
+    JavaScript: 30513
+    HTML: 9514
+    Makefile: 81
+- type: Git tree
+  status: captured
+  sha: e35485b7b5a995d6ac452b7020f96b4f53205f24
+  truncated: false
+- type: source_file
+  path: packages/ai/src/index.ts
+  blob_sha: ba3a14e8ea060c17072dcf74e23209dfcafc21b9
+  retrieved: true
+- type: source_file
+  path: packages/base/src/Device/index.ts
+  blob_sha: a8381667f1ca9c4111c6d866e726787055fa1633
+  retrieved: true
+- type: source_file
+  path: packages/base/src/hooks/index.ts
+  blob_sha: 61e68369d3c6f659356aa1a402bb4bbddcf093a3
+  retrieved: true
+- type: source_file
+  path: packages/base/src/index.ts
+  blob_sha: 73c3c045d56827f936f84302c26d084093144f35
+  retrieved: true

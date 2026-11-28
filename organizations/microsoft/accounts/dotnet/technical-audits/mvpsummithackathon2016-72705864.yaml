@@ -1,0 +1,90 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:52:39+00:00'
+evidence_fingerprint: 83859b5dff7cd8a5bbe403aaa6d1479881f103d35ceac706f9e27a84a2c4cd9d
+repository_metadata:
+  company: Microsoft
+  account: dotnet
+  full_name: dotnet/MVPSummitHackathon2016
+  repository_id: 72705864
+  url: https://github.com/dotnet/MVPSummitHackathon2016
+  description: Samples for the CLI extensibility hackathon for MVP Summit 2016 in Redmond!
+  default_branch: master
+  license_spdx: MIT
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2017-02-05T03:42:12Z'
+  stars: 14
+  readme_url: https://github.com/dotnet/MVPSummitHackathon2016/blob/master/README.md
+  readme_path: README.md
+  readme_sha: f2509cae8e8d78202d22df94fdffdbd1ec1995ce
+  manifest_paths: []
+  source_files_inspected:
+  - dotnet-packer/Program.cs
+  - pack.sh
+  - sample/ConsumingProject/Program.cs
+  - SampleTargets.PackerTarget/Enumerations/DeploymentType.cs
+  repository_tree:
+    status: captured
+    sha: 5840c312e0ea4105c4c5521b3395e0830c44d2a8
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains the basic sample of an extension to the MSBuild edition of the CLI toolset for
+    .NET Core. The idea of the repo is to provide an easy way to get started with developing extensions to the CLI
+    and the SDK in terms of both MSBuild targets as well as "classic" tools that can be invoked using the dotnet-
+    invocation pattern.
+  why_used: Samples for the CLI extensibility hackathon for MVP Summit 2016 in Redmond!
+  core_features: []
+  technology_stack:
+    languages:
+    - C#
+    - Shell
+    - PowerShell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: dotnet-packer/Program.cs,
+    pack.sh, sample/ConsumingProject/Program.cs, SampleTargets.PackerTarget/Enumerations/DeploymentType.cs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/dotnet/MVPSummitHackathon2016/blob/master/README.md
+  path: README.md
+  blob_sha: f2509cae8e8d78202d22df94fdffdbd1ec1995ce
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 7001
+    Shell: 147
+    PowerShell: 141
+- type: Git tree
+  status: captured
+  sha: 5840c312e0ea4105c4c5521b3395e0830c44d2a8
+  truncated: false
+- type: source_file
+  path: dotnet-packer/Program.cs
+  blob_sha: 4fb9442eb57e07df4c9474ed13725291745b4850
+  retrieved: true
+- type: source_file
+  path: pack.sh
+  blob_sha: ef0f267a2074732e04e238315d25a9e4cff03c65
+  retrieved: true
+- type: source_file
+  path: sample/ConsumingProject/Program.cs
+  blob_sha: c81448f54024e7f3b64bc95f810d58eeb427e8fc
+  retrieved: true
+- type: source_file
+  path: SampleTargets.PackerTarget/Enumerations/DeploymentType.cs
+  blob_sha: 530cd6db60ffb88749ff43aa1c9581992590a705
+  retrieved: true

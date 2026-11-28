@@ -1,0 +1,100 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:53:35+00:00'
+evidence_fingerprint: ce9b93221945191bea8c3d3fe7e4f2db5b5982a2d438f1f763bef6ff51bb24b2
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/openapi
+  repository_id: 740361497
+  url: https://github.com/cap-js/openapi
+  description: CAP Library for OpenAPI
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T08:33:41Z'
+  stars: 7
+  readme_url: https://github.com/cap-js/openapi/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e0421298b000e1f8c6224e7501dbed2f49b15a95
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - lib/compile/index.js
+  - lib/import/index.js
+  - index.js
+  - lib/compile/csdl-types.d.ts
+  repository_tree:
+    status: captured
+    sha: c3188e6e0d7f6bf900322ca087aa696a49a006ca
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The @cap-js/openapi is a package that provides support for OpenAPI document compilation.
+  why_used: CAP Library for OpenAPI
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@sap/cds'
+    - '@types/node'
+    - eslint
+    - globals
+    - pluralize
+    - typescript
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/compile/index.js,
+    lib/import/index.js, index.js, lib/compile/csdl-types.d.ts'
+  setup_and_usage:
+  - 'Installation: $ npm install @cap-js/openapi'
+  - 'Usage: const cds = require(''@sap/cds'')'
+  - 'Usage: const { compile } = require(''@cap-js/openapi'')'
+  - 'Usage: const csn = await cds.load(cds.env.folders.srv)'
+  - 'Usage: const openapiDocument = compile(csn)'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/openapi/blob/main/README.md
+  path: README.md
+  blob_sha: e0421298b000e1f8c6224e7501dbed2f49b15a95
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: ce3fb80233b421a7db86a100d3e3c248dfbf5f0c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 377108
+- type: Git tree
+  status: captured
+  sha: c3188e6e0d7f6bf900322ca087aa696a49a006ca
+  truncated: false
+- type: source_file
+  path: lib/compile/index.js
+  blob_sha: c83bbbaccf41b6f48c911d7382f3d922fc8525e5
+  retrieved: true
+- type: source_file
+  path: lib/import/index.js
+  blob_sha: 55f6a048790bc37bc2f7d4a472566e2bc6639894
+  retrieved: true
+- type: source_file
+  path: index.js
+  blob_sha: fce2423b82cf0b3a2d9b1571bd377aaf7af29a1c
+  retrieved: true
+- type: source_file
+  path: lib/compile/csdl-types.d.ts
+  blob_sha: 7d83af83b90da61c7f48b75f7add0faeb001a6ba
+  retrieved: true

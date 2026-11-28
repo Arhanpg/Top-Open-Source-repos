@@ -1,10 +1,10 @@
 # Technical audits — xuperchain
 
-Updated: 2026-11-27T22:44:04+00:00
+Updated: 2026-11-28T07:15:20+00:00
 
 ## Status counts
 
-- evidence_only: 24
+- evidence_only: 28
 
 ## Repository dossiers
 
@@ -34,3 +34,7 @@ Updated: 2026-11-27T22:44:04+00:00
 | xbench-191128279 | evidence_only | [xbench-191128279.md](xbench-191128279.md) | [xbench-191128279.yaml](xbench-191128279.yaml) |
 | xdev-366319872 | evidence_only | [xdev-366319872.md](xdev-366319872.md) | [xdev-366319872.yaml](xdev-366319872.yaml) |
 | xip-242135968 | evidence_only | [xip-242135968.md](xip-242135968.md) | [xip-242135968.yaml](xip-242135968.yaml) |
+| xuper-ca-375565082 | evidence_only | [xuper-ca-375565082.md](xuper-ca-375565082.md) | [xuper-ca-375565082.yaml](xuper-ca-375565082.yaml) |
+| xuper-front-375565578 | evidence_only | [xuper-front-375565578.md](xuper-front-375565578.md) | [xuper-front-375565578.yaml](xuper-front-375565578.yaml) |
+| xuper-java-sdk-224450716 | evidence_only | [xuper-java-sdk-224450716.md](xuper-java-sdk-224450716.md) | [xuper-java-sdk-224450716.yaml](xuper-java-sdk-224450716.yaml) |
+| xuper-python-sdk-219691999 | evidence_only | [xuper-python-sdk-219691999.md](xuper-python-sdk-219691999.md) | [xuper-python-sdk-219691999.yaml](xuper-python-sdk-219691999.yaml) |

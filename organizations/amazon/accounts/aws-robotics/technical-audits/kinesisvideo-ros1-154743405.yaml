@@ -1,0 +1,100 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:50:48+00:00'
+evidence_fingerprint: 2697c532a49394633a4375b30bdde0ed248de6e41b5f7cb3d347cf9d240eeb59
+repository_metadata:
+  company: Amazon
+  account: aws-robotics
+  full_name: aws-robotics/kinesisvideo-ros1
+  repository_id: 154743405
+  url: https://github.com/aws-robotics/kinesisvideo-ros1
+  description: ROS packages for facilitating the use of AWS cloud services.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-02-08T21:49:04Z'
+  stars: 21
+  readme_url: https://github.com/aws-robotics/kinesisvideo-ros1/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 461b6ae1ed6f3456ccabd275cc1774006a6c5b86
+  manifest_paths:
+  - kinesis_video_msgs/CMakeLists.txt
+  - kinesis_video_streamer/CMakeLists.txt
+  source_files_inspected:
+  - kinesis_video_streamer/src/main.cpp
+  - kinesis_video_streamer/src/ros_stream_subscription_installer.cpp
+  - kinesis_video_streamer/src/streamer.cpp
+  - kinesis_video_streamer/src/subscriber_callbacks.cpp
+  repository_tree:
+    status: captured
+    sha: 90e0e83c91e26c52dac4c521b58fdc6851d7bb46
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Kinesis Video Streams ROS package enables robots to stream video to the cloud for analytics, playback,
+    and archival use. Out of the box, the nodes provided make it possible to encode & stream image data (e.g. video
+    feeds and LIDAR scans) from a ROS “Image” topic to the cloud, enabling you to view the live video feed through
+    the Kinesis Video Console, consume the stream via other applications, or perform intelligent analysis, face
+    detection and face recognition using Amazon Rekognition.
+  why_used: ROS packages for facilitating the use of AWS cloud services.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: kinesis_video_streamer/src/main.cpp,
+    kinesis_video_streamer/src/ros_stream_subscription_installer.cpp, kinesis_video_streamer/src/streamer.cpp, kinesis_video_streamer/src/subscriber_callbacks.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-robotics/kinesisvideo-ros1/blob/master/README.md
+  path: README.md
+  blob_sha: 461b6ae1ed6f3456ccabd275cc1774006a6c5b86
+  retrieved: true
+- type: manifest
+  path: kinesis_video_msgs/CMakeLists.txt
+  blob_sha: c6e4b97490619492c11b1c6fae0e2d754b61961e
+  retrieved: true
+- type: manifest
+  path: kinesis_video_streamer/CMakeLists.txt
+  blob_sha: bb57b7dd4424a863356ede117ccbb209908c7f43
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 63896
+    CMake: 4136
+- type: Git tree
+  status: captured
+  sha: 90e0e83c91e26c52dac4c521b58fdc6851d7bb46
+  truncated: false
+- type: source_file
+  path: kinesis_video_streamer/src/main.cpp
+  blob_sha: b5f10e3309ea3a72e8577291d0bc90d367b627f0
+  retrieved: true
+- type: source_file
+  path: kinesis_video_streamer/src/ros_stream_subscription_installer.cpp
+  blob_sha: 13cfa147eee37ff54e6fcd6ecef0584d26932d17
+  retrieved: true
+- type: source_file
+  path: kinesis_video_streamer/src/streamer.cpp
+  blob_sha: 5c9f6007e6224f45017a9a188b253673277dd9e2
+  retrieved: true
+- type: source_file
+  path: kinesis_video_streamer/src/subscriber_callbacks.cpp
+  blob_sha: e726d2328887f972397be6d86edd4d0a77eebac4
+  retrieved: true

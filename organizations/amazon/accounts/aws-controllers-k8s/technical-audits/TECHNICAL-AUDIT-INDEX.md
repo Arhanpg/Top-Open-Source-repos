@@ -1,10 +1,10 @@
 # Technical audits — aws-controllers-k8s
 
-Updated: 2026-11-27T22:44:07+00:00
+Updated: 2026-11-28T07:15:18+00:00
 
 ## Status counts
 
-- evidence_only: 26
+- evidence_only: 31
 
 ## Repository dossiers
 
@@ -35,4 +35,9 @@ Updated: 2026-11-27T22:44:07+00:00
 | cloudwatchevents-controller-481699075 | evidence_only | [cloudwatchevents-controller-481699075.md](cloudwatchevents-controller-481699075.md) | [cloudwatchevents-controller-481699075.yaml](cloudwatchevents-controller-481699075.yaml) |
 | cloudwatchlogs-controller-481698749 | evidence_only | [cloudwatchlogs-controller-481698749.md](cloudwatchlogs-controller-481698749.md) | [cloudwatchlogs-controller-481698749.yaml](cloudwatchlogs-controller-481698749.yaml) |
 | code-generator-333423109 | evidence_only | [code-generator-333423109.md](code-generator-333423109.md) | [code-generator-333423109.yaml](code-generator-333423109.yaml) |
+| codeartifact-controller-894112589 | evidence_only | [codeartifact-controller-894112589.md](codeartifact-controller-894112589.md) | [codeartifact-controller-894112589.yaml](codeartifact-controller-894112589.yaml) |
+| cognitoidentity-controller-520157221 | evidence_only | [cognitoidentity-controller-520157221.md](cognitoidentity-controller-520157221.md) | [cognitoidentity-controller-520157221.yaml](cognitoidentity-controller-520157221.yaml) |
+| cognitoidentityprovider-controller-889193785 | evidence_only | [cognitoidentityprovider-controller-889193785.md](cognitoidentityprovider-controller-889193785.md) | [cognitoidentityprovider-controller-889193785.yaml](cognitoidentityprovider-controller-889193785.yaml) |
+| community-217622305 | evidence_only | [community-217622305.md](community-217622305.md) | [community-217622305.yaml](community-217622305.yaml) |
+| controller-bootstrap-333426916 | evidence_only | [controller-bootstrap-333426916.md](controller-bootstrap-333426916.md) | [controller-bootstrap-333426916.yaml](controller-bootstrap-333426916.yaml) |
 | github-397711626 | evidence_only | [github-397711626.md](github-397711626.md) | [github-397711626.yaml](github-397711626.yaml) |

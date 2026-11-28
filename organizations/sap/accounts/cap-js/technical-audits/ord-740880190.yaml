@@ -1,0 +1,174 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:59:52+00:00'
+evidence_fingerprint: c67ebf1b3724c2c7f36ab4ecb143613e9068f939cc99089d2acd4b78ab06dce4
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/ord
+  repository_id: 740880190
+  url: https://github.com/cap-js/ord
+  description: Open Resource Discovery (ORD) is a protocol that allows applications and services to self-describe
+    their exposed resources and capabilities. This plugin enables generation of ORD document for CAP based applications.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T03:31:06Z'
+  stars: 5
+  readme_url: https://github.com/cap-js/ord/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 549d7b028bfc8731caf046ad22788dd5a77621cd
+  manifest_paths:
+  - package.json
+  - xmpl/package.json
+  - xmpl_java/package.json
+  - xmpl_java/pom.xml
+  - __tests__/bookshop/package.json
+  - xmpl_java/integration-tests/pom.xml
+  source_files_inspected:
+  - lib/index.js
+  - xmpl_java/srv/src/main/java/ord/Application.java
+  - lib/auth/authentication.js
+  - lib/auth/cf-mtls.js
+  repository_tree:
+    status: captured
+    sha: 9bee1c94e426c7db537b349d0ab8cfb694b926ac
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This plugin adds support for the Open Resource Discovery (ORD) protocol for CAP based applications. When
+    you add the ORD plugin, your application gains a single entry point, which allows to discover and gather machine-readable
+    information or metadata about the application. You can use this information to construct a static metadata catalog
+    or to perform a detailed runtime inspection of your actual system instances / system landscapes.
+  why_used: Open Resource Discovery (ORD) is a protocol that allows applications and services to self-describe their
+    exposed resources and capabilities. This plugin enables generation of ORD document for CAP based applications.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - CAP CDS
+    - Java
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/asyncapi'
+    - '@cap-js/cds-test'
+    - '@cap-js/cds-types'
+    - '@cap-js/graphql'
+    - '@cap-js/openapi'
+    - '@cap-js/ord'
+    - '@cap-js/sqlite'
+    - '@open-resource-discovery/specification'
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - '@sap/cds-mtxs'
+    - bcryptjs
+    - cds-feature-ord
+    - cds-maven-plugin
+    - cds-services-bom
+    - cli-progress
+    - eslint
+    - express
+    - flatten-maven-plugin
+    - jacoco-maven-plugin
+    - jest
+    - lodash
+    - logback-classic
+    - maven-compiler-plugin
+    - maven-enforcer-plugin
+    - maven-surefire-plugin
+    - ord
+    - ord-integration-tests
+    - ord-parent
+    - piscina
+    - prettier
+    - sap-s4com-supplier-v1
+    - sap-sai-supplier-v1
+    - spring-boot-dependencies
+    - spring-boot-maven-plugin
+    - spring-boot-starter-test
+    - spring-boot-webmvc-test
+    - supertest
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/index.js, xmpl_java/srv/src/main/java/ord/Application.java,
+    lib/auth/authentication.js, lib/auth/cf-mtls.js'
+  setup_and_usage:
+  - 'Installation: npm install @cap-js/ord'
+  - 'Installation: > Note: @cap-js/openapi and @cap-js/asyncapi packages have been migrated from peerDependencies
+    to dependencies in package.json. As a result, using globally installed packages may lead to conflicts. If conflicts
+    arises do npm uninstall -g @cap-js/openapi @cap-js/asyncapi and then npm install in your project directory.'
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  - 'Security / Disclosure: At the current state, the plugin will expose static metadata with open access.'
+  - 'Security / Disclosure: This means that the CAP resources are described and documented openly, but it does not
+    imply that the resources themselves can be accessed.'
+  - 'Security / Disclosure: If you have a need to protect your metadata, please refrain from installing this plugin
+    until we support metadata protection.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/ord/blob/main/README.md
+  path: README.md
+  blob_sha: 549d7b028bfc8731caf046ad22788dd5a77621cd
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 7e7def4b8dd7f16b83b6966b7a4685d580667b41
+  retrieved: true
+- type: manifest
+  path: xmpl/package.json
+  blob_sha: 1ac23a010e962c8ca5d81507a500c20c7e5e1e30
+  retrieved: true
+- type: manifest
+  path: xmpl_java/package.json
+  blob_sha: a25db9a5903e4e30f79ecdbb36387a767aa57485
+  retrieved: true
+- type: manifest
+  path: xmpl_java/pom.xml
+  blob_sha: 8570c11ac62c9f07309efa617dac74d7d5396ac1
+  retrieved: true
+- type: manifest
+  path: __tests__/bookshop/package.json
+  blob_sha: bd50933c4f90d6a7271f3f2313bf3c4031f116f5
+  retrieved: true
+- type: manifest
+  path: xmpl_java/integration-tests/pom.xml
+  blob_sha: 70bd799f348a7888f33c77b71b1f142364873bf8
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 629100
+    CAP CDS: 20605
+    Java: 3156
+- type: Git tree
+  status: captured
+  sha: 9bee1c94e426c7db537b349d0ab8cfb694b926ac
+  truncated: false
+- type: source_file
+  path: lib/index.js
+  blob_sha: 10486b0d9f22b80d469a033a7a105cb62d29d5f0
+  retrieved: true
+- type: source_file
+  path: xmpl_java/srv/src/main/java/ord/Application.java
+  blob_sha: 0f973b9f0587eabf8622aad68894e18282f2c9cf
+  retrieved: true
+- type: source_file
+  path: lib/auth/authentication.js
+  blob_sha: 1d5ae0c3f53f3882c3f9b49456d1f47c4e650e1f
+  retrieved: true
+- type: source_file
+  path: lib/auth/cf-mtls.js
+  blob_sha: 216cadef0636b7409d06a39e1a517630d8ceb85a
+  retrieved: true

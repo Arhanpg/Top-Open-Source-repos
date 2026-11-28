@@ -1,0 +1,112 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:53:27+00:00'
+evidence_fingerprint: 172408d4604f14c017a0a5079ee34039579d6eb4965c13bb6e97f29e70211300
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/redis_cache
+  repository_id: 563046915
+  url: https://github.com/triton-inference-server/redis_cache
+  description: TRITONCACHE implementation of a Redis cache
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-02T23:27:14Z'
+  stars: 18
+  readme_url: https://github.com/triton-inference-server/redis_cache/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5ca79e4e24284c50f0048eb69ec5215c0d809046
+  manifest_paths:
+  - CMakeLists.txt
+  - Dockerfile
+  - pyproject.toml
+  - examples/tls/Dockerfile
+  source_files_inspected:
+  - src/cache_api.cc
+  - src/redis_cache.cc
+  - src/redis_cache.h
+  - build.sh
+  repository_tree:
+    status: captured
+    sha: 45a9e67b1af6678b27d43acdd9001f4abe8e6d5f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: -->
+  why_used: TRITONCACHE implementation of a Redis cache
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    - Shell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/cache_api.cc,
+    src/redis_cache.cc, src/redis_cache.h, build.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/redis_cache/blob/main/README.md
+  path: README.md
+  blob_sha: 5ca79e4e24284c50f0048eb69ec5215c0d809046
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 8f1d84916554868023a314704b010e6e3e131b9c
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: ef7157d0326a604cbac42cf767c61febd4d78a44
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 1a8da1f4d366d75f2af71229a835ed5fd3102b5f
+  retrieved: true
+- type: manifest
+  path: examples/tls/Dockerfile
+  blob_sha: fb8b0b2530e2b938758273f0e7f75a15f07ab4e9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 19131
+    CMake: 7435
+    Shell: 1743
+    Dockerfile: 136
+- type: Git tree
+  status: captured
+  sha: 45a9e67b1af6678b27d43acdd9001f4abe8e6d5f
+  truncated: false
+- type: source_file
+  path: src/cache_api.cc
+  blob_sha: 899609d044e9d083eec8dc81e0871d9201e775fd
+  retrieved: true
+- type: source_file
+  path: src/redis_cache.cc
+  blob_sha: cfc16e91c8780fa1f482bf7891fc76971eaea718
+  retrieved: true
+- type: source_file
+  path: src/redis_cache.h
+  blob_sha: caed380bcae4e68109920b6b1f4fc449132abe14
+  retrieved: true
+- type: source_file
+  path: build.sh
+  blob_sha: 7f5a1974358bf05d722f0b882b41abf835686874
+  retrieved: true

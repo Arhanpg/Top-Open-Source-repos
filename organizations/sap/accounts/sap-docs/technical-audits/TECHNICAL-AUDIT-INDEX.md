@@ -1,10 +1,10 @@
 # Technical audits — sap-docs
 
-Updated: 2026-11-27T22:44:02+00:00
+Updated: 2026-11-28T07:15:16+00:00
 
 ## Status counts
 
-- evidence_only: 23
+- evidence_only: 27
 
 ## Repository dossiers
 
@@ -32,4 +32,8 @@ Updated: 2026-11-27T22:44:02+00:00
 | btp-job-scheduling-service-523351965 | evidence_only | [btp-job-scheduling-service-523351965.md](btp-job-scheduling-service-523351965.md) | [btp-job-scheduling-service-523351965.yaml](btp-job-scheduling-service-523351965.yaml) |
 | btp-master-data-integration-715076168 | evidence_only | [btp-master-data-integration-715076168.md](btp-master-data-integration-715076168.md) | [btp-master-data-integration-715076168.yaml](btp-master-data-integration-715076168.yaml) |
 | btp-neo-environment-528042153 | evidence_only | [btp-neo-environment-528042153.md](btp-neo-environment-528042153.md) | [btp-neo-environment-528042153.yaml](btp-neo-environment-528042153.yaml) |
+| btp-private-link-service-396760594 | evidence_only | [btp-private-link-service-396760594.md](btp-private-link-service-396760594.md) | [btp-private-link-service-396760594.yaml](btp-private-link-service-396760594.yaml) |
+| btp-process-orchestration-migration-guide-465770467 | evidence_only | [btp-process-orchestration-migration-guide-465770467.md](btp-process-orchestration-migration-guide-465770467.md) | [btp-process-orchestration-migration-guide-465770467.yaml](btp-process-orchestration-migration-guide-465770467.yaml) |
+| btp-runtime-comparison-guide-904240709 | evidence_only | [btp-runtime-comparison-guide-904240709.md](btp-runtime-comparison-guide-904240709.md) | [btp-runtime-comparison-guide-904240709.yaml](btp-runtime-comparison-guide-904240709.yaml) |
+| btp-service-manager-568337755 | evidence_only | [btp-service-manager-568337755.md](btp-service-manager-568337755.md) | [btp-service-manager-568337755.yaml](btp-service-manager-568337755.yaml) |
 | github-362398258 | evidence_only | [github-362398258.md](github-362398258.md) | [github-362398258.yaml](github-362398258.yaml) |

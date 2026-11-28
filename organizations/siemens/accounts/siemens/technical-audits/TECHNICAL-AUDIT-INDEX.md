@@ -1,16 +1,18 @@
 # Technical audits — siemens
 
-Updated: 2026-11-27T22:44:02+00:00
+Updated: 2026-11-28T07:15:17+00:00
 
 ## Status counts
 
-- evidence_only: 22
+- evidence_only: 26
 
 ## Repository dossiers
 
 | Repository | Status | Markdown | YAML |
 |---|---|---|---|
+| agent-router-1451620891 | evidence_only | [agent-router-1451620891.md](agent-router-1451620891.md) | [agent-router-1451620891.yaml](agent-router-1451620891.yaml) |
 | amazon2023-cis-734020906 | evidence_only | [amazon2023-cis-734020906.md](amazon2023-cis-734020906.md) | [amazon2023-cis-734020906.yaml](amazon2023-cis-734020906.yaml) |
+| android-x86-siemens-6140215 | evidence_only | [android-x86-siemens-6140215.md](android-x86-siemens-6140215.md) | [android-x86-siemens-6140215.yaml](android-x86-siemens-6140215.yaml) |
 | aslanppconnector-10500137 | evidence_only | [aslanppconnector-10500137.md](aslanppconnector-10500137.md) | [aslanppconnector-10500137.yaml](aslanppconnector-10500137.yaml) |
 | azuread-oauth-codeexamples-330718683 | evidence_only | [azuread-oauth-codeexamples-330718683.md](azuread-oauth-codeexamples-330718683.md) | [azuread-oauth-codeexamples-330718683.yaml](azuread-oauth-codeexamples-330718683.yaml) |
 | ctrlppcheck-577744078 | evidence_only | [ctrlppcheck-577744078.md](ctrlppcheck-577744078.md) | [ctrlppcheck-577744078.yaml](ctrlppcheck-577744078.yaml) |
@@ -32,3 +34,5 @@ Updated: 2026-11-27T22:44:02+00:00
 | productconfigurationwithshacl-139157680 | evidence_only | [productconfigurationwithshacl-139157680.md](productconfigurationwithshacl-139157680.md) | [productconfigurationwithshacl-139157680.yaml](productconfigurationwithshacl-139157680.yaml) |
 | rhel9-cis-707639805 | evidence_only | [rhel9-cis-707639805.md](rhel9-cis-707639805.md) | [rhel9-cis-707639805.yaml](rhel9-cis-707639805.yaml) |
 | ubuntu22-cis-656668399 | evidence_only | [ubuntu22-cis-656668399.md](ubuntu22-cis-656668399.md) | [ubuntu22-cis-656668399.yaml](ubuntu22-cis-656668399.yaml) |
+| ubuntu24-cis-1113118825 | evidence_only | [ubuntu24-cis-1113118825.md](ubuntu24-cis-1113118825.md) | [ubuntu24-cis-1113118825.yaml](ubuntu24-cis-1113118825.yaml) |
+| zapsmtp-360866919 | evidence_only | [zapsmtp-360866919.md](zapsmtp-360866919.md) | [zapsmtp-360866919.yaml](zapsmtp-360866919.yaml) |

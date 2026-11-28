@@ -1,0 +1,125 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:01:43+00:00'
+evidence_fingerprint: 99464527db0cc83cacbc1c23fa493c68c2cc3143694e200eff580f68433d8f0a
+repository_metadata:
+  company: Alphabet (Google)
+  account: GoogleCloudPlatform
+  full_name: GoogleCloudPlatform/PerfKitExplorer
+  repository_id: 21950873
+  url: https://github.com/GoogleCloudPlatform/PerfKitExplorer
+  description: PerfKit Explorer is a dashboarding and performance analysis tool built with Google technologies and
+    easily extensible. PerfKit Explorer is licensed under the Apache 2 license terms. Please make sure to read,
+    understand and agree to the terms of the LICENSE and CONTRIBUTING files before proceeding.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2021-05-10T00:56:29Z'
+  stars: 266
+  readme_url: https://github.com/GoogleCloudPlatform/PerfKitExplorer/blob/master/README.md
+  readme_path: README.md
+  readme_sha: c84cdc655b000083c503152f1d38840b2b46220d
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - client/app.js
+  - server/perfkit/common/big_query_client.py
+  repository_tree:
+    status: captured
+    sha: e6c67014332777183dc81856029d7d483f04c91f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: PerfKit Explorer Installation Guide =================================== PerfKit is a service & web front
+    end for composing queries and dashboards, and sharing the results. You can see a [live deployment and demo dashboard
+    here] (https://perfkit-explorer.appspot.com/explore?dashboard=5714163003293696). You can click and interact
+    with widgets (graphs), see the SQL, edit the json, and move things around on the demo dashboard. When you visit
+    the site it will ask you permission to use your account. The full secuity model of the dashboard is active and
+    permission is needed to verify your identity for permission checking. Everyone has read. Writing dashboards
+    and execution of arbitrary queries is restricted.
+  why_used: PerfKit Explorer is a dashboarding and performance analysis tool built with Google technologies and
+    easily extensible. PerfKit Explorer is licensed under the Apache 2 license terms. Please make sure to read,
+    understand and agree to the terms of the LICENSE and CONTRIBUTING files before proceeding.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - Python
+    - HTML
+    - CSS
+    - Batchfile
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - gulp
+    - gulp-closure-compiler
+    - gulp-concat
+    - gulp-flatten
+    - gulp-minify-html
+    - gulp-ng-html2js
+    - gulp-uglify
+    - gulp-util
+    - jasmine
+    - jasmine-core
+    - karma
+    - karma-chrome-launcher
+    - karma-closure
+    - karma-jasmine
+    - karma-jasmine-html-reporter
+    - karma-jasmine-matchers
+    - karma-nested-reporter
+    - karma-ng-html2js-preprocessor
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: client/app.js, server/perfkit/__init__.py,
+    server/perfkit/common/__init__.py, server/perfkit/common/big_query_client.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/GoogleCloudPlatform/PerfKitExplorer/blob/master/README.md
+  path: README.md
+  blob_sha: c84cdc655b000083c503152f1d38840b2b46220d
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: dfa5a5f54ae6042e0cbc91bda636b45dfbcd2f91
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 1051249
+    Python: 261404
+    HTML: 96732
+    CSS: 27281
+    Batchfile: 932
+    Shell: 738
+- type: Git tree
+  status: captured
+  sha: e6c67014332777183dc81856029d7d483f04c91f
+  truncated: false
+- type: source_file
+  path: client/app.js
+  blob_sha: 5b032accc194328405a0c2dd8467cf49d4b70688
+  retrieved: true
+- type: source_file
+  path: server/perfkit/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: server/perfkit/common/__init__.py
+  blob_sha: e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  retrieved: false
+- type: source_file
+  path: server/perfkit/common/big_query_client.py
+  blob_sha: 279bcbc946dfc5b26493f4a896c2e48bd827d7cf
+  retrieved: true

@@ -1,10 +1,11 @@
 # Technical audits — microsoftdocs
 
-Updated: 2026-11-27T22:44:03+00:00
+Updated: 2026-11-28T07:15:16+00:00
 
 ## Status counts
 
-- evidence_only: 24
+- evidence_only: 27
+- insufficient_evidence: 1
 
 ## Repository dossiers
 
@@ -33,4 +34,8 @@ Updated: 2026-11-27T22:44:03+00:00
 | csidev-public-prod-159756056 | evidence_only | [csidev-public-prod-159756056.md](csidev-public-prod-159756056.md) | [csidev-public-prod-159756056.yaml](csidev-public-prod-159756056.yaml) |
 | d365fnoarchivewithdataverselongtermretention-757764315 | evidence_only | [d365fnoarchivewithdataverselongtermretention-757764315.md](d365fnoarchivewithdataverselongtermretention-757764315.md) | [d365fnoarchivewithdataverselongtermretention-757764315.yaml](d365fnoarchivewithdataverselongtermretention-757764315.yaml) |
 | devopslearn-222500933 | evidence_only | [devopslearn-222500933.md](devopslearn-222500933.md) | [devopslearn-222500933.yaml](devopslearn-222500933.yaml) |
+| devrelaxevalidationsppev3-269164821 | evidence_only | [devrelaxevalidationsppev3-269164821.md](devrelaxevalidationsppev3-269164821.md) | [devrelaxevalidationsppev3-269164821.yaml](devrelaxevalidationsppev3-269164821.yaml) |
+| docscontentnav-241456640 | evidence_only | [docscontentnav-241456640.md](docscontentnav-241456640.md) | [docscontentnav-241456640.yaml](docscontentnav-241456640.yaml) |
+| docyamlauthoringdemo-198337831 | evidence_only | [docyamlauthoringdemo-198337831.md](docyamlauthoringdemo-198337831.md) | [docyamlauthoringdemo-198337831.yaml](docyamlauthoringdemo-198337831.yaml) |
+| dynamicsax2012-msdn-135879903 | insufficient_evidence | [dynamicsax2012-msdn-135879903.md](dynamicsax2012-msdn-135879903.md) | [dynamicsax2012-msdn-135879903.yaml](dynamicsax2012-msdn-135879903.yaml) |
 | github-194900040 | evidence_only | [github-194900040.md](github-194900040.md) | [github-194900040.yaml](github-194900040.yaml) |

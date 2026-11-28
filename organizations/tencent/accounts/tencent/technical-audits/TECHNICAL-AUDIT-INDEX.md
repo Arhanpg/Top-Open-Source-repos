@@ -1,10 +1,10 @@
 # Technical audits — tencent
 
-Updated: 2026-11-27T22:44:06+00:00
+Updated: 2026-11-28T07:15:20+00:00
 
 ## Status counts
 
-- evidence_only: 22
+- evidence_only: 26
 
 ## Repository dossiers
 
@@ -29,6 +29,10 @@ Updated: 2026-11-27T22:44:06+00:00
 | browserskill-1276665883 | evidence_only | [browserskill-1276665883.md](browserskill-1276665883.md) | [browserskill-1276665883.yaml](browserskill-1276665883.yaml) |
 | buildingblock-1148720768 | evidence_only | [buildingblock-1148720768.md](buildingblock-1148720768.md) | [buildingblock-1148720768.yaml](buildingblock-1148720768.yaml) |
 | censeoqoe-428977916 | evidence_only | [censeoqoe-428977916.md](censeoqoe-428977916.md) | [censeoqoe-428977916.yaml](censeoqoe-428977916.yaml) |
+| cloud-volume-workload-traces-902671904 | evidence_only | [cloud-volume-workload-traces-902671904.md](cloud-volume-workload-traces-902671904.md) | [cloud-volume-workload-traces-902671904.yaml](cloud-volume-workload-traces-902671904.yaml) |
 | cmongo-137185014 | evidence_only | [cmongo-137185014.md](cmongo-137185014.md) | [cmongo-137185014.yaml](cmongo-137185014.yaml) |
+| codeanalysis-442433063 | evidence_only | [codeanalysis-442433063.md](codeanalysis-442433063.md) | [codeanalysis-442433063.yaml](codeanalysis-442433063.yaml) |
+| cogkernel-904512613 | evidence_only | [cogkernel-904512613.md](cogkernel-904512613.md) | [cogkernel-904512613.yaml](cogkernel-904512613.yaml) |
+| cognitivekernel-pro-1030036185 | evidence_only | [cognitivekernel-pro-1030036185.md](cognitivekernel-pro-1030036185.md) | [cognitivekernel-pro-1030036185.yaml](cognitivekernel-pro-1030036185.yaml) |
 | cuarewardbench-1244147963 | evidence_only | [cuarewardbench-1244147963.md](cuarewardbench-1244147963.md) | [cuarewardbench-1244147963.yaml](cuarewardbench-1244147963.yaml) |
 | github-1010860903 | evidence_only | [github-1010860903.md](github-1010860903.md) | [github-1010860903.yaml](github-1010860903.yaml) |

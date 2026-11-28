@@ -1,10 +1,10 @@
 # Technical audits — kyma-project
 
-Updated: 2026-11-27T22:44:05+00:00
+Updated: 2026-11-28T07:15:19+00:00
 
 ## Status counts
 
-- evidence_only: 23
+- evidence_only: 27
 
 ## Repository dossiers
 
@@ -32,4 +32,8 @@ Updated: 2026-11-27T22:44:05+00:00
 | docker-registry-788884886 | evidence_only | [docker-registry-788884886.md](docker-registry-788884886.md) | [docker-registry-788884886.yaml](docker-registry-788884886.yaml) |
 | dora-integration-test-1145868367 | evidence_only | [dora-integration-test-1145868367.md](dora-integration-test-1145868367.md) | [dora-integration-test-1145868367.yaml](dora-integration-test-1145868367.yaml) |
 | eventing-auth-manager-623834856 | evidence_only | [eventing-auth-manager-623834856.md](eventing-auth-manager-623834856.md) | [eventing-auth-manager-623834856.yaml](eventing-auth-manager-623834856.yaml) |
+| eventing-manager-567363184 | evidence_only | [eventing-manager-567363184.md](eventing-manager-567363184.md) | [eventing-manager-567363184.yaml](eventing-manager-567363184.yaml) |
+| eventing-publisher-proxy-730578500 | evidence_only | [eventing-publisher-proxy-730578500.md](eventing-publisher-proxy-730578500.md) | [eventing-publisher-proxy-730578500.yaml](eventing-publisher-proxy-730578500.yaml) |
+| eventing-tools-604195819 | evidence_only | [eventing-tools-604195819.md](eventing-tools-604195819.md) | [eventing-tools-604195819.yaml](eventing-tools-604195819.yaml) |
+| examples-139590641 | evidence_only | [examples-139590641.md](examples-139590641.md) | [examples-139590641.yaml](examples-139590641.yaml) |
 | github-678089458 | evidence_only | [github-678089458.md](github-678089458.md) | [github-678089458.yaml](github-678089458.yaml) |

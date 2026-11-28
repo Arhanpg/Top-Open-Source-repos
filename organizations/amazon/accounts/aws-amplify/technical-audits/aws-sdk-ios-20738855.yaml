@@ -1,0 +1,115 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:08:24+00:00'
+evidence_fingerprint: 016c053f47686633639aa663db759cb1068f0bd8bdea50f95ff16b0d02d07ac8
+repository_metadata:
+  company: Amazon
+  account: aws-amplify
+  full_name: aws-amplify/aws-sdk-ios
+  repository_id: 20738855
+  url: https://github.com/aws-amplify/aws-sdk-ios
+  description: 'AWS SDK for iOS. For more information, see our web site:'
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2026-08-03T16:03:23Z'
+  stars: 1700
+  readme_url: https://github.com/aws-amplify/aws-sdk-ios/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 15330e8b18a667fc65a4a5930ab21823a1e8a1b1
+  manifest_paths:
+  - Gemfile
+  source_files_inspected:
+  - AWSCoreUnitTests/SigV4Tests/generate_swift_test_cases/lib/app_shell.rb
+  - AWSCoreUnitTests/SigV4Tests/generate_swift_test_cases/lib/presign_url_options.rb
+  - AWSCoreUnitTests/SigV4Tests/generate_swift_test_cases/lib/signer_forked.rb
+  - AWSCoreUnitTests/SigV4Tests/generate_swift_test_cases/lib/sigv4_test_case.rb
+  repository_tree:
+    status: captured
+    sha: 2f0d57452f091b14f62f2d804616ecd5ce39b305
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: We recommend that you start using AWS Amplify for Swift, our modern feature-rich library designed specifically
+    for building cloud-connected apps powered by AWS. You can refer to the AWS SDK for iOS migration guide to help
+    you transition to AWS Amplify for Swift. This version is scheduled to reach End of Support on **August 1, 2026**.
+    After this date, no further updates of any kind will be provided. See maintenance policy for more information
+    about the Amplify Client Library lifecycle.
+  why_used: 'AWS SDK for iOS. For more information, see our web site:'
+  core_features: []
+  technology_stack:
+    languages:
+    - Objective-C
+    - Swift
+    - C
+    - Ruby
+    - Python
+    - Shell
+    - HTML
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Bundler manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: AWSCoreUnitTests/SigV4Tests/generate_swift_test_cases/lib/app_shell.rb,
+    AWSCoreUnitTests/SigV4Tests/generate_swift_test_cases/lib/presign_url_options.rb, AWSCoreUnitTests/SigV4Tests/generate_swift_test_cases/lib/signer_forked.rb,
+    AWSCoreUnitTests/SigV4Tests/generate_swift_test_cases/lib/sigv4_test_case.rb'
+  setup_and_usage:
+  - 'Getting Started with Swift: 1. Import the AWSCore header in the application delegate.'
+  - 'Getting Started with Swift: 2. Create a default service configuration by adding the following code snippet
+    in the application:didFinishLaunchingWithOptions: application delegate method.'
+  - 'Getting Started with Swift: let credentialsProvider = AWSCognitoCredentialsProvider('
+  - 'Getting Started with Swift: regionType: CognitoRegionType,'
+  - 'Getting Started with Swift: identityPoolId: CognitoIdentityPoolId)'
+  - 'Getting Started with Swift: let configuration = AWSServiceConfiguration('
+  - 'Getting Started with Swift: region: DefaultServiceRegionType,'
+  - 'Getting Started with Swift: credentialsProvider: credentialsProvider)'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-amplify/aws-sdk-ios/blob/main/README.md
+  path: README.md
+  blob_sha: 15330e8b18a667fc65a4a5930ab21823a1e8a1b1
+  retrieved: true
+- type: manifest
+  path: Gemfile
+  blob_sha: 6815acb5073f573ac786fdd22567972c564a6bbe
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Objective-C: 57004676
+    Swift: 1109303
+    C: 256703
+    Ruby: 85390
+    Python: 31861
+    Shell: 22105
+    HTML: 2955
+- type: Git tree
+  status: captured
+  sha: 2f0d57452f091b14f62f2d804616ecd5ce39b305
+  truncated: false
+- type: source_file
+  path: AWSCoreUnitTests/SigV4Tests/generate_swift_test_cases/lib/app_shell.rb
+  blob_sha: 4d1b9cc5e14956d3b15453ed36a59935d6a7edef
+  retrieved: true
+- type: source_file
+  path: AWSCoreUnitTests/SigV4Tests/generate_swift_test_cases/lib/presign_url_options.rb
+  blob_sha: 2dcf55865c79e1d118e142011dddb4348edff5c0
+  retrieved: true
+- type: source_file
+  path: AWSCoreUnitTests/SigV4Tests/generate_swift_test_cases/lib/signer_forked.rb
+  blob_sha: a31ad7e1caa541cef5f6091b8130ae7e8fa58d3f
+  retrieved: true
+- type: source_file
+  path: AWSCoreUnitTests/SigV4Tests/generate_swift_test_cases/lib/sigv4_test_case.rb
+  blob_sha: 16ddd9e819ddf3704f9442e17593c6192b4d3a52
+  retrieved: true

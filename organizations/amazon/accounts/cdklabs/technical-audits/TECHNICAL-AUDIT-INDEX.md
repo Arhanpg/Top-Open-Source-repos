@@ -1,10 +1,10 @@
 # Technical audits — cdklabs
 
-Updated: 2026-11-27T22:44:03+00:00
+Updated: 2026-11-28T07:15:21+00:00
 
 ## Status counts
 
-- evidence_only: 24
+- evidence_only: 28
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -35,4 +35,8 @@ Updated: 2026-11-27T22:44:03+00:00
 | cdk-amazonmq-go-823878697 | evidence_only | [cdk-amazonmq-go-823878697.md](cdk-amazonmq-go-823878697.md) | [cdk-amazonmq-go-823878697.yaml](cdk-amazonmq-go-823878697.yaml) |
 | cdk-app-cli-488778308 | evidence_only | [cdk-app-cli-488778308.md](cdk-app-cli-488778308.md) | [cdk-app-cli-488778308.yaml](cdk-app-cli-488778308.yaml) |
 | cdk-appflow-653596623 | evidence_only | [cdk-appflow-653596623.md](cdk-appflow-653596623.md) | [cdk-appflow-653596623.yaml](cdk-appflow-653596623.yaml) |
+| cdk-appflow-go-656132040 | evidence_only | [cdk-appflow-go-656132040.md](cdk-appflow-go-656132040.md) | [cdk-appflow-go-656132040.yaml](cdk-appflow-go-656132040.yaml) |
+| cdk-appmod-catalog-blueprints-1063203562 | evidence_only | [cdk-appmod-catalog-blueprints-1063203562.md](cdk-appmod-catalog-blueprints-1063203562.md) | [cdk-appmod-catalog-blueprints-1063203562.yaml](cdk-appmod-catalog-blueprints-1063203562.yaml) |
+| cdk-assets-817986118 | evidence_only | [cdk-assets-817986118.md](cdk-assets-817986118.md) | [cdk-assets-817986118.yaml](cdk-assets-817986118.yaml) |
+| cdk-atmosphere-client-901298170 | evidence_only | [cdk-atmosphere-client-901298170.md](cdk-atmosphere-client-901298170.md) | [cdk-atmosphere-client-901298170.yaml](cdk-atmosphere-client-901298170.yaml) |
 | github-744758625 | insufficient_evidence | [github-744758625.md](github-744758625.md) | [github-744758625.yaml](github-744758625.yaml) |

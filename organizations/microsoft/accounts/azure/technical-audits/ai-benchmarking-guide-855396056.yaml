@@ -1,0 +1,131 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:52:32+00:00'
+evidence_fingerprint: 1d7751293d0ab266bcc124ef00df49c59cdb8fa302bc9fc18c955de9b2cb5d13
+repository_metadata:
+  company: Microsoft
+  account: Azure
+  full_name: Azure/AI-benchmarking-guide
+  repository_id: 855396056
+  url: https://github.com/Azure/AI-benchmarking-guide
+  description: Benchmarking guide for the Azure AI Infrastructure.
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-30T06:24:13Z'
+  stars: 40
+  readme_url: https://github.com/Azure/AI-benchmarking-guide/blob/main/README.md
+  readme_path: README.md
+  readme_sha: fc0617d990dc4a823cad89fb8dbc704d4440c927
+  manifest_paths:
+  - Azure_Results/1M_ND_GB300_v6_Inference/Makefile
+  - Azure_Results/1M_ND_GB300_v6_Inference/docker/Dockerfile
+  - Azure_Results/1M_ND_GB300_v6_Inference/code/harness/CMakeLists.txt
+  - Azure_Results/1M_ND_GB300_v6_Inference/code/harness/harness_default/setup.py
+  - Azure_Results/1M_ND_GB300_v6_Inference/code/harness/lwis/CMakeLists.txt
+  - Azure_Results/1M_ND_GB300_v6_Inference/code/plugin/DLRMv2EmbeddingLookupPlugin/CMakeLists.txt
+  source_files_inspected:
+  - Azure_Results/1M_ND_GB300_v6_Inference/code/harness/harness_triton_llm/main.py
+  - Azure_Results/1M_ND_GB300_v6_Inference/code/llmlib/server.py
+  - Azure_Results/1M_ND_GB300_v6_Inference/code/main.py
+  - Azure_Results/1M_ND_GB300_v6_Inference/code/mixtral-8x7b/modelopt/main.py
+  repository_tree:
+    status: captured
+    sha: c25b617ff41683496c959a25ed15cf88fb92b36e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Performance benchmarks for Azure GPU SKUs — microbenchmarks, workload tests, and LLM inference/training
+    evaluations to help users identify bottlenecks and optimize cost/performance.
+  why_used: Benchmarking guide for the Azure AI Infrastructure.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - Cuda
+    - Shell
+    - CMake
+    - C
+    - Makefile
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Azure_Results/1M_ND_GB300_v6_Inference/code/harness/harness_triton_llm/main.py,
+    Azure_Results/1M_ND_GB300_v6_Inference/code/llmlib/server.py, Azure_Results/1M_ND_GB300_v6_Inference/code/main.py,
+    Azure_Results/1M_ND_GB300_v6_Inference/code/mixtral-8x7b/modelopt/main.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Azure/AI-benchmarking-guide/blob/main/README.md
+  path: README.md
+  blob_sha: fc0617d990dc4a823cad89fb8dbc704d4440c927
+  retrieved: true
+- type: manifest
+  path: Azure_Results/1M_ND_GB300_v6_Inference/Makefile
+  blob_sha: 5f9a6473e9ea582d374324f3b06048f3c8c27c03
+  retrieved: true
+- type: manifest
+  path: Azure_Results/1M_ND_GB300_v6_Inference/docker/Dockerfile
+  blob_sha: 58fcb4a735c88633aeb8f402396a4fe4930d1c21
+  retrieved: true
+- type: manifest
+  path: Azure_Results/1M_ND_GB300_v6_Inference/code/harness/CMakeLists.txt
+  blob_sha: bddc11dbcafc13c1f6ff82cfbbcc22bd04d301ac
+  retrieved: true
+- type: manifest
+  path: Azure_Results/1M_ND_GB300_v6_Inference/code/harness/harness_default/setup.py
+  blob_sha: 0705df7246327ab9f21e5b35605d712aa029e853
+  retrieved: true
+- type: manifest
+  path: Azure_Results/1M_ND_GB300_v6_Inference/code/harness/lwis/CMakeLists.txt
+  blob_sha: 18ea79e228550413f89785577d03ed279826943d
+  retrieved: true
+- type: manifest
+  path: Azure_Results/1M_ND_GB300_v6_Inference/code/plugin/DLRMv2EmbeddingLookupPlugin/CMakeLists.txt
+  blob_sha: 0cd1fedff64f94bd425f46417be2d45ffb26968d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 2391705
+    C++: 838197
+    Cuda: 280466
+    Shell: 153900
+    CMake: 16612
+    C: 13455
+    Makefile: 10386
+    Dockerfile: 3149
+- type: Git tree
+  status: captured
+  sha: c25b617ff41683496c959a25ed15cf88fb92b36e
+  truncated: false
+- type: source_file
+  path: Azure_Results/1M_ND_GB300_v6_Inference/code/harness/harness_triton_llm/main.py
+  blob_sha: d44d550ee87ed404d3315c633ff51c3babf1cfe2
+  retrieved: true
+- type: source_file
+  path: Azure_Results/1M_ND_GB300_v6_Inference/code/llmlib/server.py
+  blob_sha: cca4521616a6eba99b3c409fec361d22d187acb2
+  retrieved: true
+- type: source_file
+  path: Azure_Results/1M_ND_GB300_v6_Inference/code/main.py
+  blob_sha: e28b8336258da3793cee1e6449cde5b3d38d10f4
+  retrieved: true
+- type: source_file
+  path: Azure_Results/1M_ND_GB300_v6_Inference/code/mixtral-8x7b/modelopt/main.py
+  blob_sha: 3c750c5af7db4e427eaacd13a3a5ac963d20d282
+  retrieved: true

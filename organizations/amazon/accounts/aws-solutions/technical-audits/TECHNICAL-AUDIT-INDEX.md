@@ -1,10 +1,10 @@
 # Technical audits — aws-solutions
 
-Updated: 2026-11-27T22:44:08+00:00
+Updated: 2026-11-28T07:15:21+00:00
 
 ## Status counts
 
-- evidence_only: 25
+- evidence_only: 29
 
 ## Repository dossiers
 
@@ -34,4 +34,8 @@ Updated: 2026-11-27T22:44:08+00:00
 | connected-mobility-solution-on-aws-public-assets-840007203 | evidence_only | [connected-mobility-solution-on-aws-public-assets-840007203.md](connected-mobility-solution-on-aws-public-assets-840007203.md) | [connected-mobility-solution-on-aws-public-assets-840007203.yaml](connected-mobility-solution-on-aws-public-assets-840007203.yaml) |
 | content-analysis-on-aws-245225523 | evidence_only | [content-analysis-on-aws-245225523.md](content-analysis-on-aws-245225523.md) | [content-analysis-on-aws-245225523.yaml](content-analysis-on-aws-245225523.yaml) |
 | content-localization-on-aws-313766186 | evidence_only | [content-localization-on-aws-313766186.md](content-localization-on-aws-313766186.md) | [content-localization-on-aws-313766186.yaml](content-localization-on-aws-313766186.yaml) |
+| cost-optimizer-for-amazon-workspaces-90175308 | evidence_only | [cost-optimizer-for-amazon-workspaces-90175308.md](cost-optimizer-for-amazon-workspaces-90175308.md) | [cost-optimizer-for-amazon-workspaces-90175308.yaml](cost-optimizer-for-amazon-workspaces-90175308.yaml) |
+| data-connectors-for-aws-clean-rooms-569002831 | evidence_only | [data-connectors-for-aws-clean-rooms-569002831.md](data-connectors-for-aws-clean-rooms-569002831.md) | [data-connectors-for-aws-clean-rooms-569002831.yaml](data-connectors-for-aws-clean-rooms-569002831.yaml) |
+| deepracer-on-aws-1132984639 | evidence_only | [deepracer-on-aws-1132984639.md](deepracer-on-aws-1132984639.md) | [deepracer-on-aws-1132984639.yaml](deepracer-on-aws-1132984639.yaml) |
+| digital-evidence-archive-on-aws-547390948 | evidence_only | [digital-evidence-archive-on-aws-547390948.md](digital-evidence-archive-on-aws-547390948.md) | [digital-evidence-archive-on-aws-547390948.yaml](digital-evidence-archive-on-aws-547390948.yaml) |
 | github-178254703 | evidence_only | [github-178254703.md](github-178254703.md) | [github-178254703.yaml](github-178254703.yaml) |

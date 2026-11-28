@@ -1,10 +1,10 @@
 # Technical audits — dotnet
 
-Updated: 2026-11-27T22:44:06+00:00
+Updated: 2026-11-28T07:15:21+00:00
 
 ## Status counts
 
-- evidence_only: 24
+- evidence_only: 28
 
 ## Repository dossiers
 
@@ -33,4 +33,8 @@ Updated: 2026-11-27T22:44:06+00:00
 | jsapidocs-139201598 | evidence_only | [jsapidocs-139201598.md](jsapidocs-139201598.md) | [jsapidocs-139201598.yaml](jsapidocs-139201598.yaml) |
 | kerberos-net-85489138 | evidence_only | [kerberos-net-85489138.md](kerberos-net-85489138.md) | [kerberos-net-85489138.yaml](kerberos-net-85489138.yaml) |
 | llvmsharp-30781424 | evidence_only | [llvmsharp-30781424.md](llvmsharp-30781424.md) | [llvmsharp-30781424.yaml](llvmsharp-30781424.yaml) |
+| microsoft-data-sqlite-apidocs-109081462 | evidence_only | [microsoft-data-sqlite-apidocs-109081462.md](microsoft-data-sqlite-apidocs-109081462.md) | [microsoft-data-sqlite-apidocs-109081462.yaml](microsoft-data-sqlite-apidocs-109081462.yaml) |
+| microsoft-maui-graphics-307816689 | evidence_only | [microsoft-maui-graphics-307816689.md](microsoft-maui-graphics-307816689.md) | [microsoft-maui-graphics-307816689.yaml](microsoft-maui-graphics-307816689.yaml) |
+| microsoft-maui-graphics-controls-322394142 | evidence_only | [microsoft-maui-graphics-controls-322394142.md](microsoft-maui-graphics-controls-322394142.md) | [microsoft-maui-graphics-controls-322394142.yaml](microsoft-maui-graphics-controls-322394142.yaml) |
 | mqttnet-85242321 | evidence_only | [mqttnet-85242321.md](mqttnet-85242321.md) | [mqttnet-85242321.yaml](mqttnet-85242321.yaml) |
+| mvpsummithackathon2016-72705864 | evidence_only | [mvpsummithackathon2016-72705864.md](mvpsummithackathon2016-72705864.md) | [mvpsummithackathon2016-72705864.yaml](mvpsummithackathon2016-72705864.yaml) |

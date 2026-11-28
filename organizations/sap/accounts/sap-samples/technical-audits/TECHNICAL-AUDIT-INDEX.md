@@ -1,10 +1,10 @@
 # Technical audits — sap-samples
 
-Updated: 2026-11-27T22:44:09+00:00
+Updated: 2026-11-28T07:15:18+00:00
 
 ## Status counts
 
-- evidence_only: 22
+- evidence_only: 26
 
 ## Repository dossiers
 
@@ -30,5 +30,9 @@ Updated: 2026-11-27T22:44:09+00:00
 | abap-platform-rap-opensap-295545969 | evidence_only | [abap-platform-rap-opensap-295545969.md](abap-platform-rap-opensap-295545969.md) | [abap-platform-rap-opensap-295545969.yaml](abap-platform-rap-opensap-295545969.yaml) |
 | abap-platform-rap-transactional-outbox-with-bgpf-1086248215 | evidence_only | [abap-platform-rap-transactional-outbox-with-bgpf-1086248215.md](abap-platform-rap-transactional-outbox-with-bgpf-1086248215.md) | [abap-platform-rap-transactional-outbox-with-bgpf-1086248215.yaml](abap-platform-rap-transactional-outbox-with-bgpf-1086248215.yaml) |
 | abap-platform-rap-workshops-303481780 | evidence_only | [abap-platform-rap-workshops-303481780.md](abap-platform-rap-workshops-303481780.md) | [abap-platform-rap-workshops-303481780.yaml](abap-platform-rap-workshops-303481780.yaml) |
+| abap-platform-rap100-720174950 | evidence_only | [abap-platform-rap100-720174950.md](abap-platform-rap100-720174950.md) | [abap-platform-rap100-720174950.yaml](abap-platform-rap100-720174950.yaml) |
+| abap-platform-rap110-720176462 | evidence_only | [abap-platform-rap110-720176462.md](abap-platform-rap110-720176462.md) | [abap-platform-rap110-720176462.yaml](abap-platform-rap110-720176462.yaml) |
+| abap-platform-rap120-841866798 | evidence_only | [abap-platform-rap120-841866798.md](abap-platform-rap120-841866798.md) | [abap-platform-rap120-841866798.yaml](abap-platform-rap120-841866798.yaml) |
+| abap-platform-rap130-1242571544 | evidence_only | [abap-platform-rap130-1242571544.md](abap-platform-rap130-1242571544.md) | [abap-platform-rap130-1242571544.yaml](abap-platform-rap130-1242571544.yaml) |
 | github-464904570 | evidence_only | [github-464904570.md](github-464904570.md) | [github-464904570.yaml](github-464904570.yaml) |
 | spfi-reference-application-1095486490 | evidence_only | [spfi-reference-application-1095486490.md](spfi-reference-application-1095486490.md) | [spfi-reference-application-1095486490.yaml](spfi-reference-application-1095486490.yaml) |

@@ -1,0 +1,97 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:55:35+00:00'
+evidence_fingerprint: 471f5a6ce25daa5e016f81ecf1db56227e84143c67bbe8e5416583ebcc71686f
+repository_metadata:
+  company: Amazon
+  account: amazon-archives
+  full_name: amazon-archives/amazon-transcribe-websocket-static
+  repository_id: 198685005
+  url: https://github.com/amazon-archives/amazon-transcribe-websocket-static
+  description: A static site demonstrating real-time audio transcription via Amazon Transcribe over a WebSocket.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2020-10-23T15:25:57Z'
+  stars: 207
+  readme_url: https://github.com/amazon-archives/amazon-transcribe-websocket-static/blob/master/README.md
+  readme_path: README.md
+  readme_sha: dc6f1b4fae22f25e87d50d2936354fd431c77d3d
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - lib/audioUtils.js
+  - lib/aws-signature-v4.js
+  - lib/main.js
+  repository_tree:
+    status: captured
+    sha: 6d4aa316dfa94872371e84dc8e5b057f4e759ea9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Try it out
+  why_used: A static site demonstrating real-time audio transcription via Amazon Transcribe over a WebSocket.
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - HTML
+    - CSS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-sdk/eventstream-marshaller'
+    - '@aws-sdk/util-utf8-node'
+    - '@babel/core'
+    - '@babel/preset-env'
+    - babelify
+    - browserify
+    - local-web-server
+    - microphone-stream
+    - query-string
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/audioUtils.js,
+    lib/aws-signature-v4.js, lib/main.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-archives/amazon-transcribe-websocket-static/blob/master/README.md
+  path: README.md
+  blob_sha: dc6f1b4fae22f25e87d50d2936354fd431c77d3d
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 28dcaee766e0cf23405150b86662d069abb95955
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 13883
+    HTML: 5352
+    CSS: 633
+- type: Git tree
+  status: captured
+  sha: 6d4aa316dfa94872371e84dc8e5b057f4e759ea9
+  truncated: false
+- type: source_file
+  path: lib/audioUtils.js
+  blob_sha: c807be047f9fb8d3fa16102754562ed52f1bf9de
+  retrieved: true
+- type: source_file
+  path: lib/aws-signature-v4.js
+  blob_sha: 0deada291e62700faa758409422bd6ee76956bd6
+  retrieved: true
+- type: source_file
+  path: lib/main.js
+  blob_sha: f2948722fe500ad2f6ccb758cc60ef3dba2653b8
+  retrieved: true

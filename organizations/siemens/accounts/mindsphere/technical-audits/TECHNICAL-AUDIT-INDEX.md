@@ -1,10 +1,10 @@
 # Technical audits — mindsphere
 
-Updated: 2026-11-27T22:44:03+00:00
+Updated: 2026-11-28T07:15:21+00:00
 
 ## Status counts
 
-- evidence_only: 21
+- evidence_only: 25
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -32,4 +32,8 @@ Updated: 2026-11-27T22:44:03+00:00
 | mindsphere-python-sdk-examples-329870799 | evidence_only | [mindsphere-python-sdk-examples-329870799.md](mindsphere-python-sdk-examples-329870799.md) | [mindsphere-python-sdk-examples-329870799.yaml](mindsphere-python-sdk-examples-329870799.yaml) |
 | mindsphere-remote-service-522530128 | evidence_only | [mindsphere-remote-service-522530128.md](mindsphere-remote-service-522530128.md) | [mindsphere-remote-service-522530128.yaml](mindsphere-remote-service-522530128.yaml) |
 | mongo-191940584 | evidence_only | [mongo-191940584.md](mongo-191940584.md) | [mongo-191940584.yaml](mongo-191940584.yaml) |
+| node-red-contrib-mindconnect-155538725 | evidence_only | [node-red-contrib-mindconnect-155538725.md](node-red-contrib-mindconnect-155538725.md) | [node-red-contrib-mindconnect-155538725.yaml](node-red-contrib-mindconnect-155538725.yaml) |
+| oee-hub-613827245 | evidence_only | [oee-hub-613827245.md](oee-hub-613827245.md) | [oee-hub-613827245.yaml](oee-hub-613827245.yaml) |
 | predictivelearning-examples-439314216 | evidence_only | [predictivelearning-examples-439314216.md](predictivelearning-examples-439314216.md) | [predictivelearning-examples-439314216.yaml](predictivelearning-examples-439314216.yaml) |
+| product-edc-fork-504026930 | evidence_only | [product-edc-fork-504026930.md](product-edc-fork-504026930.md) | [product-edc-fork-504026930.yaml](product-edc-fork-504026930.yaml) |
+| production-copilot-924606933 | evidence_only | [production-copilot-924606933.md](production-copilot-924606933.md) | [production-copilot-924606933.yaml](production-copilot-924606933.yaml) |

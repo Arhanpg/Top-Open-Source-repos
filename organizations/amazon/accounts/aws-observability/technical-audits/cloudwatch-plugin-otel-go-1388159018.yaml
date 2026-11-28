@@ -1,0 +1,114 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:14:59+00:00'
+evidence_fingerprint: c76de6ea3a9774a39124f6e78ad218047725189550ab108e26f65bcdbb0d2147
+repository_metadata:
+  company: Amazon
+  account: aws-observability
+  full_name: aws-observability/cloudwatch-plugin-otel-go
+  repository_id: 1388159018
+  url: https://github.com/aws-observability/cloudwatch-plugin-otel-go
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-14T04:38:44Z'
+  stars: 0
+  readme_url: https://github.com/aws-observability/cloudwatch-plugin-otel-go/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3dbcd7cdeb0f7f2079b8f0f86faebd9511e275a2
+  manifest_paths:
+  - go.mod
+  source_files_inspected:
+  - contract-tests/doc.go
+  - contract-tests/family_test.go
+  - contract-tests/harness_test.go
+  - contract-tests/mode_test.go
+  repository_tree:
+    status: captured
+    sha: 765a911dfe076713fea5894781ac24a84a6d78b6
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A plugin for the OpenTelemetry Go SDK that generates request ("RED") metrics from spans **in-process,
+    from 100% of spans, before trace sampling is applied**.
+  why_used: A plugin for the OpenTelemetry Go SDK that generates request ("RED") metrics from spans **in-process,
+    from 100% of spans, before trace sampling is applied**.
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/cespare/xxhash/v2
+    - github.com/felixge/httpsnoop
+    - github.com/go-logr/logr
+    - github.com/go-logr/stdr
+    - github.com/google/uuid
+    - go.opentelemetry.io/auto/sdk
+    - go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
+    - go.opentelemetry.io/otel
+    - go.opentelemetry.io/otel/metric
+    - go.opentelemetry.io/otel/sdk
+    - go.opentelemetry.io/otel/sdk/metric
+    - go.opentelemetry.io/otel/trace
+    - golang.org/x/sys
+    build_and_package_tools:
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: contract-tests/doc.go,
+    contract-tests/family_test.go, contract-tests/harness_test.go, contract-tests/mode_test.go'
+  setup_and_usage:
+  - 'Usage: Register the record-forcing sampler and the span-metrics processor on your TracerProvider,'
+  - 'Usage: and give the processor the MeterProvider the metrics should be recorded into (normally the'
+  - 'Usage: same one your application already uses for its other metrics):'
+  - 'Usage: "go.opentelemetry.io/otel"'
+  - 'Usage: sdkmetric "go.opentelemetry.io/otel/sdk/metric"'
+  - 'Usage: sdktrace "go.opentelemetry.io/otel/sdk/trace"'
+  - 'Usage: "github.com/aws-observability/cloudwatch-plugin-otel-go/spanmetrics"'
+  - 'Usage: // The MeterProvider the span metrics record into. Its resource (service.name, etc.) becomes'
+  limitations:
+  - 'Security: See CONTRIBUTING for information on reporting a'
+  - 'Security: potential security issue. Please do not create a public GitHub issue for security reports.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-observability/cloudwatch-plugin-otel-go/blob/main/README.md
+  path: README.md
+  blob_sha: 3dbcd7cdeb0f7f2079b8f0f86faebd9511e275a2
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 0332e52a7bf67d9a93e30749cdeae6f12930155a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 74128
+- type: Git tree
+  status: captured
+  sha: 765a911dfe076713fea5894781ac24a84a6d78b6
+  truncated: false
+- type: source_file
+  path: contract-tests/doc.go
+  blob_sha: f7867b97783c771234bb1622c513bc6b1bbf534a
+  retrieved: true
+- type: source_file
+  path: contract-tests/family_test.go
+  blob_sha: 7063471ad661970c70512ba30c2c8f9cee373a9c
+  retrieved: true
+- type: source_file
+  path: contract-tests/harness_test.go
+  blob_sha: 3e0ff21cdfe8961fadf53af9973f4a6d8b49c801
+  retrieved: true
+- type: source_file
+  path: contract-tests/mode_test.go
+  blob_sha: 97ccaa7b83267f3033ef1ab536ef86efc400c39a
+  retrieved: true

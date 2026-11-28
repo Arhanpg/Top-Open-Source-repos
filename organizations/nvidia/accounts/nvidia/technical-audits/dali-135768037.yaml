@@ -1,0 +1,132 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:59:21+00:00'
+evidence_fingerprint: 30a19214e1dbade2615915936f949780b43dba543e0863c8defc4dea8cdf6404
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/DALI
+  repository_id: 135768037
+  url: https://github.com/NVIDIA/DALI
+  description: A GPU-accelerated library containing highly optimized building blocks and an execution engine for
+    data processing to accelerate deep learning training and inference applications.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T18:37:38Z'
+  stars: 5799
+  readme_url: https://github.com/NVIDIA/DALI/blob/main/README.rst
+  readme_path: README.rst
+  readme_sha: 7c2a1ff566f9ee5f72b07b0c1112b0ac7ba3cde8
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  - dali/CMakeLists.txt
+  - dali_tf_plugin/CMakeLists.txt
+  - docker/Dockerfile
+  - docs/Makefile
+  source_files_inspected:
+  - dali/core/access_order.cc
+  - dali/core/alloc_test.cc
+  - dali/core/bitmask_test.cc
+  - dali/core/boundary_test.cc
+  repository_tree:
+    status: captured
+    sha: 7a534ebeb8dc48f36179e47f9826d9fe03afbbbd
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: NVIDIA DALI =========== .. overview-begin-marker-do-not-remove
+  why_used: A GPU-accelerated library containing highly optimized building blocks and an execution engine for data
+    processing to accelerate deep learning training and inference applications.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - Cuda
+    - CMake
+    - Shell
+    - C
+    - Standard ML
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Docker build configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: dali/core/access_order.cc,
+    dali/core/alloc_test.cc, dali/core/bitmask_test.cc, dali/core/boundary_test.cc'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/DALI/blob/main/README.rst
+  path: README.rst
+  blob_sha: 7c2a1ff566f9ee5f72b07b0c1112b0ac7ba3cde8
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: bd759a1a3e433e04c900b6a186842bdd0b622396
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: d039f4d74ad25b57fbba9b773d18bb22a2ca0346
+  retrieved: true
+- type: manifest
+  path: dali/CMakeLists.txt
+  blob_sha: c5208bf7116c798c8ecd207afdde09e00c47f9ed
+  retrieved: true
+- type: manifest
+  path: dali_tf_plugin/CMakeLists.txt
+  blob_sha: 9fe2fce69c9e6b5489ae743d77d4435565965134
+  retrieved: true
+- type: manifest
+  path: docker/Dockerfile
+  blob_sha: 2e29cfcdfebca9946663f4c85a2ddbb4d00c9506
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: 41944886324b905b29f4b800959e8961d6935291
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 8940782
+    Python: 6156798
+    Cuda: 1544825
+    CMake: 297267
+    Shell: 217462
+    C: 207556
+    Standard ML: 5305
+    Dockerfile: 4946
+- type: Git tree
+  status: captured
+  sha: 7a534ebeb8dc48f36179e47f9826d9fe03afbbbd
+  truncated: false
+- type: source_file
+  path: dali/core/access_order.cc
+  blob_sha: 17c08e9bf1bba9009b0080c4475b4e1fbfbae769
+  retrieved: true
+- type: source_file
+  path: dali/core/alloc_test.cc
+  blob_sha: b5ed379f287f8fd06ba06033a958aa12f833c7c2
+  retrieved: true
+- type: source_file
+  path: dali/core/bitmask_test.cc
+  blob_sha: f6ad08e98c6907cd6d69d2d9a59051558616d5d5
+  retrieved: true
+- type: source_file
+  path: dali/core/boundary_test.cc
+  blob_sha: 2942890acff407647b2605db468591f01f176e7b
+  retrieved: true

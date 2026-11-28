@@ -1,0 +1,165 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:06:08+00:00'
+evidence_fingerprint: 0b1942d973372e221efd2c5ff3bff3e8849584036828ea86a888425eab7ba9fd
+repository_metadata:
+  company: SAP
+  account: kyma-project
+  full_name: kyma-project/eventing-tools
+  repository_id: 604195819
+  url: https://github.com/kyma-project/eventing-tools
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-23T09:46:08Z'
+  stars: 3
+  readme_url: https://github.com/kyma-project/eventing-tools/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 240c60eab813d04986c50d6e070c036ab66b45ea
+  manifest_paths:
+  - Dockerfile
+  - go.mod
+  - Makefile
+  - scripts/wait-for-commit-check/requirements.txt
+  source_files_inspected:
+  - cmd/local-subscriber/main.go
+  - main.go
+  - cmd/publisher.go
+  - cmd/root.go
+  repository_tree:
+    status: captured
+    sha: 91557de4dbf2197aa1fab9de1acc5fa20f9730eb
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This repository contains useful tools for Kyma Eventing:'
+  why_used: 'This repository contains useful tools for Kyma Eventing:'
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Python
+    - Shell
+    - Makefile
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/cloudevents/sdk-go/v2
+    - github.com/davecgh/go-spew
+    - github.com/emicklei/go-restful/v3
+    - github.com/fxamacker/cbor/v2
+    - github.com/go-logr/logr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/gogo/protobuf
+    - github.com/golang/protobuf
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/gofuzz
+    - github.com/google/uuid
+    - github.com/imdario/mergo
+    - github.com/inconshreveable/mousetrap
+    - github.com/josharian/intern
+    - github.com/json-iterator/go
+    - github.com/kelseyhightower/envconfig
+    - github.com/mailru/easyjson
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/munnerz/goautoneg
+    - github.com/pmezard/go-difflib
+    - github.com/spf13/cobra
+    - github.com/spf13/pflag
+    - github.com/stretchr/testify
+    - github.com/x448/float16
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sys
+    - golang.org/x/term
+    - golang.org/x/text
+    - golang.org/x/time
+    - google.golang.org/protobuf
+    - gopkg.in/inf.v0
+    - gopkg.in/yaml.v2
+    - gopkg.in/yaml.v3
+    - k8s.io/api
+    - k8s.io/apimachinery
+    - k8s.io/client-go
+    - k8s.io/klog/v2
+    - k8s.io/kube-openapi
+    - k8s.io/utils
+    - requests
+    - sigs.k8s.io/controller-runtime
+    - sigs.k8s.io/json
+    - sigs.k8s.io/structured-merge-diff/v4
+    - sigs.k8s.io/yaml
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/local-subscriber/main.go,
+    main.go, cmd/publisher.go, cmd/root.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/kyma-project/eventing-tools/blob/main/README.md
+  path: README.md
+  blob_sha: 240c60eab813d04986c50d6e070c036ab66b45ea
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: aec467ea845e0ea349fdbb250c97802427e4f5f4
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 0e5c832386f5d26fbce6dba60e9d5b11e30206cb
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 583577790898915c5633315767b48c09d60bafa7
+  retrieved: true
+- type: manifest
+  path: scripts/wait-for-commit-check/requirements.txt
+  blob_sha: 077c95d8a439c9e4fd7f494a51eff462c47872d7
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 84829
+    Python: 7511
+    Shell: 2606
+    Makefile: 1754
+    Dockerfile: 462
+- type: Git tree
+  status: captured
+  sha: 91557de4dbf2197aa1fab9de1acc5fa20f9730eb
+  truncated: false
+- type: source_file
+  path: cmd/local-subscriber/main.go
+  blob_sha: f3e74dc04bb2e722383f968985bb060ca90c4e7c
+  retrieved: true
+- type: source_file
+  path: main.go
+  blob_sha: 588bd597bf36beac6bb708c910dd2180681f3fe2
+  retrieved: true
+- type: source_file
+  path: cmd/publisher.go
+  blob_sha: 69e8b5be22ed9de0542b1ed25bb9569e2dc3fb9d
+  retrieved: true
+- type: source_file
+  path: cmd/root.go
+  blob_sha: 6e05b837ce9d5b3044de44b0eb209308d20cfedb
+  retrieved: true

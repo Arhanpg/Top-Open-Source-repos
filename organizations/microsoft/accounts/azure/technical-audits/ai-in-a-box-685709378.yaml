@@ -1,0 +1,102 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:04:55+00:00'
+evidence_fingerprint: de7334cb2ce5766c7c1169270361a7c163cb46dc305bf6fa15a6cbafd023d703
+repository_metadata:
+  company: Microsoft
+  account: Azure
+  full_name: Azure/AI-in-a-Box
+  repository_id: 685709378
+  url: https://github.com/Azure/AI-in-a-Box
+  description: AI-in-a-Box leverages the expertise of Microsoft across the globe to develop and provide AI and ML
+    solutions to the technical community.  Our intent is to present a curated collection of solution accelerators
+    that can help engineers establish their AI/ML environments and solutions rapidly and with minimal friction.
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-12-12T17:15:34Z'
+  stars: 602
+  readme_url: https://github.com/Azure/AI-in-a-Box/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ff02406e451dd67542c842d81d13f100e4f2f91c
+  manifest_paths:
+  - gen-ai/Assistants/notebooks/requirements.txt
+  source_files_inspected:
+  - gen-ai/Assistants/notebooks/sales_copilot/AgentProxy.py
+  - gen-ai/Assistants/notebooks/sales_copilot/AgentRegistration.py
+  - gen-ai/Assistants/notebooks/sales_copilot/AgentSettings.py
+  - gen-ai/Assistants/notebooks/sales_copilot/ArgumentException.py
+  repository_tree:
+    status: captured
+    sha: 15af1cd035f59ec915c6165751989aae949247c8
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '*AI-in-a-Box* leverages the collective expertise of Microsoft Customer Engineers and Architects across
+    the globe to develop and provide AI and ML solutions to the technical community.'
+  why_used: AI-in-a-Box leverages the expertise of Microsoft across the globe to develop and provide AI and ML solutions
+    to the technical community.  Our intent is to present a curated collection of solution accelerators that can
+    help engineers establish their AI/ML environments and solutions rapidly and with minimal friction.
+  core_features: []
+  technology_stack:
+    languages:
+    - Jupyter Notebook
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - openai
+    - pillow
+    - pyautogen
+    - python-dotenv
+    - yfinance
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: gen-ai/Assistants/notebooks/sales_copilot/AgentProxy.py,
+    gen-ai/Assistants/notebooks/sales_copilot/AgentRegistration.py, gen-ai/Assistants/notebooks/sales_copilot/AgentSettings.py,
+    gen-ai/Assistants/notebooks/sales_copilot/ArgumentException.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Azure/AI-in-a-Box/blob/main/README.md
+  path: README.md
+  blob_sha: ff02406e451dd67542c842d81d13f100e4f2f91c
+  retrieved: true
+- type: manifest
+  path: gen-ai/Assistants/notebooks/requirements.txt
+  blob_sha: d41d2e4f988cacf2e8e6f3aa450e395d9f992db5
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Jupyter Notebook: 135104
+    Python: 17085
+- type: Git tree
+  status: captured
+  sha: 15af1cd035f59ec915c6165751989aae949247c8
+  truncated: false
+- type: source_file
+  path: gen-ai/Assistants/notebooks/sales_copilot/AgentProxy.py
+  blob_sha: 7a1ec701c53cdbfc0ff2a00ea55f6d47bb5a3cde
+  retrieved: true
+- type: source_file
+  path: gen-ai/Assistants/notebooks/sales_copilot/AgentRegistration.py
+  blob_sha: 03842c3b581e9b92453832bfd6c10d3e763f94fd
+  retrieved: true
+- type: source_file
+  path: gen-ai/Assistants/notebooks/sales_copilot/AgentSettings.py
+  blob_sha: 6b8f71e1cd45dbc80428e3ae78d3fcfd1f8cf806
+  retrieved: true
+- type: source_file
+  path: gen-ai/Assistants/notebooks/sales_copilot/ArgumentException.py
+  blob_sha: c89cf51349d0a1d666b65e2dbd45c209c157eee0
+  retrieved: true

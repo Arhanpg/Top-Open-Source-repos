@@ -1,0 +1,84 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:05:27+00:00'
+evidence_fingerprint: 8de77638351ef41751e227136d3b2ad9eff84041adf2222180376d05543ae553
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/DALI_deps
+  repository_id: 348020227
+  url: https://github.com/NVIDIA/DALI_deps
+  description: 3rd party dependencies for DALI project
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-10T18:07:13Z'
+  stars: 11
+  readme_url: https://github.com/NVIDIA/DALI_deps/blob/main/README.rst
+  readme_path: README.rst
+  readme_sha: 8f27f96ca65511c3838296cf5cb2e57a6b35feea
+  manifest_paths: []
+  source_files_inspected:
+  - build_scripts/build_aws-sdk-cpp.sh
+  - build_scripts/build_cfitsio.sh
+  - build_scripts/build_curl.sh
+  - build_scripts/build_deps.sh
+  repository_tree:
+    status: captured
+    sha: c3447aa68941a175942b547be8fe479beffb987e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: NVIDIA DALI =========== This repository contains extra dependencies required to setup a whole development
+    environment for NVIDIA DALI project.
+  why_used: 3rd party dependencies for DALI project
+  core_features: []
+  technology_stack:
+    languages:
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: build_scripts/build_aws-sdk-cpp.sh,
+    build_scripts/build_cfitsio.sh, build_scripts/build_curl.sh, build_scripts/build_deps.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/DALI_deps/blob/main/README.rst
+  path: README.rst
+  blob_sha: 8f27f96ca65511c3838296cf5cb2e57a6b35feea
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Shell: 57196
+- type: Git tree
+  status: captured
+  sha: c3447aa68941a175942b547be8fe479beffb987e
+  truncated: false
+- type: source_file
+  path: build_scripts/build_aws-sdk-cpp.sh
+  blob_sha: 6e9c2709be2d0960488757413a551444b3d6bf6b
+  retrieved: true
+- type: source_file
+  path: build_scripts/build_cfitsio.sh
+  blob_sha: c64013b49bf800d0ac567ef7aa29ab7f02eded4c
+  retrieved: true
+- type: source_file
+  path: build_scripts/build_curl.sh
+  blob_sha: 7daab185d01f2d570a8cef54ee71f1eaa511061d
+  retrieved: true
+- type: source_file
+  path: build_scripts/build_deps.sh
+  blob_sha: efdf5864362b12e32b4507d090135b93e7aa18e9
+  retrieved: true

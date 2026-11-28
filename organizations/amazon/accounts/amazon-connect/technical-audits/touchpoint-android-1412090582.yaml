@@ -1,0 +1,131 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:02:00+00:00'
+evidence_fingerprint: 4f75460688e19f15f8d194daf07d64c7a9a767483516ef3f4a8a240b4f3ebf2f
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/touchpoint-android
+  repository_id: 1412090582
+  url: https://github.com/amazon-connect/touchpoint-android
+  description: An open-source Kotlin SDK that brings Amazon Connect chat, in-app voice calls and Live Sync to native
+    Android apps. Enables companies running contact centers on Amazon Connect to let customers chat, call and get
+    help from assistants inside their own Android apps.
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T18:25:35Z'
+  stars: 2
+  readme_url: https://github.com/amazon-connect/touchpoint-android/blob/main/README.md
+  readme_path: README.md
+  readme_sha: bb235cf48384d1a71fce03e9b631b5e57778cde4
+  manifest_paths:
+  - build.gradle.kts
+  - Makefile
+  - touchpoint-chat/build.gradle.kts
+  - touchpoint-core-android/build.gradle.kts
+  - touchpoint-core/build.gradle.kts
+  - touchpoint-development/build.gradle.kts
+  source_files_inspected:
+  - Scripts/lib/kotlin_source.py
+  - touchpoint-chat/src/androidTest/kotlin/com/amazon/connect/touchpoint/chat/ui/AccessibilityAudit.kt
+  - touchpoint-chat/src/androidTest/kotlin/com/amazon/connect/touchpoint/chat/ui/AuthenticationCardTest.kt
+  - touchpoint-chat/src/androidTest/kotlin/com/amazon/connect/touchpoint/chat/ui/ChatSurfaceTest.kt
+  repository_tree:
+    status: captured
+    sha: e28c5dbccaa625f94ec72c54f9b0ca70dc8b376e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Status: developer preview.** The public API may change before 1.0; each release''s changes are in
+    CHANGELOG.md.'
+  why_used: An open-source Kotlin SDK that brings Amazon Connect chat, in-app voice calls and Live Sync to native
+    Android apps. Enables companies running contact centers on Amazon Connect to let customers chat, call and get
+    help from assistants inside their own Android apps.
+  core_features: []
+  technology_stack:
+    languages:
+    - Kotlin
+    - Shell
+    - Python
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle Kotlin build file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Scripts/lib/kotlin_source.py,
+    touchpoint-chat/src/androidTest/kotlin/com/amazon/connect/touchpoint/chat/ui/AccessibilityAudit.kt, touchpoint-chat/src/androidTest/kotlin/com/amazon/connect/touchpoint/chat/ui/AuthenticationCardTest.kt,
+    touchpoint-chat/src/androidTest/kotlin/com/amazon/connect/touchpoint/chat/ui/ChatSurfaceTest.kt'
+  setup_and_usage: []
+  limitations:
+  - 'Security: To report a potential security issue, use the AWS'
+  - 'Security: vulnerability reporting page; please do'
+  - 'Security: **not** create a public GitHub issue. What the SDK protects, and what your app and backend must do,
+    is'
+  - 'Security: in the security guide.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/touchpoint-android/blob/main/README.md
+  path: README.md
+  blob_sha: bb235cf48384d1a71fce03e9b631b5e57778cde4
+  retrieved: true
+- type: manifest
+  path: build.gradle.kts
+  blob_sha: 996a874d3ed76ba55b76b5fad44576ff85eea903
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 95ec1f27272da90a34337d04111b19d3685f538a
+  retrieved: true
+- type: manifest
+  path: touchpoint-chat/build.gradle.kts
+  blob_sha: 0bcd4300480be0b9879f5e7002dbed113a8ad56f
+  retrieved: true
+- type: manifest
+  path: touchpoint-core-android/build.gradle.kts
+  blob_sha: 088d491f7e98205f8dd9b2de0d5b603e255016e9
+  retrieved: true
+- type: manifest
+  path: touchpoint-core/build.gradle.kts
+  blob_sha: 88e7896a6fa331a9c46dc1dc5cf5ee083ee393ec
+  retrieved: true
+- type: manifest
+  path: touchpoint-development/build.gradle.kts
+  blob_sha: 90cc602634f9905e3d5ef3bcaeef4fd775820cb4
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Kotlin: 1735625
+    Shell: 85116
+    Python: 7246
+    Makefile: 4304
+- type: Git tree
+  status: captured
+  sha: e28c5dbccaa625f94ec72c54f9b0ca70dc8b376e
+  truncated: false
+- type: source_file
+  path: Scripts/lib/kotlin_source.py
+  blob_sha: 5f1bbbee7ec6e7ae2d532842d52c2e74792cfa19
+  retrieved: true
+- type: source_file
+  path: touchpoint-chat/src/androidTest/kotlin/com/amazon/connect/touchpoint/chat/ui/AccessibilityAudit.kt
+  blob_sha: 17557be74b82d74b6e7cb05cbd65844f3cdbe7d8
+  retrieved: true
+- type: source_file
+  path: touchpoint-chat/src/androidTest/kotlin/com/amazon/connect/touchpoint/chat/ui/AuthenticationCardTest.kt
+  blob_sha: 60310cea8f48faa9499ef70e1f10fd0e1eb29bff
+  retrieved: true
+- type: source_file
+  path: touchpoint-chat/src/androidTest/kotlin/com/amazon/connect/touchpoint/chat/ui/ChatSurfaceTest.kt
+  blob_sha: 1e5d7229e2e5fe1606b219c9ed27e4b6c527840e
+  retrieved: true

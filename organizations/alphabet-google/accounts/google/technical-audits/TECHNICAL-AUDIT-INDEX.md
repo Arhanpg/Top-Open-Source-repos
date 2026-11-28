@@ -1,10 +1,10 @@
 # Technical audits — google
 
-Updated: 2026-11-27T22:44:04+00:00
+Updated: 2026-11-28T07:15:17+00:00
 
 ## Status counts
 
-- evidence_only: 27
+- evidence_only: 32
 
 ## Repository dossiers
 
@@ -36,4 +36,9 @@ Updated: 2026-11-27T22:44:04+00:00
 | ctap2-test-tool-corpus-311733589 | evidence_only | [ctap2-test-tool-corpus-311733589.md](ctap2-test-tool-corpus-311733589.md) | [ctap2-test-tool-corpus-311733589.yaml](ctap2-test-tool-corpus-311733589.yaml) |
 | curbsidepickup-257683950 | evidence_only | [curbsidepickup-257683950.md](curbsidepickup-257683950.md) | [curbsidepickup-257683950.yaml](curbsidepickup-257683950.yaml) |
 | daplink-port-280530485 | evidence_only | [daplink-port-280530485.md](daplink-port-280530485.md) | [daplink-port-280530485.yaml](daplink-port-280530485.yaml) |
+| directxshadercompiler-85727471 | evidence_only | [directxshadercompiler-85727471.md](directxshadercompiler-85727471.md) | [directxshadercompiler-85727471.yaml](directxshadercompiler-85727471.yaml) |
+| dom-tutorials-230737408 | evidence_only | [dom-tutorials-230737408.md](dom-tutorials-230737408.md) | [dom-tutorials-230737408.yaml](dom-tutorials-230737408.yaml) |
+| earlgrey-51094210 | evidence_only | [earlgrey-51094210.md](earlgrey-51094210.md) | [earlgrey-51094210.yaml](earlgrey-51094210.yaml) |
+| etwtopprof-267113923 | evidence_only | [etwtopprof-267113923.md](etwtopprof-267113923.md) | [etwtopprof-267113923.yaml](etwtopprof-267113923.yaml) |
+| exegesis-76657412 | evidence_only | [exegesis-76657412.md](exegesis-76657412.md) | [exegesis-76657412.yaml](exegesis-76657412.yaml) |
 | github-170908616 | evidence_only | [github-170908616.md](github-170908616.md) | [github-170908616.yaml](github-170908616.yaml) |

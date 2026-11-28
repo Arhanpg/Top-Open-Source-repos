@@ -1,0 +1,173 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:09:28+00:00'
+evidence_fingerprint: df6af540d800db7ef14ac2736303959e519a90e699730c49b9d48e26ddc9adf7
+repository_metadata:
+  company: Amazon
+  account: aws-samples
+  full_name: aws-samples/China-CloudFront-SSL-Plugin
+  repository_id: 804796069
+  url: https://github.com/aws-samples/China-CloudFront-SSL-Plugin
+  description: null
+  default_branch: main
+  license_spdx: MIT-0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-06-24T14:04:57Z'
+  stars: 6
+  readme_url: https://github.com/aws-samples/China-CloudFront-SSL-Plugin/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 55eea656f5b8fe262493980fd3e074aa744d65fa
+  manifest_paths:
+  - cdk/package.json
+  - lambda/api-explorer/Dockerfile
+  - lambda/api-explorer/package.json
+  - lambda/CertBot/certbot/Dockerfile
+  - lambda/CertBot/certbot/requirements.txt
+  - lambda/ManageCert/DeleteCert/Dockerfile
+  source_files_inspected:
+  - lambda/api-explorer/app.js
+  - lambda/CertBot/certbot/app.py
+  - lambda/ManageCert/DeleteCert/app.py
+  - lambda/ManageCert/ListCert/app.py
+  repository_tree:
+    status: captured
+    sha: bb16aaf0b4f8fd9771612e4ddcfe8baff715636b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 1. In China CloudFront SSL Plugin V1, each stack can only manage one project (i.e., one domain name collection).
+    To manage multiple domain name collections, multiple stacks need to be deployed. In contrast, the stack of China
+    CloudFront SSL Plugin V2 can manage multiple projects (i.e., multiple domain name collections). 2. The certificate
+    management interface of the first version of the China CloudFront SSL plugin is an API management page built
+    on Swagger UI. To perform operations such as listing certificates or deleting certificates, you need to initiate
+    API requests in the certificate management interface. In addition, in the first version, there is no security
+    verification for externally used APIs. 3. In China CloudFront SSL Plugin V1, each stack can only manage one
+    project (i.e., one domain names collection). To manage multiple domain names collections, multiple stacks need
+    to be de
+  why_used: 1. In China CloudFront SSL Plugin V1, each stack can only manage one project (i.e., one domain name
+    collection). To manage multiple domain name collections, multiple stacks need to be deployed. In contrast, the
+    stack of China CloudFront SSL Plugin V2 can manage multiple projects (i.e., multiple domain name collections).
+    2. The certificate management interface of the first version of the China CloudFront SSL plugin is an API management
+    page built on Swagger UI. To perform operations such as listing certificates or deleting certificates, you need
+    to initiate API requests in the certificate management interface. In addition, in the first version, there is
+    no security verification for externally used APIs. 3. In China CloudFront SSL Plugin V1, each stack can only
+    manage one project (i.e., one domain names collection). To manage multiple domain names collections, multiple
+    stacks need to be de
+  core_features:
+  - name: 'Almost Free*: Built using serverless architecture and open-source tools, it incurs charges based on the
+      invocation of serverless services, with a default of eve'
+    description: 'Almost Free*: Built using serverless architecture and open-source tools, it incurs charges based
+      on the invocation of serverless services, with a default of every 80 days.'
+    evidence:
+    - README.md#Features
+  - name: _*This solution adopts a serverless architecture, nearly zero cost with each certificate issuance, such
+      as serverless resource execution costs, a small amount o
+    description: _*This solution adopts a serverless architecture, nearly zero cost with each certificate issuance,
+      such as serverless resource execution costs, a small amount of Amazon S3 storage fees, and Amazon CloudWatch
+      log storage fees. However, due to the domain control validation required for certificate issuance, there's
+      a fee of 3.575 RMB per month for using Amazon Route 53 for domain hosting._
+    evidence:
+    - README.md#Features
+  - name: 'Out-of-the-Box: Deployment and certificate issuance for the solution can be completed in just 3 minutes.
+      It supports certificate download, integration with Amaz'
+    description: 'Out-of-the-Box: Deployment and certificate issuance for the solution can be completed in just
+      3 minutes. It supports certificate download, integration with Amazon CloudFront, and automatic updates.'
+    evidence:
+    - README.md#Features
+  - name: 'Fully Open Source: All code within this solution is provided in an open-source manner, allowing for customization
+      based on your specific needs.'
+    description: 'Fully Open Source: All code within this solution is provided in an open-source manner, allowing
+      for customization based on your specific needs.'
+    evidence:
+    - README.md#Features
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies:
+    - '@types/jest'
+    - '@types/node'
+    - aws-cdk
+    - aws-cdk-lib
+    - aws-sdk
+    - boto3
+    - certbot
+    - certbot-dns-route53
+    - constructs
+    - express
+    - jest
+    - serverless-http
+    - swagger-ui-express
+    - ts-jest
+    - ts-node
+    - typescript
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lambda/api-explorer/app.js,
+    lambda/CertBot/certbot/app.py, lambda/ManageCert/DeleteCert/app.py, lambda/ManageCert/ListCert/app.py'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-samples/China-CloudFront-SSL-Plugin/blob/main/README.md
+  path: README.md
+  blob_sha: 55eea656f5b8fe262493980fd3e074aa744d65fa
+  retrieved: true
+- type: manifest
+  path: cdk/package.json
+  blob_sha: 150aaccf1c028d09d6fb8cb0ead33ddb75f3abf2
+  retrieved: true
+- type: manifest
+  path: lambda/api-explorer/Dockerfile
+  blob_sha: de0a965a948fdb7bf1640cb239ee791bf38f1cad
+  retrieved: true
+- type: manifest
+  path: lambda/api-explorer/package.json
+  blob_sha: b7b72c0995bff09f491cdfc6ed2bae246d3c38e9
+  retrieved: true
+- type: manifest
+  path: lambda/CertBot/certbot/Dockerfile
+  blob_sha: b488e7b95bb4f83b671fab040fe8587a64f277f7
+  retrieved: true
+- type: manifest
+  path: lambda/CertBot/certbot/requirements.txt
+  blob_sha: 46ff9a31aa5bce103968e9ee42a2b2d2456723b9
+  retrieved: true
+- type: manifest
+  path: lambda/ManageCert/DeleteCert/Dockerfile
+  blob_sha: 22a2a32da6fc8793be2985867902bf709f239641
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: bb16aaf0b4f8fd9771612e4ddcfe8baff715636b
+  truncated: false
+- type: source_file
+  path: lambda/api-explorer/app.js
+  blob_sha: 371df88b1b6781a35e49b5a632b1bc5c89f691b4
+  retrieved: true
+- type: source_file
+  path: lambda/CertBot/certbot/app.py
+  blob_sha: d9bf7b1a05ac1a8c55544037a8f34532bf6f5d11
+  retrieved: true
+- type: source_file
+  path: lambda/ManageCert/DeleteCert/app.py
+  blob_sha: 09ba30137cf5183a60b3f90fa94dd5281d710cb2
+  retrieved: true
+- type: source_file
+  path: lambda/ManageCert/ListCert/app.py
+  blob_sha: 71d59cb62882b937cbe948399511d8f38145bca6
+  retrieved: true

@@ -1,0 +1,119 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:54:40+00:00'
+evidence_fingerprint: 46b4be0a32ab409de988fef6b03b3660658e28c6147445ffad39cf1142ef371d
+repository_metadata:
+  company: Siemens
+  account: industrial-edge
+  full_name: industrial-edge/device-kit-onboard-service
+  repository_id: 429714564
+  url: https://github.com/industrial-edge/device-kit-onboard-service
+  description: IE Device Kit API reference implementation for onboard service
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-05T07:06:11Z'
+  stars: 7
+  readme_url: https://github.com/industrial-edge/device-kit-onboard-service/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 574752dcf014babc84612e13a5b6ab6b02103e50
+  manifest_paths:
+  - go.mod
+  - build/package/Dockerfile
+  - build/package/Makefile
+  source_files_inspected:
+  - cmd/onboardservice/main.go
+  - app/appfactory.go
+  - app/capabilityparser.go
+  - app/capabilityparser_test.go
+  repository_tree:
+    status: captured
+    sha: fd240e04820e65a3f0ec8f52dfaa3b4ae542b622
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The IE Device Kit API provides the abstraction layer that decouples the Industrial Edge Runtime from
+    the underlying Linux systems. This allows to adapt the runtime and its behavior to serve for the specific needs
+    of different Industrial Edge products.
+  why_used: IE Device Kit API reference implementation for onboard service
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Makefile
+    - Dockerfile
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - github.com/davecgh/go-spew
+    - github.com/pmezard/go-difflib
+    - github.com/stretchr/objx
+    - github.com/stretchr/testify
+    - golang.org/x/net
+    - golang.org/x/sys
+    - golang.org/x/text
+    - google.golang.org/genproto/googleapis/rpc
+    - google.golang.org/grpc
+    - google.golang.org/protobuf
+    - gopkg.in/yaml.v3
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/onboardservice/main.go,
+    app/appfactory.go, app/capabilityparser.go, app/capabilityparser_test.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/industrial-edge/device-kit-onboard-service/blob/main/README.md
+  path: README.md
+  blob_sha: 574752dcf014babc84612e13a5b6ab6b02103e50
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 95ba30012d3dd110af094571c721e0f67e81c66f
+  retrieved: true
+- type: manifest
+  path: build/package/Dockerfile
+  blob_sha: 38bbb3e93b044712f5d35923626699ab98d9c87b
+  retrieved: true
+- type: manifest
+  path: build/package/Makefile
+  blob_sha: 52f0420669353c6a894ea46c944884821e1ad454
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 130559
+    Makefile: 3409
+    Dockerfile: 2366
+    Shell: 1836
+- type: Git tree
+  status: captured
+  sha: fd240e04820e65a3f0ec8f52dfaa3b4ae542b622
+  truncated: false
+- type: source_file
+  path: cmd/onboardservice/main.go
+  blob_sha: aff3e5dc7273a894889816f3872a1aa3a5b58f3f
+  retrieved: true
+- type: source_file
+  path: app/appfactory.go
+  blob_sha: 509e6a9a3f3775812d3d80f89d190b1db083e156
+  retrieved: true
+- type: source_file
+  path: app/capabilityparser.go
+  blob_sha: 92e6fa381b2af02ce131ea21264c27ca1742d190
+  retrieved: true
+- type: source_file
+  path: app/capabilityparser_test.go
+  blob_sha: 74effc2312302057b9027ee89445dd2c50ceb462
+  retrieved: true

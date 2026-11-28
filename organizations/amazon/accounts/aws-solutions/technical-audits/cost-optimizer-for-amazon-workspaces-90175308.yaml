@@ -1,0 +1,154 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:51:04+00:00'
+evidence_fingerprint: 36b15c2e3d2352ff05ab6c20a47d10d19c262ffdc27b70548f0c7816a9116363
+repository_metadata:
+  company: Amazon
+  account: aws-solutions
+  full_name: aws-solutions/cost-optimizer-for-amazon-workspaces
+  repository_id: 90175308
+  url: https://github.com/aws-solutions/cost-optimizer-for-amazon-workspaces
+  description: This solution analyzes all of your Amazon WorkSpaces usage data and automatically converts the WorkSpace
+    to the most cost-effective billing option (hourly or monthly), depending on your individual usage. Use this
+    with a single account, or with AWS Organizations across multiple accounts, to help you monitor your WorkSpace
+    usage and optimize costs.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-26T14:21:10Z'
+  stars: 110
+  readme_url: https://github.com/aws-solutions/cost-optimizer-for-amazon-workspaces/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2026688cb369939bf1f237484668824fbb640bac
+  manifest_paths:
+  - source/Dockerfile
+  - source/package.json
+  - source/pyproject.toml
+  source_files_inspected:
+  - source/workspaces_app/main.py
+  - source/lib/cdk-helper/add-cfn-nag-suppression.ts
+  - source/lib/cdk-helper/condition-aspect.ts
+  - source/lib/cdk-helper/override-logical-id.ts
+  repository_tree:
+    status: captured
+    sha: cc422ed695d9982e687a6b115bf7adf5e69dfca1
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '*🚀 Solution Landing Page** | **🚧 Feature request** | **🐛 Bug Report**'
+  why_used: This solution analyzes all of your Amazon WorkSpaces usage data and automatically converts the WorkSpace
+    to the most cost-effective billing option (hourly or monthly), depending on your individual usage. Use this
+    with a single account, or with AWS Organizations across multiple accounts, to help you monitor your WorkSpace
+    usage and optimize costs.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - TypeScript
+    - Shell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-cdk/assert'
+    - '@eslint/js'
+    - '@types/jest'
+    - '@types/node'
+    - '@types/sinon'
+    - aws-cdk
+    - aws-cdk-lib
+    - aws-lambda-powertools
+    - boto3
+    - botocore
+    - cdk-nag
+    - certifi
+    - charset-normalizer
+    - constructs
+    - eslint
+    - eslint-config-prettier
+    - eslint-plugin-headers
+    - eslint-plugin-prettier
+    - globals
+    - idna
+    - jest
+    - jmespath
+    - prettier
+    - python-dateutil
+    - requests
+    - s3transfer
+    - sinon
+    - six
+    - ts-jest
+    - ts-node
+    - typescript
+    - typescript-eslint
+    - urllib3
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: source/workspaces_app/main.py,
+    source/lib/cdk-helper/add-cfn-nag-suppression.ts, source/lib/cdk-helper/condition-aspect.ts, source/lib/cdk-helper/override-logical-id.ts'
+  setup_and_usage:
+  - 'Getting Started: For deployment flexability and backwards compatability, there are two ways of deploying this
+    solution: via Cloudformation and via CDK. The simplest way to get started is via AWS Cloudformation''s WebUI.
+    The programatic way via CDK allows customization of input parameters. Feel free to choose either ways of deployment
+    to fit your needs.'
+  - 'Getting Started: Deploy via the CloudFormation Template for WorkSpaces Cost Optimizer'
+  - 'Getting Started: Deploy via CDKv2 with npm:'
+  - 'Getting Started: Preconfigure aws profile'
+  - 'Getting Started: git clone git@github.com:aws-solutions/cost-optimizer-for-amazon-workspaces.git'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-solutions/cost-optimizer-for-amazon-workspaces/blob/main/README.md
+  path: README.md
+  blob_sha: 2026688cb369939bf1f237484668824fbb640bac
+  retrieved: true
+- type: manifest
+  path: source/Dockerfile
+  blob_sha: 4dc4018b657128f05717df3bcb71b695989d563c
+  retrieved: true
+- type: manifest
+  path: source/package.json
+  blob_sha: 2a2b60414be43cdc380c60e801b6c65eb293692a
+  retrieved: true
+- type: manifest
+  path: source/pyproject.toml
+  blob_sha: 361824a3376f148af69be25752fd1f44fda23d84
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 372496
+    TypeScript: 107953
+    Shell: 10206
+    Dockerfile: 626
+- type: Git tree
+  status: captured
+  sha: cc422ed695d9982e687a6b115bf7adf5e69dfca1
+  truncated: false
+- type: source_file
+  path: source/workspaces_app/main.py
+  blob_sha: 265cd2657048bf4db35c4475cf4a310136d27294
+  retrieved: true
+- type: source_file
+  path: source/lib/cdk-helper/add-cfn-nag-suppression.ts
+  blob_sha: 5a81df820e6be68dcec6c601c2b02747547ffbc7
+  retrieved: true
+- type: source_file
+  path: source/lib/cdk-helper/condition-aspect.ts
+  blob_sha: f952872377f172260ac43f9ffd747e55712e4d00
+  retrieved: true
+- type: source_file
+  path: source/lib/cdk-helper/override-logical-id.ts
+  blob_sha: 31929b065bb4413e06b9055bc9b30fbda15303e1
+  retrieved: true

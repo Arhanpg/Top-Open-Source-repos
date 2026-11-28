@@ -1,10 +1,10 @@
 # Technical audits — aws
 
-Updated: 2026-11-27T22:44:07+00:00
+Updated: 2026-11-28T07:15:20+00:00
 
 ## Status counts
 
-- evidence_only: 21
+- evidence_only: 26
 - insufficient_evidence: 1
 - manual_reviewed: 1
 
@@ -23,6 +23,11 @@ Updated: 2026-11-27T22:44:07+00:00
 | amazon-chime-sdk-ios-no-video-codecs-spm-754884196 | evidence_only | [amazon-chime-sdk-ios-no-video-codecs-spm-754884196.md](amazon-chime-sdk-ios-no-video-codecs-spm-754884196.md) | [amazon-chime-sdk-ios-no-video-codecs-spm-754884196.yaml](amazon-chime-sdk-ios-no-video-codecs-spm-754884196.yaml) |
 | amazon-chime-sdk-ios-spm-633106671 | evidence_only | [amazon-chime-sdk-ios-spm-633106671.md](amazon-chime-sdk-ios-spm-633106671.md) | [amazon-chime-sdk-ios-spm-633106671.yaml](amazon-chime-sdk-ios-spm-633106671.yaml) |
 | amazon-chime-sdk-js-216939647 | evidence_only | [amazon-chime-sdk-js-216939647.md](amazon-chime-sdk-js-216939647.md) | [amazon-chime-sdk-js-216939647.yaml](amazon-chime-sdk-js-216939647.yaml) |
+| amazon-cloudfront-client-routing-library-674370368 | evidence_only | [amazon-cloudfront-client-routing-library-674370368.md](amazon-cloudfront-client-routing-library-674370368.md) | [amazon-cloudfront-client-routing-library-674370368.yaml](amazon-cloudfront-client-routing-library-674370368.yaml) |
+| amazon-cloudwatch-agent-254151380 | evidence_only | [amazon-cloudwatch-agent-254151380.md](amazon-cloudwatch-agent-254151380.md) | [amazon-cloudwatch-agent-254151380.yaml](amazon-cloudwatch-agent-254151380.yaml) |
+| amazon-cloudwatch-agent-operator-673479242 | evidence_only | [amazon-cloudwatch-agent-operator-673479242.md](amazon-cloudwatch-agent-operator-673479242.md) | [amazon-cloudwatch-agent-operator-673479242.yaml](amazon-cloudwatch-agent-operator-673479242.yaml) |
+| amazon-cloudwatch-agent-selinux-942236796 | evidence_only | [amazon-cloudwatch-agent-selinux-942236796.md](amazon-cloudwatch-agent-selinux-942236796.md) | [amazon-cloudwatch-agent-selinux-942236796.yaml](amazon-cloudwatch-agent-selinux-942236796.yaml) |
+| amazon-cloudwatch-agent-test-555027102 | evidence_only | [amazon-cloudwatch-agent-test-555027102.md](amazon-cloudwatch-agent-test-555027102.md) | [amazon-cloudwatch-agent-test-555027102.yaml](amazon-cloudwatch-agent-test-555027102.yaml) |
 | audit-plugin-for-mysql-491703714 | manual_reviewed | [audit-plugin-for-mysql-491703714.md](audit-plugin-for-mysql-491703714.md) | [audit-plugin-for-mysql-491703714.yaml](audit-plugin-for-mysql-491703714.yaml) |
 | cicd-for-sagemakerunifiedstudio-1129251564 | evidence_only | [cicd-for-sagemakerunifiedstudio-1129251564.md](cicd-for-sagemakerunifiedstudio-1129251564.md) | [cicd-for-sagemakerunifiedstudio-1129251564.yaml](cicd-for-sagemakerunifiedstudio-1129251564.yaml) |
 | device-defender-for-aws-iot-embedded-sdk-295881054 | evidence_only | [device-defender-for-aws-iot-embedded-sdk-295881054.md](device-defender-for-aws-iot-embedded-sdk-295881054.md) | [device-defender-for-aws-iot-embedded-sdk-295881054.yaml](device-defender-for-aws-iot-embedded-sdk-295881054.yaml) |

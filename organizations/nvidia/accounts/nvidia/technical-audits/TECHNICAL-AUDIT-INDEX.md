@@ -1,10 +1,10 @@
 # Technical audits — nvidia
 
-Updated: 2026-11-27T22:44:10+00:00
+Updated: 2026-11-28T07:15:20+00:00
 
 ## Status counts
 
-- evidence_only: 24
+- evidence_only: 28
 
 ## Repository dossiers
 
@@ -32,5 +32,9 @@ Updated: 2026-11-27T22:44:10+00:00
 | comd-cuda-14217748 | evidence_only | [comd-cuda-14217748.md](comd-cuda-14217748.md) | [comd-cuda-14217748.yaml](comd-cuda-14217748.yaml) |
 | compileiq-1228891212 | evidence_only | [compileiq-1228891212.md](compileiq-1228891212.md) | [compileiq-1228891212.yaml](compileiq-1228891212.yaml) |
 | contrastivelosses4vrd-176369298 | evidence_only | [contrastivelosses4vrd-176369298.md](contrastivelosses4vrd-176369298.md) | [contrastivelosses4vrd-176369298.yaml](contrastivelosses4vrd-176369298.yaml) |
+| cosmos-tokenizer-881054702 | evidence_only | [cosmos-tokenizer-881054702.md](cosmos-tokenizer-881054702.md) | [cosmos-tokenizer-881054702.yaml](cosmos-tokenizer-881054702.yaml) |
 | cuda-fortran-2ed-874417210 | evidence_only | [cuda-fortran-2ed-874417210.md](cuda-fortran-2ed-874417210.md) | [cuda-fortran-2ed-874417210.yaml](cuda-fortran-2ed-874417210.yaml) |
 | cudalibrarysamples-185834676 | evidence_only | [cudalibrarysamples-185834676.md](cudalibrarysamples-185834676.md) | [cudalibrarysamples-185834676.yaml](cudalibrarysamples-185834676.yaml) |
+| dali-135768037 | evidence_only | [dali-135768037.md](dali-135768037.md) | [dali-135768037.yaml](dali-135768037.yaml) |
+| dali-deps-348020227 | evidence_only | [dali-deps-348020227.md](dali-deps-348020227.md) | [dali-deps-348020227.yaml](dali-deps-348020227.yaml) |
+| dali-extra-153647177 | evidence_only | [dali-extra-153647177.md](dali-extra-153647177.md) | [dali-extra-153647177.yaml](dali-extra-153647177.yaml) |

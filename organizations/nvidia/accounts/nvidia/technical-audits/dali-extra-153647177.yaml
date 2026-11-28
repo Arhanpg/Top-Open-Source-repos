@@ -1,0 +1,87 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:11:25+00:00'
+evidence_fingerprint: ccf3c46d3a59e7fccf5ac77c672108d582e9d56303570342fb65ac1208730d30
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/DALI_extra
+  repository_id: 153647177
+  url: https://github.com/NVIDIA/DALI_extra
+  description: Test data for DALI project
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-13T08:42:33Z'
+  stars: 45
+  readme_url: https://github.com/NVIDIA/DALI_extra/blob/main/README.rst
+  readme_path: README.rst
+  readme_sha: 0a627db423bbc85edb917ad5ee3e77214650e652
+  manifest_paths: []
+  source_files_inspected:
+  - db/imgcodec/colorspaces/layouts/make.py
+  - db/imgcodec/colorspaces/make.py
+  - db/imgcodec/jpeg/generate.py
+  - db/imgcodec/jpeg2k/generating.py
+  repository_tree:
+    status: captured
+    sha: abf6eea8d35282d3c5882b71bcb2dc272019e566
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: NVIDIA DALI ===========
+  why_used: Test data for DALI project
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - HTML
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: db/imgcodec/colorspaces/layouts/make.py,
+    db/imgcodec/colorspaces/make.py, db/imgcodec/jpeg/generate.py, db/imgcodec/jpeg2k/generating.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/DALI_extra/blob/main/README.rst
+  path: README.rst
+  blob_sha: 0a627db423bbc85edb917ad5ee3e77214650e652
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 52557
+    HTML: 36199
+    Shell: 7514
+- type: Git tree
+  status: captured
+  sha: abf6eea8d35282d3c5882b71bcb2dc272019e566
+  truncated: false
+- type: source_file
+  path: db/imgcodec/colorspaces/layouts/make.py
+  blob_sha: 8d83576ea53ec160e3d065c2a25b8a756c456ee7
+  retrieved: true
+- type: source_file
+  path: db/imgcodec/colorspaces/make.py
+  blob_sha: 7a051ea94043663e8b3fd7a9592e287d6b0c0cea
+  retrieved: true
+- type: source_file
+  path: db/imgcodec/jpeg/generate.py
+  blob_sha: 665719ec59cb4d09c75917ab56b88a49b5b2bb96
+  retrieved: true
+- type: source_file
+  path: db/imgcodec/jpeg2k/generating.py
+  blob_sha: cd5e46bda84f2e5b1facf9288560693c50adc6e8
+  retrieved: true

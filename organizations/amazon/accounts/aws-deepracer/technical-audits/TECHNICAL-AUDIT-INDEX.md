@@ -1,10 +1,10 @@
 # Technical audits — aws-deepracer
 
-Updated: 2026-11-27T22:44:10+00:00
+Updated: 2026-11-28T07:15:18+00:00
 
 ## Status counts
 
-- evidence_only: 25
+- evidence_only: 30
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -36,4 +36,9 @@ Updated: 2026-11-27T22:44:10+00:00
 | deepracer-env-config-449867944 | evidence_only | [deepracer-env-config-449867944.md](deepracer-env-config-449867944.md) | [deepracer-env-config-449867944.yaml](deepracer-env-config-449867944.yaml) |
 | deepracer-env-state-472960404 | evidence_only | [deepracer-env-state-472960404.md](deepracer-env-state-472960404.md) | [deepracer-env-state-472960404.yaml](deepracer-env-state-472960404.yaml) |
 | deepracer-track-geometry-462049882 | evidence_only | [deepracer-track-geometry-462049882.md](deepracer-track-geometry-462049882.md) | [deepracer-track-geometry-462049882.yaml](deepracer-track-geometry-462049882.yaml) |
+| deepsim-453191125 | evidence_only | [deepsim-453191125.md](deepsim-453191125.md) | [deepsim-453191125.yaml](deepsim-453191125.yaml) |
 | github-744758268 | insufficient_evidence | [github-744758268.md](github-744758268.md) | [github-744758268.yaml](github-744758268.yaml) |
+| ros-kvs-streamer-501444019 | evidence_only | [ros-kvs-streamer-501444019.md](ros-kvs-streamer-501444019.md) | [ros-kvs-streamer-501444019.yaml](ros-kvs-streamer-501444019.yaml) |
+| ros-video-recorder-501442568 | evidence_only | [ros-video-recorder-501442568.md](ros-video-recorder-501442568.md) | [ros-video-recorder-501442568.yaml](ros-video-recorder-501442568.yaml) |
+| ude-449488806 | evidence_only | [ude-449488806.md](ude-449488806.md) | [ude-449488806.yaml](ude-449488806.yaml) |
+| ude-gym-bridge-453241206 | evidence_only | [ude-gym-bridge-453241206.md](ude-gym-bridge-453241206.md) | [ude-gym-bridge-453241206.yaml](ude-gym-bridge-453241206.yaml) |

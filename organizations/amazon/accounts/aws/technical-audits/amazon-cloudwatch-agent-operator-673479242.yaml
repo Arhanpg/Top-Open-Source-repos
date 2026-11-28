@@ -1,0 +1,223 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:02:16+00:00'
+evidence_fingerprint: 62c31bf6a5b7e3f8738677878498d72d185c606aefffc889890dc0d8965df329
+repository_metadata:
+  company: Amazon
+  account: aws
+  full_name: aws/amazon-cloudwatch-agent-operator
+  repository_id: 673479242
+  url: https://github.com/aws/amazon-cloudwatch-agent-operator
+  description: The Amazon CloudWatch Agent Operator is software developed to manage the CloudWatch Agent on kubernetes.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-17T14:07:52Z'
+  stars: 33
+  readme_url: https://github.com/aws/amazon-cloudwatch-agent-operator/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 706926de2d5502561b708075bbf375887ef9acc0
+  manifest_paths:
+  - Dockerfile
+  - go.mod
+  - Makefile
+  - cmd/amazon-cloudwatch-agent-target-allocator/Dockerfile
+  source_files_inspected:
+  - cmd/amazon-cloudwatch-agent-target-allocator/main.go
+  - integration-tests/java-profiling/cmd/main.go
+  - internal/config/main.go
+  - internal/naming/main.go
+  repository_tree:
+    status: captured
+    sha: 694e11eb5082a02f443302d9478d1739c570a219
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Amazon CloudWatch Agent Operator is software developed to manage the CloudWatch Agent on kubernetes.
+  why_used: The Amazon CloudWatch Agent Operator is software developed to manage the CloudWatch Agent on kubernetes.
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Makefile
+    - Shell
+    - HCL
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - cloud.google.com/go/auth
+    - cloud.google.com/go/auth/oauth2adapt
+    - cloud.google.com/go/compute/metadata
+    - dario.cat/mergo
+    - github.com/Azure/azure-sdk-for-go/sdk/azcore
+    - github.com/Azure/azure-sdk-for-go/sdk/azidentity
+    - github.com/Azure/azure-sdk-for-go/sdk/internal
+    - github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/compute/armcompute/v5
+    - github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/network/armnetwork/v4
+    - github.com/AzureAD/microsoft-authentication-library-for-go
+    - github.com/Code-Hex/go-generics-cache
+    - github.com/Microsoft/go-winio
+    - github.com/alecthomas/units
+    - github.com/armon/go-metrics
+    - github.com/asaskevich/govalidator
+    - github.com/aws/aws-sdk-go
+    - github.com/aws/aws-sdk-go-v2
+    - github.com/aws/aws-sdk-go-v2/config
+    - github.com/aws/aws-sdk-go-v2/credentials
+    - github.com/aws/aws-sdk-go-v2/feature/ec2/imds
+    - github.com/aws/aws-sdk-go-v2/internal/configsources
+    - github.com/aws/aws-sdk-go-v2/internal/endpoints/v2
+    - github.com/aws/aws-sdk-go-v2/internal/v4a
+    - github.com/aws/aws-sdk-go-v2/service/ec2
+    - github.com/aws/aws-sdk-go-v2/service/ecs
+    - github.com/aws/aws-sdk-go-v2/service/elasticache
+    - github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding
+    - github.com/aws/aws-sdk-go-v2/service/internal/presigned-url
+    - github.com/aws/aws-sdk-go-v2/service/kafka
+    - github.com/aws/aws-sdk-go-v2/service/lightsail
+    - github.com/aws/aws-sdk-go-v2/service/rds
+    - github.com/aws/aws-sdk-go-v2/service/signin
+    - github.com/aws/aws-sdk-go-v2/service/sso
+    - github.com/aws/aws-sdk-go-v2/service/ssooidc
+    - github.com/aws/aws-sdk-go-v2/service/sts
+    - github.com/aws/smithy-go
+    - github.com/beorn7/perks
+    - github.com/blang/semver/v4
+    - github.com/buraksezer/consistent
+    - github.com/bytedance/sonic
+    - github.com/bytedance/sonic/loader
+    - github.com/cenkalti/backoff/v5
+    - github.com/cespare/xxhash/v2
+    - github.com/cloudwego/base64x
+    - github.com/cloudwego/iasm
+    - github.com/cncf/xds/go
+    - github.com/containerd/errdefs
+    - github.com/containerd/errdefs/pkg
+    - github.com/davecgh/go-spew
+    - github.com/dennwc/varint
+    - github.com/digitalocean/godo
+    - github.com/distribution/reference
+    - github.com/docker/go-connections
+    - github.com/docker/go-units
+    - github.com/edsrzf/mmap-go
+    - github.com/efficientgo/core
+    - github.com/emicklei/go-restful/v3
+    - github.com/envoyproxy/go-control-plane/envoy
+    - github.com/envoyproxy/protoc-gen-validate
+    - github.com/evanphx/json-patch/v5
+    - github.com/facette/natsort
+    - github.com/fatih/color
+    - github.com/felixge/httpsnoop
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/gabriel-vasile/mimetype
+    - github.com/ghodss/yaml
+    - github.com/gin-contrib/sse
+    - github.com/gin-gonic/gin
+    - github.com/go-kit/log
+    - github.com/go-logfmt/logfmt
+    - github.com/go-logr/logr
+    - github.com/go-logr/stdr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/analysis
+    - github.com/go-openapi/errors
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/loads
+    - github.com/go-openapi/runtime
+    - github.com/go-openapi/runtime/server-middleware
+    - github.com/go-openapi/spec
+    - github.com/go-openapi/strfmt
+    - github.com/go-openapi/swag
+    - github.com/go-openapi/swag/cmdutils
+    - github.com/go-openapi/swag/conv
+    - github.com/go-openapi/swag/fileutils
+    - github.com/go-openapi/swag/jsonname
+    - github.com/go-openapi/swag/jsonutils
+    - github.com/go-openapi/swag/loading
+    - github.com/go-openapi/swag/mangling
+    - github.com/go-openapi/swag/netutils
+    - github.com/go-openapi/swag/stringutils
+    - github.com/go-openapi/swag/typeutils
+    - github.com/go-openapi/swag/yamlutils
+    - github.com/go-openapi/validate
+    - github.com/go-playground/locales
+    - github.com/go-playground/universal-translator
+    - github.com/go-playground/validator/v10
+    - github.com/go-resty/resty/v2
+    build_and_package_tools:
+    - Docker build configuration
+    - Go module manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/amazon-cloudwatch-agent-target-allocator/main.go,
+    integration-tests/java-profiling/cmd/main.go, internal/config/main.go, internal/naming/main.go'
+  setup_and_usage:
+  - 'Getting started: 1. Set a shortcut for kubectl for the operator namespace'
+  - 'Getting started: kubectl config set-context --current --namespace=amazon-cloudwatch'
+  - 'Getting started: 2. Look at all resources created'
+  - 'Getting started: 3. Look at the manager pod logs to ensure the manager is functioning and waiting for workers'
+  - 'Getting started: kubectl logs amazon-cloudwatch-agent-operator-controller-manager-66f67f47f78'
+  - 'Getting started: You should see logs that look similar to below'
+  - 'Getting started: {"level":"info","ts":"2023-06-29T01:37:36Z","msg":"Starting workers","controller":"amazoncloudwatchagent","controllerGroup":"cloudwatch.aws.amazon.com","controllerKind":"AmazonCloudWatchAgent","worker
+    count":1}'
+  - 'Getting started: 4. Create an AmazonCloudWatchAgent resource'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws/amazon-cloudwatch-agent-operator/blob/main/README.md
+  path: README.md
+  blob_sha: 706926de2d5502561b708075bbf375887ef9acc0
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 145a0dbe740aeb26ab535633ef7101cd1405eca5
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: fff9adc899a4a0b2cfebbf7abed808ec420be764
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 959c703c5ef0f736a80c508ee31b84698f80d674
+  retrieved: true
+- type: manifest
+  path: cmd/amazon-cloudwatch-agent-target-allocator/Dockerfile
+  blob_sha: 86def79ef8ffdf4bb30522f5a6ed800d3c76dac6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 1866863
+    Makefile: 12764
+    Shell: 5651
+    HCL: 5648
+    Dockerfile: 2253
+- type: Git tree
+  status: captured
+  sha: 694e11eb5082a02f443302d9478d1739c570a219
+  truncated: false
+- type: source_file
+  path: cmd/amazon-cloudwatch-agent-target-allocator/main.go
+  blob_sha: 1170831b80c4923df763c2cf988f83c7907a4306
+  retrieved: true
+- type: source_file
+  path: integration-tests/java-profiling/cmd/main.go
+  blob_sha: ee37e4f0878277c460521f0e43aeb6caf3c795f7
+  retrieved: true
+- type: source_file
+  path: internal/config/main.go
+  blob_sha: 0ebfe4f281dff98b935ec36d478e949ef8d0d71b
+  retrieved: true
+- type: source_file
+  path: internal/naming/main.go
+  blob_sha: 38282dcd7656bb6b59c90ecf9886029fcad2f422
+  retrieved: true

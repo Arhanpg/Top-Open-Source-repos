@@ -1,0 +1,117 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:58:25+00:00'
+evidence_fingerprint: 2d792614c8540572d1b1b369587960342b9d571b95162924b45b7274becde2c5
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/Rubik
+  repository_id: 504447693
+  url: https://github.com/baidu/Rubik
+  description: An Android platform component management tool chain, based on Kotlin language.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-05-22T08:00:13Z'
+  stars: 162
+  readme_url: https://github.com/baidu/Rubik/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 89136b5822a40832e08e84715f352197d2f8291a
+  manifest_paths:
+  - build.gradle
+  - test_app/build.gradle
+  - demo/demo_component_detail/build.gradle
+  - demo/demo_component_detail_java/build.gradle
+  - demo/demo_component_home/build.gradle
+  - demo/demo_root_app/build.gradle
+  source_files_inspected:
+  - demo/demo_component_detail/src/main/java/com/mars/component/detail/api/AipsInCompanion.kt
+  - demo/demo_component_detail/src/main/java/com/mars/component/detail/api/AipsInTop.kt
+  - demo/demo_component_detail/src/main/java/com/mars/component/detail/api/Apis.kt
+  - demo/demo_component_detail/src/main/java/com/mars/component/detail/api/ApisAsyncReturn.kt
+  repository_tree:
+    status: captured
+    sha: c051461233c1cc78daa98c8331d9ab421695099b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Rubik是一套解决Android平台组件化的综合方案，提供gradle project之间的路由通讯能力，以及对gradle project的组件定义、版本控制、maven发布、aar/jar与源码之间的切换以及组件的自由组合等能力。
+  why_used: An Android platform component management tool chain, based on Kotlin language.
+  core_features: []
+  technology_stack:
+    languages:
+    - Kotlin
+    - Java
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Gradle build file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: demo/demo_component_detail/src/main/java/com/mars/component/detail/api/AipsInCompanion.kt,
+    demo/demo_component_detail/src/main/java/com/mars/component/detail/api/AipsInTop.kt, demo/demo_component_detail/src/main/java/com/mars/component/detail/api/Apis.kt,
+    demo/demo_component_detail/src/main/java/com/mars/component/detail/api/ApisAsyncReturn.kt'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/Rubik/blob/main/README.md
+  path: README.md
+  blob_sha: 89136b5822a40832e08e84715f352197d2f8291a
+  retrieved: true
+- type: manifest
+  path: build.gradle
+  blob_sha: c111589fa5355e7892846b684950c0da330bfb73
+  retrieved: true
+- type: manifest
+  path: test_app/build.gradle
+  blob_sha: 338dcc11a150551f1da96ebd3175bfba4474c3fc
+  retrieved: true
+- type: manifest
+  path: demo/demo_component_detail/build.gradle
+  blob_sha: d1e1fdbf437ee82e53ecc7a2fe795f9c4370662f
+  retrieved: true
+- type: manifest
+  path: demo/demo_component_detail_java/build.gradle
+  blob_sha: 98e071657a6d0cddbf06a57691f962adcdd50eae
+  retrieved: true
+- type: manifest
+  path: demo/demo_component_home/build.gradle
+  blob_sha: 843d448802b7a5d6432c6ea0f9bec0f614b38f9a
+  retrieved: true
+- type: manifest
+  path: demo/demo_root_app/build.gradle
+  blob_sha: cc737f943e8c6d71a27c2fdc29ee631093c36ec3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Kotlin: 607049
+    Java: 37304
+- type: Git tree
+  status: captured
+  sha: c051461233c1cc78daa98c8331d9ab421695099b
+  truncated: false
+- type: source_file
+  path: demo/demo_component_detail/src/main/java/com/mars/component/detail/api/AipsInCompanion.kt
+  blob_sha: 1af2fc7198f0157ebc1e41cfc5640bd76a1723de
+  retrieved: true
+- type: source_file
+  path: demo/demo_component_detail/src/main/java/com/mars/component/detail/api/AipsInTop.kt
+  blob_sha: bbc5577ed507d88816d069cc5a1f1fb792987d08
+  retrieved: true
+- type: source_file
+  path: demo/demo_component_detail/src/main/java/com/mars/component/detail/api/Apis.kt
+  blob_sha: ca719da2dbf4418ffa06efd74a810a0e7092976c
+  retrieved: true
+- type: source_file
+  path: demo/demo_component_detail/src/main/java/com/mars/component/detail/api/ApisAsyncReturn.kt
+  blob_sha: 16101a3d285c58dc47509edba15ca8e19030e4b5
+  retrieved: true

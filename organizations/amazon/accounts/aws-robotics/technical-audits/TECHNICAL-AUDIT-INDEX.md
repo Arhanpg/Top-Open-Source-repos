@@ -1,10 +1,10 @@
 # Technical audits — aws-robotics
 
-Updated: 2026-11-27T22:44:04+00:00
+Updated: 2026-11-28T07:15:21+00:00
 
 ## Status counts
 
-- evidence_only: 26
+- evidence_only: 31
 
 ## Repository dossiers
 
@@ -35,4 +35,9 @@ Updated: 2026-11-27T22:44:04+00:00
 | kinesisvideo-encoder-common-158597991 | evidence_only | [kinesisvideo-encoder-common-158597991.md](kinesisvideo-encoder-common-158597991.md) | [kinesisvideo-encoder-common-158597991.yaml](kinesisvideo-encoder-common-158597991.yaml) |
 | kinesisvideo-encoder-ros1-158598080 | evidence_only | [kinesisvideo-encoder-ros1-158598080.md](kinesisvideo-encoder-ros1-158598080.md) | [kinesisvideo-encoder-ros1-158598080.yaml](kinesisvideo-encoder-ros1-158598080.yaml) |
 | kinesisvideo-encoder-ros2-168239764 | evidence_only | [kinesisvideo-encoder-ros2-168239764.md](kinesisvideo-encoder-ros2-168239764.md) | [kinesisvideo-encoder-ros2-168239764.yaml](kinesisvideo-encoder-ros2-168239764.yaml) |
+| kinesisvideo-ros1-154743405 | evidence_only | [kinesisvideo-ros1-154743405.md](kinesisvideo-ros1-154743405.md) | [kinesisvideo-ros1-154743405.yaml](kinesisvideo-ros1-154743405.yaml) |
+| kinesisvideo-ros2-168239951 | evidence_only | [kinesisvideo-ros2-168239951.md](kinesisvideo-ros2-168239951.md) | [kinesisvideo-ros2-168239951.yaml](kinesisvideo-ros2-168239951.yaml) |
+| lex-common-168239664 | evidence_only | [lex-common-168239664.md](lex-common-168239664.md) | [lex-common-168239664.yaml](lex-common-168239664.yaml) |
+| lex-ros1-154743420 | evidence_only | [lex-ros1-154743420.md](lex-ros1-154743420.md) | [lex-ros1-154743420.yaml](lex-ros1-154743420.yaml) |
+| lex-ros2-168239718 | evidence_only | [lex-ros2-168239718.md](lex-ros2-168239718.md) | [lex-ros2-168239718.yaml](lex-ros2-168239718.yaml) |
 | ros2-sectest-187255145 | evidence_only | [ros2-sectest-187255145.md](ros2-sectest-187255145.md) | [ros2-sectest-187255145.yaml](ros2-sectest-187255145.yaml) |

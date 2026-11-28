@@ -1,0 +1,68 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:54:54+00:00'
+evidence_fingerprint: e83ef13b74b7c8f771ecb6e451a84b6d5abbba2822945b9ade20db837fa24ef5
+repository_metadata:
+  company: Siemens
+  account: Siemens
+  full_name: siemens/UBUNTU24-CIS
+  repository_id: 1113118825
+  url: https://github.com/siemens/UBUNTU24-CIS
+  description: Automated CIS Benchmark Compliance Remediation for Ubuntu 24 with Ansible
+  default_branch: devel
+  license_spdx: MIT
+  archived: false
+  fork: true
+  disabled: false
+  pushed_at: '2026-01-08T09:16:25Z'
+  stars: 0
+  readme_url: https://github.com/siemens/UBUNTU24-CIS/blob/devel/README.md
+  readme_path: README.md
+  readme_sha: 8af35752dfb813dbfc293cf5970ba6f54be449b7
+  manifest_paths: []
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: beacf6f6bcf76b816244e95f2e81b9a0e129d4fc
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '---'
+  why_used: Automated CIS Benchmark Compliance Remediation for Ubuntu 24 with Ansible
+  core_features: []
+  technology_stack:
+    languages:
+    - YAML
+    - Jinja
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage: []
+  limitations:
+  - 'Matching a security Level for CIS: It is possible to only run level 1 or level 2 controls for CIS.'
+  - 'Matching a security Level for CIS: This is managed using tags:'
+  - 'Matching a security Level for CIS: The control found in defaults main also need to reflect this as this control
+    the testing that takes place if you are using the audit component.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/siemens/UBUNTU24-CIS/blob/devel/README.md
+  path: README.md
+  blob_sha: 8af35752dfb813dbfc293cf5970ba6f54be449b7
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    YAML: 372141
+    Jinja: 53910
+- type: Git tree
+  status: captured
+  sha: beacf6f6bcf76b816244e95f2e81b9a0e129d4fc
+  truncated: false

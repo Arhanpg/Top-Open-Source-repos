@@ -1,0 +1,174 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:56:24+00:00'
+evidence_fingerprint: b7ac8bd6348b0714fef9368862e8f9823d6363743159771e45d4edb9d23ed763
+repository_metadata:
+  company: Amazon
+  account: aws-controllers-k8s
+  full_name: aws-controllers-k8s/cognitoidentity-controller
+  repository_id: 520157221
+  url: https://github.com/aws-controllers-k8s/cognitoidentity-controller
+  description: ACK Controller for Cognito Identity
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-31T19:07:02Z'
+  stars: 0
+  readme_url: https://github.com/aws-controllers-k8s/cognitoidentity-controller/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 568a7a747addcbd5d7dde64f8bf1976a611f5a0d
+  manifest_paths:
+  - go.mod
+  - Makefile
+  - test/e2e/requirements.txt
+  source_files_inspected:
+  - cmd/controller/main.go
+  - pkg/resource/registry.go
+  - pkg/version/version.go
+  - apis/v1alpha1/doc.go
+  repository_tree:
+    status: captured
+    sha: 2fccb893fd3e7d61ae99c31c1fe4aa6267a7f47d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository contains source code for the AWS Controllers for Kubernetes (ACK) service controller
+    for .
+  why_used: ACK Controller for Cognito Identity
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Go Template
+    - Makefile
+    - Go
+    frameworks_and_libraries: []
+    dependencies:
+    - acktest
+    - github.com/aws-controllers-k8s/runtime
+    - github.com/aws/aws-sdk-go
+    - github.com/beorn7/perks
+    - github.com/cenkalti/backoff/v4
+    - github.com/cespare/xxhash/v2
+    - github.com/davecgh/go-spew
+    - github.com/emicklei/go-restful/v3
+    - github.com/evanphx/json-patch/v5
+    - github.com/fsnotify/fsnotify
+    - github.com/fxamacker/cbor/v2
+    - github.com/go-logr/logr
+    - github.com/go-logr/zapr
+    - github.com/go-openapi/jsonpointer
+    - github.com/go-openapi/jsonreference
+    - github.com/go-openapi/swag
+    - github.com/gogo/protobuf
+    - github.com/golang/groupcache
+    - github.com/golang/protobuf
+    - github.com/google/gnostic-models
+    - github.com/google/go-cmp
+    - github.com/google/gofuzz
+    - github.com/google/uuid
+    - github.com/imdario/mergo
+    - github.com/itchyny/gojq
+    - github.com/itchyny/timefmt-go
+    - github.com/jaypipes/envutil
+    - github.com/jmespath/go-jmespath
+    - github.com/josharian/intern
+    - github.com/json-iterator/go
+    - github.com/mailru/easyjson
+    - github.com/modern-go/concurrent
+    - github.com/modern-go/reflect2
+    - github.com/munnerz/goautoneg
+    - github.com/pkg/errors
+    - github.com/prometheus/client_golang
+    - github.com/prometheus/client_model
+    - github.com/prometheus/common
+    - github.com/prometheus/procfs
+    - github.com/samber/lo
+    - github.com/spf13/pflag
+    - github.com/x448/float16
+    - go.uber.org/multierr
+    - go.uber.org/zap
+    - golang.org/x/exp
+    - golang.org/x/net
+    - golang.org/x/oauth2
+    - golang.org/x/sys
+    - golang.org/x/term
+    - golang.org/x/text
+    - golang.org/x/time
+    - gomodules.xyz/jsonpatch/v2
+    - google.golang.org/protobuf
+    - gopkg.in/inf.v0
+    - gopkg.in/yaml.v2
+    - gopkg.in/yaml.v3
+    - k8s.io/api
+    - k8s.io/apiextensions-apiserver
+    - k8s.io/apimachinery
+    - k8s.io/client-go
+    - k8s.io/klog/v2
+    - k8s.io/kube-openapi
+    - k8s.io/utils
+    - sigs.k8s.io/controller-runtime
+    - sigs.k8s.io/json
+    - sigs.k8s.io/structured-merge-diff/v4
+    - sigs.k8s.io/yaml
+    build_and_package_tools:
+    - Go module manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cmd/controller/main.go,
+    pkg/resource/registry.go, pkg/version/version.go, apis/v1alpha1/doc.go'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-controllers-k8s/cognitoidentity-controller/blob/main/README.md
+  path: README.md
+  blob_sha: 568a7a747addcbd5d7dde64f8bf1976a611f5a0d
+  retrieved: true
+- type: manifest
+  path: go.mod
+  blob_sha: 9d61ba8f17bb8fe8d76c1594a5b820a13018bbbf
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 0953c01ad02c122fc28ef5ec126b33903b82b652
+  retrieved: true
+- type: manifest
+  path: test/e2e/requirements.txt
+  blob_sha: 3108f42937ebdaa37c3dfb26e9dcf126be7664da
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 7488
+    Go Template: 2917
+    Makefile: 565
+    Go: 182
+- type: Git tree
+  status: captured
+  sha: 2fccb893fd3e7d61ae99c31c1fe4aa6267a7f47d
+  truncated: false
+- type: source_file
+  path: cmd/controller/main.go
+  blob_sha: 3a1903e2425435ee29c9998e9051d6b1d61f480b
+  retrieved: true
+- type: source_file
+  path: pkg/resource/registry.go
+  blob_sha: 3f3aa2867cfdf2db63d6c8e834379bdeaf180b6d
+  retrieved: true
+- type: source_file
+  path: pkg/version/version.go
+  blob_sha: de0f243286d981939d43946ff35ed59d663d72df
+  retrieved: true
+- type: source_file
+  path: apis/v1alpha1/doc.go
+  blob_sha: 4027fae8d5500afaa75413081bb8f0c58cfe83cc
+  retrieved: true

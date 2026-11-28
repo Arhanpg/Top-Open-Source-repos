@@ -1,0 +1,135 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:52:16+00:00'
+evidence_fingerprint: d64520ddd5a8c991c8ee60650993fd52b4aacd0cff1ccde6645e584802a6621c
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/PaConvert
+  repository_id: 608649692
+  url: https://github.com/PaddlePaddle/PaConvert
+  description: PaddlePaddle Code Convert Toolkit. 『飞桨』深度学习代码转换工具
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-08-17T05:07:35Z'
+  stars: 123
+  readme_url: https://github.com/PaddlePaddle/PaConvert/blob/master/README.md
+  readme_path: README.md
+  readme_sha: fc890013e5f2240f83d8f0a636b4d5e2f4f37b0f
+  manifest_paths:
+  - Makefile
+  - requirements.txt
+  - setup.py
+  - tests/requirements.txt
+  - tools/docker/Dockerfile
+  - tests/code_library/code_case/custom_op/paddle_code/setup.py
+  source_files_inspected:
+  - paconvert/main.py
+  - .github/actions/rerun-workflow/rerun.sh
+  - paconvert/__init__.py
+  - paconvert/base.py
+  repository_tree:
+    status: captured
+    sha: 7f0da66deb5a266fce3af64c35b26d1e7d170b07
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Pa**ddlePaddle Code **Convert** Toolkits（**PaConvert Github**）'
+  why_used: PaddlePaddle Code Convert Toolkit. 『飞桨』深度学习代码转换工具
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - Cuda
+    - C++
+    - Dockerfile
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - astor
+    - black
+    - coverage
+    - diff-cover
+    - isort
+    - pandas
+    - pre-commit
+    - pytest
+    - pytest-cov
+    - regex
+    build_and_package_tools:
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: paconvert/main.py,
+    .github/actions/rerun-workflow/rerun.sh, paconvert/__init__.py, paconvert/base.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/PaConvert/blob/master/README.md
+  path: README.md
+  blob_sha: fc890013e5f2240f83d8f0a636b4d5e2f4f37b0f
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 48d90bdc5ad229da45fce458a41d307e65608e4b
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 271b8b803b387f6c4e61aed8348b0df911d8fd0e
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 90a6d06c37fcf0abe6aae4ec3c61bb01492fc951
+  retrieved: true
+- type: manifest
+  path: tests/requirements.txt
+  blob_sha: cbe67607ec5223be2758833b101ac4064f6f4083
+  retrieved: true
+- type: manifest
+  path: tools/docker/Dockerfile
+  blob_sha: 0ffc700f6f9fb953539c9f709067ef08b64736fc
+  retrieved: true
+- type: manifest
+  path: tests/code_library/code_case/custom_op/paddle_code/setup.py
+  blob_sha: d0c2e199a3de0d2a1ac2ef2a50ed7292723d98f3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 6898229
+    Shell: 52124
+    Cuda: 50886
+    C++: 4100
+    Dockerfile: 1444
+    Makefile: 1127
+- type: Git tree
+  status: captured
+  sha: 7f0da66deb5a266fce3af64c35b26d1e7d170b07
+  truncated: false
+- type: source_file
+  path: paconvert/main.py
+  blob_sha: e9e066ab0f5a3b90ac83e62c78cfc4eed49c58df
+  retrieved: true
+- type: source_file
+  path: .github/actions/rerun-workflow/rerun.sh
+  blob_sha: 6473de10cfeb1c8d9540bf2ec3cb4602286b249a
+  retrieved: true
+- type: source_file
+  path: paconvert/__init__.py
+  blob_sha: 6aa84e882faca78336cca1e30518e94cea3818df
+  retrieved: true
+- type: source_file
+  path: paconvert/base.py
+  blob_sha: 361cdf0bfdd7eb2cb3251b7061c1eb9f3b1ed070
+  retrieved: true

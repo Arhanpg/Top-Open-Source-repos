@@ -1,0 +1,94 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:01:28+00:00'
+evidence_fingerprint: a42097c9762ba63d71c3b5e3ce62de5c8393a0eb90e59a9effba34f169eb8c24
+repository_metadata:
+  company: Alphabet (Google)
+  account: google
+  full_name: google/EXEgesis
+  repository_id: 76657412
+  url: https://github.com/google/EXEgesis
+  description: null
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2023-04-10T00:27:11Z'
+  stars: 284
+  readme_url: https://github.com/google/EXEgesis/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 272faf6f2a1ca88979fc02bcdaecb780c97b1f18
+  manifest_paths:
+  - exegesis/mysteries/Makefile
+  source_files_inspected:
+  - base/casts.h
+  - exegesis/arm/xml/converter.cc
+  - exegesis/arm/xml/converter.h
+  - exegesis/arm/xml/converter_test.cc
+  repository_tree:
+    status: captured
+    sha: 0b27ca622610261415b56fd7d53e87cc66042fd5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**As of January 2023, this project is no longer being maintained.** Many parts of this projects have
+    open-source alternatives that are part of a bigger effort and that are actively maintained:'
+  why_used: '**As of January 2023, this project is no longer being maintained.** Many parts of this projects have
+    open-source alternatives that are part of a bigger effort and that are actively maintained:'
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Starlark
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: base/casts.h, exegesis/arm/xml/converter.cc,
+    exegesis/arm/xml/converter.h, exegesis/arm/xml/converter_test.cc'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google/EXEgesis/blob/master/README.md
+  path: README.md
+  blob_sha: 272faf6f2a1ca88979fc02bcdaecb780c97b1f18
+  retrieved: true
+- type: manifest
+  path: exegesis/mysteries/Makefile
+  blob_sha: 3bba8ffab7f9ca25c6f9753b75ccf7265367c86d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 2263919
+    Starlark: 108849
+    Makefile: 2433
+- type: Git tree
+  status: captured
+  sha: 0b27ca622610261415b56fd7d53e87cc66042fd5
+  truncated: false
+- type: source_file
+  path: base/casts.h
+  blob_sha: 53fba14fe5f5534f3d4b7c8cb8867a3c903f682c
+  retrieved: true
+- type: source_file
+  path: exegesis/arm/xml/converter.cc
+  blob_sha: 7932632acb2e7fda08a8e891f279950eee2ed0a9
+  retrieved: true
+- type: source_file
+  path: exegesis/arm/xml/converter.h
+  blob_sha: 5e9f17eb621d1ee64474b4eb017d8dc9fb4de2fe
+  retrieved: true
+- type: source_file
+  path: exegesis/arm/xml/converter_test.cc
+  blob_sha: 8a7ee076c2f6c34e664a74ceec7a9187893c5130
+  retrieved: true

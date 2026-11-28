@@ -1,0 +1,109 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:05:44+00:00'
+evidence_fingerprint: 952f4cf13acb808319481b320361b523227a05d549c5a987954b4d88835a0c62
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/cumlprims_mg
+  repository_id: 1041037921
+  url: https://github.com/rapidsai/cumlprims_mg
+  description: Multi-node, multi-GPU (MNMG) ML mathematical primitives and some algorithms used by cuML
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2026-01-02T19:06:40Z'
+  stars: 4
+  readme_url: https://github.com/rapidsai/cumlprims_mg/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 4cb69e8dc080944dc7cae0ac10fe6c0ec0a3ba41
+  manifest_paths:
+  - .devcontainer/Dockerfile
+  - cpp/CMakeLists.txt
+  - cpp/test/CMakeLists.txt
+  source_files_inspected:
+  - build.sh
+  - ci/build_cpp.sh
+  - ci/check_style.sh
+  - ci/checks/black_lists.sh
+  repository_tree:
+    status: captured
+    sha: acf22d2fd89d78c0a0734792f67df1cdda5cc263
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> [!IMPORTANT] > The final release of this project was v25.12. > Its functionality was moved into cuML,
+    starting with v26.02. > > See https://docs.rapids.ai/notices/rsn0056/ for details.'
+  why_used: Multi-node, multi-GPU (MNMG) ML mathematical primitives and some algorithms used by cuML
+  core_features: []
+  technology_stack:
+    languages:
+    - Cuda
+    - C++
+    - CMake
+    - Shell
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: build.sh, ci/build_cpp.sh,
+    ci/check_style.sh, ci/checks/black_lists.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/cumlprims_mg/blob/main/README.md
+  path: README.md
+  blob_sha: 4cb69e8dc080944dc7cae0ac10fe6c0ec0a3ba41
+  retrieved: true
+- type: manifest
+  path: .devcontainer/Dockerfile
+  blob_sha: 2253e6271d54054480c6c88ae9dce3cc15ae240f
+  retrieved: true
+- type: manifest
+  path: cpp/CMakeLists.txt
+  blob_sha: 2a0378212abbddce5d23e79e8ef47f6a2d457ea8
+  retrieved: true
+- type: manifest
+  path: cpp/test/CMakeLists.txt
+  blob_sha: a1f0ea5e862b5e8d34761bcae6f8f253ace42210
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Cuda: 116427
+    C++: 46833
+    CMake: 18514
+    Shell: 13779
+    Dockerfile: 1368
+- type: Git tree
+  status: captured
+  sha: acf22d2fd89d78c0a0734792f67df1cdda5cc263
+  truncated: false
+- type: source_file
+  path: build.sh
+  blob_sha: 6d6522f919725c7afd372b2a3adc7b7310e02e48
+  retrieved: true
+- type: source_file
+  path: ci/build_cpp.sh
+  blob_sha: c1ddde36bd3f9b6b338713faeaa143e22e5273ad
+  retrieved: true
+- type: source_file
+  path: ci/check_style.sh
+  blob_sha: e7227881e959b6a6adecf14cdd58aeaf208845d3
+  retrieved: true
+- type: source_file
+  path: ci/checks/black_lists.sh
+  blob_sha: 8da948fe0d780d43d4df7d242d427af1fa9feb08
+  retrieved: true

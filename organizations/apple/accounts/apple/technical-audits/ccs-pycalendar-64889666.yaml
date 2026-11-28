@@ -1,0 +1,88 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:04:15+00:00'
+evidence_fingerprint: 1033e9c2039a0b306519bfea2b874c193c2528863f141a75a5b29d57ce154c23
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/ccs-pycalendar
+  repository_id: 64889666
+  url: https://github.com/apple/ccs-pycalendar
+  description: Python iCalendar library used by CalendarServer
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-02-24T17:26:32Z'
+  stars: 73
+  readme_url: https://github.com/apple/ccs-pycalendar/blob/master/README
+  readme_path: README
+  readme_sha: 6a1edbd23be90397417ae750e59e0e230458dd14
+  manifest_paths:
+  - setup.py
+  source_files_inspected:
+  - src/pycalendar/__init__.py
+  - src/pycalendar/binaryvalue.py
+  - src/pycalendar/caladdressvalue.py
+  - src/pycalendar/componentbase.py
+  repository_tree:
+    status: captured
+    sha: e9781ca66bb5f8f6897099a1f7bb79624099ec3b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Notice of Archival ==================
+  why_used: Python iCalendar library used by CalendarServer
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/pycalendar/__init__.py,
+    src/pycalendar/binaryvalue.py, src/pycalendar/caladdressvalue.py, src/pycalendar/componentbase.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/ccs-pycalendar/blob/master/README
+  path: README
+  blob_sha: 6a1edbd23be90397417ae750e59e0e230458dd14
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: d567ef837336f7d2f62530a193605acdaf280acb
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 817206
+- type: Git tree
+  status: captured
+  sha: e9781ca66bb5f8f6897099a1f7bb79624099ec3b
+  truncated: false
+- type: source_file
+  path: src/pycalendar/__init__.py
+  blob_sha: ff50242bad281f071f47aeb18e0e7727f63449c4
+  retrieved: true
+- type: source_file
+  path: src/pycalendar/binaryvalue.py
+  blob_sha: d46d24580a7a1d85dfd3c9a2c12bcae1bedca474
+  retrieved: true
+- type: source_file
+  path: src/pycalendar/caladdressvalue.py
+  blob_sha: f8b1e96d1637cfb57381834018d119b9e4f2cf8a
+  retrieved: true
+- type: source_file
+  path: src/pycalendar/componentbase.py
+  blob_sha: 6adc5217d658c9d316feb2234b7b5a4bbc4b9edb
+  retrieved: true

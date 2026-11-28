@@ -1,0 +1,103 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:52:07+00:00'
+evidence_fingerprint: 6b351271d0226069a6479ae563ab8f6c61d2db0fc7281dcafbc3fad83c4b5c36
+repository_metadata:
+  company: Baidu
+  account: baidu
+  full_name: baidu/Quanlse
+  repository_id: 331922070
+  url: https://github.com/baidu/Quanlse
+  description: null
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2021-12-22T05:54:47Z'
+  stars: 44
+  readme_url: https://github.com/baidu/Quanlse/blob/main/README.md
+  readme_path: README.md
+  readme_sha: b57074846017fe2033fdbf1afe574d3b49aca9ad
+  manifest_paths:
+  - setup.py
+  - Requirements/requirements.txt
+  source_files_inspected:
+  - Example/1-example-pi-pulse.py
+  - Example/10-example-ion-MS-gate.py
+  - Example/11-example-ion-general-MS-gate.py
+  - Example/12-example-ZNE.py
+  repository_tree:
+    status: captured
+    sha: db877d19181390afc573a0dc6bad4690c19cbd2b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: English | 简体中文
+  why_used: English | 简体中文
+  core_features: []
+  technology_stack:
+    languages:
+    - Jupyter Notebook
+    - Python
+    - TeX
+    frameworks_and_libraries: []
+    dependencies:
+    - bce-python-sdk
+    - matplotlib
+    - numpy
+    - requests
+    - scipy
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Example/1-example-pi-pulse.py,
+    Example/10-example-ion-MS-gate.py, Example/11-example-ion-general-MS-gate.py, Example/12-example-ZNE.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/baidu/Quanlse/blob/main/README.md
+  path: README.md
+  blob_sha: b57074846017fe2033fdbf1afe574d3b49aca9ad
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 507d75045bf5a4da54344ba2da3f0b59e5b89382
+  retrieved: true
+- type: manifest
+  path: Requirements/requirements.txt
+  blob_sha: 62acbee6d05f066df2406959d672fd611ed2caa3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Jupyter Notebook: 815054
+    Python: 689448
+    TeX: 97
+- type: Git tree
+  status: captured
+  sha: db877d19181390afc573a0dc6bad4690c19cbd2b
+  truncated: false
+- type: source_file
+  path: Example/1-example-pi-pulse.py
+  blob_sha: 13d5191056b70ff085dc246dd7e6c8b87f0ccc46
+  retrieved: true
+- type: source_file
+  path: Example/10-example-ion-MS-gate.py
+  blob_sha: 93e8bd805467aff7d75dd2decdc958209a557520
+  retrieved: true
+- type: source_file
+  path: Example/11-example-ion-general-MS-gate.py
+  blob_sha: cd57f146fa14d018d04769d006fe3b645e827c80
+  retrieved: true
+- type: source_file
+  path: Example/12-example-ZNE.py
+  blob_sha: 7dfac424f34bc682587f582455fb2ec2c09d76d9
+  retrieved: true

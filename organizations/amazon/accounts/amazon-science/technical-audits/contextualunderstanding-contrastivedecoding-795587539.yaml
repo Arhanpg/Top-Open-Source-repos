@@ -1,0 +1,93 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:49:27+00:00'
+evidence_fingerprint: 5d02e9ad63712fb9b5f0b009096a397ff4bd4a5aab707afe68865cbb3185ad08
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/ContextualUnderstanding-ContrastiveDecoding
+  repository_id: 795587539
+  url: https://github.com/amazon-science/ContextualUnderstanding-ContrastiveDecoding
+  description: Enhancing contextual understanding in large language models through contrastive decoding
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2024-05-03T16:08:51Z'
+  stars: 19
+  readme_url: https://github.com/amazon-science/ContextualUnderstanding-ContrastiveDecoding/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e7b015d5c2b39b6f3fe156d8d34fa3e697dc0174
+  manifest_paths: []
+  source_files_inspected:
+  - src/contrastive_decoding/__init__.py
+  - src/contrastive_decoding/run_qa_prompt.py
+  - scripts/run_nq.sh
+  - scripts/run_popqa.sh
+  repository_tree:
+    status: captured
+    sha: fa0961e3c17e208c8898377622f8da3e068f582b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'Large language models (LLMs) tend to inadequately integrate input context during text generation, relying
+    excessively on encoded prior knowledge in model parameters, potentially resulting in generated text with factual
+    inconsistencies or contextually unfaithful content. LLMs utilize two primary knowledge sources: 1) prior (parametric)
+    knowledge from pretraining, and 2) contextual (non-parametric) knowledge from input prompts. The study addresses
+    the open question of how LLMs effectively balance these knowledge sources during the generation process, specifically
+    in the context of open-domain question answering. To address this issue, we introduce a novel approach integrating
+    contrastive decoding with adversarial irrelevant passages as negative samples to enhance robust context grounding
+    during generation. Notably, our method operates at inference time without requiring further training. W'
+  why_used: Enhancing contextual understanding in large language models through contrastive decoding
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/contrastive_decoding/__init__.py,
+    src/contrastive_decoding/run_qa_prompt.py, scripts/run_nq.sh, scripts/run_popqa.sh'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/ContextualUnderstanding-ContrastiveDecoding/blob/main/README.md
+  path: README.md
+  blob_sha: e7b015d5c2b39b6f3fe156d8d34fa3e697dc0174
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 290577
+    Shell: 5092
+- type: Git tree
+  status: captured
+  sha: fa0961e3c17e208c8898377622f8da3e068f582b
+  truncated: false
+- type: source_file
+  path: src/contrastive_decoding/__init__.py
+  blob_sha: 97fa08f7610c2c4a8b9f392e95b3e3e98c306967
+  retrieved: true
+- type: source_file
+  path: src/contrastive_decoding/run_qa_prompt.py
+  blob_sha: 1eeffeb2ffa896ca7d1c17811419c0bb7f2fb9b8
+  retrieved: true
+- type: source_file
+  path: scripts/run_nq.sh
+  blob_sha: 6bebb0966306382eca2101dc81c6878b53b5e295
+  retrieved: true
+- type: source_file
+  path: scripts/run_popqa.sh
+  blob_sha: d621cd009e294c178d21e06b53733a8ebc6b0e65
+  retrieved: true

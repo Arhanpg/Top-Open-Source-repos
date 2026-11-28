@@ -1,0 +1,93 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:49:35+00:00'
+evidence_fingerprint: 0158637d97054a6df9a76427c2a0e6d984f4649a46fb7ad9428f157a75b144ae
+repository_metadata:
+  company: Amazon
+  account: aws
+  full_name: aws/amazon-cloudfront-client-routing-library
+  repository_id: 674370368
+  url: https://github.com/aws/amazon-cloudfront-client-routing-library
+  description: A library to encode and decode dns labels
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-08-09T19:53:16Z'
+  stars: 14
+  readme_url: https://github.com/aws/amazon-cloudfront-client-routing-library/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 3aa4ddb7d2271b7793131383850445b0b52f989d
+  manifest_paths:
+  - Cargo.toml
+  source_files_inspected:
+  - src/lib.rs
+  - src/bitwise.rs
+  - src/client_routing_label.rs
+  - src/encode_decode.rs
+  repository_tree:
+    status: captured
+    sha: ff7679d69223dbda7e329ea83cf5caf26f8568a5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The Amazon CloudFront Client Routing Library is an open-source library designed for CloudFront's Client
+    Routing feature, which is used direct client devices to CloudFront Points of Presence (POPs) with greater precision.
+    Client Routing feature utilizes information present within a specially formatted DNS label, and this library
+    provides functions to encode and decode such DNS labels.
+  why_used: A library to encode and decode dns labels
+  core_features: []
+  technology_stack:
+    languages:
+    - Rust
+    frameworks_and_libraries: []
+    dependencies:
+    - twox-hash
+    build_and_package_tools:
+    - Cargo manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/lib.rs, src/bitwise.rs,
+    src/client_routing_label.rs, src/encode_decode.rs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws/amazon-cloudfront-client-routing-library/blob/main/README.md
+  path: README.md
+  blob_sha: 3aa4ddb7d2271b7793131383850445b0b52f989d
+  retrieved: true
+- type: manifest
+  path: Cargo.toml
+  blob_sha: fca130009d0a8f0b3b4b7e4bbe8aa913c08b3c49
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Rust: 52774
+- type: Git tree
+  status: captured
+  sha: ff7679d69223dbda7e329ea83cf5caf26f8568a5
+  truncated: false
+- type: source_file
+  path: src/lib.rs
+  blob_sha: 4f3613049555a6271d9d480fb52f235cbd59d0ff
+  retrieved: true
+- type: source_file
+  path: src/bitwise.rs
+  blob_sha: a762774faa2bed961f704830eff8cf91d2945ac5
+  retrieved: true
+- type: source_file
+  path: src/client_routing_label.rs
+  blob_sha: 24a225bba97becd8d6b59fdd5318bf226fadf977
+  retrieved: true
+- type: source_file
+  path: src/encode_decode.rs
+  blob_sha: b97e017e4ab6479c5b606dd4e553efa8fb662a91
+  retrieved: true

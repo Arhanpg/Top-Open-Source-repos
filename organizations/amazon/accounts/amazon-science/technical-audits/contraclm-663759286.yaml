@@ -1,0 +1,117 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:55:51+00:00'
+evidence_fingerprint: 0de3710d348683a81c7024b079d9ede20ac1b8dcfc4cea3981d80b583aa7eedf
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/ContraCLM
+  repository_id: 663759286
+  url: https://github.com/amazon-science/ContraCLM
+  description: '[ACL 2023] Code for ContraCLM: Contrastive Learning For Causal Language Model'
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2023-12-20T21:00:39Z'
+  stars: 38
+  readme_url: https://github.com/amazon-science/ContraCLM/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7479f692a1b7430c1d2545a67188024c7e6fa70f
+  manifest_paths:
+  - requirements.txt
+  - evaluation/text_discrimination/SentEval/setup.py
+  source_files_inspected:
+  - contrastive_losses.py
+  - dataloader/bigquery_pypi.py
+  - dataloader/wikitext.py
+  - evaluation/code_generation/execution_utils.py
+  repository_tree:
+    status: captured
+    sha: 6dc0f4099472bd2e2664e3f81b495ae43376acae
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'This repository contains code for the ACL 2023 paper, ContraCLM: Contrastive Learning for Causal Language
+    Model.'
+  why_used: '[ACL 2023] Code for ContraCLM: Contrastive Learning For Causal Language Model'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - datasets
+    - deepspeed
+    - gputil
+    - jsonlines
+    - numpy
+    - pytorch-lightning
+    - tensorboard
+    - torch
+    - transformers
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: contrastive_losses.py,
+    dataloader/bigquery_pypi.py, dataloader/wikitext.py, evaluation/code_generation/execution_utils.py'
+  setup_and_usage:
+  - 'Usage: bash runscripts/run_wikitext.sh'
+  - 'Usage: 1. For quickly testing the code and debug, suggesting run the code with MLE loss only'
+  - 'Usage: by setting CL_Config=$(eval echo ${options[1]}) within the script.'
+  - 'Usage: 2. All other opotions involves CL loss at either token-level or sequence-level.'
+  - 'Usage: 1. Configure the variables at the top of runscripts/run_code.sh. There are lots of options but only
+    the dropout options are explained here (others are self-explanatory):'
+  - 'Usage: * dropout_p: The dropout probability value used in torch.nn.Dropout'
+  - 'Usage: * dropout_layers: If > 0, this will activate the last dropout_layers with probability dropout_p'
+  - 'Usage: * functional_dropout: If specified, will use a functional dropout layer on top of the token representations
+    output from the CodeGen model'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/ContraCLM/blob/main/README.md
+  path: README.md
+  blob_sha: 7479f692a1b7430c1d2545a67188024c7e6fa70f
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: c4fbedcdb2781e70654d0c13ba4ededfc50c1ccb
+  retrieved: true
+- type: manifest
+  path: evaluation/text_discrimination/SentEval/setup.py
+  blob_sha: d039656ba868f789432388ad8410d2b777d23054
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 210397
+    Shell: 9026
+- type: Git tree
+  status: captured
+  sha: 6dc0f4099472bd2e2664e3f81b495ae43376acae
+  truncated: false
+- type: source_file
+  path: contrastive_losses.py
+  blob_sha: 06ec8a3d21281fa88448a7af854bcf0b9289f62a
+  retrieved: true
+- type: source_file
+  path: dataloader/bigquery_pypi.py
+  blob_sha: 9857c2bc79989cb7d7f135aac17113211ca7901c
+  retrieved: true
+- type: source_file
+  path: dataloader/wikitext.py
+  blob_sha: 339458524d27e720a402e0cdcebcff3415a319d0
+  retrieved: true
+- type: source_file
+  path: evaluation/code_generation/execution_utils.py
+  blob_sha: be6a46968bd529ae27f25fa06d1a6e61ef81e3a7
+  retrieved: true

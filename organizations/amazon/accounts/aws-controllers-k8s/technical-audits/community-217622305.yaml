@@ -1,0 +1,114 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:08:39+00:00'
+evidence_fingerprint: 2f52ba0082d7a5c8932b547663cb63f8f384735fca82cccaecf92959dfec4d87
+repository_metadata:
+  company: Amazon
+  account: aws-controllers-k8s
+  full_name: aws-controllers-k8s/community
+  repository_id: 217622305
+  url: https://github.com/aws-controllers-k8s/community
+  description: AWS Controllers for Kubernetes (ACK) is a project enabling you to manage AWS services from Kubernetes
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T17:59:16Z'
+  stars: 2636
+  readme_url: https://github.com/aws-controllers-k8s/community/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f35613a7be37707cd0efc3f9ea592793d1e184cb
+  manifest_paths:
+  - docs/package.json
+  - docs/requirements.txt
+  source_files_inspected: []
+  repository_tree:
+    status: captured
+    sha: d9bab5d979a32d2d9f4cc8e99e2eeffb7a5f4a89
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**AWS Controllers for Kubernetes (ACK)** lets you define and use AWS service resources directly from
+    Kubernetes. With ACK, you can take advantage of AWS managed services for your Kubernetes applications without
+    needing to define resources outside of the cluster or run services that provide supporting capabilities like
+    databases or message queues within the cluster.'
+  why_used: AWS Controllers for Kubernetes (ACK) is a project enabling you to manage AWS services from Kubernetes
+  core_features: []
+  technology_stack:
+    languages: []
+    frameworks_and_libraries: []
+    dependencies:
+    - '@babel/cli'
+    - '@babel/core'
+    - '@babel/preset-env'
+    - '@fullhuman/postcss-purgecss'
+    - Jinja2
+    - PyGitHub
+    - acktools
+    - autoprefixer
+    - bootstrap
+    - clipboard
+    - eslint
+    - exec-bin
+    - flexsearch
+    - gh-pages
+    - highlight.js
+    - hugo-installer
+    - instant.page
+    - katex
+    - lazysizes
+    - markdown-it
+    - markdownlint-cli
+    - mermaid
+    - nanoid
+    - postcss
+    - postcss-cli
+    - purgecss-whitelister
+    - set-value
+    - shelljs
+    - shx
+    - stylelint
+    - stylelint-config-standard
+    build_and_package_tools:
+    - npm-compatible manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: none'
+  setup_and_usage:
+  - 'Getting Started: Please see the list of ACK [service controllers][services] currently in one of'
+  - 'Getting Started: our [project stages][proj-stages].'
+  - 'Getting Started: [proj-stages]: https://aws-controllers-k8s.github.io/docs/concepts/#release-phases'
+  - 'Getting Started: You can [install][install] any of the controllers in the RELEASED project stage using'
+  - 'Getting Started: Helm (recommended) or manually using the raw Kubernetes manifests contained in'
+  - 'Getting Started: the individual ACK service controller''s source repository.'
+  - 'Getting Started: [services]: https://aws-controllers-k8s.github.io/docs/services/'
+  - 'Getting Started: [install]: https://aws-controllers-k8s.github.io/docs/getting-started#choose-your-installation-method'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-controllers-k8s/community/blob/main/README.md
+  path: README.md
+  blob_sha: f35613a7be37707cd0efc3f9ea592793d1e184cb
+  retrieved: true
+- type: manifest
+  path: docs/package.json
+  blob_sha: 14a75a15c0ca9b12c871bd8c2a147a3a76ef3f98
+  retrieved: true
+- type: manifest
+  path: docs/requirements.txt
+  blob_sha: aeab63d594d8ffb9cc42fb6a25a802df54f4e472
+  retrieved: true
+- type: GitHub Languages API
+  values: {}
+- type: Git tree
+  status: captured
+  sha: d9bab5d979a32d2d9f4cc8e99e2eeffb7a5f4a89
+  truncated: false

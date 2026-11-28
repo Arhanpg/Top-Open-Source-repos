@@ -1,0 +1,162 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:00:00+00:00'
+evidence_fingerprint: add1e84326daa5c3d656095300fd8f0434ae00f8632866ff7750112102bcbb58
+repository_metadata:
+  company: SAP
+  account: capire
+  full_name: capire/xtravels-java
+  repository_id: 1071471240
+  url: https://github.com/capire/xtravels-java
+  description: Travel booking app using master data from xflights built with CAP Java
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T13:03:14Z'
+  stars: 2
+  readme_url: https://github.com/capire/xtravels-java/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5eb3df07df7a53fd6faca17aaed1d5d348ccd897
+  manifest_paths:
+  - package.json
+  - pom.xml
+  - app/package.json
+  - db/package.json
+  - srv/pom.xml
+  - app/travels/package.json
+  source_files_inspected:
+  - srv/src/main/java/sap/capire/xtravels/Application.java
+  - app/travels/webapp/Component.js
+  - srv/src/main/java/sap/capire/xtravels/handler/CreationHandler.java
+  - srv/src/main/java/sap/capire/xtravels/handler/DeductDiscountHandler.java
+  repository_tree:
+    status: captured
+    sha: 3738684deb2c95ca73f8ee0921192eaa580dd0c2
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A travel booking application built with CAP Java using master data provided by capire/xflights-java.
+  why_used: Travel booking app using master data from xflights built with CAP Java
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - CAP CDS
+    - HTML
+    - Clean
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@capire/common'
+    - '@sap/ams'
+    - '@sap/approuter'
+    - '@sap/cds'
+    - '@sap/cds-dk'
+    - '@sap/hdi-deploy'
+    - '@sap/ux-ui5-tooling'
+    - cds-adapter-agent
+    - cds-adapter-odata-v4
+    - cds-feature-flow
+    - cds-maven-plugin
+    - cds-services-bom
+    - cds-starter-cloudfoundry
+    - cds-starter-spring-boot
+    - dcl-compiler-plugin
+    - flatten-maven-plugin
+    - h2
+    - hdb
+    - java-bom
+    - langchain4j-bom
+    - langchain4j-ollama
+    - maven-compiler-plugin
+    - maven-enforcer-plugin
+    - maven-surefire-plugin
+    - sdk-modules-bom
+    - spotless-maven-plugin
+    - spring-boot-dependencies
+    - spring-boot-devtools
+    - spring-boot-maven-plugin
+    - spring-boot-starter-actuator
+    - spring-boot-starter-cap-ams
+    - spring-boot-starter-cap-ams-test
+    - spring-boot-starter-security
+    - spring-boot-starter-security-test
+    - spring-boot-starter-test
+    - spring-boot-starter-webmvc-test
+    - xflights-data
+    - xtravels
+    - xtravels-parent
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: srv/src/main/java/sap/capire/xtravels/Application.java,
+    app/travels/webapp/Component.js, srv/src/main/java/sap/capire/xtravels/handler/CreationHandler.java, srv/src/main/java/sap/capire/xtravels/handler/DeductDiscountHandler.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/capire/xtravels-java/blob/main/README.md
+  path: README.md
+  blob_sha: 5eb3df07df7a53fd6faca17aaed1d5d348ccd897
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: a799de10ea02099ed43949fa8ac7b05e24ad46ea
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: 94d9074d6f2fa81d2d0ca739f9e187f846ddf7f9
+  retrieved: true
+- type: manifest
+  path: app/package.json
+  blob_sha: beb69165785c905931d76a53a6fafecfafd7d92c
+  retrieved: true
+- type: manifest
+  path: db/package.json
+  blob_sha: c721ccce8037dc72070df8aecc51c9b113e8d3f0
+  retrieved: true
+- type: manifest
+  path: srv/pom.xml
+  blob_sha: 6c490fc4828891eea971de967d3cde1af94869c5
+  retrieved: true
+- type: manifest
+  path: app/travels/package.json
+  blob_sha: a1a7f25c1c2ef584c56ac909a2af2e52cc245ee3
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 40227
+    CAP CDS: 28818
+    HTML: 1214
+    Clean: 863
+    JavaScript: 255
+- type: Git tree
+  status: captured
+  sha: 3738684deb2c95ca73f8ee0921192eaa580dd0c2
+  truncated: false
+- type: source_file
+  path: srv/src/main/java/sap/capire/xtravels/Application.java
+  blob_sha: 8d91af2a2ce7b8cba8e8c9c3e8d29616f2544552
+  retrieved: true
+- type: source_file
+  path: app/travels/webapp/Component.js
+  blob_sha: c2c234f82cb45cc3fd4f70485650e5d809492dd7
+  retrieved: true
+- type: source_file
+  path: srv/src/main/java/sap/capire/xtravels/handler/CreationHandler.java
+  blob_sha: 1ce773a51286fd4dc7da7eec314ef46ca14e3730
+  retrieved: true
+- type: source_file
+  path: srv/src/main/java/sap/capire/xtravels/handler/DeductDiscountHandler.java
+  blob_sha: c5a7e6a6d6c22268cdf15d0b4f676e3fee9bfe42
+  retrieved: true

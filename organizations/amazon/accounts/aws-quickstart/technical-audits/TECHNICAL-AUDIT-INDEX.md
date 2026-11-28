@@ -1,10 +1,10 @@
 # Technical audits — aws-quickstart
 
-Updated: 2026-11-27T22:44:03+00:00
+Updated: 2026-11-28T07:15:16+00:00
 
 ## Status counts
 
-- evidence_only: 24
+- evidence_only: 29
 - insufficient_evidence: 2
 
 ## Repository dossiers
@@ -37,3 +37,8 @@ Updated: 2026-11-27T22:44:03+00:00
 | quickstart-amazon-selling-partner-api-reports-notifications-423881599 | evidence_only | [quickstart-amazon-selling-partner-api-reports-notifications-423881599.md](quickstart-amazon-selling-partner-api-reports-notifications-423881599.md) | [quickstart-amazon-selling-partner-api-reports-notifications-423881599.yaml](quickstart-amazon-selling-partner-api-reports-notifications-423881599.yaml) |
 | quickstart-amazon-vpc-traffic-mirroring-364702294 | evidence_only | [quickstart-amazon-vpc-traffic-mirroring-364702294.md](quickstart-amazon-vpc-traffic-mirroring-364702294.md) | [quickstart-amazon-vpc-traffic-mirroring-364702294.yaml](quickstart-amazon-vpc-traffic-mirroring-364702294.yaml) |
 | quickstart-ammos-smallsat-toolkit-377301931 | evidence_only | [quickstart-ammos-smallsat-toolkit-377301931.md](quickstart-ammos-smallsat-toolkit-377301931.md) | [quickstart-ammos-smallsat-toolkit-377301931.yaml](quickstart-ammos-smallsat-toolkit-377301931.yaml) |
+| quickstart-apache-rocketmq-327063487 | evidence_only | [quickstart-apache-rocketmq-327063487.md](quickstart-apache-rocketmq-327063487.md) | [quickstart-apache-rocketmq-327063487.yaml](quickstart-apache-rocketmq-327063487.yaml) |
+| quickstart-apache-superset-357722712 | evidence_only | [quickstart-apache-superset-357722712.md](quickstart-apache-superset-357722712.md) | [quickstart-apache-superset-357722712.yaml](quickstart-apache-superset-357722712.yaml) |
+| quickstart-atlassian-bitbucket-59854589 | evidence_only | [quickstart-atlassian-bitbucket-59854589.md](quickstart-atlassian-bitbucket-59854589.md) | [quickstart-atlassian-bitbucket-59854589.yaml](quickstart-atlassian-bitbucket-59854589.yaml) |
+| quickstart-atlassian-confluence-77945466 | evidence_only | [quickstart-atlassian-confluence-77945466.md](quickstart-atlassian-confluence-77945466.md) | [quickstart-atlassian-confluence-77945466.yaml](quickstart-atlassian-confluence-77945466.yaml) |
+| quickstart-atlassian-crowd-217599782 | evidence_only | [quickstart-atlassian-crowd-217599782.md](quickstart-atlassian-crowd-217599782.md) | [quickstart-atlassian-crowd-217599782.yaml](quickstart-atlassian-crowd-217599782.yaml) |

@@ -1,0 +1,81 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:59:43+00:00'
+evidence_fingerprint: 77b03d2ed76c26de36b37e25106c9f2d4e7f4fe96e954957fd70eba1d4cffc80
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/repeat_backend
+  repository_id: 292940396
+  url: https://github.com/triton-inference-server/repeat_backend
+  description: 'An example Triton backend that demonstrates sending zero, one, or multiple responses for each request. '
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-02T23:27:20Z'
+  stars: 6
+  readme_url: https://github.com/triton-inference-server/repeat_backend/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2a811a9cee8d81be704b11655f25e8e86a552c81
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  source_files_inspected:
+  - src/repeat.cc
+  repository_tree:
+    status: captured
+    sha: 8e32e0cd8c052f4751c2afa84be678643d111ae1
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: -->
+  why_used: An example Triton backend that demonstrates sending zero, one, or multiple responses for each request.
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/repeat.cc'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/repeat_backend/blob/main/README.md
+  path: README.md
+  blob_sha: 2a811a9cee8d81be704b11655f25e8e86a552c81
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: d713f6c2a4708a46f395932b30588a0ed7e11710
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 1a8da1f4d366d75f2af71229a835ed5fd3102b5f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 33931
+    CMake: 7418
+- type: Git tree
+  status: captured
+  sha: 8e32e0cd8c052f4751c2afa84be678643d111ae1
+  truncated: false
+- type: source_file
+  path: src/repeat.cc
+  blob_sha: c5dee0eefe119202fcfa01282a689acba86e366e
+  retrieved: true

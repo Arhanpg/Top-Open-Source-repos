@@ -1,0 +1,83 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:50:39+00:00'
+evidence_fingerprint: 48d86024a46c03509c5817ada4bc13caabe69ecc5323dd265d26fc1b4445e5cb
+repository_metadata:
+  company: Amazon
+  account: aws-quickstart
+  full_name: aws-quickstart/quickstart-apache-rocketmq
+  repository_id: 327063487
+  url: https://github.com/aws-quickstart/quickstart-apache-rocketmq
+  description: AWS Quick Start Team
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-10-03T18:48:03Z'
+  stars: 5
+  readme_url: https://github.com/aws-quickstart/quickstart-apache-rocketmq/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1b005a8a58117bc4a8e7270f80fb21659ab77f65
+  manifest_paths: []
+  source_files_inspected:
+  - scripts/deploy.sh
+  - scripts/init_nameserver.sh
+  - scripts/init_replica.sh
+  - scripts/orchestrator.sh
+  repository_tree:
+    status: captured
+    sha: a86056f538124046420dcd2c1eb3bf0137aad268
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ':x: This repository is subject to deprecation in Q4 2024. For more details, please review this announcement.'
+  why_used: AWS Quick Start Team
+  core_features: []
+  technology_stack:
+    languages:
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: scripts/deploy.sh,
+    scripts/init_nameserver.sh, scripts/init_replica.sh, scripts/orchestrator.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-quickstart/quickstart-apache-rocketmq/blob/main/README.md
+  path: README.md
+  blob_sha: 1b005a8a58117bc4a8e7270f80fb21659ab77f65
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Shell: 46399
+- type: Git tree
+  status: captured
+  sha: a86056f538124046420dcd2c1eb3bf0137aad268
+  truncated: false
+- type: source_file
+  path: scripts/deploy.sh
+  blob_sha: 64e5cd976351deeff137bf98a76f33f1e011afbf
+  retrieved: true
+- type: source_file
+  path: scripts/init_nameserver.sh
+  blob_sha: af0586f9a00b4c2333aba3bcc960a609674c8884
+  retrieved: true
+- type: source_file
+  path: scripts/init_replica.sh
+  blob_sha: 2ff8b3d077f2c6a288fab7a6fa0067a4deb8275d
+  retrieved: true
+- type: source_file
+  path: scripts/orchestrator.sh
+  blob_sha: 7e0de723b66e5e267a1c5e391377bcf78c1044b0
+  retrieved: true

@@ -1,0 +1,86 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:54:23+00:00'
+evidence_fingerprint: 325cf15c218742581fdcf7972e64920e3873558484ea771297e80f246890ddca
+repository_metadata:
+  company: SAP
+  account: sap-tutorials
+  full_name: sap-tutorials/tutorial-actions
+  repository_id: 440833368
+  url: https://github.com/sap-tutorials/tutorial-actions
+  description: This repo is used for actions for the sap-tutorials organizations
+  default_branch: main
+  license_spdx: CC-BY-4.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-17T20:57:26Z'
+  stars: 0
+  readme_url: https://github.com/sap-tutorials/tutorial-actions/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ed03c16a0f7c97e4b247fcf2cb066a10efb6226a
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - app.js
+  - index.js
+  repository_tree:
+    status: captured
+    sha: d866a1aeb5096ac8290f661e493129911e5aa0ee
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> A GitHub Action built with Probot that A Probot app > Created to set issue labels on task issue created
+    following feedback link'
+  why_used: This repo is used for actions for the sap-tutorials organizations
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@probot/adapter-github-actions'
+    - '@semantic-release/git'
+    - '@zeit/ncc'
+    - nock
+    - probot-commands
+    - semantic-release
+    - uvu
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: app.js, index.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/sap-tutorials/tutorial-actions/blob/main/README.md
+  path: README.md
+  blob_sha: ed03c16a0f7c97e4b247fcf2cb066a10efb6226a
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: a78e70854bc3903287ce408a168bd9e7c24f3aaa
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 715
+- type: Git tree
+  status: captured
+  sha: d866a1aeb5096ac8290f661e493129911e5aa0ee
+  truncated: false
+- type: source_file
+  path: app.js
+  blob_sha: 1b3d03d42cab1cd0cf5f3f598d29f06c375df2db
+  retrieved: true
+- type: source_file
+  path: index.js
+  blob_sha: 48f04e928b8b4d6af9380ab8a713d73e49483c61
+  retrieved: true

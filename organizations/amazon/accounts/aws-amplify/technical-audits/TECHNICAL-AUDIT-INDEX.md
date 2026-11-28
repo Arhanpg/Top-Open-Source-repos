@@ -1,10 +1,10 @@
 # Technical audits — aws-amplify
 
-Updated: 2026-11-27T22:44:08+00:00
+Updated: 2026-11-28T07:15:15+00:00
 
 ## Status counts
 
-- evidence_only: 26
+- evidence_only: 31
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -37,4 +37,9 @@ Updated: 2026-11-27T22:44:08+00:00
 | amplify-ui-swift-liveness-490432440 | evidence_only | [amplify-ui-swift-liveness-490432440.md](amplify-ui-swift-liveness-490432440.md) | [amplify-ui-swift-liveness-490432440.yaml](amplify-ui-swift-liveness-490432440.yaml) |
 | aws-amplify-github-io-140887504 | evidence_only | [aws-amplify-github-io-140887504.md](aws-amplify-github-io-140887504.md) | [aws-amplify-github-io-140887504.yaml](aws-amplify-github-io-140887504.yaml) |
 | aws-appsync-apollo-extensions-swift-844638888 | evidence_only | [aws-appsync-apollo-extensions-swift-844638888.md](aws-appsync-apollo-extensions-swift-844638888.md) | [aws-appsync-apollo-extensions-swift-844638888.yaml](aws-appsync-apollo-extensions-swift-844638888.yaml) |
+| aws-appsync-events-swift-1021673862 | evidence_only | [aws-appsync-events-swift-1021673862.md](aws-appsync-events-swift-1021673862.md) | [aws-appsync-events-swift-1021673862.yaml](aws-appsync-events-swift-1021673862.yaml) |
+| aws-appsync-realtime-client-ios-243083007 | evidence_only | [aws-appsync-realtime-client-ios-243083007.md](aws-appsync-realtime-client-ios-243083007.md) | [aws-appsync-realtime-client-ios-243083007.yaml](aws-appsync-realtime-client-ios-243083007.yaml) |
+| aws-sdk-android-21634100 | evidence_only | [aws-sdk-android-21634100.md](aws-sdk-android-21634100.md) | [aws-sdk-android-21634100.yaml](aws-sdk-android-21634100.yaml) |
+| aws-sdk-ios-20738855 | evidence_only | [aws-sdk-ios-20738855.md](aws-sdk-ios-20738855.md) | [aws-sdk-ios-20738855.yaml](aws-sdk-ios-20738855.yaml) |
+| aws-sdk-ios-spm-331445987 | evidence_only | [aws-sdk-ios-spm-331445987.md](aws-sdk-ios-spm-331445987.md) | [aws-sdk-ios-spm-331445987.yaml](aws-sdk-ios-spm-331445987.yaml) |
 | github-171341614 | insufficient_evidence | [github-171341614.md](github-171341614.md) | [github-171341614.yaml](github-171341614.yaml) |

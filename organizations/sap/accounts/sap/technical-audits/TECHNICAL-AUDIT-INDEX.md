@@ -1,10 +1,10 @@
 # Technical audits — sap
 
-Updated: 2026-11-27T22:44:04+00:00
+Updated: 2026-11-28T07:15:16+00:00
 
 ## Status counts
 
-- evidence_only: 23
+- evidence_only: 27
 
 ## Repository dossiers
 
@@ -26,6 +26,10 @@ Updated: 2026-11-27T22:44:04+00:00
 | ai-native-architecture-advisor-1405279190 | evidence_only | [ai-native-architecture-advisor-1405279190.md](ai-native-architecture-advisor-1405279190.md) | [ai-native-architecture-advisor-1405279190.yaml](ai-native-architecture-advisor-1405279190.yaml) |
 | ai-sdk-945861499 | evidence_only | [ai-sdk-945861499.md](ai-sdk-945861499.md) | [ai-sdk-945861499.yaml](ai-sdk-945861499.yaml) |
 | ai-sdk-java-829468847 | evidence_only | [ai-sdk-java-829468847.md](ai-sdk-java-829468847.md) | [ai-sdk-java-829468847.yaml](ai-sdk-java-829468847.yaml) |
+| ai-sdk-js-817686552 | evidence_only | [ai-sdk-js-817686552.md](ai-sdk-js-817686552.md) | [ai-sdk-js-817686552.yaml](ai-sdk-js-817686552.yaml) |
+| ai-sdk-python-1160617207 | evidence_only | [ai-sdk-python-1160617207.md](ai-sdk-python-1160617207.md) | [ai-sdk-python-1160617207.yaml](ai-sdk-python-1160617207.yaml) |
+| ai-skills-library-1231995778 | evidence_only | [ai-skills-library-1231995778.md](ai-skills-library-1231995778.md) | [ai-skills-library-1231995778.yaml](ai-skills-library-1231995778.yaml) |
+| alert-notification-node-client-309932479 | evidence_only | [alert-notification-node-client-309932479.md](alert-notification-node-client-309932479.md) | [alert-notification-node-client-309932479.yaml](alert-notification-node-client-309932479.yaml) |
 | bipec-a-combined-change-point-analyzer-840247219 | evidence_only | [bipec-a-combined-change-point-analyzer-840247219.md](bipec-a-combined-change-point-analyzer-840247219.md) | [bipec-a-combined-change-point-analyzer-840247219.yaml](bipec-a-combined-change-point-analyzer-840247219.yaml) |
 | github-358244620 | evidence_only | [github-358244620.md](github-358244620.md) | [github-358244620.yaml](github-358244620.yaml) |
 | infrabox-126344645 | evidence_only | [infrabox-126344645.md](infrabox-126344645.md) | [infrabox-126344645.yaml](infrabox-126344645.yaml) |

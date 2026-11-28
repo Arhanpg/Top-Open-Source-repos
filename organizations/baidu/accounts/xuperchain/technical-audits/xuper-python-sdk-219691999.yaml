@@ -1,0 +1,90 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:10:47+00:00'
+evidence_fingerprint: e541aa81864c59534f7dc324e831e3fc3f91c0a0d905170eb32d0ba1b9fc35cc
+repository_metadata:
+  company: Baidu
+  account: xuperchain
+  full_name: xuperchain/xuper-python-sdk
+  repository_id: 219691999
+  url: https://github.com/xuperchain/xuper-python-sdk
+  description: Pure python sdk for XuperChain
+  default_branch: master
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2019-12-17T15:47:22Z'
+  stars: 17
+  readme_url: https://github.com/xuperchain/xuper-python-sdk/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 091c256abad9e772bf0a7315a73585b2155a1c3a
+  manifest_paths:
+  - setup.py
+  source_files_inspected:
+  - data/contract/counter.cc
+  - demo.py
+  - setup.py
+  - wallet.py
+  repository_tree:
+    status: captured
+    sha: c4a0ce2a4d1081724349cf79cb944a5f17b7070a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: python2.7 python3.x
+  why_used: Pure python sdk for XuperChain
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: data/contract/counter.cc,
+    demo.py, setup.py, wallet.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/xuperchain/xuper-python-sdk/blob/master/README.md
+  path: README.md
+  blob_sha: 091c256abad9e772bf0a7315a73585b2155a1c3a
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 85aa9bee6a549609542d0c12467e92ed32c27bc5
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 23153
+    C++: 976
+- type: Git tree
+  status: captured
+  sha: c4a0ce2a4d1081724349cf79cb944a5f17b7070a
+  truncated: false
+- type: source_file
+  path: data/contract/counter.cc
+  blob_sha: 0deda701ba4e8fc6241d3358a04683d98c4ae52b
+  retrieved: true
+- type: source_file
+  path: demo.py
+  blob_sha: 69d10eca1f7b193cfd776bd22a5ab7a86a46396f
+  retrieved: true
+- type: source_file
+  path: setup.py
+  blob_sha: 85aa9bee6a549609542d0c12467e92ed32c27bc5
+  retrieved: true
+- type: source_file
+  path: wallet.py
+  blob_sha: 518788186926ff9a11d23b3f98206a0782678052
+  retrieved: true

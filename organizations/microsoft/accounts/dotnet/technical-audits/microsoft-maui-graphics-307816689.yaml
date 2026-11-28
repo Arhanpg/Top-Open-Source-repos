@@ -1,0 +1,120 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:05:03+00:00'
+evidence_fingerprint: 542f96441745d40845efe6a3a9261f05a2fce6574742ae0eab9087354565cf8d
+repository_metadata:
+  company: Microsoft
+  account: dotnet
+  full_name: dotnet/Microsoft.Maui.Graphics
+  repository_id: 307816689
+  url: https://github.com/dotnet/Microsoft.Maui.Graphics
+  description: An experimental cross-platform native graphics library.
+  default_branch: main
+  license_spdx: MIT
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2023-06-07T02:20:47Z'
+  stars: 681
+  readme_url: https://github.com/dotnet/Microsoft.Maui.Graphics/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7f68e7dc7bb09f373841abd79752394b4e2f1750
+  manifest_paths:
+  - src/Microsoft.Maui.Graphics.Blazor.JS/package.json
+  source_files_inspected:
+  - src/external/SharpDX.Desktop/Collections/EqualityComparer.cs
+  - src/external/SharpDX.Desktop/Diagnostics/VSGraphicsDebugger.cs
+  - src/external/SharpDX.Desktop/Direct3D/PixHelper.cs
+  - src/external/SharpDX.Desktop/MessageFilterHook.cs
+  repository_tree:
+    status: captured
+    sha: 14d2345d490b5ea0f935b4967be0ddea420c9bf2
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Microsoft.Maui.Graphics is an experimental cross-platform graphics library for iOS, Android, Windows,
+    macOS, Tizen and Linux written completely in C#. A Microsoft supported portion of this library has been merged
+    with dotnet/maui and is maintained separately. This project remains separate for developers to experiment further
+    on additional scenarios such as WASM, WinForms, WPF, Xamarin, and Linux.
+  why_used: An experimental cross-platform native graphics library.
+  core_features: []
+  technology_stack:
+    languages:
+    - C#
+    - PowerShell
+    - TypeScript
+    - JavaScript
+    - Shell
+    - Batchfile
+    - CSS
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@types/emscripten'
+    - ts-loader
+    - typescript
+    - webpack
+    - webpack-cli
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/external/SharpDX.Desktop/Collections/EqualityComparer.cs,
+    src/external/SharpDX.Desktop/Diagnostics/VSGraphicsDebugger.cs, src/external/SharpDX.Desktop/Direct3D/PixHelper.cs,
+    src/external/SharpDX.Desktop/MessageFilterHook.cs'
+  setup_and_usage: []
+  limitations:
+  - 'Supported Platforms: Platform | Supported Abstractions |'
+  - 'Supported Platforms: -----------------------|-------------------------------------------|'
+  - 'Supported Platforms: Xamarin.iOS | CoreGraphics & SkiaSharp |'
+  - 'Supported Platforms: Xamarin.Android | Android.Graphics & SkiaSharp |'
+  - 'Supported Platforms: Xamarin.Mac | CoreGraphics & SkiaSharp |'
+  - 'Supported Platforms: WPF | SharpDX, SkiaSharp, Xaml & GDI |'
+  - 'Supported Platforms: UWP | SharpDX, Win2D, Xaml, SkiaSharp |'
+  - 'Supported Platforms: WinForms | SharpDX, SkiaSharp & GDI |'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/dotnet/Microsoft.Maui.Graphics/blob/main/README.md
+  path: README.md
+  blob_sha: 7f68e7dc7bb09f373841abd79752394b4e2f1750
+  retrieved: true
+- type: manifest
+  path: src/Microsoft.Maui.Graphics.Blazor.JS/package.json
+  blob_sha: 3a15c30899f81a31e5b14e4df253ccdfd433c4c2
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 1033464
+    PowerShell: 5046
+    TypeScript: 3890
+    JavaScript: 1570
+    Shell: 657
+    Batchfile: 363
+    CSS: 260
+    HTML: 185
+- type: Git tree
+  status: captured
+  sha: 14d2345d490b5ea0f935b4967be0ddea420c9bf2
+  truncated: false
+- type: source_file
+  path: src/external/SharpDX.Desktop/Collections/EqualityComparer.cs
+  blob_sha: 95731c913e8d471be123a719831f5d3776df14c3
+  retrieved: true
+- type: source_file
+  path: src/external/SharpDX.Desktop/Diagnostics/VSGraphicsDebugger.cs
+  blob_sha: 8907b091b0843da457bc0813f85377c91f30bd22
+  retrieved: true
+- type: source_file
+  path: src/external/SharpDX.Desktop/Direct3D/PixHelper.cs
+  blob_sha: 0831716567562190de9fc2d2231990f35c3371cf
+  retrieved: true
+- type: source_file
+  path: src/external/SharpDX.Desktop/MessageFilterHook.cs
+  blob_sha: d9ee517ac5cdffa31b5737039e517f2ac756e633
+  retrieved: true

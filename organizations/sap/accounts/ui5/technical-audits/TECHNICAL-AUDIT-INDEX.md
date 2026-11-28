@@ -1,10 +1,10 @@
 # Technical audits — ui5
 
-Updated: 2026-11-27T22:44:07+00:00
+Updated: 2026-11-28T07:15:18+00:00
 
 ## Status counts
 
-- evidence_only: 22
+- evidence_only: 26
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -34,3 +34,7 @@ Updated: 2026-11-27T22:44:07+00:00
 | typescript-182082218 | evidence_only | [typescript-182082218.md](typescript-182082218.md) | [typescript-182082218.yaml](typescript-182082218.yaml) |
 | ui5-github-io-1071596747 | insufficient_evidence | [ui5-github-io-1071596747.md](ui5-github-io-1071596747.md) | [ui5-github-io-1071596747.yaml](ui5-github-io-1071596747.yaml) |
 | webcomponents-167405382 | evidence_only | [webcomponents-167405382.md](webcomponents-167405382.md) | [webcomponents-167405382.yaml](webcomponents-167405382.yaml) |
+| webcomponents-geomap-1347382249 | evidence_only | [webcomponents-geomap-1347382249.md](webcomponents-geomap-1347382249.md) | [webcomponents-geomap-1347382249.yaml](webcomponents-geomap-1347382249.yaml) |
+| webcomponents-mcp-server-1112217278 | evidence_only | [webcomponents-mcp-server-1112217278.md](webcomponents-mcp-server-1112217278.md) | [webcomponents-mcp-server-1112217278.yaml](webcomponents-mcp-server-1112217278.yaml) |
+| webcomponents-react-182085192 | evidence_only | [webcomponents-react-182085192.md](webcomponents-react-182085192.md) | [webcomponents-react-182085192.yaml](webcomponents-react-182085192.yaml) |
+| webcomponents-vue-1168319038 | evidence_only | [webcomponents-vue-1168319038.md](webcomponents-vue-1168319038.md) | [webcomponents-vue-1168319038.yaml](webcomponents-vue-1168319038.yaml) |

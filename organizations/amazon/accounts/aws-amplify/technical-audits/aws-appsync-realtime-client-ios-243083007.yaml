@@ -1,0 +1,97 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:56:07+00:00'
+evidence_fingerprint: efda4a846d2f86b1b89e6aa1c730fd7a150c79f6f04356bff9d88a2ae1bfc709
+repository_metadata:
+  company: Amazon
+  account: aws-amplify
+  full_name: aws-amplify/aws-appsync-realtime-client-ios
+  repository_id: 243083007
+  url: https://github.com/aws-amplify/aws-appsync-realtime-client-ios
+  description: A client implementation in Swift for the AWS AppSync service on the iOS platform.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-16T15:45:14Z'
+  stars: 18
+  readme_url: https://github.com/aws-amplify/aws-appsync-realtime-client-ios/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ff5231b111fba6a7bc667e0652227b1158505437
+  manifest_paths:
+  - Gemfile
+  source_files_inspected:
+  - Pods/Starscream/Sources/Server/Server.swift
+  - Pods/Starscream/Sources/Server/WebSocketServer.swift
+  - AppSyncRealTimeClient/AWSAppSyncRealTimeClient.swift
+  - AppSyncRealTimeClient/Connection/AppSyncConnection/AppSyncSubscriptionConnection+Connection.swift
+  repository_tree:
+    status: captured
+    sha: cd36160c69e006fd8097fa29e174e0422e00b365
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> [!IMPORTANT] > AWS AppSync Realtime Client iOS is not intended to be used directly; it is used as
+    a dependency of Amplify Swift and AWS AppSync SDK iOS. If you have any issues stemming from the library, please
+    open an issue in the applicable repository for the product that you’re using directly.'
+  why_used: A client implementation in Swift for the AWS AppSync service on the iOS platform.
+  core_features: []
+  technology_stack:
+    languages:
+    - Swift
+    - Shell
+    - Ruby
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Bundler manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Pods/Starscream/Sources/Server/Server.swift,
+    Pods/Starscream/Sources/Server/WebSocketServer.swift, AppSyncRealTimeClient/AWSAppSyncRealTimeClient.swift,
+    AppSyncRealTimeClient/Connection/AppSyncConnection/AppSyncSubscriptionConnection+Connection.swift'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-amplify/aws-appsync-realtime-client-ios/blob/main/README.md
+  path: README.md
+  blob_sha: ff5231b111fba6a7bc667e0652227b1158505437
+  retrieved: true
+- type: manifest
+  path: Gemfile
+  blob_sha: 2801e7ef41e4235590a3173ef6873d38bb0229f6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Swift: 269354
+    Shell: 4209
+    Ruby: 3624
+- type: Git tree
+  status: captured
+  sha: cd36160c69e006fd8097fa29e174e0422e00b365
+  truncated: false
+- type: source_file
+  path: Pods/Starscream/Sources/Server/Server.swift
+  blob_sha: 64cf561de5b5e88753ef66b0da0a7395905e37c8
+  retrieved: true
+- type: source_file
+  path: Pods/Starscream/Sources/Server/WebSocketServer.swift
+  blob_sha: 78657806fa90af91f1210055eb21bc0e72f3b74a
+  retrieved: true
+- type: source_file
+  path: AppSyncRealTimeClient/AWSAppSyncRealTimeClient.swift
+  blob_sha: 19cc8b36af7749bcaaf84d1555d8029e782c8848
+  retrieved: true
+- type: source_file
+  path: AppSyncRealTimeClient/Connection/AppSyncConnection/AppSyncSubscriptionConnection+Connection.swift
+  blob_sha: 9d96374fa366bfd220fc70b2288921a54ba82d22
+  retrieved: true

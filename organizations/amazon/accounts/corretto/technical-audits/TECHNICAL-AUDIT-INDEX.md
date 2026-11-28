@@ -1,10 +1,10 @@
 # Technical audits — corretto
 
-Updated: 2026-11-27T22:44:10+00:00
+Updated: 2026-11-28T07:15:19+00:00
 
 ## Status counts
 
-- evidence_only: 23
+- evidence_only: 25
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -35,3 +35,5 @@ Updated: 2026-11-27T22:44:10+00:00
 | github-245025824 | insufficient_evidence | [github-245025824.md](github-245025824.md) | [github-245025824.yaml](github-245025824.yaml) |
 | heapothesys-248322535 | evidence_only | [heapothesys-248322535.md](heapothesys-248322535.md) | [heapothesys-248322535.yaml](heapothesys-248322535.yaml) |
 | hotpatch-for-apache-log4j2-437426386 | evidence_only | [hotpatch-for-apache-log4j2-437426386.md](hotpatch-for-apache-log4j2-437426386.md) | [hotpatch-for-apache-log4j2-437426386.yaml](hotpatch-for-apache-log4j2-437426386.yaml) |
+| redline-190064091 | evidence_only | [redline-190064091.md](redline-190064091.md) | [redline-190064091.yaml](redline-190064091.yaml) |
+| samples-174015455 | evidence_only | [samples-174015455.md](samples-174015455.md) | [samples-174015455.yaml](samples-174015455.yaml) |

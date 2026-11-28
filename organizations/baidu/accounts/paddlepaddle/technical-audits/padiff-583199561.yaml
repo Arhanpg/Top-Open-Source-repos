@@ -1,0 +1,118 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:58:32+00:00'
+evidence_fingerprint: 4e0e3926368d6502f091c283ebfc3f2d915bb7ba337099765340461852f73550
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/PaDiff
+  repository_id: 583199561
+  url: https://github.com/PaddlePaddle/PaDiff
+  description: Paddle Automatically Diff Precision Toolkits.
+  default_branch: develop
+  license_spdx: null
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-12-05T10:16:32Z'
+  stars: 53
+  readme_url: https://github.com/PaddlePaddle/PaDiff/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: 5f52d4125e22c315f41ec76f30ac65a6884e9667
+  manifest_paths:
+  - Makefile
+  - pyproject.toml
+  - requirements.txt
+  - setup.py
+  source_files_inspected:
+  - padiff/cli.py
+  - padiff/__init__.py
+  - padiff/abstracts/__init__.py
+  - padiff/abstracts/hooks/__init__.py
+  repository_tree:
+    status: captured
+    sha: f67724f293f94dd9bb9648ba660390e2af903ce3
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**P**addle **A**utomatically **Diff** precision toolkits.'
+  why_used: Paddle Automatically Diff Precision Toolkits.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - colorlog
+    - coverage
+    - graphviz
+    - numpy
+    - parameterized
+    - pre-commit
+    - pytest
+    - pytest-cov
+    - pytest-xdist
+    - pyyaml
+    - regex
+    build_and_package_tools:
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: padiff/cli.py, padiff/__init__.py,
+    padiff/abstracts/__init__.py, padiff/abstracts/hooks/__init__.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/PaDiff/blob/develop/README.md
+  path: README.md
+  blob_sha: 5f52d4125e22c315f41ec76f30ac65a6884e9667
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: f8c8e890f1537f432ee167c3c7f6ec440475bb59
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 443729a4cd328a71862cb8981aae15321fbb22c6
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: a7bf5f5efe2b117d8a6e4cda8622aee6d8b39251
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 24fdfd928865d2930dfc4ce5ea137d2efd2c9a1d
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 333229
+    Makefile: 1793
+- type: Git tree
+  status: captured
+  sha: f67724f293f94dd9bb9648ba660390e2af903ce3
+  truncated: false
+- type: source_file
+  path: padiff/cli.py
+  blob_sha: 22c538c173ef84d2662bbb8330f48a187782b32d
+  retrieved: true
+- type: source_file
+  path: padiff/__init__.py
+  blob_sha: 626c5f6b634e3bd78c68135d9ddcd87688f5e754
+  retrieved: true
+- type: source_file
+  path: padiff/abstracts/__init__.py
+  blob_sha: f9fff313c1a80a4878a5afbe1af01fe97be38dac
+  retrieved: true
+- type: source_file
+  path: padiff/abstracts/hooks/__init__.py
+  blob_sha: c2fd78e0d99666eac6a176ccc727055fe33b9622
+  retrieved: true

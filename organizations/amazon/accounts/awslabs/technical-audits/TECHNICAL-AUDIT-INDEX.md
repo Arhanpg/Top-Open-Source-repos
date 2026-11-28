@@ -1,10 +1,10 @@
 # Technical audits — awslabs
 
-Updated: 2026-11-27T22:44:05+00:00
+Updated: 2026-11-28T07:15:16+00:00
 
 ## Status counts
 
-- evidence_only: 20
+- evidence_only: 24
 
 ## Repository dossiers
 
@@ -30,3 +30,7 @@ Updated: 2026-11-27T22:44:05+00:00
 | infradocgen-1058549207 | evidence_only | [infradocgen-1058549207.md](infradocgen-1058549207.md) | [infradocgen-1058549207.yaml](infradocgen-1058549207.yaml) |
 | infraforge-1054250313 | evidence_only | [infraforge-1054250313.md](infraforge-1054250313.md) | [infraforge-1054250313.yaml](infraforge-1054250313.yaml) |
 | isitonaws-85245642 | evidence_only | [isitonaws-85245642.md](isitonaws-85245642.md) | [isitonaws-85245642.yaml](isitonaws-85245642.yaml) |
+| lancet-accelerating-moe-training-via-whole-graph-computation-communication-overlapping-821221170 | evidence_only | [lancet-accelerating-moe-training-via-whole-graph-computation-communication-overlapping-821221170.md](lancet-accelerating-moe-training-via-whole-graph-computation-communication-overlapping-821221170.md) | [lancet-accelerating-moe-training-via-whole-graph-computation-communication-overlapping-821221170.yaml](lancet-accelerating-moe-training-via-whole-graph-computation-communication-overlapping-821221170.yaml) |
+| legacy-code-migration-pipeline-1077726533 | evidence_only | [legacy-code-migration-pipeline-1077726533.md](legacy-code-migration-pipeline-1077726533.md) | [legacy-code-migration-pipeline-1077726533.yaml](legacy-code-migration-pipeline-1077726533.yaml) |
+| libformalpqc-749750734 | evidence_only | [libformalpqc-749750734.md](libformalpqc-749750734.md) | [libformalpqc-749750734.yaml](libformalpqc-749750734.yaml) |
+| lisa-800657426 | evidence_only | [lisa-800657426.md](lisa-800657426.md) | [lisa-800657426.yaml](lisa-800657426.yaml) |

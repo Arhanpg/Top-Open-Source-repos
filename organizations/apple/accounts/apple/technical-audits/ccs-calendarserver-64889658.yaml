@@ -1,0 +1,117 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:58:08+00:00'
+evidence_fingerprint: 0ab7efeace533143b609faeb00dc83baa227822319d0b5f812b62dfd2d8904ad
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/ccs-calendarserver
+  repository_id: 64889658
+  url: https://github.com/apple/ccs-calendarserver
+  description: The Calendar and Contacts Server.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2020-02-12T17:54:53Z'
+  stars: 507
+  readme_url: https://github.com/apple/ccs-calendarserver/blob/master/README.rst
+  readme_path: README.rst
+  readme_sha: 2c6bf02cb4416ee8756b1fa5bcdd7058b4fdba4d
+  manifest_paths:
+  - setup.py
+  - contrib/webpoll/Makefile
+  source_files_inspected:
+  - txdav/dps/server.py
+  - txweb2/server.py
+  - bin/_build.sh
+  - bin/_py.sh
+  repository_tree:
+    status: captured
+    sha: 529fbca3b4af133d89faf922ac96d9abf4af30ea
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: ========================== Notice of Archival ==========================
+  why_used: The Calendar and Contacts Server.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - TSQL
+    - PLpgSQL
+    - Shell
+    - JavaScript
+    - HTML
+    - PLSQL
+    - Makefile
+    - DTrace
+    - SQLPL
+    - CSS
+    - C
+    - DIGITAL Command Language
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: txdav/dps/server.py,
+    txweb2/server.py, bin/_build.sh, bin/_py.sh'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/ccs-calendarserver/blob/master/README.rst
+  path: README.rst
+  blob_sha: 2c6bf02cb4416ee8756b1fa5bcdd7058b4fdba4d
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: e270daea2cd38812cd33b1d0c852b16089c3221e
+  retrieved: true
+- type: manifest
+  path: contrib/webpoll/Makefile
+  blob_sha: b7343ccdba0f50553730abf4e2587979e6b85c63
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 11215907
+    TSQL: 2031624
+    PLpgSQL: 291854
+    Shell: 115413
+    JavaScript: 77753
+    HTML: 44463
+    PLSQL: 17197
+    Makefile: 16223
+    DTrace: 15147
+    SQLPL: 8597
+    CSS: 4214
+    C: 2489
+    DIGITAL Command Language: 1234
+- type: Git tree
+  status: captured
+  sha: 529fbca3b4af133d89faf922ac96d9abf4af30ea
+  truncated: false
+- type: source_file
+  path: txdav/dps/server.py
+  blob_sha: d5eda9d26d9c64fdf9145f2c826d1921210af833
+  retrieved: true
+- type: source_file
+  path: txweb2/server.py
+  blob_sha: 8f20b80f4585733d2b1e0d1d928af04271adede8
+  retrieved: true
+- type: source_file
+  path: bin/_build.sh
+  blob_sha: 83eba6ba873500365ef324229c9f73440504f9a0
+  retrieved: true
+- type: source_file
+  path: bin/_py.sh
+  blob_sha: 7d3d06cb22e23a02c86f6bb8bc022c7f4e68e8ce
+  retrieved: true

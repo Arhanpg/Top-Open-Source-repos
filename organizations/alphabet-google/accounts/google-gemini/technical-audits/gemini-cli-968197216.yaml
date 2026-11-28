@@ -1,0 +1,285 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:48:56+00:00'
+evidence_fingerprint: 67db999b8151b1700e7998ba1a6cbedce21ea92b74f494d1c9db3016375d33a9
+repository_metadata:
+  company: Alphabet (Google)
+  account: google-gemini
+  full_name: google-gemini/gemini-cli
+  repository_id: 968197216
+  url: https://github.com/google-gemini/gemini-cli
+  description: An open-source AI agent that brings the power of Gemini directly into your terminal.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-24T03:42:48Z'
+  stars: 109032
+  readme_url: https://github.com/google-gemini/gemini-cli/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 22cd5a1311378355b533140665d25fed89496d00
+  manifest_paths:
+  - Dockerfile
+  - Makefile
+  - package.json
+  - packages/a2a-server/package.json
+  - packages/cli/package.json
+  - packages/core/package.json
+  source_files_inspected:
+  - packages/a2a-server/src/http/app.ts
+  - packages/a2a-server/src/http/server.ts
+  - packages/a2a-server/src/index.ts
+  - packages/cli/src/config/mcp/index.ts
+  repository_tree:
+    status: captured
+    sha: 74e6f9be11435c6f097d6b064fbea3a3b76ac354
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> [!IMPORTANT] > **Read before installing — Gemini CLI status & tool guide** > > - **Enterprise Code
+    Assist only:** Designed for **Gemini Code Assist Standard / Enterprise** licenses and **Code Assist for GitHub**
+    on Google Cloud (your access remains unchanged). > - **No free tier or Google AI plans:** Free individual access
+    and **Google AI Pro / Ultra** (Google One) moved to Antigravity CLI on June 18, 2026 (transition post). > -
+    **Not optimized for Gemini 4+:** Not tuned for the **Gemini 4** series (for example, Gemini 4 Argon) or future
+    releases in this or later generations. > - **Not for model benchmarks:** Don''t use Gemini CLI to benchmark
+    Gemini models—its harness isn''t tuned for Gemini 4+ and produces unrepresentative scores. > > **Which Google
+    CLI do you need?** > > | Tool | Best for | Links | > | :--- | :--- | :--- | > | **Antigravity CLI** (agy) |
+    Interactive multi-agent coding'
+  why_used: An open-source AI agent that brings the power of Gemini directly into your terminal.
+  core_features:
+  - name: '**Commands Reference** -'
+    description: '**Commands Reference** -'
+    evidence:
+    - README.md#Core Features
+  - name: '**Custom Commands** -'
+    description: '**Custom Commands** -'
+    evidence:
+    - README.md#Core Features
+  - name: '**Context Files (GEMINI.md)** -'
+    description: '**Context Files (GEMINI.md)** -'
+    evidence:
+    - README.md#Core Features
+  - name: '**Checkpointing** - Save'
+    description: '**Checkpointing** - Save'
+    evidence:
+    - README.md#Core Features
+  - name: '**Token Caching** -'
+    description: '**Token Caching** -'
+    evidence:
+    - README.md#Core Features
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    - Python
+    - Shell
+    - C#
+    - Dockerfile
+    - HTML
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies:
+    - '@a2a-js/sdk'
+    - '@agentclientprotocol/sdk'
+    - '@bufbuild/protobuf'
+    - '@github/keytar'
+    - '@google-cloud/logging'
+    - '@google-cloud/opentelemetry-cloud-monitoring-exporter'
+    - '@google-cloud/opentelemetry-cloud-trace-exporter'
+    - '@google-cloud/storage'
+    - '@google/gemini-cli-core'
+    - '@google/gemini-cli-test-utils'
+    - '@google/genai'
+    - '@grpc/grpc-js'
+    - '@iarna/toml'
+    - '@lydell/node-pty'
+    - '@lydell/node-pty-darwin-arm64'
+    - '@lydell/node-pty-darwin-x64'
+    - '@lydell/node-pty-linux-x64'
+    - '@lydell/node-pty-win32-arm64'
+    - '@lydell/node-pty-win32-x64'
+    - '@modelcontextprotocol/sdk'
+    - '@octokit/rest'
+    - '@opentelemetry/api'
+    - '@opentelemetry/api-logs'
+    - '@opentelemetry/core'
+    - '@opentelemetry/exporter-logs-otlp-grpc'
+    - '@opentelemetry/exporter-logs-otlp-http'
+    - '@opentelemetry/exporter-metrics-otlp-grpc'
+    - '@opentelemetry/exporter-metrics-otlp-http'
+    - '@opentelemetry/exporter-trace-otlp-grpc'
+    - '@opentelemetry/exporter-trace-otlp-http'
+    - '@opentelemetry/instrumentation-http'
+    - '@opentelemetry/otlp-exporter-base'
+    - '@opentelemetry/resources'
+    - '@opentelemetry/sdk-logs'
+    - '@opentelemetry/sdk-metrics'
+    - '@opentelemetry/sdk-node'
+    - '@opentelemetry/sdk-trace-base'
+    - '@opentelemetry/sdk-trace-node'
+    - '@opentelemetry/semantic-conventions'
+    - '@types/command-exists'
+    - '@types/express'
+    - '@types/fast-levenshtein'
+    - '@types/fs-extra'
+    - '@types/hast'
+    - '@types/html-to-text'
+    - '@types/js-yaml'
+    - '@types/json-stable-stringify'
+    - '@types/marked'
+    - '@types/mime-types'
+    - '@types/minimatch'
+    - '@types/mock-fs'
+    - '@types/node'
+    - '@types/picomatch'
+    - '@types/prompts'
+    - '@types/proper-lockfile'
+    - '@types/react'
+    - '@types/react-dom'
+    - '@types/semver'
+    - '@types/shell-quote'
+    - '@types/supertest'
+    - '@types/tar'
+    - '@types/ws'
+    - '@types/yargs'
+    - '@vitest/coverage-v8'
+    - '@vitest/eslint-plugin'
+    - '@xterm/headless'
+    - ajv
+    - ajv-formats
+    - ansi-escapes
+    - ansi-regex
+    - asciichart
+    - chalk
+    - chokidar
+    - chrome-devtools-mcp
+    - cli-spinners
+    - clipboardy
+    - color-convert
+    - command-exists
+    - comment-json
+    - cross-env
+    - depcheck
+    - diff
+    - domexception
+    - dotenv
+    - dotenv-expand
+    - esbuild
+    - esbuild-plugin-wasm
+    - eslint
+    - eslint-config-prettier
+    - eslint-plugin-headers
+    - eslint-plugin-import
+    - eslint-plugin-react
+    - eslint-plugin-react-hooks
+    - execa
+    - express
+    - express-rate-limit
+    - extract-zip
+    - fast-levenshtein
+    - fdir
+    - fs-extra
+    - fzf
+    - glob
+    - globals
+    - google-artifactregistry-auth
+    - google-auth-library
+    - highlight.js
+    - html-to-text
+    - http-proxy-agent
+    - https-proxy-agent
+    - husky
+    - ignore
+    - ink
+    - ink-gradient
+    - ink-spinner
+    - ipaddr.js
+    - isbinaryfile
+    - js-yaml
+    - json
+    - json-stable-stringify
+    - latest-version
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: packages/a2a-server/src/http/app.ts,
+    packages/a2a-server/src/http/server.ts, packages/a2a-server/src/index.ts, packages/cli/src/config/mcp/index.ts'
+  setup_and_usage:
+  - '📦 Installation: Gemini CLI installation, execution, and releases'
+  - '📦 Installation: for recommended system specifications and a detailed installation guide.'
+  - 'Using npx (no installation required): npx @google/gemini-cli'
+  - 'Getting Started: - **Quickstart Guide** - Get up'
+  - 'Getting Started: - **Authentication Setup** -'
+  - 'Getting Started: Detailed auth configuration.'
+  - 'Getting Started: - **Configuration Guide** -'
+  - 'Getting Started: Settings and customization.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google-gemini/gemini-cli/blob/main/README.md
+  path: README.md
+  blob_sha: 22cd5a1311378355b533140665d25fed89496d00
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 504a72e70825f2e3d95a3dfb4123498151d8a002
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: bf8498cf8aaa4235cfc3a17eea45d171d9017e3e
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 503458732da90217605b44dd590d798f61ffd904
+  retrieved: true
+- type: manifest
+  path: packages/a2a-server/package.json
+  blob_sha: d357dddd4ea6db248fd52d5da9332440a253447d
+  retrieved: true
+- type: manifest
+  path: packages/cli/package.json
+  blob_sha: 6bfd4350f16d3dfd1f7efad2f3d52bc38622589f
+  retrieved: true
+- type: manifest
+  path: packages/core/package.json
+  blob_sha: 3d6297139335503be11e25b0f781b56c58398ef9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 23313880
+    JavaScript: 352824
+    Python: 221907
+    Shell: 31159
+    C#: 24798
+    Dockerfile: 8571
+    HTML: 5474
+    Makefile: 1336
+- type: Git tree
+  status: captured
+  sha: 74e6f9be11435c6f097d6b064fbea3a3b76ac354
+  truncated: false
+- type: source_file
+  path: packages/a2a-server/src/http/app.ts
+  blob_sha: cc4a36df87bfbc32f84299f6716e1275bc1883d6
+  retrieved: true
+- type: source_file
+  path: packages/a2a-server/src/http/server.ts
+  blob_sha: c22be4933125099c0894967e49d6f3a7c5cae29a
+  retrieved: true
+- type: source_file
+  path: packages/a2a-server/src/index.ts
+  blob_sha: 4db9a7ca92989638d52404258692c278328f6265
+  retrieved: true
+- type: source_file
+  path: packages/cli/src/config/mcp/index.ts
+  blob_sha: 555f52071eb114d4a94f4b25f622631601287f77
+  retrieved: true

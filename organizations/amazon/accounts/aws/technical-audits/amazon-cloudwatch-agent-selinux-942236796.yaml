@@ -1,0 +1,77 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:08:15+00:00'
+evidence_fingerprint: df07de5180fcb2282ec5a41879672c02c58a6751cb0c603c962fc72eb2e776aa
+repository_metadata:
+  company: Amazon
+  account: aws
+  full_name: aws/amazon-cloudwatch-agent-selinux
+  repository_id: 942236796
+  url: https://github.com/aws/amazon-cloudwatch-agent-selinux
+  description: null
+  default_branch: main
+  license_spdx: GPL-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-06-08T20:33:08Z'
+  stars: 5
+  readme_url: https://github.com/aws/amazon-cloudwatch-agent-selinux/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f4dd64df8725b5aa5c802d05744d5860a620f53c
+  manifest_paths: []
+  source_files_inspected:
+  - amazon_cloudwatch_agent.sh
+  repository_tree:
+    status: captured
+    sha: 542998360caaa0d7f0a403e44f7361d08a589228
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This is the SELinux policy for AWS CWA agent. Install this policy to confine your CloudWatch Agent processes.
+  why_used: This is the SELinux policy for AWS CWA agent. Install this policy to confine your CloudWatch Agent processes.
+  core_features: []
+  technology_stack:
+    languages:
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: amazon_cloudwatch_agent.sh'
+  setup_and_usage: []
+  limitations:
+  - 'mls - Multi Level Security protection.: Clone the repository, build and install using the commands below:'
+  - 'mls - Multi Level Security protection.: git clone https://github.com/aws/amazon-cloudwatch-agent-selinux.git'
+  - 'mls - Multi Level Security protection.: cd amazon-cloudwatch-agent-selinux'
+  - 'mls - Multi Level Security protection.: chmod +x amazon_cloudwatch_agent.sh'
+  - 'mls - Multi Level Security protection.: sudo ./amazon_cloudwatch_agent.sh'
+  - 'mls - Multi Level Security protection.: If you need to enable it, please enable the repository, reboot the
+    instance, and verify that it is in either enforcing or permissive mode, depending on your selection.'
+  - 'mls - Multi Level Security protection.: Otherwise, you can simply restart the agent to ensure it runs in the
+    confined context.'
+  - 'mls - Multi Level Security protection.: sudo systemctl restart amazon-cloudwatch-agent'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws/amazon-cloudwatch-agent-selinux/blob/main/README.md
+  path: README.md
+  blob_sha: f4dd64df8725b5aa5c802d05744d5860a620f53c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Shell: 1827
+- type: Git tree
+  status: captured
+  sha: 542998360caaa0d7f0a403e44f7361d08a589228
+  truncated: false
+- type: source_file
+  path: amazon_cloudwatch_agent.sh
+  blob_sha: c5feab0442a891efa3ec7601e0463e12bad926b1
+  retrieved: true

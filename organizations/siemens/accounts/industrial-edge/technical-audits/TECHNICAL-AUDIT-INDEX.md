@@ -1,10 +1,10 @@
 # Technical audits — industrial-edge
 
-Updated: 2026-11-27T22:44:08+00:00
+Updated: 2026-11-28T07:15:17+00:00
 
 ## Status counts
 
-- evidence_only: 23
+- evidence_only: 27
 
 ## Repository dossiers
 
@@ -25,6 +25,10 @@ Updated: 2026-11-27T22:44:08+00:00
 | developer-guide-hands-on-app-362865268 | evidence_only | [developer-guide-hands-on-app-362865268.md](developer-guide-hands-on-app-362865268.md) | [developer-guide-hands-on-app-362865268.yaml](developer-guide-hands-on-app-362865268.yaml) |
 | device-kit-network-service-429713963 | evidence_only | [device-kit-network-service-429713963.md](device-kit-network-service-429713963.md) | [device-kit-network-service-429713963.yaml](device-kit-network-service-429713963.yaml) |
 | device-kit-ntp-service-429714250 | evidence_only | [device-kit-ntp-service-429714250.md](device-kit-ntp-service-429714250.md) | [device-kit-ntp-service-429714250.yaml](device-kit-ntp-service-429714250.yaml) |
+| device-kit-onboard-service-429714564 | evidence_only | [device-kit-onboard-service-429714564.md](device-kit-onboard-service-429714564.md) | [device-kit-onboard-service-429714564.yaml](device-kit-onboard-service-429714564.yaml) |
+| device-kit-system-service-429713522 | evidence_only | [device-kit-system-service-429713522.md](device-kit-system-service-429713522.md) | [device-kit-system-service-429713522.yaml](device-kit-system-service-429713522.yaml) |
+| distributed-industrial-edge-operations-over-lte-1422084813 | evidence_only | [distributed-industrial-edge-operations-over-lte-1422084813.md](distributed-industrial-edge-operations-over-lte-1422084813.md) | [distributed-industrial-edge-operations-over-lte-1422084813.yaml](distributed-industrial-edge-operations-over-lte-1422084813.yaml) |
+| energy-manager-getting-started-348719643 | evidence_only | [energy-manager-getting-started-348719643.md](energy-manager-getting-started-348719643.md) | [energy-manager-getting-started-348719643.yaml](energy-manager-getting-started-348719643.yaml) |
 | github-448000744 | evidence_only | [github-448000744.md](github-448000744.md) | [github-448000744.yaml](github-448000744.yaml) |
 | ledgebuffer-getting-started-375333797 | evidence_only | [ledgebuffer-getting-started-375333797.md](ledgebuffer-getting-started-375333797.md) | [ledgebuffer-getting-started-375333797.yaml](ledgebuffer-getting-started-375333797.yaml) |
 | performance-analytics-408793816 | evidence_only | [performance-analytics-408793816.md](performance-analytics-408793816.md) | [performance-analytics-408793816.yaml](performance-analytics-408793816.yaml) |

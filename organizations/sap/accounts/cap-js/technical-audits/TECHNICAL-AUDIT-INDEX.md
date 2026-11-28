@@ -1,10 +1,10 @@
 # Technical audits — cap-js
 
-Updated: 2026-11-27T22:44:07+00:00
+Updated: 2026-11-28T07:15:19+00:00
 
 ## Status counts
 
-- evidence_only: 24
+- evidence_only: 28
 - manual_reviewed: 1
 
 ## Repository dossiers
@@ -36,3 +36,7 @@ Updated: 2026-11-27T22:44:07+00:00
 | mcp-server-961105832 | evidence_only | [mcp-server-961105832.md](mcp-server-961105832.md) | [mcp-server-961105832.yaml](mcp-server-961105832.yaml) |
 | n8n-1311103163 | evidence_only | [n8n-1311103163.md](n8n-1311103163.md) | [n8n-1311103163.yaml](n8n-1311103163.yaml) |
 | notifications-665872643 | evidence_only | [notifications-665872643.md](notifications-665872643.md) | [notifications-665872643.yaml](notifications-665872643.yaml) |
+| openapi-740361497 | evidence_only | [openapi-740361497.md](openapi-740361497.md) | [openapi-740361497.yaml](openapi-740361497.yaml) |
+| ord-740880190 | evidence_only | [ord-740880190.md](ord-740880190.md) | [ord-740880190.yaml](ord-740880190.yaml) |
+| print-990470701 | evidence_only | [print-990470701.md](print-990470701.md) | [print-990470701.yaml](print-990470701.yaml) |
+| process-1149838494 | evidence_only | [process-1149838494.md](process-1149838494.md) | [process-1149838494.yaml](process-1149838494.yaml) |

@@ -1,10 +1,10 @@
 # Technical audits — paddlepaddle
 
-Updated: 2026-11-27T22:44:05+00:00
+Updated: 2026-11-28T07:15:19+00:00
 
 ## Status counts
 
-- evidence_only: 24
+- evidence_only: 28
 
 ## Repository dossiers
 
@@ -29,6 +29,10 @@ Updated: 2026-11-27T22:44:05+00:00
 | litekit-302509341 | evidence_only | [litekit-302509341.md](litekit-302509341.md) | [litekit-302509341.yaml](litekit-302509341.yaml) |
 | metagym-196743910 | evidence_only | [metagym-196743910.md](metagym-196743910.md) | [metagym-196743910.yaml](metagym-196743910.yaml) |
 | mobile-98599362 | evidence_only | [mobile-98599362.md](mobile-98599362.md) | [mobile-98599362.yaml](mobile-98599362.yaml) |
+| paconvert-608649692 | evidence_only | [paconvert-608649692.md](paconvert-608649692.md) | [paconvert-608649692.yaml](paconvert-608649692.yaml) |
+| paddle-65711522 | evidence_only | [paddle-65711522.md](paddle-65711522.md) | [paddle-65711522.yaml](paddle-65711522.yaml) |
+| paddle-inference-demo-261698998 | evidence_only | [paddle-inference-demo-261698998.md](paddle-inference-demo-261698998.md) | [paddle-inference-demo-261698998.yaml](paddle-inference-demo-261698998.yaml) |
+| padiff-583199561 | evidence_only | [padiff-583199561.md](padiff-583199561.md) | [padiff-583199561.yaml](padiff-583199561.yaml) |
 | palm-210520127 | evidence_only | [palm-210520127.md](palm-210520127.md) | [palm-210520127.yaml](palm-210520127.yaml) |
 | parl-131044128 | evidence_only | [parl-131044128.md](parl-131044128.md) | [parl-131044128.yaml](parl-131044128.yaml) |
 | passl-333611338 | evidence_only | [passl-333611338.md](passl-333611338.md) | [passl-333611338.yaml](passl-333611338.yaml) |

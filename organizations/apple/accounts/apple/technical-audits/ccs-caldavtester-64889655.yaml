@@ -1,0 +1,101 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:51:52+00:00'
+evidence_fingerprint: d0f6c2b4c2babbcbcdf7192bbf7e0c6c79df4ceb972cf97cb1716df01c207373
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/ccs-caldavtester
+  repository_id: 64889655
+  url: https://github.com/apple/ccs-caldavtester
+  description: CalDAV/CardDAV Testing Framework used by CalendarServer
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-02-24T17:24:16Z'
+  stars: 63
+  readme_url: https://github.com/apple/ccs-caldavtester/blob/master/README.md
+  readme_path: README.md
+  readme_sha: a6491a0c501b3ea2da7b6aaeb212b438108167f9
+  manifest_paths:
+  - requirements.txt
+  - setup.py
+  source_files_inspected:
+  - src/__init__.py
+  - src/caldavtest.py
+  - src/httpshandler.py
+  - src/jsonPointer.py
+  repository_tree:
+    status: captured
+    sha: eef543a6b940e0d01014c0be90d0eae2c1e4dd46
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: CALDAVTESTER ============
+  why_used: CalDAV/CardDAV Testing Framework used by CalendarServer
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/__init__.py, src/caldavtest.py,
+    src/httpshandler.py, src/jsonPointer.py'
+  setup_and_usage:
+  - 'QUICKSTART: Edit the serverinfo.xml file to run the test against your server setup.'
+  - 'QUICKSTART: Prior to running, make sure you are in the virtualenv:'
+  - 'QUICKSTART: source venv/bin/activate'
+  - 'QUICKSTART: Run testcaldav.py --all on the command line to run the tests. The app'
+  - 'QUICKSTART: will print its progress through the tests.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/ccs-caldavtester/blob/master/README.md
+  path: README.md
+  blob_sha: a6491a0c501b3ea2da7b6aaeb212b438108167f9
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 1697b624d82535c3c232d9b6ec8c8ccc15fc279e
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: f90ef3be9de382b6f4e657f3d793c6ff879d00ba
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 263511
+    Shell: 6275
+- type: Git tree
+  status: captured
+  sha: eef543a6b940e0d01014c0be90d0eae2c1e4dd46
+  truncated: false
+- type: source_file
+  path: src/__init__.py
+  blob_sha: be4b604591a787e3652ace8d9327a4f78cc1ddb4
+  retrieved: true
+- type: source_file
+  path: src/caldavtest.py
+  blob_sha: f6f5259b974cc3b190b1f44887082c0a2bd087c3
+  retrieved: true
+- type: source_file
+  path: src/httpshandler.py
+  blob_sha: 7f27a18698096c5a53286bcd85f6b14194f8eebf
+  retrieved: true
+- type: source_file
+  path: src/jsonPointer.py
+  blob_sha: 9f3ba7ca2f64f7eebf340eed41db118dbeedea45
+  retrieved: true

@@ -1,10 +1,10 @@
 # Technical audits — aws-cloudformation
 
-Updated: 2026-11-27T22:44:05+00:00
+Updated: 2026-11-28T07:15:18+00:00
 
 ## Status counts
 
-- evidence_only: 26
+- evidence_only: 31
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -37,4 +37,9 @@ Updated: 2026-11-27T22:44:05+00:00
 | aws-cloudformation-resource-providers-connect-253918421 | evidence_only | [aws-cloudformation-resource-providers-connect-253918421.md](aws-cloudformation-resource-providers-connect-253918421.md) | [aws-cloudformation-resource-providers-connect-253918421.yaml](aws-cloudformation-resource-providers-connect-253918421.yaml) |
 | aws-cloudformation-resource-providers-controltower-504683945 | evidence_only | [aws-cloudformation-resource-providers-controltower-504683945.md](aws-cloudformation-resource-providers-controltower-504683945.md) | [aws-cloudformation-resource-providers-controltower-504683945.yaml](aws-cloudformation-resource-providers-controltower-504683945.yaml) |
 | aws-cloudformation-resource-providers-cost-explorer-238807741 | evidence_only | [aws-cloudformation-resource-providers-cost-explorer-238807741.md](aws-cloudformation-resource-providers-cost-explorer-238807741.md) | [aws-cloudformation-resource-providers-cost-explorer-238807741.yaml](aws-cloudformation-resource-providers-cost-explorer-238807741.yaml) |
+| aws-cloudformation-resource-providers-cur-341365192 | evidence_only | [aws-cloudformation-resource-providers-cur-341365192.md](aws-cloudformation-resource-providers-cur-341365192.md) | [aws-cloudformation-resource-providers-cur-341365192.yaml](aws-cloudformation-resource-providers-cur-341365192.yaml) |
+| aws-cloudformation-resource-providers-customer-profiles-329692453 | evidence_only | [aws-cloudformation-resource-providers-customer-profiles-329692453.md](aws-cloudformation-resource-providers-customer-profiles-329692453.md) | [aws-cloudformation-resource-providers-customer-profiles-329692453.yaml](aws-cloudformation-resource-providers-customer-profiles-329692453.yaml) |
+| aws-cloudformation-resource-providers-databrew-315474943 | evidence_only | [aws-cloudformation-resource-providers-databrew-315474943.md](aws-cloudformation-resource-providers-databrew-315474943.md) | [aws-cloudformation-resource-providers-databrew-315474943.yaml](aws-cloudformation-resource-providers-databrew-315474943.yaml) |
+| aws-cloudformation-resource-providers-datasync-271648345 | evidence_only | [aws-cloudformation-resource-providers-datasync-271648345.md](aws-cloudformation-resource-providers-datasync-271648345.md) | [aws-cloudformation-resource-providers-datasync-271648345.yaml](aws-cloudformation-resource-providers-datasync-271648345.yaml) |
+| aws-cloudformation-resource-providers-datazone-690803346 | evidence_only | [aws-cloudformation-resource-providers-datazone-690803346.md](aws-cloudformation-resource-providers-datazone-690803346.md) | [aws-cloudformation-resource-providers-datazone-690803346.yaml](aws-cloudformation-resource-providers-datazone-690803346.yaml) |
 | github-171341618 | insufficient_evidence | [github-171341618.md](github-171341618.md) | [github-171341618.yaml](github-171341618.yaml) |

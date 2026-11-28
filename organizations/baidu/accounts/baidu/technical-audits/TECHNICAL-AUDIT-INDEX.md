@@ -1,10 +1,10 @@
 # Technical audits — baidu
 
-Updated: 2026-11-27T22:44:06+00:00
+Updated: 2026-11-28T07:15:17+00:00
 
 ## Status counts
 
-- evidence_only: 24
+- evidence_only: 28
 
 ## Repository dossiers
 
@@ -34,3 +34,7 @@ Updated: 2026-11-27T22:44:06+00:00
 | oasp-94851916 | evidence_only | [oasp-94851916.md](oasp-94851916.md) | [oasp-94851916.yaml](oasp-94851916.yaml) |
 | qcompute-293708494 | evidence_only | [qcompute-293708494.md](qcompute-293708494.md) | [qcompute-293708494.yaml](qcompute-293708494.yaml) |
 | qcomputesdk-ts-589421371 | evidence_only | [qcomputesdk-ts-589421371.md](qcomputesdk-ts-589421371.md) | [qcomputesdk-ts-589421371.yaml](qcomputesdk-ts-589421371.yaml) |
+| quanlse-331922070 | evidence_only | [quanlse-331922070.md](quanlse-331922070.md) | [quanlse-331922070.yaml](quanlse-331922070.yaml) |
+| rubik-504447693 | evidence_only | [rubik-504447693.md](rubik-504447693.md) | [rubik-504447693.yaml](rubik-504447693.yaml) |
+| senta-139385822 | evidence_only | [senta-139385822.md](senta-139385822.md) | [senta-139385822.yaml](senta-139385822.yaml) |
+| unlimited-ocr-1273138090 | evidence_only | [unlimited-ocr-1273138090.md](unlimited-ocr-1273138090.md) | [unlimited-ocr-1273138090.yaml](unlimited-ocr-1273138090.yaml) |

@@ -1,0 +1,120 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:59:28+00:00'
+evidence_fingerprint: f7dc72e1915bac6bc10a2abf910f8346c25dcf04eb84c6375b0c00f1ad158ddf
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/isaac_ros_dnn_inference
+  repository_id: 416922955
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_dnn_inference
+  description: NVIDIA-accelerated DNN model inference ROS 2 packages using NVIDIA Triton/TensorRT for both Jetson
+    and x86_64 with CUDA-capable GPU
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-18T06:57:01Z'
+  stars: 143
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_dnn_inference/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 583a46b1f75ef067cdfdc32e0043c784a574b940
+  manifest_paths:
+  - isaac_ros_dnn_image_encoder/CMakeLists.txt
+  - isaac_ros_tensor_proc/CMakeLists.txt
+  - isaac_ros_tensor_rt/CMakeLists.txt
+  - isaac_ros_triton/CMakeLists.txt
+  - tensorrt_conversions/CMakeLists.txt
+  - triton_conversions/CMakeLists.txt
+  source_files_inspected:
+  - isaac_ros_tensor_proc/src/image_tensor_normalize_node.cpp
+  - isaac_ros_tensor_proc/src/image_to_tensor_node.cpp
+  - isaac_ros_tensor_proc/src/interleaved_to_planar_node.cpp
+  - isaac_ros_tensor_proc/src/normalize_node.cpp
+  repository_tree:
+    status: captured
+    sha: 47d4ef087bdd51afa2a73fa0f6ef90e6bc71908a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: NVIDIA-accelerated DNN model inference ROS 2 packages using NVIDIA Triton/TensorRT for both Jetson and
+    x86_64 with CUDA-capable GPU.
+  why_used: NVIDIA-accelerated DNN model inference ROS 2 packages using NVIDIA Triton/TensorRT for both Jetson and
+    x86_64 with CUDA-capable GPU
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: isaac_ros_tensor_proc/src/image_tensor_normalize_node.cpp,
+    isaac_ros_tensor_proc/src/image_to_tensor_node.cpp, isaac_ros_tensor_proc/src/interleaved_to_planar_node.cpp,
+    isaac_ros_tensor_proc/src/normalize_node.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_dnn_inference/blob/main/README.md
+  path: README.md
+  blob_sha: 583a46b1f75ef067cdfdc32e0043c784a574b940
+  retrieved: true
+- type: manifest
+  path: isaac_ros_dnn_image_encoder/CMakeLists.txt
+  blob_sha: b90ab0341690313611aa0804aa8856c5bf546e01
+  retrieved: true
+- type: manifest
+  path: isaac_ros_tensor_proc/CMakeLists.txt
+  blob_sha: 63447d5738ec2a2aeea56fae3b163da52d80a891
+  retrieved: true
+- type: manifest
+  path: isaac_ros_tensor_rt/CMakeLists.txt
+  blob_sha: 3abca6ba145d0dba54ba2e6d25004f40193bc0a4
+  retrieved: true
+- type: manifest
+  path: isaac_ros_triton/CMakeLists.txt
+  blob_sha: 700b47176f79ee9ad51ac9b6d2208590a794b99a
+  retrieved: true
+- type: manifest
+  path: tensorrt_conversions/CMakeLists.txt
+  blob_sha: d1845616732038148288429a30908405d01102dd
+  retrieved: true
+- type: manifest
+  path: triton_conversions/CMakeLists.txt
+  blob_sha: 2094e85a71ddb476307bd8096c1045ca584cd39c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 223997
+    CMake: 23967
+- type: Git tree
+  status: captured
+  sha: 47d4ef087bdd51afa2a73fa0f6ef90e6bc71908a
+  truncated: false
+- type: source_file
+  path: isaac_ros_tensor_proc/src/image_tensor_normalize_node.cpp
+  blob_sha: ccb170e135c1eef521a954cb61829d17d74f3c35
+  retrieved: true
+- type: source_file
+  path: isaac_ros_tensor_proc/src/image_to_tensor_node.cpp
+  blob_sha: cc61ca86847b91541411f4c6cd7dea40d8b33cb4
+  retrieved: true
+- type: source_file
+  path: isaac_ros_tensor_proc/src/interleaved_to_planar_node.cpp
+  blob_sha: db6e339c3104bbb25ee1e693da5602445491c8d1
+  retrieved: true
+- type: source_file
+  path: isaac_ros_tensor_proc/src/normalize_node.cpp
+  blob_sha: 50751784deabb41a682f5bf2c1693640afef164b
+  retrieved: true

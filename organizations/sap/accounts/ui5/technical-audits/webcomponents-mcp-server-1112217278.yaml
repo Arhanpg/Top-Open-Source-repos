@@ -1,0 +1,112 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:00:47+00:00'
+evidence_fingerprint: b3837b664a4e21fb9a0b21d040616f0e0b0e3387334a692d82a878b02cbbd5dd
+repository_metadata:
+  company: SAP
+  account: UI5
+  full_name: UI5/webcomponents-mcp-server
+  repository_id: 1112217278
+  url: https://github.com/UI5/webcomponents-mcp-server
+  description: The UI5 Web Components MCP Server improves the developer experience when working with agentic AI
+    and the UI5 Web Components framework.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-08-31T11:17:34Z'
+  stars: 20
+  readme_url: https://github.com/UI5/webcomponents-mcp-server/blob/main/README.md
+  readme_path: README.md
+  readme_sha: dbdecefbc8fc4fc0d81e4db10126a8b2d2088ce9
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/index.ts
+  - src/tools/get_guidelines/integration/index.ts
+  - src/tools/index.ts
+  - src/logger.ts
+  repository_tree:
+    status: captured
+    sha: dc348fddf3f6b358c8a414e958f8946d5a71034d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A Model Context Protocol server for UI5 Web Components development.
+  why_used: The UI5 Web Components MCP Server improves the developer experience when working with agentic AI and
+    the UI5 Web Components framework.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@modelcontextprotocol/sdk'
+    - '@types/node'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - ava
+    - eslint
+    - prettier
+    - tsx
+    - typescript
+    - vite-node
+    - zod
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/index.ts, src/tools/get_guidelines/integration/index.ts,
+    src/tools/index.ts, src/logger.ts'
+  setup_and_usage:
+  - 'Usage: Once set up, ask your AI assistant things like:'
+  - 'Usage: - "Show me the API for ui5-button"'
+  - 'Usage: - "How do I use UI5 Web Components with React?"'
+  - 'Usage: - "Show me the available documentation"'
+  - 'Usage: - "Get the theming documentation"'
+  limitations:
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow our instructions at
+    in our security policy on how to report it. Please do not create GitHub issues for security-related doubts or
+    problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/UI5/webcomponents-mcp-server/blob/main/README.md
+  path: README.md
+  blob_sha: dbdecefbc8fc4fc0d81e4db10126a8b2d2088ce9
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 8f2f3b0fb6238c48013d6d13525bf15e3d36ec1f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 39917
+    JavaScript: 3122
+- type: Git tree
+  status: captured
+  sha: dc348fddf3f6b358c8a414e958f8946d5a71034d
+  truncated: false
+- type: source_file
+  path: src/index.ts
+  blob_sha: 6b38fbd7a897b44d9beda4572e931bba7b6318d4
+  retrieved: true
+- type: source_file
+  path: src/tools/get_guidelines/integration/index.ts
+  blob_sha: 53eeba195d44fb241022f4dbfef152f32a2733ec
+  retrieved: true
+- type: source_file
+  path: src/tools/index.ts
+  blob_sha: 78f0d418168e5406a002cdeea4afed31d1a70098
+  retrieved: true
+- type: source_file
+  path: src/logger.ts
+  blob_sha: 79f41a4d00e920c5f8d7ca46c508627db48fe118
+  retrieved: true

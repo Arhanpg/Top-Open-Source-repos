@@ -1,0 +1,92 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:02:07+00:00'
+evidence_fingerprint: 578e8b4c474f84a77a6de674de89936d1545bf5c355b44722e4411aeec17e77b
+repository_metadata:
+  company: Amazon
+  account: amazon-science
+  full_name: amazon-science/CriSPO
+  repository_id: 915896697
+  url: https://github.com/amazon-science/CriSPO
+  description: 'Implementation of AAAI-2025 paper -- "CriSPO: Multi-Aspect Critique-Suggestion-guided Automatic
+    Prompt Optimization for Text Generation"'
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-01-14T17:06:02Z'
+  stars: 13
+  readme_url: https://github.com/amazon-science/CriSPO/blob/main/README.md
+  readme_path: README.md
+  readme_sha: eb36fa2279b66ed9c17ce87c336868544f303375
+  manifest_paths:
+  - setup.py
+  source_files_inspected:
+  - crispo/__init__.py
+  - crispo/llms/__init__.py
+  - crispo/llms/bedrock/__init__.py
+  - crispo/llms/bedrock/claude2.py
+  repository_tree:
+    status: captured
+    sha: db180966ce6861f4c154c375e9c4e5efe2fcd19d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'Codes for our AAAI 2025 paper "CriSPO: Multi-Aspect Critique-Suggestion-guided Automatic Prompt Optimization
+    for Text Generation".'
+  why_used: 'Implementation of AAAI-2025 paper -- "CriSPO: Multi-Aspect Critique-Suggestion-guided Automatic Prompt
+    Optimization for Text Generation"'
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: crispo/__init__.py,
+    crispo/llms/__init__.py, crispo/llms/bedrock/__init__.py, crispo/llms/bedrock/claude2.py'
+  setup_and_usage: []
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-science/CriSPO/blob/main/README.md
+  path: README.md
+  blob_sha: eb36fa2279b66ed9c17ce87c336868544f303375
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: bdf4b62178707efed313fbeea476ee8ae768079f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 331260
+- type: Git tree
+  status: captured
+  sha: db180966ce6861f4c154c375e9c4e5efe2fcd19d
+  truncated: false
+- type: source_file
+  path: crispo/__init__.py
+  blob_sha: 10da69b7d30a4ddae8214f97b47a148c106d9417
+  retrieved: true
+- type: source_file
+  path: crispo/llms/__init__.py
+  blob_sha: a57dac917b1d27bb7c871199e95277ee528ab6b8
+  retrieved: true
+- type: source_file
+  path: crispo/llms/bedrock/__init__.py
+  blob_sha: 10da69b7d30a4ddae8214f97b47a148c106d9417
+  retrieved: true
+- type: source_file
+  path: crispo/llms/bedrock/claude2.py
+  blob_sha: ac44d237e5eeeefaa700c71e61c67a677b472bd5
+  retrieved: true

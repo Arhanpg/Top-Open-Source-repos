@@ -1,10 +1,10 @@
 # Technical audits — aws-observability
 
-Updated: 2026-11-27T22:44:06+00:00
+Updated: 2026-11-28T07:15:20+00:00
 
 ## Status counts
 
-- evidence_only: 25
+- evidence_only: 30
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -36,4 +36,9 @@ Updated: 2026-11-27T22:44:06+00:00
 | aws-otel-python-instrumentation-734796211 | evidence_only | [aws-otel-python-instrumentation-734796211.md](aws-otel-python-instrumentation-734796211.md) | [aws-otel-python-instrumentation-734796211.yaml](aws-otel-python-instrumentation-734796211.yaml) |
 | aws-otel-ruby-447384197 | evidence_only | [aws-otel-ruby-447384197.md](aws-otel-ruby-447384197.md) | [aws-otel-ruby-447384197.yaml](aws-otel-ruby-447384197.yaml) |
 | aws-otel-swift-979692610 | evidence_only | [aws-otel-swift-979692610.md](aws-otel-swift-979692610.md) | [aws-otel-swift-979692610.yaml](aws-otel-swift-979692610.yaml) |
+| aws-otel-test-framework-295885704 | evidence_only | [aws-otel-test-framework-295885704.md](aws-otel-test-framework-295885704.md) | [aws-otel-test-framework-295885704.yaml](aws-otel-test-framework-295885704.yaml) |
+| aws-rum-web-406148973 | evidence_only | [aws-rum-web-406148973.md](aws-rum-web-406148973.md) | [aws-rum-web-406148973.yaml](aws-rum-web-406148973.yaml) |
+| aws-sigv4-proxy-admission-controller-288855626 | evidence_only | [aws-sigv4-proxy-admission-controller-288855626.md](aws-sigv4-proxy-admission-controller-288855626.md) | [aws-sigv4-proxy-admission-controller-288855626.yaml](aws-sigv4-proxy-admission-controller-288855626.yaml) |
+| cdk-aws-observability-accelerator-639370870 | evidence_only | [cdk-aws-observability-accelerator-639370870.md](cdk-aws-observability-accelerator-639370870.md) | [cdk-aws-observability-accelerator-639370870.yaml](cdk-aws-observability-accelerator-639370870.yaml) |
+| cloudwatch-plugin-otel-go-1388159018 | evidence_only | [cloudwatch-plugin-otel-go-1388159018.md](cloudwatch-plugin-otel-go-1388159018.md) | [cloudwatch-plugin-otel-go-1388159018.yaml](cloudwatch-plugin-otel-go-1388159018.yaml) |
 | github-559009922 | insufficient_evidence | [github-559009922.md](github-559009922.md) | [github-559009922.yaml](github-559009922.yaml) |

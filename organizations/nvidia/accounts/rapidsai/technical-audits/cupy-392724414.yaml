@@ -1,0 +1,139 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:11:40+00:00'
+evidence_fingerprint: f91f334dc8856089afc78a25e9f407103f4e96d013fa44e0a32bf61e0b837074
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/cupy
+  repository_id: 392724414
+  url: https://github.com/rapidsai/cupy
+  description: NumPy & SciPy for GPU
+  default_branch: master
+  license_spdx: MIT
+  archived: true
+  fork: true
+  disabled: false
+  pushed_at: '2021-08-04T21:32:46Z'
+  stars: 3
+  readme_url: https://github.com/rapidsai/cupy/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 808be73e52501fdfa225a8dc2dbe9744820462a9
+  manifest_paths:
+  - setup.py
+  - docs/Makefile
+  - docs/requirements.txt
+  - docker/python3/Dockerfile
+  - docker/rocm/Dockerfile
+  source_files_inspected:
+  - cupy/lib/__init__.py
+  - cupy/lib/_routines_poly.py
+  - cupy/lib/_shape_base.py
+  - cupy/lib/stride_tricks.py
+  repository_tree:
+    status: captured
+    sha: 5769a6ed813c0eb52734dff57d0bb3327df4b117
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Website**'
+  why_used: NumPy & SciPy for GPU
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Cython
+    - C++
+    - C
+    - Cuda
+    - Shell
+    - PowerShell
+    - Dockerfile
+    - Batchfile
+    frameworks_and_libraries: []
+    dependencies:
+    - Cython
+    - numpy
+    - pydata_sphinx_theme
+    - scipy
+    - sphinx
+    build_and_package_tools:
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cupy/lib/__init__.py,
+    cupy/lib/_routines_poly.py, cupy/lib/_shape_base.py, cupy/lib/stride_tricks.py'
+  setup_and_usage:
+  - 'Installation: Wheels (precompiled binary packages) are available for Linux (x86_64) and Windows (amd64).'
+  - 'Installation: Choose the right package for your platform.'
+  - 'Installation: | Platform | Command |'
+  - 'Installation: | ------------- | ----------------------------- |'
+  - 'Installation: | CUDA 10.0 | pip install cupy-cuda100 |'
+  - 'Installation: | CUDA 10.1 | pip install cupy-cuda101 |'
+  - 'Installation: | CUDA 10.2 | pip install cupy-cuda102 |'
+  - 'Installation: | CUDA 11.0 | pip install cupy-cuda110 |'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/cupy/blob/master/README.md
+  path: README.md
+  blob_sha: 808be73e52501fdfa225a8dc2dbe9744820462a9
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 8bce01f302c8eb12280febf64987ecc91932409d
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: ae1e47a731792eb8f04c06c17cc4f45432957331
+  retrieved: true
+- type: manifest
+  path: docs/requirements.txt
+  blob_sha: 88e89b45b343ed3290a7a816ad13dbcce52633a8
+  retrieved: true
+- type: manifest
+  path: docker/python3/Dockerfile
+  blob_sha: d4cd1cdf455edd43176f917fe1a6b4bb95a40a65
+  retrieved: true
+- type: manifest
+  path: docker/rocm/Dockerfile
+  blob_sha: a2932bd04e417378fffc7bceee0ae56289fa9ca9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 3881595
+    Cython: 1872318
+    C++: 1253956
+    C: 1209311
+    Cuda: 121676
+    Shell: 14826
+    PowerShell: 6249
+    Dockerfile: 2691
+    Batchfile: 38
+- type: Git tree
+  status: captured
+  sha: 5769a6ed813c0eb52734dff57d0bb3327df4b117
+  truncated: false
+- type: source_file
+  path: cupy/lib/__init__.py
+  blob_sha: cd39775d0305912e09d82369201c5e7c96c524c1
+  retrieved: true
+- type: source_file
+  path: cupy/lib/_routines_poly.py
+  blob_sha: 55cbd8dd11f346fc05bb3810581dffd414351c01
+  retrieved: true
+- type: source_file
+  path: cupy/lib/_shape_base.py
+  blob_sha: 58700c00ba4fd7edd5c7077cc8645692d71f52cf
+  retrieved: true
+- type: source_file
+  path: cupy/lib/stride_tricks.py
+  blob_sha: 04c91392e105fd758616013a23c0a9c786ea93ed
+  retrieved: true

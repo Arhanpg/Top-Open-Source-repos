@@ -1,0 +1,109 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:07:59+00:00'
+evidence_fingerprint: fb7f7377a6b1a3b761996942f3f54d063b6c5ad9a2a93a9d88edeb0036d7db79
+repository_metadata:
+  company: Amazon
+  account: amazon-connect
+  full_name: amazon-connect/touchpoint-ios
+  repository_id: 1412089480
+  url: https://github.com/amazon-connect/touchpoint-ios
+  description: 'Amazon Connect Customer Touchpoint SDK for iOS: chat, in-app voice and Live Sync for Amazon Connect
+    contact centres, as Swift packages.'
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-11T18:59:03Z'
+  stars: 4
+  readme_url: https://github.com/amazon-connect/touchpoint-ios/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f2b7f9ab66308ca483048cdacc5014eee449a883
+  manifest_paths:
+  - Makefile
+  source_files_inspected:
+  - Package.swift
+  - Scripts/check-api-breaks.sh
+  - Scripts/check-build-graph.sh
+  - Scripts/check-competing-pins.sh
+  repository_tree:
+    status: captured
+    sha: 11b8b7f2ae09751bb457afbb59b4b390985f702e
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Status: pre-release.** The public API will change without notice until a 1.0 release is tagged.'
+  why_used: 'Amazon Connect Customer Touchpoint SDK for iOS: chat, in-app voice and Live Sync for Amazon Connect
+    contact centres, as Swift packages.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Swift
+    - Shell
+    - Python
+    - Makefile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: Package.swift, Scripts/check-api-breaks.sh,
+    Scripts/check-build-graph.sh, Scripts/check-competing-pins.sh'
+  setup_and_usage:
+  - 'Installation: Add the package with Swift Package Manager and depend on the products you use:'
+  - 'Installation: // Before 1.0.0 a minor release may change the API, so take patches only.'
+  - 'Installation: .package(url: "https://github.com/amazon-connect/touchpoint-ios", .upToNextMinor(from: "0.1.0")),'
+  - 'Installation: .target(name: "MyApp", dependencies: ['
+  - 'Installation: .product(name: "TouchpointChat", package: "touchpoint-ios"),'
+  - 'Installation: .product(name: "TouchpointVoice", package: "touchpoint-ios"), // only if you call'
+  - 'Installation: .product(name: "TouchpointLiveSync", package: "touchpoint-ios"), // only if you use Live Sync'
+  - 'Installation: The package depends on the Connect chat SDK, which is built on the AWS SDK for Swift:'
+  limitations:
+  - 'Security: To report a potential security issue, use the AWS'
+  - 'Security: vulnerability reporting page; please do'
+  - 'Security: **not** create a public GitHub issue. What the SDK protects, and what your app and backend must do,
+    is'
+  - 'Security: in the security guide.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-connect/touchpoint-ios/blob/main/README.md
+  path: README.md
+  blob_sha: f2b7f9ab66308ca483048cdacc5014eee449a883
+  retrieved: true
+- type: manifest
+  path: Makefile
+  blob_sha: 168ade450c4d77792b5edf34dc83086507c1f119
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Swift: 1937626
+    Shell: 64570
+    Python: 13570
+    Makefile: 3963
+- type: Git tree
+  status: captured
+  sha: 11b8b7f2ae09751bb457afbb59b4b390985f702e
+  truncated: false
+- type: source_file
+  path: Package.swift
+  blob_sha: 1f02ae91744e9eefe03e432c6c0e7f0f95f44277
+  retrieved: true
+- type: source_file
+  path: Scripts/check-api-breaks.sh
+  blob_sha: ebf8ed8b1cbe878dc79ebf2a7c92b2599cd14ffe
+  retrieved: true
+- type: source_file
+  path: Scripts/check-build-graph.sh
+  blob_sha: 9e0a8839702dac8e8a3517a8188f7f97891c5402
+  retrieved: true
+- type: source_file
+  path: Scripts/check-competing-pins.sh
+  blob_sha: 17219ff152c51032284dec06f5006d4986633578
+  retrieved: true

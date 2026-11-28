@@ -1,0 +1,116 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:53:04+00:00'
+evidence_fingerprint: 95ad4540a9b7b60f183167d06d06527fc06779f4f7320d3ff1d2777f73db2d78
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA
+  full_name: NVIDIA/Cosmos-Tokenizer
+  repository_id: 881054702
+  url: https://github.com/NVIDIA/Cosmos-Tokenizer
+  description: A suite of image and video neural tokenizers
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2025-02-11T05:49:24Z'
+  stars: 1726
+  readme_url: https://github.com/NVIDIA/Cosmos-Tokenizer/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 1ed0e7fdc42596dd80a50e14b743bfdbe9924c39
+  manifest_paths:
+  - Dockerfile
+  - requirements.txt
+  - setup.py
+  source_files_inspected:
+  - cosmos_tokenizer/__init__.py
+  - cosmos_tokenizer/image_cli.py
+  - cosmos_tokenizer/image_lib.py
+  - cosmos_tokenizer/modules/__init__.py
+  repository_tree:
+    status: captured
+    sha: 0c9ca348de116c986f8ba60e0b746ec2e95c4c10
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: As of February 10th, 2025, this repository is **read-only**. **Please visit github.com/NVIDIA/Cosmos
+    for the latest updates and support on Cosmos Tokenizer**.
+  why_used: A suite of image and video neural tokenizers
+  core_features: []
+  technology_stack:
+    languages:
+    - Jupyter Notebook
+    - Python
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - einops
+    - einx
+    - huggingface-hub
+    - ipdb
+    - loguru
+    - mediapy
+    build_and_package_tools:
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cosmos_tokenizer/__init__.py,
+    cosmos_tokenizer/image_cli.py, cosmos_tokenizer/image_lib.py, cosmos_tokenizer/modules/__init__.py'
+  setup_and_usage:
+  - 'Installation: - Clone the source code'
+  - 'Installation: git clone https://github.com/NVIDIA/Cosmos-Tokenizer.git'
+  - 'Installation: apt-get install -y ffmpeg git-lfs'
+  - 'Installation: Preferably, build a docker image using the provided Dockerfile'
+  - 'Installation: docker build -t cosmos-tokenizer -f Dockerfile .'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA/Cosmos-Tokenizer/blob/main/README.md
+  path: README.md
+  blob_sha: 1ed0e7fdc42596dd80a50e14b743bfdbe9924c39
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: 902ce1b0eb48612680e3fe93c42fdc04c1ff91be
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 6b874453fc9fcb921275f5ca910a9eb41e3ea488
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 768898ad50a1cab5396df291d18f476a5b8fdfa7
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Jupyter Notebook: 9499892
+    Python: 150524
+    Dockerfile: 1022
+- type: Git tree
+  status: captured
+  sha: 0c9ca348de116c986f8ba60e0b746ec2e95c4c10
+  truncated: false
+- type: source_file
+  path: cosmos_tokenizer/__init__.py
+  blob_sha: d50bcc44556693ceb3d7492dafb57a54af845697
+  retrieved: true
+- type: source_file
+  path: cosmos_tokenizer/image_cli.py
+  blob_sha: 2b728542e40b41133213d4da63be4e0932926c5d
+  retrieved: true
+- type: source_file
+  path: cosmos_tokenizer/image_lib.py
+  blob_sha: 4d412f7f5ebc8bf914f24b2de38f645539a9f23b
+  retrieved: true
+- type: source_file
+  path: cosmos_tokenizer/modules/__init__.py
+  blob_sha: f39e9c73e666cc0f969fc7cfeec5d26a181a741c
+  retrieved: true

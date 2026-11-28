@@ -1,10 +1,10 @@
 # Technical audits — capire
 
-Updated: 2026-11-27T22:44:06+00:00
+Updated: 2026-11-28T07:15:19+00:00
 
 ## Status counts
 
-- evidence_only: 24
+- evidence_only: 26
 
 ## Repository dossiers
 
@@ -34,3 +34,5 @@ Updated: 2026-11-27T22:44:06+00:00
 | university-1192835429 | evidence_only | [university-1192835429.md](university-1192835429.md) | [university-1192835429.yaml](university-1192835429.yaml) |
 | xflights-1006476807 | evidence_only | [xflights-1006476807.md](xflights-1006476807.md) | [xflights-1006476807.yaml](xflights-1006476807.yaml) |
 | xflights-java-1071468492 | evidence_only | [xflights-java-1071468492.md](xflights-java-1071468492.md) | [xflights-java-1071468492.yaml](xflights-java-1071468492.yaml) |
+| xtravels-1011076044 | evidence_only | [xtravels-1011076044.md](xtravels-1011076044.md) | [xtravels-1011076044.yaml](xtravels-1011076044.yaml) |
+| xtravels-java-1071471240 | evidence_only | [xtravels-java-1071471240.md](xtravels-java-1071471240.md) | [xtravels-java-1071471240.yaml](xtravels-java-1071471240.yaml) |

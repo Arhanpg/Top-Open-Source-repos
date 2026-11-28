@@ -1,0 +1,121 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:04:09+00:00'
+evidence_fingerprint: 97d63ca115198234ff0213f5b58c6fe2d8ffb16eb33b97dc7047ec6d1a20fd65
+repository_metadata:
+  company: Amazon
+  account: freertos
+  full_name: FreeRTOS/Lab-Project-FreeRTOS-LoRaWAN
+  repository_id: 294180777
+  url: https://github.com/FreeRTOS/Lab-Project-FreeRTOS-LoRaWAN
+  description: Reference implementation of LoRaWAN connectivity on FreeRTOS.
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-06-26T23:02:39Z'
+  stars: 57
+  readme_url: https://github.com/FreeRTOS/Lab-Project-FreeRTOS-LoRaWAN/blob/main/README.md
+  readme_path: README.md
+  readme_sha: e551e4f5587659a4b3b446da25f7eda23c0d65b1
+  manifest_paths:
+  - demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/external/micro-ecc/nrf51_armgcc/armgcc/Makefile
+  - demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/external/micro-ecc/nrf51_iar/armgcc/Makefile
+  - demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/external/micro-ecc/nrf51_keil/armgcc/Makefile
+  - demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/external/micro-ecc/nrf52hf_armgcc/armgcc/Makefile
+  - demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/external/micro-ecc/nrf52hf_iar/armgcc/Makefile
+  - demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/external/micro-ecc/nrf52hf_keil/armgcc/Makefile
+  source_files_inspected:
+  - demos/classA/Nordic_NRF52/main.c
+  - demos/classA/STM32L475_Discovery/main.c
+  - demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/components/802_15_4/src/rng_entity.c
+  - demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/components/802_15_4/src/sec_aes_entity.c
+  repository_tree:
+    status: captured
+    sha: 66de3e0ae99e510262949237bd12c3367e85e425
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '> ⚠️ **Disclaimer:** This repository is a FreeRTOS Labs reference project, provided for demonstration
+    and evaluation purposes only, and should not be used in production.'
+  why_used: Reference implementation of LoRaWAN connectivity on FreeRTOS.
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - HTML
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: demos/classA/Nordic_NRF52/main.c,
+    demos/classA/STM32L475_Discovery/main.c, demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/components/802_15_4/src/rng_entity.c,
+    demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/components/802_15_4/src/sec_aes_entity.c'
+  setup_and_usage: []
+  limitations:
+  - 'Supported Platforms: Vendor | MCU | LoRa Radios | IDE'
+  - 'Supported Platforms: Nordic | NRF52840-DK | SX1262MB2CAS | Segger Embedded Studio (SES)'
+  - 'Supported Platforms: STMicroelectronics | STM32L4 Discovery Kit IoT Node | SX1276MB1LAS | System Workbench
+    for STM32'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/FreeRTOS/Lab-Project-FreeRTOS-LoRaWAN/blob/main/README.md
+  path: README.md
+  blob_sha: e551e4f5587659a4b3b446da25f7eda23c0d65b1
+  retrieved: true
+- type: manifest
+  path: demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/external/micro-ecc/nrf51_armgcc/armgcc/Makefile
+  blob_sha: 0e19e4b585b43c0b2b6391fd3ed7a3bc3978ae72
+  retrieved: true
+- type: manifest
+  path: demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/external/micro-ecc/nrf51_iar/armgcc/Makefile
+  blob_sha: f4233f5d2e0f26eb0fd6b277fc71d85b1b97247b
+  retrieved: true
+- type: manifest
+  path: demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/external/micro-ecc/nrf51_keil/armgcc/Makefile
+  blob_sha: 7b581079c4ca8df6df879af08ae719a3415737a2
+  retrieved: true
+- type: manifest
+  path: demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/external/micro-ecc/nrf52hf_armgcc/armgcc/Makefile
+  blob_sha: 5c5bf96e029d5de89d0c1fe5d46ed84f4f4c0de7
+  retrieved: true
+- type: manifest
+  path: demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/external/micro-ecc/nrf52hf_iar/armgcc/Makefile
+  blob_sha: f1e34ee8c2af302be08344ea9776bc2f03f9020c
+  retrieved: true
+- type: manifest
+  path: demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/external/micro-ecc/nrf52hf_keil/armgcc/Makefile
+  blob_sha: a80687a3e582daf7f9c3b56002e950468fd9c406
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 9628054
+    HTML: 111751
+- type: Git tree
+  status: captured
+  sha: 66de3e0ae99e510262949237bd12c3367e85e425
+  truncated: false
+- type: source_file
+  path: demos/classA/Nordic_NRF52/main.c
+  blob_sha: 966f6c0c37a41885da6c5fc21c43f967e8c63948
+  retrieved: true
+- type: source_file
+  path: demos/classA/STM32L475_Discovery/main.c
+  blob_sha: 7367cc7ee4731d2406af30945c5bac2323b20b82
+  retrieved: true
+- type: source_file
+  path: demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/components/802_15_4/src/rng_entity.c
+  blob_sha: 487444acfc889598f24023f528ba508c790c0b94
+  retrieved: true
+- type: source_file
+  path: demos/classA/Nordic_NRF52/nRF5_SDK_15.2.0/components/802_15_4/src/sec_aes_entity.c
+  blob_sha: 1dd341db047ab493178ca2b01f7cdd9cf452c3e8
+  retrieved: true

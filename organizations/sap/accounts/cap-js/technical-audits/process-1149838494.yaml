@@ -1,0 +1,150 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:11:56+00:00'
+evidence_fingerprint: fc680c04d05249cc4437e5e5cdd8e4a124ed63fa6c333ba2fac87477a7920235
+repository_metadata:
+  company: SAP
+  account: cap-js
+  full_name: cap-js/process
+  repository_id: 1149838494
+  url: https://github.com/cap-js/process
+  description: CAP Plugin to interact with SAP Build Process Automation to start and manage processes.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-23T14:14:26Z'
+  stars: 5
+  readme_url: https://github.com/cap-js/process/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 0ed362a66b030fbbbdfb6418ac2264c28861178c
+  manifest_paths:
+  - package.json
+  - tests/bookshop/package.json
+  - tests/sample/status-management/package.json
+  - tests/sample/status-management/app/authors/package.json
+  - tests/sample/status-management/app/books/package.json
+  source_files_inspected:
+  - lib/api/index.ts
+  - lib/auth/index.ts
+  - lib/handlers/index.ts
+  - lib/index.ts
+  repository_tree:
+    status: captured
+    sha: 9b45f7fc5b6709786e64fbb0fe7510146fa9782f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: CAP Plugin to interact with SAP Build Process Automation to manage processes.
+  why_used: CAP Plugin to interact with SAP Build Process Automation to start and manage processes.
+  core_features: []
+  technology_stack:
+    languages:
+    - TypeScript
+    - CAP CDS
+    - JavaScript
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@cap-js/cds-test'
+    - '@cap-js/cds-typer'
+    - '@cap-js/cds-types'
+    - '@cap-js/db-service'
+    - '@cap-js/hana'
+    - '@cap-js/process'
+    - '@cap-js/sqlite'
+    - '@sap-cloud-sdk/connectivity'
+    - '@sap-cloud-sdk/http-client'
+    - '@sap-cloud-sdk/resilience'
+    - '@sap/cds'
+    - '@sap/ux-ui5-tooling'
+    - '@types/jest'
+    - '@types/node'
+    - '@ui5/cli'
+    - cds-plugin-ui5
+    - jest
+    - ts-jest
+    - tsx
+    - typescript
+    - typescript-eslint
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: lib/api/index.ts,
+    lib/auth/index.ts, lib/handlers/index.ts, lib/index.ts'
+  setup_and_usage:
+  - 'Quickstart: To add the plugin to your CAP Node.js application, run:'
+  - 'Quickstart: npm add @cap-js/process'
+  - 'Quickstart: That''s it — the annotation and programmatic approaches against the generic ProcessService work
+    without any bindings against SAP Build Process Automation. No process import is required to get started.'
+  - 'Quickstart: You can have a look at the sample in Status management, or you can jump directly to the documentation
+    of either Annotations or the Programmatic Approach.'
+  - 'Usage: const processService = await cds.connect.to(''ProcessService'');'
+  - 'Usage: await processService.emit(''start'', {'
+  - 'Usage: definitionId: ''eu12.myorg.myproject.myProcess'','
+  - 'Usage: context: { orderId: ''12345'', amount: 100.0 },'
+  limitations:
+  - 'Limitations: - The typed process service does not currently support local development.'
+  - 'Limitations: - The process import is currently only possible via the command line.'
+  - 'Security / Disclosure: If you find any bug that may be a security problem, please follow the instructions in
+    our security policy on how to report it. Please do not create GitHub issues for security-related doubts or problems.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/cap-js/process/blob/main/README.md
+  path: README.md
+  blob_sha: 0ed362a66b030fbbbdfb6418ac2264c28861178c
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 6ddbb89f9cd3357630fa06616576086bd6848500
+  retrieved: true
+- type: manifest
+  path: tests/bookshop/package.json
+  blob_sha: a7282dfd62384d88e4c758794bb9a5b74e0ed67f
+  retrieved: true
+- type: manifest
+  path: tests/sample/status-management/package.json
+  blob_sha: 72298848ef88bd06c3cd6b9e4bf1b80cd7b56eec
+  retrieved: true
+- type: manifest
+  path: tests/sample/status-management/app/authors/package.json
+  blob_sha: 38c9414bda71a8683698aa3c5e0db0ddf98c123e
+  retrieved: true
+- type: manifest
+  path: tests/sample/status-management/app/books/package.json
+  blob_sha: 545d54d366efb0801a72f0a8f04c87657dcfcd3e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 448383
+    CAP CDS: 88737
+    JavaScript: 17783
+    HTML: 3960
+- type: Git tree
+  status: captured
+  sha: 9b45f7fc5b6709786e64fbb0fe7510146fa9782f
+  truncated: false
+- type: source_file
+  path: lib/api/index.ts
+  blob_sha: c44043ebef4bb14ae8f78b42283f4d1efc949f0d
+  retrieved: true
+- type: source_file
+  path: lib/auth/index.ts
+  blob_sha: efafcc4e57c7940e5f2d3ff22a4204518111b80a
+  retrieved: true
+- type: source_file
+  path: lib/handlers/index.ts
+  blob_sha: bcad0e21eb57552b9fbd66a6742d808c8093acc3
+  retrieved: true
+- type: source_file
+  path: lib/index.ts
+  blob_sha: a05ea2473ea822c0f9cefcb2f54557ef850ff6a7
+  retrieved: true

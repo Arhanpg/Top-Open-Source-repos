@@ -1,10 +1,10 @@
 # Technical audits — googlecloudplatform
 
-Updated: 2026-11-27T22:44:09+00:00
+Updated: 2026-11-28T07:15:16+00:00
 
 ## Status counts
 
-- evidence_only: 19
+- evidence_only: 24
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -31,3 +31,8 @@ Updated: 2026-11-27T22:44:09+00:00
 | labelcat-43977316 | evidence_only | [labelcat-43977316.md](labelcat-43977316.md) | [labelcat-43977316.yaml](labelcat-43977316.yaml) |
 | lifesciences-1146209919 | evidence_only | [lifesciences-1146209919.md](lifesciences-1146209919.md) | [lifesciences-1146209919.yaml](lifesciences-1146209919.yaml) |
 | minicat-98673010 | evidence_only | [minicat-98673010.md](minicat-98673010.md) | [minicat-98673010.yaml](minicat-98673010.yaml) |
+| open-data-qna-765294445 | evidence_only | [open-data-qna-765294445.md](open-data-qna-765294445.md) | [open-data-qna-765294445.yaml](open-data-qna-765294445.yaml) |
+| perfkitbenchmarker-21950910 | evidence_only | [perfkitbenchmarker-21950910.md](perfkitbenchmarker-21950910.md) | [perfkitbenchmarker-21950910.yaml](perfkitbenchmarker-21950910.yaml) |
+| perfkitexplorer-21950873 | evidence_only | [perfkitexplorer-21950873.md](perfkitexplorer-21950873.md) | [perfkitexplorer-21950873.yaml](perfkitexplorer-21950873.yaml) |
+| sensitive-data-protection-for-vertex-ai-palm2-670669117 | evidence_only | [sensitive-data-protection-for-vertex-ai-palm2-670669117.md](sensitive-data-protection-for-vertex-ai-palm2-670669117.md) | [sensitive-data-protection-for-vertex-ai-palm2-670669117.yaml](sensitive-data-protection-for-vertex-ai-palm2-670669117.yaml) |
+| sourcexcloud-33134801 | evidence_only | [sourcexcloud-33134801.md](sourcexcloud-33134801.md) | [sourcexcloud-33134801.yaml](sourcexcloud-33134801.yaml) |

@@ -1,0 +1,129 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:58:16+00:00'
+evidence_fingerprint: 65046e6e046df33ec87e86a1f08d9da56b4a549e24421432bce80dc2decb6703
+repository_metadata:
+  company: Apple
+  account: swiftlang
+  full_name: swiftlang/swift-corelibs-libdispatch
+  repository_id: 45863965
+  url: https://github.com/swiftlang/swift-corelibs-libdispatch
+  description: The libdispatch Project, (a.k.a. Grand Central Dispatch), for concurrency on multicore hardware
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T09:56:53Z'
+  stars: 2608
+  readme_url: https://github.com/swiftlang/swift-corelibs-libdispatch/blob/main/README.md
+  readme_path: README.md
+  readme_sha: ef9ec78d672c9821aae219b680ca35a710d4e9c5
+  manifest_paths:
+  - CMakeLists.txt
+  - dispatch/CMakeLists.txt
+  - man/CMakeLists.txt
+  - os/CMakeLists.txt
+  - private/CMakeLists.txt
+  - src/CMakeLists.txt
+  source_files_inspected:
+  - src/allocator.c
+  - src/allocator_internal.h
+  - src/apply.c
+  - src/benchmark.c
+  repository_tree:
+    status: captured
+    sha: 34ab659b63d4f5a8dd3e6fda9a73739e5431758c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Grand Central Dispatch (GCD or libdispatch) provides comprehensive support for concurrent code execution
+    on multicore hardware.
+  why_used: The libdispatch Project, (a.k.a. Grand Central Dispatch), for concurrency on multicore hardware
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - Swift
+    - Objective-C
+    - CMake
+    - C++
+    - Objective-C++
+    - DTrace
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/allocator.c, src/allocator_internal.h,
+    src/apply.c, src/benchmark.c'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/swiftlang/swift-corelibs-libdispatch/blob/main/README.md
+  path: README.md
+  blob_sha: ef9ec78d672c9821aae219b680ca35a710d4e9c5
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 3466837abaa2347326d6c287cb9913a0566dc3da
+  retrieved: true
+- type: manifest
+  path: dispatch/CMakeLists.txt
+  blob_sha: 478ee8fba97017f8d88b236792908293ee0dd612
+  retrieved: true
+- type: manifest
+  path: man/CMakeLists.txt
+  blob_sha: e81b14b411233a6e0958dae79ac057be4f4363af
+  retrieved: true
+- type: manifest
+  path: os/CMakeLists.txt
+  blob_sha: cccf97ba6f7942afe5267f1c5b836821f92a6af7
+  retrieved: true
+- type: manifest
+  path: private/CMakeLists.txt
+  blob_sha: f77a92d41693abd5aefe8e736a96709babbd7476
+  retrieved: true
+- type: manifest
+  path: src/CMakeLists.txt
+  blob_sha: c105830545b38d0b148a3ce48e61c58b7ce5c32c
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 2190423
+    Swift: 115684
+    Objective-C: 98181
+    CMake: 46742
+    C++: 39899
+    Objective-C++: 16257
+    DTrace: 12877
+    Shell: 12132
+- type: Git tree
+  status: captured
+  sha: 34ab659b63d4f5a8dd3e6fda9a73739e5431758c
+  truncated: false
+- type: source_file
+  path: src/allocator.c
+  blob_sha: 66284090fac750d14699171d53e7c82bee7482a2
+  retrieved: true
+- type: source_file
+  path: src/allocator_internal.h
+  blob_sha: 9409048f39e63d132aaf03593cc3c206557eb7ed
+  retrieved: true
+- type: source_file
+  path: src/apply.c
+  blob_sha: 9c7d60ffd2731ef934377a3e7b2938780634cd84
+  retrieved: true
+- type: source_file
+  path: src/benchmark.c
+  blob_sha: 15e9f55354658b7dcaa249dd5a55f20325ecb356
+  retrieved: true

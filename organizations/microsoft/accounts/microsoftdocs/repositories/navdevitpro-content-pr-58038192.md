@@ -23,7 +23,7 @@ This is repository-owner metadata, not an independently verified technical summa
 
 - Status: unavailable
 - Unavailable reason: GitHub returned 404 for a README
-- Captured: 2026-11-27T18:20:02+00:00
+- Captured: 2026-11-28T02:51:01+00:00
 
 ### Short excerpt (up to 300 words)
 

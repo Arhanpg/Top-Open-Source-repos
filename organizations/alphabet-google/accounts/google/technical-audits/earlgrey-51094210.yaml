@@ -1,0 +1,108 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:07:27+00:00'
+evidence_fingerprint: d59d7c3e909d1dade4004b2b3c6e9358d2001bfeb25a419db19b47d6341a50be
+repository_metadata:
+  company: Alphabet (Google)
+  account: google
+  full_name: google/EarlGrey
+  repository_id: 51094210
+  url: https://github.com/google/EarlGrey
+  description: ':tea: iOS UI Automation Test Framework'
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T09:53:53Z'
+  stars: 5700
+  readme_url: https://github.com/google/EarlGrey/blob/master/README.md
+  readme_path: README.md
+  readme_sha: f0d1b013808dbf61e2f572a2469035bd997d2739
+  manifest_paths:
+  - gem/Gemfile
+  source_files_inspected:
+  - EarlGrey/Core/EarlGreyImpl.h
+  - EarlGrey/Core/EarlGreyImpl.m
+  - EarlGrey/Core/GREYAutomationSetup.h
+  - EarlGrey/Core/GREYAutomationSetup.m
+  repository_tree:
+    status: captured
+    sha: 3d79f815b065a58687e1478e47d19f41740a6f56
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: 'Deprecation: EarlGrey 1.0 is deprecated in favor of EarlGrey 2.0 which integrates it with XCUITest.
+    Please look at the earlgrey2 branch. EarlGrey 1.0 is not being maintained internally with iOS 13.'
+  why_used: ':tea: iOS UI Automation Test Framework'
+  core_features: []
+  technology_stack:
+    languages:
+    - Objective-C
+    - Ruby
+    - Swift
+    - Shell
+    - HTML
+    - CSS
+    - Python
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - Bundler manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: EarlGrey/Core/EarlGreyImpl.h,
+    EarlGrey/Core/EarlGreyImpl.m, EarlGrey/Core/GREYAutomationSetup.h, EarlGrey/Core/GREYAutomationSetup.m'
+  setup_and_usage:
+  - 'Getting Started: The EarlGrey documentation for users is located in the'
+  - 'Getting Started: EarlGrey/docs folder.'
+  - 'Getting Started: To get started, review the EarlGrey features, check for backward compatibility,'
+  - 'Getting Started: and then install/run EarlGrey with your test target. After everything is'
+  - 'Getting Started: configured, take a look at the EarlGrey API and start writing your own tests.'
+  - 'Getting Started: * Backward Compatibility'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google/EarlGrey/blob/master/README.md
+  path: README.md
+  blob_sha: f0d1b013808dbf61e2f572a2469035bd997d2739
+  retrieved: true
+- type: manifest
+  path: gem/Gemfile
+  blob_sha: 5532e868e019e019705e418c4980ecd5ff0dec7f
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Objective-C: 2120104
+    Ruby: 43176
+    Swift: 24685
+    Shell: 16848
+    HTML: 8531
+    CSS: 5760
+    Python: 4166
+- type: Git tree
+  status: captured
+  sha: 3d79f815b065a58687e1478e47d19f41740a6f56
+  truncated: false
+- type: source_file
+  path: EarlGrey/Core/EarlGreyImpl.h
+  blob_sha: 40b9714810c3e34ba4146801c926c1e7ae59b9e9
+  retrieved: true
+- type: source_file
+  path: EarlGrey/Core/EarlGreyImpl.m
+  blob_sha: a4d779d10d1b1063e810cf37ecdc140b29d47c36
+  retrieved: true
+- type: source_file
+  path: EarlGrey/Core/GREYAutomationSetup.h
+  blob_sha: ea5a1f98c1d46ac4d060f2ca32989b153d415990
+  retrieved: true
+- type: source_file
+  path: EarlGrey/Core/GREYAutomationSetup.m
+  blob_sha: 4a931ec37505cb0cda248a3b136a3d38138eb5d2
+  retrieved: true

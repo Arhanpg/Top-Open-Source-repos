@@ -1,0 +1,120 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:04:24+00:00'
+evidence_fingerprint: 796e5418542ef8af2a893c8ef3eb9ec9e4fe9ea0122379410bc35bf490bb1b7a
+repository_metadata:
+  company: Apple
+  account: swiftlang
+  full_name: swiftlang/swift-corelibs-xctest
+  repository_id: 45864027
+  url: https://github.com/swiftlang/swift-corelibs-xctest
+  description: The XCTest Project, A Swift core library for providing unit test support
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-21T09:55:33Z'
+  stars: 1188
+  readme_url: https://github.com/swiftlang/swift-corelibs-xctest/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 7fa2ec9fa88024fb761eaa0f847991c996e97de7
+  manifest_paths:
+  - CMakeLists.txt
+  - Dockerfile
+  - cmake/modules/CMakeLists.txt
+  source_files_inspected:
+  - build_script.py
+  - Package.swift
+  - Sources/XCTest/Private/ArgumentParser.swift
+  - Sources/XCTest/Private/IgnoredErrors.swift
+  repository_tree:
+    status: captured
+    sha: cd6a211772bc754d340390575bcbb709915a04d2
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The XCTest library is designed to provide a common framework for writing unit tests in Swift, for Swift
+    packages and applications.
+  why_used: The XCTest Project, A Swift core library for providing unit test support
+  core_features: []
+  technology_stack:
+    languages:
+    - Swift
+    - Python
+    - CMake
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: build_script.py, Package.swift,
+    Sources/XCTest/Private/ArgumentParser.swift, Sources/XCTest/Private/IgnoredErrors.swift'
+  setup_and_usage:
+  - 'Standalone Command Line Usage: When used by itself, without SwiftPM, this version of XCTest does not use the
+    external xctest CLI test runner included with Xcode to run tests. Instead, you must create your own executable
+    which links libXCTest.so, and in your main.swift, invoke the XCTMain function with an array of the tests from
+    all XCTestCase subclasses that you wish to run, wra'
+  - 'Standalone Command Line Usage: testCase(TestNSString.allTests),'
+  - 'Standalone Command Line Usage: testCase(TestNSArray.allTests),'
+  - 'Standalone Command Line Usage: testCase(TestNSDictionary.allTests),'
+  - 'Standalone Command Line Usage: The XCTMain function does not return, and will cause your test executable to
+    exit with either 0 for success or 1 for failure. Certain command line arguments can be used to modify the test
+    runner behavior:'
+  - 'Standalone Command Line Usage: * A particular test or test case can be selected to execute. For example:'
+  - 'Standalone Command Line Usage: $ ./FooTests Tests.FooTestCase/testFoo # Run a single test method'
+  - 'Standalone Command Line Usage: $ ./FooTests Tests.FooTestCase # Run all the tests in FooTestCase'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/swiftlang/swift-corelibs-xctest/blob/main/README.md
+  path: README.md
+  blob_sha: 7fa2ec9fa88024fb761eaa0f847991c996e97de7
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: d5dfc7745fc266106346a34ab572c50cfa3f71c0
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: ecaded469d042edfc7eeb7fa1d27858c193fb49e
+  retrieved: true
+- type: manifest
+  path: cmake/modules/CMakeLists.txt
+  blob_sha: 40fa6bb7c8a7b4a180b3783130ee08f661bc734a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Swift: 396490
+    Python: 45039
+    CMake: 8814
+    Dockerfile: 666
+- type: Git tree
+  status: captured
+  sha: cd6a211772bc754d340390575bcbb709915a04d2
+  truncated: false
+- type: source_file
+  path: build_script.py
+  blob_sha: 92bc9e0d7665c2daaea1c79bda3e697b1f19eca2
+  retrieved: true
+- type: source_file
+  path: Package.swift
+  blob_sha: 9db6f77325bd5ab2ec138b25906d68d97f7ab2b8
+  retrieved: true
+- type: source_file
+  path: Sources/XCTest/Private/ArgumentParser.swift
+  blob_sha: 11b33db48abef1d1ba551a9ebc586f9f244b661b
+  retrieved: true
+- type: source_file
+  path: Sources/XCTest/Private/IgnoredErrors.swift
+  blob_sha: 1723a1d4c8521ee2f990bcb5dd6da8b9209fa662
+  retrieved: true

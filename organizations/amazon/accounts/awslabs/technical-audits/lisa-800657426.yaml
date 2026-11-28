@@ -1,0 +1,243 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:51:20+00:00'
+evidence_fingerprint: 0bd8842a36d67913b84a420a426e9754385e9ac667e89345ed1a7847490038ea
+repository_metadata:
+  company: Amazon
+  account: awslabs
+  full_name: awslabs/LISA
+  repository_id: 800657426
+  url: https://github.com/awslabs/LISA
+  description: 'LLM inference solution for Amazon Dedicated Cloud (LISA). '
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2026-09-16T09:15:53Z'
+  stars: 85
+  readme_url: https://github.com/awslabs/LISA/blob/main/README.md
+  readme_path: README.md
+  readme_sha: d9e3e6ed177d14036707417cdd25e92d44cbafce
+  manifest_paths:
+  - package.json
+  - pyproject.toml
+  - cypress/package.json
+  - ecs_model_deployer/package.json
+  - lambda/requirements.txt
+  - lisa-sdk/pyproject.toml
+  source_files_inspected:
+  - cypress/src/e2e/support/index.ts
+  - cypress/src/smoke/support/index.ts
+  - ecs_model_deployer/src/index.ts
+  - ecs_model_deployer/src/lib/index.ts
+  repository_tree:
+    status: captured
+    sha: ab4a7f2038eda1ca7720c6ab40166f56af568f8d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Our large language model (LLM) inference solution for the Amazon Dedicated Cloud (ADC), LISA, is open
+    source infrastructure-as-code. Customers deploy it directly into an Amazon Web Services (AWS) account in any
+    region. LISA is modular, scalable, and ready to support production use cases.
+  why_used: LLM inference solution for Amazon Dedicated Cloud (LISA).
+  core_features:
+  - name: '**Open Source**: No subscription or licensing fees. LISA costs are based on service usage.'
+    description: '**Open Source**: No subscription or licensing fees. LISA costs are based on service usage.'
+    evidence:
+    - README.md#Key Features
+  - name: '**Support**: LISA is backed by a software development team that builds and maintains production-ready
+      solutions to accelerate customers'' GenAI adoption.'
+    description: '**Support**: LISA is backed by a software development team that builds and maintains production-ready
+      solutions to accelerate customers'' GenAI adoption.'
+    evidence:
+    - README.md#Key Features
+  - name: '**Model Flexibility**: Bring your own models for self-hosting, or quickly configure LISA with 100+ models
+      supported by third-party model providers, including Am'
+    description: '**Model Flexibility**: Bring your own models for self-hosting, or quickly configure LISA with
+      100+ models supported by third-party model providers, including Amazon Bedrock and Jumpstart.'
+    evidence:
+    - README.md#Key Features
+  - name: '**Model Orchestration**: Centralize and standardize unique API calls to third-party model providers automatically
+      with LISA via LiteLLM. LISA standardizes the u'
+    description: '**Model Orchestration**: Centralize and standardize unique API calls to third-party model providers
+      automatically with LISA via LiteLLM. LISA standardizes the unique API calls into the OpenAI format automatically.
+      All that is required is an API key, model name, and API endpoint.'
+    evidence:
+    - README.md#Key Features
+  - name: '**Modular Components**: Accelerate GenAI adoption with secure, scalable software. LISA supports various
+      use cases through configurable components: model serving'
+    description: '**Modular Components**: Accelerate GenAI adoption with secure, scalable software. LISA supports
+      various use cases through configurable components: model serving and orchestration, chat user interface with
+      advanced capabilities, authentication, retrieval augmented generation (RAG), Anthropic’s Model Context Protocol
+      (MCP), and APIs.'
+    evidence:
+    - README.md#Key Features
+  - name: '**CodeGen**: LISA supports OpenAI’s API specification, making it easily configurable with compatible
+      solutions like the Continue plugin for VSCode and JetBrains'
+    description: '**CodeGen**: LISA supports OpenAI’s API specification, making it easily configurable with compatible
+      solutions like the Continue plugin for VSCode and JetBrains IDEs.'
+    evidence:
+    - README.md#Key Features
+  - name: '**FedRAMP**: Leverages FedRAMP High compliant services.'
+    description: '**FedRAMP**: Leverages FedRAMP High compliant services.'
+    evidence:
+    - README.md#Key Features
+  technology_stack:
+    languages:
+    - Python
+    - TypeScript
+    - Shell
+    - JavaScript
+    - Dockerfile
+    - Jupyter Notebook
+    - Nix
+    - CSS
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-cdk/aws-lambda-python-alpha'
+    - '@aws-sdk/client-iam'
+    - '@aws-sdk/client-ssm'
+    - '@aws-sdk/util-dynamodb'
+    - '@cdklabs/cdk-enterprise-iac'
+    - '@cfworker/json-schema'
+    - '@eslint/js'
+    - '@rollup/rollup-linux-x64-gnu'
+    - '@stylistic/eslint-plugin'
+    - '@tailwindcss/oxide-linux-x64-gnu'
+    - '@types/jest'
+    - '@types/js-yaml'
+    - '@types/linkify-it'
+    - '@types/lodash'
+    - '@types/node'
+    - '@types/readline-sync'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - aiohttp
+    - aws-cdk
+    - aws-cdk-lib
+    - cdk-ecr-deployment
+    - cdk-nag
+    - constructs
+    - cypress
+    - depcheck
+    - dotenv
+    - esbuild
+    - eslint
+    - eslint-plugin-import
+    - eslint-plugin-react-hooks
+    - eslint-plugin-react-refresh
+    - globals
+    - husky
+    - jest
+    - js-yaml
+    - langchain
+    - langchain-community
+    - langchain-core
+    - langchain-openai
+    - langchain-text-splitters
+    - langsmith
+    - lightningcss
+    - lint-staged
+    - lodash
+    - marshmallow
+    - micromark
+    - micromark-core-commonmark
+    - npm-check-updates
+    - numpy
+    - orjson
+    - patch-package
+    - pydantic
+    - readline-sync
+    - source-map-support
+    - toml
+    - ts-jest
+    - ts-node
+    - tsx
+    - typescript
+    - urllib3
+    - util
+    - wait-on
+    - zod
+    - zod2md
+    build_and_package_tools:
+    - npm-compatible manifest
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: cypress/src/e2e/support/index.ts,
+    cypress/src/smoke/support/index.ts, ecs_model_deployer/src/index.ts, ecs_model_deployer/src/lib/index.ts'
+  setup_and_usage:
+  - 'Getting Started: For detailed instructions on setting up, configuring, and deploying LISA, please refer to
+    our separate documentation on'
+  - 'Getting Started: installation and usage.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/awslabs/LISA/blob/main/README.md
+  path: README.md
+  blob_sha: d9e3e6ed177d14036707417cdd25e92d44cbafce
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 55cb1f74f4f7f5f39bd2fdc38e4810246b8a136d
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: f44c13a7a9876e05d232471c1dd1bf457cf7cc44
+  retrieved: true
+- type: manifest
+  path: cypress/package.json
+  blob_sha: 695d1087bded0f66059a79a0bac18470eb186711
+  retrieved: true
+- type: manifest
+  path: ecs_model_deployer/package.json
+  blob_sha: f7e240160fec10afd2431130b9404b4e6087aa36
+  retrieved: true
+- type: manifest
+  path: lambda/requirements.txt
+  blob_sha: ad8fd1357507b795367f6c8d94d3781b8cde1c6b
+  retrieved: true
+- type: manifest
+  path: lisa-sdk/pyproject.toml
+  blob_sha: 8ded79262b4e953068da99c9e65b1c14ade24b9b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 4070269
+    TypeScript: 2911195
+    Shell: 144687
+    JavaScript: 72038
+    Dockerfile: 22939
+    Jupyter Notebook: 22925
+    Nix: 4755
+    CSS: 2489
+    HTML: 456
+- type: Git tree
+  status: captured
+  sha: ab4a7f2038eda1ca7720c6ab40166f56af568f8d
+  truncated: false
+- type: source_file
+  path: cypress/src/e2e/support/index.ts
+  blob_sha: c9c2ac24c75ac42cba33ea869ce5ea5d78102cc4
+  retrieved: true
+- type: source_file
+  path: cypress/src/smoke/support/index.ts
+  blob_sha: c445635704bf45e36a5b82ee7e101e72a186555a
+  retrieved: true
+- type: source_file
+  path: ecs_model_deployer/src/index.ts
+  blob_sha: b841c9661c4e121587a5d4a5234b1d3cafe0904a
+  retrieved: true
+- type: source_file
+  path: ecs_model_deployer/src/lib/index.ts
+  blob_sha: 8d9cad34ac4c4124e8d5098eb51f5e74bd6113fd
+  retrieved: true

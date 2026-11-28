@@ -1,10 +1,10 @@
 # Technical audits — triton-inference-server
 
-Updated: 2026-11-27T22:44:07+00:00
+Updated: 2026-11-28T07:15:17+00:00
 
 ## Status counts
 
-- evidence_only: 24
+- evidence_only: 28
 
 ## Repository dossiers
 
@@ -33,4 +33,8 @@ Updated: 2026-11-27T22:44:07+00:00
 | python-backend-291857462 | evidence_only | [python-backend-291857462.md](python-backend-291857462.md) | [python-backend-291857462.yaml](python-backend-291857462.yaml) |
 | pytorch-backend-300743679 | evidence_only | [pytorch-backend-300743679.md](pytorch-backend-300743679.md) | [pytorch-backend-300743679.yaml](pytorch-backend-300743679.yaml) |
 | pytriton-563462295 | evidence_only | [pytriton-563462295.md](pytriton-563462295.md) | [pytriton-563462295.yaml](pytriton-563462295.yaml) |
+| redis-cache-563046915 | evidence_only | [redis-cache-563046915.md](redis-cache-563046915.md) | [redis-cache-563046915.yaml](redis-cache-563046915.yaml) |
+| repeat-backend-292940396 | evidence_only | [repeat-backend-292940396.md](repeat-backend-292940396.md) | [repeat-backend-292940396.yaml](repeat-backend-292940396.yaml) |
+| server-151636194 | evidence_only | [server-151636194.md](server-151636194.md) | [server-151636194.yaml](server-151636194.yaml) |
+| square-backend-292943230 | evidence_only | [square-backend-292943230.md](square-backend-292943230.md) | [square-backend-292943230.yaml](square-backend-292943230.yaml) |
 | tensorrt-llm-1130520542 | evidence_only | [tensorrt-llm-1130520542.md](tensorrt-llm-1130520542.md) | [tensorrt-llm-1130520542.yaml](tensorrt-llm-1130520542.yaml) |

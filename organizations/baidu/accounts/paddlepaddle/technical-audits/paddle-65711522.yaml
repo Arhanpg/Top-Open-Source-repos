@@ -1,0 +1,148 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:04:41+00:00'
+evidence_fingerprint: aa8808bf550c0852c8d1dd80d4c61bc50ba8a1b5d38779bc5c9969b82cd580f3
+repository_metadata:
+  company: Baidu
+  account: PaddlePaddle
+  full_name: PaddlePaddle/Paddle
+  repository_id: 65711522
+  url: https://github.com/PaddlePaddle/Paddle
+  description: 'PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）'
+  default_branch: develop
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-20T13:29:26Z'
+  stars: 24149
+  readme_url: https://github.com/PaddlePaddle/Paddle/blob/develop/README.md
+  readme_path: README.md
+  readme_sha: 81554b29bcf7f335ff3e815083b89b9426baf48f
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  - setup.py
+  - paddle/CMakeLists.txt
+  - python/CMakeLists.txt
+  - python/requirements.txt
+  source_files_inspected:
+  - python/paddle/apy/matmul_pass/__main__.py
+  - python/paddle/distributed/launch/__main__.py
+  - python/paddle/distributed/launch/main.py
+  - paddle/ap/src/axpr/anf_expr.cc
+  repository_tree:
+    status: captured
+    sha: 30505cfe82a5436d841fea50eea4ddf6d9544bd7
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '--------------------------------------------------------------------------------'
+  why_used: 'PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）'
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - Python
+    - Cuda
+    - CMake
+    - Shell
+    - C
+    - Jinja
+    - Batchfile
+    - Go
+    - Java
+    - Dockerfile
+    - R
+    frameworks_and_libraries: []
+    dependencies:
+    - Pillow
+    - httpx
+    - networkx
+    - numpy
+    - opt_einsum
+    - packaging
+    - protobuf
+    - safetensors
+    - setuptools
+    - typing_extensions
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: python/paddle/apy/matmul_pass/__main__.py,
+    python/paddle/distributed/launch/__main__.py, python/paddle/distributed/launch/main.py, paddle/ap/src/axpr/anf_expr.cc'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/PaddlePaddle/Paddle/blob/develop/README.md
+  path: README.md
+  blob_sha: 81554b29bcf7f335ff3e815083b89b9426baf48f
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: 86f0c31f82ab7d358f47730e758dbf25d3da8719
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: 7137ed71bc29a42186fcead7a0fbdefce88cc626
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 58cc995fd1e4713df5cfa976c9706c2a9243edcf
+  retrieved: true
+- type: manifest
+  path: paddle/CMakeLists.txt
+  blob_sha: e210923276206a9012695dca0df5f1d662dd1f04
+  retrieved: true
+- type: manifest
+  path: python/CMakeLists.txt
+  blob_sha: 214948ce790490cf5dbfd989e5e581062b7fbf33
+  retrieved: true
+- type: manifest
+  path: python/requirements.txt
+  blob_sha: a239b16f57c86af1d2b4e63f88aeac5f5c6e2b69
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 57830087
+    Python: 57381883
+    Cuda: 9555024
+    CMake: 1106791
+    Shell: 894543
+    C: 347144
+    Jinja: 93415
+    Batchfile: 77363
+    Go: 40177
+    Java: 16293
+    Dockerfile: 9991
+    R: 1331
+- type: Git tree
+  status: captured
+  sha: 30505cfe82a5436d841fea50eea4ddf6d9544bd7
+  truncated: false
+- type: source_file
+  path: python/paddle/apy/matmul_pass/__main__.py
+  blob_sha: cea543f3e86a67d06cf321fcd6827e994847ef97
+  retrieved: true
+- type: source_file
+  path: python/paddle/distributed/launch/__main__.py
+  blob_sha: 52b0ed3a012cca31d4bb342684f2cdaf0d8f698f
+  retrieved: true
+- type: source_file
+  path: python/paddle/distributed/launch/main.py
+  blob_sha: acee01eaa2907959412bcf65d3310c98feee99cb
+  retrieved: true
+- type: source_file
+  path: paddle/ap/src/axpr/anf_expr.cc
+  blob_sha: a2129c58c3e41cf13d219aa43cab07ee0a2ef361
+  retrieved: true

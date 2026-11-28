@@ -1,0 +1,134 @@
+schema_version: '1.0'
+audit_status: insufficient_evidence
+generated_at: '2026-11-28T07:01:52+00:00'
+evidence_fingerprint: f4750a4ea0b98d5fbf2dcb4eb0d17528308c8c07c3f88163bd24e8c2d51b627e
+repository_metadata:
+  company: Amazon
+  account: amazon-archives
+  full_name: amazon-archives/amediamanager
+  repository_id: 18274537
+  url: https://github.com/amazon-archives/amediamanager
+  description: null
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2020-01-30T20:11:03Z'
+  stars: 60
+  readme_url: null
+  readme_path: null
+  readme_sha: null
+  manifest_paths:
+  - pom.xml
+  source_files_inspected:
+  - src/main/java/com/amediamanager/config/challenge/S3ConfigurationProvider.java
+  - src/main/java/com/amediamanager/config/ClassResourceConfigurationProvider.java
+  - src/main/java/com/amediamanager/config/ConfigurationProvider.java
+  - src/main/java/com/amediamanager/config/ConfigurationProviderChain.java
+  repository_tree:
+    status: captured
+    sha: 521da8a5845b2d8d857715ea7a595298a0f127c4
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Unknown from inspected evidence
+  why_used: Unknown from inspected evidence
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - CSS
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies:
+    - amediamanager
+    - aspectjtools
+    - aws-java-sdk
+    - commons-codec
+    - commons-dbcp
+    - commons-fileupload
+    - commons-io
+    - commons-lang
+    - elasticache-java-cluster-client
+    - guava
+    - h2
+    - hibernate-core
+    - hibernate-validator
+    - jackson-databind
+    - javax.servlet-api
+    - jbcrypt
+    - joda-time
+    - logback-classic
+    - logback-core
+    - maven-compiler-plugin
+    - maven-war-plugin
+    - mysql-connector-java
+    - slf4j-api
+    - spring-core
+    - spring-jdbc
+    - spring-orm
+    - spring-security-config
+    - spring-security-core
+    - spring-security-taglibs
+    - spring-security-web
+    - spring-test
+    - spring-web
+    - spring-webmvc
+    - spymemcached
+    - thymeleaf
+    - thymeleaf-extras-springsecurity3
+    - thymeleaf-spring3
+    - validation-api
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/main/java/com/amediamanager/config/challenge/S3ConfigurationProvider.java,
+    src/main/java/com/amediamanager/config/ClassResourceConfigurationProvider.java, src/main/java/com/amediamanager/config/ConfigurationProvider.java,
+    src/main/java/com/amediamanager/config/ConfigurationProviderChain.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: low
+evidence_sources:
+- type: README
+  url: null
+  path: null
+  blob_sha: null
+  retrieved: false
+- type: manifest
+  path: pom.xml
+  blob_sha: 73391239e9050ac2b9efa57df5ea8c6093010fe6
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 162860
+    CSS: 26726
+    Python: 1894
+    Shell: 356
+- type: Git tree
+  status: captured
+  sha: 521da8a5845b2d8d857715ea7a595298a0f127c4
+  truncated: false
+- type: source_file
+  path: src/main/java/com/amediamanager/config/challenge/S3ConfigurationProvider.java
+  blob_sha: 07c03697851239b5cfffa2ee94c21bcee7c7ab8b
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/amediamanager/config/ClassResourceConfigurationProvider.java
+  blob_sha: b06931078412ad99613496d7db9913df2400c0cd
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/amediamanager/config/ConfigurationProvider.java
+  blob_sha: a45eaff6322e9864b4f08b16f2d23ed41b84df4d
+  retrieved: true
+- type: source_file
+  path: src/main/java/com/amediamanager/config/ConfigurationProviderChain.java
+  blob_sha: 5cdc687046c2dccfe66db49854302e8184200024
+  retrieved: true

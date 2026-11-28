@@ -1,0 +1,120 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:51:35+00:00'
+evidence_fingerprint: a15fee52bfaed810cf3e5750aaea81b1649133a1e359b14c06e86ef247cc27a2
+repository_metadata:
+  company: Amazon
+  account: corretto
+  full_name: corretto/redline
+  repository_id: 190064091
+  url: https://github.com/corretto/redline
+  description: Pure Java Rpm Library
+  default_branch: master
+  license_spdx: MIT
+  archived: true
+  fork: true
+  disabled: false
+  pushed_at: '2019-06-03T21:11:46Z'
+  stars: 1
+  readme_url: https://github.com/corretto/redline/blob/master/README.md
+  readme_path: README.md
+  readme_sha: b925ec17f87c9c8d2aa1ea1a9bef244dde5adf1d
+  manifest_paths:
+  - pom.xml
+  source_files_inspected:
+  - src/main/java/org/redline_rpm/Main.java
+  - src/main/java/org/redline_rpm/ant/AbstractTrigger.java
+  - src/main/java/org/redline_rpm/ant/BuiltIn.java
+  - src/main/java/org/redline_rpm/ant/Conflicts.java
+  repository_tree:
+    status: captured
+    sha: 58855734c2c69f3fd065541e35e337981f5ab5d5
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Redline is a pure Java library for manipulating RPM Package Manager packages. Currently the project supports
+    reading and creating packages and has an included Ant task useful for integration with build systems.
+  why_used: Pure Java Rpm Library
+  core_features: []
+  technology_stack:
+    languages:
+    - Java
+    - CSS
+    - HTML
+    - JavaScript
+    - Shell
+    - Perl
+    frameworks_and_libraries: []
+    dependencies:
+    - ant
+    - bcpg-jdk15on
+    - commons-compress
+    - doxia-module-xhtml
+    - junit
+    - maven-assembly-plugin
+    - maven-compiler-plugin
+    - maven-gpg-plugin
+    - maven-javadoc-plugin
+    - maven-resources-plugin
+    - maven-shade-plugin
+    - maven-site-plugin
+    - maven-source-plugin
+    - maven-surefire-plugin
+    - nexus-staging-maven-plugin
+    - oss-parent
+    - redline
+    - slf4j-api
+    - slf4j-log4j12
+    - xz
+    build_and_package_tools:
+    - Maven project manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/main/java/org/redline_rpm/Main.java,
+    src/main/java/org/redline_rpm/ant/AbstractTrigger.java, src/main/java/org/redline_rpm/ant/BuiltIn.java, src/main/java/org/redline_rpm/ant/Conflicts.java'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/corretto/redline/blob/master/README.md
+  path: README.md
+  blob_sha: b925ec17f87c9c8d2aa1ea1a9bef244dde5adf1d
+  retrieved: true
+- type: manifest
+  path: pom.xml
+  blob_sha: e8c5cfd49791b6a5b7945df30b4edc3a72b6cb67
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Java: 294363
+    CSS: 9361
+    HTML: 6844
+    JavaScript: 350
+    Shell: 99
+    Perl: 50
+- type: Git tree
+  status: captured
+  sha: 58855734c2c69f3fd065541e35e337981f5ab5d5
+  truncated: false
+- type: source_file
+  path: src/main/java/org/redline_rpm/Main.java
+  blob_sha: f99fdfb488248cfc5b79c466398e4635dd1f801d
+  retrieved: true
+- type: source_file
+  path: src/main/java/org/redline_rpm/ant/AbstractTrigger.java
+  blob_sha: 534efb173f33e252ae8620b7d663148f55b5e286
+  retrieved: true
+- type: source_file
+  path: src/main/java/org/redline_rpm/ant/BuiltIn.java
+  blob_sha: 532cf672718e01b95d8479b58fb2cf1fed0dcfa5
+  retrieved: true
+- type: source_file
+  path: src/main/java/org/redline_rpm/ant/Conflicts.java
+  blob_sha: b4163bab4ab7495b230276d92d98ec3b50cd9575
+  retrieved: true

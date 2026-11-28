@@ -1,10 +1,10 @@
 # Technical audits — amazon-science
 
-Updated: 2026-11-27T22:44:06+00:00
+Updated: 2026-11-28T07:15:20+00:00
 
 ## Status counts
 
-- evidence_only: 27
+- evidence_only: 32
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -36,6 +36,11 @@ Updated: 2026-11-27T22:44:06+00:00
 | codeassistbench-1080772157 | evidence_only | [codeassistbench-1080772157.md](codeassistbench-1080772157.md) | [codeassistbench-1080772157.yaml](codeassistbench-1080772157.yaml) |
 | codesage-753889040 | evidence_only | [codesage-753889040.md](codesage-753889040.md) | [codesage-753889040.yaml](codesage-753889040.yaml) |
 | codestruct-1211900261 | evidence_only | [codestruct-1211900261.md](codestruct-1211900261.md) | [codestruct-1211900261.yaml](codestruct-1211900261.yaml) |
+| contextualunderstanding-contrastivedecoding-795587539 | evidence_only | [contextualunderstanding-contrastivedecoding-795587539.md](contextualunderstanding-contrastivedecoding-795587539.md) | [contextualunderstanding-contrastivedecoding-795587539.yaml](contextualunderstanding-contrastivedecoding-795587539.yaml) |
+| contraclm-663759286 | evidence_only | [contraclm-663759286.md](contraclm-663759286.md) | [contraclm-663759286.yaml](contraclm-663759286.yaml) |
+| crispo-915896697 | evidence_only | [crispo-915896697.md](crispo-915896697.md) | [crispo-915896697.yaml](crispo-915896697.yaml) |
 | csr-bench-951612468 | evidence_only | [csr-bench-951612468.md](csr-bench-951612468.md) | [csr-bench-951612468.yaml](csr-bench-951612468.yaml) |
 | ctf-dojo-1062066165 | evidence_only | [ctf-dojo-1062066165.md](ctf-dojo-1062066165.md) | [ctf-dojo-1062066165.yaml](ctf-dojo-1062066165.yaml) |
+| cyber-zero-1027905255 | evidence_only | [cyber-zero-1027905255.md](cyber-zero-1027905255.md) | [cyber-zero-1027905255.yaml](cyber-zero-1027905255.yaml) |
+| dossier-842732998 | evidence_only | [dossier-842732998.md](dossier-842732998.md) | [dossier-842732998.yaml](dossier-842732998.yaml) |
 | github-291827029 | insufficient_evidence | [github-291827029.md](github-291827029.md) | [github-291827029.yaml](github-291827029.yaml) |

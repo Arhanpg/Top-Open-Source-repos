@@ -1,0 +1,111 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:52:50+00:00'
+evidence_fingerprint: ee5774eeb79295aa95a1059a79d72cc015a748820746609307c45950152a2151
+repository_metadata:
+  company: Microsoft
+  account: microsoft
+  full_name: microsoft/AEC-Challenge
+  repository_id: 292698088
+  url: https://github.com/microsoft/AEC-Challenge
+  description: AEC Challenge
+  default_branch: main
+  license_spdx: MIT
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-10-05T13:15:35Z'
+  stars: 512
+  readme_url: https://github.com/microsoft/AEC-Challenge/blob/main/README.md
+  readme_path: README.md
+  readme_sha: bbd846797b6ef13ad68717a15ea253f2023656de
+  manifest_paths:
+  - baseline/icassp2022/requirements.txt
+  - baseline/interspeech2021/requirements.txt
+  source_files_inspected:
+  - AECMOS/aecmos.py
+  - AECMOS/AECMOS_local/aecmos.py
+  - baseline/icassp2022/enhance.py
+  - baseline/interspeech2021/audio_utils.py
+  repository_tree:
+    status: captured
+    sha: 01a3ef5652577e34bbf5e4387eda0ec85ffc4011
+    truncated: true
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The ICASSP 2023 Acoustic Echo Cancellation Challenge is intended to stimulate research in acoustic echo
+    cancellation (AEC), which is an important area of speech enhancement and is still a top issue in audio communication.
+    This is the fourth AEC challenge and it is enhanced by adding a second track for personalized acoustic echo
+    cancellation, reducing the algorithmic+buffering latency to 20ms, and including a full-band version of AECMOS.
+    We open source two large datasets to train AEC models under both single talk and double talk scenarios. These
+    datasets consist of recordings from more than 10,000 real audio devices and human speakers in real environments,
+    as well as a synthetic dataset. We open source an online subjective test framework and provide an online objective
+    metric service for researchers to quickly test their results. The winners of this challenge were selected based
+    on the av
+  why_used: AEC Challenge
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    frameworks_and_libraries: []
+    dependencies:
+    - librosa
+    - numpy
+    - onnxruntime
+    - soundfile
+    - tqdm
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: AECMOS/aecmos.py,
+    AECMOS/AECMOS_local/aecmos.py, baseline/icassp2022/enhance.py, baseline/interspeech2021/audio_utils.py'
+  setup_and_usage:
+  - 'Usage: 1. Set up Git Large File Storage (LFS) for faster download of the datasets. First, download and install
+    the Git LFS client. Then, set up Git LFS for your user account by running:'
+  - 'Usage: 2. Clone the repository.'
+  - 'Usage: git clone https://github.com/microsoft/AEC-Challenge AEC-Challenge'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/microsoft/AEC-Challenge/blob/main/README.md
+  path: README.md
+  blob_sha: bbd846797b6ef13ad68717a15ea253f2023656de
+  retrieved: true
+- type: manifest
+  path: baseline/icassp2022/requirements.txt
+  blob_sha: 970fcccf4bf23ddd5eb4fe455f63e203dec24803
+  retrieved: true
+- type: manifest
+  path: baseline/interspeech2021/requirements.txt
+  blob_sha: fcbee98d1f99b8850a56fcf46cd275f11923937e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 22043
+- type: Git tree
+  status: captured
+  sha: 01a3ef5652577e34bbf5e4387eda0ec85ffc4011
+  truncated: true
+- type: source_file
+  path: AECMOS/aecmos.py
+  blob_sha: 7423983e6da8515ec81b58a4e905c4b7bcd6fdff
+  retrieved: true
+- type: source_file
+  path: AECMOS/AECMOS_local/aecmos.py
+  blob_sha: 26305f2a1358d981cfd2e1a5a545b23703286bea
+  retrieved: true
+- type: source_file
+  path: baseline/icassp2022/enhance.py
+  blob_sha: 8352b304cbb2cd9eca1c0e02f942f19da0d88833
+  retrieved: true
+- type: source_file
+  path: baseline/interspeech2021/audio_utils.py
+  blob_sha: af2f50f6b05b96f53f0ccfd78c63e2cf405542f7
+  retrieved: true

@@ -1,10 +1,10 @@
 # Technical audits — freertos
 
-Updated: 2026-11-27T22:44:05+00:00
+Updated: 2026-11-28T07:15:21+00:00
 
 ## Status counts
 
-- evidence_only: 23
+- evidence_only: 27
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -35,3 +35,7 @@ Updated: 2026-11-27T22:44:05+00:00
 | github-744757911 | insufficient_evidence | [github-744757911.md](github-744757911.md) | [github-744757911.yaml](github-744757911.yaml) |
 | lab-project-cmsis-packs-demos-504617363 | evidence_only | [lab-project-cmsis-packs-demos-504617363.md](lab-project-cmsis-packs-demos-504617363.md) | [lab-project-cmsis-packs-demos-504617363.yaml](lab-project-cmsis-packs-demos-504617363.yaml) |
 | lab-project-espressif-demos-438439516 | evidence_only | [lab-project-espressif-demos-438439516.md](lab-project-espressif-demos-438439516.md) | [lab-project-espressif-demos-438439516.yaml](lab-project-espressif-demos-438439516.yaml) |
+| lab-project-freertos-cellular-demo-313838657 | evidence_only | [lab-project-freertos-cellular-demo-313838657.md](lab-project-freertos-cellular-demo-313838657.md) | [lab-project-freertos-cellular-demo-313838657.yaml](lab-project-freertos-cellular-demo-313838657.yaml) |
+| lab-project-freertos-fat-222826248 | evidence_only | [lab-project-freertos-fat-222826248.md](lab-project-freertos-fat-222826248.md) | [lab-project-freertos-fat-222826248.yaml](lab-project-freertos-fat-222826248.yaml) |
+| lab-project-freertos-lorawan-294180777 | evidence_only | [lab-project-freertos-lorawan-294180777.md](lab-project-freertos-lorawan-294180777.md) | [lab-project-freertos-lorawan-294180777.yaml](lab-project-freertos-lorawan-294180777.yaml) |
+| lab-project-freertos-mcuboot-438032664 | evidence_only | [lab-project-freertos-mcuboot-438032664.md](lab-project-freertos-mcuboot-438032664.md) | [lab-project-freertos-mcuboot-438032664.yaml](lab-project-freertos-mcuboot-438032664.yaml) |

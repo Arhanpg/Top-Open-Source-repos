@@ -1,0 +1,154 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:53:20+00:00'
+evidence_fingerprint: 07ed6202ed2d8b768fcd5e5437c86e19a247b9d2004a7a872e60be1a44133148
+repository_metadata:
+  company: NVIDIA
+  account: rapidsai
+  full_name: rapidsai/cugunrock
+  repository_id: 238746192
+  url: https://github.com/rapidsai/cugunrock
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2020-10-05T19:55:16Z'
+  stars: 2
+  readme_url: https://github.com/rapidsai/cugunrock/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a0e20c478b6e819fb18107e485c8afb80deb85fe
+  manifest_paths:
+  - CMakeLists.txt
+  - examples/CMakeLists.txt
+  - gunrock/CMakeLists.txt
+  - unittests/CMakeLists.txt
+  - dataset/large/Makefile
+  - docker/ubuntu16.04-cuda10.1/dockerfile
+  source_files_inspected:
+  - dataset/nearest_neighbors/generator.cpp
+  - dataset/small/map/gen_graph.py
+  - doxygen/releasedoc.sh
+  - doxygen/resources/bootstrap.min.js
+  repository_tree:
+    status: captured
+    sha: 107e772ebd0a3bbc8ffef3b42ed624248987433b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '**Gunrock** is a CUDA library for graph-processing designed specifically for the GPU. It uses a **high-level**,
+    **bulk-synchronous**, **data-centric abstraction** focused on operations on vertex or edge frontiers. Gunrock
+    achieves a balance between performance and expressiveness by coupling high-performance GPU computing primitives
+    and optimization strategies, particularly in the area of fine-grained load balancing, with a high-level programming
+    model that allows programmers to quickly develop new graph primitives that scale from one to many GPUs on a
+    node with small code size and minimal GPU programming knowledge. For more details, see Gunrock''s Overview.'
+  why_used: '**Gunrock** is a CUDA library for graph-processing designed specifically for the GPU. It uses a **high-level**,
+    **bulk-synchronous**, **data-centric abstraction** focused on operations on vertex or edge frontiers. Gunrock
+    achieves a balance between performance and expressiveness by coupling high-performance GPU computing primitives
+    and optimization strategies, particularly in the area of fine-grained load balancing, with a high-level programming
+    model that allows programmers to quickly develop new graph primitives that scale from one to many GPUs on a
+    node with small code size and minimal GPU programming knowledge. For more details, see Gunrock''s Overview.'
+  core_features: []
+  technology_stack:
+    languages:
+    - Cuda
+    - C++
+    - Shell
+    - CMake
+    - C
+    - Python
+    - JavaScript
+    - Makefile
+    - CSS
+    - HTML
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    - Docker build configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: dataset/nearest_neighbors/generator.cpp,
+    dataset/small/map/gen_graph.py, doxygen/releasedoc.sh, doxygen/resources/bootstrap.min.js'
+  setup_and_usage:
+  - 'Quick Start Guide: Before building Gunrock make sure you have **CUDA 7.5 or higher** (recommended CUDA 9 or
+    higher) installed on your Linux system. We also support building Gunrock on docker images using the provided
+    docker files under docker subdirectory. For complete build guide, see Building Gunrock.'
+  - 'Quick Start Guide: git clone --recursive https://github.com/gunrock/gunrock/'
+  - 'Quick Start Guide: mkdir build && cd build'
+  - 'Quick Start Guide: cmake .. && make -j$(nproc)'
+  - 'Getting Started with Gunrock: - To learn more about Gunrock and its programming model, see Gunrock''s Overview.'
+  - 'Getting Started with Gunrock: - For information on building Gunrock, see Building Gunrock.'
+  - 'Getting Started with Gunrock: - Tutorial: How to write a graph primitive within Gunrock?'
+  - 'Getting Started with Gunrock: - Comprehensive list of test applications and primitives for most the functionality
+    of Gunrock.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/rapidsai/cugunrock/blob/main/README.md
+  path: README.md
+  blob_sha: a0e20c478b6e819fb18107e485c8afb80deb85fe
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: f1df2605d3368887678fd1ec8cad049fdd3a01af
+  retrieved: true
+- type: manifest
+  path: examples/CMakeLists.txt
+  blob_sha: 63d97c8a3a886d633a415e0d5c72ed0dfb08c3eb
+  retrieved: true
+- type: manifest
+  path: gunrock/CMakeLists.txt
+  blob_sha: 98c158af40939c6a00b83e1fa2c1e713923f0a5c
+  retrieved: true
+- type: manifest
+  path: unittests/CMakeLists.txt
+  blob_sha: 496d33c0507bb3e5cff317efb8f9c0727dd3b66f
+  retrieved: true
+- type: manifest
+  path: dataset/large/Makefile
+  blob_sha: f3cc6a8dd737b1986d451639a4c9a9f6ab8c5cd7
+  retrieved: true
+- type: manifest
+  path: docker/ubuntu16.04-cuda10.1/dockerfile
+  blob_sha: 18de600c84581b4a4ee80dda25c6decf2847c898
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Cuda: 3153157
+    C++: 87937
+    Shell: 76898
+    CMake: 61521
+    C: 18381
+    Python: 11297
+    JavaScript: 11038
+    Makefile: 11027
+    CSS: 7604
+    HTML: 5341
+- type: Git tree
+  status: captured
+  sha: 107e772ebd0a3bbc8ffef3b42ed624248987433b
+  truncated: false
+- type: source_file
+  path: dataset/nearest_neighbors/generator.cpp
+  blob_sha: f62821b54f7bbf9a42eb3c8d7e7cd6c0fc0536b0
+  retrieved: true
+- type: source_file
+  path: dataset/small/map/gen_graph.py
+  blob_sha: 4ee3f989d76ff57f8ddba378ad449dd80795edbc
+  retrieved: true
+- type: source_file
+  path: doxygen/releasedoc.sh
+  blob_sha: 937540ef2dcca3f819ad2a594e6bea2053ae7b2d
+  retrieved: true
+- type: source_file
+  path: doxygen/resources/bootstrap.min.js
+  blob_sha: e0a6ead79e7120367ab4e643325d83d49cdc2dac
+  retrieved: true

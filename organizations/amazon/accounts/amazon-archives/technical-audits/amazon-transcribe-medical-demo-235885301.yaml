@@ -1,0 +1,119 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:49:11+00:00'
+evidence_fingerprint: 7a0af73a669ad47b1f681bad39d3b84181b9ac0221a69c2a1de9c3d4d31b94a3
+repository_metadata:
+  company: Amazon
+  account: amazon-archives
+  full_name: amazon-archives/amazon-transcribe-medical-demo
+  repository_id: 235885301
+  url: https://github.com/amazon-archives/amazon-transcribe-medical-demo
+  description: null
+  default_branch: master
+  license_spdx: MIT-0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2020-09-09T20:30:05Z'
+  stars: 20
+  readme_url: https://github.com/amazon-archives/amazon-transcribe-medical-demo/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 9d3c08a782d8626b2bdfec023cab28d6a68f6067
+  manifest_paths:
+  - package.json
+  source_files_inspected:
+  - src/App.js
+  - src/index.js
+  - src/App.test.js
+  - src/aws-credential.js
+  repository_tree:
+    status: captured
+    sha: 05de5f60c065b4fa1abe49d582a555fd3cb3e3c4
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: First add your AWS credential in src/aws-credential.js
+  why_used: First add your AWS credential in src/aws-credential.js
+  core_features: []
+  technology_stack:
+    languages:
+    - JavaScript
+    - HTML
+    - CSS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@aws-sdk/eventstream-marshaller'
+    - '@aws-sdk/util-utf8-node'
+    - aws-sdk
+    - bootstrap
+    - file-url
+    - inline-worker
+    - jquery
+    - lodash
+    - microphone-stream
+    - react
+    - react-bootstrap
+    - react-burger-menu
+    - react-dom
+    - react-ionicons
+    - react-player
+    - react-router
+    - react-router-bootstrap
+    - react-router-dom
+    - react-scripts
+    - react-wavesurfer
+    - request
+    - request-promise-native
+    - semantic-ui-css
+    - semantic-ui-react
+    - uuid
+    - wavesurfer.js
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/App.js, src/index.js,
+    src/App.test.js, src/aws-credential.js'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/amazon-archives/amazon-transcribe-medical-demo/blob/master/README.md
+  path: README.md
+  blob_sha: 9d3c08a782d8626b2bdfec023cab28d6a68f6067
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 88ed9e7f48fd84218663c272fef6f11922526528
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    JavaScript: 166618
+    HTML: 1597
+    CSS: 1081
+- type: Git tree
+  status: captured
+  sha: 05de5f60c065b4fa1abe49d582a555fd3cb3e3c4
+  truncated: false
+- type: source_file
+  path: src/App.js
+  blob_sha: 19b03243bd40576702698fe45fff89ff24d569cf
+  retrieved: true
+- type: source_file
+  path: src/index.js
+  blob_sha: f2338b1ed263ef78292ebe62b588ff45703b97c2
+  retrieved: true
+- type: source_file
+  path: src/App.test.js
+  blob_sha: a05934e312a5c55367a45e4c6d9a5feaa4b2acb9
+  retrieved: true
+- type: source_file
+  path: src/aws-credential.js
+  blob_sha: 4a8fad27bae8879006b9d50a50eed29017b31cec
+  retrieved: true

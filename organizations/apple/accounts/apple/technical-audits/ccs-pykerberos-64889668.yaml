@@ -1,0 +1,94 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:10:15+00:00'
+evidence_fingerprint: 4148d7eac727693a85ec506984484250bb8d175070b1cf9e2ca0c758afbfd379
+repository_metadata:
+  company: Apple
+  account: apple
+  full_name: apple/ccs-pykerberos
+  repository_id: 64889668
+  url: https://github.com/apple/ccs-pykerberos
+  description: Python Kerberos library used by CalendarServer
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2024-02-24T17:22:56Z'
+  stars: 119
+  readme_url: https://github.com/apple/ccs-pykerberos/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 9a0dfa7f78a4f17d04e3d1bfe54a02e6c2ff48b0
+  manifest_paths:
+  - setup.py
+  source_files_inspected:
+  - support/main.c
+  - src/base64.c
+  - src/base64.h
+  - src/kerberos.c
+  repository_tree:
+    status: captured
+    sha: a045c72cef0469a9762fe7a05d86786a9844497a
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The developers of the Calendar and Contacts Server and its related projects have each moved on to other
+    things. The time has come to officially archive the project. Thank you to all the users and contributors. Feel
+    free to fork this project if you wish to continue to maintain it.
+  why_used: Python Kerberos library used by CalendarServer
+  core_features: []
+  technology_stack:
+    languages:
+    - C
+    - Python
+    - Shell
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: support/main.c, src/base64.c,
+    src/base64.h, src/kerberos.c'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/apple/ccs-pykerberos/blob/master/README.md
+  path: README.md
+  blob_sha: 9a0dfa7f78a4f17d04e3d1bfe54a02e6c2ff48b0
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 8bc0c4f6a0552ff1635874127120327722547b2b
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C: 72509
+    Python: 27643
+    Shell: 7061
+- type: Git tree
+  status: captured
+  sha: a045c72cef0469a9762fe7a05d86786a9844497a
+  truncated: false
+- type: source_file
+  path: support/main.c
+  blob_sha: f6546fc3c71147ab9e7715254654e20520425fbc
+  retrieved: true
+- type: source_file
+  path: src/base64.c
+  blob_sha: 4496f92e24f2542b599124ca6d007ccda3c244fb
+  retrieved: true
+- type: source_file
+  path: src/base64.h
+  blob_sha: 4ddff3e3339977f4e1f8d00aa311099376baea9a
+  retrieved: true
+- type: source_file
+  path: src/kerberos.c
+  blob_sha: 1e889dfd537d4344f08f19e553a18caa15d1c06d
+  retrieved: true

@@ -1,0 +1,217 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:03:52+00:00'
+evidence_fingerprint: cd1fa2d3cf7af442c95fb759190e83042c40cd20e1ec056c6add6d7021b85679
+repository_metadata:
+  company: Amazon
+  account: awslabs
+  full_name: awslabs/Legacy-Code-Migration-Pipeline
+  repository_id: 1077726533
+  url: https://github.com/awslabs/Legacy-Code-Migration-Pipeline
+  description: gen ai asisted code migration for legacy systems
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-05-27T08:05:19Z'
+  stars: 2
+  readme_url: https://github.com/awslabs/Legacy-Code-Migration-Pipeline/blob/main/README.md
+  readme_path: README.md
+  readme_sha: a83e2edc51cd49101496faaac8d4b37e215a3de4
+  manifest_paths:
+  - requirements.txt
+  - structure/web-dashboard/requirements.txt
+  - structure/tools/framework-tools/requirements.txt
+  - structure/tools/framework-tools/setup.py
+  - structure/tools/framework-tools/tools/database_analyzer/requirements.txt
+  - structure/tools/framework-tools/tools/legacy_analyzer/requirements.txt
+  source_files_inspected:
+  - structure/tools/framework-tools/tools/database_analyzer/__main__.py
+  - structure/tools/framework-tools/tools/database_analyzer/cli.py
+  - structure/tools/framework-tools/tools/legacy_analyzer/__main__.py
+  - structure/tools/framework-tools/tools/legacy_analyzer/cli.py
+  repository_tree:
+    status: captured
+    sha: 4246d491031401f4249077b708d90b85ac0f9d2b
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: A comprehensive multi-agent framework for migrating legacy code using a **3-layer orchestration architecture**.
+    This framework provides a standardized approach to analyze, plan, and execute legacy code migrations with AI-powered
+    automation through hierarchical agent coordination.
+  why_used: gen ai asisted code migration for legacy systems
+  core_features:
+  - name: '**Standardized Project Structure**: Automated project setup with consistent folder organization'
+    description: '**Standardized Project Structure**: Automated project setup with consistent folder organization'
+    evidence:
+    - README.md#Migration Capabilities
+  - name: '**AI-Powered Analysis**: Intelligent source code and database analysis'
+    description: '**AI-Powered Analysis**: Intelligent source code and database analysis'
+    evidence:
+    - README.md#Migration Capabilities
+  - name: '**Workpackage Management**: Structured approach to breaking down migration tasks'
+    description: '**Workpackage Management**: Structured approach to breaking down migration tasks'
+    evidence:
+    - README.md#Migration Capabilities
+  - name: '**Template-Driven Workflows**: Pre-built templates for reports, tracking, and documentation'
+    description: '**Template-Driven Workflows**: Pre-built templates for reports, tracking, and documentation'
+    evidence:
+    - README.md#Migration Capabilities
+  - name: '**Validation Framework**: Built-in deliverable validation and quality assurance'
+    description: '**Validation Framework**: Built-in deliverable validation and quality assurance'
+    evidence:
+    - README.md#Migration Capabilities
+  - name: '**Configuration Management**: Flexible path configuration system'
+    description: '**Configuration Management**: Flexible path configuration system'
+    evidence:
+    - README.md#Migration Capabilities
+  - name: Installs required dependencies (tmux 3.3+, uv, CAO)
+    description: Installs required dependencies (tmux 3.3+, uv, CAO)
+    evidence:
+    - README.md#CAO Installation Features
+  - name: Validates system prerequisites
+    description: Validates system prerequisites
+    evidence:
+    - README.md#CAO Installation Features
+  - name: Sets up CAO for use across all projects
+    description: Sets up CAO for use across all projects
+    evidence:
+    - README.md#CAO Installation Features
+  - name: Discovers and installs all 28 agents from the project's agents directory
+    description: Discovers and installs all 28 agents from the project's agents directory
+    evidence:
+    - README.md#CAO Installation Features
+  - name: Supports provider selection (Kiro CLI default, Amazon Q CLI, Claude Code)
+    description: Supports provider selection (Kiro CLI default, Amazon Q CLI, Claude Code)
+    evidence:
+    - README.md#CAO Installation Features
+  - name: Can be run at any time to install or update agents
+    description: Can be run at any time to install or update agents
+    evidence:
+    - README.md#CAO Installation Features
+  - name: Provides organized agent listing with team structure visibility
+    description: Provides organized agent listing with team structure visibility
+    evidence:
+    - README.md#CAO Installation Features
+  - name: Supports multiple agent installation sources (built-in, local files, URLs)
+    description: Supports multiple agent installation sources (built-in, local files, URLs)
+    evidence:
+    - README.md#CAO Installation Features
+  - name: Shows command preview before execution for transparency
+    description: Shows command preview before execution for transparency
+    evidence:
+    - README.md#CAO Installation Features
+  technology_stack:
+    languages:
+    - Python
+    - JavaScript
+    - CSS
+    - HTML
+    - Shell
+    - REXX
+    - JCL
+    frameworks_and_libraries: []
+    dependencies:
+    - Flask
+    - PyYAML
+    - Werkzeug
+    - beautifulsoup4
+    - black
+    - flake8
+    - html2text
+    - hypothesis
+    - lxml
+    - markdownify
+    - mypy
+    - pytest
+    - pytest-cov
+    - pytest-mock
+    - pyyaml
+    - requests
+    - responses
+    - setuptools
+    - wheel
+    build_and_package_tools:
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: structure/tools/framework-tools/tools/database_analyzer/__main__.py,
+    structure/tools/framework-tools/tools/database_analyzer/cli.py, structure/tools/framework-tools/tools/legacy_analyzer/__main__.py,
+    structure/tools/framework-tools/tools/legacy_analyzer/cli.py'
+  setup_and_usage:
+  - 'One-Command Installation: For the fastest setup, use the all-in-one installation script:'
+  - 'One-Command Installation: ./install_all.sh my_migration_project'
+  - 'One-Command Installation: This single command will:'
+  - 'One-Command Installation: 1. Install CAO and its dependencies'
+  - 'One-Command Installation: 2. Create your project structure'
+  - 'One-Command Installation: 3. Install all 28 agents'
+  - 'Manual Step-by-Step Installation: If you prefer more control, follow these steps:'
+  - 'CAO Installation Features: The installation process is now separated into two parts:'
+  limitations:
+  - 'Security: See CONTRIBUTING for more information.'
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/awslabs/Legacy-Code-Migration-Pipeline/blob/main/README.md
+  path: README.md
+  blob_sha: a83e2edc51cd49101496faaac8d4b37e215a3de4
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: e13d7236a80d04db386a2b0e9267dd996e76ef47
+  retrieved: true
+- type: manifest
+  path: structure/web-dashboard/requirements.txt
+  blob_sha: 5b99b5ac09fd8d45f2070fb369fc76dda69f6d4c
+  retrieved: true
+- type: manifest
+  path: structure/tools/framework-tools/requirements.txt
+  blob_sha: 8f4c02a259dbbbe532a72a18effe74da73f31a7a
+  retrieved: true
+- type: manifest
+  path: structure/tools/framework-tools/setup.py
+  blob_sha: 31480aeccc98ed69190367718f16e11e8cd293d2
+  retrieved: true
+- type: manifest
+  path: structure/tools/framework-tools/tools/database_analyzer/requirements.txt
+  blob_sha: 29de35e5673dd0398a04467e047ca0973555797d
+  retrieved: true
+- type: manifest
+  path: structure/tools/framework-tools/tools/legacy_analyzer/requirements.txt
+  blob_sha: 70e26be3b24dc9a9962c894360cbf9c1a352a479
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 2975423
+    JavaScript: 261555
+    CSS: 133285
+    HTML: 120469
+    Shell: 58229
+    REXX: 13215
+    JCL: 12376
+- type: Git tree
+  status: captured
+  sha: 4246d491031401f4249077b708d90b85ac0f9d2b
+  truncated: false
+- type: source_file
+  path: structure/tools/framework-tools/tools/database_analyzer/__main__.py
+  blob_sha: ca41217af6e425801c96b3380959bb8e49028819
+  retrieved: true
+- type: source_file
+  path: structure/tools/framework-tools/tools/database_analyzer/cli.py
+  blob_sha: e2ea4da567b4de527e30d5bc5fa9ed3ee6a5283a
+  retrieved: true
+- type: source_file
+  path: structure/tools/framework-tools/tools/legacy_analyzer/__main__.py
+  blob_sha: fe702c05cb869df73552b6cf900a8277049e035e
+  retrieved: true
+- type: source_file
+  path: structure/tools/framework-tools/tools/legacy_analyzer/cli.py
+  blob_sha: a91917f6d60cef99f9d76d08be9612727637f02b
+  retrieved: true

@@ -1,0 +1,121 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:50:17+00:00'
+evidence_fingerprint: 65dd23d045fa21e9c6e8da3ff91c72a7af8d2c7ec8b573e7aa9f60eb4064537a
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/deepsim
+  repository_id: 453191125
+  url: https://github.com/aws-deepracer/deepsim
+  description: An open-source reinforcement learning environment build toolkit for ROS and Gazebo.
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-07-22T16:55:06Z'
+  stars: 21
+  readme_url: https://github.com/aws-deepracer/deepsim/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f7cf93cd8e559ecb8beb195693e00688424f5b3e
+  manifest_paths:
+  - deepsim/CMakeLists.txt
+  - deepsim/setup.py
+  - deepsim_btree/CMakeLists.txt
+  - deepsim_btree/setup.py
+  - deepsim_envs/CMakeLists.txt
+  - deepsim_envs/setup.py
+  source_files_inspected:
+  - deepsim/deepsim/core/__init__.py
+  - deepsim/deepsim/core/color.py
+  - deepsim/deepsim/core/euler.py
+  - deepsim/deepsim/core/frustum.py
+  repository_tree:
+    status: captured
+    sha: c53f9adedc64eddac4361a8c4db59e8ec24f23b9
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: DeepSim Toolkit is an open-source reinforcement learning environment build toolkit for ROS and Gazebo.
+    It provides the building blocks of extensive advanced features such as collision detection, behavior controls,
+    domain randomization, spawner, and many more to build complex and challenging custom reinforcement learning
+    environment in ROS and Gazebo simulation environment with Python language.
+  why_used: An open-source reinforcement learning environment build toolkit for ROS and Gazebo.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - C++
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: deepsim/deepsim/core/__init__.py,
+    deepsim/deepsim/core/color.py, deepsim/deepsim/core/euler.py, deepsim/deepsim/core/frustum.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/deepsim/blob/main/README.md
+  path: README.md
+  blob_sha: f7cf93cd8e559ecb8beb195693e00688424f5b3e
+  retrieved: true
+- type: manifest
+  path: deepsim/CMakeLists.txt
+  blob_sha: 23cdacc8c44065b0dd577b22efc0806726ed6709
+  retrieved: true
+- type: manifest
+  path: deepsim/setup.py
+  blob_sha: bb0d223438803b31b6c58c03e5ade91386b5c563
+  retrieved: true
+- type: manifest
+  path: deepsim_btree/CMakeLists.txt
+  blob_sha: b8459c82e33cbe4a60976f29315451ffee57675c
+  retrieved: true
+- type: manifest
+  path: deepsim_btree/setup.py
+  blob_sha: c755ae3540096abcd37b7d3cbaf86c0e5d617362
+  retrieved: true
+- type: manifest
+  path: deepsim_envs/CMakeLists.txt
+  blob_sha: bd37b9705d7bc27c7234c9091c2fc77cf27870b6
+  retrieved: true
+- type: manifest
+  path: deepsim_envs/setup.py
+  blob_sha: 17105d97da0531ca1f0eb4c30ebdd09d5fa8b755
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 1212269
+    C++: 129191
+    CMake: 4397
+- type: Git tree
+  status: captured
+  sha: c53f9adedc64eddac4361a8c4db59e8ec24f23b9
+  truncated: false
+- type: source_file
+  path: deepsim/deepsim/core/__init__.py
+  blob_sha: 83a73bbc05b4236628deb8041723bd42d99b58ca
+  retrieved: true
+- type: source_file
+  path: deepsim/deepsim/core/color.py
+  blob_sha: 527fac2ac9f5d51bbdb37be518693f5746ea6168
+  retrieved: true
+- type: source_file
+  path: deepsim/deepsim/core/euler.py
+  blob_sha: 3158ae1ec9773dc539ea040133f4207d24761c86
+  retrieved: true
+- type: source_file
+  path: deepsim/deepsim/core/frustum.py
+  blob_sha: e37afc4c7d12235e8419c3dc5d22802c0e339311
+  retrieved: true

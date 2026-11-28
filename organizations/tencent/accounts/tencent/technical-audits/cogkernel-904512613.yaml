@@ -1,0 +1,229 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:07:20+00:00'
+evidence_fingerprint: 70cc3d94b87f0ce462d8e5e5c310823c6a8744da30a3d34d44427489e9d447c7
+repository_metadata:
+  company: Tencent
+  account: Tencent
+  full_name: Tencent/CogKernel
+  repository_id: 904512613
+  url: https://github.com/Tencent/CogKernel
+  description: null
+  default_branch: main
+  license_spdx: NOASSERTION
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-02-21T17:16:51Z'
+  stars: 35
+  readme_url: https://github.com/Tencent/CogKernel/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 5977a4a06269b4aaa17113e5a7035306119dc171
+  manifest_paths:
+  - backend/Dockerfile
+  - backend/requirements.txt
+  - frontend/Dockerfile
+  - frontend/package.json
+  - web/Dockerfile
+  - web/package.json
+  source_files_inspected:
+  - backend/main.py
+  - web/server.js
+  - frontend/src/App.tsx
+  - frontend/src/components/FileUploader.tsx
+  repository_tree:
+    status: captured
+    sha: 111a6a688979b56d71911eb5061a9fb124370d6d
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: An Early-stage “Autopilot” System for Everyone
+  why_used: An Early-stage “Autopilot” System for Everyone
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - TypeScript
+    - JavaScript
+    - Dockerfile
+    - HTML
+    - CSS
+    frameworks_and_libraries: []
+    dependencies:
+    - '@types/react'
+    - '@types/react-dom'
+    - '@types/uuid'
+    - '@vitejs/plugin-react'
+    - Jinja2
+    - MarkupSafe
+    - PyMuPDF
+    - PyMuPDFb
+    - PyPDF2
+    - PyYAML
+    - Pygments
+    - SQLAlchemy
+    - aiohttp
+    - aioprocessing
+    - aiosignal
+    - annotated-types
+    - antd
+    - antd-img-crop
+    - anyio
+    - async-timeout
+    - attrs
+    - axios
+    - bcrypt
+    - bs4
+    - certifi
+    - cffi
+    - charset-normalizer
+    - click
+    - cryptography
+    - distro
+    - dnspython
+    - docx2txt
+    - ecdsa
+    - email_validator
+    - exceptiongroup
+    - express
+    - faiss-cpu
+    - fastapi
+    - fastapi-cli
+    - frozenlist
+    - greenlet
+    - h11
+    - html2canvas
+    - httpcore
+    - httptools
+    - httpx
+    - idna
+    - joblib
+    - lxml
+    - markdown-it-py
+    - mdurl
+    - moment
+    - multidict
+    - nest-asyncio
+    - nltk
+    - numpy
+    - openai
+    - orjson
+    - passlib
+    - pdfminer.six
+    - pillow
+    - pip
+    - playwright
+    - psycopg2-binary
+    - pyasn1
+    - pycparser
+    - pydantic
+    - pydantic_core
+    - python-dateutil
+    - python-docx
+    - python-dotenv
+    - python-jose
+    - python-multipart
+    - react
+    - react-code-blocks
+    - react-dom
+    - react-pro-sidebar
+    - recharts
+    - regex
+    - requests
+    - rich
+    - rsa
+    - sanic
+    - sass
+    - setuptools
+    - shellingham
+    - six
+    - sniffio
+    - starlette
+    - tqdm
+    - typer
+    - typescript
+    - typing_extensions
+    - ujson
+    - urllib3
+    - uuid
+    - uvicorn
+    - uvloop
+    - vite
+    - watchfiles
+    - websockets
+    - wheel
+    - yarl
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: backend/main.py, web/server.js,
+    frontend/src/App.tsx, frontend/src/components/FileUploader.tsx'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/Tencent/CogKernel/blob/main/README.md
+  path: README.md
+  blob_sha: 5977a4a06269b4aaa17113e5a7035306119dc171
+  retrieved: true
+- type: manifest
+  path: backend/Dockerfile
+  blob_sha: 6dcb5d93a0173d051c6c7c77e8a4b1d3b43fdbed
+  retrieved: true
+- type: manifest
+  path: backend/requirements.txt
+  blob_sha: d6b86490afff8ebdb87cdf993df6402a6855aa9f
+  retrieved: true
+- type: manifest
+  path: frontend/Dockerfile
+  blob_sha: 792e8fc2837b749c6ab9f6a954a4a2b55b895839
+  retrieved: true
+- type: manifest
+  path: frontend/package.json
+  blob_sha: 6b11f5bba66d5bdb90482270d2814885c5aa17ac
+  retrieved: true
+- type: manifest
+  path: web/Dockerfile
+  blob_sha: f7648e6e2185e97c3a145aad5170ac94ed3f1b40
+  retrieved: true
+- type: manifest
+  path: web/package.json
+  blob_sha: 86a6b28c5e101303f85522ec6e425be6f1f0bf32
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 243098
+    TypeScript: 88469
+    JavaScript: 31299
+    Dockerfile: 1542
+    HTML: 380
+    CSS: 120
+- type: Git tree
+  status: captured
+  sha: 111a6a688979b56d71911eb5061a9fb124370d6d
+  truncated: false
+- type: source_file
+  path: backend/main.py
+  blob_sha: 1ff554c60c1bd72a565a2cd4a7cc134bec821199
+  retrieved: true
+- type: source_file
+  path: web/server.js
+  blob_sha: 42e1f911e7b2d74be66c8df54f31fd9100484927
+  retrieved: true
+- type: source_file
+  path: frontend/src/App.tsx
+  blob_sha: 8f85c7e222803ee662df9a645fb6e40e4f7cfb83
+  retrieved: true
+- type: source_file
+  path: frontend/src/components/FileUploader.tsx
+  blob_sha: d972b64741c6c9f3976593627e890de7b00f370d
+  retrieved: true

@@ -1,0 +1,183 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:55:29+00:00'
+evidence_fingerprint: 2a653e14d22cd7cc01415d7ff7eaaa070d10d2212c500c4ced0d0e7c919d635a
+repository_metadata:
+  company: Alphabet (Google)
+  account: GoogleCloudPlatform
+  full_name: GoogleCloudPlatform/PerfKitBenchmarker
+  repository_id: 21950910
+  url: https://github.com/GoogleCloudPlatform/PerfKitBenchmarker
+  description: PerfKit Benchmarker (PKB) contains a set of benchmarks to measure and compare cloud offerings. The
+    benchmarks use default settings to reflect what most users will see. PerfKit Benchmarker is licensed under the
+    Apache 2 license terms. Please make sure to read, understand and agree to the terms of the LICENSE and CONTRIBUTING
+    files before proceeding.
+  default_branch: master
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T19:09:40Z'
+  stars: 2018
+  readme_url: https://github.com/GoogleCloudPlatform/PerfKitBenchmarker/blob/master/README.md
+  readme_path: README.md
+  readme_sha: 1dee4f1cc48ca94634b03673481878a95d11c6b9
+  manifest_paths:
+  - Dockerfile
+  - requirements.txt
+  - setup.py
+  - tools/docker_images/Dockerfile
+  - perfkitbenchmarker/data/llm_eval/requirements.txt
+  - perfkitbenchmarker/providers/alicloud/requirements.txt
+  source_files_inspected:
+  - perfkitbenchmarker/data/docker/agentic/adk-agent/main.py
+  - perfkitbenchmarker/data/llm_eval/main.py
+  - perfkitbenchmarker/scripts/messaging_service_scripts/common/app.py
+  - hooks/lib/check-boilerplate.sh
+  repository_tree:
+    status: captured
+    sha: 3f0829dd4944389d5066190533cef98f342aca7f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: PerfKit Benchmarker is an open effort to define a canonical set of benchmarks to measure and compare
+    cloud offerings. It's designed to operate via vendor provided command line tools. The benchmark default settings
+    are not tuned for any particular platform or instance type. These settings are recommended for consistency across
+    services. Only in the rare case where there is a common practice like setting the buffer pool size of a database
+    do we change any settings.
+  why_used: PerfKit Benchmarker (PKB) contains a set of benchmarks to measure and compare cloud offerings. The benchmarks
+    use default settings to reflect what most users will see. PerfKit Benchmarker is licensed under the Apache 2
+    license terms. Please make sure to read, understand and agree to the terms of the LICENSE and CONTRIBUTING files
+    before proceeding.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Jinja
+    - HTML
+    - Shell
+    - Lua
+    - PowerShell
+    - Dockerfile
+    - Tcl
+    - HCL
+    - R
+    - BitBake
+    - TSQL
+    frameworks_and_libraries: []
+    dependencies:
+    - PyYAML
+    - absl-py
+    - anthropic
+    - beautifulsoup4
+    - blinker
+    - colorlog
+    - google-api-core
+    - google-cloud-core
+    - google-cloud-monitoring
+    - google-genai
+    - immutabledict
+    - jinja2
+    - numpy
+    - openai
+    - packaging
+    - pandas
+    - pint
+    - python-dotenv
+    - pytz
+    - pywinrm
+    - requests
+    - rsa
+    - scipy
+    - seaborn
+    - setuptools
+    - six
+    - timeout-decorator
+    build_and_package_tools:
+    - Docker build configuration
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: perfkitbenchmarker/data/docker/agentic/adk-agent/main.py,
+    perfkitbenchmarker/data/llm_eval/main.py, perfkitbenchmarker/scripts/messaging_service_scripts/common/app.py,
+    hooks/lib/check-boilerplate.sh'
+  setup_and_usage:
+  - 'Getting Started: To quickly get started running PKB, follow one of our tutorials:'
+  - 'Getting Started: - Beginner tutorial for an in-depth but'
+  - 'Getting Started: beginner friendly look at PKB''s architectures, flags, and even data'
+  - 'Getting Started: visualization, using GCP''s Cloud Shell & netperf benchmarks.'
+  - 'Getting Started: - Docker tutorial to run PKB in just a few'
+  - 'Getting Started: steps, using GCP & docker.'
+  - 'Getting Started: - Continue reading below for installation & setup on all Clouds + discussion'
+  - 'Getting Started: of many topics like flags, configurations, preprovisioned data, & how to'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/GoogleCloudPlatform/PerfKitBenchmarker/blob/master/README.md
+  path: README.md
+  blob_sha: 1dee4f1cc48ca94634b03673481878a95d11c6b9
+  retrieved: true
+- type: manifest
+  path: Dockerfile
+  blob_sha: f19887082c03c9b67ca14ba05e8cf808bf08660b
+  retrieved: true
+- type: manifest
+  path: requirements.txt
+  blob_sha: 755f82737cd01d3a9f98d9d7bbcce5452d3a8654
+  retrieved: true
+- type: manifest
+  path: setup.py
+  blob_sha: 41a522a6c703113312d2a20b39c5568b9cb10d2b
+  retrieved: true
+- type: manifest
+  path: tools/docker_images/Dockerfile
+  blob_sha: 60054887bec16811b88bd6e749e022bc1667af53
+  retrieved: true
+- type: manifest
+  path: perfkitbenchmarker/data/llm_eval/requirements.txt
+  blob_sha: c8545b54f83469f6ee6efb19baee94d887acc121
+  retrieved: true
+- type: manifest
+  path: perfkitbenchmarker/providers/alicloud/requirements.txt
+  blob_sha: be9b05e8d6c5122daf26a89670ee8051f2f6ed5a
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 11243129
+    Jinja: 257078
+    HTML: 113073
+    Shell: 90809
+    Lua: 82596
+    PowerShell: 31288
+    Dockerfile: 23256
+    Tcl: 17048
+    HCL: 2149
+    R: 1017
+    BitBake: 836
+    TSQL: 606
+- type: Git tree
+  status: captured
+  sha: 3f0829dd4944389d5066190533cef98f342aca7f
+  truncated: false
+- type: source_file
+  path: perfkitbenchmarker/data/docker/agentic/adk-agent/main.py
+  blob_sha: 272ed8b5aef38a1cdf3fbc0e956f3d69eb3c6e7b
+  retrieved: true
+- type: source_file
+  path: perfkitbenchmarker/data/llm_eval/main.py
+  blob_sha: af7f794b0435b3c214d3c115eb7ba2bf3274025d
+  retrieved: true
+- type: source_file
+  path: perfkitbenchmarker/scripts/messaging_service_scripts/common/app.py
+  blob_sha: e716bbc858e30aa22939440ba9dd16c59e174862
+  retrieved: true
+- type: source_file
+  path: hooks/lib/check-boilerplate.sh
+  blob_sha: 2043820787b4c224b67375f97cbe1fb65cf6dc1b
+  retrieved: true

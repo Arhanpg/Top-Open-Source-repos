@@ -1,0 +1,101 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:02:48+00:00'
+evidence_fingerprint: 78260e93c11db2465067632555d5948914aa0dfdbe20f120b16fde640406ee25
+repository_metadata:
+  company: Amazon
+  account: aws-deepracer
+  full_name: aws-deepracer/ros-video-recorder
+  repository_id: 501442568
+  url: https://github.com/aws-deepracer/ros-video-recorder
+  description: ROS1 Video Recorder to save MP4 files from camera topic and upload to s3 bucket
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2022-07-22T19:27:18Z'
+  stars: 2
+  readme_url: https://github.com/aws-deepracer/ros-video-recorder/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 176695433e434b5309bf2cbc2fceca57299bb576
+  manifest_paths:
+  - video_recorder/CMakeLists.txt
+  - video_recorder/setup.py
+  - video_recorder_msgs/CMakeLists.txt
+  source_files_inspected:
+  - video_recorder/pytest_runner.py
+  - video_recorder/setup.py
+  - video_recorder/video_recorder/__init__.py
+  - video_recorder/video_recorder/constants.py
+  repository_tree:
+    status: captured
+    sha: c6519a887aa5d615f8fdee7f248cba1287386af3
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: Generic ROS1 Video Recorder to save MP4 files and upload to s3 bucket
+  why_used: ROS1 Video Recorder to save MP4 files from camera topic and upload to s3 bucket
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - CMake
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: video_recorder/pytest_runner.py,
+    video_recorder/setup.py, video_recorder/video_recorder/__init__.py, video_recorder/video_recorder/constants.py'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/aws-deepracer/ros-video-recorder/blob/main/README.md
+  path: README.md
+  blob_sha: 176695433e434b5309bf2cbc2fceca57299bb576
+  retrieved: true
+- type: manifest
+  path: video_recorder/CMakeLists.txt
+  blob_sha: af8e1c6f25bc5b9754b9d976d5521a1550137d71
+  retrieved: true
+- type: manifest
+  path: video_recorder/setup.py
+  blob_sha: c03577cfc55e9271179d7a0f298fd4e4d10e9d3f
+  retrieved: true
+- type: manifest
+  path: video_recorder_msgs/CMakeLists.txt
+  blob_sha: 6eb8fa2097d9fe87968a3b4e7ce32151fb7f0ad1
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 130745
+    CMake: 912
+- type: Git tree
+  status: captured
+  sha: c6519a887aa5d615f8fdee7f248cba1287386af3
+  truncated: false
+- type: source_file
+  path: video_recorder/pytest_runner.py
+  blob_sha: c40ee88d2df2bb77a8088baf0cb0bc0e4e20a605
+  retrieved: true
+- type: source_file
+  path: video_recorder/setup.py
+  blob_sha: c03577cfc55e9271179d7a0f298fd4e4d10e9d3f
+  retrieved: true
+- type: source_file
+  path: video_recorder/video_recorder/__init__.py
+  blob_sha: 83a73bbc05b4236628deb8041723bd42d99b58ca
+  retrieved: true
+- type: source_file
+  path: video_recorder/video_recorder/constants.py
+  blob_sha: 697f58ac03d423b2f792a6b3f7e6af7c27f0eb1a
+  retrieved: true

@@ -1,10 +1,10 @@
 # Technical audits — rapidsai
 
-Updated: 2026-11-27T22:44:08+00:00
+Updated: 2026-11-28T07:15:20+00:00
 
 ## Status counts
 
-- evidence_only: 23
+- evidence_only: 27
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -33,5 +33,9 @@ Updated: 2026-11-27T22:44:08+00:00
 | cugraph-docs-803335366 | evidence_only | [cugraph-docs-803335366.md](cugraph-docs-803335366.md) | [cugraph-docs-803335366.yaml](cugraph-docs-803335366.yaml) |
 | cugraph-gnn-528468843 | evidence_only | [cugraph-gnn-528468843.md](cugraph-gnn-528468843.md) | [cugraph-gnn-528468843.yaml](cugraph-gnn-528468843.yaml) |
 | cugraph-pg-498392465 | evidence_only | [cugraph-pg-498392465.md](cugraph-pg-498392465.md) | [cugraph-pg-498392465.yaml](cugraph-pg-498392465.yaml) |
+| cugunrock-238746192 | evidence_only | [cugunrock-238746192.md](cugunrock-238746192.md) | [cugunrock-238746192.yaml](cugunrock-238746192.yaml) |
+| cuhornet-193782992 | evidence_only | [cuhornet-193782992.md](cuhornet-193782992.md) | [cuhornet-193782992.yaml](cuhornet-193782992.yaml) |
+| cumlprims-mg-1041037921 | evidence_only | [cumlprims-mg-1041037921.md](cumlprims-mg-1041037921.md) | [cumlprims-mg-1041037921.yaml](cumlprims-mg-1041037921.yaml) |
+| cupy-392724414 | evidence_only | [cupy-392724414.md](cupy-392724414.md) | [cupy-392724414.yaml](cupy-392724414.yaml) |
 | gaas-483302477 | evidence_only | [gaas-483302477.md](gaas-483302477.md) | [gaas-483302477.yaml](gaas-483302477.yaml) |
 | github-506698882 | insufficient_evidence | [github-506698882.md](github-506698882.md) | [github-506698882.yaml](github-506698882.yaml) |

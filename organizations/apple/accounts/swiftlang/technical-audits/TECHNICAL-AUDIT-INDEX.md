@@ -1,10 +1,10 @@
 # Technical audits — swiftlang
 
-Updated: 2026-11-27T22:44:02+00:00
+Updated: 2026-11-28T07:15:17+00:00
 
 ## Status counts
 
-- evidence_only: 24
+- evidence_only: 28
 
 ## Repository dossiers
 
@@ -34,3 +34,7 @@ Updated: 2026-11-27T22:44:02+00:00
 | swift-cmark-47902653 | evidence_only | [swift-cmark-47902653.md](swift-cmark-47902653.md) | [swift-cmark-47902653.yaml](swift-cmark-47902653.yaml) |
 | swift-community-hosted-continuous-integration-111026478 | evidence_only | [swift-community-hosted-continuous-integration-111026478.md](swift-community-hosted-continuous-integration-111026478.md) | [swift-community-hosted-continuous-integration-111026478.yaml](swift-community-hosted-continuous-integration-111026478.yaml) |
 | swift-corelibs-blocksruntime-1041197806 | evidence_only | [swift-corelibs-blocksruntime-1041197806.md](swift-corelibs-blocksruntime-1041197806.md) | [swift-corelibs-blocksruntime-1041197806.yaml](swift-corelibs-blocksruntime-1041197806.yaml) |
+| swift-corelibs-foundation-45863890 | evidence_only | [swift-corelibs-foundation-45863890.md](swift-corelibs-foundation-45863890.md) | [swift-corelibs-foundation-45863890.yaml](swift-corelibs-foundation-45863890.yaml) |
+| swift-corelibs-libdispatch-45863965 | evidence_only | [swift-corelibs-libdispatch-45863965.md](swift-corelibs-libdispatch-45863965.md) | [swift-corelibs-libdispatch-45863965.yaml](swift-corelibs-libdispatch-45863965.yaml) |
+| swift-corelibs-xctest-45864027 | evidence_only | [swift-corelibs-xctest-45864027.md](swift-corelibs-xctest-45864027.md) | [swift-corelibs-xctest-45864027.yaml](swift-corelibs-xctest-45864027.yaml) |
+| swift-crashlog-processing-1279354226 | evidence_only | [swift-crashlog-processing-1279354226.md](swift-crashlog-processing-1279354226.md) | [swift-crashlog-processing-1279354226.yaml](swift-crashlog-processing-1279354226.yaml) |

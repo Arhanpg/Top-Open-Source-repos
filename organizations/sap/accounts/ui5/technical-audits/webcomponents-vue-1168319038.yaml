@@ -1,0 +1,150 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:12:44+00:00'
+evidence_fingerprint: e9545fb4b8638a0b92d1a5b6a28e52321a88adf35013ccddcc7fe880f2d8a814
+repository_metadata:
+  company: SAP
+  account: UI5
+  full_name: UI5/webcomponents-vue
+  repository_id: 1168319038
+  url: https://github.com/UI5/webcomponents-vue
+  description: 'The project provides means for creating Vue components out of UI5 Web Components (providing a seamless
+    integration of pure web components in Vue.  '
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-06-09T13:53:04Z'
+  stars: 2
+  readme_url: https://github.com/UI5/webcomponents-vue/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 2db25137ce7866fcd68edb10d3a2378c5e5be463
+  manifest_paths:
+  - package.json
+  - app/package.json
+  - lib/package.json
+  source_files_inspected:
+  - app/env.d.ts
+  - app/src/__tests__/App.test.ts
+  - app/src/main.ts
+  - app/vite.config.ts
+  repository_tree:
+    status: captured
+    sha: 99361e288a53d7901e8302c09dbf2a0ed9e85408
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: The project provides means for creating Vue components out of UI5 Web Components, providing a seamless
+    integration of pure web components in Vue. UI5 Web Components are framework-agnostic custom elements, but using
+    them directly in Vue lacks TypeScript support, v-model compatibility, and native slot syntax. This library wraps
+    them to provide a first-class Vue development experience.
+  why_used: The project provides means for creating Vue components out of UI5 Web Components (providing a seamless
+    integration of pure web components in Vue.
+  core_features:
+  - name: '**Type-safe** - Full TypeScript support with proper type inference'
+    description: '**Type-safe** - Full TypeScript support with proper type inference'
+    evidence:
+    - README.md#🔧 Features
+  - name: '**v-model support** - Two-way data binding for UI5 components'
+    description: '**v-model support** - Two-way data binding for UI5 components'
+    evidence:
+    - README.md#🔧 Features
+  - name: '**Slots support** - Named and default slots'
+    description: '**Slots support** - Named and default slots'
+    evidence:
+    - README.md#🔧 Features
+  - name: '**Reactive** - Seamless integration with Vue''s reactivity system'
+    description: '**Reactive** - Seamless integration with Vue''s reactivity system'
+    evidence:
+    - README.md#🔧 Features
+  technology_stack:
+    languages:
+    - TypeScript
+    - Vue
+    - JavaScript
+    - HTML
+    frameworks_and_libraries: []
+    dependencies:
+    - '@eslint/js'
+    - '@tsconfig/node24'
+    - '@types/node'
+    - '@ui5/webcomponents'
+    - '@ui5/webcomponents-base'
+    - '@vitejs/plugin-vue'
+    - '@vitest/ui'
+    - '@vue/test-utils'
+    - '@vue/tsconfig'
+    - eslint
+    - happy-dom
+    - lib
+    - npm-run-all2
+    - typescript
+    - typescript-eslint
+    - vite
+    - vite-plugin-vue-devtools
+    - vitest
+    - vue
+    - vue-tsc
+    build_and_package_tools:
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: app/env.d.ts, app/src/__tests__/App.test.ts,
+    app/src/main.ts, app/vite.config.ts'
+  setup_and_usage:
+  - '📚 Library Usage: The library provides two ways to use UI5 Web Components in Vue:'
+  - '📚 Library Usage: 1. **createComponent** - Factory function to wrap any UI5 Web Component'
+  - '📚 Library Usage: 2. **Pre-built components** - Ready-to-use wrappers for common components'
+  - 'Installation: This will install dependencies for both the library and the demo app.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/UI5/webcomponents-vue/blob/main/README.md
+  path: README.md
+  blob_sha: 2db25137ce7866fcd68edb10d3a2378c5e5be463
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 42c2888eaae3dbd855a4c6b7d2afc254adef3dad
+  retrieved: true
+- type: manifest
+  path: app/package.json
+  blob_sha: 5165551f12b04609a47d2d9be5cb6ad769ab29b9
+  retrieved: true
+- type: manifest
+  path: lib/package.json
+  blob_sha: 408b536652f32e7e10da2d04cc6be3f062de7a03
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 27275
+    Vue: 3317
+    JavaScript: 1116
+    HTML: 348
+- type: Git tree
+  status: captured
+  sha: 99361e288a53d7901e8302c09dbf2a0ed9e85408
+  truncated: false
+- type: source_file
+  path: app/env.d.ts
+  blob_sha: 11f02fe2a0061d6e6e1f271b21da95423b448b32
+  retrieved: true
+- type: source_file
+  path: app/src/__tests__/App.test.ts
+  blob_sha: d1854b2bcb6d315f4439086ebbc8541a07ccb1c4
+  retrieved: true
+- type: source_file
+  path: app/src/main.ts
+  blob_sha: 01433bca2ac76590c48fabfee8d69d7b223f48bb
+  retrieved: true
+- type: source_file
+  path: app/vite.config.ts
+  blob_sha: 4217010a3178372181948ce34c4d5045dfa18325
+  retrieved: true

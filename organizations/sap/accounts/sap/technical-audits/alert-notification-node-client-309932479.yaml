@@ -1,0 +1,142 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:12:11+00:00'
+evidence_fingerprint: ace6b94028966589342ea921b862ea683b316d1c2800f7348d3faf7717e3c83e
+repository_metadata:
+  company: SAP
+  account: SAP
+  full_name: SAP/alert-notification-node-client
+  repository_id: 309932479
+  url: https://github.com/SAP/alert-notification-node-client
+  description: Promise based client library for SAP Alert Notification service for SAP BTP
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-07-21T17:52:43Z'
+  stars: 12
+  readme_url: https://github.com/SAP/alert-notification-node-client/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 359af3d21d3e40e5cf55f5745080785b970c1332
+  manifest_paths:
+  - package.json
+  - docs/Gemfile
+  source_files_inspected:
+  - src/index.ts
+  - src/authentication.ts
+  - src/client.ts
+  - src/configuration-api/configuration-client.ts
+  repository_tree:
+    status: captured
+    sha: 824a9fbb38902438db28c4cb63931660f5867830
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: '>*Promise based Node.js client library to support the usage of Alert Notification service*'
+  why_used: Promise based client library for SAP Alert Notification service for SAP BTP
+  core_features:
+  - name: Post custom events;
+    description: Post custom events;
+    evidence:
+    - README.md#Library Features
+  - name: Pull your stored events – either the stored on purpose ones or those that have for some reason failed
+      to be delivered to the desired point;
+    description: Pull your stored events – either the stored on purpose ones or those that have for some reason
+      failed to be delivered to the desired point;
+    evidence:
+    - README.md#Library Features
+  - name: Manage your configuration – actions, conditions and subscriptions
+    description: Manage your configuration – actions, conditions and subscriptions
+    evidence:
+    - README.md#Library Features
+  technology_stack:
+    languages:
+    - TypeScript
+    - JavaScript
+    frameworks_and_libraries: []
+    dependencies:
+    - '@babel/preset-env'
+    - '@types/jest'
+    - '@types/node'
+    - '@typescript-eslint/eslint-plugin'
+    - '@typescript-eslint/parser'
+    - axios
+    - eslint
+    - eslint-config-google
+    - eslint-config-prettier
+    - eslint-plugin-import
+    - eslint-plugin-prettier
+    - follow-redirects
+    - husky
+    - jest
+    - jks-js
+    - lint-staged
+    - prettier
+    - semver-regex
+    - ts-jest
+    - tslint
+    - typescript
+    build_and_package_tools:
+    - Bundler manifest
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: src/index.ts, src/authentication.ts,
+    src/client.ts, src/configuration-api/configuration-client.ts'
+  setup_and_usage:
+  - 'Installation: $ npm i @sap_oss/alert-notification-client'
+  - 'Getting Started: Anything you need to get quickly started with the library is available in our documentation
+    page.'
+  - 'Getting Started: Here is a very simple example on how to import and create your first Alert Notification service
+    client:'
+  - 'Getting Started: AlertNotificationClient,'
+  - 'Getting Started: } from ''@sap_oss/alert-notification-client'';'
+  - 'Getting Started: const client = new AlertNotificationClient({'
+  - 'Getting Started: authentication: new BasicAuthentication({'
+  - 'Getting Started: password: ''<your-technical-client-password'''
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/SAP/alert-notification-node-client/blob/main/README.md
+  path: README.md
+  blob_sha: 359af3d21d3e40e5cf55f5745080785b970c1332
+  retrieved: true
+- type: manifest
+  path: package.json
+  blob_sha: 082f7405c90f2a7ed344cc06b56b20d07051266b
+  retrieved: true
+- type: manifest
+  path: docs/Gemfile
+  blob_sha: 516de200de09b586a5eef7f562b25be39af7c5e1
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    TypeScript: 178034
+    JavaScript: 718
+- type: Git tree
+  status: captured
+  sha: 824a9fbb38902438db28c4cb63931660f5867830
+  truncated: false
+- type: source_file
+  path: src/index.ts
+  blob_sha: 99c3aa274ae09db90fcb5cafc0888440b7cbc08e
+  retrieved: true
+- type: source_file
+  path: src/authentication.ts
+  blob_sha: fc31b1aa07f3e9a715b32b77712cb2ff89d2b57c
+  retrieved: true
+- type: source_file
+  path: src/client.ts
+  blob_sha: 5992c8d0dce1225f295df6be8197fe075f7ad935
+  retrieved: true
+- type: source_file
+  path: src/configuration-api/configuration-client.ts
+  blob_sha: 4756d95ad09716361fe4248225262f4a2a629850
+  retrieved: true

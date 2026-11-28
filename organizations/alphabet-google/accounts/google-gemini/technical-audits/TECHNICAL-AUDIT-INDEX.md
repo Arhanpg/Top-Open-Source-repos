@@ -1,10 +1,10 @@
 # Technical audits — google-gemini
 
-Updated: 2026-11-27T22:44:10+00:00
+Updated: 2026-11-28T07:15:16+00:00
 
 ## Status counts
 
-- evidence_only: 28
+- evidence_only: 33
 - insufficient_evidence: 1
 
 ## Repository dossiers
@@ -38,5 +38,10 @@ Updated: 2026-11-27T22:44:10+00:00
 | gemini-android-computer-use-quickstart-1280204353 | evidence_only | [gemini-android-computer-use-quickstart-1280204353.md](gemini-android-computer-use-quickstart-1280204353.md) | [gemini-android-computer-use-quickstart-1280204353.yaml](gemini-android-computer-use-quickstart-1280204353.yaml) |
 | gemini-api-cli-1224715013 | evidence_only | [gemini-api-cli-1224715013.md](gemini-api-cli-1224715013.md) | [gemini-api-cli-1224715013.yaml](gemini-api-cli-1224715013.yaml) |
 | gemini-api-quickstart-853516073 | evidence_only | [gemini-api-quickstart-853516073.md](gemini-api-quickstart-853516073.md) | [gemini-api-quickstart-853516073.yaml](gemini-api-quickstart-853516073.yaml) |
+| gemini-cli-968197216 | evidence_only | [gemini-cli-968197216.md](gemini-cli-968197216.md) | [gemini-cli-968197216.yaml](gemini-cli-968197216.yaml) |
+| gemini-cli-action-1009879802 | evidence_only | [gemini-cli-action-1009879802.md](gemini-cli-action-1009879802.md) | [gemini-cli-action-1009879802.yaml](gemini-cli-action-1009879802.yaml) |
+| gemini-fullstack-langgraph-quickstart-988337333 | evidence_only | [gemini-fullstack-langgraph-quickstart-988337333.md](gemini-fullstack-langgraph-quickstart-988337333.md) | [gemini-fullstack-langgraph-quickstart-988337333.yaml](gemini-fullstack-langgraph-quickstart-988337333.yaml) |
+| gemini-image-editing-nextjs-quickstart-949542298 | evidence_only | [gemini-image-editing-nextjs-quickstart-949542298.md](gemini-image-editing-nextjs-quickstart-949542298.md) | [gemini-image-editing-nextjs-quickstart-949542298.yaml](gemini-image-editing-nextjs-quickstart-949542298.yaml) |
+| gemini-live-api-examples-1157699202 | evidence_only | [gemini-live-api-examples-1157699202.md](gemini-live-api-examples-1157699202.md) | [gemini-live-api-examples-1157699202.yaml](gemini-live-api-examples-1157699202.yaml) |
 | github-765449529 | insufficient_evidence | [github-765449529.md](github-765449529.md) | [github-765449529.yaml](github-765449529.yaml) |
 | journal-with-gemini-798431387 | evidence_only | [journal-with-gemini-798431387.md](journal-with-gemini-798431387.md) | [journal-with-gemini-798431387.yaml](journal-with-gemini-798431387.yaml) |

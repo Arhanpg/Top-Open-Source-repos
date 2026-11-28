@@ -1,0 +1,136 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:05:52+00:00'
+evidence_fingerprint: 5242929bbdf5487ecd14ef52279dbbb9ce21926b17486c78e3529e960f583e9d
+repository_metadata:
+  company: NVIDIA
+  account: triton-inference-server
+  full_name: triton-inference-server/server
+  repository_id: 151636194
+  url: https://github.com/triton-inference-server/server
+  description: 'The Triton Inference Server provides an optimized cloud and edge inferencing solution. '
+  default_branch: main
+  license_spdx: BSD-3-Clause
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-11-23T16:41:42Z'
+  stars: 11161
+  readme_url: https://github.com/triton-inference-server/server/blob/main/README.md
+  readme_path: README.md
+  readme_sha: f6f159df03d13ff7234f42e2444ff5a93abbec1d
+  manifest_paths:
+  - CMakeLists.txt
+  - pyproject.toml
+  - docs/Makefile
+  - src/CMakeLists.txt
+  - deploy/mlflow-triton-plugin/setup.py
+  - python/openai/requirements.txt
+  source_files_inspected:
+  - python/openai/openai_frontend/main.py
+  - src/classification.cc
+  - src/classification.h
+  - src/command_line_parser.cc
+  repository_tree:
+    status: captured
+    sha: bc5846bda72fcaae43d7d0e4d0d7c7466de2612f
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: -->
+  why_used: The Triton Inference Server provides an optimized cloud and edge inferencing solution.
+  core_features: []
+  technology_stack:
+    languages:
+    - Python
+    - Shell
+    - C++
+    - CMake
+    - Java
+    - Go Template
+    - Standard ML
+    - Dockerfile
+    frameworks_and_libraries: []
+    dependencies:
+    - fastapi
+    - httpx
+    - openai
+    - partial-json-parser
+    - scipy
+    - starlette
+    build_and_package_tools:
+    - CMake configuration
+    - Python project manifest
+    - pip requirements file
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: python/openai/openai_frontend/main.py,
+    src/classification.cc, src/classification.h, src/command_line_parser.cc'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/triton-inference-server/server/blob/main/README.md
+  path: README.md
+  blob_sha: f6f159df03d13ff7234f42e2444ff5a93abbec1d
+  retrieved: true
+- type: manifest
+  path: CMakeLists.txt
+  blob_sha: e1e36f0f26be991370c2d7b98e988b8a29e156cf
+  retrieved: true
+- type: manifest
+  path: pyproject.toml
+  blob_sha: e341b46eec65cb682febc9736f1389a6810290c5
+  retrieved: true
+- type: manifest
+  path: docs/Makefile
+  blob_sha: b8cf4b654b4852c2f7db5ec80e6a1b075e9b9475
+  retrieved: true
+- type: manifest
+  path: src/CMakeLists.txt
+  blob_sha: fe5934506ba8b83698751db74ddabab6f904fe8e
+  retrieved: true
+- type: manifest
+  path: deploy/mlflow-triton-plugin/setup.py
+  blob_sha: 65b8e0df1e66772dba080026c7700e15b955289b
+  retrieved: true
+- type: manifest
+  path: python/openai/requirements.txt
+  blob_sha: baf74f67af898f05fba4fbafec051494b9941d20
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Python: 4178180
+    Shell: 1478209
+    C++: 1217694
+    CMake: 87552
+    Java: 78330
+    Go Template: 23040
+    Standard ML: 11562
+    Dockerfile: 1610
+- type: Git tree
+  status: captured
+  sha: bc5846bda72fcaae43d7d0e4d0d7c7466de2612f
+  truncated: false
+- type: source_file
+  path: python/openai/openai_frontend/main.py
+  blob_sha: 08655f0075851242d33dab1ebd22a9a7c63f6de7
+  retrieved: true
+- type: source_file
+  path: src/classification.cc
+  blob_sha: ca50ceb6dcd2352c0dd7049a77cb4bb542d7427d
+  retrieved: true
+- type: source_file
+  path: src/classification.h
+  blob_sha: 9264baa2b0d972c5ac3d5714ce925e5621182290
+  retrieved: true
+- type: source_file
+  path: src/command_line_parser.cc
+  blob_sha: f228bcaf7744a5da486110b9c7a846971eb13e01
+  retrieved: true

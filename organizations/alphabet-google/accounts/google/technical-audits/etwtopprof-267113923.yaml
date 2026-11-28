@@ -1,0 +1,75 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:13:23+00:00'
+evidence_fingerprint: a31863d413ccb5f518d890354c8fdc3be76cbb11012da29ab3bc78b8ee8812d9
+repository_metadata:
+  company: Alphabet (Google)
+  account: google
+  full_name: google/EtwToPprof
+  repository_id: 267113923
+  url: https://github.com/google/EtwToPprof
+  description: null
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2026-06-30T18:49:13Z'
+  stars: 14
+  readme_url: https://github.com/google/EtwToPprof/blob/main/README.md
+  readme_path: README.md
+  readme_sha: afd9f0c0fcadddfbba6f87cf6d30efcdd3b8c6a9
+  manifest_paths: []
+  source_files_inspected:
+  - ProfileWriter.cs
+  - Program.cs
+  repository_tree:
+    status: captured
+    sha: b1e319b2afca77b355f8246d3ea78bcd1a3fd295
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: EtwToPprof exports ETW traces to pprof protobuf format. It uses the [.NET TraceProcessing API](https://www.nuget.org/packages/Microsoft.Windows.EventTracing.Processing.All)
+    to process ETW traces.
+  why_used: EtwToPprof exports ETW traces to pprof protobuf format. It uses the [.NET TraceProcessing API](https://www.nuget.org/packages/Microsoft.Windows.EventTracing.Processing.All)
+    to process ETW traces.
+  core_features: []
+  technology_stack:
+    languages:
+    - C#
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools: []
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: ProfileWriter.cs,
+    Program.cs'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/google/EtwToPprof/blob/main/README.md
+  path: README.md
+  blob_sha: afd9f0c0fcadddfbba6f87cf6d30efcdd3b8c6a9
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C#: 29618
+- type: Git tree
+  status: captured
+  sha: b1e319b2afca77b355f8246d3ea78bcd1a3fd295
+  truncated: false
+- type: source_file
+  path: ProfileWriter.cs
+  blob_sha: b758b79a3757ebb884c4966150e07bb0a3e8b6a2
+  retrieved: true
+- type: source_file
+  path: Program.cs
+  blob_sha: 1fee59ad40a332c5b7b8dfc9cf20846d787b9634
+  retrieved: true

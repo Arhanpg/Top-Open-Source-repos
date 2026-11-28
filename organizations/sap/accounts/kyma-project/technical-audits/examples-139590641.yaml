@@ -1,0 +1,133 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T07:12:04+00:00'
+evidence_fingerprint: a2f12f8ac5db4d42b3b921d51a32f5c07549a6cd98aa0fa015493ea06991ac19
+repository_metadata:
+  company: SAP
+  account: kyma-project
+  full_name: kyma-project/examples
+  repository_id: 139590641
+  url: https://github.com/kyma-project/examples
+  description: Kyma use cases
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: true
+  fork: false
+  disabled: false
+  pushed_at: '2025-05-30T06:31:09Z'
+  stars: 49
+  readme_url: https://github.com/kyma-project/examples/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 64f2bde673dd5a404747e402f6cd23a7cb4e6bbf
+  manifest_paths:
+  - event-email-service/Dockerfile
+  - event-email-service/Makefile
+  - event-email-service/package.json
+  - http-db-service/Dockerfile
+  - http-db-service/Makefile
+  - orders-service/Dockerfile
+  source_files_inspected:
+  - event-email-service/src/app.js
+  - orders-service/cmd/main.go
+  - http-db-service/main.go
+  - prometheus/monitoring-custom-metrics/main.go
+  repository_tree:
+    status: captured
+    sha: 73a5b79ab72721ef351dfefcab9359d97617cb59
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: This repository has been deprecated and archived. Replacements can be found in the individual module
+    pages. Telemetry-related guides moved to the new Telemetry integration guides.
+  why_used: Kyma use cases
+  core_features: []
+  technology_stack:
+    languages:
+    - Go
+    - Makefile
+    - JavaScript
+    - Shell
+    - Dockerfile
+    - Mustache
+    frameworks_and_libraries: []
+    dependencies:
+    - chai
+    - chai-http
+    - express
+    - mocha
+    build_and_package_tools:
+    - Docker build configuration
+    - npm-compatible manifest
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: event-email-service/src/app.js,
+    orders-service/cmd/main.go, http-db-service/main.go, prometheus/monitoring-custom-metrics/main.go'
+  setup_and_usage:
+  - 'Installation: You can run all the examples locally or in a cluster. For instructions on installing and running
+    an example, refer to the README.md document of the specific example, either by using the **List of examples**
+    section or by navigating through the project structure.'
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/kyma-project/examples/blob/main/README.md
+  path: README.md
+  blob_sha: 64f2bde673dd5a404747e402f6cd23a7cb4e6bbf
+  retrieved: true
+- type: manifest
+  path: event-email-service/Dockerfile
+  blob_sha: 3dd80f16f98e21a346a64a79c0adaea1c5591f40
+  retrieved: true
+- type: manifest
+  path: event-email-service/Makefile
+  blob_sha: a0c83143e557ae879252442fde4b870e0900cc2b
+  retrieved: true
+- type: manifest
+  path: event-email-service/package.json
+  blob_sha: dd0a3ee3d99654355bcf3bfdd39c935bb90467af
+  retrieved: true
+- type: manifest
+  path: http-db-service/Dockerfile
+  blob_sha: ec0300afafc0d9d67a1d92bf996ebf65405f56d2
+  retrieved: true
+- type: manifest
+  path: http-db-service/Makefile
+  blob_sha: 61a1823a4663f2abec9f708f05fab49d4d7c8555
+  retrieved: true
+- type: manifest
+  path: orders-service/Dockerfile
+  blob_sha: b12ec0c6ab8023114355469a6377440b616c7c8e
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    Go: 61542
+    Makefile: 2575
+    JavaScript: 2493
+    Shell: 2479
+    Dockerfile: 1879
+    Mustache: 1021
+- type: Git tree
+  status: captured
+  sha: 73a5b79ab72721ef351dfefcab9359d97617cb59
+  truncated: false
+- type: source_file
+  path: event-email-service/src/app.js
+  blob_sha: c6cca1ba28a2769b777f147edcf405149c0822c5
+  retrieved: true
+- type: source_file
+  path: orders-service/cmd/main.go
+  blob_sha: bdfed75f3169cdb12400af4fc6de28160653415d
+  retrieved: true
+- type: source_file
+  path: http-db-service/main.go
+  blob_sha: 9b49c327d568ca365ea23ed1802fdf4660fd3e38
+  retrieved: true
+- type: source_file
+  path: prometheus/monitoring-custom-metrics/main.go
+  blob_sha: 8b6c2b1c990ab8a898362842e86a0b486cfc09a9
+  retrieved: true

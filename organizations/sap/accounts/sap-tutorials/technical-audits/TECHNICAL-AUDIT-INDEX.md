@@ -1,10 +1,10 @@
 # Technical audits — sap-tutorials
 
-Updated: 2026-11-27T22:44:04+00:00
+Updated: 2026-11-28T07:15:20+00:00
 
 ## Status counts
 
-- evidence_only: 23
+- evidence_only: 27
 
 ## Repository dossiers
 
@@ -32,4 +32,8 @@ Updated: 2026-11-27T22:44:04+00:00
 | sap-mobile-cards-567024496 | evidence_only | [sap-mobile-cards-567024496.md](sap-mobile-cards-567024496.md) | [sap-mobile-cards-567024496.yaml](sap-mobile-cards-567024496.yaml) |
 | sap-mobile-development-kit-545071476 | evidence_only | [sap-mobile-development-kit-545071476.md](sap-mobile-development-kit-545071476.md) | [sap-mobile-development-kit-545071476.yaml](sap-mobile-development-kit-545071476.yaml) |
 | sapcommunity-390376556 | evidence_only | [sapcommunity-390376556.md](sapcommunity-390376556.md) | [sapcommunity-390376556.yaml](sapcommunity-390376556.yaml) |
+| tutorial-actions-440833368 | evidence_only | [tutorial-actions-440833368.md](tutorial-actions-440833368.md) | [tutorial-actions-440833368.yaml](tutorial-actions-440833368.yaml) |
+| tutorial-ci-1346408105 | evidence_only | [tutorial-ci-1346408105.md](tutorial-ci-1346408105.md) | [tutorial-ci-1346408105.yaml](tutorial-ci-1346408105.yaml) |
 | tutorials-47708831 | evidence_only | [tutorials-47708831.md](tutorials-47708831.md) | [tutorials-47708831.yaml](tutorials-47708831.yaml) |
+| tutorials-ims-1223662300 | evidence_only | [tutorials-ims-1223662300.md](tutorials-ims-1223662300.md) | [tutorials-ims-1223662300.yaml](tutorials-ims-1223662300.yaml) |
+| xpa-tutorials-558747589 | evidence_only | [xpa-tutorials-558747589.md](xpa-tutorials-558747589.md) | [xpa-tutorials-558747589.yaml](xpa-tutorials-558747589.yaml) |

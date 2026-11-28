@@ -1,0 +1,104 @@
+schema_version: '1.0'
+audit_status: evidence_only
+generated_at: '2026-11-28T06:53:12+00:00'
+evidence_fingerprint: 1935eaeca117dd382544d8f53dc989190c16b65170a68c28fce772d7e6569e25
+repository_metadata:
+  company: NVIDIA
+  account: NVIDIA-ISAAC-ROS
+  full_name: NVIDIA-ISAAC-ROS/isaac_ros_depth_segmentation
+  repository_id: 509289728
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_depth_segmentation
+  description: NVIDIA-accelerated, deep learned depth segmentation and obstacle field ranging using Bi3D
+  default_branch: main
+  license_spdx: Apache-2.0
+  archived: false
+  fork: false
+  disabled: false
+  pushed_at: '2025-12-11T06:15:36Z'
+  stars: 56
+  readme_url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_depth_segmentation/blob/main/README.md
+  readme_path: README.md
+  readme_sha: 014af3c7766d014492a6c9cb01ab29171c91c245
+  manifest_paths:
+  - gxf_isaac_bi3d/CMakeLists.txt
+  - isaac_ros_bi3d/CMakeLists.txt
+  - isaac_ros_nitros_bi3d_inference_param_array_type/CMakeLists.txt
+  source_files_inspected:
+  - isaac_ros_bi3d/src/bi3d_node.cpp
+  - isaac_ros_nitros_bi3d_inference_param_array_type/src/nitros_bi3d_inference_param_array.cpp
+  - gxf_isaac_bi3d/gxf/extensions/bi3d/bi3d.cpp
+  - gxf_isaac_bi3d/gxf/extensions/bi3d/components/bi3d_depthview.cpp
+  repository_tree:
+    status: captured
+    sha: bd0dc45881024a01076d3666f6a1961764a4299c
+    truncated: false
+  source_code_review: Selected source files only; not exhaustive.
+analysis:
+  purpose: NVIDIA-accelerated packages for depth segmentation.
+  why_used: NVIDIA-accelerated, deep learned depth segmentation and obstacle field ranging using Bi3D
+  core_features: []
+  technology_stack:
+    languages:
+    - C++
+    - CMake
+    - Cuda
+    frameworks_and_libraries: []
+    dependencies: []
+    build_and_package_tools:
+    - CMake configuration
+    runtimes: []
+    databases_and_storage: []
+    infrastructure: []
+    platforms: []
+  architecture: 'Architecture is not interpreted in evidence-only mode. Sampled source files: isaac_ros_bi3d/src/bi3d_node.cpp,
+    isaac_ros_nitros_bi3d_inference_param_array_type/src/nitros_bi3d_inference_param_array.cpp, gxf_isaac_bi3d/gxf/extensions/bi3d/bi3d.cpp,
+    gxf_isaac_bi3d/gxf/extensions/bi3d/components/bi3d_depthview.cpp'
+  setup_and_usage: []
+  limitations: []
+  unknowns:
+  - Semantic feature and architecture interpretation is pending.
+  - Framework, database, runtime and infrastructure require direct evidence.
+  confidence: medium
+evidence_sources:
+- type: README
+  url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_depth_segmentation/blob/main/README.md
+  path: README.md
+  blob_sha: 014af3c7766d014492a6c9cb01ab29171c91c245
+  retrieved: true
+- type: manifest
+  path: gxf_isaac_bi3d/CMakeLists.txt
+  blob_sha: c253a6183473060f4edbf814fda69eccf3b45813
+  retrieved: true
+- type: manifest
+  path: isaac_ros_bi3d/CMakeLists.txt
+  blob_sha: 3eb5f04e6ac79dbcf8a9f7d53c12fc156aa80db5
+  retrieved: true
+- type: manifest
+  path: isaac_ros_nitros_bi3d_inference_param_array_type/CMakeLists.txt
+  blob_sha: d783ed2d4e673d1a917c0ed99cada78d019de3d8
+  retrieved: true
+- type: GitHub Languages API
+  values:
+    C++: 232712
+    CMake: 8827
+    Cuda: 1535
+- type: Git tree
+  status: captured
+  sha: bd0dc45881024a01076d3666f6a1961764a4299c
+  truncated: false
+- type: source_file
+  path: isaac_ros_bi3d/src/bi3d_node.cpp
+  blob_sha: 0cb75e9551f2fca13904baf97bee3e0b73622b9e
+  retrieved: true
+- type: source_file
+  path: isaac_ros_nitros_bi3d_inference_param_array_type/src/nitros_bi3d_inference_param_array.cpp
+  blob_sha: 781f912d0ac81aff374d4d5c4eac89447af22540
+  retrieved: true
+- type: source_file
+  path: gxf_isaac_bi3d/gxf/extensions/bi3d/bi3d.cpp
+  blob_sha: 2ed9f1a0b1c13ab8c441766b61fb2c0b36a6ceed
+  retrieved: true
+- type: source_file
+  path: gxf_isaac_bi3d/gxf/extensions/bi3d/components/bi3d_depthview.cpp
+  blob_sha: 876e701d22defbe6aee8addd854679667006fd0b
+  retrieved: true
